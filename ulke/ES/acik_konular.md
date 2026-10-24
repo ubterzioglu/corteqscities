@@ -60,3 +60,24 @@ Süreç: kaynak keşfi → yazar → bağımsız denetim → düzeltme editörü
 - Elektrik aboneliği kartı: MITECO "her an cezasız çıkar" cümlesi çıkarıldı (CNMC'nin şartlı cezası ile uzlaştırılamadı).
 - Bizum kartı: güncel resmî sayfa yok; cümleler 2021 tarihli kaynağa bağlı.
 - Doğrulama ölçüsü: v3'te editör sonrası ikinci denetimden sonra yapılan son düzeltmeler yalnız script denetiminden geçti.
+
+---
+# Grup 2 eki (paket v4: 80 kart, saglik + ev + planlama eklendi) — 2026-10-24
+
+Süreç: kaynak keşfi → yazar → bağımsız denetim → düzeltme editörü. Editör sonrası ikinci bir bağımsız denetim YAPILMADI; düzeltmeler yalnız script denetiminden geçti (alıntı kaynak metninde var).
+
+## Kartlarda olmayan, önemli boşluklar
+- **Türk okuyucuya AB rejimi uyarısı yok (sağlık):** "AB serbest dolaşım rejimi Türk vatandaşına uygulanmaz; AB vatandaşının Türk aile üyesi için ayrı kural var" cümlesi kaynaksız bulundu ve kartlardan çıkarıldı. Kaynak (RD 240/2007 art. 2, es:kaynak:005) kart başına 2 kaynak sınırına sığmadı. Çözüm: bu uyarı için ayrı bir "AB vatandaşı olmayanlar için sağlık erişimi" kartı ya da şehir fazında not.
+- **Yolcu bagajı gümrük muafiyeti kartı yok:** gümrük kartı (planlama kart 4) kaynak sınırı yüzünden yalnız ev eşyası ve nakit beyanını anlatıyor. Yolcu sayfasındaki 430/300/150 € muafiyeti ve tütün/alkol kotaları ayrı bir kart olabilir (kaynak es:kaynak:101; sayfanın "10.000 €'dan fazla" ifadesi AEAT nakit beyan sayfasıyla ("ve üzeri") çelişiyor, 101 kullanılırken dikkat).
+- **Katalonya, Andalucía vb. bölge bilgisi ulusal karta girmedi:** fianza'nın yatırıldığı kurum (Katalonya'da INCASÒL; MIVAU sayfası 403 verdi), gergin bölge ilanları (belediye bazlı), özerk bölgenin sağlık kartı ve aşı takvimi uygulaması → bölge ve şehir fazı.
+
+## Kira mevzuatı (ev) — acil güncelleme gerekir
+- RDL 29/2026 (7 Ekim) Meclis onayı ~6 Kasım'da doluyor; RDL 28/2026 15 Kasım'da md. 10'u değiştiriyor. Altı ev kartının valid_until değeri 2026-11-05; country_apply 6 Kasım'da bunları yeniden denetime alıyor (denendi). Yeniden yazılacak: kira sözleşmesi ve uzama, depozito/fianza, kira artışı (IRAV), onarım, evden çıkış, dolandırıcılık.
+- Evden çıkış kartı: md. 11.1 çekirdeği (6 ay, 30 gün); geçici konut md. 11.2 RDL 29/2026'ya dayanıyor ve kartta bu şekilde işaretli.
+
+## Doğrulanamayan ya da dikkat isteyen noktalar
+- İstanbul Başkonsolosluğu sayfaları (planlama kart 1, 2, 6) aralıklı 503/504 verdi, tarihsiz; kartlar "İstanbul konsolosluk bölgesinde oturanlar için" diye sınırlı.
+- Evcil hayvan kartı: MAPA sayfası sertifika hatası verdi (açılmadı); AEAT sayfasına dayanıyor, yönetmelik numarası yazılmadı; Türkiye'nin 577/2013 Ek II listesinde olup olmadığı doğrulanmadı.
+- IPREM euro tutarı resmî sayfada doğrulanamadı; kartlarda yalnız yüzde olarak yazıldı.
+- Saat kartı: yaz saati bu yıl 25 Ekim 2026'da bitiyor; kart tarih değil kuralı (Mart/Ekim son pazarı) yazıyor.
+- Sağlık kart 7 (bağımlılık): Ley 39/2006 art. 5, Ley 4/2026 ile 23/10/2026'da değişti; kart bu tarihe göre yazıldı.

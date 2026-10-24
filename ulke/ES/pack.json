@@ -1,6 +1,6 @@
 {
  "country": "ES",
- "version": 3,
+ "version": 4,
  "built": "2026-10-24",
  "cards": {
   "nie-nedir-ne-ise-yarar": {
@@ -297,6 +297,111 @@
    "sha256": "d3c1e9ee6e9c81841bfd2b88985b2d7e20105dead13a1cba04e74546f3c8ebb9",
    "valid_until": null,
    "topic": "fatura"
+  },
+  "kamu-saglik-sistemine-erisim-hak-sahipleri": {
+   "sha256": "598e154774264ad9423e87b008bc96ef973f1fffa935e7d16778595fa941cf56",
+   "valid_until": null,
+   "topic": "saglik"
+  },
+  "saglik-sigortasi-sarti-ve-convenio-especial": {
+   "sha256": "1cb8016f036a1de3538895a21c42fa35ffa64b36efe8cd111fb24a717fe0f790",
+   "valid_until": null,
+   "topic": "saglik"
+  },
+  "recete-ilac-katilim-payi-copago": {
+   "sha256": "3e40883f1c490e9a4acf1efdf68593eb6dafb39c42497ec347b4a0926ca67a9f",
+   "valid_until": null,
+   "topic": "saglik"
+  },
+  "acil-durumda-112": {
+   "sha256": "a36175ba56593430abd543a5f214fc2c17b1882e1f83f3310bde04986942cc21",
+   "valid_until": null,
+   "topic": "saglik"
+  },
+  "ulusal-asi-takvimi": {
+   "sha256": "e4dac7dcd8f14eed38eaa369fc306cff6453b36e7ca37cec60b0d9b0afd6f24b",
+   "valid_until": null,
+   "topic": "saglik"
+  },
+  "hamilelik-dogum-ve-cocuk-sagligi-haklari": {
+   "sha256": "6554e3f4b0d900f9e5dd0a8d24bbd6ed3b7934af294508821d99227dd4b6642c",
+   "valid_until": null,
+   "topic": "saglik"
+  },
+  "ruh-sagligi-ve-yasli-bakimi-dependencia": {
+   "sha256": "d841415f2178d3c2412a347ee4703bca45103aa5d9b38eccc48436b33f7ef609",
+   "valid_until": null,
+   "topic": "saglik"
+  },
+  "kira-sozlesmesi-suresi-ve-uzama": {
+   "sha256": "2ecff5220b74cc53959b674ae255a75630668ba117560e4a71ead1d5920cd26a",
+   "valid_until": "2026-11-05",
+   "topic": "ev"
+  },
+  "kira-depozitosu-fianza-ve-iade": {
+   "sha256": "fd6b93540020aec9db5061264659bcee4fa6ac0ed2159ebc054cd2142644cd93",
+   "valid_until": "2026-11-05",
+   "topic": "ev"
+  },
+  "kira-artisi-siniri-irav": {
+   "sha256": "a7071c9f3f483a54e0dd184738677696174c1232a27fe64249f5796774e456ef",
+   "valid_until": "2026-11-05",
+   "topic": "ev"
+  },
+  "kirada-onarim-ve-hasar-sorumlulugu": {
+   "sha256": "025d3b0731c2836b9f1c9a9274431e4e87d8ff0ddfeb7c2438f705a453efa445",
+   "valid_until": "2026-11-05",
+   "topic": "ev"
+  },
+  "kiralik-evden-cikis-ve-ihbar-suresi": {
+   "sha256": "c5ca0cae9219015059dfbbce616e962bb15b82b628a4426fd1903991d4a992d9",
+   "valid_until": "2026-11-05",
+   "topic": "ev"
+  },
+  "kiralik-ilan-dolandiriciligini-tanima": {
+   "sha256": "de897ef3f221d1b0d20172cc2d2333d83fb7a91677033d1a56e5d9da5cfcc37a",
+   "valid_until": "2026-11-05",
+   "topic": "ev"
+  },
+  "tasinma-oncesi-vize-ve-ilk-oturum-izni": {
+   "sha256": "07f6075d8be3ff645e85919e82a943d89f8d5767bcb2a78553ceea27de3854e2",
+   "valid_until": null,
+   "topic": "planlama"
+  },
+  "oturum-vizesi-basvurusunda-getirilecek-belgeler": {
+   "sha256": "f2bdfaaf1505421673a4d26853dd42efc63342137bbb6042392c4a1b8c9ee12c",
+   "valid_until": null,
+   "topic": "planlama"
+  },
+  "ilk-gunlerde-nuss-ve-temel-odeme-hesabi": {
+   "sha256": "f174171e441ca643b3186a880c197ebe0e5f2db9686b0ef1092fa2173c6f9129",
+   "valid_until": null,
+   "topic": "planlama"
+  },
+  "ab-disindan-gelirken-esya-ve-nakit-gumruk-beyani": {
+   "sha256": "896abfca6bcc992eb5055a65c9d6e3ce78085c81adfa80454fba2d01a1df22a7",
+   "valid_until": null,
+   "topic": "planlama"
+  },
+  "ab-disindan-evcil-hayvanla-ispanyaya-giris": {
+   "sha256": "9465b801d2dd0ead5d95f717872dbcf53b259ae701b0fb1840c59b8990dbb75d",
+   "valid_until": null,
+   "topic": "planlama"
+  },
+  "oturum-ve-ogrenci-vizesinde-saglik-sigortasi-sarti": {
+   "sha256": "cab3e61e4784da545d5706f1b4aecb55f31ba6ed848275acc7b4d7df9c8903ea",
+   "valid_until": null,
+   "topic": "planlama"
+  },
+  "ispanya-para-birimi-euro-ve-resmi-dil": {
+   "sha256": "72686041bd8b3b775af8a5530af371b113d99d8361b1dc85db642d42367d0b0d",
+   "valid_until": null,
+   "topic": "planlama"
+  },
+  "ispanya-resmi-saat-ve-yaz-saati-kurali": {
+   "sha256": "511b84ee0a37c0cc0b53b787577674ec2adc9f71ce4808e3a213bd118f8c20f8",
+   "valid_until": null,
+   "topic": "planlama"
   }
  }
 }
