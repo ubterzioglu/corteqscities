@@ -81,3 +81,24 @@ Süreç: kaynak keşfi → yazar → bağımsız denetim → düzeltme editörü
 - IPREM euro tutarı resmî sayfada doğrulanamadı; kartlarda yalnız yüzde olarak yazıldı.
 - Saat kartı: yaz saati bu yıl 25 Ekim 2026'da bitiyor; kart tarih değil kuralı (Mart/Ekim son pazarı) yazıyor.
 - Sağlık kart 7 (bağımlılık): Ley 39/2006 art. 5, Ley 4/2026 ile 23/10/2026'da değişti; kart bu tarihe göre yazıldı.
+
+
+## G2b denetiminden kalanlar (2026-10-24)
+- saglik / kamu-saglik-sistemine-erisim-hak-sahipleri: convenio especial için 1 yıl kesintisiz ikamet ve padrón koşulu kartın kaynaklarında (091, 092) yok, yalnız 093'te (kart 2); kart başına 2 kaynak sınırı nedeniyle bu karta eklenmedi.
+- saglik / saglik-sigortasi-sarti-ve-convenio-especial: RD 557/2011 ile RD 1155/2024'ün hangisinin hangi konuda geçerli olduğu kaynaklarda yok; Türkiye-İspanya sosyal güvenlik sözleşmesinin sağlığı kapsayıp kapsamadığı kaynakta yok.
+- saglik / recete-ilac-katilim-payi-copago: "asegurado activo" tanımı (öğrenci, işsiz gibi grupların satırı) ve ATC azaltılmış grup 4,98 € tavanının ölçü birimi kaynakta yok. (Denetimin "adım 3 kaynaksız" bulgusu yersizdi: cümle art. 101.3'te var, kaynağa göre netleştirildi.)
+- saglik / acil-durumda-112: kaynak RD 903/1997 özgün metni; güncel mevzuat karşılaştırması kaynakta yok.
+- saglik / ulusal-asi-takvimi: hangi aşı, hangi yaş, ücret bilgisi kaynak sayfada yok (takvim PDF'i kaynak değil).
+- saglik / hamilelik-dogum-ve-cocuk-sagligi-haklari: hamilelik hizmetleri için ikamet/çalışma izni koşulu kaynakta yok; doğum tarihi yerine evlat edinme/koruma kararı tarihinin de yaş ölçütü olduğu denetimde söylendi, kartta düzeltilmedi.
+- saglik / ruh-sagligi-ve-yasli-bakimi-dependencia: Türk vatandaşının LO 4/2000, antlaşma ve menşe ülke sözleşmeleri uyarınca fiilen hak sahibi olup olmadığı kaynakta yok (kart yalnız havaleyi yazar).
+- ev / kira-sozlesmesi-suresi-ve-uzama: md. 9 bis.2 (12 ayı gerekçesiz aşan geçici sözleşmenin ana konut sayılması) kartta yok; kaynak metninin tam koşulu okunmadan yazılmadı.
+- ev / kira-depozitosu-fianza-ve-iade: Katalonya/Bask gibi bölgelerde fianza depozito yükümlülüğü kaynakta yok; RDL 29/2026'nın Meclis onayı kaynakta yok.
+- ev / kira-artisi-siniri-irav: gergin bölge ilanının belediye/bölge bazlı olduğu kaynakta yok; INE tablosunda 2,54'ün sütunu (yıllık değişim mi) metinden kesin değil; md. 18.1'in RDL 29/2026 öncesi metni kaynakta yok (neyin yeni olduğu yazılamadı).
+- ev / kirada-onarim-ve-hasar-sorumlulugu: md. 21.5 (15 günlük usul) kartta yok; RDL 29/2026'nın Meclis onayı kaynakta yok.
+- ev / kiralik-evden-cikis-ve-ihbar-suresi: RDL 28/2026 ve 29/2026 için Meclis onay/oylama sonucu kaynakta yok; 15 Kasım 2026 sonrası tazminat tutarı hesabı ve a-e istisnalarının ayrıntısı karta yazılmadı; md. 11'in 15 Kasım'dan sonra değişip değişmediği kaynakta belirtilmiyor.
+- planlama / oturum-vizesi-basvurusunda-getirilecek-belgeler: IPREM'in euro tutarı ve birimi kaynakta (es:kaynak:040) yok; yazılmadı.
+- planlama / ilk-gunlerde-nuss-ve-temel-odeme-hesabi: slug "ilk-gunlerde-..." kaldı (slug değişirse paket kimliği kayar); kaynak NUSS için süre sınırı koymaz. "Türk vatandaşı olarak NIE" ifadesi kaynaktaki "DNI o NIE" sayımının yorumudur; kaynak DNI/NIE farkını açıklamaz.
+- planlama / ab-disindan-gelirken-esya-ve-nakit-gumruk-beyani: yolcu bagajı muafiyet kuralları (kaynak 101) kart başına 2 kaynak sınırı nedeniyle karta girmedi; ayrı kart önerilir. Ceuta/Melilla/Kanarya nakit rejimi kaynakta yok.
+- planlama / ab-disindan-evcil-hayvanla-ispanyaya-giris: "2026/636" sayılı daha yeni düzenleme ve Ek II'nin güncelliği kaynak 105'te yok (yazılmadı); 0,5 UI/ml, 3 ay, 7 ay kuralı kaynakta yalnız İspanya'ya dönüş bölümünde var, AB dışından ilk giriş için ayrıca doğrulayan kaynak yok.
+- planlama / ispanya-para-birimi-euro-ve-resmi-dil: euro banknotlar ve "İspanya'nın para birimi euro" cümlesi kaynaklarda doğrudan yok.
+- planlama / ispanya-resmi-saat-ve-yaz-saati-kurali: Ceuta/Melilla saati ve 2026 yaz saati bitiş tarihi (25 Ekim 2026) kaynakta yok.

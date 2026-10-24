@@ -1,0 +1,24 @@
+# ES ulusal paketi, konu "planlama": boşluklar
+
+Genel: 8 kart (order 701-708; liste 7 kart idi, kart 7 iki karta bölündü), kart başına en çok 2 source_id, tüm alıntılar kaynak metninde doğrulandı. Kartlar şehir-nötr, hitap "sen".
+
+## Kart sayısı notu
+- Kart 7 (para birimi, dil, saat) üç ayrı kaynak gerektirdi (BdE euro, Anayasa m.3, RD 236/2002); kart başına en çok 2 kaynak kuralı yüzünden iki karta bölündü: 707 (para birimi + resmî dil) ve 708 (resmî saat + yaz saati).
+
+## Yazılmayanlar (kaynak kanıtlamadığı için)
+- Kart 1 ve 3: genel "taşınma sırası" ve "ilk günlerde önce şunu yap" anlatan resmî sayfa yok; sıra ifadesi kullanılmadı. TIE (vize sonrası 1 ay) yalnız kart 1'de, NUSS ve temel ödeme hesabı yalnız kart 3'te; kart 3'ün 2 kaynak sınırı yüzünden TIE kaynağı oraya eklenemedi. NIE ve adres kaydı (empadronamiento) için yeni kanıt aranmadı. Oturum vizesi sayfası tarihsiz.
+- Kart 1 ve 2: yalnız "residencia no lucrativa" vizesi (İstanbul Başkonsolosluğu sayfası) anlatıldı; çalışma vizesi, öğrenci vizesi, teletrabajo vizesi ve AB vatandaşı kaydı için adımlar bu kartlarda yok. Vize harç tutarları ("Nuevas Tasas Consulares 2026") yazılmadı.
+- Kart 3: temel ödeme hesabı dışındaki olağan banka hesabı için resmî sayfa yok; hangi belgeyle hesap açıldığı yazılmadı. NUSS için zorunlu bir süre kaynakta yok ("istediğin zaman").
+- Kart 4 (editör G2): kart başına 2 kaynak sınırı nedeniyle yolcu sayfası (es:kaynak:101) karttan çıkarıldı, yerine nakit beyan sayfası (es:kaynak:102) ve ev eşyası sayfası (es:kaynak:104) kaldı. Kartta artık yoklar: yeşil/kırmızı kanal, 430/300/150 euro yolcu muafiyeti, tütün/alkol/akaryakıt miktar sınırları, muafiyeti aşan mal için vergi/terk/yeniden ihraç. Bunlar ayrı bir "yolcu bagajı gümrük muafiyeti" kartına uygundur (kaynak: es:kaynak:101). Nakit eşiği 102'deki hâliyle "10.000 euro ve üzeri" yazıldı; yolcu sayfasının "más de 10.000" ifadesi kullanılmadı. Nakit için E1 modeli yazıldı; S1/S2/E2 (AB içi, eşlik edilmeyen) yazılmadı.
+- Kart 4: AB içinden taşınan ev eşyası için resmî sayfa bulunamadı; "AB içinde gümrük yok" yazılmadı. Ceuta, Melilla ve Kanarya Adaları'nın nakit/yolcu rejimi yazılmadı (yalnız ev eşyası sayfasındaki IGIC cümlesi var).
+- Kart 4 ve 5: sayfa tarihleri (yolcu sayfası 23/octubre/2026, ev eşyası 12/mayo/2026, mascotas 23/septiembre/2026) kartlara yazıldı; ancak bu tarihler sayfanın HTML kaynağındaki "Página actualizada" satırından alındı, indirilen temiz metin kopyasında (text_file) geçmiyor; bu yüzden bu tarihler için iddia defteri satırı yok.
+- Kart 5: yönetmelik numarası yazılmadı. Türkiye'nin AB kuduz listesinde olup olmadığı AEAT sayfasında ülke adıyla geçmiyor; "Türkiye'den test şart" yazılmadı, kart "listede yer almayan ülke" diye genel konuşuyor. Yetkili giriş noktaları listesi (sayfada 15 Haziran 2021 tarihli) yazılmadı. Serolojik test sonuç eşiği (0,5 UI/ml), 3 ay bekleme ve 7 ay asgari yaş, AEAT sayfasının İspanya'ya dönüş bölümünde geçtiği için kartta bu kapsam belirtilerek yazıldı (editör G2); AB'ye ilk giriş için MAPA/AB metniyle teyidi yapılmadı. Kuş ve diğer türler kartın kapsamı dışında bırakıldı. MAPA sayfası (sertifika hatası nedeniyle) kaynak olarak kullanılmadı ve daha yeni bir yönetmeliğe atıf yapıyor; temel kurallar iki sayfada aynı.
+- Kart 6: çalışma vizesi için sigorta kalemi kaynakta yok, yazılmadı; teletrabajo (dijital göçebe) vizesi sayfası kart başına 2 kaynak sınırı yüzünden kullanılmadı. "Muafiyet/katkı payı/bekleme süresi olmayacak" şartı İstanbul sayfalarında yok, yazılmadı. İki sayfa tarihsiz.
+- Kart 7: "İspanya'nın para birimi euro'dur" cümlesi Banco de España sayfasında doğrudan geçmiyor; kart sayfanın söylediğini (euro madeni paralar eurobölgesinde yasal ödeme aracı; İspanya'da FNMT basar, Banco de España dolaşıma sokar) yazıyor. Euro banknotlar kaynakta yok. Hangi bölgede hangi dilin resmî olduğu (şehir/bölge fazı) yazılmadı.
+- Kart 8: "UTC+1" ifadesi yazılmadı (yalnız elenen IGN PDF'inde var). Kanarya'nın kaç saat geride olduğu BOE metninde açıkça geçmiyor, yazılmadı. Bu yıl yaz saatinin biteceği tarih (25 Ekim 2026) yazılmadı, yalnız kural yazıldı (Orden PCM/186/2022 okunmadı). 2027 ve sonrası takvimi için İspanyol Orden bulunamadı; RD 236/2002 kuralı yıllık olarak her yıl için tanımlıyor.
+
+## Editör G2 notları
+- Kart 2: IPREM tutarı (euro) ve aylık/yıllık birimi kaynakta (es:kaynak:040) yok; kartta yalnız "IPREM'in %400'ü / aile üyesi başına %100'ü" yazıldı, tutar yazılmadı. Resmî IPREM kaynağı eklenirse tutar karta alınabilir.
+- Kart 1, 2, 6: anlatılanlar İstanbul konsolosluk bölgesinde oturanlar için; başka ülkede oturanlar için ilgili konsolosluk sayfası ayrı yazılmadı (kaynak yok). BLS hizmet bedelinin tutarı kaynakta yok.
+- Kart 3: slug "ilk-gunlerde-…" kaldı; başlıktaki "vardığında" kaldırıldı, zaman iddiası yok.
+- Kart 8: Ceuta/Melilla saati ve 2026 değişim tarihi (25 Ekim) yazılmadı.
