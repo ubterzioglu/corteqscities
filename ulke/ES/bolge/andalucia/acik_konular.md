@@ -7,3 +7,6 @@
 - endulus-okul-kaydi-basvuru-donemi-ve-gec-gelen-ogrenci: 2026/27 için Junta takvimi 1 Mart-7 Nisan gösteriyor (canlı Calendario), kartın iki kaynağında yok; karta yazılmadı. Decreto 21/2020 md. 51'in konsolide hali doğrulanamadı.
 - endulus-metropol-ulasim-konsorsiyum-kartlari-ve-interoperabilite: diğer metropol alanlarının tarifeleri kaynaklarda yok (şehir katmanı için gaps.md'de).
 - endulus-2027-resmi-tatilleri: 1 Mayıs ve 25 Aralık Cumartesi'ye denk gelir, kaydırma hükmü yok; kaynak ek hak söylemediği için açıklama eklenmedi.
+- endulus-ikinci-el-konut-alimi-itp-indirimli-oranlar: Decreto-ley 1/26 istisnasının son uygulama tarihi (denetimde 31/12/2026 olarak görüldü) ve belediye listesi kartın kaynaklarında (005, 003) yok; karta yazılmadı, yalnız "kaynaklarda yok, kontrol et" denildi. Slug'daki "ikinci-el" değişmedi.
+- endulus-ikinci-el-konut-alimi-itp-indirimli-oranlar: indirimli ITP'nin yeni yapı alımına uygulanmadığı ve md. 43.3 (ek bölümlerin değeri) kaynak metinde okunur biçimde yorumlanmadığından karta yazılmadı.
+- endulus-metropol-ulasim-konsorsiyum-kartlari-ve-interoperabilite: "kartlar birbirinin alanında" genellemesinin Sevilla/Cádiz vb. kartlar için doğrulaması iki kaynakta yok (yalnız Granada ve Málaga); çerçeve daraltılmadı, açık.

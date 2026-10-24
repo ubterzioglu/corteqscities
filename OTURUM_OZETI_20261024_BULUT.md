@@ -1,4 +1,4 @@
-# Oturum özeti: İspanya paketi v4 → v7 + Endülüs bölge paketi v1 (bulut oturumu, 24.10.2026)
+# Oturum özeti: İspanya paketi v4 → v9 + Endülüs bölge paketi v2 (bulut oturumu, 24.10.2026)
 
 Önceki belgeler: `OTURUM_OZETI_20261024.md`, `OTURUM_OZETI_20261024_ISPANYA_PAKETI.md`. Bu belge onların devamıdır. Bu iş Linux bulut oturumunda yapıldı.
 
@@ -22,8 +22,17 @@
 - 9 kart (slug'lar `endulus-` ile başlar), 126 claim, 14 kaynak (`es-an:kaynak:NNN`), 3 tarihli kart. Konular: saglik, para (2), ev, is, aile, ulasim, gunluk, resmi.
 - Akış ulusalla aynı: keşif (2 ajan) → `add_sources` → yazar (2) → `pack_check` → bağımsız denetim (`denetim_b1_A/B.md`: 0 ciddi, 8 orta, 20 küçük) → editör (`degisiklik_b1_editor.jsonl`: 4 orta + 11 küçük; kalan ortalar kaynakta yok) → `pack_check` temiz.
 - PDF kaynaklar `add_sources`'ta elenir; BOJA'nın HTML sürümü kullanıldı. RMISA kartı çıkarıldı (güncel birleşik metin yok). Ulaşım kartından tek konsorsiyuma (Granada, Málaga) özgü rakamlar çıkarıldı → şehir katmanı. Açıklar: `ulke/ES/bolge/andalucia/acik_konular.md`.
-- **Editör sonrası dar denetim yapılmadı** (bölge paketi).
+- v2: editör sonrası dar denetim (`denetim_b2.md`: 0 ciddi, 4 orta, 10 küçük; ilk denetimin ortaları kapandı). Editör 4 orta + 5 küçük (`degisiklik_b2_editor.jsonl`). Paket v2: 9 kart, 132 claim.
 - Yeni araç `pack_merge.py` (+ `test_pack_merge.py`, 7 test) ve `pack_build --topics/--region`: `country_apply` tek paket uyguladığı ve `merge_package` konu başına tek parça istediği için ülke + bölge önce birleştirilir. Sahte Sevilla: 104 kart (95 + 9) tek seferde uygulandı, bölge kartları ulusal konu dosyalarına girdi, `audit-scope` 104 atla; 23/23 test. Kullanım `ULKE_FAZI.md` "Bölge paketi" bölümünde.
+
+## Altyapı tamamlama (v8, v9) — entegrasyon testi
+- Sahte Sevilla'ya ülke + bölge kartları uygulanıp city-pack'in `merge_package`'ından geçirildi. Çıkan sorunlar düzeltildi; SON durum: 105 kart, 2045 claim, `status ok`, `quote_miss 0`, bulgu yok.
+- Düzeltilenler: 19 alt başlık 160 sınırına kısaltıldı; ulusal kartlarda `featured` 'Hayır' (seçim şehirde); bağlantı adresinin kaynağı da pakete/şehre taşınıyor (`pack_build`, `country_apply`); boş `steps` olamaz.
+- `pack_check` artık merge_package kurallarını da denetler (başlık ≤180, alt başlık ≤160, featured, bağlantı adresi kaynakta, steps dolu) ve havale kalıplarını yasaklar (YAZAR_KURALLARI md. 3; editörler bunu dört kez geçirmişti).
+- Yeni ulusal kart: AB dışından gelen yolcunun bagaj muafiyeti (bağımsız denetim `denetim_ek_bagaj.md`). Convenio especial ve NIE için yeni kart açılmadı (mevcut kartlar karşılıyor).
+- `ULKE_FAZI.md`'ye "city-pack ile birlikte kullanım" adım sırası eklendi (apply yazarlardan önce; şehir yazarı ülke kartlarını silmez, sona ekler; `audit-scope` silmeyi yakalar — testli).
+- Testler: `test_country_apply.py` + `test_pack_merge.py` 25/25.
+- Paketler: ülke v9 (96 kart, 1913 claim, 129 kaynak), Endülüs v2 (9 kart, 132 claim, 14 kaynak).
 
 ## Doğrulanmayanlar / açık
 - `acik_konular.md` sonundaki "G2b", "G2c" ve "Grup 3" bölümleri.
@@ -35,7 +44,7 @@
 - `pack.json` CRLF satır sonuyla yazıldı (Windows'taki gibi).
 
 ## Sıradaki iş (öneri)
-1. Endülüs bölge paketi için editör sonrası dar denetim (9 kart).
-2. Ek kartlar: yolcu bagajı gümrük muafiyeti (AEAT sayfası canlı doğrulandı), kimlik/NIE kartı (LO 4/2015 md. 8, RD 1553/2005), convenio especial ayrıntısı (RD 576/2013 md. 3).
+1. Sevilla'yı Windows oturumunda `ULKE_FAZI.md` "city-pack ile birlikte kullanım" adımlarıyla üretmek; ülke/bölge/şehir süresini ayrı ölçmek.
+2. Not: kimlik için RD 1553/2005 2.4.2025'te yürürlükten kalktı (yerine RD 255/2025); kartlarda kullanılmadı.
 3. 5.11.2026 sonrası kira kararnameleri; 1.11.2026 paket kuralı.
 4. İlk gerçek şehir (Sevilla): city-pack Windows'a göre yazıldı, Linux'ta denenmedi; Windows oturumunda üretilmesi önerildi.

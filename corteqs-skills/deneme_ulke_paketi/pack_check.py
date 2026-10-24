@@ -18,9 +18,13 @@ from pathlib import Path
 
 CITIES = ("barcelona", "madrid", "sevilla", "valensiya", "valencia", "málaga", "malaga", "bilbao", "palma", "marbella",
           "alicante", "tarragona", "zaragoza", "tenerife")
-BANNED = ("teyit et", "doğrulayın")
+# YAZAR_KURALLARI md. 3: havale cumlesi (okuyucuyu baska sayfaya/belgeye gonderen ya da kartin eksigini soyleyen)
+BANNED = ("teyit et", "doğrulayın", "sayfasından kontrol et", "metninden kontrol et", "resmî sayfada yazar",
+          "resmi sayfada yazar", "bu kartta yok", "burada açıklanmıyor", "kaynaklarında yer almaz", "kaynakta yok",
+          "kaynaklarda yok", "kaynak sayfa diyor")
 TITLE_MAX, SUBTITLE_MAX = 180, 160  # merge_package check_entries
-REQUIRED = ("entry_id", "city_id", "slug", "title", "summary", "source_ids", "order", "topic_id", "editorial_status")
+REQUIRED = ("entry_id", "city_id", "slug", "title", "summary", "steps", "source_ids", "order", "topic_id",
+            "editorial_status")  # steps: merge_package topic_or_steps
 
 
 def norm(text: str) -> str:
