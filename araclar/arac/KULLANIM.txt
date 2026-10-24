@@ -1,0 +1,35 @@
+CORTEQS v7 — TEKNİK TESLİM ARAÇLARI
+Bu araç geliştirici/AI içindir. İçerik ekibinin Python kurması gerekmez; Excel ve Drive düzeniyle çalışabilir.
+Dosya denetimi çevrimdışı çalışır; kimlik bilgisi, Drive yazması veya veritabanı bağlantısı içermez. İsteğe bağlı ayrı indirme kuyruğu, açıkça belirtilen ve izin verilen fotoğraf URL'lerine ağ isteği yapar.
+
+1. Python 3.11+ ortamında requirements.txt bağımlılıklarını kurun.
+2. Komut: python check_delivery.py "/tam/yol/sehir.xlsx" "/tam/yol/sehir-paketi" --new-content
+3. Web kopyaları istenirse aynı komuta --web-copies ekleyin. Özgün teslim dosyaları korunur.
+4. Teslimler/paket-kontrol-v7.json, fotoğraf atıf CSV/HTML ve normalized-tables-v7.json oluşur.
+5. Sıfır olmayan çıkış kodu: yapısal/kaynak/miktar eksikleri var. Raporu okuyun, kuralları gevşetmeyin.
+6. Eski arşiv karşılaştırmasında --new-content kullanmayabilirsiniz; bu eski bilinmeyenleri tamamlanmış yapmaz.
+7. Test: python -m unittest discover -p "test_*.py"
+
+İNDİRME KUYRUĞU (YENİ ÜRETİM)
+python download_media.py indirme-plani.json /sehir/paketi --workers 2
+Plan JSON dizisinde her satır photo_id, original_file ve downloaded_file_url alanlarını taşır.
+Kaynak sayfası, gerçek yazar ve ticari kullanım izni indirme öncesi ayrıca doğrulanır; kuyruk izin vermez.
+Varsayılan tek indirme alanı upload.wikimedia.org; farklı onaylı kaynak ancak açık --allow-host seçimiyle eklenir.
+En fazla üç eşzamanlı indirme; aynı URL tek kez indirilir. SHA ile sağlam önbellek yeniden kullanılır.
+429/503 gibi geçici hatalarda en fazla üç deneme, Retry-After en fazla 30 saniye; daha uzun sürede kuyruk durur ve sonra devam edilir.
+100 MB dosya sınırı, gerçek görsel çözümleme ve mevcut farklı dosyanın üzerine yazmayı reddetme vardır.
+İlerleme Teslimler/download-progress-v7.json; indirme günü ve gerçek URL kaydedilir. Bu çalışma sırasında eski şehir fotoğrafları yeniden indirilmedi.
+
+EXCEL ÜRETİMİ
+upgrade_workbook.mjs, @oai/artifact-tool bulunan Codex/uygun Node ortamında çalışır:
+node upgrade_workbook.mjs girdi.xlsx cikti.xlsx photo-provenance-v7.json workbook-data-v7.json
+Mevcut şablonun biçimini, gömülü görsellerini ve açılır seçimlerini koruyarak yeni alanları yazar.
+Son iki JSON verilmezse şablon yükseltme yapılır. Aynı girdi üzerine doğrudan yazmayın; önce yeni çıktıyı doğrulayın.
+32.767 karakter sınırını aşan alanları kırpmayın. UzunAlanlar parçalarını ve SHA ile eşleşen başvuruyu kullanın.
+Kaynak üretim araçlarının yetkisiz dağıtımını veya iç bağımlılıkların kurulabilirliğini varsaymayın; ekip manuel Excel doldurabilir.
+
+DENETİMİN SINIRI
+Araç gerçek dosyayı açar, SHA ve kimlik bağlantısını, lisans ad/sürüm biçimini ve sayısal kapsamı denetler.
+URL biçimi denetimi, sitenin bugün açıldığı veya hak sahibinin yetkili olduğu anlamına gelmez.
+Kaynak güncelliği, fotoğrafın gerçek mekânla eşleşmesi, dil ve üçüncü kişi hakları insan kontrolüdür.
+İnsan bütün pakete yönetim ekranından tek karar verir; araç bu kararı vermez/değiştirmez. DB/web entegrasyonu ayrıdır.

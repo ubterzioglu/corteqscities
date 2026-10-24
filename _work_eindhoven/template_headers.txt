@@ -1,0 +1,85 @@
+===== Özet (max_row=39, max_col=9)
+row6: ["Pratik yaşam yanıtı", "=COUNTA('Yanıtlar'!$A$8:$A$307)", 212, 240, "=MAX(C6-B6,0)", "=MAX(D6-B6,0)", null, null, null]
+row7: ["Keşif noktası", "=COUNTA('Mekânlar'!$A$8:$A$187)", 92, 120, "=MAX(C7-B7,0)", "=MAX(D7-B7,0)", null, null, null]
+row8: ["Mahalle / yerel bölge", "=COUNTA('Mahalleler'!$A$8:$A$47)", 12, 16, "=MAX(C8-B8,0)", "=MAX(D8-B8,0)", null, null, null]
+
+===== Teslimat (max_row=8, max_col=9)
+row6: ["Şema sürümü", "Teslimat kimliği", "Şehir kimliği", "Hazırlayan", "İnceleyen", "Dosya kapsamı", "Dosya güncelleme tarihi", "Editör durumu", "Teslim notu"]
+row7: ["schema_version", "delivery_id", "city_id", "editor", "reviewer", "scope", "updated_on", "editorial_status", "notes"]
+row8: ["1.0", "CITY-039-v001", "eindhoven", "Atınç", null, "Tam teslim", "2026-10-12 00:00:00", "Taslak", "Çalışma dosyası; içerik üretilmedi; UAT durumu: Üretilecek. Katalog tarihleri kaynak kaydını gösterir; rehber doğrulaması değildir."]
+
+===== Şehir (max_row=8, max_col=33)
+row6: ["Şehir kimliği", "Şehir adı", "Ülke", "Ülke kodu", "Dünya bölgesi", "Coğrafi kapsam", "Rehber başlığı", "Rehber giriş metni", "Para birimi kodu", "Para simgesi", "Para birimi adı", "Yerel dil", "Saat dilimi", "Enlem", "Boylam", "Konum kaynağı", "Konum kontrol tarihi", "Konum açıklaması", "Kapsam kaynağı", "Kapsam kontrol tarihi", "Katalog sıra numarası", "Rehber kontrol tarihi", "Öncelik", "Diğer adlar", "Yerel ad", "Şehir cümlesi", "Şehir dizini sırası", "Hava tahmini bağlantısı", "Hava veri sağlayıcısı", "Tahmin bağlantı metni", "Ana kapak kimliği", "Editoryal şehir notları", "Editör durumu"]
+row7: ["city_id", "name", "country", "country_code", "region", "kind", "title", "intro", "currency", "currency_symbol", "currency_label", "language", "timezone", "latitude", "longitude", "coordinate_source_url", "coordinate_checked_on", "coordinate_note", "source_url", "source_checked_on", "source_position", "reviewed_on", "priority", "aliases", "locality", "tagline", "directory_order", "forecast_url", "provider_url", "forecast_label", "hero_photo_id", "editorial_notes", "editorial_status"]
+row8: ["eindhoven", "Eindhoven", "Hollanda", "NL", "EU", "city", null, null, null, null, null, null, null, 51.429973, 5.500015, "https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-populated-places/", "2026-10-10 00:00:00", null, "https://www.internations.org/all-internations-cities/", "2026-10-10 00:00:00", 39, null, 3, "Eindhoven", null, null, null, null, null, null, null, null, "Taslak"]
+
+===== Konular (max_row=37, max_col=8)
+row6: ["Konu kimliği", "Şehir kimliği", "Konu adres adı", "Konu başlığı", "Açıklama", "Simge anahtarı", "Sıra", "Yanıt içeren konu (hesap)"]
+row7: ["topic_id", "city_id", "slug", "title", "description", "icon", "order", "used_count"]
+row8: [null, null, null, null, null, null, null, "=IF(A8=\"\",0,IF(COUNTIFS('Yanıtlar'!$N$8:$N$307,A8)>0,1,0))"]
+
+===== Yanıtlar (max_row=307, max_col=20)
+row6: ["İçerik kimliği", "Şehir kimliği", "Adres adı", "Başlık", "Alt başlık", "Türkçe kısa yanıt / özet", "Arama sözcükleri", "Yaşam aşamaları", "Kaynak kimlikleri", "İçerik kontrol tarihi", "Sıra", "Öne çıkar", "Editör durumu", "Konu kimliği", "İşlem adımları", "Gereken belgeler", "Süre / son tarih", "Ücret / maliyet", "İstisna ve dikkat notu", "Görsel açıklama yapısı (JSON)"]
+row7: ["entry_id", "city_id", "slug", "title", "subtitle", "summary", "keywords", "stages", "source_ids", "reviewed_on", "order", "featured", "editorial_status", "topic_id", "steps", "documents", "timing", "cost", "note", "visual_json"]
+row8: [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null]
+
+===== Mekânlar (max_row=187, max_col=23)
+row6: ["İçerik kimliği", "Şehir kimliği", "Adres adı", "Başlık", "Alt başlık", "Türkçe kısa yanıt / özet", "Arama sözcükleri", "Yaşam aşamaları", "Kaynak kimlikleri", "İçerik kontrol tarihi", "Sıra", "Öne çıkar", "Editör durumu", "Keşif grubu", "Mahalle / ilçe", "Ortam", "Adres / konum", "Enlem", "Boylam", "Ziyaret durumu", "Ziyaret notu", "Derleme / dizin", "Medya eşleştirme anahtarı"]
+row7: ["entry_id", "city_id", "slug", "title", "subtitle", "summary", "keywords", "stages", "source_ids", "reviewed_on", "order", "featured", "editorial_status", "group", "district", "setting", "location", "latitude", "longitude", "visit_status", "note", "collection", "media_key"]
+row8: [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null]
+
+===== Mahalleler (max_row=47, max_col=18)
+row6: ["İçerik kimliği", "Şehir kimliği", "Adres adı", "Başlık", "Alt başlık", "Türkçe kısa yanıt / özet", "Arama sözcükleri", "Yaşam aşamaları", "Kaynak kimlikleri", "İçerik kontrol tarihi", "Sıra", "Öne çıkar", "Editör durumu", "Yer / konum", "Öne çıkan özellikler", "Karşılaştırma alanları (JSON)", "Yaşam ve ev seçimi notu", "Medya eşleştirme anahtarı"]
+row7: ["entry_id", "city_id", "slug", "title", "subtitle", "summary", "keywords", "stages", "source_ids", "reviewed_on", "order", "featured", "editorial_status", "location", "tags", "compare_json", "note", "media_key"]
+row8: [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null]
+
+===== Bağlantılar (max_row=807, max_col=7)
+row6: ["Bağlantı kimliği", "Şehir kimliği", "İçerik kimliği", "Bağlantı metni", "Doğrudan bağlantı", "Bağlantı kontrol tarihi", "Sıra"]
+row7: ["action_id", "city_id", "entry_id", "label", "url", "checked_on", "order"]
+row8: [null, null, null, null, null, null, null]
+
+===== Rotalar (max_row=37, max_col=12)
+row6: ["Rota kimliği", "Şehir kimliği", "Rota başlığı", "Süre / rota türü", "Sıralı durak adları", "Varsa durak içerik kimlikleri", "Ana kart kimliği", "Rota ve erişim notu", "Rota kontrol tarihi", "Kaynak kimlikleri", "Sıra", "Editör durumu"]
+row7: ["route_id", "city_id", "title", "tag", "stops", "stop_entry_ids", "entry_id", "note", "reviewed_on", "source_ids", "order", "editorial_status"]
+row8: [null, null, null, null, null, null, null, null, null, null, null, null]
+
+===== Sözlük (max_row=107, max_col=8)
+row6: ["Terim kimliği", "Şehir kimliği", "Yerel terim", "Türkçe açıklama", "Kaynak kimlikleri", "Terim kontrol tarihi", "Sıra", "Editör durumu"]
+row7: ["term_id", "city_id", "term", "definition", "source_ids", "reviewed_on", "order", "editorial_status"]
+row8: [null, null, null, null, null, null, null, null]
+
+===== Adımlar (max_row=47, max_col=7)
+row6: ["Adım kimliği", "Şehir kimliği", "İçerik kimliği", "Adım başlığı", "Ne zaman", "Adım açıklaması", "Sıra"]
+row7: ["step_id", "city_id", "entry_id", "title", "when", "description", "order"]
+row8: [null, null, null, null, null, null, null]
+
+===== Kaynaklar (max_row=507, max_col=11)
+row6: ["Kaynak kimliği", "Şehir kimliği", "Kaynak başlığı", "Yayıncı / kurum", "Kaynak bağlantısı", "Kaynak kontrol tarihi", "Araştırma konusu", "Türkçe araştırma notu", "Kaynak notu incelendi", "Varsa kaynak kanıt dosyası", "Varsa kanıt SHA-256"]
+row7: ["source_id", "city_id", "title", "publisher", "url", "checked_on", "topic", "summary", "verified", "snapshot_file", "snapshot_sha256"]
+row8: [null, null, null, null, null, null, null, null, null, null, null]
+
+===== Fotoğraflar (max_row=607, max_col=20)
+row6: ["Fotoğraf kimliği", "Şehir kimliği", "Kullanım", "Mekân / mahalle kimliği", "Görsel dosyası", "Görsel SHA-256", "Türkçe açıklama", "Fotoğrafçı / atıf", "Ücretsiz ticari lisans", "Lisans bağlantısı", "Fotoğraf kaynak sayfası", "Varsa çekim tarihi", "Hak / kaynak kontrol tarihi", "Yapılan değişiklikler", "Kanıt kimliği", "Sayımda kullanılabilir", "Galeri sırası", "Editör durumu", "Farklı mekân fotoğrafı (hesap)", "Farklı kapak fotoğrafı (hesap)"]
+row7: ["photo_id", "city_id", "role", "entry_id", "file", "sha256", "caption", "author", "license", "license_url", "source_url", "capture_date", "source_checked_on", "modifications", "evidence_id", "completion_credit", "order", "editorial_status", "unique_venue_count", "unique_hero_count"]
+row8: [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, "=IF(OR(A8=\"\",F8=\"\",C8<>\"Mekân\"),0,IF(COUNTIFS($F$8:F8,F8,$C$8:C8,\"Mekân\")=1,1,0))", "=IF(OR(A8=\"\",F8=\"\",C8<>\"Kapak\"),0,IF(COUNTIFS($F$8:F8,F8,$C$8:C8,\"Kapak\")=1,1,0))"]
+
+===== Kanıtlar (max_row=357, max_col=23)
+row6: ["Kanıt kimliği", "Şehir kimliği", "Fotoğraf kimliği", "Kaynak sayfası", "Kaynak görsel başlığı", "Kaynak fotoğrafçısı", "Kaynak lisansı", "Kaynak lisans bağlantısı", "Kullanım koşulları", "Gerekli atıf metni", "Kısıt / üçüncü kişi hakkı", "Kanıt kontrol tarihi", "Kaynak bilgisi incelemesi", "Kare / mekân incelemesi", "İncelenen görsel dosyası", "Mekân eşleşmesi ve kare notu", "Üçüncü kişi hak incelemesi", "Hak değerlendirmesi gerekçesi", "Kaynak sayfası kanıt dosyası", "Kaynak kanıt SHA-256", "Lisans kanıt dosyası", "Lisans kanıt SHA-256", "Tam özgün kanıt yapısı (JSON)"]
+row7: ["evidence_id", "city_id", "photo_id", "source_url", "source_title", "author", "license", "license_url", "usage_terms", "attribution", "restrictions", "checked_on", "metadata_review_status", "pixel_review_status", "pixel_review_file", "pixel_review_note", "rights_status", "rights_basis", "source_snapshot_file", "source_snapshot_sha256", "license_snapshot_file", "license_snapshot_sha256", "source_evidence_json"]
+row8: [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null]
+
+===== SayfaAlanları (max_row=127, max_col=7)
+row6: ["Alan kimliği", "Şehir kimliği", "Sayfa alanı anahtarı", "Türkçe alan açıklaması", "Değer türü", "Alan değeri", "Alan kontrol tarihi"]
+row7: ["field_id", "city_id", "key", "label", "value_type", "value", "reviewed_on"]
+row8: [null, null, null, null, null, null, null]
+
+===== EkDetaylar (max_row=207, max_col=7)
+row6: ["Detay kimliği", "Şehir kimliği", "İçerik kimliği", "Detay anahtarı", "Türkçe alan açıklaması", "Değer türü", "Alan değeri"]
+row7: ["detail_id", "city_id", "entry_id", "key", "label", "value_type", "value"]
+row8: [null, null, null, null, null, null, null]
+
+===== FotoğrafKaynakları (max_row=607, max_col=15)
+row6: ["Fotoğraf kimliği", "Fotoğrafçı profil / portföy bağlantısı", "Görünür fotoğrafçı atıf bağlantısı", "Kaynakta özgün fotoğraf dosyası URL", "Fiilen indirilen dosyanın URL’si", "Kaydedilmiş indirme tarihi", "Korunan mevcut fotoğraf dosyası", "Korunan dosya SHA-256", "Hafif web kopyası (varsa)", "Web kopyası SHA-256", "Web genişliği (px)", "Web yüksekliği (px)", "Dönüştürme kaydı", "Kaynak zinciri kontrolü", "Açık nokta / kanıt açıklaması"]
+row7: ["photo_id", "author_url", "attribution_url", "original_file_url", "downloaded_file_url", "downloaded_on", "original_file", "original_sha256", "web_file", "web_sha256", "web_width", "web_height", "derivation", "provenance_status", "provenance_note"]
+row8: [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null]
+

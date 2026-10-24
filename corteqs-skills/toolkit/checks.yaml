@@ -1,0 +1,895 @@
+# Corteqs sehir denetim kontrolleri (K01-K120) - makine okunur ozet
+# Kaynak: SEHIR_DENETIM_CHECKLIST.pdf (kilavuz 2.0, 22 Ekim 2026). exec/sev/phase atamalari TASLAK; Atinc onayi gerekir.
+# exec: S=script, L=LLM+kaynak, V=gorsel, E=ortam (Drive/onizleme/UAT), M=surec/rapor
+# sev: P0/P1/P2 kilavuzun tanimina gore oneri; '-' = bulgu uretmeyen surec kontrolu
+# phase: city-pack'te kanit/kapinin uretildigi faz; '-' = yalniz denetimde (ortam gerekir)
+# prod: gate = uretimde script kapisi; evidence = uretim kanit uretir, denetim LLM/gorselle teyit eder; none = uretimde yok
+checks:
+- id: K01
+  sec: 1
+  title: "Doğru şehir ve güncel paket"
+  exec: E
+  sev: "P1"
+  phase: "-"
+  prod: none
+  scope: drive-manual
+- id: K02
+  sec: 1
+  title: "Fiilî dosyaya erişim"
+  exec: S
+  sev: "P1"
+  phase: "intake"
+  prod: gate
+- id: K03
+  sec: 1
+  title: "Drive ile yerel kopyanın aynı olması"
+  exec: E
+  sev: "P1"
+  phase: "-"
+  prod: none
+  scope: drive-manual
+- id: K04
+  sec: 1
+  title: "Paketi denetim süresince sabitleme"
+  exec: S
+  sev: "P1"
+  phase: "deliver"
+  prod: gate
+- id: K05
+  sec: 1
+  title: "Klasör düzeni ve dosya artıkları"
+  exec: S
+  sev: "P2"
+  phase: "deliver"
+  prod: gate
+- id: K06
+  sec: 1
+  title: "Yetenek ve erişim sınırları"
+  exec: M
+  sev: "-"
+  phase: "intake"
+  prod: none
+- id: K07
+  sec: 1
+  title: "Referansın doğru kullanımı"
+  exec: M
+  sev: "-"
+  phase: "intake"
+  prod: none
+- id: K08
+  sec: 2
+  title: "Sekmeler, başlıklar ve teslim profili"
+  exec: S
+  sev: "P1"
+  phase: "assemble"
+  prod: gate
+- id: K09
+  sec: 2
+  title: "Formül, biçim ve doğrulama alanları"
+  exec: S
+  sev: "P1"
+  phase: "assemble"
+  prod: gate
+- id: K10
+  sec: 2
+  title: "Ham kayıtların doğru sayımı"
+  exec: S
+  sev: "P1"
+  phase: "assemble"
+  prod: gate
+- id: K11
+  sec: 2
+  title: "Kimlik ve adres adı eşleşmesi"
+  exec: S
+  sev: "P1"
+  phase: "assemble"
+  prod: gate
+- id: K12
+  sec: 2
+  title: "Yabancı anahtar ilişkileri"
+  exec: S
+  sev: "P1"
+  phase: "assemble"
+  prod: gate
+- id: K13
+  sec: 2
+  title: "Veri türleri ve izinli değerler"
+  exec: S
+  sev: "P1"
+  phase: "assemble"
+  prod: gate
+- id: K14
+  sec: 2
+  title: "Tarihler ve sıralar"
+  exec: S
+  sev: "P1"
+  phase: "assemble"
+  prod: gate
+- id: K15
+  sec: 2
+  title: "Dosya yolları ve arşiv güvenliği"
+  exec: S
+  sev: "P0"
+  phase: "assemble"
+  prod: gate
+- id: K16
+  sec: 2
+  title: "EkDetaylar ve uzun alanlar"
+  exec: S
+  sev: "P1"
+  phase: "assemble"
+  prod: gate
+- id: K17
+  sec: 3
+  title: "Berlin alt sınırı ile güncel üretim hedefi"
+  exec: S
+  sev: "P1"
+  phase: "assemble"
+  prod: gate
+- id: K18
+  sec: 3
+  title: "Kullanılabilir kayıt sayısı"
+  exec: L
+  sev: "P1"
+  phase: "answers"
+  prod: evidence
+  pass: "Sadece satır doluluğundan tamamlandı sonucu çıkmıyor."
+- id: K19
+  sec: 3
+  title: "On iki konunun dolu olması"
+  exec: L
+  sev: "P1"
+  phase: "answers"
+  prod: evidence
+  pass: "12 konu gerçek ihtiyaçları karşılıyor, boş veya şablonla doldurulmuş konu yok."
+- id: K20
+  sec: 3
+  title: "Keşif gruplarında gerçek içerik"
+  exec: L
+  sev: "P1"
+  phase: "places"
+  prod: evidence
+  pass: "Temel gruplar boş değil; 120 sayısı tek bir kategoride benzer anıtları çoğaltarak doldurulmuyor. shopping mevcut sözleşmede ek gruptur; yokluğunu yanlışlıkla şema hatası diye yazma."
+- id: K21
+  sec: 3
+  title: "Yanıt/mekân/mahalle işlem bağlantısı kapsamı"
+  exec: S
+  sev: "P1"
+  phase: "assemble"
+  prod: gate
+- id: K22
+  sec: 3
+  title: "Mekân ve mahalle fotoğraf kapsamı"
+  exec: S
+  sev: "P1"
+  phase: "photos"
+  prod: gate
+- id: K23
+  sec: 3
+  title: "Fotoğraf tekilliği ve kredi"
+  exec: S
+  sev: "P1"
+  phase: "photos"
+  prod: gate
+- id: K24
+  sec: 3
+  title: "Eşiklerin işlevsel tamamlanması"
+  exec: S
+  sev: "P1"
+  phase: "assemble"
+  prod: gate
+- id: K25
+  sec: 4
+  title: "Başlıktaki soruya doğrudan cevap"
+  exec: L
+  sev: "P1"
+  phase: "answers"
+  prod: evidence
+  pass: "Genel tanıtım veya 'kurum sitesine bakın' yerine uygulanabilir yanıt var."
+- id: K26
+  sec: 4
+  title: "Mikro kartın gerekli ayrıntıları"
+  exec: L
+  sev: "P1"
+  phase: "answers"
+  prod: evidence
+  pass: "Uygulanabilir alanlar dolu ve kaynaklı; gereksiz alanlar sahte içerikle doldurulmamış."
+- id: K27
+  sec: 4
+  title: "Birebir metin tekrarı"
+  exec: S
+  sev: "P1"
+  phase: "answers"
+  prod: gate
+- id: K28
+  sec: 4
+  title: "Anlamsal tekrar ve numaralı doldurma"
+  exec: L
+  sev: "P1"
+  phase: "answers"
+  prod: evidence
+  pass: "Farklı başlıklar gerçekten farklı ihtiyacı çözüyor. Benzerlik puanı tek başına red/onarım kararı değil."
+- id: K29
+  sec: 4
+  title: "İddia ile kaynak eşleştirme"
+  exec: L
+  sev: "P0"
+  phase: "answers"
+  prod: evidence
+  pass: "Kaynak aynı işlem, statü, yer ve dönemi destekliyor; ilgili sayfa/bölüm kaydedilmiş."
+- id: K30
+  sec: 4
+  title: "Toplu genel kaynak atama"
+  exec: S
+  sev: "P1"
+  phase: "answers"
+  prod: gate
+- id: K31
+  sec: 4
+  title: "Yerel özgüllük ve doğru kurum"
+  exec: L
+  sev: "P0"
+  phase: "answers"
+  prod: evidence
+  pass: "Okuyucu hangi kurumla, hangi kanaldan, hangi sırayla işlem yapacağını anlayabiliyor."
+- id: K32
+  sec: 4
+  title: "Dil, tutarlılık ve desteklenmeyen vaat"
+  exec: L
+  sev: "P2"
+  phase: "answers"
+  prod: evidence
+  pass: "Anlam korunmuş; kanıtsız 'kesin', 'en güvenli', 'sırasız' vaatleri yok; before/planning/new/settled bağlamı doğru."
+- id: K33
+  sec: 4
+  title: "Süreç görselinin doğruluğu"
+  exec: S
+  sev: "P1"
+  phase: "answers"
+  prod: gate
+- id: K34
+  sec: 5
+  title: "Değişken iddia envanteri"
+  exec: L
+  sev: "P0"
+  phase: "sources"
+  prod: evidence
+  pass: "Kritik/değişken iddiaların tamamı bir doğrulama listesine girmiş."
+- id: K35
+  sec: 5
+  title: "Resmî kaynak ve yürürlük"
+  exec: L
+  sev: "P0"
+  phase: "sources"
+  prod: evidence
+  pass: "Denetim tarihinde geçerli kuralla eşleşiyor; arama özeti tek kanıt değil."
+- id: K36
+  sec: 5
+  title: "Portekiz D7/D8 gibi vize tutarları"
+  exec: L
+  sev: "P0"
+  phase: "sources"
+  prod: evidence
+  only_if: "D7/D8 kismi yalniz ulke=PT icin; diger ulkelerde bu kisim UYGULANMAZ, o ulkenin vize kurallari K35 ile denetlenir"
+  pass: "Eski yılın tutarı taşınmamış; dayanak, formül, dönem ve statü açık. Diğer ülkelerde 'uygulanmaz' yaz ve onların gerçek vize kurallarını denetle."
+- id: K37
+  sec: 5
+  title: "Ücret ve hesap doğruluğu"
+  exec: L
+  sev: "P0"
+  phase: "answers"
+  prod: evidence
+  pass: "Aynı kapsamdaki tutarlar karşılaştırılmış; matematik doğru; tahmin kesin ücret gibi sunulmamış."
+- id: K38
+  sec: 5
+  title: "Müze ücretsiz günleri ve indirimler"
+  exec: L
+  sev: "P1"
+  phase: "places"
+  prod: evidence
+  pass: "Bir kuruma/ülkeye özgü kural tüm müzelere genellenmemiş; eski pazar kuralı otomatik kopyalanmamış."
+- id: K39
+  sec: 5
+  title: "Açık/kapalı bilgisi ve erişim"
+  exec: L
+  sev: "P1"
+  phase: "places"
+  prod: evidence
+  pass: "Kapalı veya taşınmış mekân açık gösterilmiyor; belirsizlik açıkça yazılmış."
+- id: K40
+  sec: 5
+  title: "Süre, son tarih ve başvuru bağımlılığı"
+  exec: L
+  sev: "P1"
+  phase: "answers"
+  prod: evidence
+  pass: "'Ortalama 1-3 hafta' gibi ortak kalıp tüm işlere uygulanmıyor; öneri kanuni süre diye sunulmuyor."
+- id: K41
+  sec: 5
+  title: "Kaynak çelişkisi veya erişilememe"
+  exec: L
+  sev: "P0"
+  phase: "sources"
+  prod: evidence
+  pass: "Çelişki çözülmüş veya açık engel olarak raporlanmış; AI belleğiyle boşluk doldurulmamış."
+- id: K42
+  sec: 6
+  title: "Gerçek mekân ve doğru şube"
+  exec: L
+  sev: "P0"
+  phase: "places"
+  prod: evidence
+  pass: "Kayıt gerçek, doğru şubeye ve şehrin belirtilen kapsamına ait."
+- id: K43
+  sec: 6
+  title: "Koordinatların anlamlı olması"
+  exec: S
+  sev: "P1"
+  phase: "places"
+  prod: gate
+- id: K44
+  sec: 6
+  title: "Mahallelerin ayırt edici içeriği"
+  exec: L
+  sev: "P1"
+  phase: "places"
+  prod: evidence
+  pass: "Karşılaştırma somut; kanıtsız etnik dağılım, gelir veya güvenlik sıralaması yok."
+- id: K45
+  sec: 6
+  title: "Mahalle compare_json yapısı"
+  exec: S
+  sev: "P1"
+  phase: "assemble"
+  prod: gate
+- id: K46
+  sec: 6
+  title: "Rota veri ilişkileri"
+  exec: S
+  sev: "P1"
+  phase: "places"
+  prod: gate
+- id: K47
+  sec: 6
+  title: "Rota uygulanabilirliği"
+  exec: L
+  sev: "P1"
+  phase: "places"
+  prod: evidence
+  pass: "Rota belirtilen zamanda fiziksel olarak yapılabilir; kapalı mekân ve uzak durak çelişkisi yok."
+- id: K48
+  sec: 6
+  title: "Sözlüğün gerçek kullanım değeri"
+  exec: L
+  sev: "P2"
+  phase: "answers"
+  prod: evidence
+  pass: "Konut, kayıt, ulaşım, sağlık, eğitim ve kültürde işe yarayan tekil terimler var."
+- id: K49
+  sec: 7
+  title: "URL biçimi ve güvenli hedef"
+  exec: S
+  sev: "P1"
+  phase: "assemble"
+  prod: gate
+- id: K50
+  sec: 7
+  title: "Fiilî HTTP erişimi"
+  exec: S
+  sev: "P1"
+  phase: "sources"
+  prod: gate
+- id: K51
+  sec: 7
+  title: "200 yanıtı ve soft 404"
+  exec: L
+  sev: "P1"
+  phase: "sources"
+  prod: evidence
+  pass: "Etiketin vaat ettiği işlem/bilgi gerçekten hedefte bulunuyor."
+- id: K52
+  sec: 7
+  title: "403/429 ve geçici hata"
+  exec: S
+  sev: "P2"
+  phase: "sources"
+  prod: gate
+- id: K53
+  sec: 7
+  title: "İlgili işlem sayfası"
+  exec: L
+  sev: "P1"
+  phase: "sources"
+  prod: evidence
+  pass: "Kullanıcı doğrudan doğru işi yapabiliyor veya açık resmî yönlendirmeyi izleyebiliyor."
+- id: K54
+  sec: 7
+  title: "Resmî üçüncü taraf bilet/rezervasyon sağlayıcısı"
+  exec: L
+  sev: "P1"
+  phase: "places"
+  prod: evidence
+  pass: "İlgili sağlayıcının yetkisi kaynaktan görülebiliyor; affiliate/uydurma indirim yok."
+- id: K55
+  sec: 7
+  title: "Harita bağlantısı ve telefon"
+  exec: L
+  sev: "P1"
+  phase: "places"
+  prod: evidence
+  pass: "Harita yanlış yere veya sadece belirsiz aramaya götürmüyor; telefon biçimi ve hizmet doğru."
+- id: K56
+  sec: 7
+  title: "Kapsam ve bağlantı sonuçlarının raporlanması"
+  exec: S
+  sev: "P2"
+  phase: "deliver"
+  prod: gate
+- id: K57
+  sec: 8
+  title: "Dosyanın görüntü olarak açılması"
+  exec: S
+  sev: "P0"
+  phase: "photos"
+  prod: gate
+- id: K58
+  sec: 8
+  title: "Hash ve boyut doğruluğu"
+  exec: S
+  sev: "P0"
+  phase: "photos"
+  prod: gate
+- id: K59
+  sec: 8
+  title: "Bütün görsellerin görsel taraması"
+  exec: V
+  sev: "P0"
+  phase: "photos"
+  prod: evidence
+  pass: "Her kare incelenmiş ve sonucu kayıtlı; yalnız dosya adına bakılarak onay verilmemiş."
+- id: K60
+  sec: 8
+  title: "Doğru nesne, mekân ve şehir"
+  exec: V
+  sev: "P0"
+  phase: "photos"
+  prod: evidence
+  pass: "Ana nesne doğru yeri tanınabilir gösteriyor. Tenis kulübü için uçak kanadı, ZDB galerisi için ZDB motosikleti kabul edilmez."
+- id: K61
+  sec: 8
+  title: "Kaynak sayfasındaki kare ile teslim dosyası"
+  exec: V
+  sev: "P0"
+  phase: "photos"
+  prod: evidence
+  pass: "Dosya aynı eserin kayıtlı türevi; başka fotoğrafın lisansı bu kareye taşınmamış."
+- id: K62
+  sec: 8
+  title: "Kapakların doğruluğu"
+  exec: V
+  sev: "P0"
+  phase: "photos"
+  prod: evidence
+  pass: "Kapak etiketi, dönem ve gerçek kare uyumlu; yatay/dikey kırpma ana nesneyi bozmayacak."
+- id: K63
+  sec: 8
+  title: "Türevler ve yakın görsel tekrarları"
+  exec: S
+  sev: "P1"
+  phase: "photos"
+  prod: gate
+- id: K64
+  sec: 8
+  title: "Yapay/yer tutucu görsel işaretleri"
+  exec: S
+  sev: "P0"
+  phase: "photos"
+  prod: gate
+- id: K65
+  sec: 8
+  title: "Kalite ve kullanım uygunluğu"
+  exec: V
+  sev: "P1"
+  phase: "photos"
+  prod: evidence
+  pass: "Görsel hedef kullanımda anlaşılır ve yeterli; gerekli minimum proje/tasarım bağlamından gelir."
+- id: K66
+  sec: 8
+  title: "Fotoğraf incelemesi sonrası yeniden sayım"
+  exec: S
+  sev: "P1"
+  phase: "photos"
+  prod: gate
+- id: K67
+  sec: 9
+  title: "Tekil esere ait lisans"
+  exec: S
+  sev: "P0"
+  phase: "photos"
+  prod: gate
+- id: K68
+  sec: 9
+  title: "Proje tarafından reddedilen kullanım koşulları"
+  exec: S
+  sev: "P0"
+  phase: "photos"
+  prod: gate
+- id: K69
+  sec: 9
+  title: "Lisans adı, sürümü ve URL"
+  exec: S
+  sev: "P1"
+  phase: "photos"
+  prod: gate
+- id: K70
+  sec: 9
+  title: "Gerçek fotoğrafçı"
+  exec: S
+  sev: "P1"
+  phase: "photos"
+  prod: gate
+- id: K71
+  sec: 9
+  title: "Kaynak zincirinin ilk kökeni"
+  exec: L
+  sev: "P0"
+  phase: "photos"
+  prod: evidence
+  pass: "Eser, yazar ve izin zinciri arasında çelişki yok veya açık engel raporlanmış."
+- id: K72
+  sec: 9
+  title: "Public domain/CC0 dayanağı"
+  exec: L
+  sev: "P0"
+  phase: "photos"
+  prod: evidence
+  pass: "Dosya bazında açıklanabilir dayanak var; belirsizlik 'kamu malı' etiketiyle kapatılmamış."
+- id: K73
+  sec: 9
+  title: "Özel açık/ücretsiz stok lisansları"
+  exec: S
+  sev: "P1"
+  phase: "photos"
+  prod: gate
+- id: K74
+  sec: 9
+  title: "Kare içindeki ek haklar"
+  exec: V
+  sev: "P0"
+  phase: "photos"
+  prod: evidence
+  pass: "Amaçlanan kullanım bakımından risk çözümlü ve gerekçelidir. Çözülemeyen konu yetkili incelemeye aktarılır, ancak bu sırada fotoğraf GEÇTİ veya hakları temiz sayılmaz. AI hukuki garanti vermez."
+- id: K75
+  sec: 9
+  title: "Atıf ve değişiklik bildirimi"
+  exec: S
+  sev: "P1"
+  phase: "photos"
+  prod: gate
+- id: K76
+  sec: 9
+  title: "Kanıtın kendisinin gerçek olması"
+  exec: S
+  sev: "P0"
+  phase: "photos"
+  prod: gate
+- id: K77
+  sec: 10
+  title: "Fotoğraf kaynak zincirinin tekil eşleştirmesi"
+  exec: S
+  sev: "P1"
+  phase: "assemble"
+  prod: gate
+- id: K78
+  sec: 10
+  title: "Beş farklı kaynak adresi"
+  exec: S
+  sev: "P1"
+  phase: "assemble"
+  prod: gate
+- id: K79
+  sec: 10
+  title: "Çekim, indirme ve kontrol tarihleri"
+  exec: S
+  sev: "P1"
+  phase: "assemble"
+  prod: gate
+- id: K80
+  sec: 10
+  title: "Orijinal ve web türevi"
+  exec: S
+  sev: "P0"
+  phase: "photos"
+  prod: gate
+- id: K81
+  sec: 10
+  title: "İncelenen karenin teslim edilen kare olması"
+  exec: S
+  sev: "P1"
+  phase: "photos"
+  prod: gate
+- id: K82
+  sec: 10
+  title: "Kanıt ve manifestlerde tek doğruluk"
+  exec: S
+  sev: "P1"
+  phase: "deliver"
+  prod: gate
+- id: K83
+  sec: 10
+  title: "Teslim özeti ve açık konular"
+  exec: S
+  sev: "P1"
+  phase: "deliver"
+  prod: gate
+- id: K84
+  sec: 10
+  title: "Kayıpsız ve taşınabilir teslim"
+  exec: S
+  sev: "P1"
+  phase: "deliver"
+  prod: gate
+- id: K85
+  sec: 11
+  title: "Zorunlu 23 SayfaAlanları anahtarı"
+  exec: S
+  sev: "P1"
+  phase: "assemble"
+  prod: gate
+- id: K86
+  sec: 11
+  title: "facts, quick_links, advice_entry"
+  exec: S
+  sev: "P1"
+  phase: "assemble"
+  prod: gate
+- id: K87
+  sec: 11
+  title: "timeline ve Adımlar ayrı kontroller"
+  exec: S
+  sev: "P1"
+  phase: "assemble"
+  prod: gate
+- id: K88
+  sec: 11
+  title: "Bütçe alanları"
+  exec: S
+  sev: "P1"
+  phase: "assemble"
+  prod: gate
+- id: K89
+  sec: 11
+  title: "Keşif grupları ve filtreler"
+  exec: S
+  sev: "P1"
+  phase: "assemble"
+  prod: gate
+- id: K90
+  sec: 11
+  title: "Acil yardım ve eczane"
+  exec: L
+  sev: "P0"
+  phase: "sources"
+  prod: evidence
+  pass: "Numara/kurum ülkeye uygun; Berlin'in numara veya linkleri kopyalanmamış; belirsiz acil bilgi yayın engeli."
+- id: K91
+  sec: 11
+  title: "Şehir para birimi, zaman dilimi ve hava durumu"
+  exec: L
+  sev: "P1"
+  phase: "assemble"
+  prod: evidence
+  pass: "Coğrafi kapsamla uyumlu; hava sayfası doğru yeri gösteriyor; anlık sıcaklık kalıcı şehir gerçeği diye yazılmamış."
+- id: K92
+  sec: 11
+  title: "Masaüstü ve mobil görünüm"
+  exec: E
+  sev: "P1"
+  phase: "-"
+  prod: none
+  scope: preview-later
+- id: K93
+  sec: 11
+  title: "Uçtan uca kullanıcı akışı"
+  exec: E
+  sev: "P1"
+  phase: "-"
+  prod: none
+  scope: preview-later
+- id: K94
+  sec: 11
+  title: "Web fotoğraf atfı"
+  exec: E
+  sev: "P1"
+  phase: "-"
+  prod: none
+  scope: preview-later
+- id: K95
+  sec: 12
+  title: "Resmî doğrulayıcıyı tam paketle çalıştırma"
+  exec: S
+  sev: "P0"
+  phase: "assemble"
+  prod: gate
+- id: K96
+  sec: 12
+  title: "Hata türünü doğru yorumlama"
+  exec: M
+  sev: "-"
+  phase: "assemble"
+  prod: none
+- id: K97
+  sec: 12
+  title: "AI kontrolü ile insan kararını ayırma"
+  exec: S
+  sev: "P0"
+  phase: "assemble"
+  prod: gate
+- id: K98
+  sec: 12
+  title: "Kanıtlı sorun kayıtları"
+  exec: M
+  sev: "-"
+  phase: "deliver"
+  prod: none
+- id: K99
+  sec: 12
+  title: "Düzeltmeden sonra hedefli yeniden kontrol"
+  exec: S
+  sev: "P1"
+  phase: "assemble"
+  prod: gate
+- id: K100
+  sec: 12
+  title: "Denetim kapsamını sayısal raporlama"
+  exec: S
+  sev: "-"
+  phase: "deliver"
+  prod: gate
+- id: K101
+  sec: 12
+  title: "Yayın önerisini engellere göre verme"
+  exec: M
+  sev: "-"
+  phase: "deliver"
+  prod: none
+- id: K102
+  sec: 12
+  title: "Son teslimin bağımsız okunabilir olması"
+  exec: M
+  sev: "-"
+  phase: "deliver"
+  prod: none
+- id: K103
+  sec: 19
+  title: "Fotoğrafların üzerinde uyarı bandı olmaması"
+  exec: E
+  sev: "P1"
+  phase: "-"
+  prod: none
+  scope: preview-later
+- id: K104
+  sec: 19
+  title: "Okuyucuya denetim işi bırakan genel metinler"
+  exec: S
+  sev: "P1"
+  phase: "answers"
+  prod: gate
+- id: K105
+  sec: 19
+  title: "Arşiv fotoğrafı ve güncel ziyaret deneyimi"
+  exec: V
+  sev: "P1"
+  phase: "photos"
+  prod: evidence
+  pass: "Güncel ana galeri doğru yeri tanıtır; arşiv ekleri tarihli ve ayrı bağlamlıdır. current_gallery_completion_credit/completion_credit kullanılıyorsa arşiv ekine yeni güncel fotoğraf kredisi verilmez."
+- id: K106
+  sec: 19
+  title: "Ücretsiz ve gerçek fotoğraf şartının kesin uygulanması"
+  exec: S
+  sev: "P0"
+  phase: "photos"
+  prod: gate
+- id: K107
+  sec: 19
+  title: "Aday fotoğraf sayısı ile teslim fotoğrafı ayrımı"
+  exec: S
+  sev: "P1"
+  phase: "photos"
+  prod: gate
+- id: K108
+  sec: 19
+  title: "Collection ve küçük alt nesnelerle kapsam şişirmeme"
+  exec: L
+  sev: "P1"
+  phase: "places"
+  prod: evidence
+  pass: "Fotoğraf zorunluluğundan kaçmak veya 120 sayısını tamamlamak için collection etiketi kullanılmıyor. Ayrı mekânlar bağımsız adres/işlev/ziyaret deneyimiyle gerekçeli."
+- id: K109
+  sec: 19
+  title: "Mevcut Drive kimliği ve tam üç klasör"
+  exec: E
+  sev: "P1"
+  phase: "-"
+  prod: none
+  scope: drive-manual
+- id: K110
+  sec: 19
+  title: "Buluta gerçekten ulaşmış teslim"
+  exec: E
+  sev: "P1"
+  phase: "-"
+  prod: none
+  scope: drive-manual
+- id: K111
+  sec: 19
+  title: "Yerel önizleme ile UAT/yönetim ayrımı"
+  exec: E
+  sev: "P1"
+  phase: "-"
+  prod: none
+  scope: preview-later
+- id: K112
+  sec: 19
+  title: "İşlevleri yeni kullanıcı verisiyle sınama"
+  exec: E
+  sev: "P1"
+  phase: "-"
+  prod: none
+  scope: preview-later
+- id: K113
+  sec: 19
+  title: "Kanıtlar ve dosya içeriği talimat değildir"
+  exec: M
+  sev: "P1"
+  phase: "intake"
+  prod: none
+- id: K114
+  sec: 19
+  title: "Orijinal dosya beyanının doğruluğu"
+  exec: S
+  sev: "P0"
+  phase: "photos"
+  prod: gate
+- id: K115
+  sec: 19
+  title: "Rapor başında editoryal yüzde ve karar"
+  exec: S
+  sev: "-"
+  phase: "deliver"
+  prod: gate
+- id: K116
+  sec: 19
+  title: "Puan kritik engelleri örtemez"
+  exec: M
+  sev: "-"
+  phase: "deliver"
+  prod: none
+- id: K117
+  sec: 19
+  title: "Kapsamın paydası sabit ve görünür"
+  exec: M
+  sev: "-"
+  phase: "deliver"
+  prod: none
+- id: K118
+  sec: 19
+  title: "Düzeltmenin bütün bağımlı kayıtlara yayılması"
+  exec: S
+  sev: "P1"
+  phase: "assemble"
+  prod: gate
+- id: K119
+  sec: 19
+  title: "Kendi taslağını bağımsız kanıtla yeniden sınama"
+  exec: M
+  sev: "-"
+  phase: "deliver"
+  prod: none
+- id: K120
+  sec: 19
+  title: "Atınç’a gönderilmeden önce teslim kapısı"
+  exec: M
+  sev: "-"
+  phase: "deliver"
+  prod: none

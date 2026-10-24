@@ -1,0 +1,29 @@
+HATA ÖNLEME KURALLARI (v1, Corteqs v7 sözleşmesine ek; çelişirse sözleşme geçerlidir)
+
+A. BİÇİM VE ŞEMA
+1. Kimlikler (*_id, entry_id) yalnız küçük ASCII harf, rakam, -, _, : içerir; Türkçe karakter ve büyük harf yok. Teslimat kimliği örneği: city-039-v001.
+2. Bir URL tek source_id taşır; kaynak eklemeden önce URL'nin kayıtlı olup olmadığına bak.
+3. ';' ayraçlı liste hücrelerinde (source_ids, stop_entry_ids vb.) aynı değer iki kez yer almaz. Yinelenen değer okuyucuyu çökertir.
+4. Kanıtlar sekmesinde metadata_review_status, pixel_review_status, rights_status alanlarını "Bekliyor" bırak. "Tamam", "Evet", "Onaylandı" geçersizdir. Bu alanları sen onaylayamazsın.
+5. Fotoğraflar.file ve Fotoğraflar.sha256, FotoğrafKaynakları.original_file ve original_sha256 ile birebir aynı olmalı. Web kopyası yalnız web_file/web_sha256 alanına yazılır.
+6. Lisans bağlantısı creativecommons.org adresinde, https ile, sorgu parametresi olmadan, etiketle aynı sürümde olmalı (CC BY-SA 3.0 nl → https://creativecommons.org/licenses/by-sa/3.0/nl/). CC0 → https://creativecommons.org/publicdomain/zero/1.0/. Public domain satırında da dayanak URL'si doldur.
+7. SayfaAlanları: quick_links ve facts içindeki her öğede label ve entry (aynı şehirdeki içerik slug'ı) bulunur; dış url yazma. emergency.tel yalnız rakam ve +*# içerir (112). arrival_note, emergency_url, pharmacy_url, advice_entry dahil 17 zorunlu metin alanının tamamını doldur.
+8. Mahalle compare_json: en az 4 anahtar, tüm değerler dolu METİN. Mahalle başlıkları birbirinden farklı olmalı.
+9. Rota: 2–8 farklı durak. 9 durak oluşursa iki rotaya böl. stops adları ve stop_entry_ids aynı sırada, entry_id ilk durak.
+
+B. İÇERİK DOĞRULUĞU
+10. Hukuk, vergi, destek, ücret, sağlık, eğitim ve taşınma sayılarını kaynak sayfasından kopyala; bellekten yazma. Her sayı için yürürlük yılını ve kaynak alıntısını ayrı bir iddia tablosunda tut (kart_id, iddia, sayı, kaynak_url, alıntı, kontrol_tarihi, yürürlük_yılı).
+11. Koşul ve istisnaları ayrı cümle yaz; "genel kural"ı kaynakta istisna listesine bakmadan yazma. Ulusal kuralı şehre taşırken belediye uygulamasını ayrıca doğrula.
+12. Wikipedia resmî kaynak değildir. İşlem ve hukuk bilgisi için yalnız kurum sitesi. Kaynak etiketi gerçeği yansıtmalı. verified=Evet yalnız kaynakta iddia bulunup iddia tablosuna yazıldıysa.
+13. Mekân adresini yalnız mekânın resmî ziyaret sayfasından al. Bulamazsan alanı boş bırak ve ACIK_KONULAR'a yaz; tahmin, "?" veya [[...]] yazma. Aynı kompleks tek kayıt olsun. Tarih/köken bilgisini kurum arşivinden al.
+14. Mekân dengesi: tarih/mimari yaklaşık %35'i geçmesin; müze, sanat, sahne, spor, aile, doğa, yeme-içme için asgariyi sağla. Seçimi fotoğraf bulunabilirliği belirlemesin. Hedefin altında kalırsan gerekçeyi ACIK_KONULAR'a yaz; sayı için uydurma ekleme.
+
+C. FOTOĞRAF
+15. Aday seçmeden önce mekânın resmî adı, eski adı, belediyesi ve türünü sabitle (yanlış şehir ve benzer ad hatalarını önler).
+16. Aşağıdaki adayları ele: başlık/açıklamada painting, drawing, engraving, map, plan, logo, oil on canvas geçenler; kaynak sayfasında başka yerleşim adı geçenler; koordinatı mekâna 1 km'den uzak olanlar (kaynak kaydını kontrol et); kısa kenarı 600 px altı (dar panorama hariç, gerekçeyle); benzer kadraj veya renk/siyah-beyaz varyantı.
+17. Kapak ve mahalle fotoğrafı mekânı tanıtan genel görünüm olmalı (yakın plan ürün, levha, mezar ayrıntısı olmaz). Arşiv karelerinin başlığında tarihi yaz.
+18. Özgün (veya indirdiğin) dosyayı koru ve teslim et; yazar profil bağlantısı varsa ekle, yoksa uydurma. Sanat, etkinlik veya tanınabilir kişi içeren karelere hak incelemesi notu ekle.
+
+D. ÖZ-RAPOR
+19. "0 hata" yalnız resmî doğrulayıcı (check_delivery.py) çıktısıyla yazılır. Kendi yazdığın betiğin çıktısı resmî sonuç yerine geçmez.
+20. Görsel olarak incelediğin kare sayısını gerçek sayıda yaz. Paket boyutunu ölçerek yaz. Çözülemeyen konuları ACIK_KONULAR'a yaz; eksik kapsamı gizleme.

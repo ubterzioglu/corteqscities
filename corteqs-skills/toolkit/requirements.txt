@@ -1,0 +1,7 @@
+Pillow>=11,<13
+openpyxl>=3.1,<4
+pytest>=8
+pytest-cov>=5
+PyYAML>=6
+tzdata>=2024.1  # Windows'ta zoneinfo veritabanı yok; resmî doğrulayıcının IANA saat dilimi kontrolü için şart
+jsonschema>=4.18,<5  # manifest_check: manifest.schema.json (Draft 2020-12) doğrulaması

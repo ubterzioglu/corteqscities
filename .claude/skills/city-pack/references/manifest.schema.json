@@ -1,0 +1,111 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "corteqs/city-pack/manifest.schema.json",
+  "title": "city-pack manifest",
+  "description": "Fazlar arasi tasinan tek dosya. render_summary --manifest ust duzey phase, last_ids, sources_researched, photos_downloaded, next_step alanlarini okur.",
+  "type": "object",
+  "required": ["schema_version", "city", "paths", "phase", "phases", "open_items"],
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {"const": "1"},
+    "city": {
+      "type": "object",
+      "required": ["city_id", "name", "country", "city_code"],
+      "additionalProperties": false,
+      "properties": {
+        "city_id": {"type": "string", "pattern": "^[a-z0-9-]+$"},
+        "name": {"type": "string", "minLength": 1},
+        "country": {"type": "string", "minLength": 2},
+        "city_code": {"type": "string", "pattern": "^CITY-\\d+$"}
+      }
+    },
+    "paths": {
+      "type": "object",
+      "required": ["work", "package_root", "template_xlsx", "tools"],
+      "additionalProperties": false,
+      "properties": {
+        "work": {"type": "string"},
+        "package_root": {"type": "string"},
+        "template_xlsx": {"type": "string", "description": "Atinc'in 17 sekmeli sehir dosyasi (salt okunur)"},
+        "tools": {"type": "string", "description": "araclar/arac"},
+        "delivery_xlsx": {"type": "string"},
+        "data_dir": {"type": "string", "description": "Sekme basina JSONL (build_xlsx --data-dir)"},
+        "snapshots": {"type": "string"},
+        "cache": {"type": "string"},
+        "usage_log": {"type": "string", "description": "phase_usage --log"}
+      }
+    },
+    "country_pack": {
+      "type": ["object", "null"],
+      "required": ["path", "valid_until"],
+      "properties": {
+        "path": {"type": "string"},
+        "valid_until": {"type": "string", "format": "date"}
+      }
+    },
+    "phase": {"$ref": "#/$defs/phase_name"},
+    "phases": {
+      "type": "object",
+      "propertyNames": {"$ref": "#/$defs/phase_name"},
+      "additionalProperties": {"$ref": "#/$defs/phase_state"}
+    },
+    "last_ids": {"type": "array", "items": {"type": "string"}},
+    "sources_researched": {"type": "integer", "minimum": 0},
+    "photos_downloaded": {"type": "integer", "minimum": 0},
+    "next_step": {"type": "string"},
+    "open_items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "priority", "text", "evidence"],
+        "additionalProperties": false,
+        "properties": {
+          "id": {"type": "string"},
+          "priority": {"enum": ["P0", "P1", "P2"]},
+          "check_id": {"type": "string", "pattern": "^K\\d{2,3}$"},
+          "text": {"type": "string"},
+          "evidence": {"type": "string", "description": "Script ciktisi yolu veya URL"},
+          "owner": {"enum": ["ai", "insan", "atinc"]}
+        }
+      }
+    },
+    "delivered": {
+      "type": "object",
+      "properties": {
+        "at": {"type": "string", "format": "date-time"},
+        "xlsx_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+        "inventory": {"type": "string"}
+      }
+    }
+  },
+  "$defs": {
+    "phase_name": {"enum": ["intake", "sources", "answers", "places", "photos", "assemble", "deliver"]},
+    "phase_state": {
+      "type": "object",
+      "required": ["status"],
+      "additionalProperties": false,
+      "properties": {
+        "status": {"enum": ["pending", "running", "done", "blocked"]},
+        "started_at": {"type": "string", "format": "date-time"},
+        "ended_at": {"type": "string", "format": "date-time"},
+        "gates": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["script", "exit_code", "summary"],
+            "additionalProperties": false,
+            "properties": {
+              "script": {"type": "string"},
+              "exit_code": {"enum": [0, 1, 2]},
+              "summary": {"type": "object", "description": "Script'in tek satir JSON ozeti, oldugu gibi"},
+              "report": {"type": "string"},
+              "at": {"type": "string", "format": "date-time"}
+            }
+          }
+        },
+        "outputs": {"type": "array", "items": {"type": "string"}},
+        "blocked_reason": {"type": "string"}
+      }
+    }
+  }
+}

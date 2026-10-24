@@ -1,0 +1,97 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Corteqs v7 photo provenance extension",
+  "type": "array",
+  "$comment": "Structural schema; new-content audit additionally requires recorded download URL/date, bytes, permitted exact licence and source relationships. Historical unknowns remain empty with explanation.",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "photo_id": {
+        "type": "string",
+        "description": "Fotoğraf kimliği"
+      },
+      "author_url": {
+        "type": "string",
+        "description": "Fotoğrafçı profil / portföy bağlantısı",
+        "pattern": "^$|^https?://[^\\s]+$"
+      },
+      "attribution_url": {
+        "type": "string",
+        "description": "Görünür fotoğrafçı atıf bağlantısı",
+        "pattern": "^$|^https?://[^\\s]+$"
+      },
+      "original_file_url": {
+        "type": "string",
+        "description": "Kaynakta özgün fotoğraf dosyası URL",
+        "pattern": "^$|^https?://[^\\s]+$"
+      },
+      "downloaded_file_url": {
+        "type": "string",
+        "description": "Fiilen indirilen dosyanın URL’si",
+        "pattern": "^$|^https?://[^\\s]+$"
+      },
+      "downloaded_on": {
+        "type": "string",
+        "description": "Kaydedilmiş indirme tarihi"
+      },
+      "original_file": {
+        "type": "string",
+        "description": "Korunan mevcut fotoğraf dosyası",
+        "pattern": "^(?!/)(?!.*(?:^|/)\\.\\.(?:/|$)).+$"
+      },
+      "original_sha256": {
+        "type": "string",
+        "description": "Korunan dosya SHA-256",
+        "pattern": "^[a-f0-9]{64}$"
+      },
+      "web_file": {
+        "type": "string",
+        "description": "Hafif web kopyası (varsa)",
+        "pattern": "^(?!/)(?!.*(?:^|/)\\.\\.(?:/|$)).+$"
+      },
+      "web_sha256": {
+        "type": "string",
+        "description": "Web kopyası SHA-256",
+        "pattern": "^[a-f0-9]{64}$"
+      },
+      "web_width": {
+        "type": "integer",
+        "minimum": 1
+      },
+      "web_height": {
+        "type": "integer",
+        "minimum": 1
+      },
+      "derivation": {
+        "type": "string",
+        "description": "Dönüştürme kaydı"
+      },
+      "provenance_status": {
+        "type": "string",
+        "description": "Kaynak zinciri kontrolü"
+      },
+      "provenance_note": {
+        "type": "string",
+        "description": "Açık nokta / kanıt açıklaması"
+      }
+    },
+    "required": [
+      "photo_id",
+      "author_url",
+      "attribution_url",
+      "original_file_url",
+      "downloaded_file_url",
+      "downloaded_on",
+      "original_file",
+      "original_sha256",
+      "web_file",
+      "web_sha256",
+      "web_width",
+      "web_height",
+      "derivation",
+      "provenance_status",
+      "provenance_note"
+    ]
+  }
+}

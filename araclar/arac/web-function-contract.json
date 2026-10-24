@@ -1,0 +1,275 @@
+{
+  "acceptance_version": "2026-10-13.1",
+  "schema_version": "1.0",
+  "warning": "Örnekler canlı içerik değildir. Yerel araştırmayla tamamlayın; örnek URL ve telefonlar kabul edilmez.",
+  "fields": [
+    {
+      "key": "hero_kicker",
+      "label": "Üst küçük başlık",
+      "value_type": "Metin",
+      "example": "Bu şehre özgü Türkçe metin; editör tamamlar.",
+      "minimum": null
+    },
+    {
+      "key": "hero_accent",
+      "label": "Ana başlığın vurgu metni",
+      "value_type": "Metin",
+      "example": "Bu şehre özgü Türkçe metin; editör tamamlar.",
+      "minimum": null
+    },
+    {
+      "key": "hero_note",
+      "label": "Kapak altı kısa açıklama",
+      "value_type": "Metin",
+      "example": "Bu şehre özgü Türkçe metin; editör tamamlar.",
+      "minimum": null
+    },
+    {
+      "key": "topic_title",
+      "label": "Bilgi bölümü başlığı",
+      "value_type": "Metin",
+      "example": "Bu şehre özgü Türkçe metin; editör tamamlar.",
+      "minimum": null
+    },
+    {
+      "key": "topic_intro",
+      "label": "Bilgi bölümü açıklaması",
+      "value_type": "Metin",
+      "example": "Bu şehre özgü Türkçe metin; editör tamamlar.",
+      "minimum": null
+    },
+    {
+      "key": "journey_title",
+      "label": "İlk adımlar başlığı",
+      "value_type": "Metin",
+      "example": "Bu şehre özgü Türkçe metin; editör tamamlar.",
+      "minimum": null
+    },
+    {
+      "key": "journey_intro",
+      "label": "İlk adımlar açıklaması",
+      "value_type": "Metin",
+      "example": "Bu şehre özgü Türkçe metin; editör tamamlar.",
+      "minimum": null
+    },
+    {
+      "key": "neighborhood_title",
+      "label": "Mahalleler başlığı",
+      "value_type": "Metin",
+      "example": "Bu şehre özgü Türkçe metin; editör tamamlar.",
+      "minimum": null
+    },
+    {
+      "key": "neighborhood_intro",
+      "label": "Mahalleler açıklaması",
+      "value_type": "Metin",
+      "example": "Bu şehre özgü Türkçe metin; editör tamamlar.",
+      "minimum": null
+    },
+    {
+      "key": "explore_title",
+      "label": "Keşif başlığı",
+      "value_type": "Metin",
+      "example": "Bu şehre özgü Türkçe metin; editör tamamlar.",
+      "minimum": null
+    },
+    {
+      "key": "explore_intro",
+      "label": "Keşif açıklaması",
+      "value_type": "Metin",
+      "example": "Bu şehre özgü Türkçe metin; editör tamamlar.",
+      "minimum": null
+    },
+    {
+      "key": "sources_note",
+      "label": "Kaynak ve kontrol açıklaması",
+      "value_type": "Metin",
+      "example": "Bu şehre özgü Türkçe metin; editör tamamlar.",
+      "minimum": null
+    },
+    {
+      "key": "photo_credit",
+      "label": "Fotoğraf bölümü genel atıf notu; kare atıflarının yerine geçmez",
+      "value_type": "Metin",
+      "example": "Bu şehre özgü Türkçe metin; editör tamamlar.",
+      "minimum": null
+    },
+    {
+      "key": "arrival_note",
+      "label": "Kişisel takvimin yasal süre yerine geçmediğini açıklayan yerel not",
+      "value_type": "Metin",
+      "example": "Bu şehre özgü Türkçe metin; editör tamamlar.",
+      "minimum": null
+    },
+    {
+      "key": "facts",
+      "label": "En az 4 kısa bilgi; her biri aynı şehirde bir içerik slugına gider",
+      "value_type": "JSON",
+      "example": [
+        {
+          "value": "Kaynakta doğrulanan kısa bilgi",
+          "label": "Türkçe açıklama",
+          "entry": "ilgili-kart-slugi"
+        }
+      ],
+      "minimum": 4
+    },
+    {
+      "key": "quick_links",
+      "label": "En az 3 hızlı bağlantı; aynı şehirde içerik slugına gider",
+      "value_type": "JSON",
+      "example": [
+        {
+          "label": "Ev bulma",
+          "entry": "ev-bulma"
+        }
+      ],
+      "minimum": 3
+    },
+    {
+      "key": "timeline",
+      "label": "En az 4 kişisel hazırlık hatırlatıcısı; offset taşınma tarihine göre gün",
+      "value_type": "JSON",
+      "example": [
+        {
+          "title": "Taşınma dosyanı hazırla",
+          "note": "Kişisel hazırlık hatırlatıcısı; yasal süre değildir.",
+          "offset": -30
+        }
+      ],
+      "minimum": 4
+    },
+    {
+      "key": "budget_fields",
+      "label": "Bütçe hesaplayıcısının 10 alanı; tutar değil Türkçe başlıklar",
+      "value_type": "JSON",
+      "example": [
+        {
+          "key": "income",
+          "label": "Net gelir"
+        },
+        {
+          "key": "rent",
+          "label": "Kira"
+        },
+        {
+          "key": "bills",
+          "label": "Faturalar"
+        },
+        {
+          "key": "food",
+          "label": "Gıda"
+        },
+        {
+          "key": "transport",
+          "label": "Ulaşım"
+        },
+        {
+          "key": "health",
+          "label": "Sağlık"
+        },
+        {
+          "key": "leisure",
+          "label": "Sosyal yaşam"
+        },
+        {
+          "key": "other",
+          "label": "Diğer"
+        },
+        {
+          "key": "deposit",
+          "label": "Depozito"
+        },
+        {
+          "key": "moving",
+          "label": "Taşınma"
+        }
+      ],
+      "minimum": 10
+    },
+    {
+      "key": "place_groups",
+      "label": "Keşif filtresinin 8 sabit anahtarı ve Türkçe etiketleri",
+      "value_type": "JSON",
+      "example": [
+        {
+          "key": "museum",
+          "label": "Müzeler"
+        },
+        {
+          "key": "art",
+          "label": "Sanat"
+        },
+        {
+          "key": "stage",
+          "label": "Sahne"
+        },
+        {
+          "key": "sport",
+          "label": "Spor"
+        },
+        {
+          "key": "nature",
+          "label": "Doğa"
+        },
+        {
+          "key": "family",
+          "label": "Aile"
+        },
+        {
+          "key": "food",
+          "label": "Yeme içme"
+        },
+        {
+          "key": "history",
+          "label": "Tarih"
+        }
+      ],
+      "minimum": 8
+    },
+    {
+      "key": "emergency",
+      "label": "Yerel resmî kaynaktan doğrulanmış acil telefon kayıtları",
+      "value_type": "JSON",
+      "example": [
+        {
+          "tel": "YEREL_NUMARA",
+          "number": "Gösterilecek numara",
+          "label": "Hizmet adı",
+          "desc": "Ne zaman aranır; yerel kaynaktan doğrula."
+        }
+      ],
+      "minimum": 1
+    },
+    {
+      "key": "emergency_url",
+      "label": "Yerel resmî acil yardım açıklamasına bağlantı",
+      "value_type": "Metin",
+      "example": "https://RESMI-KURUM/yerel-acil-yardim",
+      "minimum": null
+    },
+    {
+      "key": "pharmacy_url",
+      "label": "Yerel resmî nöbetçi eczane/eczane bulma bağlantısı",
+      "value_type": "Metin",
+      "example": "https://RESMI-KURUM/eczane-bul",
+      "minimum": null
+    },
+    {
+      "key": "advice_entry",
+      "label": "Danışma kartının bu şehirdeki içerik slugı",
+      "value_type": "Metin",
+      "example": "yerel-danismanlik",
+      "minimum": null
+    }
+  ],
+  "extra_requirements": {
+    "routes": "En az 9 rota; her birinde 2–8 farklı gerçek Mekânlar.entry_id, aynı sırada stops; entry_id ilk durak.",
+    "journey_steps": "En az 4 gerçek adım; geçerli entry_id, title, when, description, sıra.",
+    "neighborhoods": "Her mahallede en az 4 karşılaştırma başlık/değeri; compare_json JSON nesnesi.",
+    "city": "currency, currency_symbol, currency_label, timezone, koordinatlar; forecast_url, provider_url, forecast_label.",
+    "actions": "Her bilgi/mekân/mahalle için ilgili resmî işlem veya kurum bağlantısı.",
+    "photos": "JPG/JPEG, PNG veya WebP; gerçek dosya, kare/yer eşleşmesi, kaynak-yazar-lisans ve kanıt."
+  },
+  "v7_note": "Ana içerik sözleşmesi korunur. Kaynak zinciri için sharedschema.json delivery_extension kullanılır. DB/UAT entegrasyonu bu dosya sürümünden ayrıdır."
+}
