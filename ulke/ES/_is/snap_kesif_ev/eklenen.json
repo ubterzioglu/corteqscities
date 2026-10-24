@@ -1,0 +1,40 @@
+{
+  "map": {
+    "https://www.boe.es/buscar/act.php?id=BOE-A-1994-26003": "es:kaynak:088",
+    "https://ine.es/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736177110&idp=1254735976607&menu=ultiDatos": "es:kaynak:089",
+    "https://www.incibe.es/ciudadania/estafas-alquileres": "es:kaynak:090"
+  },
+  "rejected": [
+    {
+      "url": "https://www.mivau.gob.es/vivienda/alquila-bien-es-tu-derecho/alquiler/deposito-de-fianzas",
+      "why": "kopya yok/ince (status 403)"
+    },
+    {
+      "url": "https://www.mivau.gob.es/vivienda/alquila-bien-es-tu-derecho/alquiler/10-preguntas",
+      "why": "kopya yok/ince (status 403)"
+    }
+  ],
+  "fetch": {
+    "status": "findings",
+    "urls": 5,
+    "fetched": 5,
+    "saved": 3,
+    "failed": 2,
+    "thin_text": 0,
+    "soft_404": 0,
+    "evidence_checked": 0,
+    "evidence_missing": 0,
+    "evidence_stale": 0,
+    "evidence_from_index": 0,
+    "must_contain_unmatched": 0,
+    "non_html": 0,
+    "truncated": 0,
+    "skipped": 0,
+    "index_rows": 5,
+    "index_kept": 0,
+    "requests_made": 5,
+    "cache_hits": 0,
+    "retry_transient": true,
+    "index": "C:\\temp_private\\corteqs\\0000_newera\\ulke\\ES\\_is\\snap_kesif_ev\\index.jsonl"
+  }
+}

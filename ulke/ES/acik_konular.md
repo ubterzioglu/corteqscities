@@ -53,3 +53,10 @@ Süreç: kaynak keşfi → yazar → bağımsız denetim → düzeltme editörü
 
 ## Güncellik (2027'ye girerken)
 - valid_until 2026-12-31 olan 7 kart 1 Ocak 2027'de yeniden doğrulanmalı: dijital göçebe, NLV, SMI 2026, yıllık izin ve tatiller 2026, bordro, otonom prim tablosu, bono social. country_apply bunları bayat sayıp yeniden denetime alıyor (denendi).
+
+## v3 notu (editör sonrası dar denetim + son düzeltme turu)
+- Editör sonrası bağımsız denetim yapıldı (para 0 ciddi/1 orta, iş 0/0, fatura 0/4); orta bulgular ve seçili küçükler son turda kapatıldı. Kalan küçük bulgular raporlarda: yazar\out\denetim_g1b_*.md.
+- Bono social kartı: kWh sınırları BOE Anexo I'e göre hane bileşimiyle yazıldı; kaynak sınırı yüzünden şikâyet adımı karttan çıktı (şikâyet kart "elektrik-ve-telekom-sikayet-yollari" kartında).
+- Elektrik aboneliği kartı: MITECO "her an cezasız çıkar" cümlesi çıkarıldı (CNMC'nin şartlı cezası ile uzlaştırılamadı).
+- Bizum kartı: güncel resmî sayfa yok; cümleler 2021 tarihli kaynağa bağlı.
+- Doğrulama ölçüsü: v3'te editör sonrası ikinci denetimden sonra yapılan son düzeltmeler yalnız script denetiminden geçti.

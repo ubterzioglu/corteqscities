@@ -65,3 +65,83 @@ Değişen cümleler (başlık, alt başlık, özet) 059/072 ile karşılaştır�
 - **KÜÇÜK - başlık "gestor ya da asesör" diyor, gövdede bu kelimeler artık yok (kural 12).** Editör özetten "Gestor ya da asesör gibi" ibaresini kaldırmış; başlık soruyor ama gövde hiç "gestor/asesör" demiyor, "gerekir mi" sorusuna ilk cümle örtük cevap veriyor. Kaynakta da bu kelimeler geçmiyor (072: "quienes ejerzan su actividad profesional en el ámbito de la gestión tributaria"). Öneri: başlığı "Gelir vergisi beyanını kendin verebilir misin, senin adına kim verebilir?" yap ya da ilk cümleye "Hayır, aracı şart değil" ekle.
 - **KÜÇÜK - "yalnızca beyanın elektronik verilmesini kapsar" kaynaktan dar.** 072: kapsam "declaraciones, comunicaciones y otros documentos tributarios" ve "presentación por vía telemática". "Beyan, bildirim ve diğer belgelerin elektronik sunumu" demeli. (Not alanındaki "mekanik ve idari işlemler" ✓: "mecánico, adjetivo y burocrático".)
 
+## 8. arac-sigortasi-zorunlulugu-ve-hipotek-sigortalari
+Değişen cümleler (alt başlık, özet, adım 3, timing, not) 066 (BOE art. 2) ve 071 ile karşılaştırıldı. Doğrulananlar: alışılmış park yeri İspanya olan araç için ayrı sözleşme (2.1); AEA'dan ithal araçta 30 gün, sigortayı kayıt devletinde ya da İspanya'da yaptırma seçeneği, seguro en frontera (2.1.e); gümrük yetkisi ve "En su defecto, deberán denegarles dicho acceso" (2.3); FEIN ücretsiz ve "al menos diez días naturales de antelación a la fecha de firma de la escritura"; alternatif poliçe (071). "Tapu senedi" yerine "hipotek senedi (escritura)" doğru.
+**Önceki ORTA bulgu (hipotek sigortası) KAPANDI:** kanıt 071: "Seguro de incendios (o multirriesgo del hogar): Este seguro es obligatorio a la hora de contratar una hipoteca." ve girişte "Aunque no es obligatorio contratarlos, si lo haces suelen reducir el diferencial". Kart her iki hükmü Banco de España'ya atfederek veriyor; başlığın ikinci yarısı artık cevaplanıyor.
+
+- **KÜÇÜK - hipotek anlatımı kendi içinde gerilimli; alt başlıktaki "diğerleri" editörün yorumu.** Özet: yangın sigortası "zorunludur"; aynı cümlede "bankanın koşul koyduğu sigortaları yaptırmanın zorunlu olmadığını" söylüyor. Yangın sigortası da bankanın koşul koyduğu sigortalardan biri; okuyucu hangisinin zorunlu olduğunu çıkaramaz. Alt başlık "diğerlerini zorunlu olmayan koşullar olarak anlatıyor" diyor: 071'in "no es obligatorio" cümlesi genel bir giriş cümlesi, hayat/ödeme koruma için ayrı bir hüküm yok. "Zorunlu" da yasal zorunluluk gibi okunabilir; 071 pratik nedenini şöyle veriyor: "Es habitual que el contrato de hipoteca incluya una cláusula en la que se te obliga a mantener vigente el contrato". Öneri: "Banco de España'ya göre yangın sigortası hipotek için zorunlu (sözleşmeye genellikle poliçeyi yürürlükte tutma yükümlülüğü konur); bankanın koşul koyduğu diğer sigortalar için aynı sayfa zorunlu olmadığını, ama yaptırırsan faiz farkının genelde düştüğünü söylüyor" - "diğerleri" kelimesi alt başlıktan çıkarılmalı.
+- **KÜÇÜK - alt başlıkta "İspanya'da park edilen her motorlu araç" hukuki ölçütü gevşetiyor.** Özet doğru ("alışılmış park yeri İspanya olan"), alt başlığı editör değiştirmiş. 066 art. 2.1: "que tenga su estacionamiento habitual en España". "Park edilen" geçici bir park etmeyi de kapsıyor gibi okunur; Türk plakalı araçla gelen okuyucu kendi durumunu bu cümleden çıkarmaya çalışır. Öneri: "alışılmış park yeri İspanya olan her motorlu araç".
+- **KÜÇÜK - gümrük notu kapsamı eksik ve çevirisi zayıf.** Not: "İspanyol gümrük makamları, araç İspanya'ya girerken ... zorunlu sigortayı arayabilir". 066 art. 2.3: yetki, "vehículos extranjeros de países no miembros del EEE que no estén adheridos al Acuerdo entre las oficinas nacionales de seguros ... que pretendan acceder ... desde un Estado que no sea miembro del EEE" için; yani AEA dışı bir devletten doğrudan girişte. Kart "desde un Estado que no sea miembro del EEE" koşulunu yazmıyor ("arayabilir" yerine "kontrol edip şart koşabilir"). Türk okuyucu: Türkiye'nin o anlaşmaya bağlı olup olmadığı kaynakta yok, kartta da yok (gaps'te doğru işaretli) - okuyucu "bana değiyor mu" sorusuna cevap bulamaz. Öneri: "AEA dışı bir ülkeden doğrudan girişte" ekle.
+
+## 9. emeklilik-yasi-ve-prim-suresi
+Değişen cümleler (özet, adım 4, cost, not) 069/073 ile karşılaştırıldı. Doğrulananlar: yaş tablosu 2026 ve 2027+ satırları, 5.475 gün, 2 yıl şartı, "Sólo se computan las cotizaciones efectivamente realizadas o las asimiladas" (069); 1-1-2013 istisnası "Se mantiene la edad de 65 años para quienes resulte de aplicación la legislación anterior a 1-1-2013" (069); "Desde el 1 de enero de 2026 ... contingencias comunes, el 28,30 por ciento, del que el 23,60 ... empresa y el 4,70 ... persona trabajadora" (073 art. 4; genel rejim, grup ayrımı yok); "accidentes de trabajo ... primas ... a cargo exclusivo de la empresa" (art. 4.b); MEI: "tipo del 0,90 por ciento ... el 0,75 ... empleador y el 0,15 ... persona trabajadora" (art. 16, "Desde el 1 de enero de 2026"); işsizlik/FOGASA/meslek eğitimi tipleri art. 33'te ayrı (örn. "Formación profesional: ... 0,60 empresa, 0,10 trabajadora"). Hesap hatası yok.
+**Önceki ORTA bulgu (prim oranı "toplam" gibi sunuluyor) KAPANDI:** kart artık "Bu yalnızca ortak riskler payıdır", MEI +0,90 puan, işsizlik/FOGASA/meslek eğitimi ayrı, iş kazası primi tamamen işverende. "2026'dan itibaren" -> "2026 için" ✓; "sayfada" havalesi kalktı ✓; 2013 öncesi istisna eklendi ✓; valid_until null ✓ (önceki küçük bulgu kapandı). Havale cümlesi yok.
+
+- **KÜÇÜK - "mutualista olmayanlar için 61 yaştan erken emeklilik" belirsiz.** 069: "Jubilación anticipada a partir de los 61 años sin tener la condición de mutualista" = 61 yaşından itibaren erken emeklilik. "61 yaştan erken" okuyucuya "61'den önce" gibi gelir. Öneri: "61 yaşından itibaren erken emeklilik (mutualista olmayanlar için)"; "mutualista" kelimesi de açıklanmamış jargon.
+- **KÜÇÜK - başlık-içerik uyumu: başlık emeklilik yaşı/prim SÜRESİ soruyor, özet ve adım 4 prim ORANI ile doluyor.** Editör oran ekini genişletmiş; özet yaklaşık 1.500 karakter. Başlığın sorusunu aşan cümle (oranlar) 4. adımda "eylem" olmaktan çıkmış bir olgu cümlesi. Öneri: oranları ayrı karta/cost alanına bırak; özet yaş ve süreyle bitsin.
+- **KÜÇÜK - "ortak riskler (contingencias comunes)" Türkçe'de açıklanmıyor.** Okuyucu bunun emeklilik, hastalık vb. genel hakları kapsadığını bilmez; kaynak 073 de tanımlamıyor, yazılmaması da bir seçenek. Öneri: kısa açıklama yalnız kaynaktan doğrulanabiliyorsa; yoksa oran cümlesini çıkar (yukarıdaki bulguyla birlikte çözülür).
+
+## 10. bizum-nedir-nasil-kullanilir
+Değişen cümleler (alt başlık, özet, adım 1, 2, 4, cost, not) 067 ile karşılaştırıldı. Hepsi kaynakla uyumlu: "La práctica totalidad de bancos españoles ofrece este servicio y ninguno aplica comisiones", "no cuenta con una aplicación dedicada", OTP SMS, 0,50 - 1.000 euro, "las entidades pueden fijar límites inferiores", ayda en çok 60 alma, "irrevocables y finales", "La única opción es que contactes con esa persona ...", "cada número a un banco distinto". Adım 4 artık kaynağın muğlak "tek telefon/tek hesap" cümlesini değil açık olanı kullanıyor (önceki küçük KAPANDI); limitler tarihli yazıldı (önceki küçük KAPANDI); mutlak cümleler "yazısına göre ... uygulamıyordu" geçmiş zamanına çevrildi.
+**Önceki ORTA bulgu (2021 güncellik) KISMEN KAPANDI:** her cümle 2021 tarihine bağlandı ve "Bu bilgiler 2021 tarihlidir" eklendi (kural 6'ya uygun). Ama bugünkü durumun resmî teyidi yok: WebSearch ile BdE sitesinde yalnız aynı 2021 yazısı çıktı (arama özeti "yaklaşık dört yıllık"); daha güncel resmî Bizum sayfası bulunamadı.
+
+- **KÜÇÜK - güncellik teyidi açık.** Kart baştan sona 5 yıllık bir blog yazısına dayanıyor; okuyucu için "bugün komisyon var mı, limit kaç" sorusuna cevap yok. Doğru yazıldığı için hata değil; yenileme listesine "BdE'nin güncel Bizum sayfası bulunursa kartı değiştir" konmalı (gaps.md'de zaten limit notu var).
+- **KÜÇÜK - "bankana başvurup parayı geri almak için gerekli girişimi yapmasını istemektir" kaynaktan güçlü.** 067: "También puedes acudir a tu banco para que realice las gestiones pertinentes para tratar de recuperar los fondos." Kaynak "geri almaya ÇALIŞMASI" diyor; kart bankanın geri alma girişimini garanti gibi yazıyor ve "tek seçenek ... ya da" kalıbıyla iki yolu eşit sunuyor. Öneri: "geri almaya çalışması için başvurabilirsin".
+- **KÜÇÜK - zaman kipi karışık.** Özet ve adım 2: "SMS ile gelen OTP kodunu da girmek gerekiyordu" (geçmiş), adım 1: "kullanılır" (şimdiki), not: "bankalar bu sınırlardan daha düşük limit koyabilir" (şimdiki, tarihsiz). Hepsi 2021 gözlemi; not cümlesinin son yarısı tarihsiz mutlak kalmış. Öneri: "koyabiliyordu".
+
+## 11. banka-ucretleri-ve-seffaflik-haklari
+Tek değişen cümle adım 4: "yıl boyunca toplamda" - 070 ile uyumlu ("no podrá repercutirle una comisión o gasto superior en cómputo anual a las comisiones o gastos medios que aplique para cada tipo de operación"); önceki küçük bulgu KAPANDI. Kart geri kalanı 068/070 ile birebir: "Las comisiones bancarias son libres ... excepto en aquellos casos en los que el importe ... limitados por una norma, como en la cancelación anticipada de una hipoteca o de un crédito al consumo"; "3 euros al mes, cantidad que el Banco de España podrá actualizar cada dos años"; 120 işlem; ATM notu. Kart içi çelişki yok (K1 "ücretsiz olabilir" ile K11 "ayda en çok 3 euro" birbirini yalanlamıyor), havale cümlesi yok.
+
+- **KÜÇÜK - 3 euro tavanının kimin için olduğu yok.** Önceki küçük bulgu açık: özet/cost temel ödeme hesabı tavanını veriyor ama hesabın hangi gruba açık olduğunu söylemiyor (K1'de var). Kaynak 058 bu karta bağlı değil (kural 2: en çok 2 kaynak); bir cümleyle "Bu hesap AB'de yasal oturanlar, sığınma başvurucuları ve sınır dışı edilemeyenler için sunulur" K1'in kaynağından yazılamaz. Çözüm: karttan değil, K1'e bağlantı ile.
+- **KÜÇÜK - cost: "Diğer hesaplarda komisyonlar serbesttir" mutlak.** Özette "norm sınırlamadıkça" koşulu var; cost alanında yok (kural 8). Öneri: "norm sınırlamadıkça".
+
+## 12. beckham-yasasi-ozel-vergi-rejimi
+Değişen cümleler (özet, adım 2/4, documents, not) 056/057 ile karşılaştırıldı. Doğrulananlar: taşınma yılı + 5 dönem (057); "se toma como referencia el año de adquisición de residencia y no el año de desplazamiento"; 10'dan 5'e (1 Ocak 2023); uzaktan çalışma ve "trabajadores por cuenta ajena que cuenten con el visado para teletrabajo"; girişimci için "disponga de la autorización de residencia con carácter previo a dicho desplazamiento" + ENISA raporu; iki kol (Ley 28/2022 empresa emergente / formación-I+D+i ve >%40); entidad patrimonial <%25; kalıcı işyeri istisnası; %24/%47 ve tasarruf ölçeği 19-21-23-27-30.
+**Önceki ORTA bulgu (oturum izni "taşınmadan önce") KAPANDI:** zorunluluk yalnız girişimci için; yüksek nitelikli uzmanda "taşınmadan önce oturum izni varsa nitelik şartı sağlanmış sayılır" (056 "Precisión": "En particular, se entenderá cumplida esta circunstancia cuando el contribuyente disponga de la autorización de residencia con carácter previo a su desplazamiento"). Önceki küçükler (iki kol, ücretli çalışan, 5 dönem referansı) da eklendi.
+
+- **KÜÇÜK - adım 4'te "kaynak şunu söylüyor" (kural 3'e yakın, eski hâli daha iyiydi).** Editör "AEAT kılavuzu şunu söylüyor"u "kaynak şunu söylüyor"a çevirmiş; okuyucu için "kaynak" belirsiz bir gönderme. Öneri: "AEAT kılavuzuna göre" ya da doğrudan "taşınmadan önce oturum izni varsa nitelik şartı sağlanmış sayılır".
+- **KÜÇÜK - "nitelik şartı" iki kola aynı biçimde uygulanmış.** 056'daki iki "Precisión" farklı şeyi söylüyor: empresa emergente kolunda "profesyonel altamente cualificado" olma (art. 71 titulación), I+D+i kolunda ise "formación, investigación, desarrollo e innovación" yapıyor olma (art. 72) "cumplida" sayılıyor. Kart ikisini "nitelik şartı" diye topluyor; ikinci kolda bu "nitelik" değil "faaliyet" şartı. Öneri: "ilgili şart sağlanmış sayılır".
+- **KÜÇÜK - "beş dönem" iki cümlesi çelişiyor gibi okunuyor.** Özet: "Taşınmadan önceki beş vergi döneminde ... mukim olmamış olmak gerekir; bu beş dönem hesabında taşınma yılı değil, mukimlik kazanılan yıl esas alınır." Aynı yıl olabilir; okuyucu iki yılın neden ayrı olduğunu anlamaz. Kaynak da açıklamıyor. Öneri: ilk cümleyi "mukimlik kazandığın yıldan önceki beş dönem" olarak birleştir.
+- **KÜÇÜK - Türk okuyucu (kural 7): ENISA raporu zamanlaması AB vatandaşlarına ait, kartta ayrım yok.** 056: "en el caso de los ciudadanos de la UE y extranjeros a los que les sea de aplicación el derecho de la UE ... deberán solicitar el citado informe con carácter previo a su desplazamiento ..., en el plazo de 10 días hábiles". Kart adım 3 "ENISA'nın olumlu raporunu al" diyor (zamanlama yok, hata değil); ancak Türk vatandaşı için hangi yolun geçerli olduğunu kaynak söylemiyor ve kart bunu söylemiyor. Rejimin kendisi AB vatandaşlarına özgü değil; kural 7'nin istediği bir cümle ("AB serbest dolaşımı Türk vatandaşına uygulanmaz") kartta yok.
+- Bilgi: rejime başvuru yolu/süresi hâlâ yok (gaps'te işaretli; hata değil).
+
+---
+
+## ÇAPRAZ KONTROLLER
+- Kartlar arası çelişki: yok. K1 ("ücretsiz olabilir") / K11 ("ayda en çok 3 euro") uyumlu. K5/K7 beyan kanalları tutarlı ("internet, telefon, randevulu şahsen"). K3 (IRPF ölçeği) ile K12 (%24/%47 özel rejim) ayrı kapsam. K9 prim oranı ile K11 komisyon konusu birbirinden bağımsız.
+- Havale cümlesi ("teyit et", "resmî sayfada yazar", "bu kartta yok"): açık havale yok. Yakın örnekler: K4 "bu kart bu bölgeleri kapsamaz" (3 kez), K12 "kaynak şunu söylüyor". İkisi küçük.
+- Başlık sorusuna ilk cümle: K1, K2, K3 (artık rakamlar ilk cümlede), K4, K6, K7 (örtük), K8, K9, K11, K12 tamam. K5 başlığın "ne zaman" yarısını ilk cümlede veriyor, "kim vermek zorunda" 3. cümleden sonra. K10 başlığın üçüncü sorusu ("geri alabilir miyim") özetin 3. cümlesinde.
+- Türk okuyucuyu yanıltabilecek cümleler: K5 "gelir türüne bağlıdır" (orta); K8 alt başlık "park edilen"; K3 ortak rejim hangi bölgeler belirsiz; K1/K11 3 euro hakkı bağı. Kesin yanlış hüküm yok.
+- valid_until.json: K5 ve K9 artık null (kaynakta bitiş yok); K5 kapanmış kampanya olarak işaretli. Tutarlı.
+
+## ÖNCEKİ BULGULARIN DURUMU (denetim_g1_para.md ciddi + orta)
+| Önceki bulgu | Durum |
+|---|---|
+| K5 CİDDİ Renta kim beyan verir (15.876, yurtdışı emekli maaşı) | KAPANDI (yeni orta bulgu: "gelir türüne bağlıdır" cümlesi) |
+| K5 ORTA geçmiş kampanya emir kipi | KAPANDI |
+| K1 ORTA temel hesap hakkı kapsamı | KAPANDI (yeni küçük: "yalnızca") |
+| K2 ORTA IBAN alıcı adı kontrolü | KAPANDI |
+| K3 ORTA régimen común kapsamı | KAPANDI (küçük atıf nüansı) |
+| K8 ORTA hipotek sigortası | KAPANDI (küçük gerilim) |
+| K9 ORTA emeklilik primi "toplam" | KAPANDI |
+| K10 ORTA Bizum güncelliği | KISMEN (tarih verildi; bugünkü resmî teyit yok) |
+| K12 ORTA Beckham oturum izni | KAPANDI |
+Toplam: 8 önceki bulgudan 7 tam, 1 kısmen kapandı (Bizum).
+
+## SONUÇ SAYIMI
+- CİDDİ: 0
+- ORTA: 1 (K5 "gelir türüne bağlıdır" - tutardan bağımsız zorunluluk grubu eksik)
+- KÜÇÜK: 32 (K1: 2, K2: 2, K3: 3, K4: 1, K5: 5, K6: 2, K7: 2, K8: 3, K9: 3, K10: 3, K11: 2, K12: 4)
+- Temiz kart: yok (K4, K6, K11 yalnız küçük, hiçbiri okuyucuyu yanıltmaz).
+- Editörün yeni cümleleri arasında kaynakta olmayan sayı/olgu: yok. Kaynakla uyuşmayan ya da kaydıran: K1 "yalnızca", K3 "kılavuzun kapsamı", K5 "gelir türüne bağlıdır", K8 alt başlık "park edilen", K12 "kaynak şunu söylüyor"/"nitelik şartı". Yanlış hesap: yok (IRPF dilimleri ve 12.450+7.750+15.000+24.800+240.000 toplamları yeniden hesaplandı).
+- IBAN kartı "9 Ekim 2025": kaynakla ÇELİŞMİYOR; yıl 19/02/2026 sayfa tarihinden çıkarılmış, sayfada yok (WebFetch teyitli); kart yılı "sayfaya göre" diye atfediyor (küçük).
+
+## BAKILMAYANLAR / SINIRLAR
+- 066 (BOE RDLeg 8/2004) yalnız art. 2 okundu; diğer maddeler bakılmadı. Art. 2.8 istisnaları ve Türkiye'nin "oficinas nacionales de seguros" anlaşmasına bağlılığı doğrulanmadı.
+- 073 (BOE Orden PJC/297/2026) art. 3, 4, 5, 16, 33 okundu; tüm emir okunmadı. "Cotización adicional de solidaridad" kartta yok, bakılmadı.
+- AEAT "Tipos IVA 2026" PDF'i açılmadı.
+- Renta 2026 (2027) kampanya tarihleri ve Bizum'un bugünkü resmî durumu: resmî kaynak bulunamadı.
+- Euskadi/Navarra foral IRPF, Türkiye-İspanya sosyal güvenlik düzeni, Beckham Modelo 149 başvuru süresi: kaynaklarda yok, denetlenmedi.
+- Kartların Excel/JSON dönüşümü, claims.para.jsonl (silinen satırlar dışında) ve Bağlantılar.para.jsonl denetlenmedi; yalnız Yanıtlar.para.jsonl, değişiklik kaydı, valid_until.json, gaps.md ve kaynak metinler.
+- IBAN: 2024/886 tüzüğünün 9 Ekim 2025 tarihi resmî metinden açılmadı; yalnız mantıksal çıkarım ve BdE sayfası.
+
