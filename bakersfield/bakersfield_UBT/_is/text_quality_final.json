@@ -1,0 +1,6467 @@
+{
+  "tool": "text_quality",
+  "workbook": "CITY-901_bakersfield_v001.xlsx",
+  "params": {
+    "min_cluster": 3,
+    "near": 0.9
+  },
+  "summary": {
+    "exact_clusters": 0,
+    "near_clusters": 0,
+    "template_clusters": 0,
+    "shared_steps": 0,
+    "placeholders": 0,
+    "filler": 0,
+    "evasive": 0,
+    "without_action": 0,
+    "visual_json_errors": 0,
+    "caption_is_title": 0,
+    "hedge_cards": 0,
+    "hedge_share": 0.0,
+    "exact_records": 0,
+    "short_repeat_groups": 1,
+    "repeated_sentences": 4,
+    "cards_total": 398,
+    "visual_json_empty": 266,
+    "address": {
+      "standard": "sen",
+      "records": 560,
+      "hitapsiz": 216,
+      "siz": 0,
+      "sen": 344,
+      "karisik": 0,
+      "findings": 0,
+      "labels": {
+        "records": 811,
+        "hitapsiz": 102,
+        "siz": 0,
+        "sen": 709,
+        "karisik": 0
+      },
+      "skipped": []
+    },
+    "findings": 0
+  },
+  "top_clusters": [],
+  "exact_duplicates": [],
+  "near_duplicates": [],
+  "template_duplicates": [],
+  "short_repeats": [
+    {
+      "sheet": "Yanıtlar",
+      "field": "cost",
+      "value": "Ücretsiz.",
+      "size": 4
+    }
+  ],
+  "repeated_sentences": [
+    {
+      "sheet": "Fotoğraflar",
+      "sentence": "kirpma rotus ve renk duzeltmesi yapilmadi",
+      "records": 41,
+      "fields": [
+        "modifications"
+      ],
+      "sample": "kırpma, rötuş ve renk düzeltmesi yapılmadı"
+    },
+    {
+      "sheet": "Fotoğraflar",
+      "sentence": "jpg 3008 2000 px ozgun dosyasinin 1280 851 px kucultulmus kopyasi indirildi",
+      "records": 4,
+      "fields": [
+        "modifications"
+      ],
+      "sample": "JPG\" (3008×2000 px) özgün dosyasının 1280×851 px küçültülmüş kopyası indirildi"
+    },
+    {
+      "sheet": "Fotoğraflar",
+      "sentence": "jpg 4000 3000 px ozgun dosyasinin 1280 960 px kucultulmus kopyasi indirildi",
+      "records": 3,
+      "fields": [
+        "modifications"
+      ],
+      "sample": "jpg\" (4000×3000 px) özgün dosyasının 1280×960 px küçültülmüş kopyası indirildi"
+    },
+    {
+      "sheet": "Fotoğraflar",
+      "sentence": "wikimedia commons taki wool growers bakersfield ca eebb basque diaspora in the united states tagzania 17797 1773 2364 px ozgun dosyasinin 1280 1707 px kucultulmus kopyasi indirildi",
+      "records": 3,
+      "fields": [
+        "modifications"
+      ],
+      "sample": "Wikimedia Commons'taki \"Wool Growers Bakersfield CA EEBB - Basque diaspora in the United States - Tagzania - 17797\" (177…"
+    }
+  ],
+  "shared_steps": [],
+  "placeholders": {
+    "count": 0,
+    "by_field": {},
+    "items": []
+  },
+  "filler": {
+    "count": 0,
+    "items": []
+  },
+  "hedges": {
+    "cards_total": 398,
+    "cards_with_hedge": 0,
+    "share": 0.0,
+    "max_per_card": 0,
+    "by_pattern": {},
+    "items": []
+  },
+  "evasive_answers": {
+    "count": 0,
+    "items": []
+  },
+  "action_links": {
+    "skipped": false,
+    "checked": 398,
+    "missing": 0,
+    "map_only": 0,
+    "no_id": 0,
+    "items": []
+  },
+  "visual_json": {
+    "total": 298,
+    "empty": 266,
+    "valid": 32,
+    "by_error": {},
+    "errors": []
+  },
+  "caption_is_title": {
+    "count": 0,
+    "total": 46,
+    "items": []
+  },
+  "address": {
+    "standard": "sen",
+    "records": 560,
+    "hitapsiz": 216,
+    "siz": 0,
+    "sen": 344,
+    "karisik": 0,
+    "by_sheet": {
+      "Yanıtlar": {
+        "records": 298,
+        "hitapsiz": 0,
+        "siz": 0,
+        "sen": 298,
+        "karisik": 0
+      },
+      "Mekânlar": {
+        "records": 94,
+        "hitapsiz": 82,
+        "siz": 0,
+        "sen": 12,
+        "karisik": 0
+      },
+      "Mahalleler": {
+        "records": 6,
+        "hitapsiz": 0,
+        "siz": 0,
+        "sen": 6,
+        "karisik": 0
+      },
+      "Rotalar": {
+        "records": 12,
+        "hitapsiz": 3,
+        "siz": 0,
+        "sen": 9,
+        "karisik": 0
+      },
+      "Adımlar": {
+        "records": 8,
+        "hitapsiz": 0,
+        "siz": 0,
+        "sen": 8,
+        "karisik": 0
+      },
+      "Konular": {
+        "records": 12,
+        "hitapsiz": 12,
+        "siz": 0,
+        "sen": 0,
+        "karisik": 0
+      },
+      "Sözlük": {
+        "records": 60,
+        "hitapsiz": 60,
+        "siz": 0,
+        "sen": 0,
+        "karisik": 0
+      },
+      "SayfaAlanları": {
+        "records": 23,
+        "hitapsiz": 13,
+        "siz": 0,
+        "sen": 10,
+        "karisik": 0
+      },
+      "Şehir": {
+        "records": 1,
+        "hitapsiz": 0,
+        "siz": 0,
+        "sen": 1,
+        "karisik": 0
+      },
+      "Fotoğraflar": {
+        "records": 46,
+        "hitapsiz": 46,
+        "siz": 0,
+        "sen": 0,
+        "karisik": 0
+      }
+    },
+    "labels": {
+      "records": 811,
+      "hitapsiz": 102,
+      "siz": 0,
+      "sen": 709,
+      "karisik": 0
+    },
+    "skipped": [],
+    "findings": [],
+    "items": [
+      {
+        "sheet": "Yanıtlar",
+        "row": 8,
+        "id": "bakersfield:okul-kaydi-bcsd",
+        "form": "sen",
+        "fields": {
+          "subtitle": "sen",
+          "summary": "sen",
+          "steps": "sen",
+          "visual_json": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "öğren",
+          "yaptıracağın",
+          "oturduğun",
+          "yapabilirsin",
+          "bağlıysan"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 9,
+        "id": "bakersfield:okula-baslama-yasi-ve-zorunlu-egitim",
+        "form": "sen",
+        "fields": {
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "belirle",
+          "kaydettirebilirsin",
+          "sağla",
+          "sor",
+          "bölgesindeysen"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 10,
+        "id": "bakersfield:cocuk-bakimi-odeme-yardimi-capp",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "seçebiliyorsun",
+          "doldur",
+          "indir",
+          "al",
+          "incele"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 11,
+        "id": "bakersfield:ingilizce-ogrenen-cocuklar-icin-okul-destegi-bcsd",
+        "form": "sen",
+        "fields": {
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "ulaş",
+          "değerlendir",
+          "istiyorsan",
+          "kullan",
+          "sor"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 12,
+        "id": "bakersfield:bebek-dogum-belgesi-birth-certificate-nasil-alinir",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "documents": "sen",
+          "timing": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "alabilirsin",
+          "başvuracağın",
+          "başvur",
+          "başvuracaksan",
+          "gönder"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 13,
+        "id": "bakersfield:okul-kaydinda-gocmenlik-durumu-ve-ssn",
+        "form": "sen",
+        "fields": {
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "ver",
+          "değilsin",
+          "yaz",
+          "karşılıyorsan",
+          "yaşarsan"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 14,
+        "id": "bakersfield:okul-kaydi-icin-asi-kayitlari-ve-saglik-formlari",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "getirebilirsin",
+          "bul",
+          "hazırla",
+          "geliyorsan",
+          "götür"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 15,
+        "id": "bakersfield:bcsd-okul-transfer-talebi",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "istiyorsan",
+          "vermen",
+          "belirle",
+          "başvur",
+          "yap"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 16,
+        "id": "bakersfield:bcsd-ogrenci-kayitlari-talebi",
+        "form": "sen",
+        "fields": {
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "istediğin",
+          "yaz",
+          "hazırla",
+          "seç",
+          "istiyorsan"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 17,
+        "id": "bakersfield:ev-dili-anketi-ve-elpac-ingilizce-yeterlilik-testi",
+        "form": "sen",
+        "fields": {
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "doldur",
+          "yazdıysan",
+          "iste",
+          "bekle",
+          "kullan"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 18,
+        "id": "bakersfield:okulda-veli-destegi-face-liaison",
+        "form": "sen",
+        "fields": {
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "ulaş",
+          "bulabilirsin",
+          "sana",
+          "sor",
+          "iste"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 19,
+        "id": "bakersfield:ozel-egitim-icin-search-and-serve-basvurusu-bcsd",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "düşünüyorsan",
+          "gidebilirsin",
+          "ara",
+          "istersen",
+          "git"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 20,
+        "id": "bakersfield:devamsizlik-truancy-kurallari-bcsd",
+        "form": "sen",
+        "fields": {
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "et",
+          "al",
+          "görüş",
+          "katıl",
+          "bildir"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 21,
+        "id": "bakersfield:bcsd-okul-ici-saglik-merkezleri-wellness-center",
+        "form": "sen",
+        "fields": {
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "sana",
+          "ara",
+          "kat",
+          "doldur"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 22,
+        "id": "bakersfield:bcsd-california-state-preschool-basvurusu",
+        "form": "sen",
+        "fields": {
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "hesapla",
+          "al",
+          "bak",
+          "ara"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 23,
+        "id": "bakersfield:bcsd-state-preschool-sinif-yerleri",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "belirleyebilirsin",
+          "alıyorsun",
+          "belirle",
+          "al",
+          "ara"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 24,
+        "id": "bakersfield:head-start-ve-early-head-start-capk-basvurusu",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "ara",
+          "yap",
+          "başvur",
+          "hazırla",
+          "başvuruyorsan"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 25,
+        "id": "bakersfield:lisansli-cocuk-bakimi-yeri-bulma",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "seçtiğin",
+          "isteyebilirsin",
+          "girdiğin",
+          "aç",
+          "et"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 26,
+        "id": "bakersfield:wic-beslenme-destegi-hamilelik-bebek-cocuk",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "documents": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "olman",
+          "ara",
+          "kaydol",
+          "götür",
+          "kullanabiliyorsun"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 27,
+        "id": "bakersfield:khsd-okul-bolgesi-ve-open-enrollment",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "değilsen",
+          "öğrenebilirsin",
+          "olduğun",
+          "gideceksen",
+          "öğren"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 28,
+        "id": "bakersfield:bakersfield-high-school-9-sinif-kaydi",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "ara",
+          "kazanabilirsin",
+          "katıl",
+          "hazırla",
+          "doldur"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 29,
+        "id": "bakersfield:khsd-lise-ici-transfer-idt",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "olduğun",
+          "istiyorsan",
+          "verebilirsin",
+          "sunman",
+          "gönderdiğin"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 30,
+        "id": "bakersfield:bakersfield-adult-school-lise-diplomasi-kaydi",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "ettiğin",
+          "girmen",
+          "iste",
+          "getirmen",
+          "gir"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 31,
+        "id": "bakersfield:dogum-belgesi-certified-copy-informational-copy-farki",
+        "form": "sen",
+        "fields": {
+          "steps": "sen",
+          "documents": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "iste",
+          "başvuruyorsan",
+          "doldur",
+          "onayla",
+          "amacın"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 32,
+        "id": "bakersfield:bebek-icin-social-security-numarasi-ssn-basvurusu",
+        "form": "sen",
+        "fields": {
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "yap",
+          "başvurduysan",
+          "beklemen",
+          "başvurmadıysan",
+          "hazırla"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 33,
+        "id": "bakersfield:okulda-ucretsiz-ogun-ve-ogun-formu",
+        "form": "sen",
+        "fields": {
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "isteyebilirsin",
+          "doldurabilirsin",
+          "yaz",
+          "ara",
+          "alıyorsan"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 34,
+        "id": "bakersfield:kiralik-ev-ararken-ve-sozlesme-imzalarken",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "belirle",
+          "ayır",
+          "gez",
+          "gördüğün",
+          "yaz"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 35,
+        "id": "bakersfield:kira-sozlesmesinde-neler-yazmali-ve-sozlesme-turleri",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "ödeyeceğin",
+          "kapsamındaysan",
+          "seni",
+          "bul",
+          "al"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 36,
+        "id": "bakersfield:kira-basvurusunda-istenen-belgeler",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "ehliyetin",
+          "sunabilirsin",
+          "gelirin",
+          "kanıtlayabilirsin",
+          "göstereceğin"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 37,
+        "id": "bakersfield:basvuru-ucreti-ve-kapora",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "timing": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "seçilmediysen",
+          "bıraktığın",
+          "vazgeçersen",
+          "senin",
+          "et"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 38,
+        "id": "bakersfield:kira-basvurusu-reddedilirse",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "timing": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "sana",
+          "Reddedildiğin",
+          "istersen",
+          "alabilirsin",
+          "ödediysen"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 39,
+        "id": "bakersfield:ev-sahibi-gocmenlik-durumumu-sorabilir-mi",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "seni",
+          "sana",
+          "hatırla",
+          "et",
+          "düşünüyorsan"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 40,
+        "id": "bakersfield:depozito-ust-siniri-ve-geri-alma",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "cost": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "gönder",
+          "aç",
+          "et",
+          "al",
+          "sakla"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 41,
+        "id": "bakersfield:depozito-kesintileri",
+        "form": "sen",
+        "fields": {
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "karşılaştır",
+          "et",
+          "iste",
+          "Anlaşamazsan",
+          "gönder"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 42,
+        "id": "bakersfield:giris-cikis-envanter-ve-on-inceleme",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "doldur",
+          "imzala",
+          "iste",
+          "sende",
+          "isteyebilirsin"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 43,
+        "id": "bakersfield:kira-odemelerim-kredi-gecmisine-yazilabilir-mi",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "senin",
+          "ödemediğin",
+          "geciktirdiğin",
+          "istediğin",
+          "vazgeçebilirsin"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 44,
+        "id": "bakersfield:kiraci-haklari-tamir-tahliye-kira-artisi",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "seni",
+          "kullandığın",
+          "sana",
+          "et",
+          "bildir"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 45,
+        "id": "bakersfield:evde-tamir-ve-guvenlik-sorunu",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "bildir",
+          "sakla",
+          "ver",
+          "al",
+          "bildirdiysen"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 46,
+        "id": "bakersfield:kira-artisi-siniri-ve-bildirim",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "sen",
+          "sana",
+          "et",
+          "hesapla",
+          "ödediğin"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 47,
+        "id": "bakersfield:kira-korumalari-evimi-kapsiyor-mu",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "sana",
+          "kiraladığın",
+          "kiralıyorsan",
+          "öğren",
+          "görebilirsin"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 48,
+        "id": "bakersfield:ev-sahibi-eve-ne-zaman-girebilir",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [
+          "kararlaştırmanız"
+        ],
+        "sen": [
+          "sen",
+          "sana",
+          "et",
+          "bil",
+          "konuş"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 49,
+        "id": "bakersfield:ev-sahibi-beni-cikarmak-isterse",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "seni",
+          "sana",
+          "Aldığın",
+          "oku",
+          "senden"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 50,
+        "id": "bakersfield:tahliye-bildirimi-turleri-ve-sureler",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "senden",
+          "öde",
+          "belirle",
+          "aldıysan",
+          "et"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 51,
+        "id": "bakersfield:tahliye-davasi-acilirsa",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "timing": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "yapmazsan",
+          "sana",
+          "istiyorsan",
+          "vermelisin",
+          "vermezsen"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 52,
+        "id": "bakersfield:kiradan-cikmak-icin-bildirim",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "vermelisin",
+          "ödersin",
+          "taşınırsan",
+          "olabilirsin",
+          "hazırla"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 53,
+        "id": "bakersfield:ev-sahibiyle-sorun-hukuki-yardim",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "dene",
+          "gönder",
+          "sakla",
+          "bulabilirsin",
+          "değilsen"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 54,
+        "id": "bakersfield:uygun-fiyatli-konut-ve-kira-yardimi",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "arayabilirsin",
+          "başvur",
+          "görüşebilirsin",
+          "bul",
+          "ara"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 55,
+        "id": "bakersfield:section-8-kupon-basvurusu-ve-kupon-sureci",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "ödersin",
+          "bul",
+          "başvur",
+          "et",
+          "hazırla"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 56,
+        "id": "bakersfield:kern-county-dhs-konut-destekleri",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "git",
+          "ulaş",
+          "yararlanıcısıysan",
+          "değilsen",
+          "başvur"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 57,
+        "id": "bakersfield:ev-satin-almak-icin-ilk-adimlar",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "seç",
+          "alabilirsin",
+          "arayabilirsin",
+          "alacaksan",
+          "incele"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 58,
+        "id": "bakersfield:engelli-kiraci-hizmet-hayvani-ve-evcil-hayvan",
+        "form": "sen",
+        "fields": {
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "hayvanın",
+          "bak",
+          "istiyorsan",
+          "istediğin",
+          "ver"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 59,
+        "id": "bakersfield:kiraci-sigortasi",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "senin",
+          "seni",
+          "al",
+          "istediğin",
+          "ol"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 60,
+        "id": "bakersfield:elektrik-dogalgaz-abonelik-acma",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "documents": "sen",
+          "timing": "sen",
+          "cost": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "bak",
+          "başlatırsın",
+          "açarsın",
+          "seçersin",
+          "tamamladığın"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 61,
+        "id": "bakersfield:su-aboneligi-cal-water-baslatma",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "bak",
+          "bul",
+          "aç",
+          "açtırırsın",
+          "açarsın"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 62,
+        "id": "bakersfield:cop-toplama-geri-donusum-hizmeti",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "oturuyorsan",
+          "sana",
+          "öğrenirsin",
+          "ara",
+          "Bakersfield'daysan"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 63,
+        "id": "bakersfield:elektrik-gaz-fatura-indirim-programlari",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "documents": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "uymazsan",
+          "yaparsın",
+          "say",
+          "bak",
+          "doldur"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 64,
+        "id": "bakersfield:ev-interneti-telefon-dusuk-gelirli-destek",
+        "form": "sen",
+        "fields": {
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "düşün",
+          "olabilirsin",
+          "katılıyorsan",
+          "başvurabilirsin",
+          "iste"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 65,
+        "id": "bakersfield:elektrik-gaz-kapatma-yeni-adrese-tasima",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "aktarırsın",
+          "taşınıyorsan",
+          "başlatabilirsin",
+          "durdurursun",
+          "yap"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 66,
+        "id": "bakersfield:pge-faturasi-odeme-yollari",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "timing": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "ödeyebilirsin",
+          "yaptığın",
+          "ödersen",
+          "yap",
+          "Hesabın"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 67,
+        "id": "bakersfield:pge-ingilizce-disinda-dilde-destek",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "istersin",
+          "seçebilirsin",
+          "ara",
+          "ihtiyacın",
+          "iste"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 68,
+        "id": "bakersfield:pge-budget-billing-dengeli-aylik-fatura",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "timing": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "kaçınırsın",
+          "geçmişin",
+          "olmamalısın",
+          "yap",
+          "seç"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 69,
+        "id": "bakersfield:pge-odeme-plani-vade-uzatma",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "cost": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "ödeyemeyeceksen",
+          "isteyebilirsin",
+          "geçemezsin",
+          "uymazsan",
+          "yap"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 70,
+        "id": "bakersfield:pge-reach-kesinti-bildirimi-borc-destegi",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "olman",
+          "kayıtlıysan",
+          "başvuramazsın",
+          "yap",
+          "doğrula"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 71,
+        "id": "bakersfield:pge-amp-borc-silme-programi",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "timing": "sen",
+          "note": "sen",
+          "visual_json": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "müşterisiysen",
+          "ödersin",
+          "girebilmen",
+          "olman",
+          "olmalısın"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 72,
+        "id": "bakersfield:kesilen-elektrik-gaz-yeniden-acma",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "ödemen",
+          "çek",
+          "kullanabilirsin",
+          "bul",
+          "götür"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 73,
+        "id": "bakersfield:ucretsiz-ev-yenileme-energy-savings-assistance",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "karşılıyorsan",
+          "Oturduğun",
+          "verirsin",
+          "ol",
+          "başvur"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 74,
+        "id": "bakersfield:liheap-enerji-faturasi-yardimi-kern",
+        "form": "sen",
+        "fields": {
+          "steps": "sen",
+          "cost": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "karşılaştır",
+          "yaz",
+          "seç",
+          "ulaşabilirsin",
+          "çıkarsan"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 75,
+        "id": "bakersfield:pge-medical-baseline-tibbi-cihaz-destegi",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "başvurabilirsin",
+          "tarifedeysen",
+          "alırsın",
+          "tarifelerindeysen",
+          "alabilirsin"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 76,
+        "id": "bakersfield:cal-water-faturasi-odeme-yollari",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "ödeyebilirsin",
+          "öde",
+          "gir",
+          "hesabın",
+          "yapabilirsin"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 77,
+        "id": "bakersfield:cal-water-dusuk-gelir-indirimi-cap",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "timing": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "senin",
+          "oturmalısın",
+          "oturuyorsan",
+          "başvurabilirsin",
+          "bak"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 78,
+        "id": "bakersfield:cal-water-gecikmis-fatura-kesinti-kurallari",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "müşterisiysen",
+          "isteyebilirsin",
+          "ara",
+          "yaz",
+          "iste"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 79,
+        "id": "bakersfield:cal-water-ucretsiz-tasarruf-seti-iade",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "sistemin",
+          "başvurabilirsin",
+          "et",
+          "onayla",
+          "kaydol"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 80,
+        "id": "bakersfield:california-lifeline-telefon-indirimi",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "documents": "sen",
+          "timing": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "seçersin",
+          "iste",
+          "bulabilirsin",
+          "gönder",
+          "doldur"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 81,
+        "id": "bakersfield:federal-lifeline-internet-telefon-indirimi",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "katılıyorsan",
+          "kazanırsın",
+          "uygulatabilirsin",
+          "bul",
+          "öğren"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 82,
+        "id": "bakersfield:adresimde-internet-saglayicilari-fcc-haritasi",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "seçersin",
+          "aç",
+          "yaz",
+          "adresin",
+          "kullan"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 83,
+        "id": "bakersfield:acil-durumda-911-nasil-aranir",
+        "form": "sen",
+        "fields": {
+          "subtitle": "sen",
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "bildireceğin",
+          "ara",
+          "bildir",
+          "engelin",
+          "kullan"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 84,
+        "id": "bakersfield:ruh-sagligi-krizinde-988-hatti-nasil-aranir",
+        "form": "sen",
+        "fields": {
+          "subtitle": "sen",
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "et",
+          "bağlanabileceğin",
+          "Kendin",
+          "arayabilirsin",
+          "ara"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 85,
+        "id": "bakersfield:hands-only-cpr-yalniz-gogus-basisi-nasil-yapilir",
+        "form": "sen",
+        "fields": {
+          "subtitle": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "yapabileceğin",
+          "ara",
+          "koy",
+          "tut",
+          "git"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 86,
+        "id": "bakersfield:vial-of-life-acil-tibbi-bilgi-kiti-nedir",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "sen",
+          "git",
+          "al",
+          "aç",
+          "doldur"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 87,
+        "id": "bakersfield:readykern-acil-durum-uyarilarina-nasil-kaydolurum",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "istediğin",
+          "kaydettirmen",
+          "seç",
+          "açarsın",
+          "güncellersin"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 88,
+        "id": "bakersfield:evde-yangin-kacis-plani-nasil-yapilir",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "belirle",
+          "seç",
+          "düşün",
+          "ekle",
+          "görürsen"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 89,
+        "id": "bakersfield:cop-kutulari-yesil-mavi-gri-hangi-atik-hangi-kutuya",
+        "form": "sen",
+        "fields": {
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "değilsen",
+          "ara",
+          "sakinleriysen",
+          "oturuyorsan",
+          "bak"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 90,
+        "id": "bakersfield:buyuk-esya-nasil-atilir-kanepe-yatak-buzdolabi",
+        "form": "sen",
+        "fields": {
+          "subtitle": "sen",
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "kendin",
+          "ara",
+          "dışındaysan",
+          "bilmiyorsan",
+          "götürebilirsin"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 91,
+        "id": "bakersfield:tehlikeli-ev-atiklari-boya-pil-ilac-nereye-birakilir",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "götür",
+          "ol",
+          "getir",
+          "yaz",
+          "karıştırma"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 92,
+        "id": "bakersfield:kullanilmis-igne-sirinda-sharps-nasil-atilir",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "götür",
+          "kullandığın",
+          "alabilirsin",
+          "değiştir",
+          "gidebilirsin"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 93,
+        "id": "bakersfield:eski-televizyon-bilgisayar-cep-telefonu-e-atik-nereye",
+        "form": "sen",
+        "fields": {
+          "subtitle": "sen",
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "götüreceğin",
+          "getirebilirsin",
+          "götür",
+          "bırakabilirsin"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 94,
+        "id": "bakersfield:bakersfield-adult-school-ucretsiz-esl-dersleri",
+        "form": "sen",
+        "fields": {
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "seç",
+          "gir",
+          "ulaşabilirsin",
+          "okuyabilirsin",
+          "al"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 95,
+        "id": "bakersfield:bakersfield-college-yetiskin-egitimi-ve-emls",
+        "form": "sen",
+        "fields": {
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "iste",
+          "başvurabilirsin",
+          "uğra",
+          "ara",
+          "istiyorsan"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 96,
+        "id": "bakersfield:cevrimici-ya-da-yuz-yuze-ucretsiz-ingilizce-kursu-bulma",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "kullanabilirsin",
+          "öğrenebilirsin",
+          "çalış",
+          "ara",
+          "Çocuğun"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 97,
+        "id": "bakersfield:bakersfield-college-kutuphane-topluluk-karti",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "alabilirsin",
+          "kullanabilirsin",
+          "kaybedersen",
+          "bağışlarsan",
+          "al"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 98,
+        "id": "bakersfield:sicak-hava-kirliligi-ve-vadi-hummasi-nelere-dikkat",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "kal",
+          "et",
+          "dur",
+          "ver",
+          "bırak"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 99,
+        "id": "bakersfield:asiri-sicakta-evde-ve-disarida-nasil-serinlerim",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "Dışarıdaysan",
+          "kal",
+          "kullan",
+          "içerideysen",
+          "bul"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 100,
+        "id": "bakersfield:isi-krampi-isi-bitkinligi-sicak-carpmasi-belirtileri-ilk-yardim",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "ara",
+          "götür",
+          "yap",
+          "ver",
+          "al"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 101,
+        "id": "bakersfield:arabada-cocuk-evcil-hayvan-engelli-birakmak-tehlikesi",
+        "form": "sen",
+        "fields": {
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "ol",
+          "kilitle",
+          "tut"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 102,
+        "id": "bakersfield:sicakta-risk-gruplari-ilac-ve-elektrik-kesintisi-plani",
+        "form": "sen",
+        "fields": {
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "sakla",
+          "planla",
+          "hazırla",
+          "ara"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 103,
+        "id": "bakersfield:asiri-sicak-uyarisi-extreme-heat-warning-watch-advisory-ne-demek",
+        "form": "sen",
+        "fields": {
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "zorundaysan",
+          "ver",
+          "kal",
+          "et",
+          "planla"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 104,
+        "id": "bakersfield:hava-kalitesi-indeksi-aqi-nasil-okunur",
+        "form": "sen",
+        "fields": {
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "Bulunduğun",
+          "bul",
+          "bulunduğun",
+          "öğren",
+          "bak"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 105,
+        "id": "bakersfield:vadi-hummasi-valley-fever-nedir-belirtileri-neler",
+        "form": "sen",
+        "fields": {
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "başvur",
+          "sor",
+          "yaz"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 106,
+        "id": "bakersfield:vadi-hummasindan-nasil-korunurum-toz-ve-n95-maske",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "azaltabilirsin",
+          "dur",
+          "Kaçınamıyorsan",
+          "kal",
+          "kapat"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 107,
+        "id": "bakersfield:vadi-hummasi-nasil-teshis-edilir-ve-tedavisi-nedir",
+        "form": "sen",
+        "fields": {
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "iyileşmiyorsan",
+          "sor",
+          "öğrenirsin",
+          "yakalandığın",
+          "geçirdiğin"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 108,
+        "id": "bakersfield:kern-literacy-council-ucretsiz-egitmenlik-esl-ve-vatandaslik-sinifi",
+        "form": "sen",
+        "fields": {
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "ara",
+          "doldur",
+          "sana",
+          "sor",
+          "kaydolabilirsin"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 109,
+        "id": "bakersfield:ajcc-kern-ucretsiz-is-arama-destegi",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "katılabilirsin",
+          "git",
+          "kullan",
+          "ol",
+          "kendin"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 110,
+        "id": "bakersfield:ajcc-kayitli-kariyer-hizmetleri-ve-sartlari",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "olursan",
+          "alırsın",
+          "git",
+          "ara",
+          "al"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 111,
+        "id": "bakersfield:kaliforniya-asgari-ucret-ve-calisma-saati-kurallari",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "bulunduğun",
+          "karşılaştır",
+          "çalıştığın",
+          "edemezsin",
+          "anlaşsan"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 112,
+        "id": "bakersfield:fazla-mesai-ucreti-nasil-hesaplanir",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "seni",
+          "Maaşlıysan",
+          "bul",
+          "anlaştıysan",
+          "çalıştıysan"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 113,
+        "id": "bakersfield:yemek-ve-dinlenme-molasi-haklari",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "çalışıyorsan",
+          "hakkın",
+          "al",
+          "kaldırmadıysan",
+          "istediğin"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 114,
+        "id": "bakersfield:ucretli-hastalik-izni-hakki-ve-kullanimi",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "timing": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "çalışıyorsan",
+          "doldurman",
+          "kendin",
+          "kullanabilirsin",
+          "öğren"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 115,
+        "id": "bakersfield:maas-ne-zaman-ve-ne-siklikla-odenmeli",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "kazandığın",
+          "bul",
+          "unuttuysan",
+          "hakkın",
+          "başvur"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 116,
+        "id": "bakersfield:maas-bordrosu-ve-yasal-kesintiler",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "sana",
+          "senin",
+          "onayladığın",
+          "oku",
+          "bulun"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 117,
+        "id": "bakersfield:isten-ayrilirken-son-maas-ne-zaman-odenir",
+        "form": "sen",
+        "fields": {
+          "subtitle": "sen",
+          "summary": "sen",
+          "steps": "sen",
+          "timing": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "ayrılırsan",
+          "seni",
+          "çıkarıldığın",
+          "Kendin",
+          "ayrılıyorsan"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 118,
+        "id": "bakersfield:odenmeyen-ucret-icin-labor-commissioner-talebi",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "documents": "sen",
+          "timing": "sen",
+          "note": "sen",
+          "visual_json": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "alacağın",
+          "açabilirsin",
+          "bul",
+          "çalıştığın",
+          "yaz"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 119,
+        "id": "bakersfield:misilleme-yapilirsa-sikayet-hakki-ve-sure",
+        "form": "sen",
+        "fields": {
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "bil",
+          "yap",
+          "kaçırdıysan",
+          "danış"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 120,
+        "id": "bakersfield:bagimsiz-yuklenici-mi-calisan-mi-abc-testi",
+        "form": "sen",
+        "fields": {
+          "subtitle": "sen",
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "seni",
+          "sınıflandırılırsan",
+          "başvurabileceğin",
+          "sayılırsan",
+          "girersin"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 121,
+        "id": "bakersfield:is-kazasi-isci-tazminati-workers-compensation",
+        "form": "sen",
+        "fields": {
+          "subtitle": "sen",
+          "summary": "sen",
+          "steps": "sen",
+          "cost": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "bildir",
+          "yaralandıysan",
+          "yakalandıysan",
+          "iyileşmen",
+          "kaybettiğin"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 122,
+        "id": "bakersfield:sicakta-calisirken-isverenin-yukumlulukleri",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "çalışıyorsan",
+          "ol",
+          "iste",
+          "edebilirsin",
+          "isteyebilirsin"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 123,
+        "id": "bakersfield:hastalik-dogum-ve-aile-izni-maas-destegi-sdi-pfl",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "cost": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "çalışamazsan",
+          "ara",
+          "kazancın",
+          "olmalısın",
+          "sağlamalısın"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 124,
+        "id": "bakersfield:goc-statusu-is-haklarini-ve-yardimlari-nasil-etkiler",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "değilsen",
+          "iznin",
+          "başvur",
+          "olmasan",
+          "kayıtlıysan"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 125,
+        "id": "bakersfield:issizlik-odenegi-basvurusu-edd",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "documents": "sen",
+          "note": "sen",
+          "visual_json": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "çıkarıldıysan",
+          "başvurabilirsin",
+          "değilsen",
+          "iznin",
+          "başvur"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 126,
+        "id": "bakersfield:issizlik-odenegi-basvuru-sonrasi-onay-ve-odeme",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "timing": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "oku",
+          "bildir",
+          "etmen",
+          "bildirirsin",
+          "karşıladığın"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 127,
+        "id": "bakersfield:kendi-isini-kurmak-icin-izin-ve-kayit-adimlari",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "yapacaksan",
+          "kaydettirirsin",
+          "alırsın",
+          "kaydettir",
+          "öde"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 128,
+        "id": "bakersfield:kern-county-takma-ticari-ad-dba-kaydi",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "documents": "sen",
+          "note": "sen",
+          "visual_json": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "verirsin",
+          "dosyalıyorsan",
+          "yaptırman",
+          "sana",
+          "kullan"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 129,
+        "id": "bakersfield:ein-isveren-kimlik-numarasi-nasil-alinir",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "işletmen",
+          "ödemezsin",
+          "et",
+          "alacaksan",
+          "işleteceksen"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 130,
+        "id": "bakersfield:diploma-denkligi-meslek-kurullari-yontemi",
+        "form": "sen",
+        "fields": {
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "gönder",
+          "kullan",
+          "başvuruyorsan",
+          "transkriptin"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 131,
+        "id": "bakersfield:doktor-ve-hemsire-lisansi-yurt-disi-egitim",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "geçmediysen",
+          "lisansın",
+          "girersin",
+          "al",
+          "geçmelisin"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 132,
+        "id": "bakersfield:yurt-disinda-egitim-gormus-ogretmen-kaliforniya-kredansiyel",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "almalısın",
+          "gönder",
+          "seç",
+          "öğretmeniysen",
+          "başvurabilirsin"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 133,
+        "id": "bakersfield:cal-osha-is-guvenligi-sikayeti-nasil-yapilir",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "yaparsın",
+          "sen",
+          "bildir",
+          "korkun",
+          "edebilirsin"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 134,
+        "id": "bakersfield:muzeler-ve-kultur-mekanlari",
+        "form": "sen",
+        "fields": {
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "koy",
+          "git",
+          "gez",
+          "gir",
+          "seç"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 135,
+        "id": "bakersfield:hafta-sonu-doga-kern-nehri-goller-parklar",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "görebilirsin",
+          "git",
+          "izle",
+          "bil",
+          "kullan"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 136,
+        "id": "bakersfield:cocuklarla-gidilecek-yerler",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "getirebilirsin",
+          "kiralayabilirsin",
+          "git",
+          "al",
+          "kirala"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 137,
+        "id": "bakersfield:bakersfield-sound-ve-canli-muzik",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "gidebilirsin",
+          "git",
+          "bak"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 138,
+        "id": "bakersfield:spor-takimlari-ve-tesisleri",
+        "form": "sen",
+        "fields": {
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "ara",
+          "git",
+          "al"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 139,
+        "id": "bakersfield:muze-ve-hayvanat-bahcesi-saat-ve-bilet",
+        "form": "sen",
+        "fields": {
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "gir",
+          "al",
+          "git",
+          "gideceksen",
+          "seç"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 140,
+        "id": "bakersfield:muzelere-ucretsiz-ve-indirimli-giris",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "kartın",
+          "giriyorsun",
+          "git",
+          "göster",
+          "üstüysen"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 141,
+        "id": "bakersfield:merkezdeki-muzelere-ulasim-ve-park",
+        "form": "sen",
+        "fields": {
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "gidiyorsan",
+          "git",
+          "dön",
+          "izle",
+          "et"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 142,
+        "id": "bakersfield:parklari-kim-isletiyor",
+        "form": "sen",
+        "fields": {
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "ara",
+          "öde",
+          "etmiyorsan",
+          "girersen"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 143,
+        "id": "bakersfield:lake-ming-ve-hart-park-kurallari",
+        "form": "sen",
+        "fields": {
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "seçersen",
+          "kullan",
+          "kendin",
+          "getir",
+          "tutacaksan"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 144,
+        "id": "bakersfield:gollerde-tekne-izni-ve-ucretler",
+        "form": "sen",
+        "fields": {
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "gideceksen",
+          "al",
+          "ara",
+          "kullan"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 145,
+        "id": "bakersfield:kern-nehrinde-yuzmek-guvenli-mi",
+        "form": "sen",
+        "fields": {
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "olsan",
+          "seni",
+          "gir",
+          "dur",
+          "tut"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 146,
+        "id": "bakersfield:kern-nehrinde-rafting-ve-bot-izni",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "çıkacaksan",
+          "yeniysen",
+          "seç",
+          "ara",
+          "gideceksen"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 147,
+        "id": "bakersfield:sequoia-kings-canyon-giris-ucreti",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "gideceksen",
+          "gidiyorsan",
+          "al",
+          "öde",
+          "yap"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 148,
+        "id": "bakersfield:milli-park-abd-disi-ek-ucret",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "girersen",
+          "hesapla",
+          "al",
+          "etmiyorsan",
+          "alabileceğin"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 149,
+        "id": "bakersfield:sequoia-dag-yolu-yakit-zincir",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "doldur",
+          "gir",
+          "çek",
+          "al",
+          "ara"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 150,
+        "id": "bakersfield:dev-sekoya-koruluklari-ve-yol-mevsimleri",
+        "form": "sen",
+        "fields": {
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "seç",
+          "git",
+          "gidiyorsan",
+          "ol",
+          "al"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 151,
+        "id": "bakersfield:eyalet-parklari-ucretsiz-giris-kartlari",
+        "form": "sen",
+        "fields": {
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "aç",
+          "indir",
+          "al",
+          "kartın",
+          "aileysen"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 152,
+        "id": "bakersfield:federal-4-sinif-park-karti",
+        "form": "sen",
+        "fields": {
+          "subtitle": "sen",
+          "steps": "sen",
+          "note": "sen",
+          "visual_json": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "getir",
+          "gir",
+          "indir",
+          "gideceğin",
+          "değilsen"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 153,
+        "id": "bakersfield:tule-elk-auto-safari-turu",
+        "form": "sen",
+        "fields": {
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "ol",
+          "çık",
+          "git",
+          "dön",
+          "öde"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 154,
+        "id": "bakersfield:arena-ulasim-ve-otopark",
+        "form": "sen",
+        "fields": {
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "çık",
+          "git",
+          "dön",
+          "geliyorsan",
+          "gir"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 155,
+        "id": "bakersfield:tekerlekli-sandalye-ve-bebek-arabasi",
+        "form": "sen",
+        "fields": {
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "kirala",
+          "ara",
+          "kullan",
+          "al",
+          "kısıtın"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 156,
+        "id": "bakersfield:kopekle-parklara-giris",
+        "form": "sen",
+        "fields": {
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "tut",
+          "istiyorsan",
+          "git",
+          "öde",
+          "sakla"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 157,
+        "id": "bakersfield:park-piknik-alani-rezervasyonu",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "getirebilirsin",
+          "seç",
+          "başvur",
+          "getireceksen",
+          "kullanacaksan"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 158,
+        "id": "bakersfield:konser-ve-gosteri-bileti-kurallari",
+        "form": "sen",
+        "fields": {
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "al",
+          "istersen",
+          "git",
+          "yap",
+          "göstermen"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 159,
+        "id": "bakersfield:abd-calisma-vizesi-turleri",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "çalışabileceğin",
+          "kazandığın",
+          "senin",
+          "başvurursun",
+          "istediğin"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 160,
+        "id": "bakersfield:h1b-vizesi-adimlari",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "sen",
+          "yaparsın",
+          "sana",
+          "sağla",
+          "başvurursun"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 161,
+        "id": "bakersfield:green-card-basvurusu-ve-takip",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "seni",
+          "dışındaysan",
+          "bulunuyorsan",
+          "başvurabilirsin",
+          "senin"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 162,
+        "id": "bakersfield:aile-yoluyla-green-card-es-cocuk",
+        "form": "sen",
+        "fields": {
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "ol",
+          "belirle",
+          "durumdaysan",
+          "vizesindeysen",
+          "becerin"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 163,
+        "id": "bakersfield:calisma-izni-ead-basvurusu",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "istediğin",
+          "çalışabilirsin",
+          "kalmazsın",
+          "doldurursun",
+          "incelersin"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 164,
+        "id": "bakersfield:uscis-adres-degisikligi-bildirimi",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "bildirirsin",
+          "yap",
+          "taşındıysan",
+          "ver",
+          "bildir"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 165,
+        "id": "bakersfield:gocmenlik-basvurusu-durum-takibi",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "verdiysen",
+          "öğrenirsin",
+          "aldığın",
+          "istersen",
+          "ararsın"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 166,
+        "id": "bakersfield:is-yoluyla-green-card-perm-i140",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "yolundaysan",
+          "girersin",
+          "seçtiğin",
+          "yapıyorsan",
+          "hazırla"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 167,
+        "id": "bakersfield:green-card-piyangosu-dv",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "olman",
+          "sana",
+          "kendin",
+          "sorgularsın",
+          "et"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 168,
+        "id": "bakersfield:k1-nisanli-vizesi",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "timing": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "nişanlıysan",
+          "planlıyorsan",
+          "senin",
+          "başvurursun",
+          "evlenmen"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 169,
+        "id": "bakersfield:ogrenci-vizesi-f1-m1-j1",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "zorundasın",
+          "kaydolman",
+          "deysen",
+          "görüşmelisin",
+          "seç"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 170,
+        "id": "bakersfield:csub-f1-vizesi-adimlari",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "documents": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "seni",
+          "sana",
+          "ödersin",
+          "doldurursun",
+          "alırsın"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 171,
+        "id": "bakersfield:ziyaretci-vizesi-b1-b2",
+        "form": "sen",
+        "fields": {
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "bak",
+          "seç",
+          "doldur",
+          "öğren",
+          "bul"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 172,
+        "id": "bakersfield:kalis-suresi-uzatma-i539",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "timing": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "ABD'deysen",
+          "başvurabilirsin",
+          "yaptığın",
+          "açıklaman",
+          "vermelisin"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 173,
+        "id": "bakersfield:i94-giris-cikis-kaydi",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "gelirsen",
+          "başvurabilirsin",
+          "yapabilirsin",
+          "giriyorsan",
+          "bekle"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 174,
+        "id": "bakersfield:green-card-yenileme-i90",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "cost": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "sahibiysen",
+          "başvurursun",
+          "değiştirebilirsin",
+          "yapabilirsin",
+          "belirle"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 175,
+        "id": "bakersfield:yurt-disi-seyahat-belgeleri-green-card",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "sahibiysen",
+          "kaldıysan",
+          "kalacaksan",
+          "yapmalısın",
+          "bulunuyorsan"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 176,
+        "id": "bakersfield:abd-vatandasligina-gecis-n400",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "olmalısın",
+          "girmen",
+          "başvurursun",
+          "verdiysen",
+          "girersin"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 177,
+        "id": "bakersfield:vize-reddi-sonrasi-haklar",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "hakkın",
+          "sana",
+          "sor"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 178,
+        "id": "bakersfield:pasaport-vize-kaybi-abd",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "izlersin",
+          "bildirirsin",
+          "istersin",
+          "başvurursun",
+          "alırsın"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 179,
+        "id": "bakersfield:ise-alimda-ayrimcilik-ier",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "düşünüyorsan",
+          "dosyalayabilirsin",
+          "arayabilirsin",
+          "Yaşadığın",
+          "bak"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 180,
+        "id": "bakersfield:gocmenlik-hukuki-yardim-kaliforniya",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "kullan",
+          "bakabilirsin",
+          "ulaşabilirsin",
+          "değilsen",
+          "bulursun"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 181,
+        "id": "bakersfield:notario-gocmenlik-dolandiriciligi",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "documents": "sen",
+          "timing": "sen",
+          "cost": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "seni",
+          "ol",
+          "bulamazsan",
+          "bak",
+          "iste"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 182,
+        "id": "bakersfield:csub-f1-kampus-ici-calisma-cpt-opt",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "timing": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "olman",
+          "çalışabilirsin",
+          "al",
+          "iste",
+          "ver"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 183,
+        "id": "bakersfield:l1-o1-h4-vizeleri-kimler-icin",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "sen",
+          "çalıştığın",
+          "belirle",
+          "kanıtlaman",
+          "Yapacağın"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 184,
+        "id": "bakersfield:abd-de-banka-hesabi-acma",
+        "form": "sen",
+        "fields": {
+          "subtitle": "sen",
+          "summary": "sen",
+          "steps": "sen",
+          "documents": "sen",
+          "note": "sen",
+          "visual_json": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "değilsen",
+          "götürürsün",
+          "yaparsın",
+          "bul",
+          "karşılaştır"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 185,
+        "id": "bakersfield:fazla-harcama-overdraft-ucreti-onleme",
+        "form": "sen",
+        "fields": {
+          "subtitle": "sen",
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "vermen",
+          "senden",
+          "vermesen",
+          "verdiysen",
+          "istediğin"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 186,
+        "id": "bakersfield:yurt-disina-para-gonderirken-haklar",
+        "form": "sen",
+        "fields": {
+          "subtitle": "sen",
+          "summary": "sen",
+          "steps": "sen",
+          "timing": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "edebilirsin",
+          "bildirebilirsin",
+          "sana",
+          "karşılaştırabilirsin",
+          "yaşarsan"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 187,
+        "id": "bakersfield:federal-vergi-beyannamesi-ne-zaman-nasil-verilir",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "kazandığın",
+          "verirsin",
+          "sayılıyorsan",
+          "yabancıysan",
+          "kullanırsın"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 188,
+        "id": "bakersfield:california-eyalet-vergi-beyannamesi-nasil-verilir",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "yerleşiksen",
+          "evliysen",
+          "sen",
+          "taşındıysan",
+          "ayrıldıysan"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 189,
+        "id": "bakersfield:vergi-acisindan-yerlesik-mi-yerlesik-olmayan-mi",
+        "form": "sen",
+        "fields": {
+          "title": "sen",
+          "subtitle": "sen",
+          "summary": "sen",
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "sayılırsın",
+          "geçirdiğin",
+          "taşındığın",
+          "sayılabilirsin",
+          "değilsen"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 190,
+        "id": "bakersfield:h-1b-vizesiyle-vergi-nasil-isler",
+        "form": "sen",
+        "fields": {
+          "subtitle": "sen",
+          "summary": "sen",
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "olursan",
+          "olmazsan",
+          "kullanırsın",
+          "geçirdiğin",
+          "Yerleşiksen"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 191,
+        "id": "bakersfield:ogrenci-vizesiyle-vergi-form-8843",
+        "form": "sen",
+        "fields": {
+          "subtitle": "sen",
+          "summary": "sen",
+          "steps": "sen",
+          "documents": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "gelirin",
+          "geçirdiğin",
+          "verirsin",
+          "vermen",
+          "bulunduğun"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 192,
+        "id": "bakersfield:yerlesikse-yurt-disi-gelir-ve-hesaplari-bildirme",
+        "form": "sen",
+        "fields": {
+          "title": "sen",
+          "summary": "sen",
+          "steps": "sen",
+          "timing": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "sayılırsan",
+          "bildirmen",
+          "sayılıyorsan",
+          "bildirirsin",
+          "olduğun"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 193,
+        "id": "bakersfield:ucretsiz-vergi-hazirlama-vita-bakersfield",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "ararsın",
+          "al",
+          "doldur",
+          "götür",
+          "yazabilirsin"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 194,
+        "id": "bakersfield:caleitc-california-kazanilmis-gelir-vergi-kredisi",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "documents": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "kendin",
+          "çocuğun",
+          "doğrula",
+          "Kendin",
+          "hazırla"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 195,
+        "id": "bakersfield:itin-basvurusu-nasil-yapilir",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "documents": "sen",
+          "note": "sen",
+          "visual_json": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "başvurabilirsin",
+          "pasaportun",
+          "imzala",
+          "hazırla",
+          "bırak"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 196,
+        "id": "bakersfield:itin-kimler-icin-ne-ise-yarar",
+        "form": "sen",
+        "fields": {
+          "subtitle": "sen",
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "yapmazsın",
+          "bağımlıysan",
+          "alabilmen",
+          "vermen",
+          "seni"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 197,
+        "id": "bakersfield:itin-yuz-yuze-basvuru-secenekleri",
+        "form": "sen",
+        "fields": {
+          "title": "sen",
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "sana",
+          "alabilirsin",
+          "belirle",
+          "istiyorsan",
+          "dışındaysan"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 198,
+        "id": "bakersfield:es-ve-cocuk-icin-itin",
+        "form": "sen",
+        "fields": {
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "ver",
+          "değilsen",
+          "verebilirsin",
+          "ekle",
+          "doldur"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 199,
+        "id": "bakersfield:itin-yenileme-ve-ssn-sonrasi",
+        "form": "sen",
+        "fields": {
+          "title": "sen",
+          "subtitle": "sen",
+          "summary": "sen",
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "alırsan",
+          "aldıysan",
+          "kullanacaksan",
+          "yenilersin",
+          "gönderirsin"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 200,
+        "id": "bakersfield:gida-ve-nakit-yardimlari-kern-county",
+        "form": "sen",
+        "fields": {
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "başvur",
+          "Hamileysen",
+          "anneysen",
+          "çocuğun",
+          "ara"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 201,
+        "id": "bakersfield:calfresh-basvurusu-kern-county",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "documents": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "verebilirsin",
+          "istersen",
+          "yaparsın",
+          "başvur",
+          "yapmayacaksan"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 202,
+        "id": "bakersfield:calfresh-calisma-sarti-1-haziran-2026",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "seni",
+          "karşılamıyorsan",
+          "alırsın",
+          "alıyorsan",
+          "gör"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 203,
+        "id": "bakersfield:calfresh-gocmenlik-statusu-nisan-2026",
+        "form": "sen",
+        "fields": {
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "bak",
+          "sahibiysen",
+          "başvurabilirsin",
+          "karşılamıyorsan",
+          "olabilirsin"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 204,
+        "id": "bakersfield:calworks-cocuklu-ailelere-nakit-destek",
+        "form": "sen",
+        "fields": {
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "başvur",
+          "git",
+          "konuş",
+          "sor",
+          "durumun"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 205,
+        "id": "bakersfield:capi-gocmenler-icin-nakit-yardim",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "sağlaman",
+          "al",
+          "getir",
+          "ver",
+          "öğrenirsin"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 206,
+        "id": "bakersfield:wic-gida-destegi-bakersfield",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "documents": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "olman",
+          "ara",
+          "gönder",
+          "İstersen",
+          "doldur"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 207,
+        "id": "bakersfield:kredi-gecmisi-nasil-olusturulur",
+        "form": "sen",
+        "fields": {
+          "subtitle": "sen",
+          "summary": "sen",
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "başla",
+          "yap",
+          "kullan",
+          "yaptığın",
+          "yatırırsın"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 208,
+        "id": "bakersfield:ucretsiz-kredi-raporu-ve-hataya-itiraz",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "timing": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "görürsen",
+          "edersin",
+          "gir",
+          "ulaşırsın",
+          "ara"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 209,
+        "id": "bakersfield:abd-turkiye-vergi-anlasmasi",
+        "form": "sen",
+        "fields": {
+          "title": "sen",
+          "summary": "sen",
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "sana",
+          "seni",
+          "netleştir",
+          "çalışıyorsan",
+          "kalıyorsan"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 210,
+        "id": "bakersfield:tasinmadan-once-hazirlanacak-belgeler",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "documents": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "senden",
+          "geliyorsan",
+          "giriyorsan",
+          "kullanırsın",
+          "al"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 211,
+        "id": "bakersfield:ilk-hafta-is-sirasi",
+        "form": "sen",
+        "fields": {
+          "subtitle": "sen",
+          "summary": "sen",
+          "steps": "sen",
+          "note": "sen",
+          "visual_json": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "geldiysen",
+          "al",
+          "iznin",
+          "başvur",
+          "git"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 212,
+        "id": "bakersfield:yaz-sicagi-ve-hava-kirliligine-hazirlik",
+        "form": "sen",
+        "fields": {
+          "subtitle": "sen",
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "et",
+          "serinleyeceğin",
+          "planla",
+          "yap",
+          "izle"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 213,
+        "id": "bakersfield:yeni-gelenlere-ucretsiz-resmi-destek",
+        "form": "sen",
+        "fields": {
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "ara",
+          "et",
+          "gönder",
+          "bul",
+          "uğradıysan"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 214,
+        "id": "bakersfield:bakersfielda-ulasim-havalimani-tren-otobus",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "gelebilirsin",
+          "seni",
+          "geliyorsan",
+          "seç",
+          "ara"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 215,
+        "id": "bakersfield:turkiyeden-ilac-getirme-kurali",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "kalacaksan",
+          "getirteceksen",
+          "ekle"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 216,
+        "id": "bakersfield:abdye-nakit-getirme-ve-10000-dolar-bildirimi",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "getirebileceğin",
+          "bildirmen",
+          "Bildirmezsen",
+          "edersen",
+          "taşıyacaksan"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 217,
+        "id": "bakersfield:gumrukte-yiyecek-ve-tarim-urunu-beyani",
+        "form": "sen",
+        "fields": {
+          "subtitle": "sen",
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "edersen",
+          "almazsın",
+          "etmen",
+          "ettiysen",
+          "söylemelisin"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 218,
+        "id": "bakersfield:kuru-meyve-kuruyemis-baharat-cay-kahve-bal-getirme",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "göstermen",
+          "bırak",
+          "istiyorsan",
+          "al",
+          "et"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 219,
+        "id": "bakersfield:peynir-tereyagi-ve-et-urunu-getirme-kurallari",
+        "form": "sen",
+        "fields": {
+          "steps": "sen",
+          "documents": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "getir",
+          "bak",
+          "yaz",
+          "ulaş",
+          "getirdiğin"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 220,
+        "id": "bakersfield:kopek-ve-kediyi-turkiyeden-abdye-getirme",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "documents": "sen",
+          "note": "sen",
+          "visual_json": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "uymalısın",
+          "yaptır",
+          "ayırt",
+          "al",
+          "doldur"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 221,
+        "id": "bakersfield:211-hatti-ne-ise-yarar",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "seni",
+          "ara",
+          "gönder",
+          "alabilirsin",
+          "bilmiyorsan"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 222,
+        "id": "bakersfield:kaliforniyada-gocmen-haklari-ve-korumalar",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "değilsin",
+          "seni",
+          "tutuklanırsan",
+          "hakkın",
+          "alınırsan"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 223,
+        "id": "bakersfield:gocmen-olarak-oy-kullanma-ve-secmen-kaydi",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "ettiğin",
+          "değilsen",
+          "olman",
+          "edersin",
+          "doldur"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 224,
+        "id": "bakersfield:deprem-uyarisi-nasil-alinir-myshake",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "alabilirsin",
+          "indir",
+          "yap",
+          "istemiyorsan",
+          "belirle"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 225,
+        "id": "bakersfield:deprem-aninda-cok-kapan-tutun",
+        "form": "sen",
+        "fields": {
+          "subtitle": "sen",
+          "summary": "sen",
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "kapat",
+          "et",
+          "bulunduğun",
+          "gir",
+          "kullanıyorsan"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 226,
+        "id": "bakersfield:kern-county-tahliye-bolgeni-ogren",
+        "form": "sen",
+        "fields": {
+          "subtitle": "sen",
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "yaz",
+          "et",
+          "bulabilirsin",
+          "bilirsen",
+          "anlarsın"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 227,
+        "id": "bakersfield:kern-county-kis-sel-ve-yangin-hazirligi",
+        "form": "sen",
+        "fields": {
+          "subtitle": "sen",
+          "summary": "sen",
+          "steps": "sen",
+          "timing": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "bil",
+          "hazırla",
+          "kendin",
+          "getirmelisin",
+          "gittiğin"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 228,
+        "id": "bakersfield:orman-yangininden-sonra-eve-donerken",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "göstermen",
+          "olmalısın",
+          "ol",
+          "et",
+          "kullan"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 229,
+        "id": "bakersfield:ssn-nasil-alinir",
+        "form": "sen",
+        "fields": {
+          "subtitle": "sen",
+          "summary": "sen",
+          "steps": "sen",
+          "documents": "sen",
+          "note": "sen",
+          "visual_json": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "git",
+          "sana",
+          "ABD'deysen",
+          "gidersin",
+          "hazırla"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 230,
+        "id": "bakersfield:ssn-calisma-izni-ya-da-green-card-basvurusuyla",
+        "form": "sen",
+        "fields": {
+          "subtitle": "sen",
+          "summary": "sen",
+          "steps": "sen",
+          "documents": "sen",
+          "timing": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "başvur",
+          "bulunuyorsan",
+          "isteyebilirsin",
+          "gitmen",
+          "doldurursan"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 231,
+        "id": "bakersfield:calisma-izni-yoksa-ssn",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "documents": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "kazandığın",
+          "ihtiyacın",
+          "iznin",
+          "istersin",
+          "bak"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 232,
+        "id": "bakersfield:ssn-karti-kaybolursa-yenileme",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "documents": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "isteyebilirsin",
+          "biliyorsan",
+          "yapabilirsin",
+          "yapamıyorsan",
+          "alırsın"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 233,
+        "id": "bakersfield:isim-degisince-ssn-ve-dmv-guncelleme",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "documents": "sen",
+          "cost": "sen",
+          "note": "sen",
+          "visual_json": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "değiştirdiysen",
+          "bildirirsin",
+          "başvurursun",
+          "değilsen",
+          "iznin"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 234,
+        "id": "bakersfield:california-id-karti-real-id-basvurusu",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "documents": "sen",
+          "cost": "sen",
+          "visual_json": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "tamamlarsın",
+          "göstermen",
+          "belirle",
+          "doldur",
+          "yükle"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 235,
+        "id": "bakersfield:real-id-icin-kimlik-belgeleri-vize-green-card",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "timing": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "gösterebilirsin",
+          "statüdeysen",
+          "alabilirsin",
+          "seç",
+          "götür"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 236,
+        "id": "bakersfield:real-id-adres-kaniti-belgeleri",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "götürmen",
+          "yazdığın",
+          "kullanıyorsan",
+          "kullanabilirsin",
+          "yazacağın"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 237,
+        "id": "bakersfield:real-id-zorunlu-mu-ucak",
+        "form": "sen",
+        "fields": {
+          "subtitle": "sen",
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "uçabilirsin",
+          "kimliğin",
+          "ödersin",
+          "istiyorsan",
+          "göstermen"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 238,
+        "id": "bakersfield:dmv-adres-degisikligi-10-gun",
+        "form": "sen",
+        "fields": {
+          "steps": "sen",
+          "timing": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "istersen",
+          "ver",
+          "istemiyorsan",
+          "indir",
+          "iste"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 239,
+        "id": "bakersfield:posta-yonlendirme-usps",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "documents": "sen",
+          "note": "sen",
+          "visual_json": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "yaparsın",
+          "al",
+          "beklemen",
+          "doldur",
+          "kullan"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 240,
+        "id": "bakersfield:usps-yonlendirmeyen-postalar-ve-kurumlar",
+        "form": "sen",
+        "fields": {
+          "subtitle": "sen",
+          "summary": "sen",
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "sen",
+          "zorundasın",
+          "kayıtlıysan",
+          "bildirirsin",
+          "bildir"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 241,
+        "id": "bakersfield:turk-belgeleri-apostil-ve-konsolosluk",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "çevirttiğin",
+          "alırsın",
+          "isteyebilirsin",
+          "bak",
+          "iste"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 242,
+        "id": "bakersfield:los-angeles-baskonsoloslugu-randevu-ve-saatler",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "alırsın",
+          "al",
+          "doldur",
+          "git",
+          "ilet"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 243,
+        "id": "bakersfield:turk-pasaportu-yenileme-konsoloslukta",
+        "form": "sen",
+        "fields": {
+          "subtitle": "sen",
+          "summary": "sen",
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "sana",
+          "alacağın",
+          "senin",
+          "ödediğin",
+          "yaparsın"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 244,
+        "id": "bakersfield:konsolosluga-adres-beyani-20-is-gunu",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "gönderirsin",
+          "doldur",
+          "Doldurduğun",
+          "gönder"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 245,
+        "id": "bakersfield:abdde-dogan-cocugu-turk-nufusuna-kaydettirme",
+        "form": "sen",
+        "fields": {
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "doldur",
+          "al",
+          "yap",
+          "tanıyacaksan",
+          "yaptıysan"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 246,
+        "id": "bakersfield:abdde-evlilik-turk-nufusuna-tescil",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "documents": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "evlendiysen",
+          "al",
+          "alabilirsin",
+          "gönder",
+          "doldur"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 247,
+        "id": "bakersfield:turkiyedeki-belgeleri-abdden-alma",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "alabilirsin",
+          "doldur",
+          "al",
+          "başvur",
+          "gir"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 248,
+        "id": "bakersfield:abdden-turkiyeye-vekaletname",
+        "form": "sen",
+        "fields": {
+          "steps": "sen",
+          "documents": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "al",
+          "doldur",
+          "götür",
+          "bilmiyorsan",
+          "başvur"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 249,
+        "id": "bakersfield:yurt-disinda-askerlik-erteleme",
+        "form": "sen",
+        "fields": {
+          "subtitle": "sen",
+          "summary": "sen",
+          "steps": "sen",
+          "timing": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "Yaşadığın",
+          "vatandaşıysan",
+          "kalırsan",
+          "aldığın",
+          "olursun"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 250,
+        "id": "bakersfield:california-belgeleri-apostil-secretary-of-state",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "documents": "sen",
+          "visual_json": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "kullanacaksan",
+          "alırsın",
+          "gideceğin",
+          "yapabilirsin",
+          "gidersen"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 251,
+        "id": "bakersfield:kern-county-evlilik-olum-belgesi-onayli-kopya",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "documents": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "alırsın",
+          "alabilirsin",
+          "verebilirsin",
+          "olman",
+          "kullanacaksan"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 252,
+        "id": "bakersfield:kern-county-evlilik-ruhsati",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "alırsın",
+          "olman",
+          "yaparsın",
+          "seçtiğin",
+          "ver"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 253,
+        "id": "bakersfield:kern-county-hizmetlerine-nereden-ulasirim",
+        "form": "sen",
+        "fields": {
+          "subtitle": "sen",
+          "summary": "sen",
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "öğren",
+          "öğrenirsin",
+          "dur",
+          "ararsın",
+          "alırsın"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 254,
+        "id": "bakersfield:saglik-sigortasi-nasil-edinilir",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "cost": "sen",
+          "note": "sen",
+          "visual_json": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "edinebilirsin",
+          "olabilirsin",
+          "olman",
+          "başvurabilirsin",
+          "başvur"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 255,
+        "id": "bakersfield:covered-california-basvuru-yollari",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "yapabilirsin",
+          "yüklemen",
+          "sana",
+          "yaz",
+          "sen"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 256,
+        "id": "bakersfield:acik-ve-ozel-kayit-donemi",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "yenileyebilirsin",
+          "olursan",
+          "yaşadıysan",
+          "alabilirsin",
+          "başvur"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 257,
+        "id": "bakersfield:is-yeri-sigortasi-mali-yardim-hakki",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "timing": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "alamazsın",
+          "başvuracağın",
+          "hesapla",
+          "öğren",
+          "tut"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 258,
+        "id": "bakersfield:covered-california-mali-yardim",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "alabilirsin",
+          "seçersen",
+          "alırsın",
+          "Alacağın",
+          "et"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 259,
+        "id": "bakersfield:goc-statusu-ve-saglik-sigortasi",
+        "form": "sen",
+        "fields": {
+          "subtitle": "sen",
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "bulunuyorsan",
+          "başvurabilirsin",
+          "yaz",
+          "sun",
+          "giremiyorsan"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 260,
+        "id": "bakersfield:public-charge-ve-saglik-yardimi",
+        "form": "sen",
+        "fields": {
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "danış",
+          "git",
+          "ara",
+          "seni",
+          "senin"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 261,
+        "id": "bakersfield:kayit-sonrasi-ilk-fatura-ve-baslangic",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "olduğun",
+          "olursan",
+          "ödeyebilirsin",
+          "ödemezsen",
+          "yaparsın"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 262,
+        "id": "bakersfield:plan-seviyeleri-ve-plan-tipleri",
+        "form": "sen",
+        "fields": {
+          "subtitle": "sen",
+          "summary": "sen",
+          "steps": "sen",
+          "note": "sen",
+          "visual_json": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "ödediğin",
+          "sen",
+          "ödersin",
+          "seçersin",
+          "düşün"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 263,
+        "id": "bakersfield:plan-neleri-kapsar-onleyici-bakim",
+        "form": "sen",
+        "fields": {
+          "subtitle": "sen",
+          "summary": "sen",
+          "steps": "sen",
+          "cost": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "kaydettirmen",
+          "seçersen",
+          "seç",
+          "olsan",
+          "gidersen"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 264,
+        "id": "bakersfield:dis-ve-goz-sigortasi",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "paylaşırsın",
+          "bil",
+          "Kendin",
+          "istiyorsan",
+          "seç"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 265,
+        "id": "bakersfield:medi-cal-kimler-basvurabilir",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "cost": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "olsan",
+          "olmasan",
+          "olabilirsin",
+          "alabilirsin",
+          "hesapla"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 266,
+        "id": "bakersfield:medi-cal-basvuru-kern-county",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "documents": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "başvurabilirsin",
+          "yaptığın",
+          "yapabilirsin",
+          "çıkarsan",
+          "seçebileceğin"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 267,
+        "id": "bakersfield:hamilelikte-sigorta-secenekleri",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "Hamileysen",
+          "olmadığın",
+          "belirtmezsen",
+          "kaçırabilirsin",
+          "başvur"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 268,
+        "id": "bakersfield:cocuk-sagligi-sigortasi-medi-cal",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "yaşadığın",
+          "reddedersen",
+          "hazırla",
+          "yap",
+          "oku"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 269,
+        "id": "bakersfield:acil-servis-mi-urgent-care-mi",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "visual_json": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "şüpheleniyorsan",
+          "ara",
+          "öğren",
+          "değilsen",
+          "sana"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 270,
+        "id": "bakersfield:acil-servis-masrafi-ve-sigortasizlik",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "cost": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "sor",
+          "aldığın",
+          "ödeyeceğin",
+          "seçtiğin",
+          "gittiğin"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 271,
+        "id": "bakersfield:bakersfield-acil-servisleri",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "documents": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "sana",
+          "git",
+          "kullan",
+          "getirebilirsin",
+          "ara"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 272,
+        "id": "bakersfield:ruhsal-kriz-kern-bhrs",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "ara",
+          "seni",
+          "Krizdeysen",
+          "istiyorsan",
+          "git"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 273,
+        "id": "bakersfield:aile-hekimi-primary-care-bulma",
+        "form": "sen",
+        "fields": {
+          "subtitle": "sen",
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "sana",
+          "seç",
+          "istediğin",
+          "değiştir",
+          "gideceğin"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 274,
+        "id": "bakersfield:clinica-sierra-vista-family-health-center",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "alabilirsin",
+          "ara",
+          "al",
+          "ettiğin",
+          "görmen"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 275,
+        "id": "bakersfield:kern-halk-sagligi-klinigi-hizmetleri",
+        "form": "sen",
+        "fields": {
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "ara",
+          "öğren",
+          "getir",
+          "al"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 276,
+        "id": "bakersfield:cocuga-asi-yaptirma-kern-halk-sagligi",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "sor",
+          "ihtiyacın",
+          "getirebilirsin",
+          "ara",
+          "gidersen"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 277,
+        "id": "bakersfield:ucretsiz-cocuk-asilari-vfc",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "ödemen",
+          "aramalısın",
+          "belirle",
+          "sor",
+          "sana"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 278,
+        "id": "bakersfield:cocuk-asi-ve-okul-saglik-sartlari",
+        "form": "sen",
+        "fields": {
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "bak",
+          "kullan",
+          "incele",
+          "hazırla",
+          "yaptır"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 279,
+        "id": "bakersfield:randevusuz-walk-in-klinik-bakersfield",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "gidebilirsin",
+          "git",
+          "ara",
+          "bildirebilirsin",
+          "yapman"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 280,
+        "id": "bakersfield:get-otobus-ucretleri-bilet",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "göstermen",
+          "bineceksen",
+          "Bineceğin",
+          "seç",
+          "al"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 281,
+        "id": "bakersfield:get-token-transit-telefonla-bilet",
+        "form": "sen",
+        "fields": {
+          "subtitle": "sen",
+          "summary": "sen",
+          "steps": "sen",
+          "note": "sen",
+          "visual_json": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "al",
+          "göster",
+          "saklayabilirsin",
+          "isteyebilirsin",
+          "indir"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 282,
+        "id": "bakersfield:get-indirimli-tarife-kimlik-karti",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "götürmen",
+          "sana",
+          "indir",
+          "hazırla",
+          "götür"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 283,
+        "id": "bakersfield:get-ogrenci-ucretsiz-otobus-karti",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "documents": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "alıyorsun",
+          "sınıftaysan",
+          "öğrenciysen",
+          "al",
+          "öğrencisiysen"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 284,
+        "id": "bakersfield:get-hat-secimi-aktarma-tatil-seferleri",
+        "form": "sen",
+        "fields": {
+          "subtitle": "sen",
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "seç",
+          "oku",
+          "gideceğin",
+          "bul",
+          "binmen"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 285,
+        "id": "bakersfield:get-a-lift-paratransit-basvuru",
+        "form": "sen",
+        "fields": {
+          "subtitle": "sen",
+          "summary": "sen",
+          "steps": "sen",
+          "note": "sen",
+          "visual_json": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "başvur",
+          "al",
+          "postalatabilirsin",
+          "onaylanırsan",
+          "sana"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 286,
+        "id": "bakersfield:toucan-trolley-downtown-old-town-kern",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "ödeyeceksen",
+          "alabilirsin",
+          "git",
+          "hazırla",
+          "al"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 287,
+        "id": "bakersfield:turk-ehliyeti-california-ehliyeti-alma",
+        "form": "sen",
+        "fields": {
+          "subtitle": "sen",
+          "summary": "sen",
+          "steps": "sen",
+          "documents": "sen",
+          "note": "sen",
+          "visual_json": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "kullanacaksan",
+          "başvurursan",
+          "giriyorsun",
+          "yerleştiysen",
+          "kiraladığın"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 288,
+        "id": "bakersfield:vize-green-card-ehliyet-belgeleri",
+        "form": "sen",
+        "fields": {
+          "subtitle": "sen",
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "statüdeysen",
+          "olmasan",
+          "kanıtlayabiliyorsan",
+          "alabilirsin",
+          "alabiliyorsun"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 289,
+        "id": "bakersfield:ehliyet-yazili-bilgi-sinavi-hazirlik",
+        "form": "sen",
+        "fields": {
+          "subtitle": "sen",
+          "summary": "sen",
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "hakkın",
+          "kaybedersen",
+          "başvurman",
+          "oku",
+          "git"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 290,
+        "id": "bakersfield:ehliyet-kimlik-karti-ucretleri-odeme",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "etmen",
+          "kat",
+          "belirle",
+          "yapabilirsin",
+          "ödeyeceksen"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 291,
+        "id": "bakersfield:bakersfield-dmv-ofisi-saatler-randevu",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "ayırtabilirsin",
+          "git",
+          "yapacaksan",
+          "ol",
+          "al"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 292,
+        "id": "bakersfield:genc-surucu-ogrenci-izni-ehliyet-16-17-yas",
+        "form": "sen",
+        "fields": {
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "al",
+          "ekle",
+          "git",
+          "götür",
+          "öde"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 293,
+        "id": "bakersfield:arac-alirken-kayit-sigorta-smog-sartlari",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "note": "sen",
+          "visual_json": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "kaydettirmen",
+          "geçirmelisin",
+          "getirdiğin",
+          "kaydettirmelisin",
+          "al"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 294,
+        "id": "bakersfield:arac-sigortasi-zorunlu-asgari-teminat",
+        "form": "sen",
+        "fields": {
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "yaptır",
+          "göstermen",
+          "gönderebilirsin",
+          "ver",
+          "kullanmayacaksan"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 295,
+        "id": "bakersfield:smog-muayenesi-ne-zaman-gerekir-kern-county",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "kaydedeceğin",
+          "bak",
+          "seç",
+          "götür",
+          "söktüysen"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 296,
+        "id": "bakersfield:smog-testinden-kalirsam-ne-yapmaliyim",
+        "form": "sen",
+        "fields": {
+          "subtitle": "sen",
+          "summary": "sen",
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "incele",
+          "yaptır",
+          "sana",
+          "yaptırmalısın",
+          "oku"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 297,
+        "id": "bakersfield:arac-kayit-ucretleri-gec-odeme-cezasi",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "cost": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "ödüyorsun",
+          "yaşadığın",
+          "görebilirsin",
+          "hazırla",
+          "kullan"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 298,
+        "id": "bakersfield:ikinci-el-arac-ozel-satici-bayi-devir",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "timing": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "alıyorsan",
+          "geçirmelisin",
+          "tamamlayabilirsin",
+          "kendin",
+          "yaptırmalısın"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 299,
+        "id": "bakersfield:yurt-disindan-arac-getirmek-direct-import",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "getirdiğin",
+          "kaydettirmen",
+          "bak",
+          "görüş",
+          "hazırla"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 300,
+        "id": "bakersfield:bakersfield-los-angeles-san-francisco-tren-otobus",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "documents": "sen",
+          "timing": "sen",
+          "note": "sen",
+          "visual_json": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "gidiyorsun",
+          "ulaşabilirsin",
+          "seç",
+          "al",
+          "git"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 301,
+        "id": "bakersfield:gold-runner-bilet-bagaj-bisiklet-iade-kurallari",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "alabilirsin",
+          "göstermen",
+          "al",
+          "göstermelisin",
+          "değiştirebilirsin"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 302,
+        "id": "bakersfield:meadows-field-havalimani-ulasim-otopark",
+        "form": "sen",
+        "fields": {
+          "subtitle": "sen",
+          "summary": "sen",
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "gidebilirsin",
+          "gir",
+          "seni",
+          "geliyorsan",
+          "çık"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 303,
+        "id": "bakersfield:meadows-field-ucuslar-havayollari",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "arayabilirsin",
+          "Gideceğin",
+          "seç",
+          "al",
+          "uçacaksan"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 304,
+        "id": "bakersfield:ucus-gunu-havalimani-saati-real-id",
+        "form": "sen",
+        "fields": {
+          "subtitle": "sen",
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "gel",
+          "olmalısın",
+          "Bagajsızsan",
+          "yapacaksan",
+          "yaptıysan"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 305,
+        "id": "bakersfield:greyhound-flixbus-sehirlerarasi-otobus",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "timing": "sen",
+          "cost": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "alabilirsin",
+          "aldığın",
+          "bastırman",
+          "karşılaştır",
+          "git"
+        ]
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 10,
+        "id": "bakersfield:lengthwise-brewing-company",
+        "form": "sen",
+        "fields": {
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "düzenlediğin",
+          "istersen",
+          "ara"
+        ]
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 11,
+        "id": "bakersfield:hodels-country-dining",
+        "form": "sen",
+        "fields": {
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "geliyorsan",
+          "çık",
+          "git",
+          "dön",
+          "ara"
+        ]
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 17,
+        "id": "bakersfield:moo-creamery",
+        "form": "sen",
+        "fields": {
+          "summary": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "istersen",
+          "ara"
+        ]
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 23,
+        "id": "bakersfield:locale-farm-to-table-bakersfield",
+        "form": "sen",
+        "fields": {
+          "summary": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "ara"
+        ]
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 33,
+        "id": "bakersfield:arts-council-of-kern",
+        "form": "sen",
+        "fields": {
+          "summary": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "uğrayacaksan",
+          "ara"
+        ]
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 37,
+        "id": "bakersfield:dignity-health-arena-theater-convention-center",
+        "form": "sen",
+        "fields": {
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "kullandığın"
+        ]
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 40,
+        "id": "bakersfield:the-empty-space-theater",
+        "form": "sen",
+        "fields": {
+          "summary": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "istediğin"
+        ]
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 47,
+        "id": "bakersfield:the-nile-theater",
+        "form": "sen",
+        "fields": {
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "atman"
+        ]
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 51,
+        "id": "bakersfield:downtown-arts-district-bakersfield",
+        "form": "sen",
+        "fields": {
+          "subtitle": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "gezebileceğin"
+        ]
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 55,
+        "id": "bakersfield:hart-memorial-park",
+        "form": "sen",
+        "fields": {
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "kendin",
+          "getirmen"
+        ]
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 60,
+        "id": "bakersfield:yokuts-park",
+        "form": "sen",
+        "fields": {
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "istersen",
+          "geç"
+        ]
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 74,
+        "id": "bakersfield:murray-family-farms",
+        "form": "sen",
+        "fields": {
+          "summary": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "kendin"
+        ]
+      },
+      {
+        "sheet": "Mahalleler",
+        "row": 8,
+        "id": "bakersfield:downtown-bakersfield",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "gelirsen",
+          "arıyorsan"
+        ]
+      },
+      {
+        "sheet": "Mahalleler",
+        "row": 9,
+        "id": "bakersfield:east-bakersfield",
+        "form": "sen",
+        "fields": {
+          "note": "sen",
+          "compare_json": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "düşünüyorsan",
+          "ayırtabilirsin",
+          "sorabilirsin"
+        ]
+      },
+      {
+        "sheet": "Mahalleler",
+        "row": 10,
+        "id": "bakersfield:oildale",
+        "form": "sen",
+        "fields": {
+          "note": "sen",
+          "compare_json": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "oturacaksan",
+          "aramalısın"
+        ]
+      },
+      {
+        "sheet": "Mahalleler",
+        "row": 11,
+        "id": "bakersfield:rosedale",
+        "form": "sen",
+        "fields": {
+          "note": "sen",
+          "compare_json": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "girebilirsin",
+          "gidiyorsan",
+          "öğrenebilirsin"
+        ]
+      },
+      {
+        "sheet": "Mahalleler",
+        "row": 12,
+        "id": "bakersfield:northeast-bakersfield",
+        "form": "sen",
+        "fields": {
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "giremezsin"
+        ]
+      },
+      {
+        "sheet": "Mahalleler",
+        "row": 13,
+        "id": "bakersfield:southwest-bakersfield",
+        "form": "sen",
+        "fields": {
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "gideceksen"
+        ]
+      },
+      {
+        "sheet": "Rotalar",
+        "row": 8,
+        "id": "bakersfield:route:001",
+        "form": "sen",
+        "fields": {
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "başla",
+          "bitirdiğin"
+        ]
+      },
+      {
+        "sheet": "Rotalar",
+        "row": 9,
+        "id": "bakersfield:route:002",
+        "form": "sen",
+        "fields": {
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "koy"
+        ]
+      },
+      {
+        "sheet": "Rotalar",
+        "row": 11,
+        "id": "bakersfield:route:004",
+        "form": "sen",
+        "fields": {
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "yap"
+        ]
+      },
+      {
+        "sheet": "Rotalar",
+        "row": 12,
+        "id": "bakersfield:route:005",
+        "form": "sen",
+        "fields": {
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "başla",
+          "geç"
+        ]
+      },
+      {
+        "sheet": "Rotalar",
+        "row": 13,
+        "id": "bakersfield:route:006",
+        "form": "sen",
+        "fields": {
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "git",
+          "getirebilirsin"
+        ]
+      },
+      {
+        "sheet": "Rotalar",
+        "row": 14,
+        "id": "bakersfield:route:007",
+        "form": "sen",
+        "fields": {
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "git",
+          "seç",
+          "koy",
+          "ara"
+        ]
+      },
+      {
+        "sheet": "Rotalar",
+        "row": 16,
+        "id": "bakersfield:route:009",
+        "form": "sen",
+        "fields": {
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "koy"
+        ]
+      },
+      {
+        "sheet": "Rotalar",
+        "row": 17,
+        "id": "bakersfield:route:010",
+        "form": "sen",
+        "fields": {
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "ara",
+          "gidebilirsin"
+        ]
+      },
+      {
+        "sheet": "Rotalar",
+        "row": 18,
+        "id": "bakersfield:route:011",
+        "form": "sen",
+        "fields": {
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "ekleyebilirsin"
+        ]
+      },
+      {
+        "sheet": "Adımlar",
+        "row": 8,
+        "id": "bakersfield:step:1",
+        "form": "sen",
+        "fields": {
+          "title": "sen",
+          "description": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "hazırla",
+          "ayır"
+        ]
+      },
+      {
+        "sheet": "Adımlar",
+        "row": 9,
+        "id": "bakersfield:step:2",
+        "form": "sen",
+        "fields": {
+          "title": "sen",
+          "description": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "planla",
+          "değilsen",
+          "ekle"
+        ]
+      },
+      {
+        "sheet": "Adımlar",
+        "row": 10,
+        "id": "bakersfield:step:3",
+        "form": "sen",
+        "fields": {
+          "title": "sen",
+          "description": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "et",
+          "Getirdiğin",
+          "edersen",
+          "almazsın"
+        ]
+      },
+      {
+        "sheet": "Adımlar",
+        "row": 11,
+        "id": "bakersfield:step:4",
+        "form": "sen",
+        "fields": {
+          "title": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "ulaş"
+        ]
+      },
+      {
+        "sheet": "Adımlar",
+        "row": 12,
+        "id": "bakersfield:step:5",
+        "form": "sen",
+        "fields": {
+          "title": "sen",
+          "description": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "al",
+          "başvur",
+          "girdiysen",
+          "iznin",
+          "git"
+        ]
+      },
+      {
+        "sheet": "Adımlar",
+        "row": 13,
+        "id": "bakersfield:step:6",
+        "form": "sen",
+        "fields": {
+          "title": "sen",
+          "description": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "git",
+          "ver",
+          "göster"
+        ]
+      },
+      {
+        "sheet": "Adımlar",
+        "row": 14,
+        "id": "bakersfield:step:7",
+        "form": "sen",
+        "fields": {
+          "description": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "indir",
+          "yap"
+        ]
+      },
+      {
+        "sheet": "Adımlar",
+        "row": 15,
+        "id": "bakersfield:step:8",
+        "form": "sen",
+        "fields": {
+          "title": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "öğren"
+        ]
+      },
+      {
+        "sheet": "SayfaAlanları",
+        "row": 11,
+        "id": "bakersfield:field:topic_title",
+        "form": "sen",
+        "fields": {
+          "value": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "istiyorsun"
+        ]
+      },
+      {
+        "sheet": "SayfaAlanları",
+        "row": 12,
+        "id": "bakersfield:field:topic_intro",
+        "form": "sen",
+        "fields": {
+          "value": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "seç",
+          "ulaş"
+        ]
+      },
+      {
+        "sheet": "SayfaAlanları",
+        "row": 14,
+        "id": "bakersfield:field:journey_intro",
+        "form": "sen",
+        "fields": {
+          "value": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "seç",
+          "geldiysen",
+          "al",
+          "iznin",
+          "başvurabilirsin"
+        ]
+      },
+      {
+        "sheet": "SayfaAlanları",
+        "row": 15,
+        "id": "bakersfield:field:neighborhood_title",
+        "form": "sen",
+        "fields": {
+          "value": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "sana"
+        ]
+      },
+      {
+        "sheet": "SayfaAlanları",
+        "row": 16,
+        "id": "bakersfield:field:neighborhood_intro",
+        "form": "sen",
+        "fields": {
+          "value": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "karşılaştır"
+        ]
+      },
+      {
+        "sheet": "SayfaAlanları",
+        "row": 17,
+        "id": "bakersfield:field:explore_title",
+        "form": "sen",
+        "fields": {
+          "value": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "ayır"
+        ]
+      },
+      {
+        "sheet": "SayfaAlanları",
+        "row": 19,
+        "id": "bakersfield:field:sources_note",
+        "form": "sen",
+        "fields": {
+          "value": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "danış"
+        ]
+      },
+      {
+        "sheet": "SayfaAlanları",
+        "row": 21,
+        "id": "bakersfield:field:arrival_note",
+        "form": "sen",
+        "fields": {
+          "value": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "senin",
+          "kartın",
+          "bildirmen",
+          "vatandaşıysan",
+          "bildir"
+        ]
+      },
+      {
+        "sheet": "SayfaAlanları",
+        "row": 27,
+        "id": "bakersfield:field:timeline",
+        "form": "sen",
+        "fields": {
+          "value": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "netleştir",
+          "sana",
+          "belirle",
+          "hazırla",
+          "planla"
+        ]
+      },
+      {
+        "sheet": "SayfaAlanları",
+        "row": 30,
+        "id": "bakersfield:field:emergency",
+        "form": "sen",
+        "fields": {
+          "value": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "ara",
+          "yap",
+          "Kendin",
+          "gönder",
+          "seni"
+        ]
+      },
+      {
+        "sheet": "Şehir",
+        "row": 8,
+        "id": "bakersfield",
+        "form": "sen",
+        "fields": {
+          "intro": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "planlıyorsan",
+          "geldiysen",
+          "keşfet"
+        ]
+      }
+    ]
+  }
+}

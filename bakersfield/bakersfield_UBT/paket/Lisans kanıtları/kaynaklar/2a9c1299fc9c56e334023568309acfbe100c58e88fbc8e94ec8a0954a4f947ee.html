@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Google Consent Mode v2 — must load BEFORE any gtag/Clarity script -->
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+
+    // Read stored consent (if any) — cookie is scoped to .blvdbakersfield.com (see js/consent.js)
+    var _blvdConsent = null;
+    try {
+      var m = document.cookie.match(/(?:^|;\s*)blvd_consent=([^;]+)/);
+      if (m) _blvdConsent = JSON.parse(decodeURIComponent(m[1]));
+    } catch(e) {}
+
+    // GPC signal — auto-reject ad/marketing consent if browser sends it
+    var _gpc = (typeof navigator !== 'undefined' && navigator.globalPrivacyControl === true);
+
+    // Consent model: US opt-out, matching blvdsac.com and booking.blvdbakersfield.com.
+    // Advertising and analytics start granted and the visitor can opt out via the
+    // banner or the preferences modal.
+    //
+    // These pages used to hardcode 'denied'. Because blvdbakersfield.com is where
+    // every Google Ads click lands, ad_storage was denied at the very first hop, no
+    // _gcl_aw cookie was written, and the gclid was already gone by the time the
+    // visitor reached the booking app. Only 8 of 115 bookings taken since the
+    // Bakersfield campaigns launched carried any click id.
+    //
+    // A previously stored choice is applied as the DEFAULT rather than only as a
+    // later update, so a visitor who already opted out is never briefly treated as
+    // granted during the wait_for_update window. GPC always forces denied.
+    var _hasChoice   = !!_blvdConsent;
+    var _marketingOK = _hasChoice ? (!!_blvdConsent.marketing && !_gpc) : !_gpc;
+    var _analyticsOK = _hasChoice ? !!_blvdConsent.analytics : true;
+
+    var _adDefault        = _marketingOK ? 'granted' : 'denied';
+    var _analyticsDefault = _analyticsOK ? 'granted' : 'denied';
+
+    gtag('consent', 'default', {
+      'ad_storage': _adDefault,
+      'ad_user_data': _adDefault,
+      'ad_personalization': _adDefault,
+      'analytics_storage': _analyticsDefault,
+      'functionality_storage': 'granted',
+      'security_storage': 'granted',
+      'wait_for_update': 500
+    });
+
+    // The consent state actually in force right now, whether it came from a stored
+    // choice or from the defaults above. Downstream loaders gate on this instead of
+    // _blvdConsentApplied, which is only ever set when a cookie already exists and
+    // so left every first-time visitor untracked.
+    window._blvdConsentEffective = {
+      'ad_storage': _adDefault,
+      'ad_user_data': _adDefault,
+      'ad_personalization': _adDefault,
+      'analytics_storage': _analyticsDefault
+    };
+
+    // If user already made a choice previously, apply it now (respect GPC override)
+    if (_blvdConsent) {
+      var _update = {
+        'ad_storage': _blvdConsent.marketing && !_gpc ? 'granted' : 'denied',
+        'ad_user_data': _blvdConsent.marketing && !_gpc ? 'granted' : 'denied',
+        'ad_personalization': _blvdConsent.marketing && !_gpc ? 'granted' : 'denied',
+        'analytics_storage': _blvdConsent.analytics ? 'granted' : 'denied'
+      };
+      gtag('consent', 'update', _update);
+      window._blvdConsentApplied = _update;
+    }
+    window._blvdGPC = _gpc;
+  </script>
+  <!-- End Google Consent Mode v2 defaults -->
+  <!-- Google tag (gtag.js) — Google Ads + GA4 -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16712270444"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    // Cross-domain linker: preserve gclid when a visitor moves from
+    // blvdbakersfield.com to booking.blvdbakersfield.com. Without it the
+    // gclid is lost at the subdomain boundary and the booking conversion
+    // cannot be attributed back to the ad click.
+    gtag('config', 'AW-16712270444', {
+      'linker': {
+        'domains': ['blvdbakersfield.com', 'booking.blvdbakersfield.com', 'reservations.meriq.com', 'secure.meriq.com'],
+        'accept_incoming': true
+      }
+    });
+    gtag('config', 'G-P8SWQE8XTE', {
+      'linker': {
+        'domains': ['blvdbakersfield.com', 'booking.blvdbakersfield.com', 'reservations.meriq.com', 'secure.meriq.com'],
+        'accept_incoming': true
+      }
+    });
+  </script>
+  <!-- End Google tag -->
+  <!-- Microsoft Clarity heatmaps & session recordings — gated on analytics consent -->
+  <script type="text/javascript">
+    window.blvdLoadClarity = function() {
+      if (window._blvdClarityLoaded) return;
+      window._blvdClarityLoaded = true;
+      (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "xnex93nmmf");
+    };
+    // If user previously granted analytics consent (and GPC/DNT are not set), load Clarity now.
+    (function () {
+      try {
+        var dnt = (typeof navigator !== "undefined" && (navigator.doNotTrack === "1" || window.doNotTrack === "1"));
+        if (dnt) return;
+      } catch (e) {}
+      if (window._blvdConsentEffective && window._blvdConsentEffective.analytics_storage === 'granted') {
+        window.blvdLoadClarity();
+      }
+    })();
+  </script>
+  <!-- End Microsoft Clarity -->
+  <title>Attractions in Bakersfield | The BLVD! Bakersfield</title>
+  <meta name="description" content="Bakersfield's premier entertainment center — 22 bowling lanes (8 VIP), 65+ arcade and VR games, high-intensity laser tag, indoor ropes course, karaoke, billiards, sports viewing, and a VIP lounge at The BLVD! Bakersfield">
+  
+  <link rel="canonical" href="https://blvdbakersfield.com/attractions/">
+
+  <meta property="og:title" content="Attractions in Bakersfield | The BLVD! Bakersfield">
+  <meta property="og:description" content="Bakersfield's premier entertainment center — 22 bowling lanes (8 VIP), 65+ arcade and VR games, high-intensity laser tag, indoor ropes course, karaoke, billiards, sports viewing, and a VIP lounge at The BLVD! Bakersfield">
+  <meta property="og:image" content="https://blvdbakersfield.com/images/heroes/attractions.jpg">
+  <meta property="og:url" content="https://blvdbakersfield.com/attractions/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="The BLVD! Bakersfield">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Attractions in Bakersfield | The BLVD! Bakersfield">
+  <meta name="twitter:description" content="Bakersfield's premier entertainment center — 22 bowling lanes (8 VIP), 65+ arcade and VR games, high-intensity laser tag, indoor ropes course, karaoke, billiards, sports viewing, and a VIP lounge at The BLVD! Bakersfield">
+  <meta name="twitter:image" content="https://blvdbakersfield.com/images/heroes/attractions.jpg">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+
+<link rel="icon" type="image/png" href="images/blvd-logo.png">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="site-header" data-active="attractions"></div>
+
+  <main>
+    <section class="hero-page" style="background-image:url('images/heroes/attractions.jpg');" aria-label="Attractions hero">
+      <div class="hero-page-content">
+        <h1>Bakersfield Attractions</h1>
+        <p>22 lanes of immersive bowling, 65+ arcade &amp; VR games, laser tag, an indoor ropes course, a private karaoke room, billiards, and a sports-viewing destination — all under one roof in Bakersfield.</p>
+      </div>
+    </section>
+
+    <!-- 20 Lanes -->
+    <section class="section" id="bowling">
+      <div class="container">
+        <div class="section-header fade-in">
+          <span class="section-label">Bowling</span>
+          <h2>22 Lanes — <span class="text-green">Bowling at The BLVD!</span></h2>
+        </div>
+
+        <div class="spark-callout fade-in">
+          <h3>VIP Lanes &amp; Premium Bowling</h3>
+          <p>22 total lanes — including 8 premium VIP lanes with ambient lighting, lane-side seating, and a private feel for parties and groups. Reserve a public lane for an open-play night out, or block off the VIP section for a private experience.</p>
+        </div>
+
+        <div style="text-align:center;margin:2rem 0;" class="fade-in">
+          <a href="https://reservations.meriq.com/blvdbakersfield/" target="_blank" rel="noopener" class="btn btn-green">Reserve a Lane</a>
+        </div>
+
+        <div class="fade-in" style="margin-top:2rem;">
+          <h3 style="font-size:1.25rem;margin-bottom:1rem;">Bowling Pricing</h3>
+          <div style="overflow-x:auto;">
+            <table class="pricing-table">
+              <thead><tr><th>Time</th><th>Rate</th></tr></thead>
+              <tbody>
+                <tr><td>Monday – Friday before 5pm</td><td class="price">$30/hr/lane</td></tr>
+                <tr><td>Monday – Thursday after 5pm</td><td class="price">$35/hr/lane</td></tr>
+                <tr><td>Saturday – Sunday before 5pm</td><td class="price">$50/hr/lane</td></tr>
+                <tr><td>Friday – Sunday after 5pm</td><td class="price">$55/hr/lane</td></tr>
+                <tr><td>Shoe Rental</td><td class="price">$5/person</td></tr>
+                <tr><td>Socks</td><td class="price">$4/pair</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+
+      </div>
+    </section>
+
+    <!-- Arcade Credits -->
+    <section class="section" style="background:var(--blvd-charcoal);" id="arcade">
+      <div class="container">
+        <div class="section-header fade-in">
+          <span class="section-label">Arcade &amp; VR</span>
+          <h2>65+ Games — <span class="text-green">Arcade &amp; VR</span></h2>
+          <p>65+ of the newest arcade and virtual reality games await. From classic favorites to cutting-edge VR experiences, there's something for every gamer at The BLVD! Bakersfield Credit packages offer great value — the more you buy, the more you save.</p>
+        </div>
+
+        <div class="fade-in" style="max-width:720px;margin:0 auto;">
+          <h3 style="font-size:1.25rem;margin-bottom:1rem;text-align:center;">Arcade Credit Packages</h3>
+          <div style="overflow-x:auto;">
+            <table class="pricing-table">
+              <thead><tr><th>Purchase</th><th>Credits</th><th>Value</th></tr></thead>
+              <tbody>
+                <tr><td class="price">$25</td><td>150 Credits</td><td>$30 Value</td></tr>
+                <tr><td class="price">$35</td><td>220 Credits</td><td>$44 Value</td></tr>
+                <tr><td class="price">$50</td><td>325 Credits</td><td>$65 Value</td></tr>
+                <tr><td class="price">$75</td><td>500 Credits</td><td>$100 Value</td></tr>
+                <tr><td class="price">$100</td><td>750 Credits</td><td>$150 Value</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p style="font-size:0.82rem;color:var(--blvd-gray);margin-top:0.75rem;text-align:center;font-style:italic;">2 activation fee for initial card purchases.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Laser Tag -->
+    <section class="section" id="laser-tag">
+      <div class="container">
+        <div class="section-header fade-in">
+          <span class="section-label">Laser Tag</span>
+          <h2>High Intensity — <span class="text-green">Laser Tag</span></h2>
+          <p>Our high-intensity laser tag arena is perfect for teams, families, and thrill seekers. Multiple game modes deliver an adrenaline-pumping experience every time. Save with multi-game passes!</p>
+        </div>
+
+        <div class="fade-in" style="max-width:760px;margin:0 auto 2rem;">
+          <div style="overflow-x:auto;">
+            <table class="pricing-table">
+              <thead><tr><th>Timing</th><th>1 Game</th><th>2 Games</th><th>3 Games</th></tr></thead>
+              <tbody>
+                <tr><td>Mon–Thu + Fri before 5pm</td><td class="price">$10</td><td class="price">$14</td><td class="price">$17</td></tr>
+                <tr><td>Fri after 5pm + Weekends</td><td class="price">$12</td><td class="price">$17</td><td class="price">$22</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="notice-card fade-in" style="margin-top:1rem;">
+            <strong style="color:#fff;">Must have a valid waiver on file to play laser tag.</strong>
+            &nbsp;<a href="https://www.brunswickcloud.com/Waiver/Home?sc=MDktMDEtNDkx" target="_blank" rel="noopener">Sign waiver online →</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Ropes Course -->
+    <section class="section" style="background:var(--blvd-charcoal);" id="ropes-course">
+      <div class="container">
+        <div class="section-header fade-in">
+          <span class="section-label">Ropes Course</span>
+          <h2>Take It <span class="text-green">Higher</span></h2>
+          <p>Challenge yourself on the indoor ropes course.</p>
+        </div>
+        <div class="fade-in" style="max-width:720px;margin:0 auto;">
+          <h3 style="font-size:1.25rem;margin-bottom:1rem;text-align:center;">Ropes Course — $10</h3>
+          <div style="overflow-x:auto;">
+            <table class="pricing-table">
+              <thead><tr><th>Day</th><th>Hours</th></tr></thead>
+              <tbody>
+                <tr><td>Friday</td><td>5pm–10pm</td></tr>
+                <tr><td>Saturday</td><td>12pm–10pm</td></tr>
+                <tr><td>Sunday</td><td>12pm–8pm</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Karaoke -->
+    <section class="section" style="background:var(--blvd-charcoal);" id="karaoke">
+      <div class="container">
+        <div class="section-header fade-in">
+          <span class="section-label">Karaoke</span>
+          <h2>A Private Room — <span class="text-green">Karaoke at The BLVD!</span></h2>
+          <p>Bakersfield's only dedicated private karaoke room, for groups up to 10. Your own screen, mic, and sound system — booked just for your group, with full food and drink service in the room.</p>
+        </div>
+
+        <div style="text-align:center;margin:2rem 0;" class="fade-in">
+          <a href="https://reservations.meriq.com/blvdbakersfield/" target="_blank" rel="noopener" class="btn btn-green">Reserve a Karaoke Room</a>
+        </div>
+
+        <div class="fade-in" style="max-width:720px;margin:0 auto;">
+          <h3 style="font-size:1.25rem;margin-bottom:1rem;text-align:center;">Karaoke Room Pricing</h3>
+          <div style="overflow-x:auto;">
+            <table class="pricing-table">
+              <thead><tr><th>When You Book</th><th>Capacity</th><th>Hourly Rate</th></tr></thead>
+              <tbody>
+                <tr><td>Monday&ndash;Friday, open until 5pm</td><td>Up to 10 guests</td><td class="price">$30/hr</td></tr>
+                <tr><td>All other times</td><td>Up to 10 guests</td><td class="price">$60/hr</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p style="font-size:0.82rem;color:var(--blvd-gray);margin-top:0.75rem;text-align:center;font-style:italic;">The weekday daytime rate is our best value &mdash; half price before 5pm, Monday through Friday.</p>
+          <div class="notice-card fade-in" style="margin-top:1rem;">
+            <strong style="color:#fff;">Booking online?</strong>
+            Choose <strong style="color:#fff;">&ldquo;Karaoke / Billiard&rdquo;</strong> on the reservation screen, then select Karaoke. Planning something bigger than 10 guests? Call <a href="tel:6618734477">661-873-4477</a> and we'll build it into a party package.
+          </div>
+          <p style="font-size:0.9rem;margin-top:1rem;text-align:center;"><a href='/karaoke'>More about the karaoke room &rarr;</a></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Side-by-side: Billiards / Sports / VIP -->
+    <section class="section" id="more">
+      <div class="container">
+        <div class="section-header fade-in">
+          <span class="section-label">More Ways to Play</span>
+          <h2>Billiards · Sports Viewing · <span class="text-green">VIP Lounge</span></h2>
+        </div>
+        <div class="package-grid fade-in">
+          <div class="card" id="billiards">
+            <h3 style="font-size:1.15rem;margin-bottom:0.75rem;">Billiards — <span class="text-green">Chill &amp; Compete</span></h3>
+            <p style="color:var(--blvd-gray-light);font-size:0.95rem;margin-bottom:1rem;">Enjoy our billiards table, with plenty of space to chill and compete — a perfect low-key activity between games.</p>
+            <p style="color:#fff;font-weight:700;margin-bottom:1rem;">15 / hour</p>
+            <p style="font-size:0.85rem;color:var(--blvd-gray);"><a href="https://reservations.meriq.com/blvdbakersfield/" target="_blank" rel="noopener">Reserve billiards or karaoke →</a><br><em>(No reservation needed for billiards, but encouraged. Billiards and karaoke are booked on the same screen — pick &ldquo;Karaoke / Billiard,&rdquo; then choose Billiards.)</em></p>
+          </div>
+          <div class="card" id="sports">
+            <h3 style="font-size:1.15rem;margin-bottom:0.75rem;">Sports Viewing — <span class="text-green">30 HD TVs</span></h3>
+            <p style="color:var(--blvd-gray-light);font-size:0.95rem;">HD TVs throughout the venue plus lane-side screens above every bowling lane — catch the game wherever you sit. The ultimate watch party.</p>
+          </div>
+          <div class="card" id="vip">
+            <h3 style="font-size:1.15rem;margin-bottom:0.75rem;">VIP Lounge — <span class="text-green">Up to 155 guests</span></h3>
+            <p style="color:var(--blvd-gray-light);font-size:0.95rem;margin-bottom:1rem;">Our private VIP lounge can host parties up to 155 guests at all sizes — perfect for corporate events of all sizes and celebrations. Additional rooms available for events and celebrations.</p>
+            <p style="font-size:0.9rem;"><a href='/parties-events'>Learn more →</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section" id="faq">
+      <div class="container" style="max-width:800px;">
+        <div class="section-header fade-in">
+          <span class="section-label">FAQ</span>
+          <h2>Attractions <span class="text-green">FAQ</span></h2>
+        </div>
+        <div class="fade-in">
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>How much does bowling cost at The BLVD! Bakersfield?</span>
+              <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7.5L10 12.5L15 7.5"/></svg>
+            </button>
+            <div class="faq-answer">
+              <p>Bowling is priced per lane, per hour. Mon–Fri before 5pm: $30/hr/lane. Mon–Thu after 5pm: $35/hr/lane. Sat–Sun before 5pm: $50/hr/lane. Fri–Sun after 5pm: $55/hr/lane. Shoe rental is $5/person; socks $4/pair.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>What's the difference between VIP and public lanes?</span>
+              <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7.5L10 12.5L15 7.5"/></svg>
+            </button>
+            <div class="faq-answer">
+              <p>The BLVD! Bakersfield has 22 total lanes: 8 premium VIP lanes and 14 public lanes. VIP lanes feature ambient lighting, lane-side seating, and a more private feel — ideal for parties, groups, and special occasions. Public lanes are perfect for open-play and walk-ins.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>How much does laser tag cost at The BLVD! Bakersfield?</span>
+              <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 7.5L10 12.5L15 7.5"/></svg>
+            </button>
+            <div class="faq-answer">
+              <p>Laser tag starts at $10 / 1 game (Mon–Thu and Fri before 5pm). Multi-game passes save more: 2 games $14, 3 games $17. Fri after 5pm and weekends: $12 / 1 game, $17 / 2 games, $22 / 3 games. Valid waiver required — <a href="https://www.brunswickcloud.com/Waiver/Home?sc=MDktMDEtNDkx" target="_blank" rel="noopener">sign online</a>.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer CTA -->
+    <section class="section" style="background:var(--blvd-charcoal);text-align:center;">
+      <div class="container fade-in">
+        <h2 style="font-size:clamp(1.5rem,1rem+2vw,2.5rem);margin-bottom:1rem;">Ready for <span class="text-green">Next-Level Fun?</span></h2>
+        <p style="color:var(--blvd-gray-light);max-width:640px;margin:0 auto 2rem;">Reserve a lane, grab your crew, and experience everything The BLVD! Bakersfield has to offer.</p>
+        <div style="display:flex;gap:0.75rem;justify-content:center;flex-wrap:wrap;">
+          <a href="https://reservations.meriq.com/blvdbakersfield/" target="_blank" rel="noopener" class="btn btn-orange">Reserve a Lane</a>
+          <a class='btn btn-outline' href='/parties-events'>Plan a Party</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="site-footer"></div>
+  <script src="js/components.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/consent.js"></script>
+  <script src="js/attribution.js"></script>
+  <script src="js/conversions.js"></script>
+</body>
+</html>

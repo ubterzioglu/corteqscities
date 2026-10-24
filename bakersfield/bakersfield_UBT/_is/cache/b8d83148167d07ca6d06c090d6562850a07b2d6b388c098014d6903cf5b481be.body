@@ -1,0 +1,1931 @@
+<!doctype html>
+<html data-n-head-ssr lang="en" data-n-head="%7B%22lang%22:%7B%22ssr%22:%22en%22%7D%7D">
+  <head>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-J07CVPHFWZ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-J07CVPHFWZ');
+</script>
+    <meta data-n-head="ssr" charset="utf-8">
+    <meta data-n-head="ssr" name="viewport" content="width=device-width,initial-scale=1">
+    <meta data-n-head="ssr" data-hid="description" name="description"
+      content="Need helping buying food? CalFresh is a Supplemental Nutrition Assistance Program that has helped 4.7 million Californians put food on their table.">
+    <meta data-n-head="ssr" data-hid="og:description" name="og:description"
+      content="Need helping buying food? CalFresh is a Supplemental Nutrition Assistance Program that has helped 4.7 million Californians put food on their table.">
+    <meta data-n-head="ssr" data-hid="og:site_name" name="og:site_name"
+      content="CalFresh - California’s Food Assistance Program">
+    <meta data-n-head="ssr" data-hid="og:title" name="og:title" content="CalFresh - California’s Food Assistance Program">
+    <meta data-n-head="ssr" data-hid="og:image" name="og:image" content="https://www.calfreshfood.org/meta.png">
+    <meta data-n-head="ssr" name="format-detection" content="telephone=no">
+    <title>CalFresh - California’s Food Assistance Program</title>
+    <base href="/portals/42/CFF/">
+    <link data-n-head="ssr" rel="icon" type="image/x-icon" href="./favicon.ico">
+    <link data-n-head="ssr" rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      as="style">
+    <script data-n-head="ssr"
+      data-hid="gtm-script">window._gtm_init || (window._gtm_init = 1, function (t, e, n, a, i, o) { t[n] = 1 == t[n] || "yes" == e[n] || 1 == e[n] || 1 == e.msDoNotTrack || t[i] && t[i][o] && t[i][o]() ? 1 : 0 }(window, navigator, "doNotTrack", 0, "external", "msTrackingProtectionEnabled"), function (t, e, n, a, i) { t[i] = {}, t._gtm_inject = function (o) { if (!t.doNotTrack && !t[i][o]) { t[i][o] = 1, t[a] = t[a] || [], t[a].push({ "gtm.start": (new Date).getTime(), event: "gtm.js" }); var g = e.getElementsByTagName(n)[0], m = e.createElement(n); m.async = !0, m.src = "https://www.googletagmanager.com/gtm.js?id=" + o, g.parentNode.insertBefore(m, g) } }, t._gtm_inject("GTM-TB7GQV3") }(window, document, "script", "dataLayer", "_gtm_ids"))</script>
+    <link rel="preload" href="/portals/42/CFF/_nuxt/f1899c8.js" as="script">
+    <link rel="preload" href="/portals/42/CFF/_nuxt/d9733b8.js" as="script">
+    <link rel="preload" href="/portals/42/CFF/_nuxt/a88a322.js" as="script">
+    <link rel="preload" href="/portals/42/CFF/_nuxt/3d59ea3.js" as="script">
+    <link rel="preload" href="/portals/42/CFF/_nuxt/cae0864.js" as="script">
+    <link rel="preload" href="/portals/42/CFF/_nuxt/40303a0.js" as="script">
+    <link rel="preload" href="/portals/42/CFF/_nuxt/aa5ba1e.js" as="script">
+    <style
+      data-vue-ssr-id="79e3410a:0 79e3410a:1 929c2452:0 d0126f3e:0 c2f28b4a:0 bb8bf742:0 d36b31be:0 c3a9893e:0 3a659416:0 0c755fb2:0 0519c864:0 6227e866:0 00fb9dcd:0 3c7c95c7:0 d9d487ac:0 5d3819e6:0 4676ed1c:0 3791f870:0 54d69638:0 087cc06e:0 230b4eda:0 6daa9250:0 4496a311:0 7b582ef8:0 a9bc4fbc:0 3f53e200:0">
+      @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css);
+    
+      :root {
+        --calfresh-red: #af2a30;
+        --calfresh-maroon: #661a1f;
+        --calfresh-dark-green: #12401f;
+        --calfresh-light-green: #8ac440;
+        --calfresh-pine-green: #00944c;
+        --calfresh-lime-green: #9cc136;
+        --dark-gray: #232323;
+        --light-gray: #d4d4d4;
+        --primary-site-color: #661a1f;
+        --wireframe-1: #12401f;
+        --wireframe-2: #243b53;
+        --wireframe-3: #3e4750;
+        --wireframe-4: #486581;
+        --wireframe-5: #627d98;
+        --wireframe-6: #829ab1;
+        --wireframe-7: #9fb3c8;
+        --wireframe-8: #bcccdc;
+        --wireframe-9: #d9e2ec;
+        --wireframe-10: #f0f4f8;
+        --base-header-height: 10rem;
+        --base-footer-height: 5rem;
+        --base-heading-color: var(--wireframe-1);
+        --base-text-color: var(--wireframe-1);
+        --base-link-color: var(--wireframe-4);
+        --base-link-hover-color: var(--wireframe-1);
+        --root-font-size: 62.5%;
+        --base-font-size: 1.6rem;
+        --base-line-height: 1.4;
+        --base-heading-line-height: 1.1;
+        --base-heading-font-weight: 700;
+        --base-gap: 2rem;
+        --base-small-gap: 1rem;
+        --base-large-gap: 3rem;
+        --base-container-padding: 2rem;
+        --base-container-width: 85vw;
+        --base-container-max-width: 100rem;
+        --base-container-margin: max(calc((100vw - var(--base-container-width)) / 2), calc((100vw - var(--base-container-max-width)) / 2))
+      }
+    
+      @media(min-width:48rem) {
+        :root {
+          --base-container-padding: 5rem;
+          --base-gap: 2.5rem;
+          --base-small-gap: 1.5rem;
+          --base-large-gap: 4rem
+        }
+      }
+    
+      @media(min-width:64rem) {
+        :root {
+          --base-gap: 3rem;
+          --base-large-gap: 6rem
+        }
+      }
+    
+      *,
+      ::after,
+      ::before {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box
+      }
+    
+      html {
+        font-size: var(--root-font-size, 62.5%);
+        -webkit-text-size-adjust: 100%;
+        -webkit-tap-highlight-color: transparent;
+        scroll-behavior: smooth
+      }
+    
+      @media(min-width:100rem) {
+        html {
+          font-size: .625vw
+        }
+      }
+    
+      body {
+        font: var(--base-font-size, 1.6rem)/var(--base-line-height, 1.4) var(--primary-font-family);
+        background: var(--base-background-color, #fff);
+        color: var(--base-text-color, #111);
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale
+      }
+    
+      main {
+        overflow: hidden
+      }
+    
+      ul {
+        list-style: none
+      }
+    
+      img,
+      picture,
+      video {
+        display: block;
+        max-width: 100%;
+        height: auto
+      }
+    
+      svg {
+        display: block
+      }
+    
+      ol,
+      p,
+      ul {
+        padding-bottom: 1em
+      }
+    
+      ol:empty,
+      p:empty,
+      ul:empty {
+        padding: 0
+      }
+    
+      address {
+        font-style: normal
+      }
+    
+      sub,
+      sup {
+        line-height: 0
+      }
+    
+      button,
+      input,
+      textarea {
+        font: inherit
+      }
+    
+      button {
+        appearance: none;
+        background: 0 0;
+        border: none;
+        cursor: pointer;
+        color: inherit
+      }
+    
+      table {
+        width: 100%;
+        border-collapse: collapse
+      }
+    
+      [disabled] {
+        cursor: not-allowed
+      }
+    
+      pre {
+        page-break-inside: avoid;
+        font-family: monospace;
+        overflow: auto;
+        display: block;
+        word-wrap: break-word;
+        text-align: left
+      }
+    
+      a {
+        text-decoration: none
+      }
+    
+      [data-whatintent=keyboard] a:focus,
+      [data-whatintent=mouse] a:hover,
+      [data-whatintent=touch] a:active {
+        text-decoration: underline
+      }
+    
+      a[href^=mailto] {
+        word-wrap: break-word
+      }
+    
+      #__layout>div {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh
+      }
+    
+      #__layout>div main {
+        flex: 1
+      }
+    
+      .sr-only {
+        position: absolute !important;
+        clip: rect(1px, 1px, 1px, 1px) !important;
+        padding: 0 !important;
+        border: 0 !important;
+        height: 1px !important;
+        width: 1px !important;
+        overflow: hidden !important
+      }
+    
+      :focus {
+        outline-color: var(--primary-site-color);
+        outline-offset: .5rem;
+        -webkit-focus-ring-color: var(--primary-site-color)
+      }
+    
+      [data-whatinput=mouse] :focus,
+      [data-whatinput=touch] :focus {
+        outline: 0
+      }
+    
+      @media(prefers-reduced-motion:reduce) {
+    
+        *,
+        ::after,
+        ::before {
+          animation-delay: -1ms !important;
+          animation-duration: 1ms !important;
+          animation-iteration-count: 1 !important;
+          background-attachment: initial !important;
+          scroll-behavior: auto !important;
+          transition-duration: 0s !important;
+          transition-delay: 0s !important
+        }
+      }
+    
+      :root {
+        --primary-font-family: "Raleway", system, -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
+        --h1-font-size: 4.2rem;
+        --h2-font-size: 1.8rem;
+        --h3-font-size: 1.6rem
+      }
+    
+      @media(min-width:25rem) {
+        :root {
+          --h1-font-size: 5rem;
+          --h2-font-size: 2.2rem;
+          --h3-font-size: 1.8rem
+        }
+      }
+    
+      @media(min-width:48rem) {
+        :root {
+          --h1-font-size: 5.5rem;
+          --h2-font-size: 2.6rem;
+          --h3-font-size: 2rem
+        }
+      }
+    
+      @media(min-width:64rem) {
+        :root {
+          --h1-font-size: 7rem;
+          --h2-font-size: 3rem;
+          --h3-font-size: 2.2rem
+        }
+      }
+    
+      h1,
+      h2,
+      h3 {
+        font-weight: var(--base-heading-font-weight);
+        line-height: var(--base-heading-line-height);
+        color: var(--base-heading-color)
+      }
+    
+      h1 {
+        font-size: var(--h1-font-size)
+      }
+    
+      h2 {
+        font-size: var(--h2-font-size)
+      }
+    
+      h3 {
+        font-size: var(--h3-font-size)
+      }
+    
+      p {
+        font-weight: 500
+      }
+    
+      p.light {
+        font-weight: 400
+      }
+    
+      h2.section-title {
+        text-align: center;
+        font-size: var(--h1-font-size);
+        font-weight: 300;
+        margin-bottom: var(--base-gap)
+      }
+    
+      h2.section-title.dark-green {
+        color: var(--calfresh-dark-green)
+      }
+    
+      h4.section-subtitle {
+        font-size: 2.5rem;
+        font-weight: 800
+      }
+    
+      @media(max-width:47.98rem) {
+        h4.section-subtitle {
+          font-size: 2rem
+        }
+      }
+    
+      h2.section-title,
+      h4.section-subtitle {
+        color: #fff;
+        text-transform: uppercase
+      }
+    
+      ul.calfresh-list {
+        margin-left: 2rem
+      }
+    
+      ul.calfresh-list li {
+        font-size: 2rem;
+        font-weight: 500;
+        padding-left: 1rem;
+        margin-bottom: var(--base-small-gap);
+        color: #fff
+      }
+    
+      ul.calfresh-list li::marker {
+        content: url("/eligibility/check-green.svg")
+      }
+    
+      ul.calfresh-list.red-checks li::marker {
+        content: url("/eligibility/check.svg")
+      }
+    
+      @keyframes bounce {
+        0% {
+          bottom: 5px
+        }
+    
+        25%,
+        75% {
+          bottom: 15px
+        }
+    
+        50% {
+          bottom: 20px
+        }
+    
+        100% {
+          bottom: 0
+        }
+      }
+    
+      @keyframes fadein {
+        0% {
+          opacity: 0
+        }
+    
+        100% {
+          opacity: 1
+        }
+      }
+    
+      @keyframes fadeinout {
+    
+        0%,
+        100% {
+          opacity: 0
+        }
+    
+        50% {
+          opacity: 1
+        }
+      }
+    
+      .display-mobile {
+        display: block !important
+      }
+    
+      @media(min-width:48rem) {
+        .display-mobile {
+          display: none !important
+        }
+      }
+    
+      .display-desktop {
+        display: none !important
+      }
+    
+      @media(min-width:48rem) {
+        .display-desktop {
+          display: block !important
+        }
+      }
+    
+      @media(max-width:47.98rem) {
+        .mobile-image-padding {
+          padding: 3rem
+        }
+      }
+    
+      @font-face {
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 100;
+        font-display: swap;
+        src: url(/portals/42/CFF/_nuxt/fonts/Raleway-100-cyrillic-ext1.a5a2bf4.woff2) format('woff2');
+        unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F
+      }
+    
+      @font-face {
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 100;
+        font-display: swap;
+        src: url(/portals/42/CFF/_nuxt/fonts/Raleway-100-cyrillic2.c116b53.woff2) format('woff2');
+        unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116
+      }
+    
+      @font-face {
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 100;
+        font-display: swap;
+        src: url(/portals/42/CFF/_nuxt/fonts/Raleway-100-vietnamese3.238fe9a.woff2) format('woff2');
+        unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB
+      }
+    
+      @font-face {
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 100;
+        font-display: swap;
+        src: url(/portals/42/CFF/_nuxt/fonts/Raleway-100-latin-ext4.2eca811.woff2) format('woff2');
+        unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF
+      }
+    
+      @font-face {
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 100;
+        font-display: swap;
+        src: url(/portals/42/CFF/_nuxt/fonts/Raleway-100-latin5.a2a53b6.woff2) format('woff2');
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+      }
+    
+      @font-face {
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 300;
+        font-display: swap;
+        src: url(/portals/42/CFF/_nuxt/fonts/Raleway-300-cyrillic-ext6.a5a2bf4.woff2) format('woff2');
+        unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F
+      }
+    
+      @font-face {
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 300;
+        font-display: swap;
+        src: url(/portals/42/CFF/_nuxt/fonts/Raleway-300-cyrillic7.c116b53.woff2) format('woff2');
+        unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116
+      }
+    
+      @font-face {
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 300;
+        font-display: swap;
+        src: url(/portals/42/CFF/_nuxt/fonts/Raleway-300-vietnamese8.238fe9a.woff2) format('woff2');
+        unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB
+      }
+    
+      @font-face {
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 300;
+        font-display: swap;
+        src: url(/portals/42/CFF/_nuxt/fonts/Raleway-300-latin-ext9.2eca811.woff2) format('woff2');
+        unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF
+      }
+    
+      @font-face {
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 300;
+        font-display: swap;
+        src: url(/portals/42/CFF/_nuxt/fonts/Raleway-300-latin10.a2a53b6.woff2) format('woff2');
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+      }
+    
+      @font-face {
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(/portals/42/CFF/_nuxt/fonts/Raleway-400-cyrillic-ext11.a5a2bf4.woff2) format('woff2');
+        unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F
+      }
+    
+      @font-face {
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(/portals/42/CFF/_nuxt/fonts/Raleway-400-cyrillic12.c116b53.woff2) format('woff2');
+        unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116
+      }
+    
+      @font-face {
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(/portals/42/CFF/_nuxt/fonts/Raleway-400-vietnamese13.238fe9a.woff2) format('woff2');
+        unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB
+      }
+    
+      @font-face {
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(/portals/42/CFF/_nuxt/fonts/Raleway-400-latin-ext14.2eca811.woff2) format('woff2');
+        unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF
+      }
+    
+      @font-face {
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(/portals/42/CFF/_nuxt/fonts/Raleway-400-latin15.a2a53b6.woff2) format('woff2');
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+      }
+    
+      @font-face {
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 500;
+        font-display: swap;
+        src: url(/portals/42/CFF/_nuxt/fonts/Raleway-500-cyrillic-ext16.a5a2bf4.woff2) format('woff2');
+        unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F
+      }
+    
+      @font-face {
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 500;
+        font-display: swap;
+        src: url(/portals/42/CFF/_nuxt/fonts/Raleway-500-cyrillic17.c116b53.woff2) format('woff2');
+        unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116
+      }
+    
+      @font-face {
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 500;
+        font-display: swap;
+        src: url(/portals/42/CFF/_nuxt/fonts/Raleway-500-vietnamese18.238fe9a.woff2) format('woff2');
+        unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB
+      }
+    
+      @font-face {
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 500;
+        font-display: swap;
+        src: url(/portals/42/CFF/_nuxt/fonts/Raleway-500-latin-ext19.2eca811.woff2) format('woff2');
+        unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF
+      }
+    
+      @font-face {
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 500;
+        font-display: swap;
+        src: url(/portals/42/CFF/_nuxt/fonts/Raleway-500-latin20.a2a53b6.woff2) format('woff2');
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+      }
+    
+      @font-face {
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 600;
+        font-display: swap;
+        src: url(/portals/42/CFF/_nuxt/fonts/Raleway-600-cyrillic-ext21.a5a2bf4.woff2) format('woff2');
+        unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F
+      }
+    
+      @font-face {
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 600;
+        font-display: swap;
+        src: url(/portals/42/CFF/_nuxt/fonts/Raleway-600-cyrillic22.c116b53.woff2) format('woff2');
+        unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116
+      }
+    
+      @font-face {
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 600;
+        font-display: swap;
+        src: url(/portals/42/CFF/_nuxt/fonts/Raleway-600-vietnamese23.238fe9a.woff2) format('woff2');
+        unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB
+      }
+    
+      @font-face {
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 600;
+        font-display: swap;
+        src: url(/portals/42/CFF/_nuxt/fonts/Raleway-600-latin-ext24.2eca811.woff2) format('woff2');
+        unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF
+      }
+    
+      @font-face {
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 600;
+        font-display: swap;
+        src: url(/portals/42/CFF/_nuxt/fonts/Raleway-600-latin25.a2a53b6.woff2) format('woff2');
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+      }
+    
+      @font-face {
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 700;
+        font-display: swap;
+        src: url(/portals/42/CFF/_nuxt/fonts/Raleway-700-cyrillic-ext26.a5a2bf4.woff2) format('woff2');
+        unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F
+      }
+    
+      @font-face {
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 700;
+        font-display: swap;
+        src: url(/portals/42/CFF/_nuxt/fonts/Raleway-700-cyrillic27.c116b53.woff2) format('woff2');
+        unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116
+      }
+    
+      @font-face {
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 700;
+        font-display: swap;
+        src: url(/portals/42/CFF/_nuxt/fonts/Raleway-700-vietnamese28.238fe9a.woff2) format('woff2');
+        unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB
+      }
+    
+      @font-face {
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 700;
+        font-display: swap;
+        src: url(/portals/42/CFF/_nuxt/fonts/Raleway-700-latin-ext29.2eca811.woff2) format('woff2');
+        unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF
+      }
+    
+      @font-face {
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 700;
+        font-display: swap;
+        src: url(/portals/42/CFF/_nuxt/fonts/Raleway-700-latin30.a2a53b6.woff2) format('woff2');
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+      }
+    
+      @font-face {
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 800;
+        font-display: swap;
+        src: url(/portals/42/CFF/_nuxt/fonts/Raleway-800-cyrillic-ext31.a5a2bf4.woff2) format('woff2');
+        unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F
+      }
+    
+      @font-face {
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 800;
+        font-display: swap;
+        src: url(/portals/42/CFF/_nuxt/fonts/Raleway-800-cyrillic32.c116b53.woff2) format('woff2');
+        unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116
+      }
+    
+      @font-face {
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 800;
+        font-display: swap;
+        src: url(/portals/42/CFF/_nuxt/fonts/Raleway-800-vietnamese33.238fe9a.woff2) format('woff2');
+        unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB
+      }
+    
+      @font-face {
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 800;
+        font-display: swap;
+        src: url(/portals/42/CFF/_nuxt/fonts/Raleway-800-latin-ext34.2eca811.woff2) format('woff2');
+        unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF
+      }
+    
+      @font-face {
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 800;
+        font-display: swap;
+        src: url(/portals/42/CFF/_nuxt/fonts/Raleway-800-latin35.a2a53b6.woff2) format('woff2');
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+      }
+    
+      @font-face {
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 900;
+        font-display: swap;
+        src: url(/portals/42/CFF/_nuxt/fonts/Raleway-900-cyrillic-ext36.a5a2bf4.woff2) format('woff2');
+        unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F
+      }
+    
+      @font-face {
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 900;
+        font-display: swap;
+        src: url(/portals/42/CFF/_nuxt/fonts/Raleway-900-cyrillic37.c116b53.woff2) format('woff2');
+        unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116
+      }
+    
+      @font-face {
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 900;
+        font-display: swap;
+        src: url(/portals/42/CFF/_nuxt/fonts/Raleway-900-vietnamese38.238fe9a.woff2) format('woff2');
+        unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB
+      }
+    
+      @font-face {
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 900;
+        font-display: swap;
+        src: url(/portals/42/CFF/_nuxt/fonts/Raleway-900-latin-ext39.2eca811.woff2) format('woff2');
+        unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF
+      }
+    
+      @font-face {
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 900;
+        font-display: swap;
+        src: url(/portals/42/CFF/_nuxt/fonts/Raleway-900-latin40.a2a53b6.woff2) format('woff2');
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+      }
+    
+      .nuxt-progress {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 2px;
+        width: 0%;
+        opacity: 1;
+        transition: width .1s, opacity .4s;
+        background-color: #666;
+        z-index: 999999
+      }
+    
+      .nuxt-progress.nuxt-progress-notransition {
+        transition: none
+      }
+    
+      .nuxt-progress-failed {
+        background-color: red
+      }
+    
+      .page-enter-active,
+      .page-leave-active {
+        transition: opacity .25s
+      }
+    
+      .page-enter,
+      .page-leave-to {
+        opacity: 0
+      }
+    
+      #skip-to-content {
+        position: absolute;
+        z-index: 999999999;
+        top: .5rem;
+        left: .5rem;
+        transform: translateY(-200%)
+      }
+    
+      #skip-to-content:focus {
+        transform: none
+      }
+    
+      .cta-button {
+        background: var(--calfresh-red, var(--wireframe-4));
+        text-transform: uppercase;
+        border-radius: 1rem 0;
+        color: #fff;
+        padding: 1rem 2rem;
+        text-decoration: none;
+        font-weight: 700;
+        position: relative;
+        display: inline-flex;
+        align-items: baseline;
+        overflow: hidden
+      }
+    
+      .cta-button[disabled] {
+        background: #ddd;
+        color: gray
+      }
+    
+      .cta-button.light {
+        background-color: #fff;
+        color: var(--calfresh-dark-green)
+      }
+    
+      .cta-button.light.outline {
+        border-color: #fff !important;
+        color: #fff !important
+      }
+    
+      .cta-button.outline {
+        background: rgba(0, 0, 0, 0);
+        border-radius: .75rem 0;
+        border: 3px solid var(--calfresh-dark-green);
+        color: var(--calfresh-dark-green)
+      }
+    
+      .cta-button span+i {
+        margin-left: 1rem
+      }
+    
+      [data-whatintent=keyboard] .cta-button:focus,
+      [data-whatintent=mouse] .cta-button:hover,
+      [data-whatintent=touch] .cta-button:active {
+        text-decoration: none
+      }
+    
+      .layout-header{position:sticky;z-index:9001;top:0;background-color:#fff;height:var(--base-header-height);display:flex;flex-direction:row;padding:0 2rem}
+@media(min-width:48rem){.layout-header{gap:var(--base-gap);padding:1rem 5rem}}
+.layout-header>div{align-items:center}
+.layout-header__logo{display:flex}
+.layout-header__logo a,.layout-header__logo img{width:12rem;height:calc(var(--base-header-height) - 1.5rem)}
+@media(min-width:64rem){.layout-header__logo a,.layout-header__logo img{width:100%}}
+.layout-header__nav{display:none}
+@media(min-width:48rem){.layout-header__nav{margin-left:var(--base-large-gap);display:flex;flex-direction:row;gap:var(--base-large-gap)}.layout-header__nav .nuxt-link-exact-active{color:var(--calfresh-pine-green)}.layout-header__nav a,.layout-header__nav button{font-size:2.5rem;font-weight:700;color:var(--calfresh-dark-green);cursor:pointer}.layout-header__nav a:hover,.layout-header__nav button:hover{text-decoration:none}}
+.layout-header__nav .nav-dropdown ul{left:0;width:30rem;border:2px solid #000}
+.layout-header__nav .nav-dropdown ul li a{font-weight:700;color:var(--calfresh-dark-green)}
+.layout-header__nav .nav-dropdown ul li a.nuxt-link-exact-active{color:var(--calfresh-pine-green)}
+.layout-header__right{display:flex;flex:1;justify-content:flex-start;flex-direction:row-reverse;gap:var(--base-gap)}
+@media(min-width:48rem){.layout-header__right{justify-content:flex-end;flex-direction:row;gap:var(--base-large-gap)}.layout-header__right .cta-button{text-align:center}}
+.layout-header__right--mobile{display:flex}
+.layout-header__right--mobile i{font-size:4rem;color:var(--calfresh-maroon)}
+@media(min-width:48rem){.layout-header__right--mobile{display:none}}
+.layout-header__right--lang{display:none}
+@media(min-width:48rem){.layout-header__right--lang{display:flex}}
+.nav{position:relative;text-align:center}
+.nav__toggle{display:flex;flex-direction:column;justify-content:center;height:5rem;width:5rem;position:absolute;bottom:100%;right:-1.25rem}
+@media(min-width:48rem){.nav__toggle{display:none}}
+.nav__toggle span{background:var(--wireframe-4);display:block;width:2.5rem;height:2px;border-radius:1px;position:absolute;left:1.25rem;pointer-events:none}
+.nav__toggle span.top-bar{top:calc(50% - 3px - .5rem)}
+.nav__toggle span.bottom-bar{top:calc(50% + 1px + .5rem)}
+.nav__toggle span.middle-bar{top:calc(50% - 1px)}
+.nav__toggle--close-button span.top-bar{transform:translateY(calc(.5rem + 2px)) rotate(45deg)}
+.nav__toggle--close-button span.bottom-bar{transform:translateY(calc(-.5rem - 2px)) rotate(-45deg)}
+.nav__toggle--close-button span.middle-bar{opacity:0}
+.nav__list{padding-bottom:0}
+@media(max-width:47.98rem){.nav__list{padding-top:2rem}}
+@media(min-width:48rem){.nav__list{display:flex}}
+@media(min-width:48rem){.nav__list-item{position:relative}.nav__list-item:not(:first-child){margin-left:var(--base-gap)}}
+.nav__list-item>*{font-size:2.5rem;font-weight:700;color:var(--base-text-color)}
+@media(max-width:47.98rem){.nav__list-item>*{padding:1rem 0;display:block}}
+[data-whatintent=keyboard] .nav__list-item>:focus,[data-whatintent=mouse] .nav__list-item>:hover,[data-whatintent=touch] .nav__list-item>:active{color:var(--aocs-magenta);text-decoration:none}
+.nav__list-item>* i{margin-left:.25rem}
+.nav .nuxt-link-active{color:var(--aocs-magenta)}
+.nav-dropdown{display:inline-block; position: relative;}
+.nav-dropdown button{color:var(--base-text-color)}
+@media(max-width:47.98rem){.nav-dropdown button{width:100%;cursor:auto}}
+@media(min-width:48rem){[data-whatintent=keyboard] .nav-dropdown button:focus,[data-whatintent=mouse] .nav-dropdown button:hover,[data-whatintent=touch] .nav-dropdown button:active{color:var(--aocs-magenta);text-decoration:none}}
+.nav-dropdown button i{margin-left:.25rem}
+@media(max-width:47.98rem){.nav-dropdown button i{display:none}}
+@media(min-width:48rem){.nav-dropdown button i{transition:transform .125s}}
+.nav-dropdown button i.icon-is-flipped{transform:rotate(-180deg)}
+.nav-dropdown ul{margin-top:.5rem; display: none;}
+@media(min-width:48rem){.nav-dropdown ul{position:absolute;top:calc(100% + 1rem);left:-2rem;z-index:9;width:25rem;background:#fff;padding:1.5rem;text-align:left;box-shadow:0 .5rem 1rem rgba(0,0,0,.18)}}
+.nav-dropdown.is-open ul { display: block; }
+.nav-dropdown li{padding:.5rem}
+.nav-dropdown a{font-weight:400;color:var(--base-text-color);display:block}
+@media(min-width:48rem){.slide-up-enter-active,.slide-up-leave-active{transition:transform .125s,opacity .125s}.slide-up-enter,.slide-up-leave-to{transform:translateY(1rem);opacity:0}}
+.base-icon{color:inherit}
+.site-language-select{border:none;font-size:3rem;text-align:center}
+@media(min-width:48rem){.site-language-select{font-size:2rem}}
+body.menu-open{overflow:hidden}
+.layout-mobile-menu{ display:none;position:fixed;overflow-y:scroll;top:0;bottom:0;right:0;left:0;width:90vw;background-color:#fff;box-shadow:-3px 0 10px -3px rgba(0,0,0,.55);padding:var(--base-gap);z-index:9002}
+.layout-mobile-menu.open{ display:flex;}
+.layout-mobile-menu__control i{font-size:5rem}
+.layout-mobile-menu__navigation{display:flex;flex-direction:column;align-self:flex-start}
+.layout-mobile-menu__navigation ul li{margin-bottom:4rem}
+.layout-mobile-menu__navigation ul li a{color:var(--calfresh-dark-green);font-size:3rem;font-weight:700}
+.layout-mobile-menu__navigation ul li a.nuxt-link-exact-active{color:var(--calfresh-pine-green)}
+.layout-mobile-menu__navigation ul li:first-of-type{margin-top:4rem}
+.layout-mobile-menu__bottom{display:flex;flex-direction:column;flex:1;width:100%;justify-content:flex-end}
+.layout-mobile-menu__bottom--cta{display:flex;width:100%;gap:var(--base-gap);align-self:center}
+.layout-mobile-menu__bottom--cta .cta-button{width:100%;justify-content:center}
+.layout-mobile-menu__bottom--lang{display:flex;align-self:center}
+.layout-mobile-menu__bottom--cta,.layout-mobile-menu__bottom--lang{padding-top:1rem;padding-bottom:1rem}
+    
+      .site-video-hero {
+        position: relative;
+        min-height: calc(100vh - var(--base-header-height))
+      }
+    
+      .site-video-hero video,
+      .site-video-hero__copy,
+      .site-video-hero__overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        aspect-ratio: 16/9
+      }
+    
+      .site-video-hero__overlay {
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0) 18.3%, rgba(0, 0, 0, .8) 100%);
+        mix-blend-mode: multiply
+      }
+    
+      .site-video-hero__copy {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: var(--base-gap);
+        padding: 0 3rem;
+        text-align: center
+      }
+    
+      @media(min-width:75rem) {
+        .site-video-hero__copy {
+          padding: 0 20rem
+        }
+      }
+    
+      .site-video-hero__copy h1 {
+        font-weight: 900;
+        color: #fff;
+        font-size: 5rem;
+        text-transform: uppercase
+      }
+    
+      @media(min-width:48rem) {
+        .site-video-hero__copy h1 {
+          font-size: 6rem
+        }
+      }
+    
+      @media(min-width:90rem) {
+        .site-video-hero__copy h1 {
+          font-size: 10rem
+        }
+      }
+    
+      .site-video-hero__copy div {
+        border-radius: 2rem 0;
+        padding: 2rem
+      }
+    
+      .site-video-hero__copy div.green {
+        background-color: var(--calfresh-pine-green)
+      }
+    
+      .site-video-hero__copy div.red {
+        background-color: var(--calfresh-red)
+      }
+    
+      @media(min-width:64rem) {
+        .site-video-hero__copy div {
+          padding: 2rem 5rem
+        }
+      }
+    
+      .site-video-hero__copy div h2 {
+        color: #fff;
+        font-size: var(--h3-font-size)
+      }
+    
+      .site-video-hero__copy--disclaimer {
+        color: #fff;
+        font-weight: 400;
+        font-size: 1.6rem;
+        margin-top: var(--base-small-gap);
+        padding-bottom: 0
+      }
+    
+      .site-video-hero video {
+        object-fit: cover
+      }
+    
+      .include-gaps .container {
+        display: flex;
+        flex-direction: column;
+        gap: var(--section-row-gap)
+      }
+    
+      section[data-section-background=dark] {
+        background: var(--dark-bg-color, var(--wireframe-8))
+      }
+    
+      section[data-section-background=off-white] {
+        background: var(--off-white-bg-color, var(--wireframe-1))
+      }
+    
+      .eligibility-citizenship-section__questions>div {
+        padding: var(--base-gap) 0;
+        border-top: 1px solid var(--calfresh-light-green)
+      }
+    
+      .eligibility-citizenship-section__questions>div:first-of-type {
+        margin-top: var(--base-gap)
+      }
+    
+      .site-citizenship-section {
+        background-color: var(--calfresh-pine-green)
+      }
+    
+      .site-citizenship-section .container {
+        display: flex;
+        flex-direction: column
+      }
+    
+      .site-citizenship-section p {
+        font-size: 2rem;
+        font-weight: 500;
+        color: #fff
+      }
+    
+      .site-citizenship-section a {
+        color: #fff
+      }
+    
+      .site-citizenship-section__status {
+        display: flex;
+        flex-direction: column-reverse
+      }
+    
+      @media(min-width:48rem) {
+        .site-citizenship-section__status {
+          flex-direction: row;
+          gap: var(--base-gap)
+        }
+      }
+    
+      .site-citizenship-section__status--carousel .base-carousel-dot {
+        background: var(--calfresh-dark-green);
+        width: 1.5rem;
+        height: 1.5rem
+      }
+    
+      .site-citizenship-section__status--carousel .base-carousel-dot.active-base-carousel-dot {
+        background: #fff
+      }
+    
+      .site-citizenship-section__status--copy {
+        display: flex;
+        flex-direction: column;
+        color: #fff;
+        justify-content: center
+      }
+    
+      .site-citizenship-section__status--disclaimer {
+        background-color: var(--calfresh-dark-green);
+        font-style: italic
+      }
+    
+      .site-citizenship-section__status--disclaimer p {
+        padding: 2rem
+      }
+    
+      .site-citizenship-section__status--disclaimer a {
+        text-decoration: underline
+      }
+    
+      .site-citizenship-section__status>div {
+        display: flex;
+        flex: 1
+      }
+    
+      .container {
+        position: relative;
+        margin: 0 var(--base-container-margin);
+        padding: var(--base-container-padding) 0
+      }
+    
+      .base-carousel[data-v-0fe04001] {
+        --max-per-row: 0;
+        --card-min-width: 0;
+        --max-adjustment-scale: 0;
+        --minimum-viable-column: min(var(--base-container-width), calc((var(--base-container-max-width) - calc((var(--max-per-row) - 1) * var(--carousel-column-gap))) / calc(var(--max-per-row) + var(--max-adjustment-scale))));
+        --centered-grid-margin: calc((100vw - min(var(--base-container-width), var(--card-min-width))) / 2);
+        --assigned-column-count: 1
+      }
+    
+      .base-carousel>span {
+        display: block;
+        width: var(--minimum-viable-column);
+        height: 0
+      }
+    
+      .carousel-container {
+        column-gap: var(--carousel-column-gap);
+        row-gap: var(--carousel-row-gap)
+      }
+    
+      .base-carousel-grid .carousel-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(var(--minimum-viable-column), 1fr))
+      }
+    
+      .uses-assigned-columns .carousel-container {
+        grid-template-columns: repeat(var(--assigned-column-count), 1fr)
+      }
+    
+      .x-axis-overflow {
+        margin: 0 calc(var(--base-container-margin)*-1)
+      }
+    
+      .x-axis-overflow .carousel-x-axis-controls {
+        position: relative
+      }
+    
+      .x-axis-overflow .carousel-x-axis-controls::after,
+      .x-axis-overflow .carousel-x-axis-controls::before {
+        content: "";
+        display: block;
+        width: 2rem;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        z-index: 2;
+        opacity: 0
+      }
+    
+      .x-axis-overflow .carousel-x-axis-controls::before {
+        left: 0;
+        background: linear-gradient(to right, var(--wireframe-1) 0, transparent 100%)
+      }
+    
+      .x-axis-overflow .carousel-x-axis-controls::after {
+        right: 0;
+        background: linear-gradient(to left, var(--wireframe-1) 0, transparent 100%)
+      }
+    
+      .x-axis-overflow .carousel-container {
+        overflow-x: scroll;
+        display: flex;
+        padding-left: var(--base-container-margin);
+        min-width: 100%;
+        width: auto;
+        -webkit-overflow-scrolling: touch;
+        scrollbar-width: none;
+        -ms-overflow-style: none;
+        position: relative
+      }
+    
+      .x-axis-overflow .carousel-container::after {
+        content: "";
+        min-width: calc(var(--base-container-margin) - var(--carousel-column-gap))
+      }
+    
+      .x-axis-overflow .carousel-container::-webkit-scrollbar {
+        display: none
+      }
+    
+      .x-axis-overflow .carousel-container>* {
+        min-width: min(var(--base-container-width), var(--card-min-width));
+        flex-grow: 1
+      }
+    
+      .extends-beyond-left-viewport-edge .carousel-x-axis-controls::before {
+        opacity: 0
+      }
+    
+      .extends-beyond-right-viewport-edge .carousel-x-axis-controls::after {
+        opacity: 0
+      }
+    
+      .uses-scroll-snap .carousel-container {
+        scroll-snap-type: x mandatory;
+        padding-left: var(--centered-grid-margin)
+      }
+    
+      .uses-scroll-snap .carousel-container::after {
+        content: "";
+        min-width: calc(var(--centered-grid-margin) - var(--carousel-column-gap))
+      }
+    
+      .uses-scroll-snap .carousel-container>* {
+        scroll-snap-align: start;
+        scroll-margin-left: var(--centered-grid-margin)
+      }
+    
+      .uses-buttons .carousel-container>* {
+        scroll-snap-stop: always
+      }
+    
+      .base-carousel-next-button,
+      .base-carousel-prev-button {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        z-index: 10;
+        display: flex;
+        align-items: center
+      }
+    
+      .base-carousel-prev-button {
+        left: 0
+      }
+    
+      .base-carousel-next-button {
+        right: 0
+      }
+    
+      .base-carousel-dots {
+        display: flex;
+        justify-content: center;
+        gap: .5rem
+      }
+    
+      .base-carousel-dots[data-dot-position=below] {
+        padding-top: var(--base-small-gap)
+      }
+    
+      .base-carousel-dots[data-dot-position=above] {
+        padding-bottom: var(--base-small-gap)
+      }
+    
+      .left-aligned-scroll-snap .carousel-container::after {
+        content: "";
+        min-width: calc(100vw - min(var(--base-container-width), var(--card-min-width)) - var(--base-container-margin) - var(--carousel-column-gap))
+      }
+    
+      .left-aligned-scroll-snap .carousel-container>* {
+        scroll-margin-left: var(--base-container-margin);
+        scroll-snap-align: start
+      }
+    
+      .eligibility-carousel-card__question {
+        text-align: left;
+        font-size: 2rem;
+        margin: var(--base-gap) 0
+      }
+    
+      .base-carousel-dot {
+        border-radius: 50%;
+        width: 1rem;
+        height: 1rem;
+        background: var(--wireframe-8);
+        transition: background .25s
+      }
+    
+      [data-section-background=dark] .base-carousel-dot {
+        background: #fff
+      }
+    
+      .base-carousel-dot.active-base-carousel-dot {
+        background: var(--wireframe-4)
+      }
+    
+      [data-whatintent=keyboard] .base-carousel-dot:focus,
+      [data-whatintent=mouse] .base-carousel-dot:hover,
+      [data-whatintent=touch] .base-carousel-dot:active {
+        background: var(--wireframe-6)
+      }
+    
+      .eligibility-income-section {
+        background-color: var(--calfresh-maroon);
+        color: #fff
+      }
+    
+      .eligibility-income-section .container {
+        display: flex;
+        flex-direction: column;
+        gap: var(--base-gap)
+      }
+    
+      .eligibility-income-section .container img {
+        align-self: center
+      }
+    
+      @media(min-width:48rem) {
+        .eligibility-income-section .container img {
+          margin-top: 0;
+          max-height: 20rem
+        }
+      }
+    
+      .eligibility-income-section__copy {
+        display: flex;
+        flex-direction: column;
+        gap: var(--base-gap)
+      }
+    
+      @media(min-width:48rem) {
+        .eligibility-income-section__copy {
+          flex-direction: row
+        }
+      }
+    
+      .eligibility-income-section__copy--disclaimer {
+        margin-top: 1rem;
+        font-style: italic
+      }
+    
+      .eligibility-income-section__copy--disclaimer a {
+        color: #fff;
+        text-decoration: underline
+      }
+    
+      .eligibility-income-section__copy ul {
+        margin-top: var(--base-gap)
+      }
+    
+      .eligibility-income-section__copy ul li a {
+        color: var(--calfresh-light-green);
+        font-weight: 800
+      }
+    
+      .eligibility-income-section__copy table {
+        font-size: 2rem
+      }
+    
+      .eligibility-income-section__copy table td,
+      .eligibility-income-section__copy table th {
+        padding: .2rem 1rem
+      }
+    
+      .eligibility-income-section__copy table th {
+        text-align: left
+      }
+    
+      .eligibility-income-section__copy table td {
+        font-weight: 500
+      }
+    
+      @media(min-width:48rem) {
+        .eligibility-income-section__copy table td:first-child {
+          width: 40%
+        }
+      }
+    
+      .eligibility-income-section__copy table tbody tr:nth-child(odd) {
+        background-color: var(--calfresh-red)
+      }
+    
+      .eligibility-income-section__copy table tbody tr:last-child>td:last-child {
+        font-weight: 700
+      }
+    
+      .eligibility-income-section__copy>div {
+        flex: 1
+      }
+    
+      .eligibility-college-section {
+        background-color: var(--calfresh-red);
+        color: #fff
+      }
+    
+      .eligibility-college-section .container {
+        display: flex;
+        flex-direction: column;
+        text-align: center
+      }
+    
+      @media(min-width:48rem) {
+        .eligibility-college-section .container {
+          flex-direction: row;
+          gap: var(--base-gap)
+        }
+    
+        .eligibility-college-section .container h2,
+        .eligibility-college-section .container p {
+          text-align: left
+        }
+    
+        .eligibility-college-section .container>div {
+          flex: 1
+        }
+      }
+    
+      .eligibility-college-section__image img {
+        padding: var(--base-gap);
+        padding-top: 0
+      }
+    
+      .eligibility-college-section__copy {
+        display: flex;
+        flex-direction: column;
+        justify-content: center
+      }
+    
+      .eligibility-college-section__copy p {
+        font-size: 2rem
+      }
+    
+      .eligibility-college-section__copy>div {
+        display: flex
+      }
+    
+      @media(max-width:47.98rem) {
+        .eligibility-college-section__copy>div .cta-button {
+          justify-content: center;
+          flex: 1
+        }
+      }
+    
+      @media(min-width:48rem) {
+        .eligibility-college-section__copy>div .cta-button {
+          display: inline-block
+        }
+      }
+    
+      .layout-footer .container {
+        display: flex;
+        flex-direction: column
+      }
+    
+      .layout-footer__bottom,
+      .layout-footer__top {
+        padding: 0 var(--base-container-margin)
+      }
+    
+      .layout-footer__top {
+        display: flex;
+        flex-direction: column;
+        border-bottom: 1px solid var(--light-gray)
+      }
+    
+      @media(min-width:48rem) {
+        .layout-footer__top {
+          flex-direction: row
+        }
+      }
+    
+      @media(max-width:47.98rem) {
+        .layout-footer__top {
+          align-items: center
+        }
+    
+        .layout-footer__top .cta-button {
+          padding-left: 10rem;
+          padding-right: 10rem
+        }
+    
+        .layout-footer__top--links i {
+          margin: 0 2.5rem
+        }
+      }
+    
+      .layout-footer__top--logo {
+        margin-top: 1rem
+      }
+    
+      .layout-footer__top--logo img {
+        height: 7rem
+      }
+    
+      @media(min-width:48rem) {
+        .layout-footer__top--logo {
+          height: auto;
+          margin-top: 0;
+          padding: .5rem 0
+        }
+      }
+    
+      .layout-footer__top--links {
+        padding: 2rem 0;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: flex-end;
+        align-items: center;
+        gap: var(--base-gap)
+      }
+    
+      @media(min-width:48rem) {
+        .layout-footer__top--links {
+          flex-direction: row;
+          gap: var(--base-large-gap)
+        }
+      }
+    
+      .layout-footer__top--links>div {
+        display: flex;
+        gap: var(--base-large-gap)
+      }
+    
+      .layout-footer__top--links i {
+        color: var(--dark-gray);
+        font-size: 3rem
+      }
+    
+      .layout-footer__top>div {
+        display: flex;
+        flex: 1
+      }
+    
+      .layout-footer__bottom {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        text-align: center
+      }
+    
+      @media(max-width:47.98rem) {
+        .layout-footer__bottom {
+          padding: 0
+        }
+    
+        .layout-footer__bottom p {
+          padding: 1rem var(--base-container-margin)
+        }
+      }
+    
+      @media(min-width:48rem) {
+        .layout-footer__bottom {
+          text-align: left;
+          grid-template-columns: repeat(3, 1fr)
+        }
+      }
+    
+      .layout-footer__bottom--links {
+        gap: var(--base-small-gap)
+      }
+    
+      @media(max-width:47.98rem) {
+        .layout-footer__bottom--links {
+          gap: var(--base-gap);
+          border-bottom: 1px solid var(--light-gray)
+        }
+    
+        .layout-footer__bottom--links a {
+          margin: 2rem 0
+        }
+      }
+    
+      .layout-footer__bottom--links a {
+        font-size: 2rem;
+        color: var(--dark-gray);
+        font-weight: 600
+      }
+    
+      .layout-footer__bottom>div {
+        display: flex;
+        flex-direction: column;
+        padding: 1rem 0
+      }
+    
+      .layout-footer__bottom p {
+        font-weight: 400
+      }
+    
+      .layout-footer__bottom p a {
+        color: var(--calfresh-red)
+      }
+    
+      .modal:not(:empty) {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        display: flex;
+        place-items: center;
+        background-color: rgba(0, 0, 0, .75)
+      }
+
+      @media (max-width: 47.98rem) {
+  .x-axis-overflow .carousel-container {
+    display: flex;
+    flex-direction: column; /* stack cards vertically */
+    gap: 1.5rem; /* space between cards */
+  }
+
+  .x-axis-overflow .carousel-container > * {
+    flex: 1 1 auto; /* allow cards to expand naturally */
+    margin: 0 auto; /* center cards */
+    max-width: 95%; /* keep cards from stretching full width */
+    padding: 1.5rem; /* internal padding for text */
+    box-sizing: border-box; /* ensure padding doesn’t break width */
+    position: relative; /* for pseudo-element separator */
+  }
+
+  /* Add line between cards using the same light green as other sections */
+  .x-axis-overflow .carousel-container > *:not(:last-child)::after {
+    content: '';
+    display: block;
+    height: 2px; /* thicker line for visibility */
+    background-color: var(--calfresh-light-green); /* default border color */
+    margin: 5rem 0 -3rem 0; /* 5rem above and -3rem below the line for spacing */
+  }
+}
+    </style>
+    <link rel="preload" href="/portals/42/CFF/_nuxt/static/1751906643/eligibility/state.js" as="script">
+    <link rel="preload" href="/portals/42/CFF/_nuxt/static/1751906643/eligibility/payload.js" as="script">
+    <link rel="preload" href="/portals/42/CFF/_nuxt/static/1751906643/manifest.js" as="script">
+    </head>
+  <body>
+    <noscript data-n-head="ssr" data-hid="gtm-noscript" data-pbody="true"><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TB7GQV3&" height="0" width="0" style="display:none;visibility:hidden" title="gtm"></iframe></noscript><div data-server-rendered="true" id="__nuxt"><!----><div id="__layout"><div><a href="#content" data-gtm="skip-to-content" id="skip-to-content" class="cta-button"><span>
+  Skip to content
+</span> <!----></a>
+<header class="layout-header">
+            <div class="layout-header__logo">
+              <!-- Changed to an absolute path for the logo for local file viewing -->
+              <a href="https://calfresh.dss.ca.gov/food/index.html"><img src="./logo.svg" alt="CalFresh Food logo"></a>
+            </div>
+            <div class="layout-header__nav">
+              <nav class="nav" aria-label="Main">
+                <ul id="navigation-list" class="nav__list">
+                  <li class="nav__list-item">
+                    <!-- This is the new, functional dropdown -->
+                    <div class="nav-dropdown">
+                      <button aria-label="Eligibility Menu" aria-haspopup="true" aria-expanded="false" class="nav-dropdown-button" id="eligibility-menu-button" aria-controls="eligibility-menu">
+                        Eligibility
+                        <i class="fa-solid fa-caret-down"></i>
+                      </button>
+                      <ul role="menu" id="eligibility-menu" aria-labelledby="eligibility-menu-button">
+                        <li role="none"><a role="menuitem" href="https://calfresh.dss.ca.gov/food/eligibility/index.html">General Eligibility</a></li>
+                        <li role="none"><a role="menuitem" href="https://calfresh.dss.ca.gov/food/college/index.html">College Students</a></li>
+                        <li role="none"><a role="menuitem" href="https://calfresh.dss.ca.gov/food/immigrants/index.html">Immigrants</a></li>
+                        <li role="none"><a role="menuitem" href="https://calfresh.dss.ca.gov/food/veterans/index.html">Veterans</a></li>
+                        <li role="none"><a role="menuitem" href="https://www.cdss.ca.gov/inforesources/calfresh/abawd">ABAWD</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li class="nav__list-item"><a href="https://calfresh.dss.ca.gov/food/faq/index.html">FAQs</a></li>
+                </ul>
+              </nav>
+            </div>
+            <div class="layout-header__right">
+              <!-- <div class="layout-header__right--lang">
+                <select aria-label="Language selector" class="site-language-select">
+                  <option value="en" selected>English</option>
+                  <option value="es">Español</option>
+                  <option value="vi">Tiếng Việt</option>
+                  <option value="zh">中文</option>
+                </select>
+              </div> -->
+              <div class="layout-header__right--mobile">
+                <button aria-label="Toggle mobile menu"><i class="fa-solid fa-bars"></i></button>
+              </div>
+              <div><a href="https://benefitscal.com/" target="_blank" class="cta-button"><span>Apply Now</span></a></div>
+            </div>
+          </header>
+          <!-- mobile menu container -->
+          <div class="layout-mobile-menu" id="mobileMenu" aria-hidden="true">
+            <div class="layout-mobile-menu__control">
+              <button aria-label="Close mobile menu"><i class="fa-solid fa-times"></i></button>
+            </div>
+            <nav class="layout-mobile-menu__navigation" aria-label="Mobile">
+              <ul>
+                <!-- replicate eligibility submenu items directly for mobile users -->
+                <li role="none"><a role="menuitem" href="https://calfresh.dss.ca.gov/food/eligibility/index.html">General Eligibility</a></li>
+                <li role="none"><a role="menuitem" href="https://calfresh.dss.ca.gov/food/college/index.html">College Students</a></li>
+                <li role="none"><a role="menuitem" href="https://calfresh.dss.ca.gov/food/immigrants/index.html">Immigrants</a></li>
+                <li role="none"><a role="menuitem" href="https://calfresh.dss.ca.gov/food/veterans/index.html">Veterans</a></li>
+                <li role="none"><a role="menuitem" href="https://www.cdss.ca.gov/inforesources/calfresh/abawd">ABAWD</a></li>
+                <li><a href="https://calfresh.dss.ca.gov/food/faq/index.html">FAQs</a></li>
+              </ul>
+            </nav>
+            <div class="layout-mobile-menu__bottom">
+              <!-- language selector could be inserted here -->
+            </div>
+          </div>
+ <main id="content"><section class="site-video-hero"><video autoplay playsinline="" muted loop poster="./eligibility/hero_poster.jpg"><!----> <!----></video> <div class="site-video-hero__overlay"></div> <div class="site-video-hero__copy"><h1>
+      Who is Eligible for CalFresh?
+    </h1> <div class="red"><h2>
+        CalFresh helps millions of California individuals, families, couples, college students, Veterans, and immigrant families. You may be eligible for CalFresh if you are a California resident and meet some core requirements.
+      </h2> <!----></div></div></section> <section class="site-citizenship-section"><div class="container"><img src="./eligibility/salad.png" alt="Bowl of salad being tossed." class="display-mobile mobile-image-padding"> <h2 class="section-title">
+    Citizenship
+  </h2> <div class="site-citizenship-section__status"><div class="site-citizenship-section__status--copy"> <span class="display-desktop"><p>
+          A household may be eligible for CalFresh if at least one member is: 
+        </p> <ul class="calfresh-list"><li>A U.S. citizen</li><li>A lawful permanent resident (LPR) or is applying for LPR renewal</li></ul> <div class="site-citizenship-section__status--disclaimer"><p>Tip: Other types of immigrant statuses are eligible. Reach out to a <a href="https://calfresh.dss.ca.gov/food/officelocator/" target="_blank">County Eligibility Worker</a> to learn more.</p></div></span> <span class="display-mobile"><div class="site-citizenship-section__status--carousel base-carousel x-axis-overflow uses-scroll-snap" data-v-0fe04001><!----> <div class="carousel-x-axis-controls" data-v-0fe04001><!----> <div class="carousel-container" data-v-0fe04001><div class="eligibility-carousel-card"><h5 class="eligibility-carousel-card__question">
+    A household may be eligible for CalFresh if at least one member is: 
+  </h5> <!----> <ul class="calfresh-list"><li>
+      A U.S. citizen
+    </li><li>
+      A lawful permanent resident (LPR) or is applying for LPR renewal
+    </li></ul> <div class="eligibility-citizenship-section__status--disclaimer"><p>Tip: Other types of immigrant statuses are eligible. Reach out to a <a href="https://calfresh.dss.ca.gov/food/officelocator/" target="_blank">County Eligibility Worker</a> to learn more.</p></div></div><div class="eligibility-carousel-card"><h5 class="eligibility-carousel-card__question">
+    What if people in my household have a different citizen or immigration status?
+  </h5> <p>
+    If you’re eligible for CalFresh but another member of your household isn’t, you can still apply for benefits.
+  </p> <!----> <!----></div><div class="eligibility-carousel-card"><h5 class="eligibility-carousel-card__question">
+    Will using CalFresh affect the immigration status of anyone in my household?
+  </h5> <!----> <p>
+      CalFresh does not affect immigration status or make you a public charge.
+    </p> <!----></div></div> <div class="infinite-scroll-container" data-v-0fe04001></div> <!----> <!----></div>  <span aria-hidden="true" data-v-0fe04001></span></div></span></div> <div class="site-citizenship-section__status--image"><img src="./eligibility/salad.png" alt="Bowl of salad being tossed" class="display-desktop"></div></div> <div class="eligibility-citizenship-section__questions display-desktop"><div><h4 class="section-subtitle">
+        What if people in my household have a different citizen or immigration status?
+      </h4> <p>
+        If you’re eligible for CalFresh but another member of your household isn’t, you can still apply for benefits.
+      </p></div> <div><h4 class="section-subtitle">
+        Will using CalFresh affect the immigration status of anyone in my household?
+      </h4> <p>
+          CalFresh does not affect immigration status or make you a public charge.
+      </p></div></div></div></section> <section class="eligibility-income-section"><div class="container"><img src="./eligibility/bread-and-cheese.png" alt="Loaf of bread and slice of cheese"> <h2 class="section-title">
+    Income
+  </h2> <div class="eligibility-income-section__copy"><div><h4 class="section-subtitle">
+        Your income limits are based on your household size.
+      </h4> <ul class="calfresh-list"><li>Your “household” is the number of people you buy and share food with.</li><li>Certain expenses, like childcare, can be deducted to adjust your income.</li><li>If you need help calculating your income, reach out to a CalFresh expert at a <a href="https://calfresh.dss.ca.gov/food/officelocator/" target="_blank">CalFresh County Office</a>.</li></ul></div> <div><table><thead><tr><th>
+              Household Size
+            </th><th>
+              Gross Monthly Income
+            </th></tr></thead> <tbody><tr><td>
+              1
+            </td><td>
+              $2,610
+            </td></tr><tr><td>
+              2
+            </td><td>
+              $3,526
+            </td></tr><tr><td>
+              3
+            </td><td>
+              $4,442
+            </td></tr><tr><td>
+              4
+            </td><td>
+              $5,360
+            </td></tr><tr><td>
+              5
+            </td><td>
+              $6,276
+            </td></tr><tr><td>
+              6
+            </td><td>
+              $7,192
+            </td></tr><tr><td>
+              7
+            </td><td>
+              $8,110
+            </td></tr><tr><td>
+              8
+            </td><td>
+              $9,026
+            </td></tr><tr><td>
+              Each Additional Member
+            </td><td>
+              +$918
+            </td></tr></tbody></table> <div class="eligibility-income-section__copy--disclaimer"><p><a href="https://cdss.ca.gov/Portals/9/Additional-Resources/Letters-and-Notices/ACINs/2025/I-46_25.pdf" target="_blank">CDSS Eligibility and Issuance Requirements</a><br>(Last updated September 2025)</p></div></div></div></div></section> <section class="eligibility-college-section"><div class="container"><div class="eligibility-college-section__image"><img src="./eligibility/ramen.png" alt="Ramen noodles with chopsticks"></div> <div class="eligibility-college-section__copy"><h2 class="section-title">
+      Student Exemption
+    </h2> <p>
+      CalFresh is available for college students, too. If you’re a student, you may have an exemption that allows you to get CalFresh benefits to help pay for groceries.
+    </p> <div><a data-gtm="learn-more" class="cta-button outline light" href="https://calfresh.dss.ca.gov/food/college/index.html"><span>
+        Learn More
+      </span> <!----></a></div></div></div></section></main> <footer class="layout-footer"><div class="layout-footer__top"><div class="layout-footer__top--logo"><img src="./logo.svg" alt="CalFresh Food logo"></div> <div class="layout-footer__top--links"><div><a href="https://www.facebook.com/CalFreshFood/" target="_blank" aria-label="Facebook link"><!----></a> <a href="https://www.instagram.com/calfreshfood/" target="_blank" aria-label="Instagram link"><!----></a> <a href="https://www.youtube.com/@calfreshfood" target="_blank" aria-label="YouTube link"><!----></a></div> <div><a href="https://benefitscal.com/" target="_blank" data-gtm="apply-now" class="cta-button"><span>
+          Apply Now
+        </span> <!----></a></div></div></div> <div class="layout-footer__bottom"><div class="layout-footer__bottom--links"><div><a href="https://calfresh.dss.ca.gov/food/index.html" class="nuxt-link-active">
+          Home
+        </a></div> <div><a href="https://calfresh.dss.ca.gov/food/eligibility/index.html" aria-current="page" class="nuxt-link-exact-active nuxt-link-active">
+          Eligibility
+        </a></div> <div><a href="https://calfresh.dss.ca.gov/food/college/index.html">
+          College Students
+        </a></div> <div><a href="https://calfresh.dss.ca.gov/food/immigrants/index.html">
+          Immigrant Families
+        </a></div> <div><a href="https://calfresh.dss.ca.gov/food/veterans/index.html">
+          Veterans
+        </a></div></div> <div class="layout-footer__bottom--links"><div><a href="https://calfresh.dss.ca.gov/food/faq/index.html">
+          FAQs
+        </a></div><div><a href="https://www.cdss.ca.gov/inforesources/calfresh/abawd">ABAWD</a></div> <div><a href="https://calfresh.dss.ca.gov/food/officelocator/" target="_blank">
+          CalFresh Office Locator
+        </a></div> <div><a href="https://www.ebt.ca.gov/locator/index.html#/locator.page" target="_blank">
+          CalFresh EBT Locator
+        </a></div> <div><a href="https://www.cdss.ca.gov/privacy-policy" target="_blank">
+          Privacy Policy
+        </a></div></div> <div><p>This program is funded by USDA, an equal opportunity provider, employer, and lender.</p> <p>CalFresh is a program of the <a href="https://cdss.ca.gov/inforesources/calfresh-outreach" target="_blank">California Department of Social Services</a>.</p></div></div></footer> 
+<!-- SCRIPT FOR INTERACTIVITY -->
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+        
+        // --- ACCESSIBLE ACCORDION FUNCTIONALITY ---
+        const accordionItems = document.querySelectorAll('.base-accordion-item');
+
+        accordionItems.forEach(item => {
+          const button = item.querySelector('.accordion-item__handle button');
+          const content = item.querySelector('.accordion-item__content');
+          
+          if (button && content) {
+            button.addEventListener('click', () => {
+              const isOpened = item.classList.toggle('is-open');
+              button.setAttribute('aria-expanded', isOpened);
+            });
+          }
+        });
+
+        // --- ACCESSIBLE NAVIGATION DROPDOWN FUNCTIONALITY ---
+        const dropdown = document.querySelector('.nav-dropdown');
+        const dropdownButton = document.getElementById('eligibility-menu-button');
+        const menu = document.getElementById('eligibility-menu');
+        const menuItems = menu ? menu.querySelectorAll('[role="menuitem"]') : [];
+
+        function toggleMenu(open) {
+            if (!dropdown || !dropdownButton) return;
+            const isOpened = dropdown.classList.toggle('is-open', open);
+            dropdownButton.setAttribute('aria-expanded', isOpened);
+            if(isOpened && menuItems.length > 0) {
+                menuItems[0].focus();
+            }
+        }
+
+        if (dropdownButton) {
+            dropdownButton.addEventListener('click', (event) => {
+                event.stopPropagation();
+                toggleMenu();
+            });
+        }
+
+        document.addEventListener('click', (event) => {
+            if (dropdown && !dropdown.contains(event.target)) {
+                toggleMenu(false);
+            }
+        });
+
+        // Keyboard navigation for the dropdown
+        document.addEventListener('keydown', (event) => {
+            if (dropdown && dropdown.classList.contains('is-open') && event.key === 'Escape') {
+                toggleMenu(false);
+                if (dropdownButton) dropdownButton.focus();
+            }
+        });
+        
+        if (menu) {
+            menu.addEventListener('keydown', (e) => {
+                const currentItem = document.activeElement;
+                let currentIndex = Array.from(menuItems).indexOf(currentItem);
+
+                if (e.key === 'ArrowDown') {
+                    e.preventDefault();
+                    const nextIndex = (currentIndex + 1) % menuItems.length;
+                    menuItems[nextIndex].focus();
+                } else if (e.key === 'ArrowUp') {
+                    e.preventDefault();
+                    const prevIndex = (currentIndex - 1 + menuItems.length) % menuItems.length;
+                    menuItems[prevIndex].focus();
+                }
+            });
+        }
+
+        // --- MOBILE MENU TOGGLE FUNCTIONALITY ---
+        const mobileToggle = document.querySelector('.layout-header__right--mobile button');
+        const mobileMenu = document.getElementById('mobileMenu');
+        const bodyEl = document.body;
+
+        console.log('mobileToggle element:', mobileToggle);
+        console.log('mobileMenu element:', mobileMenu);
+
+        if (mobileToggle && mobileMenu) {
+            mobileToggle.addEventListener('click', () => {
+                console.log('hamburger clicked');
+                console.log('before toggle classList:', mobileMenu.classList.toString());
+                const isOpen = mobileMenu.classList.toggle('open');
+                console.log('after toggle classList:', mobileMenu.classList.toString());
+                console.log('menu open state after toggle:', isOpen);
+                bodyEl.classList.toggle('menu-open', isOpen);
+                mobileMenu.setAttribute('aria-hidden', !isOpen);
+                const comp = window.getComputedStyle(mobileMenu);
+                console.log('computed display:', comp.display, 'opacity:', comp.opacity, 'visibility:', comp.visibility, 'height:', comp.height);
+                console.log('mobileMenu rect', mobileMenu.getBoundingClientRect());
+            });
+
+            const closeBtn = mobileMenu.querySelector('.layout-mobile-menu__control button');
+            console.log('close button element:', closeBtn);
+            closeBtn.addEventListener('click', () => {
+                console.log('close button clicked');
+                mobileMenu.classList.remove('open');
+                bodyEl.classList.remove('menu-open');
+                mobileMenu.setAttribute('aria-hidden', 'true');
+                mobileToggle.focus();
+            });
+        } else {
+            console.warn('Mobile toggle/menu elements missing');
+        }
+
+      });
+    </script> 
+  </body>
+</html>

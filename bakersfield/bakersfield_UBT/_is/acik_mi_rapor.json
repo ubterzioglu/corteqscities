@@ -1,0 +1,62 @@
+{
+  "tool": "acik_mi",
+  "acik_mi": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\bakersfield\\_is\\acik_mi",
+  "mekanlar": [
+    "C:\\temp_private\\corteqs\\0000_newera\\uretim\\bakersfield\\_is\\data\\parcalar\\Mekânlar.m1.jsonl",
+    "C:\\temp_private\\corteqs\\0000_newera\\uretim\\bakersfield\\_is\\data\\parcalar\\Mekânlar.m2.jsonl",
+    "C:\\temp_private\\corteqs\\0000_newera\\uretim\\bakersfield\\_is\\data\\parcalar\\Mekânlar.m3.jsonl",
+    "C:\\temp_private\\corteqs\\0000_newera\\uretim\\bakersfield\\_is\\data\\parcalar\\Mekânlar.m4.jsonl"
+  ],
+  "kaynaklar": [
+    "C:\\temp_private\\corteqs\\0000_newera\\uretim\\bakersfield\\_is\\kaynak_dizini.jsonl"
+  ],
+  "min_year": 2025,
+  "mekan": 95,
+  "tarama": {
+    "dosya": 8,
+    "satir": 98,
+    "mekan": 98
+  },
+  "dogrulama": {
+    "dosya": 8,
+    "satir": 62
+  },
+  "durum": {
+    "belirsiz": 54,
+    "açık": 41,
+    "taşındı": 2,
+    "kapalı": 1
+  },
+  "eylem": {
+    "dokunma": 53,
+    "kartta belirt": 6,
+    "sil": 3
+  },
+  "sonuc": {
+    "onay": 44,
+    "ret": 18
+  },
+  "listede_olmayan": {
+    "tarama": 3,
+    "dogrulama": 3
+  },
+  "findings": [
+    {
+      "code": "sil_listede",
+      "entry_id": "bakersfield:akiras-japanese",
+      "where": "yeme_dogrulama.jsonl:19",
+      "message": "'sil' eylemli mekân hâlâ listede (Mekânlar.m1.jsonl:21)"
+    },
+    {
+      "code": "ikinci_kaynak_yok",
+      "entry_id": "bakersfield:akiras-japanese",
+      "where": "yeme_dogrulama.jsonl:19",
+      "message": "'sil' için ikinci bağımsız kaynak yok: gerekce'de kanit_url'den başka alan adlı tam adres (https://…) bekleniyor; tek kaynaklı kapanış insan kararına gider"
+    }
+  ],
+  "by_code": {
+    "ikinci_kaynak_yok": 1,
+    "sil_listede": 1
+  },
+  "out": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\bakersfield\\_is\\acik_mi_rapor.json"
+}

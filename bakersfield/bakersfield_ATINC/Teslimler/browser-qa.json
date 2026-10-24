@@ -1,0 +1,29 @@
+{
+  "checked_at": "2026-10-23T22:02:48.188820+00:00",
+  "url": "http://127.0.0.1:8090/sehir/bakersfield/#kesif",
+  "browser": "Codex in-app browser",
+  "viewport_pixels": [
+    770,
+    916
+  ],
+  "checks": {
+    "weather_loaded": true,
+    "counts_376_120_275": true,
+    "venue_dialog_opens": true,
+    "gallery_opens": true,
+    "gallery_next_1_to_2_of_10": true,
+    "author_source_license_links_visible": true,
+    "hardt_search_one_result": true,
+    "museums_filter_nine_results": true,
+    "filter_restored": true,
+    "photo_warning_overlays_absent": true
+  },
+  "screenshots": [
+    "gallery-qa.png",
+    "explore-qa.png"
+  ],
+  "limitations": [
+    "375px phone viewport was not separately tested.",
+    "Not every gallery item was opened in the browser; all selected source pixels were reviewed separately."
+  ]
+}

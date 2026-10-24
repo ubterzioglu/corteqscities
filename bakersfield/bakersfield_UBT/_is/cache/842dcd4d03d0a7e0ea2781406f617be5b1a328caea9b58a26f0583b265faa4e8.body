@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lunch Menu &mdash; Wool Growers Restaurant &amp; Cocktail Lounge</title>
+<meta name="description" content="Lunch menu for Wool Growers Basque Restaurant & Cocktail Lounge in Bakersfield, California.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,500;9..144,600;9..144,700&family=Archivo:wght@400;500;600&family=Archivo+Expanded:wght@700;800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/style-basque.css">
+</head>
+<body>
+
+<!-- ============ SKIP LINK ============ -->
+<a class="skip-link" href="#main">Skip to content</a>
+
+<!-- ============ HEADER ============ -->
+<header class="site-header" id="siteHeader">
+  <div class="header-inner">
+    <a href="index.html" class="brand">
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 40 40" width="34" height="34">
+          <circle cx="20" cy="20" r="18" fill="none" stroke="currentColor" stroke-width="1.5"/>
+          <path d="M20 8 L20 32 M8 20 L32 20" stroke="currentColor" stroke-width="1.5"/>
+          <circle cx="20" cy="20" r="4" fill="currentColor"/>
+        </svg>
+      </span>
+      <span class="brand-text">Wool Growers</span>
+    </a>
+
+    <nav class="main-nav" id="mainNav" aria-label="Primary">
+      <ul>
+        <li><a href="index.html#story">History</a></li>
+        <li><a href="lunch-menu.html" class="is-current">Lunch Menu</a></li>
+        <li><a href="dinner-menu.html">Dinner Menu</a></li>
+        <li><a href="banquet-menu.html">Banquet Menu</a></li>
+        <li><a href="dinner-to-go.html">Dinner To-Go</a></li>
+        <li><a href="index.html#reserve" class="nav-cta">Reservations</a></li>
+      </ul>
+    </nav>
+
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="mainNav" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ============ PAGE HERO ============ -->
+  <section class="hero hero--page" id="top">
+    <div class="hero-media">
+      <img src="/2023/slider_DSCF4103_lamb-chops2-1024x682.jpg" alt="Table set for lunch at Wool Growers" onerror="this.parentElement.classList.add('img-fallback')">
+    </div>
+    <div class="hero-scrim" aria-hidden="true"></div>
+    <div class="hero-content">
+      <p class="hero-eyebrow">Bakersfield, California &middot; Kern County</p>
+      <h1 class="hero-title">
+        <span class="eus">Bazkaria</span>
+        <span class="hero-title-en">Lunch Menu</span>
+      </h1>
+      <p class="hero-sub">Always satisfying. Entrees served with fries and salad &mdash; add soup, beans, salsa and bread for $5.00, or substitute clam chowder on Fridays for $2.00 per person.</p>
+    </div>
+  </section>
+
+  <!-- ============ PINTXO SKEWER DIVIDER ============ -->
+  <div class="skewer-divider" aria-hidden="true">
+    <svg viewBox="0 0 1200 40" preserveAspectRatio="none">
+      <line x1="0" y1="20" x2="1200" y2="20" stroke="currentColor" stroke-width="1"/>
+      <circle cx="120" cy="20" r="5" fill="currentColor"/>
+      <circle cx="420" cy="20" r="5" fill="currentColor"/>
+      <circle cx="780" cy="20" r="5" fill="currentColor"/>
+      <circle cx="1080" cy="20" r="5" fill="currentColor"/>
+    </svg>
+  </div>
+
+  <!-- ============ ENTREES ============ -->
+  <section class="menu-section" id="entrees">
+    <div class="section-head">
+      <p class="eyebrow">Sartaldeko platerak &middot; From the kitchen</p>
+      <h2>Entrees</h2>
+      <p class="section-note">Served with fries and salad. Add soup, beans, salsa &amp; bread &mdash; $4.00. Substitute clam chowder Fridays &mdash; add $1.00. Items marked * are gluten free.</p>
+    </div>
+
+    <div class="menu-panel is-active">
+      <ul class="menu-list menu-list--two-col">
+        <li class="menu-item">
+          <div class="menu-item-head"><h3>Fried Chicken</h3><span class="menu-price">22.00</span></div>
+        </li>
+        <li class="menu-item">
+          <div class="menu-item-head"><h3>Chicken Brochette</h3><span class="menu-price">25.00</span></div>
+          <p>Garlic butter and wine sauce.</p>
+        </li>
+        <li class="menu-item">
+          <div class="menu-item-head"><h3>Chicken Cordon Bleu</h3><span class="menu-price">25.00</span></div>
+          <p>Madeira sauce.</p>
+        </li>
+        <li class="menu-item">
+          <div class="menu-item-head"><h3>Pork Chops <span class="gf">*</span></h3><span class="menu-price">25.00</span></div>
+        </li>
+        <li class="menu-item">
+          <div class="menu-item-head"><h3>Breaded Veal</h3><span class="menu-price">23.00</span></div>
+          <p>Mushroom sauce.</p>
+        </li>
+        <li class="menu-item">
+          <div class="menu-item-head"><h3>Tri Tip</h3><span class="menu-price">25.00</span></div>
+        </li>
+        <li class="menu-item">
+          <div class="menu-item-head"><h3>Roast Lamb</h3><span class="menu-price">26.00</span></div>
+        </li>
+        <li class="menu-item">
+          <div class="menu-item-head"><h3>Lamb Chops <span class="gf">*</span></h3><span class="menu-price">34.00</span></div>
+        </li>
+        <li class="menu-item">
+          <div class="menu-item-head"><h3>Oxtail Stew</h3><span class="menu-price">31.00</span></div>
+          <p>With carrots.</p>
+        </li>
+        <li class="menu-item">
+          <div class="menu-item-head"><h3>Filet Mignon Steak <span class="gf">*</span></h3><span class="menu-price">Market Price</span></div>
+        </li>
+        <li class="menu-item">
+          <div class="menu-item-head"><h3>New York Steak <span class="gf">*</span></h3><span class="menu-price">35.00</span></div>
+        </li>
+        <li class="menu-item">
+          <div class="menu-item-head"><h3>Scampi</h3><span class="menu-price">25.00</span></div>
+          <p>Lemon butter sauce.</p>
+        </li>
+        <li class="menu-item">
+          <div class="menu-item-head"><h3>Filet of Sole</h3><span class="menu-price">23.00</span></div>
+          <p>Lemon butter or Basquaise.</p>
+        </li>
+        <li class="menu-item">
+          <div class="menu-item-head"><h3>Fried Shrimp</h3><span class="menu-price">25.00</span></div>
+          <p>Cocktail sauce.</p>
+        </li>
+        <li class="menu-item">
+          <div class="menu-item-head"><h3>Shrimp a la Planxa</h3><span class="menu-price">25.00</span></div>
+          <p>Sauteed with mushrooms, garlic &amp; wine on a bed of rice.</p>
+        </li>
+        <li class="menu-item">
+          <div class="menu-item-head"><h3>Salmon <span class="gf">*</span></h3><span class="menu-price">28.00</span></div>
+          <p>Cream, spinach &amp; mushroom sauce.</p>
+        </li>
+        <li class="menu-item">
+          <div class="menu-item-head"><h3>Craig&rsquo;s Vegetarian Penne Pasta</h3><span class="menu-price">21.00</span></div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ============ APPETIZERS ============ -->
+  <section class="story" id="appetizers">
+    <div class="story-grid story-grid--single">
+      <div class="story-text">
+        <p class="eyebrow">Aperitiboak &middot; To start</p>
+        <h2>Appetizers</h2>
+        <ul class="menu-list">
+          <li class="menu-item">
+            <div class="menu-item-head"><h3>Sautéed Mushrooms</h3><span class="menu-price">12.00</span></div>
+          </li>
+          <li class="menu-item">
+            <div class="menu-item-head"><h3>Garlic French Fries</h3><span class="menu-price">12.00</span></div>
+          </li>
+          <li class="menu-item">
+            <div class="menu-item-head"><h3>Jambon de Bayonne</h3><span class="menu-price">20.00</span></div>
+          </li>
+          <li class="menu-item">
+            <div class="menu-item-head"><h3>Escargots Bourguignonne</h3><span class="menu-price">15.00</span></div>
+          </li>
+          <li class="menu-item">
+            <div class="menu-item-head"><h3>JC&rsquo;s Basque Sausage</h3><span class="menu-price">12.00</span></div>
+          </li>
+          <li class="menu-item">
+            <div class="menu-item-head"><h3>Scampi</h3><span class="menu-price">17.00</span></div>
+          </li>
+        </ul>
+        <p class="text-note">Ask your server about our daily lunch specials.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SIDES, SOUPS & DESSERT ============ -->
+  <section class="gallery" id="extras">
+    <div class="section-head">
+      <p class="eyebrow">Gehigarriak &middot; On the side</p>
+      <h2>Sides, Soups &amp; Dessert</h2>
+    </div>
+    <div class="extras-grid">
+      <ul class="menu-list menu-list--compact">
+        <li class="menu-item"><div class="menu-item-head"><h3>Bowl of Garlic</h3><span class="menu-price">3.00</span></div></li>
+        <li class="menu-item"><div class="menu-item-head"><h3>House Wine</h3><span class="menu-price">12.00</span></div></li>
+        <li class="menu-item"><div class="menu-item-head"><h3>Child&rsquo;s Grilled Cheese</h3><span class="menu-price">7.00</span></div></li>
+        <li class="menu-item"><div class="menu-item-head"><h3>Large Plate of Tongue</h3><span class="menu-price">13.00</span></div></li>
+        <li class="menu-item"><div class="menu-item-head"><h3>Small Plate of Tongue</h3><span class="menu-price">9.00</span></div></li>
+        <li class="menu-item"><div class="menu-item-head"><h3>Blue Cheese</h3><span class="menu-price">6.00</span></div></li>
+        <li class="menu-item"><div class="menu-item-head"><h3>Cr&egrave;me Caramel</h3><span class="menu-price">7.00</span></div></li>
+      </ul>
+      <ul class="menu-list menu-list--compact">
+        <li class="menu-item"><div class="menu-item-head"><h3>Soda / Iced Tea</h3><span class="menu-price">5.00</span></div><p>Includes one refill.</p></li>
+        <li class="menu-item"><div class="menu-item-head"><h3>Basque Burnt Cheesecake</h3><span class="menu-price">8.00</span></div></li>
+        <li class="menu-item"><div class="menu-item-head"><h3>Ice Cream or Sherbet</h3><span class="menu-price">5.00</span></div></li>
+        <li class="menu-item"><div class="menu-item-head"><h3>Hard Jack Cheese</h3><span class="menu-price">7.00</span></div></li>
+        <li class="menu-item"><div class="menu-item-head"><h3>Cottage Cheese</h3><span class="menu-price">6.00</span></div></li>
+        <li class="menu-item"><div class="menu-item-head"><h3>Manchego Cheese</h3><span class="menu-price">7.00</span></div></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ============ SOUP, SALAD & SANDWICHES ============ -->
+  <section class="menu-section" id="sandwiches">
+    <div class="section-head">
+      <p class="eyebrow">Zopa, entsalada eta ogitartekoak</p>
+      <h2>Soup, Salad &amp; Sandwiches</h2>
+      <p class="section-note">Ask your server about our daily specials.</p>
+    </div>
+
+    <div class="menu-panel is-active">
+      <ul class="menu-list">
+        <li class="menu-item">
+          <div class="menu-item-head"><h3>Soup &amp; Salad</h3><span class="menu-price">18.00</span></div>
+          <p>Vegetable soup, beans, salsa, bread, green salad and marinated tomatoes.</p>
+        </li>
+        <li class="menu-item">
+          <div class="menu-item-head"><h3>Complete Setup</h3><span class="menu-price">20.00</span></div>
+          <p>Vegetable soup, beans, salsa, bread, green salad, marinated tomatoes, French fries &amp; vegetables.</p>
+        </li>
+      </ul>
+
+      <ul class="menu-list menu-list--two-col" style="margin-top: 2.2rem;">
+        <li class="menu-item"><div class="menu-item-head"><h3>Cheeseburger</h3><span class="menu-price">20.00</span></div></li>
+        <li class="menu-item"><div class="menu-item-head"><h3>Basque Sausage Sandwich</h3><span class="menu-price">20.00</span></div></li>
+        <li class="menu-item"><div class="menu-item-head"><h3>Beef or Lamb Dip</h3><span class="menu-price">20.00</span></div></li>
+        <li class="menu-item"><div class="menu-item-head"><h3>Pickled Tongue Sandwich</h3><span class="menu-price">20.00</span></div></li>
+        <li class="menu-item"><div class="menu-item-head"><h3>Tuna Sandwich</h3><span class="menu-price">19.00</span></div></li>
+        <li class="menu-item"><div class="menu-item-head"><h3>Tri Tip</h3><span class="menu-price">22.00</span></div></li>
+        <li class="menu-item"><div class="menu-item-head"><h3>Grilled Chicken Salad</h3><span class="menu-price">19.00</span></div></li>
+        <li class="menu-item"><div class="menu-item-head"><h3>Grilled Chicken Sandwich</h3><span class="menu-price">19.00</span></div></li>
+        <li class="menu-item">
+          <div class="menu-item-head"><h3>Mary Mean&rsquo;s Special</h3><span class="menu-price">19.00</span></div>
+          <p>Bowl of French onion soup and Caesar salad.</p>
+        </li>
+        <li class="menu-item">
+          <div class="menu-item-head"><h3>Broiled Patty or Chicken Breast</h3><span class="menu-price">19.00</span></div>
+          <p>Served with Basque cottage cheese.</p>
+        </li>
+        <li class="menu-item">
+          <div class="menu-item-head"><h3>Diet Plate</h3><span class="menu-price">18.00</span></div>
+          <p>Broiled hamburger patty or chicken breast served with Basque cottage cheese.</p>
+        </li>
+        <li class="menu-item">
+          <div class="menu-item-head"><h3>Sheepherder&rsquo;s Sandwich</h3><span class="menu-price">21.00</span></div>
+          <p>Beef or lamb on flat bread with an Ortega chile.</p>
+        </li>
+        <li class="menu-item">
+          <div class="menu-item-head"><h3>Patty Melt</h3><span class="menu-price">20.00</span></div>
+          <p>Cheese and grilled onions on flat sourdough bread.</p>
+        </li>
+        <li class="menu-item">
+          <div class="menu-item-head"><h3>Sully Burger</h3><span class="menu-price">21.00</span></div>
+          <p>Cheese, grilled onions and Ortega chile.</p>
+        </li>
+        <li class="menu-item">
+          <div class="menu-item-head"><h3>Pastrami</h3><span class="menu-price">21.00</span></div>
+          <p>Lettuce, tomato, mustard and pickle on a soft roll.</p>
+        </li>
+        <li class="menu-item">
+          <div class="menu-item-head"><h3>Tri Tip Sandwich</h3><span class="menu-price">22.00</span></div>
+          <p>Swiss cheese on a soft roll.</p>
+        </li>
+        <li class="menu-item">
+          <div class="menu-item-head"><h3>JC Sandwich</h3><span class="menu-price">25.00</span></div>
+          <p>Sliced NY steak with cheese and mushrooms on a soft roll.</p>
+        </li>
+      </ul>
+      <p class="section-note" style="margin-top: 2rem;">* = Gluten free item</p>
+    </div>
+  </section>
+
+  <!-- ============ CTA / RESERVE STRIP ============ -->
+  <section class="reserve reserve--strip">
+    <div class="reserve-strip-inner">
+      <h2>Join us for lunch</h2>
+      <p>Wool Growers Restaurant &amp; Cocktail Lounge &middot; Bakersfield, California</p>
+      <div class="hero-actions">
+        <a href="index.html#reserve" class="btn btn-primary">Reserve a table</a>
+        <a href="index.html#menu" class="btn btn-ghost">Today's menu</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <span class="brand-text">Wool Growers</span>
+      <p>Basque Restaurant &amp; Cocktail Lounge, Bakersfield, California.</p>
+    </div>
+    <nav class="footer-nav" aria-label="Footer">
+      <a href="index.html#story">History</a>
+      <a href="lunch-menu.html">Lunch Menu</a>
+      <a href="dinner-menu.html">Dinner Menu</a>
+      <a href="banquet-menu.html">Banquet Menu</a>
+      <a href="dinner-to-go.html">Dinner To-Go</a>
+    </nav>
+    <div class="footer-social">
+      <a href="#" aria-label="Instagram">Instagram</a>
+      <a href="#" aria-label="Facebook">Facebook</a>
+    </div>
+  </div>
+  <p class="footer-legal">&copy; <span id="year"></span> Wool Growers Restaurant &amp; Cocktail Lounge. All rights reserved.</p>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

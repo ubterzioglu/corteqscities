@@ -1,0 +1,50 @@
+{
+  "map": {
+    "https://www.usa.gov/change-address": "bakersfield:kaynak:001",
+    "https://www.dmv.ca.gov/portal/driver-licenses-identification-cards/real-id/what-is-real-id/real-id-info-non-u-s-citizens/": "bakersfield:kaynak:006",
+    "https://www.usps.com/manage/forward.htm": "bakersfield:kaynak:007",
+    "https://www.ssa.gov/number-card": "bakersfield:kaynak:032",
+    "https://www.ssa.gov/ssnumber/ss5doc.htm": "bakersfield:kaynak:033",
+    "https://www.ssa.gov/myaccount/": "bakersfield:kaynak:034",
+    "https://www.dmv.ca.gov/portal/driver-licenses-identification-cards/real-id/real-id-checklist/": "bakersfield:kaynak:035",
+    "https://www.dmv.ca.gov/portal/driver-licenses-identification-cards/identification-id-cards/": "bakersfield:kaynak:036",
+    "https://www.dmv.ca.gov/portal/driver-licenses-identification-cards/driver-licenses-dl/": "bakersfield:kaynak:037",
+    "https://www.usa.gov/real-id": "bakersfield:kaynak:038",
+    "https://www.sos.ca.gov/notary/apostille-faqs": "bakersfield:kaynak:039",
+    "https://www.sos.ca.gov/notary/request-apostille": "bakersfield:kaynak:040",
+    "https://www.sos.ca.gov/business-programs/los-angeles-office": "bakersfield:kaynak:041",
+    "https://www.kerncounty.com/government/departments/assessor-recorder/records/birth-marriage-or-death-certificates": "bakersfield:kaynak:042",
+    "https://www.kerncounty.com/government/departments/assessor-recorder/records/recorder-faq": "bakersfield:kaynak:043",
+    "https://www.kernpublichealth.com/healthy-community/adults-families/birth-death-records": "bakersfield:kaynak:044",
+    "https://www.kernpublichealth.com/i-want-to/contact-us": "bakersfield:kaynak:045"
+  },
+  "rejected": [
+    {
+      "url": "https://losangeles-bk.mfa.gov.tr/Mission/ShowInfoNote/396165",
+      "why": "kopya yok/ince (status None)"
+    }
+  ],
+  "fetch": {
+    "status": "findings",
+    "urls": 18,
+    "fetched": 18,
+    "saved": 17,
+    "failed": 1,
+    "thin_text": 0,
+    "soft_404": 0,
+    "evidence_checked": 0,
+    "evidence_missing": 0,
+    "evidence_stale": 0,
+    "evidence_from_index": 0,
+    "must_contain_unmatched": 0,
+    "non_html": 0,
+    "truncated": 0,
+    "skipped": 0,
+    "index_rows": 18,
+    "index_kept": 0,
+    "requests_made": 15,
+    "cache_hits": 3,
+    "retry_transient": true,
+    "index": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\bakersfield\\_is\\snap_kesif_resmi\\index.jsonl"
+  }
+}

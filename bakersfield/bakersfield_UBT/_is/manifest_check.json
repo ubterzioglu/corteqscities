@@ -1,0 +1,38 @@
+{
+  "tool": "manifest_check",
+  "manifest": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\bakersfield\\manifest.json",
+  "schema": "C:\\temp_private\\corteqs\\0000_newera\\corteqs-skills\\city-pack\\references\\manifest.schema.json",
+  "order": [
+    "intake",
+    "sources",
+    "answers",
+    "places",
+    "photos",
+    "assemble",
+    "deliver"
+  ],
+  "phase": "deliver",
+  "phases": {
+    "intake": "done",
+    "sources": "done",
+    "answers": "done",
+    "places": "done",
+    "photos": "done",
+    "assemble": "done",
+    "deliver": "done"
+  },
+  "phase_log": {
+    "path": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\bakersfield\\_is\\phase_log.jsonl",
+    "found": true,
+    "marks": 14
+  },
+  "xlsx": {
+    "checked": true,
+    "file": "CITY-901_bakersfield_v001.xlsx",
+    "match": true,
+    "sha256": "dcccc42cf0935ab8c8cae361b398ec8fa1717f9251fcfb19d6c42b39aa5a8896"
+  },
+  "findings": [],
+  "by_code": {},
+  "out": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\bakersfield\\_is\\manifest_check.json"
+}
