@@ -40,3 +40,13 @@ $DU = "<corteqs-skills>\deneme_ulke_paketi"
 & $PY $DU\country_apply.py audit-scope $WORK\_is --pack $WORK\_is\ulke_paketi --out $WORK\_is\ulke_denetim_kapsami.json
 ```
 - `pack_merge` her paketin kartlarını kendi hash'iyle doğrular; slug ve kaynak kimliği tekrarını, farklı ülke kodunu reddeder. Testler: `test_pack_merge.py`.
+
+## city-pack ile birlikte kullanım (ilk gerçek şehir: Sevilla) — adım sırası
+Skill'e dokunulmaz; skill zaten `manifest.country_pack` ve yazara `country_cards` girdisini tanır (SKILL.md "Ülke paketi", `agents/yanit-yazari.md`). Bu deneme yalnız dosyaları hazırlar.
+1. Kullanıcı ülke paketini verir: intake'te `manifest.country_pack` = `$WORK\_is\ulke_paketi` (birleşik paket yolu) yazılır; RUN_LOG notunda bu yol geçer.
+2. Intake'ten sonra, YAZARLARDAN ÖNCE (klasörler ve boş `kaynak_dizini/kaynak_taslak` hazırken) `pack_merge` + `country_apply apply` çalıştırılır (yukarıdaki komutlar; `--order-start 9000`, şehir yazarlarının `konu × 100` aralığıyla çakışmaz). `apply` hedef dosya varsa durur: yazarlar başlamadan çalıştırılmalı.
+3. `apply` her konunun `data\parcalar\Yanıtlar.<konu>.jsonl`, `Bağlantılar.<konu>.jsonl`, `claims\<konu>.jsonl` dosyasını ülke+bölge kartlarıyla yazar. Şehir yazarı AYNI dosyayı yazar: yazara bu dosyalar `country_cards` olarak verilir ve talimata eklenir: "Bu dosyadaki satırları SİLME ve değiştirme; kendi kartlarını dosyanın SONUNA ekle; ülke kartıyla aynı konuyu tekrar yazma, şehre özgü olanı ayrı kart yap." (Ülke kartı değişirse `audit-scope` onu tam denetime alır; değişmeyen kart claim denetimini atlar — tasarruf buradan gelir.)
+4. Yazarlardan sonra: `country_apply audit-scope` → `audit_reasons` içinde "kart şehirde yok" çıkarsa bir yazar ülke kartını silmiştir (geri alınır). `skip` kartları claim denetiminden çıkarılır; `audit` kartları ve şehir kartları tam denetimden geçer.
+5. `merge_package` ülke+bölge kartlarıyla bulut ortamında denendi: 105 kart, 2039 claim, 0 bulgu (2026-10-24). Kartlar `featured` 'Hayır' gelir; konu başına en çok 2 öne çıkan kartı şehir seçer.
+6. Ölçüm: ülke/bölge fazı (bir kez) ile şehir fazı ayrı raporlanır; `apply` + `audit-scope` süresi şehir fazına yazılır.
+7. Tarih: `apply` geçerliliği bitmiş kartı kopyalamaz (`stale`); 5.11.2026'dan sonra 6 kira kartı `stale` olur — paket güncellenmeden şehir başlarsa bu kartlar şehir yazarına kalır.

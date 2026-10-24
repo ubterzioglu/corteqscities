@@ -222,6 +222,19 @@ def test_edited_city_card_goes_to_audit(tmp_path):
     assert report["skip"] == ["sevilla:smi"]
 
 
+def test_city_writer_appending_keeps_skip_but_deleting_is_caught(tmp_path):
+    pack, work = make_pack(tmp_path), make_work(tmp_path)
+    apply(work, pack)
+    path = work / "data" / "parcalar" / "Yanıtlar.resmi.jsonl"
+    city_card = {**read_jsonl(path)[0], "entry_id": "sevilla:empadronamiento-ofisi", "slug": "empadronamiento-ofisi"}
+    write_jsonl(path, read_jsonl(path) + [city_card])  # sehir yazari sona ekler
+    report = ca.audit_scope(work, pack, today=TODAY)
+    assert report["audit"] == {} and sorted(report["skip"]) == ["sevilla:nie-basvurusu", "sevilla:smi"]
+    write_jsonl(path, [city_card])  # sehir yazari dosyayi bastan yazar, ulke karti kaybolur
+    report = ca.audit_scope(work, pack, today=TODAY)
+    assert report["audit"] == {"sevilla:nie-basvurusu": "kart şehirde yok"}
+
+
 def test_edited_claim_goes_to_audit(tmp_path):
     pack, work = make_pack(tmp_path), make_work(tmp_path)
     apply(work, pack)
