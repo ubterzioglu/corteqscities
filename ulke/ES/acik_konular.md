@@ -111,3 +111,14 @@ Rapor: `_is/yazar/out/denetim_g2c_canli.md`.
 - ev: RDL 28/2026 ve 29/2026 için 24.10.2026'ya kadar BOE'de convalidación/derogación yayımı yok; congreso.es 403. LAU canlı metni 7.10.2026 sürümüyle kartlarla uyuşuyor. 5.11.2026 sonrası yeniden kontrol.
 - planlama / oturum-vizesi: IPREM 2026 tutarı için birincil kaynak bulunamadı (son açık belirleme 2023: 600 €/ay).
 - Yolcu bagajı muafiyeti için AEAT sayfası canlı doğrulandı (430/300/150 €; tütün/alkol sınırları); ayrı kart önerisi sürüyor.
+
+## Grup 3 (aile, ulaşım, günlük yaşam) — yazılamayanlar (2026-10-24)
+Ayrıntı: `_is/yazar/out/{aile,ulasim,gunluk}/gaps.md` ve `denetim_g3_*.md`.
+- aile / yabanci-lise-diplomasi-ile-universiteye-giris: AB dışı/anlaşmasız sistemler için homologación'un "zorunlu" olduğu canlı UNEDasiss SSS'inde var, kartın kaynaklarında yok; Türkiye'nin UNEDasiss ülke sayfasındaki durumu okunamadı (sayfa oturum istiyor).
+- aile / mec-burslari: 19 Mayıs bitişi yalnız FP/Bachillerato sayfasında ve yılsız; üniversite bursunun başvuru dönemi kaynakta yok (üniversite "cómo solicitarla" sayfası ikinci kaynak yapılırsa yazılabilir). valid_until 2027-05-31.
+- aile: okula kayıt için ikamet izni/denklik şartı kaynakta yok; kayıt takvimi bölgeye göre.
+- ulasim / renfe: Básico/Elige/Prémium iptal-değişiklik oranları yalnız sayfanın gömülü verisinde; düz metinde yok, yazılmadı. Tarjeta Dorada kartta yok.
+- ulasim / otobüs: İspanya'nın 181/2011 md. 2.4 ulusal hat muafiyetini kullanıp kullanmadığı bulunamadı; transportes.gob.es 403.
+- ulasim / ITV: ücret, randevu, yabancı plakalı araç durumu kaynakta yok.
+- gunluk / ab-disi-paket-gumruk-iva: Türkiye-AB Gümrük Birliği nedeniyle 3 € sabit gümrük vergisinin Türkiye çıkışlı mala uygulanıp uygulanmadığı bulunamadı; kartta Türkiye adı geçmiyor. 1 Kasım 2026 öncesi/sonrası ayrı yazıldı.
+- gunluk: belediye bazlı yerel tatil tarihleri, bölgelerin fiili mağaza saatleri, Correos paket alma/posta kodu (JS sayfa), 062/091/092 hatları (2 kaynak sınırı), genel görgü kuralları (resmî kaynak yok).

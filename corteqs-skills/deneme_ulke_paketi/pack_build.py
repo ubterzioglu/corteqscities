@@ -19,7 +19,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import country_apply as ca  # noqa: E402
 
-TOPICS = ("oturum", "resmi", "para", "is", "fatura", "saglik", "ev", "planlama")
+TOPICS = ("oturum", "resmi", "para", "is", "fatura", "saglik", "ev", "planlama", "aile", "ulasim", "gunluk")
 
 
 def rows(path: Path) -> list[dict]:
