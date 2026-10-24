@@ -1,6 +1,7 @@
 """Yazar ciktisindan ulke paketini kurar (ROOT\\ulke\\<ISO>): kartlar, claim'ler, baglantilar, kullanilan kaynaklar, pack.json.
 
-Kullanim: pack_build.py <ES klasoru> --country ES --version 1 [--built YYYY-AA-GG]
+Kullanim: pack_build.py <ES klasoru> --country ES --version 1 [--built YYYY-AA-GG] [--topics a,b] [--region ad]
+Bolge paketi (ROOT\\ulke\\ES\\bolge\\<ad>) ayni duzende kurulur: --topics yalniz yazilan konular, --region pack.json'a yazilir.
 Girdi: <ES>\\_is\\yazar\\out\\<konu>\\ (Yanıtlar/Bağlantılar/claims/valid_until.json), <ES>\\_is\\kaynak_dizini.jsonl.
 Cikti (her kosuda bastan yazilir; _is'e dokunulmaz): Yanıtlar.ulusal.jsonl, Bağlantılar.ulusal.jsonl, claims\\ulusal.jsonl,
 kaynak_dizini.jsonl + kaynaklar\\ (yalniz kartlarda kullanilan kaynaklarin metin ve html kopyasi), pack.json.
@@ -31,12 +32,13 @@ def write(path: Path, items: list[dict]) -> None:
     path.write_text("".join(json.dumps(r, ensure_ascii=False) + "\n" for r in items), encoding="utf-8", newline="\n")
 
 
-def build(es: Path, country: str, version: int, built: str) -> dict:
+def build(es: Path, country: str, version: int, built: str, topics: tuple[str, ...] = TOPICS,
+          region: str | None = None) -> dict:
     work = es / "_is"
     out = work / "yazar" / "out"
     index = {r["source_id"]: r for r in rows(work / "kaynak_dizini.jsonl")}
     cards, actions, claims, valid = [], [], [], {}
-    for topic in TOPICS:
+    for topic in topics:
         cards += rows(out / topic / f"Yanıtlar.{topic}.jsonl")
         actions += rows(out / topic / f"Bağlantılar.{topic}.jsonl")
         claims += rows(out / topic / f"claims.{topic}.jsonl")
@@ -75,7 +77,8 @@ def build(es: Path, country: str, version: int, built: str) -> dict:
     write(es / ca.ACTIONS_FILE, actions)
     write(es / ca.CLAIMS_FILE, claims)
     write(es / "kaynak_dizini.jsonl", pack_sources)
-    meta = {"country": country, "version": version, "built": built, "cards": meta_cards}
+    meta = {"country": country, "version": version, "built": built, **({"region": region} if region else {}),
+            "cards": meta_cards}
     (es / ca.PACK_FILE).write_text(json.dumps(meta, ensure_ascii=False, indent=1), encoding="utf-8")
     return {"cards": len(cards), "claims": len(claims), "actions": len(actions), "sources": len(pack_sources),
             "dated_cards": sum(1 for v in meta_cards.values() if v["valid_until"])}
@@ -87,9 +90,12 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--country", required=True)
     parser.add_argument("--version", type=int, required=True)
     parser.add_argument("--built", default=dt.date.today().isoformat())
+    parser.add_argument("--topics", help="virgulle ayrilmis konu listesi (varsayilan: TOPICS)")
+    parser.add_argument("--region", help="bolge paketi adi (pack.json'a yazilir)")
     args = parser.parse_args(argv)
     try:
-        print(json.dumps(build(args.es, args.country, args.version, args.built), ensure_ascii=False))
+        topics = tuple(t.strip() for t in args.topics.split(",") if t.strip()) if args.topics else TOPICS
+        print(json.dumps(build(args.es, args.country, args.version, args.built, topics, args.region), ensure_ascii=False))
     except (ca.UsageError, OSError, KeyError) as error:
         print(f"HATA: {error}", file=sys.stderr)
         return 2
