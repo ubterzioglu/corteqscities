@@ -102,3 +102,12 @@ Süreç: kaynak keşfi → yazar → bağımsız denetim → düzeltme editörü
 - planlama / ab-disindan-evcil-hayvanla-ispanyaya-giris: "2026/636" sayılı daha yeni düzenleme ve Ek II'nin güncelliği kaynak 105'te yok (yazılmadı); 0,5 UI/ml, 3 ay, 7 ay kuralı kaynakta yalnız İspanya'ya dönüş bölümünde var, AB dışından ilk giriş için ayrıca doğrulayan kaynak yok.
 - planlama / ispanya-para-birimi-euro-ve-resmi-dil: euro banknotlar ve "İspanya'nın para birimi euro" cümlesi kaynaklarda doğrudan yok.
 - planlama / ispanya-resmi-saat-ve-yaz-saati-kurali: Ceuta/Melilla saati ve 2026 yaz saati bitiş tarihi (25 Ekim 2026) kaynakta yok.
+
+## G2c canlı kontrolden kalanlar (2026-10-24)
+Rapor: `_is/yazar/out/denetim_g2c_canli.md`.
+- planlama / ab-disindan-evcil-hayvanla-ispanyaya-giris: kart 2026/131 (es:kaynak:111) ile düzeltildi. Türkiye'nin 2026/636 Ek I ve Ek II listelerinde OLMADIĞI denetçi tarafından okundu, ama "listede yok" birebir alıntılanamadığı için kartta koşullu yazıldı. AEAT sayfası (23.9.2026) hâlâ 577/2013'e atıf yapıyor. 0,5 UI/ml ve 3 ay koşulu 2020/692 Ek XXI'de; kartta yalnız AEAT'in "dönüş" bölümünden. mapa.gob.es açılmadı.
+- planlama / ilk-gunlerde-nuss-ve-temel-odeme-hesabi: "Türk vatandaşı olarak NIE" eki geri alındı (kaynak 107'de yok; kart 2 kaynak sınırında). Destekleyen resmî kaynaklar bulundu: LO 4/2015 md. 8 (BOE-A-2015-3442), RD 1553/2005 (BOE-A-2005-21163), Policía NIE sayfası. Ayrı bir kimlik kartında kullanılabilir.
+- saglik / kamu-saglik-sistemine-erisim-hak-sahipleri: convenio especial koşulları (1 yıl ikamet, padrón, başka güvence olmaması; 60 €/157 €) RD 576/2013 md. 3'te bulundu (BOE-A-2013-8190); karta eklenmedi (kaynak sınırı), ayrı kart ya da kaynak değişimi gerekir.
+- ev: RDL 28/2026 ve 29/2026 için 24.10.2026'ya kadar BOE'de convalidación/derogación yayımı yok; congreso.es 403. LAU canlı metni 7.10.2026 sürümüyle kartlarla uyuşuyor. 5.11.2026 sonrası yeniden kontrol.
+- planlama / oturum-vizesi: IPREM 2026 tutarı için birincil kaynak bulunamadı (son açık belirleme 2023: 600 €/ay).
+- Yolcu bagajı muafiyeti için AEAT sayfası canlı doğrulandı (430/300/150 €; tütün/alkol sınırları); ayrı kart önerisi sürüyor.
