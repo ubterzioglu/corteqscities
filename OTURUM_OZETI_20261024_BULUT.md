@@ -3,7 +3,7 @@
 Önceki belgeler: `OTURUM_OZETI_20261024.md`, `OTURUM_OZETI_20261024_ISPANYA_PAKETI.md`. Bu belge onların devamıdır. Bu iş Linux bulut oturumunda yapıldı.
 
 ## Sonuç
-- Paket `ulke/ES/` sürüm 7: 95 kart, 1898 claim, 160 bağlantı, 126 kaynak, 17 tarihli kart. 11 konunun hepsinde `pack_check` temiz. Sahte Sevilla klasöründe `country_apply apply` (95 kart) ve `audit-scope` (95 atla) çalıştı; `test_country_apply.py` 16/16.
+- Paket `ulke/ES/` sürüm 9: 96 kart, 1913 claim, 161 bağlantı, 129 kaynak, 17 tarihli kart; Endülüs bölge paketi v2 (9 kart). Ayrıntı aşağıda.
 - `pack_build.py` `TOPICS` listesine `aile`, `ulasim`, `gunluk` eklendi (tek satır). Başka araç/skill dosyasına dokunulmadı.
 
 ## Grup 2 (sağlık, ev, planlama) — v5
