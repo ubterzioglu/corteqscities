@@ -1,0 +1,1134 @@
+{
+  "tool": "text_quality",
+  "workbook": "CITY-039_eindhoven_v001.xlsx",
+  "params": {
+    "min_cluster": 3,
+    "near": 0.9
+  },
+  "summary": {
+    "exact_clusters": 13,
+    "near_clusters": 9,
+    "template_clusters": 8,
+    "shared_steps": 0,
+    "placeholders": 0,
+    "filler": 0,
+    "evasive": 1,
+    "without_action": 0,
+    "visual_json_errors": 0,
+    "caption_is_title": 0,
+    "hedge_cards": 2,
+    "hedge_share": 0.0049,
+    "exact_records": 26,
+    "short_repeat_groups": 2,
+    "repeated_sentences": 23,
+    "cards_total": 409,
+    "visual_json_empty": 283,
+    "findings": 31
+  },
+  "top_clusters": [
+    {
+      "kind": "template",
+      "sheet": "Fotoğraflar",
+      "field": "modifications",
+      "size": 9,
+      "distinct": 8,
+      "sample": "Wikimedia Commons'taki \"13-06-28-eindhoven-by-RalfR-30.jpg\" (2848×4288 px) özgün dosyasının 1280×1927 px küçültülmüş kop…"
+    },
+    {
+      "kind": "template",
+      "sheet": "Fotoğraflar",
+      "field": "modifications",
+      "size": 9,
+      "distinct": 9,
+      "sample": "Wikimedia Commons'taki \"Speelpark De Splinter (2025) (10).jpg\" (6000×4000 px) özgün dosyasının 1280×853 px küçültülmüş k…"
+    },
+    {
+      "kind": "near",
+      "sheet": "Fotoğraflar",
+      "field": "modifications",
+      "size": 8,
+      "distinct": 8,
+      "sample": "Wikimedia Commons'taki \"Speelpark De Splinter (2025) (10).jpg\" (6000×4000 px) özgün dosyasının 1280×853 px küçültülmüş k…"
+    },
+    {
+      "kind": "template",
+      "sheet": "Fotoğraflar",
+      "field": "modifications",
+      "size": 8,
+      "distinct": 7,
+      "sample": "Wikimedia Commons'taki \"13-06-29-eindhoven-50mm-52.jpg\" (4288×2848 px) özgün dosyasının 1280×850 px küçültülmüş kopyası …"
+    },
+    {
+      "kind": "near",
+      "sheet": "Fotoğraflar",
+      "field": "modifications",
+      "size": 7,
+      "distinct": 6,
+      "sample": "Wikimedia Commons'taki \"13-06-29-eindhoven-50mm-52.jpg\" (4288×2848 px) özgün dosyasının 1280×850 px küçültülmüş kopyası …"
+    }
+  ],
+  "exact_duplicates": [
+    {
+      "sheet": "Fotoğraflar",
+      "field": "modifications",
+      "size": 2,
+      "length": 167,
+      "sample": "Wikimedia Commons'taki \"Uitbreiding Van Abbemuseum.jpg\" (5351×3567 px) özgün dosyasının 1280×853 px küçültülmüş kopyası …",
+      "members": [
+        {
+          "row": 10,
+          "id": "eindhoven:van-abbemuseum"
+        },
+        {
+          "row": 211,
+          "id": "eindhoven:photo:kapak-03"
+        }
+      ]
+    },
+    {
+      "sheet": "Fotoğraflar",
+      "field": "modifications",
+      "size": 2,
+      "length": 167,
+      "sample": "Wikimedia Commons'taki \"13-06-29-eindhoven-50mm-04.jpg\" (4288×2848 px) özgün dosyasının 1280×850 px küçültülmüş kopyası …",
+      "members": [
+        {
+          "row": 41,
+          "id": "eindhoven:philips-stadion-psv"
+        },
+        {
+          "row": 214,
+          "id": "eindhoven:photo:kapak-06"
+        }
+      ]
+    },
+    {
+      "sheet": "Fotoğraflar",
+      "field": "modifications",
+      "size": 2,
+      "length": 156,
+      "sample": "Wikimedia Commons'taki \"HenriDunantPark.jpg\" (5234×3473 px) özgün dosyasının 1280×849 px küçültülmüş kopyası indirildi; …",
+      "members": [
+        {
+          "row": 57,
+          "id": "eindhoven:henri-dunantpark"
+        },
+        {
+          "row": 212,
+          "id": "eindhoven:photo:kapak-04"
+        }
+      ]
+    },
+    {
+      "sheet": "Fotoğraflar",
+      "field": "modifications",
+      "size": 2,
+      "length": 181,
+      "sample": "Wikimedia Commons'taki \"Anton loft building in Strip-S - panoramio.jpg\" (4000×2664 px) özgün dosyasının 1280×852 px küçü…",
+      "members": [
+        {
+          "row": 73,
+          "id": "eindhoven:strijp-s"
+        },
+        {
+          "row": 216,
+          "id": "eindhoven:photo:kapak-08"
+        }
+      ]
+    },
+    {
+      "sheet": "Fotoğraflar",
+      "field": "modifications",
+      "size": 2,
+      "length": 161,
+      "sample": "Wikimedia Commons'taki \"Klokgebouw Eindhoven.jpg\" (5059×3373 px) özgün dosyasının 1280×853 px küçültülmüş kopyası indiri…",
+      "members": [
+        {
+          "row": 76,
+          "id": "eindhoven:klokgebouw"
+        },
+        {
+          "row": 210,
+          "id": "eindhoven:photo:kapak-02"
+        }
+      ]
+    },
+    {
+      "sheet": "Fotoğraflar",
+      "field": "modifications",
+      "size": 2,
+      "length": 171,
+      "sample": "Wikimedia Commons'taki \"13-06-28-eindhoven-by-RalfR-16.jpg\" (4288×2848 px) özgün dosyasının 1280×850 px küçültülmüş kopy…",
+      "members": [
+        {
+          "row": 88,
+          "id": "eindhoven:18-septemberplein"
+        },
+        {
+          "row": 209,
+          "id": "eindhoven:photo:kapak-01"
+        }
+      ]
+    },
+    {
+      "sheet": "Fotoğraflar",
+      "field": "modifications",
+      "size": 2,
+      "length": 184,
+      "sample": "Wikimedia Commons'taki \"Centraal Station Eindhoven - Centrum 1803-100.jpg\" (4359×2452 px) özgün dosyasının 1280×720 px k…",
+      "members": [
+        {
+          "row": 90,
+          "id": "eindhoven:eindhoven-centraal"
+        },
+        {
+          "row": 215,
+          "id": "eindhoven:photo:kapak-07"
+        }
+      ]
+    },
+    {
+      "sheet": "Fotoğraflar",
+      "field": "modifications",
+      "size": 2,
+      "length": 168,
+      "sample": "Wikimedia Commons'taki \"De Laak 2012-09-20 15-05-20.jpg\" (2592×1944 px) özgün dosyasının 1280×960 px küçültülmüş kopyası…",
+      "members": [
+        {
+          "row": 93,
+          "id": "eindhoven:huize-de-laak"
+        },
+        {
+          "row": 213,
+          "id": "eindhoven:photo:kapak-05"
+        }
+      ]
+    },
+    {
+      "sheet": "Yanıtlar",
+      "field": "cost",
+      "size": 2,
+      "length": 61,
+      "sample": "Etkinliklerin çoğu ücretsiz veya küçük bir katılım bedeli var.",
+      "members": [
+        {
+          "row": 145,
+          "id": "eindhoven:spor-denemek-yetiskin-ve-55-plus"
+        },
+        {
+          "row": 147,
+          "id": "eindhoven:cocuk-genc-spor-sanat-denemeleri"
+        }
+      ]
+    },
+    {
+      "sheet": "Yanıtlar",
+      "field": "cost",
+      "size": 2,
+      "length": 30,
+      "sample": "18. doğum gününe kadar ücretsiz",
+      "members": [
+        {
+          "row": 271,
+          "id": "eindhoven:cocuk-asilari-rvp"
+        },
+        {
+          "row": 272,
+          "id": "eindhoven:kacirilan-asi-ve-tereddut"
+        }
+      ]
+    },
+    {
+      "sheet": "Yanıtlar",
+      "field": "documents",
+      "size": 2,
+      "length": 57,
+      "sample": "Kira sözleşmesi Kirayı ödediğini gösteren banka dökümleri",
+      "members": [
+        {
+          "row": 44,
+          "id": "eindhoven:huurtoeslag-basvurusu"
+        },
+        {
+          "row": 45,
+          "id": "eindhoven:huurtoeslag-sartlari-ve-varlik-siniri"
+        }
+      ]
+    },
+    {
+      "sheet": "Yanıtlar",
+      "field": "documents",
+      "size": 2,
+      "length": 211,
+      "sample": "Geçerli pasaport veya seyahat belgesi Aile bağını gösteren belge (doğum, evlilik veya kayıtlı partnerlik belgesi) Yasall…",
+      "members": [
+        {
+          "row": 163,
+          "id": "eindhoven:ab-vatandasi-aile-uyesi-kimler-basvurabilir"
+        },
+        {
+          "row": 164,
+          "id": "eindhoven:ab-hukuku-dogrulamasi-basvuru-sureci"
+        }
+      ]
+    },
+    {
+      "sheet": "Yanıtlar",
+      "field": "timing",
+      "size": 2,
+      "length": 103,
+      "sample": "Karar genellikle 8 hafta içinde; gerekirse bir kez 6 hafta uzatılıyor. Eksik belge istenirse süre duruyor.",
+      "members": [
+        {
+          "row": 53,
+          "id": "eindhoven:kamer-kiralama-izni-omgevingsvergunning"
+        },
+        {
+          "row": 54,
+          "id": "eindhoven:konut-bolme-izni-woningsplitsing"
+        }
+      ]
+    }
+  ],
+  "near_duplicates": [
+    {
+      "sheet": "Fotoğraflar",
+      "field": "modifications",
+      "size": 8,
+      "distinct": 8,
+      "min_jaccard": 0.93,
+      "samples": [
+        "Wikimedia Commons'taki \"Speelpark De Splinter (2025) (10).jpg\" (6000×4000 px) özgün dosyasının 1280×853 px küçültülmüş k…",
+        "Wikimedia Commons'taki \"Speelpark De Splinter (2025) (11).jpg\" (6000×4000 px) özgün dosyasının 1280×853 px küçültülmüş k…",
+        "Wikimedia Commons'taki \"Speelpark De Splinter (2025) (12).jpg\" (6000×4000 px) özgün dosyasının 1280×853 px küçültülmüş k…"
+      ],
+      "sample": "Wikimedia Commons'taki \"Speelpark De Splinter (2025) (10).jpg\" (6000×4000 px) özgün dosyasının 1280×853 px küçültülmüş k…",
+      "members": [
+        {
+          "row": 61,
+          "id": "eindhoven:speelpark-de-splinter"
+        },
+        {
+          "row": 62,
+          "id": "eindhoven:speelpark-de-splinter"
+        },
+        {
+          "row": 63,
+          "id": "eindhoven:speelpark-de-splinter"
+        },
+        {
+          "row": 143,
+          "id": "eindhoven:henri-dunantpark"
+        },
+        {
+          "row": 144,
+          "id": "eindhoven:henri-dunantpark"
+        },
+        {
+          "row": 167,
+          "id": "eindhoven:henri-dunantpark"
+        },
+        {
+          "row": 173,
+          "id": "eindhoven:speelpark-de-splinter"
+        },
+        {
+          "row": 189,
+          "id": "eindhoven:speelpark-de-splinter"
+        }
+      ]
+    },
+    {
+      "sheet": "Fotoğraflar",
+      "field": "modifications",
+      "size": 7,
+      "distinct": 6,
+      "min_jaccard": 0.929,
+      "samples": [
+        "Wikimedia Commons'taki \"13-06-29-eindhoven-50mm-52.jpg\" (4288×2848 px) özgün dosyasının 1280×850 px küçültülmüş kopyası …",
+        "Wikimedia Commons'taki \"13-06-29-eindhoven-50mm-53.jpg\" (4288×2848 px) özgün dosyasının 1280×850 px küçültülmüş kopyası …",
+        "Wikimedia Commons'taki \"13-06-29-eindhoven-50mm-04.jpg\" (4288×2848 px) özgün dosyasının 1280×850 px küçültülmüş kopyası …"
+      ],
+      "sample": "Wikimedia Commons'taki \"13-06-29-eindhoven-50mm-52.jpg\" (4288×2848 px) özgün dosyasının 1280×850 px küçültülmüş kopyası …",
+      "members": [
+        {
+          "row": 32,
+          "id": "eindhoven:parktheater-eindhoven"
+        },
+        {
+          "row": 33,
+          "id": "eindhoven:parktheater-eindhoven"
+        },
+        {
+          "row": 41,
+          "id": "eindhoven:philips-stadion-psv"
+        },
+        {
+          "row": 53,
+          "id": "eindhoven:stadswandelpark"
+        },
+        {
+          "row": 141,
+          "id": "eindhoven:philips-stadion-psv"
+        },
+        {
+          "row": 187,
+          "id": "eindhoven:stadswandelpark"
+        },
+        {
+          "row": 214,
+          "id": "eindhoven:photo:kapak-06"
+        }
+      ]
+    },
+    {
+      "sheet": "Fotoğraflar",
+      "field": "modifications",
+      "size": 5,
+      "distinct": 4,
+      "min_jaccard": 0.931,
+      "samples": [
+        "Wikimedia Commons'taki \"13-06-28-eindhoven-by-RalfR-75.jpg\" (4288×2848 px) özgün dosyasının 1280×850 px küçültülmüş kopy…",
+        "Wikimedia Commons'taki \"13-06-28-eindhoven-by-RalfR-10.jpg\" (4288×2848 px) özgün dosyasının 1280×850 px küçültülmüş kopy…",
+        "Wikimedia Commons'taki \"13-06-28-eindhoven-by-RalfR-16.jpg\" (4288×2848 px) özgün dosyasının 1280×850 px küçültülmüş kopy…"
+      ],
+      "sample": "Wikimedia Commons'taki \"13-06-28-eindhoven-by-RalfR-75.jpg\" (4288×2848 px) özgün dosyasının 1280×850 px küçültülmüş kopy…",
+      "members": [
+        {
+          "row": 40,
+          "id": "eindhoven:philips-stadion-psv"
+        },
+        {
+          "row": 87,
+          "id": "eindhoven:18-septemberplein"
+        },
+        {
+          "row": 88,
+          "id": "eindhoven:18-septemberplein"
+        },
+        {
+          "row": 164,
+          "id": "eindhoven:18-septemberplein"
+        },
+        {
+          "row": 209,
+          "id": "eindhoven:photo:kapak-01"
+        }
+      ]
+    },
+    {
+      "sheet": "Fotoğraflar",
+      "field": "modifications",
+      "size": 4,
+      "distinct": 4,
+      "min_jaccard": 0.942,
+      "samples": [
+        "Wikimedia Commons'taki \"Gebouw Museumpark VONK (2026) (1).jpg\" (6000×4000 px) özgün dosyasının 1280×853 px küçültülmüş k…",
+        "Wikimedia Commons'taki \"Gebouw Museumpark VONK (2026) (2).jpg\" (6000×4000 px) özgün dosyasının 1280×853 px küçültülmüş k…",
+        "Wikimedia Commons'taki \"Gebouw Museumpark VONK (2026) (4).jpg\" (6000×4000 px) özgün dosyasının 1280×853 px küçültülmüş k…"
+      ],
+      "sample": "Wikimedia Commons'taki \"Gebouw Museumpark VONK (2026) (1).jpg\" (6000×4000 px) özgün dosyasının 1280×853 px küçültülmüş k…",
+      "members": [
+        {
+          "row": 24,
+          "id": "eindhoven:museumpark-vonk-prehistorisch-dorp"
+        },
+        {
+          "row": 25,
+          "id": "eindhoven:museumpark-vonk-prehistorisch-dorp"
+        },
+        {
+          "row": 26,
+          "id": "eindhoven:museumpark-vonk-prehistorisch-dorp"
+        },
+        {
+          "row": 183,
+          "id": "eindhoven:museumpark-vonk-prehistorisch-dorp"
+        }
+      ]
+    },
+    {
+      "sheet": "Fotoğraflar",
+      "field": "modifications",
+      "size": 3,
+      "distinct": 3,
+      "min_jaccard": 0.931,
+      "samples": [
+        "Wikimedia Commons'taki \"13-06-28-eindhoven-by-RalfR-30.jpg\" (2848×4288 px) özgün dosyasının 1280×1927 px küçültülmüş kop…",
+        "Wikimedia Commons'taki \"13-06-28-eindhoven-by-RalfR-18.jpg\" (2848×4288 px) özgün dosyasının 1280×1927 px küçültülmüş kop…",
+        "Wikimedia Commons'taki \"13-06-28-eindhoven-by-RalfR-60.jpg\" (2848×4288 px) özgün dosyasının 1280×1927 px küçültülmüş kop…"
+      ],
+      "sample": "Wikimedia Commons'taki \"13-06-28-eindhoven-by-RalfR-30.jpg\" (2848×4288 px) özgün dosyasının 1280×1927 px küçültülmüş kop…",
+      "members": [
+        {
+          "row": 12,
+          "id": "eindhoven:philips-museum"
+        },
+        {
+          "row": 89,
+          "id": "eindhoven:18-septemberplein"
+        },
+        {
+          "row": 197,
+          "id": "eindhoven:18-septemberplein"
+        }
+      ]
+    },
+    {
+      "sheet": "Fotoğraflar",
+      "field": "modifications",
+      "size": 3,
+      "distinct": 3,
+      "min_jaccard": 0.913,
+      "samples": [
+        "Wikimedia Commons'taki \"NatLab Strijp S Eindhoven ingang 2.JPG\" (4320×3240 px) özgün dosyasının 1280×960 px küçültülmüş …",
+        "Wikimedia Commons'taki \"NatLab Strijp S Eindhoven ingang.JPG\" (4320×3240 px) özgün dosyasının 1280×960 px küçültülmüş ko…",
+        "Wikimedia Commons'taki \"NatLab Strijp S Eindhoven.JPG\" (4320×3240 px) özgün dosyasının 1280×960 px küçültülmüş kopyası i…"
+      ],
+      "sample": "Wikimedia Commons'taki \"NatLab Strijp S Eindhoven ingang 2.JPG\" (4320×3240 px) özgün dosyasının 1280×960 px küçültülmüş …",
+      "members": [
+        {
+          "row": 28,
+          "id": "eindhoven:baltan-laboratories"
+        },
+        {
+          "row": 29,
+          "id": "eindhoven:baltan-laboratories"
+        },
+        {
+          "row": 139,
+          "id": "eindhoven:natlab"
+        }
+      ]
+    },
+    {
+      "sheet": "Fotoğraflar",
+      "field": "modifications",
+      "size": 3,
+      "distinct": 3,
+      "min_jaccard": 0.944,
+      "samples": [
+        "Wikimedia Commons'taki \"0772 WN011 Stadswandelpark Eindhoven-2.jpg\" (6000×4000 px) özgün dosyasının 1280×853 px küçültül…",
+        "Wikimedia Commons'taki \"0772 WN011 Stadswandelpark Eindhoven-3.jpg\" (6000×4000 px) özgün dosyasının 1280×853 px küçültül…",
+        "Wikimedia Commons'taki \"0772 WN011 Stadswandelpark Eindhoven.jpg\" (6000×4000 px) özgün dosyasının 1280×853 px küçültülmü…"
+      ],
+      "sample": "Wikimedia Commons'taki \"0772 WN011 Stadswandelpark Eindhoven-2.jpg\" (6000×4000 px) özgün dosyasının 1280×853 px küçültül…",
+      "members": [
+        {
+          "row": 51,
+          "id": "eindhoven:stadswandelpark"
+        },
+        {
+          "row": 52,
+          "id": "eindhoven:stadswandelpark"
+        },
+        {
+          "row": 172,
+          "id": "eindhoven:stadswandelpark"
+        }
+      ]
+    },
+    {
+      "sheet": "Fotoğraflar",
+      "field": "modifications",
+      "size": 3,
+      "distinct": 3,
+      "min_jaccard": 0.872,
+      "samples": [
+        "Wikimedia Commons'taki \"Tongelreeppad 1, Eindhoven achterzijde GM.JPG\" (4320×3240 px) özgün dosyasının 1280×960 px küçül…",
+        "Wikimedia Commons'taki \"Tongelreeppad 1, Eindhoven voorzijde GM (2).JPG\" (4320×3240 px) özgün dosyasının 1280×960 px küç…",
+        "Wikimedia Commons'taki \"Tongelreeppad 1, Eindhoven voorzijde GM.JPG\" (4320×3240 px) özgün dosyasının 1280×960 px küçültü…"
+      ],
+      "sample": "Wikimedia Commons'taki \"Tongelreeppad 1, Eindhoven achterzijde GM.JPG\" (4320×3240 px) özgün dosyasının 1280×960 px küçül…",
+      "members": [
+        {
+          "row": 64,
+          "id": "eindhoven:genneper-hoeve"
+        },
+        {
+          "row": 65,
+          "id": "eindhoven:genneper-hoeve"
+        },
+        {
+          "row": 66,
+          "id": "eindhoven:genneper-hoeve"
+        }
+      ]
+    },
+    {
+      "sheet": "Fotoğraflar",
+      "field": "modifications",
+      "size": 3,
+      "distinct": 3,
+      "min_jaccard": 0.929,
+      "samples": [
+        "Wikimedia Commons'taki \"Stratumseind 14, Eindhoven.JPG\" (3240×4320 px) özgün dosyasının 1280×1707 px küçültülmüş kopyası…",
+        "Wikimedia Commons'taki \"Stratumseind 20, Eindhoven.JPG\" (3240×4320 px) özgün dosyasının 1280×1707 px küçültülmüş kopyası…",
+        "Wikimedia Commons'taki \"Stratumseind 22, Eindhoven.JPG\" (3240×4320 px) özgün dosyasının 1280×1707 px küçültülmüş kopyası…"
+      ],
+      "sample": "Wikimedia Commons'taki \"Stratumseind 14, Eindhoven.JPG\" (3240×4320 px) özgün dosyasının 1280×1707 px küçültülmüş kopyası…",
+      "members": [
+        {
+          "row": 68,
+          "id": "eindhoven:stratumseind"
+        },
+        {
+          "row": 190,
+          "id": "eindhoven:stratumseind"
+        },
+        {
+          "row": 191,
+          "id": "eindhoven:stratumseind"
+        }
+      ]
+    }
+  ],
+  "template_duplicates": [
+    {
+      "sheet": "Fotoğraflar",
+      "field": "modifications",
+      "size": 9,
+      "distinct": 8,
+      "template": "wikimedia ¤ taki 0 0 0 ¤ by ralfr 0 jpg 0 0 px ozgun dosyasinin 0 0 px kucultulmus kopyasi indirildi kirpma rotus ve ren…",
+      "sample": "Wikimedia Commons'taki \"13-06-28-eindhoven-by-RalfR-30.jpg\" (2848×4288 px) özgün dosyasının 1280×1927 px küçültülmüş kop…",
+      "members": [
+        {
+          "row": 12,
+          "id": "eindhoven:philips-museum"
+        },
+        {
+          "row": 40,
+          "id": "eindhoven:philips-stadion-psv"
+        },
+        {
+          "row": 87,
+          "id": "eindhoven:18-septemberplein"
+        },
+        {
+          "row": 88,
+          "id": "eindhoven:18-septemberplein"
+        },
+        {
+          "row": 89,
+          "id": "eindhoven:18-septemberplein"
+        },
+        {
+          "row": 104,
+          "id": "eindhoven:centrum-bolgesi"
+        },
+        {
+          "row": 164,
+          "id": "eindhoven:18-septemberplein"
+        },
+        {
+          "row": 197,
+          "id": "eindhoven:18-septemberplein"
+        },
+        {
+          "row": 209,
+          "id": "eindhoven:photo:kapak-01"
+        }
+      ]
+    },
+    {
+      "sheet": "Fotoğraflar",
+      "field": "modifications",
+      "size": 9,
+      "distinct": 9,
+      "template": "wikimedia ¤ taki speelpark de splinter 0 0 jpg 0 0 px ozgun dosyasinin 0 0 px kucultulmus kopyasi indirildi kirpma rotus…",
+      "sample": "Wikimedia Commons'taki \"Speelpark De Splinter (2025) (10).jpg\" (6000×4000 px) özgün dosyasının 1280×853 px küçültülmüş k…",
+      "members": [
+        {
+          "row": 61,
+          "id": "eindhoven:speelpark-de-splinter"
+        },
+        {
+          "row": 62,
+          "id": "eindhoven:speelpark-de-splinter"
+        },
+        {
+          "row": 63,
+          "id": "eindhoven:speelpark-de-splinter"
+        },
+        {
+          "row": 143,
+          "id": "eindhoven:henri-dunantpark"
+        },
+        {
+          "row": 144,
+          "id": "eindhoven:henri-dunantpark"
+        },
+        {
+          "row": 167,
+          "id": "eindhoven:henri-dunantpark"
+        },
+        {
+          "row": 173,
+          "id": "eindhoven:speelpark-de-splinter"
+        },
+        {
+          "row": 188,
+          "id": "eindhoven:henri-dunantpark"
+        },
+        {
+          "row": 189,
+          "id": "eindhoven:speelpark-de-splinter"
+        }
+      ]
+    },
+    {
+      "sheet": "Fotoğraflar",
+      "field": "modifications",
+      "size": 8,
+      "distinct": 7,
+      "template": "wikimedia ¤ taki 0 0 0 ¤ 0mm 0 jpg 0 0 px ozgun dosyasinin 0 0 px kucultulmus kopyasi indirildi kirpma rotus ve renk duz…",
+      "sample": "Wikimedia Commons'taki \"13-06-29-eindhoven-50mm-52.jpg\" (4288×2848 px) özgün dosyasının 1280×850 px küçültülmüş kopyası …",
+      "members": [
+        {
+          "row": 32,
+          "id": "eindhoven:parktheater-eindhoven"
+        },
+        {
+          "row": 33,
+          "id": "eindhoven:parktheater-eindhoven"
+        },
+        {
+          "row": 36,
+          "id": "eindhoven:pathe-eindhoven"
+        },
+        {
+          "row": 41,
+          "id": "eindhoven:philips-stadion-psv"
+        },
+        {
+          "row": 53,
+          "id": "eindhoven:stadswandelpark"
+        },
+        {
+          "row": 141,
+          "id": "eindhoven:philips-stadion-psv"
+        },
+        {
+          "row": 187,
+          "id": "eindhoven:stadswandelpark"
+        },
+        {
+          "row": 214,
+          "id": "eindhoven:photo:kapak-06"
+        }
+      ]
+    },
+    {
+      "sheet": "Fotoğraflar",
+      "field": "modifications",
+      "size": 4,
+      "distinct": 4,
+      "template": "wikimedia ¤ taki gebouw museumpark vonk 0 0 jpg 0 0 px ozgun dosyasinin 0 0 px kucultulmus kopyasi indirildi kirpma rotu…",
+      "sample": "Wikimedia Commons'taki \"Gebouw Museumpark VONK (2026) (1).jpg\" (6000×4000 px) özgün dosyasının 1280×853 px küçültülmüş k…",
+      "members": [
+        {
+          "row": 24,
+          "id": "eindhoven:museumpark-vonk-prehistorisch-dorp"
+        },
+        {
+          "row": 25,
+          "id": "eindhoven:museumpark-vonk-prehistorisch-dorp"
+        },
+        {
+          "row": 26,
+          "id": "eindhoven:museumpark-vonk-prehistorisch-dorp"
+        },
+        {
+          "row": 183,
+          "id": "eindhoven:museumpark-vonk-prehistorisch-dorp"
+        }
+      ]
+    },
+    {
+      "sheet": "Fotoğraflar",
+      "field": "modifications",
+      "size": 3,
+      "distinct": 3,
+      "template": "wikimedia ¤ taki stratumseind 0 ¤ jpg 0 0 px ozgun dosyasinin 0 0 px kucultulmus kopyasi indirildi kirpma rotus ve renk …",
+      "sample": "Wikimedia Commons'taki \"Stratumseind 14, Eindhoven.JPG\" (3240×4320 px) özgün dosyasının 1280×1707 px küçültülmüş kopyası…",
+      "members": [
+        {
+          "row": 68,
+          "id": "eindhoven:stratumseind"
+        },
+        {
+          "row": 190,
+          "id": "eindhoven:stratumseind"
+        },
+        {
+          "row": 191,
+          "id": "eindhoven:stratumseind"
+        }
+      ]
+    },
+    {
+      "sheet": "Fotoğraflar",
+      "field": "modifications",
+      "size": 3,
+      "distinct": 2,
+      "template": "wikimedia ¤ taki centraal station ¤ centrum 0 0 jpg 0 0 px ozgun dosyasinin 0 0 px kucultulmus kopyasi indirildi kirpma …",
+      "sample": "Wikimedia Commons'taki \"Centraal Station Eindhoven - Centrum 1803-100.jpg\" (4359×2452 px) özgün dosyasının 1280×720 px k…",
+      "members": [
+        {
+          "row": 90,
+          "id": "eindhoven:eindhoven-centraal"
+        },
+        {
+          "row": 91,
+          "id": "eindhoven:eindhoven-centraal"
+        },
+        {
+          "row": 215,
+          "id": "eindhoven:photo:kapak-07"
+        }
+      ]
+    },
+    {
+      "sheet": "Fotoğraflar",
+      "field": "modifications",
+      "size": 3,
+      "distinct": 3,
+      "template": "wikimedia ¤ taki daf museum ¤ 0 jpg 0 0 px ozgun dosyasinin 0 0 px kucultulmus kopyasi indirildi kirpma rotus ve renk du…",
+      "sample": "Wikimedia Commons'taki \"DAF Museum, Eindhoven (16061771014).jpg\" (6000×4000 px) özgün dosyasının 1280×853 px küçültülmüş…",
+      "members": [
+        {
+          "row": 135,
+          "id": "eindhoven:daf-museum"
+        },
+        {
+          "row": 165,
+          "id": "eindhoven:daf-museum"
+        },
+        {
+          "row": 166,
+          "id": "eindhoven:daf-museum"
+        }
+      ]
+    },
+    {
+      "sheet": "Fotoğraflar",
+      "field": "modifications",
+      "size": 3,
+      "distinct": 3,
+      "template": "wikimedia ¤ taki ¤ centrum 0 jpg 0 0 px ozgun dosyasinin 0 0 px kucultulmus kopyasi indirildi kirpma rotus ve renk duzel…",
+      "sample": "Wikimedia Commons'taki \"Eindhoven Centrum 014.JPG\" (4000×3000 px) özgün dosyasının 1280×960 px küçültülmüş kopyası indir…",
+      "members": [
+        {
+          "row": 155,
+          "id": "eindhoven:centrum-bolgesi"
+        },
+        {
+          "row": 171,
+          "id": "eindhoven:centrum-bolgesi"
+        },
+        {
+          "row": 201,
+          "id": "eindhoven:centrum-bolgesi"
+        }
+      ]
+    }
+  ],
+  "short_repeats": [
+    {
+      "sheet": "Yanıtlar",
+      "field": "documents",
+      "value": "DigiD",
+      "size": 4
+    },
+    {
+      "sheet": "Yanıtlar",
+      "field": "cost",
+      "value": "Ücretsiz",
+      "size": 3
+    }
+  ],
+  "repeated_sentences": [
+    {
+      "sheet": "Fotoğraflar",
+      "sentence": "kirpma rotus ve renk duzeltmesi yapilmadi",
+      "records": 190,
+      "fields": [
+        "modifications"
+      ],
+      "sample": "kırpma, rötuş ve renk düzeltmesi yapılmadı"
+    },
+    {
+      "sheet": "Fotoğraflar",
+      "sentence": "jpg 6000 4000 px ozgun dosyasinin 1280 853 px kucultulmus kopyasi indirildi",
+      "records": 35,
+      "fields": [
+        "modifications"
+      ],
+      "sample": "jpg\" (6000×4000 px) özgün dosyasının 1280×853 px küçültülmüş kopyası indirildi"
+    },
+    {
+      "sheet": "Fotoğraflar",
+      "sentence": "jpg 4320 3240 px ozgun dosyasinin 1280 960 px kucultulmus kopyasi indirildi",
+      "records": 21,
+      "fields": [
+        "modifications"
+      ],
+      "sample": "JPG\" (4320×3240 px) özgün dosyasının 1280×960 px küçültülmüş kopyası indirildi"
+    },
+    {
+      "sheet": "Fotoğraflar",
+      "sentence": "jpg 4288 2848 px ozgun dosyasinin 1280 850 px kucultulmus kopyasi indirildi",
+      "records": 12,
+      "fields": [
+        "modifications"
+      ],
+      "sample": "jpg\" (4288×2848 px) özgün dosyasının 1280×850 px küçültülmüş kopyası indirildi"
+    },
+    {
+      "sheet": "Yanıtlar",
+      "sentence": "tutarlar her 1 ocak ta degisir",
+      "records": 11,
+      "fields": [
+        "cost"
+      ],
+      "sample": "tutarlar her 1 Ocak'ta değişir)"
+    },
+    {
+      "sheet": "Fotoğraflar",
+      "sentence": "jpg 4000 3000 px ozgun dosyasinin 1280 960 px kucultulmus kopyasi indirildi",
+      "records": 8,
+      "fields": [
+        "modifications"
+      ],
+      "sample": "JPG\" (4000×3000 px) özgün dosyasının 1280×960 px küçültülmüş kopyası indirildi"
+    },
+    {
+      "sheet": "Fotoğraflar",
+      "sentence": "jpg 3240 4320 px ozgun dosyasinin 1280 1707 px kucultulmus kopyasi indirildi",
+      "records": 6,
+      "fields": [
+        "modifications"
+      ],
+      "sample": "JPG\" (3240×4320 px) özgün dosyasının 1280×1707 px küçültülmüş kopyası indirildi"
+    },
+    {
+      "sheet": "Fotoğraflar",
+      "sentence": "jpg ozgun dosyasi 991 745 px degistirilmeden indirildi",
+      "records": 6,
+      "fields": [
+        "modifications"
+      ],
+      "sample": "jpg\" özgün dosyası (991×745 px) değiştirilmeden indirildi"
+    },
+    {
+      "sheet": "Fotoğraflar",
+      "sentence": "jpg 2848 4288 px ozgun dosyasinin 1280 1927 px kucultulmus kopyasi indirildi",
+      "records": 4,
+      "fields": [
+        "modifications"
+      ],
+      "sample": "jpg\" (2848×4288 px) özgün dosyasının 1280×1927 px küçültülmüş kopyası indirildi"
+    },
+    {
+      "sheet": "Fotoğraflar",
+      "sentence": "jpg 3008 2000 px ozgun dosyasinin 1280 851 px kucultulmus kopyasi indirildi",
+      "records": 4,
+      "fields": [
+        "modifications"
+      ],
+      "sample": "jpg\" (3008×2000 px) özgün dosyasının 1280×851 px küçültülmüş kopyası indirildi"
+    },
+    {
+      "sheet": "Fotoğraflar",
+      "sentence": "jpg 3968 2232 px ozgun dosyasinin 1280 720 px kucultulmus kopyasi indirildi",
+      "records": 4,
+      "fields": [
+        "modifications"
+      ],
+      "sample": "JPG\" (3968×2232 px) özgün dosyasının 1280×720 px küçültülmüş kopyası indirildi"
+    },
+    {
+      "sheet": "Fotoğraflar",
+      "sentence": "jpg 4032 3024 px ozgun dosyasinin 1280 960 px kucultulmus kopyasi indirildi",
+      "records": 4,
+      "fields": [
+        "modifications"
+      ],
+      "sample": "jpg\" (4032×3024 px) özgün dosyasının 1280×960 px küçültülmüş kopyası indirildi"
+    },
+    {
+      "sheet": "Yanıtlar",
+      "sentence": "ortaklik anlasmasi kapsamindaki turk vatandaslari icin 85 euro ind ucret sayfasi 22 ekim 2026 da okundu",
+      "records": 4,
+      "fields": [
+        "cost"
+      ],
+      "sample": "Ortaklık Anlaşması kapsamındaki Türk vatandaşları için 85 euro (IND ücret sayfası, 22 Ekim 2026'da okundu"
+    },
+    {
+      "sheet": "Yanıtlar",
+      "sentence": "yasallastirilmis ve hollandaca ingilizce fransizca ya da almanca ya cevrilmis yabanci resmi belgeler",
+      "records": 4,
+      "fields": [
+        "documents"
+      ],
+      "sample": "Yasallaştırılmış ve Hollandaca, İngilizce, Fransızca ya da Almanca'ya çevrilmiş yabancı resmi belgeler"
+    },
+    {
+      "sheet": "Fotoğraflar",
+      "sentence": "jpg 3264 2448 px ozgun dosyasinin 1280 960 px kucultulmus kopyasi indirildi",
+      "records": 3,
+      "fields": [
+        "modifications"
+      ],
+      "sample": "JPG\" (3264×2448 px) özgün dosyasının 1280×960 px küçültülmüş kopyası indirildi"
+    },
+    {
+      "sheet": "Fotoğraflar",
+      "sentence": "jpg 4608 3456 px ozgun dosyasinin 1280 960 px kucultulmus kopyasi indirildi",
+      "records": 3,
+      "fields": [
+        "modifications"
+      ],
+      "sample": "jpg\" (4608×3456 px) özgün dosyasının 1280×960 px küçültülmüş kopyası indirildi"
+    },
+    {
+      "sheet": "Fotoğraflar",
+      "sentence": "jpg 4928 3264 px ozgun dosyasinin 1280 848 px kucultulmus kopyasi indirildi",
+      "records": 3,
+      "fields": [
+        "modifications"
+      ],
+      "sample": "jpg\" (4928×3264 px) özgün dosyasının 1280×848 px küçültülmüş kopyası indirildi"
+    },
+    {
+      "sheet": "Fotoğraflar",
+      "sentence": "jpg 5312 2988 px ozgun dosyasinin 1280 720 px kucultulmus kopyasi indirildi",
+      "records": 3,
+      "fields": [
+        "modifications"
+      ],
+      "sample": "jpg\" (5312×2988 px) özgün dosyasının 1280×720 px küçültülmüş kopyası indirildi"
+    },
+    {
+      "sheet": "Fotoğraflar",
+      "sentence": "jpg 5472 3648 px ozgun dosyasinin 1280 853 px kucultulmus kopyasi indirildi",
+      "records": 3,
+      "fields": [
+        "modifications"
+      ],
+      "sample": "jpg\" (5472×3648 px) özgün dosyasının 1280×853 px küçültülmüş kopyası indirildi"
+    },
+    {
+      "sheet": "Fotoğraflar",
+      "sentence": "jpg 5568 3712 px ozgun dosyasinin 1280 853 px kucultulmus kopyasi indirildi",
+      "records": 3,
+      "fields": [
+        "modifications"
+      ],
+      "sample": "jpg\" (5568×3712 px) özgün dosyasının 1280×853 px küçültülmüş kopyası indirildi"
+    },
+    {
+      "sheet": "Yanıtlar",
+      "sentence": "25 euronun altindaki tutarlar tek seferde cekilir",
+      "records": 3,
+      "fields": [
+        "cost",
+        "timing"
+      ],
+      "sample": "25 euronun altındaki tutarlar tek seferde çekilir"
+    },
+    {
+      "sheet": "Yanıtlar",
+      "sentence": "hayati tehlike varsa 112 yi arayin",
+      "records": 3,
+      "fields": [
+        "steps",
+        "summary"
+      ],
+      "sample": "Hayati tehlike varsa 112'yi arayın"
+    },
+    {
+      "sheet": "Yanıtlar",
+      "sentence": "otomatik tahsilatta tutar 10 taksitte cekilir",
+      "records": 3,
+      "fields": [
+        "cost",
+        "timing"
+      ],
+      "sample": "Otomatik tahsilatta tutar 10 taksitte çekilir"
+    }
+  ],
+  "shared_steps": [],
+  "placeholders": {
+    "count": 0,
+    "by_field": {},
+    "items": []
+  },
+  "filler": {
+    "count": 0,
+    "items": []
+  },
+  "hedges": {
+    "cards_total": 409,
+    "cards_with_hedge": 2,
+    "share": 0.0049,
+    "max_per_card": 1,
+    "by_pattern": {
+      "kurumdan_dogrula": 1,
+      "resmi_kaynaktan_dogrula": 1
+    },
+    "items": [
+      {
+        "sheet": "Yanıtlar",
+        "row": 194,
+        "id": "eindhoven:ev-sigortalari-opstal-inboedel-aansprakelijkheid",
+        "count": 1,
+        "patterns": [
+          "resmi_kaynaktan_dogrula"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 206,
+        "id": "eindhoven:turkiye-belgeleri-apostilsiz",
+        "count": 1,
+        "patterns": [
+          "kurumdan_dogrula"
+        ]
+      }
+    ]
+  },
+  "evasive_answers": {
+    "count": 1,
+    "items": [
+      {
+        "sheet": "Yanıtlar",
+        "row": 247,
+        "id": "eindhoven:inburgering-ucretleri-duo-kredisi",
+        "title": "Inburgering (uyum kursu ve sınavı) ne kadar tutar, nasıl ödenir?",
+        "first_sentence": "Inburgering (Hollanda'ya uyum) kursu ve sınavları ücretlidir; nasıl ödeyeceğin inburgering'e ne zaman başlaman gerektiği…"
+      }
+    ]
+  },
+  "action_links": {
+    "skipped": false,
+    "checked": 409,
+    "missing": 0,
+    "map_only": 0,
+    "no_id": 0,
+    "items": []
+  },
+  "visual_json": {
+    "total": 289,
+    "empty": 283,
+    "valid": 6,
+    "by_error": {},
+    "errors": []
+  },
+  "caption_is_title": {
+    "count": 0,
+    "total": 209,
+    "items": []
+  }
+}

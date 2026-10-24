@@ -1,0 +1,1671 @@
+<!DOCTYPE html>
+<!--[if lte IE 8]>
+  <html class="no-js ie" lang="nl">
+<![endif]-->
+<!--[if gt IE 8]><!-->
+  <html class="no-js" lang="nl">
+<!--<![endif]-->
+<head>
+  <meta charset="utf-8" />
+  <title>KNMI - Weer - Verwachtingen</title>
+  <meta name="description" content="">
+  <meta property="og:site_name" content="knmi.nl">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Weer - Verwachtingen">
+<meta property="og:description" content="">
+<meta property="og:url" content="https://www.knmi.nl/nederland-nu/weer/verwachtingen">
+  <meta name="author" content="" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="/assets/favicon-e5933646f5d8fe2d10b77fac3407738c781e8293699e6285a7ecc4a4d62ee39a.ico" />
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon-34d873d8614be8c7a9ba9354828b2d98e071c7b7c4dd3bc06f6d5511128cf9e6.png" />
+  <link rel="stylesheet" href="/assets/application-ee09b9ede8d70f0a4f77eb0935533c88004242f3fc0fb32401f3c9f416f18c64.css" media="all" />
+  <script>document.documentElement.className = document.documentElement.className.replace('no-js', 'js');</script>
+  <script>
+    window.googleMapsApiKey = 'AIzaSyBsnsnzQGvZSjFFtY71oLjo1gZLMSpVycc';
+  </script>
+  
+    <meta http-equiv="refresh" content="300">
+
+</head>
+<body class="">
+
+<script>
+  function readCookie(name) {
+    var nameEq = name + "=";
+    var ca = document.cookie.split(';');
+    for(var i=0; i < ca.length; i++) {
+      var c = ca[i];
+      while (c.charAt(0)==' ') c = c.substring(1, c.length);
+      if (c.indexOf(nameEq) == 0) return c.substring(nameEq.length, c.length);
+    }
+    return null;
+  }
+
+  if (readCookie('high_contrast')) {
+    document.body.classList.add('high-contrast');
+  }
+</script>
+
+
+<a tabindex="0" id="skiplink" href="#mainBody">Naar de hoofd content</a>
+
+<!--[if lt IE 9]>
+<div class="browsehappy">
+	Je gebruikt een verouderde browser. Voor een betere gebruikerservaring kun je jouw browser upgraden.
+</div>
+<![endif]-->
+
+
+<header class="site-header">
+  <div class="wrapper relative">
+    <div class="site-header__logowrp">
+      <a href="/home">
+        <img src="/assets/logo_large-1eaabc639fd87bd3867e4e1e3358711968aad57ca90d766ecdd62f93930abf3b.png" class="site-header__logo large" alt="Logo Koninklijk Nederlands Meteorologisch Instituut | Ministerie van Infrastructuur en Waterstaat" />
+        <img src="/assets/logo_small-1baa32513983c8487125691a74eb1059daa8f31f4c8a03da6e92a7f8a3b8e283.svg" class="site-header__logo small" alt="Logo Koninklijk Nederlands Meteorologisch Instituut | Ministerie van Infrastructuur en Waterstaat" />
+        <noscript>
+          <img class="site-header__logo" width="230" height="79" alt="Logo KNMI" src="/assets/logo_large-1eaabc639fd87bd3867e4e1e3358711968aad57ca90d766ecdd62f93930abf3b.png" />
+        </noscript>
+      </a>
+    </div>
+    <div class="site-header__meta">
+      <a href="/over-het-knmi/about">English</a>
+      <a data-active="normaal contrast" data-inactive="hoog contrast" class="highcontrast-toggle hidden" href="#"></a>
+    </div>
+  </div>
+  <div class="wrapper--navbar">
+    <div class="main-navbar">
+        <nav>
+          <ul>
+              <li>
+                <a class="" href="/home" target="">
+                  Home
+                  
+                </a>
+              </li>
+              <li>
+                <a class="is-active" href="/nederland-nu/weer" target="">
+                  Nederland nu
+                  <span class="nav-toggle icon-arrow-small-down" aria-label="Heeft submenu"></span>
+                </a>
+                  <ul>
+    <li><a class="is-active" href="/nederland-nu/weer">Weer</a></li>
+    <li><a class="" href="/nederland-nu/seismologie">Seismologie</a></li>
+    <li><a class="" href="/nederland-nu/maritiem">Maritiem</a></li>
+    <li><a class="" href="/nederland-nu/luchtvaart">Luchtvaart</a></li>
+    <li><a class="" href="/nederland-nu/klimatologie">Klimatologie</a></li>
+    <li><a class="" href="/nederland-nu/weer/waarschuwingen-en-verwachtingen/caribisch-nederland">Caribisch Nederland</a></li>
+</ul>
+
+              </li>
+              <li>
+                <a class="" href="/klimaat" target="">
+                  Klimaat
+                  
+                </a>
+              </li>
+              <li>
+                <a class="" href="/producten-en-diensten" target="">
+                  Producten &amp; diensten
+                  
+                </a>
+              </li>
+              <li>
+                <a class="" href="/kennis-en-datacentrum" target="">
+                  Kennis &amp; uitleg
+                  
+                </a>
+              </li>
+              <li>
+                <a class="" href="/research" target="">
+                  Research
+                  
+                </a>
+              </li>
+              <li>
+                <a class="" href="/over-het-knmi/over" target="">
+                  Over het KNMI
+                  <span class="nav-toggle icon-arrow-small-down" aria-label="Heeft submenu"></span>
+                </a>
+                  <ul>
+    <li><a class="" href="/over-het-knmi/over">Over het KNMI</a></li>
+    <li><a class="" href="/over-het-knmi/bestuur">Bestuur</a></li>
+    <li><a class="" href="/over-het-knmi/kerntaken">Kerntaken</a></li>
+    <li><a class="" href="/over-het-knmi/KNMI-werkt-internationaal">Internationaal</a></li>
+    <li><a class="" href="/over-het-knmi/vacatures">Werken bij</a></li>
+    <li><a class="" href="/over-het-knmi/nieuws">Nieuws</a></li>
+    <li><a class="" href="/over-het-knmi/agenda">Agenda</a></li>
+    <li><a class="" href="/over-het-knmi/pers">Pers</a></li>
+    <li><a class="" href="/over-het-knmi/contact/contactformulier">Contact</a></li>
+</ul>
+
+              </li>
+          </ul>
+        </nav>
+      
+      <form class="main-navbar__search" autocomplete="off" method="GET" action="/zoeken">
+        <fieldset>
+          <legend class="main-navbar__search-legend">Zoek binnen de site</legend>
+          <div class="main-navbar__search-context">
+            <input id="context_search" type="radio" name="context" value="/zoeken" />
+            <label for="context_search"><span>binnen de hele site</span></label>
+            <input id="context_data_center" type="radio" name="context" value="/kennis-en-datacentrum/zoekresultaten" />
+            <label for="context_data_center"><span>binnen het kennis- &amp; datacentrum</span></label>
+          </div>
+          <label class="main-navbar__search-label" for="q">Trefwoord</label>
+          <input type="text" id="q" name="q" placeholder="Zoeken" />
+          <button class="icon-search" type="submit"><span>Zoek</span></button>
+        </fieldset>
+      </form>
+      <a class="icon-menu main-navbar__toggle" href="#">Menu</a>
+    </div>
+    <div class="main-navbar__sub">
+        <nav>
+          <ul>
+    <li><a class="is-active" href="/nederland-nu/weer">Weer</a></li>
+    <li><a class="" href="/nederland-nu/seismologie">Seismologie</a></li>
+    <li><a class="" href="/nederland-nu/maritiem">Maritiem</a></li>
+    <li><a class="" href="/nederland-nu/luchtvaart">Luchtvaart</a></li>
+    <li><a class="" href="/nederland-nu/klimatologie">Klimatologie</a></li>
+    <li><a class="" href="/nederland-nu/weer/waarschuwingen-en-verwachtingen/caribisch-nederland">Caribisch Nederland</a></li>
+</ul>
+
+        </nav>
+    </div>
+  </div>
+</header>
+
+<div class="nav-overlay">
+  <a href="#" class="main-navbar__close icon-close">Sluiten</a>
+  <div class="nav-overlay__inner"></div>
+</div>
+
+
+<main id="mainBody" tabindex="0"  lang=nl>
+  <div class="partials_wrapper">
+    <div class="js_breadcrumb wrapper">
+          <nav aria-label="Breadcrumb">
+    <ol class="breadcrumb">
+          <li><a class="" href="/">Home</a></li>
+          <li><a class="" href="/nederland-nu/weer">Nederland nu</a></li>
+          <li><a class="" href="/nederland-nu/weer/verwachtingen">Weer</a></li>
+          <li aria-current="page">Verwachtingen</li>
+    </ol>
+  </nav>
+
+        
+<div class="weather-small">
+    <a href="/nederland-nu/weer/waarschuwingen" class="weather-small__alert weather-small--yellow">
+        Code geel
+    </a>
+</div>
+
+    </div>
+
+    
+</div>
+<div id="weather" class="wrapper">
+  <div class="columns filled-main-content">
+    <div class="col-sm-12 col-md-10 col-md-offset-1">
+      <div class="title-with-links is-oneline is-large">
+    <h1 class="title-with-links__title margin-bottom-0">Verwachtingen</h1>
+  <ul class="title-with-links__list is-inline">
+	    	<li><a href="/nederland-nu/weer/waarschuwingen">Bekijk waarschuwingen</a></li>
+	    	<li><a href="/nederland-nu/weer/waarnemingen">Bekijk waarnemingen</a></li>
+  </ul>
+</div>
+      <div class="filled-main-content__highlight media">
+  <div class="media__img weather__image weather__image--forecast">
+        <figure class="is-active">
+          <a class="figure__link" href="https://cdn.knmi.nl/knmi/map/current/weather/forecast/kaart_verwachtingen_Morgen_nacht.gif?8b065dd4bc18f21293b9caf3c1773ff0">
+            <img src="https://cdn.knmi.nl/knmi/map/current/weather/forecast/kaart_verwachtingen_Morgen_nacht.gif?8b065dd4bc18f21293b9caf3c1773ff0" />
+          </a>
+          <figcaption>Nacht donderdag - vrijdag</figcaption>
+        </figure>
+        <figure >
+          <a class="figure__link" href="https://cdn.knmi.nl/knmi/map/current/weather/forecast/kaart_verwachtingen_Morgen_dag.gif?8b065dd4bc18f21293b9caf3c1773ff0">
+            <img src="https://cdn.knmi.nl/knmi/map/current/weather/forecast/kaart_verwachtingen_Morgen_dag.gif?8b065dd4bc18f21293b9caf3c1773ff0" />
+          </a>
+          <figcaption>Vrijdag overdag</figcaption>
+        </figure>
+    <div class="weather__image-toggle"></div>
+  </div>
+  <div class="weather__text media__body" data-show-text="Lees het hele weerbericht" data-close-text="Toon minder van het weerbericht">
+    <h2>Vandaag &amp; morgen</h2>
+      <p class="intro margin-bottom-0">In het noorden een enkele bui, later van het zuiden uit regen</p>
+    <p><strong><a href='https://www.knmi.nl/nederland-nu/weer/waarschuwingen'>Waarschuwingen</a></strong>&nbsp;<br>Vrijdagavond en in de nacht erna zware windstoten in het zuidwesten en zuidoosten (code geel).<br><br><strong>Vanavond</strong>&nbsp;komen er vooral in het noorden enkele buien voor. De wind komt uit het zuid tot zuidwesten en wordt zwak tot matig. </p><p><strong>Vannacht</strong>&nbsp;is het eerst droog. Later gaat het in de zuidelijke helft regenen. De minimumtemperatuur loopt uiteen van 12⁰C aan de kust tot plaatselijk 6⁰C in het noordoosten. Eerst is er weinig wind, later in de nacht steekt er een matige, aan de kust vrij krachtige wind op uit het zuidoosten.</p><p><strong>Morgenochtend</strong>&nbsp;is het bewolkt met op veel plaatsen regen. Later wordt het in het zuiden op de meeste plaatsen droog. De wind komt uit het zuidoosten en is matig, aan de kust vrij krachtig tot krachtig, windkracht 6.<br><strong>Morgenmiddag</strong>&nbsp;gaat het in het zuiden regenen en wordt het in noorden droog met soms een beetje zon. Het wordt ongeveer 13⁰C. Er staat een zwakke tot matige, aan de kust eerst nog vrij krachtige wind uit zuidoostelijke richtingen.<br><strong>Morgenavond</strong>&nbsp;is het bewolkt en regent het af en toe. In het zuiden en later in het midden gaat de wind uit het zuidwesten waaien en neemt toe naar vrij krachtig tot krachtig, aan de westkust naar hard tot stormachtig, windkracht 7 tot 8. In het zuidwestelijk kustgebied en in het zuidoosten is er dan kans op zware windstoten van 75-90 km/u. In het noorden blijft de wind nog zwak tot matig en waait uit oostelijke richtingen. (Bron: KNMI)</p><p></p>
+      <p class="meta">22/10/2026 22.40 uur LT</p>
+  </div>
+</div>
+    </div>
+  </div>
+  <div class="columns filled-main-content">
+    <div class="col-sm-12 col-md-10 col-md-offset-1">
+  <div class="filled-main-content__highlight">
+    <h2 class="margin-top-0">Vooruitzichten</h2>
+      <p>Herfstweer met in het weekeinde veel wind en regen. Maandag en dinsdag enige tijd regen en aan de zachte kant. Woensdag perioden met zon en op de meeste plaatsen droog. </p>
+      <p class="meta">22/10/2026 02.46 uur LT</p>
+  </div>
+</div>
+
+  </div>
+  <div class="columns filled-main-content">
+    <div class="col-sm-12 col-md-10 col-md-offset-1">
+      
+<div
+  class="knmi-weather-app-banner knmi-weather-app-banner--dark knmi-weather-app-banner--shortened"
+  role="region"
+  aria-label="Promotie KNMI Weerapp"
+  data-knmi-weather-app-banner
+  data-app-info-path="/kennis-en-datacentrum/uitleg/knmi-app"
+  data-cookie-name="knmi_weather_app_banner_dismissed"
+  data-cookie-days="31"
+>
+  <button
+    type="button"
+    class="knmi-weather-app-banner__close"
+    data-knmi-weather-app-banner-close
+    aria-label="Banner sluiten"
+  >&times;</button>
+
+  <div class="knmi-weather-app-banner__inner">
+    <div class="knmi-weather-app-banner__icon">
+        <img alt="" src="/assets/knmi-weerapp/icon-4c185c6bc30c06072008106331d3b999077dc380afaac6b4abf32a3e41bd5228.png" />
+    </div>
+
+    <div class="knmi-weather-app-banner__body">
+      <h2 class="knmi-weather-app-banner__title">KNMI-app</h2>
+      <p class="knmi-weather-app-banner__subtitle">Wilt u de weersverwachting voor uw eigen plaats?</p>
+    </div>
+
+    <div class="knmi-weather-app-banner__actions">
+      <a class="btn btn--blue" data-knmi-weather-app-banner-download="true" href="/kennis-en-datacentrum/uitleg/knmi-app">
+        Download
+</a>    </div>
+  </div>
+</div>
+
+    </div>
+  </div>
+    <div class="columns filled-main-content">
+      <div class="col-sm-12 col-md-10 col-md-offset-1">
+        <div class="filled-main-content__highlight weather-forecast__table">
+          
+  <div class="weather-forecast__day weather-forecast__code-regular">
+    <div class="weather-forecast__banner">
+      <div class="weather-forecast__date-container">
+        <h3 class="weather-forecast__weekday">
+          donderdag
+        </h3>
+        <h3 class="weather-forecast__date">
+          22 oktober
+        </h3>
+      </div>
+        <img class ="weather-forecast__weather-icon" src="/assets/forecast/1377-lichte-regen-zwaar-bewolkt-76942366934ed7448b80b18da43b60c569f8834ce08a85d6e24720c1a03089b6.svg" alt="lichte regen, zwaar bewolkt" />
+      <div class="weather-forecast__temperature">
+        <span class="weather-forecast__temperature-label">Max.</span>
+        <span class="weather-forecast__temperature-range">13°</span>
+      </div>
+      <div class="weather-forecast__temperature">
+        <span class="weather-forecast__temperature-label">Min.</span>
+        <span class="weather-forecast__temperature-range">6°</span>
+      </div>
+    </div>
+    <div class="weather-forecast__details hidden">
+      <div class="weather-forecast__stats">
+        <img src="/assets/icons/metrics/raindrop-3976de3902b0223a0abc484e042561b89215fec699358189603a6a017036cff2.svg" alt="Neerslag" />
+        <div class="weather-forecast__stats-container">
+          <div class="weather-forecast__stats-name">
+            Neerslag
+          </div>
+          <div class="weather-forecast__stats-value">
+            4 mm
+          </div>
+        </div>
+      </div>
+      <div class="weather-forecast__stats">
+        <img src="/assets/icons/metrics/umbrella-f87ea2ac9ac05fd0e10a31ff6f657996bd8128bb71ef316157cb031decb4131b.svg" alt="Neerslagkans" />
+        <div class="weather-forecast__stats-container">
+          <div class="weather-forecast__stats-name">
+            Neerslagkans
+          </div>
+          <div class="weather-forecast__stats-value">
+            100%
+          </div>
+        </div>
+      </div>
+      <div class="weather-forecast__stats">
+        <img src="/assets/icons/metrics/wind-c8b2f7e160fccec30544c79570daff921722a0ef37505115a7fa4eecd85cc590.svg" alt="Windkracht" />
+        <div class="weather-forecast__stats-container">
+          <div class="weather-forecast__stats-name">
+            Windkracht
+          </div>
+          <div class="weather-forecast__stats-value">
+              <img class="weather-forecast__wind--icon" src="/assets/icons/directions/wind-direction-ZZW-ec7e05295669528dc6e7329ec0bf262b307abb329838fd02c7fd813c43c3d2f5.svg" alt="Windrichting" />
+            ZZW 5
+          </div>
+        </div>
+      </div>
+      <div class="weather-forecast__stats">
+        <img src="/assets/icons/metrics/sun-66845dd52aa10c527313ab61bdddc5146fbee6f62a92053804c2e1d826eba67c.svg" alt="Zonneschijn" />
+        <div class="weather-forecast__stats-container">
+          <div class="weather-forecast__stats-name">
+            Zonneschijn
+          </div>
+          <div class="weather-forecast__stats-value">
+            2 zonuren
+          </div>
+        </div>
+      </div>
+      <div class="weather-forecast__stats">
+        <img src="/assets/icons/metrics/solar-power-3a92ebbcf7e090b0cfa12e586a9acd09b841ebfdd231c1a807fc739bd3cba6a2.svg" alt="Zonkracht" />
+        <div class="weather-forecast__stats-container">
+          <div class="weather-forecast__stats-name">
+            Zonkracht
+          </div>
+          <div class="weather-forecast__stats-value">
+            1
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="weather-forecast__day weather-forecast__code-yellow">
+    <div class="weather-forecast__banner">
+      <div class="weather-forecast__date-container">
+        <h3 class="weather-forecast__weekday">
+          vrijdag
+        </h3>
+        <h3 class="weather-forecast__date">
+          23 oktober
+        </h3>
+      </div>
+        <img class ="weather-forecast__weather-icon" src="/assets/forecast/grayscale/1379-zware-regen-zwaar-bewolkt-032bef29ffa9b228007079346f29ce0ac74182fee2a3d794d93fe3fc31f084f3.svg" alt="zware regen, zwaar bewolkt - Waarschuwing" />
+      <div class="weather-forecast__temperature">
+        <span class="weather-forecast__temperature-label">Max.</span>
+        <span class="weather-forecast__temperature-range">12°</span>
+      </div>
+      <div class="weather-forecast__temperature">
+        <span class="weather-forecast__temperature-label">Min.</span>
+        <span class="weather-forecast__temperature-range">10°</span>
+      </div>
+    </div>
+    <div class="weather-forecast__details hidden">
+      <div class="weather-forecast__stats">
+        <img src="/assets/icons/metrics/raindrop-3976de3902b0223a0abc484e042561b89215fec699358189603a6a017036cff2.svg" alt="Neerslag" />
+        <div class="weather-forecast__stats-container">
+          <div class="weather-forecast__stats-name">
+            Neerslag
+          </div>
+          <div class="weather-forecast__stats-value">
+            24 mm
+          </div>
+        </div>
+      </div>
+      <div class="weather-forecast__stats">
+        <img src="/assets/icons/metrics/umbrella-f87ea2ac9ac05fd0e10a31ff6f657996bd8128bb71ef316157cb031decb4131b.svg" alt="Neerslagkans" />
+        <div class="weather-forecast__stats-container">
+          <div class="weather-forecast__stats-name">
+            Neerslagkans
+          </div>
+          <div class="weather-forecast__stats-value">
+            100%
+          </div>
+        </div>
+      </div>
+      <div class="weather-forecast__stats">
+        <img src="/assets/icons/metrics/wind-c8b2f7e160fccec30544c79570daff921722a0ef37505115a7fa4eecd85cc590.svg" alt="Windkracht" />
+        <div class="weather-forecast__stats-container">
+          <div class="weather-forecast__stats-name">
+            Windkracht
+          </div>
+          <div class="weather-forecast__stats-value">
+              <img class="weather-forecast__wind--icon" src="/assets/icons/directions/wind-direction-ZO-d9d1c4d5cd3a6b3e447f3b119d66068bbbd39ccf69ec784f4eefce204e14899a.svg" alt="Windrichting" />
+            ZO 5
+          </div>
+        </div>
+      </div>
+      <div class="weather-forecast__stats">
+        <img src="/assets/icons/metrics/sun-66845dd52aa10c527313ab61bdddc5146fbee6f62a92053804c2e1d826eba67c.svg" alt="Zonneschijn" />
+        <div class="weather-forecast__stats-container">
+          <div class="weather-forecast__stats-name">
+            Zonneschijn
+          </div>
+          <div class="weather-forecast__stats-value">
+            0 zonuren
+          </div>
+        </div>
+      </div>
+      <div class="weather-forecast__stats">
+        <img src="/assets/icons/metrics/solar-power-3a92ebbcf7e090b0cfa12e586a9acd09b841ebfdd231c1a807fc739bd3cba6a2.svg" alt="Zonkracht" />
+        <div class="weather-forecast__stats-container">
+          <div class="weather-forecast__stats-name">
+            Zonkracht
+          </div>
+          <div class="weather-forecast__stats-value">
+            1
+          </div>
+        </div>
+      </div>
+    </div>
+
+        <a href="/nederland-nu/weer/waarschuwingen">
+          <img class="weather-forecast__collapsible-button" alt="Meer informatie" src="/assets/icons/chevron-right-2f1afe176247076863a6a5ee3b1c6cb61f9489812ca9423792b9d264ab5e5f2f.svg" />
+</a>        <div class="weather-forecast__warnings-color--table">
+        <div>
+          <span>Code geel </span>
+          <a class="weather-forecast__url" href="/nederland-nu/weer/waarschuwingen">Meer informatie</a>
+        </div>
+          <div class="warning-forecast__warning-icons">
+                <img class="weather-forecast__warning-icon" src="/assets/icons/alerts/FX-452a542df9e1e6f357f0b0b63cd13daa023267ddfe2bdb8d01b9239e2982f707.svg" alt="(zeer) zware windstoten" />
+          </div>
+          <div class="weather-forecast__warning-messages">
+              <span>(zeer) zware windstoten</span>
+            <img class="weather-forecast__warning-indicator" src="/assets/icons/indicators/yellow-480a3b780ae97382aaedd9af0395dc832c7b8f8c75eaca951075635fb8b1c72d.svg" alt="(zeer) zware windstoten" />
+          </div>
+      </div>
+  </div>
+
+  <div class="weather-forecast__day weather-forecast__code-yellow">
+    <div class="weather-forecast__banner">
+      <div class="weather-forecast__date-container">
+        <h3 class="weather-forecast__weekday">
+          zaterdag
+        </h3>
+        <h3 class="weather-forecast__date">
+          24 oktober
+        </h3>
+      </div>
+        <img class ="weather-forecast__weather-icon" src="/assets/forecast/grayscale/1384-zware-bui-afgewisseld-door-zon-overdag-8fbc28b01a217191ea050f4a8cf87ac24bae2c50617168c422effc6bf7eaf09a.svg" alt="zware bui afgewisseld door zon overdag - Waarschuwing" />
+      <div class="weather-forecast__temperature">
+        <span class="weather-forecast__temperature-label">Max.</span>
+        <span class="weather-forecast__temperature-range">12°</span>
+      </div>
+      <div class="weather-forecast__temperature">
+        <span class="weather-forecast__temperature-label">Min.</span>
+        <span class="weather-forecast__temperature-range">9°</span>
+      </div>
+    </div>
+    <div class="weather-forecast__details hidden">
+      <div class="weather-forecast__stats">
+        <img src="/assets/icons/metrics/raindrop-3976de3902b0223a0abc484e042561b89215fec699358189603a6a017036cff2.svg" alt="Neerslag" />
+        <div class="weather-forecast__stats-container">
+          <div class="weather-forecast__stats-name">
+            Neerslag
+          </div>
+          <div class="weather-forecast__stats-value">
+            16/21 mm
+          </div>
+        </div>
+      </div>
+      <div class="weather-forecast__stats">
+        <img src="/assets/icons/metrics/umbrella-f87ea2ac9ac05fd0e10a31ff6f657996bd8128bb71ef316157cb031decb4131b.svg" alt="Neerslagkans" />
+        <div class="weather-forecast__stats-container">
+          <div class="weather-forecast__stats-name">
+            Neerslagkans
+          </div>
+          <div class="weather-forecast__stats-value">
+            100%
+          </div>
+        </div>
+      </div>
+      <div class="weather-forecast__stats">
+        <img src="/assets/icons/metrics/wind-c8b2f7e160fccec30544c79570daff921722a0ef37505115a7fa4eecd85cc590.svg" alt="Windkracht" />
+        <div class="weather-forecast__stats-container">
+          <div class="weather-forecast__stats-name">
+            Windkracht
+          </div>
+          <div class="weather-forecast__stats-value">
+              <img class="weather-forecast__wind--icon" src="/assets/icons/directions/wind-direction-WZW-d47ab4cfc8d96a9a359bd3546bf9efd324e25f9c365b8e43d2133e4292dd726f.svg" alt="Windrichting" />
+            WZW 5
+          </div>
+        </div>
+      </div>
+      <div class="weather-forecast__stats">
+        <img src="/assets/icons/metrics/sun-66845dd52aa10c527313ab61bdddc5146fbee6f62a92053804c2e1d826eba67c.svg" alt="Zonneschijn" />
+        <div class="weather-forecast__stats-container">
+          <div class="weather-forecast__stats-name">
+            Zonneschijn
+          </div>
+          <div class="weather-forecast__stats-value">
+            4 zonuren
+          </div>
+        </div>
+      </div>
+      <div class="weather-forecast__stats">
+        <img src="/assets/icons/metrics/solar-power-3a92ebbcf7e090b0cfa12e586a9acd09b841ebfdd231c1a807fc739bd3cba6a2.svg" alt="Zonkracht" />
+        <div class="weather-forecast__stats-container">
+          <div class="weather-forecast__stats-name">
+            Zonkracht
+          </div>
+          <div class="weather-forecast__stats-value">
+            1
+          </div>
+        </div>
+      </div>
+    </div>
+
+        <a href="/nederland-nu/weer/waarschuwingen">
+          <img class="weather-forecast__collapsible-button" alt="Meer informatie" src="/assets/icons/chevron-right-2f1afe176247076863a6a5ee3b1c6cb61f9489812ca9423792b9d264ab5e5f2f.svg" />
+</a>        <div class="weather-forecast__warnings-color--table">
+        <div>
+          <span>Code geel </span>
+          <a class="weather-forecast__url" href="/nederland-nu/weer/waarschuwingen">Meer informatie</a>
+        </div>
+          <div class="warning-forecast__warning-icons">
+                <img class="weather-forecast__warning-icon" src="/assets/icons/alerts/FX-452a542df9e1e6f357f0b0b63cd13daa023267ddfe2bdb8d01b9239e2982f707.svg" alt="(zeer) zware windstoten" />
+          </div>
+          <div class="weather-forecast__warning-messages">
+              <span>(zeer) zware windstoten</span>
+            <img class="weather-forecast__warning-indicator" src="/assets/icons/indicators/yellow-480a3b780ae97382aaedd9af0395dc832c7b8f8c75eaca951075635fb8b1c72d.svg" alt="(zeer) zware windstoten" />
+          </div>
+      </div>
+  </div>
+
+  <div class="weather-forecast__day weather-forecast__code-warning">
+    <div class="weather-forecast__banner">
+      <div class="weather-forecast__date-container">
+        <h3 class="weather-forecast__weekday">
+          zondag
+        </h3>
+        <h3 class="weather-forecast__date">
+          25 oktober
+        </h3>
+      </div>
+        <img class ="weather-forecast__weather-icon" src="/assets/forecast/1384-zware-bui-afgewisseld-door-zon-overdag-f880d431c3d2a323f05589311c3cd6ab3db8d3549021d5f8a6141e3e00f37753.svg" alt="zware bui afgewisseld door zon overdag - Mogelijke waarschuwing" />
+      <div class="weather-forecast__temperature">
+        <span class="weather-forecast__temperature-label">Max.</span>
+        <span class="weather-forecast__temperature-range">13°</span>
+      </div>
+      <div class="weather-forecast__temperature">
+        <span class="weather-forecast__temperature-label">Min.</span>
+        <span class="weather-forecast__temperature-range">9°</span>
+      </div>
+    </div>
+    <div class="weather-forecast__details hidden">
+      <div class="weather-forecast__stats">
+        <img src="/assets/icons/metrics/raindrop-3976de3902b0223a0abc484e042561b89215fec699358189603a6a017036cff2.svg" alt="Neerslag" />
+        <div class="weather-forecast__stats-container">
+          <div class="weather-forecast__stats-name">
+            Neerslag
+          </div>
+          <div class="weather-forecast__stats-value">
+            4/11 mm
+          </div>
+        </div>
+      </div>
+      <div class="weather-forecast__stats">
+        <img src="/assets/icons/metrics/umbrella-f87ea2ac9ac05fd0e10a31ff6f657996bd8128bb71ef316157cb031decb4131b.svg" alt="Neerslagkans" />
+        <div class="weather-forecast__stats-container">
+          <div class="weather-forecast__stats-name">
+            Neerslagkans
+          </div>
+          <div class="weather-forecast__stats-value">
+            100%
+          </div>
+        </div>
+      </div>
+      <div class="weather-forecast__stats">
+        <img src="/assets/icons/metrics/wind-c8b2f7e160fccec30544c79570daff921722a0ef37505115a7fa4eecd85cc590.svg" alt="Windkracht" />
+        <div class="weather-forecast__stats-container">
+          <div class="weather-forecast__stats-name">
+            Windkracht
+          </div>
+          <div class="weather-forecast__stats-value">
+              <img class="weather-forecast__wind--icon" src="/assets/icons/directions/wind-direction-ZZW-ec7e05295669528dc6e7329ec0bf262b307abb329838fd02c7fd813c43c3d2f5.svg" alt="Windrichting" />
+            ZZW 5
+          </div>
+        </div>
+      </div>
+      <div class="weather-forecast__stats">
+        <img src="/assets/icons/metrics/sun-66845dd52aa10c527313ab61bdddc5146fbee6f62a92053804c2e1d826eba67c.svg" alt="Zonneschijn" />
+        <div class="weather-forecast__stats-container">
+          <div class="weather-forecast__stats-name">
+            Zonneschijn
+          </div>
+          <div class="weather-forecast__stats-value">
+            5 zonuren
+          </div>
+        </div>
+      </div>
+      <div class="weather-forecast__stats">
+        <img src="/assets/icons/metrics/solar-power-3a92ebbcf7e090b0cfa12e586a9acd09b841ebfdd231c1a807fc739bd3cba6a2.svg" alt="Zonkracht" />
+        <div class="weather-forecast__stats-container">
+          <div class="weather-forecast__stats-name">
+            Zonkracht
+          </div>
+          <div class="weather-forecast__stats-value">
+            1
+          </div>
+        </div>
+      </div>
+    </div>
+
+        <a href="/nederland-nu/weer/mogelijk-gevaarlijk-weer/zo">
+          <img class="weather-forecast__collapsible-button" alt="Meer informatie" src="/assets/icons/chevron-right-2f1afe176247076863a6a5ee3b1c6cb61f9489812ca9423792b9d264ab5e5f2f.svg" />
+</a>        <div class="weather-forecast__warnings--table">
+          <a class="weather-forecast__url" href="/nederland-nu/weer/mogelijk-gevaarlijk-weer/zo">Meer informatie</a>
+            <div class="warning-forecast__warning-icons">
+                <img class="weather-forecast__warning-icon" src="/assets/icons/alerts/FX-452a542df9e1e6f357f0b0b63cd13daa023267ddfe2bdb8d01b9239e2982f707.svg" alt="(zeer) zware windstoten" />
+            </div>
+            <div class="weather-forecast__warning-messages">
+                <span>Mogelijk (zeer) zware windstoten</span>
+              <img class="weather-forecast__warning-indicator" src="/assets/icons/indicators/warning-d0e48f22303e3cd8470277bcedf0a1c51432e1278341be6448663f199616c0e2.svg" alt="(zeer) zware windstoten" />
+            </div>
+          <img class="weather-forecast__warning-indicator" src="/assets/icons/indicators/warning-d0e48f22303e3cd8470277bcedf0a1c51432e1278341be6448663f199616c0e2.svg" alt="(zeer) zware windstoten" />
+        </div>
+
+  </div>
+
+  <div class="weather-forecast__day weather-forecast__code-regular">
+    <div class="weather-forecast__banner">
+      <div class="weather-forecast__date-container">
+        <h3 class="weather-forecast__weekday">
+          maandag
+        </h3>
+        <h3 class="weather-forecast__date">
+          26 oktober
+        </h3>
+      </div>
+        <img class ="weather-forecast__weather-icon" src="/assets/forecast/1380-lichte-bui-afgewisseld-door-zon-d9f9d91111f095438be87d5848ce1ed2539ae5773c4a08d863cb9813cff37c6d.svg" alt="lichte bui afgewisseld door zon" />
+      <div class="weather-forecast__temperature">
+        <span class="weather-forecast__temperature-label">Max.</span>
+        <span class="weather-forecast__temperature-range">14°</span>
+      </div>
+      <div class="weather-forecast__temperature">
+        <span class="weather-forecast__temperature-label">Min.</span>
+        <span class="weather-forecast__temperature-range">9°</span>
+      </div>
+    </div>
+    <div class="weather-forecast__details hidden">
+      <div class="weather-forecast__stats">
+        <img src="/assets/icons/metrics/raindrop-3976de3902b0223a0abc484e042561b89215fec699358189603a6a017036cff2.svg" alt="Neerslag" />
+        <div class="weather-forecast__stats-container">
+          <div class="weather-forecast__stats-name">
+            Neerslag
+          </div>
+          <div class="weather-forecast__stats-value">
+            1/5 mm
+          </div>
+        </div>
+      </div>
+      <div class="weather-forecast__stats">
+        <img src="/assets/icons/metrics/umbrella-f87ea2ac9ac05fd0e10a31ff6f657996bd8128bb71ef316157cb031decb4131b.svg" alt="Neerslagkans" />
+        <div class="weather-forecast__stats-container">
+          <div class="weather-forecast__stats-name">
+            Neerslagkans
+          </div>
+          <div class="weather-forecast__stats-value">
+            80%
+          </div>
+        </div>
+      </div>
+      <div class="weather-forecast__stats">
+        <img src="/assets/icons/metrics/wind-c8b2f7e160fccec30544c79570daff921722a0ef37505115a7fa4eecd85cc590.svg" alt="Windkracht" />
+        <div class="weather-forecast__stats-container">
+          <div class="weather-forecast__stats-name">
+            Windkracht
+          </div>
+          <div class="weather-forecast__stats-value">
+              <img class="weather-forecast__wind--icon" src="/assets/icons/directions/wind-direction-WZW-d47ab4cfc8d96a9a359bd3546bf9efd324e25f9c365b8e43d2133e4292dd726f.svg" alt="Windrichting" />
+            WZW 4
+          </div>
+        </div>
+      </div>
+      <div class="weather-forecast__stats">
+        <img src="/assets/icons/metrics/sun-66845dd52aa10c527313ab61bdddc5146fbee6f62a92053804c2e1d826eba67c.svg" alt="Zonneschijn" />
+        <div class="weather-forecast__stats-container">
+          <div class="weather-forecast__stats-name">
+            Zonneschijn
+          </div>
+          <div class="weather-forecast__stats-value">
+            3 zonuren
+          </div>
+        </div>
+      </div>
+      <div class="weather-forecast__stats">
+        <img src="/assets/icons/metrics/solar-power-3a92ebbcf7e090b0cfa12e586a9acd09b841ebfdd231c1a807fc739bd3cba6a2.svg" alt="Zonkracht" />
+        <div class="weather-forecast__stats-container">
+          <div class="weather-forecast__stats-name">
+            Zonkracht
+          </div>
+          <div class="weather-forecast__stats-value">
+            1
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="weather-forecast__day weather-forecast__code-regular">
+    <div class="weather-forecast__banner">
+      <div class="weather-forecast__date-container">
+        <h3 class="weather-forecast__weekday">
+          dinsdag
+        </h3>
+        <h3 class="weather-forecast__date">
+          27 oktober
+        </h3>
+      </div>
+        <img class ="weather-forecast__weather-icon" src="/assets/forecast/1380-lichte-bui-afgewisseld-door-zon-d9f9d91111f095438be87d5848ce1ed2539ae5773c4a08d863cb9813cff37c6d.svg" alt="lichte bui afgewisseld door zon" />
+      <div class="weather-forecast__temperature">
+        <span class="weather-forecast__temperature-label">Max.</span>
+        <span class="weather-forecast__temperature-range">17°</span>
+      </div>
+      <div class="weather-forecast__temperature">
+        <span class="weather-forecast__temperature-label">Min.</span>
+        <span class="weather-forecast__temperature-range">10°</span>
+      </div>
+    </div>
+    <div class="weather-forecast__details hidden">
+      <div class="weather-forecast__stats">
+        <img src="/assets/icons/metrics/raindrop-3976de3902b0223a0abc484e042561b89215fec699358189603a6a017036cff2.svg" alt="Neerslag" />
+        <div class="weather-forecast__stats-container">
+          <div class="weather-forecast__stats-name">
+            Neerslag
+          </div>
+          <div class="weather-forecast__stats-value">
+            2/5 mm
+          </div>
+        </div>
+      </div>
+      <div class="weather-forecast__stats">
+        <img src="/assets/icons/metrics/umbrella-f87ea2ac9ac05fd0e10a31ff6f657996bd8128bb71ef316157cb031decb4131b.svg" alt="Neerslagkans" />
+        <div class="weather-forecast__stats-container">
+          <div class="weather-forecast__stats-name">
+            Neerslagkans
+          </div>
+          <div class="weather-forecast__stats-value">
+            90%
+          </div>
+        </div>
+      </div>
+      <div class="weather-forecast__stats">
+        <img src="/assets/icons/metrics/wind-c8b2f7e160fccec30544c79570daff921722a0ef37505115a7fa4eecd85cc590.svg" alt="Windkracht" />
+        <div class="weather-forecast__stats-container">
+          <div class="weather-forecast__stats-name">
+            Windkracht
+          </div>
+          <div class="weather-forecast__stats-value">
+              <img class="weather-forecast__wind--icon" src="/assets/icons/directions/wind-direction-ZZW-ec7e05295669528dc6e7329ec0bf262b307abb329838fd02c7fd813c43c3d2f5.svg" alt="Windrichting" />
+            ZZW 4
+          </div>
+        </div>
+      </div>
+      <div class="weather-forecast__stats">
+        <img src="/assets/icons/metrics/sun-66845dd52aa10c527313ab61bdddc5146fbee6f62a92053804c2e1d826eba67c.svg" alt="Zonneschijn" />
+        <div class="weather-forecast__stats-container">
+          <div class="weather-forecast__stats-name">
+            Zonneschijn
+          </div>
+          <div class="weather-forecast__stats-value">
+            3 zonuren
+          </div>
+        </div>
+      </div>
+      <div class="weather-forecast__stats">
+        <img src="/assets/icons/metrics/solar-power-3a92ebbcf7e090b0cfa12e586a9acd09b841ebfdd231c1a807fc739bd3cba6a2.svg" alt="Zonkracht" />
+        <div class="weather-forecast__stats-container">
+          <div class="weather-forecast__stats-name">
+            Zonkracht
+          </div>
+          <div class="weather-forecast__stats-value">
+            1
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="weather-forecast__day weather-forecast__code-regular">
+    <div class="weather-forecast__banner">
+      <div class="weather-forecast__date-container">
+        <h3 class="weather-forecast__weekday">
+          woensdag
+        </h3>
+        <h3 class="weather-forecast__date">
+          28 oktober
+        </h3>
+      </div>
+        <img class ="weather-forecast__weather-icon" src="/assets/forecast/1380-lichte-bui-afgewisseld-door-zon-d9f9d91111f095438be87d5848ce1ed2539ae5773c4a08d863cb9813cff37c6d.svg" alt="lichte bui afgewisseld door zon" />
+      <div class="weather-forecast__temperature">
+        <span class="weather-forecast__temperature-label">Max.</span>
+        <span class="weather-forecast__temperature-range">14°</span>
+      </div>
+      <div class="weather-forecast__temperature">
+        <span class="weather-forecast__temperature-label">Min.</span>
+        <span class="weather-forecast__temperature-range">9°</span>
+      </div>
+    </div>
+    <div class="weather-forecast__details hidden">
+      <div class="weather-forecast__stats">
+        <img src="/assets/icons/metrics/raindrop-3976de3902b0223a0abc484e042561b89215fec699358189603a6a017036cff2.svg" alt="Neerslag" />
+        <div class="weather-forecast__stats-container">
+          <div class="weather-forecast__stats-name">
+            Neerslag
+          </div>
+          <div class="weather-forecast__stats-value">
+            0/2 mm
+          </div>
+        </div>
+      </div>
+      <div class="weather-forecast__stats">
+        <img src="/assets/icons/metrics/umbrella-f87ea2ac9ac05fd0e10a31ff6f657996bd8128bb71ef316157cb031decb4131b.svg" alt="Neerslagkans" />
+        <div class="weather-forecast__stats-container">
+          <div class="weather-forecast__stats-name">
+            Neerslagkans
+          </div>
+          <div class="weather-forecast__stats-value">
+            60%
+          </div>
+        </div>
+      </div>
+      <div class="weather-forecast__stats">
+        <img src="/assets/icons/metrics/wind-c8b2f7e160fccec30544c79570daff921722a0ef37505115a7fa4eecd85cc590.svg" alt="Windkracht" />
+        <div class="weather-forecast__stats-container">
+          <div class="weather-forecast__stats-name">
+            Windkracht
+          </div>
+          <div class="weather-forecast__stats-value">
+              <img class="weather-forecast__wind--icon" src="/assets/icons/directions/wind-direction-WZW-d47ab4cfc8d96a9a359bd3546bf9efd324e25f9c365b8e43d2133e4292dd726f.svg" alt="Windrichting" />
+            WZW 4
+          </div>
+        </div>
+      </div>
+      <div class="weather-forecast__stats">
+        <img src="/assets/icons/metrics/sun-66845dd52aa10c527313ab61bdddc5146fbee6f62a92053804c2e1d826eba67c.svg" alt="Zonneschijn" />
+        <div class="weather-forecast__stats-container">
+          <div class="weather-forecast__stats-name">
+            Zonneschijn
+          </div>
+          <div class="weather-forecast__stats-value">
+            5 zonuren
+          </div>
+        </div>
+      </div>
+      <div class="weather-forecast__stats">
+        <img src="/assets/icons/metrics/solar-power-3a92ebbcf7e090b0cfa12e586a9acd09b841ebfdd231c1a807fc739bd3cba6a2.svg" alt="Zonkracht" />
+        <div class="weather-forecast__stats-container">
+          <div class="weather-forecast__stats-name">
+            Zonkracht
+          </div>
+          <div class="weather-forecast__stats-value">
+            1
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+        </div>
+        <div class="filled-main-content__highlight weather-forecast__table--compact js-weather-forecast">
+          
+
+
+
+
+    <div class="weather-forecast__day weather-forecast__code-regular">
+      <div class="weather-forecast__banner" role="button" tabindex="0" aria-expanded="false" aria-label="donderdag 22 oktober, gesloten, klik om details te tonen">
+        <div class="weather-forecast__date-container">
+          <h4 class="weather-forecast__weekday">
+            donderdag
+          </h4>
+          <time class="weather-forecast__date" datetime="2026-10-22">
+            22 oktober
+          </time>
+        </div>
+        <img class ="weather-forecast__weather-icon" src="/assets/forecast/1377-lichte-regen-zwaar-bewolkt-76942366934ed7448b80b18da43b60c569f8834ce08a85d6e24720c1a03089b6.svg" alt="lichte regen, zwaar bewolkt" />
+        <div class="weather-forecast__temperature">
+          <span class="weather-forecast__temperature-label">Max.</span>
+          <span class="weather-forecast__temperature-range">13°</span>
+        </div>
+        <div class="weather-forecast__temperature">
+          <span class="weather-forecast__temperature-label">Min.</span>
+          <span class="weather-forecast__temperature-range">6°</span>
+        </div>
+
+        <div class="weather-forecast__collapsible-button--container">
+          <img class="weather-forecast__collapsible-button js-weather-forecast__toggle" src="/assets/icons/expand-6861c5f2997fd0ee2a65b2a520252b5f92ef87b1be868d103a3892059bbd295c.svg" alt="" aria-hidden="true" />
+          <img class="weather-forecast__collapsible-button js-weather-forecast__toggle hidden" src="/assets/icons/reduce-9d44d6f2d25980d27b97a9276fd078645ddbe66b8df4ae1ee1f8df15f514ca3b.svg" alt="" aria-hidden="true" />
+        </div>
+      </div>
+      <div class="weather-forecast__details hidden">
+        <div class="weather-forecast__stats">
+          <img class="weather-forecast__stats--image" src="/assets/icons/metrics/raindrop-3976de3902b0223a0abc484e042561b89215fec699358189603a6a017036cff2.svg" alt="Neerslag" />
+          <div class="weather-forecast__stats-container">
+            <span class="weather-forecast__stats-name">
+              Neerslag
+            </span>
+            <span class="weather-forecast__stats-value">
+              4 mm
+            </span>
+          </div>
+        </div>
+        <div class="weather-forecast__stats">
+          <img class="weather-forecast__stats--image" src="/assets/icons/metrics/umbrella-f87ea2ac9ac05fd0e10a31ff6f657996bd8128bb71ef316157cb031decb4131b.svg" alt="Neerslagkans" />
+          <div class="weather-forecast__stats-container">
+            <span class="weather-forecast__stats-name">
+              Neerslagkans
+            </span>
+            <span class="weather-forecast__stats-value">
+              100%
+            </span>
+          </div>
+        </div>
+        <div class="weather-forecast__stats">
+          <img class="weather-forecast__stats--image" src="/assets/icons/metrics/wind-c8b2f7e160fccec30544c79570daff921722a0ef37505115a7fa4eecd85cc590.svg" alt="Windkracht" />
+          <div class="weather-forecast__stats-container">
+            <span class="weather-forecast__stats-name">
+              Windkracht
+            </span>
+            <span class="weather-forecast__stats-value">
+                <img class="weather-forecast__wind--icon" src="/assets/icons/directions/wind-direction-ZZW-ec7e05295669528dc6e7329ec0bf262b307abb329838fd02c7fd813c43c3d2f5.svg" alt="ZZW" />
+              <span>ZZW 5</span>
+            </span>
+          </div>
+        </div>
+        <div class="weather-forecast__stats">
+          <img class="weather-forecast__stats--image" src="/assets/icons/metrics/sun-66845dd52aa10c527313ab61bdddc5146fbee6f62a92053804c2e1d826eba67c.svg" alt="Zonneschijn" />
+          <div class="weather-forecast__stats-container">
+            <span class="weather-forecast__stats-name">
+              Zonneschijn
+            </span>
+            <span class="weather-forecast__stats-value">
+              2 zonuren
+            </span>
+          </div>
+        </div>
+        <div class="weather-forecast__stats">
+          <img class="weather-forecast__stats--image" src="/assets/icons/metrics/solar-power-3a92ebbcf7e090b0cfa12e586a9acd09b841ebfdd231c1a807fc739bd3cba6a2.svg" alt="Zonkracht" />
+          <div class="weather-forecast__stats-container">
+            <span class="weather-forecast__stats-name">
+              Zonkracht
+            </span>
+            <span class="weather-forecast__stats-value">
+              1
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="weather-forecast__day weather-forecast__code-yellow">
+      <div class="weather-forecast__banner" role="button" tabindex="0" aria-expanded="false" aria-label="vrijdag 23 oktober, gesloten, klik om details te tonen">
+        <div class="weather-forecast__date-container">
+          <h4 class="weather-forecast__weekday">
+            vrijdag
+          </h4>
+          <time class="weather-forecast__date" datetime="2026-10-23">
+            23 oktober
+          </time>
+        </div>
+        <img class ="weather-forecast__weather-icon" src="/assets/forecast/grayscale/1379-zware-regen-zwaar-bewolkt-032bef29ffa9b228007079346f29ce0ac74182fee2a3d794d93fe3fc31f084f3.svg" alt="zware regen, zwaar bewolkt - Waarschuwing" />
+        <div class="weather-forecast__temperature">
+          <span class="weather-forecast__temperature-label">Max.</span>
+          <span class="weather-forecast__temperature-range">12°</span>
+        </div>
+        <div class="weather-forecast__temperature">
+          <span class="weather-forecast__temperature-label">Min.</span>
+          <span class="weather-forecast__temperature-range">10°</span>
+        </div>
+
+        <div class="weather-forecast__collapsible-button--container">
+          <img class="weather-forecast__collapsible-button js-weather-forecast__toggle" src="/assets/icons/expand-6861c5f2997fd0ee2a65b2a520252b5f92ef87b1be868d103a3892059bbd295c.svg" alt="" aria-hidden="true" />
+          <img class="weather-forecast__collapsible-button js-weather-forecast__toggle hidden" src="/assets/icons/reduce-9d44d6f2d25980d27b97a9276fd078645ddbe66b8df4ae1ee1f8df15f514ca3b.svg" alt="" aria-hidden="true" />
+        </div>
+      </div>
+      <div class="weather-forecast__details hidden">
+        <div class="weather-forecast__stats">
+          <img class="weather-forecast__stats--image" src="/assets/icons/metrics/raindrop-3976de3902b0223a0abc484e042561b89215fec699358189603a6a017036cff2.svg" alt="Neerslag" />
+          <div class="weather-forecast__stats-container">
+            <span class="weather-forecast__stats-name">
+              Neerslag
+            </span>
+            <span class="weather-forecast__stats-value">
+              24 mm
+            </span>
+          </div>
+        </div>
+        <div class="weather-forecast__stats">
+          <img class="weather-forecast__stats--image" src="/assets/icons/metrics/umbrella-f87ea2ac9ac05fd0e10a31ff6f657996bd8128bb71ef316157cb031decb4131b.svg" alt="Neerslagkans" />
+          <div class="weather-forecast__stats-container">
+            <span class="weather-forecast__stats-name">
+              Neerslagkans
+            </span>
+            <span class="weather-forecast__stats-value">
+              100%
+            </span>
+          </div>
+        </div>
+        <div class="weather-forecast__stats">
+          <img class="weather-forecast__stats--image" src="/assets/icons/metrics/wind-c8b2f7e160fccec30544c79570daff921722a0ef37505115a7fa4eecd85cc590.svg" alt="Windkracht" />
+          <div class="weather-forecast__stats-container">
+            <span class="weather-forecast__stats-name">
+              Windkracht
+            </span>
+            <span class="weather-forecast__stats-value">
+                <img class="weather-forecast__wind--icon" src="/assets/icons/directions/wind-direction-ZO-d9d1c4d5cd3a6b3e447f3b119d66068bbbd39ccf69ec784f4eefce204e14899a.svg" alt="ZO" />
+              <span>ZO 5</span>
+            </span>
+          </div>
+        </div>
+        <div class="weather-forecast__stats">
+          <img class="weather-forecast__stats--image" src="/assets/icons/metrics/sun-66845dd52aa10c527313ab61bdddc5146fbee6f62a92053804c2e1d826eba67c.svg" alt="Zonneschijn" />
+          <div class="weather-forecast__stats-container">
+            <span class="weather-forecast__stats-name">
+              Zonneschijn
+            </span>
+            <span class="weather-forecast__stats-value">
+              0 zonuren
+            </span>
+          </div>
+        </div>
+        <div class="weather-forecast__stats">
+          <img class="weather-forecast__stats--image" src="/assets/icons/metrics/solar-power-3a92ebbcf7e090b0cfa12e586a9acd09b841ebfdd231c1a807fc739bd3cba6a2.svg" alt="Zonkracht" />
+          <div class="weather-forecast__stats-container">
+            <span class="weather-forecast__stats-name">
+              Zonkracht
+            </span>
+            <span class="weather-forecast__stats-value">
+              1
+            </span>
+          </div>
+        </div>
+      </div>
+        <div class="weather-forecast__warnings-summary">
+          <hr />
+          <div class="weather-forecast__warnings-summary--link">
+              <a href="/nederland-nu/weer/waarschuwingen">
+                <div class="weather-forecast__warnings">
+                  <div class="weather-forecast__warning">
+                    <div class="weather-forecast__phenomena">
+                      <span>Code geel </span>
+                        <div class="weather-forecast__phenomenon">
+                            <img class="weather-forecast__phenomenon--icon" src="/assets/icons/alerts/FX-452a542df9e1e6f357f0b0b63cd13daa023267ddfe2bdb8d01b9239e2982f707.svg" alt="(zeer) zware windstoten" />
+                            <span class="weather-forecast__phenomenon--message">(zeer) zware windstoten</span>
+                        </div>
+                      <img class="weather-forecast__warning-indicator" src="/assets/icons/indicators/yellow-480a3b780ae97382aaedd9af0395dc832c7b8f8c75eaca951075635fb8b1c72d.svg" alt="Waarschuwingen" />
+                    </div>
+                  </div>
+                </div>
+</a>          </div>
+        </div>
+    </div>
+
+    <div class="weather-forecast__day weather-forecast__code-yellow">
+      <div class="weather-forecast__banner" role="button" tabindex="0" aria-expanded="false" aria-label="zaterdag 24 oktober, gesloten, klik om details te tonen">
+        <div class="weather-forecast__date-container">
+          <h4 class="weather-forecast__weekday">
+            zaterdag
+          </h4>
+          <time class="weather-forecast__date" datetime="2026-10-24">
+            24 oktober
+          </time>
+        </div>
+        <img class ="weather-forecast__weather-icon" src="/assets/forecast/grayscale/1384-zware-bui-afgewisseld-door-zon-overdag-8fbc28b01a217191ea050f4a8cf87ac24bae2c50617168c422effc6bf7eaf09a.svg" alt="zware bui afgewisseld door zon overdag - Waarschuwing" />
+        <div class="weather-forecast__temperature">
+          <span class="weather-forecast__temperature-label">Max.</span>
+          <span class="weather-forecast__temperature-range">12°</span>
+        </div>
+        <div class="weather-forecast__temperature">
+          <span class="weather-forecast__temperature-label">Min.</span>
+          <span class="weather-forecast__temperature-range">9°</span>
+        </div>
+
+        <div class="weather-forecast__collapsible-button--container">
+          <img class="weather-forecast__collapsible-button js-weather-forecast__toggle" src="/assets/icons/expand-6861c5f2997fd0ee2a65b2a520252b5f92ef87b1be868d103a3892059bbd295c.svg" alt="" aria-hidden="true" />
+          <img class="weather-forecast__collapsible-button js-weather-forecast__toggle hidden" src="/assets/icons/reduce-9d44d6f2d25980d27b97a9276fd078645ddbe66b8df4ae1ee1f8df15f514ca3b.svg" alt="" aria-hidden="true" />
+        </div>
+      </div>
+      <div class="weather-forecast__details hidden">
+        <div class="weather-forecast__stats">
+          <img class="weather-forecast__stats--image" src="/assets/icons/metrics/raindrop-3976de3902b0223a0abc484e042561b89215fec699358189603a6a017036cff2.svg" alt="Neerslag" />
+          <div class="weather-forecast__stats-container">
+            <span class="weather-forecast__stats-name">
+              Neerslag
+            </span>
+            <span class="weather-forecast__stats-value">
+              16/21 mm
+            </span>
+          </div>
+        </div>
+        <div class="weather-forecast__stats">
+          <img class="weather-forecast__stats--image" src="/assets/icons/metrics/umbrella-f87ea2ac9ac05fd0e10a31ff6f657996bd8128bb71ef316157cb031decb4131b.svg" alt="Neerslagkans" />
+          <div class="weather-forecast__stats-container">
+            <span class="weather-forecast__stats-name">
+              Neerslagkans
+            </span>
+            <span class="weather-forecast__stats-value">
+              100%
+            </span>
+          </div>
+        </div>
+        <div class="weather-forecast__stats">
+          <img class="weather-forecast__stats--image" src="/assets/icons/metrics/wind-c8b2f7e160fccec30544c79570daff921722a0ef37505115a7fa4eecd85cc590.svg" alt="Windkracht" />
+          <div class="weather-forecast__stats-container">
+            <span class="weather-forecast__stats-name">
+              Windkracht
+            </span>
+            <span class="weather-forecast__stats-value">
+                <img class="weather-forecast__wind--icon" src="/assets/icons/directions/wind-direction-WZW-d47ab4cfc8d96a9a359bd3546bf9efd324e25f9c365b8e43d2133e4292dd726f.svg" alt="WZW" />
+              <span>WZW 5</span>
+            </span>
+          </div>
+        </div>
+        <div class="weather-forecast__stats">
+          <img class="weather-forecast__stats--image" src="/assets/icons/metrics/sun-66845dd52aa10c527313ab61bdddc5146fbee6f62a92053804c2e1d826eba67c.svg" alt="Zonneschijn" />
+          <div class="weather-forecast__stats-container">
+            <span class="weather-forecast__stats-name">
+              Zonneschijn
+            </span>
+            <span class="weather-forecast__stats-value">
+              4 zonuren
+            </span>
+          </div>
+        </div>
+        <div class="weather-forecast__stats">
+          <img class="weather-forecast__stats--image" src="/assets/icons/metrics/solar-power-3a92ebbcf7e090b0cfa12e586a9acd09b841ebfdd231c1a807fc739bd3cba6a2.svg" alt="Zonkracht" />
+          <div class="weather-forecast__stats-container">
+            <span class="weather-forecast__stats-name">
+              Zonkracht
+            </span>
+            <span class="weather-forecast__stats-value">
+              1
+            </span>
+          </div>
+        </div>
+      </div>
+        <div class="weather-forecast__warnings-summary">
+          <hr />
+          <div class="weather-forecast__warnings-summary--link">
+              <a href="/nederland-nu/weer/waarschuwingen">
+                <div class="weather-forecast__warnings">
+                  <div class="weather-forecast__warning">
+                    <div class="weather-forecast__phenomena">
+                      <span>Code geel </span>
+                        <div class="weather-forecast__phenomenon">
+                            <img class="weather-forecast__phenomenon--icon" src="/assets/icons/alerts/FX-452a542df9e1e6f357f0b0b63cd13daa023267ddfe2bdb8d01b9239e2982f707.svg" alt="(zeer) zware windstoten" />
+                            <span class="weather-forecast__phenomenon--message">(zeer) zware windstoten</span>
+                        </div>
+                      <img class="weather-forecast__warning-indicator" src="/assets/icons/indicators/yellow-480a3b780ae97382aaedd9af0395dc832c7b8f8c75eaca951075635fb8b1c72d.svg" alt="Waarschuwingen" />
+                    </div>
+                  </div>
+                </div>
+</a>          </div>
+        </div>
+    </div>
+
+    <div class="weather-forecast__day weather-forecast__code-warning">
+      <div class="weather-forecast__banner" role="button" tabindex="0" aria-expanded="false" aria-label="zondag 25 oktober, gesloten, klik om details te tonen">
+        <div class="weather-forecast__date-container">
+          <h4 class="weather-forecast__weekday">
+            zondag
+          </h4>
+          <time class="weather-forecast__date" datetime="2026-10-25">
+            25 oktober
+          </time>
+        </div>
+        <img class ="weather-forecast__weather-icon" src="/assets/forecast/1384-zware-bui-afgewisseld-door-zon-overdag-f880d431c3d2a323f05589311c3cd6ab3db8d3549021d5f8a6141e3e00f37753.svg" alt="zware bui afgewisseld door zon overdag - Mogelijke waarschuwing" />
+        <div class="weather-forecast__temperature">
+          <span class="weather-forecast__temperature-label">Max.</span>
+          <span class="weather-forecast__temperature-range">13°</span>
+        </div>
+        <div class="weather-forecast__temperature">
+          <span class="weather-forecast__temperature-label">Min.</span>
+          <span class="weather-forecast__temperature-range">9°</span>
+        </div>
+
+        <div class="weather-forecast__collapsible-button--container">
+          <img class="weather-forecast__collapsible-button js-weather-forecast__toggle" src="/assets/icons/expand-6861c5f2997fd0ee2a65b2a520252b5f92ef87b1be868d103a3892059bbd295c.svg" alt="" aria-hidden="true" />
+          <img class="weather-forecast__collapsible-button js-weather-forecast__toggle hidden" src="/assets/icons/reduce-9d44d6f2d25980d27b97a9276fd078645ddbe66b8df4ae1ee1f8df15f514ca3b.svg" alt="" aria-hidden="true" />
+        </div>
+      </div>
+      <div class="weather-forecast__details hidden">
+        <div class="weather-forecast__stats">
+          <img class="weather-forecast__stats--image" src="/assets/icons/metrics/raindrop-3976de3902b0223a0abc484e042561b89215fec699358189603a6a017036cff2.svg" alt="Neerslag" />
+          <div class="weather-forecast__stats-container">
+            <span class="weather-forecast__stats-name">
+              Neerslag
+            </span>
+            <span class="weather-forecast__stats-value">
+              4/11 mm
+            </span>
+          </div>
+        </div>
+        <div class="weather-forecast__stats">
+          <img class="weather-forecast__stats--image" src="/assets/icons/metrics/umbrella-f87ea2ac9ac05fd0e10a31ff6f657996bd8128bb71ef316157cb031decb4131b.svg" alt="Neerslagkans" />
+          <div class="weather-forecast__stats-container">
+            <span class="weather-forecast__stats-name">
+              Neerslagkans
+            </span>
+            <span class="weather-forecast__stats-value">
+              100%
+            </span>
+          </div>
+        </div>
+        <div class="weather-forecast__stats">
+          <img class="weather-forecast__stats--image" src="/assets/icons/metrics/wind-c8b2f7e160fccec30544c79570daff921722a0ef37505115a7fa4eecd85cc590.svg" alt="Windkracht" />
+          <div class="weather-forecast__stats-container">
+            <span class="weather-forecast__stats-name">
+              Windkracht
+            </span>
+            <span class="weather-forecast__stats-value">
+                <img class="weather-forecast__wind--icon" src="/assets/icons/directions/wind-direction-ZZW-ec7e05295669528dc6e7329ec0bf262b307abb329838fd02c7fd813c43c3d2f5.svg" alt="ZZW" />
+              <span>ZZW 5</span>
+            </span>
+          </div>
+        </div>
+        <div class="weather-forecast__stats">
+          <img class="weather-forecast__stats--image" src="/assets/icons/metrics/sun-66845dd52aa10c527313ab61bdddc5146fbee6f62a92053804c2e1d826eba67c.svg" alt="Zonneschijn" />
+          <div class="weather-forecast__stats-container">
+            <span class="weather-forecast__stats-name">
+              Zonneschijn
+            </span>
+            <span class="weather-forecast__stats-value">
+              5 zonuren
+            </span>
+          </div>
+        </div>
+        <div class="weather-forecast__stats">
+          <img class="weather-forecast__stats--image" src="/assets/icons/metrics/solar-power-3a92ebbcf7e090b0cfa12e586a9acd09b841ebfdd231c1a807fc739bd3cba6a2.svg" alt="Zonkracht" />
+          <div class="weather-forecast__stats-container">
+            <span class="weather-forecast__stats-name">
+              Zonkracht
+            </span>
+            <span class="weather-forecast__stats-value">
+              1
+            </span>
+          </div>
+        </div>
+      </div>
+        <div class="weather-forecast__warnings-summary">
+          <hr />
+          <div class="weather-forecast__warnings-summary--link">
+              <a href="/nederland-nu/weer/mogelijk-gevaarlijk-weer/zo">
+                <div class="weather-forecast__warnings">
+                  <div class="weather-forecast__warning">
+                  <div class="weather-forecast__phenomena">
+                      <div class="weather-forecast__phenomenon">
+                          <img class="weather-forecast__phenomenon--icon" src="/assets/icons/alerts/FX-452a542df9e1e6f357f0b0b63cd13daa023267ddfe2bdb8d01b9239e2982f707.svg" alt="(zeer) zware windstoten" />
+                          <span class="weather-forecast__phenomenon--message">Mogelijk (zeer) zware windstoten</span>
+                      </div>
+                    <img class="weather-forecast__warning-indicator" src="/assets/icons/indicators/warning-d0e48f22303e3cd8470277bcedf0a1c51432e1278341be6448663f199616c0e2.svg" alt="Mogelijke waarschuwingen" />
+                  </div>
+                </div>
+              </div>
+</a>          </div>
+        </div>
+    </div>
+
+    <div class="weather-forecast__day weather-forecast__code-regular">
+      <div class="weather-forecast__banner" role="button" tabindex="0" aria-expanded="false" aria-label="maandag 26 oktober, gesloten, klik om details te tonen">
+        <div class="weather-forecast__date-container">
+          <h4 class="weather-forecast__weekday">
+            maandag
+          </h4>
+          <time class="weather-forecast__date" datetime="2026-10-26">
+            26 oktober
+          </time>
+        </div>
+        <img class ="weather-forecast__weather-icon" src="/assets/forecast/1380-lichte-bui-afgewisseld-door-zon-d9f9d91111f095438be87d5848ce1ed2539ae5773c4a08d863cb9813cff37c6d.svg" alt="lichte bui afgewisseld door zon" />
+        <div class="weather-forecast__temperature">
+          <span class="weather-forecast__temperature-label">Max.</span>
+          <span class="weather-forecast__temperature-range">14°</span>
+        </div>
+        <div class="weather-forecast__temperature">
+          <span class="weather-forecast__temperature-label">Min.</span>
+          <span class="weather-forecast__temperature-range">9°</span>
+        </div>
+
+        <div class="weather-forecast__collapsible-button--container">
+          <img class="weather-forecast__collapsible-button js-weather-forecast__toggle" src="/assets/icons/expand-6861c5f2997fd0ee2a65b2a520252b5f92ef87b1be868d103a3892059bbd295c.svg" alt="" aria-hidden="true" />
+          <img class="weather-forecast__collapsible-button js-weather-forecast__toggle hidden" src="/assets/icons/reduce-9d44d6f2d25980d27b97a9276fd078645ddbe66b8df4ae1ee1f8df15f514ca3b.svg" alt="" aria-hidden="true" />
+        </div>
+      </div>
+      <div class="weather-forecast__details hidden">
+        <div class="weather-forecast__stats">
+          <img class="weather-forecast__stats--image" src="/assets/icons/metrics/raindrop-3976de3902b0223a0abc484e042561b89215fec699358189603a6a017036cff2.svg" alt="Neerslag" />
+          <div class="weather-forecast__stats-container">
+            <span class="weather-forecast__stats-name">
+              Neerslag
+            </span>
+            <span class="weather-forecast__stats-value">
+              1/5 mm
+            </span>
+          </div>
+        </div>
+        <div class="weather-forecast__stats">
+          <img class="weather-forecast__stats--image" src="/assets/icons/metrics/umbrella-f87ea2ac9ac05fd0e10a31ff6f657996bd8128bb71ef316157cb031decb4131b.svg" alt="Neerslagkans" />
+          <div class="weather-forecast__stats-container">
+            <span class="weather-forecast__stats-name">
+              Neerslagkans
+            </span>
+            <span class="weather-forecast__stats-value">
+              80%
+            </span>
+          </div>
+        </div>
+        <div class="weather-forecast__stats">
+          <img class="weather-forecast__stats--image" src="/assets/icons/metrics/wind-c8b2f7e160fccec30544c79570daff921722a0ef37505115a7fa4eecd85cc590.svg" alt="Windkracht" />
+          <div class="weather-forecast__stats-container">
+            <span class="weather-forecast__stats-name">
+              Windkracht
+            </span>
+            <span class="weather-forecast__stats-value">
+                <img class="weather-forecast__wind--icon" src="/assets/icons/directions/wind-direction-WZW-d47ab4cfc8d96a9a359bd3546bf9efd324e25f9c365b8e43d2133e4292dd726f.svg" alt="WZW" />
+              <span>WZW 4</span>
+            </span>
+          </div>
+        </div>
+        <div class="weather-forecast__stats">
+          <img class="weather-forecast__stats--image" src="/assets/icons/metrics/sun-66845dd52aa10c527313ab61bdddc5146fbee6f62a92053804c2e1d826eba67c.svg" alt="Zonneschijn" />
+          <div class="weather-forecast__stats-container">
+            <span class="weather-forecast__stats-name">
+              Zonneschijn
+            </span>
+            <span class="weather-forecast__stats-value">
+              3 zonuren
+            </span>
+          </div>
+        </div>
+        <div class="weather-forecast__stats">
+          <img class="weather-forecast__stats--image" src="/assets/icons/metrics/solar-power-3a92ebbcf7e090b0cfa12e586a9acd09b841ebfdd231c1a807fc739bd3cba6a2.svg" alt="Zonkracht" />
+          <div class="weather-forecast__stats-container">
+            <span class="weather-forecast__stats-name">
+              Zonkracht
+            </span>
+            <span class="weather-forecast__stats-value">
+              1
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="weather-forecast__day weather-forecast__code-regular">
+      <div class="weather-forecast__banner" role="button" tabindex="0" aria-expanded="false" aria-label="dinsdag 27 oktober, gesloten, klik om details te tonen">
+        <div class="weather-forecast__date-container">
+          <h4 class="weather-forecast__weekday">
+            dinsdag
+          </h4>
+          <time class="weather-forecast__date" datetime="2026-10-27">
+            27 oktober
+          </time>
+        </div>
+        <img class ="weather-forecast__weather-icon" src="/assets/forecast/1380-lichte-bui-afgewisseld-door-zon-d9f9d91111f095438be87d5848ce1ed2539ae5773c4a08d863cb9813cff37c6d.svg" alt="lichte bui afgewisseld door zon" />
+        <div class="weather-forecast__temperature">
+          <span class="weather-forecast__temperature-label">Max.</span>
+          <span class="weather-forecast__temperature-range">17°</span>
+        </div>
+        <div class="weather-forecast__temperature">
+          <span class="weather-forecast__temperature-label">Min.</span>
+          <span class="weather-forecast__temperature-range">10°</span>
+        </div>
+
+        <div class="weather-forecast__collapsible-button--container">
+          <img class="weather-forecast__collapsible-button js-weather-forecast__toggle" src="/assets/icons/expand-6861c5f2997fd0ee2a65b2a520252b5f92ef87b1be868d103a3892059bbd295c.svg" alt="" aria-hidden="true" />
+          <img class="weather-forecast__collapsible-button js-weather-forecast__toggle hidden" src="/assets/icons/reduce-9d44d6f2d25980d27b97a9276fd078645ddbe66b8df4ae1ee1f8df15f514ca3b.svg" alt="" aria-hidden="true" />
+        </div>
+      </div>
+      <div class="weather-forecast__details hidden">
+        <div class="weather-forecast__stats">
+          <img class="weather-forecast__stats--image" src="/assets/icons/metrics/raindrop-3976de3902b0223a0abc484e042561b89215fec699358189603a6a017036cff2.svg" alt="Neerslag" />
+          <div class="weather-forecast__stats-container">
+            <span class="weather-forecast__stats-name">
+              Neerslag
+            </span>
+            <span class="weather-forecast__stats-value">
+              2/5 mm
+            </span>
+          </div>
+        </div>
+        <div class="weather-forecast__stats">
+          <img class="weather-forecast__stats--image" src="/assets/icons/metrics/umbrella-f87ea2ac9ac05fd0e10a31ff6f657996bd8128bb71ef316157cb031decb4131b.svg" alt="Neerslagkans" />
+          <div class="weather-forecast__stats-container">
+            <span class="weather-forecast__stats-name">
+              Neerslagkans
+            </span>
+            <span class="weather-forecast__stats-value">
+              90%
+            </span>
+          </div>
+        </div>
+        <div class="weather-forecast__stats">
+          <img class="weather-forecast__stats--image" src="/assets/icons/metrics/wind-c8b2f7e160fccec30544c79570daff921722a0ef37505115a7fa4eecd85cc590.svg" alt="Windkracht" />
+          <div class="weather-forecast__stats-container">
+            <span class="weather-forecast__stats-name">
+              Windkracht
+            </span>
+            <span class="weather-forecast__stats-value">
+                <img class="weather-forecast__wind--icon" src="/assets/icons/directions/wind-direction-ZZW-ec7e05295669528dc6e7329ec0bf262b307abb329838fd02c7fd813c43c3d2f5.svg" alt="ZZW" />
+              <span>ZZW 4</span>
+            </span>
+          </div>
+        </div>
+        <div class="weather-forecast__stats">
+          <img class="weather-forecast__stats--image" src="/assets/icons/metrics/sun-66845dd52aa10c527313ab61bdddc5146fbee6f62a92053804c2e1d826eba67c.svg" alt="Zonneschijn" />
+          <div class="weather-forecast__stats-container">
+            <span class="weather-forecast__stats-name">
+              Zonneschijn
+            </span>
+            <span class="weather-forecast__stats-value">
+              3 zonuren
+            </span>
+          </div>
+        </div>
+        <div class="weather-forecast__stats">
+          <img class="weather-forecast__stats--image" src="/assets/icons/metrics/solar-power-3a92ebbcf7e090b0cfa12e586a9acd09b841ebfdd231c1a807fc739bd3cba6a2.svg" alt="Zonkracht" />
+          <div class="weather-forecast__stats-container">
+            <span class="weather-forecast__stats-name">
+              Zonkracht
+            </span>
+            <span class="weather-forecast__stats-value">
+              1
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="weather-forecast__day weather-forecast__code-regular">
+      <div class="weather-forecast__banner" role="button" tabindex="0" aria-expanded="false" aria-label="woensdag 28 oktober, gesloten, klik om details te tonen">
+        <div class="weather-forecast__date-container">
+          <h4 class="weather-forecast__weekday">
+            woensdag
+          </h4>
+          <time class="weather-forecast__date" datetime="2026-10-28">
+            28 oktober
+          </time>
+        </div>
+        <img class ="weather-forecast__weather-icon" src="/assets/forecast/1380-lichte-bui-afgewisseld-door-zon-d9f9d91111f095438be87d5848ce1ed2539ae5773c4a08d863cb9813cff37c6d.svg" alt="lichte bui afgewisseld door zon" />
+        <div class="weather-forecast__temperature">
+          <span class="weather-forecast__temperature-label">Max.</span>
+          <span class="weather-forecast__temperature-range">14°</span>
+        </div>
+        <div class="weather-forecast__temperature">
+          <span class="weather-forecast__temperature-label">Min.</span>
+          <span class="weather-forecast__temperature-range">9°</span>
+        </div>
+
+        <div class="weather-forecast__collapsible-button--container">
+          <img class="weather-forecast__collapsible-button js-weather-forecast__toggle" src="/assets/icons/expand-6861c5f2997fd0ee2a65b2a520252b5f92ef87b1be868d103a3892059bbd295c.svg" alt="" aria-hidden="true" />
+          <img class="weather-forecast__collapsible-button js-weather-forecast__toggle hidden" src="/assets/icons/reduce-9d44d6f2d25980d27b97a9276fd078645ddbe66b8df4ae1ee1f8df15f514ca3b.svg" alt="" aria-hidden="true" />
+        </div>
+      </div>
+      <div class="weather-forecast__details hidden">
+        <div class="weather-forecast__stats">
+          <img class="weather-forecast__stats--image" src="/assets/icons/metrics/raindrop-3976de3902b0223a0abc484e042561b89215fec699358189603a6a017036cff2.svg" alt="Neerslag" />
+          <div class="weather-forecast__stats-container">
+            <span class="weather-forecast__stats-name">
+              Neerslag
+            </span>
+            <span class="weather-forecast__stats-value">
+              0/2 mm
+            </span>
+          </div>
+        </div>
+        <div class="weather-forecast__stats">
+          <img class="weather-forecast__stats--image" src="/assets/icons/metrics/umbrella-f87ea2ac9ac05fd0e10a31ff6f657996bd8128bb71ef316157cb031decb4131b.svg" alt="Neerslagkans" />
+          <div class="weather-forecast__stats-container">
+            <span class="weather-forecast__stats-name">
+              Neerslagkans
+            </span>
+            <span class="weather-forecast__stats-value">
+              60%
+            </span>
+          </div>
+        </div>
+        <div class="weather-forecast__stats">
+          <img class="weather-forecast__stats--image" src="/assets/icons/metrics/wind-c8b2f7e160fccec30544c79570daff921722a0ef37505115a7fa4eecd85cc590.svg" alt="Windkracht" />
+          <div class="weather-forecast__stats-container">
+            <span class="weather-forecast__stats-name">
+              Windkracht
+            </span>
+            <span class="weather-forecast__stats-value">
+                <img class="weather-forecast__wind--icon" src="/assets/icons/directions/wind-direction-WZW-d47ab4cfc8d96a9a359bd3546bf9efd324e25f9c365b8e43d2133e4292dd726f.svg" alt="WZW" />
+              <span>WZW 4</span>
+            </span>
+          </div>
+        </div>
+        <div class="weather-forecast__stats">
+          <img class="weather-forecast__stats--image" src="/assets/icons/metrics/sun-66845dd52aa10c527313ab61bdddc5146fbee6f62a92053804c2e1d826eba67c.svg" alt="Zonneschijn" />
+          <div class="weather-forecast__stats-container">
+            <span class="weather-forecast__stats-name">
+              Zonneschijn
+            </span>
+            <span class="weather-forecast__stats-value">
+              5 zonuren
+            </span>
+          </div>
+        </div>
+        <div class="weather-forecast__stats">
+          <img class="weather-forecast__stats--image" src="/assets/icons/metrics/solar-power-3a92ebbcf7e090b0cfa12e586a9acd09b841ebfdd231c1a807fc739bd3cba6a2.svg" alt="Zonkracht" />
+          <div class="weather-forecast__stats-container">
+            <span class="weather-forecast__stats-name">
+              Zonkracht
+            </span>
+            <span class="weather-forecast__stats-value">
+              1
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+        </div>
+      </div>
+    </div>
+  <div class="columns filled-main-content padding-bottom-0">
+    <div class="col-sm-12 col-md-3 col-md-offset-1">
+  <h2 class="margin-0">Vooruitzichten lange termijn</h2>
+</div>
+<div class="col-sm-12 col-md-7">
+    <p class="margin-top-0">
+      <strong class="block">donderdag 29 oktober tot en met donderdag 05 november</strong>
+      Grote kans op rustig en droog herfstweer. De dagelijkse kans op neerslag loopt later op naar ongeveer 30%. De temperatuur ligt rond het <a href='/nederland-nu/weer/waarschuwingen-en-verwachtingen/normalentabel'>langjarig gemiddelde</a>.
+    </p>
+    <span class="meta">22/10/2026 02.46 uur LT</span>
+</div>
+
+  </div>
+  <div class="columns filled-main-content">
+    <div class="col-sm-12 col-md-3 col-md-offset-1">
+      <div class="share-options">
+  <input type="checkbox" id="page-id" class="share-button" onclick="showNotification('')" />
+  <label for="page-id">
+    <span class="page-share-icon"><img src="/assets/icons/share-41bad2d91bdd14af06e2cf8a848b5ba4f23136c9bb131edbcd35ffe578d18a1f.svg" alt="Deel icoon" />Pagina delen</span>
+  </label>
+</div>
+    </div>
+  </div>
+</div>
+  <div class="wrapper">
+    <div class="morelinks columns">
+      <div class="col-sm-12 col-md-10 col-md-offset-1">
+        <h2 class="morelinks__title">Meer verwachtingen</h2>
+        <ul>
+            <li><a class="btn " href="/nederland-nu/weer/waarschuwingen-en-verwachtingen/weerkaarten" >Weerkaarten</a></li>
+            <li><a class="btn " href="/nederland-nu/weer/waarschuwingen-en-verwachtingen/ensemble" >Verwachtingen in detail</a></li>
+            <li><a class="btn " href="/nederland-nu/weer/waarschuwingen-en-verwachtingen/weer-en-klimaatpluim" >Weer- en klimaatpluim en Expertpluim</a></li>
+            <li><a class="btn " href="/nederland-nu/weer/waarschuwingen-en-verwachtingen/zonkracht" >Zonkrachtverwachting</a></li>
+            <li><a class="btn " href="/nederland-nu/weer/waarschuwingen-en-verwachtingen/normalentabel" >Normale waarden temperatuur</a></li>
+            <li><a class="btn " href="/kennis-en-datacentrum/achtergrond/de-weersverwachting" >Uitleg over weersverwachtingen</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  <div class="wrapper banner-visual-wrp">
+    <a class="banner-visual" href="/nederland-nu/weer/waarschuwingen">
+	<div class="banner-visual__img">
+		<div class="banner-visual__img-inner b-lazy" data-src="/assets/weather-warnings-e4440484e5de67d0e9b834d902929058f15b2ac6bae2accbb5c7090087652315.jpg"></div>
+	</div>
+	<span class="h2 icon-arrow-right-after">Bekijk waarschuwingen</span>
+</a>
+
+    <a class="banner-visual" href="/nederland-nu/weer/waarnemingen">
+	<div class="banner-visual__img">
+		<div class="banner-visual__img-inner b-lazy" data-src="/assets/weather-observations-c6d395e69757a6c8073a37a49bb0d9beeac7d33f2a207e13bd6f93f88f0e4973.jpg"></div>
+	</div>
+	<span class="h2 icon-arrow-right-after">Bekijk waarnemingen</span>
+</a>
+
+  </div>
+
+</main>
+
+<footer class="site-footer">
+    <div class="share">
+      <h2 class="share__title">Volg ons op social media</h2>
+      <ul class="share__list">
+          <li>
+            <a href="https://nl.linkedin.com/company/knmi" class="share__button volg ons op linkedin" target="_blank" rel="noopener" title="Volg ons op LinkedIn">
+              <img alt="Volg ons op LinkedIn" class="social-icon" src="https://cdn.knmi.nl/system/social_links/images/000/000/001/icon/knmi-footer-social-linkedin.png?1770752257" />
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/knmi.nl/" class="share__button volg ons op instagram" target="_blank" rel="noopener" title="Volg ons op Instagram">
+              <img alt="Volg ons op Instagram" class="social-icon" src="https://cdn.knmi.nl/system/social_links/images/000/000/004/icon/knmi-footer-social-instagram.png?1770752258" />
+            </a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/channel/UCqQtmDbRgKOoJ_lPv_mU9nQ" class="share__button volg ons op youtube" target="_blank" rel="noopener" title="Volg ons op YouTube">
+              <img alt="Volg ons op YouTube" class="social-icon" src="https://cdn.knmi.nl/system/social_links/images/000/000/002/icon/knmi-footer-social-youtube.png?1770752258" />
+            </a>
+          </li>
+          <li>
+            <a href="https://bsky.app/profile/knmi.nl" class="share__button volg ons op bluesky" target="_blank" rel="noopener" title="Volg ons op Bluesky">
+              <img alt="Volg ons op Bluesky" class="social-icon" src="https://cdn.knmi.nl/system/social_links/images/000/000/005/icon/knmi-footer-social-bluesky.png?1770752258" />
+            </a>
+          </li>
+          <li>
+            <a href="https://social.overheid.nl/@knmi" class="share__button volg ons op mastodon" target="_blank" rel="me noopener" title="Volg ons op Mastodon">
+              <img alt="Volg ons op Mastodon" class="social-icon" src="https://cdn.knmi.nl/system/social_links/images/000/000/003/icon/knmi-footer-social-mastodon.png?1770752258" />
+            </a>
+          </li>
+      </ul>
+    </div>
+  <div>
+    <ul>
+      <li><a href="/copyright">Copyright</a></li>
+      <li><a href="/privacy">Privacy</a></li>
+      <li><a href="/cookies">Cookies</a></li>
+      <li><a href="/toegankelijkheid">Toegankelijkheid</a></li>
+    </ul>
+  </div>
+</footer>
+
+
+<div class="loading-modal"></div>
+
+<script>window.ahoyEnabled = true;</script>
+<script src="/assets/application-6a04d7793de7eadd33c25ec70ef546324bda6ac6178a211fe356f8228a1a8428.js"></script>
+
+
+
+</body>
+</html>

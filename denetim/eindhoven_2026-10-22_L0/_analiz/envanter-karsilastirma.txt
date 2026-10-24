@@ -1,0 +1,9 @@
+pkg inventory keys: ['root', 'xlsx_checked', 'summary', 'totals', 'folders', 'findings', 'files']
+pkg summary {"files": 763, "total_mb": 199.68, "images": 410, "missing": 0, "sha_mismatch": 0, "file_ne_original": 0, "bad_ext": 0, "ext_mismatch": 0, "orphans": 0, "dup_sha": 8, "errors": 0}
+pkg totals {"files": 763, "total_bytes": 199680461, "total_mb": 199.68}
+files pkg-inventory: 763 audit-inventory: 772
+only in audit inventory: 9 ['Teslimler/ACIK_KONULAR.txt', 'Teslimler/ILERLEME_KAYDI.txt', 'Teslimler/TESLIM_OZETI.txt', 'Teslimler/dosya-envanteri.json', 'Teslimler/fotograf-atif-onizleme.html', 'Teslimler/fotograf-atiflari-v7.csv', 'Teslimler/normalized-tables-v7.json', 'Teslimler/paket-kontrol-v7.json', 'Teslimler/photo-provenance-v7.json']
+only in pkg inventory: 0 []
+sha differs: 0 []
+paket-kontrol keys: ['version', 'media', 'structure', 'minimum_gaps', 'long_values_restored', 'technically_complete', 'whole_package_human_approval', 'database_written', 'published', 'tolerated_duplicate_list_cells']
+{"version": "7.0", "media": "dict12", "structure": "dict13", "minimum_gaps": "dict0", "long_values_restored": 0, "technically_complete": true, "whole_package_human_approval": "Not granted by this tool", "database_written": false, "published": false, "tolerated_duplicate_list_cells": 0}

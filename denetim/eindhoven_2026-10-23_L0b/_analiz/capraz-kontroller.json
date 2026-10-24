@@ -1,0 +1,1397 @@
+{
+ "sheet_rows": {
+  "Adımlar": 10,
+  "Bağlantılar": 581,
+  "FotoğrafKaynakları": 226,
+  "Fotoğraflar": 226,
+  "Kanıtlar": 226,
+  "Kaynaklar": 397,
+  "Konular": 12,
+  "Mahalleler": 16,
+  "Mekânlar": 119,
+  "Rotalar": 12,
+  "SayfaAlanları": 23,
+  "Sözlük": 60,
+  "Teslimat": 1,
+  "Yanıtlar": 289,
+  "Şehir": 1
+ },
+ "photos": {
+  "rows": 226,
+  "roles": {
+   "Mekân": 218,
+   "Kapak": 8
+  },
+  "unique_file_sha": 218,
+  "unique_venue_sha": 218,
+  "unique_cover_sha": 8,
+  "unique_source_url": 218,
+  "covers": [
+   {
+    "photo_id": "eindhoven:photo:kapak-01",
+    "row": 226,
+    "file": "Fotoğraflar/eindhoven_kapak_01.jpg"
+   },
+   {
+    "photo_id": "eindhoven:photo:kapak-02",
+    "row": 227,
+    "file": "Fotoğraflar/eindhoven_kapak_02.jpg"
+   },
+   {
+    "photo_id": "eindhoven:photo:kapak-03",
+    "row": 228,
+    "file": "Fotoğraflar/eindhoven_kapak_03.jpg"
+   },
+   {
+    "photo_id": "eindhoven:photo:kapak-04",
+    "row": 229,
+    "file": "Fotoğraflar/eindhoven_kapak_04.jpg"
+   },
+   {
+    "photo_id": "eindhoven:photo:kapak-05",
+    "row": 230,
+    "file": "Fotoğraflar/eindhoven_kapak_05.jpg"
+   },
+   {
+    "photo_id": "eindhoven:photo:kapak-06",
+    "row": 231,
+    "file": "Fotoğraflar/eindhoven_kapak_06.jpg"
+   },
+   {
+    "photo_id": "eindhoven:photo:kapak-07",
+    "row": 232,
+    "file": "Fotoğraflar/eindhoven_kapak_07.jpg"
+   },
+   {
+    "photo_id": "eindhoven:photo:kapak-08",
+    "row": 233,
+    "file": "Fotoğraflar/eindhoven_kapak_08.jpg"
+   }
+  ],
+  "cover_sha_also_venue": 8,
+  "places_with_photo": 55,
+  "places_total": 119,
+  "districts_with_photo": 14,
+  "districts_total": 16,
+  "places_without_photo": [
+   {
+    "entry_id": "eindhoven:philips-historische-producten",
+    "row": 13,
+    "group": "Müzeler",
+    "title": "Philips Historische Producten"
+   },
+   {
+    "entry_id": "eindhoven:neoseum",
+    "row": 15,
+    "group": "Müzeler",
+    "title": "Neoseum"
+   },
+   {
+    "entry_id": "eindhoven:mu-hybrid-art-house",
+    "row": 16,
+    "group": "Sanat ve sergiler",
+    "title": "MU Hybrid Art House"
+   },
+   {
+    "entry_id": "eindhoven:kazerne-expo",
+    "row": 18,
+    "group": "Sanat ve sergiler",
+    "title": "Kazerne Design Lab"
+   },
+   {
+    "entry_id": "eindhoven:de-fabriek",
+    "row": 20,
+    "group": "Sanat ve sergiler",
+    "title": "De Fabriek"
+   },
+   {
+    "entry_id": "eindhoven:onomatopee",
+    "row": 21,
+    "group": "Sanat ve sergiler",
+    "title": "Onomatopee"
+   },
+   {
+    "entry_id": "eindhoven:temporary-art-centre-tac",
+    "row": 22,
+    "group": "Sanat ve sergiler",
+    "title": "Temporary Art Centre (TAC)"
+   },
+   {
+    "entry_id": "eindhoven:gallery-nasty-alice",
+    "row": 23,
+    "group": "Sanat ve sergiler",
+    "title": "Galerie Nasty Alice"
+   },
+   {
+    "entry_id": "eindhoven:cova-art-gallery",
+    "row": 24,
+    "group": "Sanat ve sergiler",
+    "title": "COVA Art Gallery"
+   },
+   {
+    "entry_id": "eindhoven:gallery-rembrandt",
+    "row": 25,
+    "group": "Sanat ve sergiler",
+    "title": "Gallery Rembrandt"
+   },
+   {
+    "entry_id": "eindhoven:de-kruisruimte",
+    "row": 26,
+    "group": "Sanat ve sergiler",
+    "title": "De Kruisruimte"
+   },
+   {
+    "entry_id": "eindhoven:van-abbehuis",
+    "row": 28,
+    "group": "Sanat ve sergiler",
+    "title": "Van Abbehuis"
+   },
+   {
+    "entry_id": "eindhoven:the-pool",
+    "row": 30,
+    "group": "Sanat ve sergiler",
+    "title": "THE POOL"
+   },
+   {
+    "entry_id": "eindhoven:bioart-laboratories",
+    "row": 31,
+    "group": "Sanat ve sergiler",
+    "title": "BioArt Laboratories"
+   },
+   {
+    "entry_id": "eindhoven:het-koelhuis",
+    "row": 32,
+    "group": "Sanat ve sergiler",
+    "title": "Het Koelhuis"
+   },
+   {
+    "entry_id": "eindhoven:piet-hein-eek",
+    "row": 33,
+    "group": "Sanat ve sergiler",
+    "title": "Piet Hein Eek mağaza ve showroom"
+   },
+   {
+    "entry_id": "eindhoven:effenaar",
+    "row": 34,
+    "group": "Sahne ve müzik",
+    "title": "Effenaar"
+   },
+   {
+    "entry_id": "eindhoven:stage-music-cafe",
+    "row": 38,
+    "group": "Sahne ve müzik",
+    "title": "Stage Music Café"
+   },
+   {
+    "entry_id": "eindhoven:vue-eindhoven",
+    "row": 40,
+    "group": "Sahne ve müzik",
+    "title": "Vue Eindhoven"
+   },
+   {
+    "entry_id": "eindhoven:jazzclub-osje",
+    "row": 42,
+    "group": "Sahne ve müzik",
+    "title": "Jazzclub OSJE"
+   },
+   {
+    "entry_id": "eindhoven:filmhuis-de-zwarte-doos",
+    "row": 43,
+    "group": "Sahne ve müzik",
+    "title": "Filmhuis De Zwarte Doos"
+   },
+   {
+    "entry_id": "eindhoven:paviljoen-ongehoorde-muziek",
+    "row": 44,
+    "group": "Sahne ve müzik",
+    "title": "Paviljoen Ongehoorde Muziek"
+   },
+   {
+    "entry_id": "eindhoven:wim-van-doorne-muziekkiosk",
+    "row": 45,
+    "group": "Sahne ve müzik",
+    "title": "Wim van Doorne Muziekkiosk"
+   },
+   {
+    "entry_id": "eindhoven:arno-s-theater",
+    "row": 46,
+    "group": "Sahne ve müzik",
+    "title": "Arno's Theater"
+   },
+   {
+    "entry_id": "eindhoven:theater-carte-blanche",
+    "row": 47,
+    "group": "Sahne ve müzik",
+    "title": "Theater Carte Blanche"
+   },
+   {
+    "entry_id": "eindhoven:ijssportcentrum-eindhoven",
+    "row": 50,
+    "group": "Spor",
+    "title": "IJssportcentrum Eindhoven"
+   },
+   {
+    "entry_id": "eindhoven:area-51-skatepark",
+    "row": 53,
+    "group": "Spor",
+    "title": "Area 51 Skatepark"
+   },
+   {
+    "entry_id": "eindhoven:urban-sportpark-t-schoot",
+    "row": 54,
+    "group": "Spor",
+    "title": "Urban Sportpark 't Schoot"
+   },
+   {
+    "entry_id": "eindhoven:sportpark-strijp",
+    "row": 55,
+    "group": "Spor",
+    "title": "Sportpark Strijp"
+   },
+   {
+    "entry_id": "eindhoven:klimcentrum-neoliet-eindhoven-zuid",
+    "row": 57,
+    "group": "Spor",
+    "title": "Klimcentrum Neoliet Eindhoven-Zuid"
+   },
+   {
+    "entry_id": "eindhoven:monk-bouldergym",
+    "row": 58,
+    "group": "Spor",
+    "title": "Monk Bouldergym"
+   },
+   {
+    "entry_id": "eindhoven:happy-canoe",
+    "row": 59,
+    "group": "Spor",
+    "title": "Happy Canoe"
+   },
+   {
+    "entry_id": "eindhoven:eindhoven-atletiek",
+    "row": 60,
+    "group": "Spor",
+    "title": "Eindhoven Atletiek"
+   },
+   {
+    "entry_id": "eindhoven:philips-van-lenneppark",
+    "row": 64,
+    "group": "Doğa ve açık hava",
+    "title": "Philips van Lenneppark"
+   },
+   {
+    "entry_id": "eindhoven:wandelpark-eckart-eckartse-bos",
+    "row": 67,
+    "group": "Doğa ve açık hava",
+    "title": "Wandelpark Eckart"
+   },
+   {
+    "entry_id": "eindhoven:heempark-frater-simon-deltour",
+    "row": 68,
+    "group": "Doğa ve açık hava",
+    "title": "Heempark Frater Simon Deltour"
+   },
+   {
+    "entry_id": "eindhoven:wasven",
+    "row": 69,
+    "group": "Doğa ve açık hava",
+    "title": "Wasven"
+   },
+   {
+    "entry_id": "eindhoven:eigen-wijs-boerderij",
+    "row": 73,
+    "group": "Çocuklarla keşif",
+    "title": "Eigen Wijs Boerderij"
+   },
+   {
+    "entry_id": "eindhoven:wasvenboerderij-speeltuin",
+    "row": 74,
+    "group": "Çocuklarla keşif",
+    "title": "Wasvenboerderij & Speeltuin"
+   },
+   {
+    "entry_id": "eindhoven:speeltuin-philipsdorp",
+    "row": 75,
+    "group": "Çocuklarla keşif",
+    "title": "Speeltuin Philipsdorp"
+   },
+   {
+    "entry_id": "eindhoven:sint-joseph-speeltuin",
+    "row": 76,
+    "group": "Çocuklarla keşif",
+    "title": "Sint Joseph Speeltuin"
+   },
+   {
+    "entry_id": "eindhoven:speeltuin-voj",
+    "row": 77,
+    "group": "Çocuklarla keşif",
+    "title": "Speeltuin VOJ"
+   },
+   {
+    "entry_id": "eindhoven:philips-fruittuin",
+    "row": 78,
+    "group": "Çocuklarla keşif",
+    "title": "Philips Fruittuin"
+   },
+   {
+    "entry_id": "eindhoven:monkey-town",
+    "row": 79,
+    "group": "Çocuklarla keşif",
+    "title": "Monkey Town"
+   },
+   {
+    "entry_id": "eindhoven:bounce-valley",
+    "row": 80,
+    "group": "Çocuklarla keşif",
+    "title": "Bounce Valley"
+   },
+   {
+    "entry_id": "eindhoven:laser-quest-eindhoven",
+    "row": 81,
+    "group": "Çocuklarla keşif",
+    "title": "Laser Quest Eindhoven"
+   },
+   {
+    "entry_id": "eindhoven:falconcrest-falconry",
+    "row": 82,
+    "group": "Çocuklarla keşif",
+    "title": "Falconcrest Falconry"
+   },
+   {
+    "entry_id": "eindhoven:next-level-escape-rooms",
+    "row": 83,
+    "group": "Çocuklarla keşif",
+    "title": "Next Level Escape Rooms"
+   },
+   {
+    "entry_id": "eindhoven:glow-golf-eindhoven",
+    "row": 84,
+    "group": "Çocuklarla keşif",
+    "title": "Glow Golf Eindhoven"
+   },
+   {
+    "entry_id": "eindhoven:str-eat-bars-kitchens",
+    "row": 85,
+    "group": "Yeme ve içme",
+    "title": "STR'EAT bars & kitchens"
+   },
+   {
+    "entry_id": "eindhoven:brouwerij-het-veem",
+    "row": 86,
+    "group": "Yeme ve içme",
+    "title": "Brouwerij Het Veem"
+   },
+   {
+    "entry_id": "eindhoven:stadsbrouwerij-eindhoven",
+    "row": 87,
+    "group": "Yeme ve içme",
+    "title": "Stadsbrouwerij Eindhoven"
+   },
+   {
+    "entry_id": "eindhoven:kazerne",
+    "row": 89,
+    "group": "Yeme ve içme",
+    "title": "Kazerne"
+   },
+   {
+    "entry_id": "eindhoven:grand-cafe-de-lichttoren",
+    "row": 90,
+    "group": "Yeme ve içme",
+    "title": "De Lichttoren"
+   },
+   {
+    "entry_id": "eindhoven:pannenkoekenhuis-de-proeftuin",
+    "row": 91,
+    "group": "Yeme ve içme",
+    "title": "Pannenkoekenhuis De Proeftuin"
+   },
+   {
+    "entry_id": "eindhoven:paviljoen-genneper-parken",
+    "row": 92,
+    "group": "Yeme ve içme",
+    "title": "Paviljoen Genneper Parken"
+   },
+   {
+    "entry_id": "eindhoven:centrale-markt-18-septemberplein",
+    "row": 94,
+    "group": "Yeme ve içme",
+    "title": "Centrale Markt (18 Septemberplein)"
+   },
+   {
+    "entry_id": "eindhoven:hovenring",
+    "row": 98,
+    "group": "Tarih ve mimari",
+    "title": "Hovenring"
+   },
+   {
+    "entry_id": "eindhoven:de-oude-telefooncentrale",
+    "row": 108,
+    "group": "Tarih ve mimari",
+    "title": "De Oude Telefooncentrale"
+   },
+   {
+    "entry_id": "eindhoven:hezemans-indoor-karting",
+    "row": 110,
+    "group": "Spor",
+    "title": "Hezemans Indoor Karting"
+   },
+   {
+    "entry_id": "eindhoven:victoriapark",
+    "row": 112,
+    "group": "Doğa ve açık hava",
+    "title": "Victoriapark"
+   },
+   {
+    "entry_id": "eindhoven:park-meerland",
+    "row": 115,
+    "group": "Doğa ve açık hava",
+    "title": "Park Meerland"
+   },
+   {
+    "entry_id": "eindhoven:brasserie-bellevue",
+    "row": 120,
+    "group": "Yeme ve içme",
+    "title": "Brasserie Bellevue"
+   },
+   {
+    "entry_id": "eindhoven:cafe-barolo",
+    "row": 121,
+    "group": "Yeme ve içme",
+    "title": "Café Barolo"
+   }
+  ],
+  "districts_without_photo": [
+   {
+    "entry_id": "eindhoven:woensel-west-mahallesi",
+    "row": 13,
+    "title": "Woensel-West mahallesi"
+   },
+   {
+    "entry_id": "eindhoven:woensel-noord-bolgesi",
+    "row": 15,
+    "title": "Woensel-Noord bölgesi"
+   }
+  ],
+  "group_counts": {
+   "Müzeler": 11,
+   "Sanat ve sergiler": 16,
+   "Çocuklarla keşif": 16,
+   "Sahne ve müzik": 16,
+   "Spor": 16,
+   "Doğa ve açık hava": 13,
+   "Yeme ve içme": 16,
+   "Tarih ve mimari": 15
+  },
+  "group_without_photo": {
+   "Müzeler": 2,
+   "Sanat ve sergiler": 14,
+   "Sahne ve müzik": 9,
+   "Spor": 9,
+   "Doğa ve açık hava": 6,
+   "Çocuklarla keşif": 12,
+   "Yeme ve içme": 10,
+   "Tarih ve mimari": 2
+  },
+  "max_per_entry": 5,
+  "entries_over_5": [],
+  "unknown_photo_entries": [],
+  "hero_photo_id": "eindhoven:photo:kapak-01",
+  "hero_exists": true,
+  "collection_values": {
+   "Hayır": 119
+  }
+ },
+ "coordinates": {
+  "with_coords": 119,
+  "lat_range": [
+   51.4083,
+   51.49384
+  ],
+  "lon_range": [
+   5.399193,
+   5.52602
+  ],
+  "shared": [
+   {
+    "lat": 51.43604,
+    "lon": 5.47737,
+    "entries": [
+     "eindhoven:kazerne-expo",
+     "eindhoven:kazerne"
+    ]
+   },
+   {
+    "lat": 51.44787,
+    "lon": 5.45435,
+    "entries": [
+     "eindhoven:str-eat-bars-kitchens",
+     "eindhoven:brouwerij-het-veem"
+    ]
+   },
+   {
+    "lat": 51.4413,
+    "lon": 5.4776,
+    "entries": [
+     "eindhoven:centrale-markt-18-septemberplein",
+     "eindhoven:18-septemberplein"
+    ]
+   }
+  ]
+ },
+ "routes": [
+  {
+   "route_id": "eindhoven:route:001",
+   "row": 8,
+   "title": "Merkezde ilk gün: istasyondan Van Abbemuseum'a",
+   "stops": 5,
+   "stop_ids": 5,
+   "len_match": true,
+   "first_is_entry": true,
+   "unknown_ids": [],
+   "ids": [
+    "eindhoven:eindhoven-centraal",
+    "eindhoven:18-septemberplein",
+    "eindhoven:philips-museum",
+    "eindhoven:sint-catharinakerk",
+    "eindhoven:van-abbemuseum"
+   ]
+  },
+  {
+   "route_id": "eindhoven:route:002",
+   "row": 9,
+   "title": "Strijp'te tasarım: Piet Hein Eek'ten COVA'ya",
+   "stops": 5,
+   "stop_ids": 5,
+   "len_match": true,
+   "first_is_entry": true,
+   "unknown_ids": [],
+   "ids": [
+    "eindhoven:piet-hein-eek",
+    "eindhoven:strijp-s",
+    "eindhoven:mu-hybrid-art-house",
+    "eindhoven:baltan-laboratories",
+    "eindhoven:cova-art-gallery"
+   ]
+  },
+  {
+   "route_id": "eindhoven:route:003",
+   "row": 10,
+   "title": "Philips'in izinde: Witte Dame'den Klokgebouw'a",
+   "stops": 5,
+   "stop_ids": 5,
+   "len_match": true,
+   "first_is_entry": true,
+   "unknown_ids": [],
+   "ids": [
+    "eindhoven:de-witte-dame-lichtfabriek",
+    "eindhoven:philipsdorp",
+    "eindhoven:psv-museum",
+    "eindhoven:de-oude-telefooncentrale",
+    "eindhoven:klokgebouw"
+   ]
+  },
+  {
+   "route_id": "eindhoven:route:004",
+   "row": 11,
+   "title": "Genneper Parken'de aile günü",
+   "stops": 5,
+   "stop_ids": 5,
+   "len_match": true,
+   "first_is_entry": true,
+   "unknown_ids": [],
+   "ids": [
+    "eindhoven:museumpark-vonk-prehistorisch-dorp",
+    "eindhoven:genneper-watermolen",
+    "eindhoven:heempark-frater-simon-deltour",
+    "eindhoven:genneper-hoeve",
+    "eindhoven:paviljoen-genneper-parken"
+   ]
+  },
+  {
+   "route_id": "eindhoven:route:005",
+   "row": 12,
+   "title": "Güneyde spor: kano, buz ve tırmanış",
+   "stops": 4,
+   "stop_ids": 4,
+   "len_match": true,
+   "first_is_entry": true,
+   "unknown_ids": [],
+   "ids": [
+    "eindhoven:happy-canoe",
+    "eindhoven:ijssportcentrum-eindhoven",
+    "eindhoven:nationaal-zwemcentrum-de-tongelreep",
+    "eindhoven:klimcentrum-neoliet-eindhoven-zuid"
+   ]
+  },
+  {
+   "route_id": "eindhoven:route:006",
+   "row": 13,
+   "title": "Kuzeybatının yeşil kuşağı: Philips parkları ve meyve bahçesi",
+   "stops": 5,
+   "stop_ids": 5,
+   "len_match": true,
+   "first_is_entry": true,
+   "unknown_ids": [],
+   "ids": [
+    "eindhoven:philips-de-jongh-wandelpark",
+    "eindhoven:landgoed-de-wielewaal",
+    "eindhoven:philips-fruittuin",
+    "eindhoven:pannenkoekenhuis-de-proeftuin",
+    "eindhoven:de-mispelhoef"
+   ]
+  },
+  {
+   "route_id": "eindhoven:route:007",
+   "row": 14,
+   "title": "Merkezde müzikli akşam",
+   "stops": 5,
+   "stop_ids": 5,
+   "len_match": true,
+   "first_is_entry": true,
+   "unknown_ids": [],
+   "ids": [
+    "eindhoven:muziekgebouw-eindhoven",
+    "eindhoven:dynamo",
+    "eindhoven:stratumseind",
+    "eindhoven:stage-music-cafe",
+    "eindhoven:effenaar"
+   ]
+  },
+  {
+   "route_id": "eindhoven:route:008",
+   "row": 15,
+   "title": "Salı pazarından bira tadımına: merkezde yeme-içme",
+   "stops": 4,
+   "stop_ids": 4,
+   "len_match": true,
+   "first_is_entry": true,
+   "unknown_ids": [],
+   "ids": [
+    "eindhoven:centrale-markt-18-septemberplein",
+    "eindhoven:grand-cafe-de-lichttoren",
+    "eindhoven:kazerne",
+    "eindhoven:stadsbrouwerij-eindhoven"
+   ]
+  },
+  {
+   "route_id": "eindhoven:route:009",
+   "row": 16,
+   "title": "Doğu yakası: Erfgoedhuis'ten Koelhuis'e",
+   "stops": 4,
+   "stop_ids": 4,
+   "len_match": true,
+   "first_is_entry": true,
+   "unknown_ids": [],
+   "ids": [
+    "eindhoven:erfgoedhuis-eindhoven",
+    "eindhoven:daf-museum",
+    "eindhoven:jazzclub-osje",
+    "eindhoven:het-koelhuis"
+   ]
+  },
+  {
+   "route_id": "eindhoven:route:010",
+   "row": 17,
+   "title": "Stratum'da park, gözlemevi ve tiyatro",
+   "stops": 5,
+   "stop_ids": 5,
+   "len_match": true,
+   "first_is_entry": true,
+   "unknown_ids": [],
+   "ids": [
+    "eindhoven:ton-smits-huis",
+    "eindhoven:stadswandelpark",
+    "eindhoven:dr-a-f-philips-sterrenwacht",
+    "eindhoven:wim-van-doorne-muziekkiosk",
+    "eindhoven:parktheater-eindhoven"
+   ]
+  },
+  {
+   "route_id": "eindhoven:route:011",
+   "row": 18,
+   "title": "Kuzeyde çocuklarla: Splinter'den Glow Golf'e",
+   "stops": 5,
+   "stop_ids": 5,
+   "len_match": true,
+   "first_is_entry": true,
+   "unknown_ids": [],
+   "ids": [
+    "eindhoven:henri-dunantpark",
+    "eindhoven:speelpark-de-splinter",
+    "eindhoven:ir-ottenbad",
+    "eindhoven:monkey-town",
+    "eindhoven:glow-golf-eindhoven"
+   ]
+  },
+  {
+   "route_id": "eindhoven:route:012",
+   "row": 19,
+   "title": "Tongelre'de göl, çiftlik ve yaratıcı atölyeler",
+   "stops": 4,
+   "stop_ids": 4,
+   "len_match": true,
+   "first_is_entry": true,
+   "unknown_ids": [],
+   "ids": [
+    "eindhoven:wandelpark-eckart-eckartse-bos",
+    "eindhoven:wasven",
+    "eindhoven:the-pool",
+    "eindhoven:de-kruisruimte"
+   ]
+  }
+ ],
+ "residue_scan": [
+  {
+   "pattern": "vonderweg",
+   "sheet": "Kaynaklar",
+   "row": 401,
+   "id": "eindhoven:kaynak:404",
+   "field": "summary",
+   "snippet": "TAC'ın Dutch Design Week 2026 sayfası: etkinlik adresi Vonderweg 1, beş yıllık yenileme, kafe ve restoranın yeniden açılması"
+  },
+  {
+   "pattern": "vonderweg",
+   "sheet": "Mekânlar",
+   "row": 22,
+   "id": "eindhoven:temporary-art-centre-tac",
+   "field": "summary",
+   "snippet": "ı açan bir kuluçka merkezi. TAC'ın sergi ve etkinlik duyurularında adres olarak Vonderweg 1 de geçiyor. Ventoselaan'daki atölyelerde 60'ı aşkın genç tasarımcı, sanatçı v"
+  },
+  {
+   "pattern": "vonderweg",
+   "sheet": "Mekânlar",
+   "row": 22,
+   "id": "eindhoven:temporary-art-centre-tac",
+   "field": "keywords",
+   "snippet": "TAC, Temporary Art Centre, Ventoselaan, Vonderweg, sergi, konser, performans, sanatçı atölyesi"
+  },
+  {
+   "pattern": "welschap",
+   "sheet": "Mekânlar",
+   "row": 115,
+   "id": "eindhoven:park-meerland",
+   "field": "subtitle",
+   "snippet": "Meerhoven'ın ortasında, eski Welschap hava üssünün yerinde İngiliz peyzaj parkı örneğiyle düzenlenen park"
+  },
+  {
+   "pattern": "welschap",
+   "sheet": "Mekânlar",
+   "row": 115,
+   "id": "eindhoven:park-meerland",
+   "field": "summary",
+   "snippet": "Eindhoven'ın en genç semti Meerhoven'ın merkezindeki Park Meerland, eskiden Welschap askerî hava üssünün bulunduğu yerde bir İngiliz peyzaj parkı örnek alınarak düz"
+  },
+  {
+   "pattern": "welschap",
+   "sheet": "Mekânlar",
+   "row": 115,
+   "id": "eindhoven:park-meerland",
+   "field": "keywords",
+   "snippet": "Park Meerland, Meerhoven, arboretum, peyzaj parkı, Welschap, yürüyüş, Strijp"
+  },
+  {
+   "pattern": "vonderweg",
+   "sheet": "Yanıtlar",
+   "row": 140,
+   "id": "eindhoven:glow-ulasim-yol-kapama-otopark",
+   "field": "note",
+   "snippet": "Vonderweg'in Boschdijk ile Mecklenburgstraat arasındaki bölümünde 17.00-23.55 arası ağır "
+  }
+ ],
+ "backslash_cells": {
+  "by_column": {
+   "Kanıtlar.source_evidence_json": 225
+  },
+  "samples": {
+   "Kanıtlar.source_evidence_json": "{\"source_url\": \"https://commons.wikimedia.org/wiki/File:Eindhoven,_het_Van_Abbemuseum_IMG_8587_2019-01-20_10.50.jpg\", \"a"
+  }
+ },
+ "dates": {
+  "Bağlantılar.checked_on": {
+   "n": 581,
+   "blank": 0,
+   "min": "2026-10-22",
+   "max": "2026-10-23",
+   "top": [
+    [
+     "2026-10-22",
+     579
+    ],
+    [
+     "2026-10-23",
+     2
+    ]
+   ],
+   "future": 0
+  },
+  "FotoğrafKaynakları.downloaded_on": {
+   "n": 226,
+   "blank": 0,
+   "min": "2026-10-23",
+   "max": "2026-10-23",
+   "top": [
+    [
+     "2026-10-23",
+     226
+    ]
+   ],
+   "future": 0
+  },
+  "Fotoğraflar.source_checked_on": {
+   "n": 226,
+   "blank": 0,
+   "min": "2026-10-22",
+   "max": "2026-10-22",
+   "top": [
+    [
+     "2026-10-22",
+     226
+    ]
+   ],
+   "future": 0
+  },
+  "Fotoğraflar.capture_date": {
+   "n": 181,
+   "blank": 45,
+   "min": "2008-01-04",
+   "max": "2026-09-23",
+   "top": [
+    [
+     "2013-06-28",
+     9
+    ],
+    [
+     "2025-05-16",
+     9
+    ],
+    [
+     "2013-06-29",
+     8
+    ]
+   ],
+   "future": 0
+  },
+  "Kanıtlar.checked_on": {
+   "n": 226,
+   "blank": 0,
+   "min": "2026-10-22",
+   "max": "2026-10-22",
+   "top": [
+    [
+     "2026-10-22",
+     226
+    ]
+   ],
+   "future": 0
+  },
+  "Kaynaklar.checked_on": {
+   "n": 397,
+   "blank": 0,
+   "min": "2026-10-22",
+   "max": "2026-10-23",
+   "top": [
+    [
+     "2026-10-22",
+     379
+    ],
+    [
+     "2026-10-23",
+     18
+    ]
+   ],
+   "future": 0
+  },
+  "Mahalleler.reviewed_on": {
+   "n": 16,
+   "blank": 0,
+   "min": "2026-10-22",
+   "max": "2026-10-22",
+   "top": [
+    [
+     "2026-10-22",
+     16
+    ]
+   ],
+   "future": 0
+  },
+  "Mekânlar.reviewed_on": {
+   "n": 119,
+   "blank": 0,
+   "min": "2026-10-22",
+   "max": "2026-10-22",
+   "top": [
+    [
+     "2026-10-22",
+     119
+    ]
+   ],
+   "future": 0
+  },
+  "Rotalar.reviewed_on": {
+   "n": 12,
+   "blank": 0,
+   "min": "2026-10-22",
+   "max": "2026-10-22",
+   "top": [
+    [
+     "2026-10-22",
+     12
+    ]
+   ],
+   "future": 0
+  },
+  "SayfaAlanları.reviewed_on": {
+   "n": 23,
+   "blank": 0,
+   "min": "2026-10-22",
+   "max": "2026-10-22",
+   "top": [
+    [
+     "2026-10-22",
+     23
+    ]
+   ],
+   "future": 0
+  },
+  "Sözlük.reviewed_on": {
+   "n": 60,
+   "blank": 0,
+   "min": "2026-10-22",
+   "max": "2026-10-22",
+   "top": [
+    [
+     "2026-10-22",
+     60
+    ]
+   ],
+   "future": 0
+  },
+  "Teslimat.updated_on": {
+   "n": 1,
+   "blank": 0,
+   "min": "2026-10-22",
+   "max": "2026-10-22",
+   "top": [
+    [
+     "2026-10-22",
+     1
+    ]
+   ],
+   "future": 0
+  },
+  "Yanıtlar.reviewed_on": {
+   "n": 289,
+   "blank": 0,
+   "min": "2026-10-22",
+   "max": "2026-10-22",
+   "top": [
+    [
+     "2026-10-22",
+     289
+    ]
+   ],
+   "future": 0
+  },
+  "Şehir.reviewed_on": {
+   "n": 1,
+   "blank": 0,
+   "min": "2026-10-22",
+   "max": "2026-10-22",
+   "top": [
+    [
+     "2026-10-22",
+     1
+    ]
+   ],
+   "future": 0
+  },
+  "Şehir.source_checked_on": {
+   "n": 1,
+   "blank": 0,
+   "min": "2026-10-10",
+   "max": "2026-10-10",
+   "top": [
+    [
+     "2026-10-10",
+     1
+    ]
+   ],
+   "future": 0
+  },
+  "Şehir.coordinate_checked_on": {
+   "n": 1,
+   "blank": 0,
+   "min": "2026-10-10",
+   "max": "2026-10-10",
+   "top": [
+    [
+     "2026-10-10",
+     1
+    ]
+   ],
+   "future": 0
+  }
+ },
+ "latest_content_date": "2026-10-23",
+ "teslimat": {
+  "schema_version": "1.0",
+  "delivery_id": "city-039-v001",
+  "city_id": "eindhoven",
+  "editor": "Atınç",
+  "scope": "Tam teslim",
+  "updated_on": "2026-10-22",
+  "editorial_status": "Taslak",
+  "notes": "Claude Code city-pack pilot üretimi (22 Ekim 2026). YEREL DENEME - Drive'a yüklenmedi. İnsan yayın onayı yok; inceleme alanları Bekliyor. Açık konular: Teslimler/ACIK_KONULAR.txt.",
+  "_row": 8
+ },
+ "status_values": {
+  "FotoğrafKaynakları.provenance_status": {
+   "Kayıttan doğrulandı": 203,
+   "Eksik alan var": 23
+  },
+  "Fotoğraflar.editorial_status": {
+   "Taslak": 226
+  },
+  "Fotoğraflar.completion_credit": {
+   "Evet": 226
+  },
+  "Kanıtlar.metadata_review_status": {
+   "Bekliyor": 226
+  },
+  "Kanıtlar.pixel_review_status": {
+   "Bekliyor": 226
+  },
+  "Kanıtlar.rights_status": {
+   "Bekliyor": 226
+  },
+  "Kaynaklar.verified": {
+   "Evet": 397
+  },
+  "Mahalleler.editorial_status": {
+   "Taslak": 16
+  },
+  "Mekânlar.editorial_status": {
+   "Taslak": 119
+  },
+  "Rotalar.editorial_status": {
+   "Taslak": 12
+  },
+  "Sözlük.editorial_status": {
+   "Taslak": 60
+  },
+  "Teslimat.editorial_status": {
+   "Taslak": 1
+  },
+  "Yanıtlar.editorial_status": {
+   "Taslak": 289
+  },
+  "Şehir.editorial_status": {
+   "Taslak": 1
+  }
+ },
+ "approval_like_values": [],
+ "licenses": {
+  "CC BY-SA 4.0": 107,
+  "CC BY-SA 3.0": 65,
+  "CC BY 2.0": 6,
+  "CC BY 3.0": 20,
+  "Public domain": 2,
+  "CC BY 4.0": 8,
+  "CC0 1.0": 7,
+  "CC BY-SA 3.0 nl": 8,
+  "CC BY-SA 2.0": 2,
+  "CC BY-SA 3.0 de": 1
+ },
+ "license_url_by_label": {
+  "CC BY-SA 4.0": [
+   "https://creativecommons.org/licenses/by-sa/4.0/"
+  ],
+  "CC BY-SA 3.0": [
+   "https://creativecommons.org/licenses/by-sa/3.0/"
+  ],
+  "CC BY 2.0": [
+   "https://creativecommons.org/licenses/by/2.0/"
+  ],
+  "CC BY 3.0": [
+   "https://creativecommons.org/licenses/by/3.0/"
+  ],
+  "Public domain": [
+   "https://commons.wikimedia.org/wiki/File:Catharinastraat_Eindhoven.jpg",
+   "https://commons.wikimedia.org/wiki/File:Telescoop_Sterrenwacht_Eindhoven.jpg"
+  ],
+  "CC BY 4.0": [
+   "https://creativecommons.org/licenses/by/4.0/"
+  ],
+  "CC0 1.0": [
+   "https://creativecommons.org/publicdomain/zero/1.0/"
+  ],
+  "CC BY-SA 3.0 nl": [
+   "https://creativecommons.org/licenses/by-sa/3.0/nl/deed.en/"
+  ],
+  "CC BY-SA 2.0": [
+   "https://creativecommons.org/licenses/by-sa/2.0/"
+  ],
+  "CC BY-SA 3.0 de": [
+   "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en/"
+  ]
+ },
+ "url_roles": {
+  "author_url_filled": 203,
+  "author_url_blank_with_note": 23,
+  "author_url_blank_no_note": [],
+  "role_mixing": [
+   {
+    "photo_id": "eindhoven:photo:dr-a-f-philips-sterrenwacht-03",
+    "same": [
+     "source_url",
+     "license_url"
+    ]
+   },
+   {
+    "photo_id": "eindhoven:photo:de-bergen-mahallesi-01",
+    "same": [
+     "source_url",
+     "license_url"
+    ]
+   }
+  ],
+  "author_blank": []
+ },
+ "photo_chain": {
+  "ids_photos": 226,
+  "ids_sources": 226,
+  "ids_evidence": 226,
+  "id_sets_equal": true,
+  "orig_eq_file": 226,
+  "orig_sha_eq": 226,
+  "web_in_inventory": 226,
+  "web_sha_eq": 226,
+  "pixel_review_eq_file": 226,
+  "evidence_id_match": 226,
+  "problems": [],
+  "web_dims_ok": "226/226",
+  "web_files_unique": 218,
+  "derivation_filled": 226,
+  "modifications_filled": 226
+ },
+ "sources": {
+  "rows": 397,
+  "verified": {
+   "Evet": 397
+  },
+  "snapshot_sha_ok": 397,
+  "snapshot_problems": [],
+  "unreferenced": [
+   "eindhoven:kaynak:408"
+  ],
+  "dangling_refs": [],
+  "shared_snapshot": [
+   [
+    {
+     "source_id": "eindhoven:kaynak:098",
+     "url": "https://www.rijksoverheid.nl/vraag-en-antwoord/zorgverzekering/eigen-risico-zorgverzekering"
+    },
+    {
+     "source_id": "eindhoven:kaynak:101",
+     "url": "https://www.rijksoverheid.nl/documenten/vraag-en-antwoord/zorgverzekering/eigen-risico-zorgverzekering"
+    }
+   ]
+  ],
+  "duplicate_urls": {},
+  "checked_on": {
+   "2026-10-22": 379,
+   "2026-10-23": 18
+  }
+ },
+ "teslimler": {
+  "files": [
+   "ACIK_KONULAR.txt",
+   "ILERLEME_KAYDI.txt",
+   "TESLIM_OZETI.txt",
+   "dosya-envanteri.json",
+   "download-progress-v7.json",
+   "fotograf-atif-onizleme.html",
+   "fotograf-atiflari-v7.csv",
+   "normalized-tables-v7.json",
+   "paket-kontrol-v7.json",
+   "photo-provenance-v7.json"
+  ],
+  "subdirs": {
+   "WebKopyalari": 218
+  },
+  "provenance_rows": 226,
+  "provenance_field_diffs": {},
+  "csv_rows": 226,
+  "csv_field_diffs": {},
+  "csv_downloaded_on_sample": "2026-10-23 00:00:00",
+  "html_img_src": 226,
+  "html_relative": 226,
+  "html_missing_targets": [],
+  "html_missing_count": 0,
+  "normalized_counts": {
+   "metadata": 1,
+   "city": 1,
+   "topics": 12,
+   "answers": 289,
+   "places": 119,
+   "neighborhoods": 16,
+   "actions": 581,
+   "routes": 12,
+   "glossary": 60,
+   "journey_steps": 10,
+   "sources": 397,
+   "photos": 226,
+   "evidence": 226,
+   "page_fields": 23,
+   "entry_details": 0
+  },
+  "paket_kontrol": {
+   "technically_complete": true,
+   "long_values_restored": 0,
+   "structure_errors": 0,
+   "structure_warnings": 744,
+   "media_errors": 0,
+   "counts": {
+    "answers": 289,
+    "places": 119,
+    "neighborhoods": 16,
+    "routes": 12,
+    "glossary": 60,
+    "topics": 12,
+    "photos": 218,
+    "hero_photos": 8
+   }
+  },
+  "pkg_inventory": {
+   "files": 851,
+   "summary": {
+    "files": 851,
+    "total_mb": 224.97,
+    "images": 444,
+    "missing": 0,
+    "sha_mismatch": 0,
+    "file_ne_original": 0,
+    "bad_ext": 0,
+    "ext_mismatch": 0,
+    "orphans": 0,
+    "dup_sha": 8,
+    "errors": 0
+   },
+   "only_in_pkg_inventory": [],
+   "only_in_audit_inventory": [],
+   "sha_differs": [
+    "Teslimler/ILERLEME_KAYDI.txt",
+    "Teslimler/dosya-envanteri.json"
+   ]
+  },
+  "download_progress": {
+   "rows": 226,
+   "downloaded_on": {
+    "2026-10-23": 226
+   },
+   "sha_matches_excel": 226
+  }
+ },
+ "inventory": {
+  "summary": {
+   "files": 851,
+   "total_mb": 224.97,
+   "images": 444,
+   "missing": 0,
+   "sha_mismatch": 0,
+   "file_ne_original": 0,
+   "bad_ext": 0,
+   "ext_mismatch": 0,
+   "orphans": 0,
+   "dup_sha": 8,
+   "errors": 0
+  },
+  "folders": {
+   ".": 1,
+   "Fotoğraflar": 226,
+   "Lisans kanıtları": 396,
+   "Teslimler": 228
+  },
+  "ext": {
+   "xlsx": 1,
+   "jpg": 226,
+   "html": 397,
+   "txt": 3,
+   "json": 5,
+   "csv": 1,
+   "webp": 218
+  },
+  "dup_sha": [
+   {
+    "sha256": "1df5445ff7ebe3e5549a3f2f309e499437d230623a87227117998dc29fc1e6fc",
+    "files": [
+     "Fotoğraflar/eindhoven_18-septemberplein_02.jpg",
+     "Fotoğraflar/eindhoven_kapak_01.jpg"
+    ]
+   },
+   {
+    "sha256": "2b8136d8c1bd250c5d037ee013159c1ca8ef4eb8ace8317c573c2309b0211320",
+    "files": [
+     "Fotoğraflar/eindhoven_kapak_08.jpg",
+     "Fotoğraflar/eindhoven_strijp-s_01.jpg"
+    ]
+   },
+   {
+    "sha256": "4df9475b5e7006732e939f16efed5c22127de9e92c3ab2196e853fa9a5db0b10",
+    "files": [
+     "Fotoğraflar/eindhoven_kapak_06.jpg",
+     "Fotoğraflar/eindhoven_philips-stadion-psv_02.jpg"
+    ]
+   },
+   {
+    "sha256": "56c16af5ff0b554a3e4f6b9d8d762ab2d289fce623f7c1771150dbf9eaee4719",
+    "files": [
+     "Fotoğraflar/eindhoven_eindhoven-centraal_01.jpg",
+     "Fotoğraflar/eindhoven_kapak_07.jpg"
+    ]
+   },
+   {
+    "sha256": "5b7bb1a887f86730dcc46c45d232c1db83d9f3240430bda60d90c2e9d1c55d66",
+    "files": [
+     "Fotoğraflar/eindhoven_kapak_03.jpg",
+     "Fotoğraflar/eindhoven_van-abbemuseum_03.jpg"
+    ]
+   },
+   {
+    "sha256": "855df4b7b2f6662a4d802ba47f0f27e3e472e429f27060961a6c3e25b03733c9",
+    "files": [
+     "Fotoğraflar/eindhoven_kapak_02.jpg",
+     "Fotoğraflar/eindhoven_klokgebouw_03.jpg"
+    ]
+   },
+   {
+    "sha256": "99597a9a72bfdebd093ee9b2be28cdc0071b4108c37cc17547dcc3ae93d1cd2a",
+    "files": [
+     "Fotoğraflar/eindhoven_henri-dunantpark_01.jpg",
+     "Fotoğraflar/eindhoven_kapak_04.jpg"
+    ]
+   },
+   {
+    "sha256": "d30be382f89b5e3e01b5f2848202de8fe64922c112d25547fffc97af1ce5ae12",
+    "files": [
+     "Fotoğraflar/eindhoven_huize-de-laak_01.jpg",
+     "Fotoğraflar/eindhoven_kapak_05.jpg"
+    ]
+   }
+  ],
+  "orphans_excluded": {
+   "teslimler": 10,
+   "xlsx": 1,
+   "json": 0
+  },
+  "xlsx_root": [
+   "CITY-039_eindhoven_v001.xlsx"
+  ]
+ },
+ "longest_cell": {
+  "chars": 11106,
+  "sheet": "Kanıtlar",
+  "row": 130,
+  "field": "source_evidence_json"
+ },
+ "ekdetaylar_rows": 0
+}

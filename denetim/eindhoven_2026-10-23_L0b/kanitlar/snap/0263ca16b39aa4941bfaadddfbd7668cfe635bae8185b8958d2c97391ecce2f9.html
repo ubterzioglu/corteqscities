@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="nl" dir="ltr" class="no-js">
+<head>
+
+<meta charset="utf-8">
+<!-- 
+	Ontwikkeling en TYPO3 implementatie door MaxServ B.V. (https://www.maxserv.com/)
+
+	This website is powered by TYPO3 - inspiring people to share!
+	TYPO3 is a free open source Content Management Framework initially created by Kasper Skaarhoj and licensed under GNU/GPL.
+	TYPO3 is copyright 1998-2026 of Kasper Skaarhoj. Extensions are copyright of their respective owners.
+	Information and contribution at https://typo3.org/
+-->
+
+
+<link rel="icon" href="/_assets/13a1620aba24ef79c87363272a433284/Images/favicon.ico" type="image/png">
+<title>Huurprijscheck en puntentelling | Huurcommissie</title>
+<meta name="generator" content="TYPO3 CMS">
+<meta name="description" content="Bent u benieuwd naar het aantal punten van een woning? Wilt u weten wat de maximale huurprijs van uw (studenten)kamer is? Bereken het met de Huurprijscheck!">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<meta name="robots" content="index,follow">
+<meta name="keywords" content="Huurprijscheck, huurprijs, punten">
+<meta property="og:title" content="Huurprijscheck en puntentelling">
+<meta property="og:image" content="/typo3conf/ext/sitepackage/Resources/Public/Images/logo.jpg">
+<meta name="twitter:card" content="summary">
+<meta name="google" content="notranslate">
+<meta name="apple-mobile-web-app-capable" content="no">
+
+
+<link rel="stylesheet" href="/_assets/6bbc83b1c5ab04b884807b3f265ec623/Css/elements.c2657d6317.css?1792668157" media="all" nonce="GvDWRk6kyOKxGAmEtqI1OQ_UjDlwE0lGgzkKSVNEt2S-5yYXlFbEkw">
+<link rel="stylesheet" href="/_assets/13a1620aba24ef79c87363272a433284/Css/sitepackage.57d889858a.css?1792668157" media="all" nonce="GvDWRk6kyOKxGAmEtqI1OQ_UjDlwE0lGgzkKSVNEt2S-5yYXlFbEkw">
+
+
+
+
+
+
+<meta name="google-site-verification" content="gMxLVY1PruY41FynLLkrFz6Qt8FiwlzNDEhvhk_DMco" /><meta name="google-site-verification" content="7Ia540ZiMDTU07abQmH1H1pm_K0a9c402mKIO-gTuNc" /><script type="text/javascript" nonce="GvDWRk6kyOKxGAmEtqI1OQ_UjDlwE0lGgzkKSVNEt2S-5yYXlFbEkw">var cookieNoticeConfig = cookieNoticeConfig || {};cookieNoticeConfig.flags = {};cookieNoticeConfig.flags.TRACKING = 2;cookieNoticeConfig.flags.EXTERNAL = 3;cookieNoticeConfig.flags.SOCIAL = 4;cookieNoticeConfig.labels = {statement_short: 'This%20site%20uses%20cookies.%20By%20clicking%20%22I%20agree%22%20you%20consent%20to%20the%20use%20of%20cookies.',statement_detail: 'We%20use%20cookies%20to%20increase%20the%20ease%20of%20use%20for%20our%20visitors%20and%20to%20tailor%20the%20experience%20for%20each%20individual%20user.%20By%20using%20cookies%20we%20store%20your%20preferences%20and%20measure%20user%20interaction.%20A%20cookie%20can%27t%20contain%20personal%20information%2C%20like%20a%20phone%20number%20or%20an%20e-mail%20address%2C%20thus%20cookies%20can%27t%20be%20used%20for%20unsolicited%20telemarketing%20or%20e-mail%20newsletters.',statement_expand: 'What%20are%20cookies%3F',agree: 'I%20agree',link_policy: 'Read%20more%20information%20in%20our%20cookie%20policy.',disagree: 'I%20don%27t%20agree'};cookieNoticeConfig.hitsBeforeImplicitConsent =-1;cookieNoticeConfig.cookiePolicyDetailPage = '/en/cookies-1';cookieNoticeConfig.consentChangeCallbacks = [];cookieNoticeConfig.showDisagreeButton =true;cookieNoticeConfig.expiresInMonths =12;cookieNoticeConfig.defaultCookieLevel =1;cookieNoticeConfig.consentedCookieName = '__cookieNotice_consent';cookieNoticeConfig.hitCountCookieName = '__cookieNotice_hit';cookieNoticeConfig.privacyStatementPage = '/en/onderwerpen/huurprijs-en-punten/huurprijscheck-en-puntentelling';</script><script type="text/javascript" nonce="GvDWRk6kyOKxGAmEtqI1OQ_UjDlwE0lGgzkKSVNEt2S-5yYXlFbEkw">        cookieNoticeConfig.consentChangeCallbacks.push({
+            type: cookieNoticeConfig.flags.TRACKING,
+            callback: function () {
+                (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+                j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+                'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+                })(window,document,'script','dataLayer','GTM-P4DV4L');
+            }
+        });</script>
+<link rel="canonical" href="https://checkjeprijs.huurcommissie.nl/en/onderwerpen/huurprijs-en-punten/huurprijscheck-en-puntentelling"/>
+</head>
+<body class="doktype_1 pagets__vervolg_breed" data-page-id="72">
+<script nonce="GvDWRk6kyOKxGAmEtqI1OQ_UjDlwE0lGgzkKSVNEt2S-5yYXlFbEkw">(function(window, document, dataLayerName, id) {
+            window[dataLayerName]=window[dataLayerName]||[],window[dataLayerName].push({start:(new Date).getTime(),event:"stg.start"});var scripts=document.getElementsByTagName('script')[0],tags=document.createElement('script');
+            function stgCreateCookie(a,b,c){var d="";if(c){var e=new Date;e.setTime(e.getTime()+24*c*60*60*1e3),d="; expires="+e.toUTCString()}document.cookie=a+"="+b+d+"; path=/; Secure"}
+            var isStgDebug=(window.location.href.match("stg_debug")||document.cookie.match("stg_debug"))&&!window.location.href.match("stg_disable_debug");stgCreateCookie("stg_debug",isStgDebug?1:"",isStgDebug?14:-1);
+            var qP=[];dataLayerName!=="dataLayer"&&qP.push("data_layer_name="+dataLayerName),qP.push("use_secure_cookies"),tags.nonce="GvDWRk6kyOKxGAmEtqI1OQ_UjDlwE0lGgzkKSVNEt2S-5yYXlFbEkw",isStgDebug&&qP.push("stg_debug");
+            var qPString=qP.length>0?("?"+qP.join("&")):"";
+            tags.async=!0,tags.src="https://statistiek.rijksoverheid.nl/containers/"+id+".js"+qPString,scripts.parentNode.insertBefore(tags,scripts);
+            !function(a,n,i){a[n]=a[n]||{};for(var c=0;c<i.length;c++)!function(i){a[n][i]=a[n][i]||{},a[n][i].api=a[n][i].api||function(){var a=[].slice.call(arguments,0);"string"==typeof a[0]&&window[dataLayerName].push({event:n+"."+i+":"+a[0],parameters:[].slice.call(arguments,1)})}}(i[c])}(window,"ppms",["tm","cm"]);
+            })(window, document, 'dataLayer', 'b9c3c922-c286-4845-8e32-98473c99f5b4');</script><div id="page-container">
+    <div id="top"></div>
+
+    <div id="header">
+
+	<div id="skiplinks">
+		<a class="skipLink hidden-mobile" accesskey="1" href="#mainMenu">Naar hoofdnavigatie</a>
+		<a class="skipLink" accesskey="2" href="#content">Naar inhoud</a>
+	</div>
+
+	<div id="headerMenu"></div>
+
+	<div id="headerContent">
+		<a class="site-logo" title="Homepage Huurcommissie" href="https://www.huurcommissie.nl/">
+			<img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Homepage Huurcommissie">
+		</a>
+
+		<a href="#mainMenu" id="menuIcon">Menu uitklappen</a>
+
+		<div id="overlay"></div>
+
+		<div class="shadow-top"></div>
+	</div>
+
+	
+
+<div id="mainMenu">
+	
+			<ul>
+				
+					<li>
+						<a href="/en/onderwerpen/huurprijs-en-punten/huurprijscheck-en-puntentelling" class="is-active">
+							Huurprijscheck en puntentelling 
+						</a>
+					</li>
+				
+			</ul>
+		
+</div>
+
+
+
+
+</div>
+
+
+    
+	<div id="content">
+		<div id="row" class="csc-space-before-20">
+			<div class="small-12 columns u-columns-rm-mobile-padding">
+				
+<div id="c645" class=" frame frame-default frame-type-textmedia frame-layout-0"><header><h1 class="" tabindex="-1">
+				Huurprijscheck en punten
+			</h1></header><div class="ce-textpic ce-center ce-above"></div></div>
+
+
+<div id="c2782" class=" frame frame-default frame-type-textmedia frame-layout-0"><header><h2 class="">
+				WOZ-waarde als onderdeel van uw huurprijs
+			</h2></header><div class="ce-textpic ce-center ce-above"><div class="ce-bodytext"><p>Huurt u een sociale huurwoning en heeft u een verschil van mening met uw verhuurder over de huurprijs? Dan kunt u de Huurcommissie vragen de hoogte van de huurprijs te beoordelen. Een onderzoeker van de Huurcommissie maakt een puntentelling van de woonruimte. Daarbij telt ook de WOZ-waarde mee. Lees hier wat wij doen als er geen of geen goede WOZ-waarde van uw woning is.</p><p><strong>Er is geen WOZ-waarde van uw woning</strong></p><ol><li class="MsoNoSpacing">Uw woning is een nieuwbouwwoning of uw woning is ontstaan door bijvoorbeeld een kantoor of school te verbouwen. Daardoor is er nog geen WOZ-waarde.<br> 	Wij wachten dan op de WOZ-beschikking van de gemeente van volgend jaar. Die WOZ-waarde rekenen wij terug naar het jaar dat nodig is.<br><br> 	Een voorbeeld: U heeft ons op 1 oktober 2022 gevraagd om de huurprijs bij uw nieuwe contract te beoordelen. Uw huurcontract is ingegaan op 1 juli 2022. Wij hebben dan de WOZ-beschikking uit 2022 nodig, want daarin staat de WOZ-waarde die geldt voor 2022. Is die er niet? Dan wachten we op de WOZ-beschikking die u in januari 2023 van uw gemeente ontvangt. Wij rekenen dan terug naar de WOZ-waarde van een jaar eerder, in dit voorbeeld 2022.<br> 	&nbsp;</li><li class="MsoNoSpacing">Uw woning was een onderdeel van een grotere woning. Dat noemen we een gesplitste woning. Of andersom: uw woning is ontstaan door 2 of meer woningen samen te voegen. Wij nemen dan de WOZ-waarde van de oude situatie (dus voor de splitsing of samenvoeging) en berekenen daarmee de WOZ-waarde van uw woning van nu. We doen dit alleen wanneer deze manier van berekenen een goede WOZ-waarde oplevert. Heeft uw verhuurder na de splitsing of samenvoeging de waarde van uw huurwoning al op een andere, betere manier bepaald? Dan gebruiken we die waarde.<br> 	Lukt het op deze manier niet om een goede WOZ-waarde te berekenen? Dan geven we als laatste redmiddel de verhuurder opdracht om een taxateur de WOZ-waarde te laten bepalen. De verhuurder betaalt de kosten hiervan.</li></ol><p class="MsoNoSpacing"><strong>De WOZ-waarde van uw woning voldoet niet</strong></p><ol><li class="MsoNoSpacing">Uw huurwoning is een nieuwbouwwoning of uw woning is ontstaan door bijvoorbeeld een kantoor of school te verbouwen. De WOZ-waarde die bekend is, is de waarde van de woning in aanbouw. Die waarde klopt niet meer als de woning inmiddels af is.<br> 	Wij rekenen dan de WOZ-waarde om naar de waarde waarbij de woning helemaal af is.</li><li class="MsoNoSpacing">De WOZ-waarde van uw woning is niet op de juiste datum vastgesteld. Bijvoorbeeld: er is wel een WOZ-waarde voor 2022, maar wij hebben de WOZ-waarde voor 2021 nodig.<br> 	Wij rekenen dan de WOZ-waarde terug naar de datum die nodig is.</li></ol><p class="markeer-als-verhuurder">Bent u verhuurder: WOZ-waarde als onderdeel van de huurprijs.</p><p class="MsoNoSpacing">&nbsp;</p></div></div></div>
+
+
+
+    <div>
+        <ul class="huurprijscheckboxes">
+
+            
+				
+						
+					
+                <li>
+                    <a href="/en/onderwerpen/huurprijs-en-punten/nieuwe-huurprijscheck/rent-check-independent-living-space">
+						<img src="https://s.checkjeprijs.huurcommissie.nl/fileadmin/user_upload/huurcommissie_huurprijscheck_huurder.png" width="372" height="420" alt="Vul de Huurprijscheck zelfstandige woonruimte in" />
+                    </a>
+                    <span>
+                        <a href="/en/onderwerpen/huurprijs-en-punten/nieuwe-huurprijscheck/rent-check-independent-living-space" data-test="rent-check-independent">
+                            Woont u in een zelfstandige woning (met eigen toegangsdeur) en wilt u weten of u te veel huur betaalt?
+                        </a>
+                    </span>
+                </li>
+            
+				
+						
+					
+                <li>
+                    <a href="/en/onderwerpen/huurprijs-en-punten/nieuwe-huurprijscheck/rent-check-dependent-living-space">
+						<img src="https://s.checkjeprijs.huurcommissie.nl/fileadmin/user_upload/huurcommissie_sociale-huurwoningen_huurder.png" width="289" height="342" alt="Huurprijscheck onzelfstandige woonruimte" />
+                    </a>
+                    <span>
+                        <a href="/en/onderwerpen/huurprijs-en-punten/nieuwe-huurprijscheck/rent-check-dependent-living-space" data-test="rent-check-dependent">
+                            Geen eigen toegangsdeur of u deelt uw keuken en/of badkamer met andere bewoners? Dan woont u in een onzelfstandige woning. Weten of u te veel huur betaalt voor uw kamer? Vul deze Huurprijscheck in.
+                        </a>
+                    </span>
+                </li>
+            
+				
+						
+					
+                <li>
+                    <a href="https://s.checkjeprijs.huurcommissie.nl/fileadmin/afbeeldingen/Downloads/Puntentelling_woonwagen/Puntentelling_woonwagen_en_standplaatsen.pdf">
+						<img src="https://s.checkjeprijs.huurcommissie.nl/fileadmin/user_upload/huurcommissie_formulieren_huurder.png" width="237" height="313" alt="" />
+                    </a>
+                    <span>
+                        <a href="https://s.checkjeprijs.huurcommissie.nl/fileadmin/afbeeldingen/Downloads/Puntentelling_woonwagen/Puntentelling_woonwagen_en_standplaatsen.pdf">
+                            Huurprijscheck woonwagens en standplaatsen
+                        </a>
+                    </span>
+                </li>
+            
+
+        </ul>
+    </div>
+
+
+
+			</div>
+		</div>
+	</div>
+
+
+    <div class="clear"></div>
+
+</div>
+
+<script src="/_assets/13a1620aba24ef79c87363272a433284/JavaScript/sitepackage-jquery.70b3b116d9.js?1792668157" nonce="GvDWRk6kyOKxGAmEtqI1OQ_UjDlwE0lGgzkKSVNEt2S-5yYXlFbEkw"></script>
+<script src="/_assets/13a1620aba24ef79c87363272a433284/JavaScript/sitepackage.0029834704.js?1792668157" nonce="GvDWRk6kyOKxGAmEtqI1OQ_UjDlwE0lGgzkKSVNEt2S-5yYXlFbEkw"></script>
+
+
+</body>
+</html>

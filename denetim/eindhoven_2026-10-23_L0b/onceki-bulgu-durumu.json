@@ -1,0 +1,102 @@
+{
+ "meta": {
+  "tool": "city-audit L0",
+  "level": "L0",
+  "label": "yerel paket denetimi",
+  "city_id": "eindhoven",
+  "catalog": "CITY-039",
+  "xlsx": "CITY-039_eindhoven_v001.xlsx",
+  "xlsx_sha256": "18b0c295710b6fb4b15b49a409b03f333ace00fa07cb9ab9dd347a83bb9e135b",
+  "previous_audit": "denetim/eindhoven_2026-10-22_L0",
+  "previous_xlsx_sha256": "01c130e64d683ba05cee94275aa52056f4eba1b1867d4408ab27df04dec25815",
+  "checked_on": "2026-10-23",
+  "note": "K99: her önceki bulgu gerçek dosya farkıyla (impact.py --diff) sınıflandı; durum ∈ kapandı | sürüyor | değişti."
+ },
+ "previous": [
+  {
+   "issue_id": "ISS-001",
+   "öncelik": "P1",
+   "check_id": "K17",
+   "önceki": "mekân 104/120 (−16)",
+   "şimdi": "mekân 119/120 (−1)",
+   "durum": "sürüyor",
+   "kanıt": "validation-audit.json → structure.counts.places 119; impact.json Mekânlar added 15, deleted 0",
+   "L0b_açık": true,
+   "not": "15 mekân eklendi (Golfbaan Welschap pakette yok); hedefe 1 kayıt kaldı."
+  },
+  {
+   "issue_id": "ISS-002",
+   "öncelik": "P1",
+   "check_id": "K17",
+   "önceki": "tekil mekân karesi 201/250 (−49)",
+   "şimdi": "tekil mekân karesi 218/250 (−32)",
+   "durum": "sürüyor",
+   "kanıt": "validation-audit.json → counts.photos 218, media.different_files 218; Fotoğraflar added 17",
+   "L0b_açık": true,
+   "not": "17 yeni kare eklendi."
+  },
+  {
+   "issue_id": "ISS-003",
+   "öncelik": "P1",
+   "check_id": "K22",
+   "önceki": "fotoğrafsız 60 mekân + 2 mahalle (44/104, 14/16)",
+   "şimdi": "fotoğrafsız 64 mekân + 2 mahalle (55/119, 14/16)",
+   "durum": "sürüyor",
+   "kanıt": "validation-audit.json warning_classes 64 + 2; _analiz/onceki-karsilastirma.json → iss003 (closed 0, new_without 4)",
+   "L0b_açık": true,
+   "not": "Önceki 62 kaydın hiçbiri fotoğraf almadı; yeni 4 fotoğrafsız mekân eklendi (62 → 66)."
+  },
+  {
+   "issue_id": "ISS-004",
+   "öncelik": "P1",
+   "check_id": "K84",
+   "önceki": "web_file 209/209 '\\' ayırıcı (+JSON/CSV/HTML)",
+   "şimdi": "web_file 0/226 '\\'; photo-provenance-v7.json 0/452, atıf CSV 0/452, atıf HTML 0/226, normalized-tables 0/850",
+   "durum": "kapandı",
+   "kanıt": "_foto/hazirlik.json → ters_egik_cizgi (tüm yollar 0/n); _analiz/capraz-kontroller.json → backslash_cells (yalnız Kanıtlar.source_evidence_json JSON kaçışları, yol değil)",
+   "L0b_açık": false,
+   "not": "Mutlak yerel yol / '..' / geçici URL de yok."
+  },
+  {
+   "issue_id": "ISS-005",
+   "öncelik": "P2",
+   "check_id": "K83",
+   "önceki": "TESLIM_OZETI 763 dosya/199.68 MB ↔ ölçülen 772; ILERLEME_KAYDI 'İndirilmiş fotoğraflar: 0'",
+   "şimdi": "TESLIM_OZETI = ölçüm (851/224.97 MB, satır farkı 0); ILERLEME_KAYDI son kayıt 'İndirilmiş fotoğraflar: 209', 'resmî kaynaklar: 352' ve 4× aynı kayıt; paket envanterinde ILERLEME_KAYDI.txt SHA'sı tutmuyor",
+   "durum": "değişti",
+   "kanıt": "_analiz/k04-karsilastirma.json (k83 farkları 0); _analiz/onceki-karsilastirma.json → iss005; capraz-kontroller.json → teslimler.pkg_inventory.sha_differs",
+   "L0b_açık": true,
+   "not": "Özet kısmı kapandı; ilerleme kaydı kısmı farklı değerlerle sürüyor."
+  },
+  {
+   "issue_id": "ISS-006",
+   "öncelik": "P2",
+   "check_id": "K14",
+   "önceki": "updated_on 2026-10-12; notes şablon ('içerik üretilmedi')",
+   "şimdi": "notes doğru; updated_on 2026-10-22 < en son içerik tarihi 2026-10-23",
+   "durum": "değişti",
+   "kanıt": "_dump/Teslimat.jsonl; capraz-kontroller.json → latest_content_date; impact.json (Teslimat: notes, updated_on)",
+   "L0b_açık": true,
+   "not": "notes kısmı kapandı; tarih bir gün geride."
+  },
+  {
+   "issue_id": "ISS-007",
+   "öncelik": "P2",
+   "check_id": "K104",
+   "önceki": "Yanıtlar!194 'yasal dayanağını göstermiyor' + iç not",
+   "şimdi": "uyarı ve iç not kaldırıldı (hedge 0); kaynak aynı (yalnız kaynak:097 HEC South), 'zorunludur' çekincesiz",
+   "durum": "değişti",
+   "kanıt": "text-quality.json hedges (Yanıtlar!194 yok); impact.json; onceki-karsilastirma.json → iss007",
+   "L0b_açık": true,
+   "not": "K104 belirtisi kapandı; tekrar kontrol koşulunun L1 yarısı (resmî kaynakta 'supported') bekliyor → açık (kısmen)."
+  }
+ ],
+ "new": [
+  {
+   "issue_id": "ISS-008",
+   "öncelik": "P2",
+   "check_id": "K14",
+   "özet": "10 kayıtta reviewed_on 2026-10-22 < bağlı kaynak checked_on 2026-10-23"
+  }
+ ]
+}

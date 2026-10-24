@@ -1,0 +1,1298 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Baltan | About</title>
+  <meta name="description" content="">
+
+  <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+  <link rel="apple-touch-icon-precomposed" sizes="57x57" href="../assets/favicons/apple-touch-icon-57x57.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/favicons/apple-touch-icon-114x114.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/favicons/apple-touch-icon-72x72.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/favicons/apple-touch-icon-144x144.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="60x60" href="../assets/favicons/apple-touch-icon-60x60.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="120x120" href="../assets/favicons/apple-touch-icon-120x120.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="76x76" href="../assets/favicons/apple-touch-icon-76x76.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../assets/favicons/apple-touch-icon-152x152.png" />
+  <link rel="icon" type="image/png" href="../assets/favicons/favicon-196x196.png" sizes="196x196" />
+  <link rel="icon" type="image/png" href="../assets/favicons/favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/png" href="../assets/favicons/favicon-32x32.png" sizes="32x32" />
+  <link rel="icon" type="image/png" href="../assets/favicons/favicon-16x16.png" sizes="16x16" />
+  <link rel="icon" type="image/png" href="../assets/favicons/favicon-128.png" sizes="128x128" />
+  <meta name="application-name" content="Baltan Laboratories"/>
+  <meta name="msapplication-TileColor" content="#FFFFFF" />
+  <meta name="msapplication-TileImage" content="../assets/favicons/mstile-144x144.png" />
+  <meta name="msapplication-square70x70logo" content="../assets/favicons/mstile-70x70.png" />
+  <meta name="msapplication-square150x150logo" content="../assets/favicons/mstile-150x150.png" />
+  <meta name="msapplication-square310x310logo" content="../assets/favicons/mstile-310x310.png" />
+  
+  <link rel="stylesheet" href="https://www.baltanlaboratories.org/assets/css/main.min.css">  
+  <link rel="stylesheet" href="https://www.baltanlaboratories.org/assets/css/exploreitem.min.css">  <link rel="stylesheet" href="https://www.baltanlaboratories.org/assets/css/about.min.css">  <link rel="stylesheet" href="https://www.baltanlaboratories.org/assets/css/search.min.css">
+  <script src="https://www.baltanlaboratories.org/assets/js/fontawesome.js" async></script>  <script src="https://www.baltanlaboratories.org/assets/js/jquery3.2.1.js"></script>  <script src="https://www.baltanlaboratories.org/assets/js/modernizr.js" async></script>  <script src="https://www.baltanlaboratories.org/assets/js/content-info-loader.js" async></script>  <script src="https://www.baltanlaboratories.org/assets/js/galleryslider.js" async></script>  <script src="https://www.baltanlaboratories.org/assets/js/main.js" async></script>  <script src="https://www.baltanlaboratories.org/assets/js/overlay.js" async></script>  <script src="https://www.baltanlaboratories.org/assets/js/modernizr.custom.js" async></script>
+<script type="text/javascript">
+
+  $('.ajax-link').click(function(e) {
+    e.preventDefault();
+    var href = $(this).attr('href');
+    loadLink(href)
+  })
+
+  function loadLink(url, nostatechange) {
+    var loadUrl = url + " #main-container";
+    var loadArea = $("#load");
+    loadArea.fadeTo('400', '0', function() {
+      loadArea.load(loadUrl, function () {
+        function updateMenu() {
+          var active = $('#main-container').attr('data-page');
+          $('.menu__list').removeClass('active');
+          $('.menu-item' + active).addClass('active');
+          }
+        if (!nostatechange) { updateState(url) };
+        loadArea.fadeTo('400', '1');
+      })
+    })
+  }
+
+  function updateState(url) {
+    var rootstring = window.location.origin;
+    var newurl = url.replace(rootstring,'');
+    history.pushState({}, "page", newurl);
+  }
+  $(window).on('popstate', function(e) {
+    loadLink(window.location.href, true);
+  })
+
+
+function onScroll(event){
+    if (scrollPos >= explorePos && scrollPos != 0) {
+        $('.header-cont').removeClass("first");
+     }
+    else{
+        $('.header-cont').addClass("first");    }
+      }
+
+
+var explorePos = '';
+var scrollPos = '';
+var lastScrollTop = 0;
+
+$(window).scroll(function(event){
+    scrollPos = $(this).scrollTop();
+    onScroll();
+    if ($(window).width() < 640){
+        if (scrollPos > lastScrollTop && scrollPos >= 80){$('.header-cont').css('top', '-56px');
+            lastScrollTop = scrollPos;
+        } else {
+            if (scrollPos+100 <= lastScrollTop){
+                $('.header-cont').css('top', '0px');
+                lastScrollTop = scrollPos;}
+        }
+    } else {$('.header-cont').css('top', '0px')}
+});
+
+function onScroll(event){
+    if (scrollPos === 0){$('.header-cont').addClass('showVignet');}
+    else {$('.header-cont').removeClass('showVignet');}
+    if (scrollPos >= explorePos && scrollPos != 0) {                    
+        $('.header').addClass("leftanimation");  
+        $('.header').addClass("marginheader");      
+        document.getElementById("sb-search").style.display = "block";
+        $('#exploreButtons-mobile').css('bottom', 0); 
+    }
+    else{         
+        $('.header').removeClass("leftanimation"); 
+        $('#exploreButtons-mobile').css('bottom', '-50px'); 
+    }
+    if ($('.panelA.from-right').hasClass('is-visible') || $('.cd-panel.from-left').hasClass('is-visible')){
+        $('#exploreButtons-mobile').css('bottom', '0'); 
+    }
+};
+</script>
+
+  <style>#hideImage img{ display:none;}</style>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-89019111-13"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-89019111-13');
+  </script>
+</head>
+<body>
+  <div id="tenyears" class="about">
+    <div class="vignet"></div>
+  </div>
+  <div class="header-cont about">
+    <header class="header marginheader AboutMenu" role="banner">
+        <div class="whiteheader">
+          <div class="blue1 blue2 blue3 innermenu">
+            <div class="branding">
+              <a href="https://www.baltanlaboratories.org" rel="home">
+                <svg viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <g fill="white">
+                    <polygon id="Page-1" points="25 0 21 21 0 25 21 29 25 50 29 29 50 25 29 21"></polygon>
+                  </g>
+                </svg>
+              </a>
+            </div>
+            <nav class="navigation" role="navigation" id="menu-center">
+  <ul class="menu menu__list">
+	  <li class="menu-item menu__list__item exploreli">
+	    <a href="https://www.baltanlaboratories.org/#explore" class="list__item--link">Explore</a>
+	  </li>    
+	  <li class="menu-item menu__list__item aboutli">
+	    <a href="https://www.baltanlaboratories.org/about" class="list__item--link">About</a>
+	  </li>
+  </ul>
+</nav>
+          </div>
+           <div class="submenu-about">
+    <div class="content">
+            <ul>
+            <li><i class="fa fa-arrow-right"></i><a href="#about-baltan">about-baltan</a></li>
+            <li><i class="fa fa-arrow-right"></i><a href="#history">history</a></li>
+            <li><i class="fa fa-arrow-right"></i><a href="#testimonials">testimonials</a></li>
+            <li><i class="fa fa-arrow-right"></i><a href="#legal-info">legal-info</a></li>
+            <li><i class="fa fa-arrow-right"></i><a href="#downloads">downloads</a></li>
+            <li><i class="fa fa-arrow-right"></i><a href="#partners">partners</a></li>
+            <li><i class="fa fa-arrow-right"></i><a href="#collaborate">collaborate</a></li>
+            <li><i class="fa fa-arrow-right"></i><a href="#team">team</a></li>
+            <li><i class="fa fa-arrow-right"></i><a href="#contact">Contact</a></li>
+
+      
+      <script type="text/javascript">
+        window.addEventListener("hashchange", function () {
+            window.scrollTo(window.scrollX, window.scrollY - 199);
+        });
+
+        // $('a[href^="#"]').on('click', function (e) {
+        //     e.preventDefault();
+        //     $(document).off("scroll");      
+        //     //$(this).closest('li').addClass('is-active');
+        //     var target = this.hash,
+        //     menu = target;
+        //     $target = $(target);
+        //     $('html, body').stop().animate({
+        //         'scrollTop': $target.offset().top-40
+        //     }, 500, 'swing', function () {
+        //         window.location.hash = target;
+        //         $(document).on("scroll", onScroll);
+        //     });
+        // });
+
+
+        var AboutElem = [];
+        var AboutTitle = [];
+        var contactPos = '';
+        $(document).ready(function(){
+          $(".content li a").each(function() {
+            $(this).text($(this).text().replace(/-/g,"\ "));
+          });
+           $("#currentSection span").each(function() {
+            $(this).text($(this).text().replace(/-/g,"\ "));
+          });
+         // $(".content a").value = this.value.replace(-, "/\s+/g");
+          contactPos = $('#contact').offset().top;
+                    if($('#about-baltan').length){
+            AboutElem.push($('#about-baltan'));
+            AboutTitle.push('about-baltan');
+          }
+                    if($('#history').length){
+            AboutElem.push($('#history'));
+            AboutTitle.push('history');
+          }
+                    if($('#testimonials').length){
+            AboutElem.push($('#testimonials'));
+            AboutTitle.push('testimonials');
+          }
+                    if($('#legal-info').length){
+            AboutElem.push($('#legal-info'));
+            AboutTitle.push('legal-info');
+          }
+                    if($('#downloads').length){
+            AboutElem.push($('#downloads'));
+            AboutTitle.push('downloads');
+          }
+                    if($('#partners').length){
+            AboutElem.push($('#partners'));
+            AboutTitle.push('partners');
+          }
+                    if($('#collaborate').length){
+            AboutElem.push($('#collaborate'));
+            AboutTitle.push('collaborate');
+          }
+                    if($('#team').length){
+            AboutElem.push($('#team'));
+            AboutTitle.push('team');
+          }
+                    AboutElem.push($('#contact'));
+          AboutTitle.push('Contact');
+          AboutElem.push($('#footer'));
+          var contactPos = $('#contact').offset().top;
+
+
+          var menuTimeOut
+          $('.whiteheader').mouseenter(function(){
+            if ($(window).width() >= 768){
+              $('.submenu-about').slideDown('fast');
+              $('#currentSection').css('display', 'none');
+              clearTimeout(menuTimeOut);
+            }
+          });
+          $('.aboutli').mouseenter(function(){
+            $('.submenu-about').slideDown('fast');
+            $('#currentSection').css('display', 'none');
+            clearTimeout(menuTimeOut);
+          });
+          $('.aboutli').click(function(){
+            $('.submenu-about').slideToggle('fast');
+            $('#currentSection').toggle();
+            clearTimeout(menuTimeOut);
+          });
+          $('.submenu-about li').click(function(){
+              menuTimeOut = setTimeout(function () {
+              $('.submenu-about').slideUp('fast', function(){
+                $('#currentSection').css('display', 'inline-block');
+              });
+            }, 100);
+          });
+
+          $('.submenu-about').mouseleave(function(){
+            menuTimeOut = setTimeout(function () {
+              $('.submenu-about').slideUp('fast', function(){
+                $('#currentSection').css('display', 'inline-block');
+              });
+            }, 500);
+              
+
+          });
+        })
+      $(window).scroll(function() {
+          var scrollPos = $(window).scrollTop();
+          for (var i = 0; i < AboutElem.length-1; i++) {
+            if (AboutElem[i].offset().top <= scrollPos+200 && AboutElem[i+1].offset().top > scrollPos+200){
+              $('#currentSection span').text(AboutTitle[i]);
+                $("#currentSection span").each(function() {
+              $(this).text($(this).text().replace(/-/g,"\ "));
+            });
+            }
+          };
+        });
+  		</script>
+      
+
+
+      </ul>
+    </div>
+  </div>          <div id="currentSection"><i class="fa fa-arrow-right"></i><span>About-Baltan</span></div>
+        </div>
+      <div class="searchdiv">
+    <div id="sb-search" class="sb-search">
+        <form>
+            <input class="sb-search-input js-search" placeholder="Enter your search term..." type="text" value="" name="search" id="search">
+            <input class="sb-search-submit" type="submit" value="">
+            <span id="iconspan" class="sb-icon-search"><i id="iconSearch" class="fa fa-search" aria-hidden="true"></i></span>
+        </form>
+    </div>
+    <div id="mainsearch" class="gallery-block searchbackground searchhide">
+        <div id="msg" class="ajax-container searchcontainer">
+        </div>
+    </div>
+</div>
+
+<script>
+$('div#sb-search').on('click',function(){ 
+    console.log("klik werkt");        
+});
+var inputMain                       = jQuery('.sb-search-input');
+var searchResultsContainerMain      = jQuery('#msg');
+
+$('.exit').hide();
+
+inputMain.on('keyup', function(e) {    
+    if(inputMain.val().length > 2) {
+       $('html').css({overflow: 'hidden' });
+       $('div.searchbackground').removeClass('searchhide');
+        $('.exit').show();
+        $('.ajax-container').css('overflowY', 'auto'); 
+        $('.exit').on('click',function(){
+        //location.reload();
+     });
+    var searchval = inputMain.val();
+    $.ajax({
+        url: "/search/"+searchval.toLowerCase().split(" ")+"",
+        context: jQuery('#msg')
+    }).done(function(data) {
+        var results = JSON.parse(data);
+        console.log(results);
+        
+        // Flush the container
+        searchResultsContainerMain.html('');
+console.log(results);
+       
+        if(!results.length){
+                var string = '<div class="content-box"> <h3 class="content-box__title">Oops no results found.</h3><p>Try another search term.</p> </div>'; 
+            }
+        // loop trough the objects in results and display them
+        jQuery.each(results, function(index, object) {    
+            if(typeof object.content.soort != 'undefined' && typeof object.content.subtitle != 'undefined' && object.parent != 'about' ){
+                var string = ' <div class="content-box"><a href="'+object.url+'" class="full-link"><time class="content-box__datetime">'+object.content.soort+'</time> <h3 class="content-box__title">'+object.content.title+'</h3><p>'+object.content.subtitle+'</p></a> </div> ';  
+            }
+            else if(typeof object.content.soort != 'undefined' && object.parent != 'about'){
+                var string = ' <div class="content-box"><a href="'+object.url+'" class="full-link"><time class="content-box__datetime">'+object.content.soort+'</time> <h3 class="content-box__title">'+object.content.title+'</h3></a> </div> ';   
+            }
+             else if(object.parent == 'about'){
+                var string = ' <div class="content-box"><a href="'+object.url+'" class="full-link"><h3 class="content-box__title">'+object.content.title+'</h3><p class="pageparent">' +object.parent+'</p></a> </div> ';   
+            }
+            else if(typeof object.content.subtitle != 'undefined' && object.parent != 'about'){
+                var string = ' <div class="content-box"><a href="'+object.url+'" class="full-link"><h3 class="content-box__title">'+object.content.title+'</h3> <p>'+object.content.subtitle+'</p> <p class="pageparent">' +object.parent+'</p> </a> </div> ';   
+            }
+            else{
+                var string = ' <div class="content-box"><a href="'+object.url+'" class="full-link"> <h3 class="content-box__title">'+object.content.title+'</h3> </a> </div> ';   
+            }
+                    // Append the results to the container
+                    searchResultsContainerMain.append(string);        
+            });
+            searchResultsContainerMain.append(string);     
+        });
+    } 
+    else {
+        // If there are less than 2 or 0 characters in the input, flush the container
+        searchResultsContainerMain.html('');
+    }
+});
+</script>    </header>
+  </div>
+<main class="main about-page" role="main">
+
+			<script>
+function whys(){
+  document.getElementById("what").classList.remove("active");
+  document.getElementById("how").classList.remove("active");
+  document.getElementById("why").classList.add("active");
+
+  document.getElementById("whats").style.display="none";
+  document.getElementById("hows").style.display="none";
+  document.getElementById("whys").style.display="block";
+  }
+function hows(){
+  document.getElementById("what").classList.remove("active");
+  document.getElementById("how").classList.add("active");
+  document.getElementById("why").classList.remove("active");
+
+  document.getElementById("whys").style.display="none";
+  document.getElementById("whats").style.display="none";
+  document.getElementById("hows").style.display="block";
+}
+function whats(){
+  document.getElementById("what").classList.add("active");
+  document.getElementById("how").classList.remove("active");
+  document.getElementById("why").classList.remove("active");
+
+  document.getElementById("hows").style.display="none";
+  document.getElementById("whys").style.display="none";
+  document.getElementById("whats").style.display="block";
+}
+</script>
+<div class="wrapperBody"> 
+ <div class="wrapperAbout wrap"> 
+
+<section id="about-baltan" class="select">
+  <h2 class="about-section-title">About Baltan</h2> 
+  <div id="whats" class="whyhowwhat">
+    <h1>Rehearsing living otherwise</h1>
+    <p>Baltan Laboratories is a cultural indisciplinary lab based in Eindhoven. We focus on societal issues through a relational approach, creating spaces to rehearse living otherwise. We believe that the increasing complexity of our world and of the challenges we have to face no longer allows for a strictly disciplinary, reductionist and western-based approach. In a world full of uncertainty, complexity and ambiguity, the interactions and exchanges between different disciplines are fundamental to achieving a relational approach that responds to the environmental, political, social, economic and technological issues we must address today. We can no longer divide a problem into its parts, deal with those in separate disciplines and then recompose them in a solution.</p>
+  </div>
+  <div id="hows" class="whyhowwhat">
+    <h1>Bridging different ways of knowing</h1>
+    <p>We try to achieve this attitude by designing learning trajectories, projects and collaborations that bridge different ways of knowing (not just the artistic and the scientific ones) through creative strategies, including embodied, sensory, intuitive and performative techniques. The core of an indisciplinary approach is de-organizing knowledge, temporarily dismantling how it operates to reveal that we are not really touching the complexity of reality but just scraping the layers of abstractions that we put on it to feel in control. In this way, we can become aware of some of the assumptions and ideologies that shape our understanding and action in the world, especially the hegemonic ones that become natural, automatic, unconscious and apparently unquestionable.
+
+We acknowledge the importance of creating a non-hierarchical and safe space where people from all kinds of social, ethnic, discipline, and cultural backgrounds can talk to each other on an equal and non-judgemental level. We strive to include diverse knowledges and value systems in our projects and collaborations, not relying solely on a western perspective.</p>
+  </div>
+ 
+   <div id="whys" class="whyhowwhat">
+    <h1>Transgressing disciplinary boundaries</h1>
+    <p>Disciplines separate those considered qualified to think from those who are not; for this reason, we rather focus on indisciplinarity: an approach which transgresses disciplinary boundaries to achieve intellectual emancipation and evades disciplinary specialism and hierarchisation. Indisciplinarity is not undisciplined. It opposes what, in the discipline, limits the process of discovery and the free movement of serendipity. That means that we shouldn’t get rid of disciplines but instead design ways for their borders to be more permeable and for a new collaboration attitude to emerge.</p>
+  </div>
+
+
+  <div id="whyhowwhat-button">
+    <div>
+      <div id="what" class="button active" onclick="whats()" >
+        <div class="inverter"></div>
+        <span>What?</span>
+      </div>
+      <div id="how" class="button" onclick="hows()" >
+        <div class="inverter"></div>
+        <span>How?</span>
+      </div>
+      <div id="why" class="button" onclick="whys()" >
+        <div class="inverter"></div>
+        <span>Why?</span>
+      </div>
+    </div>
+  </div>
+    
+  <div id="baltanprojects">
+    <h2 class="about-section-title">Baltan Topics</h2> 
+        <div class="projects">
+	<div class="image">
+		
+ 		<h1>Technologies Otherwise</h1>
+	</div>     
+
+	<div class="text">		
+		<p></p>
+		<div>
+			<a href="https://www.baltanlaboratories.org/library/technologies-otherwise" class="link-effect">
+				<span data-hover="Technologies Otherwise">Technologies Otherwise</span>
+			</a>
+		</div>
+	</div>
+</div>
+      </div>
+</section>
+
+</div>
+</div><div class="about wrap">
+    <section id="historys">
+        <article id="history">
+            <h2 class="about-section-title">History</h2>
+                        <div class="mySlides2">
+                <div class="historyImage gray">
+                                                            <img src="https://www.baltanlaboratories.org/thumbs/about/history/2008-2010-600x338-50-50-q100.jpg" alt="">      
+                     
+                </div> 
+                <div class="historyyear">     
+                    <h2>2008-2010</h2>
+                    <button class="historymenu" onclick="plusDivs2(+1)"><i class="fa fa-arrow-right"></i><h3>Next</h3></button>
+                </div>
+                <div class="historytext">  
+                    <h3>A two-year research pilot</h3> 
+                    <p>Founded as a two-year pilot, Baltan Laboratories explores what the media lab of the future could look like. The lab opens its doors and makes the first step towards a broader art science lab. Baltan’s identity and ambitions are closely connected to the history and DNA of the city of Eindhoven, The NatLab, as well as developments on Strijp S, the former industrial area of Philips previously known as the ‘forbidden’ city.</p>
+                </div>  
+            </div>
+                         <div class="mySlides2">
+                <div class="historyImage gray">
+                                                            <img src="https://www.baltanlaboratories.org/thumbs/about/history/2010-2012-600x338-50-50-q100.jpg" alt="">      
+                     
+                </div> 
+                <div class="historyyear">     
+                    <h2>2010 - 2012</h2>
+                    <button class="historymenu" onclick="plusDivs2(+1)"><i class="fa fa-arrow-right"></i><h3>Next</h3></button>
+                </div>
+                <div class="historytext">  
+                    <h3>A Blueprint for a Lab of the Future</h3> 
+                    <p>Baltan publishes A Blueprint for a Lab of the Future, an extensive publication, presenting the results and reflections on Baltan’s pilot phase undertaken from 2008 to 2010. The book features conversations that illustrate the process of building the lab, interviews featuring personal perspectives on the lab and reflections on projects supported by Baltan.</p>
+                </div>  
+            </div>
+                         <div class="mySlides2">
+                <div class="historyImage gray">
+                                                            <img src="https://www.baltanlaboratories.org/thumbs/about/history/2012-2014-600x338-50-50-q100.jpg" alt="">      
+                     
+                </div> 
+                <div class="historyyear">     
+                    <h2>2012-2014</h2>
+                    <button class="historymenu" onclick="plusDivs2(+1)"><i class="fa fa-arrow-right"></i><h3>Next</h3></button>
+                </div>
+                <div class="historytext">  
+                    <h3>The plug-in methodology</h3> 
+                    <p>Baltan successfully connects artistic projects with the research conducted in the Brainport Region. By implementing the plug-in methodology, Baltan embraces a flexible structure and way of working, while tapping into temporary infrastructures, stakeholders, communications and audiences of strategic partner organisations. The strength of Baltan is her strategic positioning amongst local and international networks to foster art and technology collaborations.</p>
+                </div>  
+            </div>
+                         <div class="mySlides2">
+                <div class="historyImage gray">
+                                                            <img src="https://www.baltanlaboratories.org/thumbs/about/history/2014-2015-600x338-50-50-q100.jpg" alt="">      
+                     
+                </div> 
+                <div class="historyyear">     
+                    <h2>2014-2015</h2>
+                    <button class="historymenu" onclick="plusDivs2(+1)"><i class="fa fa-arrow-right"></i><h3>Next</h3></button>
+                </div>
+                <div class="historytext">  
+                    <h3>The true method of knowledge is experiment</h3> 
+                    <p>The renovated Natlab building is officially opened, with Baltan as a key inhabitant. The former physics laboratory of Philips is internationally recognised for its innovative research. Located on Strijp S, Baltan is now at the heart of the creative community. The inauguration is celebrated with projects inspired by the work of Dick Raaijmakers aka Kid Baltan, pioneer in electronic music, working at the former NatLab.</p>
+                </div>  
+            </div>
+                         <div class="mySlides2">
+                <div class="historyImage gray">
+                                                            <img src="https://www.baltanlaboratories.org/thumbs/about/history/2015-2017-600x338-50-50-q100.jpg" alt="">      
+                     
+                </div> 
+                <div class="historyyear">     
+                    <h2>2015-2017</h2>
+                    <button class="historymenu" onclick="plusDivs2(+1)"><i class="fa fa-arrow-right"></i><h3>Next</h3></button>
+                </div>
+                <div class="historytext">  
+                    <h3>The Lab as a collaborative framework</h3> 
+                    <p>Baltan stimulates a cross-disciplinary approach conducted in an open-minded atmosphere based on trust and mutual inspiration. A solid model for long-term partnerships is established, facilitating open innovation research by reaching out to the creative and high tech community. Baltan interrogates the role of labs and hubs, being convinced that artists and designers are the most relevant critics of our time. Baltan makes these processes tangible by sharing ideas and knowledge with others.</p>
+                </div>  
+            </div>
+                         <div class="mySlides2">
+                <div class="historyImage gray">
+                                                            <img src="https://www.baltanlaboratories.org/thumbs/about/history/2018-600x338-50-50-q100.jpg" alt="">      
+                     
+                </div> 
+                <div class="historyyear">     
+                    <h2>2018</h2>
+                    <button class="historymenu" onclick="plusDivs2(+1)"><i class="fa fa-arrow-right"></i><h3>Next</h3></button>
+                </div>
+                <div class="historytext">  
+                    <h3>Ten Years a Lab</h3> 
+                    <p>The organisation proven model for the development of structural connections between art, design, science, technology has become the premise for innovative artistic collaborations. Becoming a main actor in an international ecosystem of academics, industry and culture, Baltan continuously keeps reinventing ideas, methods and tools, exploring societal issues on the edges of disciplines.</p>
+                </div>  
+            </div>
+                     </article>
+    </section>
+<div style="clear:both;"></div>
+</div>
+<div class="about wrap greybackground">
+	<section id="testimonials">
+		<h2 class="about-section-title">Testimonials</h2>
+		
+    	
+	  	<div class="testimonials">	
+	  				 	<div class="mySlides fade-in">
+			 	<div><h3>I see Baltan as an extremely valuable addition to a worldwide, Dutch and, Eindhoven’s network of cultural institutions.</h3></div>
+				<div class="author">
+					<p>Dick Rijken -
+					   Director of STEIM </p>
+				</div>
+			</div>
+      				 	<div class="mySlides fade-in">
+			 	<div><h3>100 Days of Learning was one of the most deep learning experiences that kickstarted the students' research. The format forces everyone to reflect on what we can contribute to society.</h3></div>
+				<div class="author">
+					<p>Jan Boelen -
+					   Head of Master department Social Design at Design Academy Eindhoven </p>
+				</div>
+			</div>
+      				 	<div class="mySlides fade-in">
+			 	<div><h3>Baltan invited me into a wonderful network of artists, thinkers and technologists, which enabled me to further develop my projects.</h3></div>
+				<div class="author">
+					<p>Monique Grimord -
+					   Interactive Designer </p>
+				</div>
+			</div>
+      				 	<div class="mySlides fade-in">
+			 	<div><h3>Baltan’s open-minded approach enabled me to test out a series of workshops and allowed me to communicate my research early in its development.</h3></div>
+				<div class="author">
+					<p>Louise Mackenzie -
+					   Artist and PhD researcher at Northumbria University, Newcastle </p>
+				</div>
+			</div>
+      				 	<div class="mySlides fade-in">
+			 	<div><h3>Together with Baltan, we made a fun and interactive demonstrator for a sensor, which opened lively discussions afterwards.</h3></div>
+				<div class="author">
+					<p>Marcel Zevenbergen -
+					   Senior Researcher Sensors & Energy Harvesters, Holst Centre/Imec </p>
+				</div>
+			</div>
+      				</div>
+ 		<div class="navigation">
+			<div class="testimonialButton left">
+	 			<button class="blue-button" onclick="plusDivs(-1)"><i class="fa fa-arrow-left"></i></button>
+			</div>
+			<div class="testimonialButton right">
+				<button class="blue-button" onclick="plusDivs(+1)"><i class="fa fa-arrow-right"></i></button>
+			</div>
+		</div>
+	</section>
+</div>
+
+<div style="clear:both;"></div>
+</div><div class="wrap legalinfo-wrap">
+	<section class="legal-info-section" id="legal-info">
+		<article class="itemtext">        
+		 	<h2 class="about-section-title">Legal Info</h2>
+		 	<p>Stichting Baltan bestaat sinds 2008 en is gevestigd in het Natlab op Strijp-S in Eindhoven. Deze pagina bevat alle informatie ten behoeve van de ANBI-status. Baltan Laboratories opereert onder RSIN-nummer 819156267.</p>		 	<div class="extra-content"><p>Beloningsbeleid van de organisatie<br />
+Baltan Laboratories streeft ernaar om te belonen conform wat gemiddeld gangbaar is in de culturele sector. Salarissen worden vastgesteld in functie van individuele verantwoordelijkheden en een jaarlijks evaluatiegesprek. Om ons beleid verder te professionaliseren en optimaliseren, hebben we momenteel een adviestraject lopen via Cultuur Ondernemen. De uitkomst daarvan zal vanaf midden juni verder vormgeven aan ons beloningsbeleid. Zoals vastgelegd in de statuten, genieten leden van het Bestuur geen beloning voor hun werkzaamheden. Zij hebben wel recht op vergoeding van de door hen in de uitoefening van hun functie gemaakte kosten.</p></div>
+		 	<div id="readmore">Read more</div>
+		</article>
+	</section>
+</div>
+ <div class="wrap download-wrap">	
+	<section class="download-section" id="downloads">
+		<h2 class="about-section-title">Downloads</h2>
+		<div class="downloads-left">
+		    		    <section class="downloads">
+ 	<article class="itemtext">
+ 	    <a href="/about/downloads/baltan_basement.zip" target="_blank">Baltan Basement info package</a>
+	</article>
+</section>
+
+		    		    <section class="downloads">
+ 	<article class="itemtext">
+ 	    <a href="/about/downloads/baltan_expo.zip" target="_blank">Baltan Expo info package</a>
+	</article>
+</section>
+
+		    		    <section class="downloads">
+ 	<article class="itemtext">
+ 	    <a href="/about/downloads/natlab.zip" target="_blank">Natlab building general info package</a>
+	</article>
+</section>
+
+		    		    <section class="downloads">
+ 	<article class="itemtext">
+ 	    <a href="/about/downloads/bestuursmodel-baltan-2026.pdf" target="_blank">Governance model</a>
+	</article>
+</section>
+
+		    		    <section class="downloads">
+ 	<article class="itemtext">
+ 	    <a href="/about/downloads/2025_standaardform-pubplicht-anbi-algemeen-ib1101z4fol.pdf" target="_blank">ANBI form</a>
+	</article>
+</section>
+
+		    
+			<div class="newsletterarchive">
+				<p>Look into our <a onclick="showNewsletter()">newsletter archive</a> and
+				<a href="">subscribe</a> to stay in the know</p>
+			</div>
+		</div>
+			
+		
+			<div class="downloads-right annualreports financialreports">
+				<h2 class="about-section-title">Annual reports</h2>
+				<a href="/about/downloads/baltan_jaarverslag2017_v2.pdf" target="_blank">2017</a>
+				<a href="/about/downloads/baltan_jaarverslag2018_spreads_v3.pdf" target="_blank">2018</a>
+				<a href="/about/downloads/jaarverslag_baltan_2019.pdf" target="_blank">2019</a>
+				<a href="/about/downloads/200424_bl_annual_report_2020_f.pdf" target="_blank">2020</a>
+				<a href="/about/downloads/220324_bl_annual_report_2021_v3.4.pdf" target="_blank">2021</a>
+				<a href="/about/downloads/bl_annual-report-en_ff_hr.pdf" target="_blank">2022 (ENG)</a>
+				<a href="/about/downloads/bl_annual-report-nl_ff_hr.pdf" target="_blank">2022 (NL)</a>
+				<a href="/about/downloads/240429_bl_annual-report-nl_f.pdf" target="_blank">2023 (NL)</a>
+				<a href="/about/downloads/baltan-laboratories-jaarverslag-2024.pdf" target="_blank">2024 (NL)</a>
+				<a href="/about/downloads/annual-report-2025-eng.pdf" target="_blank">2025 (ENG)</a>
+				<a href="/about/downloads/annual-report-2025-nl.pdf" target="_blank">2025 (NL)</a>
+		</div>
+	
+
+			<div class="downloads-right annualreports">
+				<h2 class="about-section-title">Financial reports</h2>
+				<a href="/about/downloads/jaarrekening-2016-baltan-signed_incl-controle.pdf" target="_blank">2016</a>
+				<a href="/about/downloads/jaarrapport-baltan-2017-signed_def.pdf" target="_blank">2017</a>
+				<a href="/about/downloads/jaarrapport-2018-baltan-def-getekend_acc-en-bestuur.pdf" target="_blank">2018</a>
+				<a href="/about/downloads/jaarverslag_baltan_2019.pdf" target="_blank">2019</a>
+				<a href="/about/downloads/jaarrekening_2020_baltan-laboratories-w.g.versie.pdf" target="_blank">2020</a>
+				<a href="/about/downloads/220429-jaarrapport-2021-baltan-def-incl-acv-dr_ck_pz_jp.pdf" target="_blank">2021</a>
+				<a href="/about/downloads/jaarrapport-baltan-2022_web-version.pdf" target="_blank">2022</a>
+				<a href="/about/downloads/jaarrapport-2023-baltan.pdf" target="_blank">2023</a>		
+				<a href="/about/downloads/jaarrapport-stichting-baltan-2024_w_signatures.pdf" target="_blank">2024</a>		
+				<a href="/about/downloads/jaarraport-2025-stichting-baltan-ongetekend.pdf" target="_blank">2025</a>			
+				<a href="/about/downloads/" target="_blank"></a>			
+		</div>
+	
+		<div class="newsletter-archive">
+			<h2 class="about-section-title">Newsletter Archive</h2>
+		</div>
+		
+		<script type="text/javascript">
+				$(document).ready(function(){
+					$('.newsletter-archive').append("<div class=\"display_archive\"><div class=\"campaign\">21\/07\/2017 - <a href=\"http:\/\/us7.campaign-archive.com\/?u=53e523a063d916680096d60ad&id=f4cfa6bf40\" title=\"Baltan Laboratories Newsletter July 2017\" target=\"_blank\">Baltan Laboratories Newsletter July 2017<\/a><\/div><div class=\"campaign\">14\/06\/2017 - <a href=\"http:\/\/us7.campaign-archive.com\/?u=53e523a063d916680096d60ad&id=a81702da7c\" title=\"Baltan Laboratories Newsletter June 2017\" target=\"_blank\">Baltan Laboratories Newsletter June 2017<\/a><\/div><div class=\"campaign\">12\/05\/2017 - <a href=\"http:\/\/us7.campaign-archive.com\/?u=53e523a063d916680096d60ad&id=0f5920e311\" title=\"Baltan Laboratories Newsletter May 2017\" target=\"_blank\">Baltan Laboratories Newsletter May 2017<\/a><\/div><div class=\"campaign\">26\/04\/2017 - <a href=\"http:\/\/us7.campaign-archive.com\/?u=53e523a063d916680096d60ad&id=b2a4075962\" title=\"Baltan Laboratories Extra Economia Newsletter\" target=\"_blank\">Baltan Laboratories Extra Economia Newsletter<\/a><\/div><div class=\"campaign\">18\/04\/2017 - <a href=\"http:\/\/us7.campaign-archive.com\/?u=53e523a063d916680096d60ad&id=280fda0d7e\" title=\"Baltan Laboratories Newsletter April 2017 Economia Edition\" target=\"_blank\">Baltan Laboratories Newsletter April 2017 Economia Edition<\/a><\/div><div class=\"campaign\">24\/03\/2017 - <a href=\"http:\/\/us7.campaign-archive.com\/?u=53e523a063d916680096d60ad&id=0596808859\" title=\"Baltan Laboratories Newsletter March 2017\" target=\"_blank\">Baltan Laboratories Newsletter March 2017<\/a><\/div><div class=\"campaign\">22\/02\/2017 - <a href=\"http:\/\/us7.campaign-archive.com\/?u=53e523a063d916680096d60ad&id=0e16953f9b\" title=\"Baltan Laboratories Newsletter February 2017\" target=\"_blank\">Baltan Laboratories Newsletter February 2017<\/a><\/div><div class=\"campaign\">27\/01\/2017 - <a href=\"http:\/\/us7.campaign-archive.com\/?u=53e523a063d916680096d60ad&id=ea651f5b94\" title=\"Baltan Laboratories Newsletter January 2017\" target=\"_blank\">Baltan Laboratories Newsletter January 2017<\/a><\/div><\/div>");
+				});
+				function showNewsletter() {
+					$('.newsletter-archive').slideDown('fast');
+				}
+			</script>
+	</section>
+
+</div><div id="partners" class="wrap">
+	<section class="partner-section" id="partners">
+		<h2 class="about-section-title">Partners</h2>
+		<h2 class="partner-type">Structural partners</h2>
+		<div>
+		   			    <section class="partner-logo">
+    <a href='https://www.cultuureindhoven.nl/' target='_blank' class='event-link'> 
+                  <img src="https://www.baltanlaboratories.org/content/4-about/6-partners/cultuureindhoven-black.png" alt="">      
+                          
+    </a> 
+</section>
+		    		    <section class="partner-logo">
+    <a href='https://www.brabant.nl/' target='_blank' class='event-link'> 
+                  <img src="https://www.baltanlaboratories.org/content/4-about/6-partners/provincienoordbrabant-black.png" alt="">      
+                          
+    </a> 
+</section>
+		    		    <section class="partner-logo">
+    <a href='https://stimuleringsfonds.nl/' target='_blank' class='event-link'> 
+                  <img src="https://www.baltanlaboratories.org/content/4-about/6-partners/creativeindustriesfundnl-black.png" alt="">      
+                          
+    </a> 
+</section>
+		    		</div>
+		<h2 class="partner-type">Programme partners</h2>
+		<div>
+						<section class="partner-logo">
+    <a href='' target='_blank' class='event-link'>
+                  <img src="https://www.baltanlaboratories.org/content/4-about/6-partners/support734.png" alt="">      
+                          
+    </a>
+</section>
+						<section class="partner-logo">
+    <a href='https://www.holstcentre.com' target='_blank' class='event-link'>
+                  <img src="https://www.baltanlaboratories.org/content/4-about/6-partners/holstcentre-black.png" alt="">      
+                          
+    </a>
+</section>
+						<section class="partner-logo">
+    <a href='http://brabant.nl' target='_blank' class='event-link'>
+                  <img src="https://www.baltanlaboratories.org/content/4-about/6-partners/support354.png" alt="">      
+                          
+    </a>
+</section>
+						<section class="partner-logo">
+    <a href='' target='_blank' class='event-link'>
+                  <img src="https://www.baltanlaboratories.org/content/4-about/6-partners/support77.png" alt="">      
+                          
+    </a>
+</section>
+						<section class="partner-logo">
+    <a href='http://www.heyheydehaas.com/' target='_blank' class='event-link'>
+                  <img src="https://www.baltanlaboratories.org/content/4-about/6-partners/heyheydehaas-black.png" alt="">      
+                          
+    </a>
+</section>
+						<section class="partner-logo">
+    <a href='https://vanabbemuseum.nl' target='_blank' class='event-link'>
+                  <img src="https://www.baltanlaboratories.org/content/4-about/6-partners/vanabbemuseum-black.png" alt="">      
+                          
+    </a>
+</section>
+						<section class="partner-logo">
+    <a href='http://www.trudo.nl' target='_blank' class='event-link'>
+                  <img src="https://www.baltanlaboratories.org/content/4-about/6-partners/sinttrudo-black.png" alt="">      
+                          
+    </a>
+</section>
+						<section class="partner-logo">
+    <a href='http://www.dutchdesignfoundation.com' target='_blank' class='event-link'>
+                  <img src="https://www.baltanlaboratories.org/content/4-about/6-partners/ddflogo.jpg" alt="">      
+                          
+    </a>
+</section>
+						<section class="partner-logo">
+    <a href='http://rixc.org/' target='_blank' class='event-link'>
+                  <img src="https://www.baltanlaboratories.org/content/4-about/6-partners/rixc.png" alt="">      
+                          
+    </a>
+</section>
+						<section class="partner-logo">
+    <a href='https://www.sintlucas.nl/' target='_blank' class='event-link'>
+                  <img src="https://www.baltanlaboratories.org/content/4-about/6-partners/sintlucas.png" alt="">      
+                          
+    </a>
+</section>
+						<section class="partner-logo">
+    <a href='http://www.broet.nl/' target='_blank' class='event-link'>
+                  <img src="https://www.baltanlaboratories.org/content/4-about/6-partners/broetlogo.png" alt="">      
+                          
+    </a>
+</section>
+						<section class="partner-logo">
+    <a href='http://www.creativering.eu/eindhoven/' target='_blank' class='event-link'>
+                  <img src="https://www.baltanlaboratories.org/content/4-about/6-partners/creativering.png" alt="">      
+                          
+    </a>
+</section>
+						<section class="partner-logo">
+    <a href='https://www.designacademy.nl/' target='_blank' class='event-link'>
+                  <img src="https://www.baltanlaboratories.org/content/4-about/6-partners/designacademyeindhoven.png" alt="">      
+                          
+    </a>
+</section>
+						<section class="partner-logo">
+    <a href='http://www.sensiks.com/' target='_blank' class='event-link'>
+                  <img src="https://www.baltanlaboratories.org/content/4-about/6-partners/sensikslogo.png" alt="">      
+                          
+    </a>
+</section>
+						<section class="partner-logo">
+    <a href='https://www.hku.nl/' target='_blank' class='event-link'>
+                  <img src="https://www.baltanlaboratories.org/content/4-about/6-partners/hku.png" alt="">      
+                          
+    </a>
+</section>
+						<section class="partner-logo">
+    <a href='https://www.vpro.nl/medialab.html' target='_blank' class='event-link'>
+                  <img src="https://www.baltanlaboratories.org/content/4-about/6-partners/vpromedialab.png" alt="">      
+                          
+    </a>
+</section>
+						<section class="partner-logo">
+    <a href='https://www.joanknecht.com' target='_blank' class='event-link'>
+                  <img src="https://www.baltanlaboratories.org/content/4-about/6-partners/joanknecht-eng-zw.jpg" alt="">      
+                          
+    </a>
+</section>
+					</div>
+	</section>
+</div>
+<div id="team" class="wrap">
+	<section class="team-section" id="team">
+		<h2 class="about-section-title">Meet the Baltan Team</h2>
+		<div class="teammembers">
+				
+
+<section class="imagetext">
+	<a href="mailto:marlou@baltanlaboratories.org">
+					<img src="https://www.baltanlaboratories.org/thumbs/about/team/01_mm20210325_2125_5235-400x400-50-50-q100.jpg" alt="">      
+		<h3>Marlou van der Cruijsen</h3>
+	<p>Co-Director</p>   
+	<p class="mail">marlou@baltanlaboratories.org</p>
+	</a>
+</section>
+				
+
+<section class="imagetext">
+	<a href="mailto:lorenzo@baltanlaboratories.org">
+					<img src="https://www.baltanlaboratories.org/thumbs/about/team/03_mm20210325_2234_5354-400x400-50-50-q100.jpg" alt="">      
+		<h3>Lorenzo Gerbi</h3>
+	<p>Co-Director</p>   
+	<p class="mail">lorenzo@baltanlaboratories.org</p>
+	</a>
+</section>
+				
+
+<section class="imagetext">
+	<a href="mailto:benji@baltanlaboratories.org">
+					<img src="https://www.baltanlaboratories.org/thumbs/about/team/whatsapp-image-2026-01-06-at-13.00.01-400x400-q100.jpg" alt="">      
+		<h3>Benji Sheppard</h3>
+	<p>Producer</p>   
+	<p class="mail">benji@baltanlaboratories.org</p>
+	</a>
+</section>
+				
+
+<section class="imagetext">
+	<a href="mailto:chiara@baltanlaboratories.org">
+					<img src="https://www.baltanlaboratories.org/content/4-about/8-team/chiara-square.png" alt="">      
+		<h3>Chiara Attanasio</h3>
+	<p>Blablalab Community Builder</p>   
+	<p class="mail">chiara@baltanlaboratories.org</p>
+	</a>
+</section>
+				
+
+<section class="imagetext">
+	<a href="mailto:">
+					<img src="https://www.baltanlaboratories.org/thumbs/about/team/katie-poltz-400x400-50-50-q100.jpg" alt="">      
+		<h3>Katie Poltz</h3>
+	<p>Board Member</p>   
+	<p class="mail"></p>
+	</a>
+</section>
+				
+
+<section class="imagetext">
+	<a href="mailto:">
+					<img src="https://www.baltanlaboratories.org/thumbs/about/team/frederik-400x400-50-50-q100.png" alt="">      
+		<h3>Frederik van Heel</h3>
+	<p>Board Member</p>   
+	<p class="mail"></p>
+	</a>
+</section>
+				
+
+<section class="imagetext">
+	<a href="mailto:">
+					<img src="https://www.baltanlaboratories.org/thumbs/about/team/photo-vero-vrai-novembre-2025-400x400-50-50-q100.jpg" alt="">      
+		<h3>Veronique Birquet-Laugier</h3>
+	<p>Board Member</p>   
+	<p class="mail"></p>
+	</a>
+</section>
+				
+
+<section class="imagetext">
+	<a href="mailto:">
+		<h3>Gerrit Bruggeman</h3>
+	<p>Board Member</p>   
+	<p class="mail"></p>
+	</a>
+</section>
+				
+
+<section class="imagetext">
+	<a href="mailto:">
+		<h3>Kate Vass</h3>
+	<p>Board Member</p>   
+	<p class="mail"></p>
+	</a>
+</section>
+		
+		</div>
+	</section>
+</div>        <div id="opened-gallery-contact">
+            <div id="flickrembed"></div>        
+            <div> 
+                <header class="cd-panel-header flickrheader">
+                    <a href="#gallery" id="closeContact" class="cd-panel-close">Close Button</a>
+                </header>
+                <div class="description"> 
+                	<h2>Privacy Statement</h2>
+                    <!--<p class="gallery-description">privacy</p>!-->
+                    <p>Baltan Laboratories Baltan Laboratories, gevestigd aan Kastanjelaan 500, 5616 LZ Eindhoven, is verantwoordelijk voor de verwerking van persoonsgegevens zoals weergegeven in deze privacyverklaring.</p>
+                    <p>Contactgegevens:<br>
+                    	www.baltanlaboratories.org Postbus 4042<br>
+                    5604 EA Eindhoven +31616717166</p>
+                    <h4>Persoonsgegevens die wij verwerken</h4>
+					<p>Baltan Laboratories verwerkt je persoonsgegevens doordat je gebruik maakt van onze diensten en/of omdat je deze gegevens zelf aan ons verstrekt.</p>
+					<p>Hieronder vind je een overzicht van de persoonsgegevens die wij verwerken:</p>
+						<ul class="list">
+							<li>Voor- en achternaam</li>
+							<li>Adresgegevens</li>
+							<li>Telefoonnummer</li>
+							<li>E-mailadres</li>
+							<li>Gegevens over jouw activiteiten op onze website</li>
+							<li>Bankrekeningnummer</li>
+						</ul>
+					<h4>Bijzondere en/of gevoelige persoonsgegevens die wij verwerken</h4>
+					<p>Baltan Laboratories verwerkt de volgende bijzondere en/of gevoelige persoonsgegevens van jou:</p>
+						<ul class="list">
+							<li>burgerservicenummer (BSN)</li>
+						</ul>
+
+					<h4>Met welk doel en op basis van welke grondslag wij persoonsgegevens verwerken</h4>
+					<p>Baltan Laboratories verwerkt jouw persoonsgegevens voor de volgende doelen:</p>
+					<ul class="list">
+						<li>Het afhandelen van jouw betaling</li>
+						<li>Verzenden van onze nieuwsbrief en/of reclamefolder</li>
+						<li>Om goederen en diensten bij je af te leveren</li>
+						<li>Baltan Laboratories verwerkt ook persoonsgegevens als wij hier wettelijk toe verplicht zijn, zoals gegevens die wij nodig hebben voor onze belastingaangifte.</li>
+					</ul>
+
+					<h4>Geautomatiseerde besluitvorming</h4>
+					<p>Baltan Laboratories neemt niet op basis van geautomatiseerde verwerkingen besluiten over zaken die (aanzienlijke) gevolgen kunnen hebben voor personen. Het gaat hier om besluiten die worden genomen door computerprogramma's of -systemen, zonder dat daar een mens (bijvoorbeeld een medewerker van Baltan Laboratories) tussen zit.</p>
+
+					<h4>Hoe lang we persoonsgegevens bewaren</h4>
+					<p>Baltan Laboratories bewaart je persoonsgegevens niet langer dan strikt nodig is om de doelen te realiseren waarvoor je gegevens worden verzameld. Wij hanteren een bewaartermijn van maximaal 2 jaar voor persoonsgegevens en contactinformatie met als reden de garantie van continuïteit in de uitvoering van de programma's van Baltan Laboratories.</p>
+
+					<h4>Delen van persoonsgegevens met derden</h4>
+					<p>Baltan Laboratories verkoopt jouw gegevens niet aan derden en zal deze uitsluitend verstrekken indien dit nodig is voor de uitvoering van onze overeenkomst met jou of om te voldoen aan een wettelijke verplichting. Met bedrijven die jouw gegevens verwerken in onze opdracht, sluiten wij een bewerkersovereenkomst om te zorgen voor eenzelfde niveau van beveiliging en vertrouwelijkheid van jouw gegevens. Baltan Laboratories blijft verantwoordelijk voor deze verwerkingen.</p>
+
+					<h4>Cookies, of vergelijkbare technieken, die wij gebruiken</h4>
+					<p>Baltan Laboratories gebruikt geen cookies of vergelijkbare technieken.</p>
+
+					<h4>Gegevens inzien, aanpassen of verwijderen</h4>
+					<p>Je hebt het recht om je persoonsgegevens in te zien, te corrigeren of te verwijderen. Daarnaast heb je het recht om je eventuele toestemming voor de gegevensverwerking in te trekken of bezwaar te maken tegen de verwerking van jouw persoonsgegevens door Baltan Laboratories en heb je het recht op gegevensoverdraagbaarheid. Dat betekent dat je bij ons een verzoek kan indienen om de persoonsgegevens die wij van jou beschikken in een computerbestand naar jou of een ander, door jou genoemde organisatie, te sturen.</p>
+					<p>Je kunt een verzoek tot inzage, correctie, verwijdering, gegevensoverdraging van je persoonsgegevens of verzoek tot intrekking van je toestemming of bezwaar op de verwerking van jouw persoonsgegevens sturen naar <a href="info@baltanlaboratories.org" target="_top">info@baltanlaboratories.org</a>.</p>
+					<p>Om er zeker van te zijn dat het verzoek tot inzage door jou is gedaan, vragen wij jou een kopie van je identiteitsbewijs met het verzoek mee te sturen. Maak in deze kopie je pasfoto, MRZ (machine readable zone, de strook met nummers onderaan het paspoort), paspoortnummer en Burgerservicenummer (BSN) zwart. Dit ter bescherming van je privacy. We reageren zo snel mogelijk, maar binnen vier weken, op jouw verzoek.</p>
+					<p>Baltan Laboratories wil je er tevens op wijzen dat je de mogelijkheid hebt om een klacht in te dienen bij de nationale toezichthouder, de Autoriteit Persoonsgegevens. Dat kan via de volgende link: <a href="https://autoriteitpersoonsgegevens.nl/nl/contact-met-de-autoriteit-persoonsgegevens/tip-ons" target="_blank">https://autoriteitpersoonsgegevens.nl/nl/contact-met-de-autoriteit-persoonsgegevens/tip-ons</a></p>
+
+					<h4>Hoe wij persoonsgegevens beveiligen</h4>
+					<p>Baltan Laboratories neemt de bescherming van jouw gegevens serieus en neemt passende maatregelen om misbruik, verlies, onbevoegde toegang, ongewenste openbaarmaking en ongeoorloofde wijziging tegen te gaan. Als jij het idee hebt dat jouw gegevens toch niet goed beveiligd zijn of er aanwijzingen zijn van misbruik, neem dan contact op met ons via <a href="info@baltanlaboratories.org" target="_top">info@baltanlaboratories.org</a>.</p>
+
+                </div>
+            </div>
+        </div>
+
+
+<section class="map" id="contact">
+	<div class="card wrap">
+		<h2>Contact</h2>
+		<p>
+			<span>+31 (0)6 16 71 71 66</span>
+			<span><a href="mailto:info@baltanlaboratories.org">info@baltanlaboratories.org</a></span>
+		</p>
+
+		<h2>Office</h2>
+		<p>
+			<span>Kelderman en Van Noort</span>
+			<span>Galileistraat 2</span>
+			<span>5621 AE Eindhoven</span>
+		</p>
+			
+		
+		<h2>Visiting address</h2>
+		<p>
+			<span>Kastanjelaan 500</span>
+			<span>5616 LZ Eindhoven</span>
+		</p>
+		<br>
+			<div id="open-gallery-contact" class="gallery-block">  
+            <div>
+                <a>Privacy Statement</a>
+            </div>
+        </div>
+	</div>
+	<div id="map"></div>
+</section>
+<script>
+	jQuery(function($) {
+    	// Asynchronously Load the map API 
+   		var script = document.createElement('script');
+    	script.src = "https://maps.googleapis.com/maps/api/js?key=AIzaSyBHN30XEADGxmBRPl_WKfsCz97bNp8JcSU&callback=initMap";
+    	document.body.appendChild(script);
+	});
+
+	function initMap() {
+			var markers = [
+		        ['Baltan Laboratories Office', {lat:51.446610, lng:5.457808}, true, 0],
+		        ['Visit address', {lat:51.446147, lng:5.453944}, true, 1]
+		    ];
+			var markerCenter = calculateCenter(markers);
+
+		    var map = new google.maps.Map(document.getElementById('map'), {
+	          disableDefaultUI: true,
+	          zoomControl: true,
+	          scrollwheel: false,
+	          zoom:16,
+	          center: markerCenter,
+	          styles: [{"elementType": "geometry","stylers": [{"color": "#f5f5f5"}]},{"elementType": "labels.icon","stylers": [{"visibility": "off"}]},{"elementType": "labels.text.fill","stylers": [{"color": "#616161"}]},{"elementType": "labels.text.stroke","stylers": [{"color": "#f5f5f5"}]},{"featureType": "administrative.land_parcel","elementType": "labels.text.fill","stylers": [{"color": "#bdbdbd"}]},{"featureType": "poi","elementType": "geometry","stylers": [{"color": "#eeeeee"}]},{"featureType": "poi","elementType": "labels.text.fill","stylers": [{"color": "#757575"}]},{"featureType": "poi.park","elementType": "geometry","stylers": [{"color": "#e5e5e5"}]},{"featureType": "poi.park","elementType": "labels.text.fill","stylers": [{"color": "#9e9e9e"}]},{"featureType": "road","elementType": "geometry","stylers": [{"color": "#ffffff"}]},{"featureType": "road.arterial","elementType": "labels.text.fill","stylers": [{"color": "#757575"}]},{"featureType": "road.highway","elementType": "geometry","stylers": [{"color": "#dadada"}]},{"featureType": "road.highway","elementType": "labels.text.fill","stylers": [{"color": "#616161"}]},{"featureType": "road.local","elementType": "labels.text.fill","stylers": [{"color": "#9e9e9e"}]},{"featureType": "transit.line","elementType": "geometry","stylers": [{"color": "#e5e5e5"}]},{"featureType": "transit.station","elementType": "geometry","stylers": [{"color": "#eeeeee"}]},{"featureType": "water","elementType": "geometry","stylers": [{"color": "#c9c9c9"}]},{"featureType": "water","elementType": "labels.text.fill","stylers": [{"color": "#9e9e9e"}]}]
+	      		});
+
+		    var infoWindowContent = [
+		        ['<div class="info_content">' +
+		        '<h3 style="font-size:0.9rem">Office address</h3>' + '<p>Torenallee 34 – 6th floor<br>5603 EA Eindhoven<br><a style="color:#0000CD" href="https://www.google.nl/maps/dir//Torenallee+34,+5617+BD+Eindhoven/@51.446559,5.4562133,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x47c6d96b5a940f21:0xd3bcf6eb23108ba9!2m2!1d5.458402!2d51.446559?hl=en">Get directions</a></p>' +
+				'</div>'],
+		        ['<div class="info_content">' +
+		        '<h3 style="font-size:0.9rem">Visiting address</h3>' + '<p>Kastanjelaan 500<br>5616 LZ Eindhoven<br><a style="color:#0000CD" href="https://www.google.nl/maps/dir//Natlab,+Kastanjelaan+500,+5616+LZ+Eindhoven/@51.4459895,5.4520616,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x47c6d8566c2aec63:0x6016d359fe443000!2m2!1d5.4542503!2d51.4459895?hl=en">Get directions</a></p>' +
+		        '</div>']
+		    ];
+
+
+		    // Display multiple markers on a map
+		    var infoWindow = new google.maps.InfoWindow(), marker, i;
+		    var customMarker = {
+			    url: '../../assets/images/gm-icon.svg',
+			    size: new google.maps.Size(36, 46),
+			    origin: new google.maps.Point(0, 0),
+			    anchor: new google.maps.Point(18, 46)
+			  };
+			for (var i = 0; i < markers.length; i++) {
+		    	var marker = new google.maps.Marker({
+		        title: markers[i][0],
+		        position: markers[i][1],
+		        map: map,
+		        icon: customMarker
+		    	});
+		    	google.maps.event.addListener(marker, 'click', (function(marker, i) {
+		            return function() {
+		                infoWindow.setContent(infoWindowContent[i][0]);
+		                infoWindow.open(map, marker);
+		            }
+		        })(marker, i));
+		    }
+		    
+		}
+		function calculateCenter(array){
+			calcLat = 0;
+			calcLng = 0;
+			for (var i = 0; i < array.length; i++) {
+				calcLat = calcLat + array[i][1].lat;
+				calcLng = calcLng + array[i][1].lng;
+				if (i+1 === array.length){
+					calcLat = calcLat / array.length;
+					calcLng = calcLng / array.length;
+				}
+			}
+			return ({lat: calcLat, lng: calcLng});
+		}
+</script>
+<!-- <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBHN30XEADGxmBRPl_WKfsCz97bNp8JcSU&callback=initMap">
+    </script> -->
+
+   <div id="opened-gallery-privacy" class="news-gallery privacy">
+    <div id="flickrembed"></div>        
+    <div> 
+        <header class="cd-panel-header flickrheader">
+            <a href="#gallery" id="closePrivacy" class="cd-panel-close privacy-close">Close Button</a>
+        </header>
+        <div class="description"> 
+            <h2>Privacy Statement</h2>
+            <p>Baltan Laboratories Baltan Laboratories, gevestigd aan Kastanjelaan 500, 5616 LZ Eindhoven, is verantwoordelijk voor de verwerking van persoonsgegevens zoals weergegeven in deze privacyverklaring.</p>
+            <p>Contactgegevens:<br>
+                www.baltanlaboratories.org Postbus 4042<br>
+            5604 EA Eindhoven +31616717166</p>
+            <h4>Persoonsgegevens die wij verwerken</h4>
+            <p>Baltan Laboratories verwerkt je persoonsgegevens doordat je gebruik maakt van onze diensten en/of omdat je deze gegevens zelf aan ons verstrekt.</p>
+            <p>Hieronder vind je een overzicht van de persoonsgegevens die wij verwerken:</p>
+            <ul class="list">
+                <li>Voor- en achternaam</li>
+                <li>Adresgegevens</li>
+                <li>Telefoonnummer</li>
+                <li>E-mailadres</li>
+                <li>Gegevens over jouw activiteiten op onze website</li>
+                <li>Bankrekeningnummer</li>
+            </ul>
+            <h4>Bijzondere en/of gevoelige persoonsgegevens die wij verwerken</h4>
+            <p>Baltan Laboratories verwerkt de volgende bijzondere en/of gevoelige persoonsgegevens van jou:</p>
+            <ul class="list">
+                <li>burgerservicenummer (BSN)</li>
+            </ul>
+
+            <h4>Met welk doel en op basis van welke grondslag wij persoonsgegevens verwerken</h4>
+            <p>Baltan Laboratories verwerkt jouw persoonsgegevens voor de volgende doelen:</p>
+            <ul class="list">
+                <li>Het afhandelen van jouw betaling</li>
+                <li>Verzenden van onze nieuwsbrief en/of reclamefolder</li>
+                <li>Om goederen en diensten bij je af te leveren</li>
+                <li>Baltan Laboratories verwerkt ook persoonsgegevens als wij hier wettelijk toe verplicht zijn, zoals gegevens die wij nodig hebben voor onze belastingaangifte.</li>
+            </ul>
+
+            <h4>Geautomatiseerde besluitvorming</h4>
+            <p>Baltan Laboratories neemt niet op basis van geautomatiseerde verwerkingen besluiten over zaken die (aanzienlijke) gevolgen kunnen hebben voor personen. Het gaat hier om besluiten die worden genomen door computerprogramma's of -systemen, zonder dat daar een mens (bijvoorbeeld een medewerker van Baltan Laboratories) tussen zit.</p>
+
+            <h4>Hoe lang we persoonsgegevens bewaren</h4>
+            <p>Baltan Laboratories bewaart je persoonsgegevens niet langer dan strikt nodig is om de doelen te realiseren waarvoor je gegevens worden verzameld. Wij hanteren een bewaartermijn van maximaal 2 jaar voor persoonsgegevens en contactinformatie met als reden de garantie van continuïteit in de uitvoering van de programma's van Baltan Laboratories.</p>
+
+            <h4>Delen van persoonsgegevens met derden</h4>
+            <p>Baltan Laboratories verkoopt jouw gegevens niet aan derden en zal deze uitsluitend verstrekken indien dit nodig is voor de uitvoering van onze overeenkomst met jou of om te voldoen aan een wettelijke verplichting. Met bedrijven die jouw gegevens verwerken in onze opdracht, sluiten wij een bewerkersovereenkomst om te zorgen voor eenzelfde niveau van beveiliging en vertrouwelijkheid van jouw gegevens. Baltan Laboratories blijft verantwoordelijk voor deze verwerkingen.</p>
+
+            <h4>Cookies, of vergelijkbare technieken, die wij gebruiken</h4>
+            <p>Baltan Laboratories gebruikt geen cookies of vergelijkbare technieken.</p>
+
+            <h4>Gegevens inzien, aanpassen of verwijderen</h4>
+            <p>Je hebt het recht om je persoonsgegevens in te zien, te corrigeren of te verwijderen. Daarnaast heb je het recht om je eventuele toestemming voor de gegevensverwerking in te trekken of bezwaar te maken tegen de verwerking van jouw persoonsgegevens door Baltan Laboratories en heb je het recht op gegevensoverdraagbaarheid. Dat betekent dat je bij ons een verzoek kan indienen om de persoonsgegevens die wij van jou beschikken in een computerbestand naar jou of een ander, door jou genoemde organisatie, te sturen.</p>
+            <p>Je kunt een verzoek tot inzage, correctie, verwijdering, gegevensoverdraging van je persoonsgegevens of verzoek tot intrekking van je toestemming of bezwaar op de verwerking van jouw persoonsgegevens sturen naar <a href="info@baltanlaboratories.org" target="_top">info@baltanlaboratories.org</a>.</p>
+            <p>Om er zeker van te zijn dat het verzoek tot inzage door jou is gedaan, vragen wij jou een kopie van je identiteitsbewijs met het verzoek mee te sturen. Maak in deze kopie je pasfoto, MRZ (machine readable zone, de strook met nummers onderaan het paspoort), paspoortnummer en Burgerservicenummer (BSN) zwart. Dit ter bescherming van je privacy. We reageren zo snel mogelijk, maar binnen vier weken, op jouw verzoek.</p>
+            <p>Baltan Laboratories wil je er tevens op wijzen dat je de mogelijkheid hebt om een klacht in te dienen bij de nationale toezichthouder, de Autoriteit Persoonsgegevens. Dat kan via de volgende link: <a href="https://autoriteitpersoonsgegevens.nl/nl/contact-met-de-autoriteit-persoonsgegevens/tip-ons" target="_blank">https://autoriteitpersoonsgegevens.nl/nl/contact-met-de-autoriteit-persoonsgegevens/tip-ons</a></p>
+
+            <h4>Hoe wij persoonsgegevens beveiligen</h4>
+            <p>Baltan Laboratories neemt de bescherming van jouw gegevens serieus en neemt passende maatregelen om misbruik, verlies, onbevoegde toegang, ongewenste openbaarmaking en ongeoorloofde wijziging tegen te gaan. Als jij het idee hebt dat jouw gegevens toch niet goed beveiligd zijn of er aanwijzingen zijn van misbruik, neem dan contact op met ons via <a href="info@baltanlaboratories.org" target="_top">info@baltanlaboratories.org</a>.</p>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+  function checkForm(form)
+  {
+    if(!form.optin.checked) {
+        var circle = document.getElementsByClassName('errorcircle')[0];
+        var formcontainer = document.getElementById('mc-embedded-subscribe-form');
+        circle.classList.add('show');
+        formcontainer.classList.add('is-checked');
+        form.optin.focus();
+        return false;
+    }
+    return true;
+  }
+</script>
+
+<footer id="footer" class="footer cf" role="contentinfo">
+    <div class="newsletter newsletterFooter" id="mc_embed_signup">
+        <h4 id="newsletterTitle">Stay up to date with Baltan's activities.</h4>
+        <form action="https://baltanlaboratories.us7.list-manage.com/subscribe/post?u=53e523a063d916680096d60ad&amp;id=b968e307eb" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" onsubmit="return checkForm(this);" class="validate" target="_blank" validate>
+        <div id="mc_embed_signup_scroll">
+            <div class="mc-field-group newsletterMail">
+                <h4 class="event"><input type="email" value="" name="EMAIL" placeholder="e-mail address" class="required email event" id="mce-EMAIL"></h4>
+            </div>
+            <div class="clear blue-button">
+                <h4 class="event"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></h4>
+            </div>
+            <div id="mce-responses" class="clear">
+              <div class="response" id="mce-error-response" style="display:none"></div>
+              <div class="response" id="mce-success-response" style="display:none"></div>
+            </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_484445d437bc0d02d929dfbef_225d3a20bd" tabindex="-1" value="">
+            </div>
+        </div>
+            <label class="check-container">
+                <input class="checkbox required" type="checkbox" id="gdpr_253" name="optin" required> 
+                <span class="errorcircle"></span>
+                <span class="checkmark"></span>
+            </label>
+            <p class="opt-in">I would like to receive further marketing related email communications from Baltan Laboratories.</p>
+            <p class="privacy-link">Read our <span id="open-gallery-privacy" class="gallery-block privacy"><a>Privacy Statement</a></span>
+            to see how your data is processed.</p>
+        </form>
+    </div>
+    <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+    <div class="event-page">
+        <div class="wrap">
+            <hr></hr>   
+            <div class="footerlogo"></div>
+            <div class="wrapper">
+                <div class="footercontact">
+                    
+                    <div class="line1">
+                        <div class="label"><h4>Office</h4></div>
+                        <div class="content">
+                            <p>Galileistraat 2</p>
+                            <p>5621 AE Eindhoven</p>
+                            <p><a href="mailto:info@Baltanlaboratories.org">info@Baltanlaboratories.org</a></p>
+                            <p><a href="tel:0031616717166">+31 (0)6 16 717 166</a></p>
+                        </div>
+                        <div class="social">
+                            <h4>Follow</h4>
+                            <div class="facebook" onClick="window.open('https://www.facebook.com/baltanlaboratories/', '_blank')"></div>
+                            <div class="twitter" onClick="window.open('https://twitter.com/baltanlab', '_blank')"></div>
+                            <div class="linkedin" onClick="window.open('https://www.linkedin.com/company/baltan-laboratories/', '_blank')"></div>
+                        </div>
+                    </div>
+                    <div class="line2">
+                        <div class="label"><h4>Visit</h4></div>
+                        <div class="content">  
+                            <p>NatLab</p>                          
+                            <p>Kastanjelaan 500</p>
+                            <p>5616 LZ Eindhoven</p>
+                        </div>
+                        <div class="social">
+                            <h4>Explore more</h4>
+                            <div class="vimeo" onClick="window.open('https://vimeo.com/baltanlaboratories', '_blank')"></div>
+                            <div class="flickr" onClick="window.open('https://www.flickr.com/photos/baltanlaboratories/', '_blank')"></div>
+                             <div class="instagram" onClick="window.open('https://www.instagram.com/baltanlaboratories/', '_blank')"></div>
+                        </div>
+                    </div>
+                    <div class="line4">
+                        <div class="label"><h4>Postal</h4></div>
+                        <div class="content">
+                            <p>Postbus 4042</p>
+                            <p>5604 EA Eindhoven</p>
+                        </div>
+                    </div>
+
+                    <div class="line3">
+                        <div class="social">
+                            <h4>Follow</h4>
+                            <div class="facebook" onClick="window.open('https://www.facebook.com/baltanlaboratories/', '_blank')"></div>
+                            <div class="twitter" onClick="window.open('https://twitter.com/baltanlab', '_blank')"></div>
+                            <div class="linkedin" onClick="window.open('https://www.linkedin.com/company/baltan-laboratories/', '_blank')"></div>
+                        </div>
+                        <div class="social">
+                            <h4>Explore more</h4>
+                            <div class="vimeo" onClick="window.open('https://vimeo.com/baltanlaboratories', '_blank')"></div>
+                            <div class="flickr" onClick="window.open('https://www.flickr.com/photos/baltanlaboratories/', '_blank')"></div>
+                            <div class="instagram" onClick="window.open('https://www.instagram.com/baltanlaboratories/', '_blank')"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footerpartners">
+                    <a href="https://stimuleringsfonds.nl/en/"><div class="partner1"></div></a>
+                    <a href="https://www.cultuureindhoven.nl/"><div class="partner2"></div></a>
+                    <a href="http://brabant.nl/"><div class="partner3"></div></a>
+                </div>
+                
+            </div>
+
+        </div>
+            <div style="text-align:right; width:100%; padding-bottom:1rem">
+                <a href="http://heyheydehaas.com"><img style="width:100px; height: 30px" src="../../assets/images/hhdh_credit.svg"></a>
+            </div>
+    </div>
+</footer>
+ 
+ <script src="https://www.baltanlaboratories.org/assets/js/script.js"></script>
+ <script src="https://www.baltanlaboratories.org/assets/js/classie.js"></script> <script src="https://www.baltanlaboratories.org/assets/js/uisearch.js"></script><script>
+    new UISearch( document.getElementById( 'sb-search' ) );
+ </script>
+
+<script type="text/javascript">
+    var isIE = /*@cc_on!@*/false || !!document.documentMode;
+    var isEdge = !isIE && !!window.StyleMedia;
+    if (isIE || isEdge) {
+        if ($('#canvas').length){
+            $('#canvas').css('opacity', '0');
+        }  
+        if ($('.overlayImage').length){
+            $('.overlaycolor').css({'mix-blend-mode': 'unset', 'opacity': '0.6'})
+        }
+    }
+  </script>
+</body>
+</html>
+</main>
+

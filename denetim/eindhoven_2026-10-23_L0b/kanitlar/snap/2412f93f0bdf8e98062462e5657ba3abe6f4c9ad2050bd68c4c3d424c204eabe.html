@@ -1,0 +1,1581 @@
+
+
+<!DOCTYPE html>
+<html
+    x-data="mainMenu"
+    lang="nl-NL">
+
+<head>
+    <meta charset="utf-8">
+    <title>GFT/E</title>
+    <meta name="description" content="Alls over GFT/E - Groente, Fruit en Tuinafval / Etensresten">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <meta property="og:title" content="GFT/E">
+    <meta property="og:url" content="https://www.cure-afvalbeheer.nl/alles-over-afval/gfte/">
+    <meta property="og:image" content="">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="GFT/E">
+    <meta name="twitter:description" content="Alls over GFT/E - Groente, Fruit en Tuinafval / Etensresten">
+
+    <style>
+        [x-cloak] { display: none !important; }
+        html.translated-ltr .hide-when-translated,
+        html.translated-rtl .hide-when-translated { display: none !important; }
+    </style>
+    
+    <link rel="icon" type="image/png" href="\Assets\favicon.ico"/>
+    <link rel="apple-touch-icon" href="\Assets/favicon.ico"/>
+
+    <vc:href-lang model="Cure.Core.Models.AoaDetail" current-culture="nl-NL"></vc:href-lang>
+    <vc:structured-data-bread-crumb current-page="Cure.Core.Models.AoaDetail"></vc:structured-data-bread-crumb>
+    <vc:structured-data-organization current-page="Cure.Core.Models.AoaDetail"></vc:structured-data-organization>
+
+        <script>
+            window.dataLayer = window.dataLayer || [];
+
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+
+            gtag('consent', 'default', {
+                'analytics_storage': 'denied',
+                'ad_storage': 'denied',
+                'ad_user_data': 'denied',
+                'ad_personalization': 'denied',
+
+                'region': ["AT", "BE", "BG", "HR", "CY", "CZ", "DK", "EE", "FI", "FR",
+                    "DE", "GR", "HU", "IS", "IE", "IT", "LV", "LI", "LT", "LU",
+                    "MT", "NL", "NO", "PL", "PT", "RO", "SK", "SI", "ES", "SE",
+                    "UK", "CH"
+                ]
+            });
+
+
+            var _hsp = window._hsp = window._hsp || [];
+            _hsp.push(['addPrivacyConsentListener', function (consent) {
+                var hasAnalyticsConsent = consent && (consent.allowed || (consent.categories && consent.categories.analytics));
+                var hasAdsConsent = consent && (consent.allowed || (consent.categories && consent.categories.advertisement));
+
+                gtag('consent', 'update', {
+                    'ad_storage': hasAdsConsent ? 'granted' : 'denied',
+                    'analytics_storage': hasAnalyticsConsent ? 'granted' : 'denied',
+                    'ad_user_data': hasAdsConsent ? 'granted' : 'denied',
+                    'ad_personalization': hasAdsConsent ? 'granted' : 'denied'
+                });
+            }]);
+        </script>
+        <script>
+            (function (w, d, s, l, i) {
+                w[l] = w[l] || [];
+                w[l].push({
+                    'gtm.start':
+                        new Date().getTime(), event: 'gtm.js'
+                });
+                var f = d.getElementsByTagName(s)[0],
+                    j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+                j.async = true;
+                j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+                f.parentNode.insertBefore(j, f);
+            })(window, document, 'script', 'dataLayer', 'GTM-NZWNLR8');
+        </script>
+    <link rel="preload" href="/dist/assets/css/Fonts.ab1d7c88.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="/dist/assets/css/Fonts.ab1d7c88.css"></noscript>
+<link href="/dist/assets/css/tailwind.c27d9159.css" rel="stylesheet" />
+<style>@import url(/dist/assets/css/tiny-slider.07667bf4.css);</style>
+<script defer src="/dist/assets/js/Index.4d9f3da4.js"></script>
+<script defer src="/dist/assets/js/Alpine.00a3ff6c.js"></script>
+    
+</head>
+
+<body data-doctype="aoaDetail">
+
+<!--suppress HtmlUnknownAnchorTarget -->
+<a class="opacity-0 focus:opacity-100 focus:underline transition fixed top-4 left-4 text-white text-2xl bg-black z-50 px-6 py-2 pointer-events-none" href="#mainContent">
+    Ga naar hoofdinhoud
+</a>
+
+<header
+    class="flex flex-col sticky top-0 left-0 right-0 z-50 transition-all duration-300 shadow-header bg-white lg:mb-16">
+    
+
+    <div class="relative">
+        <div class="max-lg:hidden overflow-hidden absolute inset-x-0 top-0 h-12 z-10">
+            <div class="absolute left-0 top-0 bottom-0 w-screen2x -translate-x-1/2 bg-grey-background"></div>
+        </div>
+        <div class="flex">
+        <div class="container">
+            <div class="flex gap-x-4 lg:gap-x-10 w-full h-full">
+                <div class="shrink-0 h-full z-20">
+                    <a class="h-full" href="/" title="home">
+                        <img :class="(isDesktop && isScrolled && !menuOpen) && 'h-12!'" class="h-full lg:h-28 -mb-16 w-auto transition-all" width="122" height="50" alt="Cure logo" src="/Assets/Cure Logo.svg" loading="eager" />
+                    </a>
+                </div>
+                <div class="flex flex-col grow">
+                    <div class="flex relative z-20 h-12">
+                        <div class="grow">
+                            <div class="flex h-full items-center">
+                                <button x-on:click="menuOpen = ! menuOpen" type="button"
+                                        class="flex items-center  p-2 mt-1 -mr-2"
+                                        x-show="shouldShow"
+                                        :class="menuOpen && 'drawer-icon-animate'"
+                                        aria-label="open drawer menu">
+                                    <span class="sr-only">
+                                        
+                                    </span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" id="drawer-icon"
+                                         class="size-9 text-darkblue"
+                                         fill="none"
+                                         viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                              d="m 4 6 l 16 0 M 4 12 l 16 0 M 4 18 l 16 0"/>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+
+                        <ul class="flex gap-x-4 xl:gap-x-8 items-center text-sm font-medium text-blue-dark">
+                            <li x-data="{subMenuOpen: false}">
+                                <button class="h-12 flex gap-x-2 items-center" type="button"
+                                        x-on:click="subMenuOpen =! subMenuOpen; $nextTick(() => { $refs.searchBox.focus()})">
+                                    
+
+    <svg  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" 
+                                     stroke-width="1.5" 
+                                     stroke="currentColor" 
+                                     class="size-5">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M12 21a9.004 9.004 0 0 0 8.716-6.747M12 21a9.004 9.004 0 0 1-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 0 1 7.843 4.582M12 3a8.997 8.997 0 0 0-7.843 4.582m15.686 0A11.953 11.953 0 0 1 12 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0 1 21 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0 1 12 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 0 1 3 12c0-1.605.42-3.113 1.157-4.418" />
+    </svg>
+
+                                    <span>
+                                        Vertalen
+                                    </span>
+                                </button>
+                                <div style="display: none;" x-on:click.outside="subMenuOpen = false"
+                                     x-show="subMenuOpen"
+                                     class="absolute top-full max-sm:-left-24 -right-8 sm:right-0 bg-white sm:w-max px-6 py-5 shadow-dropdown z-50">
+                                    
+                                    <div id="google_translate_element"></div>
+                                    <p class="mt-2 text-xs">Gebruik Google Translate om deze website te vertalen.<br />Wij zijn niet verantwoordelijk voor de nauwkeurigheid van de vertaling.</p>
+                                </div>
+                            </li>
+                            <li class="hide-when-translated" x-data="{subMenuOpen: false}">
+                                <button
+                                    x-on:click="subMenuOpen =! subMenuOpen; $nextTick(() => { $refs.searchBox.focus()})"
+                                    class="h-12 flex gap-x-2 items-center" type="button">
+                                    
+    <svg  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+         stroke-width="2.5" stroke="currentColor" class="size-5">
+        <path stroke-linecap="round" stroke-linejoin="round"
+              d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"/>
+    </svg>
+
+
+                                    <span>
+                                        Zoek
+                                    </span>
+                                </button>
+                                <div style="display: none;" x-on:click.outside="subMenuOpen = false"
+                                     x-show="subMenuOpen"
+                                     class="absolute top-full max-sm:-left-24 -right-8 sm:right-0 bg-white sm:w-max px-6 py-5 shadow-dropdown z-50">
+                                    
+
+
+    <search class="w-full">
+        <form action="/zoeken/" class="flex flex-row gap-x-3 items-center">
+            <input x-ref="searchBox" name="searchTerm" class="max-w-none rounded-full h-10 placeholder:text-grey-dark border-grey-light px-5"
+                   placeholder="Wat zoek je?"
+                   type="search"/>
+
+            <button class="btn btn-sm btn-blue" type="submit">
+                Zoek
+            </button>
+        </form>
+    </search>
+                                </div>
+                            </li>
+                            <li class="max-lg:hidden">
+                                
+
+
+<div x-data="{subMenuOpen: false}" x-on:click.outside="subMenuOpen = false" class="relative lg:h-12 flex flex-col justify-center h-max">
+    <button
+        x-on:click="subMenuOpen =! subMenuOpen;"
+        class="flex items-center gap-x-4 lg:gap-x-2 py-4 z-10 relative" type="button">
+        <div class="absolute left-0 top-0 bottom-0 w-screen2x -translate-x-1/2 bg-grey-background lg:hidden -z-10">
+        
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+             stroke-width="2"
+             stroke="currentColor" class="size-6">
+            <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z"/>
+        </svg>
+
+        Login
+        <svg :class="subMenuOpen && 'rotate-180'"
+             xmlns="http://www.w3.org/2000/svg" fill="none"
+             viewBox="0 0 24 24" stroke-width="3" stroke="currentColor"
+             class="size-5 text-green">
+            <path stroke-linecap="round" stroke-linejoin="round"
+                  d="m19.5 8.25-7.5 7.5-7.5-7.5"/>
+        </svg>
+    </button>
+    <div x-cloak
+        class="flex flex-col lg:absolute z-50 lg:px-6 pt-5 pb-8 top-full max-lg:left-0 lg:right-0 bg-white lg:shadow-dropdown text-blue-dark lg:w-max"
+        x-show="subMenuOpen">
+        <fieldset class="flex items-center" x-data="gemeenteCheck">
+            <label class="w-36" for="gemeente">Mijn gemeente</label>
+
+            <select class="w-40" id="gemeente" x-model="selectedGemeente" x-on:change="onGemeenteDropdownChange($event)">
+                <option selected disabled>Selecteer</option>
+                    <option value="all">Alle info</option>
+                        <option value="Eindhoven">Eindhoven</option>
+                        <option value="Geldrop-Mierlo">Geldrop-Mierlo</option>
+                        <option value="Valkenswaard">Valkenswaard</option>
+            </select>
+        </fieldset>
+            <a class="mt-6 link" href="https://afvalkalender.cure-afvalbeheer.nl/cure-app/">
+                Download de Cure app
+            </a>
+
+    </div>
+</div>
+                            </li>
+                        </ul>
+                    </div>
+                    
+
+<div x-show="isDesktop || menuOpen" x-collapse id="menuDrawer"
+     :class="(isDesktop && isScrolled && !menuOpen) && '-translate-y-full'"
+     class="absolute transition duration-200 top-full left-0 right-0 max-lg:bg-primary grow max-lg:w-full z-0 h-16 shadow-header">
+    <div class="relative max-lg:w-full bg-white max-lg:shadow-header max-lg:max-h-[calc(100svh-7rem)] max-lg:overflow-y-auto">
+        <div class="container">
+            <ul class="flex lg:items-center max-lg:flex-col lg:gap-x-4 xl:gap-x-10 gap-y-4 max-lg:py-6 lg:pl-40 w-full text-blue-dark text-base h-full">
+                                <li x-data="{subMenuOpen: false}"
+                                    class="relative flex max-lg:flex-col lg:h-16 lg:items-center z-40">
+                                    <div class="flex items-center">
+                                        <a class="link" href="https://afvalkalender.cure-afvalbeheer.nl/">
+                                            Afvalkalender
+                                        </a>
+                                        <button class="p-2 lg:p-3 -mr-2 lg:-mr-3" x-on:click="subMenuOpen =! subMenuOpen"
+                                                type="button">
+                                                <span class="sr-only">
+                                                    Open submenu for Afvalkalender
+                                                </span>
+                                            
+    <svg :class="subMenuOpen && 'rotate-180'" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+         stroke-width="2.5"
+         stroke="currentColor" class="size-4 text-green">
+        <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5"/>
+    </svg>
+
+
+                                        </button>
+                                    </div>
+                                    <ul style="display: none;" x-on:click.outside="subMenuOpen = false"
+                                        x-show="subMenuOpen"
+                                        class="flex flex-col lg:absolute top-full -left-10 lg:bg-white lg:shadow-dropdown text-base lg:min-w-44 py-2 w-full lg:w-max max-h-84 overflow-y-auto z-50">
+                                            <li class="lg:px-6 py-2 hover:bg-lightblue">
+                                                <a class="link" href="https://afvalkalender.cure-afvalbeheer.nl/afvalkalender-eindhoven/">
+                                                    Afvalkalender Eindhoven
+                                                </a>
+                                            </li>
+                                            <li class="lg:px-6 py-2 hover:bg-lightblue">
+                                                <a class="link" href="https://afvalkalender.cure-afvalbeheer.nl/afvalkalender-geldrop-mierlo/">
+                                                    Afvalkalender Geldrop-Mierlo
+                                                </a>
+                                            </li>
+                                            <li class="lg:px-6 py-2 hover:bg-lightblue">
+                                                <a class="link" href="https://afvalkalender.cure-afvalbeheer.nl/afvalkalender-valkenswaard/">
+                                                    Afvalkalender Valkenswaard
+                                                </a>
+                                            </li>
+                                            <li class="lg:px-6 py-2 hover:bg-lightblue">
+                                                <a class="link" href="https://afvalkalender.cure-afvalbeheer.nl/cure-app/">
+                                                    Cure app
+                                                </a>
+                                            </li>
+                                    </ul>
+
+                                </li>
+                                <li class="lg:h-16 flex items-center">
+                                    <a class="link" href="/milieustraat/">
+                                        Milieustraat
+                                    </a>
+                                </li>
+                                <li x-data="{subMenuOpen: false}"
+                                    class="flex max-lg:flex-col lg:h-16 lg:items-center z-40">
+                                    <div class="flex items-center">
+                                        <a class="link" href="/alles-over-afval/">
+                                            Alles over afval
+                                        </a>
+                                        <button class="p-2 lg:p-3 -mr-2 lg:-mr-3" x-on:click="subMenuOpen =! subMenuOpen"
+                                                type="button">
+                                                <span class="sr-only">
+                                                    Open submenu for Alles over afval
+                                                </span>
+                                            
+    <svg :class="subMenuOpen && 'rotate-180'" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+         stroke-width="2.5"
+         stroke="currentColor" class="size-4 text-green">
+        <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5"/>
+    </svg>
+
+
+                                        </button>
+                                    </div>
+                                    <div style="display: none;" x-on:click.outside="subMenuOpen = false"
+                                         x-show="subMenuOpen"
+                                         class="flex flex-col lg:absolute top-full left-0 right-0 lg:bg-white lg:shadow-dropdown lg:text-xs xl:text-base py-2 z-50">
+                                        <div class="lg:container">
+                                            <ul class="grid grid-flow-row lg:grid-rows-6 lg:gap-x-3 xl:gap-x-8 lg:grid-flow-col-dense lg:py-4 xl:pt-10 xl:pb-20 max-lg:max-h-90 max-lg:overflow-y-auto">
+                                                    <li class="py-1 flex items-center hover:bg-lightblue border-b border-dashed border-blue first:border-t lg:nth-[6n+7]:border-t">
+                                                        <a class="link flex gap-x-2 items-center" href="/alles-over-afval/restafval/">
+                                                                <img class="size-9 xl:size-10"
+                                                                     src="/media/smrmlxxn/restafval-400px.png?rmode=pad&amp;width=100&amp;height=100&amp;v=1dca0ba2e518d50"
+                                                                     alt="restafval-400px.png"/>
+                                                            Restafval
+                                                        </a>
+                                                    </li>
+                                                    <li class="py-1 flex items-center hover:bg-lightblue border-b border-dashed border-blue first:border-t lg:nth-[6n+7]:border-t">
+                                                        <a class="link flex gap-x-2 items-center" href="/alles-over-afval/gfte/">
+                                                                <img class="size-9 xl:size-10"
+                                                                     src="/media/avcd153q/losse-iconen_gft-appel.png?rmode=pad&amp;width=100&amp;height=100&amp;v=1dca025311d9a50"
+                                                                     alt="losse iconen_GFT Appel.png"/>
+                                                            GFT/E
+                                                        </a>
+                                                    </li>
+                                                    <li class="py-1 flex items-center hover:bg-lightblue border-b border-dashed border-blue first:border-t lg:nth-[6n+7]:border-t">
+                                                        <a class="link flex gap-x-2 items-center" href="/alles-over-afval/oud-papier-en-karton/">
+                                                                <img class="size-9 xl:size-10"
+                                                                     src="/media/cwvajpba/losse-iconen_oud-papier.png?rmode=pad&amp;width=100&amp;height=100&amp;v=1dca02531b8c8e0"
+                                                                     alt="losse iconen_Oud Papier.png"/>
+                                                            Oud papier en karton
+                                                        </a>
+                                                    </li>
+                                                    <li class="py-1 flex items-center hover:bg-lightblue border-b border-dashed border-blue first:border-t lg:nth-[6n+7]:border-t">
+                                                        <a class="link flex gap-x-2 items-center" href="/alles-over-afval/glas/">
+                                                                <img class="size-9 xl:size-10"
+                                                                     src="/media/tqimat5w/losse-iconen_glas.png?rmode=pad&amp;width=100&amp;height=100&amp;v=1dca02530667f50"
+                                                                     alt="losse iconen_Glas.png"/>
+                                                            Glas
+                                                        </a>
+                                                    </li>
+                                                    <li class="py-1 flex items-center hover:bg-lightblue border-b border-dashed border-blue first:border-t lg:nth-[6n+7]:border-t">
+                                                        <a class="link flex gap-x-2 items-center" href="/alles-over-afval/textiel/">
+                                                                <img class="size-9 xl:size-10"
+                                                                     src="/media/5p5byfwk/losse-iconen_textiel.png?rmode=pad&amp;width=100&amp;height=100&amp;v=1dca02530c7b220"
+                                                                     alt="losse iconen_Textiel.png"/>
+                                                            Textiel
+                                                        </a>
+                                                    </li>
+                                                    <li class="py-1 flex items-center hover:bg-lightblue border-b border-dashed border-blue first:border-t lg:nth-[6n+7]:border-t">
+                                                        <a class="link flex gap-x-2 items-center" href="/alles-over-afval/grofvuil/">
+                                                                <img class="size-9 xl:size-10"
+                                                                     src="/media/05tjxz21/losse-iconen_grofvuil-bank.png?rmode=pad&amp;width=100&amp;height=100&amp;v=1dca025318f20d0"
+                                                                     alt="losse iconen_Grofvuil Bank.png"/>
+                                                            Grofvuil
+                                                        </a>
+                                                    </li>
+                                                    <li class="py-1 flex items-center hover:bg-lightblue border-b border-dashed border-blue first:border-t lg:nth-[6n+7]:border-t">
+                                                        <a class="link flex gap-x-2 items-center" href="/alles-over-afval/apparaten/">
+                                                                <img class="size-9 xl:size-10"
+                                                                     src="/media/dn3pzv3q/losse-iconen_apparaten.png?rmode=pad&amp;width=100&amp;height=100&amp;v=1dca0253165edf0"
+                                                                     alt="losse iconen_Apparaten.png"/>
+                                                            Apparaten
+                                                        </a>
+                                                    </li>
+                                                    <li class="py-1 flex items-center hover:bg-lightblue border-b border-dashed border-blue first:border-t lg:nth-[6n+7]:border-t">
+                                                        <a class="link flex gap-x-2 items-center" href="/alles-over-afval/klein-chemisch-afval/">
+                                                                <img class="size-9 xl:size-10"
+                                                                     src="/media/cbejwnrx/losse-iconen_kca.png?rmode=pad&amp;width=100&amp;height=100&amp;v=1dca02530f2e0d0"
+                                                                     alt="losse iconen_KCA.png"/>
+                                                            Klein Chemisch Afval
+                                                        </a>
+                                                    </li>
+                                                    <li class="py-1 flex items-center hover:bg-lightblue border-b border-dashed border-blue first:border-t lg:nth-[6n+7]:border-t">
+                                                        <a class="link flex gap-x-2 items-center" href="/alles-over-afval/asbest/">
+                                                                <img class="size-9 xl:size-10"
+                                                                     src="/media/kvzilibr/losse-iconen_asbest.png?rmode=pad&amp;width=100&amp;height=100&amp;v=1dca025308fb230"
+                                                                     alt="losse iconen_Asbest.png"/>
+                                                            Asbest
+                                                        </a>
+                                                    </li>
+                                                    <li class="py-1 flex items-center hover:bg-lightblue border-b border-dashed border-blue first:border-t lg:nth-[6n+7]:border-t">
+                                                        <a class="link flex gap-x-2 items-center" href="/alles-over-afval/a-en-b-hout/">
+                                                                <img class="size-9 xl:size-10"
+                                                                     src="/media/rejmsyb1/losse-iconen_hout.png?rmode=pad&amp;width=100&amp;height=100&amp;v=1dca02530311770"
+                                                                     alt="losse iconen_Hout.png"/>
+                                                            A- en B-hout
+                                                        </a>
+                                                    </li>
+                                                    <li class="py-1 flex items-center hover:bg-lightblue border-b border-dashed border-blue first:border-t lg:nth-[6n+7]:border-t">
+                                                        <a class="link flex gap-x-2 items-center" href="/alles-over-afval/autobanden/">
+                                                                <img class="size-9 xl:size-10"
+                                                                     src="/media/h2obwrie/losse-iconen_autobanden.png?rmode=pad&amp;width=100&amp;height=100&amp;v=1dca0252fde3c80"
+                                                                     alt="losse iconen_Autobanden.png"/>
+                                                            Autobanden
+                                                        </a>
+                                                    </li>
+                                                    <li class="py-1 flex items-center hover:bg-lightblue border-b border-dashed border-blue first:border-t lg:nth-[6n+7]:border-t">
+                                                        <a class="link flex gap-x-2 items-center" href="/alles-over-afval/c-hout/">
+                                                                <img class="size-9 xl:size-10"
+                                                                     src="/media/i4yozdzt/losse-iconen_tuinhek.png?rmode=pad&amp;width=100&amp;height=100&amp;v=1dca0252facf350"
+                                                                     alt="losse iconen_Tuinhek.png"/>
+                                                            C-hout
+                                                        </a>
+                                                    </li>
+                                                    <li class="py-1 flex items-center hover:bg-lightblue border-b border-dashed border-blue first:border-t lg:nth-[6n+7]:border-t">
+                                                        <a class="link flex gap-x-2 items-center" href="/alles-over-afval/dakbedekking/">
+                                                                <img class="size-9 xl:size-10"
+                                                                     src="/media/hfjnshqd/losse-iconen_dakbedekking.png?rmode=pad&amp;width=100&amp;height=100&amp;v=1dca0252f82af00"
+                                                                     alt="losse iconen_Dakbedekking.png"/>
+                                                            Dakbedekking
+                                                        </a>
+                                                    </li>
+                                                    <li class="py-1 flex items-center hover:bg-lightblue border-b border-dashed border-blue first:border-t lg:nth-[6n+7]:border-t">
+                                                        <a class="link flex gap-x-2 items-center" href="/alles-over-afval/gips/">
+                                                                <img class="size-9 xl:size-10"
+                                                                     src="/media/pyfkdfs1/losse-iconen_gipsplaat.png?rmode=pad&amp;width=100&amp;height=100&amp;v=1dca0252f3c7e40"
+                                                                     alt="losse iconen_Gipsplaat.png"/>
+                                                            Gips
+                                                        </a>
+                                                    </li>
+                                                    <li class="py-1 flex items-center hover:bg-lightblue border-b border-dashed border-blue first:border-t lg:nth-[6n+7]:border-t">
+                                                        <a class="link flex gap-x-2 items-center" href="/alles-over-afval/grond/">
+                                                                <img class="size-9 xl:size-10"
+                                                                     src="/media/ic3mkymd/cure-afvalbeheer-grond.png?rmode=pad&amp;width=100&amp;height=100&amp;v=1dca024db7a6290"
+                                                                     alt="cure-afvalbeheer-grond.png"/>
+                                                            Grond
+                                                        </a>
+                                                    </li>
+                                                    <li class="py-1 flex items-center hover:bg-lightblue border-b border-dashed border-blue first:border-t lg:nth-[6n+7]:border-t">
+                                                        <a class="link flex gap-x-2 items-center" href="/alles-over-afval/vlakglas/">
+                                                                <img class="size-9 xl:size-10"
+                                                                     src="/media/15vpl4at/losse-iconen_vlakglas.png?rmode=pad&amp;width=100&amp;height=100&amp;v=1dca0252f10b350"
+                                                                     alt="losse iconen_Vlakglas.png"/>
+                                                            Vlakglas
+                                                        </a>
+                                                    </li>
+                                                    <li class="py-1 flex items-center hover:bg-lightblue border-b border-dashed border-blue first:border-t lg:nth-[6n+7]:border-t">
+                                                        <a class="link flex gap-x-2 items-center" href="/alles-over-afval/harde-kunststoffen/">
+                                                                <img class="size-9 xl:size-10"
+                                                                     src="/media/zjsh1mpl/losse-iconen_hard-plastic.png?rmode=pad&amp;width=100&amp;height=100&amp;v=1dca0252e67f030"
+                                                                     alt="losse iconen_Hard Plastic .png"/>
+                                                            Harde kunststoffen
+                                                        </a>
+                                                    </li>
+                                                    <li class="py-1 flex items-center hover:bg-lightblue border-b border-dashed border-blue first:border-t lg:nth-[6n+7]:border-t">
+                                                        <a class="link flex gap-x-2 items-center" href="/alles-over-afval/kadavers/">
+                                                                <img class="size-9 xl:size-10"
+                                                                     src="/media/33qfxw5v/losse-iconen_kadaver.png?rmode=pad&amp;width=100&amp;height=100&amp;v=1dca0252e3bb010"
+                                                                     alt="losse iconen_Kadaver.png"/>
+                                                            Kadavers
+                                                        </a>
+                                                    </li>
+                                                    <li class="py-1 flex items-center hover:bg-lightblue border-b border-dashed border-blue first:border-t lg:nth-[6n+7]:border-t">
+                                                        <a class="link flex gap-x-2 items-center" href="/alles-over-afval/matrassen/">
+                                                                <img class="size-9 xl:size-10"
+                                                                     src="/media/l3plfcib/cure-afvalbeheer-matrassen.png?rmode=pad&amp;width=100&amp;height=100&amp;v=1dca0ba2abc0a80"
+                                                                     alt="cure-afvalbeheer-matrassen.png"/>
+                                                            Matrassen
+                                                        </a>
+                                                    </li>
+                                                    <li class="py-1 flex items-center hover:bg-lightblue border-b border-dashed border-blue first:border-t lg:nth-[6n+7]:border-t">
+                                                        <a class="link flex gap-x-2 items-center" href="/alles-over-afval/metalen/">
+                                                                <img class="size-9 xl:size-10"
+                                                                     src="/media/410hilgi/losse-iconen_metaal.png?rmode=pad&amp;width=100&amp;height=100&amp;v=1dca0252e1403d0"
+                                                                     alt="losse iconen_Metaal.png"/>
+                                                            Metalen
+                                                        </a>
+                                                    </li>
+                                                    <li class="py-1 flex items-center hover:bg-lightblue border-b border-dashed border-blue first:border-t lg:nth-[6n+7]:border-t">
+                                                        <a class="link flex gap-x-2 items-center" href="/alles-over-afval/piepschuim/">
+                                                                <img class="size-9 xl:size-10"
+                                                                     src="/media/bhjfkenh/losse-iconen_piepschuim.png?rmode=pad&amp;width=100&amp;height=100&amp;v=1dca0252d830e70"
+                                                                     alt="losse iconen_Piepschuim.png"/>
+                                                            Piepschuim
+                                                        </a>
+                                                    </li>
+                                                    <li class="py-1 flex items-center hover:bg-lightblue border-b border-dashed border-blue first:border-t lg:nth-[6n+7]:border-t">
+                                                        <a class="link flex gap-x-2 items-center" href="/alles-over-afval/puin/">
+                                                                <img class="size-9 xl:size-10"
+                                                                     src="/media/ounmnqhy/losse-iconen_stenen.png?rmode=pad&amp;width=100&amp;height=100&amp;v=1dca0252d574380"
+                                                                     alt="losse iconen_Stenen .png"/>
+                                                            Puin
+                                                        </a>
+                                                    </li>
+                                                    <li class="py-1 flex items-center hover:bg-lightblue border-b border-dashed border-blue first:border-t lg:nth-[6n+7]:border-t">
+                                                        <a class="link flex gap-x-2 items-center" href="/alles-over-afval/tapijt-en-vloerbedekking/">
+                                                                <img class="size-9 xl:size-10"
+                                                                     src="/media/rwxmxjhw/losse-iconen_tapijt.png?rmode=pad&amp;width=100&amp;height=100&amp;v=1dca0252e943050"
+                                                                     alt="losse iconen_Tapijt.png"/>
+                                                            Tapijt en vloerbedekking
+                                                        </a>
+                                                    </li>
+                                                    <li class="py-1 flex items-center hover:bg-lightblue border-b border-dashed border-blue first:border-t lg:nth-[6n+7]:border-t">
+                                                        <a class="link flex gap-x-2 items-center" href="/alles-over-afval/kunststof-tuinmeubels/">
+                                                                <img class="size-9 xl:size-10"
+                                                                     src="/media/bnugawb4/cure-afvalbeheer-tuinmeubels.png?rmode=pad&amp;width=100&amp;height=100&amp;v=1dca0b060f59df0"
+                                                                     alt="cure-afvalbeheer-tuinmeubels.png"/>
+                                                            Kunststof tuinmeubels
+                                                        </a>
+                                                    </li>
+                                                    <li class="py-1 flex items-center hover:bg-lightblue border-b border-dashed border-blue first:border-t lg:nth-[6n+7]:border-t">
+                                                        <a class="link flex gap-x-2 items-center" href="/alles-over-afval/tuin-en-groenafval/">
+                                                                <img class="size-9 xl:size-10"
+                                                                     src="/media/j2ffq0tb/losse-iconen_tak-snoeiafval.png?rmode=pad&amp;width=100&amp;height=100&amp;v=1dca0252de72770"
+                                                                     alt="losse iconen_Tak snoeiafval.png"/>
+                                                            Tuin- en groenafval
+                                                        </a>
+                                                    </li>
+                                                    <li class="py-1 flex items-center hover:bg-lightblue border-b border-dashed border-blue first:border-t lg:nth-[6n+7]:border-t">
+                                                        <a class="link flex gap-x-2 items-center" href="/alles-over-afval/samengesteld-bouw-en-sloopafval/">
+                                                                <img class="size-9 xl:size-10"
+                                                                     src="/media/yf4pc4pv/icon-milieustraat.png?rmode=pad&amp;width=100&amp;height=100&amp;v=1dca02531e270f0"
+                                                                     alt="icon-Milieustraat.png"/>
+                                                            Samengesteld bouw- en sloopafval
+                                                        </a>
+                                                    </li>
+                                                    <li class="py-1 flex items-center hover:bg-lightblue border-b border-dashed border-blue first:border-t lg:nth-[6n+7]:border-t">
+                                                        <a class="link flex gap-x-2 items-center" href="/alles-over-afval/luiers-en-incontinentie-materiaal/">
+                                                                <img class="size-9 xl:size-10"
+                                                                     src="/media/dldhgokq/losse-iconen_luiers.png?rmode=pad&amp;width=100&amp;height=100&amp;v=1dca0252d1e5930"
+                                                                     alt="losse iconen_Luiers.png"/>
+                                                            Luiers en incontinentie materiaal
+                                                        </a>
+                                                    </li>
+                                                    <li class="py-1 flex items-center hover:bg-lightblue border-b border-dashed border-blue first:border-t lg:nth-[6n+7]:border-t">
+                                                        <a class="link flex gap-x-2 items-center" href="/alles-over-afval/ophaalservice/">
+                                                                <img class="size-9 xl:size-10"
+                                                                     src="/media/te5j03kl/losse-iconen_kraanwagen.png?rmode=pad&amp;width=100&amp;height=100&amp;v=1dca0252db65370"
+                                                                     alt="losse iconen_kraanwagen.png"/>
+                                                            Ophaalservice 
+                                                        </a>
+                                                    </li>
+                                                    <li class="py-1 flex items-center hover:bg-lightblue border-b border-dashed border-blue first:border-t lg:nth-[6n+7]:border-t">
+                                                        <a class="link flex gap-x-2 items-center" href="/alles-over-afval/ondergrondse-container/">
+                                                                <img class="size-9 xl:size-10"
+                                                                     src="/media/va3h2iex/ondergrondse-containers-400px.png?rmode=pad&amp;width=100&amp;height=100&amp;v=1dca0b5b9c20fe0"
+                                                                     alt="ondergrondse-containers-400px.png"/>
+                                                            Ondergrondse container
+                                                        </a>
+                                                    </li>
+                                                    <li class="py-1 flex items-center hover:bg-lightblue border-b border-dashed border-blue first:border-t lg:nth-[6n+7]:border-t">
+                                                        <a class="link flex gap-x-2 items-center" href="/alles-over-afval/mijn-minicontainer/">
+                                                                <img class="size-9 xl:size-10"
+                                                                     src="/media/nfpjtgf5/mijn-container-400px.png?rmode=pad&amp;width=100&amp;height=100&amp;v=1dca0b9b5adc350"
+                                                                     alt="mijn-container-400px.png"/>
+                                                            Mijn minicontainer
+                                                        </a>
+                                                    </li>
+                                                    <li class="py-1 flex items-center hover:bg-lightblue border-b border-dashed border-blue first:border-t lg:nth-[6n+7]:border-t">
+                                                        <a class="link flex gap-x-2 items-center" href="/alles-over-afval/pbd/">
+                                                                <img class="size-9 xl:size-10"
+                                                                     src="/media/05iaheoy/pbd-400px.png?rmode=pad&amp;width=100&amp;height=100&amp;v=1dd1e8e74231b30"
+                                                                     alt="pbd-400px.png"/>
+                                                            PBD 
+                                                        </a>
+                                                    </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                </li>
+                                <li class="lg:h-16 flex items-center">
+                                    <a class="link" href="/nieuws/">
+                                        Nieuws
+                                    </a>
+                                </li>
+                                <li x-data="{subMenuOpen: false}"
+                                    class="relative flex max-lg:flex-col lg:h-16 lg:items-center z-40">
+                                    <div class="flex items-center">
+                                        <a class="link" href="/over-cure/">
+                                            Over Cure
+                                        </a>
+                                        <button class="p-2 lg:p-3 -mr-2 lg:-mr-3" x-on:click="subMenuOpen =! subMenuOpen"
+                                                type="button">
+                                                <span class="sr-only">
+                                                    Open submenu for Over Cure
+                                                </span>
+                                            
+    <svg :class="subMenuOpen && 'rotate-180'" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+         stroke-width="2.5"
+         stroke="currentColor" class="size-4 text-green">
+        <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5"/>
+    </svg>
+
+
+                                        </button>
+                                    </div>
+                                    <ul style="display: none;" x-on:click.outside="subMenuOpen = false"
+                                        x-show="subMenuOpen"
+                                        class="flex flex-col lg:absolute top-full -left-10 lg:bg-white lg:shadow-dropdown text-base lg:min-w-44 py-2 w-full lg:w-max max-h-84 overflow-y-auto z-50">
+                                            <li class="lg:px-6 py-2 hover:bg-lightblue">
+                                                <a class="link" href="/over-cure/werken-bij/">
+                                                    Werken bij
+                                                </a>
+                                            </li>
+                                            <li class="lg:px-6 py-2 hover:bg-lightblue">
+                                                <a class="link" href="/over-cure/jaarverslagen-en-publicaties/">
+                                                    Jaarverslagen en publicaties
+                                                </a>
+                                            </li>
+                                            <li class="lg:px-6 py-2 hover:bg-lightblue">
+                                                <a class="link" href="/over-cure/algemeen/">
+                                                    Algemeen
+                                                </a>
+                                            </li>
+                                            <li class="lg:px-6 py-2 hover:bg-lightblue">
+                                                <a class="link" href="/over-cure/klachtenregeling/">
+                                                    Klachtenregeling
+                                                </a>
+                                            </li>
+                                    </ul>
+
+                                </li>
+                                <li x-data="{subMenuOpen: false}"
+                                    class="relative flex max-lg:flex-col lg:h-16 lg:items-center z-40">
+                                    <div class="flex items-center">
+                                        <a class="link" href="/klantenservice/">
+                                            Klantenservice
+                                        </a>
+                                        <button class="p-2 lg:p-3 -mr-2 lg:-mr-3" x-on:click="subMenuOpen =! subMenuOpen"
+                                                type="button">
+                                                <span class="sr-only">
+                                                    Open submenu for Klantenservice
+                                                </span>
+                                            
+    <svg :class="subMenuOpen && 'rotate-180'" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+         stroke-width="2.5"
+         stroke="currentColor" class="size-4 text-green">
+        <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5"/>
+    </svg>
+
+
+                                        </button>
+                                    </div>
+                                    <ul style="display: none;" x-on:click.outside="subMenuOpen = false"
+                                        x-show="subMenuOpen"
+                                        class="flex flex-col lg:absolute top-full -left-10 lg:bg-white lg:shadow-dropdown text-base lg:min-w-44 py-2 w-full lg:w-max max-h-84 overflow-y-auto z-50">
+                                            <li class="lg:px-6 py-2 hover:bg-lightblue">
+                                                <a class="link" href="/klantenservice/afval-niet-opgehaald/">
+                                                    Afval niet opgehaald
+                                                </a>
+                                            </li>
+                                            <li class="lg:px-6 py-2 hover:bg-lightblue">
+                                                <a class="link" href="/klantenservice/ondergrondse-container/">
+                                                    Ondergrondse container
+                                                </a>
+                                            </li>
+                                            <li class="lg:px-6 py-2 hover:bg-lightblue">
+                                                <a class="link" href="/klantenservice/containerdistributie/">
+                                                    Containerdistributie
+                                                </a>
+                                            </li>
+                                            <li class="lg:px-6 py-2 hover:bg-lightblue">
+                                                <a class="link" href="/klantenservice/milieupas/">
+                                                    Milieupas
+                                                </a>
+                                            </li>
+                                            <li class="lg:px-6 py-2 hover:bg-lightblue">
+                                                <a class="link" href="/klantenservice/ophaalafspraak-grofvuil/">
+                                                    Ophaalafspraak grofvuil
+                                                </a>
+                                            </li>
+                                            <li class="lg:px-6 py-2 hover:bg-lightblue">
+                                                <a class="link" href="/klantenservice/asbest/">
+                                                    Asbest
+                                                </a>
+                                            </li>
+                                            <li class="lg:px-6 py-2 hover:bg-lightblue">
+                                                <a class="link" href="/klantenservice/afvalkalender-niet-volledig-of-juist/">
+                                                    Afvalkalender niet volledig of juist
+                                                </a>
+                                            </li>
+                                    </ul>
+
+                                </li>
+            </ul>
+        </div>
+        <div class="lg:hidden overflow-x-hidden">
+            <div class="container">
+                
+
+
+<div x-data="{subMenuOpen: false}" x-on:click.outside="subMenuOpen = false" class="relative lg:h-12 flex flex-col justify-center h-max">
+    <button
+        x-on:click="subMenuOpen =! subMenuOpen;"
+        class="flex items-center gap-x-4 lg:gap-x-2 py-4 z-10 relative" type="button">
+        <div class="absolute left-0 top-0 bottom-0 w-screen2x -translate-x-1/2 bg-grey-background lg:hidden -z-10">
+        
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+             stroke-width="2"
+             stroke="currentColor" class="size-6">
+            <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z"/>
+        </svg>
+
+        Login
+        <svg :class="subMenuOpen && 'rotate-180'"
+             xmlns="http://www.w3.org/2000/svg" fill="none"
+             viewBox="0 0 24 24" stroke-width="3" stroke="currentColor"
+             class="size-5 text-green">
+            <path stroke-linecap="round" stroke-linejoin="round"
+                  d="m19.5 8.25-7.5 7.5-7.5-7.5"/>
+        </svg>
+    </button>
+    <div x-cloak
+        class="flex flex-col lg:absolute z-50 lg:px-6 pt-5 pb-8 top-full max-lg:left-0 lg:right-0 bg-white lg:shadow-dropdown text-blue-dark lg:w-max"
+        x-show="subMenuOpen">
+        <fieldset class="flex items-center" x-data="gemeenteCheck">
+            <label class="w-36" for="gemeente">Mijn gemeente</label>
+
+            <select class="w-40" id="gemeente" x-model="selectedGemeente" x-on:change="onGemeenteDropdownChange($event)">
+                <option selected disabled>Selecteer</option>
+                    <option value="all">Alle info</option>
+                        <option value="Eindhoven">Eindhoven</option>
+                        <option value="Geldrop-Mierlo">Geldrop-Mierlo</option>
+                        <option value="Valkenswaard">Valkenswaard</option>
+            </select>
+        </fieldset>
+            <a class="mt-6 link" href="https://afvalkalender.cure-afvalbeheer.nl/cure-app/">
+                Download de Cure app
+            </a>
+
+    </div>
+</div>
+            </div>
+        </div>
+
+    </div>
+</div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+</header>
+    <dialog x-ref="municipalityPopup" x-data="gemeenteCheck">
+        <div class="flex items-center justify-center fixed left-0 top-0 w-screen h-screen z-50 bg-black/20">
+            <div
+                class="flex flex-col gap-y-6 bg-white px-8 lg:px-12 py-8 m-6 w-full max-w-xl max-h-[90vh] overflow-y-auto">
+                <div class="flex flex-col gap-y-3">
+                    <h2 class="text-2xl">
+                        Welkom bij Cure
+                    </h2>
+                    <p>Om u optimaal van dienst te zijn vragen we u eenmalig uw woonplaats in te geven zodat wij de informatie op deze website zoveel mogelijk op uw situatie af kunnen stemmen.</p>
+                </div>
+
+                <div class="flex flex-col gap-y-6 bg-grey-background -mx-8 lg:-mx-12 px-8 lg:px-12 py-6 lg:py-10">
+                    <ul class="grid grid-cols-1 lg:grid-cols-3 gap-y-6 lg:gap-x-6">
+        <li class="w-full bg-white flex justify-center">
+            <button class="bg-white px-6 pb-4 flex flex-col items-center gap-y-2" type="button" x-on:click="pickGemeente('Eindhoven')">
+                    <img class="h-32 object-center object-contain" src="/media/xphe1vzk/partner-1.png?v=1dc62a4da0cc1e0" alt="Eindhoven"/>
+                <span>Eindhoven</span>
+            </button>
+        </li>
+        <li class="w-full bg-white flex justify-center">
+            <button class="bg-white px-6 pb-4 flex flex-col items-center gap-y-2" type="button" x-on:click="pickGemeente('Geldrop-Mierlo')">
+                    <img class="h-32 object-center object-contain" src="/media/i5nnjqug/partner-2.png?v=1dc62a4da209800" alt="Geldrop-Mierlo"/>
+                <span>Geldrop-Mierlo</span>
+            </button>
+        </li>
+        <li class="w-full bg-white flex justify-center">
+            <button class="bg-white px-6 pb-4 flex flex-col items-center gap-y-2" type="button" x-on:click="pickGemeente('Valkenswaard')">
+                    <img class="h-32 object-center object-contain" src="/media/5chfcsi2/partner-3.png?v=1dc62a4da2c57d0" alt="Valkenswaard"/>
+                <span>Valkenswaard</span>
+            </button>
+        </li>
+                    </ul>
+                    <button class="flex text-left lg:items-center gap-x-2 underline" x-on:click="pickGemeente('all')" type="button">
+                        Ik wil de gegevens van alle gemeenten zien
+                        
+    <svg  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+         stroke-width="2.5" stroke="currentColor" class="size-6">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"/>
+    </svg>
+
+
+                    </button>
+                </div>
+                <div>
+                    <p>We slaan uw keuze op in een cookie. Dit is een klein bestandje waardoor wij kunnen herkennen welke woonplaats u heeft gekozen zodat we u specifieke informatie over uw gemeente kunnen geven. We gebruiken dit dus alleen om u beter van dienst te kunnen zijn en slaan verder geen persoonlijke gegevens op.</p>
+                </div>
+            </div>
+        </div>
+    </dialog>
+
+
+
+
+
+<main id="mainContent">
+    
+
+<section class="overflow-x-hidden">
+	<div class="container">
+		<div class="grid grid-cols-12 lg:gap-x-12">
+			<div class="col-span-12 lg:col-start-2 lg:col-span-5">
+				<div class="flex flex-col">
+					<div class="py-8 bg-grey-dark relative">
+						<h1 class="text-white">
+							GFT/E
+						</h1>
+						<div class="absolute left-0 top-0 w-screen2x h-full bg-grey-dark -translate-x-1/2 -z-10"></div>
+					</div>
+					<div class="flex flex-col lg:flex-row items-center gap-x-6 py-10">
+							<img class="w-32 object-contain" src="/media/avcd153q/losse-iconen_gft-appel.png?width=300&amp;v=1dca025311d9a50" alt="losse iconen_GFT Appel.png"/>
+							<p class="text-xl text-blue-dark font-bold">
+								GFT/E staat voor Groente, Fruit en Tuinafval / Etensresten
+							</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-span-12 lg:col-span-5">
+					<ul class="flex flex-col gap-y-6 bg-grey-background w-full p-4 lg:pt-10 lg:pb-14 lg:px-12">
+							<li class="flex gap-x-3 text-blue-dark">
+									<div class="prose pt-1.5">
+										<p>GFT/E staat voor Groente-, Fruit- en Tuinafval en Etensresten. Het gaat hierbij om natuurlijk of organisch afval, zoals fruitschillen en groenafval met een maximale lengte van 30 cm.&nbsp;</p><p><strong>Let op: dus ook etensresten, zoals kippenbotjes, visgraten en eten wat bereid is (kliekjes), horen in de groene afvalcontainer!</strong></p>
+									</div>
+							</li>
+					</ul>
+
+			</div>
+		</div>
+	</div>
+</section>
+	<section>
+		<div class="container">
+			<ul class="flex flex-col py-6 lg:py-14">
+		<li class="flex flex-col">
+			<div class="bg-green px-5 py-3">
+				<h2 class="text-white text-xl">
+					<span class="font-bold">Wel</span><span class="font-normal">&nbsp;in de GFT container</span>
+				</h2>
+			</div>
+				<ul class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-10 px-5 py-6">
+						<li class="flex flex-col gap-y-4">
+								<img src="/media/5qoh3cum/gft_etensresten.png?width=300&amp;v=1dc9f59cfc1e9d0" alt="GFT_etensresten.png"/>
+							<span class="text-center text-sm lg:text-base text-blue-dark">
+								Etensresten
+							</span>
+						</li>
+						<li class="flex flex-col gap-y-4">
+								<img src="/media/h2wlxrho/gft_groente-en-fruitafval.png?width=300&amp;v=1dc9f59cfe3f0c0" alt="GFT_Groente en fruitafval.png"/>
+							<span class="text-center text-sm lg:text-base text-blue-dark">
+								Groente- en fruitafval
+							</span>
+						</li>
+						<li class="flex flex-col gap-y-4">
+								<img src="/media/jnnbcxrs/gft-koffiepads-en-theezakjes.png?width=300&amp;v=1dc9f59d0819050" alt="GFT-Koffiepads en theezakjes.png"/>
+							<span class="text-center text-sm lg:text-base text-blue-dark">
+								Koffie en theezakjes
+							</span>
+						</li>
+						<li class="flex flex-col gap-y-4">
+								<img src="/media/xorpxfwq/gft_botten-schelpem-eierschalen.png?width=300&amp;v=1dc9f59cfcb86c0" alt="GFT_Botten Schelpem Eierschalen.png"/>
+							<span class="text-center text-sm lg:text-base text-blue-dark">
+								Botten, schelpen en eierschalen
+							</span>
+						</li>
+						<li class="flex flex-col gap-y-4">
+								<img src="/media/gn3kvg4t/gft_tuinafval.png?width=300&amp;v=1dc9f59d0683bf0" alt="GFT_Tuinafval.png"/>
+							<span class="text-center text-sm lg:text-base text-blue-dark">
+								Tuinafval &lt; 30 cm
+							</span>
+						</li>
+						<li class="flex flex-col gap-y-4">
+								<img src="/media/qynk33es/gft_zaagsel-of-hooi.png?width=300&amp;v=1dc9f59d0777e30" alt="GFT_Zaagsel of hooi.png"/>
+							<span class="text-center text-sm lg:text-base text-blue-dark">
+								Zaagsel of hooi
+							</span>
+						</li>
+				</ul>
+		</li>
+		<li class="flex flex-col">
+			<div class="bg-error px-5 py-3">
+				<h2 class="text-white text-xl">
+					<span class="font-bold">Niet</span><span class="font-normal">&nbsp;in de GFT container</span>
+				</h2>
+			</div>
+				<ul class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-10 px-5 py-6">
+						<li class="flex flex-col gap-y-4">
+								<img src="/media/famnfznq/restafval_katten-vogelgrind-en-hondenpoep.png?width=300&amp;v=1dc9f59e368bc70" alt="Restafval_Katten,vogelgrind en hondenpoep.png"/>
+							<span class="text-center text-sm lg:text-base text-blue-dark">
+								Katten/vogelgrind en hondenpoep
+							</span>
+						</li>
+						<li class="flex flex-col gap-y-4">
+								<img src="/media/me1grzl3/gft_hout-grond-stenen.png?width=300&amp;v=1dc9f59cff8d850" alt="GFT_hout grond stenen.png"/>
+							<span class="text-center text-sm lg:text-base text-blue-dark">
+								Hout, grond en stenen
+							</span>
+						</li>
+						<li class="flex flex-col gap-y-4">
+								<img src="/media/bg4aowgd/papier_sanitair-papier-luiers.png?width=300&amp;v=1dc9f59f22e5260" alt="Papier_Sanitair papier Luiers.png"/>
+							<span class="text-center text-sm lg:text-base text-blue-dark">
+								Sanitair papier en luiers
+							</span>
+						</li>
+						<li class="flex flex-col gap-y-4">
+								<img src="/media/5msdyirj/gft_-bio-plastic-of-keramieke-potjes.png?width=300&amp;v=1dc9f59cf950d70" alt="GFT_(bio)plastic of keramieke potjes.png"/>
+							<span class="text-center text-sm lg:text-base text-blue-dark">
+								(Bio)plastic of keramieke potjes
+							</span>
+						</li>
+						<li class="flex flex-col gap-y-4">
+								<img src="/media/xn1lpmkg/gft_kadavers.png?width=300&amp;v=1dc9f59d01030e0" alt="GFT_Kadavers.png"/>
+							<span class="text-center text-sm lg:text-base text-blue-dark">
+								Kadavers
+							</span>
+						</li>
+						<li class="flex flex-col gap-y-4">
+								<img src="/media/b5hpqjca/restafval_koffiecups.png?width=300&amp;v=1dc9f59e3926480" alt="Restafval_Koffiecups.png"/>
+							<span class="text-center text-sm lg:text-base text-blue-dark">
+								Koffiecups
+							</span>
+						</li>
+				</ul>
+		</li>
+			</ul>
+		</div>
+	</section>
+
+
+
+
+
+<section class=" pb-block" data-block="gridBlock">
+    <div class="bg-blue-dark py-12 lg:py-20">
+        <div class="container">
+            <div class="grid grid-cols-12">
+                <div class="col-span-12 lg:col-start-2 lg:col-span-11">
+                    
+
+
+
+<div class="grid grid-cols-2 lg:gap-x-20 gap-y-12">
+
+<div class="flex flex-col gap-y-8 col-span-12 lg:col-span-1 row-span-1"
+     data-area-col-span="1"
+     data-area-row-span="1"
+     data-area-alias="area 1">
+    
+
+
+<section>
+    <h2 class="[.bg-blue_&,.bg-green_&,.bg-blue-dark_&,.bg-blue-gradient_&]:text-white">
+        Wel GFT/E
+    </h2>
+</section>
+
+<section>
+    <div class="prose [.bg-blue_&,.bg-green_&,.bg-blue-dark_&,.bg-blue-gradient_&]:prose-light">
+        <ul><li><p>Composteerbare zakken met het Kiemplant logo </p></li><li><p>Groente- en fruitresten en schillen </p></li><li><p>Etensresten (ook botjes en graten) </p></li><li><p>Aardappelen, aardappelschillen, brood, deeg, rijst en pasta </p></li><li><p>Mossel-, en oesterschelpen </p></li><li><p>Theezakjes </p></li><li><p>Koffiepads </p></li><li><p>Strooisel (hooi, stro, zaagsel) van kleine knaagdieren, met hun poep </p></li><li><p>Bloemen en planten </p></li><li><p>Snoeiafval Fijn tuinafval (kleiner dan 30 cm)</p></li></ul>
+    </div>
+</section>
+</div>
+
+<div class="flex flex-col gap-y-8 col-span-12 lg:col-span-1 row-span-1"
+     data-area-col-span="1"
+     data-area-row-span="1"
+     data-area-alias="area 2">
+    
+
+
+<section>
+    <h2 class="[.bg-blue_&,.bg-green_&,.bg-blue-dark_&,.bg-blue-gradient_&]:text-white">
+        Geen GFT/E
+    </h2>
+</section>
+
+<section>
+    <div class="prose [.bg-blue_&,.bg-green_&,.bg-blue-dark_&,.bg-blue-gradient_&]:prose-light">
+        <ul><li><p>(Composteerbare) verpakkingen zonder Kiemplant logo</p></li><li><p>(Boom)stronken en takken langer dan 30 cm</p></li><li><p>Geïmpregneerd en geschilderd hout</p></li><li><p>Kauwgom</p></li><li><p>Luiers en overig incontinentiemateriaal</p></li><li><p>Koffiecups (ook niet afbreekbaar)</p></li><li><p>Kattenbakvulling, vogelkooizand, dode dieren</p></li><li><p>Tabak, peuken, as</p></li><li><p>Potten, stenen, balken, timmerhout, metaal</p></li><li><p>Graszoden</p></li><li><p>Grote hoeveelheden zand</p></li></ul>
+    </div>
+</section>
+</div>
+</div>
+ 
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="pt-block " data-block="gridBlock">
+    <div class="bg-grey-background py-12 lg:py-20">
+        <div class="container">
+            <div class="grid grid-cols-12">
+                <div class="col-span-12 lg:col-start-2 lg:col-span-11">
+                    
+
+
+
+<div class="grid grid-cols-2 lg:gap-x-20 gap-y-12">
+
+<div class="flex flex-col gap-y-8 col-span-12 lg:col-span-1 row-span-1"
+     data-area-col-span="1"
+     data-area-row-span="1"
+     data-area-alias="area 1">
+    
+
+
+<section>
+    <h2 class="[.bg-blue_&,.bg-green_&,.bg-blue-dark_&,.bg-blue-gradient_&]:text-white">
+        Mijn minicontainer is niet geleegd
+    </h2>
+</section>
+
+<section>
+    <div class="prose [.bg-blue_&,.bg-green_&,.bg-blue-dark_&,.bg-blue-gradient_&]:prose-light">
+        <p>Is je minicontainer niet geleegd? Maak dan -<strong> binnen 2 werkdagen</strong> - een melding via het <a target="" data-router-slot="disabled" href="#" title="Container niet geleegd">webformulier</a> of neem - <strong>binnen 2 werkdagen</strong> - contact op met de <a target="" data-router-slot="disabled" href="/klantenservice/" title="Klantenservice">klantenservice</a> van Cure Afvalbeheer.</p>
+    </div>
+</section>
+
+<section>
+    <h2 class="[.bg-blue_&,.bg-green_&,.bg-blue-dark_&,.bg-blue-gradient_&]:text-white">
+        Waar kun je je afval kwijt?
+    </h2>
+</section>
+
+<section>
+    <div class="prose [.bg-blue_&,.bg-green_&,.bg-blue-dark_&,.bg-blue-gradient_&]:prose-light">
+        <p>Eengezinswoningen hebben een groene afvalcontainer voor hun GFT/E-afval. In de afvalkalender op <a target="" data-router-slot="disabled" href="http://www.mijnafvalwijzer.nl" type="external">www.mijnafvalwijzer.nl</a> staat aangegeven wanneer deze GFT/E-container geleegd wordt. Bewoners van flats en appartementen kunnen het GFT/E-afval in de ondergrondse container kwijt.</p>
+    </div>
+</section>
+</div>
+
+<div class="flex flex-col gap-y-8 col-span-12 lg:col-span-1 row-span-1"
+     data-area-col-span="1"
+     data-area-row-span="1"
+     data-area-alias="area 2">
+    
+
+
+<section>
+    <h2 class="[.bg-blue_&,.bg-green_&,.bg-blue-dark_&,.bg-blue-gradient_&]:text-white">
+        Wat gebeurd er met het afval?
+    </h2>
+</section>
+
+<section>
+    <div class="prose [.bg-blue_&,.bg-green_&,.bg-blue-dark_&,.bg-blue-gradient_&]:prose-light">
+        <p>Groente-, Fruit- en Tuinafval en Etenrsresten zijn een grondstof voor compost en biogas. GFT/E-afval kan ook worden vergist. Bij vergisting ontstaat biogas dat elektriciteit en warmte kan opwekken. Het verwerken van GFT/E zorgt voor minder milieubelasting, bespaart grondstoffen en is bovendien goedkoper dan verbranden.&nbsp;</p><h2 style="box-sizing: border-box; border: 0px solid; margin: 2em 0px 1em; padding: 0px; font-size: 1.5em; font-weight: 700; font-family: Inter, sans-serif; text-wrap: balance; word-break: break-word; color: rgb(0, 51, 98); line-height: 1.33333; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space-collapse: collapse; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;"><strong style="box-sizing: border-box; border: 0px solid; margin: 0px; padding: 0px; font-weight: 800; color: inherit;">Tip!</strong></h2><h3 style="box-sizing: border-box; border: 0px solid; margin: 0px; padding: 0px; font-size: 1.25em; font-weight: 600; font-family: Inter, sans-serif; text-wrap: balance; word-break: break-word; line-height: 1.6; color: rgb(0, 51, 98); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space-collapse: collapse; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;"><strong><em style="box-sizing: border-box; border: 0px solid; margin: 0px; padding: 0px;">"Gooi geen vochtig afval in de container. Laat gemaaid gras een dagje drogen."</em></strong></h3>
+    </div>
+</section>
+</div>
+</div>
+ 
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class=" pb-block" data-block="textAndMedia">
+    <div class="">
+        <div class="">
+            <div class="container">
+                <div class="grid grid-cols-12 gap-y-8 max-lg:py-8">
+                    <div
+                        class="col-span-12 lg:col-span-6 flex flex-col items-start justify-center gap-y-4 lg:py-20 lg:pr-20 ">
+                        <div class="flex flex-col-reverse gap-y-2">
+                                <h2 class="">
+                                    Z&#xF3; plaatst je de afvalcontainer aan de straat
+                                </h2>
+                        </div>
+                            <div class="prose ">
+                                <p>Je helpt onze chauffeurs (en jezelf) enorm als je ervoor zorgt dat de afvalcontainer op de juiste manier wordt aangeboden. Belangrijk hierbij:</p><ul><li><p>Plaats de container maximaal 50 cm van de stoeprand</p></li><li><p>Laat minimaal 30 cm ruimte tussen 2 containers of andere obstakels (zoals lantaarnpalen of geparkeerde auto's)</p></li></ul>
+                            </div>
+                    </div>
+                    <div class="col-span-12 lg:col-span-6 flex items-center">
+                                        <img class="w-full h-full object-cover" src="/media/3h2frvkm/aanbiedregels-gft_tekengebied-1.png?width=1200&amp;v=1dc9f5610e2b8d0"
+                                             alt="aanbiedregels-gft_tekengebied-1.png"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class=" " data-block="linkCards">
+    <div class="bg-grey-background py-8 lg:py-12">
+        <div class="container">
+            <div class="flex flex-col gap-y-8">
+                    <ul class="grid grid-cols-1 lg:grid-cols-3 gap-y-8 lg:gap-x-8">
+        <li class="flex flex-col lg:flex-col bg-white shadow-theme relative">
+                <img class="w-full object-cover"
+                     src="/media/gysg0nix/aanbiedregels-gft-03.png?width=800&amp;height=550&amp;v=1dc9f5610da0640"
+                     alt="aanbiedregels-gft-03.png"/>
+            <div class="flex flex-col grow gap-y-2 p-6 z-10">
+                    <h3 class="text-green">
+                        Ben op tijd
+                    </h3>
+                <div class="flex grow">
+                        <p class="max-w-72 text-blue text-lg">
+                            Zet je afvalcontainer op ophaaldagen op tijd aan straat. Zet na het legen terug op eigen terrein. 
+                        </p>
+                </div>
+            </div>
+        </li>
+        <li class="flex flex-col lg:flex-col bg-white shadow-theme relative">
+                <img class="w-full object-cover"
+                     src="/media/ypnpohgm/aanbiedregels-gft-02.png?width=800&amp;height=550&amp;v=1dc9f5610c63020"
+                     alt="aanbiedregels-gft-02.png"/>
+            <div class="flex flex-col grow gap-y-2 p-6 z-10">
+                    <h3 class="text-green">
+                        Afval IN de bak
+                    </h3>
+                <div class="flex grow">
+                        <p class="max-w-72 text-blue text-lg">
+                            Gooi het afval in de container, niet ernaast. De deksel moet dicht zijn. De container mag niet meer wegen dan 70kg. 
+                        </p>
+                </div>
+            </div>
+        </li>
+        <li class="flex flex-col lg:flex-col bg-white shadow-theme relative">
+                <img class="w-full object-cover"
+                     src="/media/bzkpen3m/aanbiedregels-gft-05.png?width=800&amp;height=550&amp;v=1dc9f5610fea540"
+                     alt="aanbiedregels-gft-05.png"/>
+            <div class="flex flex-col grow gap-y-2 p-6 z-10">
+                    <h3 class="text-green">
+                        Vrij van obstakels
+                    </h3>
+                <div class="flex grow">
+                        <p class="max-w-72 text-blue text-lg">
+                            Plaats de containers niet achter auto&#x27;s, bomen of lantaarnpalen. 
+                        </p>
+                </div>
+            </div>
+        </li>
+                    </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+<section class="pt-block pb-block" data-block="textAndMedia">
+    <div class="">
+        <div class="">
+            <div class="container">
+                <div class="grid grid-cols-12 gap-y-8 max-lg:py-8">
+                    <div
+                        class="col-span-12 lg:col-span-6 flex flex-col items-start justify-center gap-y-4 lg:py-20 lg:pl-20 lg:order-last">
+                        <div class="flex flex-col-reverse gap-y-2">
+                                <h2 class="">
+                                    Project GFE hoogbouw
+                                </h2>
+                        </div>
+                            <div class="prose ">
+                                <p>In Eindhoven zijn we op dit moment bezig met een proef voor het inzamelen van GFE (Groente, Fruit &amp; Etensresten) in de hoogbouw.</p><p>Hierbij zijn 4 complexen geselecteerd voor het inzamelen van GFE met speciale zakjes.&nbsp;</p><p>Ons doel is om deze zakjes uiteindelijk via nascheiding uit het restafval te halen. In deze video laten we zien hoe we dat doen.</p>
+                            </div>
+                    </div>
+                    <div class="col-span-12 lg:col-span-6 flex items-center">
+                                        <div class="aspect-video w-full">
+                                            <iframe width="360" height="203" src="https://www.youtube.com/embed/BbiJQw7Eayw?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen title="Proef Etensresten Inzamelen In De Hoogbouw - Hoe zit het eigenlijk? ENG SUB"></iframe>
+                                        </div>  
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="pt-block pb-block" data-block="textAndMedia">
+    <div class="">
+        <div class="bg-blue-gradient">
+            <div class="container">
+                <div class="grid grid-cols-12 gap-y-8 max-lg:py-8">
+                    <div
+                        class="col-span-12 lg:col-span-6 flex flex-col items-start justify-center gap-y-4 lg:py-20 lg:pr-20 ">
+                        <div class="flex flex-col-reverse gap-y-2">
+                                <h2 class="text-white">
+                                    Aanbiedtijden afval
+                                </h2>
+                        </div>
+                            <div class="prose prose-light">
+                                <h3>Eindhoven &amp; Geldrop - Mierlo</h3><p> Zet je afval alleen op de inzameldagen buiten voor 07:30 uur. In de zomermaanden juli en augustus voor 07:00 uur. Haal de lege afvalcontainer voor middernacht op de inzameldag binnen.</p><h3>Valkenswaard</h3><p> Zet je afval op de inzameldagen buiten voor 07:00 uur. Haal de lege afvalcontainer voor middernacht op de inzameldag binnen.</p>
+                            </div>
+                    </div>
+                    <div class="col-span-12 lg:col-span-6 flex items-center">
+                                        <div class="aspect-video w-full">
+                                            <iframe width="360" height="203" src="https://www.youtube.com/embed/b2hwj0rAsJM?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen title="Wat mag er allemaal in jouw kliko?"></iframe>
+                                        </div>  
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="pt-block pb-block" data-block="faq">
+    <div class="container">
+        <div class="grid grid-cols-12 py-8 lg:py-12">
+            <div class="col-span-12 lg:col-span-6 lg:col-start-2 flex flex-col gap-y-6 lg:gap-y-10">
+                <h2>
+                    Veelgestelde vragen over GFT-afval
+                </h2>
+                <ul class="flex flex-col">
+        <li class="border-t last:border-b border-dotted border-blue-dark">
+            <details class="group">
+                <summary
+                    class="list-none cursor-pointer flex items-center justify-between text-blue-dark font-bold text-base lg:text-lg py-3">
+                    Wanneer wordt het GFT/E-afval opgehaald?
+                    
+    <svg  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+         stroke-width="2.5"
+         stroke="currentColor" class="size-6 block group-open:rotate-180 text-green">
+        <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5"/>
+    </svg>
+
+
+
+                </summary>
+                <div class="prose pb-6 lg:pb-10 pr-8 lg:pr-14">
+                   <p>Het GFT/E-afval wordt normaal gesproken 1x per 2 weken aan huis opgehaald. U kunt de groene container (kliko) aanbieden op de voor u geldende ophaaldag. Deze kunt u vinden in de <a target="" data-router-slot="disabled" href="https://afvalkalender.cure-afvalbeheer.nl/" title="Afvalkalender"><u>afvalkalender</u></a>. Tijdens de herfst-/wintermaanden kan de ophaalfrequentie anders zijn.&nbsp;</p>
+                </div>
+
+            </details>
+
+
+        </li>
+        <li class="border-t last:border-b border-dotted border-blue-dark">
+            <details class="group">
+                <summary
+                    class="list-none cursor-pointer flex items-center justify-between text-blue-dark font-bold text-base lg:text-lg py-3">
+                    Wat kan ik doen om geuroverlast tegen te gaan?
+                    
+    <svg  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+         stroke-width="2.5"
+         stroke="currentColor" class="size-6 block group-open:rotate-180 text-green">
+        <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5"/>
+    </svg>
+
+
+
+                </summary>
+                <div class="prose pb-6 lg:pb-10 pr-8 lg:pr-14">
+                   <ul><li><p>Zet de container op een koele plek uit de zon.</p></li><li><p>Een paar proppen krantenpapier (of een laagje stro, houtkrullen o.i.d.) onder in de container leggen; dit voorkomt dat er GFT/E-afval achterblijft na het legen.</p></li><li><p>De container luchten. Het klinkt tegenstrijdig, maar door de deksel op een kier te zetten, kan er continu&nbsp;lucht bij&nbsp;en blijft de geuroverlast beperkt.</p></li><li><p>Verpak snel bedervende, stinkende etensresten als vlees en vis in een krant en werp dit zo in de groene container.</p></li><li><p>Gooi geen vochtig afval in de container. Laat gemaaid gras bijvoorbeeld, een dagje drogen.</p></li><li><p>Maak de container regelmatig schoon met alleen water en eventueel groene zeep. Gebruik geen chloor want dit is schadelijk voor het milieu.</p></li></ul>
+                </div>
+
+            </details>
+
+
+        </li>
+        <li class="border-t last:border-b border-dotted border-blue-dark">
+            <details class="group">
+                <summary
+                    class="list-none cursor-pointer flex items-center justify-between text-blue-dark font-bold text-base lg:text-lg py-3">
+                    Ik woon in een flat, kan ik toch gebruik maken van een GFT/E-container (groenbak)?
+                    
+    <svg  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+         stroke-width="2.5"
+         stroke="currentColor" class="size-6 block group-open:rotate-180 text-green">
+        <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5"/>
+    </svg>
+
+
+
+                </summary>
+                <div class="prose pb-6 lg:pb-10 pr-8 lg:pr-14">
+                   <p>Als u op de begane grond van een flat of appartement woont, kunt u een GFT/E-container (groenbak) aanvragen via de <a target="" data-router-slot="disabled" href="/klantenservice/" title="Klantenservice"><u>klantenservice</u>.</a> Voorwaarde is dat de container op eigen grond of in de&nbsp;berging kan worden geplaatst en dat er een inzamelroute in de buurt loopt.&nbsp;</p><p>Er lopen nu een aantal proeven om ook het GFT/E van bewoners van flats en appartementen gescheiden in te zamelen.&nbsp;</p>
+                </div>
+
+            </details>
+
+
+        </li>
+        <li class="border-t last:border-b border-dotted border-blue-dark">
+            <details class="group">
+                <summary
+                    class="list-none cursor-pointer flex items-center justify-between text-blue-dark font-bold text-base lg:text-lg py-3">
+                    Mijn container is niet geleegd, wat doe ik nu?
+                    
+    <svg  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+         stroke-width="2.5"
+         stroke="currentColor" class="size-6 block group-open:rotate-180 text-green">
+        <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5"/>
+    </svg>
+
+
+
+                </summary>
+                <div class="prose pb-6 lg:pb-10 pr-8 lg:pr-14">
+                   <p>Wij begrijpen dat het vervelend is als uw container niet geleegd is op de inzameldag. U kunt hiervoor -&nbsp;<strong>binnen 2 werkdagen </strong>- een melding indienen via het klantenservice <a target="" data-router-slot="disabled" href="#" title="Container niet geleegd"><u>formulier</u></a>.</p><p>Wij nemen uw melding z.s.m. in behandeling.</p><p>In de tussentijd kunt u uw overtollig afval naar de milieustraat brengen.</p><p>Inwoners van Eindhoven kunnen met hun Cure milieupas ook, gratis, gebruik maken van de aanwezige ondergrondse afvalcontainers.</p>
+                </div>
+
+            </details>
+
+
+        </li>
+        <li class="border-t last:border-b border-dotted border-blue-dark">
+            <details class="group">
+                <summary
+                    class="list-none cursor-pointer flex items-center justify-between text-blue-dark font-bold text-base lg:text-lg py-3">
+                    Mijn container is niet helemaal leeg na de lediging, wat doe ik nu?
+                    
+    <svg  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+         stroke-width="2.5"
+         stroke="currentColor" class="size-6 block group-open:rotate-180 text-green">
+        <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5"/>
+    </svg>
+
+
+
+                </summary>
+                <div class="prose pb-6 lg:pb-10 pr-8 lg:pr-14">
+                   <p>Als uw container niet helemaal leeg is nadat wij langs zijn geweest, dan kan dat vervelend zijn.</p><p>Controleer de inhoud van uw container om te zien of er geen blokkade in de container aanwezig is. Ook wanneer de inhoud te strak is aangedrukt kan dit ervoor zorgen dat uw container niet helemaal leeg valt.</p><p>In deze gevallen vragen wij u om ervoor te zorgen dat de blokkade verwijderd wordt. Op de eerstvolgende reguliere inzameldag plaatst u de container vervolgens weer aan straat.</p><p>Cure rijdt in dergelijke gevallen niet extra.</p>
+                </div>
+
+            </details>
+
+
+        </li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+</main>
+
+
+<footer class="flex flex-col">
+    <div class="bg-blue-dark">
+        <div class="container">
+                <ul class="flex justify-end py-3 lg:py-4">
+                            <li>
+                                <a href="https://www.instagram.com/cure_afvalbeheer/" target="_blank">
+                                    <span class="sr-only">
+                                        www.instagram.com
+                                    </span>
+                                        <img class="size-8 lg:size-10 object-contain"
+                                             src="/media/cqcfvxj0/icon-insta.png?width=256&amp;height=256&amp;v=1dc9f451123f040"
+                                             alt="Icon-insta.png"/>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.facebook.com/CureAfvalbeheer" target="_blank">
+                                    <span class="sr-only">
+                                        Facebook
+                                    </span>
+                                        <img class="size-8 lg:size-10 object-contain"
+                                             src="/media/43yp4vb1/icon-facebook.png?width=256&amp;height=256&amp;v=1dc9f45138538d0"
+                                             alt="icon-facebook.png"/>
+                                </a>
+                            </li>
+
+                </ul>
+        </div>
+    </div>
+    <div class="bg-grey-background">
+        <div class="container">
+            <div class="flex flex-col lg:flex-row gap-y-10 lg:gap-x-20">
+                <div class="flex flex-col">
+                    <a href="/" title="home">
+                        <img class="h-full w-24" width="122" height="50" alt="Cure logo" src="/Assets/Cure Logo.svg" loading="lazy" />
+                    </a>
+                    <div class="flex items-end max-lg:hidden grow">
+        <div class="flex">
+            <div class="bg-blue size-8">
+
+            </div>
+            <div class="bg-green size-8">
+
+            </div>
+            <div class="bg-grey-light size-8">
+
+            </div>
+        </div>
+                    </div>
+                </div>
+                    <div class="prose max-w-xs lg:pt-10 lg:pb-24">
+                        <p>Cure Afvalbeheer is een samenwerkingsverband van de gemeenten Eindhoven, Valkenswaard en Geldrop-Mierlo. Cure verzorgt de afvalinzameling in deze gemeenten.</p>
+                    </div>
+                    <div class="grid grid-cols-12 grow lg:pt-10 lg:pb-24 lg:gap-y-12">
+                        
+
+
+
+
+
+<div
+    class="flex flex-col col-span-12 lg:col-span-4 row-span-1 max-lg:border-t max-lg:last:border-b border-blue-dark border-dotted"
+    data-block="footerContent">
+    <details :open="isDesktop"  class="group">
+        <summary
+            class="list-none cursor-pointer flex items-center justify-between py-3 lg:pt-0 lg:cursor-default"
+            :aria-disabled="isDesktop"
+            :tabindex="isDesktop ? -1 : 0">
+                <h2 class="text-base text-blue-dark">
+                    Meest gezocht
+                </h2>
+            <div class="lg:hidden">
+                
+    <svg  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+         stroke-width="2.5"
+         stroke="currentColor" class="size-4 group-open:rotate-180 text-green">
+        <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5"/>
+    </svg>
+
+
+            </div>
+        </summary>
+            <ul class="flex flex-col gap-y-3 max-lg:pb-3 text-blue-dark">
+                    <li>
+                        <a class="underline" href="/milieustraat/">
+                            Milieustraat
+                        </a>
+                    </li>
+                    <li>
+                        <a class="underline" href="https://afvalkalender.cure-afvalbeheer.nl/">
+                            Afvalkalender
+                        </a>
+                    </li>
+                    <li>
+                        <a class="underline" href="/klantenservice/">
+                            Klantenservice
+                        </a>
+                    </li>
+                    <li>
+                        <a class="underline" href="/afvalcoaches/">
+                            Afvalcoaches
+                        </a>
+                    </li>
+            </ul>
+    </details>
+</div>
+
+
+
+<div
+    class="flex flex-col col-span-12 lg:col-span-4 row-span-2 max-lg:border-t max-lg:last:border-b border-blue-dark border-dotted"
+    data-block="footerContent">
+    <details :open="isDesktop"  class="group">
+        <summary
+            class="list-none cursor-pointer flex items-center justify-between py-3 lg:pt-0 lg:cursor-default"
+            :aria-disabled="isDesktop"
+            :tabindex="isDesktop ? -1 : 0">
+                <h2 class="text-base text-blue-dark">
+                    Serviceformulieren
+                </h2>
+            <div class="lg:hidden">
+                
+    <svg  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+         stroke-width="2.5"
+         stroke="currentColor" class="size-4 group-open:rotate-180 text-green">
+        <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5"/>
+    </svg>
+
+
+            </div>
+        </summary>
+            <ul class="flex flex-col gap-y-3 max-lg:pb-3 text-blue-dark">
+                    <li>
+                        <a class="underline" href="/klantenservice/ondergrondse-container/">
+                            Melding ondergrondse container
+                        </a>
+                    </li>
+                    <li>
+                        <a class="underline" href="/klantenservice/afval-niet-opgehaald/">
+                            Afval niet opgehaald
+                        </a>
+                    </li>
+                    <li>
+                        <a class="underline" href="/klantenservice/">
+                            Alle formulieren
+                        </a>
+                    </li>
+            </ul>
+    </details>
+</div>
+
+
+
+<div
+    class="flex flex-col col-span-12 lg:col-span-4 row-span-2 max-lg:border-t max-lg:last:border-b border-blue-dark border-dotted"
+    data-block="footerContent">
+    <details :open="isDesktop"  class="group">
+        <summary
+            class="list-none cursor-pointer flex items-center justify-between py-3 lg:pt-0 lg:cursor-default"
+            :aria-disabled="isDesktop"
+            :tabindex="isDesktop ? -1 : 0">
+                <h2 class="text-base text-blue-dark">
+                    Afvalkalender
+                </h2>
+            <div class="lg:hidden">
+                
+    <svg  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+         stroke-width="2.5"
+         stroke="currentColor" class="size-4 group-open:rotate-180 text-green">
+        <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5"/>
+    </svg>
+
+
+            </div>
+        </summary>
+            <ul class="flex flex-col gap-y-3 max-lg:pb-3 text-blue-dark">
+                    <li>
+                        <a class="underline" href="https://afvalkalender.cure-afvalbeheer.nl/">
+                            Bezoek pagina
+                        </a>
+                    </li>
+            </ul>
+    </details>
+</div>
+                    </div>
+            </div>
+            <div class="lg:hidden flex justify-end pt-10">
+        <div class="flex">
+            <div class="bg-blue size-8">
+
+            </div>
+            <div class="bg-green size-8">
+
+            </div>
+            <div class="bg-grey-light size-8">
+
+            </div>
+        </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+
+<script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'nl'}, 'google_translate_element');
+}
+</script>
+<script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+
+</body>
+
+</html>
