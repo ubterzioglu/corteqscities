@@ -147,8 +147,10 @@ def check_pack_cards(pack: Path, meta: dict[str, Any], cards: list[dict[str, Any
             raise UsageError(f"paket karti pack.json'daki hash ile uyusmuyor: {slug} (paket elle degismis olabilir)")
 
 
-def plan_sources(pack: Path, cards: list[dict[str, Any]]) -> tuple[list[str], dict[str, dict[str, Any]]]:
-    """Kopyalanacak kartlarin kaynak kimlikleri (ilk gorulme sirasiyla) ve paket dizin satirlari."""
+def plan_sources(pack: Path, cards: list[dict[str, Any]],
+                 actions: list[dict[str, Any]] = ()) -> tuple[list[str], dict[str, dict[str, Any]]]:
+    """Kopyalanacak kaynak kimlikleri (ilk gorulme sirasiyla) ve paket dizin satirlari. Kartlarin source_ids'ine ek
+    olarak baglanti adresi paket dizininde olan kaynak da kopyalanir (merge_package baglantiyi kaynakta arar)."""
     index = {str(r.get("source_id")): r for r in read_jsonl(pack / "kaynak_dizini.jsonl")}
     wanted: list[str] = []
     for card in cards:
@@ -160,6 +162,11 @@ def plan_sources(pack: Path, cards: list[dict[str, Any]]) -> tuple[list[str], di
                 raise UsageError(f"kaynak paketin dizininde yok: {sid} (kart {card.get('slug')})")
             if sid not in wanted:
                 wanted.append(sid)
+    by_url = {r.get("url"): sid for sid, r in index.items()}
+    for action in actions:
+        sid = by_url.get(action.get("url"))
+        if sid and sid not in wanted:
+            wanted.append(sid)
     return wanted, index
 
 
@@ -233,7 +240,8 @@ def apply_pack(*, work: Path, pack: Path, city_id: str, city_name: str, order_st
     existing = [p for p in target_files(work, topics) if p.exists()]
     if existing:
         raise UsageError(f"hedef dosya zaten var, uzerine yazilmaz: {', '.join(p.name for p in existing)}")
-    wanted, index = plan_sources(pack, live)
+    live_ids = {c["entry_id"] for c in live}
+    wanted, index = plan_sources(pack, live, [a for e in live_ids for a in actions.get(e, [])])
     iso = str(meta["country"])
     mapping, added, reused = register_sources(work, pack, city_id, wanted, index, iso)
     by_topic: dict[str, dict[str, list[dict[str, Any]]]] = {t: {"cards": [], "actions": [], "claims": []} for t in topics}

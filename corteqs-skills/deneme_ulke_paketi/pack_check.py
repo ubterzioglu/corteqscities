@@ -3,7 +3,8 @@
 Kullanim: pack_check.py <ES\\_is> <konu>
 Bakilanlar: kart/claim/baglanti alan ve kimlikleri, kart basina <=2 kaynak, kaynak kimliklerinin dizinde olmasi, claim
 alintisinin kaynak metninde (NFKC + bosluk + harf buyuklugu normalize) gecmesi, claim kaynaginin kartin source_ids'inde
-olmasi, sehir adi ve yasakli ifade ('teyit et'), her kartta >=1 baglanti ve claim. valid_until.json yalniz tarihe
+olmasi, sehir adi ve yasakli ifade ('teyit et'), her kartta >=1 baglanti ve claim. merge_package kurallari da: baslik <=180,
+alt baslik <=160 karakter, featured 'Evet' degil (secim sehir fazinda), baglanti adresi kaynak dizininde. valid_until.json yalniz tarihe
 duyarli kartlari listeler (eksik kart = tarihe duyarsiz); yazar null yazdiysa kart 'bitis tarihi bilinmiyor' demektir.
 Cikis 0 temiz / 1 bulgu.
 """
@@ -18,6 +19,7 @@ from pathlib import Path
 CITIES = ("barcelona", "madrid", "sevilla", "valensiya", "valencia", "málaga", "malaga", "bilbao", "palma", "marbella",
           "alicante", "tarragona", "zaragoza", "tenerife")
 BANNED = ("teyit et", "doğrulayın")
+TITLE_MAX, SUBTITLE_MAX = 180, 160  # merge_package check_entries
 REQUIRED = ("entry_id", "city_id", "slug", "title", "summary", "source_ids", "order", "topic_id", "editorial_status")
 
 
@@ -49,10 +51,18 @@ def main(work: Path, topic: str) -> int:
         blob = norm(json.dumps(card, ensure_ascii=False))
         findings += [f"{slug}: sehir adi '{c}'" for c in CITIES if re.search(rf"\b{c}\b", blob)]
         findings += [f"{slug}: yasakli ifade '{b}'" for b in BANNED if b in blob]
+        if len(str(card.get("title", ""))) > TITLE_MAX or len(str(card.get("subtitle", ""))) > SUBTITLE_MAX:
+            findings.append(f"{slug}: baslik/alt baslik uzun ({len(str(card.get('title', '')))}/"
+                            f"{len(str(card.get('subtitle', '')))}; sinir {TITLE_MAX}/{SUBTITLE_MAX})")
+        if card.get("featured") == "Evet":
+            findings.append(f"{slug}: featured 'Evet' (ulusal/bolge kartinda secim sehir fazinda yapilir)")
         if not any(a.get("entry_id") == card.get("entry_id") for a in actions):
             findings.append(f"{slug}: baglanti yok")
         if not any(c.get("entry_id") == card.get("entry_id") for c in claims):
             findings.append(f"{slug}: claim yok")
+    urls = {r.get("url") for r in index.values()}
+    findings += [f"{a.get('action_id')}: baglanti adresi kaynak dizininde yok {a.get('url')}"
+                 for a in actions if a.get("url") not in urls]
     by_entry = {c["entry_id"]: set(str(c.get("source_ids", "")).split(";")) for c in cards}
     for claim in claims:
         sid = claim.get("source_id")

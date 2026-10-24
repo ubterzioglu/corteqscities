@@ -4,7 +4,8 @@ Kullanim: pack_build.py <ES klasoru> --country ES --version 1 [--built YYYY-AA-G
 Bolge paketi (ROOT\\ulke\\ES\\bolge\\<ad>) ayni duzende kurulur: --topics yalniz yazilan konular, --region pack.json'a yazilir.
 Girdi: <ES>\\_is\\yazar\\out\\<konu>\\ (Yanıtlar/Bağlantılar/claims/valid_until.json), <ES>\\_is\\kaynak_dizini.jsonl.
 Cikti (her kosuda bastan yazilir; _is'e dokunulmaz): Yanıtlar.ulusal.jsonl, Bağlantılar.ulusal.jsonl, claims\\ulusal.jsonl,
-kaynak_dizini.jsonl + kaynaklar\\ (yalniz kartlarda kullanilan kaynaklarin metin ve html kopyasi), pack.json.
+kaynak_dizini.jsonl + kaynaklar\\ (yalniz kartlarda ve baglanti adreslerinde kullanilan kaynaklarin metin ve html
+kopyasi), pack.json.
 pack.json cards[slug] = {sha256 (country_apply.card_hash), valid_until, topic}.
 Cikis 0 tamam / 2 hata (kayip kaynak, tekrarlanan slug).
 """
@@ -46,7 +47,10 @@ def build(es: Path, country: str, version: int, built: str, topics: tuple[str, .
     slugs = [c["slug"] for c in cards]
     if len(set(slugs)) != len(slugs):
         raise ca.UsageError("tekrarlanan slug")
-    used = sorted({s for c in cards for s in str(c["source_ids"]).split(";") if s})
+    by_url = {r.get("url"): sid for sid, r in index.items()}
+    # merge_package baglanti adresini kaynak listesinde arar: baglantinin gosterdigi kaynak da pakete girer
+    linked = {by_url[a["url"]] for a in actions if a.get("url") in by_url}
+    used = sorted({s for c in cards for s in str(c["source_ids"]).split(";") if s} | linked)
     missing = [s for s in used if s not in index]
     if missing:
         raise ca.UsageError(f"dizinde olmayan kaynak: {missing}")

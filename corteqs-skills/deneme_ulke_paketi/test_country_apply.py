@@ -130,6 +130,21 @@ def test_existing_source_url_reuses_its_id(tmp_path):
     assert row["source_ids"] == "sevilla:kaynak:003;sevilla:kaynak:004"
 
 
+def test_action_url_source_outside_card_sources_is_copied(tmp_path):
+    pack = make_pack(tmp_path)
+    write_jsonl(pack / "kaynak_dizini.jsonl", read_jsonl(pack / "kaynak_dizini.jsonl")
+                + [source_row(3, "https://dgt.example.es/canje")])
+    for ext in ("txt", "html"):
+        (pack / "kaynaklar" / f"003.{ext}").write_text("3", encoding="utf-8")
+    extra = {**action("smi"), "action_id": "es:action:smi-2", "url": "https://dgt.example.es/canje"}
+    write_jsonl(pack / "Bağlantılar.ulusal.jsonl", read_jsonl(pack / "Bağlantılar.ulusal.jsonl") + [extra])
+    work = make_work(tmp_path)
+    assert apply(work, pack)["sources_added"] == 3
+    assert "https://dgt.example.es/canje" in {r["url"] for r in read_jsonl(work / "kaynak_dizini.jsonl")}
+    row = read_jsonl(work / "data" / "parcalar" / "Yanıtlar.is.jsonl")[0]
+    assert row["source_ids"] == "sevilla:kaynak:002"
+
+
 def test_actions_are_rebuilt(tmp_path):
     pack, work = make_pack(tmp_path), make_work(tmp_path)
     apply(work, pack)
