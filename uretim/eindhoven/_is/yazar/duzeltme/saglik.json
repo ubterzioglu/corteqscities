@@ -1,0 +1,76 @@
+{
+ "topic": "saglik",
+ "order_range": [
+  701,
+  799
+ ],
+ "audit": [
+  {
+   "claim_id": "EIN-ID-125",
+   "entry_id": "eindhoven:zorunlu-saglik-sigortasi-kapsam",
+   "Excel_satırı": 0,
+   "iddia": "Temel paketten bakım alınca ilk 385 € kendiniz ödersiniz (istisnasız anlatılmış).",
+   "ülke_şehir_statü": "NL; 18+ sigortalı",
+   "dönem": "2026",
+   "resmî_URL": "https://www.rijksoverheid.nl/documenten/vraag-en-antwoord/zorgverzekering/eigen-risico-zorgverzekering",
+   "kaynak_bölümü": "Wanneer u een eigen risico betaalt",
+   "yayın_yürürlük_tarihleri": "",
+   "kontrol_tarihi": "2026-10-22",
+   "hesap_varsa_girdiler": "",
+   "sonuç": "eksik_koşul",
+   "belirsizlik": "",
+   "alıntı": "Behalve als het over zorg gaat waarvoor geen eigen risico geldt, zoals de huisarts.",
+   "doğrusu": "İlk 385 € (2026) yalnız eigen risico'ya tabi masraflar için geçerlidir. Huisarts (huisartsenpost dahil), verloskundige zorg ve kraamzorg, wijkverpleging, bazı kronik hastalıklarda zincir bakım (ketenzorg) gibi temel paket kalemlerinde eigen risico ödenmez."
+  }
+ ],
+ "new_sources": [
+  {
+   "source_id": "eindhoven:kaynak:208",
+   "url": "https://www.government.nl/faq/health-insurance/more-qas-about-health-insurance-in-the-netherlands",
+   "title": "More Q&As about health insurance in the Netherlands | Government.nl",
+   "text_file": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\eindhoven\\_is\\snap\\a815202a444d2717f9b9fcb8915adef3f113fe11b658b1b9527a1e1889b2a118.txt",
+   "gap": "G08 zorunlu sağlık sigortasını kaç ay içinde yaptırma, yaptırmazsa ceza (government.nl/rijksoverheid; CAK)."
+  },
+  {
+   "source_id": "eindhoven:kaynak:209",
+   "url": "https://www.government.nl/themes/family-health-and-care/health-insurance/standard-health-insurance/changing-your-health-insurance",
+   "title": "Changing your health insurance | Government.nl",
+   "text_file": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\eindhoven\\_is\\snap\\c925d541899aa643eed0a70816fe5ae29637bcf792b60f2c29c4c96e638d4571.txt",
+   "gap": "G09 sağlık sigortacısı değiştirme (overstappen) dönemi ve kuralı."
+  },
+  {
+   "source_id": "eindhoven:kaynak:210",
+   "url": "https://www.113.nl/i/zelfmoordlijn",
+   "title": "Zelfmoordlijn | 113 Zelfmoordpreventie",
+   "text_file": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\eindhoven\\_is\\snap\\c80b3b959e1ec833aa8dc8b030e038db915d58e2e6f48a5d8e91ede61f44e627.txt",
+   "gap": "G10 ruh sağlığı kriz hattı (113 Zelfmoordpreventie: 113 / 0800-0113) resmî sayfası."
+  },
+  {
+   "source_id": "eindhoven:kaynak:216",
+   "url": "https://www.zorginstituutnederland.nl/verzekerde-zorg/v/verloskundige-zorg-zvw",
+   "title": "Verloskundige zorg (Zvw) | Zorginstituut Nederland",
+   "text_file": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\eindhoven\\_is\\snap\\c46bb23c68c0acd7cd6e31cdc31c17060d99b9e732628989efd83bb862bb0c72.txt",
+   "gap": "G16 hamilelik bakımı (verloskundige, kraamzorg) ilk adım."
+  },
+  {
+   "source_id": "eindhoven:kaynak:217",
+   "url": "https://www.zorginstituutnederland.nl/verzekerde-zorg/k/kraamzorg-zvw",
+   "title": "Kraamzorg | Zorginstituut Nederland",
+   "text_file": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\eindhoven\\_is\\snap\\62a3d4990799fffa8e93288cd2218fe2459d9eba90380ebb988ab933c2f96c29.txt",
+   "gap": "G16 hamilelik bakımı (verloskundige, kraamzorg) ilk adım."
+  }
+ ],
+ "extra_sources": [
+  {
+   "source_id": "eindhoven:kaynak:014",
+   "url": "https://www.government.nl/themes/family-health-and-care/health-insurance/standard-health-insurance/taking-out-compulsory-health-insurance",
+   "title": "Taking out compulsory health insurance | Government.nl",
+   "text_file": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\eindhoven\\_is\\snap\\02525359cb89516e4963807b2e1c6b2016ab4897dadc2891ef833b82c1fd127f.txt",
+   "gap": "Sağlık sigortası zorunluluğu ve süre"
+  }
+ ],
+ "special": [
+  "Zorunlu sağlık sigortası kartı (`saglik-sigortasi-ne-zaman` planlama konusunda; senin konunda zorunluluğu anlatan kart yoksa yaz): kaç ay içinde, yaptırmazsan ne olur (government.nl esas)."
+ ],
+ "own_sources_file": "_is\\yazar\\saglik_kaynaklar.jsonl"
+}

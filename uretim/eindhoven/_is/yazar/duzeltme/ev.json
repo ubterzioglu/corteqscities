@@ -1,0 +1,107 @@
+{
+ "topic": "ev",
+ "order_range": [
+  401,
+  499
+ ],
+ "audit": [
+  {
+   "claim_id": "EIN-ID-015",
+   "entry_id": "eindhoven:startersvrijstelling-sartlari",
+   "Excel_satırı": 0,
+   "iddia": "'Biriniz sağlamıyorsa muafiyet yalnızca o kişinin payı için geçerli.' (Türkçede 'o kişi' şartı SAĞLAMAYAN kişiyi gösteriyor.)",
+   "ülke_şehir_statü": "NL; biri şartları sağlamayan ortak alıcılar",
+   "dönem": "2026",
+   "resmî_URL": "https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/prive/woning/overdrachtsbelasting/startersvrijstelling/",
+   "kaynak_bölümü": "Let op! (samen verkrijgen)",
+   "yayın_yürürlük_tarihleri": "",
+   "kontrol_tarihi": "2026-10-22",
+   "hesap_varsa_girdiler": "",
+   "sonuç": "yanlış",
+   "belirsizlik": "Anlam ters okunuyor; yazarın niyeti doğru olabilir ama cümle yanıltıcı.",
+   "alıntı": "Voldoet 1 van u niet aan de voorwaarden? Dan geldt de vrijstelling alleen voor degene die wel aan de voorwaarden voldoet.",
+   "doğrusu": "Biriniz şartları sağlamıyorsa muafiyet yalnız şartları SAĞLAYAN kişiye, onun edindiği pay üzerinden uygulanır; diğer kişinin payı için devir vergisi ödenir."
+  },
+  {
+   "claim_id": "EIN-ID-022",
+   "entry_id": "eindhoven:kamer-kiralama-izni-omgevingsvergunning",
+   "Excel_satırı": 0,
+   "iddia": "Birlikte hane kurmayan en fazla iki kişi oturuyorsa izin gerekmez (koşulsuz).",
+   "ülke_şehir_statü": "Eindhoven",
+   "dönem": "2026",
+   "resmî_URL": "https://www.eindhoven.nl/stad-en-wonen/wonen/huren-en-verhuren-in-eindhoven/kamerverhuur",
+   "kaynak_bölümü": "Is er een uitzondering op de vergunningplicht?",
+   "yayın_yürürlük_tarihleri": "",
+   "kontrol_tarihi": "2026-10-22",
+   "hesap_varsa_girdiler": "",
+   "sonuç": "eksik_koşul",
+   "belirsizlik": "",
+   "alıntı": "Als twee personen die geen (gezins)relatie hebben, in één huis willen wonen en daarbij ieder over alle voorzieningen (toilet, douche/badruimte, keuken) beschikken past dit niet in het omgevingsplan.",
+   "doğrusu": "Birlikte hane kurmayan en fazla iki kişi duş, mutfak veya tuvaleti paylaşıyorsa izin gerekmez; ama ikisinin de ayrı tam donanımı (tuvalet, duş, mutfak) varsa bu woningsplitsing sayılır ve izin gerekir."
+  },
+  {
+   "claim_id": "EIN-ID-023",
+   "entry_id": "eindhoven:kamer-kiralama-izni-omgevingsvergunning",
+   "Excel_satırı": 0,
+   "iddia": "Kart, iznin hiç verilmediği bölgelerden ve 30 metre kuralından söz etmiyor (yalnız '1 Ocak 2026'da bazı mahallelerde kurallar değişti' diyor).",
+   "ülke_şehir_statü": "Eindhoven; belirli mahalleler",
+   "dönem": "2026",
+   "resmî_URL": "https://www.eindhoven.nl/stad-en-wonen/wonen/huren-en-verhuren-in-eindhoven/kamerverhuur",
+   "kaynak_bölümü": "Wanneer krijg ik geen vergunning?",
+   "yayın_yürürlük_tarihleri": "",
+   "kontrol_tarihi": "2026-10-22",
+   "hesap_varsa_girdiler": "",
+   "sonuç": "eksik_koşul",
+   "belirsizlik": "",
+   "alıntı": "Daarom wordt in de volgende buurten/wijken geen vergunning verleend voor het wijzigen van een woning naar kamerbewoning:",
+   "doğrusu": "Limbeek-Noord, Limbeek-Zuid, Bennekel-Oost, Doornakkers-Oost, Doornakkers-West, Woensel-West, Hemelrijken ve Gildebuurt'ta bu izin verilmiyor. Ayrıca (merkez bölge hariç) yasal bir kamer evi veya bölünmüş konuttan 30 metre yarıçap içindeki evler için de izin verilmiyor. Başvurmadan önce adresini kontrol et."
+  }
+ ],
+ "new_sources": [
+  {
+   "source_id": "eindhoven:kaynak:203",
+   "url": "https://www.belastingdienst.nl/wps/wcm/connect/bldcontenten/belastingdienst/individuals/benefits/moving_to_the_netherlands/i_live_in_a_rented_house/i_live_in_a_rented_house",
+   "title": "I live in a rented house | Dienst Toeslagen",
+   "text_file": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\eindhoven\\_is\\snap\\74cdcf92dd938fc86cebf1cda93f0bbc1e8c37ec44b1bc5bf4ddc353191a46a6.txt",
+   "gap": "G06 huurtoeslag şartları (gelir/varlık sınırı, kira üst sınırı, yaş)."
+  },
+  {
+   "source_id": "eindhoven:kaynak:204",
+   "url": "https://www.belastingdienst.nl/wps/wcm/connect/bldcontenten/belastingdienst/individuals/benefits/moving_to_the_netherlands/i_live_in_a_rented_house/assets-rent-benefit",
+   "title": "Your assets must not be too high for the rent benefit | Dienst Toeslagen",
+   "text_file": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\eindhoven\\_is\\snap\\4a81f60980e1dc024a306879c2fc6ea56837a4972422d9e1f57c0181ff14cefd.txt",
+   "gap": "G06 huurtoeslag şartları (gelir/varlık sınırı, kira üst sınırı, yaş)."
+  },
+  {
+   "source_id": "eindhoven:kaynak:205",
+   "url": "https://www.government.nl/themes/building-and-housing/housing/rented-housing",
+   "title": "Rented housing | Government.nl",
+   "text_file": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\eindhoven\\_is\\snap\\8c0a5549d739f45ab2eea93e81e8b191b9674085f3e293826e4a82509ca9142d.txt",
+   "gap": "G07 kira sözleşmesi türleri (süreli/süresiz), kiracı ve ev sahibinin fesih/ihbar süreleri."
+  },
+  {
+   "source_id": "eindhoven:kaynak:206",
+   "url": "https://rijksoverheid.nl/vraag-en-antwoord/woning-huren/huur-opzeggen-woning",
+   "title": "Hoe zeg ik de huur op van mijn woning? | Rijksoverheid.nl",
+   "text_file": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\eindhoven\\_is\\snap\\e7b1558294eb57ecac7e974e747f2088647d4fe7cc2578f6b1418725d869e77c.txt",
+   "gap": "G07 kira sözleşmesi türleri (süreli/süresiz), kiracı ve ev sahibinin fesih/ihbar süreleri."
+  },
+  {
+   "source_id": "eindhoven:kaynak:207",
+   "url": "https://www.rijksoverheid.nl/vraag-en-antwoord/woning-huren/verhuurder-zegt-huur-op-woning",
+   "title": "Mag mijn verhuurder de huur opzeggen van mijn woning? | Rijksoverheid.nl",
+   "text_file": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\eindhoven\\_is\\snap\\7fadbf345a94e5ca09c6f1b7df668f6a4db877e20da6210f8c45e39937c6c109.txt",
+   "gap": "G07 kira sözleşmesi türleri (süreli/süresiz), kiracı ve ev sahibinin fesih/ihbar süreleri."
+  },
+  {
+   "source_id": "eindhoven:kaynak:215",
+   "url": "https://www.wooniezie.nl/over-ons/om-te-bekijken/nieuws/nieuwsbericht/zorg-voor-een-actuele-inschrijving-bij-wooniezie",
+   "title": "Zorg voor een actuele inschrijving bij Wooniezie",
+   "text_file": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\eindhoven\\_is\\snap\\4a1e5ab51dc46384570ea2bcc2779d173663af131a37977749bf175568f7ef03.txt",
+   "gap": "G15 Wooniezie bekleme süresi/puan ve sosyal konut gelir sınırı (wooniezie.nl SSS)."
+  }
+ ],
+ "extra_sources": [],
+ "special": [],
+ "own_sources_file": "_is\\yazar\\ev_kaynaklar.jsonl"
+}

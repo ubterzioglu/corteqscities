@@ -1,0 +1,27 @@
+{
+ "topic": "fatura",
+ "order_range": [
+  501,
+  599
+ ],
+ "audit": [],
+ "new_sources": [
+  {
+   "source_id": "eindhoven:kaynak:222",
+   "url": "https://consuwijzer.nl/elektriciteit-en-gas/meters-meterstanden-verbruik/meterstanden-jaarafrekening-eindafrekening",
+   "title": "Meterstanden op de energierekening | ACM ConsuWijzer",
+   "text_file": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\eindhoven\\_is\\snap\\7e26288413bc9696a43e5b014bc710f69f6c1fd5648765e64e268d3d97a973d3.txt",
+   "gap": "G20 taşınırken enerji sözleşmesi (ConsuWijzer)."
+  },
+  {
+   "source_id": "eindhoven:kaynak:223",
+   "url": "https://consument.acm.nl/elektriciteit-en-gas/overstappen-vergelijken-en-verhuizen/energiecontract-bij-verhuizen",
+   "title": "Energiecontract bij verhuizen | ACM ConsuWijzer",
+   "text_file": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\eindhoven\\_is\\snap\\305b017234309d7c8d8eab8a7a9586b5d0f45270d97c876ba0c0369c286f0e20.txt",
+   "gap": "G20 taşınırken enerji sözleşmesi (ConsuWijzer)."
+  }
+ ],
+ "extra_sources": [],
+ "special": [],
+ "own_sources_file": "_is\\yazar\\fatura_kaynaklar.jsonl"
+}

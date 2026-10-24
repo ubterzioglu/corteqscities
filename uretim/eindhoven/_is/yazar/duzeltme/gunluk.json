@@ -1,0 +1,52 @@
+{
+ "topic": "gunluk",
+ "order_range": [
+  1101,
+  1199
+ ],
+ "audit": [
+  {
+   "claim_id": "EIN-ID-043",
+   "entry_id": "eindhoven:inburgering-duo-lening-kurs-sinav-ucreti",
+   "Excel_satırı": 0,
+   "iddia": "Not: 'Raad van State kararı gereği DUO, inburgering'i geç bitirdiğiniz için ceza kesemez ve statü sahiplerinden inburgering borcunu geri istemez' — ceza kısmı herkese uygulanıyormuş gibi yazılmış.",
+   "ülke_şehir_statü": "NL; statü sahibi OLMAYAN inburgeringplichtige (ör. partner yanında kalma izniyle gelen Türk eş)",
+   "dönem": "2026",
+   "resmî_URL": "https://www.inburgeren.nl/en/paying-for-integration/borrowing-money.jsp",
+   "kaynak_bölümü": "Information for status holders 2013 Act and 2021 Act",
+   "yayın_yürürlük_tarihleri": "",
+   "kontrol_tarihi": "2026-10-22",
+   "hesap_varsa_girdiler": "",
+   "sonuç": "yanlış",
+   "belirsizlik": "Yanlış genelleme; aile birleşimiyle gelen Türk okurlar sürenin önemsiz olduğunu sanabilir.",
+   "alıntı": "Are you a status holder and are you integrating under the 2013 Act or the 2021 Act? Then this information concerns you.",
+   "doğrusu": "Raad van State kararı kaynakta yalnız statü sahipleri (asiel; WI2013 veya WI2021) için anlatılıyor: DUO onlara inburgering'i geç bitirdikleri için ceza kesemez ve inburgering borcunu geri isteyemez. Diğer gruplar (ör. aile birleşimiyle gelenler) için böyle bir istisna kaynakta yok."
+  }
+ ],
+ "new_sources": [
+  {
+   "source_id": "eindhoven:kaynak:214",
+   "url": "https://www.government.nl/faq/emergency-number-112/when-can-i-call-112",
+   "title": "When can I call 112? | Government.nl",
+   "text_file": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\eindhoven\\_is\\snap\\831f2ffa33967aec9f4d3d19268e914a9e23e9a4aadb5ad47556b9a8cb9ea02a.txt",
+   "gap": "G14 112 ne zaman aranır (112.nl veya politie.nl), acil olmayan durumlar."
+  },
+  {
+   "source_id": "eindhoven:kaynak:219",
+   "url": "https://www.cure-afvalbeheer.nl/milieustraat/milieustraat-eindhoven/",
+   "title": "Milieustraat Eindhoven",
+   "text_file": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\eindhoven\\_is\\snap\\6c599248aea62f6a05def223f4352a2729bb698fc68234dec82c8e3a30f8dfc9.txt",
+   "gap": "G18 Cure milieustraat (atık getirme noktası) adres/saat ve büyük eşya (grof vuil) randevusu."
+  },
+  {
+   "source_id": "eindhoven:kaynak:220",
+   "url": "https://www.cure-afvalbeheer.nl/klantenservice/ophaalafspraak-grofvuil/",
+   "title": "Ophaalafspraak grofvuil",
+   "text_file": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\eindhoven\\_is\\snap\\70d67d1f0f0fec3e9c7477f9e368f1f2a15fbe0b063340edac38e5be952918f0.txt",
+   "gap": "G18 Cure milieustraat (atık getirme noktası) adres/saat ve büyük eşya (grof vuil) randevusu."
+  }
+ ],
+ "extra_sources": [],
+ "special": [],
+ "own_sources_file": "_is\\yazar\\gunluk_kaynaklar.jsonl"
+}

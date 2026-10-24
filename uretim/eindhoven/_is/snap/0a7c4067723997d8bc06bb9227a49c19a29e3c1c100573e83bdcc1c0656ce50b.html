@@ -1,0 +1,308 @@
+<!DOCTYPE html><!-- Last Published: Mon Sep 21 2026 16:46:48 GMT+0000 (Coordinated Universal Time) --><html data-wf-domain="www.kazerne.org" data-wf-page="68bae4c01da34cf948deb89b" data-wf-site="689ee5c066f613c283df1279" lang="en"><head><meta charset="utf-8"/><link href="https://cdn.prod.website-files.com" rel="preconnect" crossorigin="anonymous"/><title>Visit</title><link rel="alternate" hrefLang="x-default" href="https://www.kazerne.org/visit"/><link rel="alternate" hrefLang="nl" href="https://www.kazerne.org/visit"/><link rel="alternate" hrefLang="en" href="https://www.kazerne.org/en/visit"/><meta content="Visit" property="og:title"/><meta content="Visit" name="twitter:title"/><meta content="width=device-width, initial-scale=1" name="viewport"/><link href="https://cdn.prod.website-files.com/689ee5c066f613c283df1279/css/kazerne.webflow.shared.a7d5ee7f3.css" rel="stylesheet" type="text/css" integrity="sha384-p9Xufzs/OhEvQ5rdJVeWUMu6F1b7SV+ZjDtQ9wa+KSZLf0ReZwDp5qZootKmBv+K" crossorigin="anonymous"/><style>html.w-mod-js:not(.w-mod-ix3) :is(.filter-wrapper, .filter-form > *, .filter-close.text-function-caption.fw-medium.text-bodytext-caps, .side-menu-bg, .first-bg, .side-menu-item.flex-vertical > *, .side-menu-item.flex-horizontal, .side-menu-item.bottom-content, .side-menu-overlay, .dynamic-brand_text.is-first, .dynamic-brand_text.is-second, .dynamic-brand_text.is-third, .dynamic-brand_text.is-fourth) {visibility: hidden !important;}</style><script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script><link href="https://cdn.prod.website-files.com/689ee5c066f613c283df1279/689ee5c066f613c283df1492_favicon.png" rel="shortcut icon" type="image/x-icon"/><link href="https://cdn.prod.website-files.com/689ee5c066f613c283df1279/689ee5c066f613c283df148f_kzf_webclip.png" rel="apple-touch-icon"/><script>(function(w,i,g){w[g]=w[g]||[];if(typeof w[g].push=='function')w[g].push.apply(w[g],Array.isArray(i)?i:[i]);})(window,['G-X89F1MCCVL'],'google_tags_first_party');</script><script async="" src="/nvhc9u4gxsagNjg5ZWU1YzA2NmY2MTNjMjgzZGYxMjc5/H6n7fkN6ql4B_Mg66wg13wf2v9E"></script><script type="text/javascript">window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('set', 'developer_id.dZGVlNj', true);gtag('set', 'developer_id.dYWYxNW', true);gtag('js', new Date());gtag('config', 'G-X89F1MCCVL');</script><!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WML33J44');</script>
+<!-- End Google Tag Manager -->
+
+<script src="https://unpkg.com/lenis@1.1.18/dist/lenis.min.js"></script> 
+<script src="https://player.vimeo.com/api/player.js"></script>
+
+<script>
+  var Webflow = Webflow || [];
+  Webflow.push(function() {
+     if(!Webflow.env('editor')) {
+const lenis = new Lenis({
+  autoRaf: true,
+});
+     }
+  });
+</script>
+
+<style>
+  html.lenis, html.lenis body {
+    height: auto;
+  }
+
+  .lenis.lenis-smooth {
+    scroll-behavior: auto !important;
+  }
+
+  .lenis.lenis-smooth [data-lenis-prevent] {
+    overscroll-behavior: contain;
+  }
+
+  .lenis.lenis-stopped {
+    overflow: hidden;
+  }
+</style>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    let lastScrollTop = 0;
+    const navbar = document.querySelector(".navbar");
+    const scrollThreshold = 20;
+    let navbarHeight = 0;
+
+    const targets = [
+      ".text-size-small.caps.text-weight-medium.font-color-primary",
+      ".text-size-small.caps.color-lightest",
+      ".menu-button.align-middle.color-lightest",
+	  ".navbar-home",
+	  ".locales-list.w-locales-item:not(:last-child)::after"
+    ].map(selector => document.querySelectorAll(selector));
+
+    if (!navbar) return;
+
+    function updateNavbarHeight() {
+      navbarHeight = navbar.offsetHeight;
+    }
+
+    function applyColorDarker() {
+      targets.forEach(nodeList => {
+        nodeList.forEach(el => el.classList.add("color-darker"));
+      });
+    }
+
+    function removeColorDarker() {
+      targets.forEach(nodeList => {
+        nodeList.forEach(el => el.classList.remove("color-darker"));
+      });
+    }
+
+    function handleScroll() {
+      const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+      if (scrollTop < 50) {
+        navbar.style.top = "0";
+        navbar.classList.remove("cc-scrolled");
+        removeColorDarker();
+      } else if (scrollTop > lastScrollTop + scrollThreshold) {
+        navbar.style.top = `-${navbarHeight}px`;
+      } else if (scrollTop < lastScrollTop - scrollThreshold) {
+        navbar.style.top = "0";
+        navbar.classList.add("cc-scrolled");
+        applyColorDarker();
+      }
+
+      lastScrollTop = scrollTop;
+    }
+
+    updateNavbarHeight();
+    window.addEventListener("scroll", handleScroll);
+    window.addEventListener("resize", () => {
+      updateNavbarHeight();
+      handleScroll();
+    });
+  });
+</script>
+
+<script>
+function initVimeoBGVideo() {
+  // Alle potentiële elementen
+  const all = document.querySelectorAll('[data-vimeo-bg-init]');
+
+  // Filter: alleen met vimeo ID
+  const targets = Array.from(all).filter(el => {
+    const id = (el.getAttribute('data-vimeo-video-id') || '').trim();
+    return id.length > 0;
+  });
+
+  // Niets te doen? Klaar, geen errors, geen init.
+  if (targets.length === 0) return;
+
+  targets.forEach(function(vimeoElement, index) {
+    const vimeoVideoID = (vimeoElement.getAttribute('data-vimeo-video-id') || '').trim();
+    if (!vimeoVideoID) return; // extra guard
+
+    // Zorg dat er een iframe is
+    let iframe = vimeoElement.querySelector('iframe');
+    if (!iframe) {
+      iframe = document.createElement('iframe');
+      iframe.setAttribute('allow', 'autoplay; fullscreen; picture-in-picture');
+      iframe.setAttribute('title', 'Vimeo video');
+      iframe.className = 'vimeo-bg__iframe'; // optioneel
+      // Als je wrapper gebruikt, append daarin. Anders direct in vimeoElement:
+      const wrapper = vimeoElement.querySelector('.vimeo-bg__iframe-wrapper') || vimeoElement;
+      wrapper.appendChild(iframe);
+    }
+
+    // Vimeo URL zetten
+    const vimeoVideoURL = `https://player.vimeo.com/video/${vimeoVideoID}?api=1&background=1&autoplay=0&loop=1&muted=1`;
+    iframe.setAttribute('src', vimeoVideoURL);
+
+    // Unieke ID op container (niet strikt nodig, maar kan handig zijn)
+    const videoIndexID = 'vimeo-bg-index-' + index;
+    vimeoElement.setAttribute('id', videoIndexID);
+
+    // Player aanmaken op het IFRAME element (veiliger dan op ID-string)
+    const player = new Vimeo.Player(iframe);
+
+    let videoAspectRatio;
+
+    // Update Aspect Ratio (optioneel)
+    if (vimeoElement.getAttribute('data-vimeo-update-size') === 'true') {
+      Promise.all([player.getVideoWidth(), player.getVideoHeight()]).then(([w, h]) => {
+        videoAspectRatio = h / w;
+        const beforeEl = vimeoElement.querySelector('.vimeo-bg__before');
+        if (beforeEl) beforeEl.style.paddingTop = (videoAspectRatio * 100) + '%';
+        adjustVideoSizing(); // na ophalen dimensies nogmaals
+      });
+    }
+
+    function adjustVideoSizing() {
+      const iframeWrapper = vimeoElement.querySelector('.vimeo-bg__iframe-wrapper');
+      if (!iframeWrapper || !videoAspectRatio) return;
+
+      const containerAspectRatio = (vimeoElement.offsetHeight / vimeoElement.offsetWidth) * 100;
+      if (containerAspectRatio > videoAspectRatio * 100) {
+        iframeWrapper.style.width = `${(containerAspectRatio / (videoAspectRatio * 100)) * 100}%`;
+      } else {
+        iframeWrapper.style.width = '';
+      }
+    }
+
+    // Init sizing
+    if (vimeoElement.getAttribute('data-vimeo-update-size') === 'true') {
+      adjustVideoSizing();
+    }
+
+    // Resize handler
+    window.addEventListener('resize', adjustVideoSizing);
+
+    // Loaded
+    player.on('play', function() {
+      vimeoElement.setAttribute('data-vimeo-loaded', 'true');
+    });
+
+    // Autoplay-logica
+    const autoplay = vimeoElement.getAttribute('data-vimeo-autoplay') !== 'false';
+
+    function vimeoPlayerPlay() {
+      vimeoElement.setAttribute('data-vimeo-activated', 'true');
+      vimeoElement.setAttribute('data-vimeo-playing', 'true');
+      player.play().catch(()=>{});
+    }
+
+    function vimeoPlayerPause() {
+      player.pause().catch(()=>{});
+    }
+
+    let scrollHandlerBound = null;
+
+    if (autoplay) {
+      const pausedByUser = vimeoElement.getAttribute('data-vimeo-paused-by-user') === 'true';
+
+      const checkVisibility = () => {
+        const rect = vimeoElement.getBoundingClientRect();
+        const inView = rect.top < window.innerHeight && rect.bottom > 0;
+        inView ? vimeoPlayerPlay() : vimeoPlayerPause();
+      };
+
+      if (!pausedByUser) {
+        // Initial
+        checkVisibility();
+        // Scroll listener binden zodat we ‘m later kunnen loskoppelen
+        scrollHandlerBound = checkVisibility;
+        window.addEventListener('scroll', scrollHandlerBound, { passive: true });
+      }
+
+      // Pauze-status label
+      player.on('pause', function() {
+        vimeoElement.setAttribute('data-vimeo-playing', 'false');
+      });
+    }
+
+    // Controls (optioneel)
+    const playBtn  = vimeoElement.querySelector('[data-vimeo-control="play"]');
+    const pauseBtn = vimeoElement.querySelector('[data-vimeo-control="pause"]');
+
+    if (playBtn) {
+      playBtn.addEventListener('click', function() {
+        vimeoPlayerPlay();
+      });
+    }
+
+    if (pauseBtn) {
+      pauseBtn.addEventListener('click', function() {
+        vimeoPlayerPause();
+        if (autoplay) {
+          vimeoElement.setAttribute('data-vimeo-paused-by-user', 'true');
+          if (scrollHandlerBound) {
+            window.removeEventListener('scroll', scrollHandlerBound);
+            scrollHandlerBound = null;
+          }
+        }
+      });
+    }
+  });
+}
+
+// Initialize Vimeo Background Video
+document.addEventListener('DOMContentLoaded', initVimeoBGVideo);
+</script>
+
+<style>
+/* Placeholder */
+.vimeo-bg[data-vimeo-activated="true"][data-vimeo-loaded="true"] .vimeo-bg__placeholder {
+  opacity: 0;
+  transition-delay: 0.2s;
+}
+
+/* Play/Pause */
+.vimeo-bg .vimeo-bg__pause {
+  display: none;
+}
+
+.vimeo-bg[data-vimeo-playing="true"] .vimeo-bg__pause {
+  display: flex;
+}
+
+.vimeo-bg[data-vimeo-playing="true"] .vimeo-bg__pause,
+.vimeo-bg[data-vimeo-playing="false"] .vimeo-bg__play {
+  opacity: 1;
+}
+
+.vimeo-bg[data-vimeo-playing="true"] .vimeo-bg__play,
+.vimeo-bg[data-vimeo-playing="false"] .vimeo-bg__pause {
+  opacity: 0;
+}
+</style><script type="text/javascript">window.__WEBFLOW_CURRENCY_SETTINGS = {"currencyCode":"USD","symbol":"$","decimal":".","fractionDigits":2,"group":",","template":"{{wf {\"path\":\"symbol\",\"type\":\"PlainText\"} }} {{wf {\"path\":\"amount\",\"type\":\"CommercePrice\"} }} {{wf {\"path\":\"currencyCode\",\"type\":\"PlainText\"} }}","hideDecimalForWholeNumbers":false};</script></head><body><div data-wf--navbar--variant="black---simple" data-animation="default" data-collapse="medium" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="navbar w-nav"><div class="navbar-wrapper"><a href="/en" class="navbar-home w-inline-block"><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 316 40" fill="none" class="navbar-logo w-variant-9092321a-8a60-40b7-ff30-5c00a8501404"><path d="M315.623 40V28.6165H275.623V40H315.623ZM275.623 25.6917H315.623V14.3083H275.623V25.6917ZM275.623 11.3835H315.623V0H275.623V11.3835ZM268.224 40V0H248.227V19.9895L228.231 0V40H248.227V20.0105L268.217 40H268.224ZM221.883 40L209.455 27.5715C216.377 26.814 221.764 20.9574 221.764 13.8313C221.764 6.23531 215.641 0.0771524 208.066 0H207.94H181.89V40H221.89H221.883ZM133.733 40H173.733V28.6165H133.733V40ZM133.733 25.6917H173.733V14.3083H133.733V25.6917ZM133.733 11.3835H173.733V0H133.733V11.3835ZM86.0179 40H126.018V20.0035H106.021L126.018 0H86.0179V19.9965H106.007L86.0179 39.986V40ZM83.1632 40H83.2474L63.2509 0L43.1703 40H83.1703H83.1632ZM40 40L20.3612 20.0035L40 0H0V40H40Z" fill="currentColor"></path></svg></a><div class="navbar-year w-variant-9092321a-8a60-40b7-ff30-5c00a8501404"><a href="/en/visit" aria-current="page" class="text-size-small caps w-variant-9092321a-8a60-40b7-ff30-5c00a8501404 text-weight-medium font-color-primary w--current">Downtown Eindhoven</a></div><div class="navbar-content text-size-small w-variant-9092321a-8a60-40b7-ff30-5c00a8501404"><a href="https://Kazerne-designlab.nl" target="_blank" class="text-size-small caps w-variant-9092321a-8a60-40b7-ff30-5c00a8501404 color-lightest">Design lab</a><a href="https://kazerne.com/hotel/" target="_blank" class="text-size-small caps w-variant-9092321a-8a60-40b7-ff30-5c00a8501404 color-lightest">Rooms &amp; Suites</a><a href="https://kazerne.com/eat-drink/" target="_blank" class="text-size-small caps w-variant-9092321a-8a60-40b7-ff30-5c00a8501404 color-lightest">Fine Food &amp; Drinks</a><a href="https://kazerne.com/meetings-events/" target="_blank" class="text-size-small caps w-variant-9092321a-8a60-40b7-ff30-5c00a8501404 color-lightest">Events &amp; Meetings</a><a href="/en/agenda" class="text-size-small caps w-variant-9092321a-8a60-40b7-ff30-5c00a8501404 color-lightest">Agenda</a></div><div class="navbar-content text-size-small w-variant-9092321a-8a60-40b7-ff30-5c00a8501404"><div class="w-locales-list"><div class="w-embed"><style>
+.locales-list .w-locales-item:not(:last-child)::after {
+  content: "|";
+  margin: -2px 8px 0px 8px;
+	font-size: 0.9rem;
+}
+</style></div><div role="list" class="locales-list w-locales-items"><div role="listitem" class="locale w-locales-item"><a href="/visit" class="text-size-small caps w-variant-9092321a-8a60-40b7-ff30-5c00a8501404 color-lightest">nl</a></div><div role="listitem" class="locale w-locales-item"><a href="/en/visit" aria-current="page" class="text-size-small caps w-variant-9092321a-8a60-40b7-ff30-5c00a8501404 color-lightest w--current">en</a></div></div></div></div><a href="#" class="menu-button align-middle color-lightest w-inline-block"><div class="text-size-small caps w-variant-9092321a-8a60-40b7-ff30-5c00a8501404">menu</div></a><div class="side-menu-bg"><div class="second"></div><div class="first-bg"></div></div><div class="side-menu-overlay"><div class="blur"></div></div><div class="menu-toggle"></div></div><div class="side-menu-component"><div class="side-menu-wrapper"><div id="w-node-_60d7457a-61a0-a722-9fc5-99266249e3ed-6249e3c6" class="side-menu-item flex-horizontal"><div class="credits-wrapper"><a href="/en" class="w-inline-block"><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 316 40" fill="none" class="kazerne-logo_footer"><path d="M315.623 40V28.6165H275.623V40H315.623ZM275.623 25.6917H315.623V14.3083H275.623V25.6917ZM275.623 11.3835H315.623V0H275.623V11.3835ZM268.224 40V0H248.227V19.9895L228.231 0V40H248.227V20.0105L268.217 40H268.224ZM221.883 40L209.455 27.5715C216.377 26.814 221.764 20.9574 221.764 13.8313C221.764 6.23531 215.641 0.0771524 208.066 0H207.94H181.89V40H221.89H221.883ZM133.733 40H173.733V28.6165H133.733V40ZM133.733 25.6917H173.733V14.3083H133.733V25.6917ZM133.733 11.3835H173.733V0H133.733V11.3835ZM86.0179 40H126.018V20.0035H106.021L126.018 0H86.0179V19.9965H106.007L86.0179 39.986V40ZM83.1632 40H83.2474L63.2509 0L43.1703 40H83.1703H83.1632ZM40 40L20.3612 20.0035L40 0H0V40H40Z" fill="currentColor"></path></svg></a><div class="kazerne-facilities_wrapper text-function-caption"><a href="https://Kazerne-designlab.nl" target="_blank" class="color-dark-3">Design Lab</a><a href="https://kazerne.com/hotel/" target="_blank" class="color-dark-60-3">Rooms &amp; Suites</a><a href="https://kazerne.com/eat-drink/" target="_blank" class="color-dark-60-3">Fine food &amp; Drinks</a><a href="https://kazerne.com/meetings-events/" target="_blank" class="color-dark-60-3"> Events &amp; Meetings</a></div></div><div class="close-button-wrapper"><div class="text-size-small caps w-variant-9092321a-8a60-40b7-ff30-5c00a8501404 text-weight-medium">close</div></div></div><div id="w-node-_60d7457a-61a0-a722-9fc5-99266249e3fe-6249e3c6" class="side-menu-item flex-vertical"><div class="side-menu-text-wrap"><a href="https://www.kazerne.org/#taste" class="heading-navbar w-inline-block">Taste</a><div class="underline"></div></div><div class="side-menu-text-wrap"><a href="https://www.kazerne.org/#stay" class="heading-navbar w-inline-block">Stay</a><div class="underline"></div></div><div class="side-menu-text-wrap"><a href="https://www.kazerne.org/#celebrate" class="heading-navbar w-inline-block">Celebrate</a><div class="underline"></div></div><div class="side-menu-text-wrap"><a href="https://www.kazerne.org/#explore-design" class="heading-navbar w-inline-block">Explore Design</a><div class="underline"></div></div><div class="side-menu-text-wrap"><a href="/en/agenda" class="heading-navbar w-inline-block">Agenda</a><div class="underline"></div></div><div class="small-nav_items"><a href="/en/visit" aria-current="page" class="text-size-small caps w-variant-9092321a-8a60-40b7-ff30-5c00a8501404 text-weight-medium color-medium-80 w--current">Visit</a><a href="/en/book" class="text-size-small caps w-variant-9092321a-8a60-40b7-ff30-5c00a8501404 text-weight-medium color-medium-80">Book</a><a href="https://www.kazerne-designlab.nl/join" target="_blank" class="text-size-small caps w-variant-9092321a-8a60-40b7-ff30-5c00a8501404 text-weight-medium color-medium-80">Join</a><a href="https://kazerne.com/about/" target="_blank" class="text-size-small caps w-variant-9092321a-8a60-40b7-ff30-5c00a8501404 text-weight-medium color-medium-80">About</a><a href="/en/contact" class="text-size-small caps w-variant-9092321a-8a60-40b7-ff30-5c00a8501404 text-weight-medium color-medium-80">Contact</a></div></div><div id="w-node-_60d7457a-61a0-a722-9fc5-99266249e41e-6249e3c6" class="side-menu-item bottom-content"><div class="navbar-bottom-content"><div class="text-bodytext-normal cc-wrap">Open daily from 7:30 till late | Free Entrance | Open to all</div><div class="w-locales-list"><div class="w-embed"><style>
+.locales-list .w-locales-item:not(:last-child)::after {
+  content: "|";
+  margin: -2px 8px 0px 8px;
+	font-size: 0.9rem;
+}
+</style></div><div role="list" class="locales-list w-locales-items"><div role="listitem" class="locale w-locales-item"><a href="/visit" class="text-size-small caps w-variant-9092321a-8a60-40b7-ff30-5c00a8501404 color-darker">nl</a></div><div role="listitem" class="locale w-locales-item"><a href="/en/visit" aria-current="page" class="text-size-small caps w-variant-9092321a-8a60-40b7-ff30-5c00a8501404 color-darker w--current">en</a></div></div></div></div></div></div></div></div><section class="kazerne-design-lab--section kazerne-design-lab--cc-overflow-vis"><div class="w-layout-blockcontainer kazerne-design-lab--container w-container"><div class="kazerne-design-lab--works-wrapper kazerne-design-lab--cc-agenda"><div class="kazerne-design-lab--header-wrapper"><div class="kazerne-design-lab--header kazerne-design-lab--margin-bottom kazerne-design-lab--u-m-0 kazerne-design-lab--fw-header-wrapper"><h1 class="kazerne-design-lab--h2 kazerne-design-lab--max-width-30rem">Plan your visit</h1></div><div class="kazerne-design-lab--header-paragraph kazerne-design-lab--u-m-0"><div class="kazerne-design-lab--opacity-60"><p class="kazerne-design-lab--text-bodytext-normal">You are warmly welcome to the world of Kazerne. Plan your visit and experience it all under one roof: come taste, stay the night, meet others, and get inspired by leading design.</p></div></div></div></div></div></section><section class="kazerne-design-lab--section kazerne-design-lab--cc-overflow-vis"><div class="w-layout-blockcontainer kazerne-design-lab--container kazerne-design-lab--u-p-0 w-container"><div class="kazerne-design-lab--breadcrumb-filter_container kazerne-design-lab--mb-16"><div class="kazerne-design-lab--breadcrumb-container kazerne-design-lab--text-function-caption"><a href="#" class="kazerne-design-lab--color-medium">Home</a><div>|</div><a href="/en/visit" aria-current="page" class="w--current">Visit</a></div></div></div></section><section class="section-2"><div class="w-layout-blockcontainer container-2 w-container"><div class="our-services-wrapper-2"><div class="our-services-grid-2"><div class="class-name-wrapper-2 w-widget w-widget-map" data-widget-style="terrain" data-widget-latlng="51.43608649999999,5.4773725" aria-label="Kazerne" data-enable-scroll="false" role="region" title="Kazerne" data-enable-touch="true" data-widget-zoom="16" id="w-node-f1be981e-51aa-7f6b-4a16-b4be45ee5c7d-48deb89b" data-widget-tooltip="Kazerne"></div><div class="kazerne-design-lab--our-services-card"><div class="kazerne-design-lab--our-services-content"><div class="kazerne-design-lab--text-size-xlarge kazerne-design-lab--text-weight-medium">Address</div><div class="kazerne-design-lab--opacity-80"><div class="kazerne-design-lab--richtext w-richtext"><p><strong>Kazerne<br/></strong>Grote Berg 9, 5611 KH<br/>Paradijslaan 2-8, 5611 KN<br/>Downtown Eindhoven<br/>The Netherlands<br/><br/>Kazerne is located on the corner of Grote Berg and Paradijslaan in the centre of Eindhoven, within walking distance of <strong>Eindhoven Central Station</strong> and only 15 minutes from <strong>Eindhoven Airport</strong>. Several bus stops and parking facilities are available nearby.</p></div></div></div><div class="kazerne-design-lab--button-container"><a data-wf--kazerne-design-lab--button--variant="outline" href="https://www.google.nl/maps/place/Paradijslaan+2,+5611+KN+Eindhoven/@51.4360865,5.4773725,17z/data=!3m1!4b1!4m6!3m5!1s0x47c6d9038c537e2b:0x7c09ca37b51a6fa8!8m2!3d51.4360865!4d5.4773725!16s%2Fg%2F11c1xntc3k?entry=ttu&amp;g_ep=EgoyMDI1MDkwMi4wIKXMDSoASAFQAw%3D%3D" target="_blank" class="kazerne-design-lab--btn w-inline-block"><div>Plan your route</div></a><a data-wf--kazerne-design-lab--button--variant="outline" href="/en/contact" class="kazerne-design-lab--btn w-inline-block"><div>Contact</div></a></div></div></div></div></div></section><div><section data-wf--quote--variant="base" class="section"><div class="w-layout-blockcontainer container w-container"><div class="speakers-wrapper"><div class="speaker-quote u-m-0"><h3 class="h4 fw-light color-dark-80">One Home, Two Engines, Three Addresses, Multiple Functions</h3></div></div></div></section><section class="kazerne-design-lab--section"><div class="w-layout-blockcontainer kazerne-design-lab--container w-container"><div class="kazerne-design-lab--our-services-wrapper"><div class="kazerne-design-lab--our-services-grid"><div class="kazerne-design-lab--our-services-card"><div class="kazerne-design-lab--our-services-content"><div class="kazerne-design-lab--text-size-xlarge kazerne-design-lab--text-weight-medium">Opening hours</div><div class="kazerne-design-lab--opacity-80"><div class="kazerne-design-lab--richtext w-richtext"><p><strong>Kazerne ByDay<br/></strong>Daily from 7:30 AM – 5:00 PM</p><p><strong>Kazerne Restaurant <br/></strong>Monday to Wednesday 5:00 – 8:30 PM <br/>Thursday to Saturday 12:00 – 9:00 PM<br/>‍ <br/><strong>Group reservations <br/></strong>Possible daily 7:30 AM – 2:00 AM</p><p>‍</p></div></div></div><div class="kazerne-design-lab--button-container"><a data-wf--kazerne-design-lab--button--variant="outline" href="https://kazerne.com/en/eatdrink/" target="_blank" class="kazerne-design-lab--btn w-inline-block"><div>Book a table</div></a></div></div><div class="kazerne-design-lab--our-services-card"><div class="kazerne-design-lab--our-services-content"><div class="kazerne-design-lab--text-size-xlarge kazerne-design-lab--text-weight-medium">Exhibition</div><div class="kazerne-design-lab--opacity-80"><div class="kazerne-design-lab--richtext w-richtext"><p><strong>Kazerne Design Lab<br/></strong>Daily from 7:30 until closing time<br/><br/><strong>Open/Private<br/></strong>Some spaces may be privately booked. Please contact us before your visit to ensure the full exhibition is accessible.</p></div></div></div><div class="kazerne-design-lab--button-container"><a data-wf--kazerne-design-lab--button--variant="outline" href="/en/book" class="kazerne-design-lab--btn w-inline-block"><div>book a tour</div></a><a data-wf--kazerne-design-lab--button--variant="outline" href="/en/contact" class="kazerne-design-lab--btn w-inline-block"><div>Contact</div></a></div></div><div class="kazerne-design-lab--div-block"></div><div class="kazerne-design-lab--div-block"></div><div class="kazerne-design-lab--our-services-card"><div class="kazerne-design-lab--our-services-content"><div class="kazerne-design-lab--text-size-xlarge kazerne-design-lab--text-weight-medium">Entrance &amp; Tickets</div><div class="kazerne-design-lab--opacity-80"><div class="kazerne-design-lab--richtext w-richtext"><p><strong>Exhibitions</strong><br/>Entrance to our exhibitions is usually free. Only for special events, such as during Dutch Design Week, we may ask for a small ticket fee. Details can always be found in the agenda.</p><p><strong>Activities</strong><br/>Many activities are also free of charge, though sometimes we ask you to reserve a seat so we can plan for your visit. Details can be found in the agenda as well.</p><p>‍</p></div></div></div><div class="kazerne-design-lab--button-container"><a data-wf--kazerne-design-lab--button--variant="outline" href="/en/agenda" class="kazerne-design-lab--btn w-inline-block"><div>Agenda</div></a></div></div><div class="kazerne-design-lab--our-services-card"><div class="kazerne-design-lab--our-services-content"><div class="kazerne-design-lab--text-size-xlarge kazerne-design-lab--text-weight-medium">Accessibility</div><div class="kazerne-design-lab--opacity-80"><div class="kazerne-design-lab--richtext w-richtext"><p><strong>Visitors with reduced mobility<br/></strong>Most spaces are accessible for wheelchairs. Including the bathroom</p></div></div></div><div class="kazerne-design-lab--button-container"><a data-wf--kazerne-design-lab--button--variant="outline" href="/en/contact" class="kazerne-design-lab--btn w-inline-block"><div>Contact</div></a></div></div></div></div></div></section><section data-wf--quote--variant="base" class="section"><div class="w-layout-blockcontainer container w-container"><div class="speakers-wrapper"><div class="speaker-quote u-m-0"><h3 class="h4 fw-light color-dark-80">Come visit, eat, drink or even stay the night – and get inspired</h3></div></div></div></section><section class="kazerne-design-lab--section"><div class="w-layout-blockcontainer kazerne-design-lab--container w-container"><div class="kazerne-design-lab--our-services-wrapper"><div class="kazerne-design-lab--our-services-grid"><div class="kazerne-design-lab--our-services-card"><div class="kazerne-design-lab--our-services-content"><div class="kazerne-design-lab--text-size-xlarge kazerne-design-lab--text-weight-medium">Park your Car</div><div class="kazerne-design-lab--opacity-80"><div class="kazerne-design-lab--richtext w-richtext"><p>350m distance – <strong>4 minutes walking</strong><br/>TD-gebouw, Frederik van Eedenplein 00:00 – 24:00<br/><a href="https://parkingyou.nl/en/locaties/eindhoven/parking-td-gebouw/id=17" target="_blank">Frederik van Eedenplein</a></p><p>350m distance – <strong>4 minutes walking</strong><br/>Q-park Stadhuisplein 07:00 – 23:00, ride out 24/7<br/><a href="https://www.q-park.nl/en-gb/parking/eindhoven/stadhuisplein/" target="_blank">Stadhuisplein</a></p><p>150m distance – <strong>2 minutes walking</strong><br/>Parking area Keizersgracht<br/><a href="https://www.thisiseindhoven.com/en/locations/parkeerterrein-keizersgracht">Access Keizersgracht</a></p><p>‍</p></div></div></div><div class="kazerne-design-lab--button-container"></div></div><div class="kazerne-design-lab--our-services-card"><div class="kazerne-design-lab--our-services-content"><div class="kazerne-design-lab--text-size-xlarge kazerne-design-lab--text-weight-medium">Park your Bike</div><div class="kazerne-design-lab--opacity-80"><div class="kazerne-design-lab--richtext w-richtext"><p>Park your bike across Kazerne at the Grote Berg or the secure bicycle parking at <a href="https://www.thisiseindhoven.com/en/locations/bicycle-parking-heuvel">the Heuvel</a>, 400m distance, 5 minute walking distance.</p></div></div></div><div class="kazerne-design-lab--button-container"></div></div><div class="kazerne-design-lab--our-services-card"><div class="kazerne-design-lab--our-services-content"><div class="kazerne-design-lab--text-size-xlarge kazerne-design-lab--text-weight-medium">Park your Bus</div><div class="kazerne-design-lab--opacity-80"><div class="kazerne-design-lab--richtext w-richtext"><p><strong>Bus and Coach Parking</strong>Guests can be dropped off at the loading zone between Paradijslaan 2 and 8.<br/><br/>‍<strong>Vans</strong> can be parked at <a href="https://parkingyou.nl/en/locaties/eindhoven/parking-td-gebouw/id=17" target="_blank">Frederik van Eedenplein</a>.<strong> Touring coaches and trucks</strong> are welcome to park at the TU grounds (southern side road of Onze Lieve Vrouwestraat, between John F. Kennedylaan and Dommel) or in the Irisbuurt on Gabriël Metsulaan (between Lucas Gasselstraat and Kanaaldijk-Zuid).<br/><br/>Do you have a <strong>sleeper coach</strong>? Just ask us about the friendly arrangements we have in place.</p></div></div></div><div class="kazerne-design-lab--button-container"></div></div></div></div></div></section><section data-wf--quote--variant="base" class="section"><div class="w-layout-blockcontainer container w-container"><div class="speakers-wrapper"><div class="speaker-quote u-m-0"><h3 class="h4 fw-light color-dark-80">Welcome the world of Kazerne</h3></div></div></div></section><section id="video-image" class="kazerne-design-lab--section"><div class="w-layout-blockcontainer kazerne-design-lab--container w-container"><div class="kazerne-design-lab--works-wrapper kazerne-design-lab--cc-img"><div class="kazerne-design-lab--full-img_wrapper kazerne-design-lab--cc-auto-height"><img src="https://cdn.prod.website-files.com/689ee5c066f613c283df1279/68be9696cdcfdb24dcc970da_KazerneLayoutBG.jpg" loading="lazy" alt="" sizes="(max-width: 767px) 100vw, (max-width: 991px) 728px, 940px" srcset="https://cdn.prod.website-files.com/689ee5c066f613c283df1279/68be9696cdcfdb24dcc970da_KazerneLayoutBG-p-500.jpg 500w, https://cdn.prod.website-files.com/689ee5c066f613c283df1279/68be9696cdcfdb24dcc970da_KazerneLayoutBG-p-800.jpg 800w, https://cdn.prod.website-files.com/689ee5c066f613c283df1279/68be9696cdcfdb24dcc970da_KazerneLayoutBG-p-1080.jpg 1080w, https://cdn.prod.website-files.com/689ee5c066f613c283df1279/68be9696cdcfdb24dcc970da_KazerneLayoutBG-p-1600.jpg 1600w, https://cdn.prod.website-files.com/689ee5c066f613c283df1279/68be9696cdcfdb24dcc970da_KazerneLayoutBG-p-2000.jpg 2000w, https://cdn.prod.website-files.com/689ee5c066f613c283df1279/68be9696cdcfdb24dcc970da_KazerneLayoutBG-p-2600.jpg 2600w, https://cdn.prod.website-files.com/689ee5c066f613c283df1279/68be9696cdcfdb24dcc970da_KazerneLayoutBG-p-3200.jpg 3200w, https://cdn.prod.website-files.com/689ee5c066f613c283df1279/68be9696cdcfdb24dcc970da_KazerneLayoutBG.jpg 3508w" class="kazerne-design-lab--image"/></div></div></div></section></div><section class="kazerne-design-lab--footer"><div class="w-layout-blockcontainer kazerne-design-lab--container w-container"><div data-w-id="7c758f9b-26ef-4095-6e15-37e886b67c19" class="kazerne-design-lab--footer-wrapper"><div class="kazerne-design-lab--footer-top-content"><div data-w-id="7c758f9b-26ef-4095-6e15-37e886b67c1b" class="kazerne-design-lab--max-width-footer"><div class="kazerne-design-lab--h1">Get Inspired</div><div class="kazerne-design-lab--text-bodytext-normal">Blijf op de hoogte: meld je aan en ontvang als eerste alle nieuws over design, open calls, meet-ups en events.</div><div class="kazerne-design-lab--footer-newsletter_form w-clearfix w-form"><form id="wf-form-Footer-Newsletter" name="wf-form-Footer-Newsletter" data-name="Footer Newsletter" action="https://kazerne.us9.list-manage.com/subscribe/post?u=11bcaade5fd3928b9e1d4f58c&amp;amp;id=48692d7008&amp;amp;f_id=0016d6e3f0" method="post" class="kazerne-design-lab--form" data-wf-page-id="68bae4c01da34cf948deb89b" data-wf-element-id="7c758f9b-26ef-4095-6e15-37e886b67c21" data-wf-locale-id="68b03fe92f753124df4f0b57"><input class="kazerne-design-lab--input w-input" maxlength="256" name="EMAIL" data-name="EMAIL" placeholder="E-mailadres" type="email" id="EMAIL" required=""/><label class="w-checkbox kazerne-design-lab--checkbox-wrapper"><div class="w-checkbox-input w-checkbox-input--inputType-custom kazerne-design-lab--checkbox"></div><input type="checkbox" name="checkbox" id="checkbox" data-name="Checkbox" required="" style="opacity:0;position:absolute;z-index:-1"/><span class="kazerne-design-lab--text-function-caption w-form-label" for="checkbox">Ik ga akkoord met de Privacyverklaring en Gebruiksvoorwaarden.</span></label><input type="submit" data-wait="Please wait..." class="kazerne-design-lab--btn kazerne-design-lab--cc-form w-button" value="Submit"/></form><div class="kazerne-design-lab--form-success w-form-done"><div class="kazerne-design-lab--form-message-nl">Dank je wel: we hebben je aanmelding ontvangen!</div><div class="kazerne-design-lab--form-message-en">Thank you: your submission has been received!</div></div><div class="kazerne-design-lab--form-error w-form-fail"><div class="kazerne-design-lab--form-message-nl">Oeps! Er is iets fout gegaan bij het verzenden van het formulier.</div><div class="kazerne-design-lab--form-message-en">Oops! Something went wrong while submitting the form.</div></div></div></div><div class="kazerne-design-lab--footer-links-component"><div data-w-id="7c758f9b-26ef-4095-6e15-37e886b67c33" class="kazerne-design-lab--footer-links-wrapper"><div class="kazerne-design-lab--footer-title kazerne-design-lab--text-function-caption">Visit</div><div class="kazerne-design-lab--foote-links-content"><a href="https://www.kazerne-designlab.nl/visit" class="kazerne-design-lab--footer-link-text">Opening hours</a><a href="https://www.kazerne-designlab.nl/visit" class="kazerne-design-lab--footer-link-text">Admission</a><a href="https://www.kazerne-designlab.nl/visit" class="kazerne-design-lab--footer-link-text">Getting there</a><a href="https://www.kazerne-designlab.nl/visit" class="kazerne-design-lab--footer-link-text">More practicals</a></div></div><div data-w-id="7c758f9b-26ef-4095-6e15-37e886b67c3f" class="kazerne-design-lab--footer-links-wrapper"><div class="kazerne-design-lab--footer-title kazerne-design-lab--text-function-caption">Book</div><div class="kazerne-design-lab--foote-links-content"><a href="https://kazerne.org/#taste" class="kazerne-design-lab--footer-link-text">Taste</a><a href="https://kazerne.org/#stay" class="kazerne-design-lab--footer-link-text">Stay</a><a href="https://kazerne.org/#celebrate" class="kazerne-design-lab--footer-link-text">Celebrate</a><a href="https://www.kazerne-designlab.nl/book" class="kazerne-design-lab--footer-link-text">Guided Tours</a><a href="https://www.kazerne-designlab.nl/book" class="kazerne-design-lab--footer-link-text">Workshops</a><a href="https://www.kazerne-designlab.nl/book" class="kazerne-design-lab--footer-link-text">Classes</a><a href="https://www.kazerne-designlab.nl/book" class="kazerne-design-lab--footer-link-text">Mentor Session</a></div></div><div data-w-id="7c758f9b-26ef-4095-6e15-37e886b67c51" class="kazerne-design-lab--footer-links-wrapper"><div class="kazerne-design-lab--footer-title kazerne-design-lab--text-function-caption">Join</div><div class="kazerne-design-lab--foote-links-content"><a href="https://www.kazerne-designlab.nl/exhibitions" class="kazerne-design-lab--footer-link-text">Exhibitions</a><a href="https://www.kazerne-designlab.nl/challenges" class="kazerne-design-lab--footer-link-text">Challenges</a><a href="https://www.kazerne-designlab.nl/join" class="kazerne-design-lab--footer-link-text">Community</a><a href="https://www.kazerne-designlab.nl/agenda" class="kazerne-design-lab--footer-link-text">Events</a><a href="https://www.kazerne-designlab.nl/agenda" class="kazerne-design-lab--footer-link-text">Guided Tours</a><a href="https://www.kazerne-designlab.nl/agenda" class="kazerne-design-lab--footer-link-text">Workshops</a></div></div><div data-w-id="7c758f9b-26ef-4095-6e15-37e886b67c61" class="kazerne-design-lab--footer-links-wrapper"><div class="kazerne-design-lab--footer-title kazerne-design-lab--text-function-caption">Contact</div><div class="kazerne-design-lab--foote-links-content"><a href="https://www.kazerne-designlab.nl/contact" class="kazerne-design-lab--footer-link-text">Design Foundation</a><a href="https://www.kazerne.org/contact" target="_blank" class="kazerne-design-lab--footer-link-text">Hospitality Operations</a></div></div><div data-w-id="7c758f9b-26ef-4095-6e15-37e886b67c69" class="kazerne-design-lab--footer-links-wrapper"><div class="kazerne-design-lab--footer-title kazerne-design-lab--text-function-caption">About</div><div class="kazerne-design-lab--foote-links-content"><a href="https://www.kazerne-designlab.nl/about" class="kazerne-design-lab--footer-link-text">Design Lab</a><a href="https://kazerne.com/about/" target="_blank" class="kazerne-design-lab--footer-link-text">Kazerne Heritage</a></div></div></div></div><div class="kazerne-design-lab--footer-socials_container"><div class="kazerne-design-lab--team-social"><a href="https://www.facebook.com/kazerne" target="_blank" class="kazerne-design-lab--social-links w-inline-block"><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 24" fill="none" class="kazerne-design-lab--social-icon"><path d="M9.833 22V13.2H6.669V9.6H9.833V6.849C9.833 3.726 11.694 2 14.541 2C15.4757 2.01295 16.4082 2.09417 17.331 2.243V5.311H15.76C15.4921 5.27507 15.2196 5.29992 14.9626 5.38371C14.7057 5.4675 14.4709 5.60808 14.2757 5.79502C14.0805 5.98195 13.9299 6.21044 13.8351 6.46354C13.7403 6.71663 13.7037 6.98783 13.728 7.257V9.6H17.185L16.633 13.2H13.733V22H9.833Z" fill="currentColor"></path></svg></a><a href="https://www.instagram.com/kazerneehv/" target="_blank" class="kazerne-design-lab--social-links w-inline-block"><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 24" fill="none" class="kazerne-design-lab--social-icon"><path d="M21.94 7.88C21.9206 7.0503 21.7652 6.2294 21.48 5.45C21.2283 4.78181 20.8322 4.17742 20.32 3.68C19.8226 3.16776 19.2182 2.77166 18.55 2.52C17.7706 2.23484 16.9497 2.07945 16.12 2.06C15.06 2 14.72 2 12 2C9.28 2 8.94 2 7.88 2.06C7.0503 2.07945 6.2294 2.23484 5.45 2.52C4.78181 2.77166 4.17742 3.16776 3.68 3.68C3.16743 4.17518 2.77418 4.78044 2.53 5.45C2.23616 6.22734 2.07721 7.04915 2.06 7.88C2 8.94 2 9.28 2 12C2 14.72 2 15.06 2.06 16.12C2.07721 16.9508 2.23616 17.7727 2.53 18.55C2.77418 19.2196 3.16743 19.8248 3.68 20.32C4.17742 20.8322 4.78181 21.2283 5.45 21.48C6.2294 21.7652 7.0503 21.9206 7.88 21.94C8.94 22 9.28 22 12 22C14.72 22 15.06 22 16.12 21.94C16.9497 21.9206 17.7706 21.7652 18.55 21.48C19.2134 21.219 19.816 20.8242 20.3201 20.3201C20.8242 19.816 21.219 19.2134 21.48 18.55C21.7652 17.7706 21.9206 16.9497 21.94 16.12C21.94 15.06 22 14.72 22 12C22 9.28 22 8.94 21.94 7.88ZM20.14 16C20.1327 16.6348 20.0178 17.2637 19.8 17.86C19.6327 18.2913 19.3773 18.683 19.0501 19.0101C18.723 19.3373 18.3313 19.5927 17.9 19.76C17.3037 19.9778 16.6748 20.0927 16.04 20.1C15.04 20.15 14.67 20.16 12.04 20.16C9.41 20.16 9.04 20.16 8.04 20.1C7.38073 20.1148 6.72401 20.0132 6.1 19.8C5.66869 19.6327 5.27698 19.3773 4.94985 19.0501C4.62272 18.723 4.36734 18.3313 4.2 17.9C3.97775 17.2911 3.86271 16.6482 3.86 16C3.86 15 3.8 14.63 3.8 12C3.8 9.37 3.8 9 3.86 8C3.86271 7.35178 3.97775 6.70893 4.2 6.1C4.36734 5.66869 4.62272 5.27698 4.94985 4.94985C5.27698 4.62272 5.66869 4.36734 6.1 4.2C6.70893 3.97775 7.35178 3.86271 8 3.86C9 3.86 9.37 3.8 12 3.8C14.63 3.8 15 3.8 16 3.86C16.6348 3.86728 17.2637 3.98225 17.86 4.2C18.2913 4.36734 18.683 4.62272 19.0101 4.94985C19.3373 5.27698 19.5927 5.66869 19.76 6.1C19.9959 6.7065 20.1245 7.34942 20.14 8C20.19 9 20.2 9.37 20.2 12C20.2 14.63 20.19 15 20.14 16Z" fill="currentColor"></path><path d="M12 6.86C10.9834 6.86 9.98964 7.16146 9.14437 7.72625C8.2991 8.29104 7.64029 9.0938 7.25126 10.033C6.86222 10.9722 6.76044 12.0057 6.95876 13.0028C7.15709 13.9998 7.64663 14.9157 8.36547 15.6345C9.08431 16.3534 10.0002 16.8429 10.9972 17.0412C11.9943 17.2396 13.0278 17.1378 13.967 16.7487C14.9062 16.3597 15.709 15.7009 16.2738 14.8556C16.8385 14.0104 17.14 13.0166 17.14 12C17.14 10.6368 16.5985 9.32941 15.6345 8.36547C14.6706 7.40153 13.3632 6.86 12 6.86ZM12 15.33C11.3414 15.33 10.6976 15.1347 10.15 14.7688C9.60234 14.4029 9.17552 13.8828 8.92348 13.2743C8.67144 12.6659 8.6055 11.9963 8.73399 11.3503C8.86247 10.7044 9.17963 10.111 9.64533 9.64533C10.111 9.17963 10.7044 8.86247 11.3503 8.73399C11.9963 8.6055 12.6659 8.67144 13.2743 8.92348C13.8828 9.17552 14.4029 9.60234 14.7688 10.15C15.1347 10.6976 15.33 11.3414 15.33 12C15.33 12.4373 15.2439 12.8703 15.0765 13.2743C14.9092 13.6784 14.6639 14.0454 14.3547 14.3547C14.0454 14.6639 13.6784 14.9092 13.2743 15.0765C12.8703 15.2439 12.4373 15.33 12 15.33Z" fill="currentColor"></path><path d="M17.34 5.46001C17.1027 5.46001 16.8707 5.53039 16.6733 5.66224C16.476 5.7941 16.3222 5.98152 16.2313 6.20079C16.1405 6.42006 16.1168 6.66134 16.1631 6.89411C16.2094 7.12689 16.3236 7.34071 16.4915 7.50853C16.6593 7.67636 16.8731 7.79065 17.1059 7.83695C17.3387 7.88325 17.5799 7.85949 17.7992 7.76866C18.0185 7.67784 18.2059 7.52403 18.3378 7.32669C18.4696 7.12935 18.54 6.89734 18.54 6.66001C18.54 6.34175 18.4136 6.03652 18.1885 5.81148C17.9635 5.58643 17.6583 5.46001 17.34 5.46001Z" fill="currentColor"></path></svg></a><a href="https://www.linkedin.com/company/kazerne/" target="_blank" class="kazerne-design-lab--social-links w-inline-block"><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 24" fill="none" class="kazerne-design-lab--social-icon"><path d="M20.9 20.9H17.166V15.053C17.166 13.659 17.138 11.865 15.222 11.865C13.277 11.865 12.98 13.382 12.98 14.95V20.9H9.249V8.87699H12.833V10.516H12.881C13.2402 9.90278 13.7588 9.39838 14.3818 9.05643C15.0048 8.71447 15.7088 8.54775 16.419 8.57399C20.199 8.57399 20.898 11.062 20.898 14.3V20.9H20.9ZM5.036 7.23199C4.60732 7.23259 4.1881 7.10603 3.83137 6.86832C3.47463 6.63061 3.19641 6.29244 3.03191 5.89658C2.8674 5.50072 2.824 5.06497 2.9072 4.64444C2.99039 4.22392 3.19644 3.83751 3.49928 3.53411C3.80212 3.23071 4.18815 3.02395 4.60852 2.93998C5.02889 2.85601 5.46473 2.8986 5.86089 3.06237C6.25705 3.22615 6.59573 3.50374 6.8341 3.86003C7.07246 4.21633 7.1998 4.63532 7.2 5.06399C7.20039 5.34847 7.14472 5.63024 7.03615 5.89319C6.92759 6.15615 6.76827 6.39512 6.5673 6.59647C6.36633 6.79781 6.12764 6.95757 5.86489 7.06662C5.60214 7.17567 5.32048 7.23186 5.036 7.23199ZM6.906 20.9H3.165V8.87699H6.906V20.9Z" fill="currentColor"></path></svg></a><div class="kazerne-design-lab--scroll-up_wrapper"><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 15 16" fill="none" class="kazerne-design-lab--scroll-up_icon"><path d="M14.4928 7.28437L13.0997 8.67749L8.26156 3.81775L8.26156 15.9995L6.23127 15.9995L6.23127 3.81775L1.39313 8.67749L-3.80951e-07 7.28437L7.24642 0.0378977L14.4928 7.28437Z" fill="currentColor"></path></svg></div></div></div></div></div><div class="kazerne-design-lab--bottom-links"><div class="kazerne-design-lab--container"><div class="kazerne-design-lab--footer-bottom-links"><div class="kazerne-design-lab--credits-wrapper"><a href="https://www.kazerne.org/" target="_blank" class="w-inline-block"><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 316 40" fill="none" class="kazerne-design-lab--kazerne-logo_footer"><path d="M315.623 40V28.6165H275.623V40H315.623ZM275.623 25.6917H315.623V14.3083H275.623V25.6917ZM275.623 11.3835H315.623V0H275.623V11.3835ZM268.224 40V0H248.227V19.9895L228.231 0V40H248.227V20.0105L268.217 40H268.224ZM221.883 40L209.455 27.5715C216.377 26.814 221.764 20.9574 221.764 13.8313C221.764 6.23531 215.641 0.0771524 208.066 0H207.94H181.89V40H221.89H221.883ZM133.733 40H173.733V28.6165H133.733V40ZM133.733 25.6917H173.733V14.3083H133.733V25.6917ZM133.733 11.3835H173.733V0H133.733V11.3835ZM86.0179 40H126.018V20.0035H106.021L126.018 0H86.0179V19.9965H106.007L86.0179 39.986V40ZM83.1632 40H83.2474L63.2509 0L43.1703 40H83.1703H83.1632ZM40 40L20.3612 20.0035L40 0H0V40H40Z" fill="currentColor"></path></svg></a><div class="kazerne-design-lab--kazerne-facilities_wrapper kazerne-design-lab--text-function-caption"><a href="https://kazerne-designlab.nl/" target="_blank" class="kazerne-design-lab--color-dark">Design Lab</a><a href="https://kazerne.com/hotel/" target="_blank" class="kazerne-design-lab--color-dark-60">Rooms &amp; Suites</a><a href="https://kazerne.com/eat-drink/" target="_blank" class="kazerne-design-lab--color-dark-60">Fine Food &amp; Drinks</a><a href="https://kazerne.com/meetings-events/" class="kazerne-design-lab--color-dark-60">Events &amp; Meetings</a></div></div><div class="kazerne-design-lab--footer-links"><a href="https://www.kazerne-designlab.nl/privacy-disclaimer" class="kazerne-design-lab--footer-link">Privacy</a><div class="kazerne-design-lab--vertical-line-footer"></div><a href="https://www.kazerne-designlab.nl/privacy-disclaimer" class="kazerne-design-lab--footer-link">Disclaimer</a><div class="kazerne-design-lab--vertical-line-footer"></div><a href="#" class="kazerne-design-lab--footer-link">© 2025 Kazerne Foundation</a></div></div></div></div><div class="kazerne-design-lab--scroll-js w-embed w-script"><script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const scrollButton = document.querySelector(".scroll-up_wrapper");
+
+    if (scrollButton) {
+      scrollButton.addEventListener("click", function (e) {
+        e.preventDefault();
+        window.scrollTo({
+          top: 0,
+          behavior: "smooth"
+        });
+      });
+    }
+  });
+</script>
+
+<style>
+	@media screen and (max-width: 479px) {
+    .footer-bottom-links {
+      flex-direction: column-reverse;
+    }
+  }
+</style></div></section><script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=689ee5c066f613c283df1279" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script><script src="https://cdn.prod.website-files.com/689ee5c066f613c283df1279/js/webflow.schunk.c44ef22bb39764ce.js" type="text/javascript" integrity="sha384-tXGzstWBaQwL4wKh0t39GQRR8F5PwaMZ6Vs5IPv0EAIkQxsMyLXB7TjLSVPYWaBL" crossorigin="anonymous"></script><script src="https://cdn.prod.website-files.com/689ee5c066f613c283df1279/js/webflow.schunk.3529aa30902c980b.js" type="text/javascript" integrity="sha384-VDH6qhWGhzPqbbKWQQZFXaO4j0xCOFb1VBYLHT0xWB9kaTjoR2n7iJGymoVq9ceZ" crossorigin="anonymous"></script><script src="https://cdn.prod.website-files.com/689ee5c066f613c283df1279/js/webflow.9ba5f230.1003f782f4adad8d.js" type="text/javascript" integrity="sha384-WIpfxyXq66MxaNEavx8mmsx2qpH3TlWGY/gpsXQNQ8vJhDBNwXxvKScMj8xcH4Dh" crossorigin="anonymous"></script><script src="https://cdn.prod.website-files.com/gsap/3.15.0/gsap.min.js" type="text/javascript"></script><script src="https://cdn.prod.website-files.com/gsap/3.15.0/ScrollTrigger.min.js" type="text/javascript"></script><!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WML33J44"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) --></body></html>

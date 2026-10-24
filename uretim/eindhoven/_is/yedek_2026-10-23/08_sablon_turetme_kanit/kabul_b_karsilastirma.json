@@ -1,0 +1,91 @@
+{
+ "validation_farklari": [],
+ "validation_anahtarlar": [
+  "extras",
+  "media",
+  "structure",
+  "summary",
+  "tolerated_duplicate_list_cells",
+  "warning_classes"
+ ],
+ "validation_ozet_resmi": {
+  "tool": "validate_all",
+  "mode": "audit",
+  "new_content": true,
+  "structure": {
+   "errors": 0,
+   "warnings": 689
+  },
+  "media": {
+   "errors": 0
+  },
+  "minimum_gaps": {},
+  "error_classes": [],
+  "media_classes": [],
+  "tolerated_duplicate_list_cells": 0,
+  "extras": {
+   "placeholders": 1,
+   "wikipedia_labeled_official": 0,
+   "verified_without_snapshot": 0,
+   "shared_coordinates": 3,
+   "homepage_only_sources": 0,
+   "history_share": 0
+  },
+  "extras_note": "ek kontrol, resmî sayılara dahil değil; tarih payı 15/104 (eşik 0.35, öneri)",
+  "technically_complete": true
+ },
+ "validation_ozet_yeni": {
+  "tool": "validate_all",
+  "mode": "audit",
+  "new_content": true,
+  "structure": {
+   "errors": 0,
+   "warnings": 689
+  },
+  "media": {
+   "errors": 0
+  },
+  "minimum_gaps": {},
+  "error_classes": [],
+  "media_classes": [],
+  "tolerated_duplicate_list_cells": 0,
+  "extras": {
+   "placeholders": 1,
+   "wikipedia_labeled_official": 0,
+   "verified_without_snapshot": 0,
+   "shared_coordinates": 3,
+   "homepage_only_sources": 0,
+   "history_share": 0
+  },
+  "extras_note": "ek kontrol, resmî sayılara dahil değil; tarih payı 15/104 (eşik 0.35, öneri)",
+  "technically_complete": true
+ },
+ "build_farklari": [],
+ "xlsx": {
+  "sheets_equal": true,
+  "cells_compared": 52419,
+  "value_diffs": [
+   {
+    "cell": "Teslimat!D8",
+    "a": "Atınç",
+    "b": "Claude Code city-pack",
+    "class": "BEKLENMEYEN"
+   },
+   {
+    "cell": "Teslimat!I8",
+    "a": "Çalışma dosyası; içerik üretilmedi; UAT durumu: Üretilecek. Katalog tarihleri kaynak kaydını gösterir; rehber doğrulamas",
+    "b": "Berlin örneğinden türetildi (make_template); içerik üretilmedi.",
+    "class": "BEKLENMEYEN"
+   }
+  ],
+  "type_diff_count": 0,
+  "style_diff_count": 0,
+  "only_one_side_count": 0,
+  "defined_names_equal": true,
+  "calc_equal": true,
+  "active_equal": true,
+  "views_equal": true
+ },
+ "xlsx_sekme_sorunlu": {},
+ "xlsx_sekme_ayrinti": {}
+}

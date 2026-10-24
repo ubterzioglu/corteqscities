@@ -1,0 +1,1965 @@
+<!DOCTYPE html>
+<html lang="en-US" class="no-js">
+<head>
+                                
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="mobile-web-app-capable" content="yes" />
+
+        <meta name="theme-color" content="#093547" />
+
+                                                        <style>/*! modern-normalize v0.6.0 | MIT License | https://github.com/sindresorhus/modern-normalize */:root{-moz-tab-size:4;-o-tab-size:4;tab-size:4}html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}hr{height:0}abbr[title]{-webkit-text-decoration:underline dotted;text-decoration:underline dotted}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;font-size:1em}sub,sup{position:relative;vertical-align:baseline;font-size:75%;line-height:0}sub{bottom:-.25em}sup{top:-.5em}button,input,optgroup,select,textarea{margin:0;font-family:inherit;font-size:100%;line-height:1.15}button,select{text-transform:none}[type=button],[type=reset],[type=submit],button{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{padding:0;border-style:none}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}fieldset{padding:.35em .75em .625em}legend{padding:0}progress{vertical-align:baseline}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}[hidden]{display:none!important}.critical-fade{opacity:0;width:100%;max-width:100%;-webkit-transition:opacity .5s ease;transition:opacity .5s ease}.is-hidden,.show-for-print,[v-cloak]{display:none!important}.show-for-sr,.show-on-focus{position:absolute!important;width:1px;height:1px;overflow:hidden;clip:rect(1px 1px 1px 1px);clip:rect(1px,1px,1px,1px);white-space:nowrap}.show-on-focus:active,.show-on-focus:focus{position:static!important;width:auto;height:auto;overflow:visible;clip:auto}*,:after,:before{-webkit-box-sizing:border-box;box-sizing:border-box}html{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;text-rendering:optimizeLegibility;scroll-behavior:smooth;scroll-padding-top:115px}@media only screen and (min-width:1300px){html html{scroll-padding-top:134px}}@media screen and (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}body{margin:0 auto;background-color:#fff;color:#093547;line-height:1}a>svg,button>svg{pointer-events:none}::-moz-selection{background-color:rgba(9,53,71,.8);color:#fff}::selection{background-color:rgba(9,53,71,.8);color:#fff}@media (hover:hover){a[href^="tel:"]{color:inherit}}blockquote,dd,div,dl,dt,form,li,ol,p,pre,td,th,ul{margin:0;padding:0}p{font-size:inherit;text-rendering:optimizeLegibility}em,i{font-style:italic}em,i,small{line-height:inherit}small{font-size:80%}a{-webkit-transition:color .3s ease;transition:color .3s ease;line-height:inherit;text-decoration:none}a,button{color:currentColor;cursor:pointer}button{margin:0;padding:0;background:transparent;border:none;font-size:inherit;text-transform:none;-webkit-appearance:none;-moz-appearance:none;appearance:none}button[disabled]{opacity:.5}button[disabled],html input[disabled]{cursor:default}img{display:inline-block;vertical-align:middle}img,svg{max-width:100%;height:auto}a img,hr{border:0}hr{margin:1rem auto;border-bottom:1px solid #ccc}dl,ol,ul{list-style-position:outside}li{font-size:inherit}ul{list-style-type:disc}ol,ol ol,ol ul,ul,ul ol,ul ul{margin-left:1.25rem}dl dt{font-weight:700}blockquote{padding:.5625rem 1.25rem 0 1.1875rem;border-left:1px solid #ccc}blockquote,blockquote p{line-height:1.6}cite{display:block;font-size:.8125rem}cite:before{content:"— "}abbr{border-bottom:1px dotted #0a0a0a;color:#0a0a0a;cursor:help}figure{margin:0}code{padding:.125rem .3125rem .0625rem;border:1px solid #ccc;font-weight:400}code,kbd{background-color:#eee;color:#0a0a0a}kbd{margin:0;padding:.125rem .25rem 0;font-family:Consolas,Liberation Mono,Courier,monospace}@-webkit-keyframes spin{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}to{-webkit-transform:rotate(359deg);transform:rotate(359deg)}}@keyframes spin{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}to{-webkit-transform:rotate(359deg);transform:rotate(359deg)}}@-webkit-keyframes floating{0%{-webkit-transform:translateY(0);transform:translateY(0)}50%{-webkit-transform:translateY(10%);transform:translateY(10%)}to{-webkit-transform:translateY(0);transform:translateY(0)}}@keyframes floating{0%{-webkit-transform:translateY(0);transform:translateY(0)}50%{-webkit-transform:translateY(10%);transform:translateY(10%)}to{-webkit-transform:translateY(0);transform:translateY(0)}}body{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-flex:1;-ms-flex:1 0 auto;flex:1 0 auto;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;width:100%;max-width:100%;overflow-x:hidden}html:not(.ie11) body{min-height:100vh;min-height:calc(var(--vh, 1vh)*100)}.layout--form-max,.layout--wrapper{width:100%;margin-right:auto;margin-left:auto}.layout--form-max{max-width:750px}.layout--hero-summary-max{max-width:510px}.layout--hero-summary-max,.layout--text-max{width:100%;margin-right:auto;margin-left:auto}.layout--text-max{max-width:1032px}.layout--author{max-width:824px}.layout--author,.layout--text-detail{width:100%;margin-right:auto;margin-left:auto}.layout--text-detail{max-width:1080px}.layout--search{max-width:1170px}.layout--quote,.layout--search{width:100%;margin-right:auto;margin-left:auto}.layout--quote{max-width:1096px}.layout--fence-max{max-width:1280px}.layout--fence-max,.layout--wide{width:100%;margin-right:auto;margin-left:auto}.layout--wide{max-width:1454px}.layout--hd{max-width:1920px}.layout--accordion-max,.layout--hd{width:100%;margin-right:auto;margin-left:auto}.layout--accordion-max{max-width:767px}.layout--fluid-h,.layout--padded-h{padding-right:1rem;padding-left:1rem}@media only screen and (min-width:414px){.layout--fluid-h,.layout--padded-h{padding-right:2.25rem;padding-left:2.25rem}}@media only screen and (min-width:1024px){.layout--fluid-h,.layout--padded-h{padding-right:2.75rem;padding-left:2.75rem}}.layout--fluid-h .layout--fluid-h{padding-right:0;padding-left:0}.layout--fluid-v,.layout--padded-v{padding-top:1rem;padding-bottom:1rem}@media only screen and (min-width:414px){.layout--fluid-v,.layout--padded-v{padding-top:2.25rem;padding-bottom:2.25rem}}@media only screen and (min-width:1024px){.layout--fluid-v,.layout--padded-v{padding-top:2.75rem;padding-bottom:2.75rem}}.layout--fluid-v .layout--fluid-v{padding-top:0;padding-bottom:0}.layout--spaced-v{padding-top:3rem;padding-bottom:3rem}.layout--spaced-v-1{padding-top:1rem;padding-bottom:1rem}.layout--spaced-v-modal{padding-top:3rem;padding-bottom:8rem}.sticky{position:sticky;z-index:1;top:3.125rem;width:100%}.bg--dark{color:#fff}.bg--light{color:#093547}.bg--none{--bg-color:transparent;--is-collapsed:0;background-color:transparent}.bg--lower-none:not(.bg--lower-no-collapse)+.bg--none:not(.bg--no-collapse),.bg--lower-none:not(.bg--lower-no-collapse)+.bg--none:not(.bg--no-collapse)>:first-child.bg--none:not(.bg--no-collapse),.bg--lower-none:not(.bg--lower-no-collapse)+.bg--none:not(.bg--no-collapse)>:first-child.bg--none:not(.bg--no-collapse)>:first-child.bg--none:not(.bg--no-collapse),.bg--lower-none:not(.bg--lower-no-collapse)+.bg--none:not(.bg--no-collapse)>:first-child.bg--none:not(.bg--no-collapse)>:first-child.bg--none:not(.bg--no-collapse)>:first-child.bg--none:not(.bg--no-collapse),.bg--none:not([class*=bg--lower-]):not(.bg--no-collapse)+.bg--none:not(.bg--no-collapse),.bg--none:not([class*=bg--lower-]):not(.bg--no-collapse)+.bg--none:not(.bg--no-collapse)>:first-child.bg--none:not(.bg--no-collapse),.bg--none:not([class*=bg--lower-]):not(.bg--no-collapse)+.bg--none:not(.bg--no-collapse)>:first-child.bg--none:not(.bg--no-collapse)>:first-child.bg--none:not(.bg--no-collapse),.bg--none:not([class*=bg--lower-]):not(.bg--no-collapse)+.bg--none:not(.bg--no-collapse)>:first-child.bg--none:not(.bg--no-collapse)>:first-child.bg--none:not(.bg--no-collapse)>:first-child.bg--none:not(.bg--no-collapse){--is-collapsed:1;padding-top:0}.bg--dark-green{--bg-color:#375c2d;--is-collapsed:0;background-color:#375c2d}.bg--dark-green:not([class*=bg--lower-]):not(.bg--no-collapse)+.bg--dark-green:not(.bg--no-collapse),.bg--dark-green:not([class*=bg--lower-]):not(.bg--no-collapse)+.bg--dark-green:not(.bg--no-collapse)>:first-child.bg--dark-green:not(.bg--no-collapse),.bg--dark-green:not([class*=bg--lower-]):not(.bg--no-collapse)+.bg--dark-green:not(.bg--no-collapse)>:first-child.bg--dark-green:not(.bg--no-collapse)>:first-child.bg--dark-green:not(.bg--no-collapse),.bg--dark-green:not([class*=bg--lower-]):not(.bg--no-collapse)+.bg--dark-green:not(.bg--no-collapse)>:first-child.bg--dark-green:not(.bg--no-collapse)>:first-child.bg--dark-green:not(.bg--no-collapse)>:first-child.bg--dark-green:not(.bg--no-collapse),.bg--lower-dark-green:not(.bg--lower-no-collapse)+.bg--dark-green:not(.bg--no-collapse),.bg--lower-dark-green:not(.bg--lower-no-collapse)+.bg--dark-green:not(.bg--no-collapse)>:first-child.bg--dark-green:not(.bg--no-collapse),.bg--lower-dark-green:not(.bg--lower-no-collapse)+.bg--dark-green:not(.bg--no-collapse)>:first-child.bg--dark-green:not(.bg--no-collapse)>:first-child.bg--dark-green:not(.bg--no-collapse),.bg--lower-dark-green:not(.bg--lower-no-collapse)+.bg--dark-green:not(.bg--no-collapse)>:first-child.bg--dark-green:not(.bg--no-collapse)>:first-child.bg--dark-green:not(.bg--no-collapse)>:first-child.bg--dark-green:not(.bg--no-collapse){--is-collapsed:1;padding-top:0}.bg--light-green{--bg-color:#acc657;--is-collapsed:0;background-color:#acc657}.bg--light-green:not([class*=bg--lower-]):not(.bg--no-collapse)+.bg--light-green:not(.bg--no-collapse),.bg--light-green:not([class*=bg--lower-]):not(.bg--no-collapse)+.bg--light-green:not(.bg--no-collapse)>:first-child.bg--light-green:not(.bg--no-collapse),.bg--light-green:not([class*=bg--lower-]):not(.bg--no-collapse)+.bg--light-green:not(.bg--no-collapse)>:first-child.bg--light-green:not(.bg--no-collapse)>:first-child.bg--light-green:not(.bg--no-collapse),.bg--light-green:not([class*=bg--lower-]):not(.bg--no-collapse)+.bg--light-green:not(.bg--no-collapse)>:first-child.bg--light-green:not(.bg--no-collapse)>:first-child.bg--light-green:not(.bg--no-collapse)>:first-child.bg--light-green:not(.bg--no-collapse),.bg--lower-light-green:not(.bg--lower-no-collapse)+.bg--light-green:not(.bg--no-collapse),.bg--lower-light-green:not(.bg--lower-no-collapse)+.bg--light-green:not(.bg--no-collapse)>:first-child.bg--light-green:not(.bg--no-collapse),.bg--lower-light-green:not(.bg--lower-no-collapse)+.bg--light-green:not(.bg--no-collapse)>:first-child.bg--light-green:not(.bg--no-collapse)>:first-child.bg--light-green:not(.bg--no-collapse),.bg--lower-light-green:not(.bg--lower-no-collapse)+.bg--light-green:not(.bg--no-collapse)>:first-child.bg--light-green:not(.bg--no-collapse)>:first-child.bg--light-green:not(.bg--no-collapse)>:first-child.bg--light-green:not(.bg--no-collapse){--is-collapsed:1;padding-top:0}.bg--light-blue{--bg-color:#e9f7f3;--is-collapsed:0;background-color:#e9f7f3}.bg--light-blue:not([class*=bg--lower-]):not(.bg--no-collapse)+.bg--light-blue:not(.bg--no-collapse),.bg--light-blue:not([class*=bg--lower-]):not(.bg--no-collapse)+.bg--light-blue:not(.bg--no-collapse)>:first-child.bg--light-blue:not(.bg--no-collapse),.bg--light-blue:not([class*=bg--lower-]):not(.bg--no-collapse)+.bg--light-blue:not(.bg--no-collapse)>:first-child.bg--light-blue:not(.bg--no-collapse)>:first-child.bg--light-blue:not(.bg--no-collapse),.bg--light-blue:not([class*=bg--lower-]):not(.bg--no-collapse)+.bg--light-blue:not(.bg--no-collapse)>:first-child.bg--light-blue:not(.bg--no-collapse)>:first-child.bg--light-blue:not(.bg--no-collapse)>:first-child.bg--light-blue:not(.bg--no-collapse),.bg--lower-light-blue:not(.bg--lower-no-collapse)+.bg--light-blue:not(.bg--no-collapse),.bg--lower-light-blue:not(.bg--lower-no-collapse)+.bg--light-blue:not(.bg--no-collapse)>:first-child.bg--light-blue:not(.bg--no-collapse),.bg--lower-light-blue:not(.bg--lower-no-collapse)+.bg--light-blue:not(.bg--no-collapse)>:first-child.bg--light-blue:not(.bg--no-collapse)>:first-child.bg--light-blue:not(.bg--no-collapse),.bg--lower-light-blue:not(.bg--lower-no-collapse)+.bg--light-blue:not(.bg--no-collapse)>:first-child.bg--light-blue:not(.bg--no-collapse)>:first-child.bg--light-blue:not(.bg--no-collapse)>:first-child.bg--light-blue:not(.bg--no-collapse){--is-collapsed:1;padding-top:0}.bg--gray3{--bg-color:#888;--is-collapsed:0;background-color:#888}.bg--gray3:not([class*=bg--lower-]):not(.bg--no-collapse)+.bg--gray3:not(.bg--no-collapse),.bg--gray3:not([class*=bg--lower-]):not(.bg--no-collapse)+.bg--gray3:not(.bg--no-collapse)>:first-child.bg--gray3:not(.bg--no-collapse),.bg--gray3:not([class*=bg--lower-]):not(.bg--no-collapse)+.bg--gray3:not(.bg--no-collapse)>:first-child.bg--gray3:not(.bg--no-collapse)>:first-child.bg--gray3:not(.bg--no-collapse),.bg--gray3:not([class*=bg--lower-]):not(.bg--no-collapse)+.bg--gray3:not(.bg--no-collapse)>:first-child.bg--gray3:not(.bg--no-collapse)>:first-child.bg--gray3:not(.bg--no-collapse)>:first-child.bg--gray3:not(.bg--no-collapse),.bg--lower-gray3:not(.bg--lower-no-collapse)+.bg--gray3:not(.bg--no-collapse),.bg--lower-gray3:not(.bg--lower-no-collapse)+.bg--gray3:not(.bg--no-collapse)>:first-child.bg--gray3:not(.bg--no-collapse),.bg--lower-gray3:not(.bg--lower-no-collapse)+.bg--gray3:not(.bg--no-collapse)>:first-child.bg--gray3:not(.bg--no-collapse)>:first-child.bg--gray3:not(.bg--no-collapse),.bg--lower-gray3:not(.bg--lower-no-collapse)+.bg--gray3:not(.bg--no-collapse)>:first-child.bg--gray3:not(.bg--no-collapse)>:first-child.bg--gray3:not(.bg--no-collapse)>:first-child.bg--gray3:not(.bg--no-collapse){--is-collapsed:1;padding-top:0}.bg--teal{--bg-color:#6cc6b0;--is-collapsed:0;background-color:#6cc6b0}.bg--lower-teal:not(.bg--lower-no-collapse)+.bg--teal:not(.bg--no-collapse),.bg--lower-teal:not(.bg--lower-no-collapse)+.bg--teal:not(.bg--no-collapse)>:first-child.bg--teal:not(.bg--no-collapse),.bg--lower-teal:not(.bg--lower-no-collapse)+.bg--teal:not(.bg--no-collapse)>:first-child.bg--teal:not(.bg--no-collapse)>:first-child.bg--teal:not(.bg--no-collapse),.bg--lower-teal:not(.bg--lower-no-collapse)+.bg--teal:not(.bg--no-collapse)>:first-child.bg--teal:not(.bg--no-collapse)>:first-child.bg--teal:not(.bg--no-collapse)>:first-child.bg--teal:not(.bg--no-collapse),.bg--teal:not([class*=bg--lower-]):not(.bg--no-collapse)+.bg--teal:not(.bg--no-collapse),.bg--teal:not([class*=bg--lower-]):not(.bg--no-collapse)+.bg--teal:not(.bg--no-collapse)>:first-child.bg--teal:not(.bg--no-collapse),.bg--teal:not([class*=bg--lower-]):not(.bg--no-collapse)+.bg--teal:not(.bg--no-collapse)>:first-child.bg--teal:not(.bg--no-collapse)>:first-child.bg--teal:not(.bg--no-collapse),.bg--teal:not([class*=bg--lower-]):not(.bg--no-collapse)+.bg--teal:not(.bg--no-collapse)>:first-child.bg--teal:not(.bg--no-collapse)>:first-child.bg--teal:not(.bg--no-collapse)>:first-child.bg--teal:not(.bg--no-collapse){--is-collapsed:1;padding-top:0}.bg--dark-blue{--bg-color:#093547;--is-collapsed:0;background-color:#093547}.bg--dark-blue:not([class*=bg--lower-]):not(.bg--no-collapse)+.bg--dark-blue:not(.bg--no-collapse),.bg--dark-blue:not([class*=bg--lower-]):not(.bg--no-collapse)+.bg--dark-blue:not(.bg--no-collapse)>:first-child.bg--dark-blue:not(.bg--no-collapse),.bg--dark-blue:not([class*=bg--lower-]):not(.bg--no-collapse)+.bg--dark-blue:not(.bg--no-collapse)>:first-child.bg--dark-blue:not(.bg--no-collapse)>:first-child.bg--dark-blue:not(.bg--no-collapse),.bg--dark-blue:not([class*=bg--lower-]):not(.bg--no-collapse)+.bg--dark-blue:not(.bg--no-collapse)>:first-child.bg--dark-blue:not(.bg--no-collapse)>:first-child.bg--dark-blue:not(.bg--no-collapse)>:first-child.bg--dark-blue:not(.bg--no-collapse),.bg--lower-dark-blue:not(.bg--lower-no-collapse)+.bg--dark-blue:not(.bg--no-collapse),.bg--lower-dark-blue:not(.bg--lower-no-collapse)+.bg--dark-blue:not(.bg--no-collapse)>:first-child.bg--dark-blue:not(.bg--no-collapse),.bg--lower-dark-blue:not(.bg--lower-no-collapse)+.bg--dark-blue:not(.bg--no-collapse)>:first-child.bg--dark-blue:not(.bg--no-collapse)>:first-child.bg--dark-blue:not(.bg--no-collapse),.bg--lower-dark-blue:not(.bg--lower-no-collapse)+.bg--dark-blue:not(.bg--no-collapse)>:first-child.bg--dark-blue:not(.bg--no-collapse)>:first-child.bg--dark-blue:not(.bg--no-collapse)>:first-child.bg--dark-blue:not(.bg--no-collapse){--is-collapsed:1;padding-top:0}.bg--grey{--bg-color:#d7d7d7;--is-collapsed:0;background-color:#d7d7d7}.bg--grey:not([class*=bg--lower-]):not(.bg--no-collapse)+.bg--grey:not(.bg--no-collapse),.bg--grey:not([class*=bg--lower-]):not(.bg--no-collapse)+.bg--grey:not(.bg--no-collapse)>:first-child.bg--grey:not(.bg--no-collapse),.bg--grey:not([class*=bg--lower-]):not(.bg--no-collapse)+.bg--grey:not(.bg--no-collapse)>:first-child.bg--grey:not(.bg--no-collapse)>:first-child.bg--grey:not(.bg--no-collapse),.bg--grey:not([class*=bg--lower-]):not(.bg--no-collapse)+.bg--grey:not(.bg--no-collapse)>:first-child.bg--grey:not(.bg--no-collapse)>:first-child.bg--grey:not(.bg--no-collapse)>:first-child.bg--grey:not(.bg--no-collapse),.bg--lower-grey:not(.bg--lower-no-collapse)+.bg--grey:not(.bg--no-collapse),.bg--lower-grey:not(.bg--lower-no-collapse)+.bg--grey:not(.bg--no-collapse)>:first-child.bg--grey:not(.bg--no-collapse),.bg--lower-grey:not(.bg--lower-no-collapse)+.bg--grey:not(.bg--no-collapse)>:first-child.bg--grey:not(.bg--no-collapse)>:first-child.bg--grey:not(.bg--no-collapse),.bg--lower-grey:not(.bg--lower-no-collapse)+.bg--grey:not(.bg--no-collapse)>:first-child.bg--grey:not(.bg--no-collapse)>:first-child.bg--grey:not(.bg--no-collapse)>:first-child.bg--grey:not(.bg--no-collapse){--is-collapsed:1;padding-top:0}.bg--white{--bg-color:#fff;--is-collapsed:0;background-color:#fff}.bg--collapse,.bg--lower-white:not(.bg--lower-no-collapse)+.bg--white:not(.bg--no-collapse),.bg--lower-white:not(.bg--lower-no-collapse)+.bg--white:not(.bg--no-collapse)>:first-child.bg--white:not(.bg--no-collapse),.bg--lower-white:not(.bg--lower-no-collapse)+.bg--white:not(.bg--no-collapse)>:first-child.bg--white:not(.bg--no-collapse)>:first-child.bg--white:not(.bg--no-collapse),.bg--lower-white:not(.bg--lower-no-collapse)+.bg--white:not(.bg--no-collapse)>:first-child.bg--white:not(.bg--no-collapse)>:first-child.bg--white:not(.bg--no-collapse)>:first-child.bg--white:not(.bg--no-collapse),.bg--white:not([class*=bg--lower-]):not(.bg--no-collapse)+.bg--white:not(.bg--no-collapse),.bg--white:not([class*=bg--lower-]):not(.bg--no-collapse)+.bg--white:not(.bg--no-collapse)>:first-child.bg--white:not(.bg--no-collapse),.bg--white:not([class*=bg--lower-]):not(.bg--no-collapse)+.bg--white:not(.bg--no-collapse)>:first-child.bg--white:not(.bg--no-collapse)>:first-child.bg--white:not(.bg--no-collapse),.bg--white:not([class*=bg--lower-]):not(.bg--no-collapse)+.bg--white:not(.bg--no-collapse)>:first-child.bg--white:not(.bg--no-collapse)>:first-child.bg--white:not(.bg--no-collapse)>:first-child.bg--white:not(.bg--no-collapse){--is-collapsed:1;padding-top:0}.bg--logo.bg--logo:before{content:"";position:absolute;top:30%;left:30%;width:40%;height:40%;background-color:transparent;background-image:url(/svg/logo-white.svg);background-repeat:no-repeat;background-position:50%;background-size:contain}.lobotomize *+*{margin-top:1rem}.lobotomize br{margin:0!important}.lobotomize--level>*+*{margin-top:1rem}.lobotomize--level br{margin:0!important}.autoMargins *{margin-top:1rem}.autoMargins--none *,.autoMargins .visuallyHidden+*,.autoMargins :first-child{margin-top:0}h1,h2,h3,h4,h5,h6{margin:0}.h1{font-family:brandon-grotesque,sans-serif;font-weight:900;font-style:normal;font-size:35px;font-size:2.1875rem;letter-spacing:0;line-height:.89189;text-transform:uppercase}@media only screen and (min-width:320px) and (max-width:1199px){.h1{font-size:calc(2.159vw + 28.09091px)}}@media only screen and (min-width:1200px){.h1{font-size:54px;font-size:3.375rem}}.h2{font-family:brandon-grotesque,sans-serif;font-weight:700;font-style:normal;font-size:32px;font-size:2rem;line-height:1}@media only screen and (min-width:414px) and (max-width:767px){.h2{font-size:calc(.706vw + 29.07627px)}}@media only screen and (min-width:768px){.h2{font-size:34.5px;font-size:2.15625rem}}.h3{font-family:brandon-grotesque,sans-serif;font-weight:700;font-style:normal;font-size:18px;font-size:1.125rem;letter-spacing:0;line-height:1.45;text-transform:uppercase}@media only screen and (min-width:320px) and (max-width:1199px){.h3{font-size:calc(.227vw + 17.27273px)}}@media only screen and (min-width:1200px){.h3{font-size:20px;font-size:1.25rem}}.h4{font-family:brandon-grotesque,sans-serif;font-weight:700;font-style:normal;font-size:18px;font-size:1.125rem;letter-spacing:0;line-height:1.45;text-transform:uppercase;font-size:25px;font-size:1.5625rem}@media only screen and (min-width:320px) and (max-width:1199px){.h4{font-size:calc(.227vw + 17.27273px)}}@media only screen and (min-width:1200px){.h4{font-size:20px;font-size:1.25rem}}.h5{font-family:brandon-grotesque,sans-serif;font-weight:700;font-style:normal;font-size:18px;font-size:1.125rem;letter-spacing:0;line-height:1.45;text-transform:uppercase;font-size:24px;font-size:1.5rem}@media only screen and (min-width:320px) and (max-width:1199px){.h5{font-size:calc(.227vw + 17.27273px)}}@media only screen and (min-width:1200px){.h5{font-size:20px;font-size:1.25rem}}.h6{font-family:brandon-grotesque,sans-serif;font-weight:700;font-style:normal;font-size:18px;font-size:1.125rem;letter-spacing:0;line-height:1.45;text-transform:uppercase;font-size:23px;font-size:1.4375rem}@media only screen and (min-width:320px) and (max-width:1199px){.h6{font-size:calc(.227vw + 17.27273px)}}@media only screen and (min-width:1200px){.h6{font-size:20px;font-size:1.25rem}}.text--content{font-weight:400;font-size:24px;font-size:1.5rem;line-height:1.45}.text--content,.text--content h1{font-family:brandon-grotesque,sans-serif;font-style:normal;letter-spacing:0}.text--content h1{font-weight:900;font-size:35px;font-size:2.1875rem;line-height:.89189;text-transform:uppercase}@media only screen and (min-width:320px) and (max-width:1199px){.text--content h1{font-size:calc(2.159vw + 28.09091px)}}@media only screen and (min-width:1200px){.text--content h1{font-size:54px;font-size:3.375rem}}.text--content h2{font-family:brandon-grotesque,sans-serif;font-weight:700;font-style:normal;font-size:32px;font-size:2rem;line-height:1}@media only screen and (min-width:414px) and (max-width:767px){.text--content h2{font-size:calc(.706vw + 29.07627px)}}@media only screen and (min-width:768px){.text--content h2{font-size:34.5px;font-size:2.15625rem}}.text--content h3{font-family:brandon-grotesque,sans-serif;font-weight:700;font-style:normal;font-size:18px;font-size:1.125rem;letter-spacing:0;line-height:1.45;text-transform:uppercase}@media only screen and (min-width:320px) and (max-width:1199px){.text--content h3{font-size:calc(.227vw + 17.27273px)}}@media only screen and (min-width:1200px){.text--content h3{font-size:20px;font-size:1.25rem}}.text--content h4{font-family:brandon-grotesque,sans-serif;font-weight:700;font-style:normal;font-size:18px;font-size:1.125rem;letter-spacing:0;line-height:1.45;text-transform:uppercase;font-size:25px;font-size:1.5625rem}@media only screen and (min-width:320px) and (max-width:1199px){.text--content h4{font-size:calc(.227vw + 17.27273px)}}@media only screen and (min-width:1200px){.text--content h4{font-size:20px;font-size:1.25rem}}.text--content h5{font-family:brandon-grotesque,sans-serif;font-weight:700;font-style:normal;font-size:18px;font-size:1.125rem;letter-spacing:0;line-height:1.45;text-transform:uppercase;font-size:24px;font-size:1.5rem}@media only screen and (min-width:320px) and (max-width:1199px){.text--content h5{font-size:calc(.227vw + 17.27273px)}}@media only screen and (min-width:1200px){.text--content h5{font-size:20px;font-size:1.25rem}}.text--content h6{font-family:brandon-grotesque,sans-serif;font-weight:700;font-style:normal;font-size:18px;font-size:1.125rem;letter-spacing:0;line-height:1.45;text-transform:uppercase;font-size:23px;font-size:1.4375rem}@media only screen and (min-width:320px) and (max-width:1199px){.text--content h6{font-size:calc(.227vw + 17.27273px)}}@media only screen and (min-width:1200px){.text--content h6{font-size:20px;font-size:1.25rem}}.text--content.text--center li{max-width:-webkit-fit-content;max-width:-moz-fit-content;max-width:fit-content;margin-right:auto;margin-left:auto}.text--content .lobotomize li+li{margin-top:0}.ddOptions__cta,.form__file-cta,.form__file-group,.RLTimePicker input,[type=color],[type=date],[type=datetime-local],[type=datetime],[type=email],[type=month],[type=number],[type=password],[type=search],[type=tel],[type=text],[type=time],[type=url],[type=week],select,textarea{font-weight:400;font-size:24px;font-size:1.5rem;letter-spacing:0;line-height:1.45;font-family:brandon-grotesque,sans-serif;font-weight:500;font-style:normal;line-height:1;text-transform:none;display:block;-webkit-box-sizing:border-box;box-sizing:border-box;width:100%;height:3.5rem;padding:.5rem 0;-webkit-transition:border-color .3s ease;transition:border-color .3s ease;background-color:transparent;border:1px solid transparent;border-bottom-color:hsla(0,0%,53.3%,.5);border-radius:0;color:#888;-webkit-appearance:none;-moz-appearance:none;appearance:none}textarea{max-width:100%}textarea[rows]{height:auto}input::-webkit-input-placeholder,textarea::-webkit-input-placeholder{color:#888}input::-moz-placeholder,textarea::-moz-placeholder{color:#888}input:-ms-input-placeholder,textarea:-ms-input-placeholder{color:#888}input::-ms-input-placeholder,textarea::-ms-input-placeholder{color:#888}input::placeholder,textarea::placeholder{color:#888}input:disabled,input[readonly],textarea:disabled,textarea[readonly]{background-color:#e6e6e6;cursor:not-allowed}[type=button],[type=submit]{border:none;border-radius:0;-webkit-appearance:none;-moz-appearance:none;appearance:none}input[type=search]{-webkit-box-sizing:border-box;box-sizing:border-box}[type=checkbox]+label[for],[type=radio]+label[for]{cursor:pointer}[type=file]{width:100%}label{display:block;margin:0}.ddOptions__cta,select{width:100%;height:3.5rem;padding:0 1.5rem 0 0;-webkit-transition:border-color .3s ease,border-color .3s ease,-webkit-box-shadow .5s;transition:border-color .3s ease,border-color .3s ease,-webkit-box-shadow .5s;transition:border-color .3s ease,box-shadow .5s,border-color .3s ease;transition:border-color .3s ease,box-shadow .5s,border-color .3s ease,-webkit-box-shadow .5s;background-color:transparent;background-image:url("data:image/svg+xml;utf8, <svg xmlns='http://www.w3.org/2000/svg' version='1.1' width='32' height='24' viewBox='0 0 32 24'><polygon points='0, 0 32, 0 16, 24' style='fill: currentColor'></polygon></svg>");background-repeat:no-repeat;background-position:right -1rem center;background-size:9px 6px;border:1px solid transparent;border-bottom-color:hsla(0,0%,53.3%,.5);border-radius:0;line-height:1;-moz-appearance:none;appearance:none;background-origin:content-box;-webkit-appearance:none}.ddOptions__cta::-ms-expand,select::-ms-expand{display:none}@media screen and (min-width:0\0){select{background-image:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAYCAYAAACbU/80AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAIpJREFUeNrEkckNgDAMBBfRkEt0ObRBBdsGXUDgmQfK4XhH2m8czQAAy27R3tsw4Qfe2x8uOO6oYLb6GlOor3GF+swURAOmUJ+RwtEJs9WvTGEYxBXqI1MQAZhCfUQKRzDMVj+TwrAIV6jvSUEkYAr1LSkcyTBb/V+KYfX7xAeusq3sLDtGH3kEGACPWIflNZfhRQAAAABJRU5ErkJggg==")}}select:disabled{background-color:#e6e6e6;cursor:not-allowed}select::-ms-expand{display:none}select[multiple]{height:auto;background-image:none}fieldset{margin:0;padding:0;border:none}table{width:100%;margin-bottom:1rem;border-radius:0;font-family:brandon-grotesque,sans-serif;font-weight:400;font-style:normal;font-size:24px;font-size:1.5rem;letter-spacing:0;line-height:1.45}table tbody,table tfoot,table thead{background-color:#fff;border:1px solid #f9f9f9}table caption{padding:.5rem .625rem .625rem;font-weight:700}table tfoot,table thead{background-color:#eee;color:#000}table tfoot tr,table thead tr{background-color:transparent}table tfoot td,table tfoot th,table thead td,table thead th{padding:.5rem .625rem .625rem;text-align:left}table tbody td,table tbody th{padding:.5rem .625rem .625rem}table tbody tr:nth-child(2n){background-color:#f9f9f9;border-bottom:0}@media (prefers-reduced-motion:reduce){*{-webkit-transition-duration:.1s!important;transition-duration:.1s!important;-webkit-animation-duration:.1s!important;animation-duration:.1s!important}}.icon{display:inline-block;position:relative;vertical-align:middle;width:1em;max-width:100%;height:1em;fill:currentColor}.icon--back{-webkit-transform:rotate(180deg);transform:rotate(180deg)}.icon--reverse{-webkit-transform:scaleX(-1);transform:scaleX(-1)}.hover-label{position:relative;overflow:visible}.hover-label__label{opacity:0;position:absolute;z-index:2;top:100%;left:50%;width:auto;min-width:-webkit-fit-content;min-width:-moz-fit-content;min-width:fit-content;max-width:120px;padding:.5rem;-webkit-transform:translate(-50%,.125rem);transform:translate(-50%,.125rem);-webkit-transition:opacity .3s ease,-webkit-transform .3s ease;transition:opacity .3s ease,-webkit-transform .3s ease;transition:opacity .3s ease,transform .3s ease;transition:opacity .3s ease,transform .3s ease,-webkit-transform .3s ease;background-color:#6cc6b0;color:#fff;text-align:center;pointer-events:none;font-family:brandon-grotesque,sans-serif;font-weight:400;font-style:normal;letter-spacing:-.01em;font-size:18px;font-size:1.125rem;text-transform:none;line-height:1}.hover-label__label:before{content:"";display:block;position:absolute;top:-.25rem;left:50%;width:0;height:0;margin-left:-.25rem;border-right:.25rem solid transparent;border-bottom:.3rem solid #6cc6b0;border-left:.25rem solid transparent}.hover-label:focus .hover-label__label,.hover-label:hover .hover-label__label{opacity:1;-webkit-transform:translate(-50%,-.25rem);transform:translate(-50%,-.25rem)}.no-js [data-modal-open]{display:none}.modal-is-open body{overflow:hidden}.js [data-modal][hidden]{display:block;visibility:hidden;opacity:0;pointer-events:none}.widget{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-flow:row wrap;flex-flow:row wrap;width:auto;max-width:1280px;margin:1rem auto}.widget__heading{width:100%;margin:0 1rem 1rem;font-size:1.3rem}body{padding-top:115px}@media only screen and (min-width:1300px){body{padding-top:134px}}.headerIsOverlapping body{padding-top:0!important}.hideHeader body{padding-top:0}.header{display:-webkit-box;display:-ms-flexbox;display:flex;position:absolute;z-index:1000;top:0;left:0;width:100%;height:115px;-webkit-transition:height .3s ease,background-color .3s ease,padding .3s ease,-webkit-transform .3s ease,-webkit-box-shadow .3s ease;transition:height .3s ease,background-color .3s ease,padding .3s ease,-webkit-transform .3s ease,-webkit-box-shadow .3s ease;transition:height .3s ease,background-color .3s ease,transform .3s ease,padding .3s ease,box-shadow .3s ease;transition:height .3s ease,background-color .3s ease,transform .3s ease,padding .3s ease,box-shadow .3s ease,-webkit-transform .3s ease,-webkit-box-shadow .3s ease;background-color:#fff;-webkit-box-shadow:0 0 0 transparent;box-shadow:0 0 0 transparent;color:#093547;-webkit-transition-delay:.25s;transition-delay:.25s;will-change:height,background-color,transform,box-shadow,padding}@media print{.header{position:absolute!important}}@media only screen and (min-width:768px){.header{height:134px}}.header.isFloating{height:100px;padding-top:0!important;-webkit-box-shadow:0 0 10px rgba(0,0,0,.25);box-shadow:0 0 10px rgba(0,0,0,.25);background:#093547;background:-webkit-gradient(linear,left top,right top,from(#093547),to(#6cc6b0));background:linear-gradient(90deg,#093547,#6cc6b0)}@media only screen and (min-width:768px){.header.isFloating{height:134px}}html:not(.headerIsFloating):not(.headerIsOverlapping) .header{padding-top:0!important;background:#093547;background:-webkit-gradient(linear,left top,right top,from(#093547),to(#6cc6b0));background:linear-gradient(90deg,#093547,#6cc6b0)}@media only screen and (min-width:1300px){html:not(.headerIsFloating):not(.headerIsOverlapping) .header{height:134px}}html.headerIsOverlapping .header:not(.isFloating){height:115px}@media only screen and (min-width:768px){html.headerIsOverlapping .header:not(.isFloating){height:134px}}.header__inner,.header__layout{display:-webkit-box;display:-ms-flexbox;display:flex}.header__inner{-ms-flex-preferred-size:auto;flex-basis:auto;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;-webkit-box-flex:1;-ms-flex-positive:1;flex-grow:1;-ms-flex-negative:1;flex-shrink:1;-ms-flex-wrap:nowrap;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;position:relative;flex-wrap:nowrap;margin:auto 0;-webkit-transition:height .3s ease;transition:height .3s ease;font-size:0}.header a.show-on-focus{font-family:brandon-grotesque,sans-serif;font-weight:400;font-style:normal;font-size:24px;font-size:1.5rem;letter-spacing:0;line-height:1.45;position:absolute!important;z-index:1;top:1rem;left:1rem;-webkit-box-flex:0;-ms-flex:none;flex:none;padding:.25rem .5rem;background-color:#fff!important;color:#093547!important}.header__button{display:inline-block;-webkit-transition:color .3s ease,font-size .3s ease;transition:color .3s ease,font-size .3s ease;line-height:1}@media print{.header__button{display:none}}.header__button .icon{-webkit-transition:none;transition:none}.header__button--logo{-webkit-box-ordinal-group:4;-ms-flex-order:3;order:3;max-width:11rem}@media only screen and (min-width:768px){.header__button--logo{max-width:21rem;margin:auto}}@media print{.header__button--logo{display:block}}.header__button--logo svg{fill:#fff}.header__button--logo svg #california{stroke:#fff;stroke-width:1px}.header__button--menu{font-size:31px;font-size:1.9375rem;color:#fff;-webkit-box-ordinal-group:6;-ms-flex-order:5;order:5}@media only screen and (min-width:768px){.header__button--menu{font-size:38px;font-size:2.375rem;margin-left:2.25rem}}.header__button--weather{display:none;position:relative;top:3px;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;-webkit-box-ordinal-group:2;-ms-flex-order:1;order:1}.header__button--weather canvas{max-width:50px;height:auto}@media only screen and (min-width:768px){.header__button--weather canvas{max-width:50px}html:not(.headerIsFloating) .header__button--weather{top:1px}}@media only screen and (min-width:768px){.header__button--weather{display:block}}@media print{.header__button--weather{display:none!important}}.header__button--weather-temp{color:#fff;font-size:38px;font-size:2.375rem;font-family:brandon-grotesque,sans-serif;font-weight:700;font-style:normal;margin-left:.5rem;display:none;-webkit-box-ordinal-group:3;-ms-flex-order:2;order:2}@media only screen and (min-width:768px){.header__button--weather-temp{display:block}}.header__button--saved{font-size:30px;font-size:1.875rem;position:absolute;right:15%}.header__button--saved .saved-counter__count{font-weight:400;font-size:24px;font-size:1.5rem;letter-spacing:0;line-height:1.45;font-family:brandon-grotesque,sans-serif;font-weight:700;font-style:normal;line-height:1;margin-top:0;color:#fff!important;font-size:.75rem!important}@media only screen and (max-width:479px){.header__button--saved{margin-left:0}}@media only screen and (min-width:1300px){.header__button--saved{font-size:32px;font-size:2rem;right:10%}.header__button--saved .saved-counter__count{margin-top:0;font-size:1.125rem!important}}.header__button--search{font-size:31px;font-size:1.9375rem;color:#fff;-webkit-box-ordinal-group:2;-ms-flex-order:1;order:1}@media only screen and (min-width:768px){.header__button--search{-webkit-box-ordinal-group:5;-ms-flex-order:4;order:4;font-size:37px;font-size:2.3125rem}}.header__links{display:none;-webkit-box-ordinal-group:7;-ms-flex-order:6;order:6;width:-webkit-max-content;width:-moz-max-content;width:max-content;margin:0 0 0 auto;padding:0;list-style-type:none}@media only screen and (min-width:1300px){.header__links{display:inline-block}}.header__links li{display:inline-block;margin-left:2rem;list-style-type:none}.header__links a{font-family:brandon-grotesque,sans-serif;font-weight:700;font-style:normal;font-size:24.5px;font-size:1.53125rem;letter-spacing:.1em;line-height:1.1;text-transform:uppercase}.header.isFloating{opacity:0;position:fixed;-webkit-transform:translateY(-100%);transform:translateY(-100%)}.header.isFloating.scrolled--down{opacity:1;-webkit-transform:translateY(0);transform:translateY(0)}@media only screen and (min-width:520px){.header.isFloating.scrolled--down{opacity:0;-webkit-transform:translateY(-100%);transform:translateY(-100%)}}.header.isFloating.scrolled--up{opacity:1;-webkit-transform:translateY(0);transform:translateY(0)}.headerIsOverlapping .header:not(.isFloating){padding-top:0;background-color:transparent;-webkit-box-shadow:none;box-shadow:none}.headerIsOverlapping .header:not(.isFloating) .header__inner{margin:0}.headerIsOverlapping .header:not(.isFloating) .header__button{background-color:transparent;color:#fff}.headerIsOverlapping .header:not(.isFloating) .header__button--weather,.headerIsOverlapping .header:not(.isFloating) .header__button:hover{color:#fff}.headerIsOverlapping .header:not(.isFloating) .header__button--saved .saved-counter__count{color:#888!important}.headerIsOverlapping .header:not(.isFloating) .header__button--saved:hover .saved-counter__count{color:#fff!important}.saved-counter__link{display:block;opacity:0;position:relative;-webkit-transform:scale(0);transform:scale(0);-webkit-transition:opacity .5s ease,-webkit-transform .5s ease;transition:opacity .5s ease,-webkit-transform .5s ease;transition:transform .5s ease,opacity .5s ease;transition:transform .5s ease,opacity .5s ease,-webkit-transform .5s ease}.saved-counter.is-showing .saved-counter__link{opacity:1;-webkit-transform:scale(1);transform:scale(1)}.saved-counter__count{position:absolute;top:50%;left:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}</style>
+                        <link rel="stylesheet" media="print"
+                  href="/dist/styles/main.min.1759861961.css"
+                  onload="this.media='all'">
+            
+                <style>
+        :root {
+            --aos-duration: 500ms;
+            --aos-delay: 100ms;
+        }
+    </style>
+
+        
+        
+        <script>
+        WebFontConfig = {
+            monotype: {
+                //projectId: '11df8dcd-d1d4-4b52-87ba-2189038e7173' //fonts.com
+            }
+                        , typekit: { id: 'zbo5esi' }
+                    };
+        (function(d) {
+            var wf = d.createElement('script'), s = d.scripts[0]
+            wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1.6.16/webfont.js'
+            s.parentNode.insertBefore(wf, s)
+        })(document)
+    </script>
+
+
+                        <!-- HEAD ANALYTICS -->
+        <script>
+!function(e,t,n,p,a,o,s){e[p]||((a=e[p]=function(){a.process?a.process.apply(a,arguments):a.queue.push(arguments)}).queue=[],a.t=+new Date,(o=t.createElement(n)).async=1,o.src="https://pxl.datafyhq.com/js/pxl.js?t="+864e5*Math.ceil(new Date/864e5),(s=t.getElementsByTagName(n)[0]).parentNode.insertBefore(o,s))}(window,document,"script","opix"),opix("init","CA-BAK-001"),opix("event","pageload");
+</script>
+
+        
+                        <title>Selfie Spots | Visit Bakersfield</title>
+<script>dl = [];
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dl','GTM-PW5LD5X');
+</script><meta name="keywords" content="hotels, travel, dining, restaurants, events, places to stay, attractions, things to do, weddings, sports, music, nightlife, meetings,Bakersfield,basque,camping,climbing,country music,desert,festivals,fishing,golf,isabella,hike,hiking,kayak,kern,kern river kern county,kernville,lake,military,mojave,mountains,movies,museums,national monument,nature,outdoor,park,raft,rafting,recreation,red rock,restaurants,river,sequoia,skiing,skydiving,tehachapi,tourism,travel,vacation,whitewater,whiskey flat,wildlife,windsurfing,adventure">
+<meta name="description" content="Any Of These Will Guarantee You A Memorable Photo Of Your Stay In Bakersfield.">
+<meta name="referrer" content="no-referrer-when-downgrade">
+<meta name="robots" content="all">
+<meta content="546408142076895" property="fb:profile_id">
+<meta content="en_US" property="og:locale">
+<meta content="Visit Bakersfield" property="og:site_name">
+<meta content="article" property="og:type">
+<meta content="https://www.visitbakersfield.com/blog/the-top-10-snapshot-spots-around-bakersfield/" property="og:url">
+<meta content="Selfie Spots | Visit Bakersfield" property="og:title">
+<meta content="Any Of These Will Guarantee You A Memorable Photo Of Your Stay In Bakersfield." property="og:description">
+<meta content="https://visit-bakersfield.imgix.net/images/Selfie-Trail-Guthries-Alley-Cat.jpg?auto=compress%2Cformat&amp;crop=focalpoint&amp;fit=min&amp;fp-x=0.5045&amp;fp-y=0.6737&amp;h=630&amp;q=80&amp;w=1200&amp;s=56dbf38fc3b6a66ea0e04535b0b9bfbf" property="og:image">
+<meta content="1200" property="og:image:width">
+<meta content="630" property="og:image:height">
+<meta content="Selfie Spots" property="og:image:alt">
+<meta content="https://www.youtube.com/user/VisitBakersfield" property="og:see_also">
+<meta content="https://www.instagram.com/visitbakersfield" property="og:see_also">
+<meta content="https://www.facebook.com/VisitBakersfield/" property="og:see_also">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@Bakersfield_Cal">
+<meta name="twitter:creator" content="@Bakersfield_Cal">
+<meta name="twitter:title" content="Selfie Spots | Visit Bakersfield">
+<meta name="twitter:description" content="Any Of These Will Guarantee You A Memorable Photo Of Your Stay In Bakersfield.">
+<meta name="twitter:image" content="https://visit-bakersfield.imgix.net/images/Selfie-Trail-Guthries-Alley-Cat.jpg?auto=compress%2Cformat&amp;crop=focalpoint&amp;fit=min&amp;fp-x=0.5045&amp;fp-y=0.6737&amp;h=418&amp;q=80&amp;w=800&amp;s=14e671b27accf5ac753a385cd322d8ac">
+<meta name="twitter:image:width" content="800">
+<meta name="twitter:image:height" content="418">
+<meta name="twitter:image:alt" content="Selfie Spots">
+<link href="https://www.visitbakersfield.com/blog/the-top-10-snapshot-spots-around-bakersfield/" rel="canonical">
+<link href="https://www.visitbakersfield.com/" rel="home">
+<link type="text/plain" href="https://www.visitbakersfield.com/humans.txt" rel="author"></head>
+<body role="document"><noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-PW5LD5X"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+            
+            <!-- TOP BODY ANALYTICS -->
+    
+
+    
+                <div class="header layout--padded-h" data-float-distance="300">
+    <div class="header__layout layout--wrapper">
+                <a href="#main" class="show-on-focus">Skip to content</a>
+        <div class="header__inner">
+                        <a href="https://www.visitbakersfield.com/"
+               class="header__button header__button--logo"
+               aria-label="Home"
+            >
+                <svg id="Layer_2_00000178171419350077085900000007184445623783142027_" width="500" height="148" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 500 148" xml:space="preserve" aria-title="logo">
+<path d="M175.4,2.2c-0.3-0.5-0.1-1.2,0.4-1.5c0.2-0.1,0.4-0.2,0.6-0.1h8.4c0.5,0,0.9,0.3,1.1,0.7l10.4,23h0.4l10.4-23
+	c0.2-0.4,0.6-0.7,1.1-0.7h8.3c0.6,0,1.2,0.4,1.2,1.1c0,0.2,0,0.4-0.1,0.6l-19.8,42.4c-0.2,0.4-0.6,0.7-1.1,0.7h-0.6
+	c-0.5,0-0.9-0.3-1.1-0.7L175.4,2.2z"/>
+    <path d="M222.8,1.8c0-0.7,0.5-1.2,1.2-1.2h7.6c0.7,0,1.2,0.5,1.2,1.2v41.7c0,0.7-0.5,1.2-1.2,1.2H224c-0.7,0-1.2-0.5-1.2-1.2V1.8z"
+    />
+    <path d="M241,38.7l3-5.2c0.5-0.8,1.7-0.7,2.1-0.4c0.2,0.1,4.8,3.5,8.9,3.5c2.5,0,4.4-1.6,4.4-3.8c0-2.6-2.2-4.7-6.5-6.3
+	c-5.4-2.1-12.3-6.3-12.3-13.9c0-6.2,4.9-12.5,14.6-12.5c6.5,0,11.6,3.3,13.5,4.7c0.7,0.4,0.6,1.6,0.4,2l-3.2,4.9
+	c-0.4,0.7-1.6,1.2-2.1,0.8c-0.5-0.3-5.2-3.8-9-3.8c-2.3,0-4,1.5-4,3.2c0,2.3,1.9,4.1,6.9,6.1c4.9,1.9,12.7,5.8,12.7,14.4
+	c0,6.5-5.6,13-14.9,13c-8.2,0-12.7-3.4-14.2-4.9C240.8,39.9,240.6,39.6,241,38.7z"/>
+    <path d="M278.1,1.8c0-0.7,0.5-1.2,1.2-1.2h7.6c0.7,0,1.2,0.5,1.2,1.2v41.7c0,0.7-0.5,1.2-1.2,1.2h-7.6c-0.7,0-1.2-0.5-1.2-1.2
+	L278.1,1.8z"/>
+    <path d="M304.6,9.9h-9c-0.6,0-1.2-0.5-1.2-1.2c0,0,0,0,0,0V1.8c0-0.6,0.5-1.2,1.2-1.2c0,0,0,0,0,0h28c0.6,0,1.2,0.5,1.2,1.2
+	c0,0,0,0,0,0v6.8c0,0.6-0.5,1.2-1.2,1.2c0,0,0,0,0,0h-9v33.7c0,0.7-0.5,1.2-1.2,1.2h-7.6c-0.7,0-1.2-0.5-1.2-1.2L304.6,9.9
+	L304.6,9.9z"/>
+    <g id="california">
+	<path d="M179.2,124.5c2.9-0.1,5.7,1,7.8,3c0.2,0.2,0.2,0.4,0,0.6c-0.1,0.2-0.3,0.3-0.5,0.5s-0.3,0.1-0.5,0
+		c-4.1-3.7-10.5-3.3-14.2,0.8c-3.7,4.1-3.3,10.5,0.8,14.2c1.8,1.6,4.2,2.5,6.7,2.6c2.8,0,4.9-1.1,6.7-2.7c0.2-0.1,0.4-0.1,0.5,0
+		l0.5,0.5c0.2,0.2,0.2,0.4,0,0.5c-2.1,2-4.9,3.2-7.8,3.1c-6.4,0-11.6-5.2-11.6-11.6S172.8,124.5,179.2,124.5L179.2,124.5
+		L179.2,124.5z"/>
+        <path d="M188.4,146.9c3.3-7.4,6.6-14.9,9.9-22.3c0.1-0.2,0.2-0.2,0.4-0.2h0.1c0.2,0,0.3,0.1,0.4,0.2c3.3,7.4,6.5,14.9,9.8,22.3
+		c0,0.2,0,0.4-0.3,0.4h-0.8c-0.2,0-0.4-0.1-0.4-0.3c-0.8-2-1.7-3.9-2.6-5.9h-12.3c-0.8,2-1.7,3.9-2.6,5.9c-0.1,0.2-0.3,0.3-0.4,0.3
+		h-0.9C188.4,147.3,188.3,147.2,188.4,146.9z M204.2,139.9l-5.5-12.9h0c-1.9,4.3-3.7,8.6-5.6,12.9H204.2z"/>
+        <path d="M210.6,125.3c0-0.2,0.2-0.4,0.4-0.4c0,0,0,0,0,0h0.7c0.2,0,0.4,0.2,0.4,0.4V146h10.2c0.4,0,0.4,0.2,0.4,0.4v0.6
+		c0,0.2-0.2,0.4-0.4,0.4c0,0,0,0,0,0H211c-0.2,0-0.4-0.2-0.4-0.4c0,0,0,0,0,0V125.3z"/>
+        <path d="M225,125.3c0-0.2,0.2-0.4,0.4-0.4c0,0,0,0,0,0h0.7c0.2,0,0.4,0.2,0.4,0.4c0,0,0,0,0,0v21.6c0,0.2-0.2,0.4-0.4,0.4h-0.7
+		c-0.2,0-0.4-0.2-0.4-0.4c0,0,0,0,0,0C225,139.7,225,132.5,225,125.3z"/>
+        <path d="M229.5,125.3c0-0.2,0.2-0.4,0.4-0.4c0,0,0,0,0,0h12.8c0.2,0,0.4,0.2,0.4,0.4c0,0,0,0,0,0v0.5c0,0.2-0.2,0.4-0.4,0.4
+		c0,0,0,0,0,0H231v9.8h10.2c0.2,0,0.4,0.2,0.4,0.4c0,0,0,0,0,0c0,0.3,0,0.9-0.4,0.9H231c0,3.2,0,6.4,0,9.6c0,0.2-0.2,0.4-0.5,0.4
+		h-0.6c-0.2,0-0.4-0.2-0.4-0.4c0,0,0,0,0,0C229.5,139.7,229.5,132.5,229.5,125.3z"/>
+        <path d="M255.2,124.5c6.4,0,11.5,5.2,11.5,11.6c0,6.4-5.2,11.5-11.6,11.5c-6.3,0-11.5-5.2-11.5-11.5
+		C243.6,129.7,248.8,124.6,255.2,124.5C255.2,124.5,255.2,124.5,255.2,124.5z M255.2,146.2c5.6,0,10.2-4.5,10.2-10.1
+		s-4.5-10.2-10.1-10.2c-5.6,0-10.2,4.5-10.2,10.1c0,0,0,0,0,0C245.1,141.7,249.6,146.2,255.2,146.2L255.2,146.2z"/>
+        <path d="M268.8,125.3c0-0.2,0.1-0.4,0.3-0.4c0,0,0,0,0.1,0h7.9c3.9,0,7.1,3,7.1,6.8c0,3.2-2.2,5.9-5.3,6.7c1.5,2.8,3.1,5.6,4.7,8.3
+		c0.1,0.2,0.1,0.6-0.2,0.6h-1c-0.2,0-0.4-0.1-0.4-0.3c-1.5-2.8-3.1-5.6-4.7-8.4c-0.4,0-0.8,0.1-1.2,0h-5.9v8.2
+		c0,0.2-0.2,0.4-0.5,0.4h-0.6c-0.2,0-0.4-0.2-0.4-0.4c0,0,0,0,0,0C268.8,139.7,268.8,132.5,268.8,125.3z M277.1,137.3
+		c3.1,0,5.6-2.5,5.7-5.6c0,0,0,0,0,0c0-3-2.6-5.4-5.7-5.4h-6.7v11C272.6,137.3,274.9,137.3,277.1,137.3L277.1,137.3z"/>
+        <path d="M286.5,124.9c0-0.2,0.2-0.4,0.5-0.4h0.5c5.1,6.7,10.3,13.3,15.4,20h0v-19.3c0-0.2,0.2-0.4,0.4-0.4c0,0,0,0,0,0h0.6
+		c0.2,0,0.4,0.2,0.4,0.4c0,0,0,0,0,0v21.9c0,0.3-0.2,0.4-0.5,0.4h-0.4c0,0-0.3-0.1-15.5-20.2h0v19.5c0,0.2-0.2,0.4-0.4,0.4
+		c0,0,0,0,0,0h-0.6c-0.2,0-0.4-0.2-0.4-0.4c0,0,0,0,0,0C286.5,139.6,286.5,132.3,286.5,124.9z"/>
+        <path d="M307.4,125.3c0-0.2,0.2-0.4,0.4-0.4c0,0,0,0,0,0h0.7c0.2,0,0.4,0.2,0.4,0.4c0,0,0,0,0,0v21.6c0,0.2-0.2,0.4-0.4,0.4h-0.7
+		c-0.2,0-0.4-0.2-0.4-0.4c0,0,0,0,0,0C307.4,139.7,307.4,132.5,307.4,125.3z"/>
+        <path d="M311.8,146.9c3.3-7.4,6.6-14.9,9.9-22.3c0.1-0.2,0.2-0.2,0.4-0.2h0.1c0.2,0,0.3,0.1,0.4,0.2c3.3,7.4,6.5,14.9,9.8,22.3
+		c0,0.2,0,0.4-0.3,0.4h-0.8c-0.2,0-0.4-0.1-0.4-0.3c-0.8-2-1.7-3.9-2.6-5.9h-12.3c-0.8,2-1.7,3.9-2.6,5.9c-0.1,0.2-0.3,0.3-0.4,0.3
+		H312C311.8,147.3,311.7,147.2,311.8,146.9z M327.7,139.9l-5.5-12.9h0c-1.9,4.3-3.7,8.6-5.6,12.9H327.7z"/>
+</g>
+    <path d="M0,61.9c0-0.9,0.7-1.6,1.6-1.6c0,0,0,0,0,0h19.3c9.8,0,17.9,6.6,17.8,15.2c0,6.3-5.8,11.1-9.6,13.3
+	c4.4,1.6,11.1,5.4,11.1,12.9c0,9.1-8.2,16.4-18.1,17.3c-6.8,0.6-13.7,1.2-20.5,1.8c-0.8,0.1-1.5-0.5-1.6-1.3c0-0.1,0-0.1,0-0.2
+	L0,61.9z M19.4,84.1c3.3-0.2,5.8-2.9,5.8-6.2c0-3.3-2.6-5.6-5.8-5.6c-2.1,0-4.3,0.1-6.4,0.1v11.9C15.1,84.3,17.3,84.2,19.4,84.1z
+	 M20.4,107c3.4-0.3,5.9-3.1,6-6.5c0-3.3-3.6-5.7-6.8-5.5c-2.2,0.1-4.5,0.2-6.7,0.3v12.2C15.4,107.4,18,107.2,20.4,107z"/>
+    <path d="M42,115.2C50.7,96.2,59.4,78,68,60.3c0.3-0.5,0.8-0.9,1.4-0.9h0.8c0.6,0,1.1,0.3,1.4,0.8c8.6,17.6,17.3,34.7,25.9,51.3
+	c0.5,0.9-0.1,2-1.4,2.1c-3.1,0.2-6.2,0.3-9.2,0.5c-1.5,0.1-2.1-0.3-2.9-1.7l-3-6c-7.5,0.4-15,0.8-22.6,1.3c-1,2.2-2,4.4-3,6.6
+	c-0.5,1.2-1.6,2.1-3,2.1c-3,0.2-6.1,0.4-9.1,0.7C42.2,117.3,41.5,116.3,42,115.2z M76.1,96.1c-2.1-4.2-4.2-8.4-6.3-12.7h-0.1
+	c-2.1,4.4-4.2,8.8-6.2,13.3C67.7,96.5,71.9,96.3,76.1,96.1L76.1,96.1z"/>
+    <path d="M104.5,61.9c0-1,0.9-1.9,2-1.8c0,0,0,0,0,0h9.7c1,0,1.9,0.8,2,1.8c0,6.5,0,13.1,0,19.7c6.2-7,12.3-14,18.5-20.7
+	c0.4-0.4,1-0.7,1.6-0.7h10.5c1.6,0,2.4,1.6,1.5,2.7c-6.5,7.1-13,14.4-19.4,21.7c7,8,14.1,15.9,21.1,23.8c0.9,1,0,2.7-1.6,2.7
+	l-11.5,0.4c-0.5,0-1.1-0.1-1.5-0.4c-6.4-7.4-12.7-15-19.1-22.6c0,7.4,0,14.9,0,22.3c-0.1,1.1-0.9,1.9-2,1.9
+	c-3.2,0.1-6.5,0.3-9.7,0.5c-1,0.1-1.9-0.6-2-1.6c0,0,0-0.1,0-0.1C104.4,94.9,104.4,78.4,104.5,61.9z"/>
+    <path d="M158.9,61.5c0.1-0.8,0.8-1.4,1.6-1.4c0,0,0,0,0,0h34.4c0.8-0.1,1.5,0.5,1.6,1.3v7.7c-0.1,0.8-0.8,1.4-1.6,1.3l-23,0.1v8.9
+	c6.3,0,12.6-0.1,18.9-0.2c0.8,0,1.5,0.5,1.6,1.3v7.7c0,0.8-0.7,1.3-1.6,1.4l-18.9,0.3v9.7c7.7-0.2,15.3-0.3,23-0.4
+	c0.8-0.1,1.5,0.5,1.6,1.3v7.7c-0.1,0.8-0.8,1.4-1.6,1.4c-11.5,0.2-22.9,0.6-34.4,0.9c-0.8,0.1-1.5-0.5-1.6-1.3c0,0,0,0,0-0.1
+	C158.9,93.4,158.9,77.5,158.9,61.5z"/>
+    <path d="M203.1,61.5c0.1-0.8,0.8-1.4,1.6-1.3h24.8c10,0,18.1,6.8,18.1,15.2c0,6.4-5.1,11.7-12.3,14.1c3.8,6,7.6,11.9,11.4,17.8
+	c0.6,0.9,0,2-1.4,2c-3.7,0-7.4,0-11.1,0c-0.5,0-1-0.2-1.3-0.6c-3.7-6.2-7.3-12.4-11.1-18.6c-1.9,0-3.8,0-5.8,0v18
+	c-0.1,0.8-0.8,1.4-1.6,1.3l-9.9,0.1c-0.8,0.1-1.5-0.5-1.6-1.3C203.1,92.7,203.1,77.1,203.1,61.5z M228.4,81.1c3.4,0,6.3-2.7,6.3-5.7
+	s-2.9-5.4-6.3-5.4c-4.1,0-8.2,0-12.3,0v11C220.2,81.1,224.3,81.1,228.4,81.1z"/>
+    <path d="M254.6,102.6c1.3-1.9,2.6-3.9,3.9-5.8c0.6-0.9,2.2-0.7,2.8-0.4c0.3,0.1,6.3,3.9,11.8,3.9c3.3,0,5.8-1.7,5.8-4.2
+	c0-3-2.9-5.3-8.6-7.1c-7.1-2.4-16.1-7.1-16.1-15.6c0-6.9,6.4-14,19.2-14c8.6,0,15.3,3.7,17.8,5.3c1,0.5,0.8,1.8,0.5,2.3
+	c-1.4,1.8-2.8,3.6-4.2,5.4c-0.6,0.8-2.1,1.4-2.8,0.9c-0.7-0.3-6.8-4.3-11.9-4.3c-3,0-5.2,1.7-5.2,3.6c0,2.6,2.5,4.6,9.1,6.8
+	c6.5,2.2,16.8,6.6,16.8,16.2c0,7.3-7.4,14.5-19.6,14.4c-10.8-0.1-16.8-3.9-18.7-5.5C254.2,103.9,253.9,103.6,254.6,102.6z"/>
+    <path d="M300,61.5c0.1-0.8,0.8-1.4,1.6-1.3h34.4c0.8-0.1,1.5,0.6,1.6,1.4c0,0,0,0,0,0v7.9c0,0.8-0.7,1.4-1.5,1.3c0,0-0.1,0-0.1,0
+	l-23-0.1v10.3c6.3,0,12.6,0.1,18.9,0.2c0.8,0,1.5,0.6,1.6,1.4v7.8c-0.1,0.8-0.8,1.4-1.6,1.3c-6.3-0.1-12.6-0.2-18.9-0.3v17.3
+	c-0.1,0.8-0.8,1.4-1.6,1.3c-3.3-0.1-6.5-0.1-9.8-0.2c-0.8,0.1-1.5-0.6-1.6-1.4c0,0,0,0,0,0C300,92.7,300,77.1,300,61.5z"/>
+    <path d="M344.2,61.5c0.1-0.8,0.8-1.4,1.6-1.4h10c0.8,0,1.5,0.6,1.6,1.4c0,16.2,0,32.3,0.1,48.5c-0.1,0.8-0.8,1.4-1.6,1.3
+	c-3.3-0.1-6.6-0.2-10-0.4c-0.8,0-1.5-0.6-1.6-1.4C344.2,93.5,344.2,77.5,344.2,61.5z"/>
+    <path d="M364,61.5c0.1-0.8,0.8-1.4,1.6-1.4c0,0,0,0,0,0h34.4c0.8,0,1.5,0.6,1.6,1.4v8.3c0,0.8-0.7,1.5-1.5,1.4c0,0,0,0-0.1,0
+	c-7.7-0.1-15.3-0.2-23-0.2v9.2c6.3,0.1,12.6,0.2,18.9,0.4c0.8,0,1.5,0.6,1.6,1.5v8.3c0,0.8-0.7,1.4-1.5,1.4c0,0-0.1,0-0.1,0
+	l-18.9-0.6v10.1c7.7,0.3,15.3,0.6,23,0.9c0.9,0,1.5,0.7,1.6,1.5v8.3c0,0.8-0.7,1.4-1.5,1.3c0,0-0.1,0-0.1,0
+	c-11.5-0.7-22.9-1.2-34.4-1.7c-0.8,0-1.5-0.7-1.6-1.5C364,94,364,77.8,364,61.5z"/>
+    <path d="M408.1,61.6c0-0.8,0.7-1.5,1.5-1.4c0,0,0,0,0.1,0h9.9c0.8,0,1.5,0.6,1.6,1.5c0,13.9,0,27.7,0,41.6l19.7,1
+	c0.9,0,1.5,0.7,1.6,1.6v8.7c0,0.8-0.6,1.4-1.4,1.4c-0.1,0-0.1,0-0.2,0c-10.4-0.7-20.8-1.4-31.2-2c-0.8,0-1.5-0.7-1.6-1.5
+	C408.2,95.5,408.1,78.6,408.1,61.6z"/>
+    <path d="M449.2,61.7c0-0.8,0.7-1.5,1.5-1.5h20.2c16-0.1,29.1,13.5,29.1,30.3c0,17-13.1,29.3-29.1,27.8c-6.7-0.5-13.5-1.1-20.2-1.6
+	c-0.8-0.1-1.5-0.8-1.5-1.6C449.2,97.3,449.2,79.5,449.2,61.7z M470.1,106c9.4,0.6,16.2-6.4,16.2-16.1s-6.8-17.3-16.2-17.5l-8-0.1
+	c0,11.1,0,22.1,0,33.2C464.8,105.6,467.5,105.8,470.1,106L470.1,106z"/>
+    <path d="M0,61.9c0-0.9,0.7-1.6,1.6-1.6c0,0,0,0,0,0h19.3c9.8,0,17.9,6.6,17.8,15.2c0,6.3-5.8,11.1-9.6,13.3
+	c4.4,1.6,11.1,5.4,11.1,12.9c0,9.1-8.2,16.4-18.1,17.3c-6.8,0.6-13.7,1.2-20.5,1.8c-0.8,0.1-1.5-0.5-1.6-1.3c0-0.1,0-0.1,0-0.2
+	L0,61.9z M19.4,84.1c3.3-0.2,5.8-2.9,5.8-6.2c0-3.3-2.6-5.6-5.8-5.6c-2.1,0-4.3,0.1-6.4,0.1v11.9C15.1,84.3,17.3,84.2,19.4,84.1z
+	 M20.4,107c3.4-0.3,5.9-3.1,6-6.5c0-3.3-3.6-5.7-6.8-5.5c-2.2,0.1-4.5,0.2-6.7,0.3v12.2C15.4,107.4,18,107.2,20.4,107z"/>
+    <path d="M42,115.2C50.7,96.2,59.4,78,68,60.3c0.3-0.5,0.8-0.9,1.4-0.9h0.8c0.6,0,1.1,0.3,1.4,0.8c8.6,17.6,17.3,34.7,25.9,51.3
+	c0.5,0.9-0.1,2-1.4,2.1c-3.1,0.2-6.2,0.3-9.2,0.5c-1.5,0.1-2.1-0.3-2.9-1.7l-3-6c-7.5,0.4-15,0.8-22.6,1.3c-1,2.2-2,4.4-3,6.6
+	c-0.5,1.2-1.6,2.1-3,2.1c-3,0.2-6.1,0.4-9.1,0.7C42.2,117.3,41.5,116.3,42,115.2z M76.1,96.1c-2.1-4.2-4.2-8.4-6.3-12.7h-0.1
+	c-2.1,4.4-4.2,8.8-6.2,13.3C67.7,96.5,71.9,96.3,76.1,96.1L76.1,96.1z"/>
+    <path d="M104.5,61.9c0-1,0.9-1.9,2-1.8c0,0,0,0,0,0h9.7c1,0,1.9,0.8,2,1.8c0,6.5,0,13.1,0,19.7c6.2-7,12.3-14,18.5-20.7
+	c0.4-0.4,1-0.7,1.6-0.7h10.5c1.6,0,2.4,1.6,1.5,2.7c-6.5,7.1-13,14.4-19.4,21.7c7,8,14.1,15.9,21.1,23.8c0.9,1,0,2.7-1.6,2.7
+	l-11.5,0.4c-0.5,0-1.1-0.1-1.5-0.4c-6.4-7.4-12.7-15-19.1-22.6c0,7.4,0,14.9,0,22.3c-0.1,1.1-0.9,1.9-2,1.9
+	c-3.2,0.1-6.5,0.3-9.7,0.5c-1,0.1-1.9-0.6-2-1.6c0,0,0-0.1,0-0.1C104.4,94.9,104.4,78.4,104.5,61.9z"/>
+    <path d="M158.9,61.5c0.1-0.8,0.8-1.4,1.6-1.4c0,0,0,0,0,0h34.4c0.8-0.1,1.5,0.5,1.6,1.3v7.7c-0.1,0.8-0.8,1.4-1.6,1.3l-23,0.1v8.9
+	c6.3,0,12.6-0.1,18.9-0.2c0.8,0,1.5,0.5,1.6,1.3v7.7c0,0.8-0.7,1.3-1.6,1.4l-18.9,0.3v9.7c7.7-0.2,15.3-0.3,23-0.4
+	c0.8-0.1,1.5,0.5,1.6,1.3v7.7c-0.1,0.8-0.8,1.4-1.6,1.4c-11.5,0.2-22.9,0.6-34.4,0.9c-0.8,0.1-1.5-0.5-1.6-1.3c0,0,0,0,0-0.1
+	C158.9,93.4,158.9,77.5,158.9,61.5z"/>
+    <path d="M203.1,61.5c0.1-0.8,0.8-1.4,1.6-1.3h24.8c10,0,18.1,6.8,18.1,15.2c0,6.4-5.1,11.7-12.3,14.1c3.8,6,7.6,11.9,11.4,17.8
+	c0.6,0.9,0,2-1.4,2c-3.7,0-7.4,0-11.1,0c-0.5,0-1-0.2-1.3-0.6c-3.7-6.2-7.3-12.4-11.1-18.6c-1.9,0-3.8,0-5.8,0v18
+	c-0.1,0.8-0.8,1.4-1.6,1.3l-9.9,0.1c-0.8,0.1-1.5-0.5-1.6-1.3C203.1,92.7,203.1,77.1,203.1,61.5z M228.4,81.1c3.4,0,6.3-2.7,6.3-5.7
+	s-2.9-5.4-6.3-5.4c-4.1,0-8.2,0-12.3,0v11C220.2,81.1,224.3,81.1,228.4,81.1z"/>
+    <path d="M254.6,102.6c1.3-1.9,2.6-3.9,3.9-5.8c0.6-0.9,2.2-0.7,2.8-0.4c0.3,0.1,6.3,3.9,11.8,3.9c3.3,0,5.8-1.7,5.8-4.2
+	c0-3-2.9-5.3-8.6-7.1c-7.1-2.4-16.1-7.1-16.1-15.6c0-6.9,6.4-14,19.2-14c8.6,0,15.3,3.7,17.8,5.3c1,0.5,0.8,1.8,0.5,2.3
+	c-1.4,1.8-2.8,3.6-4.2,5.4c-0.6,0.8-2.1,1.4-2.8,0.9c-0.7-0.3-6.8-4.3-11.9-4.3c-3,0-5.2,1.7-5.2,3.6c0,2.6,2.5,4.6,9.1,6.8
+	c6.5,2.2,16.8,6.6,16.8,16.2c0,7.3-7.4,14.5-19.6,14.4c-10.8-0.1-16.8-3.9-18.7-5.5C254.2,103.9,253.9,103.6,254.6,102.6z"/>
+    <path d="M300,61.5c0.1-0.8,0.8-1.4,1.6-1.3h34.4c0.8-0.1,1.5,0.6,1.6,1.4c0,0,0,0,0,0v7.9c0,0.8-0.7,1.4-1.5,1.3c0,0-0.1,0-0.1,0
+	l-23-0.1v10.3c6.3,0,12.6,0.1,18.9,0.2c0.8,0,1.5,0.6,1.6,1.4v7.8c-0.1,0.8-0.8,1.4-1.6,1.3c-6.3-0.1-12.6-0.2-18.9-0.3v17.3
+	c-0.1,0.8-0.8,1.4-1.6,1.3c-3.3-0.1-6.5-0.1-9.8-0.2c-0.8,0.1-1.5-0.6-1.6-1.4c0,0,0,0,0,0C300,92.7,300,77.1,300,61.5z"/>
+    <path d="M344.2,61.5c0.1-0.8,0.8-1.4,1.6-1.4h10c0.8,0,1.5,0.6,1.6,1.4c0,16.2,0,32.3,0.1,48.5c-0.1,0.8-0.8,1.4-1.6,1.3
+	c-3.3-0.1-6.6-0.2-10-0.4c-0.8,0-1.5-0.6-1.6-1.4C344.2,93.5,344.2,77.5,344.2,61.5z"/>
+    <path d="M364,61.5c0.1-0.8,0.8-1.4,1.6-1.4c0,0,0,0,0,0h34.4c0.8,0,1.5,0.6,1.6,1.4v8.3c0,0.8-0.7,1.5-1.5,1.4c0,0,0,0-0.1,0
+	c-7.7-0.1-15.3-0.2-23-0.2v9.2c6.3,0.1,12.6,0.2,18.9,0.4c0.8,0,1.5,0.6,1.6,1.5v8.3c0,0.8-0.7,1.4-1.5,1.4c0,0-0.1,0-0.1,0
+	l-18.9-0.6v10.1c7.7,0.3,15.3,0.6,23,0.9c0.9,0,1.5,0.7,1.6,1.5v8.3c0,0.8-0.7,1.4-1.5,1.3c0,0-0.1,0-0.1,0
+	c-11.5-0.7-22.9-1.2-34.4-1.7c-0.8,0-1.5-0.7-1.6-1.5C364,94,364,77.8,364,61.5z"/>
+    <path d="M408.1,61.6c0-0.8,0.7-1.5,1.5-1.4c0,0,0,0,0.1,0h9.9c0.8,0,1.5,0.6,1.6,1.5c0,13.9,0,27.7,0,41.6l19.7,1
+	c0.9,0,1.5,0.7,1.6,1.6v8.7c0,0.8-0.6,1.4-1.4,1.4c-0.1,0-0.1,0-0.2,0c-10.4-0.7-20.8-1.4-31.2-2c-0.8,0-1.5-0.7-1.6-1.5
+	C408.2,95.5,408.1,78.6,408.1,61.6z"/>
+    <path d="M449.2,61.7c0-0.8,0.7-1.5,1.5-1.5h20.2c16-0.1,29.1,13.5,29.1,30.3c0,17-13.1,29.3-29.1,27.8c-6.7-0.5-13.5-1.1-20.2-1.6
+	c-0.8-0.1-1.5-0.8-1.5-1.6C449.2,97.3,449.2,79.5,449.2,61.7z M470.1,106c9.4,0.6,16.2-6.4,16.2-16.1s-6.8-17.3-16.2-17.5l-8-0.1
+	c0,11.1,0,22.1,0,33.2C464.8,105.6,467.5,105.8,470.1,106L470.1,106z"/>
+</svg>
+
+            </a>
+
+                        <button class="header__button header__button--menu"
+                    data-modal-open="main-nav"><svg class="icon icon-hamburger"
+                                                aria-label="Menu icon"
+                                role="image"
+                    ><use href="#hamburger"></use></svg></button>
+
+                        
+                            <a href="/weather/"
+               hidden
+               class="weather-icon  header__button header__button--weather"
+               data-weather-icon
+               data-weather-icon-color="#ffffff"
+               data-weather-icon-floating-color="#ffffff"
+               data-weather-icon-width="60"
+               data-weather-icon-height="60"
+               aria-label="Current Weather is Broken clouds - Read more about weather">
+            </a>
+            <a href="/weather/" class="header__button header__button--weather-temp">
+                    60<sup>&deg;</sup>
+                                </a>
+            
+                        
+
+
+
+<div class="saved-counter header__button header__button--saved is-hidden" data-saved-counter>
+            <a href="/saved-items/"
+           class="saved-counter__link hover-label"
+           tabindex="-1"           aria-label="0 Saved Items"><svg class="icon icon-heart"
+                                                aria-label="heart icon"
+                                role="image"
+                    ><use href="#heart"></use></svg><div class="saved-counter__count" data-saved-count>0</div>
+            <div class="saved-counter__label hover-label__label">Saved</div>
+        </a>
+    </div>
+
+                        <button
+                class="header__button header__button--search"
+                aria-label="Toggle the Site Search"
+                data-modal-open="quick-search"
+            ><svg class="icon icon-search"
+                                                aria-label="search icon"
+                                role="image"
+                    ><use href="#search"></use></svg></button>
+
+                                </div>
+    </div>
+</div>
+    
+                
+
+<div
+    class="modal modal--nav nav bg--none-95 bg--no-collapse"
+        data-modal="main-nav"
+    data-modal-auto    role="dialog"
+    aria-modal="true"
+    hidden
+>
+    <div class="modal__inner" data-modal-focus>
+                            <div class="show-for-sr">Navigation</div>
+        
+                
+                <div class="modal__content nav__content">
+
+            
+                                <div class="nav__wrapper js-nav-parent is-closed">
+
+                <div class="nav__main bg--dark-blue layout--fluid-v layout--fluid-h">
+            <div class="nav__icon"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" data-name="Layer 1" viewBox="0 0 1100 972">
+    <defs>
+        <path id="a" d="M1061.72 143.4c-139-79-317.12-126.4-512-126.4a1157.72 1157.72 0 0 0-129.49 7.22V336.8s53.2-56.08 162.06-56.08c130.32 0 242.49 84.13 242.49 255.89 0 140.21-103.51 255.88-241.25 255.88-107.22 0-163.3-76.7-163.3-76.7l-19.38 52.78a16.71 16.71 0 0 1-23.51 9.07c-15.05-7.83-47-24.33-67.63-34.84a18.15 18.15 0 0 1-9.9-16.29V44.22C203.14 65.87 114.68 99.89 38 143.4a15.91 15.91 0 0 0-8 14.22v503.11A15.86 15.86 0 0 0 38.6 675l503.93 259.14a15.33 15.33 0 0 0 14.64 0L1061.1 675a15.88 15.88 0 0 0 8.66-14.23V157.62a16.34 16.34 0 0 0-8.04-14.22Z" class="cls-1"/>
+        <path id="b" d="M685 532.28c-1.44-68.67-55.26-121.86-126-121.86s-123.1 53.19-124.55 121.86c0 .82-.2 1.85-.2 2.68 0 71.75 53 127.83 124.54 127.83S685 606.71 685 535a12 12 0 0 0 0-2.72Z" class="cls-1"/>
+    </defs>
+    <use xlink:href="#a" class="cls-1"/>
+    <use xlink:href="#b" class="cls-1"/>
+    <use xlink:href="#a" class="cls-2"/>
+    <use xlink:href="#b" class="cls-3"/>
+    <path d="M558.82 646.3c-66.6 0-117.74-48-124.34-114 0 .82-.2 1.85-.2 2.68 0 71.75 53 127.83 124.54 127.83C630.57 662.79 685 606.71 685 535c0-1-.21-1.86-.21-2.89-6.38 66.15-58.34 114.19-125.97 114.19Z" class="cls-4"/>
+    <path d="M29.73 348.76v36.91l269.9-14.64v-22.27H29.73zm0 88.46v36.91l269.9-14.44v-22.47H29.73zm0 88.66v36.91l269.9-14.64v-22.27H29.73zm0 88.46v36.91l269.9-14.43v-22.48H29.73zm1040.03-228.67v-36.91H757A249.2 249.2 0 0 1 776.15 371Zm0 88.46v-36.91H810c2.27 7.22 4.54 14.64 6.19 22.27ZM824.6 548.15l245.16 14.64v-36.91H824.6c0 3.51.21 7 .21 10.73 0 3.91 0 7.83-.21 11.54Zm245.16 103.1v-36.91H813.67c-2.27 7.63-4.74 15-7.63 22.27Z" class="cls-5"/>
+    <path d="M29.73 348.76h269.91v22.27H29.73zm0 88.46h269.91v22.27H29.73zm0 88.66h269.91v22.27H29.73zm0 88.46h269.91v22.27H29.73zM1069.76 371v-22.24H757A249.2 249.2 0 0 1 776.15 371Zm0 88.7v-22.27H810c2.27 7.21 4.54 14.64 6.19 22.27ZM824.6 548.15h245.16v-22.27H824.6c0 3.51.21 7 .21 10.73 0 3.91 0 7.83-.21 11.54Zm245.16 88.66v-22.26H813.67c-2.27 7.63-4.74 15.05-7.63 22.26Z" class="lines"/>
+</svg>
+</div>
+            <div class="layout--wide">
+                <div class="nav__holder col col--desktop-full-height">
+                    <div class="nav__meta row">
+                                                <a href="https://www.visitbakersfield.com/" class="nav__logo logo--modal" aria-label="Home">
+                            <svg id="Layer_2_00000178171419350077085900000007184445623783142027_" width="500" height="148" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 500 148" xml:space="preserve" aria-title="logo">
+<path d="M175.4,2.2c-0.3-0.5-0.1-1.2,0.4-1.5c0.2-0.1,0.4-0.2,0.6-0.1h8.4c0.5,0,0.9,0.3,1.1,0.7l10.4,23h0.4l10.4-23
+	c0.2-0.4,0.6-0.7,1.1-0.7h8.3c0.6,0,1.2,0.4,1.2,1.1c0,0.2,0,0.4-0.1,0.6l-19.8,42.4c-0.2,0.4-0.6,0.7-1.1,0.7h-0.6
+	c-0.5,0-0.9-0.3-1.1-0.7L175.4,2.2z"/>
+    <path d="M222.8,1.8c0-0.7,0.5-1.2,1.2-1.2h7.6c0.7,0,1.2,0.5,1.2,1.2v41.7c0,0.7-0.5,1.2-1.2,1.2H224c-0.7,0-1.2-0.5-1.2-1.2V1.8z"
+    />
+    <path d="M241,38.7l3-5.2c0.5-0.8,1.7-0.7,2.1-0.4c0.2,0.1,4.8,3.5,8.9,3.5c2.5,0,4.4-1.6,4.4-3.8c0-2.6-2.2-4.7-6.5-6.3
+	c-5.4-2.1-12.3-6.3-12.3-13.9c0-6.2,4.9-12.5,14.6-12.5c6.5,0,11.6,3.3,13.5,4.7c0.7,0.4,0.6,1.6,0.4,2l-3.2,4.9
+	c-0.4,0.7-1.6,1.2-2.1,0.8c-0.5-0.3-5.2-3.8-9-3.8c-2.3,0-4,1.5-4,3.2c0,2.3,1.9,4.1,6.9,6.1c4.9,1.9,12.7,5.8,12.7,14.4
+	c0,6.5-5.6,13-14.9,13c-8.2,0-12.7-3.4-14.2-4.9C240.8,39.9,240.6,39.6,241,38.7z"/>
+    <path d="M278.1,1.8c0-0.7,0.5-1.2,1.2-1.2h7.6c0.7,0,1.2,0.5,1.2,1.2v41.7c0,0.7-0.5,1.2-1.2,1.2h-7.6c-0.7,0-1.2-0.5-1.2-1.2
+	L278.1,1.8z"/>
+    <path d="M304.6,9.9h-9c-0.6,0-1.2-0.5-1.2-1.2c0,0,0,0,0,0V1.8c0-0.6,0.5-1.2,1.2-1.2c0,0,0,0,0,0h28c0.6,0,1.2,0.5,1.2,1.2
+	c0,0,0,0,0,0v6.8c0,0.6-0.5,1.2-1.2,1.2c0,0,0,0,0,0h-9v33.7c0,0.7-0.5,1.2-1.2,1.2h-7.6c-0.7,0-1.2-0.5-1.2-1.2L304.6,9.9
+	L304.6,9.9z"/>
+    <g id="california">
+	<path d="M179.2,124.5c2.9-0.1,5.7,1,7.8,3c0.2,0.2,0.2,0.4,0,0.6c-0.1,0.2-0.3,0.3-0.5,0.5s-0.3,0.1-0.5,0
+		c-4.1-3.7-10.5-3.3-14.2,0.8c-3.7,4.1-3.3,10.5,0.8,14.2c1.8,1.6,4.2,2.5,6.7,2.6c2.8,0,4.9-1.1,6.7-2.7c0.2-0.1,0.4-0.1,0.5,0
+		l0.5,0.5c0.2,0.2,0.2,0.4,0,0.5c-2.1,2-4.9,3.2-7.8,3.1c-6.4,0-11.6-5.2-11.6-11.6S172.8,124.5,179.2,124.5L179.2,124.5
+		L179.2,124.5z"/>
+        <path d="M188.4,146.9c3.3-7.4,6.6-14.9,9.9-22.3c0.1-0.2,0.2-0.2,0.4-0.2h0.1c0.2,0,0.3,0.1,0.4,0.2c3.3,7.4,6.5,14.9,9.8,22.3
+		c0,0.2,0,0.4-0.3,0.4h-0.8c-0.2,0-0.4-0.1-0.4-0.3c-0.8-2-1.7-3.9-2.6-5.9h-12.3c-0.8,2-1.7,3.9-2.6,5.9c-0.1,0.2-0.3,0.3-0.4,0.3
+		h-0.9C188.4,147.3,188.3,147.2,188.4,146.9z M204.2,139.9l-5.5-12.9h0c-1.9,4.3-3.7,8.6-5.6,12.9H204.2z"/>
+        <path d="M210.6,125.3c0-0.2,0.2-0.4,0.4-0.4c0,0,0,0,0,0h0.7c0.2,0,0.4,0.2,0.4,0.4V146h10.2c0.4,0,0.4,0.2,0.4,0.4v0.6
+		c0,0.2-0.2,0.4-0.4,0.4c0,0,0,0,0,0H211c-0.2,0-0.4-0.2-0.4-0.4c0,0,0,0,0,0V125.3z"/>
+        <path d="M225,125.3c0-0.2,0.2-0.4,0.4-0.4c0,0,0,0,0,0h0.7c0.2,0,0.4,0.2,0.4,0.4c0,0,0,0,0,0v21.6c0,0.2-0.2,0.4-0.4,0.4h-0.7
+		c-0.2,0-0.4-0.2-0.4-0.4c0,0,0,0,0,0C225,139.7,225,132.5,225,125.3z"/>
+        <path d="M229.5,125.3c0-0.2,0.2-0.4,0.4-0.4c0,0,0,0,0,0h12.8c0.2,0,0.4,0.2,0.4,0.4c0,0,0,0,0,0v0.5c0,0.2-0.2,0.4-0.4,0.4
+		c0,0,0,0,0,0H231v9.8h10.2c0.2,0,0.4,0.2,0.4,0.4c0,0,0,0,0,0c0,0.3,0,0.9-0.4,0.9H231c0,3.2,0,6.4,0,9.6c0,0.2-0.2,0.4-0.5,0.4
+		h-0.6c-0.2,0-0.4-0.2-0.4-0.4c0,0,0,0,0,0C229.5,139.7,229.5,132.5,229.5,125.3z"/>
+        <path d="M255.2,124.5c6.4,0,11.5,5.2,11.5,11.6c0,6.4-5.2,11.5-11.6,11.5c-6.3,0-11.5-5.2-11.5-11.5
+		C243.6,129.7,248.8,124.6,255.2,124.5C255.2,124.5,255.2,124.5,255.2,124.5z M255.2,146.2c5.6,0,10.2-4.5,10.2-10.1
+		s-4.5-10.2-10.1-10.2c-5.6,0-10.2,4.5-10.2,10.1c0,0,0,0,0,0C245.1,141.7,249.6,146.2,255.2,146.2L255.2,146.2z"/>
+        <path d="M268.8,125.3c0-0.2,0.1-0.4,0.3-0.4c0,0,0,0,0.1,0h7.9c3.9,0,7.1,3,7.1,6.8c0,3.2-2.2,5.9-5.3,6.7c1.5,2.8,3.1,5.6,4.7,8.3
+		c0.1,0.2,0.1,0.6-0.2,0.6h-1c-0.2,0-0.4-0.1-0.4-0.3c-1.5-2.8-3.1-5.6-4.7-8.4c-0.4,0-0.8,0.1-1.2,0h-5.9v8.2
+		c0,0.2-0.2,0.4-0.5,0.4h-0.6c-0.2,0-0.4-0.2-0.4-0.4c0,0,0,0,0,0C268.8,139.7,268.8,132.5,268.8,125.3z M277.1,137.3
+		c3.1,0,5.6-2.5,5.7-5.6c0,0,0,0,0,0c0-3-2.6-5.4-5.7-5.4h-6.7v11C272.6,137.3,274.9,137.3,277.1,137.3L277.1,137.3z"/>
+        <path d="M286.5,124.9c0-0.2,0.2-0.4,0.5-0.4h0.5c5.1,6.7,10.3,13.3,15.4,20h0v-19.3c0-0.2,0.2-0.4,0.4-0.4c0,0,0,0,0,0h0.6
+		c0.2,0,0.4,0.2,0.4,0.4c0,0,0,0,0,0v21.9c0,0.3-0.2,0.4-0.5,0.4h-0.4c0,0-0.3-0.1-15.5-20.2h0v19.5c0,0.2-0.2,0.4-0.4,0.4
+		c0,0,0,0,0,0h-0.6c-0.2,0-0.4-0.2-0.4-0.4c0,0,0,0,0,0C286.5,139.6,286.5,132.3,286.5,124.9z"/>
+        <path d="M307.4,125.3c0-0.2,0.2-0.4,0.4-0.4c0,0,0,0,0,0h0.7c0.2,0,0.4,0.2,0.4,0.4c0,0,0,0,0,0v21.6c0,0.2-0.2,0.4-0.4,0.4h-0.7
+		c-0.2,0-0.4-0.2-0.4-0.4c0,0,0,0,0,0C307.4,139.7,307.4,132.5,307.4,125.3z"/>
+        <path d="M311.8,146.9c3.3-7.4,6.6-14.9,9.9-22.3c0.1-0.2,0.2-0.2,0.4-0.2h0.1c0.2,0,0.3,0.1,0.4,0.2c3.3,7.4,6.5,14.9,9.8,22.3
+		c0,0.2,0,0.4-0.3,0.4h-0.8c-0.2,0-0.4-0.1-0.4-0.3c-0.8-2-1.7-3.9-2.6-5.9h-12.3c-0.8,2-1.7,3.9-2.6,5.9c-0.1,0.2-0.3,0.3-0.4,0.3
+		H312C311.8,147.3,311.7,147.2,311.8,146.9z M327.7,139.9l-5.5-12.9h0c-1.9,4.3-3.7,8.6-5.6,12.9H327.7z"/>
+</g>
+    <path d="M0,61.9c0-0.9,0.7-1.6,1.6-1.6c0,0,0,0,0,0h19.3c9.8,0,17.9,6.6,17.8,15.2c0,6.3-5.8,11.1-9.6,13.3
+	c4.4,1.6,11.1,5.4,11.1,12.9c0,9.1-8.2,16.4-18.1,17.3c-6.8,0.6-13.7,1.2-20.5,1.8c-0.8,0.1-1.5-0.5-1.6-1.3c0-0.1,0-0.1,0-0.2
+	L0,61.9z M19.4,84.1c3.3-0.2,5.8-2.9,5.8-6.2c0-3.3-2.6-5.6-5.8-5.6c-2.1,0-4.3,0.1-6.4,0.1v11.9C15.1,84.3,17.3,84.2,19.4,84.1z
+	 M20.4,107c3.4-0.3,5.9-3.1,6-6.5c0-3.3-3.6-5.7-6.8-5.5c-2.2,0.1-4.5,0.2-6.7,0.3v12.2C15.4,107.4,18,107.2,20.4,107z"/>
+    <path d="M42,115.2C50.7,96.2,59.4,78,68,60.3c0.3-0.5,0.8-0.9,1.4-0.9h0.8c0.6,0,1.1,0.3,1.4,0.8c8.6,17.6,17.3,34.7,25.9,51.3
+	c0.5,0.9-0.1,2-1.4,2.1c-3.1,0.2-6.2,0.3-9.2,0.5c-1.5,0.1-2.1-0.3-2.9-1.7l-3-6c-7.5,0.4-15,0.8-22.6,1.3c-1,2.2-2,4.4-3,6.6
+	c-0.5,1.2-1.6,2.1-3,2.1c-3,0.2-6.1,0.4-9.1,0.7C42.2,117.3,41.5,116.3,42,115.2z M76.1,96.1c-2.1-4.2-4.2-8.4-6.3-12.7h-0.1
+	c-2.1,4.4-4.2,8.8-6.2,13.3C67.7,96.5,71.9,96.3,76.1,96.1L76.1,96.1z"/>
+    <path d="M104.5,61.9c0-1,0.9-1.9,2-1.8c0,0,0,0,0,0h9.7c1,0,1.9,0.8,2,1.8c0,6.5,0,13.1,0,19.7c6.2-7,12.3-14,18.5-20.7
+	c0.4-0.4,1-0.7,1.6-0.7h10.5c1.6,0,2.4,1.6,1.5,2.7c-6.5,7.1-13,14.4-19.4,21.7c7,8,14.1,15.9,21.1,23.8c0.9,1,0,2.7-1.6,2.7
+	l-11.5,0.4c-0.5,0-1.1-0.1-1.5-0.4c-6.4-7.4-12.7-15-19.1-22.6c0,7.4,0,14.9,0,22.3c-0.1,1.1-0.9,1.9-2,1.9
+	c-3.2,0.1-6.5,0.3-9.7,0.5c-1,0.1-1.9-0.6-2-1.6c0,0,0-0.1,0-0.1C104.4,94.9,104.4,78.4,104.5,61.9z"/>
+    <path d="M158.9,61.5c0.1-0.8,0.8-1.4,1.6-1.4c0,0,0,0,0,0h34.4c0.8-0.1,1.5,0.5,1.6,1.3v7.7c-0.1,0.8-0.8,1.4-1.6,1.3l-23,0.1v8.9
+	c6.3,0,12.6-0.1,18.9-0.2c0.8,0,1.5,0.5,1.6,1.3v7.7c0,0.8-0.7,1.3-1.6,1.4l-18.9,0.3v9.7c7.7-0.2,15.3-0.3,23-0.4
+	c0.8-0.1,1.5,0.5,1.6,1.3v7.7c-0.1,0.8-0.8,1.4-1.6,1.4c-11.5,0.2-22.9,0.6-34.4,0.9c-0.8,0.1-1.5-0.5-1.6-1.3c0,0,0,0,0-0.1
+	C158.9,93.4,158.9,77.5,158.9,61.5z"/>
+    <path d="M203.1,61.5c0.1-0.8,0.8-1.4,1.6-1.3h24.8c10,0,18.1,6.8,18.1,15.2c0,6.4-5.1,11.7-12.3,14.1c3.8,6,7.6,11.9,11.4,17.8
+	c0.6,0.9,0,2-1.4,2c-3.7,0-7.4,0-11.1,0c-0.5,0-1-0.2-1.3-0.6c-3.7-6.2-7.3-12.4-11.1-18.6c-1.9,0-3.8,0-5.8,0v18
+	c-0.1,0.8-0.8,1.4-1.6,1.3l-9.9,0.1c-0.8,0.1-1.5-0.5-1.6-1.3C203.1,92.7,203.1,77.1,203.1,61.5z M228.4,81.1c3.4,0,6.3-2.7,6.3-5.7
+	s-2.9-5.4-6.3-5.4c-4.1,0-8.2,0-12.3,0v11C220.2,81.1,224.3,81.1,228.4,81.1z"/>
+    <path d="M254.6,102.6c1.3-1.9,2.6-3.9,3.9-5.8c0.6-0.9,2.2-0.7,2.8-0.4c0.3,0.1,6.3,3.9,11.8,3.9c3.3,0,5.8-1.7,5.8-4.2
+	c0-3-2.9-5.3-8.6-7.1c-7.1-2.4-16.1-7.1-16.1-15.6c0-6.9,6.4-14,19.2-14c8.6,0,15.3,3.7,17.8,5.3c1,0.5,0.8,1.8,0.5,2.3
+	c-1.4,1.8-2.8,3.6-4.2,5.4c-0.6,0.8-2.1,1.4-2.8,0.9c-0.7-0.3-6.8-4.3-11.9-4.3c-3,0-5.2,1.7-5.2,3.6c0,2.6,2.5,4.6,9.1,6.8
+	c6.5,2.2,16.8,6.6,16.8,16.2c0,7.3-7.4,14.5-19.6,14.4c-10.8-0.1-16.8-3.9-18.7-5.5C254.2,103.9,253.9,103.6,254.6,102.6z"/>
+    <path d="M300,61.5c0.1-0.8,0.8-1.4,1.6-1.3h34.4c0.8-0.1,1.5,0.6,1.6,1.4c0,0,0,0,0,0v7.9c0,0.8-0.7,1.4-1.5,1.3c0,0-0.1,0-0.1,0
+	l-23-0.1v10.3c6.3,0,12.6,0.1,18.9,0.2c0.8,0,1.5,0.6,1.6,1.4v7.8c-0.1,0.8-0.8,1.4-1.6,1.3c-6.3-0.1-12.6-0.2-18.9-0.3v17.3
+	c-0.1,0.8-0.8,1.4-1.6,1.3c-3.3-0.1-6.5-0.1-9.8-0.2c-0.8,0.1-1.5-0.6-1.6-1.4c0,0,0,0,0,0C300,92.7,300,77.1,300,61.5z"/>
+    <path d="M344.2,61.5c0.1-0.8,0.8-1.4,1.6-1.4h10c0.8,0,1.5,0.6,1.6,1.4c0,16.2,0,32.3,0.1,48.5c-0.1,0.8-0.8,1.4-1.6,1.3
+	c-3.3-0.1-6.6-0.2-10-0.4c-0.8,0-1.5-0.6-1.6-1.4C344.2,93.5,344.2,77.5,344.2,61.5z"/>
+    <path d="M364,61.5c0.1-0.8,0.8-1.4,1.6-1.4c0,0,0,0,0,0h34.4c0.8,0,1.5,0.6,1.6,1.4v8.3c0,0.8-0.7,1.5-1.5,1.4c0,0,0,0-0.1,0
+	c-7.7-0.1-15.3-0.2-23-0.2v9.2c6.3,0.1,12.6,0.2,18.9,0.4c0.8,0,1.5,0.6,1.6,1.5v8.3c0,0.8-0.7,1.4-1.5,1.4c0,0-0.1,0-0.1,0
+	l-18.9-0.6v10.1c7.7,0.3,15.3,0.6,23,0.9c0.9,0,1.5,0.7,1.6,1.5v8.3c0,0.8-0.7,1.4-1.5,1.3c0,0-0.1,0-0.1,0
+	c-11.5-0.7-22.9-1.2-34.4-1.7c-0.8,0-1.5-0.7-1.6-1.5C364,94,364,77.8,364,61.5z"/>
+    <path d="M408.1,61.6c0-0.8,0.7-1.5,1.5-1.4c0,0,0,0,0.1,0h9.9c0.8,0,1.5,0.6,1.6,1.5c0,13.9,0,27.7,0,41.6l19.7,1
+	c0.9,0,1.5,0.7,1.6,1.6v8.7c0,0.8-0.6,1.4-1.4,1.4c-0.1,0-0.1,0-0.2,0c-10.4-0.7-20.8-1.4-31.2-2c-0.8,0-1.5-0.7-1.6-1.5
+	C408.2,95.5,408.1,78.6,408.1,61.6z"/>
+    <path d="M449.2,61.7c0-0.8,0.7-1.5,1.5-1.5h20.2c16-0.1,29.1,13.5,29.1,30.3c0,17-13.1,29.3-29.1,27.8c-6.7-0.5-13.5-1.1-20.2-1.6
+	c-0.8-0.1-1.5-0.8-1.5-1.6C449.2,97.3,449.2,79.5,449.2,61.7z M470.1,106c9.4,0.6,16.2-6.4,16.2-16.1s-6.8-17.3-16.2-17.5l-8-0.1
+	c0,11.1,0,22.1,0,33.2C464.8,105.6,467.5,105.8,470.1,106L470.1,106z"/>
+    <path d="M0,61.9c0-0.9,0.7-1.6,1.6-1.6c0,0,0,0,0,0h19.3c9.8,0,17.9,6.6,17.8,15.2c0,6.3-5.8,11.1-9.6,13.3
+	c4.4,1.6,11.1,5.4,11.1,12.9c0,9.1-8.2,16.4-18.1,17.3c-6.8,0.6-13.7,1.2-20.5,1.8c-0.8,0.1-1.5-0.5-1.6-1.3c0-0.1,0-0.1,0-0.2
+	L0,61.9z M19.4,84.1c3.3-0.2,5.8-2.9,5.8-6.2c0-3.3-2.6-5.6-5.8-5.6c-2.1,0-4.3,0.1-6.4,0.1v11.9C15.1,84.3,17.3,84.2,19.4,84.1z
+	 M20.4,107c3.4-0.3,5.9-3.1,6-6.5c0-3.3-3.6-5.7-6.8-5.5c-2.2,0.1-4.5,0.2-6.7,0.3v12.2C15.4,107.4,18,107.2,20.4,107z"/>
+    <path d="M42,115.2C50.7,96.2,59.4,78,68,60.3c0.3-0.5,0.8-0.9,1.4-0.9h0.8c0.6,0,1.1,0.3,1.4,0.8c8.6,17.6,17.3,34.7,25.9,51.3
+	c0.5,0.9-0.1,2-1.4,2.1c-3.1,0.2-6.2,0.3-9.2,0.5c-1.5,0.1-2.1-0.3-2.9-1.7l-3-6c-7.5,0.4-15,0.8-22.6,1.3c-1,2.2-2,4.4-3,6.6
+	c-0.5,1.2-1.6,2.1-3,2.1c-3,0.2-6.1,0.4-9.1,0.7C42.2,117.3,41.5,116.3,42,115.2z M76.1,96.1c-2.1-4.2-4.2-8.4-6.3-12.7h-0.1
+	c-2.1,4.4-4.2,8.8-6.2,13.3C67.7,96.5,71.9,96.3,76.1,96.1L76.1,96.1z"/>
+    <path d="M104.5,61.9c0-1,0.9-1.9,2-1.8c0,0,0,0,0,0h9.7c1,0,1.9,0.8,2,1.8c0,6.5,0,13.1,0,19.7c6.2-7,12.3-14,18.5-20.7
+	c0.4-0.4,1-0.7,1.6-0.7h10.5c1.6,0,2.4,1.6,1.5,2.7c-6.5,7.1-13,14.4-19.4,21.7c7,8,14.1,15.9,21.1,23.8c0.9,1,0,2.7-1.6,2.7
+	l-11.5,0.4c-0.5,0-1.1-0.1-1.5-0.4c-6.4-7.4-12.7-15-19.1-22.6c0,7.4,0,14.9,0,22.3c-0.1,1.1-0.9,1.9-2,1.9
+	c-3.2,0.1-6.5,0.3-9.7,0.5c-1,0.1-1.9-0.6-2-1.6c0,0,0-0.1,0-0.1C104.4,94.9,104.4,78.4,104.5,61.9z"/>
+    <path d="M158.9,61.5c0.1-0.8,0.8-1.4,1.6-1.4c0,0,0,0,0,0h34.4c0.8-0.1,1.5,0.5,1.6,1.3v7.7c-0.1,0.8-0.8,1.4-1.6,1.3l-23,0.1v8.9
+	c6.3,0,12.6-0.1,18.9-0.2c0.8,0,1.5,0.5,1.6,1.3v7.7c0,0.8-0.7,1.3-1.6,1.4l-18.9,0.3v9.7c7.7-0.2,15.3-0.3,23-0.4
+	c0.8-0.1,1.5,0.5,1.6,1.3v7.7c-0.1,0.8-0.8,1.4-1.6,1.4c-11.5,0.2-22.9,0.6-34.4,0.9c-0.8,0.1-1.5-0.5-1.6-1.3c0,0,0,0,0-0.1
+	C158.9,93.4,158.9,77.5,158.9,61.5z"/>
+    <path d="M203.1,61.5c0.1-0.8,0.8-1.4,1.6-1.3h24.8c10,0,18.1,6.8,18.1,15.2c0,6.4-5.1,11.7-12.3,14.1c3.8,6,7.6,11.9,11.4,17.8
+	c0.6,0.9,0,2-1.4,2c-3.7,0-7.4,0-11.1,0c-0.5,0-1-0.2-1.3-0.6c-3.7-6.2-7.3-12.4-11.1-18.6c-1.9,0-3.8,0-5.8,0v18
+	c-0.1,0.8-0.8,1.4-1.6,1.3l-9.9,0.1c-0.8,0.1-1.5-0.5-1.6-1.3C203.1,92.7,203.1,77.1,203.1,61.5z M228.4,81.1c3.4,0,6.3-2.7,6.3-5.7
+	s-2.9-5.4-6.3-5.4c-4.1,0-8.2,0-12.3,0v11C220.2,81.1,224.3,81.1,228.4,81.1z"/>
+    <path d="M254.6,102.6c1.3-1.9,2.6-3.9,3.9-5.8c0.6-0.9,2.2-0.7,2.8-0.4c0.3,0.1,6.3,3.9,11.8,3.9c3.3,0,5.8-1.7,5.8-4.2
+	c0-3-2.9-5.3-8.6-7.1c-7.1-2.4-16.1-7.1-16.1-15.6c0-6.9,6.4-14,19.2-14c8.6,0,15.3,3.7,17.8,5.3c1,0.5,0.8,1.8,0.5,2.3
+	c-1.4,1.8-2.8,3.6-4.2,5.4c-0.6,0.8-2.1,1.4-2.8,0.9c-0.7-0.3-6.8-4.3-11.9-4.3c-3,0-5.2,1.7-5.2,3.6c0,2.6,2.5,4.6,9.1,6.8
+	c6.5,2.2,16.8,6.6,16.8,16.2c0,7.3-7.4,14.5-19.6,14.4c-10.8-0.1-16.8-3.9-18.7-5.5C254.2,103.9,253.9,103.6,254.6,102.6z"/>
+    <path d="M300,61.5c0.1-0.8,0.8-1.4,1.6-1.3h34.4c0.8-0.1,1.5,0.6,1.6,1.4c0,0,0,0,0,0v7.9c0,0.8-0.7,1.4-1.5,1.3c0,0-0.1,0-0.1,0
+	l-23-0.1v10.3c6.3,0,12.6,0.1,18.9,0.2c0.8,0,1.5,0.6,1.6,1.4v7.8c-0.1,0.8-0.8,1.4-1.6,1.3c-6.3-0.1-12.6-0.2-18.9-0.3v17.3
+	c-0.1,0.8-0.8,1.4-1.6,1.3c-3.3-0.1-6.5-0.1-9.8-0.2c-0.8,0.1-1.5-0.6-1.6-1.4c0,0,0,0,0,0C300,92.7,300,77.1,300,61.5z"/>
+    <path d="M344.2,61.5c0.1-0.8,0.8-1.4,1.6-1.4h10c0.8,0,1.5,0.6,1.6,1.4c0,16.2,0,32.3,0.1,48.5c-0.1,0.8-0.8,1.4-1.6,1.3
+	c-3.3-0.1-6.6-0.2-10-0.4c-0.8,0-1.5-0.6-1.6-1.4C344.2,93.5,344.2,77.5,344.2,61.5z"/>
+    <path d="M364,61.5c0.1-0.8,0.8-1.4,1.6-1.4c0,0,0,0,0,0h34.4c0.8,0,1.5,0.6,1.6,1.4v8.3c0,0.8-0.7,1.5-1.5,1.4c0,0,0,0-0.1,0
+	c-7.7-0.1-15.3-0.2-23-0.2v9.2c6.3,0.1,12.6,0.2,18.9,0.4c0.8,0,1.5,0.6,1.6,1.5v8.3c0,0.8-0.7,1.4-1.5,1.4c0,0-0.1,0-0.1,0
+	l-18.9-0.6v10.1c7.7,0.3,15.3,0.6,23,0.9c0.9,0,1.5,0.7,1.6,1.5v8.3c0,0.8-0.7,1.4-1.5,1.3c0,0-0.1,0-0.1,0
+	c-11.5-0.7-22.9-1.2-34.4-1.7c-0.8,0-1.5-0.7-1.6-1.5C364,94,364,77.8,364,61.5z"/>
+    <path d="M408.1,61.6c0-0.8,0.7-1.5,1.5-1.4c0,0,0,0,0.1,0h9.9c0.8,0,1.5,0.6,1.6,1.5c0,13.9,0,27.7,0,41.6l19.7,1
+	c0.9,0,1.5,0.7,1.6,1.6v8.7c0,0.8-0.6,1.4-1.4,1.4c-0.1,0-0.1,0-0.2,0c-10.4-0.7-20.8-1.4-31.2-2c-0.8,0-1.5-0.7-1.6-1.5
+	C408.2,95.5,408.1,78.6,408.1,61.6z"/>
+    <path d="M449.2,61.7c0-0.8,0.7-1.5,1.5-1.5h20.2c16-0.1,29.1,13.5,29.1,30.3c0,17-13.1,29.3-29.1,27.8c-6.7-0.5-13.5-1.1-20.2-1.6
+	c-0.8-0.1-1.5-0.8-1.5-1.6C449.2,97.3,449.2,79.5,449.2,61.7z M470.1,106c9.4,0.6,16.2-6.4,16.2-16.1s-6.8-17.3-16.2-17.5l-8-0.1
+	c0,11.1,0,22.1,0,33.2C464.8,105.6,467.5,105.8,470.1,106L470.1,106z"/>
+</svg>
+
+                        </a>
+
+                    </div>
+
+                    <div class="nav__ancillary col">
+                                                <ul class="nav__primary nav__nav js-nav row">
+                            <li class="nav__item has-children nav__item-closed"><a href="https://www.visitbakersfield.com/things-to-do/"
+               target=""
+               rel="noopener"
+               class="nav__link ">Things to Do</a><button class="subnav-toggle js-submenu"
+                            type="button"
+                            aria-label="Expand Subnavigation"
+                            aria-expanded="false"
+                            aria-controls="submenu-608811"></button><ul id="submenu-608811" class="nav__subnav js-subnav is-hidden"><li class="nav__item has-children nav__item-closed"><a href="https://www.visitbakersfield.com/things-to-do/outdoors/"
+               target=""
+               rel="noopener"
+               class="nav__link ">Outdoors</a></li><li class="nav__item has-children nav__item-closed"><a href="https://www.visitbakersfield.com/things-to-do/shopping/"
+               target=""
+               rel="noopener"
+               class="nav__link ">Shopping</a></li><li class="nav__item has-children nav__item-closed"><a href="https://www.visitbakersfield.com/things-to-do/music-entertainment/"
+               target=""
+               rel="noopener"
+               class="nav__link ">Music & Entertainment</a></li><li class="nav__item has-children nav__item-closed"><a href="https://www.visitbakersfield.com/things-to-do/arts-culture/"
+               target=""
+               rel="noopener"
+               class="nav__link ">Arts & Culture</a></li><li class="nav__item "><a href="https://www.visitbakersfield.com/things-to-do/sports-teams/"
+               target=""
+               rel="noopener"
+               class="nav__link ">Sports Teams</a></li><li class="nav__item "><a href="https://www.visitbakersfield.com/things-to-do/bakersfield-savings-pass/"
+               target=""
+               rel="noopener"
+               class="nav__link ">Bakersfield Savings Pass</a></li><li class="nav__item "><a href="https://www.visitbakersfield.com/things-to-do/bakersfield-historical-trail/"
+               target=""
+               rel="noopener"
+               class="nav__link ">Bakersfield: A Journey Through Time Historical Trail</a></li><li class="nav__item "><a href="https://www.visitbakersfield.com/things-to-do/driving-tour/"
+               target=""
+               rel="noopener"
+               class="nav__link ">Bakersfield Driving Tour</a></li></ul></li><li class="nav__item has-children nav__item-closed"><a href="https://www.visitbakersfield.com/restaurants/"
+               target=""
+               rel="noopener"
+               class="nav__link ">Eat & Drink</a><button class="subnav-toggle js-submenu"
+                            type="button"
+                            aria-label="Expand Subnavigation"
+                            aria-expanded="false"
+                            aria-controls="submenu-608841"></button><ul id="submenu-608841" class="nav__subnav js-subnav is-hidden"><li class="nav__item "><a href="https://www.visitbakersfield.com/restaurants/bakersfield-basque/"
+               target=""
+               rel="noopener"
+               class="nav__link ">Bakersfield Basque</a></li><li class="nav__item "><a href="https://www.visitbakersfield.com/restaurants/diners-drive-ins-dives/"
+               target=""
+               rel="noopener"
+               class="nav__link ">Diners, Drive-Ins & Dives</a></li><li class="nav__item "><a href="https://www.visitbakersfield.com/restaurants/brewery-trail/"
+               target=""
+               rel="noopener"
+               class="nav__link ">Bakersfield Kern County Brewery Trail</a></li><li class="nav__item "><a href="https://www.visitbakersfield.com/restaurants/bakersfield-kern-county-wine-trail/"
+               target=""
+               rel="noopener"
+               class="nav__link ">Bakersfield Kern County Wine Trail</a></li></ul></li><li class="nav__item "><a href="https://www.visitbakersfield.com/where-to-stay/"
+               target=""
+               rel="noopener"
+               class="nav__link ">Where to Stay</a></li><li class="nav__item "><a href="https://www.visitbakersfield.com/events/"
+               target=""
+               rel="noopener"
+               class="nav__link ">Calendar of Events</a></li><li class="nav__item has-children nav__item-closed"><a href="https://www.visitbakersfield.com/plan/"
+               target=""
+               rel="noopener"
+               class="nav__link ">Plan</a><button class="subnav-toggle js-submenu"
+                            type="button"
+                            aria-label="Expand Subnavigation"
+                            aria-expanded="false"
+                            aria-controls="submenu-620026"></button><ul id="submenu-620026" class="nav__subnav js-subnav is-hidden"><li class="nav__item "><a href="https://www.visitbakersfield.com/plan/getting-here/"
+               target=""
+               rel="noopener"
+               class="nav__link ">Getting Here</a></li><li class="nav__item has-children nav__item-closed"><a href="https://www.visitbakersfield.com/plan/trip-ideas/"
+               target=""
+               rel="noopener"
+               class="nav__link ">Trip Ideas</a></li><li class="nav__item "><a href="https://www.visitbakersfield.com/plan/visitors-information-center/"
+               target=""
+               rel="noopener"
+               class="nav__link ">Visitors Information Center</a></li><li class="nav__item "><a href="https://www.visitbakersfield.com/plan/deals/"
+               target=""
+               rel="noopener"
+               class="nav__link ">Deals</a></li><li class="nav__item has-children nav__item-closed"><a href="https://www.visitbakersfield.com/plan/brochures/"
+               target=""
+               rel="noopener"
+               class="nav__link ">Brochures</a></li><li class="nav__item has-children nav__item-closed"><a href="https://www.visitbakersfield.com/plan/visitors-guide/"
+               target=""
+               rel="noopener"
+               class="nav__link ">Insiders' Guide Request</a></li><li class="nav__item "><a href="https://www.visitbakersfield.com/plan/road-conditions/"
+               target=""
+               rel="noopener"
+               class="nav__link ">Road Conditions</a></li></ul></li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+                        <div class="nav__secondary-holder layout--fluid-h bg--teal">
+                <ul class="nav__secondary">
+                    <li class="nav__item has-children nav__item-closed"><a href="https://www.visitbakersfield.com/meetings/"
+               target=""
+               rel="noopener"
+               class="nav__link ">Meetings</a></li><li class="nav__item "><a href="https://www.visitbakersfield.com/blog/"
+               target=""
+               rel="noopener"
+               class="nav__link ">Blog</a></li><li class="nav__item has-children nav__item-closed"><a href="https://www.visitbakersfield.com/media/"
+               target=""
+               rel="noopener"
+               class="nav__link ">Media</a></li><li class="nav__item has-children nav__item-closed"><a href="https://www.visitbakersfield.com/about-us/"
+               target=""
+               rel="noopener"
+               class="nav__link ">About Us</a></li><li class="nav__item "><a href="https://visitbakersfield.idss.com/extranet"
+               target="_blank"
+               rel="noopener"
+               class="nav__link ">Partners</a></li>
+                </ul>
+                <ul class="page-social"><li><a href="https://www.facebook.com/VisitBakersfield/" target="_blank" rel="noopener"><svg class="icon icon-facebook-circle"
+                                                aria-label="Facebook"
+                                role="image"
+                    ><use href="#facebook-circle"></use></svg></a></li><li><a href="https://www.instagram.com/visitbakersfield" target="_blank" rel="noopener"><svg class="icon icon-instagram-circle"
+                                                aria-label="Instagram"
+                                role="image"
+                    ><use href="#instagram-circle"></use></svg></a></li><li><a href="https://www.youtube.com/user/VisitBakersfield" target="_blank" rel="noopener"><svg class="icon icon-youtube-circle"
+                                                aria-label="YouTube"
+                                role="image"
+                    ><use href="#youtube-circle"></use></svg></a></li></ul>            </div>
+        </div>
+
+                <button type="button"
+                class="nav__close-bg"
+                data-modal-close
+                aria-hidden="true"
+                tabindex="-1"
+                aria-label="close"></button>
+    </div>
+
+                    </div>
+
+                
+                                <button type="button"
+                    data-modal-close
+                    class="close-button modal__close"
+                    aria-label="Close">
+                <svg class="icon icon-ex"
+                                            role="presentation"
+                    ><use href="#ex"></use></svg>            </button>
+            </div>
+
+    </div>
+    
+<div class="critical-fade" data-dms-root>
+                
+                    
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+
+        
+
+
+
+
+
+
+
+        
+                        
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+            <main id="main" role="main" class="detail">
+                <article class="detail__inner">
+                                        
+                                        
+                                        
+
+
+        
+            
+        
+                                                
+                            
+                            
+                                                            
+                            
+                                                            
+                            
+                                                            
+                            
+                                                            
+                            
+                                                            
+                            
+                                                            
+                            
+                                                            
+                            
+                                                            
+                            
+                                                            
+                            
+                                                            
+                                                    
+        
+        
+                
+        
+                                    
+                
+
+
+
+
+
+        
+        
+
+
+ 
+<div id="id-610261" class="page-title layout--spaced-v layout--fluid-h bg--white bg--none bg--light page-title--no-image ">
+    <div class="layout--wide">
+                            
+
+
+	
+	    <div class="breadcrumbs breadcrumbs--back breadcrumbs--standard bg--none bg--light layout--fluid-h">
+	        <div class="breadcrumbs__inner layout--fence-max">
+	            <nav aria-label="breadcrumbs" >
+	                <ul class="breadcrumbs__list">
+
+	                    
+	                        	                        	                        	                            	                            <li class="breadcrumbs__item">
+	                                <a href="/" class="breadcrumbs__link breadcrumbs__link--back"><svg class="icon icon-breadcrumb-arrow icon--back"
+                                                aria-label="arrow pointing left icon"
+                                role="image"
+                    ><use href="#breadcrumb-arrow"></use></svg>Home</a>
+	                            </li>
+	                        
+	                    	                </ul>
+	            </nav>
+	        </div>
+	    </div>
+	
+        
+        <div class="row">
+            <div class="page-title__content-col col col--xs-12 col--xs-full-height">
+                <div class="page-title__content">
+                                        
+                                        
+                                                            <h1 class="page-title__heading"
+                        data-aos="fade-up"
+                        data-aos-anchor="#id-610261"
+                        style="--aos-duration: 500ms;"
+                    >Selfie Spots</h1>
+
+                                        
+                                        
+                                                                <div class="page-title__excerpt"
+                            data-aos="fade-up"
+                            data-aos-anchor="#id-610261"
+                            style="--aos-duration: 500ms; --aos-delay: 200ms;">                                <div class="page-title__intro text--content links lobotomize--level"><p>Any Of These Will Guarantee You A Memorable Photo Of Your Stay In Bakersfield.</p></div>
+                                                    </div>
+
+                                                                    
+                                        
+                                                        </div>
+            </div>
+                    </div>
+    </div>
+</div>
+
+                                        
+                    
+        
+                
+                
+
+
+        
+    <div class="block image image--center bg--none bg--light text--center  layout--spaced-v layout--fluid-h">
+
+                                <div class="layout--text-max">
+                <figure
+                    data-aos="fade-left"
+                    style="--aos-duration: 500ms;"
+                >
+                    <div class="lazyload lazyload--fade background-image" data-bgset="https://visit-bakersfield.imgix.net/images/bakersfield-sign.jpg?auto=compress%2Cformat&amp;bg=%23ffffff&amp;fit=max&amp;fm=jpg&amp;position=50%2050&amp;q=80&amp;w=320&amp;s=af2ff655c4e14eb92060f69996c66961 320w, https://visit-bakersfield.imgix.net/images/bakersfield-sign.jpg?auto=compress%2Cformat&amp;bg=%23ffffff&amp;fit=max&amp;fm=jpg&amp;position=50%2050&amp;q=80&amp;w=540&amp;s=5dfd635ecfba5cb28de31cb2ec249d71 540w, https://visit-bakersfield.imgix.net/images/bakersfield-sign.jpg?auto=compress%2Cformat&amp;bg=%23ffffff&amp;fit=max&amp;fm=jpg&amp;position=50%2050&amp;q=80&amp;w=768&amp;s=5b848153216cd3052b01ae1daa92ed4b 768w, https://visit-bakersfield.imgix.net/images/bakersfield-sign.jpg?auto=compress%2Cformat&amp;bg=%23ffffff&amp;fit=max&amp;fm=jpg&amp;position=50%2050&amp;q=80&amp;w=1024&amp;s=a40b9092cd63b2b747aaad24420aba6a 1024w, https://visit-bakersfield.imgix.net/images/bakersfield-sign.jpg?auto=compress%2Cformat&amp;bg=%23ffffff&amp;fit=max&amp;fm=jpg&amp;position=50%2050&amp;q=80&amp;w=1200&amp;s=38b30e39d51941963f2df37ff274bf7a 1120w" style="background-position: 50% 50%;"></div><!-- .imageBackgroundLoader --><img src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20width%3D%271%27%20height%3D%271%27%20style%3D%27background%3Atransparent%27%2F%3E"
+                                                                                                data-sizes="auto"
+                                    data-srcset="https://visit-bakersfield.imgix.net/images/bakersfield-sign.jpg?auto=compress%2Cformat&amp;bg=%23ffffff&amp;fit=max&amp;fm=jpg&amp;position=50%2050&amp;q=80&amp;w=320&amp;s=af2ff655c4e14eb92060f69996c66961 320w, https://visit-bakersfield.imgix.net/images/bakersfield-sign.jpg?auto=compress%2Cformat&amp;bg=%23ffffff&amp;fit=max&amp;fm=jpg&amp;position=50%2050&amp;q=80&amp;w=540&amp;s=5dfd635ecfba5cb28de31cb2ec249d71 540w, https://visit-bakersfield.imgix.net/images/bakersfield-sign.jpg?auto=compress%2Cformat&amp;bg=%23ffffff&amp;fit=max&amp;fm=jpg&amp;position=50%2050&amp;q=80&amp;w=768&amp;s=5b848153216cd3052b01ae1daa92ed4b 768w, https://visit-bakersfield.imgix.net/images/bakersfield-sign.jpg?auto=compress%2Cformat&amp;bg=%23ffffff&amp;fit=max&amp;fm=jpg&amp;position=50%2050&amp;q=80&amp;w=1024&amp;s=a40b9092cd63b2b747aaad24420aba6a 1024w, https://visit-bakersfield.imgix.net/images/bakersfield-sign.jpg?auto=compress%2Cformat&amp;bg=%23ffffff&amp;fit=max&amp;fm=jpg&amp;position=50%2050&amp;q=80&amp;w=1200&amp;s=38b30e39d51941963f2df37ff274bf7a 1120w"
+                                                                        width="1120"
+                                    height="840"
+                                                                                         class="lazyload lazyload--fade" alt="" />                </figure>
+
+                                    <figcaption class="image__caption p--xs-t2 text--content lobotomize"
+                        data-aos="fade-left"
+                        style="--aos-duration: 500ms;"
+                    >
+                        <div class="image-meta"><div class="image-meta--caption">Bakersfield Arch</div></div>
+                    </figcaption>
+                            </div>
+            </div>
+
+                            
+        
+                
+                
+
+
+
+    <div id="id-768906" class="block text text--default layout--spaced-v layout--fluid-h bg--none bg--light bg--white">
+        <div class="text__inner text--content">
+                                        <div class="text__text lobotomize layout--text-max links"
+                     data-aos="fade-up"
+                     data-aos-anchor="#id-768906"
+                     style="--aos-duration: 500ms;"
+                ><p>1) Bakersfield Arch (Sillect Ave. at Buck Owens Blvd.) is a replica of the original arch that spanned Union Ave. It was rebuilt here by Buck Owens using the arch’s original letters.</p></div>
+                    </div>
+    </div>
+
+                            
+        
+                
+                
+
+
+        
+    <div class="block image image--center bg--none bg--light text--center  layout--spaced-v layout--fluid-h">
+
+                                <div class="layout--text-max">
+                <figure
+                    data-aos="fade-left"
+                    style="--aos-duration: 500ms;"
+                >
+                    <img src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20width%3D%271%27%20height%3D%271%27%20style%3D%27background%3Atransparent%27%2F%3E"
+                                                                                                data-sizes="auto"
+                                    data-srcset="https://visit-bakersfield.imgix.net/images/clock-tower.jpg?auto=compress%2Cformat&amp;bg=%23ffffff&amp;fit=max&amp;fm=jpg&amp;position=50%2050&amp;q=80&amp;w=320&amp;s=bf5be8201eb4d9927f92cdec536ac37a 320w, https://visit-bakersfield.imgix.net/images/clock-tower.jpg?auto=compress%2Cformat&amp;bg=%23ffffff&amp;fit=max&amp;fm=jpg&amp;position=50%2050&amp;q=80&amp;w=540&amp;s=a9234a92ee6af6bc51ae6ba0cde498c1 540w, https://visit-bakersfield.imgix.net/images/clock-tower.jpg?auto=compress%2Cformat&amp;bg=%23ffffff&amp;fit=max&amp;fm=jpg&amp;position=50%2050&amp;q=80&amp;w=768&amp;s=86b1e3e798009b4d5298b3bea46ed8ab 768w, https://visit-bakersfield.imgix.net/images/clock-tower.jpg?auto=compress%2Cformat&amp;bg=%23ffffff&amp;fit=max&amp;fm=jpg&amp;position=50%2050&amp;q=80&amp;w=1024&amp;s=d97cae488763d9ecc254ff7a1d72c313 1024w, https://visit-bakersfield.imgix.net/images/clock-tower.jpg?auto=compress%2Cformat&amp;bg=%23ffffff&amp;fit=max&amp;fm=jpg&amp;position=50%2050&amp;q=80&amp;w=1200&amp;s=797b884027eaf2748496f48bdfe75f9b 1120w"
+                                                                        width="1120"
+                                    height="840"
+                                                                                         class="lazyload lazyload--fade" alt="" />                </figure>
+
+                                    <figcaption class="image__caption p--xs-t2 text--content lobotomize"
+                        data-aos="fade-left"
+                        style="--aos-duration: 500ms;"
+                    >
+                        <div class="image-meta"><div class="image-meta--caption">Beale Memorial Clock Tower</div></div>
+                    </figcaption>
+                            </div>
+            </div>
+
+                            
+        
+                
+                
+
+
+
+    <div id="id-760534" class="block text text--default layout--spaced-v layout--fluid-h bg--none bg--light bg--white">
+        <div class="text__inner text--content">
+                                        <div class="text__text lobotomize layout--text-max links"
+                     data-aos="fade-up"
+                     data-aos-anchor="#id-760534"
+                     style="--aos-duration: 500ms;"
+                ><p>2) Beale Memorial Clock Tower (3801 Chester Ave.) is a replica of the original that was located in the intersection of Chester Ave. and 17th St. It was destroyed in the 1952 earthquake.</p></div>
+                    </div>
+    </div>
+
+                            
+        
+                
+                
+
+
+        
+    <div class="block image image--center bg--none bg--light text--center  layout--spaced-v layout--fluid-h">
+
+                                <div class="layout--text-max">
+                <figure
+                    data-aos="fade-left"
+                    style="--aos-duration: 500ms;"
+                >
+                    <img src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20width%3D%271%27%20height%3D%271%27%20style%3D%27background%3Atransparent%27%2F%3E"
+                                                                                                data-sizes="auto"
+                                    data-srcset="https://visit-bakersfield.imgix.net/images/mill-creek-bridge.jpg?auto=compress%2Cformat&amp;bg=%23ffffff&amp;fit=max&amp;fm=jpg&amp;position=50%2050&amp;q=80&amp;w=320&amp;s=a5c7fba352687abfce1d23d0ab91dcc9 320w, https://visit-bakersfield.imgix.net/images/mill-creek-bridge.jpg?auto=compress%2Cformat&amp;bg=%23ffffff&amp;fit=max&amp;fm=jpg&amp;position=50%2050&amp;q=80&amp;w=540&amp;s=4d73acaf3f3b7a8f66f9bf0c62f5b97d 540w, https://visit-bakersfield.imgix.net/images/mill-creek-bridge.jpg?auto=compress%2Cformat&amp;bg=%23ffffff&amp;fit=max&amp;fm=jpg&amp;position=50%2050&amp;q=80&amp;w=768&amp;s=22eb2b23c90574c9cd5a958795d9abe1 640w"
+                                                                        width="640"
+                                    height="480"
+                                                                                         class="lazyload lazyload--fade" alt="" />                </figure>
+
+                                    <figcaption class="image__caption p--xs-t2 text--content lobotomize"
+                        data-aos="fade-left"
+                        style="--aos-duration: 500ms;"
+                    >
+                        <div class="image-meta"><div class="image-meta--caption">Mill Creek Covered Bridge</div></div>
+                    </figcaption>
+                            </div>
+            </div>
+
+                            
+        
+                
+                
+
+
+
+    <div id="id-760536" class="block text text--default layout--spaced-v layout--fluid-h bg--none bg--light bg--white">
+        <div class="text__inner text--content">
+                                        <div class="text__text lobotomize layout--text-max links"
+                     data-aos="fade-up"
+                     data-aos-anchor="#id-760536"
+                     style="--aos-duration: 500ms;"
+                ><p>3) Mill Creek Covered Bridge (Central Park, 21st St. just east of “R” St.) built in 2009, is the scene of many weddings and community events. </p></div>
+                    </div>
+    </div>
+
+                            
+        
+                
+                
+
+
+        
+    <div class="block image image--center bg--none bg--light text--center  layout--spaced-v layout--fluid-h">
+
+                                <div class="layout--text-max">
+                <figure
+                    data-aos="fade-left"
+                    style="--aos-duration: 500ms;"
+                >
+                    <div class="lazyload lazyload--fade background-image" data-bgset="https://visit-bakersfield.imgix.net/images/Selfie-Trail-Guthries-Alley-Cat.jpg?auto=compress%2Cformat&amp;bg=%23ffffff&amp;fit=max&amp;fm=jpg&amp;position=50.45%2067.37&amp;q=80&amp;w=320&amp;s=d6776ee798c6fbf74c9ac870e8b519c7 320w, https://visit-bakersfield.imgix.net/images/Selfie-Trail-Guthries-Alley-Cat.jpg?auto=compress%2Cformat&amp;bg=%23ffffff&amp;fit=max&amp;fm=jpg&amp;position=50.45%2067.37&amp;q=80&amp;w=540&amp;s=4d58395c963fd739b4b2185c2dff2a78 540w, https://visit-bakersfield.imgix.net/images/Selfie-Trail-Guthries-Alley-Cat.jpg?auto=compress%2Cformat&amp;bg=%23ffffff&amp;fit=max&amp;fm=jpg&amp;position=50.45%2067.37&amp;q=80&amp;w=768&amp;s=50838bf9a9aaf030ade0754c0311f6d6 768w, https://visit-bakersfield.imgix.net/images/Selfie-Trail-Guthries-Alley-Cat.jpg?auto=compress%2Cformat&amp;bg=%23ffffff&amp;fit=max&amp;fm=jpg&amp;position=50.45%2067.37&amp;q=80&amp;w=1024&amp;s=0c9721c1f2b12c8b6d49ab88708d4299 1024w, https://visit-bakersfield.imgix.net/images/Selfie-Trail-Guthries-Alley-Cat.jpg?auto=compress%2Cformat&amp;bg=%23ffffff&amp;fit=max&amp;fm=jpg&amp;position=50.45%2067.37&amp;q=80&amp;w=1200&amp;s=09121b29739dfd3d4402ea6280ffa7d2 1168w" style="background-position: 50.45% 67.37%;"></div><!-- .imageBackgroundLoader --><img src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20width%3D%271%27%20height%3D%271%27%20style%3D%27background%3Atransparent%27%2F%3E"
+                                                                                                data-sizes="auto"
+                                    data-srcset="https://visit-bakersfield.imgix.net/images/Selfie-Trail-Guthries-Alley-Cat.jpg?auto=compress%2Cformat&amp;bg=%23ffffff&amp;fit=max&amp;fm=jpg&amp;position=50.45%2067.37&amp;q=80&amp;w=320&amp;s=d6776ee798c6fbf74c9ac870e8b519c7 320w, https://visit-bakersfield.imgix.net/images/Selfie-Trail-Guthries-Alley-Cat.jpg?auto=compress%2Cformat&amp;bg=%23ffffff&amp;fit=max&amp;fm=jpg&amp;position=50.45%2067.37&amp;q=80&amp;w=540&amp;s=4d58395c963fd739b4b2185c2dff2a78 540w, https://visit-bakersfield.imgix.net/images/Selfie-Trail-Guthries-Alley-Cat.jpg?auto=compress%2Cformat&amp;bg=%23ffffff&amp;fit=max&amp;fm=jpg&amp;position=50.45%2067.37&amp;q=80&amp;w=768&amp;s=50838bf9a9aaf030ade0754c0311f6d6 768w, https://visit-bakersfield.imgix.net/images/Selfie-Trail-Guthries-Alley-Cat.jpg?auto=compress%2Cformat&amp;bg=%23ffffff&amp;fit=max&amp;fm=jpg&amp;position=50.45%2067.37&amp;q=80&amp;w=1024&amp;s=0c9721c1f2b12c8b6d49ab88708d4299 1024w, https://visit-bakersfield.imgix.net/images/Selfie-Trail-Guthries-Alley-Cat.jpg?auto=compress%2Cformat&amp;bg=%23ffffff&amp;fit=max&amp;fm=jpg&amp;position=50.45%2067.37&amp;q=80&amp;w=1200&amp;s=09121b29739dfd3d4402ea6280ffa7d2 1168w"
+                                                                        width="1168"
+                                    height="1168"
+                                                                                         class="lazyload lazyload--fade" alt="" />                </figure>
+
+                                    <figcaption class="image__caption p--xs-t2 text--content lobotomize"
+                        data-aos="fade-left"
+                        style="--aos-duration: 500ms;"
+                    >
+                        <div class="image-meta"><div class="image-meta--caption">Guthire’s Alley Cat Sign</div></div>
+                    </figcaption>
+                            </div>
+            </div>
+
+                            
+        
+                
+                
+
+
+
+    <div id="id-760538" class="block text text--default layout--spaced-v layout--fluid-h bg--none bg--light bg--white">
+        <div class="text__inner text--content">
+                                        <div class="text__text lobotomize layout--text-max links"
+                     data-aos="fade-up"
+                     data-aos-anchor="#id-760538"
+                     style="--aos-duration: 500ms;"
+                ><p>4) Guthire’s Alley Cat Sign (1525 Wall St.). A 75-year old neon icon beckons revelers to a Bakersfield dive bar institution.</p></div>
+                    </div>
+    </div>
+
+                            
+        
+                
+                
+
+
+        
+    <div class="block image image--center bg--none bg--light text--center  layout--spaced-v layout--fluid-h">
+
+                                <div class="layout--text-max">
+                <figure
+                    data-aos="fade-left"
+                    style="--aos-duration: 500ms;"
+                >
+                    <img src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20width%3D%271%27%20height%3D%271%27%20style%3D%27background%3Atransparent%27%2F%3E"
+                                                                                                data-sizes="auto"
+                                    data-srcset="https://visit-bakersfield.imgix.net/images/big-shoe.jpg?auto=compress%2Cformat&amp;bg=%23ffffff&amp;fit=max&amp;fm=jpg&amp;position=50%2050&amp;q=80&amp;w=320&amp;s=d0e05ab542289356c8b9aea9d4fb5bff 320w, https://visit-bakersfield.imgix.net/images/big-shoe.jpg?auto=compress%2Cformat&amp;bg=%23ffffff&amp;fit=max&amp;fm=jpg&amp;position=50%2050&amp;q=80&amp;w=540&amp;s=0959411d2129f75270a7a29e0193c05d 540w, https://visit-bakersfield.imgix.net/images/big-shoe.jpg?auto=compress%2Cformat&amp;bg=%23ffffff&amp;fit=max&amp;fm=jpg&amp;position=50%2050&amp;q=80&amp;w=768&amp;s=bb41539bf1bf082c28347c1d7f5a8597 640w"
+                                                                        width="640"
+                                    height="480"
+                                                                                         class="lazyload lazyload--fade" alt="" />                </figure>
+
+                                    <figcaption class="image__caption p--xs-t2 text--content lobotomize"
+                        data-aos="fade-left"
+                        style="--aos-duration: 500ms;"
+                    >
+                        <div class="image-meta"><div class="image-meta--caption">The Big Shoe</div></div>
+                    </figcaption>
+                            </div>
+            </div>
+
+                            
+        
+                
+                
+
+
+
+    <div id="id-760540" class="block text text--default layout--spaced-v layout--fluid-h bg--none bg--light bg--white">
+        <div class="text__inner text--content">
+                                        <div class="text__text lobotomize layout--text-max links"
+                     data-aos="fade-up"
+                     data-aos-anchor="#id-760540"
+                     style="--aos-duration: 500ms;"
+                ><p>5) The Big Shoe (931 Chester Ave.). A 30 ft. long, 20 ft. high giant shoe with a shoe repair shop inside. Really.</p></div>
+                    </div>
+    </div>
+
+                            
+        
+                
+                
+
+
+        
+    <div class="block image image--center bg--none bg--light text--center  layout--spaced-v layout--fluid-h">
+
+                                <div class="layout--text-max">
+                <figure
+                    data-aos="fade-left"
+                    style="--aos-duration: 500ms;"
+                >
+                    <img src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20width%3D%271%27%20height%3D%271%27%20style%3D%27background%3Atransparent%27%2F%3E"
+                                                                                                data-sizes="auto"
+                                    data-srcset="https://visit-bakersfield.imgix.net/images/veterans-memorial.jpg?auto=compress%2Cformat&amp;bg=%23ffffff&amp;fit=max&amp;fm=jpg&amp;position=50%2050&amp;q=80&amp;w=320&amp;s=a45c2b18f01e3eb1afffd8b58364db5c 320w, https://visit-bakersfield.imgix.net/images/veterans-memorial.jpg?auto=compress%2Cformat&amp;bg=%23ffffff&amp;fit=max&amp;fm=jpg&amp;position=50%2050&amp;q=80&amp;w=540&amp;s=935a6d84eeaeb58d3a7eddc17d99d6c1 540w, https://visit-bakersfield.imgix.net/images/veterans-memorial.jpg?auto=compress%2Cformat&amp;bg=%23ffffff&amp;fit=max&amp;fm=jpg&amp;position=50%2050&amp;q=80&amp;w=768&amp;s=ab029cc694c580b0f99c59eea7ebba08 640w"
+                                                                        width="640"
+                                    height="480"
+                                                                                         class="lazyload lazyload--fade" alt="" />                </figure>
+
+                                    <figcaption class="image__caption p--xs-t2 text--content lobotomize"
+                        data-aos="fade-left"
+                        style="--aos-duration: 500ms;"
+                    >
+                        <div class="image-meta"><div class="image-meta--caption">Kern Veterans Memorial</div></div>
+                    </figcaption>
+                            </div>
+            </div>
+
+                            
+        
+                
+                
+
+
+
+    <div id="id-760542" class="block text text--default layout--spaced-v layout--fluid-h bg--none bg--light bg--white">
+        <div class="text__inner text--content">
+                                        <div class="text__text lobotomize layout--text-max links"
+                     data-aos="fade-up"
+                     data-aos-anchor="#id-760542"
+                     style="--aos-duration: 500ms;"
+                ><p>6) Kern Veterans Memorial (Truxtun Ave. and “S” St.) honors the service and sacrifices of local veterans who died in battle.</p></div>
+                    </div>
+    </div>
+
+                            
+        
+                
+                
+
+
+        
+    <div class="block image image--center bg--none bg--light text--center  layout--spaced-v layout--fluid-h">
+
+                                <div class="layout--text-max">
+                <figure
+                    data-aos="fade-left"
+                    style="--aos-duration: 500ms;"
+                >
+                    <img src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20width%3D%271%27%20height%3D%271%27%20style%3D%27background%3Atransparent%27%2F%3E"
+                                                                                                data-sizes="auto"
+                                    data-srcset="https://visit-bakersfield.imgix.net/images/mill-house.jpg?auto=compress%2Cformat&amp;bg=%23ffffff&amp;fit=max&amp;fm=jpg&amp;position=50%2050&amp;q=80&amp;w=320&amp;s=8f847745a9d099286b8dc272e701975a 320w, https://visit-bakersfield.imgix.net/images/mill-house.jpg?auto=compress%2Cformat&amp;bg=%23ffffff&amp;fit=max&amp;fm=jpg&amp;position=50%2050&amp;q=80&amp;w=540&amp;s=eb5a3d0b740bcd3ff407c1ef00f8a640 540w, https://visit-bakersfield.imgix.net/images/mill-house.jpg?auto=compress%2Cformat&amp;bg=%23ffffff&amp;fit=max&amp;fm=jpg&amp;position=50%2050&amp;q=80&amp;w=768&amp;s=d5f0eb396c6fcc59d6d99a092fc464a1 640w"
+                                                                        width="640"
+                                    height="480"
+                                                                                         class="lazyload lazyload--fade" alt="" />                </figure>
+
+                                    <figcaption class="image__caption p--xs-t2 text--content lobotomize"
+                        data-aos="fade-left"
+                        style="--aos-duration: 500ms;"
+                    >
+                        <div class="image-meta"><div class="image-meta--caption">Mill House</div></div>
+                    </figcaption>
+                            </div>
+            </div>
+
+                            
+        
+                
+                
+
+
+
+    <div id="id-760544" class="block text text--default layout--spaced-v layout--fluid-h bg--none bg--light bg--white">
+        <div class="text__inner text--content">
+                                        <div class="text__text lobotomize layout--text-max links"
+                     data-aos="fade-up"
+                     data-aos-anchor="#id-760544"
+                     style="--aos-duration: 500ms;"
+                ><p>7) Mill House (601 17th St., 17th and “R” sts.) is on the site of a former flour mill, and its water wheel generates electrical power from the waters of Mill Creek.</p></div>
+                    </div>
+    </div>
+
+                            
+        
+                
+                
+
+
+        
+    <div class="block image image--center bg--none bg--light text--center  layout--spaced-v layout--fluid-h">
+
+                                <div class="layout--text-max">
+                <figure
+                    data-aos="fade-left"
+                    style="--aos-duration: 500ms;"
+                >
+                    <img src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20width%3D%271%27%20height%3D%271%27%20style%3D%27background%3Atransparent%27%2F%3E"
+                                                                                                data-sizes="auto"
+                                    data-srcset="https://visit-bakersfield.imgix.net/images/woolworths-building.jpg?auto=compress%2Cformat&amp;bg=%23ffffff&amp;fit=max&amp;fm=jpg&amp;position=50%2050&amp;q=80&amp;w=320&amp;s=2b1dcc720a71e55b53f8c3aeeb8c56bb 320w, https://visit-bakersfield.imgix.net/images/woolworths-building.jpg?auto=compress%2Cformat&amp;bg=%23ffffff&amp;fit=max&amp;fm=jpg&amp;position=50%2050&amp;q=80&amp;w=540&amp;s=3e24805be51cd7f52ffacc166b07e19b 540w, https://visit-bakersfield.imgix.net/images/woolworths-building.jpg?auto=compress%2Cformat&amp;bg=%23ffffff&amp;fit=max&amp;fm=jpg&amp;position=50%2050&amp;q=80&amp;w=768&amp;s=d08b5bd7131f81622929a55de29a8294 640w"
+                                                                        width="640"
+                                    height="480"
+                                                                                         class="lazyload lazyload--fade" alt="" />                </figure>
+
+                                    <figcaption class="image__caption p--xs-t2 text--content lobotomize"
+                        data-aos="fade-left"
+                        style="--aos-duration: 500ms;"
+                    >
+                        <div class="image-meta"><div class="image-meta--caption">Woolworth’s</div></div>
+                    </figcaption>
+                            </div>
+            </div>
+
+                            
+        
+                
+                
+
+
+
+    <div id="id-760546" class="block text text--default layout--spaced-v layout--fluid-h bg--none bg--light bg--white">
+        <div class="text__inner text--content">
+                                        <div class="text__text lobotomize layout--text-max links"
+                     data-aos="fade-up"
+                     data-aos-anchor="#id-760546"
+                     style="--aos-duration: 500ms;"
+                ><p>8) Woolworth’s (1400 – 19th St.). The distinctive signage still adorns this 1939 Art Moderne building that now houses an antique mall and the timeless luncheonette, serving lunch until 4PM.</p></div>
+                    </div>
+    </div>
+
+                            
+        
+                
+                
+
+
+        
+    <div class="block image image--center bg--none bg--light text--center  layout--spaced-v layout--fluid-h">
+
+                                <div class="layout--text-max">
+                <figure
+                    data-aos="fade-left"
+                    style="--aos-duration: 500ms;"
+                >
+                    <img src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20width%3D%271%27%20height%3D%271%27%20style%3D%27background%3Atransparent%27%2F%3E"
+                                                                                                data-sizes="auto"
+                                    data-srcset="https://visit-bakersfield.imgix.net/images/korn-row2.png?auto=compress%2Cformat&amp;bg=%23ffffff&amp;fit=max&amp;fm=jpg&amp;position=50%2050&amp;q=80&amp;w=320&amp;s=a01c1bd748c756164c9a8a0b395e1660 200w"
+                                                                        width="200"
+                                    height="200"
+                                                                                         class="lazyload lazyload--fade" alt="" />                </figure>
+
+                                    <figcaption class="image__caption p--xs-t2 text--content lobotomize"
+                        data-aos="fade-left"
+                        style="--aos-duration: 500ms;"
+                    >
+                        <div class="image-meta"><div class="image-meta--caption">Korn Row</div></div>
+                    </figcaption>
+                            </div>
+            </div>
+
+                            
+        
+                
+                
+
+
+
+    <div id="id-760548" class="block text text--default layout--spaced-v layout--fluid-h bg--none bg--light bg--white">
+        <div class="text__inner text--content">
+                                        <div class="text__text lobotomize layout--text-max links"
+                     data-aos="fade-up"
+                     data-aos-anchor="#id-760548"
+                     style="--aos-duration: 500ms;"
+                ><p>9) Korn Row (behind Mechanics Bank Arena on “N” St.) is dedicated to local world-famous band Korn.</p></div>
+                    </div>
+    </div>
+
+                            
+        
+                
+                
+
+
+        
+    <div class="block image image--center bg--none bg--light text--center  layout--spaced-v layout--fluid-h">
+
+                                <div class="layout--text-max">
+                <figure
+                    data-aos="fade-left"
+                    style="--aos-duration: 500ms;"
+                >
+                    <img src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20width%3D%271%27%20height%3D%271%27%20style%3D%27background%3Atransparent%27%2F%3E"
+                                                                                                data-sizes="auto"
+                                    data-srcset="https://visit-bakersfield.imgix.net/images/ethels-old-corral-cafe2.jpg?auto=compress%2Cformat&amp;bg=%23ffffff&amp;fit=max&amp;fm=jpg&amp;position=50%2050&amp;q=80&amp;w=320&amp;s=0ed108f24d67e43efc0ac361072bc501 320w, https://visit-bakersfield.imgix.net/images/ethels-old-corral-cafe2.jpg?auto=compress%2Cformat&amp;bg=%23ffffff&amp;fit=max&amp;fm=jpg&amp;position=50%2050&amp;q=80&amp;w=540&amp;s=30dbaff89e2b517075b59d701453088d 540w, https://visit-bakersfield.imgix.net/images/ethels-old-corral-cafe2.jpg?auto=compress%2Cformat&amp;bg=%23ffffff&amp;fit=max&amp;fm=jpg&amp;position=50%2050&amp;q=80&amp;w=768&amp;s=6154f7bbcfc417a2077bf1c5e0232fea 640w"
+                                                                        width="640"
+                                    height="480"
+                                                                                         class="lazyload lazyload--fade" alt="" />                </figure>
+
+                                    <figcaption class="image__caption p--xs-t2 text--content lobotomize"
+                        data-aos="fade-left"
+                        style="--aos-duration: 500ms;"
+                    >
+                        <div class="image-meta"><div class="image-meta--caption">Ethel’s Old Corral</div></div>
+                    </figcaption>
+                            </div>
+            </div>
+
+                            
+        
+                
+                
+
+
+
+    <div id="id-760550" class="block text text--default layout--spaced-v layout--fluid-h bg--none bg--light bg--white">
+        <div class="text__inner text--content">
+                                        <div class="text__text lobotomize layout--text-max links"
+                     data-aos="fade-up"
+                     data-aos-anchor="#id-760550"
+                     style="--aos-duration: 500ms;"
+                ><p>10) Ethel’s Old Corral (4310 Alfred Harrell Hwy.) Wagon wheels on the roof, horses tied up out front, and a towering Native American nearby.</p>
+
+
+<p> </p>
+<p><em>Show off your own great photos of Bakersfield on our Facebook AND INSTAGRAM and your snapshot could be featured in a future ARRIVAL guide! Be sure to use <strong>#visitbakersfield</strong>.</em></p></div>
+                    </div>
+    </div>
+
+                            
+        
+                
+                
+    
+
+
+
+
+
+            
+                                                                                                                                                                                    
+    
+
+
+
+
+
+
+
+                    
+                
+                
+                                
+                                                
+                
+                                                                            
+                
+                
+                                                    
+                
+        
+                
+                                        
+                
+                
+                                
+                                                
+                
+                                                                            
+                
+                
+                                                    
+                
+        
+                
+                                        
+                
+                
+                                
+                                                
+                
+                                                                            
+                
+                
+                                                    
+                
+        
+                
+                        
+    
+
+
+
+                            
+        
+    
+            
+        
+            
+            
+                    <div id="id-1730249839" class="block cards cards--default cards--odd layout--spaced-v bg--none">
+        
+            <div class="cards__wrapper layout--fluid-h">
+                                <div class="layout--wide">
+                    <div class="cards__inner">
+                                                    
+                                                    
+
+
+
+
+
+
+
+        
+            
+        
+        
+                                        
+        
+    
+                                            
+                
+                        
+            
+                    
+        
+            
+        
+        
+        
+            
+                                                        
+                                    
+                    
+                    
+        
+        
+        
+        
+        
+        
+            
+                
+            
+        
+            
+        
+                    
+        
+                    
+        
+                    
+                    
+        
+        
+        
+            <article
+        id="id-1760551"
+        class="card card--default card--first card--common card--has-summary card--has-image"
+         data-entry-id="608849"        data-listing                                    data-aos="fade-up"
+                        style="--aos-duration: 500ms; --aos-delay: 100ms;"
+        
+                    >
+                
+                                <a class="card__inner bg--light bg--none btn-puppeteer"  href="https://www.visitbakersfield.com/plan/visitors-information-center/"  >
+        
+                        <div class="card__head">
+
+                                                    <div class="card__image bg--teal bg--dark bg--logo">
+                
+                                
+                                
+                                                
+                                <img src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20width%3D%271%27%20height%3D%271%27%20style%3D%27background%3Atransparent%27%2F%3E"
+                                                                                                data-sizes="auto"
+                                    data-srcset="https://visit-bakersfield.imgix.net/images/bakersfield_visitors_center_credit_bakersfield_cvb_1_2022-02-16-132723_txxj.jpg?auto=compress%2Cformat&amp;bg=%23ffffff&amp;crop=focalpoint&amp;fit=min&amp;fm=jpg&amp;fp-x=0.5&amp;fp-y=0.5&amp;h=320&amp;q=80&amp;w=320&amp;s=117738164e9427e8cb32314551cdc9d6 320w, https://visit-bakersfield.imgix.net/images/bakersfield_visitors_center_credit_bakersfield_cvb_1_2022-02-16-132723_txxj.jpg?auto=compress%2Cformat&amp;bg=%23ffffff&amp;crop=focalpoint&amp;fit=min&amp;fm=jpg&amp;fp-x=0.5&amp;fp-y=0.5&amp;h=540&amp;q=80&amp;w=540&amp;s=8d6a160e9821439f8d7052c5a6637e17 540w, https://visit-bakersfield.imgix.net/images/bakersfield_visitors_center_credit_bakersfield_cvb_1_2022-02-16-132723_txxj.jpg?auto=compress%2Cformat&amp;bg=%23ffffff&amp;crop=focalpoint&amp;fit=min&amp;fm=jpg&amp;fp-x=0.5&amp;fp-y=0.5&amp;h=768&amp;q=80&amp;w=768&amp;s=587c60e6b3fe07dfad0c85b0086dbfad 768w, https://visit-bakersfield.imgix.net/images/bakersfield_visitors_center_credit_bakersfield_cvb_1_2022-02-16-132723_txxj.jpg?auto=compress%2Cformat&amp;bg=%23ffffff&amp;crop=focalpoint&amp;fit=min&amp;fm=jpg&amp;fp-x=0.5&amp;fp-y=0.5&amp;h=1024&amp;q=80&amp;w=1024&amp;s=4b4c85cd41a21b3cdb3942cacdb5ade0 1024w, https://visit-bakersfield.imgix.net/images/bakersfield_visitors_center_credit_bakersfield_cvb_1_2022-02-16-132723_txxj.jpg?auto=compress%2Cformat&amp;bg=%23ffffff&amp;crop=focalpoint&amp;fit=min&amp;fm=jpg&amp;fp-x=0.5&amp;fp-y=0.5&amp;h=1200&amp;q=80&amp;w=1200&amp;s=f8e7aeb2d5e0f6659b2201e9faf03996 1200w, https://visit-bakersfield.imgix.net/images/bakersfield_visitors_center_credit_bakersfield_cvb_1_2022-02-16-132723_txxj.jpg?auto=compress%2Cformat&amp;bg=%23ffffff&amp;crop=focalpoint&amp;fit=min&amp;fm=jpg&amp;fp-x=0.5&amp;fp-y=0.5&amp;h=1440&amp;q=80&amp;w=1440&amp;s=0744306a7a058eca3c4a1211f44cc9f4 1440w"
+                                                                        width="1440"
+                                    height="1440"
+                                                                                         class="lazyload lazyload--fade" alt="Bakersfield Visitors Center" />
+                                <div class="image-overlay"></div>
+                                    </div>
+                
+                
+                
+                
+            </div><!-- .card__head -->
+
+                        <div class="card__body lobotomize--level">
+                                <div class="card__main">
+                                        
+                                        
+                                                                                            <p class="card__heading"
+                                                            >
+                        
+                        Visitors Information Center                                </p>
+                        
+                                            
+                                        
+                                                                <div class="card__summary text--content lobotomize links"
+                                                            data-aos-anchor="#id-1760551"
+                                data-aos="fade-up"
+                                style="--aos-duration: 500ms; --aos-delay: 350ms;"
+                                                    ><p>When you arrive in Bakersfield, make sure to stop by the visitor information center.</p></div>
+
+                                            
+                                        
+                                                        </div><!-- .card__main -->
+
+                                                    <div class="card__actions action-bar"
+                                                    data-aos-anchor="#id-1760551"
+                            data-aos="fade-up"
+                            style="--aos-duration: 500ms; --aos-delay: 450ms;"
+                                            >
+                                                                                                    <span class="card__link btn">
+                        Details                            </span>
+                        
+                                                                                                    
+                                                                                                                        </div><!-- .card__actions -->
+
+                                    
+                                            </div><!-- .card__body -->
+                    </a><!-- .card__inner -->
+        
+    </article><!-- .card -->
+                                                    
+
+
+
+
+
+
+
+        
+            
+        
+        
+                                        
+        
+    
+                                            
+                
+                        
+            
+                    
+        
+            
+        
+        
+        
+            
+                                                        
+                                    
+                    
+                    
+        
+        
+        
+        
+        
+        
+            
+                
+            
+        
+            
+        
+        
+        
+                    
+        
+                    
+                    
+        
+        
+        
+            <article
+        id="id-2760551"
+        class="card card--default card--common card--has-summary card--has-image"
+         data-entry-id="608857"        data-listing                                    data-aos="fade-up"
+                        style="--aos-duration: 500ms; --aos-delay: 100ms;"
+        
+                    >
+                
+                                <a class="card__inner bg--light bg--none btn-puppeteer"  href="https://www.visitbakersfield.com/plan/trip-ideas/"  >
+        
+                        <div class="card__head">
+
+                                                    <div class="card__image bg--dark-green bg--dark bg--logo">
+                
+                                
+                                
+                                                
+                                <img src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20width%3D%271%27%20height%3D%271%27%20style%3D%27background%3Atransparent%27%2F%3E"
+                                                                                                data-sizes="auto"
+                                    data-srcset="https://visit-bakersfield.imgix.net/images/train_at_bealville_credit_steve_eshom_2022-02-16-132606_mnnc.jpg?auto=compress%2Cformat&amp;bg=%23ffffff&amp;crop=focalpoint&amp;fit=min&amp;fm=jpg&amp;fp-x=0.5&amp;fp-y=0.5&amp;h=320&amp;q=80&amp;w=320&amp;s=f709ee1086b718b6759c3a7b783474a0 320w, https://visit-bakersfield.imgix.net/images/train_at_bealville_credit_steve_eshom_2022-02-16-132606_mnnc.jpg?auto=compress%2Cformat&amp;bg=%23ffffff&amp;crop=focalpoint&amp;fit=min&amp;fm=jpg&amp;fp-x=0.5&amp;fp-y=0.5&amp;h=540&amp;q=80&amp;w=540&amp;s=46b162b30c4b2587b033f2b75c3b65d7 540w, https://visit-bakersfield.imgix.net/images/train_at_bealville_credit_steve_eshom_2022-02-16-132606_mnnc.jpg?auto=compress%2Cformat&amp;bg=%23ffffff&amp;crop=focalpoint&amp;fit=min&amp;fm=jpg&amp;fp-x=0.5&amp;fp-y=0.5&amp;h=768&amp;q=80&amp;w=768&amp;s=a40723e6ecbd45d5989cc0c4981b8be9 768w, https://visit-bakersfield.imgix.net/images/train_at_bealville_credit_steve_eshom_2022-02-16-132606_mnnc.jpg?auto=compress%2Cformat&amp;bg=%23ffffff&amp;crop=focalpoint&amp;fit=min&amp;fm=jpg&amp;fp-x=0.5&amp;fp-y=0.5&amp;h=1024&amp;q=80&amp;w=1024&amp;s=27011e1bb4c726e7d06c26cada318e17 1024w, https://visit-bakersfield.imgix.net/images/train_at_bealville_credit_steve_eshom_2022-02-16-132606_mnnc.jpg?auto=compress%2Cformat&amp;bg=%23ffffff&amp;crop=focalpoint&amp;fit=min&amp;fm=jpg&amp;fp-x=0.5&amp;fp-y=0.5&amp;h=1200&amp;q=80&amp;w=1200&amp;s=8391438e84bef0394f28d0e1991a976f 1200w, https://visit-bakersfield.imgix.net/images/train_at_bealville_credit_steve_eshom_2022-02-16-132606_mnnc.jpg?auto=compress%2Cformat&amp;bg=%23ffffff&amp;crop=focalpoint&amp;fit=min&amp;fm=jpg&amp;fp-x=0.5&amp;fp-y=0.5&amp;h=1440&amp;q=80&amp;w=1440&amp;s=cb92b8b8411f92140371ddeabba8272d 1440w"
+                                                                        width="1440"
+                                    height="1440"
+                                                                                         class="lazyload lazyload--fade" alt="Looooong Trains! by Steve Eshom" />
+                                <div class="image-overlay"></div>
+                                    </div>
+                
+                
+                
+                
+            </div><!-- .card__head -->
+
+                        <div class="card__body lobotomize--level">
+                                <div class="card__main">
+                                        
+                                        
+                                                                                            <p class="card__heading"
+                                                            >
+                        
+                        Trip Ideas                                </p>
+                        
+                                            
+                                        
+                                                                <div class="card__summary text--content lobotomize links"
+                                                            data-aos-anchor="#id-2760551"
+                                data-aos="fade-up"
+                                style="--aos-duration: 500ms; --aos-delay: 350ms;"
+                                                    ><p>Want to explore more of Bakersfield?</p></div>
+
+                                            
+                                        
+                                                        </div><!-- .card__main -->
+
+                                                    <div class="card__actions action-bar"
+                                                    data-aos-anchor="#id-2760551"
+                            data-aos="fade-up"
+                            style="--aos-duration: 500ms; --aos-delay: 450ms;"
+                                            >
+                                                                                                    <span class="card__link btn">
+                        Details                            </span>
+                        
+                                                                                                    
+                                                                                                                        </div><!-- .card__actions -->
+
+                                    
+                                            </div><!-- .card__body -->
+                    </a><!-- .card__inner -->
+        
+    </article><!-- .card -->
+                                                    
+
+
+
+
+
+
+
+        
+            
+        
+        
+                                        
+        
+    
+                                            
+                
+                        
+            
+                    
+        
+            
+        
+        
+        
+            
+                                                        
+                                    
+                    
+                    
+        
+        
+        
+        
+        
+        
+            
+                
+            
+        
+            
+        
+        
+        
+                    
+        
+                    
+                    
+        
+        
+        
+            <article
+        id="id-3760551"
+        class="card card--default card--common card--has-summary card--has-image"
+         data-entry-id="608863"        data-listing                                    data-aos="fade-up"
+                        style="--aos-duration: 500ms; --aos-delay: 100ms;"
+        
+                    >
+                
+                                <a class="card__inner bg--light bg--none btn-puppeteer"  href="https://www.visitbakersfield.com/plan/getting-here/"  >
+        
+                        <div class="card__head">
+
+                                                    <div class="card__image bg--dark-blue bg--dark bg--logo">
+                
+                                
+                                
+                                                
+                                <img src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20width%3D%271%27%20height%3D%271%27%20style%3D%27background%3Atransparent%27%2F%3E"
+                                                                                                data-sizes="auto"
+                                    data-srcset="https://visit-bakersfield.imgix.net/images/bakersfield_amtrak_credit_bakersfield_cvb_2022-02-16-132728_inzf.jpg?auto=compress%2Cformat&amp;bg=%23ffffff&amp;crop=focalpoint&amp;fit=min&amp;fm=jpg&amp;fp-x=0.5&amp;fp-y=0.5&amp;h=320&amp;q=80&amp;w=320&amp;s=f61b9f32fb22ccd314126fce5ef99d1e 320w, https://visit-bakersfield.imgix.net/images/bakersfield_amtrak_credit_bakersfield_cvb_2022-02-16-132728_inzf.jpg?auto=compress%2Cformat&amp;bg=%23ffffff&amp;crop=focalpoint&amp;fit=min&amp;fm=jpg&amp;fp-x=0.5&amp;fp-y=0.5&amp;h=540&amp;q=80&amp;w=540&amp;s=079f2eebae8b9e7edf60b2c06f3513f6 540w, https://visit-bakersfield.imgix.net/images/bakersfield_amtrak_credit_bakersfield_cvb_2022-02-16-132728_inzf.jpg?auto=compress%2Cformat&amp;bg=%23ffffff&amp;crop=focalpoint&amp;fit=min&amp;fm=jpg&amp;fp-x=0.5&amp;fp-y=0.5&amp;h=768&amp;q=80&amp;w=768&amp;s=71bf595e73fbc3ded3b79ded984051ea 768w, https://visit-bakersfield.imgix.net/images/bakersfield_amtrak_credit_bakersfield_cvb_2022-02-16-132728_inzf.jpg?auto=compress%2Cformat&amp;bg=%23ffffff&amp;crop=focalpoint&amp;fit=min&amp;fm=jpg&amp;fp-x=0.5&amp;fp-y=0.5&amp;h=1024&amp;q=80&amp;w=1024&amp;s=077217a44ba0e9382bb6dc1a31cf137e 1024w, https://visit-bakersfield.imgix.net/images/bakersfield_amtrak_credit_bakersfield_cvb_2022-02-16-132728_inzf.jpg?auto=compress%2Cformat&amp;bg=%23ffffff&amp;crop=focalpoint&amp;fit=min&amp;fm=jpg&amp;fp-x=0.5&amp;fp-y=0.5&amp;h=1200&amp;q=80&amp;w=1200&amp;s=1fc250027b409c5600fd7dd342363229 1200w, https://visit-bakersfield.imgix.net/images/bakersfield_amtrak_credit_bakersfield_cvb_2022-02-16-132728_inzf.jpg?auto=compress%2Cformat&amp;bg=%23ffffff&amp;crop=focalpoint&amp;fit=min&amp;fm=jpg&amp;fp-x=0.5&amp;fp-y=0.5&amp;h=1440&amp;q=80&amp;w=1440&amp;s=1eda5c856f1f4669382b6f95861e932e 1440w"
+                                                                        width="1440"
+                                    height="1440"
+                                                                                         class="lazyload lazyload--fade" alt="Bakersfield Amtrak Station" />
+                                <div class="image-overlay"></div>
+                                    </div>
+                
+                
+                
+                
+            </div><!-- .card__head -->
+
+                        <div class="card__body lobotomize--level">
+                                <div class="card__main">
+                                        
+                                        
+                                                                                            <p class="card__heading"
+                                                            >
+                        
+                        Getting Here                                </p>
+                        
+                                            
+                                        
+                                                                <div class="card__summary text--content lobotomize links"
+                                                            data-aos-anchor="#id-3760551"
+                                data-aos="fade-up"
+                                style="--aos-duration: 500ms; --aos-delay: 350ms;"
+                                                    ><p>As the population centerpoint of California, Bakersfield is only four hours from 90 percent of…</p></div>
+
+                                            
+                                        
+                                                        </div><!-- .card__main -->
+
+                                                    <div class="card__actions action-bar"
+                                                    data-aos-anchor="#id-3760551"
+                            data-aos="fade-up"
+                            style="--aos-duration: 500ms; --aos-delay: 450ms;"
+                                            >
+                                                                                                    <span class="card__link btn">
+                        Details                            </span>
+                        
+                                                                                                    
+                                                                                                                        </div><!-- .card__actions -->
+
+                                    
+                                            </div><!-- .card__body -->
+                    </a><!-- .card__inner -->
+        
+    </article><!-- .card -->
+                        
+                                                </div><!-- .cards__inner -->
+                </div><!-- .layout wide -->
+            </div><!-- .cards__wrapper -->
+        </div>
+    
+                    
+                                        
+                                                                                                                        
+                    
+
+
+
+
+
+
+
+
+
+                                                        </article>
+            </main>
+            
+                </div>
+
+        <svg width="0" height="0">
+    <defs>
+        <clipPath id="badge" clipPathUnits="objectBoundingBox"><path d="M0.507,0.997 L0.991,0.715 C0.996,0.713,1,0.707,1,0.699 L1,0.151 C1,0.145,0.996,0.139,0.993,0.135 C0.858,0.05,0.686,0,0.5,0 C0.312,0,0.142,0.05,0.007,0.137 C0.002,0.141,0,0.147,0,0.153 L0,0.701 C0,0.707,0.004,0.713,0.009,0.717 L0.493,0.999 C0.496,1,0.502,1,0.507,0.997"></path></clipPath>
+    </defs>
+</svg>
+
+<svg width="0" height="0">
+    <defs>
+        <clipPath id="badge-rotate" clipPathUnits="objectBoundingBox">
+            <path d="M0.493,0.003,0.009,0.285 C0.004,0.287,0,0.293,0,0.301 V0.849 c0,0.006,0.004,0.012,0.007,0.016 c0.135,0.084,0.307,0.135,0.493,0.135 c0.188,0,0.358,-0.05,0.493,-0.137 c0.005,-0.004,0.007,-0.01,0.007,-0.016 V0.299 c0,-0.006,-0.004,-0.012,-0.009,-0.016 L0.507,0.001 c-0.004,-0.002,-0.009,-0.002,-0.014,0.002"></path>
+        </clipPath>
+    </defs>
+</svg>
+
+                <footer class="page-footer bg--no-collapse bg--none">
+        <div class="page-footer__actions split-blocks row row---full-height text--center">
+                                                    <div
+                class="page-footer__action split-block col col--xs-12 col--desktop-6 bg--light-green bg--dark layout--fluid-h">
+                <div class="split-block__inner page-footer__action-inner text--content">                        <h2>Bakersfield Coloring Book</h2>
+                    
+
+
+    <a class="btn btn--link" href="https://www.visitbakersfield.com/plan/brochures/" >Start Coloring</a></div>
+            </div>
+        
+                                                            <div
+                class="page-footer__action split-block col col--xs-12 col--desktop-6 bg--teal bg--dark layout--fluid-h">
+                <div class="split-block__inner page-footer__action-inner text--content">                        <h2>Visitors Guide</h2>
+                    
+
+
+    <a class="btn btn--link" href="https://www.visitbakersfield.com/plan/visitors-guide/" >Request</a></div>
+                <div class="vguide--wrapper" data-aos="fade-up" data-aos-delay="1000"><img src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20width%3D%271%27%20height%3D%271%27%20style%3D%27background%3Atransparent%27%2F%3E"
+                                                                                                data-sizes="auto"
+                                    data-srcset="https://visit-bakersfield.imgix.net/images/2021-Insiders-Guide-Cover-Thumb.jpg?auto=compress%2Cformat&amp;bg=%23ffffff&amp;fit=max&amp;fm=jpg&amp;position=50%2050&amp;q=80&amp;w=320&amp;s=df184512612bcc628681886fdafba989 320w, https://visit-bakersfield.imgix.net/images/2021-Insiders-Guide-Cover-Thumb.jpg?auto=compress%2Cformat&amp;bg=%23ffffff&amp;fit=max&amp;fm=jpg&amp;position=50%2050&amp;q=80&amp;w=540&amp;s=b651179388439b49d6cbde1d5679d0c3 540w, https://visit-bakersfield.imgix.net/images/2021-Insiders-Guide-Cover-Thumb.jpg?auto=compress%2Cformat&amp;bg=%23ffffff&amp;fit=max&amp;fm=jpg&amp;position=50%2050&amp;q=80&amp;w=768&amp;s=68432d9718b015cbc8b360a035bd70ba 578w"
+                                                                        width="578"
+                                    height="750"
+                                                                                         class="lazyload lazyload--fade" alt="" /></div>
+            </div>
+            </div>
+
+        <div class="page-footer__main layout--fluid-h bg--none bg--light">
+        <div class="layout--text-max">
+            <div class="page-footer__inner row row--xs-center row--md-center row--gap-3">
+                                <div class="page-footer__main-links col col--xs-12 col--mid-6 col--desktop-4 col--md-4 m--xs-tf3 m--mid-t0">
+                                            <ul class="page-footer__nav page-footer__primary">
+                            <li class="nav__item has-children nav__item-closed"><a href="https://www.visitbakersfield.com/things-to-do/"
+               target=""
+               rel="noopener"
+               class="nav__link ">Things to Do</a><button class="subnav-toggle js-submenu"
+                            type="button"
+                            aria-label="Expand Subnavigation"
+                            aria-expanded="false"
+                            aria-controls="submenu-608811"></button><ul id="submenu-608811" class="nav__subnav js-subnav is-hidden"><li class="nav__item has-children nav__item-closed"><a href="https://www.visitbakersfield.com/things-to-do/outdoors/"
+               target=""
+               rel="noopener"
+               class="nav__link ">Outdoors</a></li><li class="nav__item has-children nav__item-closed"><a href="https://www.visitbakersfield.com/things-to-do/shopping/"
+               target=""
+               rel="noopener"
+               class="nav__link ">Shopping</a></li><li class="nav__item has-children nav__item-closed"><a href="https://www.visitbakersfield.com/things-to-do/music-entertainment/"
+               target=""
+               rel="noopener"
+               class="nav__link ">Music & Entertainment</a></li><li class="nav__item has-children nav__item-closed"><a href="https://www.visitbakersfield.com/things-to-do/arts-culture/"
+               target=""
+               rel="noopener"
+               class="nav__link ">Arts & Culture</a></li><li class="nav__item "><a href="https://www.visitbakersfield.com/things-to-do/sports-teams/"
+               target=""
+               rel="noopener"
+               class="nav__link ">Sports Teams</a></li><li class="nav__item "><a href="https://www.visitbakersfield.com/things-to-do/bakersfield-savings-pass/"
+               target=""
+               rel="noopener"
+               class="nav__link ">Bakersfield Savings Pass</a></li><li class="nav__item "><a href="https://www.visitbakersfield.com/things-to-do/bakersfield-historical-trail/"
+               target=""
+               rel="noopener"
+               class="nav__link ">Bakersfield: A Journey Through Time Historical Trail</a></li><li class="nav__item "><a href="https://www.visitbakersfield.com/things-to-do/driving-tour/"
+               target=""
+               rel="noopener"
+               class="nav__link ">Bakersfield Driving Tour</a></li></ul></li><li class="nav__item has-children nav__item-closed"><a href="https://www.visitbakersfield.com/restaurants/"
+               target=""
+               rel="noopener"
+               class="nav__link ">Eat & Drink</a><button class="subnav-toggle js-submenu"
+                            type="button"
+                            aria-label="Expand Subnavigation"
+                            aria-expanded="false"
+                            aria-controls="submenu-608841"></button><ul id="submenu-608841" class="nav__subnav js-subnav is-hidden"><li class="nav__item "><a href="https://www.visitbakersfield.com/restaurants/bakersfield-basque/"
+               target=""
+               rel="noopener"
+               class="nav__link ">Bakersfield Basque</a></li><li class="nav__item "><a href="https://www.visitbakersfield.com/restaurants/diners-drive-ins-dives/"
+               target=""
+               rel="noopener"
+               class="nav__link ">Diners, Drive-Ins & Dives</a></li><li class="nav__item "><a href="https://www.visitbakersfield.com/restaurants/brewery-trail/"
+               target=""
+               rel="noopener"
+               class="nav__link ">Bakersfield Kern County Brewery Trail</a></li><li class="nav__item "><a href="https://www.visitbakersfield.com/restaurants/bakersfield-kern-county-wine-trail/"
+               target=""
+               rel="noopener"
+               class="nav__link ">Bakersfield Kern County Wine Trail</a></li></ul></li><li class="nav__item "><a href="https://www.visitbakersfield.com/where-to-stay/"
+               target=""
+               rel="noopener"
+               class="nav__link ">Where to Stay</a></li><li class="nav__item "><a href="https://www.visitbakersfield.com/events/"
+               target=""
+               rel="noopener"
+               class="nav__link ">Calendar of Events</a></li><li class="nav__item has-children nav__item-closed"><a href="https://www.visitbakersfield.com/plan/"
+               target=""
+               rel="noopener"
+               class="nav__link ">Plan</a><button class="subnav-toggle js-submenu"
+                            type="button"
+                            aria-label="Expand Subnavigation"
+                            aria-expanded="false"
+                            aria-controls="submenu-620026"></button><ul id="submenu-620026" class="nav__subnav js-subnav is-hidden"><li class="nav__item "><a href="https://www.visitbakersfield.com/plan/getting-here/"
+               target=""
+               rel="noopener"
+               class="nav__link ">Getting Here</a></li><li class="nav__item has-children nav__item-closed"><a href="https://www.visitbakersfield.com/plan/trip-ideas/"
+               target=""
+               rel="noopener"
+               class="nav__link ">Trip Ideas</a></li><li class="nav__item "><a href="https://www.visitbakersfield.com/plan/visitors-information-center/"
+               target=""
+               rel="noopener"
+               class="nav__link ">Visitors Information Center</a></li><li class="nav__item "><a href="https://www.visitbakersfield.com/plan/deals/"
+               target=""
+               rel="noopener"
+               class="nav__link ">Deals</a></li><li class="nav__item has-children nav__item-closed"><a href="https://www.visitbakersfield.com/plan/brochures/"
+               target=""
+               rel="noopener"
+               class="nav__link ">Brochures</a></li><li class="nav__item has-children nav__item-closed"><a href="https://www.visitbakersfield.com/plan/visitors-guide/"
+               target=""
+               rel="noopener"
+               class="nav__link ">Insiders' Guide Request</a></li><li class="nav__item "><a href="https://www.visitbakersfield.com/plan/road-conditions/"
+               target=""
+               rel="noopener"
+               class="nav__link ">Road Conditions</a></li></ul></li>
+                        </ul>
+                                    </div>
+
+                                <div class="page-footer__home col col--xs-12 col--mid-6 col--desktop-4 col--md-4 m--md-t0">
+                    <a href="https://www.visitbakersfield.com/" class="page-footer__logo" aria-label="Home">
+                        <img src="/svg/bakersfield-vertical-logo.svg" width="542" height="96" />
+                    </a>
+                                        <div class="page-footer__social">
+                        <ul class="page-social"><li><a href="https://www.facebook.com/VisitBakersfield/" target="_blank" rel="noopener"><svg class="icon icon-facebook-circle"
+                                                aria-label="Facebook"
+                                role="image"
+                    ><use href="#facebook-circle"></use></svg></a></li><li><a href="https://www.instagram.com/visitbakersfield" target="_blank" rel="noopener"><svg class="icon icon-instagram-circle"
+                                                aria-label="Instagram"
+                                role="image"
+                    ><use href="#instagram-circle"></use></svg></a></li><li><a href="https://www.youtube.com/user/VisitBakersfield" target="_blank" rel="noopener"><svg class="icon icon-youtube-circle"
+                                                aria-label="YouTube"
+                                role="image"
+                    ><use href="#youtube-circle"></use></svg></a></li></ul>                    </div>
+                </div>
+
+                <div class="page-footer__info col col--xs-12 col--mid-6 col--desktop-12 col--md-4 m--xs-tf2 m--mid-tf3 m--md-t0">
+                                                                <ul class="page-footer__nav page-footer__secondary m--xs-tf3">
+                            <li class="nav__item has-children nav__item-closed"><a href="https://www.visitbakersfield.com/meetings/"
+               target=""
+               rel="noopener"
+               class="nav__link ">Meetings</a></li><li class="nav__item "><a href="https://www.visitbakersfield.com/blog/"
+               target=""
+               rel="noopener"
+               class="nav__link ">Blog</a></li><li class="nav__item has-children nav__item-closed"><a href="https://www.visitbakersfield.com/media/"
+               target=""
+               rel="noopener"
+               class="nav__link ">Media</a></li><li class="nav__item has-children nav__item-closed"><a href="https://www.visitbakersfield.com/about-us/"
+               target=""
+               rel="noopener"
+               class="nav__link ">About Us</a></li><li class="nav__item "><a href="https://visitbakersfield.idss.com/extranet"
+               target="_blank"
+               rel="noopener"
+               class="nav__link ">Partners</a></li>
+                            <li class="nav__item has-children nav__item-closed"><a href="https://www.visitbakersfield.com/sports/"
+               target=""
+               rel="noopener"
+               class="nav__link ">Sports</a></li><li class="nav__item "><a href="https://www.visitbakersfield.com/privacy-policy/"
+               target=""
+               rel="noopener"
+               class="nav__link ">Privacy Policy</a></li>
+                        </ul>
+                    
+                                                                                    <div class="page-footer__text lobotomize--level links links--tel m--xs-tf2 m--md-tf2"><p>515 Truxtun Ave.<br />Bakersfield, CA 93301</p>
+<p><strong>Toll Free (866) 425-7353<br /></strong><strong>Local (661) 852-7282</strong><br /></p></div>
+                                    </div>
+            </div>
+            <div class="page-footer__inner row row--xs-center row--md-center">
+                <div class="page-footer__main-links col--md-12 m--xs-tf3 m--mid-t0">
+                                                                                                                                    <div class="page-footer__copyright m--xs-tf4 m--desktop-tf2 m--mid-t3">
+                            Copyright © 2026 Visit Bakersfield | All Rights Reserved
+                        </div>
+                                    </div>
+            </div>
+        </div>
+    </div>
+</footer>
+    
+        
+    <div data-cookie-consent
+         class="msg msg--popover msg--ribbon bg--teal bg--dark lobotomize text--content links text--right"
+         role="dialog"
+         aria-live="polite"
+         hidden
+    >
+        <p class="text--left">This website uses cookies to enhance your user experience on our site.
+
+            
+
+
+    <a class="" href="https://www.visitbakersfield.com/privacy-policy/" >Learn more</a></p>
+        <button data-cookie-consent-close class="btn btn--link" type="button">Accept</button>
+    </div>
+
+        
+        
+
+<div
+    class="modal modal--quick-search quick-search bg--white bg--no-collapse"
+    data-quick-search    data-modal="quick-search"
+        role="dialog"
+    aria-modal="true"
+    hidden
+>
+    <div class="modal__inner" data-modal-focus>
+                            <div class="show-for-sr">Quick Search</div>
+        
+                
+                <div class="modal__content quick-search__content">
+
+            
+                            <div class="quick-search__main layout--spaced-v-modal layout--fluid-h bg--light-blue bg--light">
+                <div class="quick-search__inner"
+             role="search"
+             data-search-appId="EYQHJ2IY2M"
+             data-search-apiKey="c6d5977cb5cd80c09abfd2a7e5d9e88b"
+             data-search-indexName="prod-visit-bakersfield"
+             data-search-placeholder="What can we help you find?"
+        >
+            <div class="layout--search">
+                <div class="quick-search__bar row row-xs--center row-xs--bottom">
+                    <div class="quick-search__input-col col col--xs-12 col--desktop-fluid">
+                        <div class="quick-search__input-holder search-input" data-quick-search-input-holder><svg class="icon icon-search"
+                                                aria-label="search icon"
+                                role="image"
+                    ><use href="#search"></use></svg></div>
+                    </div>
+                    <div class="quick-search__submit-col col col--xs-12 col--desktop-fixed m--xs-t1 m--desktop-t0 col--xs-center col--desktop-end bg--light">
+                        <a href="/search" class="btn" data-full-search-link>Search</a>
+                    </div>
+                </div>
+                <div class="quick-search__hits" data-quick-search-hits></div>
+            </div>
+        </div><!-- .quick-search__inner -->
+    </div><!-- .quick-search__main -->
+
+        
+                    </div>
+
+                
+                                <button type="button"
+                    data-modal-close
+                    class="close-button modal__close"
+                    aria-label="Close">
+                <svg class="icon icon-ex"
+                                            role="presentation"
+                    ><use href="#ex"></use></svg>            </button>
+            </div>
+
+    </div>
+
+        
+
+<div
+    class="modal modal--full bg--gray3 bg--no-collapse imap"
+    data-imap    data-modal="imap"
+        role="dialog"
+    aria-modal="true"
+    hidden
+>
+    <div class="modal__inner" data-modal-focus>
+                            <div class="show-for-sr">Location Map</div>
+        
+                
+                <div class="modal__content layout--fluid-h imap__content">
+
+            
+                            <div class="imap__map" data-imap-map></div>
+
+                    </div>
+
+                
+                                <button type="button"
+                    data-modal-close
+                    class="close-button modal__close"
+                    aria-label="Close">
+                <svg class="icon icon-ex"
+                                            role="presentation"
+                    ><use href="#ex"></use></svg>            </button>
+            </div>
+
+    </div>
+
+            <!-- BOTTOM BODY ANALYTICS -->
+    
+    
+                
+
+<script>
+    window.iconSpriteHash = '1729709068'
+            window.csrfTokenName = 'CRAFT_CSRF_TOKEN'
+        window.csrfTokenValue = 'TjM3lZ0Uhk7ltLmGSUGzEYvW6aw71Z6zoT5JXOEwsuHFDGHgRimpphoKAeHRYOoBsIPOyQMR5iD5gq3Ua7Dm_ct1Om6uBcqpkn8MsHVn0c4\u003D'
+        window.isMobile = false
+        window.mapsKey = 'AIzaSyB8NuJrVQpbluukz7DC4BOi4Lnwz2hOvSA'
+    </script>
+
+        <script nomodule src="/dist/scripts/polyfills.min.1647549100.js"></script>
+            <script src="/dist/scripts/main.min.1729709068.js"></script>
+    <script type="application/ld+json">{"@context":"http://schema.org","@graph":[{"@type":"Organization","description":"Any Of These Will Guarantee You A Memorable Photo Of Your Stay In Bakersfield.","image":{"@type":"ImageObject","url":"https://visit-bakersfield.imgix.net/images/Selfie-Trail-Guthries-Alley-Cat.jpg?auto=compress%2Cformat&crop=focalpoint&fit=min&fp-x=0.5045&fp-y=0.6737&h=630&q=80&w=1200&s=56dbf38fc3b6a66ea0e04535b0b9bfbf"},"mainEntityOfPage":"https://www.visitbakersfield.com/blog/the-top-10-snapshot-spots-around-bakersfield/","name":"Selfie Spots","url":"https://www.visitbakersfield.com/blog/the-top-10-snapshot-spots-around-bakersfield/"},{"@id":"https://www.visitbakersfield.com/#identity","@type":"TouristInformationCenter","address":{"@type":"PostalAddress","addressCountry":"US","addressLocality":"Bakersfield","addressRegion":"CA","postalCode":"93301","streetAddress":"515 Truxtun Ave"},"description":"Official Web Site for Bakersfield, California Travel and Tourism Information. Listen to the Bakersfield Sound, Enjoy Bakersfield Basque Food, Whitewater rafting and more!","email":"webmaster@visitbakersfield.com","geo":{"@type":"GeoCoordinates","latitude":"35.3729815","longitude":"-119.0096604"},"image":{"@type":"ImageObject","height":"1280","url":"https://visit-bakersfield-2022.s3.amazonaws.com/images/city-night-AdobeStock_448032826.jpg?v=1644015516","width":"1920"},"logo":{"@type":"ImageObject","height":"60","url":"https://visit-bakersfield-2022.s3.amazonaws.com/images/_600x60_fit_center-center_82_none/558785/city-night-AdobeStock_448032826.png?v=1729705339","width":"90"},"name":"Visit Bakersfield","priceRange":"$","sameAs":["https://www.facebook.com/VisitBakersfield/","https://www.instagram.com/visitbakersfield","https://www.youtube.com/user/VisitBakersfield"],"telephone":"(866) 425-7353","url":"https://www.visitbakersfield.com/"},{"@id":"webmaster@visitbakersfield.com#creator","@type":"TouristInformationCenter","address":{"@type":"PostalAddress","addressCountry":"US","addressLocality":"Bakersfield","addressRegion":"CA","postalCode":"93301","streetAddress":"515 Truxtun Ave"},"description":"Official Web Site for Bakersfield, California Travel and Tourism Information. Listen to the Bakersfield Sound, Enjoy Bakersfield Basque Food, Whitewater rafting and more!","email":"webmaster@visitbakersfield.com","geo":{"@type":"GeoCoordinates","latitude":"35.3729815","longitude":"-119.0096604"},"image":{"@type":"ImageObject","height":"1280","url":"https://visit-bakersfield-2022.s3.amazonaws.com/images/city-night-AdobeStock_448032826.jpg?v=1644015516","width":"1920"},"logo":{"@type":"ImageObject","height":"60","url":"https://visit-bakersfield-2022.s3.amazonaws.com/images/_600x60_fit_center-center_82_none/558785/city-night-AdobeStock_448032826.png?v=1729705339","width":"90"},"name":"Visit Bakersfield","priceRange":"$","telephone":"(866) 425-7353","url":"https://www.visitbakersfield.com/webmaster@visitbakersfield.com"},{"@type":"BreadcrumbList","description":"Breadcrumbs list","itemListElement":[{"@type":"ListItem","item":"https://www.visitbakersfield.com/","name":"Home","position":1},{"@type":"ListItem","item":"https://www.visitbakersfield.com/blog/","name":"Blog","position":2},{"@type":"ListItem","item":"https://www.visitbakersfield.com/blog/the-top-10-snapshot-spots-around-bakersfield/","name":"The Top 10 Snapshot Spots around Bakersfield","position":3}],"name":"Breadcrumbs"}]}</script></body>
+</html>

@@ -1,0 +1,91 @@
+{
+ "topic": "ulasim",
+ "order_range": [
+  1001,
+  1099
+ ],
+ "audit": [
+  {
+   "claim_id": "EIN-ID-133",
+   "entry_id": "eindhoven:ehliyet-degisimi-eindhoven",
+   "Excel_satırı": 0,
+   "iddia": "Başvuru sürerken belediye araç kullanmamanı söylüyor (RDW'nin farklı görüşü kartta yok).",
+   "ülke_şehir_statü": "Eindhoven; ehliyet değiştiren",
+   "dönem": "2026",
+   "resmî_URL": "https://www.eindhoven.nl/stad-en-wonen/uittreksels-en-documenten/omwisselen-buitenlands-rijbewijs-voor-nederlands-rijbewijs",
+   "kaynak_bölümü": "Hoe lang duurt het voor ik mijn Nederlandse rijbewijs heb?",
+   "yayın_yürürlük_tarihleri": "",
+   "kontrol_tarihi": "2026-10-22",
+   "hesap_varsa_girdiler": "",
+   "sonuç": "çelişkili_kaynak",
+   "belirsizlik": "RDW (kaynak:151): 'Whether or not you continue to drive during the exchange process, is up to you. You are allowed to operate a vehicle if you have a valid driving licence.' Kart belediyeye atıf yaptığı için yalan değil ama ulusal yetkili RDW'nin görüşünü vermediği için tek taraflı.",
+   "alıntı": "Let op: Zolang je aanvraag loopt, heb je geen rijbewijs. Je mag in die periode dus niet rijden.",
+   "doğrusu": "Başvuru sürerken araç kullanma konusunda kaynaklar farklı: Eindhoven belediyesi 'başvuru sürerken ehliyetin yok, araç kullanamazsın' diyor. RDW ise geçerli bir ehliyetin varsa kullanıp kullanmamanın senin kararın olduğunu, polis durdurursa ehliyet gösteremediğin için küçük ama gerçek bir ceza riski bulunduğunu söylüyor. Her iki durumda da yasal süre dolduysa (AB/EFTA dışı ehliyette Hollanda'ya taşınmadan sonraki 185 gün; AB/EFTA ehliyetinde 15 yıl) başvuru sürse bile araç kullanamazsın. En güvenlisi başvuru sürerken araç kullanmamak; kullanırsan kimliğini yanında taşı."
+  },
+  {
+   "claim_id": "EIN-ID-134",
+   "entry_id": "eindhoven:ehliyet-degisimi-eindhoven",
+   "Excel_satırı": 0,
+   "iddia": "Belge listesi yalnız fotoğraf, kimlik/oturum izni ve ehliyet; AB dışı ehliyet için ek belgeler yok.",
+   "ülke_şehir_statü": "Eindhoven; AB/EFTA dışı ehliyet sahibi (Türkiye dahil)",
+   "dönem": "2026",
+   "resmî_URL": "https://www.eindhoven.nl/stad-en-wonen/uittreksels-en-documenten/omwisselen-buitenlands-rijbewijs-voor-nederlands-rijbewijs",
+   "kaynak_bölümü": "Wat moet ik meenemen?",
+   "yayın_yürürlük_tarihleri": "",
+   "kontrol_tarihi": "2026-10-22",
+   "hesap_varsa_girdiler": "",
+   "sonuç": "eksik_koşul",
+   "belirsizlik": "RDW de aynı belgeleri sayıyor: 'A Health Declaration Form from the CBR if you have a driving licence from outside the EU/EFTA.'",
+   "alıntı": "Een Gezondheidsverklaring; deze vraag je aan bij het CBR.",
+   "doğrusu": "AB/EFTA dışı ehliyette ayrıca CBR'den Gezondheidsverklaring (sağlık beyanı) gerekir. Ehliyetin RDW'nin anlaşmalı ülke listesinde değilse, Hollanda'da çalışıyor ve expat (%30) regeling'den yararlanıyor olmalısın ve Belastingdienst'in bu kararını getirmelisin; bu belge alınamıyorsa değişim yapılamaz, CBR sınavına girmen gerekir."
+  },
+  {
+   "claim_id": "EIN-ID-140",
+   "entry_id": "eindhoven:turk-ehliyeti-degisim-durumu",
+   "Excel_satırı": 0,
+   "iddia": "Kart 'listede yok + expat yok = değişim yok' diyor; eski Hollanda ehliyeti istisnası ve expat yolundaki 185 gün şartı yok.",
+   "ülke_şehir_statü": "NL; daha önce Hollanda ehliyeti olmuş Türk ehliyeti sahibi",
+   "dönem": "2026",
+   "resmî_URL": "https://www.rdw.nl/en/driving-licence/foreign-driving-licence/exchanging-a-foreign-driving-licence",
+   "kaynak_bölümü": "Previously held a Dutch driving licence?",
+   "yayın_yürürlük_tarihleri": "",
+   "kontrol_tarihi": "2026-10-22",
+   "hesap_varsa_girdiler": "",
+   "sonuç": "eksik_koşul",
+   "belirsizlik": "185 gün şartı: 'You must also have lived in the country for 185 days in the year you obtained the licence.'",
+   "alıntı": "But have you had a Dutch driving licence in the past that was valid after June 30, 1985? If so, it is possible to exchange your driving licence.",
+   "doğrusu": "İstisna: Daha önce 30 Haziran 1985'ten sonra geçerli olmuş bir Hollanda ehliyetin olduysa Türk ehliyetini de değiştirebilirsin (eski Hollanda ehliyetindeki kategorileri alırsın). Expat scheme yolunda ayrıca ehliyeti aldığın yıl o ülkede en az 185 gün yaşamış olman gerekir."
+  },
+  {
+   "claim_id": "EIN-ID-142",
+   "entry_id": "eindhoven:tasinirken-arac-getirme-tescil",
+   "Excel_satırı": 0,
+   "iddia": "'Aracın taşınma eşyası sayıldığını gösteren Belastingdienst belgesi (AB/EFTA dışından taşınanlar için)' — kaynakta olmayan kapsam kısıtı.",
+   "ülke_şehir_statü": "NL; AB/EFTA içinden aracıyla taşınan",
+   "dönem": "2026",
+   "resmî_URL": "https://www.rdw.nl/en/import-export-transit/moving-to-the-netherlands-and-taking-your-vehicle-with-you",
+   "kaynak_bölümü": "Please bring the following",
+   "yayın_yürürlük_tarihleri": "",
+   "kontrol_tarihi": "2026-10-22",
+   "hesap_varsa_girdiler": "",
+   "sonuç": "yanlış",
+   "belirsizlik": "Kaynak belgeyi genel listede sayıyor; 'AB/EFTA dışı' sınırlaması kartın çıkarımı.",
+   "alıntı": "A document from the Tax and Customs Administration stating that the vehicle qualifies as household goods.",
+   "doğrusu": "Muayeneye Belastingdienst'ten aracın taşınma eşyası sayıldığını gösteren belgeyi getir (RDW bunu yalnız AB/EFTA dışından gelenlere özgü yazmıyor; vergisiz ithalat için muayeneden önce BPM muafiyeti iste). AB/EFTA dışından geliyorsan ayrıca muayeneden önce gümrüğe başvur."
+  }
+ ],
+ "new_sources": [
+  {
+   "source_id": "eindhoven:kaynak:224",
+   "url": "https://www.cbr.nl/nl/rijbewijs-halen/auto/wat-kost-het-halen-van-een-autorijbewijs",
+   "title": "Wat kost het halen van een autorijbewijs? - CBR",
+   "text_file": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\eindhoven\\_is\\snap\\5713b0384461df4f6db408970f8f54499b2e653faaed75587c90bedbe2a42e8d.txt",
+   "gap": "G21 OV-chipkaart edinme (ov-chipkaart.nl), CBR sınav ücretleri (cbr.nl tarifeler)."
+  }
+ ],
+ "extra_sources": [],
+ "special": [
+  "`turk-ehliyeti-degisim-durumu` kartında İngilizce bırakılmış RDW cümlesini Türkçeye çevir (İngilizce asıl yalnız iddia defterinin quote alanında kalır). Türkiye'nin listede olmadığını ve RDW'nin genel kuralını sade Türkçe yaz; 'değiştirilemez' diye kesin hüküm kurma, kaynağın dediğini aynen aktar."
+ ],
+ "own_sources_file": "_is\\yazar\\ulasim_kaynaklar.jsonl"
+}

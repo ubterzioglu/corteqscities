@@ -1,0 +1,81 @@
+{
+ "topic": "planlama",
+ "order_range": [
+  101,
+  199
+ ],
+ "audit": [
+  {
+   "claim_id": "EIN-ID-093",
+   "entry_id": "eindhoven:saglik-sigortasi-ne-zaman",
+   "Excel_satırı": 0,
+   "iddia": "Geç sigortanın prim ve ceza sonucu kartta yok; kartın kaynakları (government.nl ve HEC South) geriye dönük prim konusunda çelişiyor.",
+   "ülke_şehir_statü": "NL; 4 aydan sonra sigorta yaptıran",
+   "dönem": "2026",
+   "resmî_URL": "https://www.government.nl/documents/question-and-answer/health-insurance/when-do-i-need-to-take-out-health-insurance-if-i-come-to-live-in-the-netherlands",
+   "kaynak_bölümü": "Taking out health insurance after 4 months",
+   "yayın_yürürlük_tarihleri": "",
+   "kontrol_tarihi": "2026-10-22",
+   "hesap_varsa_girdiler": "",
+   "sonuç": "çelişkili_kaynak",
+   "belirsizlik": "HEC South (kaynak:005) aksini söylüyor: 'Retrospectively, you will have to pay the premiums for the past period, and you may get a penalty as well.' Resmî devlet kaynağı government.nl (kaynak:015) esas alınmalı; HEC bu nokta için kaynak gösterilmemeli.",
+   "alıntı": "You will only pay premiums from the date on which you take out the health insurance policy. You will not have to pay any premiums retroactively.",
+   "doğrusu": "4 aydan sonra yaptırırsanız sigorta geriye dönük başlamaz: prim yalnız sigortayı yaptırdığınız tarihten itibaren ödenir, geriye dönük prim ödenmez; ama aradaki dönemdeki bakım masraflarını kendiniz ödersiniz. Belediyeye kayıtlı olup sigortası olmayanlara CAK mektup gönderir; çok beklerseniz para cezası alabilirsiniz. (Resmî kaynak government.nl esas alındı.)"
+  },
+  {
+   "claim_id": "EIN-ID-094",
+   "entry_id": "eindhoven:saglik-sigortasi-ne-zaman",
+   "Excel_satırı": 0,
+   "iddia": "'Hollanda'da yaşamaya veya çalışmaya başlayan herkes' zorunlu (öğrenci ve sığınmacı istisnaları yok).",
+   "ülke_şehir_statü": "NL; öğrenciler, sığınmacılar",
+   "dönem": "2026",
+   "resmî_URL": "https://www.government.nl/documents/question-and-answer/health-insurance/when-do-i-need-to-take-out-health-insurance-if-i-come-to-live-in-the-netherlands",
+   "kaynak_bölümü": "Health insurance for foreign students",
+   "yayın_yürürlük_tarihleri": "",
+   "kontrol_tarihi": "2026-10-22",
+   "hesap_varsa_girdiler": "",
+   "sonuç": "eksik_koşul",
+   "belirsizlik": "government.nl: 'The rules on insurance for medical expenses are different for asylum seekers'.",
+   "alıntı": "If you are a student from outside the Netherlands, you probably already have insurance for medical expenses that you took out in your own country.",
+   "doğrusu": "Sığınmacılar için kurallar farklıdır. Yalnız öğrenim için gelen öğrenciler çoğu zaman kendi ülkelerindeki sigortayla kalabilir; ancak yanında iş veya ücretli staj yapanlar Hollanda sigortası yaptırmak zorunda olabilir — Studyinholland.nl veya SVB'den kontrol edin."
+  },
+  {
+   "claim_id": "EIN-ID-099",
+   "entry_id": "eindhoven:belge-apostil-ceviri-hazirligi",
+   "Excel_satırı": 0,
+   "iddia": "'Belgeniz Türkçeyse yeminli tercümanla çevirtin' — çevirinin nerede yapıldığına göre değişen apostil şartı yok.",
+   "ülke_şehir_statü": "Türkiye belgesi; Türkçe",
+   "dönem": "2026",
+   "resmî_URL": "https://www.netherlandsworldwide.nl/legalisation/foreign-documents/turkiye",
+   "kaynak_bölümü": "Check whether you need a translation",
+   "yayın_yürürlük_tarihleri": "",
+   "kontrol_tarihi": "2026-10-22",
+   "hesap_varsa_girdiler": "",
+   "sonuç": "eksik_koşul",
+   "belirsizlik": "Kaynakta Hollanda'da çeviri için: 'You do not need to have the translation legalised.'",
+   "alıntı": "Have the original and the translation legalised.",
+   "doğrusu": "Belgeniz Türkçeyse ve çok dilli örnek alamıyorsanız yeminli tercümana çevirtin. Çeviri Türkiye'de yapılırsa hem aslına hem çeviriye apostil gerekir. Aslına Türkiye'de apostil yaptırıp çeviriyi Hollanda'da yeminli tercümana yaptırırsanız çeviriye apostil gerekmez."
+  },
+  {
+   "claim_id": "EIN-ID-102",
+   "entry_id": "eindhoven:saglik-sigortasi-2026-maliyet",
+   "Excel_satırı": 0,
+   "iddia": "'Çocuklarınızı 4 aylık olduklarından itibaren sigortacıya kaydettirin.'",
+   "ülke_şehir_statü": "NL; yeni doğan bebeği olan ebeveyn",
+   "dönem": "2026",
+   "resmî_URL": "https://www.government.nl/themes/family-health-and-care/health-insurance/standard-health-insurance/taking-out-compulsory-health-insurance",
+   "kaynak_bölümü": "Taking out basic health insurance for children",
+   "yayın_yürürlük_tarihleri": "",
+   "kontrol_tarihi": "2026-10-22",
+   "hesap_varsa_girdiler": "",
+   "sonuç": "çelişkili_kaynak",
+   "belirsizlik": "Kartın kaynağı government.nl (kaynak:014) 'from the age of four months' diyor; örneklemdeki rijksoverheid.nl (kaynak:149) 'Meld uw kind binnen 4 maanden aan bij uw zorgverzekering. De verzekering gaat dan in vanaf de geboortedatum.' diyor. Kartın ifadesi '4 ay bekleyin' gibi okunuyor; Hollandaca resmî metin esas alınmalı.",
+   "alıntı": "You will need to register your child with your healthcare insurer from the age of four months.",
+   "doğrusu": "Bebeğinizi doğumdan sonraki 4 ay içinde sigortacınıza kaydettirin; sigorta doğum tarihinden itibaren geçerli olur. 18 yaş altı çocuklar prim ödemez."
+  }
+ ],
+ "new_sources": [],
+ "extra_sources": [],
+ "special": [],
+ "own_sources_file": "_is\\yazar\\planlama_kaynaklar.jsonl"
+}

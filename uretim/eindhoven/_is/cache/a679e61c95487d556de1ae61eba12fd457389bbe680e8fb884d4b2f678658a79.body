@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="nl" style="overflow-x: initial;">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>Website niet beschikbaar | SVB</title>
+    <link rel="stylesheet" href="https://svb.nl/static/3.0.5/css/uikit.css">
+    <meta name="description" content="Er ging iets fout bij het uitvoeren van uw verzoek">
+    <meta name="locale" content="nl">
+    <meta name="robots" content="noindex,nofollow">
+    <meta property="og:image:width" content="1024">
+    <meta property="og:image:height" content="536">
+    <link rel="shortcut icon" href="https://svb.nl/static/3.0.5/gfx/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://svb.nl/static/3.0.5/gfx/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://svb.nl/static/3.0.5/gfx/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="194x194" href="https://svb.nl/static/3.0.5/gfx/favicon-194x194.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="https://svb.nl/static/3.0.5/gfx/favicon-96x96.png">
+    <link rel="apple-touch-icon" href="https://svb.nl/static/3.0.5/gfx/apple-touch-icon-128.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="https://svb.nl/static/3.0.5/gfx/apple-touch-icon-152.png">
+    <link rel="apple-touch-icon" sizes="167x167" href="https://svb.nl/static/3.0.5/gfx/apple-touch-icon-167.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://svb.nl/static/3.0.5/gfx/apple-touch-icon-180.png">
+</head>
+
+<body class="theme-svb using-mouse" style="overflow-x: initial;">
+    <header id="header" class="sticky">
+        <picture class="lifeline hidden-until-md">
+            <img src="https://svb.nl/static/3.0.5/gfx/lifeline-desktop.svg" alt="">
+        </picture>
+        <div class="container no-gutter">
+            <div class="row">
+                <div class="col col-xs-4 col-md-6">
+                    <a href="https://www.svb.nl/nl/" class="logo" tabindex="0" data-track-content=""
+                        data-content-category="Logo">
+                        <picture>
+                            <source media="screen and (min-width: 760px)"
+                                srcset="https://svb.nl/static/3.0.5/gfx/logo-desktop.svg" type="image/svg+xml">
+                            <source media="screen and (max-width: 759px)"
+                                srcset="https://svb.nl//static/3.0.5/gfx/logo-mobile.svg" type="image/svg+xml">
+                            <source media="print" srcset="/static/3.0.5/gfx/logo-desktop.svg" type="image/svg+xml">
+                              <img src="./Pagina niet gevonden _ SVB_files/logo-desktop.svg"
+                                alt="logo SVB Sociale Verzekeringsbank, voor het leven">
+                        </picture>
+                        <span class="visually-hidden">Naar Homepage</span>
+                    </a>
+                </div>
+                <div class="col col-xs-8 col-md-6 align-content-right hidden-print"></div>
+            </div>
+        </div>
+    </header>
+    <nav id="navigation" class="sticky hidden-print" aria-label="Hoofdmenu">
+    </nav>
+    <main id="main">
+        <div id="notification-area"></div>
+        <section class="content">
+            <div class="container breadcrumbs-container">
+                <div typeof="Region" resource="Main">
+                </div>
+            </div>
+            <div typeof="Region" resource="Main">
+                <div class="container">
+                    <div class="row">
+                        <div class="col col-xs-12 col-md-9 col-lg-7">
+                            <h1>Er ging iets mis...</h1>
+                            <div data-index="0">
+                                <div>
+                                    <div class="lead">
+                                        <p>Dit verzoek kan niet verwerkt worden, neem contact op met de Sociale Verzekeringsbank via <a href="https://www.svb.nl/nl/contact" class="link">deze link</a>.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div typeof="Region" resource="Container" class="container">
+                <div class="row">
+                    <div class="col col-xs-12">
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col col-xs-12">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer id="footer">
+        <section>
+            <div class="footer-links hidden-print">
+                <div class="container">
+                    <div class="row">
+                    </div>
+                </div>
+            </div>
+            <div class="footer-proclaimer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col col-sm-12 col-md-4">
+                            <a href="https://svb.nl/" title="" data-track-content=""
+                                data-content-category="Footer" data-content-action="ga naar svb.nl">Ga naar svb.nl</a>
+                        </div>
+                        <div class="col col-xs-12 col-md-8 hidden-until-sm">De SVB, de uitvoerder van volksverzekeringen
+                            in Nederland</div>
+                    </div>
+                </div>
+            </div>
+            <picture class="lifeline">
+                <source media="(min-width: 760px)" srcset="/static/3.0.5/gfx/lifeline-desktop.svg" type="image/svg+xml">
+                <source media="(max-width: 759px)" srcset="/static/3.0.5/gfx/lifeline-mobile.svg" type="image/svg+xml">
+                <img src="https://svb.nl/static/3.0.5/gfx/lifeline-desktop.svg" alt="">
+            </picture>
+        </section>
+    </footer>
+</body>
+</html>

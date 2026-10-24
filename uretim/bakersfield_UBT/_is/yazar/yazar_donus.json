@@ -1,0 +1,199 @@
+{
+ "oturum": {
+  "topic_id": "bakersfield:oturum",
+  "cards": 23,
+  "links": 44,
+  "claims": 499,
+  "new_sources": 20,
+  "gaps": [
+   "oturum: AR-11 adres bildirimi formu sayfası yok (uscis.gov engelli); adres kartı usa.gov E-COA yönlendirmesine dayanıyor, AR-11'in yasal zorunluluğu yazılmadı",
+   "oturum: E-1/E-2 (Türk vatandaşına açık anlaşmalı tüccar/yatırımcı vizesi) için erişilebilir resmî sayfa yok (travel.state.gov, fam.state.gov, uscis.gov engelli)",
+   "oturum: 8 CFR ve federalregister/ecfr (CAPTCHA) yok; mevzuat dayanağı yazılmadı",
+   "oturum: F-1 için yalnız usa.gov öğrenci vizesi sayfası ve CSUB sayfaları var; SEVIS (I-901) ücret tutarı, OPT/CPT, vize ücreti ve randevu bekleme süresi için resmî kaynak yok; Bakersfield College uluslararası öğrenci sayfası bulunamadı",
+   "oturum: H-4, L-1, O-1, TN ve USCIS geçici işçi sınıflandırma tablosu için kaynak yok (uscis.gov engelli)",
+   "oturum: USCIS ücret tutarları ve Visa Bulletin/öncelik tarihi bekleme süreleri için kaynak yok",
+   "oturum: Türkiye'ye özgü bilgi yok: çifte vatandaşlık kuralı, konsoloslukta pasaport kaybı işlemi, Türkiye'nin DV listesinde/Vize Muafiyeti Programı'nda olup olmadığı",
+   "oturum: Bakersfield/Kern'e özgü en yakın USCIS ofisi ve yerel ücretsiz göçmenlik hukuku kuruluşlarının adres/telefonu yok",
+   "oturum: H-1B 100.000 USD Başkanlık Bildirisi bilgisi yalnız DOL'ün H-1B sayfasındaki habere dayanıyor; güncel durumu USCIS/Dışişleri sayfalarından doğrulanamadı"
+  ]
+ },
+ "saglik": {
+  "topic_id": "bakersfield:saglik",
+  "cards": 25,
+  "links": 51,
+  "claims": 429,
+  "new_sources": 17,
+  "gaps": [
+   "California okul aşı şartının resmî sayfası (shotsforschool/CDPH) erişilemedi; okul şartı yalnız BCSD ve Bakersfield High kayıt sayfalarından yazıldı",
+   "Medi-Cal DHCS sayfası engelli; yasal bulunan (H, F-1) yetişkinlerin Medi-Cal uygunluğu kaynaklarda net değil, kesin hüküm yazılmadı",
+   "Bakersfield'daki urgent care kliniklerinin adres, saat ve ücreti kaynakta yok (Kern Medical ve Adventist Health siteleri engelli)",
+   "İşveren sigortası: yeni işe girişte bekleme süresi ve kayıt takvimi için güncel resmî kaynak bulunamadı",
+   "Türkçe destek: Covered California dil hatlarında Türkçe yok; Bakersfield'da Türkçe konuşan enroller/klinik bilgisi kaynakta yok",
+   "Covered California find-an-enroller sayfası JS; Kern'e özgü enroller listesi yok",
+   "Kern halk sağlığı okul aşı kliniği tarihleri 2024'e ait, WIC gelir sınırı 30.06.2026'da bitmiş; yazılmadı",
+   "Örtüşme: saglik 'cocuk-asi-ve-okul-saglik-sartlari' ve 'cocuga-asi-yaptirma-kern-halk-sagligi' kartları aile 'okul-kaydi-icin-asi-kayitlari-ve-saglik-formlari' ile aynı kaynaklara dayanıyor; saglik 'ruhsal-kriz-kern-bhrs' gunluk 988 kartı ile, Clinica kartındaki WIC notu aile WIC kartı ile kısmen örtüşüyor: editör sadeleştirsin",
+   "claim_check kalanı (biçim farkı): clinica-sierra-vista-family-health-center timing '13:00-16:15', kaynakta '1-4:15 p.m.'"
+  ]
+ },
+ "aile": {
+  "cards": 25,
+  "links": 37,
+  "claims": 325,
+  "new_sources": 13,
+  "gaps": [
+   "aile: doğumun hastanede resmî kaydı/doğum bildirimi süreci için kaynak yok",
+   "aile: zorunlu eğitim yaşı eyalet kaynağı yok; 6-18 kuralı BCSD atfıyla",
+   "aile: CDE/ELPAC eyalet sayfası yok; KHSD İngilizce öğrenen desteği yazılmadı",
+   "aile: CAPP gelir sınırı ve belge listesi yok",
+   "aile: BCSD okul yemekleri sayfası 403; ücretsiz/indirimli öğün başvurusu yazılmadı",
+   "aile: BCSD okul servisi hak ediş/ücret yok; okul takvimi PDF",
+   "aile: BHS dışındaki KHSD liselerinin kayıt belge listesi yok",
+   "aile: Head Start/State Preschool ücret ve gelir sınırı yok",
+   "aile: CCCC ofis adresleri yok"
+  ]
+ },
+ "gunluk": {
+  "cards": 25,
+  "links": 51,
+  "claims": 402,
+  "new_sources": 26,
+  "gaps": [
+   "ilk5-1: Bakersfield polisinin acil olmayan numarası yok (bakersfieldcity.us/kerncounty.com 403, bakersfieldpd.us TLS, kernsheriff.org zaman aşımı)",
+   "ilk5-4: Kern County Library kart bilgisi yok (403); kart Bakersfield College kütüphanesi için",
+   "şehir çöp toplama günleri/büyük eşya kuralları yok (belediye engelli)",
+   "Roberts Lane aktarma istasyonu adres/saat ve atık sahası ücretleri yok",
+   "Kern County text-to-911 bilgisi yok",
+   "Bakersfield Adult School ESL kayıt adımları yok",
+   "Kern Literacy Council gibi ücretsiz ESL seçenekleri için resmî sayfa yok",
+   "valleyair.org erişilemiyor; Bakersfield yerel hava uyarısı sayfası yok",
+   "Kern Halk Sağlığı Vadi humması sekmeleri cdph.ca.gov sitesine gidiyor (TLS hatası); belirti ve korunma CDC kaynaklı"
+  ]
+ },
+ "kesif": {
+  "cards": 24,
+  "links": 61,
+  "claims": 564,
+  "new_sources": 24,
+  "gaps": [
+   "Buck Owens Crystal Palace ve Trout's için resmî site yok: kapı ücreti, rezervasyon, gece programı yok (Crystal Palace Ağustos 2025'te kapandı — kartlarda açık gösterilmemeli; editör kontrol etsin)",
+   "NPS ikamet etmeyen ücretinde vize sahiplerinin 'ABD'de ikamet eden' sayılıp sayılmadığı kaynakta açık değil",
+   "Kern River Parkway Trail, şehir parkları ve McMurtrey halka açık yüzme saat/ücreti için resmî sayfa yok",
+   "Lake Ming ve Hart Park günübirlik giriş ücreti, grup piknik ücretleri yok",
+   "Sequoia/Kings Canyon'a mesafe-süre yok; Trail of 100 Giants kapanış bitiş tarihi yok",
+   "Condors, Bakersfield Jam, CSUB, BC maç takvimi ve bilet fiyatı yok",
+   "Fox Theater, Music Hall of Fame, Dignity Health Amphitheatre program/bilet sayfası yok",
+   "CALM üyelik fiyatları yok"
+  ]
+ },
+ "ulasim": {
+  "cards": 25,
+  "links": 46,
+  "claims": 499,
+  "new_sources": 14,
+  "gaps": [
+   "Yabancı ehliyetle yetişkin ziyaretçi/yeni yerleşenin kaç gün araç kullanabileceği resmî HTML kaynakta yok (yalnız PDF)",
+   "Amtrak 25 Ekim 2026 Gold Runner düzenlemesinin içeriği, bilet fiyatı ve sefer saatleri yok (tarife PDF)",
+   "Greyhound, FlixBus, Kern Transit için resmî sayfa yok",
+   "Meadows Field'a GET bağlantısı ve taksi ücreti yok",
+   "DMV sürüş sınavı tekrar ücreti çelişkili ($9 ücret tablosu / $7 ehliyet sayfası); kartta ikisi atıfla",
+   "Bayiden alınan araçta smog belgesi süresi çelişkili (BAR iki yıl, DMV 90 gün); yazılmadı",
+   "Başka eyaletten gelen araçta VIN doğrulaması yalnız PDF",
+   "Bakersfield DMV çevrimiçi randevu sayfası metni yok; yalnız 1-800-777-0133"
+  ]
+ },
+ "is": {
+  "cards": 24,
+  "links": 54,
+  "claims": 671,
+  "new_sources": 38,
+  "gaps": [
+   "Bakersfield/Kern yerel asgari ücreti kaynakta yok; eyalet oranı (1 Ocak 2026'dan itibaren 16,90 USD)",
+   "Kern County Clerk FBN sayfaları yalnız http; ilk ilan süresi iki sayfada 30 ve 45 gün, kartta ikisi atıfla",
+   "Bakersfield iş ruhsatı (business tax) sayfası yok",
+   "Genel diploma denkliği (ed.gov) yok; yalnız lisanslı meslek kurulları; PTBC/CBA ücretleri yok",
+   "AJCC kaydında yabancı lise diploması ve Türkçe hizmet bilgisi yok",
+   "EDD Türkçe hat bilgisi yok",
+   "Cal/OSHA şikâyet formu alınmadı",
+   "Göçmenlik statüsüne göre iş kurma hakkı için kaynak yok"
+  ]
+ },
+ "ev": {
+  "cards": 26,
+  "links": 53,
+  "claims": 674,
+  "new_sources": 17,
+  "gaps": [
+   "CalHFA ve hcd.ca.gov erişilemedi; California ilk ev alıcı programları için kaynak yok (yalnız federal programlar)",
+   "Yabancı uyruklu/vizeli alıcı için ipotek uygunluğu resmî kaynağı yok",
+   "kernha.org engelli; yerel Section 8/kamu konutu başvuru bilgisi yok (HUD genel PHA rehberi ve kcdhs.org kullanıldı)",
+   "Bakersfield'a özgü kiracı kuralı yok, kartlar California kuralı; DRE 2024 kira kontrolü listesinde Bakersfield/Kern yok",
+   "Bakersfield belediyesi engelli; kod uygulama/bina dairesi iletişimi ve Kern mahkemesi self-help bilgisi yok",
+   "Tahliye davasına yanıt süresi çelişkili: DRE rehberi 5 mahkeme günü, California Mahkemeleri 10 gün; kartta mahkemelerin 10 günü esas",
+   "HUD konut danışmanı arama aracı ve FHA sayfaları metin vermedi"
+  ]
+ },
+ "para": {
+  "cards": 26,
+  "links": 63,
+  "claims": 633,
+  "new_sources": 27,
+  "gaps": [
+   "Bakersfield'da hangi bankaların pasaport/konsolosluk kimliği/ITIN ile hesap açtığı ve belge listeleri yok; yalnız FDIC genel kuralı",
+   "Mevduat bekletme süreleri ve yetkisiz işlem hakları CFPB metni alınamadı",
+   "Green card/H-1B/F-1 statülerinin CalFresh uygunluğu HTML kaynakta yok; genelleme yapılmadı",
+   "WIC, CalWORKs, General Assistance ve acil gıdada göçmenlik statüsünün etkisi yok",
+   "SSN/ITIN olmadan kredi kartı/kredi koşulları yok",
+   "ABD-Türkiye vergi anlaşması maddeleri yok",
+   "Bakersfield'da CAPK dışında VITA/ITIN noktası yok",
+   "FTB tarih sayfası JS; California tarihleri 2025 vergi yılı kitapçığından geçmiş zamanla; CalFile uygunluk koşulları yazılmadı",
+   "Türkiye'ye para gönderme firma/ücret/kur bilgisi yok",
+   "Metin kalitesi: capi-gocmenler-icin-nakit-yardim kaydında hitap karışması (steps: 'edin') — editör tek biçim 'sen' yapsın"
+  ]
+ },
+ "resmi": {
+  "cards": 25,
+  "links": 57,
+  "claims": 678,
+  "new_sources": 22,
+  "gaps": [
+   "Bakersfield belediyesi hizmetleri (telefon, adres, saat, su-çöp, polis, iş ruhsatı) yazılamadı (bakersfieldcity.us 403); 5. soru yalnız Kern County tarafını karşılıyor",
+   "LA Başkonsolosluğu pasaport/kimlik/nüfus formları PDF; harç tutarları ve belge listeleri yok",
+   "Bakersfield SSA ofis adresi/saatleri yok (ofis bulucu dinamik)",
+   "DMV Bakersfield ofis saatleri tarihe göre değişiyor, sabit saat yazılmadı",
+   "Türkiye belgesinin apostilini ABD'deyken yaptırma yolu kaynakta yok",
+   "Kern County Hall of Records posta adresi/saatleri metin olarak yok",
+   "Kartlar arası: oturum kartı USPS kimlik doğrulama ücretini 1,10 USD yazıyor, USPS sayfası 1,25 USD (oturum editörüne iletildi)"
+  ]
+ },
+ "planlama": {
+  "cards": 19,
+  "links": 43,
+  "claims": 452,
+  "steps": 8,
+  "new_sources": 31,
+  "gaps": [
+   "ready.gov ve NWS Hanford erişilemedi; acil durum çantası, ısı/sel uyarı türleri, hava tahmini sayfası yok",
+   "Yeni gelen karşılama programı sayfası yok; ücretsiz destek kartı USAGov, 211, myUSCIS, LSC/LawHelp, IER, BC Adult Education ile sınırlı",
+   "Amtrak 25 Ekim 2026 düzenlemesinin içeriği yok; kartta yazılmadı",
+   "Vatandaş olmayanların yerel seçimde oy hakkı kaynakta yok",
+   "California köpek/kedi giriş şartları (CDFA) yok",
+   "CBP giriş/gümrük muafiyeti ve TSA kuralları için resmî sayfa yok",
+   "SSN'i olmayanların DMV kimlik/ehliyet başvurusu (AB 60) kaynağı yok",
+   "Kern kum torbası noktaları, sel uyarısı, CEA deprem sigortası kaynağı yok",
+   "Örtüşme: yaz-sicagi kartı günlük sıcak/AQI kartlarıyla; ulaşım kartı ulasim ile; ücretsiz destek kartı oturum/günlük ile; ilk-hafta kartı resmi (SSN, REAL ID, USPS) ile; tahliye bölgesi kartı günlük ReadyKern ile kısmen örtüşüyor"
+  ]
+ },
+ "fatura": {
+  "cards": 23,
+  "links": 38,
+  "claims": 588,
+  "new_sources": 19,
+  "gaps": [
+   "Bakersfield'da hangi adresin PG&E, SoCalGas ya da SCE kapsamında olduğunu söyleyen kaynak yok; socalgas.com 403; PG&E hizmet bölgesi sayfasında Bakersfield yalnız doğalgaz listesinde",
+   "Belediyenin su ve çöp sayfaları erişilemedi; çöp için Kern County Public Works, su için Cal Water",
+   "Cal Water Bakersfield tarifesi yok",
+   "PG&E SSN'siz başlatma ve depozito makaleleri alınamadı",
+   "PG&E ESA gelir tablosu JS; gelir sınırları yazılamadı"
+  ]
+ }
+}

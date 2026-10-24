@@ -1,0 +1,658 @@
+[
+ {
+  "gap": "G01",
+  "topic": "oturum",
+  "url": "https://ind.nl/en/fees",
+  "title": "Fees (IND leges tablosu: tüm oturum türleri)",
+  "publisher": "IND",
+  "lang": "en",
+  "must_contain": [
+   "Highly skilled migrant",
+   "423,00",
+   "EG-Turkey"
+  ],
+  "why": "Bilgi göçmeni, aile, öğrenci, serbest meslek, uzatma ve Türk vatandaşı (AB-Türkiye Ortaklık Anlaşması) ücretleri tek tabloda; düz HTML içinde.",
+  "snap_ok": true,
+  "hits": 3,
+  "need": 3,
+  "usable": true,
+  "status": 200
+ },
+ {
+  "gap": "G02",
+  "topic": "oturum",
+  "url": "https://ind.nl/en/required-amounts-income-requirements",
+  "title": "Required amounts income requirements",
+  "publisher": "IND",
+  "lang": "en",
+  "must_contain": [
+   "5,942",
+   "4,357",
+   "2,337"
+  ],
+  "why": "Bilgi göçmeni maaş eşikleri (30 yaş altı/üstü) ve partner/aile birleşimi gelir şartı aylık brüt rakamlarla; düz HTML içinde.",
+  "snap_ok": true,
+  "hits": 3,
+  "need": 3,
+  "usable": true,
+  "status": 200
+ },
+ {
+  "gap": "G03",
+  "topic": "oturum",
+  "url": "https://ind.nl/en/after-your-application/decision-periods",
+  "title": "Decision periods",
+  "publisher": "IND",
+  "lang": "en",
+  "must_contain": [
+   "legal decision period of 90 days",
+   "legal decision period of 3 months"
+  ],
+  "why": "Başvuru türüne göre yasal karar süreleri.",
+  "snap_ok": true,
+  "hits": 2,
+  "need": 2,
+  "usable": true,
+  "status": 200
+ },
+ {
+  "gap": "G03",
+  "topic": "oturum",
+  "url": "https://ind.nl/en/replace-extend-renew-and-change/extend-and-renew/regular-temporary-residence-permit-extension",
+  "title": "Regular temporary residence permit extension",
+  "publisher": "IND",
+  "lang": "en",
+  "must_contain": [
+   "expires within 3 months",
+   "cannot yet submit an application"
+  ],
+  "why": "Süreli oturum kartı uzatma: kart bitmeden 3 ay içinde başvurulur.",
+  "snap_ok": true,
+  "hits": 2,
+  "need": 2,
+  "usable": true,
+  "status": 200
+ },
+ {
+  "gap": "G03",
+  "topic": "oturum",
+  "url": "https://ind.nl/en/living-in-the-netherlands-with-a-residence-permit/travelling-with-a-residence-permit-and-a-return-visa",
+  "title": "Travelling with a residence permit and a return visa",
+  "publisher": "IND",
+  "lang": "en",
+  "must_contain": [
+   "Return visa (TKV)",
+   "temporarily no longer valid"
+  ],
+  "why": "Dönüş vizesi (terugkeervisum, TKV) ne zaman gerekir.",
+  "snap_ok": true,
+  "hits": 2,
+  "need": 2,
+  "usable": true,
+  "status": 200
+ },
+ {
+  "gap": "G04",
+  "topic": "para",
+  "url": "https://www.rijksoverheid.nl/documenten/vraag-en-antwoord/betalingsverkeer/afwijzing-betaalrekening-consument",
+  "title": "Wat kan ik als consument doen als ik geen betaalrekening kan krijgen?",
+  "publisher": "Rijksoverheid",
+  "lang": "nl",
+  "must_contain": [
+   "basisbetaalrekening",
+   "misbruik"
+  ],
+  "why": "Banka hesabı reddedilirse temel ödeme hesabı (basisbetaalrekening) hakkı ve reddedilme gerekçeleri.",
+  "snap_ok": true,
+  "hits": 2,
+  "need": 2,
+  "usable": true,
+  "status": 200
+ },
+ {
+  "gap": "G05",
+  "topic": "para",
+  "url": "https://www.belastingdienst.nl/wps/wcm/connect/en/individuals/content/filing-an-online-tax-return-in-4-steps",
+  "title": "Filing an online tax return in 4 steps",
+  "publisher": "Belastingdienst",
+  "lang": "en",
+  "must_contain": [
+   "before 1 May",
+   "invitation"
+  ],
+  "why": "Davet mektubu alan kişinin beyannameyi 1 Mayıs'tan önce vermesi.",
+  "snap_ok": true,
+  "hits": 2,
+  "need": 2,
+  "usable": true,
+  "status": 200
+ },
+ {
+  "gap": "G05",
+  "topic": "para",
+  "url": "https://www.government.nl/topics/income-tax/filing-a-tax-return",
+  "title": "Tax return",
+  "publisher": "government.nl",
+  "lang": "en",
+  "must_contain": [
+   "required to file a tax return",
+   "provisional assessment"
+  ],
+  "why": "Kimin beyanname vermek zorunda olduğu (davet olmasa da).",
+  "snap_ok": true,
+  "hits": 2,
+  "need": 2,
+  "usable": true,
+  "status": 200
+ },
+ {
+  "gap": "G06",
+  "topic": "ev",
+  "url": "https://www.belastingdienst.nl/wps/wcm/connect/bldcontenten/belastingdienst/individuals/benefits/moving_to_the_netherlands/i_live_in_a_rented_house/i_live_in_a_rented_house",
+  "title": "I live in a rented house",
+  "publisher": "Belastingdienst",
+  "lang": "en",
+  "must_contain": [
+   "independent living space",
+   "rental agreement",
+   "You are 18 years"
+  ],
+  "why": "Huurtoeslag şartları: bağımsız konut, kira sözleşmesi, 18 yaş, gelir ve varlık.",
+  "snap_ok": true,
+  "hits": 3,
+  "need": 3,
+  "usable": true,
+  "status": 200
+ },
+ {
+  "gap": "G06",
+  "topic": "ev",
+  "url": "https://www.belastingdienst.nl/wps/wcm/connect/bldcontenten/belastingdienst/individuals/benefits/moving_to_the_netherlands/i_live_in_a_rented_house/assets-rent-benefit",
+  "title": "Your assets must not be too high for the rent benefit",
+  "publisher": "Belastingdienst",
+  "lang": "en",
+  "must_contain": [
+   "38,479",
+   "76,958"
+  ],
+  "why": "Huurtoeslag varlık sınırı (1 Ocak 2026): tek kişi ve partnerli.",
+  "snap_ok": true,
+  "hits": 2,
+  "need": 2,
+  "usable": true,
+  "status": 200
+ },
+ {
+  "gap": "G07",
+  "topic": "ev",
+  "url": "https://www.government.nl/themes/building-and-housing/housing/rented-housing",
+  "title": "Rented housing",
+  "publisher": "government.nl",
+  "lang": "en",
+  "must_contain": [
+   "Fixed-period or indefinite tenancy agreement",
+   "registered post"
+  ],
+  "why": "Süreli/süresiz kira sözleşmesi türleri ve sona erme kuralları.",
+  "snap_ok": true,
+  "hits": 2,
+  "need": 2,
+  "usable": true,
+  "status": 200
+ },
+ {
+  "gap": "G07",
+  "topic": "ev",
+  "url": "https://rijksoverheid.nl/vraag-en-antwoord/woning-huren/huur-opzeggen-woning",
+  "title": "Hoe zeg ik de huur op van mijn woning?",
+  "publisher": "Rijksoverheid",
+  "lang": "nl",
+  "must_contain": [
+   "opzegtermijn",
+   "1 maand voor uw vertrek"
+  ],
+  "why": "Kiracının fesih ihbarı: genelde 1 ay, sözleşmede yazar.",
+  "snap_ok": true,
+  "hits": 2,
+  "need": 2,
+  "usable": true,
+  "status": 200
+ },
+ {
+  "gap": "G07",
+  "topic": "ev",
+  "url": "https://www.rijksoverheid.nl/vraag-en-antwoord/woning-huren/verhuurder-zegt-huur-op-woning",
+  "title": "Mag mijn verhuurder de huur opzeggen van mijn woning?",
+  "publisher": "Rijksoverheid",
+  "lang": "nl",
+  "must_contain": [
+   "3 tot 6 maanden",
+   "goede reden"
+  ],
+  "why": "Ev sahibi ancak geçerli sebeple feshedebilir; ihbar süresi 3-6 ay.",
+  "snap_ok": true,
+  "hits": 2,
+  "need": 2,
+  "usable": true,
+  "status": 200
+ },
+ {
+  "gap": "G08",
+  "topic": "saglik",
+  "url": "https://www.government.nl/faq/health-insurance/more-qas-about-health-insurance-in-the-netherlands",
+  "title": "More Q&As about health insurance in the Netherlands",
+  "publisher": "government.nl",
+  "lang": "en",
+  "must_contain": [
+   "3 months to take out a health insurance policy",
+   "After 2 fines"
+  ],
+  "why": "Sigortasızsa CAK mektubu, 3 ay süre, para cezası ve CAK'ın kendisinin sigorta yaptırması.",
+  "snap_ok": true,
+  "hits": 2,
+  "need": 2,
+  "usable": true,
+  "status": 200
+ },
+ {
+  "gap": "G09",
+  "topic": "saglik",
+  "url": "https://www.government.nl/themes/family-health-and-care/health-insurance/standard-health-insurance/changing-your-health-insurance",
+  "title": "Changing your health insurance",
+  "publisher": "government.nl",
+  "lang": "en",
+  "must_contain": [
+   "31 December",
+   "1 February"
+  ],
+  "why": "Sigortacı değiştirme: yıl sonu 31 Aralık; kendin iptal edersen 1 Şubat'a kadar yenisini yaptır.",
+  "snap_ok": true,
+  "hits": 2,
+  "need": 2,
+  "usable": true,
+  "status": 200
+ },
+ {
+  "gap": "G10",
+  "topic": "saglik",
+  "url": "https://www.113.nl/i/zelfmoordlijn",
+  "title": "Zelfmoordlijn - 113 Zelfmoordpreventie",
+  "publisher": "113 Zelfmoordpreventie",
+  "lang": "nl",
+  "must_contain": [
+   "0800-0113",
+   "gratis",
+   "24 uur per dag"
+  ],
+  "why": "Ruh sağlığı kriz hattı: 113 (normal ücret), 0800-0113 ücretsiz, 7/24 telefon ve sohbet.",
+  "snap_ok": true,
+  "hits": 3,
+  "need": 3,
+  "usable": true,
+  "status": 200
+ },
+ {
+  "gap": "G11",
+  "topic": "aile",
+  "url": "https://www.svb.nl/en/child-benefit/amounts-and-payment-dates/child-benefit-amounts",
+  "title": "Child benefit amounts",
+  "publisher": "SVB",
+  "lang": "en",
+  "must_contain": [
+   "€295.07",
+   "€358.30",
+   "€421.53"
+  ],
+  "why": "Kinderbijslag 2026 çeyrek dönem tutarları, yaş grubuna göre.",
+  "snap_ok": false,
+  "hits": 0,
+  "need": 3,
+  "usable": false,
+  "status": 403
+ },
+ {
+  "gap": "G12",
+  "topic": "aile",
+  "url": "https://www.belastingdienst.nl/wps/wcm/connect/bldcontenten/belastingdienst/individuals/benefits/moving_to_the_netherlands/my_child_goes_to_a_childcare_centre/my_child_goes_to_a_childcare_centre",
+  "title": "My child goes to a childcare centre",
+  "publisher": "Belastingdienst",
+  "lang": "en",
+  "must_contain": [
+   "230 hours",
+   "registered"
+  ],
+  "why": "Kinderopvangtoeslag şartları: kayıtlı kreş, çalışma/eğitim şartı, aylık en çok 230 saat.",
+  "snap_ok": true,
+  "hits": 2,
+  "need": 2,
+  "usable": true,
+  "status": 200
+ },
+ {
+  "gap": "G13",
+  "topic": "is",
+  "url": "https://business.gov.nl/staff/terms-of-employment/statutory-holidays-what-you-need-to-know",
+  "title": "Holiday entitlement for employees in the Netherlands",
+  "publisher": "business.gov.nl",
+  "lang": "en",
+  "must_contain": [
+   "4 times the number of days",
+   "wettelijke vakantiedagen"
+  ],
+  "why": "Yasal yıllık izin: haftalık çalışma günü/saatinin 4 katı.",
+  "snap_ok": true,
+  "hits": 2,
+  "need": 2,
+  "usable": true,
+  "status": 200
+ },
+ {
+  "gap": "G13",
+  "topic": "is",
+  "url": "https://rijksoverheid.nl/vraag-en-antwoord/ontslag/ontslagen-worden-opzegtermijn-werkgever",
+  "title": "Ik word ontslagen. Wat is de opzegtermijn van mijn werkgever?",
+  "publisher": "Rijksoverheid",
+  "lang": "nl",
+  "must_contain": [
+   "15 jaar of langer",
+   "4 maanden"
+  ],
+  "why": "İşveren ihbar süresi hizmet yılına göre 1-4 ay tablosu.",
+  "snap_ok": true,
+  "hits": 2,
+  "need": 2,
+  "usable": true,
+  "status": 200
+ },
+ {
+  "gap": "G13",
+  "topic": "is",
+  "url": "https://business.gov.nl/regulations/sick-pay/",
+  "title": "Sick pay",
+  "publisher": "business.gov.nl",
+  "lang": "en",
+  "must_contain": [
+   "at least 70% of their wages",
+   "2 years"
+  ],
+  "why": "Hastalıkta maaş devamı: en az %70, en çok 2 yıl.",
+  "snap_ok": true,
+  "hits": 2,
+  "need": 2,
+  "usable": true,
+  "status": 200
+ },
+ {
+  "gap": "G14",
+  "topic": "gunluk",
+  "url": "https://www.government.nl/faq/emergency-number-112/when-can-i-call-112",
+  "title": "When can I call 112?",
+  "publisher": "government.nl",
+  "lang": "en",
+  "must_contain": [
+   "0900 8844",
+   "not urgently"
+  ],
+  "why": "112 acil durumlar için; acil olmayan polis işi için 0900 8844.",
+  "snap_ok": true,
+  "hits": 2,
+  "need": 2,
+  "usable": true,
+  "status": 200
+ },
+ {
+  "gap": "G15",
+  "topic": "ev",
+  "url": "https://www.wooniezie.nl/over-ons/om-te-bekijken/nieuws/nieuwsbericht/zorg-voor-een-actuele-inschrijving-bij-wooniezie",
+  "title": "Zorg voor een actuele inschrijving bij Wooniezie",
+  "publisher": "Wooniezie",
+  "lang": "nl",
+  "must_contain": [
+   "ieder jaar verlengen",
+   "gratis"
+  ],
+  "why": "Wooniezie kaydı ücretsiz ve her yıl yenilenmeli. Bekleme süresi ve gelir sınırı rakamı düz metinde bulunamadı (yalnız PDF faktsheet'te).",
+  "snap_ok": true,
+  "hits": 2,
+  "need": 2,
+  "usable": true,
+  "status": 200
+ },
+ {
+  "gap": "G16",
+  "topic": "saglik",
+  "url": "https://www.zorginstituutnederland.nl/verzekerde-zorg/v/verloskundige-zorg-zvw",
+  "title": "Verloskundige zorg (Zvw)",
+  "publisher": "Zorginstituut Nederland",
+  "lang": "nl",
+  "must_contain": [
+   "Bent u zwanger",
+   "recht op verloskundige zorg"
+  ],
+  "why": "Hamilelikte ebe (verloskundige) bakımı sigorta kapsamında.",
+  "snap_ok": true,
+  "hits": 2,
+  "need": 2,
+  "usable": true,
+  "status": 200
+ },
+ {
+  "gap": "G16",
+  "topic": "saglik",
+  "url": "https://www.zorginstituutnederland.nl/verzekerde-zorg/k/kraamzorg-zvw",
+  "title": "Kraamzorg (Zvw)",
+  "publisher": "Zorginstituut Nederland",
+  "lang": "nl",
+  "must_contain": [
+   "Kraamzorg is de zorg tijdens en na de bevalling",
+   "kraamverzorgende"
+  ],
+  "why": "Doğum sonrası bakım (kraamzorg) sigorta kapsamında ne içerir.",
+  "snap_ok": true,
+  "hits": 2,
+  "need": 2,
+  "usable": true,
+  "status": 200
+ },
+ {
+  "gap": "G17",
+  "topic": "aile",
+  "url": "https://www.rijksoverheid.nl/themas/onderwijs/schooladvies-en-doorstroomtoets-basisschool/toelating-voortgezet-onderwijs-gebaseerd-op-definitief-schooladvies",
+  "title": "Schooladvies toelating voortgezet onderwijs",
+  "publisher": "Rijksoverheid",
+  "lang": "nl",
+  "must_contain": [
+   "schooladvies in groep 8",
+   "doorstroomtoets"
+  ],
+  "why": "Grup 8'de okul tavsiyesi ve ortaokula kabul süreci.",
+  "snap_ok": true,
+  "hits": 2,
+  "need": 2,
+  "usable": true,
+  "status": 200
+ },
+ {
+  "gap": "G18",
+  "topic": "gunluk",
+  "url": "https://www.cure-afvalbeheer.nl/milieustraat/milieustraat-eindhoven/",
+  "title": "Milieustraat Eindhoven",
+  "publisher": "Cure",
+  "lang": "nl",
+  "must_contain": [
+   "08:30 tot 17:00",
+   "milieupas",
+   "Gesloten"
+  ],
+  "why": "Eindhoven atık getirme noktası saatleri ve milieupas şartı.",
+  "snap_ok": true,
+  "hits": 3,
+  "need": 3,
+  "usable": true,
+  "status": 200
+ },
+ {
+  "gap": "G18",
+  "topic": "gunluk",
+  "url": "https://www.cure-afvalbeheer.nl/klantenservice/ophaalafspraak-grofvuil/",
+  "title": "Aanvraag ophaalafspraak grofvuil",
+  "publisher": "Cure",
+  "lang": "nl",
+  "must_contain": [
+   "ophaalafspraak",
+   "grofvuilstickers"
+  ],
+  "why": "Büyük eşya (grofvuil) için evden alım randevusu: Big Bag/etiket önceden alınmış olmalı.",
+  "snap_ok": true,
+  "hits": 2,
+  "need": 2,
+  "usable": true,
+  "status": 200
+ },
+ {
+  "gap": "G19",
+  "topic": "resmi",
+  "url": "https://www.inburgeren.nl/inburgeren-betalen/",
+  "title": "Hoeveel kost inburgeren?",
+  "publisher": "inburgeren.nl",
+  "lang": "nl",
+  "must_contain": [
+   "Schrijven",
+   "Kennis van de Nederlandse",
+   "Totaal"
+  ],
+  "why": "Sınav ücretleri tablosu (yazma/konuşma/dinleme/okuma/KNM 50 euro, ONA 40 euro) ve DUO kredisi.",
+  "snap_ok": true,
+  "hits": 3,
+  "need": 3,
+  "usable": true,
+  "status": 200
+ },
+ {
+  "gap": "G20",
+  "topic": "fatura",
+  "url": "https://consuwijzer.nl/elektriciteit-en-gas/meters-meterstanden-verbruik/meterstanden-jaarafrekening-eindafrekening",
+  "title": "Meterstanden en eindafrekening",
+  "publisher": "ConsuWijzer",
+  "lang": "nl",
+  "must_contain": [
+   "binnen 5 werkdagen na uw overstap of verhuizing",
+   "6 weken"
+  ],
+  "why": "Taşınırken sayaç okuma 5 iş günü içinde; kesin fatura 6 hafta içinde.",
+  "snap_ok": true,
+  "hits": 2,
+  "need": 2,
+  "usable": true,
+  "status": 200
+ },
+ {
+  "gap": "G20",
+  "topic": "fatura",
+  "url": "https://consument.acm.nl/elektriciteit-en-gas/overstappen-vergelijken-en-verhuizen/energiecontract-bij-verhuizen",
+  "title": "Energiecontract bij verhuizen",
+  "publisher": "ConsuWijzer (ACM)",
+  "lang": "nl",
+  "must_contain": [
+   "Soms kunt u uw huidige contract meenemen",
+   "eindafrekening"
+  ],
+  "why": "Taşınırken enerji sözleşmesi: yeni adrese götürme veya yeni tedarikçi.",
+  "snap_ok": true,
+  "hits": 2,
+  "need": 2,
+  "usable": true,
+  "status": 200
+ },
+ {
+  "gap": "G21",
+  "topic": "ulasim",
+  "url": "https://www.ov-chipkaart.nl/persoonlijke-ov-chipkaart-aanvragen",
+  "title": "Persoonlijke OV-chipkaart aanvragen",
+  "publisher": "OV-chipkaart.nl",
+  "lang": "nl",
+  "must_contain": [
+   "7,50",
+   "persoonlijke"
+  ],
+  "why": "Kişisel OV-chipkaart edinme ve kart ücreti.",
+  "snap_ok": true,
+  "hits": 1,
+  "need": 2,
+  "usable": false,
+  "status": 200
+ },
+ {
+  "gap": "G21",
+  "topic": "ulasim",
+  "url": "https://www.cbr.nl/nl/rijbewijs-halen/auto/wat-kost-het-halen-van-een-autorijbewijs",
+  "title": "Wat kost het halen van een autorijbewijs?",
+  "publisher": "CBR",
+  "lang": "nl",
+  "must_contain": [
+   "50,50",
+   "143,50"
+  ],
+  "why": "CBR 2026 teori sınavı ve pratik sınav ücretleri.",
+  "snap_ok": true,
+  "hits": 2,
+  "need": 2,
+  "usable": true,
+  "status": 200
+ },
+ {
+  "gap": "G22",
+  "topic": "is",
+  "url": "https://www.kvk.nl/inschrijven/inschrijfvergoeding/",
+  "title": "Inschrijfvergoeding",
+  "publisher": "KVK",
+  "lang": "nl",
+  "must_contain": [
+   "85,15",
+   "inschrijfvergoeding"
+  ],
+  "why": "KVK tek seferlik kayıt ücreti tutarı.",
+  "snap_ok": true,
+  "hits": 2,
+  "need": 2,
+  "usable": true,
+  "status": 200
+ },
+ {
+  "gap": "G23",
+  "topic": "para",
+  "url": "https://www.svb.nl/en/aow-pension/treaty-countries",
+  "title": "Treaty countries (AOW)",
+  "publisher": "SVB",
+  "lang": "en",
+  "must_contain": [
+   "Turkey",
+   "Treaty countries"
+  ],
+  "why": "Türkiye AOW açısından sosyal güvenlik anlaşması olan ülkeler listesinde. Anlaşma ayrıntısı bu sayfada yok.",
+  "snap_ok": false,
+  "hits": 0,
+  "need": 2,
+  "usable": false,
+  "status": 403
+ },
+ {
+  "gap": "G24",
+  "topic": "resmi",
+  "url": "https://www.eindhoven.nl/stad-en-wonen/verhuizen-concept/verhuizen-naar-het-buitenland-emigratie",
+  "title": "Verhuizen naar het buitenland (emigratie)",
+  "publisher": "Gemeente Eindhoven",
+  "lang": "nl",
+  "must_contain": [
+   "5 dagen",
+   "DigiD",
+   "bewijs van uitschrijving"
+  ],
+  "why": "Hollanda'dan ayrılırken belediye kaydını sildirme: en geç 5 gün önce bildirim, DigiD ile online.",
+  "snap_ok": true,
+  "hits": 3,
+  "need": 3,
+  "usable": true,
+  "status": 200
+ }
+]

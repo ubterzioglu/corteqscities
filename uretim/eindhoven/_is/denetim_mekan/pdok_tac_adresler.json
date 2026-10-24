@@ -1,0 +1,602 @@
+{
+ "amac": "TAC (Temporary Art Centre) kartindaki adres/koordinat kararinin izi: Vonderweg 1 ve Ventoselaan 1 adreslerinin BAG kaydi (PDOK Locatieserver). son_degisiklik.jsonl 6. ve 9. satirlardaki parsel/wijk cumlesinin ve dogrulama turundaki koordinat kararinin dayanagi.",
+ "sorgu_zamani_utc": "2026-10-23T02:40:42+00:00",
+ "servis": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/",
+ "sorgular": [
+  {
+   "q": "Vonderweg 1 Eindhoven",
+   "free_url": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/free?q=Vonderweg+1+Eindhoven&fq=type%3Aadres&rows=3",
+   "free_docs": [
+    {
+     "bron": "BAG",
+     "woonplaatscode": "1101",
+     "type": "adres",
+     "woonplaatsnaam": "Eindhoven",
+     "wijkcode": "WK077211",
+     "huis_nlt": "1",
+     "openbareruimtetype": "Weg",
+     "buurtnaam": "Witte Dame",
+     "gemeentecode": "0772",
+     "rdf_seealso": "http://bag.basisregistraties.overheid.nl/bag/id/nummeraanduiding/0772200001083212",
+     "weergavenaam": "Vonderweg 1, 5611BK Eindhoven",
+     "straatnaam_verkort": "Vonderwg",
+     "id": "adr-2bff5099a4e03c45e08977a1a9f73193",
+     "gekoppeld_perceel": [
+      "STR03-C-6671",
+      "EHV00-D-3968"
+     ],
+     "gemeentenaam": "Eindhoven",
+     "buurtcode": "BU07721130",
+     "wijknaam": "Centrum",
+     "identificatie": "0772010001083114-0772200001083212",
+     "openbareruimte_id": "0772300000001526",
+     "waterschapsnaam": "Waterschap De Dommel",
+     "provinciecode": "PV30",
+     "postcode": "5611BK",
+     "provincienaam": "Noord-Brabant",
+     "centroide_ll": "POINT(5.46970817 51.44103162)",
+     "nummeraanduiding_id": "0772200001083212",
+     "waterschapscode": "27",
+     "adresseerbaarobject_id": "0772010001083114",
+     "huisnummer": 1,
+     "provincieafkorting": "NB",
+     "centroide_rd": "POINT(160736.447 383551.527)",
+     "straatnaam": "Vonderweg",
+     "score": 14.267705
+    },
+    {
+     "bron": "BAG",
+     "woonplaatscode": "1101",
+     "type": "adres",
+     "woonplaatsnaam": "Eindhoven",
+     "wijkcode": "WK077211",
+     "huis_nlt": "1",
+     "openbareruimtetype": "Weg",
+     "buurtnaam": "Witte Dame",
+     "gemeentecode": "0772",
+     "rdf_seealso": "http://bag.basisregistraties.overheid.nl/bag/id/nummeraanduiding/0772200000113378",
+     "weergavenaam": "Vonderweg 1, 5611BK Eindhoven",
+     "straatnaam_verkort": "Vonderwg",
+     "id": "adr-4b39c43701cc49076f0cfb8871cf7622",
+     "gekoppeld_perceel": [
+      "EHV00-D-3968",
+      "STR03-C-6671"
+     ],
+     "gemeentenaam": "Eindhoven",
+     "buurtcode": "BU07721130",
+     "wijknaam": "Centrum",
+     "identificatie": "0772010000735748-0772200000113378",
+     "openbareruimte_id": "0772300000001526",
+     "waterschapsnaam": "Waterschap De Dommel",
+     "provinciecode": "PV30",
+     "postcode": "5611BK",
+     "provincienaam": "Noord-Brabant",
+     "centroide_ll": "POINT(5.46963519 51.44107107)",
+     "nummeraanduiding_id": "0772200000113378",
+     "waterschapscode": "27",
+     "adresseerbaarobject_id": "0772010000735748",
+     "huisnummer": 1,
+     "provincieafkorting": "NB",
+     "centroide_rd": "POINT(160731.368 383555.91)",
+     "straatnaam": "Vonderweg",
+     "score": 14.267705
+    },
+    {
+     "bron": "BAG",
+     "woonplaatscode": "1101",
+     "type": "adres",
+     "woonplaatsnaam": "Eindhoven",
+     "wijkcode": "WK077211",
+     "huis_nlt": "1A",
+     "openbareruimtetype": "Weg",
+     "buurtnaam": "Witte Dame",
+     "gemeentecode": "0772",
+     "rdf_seealso": "http://bag.basisregistraties.overheid.nl/bag/id/nummeraanduiding/0772200001085152",
+     "weergavenaam": "Vonderweg 1A, 5611BK Eindhoven",
+     "straatnaam_verkort": "Vonderwg",
+     "id": "adr-d60977f479422d9b339aed79032ee3a8",
+     "gekoppeld_perceel": [
+      "STR03-C-6671"
+     ],
+     "gemeentenaam": "Eindhoven",
+     "buurtcode": "BU07721130",
+     "wijknaam": "Centrum",
+     "identificatie": "0772010001085047-0772200001085152",
+     "openbareruimte_id": "0772300000001526",
+     "waterschapsnaam": "Waterschap De Dommel",
+     "provinciecode": "PV30",
+     "huisletter": "A",
+     "postcode": "5611BK",
+     "provincienaam": "Noord-Brabant",
+     "centroide_ll": "POINT(5.46991629 51.44107184)",
+     "nummeraanduiding_id": "0772200001085152",
+     "waterschapscode": "27",
+     "adresseerbaarobject_id": "0772010001085047",
+     "huisnummer": 1,
+     "provincieafkorting": "NB",
+     "centroide_rd": "POINT(160750.912 383556.018)",
+     "straatnaam": "Vonderweg",
+     "score": 14.218844
+    }
+   ],
+   "lookup": [
+    {
+     "url": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/lookup?id=adr-2bff5099a4e03c45e08977a1a9f73193",
+     "docs": [
+      {
+       "bron": "BAG",
+       "woonplaatscode": "1101",
+       "type": "adres",
+       "woonplaatsnaam": "Eindhoven",
+       "wijkcode": "WK077211",
+       "huis_nlt": "1",
+       "openbareruimtetype": "Weg",
+       "buurtnaam": "Witte Dame",
+       "gemeentecode": "0772",
+       "rdf_seealso": "http://bag.basisregistraties.overheid.nl/bag/id/nummeraanduiding/0772200001083212",
+       "weergavenaam": "Vonderweg 1, 5611BK Eindhoven",
+       "straatnaam_verkort": "Vonderwg",
+       "id": "adr-2bff5099a4e03c45e08977a1a9f73193",
+       "gekoppeld_perceel": [
+        "STR03-C-6671",
+        "EHV00-D-3968"
+       ],
+       "gemeentenaam": "Eindhoven",
+       "buurtcode": "BU07721130",
+       "wijknaam": "Centrum",
+       "identificatie": "0772010001083114-0772200001083212",
+       "openbareruimte_id": "0772300000001526",
+       "waterschapsnaam": "Waterschap De Dommel",
+       "provinciecode": "PV30",
+       "postcode": "5611BK",
+       "provincienaam": "Noord-Brabant",
+       "centroide_ll": "POINT(5.46970817 51.44103162)",
+       "nummeraanduiding_id": "0772200001083212",
+       "waterschapscode": "27",
+       "adresseerbaarobject_id": "0772010001083114",
+       "huisnummer": 1,
+       "provincieafkorting": "NB",
+       "centroide_rd": "POINT(160736.447 383551.527)",
+       "straatnaam": "Vonderweg"
+      }
+     ]
+    },
+    {
+     "url": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/lookup?id=adr-4b39c43701cc49076f0cfb8871cf7622",
+     "docs": [
+      {
+       "bron": "BAG",
+       "woonplaatscode": "1101",
+       "type": "adres",
+       "woonplaatsnaam": "Eindhoven",
+       "wijkcode": "WK077211",
+       "huis_nlt": "1",
+       "openbareruimtetype": "Weg",
+       "buurtnaam": "Witte Dame",
+       "gemeentecode": "0772",
+       "rdf_seealso": "http://bag.basisregistraties.overheid.nl/bag/id/nummeraanduiding/0772200000113378",
+       "weergavenaam": "Vonderweg 1, 5611BK Eindhoven",
+       "straatnaam_verkort": "Vonderwg",
+       "id": "adr-4b39c43701cc49076f0cfb8871cf7622",
+       "gekoppeld_perceel": [
+        "EHV00-D-3968",
+        "STR03-C-6671"
+       ],
+       "gemeentenaam": "Eindhoven",
+       "buurtcode": "BU07721130",
+       "wijknaam": "Centrum",
+       "identificatie": "0772010000735748-0772200000113378",
+       "openbareruimte_id": "0772300000001526",
+       "waterschapsnaam": "Waterschap De Dommel",
+       "provinciecode": "PV30",
+       "postcode": "5611BK",
+       "provincienaam": "Noord-Brabant",
+       "centroide_ll": "POINT(5.46963519 51.44107107)",
+       "nummeraanduiding_id": "0772200000113378",
+       "waterschapscode": "27",
+       "adresseerbaarobject_id": "0772010000735748",
+       "huisnummer": 1,
+       "provincieafkorting": "NB",
+       "centroide_rd": "POINT(160731.368 383555.91)",
+       "straatnaam": "Vonderweg"
+      }
+     ]
+    },
+    {
+     "url": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/lookup?id=adr-d60977f479422d9b339aed79032ee3a8",
+     "docs": [
+      {
+       "bron": "BAG",
+       "woonplaatscode": "1101",
+       "type": "adres",
+       "woonplaatsnaam": "Eindhoven",
+       "wijkcode": "WK077211",
+       "huis_nlt": "1A",
+       "openbareruimtetype": "Weg",
+       "buurtnaam": "Witte Dame",
+       "gemeentecode": "0772",
+       "rdf_seealso": "http://bag.basisregistraties.overheid.nl/bag/id/nummeraanduiding/0772200001085152",
+       "weergavenaam": "Vonderweg 1A, 5611BK Eindhoven",
+       "straatnaam_verkort": "Vonderwg",
+       "id": "adr-d60977f479422d9b339aed79032ee3a8",
+       "gekoppeld_perceel": [
+        "STR03-C-6671"
+       ],
+       "gemeentenaam": "Eindhoven",
+       "buurtcode": "BU07721130",
+       "wijknaam": "Centrum",
+       "identificatie": "0772010001085047-0772200001085152",
+       "openbareruimte_id": "0772300000001526",
+       "waterschapsnaam": "Waterschap De Dommel",
+       "provinciecode": "PV30",
+       "huisletter": "A",
+       "postcode": "5611BK",
+       "provincienaam": "Noord-Brabant",
+       "centroide_ll": "POINT(5.46991629 51.44107184)",
+       "nummeraanduiding_id": "0772200001085152",
+       "waterschapscode": "27",
+       "adresseerbaarobject_id": "0772010001085047",
+       "huisnummer": 1,
+       "provincieafkorting": "NB",
+       "centroide_rd": "POINT(160750.912 383556.018)",
+       "straatnaam": "Vonderweg"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "q": "Ventoselaan 1 Eindhoven",
+   "free_url": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/free?q=Ventoselaan+1+Eindhoven&fq=type%3Aadres&rows=3",
+   "free_docs": [
+    {
+     "bron": "BAG",
+     "woonplaatscode": "1101",
+     "type": "adres",
+     "woonplaatsnaam": "Eindhoven",
+     "wijkcode": "WK077211",
+     "huis_nlt": "1",
+     "openbareruimtetype": "Weg",
+     "buurtnaam": "Witte Dame",
+     "gemeentecode": "0772",
+     "rdf_seealso": "http://bag.basisregistraties.overheid.nl/bag/id/nummeraanduiding/0772200001083213",
+     "weergavenaam": "Ventoselaan 1, 5611BS Eindhoven",
+     "straatnaam_verkort": "Ventoseln",
+     "id": "adr-64f24aed59d7db48c17d476d12a4df70",
+     "gekoppeld_perceel": [
+      "STR03-C-6671",
+      "EHV00-D-3968"
+     ],
+     "gemeentenaam": "Eindhoven",
+     "buurtcode": "BU07721130",
+     "wijknaam": "Centrum",
+     "identificatie": "0772010001083115-0772200001083213",
+     "openbareruimte_id": "0772300000002809",
+     "waterschapsnaam": "Waterschap De Dommel",
+     "provinciecode": "PV30",
+     "postcode": "5611BS",
+     "provincienaam": "Noord-Brabant",
+     "centroide_ll": "POINT(5.47099635 51.44085205)",
+     "nummeraanduiding_id": "0772200001083213",
+     "waterschapscode": "27",
+     "adresseerbaarobject_id": "0772010001083115",
+     "huisnummer": 1,
+     "provincieafkorting": "NB",
+     "centroide_rd": "POINT(160826.033 383531.652)",
+     "straatnaam": "Ventoselaan",
+     "score": 15.998706
+    },
+    {
+     "bron": "BAG",
+     "woonplaatscode": "1101",
+     "type": "adres",
+     "woonplaatsnaam": "Eindhoven",
+     "wijkcode": "WK077211",
+     "huis_nlt": "2-G01",
+     "openbareruimtetype": "Weg",
+     "buurtnaam": "Witte Dame",
+     "gemeentecode": "0772",
+     "rdf_seealso": "http://bag.basisregistraties.overheid.nl/bag/id/nummeraanduiding/0772200001052953",
+     "weergavenaam": "Ventoselaan 2-G01, Eindhoven",
+     "huisnummertoevoeging": "G01",
+     "straatnaam_verkort": "Ventoseln",
+     "id": "adr-aa896a0d405abc573192b77b3c6926ef",
+     "gekoppeld_perceel": [
+      "STR03-C-3268"
+     ],
+     "gemeentenaam": "Eindhoven",
+     "buurtcode": "BU07721130",
+     "wijknaam": "Centrum",
+     "identificatie": "0772010001052938-0772200001052953",
+     "openbareruimte_id": "0772300000002809",
+     "waterschapsnaam": "Waterschap De Dommel",
+     "provinciecode": "PV30",
+     "provincienaam": "Noord-Brabant",
+     "centroide_ll": "POINT(5.47062276 51.44108455)",
+     "nummeraanduiding_id": "0772200001052953",
+     "waterschapscode": "27",
+     "adresseerbaarobject_id": "0772010001052938",
+     "huisnummer": 2,
+     "provincieafkorting": "NB",
+     "centroide_rd": "POINT(160800.029 383557.488)",
+     "straatnaam": "Ventoselaan",
+     "score": 14.241166
+    },
+    {
+     "bron": "BAG",
+     "woonplaatscode": "1101",
+     "type": "adres",
+     "woonplaatsnaam": "Eindhoven",
+     "wijkcode": "WK077211",
+     "huis_nlt": "2-G02",
+     "openbareruimtetype": "Weg",
+     "buurtnaam": "Witte Dame",
+     "gemeentecode": "0772",
+     "rdf_seealso": "http://bag.basisregistraties.overheid.nl/bag/id/nummeraanduiding/0772200001052954",
+     "weergavenaam": "Ventoselaan 2-G02, Eindhoven",
+     "huisnummertoevoeging": "G02",
+     "straatnaam_verkort": "Ventoseln",
+     "id": "adr-a085ea8443fc12852b9fc2381188a7c9",
+     "gekoppeld_perceel": [
+      "STR03-C-3268"
+     ],
+     "gemeentenaam": "Eindhoven",
+     "buurtcode": "BU07721130",
+     "wijknaam": "Centrum",
+     "identificatie": "0772010001052939-0772200001052954",
+     "openbareruimte_id": "0772300000002809",
+     "waterschapsnaam": "Waterschap De Dommel",
+     "provinciecode": "PV30",
+     "provincienaam": "Noord-Brabant",
+     "centroide_ll": "POINT(5.47058073 51.44109084)",
+     "nummeraanduiding_id": "0772200001052954",
+     "waterschapscode": "27",
+     "adresseerbaarobject_id": "0772010001052939",
+     "huisnummer": 2,
+     "provincieafkorting": "NB",
+     "centroide_rd": "POINT(160797.106 383558.185)",
+     "straatnaam": "Ventoselaan",
+     "score": 14.241166
+    }
+   ],
+   "lookup": [
+    {
+     "url": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/lookup?id=adr-64f24aed59d7db48c17d476d12a4df70",
+     "docs": [
+      {
+       "bron": "BAG",
+       "woonplaatscode": "1101",
+       "type": "adres",
+       "woonplaatsnaam": "Eindhoven",
+       "wijkcode": "WK077211",
+       "huis_nlt": "1",
+       "openbareruimtetype": "Weg",
+       "buurtnaam": "Witte Dame",
+       "gemeentecode": "0772",
+       "rdf_seealso": "http://bag.basisregistraties.overheid.nl/bag/id/nummeraanduiding/0772200001083213",
+       "weergavenaam": "Ventoselaan 1, 5611BS Eindhoven",
+       "straatnaam_verkort": "Ventoseln",
+       "id": "adr-64f24aed59d7db48c17d476d12a4df70",
+       "gekoppeld_perceel": [
+        "STR03-C-6671",
+        "EHV00-D-3968"
+       ],
+       "gemeentenaam": "Eindhoven",
+       "buurtcode": "BU07721130",
+       "wijknaam": "Centrum",
+       "identificatie": "0772010001083115-0772200001083213",
+       "openbareruimte_id": "0772300000002809",
+       "waterschapsnaam": "Waterschap De Dommel",
+       "provinciecode": "PV30",
+       "postcode": "5611BS",
+       "provincienaam": "Noord-Brabant",
+       "centroide_ll": "POINT(5.47099635 51.44085205)",
+       "nummeraanduiding_id": "0772200001083213",
+       "waterschapscode": "27",
+       "adresseerbaarobject_id": "0772010001083115",
+       "huisnummer": 1,
+       "provincieafkorting": "NB",
+       "centroide_rd": "POINT(160826.033 383531.652)",
+       "straatnaam": "Ventoselaan"
+      }
+     ]
+    },
+    {
+     "url": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/lookup?id=adr-aa896a0d405abc573192b77b3c6926ef",
+     "docs": [
+      {
+       "bron": "BAG",
+       "woonplaatscode": "1101",
+       "type": "adres",
+       "woonplaatsnaam": "Eindhoven",
+       "wijkcode": "WK077211",
+       "huis_nlt": "2-G01",
+       "openbareruimtetype": "Weg",
+       "buurtnaam": "Witte Dame",
+       "gemeentecode": "0772",
+       "rdf_seealso": "http://bag.basisregistraties.overheid.nl/bag/id/nummeraanduiding/0772200001052953",
+       "weergavenaam": "Ventoselaan 2-G01, Eindhoven",
+       "huisnummertoevoeging": "G01",
+       "straatnaam_verkort": "Ventoseln",
+       "id": "adr-aa896a0d405abc573192b77b3c6926ef",
+       "gekoppeld_perceel": [
+        "STR03-C-3268"
+       ],
+       "gemeentenaam": "Eindhoven",
+       "buurtcode": "BU07721130",
+       "wijknaam": "Centrum",
+       "identificatie": "0772010001052938-0772200001052953",
+       "openbareruimte_id": "0772300000002809",
+       "waterschapsnaam": "Waterschap De Dommel",
+       "provinciecode": "PV30",
+       "provincienaam": "Noord-Brabant",
+       "centroide_ll": "POINT(5.47062276 51.44108455)",
+       "nummeraanduiding_id": "0772200001052953",
+       "waterschapscode": "27",
+       "adresseerbaarobject_id": "0772010001052938",
+       "huisnummer": 2,
+       "provincieafkorting": "NB",
+       "centroide_rd": "POINT(160800.029 383557.488)",
+       "straatnaam": "Ventoselaan"
+      }
+     ]
+    },
+    {
+     "url": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/lookup?id=adr-a085ea8443fc12852b9fc2381188a7c9",
+     "docs": [
+      {
+       "bron": "BAG",
+       "woonplaatscode": "1101",
+       "type": "adres",
+       "woonplaatsnaam": "Eindhoven",
+       "wijkcode": "WK077211",
+       "huis_nlt": "2-G02",
+       "openbareruimtetype": "Weg",
+       "buurtnaam": "Witte Dame",
+       "gemeentecode": "0772",
+       "rdf_seealso": "http://bag.basisregistraties.overheid.nl/bag/id/nummeraanduiding/0772200001052954",
+       "weergavenaam": "Ventoselaan 2-G02, Eindhoven",
+       "huisnummertoevoeging": "G02",
+       "straatnaam_verkort": "Ventoseln",
+       "id": "adr-a085ea8443fc12852b9fc2381188a7c9",
+       "gekoppeld_perceel": [
+        "STR03-C-3268"
+       ],
+       "gemeentenaam": "Eindhoven",
+       "buurtcode": "BU07721130",
+       "wijknaam": "Centrum",
+       "identificatie": "0772010001052939-0772200001052954",
+       "openbareruimte_id": "0772300000002809",
+       "waterschapsnaam": "Waterschap De Dommel",
+       "provinciecode": "PV30",
+       "provincienaam": "Noord-Brabant",
+       "centroide_ll": "POINT(5.47058073 51.44109084)",
+       "nummeraanduiding_id": "0772200001052954",
+       "waterschapscode": "27",
+       "adresseerbaarobject_id": "0772010001052939",
+       "huisnummer": 2,
+       "provincieafkorting": "NB",
+       "centroide_rd": "POINT(160797.106 383558.185)",
+       "straatnaam": "Ventoselaan"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "ozet": {
+  "not": "Ozet ham lookup belgelerinden hesaplandi; uzaklik haversine (metre).",
+  "kart_noktalari": {
+   "eindhoven:temporary-art-centre-tac": [
+    51.44107,
+    5.46992
+   ],
+   "eindhoven:paviljoen-ongehoorde-muziek": [
+    51.44085,
+    5.471
+   ]
+  },
+  "kartlar_arasi_m": 78.8,
+  "adresler": [
+   {
+    "weergavenaam": "Vonderweg 1, 5611BK Eindhoven",
+    "adresseerbaarobject_id": "0772010001083114",
+    "nummeraanduiding_id": "0772200001083212",
+    "postcode": "5611BK",
+    "wijknaam": "Centrum",
+    "buurtnaam": "Witte Dame",
+    "centroide_ll": "POINT(5.46970817 51.44103162)",
+    "gekoppeld_perceel": [
+     "STR03-C-6671",
+     "EHV00-D-3968"
+    ],
+    "kart_noktasina_uzaklik_m": {
+     "eindhoven:temporary-art-centre-tac": 15.3,
+     "eindhoven:paviljoen-ongehoorde-muziek": 91.8
+    }
+   },
+   {
+    "weergavenaam": "Vonderweg 1, 5611BK Eindhoven",
+    "adresseerbaarobject_id": "0772010000735748",
+    "nummeraanduiding_id": "0772200000113378",
+    "postcode": "5611BK",
+    "wijknaam": "Centrum",
+    "buurtnaam": "Witte Dame",
+    "centroide_ll": "POINT(5.46963519 51.44107107)",
+    "gekoppeld_perceel": [
+     "EHV00-D-3968",
+     "STR03-C-6671"
+    ],
+    "kart_noktasina_uzaklik_m": {
+     "eindhoven:temporary-art-centre-tac": 19.7,
+     "eindhoven:paviljoen-ongehoorde-muziek": 97.7
+    }
+   },
+   {
+    "weergavenaam": "Vonderweg 1A, 5611BK Eindhoven",
+    "adresseerbaarobject_id": "0772010001085047",
+    "nummeraanduiding_id": "0772200001085152",
+    "postcode": "5611BK",
+    "wijknaam": "Centrum",
+    "buurtnaam": "Witte Dame",
+    "centroide_ll": "POINT(5.46991629 51.44107184)",
+    "gekoppeld_perceel": [
+     "STR03-C-6671"
+    ],
+    "kart_noktasina_uzaklik_m": {
+     "eindhoven:temporary-art-centre-tac": 0.3,
+     "eindhoven:paviljoen-ongehoorde-muziek": 79.1
+    }
+   },
+   {
+    "weergavenaam": "Ventoselaan 1, 5611BS Eindhoven",
+    "adresseerbaarobject_id": "0772010001083115",
+    "nummeraanduiding_id": "0772200001083213",
+    "postcode": "5611BS",
+    "wijknaam": "Centrum",
+    "buurtnaam": "Witte Dame",
+    "centroide_ll": "POINT(5.47099635 51.44085205)",
+    "gekoppeld_perceel": [
+     "STR03-C-6671",
+     "EHV00-D-3968"
+    ],
+    "kart_noktasina_uzaklik_m": {
+     "eindhoven:temporary-art-centre-tac": 78.4,
+     "eindhoven:paviljoen-ongehoorde-muziek": 0.3
+    }
+   },
+   {
+    "weergavenaam": "Ventoselaan 2-G01, Eindhoven",
+    "adresseerbaarobject_id": "0772010001052938",
+    "nummeraanduiding_id": "0772200001052953",
+    "postcode": null,
+    "wijknaam": "Centrum",
+    "buurtnaam": "Witte Dame",
+    "centroide_ll": "POINT(5.47062276 51.44108455)",
+    "gekoppeld_perceel": [
+     "STR03-C-3268"
+    ],
+    "kart_noktasina_uzaklik_m": {
+     "eindhoven:temporary-art-centre-tac": 48.7,
+     "eindhoven:paviljoen-ongehoorde-muziek": 36.9
+    }
+   },
+   {
+    "weergavenaam": "Ventoselaan 2-G02, Eindhoven",
+    "adresseerbaarobject_id": "0772010001052939",
+    "nummeraanduiding_id": "0772200001052954",
+    "postcode": null,
+    "wijknaam": "Centrum",
+    "buurtnaam": "Witte Dame",
+    "centroide_ll": "POINT(5.47058073 51.44109084)",
+    "gekoppeld_perceel": [
+     "STR03-C-3268"
+    ],
+    "kart_noktasina_uzaklik_m": {
+     "eindhoven:temporary-art-centre-tac": 45.9,
+     "eindhoven:paviljoen-ongehoorde-muziek": 39.5
+    }
+   }
+  ]
+ }
+}

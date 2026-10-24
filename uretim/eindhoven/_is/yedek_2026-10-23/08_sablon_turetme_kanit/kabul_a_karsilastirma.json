@@ -1,0 +1,595 @@
+{
+ "ozet": {
+  "sekmeler_ayni": true,
+  "sekme_sayisi": 17,
+  "karsilastirilan_hucre": 52419,
+  "deger_farki": 12,
+  "beklenmeyen_deger_farki": [],
+  "beklenen_ama_ayni_kalan": [],
+  "veri_turu_farki": 0,
+  "bicim_farki": 0,
+  "tek_tarafta_hucre": 0,
+  "tanimli_ad_ayni": true,
+  "hesap_ayari_ayni": true,
+  "etkin_sekme_ayni": true,
+  "kitap_gorunumu_ayni": true,
+  "sekme_bazinda_sorunlu": {},
+  "parca": {
+   "parca_sayisi": [
+    56,
+    56
+   ],
+   "ayni_sira": true,
+   "ayni_kume": true,
+   "content_types_bayt_ayni": true
+  },
+  "bayt_ayni_parca": 3,
+  "agac_ayni_parca": 49,
+  "agac_farkli_parca": {
+   "xl/styles.xml": [
+    "/styleSheet[2]/fills@count: '10' != '11' (1 oznitelik farkli)",
+    "/styleSheet[5]/cellXfs@count: '47' != '54' (1 oznitelik farkli)"
+   ],
+   "xl/worksheets/sheet1.xml": [
+    "/worksheet[5]/mergeCells@count: 'None' != '8' (1 oznitelik farkli)"
+   ],
+   "xl/worksheets/sheet2.xml": [
+    "/worksheet[4]/sheetData[7]/row[1]/c[0]/v: metin 'CITY-039-v001' != 'city-039-v001'",
+    "/worksheet[4]/sheetData[7]/row[3]/c[0]/v: metin 'Atınç' != 'Claude Code city-pack'",
+    "/worksheet[4]/sheetData[7]/row[8]/c[0]/v: metin 'Çalışma dosyası; içerik üretilmedi; UAT durumu: Üretilecek. Katalog tarihleri kaynak kaydını gösterir; rehber doğrulamas' != 'Berlin örneğinden türetildi (make_template); içerik üretilmedi.'"
+   ],
+   "xl/worksheets/sheet3.xml": [
+    "/worksheet[3]/sheetData[7]/row[13]/c@t: 'n' != 'None' (1 oznitelik farkli)",
+    "/worksheet[3]/sheetData[7]/row[14]/c@t: 'n' != 'None' (1 oznitelik farkli)",
+    "/worksheet[3]/sheetData[7]/row[15]/c@t: 'str' != 'None' (1 oznitelik farkli)",
+    "/worksheet[3]/sheetData[7]/row[16]/c@t: 'd' != 'None' (1 oznitelik farkli)",
+    "/worksheet[3]/sheetData[7]/row[18]/c@t: 'str' != 'None' (1 oznitelik farkli)",
+    "/worksheet[3]/sheetData[7]/row[19]/c@t: 'd' != 'None' (1 oznitelik farkli)"
+   ]
+  },
+  "opc": {
+   "atinc": {
+    "overrides": 36,
+    "defaults": 2
+   },
+   "turetilmis": {
+    "overrides": 36,
+    "defaults": 2
+   }
+  }
+ },
+ "workbook": {
+  "sheets_a": [
+   "Özet",
+   "Teslimat",
+   "Şehir",
+   "Konular",
+   "Yanıtlar",
+   "Mekânlar",
+   "Mahalleler",
+   "Bağlantılar",
+   "Rotalar",
+   "Sözlük",
+   "Adımlar",
+   "Kaynaklar",
+   "Fotoğraflar",
+   "Kanıtlar",
+   "SayfaAlanları",
+   "EkDetaylar",
+   "FotoğrafKaynakları"
+  ],
+  "sheets_b": [
+   "Özet",
+   "Teslimat",
+   "Şehir",
+   "Konular",
+   "Yanıtlar",
+   "Mekânlar",
+   "Mahalleler",
+   "Bağlantılar",
+   "Rotalar",
+   "Sözlük",
+   "Adımlar",
+   "Kaynaklar",
+   "Fotoğraflar",
+   "Kanıtlar",
+   "SayfaAlanları",
+   "EkDetaylar",
+   "FotoğrafKaynakları"
+  ],
+  "sheets_equal": true,
+  "defined_names_equal": true,
+  "calc_equal": true,
+  "active_equal": true,
+  "views_equal": true,
+  "cells_compared": 52419,
+  "value_diffs": [
+   {
+    "cell": "Teslimat!B8",
+    "a": "CITY-039-v001",
+    "b": "city-039-v001",
+    "class": "BEKLENEN"
+   },
+   {
+    "cell": "Teslimat!D8",
+    "a": "Atınç",
+    "b": "Claude Code city-pack",
+    "class": "BEKLENEN"
+   },
+   {
+    "cell": "Teslimat!I8",
+    "a": "Çalışma dosyası; içerik üretilmedi; UAT durumu: Üretilecek. Katalog tarihleri kaynak kaydını gösterir; rehber doğrulamas",
+    "b": "Berlin örneğinden türetildi (make_template); içerik üretilmedi.",
+    "class": "BEKLENEN"
+   },
+   {
+    "cell": "Şehir!N8",
+    "a": "51.429973",
+    "b": "None",
+    "class": "BEKLENEN"
+   },
+   {
+    "cell": "Şehir!O8",
+    "a": "5.500015",
+    "b": "None",
+    "class": "BEKLENEN"
+   },
+   {
+    "cell": "Şehir!P8",
+    "a": "https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-populated-places/",
+    "b": "None",
+    "class": "BEKLENEN"
+   },
+   {
+    "cell": "Şehir!Q8",
+    "a": "2026-10-10 00:00:00",
+    "b": "None",
+    "class": "BEKLENEN"
+   },
+   {
+    "cell": "Şehir!S8",
+    "a": "https://www.internations.org/all-internations-cities/",
+    "b": "None",
+    "class": "BEKLENEN"
+   },
+   {
+    "cell": "Şehir!T8",
+    "a": "2026-10-10 00:00:00",
+    "b": "None",
+    "class": "BEKLENEN"
+   },
+   {
+    "cell": "Şehir!W8",
+    "a": "3",
+    "b": "None",
+    "class": "BEKLENEN"
+   },
+   {
+    "cell": "Şehir!X8",
+    "a": "Eindhoven",
+    "b": "None",
+    "class": "BEKLENEN"
+   },
+   {
+    "cell": "Şehir!AG8",
+    "a": "Taslak",
+    "b": "None",
+    "class": "BEKLENEN"
+   }
+  ],
+  "type_diffs": [],
+  "type_diff_count": 0,
+  "style_diffs": [],
+  "style_diff_count": 0,
+  "only_one_side": [],
+  "only_one_side_count": 0,
+  "per_sheet": {
+   "Özet": {
+    "tables": true,
+    "dv": true,
+    "cf": true,
+    "dims": true,
+    "meta": true,
+    "counts": {
+     "tables": 0,
+     "dv": 0,
+     "cf_rules": 1,
+     "merged": 8,
+     "max_row": [
+      39,
+      39
+     ]
+    }
+   },
+   "Teslimat": {
+    "tables": true,
+    "dv": true,
+    "cf": true,
+    "dims": true,
+    "meta": true,
+    "counts": {
+     "tables": 1,
+     "dv": 2,
+     "cf_rules": 7,
+     "merged": 1,
+     "max_row": [
+      8,
+      8
+     ]
+    }
+   },
+   "Şehir": {
+    "tables": true,
+    "dv": true,
+    "cf": true,
+    "dims": true,
+    "meta": true,
+    "counts": {
+     "tables": 1,
+     "dv": 3,
+     "cf_rules": 21,
+     "merged": 1,
+     "max_row": [
+      8,
+      8
+     ]
+    }
+   },
+   "Konular": {
+    "tables": true,
+    "dv": true,
+    "cf": true,
+    "dims": true,
+    "meta": true,
+    "counts": {
+     "tables": 1,
+     "dv": 0,
+     "cf_rules": 7,
+     "merged": 1,
+     "max_row": [
+      37,
+      37
+     ]
+    }
+   },
+   "Yanıtlar": {
+    "tables": true,
+    "dv": true,
+    "cf": true,
+    "dims": true,
+    "meta": true,
+    "counts": {
+     "tables": 1,
+     "dv": 2,
+     "cf_rules": 12,
+     "merged": 1,
+     "max_row": [
+      307,
+      307
+     ]
+    }
+   },
+   "Mekânlar": {
+    "tables": true,
+    "dv": true,
+    "cf": true,
+    "dims": true,
+    "meta": true,
+    "counts": {
+     "tables": 1,
+     "dv": 5,
+     "cf_rules": 15,
+     "merged": 1,
+     "max_row": [
+      187,
+      187
+     ]
+    }
+   },
+   "Mahalleler": {
+    "tables": true,
+    "dv": true,
+    "cf": true,
+    "dims": true,
+    "meta": true,
+    "counts": {
+     "tables": 1,
+     "dv": 2,
+     "cf_rules": 11,
+     "merged": 1,
+     "max_row": [
+      47,
+      47
+     ]
+    }
+   },
+   "Bağlantılar": {
+    "tables": true,
+    "dv": true,
+    "cf": true,
+    "dims": true,
+    "meta": true,
+    "counts": {
+     "tables": 1,
+     "dv": 0,
+     "cf_rules": 7,
+     "merged": 1,
+     "max_row": [
+      807,
+      807
+     ]
+    }
+   },
+   "Rotalar": {
+    "tables": true,
+    "dv": true,
+    "cf": true,
+    "dims": true,
+    "meta": true,
+    "counts": {
+     "tables": 1,
+     "dv": 1,
+     "cf_rules": 11,
+     "merged": 1,
+     "max_row": [
+      37,
+      37
+     ]
+    }
+   },
+   "Sözlük": {
+    "tables": true,
+    "dv": true,
+    "cf": true,
+    "dims": true,
+    "meta": true,
+    "counts": {
+     "tables": 1,
+     "dv": 1,
+     "cf_rules": 8,
+     "merged": 1,
+     "max_row": [
+      107,
+      107
+     ]
+    }
+   },
+   "Adımlar": {
+    "tables": true,
+    "dv": true,
+    "cf": true,
+    "dims": true,
+    "meta": true,
+    "counts": {
+     "tables": 1,
+     "dv": 0,
+     "cf_rules": 7,
+     "merged": 1,
+     "max_row": [
+      47,
+      47
+     ]
+    }
+   },
+   "Kaynaklar": {
+    "tables": true,
+    "dv": true,
+    "cf": true,
+    "dims": true,
+    "meta": true,
+    "counts": {
+     "tables": 1,
+     "dv": 1,
+     "cf_rules": 7,
+     "merged": 1,
+     "max_row": [
+      507,
+      507
+     ]
+    }
+   },
+   "Fotoğraflar": {
+    "tables": true,
+    "dv": true,
+    "cf": true,
+    "dims": true,
+    "meta": true,
+    "counts": {
+     "tables": 1,
+     "dv": 3,
+     "cf_rules": 16,
+     "merged": 1,
+     "max_row": [
+      607,
+      607
+     ]
+    }
+   },
+   "Kanıtlar": {
+    "tables": true,
+    "dv": true,
+    "cf": true,
+    "dims": true,
+    "meta": true,
+    "counts": {
+     "tables": 1,
+     "dv": 3,
+     "cf_rules": 13,
+     "merged": 1,
+     "max_row": [
+      357,
+      357
+     ]
+    }
+   },
+   "SayfaAlanları": {
+    "tables": true,
+    "dv": true,
+    "cf": true,
+    "dims": true,
+    "meta": true,
+    "counts": {
+     "tables": 1,
+     "dv": 1,
+     "cf_rules": 7,
+     "merged": 1,
+     "max_row": [
+      127,
+      127
+     ]
+    }
+   },
+   "EkDetaylar": {
+    "tables": true,
+    "dv": true,
+    "cf": true,
+    "dims": true,
+    "meta": true,
+    "counts": {
+     "tables": 1,
+     "dv": 1,
+     "cf_rules": 7,
+     "merged": 1,
+     "max_row": [
+      207,
+      207
+     ]
+    }
+   },
+   "FotoğrafKaynakları": {
+    "tables": true,
+    "dv": true,
+    "cf": true,
+    "dims": true,
+    "meta": true,
+    "counts": {
+     "tables": 1,
+     "dv": 0,
+     "cf_rules": 0,
+     "merged": 1,
+     "max_row": [
+      607,
+      607
+     ]
+    }
+   }
+  },
+  "expected_missing": []
+ },
+ "zip": {
+  "parca_sayisi": [
+   56,
+   56
+  ],
+  "ayni_sira": true,
+  "ayni_kume": true,
+  "content_types_bayt_ayni": true,
+  "bayt_ayni": [
+   "xl/theme/theme1.xml",
+   "xl/sharedStrings.xml",
+   "[Content_Types].xml"
+  ],
+  "agac_ayni": [
+   "xl/workbook.xml",
+   "xl/tables/table1.xml",
+   "xl/tables/table2.xml",
+   "xl/worksheets/sheet4.xml",
+   "xl/tables/table3.xml",
+   "xl/worksheets/sheet5.xml",
+   "xl/tables/table4.xml",
+   "xl/worksheets/sheet6.xml",
+   "xl/tables/table5.xml",
+   "xl/worksheets/sheet7.xml",
+   "xl/tables/table6.xml",
+   "xl/worksheets/sheet8.xml",
+   "xl/tables/table7.xml",
+   "xl/worksheets/sheet9.xml",
+   "xl/tables/table8.xml",
+   "xl/worksheets/sheet10.xml",
+   "xl/tables/table9.xml",
+   "xl/worksheets/sheet11.xml",
+   "xl/tables/table10.xml",
+   "xl/worksheets/sheet12.xml",
+   "xl/tables/table11.xml",
+   "xl/worksheets/sheet13.xml",
+   "xl/tables/table12.xml",
+   "xl/worksheets/sheet14.xml",
+   "xl/tables/table13.xml",
+   "xl/worksheets/sheet15.xml",
+   "xl/tables/table14.xml",
+   "xl/worksheets/sheet16.xml",
+   "xl/tables/table15.xml",
+   "xl/worksheets/sheet17.xml",
+   "xl/tables/table16.xml",
+   "_rels/.rels",
+   "xl/_rels/workbook.xml.rels",
+   "xl/worksheets/_rels/sheet10.xml.rels",
+   "xl/worksheets/_rels/sheet11.xml.rels",
+   "xl/worksheets/_rels/sheet12.xml.rels",
+   "xl/worksheets/_rels/sheet13.xml.rels",
+   "xl/worksheets/_rels/sheet14.xml.rels",
+   "xl/worksheets/_rels/sheet15.xml.rels",
+   "xl/worksheets/_rels/sheet16.xml.rels",
+   "xl/worksheets/_rels/sheet17.xml.rels",
+   "xl/worksheets/_rels/sheet2.xml.rels",
+   "xl/worksheets/_rels/sheet3.xml.rels",
+   "xl/worksheets/_rels/sheet4.xml.rels",
+   "xl/worksheets/_rels/sheet5.xml.rels",
+   "xl/worksheets/_rels/sheet6.xml.rels",
+   "xl/worksheets/_rels/sheet7.xml.rels",
+   "xl/worksheets/_rels/sheet8.xml.rels",
+   "xl/worksheets/_rels/sheet9.xml.rels"
+  ],
+  "agac_farkli": {
+   "xl/styles.xml": [
+    "/styleSheet[2]/fills@count: '10' != '11' (1 oznitelik farkli)",
+    "/styleSheet[5]/cellXfs@count: '47' != '54' (1 oznitelik farkli)"
+   ],
+   "xl/worksheets/sheet1.xml": [
+    "/worksheet[5]/mergeCells@count: 'None' != '8' (1 oznitelik farkli)"
+   ],
+   "xl/worksheets/sheet2.xml": [
+    "/worksheet[4]/sheetData[7]/row[1]/c[0]/v: metin 'CITY-039-v001' != 'city-039-v001'",
+    "/worksheet[4]/sheetData[7]/row[3]/c[0]/v: metin 'Atınç' != 'Claude Code city-pack'",
+    "/worksheet[4]/sheetData[7]/row[8]/c[0]/v: metin 'Çalışma dosyası; içerik üretilmedi; UAT durumu: Üretilecek. Katalog tarihleri kaynak kaydını gösterir; rehber doğrulamas' != 'Berlin örneğinden türetildi (make_template); içerik üretilmedi.'"
+   ],
+   "xl/worksheets/sheet3.xml": [
+    "/worksheet[3]/sheetData[7]/row[13]/c@t: 'n' != 'None' (1 oznitelik farkli)",
+    "/worksheet[3]/sheetData[7]/row[14]/c@t: 'n' != 'None' (1 oznitelik farkli)",
+    "/worksheet[3]/sheetData[7]/row[15]/c@t: 'str' != 'None' (1 oznitelik farkli)",
+    "/worksheet[3]/sheetData[7]/row[16]/c@t: 'd' != 'None' (1 oznitelik farkli)",
+    "/worksheet[3]/sheetData[7]/row[18]/c@t: 'str' != 'None' (1 oznitelik farkli)",
+    "/worksheet[3]/sheetData[7]/row[19]/c@t: 'd' != 'None' (1 oznitelik farkli)",
+    "/worksheet[3]/sheetData[7]/row[22]/c@t: 'n' != 'None' (1 oznitelik farkli)",
+    "/worksheet[3]/sheetData[7]/row[23]/c@t: 'str' != 'None' (1 oznitelik farkli)",
+    "/worksheet[3]/sheetData[7]/row[32]/c@t: 'str' != 'None' (1 oznitelik farkli)"
+   ]
+  }
+ },
+ "opc": {
+  "atinc": {
+   "ayni_ad_iki_parca_zipte": [],
+   "override_yineleme": [],
+   "default_yineleme": [],
+   "override_parcasi_yok": [],
+   "icerik_turu_yok": [],
+   "iliski_hedefi_yok": [],
+   "iliski_id_yineleme": [],
+   "rid_iliskide_yok": [],
+   "overrides": 36,
+   "defaults": 2
+  },
+  "turetilmis": {
+   "ayni_ad_iki_parca_zipte": [],
+   "override_yineleme": [],
+   "default_yineleme": [],
+   "override_parcasi_yok": [],
+   "icerik_turu_yok": [],
+   "iliski_hedefi_yok": [],
+   "iliski_id_yineleme": [],
+   "rid_iliskide_yok": [],
+   "overrides": 36,
+   "defaults": 2
+  }
+ }
+}

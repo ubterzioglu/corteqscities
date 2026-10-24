@@ -1,0 +1,397 @@
+{
+  "schema_version": "1",
+  "city": {
+    "city_id": "eindhoven",
+    "name": "Eindhoven",
+    "country": "NL",
+    "city_code": "CITY-039"
+  },
+  "paths": {
+    "work": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\eindhoven",
+    "package_root": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\eindhoven\\paket",
+    "template_xlsx": "C:\\temp_private\\corteqs\\0000_newera\\ekler_eindhoven\\CITY-039_eindhoven_v001.xlsx",
+    "tools": "C:\\temp_private\\corteqs\\0000_newera\\araclar\\arac",
+    "delivery_xlsx": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\eindhoven\\paket\\CITY-039_eindhoven_v001.xlsx",
+    "data_dir": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\eindhoven\\_is\\data",
+    "snapshots": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\eindhoven\\_is\\snap",
+    "cache": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\eindhoven\\_is\\cache",
+    "usage_log": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\eindhoven\\_is\\phase_log.jsonl"
+  },
+  "country_pack": null,
+  "phase": "deliver",
+  "phases": {
+    "intake": {
+      "status": "done",
+      "started_at": "2026-10-22T13:19:53Z",
+      "ended_at": "2026-10-22T13:20:21Z",
+      "gates": [
+        {
+          "script": "xlsx_dump --summary",
+          "exit_code": 0,
+          "summary": {
+            "data_sheets": 16,
+            "missing_sheets": [],
+            "prefilled_rows": {
+              "Teslimat": 1,
+              "Şehir": 1
+            },
+            "template_sha256": "a2d0b9811027b00fa22ec3897d20dccf650d4900ca4e80896228b831642e2568"
+          },
+          "report": "_is\\sablon_dump\\summary.json"
+        }
+      ],
+      "outputs": [
+        "_is\\sablon.xlsx",
+        "_is\\sablon_dump\\summary.json"
+      ]
+    },
+    "sources": {
+      "status": "done",
+      "started_at": "2026-10-22T13:22:49Z",
+      "ended_at": "2026-10-22T13:36:13Z",
+      "gates": [
+        {
+          "script": "fetch_snapshot --retry-transient",
+          "exit_code": 1,
+          "summary": {
+            "urls": 211,
+            "saved": 200,
+            "failed": 11,
+            "thin_text": 6,
+            "usable": 194
+          },
+          "report": "_is/snap/index.jsonl"
+        }
+      ],
+      "outputs": [
+        "_is/kaynak_dizini.jsonl",
+        "_is/kaynak_taslak.jsonl",
+        "_is/kaynak_acik.json",
+        "_is/urls.txt"
+      ]
+    },
+    "answers": {
+      "status": "done",
+      "started_at": "2026-10-22T13:41:30Z",
+      "gates": [
+        {
+          "script": "validate_all --mode audit (ara.xlsx)",
+          "exit_code": 1,
+          "summary": {
+            "structure_errors": 0,
+            "warnings": 6,
+            "remaining": "yalnız asgari eksikler: mekân/mahalle/foto/kapak/rota"
+          },
+          "report": "_is/val_ara.json"
+        },
+        {
+          "script": "birlestir + 3 bagimsiz denetim (45+48+204 kart) + dogrulama",
+          "exit_code": 1,
+          "summary": {
+            "cards": 289,
+            "claims_verbatim": "4586/4588 (2 = bilinen Karpendonkse kaynagi, mahalle)",
+            "audited_cards": 289,
+            "serious_after_full_audit": 0,
+            "wrong_fixes_fixed": 4
+          },
+          "report": "_is/birlestir_rapor.json"
+        }
+      ],
+      "outputs": [
+        "_is/data/Yanıtlar.jsonl",
+        "_is/data/Sözlük.jsonl",
+        "_is/data/SayfaAlanları.jsonl",
+        "_is/data/Şehir.jsonl"
+      ],
+      "ended_at": "2026-10-22T15:42:25Z"
+    },
+    "places": {
+      "status": "done",
+      "started_at": "2026-10-22T15:42:25Z",
+      "ended_at": "2026-10-22T17:19:25Z",
+      "gates": [
+        {
+          "script": "birlestir + build_xlsx + validate_all audit",
+          "exit_code": 1,
+          "summary": {
+            "places": 104,
+            "neighborhoods": 16,
+            "routes": 12,
+            "glossary": 60,
+            "claims_verbatim": "5589/5589",
+            "structure_errors": 0,
+            "warnings": 122,
+            "remaining": "yalniz foto ve kapak eksik"
+          },
+          "report": "_is/val_ara.json"
+        }
+      ]
+    },
+    "photos": {
+      "status": "done",
+      "started_at": "2026-10-22T17:19:25Z",
+      "ended_at": "2026-10-22T20:40:15Z",
+      "gates": [
+        {
+          "script": "foto turlari 1-4 + ikinci goz + download_media (-X utf8) + foto_satirlari",
+          "exit_code": 0,
+          "summary": {
+            "venue_photos": 201,
+            "covers": 8,
+            "entries_with_photo": "58/120",
+            "files_mb": "~199 paket toplam"
+          },
+          "report": "_is/foto/selected.jsonl"
+        }
+      ]
+    },
+    "assemble": {
+      "status": "done",
+      "started_at": "2026-10-22T20:40:15Z",
+      "ended_at": "2026-10-22T20:40:15Z",
+      "gates": [
+        {
+          "script": "build_xlsx (tam) + validate_all --new-content",
+          "exit_code": 1,
+          "summary": {
+            "structure_errors": 0,
+            "media_errors": 0,
+            "minimum_gaps": "yok",
+            "technically_complete": true,
+            "warnings": 689
+          },
+          "report": "_is/validation.json"
+        }
+      ]
+    },
+    "deliver": {
+      "status": "done",
+      "started_at": "2026-10-22T20:40:15Z",
+      "ended_at": "2026-10-22T20:40:16Z",
+      "gates": [
+        {
+          "script": "inventory + validate_all emit + render_summary",
+          "exit_code": 1,
+          "summary": {
+            "verdict": "DUZELTME GEREKLI (62 fotosuz mekan/mahalle)",
+            "files": 763,
+            "total_mb": 199.68,
+            "missing": 0,
+            "sha_mismatch": 0
+          },
+          "report": "paket/Teslimler/TESLIM_OZETI.txt"
+        }
+      ]
+    }
+  },
+  "last_ids": [
+    "eindhoven:route:012",
+    "eindhoven:term:060",
+    "eindhoven:photo:kapak-08"
+  ],
+  "sources_researched": 352,
+  "photos_downloaded": 209,
+  "next_step": "L0 bulgulari duzeltildi -> teslim zinciri yeniden -> L0 tekrar -> hedef eksikleri icin Baris karari",
+  "open_items": [
+    {
+      "id": "ATINC-DOWNLOAD-UTF8",
+      "priority": "P1",
+      "check_id": "K84",
+      "owner": "atinc",
+      "text": "download_media.py plani UTF-8 okumuyor (Windows'ta FotoÄŸraflar klasoru olusuyor); onbellegi paket icine yaziyor. Pilotta -X utf8 ve teslim oncesi .download-cache silme ile asildi.",
+      "evidence": "corteqs-skills/IYILESTIRME_LISTESI.md A7,A11"
+    },
+    {
+      "id": "FOTOSUZ-MEKAN",
+      "priority": "P1",
+      "check_id": "K22",
+      "owner": "ai",
+      "text": "66 kayitta (64 mekan, 2 mahalle) Commons'ta kullanilabilir foto bulunamadi; 5 tur gorsel kontrol + her turda ikinci goz. Yeni eklenenlerden fotosuz: Victoriapark (Commons'ta yalniz 2026 insaat fotograflari), Park Meerland (tek aday zaten Meerhoven mahallesinde), Brasserie Bellevue ve Cafe Barolo (karelerde eski kiraci / baska dukkan). Yeni kaynak (mekanin kendi CC lisansli fotosu vb.) veya insan karari gerekli.",
+      "evidence": "_is/foto/inceleme/"
+    },
+    {
+      "id": "IND-STANDSTILL",
+      "priority": "P1",
+      "check_id": "K34",
+      "owner": "insan",
+      "text": "Türk vatandaşlarında inburgering (diploma) muafiyetinin yalnız 'aile bireyi olarak kaldıktan sonra süresiz insani oturum'a ait olduğu IND haber metninin yorumuna dayanıyor (denetçi ve editör aynı okudu). İnsan kontrolü gerekli.",
+      "evidence": "_is/denetim/iddia_denetimi.jsonl"
+    },
+    {
+      "id": "IND-TURK-ESIK",
+      "priority": "P1",
+      "check_id": "K34",
+      "owner": "insan",
+      "text": "IND gelir/maaş eşiklerinin Ortaklık Anlaşması kapsamındaki Türk vatandaşlarına uygulanıp uygulanmadığı kaynaklarda yok; kartlar yalnız 'tablo uyruk ayrımı yapmıyor' diyor. Uzman/insan kontrolü gerekli.",
+      "evidence": "_is/claims/oturum.jsonl"
+    },
+    {
+      "id": "SRC-ACCESS",
+      "priority": "P1",
+      "check_id": "K52",
+      "owner": "ai",
+      "text": "4 resmî sayfaya script erişemedi (403 / yönlendirme döngüsü / TLS): www.werk.nl, www.svb.nl, www.museumkaart.nl, www.eindhoven.nl. Erişim teyidi açık; bu sayfalardan bilgi yazılmaz.",
+      "evidence": "_is/kaynak_acik.json"
+    },
+    {
+      "id": "SVB-ERISIM",
+      "priority": "P1",
+      "check_id": "K52",
+      "owner": "insan",
+      "text": "Kinderbijslag tutarları (G11) ve Türkiye–Hollanda sosyal güvenlik anlaşması (G23) için SVB sayfaları script'e 403 veriyor; kartlarda tutar yok. Tarayıcıdan bakılıp eklenmeli.",
+      "evidence": "_is/kesif/gap_check.json"
+    },
+    {
+      "id": "ACIK-MI-BELIRSIZ",
+      "priority": "P2",
+      "owner": "insan",
+      "text": "Gonderim oncesi 119 mekanin 'bugun acik mi' taramasinda (kendi sitesi acik kaniti sayilmadi; 2025-26 tarihli faaliyet kaniti + Hollandaca kapanis aramasi + supheci ikinci ajan) 3 mekan icin tarihli faaliyet kaniti bulunamadi, kapanis kaniti da yok: Eigen Wijs Boerderij, Hovenring (kopru/anit), Huize De Laak (villa, disaridan). Diger belirsizler curutuldu; kapali cikan yok.",
+      "evidence": "_is/acik_mi/*_dogrulama.jsonl"
+    },
+    {
+      "id": "CELISKI-BEBEK-SIGORTA",
+      "priority": "P2",
+      "check_id": "K34",
+      "owner": "ai",
+      "text": "Bebeğin sigorta kaydı: government.nl 'dört aylıktan itibaren', rijksoverheid 'doğumdan sonra 4 ay içinde'; aile kartı rijksoverheid'e göre.",
+      "evidence": "_is/claims/aile.jsonl"
+    },
+    {
+      "id": "CELISKI-EHLIYET",
+      "priority": "P2",
+      "check_id": "K34",
+      "owner": "ai",
+      "text": "Ehliyet değişimi sürerken araç kullanma: Eindhoven belediyesi ile RDW farklı; kartta ikisi ayrı verildi.",
+      "evidence": "_is/denetim/iddia_denetimi.jsonl"
+    },
+    {
+      "id": "CELISKI-KIRA-ARTIS",
+      "priority": "P2",
+      "check_id": "K34",
+      "owner": "ai",
+      "text": "Yıllık kira artış sınırı: belediye 'CAO + %1', government.nl 'enflasyon + %1'; kartta devlet kaynağı esas.",
+      "evidence": "_is/claims/ev.jsonl"
+    },
+    {
+      "id": "CELISKI-LAHEY-KAYIT",
+      "priority": "P2",
+      "check_id": "K34",
+      "owner": "insan",
+      "text": "Yurt dışı evliliğin Lahey'de kaydı: IND kimseyi sınırlamıyor, Eindhoven belediyesi Hollanda vatandaşlığı şartı koşuyor; kart IND metnine göre.",
+      "evidence": "_is/claims/planlama.jsonl"
+    },
+    {
+      "id": "CELISKI-SIGORTA-PRIM",
+      "priority": "P2",
+      "check_id": "K34",
+      "owner": "ai",
+      "text": "Geç sağlık sigortasında geriye dönük prim: HEC South ile government.nl çelişiyor; kartta resmî kaynak esas, diğeri ayrıca belirtildi.",
+      "evidence": "_is/denetim/iddia_denetimi.jsonl"
+    },
+    {
+      "id": "INBURGERING-UCRET",
+      "priority": "P2",
+      "check_id": "K104",
+      "owner": "ai",
+      "text": "Inburgering sınav fiyatında iki tablo (MAP 250 / ONA 290 €) hangi programa ait etiketsiz; kart tutar vermiyor (text_quality 'evasive' 1).",
+      "evidence": "_is/text_quality.json"
+    },
+    {
+      "id": "IND-DINAMIK",
+      "priority": "P2",
+      "check_id": "K76",
+      "owner": "ai",
+      "text": "IND kaynak 019/026/027/028/030/031 yalnız giriş metni veriyor (koşullar dinamik); partner izni yaş/belge şartları gibi ayrıntılar kartlarda yok.",
+      "evidence": "_is/kaynak_dizini.jsonl"
+    },
+    {
+      "id": "INKIJKMUSEUM-POSTA",
+      "priority": "P2",
+      "owner": "ai",
+      "text": "Inkijkmuseum posta kodu (5611 CK) yalniz cok kisa iletisim sayfasinda var (kaynak olarak eklenemedi); kartta adres 'Dommelstraat 2A, Eindhoven'. Sitede ziyaret saati/ucret yok, kartta bu acikca yaziyor.",
+      "evidence": "_is/denetim_mekan/m6_degisiklik.jsonl"
+    },
+    {
+      "id": "MAHALLE-TICARI-KAYNAK",
+      "priority": "P2",
+      "check_id": "K30",
+      "owner": "ai",
+      "text": "Mahalle kartlarında konut/ulaşım/yaşam ritmi için ticari Expatica ve Expat Arrivals kullanıldı (kartta atıf var); resmî kaynakla değiştirilmesi veya denetim kararı gerekli.",
+      "evidence": "_is/claims/mahalle.jsonl"
+    },
+    {
+      "id": "MEKAN-HEDEF",
+      "priority": "P2",
+      "check_id": "K17",
+      "owner": "ai",
+      "text": "119 mekan (asgari 92, hedef 120): 23 Ekim'de 16 mekan eklendi (oncelik doga/muze/yeme-icme); Golfbaan Welschap 2020 sonunda kapandigi icin cikarildi (meerhoven.nl). Gruplar: Muzeler 11, Sanat 16, Cocuk 16, Sahne 16, Spor 16, Doga 13, Yeme-icme 16, Tarih 15. Yeni muze bulunamadi (kendi resmi sitesi + Commons fotosu sarti).",
+      "evidence": "_is/mekan/mekan_plan_ek16.jsonl; _is/denetim_mekan/m7_degisiklik.jsonl"
+    },
+    {
+      "id": "MEKAN-ORTAK-KOORD",
+      "priority": "P2",
+      "check_id": "K43",
+      "owner": "ai",
+      "text": "3 cift ayni koordinat: kazerne/kazerne-expo, 18-septemberplein/centrale-markt, brouwerij-het-veem/str-eat (ayni bina/meydan). Foto asamasinda ayni kare iki karta verilmemeli.",
+      "evidence": "_is/val_ara.json"
+    },
+    {
+      "id": "MEVSIMLIK-MEKAN",
+      "priority": "P2",
+      "owner": "ai",
+      "text": "Sezon disi/gecici durumlar kartlara 23.10.2026 tarihli not olarak yazildi: Speeltuin Philipsdorp ve Sint Joseph Speeltuin (kis arasi, 28 Mart 2027'ye kadar kapali), Happy Canoe (2026 sezonu bitti, yalniz grup rezervasyonu), Next Level Escape Rooms (Stratumseind 32'deki 2 oda kapanacak, tarih yok). Paviljoen Ongehoorde Muziek Mart 2026'da TAC binasina (Ventoselaan 1) tasindi; kart ve rota guncellendi. Ilkbaharda yeniden kontrol.",
+      "evidence": "_is/denetim_mekan/acik_mi_degisiklik.jsonl"
+    },
+    {
+      "id": "NEXTLEVEL-ANASAYFA",
+      "priority": "P2",
+      "check_id": "K30",
+      "owner": "ai",
+      "text": "Next Level Escape Rooms'ta 2 odanin kapanacagi bilgisi yalniz sitenin ana sayfasinda (alt sayfa yok); kaynak 394 tek basina ana sayfa.",
+      "evidence": "_is/denetim_mekan/acik_mi_degisiklik.jsonl"
+    },
+    {
+      "id": "SRC-404",
+      "priority": "P2",
+      "check_id": "K50",
+      "owner": "ai",
+      "text": "7 aday adres yok (404; ajanların tahmin ettiği adresler). Kaynak listesinden çıkarıldı, kullanılmayacak.",
+      "evidence": "_is/kaynak_acik.json"
+    },
+    {
+      "id": "SRC-THIN",
+      "priority": "P2",
+      "check_id": "K76",
+      "owner": "ai",
+      "text": "6 sayfanın metni çok kısa (JS ile yükleniyor veya kısa sayfa). Bu sayfalardan bilgi yazılmaz.",
+      "evidence": "_is/kaynak_acik.json"
+    },
+    {
+      "id": "TAC-YENILEME",
+      "priority": "P2",
+      "owner": "ai",
+      "text": "TAC (Temporary Art Centre) yenileniyor: kafe-restoran Ekim 2026 DDW'de yeniden acildi, tam acilis Nisan 2027. Saatler DDW (25 Ekim 2026) sonrasinda duyurulacak; kartta saat yok, Nisan 2027'de yeniden bakilmali. Adres Ventoselaan 1 (TAC'in kendi sitesi; Vonderweg 1 ayni parselde, duyurularda o da geciyor); harita noktasi Vonderweg 1A (ayni parsel, 78 m). Kartta 2 ifade hala This is Eindhoven portalina dayaniyor (C-2, C-5); TAC'in kendi sayfasina (402) tasinabilir.",
+      "evidence": "_is/denetim_mekan/son_degisiklik.jsonl; _is/denetim_mekan/pdok_tac_adresler.json"
+    },
+    {
+      "id": "TESLIMAT-ID",
+      "priority": "P2",
+      "check_id": "K13",
+      "owner": "atinc",
+      "text": "Şablondaki delivery_id 'CITY-039-v001' büyük harfti; resmî doğrulayıcı küçük harf istiyor. Bizim kopyamızda 'city-039-v001' yapıldı (Atınç'ın aslı değişmedi). Atınç'a bildirilecek.",
+      "evidence": "_is/sablon_dump_full/Teslimat.jsonl"
+    },
+    {
+      "id": "VICTORIAPARK-PLAN",
+      "priority": "P2",
+      "owner": "ai",
+      "text": "Victoriapark kartindaki tamamlanma planlari 'belediyenin Ekim 2026'daki planina gore' diye tarihlendi; 2027 basinda eskir, yeniden kontrol edilmeli.",
+      "evidence": "_is/denetim_mekan/m6_degisiklik.jsonl"
+    }
+  ],
+  "delivered": {
+    "at": "2026-10-22T20:40:16Z",
+    "xlsx_sha256": "01c130e64d683ba05cee94275aa52056f4eba1b1867d4408ab27df04dec25815",
+    "inventory": "_is/dosya-envanteri.json"
+  }
+}

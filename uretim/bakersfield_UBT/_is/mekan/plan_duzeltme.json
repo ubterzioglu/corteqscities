@@ -1,0 +1,66 @@
+{
+  "_aciklama": "Ana döngünün plan düzeltmeleri (23.10.2026): Census Geocoder aynı adres/kampüs için birden çok mekâna aynı noktayı verdi; ikinciller boşaltıldı, Wikidata P625'i olanlara havuzdaki (wikidata_aday.jsonl) koordinat yazıldı. Bakersfield Museum of Art bir müze olduğu için Müzeler grubuna alındı. Ajan 9 grup adını yanlış yazmıştı (Çocuklarla keşfet); düzeltildi.",
+  "coords": {
+    "lori-brock-discovery-center": [
+      "",
+      "",
+      "koordinat: boş (Kern County Museum ile aynı adres, 3801 Chester Ave)"
+    ],
+    "mcmurtrey-aquatic-center": [
+      "",
+      "",
+      "koordinat: boş (Census ve Wikidata buz pisti ile aynı noktayı veriyor)"
+    ],
+    "jones-art-gallery-bakersfield-college": [
+      "",
+      "",
+      "koordinat: boş (Bakersfield College kampüs adresi, 1801 Panorama Dr)"
+    ],
+    "william-m-thomas-planetarium": [
+      "",
+      "",
+      "koordinat: boş (Bakersfield College kampüs adresi, 1801 Panorama Dr)"
+    ],
+    "bakersfield-college-memorial-stadium": [
+      35.407222,
+      -118.969444,
+      "koordinat: wikidata Q6815511"
+    ],
+    "dore-theatre-csub": [
+      "",
+      "",
+      "koordinat: boş (CSUB kampüs adresi, 9001 Stockdale Hwy)"
+    ],
+    "csub-icardo-center": [
+      35.3475,
+      -119.102778,
+      "koordinat: wikidata Q5985043"
+    ],
+    "flight-adventure-park-bakersfield": [
+      "",
+      "",
+      "koordinat: boş (Census, Temblor Brewing ile aynı noktayı veriyor)"
+    ],
+    "sam-lynn-ballpark": [
+      35.397556,
+      -119.022384,
+      "koordinat: wikidata Q7407822"
+    ],
+    "the-blvd-bakersfield": [
+      "",
+      "",
+      "koordinat: boş (Census, Temblor Brewing ile aynı noktayı veriyor; aynı yapı grubu)"
+    ]
+  },
+  "group": {
+    "bakersfield-museum-of-art": "Müzeler",
+    "murray-family-farms": "Çocuklarla keşif",
+    "the-blvd-bakersfield": "Çocuklarla keşif",
+    "polo-community-park": "Çocuklarla keşif"
+  },
+  "district": {
+    "temblor-brewing-company": "Northwest",
+    "flight-adventure-park-bakersfield": "Northwest",
+    "sam-lynn-ballpark": "North Chester"
+  }
+}

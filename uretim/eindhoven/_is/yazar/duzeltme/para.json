@@ -1,0 +1,80 @@
+{
+ "topic": "para",
+ "order_range": [
+  601,
+  699
+ ],
+ "audit": [
+  {
+   "claim_id": "EIN-ID-083",
+   "entry_id": "eindhoven:expat-regelingi-sartlari-150-km-kurali",
+   "Excel_satırı": 0,
+   "iddia": "'Bilimsel araştırma yapanlar' gelir ölçütünden muaf (kurum koşulu yok).",
+   "ülke_şehir_statü": "NL; araştırmacılar",
+   "dönem": "2026",
+   "resmî_URL": "https://business.gov.nl/staff/employing-staff/the-expat-scheme-30-percent-ruling-in-the-netherlands/",
+   "kaynak_bölümü": "What are the conditions to use the expat scheme?",
+   "yayın_yürürlük_tarihleri": "",
+   "kontrol_tarihi": "2026-10-22",
+   "hesap_varsa_girdiler": "",
+   "sonuç": "eksik_koşul",
+   "belirsizlik": "",
+   "alıntı": "Employees who conduct scientific research in a designated research facility, or doctors training to be a specialist, do not need to meet this income criterion.",
+   "doğrusu": "Gelir ölçütünden yalnız belirlenmiş (aangewezen) bir araştırma kurumunda bilimsel araştırma yapanlar ve uzmanlık eğitimindeki doktorlar muaftır."
+  },
+  {
+   "claim_id": "EIN-ID-088",
+   "entry_id": "eindhoven:ev-sigortalari-opstal-inboedel-aansprakelijkheid",
+   "Excel_satırı": 0,
+   "iddia": "Opstalverzekering mülk sahipleri için zorunludur.",
+   "ülke_şehir_statü": "NL; mülk sahibi",
+   "dönem": "2026",
+   "resmî_URL": "https://www.hollandexpatcenter.com/internationals-guide/banking-finance-and-insurance/private-insurances",
+   "kaynak_bölümü": "Residential premises insurance",
+   "yayın_yürürlük_tarihleri": "",
+   "kontrol_tarihi": "2026-10-22",
+   "hesap_varsa_girdiler": "",
+   "sonuç": "kaynak_yetersiz",
+   "belirsizlik": "Tek kaynak Holland Expat Center South bilgi sayfası; yasal dayanak gösterilmiyor. 'Zorunlu' iddiası (yasa mı, ipotek veren bankanın şartı mı) resmî kaynakla doğrulanmadı.",
+   "alıntı": "This insurance is mandatory for property owners.",
+   "doğrusu": "Resmî kaynakla teyit edilene kadar 'zorunludur' yerine: 'Holland Expat Center South'a göre mülk sahipleri için zorunlu; yasal dayanağını ve ipotek şartı olup olmadığını bankanıza veya sigortacınıza sorun.' Mümkünse resmî/yasal kaynak eklenmeli."
+  }
+ ],
+ "new_sources": [
+  {
+   "source_id": "eindhoven:kaynak:200",
+   "url": "https://www.rijksoverheid.nl/documenten/vraag-en-antwoord/betalingsverkeer/afwijzing-betaalrekening-consument",
+   "title": "Wat kan ik als consument doen als ik geen betaalrekening kan krijgen? | Rijksoverheid.nl",
+   "text_file": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\eindhoven\\_is\\snap\\5264623a05e7e79b025b12b011f46c0f318cc6db5e41e9690aa27e252e5d58cf.txt",
+   "gap": "G04 banka hesabı açma (BSN şartı, gerekli belgeler, temel ödeme hesabı hakkı)."
+  },
+  {
+   "source_id": "eindhoven:kaynak:201",
+   "url": "https://www.belastingdienst.nl/wps/wcm/connect/en/individuals/content/filing-an-online-tax-return-in-4-steps",
+   "title": "Filing an online tax return in 4 steps | Tax Administration",
+   "text_file": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\eindhoven\\_is\\snap\\f0d9ff035e2d4d6893de1f19510ac7bb5c303a9da15bffe01d34157840e87bfa.txt",
+   "gap": "G05 kimin gelir vergisi beyannamesi vermesi gerektiği ve son tarih; geçici yıl (M-formu, taşınma yılı)."
+  },
+  {
+   "source_id": "eindhoven:kaynak:202",
+   "url": "https://www.government.nl/topics/income-tax/filing-a-tax-return",
+   "title": "Tax return | Government.nl",
+   "text_file": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\eindhoven\\_is\\snap\\802b05547aedd274efc3bbb160a067290836fab24f02cc116d128b94607077a8.txt",
+   "gap": "G05 kimin gelir vergisi beyannamesi vermesi gerektiği ve son tarih; geçici yıl (M-formu, taşınma yılı)."
+  }
+ ],
+ "extra_sources": [
+  {
+   "source_id": "eindhoven:kaynak:006",
+   "url": "https://www.hollandexpatcenter.com/internationals-guide/banking-finance-and-insurance/banking",
+   "title": "Banking | Holland Expat Center South",
+   "text_file": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\eindhoven\\_is\\snap\\eb7402226ee268c3ce7b89a171ea8529676b16e4653ca0846d50882ca89157f7.txt",
+   "gap": "İlk hafta banka hesabı açma hazırlığı"
+  }
+ ],
+ "special": [
+  "Türkiye–Hollanda çifte vergilendirme anlaşmasından yazılmış kartları (slug'ında 'turkiye-hollanda-anlasmasi' geçenler) EN ÇOK 2 karta indir: okuyucu için en pratik olanları kalsın (hangi ülkede vergi, çifte vergiden kaçınma). Diğerlerini sil.",
+  "Banka hesabı açma kartı yaz (G04 kaynakları + extra_sources)."
+ ],
+ "own_sources_file": "_is\\yazar\\para_kaynaklar.jsonl"
+}

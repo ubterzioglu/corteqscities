@@ -1,0 +1,973 @@
+{
+  "tool": "text_quality",
+  "workbook": "ara.xlsx",
+  "params": {
+    "min_cluster": 3,
+    "near": 0.9
+  },
+  "summary": {
+    "exact_clusters": 6,
+    "near_clusters": 0,
+    "template_clusters": 0,
+    "shared_steps": 0,
+    "placeholders": 0,
+    "filler": 0,
+    "evasive": 1,
+    "without_action": 0,
+    "visual_json_errors": 0,
+    "caption_is_title": 0,
+    "hedge_cards": 2,
+    "hedge_share": 0.0049,
+    "exact_records": 174,
+    "short_repeat_groups": 2,
+    "repeated_sentences": 7,
+    "cards_total": 409,
+    "visual_json_empty": 283,
+    "findings": 7
+  },
+  "top_clusters": [
+    {
+      "kind": "exact",
+      "sheet": "Fotoğraflar",
+      "field": "modifications",
+      "size": 164,
+      "sample": "Wikimedia Commons'un en çok 1600 px önizleme kopyası indirildi; kırpma ve rötuş yapılmadı."
+    },
+    {
+      "kind": "exact",
+      "sheet": "Yanıtlar",
+      "field": "cost",
+      "size": 2,
+      "sample": "Etkinliklerin çoğu ücretsiz veya küçük bir katılım bedeli var."
+    },
+    {
+      "kind": "exact",
+      "sheet": "Yanıtlar",
+      "field": "cost",
+      "size": 2,
+      "sample": "18. doğum gününe kadar ücretsiz"
+    },
+    {
+      "kind": "exact",
+      "sheet": "Yanıtlar",
+      "field": "documents",
+      "size": 2,
+      "sample": "Kira sözleşmesi Kirayı ödediğini gösteren banka dökümleri"
+    },
+    {
+      "kind": "exact",
+      "sheet": "Yanıtlar",
+      "field": "documents",
+      "size": 2,
+      "sample": "Geçerli pasaport veya seyahat belgesi Aile bağını gösteren belge (doğum, evlilik veya kayıtlı partnerlik belgesi) Yasall…"
+    }
+  ],
+  "exact_duplicates": [
+    {
+      "sheet": "Fotoğraflar",
+      "field": "modifications",
+      "size": 164,
+      "length": 88,
+      "sample": "Wikimedia Commons'un en çok 1600 px önizleme kopyası indirildi; kırpma ve rötuş yapılmadı.",
+      "members": [
+        {
+          "row": 8,
+          "id": "eindhoven:van-abbemuseum"
+        },
+        {
+          "row": 9,
+          "id": "eindhoven:van-abbemuseum"
+        },
+        {
+          "row": 10,
+          "id": "eindhoven:van-abbemuseum"
+        },
+        {
+          "row": 11,
+          "id": "eindhoven:philips-museum"
+        },
+        {
+          "row": 12,
+          "id": "eindhoven:philips-museum"
+        },
+        {
+          "row": 13,
+          "id": "eindhoven:philips-museum"
+        },
+        {
+          "row": 14,
+          "id": "eindhoven:daf-museum"
+        },
+        {
+          "row": 15,
+          "id": "eindhoven:daf-museum"
+        },
+        {
+          "row": 16,
+          "id": "eindhoven:next-nature-museum"
+        },
+        {
+          "row": 17,
+          "id": "eindhoven:next-nature-museum"
+        },
+        {
+          "row": 18,
+          "id": "eindhoven:psv-museum"
+        },
+        {
+          "row": 19,
+          "id": "eindhoven:psv-museum"
+        },
+        {
+          "row": 20,
+          "id": "eindhoven:erfgoedhuis-eindhoven"
+        },
+        {
+          "row": 21,
+          "id": "eindhoven:dr-a-f-philips-sterrenwacht"
+        },
+        {
+          "row": 22,
+          "id": "eindhoven:dr-a-f-philips-sterrenwacht"
+        },
+        {
+          "row": 23,
+          "id": "eindhoven:dr-a-f-philips-sterrenwacht"
+        },
+        {
+          "row": 24,
+          "id": "eindhoven:museumpark-vonk-prehistorisch-dorp"
+        },
+        {
+          "row": 25,
+          "id": "eindhoven:museumpark-vonk-prehistorisch-dorp"
+        },
+        {
+          "row": 26,
+          "id": "eindhoven:museumpark-vonk-prehistorisch-dorp"
+        },
+        {
+          "row": 27,
+          "id": "eindhoven:kevn-kelderman-en-van-noort"
+        },
+        {
+          "row": 28,
+          "id": "eindhoven:baltan-laboratories"
+        },
+        {
+          "row": 29,
+          "id": "eindhoven:baltan-laboratories"
+        },
+        {
+          "row": 30,
+          "id": "eindhoven:muziekgebouw-eindhoven"
+        },
+        {
+          "row": 31,
+          "id": "eindhoven:muziekgebouw-eindhoven"
+        },
+        {
+          "row": 32,
+          "id": "eindhoven:parktheater-eindhoven"
+        },
+        {
+          "row": 33,
+          "id": "eindhoven:parktheater-eindhoven"
+        },
+        {
+          "row": 34,
+          "id": "eindhoven:natlab"
+        },
+        {
+          "row": 35,
+          "id": "eindhoven:natlab"
+        },
+        {
+          "row": 36,
+          "id": "eindhoven:pathe-eindhoven"
+        },
+        {
+          "row": 37,
+          "id": "eindhoven:pathe-eindhoven"
+        },
+        {
+          "row": 38,
+          "id": "eindhoven:dynamo"
+        },
+        {
+          "row": 39,
+          "id": "eindhoven:dynamo"
+        },
+        {
+          "row": 40,
+          "id": "eindhoven:philips-stadion-psv"
+        },
+        {
+          "row": 41,
+          "id": "eindhoven:philips-stadion-psv"
+        },
+        {
+          "row": 42,
+          "id": "eindhoven:nationaal-zwemcentrum-de-tongelreep"
+        },
+        {
+          "row": 43,
+          "id": "eindhoven:indoor-sportcentrum-eindhoven"
+        },
+        {
+          "row": 44,
+          "id": "eindhoven:indoor-sportcentrum-eindhoven"
+        },
+        {
+          "row": 45,
+          "id": "eindhoven:ir-ottenbad"
+        },
+        {
+          "row": 46,
+          "id": "eindhoven:ir-ottenbad"
+        },
+        {
+          "row": 47,
+          "id": "eindhoven:jan-louwers-stadion"
+        },
+        {
+          "row": 48,
+          "id": "eindhoven:jan-louwers-stadion"
+        },
+        {
+          "row": 49,
+          "id": "eindhoven:genneper-parken"
+        },
+        {
+          "row": 50,
+          "id": "eindhoven:genneper-parken"
+        },
+        {
+          "row": 51,
+          "id": "eindhoven:stadswandelpark"
+        },
+        {
+          "row": 52,
+          "id": "eindhoven:stadswandelpark"
+        },
+        {
+          "row": 53,
+          "id": "eindhoven:stadswandelpark"
+        },
+        {
+          "row": 54,
+          "id": "eindhoven:philips-de-jongh-wandelpark"
+        },
+        {
+          "row": 55,
+          "id": "eindhoven:philips-de-jongh-wandelpark"
+        },
+        {
+          "row": 56,
+          "id": "eindhoven:philips-de-jongh-wandelpark"
+        },
+        {
+          "row": 57,
+          "id": "eindhoven:henri-dunantpark"
+        },
+        {
+          "row": 58,
+          "id": "eindhoven:landgoed-de-wielewaal"
+        },
+        {
+          "row": 59,
+          "id": "eindhoven:de-ontdekfabriek"
+        },
+        {
+          "row": 60,
+          "id": "eindhoven:de-ontdekfabriek"
+        },
+        {
+          "row": 61,
+          "id": "eindhoven:speelpark-de-splinter"
+        },
+        {
+          "row": 62,
+          "id": "eindhoven:speelpark-de-splinter"
+        },
+        {
+          "row": 63,
+          "id": "eindhoven:speelpark-de-splinter"
+        },
+        {
+          "row": 64,
+          "id": "eindhoven:genneper-hoeve"
+        },
+        {
+          "row": 65,
+          "id": "eindhoven:genneper-hoeve"
+        },
+        {
+          "row": 66,
+          "id": "eindhoven:genneper-hoeve"
+        },
+        {
+          "row": 67,
+          "id": "eindhoven:stratumseind"
+        },
+        {
+          "row": 68,
+          "id": "eindhoven:stratumseind"
+        },
+        {
+          "row": 69,
+          "id": "eindhoven:stratumseind"
+        },
+        {
+          "row": 70,
+          "id": "eindhoven:de-mispelhoef"
+        },
+        {
+          "row": 71,
+          "id": "eindhoven:de-mispelhoef"
+        },
+        {
+          "row": 72,
+          "id": "eindhoven:sint-catharinakerk"
+        },
+        {
+          "row": 73,
+          "id": "eindhoven:strijp-s"
+        },
+        {
+          "row": 74,
+          "id": "eindhoven:klokgebouw"
+        },
+        {
+          "row": 75,
+          "id": "eindhoven:klokgebouw"
+        },
+        {
+          "row": 76,
+          "id": "eindhoven:klokgebouw"
+        },
+        {
+          "row": 77,
+          "id": "eindhoven:genneper-watermolen"
+        },
+        {
+          "row": 78,
+          "id": "eindhoven:genneper-watermolen"
+        },
+        {
+          "row": 79,
+          "id": "eindhoven:genneper-watermolen"
+        },
+        {
+          "row": 80,
+          "id": "eindhoven:klooster-marienhage"
+        },
+        {
+          "row": 81,
+          "id": "eindhoven:klooster-marienhage"
+        },
+        {
+          "row": 82,
+          "id": "eindhoven:heilige-hartkerk-hart-van-eindhoven"
+        },
+        {
+          "row": 83,
+          "id": "eindhoven:heilige-hartkerk-hart-van-eindhoven"
+        },
+        {
+          "row": 84,
+          "id": "eindhoven:heilige-hartkerk-hart-van-eindhoven"
+        },
+        {
+          "row": 85,
+          "id": "eindhoven:catharinakerkhof"
+        },
+        {
+          "row": 86,
+          "id": "eindhoven:catharinakerkhof"
+        },
+        {
+          "row": 87,
+          "id": "eindhoven:18-septemberplein"
+        },
+        {
+          "row": 88,
+          "id": "eindhoven:18-septemberplein"
+        },
+        {
+          "row": 89,
+          "id": "eindhoven:18-septemberplein"
+        },
+        {
+          "row": 90,
+          "id": "eindhoven:eindhoven-centraal"
+        },
+        {
+          "row": 91,
+          "id": "eindhoven:eindhoven-centraal"
+        },
+        {
+          "row": 92,
+          "id": "eindhoven:eindhoven-centraal"
+        },
+        {
+          "row": 93,
+          "id": "eindhoven:huize-de-laak"
+        },
+        {
+          "row": 94,
+          "id": "eindhoven:huize-de-laak"
+        },
+        {
+          "row": 95,
+          "id": "eindhoven:philipsdorp"
+        },
+        {
+          "row": 96,
+          "id": "eindhoven:philipsdorp"
+        },
+        {
+          "row": 97,
+          "id": "eindhoven:de-witte-dame-lichtfabriek"
+        },
+        {
+          "row": 98,
+          "id": "eindhoven:de-witte-dame-lichtfabriek"
+        },
+        {
+          "row": 99,
+          "id": "eindhoven:de-witte-dame-lichtfabriek"
+        },
+        {
+          "row": 100,
+          "id": "eindhoven:ton-smits-huis"
+        },
+        {
+          "row": 101,
+          "id": "eindhoven:ton-smits-huis"
+        },
+        {
+          "row": 102,
+          "id": "eindhoven:ton-smits-huis"
+        },
+        {
+          "row": 103,
+          "id": "eindhoven:stadhuis-van-eindhoven"
+        },
+        {
+          "row": 104,
+          "id": "eindhoven:centrum-bolgesi"
+        },
+        {
+          "row": 105,
+          "id": "eindhoven:centrum-bolgesi"
+        },
+        {
+          "row": 106,
+          "id": "eindhoven:de-bergen-mahallesi"
+        },
+        {
+          "row": 107,
+          "id": "eindhoven:strijp-s-mahallesi"
+        },
+        {
+          "row": 108,
+          "id": "eindhoven:philipsdorp-mahallesi"
+        },
+        {
+          "row": 109,
+          "id": "eindhoven:meerhoven-mahallesi"
+        },
+        {
+          "row": 110,
+          "id": "eindhoven:meerhoven-mahallesi"
+        },
+        {
+          "row": 111,
+          "id": "eindhoven:meerhoven-mahallesi"
+        },
+        {
+          "row": 112,
+          "id": "eindhoven:woensel-zuid-bolgesi"
+        },
+        {
+          "row": 113,
+          "id": "eindhoven:woensel-zuid-bolgesi"
+        },
+        {
+          "row": 114,
+          "id": "eindhoven:woensel-zuid-bolgesi"
+        },
+        {
+          "row": 115,
+          "id": "eindhoven:stratum-bolgesi"
+        },
+        {
+          "row": 116,
+          "id": "eindhoven:stratum-bolgesi"
+        },
+        {
+          "row": 117,
+          "id": "eindhoven:stratum-bolgesi"
+        },
+        {
+          "row": 118,
+          "id": "eindhoven:witte-dorp-mahallesi"
+        },
+        {
+          "row": 119,
+          "id": "eindhoven:witte-dorp-mahallesi"
+        },
+        {
+          "row": 120,
+          "id": "eindhoven:witte-dorp-mahallesi"
+        },
+        {
+          "row": 121,
+          "id": "eindhoven:riel-mahallesi"
+        },
+        {
+          "row": 122,
+          "id": "eindhoven:riel-mahallesi"
+        },
+        {
+          "row": 123,
+          "id": "eindhoven:riel-mahallesi"
+        },
+        {
+          "row": 124,
+          "id": "eindhoven:gestel-bolgesi"
+        },
+        {
+          "row": 125,
+          "id": "eindhoven:gestel-bolgesi"
+        },
+        {
+          "row": 126,
+          "id": "eindhoven:gestel-bolgesi"
+        },
+        {
+          "row": 127,
+          "id": "eindhoven:tongelre-bolgesi"
+        },
+        {
+          "row": 128,
+          "id": "eindhoven:tongelre-bolgesi"
+        },
+        {
+          "row": 129,
+          "id": "eindhoven:tongelre-bolgesi"
+        },
+        {
+          "row": 130,
+          "id": "eindhoven:lakerlopen-mahallesi"
+        },
+        {
+          "row": 131,
+          "id": "eindhoven:lakerlopen-mahallesi"
+        },
+        {
+          "row": 132,
+          "id": "eindhoven:karpen-mahallesi"
+        },
+        {
+          "row": 133,
+          "id": "eindhoven:karpen-mahallesi"
+        },
+        {
+          "row": 134,
+          "id": "eindhoven:karpen-mahallesi"
+        },
+        {
+          "row": 135,
+          "id": "eindhoven:daf-museum"
+        },
+        {
+          "row": 136,
+          "id": "eindhoven:erfgoedhuis-eindhoven"
+        },
+        {
+          "row": 137,
+          "id": "eindhoven:erfgoedhuis-eindhoven"
+        },
+        {
+          "row": 138,
+          "id": "eindhoven:parktheater-eindhoven"
+        },
+        {
+          "row": 139,
+          "id": "eindhoven:natlab"
+        },
+        {
+          "row": 140,
+          "id": "eindhoven:dynamo"
+        },
+        {
+          "row": 141,
+          "id": "eindhoven:philips-stadion-psv"
+        },
+        {
+          "row": 142,
+          "id": "eindhoven:nationaal-zwemcentrum-de-tongelreep"
+        },
+        {
+          "row": 143,
+          "id": "eindhoven:henri-dunantpark"
+        },
+        {
+          "row": 144,
+          "id": "eindhoven:henri-dunantpark"
+        },
+        {
+          "row": 145,
+          "id": "eindhoven:landgoed-de-wielewaal"
+        },
+        {
+          "row": 146,
+          "id": "eindhoven:sint-catharinakerk"
+        },
+        {
+          "row": 147,
+          "id": "eindhoven:sint-catharinakerk"
+        },
+        {
+          "row": 148,
+          "id": "eindhoven:strijp-s"
+        },
+        {
+          "row": 149,
+          "id": "eindhoven:strijp-s"
+        },
+        {
+          "row": 150,
+          "id": "eindhoven:catharinakerkhof"
+        },
+        {
+          "row": 151,
+          "id": "eindhoven:huize-de-laak"
+        },
+        {
+          "row": 152,
+          "id": "eindhoven:philipsdorp"
+        },
+        {
+          "row": 153,
+          "id": "eindhoven:stadhuis-van-eindhoven"
+        },
+        {
+          "row": 154,
+          "id": "eindhoven:stadhuis-van-eindhoven"
+        },
+        {
+          "row": 155,
+          "id": "eindhoven:centrum-bolgesi"
+        },
+        {
+          "row": 156,
+          "id": "eindhoven:de-bergen-mahallesi"
+        },
+        {
+          "row": 157,
+          "id": "eindhoven:de-bergen-mahallesi"
+        },
+        {
+          "row": 158,
+          "id": "eindhoven:strijp-s-mahallesi"
+        },
+        {
+          "row": 159,
+          "id": "eindhoven:philipsdorp-mahallesi"
+        },
+        {
+          "row": 160,
+          "id": "eindhoven:den-elzent-mahallesi"
+        },
+        {
+          "row": 161,
+          "id": "eindhoven:den-elzent-mahallesi"
+        },
+        {
+          "row": 162,
+          "id": "eindhoven:den-elzent-mahallesi"
+        },
+        {
+          "row": 163,
+          "id": "eindhoven:lakerlopen-mahallesi"
+        },
+        {
+          "row": 164,
+          "id": "eindhoven:photo:kapak-01"
+        },
+        {
+          "row": 165,
+          "id": "eindhoven:photo:kapak-02"
+        },
+        {
+          "row": 166,
+          "id": "eindhoven:photo:kapak-03"
+        },
+        {
+          "row": 167,
+          "id": "eindhoven:photo:kapak-04"
+        },
+        {
+          "row": 168,
+          "id": "eindhoven:photo:kapak-05"
+        },
+        {
+          "row": 169,
+          "id": "eindhoven:photo:kapak-06"
+        },
+        {
+          "row": 170,
+          "id": "eindhoven:photo:kapak-07"
+        },
+        {
+          "row": 171,
+          "id": "eindhoven:photo:kapak-08"
+        }
+      ]
+    },
+    {
+      "sheet": "Yanıtlar",
+      "field": "cost",
+      "size": 2,
+      "length": 61,
+      "sample": "Etkinliklerin çoğu ücretsiz veya küçük bir katılım bedeli var.",
+      "members": [
+        {
+          "row": 145,
+          "id": "eindhoven:spor-denemek-yetiskin-ve-55-plus"
+        },
+        {
+          "row": 147,
+          "id": "eindhoven:cocuk-genc-spor-sanat-denemeleri"
+        }
+      ]
+    },
+    {
+      "sheet": "Yanıtlar",
+      "field": "cost",
+      "size": 2,
+      "length": 30,
+      "sample": "18. doğum gününe kadar ücretsiz",
+      "members": [
+        {
+          "row": 271,
+          "id": "eindhoven:cocuk-asilari-rvp"
+        },
+        {
+          "row": 272,
+          "id": "eindhoven:kacirilan-asi-ve-tereddut"
+        }
+      ]
+    },
+    {
+      "sheet": "Yanıtlar",
+      "field": "documents",
+      "size": 2,
+      "length": 57,
+      "sample": "Kira sözleşmesi Kirayı ödediğini gösteren banka dökümleri",
+      "members": [
+        {
+          "row": 44,
+          "id": "eindhoven:huurtoeslag-basvurusu"
+        },
+        {
+          "row": 45,
+          "id": "eindhoven:huurtoeslag-sartlari-ve-varlik-siniri"
+        }
+      ]
+    },
+    {
+      "sheet": "Yanıtlar",
+      "field": "documents",
+      "size": 2,
+      "length": 211,
+      "sample": "Geçerli pasaport veya seyahat belgesi Aile bağını gösteren belge (doğum, evlilik veya kayıtlı partnerlik belgesi) Yasall…",
+      "members": [
+        {
+          "row": 163,
+          "id": "eindhoven:ab-vatandasi-aile-uyesi-kimler-basvurabilir"
+        },
+        {
+          "row": 164,
+          "id": "eindhoven:ab-hukuku-dogrulamasi-basvuru-sureci"
+        }
+      ]
+    },
+    {
+      "sheet": "Yanıtlar",
+      "field": "timing",
+      "size": 2,
+      "length": 103,
+      "sample": "Karar genellikle 8 hafta içinde; gerekirse bir kez 6 hafta uzatılıyor. Eksik belge istenirse süre duruyor.",
+      "members": [
+        {
+          "row": 53,
+          "id": "eindhoven:kamer-kiralama-izni-omgevingsvergunning"
+        },
+        {
+          "row": 54,
+          "id": "eindhoven:konut-bolme-izni-woningsplitsing"
+        }
+      ]
+    }
+  ],
+  "near_duplicates": [],
+  "template_duplicates": [],
+  "short_repeats": [
+    {
+      "sheet": "Yanıtlar",
+      "field": "documents",
+      "value": "DigiD",
+      "size": 4
+    },
+    {
+      "sheet": "Yanıtlar",
+      "field": "cost",
+      "value": "Ücretsiz",
+      "size": 3
+    }
+  ],
+  "repeated_sentences": [
+    {
+      "sheet": "Fotoğraflar",
+      "sentence": "wikimedia commons un en cok 1600 px onizleme kopyasi indirildi",
+      "records": 164,
+      "fields": [
+        "modifications"
+      ],
+      "sample": "Wikimedia Commons'un en çok 1600 px önizleme kopyası indirildi"
+    },
+    {
+      "sheet": "Yanıtlar",
+      "sentence": "tutarlar her 1 ocak ta degisir",
+      "records": 11,
+      "fields": [
+        "cost"
+      ],
+      "sample": "tutarlar her 1 Ocak'ta değişir)"
+    },
+    {
+      "sheet": "Yanıtlar",
+      "sentence": "ortaklik anlasmasi kapsamindaki turk vatandaslari icin 85 euro ind ucret sayfasi 22 ekim 2026 da okundu",
+      "records": 4,
+      "fields": [
+        "cost"
+      ],
+      "sample": "Ortaklık Anlaşması kapsamındaki Türk vatandaşları için 85 euro (IND ücret sayfası, 22 Ekim 2026'da okundu"
+    },
+    {
+      "sheet": "Yanıtlar",
+      "sentence": "yasallastirilmis ve hollandaca ingilizce fransizca ya da almanca ya cevrilmis yabanci resmi belgeler",
+      "records": 4,
+      "fields": [
+        "documents"
+      ],
+      "sample": "Yasallaştırılmış ve Hollandaca, İngilizce, Fransızca ya da Almanca'ya çevrilmiş yabancı resmi belgeler"
+    },
+    {
+      "sheet": "Yanıtlar",
+      "sentence": "25 euronun altindaki tutarlar tek seferde cekilir",
+      "records": 3,
+      "fields": [
+        "cost",
+        "timing"
+      ],
+      "sample": "25 euronun altındaki tutarlar tek seferde çekilir"
+    },
+    {
+      "sheet": "Yanıtlar",
+      "sentence": "hayati tehlike varsa 112 yi arayin",
+      "records": 3,
+      "fields": [
+        "steps",
+        "summary"
+      ],
+      "sample": "Hayati tehlike varsa 112'yi arayın"
+    },
+    {
+      "sheet": "Yanıtlar",
+      "sentence": "otomatik tahsilatta tutar 10 taksitte cekilir",
+      "records": 3,
+      "fields": [
+        "cost",
+        "timing"
+      ],
+      "sample": "Otomatik tahsilatta tutar 10 taksitte çekilir"
+    }
+  ],
+  "shared_steps": [],
+  "placeholders": {
+    "count": 0,
+    "by_field": {},
+    "items": []
+  },
+  "filler": {
+    "count": 0,
+    "items": []
+  },
+  "hedges": {
+    "cards_total": 409,
+    "cards_with_hedge": 2,
+    "share": 0.0049,
+    "max_per_card": 1,
+    "by_pattern": {
+      "kurumdan_dogrula": 1,
+      "resmi_kaynaktan_dogrula": 1
+    },
+    "items": [
+      {
+        "sheet": "Yanıtlar",
+        "row": 194,
+        "id": "eindhoven:ev-sigortalari-opstal-inboedel-aansprakelijkheid",
+        "count": 1,
+        "patterns": [
+          "resmi_kaynaktan_dogrula"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 206,
+        "id": "eindhoven:turkiye-belgeleri-apostilsiz",
+        "count": 1,
+        "patterns": [
+          "kurumdan_dogrula"
+        ]
+      }
+    ]
+  },
+  "evasive_answers": {
+    "count": 1,
+    "items": [
+      {
+        "sheet": "Yanıtlar",
+        "row": 247,
+        "id": "eindhoven:inburgering-ucretleri-duo-kredisi",
+        "title": "Inburgering (uyum kursu ve sınavı) ne kadar tutar, nasıl ödenir?",
+        "first_sentence": "Inburgering (Hollanda'ya uyum) kursu ve sınavları ücretlidir; nasıl ödeyeceğin inburgering'e ne zaman başlaman gerektiği…"
+      }
+    ]
+  },
+  "action_links": {
+    "skipped": false,
+    "checked": 409,
+    "missing": 0,
+    "map_only": 0,
+    "no_id": 0,
+    "items": []
+  },
+  "visual_json": {
+    "total": 289,
+    "empty": 283,
+    "valid": 6,
+    "by_error": {},
+    "errors": []
+  },
+  "caption_is_title": {
+    "count": 0,
+    "total": 164,
+    "items": []
+  }
+}

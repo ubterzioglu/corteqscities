@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Rugby Club Eindhoven</title>
+
+    <link rel="stylesheet" href="libaries/bootstrap.min.css">
+    <script src="libaries/jquery.min.js"></script>
+    <script src="libaries/popper.min.js"></script>
+    <script src="libaries/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/general.css">
+    <link rel="icon" href="content/logo-rugbyclubeindhoven.png">
+</head>
+
+<body>
+
+
+
+<div class="container main-container">
+
+    <nav style="background-color: white; border-radius: 10px;" class="navbar navbar-expand-md fixed-top-sm d-flex align-items-center flex-nowrap">
+            <div class="container">
+                <div class="row w-100 align-items-center">
+                    <div class="col d-none d-md-block">
+                    <a href="http://www.sponsorkliks.com/winkels.php?club=5683"><img src="content/licht_100_100.gif" alt="RCE" /></a>
+                    </div>
+                    <div class="col text-center">
+                    <a href="index.php"><img src="content/logo-rugbyclubeindhoven.png" alt="RCE" /></a>
+                    </div>
+                    <div class="col d-none d-md-block">
+                        <div class="row">
+                            <div class="col-4">
+                                <a href="https://www.facebook.com/RugbyClubEindhoven" class="fa fa-facebook"></a>
+                            </div>
+                            <div class="col-4">
+                                <a href="https://www.instagram.com/rugbyclubeindhoven/?hl=nl" class="fa fa-instagram"></a>
+                            </div>
+                            <div class="col-4">
+                                <a href="https://www.youtube.com/channel/UC3MV8x3MvdiO6ekRRJL8_6w" class="fa fa-youtube"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button id="navButton" class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbar2">
+                <span class="navbar-toggler-icon"><a>=</a></span>
+            </button>
+        </nav>
+        <nav style="" class="navbar navbar-expand-md">
+            <div class="navbar-collapse collapse pt-2 pt-md-0" id="navbar2">
+                <ul class="navbar-nav mx-auto">
+                <li class="nav-item nav-item-border dropdown">
+                        <a class="nav-link" id="navbarDropdown" role="button" data-toggle="dropdown">De Club &#9661;</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="generalInformation.php">Algemene Informatie</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="houserules.php">Huishoudelijk Regelement</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="corevalues.php">Kernwaarden</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="clubsong.php">Clublied</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="trustperson.php">Vertrouwenscontactpersoon</a>
+                            <!--
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="comissions.php">Commissies</a>
+                            -->
+                        </div>
+                    </li>
+                    <li class="nav-item nav-item-border">
+                        <a class="nav-link" href="agenda.php">Agenda</a>
+                    </li>
+                    <li class="nav-item nav-item-border dropdown">
+                        <a class="nav-link" id="navbarDropdown" role="button" data-toggle="dropdown">Nieuwe Leden &#9661;</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="whatisrugby.php">Wat is rugby?</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="information.php">Informatie</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="contribution.php">Contributie</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="register.php">Inschrijven!</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown nav-item-border">
+                        <a class="nav-link nav-item-border" id="navbarDropdown" role="button" data-toggle="dropdown">Teams &#9661;</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="team.php?team=heren1">Heren  1</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="team.php?team=dames">Dames</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="team.php?team=colts">Colts (U18)</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="team.php?team=junioren">Junioren (U16)</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="team.php?team=cubs">Cubs (U14)</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="team.php?team=minis">Mini's (U12)</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="team.php?team=benjamins">Benjamin's (U10)</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="team.php?team=turven">Turven (U8)</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="team.php?team=guppen">Guppen (U6)</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="team.php?team=walkingRugby">Walking Rugby</a>
+							<div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="team.php?team=touch">Touch</a>
+                        </div>
+                    </li>
+                    <li class="nav-item nav-item-border">
+                        <a class="nav-link" href="sponsors.php">Sponsoren</a>
+                    </li>
+                    <li class="nav-item nav-item-border">
+                        <a class="nav-link" href="news.php">Nieuws</a>
+                    </li>
+                    <li class="nav-item nav-item-border">
+                        <a class="nav-link" href="contact.php">Contact</a>
+                    </li>
+                    <li class="nav-item nav-item-border">
+                        <a class="nav-link" href="vacatures.php">Vacatures</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" id="navbarDropdown" role="button" data-toggle="dropdown">
+                            <img style="width: 24px; height: 24px;" src="content/nl.svg">                        </a>
+                        <div class="dropdown-menu" style="min-width: 40px;" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item"  href="?lang=nl"><img style="width: 24px; height: 24px;" src="content/nl.svg"></a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="?lang=en"><img style="width: 24px; height: 24px;" src="content/gb.svg"></a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    <div class="row d-none d-lg-block justify-content-center">
+        <div class="col align-items-center my-5">
+            <div id="demo" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ul class="carousel-indicators">
+                    <li data-target="#demo" data-slide-to="0" class="active"></li>
+                    <li data-target="#demo" data-slide-to="1"></li>
+                    <li data-target="#demo" data-slide-to="2"></li>
+                </ul>
+
+                <!-- The slideshow -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active" style="width:1100px; height: 500px;">
+                        <img src="content/img1.jpeg" style="width: 100%; max-height: 100%;" alt="First slide">
+                    </div>
+                    <div class="carousel-item" style="width:1100px; height: 500px;">
+                        <img src="content/img2.jpeg" style="width: 100%; max-height: 100%;" alt="Second slide">
+                    </div>
+                    <div class="carousel-item" style="width:1100px; height: 500px;">
+                        <img src="content/img3.jpeg" style="width: 100%; max-height: 100%;" alt="Third slide">
+                    </div>
+                </div>
+
+                <!-- Left and right controls -->
+                <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#demo" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-4">
+            <div style="text-align: center;" class="card">
+                <div class="card-header">
+                    <h3>Super Sunday</h3>
+                </div>
+                <div class="card-body">
+                    <h5 class=\"card-title\">Helaas is dit momenteel niet bekend</h5>                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-4">
+            <div style="text-align: center; margin-bottom: 10px; margin-top: 10px;" class="card">
+                <div class="card-header">
+                    <h3>Thuis Wedstrijd</h3>
+                </div>
+                <div class="card-body">
+                    <p class="card-text">De eerst volgende thuis wedstrijd is op:</p>
+                    <h5 class=\"card-title\">Zaterdag, 31 Oktober 11:00</h5><h5 class=\"card-title\">Cubs: CL EindOcto CU 1 vs CL Oysters/Dordtsche CU 1</h5><p><small style="font-weight: bold;">*Informatie kan afwijken, controleer altijd met de informatie van de bond.</small></p>                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-4">
+            <div style="text-align: center;" class="card">
+                <div class="card-header">
+                    <h3>Super Saturday</h3>
+                </div>
+                <div class="card-body">
+                    <h5 class=\"card-title\">Zaterdag, 31 Oktober</h5><h5 class=\"card-title\">13:00 :  Colts vs RC Delft CO 1</h5><h5 class=\"card-title\">12:00 :  Junioren vs EZRC Oemoemenoe JU 1</h5><h5 class=\"card-title\">11:00 :  Cubs  vs CL Oysters/Dordtsche CU 1</h5>                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="row justify-content-center"
+         style="background-color: #f1f1f1; margin-top: 20px; margin-bottom: 20px;">
+        <div class="card text-white my-3 py-2 text-center">
+            <div class="card-body">
+                <h3 style="color: grey;">Rugbyclub Eindhoven is een trotse vereniging waar voor iedereen een plekje is!</h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-8">
+            <p>Wees welkom bij Rugbyclub Eindhoven!</p>
+		<p>Rugbyclub Eindhoven, ook wel afgekort met RCE, is een sterk groeiende vereniging gelegen op het mooie sportcomplex Eindhoven Noord.
+		Opgericht in 1929 mogen we ons met trots tot een van de 5 oudste rugby clubs van Nederland rekenen.</p>
+
+		<p>Traditie, ambitie & samen zijn de kernwaarden waar we ons binnen RCE op richten. We houden vast aan tradities zoals de derde helft, hebben ambities op zowel sportief vlak als ontwikkeling van onze jeugdopleiding maar willen het vooral samen doen. Samen werken met onze leden maar vooral ook samen binnen onze stad!</p>
+
+		<p>Resultaat is dat we vorig jaar tot de zes beste verenigingen van Eindhoven behoorde.</p>
+
+		<p>Samengevat is Rugbyclub Eindhoven een trotse vereniging waar voor iedereen een plekje is.</p>        </div>
+
+        <div class="col-sm-3">
+            <div class="row">
+                <h2>Nieuws:</h2>
+                            </div>
+
+            <div class="row mt-2">
+                <h2>Evenementen:</h2>
+
+                <div class="row" style="margin-top:10px;  word-wrap: break-word;border: 1px solid rgba(0,0,0,.125);border-radius: 0.25rem;">
+                    <div class style="width:350px; background-color: #f1f1f1; padding: 0.5rem;">
+                        <h5>Mosselavond | Zaterdag, 14 November </h5><h5>Clubhuis | All</h5>                    </div>
+                </div>
+
+                <p>Kijk voor meer evenementen op de <a href="agenda.php">agenda</a> pagina!</p>
+
+
+            </div>
+        </div>
+
+
+    </div>
+</div>
+
+
+<footer class="py-5 bg-dark" style="margin-top: 20px;">
+        <div class="container">
+
+            <div class="row">
+                <div style="color: white;" class="col">
+                    <h3>Contact</h3>
+                    <p>Email: secretaris@rugbyclubeindhoven.nl</p>
+                    <a href="https://www.facebook.com/RugbyClubEindhoven" class="fa fa-facebook"></a>
+                    <a href="https://www.instagram.com/rugbyclubeindhoven/?hl=nl" class="fa fa-instagram"></a>
+                    <a href="https://www.youtube.com/channel/UC3MV8x3MvdiO6ekRRJL8_6w" class="fa fa-youtube"></a>
+                    <a href="http://www.sponsorkliks.com/winkels.php?club=5683"><img style="height: 70px; width: 80px; margin-bottom: 12px;" src="content/licht_100_100.gif" alt="RCE" /></a>
+                    <p style="margin-top: 20px;">Copyright &copy; 2026 Rugby Club Eindhoven. All Rights Reserved.</p>
+                </div>
+
+                <div style="color: white;" class="col">
+                    <h3>Locatie</h3>
+ <p>Bezoekadres: Sportcomplex Eindhoven-Noord</br>Parkeerterrein aan Vijfkamplaan 29, 5624 EB Eindhoven</p>
+ <p>Postadres: Postbus 778, 5600 AT Eindhoven</p>                </div>
+            </div>
+
+        </div>
+    </footer>
+
+</body>
+
+</html>

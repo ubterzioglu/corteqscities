@@ -1,0 +1,74 @@
+{
+ "topic": "aile",
+ "order_range": [
+  901,
+  999
+ ],
+ "audit": [
+  {
+   "claim_id": "EIN-ID-004",
+   "entry_id": "eindhoven:leerplicht-vrijstelling-basvurusu",
+   "Excel_satırı": 0,
+   "iddia": "Muafiyet gerekçesi: 'ebeveynin eğitimin yönüne karşı ciddi itirazları varsa'.",
+   "ülke_şehir_statü": "Eindhoven; okul çağı çocuğun ebeveyni",
+   "dönem": "2026",
+   "resmî_URL": "https://www.eindhoven.nl/inkomen-zorg-en-onderwijs/onderwijs/leerplicht-en-rmc/leerplicht-en-kwalificatieplicht",
+   "kaynak_bölümü": "Kan mijn kind vrijstelling van schoolinschrijving krijgen?",
+   "yayın_yürürlük_tarihleri": "",
+   "kontrol_tarihi": "2026-10-22",
+   "hesap_varsa_girdiler": "",
+   "sonuç": "eksik_koşul",
+   "belirsizlik": "'Richting' hukuki terim (okulun dinî/dünya görüşü yönelimi); 'eğitimin yönü' çevirisi okura öğretim yöntemi veya kalite itirazı da sayılır izlenimi verebilir. Kaynak terimi ayrıca tanımlamıyor.",
+   "alıntı": "Je hebt als ouder zwaarwegende bedenkingen tegen de richting van het onderwijs.",
+   "doğrusu": "Ebeveyn olarak, okulların dinî/dünya görüşü yönelimine ('richting van het onderwijs') karşı ciddi itirazınız varsa."
+  },
+  {
+   "claim_id": "EIN-ID-010",
+   "entry_id": "eindhoven:cocugu-tanima-erkenning",
+   "Excel_satırı": 0,
+   "iddia": "İlk çocuğu tanırken aynı randevuda soyadı da seçilir; tanıma ve soyadı seçimi ücretsiz (koşulsuz anlatılmış).",
+   "ülke_şehir_statü": "Eindhoven; Hollanda vatandaşı olmayan ebeveynler (ör. Türk-Türk çift)",
+   "dönem": "2026",
+   "resmî_URL": "https://www.eindhoven.nl/stad-en-wonen/levensgebeurtenissen/erkenning-kind-en-adoptie",
+   "kaynak_bölümü": "Kan ik de achternaam van mijn kind(eren) kiezen?",
+   "yayın_yürürlük_tarihleri": "",
+   "kontrol_tarihi": "2026-10-22",
+   "hesap_varsa_girdiler": "",
+   "sonuç": "eksik_koşul",
+   "belirsizlik": "Kaynaktaki ikinci koşul: 'Tenminste 1 van de ouders heeft de Nederlandse nationaliteit.' Türk okur kitlesi için önemli kapsam eksiği.",
+   "alıntı": "Voor het kunnen kiezen van de achternaam van je kind (naamskeuze) gelden deze voorwaarden: Het kind heeft, of de kinderen hebben, de Nederlandse nationaliteit.",
+   "doğrusu": "Soyadı seçimi (naamskeuze) bu sayfaya göre yalnız çocuk Hollanda vatandaşıysa ve ebeveynlerden en az biri Hollanda vatandaşıysa yapılabilir. İki ebeveyn de Türk vatandaşıysa bu adım size uygulanmayabilir; randevudan önce 14 040'a sorun."
+  },
+  {
+   "claim_id": "EIN-ID-011",
+   "entry_id": "eindhoven:cocugu-tanima-erkenning",
+   "Excel_satırı": 0,
+   "iddia": "1 Ocak 2023'ten beri tanımayla ortak velayet (gezag) ayrıca istenmeden gelir (istisnasız).",
+   "ülke_şehir_statü": "Eindhoven; evli olmayan ebeveynler",
+   "dönem": "2026",
+   "resmî_URL": "https://www.eindhoven.nl/stad-en-wonen/levensgebeurtenissen/erkenning-kind-en-adoptie",
+   "kaynak_bölümü": "Stap voor stap / Wat neem ik mee naar de afspraak?",
+   "yayın_yürürlük_tarihleri": "",
+   "kontrol_tarihi": "2026-10-22",
+   "hesap_varsa_girdiler": "",
+   "sonuç": "eksik_koşul",
+   "belirsizlik": "İkinci istisna aynı sayfada: 'Voor kinderen die vóór 1 januari 2023 zijn erkend en die na 1 januari 2023 worden geboren moeten de ouders nog zelf het gezag aanvragen.'",
+   "alıntı": "Als de moeder niet wil dat de erkenner het gezag automatisch krijgt, moet ze persoonlijk aan de balie komen voor de erkenning.",
+   "doğrusu": "1 Ocak 2023'ten beri tanımayla ortak velayet kendiliğinden gelir. İstisnalar: anne bunu istemiyorsa tanıma randevusuna bizzat gelmelidir; 1 Ocak 2023'ten önce tanınıp bu tarihten sonra doğan çocuklarda velayet hâlâ ayrıca istenmelidir."
+  }
+ ],
+ "new_sources": [
+  {
+   "source_id": "eindhoven:kaynak:218",
+   "url": "https://www.rijksoverheid.nl/themas/onderwijs/schooladvies-en-doorstroomtoets-basisschool/toelating-voortgezet-onderwijs-gebaseerd-op-definitief-schooladvies",
+   "title": "Schooladvies toelating voortgezet onderwijs | Rijksoverheid.nl",
+   "text_file": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\eindhoven\\_is\\snap\\01ef92536756bef0ca7047badb78daaacffb48eb8b5d00cfea988a0740651670.txt",
+   "gap": "G17 ortaokula geçiş (schooladvies, VMBO/HAVO/VWO) — rijksoverheid."
+  }
+ ],
+ "extra_sources": [],
+ "special": [
+  "G11 (kinderbijslag tutarları) kaynağına erişilemedi; tutar YAZMA, kartta yalnız kaynağın dediğini bırak."
+ ],
+ "own_sources_file": "_is\\yazar\\aile_kaynaklar.jsonl"
+}

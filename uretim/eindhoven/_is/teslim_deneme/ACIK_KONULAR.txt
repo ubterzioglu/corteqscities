@@ -1,0 +1,29 @@
+AÇIK KONULAR
+- Envanter: ext_mismatch — 156 (örnek: {"path": "Teslimler/.download-cache/0079dd0ab063f273d3462852b22029db19e98a61cb8b96a2c005957e42846ddb.image", ")
+- Fotoğrafsız mekân/mahalle: 60 (örnek: eindhoven:philips-historische-producten)
+- Fotoğrafsız mekân/mahalle: 2 (örnek: eindhoven:woensel-west-mahallesi)
+- Berlin alt sınırının altında: Farklı mekân fotoğrafı 156/187
+- ek kontrol, resmî sayıya dahil değil: placeholders — 1
+- ek kontrol, resmî sayıya dahil değil: shared_coordinates — 3
+- Envanter: dup_sha — 156 (örnek: {"sha256": "0057f9399694b6f6a98ac404826a0ba3660f69d8386fe2671533a161bc7a19c2", "files": ["Fotoğraflar/eindhove)
+- Hedef eksik: Gerçek mekân 104/120 — hedefin altında (alt sınırın üstünde)
+- [P1] IND-STANDSTILL: Türk vatandaşlarında inburgering (diploma) muafiyetinin yalnız 'aile bireyi olarak kaldıktan sonra süresiz insani oturum'a ait olduğu IND haber metninin yorumuna dayanıyor (denetçi ve editör aynı okudu). İnsan kontrolü gerekli. (kanıt: _is/denetim/iddia_denetimi.jsonl; sorumlu: insan)
+- [P1] IND-TURK-ESIK: IND gelir/maaş eşiklerinin Ortaklık Anlaşması kapsamındaki Türk vatandaşlarına uygulanıp uygulanmadığı kaynaklarda yok; kartlar yalnız 'tablo uyruk ayrımı yapmıyor' diyor. Uzman/insan kontrolü gerekli. (kanıt: _is/claims/oturum.jsonl; sorumlu: insan)
+- [P1] SRC-ACCESS: 4 resmî sayfaya script erişemedi (403 / yönlendirme döngüsü / TLS): www.werk.nl, www.svb.nl, www.museumkaart.nl, www.eindhoven.nl. Erişim teyidi açık; bu sayfalardan bilgi yazılmaz. (kanıt: _is/kaynak_acik.json; sorumlu: ai)
+- [P1] SVB-ERISIM: Kinderbijslag tutarları (G11) ve Türkiye–Hollanda sosyal güvenlik anlaşması (G23) için SVB sayfaları script'e 403 veriyor; kartlarda tutar yok. Tarayıcıdan bakılıp eklenmeli. (kanıt: _is/kesif/gap_check.json; sorumlu: insan)
+- [P2] CELISKI-BEBEK-SIGORTA: Bebeğin sigorta kaydı: government.nl 'dört aylıktan itibaren', rijksoverheid 'doğumdan sonra 4 ay içinde'; aile kartı rijksoverheid'e göre. (kanıt: _is/claims/aile.jsonl; sorumlu: ai)
+- [P2] CELISKI-EHLIYET: Ehliyet değişimi sürerken araç kullanma: Eindhoven belediyesi ile RDW farklı; kartta ikisi ayrı verildi. (kanıt: _is/denetim/iddia_denetimi.jsonl; sorumlu: ai)
+- [P2] CELISKI-KIRA-ARTIS: Yıllık kira artış sınırı: belediye 'CAO + %1', government.nl 'enflasyon + %1'; kartta devlet kaynağı esas. (kanıt: _is/claims/ev.jsonl; sorumlu: ai)
+- [P2] CELISKI-LAHEY-KAYIT: Yurt dışı evliliğin Lahey'de kaydı: IND kimseyi sınırlamıyor, Eindhoven belediyesi Hollanda vatandaşlığı şartı koşuyor; kart IND metnine göre. (kanıt: _is/claims/planlama.jsonl; sorumlu: insan)
+- [P2] CELISKI-SIGORTA-PRIM: Geç sağlık sigortasında geriye dönük prim: HEC South ile government.nl çelişiyor; kartta resmî kaynak esas, diğeri ayrıca belirtildi. (kanıt: _is/denetim/iddia_denetimi.jsonl; sorumlu: ai)
+- [P2] INBURGERING-UCRET: Inburgering sınav fiyatında iki tablo (MAP 250 / ONA 290 €) hangi programa ait etiketsiz; kart tutar vermiyor (text_quality 'evasive' 1). (kanıt: _is/text_quality.json; sorumlu: ai)
+- [P2] IND-DINAMIK: IND kaynak 019/026/027/028/030/031 yalnız giriş metni veriyor (koşullar dinamik); partner izni yaş/belge şartları gibi ayrıntılar kartlarda yok. (kanıt: _is/kaynak_dizini.jsonl; sorumlu: ai)
+- [P2] MAHALLE-KARPEN-KAYNAK: karpendonkse-plas sayfası ince/kopyasız; tongelre-bolgesi ve karpen-mahallesi kartlarında 2 bağlantı + 2 iddia bu kaynağa dayanıyor, değiştirilecek. (kanıt: _is/snap_mahalle/eklenen.json; sorumlu: ai)
+- [P2] MAHALLE-TICARI-KAYNAK: Mahalle kartlarında konut/ulaşım/yaşam ritmi için ticari Expatica ve Expat Arrivals kullanıldı (kartta atıf var); resmî kaynakla değiştirilmesi veya denetim kararı gerekli. (kanıt: _is/claims/mahalle.jsonl; sorumlu: ai)
+- [P2] MEKAN-HEDEF: 104 mekan (asgari 92, hedef 120): 16 reddedilen mekan icin resmi sayfa/yedek bulunamadi (yedek_karar.jsonl). Doga 9, Muzeler 10, Yeme-icme 10. (kanıt: _is/mekan/yedek_karar.jsonl; sorumlu: ai)
+- [P2] MEKAN-ORTAK-KOORD: 3 cift ayni koordinat: kazerne/kazerne-expo, 18-septemberplein/centrale-markt, brouwerij-het-veem/str-eat (ayni bina/meydan). Foto asamasinda ayni kare iki karta verilmemeli. (kanıt: _is/val_ara.json; sorumlu: ai)
+- [P2] SRC-404: 7 aday adres yok (404; ajanların tahmin ettiği adresler). Kaynak listesinden çıkarıldı, kullanılmayacak. (kanıt: _is/kaynak_acik.json; sorumlu: ai)
+- [P2] SRC-THIN: 6 sayfanın metni çok kısa (JS ile yükleniyor veya kısa sayfa). Bu sayfalardan bilgi yazılmaz. (kanıt: _is/kaynak_acik.json; sorumlu: ai)
+- [P2] TESLIMAT-ID: Şablondaki delivery_id 'CITY-039-v001' büyük harfti; resmî doğrulayıcı küçük harf istiyor. Bizim kopyamızda 'city-039-v001' yapıldı (Atınç'ın aslı değişmedi). Atınç'a bildirilecek. (kanıt: _is/sablon_dump_full/Teslimat.jsonl; sorumlu: atinc)
+
+Editör ve hak incelemesi ayrıca gereklidir.

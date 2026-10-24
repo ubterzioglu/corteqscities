@@ -1,0 +1,46 @@
+{
+  "map": {
+    "https://www.usa.gov/who-can-vote": "bakersfield:kaynak:647",
+    "https://www.whitehouse.gov/presidential-actions/2026/09/restriction-on-entry-of-certain-nonimmigrant-workers/": "bakersfield:kaynak:692",
+    "https://www.whitehouse.gov/presidential-actions/2025/12/restricting-and-limiting-the-entry-of-foreign-nationals-to-protect-the-security-of-the-united-states/": "bakersfield:kaynak:693",
+    "https://www.ecfr.gov/api/renderer/v1/content/enhanced/2026-10-20/title-8?part=245&section=245.5": "bakersfield:kaynak:694",
+    "https://www.ecfr.gov/api/renderer/v1/content/enhanced/2026-10-20/title-22?part=42&section=42.66": "bakersfield:kaynak:695",
+    "https://www.ecfr.gov/api/renderer/v1/content/enhanced/2026-10-20/title-8?part=106&section=106.2": "bakersfield:kaynak:696",
+    "https://www.ecfr.gov/api/renderer/v1/content/enhanced/2026-10-20/title-8?part=106&section=106.1": "bakersfield:kaynak:697",
+    "https://www.ecfr.gov/api/renderer/v1/content/enhanced/2026-10-20/title-8?part=214&section=214.13": "bakersfield:kaynak:698",
+    "https://www.ecfr.gov/api/renderer/v1/content/enhanced/2026-10-20/title-8?part=214&section=214.2": "bakersfield:kaynak:699",
+    "https://www.csub.edu/isp/current-students-work-authorization.shtml": "bakersfield:kaynak:700",
+    "https://www.csub.edu/isp/campus-employment.shtml": "bakersfield:kaynak:701",
+    "https://www.justice.gov/crt/types-discrimination": "bakersfield:kaynak:702",
+    "https://www.justice.gov/crt/filing-charge": "bakersfield:kaynak:703"
+  },
+  "rejected": [
+    {
+      "url": "https://www.ecfr.gov/api/renderer/v1/content/enhanced/2026-10-20/title-8?part=265&section=265.1",
+      "why": "kopya yok/ince (status 200)"
+    }
+  ],
+  "fetch": {
+    "status": "findings",
+    "urls": 14,
+    "fetched": 14,
+    "saved": 14,
+    "failed": 0,
+    "thin_text": 1,
+    "soft_404": 0,
+    "evidence_checked": 0,
+    "evidence_missing": 0,
+    "evidence_stale": 0,
+    "evidence_from_index": 0,
+    "must_contain_unmatched": 0,
+    "non_html": 0,
+    "truncated": 0,
+    "skipped": 0,
+    "index_rows": 14,
+    "index_kept": 0,
+    "requests_made": 22,
+    "cache_hits": 1,
+    "retry_transient": true,
+    "index": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\bakersfield\\_is\\snap_oturum-editor1\\index.jsonl"
+  }
+}

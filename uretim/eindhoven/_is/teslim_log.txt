@@ -1,0 +1,41 @@
+
+===== foto secim birlestir =====
+{"venue_photos": 201, "covers": 8, "entries_with_photo": 58, "dropped": {"ikinci_goz_red": 11}}
+
+===== indirme plani =====
+{"selected": 209, "planned": 209, "dropped": 0, "drop_examples": []}
+
+===== indirme (resmi kuyruk, UTF-8, yeniden deneme) =====
+deneme 1 : {"completed": 209, "unique_urls": 201, "rights_approval_granted": false}
+
+===== foto satirlari =====
+{"photos": 209, "roles": {"Mekân": 201, "Kapak": 8}, "missing_download": 0, "entries_with_photo": 58}
+
+===== kullanilmayan foto dosyalari (plan disi) temizligi =====
+silinen 0 kalan 209
+
+===== birlestir =====
+{"rows": {"Yanıtlar": 289, "Mekânlar": 104, "Mahalleler": 16, "Bağlantılar": 562, "Adımlar": 10, "Rotalar": 12, "Sözlük": 60, "SayfaAlanları": 23, "Fotoğraflar": 209, "Kanıtlar": 209, "FotoğrafKaynakları": 209, "Şehir": 1}, "per_topic": {"aile": 23, "ev": 25, "fatura": 23, "gunluk": 22, "is": 26, "kesif": 22, "oturum": 26, "para": 24, "planlama": 23, "resmi": 26, "saglik": 26, "ulasim": 23}, "places_by_group": {"Müzeler": 10, "Sanat ve sergiler": 16, "Çocuklarla keşif": 16, "Sahne ve müzik": 14, "Spor": 14, "Doğa ve açık hava": 9, "Yeme ve içme": 10, "Tarih ve mimari": 15}, "sources_used": 352, "claims": 5598, "quote_miss": 0, "issue_kinds": {}}
+
+===== kaynak kopyalari =====
+{"sources": 352, "with_snapshot": 352, "copied": 0, "removed_unused": 0, "missing": []}
+
+===== Excel (TAM; --partial yok) =====
+{"rows_written":{"Adımlar":10,"Bağlantılar":562,"FotoğrafKaynakları":209,"Fotoğraflar":209,"Kanıtlar":209,"Kaynaklar":352,"Konular":12,"Mahalleler":16,"Mekânlar":104,"Rotalar":12,"SayfaAlanları":23,"Sözlük":60,"Yanıtlar":289,"Şehir":1},"rejected":0,"deduped":0,"defaults_applied":0,"fidelity":"ok","fidelity_accepted":["zip part removed by openpyxl: xl/sharedStrings.xml","zip part added by openpyxl: docProps/app.xml","zip part added by openpyxl: docProps/core.xml"],"out":"C:\\temp_private\\corteqs\\0000_newera\\uretim\\eindhoven\\paket\\CITY-039_eindhoven_v001.xlsx"}
+
+===== kalite kapilari =====
+{"tool":"validate_all","mode":"audit","new_content":true,"structure":{"errors":0,"warnings":689},"media":{"errors":0},"minimum_gaps":{},"error_classes":[],"media_classes":[],"tolerated_duplicate_list_cells":0,"extras":{"placeholders":1,"wikipedia_labeled_official":0,"verified_without_snapshot":0,"shared_coordinates":3,"homepage_only_sources":0,"history_share":0},"extras_note":"ek kontrol, resmî sayılara dahil değil; tarih payı 15/104 (eşik 0.35, öneri)","technically_complete":true}
+{"tool":"text_quality","workbook":"CITY-039_eindhoven_v001.xlsx","exact_clusters":13,"near_clusters":9,"template_clusters":8,"shared_steps":0,"placeholders":0,"filler":0,"evasive":1,"without_action":0,"visual_json_errors":0,"caption_is_title":0,"hedge_cards":2,"hedge_share":0.0049,"exact_records":26,"short_repeat_groups":2,"repeated_sentences":23,"cards_total":409,"visual_json_empty":283,"findings":31,"out":"C:\\temp_private\\corteqs\\0000_newera\\uretim\\eindhoven\\_is\\text_quality_final.json"}
+{"claims":2139,"by_kind":{"age":234,"date":298,"duration":701,"money":396,"percent":144,"phone":81,"time":178,"weekday":107},"by_sheet":{"Sözlük":57,"Yanıtlar":2082},"entries_with_claims":275,"claims_without_source":0,"claims_with_missing_source_ids":0,"out":"C:\\temp_private\\corteqs\\0000_newera\\uretim\\eindhoven\\_is\\claims_final.jsonl"}
+{"claims":2139,"entries":275,"mode":"number","by_result":{"supported":2122,"not_in_source":17,"no_snapshot":0,"homepage_only_source":0,"no_source":0},"by_kind":{"age":{"supported":234},"date":{"not_in_source":13,"supported":285},"duration":{"supported":701},"money":{"not_in_source":4,"supported":392},"percent":{"supported":144},"phone":{"supported":81},"time":{"supported":178},"weekday":{"supported":107}},"number_only_hits":0,"source_states":{"ok":205},"snapshot_format":"toolkit","snapshots_indexed":275,"snapshots_skipped":[],"out":"C:\\temp_private\\corteqs\\0000_newera\\uretim\\eindhoven\\_is\\claim_check_final.json"}
+{"status":"findings","unique_urls":352,"relations":914,"tested":352,"classes":{"ok_200":317,"redirect_ok":35},"verdicts":{"çalışıyor":352,"bozuk":0,"erişim teyidi açık":0,"test edilmedi":0,"geçersiz":0},"flags":{"homepage_only":3,"wikipedia":0,"wikipedia_labeled_official":0,"redirected_to_homepage":2,"cross_host_redirect":6},"findings":5,"error_domains_top":{},"requests_made":0,"cache_hits":352,"out":"C:\\temp_private\\corteqs\\0000_newera\\uretim\\eindhoven\\_is\\url_check_final.json"}
+
+===== indirme onbellegi silinir (paket ici artik) =====
+silindi
+
+===== envanter + resmi teslim ciktilari (emit) + ozet =====
+{"files":763,"total_mb":199.68,"images":410,"missing":0,"sha_mismatch":0,"file_ne_original":0,"bad_ext":0,"ext_mismatch":0,"orphans":0,"dup_sha":8,"errors":0}
+{"tool":"validate_all","mode":"emit","new_content":true,"structure":{"errors":0,"warnings":689},"media":{"errors":0},"minimum_gaps":{},"error_classes":[],"media_classes":[],"tolerated_duplicate_list_cells":0,"extras":{"placeholders":1,"wikipedia_labeled_official":0,"verified_without_snapshot":0,"shared_coordinates":3,"homepage_only_sources":0,"history_share":0},"extras_note":"ek kontrol, resmî sayılara dahil değil; tarih payı 15/104 (eşik 0.35, öneri)","technically_complete":true,"emitted":["normalized-tables-v7.json","paket-kontrol-v7.json","photo-provenance-v7.json","fotograf-atiflari-v7.csv","fotograf-atif-onizleme.html"]}
+{"verdict":"DÜZELTME GEREKLİ","blocking":2,"info":5,"notes":18,"out_dir":"C:\\temp_private\\corteqs\\0000_newera\\uretim\\eindhoven\\paket\\Teslimler"}
+
+TESLIM ZINCIRI BITTI

@@ -1,0 +1,366 @@
+{
+  "schema_version": "1",
+  "city": {
+    "city_id": "bakersfield",
+    "name": "Bakersfield",
+    "country": "Amerika Birleşik Devletleri",
+    "city_code": "CITY-901"
+  },
+  "paths": {
+    "work": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\bakersfield",
+    "package_root": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\bakersfield\\paket",
+    "template_xlsx": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\bakersfield\\_is\\sablon_kaynak\\CITY-901_bakersfield_v001.xlsx",
+    "tools": "C:\\temp_private\\corteqs\\0000_newera\\araclar\\arac",
+    "delivery_xlsx": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\bakersfield\\paket\\CITY-901_bakersfield_v001.xlsx",
+    "data_dir": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\bakersfield\\_is\\data",
+    "snapshots": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\bakersfield\\_is\\snap",
+    "cache": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\bakersfield\\_is\\cache",
+    "usage_log": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\bakersfield\\_is\\phase_log.jsonl"
+  },
+  "country_pack": null,
+  "phase": "deliver",
+  "phases": {
+    "intake": {
+      "status": "done",
+      "started_at": "2026-10-23T11:22:03Z",
+      "gates": [
+        {
+          "script": "make_template",
+          "exit_code": 0,
+          "summary": {
+            "sheets": 17,
+            "self_check": "ok",
+            "city_number": 901
+          },
+          "at": "2026-10-23T11:24:55Z",
+          "report": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\bakersfield\\_is\\sablon_kaynak\\make_template.json"
+        },
+        {
+          "script": "xlsx_dump",
+          "exit_code": 0,
+          "summary": {
+            "sheets": 16,
+            "missing_sheets": [],
+            "total_rows": 2
+          },
+          "at": "2026-10-23T11:24:55Z",
+          "report": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\bakersfield\\_is\\sablon_dump"
+        },
+        {
+          "script": "validate_all",
+          "exit_code": 1,
+          "summary": {
+            "structure": {
+              "errors": 16
+            },
+            "media": {
+              "errors": 0
+            },
+            "note": "16 = sablon Sehir hatalari (turetilen sablon), beklenen"
+          },
+          "at": "2026-10-23T11:24:55Z",
+          "report": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\bakersfield\\_is\\val_sablon.json"
+        },
+        {
+          "script": "wikidata_places",
+          "exit_code": 0,
+          "summary": {
+            "items": 74,
+            "with_site": 20,
+            "with_image": 18,
+            "with_category": 12,
+            "bbox": "35.2468,35.4397,-119.1269,-118.8150"
+          },
+          "at": "2026-10-23T11:24:56Z",
+          "report": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\bakersfield\\_is\\mekan\\wikidata_aday.jsonl"
+        }
+      ],
+      "outputs": [
+        "C:\\temp_private\\corteqs\\0000_newera\\uretim\\bakersfield\\_is\\sablon.xlsx",
+        "C:\\temp_private\\corteqs\\0000_newera\\uretim\\bakersfield\\_is\\data\\Konular.jsonl",
+        "C:\\temp_private\\corteqs\\0000_newera\\uretim\\bakersfield\\_is\\yazar\\ilk5.json",
+        "C:\\temp_private\\corteqs\\0000_newera\\uretim\\bakersfield\\_is\\mekan\\wikidata_aday.jsonl"
+      ],
+      "ended_at": "2026-10-23T11:24:57Z"
+    },
+    "sources": {
+      "status": "done",
+      "started_at": "2026-10-23T11:28:01Z",
+      "gates": [
+        {
+          "script": "add_sources",
+          "exit_code": 0,
+          "summary": {
+            "topics": 12,
+            "candidates": 213,
+            "accepted": 213,
+            "rejected_final": 0,
+            "retry_ok": 1,
+            "per_topic_min": 15,
+            "kaynak_dizini_rows": 190
+          },
+          "at": "2026-10-23T11:40:31Z",
+          "report": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\bakersfield\\_is\\kaynak_dizini.jsonl"
+        }
+      ],
+      "outputs": [
+        "C:\\temp_private\\corteqs\\0000_newera\\uretim\\bakersfield\\_is\\yazar\\planlama_kaynaklar.jsonl",
+        "C:\\temp_private\\corteqs\\0000_newera\\uretim\\bakersfield\\_is\\yazar\\oturum_kaynaklar.jsonl",
+        "C:\\temp_private\\corteqs\\0000_newera\\uretim\\bakersfield\\_is\\yazar\\resmi_kaynaklar.jsonl",
+        "C:\\temp_private\\corteqs\\0000_newera\\uretim\\bakersfield\\_is\\yazar\\ev_kaynaklar.jsonl",
+        "C:\\temp_private\\corteqs\\0000_newera\\uretim\\bakersfield\\_is\\yazar\\fatura_kaynaklar.jsonl",
+        "C:\\temp_private\\corteqs\\0000_newera\\uretim\\bakersfield\\_is\\yazar\\para_kaynaklar.jsonl",
+        "C:\\temp_private\\corteqs\\0000_newera\\uretim\\bakersfield\\_is\\yazar\\saglik_kaynaklar.jsonl",
+        "C:\\temp_private\\corteqs\\0000_newera\\uretim\\bakersfield\\_is\\yazar\\is_kaynaklar.jsonl",
+        "C:\\temp_private\\corteqs\\0000_newera\\uretim\\bakersfield\\_is\\yazar\\aile_kaynaklar.jsonl",
+        "C:\\temp_private\\corteqs\\0000_newera\\uretim\\bakersfield\\_is\\yazar\\ulasim_kaynaklar.jsonl",
+        "C:\\temp_private\\corteqs\\0000_newera\\uretim\\bakersfield\\_is\\yazar\\gunluk_kaynaklar.jsonl",
+        "C:\\temp_private\\corteqs\\0000_newera\\uretim\\bakersfield\\_is\\yazar\\kesif_kaynaklar.jsonl"
+      ],
+      "ended_at": "2026-10-23T11:40:34Z"
+    },
+    "answers": {
+      "status": "done",
+      "started_at": "2026-10-23T11:41:34Z",
+      "gates": [
+        {
+          "script": "merge_package",
+          "exit_code": 0,
+          "summary": {
+            "issues": 0,
+            "quote_miss": 0,
+            "rows": {
+              "Yanıtlar": 298,
+              "Mekânlar": 94,
+              "Mahalleler": 6,
+              "Rotalar": 12,
+              "Sözlük": 60
+            }
+          },
+          "at": "2026-10-23T17:27:49Z",
+          "report": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\bakersfield\\_is\\birlestir_rapor.json"
+        },
+        {
+          "script": "text_quality",
+          "exit_code": 0,
+          "summary": {
+            "findings": 0,
+            "address_findings": 0
+          },
+          "at": "2026-10-23T17:27:49Z",
+          "report": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\bakersfield\\_is\\text_quality.json"
+        },
+        {
+          "script": "validate_all",
+          "exit_code": 1,
+          "summary": {
+            "structure_errors": 0,
+            "media_errors": 0,
+            "note": "asgari eksikler yalniz fotograf (foto fazi)"
+          },
+          "at": "2026-10-23T17:27:49Z",
+          "report": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\bakersfield\\_is\\val_ara.json"
+        }
+      ],
+      "ended_at": "2026-10-23T17:27:50Z"
+    },
+    "places": {
+      "status": "done",
+      "gates": [
+        {
+          "script": "acik_mi",
+          "exit_code": 1,
+          "summary": {
+            "mekan": 94,
+            "findings": "yalniz akiras-japanese ikinci_kaynak_yok (insan karari: sil, OI-006)"
+          },
+          "at": "2026-10-23T17:27:49Z",
+          "report": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\bakersfield\\_is\\acik_mi_rapor.json"
+        }
+      ],
+      "started_at": "2026-10-23T17:27:50Z",
+      "ended_at": "2026-10-23T17:27:50Z"
+    },
+    "photos": {
+      "status": "done",
+      "started_at": "2026-10-23T17:27:51Z",
+      "gates": [
+        {
+          "script": "photo_rows",
+          "exit_code": 0,
+          "summary": {
+            "selected": 46,
+            "venue": 38,
+            "covers": 8,
+            "entries_with_photo": 25,
+            "errors": 0
+          },
+          "at": "2026-10-23T17:40:21Z",
+          "report": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\bakersfield\\_is\\foto\\rows_rapor.json"
+        }
+      ],
+      "ended_at": "2026-10-23T17:40:22Z"
+    },
+    "assemble": {
+      "status": "done",
+      "started_at": "2026-10-23T17:40:22Z",
+      "gates": [
+        {
+          "script": "build_xlsx",
+          "exit_code": 0,
+          "summary": {
+            "rows_rejected": 0,
+            "sources": 798,
+            "links": 811,
+            "note": "yerel sablon kapasitesi genisletildi (OI-009)"
+          },
+          "at": "2026-10-23T17:50:26Z",
+          "report": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\bakersfield\\_is\\build_final.json"
+        },
+        {
+          "script": "validate_all",
+          "exit_code": 1,
+          "summary": {
+            "structure_errors": 0,
+            "media_errors": 0,
+            "minimum_gaps": {
+              "neighborhoods": "6/12",
+              "photos": "38/187"
+            }
+          },
+          "at": "2026-10-23T17:50:26Z",
+          "report": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\bakersfield\\_is\\validation.json"
+        },
+        {
+          "script": "url_check",
+          "exit_code": 1,
+          "summary": {
+            "bozuk": 1,
+            "calisiyor": 810
+          },
+          "at": "2026-10-23T17:50:26Z",
+          "report": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\bakersfield\\_is\\url_check_final.json"
+        }
+      ],
+      "ended_at": "2026-10-23T17:50:26Z"
+    },
+    "deliver": {
+      "status": "done",
+      "started_at": "2026-10-23T17:50:27Z",
+      "gates": [
+        {
+          "script": "validate_all_emit",
+          "exit_code": 1,
+          "summary": {
+            "structure_errors": 0,
+            "media_errors": 0
+          },
+          "at": "2026-10-23T17:50:56Z",
+          "report": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\bakersfield\\_is\\validation_emit.json"
+        }
+      ],
+      "ended_at": "2026-10-23T17:50:57Z"
+    }
+  },
+  "open_items": [
+    {
+      "id": "OI-001",
+      "priority": "P2",
+      "text": "Şehir.priority ve Şehir.source_url (Kapsam kaynağı) alanlarının anlamı sözleşmede tanımsız. Şehir yazarı priority=3 (Atınç şablonlarındaki değer) ve source_url = şehrin Wikidata/belediye sayfası yazacak; Atınç'ın şablonlarında source_url InterNations şehir listesi. Bilgi.",
+      "evidence": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\bakersfield\\_is\\sablon_kaynak\\make_template.json",
+      "owner": "atinc"
+    },
+    {
+      "id": "OI-002",
+      "priority": "P2",
+      "text": "CITY-901 yerel deneme numarası (Bakersfield Atınç kataloğunda aranmadı/bilinmiyor). Resmî numara gelince şablon make_template --city-number ile yeniden türetilmeli. Bilgi.",
+      "evidence": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\bakersfield\\_is\\sablon_kaynak\\make_template.json",
+      "owner": "atinc"
+    },
+    {
+      "id": "OI-003",
+      "priority": "P1",
+      "text": "Erişim teyidi açık (bot engeli 403): uscis.gov (egov dahil), travel.state.gov, state.gov, tr.usembassy.gov, dhs.gov, cbp.gov, bakersfieldcity.us (Bakersfield belediyesi), dhcs.ca.gov (Medi-Cal), hcd.ca.gov, kernha.org, kerncountylibrary.org, kernmedical.com, adventisthealth.org, kerntransit.org, ed.gov, ecfr.gov/federalregister.gov (CAPTCHA). Engel aşılmadı; içerik açık resmî kaynaklardan (usa.gov, IRS, SSA, DMV, EDD, Kern County vb.) yazılıyor. İnsan tarayıcıyla teyit etmeli.",
+      "evidence": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\bakersfield\\_is\\erisim\\deneme2_index.jsonl; C:\\temp_private\\corteqs\\0000_newera\\uretim\\bakersfield\\_is\\erisim\\deneme3_index.jsonl; C:\\temp_private\\corteqs\\0000_newera\\uretim\\bakersfield\\_is\\kesif\\gaps.json",
+      "owner": "insan"
+    },
+    {
+      "id": "OI-004",
+      "priority": "P2",
+      "text": "Erişim teyidi açık (TLS/DNS/zaman aşımı; sertifika doğrulaması kapatılmadı): cdph.ca.gov, covered.ca.gov, kerncountysheriff.org, bakersfieldpd.us, bakersfieldfire.us, calhfa.ca.gov (TLS); valleyair.org, cdss.ca.gov (zaman aşımı); cde.ca.gov (yönlendirme döngüsü); americasjobcenter.ca.gov, 211kern.org (DNS).",
+      "evidence": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\bakersfield\\_is\\erisim\\deneme2_index.jsonl; C:\\temp_private\\corteqs\\0000_newera\\uretim\\bakersfield\\_is\\erisim\\deneme3_index.jsonl",
+      "owner": "insan"
+    },
+    {
+      "id": "OI-005",
+      "priority": "P1",
+      "text": "Mahalleler 6/asgari 12 (hedef 16): Downtown, East Bakersfield, Oildale, Rosedale, Northeast, Southwest yazıldı. Westchester, Oleander-Sunset, Kern City, Haggin Oaks/Gosford, Old Stine, College Heights, Hillcrest, Rio Bravo için adını taşıyan resmî sayfa yok; belediye sitesi (bakersfieldcity.us) bot engelli; yalnız emlak siteleri ve yerel gazete (bakersfield.com, indiriciye 429/451) var. Kaynaksız kart yazılmadı.",
+      "evidence": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\bakersfield\\_is\\kesif\\mahalle\\selected.jsonl; C:\\temp_private\\corteqs\\0000_newera\\uretim\\bakersfield\\_is\\data\\parcalar\\Mahalleler.mahalle.jsonl",
+      "owner": "insan"
+    },
+    {
+      "id": "OI-006",
+      "priority": "P1",
+      "text": "İnsan kararı VERİLDİ (Barış, 23.10.2026): Akira's Japanese (bakersfield:akiras-japanese) paketten çıkarılacak. Kapanışı yalnız tek kaynak gösteriyordu (Restaurantji 'CLOSED'; Yelp başlığı 'CLOSED - Updated June 2026', sayfa açılamadı; akirabakersfield.com DNS'te çözülmüyor; 2025-2026 açık kanıtı yok). İkinci kaynak bulunamazsa açık-mı kapısı bu mekân için ikinci_kaynak_yok vermeyi sürdürür; places çıkış 1 ile kapanır (skill istisnası).",
+      "evidence": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\bakersfield\\_is\\acik_mi\\yeme_dogrulama.jsonl; C:\\temp_private\\corteqs\\0000_newera\\uretim\\bakersfield\\_is\\acik_mi_rapor.json",
+      "owner": "insan"
+    },
+    {
+      "id": "OI-007",
+      "priority": "P1",
+      "text": "Açık olduğu kanıtlanamayan 2 mekân (kapanış kanıtı da yok), kartlar turizm bürosuna atfedilerek daraltıldı ve tutuldu: Stars Theatre Restaurant (en yeni tarihli iz 2021; bmtstars.com TLS süresi dolmuş) ve Riley's Tavern (en yeni iz 2017; kendi sitesi yok). Mekân sayısı asgariye yakın (94/92). İnsan teyidi önerilir; kapalıysa çıkarılır.",
+      "evidence": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\bakersfield\\_is\\acik_mi\\sahne_dogrulama.jsonl; C:\\temp_private\\corteqs\\0000_newera\\uretim\\bakersfield\\_is\\data\\parcalar\\Mekânlar.m2.jsonl",
+      "owner": "insan"
+    },
+    {
+      "id": "OI-008",
+      "priority": "P2",
+      "text": "Rota notlarında kapalı gün eksikleri (maliyet nedeniyle düzeltme turu açılmadı): rota 003 ve 009 Bakersfield Museum of Art'ın 10 tatil kapanışını (2026: 26 Kasım, 24-25 Aralık) anmıyor; rota 008 topluluk merkezinin hafta sonu VE tatillerde kapalı olduğunu eksik yazıyor; rota 007'de salı-cumartesi önerisi Chalet Basque'a da uygulanıyor (kaynakta gün/saat yok, yalnız Pyrenees, Wool Growers ve Benji's için dayanaklı).",
+      "evidence": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\bakersfield\\_is\\denetim\\rota_dogrulama.jsonl",
+      "owner": "ai"
+    },
+    {
+      "id": "OI-009",
+      "priority": "P1",
+      "text": "Şablon kapasitesi aşıldı: resmî şablon Kaynaklar'a 500, Bağlantılar'a 800 satır alıyor; pakette 795 kaynak ve 811 bağlantı var (yazarlara kaynak bütçesi verilmedi). Kullanıcı kararıyla (Barış, 23.10.2026) YEREL şablon kopyasında Kaynaklar 800, Bağlantılar 1000 satıra genişletildi (_is\\sablon.xlsx; öncesi _is\\sablon_orijinal_kopya_kapasite_oncesi.xlsx). Atınç'ın resmî içe aktarımı kapasite fazlasını kabul etmeyebilir; yerel deneme paketidir, yüklemeden önce Atınç'a sorulmalı veya kaynaklar 500'e indirilmeli.",
+      "evidence": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\bakersfield\\_is\\build.json; C:\\temp_private\\corteqs\\0000_newera\\uretim\\bakersfield\\_is\\sablon.xlsx",
+      "owner": "atinc"
+    },
+    {
+      "id": "OI-010",
+      "priority": "P2",
+      "text": "claim_check kalanı 12 (açıklandı, biçim farkı): 11'i editörün 'Ekim 2026 itibarıyla' yazdığı ücret tablosu okuma tarihi (kaynak metinde 'Oct 20, 2026' biçimi ya da yok), 1'i Clinica Sierra Vista saati '13:00' (kaynakta '1 p.m.'). Sayı hatası değil.",
+      "evidence": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\bakersfield\\_is\\claim_check_number.json",
+      "owner": "ai"
+    },
+    {
+      "id": "OI-011",
+      "priority": "P1",
+      "text": "Fotoğraf asgarileri sağlanamadı: mekân fotoğrafı 38 (asgari 187), kapak 8 (asgari 6, tamam), yalnız 25 mekân/mahalle fotoğraflı. Commons'ta Bakersfield mekânları için az ve çoğu yanlış eşleşen aday var (439 adaydan 105 ön eleme geçti, görsel incelemede 38 temiz). Ek tur için mekânların kendi sitelerinden lisanslı fotoğraf gerekir (insan işi). İkinci göz incelemesi maliyet nedeniyle yapılmadı; city-audit'te örneklem kontrolü önerilir.",
+      "evidence": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\bakersfield\\_is\\foto\\plan_rapor.json; C:\\temp_private\\corteqs\\0000_newera\\uretim\\bakersfield\\_is\\foto\\inceleme\\review_tur1_el.jsonl",
+      "owner": "insan"
+    },
+    {
+      "id": "OI-012",
+      "priority": "P1",
+      "text": "The Ovation Theatre (Sahne ve müzik): mekânın sitesi theovationtheatre.com 23 Ekim 2026'da 'Account Suspended' gösteriyor ve /contact sayfası 404; kart sitenin 23 Ekim 2026'da alınmış kayıtlı kopyalarına (kaynak 508, 621-623) ve Ekim-Kasım 2026 tarihli gösteri bilgisine dayanıyor. Kapanış kanıtı yok ama site erişilemez; ölü bağlantı satırı çıkarıldı. İnsan teyidi önerilir (açık mı, yeni adres/site).",
+      "evidence": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\bakersfield\\_is\\snap5",
+      "owner": "insan"
+    },
+    {
+      "id": "OI-013",
+      "priority": "P2",
+      "text": "URL kontrolünde 1 bozuk adres kalıyor (K: bozuk URL 0 hedefi sağlanamadı): theovationtheatre.com/contact (kaynak 508, 404; site askıya alınmış). Kartın adres/telefon alıntıları yalnız bu sayfanın kayıtlı kopyasında; OI-012 ile birlikte insan teyidi.",
+      "evidence": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\bakersfield\\_is\\url_check_final.json",
+      "owner": "insan"
+    }
+  ],
+  "next_step": "city-audit: yeni oturumda Bakersfield paketini denetle; sonra Drive yukleme (kullanici)",
+  "sources_researched": 795,
+  "photos_downloaded": 46,
+  "delivered": {
+    "at": "2026-10-23T17:50:56Z",
+    "xlsx_sha256": "dcccc42cf0935ab8c8cae361b398ec8fa1717f9251fcfb19d6c42b39aa5a8896",
+    "inventory": "C:/temp_private/corteqs/0000_newera/uretim/bakersfield/paket/Teslimler/dosya-envanteri.json"
+  }
+}
