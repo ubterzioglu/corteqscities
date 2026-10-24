@@ -1,0 +1,9 @@
+# ES/Endülüs resmî işlemler: boşluklar ve notlar (2026-10-24)
+
+## Kart 10 (Ventanilla Electrónica / Carpeta Ciudadana)
+- Ventanilla Electrónica için güncel bir "html" yardım sayfası genel Junta düzeyinde bulunamadı; seçilen kaynak 2022 tarihli kullanıcı kılavuzu (PDF, Agencia Digital de Andalucía). Arayüz ve seçenekler değişmiş olabilir; "Cl@ve" bölümü (7.3) kılavuzda var, kartta Cl@ve ayrıntısı yazılacaksa o bölüm yeniden okunmalı. VE'nin tek giriş adresi de teyit edilmedi (veaja.cloud.juntadeandalucia.es/... örnek bağlantı arama sonucunda göründü, denenmedi).
+- Organisma-özgü VE sayfaları (Vivienda: faq-ov-ve.html; Agencia de Servicios Sociales: ved/AyudaVE) genel çerçeveyi doğruluyor (sertifika / NIF-NIE / localizador) ama kurum bazlı, seçilmedi.
+- Sede Electrónica SSS sayfası (https://www.juntadeandalucia.es/servicios/sede/sobre-sede/ayuda/paginas/preguntas-frecuentes.html) açılıyor: DNIe polis karakolundan, FNMT sertifikası internetten alınır, ayrıca Cl@ve ile kimlik doğrulanır; seçilmedi (kart sınırı 2), gerekirse eklenebilir: "Igualmente, para realizar trámites con la Administración de la Junta de Andalucía puedes identificarte a través de la plataforma Cl@ve".
+- Carpeta Ciudadana sayfası kısa bir tanıtım; yaş/uyruk şartı veya Cl@ve düzeyi yok. Cl@ve PIN/Permanente farkı için ulusal kart: clave-pin-ve-permanente-farki; FNMT sertifika: fnmt-dijital-sertifika-kurma (zaten var, tekrar yok).
+- Türk okuyucu için: NIE ile "NIF/NIE erişimi" mümkün ama yalnız form doldurup yazdırmak ve yüz yüze kayıt içindir; elektronik sunum için sertifika ya da Cl@ve gerekir. Cl@ve kaydı için NIE + TIE/kimlik belgesi ve kayıt (ulusal paket kapsıyor).
+- Açılmayan/404: juntadeandalucia.es/servicios/carpetaciudadana, sede/tramites/ventanilla.html, sede/tramites/procedimientos/detalle/20226 (1,7 KB boş kabuk, JS).
