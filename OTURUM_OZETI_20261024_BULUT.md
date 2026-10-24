@@ -1,4 +1,4 @@
-# Oturum özeti: İspanya paketi v4 → v6 (bulut oturumu, 24.10.2026)
+# Oturum özeti: İspanya paketi v4 → v7 (bulut oturumu, 24.10.2026)
 
 Önceki belgeler: `OTURUM_OZETI_20261024.md`, `OTURUM_OZETI_20261024_ISPANYA_PAKETI.md`. Bu belge onların devamıdır. Bu iş Linux bulut oturumunda yapıldı.
 
@@ -15,7 +15,8 @@
 ## Grup 3 (aile 4, ulaşım 6, günlük 5 kart) — v6
 - Akış: keşif (Sonnet) → `add_sources` (30 kaynak, hiçbiri elenmedi; `es:kaynak:112-141`) → yazar → `pack_check` → bağımsız denetim (`denetim_g3_*.md`) → editör (`degisiklik_g3_editor.jsonl`) → `pack_check`.
 - Denetim: aile 0/6/9, ulaşım 1/7/9, günlük 0/8/7 (ciddi/orta/küçük). Ciddi bulgu (yerleşik uçuş indirimi kartı AB vatandaşının Türk aile üyesini atlıyordu) Ley 17/2012 DA 13ª (`es:kaynak:141`) ile düzeltildi. Paket kartında kaynaksız "Türkiye dahil" ifadesi kaldırıldı (Gümrük Birliği belirsizliği).
-- **Grup 3 için editör sonrası ikinci (dar) denetim YAPILMADI.**
+- v7: editör sonrası dar denetim (`denetim_g3b_*.md`): 0 ciddi, 8 orta, 14 küçük; ilk denetimin ciddi/orta bulguları renfe 1.1 dışında kapandı. Editör turu 6 orta + 10 küçük uyguladı (`degisiklik_g3b_editor.jsonl`). Orkestratör taramasında iki havale cümlesi (YAZAR_KURALLARI md. 3) silindi: aile/yabanci-lise ve resmi/arac-kaydi (not alanı).
+- v7 paket: 95 kart, 1898 claim, 160 bağlantı, 126 kaynak; country_apply 95 kart, 16 test.
 
 ## Doğrulanmayanlar / açık
 - `acik_konular.md` sonundaki "G2b", "G2c" ve "Grup 3" bölümleri.
@@ -27,7 +28,7 @@
 - `pack.json` CRLF satır sonuyla yazıldı (Windows'taki gibi).
 
 ## Sıradaki iş (öneri)
-1. Grup 3 için dar bağımsız denetim (15 kart; özellikle ulaşım).
+1. Endülüs bölge katmanı (önerilen; Sevilla, Málaga, Marbella ortak).
 2. Ek kartlar: yolcu bagajı gümrük muafiyeti (AEAT sayfası canlı doğrulandı), kimlik/NIE kartı (LO 4/2015 md. 8, RD 1553/2005), convenio especial ayrıntısı (RD 576/2013 md. 3).
 3. 5.11.2026 sonrası kira kararnameleri; 1.11.2026 paket kuralı.
-4. Bölge katmanı (Andalucía) ve ilk gerçek şehir (Sevilla) — kullanıcı söyleyince.
+4. İlk gerçek şehir (Sevilla): city-pack Windows'a göre yazıldı, Linux'ta denenmedi; Windows oturumunda üretilmesi önerildi.
