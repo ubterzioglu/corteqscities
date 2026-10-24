@@ -1,0 +1,36 @@
+{
+  "map": {
+    "https://www.boe.es/buscar/act.php?id=BOE-A-2021-17915": "es-an:kaynak:003",
+    "https://www.juntadeandalucia.es/organismos/economiahaciendayfondoseuropeos/areas/tributos-juego/tributos/paginas/medidasautirpf25.html": "es-an:kaynak:004",
+    "https://www.juntadeandalucia.es/organismos/economiahaciendayfondoseuropeos/areas/tributos-juego/tributos/paginas/polit-social.html": "es-an:kaynak:005"
+  },
+  "rejected": [
+    {
+      "url": "https://www.juntadeandalucia.es/sites/default/files/2024-07/ATRIAN_GUIA_ITPAJD.pdf",
+      "why": "kopya yok/ince (status 200)"
+    }
+  ],
+  "fetch": {
+    "status": "ok",
+    "urls": 4,
+    "fetched": 4,
+    "saved": 4,
+    "failed": 0,
+    "thin_text": 0,
+    "soft_404": 0,
+    "evidence_checked": 0,
+    "evidence_missing": 0,
+    "evidence_stale": 0,
+    "evidence_from_index": 0,
+    "must_contain_unmatched": 0,
+    "non_html": 1,
+    "truncated": 0,
+    "skipped": 0,
+    "index_rows": 4,
+    "index_kept": 0,
+    "requests_made": 4,
+    "cache_hits": 0,
+    "retry_transient": true,
+    "index": "/home/user/ubterzioglu/corteqscities/ulke/ES/bolge/andalucia/_is/snap_kesif_para/index.jsonl"
+  }
+}
