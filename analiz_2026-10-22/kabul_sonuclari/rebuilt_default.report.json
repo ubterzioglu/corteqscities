@@ -1,0 +1,106 @@
+{
+  "summary": {
+    "rows_written": {
+      "Adımlar": 10,
+      "Bağlantılar": 549,
+      "FotoğrafKaynakları": 272,
+      "Fotoğraflar": 272,
+      "Kanıtlar": 272,
+      "Kaynaklar": 233,
+      "Konular": 12,
+      "Mahalleler": 16,
+      "Mekânlar": 93,
+      "Rotalar": 12,
+      "SayfaAlanları": 37,
+      "Sözlük": 85,
+      "Teslimat": 1,
+      "Yanıtlar": 247,
+      "Şehir": 1
+    },
+    "rejected": 0,
+    "deduped": 2,
+    "defaults_applied": 0,
+    "fidelity": "ok",
+    "fidelity_accepted": [
+      "zip part removed by openpyxl: xl/sharedStrings.xml",
+      "zip part added by openpyxl: docProps/app.xml",
+      "zip part added by openpyxl: docProps/core.xml"
+    ],
+    "out": "C:\\Users\\baris-terzioglu\\AppData\\Local\\Temp\\claude\\c--temp-private-corteqs-0000-newera\\00ec9fd5-286c-4f34-be5a-3d9879565806\\scratchpad\\acceptance\\rebuilt_default.xlsx"
+  },
+  "files": {
+    "Adımlar": "Adımlar.jsonl",
+    "Bağlantılar": "Bağlantılar.jsonl",
+    "EkDetaylar": "EkDetaylar.jsonl",
+    "FotoğrafKaynakları": "FotoğrafKaynakları.jsonl",
+    "Fotoğraflar": "Fotoğraflar.jsonl",
+    "Kanıtlar": "Kanıtlar.jsonl",
+    "Kaynaklar": "Kaynaklar.jsonl",
+    "Konular": "Konular.jsonl",
+    "Mahalleler": "Mahalleler.jsonl",
+    "Mekânlar": "Mekânlar.jsonl",
+    "Rotalar": "Rotalar.jsonl",
+    "SayfaAlanları": "SayfaAlanları.jsonl",
+    "Sözlük": "Sözlük.jsonl",
+    "Teslimat": "Teslimat.jsonl",
+    "Yanıtlar": "Yanıtlar.jsonl",
+    "Şehir": "Şehir.jsonl"
+  },
+  "capacities": {
+    "Adımlar": 40,
+    "Bağlantılar": 800,
+    "EkDetaylar": 200,
+    "FotoğrafKaynakları": 600,
+    "Fotoğraflar": 350,
+    "Kanıtlar": 350,
+    "Kaynaklar": 500,
+    "Konular": 30,
+    "Mahalleler": 40,
+    "Mekânlar": 180,
+    "Rotalar": 30,
+    "SayfaAlanları": 120,
+    "Sözlük": 100,
+    "Teslimat": 1,
+    "Yanıtlar": 300,
+    "Şehir": 1
+  },
+  "schema_source": "C:\\temp_private\\corteqs\\0000_newera\\araclar\\arac\\core\\content_delivery\\schema_definition.py",
+  "rejected": [],
+  "deduped": [
+    {
+      "sheet": "Yanıtlar",
+      "line": 181,
+      "row": 188,
+      "key": "source_ids",
+      "removed": 1
+    },
+    {
+      "sheet": "Yanıtlar",
+      "line": 211,
+      "row": 218,
+      "key": "source_ids",
+      "removed": 1
+    }
+  ],
+  "rows_planned": {
+    "Adımlar": 10,
+    "Bağlantılar": 549,
+    "EkDetaylar": 0,
+    "FotoğrafKaynakları": 272,
+    "Fotoğraflar": 272,
+    "Kanıtlar": 272,
+    "Kaynaklar": 233,
+    "Konular": 12,
+    "Mahalleler": 16,
+    "Mekânlar": 93,
+    "Rotalar": 12,
+    "SayfaAlanları": 37,
+    "Sözlük": 85,
+    "Teslimat": 1,
+    "Yanıtlar": 247,
+    "Şehir": 1
+  },
+  "exit_code": 0,
+  "partial": false,
+  "elapsed_s": 2.192
+}

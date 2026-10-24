@@ -1,0 +1,1546 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://corteqs.com/schemas/content-team-1.0.json",
+  "title": "Corteqs şehir içerik teslim tabloları",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "metadata": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "schema_version": {
+            "title": "Şema sürümü",
+            "type": "string",
+            "minLength": 1
+          },
+          "delivery_id": {
+            "title": "Teslimat kimliği",
+            "type": "string",
+            "minLength": 1
+          },
+          "city_id": {
+            "title": "Şehir kimliği",
+            "type": "string",
+            "minLength": 1
+          },
+          "editor": {
+            "title": "Hazırlayan",
+            "type": "string",
+            "minLength": 1
+          },
+          "reviewer": {
+            "title": "İnceleyen",
+            "type": "string"
+          },
+          "scope": {
+            "title": "Dosya kapsamı",
+            "type": "string",
+            "enum": [
+              "Tam teslim",
+              "Kısmi örnek"
+            ],
+            "minLength": 1
+          },
+          "updated_on": {
+            "title": "Dosya güncelleme tarihi",
+            "type": "string",
+            "format": "date"
+          },
+          "editorial_status": {
+            "title": "Editör durumu",
+            "type": "string",
+            "enum": [
+              "Taslak",
+              "İnceleme",
+              "Düzeltme",
+              "Onaylandı"
+            ],
+            "minLength": 1
+          },
+          "notes": {
+            "title": "Teslim notu",
+            "type": "string"
+          }
+        },
+        "required": [
+          "schema_version",
+          "delivery_id",
+          "city_id",
+          "editor",
+          "scope",
+          "updated_on",
+          "editorial_status"
+        ]
+      },
+      "minItems": 1,
+      "maxItems": 1
+    },
+    "city": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "city_id": {
+            "title": "Şehir kimliği",
+            "type": "string",
+            "minLength": 1
+          },
+          "name": {
+            "title": "Şehir adı",
+            "type": "string",
+            "maxLength": 100,
+            "minLength": 1
+          },
+          "country": {
+            "title": "Ülke",
+            "type": "string",
+            "maxLength": 100,
+            "minLength": 1
+          },
+          "country_code": {
+            "title": "Ülke kodu",
+            "type": "string",
+            "maxLength": 3,
+            "minLength": 1
+          },
+          "region": {
+            "title": "Dünya bölgesi",
+            "type": "string",
+            "enum": [
+              "EU",
+              "AS",
+              "AF",
+              "NA",
+              "SA",
+              "OC"
+            ],
+            "minLength": 1
+          },
+          "kind": {
+            "title": "Coğrafi kapsam",
+            "type": "string",
+            "enum": [
+              "city",
+              "region",
+              "island",
+              "country"
+            ],
+            "minLength": 1
+          },
+          "title": {
+            "title": "Rehber başlığı",
+            "type": "string",
+            "maxLength": 160,
+            "minLength": 1
+          },
+          "intro": {
+            "title": "Rehber giriş metni",
+            "type": "string",
+            "maxLength": 350,
+            "minLength": 1
+          },
+          "currency": {
+            "title": "Para birimi kodu",
+            "type": "string",
+            "minLength": 1
+          },
+          "currency_symbol": {
+            "title": "Para simgesi",
+            "type": "string"
+          },
+          "currency_label": {
+            "title": "Para birimi adı",
+            "type": "string"
+          },
+          "language": {
+            "title": "Yerel dil",
+            "type": "string",
+            "minLength": 1
+          },
+          "timezone": {
+            "title": "Saat dilimi",
+            "type": "string",
+            "minLength": 1
+          },
+          "latitude": {
+            "title": "Enlem",
+            "type": "number",
+            "minimum": -90,
+            "maximum": 90
+          },
+          "longitude": {
+            "title": "Boylam",
+            "type": "number",
+            "minimum": -180,
+            "maximum": 180
+          },
+          "coordinate_source_url": {
+            "title": "Konum kaynağı",
+            "type": "string",
+            "format": "uri"
+          },
+          "coordinate_checked_on": {
+            "title": "Konum kontrol tarihi",
+            "type": "string",
+            "format": "date"
+          },
+          "coordinate_note": {
+            "title": "Konum açıklaması",
+            "type": "string"
+          },
+          "source_url": {
+            "title": "Kapsam kaynağı",
+            "type": "string",
+            "format": "uri"
+          },
+          "source_checked_on": {
+            "title": "Kapsam kontrol tarihi",
+            "type": "string",
+            "format": "date"
+          },
+          "source_position": {
+            "title": "Katalog sıra numarası",
+            "type": "integer",
+            "minimum": 0
+          },
+          "reviewed_on": {
+            "title": "Rehber kontrol tarihi",
+            "type": "string",
+            "format": "date"
+          },
+          "priority": {
+            "title": "Öncelik",
+            "type": "integer",
+            "minimum": 0
+          },
+          "aliases": {
+            "title": "Diğer adlar",
+            "type": "string"
+          },
+          "locality": {
+            "title": "Yerel ad",
+            "type": "string"
+          },
+          "tagline": {
+            "title": "Şehir cümlesi",
+            "type": "string"
+          },
+          "directory_order": {
+            "title": "Şehir dizini sırası",
+            "type": "integer",
+            "minimum": 0
+          },
+          "forecast_url": {
+            "title": "Hava tahmini bağlantısı",
+            "type": "string",
+            "format": "uri"
+          },
+          "provider_url": {
+            "title": "Hava veri sağlayıcısı",
+            "type": "string",
+            "format": "uri"
+          },
+          "forecast_label": {
+            "title": "Tahmin bağlantı metni",
+            "type": "string"
+          },
+          "hero_photo_id": {
+            "title": "Ana kapak kimliği",
+            "type": "string"
+          },
+          "editorial_notes": {
+            "title": "Editoryal şehir notları",
+            "type": "string"
+          },
+          "editorial_status": {
+            "title": "Editör durumu",
+            "type": "string",
+            "enum": [
+              "Taslak",
+              "İnceleme",
+              "Düzeltme",
+              "Onaylandı"
+            ],
+            "minLength": 1
+          }
+        },
+        "required": [
+          "city_id",
+          "name",
+          "country",
+          "country_code",
+          "region",
+          "kind",
+          "title",
+          "intro",
+          "currency",
+          "language",
+          "timezone",
+          "latitude",
+          "longitude",
+          "coordinate_source_url",
+          "coordinate_checked_on",
+          "source_url",
+          "source_checked_on",
+          "source_position",
+          "reviewed_on",
+          "priority",
+          "editorial_status"
+        ]
+      },
+      "minItems": 1,
+      "maxItems": 1
+    },
+    "topics": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "topic_id": {
+            "title": "Konu kimliği",
+            "type": "string",
+            "minLength": 1
+          },
+          "city_id": {
+            "title": "Şehir kimliği",
+            "type": "string",
+            "minLength": 1
+          },
+          "slug": {
+            "title": "Konu adres adı",
+            "type": "string",
+            "minLength": 1
+          },
+          "title": {
+            "title": "Konu başlığı",
+            "type": "string",
+            "maxLength": 100,
+            "minLength": 1
+          },
+          "description": {
+            "title": "Açıklama",
+            "type": "string",
+            "maxLength": 180,
+            "minLength": 1
+          },
+          "icon": {
+            "title": "Simge anahtarı",
+            "type": "string",
+            "minLength": 1
+          },
+          "order": {
+            "title": "Sıra",
+            "type": "integer",
+            "minimum": 0
+          }
+        },
+        "required": [
+          "topic_id",
+          "city_id",
+          "slug",
+          "title",
+          "description",
+          "icon",
+          "order"
+        ]
+      }
+    },
+    "answers": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "entry_id": {
+            "title": "İçerik kimliği",
+            "type": "string",
+            "minLength": 1
+          },
+          "city_id": {
+            "title": "Şehir kimliği",
+            "type": "string",
+            "minLength": 1
+          },
+          "slug": {
+            "title": "Adres adı",
+            "type": "string",
+            "maxLength": 120,
+            "minLength": 1
+          },
+          "title": {
+            "title": "Başlık",
+            "type": "string",
+            "maxLength": 180,
+            "minLength": 1
+          },
+          "subtitle": {
+            "title": "Alt başlık",
+            "type": "string",
+            "maxLength": 160
+          },
+          "summary": {
+            "title": "Türkçe kısa yanıt / özet",
+            "type": "string",
+            "minLength": 1
+          },
+          "keywords": {
+            "title": "Arama sözcükleri",
+            "type": "string"
+          },
+          "stages": {
+            "title": "Yaşam aşamaları",
+            "type": "array",
+            "items": {
+              "type": "string",
+              "enum": [
+                "before",
+                "planning",
+                "new",
+                "settled"
+              ]
+            },
+            "uniqueItems": true
+          },
+          "source_ids": {
+            "title": "Kaynak kimlikleri",
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "uniqueItems": true
+          },
+          "reviewed_on": {
+            "title": "İçerik kontrol tarihi",
+            "type": "string",
+            "format": "date"
+          },
+          "order": {
+            "title": "Sıra",
+            "type": "integer",
+            "minimum": 0
+          },
+          "featured": {
+            "title": "Öne çıkar",
+            "type": "boolean"
+          },
+          "editorial_status": {
+            "title": "Editör durumu",
+            "type": "string",
+            "enum": [
+              "Taslak",
+              "İnceleme",
+              "Düzeltme",
+              "Onaylandı"
+            ],
+            "minLength": 1
+          },
+          "topic_id": {
+            "title": "Konu kimliği",
+            "type": "string",
+            "minLength": 1
+          },
+          "steps": {
+            "title": "İşlem adımları",
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "uniqueItems": true
+          },
+          "documents": {
+            "title": "Gereken belgeler",
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "uniqueItems": true
+          },
+          "timing": {
+            "title": "Süre / son tarih",
+            "type": "string"
+          },
+          "cost": {
+            "title": "Ücret / maliyet",
+            "type": "string"
+          },
+          "note": {
+            "title": "İstisna ve dikkat notu",
+            "type": "string"
+          },
+          "visual_json": {
+            "title": "Görsel açıklama yapısı (JSON)",
+            "type": "object"
+          }
+        },
+        "required": [
+          "entry_id",
+          "city_id",
+          "slug",
+          "title",
+          "summary",
+          "source_ids",
+          "reviewed_on",
+          "order",
+          "featured",
+          "editorial_status",
+          "topic_id",
+          "steps"
+        ]
+      }
+    },
+    "places": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "entry_id": {
+            "title": "İçerik kimliği",
+            "type": "string",
+            "minLength": 1
+          },
+          "city_id": {
+            "title": "Şehir kimliği",
+            "type": "string",
+            "minLength": 1
+          },
+          "slug": {
+            "title": "Adres adı",
+            "type": "string",
+            "maxLength": 120,
+            "minLength": 1
+          },
+          "title": {
+            "title": "Başlık",
+            "type": "string",
+            "maxLength": 180,
+            "minLength": 1
+          },
+          "subtitle": {
+            "title": "Alt başlık",
+            "type": "string",
+            "maxLength": 160
+          },
+          "summary": {
+            "title": "Türkçe kısa yanıt / özet",
+            "type": "string",
+            "minLength": 1
+          },
+          "keywords": {
+            "title": "Arama sözcükleri",
+            "type": "string"
+          },
+          "stages": {
+            "title": "Yaşam aşamaları",
+            "type": "array",
+            "items": {
+              "type": "string",
+              "enum": [
+                "before",
+                "planning",
+                "new",
+                "settled"
+              ]
+            },
+            "uniqueItems": true
+          },
+          "source_ids": {
+            "title": "Kaynak kimlikleri",
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "uniqueItems": true
+          },
+          "reviewed_on": {
+            "title": "İçerik kontrol tarihi",
+            "type": "string",
+            "format": "date"
+          },
+          "order": {
+            "title": "Sıra",
+            "type": "integer",
+            "minimum": 0
+          },
+          "featured": {
+            "title": "Öne çıkar",
+            "type": "boolean"
+          },
+          "editorial_status": {
+            "title": "Editör durumu",
+            "type": "string",
+            "enum": [
+              "Taslak",
+              "İnceleme",
+              "Düzeltme",
+              "Onaylandı"
+            ],
+            "minLength": 1
+          },
+          "group": {
+            "title": "Keşif grubu",
+            "type": "string",
+            "enum": [
+              "museum",
+              "art",
+              "stage",
+              "sport",
+              "nature",
+              "family",
+              "food",
+              "history"
+            ],
+            "minLength": 1
+          },
+          "district": {
+            "title": "Mahalle / ilçe",
+            "type": "string",
+            "minLength": 1
+          },
+          "setting": {
+            "title": "Ortam",
+            "type": "string",
+            "enum": [
+              "indoor",
+              "outdoor",
+              "mixed"
+            ],
+            "minLength": 1
+          },
+          "location": {
+            "title": "Adres / konum",
+            "type": "string",
+            "minLength": 1
+          },
+          "latitude": {
+            "title": "Enlem",
+            "type": "number",
+            "minimum": -90,
+            "maximum": 90
+          },
+          "longitude": {
+            "title": "Boylam",
+            "type": "number",
+            "minimum": -180,
+            "maximum": 180
+          },
+          "visit_status": {
+            "title": "Ziyaret durumu",
+            "type": "string"
+          },
+          "note": {
+            "title": "Ziyaret notu",
+            "type": "string"
+          },
+          "collection": {
+            "title": "Derleme / dizin",
+            "type": "boolean"
+          },
+          "media_key": {
+            "title": "Medya eşleştirme anahtarı",
+            "type": "string"
+          }
+        },
+        "required": [
+          "entry_id",
+          "city_id",
+          "slug",
+          "title",
+          "summary",
+          "source_ids",
+          "reviewed_on",
+          "order",
+          "featured",
+          "editorial_status",
+          "group",
+          "district",
+          "setting",
+          "location",
+          "collection"
+        ]
+      }
+    },
+    "neighborhoods": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "entry_id": {
+            "title": "İçerik kimliği",
+            "type": "string",
+            "minLength": 1
+          },
+          "city_id": {
+            "title": "Şehir kimliği",
+            "type": "string",
+            "minLength": 1
+          },
+          "slug": {
+            "title": "Adres adı",
+            "type": "string",
+            "maxLength": 120,
+            "minLength": 1
+          },
+          "title": {
+            "title": "Başlık",
+            "type": "string",
+            "maxLength": 180,
+            "minLength": 1
+          },
+          "subtitle": {
+            "title": "Alt başlık",
+            "type": "string",
+            "maxLength": 160
+          },
+          "summary": {
+            "title": "Türkçe kısa yanıt / özet",
+            "type": "string",
+            "minLength": 1
+          },
+          "keywords": {
+            "title": "Arama sözcükleri",
+            "type": "string"
+          },
+          "stages": {
+            "title": "Yaşam aşamaları",
+            "type": "array",
+            "items": {
+              "type": "string",
+              "enum": [
+                "before",
+                "planning",
+                "new",
+                "settled"
+              ]
+            },
+            "uniqueItems": true
+          },
+          "source_ids": {
+            "title": "Kaynak kimlikleri",
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "uniqueItems": true
+          },
+          "reviewed_on": {
+            "title": "İçerik kontrol tarihi",
+            "type": "string",
+            "format": "date"
+          },
+          "order": {
+            "title": "Sıra",
+            "type": "integer",
+            "minimum": 0
+          },
+          "featured": {
+            "title": "Öne çıkar",
+            "type": "boolean"
+          },
+          "editorial_status": {
+            "title": "Editör durumu",
+            "type": "string",
+            "enum": [
+              "Taslak",
+              "İnceleme",
+              "Düzeltme",
+              "Onaylandı"
+            ],
+            "minLength": 1
+          },
+          "location": {
+            "title": "Yer / konum",
+            "type": "string",
+            "minLength": 1
+          },
+          "tags": {
+            "title": "Öne çıkan özellikler",
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "uniqueItems": true
+          },
+          "compare_json": {
+            "title": "Karşılaştırma alanları (JSON)",
+            "type": "object"
+          },
+          "note": {
+            "title": "Yaşam ve ev seçimi notu",
+            "type": "string"
+          },
+          "media_key": {
+            "title": "Medya eşleştirme anahtarı",
+            "type": "string"
+          }
+        },
+        "required": [
+          "entry_id",
+          "city_id",
+          "slug",
+          "title",
+          "summary",
+          "source_ids",
+          "reviewed_on",
+          "order",
+          "featured",
+          "editorial_status",
+          "location"
+        ]
+      }
+    },
+    "actions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "action_id": {
+            "title": "Bağlantı kimliği",
+            "type": "string",
+            "minLength": 1
+          },
+          "city_id": {
+            "title": "Şehir kimliği",
+            "type": "string",
+            "minLength": 1
+          },
+          "entry_id": {
+            "title": "İçerik kimliği",
+            "type": "string",
+            "minLength": 1
+          },
+          "label": {
+            "title": "Bağlantı metni",
+            "type": "string",
+            "minLength": 1
+          },
+          "url": {
+            "title": "Doğrudan bağlantı",
+            "type": "string",
+            "format": "uri"
+          },
+          "checked_on": {
+            "title": "Bağlantı kontrol tarihi",
+            "type": "string",
+            "format": "date"
+          },
+          "order": {
+            "title": "Sıra",
+            "type": "integer",
+            "minimum": 0
+          }
+        },
+        "required": [
+          "action_id",
+          "city_id",
+          "entry_id",
+          "label",
+          "url",
+          "checked_on",
+          "order"
+        ]
+      }
+    },
+    "routes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "route_id": {
+            "title": "Rota kimliği",
+            "type": "string",
+            "minLength": 1
+          },
+          "city_id": {
+            "title": "Şehir kimliği",
+            "type": "string",
+            "minLength": 1
+          },
+          "title": {
+            "title": "Rota başlığı",
+            "type": "string",
+            "minLength": 1
+          },
+          "tag": {
+            "title": "Süre / rota türü",
+            "type": "string",
+            "minLength": 1
+          },
+          "stops": {
+            "title": "Sıralı durak adları",
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "uniqueItems": true
+          },
+          "stop_entry_ids": {
+            "title": "Sıralı durak içerik kimlikleri",
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "uniqueItems": true
+          },
+          "entry_id": {
+            "title": "Ana kart kimliği",
+            "type": "string",
+            "minLength": 1
+          },
+          "note": {
+            "title": "Rota ve erişim notu",
+            "type": "string",
+            "minLength": 1
+          },
+          "reviewed_on": {
+            "title": "Rota kontrol tarihi",
+            "type": "string",
+            "format": "date"
+          },
+          "source_ids": {
+            "title": "Kaynak kimlikleri",
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "uniqueItems": true
+          },
+          "order": {
+            "title": "Sıra",
+            "type": "integer",
+            "minimum": 0
+          },
+          "editorial_status": {
+            "title": "Editör durumu",
+            "type": "string",
+            "enum": [
+              "Taslak",
+              "İnceleme",
+              "Düzeltme",
+              "Onaylandı"
+            ],
+            "minLength": 1
+          }
+        },
+        "required": [
+          "route_id",
+          "city_id",
+          "title",
+          "tag",
+          "stops",
+          "entry_id",
+          "note",
+          "reviewed_on",
+          "source_ids",
+          "order",
+          "editorial_status"
+        ]
+      }
+    },
+    "glossary": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "term_id": {
+            "title": "Terim kimliği",
+            "type": "string",
+            "minLength": 1
+          },
+          "city_id": {
+            "title": "Şehir kimliği",
+            "type": "string",
+            "minLength": 1
+          },
+          "term": {
+            "title": "Yerel terim",
+            "type": "string",
+            "minLength": 1
+          },
+          "definition": {
+            "title": "Türkçe açıklama",
+            "type": "string",
+            "minLength": 1
+          },
+          "source_ids": {
+            "title": "Kaynak kimlikleri",
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "uniqueItems": true
+          },
+          "reviewed_on": {
+            "title": "Terim kontrol tarihi",
+            "type": "string",
+            "format": "date"
+          },
+          "order": {
+            "title": "Sıra",
+            "type": "integer",
+            "minimum": 0
+          },
+          "editorial_status": {
+            "title": "Editör durumu",
+            "type": "string",
+            "enum": [
+              "Taslak",
+              "İnceleme",
+              "Düzeltme",
+              "Onaylandı"
+            ],
+            "minLength": 1
+          }
+        },
+        "required": [
+          "term_id",
+          "city_id",
+          "term",
+          "definition",
+          "source_ids",
+          "reviewed_on",
+          "order",
+          "editorial_status"
+        ]
+      }
+    },
+    "journey_steps": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "step_id": {
+            "title": "Adım kimliği",
+            "type": "string",
+            "minLength": 1
+          },
+          "city_id": {
+            "title": "Şehir kimliği",
+            "type": "string",
+            "minLength": 1
+          },
+          "entry_id": {
+            "title": "İçerik kimliği",
+            "type": "string",
+            "minLength": 1
+          },
+          "title": {
+            "title": "Adım başlığı",
+            "type": "string",
+            "maxLength": 120,
+            "minLength": 1
+          },
+          "when": {
+            "title": "Ne zaman",
+            "type": "string",
+            "maxLength": 90,
+            "minLength": 1
+          },
+          "description": {
+            "title": "Adım açıklaması",
+            "type": "string",
+            "maxLength": 250,
+            "minLength": 1
+          },
+          "order": {
+            "title": "Sıra",
+            "type": "integer",
+            "minimum": 0
+          }
+        },
+        "required": [
+          "step_id",
+          "city_id",
+          "entry_id",
+          "title",
+          "when",
+          "description",
+          "order"
+        ]
+      }
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "source_id": {
+            "title": "Kaynak kimliği",
+            "type": "string",
+            "minLength": 1
+          },
+          "city_id": {
+            "title": "Şehir kimliği",
+            "type": "string",
+            "minLength": 1
+          },
+          "title": {
+            "title": "Kaynak başlığı",
+            "type": "string",
+            "maxLength": 180,
+            "minLength": 1
+          },
+          "publisher": {
+            "title": "Yayıncı / kurum",
+            "type": "string",
+            "maxLength": 120,
+            "minLength": 1
+          },
+          "url": {
+            "title": "Kaynak bağlantısı",
+            "type": "string",
+            "format": "uri"
+          },
+          "checked_on": {
+            "title": "Kaynak kontrol tarihi",
+            "type": "string",
+            "format": "date"
+          },
+          "topic": {
+            "title": "Araştırma konusu",
+            "type": "string"
+          },
+          "summary": {
+            "title": "Türkçe araştırma notu",
+            "type": "string"
+          },
+          "verified": {
+            "title": "Kaynak notu incelendi",
+            "type": "boolean"
+          },
+          "snapshot_file": {
+            "title": "Varsa kaynak kanıt dosyası",
+            "type": "string"
+          },
+          "snapshot_sha256": {
+            "title": "Varsa kanıt SHA-256",
+            "type": "string"
+          }
+        },
+        "required": [
+          "source_id",
+          "city_id",
+          "title",
+          "publisher",
+          "url",
+          "checked_on",
+          "verified"
+        ]
+      }
+    },
+    "photos": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "photo_id": {
+            "title": "Fotoğraf kimliği",
+            "type": "string",
+            "minLength": 1
+          },
+          "city_id": {
+            "title": "Şehir kimliği",
+            "type": "string",
+            "minLength": 1
+          },
+          "role": {
+            "title": "Kullanım",
+            "type": "string",
+            "enum": [
+              "Mekân",
+              "Kapak"
+            ],
+            "minLength": 1
+          },
+          "entry_id": {
+            "title": "Mekân / mahalle kimliği",
+            "type": "string"
+          },
+          "file": {
+            "title": "Görsel dosyası",
+            "type": "string",
+            "minLength": 1
+          },
+          "sha256": {
+            "title": "Görsel SHA-256",
+            "type": "string",
+            "minLength": 1
+          },
+          "caption": {
+            "title": "Türkçe açıklama",
+            "type": "string",
+            "maxLength": 250,
+            "minLength": 1
+          },
+          "author": {
+            "title": "Fotoğrafçı / atıf",
+            "type": "string",
+            "minLength": 1
+          },
+          "license": {
+            "title": "Ücretsiz ticari lisans",
+            "type": "string",
+            "minLength": 1
+          },
+          "license_url": {
+            "title": "Lisans bağlantısı",
+            "type": "string",
+            "format": "uri"
+          },
+          "source_url": {
+            "title": "Fotoğraf kaynak sayfası",
+            "type": "string",
+            "format": "uri"
+          },
+          "capture_date": {
+            "title": "Varsa çekim tarihi",
+            "type": "string",
+            "format": "date"
+          },
+          "source_checked_on": {
+            "title": "Hak / kaynak kontrol tarihi",
+            "type": "string",
+            "format": "date"
+          },
+          "modifications": {
+            "title": "Yapılan değişiklikler",
+            "type": "string",
+            "minLength": 1
+          },
+          "evidence_id": {
+            "title": "Kanıt kimliği",
+            "type": "string",
+            "minLength": 1
+          },
+          "completion_credit": {
+            "title": "Sayımda kullanılabilir",
+            "type": "boolean"
+          },
+          "order": {
+            "title": "Galeri sırası",
+            "type": "integer",
+            "minimum": 0
+          },
+          "editorial_status": {
+            "title": "Editör durumu",
+            "type": "string",
+            "enum": [
+              "Taslak",
+              "İnceleme",
+              "Düzeltme",
+              "Onaylandı"
+            ],
+            "minLength": 1
+          }
+        },
+        "required": [
+          "photo_id",
+          "city_id",
+          "role",
+          "file",
+          "sha256",
+          "caption",
+          "author",
+          "license",
+          "license_url",
+          "source_url",
+          "source_checked_on",
+          "modifications",
+          "evidence_id",
+          "completion_credit",
+          "order",
+          "editorial_status"
+        ]
+      }
+    },
+    "evidence": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "evidence_id": {
+            "title": "Kanıt kimliği",
+            "type": "string",
+            "minLength": 1
+          },
+          "city_id": {
+            "title": "Şehir kimliği",
+            "type": "string",
+            "minLength": 1
+          },
+          "photo_id": {
+            "title": "Fotoğraf kimliği",
+            "type": "string",
+            "minLength": 1
+          },
+          "source_url": {
+            "title": "Kaynak sayfası",
+            "type": "string",
+            "format": "uri"
+          },
+          "source_title": {
+            "title": "Kaynak görsel başlığı",
+            "type": "string",
+            "minLength": 1
+          },
+          "author": {
+            "title": "Kaynak fotoğrafçısı",
+            "type": "string",
+            "minLength": 1
+          },
+          "license": {
+            "title": "Kaynak lisansı",
+            "type": "string",
+            "minLength": 1
+          },
+          "license_url": {
+            "title": "Kaynak lisans bağlantısı",
+            "type": "string",
+            "format": "uri"
+          },
+          "usage_terms": {
+            "title": "Kullanım koşulları",
+            "type": "string",
+            "minLength": 1
+          },
+          "attribution": {
+            "title": "Gerekli atıf metni",
+            "type": "string"
+          },
+          "restrictions": {
+            "title": "Kısıt / üçüncü kişi hakkı",
+            "type": "string"
+          },
+          "checked_on": {
+            "title": "Kanıt kontrol tarihi",
+            "type": "string",
+            "format": "date"
+          },
+          "metadata_review_status": {
+            "title": "Kaynak bilgisi incelemesi",
+            "type": "string",
+            "enum": [
+              "pending",
+              "verified"
+            ],
+            "minLength": 1
+          },
+          "pixel_review_status": {
+            "title": "Kare / mekân incelemesi",
+            "type": "string",
+            "enum": [
+              "pending",
+              "verified"
+            ],
+            "minLength": 1
+          },
+          "pixel_review_file": {
+            "title": "İncelenen görsel dosyası",
+            "type": "string"
+          },
+          "pixel_review_note": {
+            "title": "Mekân eşleşmesi ve kare notu",
+            "type": "string"
+          },
+          "rights_status": {
+            "title": "Üçüncü kişi hak incelemesi",
+            "type": "string",
+            "enum": [
+              "pending",
+              "reviewed-clear-for-exact-frame"
+            ],
+            "minLength": 1
+          },
+          "rights_basis": {
+            "title": "Hak değerlendirmesi gerekçesi",
+            "type": "string"
+          },
+          "source_snapshot_file": {
+            "title": "Kaynak sayfası kanıt dosyası",
+            "type": "string"
+          },
+          "source_snapshot_sha256": {
+            "title": "Kaynak kanıt SHA-256",
+            "type": "string"
+          },
+          "license_snapshot_file": {
+            "title": "Lisans kanıt dosyası",
+            "type": "string"
+          },
+          "license_snapshot_sha256": {
+            "title": "Lisans kanıt SHA-256",
+            "type": "string"
+          },
+          "source_evidence_json": {
+            "title": "Tam özgün kanıt yapısı (JSON)",
+            "type": "object"
+          }
+        },
+        "required": [
+          "evidence_id",
+          "city_id",
+          "photo_id",
+          "source_url",
+          "source_title",
+          "author",
+          "license",
+          "license_url",
+          "usage_terms",
+          "checked_on",
+          "metadata_review_status",
+          "pixel_review_status",
+          "rights_status"
+        ]
+      }
+    },
+    "page_fields": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "field_id": {
+            "title": "Alan kimliği",
+            "type": "string",
+            "minLength": 1
+          },
+          "city_id": {
+            "title": "Şehir kimliği",
+            "type": "string",
+            "minLength": 1
+          },
+          "key": {
+            "title": "Sayfa alanı anahtarı",
+            "type": "string",
+            "minLength": 1
+          },
+          "label": {
+            "title": "Türkçe alan açıklaması",
+            "type": "string",
+            "minLength": 1
+          },
+          "value_type": {
+            "title": "Değer türü",
+            "type": "string",
+            "enum": [
+              "Metin",
+              "Sayı",
+              "Mantıksal",
+              "JSON"
+            ],
+            "minLength": 1
+          },
+          "value": {
+            "title": "Alan değeri",
+            "type": "string",
+            "minLength": 1
+          },
+          "reviewed_on": {
+            "title": "Alan kontrol tarihi",
+            "type": "string",
+            "format": "date"
+          }
+        },
+        "required": [
+          "field_id",
+          "city_id",
+          "key",
+          "label",
+          "value_type",
+          "value",
+          "reviewed_on"
+        ]
+      }
+    },
+    "entry_details": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "detail_id": {
+            "title": "Detay kimliği",
+            "type": "string",
+            "minLength": 1
+          },
+          "city_id": {
+            "title": "Şehir kimliği",
+            "type": "string",
+            "minLength": 1
+          },
+          "entry_id": {
+            "title": "İçerik kimliği",
+            "type": "string",
+            "minLength": 1
+          },
+          "key": {
+            "title": "Detay anahtarı",
+            "type": "string",
+            "minLength": 1
+          },
+          "label": {
+            "title": "Türkçe alan açıklaması",
+            "type": "string",
+            "minLength": 1
+          },
+          "value_type": {
+            "title": "Değer türü",
+            "type": "string",
+            "enum": [
+              "Metin",
+              "Sayı",
+              "Mantıksal",
+              "JSON"
+            ],
+            "minLength": 1
+          },
+          "value": {
+            "title": "Alan değeri",
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "required": [
+          "detail_id",
+          "city_id",
+          "entry_id",
+          "key",
+          "label",
+          "value_type",
+          "value"
+        ]
+      }
+    }
+  },
+  "required": [
+    "metadata",
+    "city",
+    "topics",
+    "answers",
+    "places",
+    "neighborhoods",
+    "actions",
+    "routes",
+    "glossary",
+    "journey_steps",
+    "sources",
+    "photos",
+    "evidence",
+    "page_fields",
+    "entry_details"
+  ],
+  "$comment": "Ana içerik sözleşmesi korunur. Kaynak zinciri için sharedschema.json delivery_extension kullanılır. DB/UAT entegrasyonu bu dosya sürümünden ayrıdır."
+}

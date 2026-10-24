@@ -1,0 +1,19 @@
+# is konusu: kaynak boşlukları (2026-10-24)
+
+Boş kart yok: 11 kartın hepsine en az bir resmî ve içeriği doğrulanmış sayfa var. Aşağıdakiler kartların içinde kaynaksız kalan alt ayrıntılar ve kısıtlar.
+
+## Genel kısıt
+- mites.gob.es (Ministerio de Trabajo, Guía Laboral ve trabajoautonomo sayfaları) bu ortamda açılamadı: "unable to verify the first certificate" (sertifika zinciri eksik, hem script hem WebFetch). Bu yüzden hiçbir kart mites.gob.es'e dayanmıyor; yerine BOE, seg-social.es, sepe.es kullanıldı. mites sayfaları tarayıcıda açılıyor olabilir ama burada metin doğrulanamadığı için konmadı.
+- prestaciones.seg-social.es JS ile yükleniyor (metin boş); revista.seg-social.es ve BOE kullanıldı.
+- sepe.es /en/ sayfaları makine çevirisi (bozuk), yalnız İspanyolca sayfalar alındı.
+
+## Kart bazında
+- Kart 2 (SMI 2026): RD 126/2026 metni yalnız "40,70 euros/día o 1 221 euros/mes" der. "14 ödeme" ve "yıllık 17.094 euro" ifadesi RD metninde YOK (haber sitelerinde var, resmî sayfada doğrulanmadı); karta yazılacaksa "aylık 1 221 euro" diye, ödeme sayısı olmadan. Rakamdaki "1 221" araya boşluk karakteri içerir (must_contain'e bu yüzden "40,70 euros/día" alındı). "Çalışma koşulları" için yalnız haftalık 40 saat (ET art. 34.1) kaynaklı; fazla mesai, ara dinlenme vb. alınmadı.
+- Kart 4 (nómina): resmî bordro modeli tablosu (anexo, Orden 1994/ESS 2098/2014) BOE sayfasında görsel/tablo olarak metne düşmedi; "devengos / deducciones" bölüm adları sayfada doğrulanamadı. Kartta kalem adları sayılacaksa bu kaynaktan değil, yalnız Orden'in genel kuralından (aylık, açık ayrım, 5 yıl saklama) söylenmeli. İşçi payı olarak yalnız ortak riskler %4,70 doğrulandı; işsizlik/FP/MEI işçi payları alınmadı.
+- Kart 5 (finiquito): yalnız ET art. 49.2 (tasfiye belgesi önerisi, temsilci hazır bulunma) kaynaklı. Finiquito içeriği (kullanılmamış izin, ek maaş orantısı) ve imzalamanın hukuki sonucu için resmî derin sayfa bulunamadı; kartta yazılmasın.
+- Kart 6 (despido): tazminat ve süre ET'den; "despido colectivo" ve "despido objetivo" ayrıntıları (art. 51-52) alınmadı. 2025'te Avrupa Sosyal Haklar Komitesi/uygulama tartışmaları (tazminatın yeterliliği) resmî sayfada yok, yazılmasın.
+- Kart 7 (paro): SEPE sayfaları İspanyolca doğrulandı; ödenek tavan/taban tutarları (cuantía máxima/mínima, IPREM'e bağlı) 2026 için doğrulanmış resmî sayfa alınmadı; karta rakam yazılmasın. Yabancılar için (NIE, çalışma izni, AB dışı) özel koşullar bu kaynaklarda yok.
+- Kart 9 (autónomo): 2026 baz tabloları ve %28,30 tipi doğrulandı, ama aylık euro "cuota" ve tarifa plana tutarı resmî sayfada hazır verilmiyor (baz x tip hesabı gerekir; kaynakta hesap yok, kartta yazılmasın). Alta süresi (faaliyetten önce, 60 güne kadar) yalnız arama özetinde gördüm, açılan resmî sayfada metni doğrulanmadı, karta yazılmasın.
+- Kart 10 (ebeveyn izni): ET art. 48.4 ve Seguridad Social: 19 hafta, tek ebeveynli 32 hafta, ilk 6 hafta zorunlu, ödenek baz matrahın %100'ü (LGSS art. 179). İzin bölüşümü (6 + 11 + 2 hafta) ET'de doğrulandı. Kısa süreli "lactancia" ve "riesgo embarazo" alınmadı. Prim şartı yaşa göre değişir, doğrulanmış resmî metin alınmadı.
+- Kart 11 (homologación): Üniversite DIŞI diplomalar için educacionfpydeportes.gob.es, üniversite diplomaları için RD 889/2022 (BOE) alındı. universidades.gob.es sayfası menü dışında metin vermedi, onun yerine BOE metni. "Düzenlenmiş meslek" tanıma (örn. doktor, mimar, avukat) için mesleğe özel bakanlık/kurul sayfaları ve Valida-TE portalı alınmadı; mesleğe göre değişir.
+- Kart 3 (izin ve tatil): 30 takvim günü (ET art. 38) ve 2026 ulusal/özerk tatil listesi (BOE-A-2025-21667) doğrulandı. 2027 listesi 13/10/2026 BOE'sinde yayımlanmış görünüyor ama yayın metnine ulaşılamadı; 2026 resolución'u konuldu. Her yıl yeni liste çıktığı için tatil günleri karta tek tek yazılırsa yıl damgası şart. Yıllık izin ücreti ve hak ediş (devengo) ayrıntıları alınmadı.

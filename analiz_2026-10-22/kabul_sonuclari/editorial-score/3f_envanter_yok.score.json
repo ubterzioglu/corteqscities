@@ -1,0 +1,37 @@
+{
+  "tool": "editorial_score",
+  "mode": "not_measured",
+  "editorial_percent": null,
+  "raw_total": null,
+  "raw_total_exact": null,
+  "max_possible": null,
+  "labels": [],
+  "categories": [],
+  "criteria": [],
+  "coverage": {
+    "cards": null,
+    "photos": null,
+    "critical_claims": null
+  },
+  "open_findings": {
+    "P0": [],
+    "P1": [],
+    "P2": []
+  },
+  "gates": [],
+  "missing_targets": [],
+  "evidence_gaps": [
+    "envanter çıkarılamadı: yüzde ÖLÇÜLEMEDİ"
+  ],
+  "decision": "KARAR İÇİN KANIT EKSİK",
+  "decision_reason": "kanıt eksik: envanter çıkarılamadı: yüzde ÖLÇÜLEMEDİ",
+  "decision_note": null,
+  "deviations": [],
+  "notes": [
+    "Yüzde, kalan kısmın kesin yanlış olduğu anlamına gelmez; inceleme kapsamı, kullanılabilir içerik ve yönetim üretim yüzdesi aynı metrik değildir.",
+    "KALDI ve KONTROL EDİLEMEDİ puan kazanmaz; ikisi durum sütununda ayrıdır.",
+    "12 konu, ücretsiz gerçek fotoğraf, uyarı bandı olmaması ve zorunlu sözleşme şartları ayrı karar kapısıdır; açık bulgu (P0/P1) olarak girilmelidir.",
+    "Yetkili insanın kabul/yayın kararı ayrı süreçtir; bu çıktı yayın onayı değildir."
+  ],
+  "cover_line": "Editoryal hazır olma: ÖLÇÜLEMEDİ | İnceleme kapsamı: kart ?/?; fotoğraf ?/?; kritik iddia ?/? | Karar: KARAR İÇİN KANIT EKSİK"
+}

@@ -1,0 +1,80 @@
+{
+  "tool": "editorial_score",
+  "mode": "categories",
+  "editorial_percent": 55,
+  "raw_total": 55,
+  "raw_total_exact": "55",
+  "max_possible": 100,
+  "labels": [
+    "kategori toplamı modu"
+  ],
+  "categories": [
+    {
+      "code": "A",
+      "name": "Bilgi kartları ve kaynaklar",
+      "weight": 35,
+      "score": 18,
+      "score_exact": "18"
+    },
+    {
+      "code": "B",
+      "name": "Mekân, mahalle, rota ve sözlük",
+      "weight": 20,
+      "score": 11,
+      "score_exact": "11"
+    },
+    {
+      "code": "C",
+      "name": "Fotoğraf seçimi ve sunum",
+      "weight": 20,
+      "score": 14,
+      "score_exact": "14"
+    },
+    {
+      "code": "D",
+      "name": "Lisans ve kanıtlar",
+      "weight": 15,
+      "score": 9,
+      "score_exact": "9"
+    },
+    {
+      "code": "E",
+      "name": "Teknik teslim ve işlev",
+      "weight": 10,
+      "score": 3,
+      "score_exact": "3"
+    }
+  ],
+  "criteria": [],
+  "coverage": {
+    "cards": null,
+    "photos": null,
+    "critical_claims": null
+  },
+  "open_findings": {
+    "P0": [],
+    "P1": [],
+    "P2": []
+  },
+  "gates": [],
+  "missing_targets": [],
+  "evidence_gaps": [
+    "alt ölçüt dökümü yok (kategori toplamı modu): 25 ölçüt pay/paydası doğrulanamadı",
+    "kapsam (kart): x/y verilmedi (K100)",
+    "kapsam (fotoğraf): x/y verilmedi (K100)",
+    "kapsam (kritik iddia): x/y verilmedi (K100)"
+  ],
+  "decision": "KARAR İÇİN KANIT EKSİK",
+  "decision_reason": "kanıt eksik: alt ölçüt dökümü yok (kategori toplamı modu): 25 ölçüt pay/paydası doğrulanamadı; kapsam (kart): x/y verilmedi (K100); kapsam (fotoğraf): x/y verilmedi (K100); kapsam (kritik iddia): x/y verilmedi (K100)",
+  "decision_note": "önizleme ve Drive kontrolleri ayrı aşamada",
+  "deviations": [
+    "Kategori toplamı modu bölüm 20 hesabı değildir: 5 kategori katkısı doğrudan toplandı, 25 alt ölçütün pay/paydası doğrulanamadı; bu yüzden karar en iyi durumda 'kanıt eksik' olur."
+  ],
+  "notes": [
+    "Yüzde, kalan kısmın kesin yanlış olduğu anlamına gelmez; inceleme kapsamı, kullanılabilir içerik ve yönetim üretim yüzdesi aynı metrik değildir.",
+    "KALDI ve KONTROL EDİLEMEDİ puan kazanmaz; ikisi durum sütununda ayrıdır.",
+    "12 konu, ücretsiz gerçek fotoğraf, uyarı bandı olmaması ve zorunlu sözleşme şartları ayrı karar kapısıdır; açık bulgu (P0/P1) olarak girilmelidir.",
+    "Yetkili insanın kabul/yayın kararı ayrı süreçtir; bu çıktı yayın onayı değildir."
+  ],
+  "cover_line": "Editoryal hazır olma: %55 (kategori toplamı modu) | İnceleme kapsamı: kart ?/?; fotoğraf ?/?; kritik iddia ?/? | Karar: KARAR İÇİN KANIT EKSİK (önizleme ve Drive kontrolleri ayrı aşamada)"
+}

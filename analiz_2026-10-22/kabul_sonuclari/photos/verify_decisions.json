@@ -1,0 +1,3022 @@
+{
+  "decisions": [
+    {
+      "candidate_id": "eindhoven:foto:kapak-skyline-01",
+      "entry_id": "eindhoven:kapak-skyline",
+      "decision": "flag",
+      "reasons": [
+        "panorama"
+      ],
+      "notes": [
+        "panorama[flag]: en-boy orani 5.0 (kirpma sonrasi kisa kenar dar)"
+      ],
+      "score": 100
+    },
+    {
+      "candidate_id": "eindhoven:foto:kapak-merkez-01",
+      "entry_id": "eindhoven:kapak-merkez",
+      "decision": "reject",
+      "reasons": [
+        "detail_interior"
+      ],
+      "notes": [
+        "detail_interior[reject]: detay/ic mekan: 'trappenhuis' (rol cover)"
+      ],
+      "score": 60
+    },
+    {
+      "candidate_id": "eindhoven:foto:kapak-strijps-01",
+      "entry_id": "eindhoven:kapak-strijps",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 105
+    },
+    {
+      "candidate_id": "eindhoven:foto:kapak-glow-01",
+      "entry_id": "eindhoven:kapak-glow",
+      "decision": "flag",
+      "reasons": [
+        "rights_review"
+      ],
+      "notes": [
+        "rights_review[flag]: kisi/eser haklari incelemesi: 'festival'"
+      ],
+      "score": 95
+    },
+    {
+      "candidate_id": "eindhoven:foto:kapak-doga-01",
+      "entry_id": "eindhoven:kapak-doga",
+      "decision": "flag",
+      "reasons": [
+        "place_mismatch"
+      ],
+      "notes": [
+        "place_mismatch[flag]: baslik/aciklama/kategorilerde belediye veya mekan adi yok"
+      ],
+      "score": 95
+    },
+    {
+      "candidate_id": "eindhoven:foto:kapak-endustri-01",
+      "entry_id": "eindhoven:kapak-endustri",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:kapak-evoluon-01",
+      "entry_id": "eindhoven:kapak-evoluon",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:kapak-stadion-01",
+      "entry_id": "eindhoven:kapak-stadion",
+      "decision": "flag",
+      "reasons": [
+        "place_mismatch",
+        "statue_subject"
+      ],
+      "notes": [
+        "place_mismatch[flag]: baslik/aciklama/kategorilerde belediye veya mekan adi yok",
+        "statue_subject[flag]: heykel/anit konusu: 'statues'"
+      ],
+      "score": 85
+    },
+    {
+      "candidate_id": "eindhoven:foto:mah-binnenstad-01",
+      "entry_id": "eindhoven:mah-binnenstad",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 105
+    },
+    {
+      "candidate_id": "eindhoven:foto:mah-de-bergen-01",
+      "entry_id": "eindhoven:mah-de-bergen",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 105
+    },
+    {
+      "candidate_id": "eindhoven:foto:mah-strijp-s-01",
+      "entry_id": "eindhoven:mah-strijp-s",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:mah-philipsdorp-01",
+      "entry_id": "eindhoven:mah-philipsdorp",
+      "decision": "flag",
+      "reasons": [
+        "panorama"
+      ],
+      "notes": [
+        "panorama[flag]: en-boy orani 3.1 (kirpma sonrasi kisa kenar dar)"
+      ],
+      "score": 100
+    },
+    {
+      "candidate_id": "eindhoven:foto:mah-meerhoven-01",
+      "entry_id": "eindhoven:mah-meerhoven",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:mah-oud-woensel-01",
+      "entry_id": "eindhoven:mah-oud-woensel",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 105
+    },
+    {
+      "candidate_id": "eindhoven:foto:mah-acht-01",
+      "entry_id": "eindhoven:mah-acht",
+      "decision": "flag",
+      "reasons": [
+        "statue_subject",
+        "rights_review"
+      ],
+      "notes": [
+        "statue_subject[flag]: heykel/anit konusu: 'statues'",
+        "rights_review[flag]: kisi/eser haklari incelemesi: 'sculptures'"
+      ],
+      "score": 85
+    },
+    {
+      "candidate_id": "eindhoven:foto:mah-roosten-01",
+      "entry_id": "eindhoven:mah-roosten",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:mah-doornakkers-01",
+      "entry_id": "eindhoven:mah-doornakkers",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:mah-villapark-01",
+      "entry_id": "eindhoven:mah-villapark",
+      "decision": "flag",
+      "reasons": [
+        "place_mismatch"
+      ],
+      "notes": [
+        "place_mismatch[flag]: baslik/aciklama/kategorilerde belediye veya mekan adi yok"
+      ],
+      "score": 95
+    },
+    {
+      "candidate_id": "eindhoven:foto:mah-karpen-koudenhoven-01",
+      "entry_id": "eindhoven:mah-karpen-koudenhoven",
+      "decision": "flag",
+      "reasons": [
+        "panorama"
+      ],
+      "notes": [
+        "panorama[flag]: en-boy orani 3.2 (kirpma sonrasi kisa kenar dar)"
+      ],
+      "score": 95
+    },
+    {
+      "candidate_id": "eindhoven:foto:mah-oud-stratum-01",
+      "entry_id": "eindhoven:mah-oud-stratum",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 105
+    },
+    {
+      "candidate_id": "eindhoven:foto:mah-burghplan-01",
+      "entry_id": "eindhoven:mah-burghplan",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 105
+    },
+    {
+      "candidate_id": "eindhoven:foto:mah-leenderheide-01",
+      "entry_id": "eindhoven:mah-leenderheide",
+      "decision": "reject",
+      "reasons": [
+        "off_subject"
+      ],
+      "notes": [
+        "off_subject[reject]: konu disi altyapi: 'motorway' (rol district)"
+      ],
+      "score": 60
+    },
+    {
+      "candidate_id": "eindhoven:foto:mah-oud-gestel-01",
+      "entry_id": "eindhoven:mah-oud-gestel",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 105
+    },
+    {
+      "candidate_id": "eindhoven:foto:mah-hofke-tongelre-01",
+      "entry_id": "eindhoven:mah-hofke-tongelre",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:van-abbemuseum-01",
+      "entry_id": "eindhoven:van-abbemuseum",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:van-abbemuseum-02",
+      "entry_id": "eindhoven:van-abbemuseum",
+      "decision": "reject",
+      "reasons": [
+        "art_not_photo"
+      ],
+      "notes": [
+        "art_not_photo[reject]: eser/cizim isareti: 'paintings'"
+      ],
+      "score": 60
+    },
+    {
+      "candidate_id": "eindhoven:foto:van-abbemuseum-03",
+      "entry_id": "eindhoven:van-abbemuseum",
+      "decision": "flag",
+      "reasons": [
+        "archive"
+      ],
+      "notes": [
+        "archive[flag]: cekim yili 1945 < 1995: tarihli altyazi gerekir"
+      ],
+      "score": 100
+    },
+    {
+      "candidate_id": "eindhoven:foto:van-abbemuseum-04",
+      "entry_id": "eindhoven:van-abbemuseum",
+      "decision": "reject",
+      "reasons": [
+        "art_not_photo"
+      ],
+      "notes": [
+        "art_not_photo[reject]: eser/cizim isareti: 'paintings'"
+      ],
+      "score": 60
+    },
+    {
+      "candidate_id": "eindhoven:foto:van-abbemuseum-05",
+      "entry_id": "eindhoven:van-abbemuseum",
+      "decision": "flag",
+      "reasons": [
+        "detail_interior"
+      ],
+      "notes": [
+        "detail_interior[flag]: detay/ic mekan: 'interior'"
+      ],
+      "score": 95
+    },
+    {
+      "candidate_id": "eindhoven:foto:philips-museum-01",
+      "entry_id": "eindhoven:philips-museum",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:philips-museum-02",
+      "entry_id": "eindhoven:philips-museum",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:philips-museum-03",
+      "entry_id": "eindhoven:philips-museum",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:daf-museum-01",
+      "entry_id": "eindhoven:daf-museum",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:daf-museum-02",
+      "entry_id": "eindhoven:daf-museum",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:daf-museum-03",
+      "entry_id": "eindhoven:daf-museum",
+      "decision": "flag",
+      "reasons": [
+        "detail_interior"
+      ],
+      "notes": [
+        "detail_interior[flag]: detay/ic mekan: 'interior'"
+      ],
+      "score": 100
+    },
+    {
+      "candidate_id": "eindhoven:foto:next-nature-evoluon-01",
+      "entry_id": "eindhoven:next-nature-evoluon",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:next-nature-evoluon-02",
+      "entry_id": "eindhoven:next-nature-evoluon",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:next-nature-evoluon-03",
+      "entry_id": "eindhoven:next-nature-evoluon",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:next-nature-evoluon-04",
+      "entry_id": "eindhoven:next-nature-evoluon",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:next-nature-evoluon-05",
+      "entry_id": "eindhoven:next-nature-evoluon",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:ton-smits-huis-01",
+      "entry_id": "eindhoven:ton-smits-huis",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:ton-smits-huis-02",
+      "entry_id": "eindhoven:ton-smits-huis",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:mu-arthouse-01",
+      "entry_id": "eindhoven:mu-arthouse",
+      "decision": "flag",
+      "reasons": [
+        "rights_review"
+      ],
+      "notes": [
+        "rights_review[flag]: kisi/eser haklari incelemesi: 'performance'"
+      ],
+      "score": 100
+    },
+    {
+      "candidate_id": "eindhoven:foto:kazerne-design-01",
+      "entry_id": "eindhoven:kazerne-design",
+      "decision": "flag",
+      "reasons": [
+        "rights_review"
+      ],
+      "notes": [
+        "rights_review[flag]: kisi/eser haklari incelemesi: 'dinner'"
+      ],
+      "score": 100
+    },
+    {
+      "candidate_id": "eindhoven:foto:kazerne-design-02",
+      "entry_id": "eindhoven:kazerne-design",
+      "decision": "flag",
+      "reasons": [
+        "rights_review"
+      ],
+      "notes": [
+        "rights_review[flag]: kisi/eser haklari incelemesi: 'dinner'"
+      ],
+      "score": 100
+    },
+    {
+      "candidate_id": "eindhoven:foto:design-academy-01",
+      "entry_id": "eindhoven:design-academy",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:design-academy-02",
+      "entry_id": "eindhoven:design-academy",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:design-academy-03",
+      "entry_id": "eindhoven:design-academy",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:berenkuil-street-art-01",
+      "entry_id": "eindhoven:berenkuil-street-art",
+      "decision": "flag",
+      "reasons": [
+        "rights_review"
+      ],
+      "notes": [
+        "rights_review[flag]: kisi/eser haklari incelemesi: 'graffiti'"
+      ],
+      "score": 100
+    },
+    {
+      "candidate_id": "eindhoven:foto:berenkuil-street-art-02",
+      "entry_id": "eindhoven:berenkuil-street-art",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:berenkuil-street-art-03",
+      "entry_id": "eindhoven:berenkuil-street-art",
+      "decision": "flag",
+      "reasons": [
+        "rights_review"
+      ],
+      "notes": [
+        "rights_review[flag]: kisi/eser haklari incelemesi: 'graffiti'"
+      ],
+      "score": 100
+    },
+    {
+      "candidate_id": "eindhoven:foto:muziekgebouw-01",
+      "entry_id": "eindhoven:muziekgebouw",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:muziekgebouw-02",
+      "entry_id": "eindhoven:muziekgebouw",
+      "decision": "flag",
+      "reasons": [
+        "archive"
+      ],
+      "notes": [
+        "archive[flag]: cekim yili 1992 < 1995: tarihli altyazi gerekir"
+      ],
+      "score": 100
+    },
+    {
+      "candidate_id": "eindhoven:foto:parktheater-01",
+      "entry_id": "eindhoven:parktheater",
+      "decision": "flag",
+      "reasons": [
+        "archive"
+      ],
+      "notes": [
+        "archive[flag]: cekim yili 1964 < 1995: tarihli altyazi gerekir"
+      ],
+      "score": 100
+    },
+    {
+      "candidate_id": "eindhoven:foto:parktheater-02",
+      "entry_id": "eindhoven:parktheater",
+      "decision": "flag",
+      "reasons": [
+        "archive"
+      ],
+      "notes": [
+        "archive[flag]: cekim yili 1964 < 1995: tarihli altyazi gerekir"
+      ],
+      "score": 100
+    },
+    {
+      "candidate_id": "eindhoven:foto:effenaar-01",
+      "entry_id": "eindhoven:effenaar",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 105
+    },
+    {
+      "candidate_id": "eindhoven:foto:effenaar-02",
+      "entry_id": "eindhoven:effenaar",
+      "decision": "flag",
+      "reasons": [
+        "low_resolution"
+      ],
+      "notes": [
+        "low_resolution[flag]: kisa kenar 531px < 600"
+      ],
+      "score": 95
+    },
+    {
+      "candidate_id": "eindhoven:foto:effenaar-03",
+      "entry_id": "eindhoven:effenaar",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:natlab-01",
+      "entry_id": "eindhoven:natlab",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:natlab-02",
+      "entry_id": "eindhoven:natlab",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:natlab-03",
+      "entry_id": "eindhoven:natlab",
+      "decision": "flag",
+      "reasons": [
+        "detail_interior"
+      ],
+      "notes": [
+        "detail_interior[flag]: detay/ic mekan: 'signs'"
+      ],
+      "score": 100
+    },
+    {
+      "candidate_id": "eindhoven:foto:cafe-wilhelmina-01",
+      "entry_id": "eindhoven:cafe-wilhelmina",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:philips-stadion-01",
+      "entry_id": "eindhoven:philips-stadion",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:philips-stadion-02",
+      "entry_id": "eindhoven:philips-stadion",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:philips-stadion-03",
+      "entry_id": "eindhoven:philips-stadion",
+      "decision": "flag",
+      "reasons": [
+        "panorama"
+      ],
+      "notes": [
+        "panorama[flag]: en-boy orani 2.9 (kirpma sonrasi kisa kenar dar)"
+      ],
+      "score": 100
+    },
+    {
+      "candidate_id": "eindhoven:foto:philips-stadion-04",
+      "entry_id": "eindhoven:philips-stadion",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:philips-stadion-05",
+      "entry_id": "eindhoven:philips-stadion",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 105
+    },
+    {
+      "candidate_id": "eindhoven:foto:hoogenband-zwemstadion-01",
+      "entry_id": "eindhoven:hoogenband-zwemstadion",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 105
+    },
+    {
+      "candidate_id": "eindhoven:foto:hoogenband-zwemstadion-02",
+      "entry_id": "eindhoven:hoogenband-zwemstadion",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 105
+    },
+    {
+      "candidate_id": "eindhoven:foto:ijssportcentrum-01",
+      "entry_id": "eindhoven:ijssportcentrum",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 105
+    },
+    {
+      "candidate_id": "eindhoven:foto:ijssportcentrum-02",
+      "entry_id": "eindhoven:ijssportcentrum",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 105
+    },
+    {
+      "candidate_id": "eindhoven:foto:jan-louwers-stadion-01",
+      "entry_id": "eindhoven:jan-louwers-stadion",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 105
+    },
+    {
+      "candidate_id": "eindhoven:foto:oranje-rood-hockey-01",
+      "entry_id": "eindhoven:oranje-rood-hockey",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:sportpark-aalsterweg-01",
+      "entry_id": "eindhoven:sportpark-aalsterweg",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 105
+    },
+    {
+      "candidate_id": "eindhoven:foto:speelpark-de-splinter-01",
+      "entry_id": "eindhoven:speelpark-de-splinter",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:speelpark-de-splinter-02",
+      "entry_id": "eindhoven:speelpark-de-splinter",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:zwembad-tongelreep-01",
+      "entry_id": "eindhoven:zwembad-tongelreep",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 105
+    },
+    {
+      "candidate_id": "eindhoven:foto:historisch-openluchtmuseum-01",
+      "entry_id": "eindhoven:historisch-openluchtmuseum",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:historisch-openluchtmuseum-02",
+      "entry_id": "eindhoven:historisch-openluchtmuseum",
+      "decision": "flag",
+      "reasons": [
+        "rights_review"
+      ],
+      "notes": [
+        "rights_review[flag]: kisi/eser haklari incelemesi: 'reenactments'"
+      ],
+      "score": 100
+    },
+    {
+      "candidate_id": "eindhoven:foto:historisch-openluchtmuseum-03",
+      "entry_id": "eindhoven:historisch-openluchtmuseum",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:genneper-parken-01",
+      "entry_id": "eindhoven:genneper-parken",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 105
+    },
+    {
+      "candidate_id": "eindhoven:foto:genneper-parken-02",
+      "entry_id": "eindhoven:genneper-parken",
+      "decision": "flag",
+      "reasons": [
+        "low_resolution"
+      ],
+      "notes": [
+        "low_resolution[flag]: kisa kenar 542px < 600"
+      ],
+      "score": 95
+    },
+    {
+      "candidate_id": "eindhoven:foto:stadswandelpark-01",
+      "entry_id": "eindhoven:stadswandelpark",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:stadswandelpark-02",
+      "entry_id": "eindhoven:stadswandelpark",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:stadswandelpark-03",
+      "entry_id": "eindhoven:stadswandelpark",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:karpendonkse-plas-01",
+      "entry_id": "eindhoven:karpendonkse-plas",
+      "decision": "flag",
+      "reasons": [
+        "panorama"
+      ],
+      "notes": [
+        "panorama[flag]: en-boy orani 2.8 (kirpma sonrasi kisa kenar dar)"
+      ],
+      "score": 95
+    },
+    {
+      "candidate_id": "eindhoven:foto:karpendonkse-plas-02",
+      "entry_id": "eindhoven:karpendonkse-plas",
+      "decision": "flag",
+      "reasons": [
+        "panorama"
+      ],
+      "notes": [
+        "panorama[flag]: en-boy orani 2.6 (kirpma sonrasi kisa kenar dar)"
+      ],
+      "score": 95
+    },
+    {
+      "candidate_id": "eindhoven:foto:karpendonkse-plas-03",
+      "entry_id": "eindhoven:karpendonkse-plas",
+      "decision": "flag",
+      "reasons": [
+        "low_resolution"
+      ],
+      "notes": [
+        "low_resolution[flag]: kisa kenar 444px < 600"
+      ],
+      "score": 95
+    },
+    {
+      "candidate_id": "eindhoven:foto:leenderheide-01",
+      "entry_id": "eindhoven:leenderheide",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:leenderheide-02",
+      "entry_id": "eindhoven:leenderheide",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:eikenburg-01",
+      "entry_id": "eindhoven:eikenburg",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:eikenburg-02",
+      "entry_id": "eindhoven:eikenburg",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:eikenburg-03",
+      "entry_id": "eindhoven:eikenburg",
+      "decision": "flag",
+      "reasons": [
+        "statue_subject",
+        "rights_review"
+      ],
+      "notes": [
+        "statue_subject[flag]: heykel/anit konusu: 'beeld'",
+        "rights_review[flag]: kisi/eser haklari incelemesi: 'sculptures'"
+      ],
+      "score": 90
+    },
+    {
+      "candidate_id": "eindhoven:foto:grote-beek-01",
+      "entry_id": "eindhoven:grote-beek",
+      "decision": "flag",
+      "reasons": [
+        "gps_far"
+      ],
+      "notes": [
+        "gps_far[flag]: GPS mekana 4.7 km"
+      ],
+      "score": 95
+    },
+    {
+      "candidate_id": "eindhoven:foto:grote-beek-02",
+      "entry_id": "eindhoven:grote-beek",
+      "decision": "flag",
+      "reasons": [
+        "gps_far"
+      ],
+      "notes": [
+        "gps_far[flag]: GPS mekana 3.8 km"
+      ],
+      "score": 95
+    },
+    {
+      "candidate_id": "eindhoven:foto:grote-beek-03",
+      "entry_id": "eindhoven:grote-beek",
+      "decision": "flag",
+      "reasons": [
+        "gps_far"
+      ],
+      "notes": [
+        "gps_far[flag]: GPS mekana 2.1 km"
+      ],
+      "score": 100
+    },
+    {
+      "candidate_id": "eindhoven:foto:kanaal-eindhoven-01",
+      "entry_id": "eindhoven:kanaal-eindhoven",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 105
+    },
+    {
+      "candidate_id": "eindhoven:foto:kanaal-eindhoven-02",
+      "entry_id": "eindhoven:kanaal-eindhoven",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 105
+    },
+    {
+      "candidate_id": "eindhoven:foto:kanaal-eindhoven-03",
+      "entry_id": "eindhoven:kanaal-eindhoven",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 105
+    },
+    {
+      "candidate_id": "eindhoven:foto:dommel-eindhoven-01",
+      "entry_id": "eindhoven:dommel-eindhoven",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:dommel-eindhoven-02",
+      "entry_id": "eindhoven:dommel-eindhoven",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:dommel-eindhoven-03",
+      "entry_id": "eindhoven:dommel-eindhoven",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:strijp-s-01",
+      "entry_id": "eindhoven:strijp-s",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:strijp-s-02",
+      "entry_id": "eindhoven:strijp-s",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:strijp-s-03",
+      "entry_id": "eindhoven:strijp-s",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 105
+    },
+    {
+      "candidate_id": "eindhoven:foto:strijp-s-04",
+      "entry_id": "eindhoven:strijp-s",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:strijp-s-05",
+      "entry_id": "eindhoven:strijp-s",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:klokgebouw-01",
+      "entry_id": "eindhoven:klokgebouw",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:klokgebouw-02",
+      "entry_id": "eindhoven:klokgebouw",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:klokgebouw-03",
+      "entry_id": "eindhoven:klokgebouw",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:lichttoren-01",
+      "entry_id": "eindhoven:lichttoren",
+      "decision": "flag",
+      "reasons": [
+        "rights_review"
+      ],
+      "notes": [
+        "rights_review[flag]: kisi/eser haklari incelemesi: 'festival'"
+      ],
+      "score": 100
+    },
+    {
+      "candidate_id": "eindhoven:foto:lichttoren-02",
+      "entry_id": "eindhoven:lichttoren",
+      "decision": "flag",
+      "reasons": [
+        "rights_review"
+      ],
+      "notes": [
+        "rights_review[flag]: kisi/eser haklari incelemesi: 'festival'"
+      ],
+      "score": 100
+    },
+    {
+      "candidate_id": "eindhoven:foto:lichttoren-03",
+      "entry_id": "eindhoven:lichttoren",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:witte-dame-01",
+      "entry_id": "eindhoven:witte-dame",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:witte-dame-02",
+      "entry_id": "eindhoven:witte-dame",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:witte-dame-03",
+      "entry_id": "eindhoven:witte-dame",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:de-blob-01",
+      "entry_id": "eindhoven:de-blob",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:de-blob-02",
+      "entry_id": "eindhoven:de-blob",
+      "decision": "flag",
+      "reasons": [
+        "rights_review"
+      ],
+      "notes": [
+        "rights_review[flag]: kisi/eser haklari incelemesi: 'festival'"
+      ],
+      "score": 100
+    },
+    {
+      "candidate_id": "eindhoven:foto:de-blob-03",
+      "entry_id": "eindhoven:de-blob",
+      "decision": "flag",
+      "reasons": [
+        "rights_review"
+      ],
+      "notes": [
+        "rights_review[flag]: kisi/eser haklari incelemesi: 'festival'"
+      ],
+      "score": 100
+    },
+    {
+      "candidate_id": "eindhoven:foto:de-admirant-01",
+      "entry_id": "eindhoven:de-admirant",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:de-admirant-02",
+      "entry_id": "eindhoven:de-admirant",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:de-admirant-03",
+      "entry_id": "eindhoven:de-admirant",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:vesteda-toren-01",
+      "entry_id": "eindhoven:vesteda-toren",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:vesteda-toren-02",
+      "entry_id": "eindhoven:vesteda-toren",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 105
+    },
+    {
+      "candidate_id": "eindhoven:foto:vesteda-toren-03",
+      "entry_id": "eindhoven:vesteda-toren",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 105
+    },
+    {
+      "candidate_id": "eindhoven:foto:trudo-vertical-forest-01",
+      "entry_id": "eindhoven:trudo-vertical-forest",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:trudo-vertical-forest-02",
+      "entry_id": "eindhoven:trudo-vertical-forest",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:trudo-vertical-forest-03",
+      "entry_id": "eindhoven:trudo-vertical-forest",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:station-eindhoven-centraal-01",
+      "entry_id": "eindhoven:station-eindhoven-centraal",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:stadskantoor-01",
+      "entry_id": "eindhoven:stadskantoor",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:bijenkorf-eindhoven-01",
+      "entry_id": "eindhoven:bijenkorf-eindhoven",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:bijenkorf-eindhoven-02",
+      "entry_id": "eindhoven:bijenkorf-eindhoven",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:bijenkorf-eindhoven-03",
+      "entry_id": "eindhoven:bijenkorf-eindhoven",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:sint-catharinakerk-01",
+      "entry_id": "eindhoven:sint-catharinakerk",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:sint-catharinakerk-02",
+      "entry_id": "eindhoven:sint-catharinakerk",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:sint-catharinakerk-03",
+      "entry_id": "eindhoven:sint-catharinakerk",
+      "decision": "reject",
+      "reasons": [
+        "art_not_photo"
+      ],
+      "notes": [
+        "art_not_photo[reject]: eser/cizim isareti: 'paintings'"
+      ],
+      "score": 60
+    },
+    {
+      "candidate_id": "eindhoven:foto:sint-catharinakerk-04",
+      "entry_id": "eindhoven:sint-catharinakerk",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:sint-catharinakerk-05",
+      "entry_id": "eindhoven:sint-catharinakerk",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 105
+    },
+    {
+      "candidate_id": "eindhoven:foto:oude-toren-woensel-01",
+      "entry_id": "eindhoven:oude-toren-woensel",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:watertoren-01",
+      "entry_id": "eindhoven:watertoren",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:watertoren-02",
+      "entry_id": "eindhoven:watertoren",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:watertoren-03",
+      "entry_id": "eindhoven:watertoren",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:hoge-herde-01",
+      "entry_id": "eindhoven:hoge-herde",
+      "decision": "flag",
+      "reasons": [
+        "panorama",
+        "off_subject"
+      ],
+      "notes": [
+        "panorama[flag]: en-boy orani 3.1 (kirpma sonrasi kisa kenar dar)",
+        "off_subject[flag]: konu disi altyapi: 'parkeergarage'"
+      ],
+      "score": 90
+    },
+    {
+      "candidate_id": "eindhoven:foto:hoge-herde-02",
+      "entry_id": "eindhoven:hoge-herde",
+      "decision": "flag",
+      "reasons": [
+        "off_subject"
+      ],
+      "notes": [
+        "off_subject[flag]: konu disi altyapi: 'parkeergarage'"
+      ],
+      "score": 100
+    },
+    {
+      "candidate_id": "eindhoven:foto:hoge-herde-03",
+      "entry_id": "eindhoven:hoge-herde",
+      "decision": "flag",
+      "reasons": [
+        "off_subject"
+      ],
+      "notes": [
+        "off_subject[flag]: konu disi altyapi: 'parkeergarage'"
+      ],
+      "score": 100
+    },
+    {
+      "candidate_id": "eindhoven:foto:hightech-campus-01",
+      "entry_id": "eindhoven:hightech-campus",
+      "decision": "flag",
+      "reasons": [
+        "panorama"
+      ],
+      "notes": [
+        "panorama[flag]: en-boy orani 6.1 (kirpma sonrasi kisa kenar dar)"
+      ],
+      "score": 95
+    },
+    {
+      "candidate_id": "eindhoven:foto:hightech-campus-02",
+      "entry_id": "eindhoven:hightech-campus",
+      "decision": "flag",
+      "reasons": [
+        "panorama"
+      ],
+      "notes": [
+        "panorama[flag]: en-boy orani 3.0 (kirpma sonrasi kisa kenar dar)"
+      ],
+      "score": 95
+    },
+    {
+      "candidate_id": "eindhoven:foto:hightech-campus-03",
+      "entry_id": "eindhoven:hightech-campus",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 105
+    },
+    {
+      "candidate_id": "eindhoven:foto:hightech-campus-04",
+      "entry_id": "eindhoven:hightech-campus",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 105
+    },
+    {
+      "candidate_id": "eindhoven:foto:hightech-campus-05",
+      "entry_id": "eindhoven:hightech-campus",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 105
+    },
+    {
+      "candidate_id": "eindhoven:foto:18-septemberplein-01",
+      "entry_id": "eindhoven:18-septemberplein",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:18-septemberplein-02",
+      "entry_id": "eindhoven:18-septemberplein",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:18-septemberplein-03",
+      "entry_id": "eindhoven:18-septemberplein",
+      "decision": "flag",
+      "reasons": [
+        "panorama"
+      ],
+      "notes": [
+        "panorama[flag]: en-boy orani 2.6 (kirpma sonrasi kisa kenar dar)"
+      ],
+      "score": 100
+    },
+    {
+      "candidate_id": "eindhoven:foto:grote-markt-01",
+      "entry_id": "eindhoven:grote-markt",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:grote-markt-02",
+      "entry_id": "eindhoven:grote-markt",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 105
+    },
+    {
+      "candidate_id": "eindhoven:foto:catharinaplein-01",
+      "entry_id": "eindhoven:catharinaplein",
+      "decision": "flag",
+      "reasons": [
+        "detail_interior"
+      ],
+      "notes": [
+        "detail_interior[flag]: detay/ic mekan: 'organs'"
+      ],
+      "score": 100
+    },
+    {
+      "candidate_id": "eindhoven:foto:catharinaplein-02",
+      "entry_id": "eindhoven:catharinaplein",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:catharinaplein-03",
+      "entry_id": "eindhoven:catharinaplein",
+      "decision": "flag",
+      "reasons": [
+        "detail_interior"
+      ],
+      "notes": [
+        "detail_interior[flag]: detay/ic mekan: 'organs'"
+      ],
+      "score": 100
+    },
+    {
+      "candidate_id": "eindhoven:foto:wilhelminaplein-01",
+      "entry_id": "eindhoven:wilhelminaplein",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:wilhelminaplein-02",
+      "entry_id": "eindhoven:wilhelminaplein",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:wilhelminaplein-03",
+      "entry_id": "eindhoven:wilhelminaplein",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:sint-trudokerk-01",
+      "entry_id": "eindhoven:sint-trudokerk",
+      "decision": "flag",
+      "reasons": [
+        "detail_interior"
+      ],
+      "notes": [
+        "detail_interior[flag]: detay/ic mekan: 'graf'"
+      ],
+      "score": 100
+    },
+    {
+      "candidate_id": "eindhoven:foto:sint-trudokerk-02",
+      "entry_id": "eindhoven:sint-trudokerk",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:sint-trudokerk-03",
+      "entry_id": "eindhoven:sint-trudokerk",
+      "decision": "flag",
+      "reasons": [
+        "detail_interior"
+      ],
+      "notes": [
+        "detail_interior[flag]: detay/ic mekan: 'graf'"
+      ],
+      "score": 100
+    },
+    {
+      "candidate_id": "eindhoven:foto:woenselse-watermolen-01",
+      "entry_id": "eindhoven:woenselse-watermolen",
+      "decision": "flag",
+      "reasons": [
+        "rights_review"
+      ],
+      "notes": [
+        "rights_review[flag]: kisi/eser haklari incelemesi: 'sculptures'"
+      ],
+      "score": 100
+    },
+    {
+      "candidate_id": "eindhoven:foto:klooster-marienhage-01",
+      "entry_id": "eindhoven:klooster-marienhage",
+      "decision": "flag",
+      "reasons": [
+        "rights_review"
+      ],
+      "notes": [
+        "rights_review[flag]: kisi/eser haklari incelemesi: 'sculptures'"
+      ],
+      "score": 100
+    },
+    {
+      "candidate_id": "eindhoven:foto:klooster-marienhage-02",
+      "entry_id": "eindhoven:klooster-marienhage",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:klooster-marienhage-03",
+      "entry_id": "eindhoven:klooster-marienhage",
+      "decision": "reject",
+      "reasons": [
+        "art_not_photo",
+        "archive"
+      ],
+      "notes": [
+        "art_not_photo[reject]: eser/cizim isareti: 'etchings'",
+        "archive[flag]: cekim yili 1746 < 1995: tarihli altyazi gerekir"
+      ],
+      "score": 50
+    },
+    {
+      "candidate_id": "eindhoven:foto:molen-annemie-01",
+      "entry_id": "eindhoven:molen-annemie",
+      "decision": "flag",
+      "reasons": [
+        "archive"
+      ],
+      "notes": [
+        "archive[flag]: cekim yili 1966 < 1995: tarihli altyazi gerekir"
+      ],
+      "score": 100
+    },
+    {
+      "candidate_id": "eindhoven:foto:molen-annemie-02",
+      "entry_id": "eindhoven:molen-annemie",
+      "decision": "flag",
+      "reasons": [
+        "archive"
+      ],
+      "notes": [
+        "archive[flag]: cekim yili 1966 < 1995: tarihli altyazi gerekir"
+      ],
+      "score": 100
+    },
+    {
+      "candidate_id": "eindhoven:foto:genneper-watermolen-01",
+      "entry_id": "eindhoven:genneper-watermolen",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:genneper-watermolen-02",
+      "entry_id": "eindhoven:genneper-watermolen",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:genneper-watermolen-03",
+      "entry_id": "eindhoven:genneper-watermolen",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:collse-watermolen-01",
+      "entry_id": "eindhoven:collse-watermolen",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:collse-watermolen-02",
+      "entry_id": "eindhoven:collse-watermolen",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:collse-watermolen-03",
+      "entry_id": "eindhoven:collse-watermolen",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:collse-watermolen-04",
+      "entry_id": "eindhoven:collse-watermolen",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:collse-watermolen-05",
+      "entry_id": "eindhoven:collse-watermolen",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:sint-petruskerk-01",
+      "entry_id": "eindhoven:sint-petruskerk",
+      "decision": "flag",
+      "reasons": [
+        "statue_subject"
+      ],
+      "notes": [
+        "statue_subject[flag]: heykel/anit konusu: 'beelden'"
+      ],
+      "score": 100
+    },
+    {
+      "candidate_id": "eindhoven:foto:sint-petruskerk-02",
+      "entry_id": "eindhoven:sint-petruskerk",
+      "decision": "flag",
+      "reasons": [
+        "statue_subject"
+      ],
+      "notes": [
+        "statue_subject[flag]: heykel/anit konusu: 'beelden'"
+      ],
+      "score": 100
+    },
+    {
+      "candidate_id": "eindhoven:foto:sint-petruskerk-03",
+      "entry_id": "eindhoven:sint-petruskerk",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:sint-lambertuskerk-01",
+      "entry_id": "eindhoven:sint-lambertuskerk",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:sint-lambertuskerk-02",
+      "entry_id": "eindhoven:sint-lambertuskerk",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:sint-lambertuskerk-03",
+      "entry_id": "eindhoven:sint-lambertuskerk",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:steentjeskerk-01",
+      "entry_id": "eindhoven:steentjeskerk",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:steentjeskerk-02",
+      "entry_id": "eindhoven:steentjeskerk",
+      "decision": "flag",
+      "reasons": [
+        "statue_subject",
+        "rights_review"
+      ],
+      "notes": [
+        "statue_subject[flag]: heykel/anit konusu: 'statues'",
+        "rights_review[flag]: kisi/eser haklari incelemesi: 'sculptures'"
+      ],
+      "score": 90
+    },
+    {
+      "candidate_id": "eindhoven:foto:steentjeskerk-03",
+      "entry_id": "eindhoven:steentjeskerk",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:heilig-hartkerk-01",
+      "entry_id": "eindhoven:heilig-hartkerk",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:heilig-hartkerk-02",
+      "entry_id": "eindhoven:heilig-hartkerk",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:heilig-hartkerk-03",
+      "entry_id": "eindhoven:heilig-hartkerk",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:sint-theresiakerk-01",
+      "entry_id": "eindhoven:sint-theresiakerk",
+      "decision": "flag",
+      "reasons": [
+        "gps_far"
+      ],
+      "notes": [
+        "gps_far[flag]: GPS mekana 5.3 km"
+      ],
+      "score": 100
+    },
+    {
+      "candidate_id": "eindhoven:foto:sint-martinuskerk-01",
+      "entry_id": "eindhoven:sint-martinuskerk",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:sint-martinuskerk-02",
+      "entry_id": "eindhoven:sint-martinuskerk",
+      "decision": "flag",
+      "reasons": [
+        "detail_interior"
+      ],
+      "notes": [
+        "detail_interior[flag]: detay/ic mekan: 'interieur'"
+      ],
+      "score": 100
+    },
+    {
+      "candidate_id": "eindhoven:foto:sint-martinuskerk-03",
+      "entry_id": "eindhoven:sint-martinuskerk",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:paterskerk-01",
+      "entry_id": "eindhoven:paterskerk",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:paterskerk-02",
+      "entry_id": "eindhoven:paterskerk",
+      "decision": "flag",
+      "reasons": [
+        "statue_subject"
+      ],
+      "notes": [
+        "statue_subject[flag]: heykel/anit konusu: 'statue'"
+      ],
+      "score": 100
+    },
+    {
+      "candidate_id": "eindhoven:foto:paterskerk-03",
+      "entry_id": "eindhoven:paterskerk",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:clarissenklooster-01",
+      "entry_id": "eindhoven:clarissenklooster",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:clarissenklooster-02",
+      "entry_id": "eindhoven:clarissenklooster",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:clarissenklooster-03",
+      "entry_id": "eindhoven:clarissenklooster",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:philips-observatorium-01",
+      "entry_id": "eindhoven:philips-observatorium",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:philips-observatorium-02",
+      "entry_id": "eindhoven:philips-observatorium",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:van-maerlantlyceum-01",
+      "entry_id": "eindhoven:van-maerlantlyceum",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:van-maerlantlyceum-02",
+      "entry_id": "eindhoven:van-maerlantlyceum",
+      "decision": "flag",
+      "reasons": [
+        "rights_review"
+      ],
+      "notes": [
+        "rights_review[flag]: kisi/eser haklari incelemesi: 'sculptures'"
+      ],
+      "score": 100
+    },
+    {
+      "candidate_id": "eindhoven:foto:van-maerlantlyceum-03",
+      "entry_id": "eindhoven:van-maerlantlyceum",
+      "decision": "flag",
+      "reasons": [
+        "low_resolution"
+      ],
+      "notes": [
+        "low_resolution[flag]: kisa kenar 578px < 600"
+      ],
+      "score": 95
+    },
+    {
+      "candidate_id": "eindhoven:foto:gemeentelijke-hbs-01",
+      "entry_id": "eindhoven:gemeentelijke-hbs",
+      "decision": "flag",
+      "reasons": [
+        "rights_review"
+      ],
+      "notes": [
+        "rights_review[flag]: kisi/eser haklari incelemesi: 'sculptures'"
+      ],
+      "score": 100
+    },
+    {
+      "candidate_id": "eindhoven:foto:gemeentelijke-hbs-02",
+      "entry_id": "eindhoven:gemeentelijke-hbs",
+      "decision": "flag",
+      "reasons": [
+        "rights_review"
+      ],
+      "notes": [
+        "rights_review[flag]: kisi/eser haklari incelemesi: 'sculptures'"
+      ],
+      "score": 100
+    },
+    {
+      "candidate_id": "eindhoven:foto:st-joriscollege-01",
+      "entry_id": "eindhoven:st-joriscollege",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:w-hal-tue-01",
+      "entry_id": "eindhoven:w-hal-tue",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:w-hal-tue-02",
+      "entry_id": "eindhoven:w-hal-tue",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:nutsschool-reigerlaan-01",
+      "entry_id": "eindhoven:nutsschool-reigerlaan",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:nutsschool-reigerlaan-02",
+      "entry_id": "eindhoven:nutsschool-reigerlaan",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:nutsschool-reigerlaan-03",
+      "entry_id": "eindhoven:nutsschool-reigerlaan",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:nutsschool-reigerlaan-04",
+      "entry_id": "eindhoven:nutsschool-reigerlaan",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:nutsschool-reigerlaan-05",
+      "entry_id": "eindhoven:nutsschool-reigerlaan",
+      "decision": "flag",
+      "reasons": [
+        "detail_interior"
+      ],
+      "notes": [
+        "detail_interior[flag]: detay/ic mekan: 'detail'"
+      ],
+      "score": 100
+    },
+    {
+      "candidate_id": "eindhoven:foto:mennen-poortgebouw-01",
+      "entry_id": "eindhoven:mennen-poortgebouw",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 105
+    },
+    {
+      "candidate_id": "eindhoven:foto:mennen-poortgebouw-02",
+      "entry_id": "eindhoven:mennen-poortgebouw",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 105
+    },
+    {
+      "candidate_id": "eindhoven:foto:kasteel-eckart-01",
+      "entry_id": "eindhoven:kasteel-eckart",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:kasteel-eckart-02",
+      "entry_id": "eindhoven:kasteel-eckart",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:sint-joriskerk-01",
+      "entry_id": "eindhoven:sint-joriskerk",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:sint-joriskerk-02",
+      "entry_id": "eindhoven:sint-joriskerk",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:sint-joriskerk-03",
+      "entry_id": "eindhoven:sint-joriskerk",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:sint-joriskerk-04",
+      "entry_id": "eindhoven:sint-joriskerk",
+      "decision": "flag",
+      "reasons": [
+        "rights_review"
+      ],
+      "notes": [
+        "rights_review[flag]: kisi/eser haklari incelemesi: 'sculptures'"
+      ],
+      "score": 100
+    },
+    {
+      "candidate_id": "eindhoven:foto:sint-joriskerk-05",
+      "entry_id": "eindhoven:sint-joriskerk",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:gerardus-majellakerk-01",
+      "entry_id": "eindhoven:gerardus-majellakerk",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:gerardus-majellakerk-02",
+      "entry_id": "eindhoven:gerardus-majellakerk",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:gerardus-majellakerk-03",
+      "entry_id": "eindhoven:gerardus-majellakerk",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:villa-de-laak-01",
+      "entry_id": "eindhoven:villa-de-laak",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:villa-de-laak-02",
+      "entry_id": "eindhoven:villa-de-laak",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:villa-de-laak-03",
+      "entry_id": "eindhoven:villa-de-laak",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 105
+    },
+    {
+      "candidate_id": "eindhoven:foto:tue-atlas-01",
+      "entry_id": "eindhoven:tue-atlas",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:bevrijdingsmonument-01",
+      "entry_id": "eindhoven:bevrijdingsmonument",
+      "decision": "flag",
+      "reasons": [
+        "detail_interior"
+      ],
+      "notes": [
+        "detail_interior[flag]: detay/ic mekan: 'plaquette'"
+      ],
+      "score": 95
+    },
+    {
+      "candidate_id": "eindhoven:foto:bevrijdingsmonument-02",
+      "entry_id": "eindhoven:bevrijdingsmonument",
+      "decision": "flag",
+      "reasons": [
+        "detail_interior"
+      ],
+      "notes": [
+        "detail_interior[flag]: detay/ic mekan: 'plaquette'"
+      ],
+      "score": 95
+    },
+    {
+      "candidate_id": "eindhoven:foto:bevrijdingsmonument-03",
+      "entry_id": "eindhoven:bevrijdingsmonument",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:raadhuis-tongelre-01",
+      "entry_id": "eindhoven:raadhuis-tongelre",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:raadhuis-tongelre-02",
+      "entry_id": "eindhoven:raadhuis-tongelre",
+      "decision": "reject",
+      "reasons": [
+        "art_not_photo",
+        "archive"
+      ],
+      "notes": [
+        "art_not_photo[reject]: eser/cizim isareti: 'schetsontwerp'",
+        "archive[flag]: cekim yili 1910 < 1995: tarihli altyazi gerekir"
+      ],
+      "score": 50
+    },
+    {
+      "candidate_id": "eindhoven:foto:eindhoven-airport-terminal-01",
+      "entry_id": "eindhoven:eindhoven-airport-terminal",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:eindhoven-airport-terminal-02",
+      "entry_id": "eindhoven:eindhoven-airport-terminal",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:eindhoven-airport-terminal-03",
+      "entry_id": "eindhoven:eindhoven-airport-terminal",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:haftalik-pazarlar-01",
+      "entry_id": "eindhoven:haftalik-pazarlar",
+      "decision": "flag",
+      "reasons": [
+        "statue_subject"
+      ],
+      "notes": [
+        "statue_subject[flag]: heykel/anit konusu: 'standbeeld'"
+      ],
+      "score": 95
+    },
+    {
+      "candidate_id": "eindhoven:foto:haftalik-pazarlar-02",
+      "entry_id": "eindhoven:haftalik-pazarlar",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 105
+    },
+    {
+      "candidate_id": "eindhoven:foto:striatumseind-01",
+      "entry_id": "eindhoven:striatumseind",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:striatumseind-02",
+      "entry_id": "eindhoven:striatumseind",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:striatumseind-03",
+      "entry_id": "eindhoven:striatumseind",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:striatumseind-04",
+      "entry_id": "eindhoven:striatumseind",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:striatumseind-05",
+      "entry_id": "eindhoven:striatumseind",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:de-bergen-horeca-01",
+      "entry_id": "eindhoven:de-bergen-horeca",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 105
+    },
+    {
+      "candidate_id": "eindhoven:foto:de-bergen-horeca-02",
+      "entry_id": "eindhoven:de-bergen-horeca",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 105
+    },
+    {
+      "candidate_id": "eindhoven:foto:de-bergen-horeca-03",
+      "entry_id": "eindhoven:de-bergen-horeca",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 105
+    },
+    {
+      "candidate_id": "eindhoven:foto:vershal-het-veem-01",
+      "entry_id": "eindhoven:vershal-het-veem",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:vershal-het-veem-02",
+      "entry_id": "eindhoven:vershal-het-veem",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 105
+    },
+    {
+      "candidate_id": "eindhoven:foto:vershal-het-veem-03",
+      "entry_id": "eindhoven:vershal-het-veem",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:kruisstraat-keent-01",
+      "entry_id": "eindhoven:kruisstraat-keent",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:kruisstraat-keent-02",
+      "entry_id": "eindhoven:kruisstraat-keent",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:kruisstraat-keent-03",
+      "entry_id": "eindhoven:kruisstraat-keent",
+      "decision": "reject",
+      "reasons": [
+        "other_place"
+      ],
+      "notes": [
+        "other_place[reject]: belediye adi yok, baska yer var: coevorden"
+      ],
+      "score": 60
+    },
+    {
+      "candidate_id": "eindhoven:foto:cafe-100-watt-01",
+      "entry_id": "eindhoven:cafe-100-watt",
+      "decision": "flag",
+      "reasons": [
+        "detail_interior"
+      ],
+      "notes": [
+        "detail_interior[flag]: detay/ic mekan: 'beer'"
+      ],
+      "score": 100
+    },
+    {
+      "candidate_id": "eindhoven:foto:cafe-100-watt-02",
+      "entry_id": "eindhoven:cafe-100-watt",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:cafe-100-watt-03",
+      "entry_id": "eindhoven:cafe-100-watt",
+      "decision": "reject",
+      "reasons": [
+        "place_mismatch",
+        "gps_far",
+        "detail_interior"
+      ],
+      "notes": [
+        "place_mismatch[flag]: baslik/aciklama/kategorilerde belediye veya mekan adi yok",
+        "gps_far[reject]: GPS sehir merkezine 7934.3 km (> 25.0)",
+        "detail_interior[flag]: detay/ic mekan: 'bottles'"
+      ],
+      "score": 35
+    },
+    {
+      "candidate_id": "eindhoven:foto:heuvel-galerie-01",
+      "entry_id": "eindhoven:heuvel-galerie",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:heuvel-galerie-02",
+      "entry_id": "eindhoven:heuvel-galerie",
+      "decision": "flag",
+      "reasons": [
+        "rights_review"
+      ],
+      "notes": [
+        "rights_review[flag]: kisi/eser haklari incelemesi: 'festival'"
+      ],
+      "score": 100
+    },
+    {
+      "candidate_id": "eindhoven:foto:heuvel-galerie-03",
+      "entry_id": "eindhoven:heuvel-galerie",
+      "decision": "flag",
+      "reasons": [
+        "rights_review"
+      ],
+      "notes": [
+        "rights_review[flag]: kisi/eser haklari incelemesi: 'festival'"
+      ],
+      "score": 100
+    },
+    {
+      "candidate_id": "eindhoven:foto:philips-nederland-gebouw-01",
+      "entry_id": "eindhoven:philips-nederland-gebouw",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:herdgang-01",
+      "entry_id": "eindhoven:herdgang",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 105
+    },
+    {
+      "candidate_id": "eindhoven:foto:herdgang-02",
+      "entry_id": "eindhoven:herdgang",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 105
+    },
+    {
+      "candidate_id": "eindhoven:foto:winkelcentrum-woensel-01",
+      "entry_id": "eindhoven:winkelcentrum-woensel",
+      "decision": "flag",
+      "reasons": [
+        "statue_subject",
+        "rights_review"
+      ],
+      "notes": [
+        "statue_subject[flag]: heykel/anit konusu: 'beelden'",
+        "rights_review[flag]: kisi/eser haklari incelemesi: 'sculptures'"
+      ],
+      "score": 90
+    },
+    {
+      "candidate_id": "eindhoven:foto:winkelcentrum-woensel-02",
+      "entry_id": "eindhoven:winkelcentrum-woensel",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:porthos-toren-01",
+      "entry_id": "eindhoven:porthos-toren",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:porthos-toren-02",
+      "entry_id": "eindhoven:porthos-toren",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 105
+    },
+    {
+      "candidate_id": "eindhoven:foto:tue-auditorium-01",
+      "entry_id": "eindhoven:tue-auditorium",
+      "decision": "flag",
+      "reasons": [
+        "archive"
+      ],
+      "notes": [
+        "archive[flag]: cekim yili 1966 < 1995: tarihli altyazi gerekir"
+      ],
+      "score": 100
+    },
+    {
+      "candidate_id": "eindhoven:foto:tue-auditorium-02",
+      "entry_id": "eindhoven:tue-auditorium",
+      "decision": "flag",
+      "reasons": [
+        "archive"
+      ],
+      "notes": [
+        "archive[flag]: cekim yili 1966 < 1995: tarihli altyazi gerekir"
+      ],
+      "score": 100
+    },
+    {
+      "candidate_id": "eindhoven:foto:oorlogsmonument-fellenoord-01",
+      "entry_id": "eindhoven:oorlogsmonument-fellenoord",
+      "decision": "keep",
+      "reasons": [],
+      "notes": [],
+      "score": 110
+    },
+    {
+      "candidate_id": "eindhoven:foto:oorlogsmonument-fellenoord-02",
+      "entry_id": "eindhoven:oorlogsmonument-fellenoord",
+      "decision": "flag",
+      "reasons": [
+        "detail_interior"
+      ],
+      "notes": [
+        "detail_interior[flag]: detay/ic mekan: 'detail'"
+      ],
+      "score": 100
+    }
+  ],
+  "shortlists": {
+    "eindhoven:kapak-skyline": [
+      "eindhoven:foto:kapak-skyline-01"
+    ],
+    "eindhoven:kapak-strijps": [
+      "eindhoven:foto:kapak-strijps-01"
+    ],
+    "eindhoven:kapak-glow": [
+      "eindhoven:foto:kapak-glow-01"
+    ],
+    "eindhoven:kapak-doga": [
+      "eindhoven:foto:kapak-doga-01"
+    ],
+    "eindhoven:kapak-endustri": [
+      "eindhoven:foto:kapak-endustri-01"
+    ],
+    "eindhoven:kapak-evoluon": [
+      "eindhoven:foto:kapak-evoluon-01"
+    ],
+    "eindhoven:kapak-stadion": [
+      "eindhoven:foto:kapak-stadion-01"
+    ],
+    "eindhoven:mah-binnenstad": [
+      "eindhoven:foto:mah-binnenstad-01"
+    ],
+    "eindhoven:mah-de-bergen": [
+      "eindhoven:foto:mah-de-bergen-01"
+    ],
+    "eindhoven:mah-strijp-s": [
+      "eindhoven:foto:mah-strijp-s-01"
+    ],
+    "eindhoven:mah-philipsdorp": [
+      "eindhoven:foto:mah-philipsdorp-01"
+    ],
+    "eindhoven:mah-meerhoven": [
+      "eindhoven:foto:mah-meerhoven-01"
+    ],
+    "eindhoven:mah-oud-woensel": [
+      "eindhoven:foto:mah-oud-woensel-01"
+    ],
+    "eindhoven:mah-acht": [
+      "eindhoven:foto:mah-acht-01"
+    ],
+    "eindhoven:mah-roosten": [
+      "eindhoven:foto:mah-roosten-01"
+    ],
+    "eindhoven:mah-doornakkers": [
+      "eindhoven:foto:mah-doornakkers-01"
+    ],
+    "eindhoven:mah-villapark": [
+      "eindhoven:foto:mah-villapark-01"
+    ],
+    "eindhoven:mah-karpen-koudenhoven": [
+      "eindhoven:foto:mah-karpen-koudenhoven-01"
+    ],
+    "eindhoven:mah-oud-stratum": [
+      "eindhoven:foto:mah-oud-stratum-01"
+    ],
+    "eindhoven:mah-burghplan": [
+      "eindhoven:foto:mah-burghplan-01"
+    ],
+    "eindhoven:mah-oud-gestel": [
+      "eindhoven:foto:mah-oud-gestel-01"
+    ],
+    "eindhoven:mah-hofke-tongelre": [
+      "eindhoven:foto:mah-hofke-tongelre-01"
+    ],
+    "eindhoven:van-abbemuseum": [
+      "eindhoven:foto:van-abbemuseum-01",
+      "eindhoven:foto:van-abbemuseum-03",
+      "eindhoven:foto:van-abbemuseum-05"
+    ],
+    "eindhoven:philips-museum": [
+      "eindhoven:foto:philips-museum-01",
+      "eindhoven:foto:philips-museum-02",
+      "eindhoven:foto:philips-museum-03"
+    ],
+    "eindhoven:daf-museum": [
+      "eindhoven:foto:daf-museum-01",
+      "eindhoven:foto:daf-museum-02",
+      "eindhoven:foto:daf-museum-03"
+    ],
+    "eindhoven:next-nature-evoluon": [
+      "eindhoven:foto:next-nature-evoluon-01",
+      "eindhoven:foto:next-nature-evoluon-02",
+      "eindhoven:foto:next-nature-evoluon-03"
+    ],
+    "eindhoven:ton-smits-huis": [
+      "eindhoven:foto:ton-smits-huis-01",
+      "eindhoven:foto:ton-smits-huis-02"
+    ],
+    "eindhoven:mu-arthouse": [
+      "eindhoven:foto:mu-arthouse-01"
+    ],
+    "eindhoven:kazerne-design": [
+      "eindhoven:foto:kazerne-design-01",
+      "eindhoven:foto:kazerne-design-02"
+    ],
+    "eindhoven:design-academy": [
+      "eindhoven:foto:design-academy-01",
+      "eindhoven:foto:design-academy-02",
+      "eindhoven:foto:design-academy-03"
+    ],
+    "eindhoven:berenkuil-street-art": [
+      "eindhoven:foto:berenkuil-street-art-02",
+      "eindhoven:foto:berenkuil-street-art-01",
+      "eindhoven:foto:berenkuil-street-art-03"
+    ],
+    "eindhoven:muziekgebouw": [
+      "eindhoven:foto:muziekgebouw-01",
+      "eindhoven:foto:muziekgebouw-02"
+    ],
+    "eindhoven:parktheater": [
+      "eindhoven:foto:parktheater-01",
+      "eindhoven:foto:parktheater-02"
+    ],
+    "eindhoven:effenaar": [
+      "eindhoven:foto:effenaar-03",
+      "eindhoven:foto:effenaar-01",
+      "eindhoven:foto:effenaar-02"
+    ],
+    "eindhoven:natlab": [
+      "eindhoven:foto:natlab-01",
+      "eindhoven:foto:natlab-02",
+      "eindhoven:foto:natlab-03"
+    ],
+    "eindhoven:cafe-wilhelmina": [
+      "eindhoven:foto:cafe-wilhelmina-01"
+    ],
+    "eindhoven:philips-stadion": [
+      "eindhoven:foto:philips-stadion-01",
+      "eindhoven:foto:philips-stadion-02",
+      "eindhoven:foto:philips-stadion-04"
+    ],
+    "eindhoven:hoogenband-zwemstadion": [
+      "eindhoven:foto:hoogenband-zwemstadion-01",
+      "eindhoven:foto:hoogenband-zwemstadion-02"
+    ],
+    "eindhoven:ijssportcentrum": [
+      "eindhoven:foto:ijssportcentrum-01",
+      "eindhoven:foto:ijssportcentrum-02"
+    ],
+    "eindhoven:jan-louwers-stadion": [
+      "eindhoven:foto:jan-louwers-stadion-01"
+    ],
+    "eindhoven:oranje-rood-hockey": [
+      "eindhoven:foto:oranje-rood-hockey-01"
+    ],
+    "eindhoven:sportpark-aalsterweg": [
+      "eindhoven:foto:sportpark-aalsterweg-01"
+    ],
+    "eindhoven:speelpark-de-splinter": [
+      "eindhoven:foto:speelpark-de-splinter-01",
+      "eindhoven:foto:speelpark-de-splinter-02"
+    ],
+    "eindhoven:zwembad-tongelreep": [
+      "eindhoven:foto:zwembad-tongelreep-01"
+    ],
+    "eindhoven:historisch-openluchtmuseum": [
+      "eindhoven:foto:historisch-openluchtmuseum-01",
+      "eindhoven:foto:historisch-openluchtmuseum-03",
+      "eindhoven:foto:historisch-openluchtmuseum-02"
+    ],
+    "eindhoven:genneper-parken": [
+      "eindhoven:foto:genneper-parken-01",
+      "eindhoven:foto:genneper-parken-02"
+    ],
+    "eindhoven:stadswandelpark": [
+      "eindhoven:foto:stadswandelpark-01",
+      "eindhoven:foto:stadswandelpark-02",
+      "eindhoven:foto:stadswandelpark-03"
+    ],
+    "eindhoven:karpendonkse-plas": [
+      "eindhoven:foto:karpendonkse-plas-01",
+      "eindhoven:foto:karpendonkse-plas-02",
+      "eindhoven:foto:karpendonkse-plas-03"
+    ],
+    "eindhoven:leenderheide": [
+      "eindhoven:foto:leenderheide-01",
+      "eindhoven:foto:leenderheide-02"
+    ],
+    "eindhoven:eikenburg": [
+      "eindhoven:foto:eikenburg-01",
+      "eindhoven:foto:eikenburg-02",
+      "eindhoven:foto:eikenburg-03"
+    ],
+    "eindhoven:grote-beek": [
+      "eindhoven:foto:grote-beek-03",
+      "eindhoven:foto:grote-beek-01",
+      "eindhoven:foto:grote-beek-02"
+    ],
+    "eindhoven:kanaal-eindhoven": [
+      "eindhoven:foto:kanaal-eindhoven-01",
+      "eindhoven:foto:kanaal-eindhoven-02",
+      "eindhoven:foto:kanaal-eindhoven-03"
+    ],
+    "eindhoven:dommel-eindhoven": [
+      "eindhoven:foto:dommel-eindhoven-01",
+      "eindhoven:foto:dommel-eindhoven-02",
+      "eindhoven:foto:dommel-eindhoven-03"
+    ],
+    "eindhoven:strijp-s": [
+      "eindhoven:foto:strijp-s-01",
+      "eindhoven:foto:strijp-s-02",
+      "eindhoven:foto:strijp-s-04"
+    ],
+    "eindhoven:klokgebouw": [
+      "eindhoven:foto:klokgebouw-01",
+      "eindhoven:foto:klokgebouw-02",
+      "eindhoven:foto:klokgebouw-03"
+    ],
+    "eindhoven:lichttoren": [
+      "eindhoven:foto:lichttoren-03",
+      "eindhoven:foto:lichttoren-01",
+      "eindhoven:foto:lichttoren-02"
+    ],
+    "eindhoven:witte-dame": [
+      "eindhoven:foto:witte-dame-01",
+      "eindhoven:foto:witte-dame-02",
+      "eindhoven:foto:witte-dame-03"
+    ],
+    "eindhoven:de-blob": [
+      "eindhoven:foto:de-blob-01",
+      "eindhoven:foto:de-blob-02",
+      "eindhoven:foto:de-blob-03"
+    ],
+    "eindhoven:de-admirant": [
+      "eindhoven:foto:de-admirant-01",
+      "eindhoven:foto:de-admirant-02",
+      "eindhoven:foto:de-admirant-03"
+    ],
+    "eindhoven:vesteda-toren": [
+      "eindhoven:foto:vesteda-toren-01",
+      "eindhoven:foto:vesteda-toren-02",
+      "eindhoven:foto:vesteda-toren-03"
+    ],
+    "eindhoven:trudo-vertical-forest": [
+      "eindhoven:foto:trudo-vertical-forest-01",
+      "eindhoven:foto:trudo-vertical-forest-02",
+      "eindhoven:foto:trudo-vertical-forest-03"
+    ],
+    "eindhoven:station-eindhoven-centraal": [
+      "eindhoven:foto:station-eindhoven-centraal-01"
+    ],
+    "eindhoven:stadskantoor": [
+      "eindhoven:foto:stadskantoor-01"
+    ],
+    "eindhoven:bijenkorf-eindhoven": [
+      "eindhoven:foto:bijenkorf-eindhoven-01",
+      "eindhoven:foto:bijenkorf-eindhoven-02",
+      "eindhoven:foto:bijenkorf-eindhoven-03"
+    ],
+    "eindhoven:sint-catharinakerk": [
+      "eindhoven:foto:sint-catharinakerk-01",
+      "eindhoven:foto:sint-catharinakerk-02",
+      "eindhoven:foto:sint-catharinakerk-04"
+    ],
+    "eindhoven:oude-toren-woensel": [
+      "eindhoven:foto:oude-toren-woensel-01"
+    ],
+    "eindhoven:watertoren": [
+      "eindhoven:foto:watertoren-01",
+      "eindhoven:foto:watertoren-02",
+      "eindhoven:foto:watertoren-03"
+    ],
+    "eindhoven:hoge-herde": [
+      "eindhoven:foto:hoge-herde-02",
+      "eindhoven:foto:hoge-herde-03",
+      "eindhoven:foto:hoge-herde-01"
+    ],
+    "eindhoven:hightech-campus": [
+      "eindhoven:foto:hightech-campus-03",
+      "eindhoven:foto:hightech-campus-04",
+      "eindhoven:foto:hightech-campus-05"
+    ],
+    "eindhoven:18-septemberplein": [
+      "eindhoven:foto:18-septemberplein-01",
+      "eindhoven:foto:18-septemberplein-02",
+      "eindhoven:foto:18-septemberplein-03"
+    ],
+    "eindhoven:grote-markt": [
+      "eindhoven:foto:grote-markt-01",
+      "eindhoven:foto:grote-markt-02"
+    ],
+    "eindhoven:catharinaplein": [
+      "eindhoven:foto:catharinaplein-02",
+      "eindhoven:foto:catharinaplein-01",
+      "eindhoven:foto:catharinaplein-03"
+    ],
+    "eindhoven:wilhelminaplein": [
+      "eindhoven:foto:wilhelminaplein-01",
+      "eindhoven:foto:wilhelminaplein-02",
+      "eindhoven:foto:wilhelminaplein-03"
+    ],
+    "eindhoven:sint-trudokerk": [
+      "eindhoven:foto:sint-trudokerk-02",
+      "eindhoven:foto:sint-trudokerk-01",
+      "eindhoven:foto:sint-trudokerk-03"
+    ],
+    "eindhoven:woenselse-watermolen": [
+      "eindhoven:foto:woenselse-watermolen-01"
+    ],
+    "eindhoven:klooster-marienhage": [
+      "eindhoven:foto:klooster-marienhage-02",
+      "eindhoven:foto:klooster-marienhage-01"
+    ],
+    "eindhoven:molen-annemie": [
+      "eindhoven:foto:molen-annemie-01",
+      "eindhoven:foto:molen-annemie-02"
+    ],
+    "eindhoven:genneper-watermolen": [
+      "eindhoven:foto:genneper-watermolen-01",
+      "eindhoven:foto:genneper-watermolen-02",
+      "eindhoven:foto:genneper-watermolen-03"
+    ],
+    "eindhoven:collse-watermolen": [
+      "eindhoven:foto:collse-watermolen-01",
+      "eindhoven:foto:collse-watermolen-02",
+      "eindhoven:foto:collse-watermolen-03"
+    ],
+    "eindhoven:sint-petruskerk": [
+      "eindhoven:foto:sint-petruskerk-03",
+      "eindhoven:foto:sint-petruskerk-01",
+      "eindhoven:foto:sint-petruskerk-02"
+    ],
+    "eindhoven:sint-lambertuskerk": [
+      "eindhoven:foto:sint-lambertuskerk-01",
+      "eindhoven:foto:sint-lambertuskerk-02",
+      "eindhoven:foto:sint-lambertuskerk-03"
+    ],
+    "eindhoven:steentjeskerk": [
+      "eindhoven:foto:steentjeskerk-01",
+      "eindhoven:foto:steentjeskerk-03",
+      "eindhoven:foto:steentjeskerk-02"
+    ],
+    "eindhoven:heilig-hartkerk": [
+      "eindhoven:foto:heilig-hartkerk-01",
+      "eindhoven:foto:heilig-hartkerk-02",
+      "eindhoven:foto:heilig-hartkerk-03"
+    ],
+    "eindhoven:sint-theresiakerk": [
+      "eindhoven:foto:sint-theresiakerk-01"
+    ],
+    "eindhoven:sint-martinuskerk": [
+      "eindhoven:foto:sint-martinuskerk-01",
+      "eindhoven:foto:sint-martinuskerk-03",
+      "eindhoven:foto:sint-martinuskerk-02"
+    ],
+    "eindhoven:paterskerk": [
+      "eindhoven:foto:paterskerk-01",
+      "eindhoven:foto:paterskerk-03",
+      "eindhoven:foto:paterskerk-02"
+    ],
+    "eindhoven:clarissenklooster": [
+      "eindhoven:foto:clarissenklooster-01",
+      "eindhoven:foto:clarissenklooster-02",
+      "eindhoven:foto:clarissenklooster-03"
+    ],
+    "eindhoven:philips-observatorium": [
+      "eindhoven:foto:philips-observatorium-01",
+      "eindhoven:foto:philips-observatorium-02"
+    ],
+    "eindhoven:van-maerlantlyceum": [
+      "eindhoven:foto:van-maerlantlyceum-01",
+      "eindhoven:foto:van-maerlantlyceum-02",
+      "eindhoven:foto:van-maerlantlyceum-03"
+    ],
+    "eindhoven:gemeentelijke-hbs": [
+      "eindhoven:foto:gemeentelijke-hbs-01",
+      "eindhoven:foto:gemeentelijke-hbs-02"
+    ],
+    "eindhoven:st-joriscollege": [
+      "eindhoven:foto:st-joriscollege-01"
+    ],
+    "eindhoven:w-hal-tue": [
+      "eindhoven:foto:w-hal-tue-01",
+      "eindhoven:foto:w-hal-tue-02"
+    ],
+    "eindhoven:nutsschool-reigerlaan": [
+      "eindhoven:foto:nutsschool-reigerlaan-01",
+      "eindhoven:foto:nutsschool-reigerlaan-02",
+      "eindhoven:foto:nutsschool-reigerlaan-03"
+    ],
+    "eindhoven:mennen-poortgebouw": [
+      "eindhoven:foto:mennen-poortgebouw-01",
+      "eindhoven:foto:mennen-poortgebouw-02"
+    ],
+    "eindhoven:kasteel-eckart": [
+      "eindhoven:foto:kasteel-eckart-01",
+      "eindhoven:foto:kasteel-eckart-02"
+    ],
+    "eindhoven:sint-joriskerk": [
+      "eindhoven:foto:sint-joriskerk-01",
+      "eindhoven:foto:sint-joriskerk-02",
+      "eindhoven:foto:sint-joriskerk-03"
+    ],
+    "eindhoven:gerardus-majellakerk": [
+      "eindhoven:foto:gerardus-majellakerk-01",
+      "eindhoven:foto:gerardus-majellakerk-02",
+      "eindhoven:foto:gerardus-majellakerk-03"
+    ],
+    "eindhoven:villa-de-laak": [
+      "eindhoven:foto:villa-de-laak-01",
+      "eindhoven:foto:villa-de-laak-02",
+      "eindhoven:foto:villa-de-laak-03"
+    ],
+    "eindhoven:tue-atlas": [
+      "eindhoven:foto:tue-atlas-01"
+    ],
+    "eindhoven:bevrijdingsmonument": [
+      "eindhoven:foto:bevrijdingsmonument-03",
+      "eindhoven:foto:bevrijdingsmonument-01",
+      "eindhoven:foto:bevrijdingsmonument-02"
+    ],
+    "eindhoven:raadhuis-tongelre": [
+      "eindhoven:foto:raadhuis-tongelre-01"
+    ],
+    "eindhoven:eindhoven-airport-terminal": [
+      "eindhoven:foto:eindhoven-airport-terminal-01",
+      "eindhoven:foto:eindhoven-airport-terminal-02",
+      "eindhoven:foto:eindhoven-airport-terminal-03"
+    ],
+    "eindhoven:haftalik-pazarlar": [
+      "eindhoven:foto:haftalik-pazarlar-02",
+      "eindhoven:foto:haftalik-pazarlar-01"
+    ],
+    "eindhoven:striatumseind": [
+      "eindhoven:foto:striatumseind-01",
+      "eindhoven:foto:striatumseind-02",
+      "eindhoven:foto:striatumseind-03"
+    ],
+    "eindhoven:de-bergen-horeca": [
+      "eindhoven:foto:de-bergen-horeca-01",
+      "eindhoven:foto:de-bergen-horeca-02",
+      "eindhoven:foto:de-bergen-horeca-03"
+    ],
+    "eindhoven:vershal-het-veem": [
+      "eindhoven:foto:vershal-het-veem-01",
+      "eindhoven:foto:vershal-het-veem-03",
+      "eindhoven:foto:vershal-het-veem-02"
+    ],
+    "eindhoven:kruisstraat-keent": [
+      "eindhoven:foto:kruisstraat-keent-01",
+      "eindhoven:foto:kruisstraat-keent-02"
+    ],
+    "eindhoven:cafe-100-watt": [
+      "eindhoven:foto:cafe-100-watt-02",
+      "eindhoven:foto:cafe-100-watt-01"
+    ],
+    "eindhoven:heuvel-galerie": [
+      "eindhoven:foto:heuvel-galerie-01",
+      "eindhoven:foto:heuvel-galerie-02",
+      "eindhoven:foto:heuvel-galerie-03"
+    ],
+    "eindhoven:philips-nederland-gebouw": [
+      "eindhoven:foto:philips-nederland-gebouw-01"
+    ],
+    "eindhoven:herdgang": [
+      "eindhoven:foto:herdgang-01",
+      "eindhoven:foto:herdgang-02"
+    ],
+    "eindhoven:winkelcentrum-woensel": [
+      "eindhoven:foto:winkelcentrum-woensel-02",
+      "eindhoven:foto:winkelcentrum-woensel-01"
+    ],
+    "eindhoven:porthos-toren": [
+      "eindhoven:foto:porthos-toren-01",
+      "eindhoven:foto:porthos-toren-02"
+    ],
+    "eindhoven:tue-auditorium": [
+      "eindhoven:foto:tue-auditorium-01",
+      "eindhoven:foto:tue-auditorium-02"
+    ],
+    "eindhoven:oorlogsmonument-fellenoord": [
+      "eindhoven:foto:oorlogsmonument-fellenoord-01",
+      "eindhoven:foto:oorlogsmonument-fellenoord-02"
+    ]
+  },
+  "summary": {
+    "candidates": 272,
+    "keep": 192,
+    "flag": 71,
+    "reject": 9,
+    "entries": 117,
+    "entries_without_shortlist": [
+      "eindhoven:kapak-merkez",
+      "eindhoven:mah-leenderheide"
+    ],
+    "reasons": {
+      "rights_review": 23,
+      "detail_interior": 15,
+      "panorama": 10,
+      "archive": 10,
+      "statue_subject": 9,
+      "art_not_photo": 5,
+      "gps_far": 5,
+      "place_mismatch": 4,
+      "off_subject": 4,
+      "low_resolution": 4,
+      "other_place": 1
+    }
+  }
+}

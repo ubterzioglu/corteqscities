@@ -1,0 +1,994 @@
+<!DOCTYPE html>
+<html lang="nl-NL" class="no-js">
+  <head>
+  <meta charset="utf-8" />
+  
+  <!--
+  ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+  Catharina Ziekenhuis Eindhoven
+
+  Digital strategy, Design & Development by:
+
+  Lemone
+  www.lemone.com
+  hello@lemone.com
+
+  %%%:         .          ..     .        .           .        ..
+  %%%:     :*%%%%%+. %%%*%%%%+*%%%%#.  =#%%%%*- +%%##%%%%=  =#%%%%#=
+  %%%:    -%%#:.-%%# %%%*:-%%%#-:*%%*.%%%=--#%%++%%%-:=%%% *%%+.:*%%+
+  %%%:    *%%%######.%%%.  *%%=  -%%*=%%+    %%%+%%+   %%%.%%%#####*:-#*
+  %%%+-----%%#-::=*. %%%.  *%%=  -%%*.%%%+-=#%%=+%%+   %%%.+%%*-:  -#%%%
+  %%%%%%%%:.+%%%%%*: %%%.  +%%-  -%%*  =#%%%%*- =%%+   %%%. -*%*. *%%%*:
+
+  ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+-->
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <script>
+    // Detect JavaScript
+    !(function (e) {
+      e.className = e.className.replace(/\bno-js\b/, "js");
+    })(document.documentElement);
+  </script>
+
+  
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        document.querySelectorAll('.js-cookiebot-show a').forEach(function (el) {
+            el.addEventListener('click', function (e) {
+                e.preventDefault();
+                Cookiebot.renew();
+            });
+        });
+
+        document.querySelectorAll('.js-cookiebot-withdraw', '.js-cookiebot-withdraw a').forEach(function (el) {
+            el.addEventListener('click', function (e) {
+                e.preventDefault();
+                Cookiebot.withdraw();
+                setTimeout(() => {
+                  Cookiebot.show();
+                }, 1000);
+            });
+        });
+    });
+  </script>
+
+  <!-- Google tag (gtag.js) -->
+<script type="text/plain" async src="https://www.googletagmanager.com/gtag/js?id=G-LRBZHQY9M4" data-cookieconsent="statistics, marketing"></script>
+<script type="text/plain" data-cookieconsent="statistics, marketing">
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-LRBZHQY9M4');
+</script>
+  <script type="text/javascript"
+		id="Cookiebot"
+		src="https://consent.cookiebot.com/uc.js"
+		data-implementation="wp"
+		data-cbid="4775ebf8-e5b1-499e-be7f-133953fcec1f"
+								></script>
+<title>Catharina Ziekenhuis &#x2d; Gedreven door het leven.</title>
+
+<!-- The SEO Framework: door Sybre Waaijer -->
+<meta name="robots" content="max-snippet:-1,max-image-preview:standard,max-video-preview:-1" />
+<link rel="canonical" href="https://www.catharinaziekenhuis.nl/" />
+<meta property="og:type" content="website" />
+<meta property="og:locale" content="nl_NL" />
+<meta property="og:site_name" content="Catharina Ziekenhuis" />
+<meta property="og:title" content="Catharina Ziekenhuis" />
+<meta property="og:url" content="https://www.catharinaziekenhuis.nl/" />
+<meta property="og:image" content="https://www.catharinaziekenhuis.nl/app/uploads/2023/12/Gedreven-door-het-leven-2204-scaled.jpg" />
+<meta property="og:image:width" content="2560" />
+<meta property="og:image:height" content="1280" />
+<meta property="og:image:alt" content="Een man en vrouw draaien lachend hand in hand buiten, omringd door bomen en zonlicht dat door de bladeren schijnt." />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Catharina Ziekenhuis" />
+<meta name="twitter:image" content="https://www.catharinaziekenhuis.nl/app/uploads/2023/12/Gedreven-door-het-leven-2204-scaled.jpg" />
+<meta name="twitter:image:alt" content="Een man en vrouw draaien lachend hand in hand buiten, omringd door bomen en zonlicht dat door de bladeren schijnt." />
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://www.catharinaziekenhuis.nl/#/schema/WebSite","url":"https://www.catharinaziekenhuis.nl/","name":"Catharina Ziekenhuis","description":"Gedreven door het leven.","inLanguage":"nl-NL","potentialAction":{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://www.catharinaziekenhuis.nl/zoeken/{search_term_string}/"},"query-input":"required name=search_term_string"},"publisher":{"@id":"https://www.catharinaziekenhuis.nl/#/schema/Organization"}},{"@type":"WebPage","@id":"https://www.catharinaziekenhuis.nl/","url":"https://www.catharinaziekenhuis.nl/","name":"Catharina Ziekenhuis &#x2d; Gedreven door het leven.","inLanguage":"nl-NL","isPartOf":{"@id":"https://www.catharinaziekenhuis.nl/#/schema/WebSite"},"breadcrumb":{"@type":"BreadcrumbList","@id":"https://www.catharinaziekenhuis.nl/#/schema/BreadcrumbList","itemListElement":{"@type":"ListItem","position":1,"name":"Catharina Ziekenhuis"}},"potentialAction":{"@type":"ReadAction","target":"https://www.catharinaziekenhuis.nl/"},"about":{"@id":"https://www.catharinaziekenhuis.nl/#/schema/Organization"}},{"@type":"Organization","@id":"https://www.catharinaziekenhuis.nl/#/schema/Organization","name":"Catharina Ziekenhuis","url":"https://www.catharinaziekenhuis.nl/","logo":{"@type":"ImageObject","url":"https://www.catharinaziekenhuis.nl/app/uploads/2021/07/cropped-android-chrome-512x512-1.png","contentUrl":"https://www.catharinaziekenhuis.nl/app/uploads/2021/07/cropped-android-chrome-512x512-1.png","width":512,"height":512,"inLanguage":"nl-NL","caption":"Rond ontwerp, horizontaal gedeeld: boven donkerpaars, onder lichtblauw. Witte cirkel overlapt beide helften."}}]}</script>
+<!-- / The SEO Framework: door Sybre Waaijer | 10.37ms meta | 5.27ms boot -->
+
+<style id='safe-svg-svg-icon-style-inline-css' type='text/css'>
+.safe-svg-cover{text-align:center}.safe-svg-cover .safe-svg-inside{display:inline-block;max-width:100%}.safe-svg-cover svg{fill:currentColor;height:100%;max-height:100%;max-width:100%;width:100%}
+
+</style>
+<style id='classic-theme-styles-inline-css' type='text/css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id='global-styles-inline-css' type='text/css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel="stylesheet" href="/app/themes/cze/dist/styles/main_391b5c56.css"><script src="/wp/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"></script><script src="/wp/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"></script><meta name="google-site-verification" content="BGinGKLhRAyX-UuzrYLbZwxDCtk1B81N6w2_SnttODM" /><meta name="google-site-verification" content="YBnUqXmbh1Lg3CyiTZ2uQWEtovpCj7OXn2WYt8l66fw" /><meta name="generator" content="Elementor 3.33.1; features: e_font_icon_svg, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap">
+			<style>
+				.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload),
+				.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload) * {
+					background-image: none !important;
+				}
+				@media screen and (max-height: 1024px) {
+					.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload),
+					.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload) * {
+						background-image: none !important;
+					}
+				}
+				@media screen and (max-height: 640px) {
+					.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload),
+					.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload) * {
+						background-image: none !important;
+					}
+				}
+			</style>
+			<link rel="icon" href="/app/uploads/2021/07/cropped-android-chrome-512x512-1-32x32.png" sizes="32x32">
+<link rel="icon" href="/app/uploads/2021/07/cropped-android-chrome-512x512-1-192x192.png" sizes="192x192">
+<link rel="apple-touch-icon" href="/app/uploads/2021/07/cropped-android-chrome-512x512-1-180x180.png">
+<meta name="msapplication-TileImage" content="/app/uploads/2021/07/cropped-android-chrome-512x512-1-270x270.png">
+
+  
+  
+  <script>
+    window.rsConf = { general: { usePost: true } };
+  </script>
+  <script
+    src="https://cdn-eu.readspeaker.com/script/8444/webReader/webReader.js?pids=wr"
+    type="text/javascript"
+    id="rs_req_Init"
+  ></script>
+</head>
+  <body class="home page app-data index-data singular-data page-data page-9610-data page-homepage-data front-page-data elementor-default elementor-kit-163620">
+    
+    
+        <a class="skip-link | btn btn-secondary" href="#main-content">Ga naar de inhoud</a>
+<header class="banner" role="banner">
+  <div
+    class="container position-relative d-flex align-items-center align-items-sm-end align-items-lg-center g-md-10 g-4"
+  >
+    <div class="banner__logo">
+      <a class="brand" href="https://www.catharinaziekenhuis.nl" title="Catharina Ziekenhuis">
+        <img src="https://www.catharinaziekenhuis.nl/app/themes/cze/dist/images/logo_cf2f850a.svg" alt="Catharina een Santeon ziekenhuis" />
+      </a>
+    </div>
+
+    <button
+      class="btn btn-primary d-none d-lg-inline-flex text-white"
+      data-hamburger-menu-toggle
+      data-toggle-target="#hamburger-menu"
+      aria-expanded="false"
+      aria-controls="hamburger-menu"
+    >
+      <span class="show-on-open">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <path d="M0 4.5C0 3.672.582 3 1.3 3h21.4c.718 0 1.3.672 1.3 1.5S23.418 6 22.7 6H1.3C.582 6 0 5.328 0 4.5ZM0 12c0-.828.582-1.5 1.3-1.5h21.4c.718 0 1.3.672 1.3 1.5s-.582 1.5-1.3 1.5H1.3C.582 13.5 0 12.828 0 12Zm.894 6C.4 18 0 18.672 0 19.5S.4 21 .894 21h14.712c.494 0 .894-.672.894-1.5s-.4-1.5-.894-1.5H.894Z" fill="currentColor" fill-rule="evenodd"/>
+</svg>
+        <span class="sr-only">Open het</span>
+        <span>Menu</span>
+      </span>
+      <span class="show-on-close">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <g fill="currentColor" fill-rule="evenodd">
+    <path d="M1.333 22.667c-.736-.737-.816-1.851-.177-2.49L20.178 1.157c.638-.639 1.752-.559 2.489.177.736.737.816 1.851.177 2.49L3.822 22.843c-.638.639-1.752.559-2.489-.177Z"/>
+    <path d="M22.667 22.667c.736-.737.816-1.851.177-2.49L3.822 1.157C3.184.517 2.07.597 1.333 1.333c-.736.737-.816 1.851-.177 2.49l19.022 19.021c.638.639 1.752.559 2.489-.177Z"/>
+  </g>
+</svg>
+        <span class="sr-only">Menu</span>
+        <span>Sluiten</span>
+      </span>
+    </button>
+
+          <nav
+        id="hamburger-menu"
+        class="hamburger-menu"
+        aria-hidden="true"
+        aria-label="Hoofdmenu"
+        aria-modal="true"
+      >
+        <div class="container position-relative">
+          <div class="d-flex justify-content-between align-items-baseline d-md-none">
+            <h2 class="hamburger-menu__title">Menu</h2>
+          </div>
+          <ul id="menu-hoofdmenu2024" class="dropdown list-unstyled"><li class="menu-item menu-item-has-children menu-primair"><a href="#">Primair</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-bloedprikken"><a href="https://www.catharinaziekenhuis.nl/onderzoeken/bloedprikken/">Bloedprikken</a></li>
+	<li class="menu-item menu-medische-informatie"><a href="https://www.catharinaziekenhuis.nl/medische-informatie/">Medische informatie</a></li>
+	<li class="menu-item menu-naar-het-ziekenhuis"><a href="https://www.catharinaziekenhuis.nl/naar-het-ziekenhuis-menu/">Naar het ziekenhuis</a></li>
+	<li class="menu-item menu-opname-en-voorbereiding"><a href="https://www.catharinaziekenhuis.nl/opname-en-voorbereiding-menu/">Opname en voorbereiding</a></li>
+	<li class="menu-item menu-afdelingen"><a href="https://www.catharinaziekenhuis.nl/afdelingen-menu/">Afdelingen</a></li>
+	<li class="menu-item menu-zorgverleners"><a href="https://www.catharinaziekenhuis.nl/zorgverleners-menu/">Zorgverleners</a></li>
+	<li class="menu-item menu-contact-en-afspraak"><a href="https://www.catharinaziekenhuis.nl/contact-en-afspraak-maken-menu/">Contact en afspraak</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-has-children menu-secundair"><a href="#">Secundair</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-route-en-parkeren"><a href="https://www.catharinaziekenhuis.nl/telefoonnummers-en-openingstijden-van-afdelingen/route-parkeren/">Route en parkeren</a></li>
+	<li class="menu-item menu-mijncatharina"><a href="https://www.catharinaziekenhuis.nl/mijn-catharina/">MijnCatharina</a></li>
+	<li class="menu-item menu-zorgverzekeraars"><a href="https://www.catharinaziekenhuis.nl/prijzen-en-vergoedingen/contracten-zorgverzekeraars/">Zorgverzekeraars</a></li>
+	<li class="menu-item menu-werken-en-leren"><a href="https://www.catharinaziekenhuis.nl/werken-en-leren-menu/">Werken en leren</a></li>
+	<li class="menu-item menu-wetenschap"><a href="https://www.catharinaziekenhuis.nl/wetenschap-menu2/">Wetenschap</a></li>
+	<li class="menu-item menu-kwaliteit-en-veiligheid"><a href="https://www.catharinaziekenhuis.nl/kwaliteit-en-veiligheid-menu2/">Kwaliteit en veiligheid</a></li>
+	<li class="menu-item menu-verwijzers"><a href="https://www.catharinaziekenhuis.nl/verwijzers/">Verwijzers</a></li>
+	<li class="menu-item menu-catharina-health-foundation"><a href="https://www.catharinahealthfoundation.nl/">Catharina Health Foundation</a></li>
+	<li class="menu-item menu-over-catharina"><a href="https://www.catharinaziekenhuis.nl/over-catharina-menu/">Over Catharina</a></li>
+</ul>
+</li>
+</ul>
+
+          <button
+            class="close-button"
+            data-hamburger-menu-toggle="close"
+            data-toggle-target="#hamburger-menu"
+            aria-controls="hamburger-menu"
+            aria-expanded="false"
+          >
+            Menu sluiten
+          </button>
+        </div>
+      </nav>
+    
+    <nav class="ml-auto d-flex align-items-center g-3 g-md-4" aria-label="Gebruiker acties">
+      <!-- Button trigger modal -->
+
+      <button
+        type="button"
+        class="btn btn-icon has-label d-none d-md-inline-flex | hide-on-translated"
+        data-toggle="modal"
+        data-target="#localizationModal"
+        aria-label="Translate this page"
+      >
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <path d="M15.557 8.811c.392-.84 1.585-.84 1.977 0l6.363 13.637a1.09 1.09 0 0 1-1.977.922l-1.403-3.007h-7.945L11.17 23.37a1.091 1.091 0 0 1-1.322.578l-.127-.05a1.09 1.09 0 0 1-.528-1.45L15.557 8.81ZM8.364 0c.602 0 1.09.488 1.09 1.09v1.647l.977.025c.343.012.685.027 1.027.044l1.02.062.013.001.018.001 1.07.083c.367.032.733.067 1.098.106l1.094.126a1.09 1.09 0 0 1-.27 2.165 56.64 56.64 0 0 0-3.17-.305l.916.07-.005.02a22.835 22.835 0 0 1-3.43 7.344l-.07.097.325.38c.126.144.255.286.386.427l.399.417a1.09 1.09 0 0 1-1.556 1.53 22.937 22.937 0 0 1-.811-.87l-.121-.139-.022.028A22.97 22.97 0 0 1 2.02 19.41l-.428.227A1.09 1.09 0 1 1 .59 17.7a20.785 20.785 0 0 0 6.194-4.887l.2-.237-.319-.455A22.937 22.937 0 0 1 4.66 8.493l-.233-.547a1.09 1.09 0 0 1 2.019-.828 20.755 20.755 0 0 0 1.878 3.555l.04.059.095-.14a20.65 20.65 0 0 0 2.53-5.494l.035-.127-.667-.028c-.33-.011-.662-.02-.994-.025l-.983-.01-.015.001-.016-.001-1.007.01c-1.704.03-3.405.135-5.1.315l-1.015.117a1.09 1.09 0 0 1-.27-2.165 59.846 59.846 0 0 1 5.286-.42l1.03-.028V1.09c0-.556.417-1.015.955-1.083L8.364 0Zm8.181 11.852-2.955 6.33h5.91l-2.955-6.33Z" fill="currentColor" fill-rule="nonzero"/>
+</svg>
+        <span class="hover-label">
+          <span class="label">Translate</span>
+        </span>
+      </button>
+
+      <a href="https://www.catharinaziekenhuis.nl/zoeken/" class="btn btn-icon has-label d-none d-md-inline-flex" aria-label="Zoeken">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <path d="M19.011 6.03a9.896 9.896 0 0 1-1.314 9.974l5.953 5.954a1.196 1.196 0 1 1-1.693 1.692l-5.952-5.953a9.912 9.912 0 0 1-2.232 1.314C8.74 21.149 2.929 18.804.79 13.773-1.347 8.742.998 2.929 6.03.79 11.06-1.347 16.873.998 19.01 6.03ZM6.966 2.992a7.506 7.506 0 1 0 8.242 12.215l.028-.024a7.508 7.508 0 0 0-8.27-12.19Z" fill="currentColor" fill-rule="nonzero"/>
+</svg>
+        <span class="hover-label">
+          <span class="label">Zoeken</span>
+        </span>
+      </a>
+
+      <button
+        data-toggle="modal"
+        data-target="#localizationModal"
+        aria-label="Translate this page"
+        class="btn btn-icon d-md-none hide-on-translated"
+      >
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <path d="M15.557 8.811c.392-.84 1.585-.84 1.977 0l6.363 13.637a1.09 1.09 0 0 1-1.977.922l-1.403-3.007h-7.945L11.17 23.37a1.091 1.091 0 0 1-1.322.578l-.127-.05a1.09 1.09 0 0 1-.528-1.45L15.557 8.81ZM8.364 0c.602 0 1.09.488 1.09 1.09v1.647l.977.025c.343.012.685.027 1.027.044l1.02.062.013.001.018.001 1.07.083c.367.032.733.067 1.098.106l1.094.126a1.09 1.09 0 0 1-.27 2.165 56.64 56.64 0 0 0-3.17-.305l.916.07-.005.02a22.835 22.835 0 0 1-3.43 7.344l-.07.097.325.38c.126.144.255.286.386.427l.399.417a1.09 1.09 0 0 1-1.556 1.53 22.937 22.937 0 0 1-.811-.87l-.121-.139-.022.028A22.97 22.97 0 0 1 2.02 19.41l-.428.227A1.09 1.09 0 1 1 .59 17.7a20.785 20.785 0 0 0 6.194-4.887l.2-.237-.319-.455A22.937 22.937 0 0 1 4.66 8.493l-.233-.547a1.09 1.09 0 0 1 2.019-.828 20.755 20.755 0 0 0 1.878 3.555l.04.059.095-.14a20.65 20.65 0 0 0 2.53-5.494l.035-.127-.667-.028c-.33-.011-.662-.02-.994-.025l-.983-.01-.015.001-.016-.001-1.007.01c-1.704.03-3.405.135-5.1.315l-1.015.117a1.09 1.09 0 0 1-.27-2.165 59.846 59.846 0 0 1 5.286-.42l1.03-.028V1.09c0-.556.417-1.015.955-1.083L8.364 0Zm8.181 11.852-2.955 6.33h5.91l-2.955-6.33Z" fill="currentColor" fill-rule="nonzero"/>
+</svg>
+        <small class="d-md-none">Translate</small>
+      </button>
+
+      <a href="https://www.catharinaziekenhuis.nl/zoeken/" class="btn btn-icon d-md-none" aria-label="Ga naar de zoekpagina">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <path d="M19.011 6.03a9.896 9.896 0 0 1-1.314 9.974l5.953 5.954a1.196 1.196 0 1 1-1.693 1.692l-5.952-5.953a9.912 9.912 0 0 1-2.232 1.314C8.74 21.149 2.929 18.804.79 13.773-1.347 8.742.998 2.929 6.03.79 11.06-1.347 16.873.998 19.01 6.03ZM6.966 2.992a7.506 7.506 0 1 0 8.242 12.215l.028-.024a7.508 7.508 0 0 0-8.27-12.19Z" fill="currentColor" fill-rule="nonzero"/>
+</svg>
+        <small class="d-md-none">Zoeken</small>
+      </a>
+
+      <button
+        class="btn btn-icon d-lg-none"
+        data-hamburger-menu-toggle
+        data-toggle-target="#hamburger-menu"
+        aria-controls="hamburger-menu"
+        aria-expanded="false"
+      >
+        <span class="show-on-open"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <path d="M0 4.5C0 3.672.582 3 1.3 3h21.4c.718 0 1.3.672 1.3 1.5S23.418 6 22.7 6H1.3C.582 6 0 5.328 0 4.5ZM0 12c0-.828.582-1.5 1.3-1.5h21.4c.718 0 1.3.672 1.3 1.5s-.582 1.5-1.3 1.5H1.3C.582 13.5 0 12.828 0 12Zm.894 6C.4 18 0 18.672 0 19.5S.4 21 .894 21h14.712c.494 0 .894-.672.894-1.5s-.4-1.5-.894-1.5H.894Z" fill="currentColor" fill-rule="evenodd"/>
+</svg>
+</span>
+        <span class="show-on-close"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <g fill="currentColor" fill-rule="evenodd">
+    <path d="M1.333 22.667c-.736-.737-.816-1.851-.177-2.49L20.178 1.157c.638-.639 1.752-.559 2.489.177.736.737.816 1.851.177 2.49L3.822 22.843c-.638.639-1.752.559-2.489-.177Z"/>
+    <path d="M22.667 22.667c.736-.737.816-1.851.177-2.49L3.822 1.157C3.184.517 2.07.597 1.333 1.333c-.736.737-.816 1.851-.177 2.49l19.022 19.021c.638.639 1.752.559 2.489-.177Z"/>
+  </g>
+</svg>
+</span>
+        <small class="d-md-none">Menu</small>
+      </button>
+      <a href="/mijn-catharina" class="btn btn-outline-primary d-none d-lg-inline-flex">
+        <div class="text-primary icon-6"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <path d="M0 12C0 5.373 5.373 0 12 0s12 5.373 12 12-5.373 12-12 12S0 18.627 0 12Zm7.929-2.491a4.071 4.071 0 1 1 8.142 0 4.071 4.071 0 0 1-8.142 0Zm10.276 8.726a.754.754 0 0 1-.15.993 9.39 9.39 0 0 1-6.055 2.2 9.39 9.39 0 0 1-6.054-2.2.754.754 0 0 1-.15-.993 7.428 7.428 0 0 1 12.41 0Z" fill="currentColor" fill-rule="evenodd"/>
+</svg>
+</div>
+        <span class="text-black">MijnCatharina</span>
+      </a>
+    </nav>
+  </div>
+</header>
+    
+      <main id="main-content" class="site-main">
+    <article class="article">
+      <section class="page-header hero--homepage hero-variant--purple">
+  <div class="hero--cki">
+          <div class="hero__grid | container">
+        
+        <div class="hero__image">
+          <picture>
+                          <source srcset="/app/uploads/2023/12/Gedreven-door-het-leven-2204-scaled.jpg" media="(min-width: 62em)" />
+            
+                          <img src="/app/uploads/2023/12/Gedreven-door-het-leven-2204-3000x1300.jpg" alt="" />
+                      </picture>
+        </div>
+        <div class="hero-content">
+          
+          <h1 class="hero__title ">
+            Gedreven door het leven.
+          </h1>
+                      <div class="hero__search">
+              <p class="hero__search__label">Waarmee kunnen we u helpen?</p>
+              <form action="/" method="get" class="action search-bar" role="search">
+                <input
+                  class="search-input | bg-color-white shadow"
+                  type="search"
+                  name="s"
+                  placeholder="Zoeken op de website"
+                  aria-label="Zoeken op de website"
+                />
+              </form>
+            </div>
+                  </div>
+        <div class="graphic graphic-circle graphic-hero--right"></div>
+      </div>
+      </div>
+
+      <div class="">
+      <div class="container | position-relative">
+        <div class="spearhead-tasks">
+                      <a href="https://www.catharinaziekenhuis.nl/onderzoeken/bloedprikken/" class="task d-block">
+              <div class="d-flex flex-md-column align-items-center g-4">
+                                  <div class="task__icon">
+                    <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"><g stroke="currentColor" stroke-width="2.5" fill="none" fill-rule="evenodd"><path d="M51.126 26.104L36.994 40.239a7.688 7.688 0 01-10.873 0l-2.719-2.719a7.688 7.688 0 010-10.873l14.135-14.132M18.344 45.297l6.419-6.419M33.46 8.438l21.743 21.743M56.564 12.515l-9.515 9.512M41.614 16.592l9.512-9.515M47.049 3L60.64 16.591M37.537 28.823l5.435 5.435" stroke-linecap="round" stroke-linejoin="round"/><path d="M58.56 39.501a9.481 9.481 0 012.096 5.766c0 8.492-12.907 15.375-28.828 15.375S3 53.758 3 45.266c0-4.036 2.916-7.713 7.688-10.455M41.437 51.032c1.737-6.188 7.113-3.313 9.609-7.688" stroke-linecap="round" stroke-linejoin="round"/><path d="M27.984 51.993a.961.961 0 010-1.922M27.984 51.993a.961.961 0 000-1.922"/></g></svg>
+                  </div>
+                
+                <div class="d-grid">
+                  <h2 class="task__title">
+                    Bloedprikken
+                  </h2>
+                </div>
+                <span class="task__action">
+                  <svg height="10" viewBox="0 0 20 10" width="20" xmlns="http://www.w3.org/2000/svg"><path class="fill" d="m19.7708496 4.42915295c-.0002344-.00024193-.0004297-.00052419-.0007032-.00076613l-4.0821854-4.19355074c-.3058202-.3141534-.8004684-.31298405-1.1048823.00274194-.3043748.31568566-.303203.82629078.0026172 1.14048451l2.7407799 2.81548545h-16.54522619c-.43148416 0-.78124961.36104859-.78124961.80645202 0 .44540352.34976545.80645211.78124961.80645211h16.54518709l-2.7407017 2.81548546c-.3058202.31419372-.3069921.82479885-.0026172 1.14048451.3044139.31576632.7991011.31685502 1.1048822.00274193l4.0821855-4.19355074c.0002344-.00024193.0004297-.00052419.0007031-.00076613.3059764-.31524211.3049999-.82750046-.000039-1.14169419z" fill="currentColor" transform="matrix(1 0 0 -1 0 10)"/></svg>
+                  <span class="sr-only">Lees meer</span>
+                </span>
+              </div>
+            </a>
+                      <a href="https://www.catharinaziekenhuis.nl/mijn-catharina" class="task d-block">
+              <div class="d-flex flex-md-column align-items-center g-4">
+                                  <div class="task__icon">
+                    <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"><g stroke="currentColor" stroke-width="2.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"><path d="M6.887 10.775h50.537s3.887 0 3.887 3.887v42.762s0 3.887-3.887 3.887H6.887S3 61.311 3 57.424V14.662s0-3.887 3.887-3.887M3 26.325h58.312M18.55 16.606V3M45.762 16.606V3"/><path d="M21.789 37.858a3.11 3.11 0 013.11-3.11h2.353a3.888 3.888 0 01-.016 7.775 3.888 3.888 0 01.016 7.775h-2.353a3.11 3.11 0 01-3.11-3.11M37.339 34.748h1.944c1.074 0 1.944.87 1.944 1.944v13.606M37.339 50.298h7.775"/></g></svg>
+                  </div>
+                
+                <div class="d-grid">
+                  <h2 class="task__title">
+                    MijnCatharina
+                  </h2>
+                </div>
+                <span class="task__action">
+                  <svg height="10" viewBox="0 0 20 10" width="20" xmlns="http://www.w3.org/2000/svg"><path class="fill" d="m19.7708496 4.42915295c-.0002344-.00024193-.0004297-.00052419-.0007032-.00076613l-4.0821854-4.19355074c-.3058202-.3141534-.8004684-.31298405-1.1048823.00274194-.3043748.31568566-.303203.82629078.0026172 1.14048451l2.7407799 2.81548545h-16.54522619c-.43148416 0-.78124961.36104859-.78124961.80645202 0 .44540352.34976545.80645211.78124961.80645211h16.54518709l-2.7407017 2.81548546c-.3058202.31419372-.3069921.82479885-.0026172 1.14048451.3044139.31576632.7991011.31685502 1.1048822.00274193l4.0821855-4.19355074c.0002344-.00024193.0004297-.00052419.0007031-.00076613.3059764-.31524211.3049999-.82750046-.000039-1.14169419z" fill="currentColor" transform="matrix(1 0 0 -1 0 10)"/></svg>
+                  <span class="sr-only">Lees meer</span>
+                </span>
+              </div>
+            </a>
+                      <a href="https://www.catharinaziekenhuis.nl/praktische-info/bezoektijden/" class="task d-block">
+              <div class="d-flex flex-md-column align-items-center g-4">
+                                  <div class="task__icon">
+                    <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"><g stroke="currentColor" stroke-width="2.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"><path d="M54.625 32.073a25.917 25.917 0 11-25.71-22.62c1.004 0 2.007.058 3.005.171"/><path d="M28.915 21.649v13.635l-8.397 9.913M61.32 11.669c0-.684-.554-1.239-1.238-1.239h-6.2V4.239A1.239 1.239 0 0052.635 3h-4.947c-.685 0-1.24.555-1.24 1.239v6.199h-6.196a1.239 1.239 0 00-1.241 1.239v4.958a1.239 1.239 0 001.24 1.239h6.198v6.197a1.239 1.239 0 001.239 1.241h4.947a1.239 1.239 0 001.239-1.241v-6.198h6.199c.684 0 1.239-.555 1.239-1.239l.01-4.965z"/></g></svg>
+                  </div>
+                
+                <div class="d-grid">
+                  <h2 class="task__title">
+                    Bezoektijden
+                  </h2>
+                </div>
+                <span class="task__action">
+                  <svg height="10" viewBox="0 0 20 10" width="20" xmlns="http://www.w3.org/2000/svg"><path class="fill" d="m19.7708496 4.42915295c-.0002344-.00024193-.0004297-.00052419-.0007032-.00076613l-4.0821854-4.19355074c-.3058202-.3141534-.8004684-.31298405-1.1048823.00274194-.3043748.31568566-.303203.82629078.0026172 1.14048451l2.7407799 2.81548545h-16.54522619c-.43148416 0-.78124961.36104859-.78124961.80645202 0 .44540352.34976545.80645211.78124961.80645211h16.54518709l-2.7407017 2.81548546c-.3058202.31419372-.3069921.82479885-.0026172 1.14048451.3044139.31576632.7991011.31685502 1.1048822.00274193l4.0821855-4.19355074c.0002344-.00024193.0004297-.00052419.0007031-.00076613.3059764-.31524211.3049999-.82750046-.000039-1.14169419z" fill="currentColor" transform="matrix(1 0 0 -1 0 10)"/></svg>
+                  <span class="sr-only">Lees meer</span>
+                </span>
+              </div>
+            </a>
+                      <a href="https://www.catharinaziekenhuis.nl/wachttijden/" class="task d-block">
+              <div class="d-flex flex-md-column align-items-center g-4">
+                                  <div class="task__icon">
+                    <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"><g stroke="currentColor" stroke-width="2.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"><path d="M16.958 14.813c1.448 8.356 6.536 14.08 15.526 16.984 8.99-2.904 14.078-8.628 15.526-16.984a3.906 3.906 0 00-3.883-4.5H20.841a3.906 3.906 0 00-3.883 4.5h0zM11 2.5h42.969"/><path d="M20.841 53.281a3.906 3.906 0 01-3.883-4.497c1.448-8.357 6.536-14.081 15.526-16.987 8.99 2.906 14.078 8.63 15.526 16.987a3.906 3.906 0 01-3.883 4.497H20.841zM11 61.094h42.969"/></g></svg>
+                  </div>
+                
+                <div class="d-grid">
+                  <h2 class="task__title">
+                    Wachttijden
+                  </h2>
+                </div>
+                <span class="task__action">
+                  <svg height="10" viewBox="0 0 20 10" width="20" xmlns="http://www.w3.org/2000/svg"><path class="fill" d="m19.7708496 4.42915295c-.0002344-.00024193-.0004297-.00052419-.0007032-.00076613l-4.0821854-4.19355074c-.3058202-.3141534-.8004684-.31298405-1.1048823.00274194-.3043748.31568566-.303203.82629078.0026172 1.14048451l2.7407799 2.81548545h-16.54522619c-.43148416 0-.78124961.36104859-.78124961.80645202 0 .44540352.34976545.80645211.78124961.80645211h16.54518709l-2.7407017 2.81548546c-.3058202.31419372-.3069921.82479885-.0026172 1.14048451.3044139.31576632.7991011.31685502 1.1048822.00274193l4.0821855-4.19355074c.0002344-.00024193.0004297-.00052419.0007031-.00076613.3059764-.31524211.3049999-.82750046-.000039-1.14169419z" fill="currentColor" transform="matrix(1 0 0 -1 0 10)"/></svg>
+                  <span class="sr-only">Lees meer</span>
+                </span>
+              </div>
+            </a>
+                      <a href="https://www.catharinaziekenhuis.nl/contact-en-afspraak-maken-menu/" class="task d-block">
+              <div class="d-flex flex-md-column align-items-center g-4">
+                                  <div class="task__icon">
+                    <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"><g stroke="currentColor" stroke-width="2.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"><path d="M8.934 44.436a5.863 5.863 0 1011.726 0 5.863 5.863 0 00-11.726 0M6 59.094a10.778 10.778 0 018.797-4.397 10.763 10.763 0 018.794 4.397M43.666 44.436a5.863 5.863 0 1011.726 0 5.863 5.863 0 00-11.726 0M40.735 59.094a10.996 10.996 0 0117.592 0M54.636 7.844A3.844 3.844 0 0050.792 4H12.111a3.844 3.844 0 00-3.844 3.844v16.7a3.844 3.844 0 003.859 3.844l15.483-.044 8.969 7.688v-7.688l14.196.044a3.844 3.844 0 003.862-3.844v-16.7z"/></g></svg>
+                  </div>
+                
+                <div class="d-grid">
+                  <h2 class="task__title">
+                    Contact
+                  </h2>
+                </div>
+                <span class="task__action">
+                  <svg height="10" viewBox="0 0 20 10" width="20" xmlns="http://www.w3.org/2000/svg"><path class="fill" d="m19.7708496 4.42915295c-.0002344-.00024193-.0004297-.00052419-.0007032-.00076613l-4.0821854-4.19355074c-.3058202-.3141534-.8004684-.31298405-1.1048823.00274194-.3043748.31568566-.303203.82629078.0026172 1.14048451l2.7407799 2.81548545h-16.54522619c-.43148416 0-.78124961.36104859-.78124961.80645202 0 .44540352.34976545.80645211.78124961.80645211h16.54518709l-2.7407017 2.81548546c-.3058202.31419372-.3069921.82479885-.0026172 1.14048451.3044139.31576632.7991011.31685502 1.1048822.00274193l4.0821855-4.19355074c.0002344-.00024193.0004297-.00052419.0007031-.00076613.3059764-.31524211.3049999-.82750046-.000039-1.14169419z" fill="currentColor" transform="matrix(1 0 0 -1 0 10)"/></svg>
+                  <span class="sr-only">Lees meer</span>
+                </span>
+              </div>
+            </a>
+                  </div>
+        <div class="graphic graphic-circle graphic-hero--left"></div>
+      </div>
+    </div>
+  </section>
+
+            <section class="cards-section">
+        <div class="container">
+          <h2 class="h1 cards-section__title">Topklinische en innovatieve zorg  </h2>
+          <div class="row">
+                                                <div class="col-lg-4">
+              <article class="h-100">
+    <a href="https://www.catharinaziekenhuis.nl/catharina-hart-en-vaatcentrum/" class="card">
+          <img class="card__image" src="/app/uploads/2021/07/20180411-Verbouwde-HCK3-Catharina-Hart-en-Vaatcentrum-Philips-1600x1067-1-712x480.jpg" alt="">
+        <div class="card__text">
+      <h2 class="h5 card__title">Hart- en Vaatcentrum</h2>
+      <p class="mb-3">Het grootste hart- en vaatcentrum van Nederland met de beste resultaten.</p>
+      <span class="card__link">Lees meer</span>
+    </div>
+    </a>
+  </article>
+            </div>
+                        <div class="col-lg-4">
+              <article class="h-100">
+    <a href="https://www.catharinaziekenhuis.nl/catharina-kankerinstituut/?utm=startpage" class="card">
+          <img class="card__image" src="/app/uploads/2021/04/kanker-patient-catharina-ziekenhuis-712x480.jpg" alt="">
+        <div class="card__text">
+      <h2 class="h5 card__title">Kanker Instituut</h2>
+      <p class="mb-3">Snelle diagnose en behandeling op topniveau voor patiënten met kanker.</p>
+      <span class="card__link">Lees meer</span>
+    </div>
+    </a>
+  </article>
+            </div>
+                                                <div class="col-lg-4 position-relative">
+              <article class="card card--float">
+                <div class="card__text">
+
+                  <h2 class="h3 my-4 text-dark">
+                                        Uitgelicht
+                                      </h2>
+
+                                    <ul class="list-unstyled overlay-fade">
+                                        <li class="news-update">
+                      <a href="https://www.catharinaziekenhuis.nl/website-catharina-ziekenhuis-weer-bereikbaar-na-voorzorgsmaatregelen/">
+                        <time class="d-inline-block" datetime="2026-10-21T21:15:12+02:00" data-render-time-ago >21 oktober 2026, 21:15</time>
+                        <h3 class="news-update__title">Website Catharina Ziekenhuis weer bereikbaar na voorzorgsmaatregelen</h3>
+                      </a>
+                    </li>
+                                        <li class="news-update">
+                      <a href="https://www.catharinaziekenhuis.nl/carlo-van-kemenade-nieuwe-voorzitter-raad-van-toezicht-catharina-ziekenhuis/">
+                        <time class="d-inline-block" datetime="2026-09-30T14:36:56+02:00" data-render-time-ago >30 september 2026, 14:36</time>
+                        <h3 class="news-update__title">Carlo van Kemenade nieuwe voorzitter Raad van Toezicht Catharina Ziekenhuis</h3>
+                      </a>
+                    </li>
+                                        <li class="news-update">
+                      <a href="https://www.catharinaziekenhuis.nl/man-kan-ook-een-vrouwenhart-hebben-paul-65-weet-daar-alles-van/">
+                        <time class="d-inline-block" datetime="2026-09-29T21:02:39+02:00" data-render-time-ago >29 september 2026, 21:02</time>
+                        <h3 class="news-update__title">Man kan ook een ‘vrouwenhart’ hebben: Paul (65) weet daar alles van</h3>
+                      </a>
+                    </li>
+                                      </ul>
+                  <a href="/categorie/uitgelichte-berichten/" class="card__link">
+
+                                        Meer uitgelichte berichten
+                                      </a>
+                                  </div>
+              </article>
+            </div>
+                      </div>
+        </div>
+      </section>
+      
+      <section id="news" class="news-section">
+        <div class="container">
+          <h2 class="mb-4 mb-lg-5 news-section__title">Actueel</h2>
+          <div class="row">
+                        <div class="col-lg-6">
+              <article class="article-news">
+  <a href="https://www.catharinaziekenhuis.nl/website-catharina-ziekenhuis-weer-bereikbaar-na-voorzorgsmaatregelen/" class="media d-flex">
+        <img src="/app/uploads/2026/10/MedRes_20250417-JV-beroepenfoto-6-280x280.jpg" alt="" class="rounded" width="140" height="140" />
+        <div class="media-body align-self-center d-flex flex-column ml-3 ml-lg-4 my-lg-2">
+      <time datetime="2026-10-21" class="article-time font-size-sm">21 oktober, 2026</time>
+      <h2 class="h5 mt-lg-1 mb-2 line-height-base media-title">Website Catharina Ziekenhuis weer bereikbaar na voorzorgsmaatregelen</h2>
+      <span class="article-link d-block mt-auto">Lees verder</span>
+    </div>
+  </a>
+</article>
+            </div>
+                        <div class="col-lg-6">
+              <article class="article-news">
+  <a href="https://www.catharinaziekenhuis.nl/onderzoek-naar-mogelijkheden-voor-woningbouw-voor-zorgpersoneel/" class="media d-flex">
+        <img src="/app/uploads/2026/10/SAEYS_VGZ_Cheque_Stijn_Steenbakkers_3290-280x280.jpg" alt="" class="rounded" width="140" height="140" />
+        <div class="media-body align-self-center d-flex flex-column ml-3 ml-lg-4 my-lg-2">
+      <time datetime="2026-10-19" class="article-time font-size-sm">19 oktober, 2026</time>
+      <h2 class="h5 mt-lg-1 mb-2 line-height-base media-title">Onderzoek naar mogelijkheden voor woningbouw voor zorgpersoneel</h2>
+      <span class="article-link d-block mt-auto">Lees verder</span>
+    </div>
+  </a>
+</article>
+            </div>
+                        <div class="col-lg-6">
+              <article class="article-news">
+  <a href="https://www.catharinaziekenhuis.nl/over-leven-evas-verhalen-ook-met-weinig-geluid-kun-je-goede-gesprekken-hebben-of-grappen-maken-met-elkaar/" class="media d-flex">
+        <img src="/app/uploads/2026/07/HighRes_20260303-JV-Eva-Sliep-012-280x280.jpg" alt="" class="rounded" width="140" height="140" />
+        <div class="media-body align-self-center d-flex flex-column ml-3 ml-lg-4 my-lg-2">
+      <time datetime="2026-10-16" class="article-time font-size-sm">16 oktober, 2026</time>
+      <h2 class="h5 mt-lg-1 mb-2 line-height-base media-title">Over leven, Eva’s verhalen: Ook met weinig geluid kun je goede gesprekken hebben of grappen maken met elkaar</h2>
+      <span class="article-link d-block mt-auto">Lees verder</span>
+    </div>
+  </a>
+</article>
+            </div>
+                        <div class="col-lg-6">
+              <article class="article-news">
+  <a href="https://www.catharinaziekenhuis.nl/klimmen-tegen-kanker-krijgt-vervolg-ben-jij-er-volgend-jaar-bij/" class="media d-flex">
+        <img src="/app/uploads/2026/10/Klimmen-Tegen-Kanker-Hanneke-Mennens-19092026-280x280.jpg" alt="" class="rounded" width="140" height="140" />
+        <div class="media-body align-self-center d-flex flex-column ml-3 ml-lg-4 my-lg-2">
+      <time datetime="2026-10-15" class="article-time font-size-sm">15 oktober, 2026</time>
+      <h2 class="h5 mt-lg-1 mb-2 line-height-base media-title">Klimmen tegen Kanker krijgt vervolg! Ben jij er volgend jaar bij?</h2>
+      <span class="article-link d-block mt-auto">Lees verder</span>
+    </div>
+  </a>
+</article>
+            </div>
+                      </div>
+          <a href="https://www.catharinaziekenhuis.nl/actueel/" class="link link-next">Meer nieuws</a>
+        </div>
+      </section>
+
+      <section class="agenda-overview">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <h2 class="agenda-overview__title">Agenda</h2>
+              <div class="widget widget-agenda widget--is-transparent">
+  
+    <ul class="widget__list list-unstyled">
+            <li>
+                <a href="https://www.catharinaziekenhuis.nl/evenementen/hartweek-catharina-ziekenhuis-voortaan-om-het-jaar-meer-verdieping-meer-inspiratie/" class="media align-items-center mb-3">
+          <time datetime="2026-11-09 09:00:00" class="widget-agenda__date py-3">
+            <strong class="h3 mb-1">9</strong>
+            <span class="font-size-base mb-0">nov</span>
+          </time>
+          <div class="media-body ml-4">
+            <h3 class="h5 mb-2 pt-2 widget-agenda__title">
+              Hartweek Catharina Ziekenhuis 2026: inspiratie en nieuwe kennis gegarandeerd
+            </h3>
+            
+          </div>
+        </a>
+              </li>
+            <li>
+                <a href="https://www.catharinaziekenhuis.nl/evenementen/webinar-bevallen-in-het-ziekenhuis-6/" class="media align-items-center mb-3">
+          <time datetime="2026-11-23 18:00:00" class="widget-agenda__date py-3">
+            <strong class="h3 mb-1">23</strong>
+            <span class="font-size-base mb-0">nov</span>
+          </time>
+          <div class="media-body ml-4">
+            <h3 class="h5 mb-2 pt-2 widget-agenda__title">
+              Webinar: Bevallen in het Ziekenhuis
+            </h3>
+            
+          </div>
+        </a>
+              </li>
+            <li>
+                <a href="https://www.catharinaziekenhuis.nl/evenementen/starten-met-patientenportaal-mijncatharina/" class="media align-items-center mb-3">
+          <time datetime="2026-11-27 10:00:00" class="widget-agenda__date py-3">
+            <strong class="h3 mb-1">27</strong>
+            <span class="font-size-base mb-0">nov</span>
+          </time>
+          <div class="media-body ml-4">
+            <h3 class="h5 mb-2 pt-2 widget-agenda__title">
+              Starten met patiëntenportaal MijnCatharina
+            </h3>
+            
+          </div>
+        </a>
+              </li>
+          </ul>
+
+    <a href="https://www.catharinaziekenhuis.nl/evenementen/" class="link link-next">Meer agenda items</a>
+
+      </div>
+              </div>
+            <div class="col-auto col-lg-4 offset-lg-2">
+                            <div class="link-card">
+                                <img src="/app/uploads/2026/06/20260313-JV-Campagne-digitalezorg-Joline-Mutsaers-Woonkamer001-scaled1-e1781955159994-785x1024.jpg" alt="Joline Digitale zorg" class="rounded" width="360" />
+                                <a href="https://www.catharinaziekenhuis.nl/naar-het-ziekenhuis-menu/digitale-zorg/" class="link-card__link">
+                  <h2 class="link-card__title">
+                    Persoonlijke zorg, ook digitaal 
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="10" viewBox="0 0 20 10">
+  <path class="fill" fill="#FFF" d="M19.7708496,4.42915295 C19.7706152,4.42891102 19.7704199,4.42862876 19.7701464,4.42838682 L15.687961,0.234836078 C15.3821408,-0.0793173241 14.8874926,-0.0781479686 14.5830787,0.237578015 C14.2787039,0.553263677 14.2798757,1.0638688 14.5856959,1.37806253 L17.3264758,4.19354798 L0.781249612,4.19354798 C0.349765451,4.19354798 0,4.55459657 0,5 C0,5.44540352 0.349765451,5.80645211 0.781249612,5.80645211 L17.3264367,5.80645211 L14.585735,8.62193757 C14.2799148,8.93613129 14.2787429,9.44673642 14.5831178,9.76242208 C14.8875317,10.0781884 15.3822189,10.0792771 15.688,9.76516401 L19.7701855,5.57161327 C19.7704199,5.57137134 19.7706152,5.57108908 19.7708886,5.57084714 C20.076865,5.25560503 20.0758885,4.74334668 19.7708496,4.42915295 Z" transform="matrix(-1 0 0 1 20 0)"/>
+</svg>
+                  </h2>
+                  <p class="mb-2">
+                    Ontdek onze apps 
+                  </p>
+                </a>
+              </div>
+                          </div>
+          </div>
+        </div>
+      </section>
+
+            <section class="content">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 order-lg-2">
+              <div class="d-flex flex-column h-100 justify-content-center py-3">
+                <h2 class="h1">Gedreven door het leven</h2>
+                <p class="mb-5">Bevlogenheid en gedrevenheid zit in het DNA van de medewerkers van het Catharina Ziekenhuis. Gedrevenheid om het beste uit onszelf te halen en onze patiënt elke keer opnieuw de best mogelijke zorg te geven. Want gezondheid, en daarmee het leven zelf, is ons belangrijkste goed. Catharina Ziekenhuis, Gedreven door het leven. </p>
+
+                                <ul class="stat-list list-unstyled mb-lg-5">
+                                    <li class="stat">
+                    <h3 class="h1 stat__title">8,7</h3>
+                    <span class="text-center">Als rapportcijfer</span>
+                  </li>
+                                  </ul>
+                                                <div>
+                  <a href="https://www.catharinaziekenhuis.nl/over-catharina/" class="btn btn-outline-secondary">
+                    Meer over Catharina
+                    <svg height="10" viewBox="0 0 20 10" width="20" xmlns="http://www.w3.org/2000/svg"><path class="fill" d="m19.7708496 4.42915295c-.0002344-.00024193-.0004297-.00052419-.0007032-.00076613l-4.0821854-4.19355074c-.3058202-.3141534-.8004684-.31298405-1.1048823.00274194-.3043748.31568566-.303203.82629078.0026172 1.14048451l2.7407799 2.81548545h-16.54522619c-.43148416 0-.78124961.36104859-.78124961.80645202 0 .44540352.34976545.80645211.78124961.80645211h16.54518709l-2.7407017 2.81548546c-.3058202.31419372-.3069921.82479885-.0026172 1.14048451.3044139.31576632.7991011.31685502 1.1048822.00274193l4.0821855-4.19355074c.0002344-.00024193.0004297-.00052419.0007031-.00076613.3059764-.31524211.3049999-.82750046-.000039-1.14169419z" fill="#fff" transform="matrix(1 0 0 -1 0 10)"/></svg>
+                  </a>
+                </div>
+                              </div>
+            </div>
+            <div class="col-lg-6 d-none d-lg-block">
+                            <img src="/app/uploads/2025/04/MedRes_20250417-JV-beroepenfoto-2c-1024x964.jpg" alt="Acht zorgverleners staan samen in een ziekenhuisgang, dragen uniformen en kijken glimlachend naar de camera." class="img-fluid rounded" width="520" />
+                          </div>
+          </div>
+        </div>
+      </section>
+      
+            <section class="cards-section">
+        <div class="container">
+          <div class="row">
+                        <div class="col-lg-4">
+              <article class="h-100">
+    <a href="https://www.catharinahealthfoundation.nl/" class="card">
+          <img class="card__image" src="/app/uploads/2021/04/Onderzoeksfonds-Suzanne-712x480.jpg" alt="">
+        <div class="card__text">
+      <h2 class="h5 card__title">Health Foundation</h2>
+      <p class="mb-3">Steun wetenschappelijk onderzoek voor de beste zorg in uw eigen ziekenhuis</p>
+      <span class="card__link">Samen de toekomst mogelijk maken</span>
+    </div>
+    </a>
+  </article>
+            </div>
+                        <div class="col-lg-4">
+              <article class="h-100">
+    <a href="https://www.catharinaziekenhuis.nl/afdelingen/radiologie/" class="card">
+          <img class="card__image" src="/app/uploads/2021/04/radiologie-mri-scan.jpg" alt="">
+        <div class="card__text">
+      <h2 class="h5 card__title">Radiologie</h2>
+      <p class="mb-3">Röntgenstraling, ultrageluid (echografie) of magnetische resonantie (MRI).</p>
+      <span class="card__link">Lees meer</span>
+    </div>
+    </a>
+  </article>
+            </div>
+                        <div class="col-lg-4">
+              <article class="h-100">
+    <a href="https://werkenbij.catharinaziekenhuis.nl" class="card">
+          <img class="card__image" src="/app/uploads/2021/04/catharina-ziekenhuis-vacatures-712x480.jpg" alt="">
+        <div class="card__text">
+      <h2 class="h5 card__title">Werken bij Catharina</h2>
+      <p class="mb-3">Benieuwd welk type jij bent en of je matcht met Catharina? </p>
+      <span class="card__link">Bekijk onze vacatures</span>
+    </div>
+    </a>
+  </article>
+            </div>
+                      </div>
+        </div>
+      </section>
+          </article>
+  </main>
+
+    
+    <div class="overflow-hidden">
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-logo">
+          <div class="brand brand--small">
+            <img src="https://www.catharinaziekenhuis.nl/app/themes/cze/dist/images/logo_cf2f850a.svg" alt="Catharina Ziekenhuis Eindhoven - een Santeon ziekenhuis">
+          </div>
+        </div>
+
+                <div class="footer-address">
+          <h3 class="h5">Bezoekadres</h3>
+          <address class=" mb-0">
+            Michelangelolaan 2<br />
+5623 EJ Eindhoven<br />
+
+          </address>
+          <ul class="list-unstyled has-line">
+                        <li>
+              <a href="tel:+31402399111">
+                <svg height="20" viewBox="0 0 20 20" width="20" xmlns="http://www.w3.org/2000/svg"><path d="m17.9984218 14.8922269c-.0223125-.6189059-.2801249-1.196468-.7259059-1.6263115-.8728432-.8416558-1.6041553-1.3275305-2.3014674-1.5290304-.9607807-.2776874-1.8507802-.0251875-2.6450297.7504996-.0011875.0011562-.002375.0023437-.0035625.0035312l-.8449996.838687c-.5280934-.2976873-1.55496783-.9513119-2.6644047-2.0607488l-.08224996-.0821875c-1.10962437-1.1095931-1.76321775-2.13665499-2.06062383-2.66415469l.83874953-.84503077c.0011875-.0011875.002375-.002375.00356249-.00359375.77565581-.79418705 1.02815567-1.68412404.75049958-2.64502975-.20153114-.69728085-.68737461-1.42859294-1.52906163-2.30143619-.42981226-.4457185-1.00734318-.70353085-1.62624908-.72584334-.6192809-.02234374-1.21353056.19321864-1.6744053.6069059l-.01793749.01612499c-.0083125.00746875-.01643749.0151875-.02437499.02309374-.91746823.91746823-1.39840545 2.20187375-1.39096132 3.71440414.01293085 2.56943605 1.4250863 5.50780942 3.77755372 7.86024552.4435935.4435935 3.66013401 2.6637171 4.29441348 2.9452171.4134187.1834796.8409545-.9843359.4881151-1.1477806-.61651346-.2855856-3.49352931-2.2762175-3.89865408-2.6812485-2.1248738-2.1248738-3.40015432-4.73518479-3.41137307-6.98265226-.00578124-1.16487434.34462481-2.13715504 1.01346818-2.81296716l.00478125-.00431249c.45428099-.40778102 1.14206185-.38296854 1.56587411.05649996 1.61809283 1.67806155 1.50093665 2.47027985.78593705 3.20346694l-1.15856184 1.16724933c-.1816874.1830624-.23228112.45893724-.12737493.69456211.02940623.06606246.74093708 1.63834287 2.51296733 3.41037307l.0822812.0821562c1.77181149 1.7718427 3.3441231 2.4833423 3.4101856 2.5127486.2355623.1049687.5114997.0543437.6945308-.1273437l1.1672806-1.1585931c.7332808-.7150308 1.5254991-.8321245 3.2034669.7859683.4394685.4237498.464281 1.1115619.0565938 1.5657804l-.0044375.0049062c-.6702809.6634059-1.6322179 1.0135307-2.7844047 1.0135307-.0095 0-.019 0-.0285312-.0000625-.9209683-.0045938-1.4617817-.0566842-3.0840295-.7300621-.3187538-.1323113-.81203083 1.0110619-.4950623 1.1477806 1.2675618.5467497 2.4696236.8267495 3.572873.8323433h.0350625c1.4973116 0 2.7689672-.4805935 3.6793417-1.3909367.0079062-.0079375.0155937-.0160313.0230624-.024375l.0162188-.0180313c.413656-.4608434.6291871-1.0554681.6068434-1.6743428z" fill="#0a1031" stroke="#0a1031" stroke-width=".2"/></svg> 040 - 239 91 11
+              </a>
+            </li>
+                                    <li>
+              <a href="https://www.catharinaziekenhuis.nl/route-parkeren/">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g fill="#0A1031" transform="translate(2)">
+    <path d="M14.5025062,3.42388462 C12.9991601,1.24811538 10.6165831,0 7.96616006,0 C5.31573699,0 2.93316006,1.24811538 1.42981391,3.42388462 C-0.0661476278,5.58865385 -0.411570705,8.32930769 0.503967757,10.7506538 C0.748852372,11.4118846 1.1381216,12.0543077 1.65819853,12.6563077 L7.44196776,19.4499231 C7.57277545,19.6036923 7.7644293,19.6923077 7.96616006,19.6923077 C8.16789083,19.6923077 8.35954468,19.6037308 8.49035237,19.4499231 L14.2725062,12.6581538 C14.7948908,12.0526923 15.1836601,11.4109615 15.4265062,10.7550385 C16.3438908,8.32930769 15.9984678,5.58865385 14.5025062,3.42388462 Z M14.1371216,10.2728077 C13.9498524,10.7788846 13.6441216,11.2792308 13.2289293,11.7605 C13.2277754,11.7616538 13.2266216,11.7628077 13.2256985,11.7641923 L7.96616006,17.9418077 L2.70339083,11.7603077 C2.2884293,11.2794615 1.98269853,10.7791538 1.79358314,10.2682308 C1.0364293,8.26573077 1.32377545,5.99973077 2.56246776,4.207 C3.80504468,2.40853846 5.77473699,1.37707692 7.96616006,1.37707692 C10.1575447,1.37707692 12.1270062,2.4085 13.3696216,4.207 C14.6085447,5.99973077 14.8961216,8.26573077 14.1371216,10.2728077 Z"/>
+    <path d="M7.96616006,4.08534615 C5.84016006,4.08534615 4.11031391,5.81496154 4.11031391,7.94119231 C4.11031391,10.0674231 5.8399293,11.7970385 7.96616006,11.7970385 C10.0923908,11.7970385 11.8220062,10.0674231 11.8220062,7.94119231 C11.8220062,5.81519231 10.0921601,4.08534615 7.96616006,4.08534615 Z M7.96616006,10.4199231 C6.59939083,10.4199231 5.48739083,9.30792308 5.48739083,7.94115385 C5.48739083,6.57438462 6.59939083,5.46238462 7.96616006,5.46238462 C9.3329293,5.46238462 10.4449293,6.57438462 10.4449293,7.94115385 C10.4449293,9.30792308 9.3329293,10.4199231 7.96616006,10.4199231 Z"/>
+  </g>
+</svg>
+                Plan uw route
+              </a>
+            </li>
+                      </ul>
+        </div>
+        
+                <div class="footer-visits">
+          <h3 class="h5">
+                      Bereikbaarheid
+                    </h3>
+          <p class="mb-0">
+            Bezoektijden en telefonische bereikbaarheid
+          </p>
+                    <ul class="list-unstyled has-line">
+                        <li>
+              <a href="https://www.catharinaziekenhuis.nl/contact-en-afspraak-maken-menu/">Telefoonnummers</a>
+            </li>
+                        <li>
+              <a href="https://www.catharinaziekenhuis.nl/bezoektijden/">Actuele bezoektijden</a>
+            </li>
+                        <li>
+              <a href="https://www.catharinaziekenhuis.nl/telefoonnummers-en-openingstijden-van-afdelingen/route-parkeren/">Route</a>
+            </li>
+                      </ul>
+                  </div>
+        
+                <div class="footer-social">
+          <h3 class="h5">Volg ons</h3>
+          <div class="footer-social__links">
+                                                              <a href="https://www.facebook.com/CatharinaZiekenhuis" target="_blank" rel="noopener nofollow noreferrer">
+                <span class="sr-only">Facebook</span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="11" height="22" viewBox="0 0 11 22">
+  <path fill="currentColor" d="M2.06862457,20.3517212 L2.06862457,10.1620286 L0,10.1620285 L0,6.78440097 L2.06862457,6.78440097 L2.06862457,4.74181375 C2.06862457,1.98671326 2.8914873,0 5.90489674,0 L9.48978954,0 L9.48978954,3.370693 L6.96547722,3.370693 C5.70137659,3.370693 5.41331532,4.2115897 5.41331532,5.09217819 L5.41331532,6.78440038 L9.30347679,6.78440068 L8.77249632,10.1620286 L5.41331532,10.1620286 L5.41331532,20.3517212 L2.06862457,20.3517212 Z" transform="translate(1 1)"/>
+</svg>
+              </a>
+                                                  <a href="https://www.youtube.com/CatharinaZKH" target="_blank" rel="noopener nofollow noreferrer">
+                <span class="sr-only">YouTube</span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="29" height="22" viewBox="0 0 29 22">
+  <path fill="currentColor" d="M27.0396072,4.14854459 C27.0396072,4.14854459 26.7725554,2.2644443 25.9534952,1.43449235 C24.9153311,0.345712052 23.7509243,0.340547633 23.2171241,0.276751914 C19.3952479,0 13.6621301,0 13.6621301,0 L13.6499914,0 C13.6499914,0 7.91717712,0 4.09499742,0.276751914 C3.56119717,0.340547633 2.39739733,0.345712052 1.35862631,1.43449235 C0.539566137,2.2644443 0.273121215,4.14854459 0.273121215,4.14854459 C0.273121215,4.14854459 0,6.36104095 0,8.57353734 L0,10.6481134 C0,12.8603059 0.273121215,15.0728023 0.273121215,15.0728023 C0.273121215,15.0728023 0.539566137,16.9569026 1.35862631,17.7868546 C2.39739733,18.8759386 3.76209301,18.8410029 4.36993944,18.9552276 C6.55521265,19.1651459 13.6560608,19.2301568 13.6560608,19.2301568 C13.6560608,19.2301568 19.3952479,19.2213469 23.2171241,18.9448988 C23.7509243,18.8811031 24.9153311,18.8759386 25.9534952,17.7868546 C26.7725554,16.9569026 27.0396072,15.0728023 27.0396072,15.0728023 C27.0396072,15.0728023 27.3121215,12.8603059 27.3121215,10.6481134 L27.3121215,8.57353734 C27.3121215,6.36104095 27.0396072,4.14854459 27.0396072,4.14854459 Z M10.8365394,13.161361 L10.8353255,5.47944484 L18.2150608,9.33361775 L10.8365394,13.161361 Z" transform="translate(1 1)"/>
+</svg>
+              </a>
+                                                  <a href="https://www.linkedin.com/company/catharina-ziekenhuis" target="_blank" rel="noopener nofollow noreferrer">
+                <span class="sr-only">LinkedIn</span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="22" viewBox="0 0 20 22">
+  <path fill="currentColor" d="M4.164422,19.7637893 L4.164422,6.69320914 L0.124632445,6.69320914 L0.124632445,19.7637893 L4.164422,19.7637893 Z M4.164422,2.06026314 C4.14035972,0.890581291 3.36080787,-5.32907052e-14 2.09440695,-5.32907052e-14 C0.827676403,-5.32907052e-14 -1.95399252e-14,0.890581291 -1.95399252e-14,2.06026314 C-1.95399252e-14,3.20454013 0.803614125,4.12087912 2.04595277,4.12087912 L2.07001505,4.12087912 C3.36080787,4.12087912 4.164422,3.20454013 4.164422,2.06026314 Z M10.7551123,19.7637897 L10.7551123,12.3168048 C10.7551123,11.9182537 10.7839184,11.5197027 10.9011161,11.2355872 C11.2215353,10.4388797 11.9507653,9.61415539 13.1752246,9.61415539 C14.7792937,9.61415539 15.785281,10.524509 15.785281,12.3168047 L15.785281,19.7637897 L19.8523351,19.7637897 L19.8523351,12.1175293 C19.8523351,8.02152975 17.6658291,6.11558775 14.7493038,6.11558775 C12.3579976,6.11558775 11.3083484,7.45250938 10.7255169,8.36246846 L10.7547176,6.61433293 L6.69469813,6.61433293 C6.75309967,7.86562525 6.69469813,19.7637897 6.69469813,19.7637897 L10.7551123,19.7637897 Z" transform="translate(0 1)"/>
+</svg>
+              </a>
+                                                  <a href="https://www.instagram.com/werkenbijcatharina/" target="_blank" rel="noopener nofollow noreferrer">
+                <span class="sr-only">Instagram</span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22">
+  <g fill="currentColor">
+    <path d="M11,5.27822581 C7.89516129,5.27822581 5.32258065,7.80645161 5.32258065,10.9556452 C5.32258065,14.1048387 7.85080645,16.6330645 11,16.6330645 C14.1491935,16.6330645 16.6774194,14.0604839 16.6774194,10.9556452 C16.6774194,7.85080645 14.1048387,5.27822581 11,5.27822581 Z M11,14.5927419 C9.00403226,14.5927419 7.36290323,12.9516129 7.36290323,10.9556452 C7.36290323,8.95967742 9.00403226,7.31854839 11,7.31854839 C12.9959677,7.31854839 14.6370968,8.95967742 14.6370968,10.9556452 C14.6370968,12.9516129 12.9959677,14.5927419 11,14.5927419 Z"/>
+    <circle cx="16.899" cy="5.145" r="1.286"/>
+    <path d="M20.2258065,1.81854839 C19.0725806,0.620967742 17.4314516,0 15.5685484,0 L6.43145161,0 C2.57258065,0 0,2.57258065 0,6.43145161 L0,15.5241935 C0,17.4314516 0.620967742,19.0725806 1.86290323,20.2701613 C3.06048387,21.4233871 4.65725806,22 6.47580645,22 L15.5241935,22 C17.4314516,22 19.0282258,21.3790323 20.1814516,20.2701613 C21.3790323,19.1169355 22,17.4758065 22,15.5685484 L22,6.43145161 C22,4.56854839 21.3790323,2.97177419 20.2258065,1.81854839 Z M20.0483871,15.5685484 C20.0483871,16.9435484 19.5604839,18.0524194 18.7620968,18.8064516 C17.9637097,19.5604839 16.8548387,19.9596774 15.5241935,19.9596774 L6.47580645,19.9596774 C5.14516129,19.9596774 4.03629032,19.5604839 3.23790323,18.8064516 C2.43951613,18.0080645 2.04032258,16.8991935 2.04032258,15.5241935 L2.04032258,6.43145161 C2.04032258,5.10080645 2.43951613,3.99193548 3.23790323,3.19354839 C3.99193548,2.43951613 5.14516129,2.04032258 6.47580645,2.04032258 L15.6129032,2.04032258 C16.9435484,2.04032258 18.0524194,2.43951613 18.8508065,3.23790323 C19.6048387,4.03629032 20.0483871,5.14516129 20.0483871,6.43145161 L20.0483871,15.5685484 L20.0483871,15.5685484 Z"/>
+  </g>
+</svg>
+              </a>
+                                  </div>
+                    <ul class="list-unstyled has-line">
+            <li>
+              <a href="https://www.catharinaziekenhuis.nl/contact-en-afspraak-maken-menu/">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <path fill="#0A1031" stroke="#0A1031" stroke-width=".2" d="M18,13.71875 L18,6.5 C18,5.1215 16.8785,4 15.5,4 L4.5,4 C3.1215,4 2,5.1215 2,6.5 L2,13.71875 C2,15.09725 3.1215,16.21875 4.5,16.21875 L15.5,16.21875 C16.8785,16.21875 18,15.09725 18,13.71875 C18,13.3735625 16.75,13.3735625 16.75,13.71875 C16.75,14.408 16.18925,14.96875 15.5,14.96875 L4.5,14.96875 C3.81075,14.96875 3.25,14.408 3.25,13.71875 L3.25,6.6324375 L8.67984375,10.0088438 C9.087,10.262 9.5435,10.3885938 10,10.3885938 C10.4565,10.3885938 10.913,10.262 11.3201563,10.0088438 L16.75,6.6324375 L16.75,13.71875 C16.75,14.0639375 18,14.0639375 18,13.71875 Z M10.6600625,8.9473125 C10.2529375,9.20046875 9.7470625,9.2005 9.3399375,8.9473125 L3.77153125,5.48475 C3.97678125,5.3370625 4.22840625,5.25 4.5,5.25 L15.5,5.25 C15.7715938,5.25 16.0232188,5.33709375 16.2284688,5.48478125 L10.6600625,8.9473125 Z"/>
+</svg>
+                Contact
+              </a>
+            </li>
+          </ul>
+                  </div>
+        
+                <div class="footer-links">
+          <h3 class="h5">Snelle links</h3>
+          <ul id="menu-footer-quick-links" class="list-unstyled nav-footer-quick-links mb-0"><li class="menu-item menu-bloedprikken"><a href="https://www.catharinaziekenhuis.nl/onderzoeken/bloedprikken/">Bloedprikken</a></li>
+<li class="menu-item menu-over-catharina"><a href="https://www.catharinaziekenhuis.nl/over-catharina/">Over Catharina</a></li>
+<li class="menu-item menu-duurzaamheid"><a href="https://www.catharinaziekenhuis.nl/over-catharina/duurzaamheid/">Duurzaamheid</a></li>
+<li class="menu-item menu-spoedeisende-hulp"><a href="https://www.catharinaziekenhuis.nl/afdelingen/spoedeisende-hulp-huisartsenpost/">Spoedeisende Hulp</a></li>
+<li class="menu-item menu-apotheek"><a href="https://www.catharinaziekenhuis.nl/afdelingen/apotheek/">Apotheek</a></li>
+<li class="menu-item menu-kinderwebsite"><a href="https://www.catharinaziekenhuis.nl/kinderwebsite/">Kinderwebsite</a></li>
+<li class="menu-item menu-nieuws"><a href="/actueel/">Nieuws</a></li>
+<li class="menu-item menu-vacatures"><a href="https://werkenbij.catharinaziekenhuis.nl">Vacatures</a></li>
+<li class="menu-item menu-health-foundation"><a href="https://www.catharinahealthfoundation.nl/">Health Foundation</a></li>
+<li class="js-cookiebot-withdraw has-line mt-4 menu-item menu-cookies-intrekken"><a href="https://www.catharinaziekenhuis.nl/privacy/cookies">Cookies intrekken</a></li>
+<li class="js-cookiebot-show menu-item menu-cookies-wijzigen"><a href="https://www.catharinaziekenhuis.nl/privacy/cookies">Cookies wijzigen</a></li>
+</ul>
+        </div>
+              </div>
+    </div>
+
+  </footer>
+
+  <div class="site-footnote">
+    <div class="container">
+      <hr class="border-top my-0">
+      <div class="row justify-content-between pt-4 pb-5">
+        <div class="copy-footnote | col-12 col-lg-auto d-flex g-3">
+          <div>&copy; 2026 Catharina Ziekenhuis</div>
+          <div>Alle rechten voorbehouden</div>
+        </div>
+                <div class="col-12 col-lg-auto text-right">
+          <ul id="menu-footnote-menu" class="d-flex list-unstyled mb-0 nav-footnote g-3"><li class="menu-item menu-coordinated-vulnerability-disclosure"><a href="https://www.catharinaziekenhuis.nl/over-catharina/coordinated-vulnerability-disclosure/">Coordinated Vulnerability Disclosure</a></li>
+<li class="menu-item menu-disclaimer"><a href="https://www.catharinaziekenhuis.nl/disclaimer/">Disclaimer</a></li>
+<li class="menu-item menu-privacy-cookies"><a href="https://www.catharinaziekenhuis.nl/privacy/">Privacy &#038; cookies</a></li>
+<li class="menu-item menu-sitemap"><a href="https://www.catharinaziekenhuis.nl/sitemap/">Sitemap</a></li>
+<li class="menu-item menu-cookie-verklaring"><a href="https://www.catharinaziekenhuis.nl/privacy/cookies/">Cookie verklaring</a></li>
+</ul>
+        </div>
+              </div>
+    </div>
+  </div>
+</div>
+    <div
+  class="modal fade"
+  id="localizationModal"
+  tabindex="-1"
+  role="dialog"
+  aria-labelledby="localizationModalLabel"
+  aria-hidden="true"
+>
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3>Translate website</h3>
+        <button type="button" class="btn btn-modal-close" data-dismiss="modal" aria-label="Sluiten"></button>
+      </div>
+      <div class="modal-body">
+        <div class="flow flow-space-sm">
+                      <p>Pick one of the most popular choices</p>
+            <ul>
+                              <li>
+                  <a
+                    href="https://www-catharinaziekenhuis-nl.translate.goog/?_x_tr_sl=nl&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    English
+                  </a>
+                </li>
+                              <li>
+                  <a
+                    href="https://www-catharinaziekenhuis-nl.translate.goog/?_x_tr_sl=nl&_x_tr_tl=ar&_x_tr_hl=ar&_x_tr_pto=wapp"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    عربي
+                  </a>
+                </li>
+                              <li>
+                  <a
+                    href="https://www-catharinaziekenhuis-nl.translate.goog/?_x_tr_sl=nl&_x_tr_tl=pl&_x_tr_hl=pl&_x_tr_pto=wapp"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Polski
+                  </a>
+                </li>
+                              <li>
+                  <a
+                    href="https://www-catharinaziekenhuis-nl.translate.goog/?_x_tr_sl=nl&_x_tr_tl=so&_x_tr_hl=so&_x_tr_pto=wapp"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Somaliyeed
+                  </a>
+                </li>
+                              <li>
+                  <a
+                    href="https://www-catharinaziekenhuis-nl.translate.goog/?_x_tr_sl=nl&_x_tr_tl=tr&_x_tr_hl=tr&_x_tr_pto=wapp"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Türkçe 
+                  </a>
+                </li>
+                          </ul>
+            <p>Or choose your own preferred language</p>
+          
+          <a
+            href="https://www-catharinaziekenhuis-nl.translate.goog/?_x_tr_sl=nl&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp"
+            type="button"
+            class="btn btn-primary"
+            target="_blank"
+          >
+            Go to Google Translate
+          </a>
+        </div>
+
+                  <hr class="my-4" />
+          <div class="" style="font-size: 0.875rem">
+            
+<h3>Disclaimer</h3>
+<p><strong>Nederlands</strong>: Deze teksten worden op uw verzoek door Google Translate Services vertaald en kunnen fouten bevatten. Automatische vertalingen zijn niet perfect en vervangen geen menselijke vertalers. Het Catharina Ziekenhuis is niet verantwoordelijk voor mogelijke vertaalfouten. Als u vragen heeft over uw gezondheid, neem dan altijd contact op met uw arts.</p>
+<p>Meer weten? <a href="https://www.catharinaziekenhuis.nl/toelichting-vertaalbeleid-catharina-ziekenhuis/">Lees de toelichting vertaalbeleid</a>.</p>
+<p><strong>English</strong>: These texts are actively translated at your request by Google Translate Services and may contain errors. Automatic translations are not perfect and do not replace human translators. Catharina Hospital is not responsible for possible translation errors. If you have any questions about your health, always contact your doctor.</p>
+<p>Want to know more? <a href="https://www.catharinaziekenhuis.nl/explanation-of-translation-policy-at-catharina-hospital/">Read the explanation of translation policy</a></p>
+
+
+          </div>
+              </div>
+    </div>
+  </div>
+</div>
+    			<script>
+				const lazyloadRunObserver = () => {
+					const lazyloadBackgrounds = document.querySelectorAll( `.e-con.e-parent:not(.e-lazyloaded)` );
+					const lazyloadBackgroundObserver = new IntersectionObserver( ( entries ) => {
+						entries.forEach( ( entry ) => {
+							if ( entry.isIntersecting ) {
+								let lazyloadBackground = entry.target;
+								if( lazyloadBackground ) {
+									lazyloadBackground.classList.add( 'e-lazyloaded' );
+								}
+								lazyloadBackgroundObserver.unobserve( entry.target );
+							}
+						});
+					}, { rootMargin: '200px 0px 200px 0px' } );
+					lazyloadBackgrounds.forEach( ( lazyloadBackground ) => {
+						lazyloadBackgroundObserver.observe( lazyloadBackground );
+					} );
+				};
+				const events = [
+					'DOMContentLoaded',
+					'elementor/lazyload/observe',
+				];
+				events.forEach( ( event ) => {
+					document.addEventListener( event, lazyloadRunObserver );
+				} );
+			</script>
+			<script type="text/javascript" id="sage/main.js-js-extra">
+/* <![CDATA[ */
+var ajax_params = {"show_site_notification":""};
+/* ]]> */
+</script>
+<script src="/app/themes/cze/dist/scripts/main_391b5c56.js"></script>
+    
+    <div
+      id="overlay"
+      class="page-overlay"
+      data-hamburger-menu-toggle="close"
+      data-toggle-target="#hamburger-menu"
+      aria-controls="hamburger-menu"
+      aria-expanded="false"
+    ></div>
+  </body>
+</html>
+
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
+
+
+Served from: www.catharinaziekenhuis.nl @ 2026-10-22 14:24:09 by W3 Total Cache
+-->

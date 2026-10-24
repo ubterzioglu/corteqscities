@@ -1,0 +1,50 @@
+{
+  "map": {
+    "https://sede.policia.gob.es/portalCiudadano/_es/tramites_extranjeria_tramite_asignacion_nie.php": "es:kaynak:001",
+    "https://sede.policia.gob.es/portalCiudadano/_es/tramites_extranjeria_tramite_certificadoregistro_ciudadanoue.php": "es:kaynak:002",
+    "https://sede.policia.gob.es/portalCiudadano/_es/tramites_extranjeria_tasas.php": "es:kaynak:003",
+    "https://www.boe.es/buscar/act.php?id=BOE-A-2024-24099": "es:kaynak:004",
+    "https://www.boe.es/buscar/act.php?id=BOE-A-2007-4184": "es:kaynak:005",
+    "https://www.boe.es/buscar/doc.php?id=BOE-A-2025-12056": "es:kaynak:006",
+    "https://www.boe.es/buscar/act.php?id=BOE-A-2000-544": "es:kaynak:007",
+    "https://sede.policia.gob.es/portalCiudadano/_es/tramites_extranjeria_tramite_tarjetaresidencia_largaduracion.php": "es:kaynak:008",
+    "https://sede.policia.gob.es/portalCiudadano/_es/tramites_extranjeria_tramite_residenciatemporal_circunstanciasexcepcionales.php": "es:kaynak:009",
+    "https://www.exteriores.gob.es/Consulados/estambul/es/Comunicacion/Noticias/Paginas/Articulos/Requisitos-Visado-Teletrabajo.aspx": "es:kaynak:010",
+    "https://www.boe.es/buscar/act.php?id=BOE-A-2022-21739": "es:kaynak:011",
+    "https://www.exteriores.gob.es/Embajadas/nuevadelhi/en/ServiciosConsulares/Paginas/Consular/Visado-de-residencia-no-lucrativa.aspx": "es:kaynak:012",
+    "https://www.boe.es/buscar/act.php?id=BOE-A-2025-76": "es:kaynak:013",
+    "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/vivienda-agenda-urbana/paginas/2025/020425-fin-golden-visa.aspx": "es:kaynak:014",
+    "https://www.boe.es/buscar/act.php?id=BOE-A-1889-4763": "es:kaynak:015",
+    "https://www.mjusticia.gob.es/es/ciudadania/nacionalidad/que-es-nacionalidad/como-adquiere-nacionalidad/modos-adquisicion": "es:kaynak:016",
+    "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2020-7276": "es:kaynak:017"
+  },
+  "rejected": [
+    {
+      "url": "https://sede.policia.gob.es/portalCiudadano/_es/tramites_extranjeria_tramite_tarjeta_residencia_residenciaytrabajo.php",
+      "why": "kanit metinde yok: ['Modelo de Solicitud de Tarjeta de Identidad de Extranjero (TIE) (Formulario EX17)']"
+    }
+  ],
+  "fetch": {
+    "status": "ok",
+    "urls": 18,
+    "fetched": 18,
+    "saved": 18,
+    "failed": 0,
+    "thin_text": 0,
+    "soft_404": 0,
+    "evidence_checked": 0,
+    "evidence_missing": 0,
+    "evidence_stale": 0,
+    "evidence_from_index": 0,
+    "must_contain_unmatched": 0,
+    "non_html": 0,
+    "truncated": 1,
+    "skipped": 0,
+    "index_rows": 18,
+    "index_kept": 0,
+    "requests_made": 18,
+    "cache_hits": 0,
+    "retry_transient": true,
+    "index": "C:\\temp_private\\corteqs\\0000_newera\\ulke\\ES\\_is\\snap_kesif_oturum\\index.jsonl"
+  }
+}

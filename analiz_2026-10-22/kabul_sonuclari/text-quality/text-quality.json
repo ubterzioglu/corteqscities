@@ -1,0 +1,7026 @@
+{
+  "tool": "text_quality",
+  "workbook": "CITY-039_eindhoven_v001.xlsx",
+  "params": {
+    "min_cluster": 3,
+    "near": 0.9
+  },
+  "summary": {
+    "exact_clusters": 28,
+    "near_clusters": 0,
+    "template_clusters": 1,
+    "shared_steps": 0,
+    "placeholders": 115,
+    "filler": 0,
+    "evasive": 0,
+    "without_action": 88,
+    "visual_json_errors": 0,
+    "caption_is_title": 264,
+    "hedge_cards": 98,
+    "hedge_share": 0.2753,
+    "exact_records": 462,
+    "short_repeat_groups": 60,
+    "repeated_sentences": 23,
+    "cards_total": 356,
+    "visual_json_empty": 247,
+    "findings": 594
+  },
+  "top_clusters": [
+    {
+      "kind": "exact",
+      "sheet": "Fotoğraflar",
+      "field": "modifications",
+      "size": 272,
+      "sample": "Corteqs: Commons 1600px türev kopyası indirildi; WebP'ye dönüştürüldü (en çok 1600 px kenar)."
+    },
+    {
+      "kind": "exact",
+      "sheet": "Mekânlar",
+      "field": "note",
+      "size": 93,
+      "sample": "Saat, ücret ve kapalı günleri ziyaret öncesi kurumdan doğrula; bilet/rezervasyon kurumun kendi kanalındadır."
+    },
+    {
+      "kind": "exact",
+      "sheet": "Mekânlar",
+      "field": "subtitle",
+      "size": 22,
+      "sample": "Tarih ve mimari · Binnenstad"
+    },
+    {
+      "kind": "template",
+      "sheet": "Mahalleler",
+      "field": "note",
+      "size": 16,
+      "distinct": 16,
+      "sample": "Kimine uygun: İlk kez gelenler, şehri yürüyerek tanımak isteyenler, gece hayatı arayanlar. Ev bakarken sokağı farklı saa…"
+    },
+    {
+      "kind": "exact",
+      "sheet": "Mekânlar",
+      "field": "subtitle",
+      "size": 8,
+      "sample": "Tarih ve mimari · Woensel-Zuid"
+    }
+  ],
+  "exact_duplicates": [
+    {
+      "sheet": "Fotoğraflar",
+      "field": "modifications",
+      "size": 272,
+      "length": 88,
+      "sample": "Corteqs: Commons 1600px türev kopyası indirildi; WebP'ye dönüştürüldü (en çok 1600 px kenar).",
+      "members": [
+        {
+          "row": 8,
+          "id": "eindhoven:foto:kapak-skyline-01"
+        },
+        {
+          "row": 9,
+          "id": "eindhoven:foto:kapak-merkez-01"
+        },
+        {
+          "row": 10,
+          "id": "eindhoven:foto:kapak-strijps-01"
+        },
+        {
+          "row": 11,
+          "id": "eindhoven:foto:kapak-glow-01"
+        },
+        {
+          "row": 12,
+          "id": "eindhoven:foto:kapak-doga-01"
+        },
+        {
+          "row": 13,
+          "id": "eindhoven:foto:kapak-endustri-01"
+        },
+        {
+          "row": 14,
+          "id": "eindhoven:foto:kapak-evoluon-01"
+        },
+        {
+          "row": 15,
+          "id": "eindhoven:foto:kapak-stadion-01"
+        },
+        {
+          "row": 16,
+          "id": "eindhoven:mah-binnenstad"
+        },
+        {
+          "row": 17,
+          "id": "eindhoven:mah-de-bergen"
+        },
+        {
+          "row": 18,
+          "id": "eindhoven:mah-strijp-s"
+        },
+        {
+          "row": 19,
+          "id": "eindhoven:mah-philipsdorp"
+        },
+        {
+          "row": 20,
+          "id": "eindhoven:mah-meerhoven"
+        },
+        {
+          "row": 21,
+          "id": "eindhoven:mah-oud-woensel"
+        },
+        {
+          "row": 22,
+          "id": "eindhoven:mah-acht"
+        },
+        {
+          "row": 23,
+          "id": "eindhoven:mah-roosten"
+        },
+        {
+          "row": 24,
+          "id": "eindhoven:mah-doornakkers"
+        },
+        {
+          "row": 25,
+          "id": "eindhoven:mah-villapark"
+        },
+        {
+          "row": 26,
+          "id": "eindhoven:mah-karpen-koudenhoven"
+        },
+        {
+          "row": 27,
+          "id": "eindhoven:mah-oud-stratum"
+        },
+        {
+          "row": 28,
+          "id": "eindhoven:mah-burghplan"
+        },
+        {
+          "row": 29,
+          "id": "eindhoven:mah-leenderheide"
+        },
+        {
+          "row": 30,
+          "id": "eindhoven:mah-oud-gestel"
+        },
+        {
+          "row": 31,
+          "id": "eindhoven:mah-hofke-tongelre"
+        },
+        {
+          "row": 32,
+          "id": "eindhoven:van-abbemuseum"
+        },
+        {
+          "row": 33,
+          "id": "eindhoven:van-abbemuseum"
+        },
+        {
+          "row": 34,
+          "id": "eindhoven:van-abbemuseum"
+        },
+        {
+          "row": 35,
+          "id": "eindhoven:van-abbemuseum"
+        },
+        {
+          "row": 36,
+          "id": "eindhoven:van-abbemuseum"
+        },
+        {
+          "row": 37,
+          "id": "eindhoven:philips-museum"
+        },
+        {
+          "row": 38,
+          "id": "eindhoven:philips-museum"
+        },
+        {
+          "row": 39,
+          "id": "eindhoven:philips-museum"
+        },
+        {
+          "row": 40,
+          "id": "eindhoven:daf-museum"
+        },
+        {
+          "row": 41,
+          "id": "eindhoven:daf-museum"
+        },
+        {
+          "row": 42,
+          "id": "eindhoven:daf-museum"
+        },
+        {
+          "row": 43,
+          "id": "eindhoven:next-nature-evoluon"
+        },
+        {
+          "row": 44,
+          "id": "eindhoven:next-nature-evoluon"
+        },
+        {
+          "row": 45,
+          "id": "eindhoven:next-nature-evoluon"
+        },
+        {
+          "row": 46,
+          "id": "eindhoven:next-nature-evoluon"
+        },
+        {
+          "row": 47,
+          "id": "eindhoven:next-nature-evoluon"
+        },
+        {
+          "row": 48,
+          "id": "eindhoven:ton-smits-huis"
+        },
+        {
+          "row": 49,
+          "id": "eindhoven:ton-smits-huis"
+        },
+        {
+          "row": 50,
+          "id": "eindhoven:mu-arthouse"
+        },
+        {
+          "row": 51,
+          "id": "eindhoven:kazerne-design"
+        },
+        {
+          "row": 52,
+          "id": "eindhoven:kazerne-design"
+        },
+        {
+          "row": 53,
+          "id": "eindhoven:design-academy"
+        },
+        {
+          "row": 54,
+          "id": "eindhoven:design-academy"
+        },
+        {
+          "row": 55,
+          "id": "eindhoven:design-academy"
+        },
+        {
+          "row": 56,
+          "id": "eindhoven:berenkuil-street-art"
+        },
+        {
+          "row": 57,
+          "id": "eindhoven:berenkuil-street-art"
+        },
+        {
+          "row": 58,
+          "id": "eindhoven:berenkuil-street-art"
+        },
+        {
+          "row": 59,
+          "id": "eindhoven:muziekgebouw"
+        },
+        {
+          "row": 60,
+          "id": "eindhoven:muziekgebouw"
+        },
+        {
+          "row": 61,
+          "id": "eindhoven:parktheater"
+        },
+        {
+          "row": 62,
+          "id": "eindhoven:parktheater"
+        },
+        {
+          "row": 63,
+          "id": "eindhoven:effenaar"
+        },
+        {
+          "row": 64,
+          "id": "eindhoven:effenaar"
+        },
+        {
+          "row": 65,
+          "id": "eindhoven:effenaar"
+        },
+        {
+          "row": 66,
+          "id": "eindhoven:natlab"
+        },
+        {
+          "row": 67,
+          "id": "eindhoven:natlab"
+        },
+        {
+          "row": 68,
+          "id": "eindhoven:natlab"
+        },
+        {
+          "row": 69,
+          "id": "eindhoven:cafe-wilhelmina"
+        },
+        {
+          "row": 70,
+          "id": "eindhoven:philips-stadion"
+        },
+        {
+          "row": 71,
+          "id": "eindhoven:philips-stadion"
+        },
+        {
+          "row": 72,
+          "id": "eindhoven:philips-stadion"
+        },
+        {
+          "row": 73,
+          "id": "eindhoven:philips-stadion"
+        },
+        {
+          "row": 74,
+          "id": "eindhoven:philips-stadion"
+        },
+        {
+          "row": 75,
+          "id": "eindhoven:hoogenband-zwemstadion"
+        },
+        {
+          "row": 76,
+          "id": "eindhoven:hoogenband-zwemstadion"
+        },
+        {
+          "row": 77,
+          "id": "eindhoven:ijssportcentrum"
+        },
+        {
+          "row": 78,
+          "id": "eindhoven:ijssportcentrum"
+        },
+        {
+          "row": 79,
+          "id": "eindhoven:jan-louwers-stadion"
+        },
+        {
+          "row": 80,
+          "id": "eindhoven:oranje-rood-hockey"
+        },
+        {
+          "row": 81,
+          "id": "eindhoven:sportpark-aalsterweg"
+        },
+        {
+          "row": 82,
+          "id": "eindhoven:speelpark-de-splinter"
+        },
+        {
+          "row": 83,
+          "id": "eindhoven:speelpark-de-splinter"
+        },
+        {
+          "row": 84,
+          "id": "eindhoven:zwembad-tongelreep"
+        },
+        {
+          "row": 85,
+          "id": "eindhoven:historisch-openluchtmuseum"
+        },
+        {
+          "row": 86,
+          "id": "eindhoven:historisch-openluchtmuseum"
+        },
+        {
+          "row": 87,
+          "id": "eindhoven:historisch-openluchtmuseum"
+        },
+        {
+          "row": 88,
+          "id": "eindhoven:genneper-parken"
+        },
+        {
+          "row": 89,
+          "id": "eindhoven:genneper-parken"
+        },
+        {
+          "row": 90,
+          "id": "eindhoven:stadswandelpark"
+        },
+        {
+          "row": 91,
+          "id": "eindhoven:stadswandelpark"
+        },
+        {
+          "row": 92,
+          "id": "eindhoven:stadswandelpark"
+        },
+        {
+          "row": 93,
+          "id": "eindhoven:karpendonkse-plas"
+        },
+        {
+          "row": 94,
+          "id": "eindhoven:karpendonkse-plas"
+        },
+        {
+          "row": 95,
+          "id": "eindhoven:karpendonkse-plas"
+        },
+        {
+          "row": 96,
+          "id": "eindhoven:leenderheide"
+        },
+        {
+          "row": 97,
+          "id": "eindhoven:leenderheide"
+        },
+        {
+          "row": 98,
+          "id": "eindhoven:eikenburg"
+        },
+        {
+          "row": 99,
+          "id": "eindhoven:eikenburg"
+        },
+        {
+          "row": 100,
+          "id": "eindhoven:eikenburg"
+        },
+        {
+          "row": 101,
+          "id": "eindhoven:grote-beek"
+        },
+        {
+          "row": 102,
+          "id": "eindhoven:grote-beek"
+        },
+        {
+          "row": 103,
+          "id": "eindhoven:grote-beek"
+        },
+        {
+          "row": 104,
+          "id": "eindhoven:kanaal-eindhoven"
+        },
+        {
+          "row": 105,
+          "id": "eindhoven:kanaal-eindhoven"
+        },
+        {
+          "row": 106,
+          "id": "eindhoven:kanaal-eindhoven"
+        },
+        {
+          "row": 107,
+          "id": "eindhoven:dommel-eindhoven"
+        },
+        {
+          "row": 108,
+          "id": "eindhoven:dommel-eindhoven"
+        },
+        {
+          "row": 109,
+          "id": "eindhoven:dommel-eindhoven"
+        },
+        {
+          "row": 110,
+          "id": "eindhoven:strijp-s"
+        },
+        {
+          "row": 111,
+          "id": "eindhoven:strijp-s"
+        },
+        {
+          "row": 112,
+          "id": "eindhoven:strijp-s"
+        },
+        {
+          "row": 113,
+          "id": "eindhoven:strijp-s"
+        },
+        {
+          "row": 114,
+          "id": "eindhoven:strijp-s"
+        },
+        {
+          "row": 115,
+          "id": "eindhoven:klokgebouw"
+        },
+        {
+          "row": 116,
+          "id": "eindhoven:klokgebouw"
+        },
+        {
+          "row": 117,
+          "id": "eindhoven:klokgebouw"
+        },
+        {
+          "row": 118,
+          "id": "eindhoven:lichttoren"
+        },
+        {
+          "row": 119,
+          "id": "eindhoven:lichttoren"
+        },
+        {
+          "row": 120,
+          "id": "eindhoven:lichttoren"
+        },
+        {
+          "row": 121,
+          "id": "eindhoven:witte-dame"
+        },
+        {
+          "row": 122,
+          "id": "eindhoven:witte-dame"
+        },
+        {
+          "row": 123,
+          "id": "eindhoven:witte-dame"
+        },
+        {
+          "row": 124,
+          "id": "eindhoven:de-blob"
+        },
+        {
+          "row": 125,
+          "id": "eindhoven:de-blob"
+        },
+        {
+          "row": 126,
+          "id": "eindhoven:de-blob"
+        },
+        {
+          "row": 127,
+          "id": "eindhoven:de-admirant"
+        },
+        {
+          "row": 128,
+          "id": "eindhoven:de-admirant"
+        },
+        {
+          "row": 129,
+          "id": "eindhoven:de-admirant"
+        },
+        {
+          "row": 130,
+          "id": "eindhoven:vesteda-toren"
+        },
+        {
+          "row": 131,
+          "id": "eindhoven:vesteda-toren"
+        },
+        {
+          "row": 132,
+          "id": "eindhoven:vesteda-toren"
+        },
+        {
+          "row": 133,
+          "id": "eindhoven:trudo-vertical-forest"
+        },
+        {
+          "row": 134,
+          "id": "eindhoven:trudo-vertical-forest"
+        },
+        {
+          "row": 135,
+          "id": "eindhoven:trudo-vertical-forest"
+        },
+        {
+          "row": 136,
+          "id": "eindhoven:station-eindhoven-centraal"
+        },
+        {
+          "row": 137,
+          "id": "eindhoven:stadskantoor"
+        },
+        {
+          "row": 138,
+          "id": "eindhoven:bijenkorf-eindhoven"
+        },
+        {
+          "row": 139,
+          "id": "eindhoven:bijenkorf-eindhoven"
+        },
+        {
+          "row": 140,
+          "id": "eindhoven:bijenkorf-eindhoven"
+        },
+        {
+          "row": 141,
+          "id": "eindhoven:sint-catharinakerk"
+        },
+        {
+          "row": 142,
+          "id": "eindhoven:sint-catharinakerk"
+        },
+        {
+          "row": 143,
+          "id": "eindhoven:sint-catharinakerk"
+        },
+        {
+          "row": 144,
+          "id": "eindhoven:sint-catharinakerk"
+        },
+        {
+          "row": 145,
+          "id": "eindhoven:sint-catharinakerk"
+        },
+        {
+          "row": 146,
+          "id": "eindhoven:oude-toren-woensel"
+        },
+        {
+          "row": 147,
+          "id": "eindhoven:watertoren"
+        },
+        {
+          "row": 148,
+          "id": "eindhoven:watertoren"
+        },
+        {
+          "row": 149,
+          "id": "eindhoven:watertoren"
+        },
+        {
+          "row": 150,
+          "id": "eindhoven:hoge-herde"
+        },
+        {
+          "row": 151,
+          "id": "eindhoven:hoge-herde"
+        },
+        {
+          "row": 152,
+          "id": "eindhoven:hoge-herde"
+        },
+        {
+          "row": 153,
+          "id": "eindhoven:hightech-campus"
+        },
+        {
+          "row": 154,
+          "id": "eindhoven:hightech-campus"
+        },
+        {
+          "row": 155,
+          "id": "eindhoven:hightech-campus"
+        },
+        {
+          "row": 156,
+          "id": "eindhoven:hightech-campus"
+        },
+        {
+          "row": 157,
+          "id": "eindhoven:hightech-campus"
+        },
+        {
+          "row": 158,
+          "id": "eindhoven:18-septemberplein"
+        },
+        {
+          "row": 159,
+          "id": "eindhoven:18-septemberplein"
+        },
+        {
+          "row": 160,
+          "id": "eindhoven:18-septemberplein"
+        },
+        {
+          "row": 161,
+          "id": "eindhoven:grote-markt"
+        },
+        {
+          "row": 162,
+          "id": "eindhoven:grote-markt"
+        },
+        {
+          "row": 163,
+          "id": "eindhoven:catharinaplein"
+        },
+        {
+          "row": 164,
+          "id": "eindhoven:catharinaplein"
+        },
+        {
+          "row": 165,
+          "id": "eindhoven:catharinaplein"
+        },
+        {
+          "row": 166,
+          "id": "eindhoven:wilhelminaplein"
+        },
+        {
+          "row": 167,
+          "id": "eindhoven:wilhelminaplein"
+        },
+        {
+          "row": 168,
+          "id": "eindhoven:wilhelminaplein"
+        },
+        {
+          "row": 169,
+          "id": "eindhoven:sint-trudokerk"
+        },
+        {
+          "row": 170,
+          "id": "eindhoven:sint-trudokerk"
+        },
+        {
+          "row": 171,
+          "id": "eindhoven:sint-trudokerk"
+        },
+        {
+          "row": 172,
+          "id": "eindhoven:woenselse-watermolen"
+        },
+        {
+          "row": 173,
+          "id": "eindhoven:klooster-marienhage"
+        },
+        {
+          "row": 174,
+          "id": "eindhoven:klooster-marienhage"
+        },
+        {
+          "row": 175,
+          "id": "eindhoven:klooster-marienhage"
+        },
+        {
+          "row": 176,
+          "id": "eindhoven:molen-annemie"
+        },
+        {
+          "row": 177,
+          "id": "eindhoven:molen-annemie"
+        },
+        {
+          "row": 178,
+          "id": "eindhoven:genneper-watermolen"
+        },
+        {
+          "row": 179,
+          "id": "eindhoven:genneper-watermolen"
+        },
+        {
+          "row": 180,
+          "id": "eindhoven:genneper-watermolen"
+        },
+        {
+          "row": 181,
+          "id": "eindhoven:collse-watermolen"
+        },
+        {
+          "row": 182,
+          "id": "eindhoven:collse-watermolen"
+        },
+        {
+          "row": 183,
+          "id": "eindhoven:collse-watermolen"
+        },
+        {
+          "row": 184,
+          "id": "eindhoven:collse-watermolen"
+        },
+        {
+          "row": 185,
+          "id": "eindhoven:collse-watermolen"
+        },
+        {
+          "row": 186,
+          "id": "eindhoven:sint-petruskerk"
+        },
+        {
+          "row": 187,
+          "id": "eindhoven:sint-petruskerk"
+        },
+        {
+          "row": 188,
+          "id": "eindhoven:sint-petruskerk"
+        },
+        {
+          "row": 189,
+          "id": "eindhoven:sint-lambertuskerk"
+        },
+        {
+          "row": 190,
+          "id": "eindhoven:sint-lambertuskerk"
+        },
+        {
+          "row": 191,
+          "id": "eindhoven:sint-lambertuskerk"
+        },
+        {
+          "row": 192,
+          "id": "eindhoven:steentjeskerk"
+        },
+        {
+          "row": 193,
+          "id": "eindhoven:steentjeskerk"
+        },
+        {
+          "row": 194,
+          "id": "eindhoven:steentjeskerk"
+        },
+        {
+          "row": 195,
+          "id": "eindhoven:heilig-hartkerk"
+        },
+        {
+          "row": 196,
+          "id": "eindhoven:heilig-hartkerk"
+        },
+        {
+          "row": 197,
+          "id": "eindhoven:heilig-hartkerk"
+        },
+        {
+          "row": 198,
+          "id": "eindhoven:sint-theresiakerk"
+        },
+        {
+          "row": 199,
+          "id": "eindhoven:sint-martinuskerk"
+        },
+        {
+          "row": 200,
+          "id": "eindhoven:sint-martinuskerk"
+        },
+        {
+          "row": 201,
+          "id": "eindhoven:sint-martinuskerk"
+        },
+        {
+          "row": 202,
+          "id": "eindhoven:paterskerk"
+        },
+        {
+          "row": 203,
+          "id": "eindhoven:paterskerk"
+        },
+        {
+          "row": 204,
+          "id": "eindhoven:paterskerk"
+        },
+        {
+          "row": 205,
+          "id": "eindhoven:clarissenklooster"
+        },
+        {
+          "row": 206,
+          "id": "eindhoven:clarissenklooster"
+        },
+        {
+          "row": 207,
+          "id": "eindhoven:clarissenklooster"
+        },
+        {
+          "row": 208,
+          "id": "eindhoven:philips-observatorium"
+        },
+        {
+          "row": 209,
+          "id": "eindhoven:philips-observatorium"
+        },
+        {
+          "row": 210,
+          "id": "eindhoven:van-maerlantlyceum"
+        },
+        {
+          "row": 211,
+          "id": "eindhoven:van-maerlantlyceum"
+        },
+        {
+          "row": 212,
+          "id": "eindhoven:van-maerlantlyceum"
+        },
+        {
+          "row": 213,
+          "id": "eindhoven:gemeentelijke-hbs"
+        },
+        {
+          "row": 214,
+          "id": "eindhoven:gemeentelijke-hbs"
+        },
+        {
+          "row": 215,
+          "id": "eindhoven:st-joriscollege"
+        },
+        {
+          "row": 216,
+          "id": "eindhoven:w-hal-tue"
+        },
+        {
+          "row": 217,
+          "id": "eindhoven:w-hal-tue"
+        },
+        {
+          "row": 218,
+          "id": "eindhoven:nutsschool-reigerlaan"
+        },
+        {
+          "row": 219,
+          "id": "eindhoven:nutsschool-reigerlaan"
+        },
+        {
+          "row": 220,
+          "id": "eindhoven:nutsschool-reigerlaan"
+        },
+        {
+          "row": 221,
+          "id": "eindhoven:nutsschool-reigerlaan"
+        },
+        {
+          "row": 222,
+          "id": "eindhoven:nutsschool-reigerlaan"
+        },
+        {
+          "row": 223,
+          "id": "eindhoven:mennen-poortgebouw"
+        },
+        {
+          "row": 224,
+          "id": "eindhoven:mennen-poortgebouw"
+        },
+        {
+          "row": 225,
+          "id": "eindhoven:kasteel-eckart"
+        },
+        {
+          "row": 226,
+          "id": "eindhoven:kasteel-eckart"
+        },
+        {
+          "row": 227,
+          "id": "eindhoven:sint-joriskerk"
+        },
+        {
+          "row": 228,
+          "id": "eindhoven:sint-joriskerk"
+        },
+        {
+          "row": 229,
+          "id": "eindhoven:sint-joriskerk"
+        },
+        {
+          "row": 230,
+          "id": "eindhoven:sint-joriskerk"
+        },
+        {
+          "row": 231,
+          "id": "eindhoven:sint-joriskerk"
+        },
+        {
+          "row": 232,
+          "id": "eindhoven:gerardus-majellakerk"
+        },
+        {
+          "row": 233,
+          "id": "eindhoven:gerardus-majellakerk"
+        },
+        {
+          "row": 234,
+          "id": "eindhoven:gerardus-majellakerk"
+        },
+        {
+          "row": 235,
+          "id": "eindhoven:villa-de-laak"
+        },
+        {
+          "row": 236,
+          "id": "eindhoven:villa-de-laak"
+        },
+        {
+          "row": 237,
+          "id": "eindhoven:villa-de-laak"
+        },
+        {
+          "row": 238,
+          "id": "eindhoven:tue-atlas"
+        },
+        {
+          "row": 239,
+          "id": "eindhoven:bevrijdingsmonument"
+        },
+        {
+          "row": 240,
+          "id": "eindhoven:bevrijdingsmonument"
+        },
+        {
+          "row": 241,
+          "id": "eindhoven:bevrijdingsmonument"
+        },
+        {
+          "row": 242,
+          "id": "eindhoven:raadhuis-tongelre"
+        },
+        {
+          "row": 243,
+          "id": "eindhoven:raadhuis-tongelre"
+        },
+        {
+          "row": 244,
+          "id": "eindhoven:eindhoven-airport-terminal"
+        },
+        {
+          "row": 245,
+          "id": "eindhoven:eindhoven-airport-terminal"
+        },
+        {
+          "row": 246,
+          "id": "eindhoven:eindhoven-airport-terminal"
+        },
+        {
+          "row": 247,
+          "id": "eindhoven:haftalik-pazarlar"
+        },
+        {
+          "row": 248,
+          "id": "eindhoven:haftalik-pazarlar"
+        },
+        {
+          "row": 249,
+          "id": "eindhoven:striatumseind"
+        },
+        {
+          "row": 250,
+          "id": "eindhoven:striatumseind"
+        },
+        {
+          "row": 251,
+          "id": "eindhoven:striatumseind"
+        },
+        {
+          "row": 252,
+          "id": "eindhoven:striatumseind"
+        },
+        {
+          "row": 253,
+          "id": "eindhoven:striatumseind"
+        },
+        {
+          "row": 254,
+          "id": "eindhoven:de-bergen-horeca"
+        },
+        {
+          "row": 255,
+          "id": "eindhoven:de-bergen-horeca"
+        },
+        {
+          "row": 256,
+          "id": "eindhoven:de-bergen-horeca"
+        },
+        {
+          "row": 257,
+          "id": "eindhoven:vershal-het-veem"
+        },
+        {
+          "row": 258,
+          "id": "eindhoven:vershal-het-veem"
+        },
+        {
+          "row": 259,
+          "id": "eindhoven:vershal-het-veem"
+        },
+        {
+          "row": 260,
+          "id": "eindhoven:kruisstraat-keent"
+        },
+        {
+          "row": 261,
+          "id": "eindhoven:kruisstraat-keent"
+        },
+        {
+          "row": 262,
+          "id": "eindhoven:kruisstraat-keent"
+        },
+        {
+          "row": 263,
+          "id": "eindhoven:cafe-100-watt"
+        },
+        {
+          "row": 264,
+          "id": "eindhoven:cafe-100-watt"
+        },
+        {
+          "row": 265,
+          "id": "eindhoven:cafe-100-watt"
+        },
+        {
+          "row": 266,
+          "id": "eindhoven:heuvel-galerie"
+        },
+        {
+          "row": 267,
+          "id": "eindhoven:heuvel-galerie"
+        },
+        {
+          "row": 268,
+          "id": "eindhoven:heuvel-galerie"
+        },
+        {
+          "row": 269,
+          "id": "eindhoven:philips-nederland-gebouw"
+        },
+        {
+          "row": 270,
+          "id": "eindhoven:herdgang"
+        },
+        {
+          "row": 271,
+          "id": "eindhoven:herdgang"
+        },
+        {
+          "row": 272,
+          "id": "eindhoven:winkelcentrum-woensel"
+        },
+        {
+          "row": 273,
+          "id": "eindhoven:winkelcentrum-woensel"
+        },
+        {
+          "row": 274,
+          "id": "eindhoven:porthos-toren"
+        },
+        {
+          "row": 275,
+          "id": "eindhoven:porthos-toren"
+        },
+        {
+          "row": 276,
+          "id": "eindhoven:tue-auditorium"
+        },
+        {
+          "row": 277,
+          "id": "eindhoven:tue-auditorium"
+        },
+        {
+          "row": 278,
+          "id": "eindhoven:oorlogsmonument-fellenoord"
+        },
+        {
+          "row": 279,
+          "id": "eindhoven:oorlogsmonument-fellenoord"
+        }
+      ]
+    },
+    {
+      "sheet": "Mekânlar",
+      "field": "note",
+      "size": 93,
+      "length": 105,
+      "sample": "Saat, ücret ve kapalı günleri ziyaret öncesi kurumdan doğrula; bilet/rezervasyon kurumun kendi kanalındadır.",
+      "members": [
+        {
+          "row": 8,
+          "id": "eindhoven:van-abbemuseum"
+        },
+        {
+          "row": 9,
+          "id": "eindhoven:philips-museum"
+        },
+        {
+          "row": 10,
+          "id": "eindhoven:daf-museum"
+        },
+        {
+          "row": 11,
+          "id": "eindhoven:next-nature-evoluon"
+        },
+        {
+          "row": 12,
+          "id": "eindhoven:ton-smits-huis"
+        },
+        {
+          "row": 13,
+          "id": "eindhoven:mu-arthouse"
+        },
+        {
+          "row": 14,
+          "id": "eindhoven:kazerne-design"
+        },
+        {
+          "row": 15,
+          "id": "eindhoven:design-academy"
+        },
+        {
+          "row": 16,
+          "id": "eindhoven:berenkuil-street-art"
+        },
+        {
+          "row": 17,
+          "id": "eindhoven:muziekgebouw"
+        },
+        {
+          "row": 18,
+          "id": "eindhoven:parktheater"
+        },
+        {
+          "row": 19,
+          "id": "eindhoven:effenaar"
+        },
+        {
+          "row": 20,
+          "id": "eindhoven:natlab"
+        },
+        {
+          "row": 21,
+          "id": "eindhoven:cafe-wilhelmina"
+        },
+        {
+          "row": 22,
+          "id": "eindhoven:philips-stadion"
+        },
+        {
+          "row": 23,
+          "id": "eindhoven:hoogenband-zwemstadion"
+        },
+        {
+          "row": 24,
+          "id": "eindhoven:ijssportcentrum"
+        },
+        {
+          "row": 25,
+          "id": "eindhoven:jan-louwers-stadion"
+        },
+        {
+          "row": 26,
+          "id": "eindhoven:oranje-rood-hockey"
+        },
+        {
+          "row": 27,
+          "id": "eindhoven:sportpark-aalsterweg"
+        },
+        {
+          "row": 28,
+          "id": "eindhoven:speelpark-de-splinter"
+        },
+        {
+          "row": 29,
+          "id": "eindhoven:zwembad-tongelreep"
+        },
+        {
+          "row": 30,
+          "id": "eindhoven:historisch-openluchtmuseum"
+        },
+        {
+          "row": 31,
+          "id": "eindhoven:genneper-parken"
+        },
+        {
+          "row": 32,
+          "id": "eindhoven:stadswandelpark"
+        },
+        {
+          "row": 33,
+          "id": "eindhoven:karpendonkse-plas"
+        },
+        {
+          "row": 34,
+          "id": "eindhoven:leenderheide"
+        },
+        {
+          "row": 35,
+          "id": "eindhoven:eikenburg"
+        },
+        {
+          "row": 36,
+          "id": "eindhoven:grote-beek"
+        },
+        {
+          "row": 37,
+          "id": "eindhoven:kanaal-eindhoven"
+        },
+        {
+          "row": 38,
+          "id": "eindhoven:dommel-eindhoven"
+        },
+        {
+          "row": 39,
+          "id": "eindhoven:strijp-s"
+        },
+        {
+          "row": 40,
+          "id": "eindhoven:klokgebouw"
+        },
+        {
+          "row": 41,
+          "id": "eindhoven:lichttoren"
+        },
+        {
+          "row": 42,
+          "id": "eindhoven:witte-dame"
+        },
+        {
+          "row": 43,
+          "id": "eindhoven:de-blob"
+        },
+        {
+          "row": 44,
+          "id": "eindhoven:de-admirant"
+        },
+        {
+          "row": 45,
+          "id": "eindhoven:vesteda-toren"
+        },
+        {
+          "row": 46,
+          "id": "eindhoven:trudo-vertical-forest"
+        },
+        {
+          "row": 47,
+          "id": "eindhoven:station-eindhoven-centraal"
+        },
+        {
+          "row": 48,
+          "id": "eindhoven:stadskantoor"
+        },
+        {
+          "row": 49,
+          "id": "eindhoven:bijenkorf-eindhoven"
+        },
+        {
+          "row": 50,
+          "id": "eindhoven:sint-catharinakerk"
+        },
+        {
+          "row": 51,
+          "id": "eindhoven:oude-toren-woensel"
+        },
+        {
+          "row": 52,
+          "id": "eindhoven:watertoren"
+        },
+        {
+          "row": 53,
+          "id": "eindhoven:hoge-herde"
+        },
+        {
+          "row": 54,
+          "id": "eindhoven:hightech-campus"
+        },
+        {
+          "row": 55,
+          "id": "eindhoven:18-septemberplein"
+        },
+        {
+          "row": 56,
+          "id": "eindhoven:grote-markt"
+        },
+        {
+          "row": 57,
+          "id": "eindhoven:catharinaplein"
+        },
+        {
+          "row": 58,
+          "id": "eindhoven:wilhelminaplein"
+        },
+        {
+          "row": 59,
+          "id": "eindhoven:sint-trudokerk"
+        },
+        {
+          "row": 60,
+          "id": "eindhoven:woenselse-watermolen"
+        },
+        {
+          "row": 61,
+          "id": "eindhoven:klooster-marienhage"
+        },
+        {
+          "row": 62,
+          "id": "eindhoven:molen-annemie"
+        },
+        {
+          "row": 63,
+          "id": "eindhoven:genneper-watermolen"
+        },
+        {
+          "row": 64,
+          "id": "eindhoven:collse-watermolen"
+        },
+        {
+          "row": 65,
+          "id": "eindhoven:sint-petruskerk"
+        },
+        {
+          "row": 66,
+          "id": "eindhoven:sint-lambertuskerk"
+        },
+        {
+          "row": 67,
+          "id": "eindhoven:steentjeskerk"
+        },
+        {
+          "row": 68,
+          "id": "eindhoven:heilig-hartkerk"
+        },
+        {
+          "row": 69,
+          "id": "eindhoven:sint-theresiakerk"
+        },
+        {
+          "row": 70,
+          "id": "eindhoven:sint-martinuskerk"
+        },
+        {
+          "row": 71,
+          "id": "eindhoven:paterskerk"
+        },
+        {
+          "row": 72,
+          "id": "eindhoven:clarissenklooster"
+        },
+        {
+          "row": 73,
+          "id": "eindhoven:philips-observatorium"
+        },
+        {
+          "row": 74,
+          "id": "eindhoven:van-maerlantlyceum"
+        },
+        {
+          "row": 75,
+          "id": "eindhoven:gemeentelijke-hbs"
+        },
+        {
+          "row": 76,
+          "id": "eindhoven:st-joriscollege"
+        },
+        {
+          "row": 77,
+          "id": "eindhoven:w-hal-tue"
+        },
+        {
+          "row": 78,
+          "id": "eindhoven:nutsschool-reigerlaan"
+        },
+        {
+          "row": 79,
+          "id": "eindhoven:mennen-poortgebouw"
+        },
+        {
+          "row": 80,
+          "id": "eindhoven:kasteel-eckart"
+        },
+        {
+          "row": 81,
+          "id": "eindhoven:sint-joriskerk"
+        },
+        {
+          "row": 82,
+          "id": "eindhoven:gerardus-majellakerk"
+        },
+        {
+          "row": 83,
+          "id": "eindhoven:villa-de-laak"
+        },
+        {
+          "row": 84,
+          "id": "eindhoven:tue-atlas"
+        },
+        {
+          "row": 85,
+          "id": "eindhoven:bevrijdingsmonument"
+        },
+        {
+          "row": 86,
+          "id": "eindhoven:raadhuis-tongelre"
+        },
+        {
+          "row": 87,
+          "id": "eindhoven:eindhoven-airport-terminal"
+        },
+        {
+          "row": 88,
+          "id": "eindhoven:haftalik-pazarlar"
+        },
+        {
+          "row": 89,
+          "id": "eindhoven:striatumseind"
+        },
+        {
+          "row": 90,
+          "id": "eindhoven:de-bergen-horeca"
+        },
+        {
+          "row": 91,
+          "id": "eindhoven:vershal-het-veem"
+        },
+        {
+          "row": 92,
+          "id": "eindhoven:kruisstraat-keent"
+        },
+        {
+          "row": 93,
+          "id": "eindhoven:cafe-100-watt"
+        },
+        {
+          "row": 94,
+          "id": "eindhoven:heuvel-galerie"
+        },
+        {
+          "row": 95,
+          "id": "eindhoven:philips-nederland-gebouw"
+        },
+        {
+          "row": 96,
+          "id": "eindhoven:herdgang"
+        },
+        {
+          "row": 97,
+          "id": "eindhoven:winkelcentrum-woensel"
+        },
+        {
+          "row": 98,
+          "id": "eindhoven:porthos-toren"
+        },
+        {
+          "row": 99,
+          "id": "eindhoven:tue-auditorium"
+        },
+        {
+          "row": 100,
+          "id": "eindhoven:oorlogsmonument-fellenoord"
+        }
+      ]
+    },
+    {
+      "sheet": "Mekânlar",
+      "field": "subtitle",
+      "size": 22,
+      "length": 26,
+      "sample": "Tarih ve mimari · Binnenstad",
+      "members": [
+        {
+          "row": 41,
+          "id": "eindhoven:lichttoren"
+        },
+        {
+          "row": 42,
+          "id": "eindhoven:witte-dame"
+        },
+        {
+          "row": 43,
+          "id": "eindhoven:de-blob"
+        },
+        {
+          "row": 44,
+          "id": "eindhoven:de-admirant"
+        },
+        {
+          "row": 45,
+          "id": "eindhoven:vesteda-toren"
+        },
+        {
+          "row": 47,
+          "id": "eindhoven:station-eindhoven-centraal"
+        },
+        {
+          "row": 48,
+          "id": "eindhoven:stadskantoor"
+        },
+        {
+          "row": 49,
+          "id": "eindhoven:bijenkorf-eindhoven"
+        },
+        {
+          "row": 50,
+          "id": "eindhoven:sint-catharinakerk"
+        },
+        {
+          "row": 53,
+          "id": "eindhoven:hoge-herde"
+        },
+        {
+          "row": 55,
+          "id": "eindhoven:18-septemberplein"
+        },
+        {
+          "row": 56,
+          "id": "eindhoven:grote-markt"
+        },
+        {
+          "row": 57,
+          "id": "eindhoven:catharinaplein"
+        },
+        {
+          "row": 61,
+          "id": "eindhoven:klooster-marienhage"
+        },
+        {
+          "row": 67,
+          "id": "eindhoven:steentjeskerk"
+        },
+        {
+          "row": 71,
+          "id": "eindhoven:paterskerk"
+        },
+        {
+          "row": 75,
+          "id": "eindhoven:gemeentelijke-hbs"
+        },
+        {
+          "row": 77,
+          "id": "eindhoven:w-hal-tue"
+        },
+        {
+          "row": 79,
+          "id": "eindhoven:mennen-poortgebouw"
+        },
+        {
+          "row": 84,
+          "id": "eindhoven:tue-atlas"
+        },
+        {
+          "row": 85,
+          "id": "eindhoven:bevrijdingsmonument"
+        },
+        {
+          "row": 99,
+          "id": "eindhoven:tue-auditorium"
+        }
+      ]
+    },
+    {
+      "sheet": "Mekânlar",
+      "field": "subtitle",
+      "size": 8,
+      "length": 28,
+      "sample": "Tarih ve mimari · Woensel-Zuid",
+      "members": [
+        {
+          "row": 51,
+          "id": "eindhoven:oude-toren-woensel"
+        },
+        {
+          "row": 58,
+          "id": "eindhoven:wilhelminaplein"
+        },
+        {
+          "row": 60,
+          "id": "eindhoven:woenselse-watermolen"
+        },
+        {
+          "row": 65,
+          "id": "eindhoven:sint-petruskerk"
+        },
+        {
+          "row": 68,
+          "id": "eindhoven:heilig-hartkerk"
+        },
+        {
+          "row": 95,
+          "id": "eindhoven:philips-nederland-gebouw"
+        },
+        {
+          "row": 98,
+          "id": "eindhoven:porthos-toren"
+        },
+        {
+          "row": 100,
+          "id": "eindhoven:oorlogsmonument-fellenoord"
+        }
+      ]
+    },
+    {
+      "sheet": "Fotoğraflar",
+      "field": "caption",
+      "size": 5,
+      "length": 26,
+      "sample": "Next Nature Museum (Evoluon)",
+      "members": [
+        {
+          "row": 43,
+          "id": "eindhoven:next-nature-evoluon"
+        },
+        {
+          "row": 44,
+          "id": "eindhoven:next-nature-evoluon"
+        },
+        {
+          "row": 45,
+          "id": "eindhoven:next-nature-evoluon"
+        },
+        {
+          "row": 46,
+          "id": "eindhoven:next-nature-evoluon"
+        },
+        {
+          "row": 47,
+          "id": "eindhoven:next-nature-evoluon"
+        }
+      ]
+    },
+    {
+      "sheet": "Fotoğraflar",
+      "field": "caption",
+      "size": 5,
+      "length": 26,
+      "sample": "High Tech Campus Eindhoven",
+      "members": [
+        {
+          "row": 153,
+          "id": "eindhoven:hightech-campus"
+        },
+        {
+          "row": 154,
+          "id": "eindhoven:hightech-campus"
+        },
+        {
+          "row": 155,
+          "id": "eindhoven:hightech-campus"
+        },
+        {
+          "row": 156,
+          "id": "eindhoven:hightech-campus"
+        },
+        {
+          "row": 157,
+          "id": "eindhoven:hightech-campus"
+        }
+      ]
+    },
+    {
+      "sheet": "Fotoğraflar",
+      "field": "caption",
+      "size": 3,
+      "length": 35,
+      "sample": "Design Academy Eindhoven (Witte Dame)",
+      "members": [
+        {
+          "row": 53,
+          "id": "eindhoven:design-academy"
+        },
+        {
+          "row": 54,
+          "id": "eindhoven:design-academy"
+        },
+        {
+          "row": 55,
+          "id": "eindhoven:design-academy"
+        }
+      ]
+    },
+    {
+      "sheet": "Fotoğraflar",
+      "field": "caption",
+      "size": 3,
+      "length": 36,
+      "sample": "Historisch Openluchtmuseum Eindhoven",
+      "members": [
+        {
+          "row": 85,
+          "id": "eindhoven:historisch-openluchtmuseum"
+        },
+        {
+          "row": 86,
+          "id": "eindhoven:historisch-openluchtmuseum"
+        },
+        {
+          "row": 87,
+          "id": "eindhoven:historisch-openluchtmuseum"
+        }
+      ]
+    },
+    {
+      "sheet": "Fotoğraflar",
+      "field": "caption",
+      "size": 3,
+      "length": 38,
+      "sample": "Eindhoven Kanalı yürüyüş/bisiklet yolu",
+      "members": [
+        {
+          "row": 104,
+          "id": "eindhoven:kanaal-eindhoven"
+        },
+        {
+          "row": 105,
+          "id": "eindhoven:kanaal-eindhoven"
+        },
+        {
+          "row": 106,
+          "id": "eindhoven:kanaal-eindhoven"
+        }
+      ]
+    },
+    {
+      "sheet": "Fotoğraflar",
+      "field": "caption",
+      "size": 3,
+      "length": 26,
+      "sample": "Dommel nehri kıyı koridoru",
+      "members": [
+        {
+          "row": 107,
+          "id": "eindhoven:dommel-eindhoven"
+        },
+        {
+          "row": 108,
+          "id": "eindhoven:dommel-eindhoven"
+        },
+        {
+          "row": 109,
+          "id": "eindhoven:dommel-eindhoven"
+        }
+      ]
+    },
+    {
+      "sheet": "Fotoğraflar",
+      "field": "caption",
+      "size": 3,
+      "length": 27,
+      "sample": "Steentjeskerk (Sint-Antonius)",
+      "members": [
+        {
+          "row": 192,
+          "id": "eindhoven:steentjeskerk"
+        },
+        {
+          "row": 193,
+          "id": "eindhoven:steentjeskerk"
+        },
+        {
+          "row": 194,
+          "id": "eindhoven:steentjeskerk"
+        }
+      ]
+    },
+    {
+      "sheet": "Fotoğraflar",
+      "field": "caption",
+      "size": 3,
+      "length": 27,
+      "sample": "Heilig Hartkerk (Ploegstraat)",
+      "members": [
+        {
+          "row": 195,
+          "id": "eindhoven:heilig-hartkerk"
+        },
+        {
+          "row": 196,
+          "id": "eindhoven:heilig-hartkerk"
+        },
+        {
+          "row": 197,
+          "id": "eindhoven:heilig-hartkerk"
+        }
+      ]
+    },
+    {
+      "sheet": "Fotoğraflar",
+      "field": "caption",
+      "size": 3,
+      "length": 26,
+      "sample": "Sint-Martinuskerk (Tongelre)",
+      "members": [
+        {
+          "row": 199,
+          "id": "eindhoven:sint-martinuskerk"
+        },
+        {
+          "row": 200,
+          "id": "eindhoven:sint-martinuskerk"
+        },
+        {
+          "row": 201,
+          "id": "eindhoven:sint-martinuskerk"
+        }
+      ]
+    },
+    {
+      "sheet": "Fotoğraflar",
+      "field": "caption",
+      "size": 3,
+      "length": 29,
+      "sample": "Clarissenklooster Rapelenburg",
+      "members": [
+        {
+          "row": 205,
+          "id": "eindhoven:clarissenklooster"
+        },
+        {
+          "row": 206,
+          "id": "eindhoven:clarissenklooster"
+        },
+        {
+          "row": 207,
+          "id": "eindhoven:clarissenklooster"
+        }
+      ]
+    },
+    {
+      "sheet": "Fotoğraflar",
+      "field": "caption",
+      "size": 3,
+      "length": 31,
+      "sample": "De Bergen kafe ve restoran aksı",
+      "members": [
+        {
+          "row": 254,
+          "id": "eindhoven:de-bergen-horeca"
+        },
+        {
+          "row": 255,
+          "id": "eindhoven:de-bergen-horeca"
+        },
+        {
+          "row": 256,
+          "id": "eindhoven:de-bergen-horeca"
+        }
+      ]
+    },
+    {
+      "sheet": "Fotoğraflar",
+      "field": "caption",
+      "size": 3,
+      "length": 36,
+      "sample": "Het Veem (Strijp-S yemek/yaşam binası)",
+      "members": [
+        {
+          "row": 257,
+          "id": "eindhoven:vershal-het-veem"
+        },
+        {
+          "row": 258,
+          "id": "eindhoven:vershal-het-veem"
+        },
+        {
+          "row": 259,
+          "id": "eindhoven:vershal-het-veem"
+        }
+      ]
+    },
+    {
+      "sheet": "Fotoğraflar",
+      "field": "caption",
+      "size": 3,
+      "length": 40,
+      "sample": "Kruisstraat ve Woensel Türk çarşısı aksı",
+      "members": [
+        {
+          "row": 260,
+          "id": "eindhoven:kruisstraat-keent"
+        },
+        {
+          "row": 261,
+          "id": "eindhoven:kruisstraat-keent"
+        },
+        {
+          "row": 262,
+          "id": "eindhoven:kruisstraat-keent"
+        }
+      ]
+    },
+    {
+      "sheet": "Fotoğraflar",
+      "field": "caption",
+      "size": 3,
+      "length": 34,
+      "sample": "Café 100 Watt (şehir bira fabrikası)",
+      "members": [
+        {
+          "row": 263,
+          "id": "eindhoven:cafe-100-watt"
+        },
+        {
+          "row": 264,
+          "id": "eindhoven:cafe-100-watt"
+        },
+        {
+          "row": 265,
+          "id": "eindhoven:cafe-100-watt"
+        }
+      ]
+    },
+    {
+      "sheet": "Mekânlar",
+      "field": "subtitle",
+      "size": 3,
+      "length": 28,
+      "sample": "Sanat ve sergiler · Binnenstad",
+      "members": [
+        {
+          "row": 13,
+          "id": "eindhoven:mu-arthouse"
+        },
+        {
+          "row": 14,
+          "id": "eindhoven:kazerne-design"
+        },
+        {
+          "row": 15,
+          "id": "eindhoven:design-academy"
+        }
+      ]
+    },
+    {
+      "sheet": "Fotoğraflar",
+      "field": "caption",
+      "size": 2,
+      "length": 37,
+      "sample": "Pieter van den Hoogenband Zwemstadion",
+      "members": [
+        {
+          "row": 75,
+          "id": "eindhoven:hoogenband-zwemstadion"
+        },
+        {
+          "row": 76,
+          "id": "eindhoven:hoogenband-zwemstadion"
+        }
+      ]
+    },
+    {
+      "sheet": "Fotoğraflar",
+      "field": "caption",
+      "size": 2,
+      "length": 28,
+      "sample": "Dr. A.F. Philips Observatorium",
+      "members": [
+        {
+          "row": 208,
+          "id": "eindhoven:philips-observatorium"
+        },
+        {
+          "row": 209,
+          "id": "eindhoven:philips-observatorium"
+        }
+      ]
+    },
+    {
+      "sheet": "Fotoğraflar",
+      "field": "caption",
+      "size": 2,
+      "length": 26,
+      "sample": "W-Hal (TU/e endüstri mirası)",
+      "members": [
+        {
+          "row": 216,
+          "id": "eindhoven:w-hal-tue"
+        },
+        {
+          "row": 217,
+          "id": "eindhoven:w-hal-tue"
+        }
+      ]
+    },
+    {
+      "sheet": "Fotoğraflar",
+      "field": "caption",
+      "size": 2,
+      "length": 28,
+      "sample": "Mennen fabrikası kapı binası",
+      "members": [
+        {
+          "row": 223,
+          "id": "eindhoven:mennen-poortgebouw"
+        },
+        {
+          "row": 224,
+          "id": "eindhoven:mennen-poortgebouw"
+        }
+      ]
+    },
+    {
+      "sheet": "Fotoğraflar",
+      "field": "caption",
+      "size": 2,
+      "length": 28,
+      "sample": "Eindhoven haftalık pazarları",
+      "members": [
+        {
+          "row": 247,
+          "id": "eindhoven:haftalik-pazarlar"
+        },
+        {
+          "row": 248,
+          "id": "eindhoven:haftalik-pazarlar"
+        }
+      ]
+    },
+    {
+      "sheet": "Fotoğraflar",
+      "field": "caption",
+      "size": 2,
+      "length": 32,
+      "sample": "De Herdgang (PSV antrenman tesisi)",
+      "members": [
+        {
+          "row": 270,
+          "id": "eindhoven:herdgang"
+        },
+        {
+          "row": 271,
+          "id": "eindhoven:herdgang"
+        }
+      ]
+    },
+    {
+      "sheet": "Fotoğraflar",
+      "field": "caption",
+      "size": 2,
+      "length": 29,
+      "sample": "Winkelcentrum Woensel (WoensXL)",
+      "members": [
+        {
+          "row": 272,
+          "id": "eindhoven:winkelcentrum-woensel"
+        },
+        {
+          "row": 273,
+          "id": "eindhoven:winkelcentrum-woensel"
+        }
+      ]
+    },
+    {
+      "sheet": "Fotoğraflar",
+      "field": "caption",
+      "size": 2,
+      "length": 32,
+      "sample": "Fellenoord savaş mezarlığı anıtı",
+      "members": [
+        {
+          "row": 278,
+          "id": "eindhoven:oorlogsmonument-fellenoord"
+        },
+        {
+          "row": 279,
+          "id": "eindhoven:oorlogsmonument-fellenoord"
+        }
+      ]
+    },
+    {
+      "sheet": "Mekânlar",
+      "field": "subtitle",
+      "size": 2,
+      "length": 29,
+      "sample": "Tarih ve mimari · Woensel-Noord",
+      "members": [
+        {
+          "row": 62,
+          "id": "eindhoven:molen-annemie"
+        },
+        {
+          "row": 80,
+          "id": "eindhoven:kasteel-eckart"
+        }
+      ]
+    }
+  ],
+  "near_duplicates": [],
+  "template_duplicates": [
+    {
+      "sheet": "Mahalleler",
+      "field": "note",
+      "size": 16,
+      "distinct": 16,
+      "template": "kimine uygun ¤ ev bakarken sokagi farkli saatlerde gor bina bazinda gurultu park ve ulasimi degerlendir",
+      "sample": "Kimine uygun: İlk kez gelenler, şehri yürüyerek tanımak isteyenler, gece hayatı arayanlar. Ev bakarken sokağı farklı saa…",
+      "members": [
+        {
+          "row": 8,
+          "id": "eindhoven:mah-binnenstad"
+        },
+        {
+          "row": 9,
+          "id": "eindhoven:mah-de-bergen"
+        },
+        {
+          "row": 10,
+          "id": "eindhoven:mah-strijp-s"
+        },
+        {
+          "row": 11,
+          "id": "eindhoven:mah-philipsdorp"
+        },
+        {
+          "row": 12,
+          "id": "eindhoven:mah-meerhoven"
+        },
+        {
+          "row": 13,
+          "id": "eindhoven:mah-oud-woensel"
+        },
+        {
+          "row": 14,
+          "id": "eindhoven:mah-acht"
+        },
+        {
+          "row": 15,
+          "id": "eindhoven:mah-roosten"
+        },
+        {
+          "row": 16,
+          "id": "eindhoven:mah-doornakkers"
+        },
+        {
+          "row": 17,
+          "id": "eindhoven:mah-villapark"
+        },
+        {
+          "row": 18,
+          "id": "eindhoven:mah-karpen-koudenhoven"
+        },
+        {
+          "row": 19,
+          "id": "eindhoven:mah-oud-stratum"
+        },
+        {
+          "row": 20,
+          "id": "eindhoven:mah-burghplan"
+        },
+        {
+          "row": 21,
+          "id": "eindhoven:mah-leenderheide"
+        },
+        {
+          "row": 22,
+          "id": "eindhoven:mah-oud-gestel"
+        },
+        {
+          "row": 23,
+          "id": "eindhoven:mah-hofke-tongelre"
+        }
+      ]
+    }
+  ],
+  "short_repeats": [
+    {
+      "sheet": "Yanıtlar",
+      "field": "cost",
+      "value": "Ücretsiz",
+      "size": 41
+    },
+    {
+      "sheet": "Mekânlar",
+      "field": "subtitle",
+      "value": "Tarih ve mimari · Stratum",
+      "size": 7
+    },
+    {
+      "sheet": "Yanıtlar",
+      "field": "timing",
+      "value": "Yıllık",
+      "size": 7
+    },
+    {
+      "sheet": "Fotoğraflar",
+      "field": "caption",
+      "value": "Strijp-S",
+      "size": 6
+    },
+    {
+      "sheet": "Mekânlar",
+      "field": "subtitle",
+      "value": "Tarih ve mimari · Strijp",
+      "size": 6
+    },
+    {
+      "sheet": "Fotoğraflar",
+      "field": "caption",
+      "value": "Collse Watermolen",
+      "size": 5
+    },
+    {
+      "sheet": "Fotoğraflar",
+      "field": "caption",
+      "value": "Nutsschool Reigerlaan",
+      "size": 5
+    },
+    {
+      "sheet": "Fotoğraflar",
+      "field": "caption",
+      "value": "Philips Stadion (PSV)",
+      "size": 5
+    },
+    {
+      "sheet": "Fotoğraflar",
+      "field": "caption",
+      "value": "Sint-Catharinakerk",
+      "size": 5
+    },
+    {
+      "sheet": "Fotoğraflar",
+      "field": "caption",
+      "value": "Sint-Joriskerk",
+      "size": 5
+    },
+    {
+      "sheet": "Fotoğraflar",
+      "field": "caption",
+      "value": "Stratumseind",
+      "size": 5
+    },
+    {
+      "sheet": "Fotoğraflar",
+      "field": "caption",
+      "value": "Van Abbemuseum",
+      "size": 5
+    },
+    {
+      "sheet": "Mekânlar",
+      "field": "subtitle",
+      "value": "Tarih ve mimari · Tongelre",
+      "size": 5
+    },
+    {
+      "sheet": "Yanıtlar",
+      "field": "timing",
+      "value": "Sürekli",
+      "size": 5
+    },
+    {
+      "sheet": "Yanıtlar",
+      "field": "timing",
+      "value": "Taşınmadan önce",
+      "size": 5
+    },
+    {
+      "sheet": "Mekânlar",
+      "field": "subtitle",
+      "value": "Doğa ve açık hava · Stratum",
+      "size": 4
+    },
+    {
+      "sheet": "Mekânlar",
+      "field": "subtitle",
+      "value": "Sahne ve müzik · Binnenstad",
+      "size": 4
+    },
+    {
+      "sheet": "Mekânlar",
+      "field": "subtitle",
+      "value": "Spor · Stratum",
+      "size": 4
+    },
+    {
+      "sheet": "Yanıtlar",
+      "field": "documents",
+      "value": "Kimlik",
+      "size": 4
+    },
+    {
+      "sheet": "Fotoğraflar",
+      "field": "caption",
+      "value": "18 Septemberplein",
+      "size": 3
+    },
+    {
+      "sheet": "Fotoğraflar",
+      "field": "caption",
+      "value": "Berenkuil duvar resimleri",
+      "size": 3
+    },
+    {
+      "sheet": "Fotoğraflar",
+      "field": "caption",
+      "value": "Bevrijdingsmonument (Markt)",
+      "size": 3
+    },
+    {
+      "sheet": "Fotoğraflar",
+      "field": "caption",
+      "value": "Catharinaplein",
+      "size": 3
+    },
+    {
+      "sheet": "Fotoğraflar",
+      "field": "caption",
+      "value": "DAF Museum",
+      "size": 3
+    },
+    {
+      "sheet": "Fotoğraflar",
+      "field": "caption",
+      "value": "De Admirant",
+      "size": 3
+    },
+    {
+      "sheet": "Fotoğraflar",
+      "field": "caption",
+      "value": "De Bijenkorf binası",
+      "size": 3
+    },
+    {
+      "sheet": "Fotoğraflar",
+      "field": "caption",
+      "value": "De Blob",
+      "size": 3
+    },
+    {
+      "sheet": "Fotoğraflar",
+      "field": "caption",
+      "value": "De Heuvel aksı",
+      "size": 3
+    },
+    {
+      "sheet": "Fotoğraflar",
+      "field": "caption",
+      "value": "De Witte Dame",
+      "size": 3
+    },
+    {
+      "sheet": "Fotoğraflar",
+      "field": "caption",
+      "value": "Eindhoven Airport",
+      "size": 3
+    },
+    {
+      "sheet": "Fotoğraflar",
+      "field": "caption",
+      "value": "Fellenoord dönüşüm aksı",
+      "size": 3
+    },
+    {
+      "sheet": "Fotoğraflar",
+      "field": "caption",
+      "value": "Genneper Watermolen",
+      "size": 3
+    },
+    {
+      "sheet": "Fotoğraflar",
+      "field": "caption",
+      "value": "Gerardus Majellakerk",
+      "size": 3
+    },
+    {
+      "sheet": "Fotoğraflar",
+      "field": "caption",
+      "value": "Karpendonkse Plas",
+      "size": 3
+    },
+    {
+      "sheet": "Fotoğraflar",
+      "field": "caption",
+      "value": "Klokgebouw",
+      "size": 3
+    },
+    {
+      "sheet": "Fotoğraflar",
+      "field": "caption",
+      "value": "Klooster Mariënhage",
+      "size": 3
+    },
+    {
+      "sheet": "Fotoğraflar",
+      "field": "caption",
+      "value": "Landgoed Grote Beek",
+      "size": 3
+    },
+    {
+      "sheet": "Fotoğraflar",
+      "field": "caption",
+      "value": "Leenderheide",
+      "size": 3
+    },
+    {
+      "sheet": "Fotoğraflar",
+      "field": "caption",
+      "value": "Lichttoren",
+      "size": 3
+    },
+    {
+      "sheet": "Fotoğraflar",
+      "field": "caption",
+      "value": "NatLab",
+      "size": 3
+    },
+    {
+      "sheet": "Fotoğraflar",
+      "field": "caption",
+      "value": "Park/landgoed Eikenburg",
+      "size": 3
+    },
+    {
+      "sheet": "Fotoğraflar",
+      "field": "caption",
+      "value": "Paterskerk",
+      "size": 3
+    },
+    {
+      "sheet": "Fotoğraflar",
+      "field": "caption",
+      "value": "Philips Museum",
+      "size": 3
+    },
+    {
+      "sheet": "Fotoğraflar",
+      "field": "caption",
+      "value": "Poppodium Effenaar",
+      "size": 3
+    },
+    {
+      "sheet": "Fotoğraflar",
+      "field": "caption",
+      "value": "Sint-Lambertuskerk",
+      "size": 3
+    },
+    {
+      "sheet": "Fotoğraflar",
+      "field": "caption",
+      "value": "Sint-Petruskerk (Woensel)",
+      "size": 3
+    },
+    {
+      "sheet": "Fotoğraflar",
+      "field": "caption",
+      "value": "Sint-Trudokerk (Strijp)",
+      "size": 3
+    },
+    {
+      "sheet": "Fotoğraflar",
+      "field": "caption",
+      "value": "Stadswandelpark",
+      "size": 3
+    },
+    {
+      "sheet": "Fotoğraflar",
+      "field": "caption",
+      "value": "Trudo Vertical Forest",
+      "size": 3
+    },
+    {
+      "sheet": "Fotoğraflar",
+      "field": "caption",
+      "value": "Van Maerlantlyceum binası",
+      "size": 3
+    },
+    {
+      "sheet": "Fotoğraflar",
+      "field": "caption",
+      "value": "Vesteda Toren",
+      "size": 3
+    },
+    {
+      "sheet": "Fotoğraflar",
+      "field": "caption",
+      "value": "Villa De Laak",
+      "size": 3
+    },
+    {
+      "sheet": "Fotoğraflar",
+      "field": "caption",
+      "value": "Watertoren",
+      "size": 3
+    },
+    {
+      "sheet": "Fotoğraflar",
+      "field": "caption",
+      "value": "Wilhelminaplein",
+      "size": 3
+    },
+    {
+      "sheet": "Mekânlar",
+      "field": "subtitle",
+      "value": "Müzeler · Binnenstad",
+      "size": 3
+    },
+    {
+      "sheet": "Mekânlar",
+      "field": "subtitle",
+      "value": "Yeme ve içme · Binnenstad",
+      "size": 3
+    },
+    {
+      "sheet": "Yanıtlar",
+      "field": "cost",
+      "value": "IND tarife ücreti",
+      "size": 3
+    },
+    {
+      "sheet": "Yanıtlar",
+      "field": "documents",
+      "value": "Poliçe",
+      "size": 3
+    },
+    {
+      "sheet": "Yanıtlar",
+      "field": "timing",
+      "value": "Seyahatten önce",
+      "size": 3
+    },
+    {
+      "sheet": "Yanıtlar",
+      "field": "timing",
+      "value": "Yıl boyu",
+      "size": 3
+    }
+  ],
+  "repeated_sentences": [
+    {
+      "sheet": "Fotoğraflar",
+      "sentence": "corteqs commons 1600px turev kopyasi indirildi",
+      "records": 272,
+      "fields": [
+        "modifications"
+      ],
+      "sample": "Corteqs: Commons 1600px türev kopyası indirildi"
+    },
+    {
+      "sheet": "Fotoğraflar",
+      "sentence": "webp ye donusturuldu en cok 1600 px kenar",
+      "records": 272,
+      "fields": [
+        "modifications"
+      ],
+      "sample": "WebP'ye dönüştürüldü (en çok 1600 px kenar)"
+    },
+    {
+      "sheet": "Mekânlar",
+      "sentence": "bilet rezervasyon kurumun kendi kanalindadir",
+      "records": 93,
+      "fields": [
+        "note"
+      ],
+      "sample": "bilet/rezervasyon kurumun kendi kanalındadır"
+    },
+    {
+      "sheet": "Mekânlar",
+      "sentence": "saat ucret ve kapali gunleri ziyaret oncesi kurumdan dogrula",
+      "records": 93,
+      "fields": [
+        "note"
+      ],
+      "sample": "Saat, ücret ve kapalı günleri ziyaret öncesi kurumdan doğrula"
+    },
+    {
+      "sheet": "Mekânlar",
+      "sentence": "tarih ve mimari binnenstad",
+      "records": 22,
+      "fields": [
+        "subtitle"
+      ],
+      "sample": "Tarih ve mimari · Binnenstad"
+    },
+    {
+      "sheet": "Mahalleler",
+      "sentence": "bina bazinda gurultu park ve ulasimi degerlendir",
+      "records": 16,
+      "fields": [
+        "note"
+      ],
+      "sample": "bina bazında gürültü, park ve ulaşımı değerlendir"
+    },
+    {
+      "sheet": "Mahalleler",
+      "sentence": "ev bakarken sokagi farkli saatlerde gor",
+      "records": 16,
+      "fields": [
+        "note"
+      ],
+      "sample": "Ev bakarken sokağı farklı saatlerde gör"
+    },
+    {
+      "sheet": "Mekânlar",
+      "sentence": "tarih ve mimari woensel zuid",
+      "records": 8,
+      "fields": [
+        "subtitle"
+      ],
+      "sample": "Tarih ve mimari · Woensel-Zuid"
+    },
+    {
+      "sheet": "Fotoğraflar",
+      "sentence": "high tech campus eindhoven",
+      "records": 5,
+      "fields": [
+        "caption"
+      ],
+      "sample": "High Tech Campus Eindhoven"
+    },
+    {
+      "sheet": "Fotoğraflar",
+      "sentence": "next nature museum evoluon",
+      "records": 5,
+      "fields": [
+        "caption"
+      ],
+      "sample": "Next Nature Museum (Evoluon)"
+    },
+    {
+      "sheet": "Fotoğraflar",
+      "sentence": "cafe 100 watt sehir bira fabrikasi",
+      "records": 3,
+      "fields": [
+        "caption"
+      ],
+      "sample": "Café 100 Watt (şehir bira fabrikası)"
+    },
+    {
+      "sheet": "Fotoğraflar",
+      "sentence": "clarissenklooster rapelenburg",
+      "records": 3,
+      "fields": [
+        "caption"
+      ],
+      "sample": "Clarissenklooster Rapelenburg"
+    },
+    {
+      "sheet": "Fotoğraflar",
+      "sentence": "de bergen kafe ve restoran aksi",
+      "records": 3,
+      "fields": [
+        "caption"
+      ],
+      "sample": "De Bergen kafe ve restoran aksı"
+    },
+    {
+      "sheet": "Fotoğraflar",
+      "sentence": "design academy eindhoven witte dame",
+      "records": 3,
+      "fields": [
+        "caption"
+      ],
+      "sample": "Design Academy Eindhoven (Witte Dame)"
+    },
+    {
+      "sheet": "Fotoğraflar",
+      "sentence": "dommel nehri kiyi koridoru",
+      "records": 3,
+      "fields": [
+        "caption"
+      ],
+      "sample": "Dommel nehri kıyı koridoru"
+    },
+    {
+      "sheet": "Fotoğraflar",
+      "sentence": "eindhoven kanali yuruyus bisiklet yolu",
+      "records": 3,
+      "fields": [
+        "caption"
+      ],
+      "sample": "Eindhoven Kanalı yürüyüş/bisiklet yolu"
+    },
+    {
+      "sheet": "Fotoğraflar",
+      "sentence": "heilig hartkerk ploegstraat",
+      "records": 3,
+      "fields": [
+        "caption"
+      ],
+      "sample": "Heilig Hartkerk (Ploegstraat)"
+    },
+    {
+      "sheet": "Fotoğraflar",
+      "sentence": "het veem strijp s yemek yasam binasi",
+      "records": 3,
+      "fields": [
+        "caption"
+      ],
+      "sample": "Het Veem (Strijp-S yemek/yaşam binası)"
+    },
+    {
+      "sheet": "Fotoğraflar",
+      "sentence": "historisch openluchtmuseum eindhoven",
+      "records": 3,
+      "fields": [
+        "caption"
+      ],
+      "sample": "Historisch Openluchtmuseum Eindhoven"
+    },
+    {
+      "sheet": "Fotoğraflar",
+      "sentence": "kruisstraat ve woensel turk carsisi aksi",
+      "records": 3,
+      "fields": [
+        "caption"
+      ],
+      "sample": "Kruisstraat ve Woensel Türk çarşısı aksı"
+    },
+    {
+      "sheet": "Fotoğraflar",
+      "sentence": "sint martinuskerk tongelre",
+      "records": 3,
+      "fields": [
+        "caption"
+      ],
+      "sample": "Sint-Martinuskerk (Tongelre)"
+    },
+    {
+      "sheet": "Fotoğraflar",
+      "sentence": "steentjeskerk sint antonius",
+      "records": 3,
+      "fields": [
+        "caption"
+      ],
+      "sample": "Steentjeskerk (Sint-Antonius)"
+    },
+    {
+      "sheet": "Mekânlar",
+      "sentence": "sanat ve sergiler binnenstad",
+      "records": 3,
+      "fields": [
+        "subtitle"
+      ],
+      "sample": "Sanat ve sergiler · Binnenstad"
+    }
+  ],
+  "shared_steps": [],
+  "placeholders": {
+    "count": 115,
+    "by_field": {
+      "Yanıtlar.cost": 39,
+      "Yanıtlar.documents": 48,
+      "Yanıtlar.timing": 28
+    },
+    "items": [
+      {
+        "sheet": "Yanıtlar",
+        "row": 14,
+        "id": "eindhoven:is-piyasasi-onbilgi",
+        "field": "cost",
+        "value": "-"
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 20,
+        "id": "eindhoven:dil-onhazirlik",
+        "field": "documents",
+        "value": "-"
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 21,
+        "id": "eindhoven:hava-mevsim-hazirlik",
+        "field": "documents",
+        "value": "-"
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 22,
+        "id": "eindhoven:mahalle-kesif-onbilgi",
+        "field": "documents",
+        "value": "-"
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 22,
+        "id": "eindhoven:mahalle-kesif-onbilgi",
+        "field": "cost",
+        "value": "-"
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 30,
+        "id": "eindhoven:tren-kullanim",
+        "field": "timing",
+        "value": "-"
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 32,
+        "id": "eindhoven:bilet-indirim",
+        "field": "timing",
+        "value": "-"
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 33,
+        "id": "eindhoven:otobus-sebeke",
+        "field": "timing",
+        "value": "-"
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 34,
+        "id": "eindhoven:9292-planner",
+        "field": "documents",
+        "value": "-"
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 34,
+        "id": "eindhoven:9292-planner",
+        "field": "timing",
+        "value": "-"
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 35,
+        "id": "eindhoven:bisiklet-kurallari",
+        "field": "documents",
+        "value": "-"
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 35,
+        "id": "eindhoven:bisiklet-kurallari",
+        "field": "timing",
+        "value": "-"
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 36,
+        "id": "eindhoven:bisiklet-satin-alma",
+        "field": "timing",
+        "value": "-"
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 38,
+        "id": "eindhoven:bisiklet-park",
+        "field": "documents",
+        "value": "-"
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 38,
+        "id": "eindhoven:bisiklet-park",
+        "field": "timing",
+        "value": "-"
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 39,
+        "id": "eindhoven:ebike-scooter",
+        "field": "timing",
+        "value": "-"
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 42,
+        "id": "eindhoven:park-ucretleri",
+        "field": "timing",
+        "value": "-"
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 46,
+        "id": "eindhoven:taksi-gece",
+        "field": "timing",
+        "value": "-"
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 49,
+        "id": "eindhoven:supermarketler",
+        "field": "documents",
+        "value": "-"
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 50,
+        "id": "eindhoven:turk-marketleri",
+        "field": "documents",
+        "value": "-"
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 50,
+        "id": "eindhoven:turk-marketleri",
+        "field": "timing",
+        "value": "-"
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 51,
+        "id": "eindhoven:helal-vejetaryen",
+        "field": "documents",
+        "value": "-"
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 51,
+        "id": "eindhoven:helal-vejetaryen",
+        "field": "timing",
+        "value": "-"
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 51,
+        "id": "eindhoven:helal-vejetaryen",
+        "field": "cost",
+        "value": "-"
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 52,
+        "id": "eindhoven:hafta-pazari",
+        "field": "documents",
+        "value": "-"
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 55,
+        "id": "eindhoven:musluk-suyu",
+        "field": "documents",
+        "value": "-"
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 55,
+        "id": "eindhoven:musluk-suyu",
+        "field": "timing",
+        "value": "-"
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 58,
+        "id": "eindhoven:komsu-sorunlari",
+        "field": "timing",
+        "value": "-"
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 59,
+        "id": "eindhoven:posta-kargo",
+        "field": "documents",
+        "value": "-"
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 60,
+        "id": "eindhoven:camasir-yikama",
+        "field": "documents",
+        "value": "-"
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 60,
+        "id": "eindhoven:camasir-yikama",
+        "field": "timing",
+        "value": "-"
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 62,
+        "id": "eindhoven:dil-kurslari",
+        "field": "documents",
+        "value": "-"
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 64,
+        "id": "eindhoven:expat-topluluk",
+        "field": "documents",
+        "value": "-"
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 65,
+        "id": "eindhoven:dini-topluluklar",
+        "field": "documents",
+        "value": "-"
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 65,
+        "id": "eindhoven:dini-topluluklar",
+        "field": "timing",
+        "value": "-"
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 69,
+        "id": "eindhoven:alisveris-saatleri",
+        "field": "documents",
+        "value": "-"
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 69,
+        "id": "eindhoven:alisveris-saatleri",
+        "field": "cost",
+        "value": "-"
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 70,
+        "id": "eindhoven:muzeler-genel",
+        "field": "documents",
+        "value": "-"
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 71,
+        "id": "eindhoven:van-abbe",
+        "field": "documents",
+        "value": "-"
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 72,
+        "id": "eindhoven:philips-daf",
+        "field": "documents",
+        "value": "-"
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 73,
+        "id": "eindhoven:evoluon",
+        "field": "documents",
+        "value": "-"
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 74,
+        "id": "eindhoven:strijp-s-kesif",
+        "field": "documents",
+        "value": "-"
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 75,
+        "id": "eindhoven:glow",
+        "field": "documents",
+        "value": "-"
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 79,
+        "id": "eindhoven:parklar-yesil",
+        "field": "documents",
+        "value": "-"
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 80,
+        "id": "eindhoven:bisiklet-rotalari",
+        "field": "documents",
+        "value": "-"
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 81,
+        "id": "eindhoven:karnaval",
+        "field": "documents",
+        "value": "-"
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 82,
+        "id": "eindhoven:etkinlik-takvimi",
+        "field": "documents",
+        "value": "-"
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 84,
+        "id": "eindhoven:yeme-sahnesi",
+        "field": "documents",
+        "value": "-"
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 85,
+        "id": "eindhoven:ucretsiz-kesif",
+        "field": "documents",
+        "value": "-"
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 86,
+        "id": "eindhoven:cocukla-kesif",
+        "field": "documents",
+        "value": "-"
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 88,
+        "id": "eindhoven:tasarim-alisverisi",
+        "field": "documents",
+        "value": "-"
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 89,
+        "id": "eindhoven:foto-noktalari",
+        "field": "documents",
+        "value": "-"
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 103,
+        "id": "eindhoven:calisma-hakki-kart",
+        "field": "cost",
+        "value": "-"
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 134,
+        "id": "eindhoven:sosyal-kira-siniri",
+        "field": "cost",
+        "value": "-"
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 140,
+        "id": "eindhoven:ev-teslim",
+        "field": "cost",
+        "value": "-"
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 142,
+        "id": "eindhoven:huurverhoging",
+        "field": "cost",
+        "value": "-"
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 145,
+        "id": "eindhoven:kira-dolandiriciligi",
+        "field": "timing",
+        "value": "-"
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 145,
+        "id": "eindhoven:kira-dolandiriciligi",
+        "field": "cost",
+        "value": "-"
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 148,
+        "id": "eindhoven:devir-takas",
+        "field": "cost",
+        "value": "-"
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 150,
+        "id": "eindhoven:gecici-sozlesme",
+        "field": "cost",
+        "value": "-"
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 153,
+        "id": "eindhoven:netbeheerder",
+        "field": "timing",
+        "value": "-"
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 154,
+        "id": "eindhoven:meterstand-bildirim",
+        "field": "cost",
+        "value": "-"
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 161,
+        "id": "eindhoven:tv-akış",
+        "field": "documents",
+        "value": "-"
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 161,
+        "id": "eindhoven:tv-akış",
+        "field": "timing",
+        "value": "-"
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 164,
+        "id": "eindhoven:elektrik-kesintisi",
+        "field": "documents",
+        "value": "-"
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 164,
+        "id": "eindhoven:elektrik-kesintisi",
+        "field": "cost",
+        "value": "-"
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 165,
+        "id": "eindhoven:fatura-anlama",
+        "field": "cost",
+        "value": "-"
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 166,
+        "id": "eindhoven:voorschot-ayarlama",
+        "field": "cost",
+        "value": "-"
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 167,
+        "id": "eindhoven:enerji-tasarruf",
+        "field": "documents",
+        "value": "-"
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 167,
+        "id": "eindhoven:enerji-tasarruf",
+        "field": "timing",
+        "value": "-"
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 169,
+        "id": "eindhoven:smartmeter",
+        "field": "documents",
+        "value": "-"
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 169,
+        "id": "eindhoven:smartmeter",
+        "field": "cost",
+        "value": "-"
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 170,
+        "id": "eindhoven:dinamik-tarife",
+        "field": "documents",
+        "value": "-"
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 171,
+        "id": "eindhoven:odeme-guclugu",
+        "field": "cost",
+        "value": "-"
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 172,
+        "id": "eindhoven:ev-cihazi-kurulum",
+        "field": "cost",
+        "value": "-"
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 175,
+        "id": "eindhoven:kart-ve-nakit",
+        "field": "timing",
+        "value": "-"
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 175,
+        "id": "eindhoven:kart-ve-nakit",
+        "field": "cost",
+        "value": "-"
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 176,
+        "id": "eindhoven:banka-secim",
+        "field": "documents",
+        "value": "-"
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 177,
+        "id": "eindhoven:loonheffingskorting",
+        "field": "cost",
+        "value": "-"
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 178,
+        "id": "eindhoven:bordro-okuma",
+        "field": "cost",
+        "value": "-"
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 188,
+        "id": "eindhoven:asgari-ucret",
+        "field": "cost",
+        "value": "-"
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 192,
+        "id": "eindhoven:banka-dolandiriciligi",
+        "field": "cost",
+        "value": "-"
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 198,
+        "id": "eindhoven:hastaneler-eindhoven",
+        "field": "timing",
+        "value": "-"
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 200,
+        "id": "eindhoven:eczane",
+        "field": "timing",
+        "value": "-"
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 202,
+        "id": "eindhoven:fizyoterapi",
+        "field": "timing",
+        "value": "-"
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 213,
+        "id": "eindhoven:is-arama-kanallari",
+        "field": "cost",
+        "value": "-"
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 214,
+        "id": "eindhoven:brainport-sektorler",
+        "field": "documents",
+        "value": "-"
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 214,
+        "id": "eindhoven:brainport-sektorler",
+        "field": "timing",
+        "value": "-"
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 214,
+        "id": "eindhoven:brainport-sektorler",
+        "field": "cost",
+        "value": "-"
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 215,
+        "id": "eindhoven:cv-motivasyon",
+        "field": "cost",
+        "value": "-"
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 216,
+        "id": "eindhoven:gorusme-kulturu",
+        "field": "cost",
+        "value": "-"
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 217,
+        "id": "eindhoven:is-sozlesmesi",
+        "field": "cost",
+        "value": "-"
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 218,
+        "id": "eindhoven:cao-asgari",
+        "field": "timing",
+        "value": "-"
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 218,
+        "id": "eindhoven:cao-asgari",
+        "field": "cost",
+        "value": "-"
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 219,
+        "id": "eindhoven:maas-paket",
+        "field": "cost",
+        "value": "-"
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 220,
+        "id": "eindhoven:isten-cikma",
+        "field": "cost",
+        "value": "-"
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 222,
+        "id": "eindhoven:hastalik-is",
+        "field": "documents",
+        "value": "-"
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 222,
+        "id": "eindhoven:hastalik-is",
+        "field": "cost",
+        "value": "-"
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 223,
+        "id": "eindhoven:izin-haklari",
+        "field": "cost",
+        "value": "-"
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 226,
+        "id": "eindhoven:uitzendbureau",
+        "field": "cost",
+        "value": "-"
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 227,
+        "id": "eindhoven:staj",
+        "field": "cost",
+        "value": "-"
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 229,
+        "id": "eindhoven:network-etkinlikleri",
+        "field": "documents",
+        "value": "-"
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 230,
+        "id": "eindhoven:dil-isyerinde",
+        "field": "documents",
+        "value": "-"
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 231,
+        "id": "eindhoven:calisma-kulturu",
+        "field": "documents",
+        "value": "-"
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 231,
+        "id": "eindhoven:calisma-kulturu",
+        "field": "timing",
+        "value": "-"
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 231,
+        "id": "eindhoven:calisma-kulturu",
+        "field": "cost",
+        "value": "-"
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 233,
+        "id": "eindhoven:kayit-disi-calisma",
+        "field": "timing",
+        "value": "-"
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 233,
+        "id": "eindhoven:kayit-disi-calisma",
+        "field": "cost",
+        "value": "-"
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 241,
+        "id": "eindhoven:okul-turleri",
+        "field": "documents",
+        "value": "-"
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 242,
+        "id": "eindhoven:ouderbijdrage",
+        "field": "documents",
+        "value": "-"
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 243,
+        "id": "eindhoven:tatil-takvimi",
+        "field": "documents",
+        "value": "-"
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 243,
+        "id": "eindhoven:tatil-takvimi",
+        "field": "cost",
+        "value": "-"
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 250,
+        "id": "eindhoven:cocuk-dil-destegi",
+        "field": "documents",
+        "value": "-"
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 252,
+        "id": "eindhoven:zwemdiploma",
+        "field": "documents",
+        "value": "-"
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 254,
+        "id": "eindhoven:leerplicht",
+        "field": "cost",
+        "value": "-"
+      }
+    ]
+  },
+  "filler": {
+    "count": 0,
+    "items": []
+  },
+  "hedges": {
+    "cards_total": 356,
+    "cards_with_hedge": 98,
+    "share": 0.2753,
+    "max_per_card": 3,
+    "by_pattern": {
+      "kurumdan_dogrula": 94,
+      "resmi_kaynaktan_dogrula": 4,
+      "ziyaret_oncesi_dogrula": 93
+    },
+    "items": [
+      {
+        "sheet": "Yanıtlar",
+        "row": 16,
+        "id": "eindhoven:saglik-hazirlik",
+        "count": 1,
+        "patterns": [
+          "resmi_kaynaktan_dogrula"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 24,
+        "id": "eindhoven:evcil-hayvan-tasima",
+        "count": 1,
+        "patterns": [
+          "resmi_kaynaktan_dogrula"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 90,
+        "id": "eindhoven:kultur-kartlari",
+        "count": 1,
+        "patterns": [
+          "resmi_kaynaktan_dogrula"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 188,
+        "id": "eindhoven:asgari-ucret",
+        "count": 1,
+        "patterns": [
+          "resmi_kaynaktan_dogrula"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 203,
+        "id": "eindhoven:ruh-sagligi",
+        "count": 1,
+        "patterns": [
+          "kurumdan_dogrula"
+        ]
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 8,
+        "id": "eindhoven:van-abbemuseum",
+        "count": 2,
+        "patterns": [
+          "kurumdan_dogrula",
+          "ziyaret_oncesi_dogrula"
+        ]
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 9,
+        "id": "eindhoven:philips-museum",
+        "count": 2,
+        "patterns": [
+          "kurumdan_dogrula",
+          "ziyaret_oncesi_dogrula"
+        ]
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 10,
+        "id": "eindhoven:daf-museum",
+        "count": 2,
+        "patterns": [
+          "kurumdan_dogrula",
+          "ziyaret_oncesi_dogrula"
+        ]
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 11,
+        "id": "eindhoven:next-nature-evoluon",
+        "count": 2,
+        "patterns": [
+          "kurumdan_dogrula",
+          "ziyaret_oncesi_dogrula"
+        ]
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 12,
+        "id": "eindhoven:ton-smits-huis",
+        "count": 2,
+        "patterns": [
+          "kurumdan_dogrula",
+          "ziyaret_oncesi_dogrula"
+        ]
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 13,
+        "id": "eindhoven:mu-arthouse",
+        "count": 3,
+        "patterns": [
+          "kurumdan_dogrula",
+          "ziyaret_oncesi_dogrula"
+        ]
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 14,
+        "id": "eindhoven:kazerne-design",
+        "count": 2,
+        "patterns": [
+          "kurumdan_dogrula",
+          "ziyaret_oncesi_dogrula"
+        ]
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 15,
+        "id": "eindhoven:design-academy",
+        "count": 2,
+        "patterns": [
+          "kurumdan_dogrula",
+          "ziyaret_oncesi_dogrula"
+        ]
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 16,
+        "id": "eindhoven:berenkuil-street-art",
+        "count": 2,
+        "patterns": [
+          "kurumdan_dogrula",
+          "ziyaret_oncesi_dogrula"
+        ]
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 17,
+        "id": "eindhoven:muziekgebouw",
+        "count": 2,
+        "patterns": [
+          "kurumdan_dogrula",
+          "ziyaret_oncesi_dogrula"
+        ]
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 18,
+        "id": "eindhoven:parktheater",
+        "count": 2,
+        "patterns": [
+          "kurumdan_dogrula",
+          "ziyaret_oncesi_dogrula"
+        ]
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 19,
+        "id": "eindhoven:effenaar",
+        "count": 2,
+        "patterns": [
+          "kurumdan_dogrula",
+          "ziyaret_oncesi_dogrula"
+        ]
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 20,
+        "id": "eindhoven:natlab",
+        "count": 2,
+        "patterns": [
+          "kurumdan_dogrula",
+          "ziyaret_oncesi_dogrula"
+        ]
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 21,
+        "id": "eindhoven:cafe-wilhelmina",
+        "count": 2,
+        "patterns": [
+          "kurumdan_dogrula",
+          "ziyaret_oncesi_dogrula"
+        ]
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 22,
+        "id": "eindhoven:philips-stadion",
+        "count": 2,
+        "patterns": [
+          "kurumdan_dogrula",
+          "ziyaret_oncesi_dogrula"
+        ]
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 23,
+        "id": "eindhoven:hoogenband-zwemstadion",
+        "count": 2,
+        "patterns": [
+          "kurumdan_dogrula",
+          "ziyaret_oncesi_dogrula"
+        ]
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 24,
+        "id": "eindhoven:ijssportcentrum",
+        "count": 2,
+        "patterns": [
+          "kurumdan_dogrula",
+          "ziyaret_oncesi_dogrula"
+        ]
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 25,
+        "id": "eindhoven:jan-louwers-stadion",
+        "count": 2,
+        "patterns": [
+          "kurumdan_dogrula",
+          "ziyaret_oncesi_dogrula"
+        ]
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 26,
+        "id": "eindhoven:oranje-rood-hockey",
+        "count": 2,
+        "patterns": [
+          "kurumdan_dogrula",
+          "ziyaret_oncesi_dogrula"
+        ]
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 27,
+        "id": "eindhoven:sportpark-aalsterweg",
+        "count": 2,
+        "patterns": [
+          "kurumdan_dogrula",
+          "ziyaret_oncesi_dogrula"
+        ]
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 28,
+        "id": "eindhoven:speelpark-de-splinter",
+        "count": 2,
+        "patterns": [
+          "kurumdan_dogrula",
+          "ziyaret_oncesi_dogrula"
+        ]
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 29,
+        "id": "eindhoven:zwembad-tongelreep",
+        "count": 2,
+        "patterns": [
+          "kurumdan_dogrula",
+          "ziyaret_oncesi_dogrula"
+        ]
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 30,
+        "id": "eindhoven:historisch-openluchtmuseum",
+        "count": 2,
+        "patterns": [
+          "kurumdan_dogrula",
+          "ziyaret_oncesi_dogrula"
+        ]
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 31,
+        "id": "eindhoven:genneper-parken",
+        "count": 2,
+        "patterns": [
+          "kurumdan_dogrula",
+          "ziyaret_oncesi_dogrula"
+        ]
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 32,
+        "id": "eindhoven:stadswandelpark",
+        "count": 2,
+        "patterns": [
+          "kurumdan_dogrula",
+          "ziyaret_oncesi_dogrula"
+        ]
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 33,
+        "id": "eindhoven:karpendonkse-plas",
+        "count": 2,
+        "patterns": [
+          "kurumdan_dogrula",
+          "ziyaret_oncesi_dogrula"
+        ]
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 34,
+        "id": "eindhoven:leenderheide",
+        "count": 2,
+        "patterns": [
+          "kurumdan_dogrula",
+          "ziyaret_oncesi_dogrula"
+        ]
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 35,
+        "id": "eindhoven:eikenburg",
+        "count": 2,
+        "patterns": [
+          "kurumdan_dogrula",
+          "ziyaret_oncesi_dogrula"
+        ]
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 36,
+        "id": "eindhoven:grote-beek",
+        "count": 2,
+        "patterns": [
+          "kurumdan_dogrula",
+          "ziyaret_oncesi_dogrula"
+        ]
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 37,
+        "id": "eindhoven:kanaal-eindhoven",
+        "count": 2,
+        "patterns": [
+          "kurumdan_dogrula",
+          "ziyaret_oncesi_dogrula"
+        ]
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 38,
+        "id": "eindhoven:dommel-eindhoven",
+        "count": 2,
+        "patterns": [
+          "kurumdan_dogrula",
+          "ziyaret_oncesi_dogrula"
+        ]
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 39,
+        "id": "eindhoven:strijp-s",
+        "count": 2,
+        "patterns": [
+          "kurumdan_dogrula",
+          "ziyaret_oncesi_dogrula"
+        ]
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 40,
+        "id": "eindhoven:klokgebouw",
+        "count": 2,
+        "patterns": [
+          "kurumdan_dogrula",
+          "ziyaret_oncesi_dogrula"
+        ]
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 41,
+        "id": "eindhoven:lichttoren",
+        "count": 2,
+        "patterns": [
+          "kurumdan_dogrula",
+          "ziyaret_oncesi_dogrula"
+        ]
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 42,
+        "id": "eindhoven:witte-dame",
+        "count": 2,
+        "patterns": [
+          "kurumdan_dogrula",
+          "ziyaret_oncesi_dogrula"
+        ]
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 43,
+        "id": "eindhoven:de-blob",
+        "count": 2,
+        "patterns": [
+          "kurumdan_dogrula",
+          "ziyaret_oncesi_dogrula"
+        ]
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 44,
+        "id": "eindhoven:de-admirant",
+        "count": 2,
+        "patterns": [
+          "kurumdan_dogrula",
+          "ziyaret_oncesi_dogrula"
+        ]
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 45,
+        "id": "eindhoven:vesteda-toren",
+        "count": 2,
+        "patterns": [
+          "kurumdan_dogrula",
+          "ziyaret_oncesi_dogrula"
+        ]
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 46,
+        "id": "eindhoven:trudo-vertical-forest",
+        "count": 2,
+        "patterns": [
+          "kurumdan_dogrula",
+          "ziyaret_oncesi_dogrula"
+        ]
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 47,
+        "id": "eindhoven:station-eindhoven-centraal",
+        "count": 2,
+        "patterns": [
+          "kurumdan_dogrula",
+          "ziyaret_oncesi_dogrula"
+        ]
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 48,
+        "id": "eindhoven:stadskantoor",
+        "count": 2,
+        "patterns": [
+          "kurumdan_dogrula",
+          "ziyaret_oncesi_dogrula"
+        ]
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 49,
+        "id": "eindhoven:bijenkorf-eindhoven",
+        "count": 2,
+        "patterns": [
+          "kurumdan_dogrula",
+          "ziyaret_oncesi_dogrula"
+        ]
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 50,
+        "id": "eindhoven:sint-catharinakerk",
+        "count": 2,
+        "patterns": [
+          "kurumdan_dogrula",
+          "ziyaret_oncesi_dogrula"
+        ]
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 51,
+        "id": "eindhoven:oude-toren-woensel",
+        "count": 2,
+        "patterns": [
+          "kurumdan_dogrula",
+          "ziyaret_oncesi_dogrula"
+        ]
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 52,
+        "id": "eindhoven:watertoren",
+        "count": 2,
+        "patterns": [
+          "kurumdan_dogrula",
+          "ziyaret_oncesi_dogrula"
+        ]
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 53,
+        "id": "eindhoven:hoge-herde",
+        "count": 2,
+        "patterns": [
+          "kurumdan_dogrula",
+          "ziyaret_oncesi_dogrula"
+        ]
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 54,
+        "id": "eindhoven:hightech-campus",
+        "count": 2,
+        "patterns": [
+          "kurumdan_dogrula",
+          "ziyaret_oncesi_dogrula"
+        ]
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 55,
+        "id": "eindhoven:18-septemberplein",
+        "count": 2,
+        "patterns": [
+          "kurumdan_dogrula",
+          "ziyaret_oncesi_dogrula"
+        ]
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 56,
+        "id": "eindhoven:grote-markt",
+        "count": 2,
+        "patterns": [
+          "kurumdan_dogrula",
+          "ziyaret_oncesi_dogrula"
+        ]
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 57,
+        "id": "eindhoven:catharinaplein",
+        "count": 2,
+        "patterns": [
+          "kurumdan_dogrula",
+          "ziyaret_oncesi_dogrula"
+        ]
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 58,
+        "id": "eindhoven:wilhelminaplein",
+        "count": 2,
+        "patterns": [
+          "kurumdan_dogrula",
+          "ziyaret_oncesi_dogrula"
+        ]
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 59,
+        "id": "eindhoven:sint-trudokerk",
+        "count": 2,
+        "patterns": [
+          "kurumdan_dogrula",
+          "ziyaret_oncesi_dogrula"
+        ]
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 60,
+        "id": "eindhoven:woenselse-watermolen",
+        "count": 2,
+        "patterns": [
+          "kurumdan_dogrula",
+          "ziyaret_oncesi_dogrula"
+        ]
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 61,
+        "id": "eindhoven:klooster-marienhage",
+        "count": 2,
+        "patterns": [
+          "kurumdan_dogrula",
+          "ziyaret_oncesi_dogrula"
+        ]
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 62,
+        "id": "eindhoven:molen-annemie",
+        "count": 2,
+        "patterns": [
+          "kurumdan_dogrula",
+          "ziyaret_oncesi_dogrula"
+        ]
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 63,
+        "id": "eindhoven:genneper-watermolen",
+        "count": 2,
+        "patterns": [
+          "kurumdan_dogrula",
+          "ziyaret_oncesi_dogrula"
+        ]
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 64,
+        "id": "eindhoven:collse-watermolen",
+        "count": 2,
+        "patterns": [
+          "kurumdan_dogrula",
+          "ziyaret_oncesi_dogrula"
+        ]
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 65,
+        "id": "eindhoven:sint-petruskerk",
+        "count": 2,
+        "patterns": [
+          "kurumdan_dogrula",
+          "ziyaret_oncesi_dogrula"
+        ]
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 66,
+        "id": "eindhoven:sint-lambertuskerk",
+        "count": 2,
+        "patterns": [
+          "kurumdan_dogrula",
+          "ziyaret_oncesi_dogrula"
+        ]
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 67,
+        "id": "eindhoven:steentjeskerk",
+        "count": 2,
+        "patterns": [
+          "kurumdan_dogrula",
+          "ziyaret_oncesi_dogrula"
+        ]
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 68,
+        "id": "eindhoven:heilig-hartkerk",
+        "count": 2,
+        "patterns": [
+          "kurumdan_dogrula",
+          "ziyaret_oncesi_dogrula"
+        ]
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 69,
+        "id": "eindhoven:sint-theresiakerk",
+        "count": 2,
+        "patterns": [
+          "kurumdan_dogrula",
+          "ziyaret_oncesi_dogrula"
+        ]
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 70,
+        "id": "eindhoven:sint-martinuskerk",
+        "count": 2,
+        "patterns": [
+          "kurumdan_dogrula",
+          "ziyaret_oncesi_dogrula"
+        ]
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 71,
+        "id": "eindhoven:paterskerk",
+        "count": 2,
+        "patterns": [
+          "kurumdan_dogrula",
+          "ziyaret_oncesi_dogrula"
+        ]
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 72,
+        "id": "eindhoven:clarissenklooster",
+        "count": 2,
+        "patterns": [
+          "kurumdan_dogrula",
+          "ziyaret_oncesi_dogrula"
+        ]
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 73,
+        "id": "eindhoven:philips-observatorium",
+        "count": 2,
+        "patterns": [
+          "kurumdan_dogrula",
+          "ziyaret_oncesi_dogrula"
+        ]
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 74,
+        "id": "eindhoven:van-maerlantlyceum",
+        "count": 2,
+        "patterns": [
+          "kurumdan_dogrula",
+          "ziyaret_oncesi_dogrula"
+        ]
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 75,
+        "id": "eindhoven:gemeentelijke-hbs",
+        "count": 2,
+        "patterns": [
+          "kurumdan_dogrula",
+          "ziyaret_oncesi_dogrula"
+        ]
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 76,
+        "id": "eindhoven:st-joriscollege",
+        "count": 2,
+        "patterns": [
+          "kurumdan_dogrula",
+          "ziyaret_oncesi_dogrula"
+        ]
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 77,
+        "id": "eindhoven:w-hal-tue",
+        "count": 2,
+        "patterns": [
+          "kurumdan_dogrula",
+          "ziyaret_oncesi_dogrula"
+        ]
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 78,
+        "id": "eindhoven:nutsschool-reigerlaan",
+        "count": 2,
+        "patterns": [
+          "kurumdan_dogrula",
+          "ziyaret_oncesi_dogrula"
+        ]
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 79,
+        "id": "eindhoven:mennen-poortgebouw",
+        "count": 2,
+        "patterns": [
+          "kurumdan_dogrula",
+          "ziyaret_oncesi_dogrula"
+        ]
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 80,
+        "id": "eindhoven:kasteel-eckart",
+        "count": 2,
+        "patterns": [
+          "kurumdan_dogrula",
+          "ziyaret_oncesi_dogrula"
+        ]
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 81,
+        "id": "eindhoven:sint-joriskerk",
+        "count": 2,
+        "patterns": [
+          "kurumdan_dogrula",
+          "ziyaret_oncesi_dogrula"
+        ]
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 82,
+        "id": "eindhoven:gerardus-majellakerk",
+        "count": 2,
+        "patterns": [
+          "kurumdan_dogrula",
+          "ziyaret_oncesi_dogrula"
+        ]
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 83,
+        "id": "eindhoven:villa-de-laak",
+        "count": 2,
+        "patterns": [
+          "kurumdan_dogrula",
+          "ziyaret_oncesi_dogrula"
+        ]
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 84,
+        "id": "eindhoven:tue-atlas",
+        "count": 2,
+        "patterns": [
+          "kurumdan_dogrula",
+          "ziyaret_oncesi_dogrula"
+        ]
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 85,
+        "id": "eindhoven:bevrijdingsmonument",
+        "count": 2,
+        "patterns": [
+          "kurumdan_dogrula",
+          "ziyaret_oncesi_dogrula"
+        ]
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 86,
+        "id": "eindhoven:raadhuis-tongelre",
+        "count": 2,
+        "patterns": [
+          "kurumdan_dogrula",
+          "ziyaret_oncesi_dogrula"
+        ]
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 87,
+        "id": "eindhoven:eindhoven-airport-terminal",
+        "count": 2,
+        "patterns": [
+          "kurumdan_dogrula",
+          "ziyaret_oncesi_dogrula"
+        ]
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 88,
+        "id": "eindhoven:haftalik-pazarlar",
+        "count": 2,
+        "patterns": [
+          "kurumdan_dogrula",
+          "ziyaret_oncesi_dogrula"
+        ]
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 89,
+        "id": "eindhoven:striatumseind",
+        "count": 2,
+        "patterns": [
+          "kurumdan_dogrula",
+          "ziyaret_oncesi_dogrula"
+        ]
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 90,
+        "id": "eindhoven:de-bergen-horeca",
+        "count": 2,
+        "patterns": [
+          "kurumdan_dogrula",
+          "ziyaret_oncesi_dogrula"
+        ]
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 91,
+        "id": "eindhoven:vershal-het-veem",
+        "count": 2,
+        "patterns": [
+          "kurumdan_dogrula",
+          "ziyaret_oncesi_dogrula"
+        ]
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 92,
+        "id": "eindhoven:kruisstraat-keent",
+        "count": 2,
+        "patterns": [
+          "kurumdan_dogrula",
+          "ziyaret_oncesi_dogrula"
+        ]
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 93,
+        "id": "eindhoven:cafe-100-watt",
+        "count": 2,
+        "patterns": [
+          "kurumdan_dogrula",
+          "ziyaret_oncesi_dogrula"
+        ]
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 94,
+        "id": "eindhoven:heuvel-galerie",
+        "count": 2,
+        "patterns": [
+          "kurumdan_dogrula",
+          "ziyaret_oncesi_dogrula"
+        ]
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 95,
+        "id": "eindhoven:philips-nederland-gebouw",
+        "count": 2,
+        "patterns": [
+          "kurumdan_dogrula",
+          "ziyaret_oncesi_dogrula"
+        ]
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 96,
+        "id": "eindhoven:herdgang",
+        "count": 2,
+        "patterns": [
+          "kurumdan_dogrula",
+          "ziyaret_oncesi_dogrula"
+        ]
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 97,
+        "id": "eindhoven:winkelcentrum-woensel",
+        "count": 2,
+        "patterns": [
+          "kurumdan_dogrula",
+          "ziyaret_oncesi_dogrula"
+        ]
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 98,
+        "id": "eindhoven:porthos-toren",
+        "count": 2,
+        "patterns": [
+          "kurumdan_dogrula",
+          "ziyaret_oncesi_dogrula"
+        ]
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 99,
+        "id": "eindhoven:tue-auditorium",
+        "count": 2,
+        "patterns": [
+          "kurumdan_dogrula",
+          "ziyaret_oncesi_dogrula"
+        ]
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 100,
+        "id": "eindhoven:oorlogsmonument-fellenoord",
+        "count": 2,
+        "patterns": [
+          "kurumdan_dogrula",
+          "ziyaret_oncesi_dogrula"
+        ]
+      }
+    ]
+  },
+  "evasive_answers": {
+    "count": 0,
+    "items": []
+  },
+  "action_links": {
+    "skipped": false,
+    "checked": 356,
+    "missing": 0,
+    "map_only": 88,
+    "no_id": 0,
+    "items": [
+      {
+        "sheet": "Mekânlar",
+        "row": 16,
+        "id": "eindhoven:berenkuil-street-art",
+        "reason": "yalniz_harita"
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 21,
+        "id": "eindhoven:cafe-wilhelmina",
+        "reason": "yalniz_harita"
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 23,
+        "id": "eindhoven:hoogenband-zwemstadion",
+        "reason": "yalniz_harita"
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 24,
+        "id": "eindhoven:ijssportcentrum",
+        "reason": "yalniz_harita"
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 25,
+        "id": "eindhoven:jan-louwers-stadion",
+        "reason": "yalniz_harita"
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 26,
+        "id": "eindhoven:oranje-rood-hockey",
+        "reason": "yalniz_harita"
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 27,
+        "id": "eindhoven:sportpark-aalsterweg",
+        "reason": "yalniz_harita"
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 28,
+        "id": "eindhoven:speelpark-de-splinter",
+        "reason": "yalniz_harita"
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 29,
+        "id": "eindhoven:zwembad-tongelreep",
+        "reason": "yalniz_harita"
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 30,
+        "id": "eindhoven:historisch-openluchtmuseum",
+        "reason": "yalniz_harita"
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 31,
+        "id": "eindhoven:genneper-parken",
+        "reason": "yalniz_harita"
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 32,
+        "id": "eindhoven:stadswandelpark",
+        "reason": "yalniz_harita"
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 33,
+        "id": "eindhoven:karpendonkse-plas",
+        "reason": "yalniz_harita"
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 34,
+        "id": "eindhoven:leenderheide",
+        "reason": "yalniz_harita"
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 35,
+        "id": "eindhoven:eikenburg",
+        "reason": "yalniz_harita"
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 36,
+        "id": "eindhoven:grote-beek",
+        "reason": "yalniz_harita"
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 37,
+        "id": "eindhoven:kanaal-eindhoven",
+        "reason": "yalniz_harita"
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 38,
+        "id": "eindhoven:dommel-eindhoven",
+        "reason": "yalniz_harita"
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 40,
+        "id": "eindhoven:klokgebouw",
+        "reason": "yalniz_harita"
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 41,
+        "id": "eindhoven:lichttoren",
+        "reason": "yalniz_harita"
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 42,
+        "id": "eindhoven:witte-dame",
+        "reason": "yalniz_harita"
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 43,
+        "id": "eindhoven:de-blob",
+        "reason": "yalniz_harita"
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 44,
+        "id": "eindhoven:de-admirant",
+        "reason": "yalniz_harita"
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 45,
+        "id": "eindhoven:vesteda-toren",
+        "reason": "yalniz_harita"
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 46,
+        "id": "eindhoven:trudo-vertical-forest",
+        "reason": "yalniz_harita"
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 47,
+        "id": "eindhoven:station-eindhoven-centraal",
+        "reason": "yalniz_harita"
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 48,
+        "id": "eindhoven:stadskantoor",
+        "reason": "yalniz_harita"
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 49,
+        "id": "eindhoven:bijenkorf-eindhoven",
+        "reason": "yalniz_harita"
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 50,
+        "id": "eindhoven:sint-catharinakerk",
+        "reason": "yalniz_harita"
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 51,
+        "id": "eindhoven:oude-toren-woensel",
+        "reason": "yalniz_harita"
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 52,
+        "id": "eindhoven:watertoren",
+        "reason": "yalniz_harita"
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 53,
+        "id": "eindhoven:hoge-herde",
+        "reason": "yalniz_harita"
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 55,
+        "id": "eindhoven:18-septemberplein",
+        "reason": "yalniz_harita"
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 56,
+        "id": "eindhoven:grote-markt",
+        "reason": "yalniz_harita"
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 57,
+        "id": "eindhoven:catharinaplein",
+        "reason": "yalniz_harita"
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 58,
+        "id": "eindhoven:wilhelminaplein",
+        "reason": "yalniz_harita"
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 59,
+        "id": "eindhoven:sint-trudokerk",
+        "reason": "yalniz_harita"
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 60,
+        "id": "eindhoven:woenselse-watermolen",
+        "reason": "yalniz_harita"
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 61,
+        "id": "eindhoven:klooster-marienhage",
+        "reason": "yalniz_harita"
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 62,
+        "id": "eindhoven:molen-annemie",
+        "reason": "yalniz_harita"
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 63,
+        "id": "eindhoven:genneper-watermolen",
+        "reason": "yalniz_harita"
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 64,
+        "id": "eindhoven:collse-watermolen",
+        "reason": "yalniz_harita"
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 65,
+        "id": "eindhoven:sint-petruskerk",
+        "reason": "yalniz_harita"
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 66,
+        "id": "eindhoven:sint-lambertuskerk",
+        "reason": "yalniz_harita"
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 67,
+        "id": "eindhoven:steentjeskerk",
+        "reason": "yalniz_harita"
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 68,
+        "id": "eindhoven:heilig-hartkerk",
+        "reason": "yalniz_harita"
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 69,
+        "id": "eindhoven:sint-theresiakerk",
+        "reason": "yalniz_harita"
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 70,
+        "id": "eindhoven:sint-martinuskerk",
+        "reason": "yalniz_harita"
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 71,
+        "id": "eindhoven:paterskerk",
+        "reason": "yalniz_harita"
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 72,
+        "id": "eindhoven:clarissenklooster",
+        "reason": "yalniz_harita"
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 73,
+        "id": "eindhoven:philips-observatorium",
+        "reason": "yalniz_harita"
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 74,
+        "id": "eindhoven:van-maerlantlyceum",
+        "reason": "yalniz_harita"
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 75,
+        "id": "eindhoven:gemeentelijke-hbs",
+        "reason": "yalniz_harita"
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 76,
+        "id": "eindhoven:st-joriscollege",
+        "reason": "yalniz_harita"
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 78,
+        "id": "eindhoven:nutsschool-reigerlaan",
+        "reason": "yalniz_harita"
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 79,
+        "id": "eindhoven:mennen-poortgebouw",
+        "reason": "yalniz_harita"
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 80,
+        "id": "eindhoven:kasteel-eckart",
+        "reason": "yalniz_harita"
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 81,
+        "id": "eindhoven:sint-joriskerk",
+        "reason": "yalniz_harita"
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 82,
+        "id": "eindhoven:gerardus-majellakerk",
+        "reason": "yalniz_harita"
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 83,
+        "id": "eindhoven:villa-de-laak",
+        "reason": "yalniz_harita"
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 85,
+        "id": "eindhoven:bevrijdingsmonument",
+        "reason": "yalniz_harita"
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 86,
+        "id": "eindhoven:raadhuis-tongelre",
+        "reason": "yalniz_harita"
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 89,
+        "id": "eindhoven:striatumseind",
+        "reason": "yalniz_harita"
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 90,
+        "id": "eindhoven:de-bergen-horeca",
+        "reason": "yalniz_harita"
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 91,
+        "id": "eindhoven:vershal-het-veem",
+        "reason": "yalniz_harita"
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 93,
+        "id": "eindhoven:cafe-100-watt",
+        "reason": "yalniz_harita"
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 94,
+        "id": "eindhoven:heuvel-galerie",
+        "reason": "yalniz_harita"
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 95,
+        "id": "eindhoven:philips-nederland-gebouw",
+        "reason": "yalniz_harita"
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 96,
+        "id": "eindhoven:herdgang",
+        "reason": "yalniz_harita"
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 97,
+        "id": "eindhoven:winkelcentrum-woensel",
+        "reason": "yalniz_harita"
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 98,
+        "id": "eindhoven:porthos-toren",
+        "reason": "yalniz_harita"
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 100,
+        "id": "eindhoven:oorlogsmonument-fellenoord",
+        "reason": "yalniz_harita"
+      },
+      {
+        "sheet": "Mahalleler",
+        "row": 8,
+        "id": "eindhoven:mah-binnenstad",
+        "reason": "yalniz_harita"
+      },
+      {
+        "sheet": "Mahalleler",
+        "row": 9,
+        "id": "eindhoven:mah-de-bergen",
+        "reason": "yalniz_harita"
+      },
+      {
+        "sheet": "Mahalleler",
+        "row": 10,
+        "id": "eindhoven:mah-strijp-s",
+        "reason": "yalniz_harita"
+      },
+      {
+        "sheet": "Mahalleler",
+        "row": 11,
+        "id": "eindhoven:mah-philipsdorp",
+        "reason": "yalniz_harita"
+      },
+      {
+        "sheet": "Mahalleler",
+        "row": 12,
+        "id": "eindhoven:mah-meerhoven",
+        "reason": "yalniz_harita"
+      },
+      {
+        "sheet": "Mahalleler",
+        "row": 13,
+        "id": "eindhoven:mah-oud-woensel",
+        "reason": "yalniz_harita"
+      },
+      {
+        "sheet": "Mahalleler",
+        "row": 14,
+        "id": "eindhoven:mah-acht",
+        "reason": "yalniz_harita"
+      },
+      {
+        "sheet": "Mahalleler",
+        "row": 15,
+        "id": "eindhoven:mah-roosten",
+        "reason": "yalniz_harita"
+      },
+      {
+        "sheet": "Mahalleler",
+        "row": 16,
+        "id": "eindhoven:mah-doornakkers",
+        "reason": "yalniz_harita"
+      },
+      {
+        "sheet": "Mahalleler",
+        "row": 17,
+        "id": "eindhoven:mah-villapark",
+        "reason": "yalniz_harita"
+      },
+      {
+        "sheet": "Mahalleler",
+        "row": 18,
+        "id": "eindhoven:mah-karpen-koudenhoven",
+        "reason": "yalniz_harita"
+      },
+      {
+        "sheet": "Mahalleler",
+        "row": 19,
+        "id": "eindhoven:mah-oud-stratum",
+        "reason": "yalniz_harita"
+      },
+      {
+        "sheet": "Mahalleler",
+        "row": 20,
+        "id": "eindhoven:mah-burghplan",
+        "reason": "yalniz_harita"
+      },
+      {
+        "sheet": "Mahalleler",
+        "row": 21,
+        "id": "eindhoven:mah-leenderheide",
+        "reason": "yalniz_harita"
+      },
+      {
+        "sheet": "Mahalleler",
+        "row": 22,
+        "id": "eindhoven:mah-oud-gestel",
+        "reason": "yalniz_harita"
+      },
+      {
+        "sheet": "Mahalleler",
+        "row": 23,
+        "id": "eindhoven:mah-hofke-tongelre",
+        "reason": "yalniz_harita"
+      }
+    ]
+  },
+  "visual_json": {
+    "total": 247,
+    "empty": 247,
+    "valid": 0,
+    "by_error": {},
+    "errors": []
+  },
+  "caption_is_title": {
+    "count": 264,
+    "total": 272,
+    "items": [
+      {
+        "sheet": "Fotoğraflar",
+        "row": 16,
+        "id": "eindhoven:mah-binnenstad",
+        "entry_id": "eindhoven:mah-binnenstad",
+        "caption": "Binnenstad (Merkez)"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 17,
+        "id": "eindhoven:mah-de-bergen",
+        "entry_id": "eindhoven:mah-de-bergen",
+        "caption": "De Bergen"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 18,
+        "id": "eindhoven:mah-strijp-s",
+        "entry_id": "eindhoven:mah-strijp-s",
+        "caption": "Strijp-S"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 19,
+        "id": "eindhoven:mah-philipsdorp",
+        "entry_id": "eindhoven:mah-philipsdorp",
+        "caption": "Philipsdorp"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 20,
+        "id": "eindhoven:mah-meerhoven",
+        "entry_id": "eindhoven:mah-meerhoven",
+        "caption": "Meerhoven"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 21,
+        "id": "eindhoven:mah-oud-woensel",
+        "entry_id": "eindhoven:mah-oud-woensel",
+        "caption": "Oud-Woensel"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 22,
+        "id": "eindhoven:mah-acht",
+        "entry_id": "eindhoven:mah-acht",
+        "caption": "Kerkdorp Acht"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 23,
+        "id": "eindhoven:mah-roosten",
+        "entry_id": "eindhoven:mah-roosten",
+        "caption": "De Roosten"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 24,
+        "id": "eindhoven:mah-doornakkers",
+        "entry_id": "eindhoven:mah-doornakkers",
+        "caption": "Doornakkers"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 25,
+        "id": "eindhoven:mah-villapark",
+        "entry_id": "eindhoven:mah-villapark",
+        "caption": "Villapark"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 26,
+        "id": "eindhoven:mah-karpen-koudenhoven",
+        "entry_id": "eindhoven:mah-karpen-koudenhoven",
+        "caption": "Karpen ve Koudenhoven"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 27,
+        "id": "eindhoven:mah-oud-stratum",
+        "entry_id": "eindhoven:mah-oud-stratum",
+        "caption": "Oud-Stratum / Witte Dorp"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 28,
+        "id": "eindhoven:mah-burghplan",
+        "entry_id": "eindhoven:mah-burghplan",
+        "caption": "Burghplan"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 29,
+        "id": "eindhoven:mah-leenderheide",
+        "entry_id": "eindhoven:mah-leenderheide",
+        "caption": "Leenderheide"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 30,
+        "id": "eindhoven:mah-oud-gestel",
+        "entry_id": "eindhoven:mah-oud-gestel",
+        "caption": "Oud-Gestel"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 31,
+        "id": "eindhoven:mah-hofke-tongelre",
+        "entry_id": "eindhoven:mah-hofke-tongelre",
+        "caption": "'t Hofke (Tongelre köy merkezi)"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 32,
+        "id": "eindhoven:van-abbemuseum",
+        "entry_id": "eindhoven:van-abbemuseum",
+        "caption": "Van Abbemuseum"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 33,
+        "id": "eindhoven:van-abbemuseum",
+        "entry_id": "eindhoven:van-abbemuseum",
+        "caption": "Van Abbemuseum"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 34,
+        "id": "eindhoven:van-abbemuseum",
+        "entry_id": "eindhoven:van-abbemuseum",
+        "caption": "Van Abbemuseum"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 35,
+        "id": "eindhoven:van-abbemuseum",
+        "entry_id": "eindhoven:van-abbemuseum",
+        "caption": "Van Abbemuseum"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 36,
+        "id": "eindhoven:van-abbemuseum",
+        "entry_id": "eindhoven:van-abbemuseum",
+        "caption": "Van Abbemuseum"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 37,
+        "id": "eindhoven:philips-museum",
+        "entry_id": "eindhoven:philips-museum",
+        "caption": "Philips Museum"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 38,
+        "id": "eindhoven:philips-museum",
+        "entry_id": "eindhoven:philips-museum",
+        "caption": "Philips Museum"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 39,
+        "id": "eindhoven:philips-museum",
+        "entry_id": "eindhoven:philips-museum",
+        "caption": "Philips Museum"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 40,
+        "id": "eindhoven:daf-museum",
+        "entry_id": "eindhoven:daf-museum",
+        "caption": "DAF Museum"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 41,
+        "id": "eindhoven:daf-museum",
+        "entry_id": "eindhoven:daf-museum",
+        "caption": "DAF Museum"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 42,
+        "id": "eindhoven:daf-museum",
+        "entry_id": "eindhoven:daf-museum",
+        "caption": "DAF Museum"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 43,
+        "id": "eindhoven:next-nature-evoluon",
+        "entry_id": "eindhoven:next-nature-evoluon",
+        "caption": "Next Nature Museum (Evoluon)"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 44,
+        "id": "eindhoven:next-nature-evoluon",
+        "entry_id": "eindhoven:next-nature-evoluon",
+        "caption": "Next Nature Museum (Evoluon)"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 45,
+        "id": "eindhoven:next-nature-evoluon",
+        "entry_id": "eindhoven:next-nature-evoluon",
+        "caption": "Next Nature Museum (Evoluon)"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 46,
+        "id": "eindhoven:next-nature-evoluon",
+        "entry_id": "eindhoven:next-nature-evoluon",
+        "caption": "Next Nature Museum (Evoluon)"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 47,
+        "id": "eindhoven:next-nature-evoluon",
+        "entry_id": "eindhoven:next-nature-evoluon",
+        "caption": "Next Nature Museum (Evoluon)"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 48,
+        "id": "eindhoven:ton-smits-huis",
+        "entry_id": "eindhoven:ton-smits-huis",
+        "caption": "Ton Smits Huis"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 49,
+        "id": "eindhoven:ton-smits-huis",
+        "entry_id": "eindhoven:ton-smits-huis",
+        "caption": "Ton Smits Huis"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 50,
+        "id": "eindhoven:mu-arthouse",
+        "entry_id": "eindhoven:mu-arthouse",
+        "caption": "MU Hybrid Art House"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 51,
+        "id": "eindhoven:kazerne-design",
+        "entry_id": "eindhoven:kazerne-design",
+        "caption": "Kazerne – home of design"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 52,
+        "id": "eindhoven:kazerne-design",
+        "entry_id": "eindhoven:kazerne-design",
+        "caption": "Kazerne – home of design"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 53,
+        "id": "eindhoven:design-academy",
+        "entry_id": "eindhoven:design-academy",
+        "caption": "Design Academy Eindhoven (Witte Dame)"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 54,
+        "id": "eindhoven:design-academy",
+        "entry_id": "eindhoven:design-academy",
+        "caption": "Design Academy Eindhoven (Witte Dame)"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 55,
+        "id": "eindhoven:design-academy",
+        "entry_id": "eindhoven:design-academy",
+        "caption": "Design Academy Eindhoven (Witte Dame)"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 56,
+        "id": "eindhoven:berenkuil-street-art",
+        "entry_id": "eindhoven:berenkuil-street-art",
+        "caption": "Berenkuil duvar resimleri"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 57,
+        "id": "eindhoven:berenkuil-street-art",
+        "entry_id": "eindhoven:berenkuil-street-art",
+        "caption": "Berenkuil duvar resimleri"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 58,
+        "id": "eindhoven:berenkuil-street-art",
+        "entry_id": "eindhoven:berenkuil-street-art",
+        "caption": "Berenkuil duvar resimleri"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 59,
+        "id": "eindhoven:muziekgebouw",
+        "entry_id": "eindhoven:muziekgebouw",
+        "caption": "Muziekgebouw Eindhoven"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 60,
+        "id": "eindhoven:muziekgebouw",
+        "entry_id": "eindhoven:muziekgebouw",
+        "caption": "Muziekgebouw Eindhoven"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 61,
+        "id": "eindhoven:parktheater",
+        "entry_id": "eindhoven:parktheater",
+        "caption": "Parktheater Eindhoven"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 62,
+        "id": "eindhoven:parktheater",
+        "entry_id": "eindhoven:parktheater",
+        "caption": "Parktheater Eindhoven"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 63,
+        "id": "eindhoven:effenaar",
+        "entry_id": "eindhoven:effenaar",
+        "caption": "Poppodium Effenaar"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 64,
+        "id": "eindhoven:effenaar",
+        "entry_id": "eindhoven:effenaar",
+        "caption": "Poppodium Effenaar"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 65,
+        "id": "eindhoven:effenaar",
+        "entry_id": "eindhoven:effenaar",
+        "caption": "Poppodium Effenaar"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 66,
+        "id": "eindhoven:natlab",
+        "entry_id": "eindhoven:natlab",
+        "caption": "NatLab"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 67,
+        "id": "eindhoven:natlab",
+        "entry_id": "eindhoven:natlab",
+        "caption": "NatLab"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 68,
+        "id": "eindhoven:natlab",
+        "entry_id": "eindhoven:natlab",
+        "caption": "NatLab"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 69,
+        "id": "eindhoven:cafe-wilhelmina",
+        "entry_id": "eindhoven:cafe-wilhelmina",
+        "caption": "Café Wilhelmina"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 70,
+        "id": "eindhoven:philips-stadion",
+        "entry_id": "eindhoven:philips-stadion",
+        "caption": "Philips Stadion (PSV)"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 71,
+        "id": "eindhoven:philips-stadion",
+        "entry_id": "eindhoven:philips-stadion",
+        "caption": "Philips Stadion (PSV)"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 72,
+        "id": "eindhoven:philips-stadion",
+        "entry_id": "eindhoven:philips-stadion",
+        "caption": "Philips Stadion (PSV)"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 73,
+        "id": "eindhoven:philips-stadion",
+        "entry_id": "eindhoven:philips-stadion",
+        "caption": "Philips Stadion (PSV)"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 74,
+        "id": "eindhoven:philips-stadion",
+        "entry_id": "eindhoven:philips-stadion",
+        "caption": "Philips Stadion (PSV)"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 75,
+        "id": "eindhoven:hoogenband-zwemstadion",
+        "entry_id": "eindhoven:hoogenband-zwemstadion",
+        "caption": "Pieter van den Hoogenband Zwemstadion"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 76,
+        "id": "eindhoven:hoogenband-zwemstadion",
+        "entry_id": "eindhoven:hoogenband-zwemstadion",
+        "caption": "Pieter van den Hoogenband Zwemstadion"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 77,
+        "id": "eindhoven:ijssportcentrum",
+        "entry_id": "eindhoven:ijssportcentrum",
+        "caption": "IJssportcentrum Eindhoven"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 78,
+        "id": "eindhoven:ijssportcentrum",
+        "entry_id": "eindhoven:ijssportcentrum",
+        "caption": "IJssportcentrum Eindhoven"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 79,
+        "id": "eindhoven:jan-louwers-stadion",
+        "entry_id": "eindhoven:jan-louwers-stadion",
+        "caption": "Jan Louwers Stadion (FC Eindhoven)"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 80,
+        "id": "eindhoven:oranje-rood-hockey",
+        "entry_id": "eindhoven:oranje-rood-hockey",
+        "caption": "Hockeyclub Oranje-Rood"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 81,
+        "id": "eindhoven:sportpark-aalsterweg",
+        "entry_id": "eindhoven:sportpark-aalsterweg",
+        "caption": "Sportpark Aalsterweg"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 82,
+        "id": "eindhoven:speelpark-de-splinter",
+        "entry_id": "eindhoven:speelpark-de-splinter",
+        "caption": "Speelpark De Splinter"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 83,
+        "id": "eindhoven:speelpark-de-splinter",
+        "entry_id": "eindhoven:speelpark-de-splinter",
+        "caption": "Speelpark De Splinter"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 84,
+        "id": "eindhoven:zwembad-tongelreep",
+        "entry_id": "eindhoven:zwembad-tongelreep",
+        "caption": "Zwembad De Tongelreep"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 85,
+        "id": "eindhoven:historisch-openluchtmuseum",
+        "entry_id": "eindhoven:historisch-openluchtmuseum",
+        "caption": "Historisch Openluchtmuseum Eindhoven"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 86,
+        "id": "eindhoven:historisch-openluchtmuseum",
+        "entry_id": "eindhoven:historisch-openluchtmuseum",
+        "caption": "Historisch Openluchtmuseum Eindhoven"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 87,
+        "id": "eindhoven:historisch-openluchtmuseum",
+        "entry_id": "eindhoven:historisch-openluchtmuseum",
+        "caption": "Historisch Openluchtmuseum Eindhoven"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 88,
+        "id": "eindhoven:genneper-parken",
+        "entry_id": "eindhoven:genneper-parken",
+        "caption": "Genneper Parken"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 89,
+        "id": "eindhoven:genneper-parken",
+        "entry_id": "eindhoven:genneper-parken",
+        "caption": "Genneper Parken"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 90,
+        "id": "eindhoven:stadswandelpark",
+        "entry_id": "eindhoven:stadswandelpark",
+        "caption": "Stadswandelpark"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 91,
+        "id": "eindhoven:stadswandelpark",
+        "entry_id": "eindhoven:stadswandelpark",
+        "caption": "Stadswandelpark"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 92,
+        "id": "eindhoven:stadswandelpark",
+        "entry_id": "eindhoven:stadswandelpark",
+        "caption": "Stadswandelpark"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 93,
+        "id": "eindhoven:karpendonkse-plas",
+        "entry_id": "eindhoven:karpendonkse-plas",
+        "caption": "Karpendonkse Plas"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 94,
+        "id": "eindhoven:karpendonkse-plas",
+        "entry_id": "eindhoven:karpendonkse-plas",
+        "caption": "Karpendonkse Plas"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 95,
+        "id": "eindhoven:karpendonkse-plas",
+        "entry_id": "eindhoven:karpendonkse-plas",
+        "caption": "Karpendonkse Plas"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 96,
+        "id": "eindhoven:leenderheide",
+        "entry_id": "eindhoven:leenderheide",
+        "caption": "Leenderheide"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 97,
+        "id": "eindhoven:leenderheide",
+        "entry_id": "eindhoven:leenderheide",
+        "caption": "Leenderheide"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 98,
+        "id": "eindhoven:eikenburg",
+        "entry_id": "eindhoven:eikenburg",
+        "caption": "Park/landgoed Eikenburg"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 99,
+        "id": "eindhoven:eikenburg",
+        "entry_id": "eindhoven:eikenburg",
+        "caption": "Park/landgoed Eikenburg"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 100,
+        "id": "eindhoven:eikenburg",
+        "entry_id": "eindhoven:eikenburg",
+        "caption": "Park/landgoed Eikenburg"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 101,
+        "id": "eindhoven:grote-beek",
+        "entry_id": "eindhoven:grote-beek",
+        "caption": "Landgoed Grote Beek"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 102,
+        "id": "eindhoven:grote-beek",
+        "entry_id": "eindhoven:grote-beek",
+        "caption": "Landgoed Grote Beek"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 103,
+        "id": "eindhoven:grote-beek",
+        "entry_id": "eindhoven:grote-beek",
+        "caption": "Landgoed Grote Beek"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 104,
+        "id": "eindhoven:kanaal-eindhoven",
+        "entry_id": "eindhoven:kanaal-eindhoven",
+        "caption": "Eindhoven Kanalı yürüyüş/bisiklet yolu"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 105,
+        "id": "eindhoven:kanaal-eindhoven",
+        "entry_id": "eindhoven:kanaal-eindhoven",
+        "caption": "Eindhoven Kanalı yürüyüş/bisiklet yolu"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 106,
+        "id": "eindhoven:kanaal-eindhoven",
+        "entry_id": "eindhoven:kanaal-eindhoven",
+        "caption": "Eindhoven Kanalı yürüyüş/bisiklet yolu"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 107,
+        "id": "eindhoven:dommel-eindhoven",
+        "entry_id": "eindhoven:dommel-eindhoven",
+        "caption": "Dommel nehri kıyı koridoru"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 108,
+        "id": "eindhoven:dommel-eindhoven",
+        "entry_id": "eindhoven:dommel-eindhoven",
+        "caption": "Dommel nehri kıyı koridoru"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 109,
+        "id": "eindhoven:dommel-eindhoven",
+        "entry_id": "eindhoven:dommel-eindhoven",
+        "caption": "Dommel nehri kıyı koridoru"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 110,
+        "id": "eindhoven:strijp-s",
+        "entry_id": "eindhoven:strijp-s",
+        "caption": "Strijp-S"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 111,
+        "id": "eindhoven:strijp-s",
+        "entry_id": "eindhoven:strijp-s",
+        "caption": "Strijp-S"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 112,
+        "id": "eindhoven:strijp-s",
+        "entry_id": "eindhoven:strijp-s",
+        "caption": "Strijp-S"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 113,
+        "id": "eindhoven:strijp-s",
+        "entry_id": "eindhoven:strijp-s",
+        "caption": "Strijp-S"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 114,
+        "id": "eindhoven:strijp-s",
+        "entry_id": "eindhoven:strijp-s",
+        "caption": "Strijp-S"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 115,
+        "id": "eindhoven:klokgebouw",
+        "entry_id": "eindhoven:klokgebouw",
+        "caption": "Klokgebouw"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 116,
+        "id": "eindhoven:klokgebouw",
+        "entry_id": "eindhoven:klokgebouw",
+        "caption": "Klokgebouw"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 117,
+        "id": "eindhoven:klokgebouw",
+        "entry_id": "eindhoven:klokgebouw",
+        "caption": "Klokgebouw"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 118,
+        "id": "eindhoven:lichttoren",
+        "entry_id": "eindhoven:lichttoren",
+        "caption": "Lichttoren"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 119,
+        "id": "eindhoven:lichttoren",
+        "entry_id": "eindhoven:lichttoren",
+        "caption": "Lichttoren"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 120,
+        "id": "eindhoven:lichttoren",
+        "entry_id": "eindhoven:lichttoren",
+        "caption": "Lichttoren"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 121,
+        "id": "eindhoven:witte-dame",
+        "entry_id": "eindhoven:witte-dame",
+        "caption": "De Witte Dame"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 122,
+        "id": "eindhoven:witte-dame",
+        "entry_id": "eindhoven:witte-dame",
+        "caption": "De Witte Dame"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 123,
+        "id": "eindhoven:witte-dame",
+        "entry_id": "eindhoven:witte-dame",
+        "caption": "De Witte Dame"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 124,
+        "id": "eindhoven:de-blob",
+        "entry_id": "eindhoven:de-blob",
+        "caption": "De Blob"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 125,
+        "id": "eindhoven:de-blob",
+        "entry_id": "eindhoven:de-blob",
+        "caption": "De Blob"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 126,
+        "id": "eindhoven:de-blob",
+        "entry_id": "eindhoven:de-blob",
+        "caption": "De Blob"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 127,
+        "id": "eindhoven:de-admirant",
+        "entry_id": "eindhoven:de-admirant",
+        "caption": "De Admirant"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 128,
+        "id": "eindhoven:de-admirant",
+        "entry_id": "eindhoven:de-admirant",
+        "caption": "De Admirant"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 129,
+        "id": "eindhoven:de-admirant",
+        "entry_id": "eindhoven:de-admirant",
+        "caption": "De Admirant"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 130,
+        "id": "eindhoven:vesteda-toren",
+        "entry_id": "eindhoven:vesteda-toren",
+        "caption": "Vesteda Toren"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 131,
+        "id": "eindhoven:vesteda-toren",
+        "entry_id": "eindhoven:vesteda-toren",
+        "caption": "Vesteda Toren"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 132,
+        "id": "eindhoven:vesteda-toren",
+        "entry_id": "eindhoven:vesteda-toren",
+        "caption": "Vesteda Toren"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 133,
+        "id": "eindhoven:trudo-vertical-forest",
+        "entry_id": "eindhoven:trudo-vertical-forest",
+        "caption": "Trudo Vertical Forest"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 134,
+        "id": "eindhoven:trudo-vertical-forest",
+        "entry_id": "eindhoven:trudo-vertical-forest",
+        "caption": "Trudo Vertical Forest"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 135,
+        "id": "eindhoven:trudo-vertical-forest",
+        "entry_id": "eindhoven:trudo-vertical-forest",
+        "caption": "Trudo Vertical Forest"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 136,
+        "id": "eindhoven:station-eindhoven-centraal",
+        "entry_id": "eindhoven:station-eindhoven-centraal",
+        "caption": "Eindhoven Centraal"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 137,
+        "id": "eindhoven:stadskantoor",
+        "entry_id": "eindhoven:stadskantoor",
+        "caption": "Stadskantoor (belediye binası)"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 138,
+        "id": "eindhoven:bijenkorf-eindhoven",
+        "entry_id": "eindhoven:bijenkorf-eindhoven",
+        "caption": "De Bijenkorf binası"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 139,
+        "id": "eindhoven:bijenkorf-eindhoven",
+        "entry_id": "eindhoven:bijenkorf-eindhoven",
+        "caption": "De Bijenkorf binası"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 140,
+        "id": "eindhoven:bijenkorf-eindhoven",
+        "entry_id": "eindhoven:bijenkorf-eindhoven",
+        "caption": "De Bijenkorf binası"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 141,
+        "id": "eindhoven:sint-catharinakerk",
+        "entry_id": "eindhoven:sint-catharinakerk",
+        "caption": "Sint-Catharinakerk"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 142,
+        "id": "eindhoven:sint-catharinakerk",
+        "entry_id": "eindhoven:sint-catharinakerk",
+        "caption": "Sint-Catharinakerk"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 143,
+        "id": "eindhoven:sint-catharinakerk",
+        "entry_id": "eindhoven:sint-catharinakerk",
+        "caption": "Sint-Catharinakerk"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 144,
+        "id": "eindhoven:sint-catharinakerk",
+        "entry_id": "eindhoven:sint-catharinakerk",
+        "caption": "Sint-Catharinakerk"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 145,
+        "id": "eindhoven:sint-catharinakerk",
+        "entry_id": "eindhoven:sint-catharinakerk",
+        "caption": "Sint-Catharinakerk"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 146,
+        "id": "eindhoven:oude-toren-woensel",
+        "entry_id": "eindhoven:oude-toren-woensel",
+        "caption": "Oude Toren (Woensel)"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 147,
+        "id": "eindhoven:watertoren",
+        "entry_id": "eindhoven:watertoren",
+        "caption": "Watertoren"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 148,
+        "id": "eindhoven:watertoren",
+        "entry_id": "eindhoven:watertoren",
+        "caption": "Watertoren"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 149,
+        "id": "eindhoven:watertoren",
+        "entry_id": "eindhoven:watertoren",
+        "caption": "Watertoren"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 150,
+        "id": "eindhoven:hoge-herde",
+        "entry_id": "eindhoven:hoge-herde",
+        "caption": "Fellenoord dönüşüm aksı"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 151,
+        "id": "eindhoven:hoge-herde",
+        "entry_id": "eindhoven:hoge-herde",
+        "caption": "Fellenoord dönüşüm aksı"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 152,
+        "id": "eindhoven:hoge-herde",
+        "entry_id": "eindhoven:hoge-herde",
+        "caption": "Fellenoord dönüşüm aksı"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 153,
+        "id": "eindhoven:hightech-campus",
+        "entry_id": "eindhoven:hightech-campus",
+        "caption": "High Tech Campus Eindhoven"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 154,
+        "id": "eindhoven:hightech-campus",
+        "entry_id": "eindhoven:hightech-campus",
+        "caption": "High Tech Campus Eindhoven"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 155,
+        "id": "eindhoven:hightech-campus",
+        "entry_id": "eindhoven:hightech-campus",
+        "caption": "High Tech Campus Eindhoven"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 156,
+        "id": "eindhoven:hightech-campus",
+        "entry_id": "eindhoven:hightech-campus",
+        "caption": "High Tech Campus Eindhoven"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 157,
+        "id": "eindhoven:hightech-campus",
+        "entry_id": "eindhoven:hightech-campus",
+        "caption": "High Tech Campus Eindhoven"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 158,
+        "id": "eindhoven:18-septemberplein",
+        "entry_id": "eindhoven:18-septemberplein",
+        "caption": "18 Septemberplein"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 159,
+        "id": "eindhoven:18-septemberplein",
+        "entry_id": "eindhoven:18-septemberplein",
+        "caption": "18 Septemberplein"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 160,
+        "id": "eindhoven:18-septemberplein",
+        "entry_id": "eindhoven:18-septemberplein",
+        "caption": "18 Septemberplein"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 161,
+        "id": "eindhoven:grote-markt",
+        "entry_id": "eindhoven:grote-markt",
+        "caption": "Markt (şehir meydanı)"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 162,
+        "id": "eindhoven:grote-markt",
+        "entry_id": "eindhoven:grote-markt",
+        "caption": "Markt (şehir meydanı)"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 163,
+        "id": "eindhoven:catharinaplein",
+        "entry_id": "eindhoven:catharinaplein",
+        "caption": "Catharinaplein"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 164,
+        "id": "eindhoven:catharinaplein",
+        "entry_id": "eindhoven:catharinaplein",
+        "caption": "Catharinaplein"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 165,
+        "id": "eindhoven:catharinaplein",
+        "entry_id": "eindhoven:catharinaplein",
+        "caption": "Catharinaplein"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 166,
+        "id": "eindhoven:wilhelminaplein",
+        "entry_id": "eindhoven:wilhelminaplein",
+        "caption": "Wilhelminaplein"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 167,
+        "id": "eindhoven:wilhelminaplein",
+        "entry_id": "eindhoven:wilhelminaplein",
+        "caption": "Wilhelminaplein"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 168,
+        "id": "eindhoven:wilhelminaplein",
+        "entry_id": "eindhoven:wilhelminaplein",
+        "caption": "Wilhelminaplein"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 169,
+        "id": "eindhoven:sint-trudokerk",
+        "entry_id": "eindhoven:sint-trudokerk",
+        "caption": "Sint-Trudokerk (Strijp)"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 170,
+        "id": "eindhoven:sint-trudokerk",
+        "entry_id": "eindhoven:sint-trudokerk",
+        "caption": "Sint-Trudokerk (Strijp)"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 171,
+        "id": "eindhoven:sint-trudokerk",
+        "entry_id": "eindhoven:sint-trudokerk",
+        "caption": "Sint-Trudokerk (Strijp)"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 172,
+        "id": "eindhoven:woenselse-watermolen",
+        "entry_id": "eindhoven:woenselse-watermolen",
+        "caption": "Woenselse Watermolen anıtı"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 173,
+        "id": "eindhoven:klooster-marienhage",
+        "entry_id": "eindhoven:klooster-marienhage",
+        "caption": "Klooster Mariënhage"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 174,
+        "id": "eindhoven:klooster-marienhage",
+        "entry_id": "eindhoven:klooster-marienhage",
+        "caption": "Klooster Mariënhage"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 175,
+        "id": "eindhoven:klooster-marienhage",
+        "entry_id": "eindhoven:klooster-marienhage",
+        "caption": "Klooster Mariënhage"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 176,
+        "id": "eindhoven:molen-annemie",
+        "entry_id": "eindhoven:molen-annemie",
+        "caption": "Molen Annemie (Acht)"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 177,
+        "id": "eindhoven:molen-annemie",
+        "entry_id": "eindhoven:molen-annemie",
+        "caption": "Molen Annemie (Acht)"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 178,
+        "id": "eindhoven:genneper-watermolen",
+        "entry_id": "eindhoven:genneper-watermolen",
+        "caption": "Genneper Watermolen"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 179,
+        "id": "eindhoven:genneper-watermolen",
+        "entry_id": "eindhoven:genneper-watermolen",
+        "caption": "Genneper Watermolen"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 180,
+        "id": "eindhoven:genneper-watermolen",
+        "entry_id": "eindhoven:genneper-watermolen",
+        "caption": "Genneper Watermolen"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 181,
+        "id": "eindhoven:collse-watermolen",
+        "entry_id": "eindhoven:collse-watermolen",
+        "caption": "Collse Watermolen"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 182,
+        "id": "eindhoven:collse-watermolen",
+        "entry_id": "eindhoven:collse-watermolen",
+        "caption": "Collse Watermolen"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 183,
+        "id": "eindhoven:collse-watermolen",
+        "entry_id": "eindhoven:collse-watermolen",
+        "caption": "Collse Watermolen"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 184,
+        "id": "eindhoven:collse-watermolen",
+        "entry_id": "eindhoven:collse-watermolen",
+        "caption": "Collse Watermolen"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 185,
+        "id": "eindhoven:collse-watermolen",
+        "entry_id": "eindhoven:collse-watermolen",
+        "caption": "Collse Watermolen"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 186,
+        "id": "eindhoven:sint-petruskerk",
+        "entry_id": "eindhoven:sint-petruskerk",
+        "caption": "Sint-Petruskerk (Woensel)"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 187,
+        "id": "eindhoven:sint-petruskerk",
+        "entry_id": "eindhoven:sint-petruskerk",
+        "caption": "Sint-Petruskerk (Woensel)"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 188,
+        "id": "eindhoven:sint-petruskerk",
+        "entry_id": "eindhoven:sint-petruskerk",
+        "caption": "Sint-Petruskerk (Woensel)"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 189,
+        "id": "eindhoven:sint-lambertuskerk",
+        "entry_id": "eindhoven:sint-lambertuskerk",
+        "caption": "Sint-Lambertuskerk"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 190,
+        "id": "eindhoven:sint-lambertuskerk",
+        "entry_id": "eindhoven:sint-lambertuskerk",
+        "caption": "Sint-Lambertuskerk"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 191,
+        "id": "eindhoven:sint-lambertuskerk",
+        "entry_id": "eindhoven:sint-lambertuskerk",
+        "caption": "Sint-Lambertuskerk"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 192,
+        "id": "eindhoven:steentjeskerk",
+        "entry_id": "eindhoven:steentjeskerk",
+        "caption": "Steentjeskerk (Sint-Antonius)"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 193,
+        "id": "eindhoven:steentjeskerk",
+        "entry_id": "eindhoven:steentjeskerk",
+        "caption": "Steentjeskerk (Sint-Antonius)"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 194,
+        "id": "eindhoven:steentjeskerk",
+        "entry_id": "eindhoven:steentjeskerk",
+        "caption": "Steentjeskerk (Sint-Antonius)"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 195,
+        "id": "eindhoven:heilig-hartkerk",
+        "entry_id": "eindhoven:heilig-hartkerk",
+        "caption": "Heilig Hartkerk (Ploegstraat)"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 196,
+        "id": "eindhoven:heilig-hartkerk",
+        "entry_id": "eindhoven:heilig-hartkerk",
+        "caption": "Heilig Hartkerk (Ploegstraat)"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 197,
+        "id": "eindhoven:heilig-hartkerk",
+        "entry_id": "eindhoven:heilig-hartkerk",
+        "caption": "Heilig Hartkerk (Ploegstraat)"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 198,
+        "id": "eindhoven:sint-theresiakerk",
+        "entry_id": "eindhoven:sint-theresiakerk",
+        "caption": "Sint-Theresiakerk"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 199,
+        "id": "eindhoven:sint-martinuskerk",
+        "entry_id": "eindhoven:sint-martinuskerk",
+        "caption": "Sint-Martinuskerk (Tongelre)"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 200,
+        "id": "eindhoven:sint-martinuskerk",
+        "entry_id": "eindhoven:sint-martinuskerk",
+        "caption": "Sint-Martinuskerk (Tongelre)"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 201,
+        "id": "eindhoven:sint-martinuskerk",
+        "entry_id": "eindhoven:sint-martinuskerk",
+        "caption": "Sint-Martinuskerk (Tongelre)"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 202,
+        "id": "eindhoven:paterskerk",
+        "entry_id": "eindhoven:paterskerk",
+        "caption": "Paterskerk"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 203,
+        "id": "eindhoven:paterskerk",
+        "entry_id": "eindhoven:paterskerk",
+        "caption": "Paterskerk"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 204,
+        "id": "eindhoven:paterskerk",
+        "entry_id": "eindhoven:paterskerk",
+        "caption": "Paterskerk"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 205,
+        "id": "eindhoven:clarissenklooster",
+        "entry_id": "eindhoven:clarissenklooster",
+        "caption": "Clarissenklooster Rapelenburg"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 206,
+        "id": "eindhoven:clarissenklooster",
+        "entry_id": "eindhoven:clarissenklooster",
+        "caption": "Clarissenklooster Rapelenburg"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 207,
+        "id": "eindhoven:clarissenklooster",
+        "entry_id": "eindhoven:clarissenklooster",
+        "caption": "Clarissenklooster Rapelenburg"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 208,
+        "id": "eindhoven:philips-observatorium",
+        "entry_id": "eindhoven:philips-observatorium",
+        "caption": "Dr. A.F. Philips Observatorium"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 209,
+        "id": "eindhoven:philips-observatorium",
+        "entry_id": "eindhoven:philips-observatorium",
+        "caption": "Dr. A.F. Philips Observatorium"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 210,
+        "id": "eindhoven:van-maerlantlyceum",
+        "entry_id": "eindhoven:van-maerlantlyceum",
+        "caption": "Van Maerlantlyceum binası"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 211,
+        "id": "eindhoven:van-maerlantlyceum",
+        "entry_id": "eindhoven:van-maerlantlyceum",
+        "caption": "Van Maerlantlyceum binası"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 212,
+        "id": "eindhoven:van-maerlantlyceum",
+        "entry_id": "eindhoven:van-maerlantlyceum",
+        "caption": "Van Maerlantlyceum binası"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 213,
+        "id": "eindhoven:gemeentelijke-hbs",
+        "entry_id": "eindhoven:gemeentelijke-hbs",
+        "caption": "Gemeentelijke HBS binası"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 214,
+        "id": "eindhoven:gemeentelijke-hbs",
+        "entry_id": "eindhoven:gemeentelijke-hbs",
+        "caption": "Gemeentelijke HBS binası"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 215,
+        "id": "eindhoven:st-joriscollege",
+        "entry_id": "eindhoven:st-joriscollege",
+        "caption": "St. Joriscollege binası"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 216,
+        "id": "eindhoven:w-hal-tue",
+        "entry_id": "eindhoven:w-hal-tue",
+        "caption": "W-Hal (TU/e endüstri mirası)"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 217,
+        "id": "eindhoven:w-hal-tue",
+        "entry_id": "eindhoven:w-hal-tue",
+        "caption": "W-Hal (TU/e endüstri mirası)"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 218,
+        "id": "eindhoven:nutsschool-reigerlaan",
+        "entry_id": "eindhoven:nutsschool-reigerlaan",
+        "caption": "Nutsschool Reigerlaan"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 219,
+        "id": "eindhoven:nutsschool-reigerlaan",
+        "entry_id": "eindhoven:nutsschool-reigerlaan",
+        "caption": "Nutsschool Reigerlaan"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 220,
+        "id": "eindhoven:nutsschool-reigerlaan",
+        "entry_id": "eindhoven:nutsschool-reigerlaan",
+        "caption": "Nutsschool Reigerlaan"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 221,
+        "id": "eindhoven:nutsschool-reigerlaan",
+        "entry_id": "eindhoven:nutsschool-reigerlaan",
+        "caption": "Nutsschool Reigerlaan"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 222,
+        "id": "eindhoven:nutsschool-reigerlaan",
+        "entry_id": "eindhoven:nutsschool-reigerlaan",
+        "caption": "Nutsschool Reigerlaan"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 223,
+        "id": "eindhoven:mennen-poortgebouw",
+        "entry_id": "eindhoven:mennen-poortgebouw",
+        "caption": "Mennen fabrikası kapı binası"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 224,
+        "id": "eindhoven:mennen-poortgebouw",
+        "entry_id": "eindhoven:mennen-poortgebouw",
+        "caption": "Mennen fabrikası kapı binası"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 225,
+        "id": "eindhoven:kasteel-eckart",
+        "entry_id": "eindhoven:kasteel-eckart",
+        "caption": "Kasteel Eckart"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 226,
+        "id": "eindhoven:kasteel-eckart",
+        "entry_id": "eindhoven:kasteel-eckart",
+        "caption": "Kasteel Eckart"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 227,
+        "id": "eindhoven:sint-joriskerk",
+        "entry_id": "eindhoven:sint-joriskerk",
+        "caption": "Sint-Joriskerk"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 228,
+        "id": "eindhoven:sint-joriskerk",
+        "entry_id": "eindhoven:sint-joriskerk",
+        "caption": "Sint-Joriskerk"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 229,
+        "id": "eindhoven:sint-joriskerk",
+        "entry_id": "eindhoven:sint-joriskerk",
+        "caption": "Sint-Joriskerk"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 230,
+        "id": "eindhoven:sint-joriskerk",
+        "entry_id": "eindhoven:sint-joriskerk",
+        "caption": "Sint-Joriskerk"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 231,
+        "id": "eindhoven:sint-joriskerk",
+        "entry_id": "eindhoven:sint-joriskerk",
+        "caption": "Sint-Joriskerk"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 232,
+        "id": "eindhoven:gerardus-majellakerk",
+        "entry_id": "eindhoven:gerardus-majellakerk",
+        "caption": "Gerardus Majellakerk"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 233,
+        "id": "eindhoven:gerardus-majellakerk",
+        "entry_id": "eindhoven:gerardus-majellakerk",
+        "caption": "Gerardus Majellakerk"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 234,
+        "id": "eindhoven:gerardus-majellakerk",
+        "entry_id": "eindhoven:gerardus-majellakerk",
+        "caption": "Gerardus Majellakerk"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 235,
+        "id": "eindhoven:villa-de-laak",
+        "entry_id": "eindhoven:villa-de-laak",
+        "caption": "Villa De Laak"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 236,
+        "id": "eindhoven:villa-de-laak",
+        "entry_id": "eindhoven:villa-de-laak",
+        "caption": "Villa De Laak"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 237,
+        "id": "eindhoven:villa-de-laak",
+        "entry_id": "eindhoven:villa-de-laak",
+        "caption": "Villa De Laak"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 238,
+        "id": "eindhoven:tue-atlas",
+        "entry_id": "eindhoven:tue-atlas",
+        "caption": "TU/e Atlas binası"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 239,
+        "id": "eindhoven:bevrijdingsmonument",
+        "entry_id": "eindhoven:bevrijdingsmonument",
+        "caption": "Bevrijdingsmonument (Markt)"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 240,
+        "id": "eindhoven:bevrijdingsmonument",
+        "entry_id": "eindhoven:bevrijdingsmonument",
+        "caption": "Bevrijdingsmonument (Markt)"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 241,
+        "id": "eindhoven:bevrijdingsmonument",
+        "entry_id": "eindhoven:bevrijdingsmonument",
+        "caption": "Bevrijdingsmonument (Markt)"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 242,
+        "id": "eindhoven:raadhuis-tongelre",
+        "entry_id": "eindhoven:raadhuis-tongelre",
+        "caption": "Oude Raadhuis Tongelre"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 243,
+        "id": "eindhoven:raadhuis-tongelre",
+        "entry_id": "eindhoven:raadhuis-tongelre",
+        "caption": "Oude Raadhuis Tongelre"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 244,
+        "id": "eindhoven:eindhoven-airport-terminal",
+        "entry_id": "eindhoven:eindhoven-airport-terminal",
+        "caption": "Eindhoven Airport"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 245,
+        "id": "eindhoven:eindhoven-airport-terminal",
+        "entry_id": "eindhoven:eindhoven-airport-terminal",
+        "caption": "Eindhoven Airport"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 246,
+        "id": "eindhoven:eindhoven-airport-terminal",
+        "entry_id": "eindhoven:eindhoven-airport-terminal",
+        "caption": "Eindhoven Airport"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 247,
+        "id": "eindhoven:haftalik-pazarlar",
+        "entry_id": "eindhoven:haftalik-pazarlar",
+        "caption": "Eindhoven haftalık pazarları"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 248,
+        "id": "eindhoven:haftalik-pazarlar",
+        "entry_id": "eindhoven:haftalik-pazarlar",
+        "caption": "Eindhoven haftalık pazarları"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 249,
+        "id": "eindhoven:striatumseind",
+        "entry_id": "eindhoven:striatumseind",
+        "caption": "Stratumseind"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 250,
+        "id": "eindhoven:striatumseind",
+        "entry_id": "eindhoven:striatumseind",
+        "caption": "Stratumseind"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 251,
+        "id": "eindhoven:striatumseind",
+        "entry_id": "eindhoven:striatumseind",
+        "caption": "Stratumseind"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 252,
+        "id": "eindhoven:striatumseind",
+        "entry_id": "eindhoven:striatumseind",
+        "caption": "Stratumseind"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 253,
+        "id": "eindhoven:striatumseind",
+        "entry_id": "eindhoven:striatumseind",
+        "caption": "Stratumseind"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 254,
+        "id": "eindhoven:de-bergen-horeca",
+        "entry_id": "eindhoven:de-bergen-horeca",
+        "caption": "De Bergen kafe ve restoran aksı"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 255,
+        "id": "eindhoven:de-bergen-horeca",
+        "entry_id": "eindhoven:de-bergen-horeca",
+        "caption": "De Bergen kafe ve restoran aksı"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 256,
+        "id": "eindhoven:de-bergen-horeca",
+        "entry_id": "eindhoven:de-bergen-horeca",
+        "caption": "De Bergen kafe ve restoran aksı"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 257,
+        "id": "eindhoven:vershal-het-veem",
+        "entry_id": "eindhoven:vershal-het-veem",
+        "caption": "Het Veem (Strijp-S yemek/yaşam binası)"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 258,
+        "id": "eindhoven:vershal-het-veem",
+        "entry_id": "eindhoven:vershal-het-veem",
+        "caption": "Het Veem (Strijp-S yemek/yaşam binası)"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 259,
+        "id": "eindhoven:vershal-het-veem",
+        "entry_id": "eindhoven:vershal-het-veem",
+        "caption": "Het Veem (Strijp-S yemek/yaşam binası)"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 260,
+        "id": "eindhoven:kruisstraat-keent",
+        "entry_id": "eindhoven:kruisstraat-keent",
+        "caption": "Kruisstraat ve Woensel Türk çarşısı aksı"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 261,
+        "id": "eindhoven:kruisstraat-keent",
+        "entry_id": "eindhoven:kruisstraat-keent",
+        "caption": "Kruisstraat ve Woensel Türk çarşısı aksı"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 262,
+        "id": "eindhoven:kruisstraat-keent",
+        "entry_id": "eindhoven:kruisstraat-keent",
+        "caption": "Kruisstraat ve Woensel Türk çarşısı aksı"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 263,
+        "id": "eindhoven:cafe-100-watt",
+        "entry_id": "eindhoven:cafe-100-watt",
+        "caption": "Café 100 Watt (şehir bira fabrikası)"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 264,
+        "id": "eindhoven:cafe-100-watt",
+        "entry_id": "eindhoven:cafe-100-watt",
+        "caption": "Café 100 Watt (şehir bira fabrikası)"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 265,
+        "id": "eindhoven:cafe-100-watt",
+        "entry_id": "eindhoven:cafe-100-watt",
+        "caption": "Café 100 Watt (şehir bira fabrikası)"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 266,
+        "id": "eindhoven:heuvel-galerie",
+        "entry_id": "eindhoven:heuvel-galerie",
+        "caption": "De Heuvel aksı"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 267,
+        "id": "eindhoven:heuvel-galerie",
+        "entry_id": "eindhoven:heuvel-galerie",
+        "caption": "De Heuvel aksı"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 268,
+        "id": "eindhoven:heuvel-galerie",
+        "entry_id": "eindhoven:heuvel-galerie",
+        "caption": "De Heuvel aksı"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 269,
+        "id": "eindhoven:philips-nederland-gebouw",
+        "entry_id": "eindhoven:philips-nederland-gebouw",
+        "caption": "Philips Nederland binası"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 270,
+        "id": "eindhoven:herdgang",
+        "entry_id": "eindhoven:herdgang",
+        "caption": "De Herdgang (PSV antrenman tesisi)"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 271,
+        "id": "eindhoven:herdgang",
+        "entry_id": "eindhoven:herdgang",
+        "caption": "De Herdgang (PSV antrenman tesisi)"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 272,
+        "id": "eindhoven:winkelcentrum-woensel",
+        "entry_id": "eindhoven:winkelcentrum-woensel",
+        "caption": "Winkelcentrum Woensel (WoensXL)"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 273,
+        "id": "eindhoven:winkelcentrum-woensel",
+        "entry_id": "eindhoven:winkelcentrum-woensel",
+        "caption": "Winkelcentrum Woensel (WoensXL)"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 274,
+        "id": "eindhoven:porthos-toren",
+        "entry_id": "eindhoven:porthos-toren",
+        "caption": "Porthos konut kulesi"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 275,
+        "id": "eindhoven:porthos-toren",
+        "entry_id": "eindhoven:porthos-toren",
+        "caption": "Porthos konut kulesi"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 276,
+        "id": "eindhoven:tue-auditorium",
+        "entry_id": "eindhoven:tue-auditorium",
+        "caption": "TU/e Auditorium"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 277,
+        "id": "eindhoven:tue-auditorium",
+        "entry_id": "eindhoven:tue-auditorium",
+        "caption": "TU/e Auditorium"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 278,
+        "id": "eindhoven:oorlogsmonument-fellenoord",
+        "entry_id": "eindhoven:oorlogsmonument-fellenoord",
+        "caption": "Fellenoord savaş mezarlığı anıtı"
+      },
+      {
+        "sheet": "Fotoğraflar",
+        "row": 279,
+        "id": "eindhoven:oorlogsmonument-fellenoord",
+        "entry_id": "eindhoven:oorlogsmonument-fellenoord",
+        "caption": "Fellenoord savaş mezarlığı anıtı"
+      }
+    ]
+  }
+}

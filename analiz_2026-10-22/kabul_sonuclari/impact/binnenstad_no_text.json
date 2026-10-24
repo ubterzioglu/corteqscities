@@ -1,0 +1,300 @@
+{
+  "xlsx": "CITY-039_eindhoven_v001.xlsx",
+  "diff": null,
+  "mode": "ids",
+  "depth": 2,
+  "text": false,
+  "catalog_loaded": true,
+  "unknown_ids": [],
+  "counts": {
+    "changes": {
+      "changed": 0,
+      "added": 0,
+      "deleted": 0
+    },
+    "impacted": 7,
+    "text_only": 0,
+    "by_sheet": {
+      "Mahalleler": 1,
+      "Bağlantılar": 1,
+      "Kaynaklar": 2,
+      "Fotoğraflar": 1,
+      "Kanıtlar": 1,
+      "FotoğrafKaynakları": 1
+    }
+  },
+  "checks": [
+    {
+      "id": "K22",
+      "title": "Mekân ve mahalle fotoğraf kapsamı",
+      "exec": "S",
+      "sheets": [
+        "Fotoğraflar"
+      ]
+    },
+    {
+      "id": "K23",
+      "title": "Fotoğraf tekilliği ve kredi",
+      "exec": "S",
+      "sheets": [
+        "Fotoğraflar"
+      ]
+    },
+    {
+      "id": "K29",
+      "title": "İddia ile kaynak eşleştirme",
+      "exec": "L",
+      "sheets": [
+        "Kaynaklar"
+      ]
+    },
+    {
+      "id": "K35",
+      "title": "Resmî kaynak ve yürürlük",
+      "exec": "L",
+      "sheets": [
+        "Kaynaklar"
+      ]
+    },
+    {
+      "id": "K44",
+      "title": "Mahallelerin ayırt edici içeriği",
+      "exec": "L",
+      "sheets": [
+        "Mahalleler"
+      ]
+    },
+    {
+      "id": "K45",
+      "title": "Mahalle compare_json yapısı",
+      "exec": "S",
+      "sheets": [
+        "Mahalleler"
+      ]
+    },
+    {
+      "id": "K49",
+      "title": "URL biçimi ve güvenli hedef",
+      "exec": "S",
+      "sheets": [
+        "Bağlantılar"
+      ]
+    },
+    {
+      "id": "K50",
+      "title": "Fiilî HTTP erişimi",
+      "exec": "S",
+      "sheets": [
+        "Bağlantılar",
+        "Kaynaklar"
+      ]
+    },
+    {
+      "id": "K51",
+      "title": "200 yanıtı ve soft 404",
+      "exec": "L",
+      "sheets": [
+        "Bağlantılar",
+        "Kaynaklar"
+      ]
+    },
+    {
+      "id": "K53",
+      "title": "İlgili işlem sayfası",
+      "exec": "L",
+      "sheets": [
+        "Bağlantılar"
+      ]
+    },
+    {
+      "id": "K57",
+      "title": "Dosyanın görüntü olarak açılması",
+      "exec": "S",
+      "sheets": [
+        "Fotoğraflar"
+      ]
+    },
+    {
+      "id": "K58",
+      "title": "Hash ve boyut doğruluğu",
+      "exec": "S",
+      "sheets": [
+        "Fotoğraflar",
+        "FotoğrafKaynakları"
+      ]
+    },
+    {
+      "id": "K59",
+      "title": "Bütün görsellerin görsel taraması",
+      "exec": "V",
+      "sheets": [
+        "Fotoğraflar"
+      ]
+    },
+    {
+      "id": "K60",
+      "title": "Doğru nesne, mekân ve şehir",
+      "exec": "V",
+      "sheets": [
+        "Fotoğraflar"
+      ]
+    },
+    {
+      "id": "K61",
+      "title": "Kaynak sayfasındaki kare ile teslim dosyası",
+      "exec": "V",
+      "sheets": [
+        "Fotoğraflar",
+        "Kanıtlar"
+      ]
+    },
+    {
+      "id": "K62",
+      "title": "Kapakların doğruluğu",
+      "exec": "V",
+      "sheets": [
+        "Fotoğraflar"
+      ]
+    },
+    {
+      "id": "K67",
+      "title": "Tekil esere ait lisans",
+      "exec": "S",
+      "sheets": [
+        "Kanıtlar"
+      ]
+    },
+    {
+      "id": "K69",
+      "title": "Lisans adı, sürümü ve URL",
+      "exec": "S",
+      "sheets": [
+        "Kanıtlar"
+      ]
+    },
+    {
+      "id": "K76",
+      "title": "Kanıtın kendisinin gerçek olması",
+      "exec": "S",
+      "sheets": [
+        "Kanıtlar"
+      ]
+    },
+    {
+      "id": "K77",
+      "title": "Fotoğraf kaynak zincirinin tekil eşleştirmesi",
+      "exec": "S",
+      "sheets": [
+        "FotoğrafKaynakları"
+      ]
+    },
+    {
+      "id": "K80",
+      "title": "Orijinal ve web türevi",
+      "exec": "S",
+      "sheets": [
+        "Fotoğraflar",
+        "FotoğrafKaynakları"
+      ]
+    }
+  ],
+  "changes": [],
+  "impacts": {
+    "eindhoven:mah-binnenstad": {
+      "tokens": [
+        "mah-binnenstad"
+      ],
+      "changes": [],
+      "items": [
+        {
+          "sheet": "Mahalleler",
+          "_row": 8,
+          "id": "eindhoven:mah-binnenstad",
+          "field": "entry_id",
+          "relation": "self",
+          "level": 0,
+          "direction": "self"
+        },
+        {
+          "sheet": "Bağlantılar",
+          "_row": 541,
+          "id": "eindhoven:action:mah-binnenstad-1",
+          "field": "entry_id",
+          "relation": "action_of_entry",
+          "level": 1,
+          "direction": "backward"
+        },
+        {
+          "sheet": "Fotoğraflar",
+          "_row": 16,
+          "id": "eindhoven:foto:mah-binnenstad-01",
+          "field": "entry_id",
+          "relation": "photo_of_entry",
+          "level": 1,
+          "direction": "backward"
+        },
+        {
+          "sheet": "Kaynaklar",
+          "_row": 12,
+          "id": "eindhoven:kaynak:gemeente-woning-huren",
+          "field": "source_ids",
+          "relation": "cites_source",
+          "level": 1,
+          "direction": "forward"
+        },
+        {
+          "sheet": "Kaynaklar",
+          "_row": 94,
+          "id": "eindhoven:kaynak:wiki-wijken",
+          "field": "source_ids",
+          "relation": "cites_source",
+          "level": 1,
+          "direction": "forward"
+        },
+        {
+          "sheet": "Kanıtlar",
+          "_row": 16,
+          "id": "eindhoven:kanit:mah-binnenstad-01",
+          "field": "photo_id",
+          "relation": "evidence_of_photo",
+          "level": 2,
+          "direction": "backward",
+          "via": "eindhoven:foto:mah-binnenstad-01"
+        },
+        {
+          "sheet": "FotoğrafKaynakları",
+          "_row": 16,
+          "id": "eindhoven:foto:mah-binnenstad-01",
+          "field": "photo_id",
+          "relation": "photo_source_chain",
+          "level": 2,
+          "direction": "backward",
+          "via": "eindhoven:foto:mah-binnenstad-01"
+        }
+      ],
+      "checks": [
+        "K22",
+        "K23",
+        "K29",
+        "K35",
+        "K44",
+        "K45",
+        "K49",
+        "K50",
+        "K51",
+        "K53",
+        "K57",
+        "K58",
+        "K59",
+        "K60",
+        "K61",
+        "K62",
+        "K67",
+        "K69",
+        "K76",
+        "K77",
+        "K80"
+      ]
+    }
+  }
+}
