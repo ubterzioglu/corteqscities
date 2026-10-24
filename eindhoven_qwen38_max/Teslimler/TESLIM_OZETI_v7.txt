@@ -1,0 +1,33 @@
+CORTEQS ŞEHİR PAKETİ — TESLİM ÖZETİ (v7 lokal üretim)
+Şehir: Eindhoven · city_id: eindhoven · CITY-039
+Üretim tarihi: 2026-10-20 · Üretim modu: Lokal deneme (qwen3.8-max), v7 sözleşmesi
+Paket: eindhoven_qwen38_max/
+
+ÖLÇÜLER (gerçek / hedef / uygulanan alt sınır)
+- Pratik yanıt kartı      : 247 / 240 / 212  → HEDEF AŞILDI
+- Keşif mekânı            : 93 / 120 / 92   → ALT SINIR GEÇİLDİ (hedefin altında; gerekçe ACIK_KONULAR'da)
+- Mahalle                 : 16 / 16 / 16   → HEDEF KARŞILANDI
+- Konu                    : 12 / 12 / 12      → HEDEF KARŞILANDI
+- Tekil mekân fotoğrafı   : 264 / 250 / 187 → HEDEF AŞILDI
+- Tekil kapak fotoğrafı   : 8 / 8 / 6      → HEDEF KARŞILANDI
+- Rota                    : 12 / 12 / 9       → HEDEF KARŞILANDI
+- Sözlük terimi           : 85 / 60 / 48    → HEDEF AŞILDI
+- Kaynak kaydı            : 233 (tamamı üretim günü açılıp okundu, verified=Evet)
+- Fotoğraf toplamı        : 272 (WebP, ≤1600px) · Kanıt kaydı: 272 · Eylem bağlantısı: 549
+- Adım (yolculuk merdiveni): 10 · Sayfa alanı: 37
+
+KANIT ZİNCİRİ
+- Tüm fotoğraflar Wikimedia Commons'tan; yalnız CC0 / CC BY / CC BY-SA / Public Domain lisansları kullanıldı.
+- Her fotoğraf için: API imageinfo kaydı (<foto>.source-evidence.json), lisans/atıf kaydı (<foto>.license-record.json),
+  indirilen 1600px kopya (Lisans kanıtları/orijinaller/) ve SHA-256 zinciri (Kanıtlar + FotoğrafKaynakları sekmeleri).
+- Kaynak metin önbelleği üretim makinesinde saklandı; Kaynaklar sekmesindeki checked_on=2026-10-20 gerçek açma/okuma tarihidir.
+
+İNSAN ONAYI BEKLEYEN ALANLAR (AI tarafından doldurulmadı)
+- Kanıtlar.pixel_review_status = Bekliyor (kare/mekân eşleşmesinin insan gözüyle onayı)
+- Kanıtlar.rights_status = Bekliyor (nihai hak değerlendirmesi)
+- Teslimat.reviewer boş; editorial_status her satırda "İnceleme"
+- Şehir/Teslimat kimlik alanları korunmuştur.
+
+QA
+- Yapısal+içerik+görsel denetim scripti çalıştırıldı: 0 hata, 0 uyarı.
+- UAT/yayınlama, Drive/FTP/Monday, harici dağıtım ve resmî doğrulama yapılmadı (lokal mod).
