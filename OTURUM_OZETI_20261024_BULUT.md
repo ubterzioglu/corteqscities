@@ -1,4 +1,4 @@
-# Oturum özeti: İspanya paketi v4 → v7 (bulut oturumu, 24.10.2026)
+# Oturum özeti: İspanya paketi v4 → v7 + Endülüs bölge paketi v1 (bulut oturumu, 24.10.2026)
 
 Önceki belgeler: `OTURUM_OZETI_20261024.md`, `OTURUM_OZETI_20261024_ISPANYA_PAKETI.md`. Bu belge onların devamıdır. Bu iş Linux bulut oturumunda yapıldı.
 
@@ -18,6 +18,13 @@
 - v7: editör sonrası dar denetim (`denetim_g3b_*.md`): 0 ciddi, 8 orta, 14 küçük; ilk denetimin ciddi/orta bulguları renfe 1.1 dışında kapandı. Editör turu 6 orta + 10 küçük uyguladı (`degisiklik_g3b_editor.jsonl`). Orkestratör taramasında iki havale cümlesi (YAZAR_KURALLARI md. 3) silindi: aile/yabanci-lise ve resmi/arac-kaydi (not alanı).
 - v7 paket: 95 kart, 1898 claim, 160 bağlantı, 126 kaynak; country_apply 95 kart, 16 test.
 
+## Endülüs bölge paketi v1 (`ulke/ES/bolge/andalucia/`)
+- 9 kart (slug'lar `endulus-` ile başlar), 126 claim, 14 kaynak (`es-an:kaynak:NNN`), 3 tarihli kart. Konular: saglik, para (2), ev, is, aile, ulasim, gunluk, resmi.
+- Akış ulusalla aynı: keşif (2 ajan) → `add_sources` → yazar (2) → `pack_check` → bağımsız denetim (`denetim_b1_A/B.md`: 0 ciddi, 8 orta, 20 küçük) → editör (`degisiklik_b1_editor.jsonl`: 4 orta + 11 küçük; kalan ortalar kaynakta yok) → `pack_check` temiz.
+- PDF kaynaklar `add_sources`'ta elenir; BOJA'nın HTML sürümü kullanıldı. RMISA kartı çıkarıldı (güncel birleşik metin yok). Ulaşım kartından tek konsorsiyuma (Granada, Málaga) özgü rakamlar çıkarıldı → şehir katmanı. Açıklar: `ulke/ES/bolge/andalucia/acik_konular.md`.
+- **Editör sonrası dar denetim yapılmadı** (bölge paketi).
+- Yeni araç `pack_merge.py` (+ `test_pack_merge.py`, 7 test) ve `pack_build --topics/--region`: `country_apply` tek paket uyguladığı ve `merge_package` konu başına tek parça istediği için ülke + bölge önce birleştirilir. Sahte Sevilla: 104 kart (95 + 9) tek seferde uygulandı, bölge kartları ulusal konu dosyalarına girdi, `audit-scope` 104 atla; 23/23 test. Kullanım `ULKE_FAZI.md` "Bölge paketi" bölümünde.
+
 ## Doğrulanmayanlar / açık
 - `acik_konular.md` sonundaki "G2b", "G2c" ve "Grup 3" bölümleri.
 - Tarihli kartlar: 6 ev kartı 2026-11-05; paket kartı ve 7 kart 2026-12-31; MEC burs 2027-05-31; 2027 tatilleri 2027-12-31.
@@ -28,7 +35,7 @@
 - `pack.json` CRLF satır sonuyla yazıldı (Windows'taki gibi).
 
 ## Sıradaki iş (öneri)
-1. Endülüs bölge katmanı (önerilen; Sevilla, Málaga, Marbella ortak).
+1. Endülüs bölge paketi için editör sonrası dar denetim (9 kart).
 2. Ek kartlar: yolcu bagajı gümrük muafiyeti (AEAT sayfası canlı doğrulandı), kimlik/NIE kartı (LO 4/2015 md. 8, RD 1553/2005), convenio especial ayrıntısı (RD 576/2013 md. 3).
 3. 5.11.2026 sonrası kira kararnameleri; 1.11.2026 paket kuralı.
 4. İlk gerçek şehir (Sevilla): city-pack Windows'a göre yazıldı, Linux'ta denenmedi; Windows oturumunda üretilmesi önerildi.
