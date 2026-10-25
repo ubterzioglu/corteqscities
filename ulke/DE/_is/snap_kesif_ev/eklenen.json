@@ -1,0 +1,65 @@
+{
+  "map": {
+    "https://www.gesetze-im-internet.de/bgb/__556.html": "de:kaynak:067",
+    "https://www.gesetze-im-internet.de/betrkv/__2.html": "de:kaynak:068",
+    "https://www.gesetze-im-internet.de/bgb/__573c.html": "de:kaynak:160",
+    "https://www.gesetze-im-internet.de/bgb/__542.html": "de:kaynak:161",
+    "https://www.gesetze-im-internet.de/bgb/__557a.html": "de:kaynak:162",
+    "https://www.gesetze-im-internet.de/bgb/__557b.html": "de:kaynak:163",
+    "https://www.gesetze-im-internet.de/bgb/__551.html": "de:kaynak:164",
+    "https://www.gesetze-im-internet.de/bgb/__556d.html": "de:kaynak:165",
+    "https://www.gesetze-im-internet.de/bgb/__558.html": "de:kaynak:166",
+    "https://www.gesetze-im-internet.de/bgb/__536.html": "de:kaynak:167",
+    "https://www.gesetze-im-internet.de/bgb/__535.html": "de:kaynak:168",
+    "https://www.gesetze-im-internet.de/wofg/__27.html": "de:kaynak:169",
+    "https://www.gesetze-im-internet.de/wofg/__9.html": "de:kaynak:170",
+    "https://www.gesetze-im-internet.de/wogg/__3.html": "de:kaynak:171",
+    "https://www.gesetze-im-internet.de/bmg/__19.html": "de:kaynak:172",
+    "https://www.gesetze-im-internet.de/bgb/__656c.html": "de:kaynak:173",
+    "https://www.polizei-beratung.de/themen-und-tipps/sicher-handeln/onlinebetrug-maschen/vorkassebetrug/": "de:kaynak:174",
+    "https://www.gesetze-im-internet.de/bgb/__311b.html": "de:kaynak:175",
+    "https://www.gesetze-im-internet.de/bgb/__873.html": "de:kaynak:176",
+    "https://www.gesetze-im-internet.de/gg/art_105.html": "de:kaynak:177",
+    "https://www.gesetze-im-internet.de/grestg_1983/__1.html": "de:kaynak:178",
+    "https://www.bmwsb.bund.de/DE/wohnen/wohngeld/wohngeld-plus/wohngeld-plus_artikel.html": "de:kaynak:179",
+    "https://www.bmj.de/DE/themen/kaufen_reisen_wohnen/mietrecht/mietrecht_node.html": "de:kaynak:180",
+    "https://www.bmj.de/DE/themen/kaufen_reisen_wohnen/mietpreisbremse/mietpreisbremse_node.html": "de:kaynak:181"
+  },
+  "rejected": [
+    {
+      "url": "https://www.gesetze-im-internet.de/wovermrg/__2.html",
+      "why": "kopya yok/ince (status None)"
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/bgb/__536c.html",
+      "why": "kopya yok/ince (status None)"
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/bgb/__548.html",
+      "why": "kopya yok/ince (status None)"
+    }
+  ],
+  "fetch": {
+    "status": "findings",
+    "urls": 27,
+    "fetched": 27,
+    "saved": 24,
+    "failed": 3,
+    "thin_text": 0,
+    "soft_404": 0,
+    "evidence_checked": 0,
+    "evidence_missing": 0,
+    "evidence_stale": 0,
+    "evidence_from_index": 0,
+    "must_contain_unmatched": 0,
+    "non_html": 0,
+    "truncated": 0,
+    "skipped": 0,
+    "index_rows": 27,
+    "index_kept": 0,
+    "requests_made": 26,
+    "cache_hits": 3,
+    "retry_transient": true,
+    "index": "C:\\temp_private\\corteqs\\0000_newera\\ulke\\DE\\_is\\snap_kesif_ev\\index.jsonl"
+  }
+}

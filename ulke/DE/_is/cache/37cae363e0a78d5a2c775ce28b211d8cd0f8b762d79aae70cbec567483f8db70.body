@@ -1,0 +1,1566 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8" />
+<title> Willkommen bei der DVKA - GKV-Spitzenverband, DVKA</title>
+<meta property="md_title" content=" Willkommen bei der DVKA " />
+<meta property="md_archive" content="true" />
+<meta property="md_date" content="2015-11-13T10:01:25Z" />
+<meta property="md_sourceOfLaw" content="keine Rechtsquelle" />
+<!-- breadCrumb metadata -->
+<meta property="md_path" content="de | de" />
+<!-- breadCrumb metadata -->
+<meta name="author" content="GKV-Spitzenverband, DVKA" />
+<meta name="dcterms.publisher" content="GKV-Spitzenverband, DVKA" />
+<meta name="dcterms.rightsHolder" content="GKV-Spitzenverband, DVKA" />
+<meta name="revisit-after" content="14 days" />
+<meta name="robots" content="index,follow" />
+<link rel="image_src" href="https://www.dvka.de/media/bilder/bilder-rebranding/logo-dvka.svg" />
+<link rel="icon" type="image/png" href="https://www.dvka.de/media/global/img/layout/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="https://www.dvka.de/media/global/img/layout/favicon-16x16.png" sizes="16x16">
+<link rel="icon" href="https://www.dvka.de/media/global/img/layout/favicongif.gif" type="image/gif" />
+<link rel="shortcut icon" href="https://www.dvka.de/media/global/img/layout/favicon.ico" type="image/x-icon" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="https://www.dvka.de/media/global/css/index.css?v=1791281999489" media="screen,print" />
+<script defer type="text/javascript" type="module" src="https://www.dvka.de/media/global/js/main.js?v=1791281999489"></script>
+<script type="text/javascript" src="https://www.dvka.de/de/global/global_text.jsp"></script>
+<script>
+function clearCookies() {
+document.cookie.split(";").forEach(function(c) {
+if (c !== "") {
+document.cookie = c.replace(/^ +/, "").replace(/=.*/, "=;expires=" + new Date().toUTCString() + ";path=/;SameSite=Lax;");
+}
+});
+localStorage.clear();
+console.log("Cookies cleared");
+}
+if (localStorage.getItem("cookie-consent") === null ) { window.clearCookies(); }
+</script>
+<!-- Piwik -->
+<script type="text/javascript">
+var _paq = window._paq = window._paq || [];
+// require consent
+_paq.push(["requireConsent"]);
+_paq.push(["trackPageView"]);
+_paq.push(["enableLinkTracking"]);
+(function() {
+var u=(("https:" == document.location.protocol) ? "https" : "http") + "://webtracker.gkv-spitzenverband.de/";
+_paq.push(["setTrackerUrl", u+"matomo.php"]);
+_paq.push(["setSiteId", "24"]);
+var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+g.defer=true; g.async=true; g.src=u+"matomo.js"; s.parentNode.insertBefore(g,s);
+})();
+</script>
+<!-- Piwik Image Tracker -->
+<noscript>
+<img src="https://webtracker.gkv-spitzenverband.de/piwik.php?idsite=24&amp;rec=1" style="border:0" alt="" />
+</noscript>
+<!-- End Piwik -->
+</head>
+<body>
+<header class="header fixed top-0 right-0 left-0 z-nav transition-[top] ease-in-out duration-300 lg:sticky lg:top-[-42px]">
+<div class="bg-white shadow-xl lg:pt-md">
+<a id="skip-nav" href="#main"class="block h-0 w-0 overflow-hidden">Navigation überspringen</a>
+<div class="container bg-white">
+<nav class="header__menu__lg__meta hidden lg:block" aria-label="Desktop navigation items">
+<ul class=" flex justify-end gap-sm">
+
+<li>
+<div class="nav-item-meta grid-cols-1
+nav-item-meta__lg hidden relative lg:grid
+">
+<a class="group link inline-flex cursor-pointer btn gap-xs nav-item-meta__button lg:py-0 !text-grey"
+aria-label="Leichte Sprache" aria-expanded="false" href="https://www.dvka.de/de/global/leichte-sprache/">
+<span class="flex items-center">
+<svg style="height:16px; width:16px;">
+<use href="https://www.dvka.de/media/global/sprach-icons/icon-leichte-sprache.svg#img"></use>
+</svg>
+</span>
+<span class="flex flex-col menu-small">
+<span class="flex items-center flex-1 group-focus:underline group-hover:underline">Leichte Sprache</span>
+</span>
+</a>
+</div>
+</li>
+<li>
+<div class="nav-item-meta grid-cols-1
+nav-item-meta__lg hidden relative lg:grid
+">
+<a class="group link inline-flex cursor-pointer btn gap-xs nav-item-meta__button lg:py-0 !text-grey"
+aria-label="Gebärdensprache" aria-expanded="false" href="https://www.dvka.de/de/global/gebaerdenvideos/">
+<span class="flex items-center">
+<svg style="height:16px; width:16px;">
+<use href="https://www.dvka.de/media/global/sprach-icons/icon-gebaerdensprache.svg#img"></use>
+</svg>
+</span>
+<span class="flex flex-co menu-small">
+<span class="flex items-center flex-1 group-focus:underline group-hover:underline">Gebärdensprache</span>
+</span>
+</a>
+</div>
+</li>
+<li>
+<div class="nav-item-meta grid-cols-1
+nav-item-meta__lg hidden relative lg:grid
+">
+<button class="nav-item-meta__button hidden lg:block py-xxs lg:py-0 menu-small !text-grey"
+aria-label="Sprachen Menü öffnen" aria-controls="nav-item-meta__lvl2-3" aria-expanded="false">
+<span class="menu-small flex items-center gap-1">
+<svg style="height:16px; width:16px;">
+<use href="https://www.dvka.de/media/global/sprach-icons/globus-icon.svg#img"></use>
+</svg>
+Sprachen
+</span>
+</button>
+<div class="nav-item-meta__lvl2 lg:overflow-visible lg:transition-none lg:max-h-none lg:absolute lg:z-popup lg:top-[100%] lg:left-0 lg:w-max lg:pt-xxxs lg:hidden"
+id="nav-item-meta__lvl2-3">
+<ul class="grid grid-cols-1 bg-white p-1">
+<li>
+<a class="group link inline-flex cursor-pointer gap-xs text-blue-darkest hover:text-blue menu-small !text-grey hover py-xxs"
+aria-label="Deutsch" aria-expanded="false" href="https://www.dvka.de/de/">
+<span class="flex items-center">
+<img src="https://www.dvka.de/media/global/sprach-icons/country-flag-de.svg" alt="Deutsch language flag symbol" height="16" width="auto">
+</span>
+<span class="flex flex-col">
+<span class="flex items-center flex-1 group-focus:underline group-hover:underline">Deutsch</span>
+</span>
+</a>
+</li>
+<li>
+<a class="group link inline-flex cursor-pointer gap-xs text-blue-darkest hover:text-blue menu-small !text-grey hover py-xxs"
+aria-label="English" aria-expanded="false" href="https://www.dvka.de/en/">
+<span class="flex items-center">
+<img src="https://www.dvka.de/media/global/sprach-icons/country-flag-en.svg" alt="English language flag symbol" height="16" width="auto">
+</span>
+<span class="flex flex-col">
+<span class="flex items-center flex-1 group-focus:underline group-hover:underline">English</span>
+</span>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</li>
+</ul>
+</nav>
+<nav class="h-auto lg:flex lg:justify-between lg:items-end lg:gap-sm lg:h-[80px] lg:pb-md">
+<div class="h-[50px] py-sm flex justify-between items-center lg:h-auto lg:py-0">
+<a class="flex flex-col justify-center" aria-label="Link to homepage" href="https://www.dvka.de/de/" title="Zur Startseite des Webauftritts der DVKA">
+<div class="lg:w-[150px] nav-logo w-[83px] h-auto lg:w-[150px] lg:h-auto lg:transition-all lg:duration-300">
+<img class="w-full h-full" src="https://www.dvka.de/media/bilder/bilder-rebranding/logo-dvka.svg" >
+</div>
+</a>
+<div class="lg:hidden">
+<button type="button" role="button" class="menu-toggle w-[44px] h-[44px] relative"
+aria-label="Open mobile menu" aria-controls="header__menu" aria-expanded="false">
+<svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24"
+class="transition-all ease-in-out duration-300 top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 z-base absolute"
+color="#3c5466" style="color: rgb(60, 84, 102);" height="32" width="32"
+xmlns="http://www.w3.org/2000/svg">
+<path fill="none" d="M0 0h24v24H0z"></path>
+<path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path>
+</svg>
+<svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24"
+class="transition-all ease-in-out duration-300 top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 z-label absolute opacity-0"
+color="#3c5466" style="color: rgb(60, 84, 102);" height="32" width="32"
+xmlns="http://www.w3.org/2000/svg">
+<path fill="none" d="M0 0h24v24H0V0z"></path>
+<path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"></path>
+</svg>
+</button>
+</div>
+</div>
+<div id="header__menu"
+class="header__menu flex origin-top flex-col overflow-hidden transition-[max-height] duration-300 ease-in-out lg:hidden max-h-screen"
+role="dialog" aria-modal="true" aria-label="Mobile menu modal">
+<div class="flex h-[calc(100vh-54px)] flex-col overflow-y-auto">
+<ul class="mb-xxl mt-sm divide-y divide-grey-lighter" aria-label="Mobile navigation items">
+<li>
+<div class="nav-item grid grid-cols-1 lg:hidden">
+<div class="flex justify-between items-center min-h-[46px] lg:justify-center lg:min-h-fit">
+<a class="nav-link w-auto cursor-pointer line-clamp-2 focus:underline hover:underline hover:text-blue text-blue-darkest menu py-xs lg:p-0"
+aria-label="Follow link" aria-controls="nav-item__lvl2-0" aria-expanded="false title=""
+href="https://www.dvka.de/de/versicherte/">Versicherte</a>
+<button type="button" role="button"
+class="nav-lvl2-toggle w-[44px] h-[44px] flex justify-center items-center"
+aria-label="Toggle layer 2 links" aria-controls="nav-item__lvl2-1"
+aria-expanded="false">
+<svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24"
+stroke-linecap="round" stroke-linejoin="round"
+class="origin-center transition-all ease-in-out duration-300"
+color="#3c5466" style="color: rgb(60, 84, 102);" height="32" width="32"
+xmlns="http://www.w3.org/2000/svg">
+<path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+<path d="M6 9l6 6l6 -6"></path>
+</svg>
+</button>
+</div>
+<div class="nav-item__lvl2 transition-[max-height] origin-top ease-in-out duration-300 max-h-0 overflow-hidden hidden lg:overflow-visible lg:transition-none lg:max-h-none lg:pt-[40px] lg:absolute lg:z-popup lg:top-[100%] lg:left-1/2 lg:-translate-x-1/2"
+id="nav-item__lvl2-1">
+<ul class="bg-blue grid grid-cols-1 divide-y divide-grey-lighter px-sm lg:bg-white lg:shadow-lg lg:w-max">
+<li class="min-h-[46px] lg:min-h-[35px]">
+<a class="nav-link w-auto cursor-pointer line-clamp-2 focus:underline hover:underline hover:text-blue text-white hover:text-white menu py-xs lg:text-blue-darkest lg:hover:text-blue"
+aria-label="Follow link" aria-expanded="false" title="" href="https://www.dvka.de/de/versicherte/touristen/">Touristen</a>
+</li>
+<li class="min-h-[46px] lg:min-h-[35px]">
+<a class="nav-link w-auto cursor-pointer line-clamp-2 focus:underline hover:underline hover:text-blue text-white hover:text-white menu py-xs lg:text-blue-darkest lg:hover:text-blue"
+aria-label="Follow link" aria-expanded="false" title="" href="https://www.dvka.de/de/versicherte/rentner/">Rentner/-innen</a>
+</li>
+<li class="min-h-[46px] lg:min-h-[35px]">
+<a class="nav-link w-auto cursor-pointer line-clamp-2 focus:underline hover:underline hover:text-blue text-white hover:text-white menu py-xs lg:text-blue-darkest lg:hover:text-blue"
+aria-label="Follow link" aria-expanded="false" title="" href="https://www.dvka.de/de/versicherte/grenzgaenger/">Grenzg&auml;nger</a>
+</li>
+<li class="min-h-[46px] lg:min-h-[35px]">
+<a class="nav-link w-auto cursor-pointer line-clamp-2 focus:underline hover:underline hover:text-blue text-white hover:text-white menu py-xs lg:text-blue-darkest lg:hover:text-blue"
+aria-label="Follow link" aria-expanded="false" title="" href="https://www.dvka.de/de/versicherte/studierende-und-praktikanten/">Studierende und Praktikanten</a>
+</li>
+<li class="min-h-[46px] lg:min-h-[35px]">
+<a class="nav-link w-auto cursor-pointer line-clamp-2 focus:underline hover:underline hover:text-blue text-white hover:text-white menu py-xs lg:text-blue-darkest lg:hover:text-blue"
+aria-label="Follow link" aria-expanded="false" title="" href="https://www.dvka.de/de/versicherte/geringfuegig-beschaeftigte-personen/">Geringf&uuml;gig besch&auml;ftigte Personen</a>
+</li>
+<li class="min-h-[46px] lg:min-h-[35px]">
+<a class="nav-link w-auto cursor-pointer line-clamp-2 focus:underline hover:underline hover:text-blue text-white hover:text-white menu py-xs lg:text-blue-darkest lg:hover:text-blue"
+aria-label="Follow link" aria-expanded="false" title="" href="https://www.dvka.de/de/versicherte/faq/">H&auml;ufig gestellte Fragen</a>
+</li>
+</ul>
+</div>
+</div>
+</li>
+<li>
+<div class="nav-item grid grid-cols-1 lg:hidden">
+<div class="flex justify-between items-center min-h-[46px] lg:justify-center lg:min-h-fit">
+<a class="nav-link w-auto cursor-pointer line-clamp-2 focus:underline hover:underline hover:text-blue text-blue-darkest menu py-xs lg:p-0"
+aria-label="Follow link" aria-controls="nav-item__lvl2-1" aria-expanded="false title=""
+href="https://www.dvka.de/de/arbeitgeber-erwerbstaetige/">Arbeitgeber &amp; Erwerbst&auml;tige</a>
+<button type="button" role="button"
+class="nav-lvl2-toggle w-[44px] h-[44px] flex justify-center items-center"
+aria-label="Toggle layer 2 links" aria-controls="nav-item__lvl2-1"
+aria-expanded="false">
+<svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24"
+stroke-linecap="round" stroke-linejoin="round"
+class="origin-center transition-all ease-in-out duration-300"
+color="#3c5466" style="color: rgb(60, 84, 102);" height="32" width="32"
+xmlns="http://www.w3.org/2000/svg">
+<path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+<path d="M6 9l6 6l6 -6"></path>
+</svg>
+</button>
+</div>
+<div class="nav-item__lvl2 transition-[max-height] origin-top ease-in-out duration-300 max-h-0 overflow-hidden hidden lg:overflow-visible lg:transition-none lg:max-h-none lg:pt-[40px] lg:absolute lg:z-popup lg:top-[100%] lg:left-1/2 lg:-translate-x-1/2"
+id="nav-item__lvl2-1">
+<ul class="bg-blue grid grid-cols-1 divide-y divide-grey-lighter px-sm lg:bg-white lg:shadow-lg lg:w-max">
+<li class="min-h-[46px] lg:min-h-[35px]">
+<a class="nav-link w-auto cursor-pointer line-clamp-2 focus:underline hover:underline hover:text-blue text-white hover:text-white menu py-xs lg:text-blue-darkest lg:hover:text-blue"
+aria-label="Follow link" aria-expanded="false" title="" href="https://www.dvka.de/de/arbeitgeber-erwerbstaetige/antraege-finden/">Antrags- und Bescheinigungsverfahren</a>
+</li>
+<li class="min-h-[46px] lg:min-h-[35px]">
+<a class="nav-link w-auto cursor-pointer line-clamp-2 focus:underline hover:underline hover:text-blue text-white hover:text-white menu py-xs lg:text-blue-darkest lg:hover:text-blue"
+aria-label="Follow link" aria-expanded="false" title="" href="https://www.dvka.de/de/arbeitgeber-erwerbstaetige/antragstellung-im-sv-meldeportal/">Antragstellung im SV-Meldeportal</a>
+</li>
+<li class="min-h-[46px] lg:min-h-[35px]">
+<a class="nav-link w-auto cursor-pointer line-clamp-2 focus:underline hover:underline hover:text-blue text-white hover:text-white menu py-xs lg:text-blue-darkest lg:hover:text-blue"
+aria-label="Follow link" aria-expanded="false" title="" href="https://www.dvka.de/de/arbeitgeber-erwerbstaetige/laenderspezifische-informationen/">L&auml;nderspezifische Informationen</a>
+</li>
+<li class="min-h-[46px] lg:min-h-[35px]">
+<a class="nav-link w-auto cursor-pointer line-clamp-2 focus:underline hover:underline hover:text-blue text-white hover:text-white menu py-xs lg:text-blue-darkest lg:hover:text-blue"
+aria-label="Follow link" aria-expanded="false" title="" href="https://www.dvka.de/de/arbeitgeber-erwerbstaetige/geltungsbereiche/">Geltungsbereiche im internationalen Sozialrecht</a>
+</li>
+<li class="min-h-[46px] lg:min-h-[35px]">
+<a class="nav-link w-auto cursor-pointer line-clamp-2 focus:underline hover:underline hover:text-blue text-white hover:text-white menu py-xs lg:text-blue-darkest lg:hover:text-blue"
+aria-label="Follow link" aria-expanded="false" title="" href="https://www.dvka.de/de/arbeitgeber-erwerbstaetige/faq/">H&auml;ufig gestellte Fragen</a>
+</li>
+</ul>
+</div>
+</div>
+</li>
+<li>
+<div class="nav-item grid grid-cols-1 lg:hidden">
+<div class="flex justify-between items-center min-h-[46px] lg:justify-center lg:min-h-fit">
+<a class="nav-link w-auto cursor-pointer line-clamp-2 focus:underline hover:underline hover:text-blue text-blue-darkest menu py-xs lg:p-0"
+aria-label="Follow link" aria-controls="nav-item__lvl2-2" aria-expanded="false title=""
+href="https://www.dvka.de/de/leistungserbringer/">Leistungserbringer</a>
+<button type="button" role="button"
+class="nav-lvl2-toggle w-[44px] h-[44px] flex justify-center items-center"
+aria-label="Toggle layer 2 links" aria-controls="nav-item__lvl2-1"
+aria-expanded="false">
+<svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24"
+stroke-linecap="round" stroke-linejoin="round"
+class="origin-center transition-all ease-in-out duration-300"
+color="#3c5466" style="color: rgb(60, 84, 102);" height="32" width="32"
+xmlns="http://www.w3.org/2000/svg">
+<path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+<path d="M6 9l6 6l6 -6"></path>
+</svg>
+</button>
+</div>
+<div class="nav-item__lvl2 transition-[max-height] origin-top ease-in-out duration-300 max-h-0 overflow-hidden hidden lg:overflow-visible lg:transition-none lg:max-h-none lg:pt-[40px] lg:absolute lg:z-popup lg:top-[100%] lg:left-1/2 lg:-translate-x-1/2"
+id="nav-item__lvl2-1">
+<ul class="bg-blue grid grid-cols-1 divide-y divide-grey-lighter px-sm lg:bg-white lg:shadow-lg lg:w-max">
+<li class="min-h-[46px] lg:min-h-[35px]">
+<a class="nav-link w-auto cursor-pointer line-clamp-2 focus:underline hover:underline hover:text-blue text-white hover:text-white menu py-xs lg:text-blue-darkest lg:hover:text-blue"
+aria-label="Follow link" aria-expanded="false" title="" href="https://www.dvka.de/de/leistungserbringer/vertragsaerztliche-versorgung/">Vertrags&auml;rztliche Versorgung</a>
+</li>
+<li class="min-h-[46px] lg:min-h-[35px]">
+<a class="nav-link w-auto cursor-pointer line-clamp-2 focus:underline hover:underline hover:text-blue text-white hover:text-white menu py-xs lg:text-blue-darkest lg:hover:text-blue"
+aria-label="Follow link" aria-expanded="false" title="" href="https://www.dvka.de/de/leistungserbringer/vertragszahnaerztliche-versorgung/">Vertragszahn&auml;rztliche Versorgung</a>
+</li>
+<li class="min-h-[46px] lg:min-h-[35px]">
+<a class="nav-link w-auto cursor-pointer line-clamp-2 focus:underline hover:underline hover:text-blue text-white hover:text-white menu py-xs lg:text-blue-darkest lg:hover:text-blue"
+aria-label="Follow link" aria-expanded="false" title="" href="https://www.dvka.de/de/leistungserbringer/stationaere-versorgung/">Station&auml;re Versorgung</a>
+</li>
+<li class="min-h-[46px] lg:min-h-[35px]">
+<a class="nav-link w-auto cursor-pointer line-clamp-2 focus:underline hover:underline hover:text-blue text-white hover:text-white menu py-xs lg:text-blue-darkest lg:hover:text-blue"
+aria-label="Follow link" aria-expanded="false" title="" href="https://www.dvka.de/de/leistungserbringer/informationsportal-ehic-peb/">Informationsportal EHIC/PEB</a>
+</li>
+<li class="min-h-[46px] lg:min-h-[35px]">
+<a class="nav-link w-auto cursor-pointer line-clamp-2 focus:underline hover:underline hover:text-blue text-white hover:text-white menu py-xs lg:text-blue-darkest lg:hover:text-blue"
+aria-label="Follow link" aria-expanded="false" title="" href="https://www.dvka.de/de/leistungserbringer/leistungsumfang/">Leistungsumfang EHIC/PEB</a>
+</li>
+<li class="min-h-[46px] lg:min-h-[35px]">
+<a class="nav-link w-auto cursor-pointer line-clamp-2 focus:underline hover:underline hover:text-blue text-white hover:text-white menu py-xs lg:text-blue-darkest lg:hover:text-blue"
+aria-label="Follow link" aria-expanded="false" title="" href="https://www.dvka.de/de/leistungserbringer/brexit/">Brexit</a>
+</li>
+</ul>
+</div>
+</div>
+</li>
+<li>
+<div class="nav-item grid grid-cols-1 lg:hidden">
+<div class="flex justify-between items-center min-h-[46px] lg:justify-center lg:min-h-fit">
+<a class="nav-link w-auto cursor-pointer line-clamp-2 focus:underline hover:underline hover:text-blue text-blue-darkest menu py-xs lg:p-0"
+aria-label="Follow link" aria-controls="nav-item__lvl2-3" aria-expanded="false title=""
+href="https://www.dvka.de/de/die-dvka/">Die DVKA</a>
+<button type="button" role="button"
+class="nav-lvl2-toggle w-[44px] h-[44px] flex justify-center items-center"
+aria-label="Toggle layer 2 links" aria-controls="nav-item__lvl2-1"
+aria-expanded="false">
+<svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24"
+stroke-linecap="round" stroke-linejoin="round"
+class="origin-center transition-all ease-in-out duration-300"
+color="#3c5466" style="color: rgb(60, 84, 102);" height="32" width="32"
+xmlns="http://www.w3.org/2000/svg">
+<path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+<path d="M6 9l6 6l6 -6"></path>
+</svg>
+</button>
+</div>
+<div class="nav-item__lvl2 transition-[max-height] origin-top ease-in-out duration-300 max-h-0 overflow-hidden hidden lg:overflow-visible lg:transition-none lg:max-h-none lg:pt-[40px] lg:absolute lg:z-popup lg:top-[100%] lg:left-1/2 lg:-translate-x-1/2"
+id="nav-item__lvl2-1">
+<ul class="bg-blue grid grid-cols-1 divide-y divide-grey-lighter px-sm lg:bg-white lg:shadow-lg lg:w-max">
+<li class="min-h-[46px] lg:min-h-[35px]">
+<a class="nav-link w-auto cursor-pointer line-clamp-2 focus:underline hover:underline hover:text-blue text-white hover:text-white menu py-xs lg:text-blue-darkest lg:hover:text-blue"
+aria-label="Follow link" aria-expanded="false" title="" href="https://www.dvka.de/de/die-dvka/wir-ueber-uns/">Wir &uuml;ber uns</a>
+</li>
+<li class="min-h-[46px] lg:min-h-[35px]">
+<a class="nav-link w-auto cursor-pointer line-clamp-2 focus:underline hover:underline hover:text-blue text-white hover:text-white menu py-xs lg:text-blue-darkest lg:hover:text-blue"
+aria-label="Follow link" aria-expanded="false" title="" href="https://www.dvka.de/de/die-dvka/ausschreibungen/">Ausschreibungen</a>
+</li>
+<li class="min-h-[46px] lg:min-h-[35px]">
+<a class="nav-link w-auto cursor-pointer line-clamp-2 focus:underline hover:underline hover:text-blue text-white hover:text-white menu py-xs lg:text-blue-darkest lg:hover:text-blue"
+aria-label="Follow link" aria-expanded="false" title="" href="https://www.dvka.de/de/die-dvka/merkblaetter/">Merkbl&auml;tter</a>
+</li>
+<li class="min-h-[46px] lg:min-h-[35px]">
+<a class="nav-link w-auto cursor-pointer line-clamp-2 focus:underline hover:underline hover:text-blue text-white hover:text-white menu py-xs lg:text-blue-darkest lg:hover:text-blue"
+aria-label="Follow link" aria-expanded="false" title="" href="https://www.dvka.de/de/die-dvka/so-erreichen-sie-uns/">So erreichen Sie uns</a>
+</li>
+<li class="min-h-[46px] lg:min-h-[35px]">
+<a class="nav-link w-auto cursor-pointer line-clamp-2 focus:underline hover:underline hover:text-blue text-white hover:text-white menu py-xs lg:text-blue-darkest lg:hover:text-blue"
+aria-label="Follow link" aria-expanded="false" title="" href="https://www.dvka.de/de/die-dvka/karriere/">Karriere</a>
+</li>
+<li class="min-h-[46px] lg:min-h-[35px]">
+<a class="nav-link w-auto cursor-pointer line-clamp-2 focus:underline hover:underline hover:text-blue text-white hover:text-white menu py-xs lg:text-blue-darkest lg:hover:text-blue"
+aria-label="Follow link" aria-expanded="false" title="" href="https://www.dvka.de/de/die-dvka/rechtliche-hinweise-zum-datenschutz/">Rechtliche Hinweise zum Datenschutz</a>
+</li>
+</ul>
+</div>
+</div>
+</li>
+<li>
+<div class="nav-item grid grid-cols-1 lg:hidden">
+<div class="flex justify-between items-center min-h-[46px] lg:justify-center lg:min-h-fit">
+<a class="nav-link w-auto cursor-pointer line-clamp-2 focus:underline hover:underline hover:text-blue text-blue-darkest menu py-xs lg:p-0"
+aria-label="Follow link" aria-controls="nav-item__lvl2-4" aria-expanded="false title=""
+href="https://www.dvka.de/de/informationen/">Informationen</a>
+<button type="button" role="button"
+class="nav-lvl2-toggle w-[44px] h-[44px] flex justify-center items-center"
+aria-label="Toggle layer 2 links" aria-controls="nav-item__lvl2-1"
+aria-expanded="false">
+<svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24"
+stroke-linecap="round" stroke-linejoin="round"
+class="origin-center transition-all ease-in-out duration-300"
+color="#3c5466" style="color: rgb(60, 84, 102);" height="32" width="32"
+xmlns="http://www.w3.org/2000/svg">
+<path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+<path d="M6 9l6 6l6 -6"></path>
+</svg>
+</button>
+</div>
+<div class="nav-item__lvl2 transition-[max-height] origin-top ease-in-out duration-300 max-h-0 overflow-hidden hidden lg:overflow-visible lg:transition-none lg:max-h-none lg:pt-[40px] lg:absolute lg:z-popup lg:top-[100%] lg:left-1/2 lg:-translate-x-1/2"
+id="nav-item__lvl2-1">
+<ul class="bg-blue grid grid-cols-1 divide-y divide-grey-lighter px-sm lg:bg-white lg:shadow-lg lg:w-max">
+<li class="min-h-[46px] lg:min-h-[35px]">
+<a class="nav-link w-auto cursor-pointer line-clamp-2 focus:underline hover:underline hover:text-blue text-white hover:text-white menu py-xs lg:text-blue-darkest lg:hover:text-blue"
+aria-label="Follow link" aria-expanded="false" title="" href="https://www.dvka.de/de/informationen/auskunftstellen/">Auskunftstellen</a>
+</li>
+<li class="min-h-[46px] lg:min-h-[35px]">
+<a class="nav-link w-auto cursor-pointer line-clamp-2 focus:underline hover:underline hover:text-blue text-white hover:text-white menu py-xs lg:text-blue-darkest lg:hover:text-blue"
+aria-label="Follow link" aria-expanded="false" title="" href="https://www.dvka.de/de/informationen/brexit/">Brexit</a>
+</li>
+<li class="min-h-[46px] lg:min-h-[35px]">
+<a class="nav-link w-auto cursor-pointer line-clamp-2 focus:underline hover:underline hover:text-blue text-white hover:text-white menu py-xs lg:text-blue-darkest lg:hover:text-blue"
+aria-label="Follow link" aria-expanded="false" title="" href="https://www.dvka.de/de/informationen/europaeisches-netzwerk/">Europ&auml;isches Netzwerk</a>
+</li>
+<li class="min-h-[46px] lg:min-h-[35px]">
+<a class="nav-link w-auto cursor-pointer line-clamp-2 focus:underline hover:underline hover:text-blue text-white hover:text-white menu py-xs lg:text-blue-darkest lg:hover:text-blue"
+aria-label="Follow link" aria-expanded="false" title="" href="https://www.dvka.de/de/informationen/glossar/">Glossar</a>
+</li>
+<li class="min-h-[46px] lg:min-h-[35px]">
+<a class="nav-link w-auto cursor-pointer line-clamp-2 focus:underline hover:underline hover:text-blue text-white hover:text-white menu py-xs lg:text-blue-darkest lg:hover:text-blue"
+aria-label="Follow link" aria-expanded="false" title="" href="https://www.dvka.de/de/informationen/institution-repository/">Institution Repository</a>
+</li>
+<li class="min-h-[46px] lg:min-h-[35px]">
+<a class="nav-link w-auto cursor-pointer line-clamp-2 focus:underline hover:underline hover:text-blue text-white hover:text-white menu py-xs lg:text-blue-darkest lg:hover:text-blue"
+aria-label="Follow link" aria-expanded="false" title="" href="https://www.dvka.de/de/informationen/rechtsquellen/">Rechtsquellen</a>
+</li>
+<li class="min-h-[46px] lg:min-h-[35px]">
+<a class="nav-link w-auto cursor-pointer line-clamp-2 focus:underline hover:underline hover:text-blue text-white hover:text-white menu py-xs lg:text-blue-darkest lg:hover:text-blue"
+aria-label="Follow link" aria-expanded="false" title="" href="https://www.dvka.de/de/informationen/situation-israel/">Situation in Israel</a>
+</li>
+<li class="min-h-[46px] lg:min-h-[35px]">
+<a class="nav-link w-auto cursor-pointer line-clamp-2 focus:underline hover:underline hover:text-blue text-white hover:text-white menu py-xs lg:text-blue-darkest lg:hover:text-blue"
+aria-label="Follow link" aria-expanded="false" title="" href="https://www.dvka.de/de/informationen/umrechnungskurse/">Umrechnungskurse</a>
+</li>
+</ul>
+</div>
+</div>
+</li>
+</ul>
+<ul class="header__menu__meta flex flex-1 flex-col pb-md" aria-label="Desktop navigation items">
+
+<li>
+<div class="nav-item-meta grid-cols-1
+grid lg:hidden
+">
+<a class="group link inline-flex cursor-pointer btn gap-xs nav-item-meta__button lg:py-0 !text-grey"
+aria-label="Leichte Sprache" aria-expanded="false" href="https://www.dvka.de/de/global/leichte-sprache/">
+<span class="flex items-center">
+<svg style="height:16px; width:16px;">
+<use href="https://www.dvka.de/media/global/sprach-icons/icon-leichte-sprache.svg#img"></use>
+</svg>
+</span>
+<span class="flex flex-col menu-small">
+<span class="flex items-center flex-1 group-focus:underline group-hover:underline">Leichte Sprache</span>
+</span>
+</a>
+</div>
+</li>
+<li>
+<div class="nav-item-meta grid-cols-1
+grid lg:hidden
+">
+<a class="group link inline-flex cursor-pointer btn gap-xs nav-item-meta__button lg:py-0 !text-grey"
+aria-label="Gebärdensprache" aria-expanded="false" href="https://www.dvka.de/de/global/gebaerdenvideos/">
+<span class="flex items-center">
+<svg style="height:16px; width:16px;">
+<use href="https://www.dvka.de/media/global/sprach-icons/icon-gebaerdensprache.svg#img"></use>
+</svg>
+</span>
+<span class="flex flex-co menu-small">
+<span class="flex items-center flex-1 group-focus:underline group-hover:underline">Gebärdensprache</span>
+</span>
+</a>
+</div>
+</li>
+<li class="flex flex-1 flex-col">
+<ul class="flex flex-col gap-sm" aria-label="Mobile meta navigation items">
+<li>
+<div class="nav-item-meta grid-cols-1
+grid lg:hidden
+">
+<button class="nav-item-meta__button hidden lg:block py-xxs lg:py-0 menu-small !text-grey"
+aria-label="Sprachen Menü öffnen" aria-controls="nav-item-meta__lvl2-3" aria-expanded="false">
+<span class="menu-small flex items-center gap-1">
+<svg style="height:16px; width:16px;">
+<use href="https://www.dvka.de/media/global/sprach-icons/globus-icon.svg#img"></use>
+</svg>
+Sprachen
+</span>
+</button>
+<div class="nav-item-meta__lvl2 lg:overflow-visible lg:transition-none lg:max-h-none lg:absolute lg:z-popup lg:top-[100%] lg:left-0 lg:w-max lg:pt-xxxs lg:hidden"
+id="nav-item-meta__lvl2-3">
+<ul class="grid grid-cols-1 bg-white p-1">
+<li>
+<a class="group link inline-flex cursor-pointer gap-xs text-blue-darkest hover:text-blue menu-small !text-grey hover py-xxs"
+aria-label="Deutsch" aria-expanded="false" href="https://www.dvka.de/de/">
+<span class="flex items-center">
+<img src="https://www.dvka.de/media/global/sprach-icons/country-flag-de.svg" alt="Deutsch language flag symbol" height="16" width="auto">
+</span>
+<span class="flex flex-col">
+<span class="flex items-center flex-1 group-focus:underline group-hover:underline">Deutsch</span>
+</span>
+</a>
+</li>
+<li>
+<a class="group link inline-flex cursor-pointer gap-xs text-blue-darkest hover:text-blue menu-small !text-grey hover py-xxs"
+aria-label="English" aria-expanded="false" href="https://www.dvka.de/en/">
+<span class="flex items-center">
+<img src="https://www.dvka.de/media/global/sprach-icons/country-flag-en.svg" alt="English language flag symbol" height="16" width="auto">
+</span>
+<span class="flex flex-col">
+<span class="flex items-center flex-1 group-focus:underline group-hover:underline">English</span>
+</span>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div class="header__menu__lg hidden lg:flex lg:flex-col lg:justify-between lg:gap-md">
+<ul class="lg:flex lg:gap-md">
+<li class="mb-[-5px]">
+<div class="nav-item nav-item__lg hidden grid-cols-1 relative lg:grid">
+<div class="flex justify-between items-center min-h-[46px] lg:justify-center lg:min-h-fit">
+<a class="nav-link w-auto cursor-pointer line-clamp-2 focus:underline hover:underline hover:text-blue text-blue-darkest menu py-xs lg:p-0"
+aria-label="Follow link" aria-controls="nav-item__lg__lvl2-0" aria-expanded="false" title=""
+href="https://www.dvka.de/de/versicherte/">Versicherte</a>
+</div>
+<div class="nav-item__lvl2 transition-[max-height] origin-top ease-in-out duration-300 max-h-0 overflow-hidden hidden lg:overflow-visible lg:transition-none lg:max-h-none lg:pt-[40px] lg:absolute lg:z-popup lg:top-[100%] lg:left-1/2 lg:-translate-x-1/2"
+id="nav-item__lg__lvl2-1">
+<ul class="bg-blue grid grid-cols-1 divide-y divide-grey-lighter px-sm lg:bg-white lg:shadow-lg lg:w-max">
+<li class="min-h-[46px] lg:min-h-[35px]">
+<a class="nav-link w-auto cursor-pointer line-clamp-2 focus:underline hover:underline hover:text-blue text-white hover:text-white menu py-xs lg:text-blue-darkest lg:hover:text-blue lg:w-fit lg:max-w-[200px]"
+aria-label="Follow link" aria-expanded="false" title="" href="https://www.dvka.de/de/versicherte/touristen/">Touristen</a>
+</li>
+<li class="min-h-[46px] lg:min-h-[35px]">
+<a class="nav-link w-auto cursor-pointer line-clamp-2 focus:underline hover:underline hover:text-blue text-white hover:text-white menu py-xs lg:text-blue-darkest lg:hover:text-blue lg:w-fit lg:max-w-[200px]"
+aria-label="Follow link" aria-expanded="false" title="" href="https://www.dvka.de/de/versicherte/rentner/">Rentner/-innen</a>
+</li>
+<li class="min-h-[46px] lg:min-h-[35px]">
+<a class="nav-link w-auto cursor-pointer line-clamp-2 focus:underline hover:underline hover:text-blue text-white hover:text-white menu py-xs lg:text-blue-darkest lg:hover:text-blue lg:w-fit lg:max-w-[200px]"
+aria-label="Follow link" aria-expanded="false" title="" href="https://www.dvka.de/de/versicherte/grenzgaenger/">Grenzg&auml;nger</a>
+</li>
+<li class="min-h-[46px] lg:min-h-[35px]">
+<a class="nav-link w-auto cursor-pointer line-clamp-2 focus:underline hover:underline hover:text-blue text-white hover:text-white menu py-xs lg:text-blue-darkest lg:hover:text-blue lg:w-fit lg:max-w-[200px]"
+aria-label="Follow link" aria-expanded="false" title="" href="https://www.dvka.de/de/versicherte/studierende-und-praktikanten/">Studierende und Praktikanten</a>
+</li>
+<li class="min-h-[46px] lg:min-h-[35px]">
+<a class="nav-link w-auto cursor-pointer line-clamp-2 focus:underline hover:underline hover:text-blue text-white hover:text-white menu py-xs lg:text-blue-darkest lg:hover:text-blue lg:w-fit lg:max-w-[200px]"
+aria-label="Follow link" aria-expanded="false" title="" href="https://www.dvka.de/de/versicherte/geringfuegig-beschaeftigte-personen/">Geringf&uuml;gig besch&auml;ftigte Personen</a>
+</li>
+<li class="min-h-[46px] lg:min-h-[35px]">
+<a class="nav-link w-auto cursor-pointer line-clamp-2 focus:underline hover:underline hover:text-blue text-white hover:text-white menu py-xs lg:text-blue-darkest lg:hover:text-blue lg:w-fit lg:max-w-[200px]"
+aria-label="Follow link" aria-expanded="false" title="" href="https://www.dvka.de/de/versicherte/faq/">H&auml;ufig gestellte Fragen</a>
+</li>
+</ul>
+</div>
+</div>
+</li>
+<li class="mb-[-5px]">
+<div class="nav-item nav-item__lg hidden grid-cols-1 relative lg:grid">
+<div class="flex justify-between items-center min-h-[46px] lg:justify-center lg:min-h-fit">
+<a class="nav-link w-auto cursor-pointer line-clamp-2 focus:underline hover:underline hover:text-blue text-blue-darkest menu py-xs lg:p-0"
+aria-label="Follow link" aria-controls="nav-item__lg__lvl2-1" aria-expanded="false" title=""
+href="https://www.dvka.de/de/arbeitgeber-erwerbstaetige/">Arbeitgeber &amp; Erwerbst&auml;tige</a>
+</div>
+<div class="nav-item__lvl2 transition-[max-height] origin-top ease-in-out duration-300 max-h-0 overflow-hidden hidden lg:overflow-visible lg:transition-none lg:max-h-none lg:pt-[40px] lg:absolute lg:z-popup lg:top-[100%] lg:left-1/2 lg:-translate-x-1/2"
+id="nav-item__lg__lvl2-1">
+<ul class="bg-blue grid grid-cols-1 divide-y divide-grey-lighter px-sm lg:bg-white lg:shadow-lg lg:w-max">
+<li class="min-h-[46px] lg:min-h-[35px]">
+<a class="nav-link w-auto cursor-pointer line-clamp-2 focus:underline hover:underline hover:text-blue text-white hover:text-white menu py-xs lg:text-blue-darkest lg:hover:text-blue lg:w-fit lg:max-w-[200px]"
+aria-label="Follow link" aria-expanded="false" title="" href="https://www.dvka.de/de/arbeitgeber-erwerbstaetige/antraege-finden/">Antrags- und Bescheinigungsverfahren</a>
+</li>
+<li class="min-h-[46px] lg:min-h-[35px]">
+<a class="nav-link w-auto cursor-pointer line-clamp-2 focus:underline hover:underline hover:text-blue text-white hover:text-white menu py-xs lg:text-blue-darkest lg:hover:text-blue lg:w-fit lg:max-w-[200px]"
+aria-label="Follow link" aria-expanded="false" title="" href="https://www.dvka.de/de/arbeitgeber-erwerbstaetige/antragstellung-im-sv-meldeportal/">Antragstellung im SV-Meldeportal</a>
+</li>
+<li class="min-h-[46px] lg:min-h-[35px]">
+<a class="nav-link w-auto cursor-pointer line-clamp-2 focus:underline hover:underline hover:text-blue text-white hover:text-white menu py-xs lg:text-blue-darkest lg:hover:text-blue lg:w-fit lg:max-w-[200px]"
+aria-label="Follow link" aria-expanded="false" title="" href="https://www.dvka.de/de/arbeitgeber-erwerbstaetige/laenderspezifische-informationen/">L&auml;nderspezifische Informationen</a>
+</li>
+<li class="min-h-[46px] lg:min-h-[35px]">
+<a class="nav-link w-auto cursor-pointer line-clamp-2 focus:underline hover:underline hover:text-blue text-white hover:text-white menu py-xs lg:text-blue-darkest lg:hover:text-blue lg:w-fit lg:max-w-[200px]"
+aria-label="Follow link" aria-expanded="false" title="" href="https://www.dvka.de/de/arbeitgeber-erwerbstaetige/geltungsbereiche/">Geltungsbereiche im internationalen Sozialrecht</a>
+</li>
+<li class="min-h-[46px] lg:min-h-[35px]">
+<a class="nav-link w-auto cursor-pointer line-clamp-2 focus:underline hover:underline hover:text-blue text-white hover:text-white menu py-xs lg:text-blue-darkest lg:hover:text-blue lg:w-fit lg:max-w-[200px]"
+aria-label="Follow link" aria-expanded="false" title="" href="https://www.dvka.de/de/arbeitgeber-erwerbstaetige/faq/">H&auml;ufig gestellte Fragen</a>
+</li>
+</ul>
+</div>
+</div>
+</li>
+<li class="mb-[-5px]">
+<div class="nav-item nav-item__lg hidden grid-cols-1 relative lg:grid">
+<div class="flex justify-between items-center min-h-[46px] lg:justify-center lg:min-h-fit">
+<a class="nav-link w-auto cursor-pointer line-clamp-2 focus:underline hover:underline hover:text-blue text-blue-darkest menu py-xs lg:p-0"
+aria-label="Follow link" aria-controls="nav-item__lg__lvl2-2" aria-expanded="false" title=""
+href="https://www.dvka.de/de/leistungserbringer/">Leistungserbringer</a>
+</div>
+<div class="nav-item__lvl2 transition-[max-height] origin-top ease-in-out duration-300 max-h-0 overflow-hidden hidden lg:overflow-visible lg:transition-none lg:max-h-none lg:pt-[40px] lg:absolute lg:z-popup lg:top-[100%] lg:left-1/2 lg:-translate-x-1/2"
+id="nav-item__lg__lvl2-1">
+<ul class="bg-blue grid grid-cols-1 divide-y divide-grey-lighter px-sm lg:bg-white lg:shadow-lg lg:w-max">
+<li class="min-h-[46px] lg:min-h-[35px]">
+<a class="nav-link w-auto cursor-pointer line-clamp-2 focus:underline hover:underline hover:text-blue text-white hover:text-white menu py-xs lg:text-blue-darkest lg:hover:text-blue lg:w-fit lg:max-w-[200px]"
+aria-label="Follow link" aria-expanded="false" title="" href="https://www.dvka.de/de/leistungserbringer/vertragsaerztliche-versorgung/">Vertrags&auml;rztliche Versorgung</a>
+</li>
+<li class="min-h-[46px] lg:min-h-[35px]">
+<a class="nav-link w-auto cursor-pointer line-clamp-2 focus:underline hover:underline hover:text-blue text-white hover:text-white menu py-xs lg:text-blue-darkest lg:hover:text-blue lg:w-fit lg:max-w-[200px]"
+aria-label="Follow link" aria-expanded="false" title="" href="https://www.dvka.de/de/leistungserbringer/vertragszahnaerztliche-versorgung/">Vertragszahn&auml;rztliche Versorgung</a>
+</li>
+<li class="min-h-[46px] lg:min-h-[35px]">
+<a class="nav-link w-auto cursor-pointer line-clamp-2 focus:underline hover:underline hover:text-blue text-white hover:text-white menu py-xs lg:text-blue-darkest lg:hover:text-blue lg:w-fit lg:max-w-[200px]"
+aria-label="Follow link" aria-expanded="false" title="" href="https://www.dvka.de/de/leistungserbringer/stationaere-versorgung/">Station&auml;re Versorgung</a>
+</li>
+<li class="min-h-[46px] lg:min-h-[35px]">
+<a class="nav-link w-auto cursor-pointer line-clamp-2 focus:underline hover:underline hover:text-blue text-white hover:text-white menu py-xs lg:text-blue-darkest lg:hover:text-blue lg:w-fit lg:max-w-[200px]"
+aria-label="Follow link" aria-expanded="false" title="" href="https://www.dvka.de/de/leistungserbringer/informationsportal-ehic-peb/">Informationsportal EHIC/PEB</a>
+</li>
+<li class="min-h-[46px] lg:min-h-[35px]">
+<a class="nav-link w-auto cursor-pointer line-clamp-2 focus:underline hover:underline hover:text-blue text-white hover:text-white menu py-xs lg:text-blue-darkest lg:hover:text-blue lg:w-fit lg:max-w-[200px]"
+aria-label="Follow link" aria-expanded="false" title="" href="https://www.dvka.de/de/leistungserbringer/leistungsumfang/">Leistungsumfang EHIC/PEB</a>
+</li>
+<li class="min-h-[46px] lg:min-h-[35px]">
+<a class="nav-link w-auto cursor-pointer line-clamp-2 focus:underline hover:underline hover:text-blue text-white hover:text-white menu py-xs lg:text-blue-darkest lg:hover:text-blue lg:w-fit lg:max-w-[200px]"
+aria-label="Follow link" aria-expanded="false" title="" href="https://www.dvka.de/de/leistungserbringer/brexit/">Brexit</a>
+</li>
+</ul>
+</div>
+</div>
+</li>
+<li class="mb-[-5px]">
+<div class="nav-item nav-item__lg hidden grid-cols-1 relative lg:grid">
+<div class="flex justify-between items-center min-h-[46px] lg:justify-center lg:min-h-fit">
+<a class="nav-link w-auto cursor-pointer line-clamp-2 focus:underline hover:underline hover:text-blue text-blue-darkest menu py-xs lg:p-0"
+aria-label="Follow link" aria-controls="nav-item__lg__lvl2-3" aria-expanded="false" title=""
+href="https://www.dvka.de/de/die-dvka/">Die DVKA</a>
+</div>
+<div class="nav-item__lvl2 transition-[max-height] origin-top ease-in-out duration-300 max-h-0 overflow-hidden hidden lg:overflow-visible lg:transition-none lg:max-h-none lg:pt-[40px] lg:absolute lg:z-popup lg:top-[100%] lg:left-1/2 lg:-translate-x-1/2"
+id="nav-item__lg__lvl2-1">
+<ul class="bg-blue grid grid-cols-1 divide-y divide-grey-lighter px-sm lg:bg-white lg:shadow-lg lg:w-max">
+<li class="min-h-[46px] lg:min-h-[35px]">
+<a class="nav-link w-auto cursor-pointer line-clamp-2 focus:underline hover:underline hover:text-blue text-white hover:text-white menu py-xs lg:text-blue-darkest lg:hover:text-blue lg:w-fit lg:max-w-[200px]"
+aria-label="Follow link" aria-expanded="false" title="" href="https://www.dvka.de/de/die-dvka/wir-ueber-uns/">Wir &uuml;ber uns</a>
+</li>
+<li class="min-h-[46px] lg:min-h-[35px]">
+<a class="nav-link w-auto cursor-pointer line-clamp-2 focus:underline hover:underline hover:text-blue text-white hover:text-white menu py-xs lg:text-blue-darkest lg:hover:text-blue lg:w-fit lg:max-w-[200px]"
+aria-label="Follow link" aria-expanded="false" title="" href="https://www.dvka.de/de/die-dvka/ausschreibungen/">Ausschreibungen</a>
+</li>
+<li class="min-h-[46px] lg:min-h-[35px]">
+<a class="nav-link w-auto cursor-pointer line-clamp-2 focus:underline hover:underline hover:text-blue text-white hover:text-white menu py-xs lg:text-blue-darkest lg:hover:text-blue lg:w-fit lg:max-w-[200px]"
+aria-label="Follow link" aria-expanded="false" title="" href="https://www.dvka.de/de/die-dvka/merkblaetter/">Merkbl&auml;tter</a>
+</li>
+<li class="min-h-[46px] lg:min-h-[35px]">
+<a class="nav-link w-auto cursor-pointer line-clamp-2 focus:underline hover:underline hover:text-blue text-white hover:text-white menu py-xs lg:text-blue-darkest lg:hover:text-blue lg:w-fit lg:max-w-[200px]"
+aria-label="Follow link" aria-expanded="false" title="" href="https://www.dvka.de/de/die-dvka/so-erreichen-sie-uns/">So erreichen Sie uns</a>
+</li>
+<li class="min-h-[46px] lg:min-h-[35px]">
+<a class="nav-link w-auto cursor-pointer line-clamp-2 focus:underline hover:underline hover:text-blue text-white hover:text-white menu py-xs lg:text-blue-darkest lg:hover:text-blue lg:w-fit lg:max-w-[200px]"
+aria-label="Follow link" aria-expanded="false" title="" href="https://www.dvka.de/de/die-dvka/karriere/">Karriere</a>
+</li>
+<li class="min-h-[46px] lg:min-h-[35px]">
+<a class="nav-link w-auto cursor-pointer line-clamp-2 focus:underline hover:underline hover:text-blue text-white hover:text-white menu py-xs lg:text-blue-darkest lg:hover:text-blue lg:w-fit lg:max-w-[200px]"
+aria-label="Follow link" aria-expanded="false" title="" href="https://www.dvka.de/de/die-dvka/rechtliche-hinweise-zum-datenschutz/">Rechtliche Hinweise zum Datenschutz</a>
+</li>
+</ul>
+</div>
+</div>
+</li>
+<li class="mb-[-5px]">
+<div class="nav-item nav-item__lg hidden grid-cols-1 relative lg:grid">
+<div class="flex justify-between items-center min-h-[46px] lg:justify-center lg:min-h-fit">
+<a class="nav-link w-auto cursor-pointer line-clamp-2 focus:underline hover:underline hover:text-blue text-blue-darkest menu py-xs lg:p-0"
+aria-label="Follow link" aria-controls="nav-item__lg__lvl2-4" aria-expanded="false" title=""
+href="https://www.dvka.de/de/informationen/">Informationen</a>
+</div>
+<div class="nav-item__lvl2 transition-[max-height] origin-top ease-in-out duration-300 max-h-0 overflow-hidden hidden lg:overflow-visible lg:transition-none lg:max-h-none lg:pt-[40px] lg:absolute lg:z-popup lg:top-[100%] lg:left-1/2 lg:-translate-x-1/2"
+id="nav-item__lg__lvl2-1">
+<ul class="bg-blue grid grid-cols-1 divide-y divide-grey-lighter px-sm lg:bg-white lg:shadow-lg lg:w-max">
+<li class="min-h-[46px] lg:min-h-[35px]">
+<a class="nav-link w-auto cursor-pointer line-clamp-2 focus:underline hover:underline hover:text-blue text-white hover:text-white menu py-xs lg:text-blue-darkest lg:hover:text-blue lg:w-fit lg:max-w-[200px]"
+aria-label="Follow link" aria-expanded="false" title="" href="https://www.dvka.de/de/informationen/auskunftstellen/">Auskunftstellen</a>
+</li>
+<li class="min-h-[46px] lg:min-h-[35px]">
+<a class="nav-link w-auto cursor-pointer line-clamp-2 focus:underline hover:underline hover:text-blue text-white hover:text-white menu py-xs lg:text-blue-darkest lg:hover:text-blue lg:w-fit lg:max-w-[200px]"
+aria-label="Follow link" aria-expanded="false" title="" href="https://www.dvka.de/de/informationen/brexit/">Brexit</a>
+</li>
+<li class="min-h-[46px] lg:min-h-[35px]">
+<a class="nav-link w-auto cursor-pointer line-clamp-2 focus:underline hover:underline hover:text-blue text-white hover:text-white menu py-xs lg:text-blue-darkest lg:hover:text-blue lg:w-fit lg:max-w-[200px]"
+aria-label="Follow link" aria-expanded="false" title="" href="https://www.dvka.de/de/informationen/europaeisches-netzwerk/">Europ&auml;isches Netzwerk</a>
+</li>
+<li class="min-h-[46px] lg:min-h-[35px]">
+<a class="nav-link w-auto cursor-pointer line-clamp-2 focus:underline hover:underline hover:text-blue text-white hover:text-white menu py-xs lg:text-blue-darkest lg:hover:text-blue lg:w-fit lg:max-w-[200px]"
+aria-label="Follow link" aria-expanded="false" title="" href="https://www.dvka.de/de/informationen/glossar/">Glossar</a>
+</li>
+<li class="min-h-[46px] lg:min-h-[35px]">
+<a class="nav-link w-auto cursor-pointer line-clamp-2 focus:underline hover:underline hover:text-blue text-white hover:text-white menu py-xs lg:text-blue-darkest lg:hover:text-blue lg:w-fit lg:max-w-[200px]"
+aria-label="Follow link" aria-expanded="false" title="" href="https://www.dvka.de/de/informationen/institution-repository/">Institution Repository</a>
+</li>
+<li class="min-h-[46px] lg:min-h-[35px]">
+<a class="nav-link w-auto cursor-pointer line-clamp-2 focus:underline hover:underline hover:text-blue text-white hover:text-white menu py-xs lg:text-blue-darkest lg:hover:text-blue lg:w-fit lg:max-w-[200px]"
+aria-label="Follow link" aria-expanded="false" title="" href="https://www.dvka.de/de/informationen/rechtsquellen/">Rechtsquellen</a>
+</li>
+<li class="min-h-[46px] lg:min-h-[35px]">
+<a class="nav-link w-auto cursor-pointer line-clamp-2 focus:underline hover:underline hover:text-blue text-white hover:text-white menu py-xs lg:text-blue-darkest lg:hover:text-blue lg:w-fit lg:max-w-[200px]"
+aria-label="Follow link" aria-expanded="false" title="" href="https://www.dvka.de/de/informationen/situation-israel/">Situation in Israel</a>
+</li>
+<li class="min-h-[46px] lg:min-h-[35px]">
+<a class="nav-link w-auto cursor-pointer line-clamp-2 focus:underline hover:underline hover:text-blue text-white hover:text-white menu py-xs lg:text-blue-darkest lg:hover:text-blue lg:w-fit lg:max-w-[200px]"
+aria-label="Follow link" aria-expanded="false" title="" href="https://www.dvka.de/de/informationen/umrechnungskurse/">Umrechnungskurse</a>
+</li>
+</ul>
+</div>
+</div>
+</li>
+</ul>
+</div>
+</nav>
+</div>
+<div class="scroll-progress w-full h-xxxs">
+<div class="scroll-progress__bar w-0 h-full bg-red" style="width: 0%;"></div>
+</div>
+</div>
+<div class="absolute right-0 bottom-[-44px] md:bottom-[-74px] z-backdrop">
+<a class="btn-overlay btn-overlay--extranet group relative bg-transparent pl-[43.5px] text-white z-btnOverlay focus:underline hover:underline focus:before:underline hover:before:underline hover:before:bg-blue-darker md:pl-[73.5px] before:bg-blue before:absolute before:left-0 before:top-0 before:h-[44px] before:w-[44px] before:clip-path-ascending-wedge-left before:z-backdrop md:before:h-[74px] md:before:w-[74px] btn-overlay--extranet--logged-in undefined block"
+aria-label="Extranet login" href="https://www.dvka.de/de/extranet/">
+<div class="bg-blue py-xxs pr-sm pl-xxxs text-[14px] text-right group-hover:bg-blue-darker h-[44px] md:h-[74px] md:py-md md:pl-lg md:pr-xl md:text-btn-tablet lg:text-btn-desktop">
+<div class="flex items-center gap-xs"><span class="pt-[1px] md:pt-0">Extranet</span></div>
+</div>
+</a>
+</div>
+</header>
+<button type="button" aria-label="Suche öffnen" aria-controls="overlay-search" aria-expanded="false"
+class="btn-overlay btn-overlay--search group fixed bottom-0 left-0 bg-transparent pr-[43.5px] text-white z-btnOverlay focus:underline hover:underline focus:before:underline hover:before:underline hover:before:bg-blue-darker md:pr-[73.5px] before:bg-blue before:absolute before:right-0 before:top-0 before:h-[44px] before:w-[44px] before:clip-path-falling-wedge-right before:z-backdrop md:before:h-[74px] md:before:w-[74px] undefined">
+<div class="bg-blue py-xxs pl-sm pr-xxxs text-[14px] text-right group-hover:bg-blue-darker h-[44px] md:h-[74px] md:py-md md:pr-lg md:pl-xl md:text-btn-tablet lg:text-btn-desktop">
+<div class="btn-overlay--closed flex items-center gap-xs">
+<svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="24" width="24"
+xmlns="http://www.w3.org/2000/svg">
+<path fill="none" d="M0 0h24v24H0z"></path>
+<path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0016 9.5 6.5 6.5 0 109.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path>
+</svg>
+<span class="pt-[1px] md:pt-0">Suche</span>
+</div>
+<div class="btn-overlay--open flex items-center gap-xs hidden">
+<svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="24" width="24"
+xmlns="http://www.w3.org/2000/svg">
+<path fill="none" d="M0 0h24v24H0z"></path>
+<path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path>
+</svg>
+<span class="pt-[1px] md:pt-0">Schlie&szlig;en</span>
+</div>
+</div>
+</button>
+<div id="overlay-search" class="overlay overlay--search fixed z-overlay top-[54px] right-0 bottom-0 left-0 bg-blue transition-opacity duration-150 overflow-x-hidden lg:top-[126px] opacity-0 hidden">
+<div class="py-[72px] pb-[96px] h-full overflow-y-auto md:pt-[120px] md:pb-[123px] xl:py-xxl">
+<div class="container">
+<h2 class="h2-strong mb-md md:mb-lg text-white text-center" >Suche</h2>
+<div class="app-search"
+data-props='{
+"searchInput":{
+"btnSubmit":{
+"ariaLabel":"Submit search"
+},
+"input":{
+"ariaLabel":"Search page",
+"ariaControls":"search-suggestions",
+"placeholder":"Was m&ouml;chten Sie suchen?",
+"ariaExpanded":false,
+"name":"searchStr"
+}
+},
+"autoSuggestUrl":"/auto-suggest/de",
+"searchResultsUrl":"https://www.dvka.de/de/global/suchseite.html"
+}'>
+</div>
+</div>
+<div class="absolute bottom-0 left-0 right-0 bg-blue h-[44px] md:h-[74px] shadow-infinity-scroll-top-sm"></div>
+</div>
+</div>
+<div class="text-blue-darkest font-bold mt-32" >
+<div class="container">
+<p class="text-blue-darkest md:text-[24px] lg:text-[32px]" >
+Willkommen bei der DVKA
+</p>
+<h1 class="hidden">DVKA</h1>
+<div class="w-max my-sm md:my-md lg:my-lg w-auto h-20 md:h-32 lg:h-[180px]">
+<img class="w-full h-full" src="https://www.dvka.de/media/bilder/bilder-rebranding/logo-dvka.svg" alt="" >
+</div>
+<p >
+Im GKV-Spitzenverband ist die Deutsche Verbindungsstelle Krankenversicherung – Ausland die zentrale Schnittstelle für internationale Partner und Träger der sozialen Sicherheit.
+</p>
+</div>
+</div>
+<main>
+<div class="container">
+<section class="section" >
+<div class="tile-link-grid">
+<div class="tile-link-grid__tile-links grid gap-md md:gap-xl grid-cols-1 md:grid-cols-1 lg:grid-cols-1">
+<a class="group invisible" style="visibility: visible;" href="
+https://www.dvka.de/de/versicherte/
+">
+<div class="grid grid-cols-1 grid-rows-[120px,_auto] gap-y-sm gap-x-lg lg:grid-cols-[280px,1fr] lg:grid-rows-[256px] lg:overflow-visible ">
+<div class="lg:order-1 w-full h-full lg:max-w-[827.54px]">
+<picture class="" data-sloped-image="true">
+<source media="(max-width: 374px)" srcset="https://www.dvka.de/media/bilder/startseite/familie-980x220_pt_374px.jpg">
+<source media="(max-width: 539px)" srcset="https://www.dvka.de/media/bilder/startseite/familie-980x220_pt_539px.jpg">
+<source media="(max-width: 767px)" srcset="https://www.dvka.de/media/bilder/startseite/familie-980x220_pt_767px.jpg">
+<source media="(max-width: 1023px)" srcset="https://www.dvka.de/media/bilder/startseite/familie-980x220_pt_991px.jpg">
+<source media="(max-width: 1267px)" srcset="https://www.dvka.de/media/bilder/startseite/familie-980x220_pt_1267px.jpg">
+<source media="(min-width: 1268px)" srcset="https://www.dvka.de/media/bilder/startseite/familie-980x220_pt_1268px.jpg">
+<img class="w-full h-full object-cover" src="https://www.dvka.de/media/bilder/startseite/familie-980x220.jpg"
+alt="Familie mit Kindern"
+style="clip-path: path(&quot;M 256 0 L 827.533 0 L 827.533 256 L 0 256 Z&quot;);"
+>
+</picture>
+</div>
+<div class="px-sm pb-md md:py-sm md:px-0 lg:w-[500px] lg:max-h-[320px] lg:overflow-hidden lg:text-ellipsis">
+<div class="textShapeSloped"></div>
+<h3 class="h3 text-blue-dark group-active:text-blue-darkest group-hover:underline underline-offset-4 hyphens-auto" >
+Versicherte
+</h3>
+<p class="overflow-hidden text-ellipsis text-blue-darkest inline " style="-webkit-line-clamp: 9;" >
+<p class="text-blue-darkest">Sie sind Tourist, Grenzg&auml;nger, Rentner, Studierender oder Praktikant? Hier finden Sie Informationen zur Leistungsaushilfe bei Krankheit und Pflegebed&uuml;rftigkeit.</p>
+</p>
+</div>
+</div>
+</a>
+</div>
+</div>
+</section>
+<section class="section" >
+<div class="tile-link-grid">
+<div class="tile-link-grid__tile-links grid gap-md md:gap-xl grid-cols-1 md:grid-cols-1 lg:grid-cols-1">
+<a class="group invisible" style="visibility: visible;" href="
+https://www.dvka.de/de/arbeitgeber-erwerbstaetige/
+">
+<div class="grid grid-cols-1 grid-rows-[120px,_auto] gap-y-sm gap-x-lg lg:grid-cols-[280px,1fr] lg:grid-rows-[256px] lg:overflow-visible ">
+<div class="lg:order-1 w-full h-full lg:max-w-[827.54px]">
+<picture class="" data-sloped-image="true">
+<source media="(max-width: 374px)" srcset="https://www.dvka.de/media/bilder/arbeitgeber/katheder_980x220px_pt_374px.jpg">
+<source media="(max-width: 539px)" srcset="https://www.dvka.de/media/bilder/arbeitgeber/katheder_980x220px_pt_539px.jpg">
+<source media="(max-width: 767px)" srcset="https://www.dvka.de/media/bilder/arbeitgeber/katheder_980x220px_pt_767px.jpg">
+<source media="(max-width: 1023px)" srcset="https://www.dvka.de/media/bilder/arbeitgeber/katheder_980x220px_pt_991px.jpg">
+<source media="(max-width: 1267px)" srcset="https://www.dvka.de/media/bilder/arbeitgeber/katheder_980x220px_pt_1267px.jpg">
+<source media="(min-width: 1268px)" srcset="https://www.dvka.de/media/bilder/arbeitgeber/katheder_980x220px_pt_1268px.jpg">
+<img class="w-full h-full object-cover" src="https://www.dvka.de/media/bilder/arbeitgeber/katheder_980x220px.jpg"
+alt="Vier Personen betrachten ein Schriftst&uuml;ck"
+style="clip-path: path(&quot;M 256 0 L 827.533 0 L 827.533 256 L 0 256 Z&quot;);"
+>
+</picture>
+</div>
+<div class="px-sm pb-md md:py-sm md:px-0 lg:w-[500px] lg:max-h-[320px] lg:overflow-hidden lg:text-ellipsis">
+<div class="textShapeSloped"></div>
+<h3 class="h3 text-blue-dark group-active:text-blue-darkest group-hover:underline underline-offset-4 hyphens-auto" >
+Arbeitgeber & Erwerbstätige
+</h3>
+<p class="overflow-hidden text-ellipsis text-blue-darkest inline " style="-webkit-line-clamp: 9;" >
+<p class="text-blue-darkest">Sie arbeiten vor&uuml;bergehend im Ausland oder gew&ouml;hnlich in mehreren Staaten? Hier finden Sie Informationen und Vordrucke, z. B. auf Ausstellung der Bescheinigung A1.</p>
+</p>
+</div>
+</div>
+</a>
+</div>
+</div>
+</section>
+<section class="section" >
+<div class="tile-link-grid">
+<div class="tile-link-grid__tile-links grid gap-md md:gap-xl grid-cols-1 md:grid-cols-1 lg:grid-cols-1">
+<a class="group invisible" style="visibility: visible;" href="
+https://www.dvka.de/de/leistungserbringer/
+">
+<div class="grid grid-cols-1 grid-rows-[120px,_auto] gap-y-sm gap-x-lg lg:grid-cols-[280px,1fr] lg:grid-rows-[256px] lg:overflow-visible ">
+<div class="lg:order-1 w-full h-full lg:max-w-[827.54px]">
+<picture class="" data-sloped-image="true">
+<source media="(max-width: 374px)" srcset="https://www.dvka.de/media/bilder/startseite/patientin_pfleger1080_pt_374px.jpg">
+<source media="(max-width: 539px)" srcset="https://www.dvka.de/media/bilder/startseite/patientin_pfleger1080_pt_539px.jpg">
+<source media="(max-width: 767px)" srcset="https://www.dvka.de/media/bilder/startseite/patientin_pfleger1080_pt_767px.jpg">
+<source media="(max-width: 1023px)" srcset="https://www.dvka.de/media/bilder/startseite/patientin_pfleger1080_pt_991px.jpg">
+<source media="(max-width: 1267px)" srcset="https://www.dvka.de/media/bilder/startseite/patientin_pfleger1080_pt_1267px.jpg">
+<source media="(min-width: 1268px)" srcset="https://www.dvka.de/media/bilder/startseite/patientin_pfleger1080_pt_1268px.jpg">
+<img class="w-full h-full object-cover" src="https://www.dvka.de/media/bilder/startseite/patientin_pfleger1080.jpg"
+alt="Bild eines Pflegers am Bett einer &auml;lteren Patientin"
+style="clip-path: path(&quot;M 256 0 L 827.533 0 L 827.533 256 L 0 256 Z&quot;);"
+>
+</picture>
+</div>
+<div class="px-sm pb-md md:py-sm md:px-0 lg:w-[500px] lg:max-h-[320px] lg:overflow-hidden lg:text-ellipsis">
+<div class="textShapeSloped"></div>
+<h3 class="h3 text-blue-dark group-active:text-blue-darkest group-hover:underline underline-offset-4 hyphens-auto" >
+Leistungserbringer
+</h3>
+<p class="overflow-hidden text-ellipsis text-blue-darkest inline " style="-webkit-line-clamp: 9;" >
+<p class="text-blue-darkest">Zu Ihnen kommen im Ausland gesetzlich versicherte Patienten? Hier finden Sie Informationen, was bei der Behandlung dieser Patienten zu beachten ist.</p>
+</p>
+</div>
+</div>
+</a>
+</div>
+</div>
+</section>
+<section class="section" >
+<div class="tile-link-grid">
+<div class="tile-link-grid__tile-links grid gap-md md:gap-xl grid-cols-1 md:grid-cols-1 lg:grid-cols-1">
+<a class="group invisible" style="visibility: visible;" href="
+https://www.dvka.de/de/informationen/
+">
+<div class="grid grid-cols-1 grid-rows-[120px,_auto] gap-y-sm gap-x-lg lg:grid-cols-[280px,1fr] lg:grid-rows-[256px] lg:overflow-visible ">
+<div class="lg:order-1 w-full h-full lg:max-w-[827.54px]">
+<picture class="" data-sloped-image="true">
+<source media="(max-width: 374px)" srcset="https://www.dvka.de/media/bilder/startseite/bleistifte1080_pt_374px.jpg">
+<source media="(max-width: 539px)" srcset="https://www.dvka.de/media/bilder/startseite/bleistifte1080_pt_539px.jpg">
+<source media="(max-width: 767px)" srcset="https://www.dvka.de/media/bilder/startseite/bleistifte1080_pt_767px.jpg">
+<source media="(max-width: 1023px)" srcset="https://www.dvka.de/media/bilder/startseite/bleistifte1080_pt_991px.jpg">
+<source media="(max-width: 1267px)" srcset="https://www.dvka.de/media/bilder/startseite/bleistifte1080_pt_1267px.jpg">
+<source media="(min-width: 1268px)" srcset="https://www.dvka.de/media/bilder/startseite/bleistifte1080_pt_1268px.jpg">
+<img class="w-full h-full object-cover" src="https://www.dvka.de/media/bilder/startseite/bleistifte1080.jpg"
+alt="Ein B&uuml;ndel Bleistifte"
+style="clip-path: path(&quot;M 256 0 L 827.533 0 L 827.533 256 L 0 256 Z&quot;);"
+>
+</picture>
+</div>
+<div class="px-sm pb-md md:py-sm md:px-0 lg:w-[500px] lg:max-h-[320px] lg:overflow-hidden lg:text-ellipsis">
+<div class="textShapeSloped"></div>
+<h3 class="h3 text-blue-dark group-active:text-blue-darkest group-hover:underline underline-offset-4 hyphens-auto" >
+Informationen
+</h3>
+<p class="overflow-hidden text-ellipsis text-blue-darkest inline " style="-webkit-line-clamp: 9;" >
+<p class="text-blue-darkest">Hier finden Sie Adressen von ausl&auml;ndischen Institutionen, h&auml;ufig gestellte Fragen, die relevanten Rechtsquellen und die wichtigsten Umrechnungskurse.</p>
+</p>
+</div>
+</div>
+</a>
+</div>
+</div>
+</section>
+<section class="section" >
+<div class="tile-link-grid">
+<div class="tile-link-grid__tile-links grid gap-md md:gap-xl grid-cols-1 md:grid-cols-1 lg:grid-cols-1">
+<a class="group invisible" style="visibility: visible;" href="
+https://www.gkv-spitzenverband.de/presse/themen/fluechtlinge_asylbewerber/fluechtlinge.jsp
+">
+<div class="grid grid-cols-1 grid-rows-[120px,_auto] gap-y-sm gap-x-lg lg:grid-cols-[280px,1fr] lg:grid-rows-[256px] lg:overflow-visible ">
+<div class="lg:order-1 w-full h-full lg:max-w-[827.54px]">
+<picture class="" data-sloped-image="true">
+<source media="(max-width: 374px)" srcset="https://www.dvka.de/media/bilder/startseite/asylbewerber1080_pt_374px.jpg">
+<source media="(max-width: 539px)" srcset="https://www.dvka.de/media/bilder/startseite/asylbewerber1080_pt_539px.jpg">
+<source media="(max-width: 767px)" srcset="https://www.dvka.de/media/bilder/startseite/asylbewerber1080_pt_767px.jpg">
+<source media="(max-width: 1023px)" srcset="https://www.dvka.de/media/bilder/startseite/asylbewerber1080_pt_991px.jpg">
+<source media="(max-width: 1267px)" srcset="https://www.dvka.de/media/bilder/startseite/asylbewerber1080_pt_1267px.jpg">
+<source media="(min-width: 1268px)" srcset="https://www.dvka.de/media/bilder/startseite/asylbewerber1080_pt_1268px.jpg">
+<img class="w-full h-full object-cover" src="https://www.dvka.de/media/bilder/startseite/asylbewerber1080.jpg"
+alt="Asylsuchende in einem Krankenhaus"
+style="clip-path: path(&quot;M 256 0 L 827.533 0 L 827.533 256 L 0 256 Z&quot;);"
+>
+</picture>
+</div>
+<div class="px-sm pb-md md:py-sm md:px-0 lg:w-[500px] lg:max-h-[320px] lg:overflow-hidden lg:text-ellipsis">
+<div class="textShapeSloped"></div>
+<h3 class="h3 text-blue-dark group-active:text-blue-darkest group-hover:underline underline-offset-4 hyphens-auto" >
+Gesundheitsversorgung für Flüchtlinge/Asylsuchende
+</h3>
+<p class="overflow-hidden text-ellipsis text-blue-darkest inline " style="-webkit-line-clamp: 9;" >
+<p class="text-blue-darkest">Informationen zur Gesundheitsversorgung f&uuml;r Fl&uuml;chtlinge/Asylsuchende finden Sie hier.</p>
+</p>
+</div>
+</div>
+</a>
+</div>
+</div>
+</section>
+<section class="section" >
+<div class="tile-link-grid">
+<h2 class="text-blue text-center">
+Schnellzugriffe
+</h2>
+<div class="tile-link-grid__tile-links grid gap-md md:gap-xl grid-cols-1 md:grid-cols-1 lg:grid-cols-2">
+<a href="
+https://www.dvka.de/de/informationen/gkv-warnung.html
+"
+class="group border border-blue group-active:border-darkest p-sm flex flex-col h-full justify-between">
+<h3 class="h3 text-blue-dark group-active:text-blue-darkest group-hover:underline underline-offset-4 hyphens-auto" >
+Gefälschte E-Mails im Namen des GKV-Spitzenverbandes im Umlauf
+</h3>
+</a>
+<a href="
+https://www.eu-patienten.de/
+"
+class="group border border-blue group-active:border-darkest p-sm flex flex-col h-full justify-between">
+<h3 class="h3 text-blue-dark group-active:text-blue-darkest group-hover:underline underline-offset-4 hyphens-auto" >
+Nationale Kontaktstelle
+</h3>
+<p class="text-blue-darkest" >
+www.eu-patienten.de informiert Leistungserbringer sowie Patientinnen und Patienten über die grenzüberschreitende Gesundheitsversorgung.
+</p>
+</a>
+<a href="
+https://www.dvka.de/de/arbeitgeber-erwerbstaetige/antraege-finden/elektronisches-antragsverfahren-01_01_2025.html
+"
+class="group border border-blue group-active:border-darkest p-sm flex flex-col h-full justify-between">
+<h3 class="h3 text-blue-dark group-active:text-blue-darkest group-hover:underline underline-offset-4 hyphens-auto" >
+Elektr. Verfahren zur Beantragung von Bescheinigungen über die anwendbaren Rechtsvorschriften
+</h3>
+<p class="text-blue-darkest" >
+Hier finden Sie einen Überblick über die elektronischen Antrags- und Bescheinigungsverfahren A1 und SVA
+</p>
+</a>
+<a href="
+https://www.dvka.de/de/arbeitgeber-erwerbstaetige/antraege-finden/telearbeit/
+"
+class="group border border-blue group-active:border-darkest p-sm flex flex-col h-full justify-between">
+<h3 class="h3 text-blue-dark group-active:text-blue-darkest group-hover:underline underline-offset-4 hyphens-auto" >
+Telearbeit ab 01.07.2023
+</h3>
+<p class="text-blue-darkest" >
+Informationen zum Sozialversicherungsrecht bei grenzüberschreitender Telearbeit
+</p>
+</a>
+</div>
+</div>
+</section>
+</div>
+</main>
+	<section class="cb-banner fixed bottom-0 z-[1000] max-h-[90%] w-full overflow-y-auto bg-grey-lighter p-lg is-shortbody">
+	    <div class="container w-full">
+	        <form class="cb-form">
+	            <div class="flex flex-col">
+	                <h2 class="mb-sm">Wir verwenden Cookies</h2>
+	                <div>
+  <p>
+Wir setzen Cookies ein, um die Nutzung unseres Webauftritts f&uuml;r Sie komfortabler zu gestalten. Wir m&ouml;chten zudem Ihr Nutzungsverhalten besser verstehen, um Inhalte und Funktionen kontinuierlich zu verbessern. Bitte stimmen Sie daher der Nutzung folgender Cookies zu. N&auml;here Informationen zu den von uns gespeicherten Daten finden Sie in unserer <a class="group link inline-flex cursor-pointer gap-xs text-blue-darkest hover:text-blue" href="https://www.dvka.de/de/global/datenschutzbestimmungen.html" title="" target="_self"> <span class="flex flex-col"> <span class="flex items-center flex-1 group-focus:underline group-hover:underline font-bold"> Datenschutzerkl&auml;rung </span> </span> </a>.</p>
+	                </div>
+	            </div>
+	            <div class="my-sm flex flex-wrap items-center gap-md">
+	                <div>
+	                    <div class="relative flex flex-row-reverse justify-end gap-xs">
+	                        <label id="option_required-label" for="option_required"class="pt-px text-blue-darkest cursor-not-allowed self-center rounded-none bg-transparent">
+	                        	Notwendig
+	                        </label>
+	                        <input aria-labelledby="option_required-label" type="checkbox" id="option_required" name="option_required" disabled checked
+	                               class="undefined border-blue h-6 w-6 cursor-not-allowed flex-shrink-0 appearance-none rounded-none border bg-transparent">
+	                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" class="h-6 w-6 checkbox pointer-events-none absolute text-blue" height="24" width="24" xmlns="http://www.w3.org/2000/svg">
+	                            <path d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm10.03 4.97a.75.75 0 0 1 .011 1.05l-3.992 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.75.75 0 0 1 1.08-.022z"></path>
+	                        </svg>
+	                    </div>
+	                    <div class="ml-1 mt-2 grid-cols-[auto,_1fr] gap-1 text-red hidden" data-error="true"><p>*</p></div>
+	                </div>
+	                <div>
+	                    <div class="relative flex flex-row-reverse justify-end gap-xs">
+	                        <label id="option_statistic-label" for="option_statistic" class="pt-px text-blue-darkest cursor-pointer self-center rounded-none bg-transparent">
+	                        	Statistik
+	                        </label>
+	                        <input aria-labelledby="option_statistic-label" type="checkbox" id="option_statistic" name="option_statistic" class="undefined border-blue h-6 w-6 cursor-pointer flex-shrink-0 appearance-none rounded-none border bg-transparent">
+	                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" class="h-6 w-6 checkbox pointer-events-none absolute text-blue hidden" height="24" width="24" xmlns="http://www.w3.org/2000/svg">
+	                            <path d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm10.03 4.97a.75.75 0 0 1 .011 1.05l-3.992 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.75.75 0 0 1 1.08-.022z"></path>
+	                        </svg>
+	                    </div>
+	                    <div class="ml-1 mt-2 grid-cols-[auto,_1fr] gap-1 text-red hidden" data-error="true"><p>*</p></div>
+	                </div>
+	                <button type="button" aria-label="Details anzeigen" aria-controls="cb-faq" aria-expanded="false"
+	                 class="btn min-h-[44px] py-xxs px-sm flex justify-center items-center focus:underline hover:underline bg-transparent border border-1 border-blue text-blue-darkest hover:border-blue-darkest cb-details-toggle"
+	                >
+	                	<span>Details anzeigen</span>
+	                	<svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="24" width="24"
+	                	 class="cb-details-toggle__icon origin-center text-current transition-all duration-300 ease-out" xmlns="http://www.w3.org/2000/svg"
+	                	>
+	                		<path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+	                		<path d="M6 9l6 6l6 -6"></path>
+	                	</svg>
+	                </button>
+	                <button id="cb-accept-selection" type="submit" aria-label="Auswahl akzeptieren" class="btn min-h-[44px] py-xxs px-sm flex justify-center items-center focus:underline hover:underline bg-transparent border border-1 border-blue text-blue-darkest hover:border-blue-darkest">
+	                	Auswahl akzeptieren
+	                </button>
+	                <button id="cb-acceptall" type="button" aria-label="Alle Cookies akzeptieren" class="btn min-h-[44px] py-xxs px-sm flex justify-center items-center focus:underline hover:underline bg-blue text-white hover:bg-blue-darker">
+	                	Alle Cookies akzeptieren
+	                </button>
+	            </div>
+	        </form>
+	        <div id="cb-faq" class="cb-faq">
+		        	<details class="accordion group my-sm">
+	<summary class="summary btn-strong w-full cursor-pointer list-none min-h-[46px] p-xs pl-md flex items-center justify-between gap-sm bg-white text-blue-darker">
+		<span>Was sind Cookies? </span>
+		<svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"
+			class="chevron origin-center text-current transition-all duration-300 ease-out" height="32" width="32" xmlns="http://www.w3.org/2000/svg">
+			<path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+			<path d="M6 9l6 6l6 -6"></path>
+		</svg>
+	</summary>
+	<div class="accordion-body p-md">
+  <p>
+Cookies sind kleine Textdateien, die eine Webseite auf Ihrem Computer bzw. Endger&auml;t speichert, um einzelne Funktionen und Webanwendungen wie die Suche und Formulare nutzerfreundlicher gestalten zu k&ouml;nnen. Cookies werden in der Regel im Internetbrowser-Ordner bzw. vom Internetbrowser auf dem Betriebssystem Ihres Computers gespeichert.</p>
+  <p>
+Unsere Webseiten unterscheiden zwischen notwendigen Cookies, ohne die die Webseite nicht funktionieren w&uuml;rde, und Statistik-Cookies, mit deren Hilfe wir das Nutzerverhalten unserer Zielgruppen besser verstehen lernen und unsere Webseiten kontinuierlich verbessern k&ouml;nnen. Notwendige Cookies k&ouml;nnen wir laut Gesetz auf Ihrem Computer speichern. F&uuml;r die Statistik-Cookies ben&ouml;tigen wir Ihre Zustimmung.</p>
+  <p>
+Sie k&ouml;nnen Ihre Einwilligung zur Cookie-Erkl&auml;rung jederzeit auf unserer Website &auml;ndern oder widerrufen. Mehr dazu erfahren Sie in unserer <a class="group link inline-flex cursor-pointer gap-xs text-blue-darkest hover:text-blue" href="https://www.dvka.de/de/global/datenschutzbestimmungen.html" title="" target="_self"> <span class="flex flex-col"> <span class="flex items-center flex-1 group-focus:underline group-hover:underline font-bold"> Datenschutzerkl&auml;rung </span> </span> </a>.</p>
+	</div>
+</details>
+
+		        	<details class="accordion group my-sm">
+	<summary class="summary btn-strong w-full cursor-pointer list-none min-h-[46px] p-xs pl-md flex items-center justify-between gap-sm bg-white text-blue-darker">
+		<span>Was sind notwendige Cookies?</span>
+		<svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"
+			class="chevron origin-center text-current transition-all duration-300 ease-out" height="32" width="32" xmlns="http://www.w3.org/2000/svg">
+			<path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+			<path d="M6 9l6 6l6 -6"></path>
+		</svg>
+	</summary>
+	<div class="accordion-body p-md">
+  <p>
+Notwendige Cookies sorgen daf&uuml;r, dass unsere Webseiten korrekt funktionieren. Sie werden beispielsweise f&uuml;r die Navigation, die Suchfunktion und f&uuml;r einzelne Formulare ben&ouml;tigt. Folgende Cookies werden beim Besuch unserer Webseiten auf Ihrem Computer gespeichert:</p>
+  <p>
+<strong>BIGipServerDVKA-DVKA-PR-HTTPs_Pool (GKV-Spitzenverband)</strong><br />Dieser Cookie speichert die Information, &uuml;ber welchen unserer Server die Webseite besucht wird.<br /><strong>Ablauf:</strong> nach Schlie&szlig;en des Browserfensters/-tabs</p>
+  <p>
+<strong>creaseFont</strong> (GKV-Spizenverband)<br />Dieser Cookie speichert die bevorzugte Schriftgr&ouml;&szlig;e. Dieser Cookie wird nur gesetzt, wenn die Besucherin / der Besucher f&uuml;r diese Website eine andere Schriftgr&ouml;&szlig;e als die Standard-Schriftgr&ouml;&szlig;e gew&auml;hlt hat.<br /><strong>Ablauf:</strong> 60 Tage</p>
+  <p>
+<strong>JSESSIONID (GKV-Spitzenverband)</strong><br />Dieser Cookie speichert eine anonyme ID, die w&auml;hrend des Besuchs unserer Webseite f&uuml;r bestimmte Funktionen ben&ouml;tigt wird.<br /><strong>Ablauf:</strong> nach Schlie&szlig;en des Browserfensters/-tabs</p>
+	</div>
+</details>
+
+		        	<details class="accordion group my-sm">
+	<summary class="summary btn-strong w-full cursor-pointer list-none min-h-[46px] p-xs pl-md flex items-center justify-between gap-sm bg-white text-blue-darker">
+		<span>Was sind  Statistik-Cookies?</span>
+		<svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"
+			class="chevron origin-center text-current transition-all duration-300 ease-out" height="32" width="32" xmlns="http://www.w3.org/2000/svg">
+			<path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+			<path d="M6 9l6 6l6 -6"></path>
+		</svg>
+	</summary>
+	<div class="accordion-body p-md">
+  <p>
+Diese Cookies speichern Informationen zur Nutzung w&auml;hrend Ihres Besuchs unserer Webseiten. Die gespeicherten Informationen geben uns Auskunft &uuml;ber die Reichweite unseres Webauftritts und das Nutzungsverhalten unserer Besucherinnen und Besucher. Auf dieser Basis k&ouml;nnen wir unser Webangebot kontinuierlich f&uuml;r Sie verbessern. </p>
+  <p>
+S&auml;mtliche Informationen werden anonym erfasst und ausgewertet. Wir nutzen daf&uuml;r die Open-Source-Software Matomo, die auf unseren Servern installiert ist. N&auml;heres dazu k&ouml;nnen Sie in unserer <a class="group link inline-flex cursor-pointer gap-xs text-blue-darkest hover:text-blue" href="https://www.dvka.de/de/global/datenschutzbestimmungen.html" title="" target="_self"> <span class="flex flex-col"> <span class="flex items-center flex-1 group-focus:underline group-hover:underline font-bold"> Datenschutzerkl&auml;rung </span> </span> </a> nachlesen.</p>
+  <p>
+<strong>_pk_ses (GKV-Spitzenverband / Matomo)</strong><br /><strong>Ablauf:</strong> 30 Minuten</p>
+  <p>
+<strong>_pk_id (GKV-Spitzenverband / Matomo)</strong><br /><strong>Ablauf:</strong> 13 Monate</p>
+	</div>
+</details>
+
+			</div>
+	    </div>
+	</section>
+
+<footer class="footer text-blue-darkest">
+<div class="container">
+<div class="grid grid-cols-1 gap-y-xxl border-t-[1px] border-grey-lighter py-xxl">
+<div class="flex flex-col items-start gap-md md:flex-row md:gap-lg">
+<div class="min-w-fit w-auto h-[60px]">
+<a href="
+https://www.gkv-spitzenverband.de
+">
+<img class="w-full h-full" src="https://www.dvka.de/media/bilder/startseite/gkv_1.png" >
+</a>
+</div>
+<div class=" md:mt-[-8px]">
+<h6 class="h6">GKV-Spitzenverband</h6>
+<p>
+Die DVKA ist eine Abteilung des GKV-Spitzenverbandes. Der GKV-Spitzenverband ist die zentrale Interessenvertretung der gesetzlichen Kranken- und Pflegekassen in Deutschland.</p>
+</div>
+</div>
+<nav class="footer__nav" aria-label="Footer main navigation">
+<ul class="grid grid-cols-1 gap-y-xxl gap-x-md md:grid-cols-3">
+<li>
+<div class="link-list text-blue-darkest">
+<h6 class="h6">Versicherte</h6>
+<ul class="link-list__list flex flex-col gap-xs pl-sm">
+<li>
+<a class="link text-blue-darkest w-auto cursor-pointer gap-xs flex hover:text-blue"
+aria-label="Follow link" aria-expanded="false" href="https://www.dvka.de/de/versicherte/touristen/" title="Touristen" target="_self">
+<svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24"
+height="24" width="24" xmlns="http://www.w3.org/2000/svg">
+<path fill="none" d="M0 0h24v24H0z"></path>
+<path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path>
+</svg>
+<span class="flex items-center flex-1 focus:underline hover:underline">Touristen</span>
+</a>
+</li>
+<li>
+<a class="link text-blue-darkest w-auto cursor-pointer gap-xs flex hover:text-blue"
+aria-label="Follow link" aria-expanded="false" href="https://www.dvka.de/de/versicherte/rentner/" title="Rentner" target="_self">
+<svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24"
+height="24" width="24" xmlns="http://www.w3.org/2000/svg">
+<path fill="none" d="M0 0h24v24H0z"></path>
+<path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path>
+</svg>
+<span class="flex items-center flex-1 focus:underline hover:underline">Rentner</span>
+</a>
+</li>
+<li>
+<a class="link text-blue-darkest w-auto cursor-pointer gap-xs flex hover:text-blue"
+aria-label="Follow link" aria-expanded="false" href="https://www.dvka.de/de/versicherte/grenzgaenger/" title="Grenzgänger" target="_self">
+<svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24"
+height="24" width="24" xmlns="http://www.w3.org/2000/svg">
+<path fill="none" d="M0 0h24v24H0z"></path>
+<path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path>
+</svg>
+<span class="flex items-center flex-1 focus:underline hover:underline">Grenzgänger</span>
+</a>
+</li>
+<li>
+<a class="link text-blue-darkest w-auto cursor-pointer gap-xs flex hover:text-blue"
+aria-label="Follow link" aria-expanded="false" href="https://www.dvka.de/de/versicherte/studierende-und-praktikanten/" title="Studierende und Praktikanten" target="_self">
+<svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24"
+height="24" width="24" xmlns="http://www.w3.org/2000/svg">
+<path fill="none" d="M0 0h24v24H0z"></path>
+<path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path>
+</svg>
+<span class="flex items-center flex-1 focus:underline hover:underline">Studierende und Praktikanten</span>
+</a>
+</li>
+<li>
+<a class="link text-blue-darkest w-auto cursor-pointer gap-xs flex hover:text-blue"
+aria-label="Follow link" aria-expanded="false" href="https://www.dvka.de/de/versicherte/faq/" title="Häufig gestellte Fragen" target="_self">
+<svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24"
+height="24" width="24" xmlns="http://www.w3.org/2000/svg">
+<path fill="none" d="M0 0h24v24H0z"></path>
+<path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path>
+</svg>
+<span class="flex items-center flex-1 focus:underline hover:underline">Häufig gestellte Fragen</span>
+</a>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<div class="link-list text-blue-darkest">
+<h6 class="h6">Arbeitgeber &amp; Erwerbst&auml;tige</h6>
+<ul class="link-list__list flex flex-col gap-xs pl-sm">
+<li>
+<a class="link text-blue-darkest w-auto cursor-pointer gap-xs flex hover:text-blue"
+aria-label="Follow link" aria-expanded="false" href="https://www.dvka.de/de/arbeitgeber-erwerbstaetige/antraege-finden/" title="Antrags- und Bescheinigungsverfahren - allgemein" target="_self">
+<svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24"
+height="24" width="24" xmlns="http://www.w3.org/2000/svg">
+<path fill="none" d="M0 0h24v24H0z"></path>
+<path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path>
+</svg>
+<span class="flex items-center flex-1 focus:underline hover:underline">Antrags- und Bescheinigungsverfahren</span>
+</a>
+</li>
+<li>
+<a class="link text-blue-darkest w-auto cursor-pointer gap-xs flex hover:text-blue"
+aria-label="Follow link" aria-expanded="false" href="https://www.dvka.de/de/arbeitgeber-erwerbstaetige/antragstellung-im-sv-meldeportal/" title="Antragstellung im SV-Meldeportal - Tätigkeit in mehreren Staaten" target="_self">
+<svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24"
+height="24" width="24" xmlns="http://www.w3.org/2000/svg">
+<path fill="none" d="M0 0h24v24H0z"></path>
+<path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path>
+</svg>
+<span class="flex items-center flex-1 focus:underline hover:underline">Antragstellung im SV-Meldeportal</span>
+</a>
+</li>
+<li>
+<a class="link text-blue-darkest w-auto cursor-pointer gap-xs flex hover:text-blue"
+aria-label="Follow link" aria-expanded="false" href="https://www.dvka.de/de/arbeitgeber-erwerbstaetige/laenderspezifische-informationen/" title="Länderspezifische Informationen" target="_self">
+<svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24"
+height="24" width="24" xmlns="http://www.w3.org/2000/svg">
+<path fill="none" d="M0 0h24v24H0z"></path>
+<path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path>
+</svg>
+<span class="flex items-center flex-1 focus:underline hover:underline">Länderspezifische Informationen</span>
+</a>
+</li>
+<li>
+<a class="link text-blue-darkest w-auto cursor-pointer gap-xs flex hover:text-blue"
+aria-label="Follow link" aria-expanded="false" href="https://www.dvka.de/de/arbeitgeber-erwerbstaetige/geltungsbereiche/" title="Geltungsbereiche im internationalen Sozialrecht" target="_self">
+<svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24"
+height="24" width="24" xmlns="http://www.w3.org/2000/svg">
+<path fill="none" d="M0 0h24v24H0z"></path>
+<path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path>
+</svg>
+<span class="flex items-center flex-1 focus:underline hover:underline">Geltungsbereiche im internationalen Sozialrecht</span>
+</a>
+</li>
+<li>
+<a class="link text-blue-darkest w-auto cursor-pointer gap-xs flex hover:text-blue"
+aria-label="Follow link" aria-expanded="false" href="https://www.dvka.de/de/versicherte/faq/" title="Häufig gestellte Fragen" target="_self">
+<svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24"
+height="24" width="24" xmlns="http://www.w3.org/2000/svg">
+<path fill="none" d="M0 0h24v24H0z"></path>
+<path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path>
+</svg>
+<span class="flex items-center flex-1 focus:underline hover:underline">Häufig gestellte Fragen</span>
+</a>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<div class="link-list text-blue-darkest">
+<h6 class="h6">Leistungserbringer</h6>
+<ul class="link-list__list flex flex-col gap-xs pl-sm">
+<li>
+<a class="link text-blue-darkest w-auto cursor-pointer gap-xs flex hover:text-blue"
+aria-label="Follow link" aria-expanded="false" href="https://www.dvka.de/de/leistungserbringer/vertragsaerztliche-versorgung/" title="Vertragsärztliche Versorgung " target="_self">
+<svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24"
+height="24" width="24" xmlns="http://www.w3.org/2000/svg">
+<path fill="none" d="M0 0h24v24H0z"></path>
+<path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path>
+</svg>
+<span class="flex items-center flex-1 focus:underline hover:underline">Vertragsärztliche Versorgung </span>
+</a>
+</li>
+<li>
+<a class="link text-blue-darkest w-auto cursor-pointer gap-xs flex hover:text-blue"
+aria-label="Follow link" aria-expanded="false" href="https://www.dvka.de/de/leistungserbringer/vertragszahnaerztliche-versorgung/" title="Vertragszahnärztliche Versorgung " target="_self">
+<svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24"
+height="24" width="24" xmlns="http://www.w3.org/2000/svg">
+<path fill="none" d="M0 0h24v24H0z"></path>
+<path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path>
+</svg>
+<span class="flex items-center flex-1 focus:underline hover:underline">Vertragszahnärztliche Versorgung </span>
+</a>
+</li>
+<li>
+<a class="link text-blue-darkest w-auto cursor-pointer gap-xs flex hover:text-blue"
+aria-label="Follow link" aria-expanded="false" href="https://www.dvka.de/de/leistungserbringer/stationaere-versorgung/" title="Stationäre Versorgung " target="_self">
+<svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24"
+height="24" width="24" xmlns="http://www.w3.org/2000/svg">
+<path fill="none" d="M0 0h24v24H0z"></path>
+<path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path>
+</svg>
+<span class="flex items-center flex-1 focus:underline hover:underline">Stationäre Versorgung </span>
+</a>
+</li>
+<li>
+<a class="link text-blue-darkest w-auto cursor-pointer gap-xs flex hover:text-blue"
+aria-label="Follow link" aria-expanded="false" href="https://www.dvka.de/de/leistungserbringer/leistungsumfang/" title="Leistungsumfang EHIC/PEB" target="_self">
+<svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24"
+height="24" width="24" xmlns="http://www.w3.org/2000/svg">
+<path fill="none" d="M0 0h24v24H0z"></path>
+<path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path>
+</svg>
+<span class="flex items-center flex-1 focus:underline hover:underline">Leistungsumfang EHIC/PEB</span>
+</a>
+</li>
+<li>
+<a class="link text-blue-darkest w-auto cursor-pointer gap-xs flex hover:text-blue"
+aria-label="Follow link" aria-expanded="false" href="https://www.dvka.de/de/leistungserbringer/informationsportal-ehic-peb/" title="Informationsportal EHIC/PEB" target="_self">
+<svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24"
+height="24" width="24" xmlns="http://www.w3.org/2000/svg">
+<path fill="none" d="M0 0h24v24H0z"></path>
+<path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path>
+</svg>
+<span class="flex items-center flex-1 focus:underline hover:underline">Informationsportal EHIC/PEB</span>
+</a>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<div class="link-list text-blue-darkest">
+<h6 class="h6">Die DVKA</h6>
+<ul class="link-list__list flex flex-col gap-xs pl-sm">
+<li>
+<a class="link text-blue-darkest w-auto cursor-pointer gap-xs flex hover:text-blue"
+aria-label="Follow link" aria-expanded="false" href="https://www.dvka.de/de/die-dvka/wir-ueber-uns/" title="Wir über uns" target="_self">
+<svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24"
+height="24" width="24" xmlns="http://www.w3.org/2000/svg">
+<path fill="none" d="M0 0h24v24H0z"></path>
+<path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path>
+</svg>
+<span class="flex items-center flex-1 focus:underline hover:underline">Wir über uns</span>
+</a>
+</li>
+<li>
+<a class="link text-blue-darkest w-auto cursor-pointer gap-xs flex hover:text-blue"
+aria-label="Follow link" aria-expanded="false" href="https://www.dvka.de/de/die-dvka/ausschreibungen/" title="Ausschreibungen" target="_self">
+<svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24"
+height="24" width="24" xmlns="http://www.w3.org/2000/svg">
+<path fill="none" d="M0 0h24v24H0z"></path>
+<path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path>
+</svg>
+<span class="flex items-center flex-1 focus:underline hover:underline">Ausschreibungen</span>
+</a>
+</li>
+<li>
+<a class="link text-blue-darkest w-auto cursor-pointer gap-xs flex hover:text-blue"
+aria-label="Follow link" aria-expanded="false" href="https://www.dvka.de/de/die-dvka/merkblaetter/" title="Merkblätter" target="_self">
+<svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24"
+height="24" width="24" xmlns="http://www.w3.org/2000/svg">
+<path fill="none" d="M0 0h24v24H0z"></path>
+<path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path>
+</svg>
+<span class="flex items-center flex-1 focus:underline hover:underline">Merkblätter</span>
+</a>
+</li>
+<li>
+<a class="link text-blue-darkest w-auto cursor-pointer gap-xs flex hover:text-blue"
+aria-label="Follow link" aria-expanded="false" href="https://www.dvka.de/de/die-dvka/so-erreichen-sie-uns/" title="So erreichen Sie uns" target="_self">
+<svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24"
+height="24" width="24" xmlns="http://www.w3.org/2000/svg">
+<path fill="none" d="M0 0h24v24H0z"></path>
+<path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path>
+</svg>
+<span class="flex items-center flex-1 focus:underline hover:underline">So erreichen Sie uns</span>
+</a>
+</li>
+<li>
+<a class="link text-blue-darkest w-auto cursor-pointer gap-xs flex hover:text-blue"
+aria-label="Follow link" aria-expanded="false" href="https://www.dvka.de/de/die-dvka/karriere/" title="Karriere" target="_self">
+<svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24"
+height="24" width="24" xmlns="http://www.w3.org/2000/svg">
+<path fill="none" d="M0 0h24v24H0z"></path>
+<path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path>
+</svg>
+<span class="flex items-center flex-1 focus:underline hover:underline">Karriere</span>
+</a>
+</li>
+<li>
+<a class="link text-blue-darkest w-auto cursor-pointer gap-xs flex hover:text-blue"
+aria-label="Follow link" aria-expanded="false" href="https://www.dvka.de/de/global/datenschutz_rechtl_hinweise.html" title="Rechtliche Hinweise zum Datenschutz" target="_self">
+<svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24"
+height="24" width="24" xmlns="http://www.w3.org/2000/svg">
+<path fill="none" d="M0 0h24v24H0z"></path>
+<path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path>
+</svg>
+<span class="flex items-center flex-1 focus:underline hover:underline">Rechtliche Hinweise zum Datenschutz</span>
+</a>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<div class="link-list text-blue-darkest">
+<h6 class="h6">Informationen</h6>
+<ul class="link-list__list flex flex-col gap-xs pl-sm">
+<li>
+<a class="link text-blue-darkest w-auto cursor-pointer gap-xs flex hover:text-blue"
+aria-label="Follow link" aria-expanded="false" href="https://www.dvka.de/de/informationen/auskunftstellen/" title="Auskunftstellen" target="_self">
+<svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24"
+height="24" width="24" xmlns="http://www.w3.org/2000/svg">
+<path fill="none" d="M0 0h24v24H0z"></path>
+<path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path>
+</svg>
+<span class="flex items-center flex-1 focus:underline hover:underline">Auskunftstellen</span>
+</a>
+</li>
+<li>
+<a class="link text-blue-darkest w-auto cursor-pointer gap-xs flex hover:text-blue"
+aria-label="Follow link" aria-expanded="false" href="https://www.dvka.de/de/informationen/glossar/" title="Glossar" target="_self">
+<svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24"
+height="24" width="24" xmlns="http://www.w3.org/2000/svg">
+<path fill="none" d="M0 0h24v24H0z"></path>
+<path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path>
+</svg>
+<span class="flex items-center flex-1 focus:underline hover:underline">Glossar</span>
+</a>
+</li>
+<li>
+<a class="link text-blue-darkest w-auto cursor-pointer gap-xs flex hover:text-blue"
+aria-label="Follow link" aria-expanded="false" href="https://www.dvka.de/de/informationen/rechtsquellen/" title="Rechtsquellen" target="_self">
+<svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24"
+height="24" width="24" xmlns="http://www.w3.org/2000/svg">
+<path fill="none" d="M0 0h24v24H0z"></path>
+<path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path>
+</svg>
+<span class="flex items-center flex-1 focus:underline hover:underline">Rechtsquellen</span>
+</a>
+</li>
+<li>
+<a class="link text-blue-darkest w-auto cursor-pointer gap-xs flex hover:text-blue"
+aria-label="Follow link" aria-expanded="false" href="https://www.dvka.de/de/informationen/institution-repository/" title="Institution Repository" target="_self">
+<svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24"
+height="24" width="24" xmlns="http://www.w3.org/2000/svg">
+<path fill="none" d="M0 0h24v24H0z"></path>
+<path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path>
+</svg>
+<span class="flex items-center flex-1 focus:underline hover:underline">Institution Repository</span>
+</a>
+</li>
+<li>
+<a class="link text-blue-darkest w-auto cursor-pointer gap-xs flex hover:text-blue"
+aria-label="Follow link" aria-expanded="false" href="https://www.dvka.de/de/informationen/umrechnungskurse/" title="Umrechnungskurse" target="_self">
+<svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24"
+height="24" width="24" xmlns="http://www.w3.org/2000/svg">
+<path fill="none" d="M0 0h24v24H0z"></path>
+<path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path>
+</svg>
+<span class="flex items-center flex-1 focus:underline hover:underline">Umrechnungskurse</span>
+</a>
+</li>
+<li>
+<a class="link text-blue-darkest w-auto cursor-pointer gap-xs flex hover:text-blue"
+aria-label="Follow link" aria-expanded="false" href="https://www.dvka.de/de/informationen/brexit/" title="Brexit" target="_self">
+<svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24"
+height="24" width="24" xmlns="http://www.w3.org/2000/svg">
+<path fill="none" d="M0 0h24v24H0z"></path>
+<path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path>
+</svg>
+<span class="flex items-center flex-1 focus:underline hover:underline">Brexit</span>
+</a>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</nav>
+<div>
+<a class="link text-blue-darkest w-auto cursor-pointer gap-xs flex hover:text-blue"
+aria-label="Seite drucken" aria-expanded="false" href="javascript:window.print()">
+<svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="24"
+width="24" xmlns="http://www.w3.org/2000/svg">
+<path fill="none" d="M0 0h24v24H0V0z"></path>
+<path d="M19 8h-1V3H6v5H5c-1.66 0-3 1.34-3 3v6h4v4h12v-4h4v-6c0-1.66-1.34-3-3-3zM8 5h8v3H8V5zm8 14H8v-4h8v4zm2-4v-2H6v2H4v-4c0-.55.45-1 1-1h14c.55 0 1 .45 1 1v4h-2z"></path>
+<circle cx="18" cy="11.5" r="1"></circle>
+</svg>
+<span class="flex items-center flex-1 focus:underline hover:underline">Drucken</span>
+</a>
+</div>
+<small class="flex flex-col gap-lg md:flex-row md:justify-between"><p>© GKV-Spitzenverband DVKA</p>
+<p>Zuletzt aktualisiert: 29.12.2025</p>
+</small>
+<nav class="footer__nav-bottom" aria-label="Footer secondary navigation">
+<ul class="flex flex-wrap gap-lg">
+<li>
+<a class="link text-blue-darkest w-auto cursor-pointer gap-xs flex hover:text-blue"
+aria-label="Follow link" aria-expanded="false" href="https://www.dvka.de/de/global/impressum.html" title="Impressum" target="_self">
+<span class="flex items-center flex-1 focus:underline hover:underline">Impressum</span>
+</a>
+</li>
+<li>
+<a class="link text-blue-darkest w-auto cursor-pointer gap-xs flex hover:text-blue"
+aria-label="Follow link" aria-expanded="false" href="https://www.dvka.de/de/global/datenschutz_rechtl_hinweise.html" title="Datenschutz " target="_self">
+<span class="flex items-center flex-1 focus:underline hover:underline">Datenschutz </span>
+</a>
+</li>
+<li>
+<a class="link text-blue-darkest w-auto cursor-pointer gap-xs flex hover:text-blue"
+aria-label="Follow link" aria-expanded="false" href="https://www.dvka.de/de/die-dvka/so-erreichen-sie-uns/" title="Kontakt " target="_self">
+<span class="flex items-center flex-1 focus:underline hover:underline">Kontakt </span>
+</a>
+</li>
+<li>
+<a class="link text-blue-darkest w-auto cursor-pointer gap-xs flex hover:text-blue"
+aria-label="Follow link" aria-expanded="false" href="https://www.dvka.de/de/global/suchseite.html" title="Suche " target="_self">
+<span class="flex items-center flex-1 focus:underline hover:underline">Suche </span>
+</a>
+</li>
+<li>
+<a class="link text-blue-darkest w-auto cursor-pointer gap-xs flex hover:text-blue"
+aria-label="Follow link" aria-expanded="false" href="https://www.dvka.de/de/informationen/" title="Informationen" target="_self">
+<span class="flex items-center flex-1 focus:underline hover:underline">Informationen</span>
+</a>
+</li>
+<li>
+<a class="link text-blue-darkest w-auto cursor-pointer gap-xs flex hover:text-blue"
+aria-label="Follow link" aria-expanded="false" href="https://www.dvka.de/de/global/erklaerung-zur-barrierefreiheit.html" title="Erklärung zur Barrierefreiheit" target="_self">
+<span class="flex items-center flex-1 focus:underline hover:underline">Erklärung zur Barrierefreiheit</span>
+</a>
+</li>
+<li>
+<a class="link text-blue-darkest w-auto cursor-pointer gap-xs flex hover:text-blue"
+aria-label="Follow link" aria-expanded="false" href="https://www.dvka.de/de/global/interne-meldestelle.html" title="Interne Meldestelle" target="_self">
+<span class="flex items-center flex-1 focus:underline hover:underline">Interne Meldestelle</span>
+</a>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</footer>
+<!-- 5.2.231107.f91f23c | 2026-10-25 01:00 | homepage | 225852 -->
+</body>
+</html>

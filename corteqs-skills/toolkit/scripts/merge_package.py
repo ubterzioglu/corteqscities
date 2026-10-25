@@ -163,8 +163,12 @@ def _city_arg(text: str) -> str:
     return text
 
 
+INVISIBLE_RE = re.compile("[­​-‏⁠-⁤﻿]")  # yumusak tire, sifir genislik, yon isaretleri
+
+
 def norm(text: Any) -> str:
-    text = unicodedata.normalize("NFKC", str(text))
+    """NFKC, gorunmez karakterler (yumusak tire vb.) atilir, bosluk tek, casefold: alinti karsilastirmasi icin."""
+    text = INVISIBLE_RE.sub("", unicodedata.normalize("NFKC", str(text)))
     return re.sub(r"\s+", " ", text).strip().casefold()
 
 

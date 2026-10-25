@@ -29,6 +29,14 @@ $DU = "<corteqs-skills>\deneme_ulke_paketi"
 ## Ölçüm
 Ülke, bölge, şehir fazları ayrı süre/token olarak `RUN_LOG`'a yazılır. Taban: Bakersfield ~7 sa / 6,9 M çıktı / ~130 ajan.
 
+## İkinci ülke: Almanya (`ROOT\ulke\DE`, v1, 25.10.2026)
+- Aynı akış, tek Windows oturumunda, ölçümlü: 113 kart / 11 konu / 2120 iddia / 193 kaynak; 2 sa 21 dk duvar saati, 3,9 M çıktı token, 15,6 M önbellek dışı girdi, 52 Sonnet ajanı (11 keşif, 11 yazar, 11 denetçi, 11 editör, 4 dar denetim, 4 kısa editör). Kayıt: `ulke\DE\_is\phase_usage.csv`, `phase_log.jsonl` (fazlar gerçekte paralel çalıştı; log ardışık pencerelere indirildi).
+- Ülkeye özgü dosyalar: `DE_aday_kartlar.md` (108 aday → 113 kart), `DE_YAZAR_NOTLARI.md` (federal yapı, Türk okuyucu, çeviri, kaynak öncelikleri), görev metinleri `ulke\DE\_is\kesif\KESIF_GOREV.md`, `ulke\DE\_is\yazar\{YAZAR,DENETCI,EDITOR}_GOREV.md` (ülkeden bağımsız; sonraki ülkede kopyalanıp kimlikler değiştirilir).
+- `pack_check` şehir adı taraması ülkeye göre (`CITIES_BY_COUNTRY`, yol `ulke\<ISO>` ile seçilir). `pack_check` ve `merge_package` alıntı karşılaştırması yumuşak tireyi (U+00AD) ve sıfır genişlikli karakterleri yok sayar (Alman resmî sayfalarında tireleme yaygın).
+- Keşifte ders: ajanlar sayfayı WebFetch değil düz indirme + etiket ayıklama ile okuyup `must_contain`'i öyle doğruladı; 11 konuda 264 adayın 261'i `add_sources`'ta kabul edildi. Windows sertifika deposu bazı Alman sitelerinin ara sertifikasını ilk denemede tanımadı (`tls` hatası); `curl` ile bir kez açılınca Python da açtı → `--retry-transient` ile ikinci deneme yeter.
+- Editör kuralı genişletildi: ciddi/orta bulgu için editör `add_sources` ile kaynak ekleyebilir (kart başına 2 sınırı korunarak); küçük bulgu için eklemez.
+- Bölge (eyalet) paketi yok; şehir sırası ve eyalet dağılımı `ROOT\ALMANYA_YENI_SEHIR.md`.
+
 ## Bölge paketi (`ROOT\ulke\ES\bolge\<ad>\`)
 - Aynı düzen ve aynı akış (keşif → `add_sources` → yazar → `pack_check` → bağımsız denetim → editör). Çalışma klasörü `bolge\<ad>\_is\`; kaynak kimliği `add_sources --city-id es-<kısa>` ile (ör. `es-an:kaynak:001`), ulusal kimliklerle çakışmaz.
 - Kartlarda kimlik biçimi ulusalla aynı (`entry_id es:<slug>`, `topic_id es:<konu>`, `action_id es:action:...`); slug ulusal paketle çakışmamalı (`endulus-` öneki). Yalnız bölgeye özgü bilgi; ulusal kartı tekrarlama.

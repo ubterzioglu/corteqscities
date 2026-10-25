@@ -16,8 +16,17 @@ import sys
 import unicodedata
 from pathlib import Path
 
-CITIES = ("barcelona", "madrid", "sevilla", "valensiya", "valencia", "málaga", "malaga", "bilbao", "palma", "marbella",
-          "alicante", "tarragona", "zaragoza", "tenerife")
+# Sehir adi taramasi ulkeye gore: <ISO>\_is yolundaki ulke kodu secer; bilinmeyen kodda hepsi taranir.
+CITIES_BY_COUNTRY = {
+    "ES": ("barcelona", "madrid", "sevilla", "valensiya", "valencia", "málaga", "malaga", "bilbao", "palma", "marbella",
+           "alicante", "tarragona", "zaragoza", "tenerife"),
+    "DE": ("berlin", "münchen", "munih", "munich", "hamburg", "köln", "koln", "frankfurt", "stuttgart", "düsseldorf",
+           "dusseldorf", "dortmund", "essen", "leipzig", "bremen", "dresden", "hannover", "nürnberg", "nurnberg",
+           "duisburg", "bochum", "augsburg", "ulm", "bielefeld", "heilbronn", "mannheim", "karlsruhe", "wiesbaden",
+           "münster", "bonn", "aachen", "freiburg", "kiel", "mainz", "erfurt", "potsdam", "magdeburg", "saarbrücken",
+           "schwerin"),
+}
+CITIES = tuple(c for cities in CITIES_BY_COUNTRY.values() for c in cities)
 # YAZAR_KURALLARI md. 3: havale cumlesi (okuyucuyu baska sayfaya/belgeye gonderen ya da kartin eksigini soyleyen)
 BANNED = ("teyit et", "doğrulayın", "sayfasından kontrol et", "metninden kontrol et", "resmî sayfada yazar",
           "resmi sayfada yazar", "bu kartta yok", "burada açıklanmıyor", "kaynaklarında yer almaz", "kaynakta yok",
@@ -27,15 +36,29 @@ REQUIRED = ("entry_id", "city_id", "slug", "title", "summary", "steps", "source_
             "editorial_status")  # steps: merge_package topic_or_steps
 
 
+INVISIBLE_RE = re.compile("[­​-‏⁠-⁤﻿]")  # merge_package.norm ile ayni: yumusak tire vb.
+
+
 def norm(text: str) -> str:
-    return re.sub(r"\s+", " ", unicodedata.normalize("NFKC", text)).strip().casefold()
+    text = INVISIBLE_RE.sub("", unicodedata.normalize("NFKC", text))
+    return re.sub(r"\s+", " ", text).strip().casefold()
 
 
 def rows(path: Path) -> list[dict]:
     return [json.loads(line) for line in path.read_text(encoding="utf-8").splitlines() if line.strip()]
 
 
+def cities_for(work: Path) -> tuple[str, ...]:
+    """<ROOT>\\ulke\\<ISO>\\...\\_is yolundan ulke kodunu bulur; bulunamazsa butun sehir adlari taranir."""
+    parts = [p.name for p in work.resolve().parents]
+    for child, parent in zip([work.resolve().name] + parts, parts):
+        if parent.lower() == "ulke" and child.upper() in CITIES_BY_COUNTRY:
+            return CITIES_BY_COUNTRY[child.upper()]
+    return CITIES
+
+
 def main(work: Path, topic: str) -> int:
+    cities = cities_for(work)
     out = work / "yazar" / "out" / topic
     cards, claims = rows(out / f"Yanıtlar.{topic}.jsonl"), rows(out / f"claims.{topic}.jsonl")
     actions = rows(out / f"Bağlantılar.{topic}.jsonl")
@@ -53,7 +76,7 @@ def main(work: Path, topic: str) -> int:
             findings.append(f"{slug}: kaynak sayisi {len(ids)}")
         findings += [f"{slug}: kaynak dizinde yok {s}" for s in ids if s not in index]
         blob = norm(json.dumps(card, ensure_ascii=False))
-        findings += [f"{slug}: sehir adi '{c}'" for c in CITIES if re.search(rf"\b{c}\b", blob)]
+        findings += [f"{slug}: sehir adi '{c}'" for c in cities if re.search(rf"\b{c}\b", blob)]
         findings += [f"{slug}: yasakli ifade '{b}'" for b in BANNED if b in blob]
         if len(str(card.get("title", ""))) > TITLE_MAX or len(str(card.get("subtitle", ""))) > SUBTITLE_MAX:
             findings.append(f"{slug}: baslik/alt baslik uzun ({len(str(card.get('title', '')))}/"

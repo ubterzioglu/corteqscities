@@ -1,0 +1,22 @@
+# ulasim keşif boşlukları (25.10.2026)
+
+## Kart bazında
+- Kart 1 (Deutschlandticket): kapsandı. DİKKAT: 63 Euro yalnız 31.12.2026'ya kadar; bahn.de (Stand Ekim 2026) 1 Ocak 2027'den itibaren 66,80 Euro ve abonelere 30 Kasım 2026'ya kadar geri dönüş/itiraz süresi yazıyor. Kart yazarı iki tutarı da tarihle vermeli, valid_until 2026-12-31. Kündigung: ayın 10'una kadar (bahn.de ve deutschlandticket.de). bmv.de'nin Deutschlandticket sayfası aranmadı (bahn.de + deutschlandticket.de yeterli sayıldı).
+- Kart 2 (tren): Sparpreis/Flexpreis iptal ve gecikme tazminatı kapsandı (bahn.de iki sayfa; EBA şikayet yolu). Kısmi: AB 2021/782'nin kendi metni kanıtsız (eur-lex boş içerik döndürdü, bkz. erişim). Bilet iptal ücretleri (10 / 30 Euro vb.) bahn.de sayfasının dinamik bölümünde olabilir; yalnız birebir doğrulanan 3 saat sofort-stornierung ve Super Sparpreis cümleleri must_contain'de. İptal ücret rakamı yazılacaksa sayfa metninden tekrar doğrulanmalı. Zeitkarte/Deutschlandticket gecikme: 1,50 Euro (2. Klasse) bahn.de rechtliche-regelungen sayfasında.
+- Kart 3 (Türk ehliyeti): kısmi-güçlü. 6 ay kuralı (FeV §29, bmv.de), 6 ay uzatma. Anlage 11 (FeV) sayfasında Türkei GEÇMİYOR (sayfa metninde "Tür" araması boş) yani prüfungsfreie Umschreibung listesinde değil; "Türkiye için hem teorik hem pratik sınav" cümlesi hiçbir resmî sayfada Türkiye adıyla yazılı değil, çıkarımdır: kart yazarı "Türkiye, FeV Anlage 11 listesinde yer almıyor" diye yazabilir, "sınav şart" kısmını "ilgili kurala göre; liste dışı devletler için erleichterte Umschreibung yok, detay Fahrerlaubnisbehörde" şeklinde çerçevelemeli. DİKKAT: BMV Referentenentwurf (15.01.2026, WebSearch özeti, doğrulanmadı) Anlage 11 ve liste dışı devlet kurallarında değişiklik öngörüyor; yürürlük durumu bilinmiyor, kart yazarı tarihle uyarmalı. Bundesportal (verwaltung.bund.de) Umschreibung hizmeti sayfası denenmedi.
+- Kart 4 (trafik): hız (StVO §3: 50 / 100), alkol 0,5 (§24a), Probezeit/21 yaş altı alkol yasağı (§24c, §2a: 2 yıl), Flensburg (§4: 4-5 Ermahnung, 6-7 Verwarnung, 8 Entzug) kapsandı. Kısmi: Autobahn Richtgeschwindigkeit 130 km/h (BAB-Richtgeschwindigkeits-Verordnung) bulunamadı (tahmini adresler 404); 0,0 sınırı §24c metninde "alkoholisches Getränk zu sich nimmt" olarak geçer, "0,0 Promille" sözcüğü geçmez. Puan değerleri tablosu (Anlage 13 FeV) denenmedi; KBA kba.de puan sayfası denenmedi (bütçe). Bu kart 5 sayfaya yayıldı; yazar ≤2 kaynak için alt konu seçmeli.
+- Kart 5 (HU + Kfz-Steuer): HU 24 ay (otomobil ilk HU 36 ay, sonra 24; motosiklet 24) Anlage VIII StVZO; Kfz-Steuer zoll.de Steuerhöhe sayfası. Kısmi: Anlage VIII 36 bin karakterlik tablo; Pkw satırı birebir doğrulandı. HU/AU ücretleri eyalet/kuruluşa bağlı, ulusal kartta yok. Elektrikli araç Kfz-Steuer muafiyeti (zoll.de) yazılmadı.
+- Kart 6 (uçuş): 250/400/600 Euro, 3 saat, olağanüstü durum (LBA FAQ), LBA'nın tazminat toplamadığı + Schlichtung (LBA) ve EBA sayfasındaki söp/LBA yönlendirmesi kapsandı. Kısmi: AB 261/2004 metni kanıtsız (eur-lex boş). söp-online.de ana sayfa açılıyor ama uçuş başvuru ayrıntısı için derin sayfa seçilmedi (LBA Schlichtung sayfası yeterli sayıldı).
+- Kart 7 (bisiklet/e-scooter): kapsandı (eKFV tam metin: 14 yaş, Versicherungsplakette, yol kullanımı; StVO §2 bisiklet). Kısmi: kask zorunluluğu YOK iddiası kanıtlanamaz (yokluk); Alkol sınırı bisiklet için (1,6 Promille) denenmedi.
+
+## Erişim
+- eur-lex.europa.eu: HTTP 200 ama boş içerik (bot koruması), yeniden denenmedi. AB 2021/782 ve 261/2004 için kanıt LBA/EBA/bahn.de sayfalarından.
+- lba.de: ana menü bağlantıları yanlış tabanla çözülüyor (…/DE/Fluggastrechte/DE/…) ve 404 veriyor; çalışan adresler `/DE/Fluggastrechte/_functions_Kacheln/Kachel_N/…` ve `/DE/Fluggastrechte/Schlichtung/Schlichtung_node.html`. İlk istekte ara sıra 503 verdi, tekrar denemede açıldı.
+- bahn.de: ana ve ürün sayfaları JS ağırlıklı; tahmini adresler 404. Çalışanlar WebSearch ile bulundu (service/informationen-buchung/…).
+- bmdv.bund.de artık bmv.de (Bundesministerium für Verkehr); bmv.de açıldı.
+- gesetze-im-internet.de eKFV §3 tek madde sayfası 422 karakter (ince): tam metin sayfası seçildi.
+
+## Dikkat notları
+- bahn.de Deutschland-Ticket sayfası: "Stand: Oktober 2026".
+- WebSearch özetleri (BMV Referentenentwurf 2026, KraftSt tablosu) kaynak değil, yalnız ipucu; seçilen satırların hepsi birebir indirilen metinle doğrulandı (19/19 doğru).
+- Yerel ulaşım birliği tarifeleri şehir katmanı; ulusal kartta yok.

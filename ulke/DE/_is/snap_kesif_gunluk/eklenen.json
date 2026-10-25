@@ -1,0 +1,54 @@
+{
+  "map": {
+    "https://www.116117.de/de/aerztlicher-bereitschaftsdienst.php": "de:kaynak:143",
+    "https://www.gesetze-im-internet.de/einigvtr/art_2.html": "de:kaynak:132",
+    "https://www.gesetze-im-internet.de/gg/art_140.html": "de:kaynak:008",
+    "https://www.gesetze-im-internet.de/verpackdg/__46.html": "de:kaynak:247",
+    "https://www.gesetze-im-internet.de/elektrog_2015/__17.html": "de:kaynak:248",
+    "https://www.umweltbundesamt.de/themen/abfall-ressourcen/produktverantwortung-in-der-abfallwirtschaft/elektroaltgeraete": "de:kaynak:249",
+    "https://www.umweltbundesamt.de/themen/abfall-ressourcen/produktverantwortung-in-der-abfallwirtschaft/verpackungen": "de:kaynak:250",
+    "https://www.zoll.de/DE/Privatpersonen/Postsendungen-Internetbestellungen/Sendungen-aus-einem-Nicht-EU-Staat/Zoll-und-Steuern/Internetbestellungen/internetbestellungen_node.html": "de:kaynak:251",
+    "https://www.zoll.de/DE/Privatpersonen/Postsendungen-Internetbestellungen/Sendungen-aus-einem-Nicht-EU-Staat/Zoll-und-Steuern/Geschenksendungen/geschenksendungen_node.html": "de:kaynak:252",
+    "https://www.bamf.de/DE/Themen/Integration/ZugewanderteTeilnehmende/Integrationskurse/TeilnahmeKosten/Titelab2005/titelab2005-node.html": "de:kaynak:253",
+    "https://www.bamf.de/DE/Themen/Integration/ZugewanderteTeilnehmende/DeutschBeruf/deutsch-beruf-node.html": "de:kaynak:254",
+    "https://www.gesetze-im-internet.de/postg_2024/__18.html": "de:kaynak:255",
+    "https://www.bundesnetzagentur.de/DE/Fachthemen/Post/RegelungenZurPostversorgung/start.html": "de:kaynak:256",
+    "https://www.bundesnetzagentur.de/DE/Vportal/Post/Info/start.html": "de:kaynak:257",
+    "https://www.bundesnetzagentur.de/DE/Vportal/Schlichtung/Schlichtung_Post/start.html": "de:kaynak:258",
+    "https://www.bbk.bund.de/DE/Warnung-Vorsorge/Vorsorge/Gesundheit-und-Hygiene/Erste-Hilfe-und-Notruf/erste-hilfe-und-notruf_node.html": "de:kaynak:259",
+    "https://www.115.de/ueber-die-115": "de:kaynak:260",
+    "https://www.hilfetelefon.de/das-hilfetelefon/angebot-im-ueberblick/": "de:kaynak:261",
+    "https://www.destatis.de/DE/Presse/Pressemitteilungen/Zahl-der-Woche/2025/PD25_50_p002.html": "de:kaynak:262",
+    "https://www.gesetze-im-internet.de/ladschlg/__3.html": "de:kaynak:263",
+    "https://www.gesetze-im-internet.de/gg/art_125a.html": "de:kaynak:264"
+  },
+  "rejected": [
+    {
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Telekommunikation/Nummerierung/Notruf/start.html",
+      "why": "kopya yok/ince (status 200)"
+    }
+  ],
+  "fetch": {
+    "status": "findings",
+    "urls": 22,
+    "fetched": 22,
+    "saved": 22,
+    "failed": 0,
+    "thin_text": 1,
+    "soft_404": 0,
+    "evidence_checked": 0,
+    "evidence_missing": 0,
+    "evidence_stale": 0,
+    "evidence_from_index": 0,
+    "must_contain_unmatched": 0,
+    "non_html": 0,
+    "truncated": 0,
+    "skipped": 0,
+    "index_rows": 22,
+    "index_kept": 0,
+    "requests_made": 19,
+    "cache_hits": 3,
+    "retry_transient": true,
+    "index": "C:\\temp_private\\corteqs\\0000_newera\\ulke\\DE\\_is\\snap_kesif_gunluk\\index.jsonl"
+  }
+}
