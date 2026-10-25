@@ -1,0 +1,980 @@
+
+
+ 
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es" >
+	<head>
+    		<title>Directorios Judiciales</title>
+    		<meta name="description" content="Portal Adriano de la Consejería de turismo, regeneración, justicia y administración local"/>
+    		<meta name="abstract" content="Portal Adriano de la Consejería de turismo, regeneración, justicia y administración local de la Junta de Andalucía"/>
+    		<meta name="keywords" content="adriano, justicia, junta de andalucía, andalucía, justicia, consejería"/>
+    		<meta name="robots" content="index, follow"/>
+    		<meta name="author" content="Consejería de turismo, regeneración, justicia y administración local"/>
+    		<meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+    		<meta http-equiv="Content-Style-Type" content="text/css"/>
+    		<link rel="stylesheet" type="text/css" href="/justicia/portal/export/system/modules/es.juntadeandalucia.justicia.portaladriano/resources/css/comun.css"/>
+			<link rel="shortcut icon" href="/justicia/portal/adriano/system/modules/es.juntadeandalucia.justicia.portaladriano/resources/img/favicon.ico"/>
+			
+	</head>
+	<body >
+    		<div id="fondo">
+        		<div id="cuerpo">     
+                		
+
+
+
+
+<!-- Creamos la variable para el buscador-->
+
+	
+	
+
+
+
+<div id="cabecera">
+    <div id="logo">
+			<h1>Portal Adriano</h1>
+    		<img border="0" src="/justicia/portal/export/system/modules/es.juntadeandalucia.justicia.portaladriano/resources/img/logo.png" usemap="#MapCabecera"  alt="Logo de la Consejería" title="Consejería de Turismo, Regeneración, Justicia y Administración Local"/>
+    	  	<map id="MapCabecera" name="MapCabecera" alt="Logo de la Consejería">
+		<area coords="0,0,150,110" href="https://www.juntadeandalucia.es/" shape="rect" target="_blank" alt="Enlace - Junta de Andalucía" title="Ir a la Junta de Andalucía"/>
+		<area coords="150,0,500,110" href="/justicia/portal/adriano/index.html" title="Pagina Principal del Portal Adriano" alt="Enlace - Pagina Principal del Portal Adriano"/>
+		</map>
+        	
+	
+    </div>
+    <div id="cabecera_opciones">
+        <ul id="menucabecera">
+            <li class=""><a class="inicio" href="/justicia/portal/adriano/index.html" title="Ir a Inicio" alt="Enlace - Inicio">Inicio</a></li>
+			 <li class=""><a class="sitemap" href="/justicia/portal/adriano/mapaWeb/index.html" title="Mapa Web">Mapa Web</a></li>
+            <!--<li class=""><a class="sitemap" href="#" title="Acceder al Mapa Web" alt="Enlace - Mapa Web">Mapa Web</a></li>-->
+            <li class="ultimo"><a class="contacto" href="/justicia/portal/adriano/contacto/index.html"
+                title="Acceder a Contacto" alt="Enlace - Contacto">Contacto</a></li>
+        </ul>
+        <div id="buscador">
+            <form class="buscador" name="busqueda" method="post" action="/justicia/portal/adriano/buscador/resultado.html" >
+                <!--<label for="buscar">Buscar</label>-->
+                <div class="input_izq">
+                </div>
+				<label for="buscar">Buscar</label>
+                <input id="buscar" accesskey="b" onfocus="this.value=''; this.onfocus=null;"
+                     name="query" type="text" value="Texto a buscar.." aria-label="Buscar en el sitio ..."/>
+                <div class="input_der">
+                </div>
+                <input class="boton" value="Buscar" type="submit"/>
+                <input name="index" id="index1" type="hidden" value="portaladriano"/>
+            </form>
+        </div>
+    </div>
+</div>
+
+            			<div id="contenedor">   
+       						
+
+
+
+
+
+
+<div id="migapan">
+    <div id="ruta">    	
+    	<div class="icn_localizador">
+	Está ud. en:
+
+					<a title="Inicio" href="/justicia/portal/adriano/index.html" >Inicio</a>				
+					&gt;
+				
+					<a title="Texto" href="/justicia/portal/adriano/directoriosjudiciales/" >Directorios Judiciales</a> 
+					&gt;
+Directorios Judiciales
+&gt;
+Directorios Judiciales
+
+	</div>
+    </div>
+    <div id="fecha"> 
+    	domingo, 25 de octubre del 2026 
+	   
+     </div>
+</div>
+   
+                			
+
+
+
+
+<div id="lateral">
+	<ul>
+		
+		<li class="menuPrincipal">
+		
+		
+			
+			 
+				
+				 
+						<a title="Consejería y Administración de Justicia" alt="Enlace - Abrir Consejería y Administración de Justicia" href="/justicia/portal/adriano/admonjusticia/">
+							<img src="/justicia/portal/export/system/modules/es.juntadeandalucia.justicia.portaladriano/resources/img/baneradmonjusticia.png" title="Consejería y Administración de Justicia" alt="IMG - Consejería y Administración de Justicia" />
+							<!--<div class="contenedorMenu" style="position:relative">
+								<img src="/justicia/portal/export/system/modules/es.juntadeandalucia.justicia.portaladriano/resources/img/baneradmonjusticia.png" title="Consejería y Administración de Justicia" alt="IMG - Consejería y Administración de Justicia" />
+								
+									
+									
+									
+										<h3 class="threeLine">Consejería y Administración de Justicia</h3>
+									
+									
+								
+							</div>-->
+						</a>
+				
+			
+		
+		</li>
+		
+		<li class="menuPrincipal">
+		
+		
+			
+			 
+				
+				 
+						<a title="Secretaría General para la Justicia" alt="Enlace - Abrir Secretaría General para la Justicia" href="/justicia/portal/adriano/secretariageneral/">
+							<img src="/justicia/portal/export/system/modules/es.juntadeandalucia.justicia.portaladriano/resources/img/banersecgeneral.png" title="Secretaría General para la Justicia" alt="IMG - Secretaría General para la Justicia" />
+							<!--<div class="contenedorMenu" style="position:relative">
+								<img src="/justicia/portal/export/system/modules/es.juntadeandalucia.justicia.portaladriano/resources/img/banersecgeneral.png" title="Secretaría General para la Justicia" alt="IMG - Secretaría General para la Justicia" />
+								
+									
+									
+									
+										<h3 class="threeLine">Secretaría General para la Justicia</h3>
+									
+									
+								
+							</div>-->
+						</a>
+				
+			
+		
+		</li>
+		
+		<li class="menuPrincipal">
+		
+		
+			
+			 
+				
+				 
+						<a title="Mediación" alt="Enlace - Abrir Mediación" href="/justicia/portal/adriano/mediacion/">
+							<img src="/justicia/portal/export/system/modules/es.juntadeandalucia.justicia.portaladriano/resources/img/mediacion.png" title="Mediación" alt="IMG - Mediación" />
+							<!--<div class="contenedorMenu" style="position:relative">
+								<img src="/justicia/portal/export/system/modules/es.juntadeandalucia.justicia.portaladriano/resources/img/mediacion.png" title="Mediación" alt="IMG - Mediación" />
+								
+									
+										<h3 class="oneLine">Mediación</h3>
+									
+									
+									
+									
+								
+							</div>-->
+						</a>
+				
+			
+		
+		</li>
+		
+		<li class="menuPrincipal">
+		
+		
+			
+			 
+				
+				 
+						<a title="Servicios a la ciudadanía" alt="Enlace - Abrir Servicios a la ciudadanía" href="/justicia/portal/adriano/serviciosciudadania/">
+							<img src="/justicia/portal/export/system/modules/es.juntadeandalucia.justicia.portaladriano/resources/img/banerserviciosciudadania.png" title="Servicios a la ciudadanía" alt="IMG - Servicios a la ciudadanía" />
+							<!--<div class="contenedorMenu" style="position:relative">
+								<img src="/justicia/portal/export/system/modules/es.juntadeandalucia.justicia.portaladriano/resources/img/banerserviciosciudadania.png" title="Servicios a la ciudadanía" alt="IMG - Servicios a la ciudadanía" />
+								
+									
+									
+										<h3 class="twoLine">Servicios a la ciudadanía</h3>
+									
+									
+									
+								
+							</div>-->
+						</a>
+				
+			
+		
+		</li>
+		
+		<li class="menuPrincipal">
+		
+		
+			
+			 
+				
+				 
+						<a title="Personal de la administración de Justicia" alt="Enlace - Abrir Personal de la administración de Justicia" href="/justicia/portal/adriano/personaladmon/">
+							<img src="/justicia/portal/export/system/modules/es.juntadeandalucia.justicia.portaladriano/resources/img/banerpersonaladmon.png" title="Personal de la administración de Justicia" alt="IMG - Personal de la administración de Justicia" />
+							<!--<div class="contenedorMenu" style="position:relative">
+								<img src="/justicia/portal/export/system/modules/es.juntadeandalucia.justicia.portaladriano/resources/img/banerpersonaladmon.png" title="Personal de la administración de Justicia" alt="IMG - Personal de la administración de Justicia" />
+								
+									
+									
+									
+										<h3 class="threeLine">Personal de la administración de Justicia</h3>
+									
+									
+								
+							</div>-->
+						</a>
+				
+			
+		
+		</li>
+		
+		<li class="menuPrincipal">
+		
+		
+			
+			 
+				
+				 
+						<a title="Formación y Publicaciones" alt="Enlace - Abrir Formación y Publicaciones" href="/justicia/portal/adriano/formacion/">
+							<img src="/justicia/portal/export/system/modules/es.juntadeandalucia.justicia.portaladriano/resources/img/banerformacion.png" title="Formación y Publicaciones" alt="IMG - Formación y Publicaciones" />
+							<!--<div class="contenedorMenu" style="position:relative">
+								<img src="/justicia/portal/export/system/modules/es.juntadeandalucia.justicia.portaladriano/resources/img/banerformacion.png" title="Formación y Publicaciones" alt="IMG - Formación y Publicaciones" />
+								
+									
+									
+										<h3 class="twoLine">Formación y Publicaciones</h3>
+									
+									
+									
+								
+							</div>-->
+						</a>
+				
+			
+		
+		</li>
+		
+		<li class="menuPrincipal">
+		
+		
+			
+			 
+				
+				 
+						<a title="Profesionales de la Justicia" alt="Enlace - Abrir Profesionales de la Justicia" href="/justicia/portal/adriano/profesionalesjusticia/">
+							<img src="/justicia/portal/export/system/modules/es.juntadeandalucia.justicia.portaladriano/resources/img/bannerProfesionalesDeLaJusticia.png" title="Profesionales de la Justicia" alt="IMG - Profesionales de la Justicia" />
+							<!--<div class="contenedorMenu" style="position:relative">
+								<img src="/justicia/portal/export/system/modules/es.juntadeandalucia.justicia.portaladriano/resources/img/bannerProfesionalesDeLaJusticia.png" title="Profesionales de la Justicia" alt="IMG - Profesionales de la Justicia" />
+								
+									
+									
+										<h3 class="twoLine">Profesionales de la Justicia</h3>
+									
+									
+									
+								
+							</div>-->
+						</a>
+				
+			
+		
+		</li>
+		
+		<li class="menuPrincipal">
+		
+		
+			
+			 
+				
+				 
+						<a title="Prevención de Riesgos Laborales" alt="Enlace - Abrir Prevención de Riesgos Laborales" href="/justicia/portal/adriano/prevencin-de-riesgos-laborales/">
+							<img src="/justicia/portal/export/system/modules/es.juntadeandalucia.justicia.portaladriano/resources/img/banerPRL2.png" title="Prevención de Riesgos Laborales" alt="IMG - Prevención de Riesgos Laborales" />
+							<!--<div class="contenedorMenu" style="position:relative">
+								<img src="/justicia/portal/export/system/modules/es.juntadeandalucia.justicia.portaladriano/resources/img/banerPRL2.png" title="Prevención de Riesgos Laborales" alt="IMG - Prevención de Riesgos Laborales" />
+								
+									
+									
+									
+										<h3 class="threeLine">Prevención de Riesgos Laborales</h3>
+									
+									
+								
+							</div>-->
+						</a>
+				
+			
+		
+		</li>
+		
+	</ul>
+</div>	
+							<div id="contenido">
+								<div id="banerportaladriano"><h1>Portal Adriano</h1></div>
+								<h2 class="destacado"><a title="DIRECTORIOS JUDICIALES" target="_top" href="/justicia/portal/adriano/directoriosjudiciales/index.html" style="font-family: Arial Narrow,Helvetica,sans-serif">Directorios Judiciales</a></h2>
+								<div class="containerSinMenu">
+								
+									
+									
+										
+
+
+	
+
+
+
+	<div style="width: 100%;">
+	<h3>Partidos Judiciales - 
+Sevilla</h3>
+
+	<ul>
+	
+		<li><h4>Alcalá de Guadaira</h4></li>
+		
+			<ul class="tipoOrganismo">
+				
+					<li style="font-weight:bold;">Registro Civil de Alcalá de Guadaira</li>
+					
+						<li class="icn_txt_generico">
+							Dirección: Plaza del Duque, 12 
+							
+								C.P. 41500 
+							
+						</li>
+					
+				
+				
+					
+						<li class="icn_datosContacto">
+							Telefono : 955263118
+						</li>
+					
+				
+					
+						<li class="icn_datosContacto">
+							Email : registrocivil.alcaladeguadaira@justicia.es
+						</li>
+					
+				
+				
+					<li class="icn_callejero">
+						
+						
+						<a title="Callejero" href="https://www.google.com/maps/search/?api=1&query=37.33578497,-5.84871211;jsessionid=4A6E17A9F5572768EBDA4FAA2B633CE1.padrianoapc03" target ="_blank">Callejero</a>
+						
+					</li>
+				
+			</ul>
+		
+	
+		<li><h4>Carmona</h4></li>
+		
+			<ul class="tipoOrganismo">
+				
+					<li style="font-weight:bold;">Registro Civil de Carmona</li>
+					
+						<li class="icn_txt_generico">
+							Dirección: Plaza San José, s/n 
+							
+								C.P. 41410 
+							
+						</li>
+					
+				
+				
+					
+						<li class="icn_datosContacto">
+							Telefono : 955093386
+						</li>
+					
+				
+					
+						<li class="icn_datosContacto">
+							Email : registrocivil.carmona@justicia.es
+						</li>
+					
+				
+				
+					<li class="icn_callejero">
+						
+						
+						<a title="Callejero" href="https://www.google.com/maps/search/?api=1&query=37.473717,-5.63511;jsessionid=4A6E17A9F5572768EBDA4FAA2B633CE1.padrianoapc03" target ="_blank">Callejero</a>
+						
+					</li>
+				
+			</ul>
+		
+	
+		<li><h4>Cazalla de la Sierra</h4></li>
+		
+			<ul class="tipoOrganismo">
+				
+					<li style="font-weight:bold;">Registro Civil de Cazalla de la Sierra</li>
+					
+						<li class="icn_txt_generico">
+							Dirección: Ctra. El Judío, s/n 
+							
+								C.P. 41370 
+							
+						</li>
+					
+				
+				
+					
+						<li class="icn_datosContacto">
+							Telefono : 955544015
+						</li>
+					
+				
+					
+						<li class="icn_datosContacto">
+							Email : registrocivil.cazalladelasierra@justicia.es
+						</li>
+					
+				
+				
+					<li class="icn_callejero">
+						
+						
+						<a title="Callejero" href="https://www.google.com/maps/search/?api=1&query=37.931631,-5.761411;jsessionid=4A6E17A9F5572768EBDA4FAA2B633CE1.padrianoapc03" target ="_blank">Callejero</a>
+						
+					</li>
+				
+			</ul>
+		
+	
+		<li><h4>Coria del Río</h4></li>
+		
+			<ul class="tipoOrganismo">
+				
+					<li style="font-weight:bold;">Registro Civil de Coria del Río</li>
+					
+						<li class="icn_txt_generico">
+							Dirección: Avda. Blas Infante, 23 
+							
+								C.P. 41100 
+							
+						</li>
+					
+				
+				
+					
+						<li class="icn_datosContacto">
+							Telefono : 955624922
+						</li>
+					
+				
+					
+						<li class="icn_datosContacto">
+							Email : registrocivil.coriadelrio@justicia.es
+						</li>
+					
+				
+				
+					<li class="icn_callejero">
+						
+						
+						<a title="Callejero" href="https://www.google.com/maps/search/?api=1&query=37.2809049,-6.056035751;jsessionid=4A6E17A9F5572768EBDA4FAA2B633CE1.padrianoapc03" target ="_blank">Callejero</a>
+						
+					</li>
+				
+			</ul>
+		
+	
+		<li><h4>Dos Hermanas</h4></li>
+		
+			<ul class="tipoOrganismo">
+				
+					<li style="font-weight:bold;">Registro Civil de Dos Hermanas</li>
+					
+						<li class="icn_txt_generico">
+							Dirección: Pza. Escultora Carmen Jiménez, s/n 
+							
+								C.P. 41701 
+							
+						</li>
+					
+				
+				
+					
+						<li class="icn_datosContacto">
+							Telefono : 955541945
+						</li>
+					
+				
+					
+						<li class="icn_datosContacto">
+							Email : registrocivil.doshermanas@justicia.es
+						</li>
+					
+				
+				
+					<li class="icn_callejero">
+						
+						
+						<a title="Callejero" href="https://www.google.com/maps/search/?api=1&query=37.284613,-5.920538;jsessionid=4A6E17A9F5572768EBDA4FAA2B633CE1.padrianoapc03" target ="_blank">Callejero</a>
+						
+							<img src="/justicia/portal/export/system/modules/es.juntadeandalucia.justicia.portaladriano/resources/img/infraestructura.png" alt="Infraestructura"/><a title="Infraestructuras" href="/justicia/portal/adriano/infraestructuras//2298">Infraestructura Judicial</a>	
+						
+					</li>
+				
+			</ul>
+		
+	
+		<li><h4>Écija</h4></li>
+		
+			<ul class="tipoOrganismo">
+				
+					<li style="font-weight:bold;">Registro Civil de Écija</li>
+					
+						<li class="icn_txt_generico">
+							Dirección: C\ De la Marquesa, 15 
+							
+								C.P. 41400 
+							
+						</li>
+					
+				
+				
+					
+						<li class="icn_datosContacto">
+							Telefono : 955544522
+						</li>
+					
+				
+					
+						<li class="icn_datosContacto">
+							Email : registrocivil.ecija@justicia.es
+						</li>
+					
+				
+				
+					<li class="icn_callejero">
+						
+						
+						<a title="Callejero" href="https://www.google.com/maps/search/?api=1&query=37.54279747,-5.081337072;jsessionid=4A6E17A9F5572768EBDA4FAA2B633CE1.padrianoapc03" target ="_blank">Callejero</a>
+						
+					</li>
+				
+			</ul>
+		
+	
+		<li><h4>Estepa</h4></li>
+		
+			<ul class="tipoOrganismo">
+				
+					<li style="font-weight:bold;">Registro Civil de Estepa</li>
+					
+						<li class="icn_txt_generico">
+							Dirección: C\ Castillejo, 32 
+							
+								C.P. 41560 
+							
+						</li>
+					
+				
+				
+					
+						<li class="icn_datosContacto">
+							Telefono : 955547099
+						</li>
+					
+				
+					
+						<li class="icn_datosContacto">
+							Email : registrocivil.estepa@justicia.es
+						</li>
+					
+				
+				
+					<li class="icn_callejero">
+						
+						
+						<a title="Callejero" href="https://www.google.com/maps/search/?api=1&query=37.2915016,-4.88049288;jsessionid=4A6E17A9F5572768EBDA4FAA2B633CE1.padrianoapc03" target ="_blank">Callejero</a>
+						
+					</li>
+				
+			</ul>
+		
+	
+		<li><h4>Lebrija</h4></li>
+		
+			<ul class="tipoOrganismo">
+				
+					<li style="font-weight:bold;">Registro Civil de Lebrija</li>
+					
+						<li class="icn_txt_generico">
+							Dirección: C\ Corredera, 29 
+							
+								C.P. 41740 
+							
+						</li>
+					
+				
+				
+					
+						<li class="icn_datosContacto">
+							Telefono : 955548095
+						</li>
+					
+				
+					
+						<li class="icn_datosContacto">
+							Email : registrocivil.lebrija@justicia.es
+						</li>
+					
+				
+				
+					<li class="icn_callejero">
+						
+						
+						<a title="Callejero" href="https://www.google.com/maps/search/?api=1&query=-6.0760897,36.9196182;jsessionid=4A6E17A9F5572768EBDA4FAA2B633CE1.padrianoapc03" target ="_blank">Callejero</a>
+						
+					</li>
+				
+			</ul>
+		
+	
+		<li><h4>Lora del Río</h4></li>
+		
+			<ul class="tipoOrganismo">
+				
+					<li style="font-weight:bold;">Registro Civil de Lora del Río</li>
+					
+						<li class="icn_txt_generico">
+							Dirección: Avda. de la Campana, 3 
+							
+								C.P. 41440 
+							
+						</li>
+					
+				
+				
+					
+						<li class="icn_datosContacto">
+							Telefono : 955135103
+						</li>
+					
+				
+					
+						<li class="icn_datosContacto">
+							Email : registrocivil.loradelrio@justicia.es
+						</li>
+					
+				
+				
+					<li class="icn_callejero">
+						
+						
+						<a title="Callejero" href="https://www.google.com/maps/search/?api=1&query=37.65744509,-5.525227432;jsessionid=4A6E17A9F5572768EBDA4FAA2B633CE1.padrianoapc03" target ="_blank">Callejero</a>
+						
+					</li>
+				
+			</ul>
+		
+	
+		<li><h4>Marchena</h4></li>
+		
+			<ul class="tipoOrganismo">
+				
+					<li style="font-weight:bold;">Registro Civil de Marchena</li>
+					
+						<li class="icn_txt_generico">
+							Dirección: C\ Huerta Gavira, 33 
+							
+								C.P. 41620 
+							
+						</li>
+					
+				
+				
+					
+						<li class="icn_datosContacto">
+							Telefono : 955130131
+						</li>
+					
+				
+					
+						<li class="icn_datosContacto">
+							Fax : 955967581
+						</li>
+					
+				
+					
+						<li class="icn_datosContacto">
+							Email : registrocivil.marchena@justicia.es
+						</li>
+					
+				
+				
+					<li class="icn_callejero">
+						
+						
+						<a title="Callejero" href="https://www.google.com/maps/search/?api=1&query=37.328722,-5.414278;jsessionid=4A6E17A9F5572768EBDA4FAA2B633CE1.padrianoapc03" target ="_blank">Callejero</a>
+						
+					</li>
+				
+			</ul>
+		
+	
+		<li><h4>Morón de la Frontera</h4></li>
+		
+			<ul class="tipoOrganismo">
+				
+					<li style="font-weight:bold;">Registro Civil de Morón de la Frontera</li>
+					
+						<li class="icn_txt_generico">
+							Dirección: C\ Navío, s/n 
+							
+								C.P. 41530 
+							
+						</li>
+					
+				
+				
+					
+						<li class="icn_datosContacto">
+							Telefono : 955136131
+						</li>
+					
+				
+					
+						<li class="icn_datosContacto">
+							Fax : 955852552
+						</li>
+					
+				
+					
+						<li class="icn_datosContacto">
+							Email : registrocivil.morondelafrontera@justicia.es
+						</li>
+					
+				
+				
+					<li class="icn_callejero">
+						
+						
+						<a title="Callejero" href="https://www.google.com/maps/search/?api=1&query=37.127476,-5.454458;jsessionid=4A6E17A9F5572768EBDA4FAA2B633CE1.padrianoapc03" target ="_blank">Callejero</a>
+						
+							<img src="/justicia/portal/export/system/modules/es.juntadeandalucia.justicia.portaladriano/resources/img/infraestructura.png" alt="Infraestructura"/><a title="Infraestructuras" href="/justicia/portal/adriano/infraestructuras//3154">Infraestructura Judicial</a>	
+						
+					</li>
+				
+			</ul>
+		
+	
+		<li><h4>Osuna</h4></li>
+		
+			<ul class="tipoOrganismo">
+				
+					<li style="font-weight:bold;">Registro Civil de Osuna</li>
+					
+						<li class="icn_txt_generico">
+							Dirección: C\ Alfareros 27,29,31 (Polígono Industrial el Ejido) 
+							
+								C.P. 41640 
+							
+						</li>
+					
+				
+				
+					
+						<li class="icn_datosContacto">
+							Telefono : 954822202
+						</li>
+					
+				
+					
+						<li class="icn_datosContacto">
+							Email : registrocivil.osuna@justicia.es
+						</li>
+					
+				
+				
+					<li class="icn_callejero">
+						
+						
+						<a title="Callejero" href="https://www.google.com/maps/search/?api=1&query=37.2471,-5.1116;jsessionid=4A6E17A9F5572768EBDA4FAA2B633CE1.padrianoapc03" target ="_blank">Callejero</a>
+						
+					</li>
+				
+			</ul>
+		
+	
+		<li><h4>Sanlúcar la Mayor</h4></li>
+		
+			<ul class="tipoOrganismo">
+				
+					<li style="font-weight:bold;">Registro Civil de Sanlúcar la Mayor</li>
+					
+						<li class="icn_txt_generico">
+							Dirección: Avenida de las Doblas, 2 
+							
+								C.P. 41800 
+							
+						</li>
+					
+				
+				
+					
+						<li class="icn_datosContacto">
+							Telefono : 955541152
+						</li>
+					
+				
+					
+						<li class="icn_datosContacto">
+							Email : registrocivil.sanlucarlamayor@justicia.es
+						</li>
+					
+				
+				
+					<li class="icn_callejero">
+						
+						
+						<a title="Callejero" href="https://www.google.com/maps/search/?api=1&query=37.3916,-6.2064;jsessionid=4A6E17A9F5572768EBDA4FAA2B633CE1.padrianoapc03" target ="_blank">Callejero</a>
+						
+					</li>
+				
+			</ul>
+		
+	
+		<li><h4>Sevilla</h4></li>
+		
+			<ul class="tipoOrganismo">
+				
+					<li style="font-weight:bold;">Registro Civil Exclusivo Nº 1 de Sevilla</li>
+					
+						<li class="icn_txt_generico">
+							Dirección: C\ Vermondo Resta, s/n. 
+							
+								C.P. 41018 
+							
+						</li>
+					
+				
+				
+					
+						<li class="icn_datosContacto">
+							Telefono : 600158095 / 955510056
+						</li>
+					
+				
+					
+						<li class="icn_datosContacto">
+							Telefono : 955510056
+						</li>
+					
+				
+					
+						<li class="icn_datosContacto">
+							Fax : 955043135
+						</li>
+					
+				
+					
+						<li class="icn_datosContacto">
+							Email : registrocivil.sevilla@justicia.es
+						</li>
+					
+				
+				
+					<li class="icn_callejero">
+						
+						
+						<a title="Callejero" href="https://www.google.com/maps/search/?api=1&query=37.379832,-5.97868;jsessionid=4A6E17A9F5572768EBDA4FAA2B633CE1.padrianoapc03" target ="_blank">Callejero</a>
+						
+					</li>
+				
+			</ul>
+		
+	
+		<li><h4>Utrera</h4></li>
+		
+			<ul class="tipoOrganismo">
+				
+					<li style="font-weight:bold;">Registro Civil de Utrera</li>
+					
+						<li class="icn_txt_generico">
+							Dirección: C\ San Juan Bosco, nº15 
+							
+								C.P. 41710 
+							
+						</li>
+					
+				
+				
+					
+						<li class="icn_datosContacto">
+							Telefono : 955181401
+						</li>
+					
+				
+					
+						<li class="icn_datosContacto">
+							Email : registrocivil.utrera@justicia.es
+						</li>
+					
+				
+				
+					<li class="icn_callejero">
+						
+						
+						<a title="Callejero" href="https://www.google.com/maps/search/?api=1&query=37.18269699,-5.77700715;jsessionid=4A6E17A9F5572768EBDA4FAA2B633CE1.padrianoapc03" target ="_blank">Callejero</a>
+						
+					</li>
+				
+			</ul>
+		
+	
+	</ul>
+	</div>
+
+									
+								
+								</div>
+							</div>
+            			</div>
+       	 		</div>
+    		</div> 
+   		
+
+
+
+
+<div id="pie">
+    <div id="contenido_pie">
+        <div id="logo_pie">
+            <a href="http://www.juntadeandalucia.es/" target="_blank" title="Junta de Andalucía">
+                <img src="/justicia/portal/export/system/modules/es.juntadeandalucia.justicia.portaladriano/resources/img/logo_juntapie.gif" alt="Junta de Andalucía - Consejería de Justicia, Administraci&oacute;n Local y Funci&oacute;n P&uacute;blica"></a>
+            <p> ©
+                <a href="https://www.juntadeandalucia.es" target="_blank" title="Consejer&iacute;a de Justicia, Administraci&oacute;n Local y Funci&oacute;n P&uacute;blica">
+                    Consejer&iacute;a de Justicia, Administraci&oacute;n Local y Funci&oacute;n P&uacute;blica </a>
+                    
+                     
+             </p>
+            <p></p>
+        </div>
+        <div id="menu_pie">
+            <ul>
+                <li><a href="/justicia/portal/adriano/avisolegal/" title="Aviso legal">Aviso legal</a></li>
+                <li><a href="/justicia/portal/adriano/protecciondatos/" title="Protección de Datos">Protección de Datos</a></li>
+				<li class="ultimo"><a href="/justicia/portal/adriano/accesibilidad/"
+                    title="Accesibilidad">Accesibilidad <img src="/justicia/portal/export/system/modules/es.juntadeandalucia.justicia.portaladriano/resources/img/wcag1AAmini.gif" alt="Nivel de accesibilidad: AA" style="float:right"/></a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+	</body>
+</html>

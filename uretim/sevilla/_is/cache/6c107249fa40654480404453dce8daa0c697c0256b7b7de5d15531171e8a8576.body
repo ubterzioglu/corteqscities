@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en"><!-- Basic -->
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">   
+   
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+     <!-- Site Metas -->
+    <title>Contacto - Ceramica Santa Ana</title>  
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Site Icons -->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">    
+	<!-- Site CSS -->
+    <link rel="stylesheet" href="css/style.css">    
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+	<!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <style>
+        #map {
+            height: 500px; /* Ajusta la altura según tus necesidades */
+            width: 100%;
+        }
+    </style>
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+	<!-- Start header -->
+	<header class="top-navbar">
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<div class="container">
+				<a class="navbar-brand" href="index.html">
+					<img src="images/logo.png" alt="" />
+				</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbars-rs-food" aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
+				  <span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbars-rs-food">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+						<li class="nav-item"><a class="nav-link" href="about.html">Sobre Nosotros</a></li>
+						<li class="nav-item"><a class="nav-link" href="gallery.html">Galería</a></li>
+						<li class="nav-item active"><a class="nav-link" href="contact.html">Contacto</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<!-- End header -->
+	
+	<!-- Start All Pages -->
+	<div class="all-page-title page-breadcrumb">
+		<div class="container text-center">
+			<div class="row">
+				<div class="col-lg-12">
+					<h1>Contacto</h1>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End All Pages -->
+	
+	<!-- Start Contact -->
+	<div class="contact-box">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="heading-title text-center">
+						<p>Estamos aquí para ayudarte y resolver cualquier duda que tengas. No dudes en ponerte en contacto con nosotros</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-12">
+					<form id="contactForm">
+						<div class="row">
+							<div class="col-md-12">
+								<div class="form-group">
+									<input type="text" class="form-control" id="name" name="name" placeholder="Nombre" required data-error="Por favor introduzca su Nombre">
+									<div class="help-block with-errors"></div>
+								</div>                                 
+							</div>
+							<div class="col-md-12">
+								<div class="form-group">
+									<input type="text" placeholder="Email" id="email" class="form-control" name="name" required data-error="Por favor introduzca su Email">
+									<div class="help-block with-errors"></div>
+								</div> 
+							</div>
+							<div class="col-md-12">
+								<div class="form-group"> 
+									<textarea class="form-control" id="message" placeholder="Mensaje" rows="4" data-error="Por favor escriba su mensaje" required></textarea>
+									<div class="help-block with-errors"></div>
+								</div>
+								<div class="submit-button text-center">
+									<button class="btn btn-common" id="submit" type="submit">Enviar</button>
+									<div id="msgSubmit" class="h3 text-center hidden"><p></p></div> 
+									<div class="clearfix"></div> 
+								</div>
+							</div>
+						</div>            
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="map"></div>
+	<!-- End Contact -->
+	
+<!-- Start Contact info -->
+	<div class="contact-imfo-box">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<i class="fa fa-volume-control-phone"></i>
+					<div class="overflow-hidden">
+						<h4>Teléfono</h4>
+						<p class="lead">
+							+34 635-240-019
+						</p>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<i class="fa fa-envelope"></i>
+					<div class="overflow-hidden">
+						<h4>Email</h4>
+						<p class="lead">
+							ceramicastaana@gmail.com
+						</p>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<i class="fa fa-map-marker"></i>
+					<div class="overflow-hidden">
+						<h4>Ubicación</h4>
+						<p class="lead">
+							C/ Antillano Campos, 2.
+							</br>41010, Sevilla.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End Contact info -->
+	
+	<!-- Start Footer -->
+	<footer class="footer-area bg-f">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3 col-md-6">
+					<h3>Santa Ana</h3>
+					<p>Una joya de Triana que estuvo a punto de desaparecer. Sin embargo, un apasionado de la cerámica decidió revivirla junto a su grupo humano para seguir produciendo cerámica única combinando tradición y modernidad. 
+					Hoy, tratamos de que la marca brille de nuevo, volviendo a llevar la esencia de Sevilla y la pasión de sus artesanos a todo el mundo.</p>
+				</div>
+				<div class="col-lg-3 col-md-6">
+					<h3>Horario</h3>
+					<p><span class="text-color">Lunes: </span> 10:30 - 20:00 </p>
+					<p><span class="text-color">Martes :</span> 10:30 - 20:00</p>
+					<p><span class="text-color">Miercoles :</span> 10:30 - 20:00 </p>
+					<p><span class="text-color">Jueves :</span> 10:30 - 20:00 </p>
+					<p><span class="text-color">Viernes: </span> 10:30 - 20:00 </p>
+					<p><span class="text-color">Sabado :</span> 10:30 - 20:00 </p>
+					<p><span class="text-color">Domingo :</span> 10:30 - 18:30 </p>
+				</div>
+				<div class="col-lg-3 col-md-6">
+					<h3>Contacto</h3>
+					<p class="lead">C/ Antillano Campos, 2,4,6 </br> Centro de Cerámica de Triana </br> 41010, Triana, Sevilla.</p>
+					<p class="lead"><a href="#">+34 635 240 019</a></p>
+					<p><a href="#"> ceramicastaana@gmail.com</a></p>
+				</div>
+				<div class="col-lg-3 col-md-6">
+					<h3>¡Siguenos!</h3>
+					<ul class="list-inline f-social">
+						<li class="list-inline-item"><a href="https://www.facebook.com/share/dKGjUVf51SjBngWn/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+						<li class="list-inline-item"><a href="https://www.instagram.com/ceramicastaana/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		
+		<div class="copyright">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<p class="company-name">&copy; 2024 <a href="#">Ceramica Santa Ana</a> Diseñada por : Raúl Cadenas García</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</footer>
+	<!-- End Footer -->
+	
+	<a href="#" id="back-to-top" title="Back to top" style="display: none;">&uarr;</a>
+
+	<!-- ALL JS FILES -->
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+    <!-- ALL PLUGINS -->
+	
+	<script src="js/jquery.superslides.min.js"></script>
+	<script src="js/images-loded.min.js"></script>
+	<script src="js/isotope.min.js"></script>
+	<script src="js/baguetteBox.min.js"></script>
+	<script src="js/jquery.mapify.js"></script>
+	<script src="js/form-validator.min.js"></script>
+    <script src="js/contact-form-script.js"></script>
+    <script src="js/custom.js"></script>
+	<!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script>
+        // Initialize the map
+        var map = L.map('map').setView([37.3854186,-6.0046562], 19); // Coordenadas de Sevilla
+        
+        // Set up the OSM layer
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            maxZoom: 22,
+        }).addTo(map);
+        
+        // Add a marker
+        var marker = L.marker([37.3854186,-6.0046562]).addTo(map)
+            .bindPopup('Cerámica Santa Ana<br>Sevilla')
+            .openPopup();
+        
+        // Function to redirect to Google Maps
+        function redirectToGoogleMaps() {
+            window.open('https://www.google.com/maps/place/Ceramica+Santa+Ana/@37.3854965,-6.0046635,20.25z/data=!4m12!1m5!3m4!2zMzfCsDIyJzU3LjQiTiA1wrA1OSc0Ni43Ilc!8m2!3d37.3826!4d-5.9963!3m5!1s0xd126dc731b7dedf:0xaedf7b225c8d4b8!8m2!3d37.385461!4d-6.0046469!16s%2Fg%2F11ldrlmmzx?entry=ttu', '_blank');
+        }
+
+        // Add event listeners for click on map and marker
+        map.on('click', redirectToGoogleMaps);
+        marker.on('click', redirectToGoogleMaps);
+    </script>
+</body>
+</html>

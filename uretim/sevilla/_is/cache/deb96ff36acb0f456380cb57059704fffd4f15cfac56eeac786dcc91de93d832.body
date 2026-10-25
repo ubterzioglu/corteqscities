@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>En Mantenimiento</title>
+<style>
+
+        body {
+
+            font-family: 'Arial', sans-serif;
+
+            background-color: #f0f0f0;
+
+            display: flex;
+
+            justify-content: center;
+
+            align-items: center;
+
+            min-height: 100vh;
+
+            margin: 0;
+
+            text-align: center;
+
+        }
+
+        .contenedor {
+
+            background-color: #ffffff;
+
+            padding: 40px;
+
+            border-radius: 10px;
+
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+
+            max-width: 600px;
+
+            width: 90%;
+
+        }
+
+        .logo {
+
+            max-width: 150px; /* Ajusta el tamaño de tu logo */
+
+            height: auto;
+
+            margin-bottom: 20px;
+
+        }
+
+        h1 {
+
+            color: #333;
+
+            font-size: 2.5em;
+
+            margin-bottom: 10px;
+
+        }
+
+        p {
+
+            color: #666;
+
+            font-size: 1.2em;
+
+            line-height: 1.6;
+
+        }
+
+        .fecha {
+
+            font-style: italic;
+
+            color: #999;
+
+            margin-top: 20px;
+
+        }
+</style>
+</head>
+<body>
+<div class="contenedor">
+<!-- Asegúrate de que "tu-logo.png" esté en la misma carpeta -->
+<!-- img src="https://www.tussam.es/sites/default/files/inline-images/logo-tussam-pie-amarillo-2.png" alt="Logo de la Empresa" class="logo" -->
+<h1>TUSSAM</h1>
+<h1>¡Estamos trabajando en ello!</h1>
+<p>Disculpa las molestias, nuestro sitio web está actualmente fuera de servicio.</</p>
+<p>Volveremos pronto.</p>
+</div>
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a4fc01f9feb5160e',t:'MTc5Mjg3NjY0MA=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>

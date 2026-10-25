@@ -1,0 +1,7 @@
+{
+  "tool_name": "PowerShell",
+  "tool_input_preview": "{\"command\":\"& C:\\\\temp_private\\\\corteqs\\\\0000_newera\\\\uretim\\\\sevilla\\\\_is\\\\foto_ek2\\\\ek2.ps1 2>&1 | % { $s=\\\"$_\\\"; $s.Substring(0,[Math]::Min(500,$s.Length)) }\",\"timeout\":600000,\"description\":\"Search...",
+  "error": "Exit code 2\n{\"venues\": 24, \"not_in_plan\": []}\r\n{\"status\":\"stopped\",\"stopped\":\"sunucu 76713 sn bekletmek istiyor (> 30); sonra devam edin\",\"requests\":3,\"added\":0,\"per_source\":{\"openverse\":0,\"smithsonian\":0,\"europeana\":0},\"entries_still_short\":24,\"short_sample\":[\"sevilla:alameda-de-hercules-cevresi\",\"sevilla:alfalfa-ve-encarnacion\",\"sevilla:bodega-gongora\",\"sevilla:calle-feria\",\"sevilla:casa-fabiola-coleccion-bellver\",\"sevilla:centro-ceramica-triana\",\"sevilla:centro-nautico-alamillo\",\"sevilla:ciud...",
+  "timestamp": "2026-10-25T02:41:29.692Z",
+  "retry_count": 1
+}

@@ -1,0 +1,1875 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr" prefix="og: https://ogp.me/ns#">
+  <head>
+    <meta charset="utf-8" />
+<noscript><style>form.antibot * :not(.antibot-message) { display: none !important; }</style>
+</noscript><!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FC7YXVW9BF"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-FC7YXVW9BF');
+</script>
+<link rel="canonical" href="https://www1.ccul.junta-andalucia.es/cultura/agendaculturaldeandalucia/espacios/plazas-y-parques" />
+<link rel="image_src" href="https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/themes/custom/wingsuit/dist/app-drupal/images/junta_aaiicc-c.svg" />
+<meta name="original-source" content="https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia" />
+<meta property="og:site_name" content="Agenda Cultural de Andalucía" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://www.juntadeandalucia.es" />
+<meta property="og:title" content="Plazas y parques | Agenda Cultural de Andalucía" />
+<meta property="og:description" content="Bienvenido a la Agenda Cultural de Andalucía, una nueva forma de buscar, encontrar y compartir tu programación cultural. Una comunidad innovadora, donde gracias a la participación de todos, encuentras al instante toda la oferta cultural de Andalucía: Almería, Cádiz, Córdoba, Granada, Huelva, Jaén, Málaga y Sevilla." />
+<meta property="og:image" content="https://www.juntadeandalucia.es/cultura/agendaculturaldeandalucia/themes/custom/wingsuit/dist/app-drupal/images/junta_aaiicc-c.svg" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:description" content="Bienvenido a la Agenda Cultural de Andalucía, una nueva forma de buscar, encontrar y compartir tu programación cultural. Una comunidad innovadora, donde gracias a la participación de todos, encuentras al instante toda la oferta cultural de Andalucía: Almería, Cádiz, Córdoba, Granada, Huelva, Jaén, Málaga y Sevilla." />
+<meta name="twitter:title" content="Plazas y parques | Agenda Cultural de Andalucía" />
+<meta name="Generator" content="Drupal 9 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="icon" href="/cultura/agendaculturaldeandalucia/themes/custom/wingsuit/apps/drupal/favicon.ico" type="image/vnd.microsoft.icon" />
+<link rel="alternate" hreflang="es" href="https://www1.ccul.junta-andalucia.es/cultura/agendaculturaldeandalucia/espacios/plazas-y-parques" />
+<script src="/cultura/agendaculturaldeandalucia/sites/default/files/google_tag/general/google_tag.script.js?tnfmxn" defer></script>
+<script>window.a2a_config=window.a2a_config||{};a2a_config.callbacks=[];a2a_config.overlays=[];a2a_config.templates={};a2a_config.callbacks.push({
+    share: function(share_data) {
+        var internal_host = 'www1.ccul.junta-andalucia.es';
+        var external_host = 'www.juntadeandalucia.es';
+
+        var old_url = share_data.url;
+        var new_url = old_url;
+
+        // Cambiar el dominio interno por el público
+        if (old_url.indexOf(internal_host) !== -1) {
+            new_url = old_url.replace(internal_host, external_host);
+        }
+
+        // Configuración UTM según el servicio
+        var utm_source = share_data.serviceCode;
+        var utm_medium = 'social';
+
+        if (share_data.serviceCode === 'email') {
+            utm_medium = 'email';
+        }
+
+        // Añadir los parámetros UTM
+        var url = new URL(new_url);
+
+        url.searchParams.set('utm_source', utm_source);
+        url.searchParams.set('utm_medium', utm_medium);
+        url.searchParams.set('utm_campaign', 'compartir_evento');
+
+        // Usar el slug del evento como contenido
+        var path_parts = url.pathname.split('/').filter(Boolean);
+        var slug = path_parts[path_parts.length - 1];
+
+        url.searchParams.set('utm_content', slug);
+
+        return {
+            url: url.toString()
+        };
+    }
+});</script>
+
+    <title>Plazas y parques | Agenda Cultural de Andalucía</title>
+    <link rel="stylesheet" media="all" href="/cultura/agendaculturaldeandalucia/sites/default/files/css/css_07EQLOoJ8YFsFxrg4sAd47u0k_vuvOIDqcyXVngMedU.css" />
+<link rel="stylesheet" media="all" href="/cultura/agendaculturaldeandalucia/sites/default/files/css/css_eIth69NXr4S-CCcRgGcF3autw3fPh08A3eHIZmxkgzU.css" />
+
+    <script src="/cultura/agendaculturaldeandalucia/libraries/fontawesome/js/all.min.js?v=6.4.0" defer></script>
+<script src="/cultura/agendaculturaldeandalucia/libraries/fontawesome/js/v4-shims.min.js?v=6.4.0" defer></script>
+
+
+  </head>
+  <body
+    x-data="{ isScrollDown: false, menuIsOpen: window.innerWidth >= 1024, languageSwitcherOpen: false }" x-on:scroll.window="isScrollDown = (window.pageYOffset > 5) ? true : false; "
+    x-on:resize.window = "menuIsOpen = (window.innerWidth >=1024) ? true : false;"
+    :class="{ 'fixed lg:relative w-screen lg:w-auto': menuIsOpen }"
+    >
+    <a href="#main-content" class="visually-hidden focusable skip-link">
+      Pasar al contenido principal
+    </a>
+
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P42XHVL" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+      <div class="dialog-off-canvas-main-canvas flex flex-col min-h-screen" data-off-canvas-main-canvas>
+    
+
+  
+<header class="sticky lg:relative header-offset bg-white w-full z-40 top-0 relative">
+  
+
+
+
+
+
+
+  <div  class="container  mx-auto w-full">
+          <div class=" flex lg:pt-2 justify-between items-center md:flex-row">
+        <div class="w-full max-w-xs lg:max-w-md">
+          
+
+
+
+<a href="/cultura/agendaculturaldeandalucia/" class="pr-8 block">
+  <img src="/cultura/agendaculturaldeandalucia/themes/custom/wingsuit/dist/app-drupal/images/junta_aaiicc-c.svg" alt="Logo" class="w-56 md:w-80 lg:w-auto lg:max-w-md">
+</a>
+        </div>
+
+        <div class="flex justify-end items-center flex-1 lg:hidden">
+          <button class="text-gray-500 w-8 h-8 relative focus:outline-none bg-white" @click="menuIsOpen = !menuIsOpen">
+  <span class="sr-only">Open main menu</span>
+  <div class="block w-5 absolute left-1/2 top-1/2   transform  -translate-x-1/2 -translate-y-1/2">
+    <span aria-hidden="true" class="block absolute h-0.5 w-5 bg-current transform transition duration-500 ease-in-out" :class="{'rotate-45': menuIsOpen,' -translate-y-1.5': !menuIsOpen }"></span>
+    <span aria-hidden="true" class="block absolute h-0.5 w-5 bg-current transform transition duration-500 ease-in-out" :class="{'opacity-0': menuIsOpen } "></span>
+    <span aria-hidden="true" class="block absolute h-0.5 w-5 bg-current transform transition duration-500 ease-in-out" :class="{'-rotate-45': menuIsOpen, ' translate-y-1.5': !menuIsOpen}"></span>
+  </div>
+</button>
+        </div>
+
+        <div
+          x-cloak
+          x-show="menuIsOpen"
+          x-transition:enter="transition-all ease-out duration-300 overflow-hidden"
+          x-transition:enter-start="translate-x-full lg:translate-x-0"
+          x-transition:enter-end="translate-x-0"
+          x-transition:leave="transition-all ease-in duration-300 overflow-hidden"
+          x-transition:leave-start="translate-x-0"
+          x-transition:leave-end="translate-x-full lg:translate-x-0"
+          class="gap-y-4 w-4/5 md:w-[600px] h-[calc(100vh-3rem)] md:h-[calc(100vh-4rem)] lg:h-auto lg:w-auto bg-white absolute right-0 top-12  md:top-16  z-30 lg:static lg:flex lg:justify-end lg:flex-wrap lg:ml-auto"
+        >
+          <div class="lg:flex lg:justify-end lg:items-start xl:w-3/4 gap-x-6">
+            <div class="flex-grow uppercase w-full lg:flex lg:justify-end lg:items-center lg:w-auto lg:mt-2 xl:mt-1.5 lg:bg-transparent" >
+              <nav role="navigation" aria-labelledby="block-main-menu-menu" id="block-main-menu">
+  
+          
+
+
+
+<ul class="lg:flex lg:justify-end lg:space-x-5 lg:items-start">
+              <li  data-menu-level="0" class="relative  separator_desktop"
+      @mouseleave="submenuIsOpen = false"
+    >
+      <div
+        class="flex border-b lg:border-0 px-7 lg:px-0 py-4 lg:py-0"
+        @mouseenter="submenuIsOpen = true;"
+      >
+                  <a href="/cultura/agendaculturaldeandalucia/actividades" class="uppercase md:text-base lg:text-lg xl:text-xl w-full block cursor-pointer lg:inline-block whitespace-nowrap hover:underline lg:leading-5 lg:pb-3">
+            Actividades
+          </a>
+                      </div>
+          </li>
+              <li  data-menu-level="0" class="relative  separator_desktop"
+      @mouseleave="submenuIsOpen = false"
+    >
+      <div
+        class="flex border-b lg:border-0 px-7 lg:px-0 py-4 lg:py-0"
+        @mouseenter="submenuIsOpen = true;"
+      >
+                  <a href="/cultura/agendaculturaldeandalucia/espacios/mapa" class="uppercase md:text-base lg:text-lg xl:text-xl w-full block cursor-pointer lg:inline-block whitespace-nowrap hover:underline lg:leading-5 lg:pb-3">
+            Espacios
+          </a>
+                      </div>
+          </li>
+              <li  data-menu-level="0" class="relative  separator_desktop"
+      @mouseleave="submenuIsOpen = false"
+    >
+      <div
+        class="flex border-b lg:border-0 px-7 lg:px-0 py-4 lg:py-0"
+        @mouseenter="submenuIsOpen = true;"
+      >
+                  <a href="/cultura/agendaculturaldeandalucia/planes-de-ocio" class="uppercase md:text-base lg:text-lg xl:text-xl w-full block cursor-pointer lg:inline-block whitespace-nowrap hover:underline lg:leading-5 lg:pb-3">
+            Planes de ocio
+          </a>
+                      </div>
+          </li>
+  </ul>
+
+  </nav>
+
+            </div>
+
+            <div class="fixed bottom-0 w-4/5 md:w-[600px] lg:relative lg:w-auto lg:mb-2.5 xl:mb-4">
+              
+
+            
+
+<a  href="https://aaiicc.sacatuentrada.es" target="_blank" rel="nofollow" class="btn cursor-pointer items-center justify-center gap-2 transition-colors duration-500 inline-flex uppercase font-bold border py-1.5 flex-row sm:text-base px-4 btn-special-header" tabindex="0">
+      Entradas
+    </a>
+            </div>
+
+          </div>
+          <div class="block lg:flex lg:justify-end lg:items-center lg:order-first gap-x-6 lg:px-6 lg:border lg:border-gray-100 rounded">
+            <nav role="navigation" aria-labelledby="block-header-menu-menu" id="block-header-menu">
+  
+          
+
+
+<ul class="flex flex-wrap justify-center   gap-x-8">
+      <li
+      data-menu-target="submenu"
+      data-menu-level=""
+      class="w-full px-6 py-4 bg-gray-100 border-b border-white lg:w-auto lg:p-0 lg:bg-transparent lg:border-none"
+    >
+      <a href="/cultura/agendaculturaldeandalucia/user/login" class="hover:underline block w-full text-center ">
+        Publica tu evento
+      </a>
+    </li>
+      <li
+      data-menu-target="submenu"
+      data-menu-level=""
+      class="w-full px-6 py-4 bg-gray-100 border-b border-white lg:w-auto lg:p-0 lg:bg-transparent lg:border-none"
+    >
+      <a href="/cultura/agendaculturaldeandalucia/contacto" class="hover:underline block w-full text-center ">
+        Contacto
+      </a>
+    </li>
+  </ul>
+
+  </nav>
+
+
+            <div class="w-fit mx-auto py-4 lg:py-0">
+              <div id="block-social-media-links" class="block-social-media-links">
+  
+  
+
+  
+  
+
+<ul class="social-media-links--platforms platforms inline horizontal">
+      <li>
+      <a class="social-media-link-icon--twitter" href="https://www.twitter.com/CulturaCuenta"  target="_blank" rel="nofollow" aria-label="Síguenos en Twitter" title="Síguenos en Twitter" >
+        <span class='fab fa-x-twitter fa-lg'></span>
+      </a>
+
+          </li>
+      <li>
+      <a class="social-media-link-icon--facebook" href="https://www.facebook.com/CulturaCu3nta"  target="_blank" rel="nofollow" aria-label="Síguenos en Facebook" title="Síguenos en Facebook" >
+        <span class='fab fa-facebook fa-lg'></span>
+      </a>
+
+          </li>
+      <li>
+      <a class="social-media-link-icon--instagram" href="https://www.instagram.com/culturacuenta"  target="_blank" rel="nofollow" aria-label="Síguenos en Instagram" title="Síguenos en Instagram" >
+        <span class='fab fa-instagram fa-lg'></span>
+      </a>
+
+          </li>
+      <li>
+      <a class="social-media-link-icon--youtube" href="https://www.youtube.com/culturacuenta"  target="_blank" rel="nofollow" aria-label="Síguenos en Youtube" title="Síguenos en Youtube" >
+        <span class='fab fa-youtube fa-lg'></span>
+      </a>
+
+          </li>
+  </ul>
+
+</div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+      <div
+    x-show="menuIsOpen && window.innerWidth < 1024"
+    class="absolute w-screen bg-black opacity-0 z-10 top-12 md:top-16 right-0 transition-opacity duration-200"
+    :class="{'h-screen opacity-50': menuIsOpen, 'h-0': !menuIsOpen}"
+    @click="menuIsOpen = false"
+  >
+  </div>
+</header>
+
+<div>
+    <div class="bg-gray-700 text-white uppercase lg:py-2 p-4 lg:text-xl">
+    <nav role="navigation" aria-labelledby="block-provinces-menu-menu" id="block-provinces-menu">
+  
+          
+
+
+<ul class="flex flex-wrap justify-center  gap-x-10 lg:gap-x-6 lg:gap-y-0  gap-y-2">
+      <li
+      data-menu-target="submenu"
+      data-menu-level=""
+      class="separator_desktop"
+    >
+      <a href="/cultura/agendaculturaldeandalucia/almeria" class="hover:underline ">
+        Almería
+      </a>
+    </li>
+      <li
+      data-menu-target="submenu"
+      data-menu-level=""
+      class="separator_desktop"
+    >
+      <a href="/cultura/agendaculturaldeandalucia/cadiz" class="hover:underline ">
+        Cádiz
+      </a>
+    </li>
+      <li
+      data-menu-target="submenu"
+      data-menu-level=""
+      class="separator_desktop"
+    >
+      <a href="/cultura/agendaculturaldeandalucia/cordoba" class="hover:underline ">
+        Córdoba
+      </a>
+    </li>
+      <li
+      data-menu-target="submenu"
+      data-menu-level=""
+      class="separator_desktop"
+    >
+      <a href="/cultura/agendaculturaldeandalucia/granada" class="hover:underline ">
+        Granada
+      </a>
+    </li>
+      <li
+      data-menu-target="submenu"
+      data-menu-level=""
+      class="separator_desktop"
+    >
+      <a href="/cultura/agendaculturaldeandalucia/huelva" class="hover:underline ">
+        Huelva
+      </a>
+    </li>
+      <li
+      data-menu-target="submenu"
+      data-menu-level=""
+      class="separator_desktop"
+    >
+      <a href="/cultura/agendaculturaldeandalucia/jaen" class="hover:underline ">
+        Jaén
+      </a>
+    </li>
+      <li
+      data-menu-target="submenu"
+      data-menu-level=""
+      class="separator_desktop"
+    >
+      <a href="/cultura/agendaculturaldeandalucia/malaga" class="hover:underline ">
+        Málaga
+      </a>
+    </li>
+      <li
+      data-menu-target="submenu"
+      data-menu-level=""
+      class="separator_desktop"
+    >
+      <a href="/cultura/agendaculturaldeandalucia/sevilla" class="hover:underline ">
+        Sevilla
+      </a>
+    </li>
+  </ul>
+
+  </nav>
+
+  </div>
+
+  
+
+
+
+
+
+
+  <div  class="container relative px-0 md:px-4 mx-auto w-full">
+          <script src="/cultura/agendaculturaldeandalucia/core/assets/vendor/modernizr/modernizr.min.js?v=3.11.7"></script>
+<script src="/cultura/agendaculturaldeandalucia/core/misc/modernizr-additional-tests.js?v=3.11.7"></script>
+<div class="views-exposed-form" data-drupal-selector="views-exposed-form-search-page-search-activities" id="block-search-form">
+  
+  
+
+  
+  <form action="/cultura/agendaculturaldeandalucia/buscador" method="get" id="views-exposed-form-search-page-search-activities" accept-charset="UTF-8">
+  
+<div class="relative">
+  <div
+  class="form-activities absolute z-20 top-0 left-0 w-full mx-auto flex flex-wrap lg:flex-nowrap justify-center items-end lg:items-end gap-2 md:gap-x-4 px-4 pt-1 pb-3 bg-gray-700 bg-opacity-90"
+  x-data="{ filtersOpen: window.innerWidth >= 1024 }"
+  x-on:resize.window = "filtersOpen = (window.innerWidth >=1024) ? true : false">
+
+    <div class="basis-1/2 sm:basis-auto sm:flex-1 lg:flex-initial">
+      
+
+
+<label class="js-form-item form-item block">
+  <div>
+      <div>
+    
+
+<span for="edit-text" class="pr-4">
+    Encuentra tu actividad
+
+      </span>
+    </div>
+        
+
+
+<input  data-drupal-selector="edit-text" type="text" id="edit-text" name="text" value="" size="30" maxlength="128" class="form-text border-gray-400 rounded-lg py-1 form-input w-full" />
+
+          </div>
+</label>
+
+    </div>
+
+    <div x-cloak class="block lg:hidden">
+      
+
+
+
+<button  @click="filtersOpen=!filtersOpen" :class="{&quot;btn-solid-primary&quot;: filtersOpen, &quot;btn-outline-inverse&quot;: !filtersOpen}" x-cloak="" onclick="return false" class="btn cursor-pointer items-center justify-center gap-2 transition-colors duration-500 inline-flex uppercase border py-1.5 flex-row text-base px-2 rounded-lg" tabindex="0">
+        
+
+
+<svg  class="svg fill-current   w-5 h-5">
+  <use xlink:href="/cultura/agendaculturaldeandalucia/themes/custom/wingsuit/dist/app-drupal/images/spritemap.svg#filter"></use>
+</svg>
+  </button>
+    </div>
+
+    <div x-cloak
+    x-show="filtersOpen"
+    x-transition:enter="transition-all ease-out duration-700 max-h-0"
+    x-transition:enter-end="max-h-96"
+    x-transition:leave="transition-all ease-in duration-700 max-h-0"
+    x-transition:leave-start="max-h-96"
+    class="overflow-hidden gap-3 order-last basis-full lg:flex lg:order-none lg:basis-auto">
+      
+
+
+<label class="js-form-item form-item">
+  <div>
+      <div>
+    
+
+<span for="edit-province" class="pr-4">
+    Provincia
+
+      </span>
+    </div>
+        <div class="form-item__dropdown"><select data-drupal-selector="edit-province" id="edit-province" name="province" class="form-select form-select w-full border-gray-400 rounded-lg py-1"><option value="All" selected="selected">- Cualquiera -</option><option value="1438">Almería</option><option value="1439">Cádiz</option><option value="1440">Córdoba</option><option value="1485">Granada</option><option value="1442">Huelva</option><option value="1489">Jaén</option><option value="1444">Málaga</option><option value="1445">Sevilla</option></select></div>
+          </div>
+</label>
+
+
+      
+
+
+<label class="js-form-item form-item">
+  <div>
+      <div>
+    
+
+<span for="edit-audience" class="pr-4">
+    Audiencia
+
+      </span>
+    </div>
+        <div class="form-item__dropdown"><select data-drupal-selector="edit-audience" id="edit-audience" name="audience" class="form-select form-select w-full border-gray-400 rounded-lg py-1"><option value="All" selected="selected">- Cualquiera -</option><option value="1450">Adultos</option><option value="1451">Familiar</option><option value="1449">Jóvenes</option><option value="1448">Primera infancia</option></select></div>
+          </div>
+</label>
+
+
+      
+
+
+<label class="js-form-item form-item">
+  <div>
+      <div>
+    
+
+<span for="edit-topic" class="pr-4">
+    Temática
+
+      </span>
+    </div>
+        <div class="form-item__dropdown"><select data-drupal-selector="edit-topic" id="edit-topic" name="topic" class="form-select form-select w-full border-gray-400 rounded-lg py-1"><option value="All" selected="selected">- Cualquiera -</option><option value="1435">Agenda infantil y juvenil</option><option value="1433">Cine y audiovisual</option><option value="1434">Cursos y formación</option><option value="1429">Espectáculos</option><option value="1430">Exposiciones</option><option value="1436">Fiestas y tradiciones</option><option value="1437">Flamenco</option><option value="1432">Libros y literatura</option><option value="1431">Monumentos y Espacios Culturales</option></select></div>
+          </div>
+</label>
+
+
+      
+
+
+<label class="js-form-item form-item">
+  <div>
+      <div>
+    
+
+<span for="edit-date-from" class="pr-4">
+    desde
+
+      </span>
+    </div>
+        
+
+
+<input  type="date" data-drupal-selector="edit-date-from" data-drupal-date-format="Y-m-d" id="edit-date-from" name="date_from" value="" size="30" class="form-date border-gray-400 rounded-lg py-1 form-input w-full" />
+
+          </div>
+</label>
+
+
+      
+
+
+<label class="js-form-item form-item">
+  <div>
+      <div>
+    
+
+<span for="edit-date-to" class="pr-4">
+    hasta
+
+      </span>
+    </div>
+        
+
+
+<input  type="date" data-drupal-selector="edit-date-to" data-drupal-date-format="Y-m-d" id="edit-date-to" name="date_to" value="" size="30" class="form-date border-gray-400 rounded-lg py-1 form-input w-full" />
+
+          </div>
+</label>
+
+    </div>
+
+    
+
+
+
+<button  id="search-button" class="btn cursor-pointer items-center justify-center gap-2 transition-colors duration-500 inline-flex uppercase border py-1.5 flex-row-reverse btn-solid-primary sm:text-base px-4 rounded-lg" tabindex="0">
+      Buscar
+        
+
+
+<svg  class="svg fill-current  w-4 h-4">
+  <use xlink:href="/cultura/agendaculturaldeandalucia/themes/custom/wingsuit/dist/app-drupal/images/spritemap.svg#search"></use>
+</svg>
+  </button>
+
+    
+
+
+
+<button  type="button" id="map-button" onclick="
+            const form = this.closest(&#039;form&#039;);
+            form.action = Drupal.url(&#039;mapa_actividades&#039;);
+            form.submit();
+            " class="btn cursor-pointer items-center justify-center gap-2 transition-colors duration-500 inline-flex uppercase border py-1.5 flex-row btn-solid-primary sm:text-base px-4 rounded-lg" tabindex="0">
+      Mapa
+    </button>
+
+</div>
+</div>
+
+</form>
+
+</div>
+
+      </div>
+  
+   <div class="h-40 relative bg-gray-80 overflow-hidden">
+    <div class="h-full img-h-full img-object-cover">
+      
+  <div class="image">
+    
+
+  <div>
+    <div class="visually-hidden">
+      Imagen    </div>
+                  <div>    <picture>
+                  <source srcset="/cultura/agendaculturaldeandalucia/sites/default/files/styles/header_page_2xl/public/2022-06/3_cab-espacios.jpg.webp?itok=fgF3-sWH 1x, /cultura/agendaculturaldeandalucia/sites/default/files/styles/header_page_2xl/public/2022-06/3_cab-espacios.jpg.webp?itok=fgF3-sWH 2x" media="all and (min-width: 1440px)" type="image/webp"/>
+              <source srcset="/cultura/agendaculturaldeandalucia/sites/default/files/styles/header_page_2xl/public/2022-06/3_cab-espacios.jpg.webp?itok=fgF3-sWH 1x, /cultura/agendaculturaldeandalucia/sites/default/files/styles/header_page_2xl/public/2022-06/3_cab-espacios.jpg.webp?itok=fgF3-sWH 2x" media="all and (min-width: 1200px) and (max-width: 1439px)" type="image/webp"/>
+              <source srcset="/cultura/agendaculturaldeandalucia/sites/default/files/styles/header_page_xl/public/2022-06/3_cab-espacios.jpg.webp?itok=xofj-dKu 1x, /cultura/agendaculturaldeandalucia/sites/default/files/styles/header_page_xl/public/2022-06/3_cab-espacios.jpg.webp?itok=xofj-dKu 2x" media="all and (min-width: 1024px) and (max-width: 1199px)" type="image/webp"/>
+              <source srcset="/cultura/agendaculturaldeandalucia/sites/default/files/styles/header_page_lg/public/2022-06/3_cab-espacios.jpg.webp?itok=hvV5Lzr_ 1x, /cultura/agendaculturaldeandalucia/sites/default/files/styles/header_page_lg/public/2022-06/3_cab-espacios.jpg.webp?itok=hvV5Lzr_ 2x" media="all and (min-width: 640px) and (max-width: 1023px)" type="image/webp"/>
+              <source srcset="/cultura/agendaculturaldeandalucia/sites/default/files/styles/header_page_md/public/2022-06/3_cab-espacios.jpg.webp?itok=EmdDpXLK 1x, /cultura/agendaculturaldeandalucia/sites/default/files/styles/header_page_md/public/2022-06/3_cab-espacios.jpg.webp?itok=EmdDpXLK 2x" media="(min-width: 460px) and (max-width: 639px)" type="image/webp"/>
+              <source srcset="/cultura/agendaculturaldeandalucia/sites/default/files/styles/header_page_md/public/2022-06/3_cab-espacios.jpg.webp?itok=EmdDpXLK 1x, /cultura/agendaculturaldeandalucia/sites/default/files/styles/header_page_md/public/2022-06/3_cab-espacios.jpg.webp?itok=EmdDpXLK 2x" media="(min-width: 0px) and (max-width: 459px)" type="image/webp"/>
+                  <img src="/cultura/agendaculturaldeandalucia/sites/default/files/styles/header_page_2xl/public/2022-06/3_cab-espacios.jpg.webp?itok=fgF3-sWH" alt="cabecera espacios" />
+
+  </picture>
+
+</div>
+              </div>
+
+  </div>
+
+    </div>
+    <div class="absolute bottom-0 inset-x-0 h-full flex justify-center items-end">
+      
+
+
+
+<a href="/cultura/agendaculturaldeandalucia/" class="w-full max-w-sm block">
+  <img src="/cultura/agendaculturaldeandalucia/themes/custom/wingsuit/dist/app-drupal/images/logo-agenda-cultura-andalucia.svg" alt="Logo" class="w-full md:w-96">
+</a>
+    </div>
+  </div>
+</div>
+
+    
+<div id="block-wingsuit-breadcrumbs" class="border-b border-gray-100">
+  <div class="container mx-auto">
+    
+    
+    <nav role="navigation" aria-labelledby="system-breadcrumb">
+  <h2 id="system-breadcrumb" class="visually-hidden">Sobrescribir enlaces de ayuda a la navegación</h2>
+
+  
+
+
+<ol class="py-3">
+  <li class="inline">
+          <a href="/cultura/agendaculturaldeandalucia/" class="hover:underline">Inicio</a>
+    
+      </li>
+</ol>
+</nav>
+
+  </div>
+</div>
+<div data-drupal-messages-fallback class="hidden"></div>
+
+
+
+<main
+  id="main-content"
+  class="main-content flex-1 container mx-auto"
+  x-data="{ filtersOpen: true }"
+>
+            <div id="block-wingsuit-page-title">
+  
+  
+
+  
+  
+
+  <div class="text-center mt-6">
+    
+
+<div  class="headline text-2xl font-titles font-light lg:text-4xl leading-relaxed mb-4 md:mb-6 uppercase">
+
+  
+  Plazas y parques
+</div>
+  </div>
+
+
+
+</div>
+<div id="block-wingsuit-content">
+  
+  
+
+  
+  <div class="view-id-spaces view-display-id-page_space_type js-view-dom-id-a7e1731a8dfe8a00e3c81a3842d8b5bb2def024e87e0079472a62e4abac5d914">
+  
+  
+  
+
+      <header>
+      
+    </header>
+  
+  
+  
+
+  <div data-drupal-views-infinite-scroll-content-wrapper class="views-infinite-scroll-content-wrapper clearfix">
+
+  
+
+
+
+
+  <div  class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-5 lg:gap-7">
+                                      
+          <div>
+                                
+
+
+
+
+  <a  href="/cultura/agendaculturaldeandalucia/espacios/plaza-de-la-constitucion-de-berja" class="w-full flex flex-1 overflow-hidden   md:flex-col flex-col relative">
+  <div class="relative">
+              <div class="relative">
+                  
+  <div class="image">
+    
+
+  <div>
+    <div class="visually-hidden">
+      Imagen    </div>
+                  <div>    <picture>
+                  <source srcset="/cultura/agendaculturaldeandalucia/sites/default/files/styles/card_space_2xl/public/2023-10/plaza_constitucion_berja.jpg.webp?itok=zbs3IKHp 1x, /cultura/agendaculturaldeandalucia/sites/default/files/styles/card_space_2xl/public/2023-10/plaza_constitucion_berja.jpg.webp?itok=zbs3IKHp 2x" media="all and (min-width: 1440px)" type="image/webp"/>
+              <source srcset="/cultura/agendaculturaldeandalucia/sites/default/files/styles/card_space_xl/public/2023-10/plaza_constitucion_berja.jpg.webp?itok=dQUwY4sZ 1x, /cultura/agendaculturaldeandalucia/sites/default/files/styles/card_space_xl/public/2023-10/plaza_constitucion_berja.jpg.webp?itok=dQUwY4sZ 2x" media="all and (min-width: 1200px) and (max-width: 1439px)" type="image/webp"/>
+              <source srcset="/cultura/agendaculturaldeandalucia/sites/default/files/styles/card_vertical_lg/public/2023-10/plaza_constitucion_berja.jpg.webp?itok=TOxSEUmk 1x, /cultura/agendaculturaldeandalucia/sites/default/files/styles/card_space_lg/public/2023-10/plaza_constitucion_berja.jpg.webp?itok=QxV58KNL 2x" media="all and (min-width: 1024px) and (max-width: 1199px)" type="image/webp"/>
+              <source srcset="/cultura/agendaculturaldeandalucia/sites/default/files/styles/card_space_md/public/2023-10/plaza_constitucion_berja.jpg.webp?itok=tKudmQcP 1x, /cultura/agendaculturaldeandalucia/sites/default/files/styles/card_space_md/public/2023-10/plaza_constitucion_berja.jpg.webp?itok=tKudmQcP 2x" media="all and (min-width: 640px) and (max-width: 1023px)" type="image/webp"/>
+                  <img src="/cultura/agendaculturaldeandalucia/sites/default/files/styles/card_space_2xl/public/2023-10/plaza_constitucion_berja.jpg.webp?itok=zbs3IKHp" alt="PLAZA DE LA cONSTITUCÓN" />
+
+  </picture>
+
+</div>
+              </div>
+
+  </div>
+
+              </div>
+    
+        <div class="absolute bottom-0 h-5/6 w-full gradient-black-70">
+      <div class="h-full py-4 px-6 flex flex-col justify-end text-white">
+                
+
+<div  class="headline text-lg font-sans lg:text-2xl lg:leading-tight">
+
+  
+  Plaza de La Constitución de Berja
+</div>
+
+                <div>
+          
+
+
+
+<button  class="btn cursor-pointer items-center justify-center gap-2 transition-colors duration-500 inline-flex uppercase border-0 py-0 py-1.5 flex-row btn-link-inverse sm:text-base px-0 rounded-lg" tabindex="0">
+        
+
+
+<svg  class="svg fill-current  w-4 h-4">
+  <use xlink:href="/cultura/agendaculturaldeandalucia/themes/custom/wingsuit/dist/app-drupal/images/spritemap.svg#arrow-right"></use>
+</svg>
+  </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    
+        <div class="px-1.5 lg:px-2.5 py-2">
+      
+
+
+
+
+
+
+
+  <div class="px-4 pt-2.5 pb-2.5 gap-x-2 flex items-center">
+
+              <div class="flex-shrink   text-accent">
+        
+    
+  <i class="fas fa-location-dot svg   w-4 h-4"></i>
+      </div>
+    
+    
+    <div class="text-accent text_base">Plaza La Constitución, s/n</div>
+
+  </div>
+    </div>
+  </a>
+
+
+                      </div>
+                                    
+          <div>
+                                
+
+
+
+
+  <a  href="/cultura/agendaculturaldeandalucia/espacios/plaza-de-la-corredera" class="w-full flex flex-1 overflow-hidden   md:flex-col flex-col relative">
+  <div class="relative">
+              <div class="relative">
+                  
+  <div class="image">
+    
+
+  <div>
+    <div class="visually-hidden">
+      Imagen    </div>
+                  <div>    <picture>
+                  <source srcset="/cultura/agendaculturaldeandalucia/sites/default/files/styles/card_space_2xl/public/2025-02/202004241336450000001587728205.5482.jpg.webp?itok=sLGmoUh_ 1x, /cultura/agendaculturaldeandalucia/sites/default/files/styles/card_space_2xl/public/2025-02/202004241336450000001587728205.5482.jpg.webp?itok=sLGmoUh_ 2x" media="all and (min-width: 1440px)" type="image/webp"/>
+              <source srcset="/cultura/agendaculturaldeandalucia/sites/default/files/styles/card_space_xl/public/2025-02/202004241336450000001587728205.5482.jpg.webp?itok=BGo9N8mo 1x, /cultura/agendaculturaldeandalucia/sites/default/files/styles/card_space_xl/public/2025-02/202004241336450000001587728205.5482.jpg.webp?itok=BGo9N8mo 2x" media="all and (min-width: 1200px) and (max-width: 1439px)" type="image/webp"/>
+              <source srcset="/cultura/agendaculturaldeandalucia/sites/default/files/styles/card_vertical_lg/public/2025-02/202004241336450000001587728205.5482.jpg.webp?itok=IG4kJ--_ 1x, /cultura/agendaculturaldeandalucia/sites/default/files/styles/card_space_lg/public/2025-02/202004241336450000001587728205.5482.jpg.webp?itok=vp0yyaPE 2x" media="all and (min-width: 1024px) and (max-width: 1199px)" type="image/webp"/>
+              <source srcset="/cultura/agendaculturaldeandalucia/sites/default/files/styles/card_space_md/public/2025-02/202004241336450000001587728205.5482.jpg.webp?itok=2yUweF3m 1x, /cultura/agendaculturaldeandalucia/sites/default/files/styles/card_space_md/public/2025-02/202004241336450000001587728205.5482.jpg.webp?itok=2yUweF3m 2x" media="all and (min-width: 640px) and (max-width: 1023px)" type="image/webp"/>
+                  <img src="/cultura/agendaculturaldeandalucia/sites/default/files/styles/card_space_2xl/public/2025-02/202004241336450000001587728205.5482.jpg.webp?itok=sLGmoUh_" alt="Plaza de la corredera" />
+
+  </picture>
+
+</div>
+              </div>
+
+  </div>
+
+              </div>
+    
+        <div class="absolute bottom-0 h-5/6 w-full gradient-black-70">
+      <div class="h-full py-4 px-6 flex flex-col justify-end text-white">
+                
+
+<div  class="headline text-lg font-sans lg:text-2xl lg:leading-tight">
+
+  
+  Plaza de la Corredera
+</div>
+
+                <div>
+          
+
+
+
+<button  class="btn cursor-pointer items-center justify-center gap-2 transition-colors duration-500 inline-flex uppercase border-0 py-0 py-1.5 flex-row btn-link-inverse sm:text-base px-0 rounded-lg" tabindex="0">
+        
+
+
+<svg  class="svg fill-current  w-4 h-4">
+  <use xlink:href="/cultura/agendaculturaldeandalucia/themes/custom/wingsuit/dist/app-drupal/images/spritemap.svg#arrow-right"></use>
+</svg>
+  </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    
+        <div class="px-1.5 lg:px-2.5 py-2">
+      
+
+
+
+
+
+
+
+  <div class="px-4 pt-2.5 pb-2.5 gap-x-2 flex items-center">
+
+              <div class="flex-shrink   text-accent">
+        
+    
+  <i class="fas fa-location-dot svg   w-4 h-4"></i>
+      </div>
+    
+    
+    <div class="text-accent text_base">Plaza Plaza de la corredera, </div>
+
+  </div>
+    </div>
+  </a>
+
+
+                      </div>
+                                    
+          <div>
+                                
+
+
+
+
+  <a  href="/cultura/agendaculturaldeandalucia/espacios/plaza-de-la-corredera-0" class="w-full flex flex-1 overflow-hidden   md:flex-col flex-col relative">
+  <div class="relative">
+        
+        <div class="absolute bottom-0 h-5/6 w-full gradient-black-70">
+      <div class="h-full py-4 px-6 flex flex-col justify-end text-white">
+                
+
+<div  class="headline text-lg font-sans lg:text-2xl lg:leading-tight">
+
+  
+  Plaza de la Corredera
+</div>
+
+                <div>
+          
+
+
+
+<button  class="btn cursor-pointer items-center justify-center gap-2 transition-colors duration-500 inline-flex uppercase border-0 py-0 py-1.5 flex-row btn-link-inverse sm:text-base px-0 rounded-lg" tabindex="0">
+        
+
+
+<svg  class="svg fill-current  w-4 h-4">
+  <use xlink:href="/cultura/agendaculturaldeandalucia/themes/custom/wingsuit/dist/app-drupal/images/spritemap.svg#arrow-right"></use>
+</svg>
+  </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+        
+
+<div  class="headline text-lg font-sans lg:text-2xl lg:leading-tight">
+
+  
+  Plaza de la Corredera
+</div>
+  
+        <div class="px-1.5 lg:px-2.5 py-2">
+      
+
+
+
+
+
+
+
+  <div class="px-4 pt-2.5 pb-2.5 gap-x-2 flex items-center">
+
+              <div class="flex-shrink   text-accent">
+        
+    
+  <i class="fas fa-location-dot svg   w-4 h-4"></i>
+      </div>
+    
+    
+    <div class="text-accent text_base">Plaza de la Corredera</div>
+
+  </div>
+    </div>
+  </a>
+
+
+                      </div>
+                                    
+          <div>
+                                
+
+
+
+
+  <a  href="/cultura/agendaculturaldeandalucia/espacios/plaza-de-la-era" class="w-full flex flex-1 overflow-hidden   md:flex-col flex-col relative">
+  <div class="relative">
+        
+        <div class="absolute bottom-0 h-5/6 w-full gradient-black-70">
+      <div class="h-full py-4 px-6 flex flex-col justify-end text-white">
+                
+
+<div  class="headline text-lg font-sans lg:text-2xl lg:leading-tight">
+
+  
+  Plaza de la Era
+</div>
+
+                <div>
+          
+
+
+
+<button  class="btn cursor-pointer items-center justify-center gap-2 transition-colors duration-500 inline-flex uppercase border-0 py-0 py-1.5 flex-row btn-link-inverse sm:text-base px-0 rounded-lg" tabindex="0">
+        
+
+
+<svg  class="svg fill-current  w-4 h-4">
+  <use xlink:href="/cultura/agendaculturaldeandalucia/themes/custom/wingsuit/dist/app-drupal/images/spritemap.svg#arrow-right"></use>
+</svg>
+  </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+        
+
+<div  class="headline text-lg font-sans lg:text-2xl lg:leading-tight">
+
+  
+  Plaza de la Era
+</div>
+  
+        <div class="px-1.5 lg:px-2.5 py-2">
+      
+
+
+
+
+
+
+
+  <div class="px-4 pt-2.5 pb-2.5 gap-x-2 flex items-center">
+
+              <div class="flex-shrink   text-accent">
+        
+    
+  <i class="fas fa-location-dot svg   w-4 h-4"></i>
+      </div>
+    
+    
+    <div class="text-accent text_base">Plaza de la Era</div>
+
+  </div>
+    </div>
+  </a>
+
+
+                      </div>
+                                    
+          <div>
+                                
+
+
+
+
+  <a  href="/cultura/agendaculturaldeandalucia/espacios/plaza-de-la-iglesia-2" class="w-full flex flex-1 overflow-hidden   md:flex-col flex-col relative">
+  <div class="relative">
+        
+        <div class="absolute bottom-0 h-5/6 w-full gradient-black-70">
+      <div class="h-full py-4 px-6 flex flex-col justify-end text-white">
+                
+
+<div  class="headline text-lg font-sans lg:text-2xl lg:leading-tight">
+
+  
+  Plaza de la Iglesia
+</div>
+
+                <div>
+          
+
+
+
+<button  class="btn cursor-pointer items-center justify-center gap-2 transition-colors duration-500 inline-flex uppercase border-0 py-0 py-1.5 flex-row btn-link-inverse sm:text-base px-0 rounded-lg" tabindex="0">
+        
+
+
+<svg  class="svg fill-current  w-4 h-4">
+  <use xlink:href="/cultura/agendaculturaldeandalucia/themes/custom/wingsuit/dist/app-drupal/images/spritemap.svg#arrow-right"></use>
+</svg>
+  </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+        
+
+<div  class="headline text-lg font-sans lg:text-2xl lg:leading-tight">
+
+  
+  Plaza de la Iglesia
+</div>
+  
+        <div class="px-1.5 lg:px-2.5 py-2">
+      
+
+
+
+
+
+
+
+  <div class="px-4 pt-2.5 pb-2.5 gap-x-2 flex items-center">
+
+              <div class="flex-shrink   text-accent">
+        
+    
+  <i class="fas fa-location-dot svg   w-4 h-4"></i>
+      </div>
+    
+    
+    <div class="text-accent text_base">Plaza de la Iglesia</div>
+
+  </div>
+    </div>
+  </a>
+
+
+                      </div>
+                                    
+          <div>
+                                
+
+
+
+
+  <a  href="/cultura/agendaculturaldeandalucia/espacios/plaza-de-la-iglesia-de-sileras" class="w-full flex flex-1 overflow-hidden   md:flex-col flex-col relative">
+  <div class="relative">
+        
+        <div class="absolute bottom-0 h-5/6 w-full gradient-black-70">
+      <div class="h-full py-4 px-6 flex flex-col justify-end text-white">
+                
+
+<div  class="headline text-lg font-sans lg:text-2xl lg:leading-tight">
+
+  
+  Plaza de la Iglesia de Sileras
+</div>
+
+                <div>
+          
+
+
+
+<button  class="btn cursor-pointer items-center justify-center gap-2 transition-colors duration-500 inline-flex uppercase border-0 py-0 py-1.5 flex-row btn-link-inverse sm:text-base px-0 rounded-lg" tabindex="0">
+        
+
+
+<svg  class="svg fill-current  w-4 h-4">
+  <use xlink:href="/cultura/agendaculturaldeandalucia/themes/custom/wingsuit/dist/app-drupal/images/spritemap.svg#arrow-right"></use>
+</svg>
+  </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+        
+
+<div  class="headline text-lg font-sans lg:text-2xl lg:leading-tight">
+
+  
+  Plaza de la Iglesia de Sileras
+</div>
+  
+        <div class="px-1.5 lg:px-2.5 py-2">
+      
+
+
+
+
+
+
+
+  <div class="px-4 pt-2.5 pb-2.5 gap-x-2 flex items-center">
+
+              <div class="flex-shrink   text-accent">
+        
+    
+  <i class="fas fa-location-dot svg   w-4 h-4"></i>
+      </div>
+    
+    
+    <div class="text-accent text_base">Plaza de la Iglesia de Sileras</div>
+
+  </div>
+    </div>
+  </a>
+
+
+                      </div>
+                                    
+          <div>
+                                
+
+
+
+
+  <a  href="/cultura/agendaculturaldeandalucia/espacios/plaza-de-la-igualdad-calle" class="w-full flex flex-1 overflow-hidden   md:flex-col flex-col relative">
+  <div class="relative">
+        
+        <div class="absolute bottom-0 h-5/6 w-full gradient-black-70">
+      <div class="h-full py-4 px-6 flex flex-col justify-end text-white">
+                
+
+<div  class="headline text-lg font-sans lg:text-2xl lg:leading-tight">
+
+  
+  Plaza de la Igualdad (Calle)
+</div>
+
+                <div>
+          
+
+
+
+<button  class="btn cursor-pointer items-center justify-center gap-2 transition-colors duration-500 inline-flex uppercase border-0 py-0 py-1.5 flex-row btn-link-inverse sm:text-base px-0 rounded-lg" tabindex="0">
+        
+
+
+<svg  class="svg fill-current  w-4 h-4">
+  <use xlink:href="/cultura/agendaculturaldeandalucia/themes/custom/wingsuit/dist/app-drupal/images/spritemap.svg#arrow-right"></use>
+</svg>
+  </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+        
+
+<div  class="headline text-lg font-sans lg:text-2xl lg:leading-tight">
+
+  
+  Plaza de la Igualdad (Calle)
+</div>
+  
+        <div class="px-1.5 lg:px-2.5 py-2">
+      
+
+
+
+
+
+
+
+  <div class="px-4 pt-2.5 pb-2.5 gap-x-2 flex items-center">
+
+              <div class="flex-shrink   text-accent">
+        
+    
+  <i class="fas fa-location-dot svg   w-4 h-4"></i>
+      </div>
+    
+    
+    <div class="text-accent text_base">Paseo El Ejido</div>
+
+  </div>
+    </div>
+  </a>
+
+
+                      </div>
+                                    
+          <div>
+                                
+
+
+
+
+  <a  href="/cultura/agendaculturaldeandalucia/espacios/plaza-de-la-juventud" class="w-full flex flex-1 overflow-hidden   md:flex-col flex-col relative">
+  <div class="relative">
+              <div class="relative">
+                  
+  <div class="image">
+    
+
+  <div>
+    <div class="visually-hidden">
+      Imagen    </div>
+                  <div>    <picture>
+                  <source srcset="/cultura/agendaculturaldeandalucia/sites/default/files/styles/card_space_2xl/public/2024-07/plaza%20juventud%20cancelada.jpg.webp?itok=IoIv-dal 1x, /cultura/agendaculturaldeandalucia/sites/default/files/styles/card_space_2xl/public/2024-07/plaza%20juventud%20cancelada.jpg.webp?itok=IoIv-dal 2x" media="all and (min-width: 1440px)" type="image/webp"/>
+              <source srcset="/cultura/agendaculturaldeandalucia/sites/default/files/styles/card_space_xl/public/2024-07/plaza%20juventud%20cancelada.jpg.webp?itok=2PvYOOS3 1x, /cultura/agendaculturaldeandalucia/sites/default/files/styles/card_space_xl/public/2024-07/plaza%20juventud%20cancelada.jpg.webp?itok=2PvYOOS3 2x" media="all and (min-width: 1200px) and (max-width: 1439px)" type="image/webp"/>
+              <source srcset="/cultura/agendaculturaldeandalucia/sites/default/files/styles/card_vertical_lg/public/2024-07/plaza%20juventud%20cancelada.jpg.webp?itok=ZmEg2OGA 1x, /cultura/agendaculturaldeandalucia/sites/default/files/styles/card_space_lg/public/2024-07/plaza%20juventud%20cancelada.jpg.webp?itok=_KVKlccv 2x" media="all and (min-width: 1024px) and (max-width: 1199px)" type="image/webp"/>
+              <source srcset="/cultura/agendaculturaldeandalucia/sites/default/files/styles/card_space_md/public/2024-07/plaza%20juventud%20cancelada.jpg.webp?itok=x29jpZIs 1x, /cultura/agendaculturaldeandalucia/sites/default/files/styles/card_space_md/public/2024-07/plaza%20juventud%20cancelada.jpg.webp?itok=x29jpZIs 2x" media="all and (min-width: 640px) and (max-width: 1023px)" type="image/webp"/>
+                  <img src="/cultura/agendaculturaldeandalucia/sites/default/files/styles/card_space_2xl/public/2024-07/plaza%20juventud%20cancelada.jpg.webp?itok=IoIv-dal" alt="Pl. de la Juventud, 29688 Cancelada, Málaga" />
+
+  </picture>
+
+</div>
+              </div>
+
+  </div>
+
+              </div>
+    
+        <div class="absolute bottom-0 h-5/6 w-full gradient-black-70">
+      <div class="h-full py-4 px-6 flex flex-col justify-end text-white">
+                
+
+<div  class="headline text-lg font-sans lg:text-2xl lg:leading-tight">
+
+  
+  Plaza de la Juventud
+</div>
+
+                <div>
+          
+
+
+
+<button  class="btn cursor-pointer items-center justify-center gap-2 transition-colors duration-500 inline-flex uppercase border-0 py-0 py-1.5 flex-row btn-link-inverse sm:text-base px-0 rounded-lg" tabindex="0">
+        
+
+
+<svg  class="svg fill-current  w-4 h-4">
+  <use xlink:href="/cultura/agendaculturaldeandalucia/themes/custom/wingsuit/dist/app-drupal/images/spritemap.svg#arrow-right"></use>
+</svg>
+  </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    
+        <div class="px-1.5 lg:px-2.5 py-2">
+      
+
+
+
+
+
+
+
+  <div class="px-4 pt-2.5 pb-2.5 gap-x-2 flex items-center">
+
+              <div class="flex-shrink   text-accent">
+        
+    
+  <i class="fas fa-location-dot svg   w-4 h-4"></i>
+      </div>
+    
+    
+    <div class="text-accent text_base">Pl. de la Juventud</div>
+
+  </div>
+    </div>
+  </a>
+
+
+                      </div>
+                                    
+          <div>
+                                
+
+
+
+
+  <a  href="/cultura/agendaculturaldeandalucia/espacios/plaza-de-la-vera-cruz" class="w-full flex flex-1 overflow-hidden   md:flex-col flex-col relative">
+  <div class="relative">
+        
+        <div class="absolute bottom-0 h-5/6 w-full gradient-black-70">
+      <div class="h-full py-4 px-6 flex flex-col justify-end text-white">
+                
+
+<div  class="headline text-lg font-sans lg:text-2xl lg:leading-tight">
+
+  
+  Plaza de la Vera Cruz
+</div>
+
+                <div>
+          
+
+
+
+<button  class="btn cursor-pointer items-center justify-center gap-2 transition-colors duration-500 inline-flex uppercase border-0 py-0 py-1.5 flex-row btn-link-inverse sm:text-base px-0 rounded-lg" tabindex="0">
+        
+
+
+<svg  class="svg fill-current  w-4 h-4">
+  <use xlink:href="/cultura/agendaculturaldeandalucia/themes/custom/wingsuit/dist/app-drupal/images/spritemap.svg#arrow-right"></use>
+</svg>
+  </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+        
+
+<div  class="headline text-lg font-sans lg:text-2xl lg:leading-tight">
+
+  
+  Plaza de la Vera Cruz
+</div>
+  
+        <div class="px-1.5 lg:px-2.5 py-2">
+      
+
+
+
+
+
+
+
+  <div class="px-4 pt-2.5 pb-2.5 gap-x-2 flex items-center">
+
+              <div class="flex-shrink   text-accent">
+        
+    
+  <i class="fas fa-location-dot svg   w-4 h-4"></i>
+      </div>
+    
+    
+    <div class="text-accent text_base">Plaza de la Vera Cruz</div>
+
+  </div>
+    </div>
+  </a>
+
+
+                      </div>
+                                    
+          <div>
+                                
+
+
+
+
+  <a  href="/cultura/agendaculturaldeandalucia/espacios/plaza-de-las-monjas" class="w-full flex flex-1 overflow-hidden   md:flex-col flex-col relative">
+  <div class="relative">
+        
+        <div class="absolute bottom-0 h-5/6 w-full gradient-black-70">
+      <div class="h-full py-4 px-6 flex flex-col justify-end text-white">
+                
+
+<div  class="headline text-lg font-sans lg:text-2xl lg:leading-tight">
+
+  
+  Plaza de las Monjas
+</div>
+
+                <div>
+          
+
+
+
+<button  class="btn cursor-pointer items-center justify-center gap-2 transition-colors duration-500 inline-flex uppercase border-0 py-0 py-1.5 flex-row btn-link-inverse sm:text-base px-0 rounded-lg" tabindex="0">
+        
+
+
+<svg  class="svg fill-current  w-4 h-4">
+  <use xlink:href="/cultura/agendaculturaldeandalucia/themes/custom/wingsuit/dist/app-drupal/images/spritemap.svg#arrow-right"></use>
+</svg>
+  </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+        
+
+<div  class="headline text-lg font-sans lg:text-2xl lg:leading-tight">
+
+  
+  Plaza de las Monjas
+</div>
+  
+        <div class="px-1.5 lg:px-2.5 py-2">
+      
+
+
+
+
+
+
+
+  <div class="px-4 pt-2.5 pb-2.5 gap-x-2 flex items-center">
+
+              <div class="flex-shrink   text-accent">
+        
+    
+  <i class="fas fa-location-dot svg   w-4 h-4"></i>
+      </div>
+    
+    
+    <div class="text-accent text_base">Plaza de las Monjas</div>
+
+  </div>
+    </div>
+  </a>
+
+
+                      </div>
+                                    
+          <div>
+                                
+
+
+
+
+  <a  href="/cultura/agendaculturaldeandalucia/espacios/plaza-de-las-tendillas" class="w-full flex flex-1 overflow-hidden   md:flex-col flex-col relative">
+  <div class="relative">
+              <div class="relative">
+                  
+  <div class="image">
+    
+
+  <div>
+    <div class="visually-hidden">
+      Imagen    </div>
+                  <div>    <picture>
+                  <source srcset="/cultura/agendaculturaldeandalucia/sites/default/files/styles/card_space_2xl/public/2025-02/Cordoba_tendillas.jpg.webp?itok=LMs5pDZ5 1x, /cultura/agendaculturaldeandalucia/sites/default/files/styles/card_space_2xl/public/2025-02/Cordoba_tendillas.jpg.webp?itok=LMs5pDZ5 2x" media="all and (min-width: 1440px)" type="image/webp"/>
+              <source srcset="/cultura/agendaculturaldeandalucia/sites/default/files/styles/card_space_xl/public/2025-02/Cordoba_tendillas.jpg.webp?itok=EGh3P9l5 1x, /cultura/agendaculturaldeandalucia/sites/default/files/styles/card_space_xl/public/2025-02/Cordoba_tendillas.jpg.webp?itok=EGh3P9l5 2x" media="all and (min-width: 1200px) and (max-width: 1439px)" type="image/webp"/>
+              <source srcset="/cultura/agendaculturaldeandalucia/sites/default/files/styles/card_vertical_lg/public/2025-02/Cordoba_tendillas.jpg.webp?itok=bDdc2ohI 1x, /cultura/agendaculturaldeandalucia/sites/default/files/styles/card_space_lg/public/2025-02/Cordoba_tendillas.jpg.webp?itok=46Wue4Sm 2x" media="all and (min-width: 1024px) and (max-width: 1199px)" type="image/webp"/>
+              <source srcset="/cultura/agendaculturaldeandalucia/sites/default/files/styles/card_space_md/public/2025-02/Cordoba_tendillas.jpg.webp?itok=Fay5jBGW 1x, /cultura/agendaculturaldeandalucia/sites/default/files/styles/card_space_md/public/2025-02/Cordoba_tendillas.jpg.webp?itok=Fay5jBGW 2x" media="all and (min-width: 640px) and (max-width: 1023px)" type="image/webp"/>
+                  <img src="/cultura/agendaculturaldeandalucia/sites/default/files/styles/card_space_2xl/public/2025-02/Cordoba_tendillas.jpg.webp?itok=LMs5pDZ5" alt="Plaza de las Tendillas" />
+
+  </picture>
+
+</div>
+              </div>
+
+  </div>
+
+              </div>
+    
+        <div class="absolute bottom-0 h-5/6 w-full gradient-black-70">
+      <div class="h-full py-4 px-6 flex flex-col justify-end text-white">
+                
+
+<div  class="headline text-lg font-sans lg:text-2xl lg:leading-tight">
+
+  
+  Plaza de las Tendillas 
+</div>
+
+                <div>
+          
+
+
+
+<button  class="btn cursor-pointer items-center justify-center gap-2 transition-colors duration-500 inline-flex uppercase border-0 py-0 py-1.5 flex-row btn-link-inverse sm:text-base px-0 rounded-lg" tabindex="0">
+        
+
+
+<svg  class="svg fill-current  w-4 h-4">
+  <use xlink:href="/cultura/agendaculturaldeandalucia/themes/custom/wingsuit/dist/app-drupal/images/spritemap.svg#arrow-right"></use>
+</svg>
+  </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    
+        <div class="px-1.5 lg:px-2.5 py-2">
+      
+
+
+
+
+
+
+
+  <div class="px-4 pt-2.5 pb-2.5 gap-x-2 flex items-center">
+
+              <div class="flex-shrink   text-accent">
+        
+    
+  <i class="fas fa-location-dot svg   w-4 h-4"></i>
+      </div>
+    
+    
+    <div class="text-accent text_base">Plaza de las Tendillas s/n</div>
+
+  </div>
+    </div>
+  </a>
+
+
+                      </div>
+                                    
+          <div>
+                                
+
+
+
+
+  <a  href="/cultura/agendaculturaldeandalucia/espacios/plaza-de-los-martires" class="w-full flex flex-1 overflow-hidden   md:flex-col flex-col relative">
+  <div class="relative">
+        
+        <div class="absolute bottom-0 h-5/6 w-full gradient-black-70">
+      <div class="h-full py-4 px-6 flex flex-col justify-end text-white">
+                
+
+<div  class="headline text-lg font-sans lg:text-2xl lg:leading-tight">
+
+  
+  Plaza de los Mártires
+</div>
+
+                <div>
+          
+
+
+
+<button  class="btn cursor-pointer items-center justify-center gap-2 transition-colors duration-500 inline-flex uppercase border-0 py-0 py-1.5 flex-row btn-link-inverse sm:text-base px-0 rounded-lg" tabindex="0">
+        
+
+
+<svg  class="svg fill-current  w-4 h-4">
+  <use xlink:href="/cultura/agendaculturaldeandalucia/themes/custom/wingsuit/dist/app-drupal/images/spritemap.svg#arrow-right"></use>
+</svg>
+  </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+        
+
+<div  class="headline text-lg font-sans lg:text-2xl lg:leading-tight">
+
+  
+  Plaza de los Mártires
+</div>
+  
+        <div class="px-1.5 lg:px-2.5 py-2">
+      
+
+
+
+
+
+
+
+  <div class="px-4 pt-2.5 pb-2.5 gap-x-2 flex items-center">
+
+              <div class="flex-shrink   text-accent">
+        
+    
+  <i class="fas fa-location-dot svg   w-4 h-4"></i>
+      </div>
+    
+    
+    <div class="text-accent text_base">Plaza de los Mártires</div>
+
+  </div>
+    </div>
+  </a>
+
+
+                      </div>
+          </div>
+
+</div>
+
+    
+  <ul class="js-pager__items pager lg:w-[calc(33.3%-1.25rem)] mx-auto mt-8" data-drupal-views-infinite-scroll-pager>
+    <li class="text-center">
+      
+
+      
+
+<a  href="?page=6" class="btn cursor-pointer items-center justify-center gap-2 transition-colors duration-500 inline-flex uppercase w-full border py-1.5 flex-row btn-solid-inverse sm:text-base px-4" tabindex="0">
+      Cargar más
+    </a>
+    </li>
+  </ul>
+
+
+  
+  
+
+  
+  
+</div>
+
+</div>
+
+
+  </main>
+
+  <footer>
+    
+
+
+
+
+
+
+<div  class="relative bg-gray-100">
+    <div  class="pt-8 pb-8 container lg:flex gap-x-8 xl:gap-x-20 space-y-8 lg:space-y-0 divide-y divide-solid lg:divide-none mt-10 mx-auto w-full">
+          <div class="flex-1">
+        <div id="block-contact-data-footer">
+  
+  
+
+  
+  
+
+            <div>
+          
+
+<h2  class="headline font-sans text-xl leading-relaxed font-bold text-primary">
+
+  
+  Agenda Cultural de Andalucía
+</h2>
+
+      </div>
+      
+
+            <div>
+          
+
+
+
+
+
+
+
+  <div class="px-4 pt-2.5 pb-2.5 gap-x-2 flex items-center">
+
+              <div class="flex-shrink">
+        
+    
+  <i class="fa fa-envelope svg     w-6 h-6"></i>
+      </div>
+    
+    
+    <div class="text-accent text_base">agenda.aaiicc@juntadeandalucia.es</div>
+
+  </div>
+
+      </div>
+      
+
+            <div>
+          
+
+
+
+
+
+
+
+  <div class="px-4 pt-2.5 pb-2.5 gap-x-2 flex items-center">
+
+              <div class="flex-shrink">
+        
+    
+  <i class="fa fa-location-dot svg     w-6 h-6"></i>
+      </div>
+    
+    
+    <div class="text-accent text_base">Edf. Estadio Olímpico, Pta 13. Isla de la Cartuja s/n, 41092 Sevilla</div>
+
+  </div>
+
+      </div>
+      
+</div>
+
+      </div>
+
+      <div class="flex-1 pt-8 lg:pt-0">
+        
+      </div>
+
+      <div class="flex-1 pt-8 space-y-8 lg:pt-0">
+        
+
+        <div>
+          
+<div id="block-social-media-links-footer" class="block-social-media-links">
+  
+
+      <div class="font-bold">
+      Mantente informado/a
+    </div>
+  
+  
+  
+
+<ul class="social-media-links--platforms platforms inline horizontal">
+      <li>
+      <a class="social-media-link-icon--twitter" href="https://www.twitter.com/CulturaCuenta"  target="_blank" rel="nofollow" aria-label="Síguenos en Twitter" title="Síguenos en Twitter" >
+        <span class='fab fa-x-twitter fa-2x'></span>
+      </a>
+
+          </li>
+      <li>
+      <a class="social-media-link-icon--facebook" href="https://www.facebook.com/CulturaCu3nta"  target="_blank" rel="nofollow" aria-label="Síguenos en Facebook" title="Síguenos en Facebook" >
+        <span class='fab fa-facebook fa-2x'></span>
+      </a>
+
+          </li>
+      <li>
+      <a class="social-media-link-icon--instagram" href="https://www.instagram.com/culturacuenta"  target="_blank" rel="nofollow" aria-label="Síguenos en Instagram" title="Síguenos en Instagram" >
+        <span class='fab fa-instagram fa-2x'></span>
+      </a>
+
+          </li>
+      <li>
+      <a class="social-media-link-icon--youtube" href="https://www.youtube.com/culturacuenta"  target="_blank" rel="nofollow" aria-label="Síguenos en Youtube" title="Síguenos en Youtube" >
+        <span class='fab fa-youtube fa-2x'></span>
+      </a>
+
+          </li>
+  </ul>
+
+</div>
+
+        </div>
+      </div>
+      </div>
+  </div>
+
+    
+
+
+
+
+
+
+<div  class="relative bg-primary text-white">
+    <div  class="pt-4 pb-4 container text-white upppercase mx-auto w-full">
+          <div class="uppercase"><nav role="navigation" aria-labelledby="block-legal-menu-menu" id="block-legal-menu">
+  
+          
+
+
+<ul class="flex flex-wrap justify-center   gap-x-8 gap-y-2">
+      <li
+      data-menu-target="submenu"
+      data-menu-level=""
+      class=""
+    >
+      <a href="/cultura/agendaculturaldeandalucia/aviso-legal" class="hover:underline ">
+        Aviso legal
+      </a>
+    </li>
+      <li
+      data-menu-target="submenu"
+      data-menu-level=""
+      class=""
+    >
+      <a href="/cultura/agendaculturaldeandalucia/contacto" class="hover:underline ">
+        Formulario de contacto
+      </a>
+    </li>
+      <li
+      data-menu-target="submenu"
+      data-menu-level=""
+      class=""
+    >
+      <a href="/cultura/agendaculturaldeandalucia/mapa-web" class="hover:underline ">
+        Mapa web
+      </a>
+    </li>
+      <li
+      data-menu-target="submenu"
+      data-menu-level=""
+      class=""
+    >
+      <a href="/cultura/agendaculturaldeandalucia/accesibilidad" class="hover:underline ">
+        Accesibilidad
+      </a>
+    </li>
+      <li
+      data-menu-target="submenu"
+      data-menu-level=""
+      class=""
+    >
+      <a href="/cultura/agendaculturaldeandalucia/politica-de-cookies" class="hover:underline ">
+        Política de cookies
+      </a>
+    </li>
+  </ul>
+
+  </nav>
+</div>
+
+      <div class="border-b mx-auto my-4 w-1/6"></div>
+
+      <div class="text-sm text-center font-bold"><div id="block-copyright-footer" class="dark">
+  
+  
+
+  
+  
+
+            <div>
+          <div class="prose dark:prose-dark lg:prose-lg max-w-none">
+      <p>©Agencia Andaluza de Instituciones Culturales. Consejería de Cultura, Patrimonio Histórico y Deporte. Junta de Andalucía</p>
+  </div>
+
+      </div>
+      
+</div>
+</div>
+      </div>
+  </div>
+</footer>
+
+  </div>
+
+    
+    
+  <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/cultura\/agendaculturaldeandalucia\/","scriptPath":null,"pathPrefix":"","currentPath":"taxonomy\/term\/1463","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"es","currentQuery":{"page":"5"}},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"ajaxPageState":{"libraries":"addtoany\/addtoany.front,core\/drupal.date,core\/picturefill,eu_cookie_compliance\/eu_cookie_compliance_bare,fontawesome\/fontawesome.svg,fontawesome\/fontawesome.svg.shim,social_media_links\/social_media_links.theme,system\/base,views\/views.module,views_infinite_scroll\/views-infinite-scroll,wingsuit\/core,wingsuit\/exposed-form-overrides","theme":"wingsuit","theme_token":null},"ajaxTrustedUrl":{"\/cultura\/agendaculturaldeandalucia\/buscador":true},"eu_cookie_compliance":{"cookie_policy_version":"1.0.0","popup_enabled":true,"popup_agreed_enabled":false,"popup_hide_agreed":false,"popup_clicking_confirmation":false,"popup_scrolling_confirmation":false,"popup_html_info":"\u003Cdiv aria-labelledby=\u0022popup-text\u0022  class=\u0022eu-cookie-compliance-banner eu-cookie-compliance-banner-info eu-cookie-compliance-banner--categories\u0022\u003E\n  \u003Cdiv class=\u0022popup-content info eu-cookie-compliance-content\u0022\u003E\n        \u003Cdiv id=\u0022popup-text\u0022 class=\u0022eu-cookie-compliance-message\u0022 role=\u0022document\u0022\u003E\n      \u003Ch2\u003EUso de Cookies\u003C\/h2\u003E\u003Cp\u003EUtilizamos cookies de terceros para analizar nuestros servicios y permitirte compartir contenidos de nuestra p\u00e1gina web en las principales redes sociales. Puedes aceptar todas las cookies pulsando el bot\u00f3n \u201cAceptar todas las cookies\u0022. Si deseas obtener m\u00e1s informaci\u00f3n pulsa en el siguiente enlace:\u003C\/p\u003E\u003Cp\u003E\u00a0\u003C\/p\u003E\n              \u003Cbutton type=\u0022button\u0022 class=\u0022find-more-button eu-cookie-compliance-more-button\u0022\u003EM\u00e1s info\u003C\/button\u003E\n          \u003C\/div\u003E\n\n          \u003Cdiv id=\u0022eu-cookie-compliance-categories\u0022 class=\u0022eu-cookie-compliance-categories\u0022\u003E\n                  \u003Cdiv class=\u0022eu-cookie-compliance-category\u0022\u003E\n            \u003Cdiv\u003E\n              \u003Cinput type=\u0022checkbox\u0022 name=\u0022cookie-categories\u0022 class=\u0022eu-cookie-compliance-category-checkbox\u0022 id=\u0022cookie-category-technical\u0022\n                     value=\u0022technical\u0022\n                      checked                       disabled  \u003E\n              \u003Clabel for=\u0022cookie-category-technical\u0022\u003ECookies t\u00e9cnicas\u003C\/label\u003E\n            \u003C\/div\u003E\n                          \u003Cdiv class=\u0022eu-cookie-compliance-category-description\u0022\u003ELas cookies t\u00e9cnicas sirven para garantizar el correcto funcionamiento del portal web, as\u00ed como para proporcionar comodidad y fluidez a la navegaci\u00f3n del usuario.\u003C\/div\u003E\n                      \u003C\/div\u003E\n                  \u003Cdiv class=\u0022eu-cookie-compliance-category\u0022\u003E\n            \u003Cdiv\u003E\n              \u003Cinput type=\u0022checkbox\u0022 name=\u0022cookie-categories\u0022 class=\u0022eu-cookie-compliance-category-checkbox\u0022 id=\u0022cookie-category-analytics\u0022\n                     value=\u0022analytics\u0022\n                                           \u003E\n              \u003Clabel for=\u0022cookie-category-analytics\u0022\u003ECookies anal\u00edticas o de medici\u00f3n\u003C\/label\u003E\n            \u003C\/div\u003E\n                          \u003Cdiv class=\u0022eu-cookie-compliance-category-description\u0022\u003ELas cookies anal\u00edticas o de medici\u00f3n ayudan a los propietarios de p\u00e1ginas web a comprender como interact\u00faan los visitantes con las p\u00e1ginas web reuniendo y proporcionando informaci\u00f3n de forma an\u00f3nima.\u003C\/div\u003E\n                      \u003C\/div\u003E\n                  \u003Cdiv class=\u0022eu-cookie-compliance-category\u0022\u003E\n            \u003Cdiv\u003E\n              \u003Cinput type=\u0022checkbox\u0022 name=\u0022cookie-categories\u0022 class=\u0022eu-cookie-compliance-category-checkbox\u0022 id=\u0022cookie-category-other\u0022\n                     value=\u0022other\u0022\n                                           \u003E\n              \u003Clabel for=\u0022cookie-category-other\u0022\u003EOtras cookies\u003C\/label\u003E\n            \u003C\/div\u003E\n                          \u003Cdiv class=\u0022eu-cookie-compliance-category-description\u0022\u003ECookies para integrar funcionalidades de redes sociales en el sitio Web y compartir contenidos del sitio Web en dichas redes sociales.\u003C\/div\u003E\n                      \u003C\/div\u003E\n                          \u003Cdiv class=\u0022eu-cookie-compliance-categories-buttons\u0022\u003E\n            \u003Cbutton type=\u0022button\u0022\n                    class=\u0022eu-cookie-compliance-save-preferences-button \u0022\u003EGuardar preferencias\u003C\/button\u003E\n          \u003C\/div\u003E\n              \u003C\/div\u003E\n    \n    \u003Cdiv id=\u0022popup-buttons\u0022 class=\u0022eu-cookie-compliance-buttons eu-cookie-compliance-has-categories\u0022\u003E\n            \u003Cbutton type=\u0022button\u0022 class=\u0022agree-button eu-cookie-compliance-default-button\u0022\u003EAceptar todas las cookies\u003C\/button\u003E\n              \u003Cbutton type=\u0022button\u0022 class=\u0022eu-cookie-withdraw-button visually-hidden\u0022\u003ERevocar consentimiento\u003C\/button\u003E\n          \u003C\/div\u003E\n  \u003C\/div\u003E\n\u003C\/div\u003E","use_mobile_message":false,"mobile_popup_html_info":"\u003Cdiv aria-labelledby=\u0022popup-text\u0022  class=\u0022eu-cookie-compliance-banner eu-cookie-compliance-banner-info eu-cookie-compliance-banner--categories\u0022\u003E\n  \u003Cdiv class=\u0022popup-content info eu-cookie-compliance-content\u0022\u003E\n        \u003Cdiv id=\u0022popup-text\u0022 class=\u0022eu-cookie-compliance-message\u0022 role=\u0022document\u0022\u003E\n      \n              \u003Cbutton type=\u0022button\u0022 class=\u0022find-more-button eu-cookie-compliance-more-button\u0022\u003EM\u00e1s info\u003C\/button\u003E\n          \u003C\/div\u003E\n\n          \u003Cdiv id=\u0022eu-cookie-compliance-categories\u0022 class=\u0022eu-cookie-compliance-categories\u0022\u003E\n                  \u003Cdiv class=\u0022eu-cookie-compliance-category\u0022\u003E\n            \u003Cdiv\u003E\n              \u003Cinput type=\u0022checkbox\u0022 name=\u0022cookie-categories\u0022 class=\u0022eu-cookie-compliance-category-checkbox\u0022 id=\u0022cookie-category-technical\u0022\n                     value=\u0022technical\u0022\n                      checked                       disabled  \u003E\n              \u003Clabel for=\u0022cookie-category-technical\u0022\u003ECookies t\u00e9cnicas\u003C\/label\u003E\n            \u003C\/div\u003E\n                          \u003Cdiv class=\u0022eu-cookie-compliance-category-description\u0022\u003ELas cookies t\u00e9cnicas sirven para garantizar el correcto funcionamiento del portal web, as\u00ed como para proporcionar comodidad y fluidez a la navegaci\u00f3n del usuario.\u003C\/div\u003E\n                      \u003C\/div\u003E\n                  \u003Cdiv class=\u0022eu-cookie-compliance-category\u0022\u003E\n            \u003Cdiv\u003E\n              \u003Cinput type=\u0022checkbox\u0022 name=\u0022cookie-categories\u0022 class=\u0022eu-cookie-compliance-category-checkbox\u0022 id=\u0022cookie-category-analytics\u0022\n                     value=\u0022analytics\u0022\n                                           \u003E\n              \u003Clabel for=\u0022cookie-category-analytics\u0022\u003ECookies anal\u00edticas o de medici\u00f3n\u003C\/label\u003E\n            \u003C\/div\u003E\n                          \u003Cdiv class=\u0022eu-cookie-compliance-category-description\u0022\u003ELas cookies anal\u00edticas o de medici\u00f3n ayudan a los propietarios de p\u00e1ginas web a comprender como interact\u00faan los visitantes con las p\u00e1ginas web reuniendo y proporcionando informaci\u00f3n de forma an\u00f3nima.\u003C\/div\u003E\n                      \u003C\/div\u003E\n                  \u003Cdiv class=\u0022eu-cookie-compliance-category\u0022\u003E\n            \u003Cdiv\u003E\n              \u003Cinput type=\u0022checkbox\u0022 name=\u0022cookie-categories\u0022 class=\u0022eu-cookie-compliance-category-checkbox\u0022 id=\u0022cookie-category-other\u0022\n                     value=\u0022other\u0022\n                                           \u003E\n              \u003Clabel for=\u0022cookie-category-other\u0022\u003EOtras cookies\u003C\/label\u003E\n            \u003C\/div\u003E\n                          \u003Cdiv class=\u0022eu-cookie-compliance-category-description\u0022\u003ECookies para integrar funcionalidades de redes sociales en el sitio Web y compartir contenidos del sitio Web en dichas redes sociales.\u003C\/div\u003E\n                      \u003C\/div\u003E\n                          \u003Cdiv class=\u0022eu-cookie-compliance-categories-buttons\u0022\u003E\n            \u003Cbutton type=\u0022button\u0022\n                    class=\u0022eu-cookie-compliance-save-preferences-button \u0022\u003EGuardar preferencias\u003C\/button\u003E\n          \u003C\/div\u003E\n              \u003C\/div\u003E\n    \n    \u003Cdiv id=\u0022popup-buttons\u0022 class=\u0022eu-cookie-compliance-buttons eu-cookie-compliance-has-categories\u0022\u003E\n            \u003Cbutton type=\u0022button\u0022 class=\u0022agree-button eu-cookie-compliance-default-button\u0022\u003EAceptar todas las cookies\u003C\/button\u003E\n              \u003Cbutton type=\u0022button\u0022 class=\u0022eu-cookie-withdraw-button visually-hidden\u0022\u003ERevocar consentimiento\u003C\/button\u003E\n          \u003C\/div\u003E\n  \u003C\/div\u003E\n\u003C\/div\u003E","mobile_breakpoint":768,"popup_html_agreed":false,"popup_use_bare_css":true,"popup_height":"auto","popup_width":"100%","popup_delay":1000,"popup_link":"\/cultura\/agendaculturaldeandalucia\/politica-de-cookies","popup_link_new_window":true,"popup_position":false,"fixed_top_position":true,"popup_language":"es","store_consent":false,"better_support_for_screen_readers":false,"cookie_name":"","reload_page":false,"domain":"","domain_all_sites":false,"popup_eu_only":false,"popup_eu_only_js":false,"cookie_lifetime":100,"cookie_session":0,"set_cookie_session_zero_on_disagree":0,"disagree_do_not_show_popup":false,"method":"categories","automatic_cookies_removal":true,"allowed_cookies":"analytics:_ga\r\nanalytics:_gid\r\nanalytics:_ga*","withdraw_markup":"\u003Cbutton type=\u0022button\u0022 class=\u0022eu-cookie-withdraw-tab\u0022\u003EOpciones de privacidad\u003C\/button\u003E\n\u003Cdiv aria-labelledby=\u0022popup-text\u0022 class=\u0022eu-cookie-withdraw-banner\u0022\u003E\n  \u003Cdiv class=\u0022popup-content info eu-cookie-compliance-content\u0022\u003E\n    \u003Cdiv id=\u0022popup-text\u0022 class=\u0022eu-cookie-compliance-message\u0022 role=\u0022document\u0022\u003E\n      \u003Cp\u003EPuede revocar el consentimiento de cookies en cualquier momento pulsando el siguiente bot\u00f3n:\u003C\/p\u003E\n    \u003C\/div\u003E\n    \u003Cdiv id=\u0022popup-buttons\u0022 class=\u0022eu-cookie-compliance-buttons\u0022\u003E\n      \u003Cbutton type=\u0022button\u0022 class=\u0022eu-cookie-withdraw-button \u0022\u003ERevocar consentimiento\u003C\/button\u003E\n    \u003C\/div\u003E\n  \u003C\/div\u003E\n\u003C\/div\u003E","withdraw_enabled":true,"reload_options":0,"reload_routes_list":"","withdraw_button_on_info_popup":false,"cookie_categories":["technical","analytics","other"],"cookie_categories_details":{"technical":{"uuid":"c50e0b2d-2240-46d5-a1d6-09c69d4f899d","langcode":"es","status":true,"dependencies":[],"id":"technical","label":"Cookies t\u00e9cnicas","description":"Las cookies t\u00e9cnicas sirven para garantizar el correcto funcionamiento del portal web, as\u00ed como para proporcionar comodidad y fluidez a la navegaci\u00f3n del usuario.","checkbox_default_state":"required","weight":-9},"analytics":{"uuid":"70f90d87-523d-47b6-a7d5-7acd87bc819e","langcode":"es","status":true,"dependencies":[],"id":"analytics","label":"Cookies anal\u00edticas o de medici\u00f3n","description":"Las cookies anal\u00edticas o de medici\u00f3n ayudan a los propietarios de p\u00e1ginas web a comprender como interact\u00faan los visitantes con las p\u00e1ginas web reuniendo y proporcionando informaci\u00f3n de forma an\u00f3nima.","checkbox_default_state":"unchecked","weight":-8},"other":{"uuid":"d1c4ac9f-9b5a-4f1b-a763-ddd82f47e4b3","langcode":"es","status":true,"dependencies":[],"id":"other","label":"Otras cookies","description":"Cookies para integrar funcionalidades de redes sociales en el sitio Web y compartir contenidos del sitio Web en dichas redes sociales.","checkbox_default_state":"unchecked","weight":-7}},"enable_save_preferences_button":true,"cookie_value_disagreed":"0","cookie_value_agreed_show_thank_you":"1","cookie_value_agreed":"2","containing_element":"body","settings_tab_enabled":false,"olivero_primary_button_classes":"","olivero_secondary_button_classes":"","close_button_action":"close_banner","open_by_default":true,"modules_allow_popup":true,"hide_the_banner":false,"geoip_match":true},"user":{"uid":0,"permissionsHash":"6a952d569a60d1dcd24adfd0a72b1c90ea7db0595b4d2f136731d10fbf0075a3"}}</script>
+<script src="/cultura/agendaculturaldeandalucia/sites/default/files/js/js_E5Xl8QJBQgbHeD0Y8LK_K51ujrYOHqc4_CO_GHghVMU.js"></script>
+<script src="//static.addtoany.com/menu/page.js" async></script>
+<script src="/cultura/agendaculturaldeandalucia/sites/default/files/js/js_Ha2wPRMuEH5rqOkiSdQ45ikD0SaUPaDJXxuToRhNpos.js"></script>
+<script src="/cultura/agendaculturaldeandalucia/modules/contrib/eu_cookie_compliance/js/eu_cookie_compliance.min.js?v=9.5.11" defer></script>
+<script src="/cultura/agendaculturaldeandalucia/sites/default/files/js/js_yDf3kPJuwxDPtqJshKLMLTh8v-INLBZ4v1fDuxYGStE.js"></script>
+</body>
+</html>

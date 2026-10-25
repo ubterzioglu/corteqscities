@@ -1,0 +1,49 @@
+{
+  "tool": "acik_mi",
+  "acik_mi": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\acik_mi",
+  "mekanlar": [
+    "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\data\\parcalar\\Mekânlar.mekan1.jsonl",
+    "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\data\\parcalar\\Mekânlar.mekan2.jsonl",
+    "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\data\\parcalar\\Mekânlar.mekan3.jsonl",
+    "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\data\\parcalar\\Mekânlar.mekan4.jsonl",
+    "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\data\\parcalar\\Mekânlar.mekan5.jsonl",
+    "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\data\\parcalar\\Mekânlar.mekan6.jsonl"
+  ],
+  "kaynaklar": [
+    "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\kaynak_dizini.jsonl"
+  ],
+  "min_year": 2025,
+  "mekan": 120,
+  "tarama": {
+    "dosya": 10,
+    "satir": 134,
+    "mekan": 131
+  },
+  "dogrulama": {
+    "dosya": 10,
+    "satir": 82
+  },
+  "durum": {
+    "açık": 66,
+    "belirsiz": 62,
+    "geçici kapalı": 4,
+    "kapalı": 1,
+    "taşındı": 1
+  },
+  "eylem": {
+    "dokunma": 73,
+    "kartta belirt": 8,
+    "sil": 1
+  },
+  "sonuc": {
+    "onay": 59,
+    "ret": 23
+  },
+  "listede_olmayan": {
+    "tarama": 12,
+    "dogrulama": 9
+  },
+  "findings": [],
+  "by_code": {},
+  "out": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\acik_mi_rapor.json"
+}

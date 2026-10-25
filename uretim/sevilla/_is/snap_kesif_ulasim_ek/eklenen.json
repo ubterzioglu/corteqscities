@@ -1,0 +1,39 @@
+{
+  "map": {
+    "https://www.juntadeandalucia.es/organismos/ctmas/estructura/titular.html": "sevilla:kaynak:260",
+    "https://www.ctas.es/tarjetas-y-tarifas/informacion-y-solicitudes": "sevilla:kaynak:287",
+    "https://www.ctas.es/lineas-y-horarios/bus-metro-y-cercanias/metro": "sevilla:kaynak:288",
+    "https://www.ctas.es/lineas-y-horarios/bus-metro-y-cercanias/cercanias": "sevilla:kaynak:289",
+    "https://www.ctas.es/lineas-y-horarios/bus-metro-y-cercanias/autobus-metropolitano": "sevilla:kaynak:290",
+    "https://www.ctas.es/lineas-y-horarios/estaciones-y-aeropuerto": "sevilla:kaynak:291"
+  },
+  "rejected": [
+    {
+      "url": "https://www.ctas.es/lineas-y-horarios/bus-metro-y-cercanias/autobus-urbano",
+      "why": "kopya yok/ince (status 200)"
+    }
+  ],
+  "fetch": {
+    "status": "findings",
+    "urls": 7,
+    "fetched": 7,
+    "saved": 7,
+    "failed": 0,
+    "thin_text": 1,
+    "soft_404": 0,
+    "evidence_checked": 0,
+    "evidence_missing": 0,
+    "evidence_stale": 0,
+    "evidence_from_index": 0,
+    "must_contain_unmatched": 0,
+    "non_html": 0,
+    "truncated": 0,
+    "skipped": 0,
+    "index_rows": 7,
+    "index_kept": 0,
+    "requests_made": 12,
+    "cache_hits": 1,
+    "retry_transient": true,
+    "index": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\snap_kesif_ulasim_ek\\index.jsonl"
+  }
+}

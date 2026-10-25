@@ -1,0 +1,323 @@
+
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1">
+		
+		<title>CITIUS | Formaci&oacute;n y Divulgaci&oacute;n</title>
+		<link src="shortcut icon" href="images/favicon.ico">
+
+		<!-- Loading third party fonts -->
+		<link href="http://fonts.googleapis.com/css?family=Roboto+Condensed:300,400|" rel="stylesheet" type="text/css">
+		<link href="fonts/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+		<script type="text/javascript" src="funcionesJS.js"></script>
+
+		<!-- Loading main css file -->
+		<link rel="stylesheet" href="style.css">
+		
+		<!--[if lt IE 9]>
+		<script src="js/ie-support/html5.js"></script>
+		<script src="js/ie-support/respond.js"></script>
+		<![endif]-->
+
+	</head>
+
+	<body>
+		<div id="site-content">
+			<div class="site-header">
+				<div class="container">
+					<a href="http://investigacion.us.es/" id="branding" target="_blank">
+						<img src="images/LOGOWEB.png" alt="" width="300px" class="logo">
+					</a>
+					<div class="language-flags">
+						<a href="?l=es"><img src="images/es.png" style="width:20px"/></a>
+						<a href="?l=en"><img src="images/en.png" style="width:20px"/></a>
+					</div>
+					<!-- Default snippet for navigation -->
+					<div class="main-navigation">
+						<button type="button" class="menu-toggle"><i class="fa fa-bars"></i></button>
+						<ul class="menu">
+							<li class="menu-item"><a href="index.php">Home</a></li>
+							<li class="menu-item"><a href="servicios_citius.php">Servicios</a></li>
+							<li class="menu-item"><a href="informacion.php">Informaci&oacute;n</a></li>
+							<li class="menu-item"><a href="estructura.php">Estructura</a></li>
+							<li class="menu-item"><a href="noticias.php">Noticias</a></li>
+						</ul> <!-- .menu -->
+					</div> <!-- .main-navigation -->
+
+					<div class="mobile-navigation"></div>
+				</div>
+			</div> <!-- .site-header -->
+
+			<main class="main-content">
+
+				<div class="fullwidth-block image-block" data-bg-image="./photo/personas/cabecera_divulgacion.png"></div>
+				<div class="page">
+					<div class="container">
+						<a class="button-back" href="servicios_citius.php" onMouseOver="document.body.style.cursor ='pointer';" onMouseOut="document.body.style.cursor ='default';"><img src="images/arrow-back.png" alt="" class="icon"></a>
+		
+						<div>
+							<h2 class="entry-title">Formaci&oacute;n y Divulgaci&oacute;n</h2>
+						</div>
+
+						<!-- Default snippet for navigation -->
+						<div class="main-navigation-2">
+							<button type="button" class="menu-toggle-2"><i class="fa fa-bars"></i></button>
+							<ul class="menu">
+								<li class="menu-item"><a href="#formacion">Formaci&oacute;n</a></li>
+								<li class="menu-item"><a href="#visitas">Visitas</a></li>
+								<li class="menu-item"><a href="#exposiciones">Exposiciones</a></li>
+								<li class="menu-item"><a href="#apoyo">Apoyo a la docencia</a></li>
+								<li class="menu-item"><a href="#otras">Otras actividades</a></li>
+							</ul> <!-- .menu -->
+						</div> <!-- .main-navigation -->
+
+						<div class="mobile-navigation-2"></div>
+
+
+					</div>
+
+					<div class="container">
+
+						<p style="text-align: justify; font-size: 17px">La difusi&oacute;n del conocimiento a la sociedad es un aspecto esencial que est&aacute; en el ADN de la Universidad de Sevilla, y por ende de CITIUS.
+Esta tarea esencial de la difusi&oacute;n se articula a trav&eacute;s de diferentes tipos de actividades.</p>
+					</div>
+
+
+					<div class="container">
+
+						<a name="formacion"></a>
+
+						<h2 class="section-title-white" style="margin-top:30px; text-align: justify;">Formaci&oacute;n</h2>
+
+						<div class="project-detail">
+
+							<p style="font-size: 18px; text-align: justify;">Desde CITIUS se considera imprescindible la formaci&oacute;n continua de conocimientos de nuestro personal. Para seguir siendo centro de referencia, se considera que el personal que compone la plantilla, debe estar en continuo reciclaje de sus conocimientos.<br><br>Las actividades formativas en CITIUS se abordan desde varios puntos de vista. Se desarrollan por un lado, cursos para el propio personal de los SGI y, por otro, se organizan actividades formativas para usuarios y clientes de los SGI.</p>
+
+						</div>
+
+						<div class="fullwidth-block" style="background: #ffffff">
+					<div class="container">
+						
+						<div class="row">
+							<div class="col-md-6">
+								<h2 class="section-title" style="font-size: 17px; color:#a81944">&Uacute;ltimos Cursos</h2>
+								<div class="testimonial-slider">
+									<ul class="slides">
+										<li>
+											<blockquote>
+												<p class="date" style="color:#a81944">Curso de Capacitaci&oacute;n para el manejo del Equipo de Tomograf&iacute;a YCOUGAR</p>
+												<p style="text-align: justify;">El objetivo de este curso es dotar a posibles usuarios de la t&eacute;cnica de Tomograf&iacute;a de Rayos X de los conocimientos m&iacute;nimos necesarios para
+												el manejo aut&oacute;nomo del &eacute;quipo YCOUGAR.</p>
+												
+											</blockquote>
+										</li>
+										<li>
+											<blockquote>
+												<p class="date" style="color:#a81944">Caracterización Estructural y Composicional de Materiales mediante Microscopía Electrónica de Barrido de Alta Resolución.</p>
+												<p style="text-align: justify;">El objetivo de este curso es dar a conocer las capacidades anal&iacute;ticas del microscopio FEI TENEO y formar a posibles usuarios para que puedan convertirse en personas autorizadas en el uso aut&oacute;nomo del mismo.</p>
+												
+											</blockquote>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<h1 class="section-title" style="font-size: 17px; color:#a81944">Cursos a medida</h1>
+
+								<p style="margin-bottom:50px;">Si desea que organicemos un curso a medida, contacte con nosotros</p>
+
+								<div style="margin:0 auto; text-align:center">
+									<h3 class="entry-title" style="font-size: 17px"><a>Alfonso Losa</a></h3>
+									<p style="font-size: 20px; margin:0 auto;">
+										<i class="fa fa-envelope" style="color:#a81944"></i>  citius<img src="images/at_rojo.png" style="width:15px;"/>us.es<br>
+										<i class="fa fa-phone" style="color:#a81944"></i>  954 55 97 40
+									</p>
+								</div>
+							</div>
+						</div> <!-- .row -->
+						
+					</div> <!-- .container -->
+				</div> <!-- .fullwidth-block -->
+
+						<hr class="separator">
+
+						<a name="visitas"></a>
+
+						<h2 class="section-title-white" style="margin-top:30px; text-align: left;">Visitas</h2>
+
+						<div class="col-md-4">
+							<div class="project-images" style="margin-left: 10px" >
+								<img id="imagen_grande" src="photo/personas/div1.png" style="width:300px">
+								<div class="thumbs">
+									<img id="id_img_1" src="photo/personas/div2.png" style="width:100px" onclick="seleccionar_imagen('id_img_1');"  onMouseOver="document.body.style.cursor ='pointer';" onMouseOut="document.body.style.cursor ='default';">
+									<img id="id_img_2" src="photo/personas/div3.png" style="width:100px" onclick="seleccionar_imagen('id_img_2');"  onMouseOver="document.body.style.cursor ='pointer';" onMouseOut="document.body.style.cursor ='default';">
+									<img id="id_img_3" src="photo/personas/div4.png" style="width:100px" onclick="seleccionar_imagen('id_img_3');"  onMouseOver="document.body.style.cursor ='pointer';" onMouseOut="document.body.style.cursor ='default';">
+								</div>
+							</div>
+						</div>
+
+						<div class="project-detail">
+
+							<p style="margin:10px; text-align: justify;font-size: 17px">La ciencia es fundamental para la mejora de la calidad de vida de nuestra sociedad, es por ello imprescindible que los estudiantes de hoy, investigadores del mañana, descubran el apasionante mundo de los laboratorios y c&oacute;mo la innovaci&oacute;n y el desarrollo tecnol&oacute;gico est&aacute; patente en unas instalaciones como las de los Centros de Investigaci&oacute;n, Tecnolog&iacute;a e Innovaci&oacute;n de la Universidad de Sevilla.<br><br>
+Para ello, el CITIUS organiza visitas guiadas peri&oacute;dicamente en las que los alumnos podr&aacute;n conocer m&aacute;s detalles de las t&eacute;cnicas, los equipos y los estudios que se llevan a cabo en la Universidad de Sevilla as&iacute; como profundizar en sus aplicaciones pr&aacute;cticas. Fomentar su vocaci&oacute;n por la investigaci&oacute;n y la cultura cient&iacute;fica es otro de los objetivos de esta actividad desde una perspectiva cercana y entretenida de la mano de los cient&iacute;ficos de CITIUS.<br><br>
+En l&iacute;nea con una apuesta firme por la transferencia del conocimiento, el CITIUS ofrece tambi&eacute;n visitas guiadas para instituciones, empresas y/o expertos tanto de &aacute;mbito nacional como internacional que est&eacute;n interesados en conocer nuestras instalaciones. Una propuesta que nos permite adem&aacute;s superar las fronteras locales y enriquecernos con el intercambio de ideas y experiencias.
+Toda la informaci&oacute;n sobre c&oacute;mo visitar nuestras instalaciones siguiendo <a href='informacion.php#visitas'>este enlace</a>.<br><br>Tambi&eacute;n puede ponerse en contacto con nuestro gabinete de comunicaci&oacute;n:<br><br>
+								
+								<div style="margin:0 auto; text-align:center">
+									<h3 class="entry-title" style="font-size: 17px"><a>Mª Carmen Esc&aacute;mez</a></h3>
+									<p style="font-size: 20px; margin:0 auto;">
+										<i class="fa fa-envelope" style="color:#a81944"></i> visitacitius<img src="images/at_rojo.png" style="width:15px;"/>us.es<br>
+										<i class="fa fa-mobile" style="color:#a81944; width:20px"></i>  683 52 05 19
+									</p>
+								</div>
+							</p>
+
+						</div>
+
+						<hr class="separator">
+
+						<a name="exposiciones"></a>
+
+						<h2 class="section-title-white" style="margin-top:30px; text-align: left;">Exposiciones</h2>
+
+						<div class="project-detail">
+
+						<h2 class="section-title-white" style="margin-top:30px; text-align: center;">Exposici&oacute;n general</h2>
+
+							<p style="text-align: justify; font-size: 17px">El gran tesoro del Museo de Geolog&iacute;a de la Universidad de Sevilla son sus colecciones, que no han dejado de crecer desde la sus or&iacute;genes en 1850. Hoy re&uacute;ne m&aacute;s de 5000 de ejemplares en los &aacute;mbitos de la mineralog&iacute;a, la petrolog&iacute;a y la paleontolog&iacute;a.Parte de estos valiosos fondos se encuentranen dos exposiciones, una situada en la primera planta del edificio CITIUS y otra en la Casa de la Ciencia del CSIC con el nombre de “Geosevilla. Explora 540 millones de años”.<br><br>
+
+	El Museo se ocupa tradicionalmente de la conservaci&oacute;n del patrimonio y la realizaci&oacute;n de exposiciones y seminarios, pero en la actualidad adquiere el compromiso de transmitir y difundir el conocimiento geol&oacute;gico,  facilitar la comprensi&oacute;n p&uacute;blica de la Geolog&iacute;a y ayudar a crear vocaciones cient&iacute;ficas, convirti&eacute;ndose en un servicio cultural a disposici&oacute;n de la comunidad.</p>
+
+							<div style="align-content: center; margin: 0 auto; width:900px"><image src="photo/edificios/museo.png" style="width:900px; margin: 0 auto;"/></div>
+
+						<h2 class="section-title-white" style="margin-top:30px; text-align: center;">Riotinto. Minería, Medio Ambiente y Patrimonio</h2>
+
+							<p style="text-align: justify; font-size: 17px">Ubicada en la segunda planta del edificio CITIUS se encuentra una exposición de dedicada a la Cuenca Minera de Riotinto. Esta Cuenca es un ejemplo representativo de la minería desarrollada en la Faja Pirítica (SO de la Península Ibérica) desde tiempos prehistóricos.
+La explotación de metales como el cobre, el plomo o el zinc ha proporcionado una importante riqueza, no sólo económica, sino también paisajística, cultural y patrimonial. En esta exposición se mostrará la importancia de la minería, las consecuencias ambientales de la explotación de los yacimientos y el legado paisajístico y patrimonial.</p>
+
+							<p style="text-align: center;"><a href="http://direccioncitius.us.es/museo/minicio.php?id=1" target="_blank" class="button">Web Museo de Geolog&iacute;a</a></p>
+
+
+						<h2 class="section-title-white" style="margin-top:30px; text-align: center;">Visita las exposiciones</h2>
+
+							<p style="margin-left:10px; text-align: justify; font-size: 17px">Las exposiciones pueden visitarse libremente durante el horario de apertura del centro, sin embargo, si tiene inter&eacute;s en realizar una visita guiada para grupos, contacte con:<br><br></p>
+								
+								<div style="margin:0 auto; text-align:center">
+									<h3 class="entry-title" style="font-size: 17px"><a>Olivia Lozano Soria</a></h3>
+									<p style="font-size: 20px; margin:0 auto;">
+										<i class="fa fa-envelope" style="color:#a81944"></i>  museogelogiaus<img src="images/at_rojo.png" style="width:15px;"/>us.es<br>
+										<i class="fa fa-phone" style="color:#a81944"></i>  954 55 97 36
+									</p>
+								</div>
+							
+
+						</div>
+
+						<hr class="separator">
+
+						<a name="apoyo"></a>
+
+						<h2 class="section-title-white" style="margin-top:30px; text-align: left;">Apoyo a la docencia</h2>
+
+						<div class="project-detail">
+
+							<p style="text-align: justify; font-size: 17px">El CITIUS y los SGI tambi&eacute;n colaboran en la enseñanza reglada de la US, mostrando sus equipos, instalaciones y oferta tecnol&oacute;gica, y mediante el desarrollo de parte de dicha enseñanza en los laboratorios. As&iacute;, colaboramos en el desarrollo de asignaturas de grado, cursos de doctorado, m&aacute;steres, y otros tipos de enseñanza reglada. <br><br>Si desea que colaboremos en la impartici&oacute;n de alguna asignatura, contacte con nosotros:</p>
+
+							<div style="margin:0 auto; text-align:center">
+									<h3 class="entry-title" style="font-size: 17px"><a>Alfonso Losa</a></h3>
+									<p style="font-size: 20px; margin:0 auto;">
+										<i class="fa fa-envelope" style="color:#a81944"></i>  citius<img src="images/at_rojo.png" style="width:15px;"/>us.es<br>
+										<i class="fa fa-phone" style="color:#a81944"></i>  954 55 97 40
+									</p>
+							</div>
+
+						</div>
+
+						<hr class="separator">
+
+						<a name="otras"></a>
+
+						<h2 class="section-title-white" style="margin-top:30px; text-align: left;">Otras actividades</h2>
+
+						<div class="project-detail">
+
+							<p style="text-align: justify; font-size: 17px">Los Servicios Generales de Investigaci&oacute;n de la Universidad de Sevilla participan asiduamente en el Sal&oacute;n de Estudiantes y Ferisport que organiza la Universidad de Sevilla. Esta cita es uno de los eventos con mayor relevancia de nuestra Universidad de cara a la transici&oacute;n del alumnado preuniversitario dentro de las actuaciones del &aacute;rea de Orientaci&oacute;n del Vicerrectorado de Estudiantes.<br><br>Los SGI est&aacute;n tambi&eacute;n muy presentes en la Semana de la Ciencia en Andaluc&iacute;a, el mayor evento anual de divulgaci&oacute;n de la ciencia a nivel europeo. El objetivo de esta iniciativa es acercar la investigaci&oacute;n a la ciudadan&iacute;a en general y de fomentar vocaciones cient&iacute;ficas entre los j&oacute;venes as&iacute; como mejorar la comprensi&oacute;n del impacto del trabajo de los investigadores en la vida diaria de todos.</p>
+
+						</div>
+					</div>
+				</div> <!-- .page -->
+
+			</main> <!-- .main-content -->
+
+			<footer class="site-footer">
+				<div class="container">
+
+					<div class="row">
+						<div class="col-md-3" style="text-align: left">
+							<img src="images/logo_us2.png" style="float:left; width:250px; margin-right: 5%; margin-bottom:10%; align-content: center;"/>
+							
+						</div>
+
+						<div class="col-md-3" style="text-align: left">
+
+							<h3 class="feature-title" style="color:#a81944">INFORMACI&Oacute;N</h3>
+
+								<i class="fa fa-envelope" style="color:#a81944"></i>   <p  class="phone" style="color:#ffffff">citius<img src="images/at_blanco.png" style="width:15px;"/>us.es</p><br>
+								<i class="fa fa-phone" style="color:#a81944"></i>   <p href="" class="phone" style="color:#ffffff">(+34) 954 55 97 40</p><p style="color:#FFFFFF">Para cuestiones administrativas</p><i class="fa fa-phone" style="color:#a81944"></i>   <p href="" class="phone" style="color:#ffffff">(+34) 954 55 97 31</p><h3 class="menu-item" style="color:#a81944">SIGUENOS EN</h3>
+
+
+							<div class="social-links">
+
+								<a href="http://www.facebook.com/InvestigaUS" target="_blank"><i class="fa fa-facebook"></i></a>
+								<a href="https://twitter.com/investigaus" target="_blank"><i class="fa fa-twitter"></i></a>
+							</div>
+						
+						</div>
+
+						<div class="col-md-3" style="text-align: left">
+
+							<h3 class="feature-title" style="color:#a81944;">CONTACTO</h3>
+
+								<address style="color:#ffffff">
+									<strong>CITIUS</strong>
+									<p>Avenida Reina Mercedes 4B, 41012, Sevilla</p>
+									<p>(+34) 954 55 97 30</p>
+								</address>
+								<!--<p href="" class="phone">954 55 97 30</p>-->
+								<br>
+								<address style="color:#ffffff">
+									<strong>CITIUS II Celestino Mutis</strong>
+									<p>Avenida Reina Mercedes S/N, 41012, Sevilla</p>
+									<p>(+34) 955 42 08 71</p>
+								</address>
+								<br>
+								<address style="color:#ffffff">
+									<strong>CITIUS III - Manuel Losada Villasante</strong>
+									<p>Dr. Rafael Martínez Domínguez, 41013, Sevilla</p>
+									<p>(+34) 955 42 01 84</p>
+								</address>
+						
+						</div>
+
+						<div class="col-md-3" style="text-align: center">
+
+							<iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d12685.39119078695!2d-5.989863667800691!3d37.357946592891025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sCITIUS!5e0!3m2!1sen!2ses!4v1522651299022" width="330" height="230" style="border:3px solid #881537;" allowfullscreen>
+							</iframe>
+
+						</div>
+					</div>
+
+				</div> <!-- .container -->
+			</footer> <!-- .site-footer -->		</div>
+
+		<script src="js/jquery-1.11.1.min.js"></script>
+		<script src="js/plugins.js"></script>
+		<script src="js/app.js"></script>
+		
+	</body>
+
+</html>

@@ -1,0 +1,7 @@
+{
+  "tool_name": "PowerShell",
+  "tool_input_preview": "{\"command\":\". 'C:\\\\temp_private\\\\corteqs\\\\0000_newera\\\\uretim\\\\sevilla\\\\_is\\\\ortam.ps1'\\n& $PY -X utf8 -c @'\\nimport json,datetime,hashlib\\nW=r'C:\\\\temp_private\\\\corteqs\\\\0000_newera\\\\uretim\\\\sevilla'...",
+  "error": "Exit code 1\ndelivered 2026-10-25T06:19:07Z 2cd4b46b401c2445\r\n{\"phase\":\"deliver\",\"event\":\"end\",\"ts\":\"2026-10-25T06:19:07.311Z\"}\r\n\"findings\":0,\"items\":[]}\r\nmanifest_check exit 0\r\nphase             calls  input_tokens  cache_creation  cache_read  output_tokens  thinking_tokens  total_input  uncached_input  duration_s\r\nintake                0             0               0           0              0                0            0               0     577.986\r\nsources               0             0      ...",
+  "timestamp": "2026-10-25T06:19:11.735Z",
+  "retry_count": 1
+}

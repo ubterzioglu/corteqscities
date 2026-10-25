@@ -1,0 +1,678 @@
+<!DOCTYPE HTML>
+<html lang="es" class="">
+
+<head>
+	<title>Impuesto sobre vehículos de tracción mecánica</title>
+	<link rel="icon" href="/.galleries/imagenes-general/logo_OPAEF.gif?__scale=h:25,w:25,cx:0,cy:0,ch:86,cw:104" />
+	
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	
+<link rel="stylesheet" href="/export/system/modules/es.inpro.opencms.theme7/resources/css/bootstrap.css" type="text/css">
+<link rel="stylesheet" href="/export/system/modules/es.inpro.opencms.theme7/resources/css/bootstrap-theme.css" type="text/css">
+<link rel="stylesheet" href="/export/system/modules/es.inpro.opencms.core/resources/css/core.css" type="text/css">
+<link rel="stylesheet" href="/export/system/modules/es.inpro.opencms.core/resources/plugins/fancybox215/source/jquery.fancybox.css" type="text/css">
+<link rel="stylesheet" href="/export/system/modules/es.inpro.opencms.core/resources/css/plugins.css" type="text/css">
+<link rel="stylesheet" href="/export/system/modules/es.inpro.opencms.core/resources/plugins/cookieCuttr/cookiecuttr.css" type="text/css">
+<link rel="stylesheet" href="/export/system/modules/es.inpro.opencms.theme7/resources/css/skins/theme-skins.css" type="text/css">
+<link rel="stylesheet" href="/export/system/modules/es.inpro.opencms.theme7/resources/css/skins/skin-shared-0/font-face.css" type="text/css">
+<link rel="stylesheet" href="/export/system/modules/es.inpro.opencms.theme7/resources/css/skins/skin-shared-0/skin.css" type="text/css">
+<link rel="stylesheet" href="/export/system/modules/es.inpro.opencms.theme7/resources/css/skins/skin-shared-0/colors.css" type="text/css">
+<link rel="stylesheet" href="/export/system/modules/es.inpro.opencms.core/resources/css/pm-sections-accordion.css" type="text/css">
+<link rel="stylesheet" href="/export/system/modules/es.inpro.opencms.core/resources/css/pm-sections-tab.css" type="text/css">
+<link rel="stylesheet" href="/export/system/modules/es.inpro.opencms.core/resources/plugins/bxslider/jquery.bxslider.css" type="text/css"><link rel="stylesheet" href="/system/modules/es.inpro.opencms.theme7/resources/css/skins/custom-colors.css?tc=9dd116ce-6e43-11e8-8579-0050569f6fdd" type="text/css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+	<link href='https://fonts.googleapis.com/css?family=Fira+Sans:500italic' rel='stylesheet' type='text/css'>
+	
+	<link rel="stylesheet" href="/export/system/modules/es.inpro.opencms.core/resources/css/pm-sections-accordion.css" type="text/css">
+			<link rel="stylesheet" href="/export/sites/opaef/.resources/css/styles.css" type="text/css">
+			<link rel="stylesheet" href="/export/sites/opaef/sede/.resources/css/styles-sede.css" type="text/css">
+			<link rel="stylesheet" href="/export/system/modules/es.inpro.opencms.core/resources/plugins/fancybox215/source/jquery.fancybox.css" type="text/css">
+			<link rel="stylesheet" href="/export/system/modules/es.inpro.opencms.core/resources/css/plugins.css" type="text/css">
+			<link rel="stylesheet" href="/export/system/modules/es.inpro.opencms.redessociales/resources/css/colors.css" type="text/css">
+			<link rel="stylesheet" href="/export/system/modules/es.inpro.opencms.redessociales/resources/css/socialicon.css" type="text/css">
+			<!--[if IE]>
+		<link rel="apple-touch-icon" sizes="120x120" href="/system/modules/es.inpro.opencms.core/resources/plugins/bootstrap/css/bootstrap-IE.css" />		
+	<![endif]-->
+
+	<!--[if lt IE 9]>
+	    <style type="text/css">
+	      .carou-wrapper [class*=col-]:after {
+	         filter: none;
+	      }
+	    </style>
+		<script src="/export/system/modules/es.inpro.opencms.core/resources/plugins/bootstrap/js/html5shiv.min.js"></script>
+		<script src="/export/system/modules/es.inpro.opencms.core/resources/plugins/bootstrap/js/respond.min.js"></script>		
+	<![endif]-->
+	
+	<script>
+	jQuery(document).ready(function() {
+		$(function () {
+			$('[data-toggle="tooltip"]').tooltip()
+		})
+	})
+	</script>
+	
+	<script>
+	$(document).ready(function() {
+		$( document ).trigger( "initAllMaps" );
+	});
+	</script>
+	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBcePVmX2hnomdQMYvzPArSoq4F9r4u8Js"></script>
+<link rel="stylesheet" href="/export/system/modules/es.inpro.opencms.core/resources/plugins/font-awesome/css/font-awesome.css" type="text/css">
+	   
+		   
+	 <link href="/avisos/sedes/micookie.css" rel="stylesheet" type="text/css"/></head>
+<body class="">
+
+		<div  id="page" class="page" ><div class="template container-fluid header" ><div class="row navbar navbar-fixed-top"><div class="layout" ><div class="row topbar"><div class="container" ></div></div>
+
+<div class="row"><div class="layout col-xs-12 col-lg-12" ><div class=" navbar-thin">
+	    <div class="site-header">
+	        <div class="container">
+	            <div class="row">
+	                <div class="col-md-12">
+						<div class="header-wrapper">
+				<!-- 		    Brand and toggle get grouped for better mobile display -->
+						    <div class="navbar-header">
+						      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+						        <span class="sr-only">Barra de navegacion SEDE OPAEF</span>
+						        <span class="icon-bar"></span>
+						        <span class="icon-bar"></span>
+						        <span class="icon-bar"></span>
+						      </button>
+						      <a class="navbar-brand" href="/">
+								<!-- linkWrapperGroup = false -->
+<img src="/sede/.galleries/imagenes-general/logo-opaef-horizontal-sede.png?" class="img-responsive logo" alt="" /><span class="sr-only title">Barra de navegacion SEDE OPAEF</span>
+						      </a>
+						    </div>
+						</div><!--.header-wrapper -->
+		
+						<!-- Collect the nav links, forms, and other content for toggling -->
+					    <nav id="navbar" class="navbar-collapse collapse">
+<ul class="nav navbar-nav navbar-panel navbar-left">
+												<li>
+														<a href="/sede/" title="Inicio Sede" >Inicio</a></li>
+											    <li>
+														<a href="#panel2" class="active-menu-">Otros Trámites</a>
+															</li>
+											    <li>
+														<a href="#panel3" class="active-menu-">Servicios</a>
+															</li>
+											    <li>
+														<a href="#panel4" class="active-menu-">Carpeta Ciudadana</a>
+															</li>
+											    </ul>
+										<ul class="nav navbar-nav navbar-right">
+									<li>
+						                	<div class="fn-datetime navbar-thin">
+	<div class="time">
+<span id="officialTime">Sun Oct 25 13:23:58 CET 2026</span>
+	</div>
+</div>
+<script type="text/javascript">
+$(document).ready(function() {
+	showDateTime(1792931038754);
+});
+</script></li>
+									<li>
+						                  <a href="#search"><span class="pmicon search-open-btn icon icon-search" aria-hidden="true"></span></a>
+						                </li>
+									</ul>
+						</nav><!--.navbar-collapse -->
+					</div>
+				</div>
+			</div>
+		</div>
+		
+ 		<!-- Menu de tipo Panel --> 
+	    <div class="submenu-wrapper">
+		                <div class="container">
+		                    <div class="row">
+		                        <div class="col-md-12">
+									<div id="panel2" class="submenu-content">
+						          				<span class="pmicon submenu-close-btn close-btn icon icon-close" aria-hidden="true"></span>
+												<div class="row">
+										            <div class="col-md-12">
+										            	<div class="large">Otros Trámites</div>
+										            </div>
+										            <div class="col-sm-6 col-lg-3 col-md-3">
+												                  <ul>
+												                    <li>
+																		<a href="/sede/.galleries/enlaces-otros-tramites/perfil-del-contratante" title="" target="_blank"><strong>Perfil del Contratante</strong></a></li>
+						              								</ul>
+											            	</div>
+						              					<div class="col-sm-6 col-lg-3 col-md-3">
+												                  <ul>
+												                    <li>
+																		<a href="/sede/otros-tramites/empleo-publico/" title="" ><strong>Empleo Público</strong></a></li>
+						              								</ul>
+											            	</div>
+						              					<div class="col-sm-6 col-lg-3 col-md-3">
+												                  <ul>
+												                    <li>
+																		<a href="/sede/otros-tramites/instancia-generica" title="" ><strong>Instancia Genérica</strong></a></li>
+						              								</ul>
+											            	</div>
+						              					<div class="col-sm-6 col-lg-3 col-md-3">
+												                  <ul>
+												                    <li>
+																		<a href="/sede/.galleries/enlaces-otros-tramites/e-tablon" title="" target="_blank"><strong>e-Tablón</strong></a></li>
+						              								</ul>
+											            	</div>
+						              					<div class="col-sm-6 col-lg-3 col-md-3">
+												                  <ul>
+												                    <li>
+																		<a href="/sede/otros-tramites/quejas-y-sugerencias/" title="" ><strong>Sugerencias, Quejas y Reclamaciones</strong></a></li>
+						              								</ul>
+											            	</div>
+						              					<div class="col-sm-6 col-lg-3 col-md-3">
+												                  <ul>
+												                    <li>
+																		<a href="/sede/otros-tramites/acceso-a-informacion-publica/" title="" ><strong>Solic. Acceso a Información Pública</strong></a></li>
+						              								</ul>
+											            	</div>
+						              					<div class="col-sm-6 col-lg-3 col-md-3">
+												                  <ul>
+												                    <li>
+																		<a href="/sede/tributos/servicio/Presentacion-de-facturas-00001/" title="" ><strong>Presentación de facturas</strong></a></li>
+						              								</ul>
+											            	</div>
+						              					</div>
+										    </div>
+								    	<div id="panel3" class="submenu-content">
+						          				<span class="pmicon submenu-close-btn close-btn icon icon-close" aria-hidden="true"></span>
+												<div class="row">
+										            <div class="col-md-12">
+										            	<div class="large">Servicios</div>
+										            </div>
+										            <div class="col-sm-6 col-lg-3 col-md-3">
+												                  <ul>
+												                    <li>
+																		<a href="/sede/tributos/" title="" ><strong>Destacados</strong></a></li>
+						              								<li>
+																			<a href="/sede/tributos/servicio/Domiciliacion-Bancaria-de-Pago-de-Tributos/" title="" >Domiciliación Bancaria de Pago de Tributos que están a su nombre</a></li>
+												                    <li>
+																			<a href="/sede/tributos/servicio/Cambio-de-Domicilio-Fiscal-para-Contribuyentes/" title="" >Cambio de Domicilio Fiscal para Contribuyentes</a></li>
+												                    <li>
+																			<a href="/sede/tributos/servicio/Consulta-de-deudas/" title="" >Consulta de deudas</a></li>
+												                    <li>
+																			<a href="/sede/tributos/servicio/Pago-de-deudas/" title="" >Pago de deudas</a></li>
+												                    <li>
+																			<a href="/sede/tributos/servicio/Aplazamiento-y-fraccionamiento-de-deudas/" title="" >Aplazamiento y fraccionamiento de deudas</a></li>
+												                    <li>
+																			<a href="/sede/tributos/servicio/Cita-Previa/" title="" >Obtener CITA PREVIA</a></li>
+												                    <li>
+																			<a href="/sede/tributos/servicio/Punto-de-Informacion-Catastral/" title="" >Punto de Información Catastral</a></li>
+												                    </ul>
+											            	</div>
+						              					<div class="col-sm-6 col-lg-3 col-md-3">
+												                  <ul>
+												                    <li>
+																		<a href="/sede/servicios/" title="" ><strong>Otros Servicios</strong></a></li>
+						              								<li>
+																			<a href="/sede/servicios/calendario-del-contribuyente/" title="" >Calendario del Contribuyente</a></li>
+												                    <li>
+																			<a href="https://portal.dipusevilla.es/vfirma/" title="" >Verificación de Documentos</a></li>
+												                    <li>
+																			<a href="/sede/servicios/consultas-frecuentes/index.html" title="" >Consultas Frecuentes</a></li>
+												                    <li>
+																			<a href="/sede/servicios/normativa-tributaria/" title="" >Normativa Tributaria</a></li>
+												                    <li>
+																			<a href="/sede/servicios/competencias-delegadas/" title="" >Competencias Delegadas</a></li>
+												                    </ul>
+											            	</div>
+						              					<div class="col-sm-6 col-lg-3 col-md-3">
+												                  <ul>
+												                    <li>
+																		<a href="/sede/enlaces/" title="" ><strong>Enlaces de interés</strong></a></li>
+						              								</ul>
+											            	</div>
+						              					<div class="col-sm-6 col-lg-3 col-md-3">
+												                  <ul>
+												                    <li>
+																		<a href="/sede/servicios/modelos/" title="" ><strong>Modelos de uso frecuente</strong></a></li>
+						              								<li>
+																			<a href="/sede/.galleries/modelos/0013_MODELO_REPRESENTACION_4.pdf" title="" target="_blank">Modelo de representación</a></li>
+												                    </ul>
+											            	</div>
+						              					</div>
+										    </div>
+								    	<div id="panel4" class="submenu-content">
+						          				<span class="pmicon submenu-close-btn close-btn icon icon-close" aria-hidden="true"></span>
+												<div class="row">
+										            <div class="col-md-12">
+										            	<div class="large">Carpeta Ciudadana</div>
+										            </div>
+										            <div class="col-sm-6 col-lg-3 col-md-3">
+												                  <ul>
+												                    <li>
+																		<a href="/sede/carpeta-ciudadana/mis-notificaciones/" title="" ><strong>Mis Notificaciones</strong></a></li>
+						              								</ul>
+											            	</div>
+						              					<div class="col-sm-6 col-lg-3 col-md-3">
+												                  <ul>
+												                    <li>
+																		<a href="/sede/tributos/online/Acceso-a-Mi-Carpeta/" title="" ><strong>Mi carpeta</strong></a></li>
+						              								</ul>
+											            	</div>
+						              					<div class="col-sm-6 col-lg-3 col-md-3">
+												                  <ul>
+												                    <li>
+																		<a href="/sede/tributos/online/Acceso-a-Mi-Comunicaciones/" title="" ><strong>Mis Comunicaciones</strong></a></li>
+						              								</ul>
+											            	</div>
+						              					</div>
+										    </div>
+								    	</div>
+							</div>
+						</div>
+					</div>
+				</div>
+	
+	</div></div>
+
+</div></div>
+
+</div><div class="template container-fluid" ><div class="row"><div class="layout col-xs-12 col-lg-12" ></div></div>
+
+</div><div class="template container-fluid body">
+			<div class="row">
+				<div class="col-lg-12">
+					
+		<div class="container" ><div class="row"><div class="layout col-xs-12 col-lg-12" ><div class="breadcrumb-menu ">
+	
+		<ol class="breadcrumb">
+			<li><a href="/sede/"><i class=" pmicon fa fa-home "  title="Inicio"></i></a></li>
+				<li><a href="/sede/servicios/" title="Otros Servicios" class="">Otros Servicios</a></li>
+		        <li><a href="/sede/servicios/consultas-frecuentes/" title="Consultas frecuentes" class="">Consultas frecuentes</a></li>
+		        <li><a href="/sede/servicios/consultas-frecuentes/impuesto-sobre-vehiculos-de-traccion-mecanica/" title="Impuesto sobre vehículos de tracción mecánica" class="active">Impuesto sobre vehículos de tracción mecánica</a></li>
+		        </ol>
+	</div>
+
+
+	
+	
+		
+			<h1 class="detail-t large">Impuesto sobre vehículos de tracción mecánica</h1>
+
+		
+		
+	
+
+</div></div>
+
+<div class="row"><div class="layout col-xs-12 col-md-4" ><div class="menu-secundary  hidden-sm">
+		<nav class="mark-sidebar">
+			<!-- type: treeForFolder / resource: /sede/servicios/consultas-frecuentes/impuesto-sobre-vehiculos-de-traccion-mecanica/index.html / navStartLevel: 3 / navEndLevel: 5 -->
+<ul class="nav">
+
+	<!-- currentLevel: 3 -->
+		<li >
+		<a href="/sede/servicios/consultas-frecuentes/impuesto-sobre-actividades-economicas-iae/" title="Impuesto sobre actividades económicas IAE" target="" >Impuesto sobre actividades económicas IAE</a>
+		<!-- currentLevel: 3 -->
+		</li><li >
+		<a href="/sede/servicios/consultas-frecuentes/impuesto-sobre-el-incremento-del-valor-de-los-terrenos-de-naturaleza-urbanaplusvalia/" title="Impuesto sobre el incremento del valor de los terrenos de naturaleza urbana(plusvalía)" target="" >Impuesto sobre el incremento del valor de los terrenos de naturaleza urbana(plusvalía)</a>
+		<!-- currentLevel: 3 -->
+		</li><li class="active">
+		<a href="/sede/servicios/consultas-frecuentes/impuesto-sobre-vehiculos-de-traccion-mecanica/" title="Impuesto sobre vehículos de tracción mecánica" target="" >Impuesto sobre vehículos de tracción mecánica</a>
+		<!-- currentLevel: 3 -->
+		</li><li >
+		<a href="/sede/servicios/consultas-frecuentes/impuesto-sobre-bienes-inmuebles/" title="Impuesto sobre bienes inmuebles" target="" >Impuesto sobre bienes inmuebles</a>
+		<!-- currentLevel: 3 -->
+		</li><li >
+		<a href="/sede/servicios/consultas-frecuentes/multas-de-trafico/" title="Multas de tráfico" target="" >Multas de tráfico</a>
+		</li></ul>
+</nav>
+	</div>
+	</div><div class="layout col-xs-12 col-md-8" ><div class="detail-content pm-text-advanced-content ">
+		<div class="row">
+			<div class="col-xs-12 col-md-12">
+						<!-- CONTENT STARTS -->
+						<h3 class="detail-t" ></h3>
+			<div class="panel-group pm-sections-accordion" id="sec0" role="tablist" aria-multiselectable="true">
+	<div class="panel panel-default">
+					<div class="panel-heading" role="tab" id="headingsec0Blc0">
+						<h4 class="panel-title">
+							<a class="center-block collapsed" role="button" data-toggle="collapse" data-parent="#sec0" href="#collapsesec0Blc0" aria-expanded="true" aria-controls="collapsesec0Blc0">
+								<span class="detail-t">¿Hay que pagar el IVTM antes de matricular un vehículo? ¿Y para hacer una transferencia, dar de baja, comunicar el cambio de características técnicas o efectuar un cambio de domicilio en el permiso de circulación?</span>
+							  	<span class=" pmicon fa fa-chevron-up pull-right " aria-hidden="true" title=""></span></a>
+						</h4>
+					</div>
+					
+					<div id="collapsesec0Blc0" class="panel-collapse collapse " role="tabpanel" aria-labelledby="headingsec0Blc0">
+						<div class="panel-body">
+							<div class="detail-p">
+			<p></p>
+<p align="JUSTIFY"><span style="color: #000000;"><span style="font-family: Arial, sans-serif;"><span style="font-size: small;">Quienes soliciten ante la Jefatura Provincial de Tráfico la matriculación o la certificación de aptitud para circular de un vehículo, deberán acreditar previamente el pago del IVTM.</span></span></span></p>
+<p align="LEFT"><span style="color: #000000;"><span style="font-family: 'Arial Unicode MS', 'Arial Unicode MS', sans-serif;"><span style="font-size: medium;"><strong><span style="font-family: Arial, sans-serif;"><span style="font-size: small;">Conforme al artículo 99, número 1 y 2 del Real Decreto Legislativo 2/2004, por el que se aprueba el Texto Refundido de la Ley reguladora de las Haciendas Locales,</span></span></strong><strong><span style="font-family: Arial, sans-serif;"><span style="font-size: small;"> l</span></span></strong><span style="font-family: Arial, sans-serif;"><span style="font-size: small;">as Jefaturas Provinciales de Tráfico no tramitarán el cambio de titularidad administrativa de un vehículo en tanto su titular registral no haya acreditado el pago del impuesto correspondiente al período impositivo del año anterior a aquel en que se realiza el trámite.</span></span> </span></span></span></p>
+<p>&nbsp;</p></div>
+		</div>
+					</div>
+				</div>
+			<div class="panel panel-default">
+					<div class="panel-heading" role="tab" id="headingsec0Blc1">
+						<h4 class="panel-title">
+							<a class="center-block collapsed" role="button" data-toggle="collapse" data-parent="#sec0" href="#collapsesec0Blc1" aria-expanded="true" aria-controls="collapsesec0Blc1">
+								<span class="detail-t">¿A qué municipio se paga el IVTM? y ¿Por qué he de pagar el IVTM en un municipio en el cual ya no resido?</span>
+							  	<span class=" pmicon fa fa-chevron-up pull-right " aria-hidden="true" title=""></span></a>
+						</h4>
+					</div>
+					
+					<div id="collapsesec0Blc1" class="panel-collapse collapse " role="tabpanel" aria-labelledby="headingsec0Blc1">
+						<div class="panel-body">
+							<div class="detail-p">
+			<p></p>
+<p class="western" align="JUSTIFY"><span style="color: #000000;"><span style="font-family: Arial, sans-serif;"><span style="font-size: small;">La gestión, liquidación, inspección y recaudación, así como la revisión de los actos dictados en vía de gestión tributaria, corresponde al ayuntamiento del domicilio que conste en el permiso de circulación del vehículo. Por tanto, el IVTM se paga según el municipio que conste en el permiso de circulación del vehículo, con independencia de si coincide o no con el domicilio habitual del sujeto pasivo, todo ello conforme al artículo </span></span></span><span style="color: #000000;"><span style="font-family: Arial, sans-serif;"><span style="font-size: small;">97 del Real Decreto Legislativo 2/2004 por el que se aprueba el Texto Refundido de la Ley reguladora de las Haciendas Locales.</span></span></span></p>
+<p>&nbsp;</p></div>
+		</div>
+					</div>
+				</div>
+			<div class="panel panel-default">
+					<div class="panel-heading" role="tab" id="headingsec0Blc2">
+						<h4 class="panel-title">
+							<a class="center-block collapsed" role="button" data-toggle="collapse" data-parent="#sec0" href="#collapsesec0Blc2" aria-expanded="true" aria-controls="collapsesec0Blc2">
+								<span class="detail-t">¿Hay que solicitar la exención por causa de discapacidad? y ¿Cuáles son los requisitos necesarios para solicitar la exención por causa de discapacidad?</span>
+							  	<span class=" pmicon fa fa-chevron-up pull-right " aria-hidden="true" title=""></span></a>
+						</h4>
+					</div>
+					
+					<div id="collapsesec0Blc2" class="panel-collapse collapse " role="tabpanel" aria-labelledby="headingsec0Blc2">
+						<div class="panel-body">
+							<div class="detail-p">
+			<p>&nbsp;</p>
+<p align="JUSTIFY"><span style="color: #000000;"><span style="font-family: Arial, sans-serif;"><span style="font-size: small;">Están exentos los vehículos matriculados a nombre de personas con discapacidad para su uso exclusivo. Por tanto, la persona con discapacidad debe ser el titular del permiso de circulación, además de que el vehículo debe ser utilizado única y exclusivamente por su titular con discapacidad. A estos efectos se presentará una declaración jurada. La exención prevista no resultará aplicable al sujeto pasivo beneficiario por más de un vehículo simultáneamente (es decir, no se puede disfrutar de la exención en el IVTM por causa de discapacidad sobre mas de un vehículo dentro del mismo ejercicio. A tal efecto deberá presentarse una declaración jurada. Se consideran personas con discapacidad quienes tengan la condición legal en grado igual o superior al 33 por ciento.</span></span></span></p>
+<p align="JUSTIFY"><span style="color: #000000;"><span style="font-family: Arial, sans-serif;"><span style="font-size: small;">El interesado deberá acreditar la condición de discapacidad aportando certificado de la discapacidad emitido por el órgano competente (siendo los únicos órganos competentes para expedir el certificado, en la Comunidad Autónoma Andaluza, los Centros de Valoración y Orientación, dependientes de las Delegaciones Provinciales de Consejería para la Igualdad y Bienestar Social de la Junta de Andalucía) y justificar el destino del vehículo ante el ayuntamiento de la imposición en los términos que establezca la correspondiente Ordenanza Fiscal.</span></span></span></p>
+<p align="JUSTIFY"><strong><span style="color: #000000;"><span style="font-family: Arial, sans-serif;"><span style="font-size: small;">Conforme al artículo 93, número 1 letra e) y número 2 del Real Decreto Legislativo 2/2004, por el que se aprueba el Texto Refundido de la Ley reguladora de las Haciendas Locales, e</span></span></span></strong><span style="color: #000000;"><span style="font-family: Arial, sans-serif;"><span style="font-size: small;">sta exención tiene carácter rogado, por lo que, para poder aplicarla los interesados deber</span></span></span><span style="color: #000000;"><span style="font-family: Arial, sans-serif;"><span style="font-size: small;">án instar su concesión, indicando las características del vehículo, su matrícula y causa del beneficio, aportando la fotocopia del permiso de circulación en donde conste la matrícula del vehículo, declarando expresamente que se solicita por causa de discapacidad y aportando las declaraciones juradas antes indicadas.</span></span></span></p>
+<p>&nbsp;</p></div>
+		</div>
+					</div>
+				</div>
+			<div class="panel panel-default">
+					<div class="panel-heading" role="tab" id="headingsec0Blc3">
+						<h4 class="panel-title">
+							<a class="center-block collapsed" role="button" data-toggle="collapse" data-parent="#sec0" href="#collapsesec0Blc3" aria-expanded="true" aria-controls="collapsesec0Blc3">
+								<span class="detail-t">Tengo un vehículo con mas de 25 años de antigüedad desde la fecha de su primera matriculación en Tráfico, ¿tengo que pagar el IVTM? </span>
+							  	<span class=" pmicon fa fa-chevron-up pull-right " aria-hidden="true" title=""></span></a>
+						</h4>
+					</div>
+					
+					<div id="collapsesec0Blc3" class="panel-collapse collapse " role="tabpanel" aria-labelledby="headingsec0Blc3">
+						<div class="panel-body">
+							<div class="detail-p">
+			<p></p>
+<p align="JUSTIFY"><strong><span style="color: #000000;"><span style="font-family: Arial, sans-serif;"><span style="font-size: small;">Conforme al artículo 95, número 6, letra c) del Real Decreto Legislativo 2/2004, por el que se aprueba el Texto Refundido de la Ley reguladora de las Haciendas Locales, l</span></span></span></strong><span style="color: #000000;"><span style="font-family: Arial, sans-serif;"><span style="font-size: small;">as ordenanzas fiscales podrán regular, sobre la cuota del impuesto, incrementada o no por aplicación del coeficiente, una bonificación de hasta el cien por cien para vehículos históricos o aquellos que tengan una antigüedad mínima de veinticin</span></span></span><span style="color: #000000;"><span style="font-family: Arial, sans-serif;"><span style="font-size: small;">co años, contados a partir de la fecha de su fabricación o, si esta no se conociera, tomando como tal la de su primera matriculación o, en su defecto, la fecha en que el correspondiente tipo o variante se dejó de fabricar. La regulación de los restantes aspectos sustantivos y formales se establecerá en la Ordenanza Fiscal.</span></span></span></p>
+<p align="JUSTIFY"><span style="color: #000000;"><span style="font-family: Arial, sans-serif;"><span style="font-size: small;">Se trata, por tanto, de una bonificación de carácter potestativo para el ayuntamiento de la imposición, que puede o no regularla en su Ordenanza Fiscal, pudiendo, igualmente, regular el porcentaje de su aplicación sobre la cuota, así como establecer el carácter de su aplicación: bien de carácter automático o de oficio, sin que sea necesaria su previa solicitud, o bien con carácter rogado, en cuyo caso habrá de ser solicitada con los requisitos y aportando la documentación que se exija en la Ordenanza Fiscal del municipio de la imposición.&nbsp;</span></span></span></p>
+<p>&nbsp;</p></div>
+		</div>
+					</div>
+				</div>
+			<div class="panel panel-default">
+					<div class="panel-heading" role="tab" id="headingsec0Blc4">
+						<h4 class="panel-title">
+							<a class="center-block collapsed" role="button" data-toggle="collapse" data-parent="#sec0" href="#collapsesec0Blc4" aria-expanded="true" aria-controls="collapsesec0Blc4">
+								<span class="detail-t">¿En que supuestos se prorratea el IVTM? ¿Tengo que pagar la totalidad del IVTM si transfiero el vehículo? ¿Y si lo doy de baja definitiva? ¿Y si es baja temporal?</span>
+							  	<span class=" pmicon fa fa-chevron-up pull-right " aria-hidden="true" title=""></span></a>
+						</h4>
+					</div>
+					
+					<div id="collapsesec0Blc4" class="panel-collapse collapse " role="tabpanel" aria-labelledby="headingsec0Blc4">
+						<div class="panel-body">
+							<div class="detail-p">
+			<p></p>
+<p align="JUSTIFY"><strong><span style="color: #000000;"><span style="font-family: Arial, sans-serif;"><span style="font-size: small;">Conforme al artículo 96 del Real Decreto Legislativo 2/2004, por el que se aprueba el Texto Refundido de la Ley reguladora de las Haciendas Locales, e</span></span></span></strong><span style="color: #000000;"><span style="font-family: Arial, sans-serif;"><span style="font-size: small;">l importe de la cuota se prorrateará por trimestres naturales en los casos de primera adquisición o baj</span></span></span><span style="color: #000000;"><span style="font-family: Arial, sans-serif;"><span style="font-size: small;">a definitiva del vehículo. También procederá el prorrateo de la cuota en los mismos términos en los casos de baja temporal por sustracción o robo (en cuyo caso habrá de justificarse con la pertinente denuncia), y ello desde que se produzca dicha baja temporal en el Registro público correspondiente. </span></span></span></p>
+<p align="JUSTIFY"><span style="color: #000000;"><span style="font-family: Arial, sans-serif;"><span style="font-size: small;">Por tanto, el IVTM se prorrateará en los casos de altas, bajas definitivas o bajas temporales por sustracción o robo de vehículos, pero no en los supuestos de transferencia o baja temporal por motivo distinto a la sustracción o robo.</span></span></span></p>
+<p>&nbsp;</p></div>
+		</div>
+					</div>
+				</div>
+			<div class="panel panel-default">
+					<div class="panel-heading" role="tab" id="headingsec0Blc5">
+						<h4 class="panel-title">
+							<a class="center-block collapsed" role="button" data-toggle="collapse" data-parent="#sec0" href="#collapsesec0Blc5" aria-expanded="true" aria-controls="collapsesec0Blc5">
+								<span class="detail-t">He vendido mi vehículo ¿qué tengo que hacer para que le llegue el impuesto al nuevo propietario?</span>
+							  	<span class=" pmicon fa fa-chevron-up pull-right " aria-hidden="true" title=""></span></a>
+						</h4>
+					</div>
+					
+					<div id="collapsesec0Blc5" class="panel-collapse collapse " role="tabpanel" aria-labelledby="headingsec0Blc5">
+						<div class="panel-body">
+							<div class="detail-p">
+			<p></p>
+<p align="JUSTIFY"><span style="color: #000000;"><span style="font-family: Arial, sans-serif;"><span style="font-size: small;">Debe comunicar a la Dirección General de Tráfico el cambio de titularidad del vehículo, es decir, realizar la transferencia de ese bien vendido. De esta forma, Tráfico actualizará sus registros y el impuesto del próximo ejercicio se emitirá al nuevo titular.</span></span></span></p>
+<p>&nbsp;</p></div>
+		</div>
+					</div>
+				</div>
+			</div>
+<!-- CONTENT ENDS -->
+					</div>
+				</div>
+	</div>
+	
+	</div></div>
+
+<div class="row"><div class="layout col-xs-12 col-lg-12" ><div class="listado solr overlay-text">
+		<div class="row">
+						<div class="col-xs-2 col-sm-1">
+							<div class="sections-control">
+								<div class="vertical" style="height: 98px;">
+								  <div id="slider-prev" class="align">
+								  </div>
+								</div>						
+							</div>
+						</div>
+						<div class="col-xs-8 col-sm-10">
+							<div class="sections carrousel-title">
+								<div class="vertical" style="height: 98px;">
+									<div class="align">
+										<div  class="title">Servicios Destacados</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-xs-2 col-sm-1">
+							<div class="sections-control">
+								<div class="vertical" style="height: 98px;">
+								  <div id="slider-next" class="align">
+								  </div>
+								</div>						
+							</div>
+						</div>
+					</div>
+					
+					<div class="row bxslider" >
+		
+		<div class="slider col-md-2">
+		<div class="section light">
+		  <div class="text-wrapper">
+			<!-- linkWrapperGroup = false -->
+<a href="/sede/tributos/servicio/Cambio-de-Domicilio-Fiscal-para-Contribuyentes/?urlBack=" title="Cambio de Domicilio Fiscal para Contribuyentes" ><img src="/sede/.galleries/imagenes-banners/domicilio.jpg?__scale=w:258,h:219,c:transparent" alt="domicilio" class="image-responsive" /><p>Cambio de Domicilio Fiscal para Contribuyentes</p></a></div>
+		</div>
+	</div>
+
+<div class="slider col-md-2">
+		<div class="section light">
+		  <div class="text-wrapper">
+			<!-- linkWrapperGroup = false -->
+<a href="/sede/tributos/servicio/Domiciliacion-Bancaria-de-Pago-de-Tributos/?urlBack=" title="Domiciliación Bancaria de Pago de Tributos" ><img src="/sede/.galleries/imagenes-banners/domiciliacion.jpg?__scale=w:258,h:219,c:transparent" alt="domiciliacion" class="image-responsive" /><p>Domiciliación Bancaria de Pago de Tributos</p></a></div>
+		</div>
+	</div>
+
+<div class="slider col-md-2">
+		<div class="section light">
+		  <div class="text-wrapper">
+			<!-- linkWrapperGroup = false -->
+<a href="/sede/tributos/servicio/Cita-Previa/?urlBack=" title="Cita Previa" ><img src="/sede/.galleries/imagenes-banners/banner-citaprevia.jpg?__scale=w:258,h:219,c:transparent" alt="banner-citaprevia" class="image-responsive" /><p>Cita Previa</p></a></div>
+		</div>
+	</div>
+
+<div class="slider col-md-2">
+		<div class="section light">
+		  <div class="text-wrapper">
+			<!-- linkWrapperGroup = false -->
+<a href="/sede/tributos/servicio/Mis-notificaciones/?urlBack=" title="Mis notificaciones" ><img src="/sede/.galleries/imagenes-banners/planpersonalizado.jpg?__scale=w:258,h:219,c:transparent" alt="planpersonalizado" class="image-responsive" /><p>Mis notificaciones</p></a></div>
+		</div>
+	</div>
+
+<div class="slider col-md-2">
+		<div class="section light">
+		  <div class="text-wrapper">
+			<!-- linkWrapperGroup = false -->
+<a href="/sede/tributos/servicio/Pago-de-deudas/?urlBack=" title="Pago de deudas" ><img src="/sede/.galleries/imagenes-banners/justificante.jpg?__scale=w:258,h:219,c:transparent" alt="justificante" class="image-responsive" /><p>Pago de deudas</p></a></div>
+		</div>
+	</div>
+
+<div class="slider col-md-2">
+		<div class="section light">
+		  <div class="text-wrapper">
+			<!-- linkWrapperGroup = false -->
+<a href="/sede/tributos/servicio/Aplazamiento-y-fraccionamiento-de-deudas/?urlBack=" title="Aplazamiento y fraccionamiento de deudas" ><img src="/sede/.galleries/imagenes-banners/fraccionamiento.jpg?__scale=w:258,h:219,c:transparent" alt="fraccionamiento" class="image-responsive" /><p>Aplazamiento y fraccionamiento de deudas</p></a></div>
+		</div>
+	</div>
+
+<div class="slider col-md-2">
+		<div class="section light">
+		  <div class="text-wrapper">
+			<!-- linkWrapperGroup = false -->
+<a href="/sede/tributos/servicio/Punto-de-Informacion-Catastral/?urlBack=" title="Punto de Información Catastral" ><img src="/export/sites/opaef/.galleries/imagenes-general/pic.jpg_472637675.jpg" alt="pic" class="image-responsive" /><p>Punto de Información Catastral</p></a></div>
+		</div>
+	</div>
+
+</div>
+	
+	<script type="text/javascript">
+							$(document).ready(function(){
+							  $('.bxslider .slider').removeClass('slider col-md-2').addClass('slider');
+							  $('.bxslider').bxSlider({
+								nextSelector: '#slider-next',
+								prevSelector: '#slider-prev',
+								nextText: '<span><img src="/export/system/modules/es.inpro.opencms.theme7/resources/img/sections_next.png" alt="" /></span>',
+								prevText: '<span><img src="/export/system/modules/es.inpro.opencms.theme7/resources/img/sections_back.png" alt="" /></span>',
+								slideWidth: 1,
+							    minSlides: 1,
+							    maxSlides: 6,
+							    slideMargin: 15,
+							    moveSlides: 6
+							  });
+							});
+						</script></div>
+	
+	</div></div>
+
+</div></div></div> </div> <div class="template container-fluid footer">
+			<div class="row">
+				<div class="col-lg-12">
+					
+		<div class="container" ><div class="row"><div class="layout col-xs-12 col-md-2" ><div class="datos-ayto ">
+					<a href="/">
+						<span class="title-procedures" >Organismo Provincial de Asistencia Económica y Fiscal de la Diputación de Sevilla</span>
+					</a>
+					<address >
+						Calle Alejo Fernández 13 C.P.41007 Sevilla</address>
+					<p class="city">Teléfono: <span >900 700 100</span></p>
+					</div>
+			</div><div class="layout col-xs-12 col-md-9 col-md-offset-1" ><div class="content-menu content-menu row push-margin-bottom hidden-sm">
+		<div class="col-xs-6 col-sm-3">
+				<h3 class="footer-text"><a href="/sede/inicio">Inicio</a></h3>
+				</div>
+		<div class="col-xs-6 col-sm-3">
+				<h3 class="footer-text"><a href="/sede/tributos/">Trámites</a></h3>
+				</div>
+		<div class="col-xs-6 col-sm-3">
+				<h3 class="footer-text"><a href="/sede/otros-tramites/">Otros Trámites</a></h3>
+				</div>
+		<div class="col-xs-6 col-sm-3">
+				<h3 class="footer-text"><a href="/sede/servicios/">Otros Servicios</a></h3>
+				</div>
+		<div class="col-xs-6 col-sm-3">
+				<h3 class="footer-text"><a href="/sede/carpeta-ciudadana/">Carpeta Ciudadana</a></h3>
+				</div>
+		<div class="col-xs-6 col-sm-3">
+				<h3 class="footer-text"><a href="/sede/enlaces/">Enlaces de Interés</a></h3>
+				</div>
+		<div class="col-xs-6 col-sm-3">
+				<h3 class="footer-text"><a href="/sede/listado-de-oficinas/">Oficinas de Atención al Contribuyente</a></h3>
+				</div>
+		<div class="col-xs-6 col-sm-3">
+				<h3 class="footer-text"><a href="/sede/registro-facturas">Registro de Facturas</a></h3>
+				</div>
+		</div>
+	<div class="desarrolladoBy directEdit-left col-xs-12 text-center">
+					<p class="city">
+						Sede desarrollada por&nbsp;
+						<a href="https://inpro.dipusevilla.es/" target="_blank"
+							title="INPRO" class="procedures-a">INPRO</a>
+					</p>
+				</div>
+			<ul class="text-center nav nav-pills col-xs-12 links">
+		<li role="presentation"><a href="/sede/mas-informacion/accesibilidad/">Accesibilidad</a></li>
+		<li role="presentation"><a href="/sede/mas-informacion/aviso-legal/">Aviso Legal</a></li>
+		<li role="presentation"><a href="/sede/mas-informacion/privacidad/">Política de Privacidad y Protección de Datos</a></li>
+		<li role="presentation"><a href="/sede/mas-informacion/contacto/">Contacto</a></li>
+		<li role="presentation"><a href="/sede/mas-informacion/incidencias/">Incidencias</a></li>
+		<li role="presentation"><a href="/sede/mas-informacion/mapa-web/">Mapa Web</a></li>
+		</ul>	
+	</div></div>
+
+</div></div></div> </div> </div><div class="container-fluid buscador">
+            <span class="pmicon close-btn icon icon-cross" aria-hidden="true"></span>
+            <div class="row">
+                <div class="vertical">
+                    <div class="align">
+                        <div class="col-md-6 col-md-offset-3">
+                        	<form role="search" action="/sede/buscador/">
+                                <!-- Text input-->
+                                <div class="form-group col-md-12">
+                                    <label class="control-label" for="idquery">Término de búsqueda</label>
+                                    <input id="idquery" name="query" type="text" placeholder="" class="form-control input-md">
+                                    <span class="pmicon search-btn icon icon-search" aria-hidden="true"></span>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<script type="text/javascript" src="/export/system/modules/es.inpro.opencms.core/resources/plugins/back-to-top.js"></script>
+<script type="text/javascript" src="/export/system/modules/es.inpro.opencms.core/resources/plugins/image-overlay/js/image-overlay.js"></script>
+<script type="text/javascript" src="/export/system/modules/es.inpro.opencms.core/resources/plugins/fancybox215/source/jquery.fancybox.pack.js"></script>
+<script type="text/javascript" src="/system/modules/es.inpro.opencms.core/resources/plugins/fancybox215/load-modal-detail-img.js"></script>
+<script type="text/javascript" src="/export/system/modules/es.inpro.opencms.theme7/resources/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="/export/system/modules/es.inpro.opencms.theme7/resources/js/custom.js"></script>
+<script type="text/javascript" src="/export/system/modules/es.inpro.opencms.theme7/resources/js/easing.js"></script>
+<script type="text/javascript" src="/export/system/modules/es.inpro.opencms.core/resources/plugins/bxslider/jquery.bxslider.js"></script><script type="text/javascript" src="/export/system/modules/es.inpro.opencms.core/resources/plugins/fancybox215/source/jquery.fancybox.pack.js"></script>
+			<script type="text/javascript" src="/system/modules/es.inpro.opencms.core/resources/plugins/fancybox215/load-modal-detail-img.js"></script>
+			<script type="text/javascript" src="/system/modules/es.opaef.opencms.sede/resources/js/time.js"></script>
+			<script type="text/javascript" src="/export/system/modules/es.inpro.opencms.core/resources/plugins/cookieCuttr/jquery.cookie.js"></script>
+	<script type="text/javascript" src="/export/system/modules/es.inpro.opencms.core/resources/plugins/cookieCuttr/jquery.cookiecuttr.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function () {
+			$.cookieCuttr({
+				cookieAnalytics: false,
+				cookieCutter: true,
+				cookieErrorMessage: 'Lo sentimos. Esta funcionalidad está desactivada en su navegador. <br>Para seguir utilizando esta funcionalidad, por favor ...',
+				cookieAcceptButtonText: 'ACEPTAR COOKIES',
+				cookieMessage: 'Utilizamos cookies en este sitio web, puede <a href="{{cookiePolicyLink}}" title="lee sobre nuestras cookies">leer acerca de ellos aquí</a>. Para utilizar el sitio web de la forma prevista, por favor ...',
+				cookiePolicyLink: '/es/mas-informacion/cookies/',
+				//cookieResetButton: true,
+				//cookieDiscreetReset: true,
+				cookieDisable: '.cookiesDisabled'
+			});
+		});
+	</script>
+<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+		
+		  ga('create', 'UA-49703130-3', 'auto');
+		  ga('send', 'pageview');
+		
+		</script>
+	<div id="avisocookiedialog"></div><script src="/avisos/sedes/myscript.js"></script></body>
+</html>

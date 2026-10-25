@@ -1,0 +1,249 @@
+{
+ "meta": {
+  "tool": "city-audit L0",
+  "level": "L0",
+  "label": "yerel paket denetimi",
+  "city_id": "sevilla",
+  "catalog": "CITY-107",
+  "xlsx": "CITY-107_sevilla_v001.xlsx",
+  "xlsx_sha256": "8c8b454ba24832e9a7c8566a9126f021010b13502bfd1f65ddf23daac9af34ba",
+  "previous_audit": null,
+  "checked_on": "2026-10-25",
+  "template": "kılavuz 2.0 bölüm 20",
+  "status_counts": {
+   "separate_stage": 10,
+   "geçti": 49,
+   "kaldı": 5,
+   "kısmi": 15,
+   "not_checked": 38,
+   "uygulanmaz": 3
+  },
+  "note": "L0: L ve V ölçütleri not_checked; partial ölçütlerde 'passed' doğrulanan alt sınırdır. İnsan inceleme alanları değerlendirme dışı."
+ },
+ "criteria": [
+  {
+   "code": "A1",
+   "status": "partial",
+   "passed": 0,
+   "required": 240,
+   "reason": "Ham 239 (üst sınır) < 240 → ISS-001; kullanılabilir/özgün kart sayımı K18 (L) yapılmadı; doğrulanan alt sınır 0."
+  },
+  {
+   "code": "A2",
+   "status": "not_checked",
+   "reason": "Kartın soruyu çözmesi K25/K26 (L) yapılmadı."
+  },
+  {
+   "code": "A3",
+   "status": "not_checked",
+   "reason": "İddia-kaynak desteği K29 (L) yapılmadı; claim_check dize eşleşmesi (802/1880) destek kanıtı sayılmaz."
+  },
+  {
+   "code": "A4",
+   "status": "not_checked",
+   "reason": "Kritik/güncel doğruluk K34/K35 (L) yapılmadı; 0/1880 resmî kaynakta doğrulandı."
+  },
+  {
+   "code": "A5",
+   "status": "not_checked",
+   "reason": "Dil/konu değeri K28/K32 (L) yapılmadı; script: kart kopyası 0, hedge 0, hitap karışıklığı 0."
+  },
+  {
+   "code": "B1",
+   "status": "partial",
+   "passed": 0,
+   "required": 120,
+   "reason": "Ham 100 (üst sınır) < 120 → ISS-002; kimlik/şube/açıklık doğrulaması K39/K42 (L) yapılmadı; doğrulanan alt sınır 0."
+  },
+  {
+   "code": "B2",
+   "status": "partial",
+   "passed": 0,
+   "required": 16,
+   "reason": "Ham 15 (üst sınır) < 16 → ISS-003; yerel somut karşılaştırma K44 (L) yapılmadı; doğrulanan alt sınır 0."
+  },
+  {
+   "code": "B3",
+   "status": "partial",
+   "passed": 0,
+   "required": 12,
+   "reason": "Durak bağları 12/12 script ile geçti (K46); fiziksel uygulanabilirlik K47 (L) yapılmadı; doğrulanan alt sınır 0."
+  },
+  {
+   "code": "B4",
+   "status": "not_checked",
+   "reason": "Ham 60/60; anlam/kaynak K48 (L) yapılmadı."
+  },
+  {
+   "code": "B5",
+   "status": "not_checked",
+   "reason": "Koordinat aralığı geçti (72 mekân), 28 mekân koordinatsız ve haritasız (ISS-006); ad/adres/harita/ziyaret durumu doğrulaması L/V yapılmadı."
+  },
+  {
+   "code": "C1",
+   "status": "partial",
+   "passed": 0,
+   "required": 250,
+   "reason": "Tekil 250 kare (üst sınır) = hedef 250; görsel/hak doğrulaması V/L yapılmadı; doğrulanan alt sınır 0."
+  },
+  {
+   "code": "C2",
+   "status": "not_checked",
+   "reason": "Görsel-kaynak-caption eşleşmesi K59–K62 (V) yapılmadı."
+  },
+  {
+   "code": "C3",
+   "status": "partial",
+   "passed": 0,
+   "required": 115,
+   "reason": "Herhangi bir fotoğrafı olan yer 91/115 (üst sınır); 24 yer fotoğrafsız → ISS-004; doğru kare teyidi V; doğrulanan alt sınır 0."
+  },
+  {
+   "code": "C4",
+   "status": "partial",
+   "passed": 0,
+   "required": 250,
+   "reason": "Aynı-kare tekrarı yalnız kapak rolünde (dHash 8 çift, rol ayrı); kırpma/netlik K65 (V) yapılmadı; doğrulanan alt sınır 0."
+  },
+  {
+   "code": "C5",
+   "status": "not_checked",
+   "reason": "8 farklı kapak var (kapaklar arası tekrar yok); kapak doğruluğu K62 (V) ve uyarı bandı K103 (önizleme) yapılmadı; kapak-06 'place_mismatch' işaretli."
+  },
+  {
+   "code": "D1",
+   "status": "not_checked",
+   "reason": "Eser bazlı ücretsiz ticari izin teyidi: K67 script'i 258 adayda izinsiz lisans/kısıt 0 buldu (kısmi), K71/K72 (L) yapılmadı; etiketler 258/258 izinli aileden."
+  },
+  {
+   "code": "D2",
+   "status": "partial",
+   "passed": 0,
+   "required": 250,
+   "reason": "Etiket↔URL tutarlılığı ve yazar alanı 258/258 (K69/K70); kaynakla eşleşme okunmadı; doğrulanan alt sınır 0."
+  },
+  {
+   "code": "D3",
+   "status": "partial",
+   "passed": 0,
+   "required": 250,
+   "reason": "Dosya/hash zinciri 258/258 tutarlı (K77/K80/K114), kaynak snapshot'ları taze kopyayla 416/416 karşılaştırıldı, 1 dil varyantı (K76 kısmi); foto kanıtları açılmadı; doğrulanan alt sınır 0."
+  },
+  {
+   "code": "D4",
+   "status": "not_checked",
+   "reason": "Kareye özgü ek haklar K74 (V) yapılmadı; rights_status insan alanı (tasarım gereği 'Bekliyor', değerlendirme dışı)."
+  },
+  {
+   "code": "D5",
+   "status": "not_checked",
+   "reason": "Atıf CSV 258/258 Excel ile tutarlı (K75 kısmi); hedef görünümde kontrol K94 ayrı aşama."
+  },
+  {
+   "code": "E1",
+   "status": "ok",
+   "passed": 11,
+   "required": 12,
+   "reason": "Sabit liste: bölüm 02 K08–K16 + K45, K46, K49 = 12 atomik kontrol; kaldı: K14 (ISS-008, tek kayıt)."
+  },
+  {
+   "code": "E2",
+   "status": "ok",
+   "passed": 1450,
+   "required": 1450,
+   "reason": "1450 beklenen dosyanın tamamı yol/format/hash ile çözülüyor; paket envanteri ↔ ölçüm SHA farkı yalnız dosya-envanteri.json'un kendisi (doğası gereği)."
+  },
+  {
+   "code": "E3",
+   "status": "ok",
+   "passed": 23,
+   "required": 23,
+   "reason": "23/23 zorunlu anahtar; resmî doğrulayıcı tür/değer/referans hatası 0."
+  },
+  {
+   "code": "E4",
+   "status": "separate_stage",
+   "reason": "Web işlevleri önizleme senaryoları ayrı aşama (preview-later)."
+  },
+  {
+   "code": "E5",
+   "status": "partial",
+   "passed": 4,
+   "required": 5,
+   "reason": "Kök Excel ✓, üç klasör ✓, kimlik eşleşmesi ✓, sürüm/sayı tutarlılığı ✓ (TESLIM_OZETI ve envanter ölçümle birebir); bulut dosyaları (Drive) ayrı aşama — kontrol edilmedi."
+  }
+ ],
+ "findings": [
+  {
+   "id": "ISS-001",
+   "priority": "P1",
+   "criteria": [
+    "A1"
+   ]
+  },
+  {
+   "id": "ISS-002",
+   "priority": "P1",
+   "criteria": [
+    "B1"
+   ]
+  },
+  {
+   "id": "ISS-003",
+   "priority": "P1",
+   "criteria": [
+    "B2"
+   ]
+  },
+  {
+   "id": "ISS-004",
+   "priority": "P1",
+   "criteria": [
+    "C3"
+   ]
+  },
+  {
+   "id": "ISS-005",
+   "priority": "P2",
+   "criteria": [
+    "E2"
+   ]
+  },
+  {
+   "id": "ISS-006",
+   "priority": "P2",
+   "criteria": [
+    "B5"
+   ]
+  },
+  {
+   "id": "ISS-007",
+   "priority": "P2",
+   "criteria": [
+    "C3",
+    "B1"
+   ]
+  },
+  {
+   "id": "ISS-008",
+   "priority": "P2",
+   "criteria": [
+    "E1"
+   ]
+  }
+ ],
+ "coverage": {
+  "cards": [
+   0,
+   354
+  ],
+  "photos": [
+   0,
+   258
+  ],
+  "critical_claims": [
+   0,
+   1880
+  ]
+ }
+}

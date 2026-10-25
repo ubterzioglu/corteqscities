@@ -1,0 +1,7 @@
+{
+  "tool_name": "PowerShell",
+  "tool_input_preview": "{\"command\":\"[Console]::OutputEncoding=[Text.Encoding]::UTF8; Set-Location C:\\\\temp_private\\\\corteqs\\\\0000_newera; $env:PYTHONUTF8='1'; $env:PYTHONDONTWRITEBYTECODE='1'; $PY=\\\".venv\\\\Scripts\\\\python.ex...",
+  "error": "Exit code 2\n{\"phase\":\"kurulum\",\"event\":\"end\",\"ts\":\"2026-10-25T05:17:06.292Z\"}\r\nTrue\r\nTrue\r\nhata: overlap: 'kesif_g0_g1' ve 'yazim_denetim_editor' pencereleri cakisiyor (2026-10-25T03:18:00.000Z oncesinde 'kesif_g0_g1' bitmemis)",
+  "timestamp": "2026-10-25T05:17:07.411Z",
+  "retry_count": 2
+}

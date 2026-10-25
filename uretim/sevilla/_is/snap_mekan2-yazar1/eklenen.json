@@ -1,0 +1,40 @@
+{
+  "map": {
+    "https://www.spain.info/en/places-of-interest/teatro-maestranza-sevilla/": "sevilla:kaynak:374",
+    "https://www.teatrodelamaestranza.es/en/architecture/": "sevilla:kaynak:375",
+    "https://www.acuariosevilla.es/": "sevilla:kaynak:376"
+  },
+  "rejected": [
+    {
+      "url": "https://www.museosdeandalucia.es/web/museoarqueologicodesevilla",
+      "why": "kanit metinde yok: ['Plaza de América']"
+    },
+    {
+      "url": "https://www.caac.es/visita/horarios-y-tarifas",
+      "why": "kopya yok/ince (status 404)"
+    }
+  ],
+  "fetch": {
+    "status": "findings",
+    "urls": 5,
+    "fetched": 5,
+    "saved": 4,
+    "failed": 1,
+    "thin_text": 0,
+    "soft_404": 0,
+    "evidence_checked": 0,
+    "evidence_missing": 0,
+    "evidence_stale": 0,
+    "evidence_from_index": 0,
+    "must_contain_unmatched": 0,
+    "non_html": 0,
+    "truncated": 0,
+    "skipped": 0,
+    "index_rows": 5,
+    "index_kept": 0,
+    "requests_made": 5,
+    "cache_hits": 0,
+    "retry_transient": true,
+    "index": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\snap_mekan2-yazar1\\index.jsonl"
+  }
+}

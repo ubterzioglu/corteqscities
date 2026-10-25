@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html><head>
+ <meta http-equiv="Content-type" content="text/html; charset=UTF-8">
+ <title>Consejería de Cultura - Junta de Andalucía</title>
+ <style type="text/css">
+ body { text-align: center;margin: 0 auto; background-color: white  }
+ body { font: 10px Helvetica, sans-serif; color: #095A1D; }
+ h1 { font-size: 30px; }
+ img { float:left; }
+ #article_body { background-color: #fff;text-align: center; width: 650px;  margin: 0 auto; }
+ #article { display: block; text-align: center; width: 650px;  margin: 0 auto; }
+ a { color: #095A1D ; text-decoration: none; }
+ a:hover { color: #095A1D; text-decoration: none; }
+ #cabecera {
+    border-top: 4px #09551b solid;
+    background-image: url(/files/cabecera_fondo.gif);
+    background-repeat: repeat-x;
+    background-color: #fff;
+    height: 12.2em;
+    overflow: hidden;
+}
+#cabecera, #navegacion, #miga, #contenidos, #pie {
+    min-width: 96em;
+}
+.container {margin-left: auto;margin-right: auto;width: 96em;float: none;}
+#logo {
+    height: 10.9em;
+    float: left;
+    display: -webkit-inline-box;
+}
+#logo h1 {
+    height: 100%;
+    display: block;
+}
+#logo .logotipo .logotipo, #logo .logotipo:link, #logo .logotipo:active, #logo .logotipo:visited {
+    width: 120px;
+    height: 109px;
+    float: left;
+    overflow: hidden;
+    background: url(/cultura/files/logo-junta.png) no-repeat 0 0;
+    display: block;
+    margin-right: 0.5em;
+}
+#logo .logotipo:hover {
+    background: url(/cultura/files/logo-junta.png) repeat scroll;
+    background-position: 120px 0;
+}
+#logo .sublogo.cultura {
+    background: url(/cultura/files/consejeria-negro.png) no-repeat top left;
+}
+#logo .sublogo {
+    background: none;
+    width: 475px;
+    height: 100%;
+    display: block;
+    float: left;
+}
+#pie {
+    min-height: 13.0em;
+    display: block;
+    background: #575656;
+    border-top: 6px solid #2b2b2b;
+    clear: both;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+}
+#pie .social {
+    height: 90px;
+}
+#pie .enlaces {
+    padding: 20px 0;
+    height: 90px;
+    background: url(/cultura/files/logo_junta_tras.png) no-repeat top right;
+}
+.container .grid_8, .ancho_8 {
+    width: 46em;
+}
+.grid_1, .grid_2, .grid_3, .grid_4, .grid_5, .grid_6, .grid_7, .grid_8, .grid_9, .grid_10 {
+    overflow: hidden;
+}
+.grid_1, .grid_2, .grid_3, .grid_4, .grid_5, .grid_6, .grid_7, .grid_8, .grid_9, .grid_10, .grid_11, .grid_12, .grid_13, .grid_14, .grid_15, .grid_16 {
+    display: inline;
+    float: left;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+</style>
+
+</head>
+<body>
+	<div id="cabecera">
+	 <div class="container">
+	    <div id="logo">
+	       <h1>
+	          <a class="logotipo" accesskey="0" href="http://www.juntadeandalucia.es/index.html" title="Portada de la Web oficial de la Junta de Andalucía">
+	          </a>
+	          <a class="sublogo cultura" title="Portada de la Web de la Consejería de Cultura" href="http://www.juntadeandalucia.es/cultura" accesskey="7">
+              </a>
+	       </h1>
+	    </div>
+	    <div class="clear"> </div>
+	 </div>
+	</div>
+ <div id="article_body">
+ <div id="article">
+ <h1>Error 404 - Página no encontrada</h1>
+ </div>
+<p></p>
+ <div id="article" style="text-align: left;">
+ <font size="4" face="Arial, Helvetica, sans-serif"><br>
+ La página que has solicitado no está disponible. Puede que haya cambiado de dirección o que ya no exista.
+ </font><p><font size="4" face="Arial, Helvetica, sans-serif">Gracias por su atención</font></p>
+ </div>
+ <div id="article" style="overflow: hidden;padding-top:20px">
+ <font size="2" face="Arial, Helvetica, sans-serif">
+Consejería de Turismo, Cultura y Deporte<br>
+        Palacio de Altamira. Calle Santa María la Blanca, 1<br>
+        41004 Sevilla (Sevilla)<br>
+Teléfono: 955 036 000<br>
+Fax: 955 036 001<br>
+E-mail: <a href="mailto:csu.ctcd@juntadeandalucia.es">csu.ctcd@juntadeandalucia.es</a><br>
+Portal Corporativo: <a href="https://juntadeandalucia.es/organismos/turismoculturaydeporte.html" target="_blank">https://juntadeandalucia.es/organismos/turismoculturaydeporte.html</a><p></p>
+ </font></div>
+</div>
+
+<div id="pie">
+   <div class="container">
+      <div class="grid_8 social">
+      </div>
+      <div class="grid_8 enlaces">
+      </div>
+   </div>
+   <div> </div>
+</div>
+
+
+</body></html>

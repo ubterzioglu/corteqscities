@@ -1,0 +1,44 @@
+{
+  "tool": "acik_mi",
+  "acik_mi": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\acik_mi",
+  "mekanlar": [
+    "C:\\temp_private\\corteqs\\0000_newera\\denetim\\sevilla_2026-10-25_L1\\_dump\\Mekânlar.jsonl"
+  ],
+  "kaynaklar": [
+    "C:\\temp_private\\corteqs\\0000_newera\\denetim\\sevilla_2026-10-25_L1\\_dump\\Kaynaklar.jsonl"
+  ],
+  "min_year": 2025,
+  "mekan": 120,
+  "tarama": {
+    "dosya": 10,
+    "satir": 134,
+    "mekan": 131
+  },
+  "dogrulama": {
+    "dosya": 10,
+    "satir": 82
+  },
+  "durum": {
+    "açık": 66,
+    "belirsiz": 62,
+    "geçici kapalı": 4,
+    "kapalı": 1,
+    "taşındı": 1
+  },
+  "eylem": {
+    "dokunma": 73,
+    "kartta belirt": 8,
+    "sil": 1
+  },
+  "sonuc": {
+    "onay": 59,
+    "ret": 23
+  },
+  "listede_olmayan": {
+    "tarama": 12,
+    "dogrulama": 9
+  },
+  "findings": [],
+  "by_code": {},
+  "out": "C:\\temp_private\\corteqs\\0000_newera\\denetim\\sevilla_2026-10-25_L1\\acik-mi-uretim.json"
+}
