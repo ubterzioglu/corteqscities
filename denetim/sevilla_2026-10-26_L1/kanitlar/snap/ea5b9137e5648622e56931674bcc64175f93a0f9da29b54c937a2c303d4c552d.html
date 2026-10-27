@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<!-- Sorry no IE7 support! -->
+<!-- @see http://foundation.zurb.com/docs/index.html#basicHTMLMarkup -->
+
+<!--[if IE 8]><html class="no-js lt-ie9" lang="es" dir="ltr"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="es" dir="ltr"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8" />
+<link rel="shortcut icon" href="https://www.casadelaciencia.csic.es/sites/all/themes/casaciencia/favicon.ico" />
+<meta name="viewport" content="width=device-width, maximum-scale = 1.0" />
+<meta http-equiv="ImageToolbar" content="false" />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="https://www.casadelaciencia.csic.es/es/planetario" />
+<link rel="shortlink" href="https://www.casadelaciencia.csic.es/es/planetario" />
+<meta property="fb:app_id" content="965299573507060" />
+<meta property="og:site_name" content="Casa de la Ciencia" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.casadelaciencia.csic.es/es/planetario" />
+<meta property="og:title" content="Planetario" />
+<meta itemprop="name" content="Planetario" />
+  <title>Planetario | Casa de la Ciencia</title>
+  <link rel="stylesheet" href="https://www.casadelaciencia.csic.es/sites/default/files/css/css_kShW4RPmRstZ3SpIC-ZvVGNFVAi0WEMuCnI0ZkYIaFw.css" />
+<link rel="stylesheet" href="https://www.casadelaciencia.csic.es/sites/default/files/css/css_o5m5YfhNvCAmTYElqKpCQG6h1HjE4crK0Lriiytig8I.css" />
+<link rel="stylesheet" href="https://www.casadelaciencia.csic.es/sites/default/files/css/css_auz_zIsTTDyCHolyneQqoHbtKjquT60UWQXm0DFb5vo.css" />
+<link rel="stylesheet" href="https://www.casadelaciencia.csic.es/sites/default/files/css/css_TjDhTDJAifGz3TGUFue63CFmyyo58b7USzhmynQslkk.css" />
+<style>#sliding-popup.sliding-popup-bottom{background:#7b3e7e;}#sliding-popup .popup-content #popup-text h2,#sliding-popup .popup-content #popup-text p{color:#ffffff !important;}
+</style>
+<link rel="stylesheet" href="https://www.casadelaciencia.csic.es/sites/default/files/css/css_FYa1474xIcY0bfw7780sgtcBqA9U7DK-QFlHXPvUxys.css" />
+<link rel="stylesheet" href="https://www.casadelaciencia.csic.es/sites/default/files/css/css_qUc6jzC1wTS-4UDPbpmj3IC_ISidRLcGG1Z_FcxJPQM.css" />
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>window.jQuery || document.write("<script src='/sites/all/modules/jquery_update/replace/jquery/1.10/jquery.min.js'>\x3C/script>")</script>
+<script src="https://www.casadelaciencia.csic.es/misc/jquery.once.js?v=1.2"></script>
+<script src="https://www.casadelaciencia.csic.es/misc/drupal.js?synrej"></script>
+<script src="https://www.casadelaciencia.csic.es/sites/all/libraries/fitvids/jquery.fitvids.js?synrej"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.2/jquery-ui.min.js"></script>
+<script>window.jQuery.ui || document.write("<script src='/sites/all/modules/jquery_update/replace/ui/ui/minified/jquery-ui.min.js'>\x3C/script>")</script>
+<script src="https://www.casadelaciencia.csic.es/modules/locale/locale.datepicker.js?v=1.10.2"></script>
+<script src="https://www.casadelaciencia.csic.es/sites/all/modules/date/date_popup/jquery.timeentry.pack.js?v=1.4.7"></script>
+<script src="https://www.casadelaciencia.csic.es/sites/all/modules/fitvids/fitvids.js?synrej"></script>
+<script src="https://www.casadelaciencia.csic.es/sites/all/modules/media_colorbox/media_colorbox.js?synrej"></script>
+<script src="https://www.casadelaciencia.csic.es/sites/all/modules/whatsappshare/js/whatsapp-button.js?synrej"></script>
+<script src="https://www.casadelaciencia.csic.es/sites/default/files/languages/es_IyFKaFWowV6u1j3RC0jIgiwvuqUcPuvGCSkiYtekIAg.js?synrej"></script>
+<script src="https://www.casadelaciencia.csic.es/sites/all/libraries/colorbox/jquery.colorbox-min.js?synrej"></script>
+<script src="https://www.casadelaciencia.csic.es/sites/all/modules/colorbox/js/colorbox.js?synrej"></script>
+<script src="https://www.casadelaciencia.csic.es/sites/all/modules/colorbox/styles/default/colorbox_style.js?synrej"></script>
+<script src="https://www.casadelaciencia.csic.es/sites/all/modules/whatsappshare/js/whatsappshare.js?synrej"></script>
+<script src="https://www.casadelaciencia.csic.es/sites/all/modules/ctools/js/auto-submit.js?synrej"></script>
+<script src="https://www.casadelaciencia.csic.es/sites/all/libraries/wvega-timepicker/jquery.timepicker.js?synrej"></script>
+<script src="https://www.casadelaciencia.csic.es/sites/all/modules/date/date_popup/date_popup.js?synrej"></script>
+<script src="https://www.casadelaciencia.csic.es/sites/all/modules/better_exposed_filters/better_exposed_filters.js?synrej"></script>
+<script src="https://www.casadelaciencia.csic.es/sites/all/modules/google_analytics/googleanalytics.js?synrej"></script>
+<script>(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create", "UA-22367351-1", {"cookieDomain":"auto"});ga("set", "anonymizeIp", true);ga("send", "pageview");</script>
+<script src="https://www.casadelaciencia.csic.es/sites/all/themes/casaciencia/js/shrink-header.js?synrej"></script>
+<script src="https://www.casadelaciencia.csic.es/sites/all/modules/datepicker/datepicker.js?synrej"></script>
+<script src="https://www.casadelaciencia.csic.es/sites/all/libraries/superfish/jquery.hoverIntent.minified.js?synrej"></script>
+<script src="https://www.casadelaciencia.csic.es/sites/all/libraries/superfish/sftouchscreen.js?synrej"></script>
+<script src="https://www.casadelaciencia.csic.es/sites/all/libraries/superfish/sfsmallscreen.js?synrej"></script>
+<script src="https://www.casadelaciencia.csic.es/sites/all/libraries/superfish/supposition.js?synrej"></script>
+<script src="https://www.casadelaciencia.csic.es/sites/all/libraries/superfish/superfish.js?synrej"></script>
+<script src="https://www.casadelaciencia.csic.es/sites/all/libraries/superfish/supersubs.js?synrej"></script>
+<script src="https://www.casadelaciencia.csic.es/sites/all/modules/superfish/superfish.js?synrej"></script>
+<script src="https://www.casadelaciencia.csic.es/sites/all/themes/casaciencia/js/vendor/custom.modernizr.js?synrej"></script>
+<script src="https://www.casadelaciencia.csic.es/sites/all/themes/casaciencia/js/foundation.min.js?synrej"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"es\/","ajaxPageState":{"theme":"casaciencia","theme_token":"tBg2c89cUyFJerHhsOPAcNi24F0vSgKzP1a4DyXfWSc","js":{"sites\/all\/modules\/eu_cookie_compliance\/js\/eu_cookie_compliance.js":1,"\/\/ajax.googleapis.com\/ajax\/libs\/jquery\/1.10.2\/jquery.min.js":1,"0":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/libraries\/fitvids\/jquery.fitvids.js":1,"\/\/ajax.googleapis.com\/ajax\/libs\/jqueryui\/1.10.2\/jquery-ui.min.js":1,"1":1,"modules\/locale\/locale.datepicker.js":1,"sites\/all\/modules\/date\/date_popup\/jquery.timeentry.pack.js":1,"sites\/all\/modules\/fitvids\/fitvids.js":1,"sites\/all\/modules\/media_colorbox\/media_colorbox.js":1,"sites\/all\/modules\/whatsappshare\/js\/whatsapp-button.js":1,"public:\/\/languages\/es_IyFKaFWowV6u1j3RC0jIgiwvuqUcPuvGCSkiYtekIAg.js":1,"sites\/all\/libraries\/colorbox\/jquery.colorbox-min.js":1,"sites\/all\/modules\/colorbox\/js\/colorbox.js":1,"sites\/all\/modules\/colorbox\/styles\/default\/colorbox_style.js":1,"sites\/all\/modules\/whatsappshare\/js\/whatsappshare.js":1,"sites\/all\/modules\/ctools\/js\/auto-submit.js":1,"sites\/all\/libraries\/wvega-timepicker\/jquery.timepicker.js":1,"sites\/all\/modules\/date\/date_popup\/date_popup.js":1,"sites\/all\/modules\/better_exposed_filters\/better_exposed_filters.js":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"2":1,"sites\/all\/themes\/casaciencia\/js\/shrink-header.js":1,"sites\/all\/modules\/datepicker\/datepicker.js":1,"sites\/all\/libraries\/superfish\/jquery.hoverIntent.minified.js":1,"sites\/all\/libraries\/superfish\/sftouchscreen.js":1,"sites\/all\/libraries\/superfish\/sfsmallscreen.js":1,"sites\/all\/libraries\/superfish\/supposition.js":1,"sites\/all\/libraries\/superfish\/superfish.js":1,"sites\/all\/libraries\/superfish\/supersubs.js":1,"sites\/all\/modules\/superfish\/superfish.js":1,"sites\/all\/themes\/casaciencia\/js\/vendor\/custom.modernizr.js":1,"sites\/all\/themes\/casaciencia\/js\/foundation.min.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"misc\/ui\/jquery.ui.core.css":1,"misc\/ui\/jquery.ui.theme.css":1,"misc\/ui\/jquery.ui.datepicker.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/jquery.timeentry.css":1,"sites\/all\/modules\/simplenews\/simplenews.css":1,"sites\/all\/modules\/calendar\/css\/calendar_multiday.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"sites\/all\/modules\/date\/date_repeat_field\/date_repeat_field.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/fitvids\/fitvids.css":1,"modules\/node\/node.css":1,"sites\/all\/modules\/office_hours\/office_hours.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/whatsappshare\/style.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/colorbox\/styles\/default\/colorbox_style.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/libraries\/wvega-timepicker\/jquery.timepicker.css":1,"0":1,"sites\/all\/modules\/eu_cookie_compliance\/css\/eu_cookie_compliance.css":1,"modules\/locale\/locale.css":1,"sites\/all\/libraries\/superfish\/css\/superfish.css":1,"sites\/all\/libraries\/superfish\/css\/superfish-smallscreen.css":1,"sites\/all\/themes\/zurb_foundation\/css\/normalize.css":1,"sites\/all\/themes\/casaciencia\/css\/foundation.min.css":1,"sites\/all\/themes\/casaciencia\/css\/app.css":1,"sites\/all\/themes\/casaciencia\/css\/theme.css":1,"sites\/all\/themes\/casaciencia\/css\/editor2.css":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Cerrar","maxWidth":"98%","maxHeight":"98%","fixed":true,"mobiledetect":true,"mobiledevicewidth":"480px"},"whatsappshare":{"whatsappshare_button_text":"Whatsapp","whatsappshare_button_size":"wa_btn_m","whatsappshare_sharing_text":"Compartir esta p\u00e1gina en whatsapp","whatsappshare_sharing_location":".service-links","base_path":"https:\/\/www.casadelaciencia.csic.es\/es\/planetario"},"better_exposed_filters":{"datepicker":false,"slider":false,"settings":[],"views":{"exposiciones":{"displays":{"page_3":{"filters":{"date_filter":{"required":false},"field_edad_recomendada_tid_i18n":{"required":false}}}}},"destacado":{"displays":{"block":{"filters":[]}}}}},"urlIsAjaxTrusted":{"\/es\/planetario":true,"\/es\/search\/node\/all":true},"jquery":{"ui":{"datepicker":{"isRTL":false,"firstDay":"1"}}},"datePopup":{"edit-finder-datepicker-popup-0":{"func":"datepicker-inline","settings":{"changeMonth":true,"changeYear":true,"autoPopUp":"focus","closeAtTop":false,"speed":"immediate","firstDay":1,"dateFormat":"dd\/mm\/yy","yearRange":"-3:+3","fromTo":false,"defaultDate":"","altField":"#edit-finder-datepicker-popup-0"}}},"eu_cookie_compliance":{"popup_enabled":1,"popup_agreed_enabled":0,"popup_hide_agreed":0,"popup_clicking_confirmation":1,"popup_html_info":"\u003Cdiv\u003E\n  \u003Cdiv class =\u0022popup-content info\u0022\u003E\n    \u003Cdiv id=\u0022popup-text\u0022\u003E\n      \u003Cp\u003EEste sitio utiliza cookies para mejorar su experiencia de usuario. Haciendo clic en cualquier enlace de esta p\u00e1gina usted da su consentimiento para el uso de estas cookies.\u003C\/p\u003E\n    \u003C\/div\u003E\n    \u003Cdiv id=\u0022popup-buttons\u0022\u003E\n      \u003Cbutton type=\u0022button\u0022 class=\u0022agree-button\u0022\u003ES\u00ed, estoy de acuerdo\u003C\/button\u003E\n      \u003Cbutton type=\u0022button\u0022 class=\u0022find-more-button\u0022\u003ENo, d\u00e9me m\u00e1s informaci\u00f3n\u003C\/button\u003E\n    \u003C\/div\u003E\n  \u003C\/div\u003E\n\u003C\/div\u003E\n","popup_html_agreed":"\u003Cdiv\u003E\n  \u003Cdiv class =\u0022popup-content agreed\u0022\u003E\n    \u003Cdiv id=\u0022popup-text\u0022\u003E\n      \u003Ch2\u003EThank you for accepting cookies\u003C\/h2\u003E\n\u003Cp\u003EYou can now hide this message or find out more about cookies.\u003C\/p\u003E\n    \u003C\/div\u003E\n    \u003Cdiv id=\u0022popup-buttons\u0022\u003E\n      \u003Cbutton type=\u0022button\u0022 class=\u0022hide-popup-button\u0022\u003EOcultar\u003C\/button\u003E\n      \u003Cbutton type=\u0022button\u0022 class=\u0022find-more-button\u0022 \u003EM\u00e1s info\u003C\/button\u003E\n    \u003C\/div\u003E\n  \u003C\/div\u003E\n\u003C\/div\u003E","popup_height":"auto","popup_width":"100%","popup_delay":1000,"popup_link":"\/es\/politica-privacidad","popup_link_new_window":0,"popup_position":null,"popup_language":"es","domain":""},"fitvids":{"custom_domains":[],"selectors":["body"],"simplifymarkup":true},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"},"superfish":{"1":{"id":"1","sf":{"animation":{"opacity":"show","height":"show"},"speed":"fast","autoArrows":false,"dropShadows":false},"plugins":{"touchscreen":{"behaviour":"1","mode":"useragent_predefined"},"smallscreen":{"mode":"window_width","breakpointUnit":"px","accordionButton":"0","expandText":"Desplegar","collapseText":"Plegar","title":"Men\u00fa principal"},"supposition":true,"supersubs":true}}}});</script>
+  <!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+</head>
+<body class="html not-front not-logged-in one-sidebar sidebar-second page-planetario i18n-es lang-es section-planetario views-page" >
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v2.5&appId=965299573507060";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+</script>
+
+  <div class="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Pasar al contenido principal</a>
+  </div>
+    <!--.page -->
+<div role="document" class="page">
+
+  <!--.l-header -->
+  <header role="banner" class="l-header">
+
+          <!--.top-bar -->
+              <div class="sticky show-for-small">
+            <nav class="top-bar" data-options="custom_back_text:false">
+        <ul class="title-area">
+          <li class="name"><a href="/es" title="Inicio" rel="home"><h1>Casa de la Ciencia</h1></a></li>
+          <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
+        </ul>
+        <section class="top-bar-section">
+                      <ul id="main-menu" class="main-nav left"><li class="first expanded has-dropdown active-trail" title=""><a href="/es/actividades" title="" class="active-trail">Visita</a><ul class="dropdown"><li class="first expanded show-for-small"><a href="/es/actividades" title="" class="active-trail">Visita</a><li class="first leaf active-trail" title=""><a href="/es/actividades" title="" class="active-trail">Agenda de actividades</a></li><li class="leaf active" title=""><a href="/es/planetario" title="" class="active">Planetario</a></li><li class="leaf" title=""><a href="/es/exposiciones" title="">Exposiciones</a></li><li class="leaf" title=""><a href="/es/visitas-guiadas" title="">Visitas Guiadas</a></li><li class="leaf" title=""><a href="/es/talleres" title="">Talleres</a></li><li class="leaf" title=""><a href="/es/papirociencia" title="">Papirociencia</a></li><li class="leaf" title=""><a href="/es/otras-actividades" title="">Otras actividades</a></li><li class="last leaf"><a href="/es/espacio-encuentro">La tienda del Museo</a></li></ul></li><li class="expanded has-dropdown" title=""><a href="/es/horarios-precios" title="">Planifica</a><ul class="dropdown"><li class="expanded show-for-small"><a href="/es/horarios-precios" title="">Planifica</a><li class="first leaf"><a href="/es/donde-estamos">Dónde estamos</a></li><li class="last leaf"><a href="/es/horarios-precios">Horarios y precios</a></li></ul></li><li class="expanded has-dropdown"><a href="/es/centros-educativos-1">Participa</a><ul class="dropdown"><li class="expanded show-for-small"><a href="/es/centros-educativos-1">Participa</a><li class="first leaf"><a href="/es/celebra-tu-cumpleanos">Celebra tu cumpleaños</a></li><li class="leaf"><a href="/es/centros-educativos-20262027">Centros educativos</a></li><li class="leaf" title=""><a href="https://www.casadelaciencia.csic.es/es/programa-somos-sociales-202526" title="">Somos Sociales</a></li><li class="leaf"><a href="/es/visitas-privadas">Visitas Privadas</a></li><li class="last leaf" title=""><a href="/es/vacaciones-con-ciencia" title="">Campamento de verano</a></li></ul></li><li class="expanded has-dropdown" title=""><a href="/es/que-es-casa-ciencia" title="">Conócenos</a><ul class="dropdown"><li class="expanded show-for-small"><a href="/es/que-es-casa-ciencia" title="">Conócenos</a><li class="first leaf"><a href="/es/que-es-casa-ciencia">¿Qué es la Casa de la Ciencia?</a></li><li class="leaf"><a href="/es/10-razones-para-visitar-casa-ciencia">10 razones para visitarnos</a></li><li class="leaf"><a href="/es/hola-soy-marino">Hola, soy Marino</a></li><li class="leaf"><a href="/es/coleccion-stickers">Nuestros stickers</a></li><li class="leaf" title="Contacta con nosotros"><a href="https://www.casadelaciencia.csic.es/es/informacion-contacto" title="Contacta con nosotros">Contacto</a></li><li class="leaf"><a href="/es/nuestro-equipo">Nuestro equipo</a></li><li class="last leaf" title=""><a href="/es/blog" title="">Blog</a></li></ul></li><li class="last expanded has-dropdown" title=""><a href="/es/noticias" title="">Actualidad</a><ul class="dropdown"><li class="last expanded show-for-small"><a href="/es/noticias" title="">Actualidad</a><li class="first leaf" title=""><a href="/es/noticias" title="">Noticias</a></li><li class="leaf" title=""><a href="/es/galerias" title="">Galería de imágenes</a></li><li class="leaf" title=""><a href="/es/galeria-videos" title="">Galería de vídeos</a></li><li class="leaf" title=""><a href="/es/documentos" title="">Descargas</a></li><li class="leaf" title=""><a href="/es/enlaces" title="">Enlaces</a></li><li class="last leaf"><a href="/es/redes">Redes</a></li></ul></li></ul>            <ul class="language-switcher-locale-url"><li class="es first active"><a href="/es/planetario" class="language-link active" xml:lang="es">Español</a></li>
+<li class="en last"><a href="/en/planetario" class="language-link" xml:lang="en">English</a></li>
+</ul>                            </section>
+      </nav>
+              </div>
+            <!--/.top-bar -->
+    
+    <!-- Title, slogan and menu -->
+          <section class="full-header-wrapper  hide-for-small">
+        <div class="full-header row">
+        	<div class="logo">
+		        <a href="/es" rel="home" title=" Inicio"><img class="logo" typeof="foaf:Image" src="https://www.casadelaciencia.csic.es/sites/all/themes/casaciencia/logo.png" alt=" logo" title=" Inicio" /></a>            </div>
+            <div class="superfish-menu">
+            	  <section class="block block-superfish block-superfish-1">
+
+      
+      <ul  id="superfish-1" class="menu sf-menu sf-main-menu sf-horizontal sf-style-none sf-total-items-5 sf-parent-items-5 sf-single-items-0"><li id="menu-411-1" class="active-trail first odd sf-item-1 sf-depth-1 sf-total-children-8 sf-parent-children-0 sf-single-children-8 menuparent"><a href="/es/actividades" title="" class="sf-depth-1 menuparent">Visita</a><ul><li id="menu-669-1" class="first odd sf-item-1 sf-depth-2 sf-no-children"><a href="/es/actividades" title="" class="sf-depth-2">Agenda de actividades</a></li><li id="menu-668-1" class="active-trail middle even sf-item-2 sf-depth-2 sf-no-children"><a href="/es/planetario" title="" class="sf-depth-2 active">Planetario</a></li><li id="menu-666-1" class="middle odd sf-item-3 sf-depth-2 sf-no-children"><a href="/es/exposiciones" title="" class="sf-depth-2">Exposiciones</a></li><li id="menu-2064-1" class="middle even sf-item-4 sf-depth-2 sf-no-children"><a href="/es/visitas-guiadas" title="" class="sf-depth-2">Visitas Guiadas</a></li><li id="menu-667-1" class="middle odd sf-item-5 sf-depth-2 sf-no-children"><a href="/es/talleres" title="" class="sf-depth-2">Talleres</a></li><li id="menu-2055-1" class="middle even sf-item-6 sf-depth-2 sf-no-children"><a href="/es/papirociencia" title="" class="sf-depth-2">Papirociencia</a></li><li id="menu-691-1" class="middle odd sf-item-7 sf-depth-2 sf-no-children"><a href="/es/otras-actividades" title="" class="sf-depth-2">Otras actividades</a></li><li id="menu-1639-1" class="last even sf-item-8 sf-depth-2 sf-no-children"><a href="/es/espacio-encuentro" class="sf-depth-2">La tienda del Museo</a></li></ul></li><li id="menu-1161-1" class="middle even sf-item-2 sf-depth-1 sf-total-children-2 sf-parent-children-0 sf-single-children-2 menuparent"><a href="/es/horarios-precios" title="" class="sf-depth-1 menuparent">Planifica</a><ul><li id="menu-648-1" class="first odd sf-item-1 sf-depth-2 sf-no-children"><a href="/es/donde-estamos" class="sf-depth-2">Dónde estamos</a></li><li id="menu-649-1" class="last even sf-item-2 sf-depth-2 sf-no-children"><a href="/es/horarios-precios" class="sf-depth-2">Horarios y precios</a></li></ul></li><li id="menu-413-1" class="middle odd sf-item-3 sf-depth-1 sf-total-children-5 sf-parent-children-0 sf-single-children-5 menuparent"><a href="/es/centros-educativos-1" class="sf-depth-1 menuparent">Participa</a><ul><li id="menu-693-1" class="first odd sf-item-1 sf-depth-2 sf-no-children"><a href="/es/celebra-tu-cumpleanos" class="sf-depth-2">Celebra tu cumpleaños</a></li><li id="menu-2047-1" class="middle even sf-item-2 sf-depth-2 sf-no-children"><a href="/es/centros-educativos-20262027" class="sf-depth-2">Centros educativos</a></li><li id="menu-2050-1" class="middle odd sf-item-3 sf-depth-2 sf-no-children"><a href="https://www.casadelaciencia.csic.es/es/programa-somos-sociales-202526" title="" class="sf-depth-2">Somos Sociales</a></li><li id="menu-2054-1" class="middle even sf-item-4 sf-depth-2 sf-no-children"><a href="/es/visitas-privadas" class="sf-depth-2">Visitas Privadas</a></li><li id="menu-2065-1" class="last odd sf-item-5 sf-depth-2 sf-no-children"><a href="/es/vacaciones-con-ciencia" title="" class="sf-depth-2">Campamento de verano</a></li></ul></li><li id="menu-1257-1" class="middle even sf-item-4 sf-depth-1 sf-total-children-7 sf-parent-children-0 sf-single-children-7 menuparent"><a href="/es/que-es-casa-ciencia" title="" class="sf-depth-1 menuparent">Conócenos</a><ul><li id="menu-695-1" class="first odd sf-item-1 sf-depth-2 sf-no-children"><a href="/es/que-es-casa-ciencia" class="sf-depth-2">¿Qué es la Casa de la Ciencia?</a></li><li id="menu-764-1" class="middle even sf-item-2 sf-depth-2 sf-no-children"><a href="/es/10-razones-para-visitar-casa-ciencia" class="sf-depth-2">10 razones para visitarnos</a></li><li id="menu-860-1" class="middle odd sf-item-3 sf-depth-2 sf-no-children"><a href="/es/hola-soy-marino" class="sf-depth-2">Hola, soy Marino</a></li><li id="menu-2063-1" class="middle even sf-item-4 sf-depth-2 sf-no-children"><a href="/es/coleccion-stickers" class="sf-depth-2">Nuestros stickers</a></li><li id="menu-2057-1" class="middle odd sf-item-5 sf-depth-2 sf-no-children"><a href="https://www.casadelaciencia.csic.es/es/informacion-contacto" title="Contacta con nosotros" class="sf-depth-2">Contacto</a></li><li id="menu-1274-1" class="middle even sf-item-6 sf-depth-2 sf-no-children"><a href="/es/nuestro-equipo" class="sf-depth-2">Nuestro equipo</a></li><li id="menu-1637-1" class="last odd sf-item-7 sf-depth-2 sf-no-children"><a href="/es/blog" title="" class="sf-depth-2">Blog</a></li></ul></li><li id="menu-415-1" class="last odd sf-item-5 sf-depth-1 sf-total-children-6 sf-parent-children-0 sf-single-children-6 menuparent"><a href="/es/noticias" title="" class="sf-depth-1 menuparent">Actualidad</a><ul><li id="menu-696-1" class="first odd sf-item-1 sf-depth-2 sf-no-children"><a href="/es/noticias" title="" class="sf-depth-2">Noticias</a></li><li id="menu-973-1" class="middle even sf-item-2 sf-depth-2 sf-no-children"><a href="/es/galerias" title="" class="sf-depth-2">Galería de imágenes</a></li><li id="menu-1597-1" class="middle odd sf-item-3 sf-depth-2 sf-no-children"><a href="/es/galeria-videos" title="" class="sf-depth-2">Galería de vídeos</a></li><li id="menu-974-1" class="middle even sf-item-4 sf-depth-2 sf-no-children"><a href="/es/documentos" title="" class="sf-depth-2">Descargas</a></li><li id="menu-1277-1" class="middle odd sf-item-5 sf-depth-2 sf-no-children"><a href="/es/enlaces" title="" class="sf-depth-2">Enlaces</a></li><li id="menu-1398-1" class="last even sf-item-6 sf-depth-2 sf-no-children"><a href="/es/redes" class="sf-depth-2">Redes</a></li></ul></li></ul>  
+</section>			</div>  
+        
+        
+                  <nav id="main-menu" class="navigation" role="navigation">
+                      </nav> <!-- /#main-menu -->
+        
+        	  </div>
+      </section>
+        <!-- End title, slogan and menu -->
+
+        
+  	<section class="top-header-wrapper row hide-for-small">
+      <div class="top-header columns large-12">
+	          <section class="block block-locale block-locale-language">
+
+      
+      <ul class="language-switcher-locale-url"><li class="es first active"><a href="/es/planetario" class="language-link active" xml:lang="es">Español</a></li>
+<li class="en last"><a href="/en/planetario" class="language-link" xml:lang="en">English</a></li>
+</ul>  
+</section>  <section class="block block-system block-menu block-system-user-menu">
+
+      
+      <ul class="menu"><li class="first last leaf"><a href="/es/user/login" title="">Mis favoritos</a></li>
+</ul>  
+</section>      </div>
+    </section>
+
+  </header>
+  <!--/.l-header -->
+
+      <!--.featured -->
+    <section class="l-featured row">
+      <div class="large-12">
+                      </div>
+    </section>
+    <!--/.l-featured -->
+  
+  
+  
+  <main role="main" class="row l-main">
+    <div class="large-9 main columns">
+      
+      <a id="main-content"></a>
+
+      <h2 class="element-invisible">Usted está aquí</h2><div class="breadcrumb"><span class="inline odd first"><a href="/es">Inicio</a></span> <span class="delimiter">»</span> <span class="inline even last"><a href="/es/actividades">Visita</a></span></div>
+                      <h1 id="page-title" class="title">Planetario</h1>
+            	          
+                            
+      
+        
+      
+      <div class="view view-exposiciones view-id-exposiciones view-display-id-page_3 view-bloques clearfix view-dom-id-1932e01afc1d184966c2bc74deef757e">
+            <div class="view-header">
+      <p>La Casa de la Ciencia ofrecerá a los visitantes la oportunidad de estar más cerca que nunca de los cuerpos celestes. Se trata del único Planetario que se puede disfrutar en Sevilla. Los vecinos de la capital hispalense ya no tendrán que viajar a otras ciudades cuando quieran vivir la experiencia de conocer la Astronomía a través de las proyecciones de un planetario, sino que podrán visitar La Casa de la Ciencia y explorar muy cerca de sus casas las constelaciones y los astros que pueblan el cosmos.</p>
+<div class="views-exposed-form"><div class="form-type-bef-link"><a href="planetario/sesiones-planetario">Consulta el horario y la programación</a></div></div>
+<div class="views-exposed-form"><div class="form-type-bef-link"><a href="https://www.casadelaciencia.csic.es/media/tabla-edades.pdf" target="_blank" rel="noopener noreferrer">Consulta la edad recomendada para cada actividad</a></div></div>
+    </div>
+  
+      <div class="view-filters">
+      <form class="ctools-auto-submit-full-form" action="/es/planetario" method="get" id="views-exposed-form-exposiciones-page-3" accept-charset="UTF-8"><div><div class="views-exposed-form">
+  <div class="views-exposed-widgets clearfix">
+          <div id="edit-date-filter-wrapper" class="views-exposed-widget views-widget-filter-date_filter">
+                  <label for="edit-date-filter">
+            Fecha          </label>
+                        <div class="views-widget">
+          <div class="form-item form-type-select form-item-date-filter">
+ <div class="bef-select-as-links"><div class="form-item">
+ <div id="edit-date-filter-all" class="form-item form-type-bef-link form-item-edit-date-filter-all">
+ <a href="https://www.casadelaciencia.csic.es/es/planetario?date_filter=All" class="active">Cualquiera</a>
+</div>
+<div id="edit-date-filter-1" class="form-item form-type-bef-link form-item-edit-date-filter-1">
+ <a href="https://www.casadelaciencia.csic.es/es/planetario?date_filter=1">Hoy</a>
+</div>
+<div id="edit-date-filter-2" class="form-item form-type-bef-link form-item-edit-date-filter-2">
+ <a href="https://www.casadelaciencia.csic.es/es/planetario?date_filter=2">Esta semana</a>
+</div>
+<div id="edit-date-filter-3" class="form-item form-type-bef-link form-item-edit-date-filter-3">
+ <a href="https://www.casadelaciencia.csic.es/es/planetario?date_filter=3">Este mes</a>
+</div>
+
+</div>
+<select style="display: none;" id="edit-date-filter" name="date_filter" class="form-select"><option value="All" selected="selected">Cualquiera</option><option value="1">Hoy</option><option value="2">Esta semana</option><option value="3">Este mes</option></select><input type="hidden" class="bef-new-value" name="date_filter" value="All" /></div>
+</div>
+        </div>
+              </div>
+          <div id="edit-field-edad-recomendada-tid-i18n-wrapper" class="views-exposed-widget views-widget-filter-field_edad_recomendada_tid_i18n">
+                  <label for="edit-field-edad-recomendada-tid-i18n">
+            Edad recomendada          </label>
+                        <div class="views-widget">
+          <div class="form-item form-type-select form-item-field-edad-recomendada-tid-i18n">
+ <select id="edit-field-edad-recomendada-tid-i18n" name="field_edad_recomendada_tid_i18n" class="form-select"><option value="All">Cualquiera</option><option value="179">Familias con menores hasta 6 años</option><option value="181">Familias con menores de 6 a 11 años</option><option value="182">Familias con menores de 11 a 18 años</option><option value="183">Adultos</option></select>
+</div>
+        </div>
+              </div>
+                    <div class="views-exposed-widget views-submit-button">
+      <button class="ctools-use-ajax ctools-auto-submit-click js-hide form-submit" id="edit-submit-exposiciones" name="" value="Aplicar" type="submit">Aplicar</button>
+    </div>
+      </div>
+</div>
+</div></form>    </div>
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1">
+      
+  <div class="views-field views-field-field-image">        <div class="field-content"><a href="/es/planetario/cielo-directo"><img typeof="foaf:Image" src="https://www.casadelaciencia.csic.es/sites/default/files/styles/img480x380/public/images/banner_cieloendirecto.jpg?itok=ZqYzbA9a" width="480" height="380" alt="El cielo en directo" title="El cielo en directo" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/es/planetario/cielo-directo">El cielo en directo</a></span>  </div>  
+  <div class="views-field views-field-views-conditional">        <span class="field-content"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2026-09-18T00:00:00+02:00">18 Sep 26</span>- <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2027-06-25T00:00:00+02:00">25 Jun 27</span></span>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"><p>El cielo en directo permite la observación del cielo a través del Stellarium, un programa que muestra una imagen muy realista del cielo en tres...</p></div>  </div>  
+  <div class="views-field views-field-view-node">        <span class="field-content"><a href="/es/planetario/cielo-directo"><img src="/sites/all/themes/casaciencia/images/vermas.png" /></a></span>  </div>  </div>
+  <div class="views-row views-row-2">
+      
+  <div class="views-field views-field-field-image">        <div class="field-content"><a href="/es/proyeccion/3clipse"><img typeof="foaf:Image" src="https://www.casadelaciencia.csic.es/sites/default/files/styles/img480x380/public/images/banner_3clipse.jpg?itok=dgV1Yarp" width="480" height="380" alt="3CLIPSE" title="3CLIPSE" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/es/proyeccion/3clipse">3CLIPSE</a></span>  </div>  
+  <div class="views-field views-field-views-conditional">        <span class="field-content"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2026-09-18T00:00:00+02:00">18 Sep 26</span>- <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2027-06-27T00:00:00+02:00">27 Jun 27</span></span>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"><p>Uno de los mayores valores de 3CLIPSE es su carácter colaborativo. El proyecto ha logrado reunir a 35 planetarios, museos y centros de divulgación...</p></div>  </div>  
+  <div class="views-field views-field-view-node">        <span class="field-content"><a href="/es/proyeccion/3clipse"><img src="/sites/all/themes/casaciencia/images/vermas.png" /></a></span>  </div>  </div>
+  <div class="views-row views-row-3">
+      
+  <div class="views-field views-field-field-image">        <div class="field-content"><a href="/es/proyeccion/tierra-dinamica"><img typeof="foaf:Image" src="https://www.casadelaciencia.csic.es/sites/default/files/styles/img480x380/public/images/tierra-dinamica.png?itok=XM_E_X6K" width="480" height="380" alt="Tierra Dinámica" title="Tierra Dinámica" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/es/proyeccion/tierra-dinamica">Tierra Dinámica</a></span>  </div>  
+  <div class="views-field views-field-views-conditional">        <span class="field-content"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2026-09-19T00:00:00+02:00">19 Sep 26</span>- <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2027-06-26T00:00:00+02:00">26 Jun 27</span></span>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"><p>Esta proyección de planetario, una película creada en colaboración con la NASA, el NCSA y el Denver Museum of Nature &amp; Science, muestra cómo...</p></div>  </div>  
+  <div class="views-field views-field-view-node">        <span class="field-content"><a href="/es/proyeccion/tierra-dinamica"><img src="/sites/all/themes/casaciencia/images/vermas.png" /></a></span>  </div>  </div>
+  <div class="views-row views-row-4">
+      
+  <div class="views-field views-field-field-image">        <div class="field-content"><a href="/es/proyeccion/mas-alla-sol"><img typeof="foaf:Image" src="https://www.casadelaciencia.csic.es/sites/default/files/styles/img480x380/public/images/beyondthesun.jpg?itok=RhWE9BrY" width="480" height="380" alt="Más allá del Sol: En busca de una nueva Tierra" title="Más allá del Sol: En busca de una nueva Tierra" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/es/proyeccion/mas-alla-sol">Más allá del Sol</a></span>  </div>  
+  <div class="views-field views-field-views-conditional">        <span class="field-content"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2026-09-19T00:00:00+02:00">19 Sep 26</span>- <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2027-06-26T00:00:00+02:00">26 Jun 27</span></span>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"><p>Veremos la importancia de la investigación para el conocimiento del universo y la necesidad de proteger el único mundo habitable conocido que es...</p></div>  </div>  
+  <div class="views-field views-field-view-node">        <span class="field-content"><a href="/es/proyeccion/mas-alla-sol"><img src="/sites/all/themes/casaciencia/images/vermas.png" /></a></span>  </div>  </div>
+  <div class="views-row views-row-5">
+      
+  <div class="views-field views-field-field-image">        <div class="field-content"><a href="/es/proyeccion/caperucita-roja"><img typeof="foaf:Image" src="https://www.casadelaciencia.csic.es/sites/default/files/styles/img480x380/public/images/banner_caperucita.jpg?itok=uQik_Bau" width="480" height="380" alt="Caperucita roja, el telescopio de la abuela" title="Caperucita roja, el telescopio de la abuela" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/es/proyeccion/caperucita-roja">Caperucita roja</a></span>  </div>  
+  <div class="views-field views-field-views-conditional">        <span class="field-content"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2026-09-19T00:00:00+02:00">19 Sep 26</span>- <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2027-06-26T00:00:00+02:00">26 Jun 27</span></span>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"><p>Siguiendo la estructura básica del cuento se ha desarrollado una película didáctica donde el público infantil podrá repasar conocimientos...</p></div>  </div>  
+  <div class="views-field views-field-view-node">        <span class="field-content"><a href="/es/proyeccion/caperucita-roja"><img src="/sites/all/themes/casaciencia/images/vermas.png" /></a></span>  </div>  </div>
+  <div class="views-row views-row-6">
+      
+  <div class="views-field views-field-field-image">        <div class="field-content"><a href="/es/planetario/mirando-cielo"><img typeof="foaf:Image" src="https://www.casadelaciencia.csic.es/sites/default/files/styles/img480x380/public/images/banner_mirandoelcielo.jpg?itok=L44fGJ7l" width="480" height="380" alt="Mirando el cielo" title="Mirando el cielo" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/es/planetario/mirando-cielo">Mirando el cielo</a></span>  </div>  
+  <div class="views-field views-field-views-conditional">        <span class="field-content"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2026-09-19T00:00:00+02:00">19 Sep 26</span>- <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2027-06-26T00:00:00+02:00">26 Jun 27</span></span>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"><p>Mirando el cielo permite la observación del cielo a través del Stellarium, un programa que muestra una imagen muy realista del cielo en tres...</p></div>  </div>  
+  <div class="views-field views-field-view-node">        <span class="field-content"><a href="/es/planetario/mirando-cielo"><img src="/sites/all/themes/casaciencia/images/vermas.png" /></a></span>  </div>  </div>
+  <div class="views-row views-row-7">
+      
+  <div class="views-field views-field-field-image">        <div class="field-content"><a href="/es/proyeccion/dinosaurios"><img typeof="foaf:Image" src="https://www.casadelaciencia.csic.es/sites/default/files/styles/img480x380/public/images/banner_dinosaurios.jpg?itok=MULliC1t" width="480" height="380" alt="Dinosaurios: Una historia de supervivencia" title="Dinosaurios: Una historia de supervivencia" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/es/proyeccion/dinosaurios">Dinosaurios</a></span>  </div>  
+  <div class="views-field views-field-views-conditional">        <span class="field-content"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2026-09-19T00:00:00+02:00">19 Sep 26</span>- <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2027-06-27T00:00:00+02:00">27 Jun 27</span></span>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"><p>Celeste, la inteligente y soñadora niña que nos invitaba a descubrir exoplanetas más allá del sistema Solar regresa a las cúpulas de los...</p></div>  </div>  
+  <div class="views-field views-field-view-node">        <span class="field-content"><a href="/es/proyeccion/dinosaurios"><img src="/sites/all/themes/casaciencia/images/vermas.png" /></a></span>  </div>  </div>
+  <div class="views-row views-row-8">
+      
+  <div class="views-field views-field-field-image">        <div class="field-content"><a href="/es/planetario/un-raton-luna"><img typeof="foaf:Image" src="https://www.casadelaciencia.csic.es/sites/default/files/styles/img480x380/public/images/banner_ratonenlaluna.jpg?itok=ToaS-CHV" width="480" height="380" alt="Un ratón en la luna" title="Un ratón en la luna" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/es/planetario/un-raton-luna">Un ratón en la luna</a></span>  </div>  
+  <div class="views-field views-field-views-conditional">        <span class="field-content"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2026-09-20T00:00:00+02:00">20 Sep 26</span>- <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2027-06-27T00:00:00+02:00">27 Jun 27</span></span>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"><p>El travieso ratón “Ulises”, azote de los tenderos, descubre una noche mirando al cielo una magnifica Luna Llena, confundiéndola con un gigantesco...</p></div>  </div>  
+  <div class="views-field views-field-view-node">        <span class="field-content"><a href="/es/planetario/un-raton-luna"><img src="/sites/all/themes/casaciencia/images/vermas.png" /></a></span>  </div>  </div>
+  <div class="views-row views-row-9">
+      
+  <div class="views-field views-field-field-image">        <div class="field-content"><a href="/es/proyeccion/explorando-sistema-solar-0"><img typeof="foaf:Image" src="https://www.casadelaciencia.csic.es/sites/default/files/styles/img480x380/public/images/banner_explorandosistemasolar.jpg?itok=Wf2Jr09Y" width="480" height="380" alt="Explorando el Sistema Solar" title="Explorando el Sistema Solar" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/es/proyeccion/explorando-sistema-solar-0">Explorando el Sistema Solar</a></span>  </div>  
+  <div class="views-field views-field-views-conditional">        <span class="field-content"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2026-09-20T00:00:00+02:00">20 Sep 26</span>- <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2027-06-27T00:00:00+02:00">27 Jun 27</span></span>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"><p>Un viaje extraordinario que transporta a los participantes por el Sistema Solar descubriendo aspectos hasta ahora desconocidos y que continúa por...</p></div>  </div>  
+  <div class="views-field views-field-view-node">        <span class="field-content"><a href="/es/proyeccion/explorando-sistema-solar-0"><img src="/sites/all/themes/casaciencia/images/vermas.png" /></a></span>  </div>  </div>
+  <div class="views-row views-row-10">
+      
+  <div class="views-field views-field-field-image">        <div class="field-content"><a href="/es/proyeccion/biosfera-oscura"><img typeof="foaf:Image" src="https://www.casadelaciencia.csic.es/sites/default/files/styles/img480x380/public/images/banner_biosferaoscura.jpg?itok=XID-Vv_y" width="480" height="380" alt="Biosfera oscura" title="Biosfera oscura" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/es/proyeccion/biosfera-oscura">Biosfera oscura</a></span>  </div>  
+  <div class="views-field views-field-views-conditional">        <span class="field-content"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2026-09-20T00:00:00+02:00">20 Sep 26</span>- <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2027-06-27T00:00:00+02:00">27 Jun 27</span></span>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"><p>¿Dónde nace la vida? ¿Estamos solos en el universo? La ciencia avanza, las preguntas obtienen su respuesta, pero en las fronteras del conocimiento...</p></div>  </div>  
+  <div class="views-field views-field-view-node">        <span class="field-content"><a href="/es/proyeccion/biosfera-oscura"><img src="/sites/all/themes/casaciencia/images/vermas.png" /></a></span>  </div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>  
+    </div>
+    <!--/.l-main region -->
+
+    
+          <aside role="complementary" class="large-3 l-sidebar-second columns sidebar">
+            <section class="block block-datepicker-block bloque-date-picker block-datepicker-block-0 block-odd clearfix">
+
+        <h2 class="block-title">Planifica tu visita</h2>
+    
+      <form action="/es/planetario" method="post" id="datepicker-block-form" accept-charset="UTF-8"><div><div  class="container-inline-date"><div class="form-item form-type-datepicker form-item-finder">
+ <div id="edit-finder"  class="date-padding clearfix"><div class="form-item form-type-textfield form-item-finder-date">
+ <input type="text" id="edit-finder-datepicker-popup-0" name="finder[date]" value="" size="20" maxlength="30" class="form-text" />
+</div>
+</div>
+</div>
+</div><button id="edit-submit" name="op" value="Buscar" type="submit" class="form-submit">Buscar</button>
+<input type="hidden" name="form_build_id" value="form-LTowG2BMfo-wfTQPrMZzY5p2n9Nq_X6ZEl4wEm5Lhxc" />
+<input type="hidden" name="form_id" value="datepicker_block_form" />
+</div></form>  
+</section>  <section class="block block-views bloque-buscar block-views-exp-search-results-page block-even clearfix">
+
+      
+      <form action="/es/search/node/all" method="get" id="views-exposed-form-search-results-page" accept-charset="UTF-8"><div><div class="views-exposed-form">
+  <div class="views-exposed-widgets clearfix">
+          <div id="edit-keys-wrapper" class="views-exposed-widget views-widget-filter-keys">
+                  <label for="edit-keys">
+            Buscar          </label>
+                        <div class="views-widget">
+          <div class="form-item form-type-textfield form-item-keys">
+ <input title="Escriba lo que quiere buscar." type="text" id="edit-keys" name="keys" value="" size="15" maxlength="128" class="form-text" />
+</div>
+        </div>
+              </div>
+                    <div class="views-exposed-widget views-submit-button">
+      <button id="edit-submit-search-results" name="" value="Aplicar" type="submit" class="form-submit">Aplicar</button>
+    </div>
+      </div>
+</div>
+</div></form>  
+</section>  <section class="block block-block bloque-suscripcion block-block-13 block-odd clearfix">
+
+      
+      <p>¡Manténgase informado de nuestras últimas novedades! Recibirá un correo semanal con todas las actividades del museo</p>
+<p class="boton"><a href="https://www.casadelaciencia.csic.es/es/boletin" title="Suscribirse" style="color: #fff;">Suscribirse</a></p>
+  
+</section>  <section class="block block-views block-views-destacado-block block-even clearfix">
+
+      
+      <div class="view view-destacado view-id-destacado view-display-id-block destacados view-dom-id-94d8ae92c237e4dca9cd99a4820c77fc">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 verde">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="https://www.casadelaciencia.csic.es/es/celebra-tu-cumplea%C3%B1os">Celebra tu cumpleaños con nosotros</a></span>  </div>  
+  <div class="views-field views-field-field-image">        <div class="field-content"><img typeof="foaf:Image" src="https://www.casadelaciencia.csic.es/sites/default/files/images/cumple.jpg" width="1200" height="554" alt="Celebra tu cumpleaños con nosotros" title="Celebra tu cumpleaños con nosotros" /></div>  </div>  
+  <div class="views-field views-field-field-enlace">        <div class="field-content"><a href="https://www.casadelaciencia.csic.es/es/celebra-tu-cumplea%C3%B1os"><img src="/sites/all/themes/casaciencia/images/vermas-negativo.png" /></a></div>  </div>  </div>
+  <div class="views-row views-row-2 naranja">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="https://www.casadelaciencia.csic.es/es/10-razones-para-visitar-casa-ciencia">10 razones para visitar la casa de la ciencia</a></span>  </div>  
+  <div class="views-field views-field-field-image">        <div class="field-content"><img typeof="foaf:Image" src="https://www.casadelaciencia.csic.es/sites/default/files/images/10razones.jpg" width="800" height="580" alt="10 razones para visitar la casa de la ciencia" title="10 razones para visitar la casa de la ciencia" /></div>  </div>  
+  <div class="views-field views-field-field-enlace">        <div class="field-content"><a href="https://www.casadelaciencia.csic.es/es/10-razones-para-visitar-casa-ciencia"><img src="/sites/all/themes/casaciencia/images/vermas-negativo.png" /></a></div>  </div>  </div>
+  <div class="views-row views-row-3 azul">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="https://www.casadelaciencia.csic.es/es/espacio-encuentro">Visita el Espacio de encuentro del museo</a></span>  </div>  
+  <div class="views-field views-field-field-image">        <div class="field-content"><img typeof="foaf:Image" src="https://www.casadelaciencia.csic.es/sites/default/files/images/destacado-welcome.jpg" width="800" height="506" alt="Visita el Espacio de encuentro del museo" title="Visita el Espacio de encuentro del museo" /></div>  </div>  
+  <div class="views-field views-field-field-enlace">        <div class="field-content"><a href="https://www.casadelaciencia.csic.es/es/espacio-encuentro"><img src="/sites/all/themes/casaciencia/images/vermas-negativo.png" /></a></div>  </div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>  
+</section>  <section class="block block-block bloque-suscripcion block-block-14 block-odd clearfix">
+
+      
+      <p>Reclamaciones y sugerencias</p>
+<p class="boton"><a href="https://sede.csic.gob.es/quejas-y-sugerencias" target="_blank" title="Solicitar" style="color: #fff;">Solicitar</a></p>
+  
+</section>  <section class="block block-block bloque-suscripcion block-block-17 block-even clearfix">
+
+      
+      <p>CELEBRA TU CUMPLEAÑOS CON NOSOTROS</p>
+<p class="boton"><a href="https://www.casadelaciencia.csic.es/es/celebra-tu-cumplea%C3%B1os" target="_blank" title="¿Cómo?" style="color: #fff;">¿Cómo?</a></p>
+  
+</section>  <section class="block block-block bloque-buscar block-block-7 block-odd clearfix">
+
+        <h2 class="block-title">Redes Sociales</h2>
+    
+      <p style="text-align: center;"><a href="https://www.casadelaciencia.csic.es/es/redes" target="_blank" title="Siguenos" style="color: #fff; background-color: #7b3e7e; padding: 10px 20px; text-decoration: none; border-radius: 5px;">Siguenos</a></p>
+  
+</section>  <section class="block block-block block-block-22 block-even clearfix">
+
+      
+      <p><img src="/sites/default/files/images/sello-turismocientifico.png" width="480" height="480" style="display: block; margin-top: 20px; margin-left: auto; margin-right: auto;" /></p>
+<p><a href="https://museosdeciencia.es/" target="_blank"> <img src="/sites/default/files/images/amucyte_logo_completo_color.jpg" width="480" style="display: block; margin-left: auto; margin-right: auto;" /></a></p>
+  
+</section>      </aside>
+      </main>
+  <!--/.l-main-->
+  
+      <!--.triptych-->
+    <section class="l-triptych row">
+      <div class="triptych-first large-12">
+            <section class="block block-block logos block-block-3">
+
+      
+      <div style="background-color: #d7c5d8; padding: 15px; border-radius: 10px; margin-bottom: 30px; display: flex; justify-content: center; align-items: center; gap: 20px; flex-wrap: wrap;"><a href="https://www.instagram.com/casacienciasevilla_csic/" target="_blank" title="Instagram" style="display: flex; align-items: center;" rel="noopener"> <img src="https://delegacion.andalucia.csic.es/recursos/redes-pie-web/instagram.png" alt="Instagram" style="height: 38px; width: 38px; border: none;" /></a> <a href="https://bsky.app/profile/casacienciasevcsic.bsky.social" target="_blank" title="Bluesky" style="display: flex; align-items: center;" rel="noopener"> <img src="https://delegacion.andalucia.csic.es/recursos/redes-pie-web/bluesky.png" alt="Bluesky" style="height: 38px; width: 38px; border: none;" /></a> <a href="https://www.facebook.com/casacienciasevillaCSIC" target="_blank" title="Facebook" style="display: flex; align-items: center;" rel="noopener"> <img src="https://delegacion.andalucia.csic.es/recursos/redes-pie-web/facebook.png" alt="Facebook" style="height: 38px; width: 38px; border: none;" /></a> <a href="https://www.tiktok.com/@casacienciasevilla_csic" target="_blank" title="TikTok" style="display: flex; align-items: center;" rel="noopener"> <img src="https://delegacion.andalucia.csic.es/recursos/redes-pie-web/tiktok.png" alt="TikTok" style="height: 38px; width: 38px; border: none;" /></a> <a href="https://www.youtube.com/@CasaCienciaSevilla" target="_blank" title="YouTube" style="display: flex; align-items: center;" rel="noopener"> <img src="https://delegacion.andalucia.csic.es/recursos/redes-pie-web/youtube.png" alt="YouTube" style="height: 38px; width: 38px; border: none;" /></a> <a href="https://www.linkedin.com/company/casa-de-la-ciencia-de-sevilla-csic" target="_blank" title="LinkedIn" style="display: flex; align-items: center;" rel="noopener"> <img src="https://delegacion.andalucia.csic.es/recursos/redes-pie-web/linke.png" alt="LinkedIn" style="height: 38px; width: 38px; border: none;" /></a></div>
+<div style="text-align: center;"><img src="/sites/default/files/images/logo-museo-cdlc2024.png" alt="Logos institucionales Casa de la Ciencia" width="1200" height="168" style="max-width: 100%; height: auto;" /></div>
+  
+</section>      </div>
+      <!--
+      <div class="triptych-middle large-4 columns">
+              </div>
+      <div class="triptych-last large-4 columns">
+              </div>
+    -->      
+    </section>
+    <!--/.triptych -->
+  
+      <!--.l-footer-->
+    <section class="row l-footer-columns">
+              <div class="footer-first large-2 columns">
+              <section class="block block-menu-block block-menu-block-1">
+
+        <h2 class="block-title">Visita</h2>
+    
+      <div class="menu-block-wrapper menu-block-1 menu-name-main-menu parent-mlid-411 menu-level-1">
+  <ul class="menu"><li class="first leaf menu-mlid-669"><a href="/es/actividades" title="">Agenda de actividades</a></li>
+<li class="leaf active-trail active menu-mlid-668"><a href="/es/planetario" title="" class="active-trail active">Planetario</a></li>
+<li class="leaf menu-mlid-666"><a href="/es/exposiciones" title="">Exposiciones</a></li>
+<li class="leaf menu-mlid-2064"><a href="/es/visitas-guiadas" title="">Visitas Guiadas</a></li>
+<li class="leaf menu-mlid-667"><a href="/es/talleres" title="">Talleres</a></li>
+<li class="leaf menu-mlid-2055"><a href="/es/papirociencia" title="">Papirociencia</a></li>
+<li class="leaf menu-mlid-691"><a href="/es/otras-actividades" title="">Otras actividades</a></li>
+<li class="last leaf menu-mlid-1639"><a href="/es/espacio-encuentro">La tienda del Museo</a></li>
+</ul></div>
+  
+</section>        </div>
+                    <div class="footer-second large-2 columns">
+              <section class="block block-menu-block block-menu-block-2">
+
+        <h2 class="block-title">Planifica</h2>
+    
+      <div class="menu-block-wrapper menu-block-2 menu-name-main-menu parent-mlid-1161 menu-level-1">
+  <ul class="menu"><li class="first leaf menu-mlid-648"><a href="/es/donde-estamos">Dónde estamos</a></li>
+<li class="last leaf menu-mlid-649"><a href="/es/horarios-precios">Horarios y precios</a></li>
+</ul></div>
+  
+</section>        </div>
+                    <div class="footer-third large-3 columns">
+              <section class="block block-menu-block block-menu-block-3">
+
+        <h2 class="block-title">Participa</h2>
+    
+      <div class="menu-block-wrapper menu-block-3 menu-name-main-menu parent-mlid-413 menu-level-1">
+  <ul class="menu"><li class="first leaf menu-mlid-693"><a href="/es/celebra-tu-cumpleanos">Celebra tu cumpleaños</a></li>
+<li class="leaf menu-mlid-2047"><a href="/es/centros-educativos-20262027">Centros educativos</a></li>
+<li class="leaf menu-mlid-2050"><a href="https://www.casadelaciencia.csic.es/es/programa-somos-sociales-202526" title="">Somos Sociales</a></li>
+<li class="leaf menu-mlid-2054"><a href="/es/visitas-privadas">Visitas Privadas</a></li>
+<li class="last leaf menu-mlid-2065"><a href="/es/vacaciones-con-ciencia" title="">Campamento de verano</a></li>
+</ul></div>
+  
+</section>        </div>
+                    <div class="footer-fourth large-3 columns">
+              <section class="block block-menu-block block-menu-block-4">
+
+        <h2 class="block-title">Conócenos</h2>
+    
+      <div class="menu-block-wrapper menu-block-4 menu-name-main-menu parent-mlid-1257 menu-level-1">
+  <ul class="menu"><li class="first leaf menu-mlid-695"><a href="/es/que-es-casa-ciencia">¿Qué es la Casa de la Ciencia?</a></li>
+<li class="leaf menu-mlid-764"><a href="/es/10-razones-para-visitar-casa-ciencia">10 razones para visitarnos</a></li>
+<li class="leaf menu-mlid-860"><a href="/es/hola-soy-marino">Hola, soy Marino</a></li>
+<li class="leaf menu-mlid-2063"><a href="/es/coleccion-stickers">Nuestros stickers</a></li>
+<li class="leaf menu-mlid-2057"><a href="https://www.casadelaciencia.csic.es/es/informacion-contacto" title="Contacta con nosotros">Contacto</a></li>
+<li class="leaf menu-mlid-1274"><a href="/es/nuestro-equipo">Nuestro equipo</a></li>
+<li class="last leaf menu-mlid-1637"><a href="/es/blog" title="">Blog</a></li>
+</ul></div>
+  
+</section>        </div>
+                    <div class="footer-fifth large-2 columns">
+              <section class="block block-menu-block block-menu-block-5">
+
+        <h2 class="block-title">Actualidad</h2>
+    
+      <div class="menu-block-wrapper menu-block-5 menu-name-main-menu parent-mlid-415 menu-level-1">
+  <ul class="menu"><li class="first leaf menu-mlid-696"><a href="/es/noticias" title="">Noticias</a></li>
+<li class="leaf menu-mlid-973"><a href="/es/galerias" title="">Galería de imágenes</a></li>
+<li class="leaf menu-mlid-1597"><a href="/es/galeria-videos" title="">Galería de vídeos</a></li>
+<li class="leaf menu-mlid-974"><a href="/es/documentos" title="">Descargas</a></li>
+<li class="leaf menu-mlid-1277"><a href="/es/enlaces" title="">Enlaces</a></li>
+<li class="last leaf menu-mlid-1398"><a href="/es/redes">Redes</a></li>
+</ul></div>
+  
+</section>        </div>
+	           
+    </section>
+    <!--/.footer-columns-->
+  
+ <!--.l-footer-->
+  <footer class="l-footer row" role="contentinfo">
+          <div class="footer large-12 columns">
+            <section class="block block-block block-block-19">
+
+      
+      <p> </p>
+<p style="text-align: center;">Museo Casa de la Ciencia de Sevilla - CSIC<br />Avda. Mª Luisa, S/N, Pabellón de Perú, 41013 - Sevilla (España)<br /><a href="tel:+34954232349">+34 954 23 23 49</a> | <a href="https://www.casadelaciencia.csic.es/es/informacion-contacto">Contacto</a></p>
+  
+</section>  <section class="block block-menu menu-pie block-menu-menu-pie-pagina">
+
+      
+      <ul class="menu"><li class="first leaf"><a href="/es/que-es-casa-ciencia" title="">Sobre nosotros</a></li>
+<li class="leaf"><a href="/es/politica-privacidad" title="">Política de privacidad</a></li>
+<li class="leaf"><a href="http://www.descubrecomunicacion.com/" title="">Descubre Comunicación</a></li>
+<li class="leaf"><a href="http://reservas.casadelaciencia.csic.es" title="">ACCESO EXTERNO</a></li>
+<li class="last leaf"><a href="https://sede.csic.gob.es/quejas-y-sugerencias" title=" Formulario oficial  CSIC, Quejas, reclamaciones y sugerencias con o sin certificado digital">Reclamaciones y Sugerencias</a></li>
+</ul>  
+</section>      </div>
+    
+      </footer>
+  <!--/.footer-->
+
+  </div>
+<!--/.page -->
+  <script src="https://www.casadelaciencia.csic.es/sites/all/modules/eu_cookie_compliance/js/eu_cookie_compliance.js?synrej"></script>
+    <script>
+    (function ($, Drupal, window, document, undefined) {
+      $(document).foundation();
+    })(jQuery, Drupal, this, this.document);
+  </script>  
+</body>
+</html>

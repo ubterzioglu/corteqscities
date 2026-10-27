@@ -7,6 +7,8 @@ Plan: `C:\Users\baris-terzioglu\.claude\plans\linear-inventing-thacker.md`.
 1. Şehirler SIRAYLA yapılır. İki şehir aynı anda yürütülmez (kalite düşüyor). Kullanıcı bir şehir adı verince o şehir bitmeden diğerine geçilmez.
 2. Deneme, ana akışın yerine geçmez: şehir paketi her zamanki `city-pack` zinciriyle üretilir; bu belge yalnız ülke/bölge paketini kurmayı ve şehre uygulamayı anlatır.
 3. Ülke paketi kendi küçük manifest'iyle kurulur (`ROOT\ulke\ES\pack.json`); şehir manifest'ine faz eklenmez.
+4. **Editörün yazdığı her cümle bağımsız denetimden geçer, atlanamaz.** Editörden sonra değişen kartlar ikinci bir denetçiye (yazar ve editör olmayan) gider; "yalnız script denetimi" (alıntı kaynakta var) yetmez. Emsal: İspanya oturum kartlarında editör sonrası denetim yapılmadı (`ulke\ES\acik_konular.md`); izin yenileme, arraigo ve Libro de Familia kartları hatalı kaldı ve Sevilla ile Málaga'ya taşındı (Sevilla dış denetimi S02, S03, S05).
+5. Denetim dosyaları (`*_iddia.jsonl`, `*_karar.jsonl`, `*_degisiklik.jsonl`) paketin `_is\denetim\` klasöründe saklanır, silinmez: şehir teslimindeki iddia defteri (`iddia_defteri`) paket kartlarının denetimini oradan gösterir. İspanya paketinde bu dosyalar yok; 49 Sevilla kartı defterde "denetlenmemiş" görünüyor.
 
 ## Paket düzeni (`ROOT\ulke\ES\`, bölge için `bolge\<ad>\` altında aynısı)
 - `pack.json`: `{country, version, built, cards: {slug: {sha256, valid_until}}}`
@@ -35,7 +37,7 @@ $DU = "<corteqs-skills>\deneme_ulke_paketi"
 - `pack_check` şehir adı taraması ülkeye göre (`CITIES_BY_COUNTRY`, yol `ulke\<ISO>` ile seçilir). `pack_check` ve `merge_package` alıntı karşılaştırması yumuşak tireyi (U+00AD) ve sıfır genişlikli karakterleri yok sayar (Alman resmî sayfalarında tireleme yaygın).
 - Keşifte ders: ajanlar sayfayı WebFetch değil düz indirme + etiket ayıklama ile okuyup `must_contain`'i öyle doğruladı; 11 konuda 264 adayın 261'i `add_sources`'ta kabul edildi. Windows sertifika deposu bazı Alman sitelerinin ara sertifikasını ilk denemede tanımadı (`tls` hatası); `curl` ile bir kez açılınca Python da açtı → `--retry-transient` ile ikinci deneme yeter.
 - Editör kuralı genişletildi: ciddi/orta bulgu için editör `add_sources` ile kaynak ekleyebilir (kart başına 2 sınırı korunarak); küçük bulgu için eklemez.
-- Bölge (eyalet) paketi yok; şehir sırası ve eyalet dağılımı `ROOT\ALMANYA_YENI_SEHIR.md`.
+- Bölge (eyalet) paketi yok; şehir sırası ve eyalet dağılımı `ROOT\belgeler\tarifler\ALMANYA_YENI_SEHIR.md`.
 
 ## Bölge paketi (`ROOT\ulke\ES\bolge\<ad>\`)
 - Aynı düzen ve aynı akış (keşif → `add_sources` → yazar → `pack_check` → bağımsız denetim → editör). Çalışma klasörü `bolge\<ad>\_is\`; kaynak kimliği `add_sources --city-id es-<kısa>` ile (ör. `es-an:kaynak:001`), ulusal kimliklerle çakışmaz.

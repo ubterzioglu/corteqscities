@@ -63,7 +63,7 @@ def test_city_pack_intake_uses_atinc_file_or_derives_the_template():
     out = re.search(r"--out (\S+)", command.args)[1]
     assert command.text in intake and re.fullmatch(r"\$WORK\\_is\\\w+\\CITY-<[^<>]+>_<city_id>_v001\.xlsx", out), out
     assert PureWindowsPath(ns.base).name == "CITY-000_berlin_ornek_v001.xlsx"
-    needed = ("ekler*", r"references\sablon_turetme.md", r"`_is\sablon.xlsx`", "SHA-256", "900+", "YEREL DENEME",
+    needed = ("ekler\\<city_id>\\", r"references\sablon_turetme.md", r"`_is\sablon.xlsx`", "SHA-256", "900+", "YEREL DENEME",
               "`priority` = 3", "`open_items`")
     assert [phrase for phrase in needed if phrase not in intake] == []
     assert make_template.LOCAL_TRIAL_FROM == 900 and "YEREL DENEME" in make_template.LOCAL_TRIAL_NOTE
@@ -321,8 +321,11 @@ def test_city_pack_run_log_note_is_built_by_the_skill():
               "`hitap.txt`", "`--score`", "$_.Directory.Name -ne $CITY")
     assert [phrase for phrase in needed if phrase not in rule] == [], rule
     assert "Geliştirmeyle karışık" not in text
-    pack = _containing(_section(text, "### 1. intake"), "Ülke paketi (`manifest.country_pack`")
-    assert "skill kurmaz" in pack and "`ülke paketi: yok`" in pack, pack
+    # Baris karari 25.10.2026: ulke paketi ROOT\ulke\<ISO>'da varsa otomatik kullanilir; skill paketi kendisi kurmaz.
+    pack = _containing(_section(text, "### 1. intake"), "**Ülke paketi (otomatik")
+    needed = (r"`ROOT\ulke\<ISO>\pack.json`", "`manifest.country_pack`", "skill paket kurmaz", "`ülke paketi: yok`",
+              "ULKE_FAZI.md", "yazarlardan önce")
+    assert [phrase for phrase in needed if phrase not in pack] == [], pack
 
 
 def test_city_pack_description_triggers_on_a_bare_city_name():

@@ -1,0 +1,11 @@
+casa-de-salinas : 7
+casa-de-salinas : 7
+hospital-de-la-santa-caridad : 9
+casa-de-las-sirenas : 20
+palacio-bucarelli : 4
+FOTO_ADAY_BITTI
+Traceback (most recent call last):
+  File "C:\Users\BARIS-~1\AppData\Local\Temp\claude\c--temp-private-corteqs-0000-newera\56c9766a-06a1-495c-9d57-190d48973e42\scratchpad\commons_kat_aday.py", line 36, in <module>
+    for p in d['query']['pages'].values():
+             ~^^^^^^^^^
+KeyError: 'query'

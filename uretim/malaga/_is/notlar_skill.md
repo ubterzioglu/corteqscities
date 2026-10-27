@@ -1,0 +1,5 @@
+# Skill/araç notları — Málaga (kural 14)
+
+- 2026-10-25 | sources | Workflow aracıyla başlatılan 4 keşif ajanı ilk Bash komutunda (python -c ile ilk5.json okuma) 12 dk yanıtsız kaldı; büyük olasılıkla workflow içinde gösterilemeyen izin onayı. Workflow durduruldu, ajanlar Agent aracıyla ve yalnız Read/Write/WebFetch/WebSearch ile yeniden başlatıldı. | SKILL.md kural 12'deki 'Workflow aracı varsa pipeline' önerisine 'alt ajanlar kabuk kullanmasın ya da Agent aracı tercih edilsin' notu; keşif görevindeki python komutu yerine hazır metin dosyası (ulke_kart_sorulari.md) verilsin.
+- 2026-10-25 | answers | Ana döngüde PowerShell betiğinde $py değişkeni $PY'yi ezdi (Sevilla'daki tuzağın aynısı). | Skill örneklerine 'betik metnini $py adlı değişkende tutma' uyarısı.
+- 2026-10-25 | answers | Agent aracıyla başlatılan yazarlarda PowerShell/add_sources çalıştı (snap_aile-yazar1..3, snap_gunluk-yazar1); takılma yalnız Workflow ajanlarında görüldü. | Kural 12'deki Workflow önerisini Agent aracına çevir ya da workflow ajanlarına kabuk izni ver.

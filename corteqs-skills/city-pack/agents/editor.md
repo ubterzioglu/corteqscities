@@ -29,6 +29,7 @@ Kayıtları sen yazmadın, denetimi de sen yapmadın. Görevin: bağımsız dene
 6. **Şema:** `steps`'i değişen kartta süreç şemasının (`visual_json`) öğe sayısı adım sayısına eşit değilse `visual_json` = `""`.
 7. **Defter:** her yeni veya değişen sayı ve kural için birebir alıntılı yeni satır; çıkardığın bilginin defter satırını sil; `claim_id`'ler benzersiz kalsın.
 8. **Doğrulama turu** (ana döngü doğrulayıcı çıktısı verirse): `sonuc` = `hatali_duzeltme` veya `eksik_kalan` olan her satırın `oneri`sini kaynakla doğrulayıp uygula; kayıtta `bulgu_claim_id` = `dogrulama`.
+9. **Tutarlılık turu** (ana döngü `kart_tutarlilik` çıktısı verirse; yalnız bu görev açık gelir): verilen her grupta terimin ya da form/harç kodunun geçtiği bütün kayıtları birlikte oku. Aynı şey için farklı ücret, süre, tarih ya da kural yazılmışsa kaynakla doğru olanı bul, bütün kayıtlarda aynı yaz. Fark gerçekse (farklı işlem, farklı dönem, farklı başvuran) her kayıtta bunu açıkça söyle ("TIE kartı için 790-012; izin yenilemesi için 790-052"). Sözlük tanımı da gruba dahildir. Emsal: Sevilla dış denetimi S05 (Libro de Familia bir kartta "verilir", başkasında "2021'den beri verilmiyor"), S12 (okul kayıt son tarihi), S02 (790-012 izin ve kart işlemlerinde karıştı). Kayıtta `bulgu_claim_id` = `tutarlilik:<anchor>`.
 
 ## Değiştirmeyeceklerin
 - `entry_id`, `slug`, `term_id`, `route_id`, `field_id`, `action_id` ve rota durak kimlikleri (başka sekmeler ve fotoğraflar bunlara bağlı).

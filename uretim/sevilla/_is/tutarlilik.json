@@ -1,0 +1,4422 @@
+{
+  "tool": "kart_tutarlilik",
+  "workbook": "ara.xlsx",
+  "groups": [
+    {
+      "anchor": "tie",
+      "kind": "sozluk",
+      "farkli_deger": [
+        "sure",
+        "ucret"
+      ],
+      "values": {
+        "sure": [
+          "1 ay",
+          "3 ay",
+          "6 ay"
+        ],
+        "ucret": [
+          "10,94 €",
+          "12 €",
+          "12,00 €",
+          "16,08 €",
+          "16,40 €",
+          "17,49 €",
+          "19,30 €",
+          "203,84 €",
+          "21,87 €",
+          "407,71 €",
+          "81,54 €"
+        ]
+      },
+      "mentions": [
+        {
+          "id": "sevilla:ingreso-minimo-vital-ve-cocuk-destegi",
+          "sheet": "Yanıtlar",
+          "row": 10,
+          "sentences": [
+            "Kimlik olarak ülkenin kimlik belgesi, yabancı kimlik kartı (TIE) ya da pasaportunu ver; NIE belgelerde yoksa ayrıca ver.",
+            "Kimlik belgesi: ülkenin kimlik belgesi, yabancı kimlik kartı (TIE) ya da pasaport (ve NIE)"
+          ]
+        },
+        {
+          "id": "sevilla:yabanci-olarak-ev-satin-alma-nie-noter-tapu-vergi",
+          "sheet": "Yanıtlar",
+          "row": 47,
+          "sentences": [
+            "Ev alırken önce yabancı kimlik numarası (NIE) alırsın; başvuru belgeleri ve harç 'NIE nedir, ne işe yarar ve nasıl istenir?' sorusunda, Sevilla'da hangi polis birimine gideceğin 'Sevilla'da TIE ve NIE",
+            "Önce NIE (yabancı kimlik numarası) al: başvuru belgeleri ve harç 'NIE nedir, ne işe yarar ve nasıl istenir?' sorusunda, Sevilla'da hangi polis birimine gideceğin 'Sevilla'da TIE ve NIE işlemleri için "
+          ]
+        },
+        {
+          "id": "sevilla:issizlik-maasi-paro-sepe-basvurusu",
+          "sheet": "Yanıtlar",
+          "row": 92,
+          "sentences": [
+            "AB dışı vatandaş: fotoğraflı TIE (pasaportu da yanında bulundur)"
+          ]
+        },
+        {
+          "id": "sevilla:tie-yabanci-kimlik-karti",
+          "sheet": "Yanıtlar",
+          "row": 125,
+          "sentences": [
+            "TIE (yabancı kimlik kartı) nasıl alınır, ne zamana kadar başvurulur?",
+            "Altı aydan uzun süreli bir vizen ya da izninin olması halinde TIE (Tarjeta de Identidad de Extranjero, yabancı kimlik kartı) hem hakkın hem yükümlülüğündür.",
+            "Güncel resmî tarifeye göre harç: ilk TIE 16,08 euro, yenileme TIE'si 19,30 euro, uzun süreli ikamet TIE'si 21,87 euro."
+          ]
+        },
+        {
+          "id": "sevilla:oturum-izni-yenileme",
+          "sheet": "Yanıtlar",
+          "row": 127,
+          "sentences": [
+            "İzin başvurusunu bitişten önceki iki ay içinde yap (16,40 euro); kartı (TIE) karardan sonra polis biriminde ayrıca alırsın (19,30 euro)",
+            "Çalışmasız geçici oturum izninin yenilenmesi iki ayrı işlemdir: önce izin başvurusu, karar bildirildikten sonra kart (TIE) başvurusu.",
+            "Karar bildirilince bir ay içinde polis biriminde yenilenen kartını (TIE) ayrıca istersin; kart harcı 19,30 euro'dur."
+          ]
+        },
+        {
+          "id": "sevilla:aile-birlesimi-ile-oturum",
+          "sheet": "Yanıtlar",
+          "row": 128,
+          "sentences": [
+            "İspanya'ya girdikten sonra bir ay içinde polis biriminde kimlik kartını (TIE) ayrıca ister; ilk kart harcı 16,08 euro'dur.",
+            "İspanya'ya girdikten sonra bir ay içinde şahsen polis birimine (Comisaría de Policía) başvurup kimlik kartını (TIE) iste; Sevilla'da TIE verilen birim Brigada Provincial de Extranjería y Fronteras'tır",
+            "İzin başvurusu (790 modeli, 052 kodu, 2.1.2 başlığı): 10,94 euro; ilk kart (TIE): 16,08 euro."
+          ]
+        },
+        {
+          "id": "sevilla:kalici-oturum-bes-yil",
+          "sheet": "Yanıtlar",
+          "row": 129,
+          "sentences": [
+            "Önce izin için yabancılar ofisine başvurulur (21,87 euro), kimlik kartı (TIE) izin verildikten sonra ayrıca alınır (21,87 euro)",
+            "Süreç iki ayrı işlemdir: önce izin başvurusu, karardan sonra kimlik kartı (TIE).",
+            "İzin verildikten sonra bir ay içinde kimlik kartını (TIE) polis biriminde ayrıca istersin; kart harcı 21,87 euro'dur."
+          ]
+        },
+        {
+          "id": "sevilla:arraigo-kok-salma-oturumu",
+          "sheet": "Yanıtlar",
+          "row": 130,
+          "sentences": [
+            "Karar çıktıktan sonra kimlik kartını (TIE) polis biriminde ayrıca istersin; ilk kartın harcı 16,08 euro.",
+            "Karar bildirilince bir ay içinde polis biriminde kimlik kartını (TIE) ayrıca iste; Sevilla'da TIE verilen birim Brigada Provincial de Extranjería y Fronteras'tır (Avenida Blas Infante 2, telefon 95428",
+            "İzin verilince ilk kimlik kartı (TIE) harcı: 16,08 euro."
+          ]
+        },
+        {
+          "id": "sevilla:kar-amaci-gutmeyen-oturum-vizesi",
+          "sheet": "Yanıtlar",
+          "row": 132,
+          "sentences": [
+            "Vize verildikten sonra İspanya'ya girişinden itibaren 1 ay içinde yabancılar ofisinde ya da polis karakolunda kimlik kartını (TIE) iste; ilk kart harcı 16,08 euro.",
+            "Sevilla'da TIE verilen birim Brigada Provincial de Extranjería y Fronteras'tır (Avenida Blas Infante 2, telefon 954289715).",
+            "Oturum izni harcı: 790 modeli, 052 kodu, 2.1 başlığı (ilk geçici oturum izni), 2.1.1 alt başlığı (kar amacı gütmeyen oturum; başvuran ve aile bireyleri): 10,94 euro (Orden PJC/617/2025 tarifesi); ilk "
+          ]
+        },
+        {
+          "id": "sevilla:ogrenci-oturumuyla-calisma-hakki",
+          "sheet": "Yanıtlar",
+          "row": 134,
+          "sentences": [
+            "Öğrenci kartı (TIE) işlemlerin için Sevilla'da öğrenci (Estudiantes) işlemleri Brigada Provincial de Extranjería y Fronteras'ta listelenir: Avenida Blas Infante 2, telefon 954289715."
+          ]
+        },
+        {
+          "id": "sevilla:brexit-sonrasi-ingiliz-oturumu",
+          "sheet": "Yanıtlar",
+          "row": 136,
+          "sentences": [
+            "Güncel resmî tarifeye göre 12,00 euro (Çekilme Anlaşması kapsamındaki TIE).",
+            "Sevilla'daki yabancılar ofisinin adresi ve polis randevusunun nasıl alınacağı \"Sevilla Yabancılar Ofisi (Oficina de Extranjería) nerede, izin başvurusu ve polis parmak izi (TIE) randevusu nasıl alınır"
+          ]
+        },
+        {
+          "id": "sevilla:sevilla-tie-nie-polis-birimleri-brigada-extranjeria",
+          "sheet": "Yanıtlar",
+          "row": 139,
+          "sentences": [
+            "Sevilla'da TIE ve NIE işlemleri için hangi polis birimine gidilir?",
+            "TIE ve NIE işlemleri Avenida Blas Infante 2'deki Brigada Provincial de Extranjería y Fronteras'ta listeleniyor; telefon 954289715",
+            "TIE ve NIE işlemleri için Avenida Blas Infante 2'deki Brigada Provincial de Extranjería y Fronteras de Sevilla'ya gidersin (telefon 954289715)."
+          ]
+        },
+        {
+          "id": "sevilla:ab-disi-isverenle-calisma-ve-oturum-izni-cuenta-ajena",
+          "sheet": "Yanıtlar",
+          "row": 141,
+          "sentences": [
+            "Başvuruyu işveren yapar; karar 3 ay, ardından vize, Seguridad Social kaydı ve TIE",
+            "İzin çıkarsa sen bir ay içinde ülkendeki İspanyol konsolosluğundan vize ister, İspanya'ya girdikten sonraki 3 ay içinde Seguridad Social'a kaydedilir ve kayıttan sonraki bir ay içinde TIE için polise ",
+            "Seguridad Social kaydından sonraki bir ay içinde TIE için polise şahsen başvur; Sevilla'daki randevu yolu \"Sevilla Yabancılar Ofisi (Oficina de Extranjería) nerede, izin başvurusu ve polis parmak izi "
+          ]
+        },
+        {
+          "id": "sevilla:ogrenci-kalis-izni-estancia-por-estudios-basvuru-ve-uzatma",
+          "sheet": "Yanıtlar",
+          "row": 142,
+          "sentences": [
+            "Sevilla'daki ofisin adresi ve randevu yolu \"Sevilla Yabancılar Ofisi (Oficina de Extranjería) nerede, izin başvurusu ve polis parmak izi (TIE) randevusu nasıl alınır?\" sorusunda.",
+            "Kalışın 6 aydan uzunsa İspanya'ya girişten itibaren bir ay içinde TIE için oturduğun yerin polis birimine (Comisaría) şahsen başvur (Sevilla'daki birim için \"Sevilla'da TIE ve NIE işlemleri için hangi",
+            "1 ay içinde bildirim gelmezse başvuru reddedilmiş sayılır; olumlu kararın bildiriminden sonra bir ay içinde TIE iste."
+          ]
+        },
+        {
+          "id": "sevilla:sevilla-yabancilar-ofisi-oficina-de-extranjeria-ve-polis-randevusu",
+          "sheet": "Yanıtlar",
+          "row": 143,
+          "sentences": [
+            "Sevilla Yabancılar Ofisi (Oficina de Extranjería) nerede, izin başvurusu ve polis parmak izi (TIE) randevusu nasıl alınır?",
+            "Plaza de España, Torre Norte; izin başvurusu çevrim içi, TIE için polis randevusu cita previa sayfasından",
+            "TIE'nin çıkarılması (parmak izi) ve teslimi için polis randevusu devletin cita previa (ICP) sayfasından alınır; aynı sayfanın polis işlemleri bölümü TIE randevusu için sevilla.oue@policia.es e-postası"
+          ]
+        },
+        {
+          "id": "sevilla:tasinma-oncesi-vize-ve-ilk-oturum-izni",
+          "sheet": "Yanıtlar",
+          "row": 165,
+          "sentences": [
+            "İspanya'ya girdikten sonra 1 ay içinde yabancı kimlik kartını (TIE, Tarjeta de Identidad de Extranjero) istemen gerekir.",
+            "İspanya'ya girdiğin tarihten itibaren 1 ay içinde Oficina de Extranjeros'a (yabancılar bürosu) ya da ilgili Comisaría de Policía'ya başvurup TIE iste."
+          ]
+        },
+        {
+          "id": "sevilla:ab-disindan-gelirken-esya-ve-nakit-gumruk-beyani",
+          "sheet": "Yanıtlar",
+          "row": 168,
+          "sentences": [
+            "Eski ikametinden kayıt silme belgeni, TIE başvurunu ya da kartını ve eşya listeni hazırla; önceki ikametini göstermek için herhangi bir belge kullanılabilir.",
+            "TIE başvurusu ya da TIE kartı (AB ve AEA dışı uyruklular için)"
+          ]
+        },
+        {
+          "id": "sevilla:sevilla-varistan-sonra-ilk-hafta-resmi-isler-sirasi",
+          "sheet": "Yanıtlar",
+          "row": 183,
+          "sentences": [
+            "Padrón, TIE ya da NIE randevusu, banka, sağlık kartı ve telefon hattı için kontrol listesi",
+            "Önerilen sıra şöyle: önce belediyede adres kaydı (padrón, empadronamiento), sonra polis randevusu (AB dışından geliyorsan TIE ya da NIE için; AB vatandaşıysan AB vatandaşı kayıt belgesi, certificado d",
+            "Sevilla'da yabancı kimlik kartının (TIE) çıkarılması ve teslimi, NIE ataması ve AB vatandaşı kayıt belgesi polis randevusuyla yapılır; bu yüzden randevuyu ilk günlerde ara."
+          ]
+        },
+        {
+          "id": "sevilla:fnmt-dijital-sertifika-kurma",
+          "sheet": "Yanıtlar",
+          "row": 192,
+          "sentences": [
+            "AB dışı yabancıysan ofise NIE'nin yazılı olduğu yabancı kimlik kartını (TIE) ya da NIF/NIE veriliş belgesini pasaportunla birlikte götürürsün.",
+            "AB dışı yabancı: NIE'nin yazılı olduğu kırmızı, yeşil ya da beyaz yabancı kimlik kartı (TIE) ya da NIF/NIE veriliş belgesi; yanında pasaport"
+          ]
+        },
+        {
+          "id": "sevilla:term:004",
+          "sheet": "Sözlük",
+          "row": 11,
+          "sentences": [
+            "TIE (yabancı kimlik kartı)",
+            "Polis sitesinde ilk oturum izni TIE'si için 16,08 €, yenileme TIE'si için 19,30 € harç yazıyor; SEPE gibi yerlerde AB dışı kişiden fotoğraflı TIE istenir."
+          ]
+        }
+      ]
+    },
+    {
+      "anchor": "registro civil",
+      "kind": "sozluk",
+      "farkli_deger": [
+        "sure",
+        "tarih"
+      ],
+      "values": {
+        "sure": [
+          "10 gun",
+          "180 gun",
+          "9 gun"
+        ],
+        "tarih": [
+          "26 ekim",
+          "3 mart"
+        ]
+      },
+      "mentions": [
+        {
+          "id": "sevilla:ingreso-minimo-vital-ve-cocuk-destegi",
+          "sheet": "Yanıtlar",
+          "row": 10,
+          "sentences": [
+            "Çocukların için libro de familia ya da Registro Civil'in verdiği doğum belgesini ekle.",
+            "Libro de familia ya da Registro Civil doğum belgesi (çocuklar için)"
+          ]
+        },
+        {
+          "id": "sevilla:sevilla-yenidogan-bebek-nufus-kaydi-registro-civil",
+          "sheet": "Yanıtlar",
+          "row": 17,
+          "sentences": [
+            "Sevilla'da doğan bebeğin nüfus kaydı (Registro Civil) nerede ve hangi şartlarla yapılır?",
+            "Sevilla'da hastanede, klinikte ya da başka bir sağlık kuruluşunda doğan bebeğin kaydı şöyle yürür: kuruluş doğumu 72 saat içinde Registro Civil'e elektronik olarak bildirir (Ley 20/2011 md.",
+            "Junta de Andalucía'ya göre elektronik kaydın açık olduğu sağlık merkezlerinde çoğu durumda Registro Civil ofisine gitmek gerekmez."
+          ]
+        },
+        {
+          "id": "sevilla:sevilla-dogum-sonrasi-saglik-sosyal-guvenlik-ve-padron-adimlari",
+          "sheet": "Yanıtlar",
+          "row": 18,
+          "sentences": [
+            "Sonra sırayla: sağlık merkezinde randevular (lohusa ziyareti doğumdan 5-9 gün sonra ve bebeğin sağlık izlem programı), yaklaşık üçüncü günde topuk testi, Registro Civil kaydı, bebeğin, sağlık güvences",
+            "Bebeği Registro Civil'e kaydettir; telematik kaydı olan hastanelerde kayıt başvurusu doğrudan hastaneden yapılır ve çoğu durumda ofise gitmen gerekmez.",
+            "Kayıt süresi, Sevilla'daki ofis ve verilen belge için \"Sevilla'da doğan bebeğin nüfus kaydı (Registro Civil) nerede ve hangi şartlarla yapılır?\" sorusuna bak."
+          ]
+        },
+        {
+          "id": "sevilla:sevilla-okul-yeri-yetersizse-puanlama-ve-oncelik-kriterleri",
+          "sheet": "Yanıtlar",
+          "row": 22,
+          "sentences": [
+            "Libro de familia Sevilla'da 3 Mart 2025'ten beri yeni verilmiyor; Registro Civil yerine doğum sertifikası (certificación) veriyor"
+          ]
+        },
+        {
+          "id": "sevilla:familia-numerosa-unvani-alma-yenileme-ve-sevilla-basvurusu",
+          "sheet": "Yanıtlar",
+          "row": 25,
+          "sentences": [
+            "Libro de Familia Sevilla'da 3 Mart 2025'ten beri yeni verilmiyor; Registro Civil yerine doğum ve evlilik sertifikası (certificación) veriyor"
+          ]
+        },
+        {
+          "id": "sevilla:emvisesa-ppr-2026-kira-yardimi",
+          "sheet": "Yanıtlar",
+          "row": 40,
+          "sentences": [
+            "Libro de Familia Sevilla'da 3 Mart 2025'ten beri yeni verilmiyor; Registro Civil yerine doğum ve evlilik sertifikası veriyor."
+          ]
+        },
+        {
+          "id": "sevilla:ispanyol-vatandasligi-basvurusu",
+          "sheet": "Yanıtlar",
+          "row": 135,
+          "sentences": [
+            "Karar olumluysa bildirimden sonraki 180 gün içinde Registro Civil'de Kral'a bağlılık ve Anayasa'ya ve yasalara uyma yemini ya da sözünü ver (14 yaşından büyüksen), gerekiyorsa önceki vatandaşlıktan va"
+          ]
+        },
+        {
+          "id": "sevilla:libro-de-familia-nedir",
+          "sheet": "Yanıtlar",
+          "row": 195,
+          "sentences": [
+            "Sevilla'daki Registro Civil ofisleri 3 Mart 2025'ten beri DICIREG'li: Libro de Familia verilmez, sertifika verilir",
+            "Sevilla'da Libro de Familia (aile cüzdanı) artık verilmiyor: Sevilla'daki Registro Civil ofisleri 3 Mart 2025'ten beri DICIREG (elektronik sivil sicil sistemi) ile çalışıyor ve DICIREG'li ofislerde Li",
+            "Libro de Familia, eski Registro Civil (medeni hâl sicili) sisteminde verilen belgedir; Ley 20/2011 (Registro Civil Yasası) herkese açık, ücretsiz, İspanya genelinde tek, elektronik ve birlikte çalışab"
+          ]
+        },
+        {
+          "id": "sevilla:registro-civil-ne-ise-yarar",
+          "sheet": "Yanıtlar",
+          "row": 196,
+          "sentences": [
+            "Registro Civil (medeni hâl sicili) ne işe yarar?",
+            "Registro Civil, kişilerin medeni hâline ilişkin olayların kaydedildiği sicildir: doğum, soybağı, ad ve soyad ile değişiklikleri, uyruk ve vecindad, velayet ve vesayet, evlilik, ölüm gibi.",
+            "Sertifikaları ilgili Registro Civil ofisinden yüz yüze ya da Adalet Bakanlığı'nın elektronik sedesinden alabilirsin."
+          ]
+        },
+        {
+          "id": "sevilla:sevilla-registro-civil-adres-ve-telefonlar",
+          "sheet": "Yanıtlar",
+          "row": 205,
+          "sentences": [
+            "Sevilla'da Registro Civil nerede, hangi numaralardan ulaşılır?",
+            "Registro Civil Exclusivo Nº 1 de Sevilla: C/ Vermondo Resta s/n, 41018; genel bilgi 955 51 00 56",
+            "Sevilla şehrinin Registro Civil'i (medeni hâl sicili) Registro Civil Exclusivo Nº 1 de Sevilla'dır (3 Mart 2025'ten beri resmî adı Oficina General del Registro Civil de Sevilla); adresi C/ Vermondo Re"
+          ]
+        },
+        {
+          "id": "sevilla:endulus-saglik-karti-tarjeta-sanitaria-ve-aile-hekimi-secimi",
+          "sheet": "Yanıtlar",
+          "row": 213,
+          "sentences": [
+            "Libro de Familia Sevilla'da 3 Mart 2025'ten beri yeni verilmiyor; kaydı yapılan bebek için Registro Civil kaydın sertifikasını (certificación de nacimiento) veriyor"
+          ]
+        },
+        {
+          "id": "sevilla:term:012",
+          "sheet": "Sözlük",
+          "row": 19,
+          "sentences": [
+            "DICIREG (elektronik sivil sicil sistemi) devreye girmiş Registro Civil ofislerinde yeni libro de familia düzenlenmez, yerine doğum ve evlilik sertifikası verilir; DICIREG'e geçmemiş ofislerde ise libr",
+            "Sevilla'daki Registro Civil ofisleri 3 Mart 2025'ten beri DICIREG ile çalışır, yani Sevilla'da yeni libro de familia verilmez."
+          ]
+        },
+        {
+          "id": "sevilla:term:013",
+          "sheet": "Sözlük",
+          "row": 20,
+          "sentences": [
+            "Registro Civil (sivil kayıt dairesi)"
+          ]
+        }
+      ]
+    },
+    {
+      "anchor": "fianza",
+      "kind": "sozluk",
+      "farkli_deger": [
+        "sure",
+        "tarih"
+      ],
+      "values": {
+        "sure": [
+          "5 yil",
+          "7 yil"
+        ],
+        "tarih": [
+          "23 ocak",
+          "24 ocak",
+          "6 ekim",
+          "8 ekim"
+        ],
+        "ucret": [
+          "150 €"
+        ]
+      },
+      "mentions": [
+        {
+          "id": "sevilla:kira-depozitosu-fianza-ve-iade",
+          "sheet": "Yanıtlar",
+          "row": 27,
+          "sentences": [
+            "İspanya'da kira depozitosu (fianza) ne kadardır ve nasıl geri alınır?",
+            "Konutta fianza bir aylık kiradır; bakiye anahtar tesliminden bir ay sonra iade edilmemişse yasal faiz işler; fianza dışında ek güvence de kararlaştırılabilir",
+            "Konutta fianza bir aylık kiradır ve sözleşme yapılırken para olarak verilmesi zorunludur."
+          ]
+        },
+        {
+          "id": "sevilla:kiralik-evden-cikis-ve-ihbar-suresi",
+          "sheet": "Yanıtlar",
+          "row": 30,
+          "sentences": [
+            "Kiraya veren, çıkıştan sonra iade etmesi gereken fianza bakiyesini anahtar tesliminden itibaren bir ay içinde iade etmezse bakiye yasal faiz işler.",
+            "Anahtarları teslim ederken teslim tarihini not et; fianza bakiyesi bir ay içinde iade edilmezse yasal faiz işler."
+          ]
+        },
+        {
+          "id": "sevilla:endulus-kira-depozitosu-fianza-avra-yatirma-zorunlulugu",
+          "sheet": "Yanıtlar",
+          "row": 32,
+          "sentences": [
+            "Endülüs'te kira depozitosu (fianza) AVRA'ya yatırılır mı: 24 Ocak 2026 öncesi ve sonrası sözleşmeler"
+          ]
+        },
+        {
+          "id": "sevilla:sevilla-kira-referans-fiyat-haritasi-ipra",
+          "sheet": "Yanıtlar",
+          "row": 37,
+          "sentences": [
+            "EMVISESA'nın duyurusuna göre IPRA, kiracının fiilen ödediği kiraya dayanır ve veri olarak AVRA'ya yasal olarak yatırılması gereken depozitoyu (fianza) esas alır; POA ise ev sahiplerinin ilanda istediğ"
+          ]
+        },
+        {
+          "id": "sevilla:avra-eski-fianza-iade-basvurusu-model-810",
+          "sheet": "Yanıtlar",
+          "row": 44,
+          "sentences": [
+            "Eski kira depozitosunu (fianza) AVRA'dan geri almak: Model 810 formu, belgeler ve bir aylık süre",
+            "23 Ocak 2026'ya kadar yapılan sözleşmelerde yatırılan fianza, başvuruyu yapan kiraya verene bir ay içinde iade edilir",
+            "Endülüs'te 23 Ocak 2026'ya (dahil) kadar yapılan kira sözleşmelerinde depozito (fianza) AVRA'ya (Endülüs Konut ve Yenileme Ajansı) yatırılıyordu."
+          ]
+        },
+        {
+          "id": "sevilla:sevilla-kiralik-ev-ararken-dikkat-ve-guvence-sinirlari",
+          "sheet": "Yanıtlar",
+          "row": 45,
+          "sentences": [
+            "Depozito (fianza) bir aylık kiradır; ev sahibi ek güvence de isteyebilir, ama 5 yıla kadar (ev sahibi tüzel kişiyse 7 yıla kadar) süren sözleşmelerde ek güvence en çok iki aylık kiradır (kira kanununu",
+            "Depozito (fianza): bir aylık kira."
+          ]
+        },
+        {
+          "id": "sevilla:su-sozlesmesi-devir-cambio-titularidad-ve-baja",
+          "sheet": "Yanıtlar",
+          "row": 58,
+          "sentences": [
+            "Devir ücretsiz ama teminat (fianza) istenir; sözleşmeyi kapatmak abonenin yükümlülüğü",
+            "Devir ücretsizdir; yalnız olası borçlar için EMASESA kasasına bir teminat (fianza) yatırılır.",
+            "Teminatı (fianza) EMASESA kasasına yatır."
+          ]
+        },
+        {
+          "id": "sevilla:sevici-kamu-bisikleti-ve-sevilla-bisiklet-yollari",
+          "sheet": "Yanıtlar",
+          "row": 240,
+          "sentences": [
+            "Birkaç gün kullanacaksan herhangi bir Sevici istasyonuna kredi kartınla git ve ekrandaki adımlarla 7 günlük kısa süreli aboneliği al; kartında 150 € depozito (fianza) bloke edilir, bisiklet hasarsızsa",
+            "Kısa süreli abonelikte 150 € depozito (fianza) bloke edilir, bisiklet hasarsızsa tamamı iade edilir."
+          ]
+        },
+        {
+          "id": "sevilla:term:018",
+          "sheet": "Sözlük",
+          "row": 25,
+          "sentences": [
+            "fianza (kira depozitosu)"
+          ]
+        },
+        {
+          "id": "sevilla:term:019",
+          "sheet": "Sözlük",
+          "row": 26,
+          "sentences": [
+            "Kiraya verenin daha önce Endülüs yönetimine yatırdığı kira depozitosunun (fianza) iadesi bu kurumun sayfalarında yürütülür; 24 Ocak 2026 dahil ve sonrasında yapılan sözleşmelerde depozito yatırma zoru"
+          ]
+        },
+        {
+          "id": "sevilla:term:020",
+          "sheet": "Sözlük",
+          "row": 27,
+          "sentences": [
+            "Endeks, kiracının fiilen ödediği kirayı esas alır (veri olarak AVRA'ya yatırılan depozito, yani fianza kullanılır); kira piyasası hakkında herkese açık güncel bilgi verir."
+          ]
+        }
+      ]
+    },
+    {
+      "anchor": "sepe",
+      "kind": "sozluk",
+      "farkli_deger": [
+        "sure",
+        "ucret"
+      ],
+      "values": {
+        "sure": [
+          "10 gun",
+          "15 gun",
+          "360 gun"
+        ],
+        "ucret": [
+          "16,08 €",
+          "19,30 €"
+        ]
+      },
+      "mentions": [
+        {
+          "id": "sevilla:emvisesa-ppr-2026-kira-yardimi",
+          "sheet": "Yanıtlar",
+          "row": 40,
+          "sentences": [
+            "Varsa: boşanma sözleşmesi ya da kararı, SEPE veya Sosyal Güvenlik'ten başka yardım için başvuru belgesi, bağımlılık ya da engellilik kararı, ödenmeyen nafaka için şikâyet ya da dava belgesi"
+          ]
+        },
+        {
+          "id": "sevilla:issizlik-maasi-paro-sepe-basvurusu",
+          "sheet": "Yanıtlar",
+          "row": 92,
+          "sentences": [
+            "İşsizlik ödeneği (paro) kimlere verilir, ne kadar sürer, SEPE'ye nasıl başvurulur?",
+            "Son 6 yılda en az 360 gün işsizlik primi ödediysen ve yasal olarak işsiz kaldıysan SEPE'den primli işsizlik ödeneği (prestación contributiva por desempleo) alabilirsin.",
+            "Başvuruyu son çalıştığın günden sonraki 15 iş günü içinde (işveren kullanmadığın izin için para ödediyse iznin denk geldiği dönemin bitiminden sonraki 15 iş günü içinde) SEPE elektronik ofisinden, ran"
+          ]
+        },
+        {
+          "id": "sevilla:endulus-sae-is-arayan-kaydi-demandante-de-empleo",
+          "sheet": "Yanıtlar",
+          "row": 97,
+          "sentences": [
+            "İşsizlik ödeneği için SEPE'ye başvuracaksan kaydı bundan önce yaptır."
+          ]
+        },
+        {
+          "id": "sevilla:sevilla-sehrinde-is-ofisleri-adresleri",
+          "sheet": "Yanıtlar",
+          "row": 98,
+          "sentences": [
+            "SEPE listesinde Sevilla şehri için sekiz iş ofisi var; randevuda ofisi sen seçersin",
+            "SEPE'nin Sevilla il listesinde şehir içi sekiz iş ofisi görünür: Amate, Centro, Cruz Roja, Este, Huerta de la Salud, Luis Montoto, Macarena ve Triana."
+          ]
+        },
+        {
+          "id": "sevilla:sevilla-sepe-il-mudurlugu-adresi",
+          "sheet": "Yanıtlar",
+          "row": 100,
+          "sentences": [
+            "Sevilla'da SEPE il müdürlüğü (Dirección Provincial) nerede, ödenek başvurusundan önce SAE kaydı neden önemli?",
+            "SEPE Sevilla: C/ Botánica s/n, Polígono Empresarial Nueva Torneo, 41015",
+            "SEPE'nin Sevilla il müdürlüğü C/ Botánica s/n, Polígono Empresarial Nueva Torneo adresinde, 41015 Sevilla'dadır; sayfada telefon hizmeti ve erişilebilirlik önlemleri olan bir ofis olarak geçer."
+          ]
+        },
+        {
+          "id": "sevilla:endulus-ucretsiz-meslek-kurslari-fpe-ve-burslar",
+          "sheet": "Yanıtlar",
+          "row": 103,
+          "sentences": [
+            "SEPE'nin Fórmate sayfasında da çalışanlar ve işsizler için kurs arama motoru var.",
+            "Junta'nın FPE sayfasındaki \"ücretsiz kurs teklifi\" (Oferta de cursos gratuitos) bağlantısına ve SEPE'nin Fórmate kurs arama motoruna bak."
+          ]
+        },
+        {
+          "id": "sevilla:term:004",
+          "sheet": "Sözlük",
+          "row": 11,
+          "sentences": [
+            "Polis sitesinde ilk oturum izni TIE'si için 16,08 €, yenileme TIE'si için 19,30 € harç yazıyor; SEPE gibi yerlerde AB dışı kişiden fotoğraflı TIE istenir."
+          ]
+        },
+        {
+          "id": "sevilla:term:028",
+          "sheet": "Sözlük",
+          "row": 35,
+          "sentences": [
+            "SEPE"
+          ]
+        },
+        {
+          "id": "sevilla:term:029",
+          "sheet": "Sözlük",
+          "row": 36,
+          "sentences": [
+            "Hizmetlerinden yararlanmak için önce işsiz olarak (demandante) kaydolmak gerekir; SEPE'den işsizlik ödeneği isteyecekler için de bu kayıt önceden şarttır."
+          ]
+        }
+      ]
+    },
+    {
+      "anchor": "iva",
+      "kind": "sozluk",
+      "farkli_deger": [
+        "tarih",
+        "ucret"
+      ],
+      "values": {
+        "tarih": [
+          "1 kasim",
+          "1 temmuz"
+        ],
+        "ucret": [
+          "150 €",
+          "2 €",
+          "3 €",
+          "300 €",
+          "430 €"
+        ]
+      },
+      "mentions": [
+        {
+          "id": "sevilla:yabanci-olarak-ev-satin-alma-nie-noter-tapu-vergi",
+          "sheet": "Yanıtlar",
+          "row": 47,
+          "sentences": [
+            "İkinci el evde devir vergisini (ITP), yeni evde damga vergisini (AJD) Endülüs'te bölge yönetimine (Junta de Andalucía), vergi borcunun doğduğu tarihin (devengo) ertesi gününden itibaren iki ay içinde ",
+            "Vergiyi öde: ikinci el evde devir vergisini (ITP) Endülüs'ün genel oranı olan %7'den, yeni evde damga vergisini (AJD) %1,2'den Junta de Andalucía'ya, vergi borcunun doğduğu tarihin (devengo) ertesi gü",
+            "Yeni ev: satıcıya ödenen KDV'ye (IVA) ek olarak %1,2 damga vergisi (AJD)."
+          ]
+        },
+        {
+          "id": "sevilla:elektrik-faturasi-nasil-okunur",
+          "sheet": "Yanıtlar",
+          "row": 49,
+          "sentences": [
+            "Elektrik faturasında şu kalemleri okursun: enerji maliyeti, düzenlenmiş giderler (şebeke, yenilenebilir enerji teşviki gibi), tedarikçinin marjı ve vergiler (elektrik özel vergisi ile IVA); sayaç kira",
+            "Peajes ve cargos kalemlerinin ayrı satırda gösterildiğini kontrol et; vergileri (elektrik özel vergisi ve IVA) de faturada bul."
+          ]
+        },
+        {
+          "id": "sevilla:dogalgaz-aboneligi-tur-ve-fatura",
+          "sheet": "Yanıtlar",
+          "row": 51,
+          "sentences": [
+            "Gaz faturası şu kalemleri içerir: sabit terim (yıllık ücret, fatura dönemindeki gün sayısına göre uygulanır), değişken terim (tüketilen kWh ile sözleşmedeki fiyatın çarpımı), hidrokarbür vergisi, teda"
+          ]
+        },
+        {
+          "id": "sevilla:ab-disi-paket-gumruk-iva",
+          "sheet": "Yanıtlar",
+          "row": 69,
+          "sentences": [
+            "AB dışından internetten alınan 150 euroya kadarlık paket için İspanya'da IVA ve gümrük vergisi ödenir mi?",
+            "IVA ödenir; 1 Temmuz 2026'dan beri 150 euroya kadar siparişte kategori başına 3 euro arancel, 1 Kasım 2026'dan itibaren ayrıca 2 euro işlem ücreti",
+            "AEAT'a göre AB dışından internetten alışverişte IVA ödenir: satıcı IOSS sistemine katılıyorsa fiyata IVA dahildir, katılmıyorsa paketi İspanya'ya sokan taşıyıcı IVA'yı tahsil eder ve teslimden önce ma"
+          ]
+        },
+        {
+          "id": "sevilla:ab-disi-isverenle-calisma-ve-oturum-izni-cuenta-ajena",
+          "sheet": "Yanıtlar",
+          "row": 141,
+          "sentences": [
+            "İşverenin kimlik ya da şirket belgeleri, son üç yıla ait IRPF, IVA ya da kurumlar vergisi beyannamesi veya şirketin çalışan kayıt raporu (VILE) ve yapılacak işin tanımı (memoria descriptiva)"
+          ]
+        },
+        {
+          "id": "sevilla:kdv-iva-oranlari",
+          "sheet": "Yanıtlar",
+          "row": 147,
+          "sentences": [
+            "İspanya'da KDV (IVA) oranları kaç?",
+            "İspanya'da genel KDV (IVA) oranı %21'dir; azaltılmış oranlar %10 ve %4'tür ve belirli işlemlere %0 uygulanır (AEAT'nin güncel oran sayfasına göre).",
+            "Canarias, Ceuta ve Melilla'da İspanyol KDV'sinin (IVA) uygulanmadığını bil; bu kart bu bölgeleri kapsamaz."
+          ]
+        },
+        {
+          "id": "sevilla:ab-disindan-gelen-yolcunun-bagaj-muafiyeti",
+          "sheet": "Yanıtlar",
+          "row": 173,
+          "sentences": [
+            "Ticari nitelik taşımayan kişisel eşyayı, toplam değeri havayolu ve denizyoluyla gelende kişi başı 430 euro'yu, karayoluyla gelende 300 euro'yu geçmiyorsa KDV (IVA) ve özel tüketim vergisi ödemeden get"
+          ]
+        },
+        {
+          "id": "sevilla:term:046",
+          "sheet": "Sözlük",
+          "row": 53,
+          "sentences": [
+            "IVA (katma değer vergisi)"
+          ]
+        }
+      ]
+    },
+    {
+      "anchor": "nie",
+      "kind": "sozluk",
+      "farkli_deger": [
+        "ucret"
+      ],
+      "values": {
+        "ucret": [
+          "166,50 €",
+          "9,84 €"
+        ]
+      },
+      "mentions": [
+        {
+          "id": "sevilla:ingreso-minimo-vital-ve-cocuk-destegi",
+          "sheet": "Yanıtlar",
+          "row": 10,
+          "sentences": [
+            "Kimlik olarak ülkenin kimlik belgesi, yabancı kimlik kartı (TIE) ya da pasaportunu ver; NIE belgelerde yoksa ayrıca ver.",
+            "Kimlik belgesi: ülkenin kimlik belgesi, yabancı kimlik kartı (TIE) ya da pasaport (ve NIE)"
+          ]
+        },
+        {
+          "id": "sevilla:sevilla-dogum-sonrasi-saglik-sosyal-guvenlik-ve-padron-adimlari",
+          "sheet": "Yanıtlar",
+          "row": 18,
+          "sentences": [
+            "Elektronik kayıtta e-posta adresin ve DNI ya da NIE'nle çekeceğin fotoğraf gerekir.",
+            "DNI (yüz yüze ya da posta yoluyla kayıtta); elektronik kayıtta DNI ya da NIE ile çekilmiş fotoğraf ve e-posta adresi"
+          ]
+        },
+        {
+          "id": "sevilla:familia-numerosa-unvani-alma-yenileme-ve-sevilla-basvurusu",
+          "sheet": "Yanıtlar",
+          "row": 25,
+          "sentences": [
+            "Ailenin yasal olarak kimlik taşıması gereken üyelerinin geçerli DNI, NIE veya pasaport kopyası (geçerli DNI'ı olanların kimlik bilgilerini idare kendisi sorgulayabilir; yalnız sorgulanamayanlar için g"
+          ]
+        },
+        {
+          "id": "sevilla:yabanci-olarak-ev-satin-alma-nie-noter-tapu-vergi",
+          "sheet": "Yanıtlar",
+          "row": 47,
+          "sentences": [
+            "Yabancı olarak Sevilla'da ev satın alırken hangi adımlar var: NIE, ön sözleşme, noter, tapu kaydı ve vergiler?",
+            "Önce NIE, sonra yük kontrolü ve isteğe bağlı ön sözleşme; noter önünde tapu senedi, vergi ödemesi ve Registro de la Propiedad kaydı",
+            "Ev alırken önce yabancı kimlik numarası (NIE) alırsın; başvuru belgeleri ve harç 'NIE nedir, ne işe yarar ve nasıl istenir?' sorusunda, Sevilla'da hangi polis birimine gideceğin 'Sevilla'da TIE ve NIE"
+          ]
+        },
+        {
+          "id": "sevilla:su-aboneligi-emasesa-ilk-kez",
+          "sheet": "Yanıtlar",
+          "row": 57,
+          "sentences": [
+            "Kimlik belgeni ekle: NIF, NIE veya pasaport.",
+            "NIF, NIE veya pasaport"
+          ]
+        },
+        {
+          "id": "sevilla:su-sozlesmesi-devir-cambio-titularidad-ve-baja",
+          "sheet": "Yanıtlar",
+          "row": 58,
+          "sentences": [
+            "Kimlik belgeni (NIF, NIE veya pasaport) ve evi kullanma hakkını gösteren belgeyi ekle.",
+            "NIF, NIE veya pasaport"
+          ]
+        },
+        {
+          "id": "sevilla:emasesa-sosyal-tarife-kimler-yararlanir",
+          "sheet": "Yanıtlar",
+          "row": 61,
+          "sentences": [
+            "16 yaş üstü herkesin kimliği: İspanyol vatandaşları için DNI, yabancılar için NIE veya pasaport"
+          ]
+        },
+        {
+          "id": "sevilla:emasesa-sosyal-tarife-basvuru-belgeler-yenileme",
+          "sheet": "Yanıtlar",
+          "row": 62,
+          "sentences": [
+            "16 yaş üstü herkesin kimliği: İspanyol vatandaşları için DNI, yabancılar için NIE veya pasaport"
+          ]
+        },
+        {
+          "id": "sevilla:halk-kutuphanesi-uyelik-karti-endulus",
+          "sheet": "Yanıtlar",
+          "row": 80,
+          "sentences": [
+            "Yetişkinler için yüz yüze başvuruda kayıt formunu doldurmak yeterlidir; kütüphane başvuru sırasında DNI, pasaport, yabancı kimlik numarası (NIE) ya da aile cüzdanı gösterilmesini isteyebilir.",
+            "Başvuru sırasında DNI, pasaport, NIE ya da aile cüzdanını yanında bulundur.",
+            "DNI, pasaport, yabancı kimlik numarası (NIE) ya da aile cüzdanı"
+          ]
+        },
+        {
+          "id": "sevilla:issizlik-maasi-paro-sepe-basvurusu",
+          "sheet": "Yanıtlar",
+          "row": 92,
+          "sentences": [
+            "AB vatandaşı: pasaport ya da kimlik belgesi ile NIE'yi gösteren kayıt sertifikası (veya sürekli oturum sertifikası)"
+          ]
+        },
+        {
+          "id": "sevilla:dogum-ve-babalik-izni-sureleri",
+          "sheet": "Yanıtlar",
+          "row": 95,
+          "sentences": [
+            "Ödenek için Seguridad Social'ın yardımlar randevu hattını ara: 91 541 25 30 ya da 901 10 65 70 (haftanın her günü 24 saat); hat işlemi, sana en yakın ofisi belirlemek için posta kodunu ve DNI ya da NI",
+            "Randevu hattında söyleyeceğin bilgiler: işlem türü, posta kodu, DNI ya da NIE numarası"
+          ]
+        },
+        {
+          "id": "sevilla:yabanci-diploma-denklik-okul-ve-universite",
+          "sheet": "Yanıtlar",
+          "row": 96,
+          "sentences": [
+            "Üniversite diploması için harç: 166,50 euro (homologación ya da declaración de equivalencia başvurusunda); kartla ya da hesaptan (NIF/NIE ve Cl@ve gerekir), Modelo 790-107 ile ya da yurtdışından haval"
+          ]
+        },
+        {
+          "id": "sevilla:endulus-sae-is-arayan-kaydi-demandante-de-empleo",
+          "sheet": "Yanıtlar",
+          "row": 97,
+          "sentences": [
+            "Formda istenen bilgileri hazırla: ad soyad, DNI, NIE veya pasaport, uyruk, adres, telefon, e-posta ve eğitim düzeyi.",
+            "DNI, NIE veya pasaport numarası"
+          ]
+        },
+        {
+          "id": "sevilla:nie-nedir-ne-ise-yarar",
+          "sheet": "Yanıtlar",
+          "row": 123,
+          "sentences": [
+            "NIE nedir, ne işe yarar ve nasıl istenir?",
+            "NIE, yabancılara verilen kimlik numarasıdır; harcı 9,84 euro",
+            "NIE (Número de Identidad de Extranjero, yabancı kimlik numarası), İspanya ile ekonomik, mesleki ya da sosyal ilişkisi olan yabancıyı bu ilişkilerinde tanımlayan numaradır; bu yabancılar numarayı Polis"
+          ]
+        },
+        {
+          "id": "sevilla:ab-vatandasi-kayit-sertifikasi",
+          "sheet": "Yanıtlar",
+          "row": 124,
+          "sentences": [
+            "Başvuruyu İspanya'ya girişinden itibaren üç ay içinde yaparsın; kayıt sertifikası hemen verilir ve üzerinde adın, uyruğun, adresin, NIE numaran ve kayıt tarihin yazar."
+          ]
+        },
+        {
+          "id": "sevilla:dijital-gocebe-vizesi",
+          "sheet": "Yanıtlar",
+          "row": 131,
+          "sentences": [
+            "Başvuru anında NIE'ye sahip ol (sayfaya göre NIE işlemi cog.estambul@maec.es adresi üzerinden yürütülür); başka dillerdeki belgeler yeminli tercümeyle, yabancı resmî belgeler ise onaylı ya da apostill"
+          ]
+        },
+        {
+          "id": "sevilla:junta-kayit-ofisi-randevu-alma-adimlari",
+          "sheet": "Yanıtlar",
+          "row": 137,
+          "sentences": [
+            "Randevu için DNI ya da NIE numarası gerekir; NIF'in yoksa ayrı bir seçenek var",
+            "İki yolda da DNI ya da NIE numarası istenir; NIF'in yoksa uygulamadaki 'NIF'siz kişiler için randevu' bağlantısını kullanırsın.",
+            "Telefonla istersen 012 ya da 955 012 012'yi ara; bu numaralarda otomatik randevu sistemi çalışır, DNI ya da NIE numaranı hazır tut."
+          ]
+        },
+        {
+          "id": "sevilla:sevilla-tie-nie-polis-birimleri-brigada-extranjeria",
+          "sheet": "Yanıtlar",
+          "row": 139,
+          "sentences": [
+            "Sevilla'da TIE ve NIE işlemleri için hangi polis birimine gidilir?",
+            "TIE ve NIE işlemleri Avenida Blas Infante 2'deki Brigada Provincial de Extranjería y Fronteras'ta listeleniyor; telefon 954289715",
+            "TIE ve NIE işlemleri için Avenida Blas Infante 2'deki Brigada Provincial de Extranjería y Fronteras de Sevilla'ya gidersin (telefon 954289715)."
+          ]
+        },
+        {
+          "id": "sevilla:ab-disi-isverenle-calisma-ve-oturum-izni-cuenta-ajena",
+          "sheet": "Yanıtlar",
+          "row": 141,
+          "sentences": [
+            "Ev hizmetinde (servicio doméstico) işverenin NIF ya da NIE kopyası ve son IRPF beyannamesi ya da vergi idaresinden gelir belgesi"
+          ]
+        },
+        {
+          "id": "sevilla:ogrenci-kalis-izni-estancia-por-estudios-basvuru-ve-uzatma",
+          "sheet": "Yanıtlar",
+          "row": 142,
+          "sentences": [
+            "Kalışın 6 aydan uzunsa İspanya'ya girişten itibaren bir ay içinde TIE için oturduğun yerin polis birimine (Comisaría) şahsen başvur (Sevilla'daki birim için \"Sevilla'da TIE ve NIE işlemleri için hangi"
+          ]
+        },
+        {
+          "id": "sevilla:sevilla-yabancilar-ofisi-oficina-de-extranjeria-ve-polis-randevusu",
+          "sheet": "Yanıtlar",
+          "row": 143,
+          "sentences": [
+            "TIE'nin çıkarılması (parmak izi) ve teslimi için polis randevusunu devletin cita previa (ICP) sayfasından al; AB vatandaşı kayıt sertifikası, NIE ataması, NIE ve ikamet belgeleri, certificado de conco",
+            "TIE ve NIE işlemlerinin listelendiği polis birimi için \"Sevilla'da TIE ve NIE işlemleri için hangi polis birimine gidilir?\" sorusuna bak."
+          ]
+        },
+        {
+          "id": "sevilla:sevilla-varistan-sonra-ilk-hafta-resmi-isler-sirasi",
+          "sheet": "Yanıtlar",
+          "row": 183,
+          "sentences": [
+            "Padrón, TIE ya da NIE randevusu, banka, sağlık kartı ve telefon hattı için kontrol listesi",
+            "Önerilen sıra şöyle: önce belediyede adres kaydı (padrón, empadronamiento), sonra polis randevusu (AB dışından geliyorsan TIE ya da NIE için; AB vatandaşıysan AB vatandaşı kayıt belgesi, certificado d",
+            "Sevilla'da yabancı kimlik kartının (TIE) çıkarılması ve teslimi, NIE ataması ve AB vatandaşı kayıt belgesi polis randevusuyla yapılır; bu yüzden randevuyu ilk günlerde ara."
+          ]
+        },
+        {
+          "id": "sevilla:sosyal-guvenlik-numarasi-alma",
+          "sheet": "Yanıtlar",
+          "row": 188,
+          "sentences": [
+            "Kimlik numaran (DNI ya da NIE)",
+            "Cl@ve ya da dijital sertifikan yoksa: DNI/NIE'nin iki yüzünün kopyası ve kimlik belgesinin ön yüzü elinde çekilmiş bir selfie"
+          ]
+        },
+        {
+          "id": "sevilla:vergi-numarasi-nif-nie-alma",
+          "sheet": "Yanıtlar",
+          "row": 190,
+          "sentences": [
+            "Vergi numarası (NIF) nedir, NIE'n yoksa NIF'i nasıl alırsın?",
+            "Çoğu kişide NIF, DNI ya da NIE ile aynıdır; NIE'si olmayan yabancı NIF'i Agencia Tributaria'dan Modelo 030 ile ister",
+            "Vergi açısından sonuç doğuran bir işlem yapacaksan bir NIF'in (vergi kimlik numarası) olmalı; NIF genellikle DNI ya da NIE numaranla aynıdır."
+          ]
+        },
+        {
+          "id": "sevilla:clave-pin-ve-permanente-farki",
+          "sheet": "Yanıtlar",
+          "row": 191,
+          "sentences": [
+            "Cl@ve uygulamasında (Cl@ve Móvil) kimlik doğrulama istekleri telefonuna gelir; Cl@ve Permanente'de ise DNI ya da NIE'nle, kullanıcı kodunla ve aktivasyonda kendin belirlediğin şifreyle girersin."
+          ]
+        },
+        {
+          "id": "sevilla:fnmt-dijital-sertifika-kurma",
+          "sheet": "Yanıtlar",
+          "row": 192,
+          "sentences": [
+            "AB dışı yabancıysan ofise NIE'nin yazılı olduğu yabancı kimlik kartını (TIE) ya da NIF/NIE veriliş belgesini pasaportunla birlikte götürürsün.",
+            "AB vatandaşı: NIE'nin yazılı olduğu yabancı kimlik belgesi, AB vatandaşı sertifikası (Certificado de Ciudadano de la Unión) ya da NIF/NIE veriliş belgesi; yanında pasaport ya da ülkenin kimlik kartı",
+            "AB dışı yabancı: NIE'nin yazılı olduğu kırmızı, yeşil ya da beyaz yabancı kimlik kartı (TIE) ya da NIF/NIE veriliş belgesi; yanında pasaport"
+          ]
+        },
+        {
+          "id": "sevilla:junta-kayit-yardim-ofisleri-sevilla",
+          "sheet": "Yanıtlar",
+          "row": 200,
+          "sentences": [
+            "Randevulu gitmen önerilir: ofisi, günü ve saati seçerek randevuyu Cita previa uygulamasından ya da 012 / 955 012 012 telefonundan al; ikisinde de DNI ya da NIE numaran gerekir.",
+            "NIF'in (DNI ya da NIE) yoksa uygulamada \"Solicitar cita para personas sin NIF\" bağlantısını seç ve kimlik bilgilerini gir; randevudaki kimlik bilgileri ofise gidecek kişininkiyle aynı olmalı."
+          ]
+        },
+        {
+          "id": "sevilla:seguridad-social-telefonla-randevu-caiss",
+          "sheet": "Yanıtlar",
+          "row": 201,
+          "sentences": [
+            "Sistem hangi işlem için randevu istediğini, oturduğun yerin posta kodunu (en yakın ofisi bulmak için) ve DNI ya da NIE numaranı sorar; sana ilk boş randevuyu önerir ve bir localizador (randevu kodu) v",
+            "91 541 25 30 ya da 901 10 65 70'i ara; işlemi, oturduğun yerin posta kodunu ve DNI ya da NIE numaranı söyle.",
+            "DNI ya da NIE"
+          ]
+        },
+        {
+          "id": "sevilla:dgt-sevilla-randevu-ve-kimler-randevusuz-gider",
+          "sheet": "Yanıtlar",
+          "row": 202,
+          "sentences": [
+            "Randevu gününde kimlik belgeni (DNI, pasaport, NIE ya da oturum izni) götür ve ofisteki numara alma kiosklarına git; sana bir gişe atanır.",
+            "Randevu günü kimlik: DNI ya da pasaport, NIE veya oturum izni gibi resmî kimlik belgesi"
+          ]
+        },
+        {
+          "id": "sevilla:saglik-sigortasi-sarti-ve-convenio-especial",
+          "sheet": "Yanıtlar",
+          "row": 207,
+          "sentences": [
+            "Kimlik belgesi: kimlik kartı, NIE, pasaport ya da oturum kartı"
+          ]
+        },
+        {
+          "id": "sevilla:sevilla-consorcio-ulasim-karti-alma-ve-yukleme",
+          "sheet": "Yanıtlar",
+          "row": 235,
+          "sentences": [
+            "Yükleme geçmişini görmek için Consorcio'nun sitesindeki sorgu formuna adını, DNI/NIE numaranı, e-posta adresini, kartın sağ alt köşesindeki numarayı ve dönemi yaz, formun gösterdiği doğrulama kodunu g"
+          ]
+        },
+        {
+          "id": "sevilla:sevilla-tarjeta-joven-transporte-30-yas-alti",
+          "sheet": "Yanıtlar",
+          "row": 236,
+          "sentences": [
+            "DNI ya da NIE, yakın tarihli renkli vesikalık fotoğraf ve e-posta ya da cep telefonu bilgisi ekle.",
+            "DNI ya da NIE",
+            "Kart yalnız kendi kullanımın içindir; üzerinde fotoğraf, ad ve DNI/NIE yazar."
+          ]
+        },
+        {
+          "id": "sevilla:term:003",
+          "sheet": "Sözlük",
+          "row": 10,
+          "sentences": [
+            "NIE (yabancı kimlik numarası)",
+            "Polis sitesindeki harç tarifesinde NIE atanması için 9,84 € yazıyor."
+          ]
+        },
+        {
+          "id": "sevilla:term:005",
+          "sheet": "Sözlük",
+          "row": 12,
+          "sentences": [
+            "Üzerinde ad, uyruk, adres, NIE ve kayıt tarihi bulunur; kayıt, girişten itibaren üç ay içinde Yabancılar Bürosu'nda veya ilgili polis karakolunda yapılır."
+          ]
+        },
+        {
+          "id": "sevilla:term:007",
+          "sheet": "Sözlük",
+          "row": 14,
+          "sentences": [
+            "Cl@ve Permanente kullanıcı kodu (DNI veya NIE) ve şifreyle çalışır; Cl@ve uygulaması ise kimlik doğrulamayı ve elektronik imzayı tek yerde toplar."
+          ]
+        },
+        {
+          "id": "sevilla:term:011",
+          "sheet": "Sözlük",
+          "row": 18,
+          "sentences": [
+            "Genelde DNI veya NIE ile aynıdır."
+          ]
+        }
+      ]
+    },
+    {
+      "anchor": "empadronamiento",
+      "kind": "sozluk",
+      "farkli_deger": [
+        "sure"
+      ],
+      "values": {
+        "sure": [
+          "1 yil",
+          "2 yil",
+          "3 yil",
+          "5 yil"
+        ]
+      },
+      "mentions": [
+        {
+          "id": "sevilla:ingreso-minimo-vital-ve-cocuk-destegi",
+          "sheet": "Yanıtlar",
+          "row": 10,
+          "sentences": [
+            "Yasal ve fiilî ikametini en az bir yıllık kesintisiz süre için oturum izninle (her türü) ya da AB vatandaşı aile üyesi kartınla, İspanya'daki adresini ise empadronamiento (belediye nüfus kaydı) belges",
+            "Empadronamiento belgesi (belediye nüfus kaydı)"
+          ]
+        },
+        {
+          "id": "sevilla:sevilla-yenidogan-bebek-nufus-kaydi-registro-civil",
+          "sheet": "Yanıtlar",
+          "row": 17,
+          "sentences": [
+            "Sevilla dışında doğan bebek için anne-babanın empadronamiento belgesi"
+          ]
+        },
+        {
+          "id": "sevilla:sevilla-dogum-sonrasi-saglik-sosyal-guvenlik-ve-padron-adimlari",
+          "sheet": "Yanıtlar",
+          "row": 18,
+          "sentences": [
+            "Taburcu belgeleri, lohusa ziyareti, topuk testi, Seguridad Social kaydı, sağlık kartı ve empadronamiento",
+            "Seguridad Social kaydından sonra bebek için sağlık kartı iste ve bebeği oturacağın yerin belediyesinde (Sevilla'da Ayuntamiento de Sevilla) padrón'a yazdır; padrón kaydının genel kuralları ve istenen "
+          ]
+        },
+        {
+          "id": "sevilla:sevilla-okul-yeri-yetersizse-puanlama-ve-oncelik-kriterleri",
+          "sheet": "Yanıtlar",
+          "row": 22,
+          "sentences": [
+            "Empadronamiento belgesi (adres bilgisi tutmuyorsa)"
+          ]
+        },
+        {
+          "id": "sevilla:familia-numerosa-unvani-alma-yenileme-ve-sevilla-basvurusu",
+          "sheet": "Yanıtlar",
+          "row": 25,
+          "sentences": [
+            "Belgeleri hazırla: kimlikler, Libro de Familia, empadronamiento belgeleri ve gerekiyorsa gelir beyanı (aşağıdaki belge listesine bak).",
+            "Her aile üyesi için bireysel empadronamiento belgesi ya da toplu empadronamiento belgesi; yalnız idare ikamet bilgisini sorgulayamıyorsa gerekir (idare yalnız Endülüs'teki belediyelerde kayıtlı kişile"
+          ]
+        },
+        {
+          "id": "sevilla:sevilla-korumali-konut-kayit-defteri-nedir",
+          "sheet": "Yanıtlar",
+          "row": 33,
+          "sentences": [
+            "Sevilla belediyesinde nüfus kaydı (empadronamiento) olmak (son 2 yıl ya da daha önce toplam 5 yıl) veya son 3 yıl Sevilla'da çalışmak kayıt şartı değil, konut dağıtımında seçim ölçütüdür.",
+            "Kayıt tamamlanınca korumalı konut dağıtımlarına katılabilirsin; Sevilla'da 2 yıllık ya da toplam 5 yıllık nüfus kaydı (empadronamiento) veya 3 yıllık çalışma seçimde ölçüt olur.",
+            "Sevilla'da nüfus kaydı (empadronamiento) ya da çalışma bağı kayıt için şart değildir; yalnızca konut seçiminde ölçüttür."
+          ]
+        },
+        {
+          "id": "sevilla:korumali-konut-oncelik-gruplari-ve-kontenjanlar",
+          "sheet": "Yanıtlar",
+          "row": 35,
+          "sentences": [
+            "Sevilla'daki nüfus kaydı (empadronamiento) süreni ya da Sevilla'daki çalışma süreni formda 'bağ var' olarak işaretleyebileceğin ölçütlerle karşılaştır."
+          ]
+        },
+        {
+          "id": "sevilla:su-aboneligi-emasesa-ilk-kez",
+          "sheet": "Yanıtlar",
+          "row": 57,
+          "sentences": [
+            "Konut için evde yaşayanları gösteren certificado de empadronamiento colectivo (toplu ikamet kaydı belgesi) özellikle önemlidir, çünkü tarife evdeki kişi sayısına göre uygulanır.",
+            "Belediyeden evde yaşayan herkesin göründüğü güncel certificado de empadronamiento colectivo'yu al ve ekle.",
+            "Certificado de empadronamiento colectivo"
+          ]
+        },
+        {
+          "id": "sevilla:su-sozlesmesi-devir-cambio-titularidad-ve-baja",
+          "sheet": "Yanıtlar",
+          "row": 58,
+          "sentences": [
+            "Evde yaşayanları gösteren güncel certificado de empadronamiento colectivo'yu ekle.",
+            "Certificado de empadronamiento colectivo"
+          ]
+        },
+        {
+          "id": "sevilla:emasesa-sosyal-tarife-kimler-yararlanir",
+          "sheet": "Yanıtlar",
+          "row": 61,
+          "sentences": [
+            "Certificado de empadronamiento colectivo (ya da EMASESA'nın padrón verisine bakması için izin)"
+          ]
+        },
+        {
+          "id": "sevilla:emasesa-sosyal-tarife-basvuru-belgeler-yenileme",
+          "sheet": "Yanıtlar",
+          "row": 62,
+          "sentences": [
+            "Certificado de empadronamiento colectivo (ya da EMASESA'nın padrón verisine bakması için izin)"
+          ]
+        },
+        {
+          "id": "sevilla:arraigo-kok-salma-oturumu",
+          "sheet": "Yanıtlar",
+          "row": 130,
+          "sentences": [
+            "empadronamiento, hastane ya da kamu sağlık kaydı, resmî kurum belgeleri); sabıka kaydı; sosyal arraigoda güncel aile bağı belgesi ya da uyum raporu ve gelir belgesi.",
+            "empadronamiento, hastane ya da kamu sağlık kaydı)"
+          ]
+        },
+        {
+          "id": "sevilla:rmisa-basvuru-karar-sureci-ve-uzatma",
+          "sheet": "Yanıtlar",
+          "row": 160,
+          "sentences": [
+            "Uzatmada ilk başvurudaki belgelerin aynısı istenir; dosyada olup değişmeyenler yeniden verilmez, ama güncel toplu geçmiş ikamet belgesi (certificado de empadronamiento histórico colectivo) her durumda"
+          ]
+        },
+        {
+          "id": "sevilla:sevilla-varistan-sonra-ilk-hafta-resmi-isler-sirasi",
+          "sheet": "Yanıtlar",
+          "row": 183,
+          "sentences": [
+            "Önerilen sıra şöyle: önce belediyede adres kaydı (padrón, empadronamiento), sonra polis randevusu (AB dışından geliyorsan TIE ya da NIE için; AB vatandaşıysan AB vatandaşı kayıt belgesi, certificado d",
+            "Padrón başta gelir, çünkü Endülüs'te ilk sağlık kartını sağlık merkezinde isterken ikametini empadronamiento belgesiyle gösterirsin; ayrıca INSS'in sigortalı ya da yararlanıcı olduğunu gösteren belges",
+            "Önce kaldığın adresi belediyeye kaydettir (empadronamiento); ne işe yaradığı \"Empadronamiento (belediye nüfus kaydı) nedir, neden gerekir?\" sorusunda."
+          ]
+        },
+        {
+          "id": "sevilla:empadronamiento-nedir-neden-gerekir",
+          "sheet": "Yanıtlar",
+          "row": 186,
+          "sentences": [
+            "Empadronamiento (belediye nüfus kaydı) nedir, neden gerekir?",
+            "Empadronamiento, oturduğun belediyenin Padrón (belediye nüfus sicili) kaydına yazılmandır."
+          ]
+        },
+        {
+          "id": "sevilla:certificado-ve-volante-farki",
+          "sheet": "Yanıtlar",
+          "row": 187,
+          "sentences": [
+            "Certificado de empadronamiento ile volante arasındaki fark nedir?",
+            "Certificado, empadronamiento kaydını kesin delil olarak kanıtlayan belgedir ve resmî işlemlerde kamu belgesi sayılır."
+          ]
+        },
+        {
+          "id": "sevilla:kamu-saglik-sistemine-erisim-hak-sahipleri",
+          "sheet": "Yanıtlar",
+          "row": 206,
+          "sentences": [
+            "Kamu fonuyla tedavi için yabancıda yasal ve mutat ikamet aranır ve kişinin zorunlu sağlık güvencesini başka bir yoldan kanıtlama yükümlülüğü olmaması gerekir; yasal ikamet oturum izniyle, mutat ikamet",
+            "Sigortalı ya da yararlanıcı olmayan ve başka bir yoldan kamu sağlık korumasına erişimi bulunmayanlar ücret karşılığı convenio especial (kamu sistemine ücretle katılım sözleşmesi) ile de hizmet alabili",
+            "Yasal ikametin varsa (oturum izni) yolun INSS'tir: yasal ikametini oturum izninle, mutat ikametini empadronamiento (belediye nüfus kaydı) ile kanıtla."
+          ]
+        },
+        {
+          "id": "sevilla:saglik-sigortasi-sarti-ve-convenio-especial",
+          "sheet": "Yanıtlar",
+          "row": 207,
+          "sentences": [
+            "Koşullar başvurudan hemen önce en az bir yıl kesintisiz fiilî ikamet, başvuru anında İspanya'da empadronamiento ve başka bir yoldan kamu sağlık güvencesinin bulunmamasıdır.",
+            "Sözleşme, empadronamiento'nun bulunduğu özerk bölgenin sağlık servisiyle (Ceuta ve Melilla'da INGESA ile) imzalanır.",
+            "Kamu sağlık güvencen yoksa ve en az bir yıldır kesintisiz İspanya'da yaşıyorsan, empadronamiento'nun bulunduğu bölgenin sağlık servisinden convenio especial'i imzala."
+          ]
+        },
+        {
+          "id": "sevilla:endulus-saglik-karti-tarjeta-sanitaria-ve-aile-hekimi-secimi",
+          "sheet": "Yanıtlar",
+          "row": 213,
+          "sentences": [
+            "Merkez bu ana yolda INSS'in verdiği sigortalı ya da yararlanıcı belgesini ve empadronamiento (belediye nüfus kaydı) belgesini ister.",
+            "Endülüs'te ikameti gösteren empadronamiento belgesi",
+            "İkamet izni olmayan yabancının ayrı SAS başvurusunda: SAS başvuru formu (sorumluluk beyanı formun içinde), pasaport ya da menşe ülkenin verdiği fotoğraflı resmî kimlik, Endülüs'te en az üç aylık fiilî"
+          ]
+        },
+        {
+          "id": "sevilla:oturum-izni-olmayanlar-endulus-saglik-basvurusu-alta-ocasional",
+          "sheet": "Yanıtlar",
+          "row": 224,
+          "sentences": [
+            "En az üç aylık fiili ikameti gösteren nüfus kaydı belgesi (empadronamiento)."
+          ]
+        },
+        {
+          "id": "sevilla:ada-ceuta-melilla-yerlesik-ucus-indirimi",
+          "sheet": "Yanıtlar",
+          "row": 231,
+          "sentences": [
+            "Bilet alırken ikamet bilgin ancak satın almanın son aşamasında, ödeme ve bilet kesilmeden hemen önce sorulur ve hakkın kamu kayıtlarından (Plataforma de Intermediación) telematik doğrulanabilir; doğru",
+            "Yürürlükte certificado de empadronamiento; uzun dönem oturumlu için bu statünün yazılı olduğu geçerli yabancı kimlik kartı; AB vatandaşının aile üyesi için geçerli aile üyesi oturum kartı; İspanyol ve"
+          ]
+        },
+        {
+          "id": "sevilla:term:001",
+          "sheet": "Sözlük",
+          "row": 8,
+          "sentences": [
+            "empadronamiento (adres kaydı)",
+            "İspanya'daki adres, bazı başvurularda bu kayıttan alınan certificado de empadronamiento ile belgelenir; volante ve certificado elektronik ortamda da istenebilir."
+          ]
+        },
+        {
+          "id": "sevilla:term:002",
+          "sheet": "Sözlük",
+          "row": 9,
+          "sentences": [
+            "volante de empadronamiento",
+            "Belediye yetkilisinin imzasını gerektirmez; imzalı resmî belge isteniyorsa certificado de empadronamiento gerekir."
+          ]
+        }
+      ]
+    },
+    {
+      "anchor": "012",
+      "kind": "sozluk",
+      "farkli_deger": [
+        "ucret"
+      ],
+      "values": {
+        "tarih": [
+          "31 aralik"
+        ],
+        "ucret": [
+          "9,84 €",
+          "90,15 €"
+        ]
+      },
+      "mentions": [
+        {
+          "id": "sevilla:sevilla-kres-sonuc-matrikul-bekleme-listesi-ve-olaganustu-basvuru",
+          "sheet": "Yanıtlar",
+          "row": 14,
+          "sentences": [
+            "Junta'nın kreş sayfaları Anexo IV ve Anexo V formlarının nereye verileceğini belirtmiyor; bilgi için Junta'nın 012 / 955 012 012 hattı."
+          ]
+        },
+        {
+          "id": "sevilla:kira-ve-konut-hizmeti-sikayeti-hoja-de-reclamaciones-012",
+          "sheet": "Yanıtlar",
+          "row": 43,
+          "sentences": [
+            "Kira hakları için 012 hattı",
+            "Ev sahibiyle kira sözleşmesinden doğan hak ve yükümlülükler hakkında bilgi için 012 ya da 955 012 012'yi arayabilirsin; Junta bu ayrıntıları Consumo Responde sitesinde de yayınlıyor.",
+            "Kira hak ve yükümlülükleri hakkında bilgi için 012 ya da 955 012 012'yi ara."
+          ]
+        },
+        {
+          "id": "sevilla:endulus-bilgi-hatlari-salud-consumo-012",
+          "sheet": "Yanıtlar",
+          "row": 74,
+          "sentences": [
+            "Endülüs'te sağlık, tüketici ve genel bilgi için hangi hatlar aranır (Salud Responde, Consumo Responde, 012)?",
+            "Sağlık hizmetleri hakkında bilgi için Salud Responde 955 545 060, tüketici sorunları için Consumo Responde 900 215 080, Junta de Andalucía hizmetleri için genel vatandaş bilgi hattı 012 (ya da 955 012",
+            "Junta de Andalucía hizmetleri hakkında genel soru için 012 ya da 955 012 012'yi ara."
+          ]
+        },
+        {
+          "id": "sevilla:eoi-resmi-dil-okullari-sevilla-endulus",
+          "sheet": "Yanıtlar",
+          "row": 79,
+          "sentences": [
+            "Kayıt ve kabul için Consejería de Educación'ın EOI kabul ve kayıt prosedürünü kullan; Junta de Andalucía bilgi hattı 012 ya da 955 012 012."
+          ]
+        },
+        {
+          "id": "sevilla:endulus-ucretsiz-meslek-kurslari-fpe-ve-burslar",
+          "sheet": "Yanıtlar",
+          "row": 103,
+          "sentences": [
+            "Sorular için 012 veya 955 012 012 aranabilir."
+          ]
+        },
+        {
+          "id": "sevilla:nie-nedir-ne-ise-yarar",
+          "sheet": "Yanıtlar",
+          "row": 123,
+          "sentences": [
+            "Dilekçe EX15 formu ve 790 kodu 012 harç belgesiyle verilir; NIE harcı 9,84 euro'dur.",
+            "790 kodu 012 harç belgesini al ve 9,84 euro harcı öde; harç, hesabın olmasa da bankalarda ve tasarruf kasalarında ödenir.",
+            "790 kodu 012 harç ödeme belgesi"
+          ]
+        },
+        {
+          "id": "sevilla:ab-vatandasi-kayit-sertifikasi",
+          "sheet": "Yanıtlar",
+          "row": 124,
+          "sentences": [
+            "790 kodu 012 harç belgesini al ve harcı öde.",
+            "790 kodu 012 harç ödeme belgesi"
+          ]
+        },
+        {
+          "id": "sevilla:tie-yabanci-kimlik-karti",
+          "sheet": "Yanıtlar",
+          "row": 125,
+          "sentences": [
+            "Başvuruyu EX17 formu ve 790 kodu 012 harç belgesiyle bir yabancılar ofisine (Oficina de Extranjería) ya da polis karakoluna yap; harcı hesabın olmasa da bankalarda ve tasarruf kasalarında ödersin.",
+            "790 kodu 012 harç ödeme belgesi"
+          ]
+        },
+        {
+          "id": "sevilla:brexit-sonrasi-ingiliz-oturumu",
+          "sheet": "Yanıtlar",
+          "row": 136,
+          "sentences": [
+            "Elinde geçici ya da kalıcı kayıt sertifikası (certificado de registro) varsa tek adımda polis birimine EX23 formu, geçerli pasaport, 790 kodu 012 harç belgesi ve fotoğrafla başvurursun.",
+            "Tek adımda EX23 formunu, geçerli pasaportunu (süresi dolduysa kopyasını ve yenileme başvurusunu), 790 kodu 012 harç belgesini ve kimlik belgesi kurallarına uygun fotoğrafı götür.",
+            "Karar en çok üç ay içinde bildirilir; bildirimden sonra bir ay içinde polis birimine şahsen gidip EX23 formu, pasaport, 790 kodu 012 harç belgesi ve fotoğrafla belgeni iste."
+          ]
+        },
+        {
+          "id": "sevilla:junta-kayit-ofisi-randevu-alma-adimlari",
+          "sheet": "Yanıtlar",
+          "row": 137,
+          "sentences": [
+            "Junta ofisi randevusunu Cita previa uygulamasından ya da 012 / 955 012 012 numaralarından alırsın.",
+            "Telefonla istersen 012 ya da 955 012 012'yi ara; bu numaralarda otomatik randevu sistemi çalışır, DNI ya da NIE numaranı hazır tut."
+          ]
+        },
+        {
+          "id": "sevilla:sosyal-hizmetler-merkezi-acil-sosyal-yardim-endulus",
+          "sheet": "Yanıtlar",
+          "row": 161,
+          "sentences": [
+            "Genel bilgi için Junta de Andalucía'nın 012 ya da 955 012 012 hattını ara.",
+            "Junta de Andalucía'nın sayfaları Sevilla'daki merkezlerin adresini, randevu yolunu, istenen belgeleri ve yardımın ne kadar sürede verildiğini belirtmiyor; bilgi için 012 ya da 955 012 012."
+          ]
+        },
+        {
+          "id": "sevilla:endulus-imv-tamamlayici-yardim-ve-bono-social-termico",
+          "sheet": "Yanıtlar",
+          "row": 164,
+          "sentences": [
+            "Yardımlar hakkında daha fazla bilgi için Junta'nın 012 ya da 955 012 012 numaralı telefonları var."
+          ]
+        },
+        {
+          "id": "sevilla:sevilla-junta-012-hatti-bilgi-ve-randevu",
+          "sheet": "Yanıtlar",
+          "row": 181,
+          "sentences": [
+            "Junta de Andalucía'nın 012 hattından hangi bilgi ve randevu hizmetlerini alırsın?",
+            "012 telefonu, sohbet, web formu ve kayıt ofisi randevusu",
+            "012 ve 955 012 012, Junta de Andalucía'nın genel bilgi hattı."
+          ]
+        },
+        {
+          "id": "sevilla:noter-islemleri-ve-ucretleri",
+          "sheet": "Yanıtlar",
+          "row": 194,
+          "sentences": [
+            "Değeri olan işlemde ölçeği uygula: değer 6.010,12 euroyu aşmıyorsa tarife tutarı 90,15 euro; fazla kısım için 6.010,13 ile 30.050,61 euro arasında binde 4,5; 30.050,62 ile 60.101,21 euro arasında bind"
+          ]
+        },
+        {
+          "id": "sevilla:junta-kayit-yardim-ofisleri-sevilla",
+          "sheet": "Yanıtlar",
+          "row": 200,
+          "sentences": [
+            "Randevulu gitmen önerilir: ofisi, günü ve saati seçerek randevuyu Cita previa uygulamasından ya da 012 / 955 012 012 telefonundan al; ikisinde de DNI ya da NIE numaran gerekir.",
+            "Hattın saatleri \"Junta de Andalucía'nın 012 hattından hangi bilgi ve randevu hizmetlerini alırsın?\" sorusunda."
+          ]
+        },
+        {
+          "id": "sevilla:term:038",
+          "sheet": "Sözlük",
+          "row": 45,
+          "sentences": [
+            "012 (Junta de Andalucía bilgi hattı)"
+          ]
+        },
+        {
+          "id": "sevilla:step:5",
+          "sheet": "Adımlar",
+          "row": 12,
+          "sentences": [
+            "Randevu ve ofis bilgisi için 012'yi ara",
+            "012 ya da 955 012 012'yi pazartesi-cuma 08:00-20:00 arasında ara; kayıt ofisleri için telefonla otomatik randevu alınabilir."
+          ]
+        }
+      ]
+    },
+    {
+      "anchor": "aeat",
+      "kind": "sozluk",
+      "farkli_deger": [
+        "tarih"
+      ],
+      "values": {
+        "sure": [
+          "3 ay"
+        ],
+        "tarih": [
+          "12 mayis",
+          "23 eylul",
+          "3 temmuz"
+        ],
+        "ucret": [
+          "10000 €"
+        ]
+      },
+      "mentions": [
+        {
+          "id": "sevilla:sevilla-okul-yeri-yetersizse-puanlama-ve-oncelik-kriterleri",
+          "sheet": "Yanıtlar",
+          "row": 22,
+          "sentences": [
+            "Gelir puanını istiyorsan Vergi İdaresi'nin (AEAT) gelir bilgisini vermesine yazılı izin ver; istemiyorsan izin vermeyebilirsin."
+          ]
+        },
+        {
+          "id": "sevilla:ab-disi-paket-gumruk-iva",
+          "sheet": "Yanıtlar",
+          "row": 69,
+          "sentences": [
+            "AEAT'a göre AB dışından internetten alışverişte IVA ödenir: satıcı IOSS sistemine katılıyorsa fiyata IVA dahildir, katılmıyorsa paketi İspanya'ya sokan taşıyıcı IVA'yı tahsil eder ve teslimden önce ma",
+            "AEAT gümrük vergisini tüketiciden talep etmez; yalnız satıcı ya da platformun gümrük beyanı için görevlendirdiği kişiden ister."
+          ]
+        },
+        {
+          "id": "sevilla:serbest-calisan-autonomo-kayit-ve-prim-tablosu",
+          "sheet": "Yanıtlar",
+          "row": 94,
+          "sentences": [
+            "Sevilla'daki CADE adresleri \"Sevilla'da serbest çalışmaya başlarken AEAT vergi idaresi ofisleri nerede, CADE'den nasıl yardım alırsın?\" sorusunda."
+          ]
+        },
+        {
+          "id": "sevilla:sevilla-serbest-calisma-vergi-dairesi-ofisleri-ve-cade",
+          "sheet": "Yanıtlar",
+          "row": 102,
+          "sentences": [
+            "Sevilla'da serbest çalışmaya başlarken AEAT vergi idaresi ofisleri nerede, CADE'den nasıl yardım alırsın?",
+            "Alta için AEAT'ın Sevilla ofisleri ve Andalucía Emprende CADE noktaları",
+            "AEAT'ın Sevilla şehrindeki idareleri Sevilla Centro (Plaza Ministro Indalecio Prieto 1), Heliópolis (Avenida de las Razas 6) ve Nervión (Calle Monte Tabor 4) idareleridir; ofis saatleri hafta içi 09:0"
+          ]
+        },
+        {
+          "id": "sevilla:kdv-iva-oranlari",
+          "sheet": "Yanıtlar",
+          "row": 147,
+          "sentences": [
+            "İspanya'da genel KDV (IVA) oranı %21'dir; azaltılmış oranlar %10 ve %4'tür ve belirli işlemlere %0 uygulanır (AEAT'nin güncel oran sayfasına göre).",
+            "Genel oran %21; azaltılmış oranlar %10 ve %4; belirli işlemlerde %0 (AEAT'nin güncel oran sayfasına göre)."
+          ]
+        },
+        {
+          "id": "sevilla:yillik-gelir-vergisi-beyani-renta",
+          "sheet": "Yanıtlar",
+          "row": 148,
+          "sentences": [
+            "Beyan internetten, telefonla ya da AEAT ofislerinde randevuyla verilebiliyordu; Sevilla'da şahsen beyan yalnızca AEAT'nin elektronik merkezinde yazılı koşulları sağlayanlara açıktı (Sevilla'daki AEAT ",
+            "Şahsen beyan AEAT ofislerinde randevuyla (cita) yapılıyordu ve yalnızca AEAT'nin elektronik merkezinde yazılı koşulları sağlayanlara açıktı; Sevilla'daki AEAT ofisleri: Delegación Especial de Andalucí"
+          ]
+        },
+        {
+          "id": "sevilla:beckham-yasasi-ozel-vergi-rejimi",
+          "sheet": "Yanıtlar",
+          "row": 155,
+          "sentences": [
+            "Yüksek nitelikli uzmanda AEAT kılavuzu şunu söylüyor: taşınmadan önce oturum izni varsa nitelik şartı sağlanmış sayılır."
+          ]
+        },
+        {
+          "id": "sevilla:sevilla-vergi-dairesi-aeat-ofisleri-ve-cita-previa",
+          "sheet": "Yanıtlar",
+          "row": 158,
+          "sentences": [
+            "Sevilla şehrinde Agencia Tributaria'nın (AEAT) üç ilçe idaresi bulunur: Sevilla Centro (Plaza Ministro Indalecio Prieto 1, 41071), Heliópolis (Avenida de las Razas 6, 41012) ve Nervión (Calle Monte Ta",
+            "Randevuyu AEAT uygulamasından ya da 91 333 5 333 numaralı genel randevu hattından alırsın.",
+            "Randevuyu AEAT uygulamasından ya da 91 333 5 333 numaralı hattan al; hat pazartesi-cuma 9.00-19.00 arası, ağustosta 15.00'e kadar çalışır."
+          ]
+        },
+        {
+          "id": "sevilla:ab-disindan-gelirken-esya-ve-nakit-gumruk-beyani",
+          "sheet": "Yanıtlar",
+          "row": 168,
+          "sentences": [
+            "AEAT'e göre 10.000 euro ve üzeri nakit ya da ödeme aracı girişten önce beyan edilir; ikametini taşıyanın ev eşyası şartlarla vergi muafiyetiyle girebilir",
+            "AEAT'in ödeme araçları sayfasına (23 Eylül 2026'da güncellenmiş) göre İspanya'ya girerken yanında 10.000 euro ya da üzerinde (başka para biriminde karşılığı dahil) nakit veya çek gibi ödeme aracı taşı",
+            "İkametini AB dışından İspanya'ya taşıyorsan ev eşyaların, AEAT'in taşınma sayfasındaki (12 Mayıs 2026'da güncellenmiş) şartlar sağlanırsa gümrük vergisi ve vergi muafiyetiyle girebilir."
+          ]
+        },
+        {
+          "id": "sevilla:ab-disindan-evcil-hayvanla-ispanyaya-giris",
+          "sheet": "Yanıtlar",
+          "row": 169,
+          "sentences": [
+            "AEAT'in evcil hayvan sayfasına göre AB dışından gelen hayvan mikroçiple (ya da 3 Temmuz 2011'den önce yapılmış dövmeyle) tanımlanmış olmalı ve yolculuk anında geçerli bir kuduz aşısı taşımalıdır.",
+            "AEAT sayfası bu konuda hâlâ eski Reglamento (UE) 577/2013 Ek II listesine atıf yapıyor (listede olmayan ülkeyi \"kuduz riski taşıyan ülke\" diye anıyor).",
+            "AEAT'e göre AB hayvan pasaportu yoksa hayvan, geldiği üçüncü ülkenin resmî veterinerinin imzaladığı zoosanitario sertifikası (en az Kastilyaca) ve beyanla gelir."
+          ]
+        },
+        {
+          "id": "sevilla:ab-disindan-gelen-yolcunun-bagaj-muafiyeti",
+          "sheet": "Yanıtlar",
+          "row": 173,
+          "sentences": [
+            "Bu kural AEAT'in güncel sayfasında AB dışındaki ülkelerden (üçüncü ülke) gelen yolcular için yazılıdır; kişisel kullanım için ilaçların değeri hesaba katılmaz.",
+            "Andorra'dan gelen yolcular için AEAT sayfasında ayrı ve farklı sınırlar yazılıdır; bu karttaki sınırlar Andorra dışındaki üçüncü ülkeler içindir."
+          ]
+        },
+        {
+          "id": "sevilla:vergi-numarasi-nif-nie-alma",
+          "sheet": "Yanıtlar",
+          "row": 190,
+          "sentences": [
+            "DNI ya da NIE'n yoksa NIF'in atanmasını Agencia Tributaria'dan (AEAT) istersin; DNI/NIE'si olmayan kişinin NIF başvurusu Modelo 030 ile, yüz yüze gitmeden yapılır.",
+            "NIE'n yoksa ve vergi açısından sonuç doğuran bir işlem yapacaksan AEAT'nin \"NIF Persona física\" sayfasından Modelo 030 (DNI/NIE'si olmayan kişinin NIF talebi, yüz yüze olmayan) başvurusunu yap.",
+            "AEAT'nin NIF sayfası Modelo 030 başvurusunda hangi belgelerin istendiğini, bir ücret olup olmadığını ve NIF'in ne kadar sürede verildiğini belirtmiyor; bilgi için aynı sayfadaki Asistente virtual Cens"
+          ]
+        },
+        {
+          "id": "sevilla:fnmt-dijital-sertifika-kurma",
+          "sheet": "Yanıtlar",
+          "row": 192,
+          "sentences": [
+            "Seguridad Social'ın kimlik doğrulama ofisleri de bu ağda; AEAT, Seguridad Social ve bazı diğer ofislerde randevu gerekir; randevuyu seçtiğin ofisin kendisinden iste."
+          ]
+        },
+        {
+          "id": "sevilla:arac-kaydi-ulusal-cerceve",
+          "sheet": "Yanıtlar",
+          "row": 198,
+          "sentences": [
+            "Yurtdışından alınan yeni araç, AB'den: KDV ödeme belgesi (AEAT modelo 309 ya da 300) veya KDV mükellefleri sicilinde kayıt belgesi; ITV'nin ficha técnica'sı"
+          ]
+        },
+        {
+          "id": "sevilla:term:047",
+          "sheet": "Sözlük",
+          "row": 54,
+          "sentences": [
+            "AEAT (Agencia Tributaria, vergi dairesi)"
+          ]
+        }
+      ]
+    },
+    {
+      "anchor": "libro de familia",
+      "kind": "sozluk",
+      "farkli_deger": [
+        "tarih"
+      ],
+      "values": {
+        "tarih": [
+          "26 ekim",
+          "3 mart"
+        ]
+      },
+      "mentions": [
+        {
+          "id": "sevilla:ingreso-minimo-vital-ve-cocuk-destegi",
+          "sheet": "Yanıtlar",
+          "row": 10,
+          "sentences": [
+            "Çocukların için libro de familia ya da Registro Civil'in verdiği doğum belgesini ekle.",
+            "Libro de familia ya da Registro Civil doğum belgesi (çocuklar için)"
+          ]
+        },
+        {
+          "id": "sevilla:sevilla-yenidogan-bebek-nufus-kaydi-registro-civil",
+          "sheet": "Yanıtlar",
+          "row": 17,
+          "sentences": [
+            "Sevilla'daki Registro Civil ofisleri 3 Mart 2025'ten beri DICIREG adlı elektronik sistemle ve Ley 20/2011'e göre çalışır (Registro Civil exclusivo Nº1 de Sevilla'nın resmî adı o tarihten beri Oficina ",
+            "Kayıt bitince libro de familia verilmez; doğum kaydının certificación'ı (sertifikası) verilir.",
+            "26 Ekim 2026 itibarıyla Sevilla'daki Registro Civil ofisleri 3 Mart 2025'ten beri DICIREG ile çalışır ve yeni libro de familia vermez (BOE)."
+          ]
+        },
+        {
+          "id": "sevilla:sevilla-dogum-sonrasi-saglik-sosyal-guvenlik-ve-padron-adimlari",
+          "sheet": "Yanıtlar",
+          "row": 18,
+          "sentences": [
+            "Sağlık güvencesi olan (titular) ebeveyn olarak bebeği yararlanıcı (beneficiario) diye INSS'in CAISS merkezlerinde ya da 'Tu Seguridad Social' sitesinden Seguridad Social'a ekle; başvuruyu sağlık güven",
+            "Seguridad Social kaydı için Registro Civil'den aldığın doğum kaydı sertifikası (Seguridad Social metninde certificado de nacimiento) ya da elinde varsa libro de familia (güncellenmemişse doğumun tam m"
+          ]
+        },
+        {
+          "id": "sevilla:sevilla-okul-yeri-yetersizse-puanlama-ve-oncelik-kriterleri",
+          "sheet": "Yanıtlar",
+          "row": 22,
+          "sentences": [
+            "Libro de familia'nın onaylı kopyası (yazılı tüm sayfalarla): tek ebeveynli aile olduğunu, idarenin kayıtlardan bilgi almasına itiraz edersen bununla kanıtlarsın; çoğul doğum için de kaynak libronun on",
+            "Libro de familia Sevilla'da 3 Mart 2025'ten beri yeni verilmiyor; Registro Civil yerine doğum sertifikası (certificación) veriyor"
+          ]
+        },
+        {
+          "id": "sevilla:familia-numerosa-unvani-alma-yenileme-ve-sevilla-basvurusu",
+          "sheet": "Yanıtlar",
+          "row": 25,
+          "sentences": [
+            "Belgeleri hazırla: kimlikler, Libro de Familia, empadronamiento belgeleri ve gerekiyorsa gelir beyanı (aşağıdaki belge listesine bak).",
+            "Libro de Familia kopyası (üçüncü ülke vatandaşlarında benzeri belge); ilk başvuruda her durumda gerekir",
+            "Libro de Familia Sevilla'da 3 Mart 2025'ten beri yeni verilmiyor; Registro Civil yerine doğum ve evlilik sertifikası (certificación) veriyor"
+          ]
+        },
+        {
+          "id": "sevilla:emvisesa-ppr-2026-kira-yardimi",
+          "sheet": "Yanıtlar",
+          "row": 40,
+          "sentences": [
+            "Aile cüzdanı (Libro de Familia) fotokopisi: EMVISESA'nın belge listesi bunu istiyor.",
+            "Libro de Familia Sevilla'da 3 Mart 2025'ten beri yeni verilmiyor; Registro Civil yerine doğum ve evlilik sertifikası veriyor.",
+            "Elindeki Libro de Familia varsa fotokopisini ekle."
+          ]
+        },
+        {
+          "id": "sevilla:issizlik-maasi-paro-sepe-basvurusu",
+          "sheet": "Yanıtlar",
+          "row": 92,
+          "sentences": [
+            "Çocuk varsa Libro de Familia ya da doğum veya aile sicil belgesi (yabancılarda resmî İspanyolca çevirili eşdeğeri)"
+          ]
+        },
+        {
+          "id": "sevilla:libro-de-familia-nedir",
+          "sheet": "Yanıtlar",
+          "row": 195,
+          "sentences": [
+            "Libro de Familia (aile cüzdanı) nedir, hâlâ veriliyor mu?",
+            "Sevilla'daki Registro Civil ofisleri 3 Mart 2025'ten beri DICIREG'li: Libro de Familia verilmez, sertifika verilir",
+            "Sevilla'da Libro de Familia (aile cüzdanı) artık verilmiyor: Sevilla'daki Registro Civil ofisleri 3 Mart 2025'ten beri DICIREG (elektronik sivil sicil sistemi) ile çalışıyor ve DICIREG'li ofislerde Li"
+          ]
+        },
+        {
+          "id": "sevilla:registro-civil-ne-ise-yarar",
+          "sheet": "Yanıtlar",
+          "row": 196,
+          "sentences": [
+            "DICIREG sistemine geçmiş ofislerde Libro de Familia verilmez; yerine doğum ve evlilik sertifikası (aile sertifikası işler hâle geldiğinde aile sertifikası) düzenlenir.",
+            "DICIREG'e geçmemiş ofisler Libro de Familia vermeye ve güncellemeye devam eder; ancak doğum sağlık merkezinden bildirildiyse yalnız elektronik doğum sertifikası düzenlenir ve bu sertifikayı Adalet Bak"
+          ]
+        },
+        {
+          "id": "sevilla:sevilla-registro-civil-adres-ve-telefonlar",
+          "sheet": "Yanıtlar",
+          "row": 205,
+          "sentences": [
+            "26 Ekim 2026 itibarıyla bu ofis 3 Mart 2025'ten beri DICIREG ile çalışır; yeni libro de familia vermez, kayıtların sertifikasını verir (BOE)."
+          ]
+        },
+        {
+          "id": "sevilla:kamu-saglik-sistemine-erisim-hak-sahipleri",
+          "sheet": "Yanıtlar",
+          "row": 206,
+          "sentences": [
+            "Yasal ikamet yolu, sağlık merkezine (her belgenin aslı ve fotokopisiyle): tarjeta sanitaria başvuru formu (modelo de solicitud), DNI, kart yararlanıcı (eş ya da çocuk) için isteniyorsa yararlanıcı 14 "
+          ]
+        },
+        {
+          "id": "sevilla:endulus-saglik-karti-tarjeta-sanitaria-ve-aile-hekimi-secimi",
+          "sheet": "Yanıtlar",
+          "row": 213,
+          "sentences": [
+            "14 yaşından büyük yararlanıcı için DNI; 14 yaşından küçük ya da yeni doğan için Libro de Familia (Junta sayfasının istediği belge)",
+            "Libro de Familia Sevilla'da 3 Mart 2025'ten beri yeni verilmiyor; kaydı yapılan bebek için Registro Civil kaydın sertifikasını (certificación de nacimiento) veriyor"
+          ]
+        },
+        {
+          "id": "sevilla:term:012",
+          "sheet": "Sözlük",
+          "row": 19,
+          "sentences": [
+            "libro de familia (aile cüzdanı)",
+            "DICIREG (elektronik sivil sicil sistemi) devreye girmiş Registro Civil ofislerinde yeni libro de familia düzenlenmez, yerine doğum ve evlilik sertifikası verilir; DICIREG'e geçmemiş ofislerde ise libr",
+            "Sevilla'daki Registro Civil ofisleri 3 Mart 2025'ten beri DICIREG ile çalışır, yani Sevilla'da yeni libro de familia verilmez."
+          ]
+        }
+      ]
+    },
+    {
+      "anchor": "emasesa",
+      "kind": "sozluk",
+      "farkli_deger": [
+        "ucret"
+      ],
+      "values": {
+        "tarih": [
+          "18 subat"
+        ],
+        "ucret": [
+          "2369 €",
+          "3084 €",
+          "4089 €"
+        ]
+      },
+      "mentions": [
+        {
+          "id": "sevilla:su-aboneligi-emasesa-ilk-kez",
+          "sheet": "Yanıtlar",
+          "row": 57,
+          "sentences": [
+            "Sevilla'da su aboneliği (EMASESA) nasıl açılır, hangi belgeler istenir?",
+            "Sevilla'da su sözleşmesini EMASESA ile yaparsın.",
+            "Ücret ödenip şartlar tamamlanınca EMASESA suyu en geç 15 iş günü içinde açmakla yükümlüdür; işler için gereken izin ya da ruhsatlar gecikirse bu süre durur."
+          ]
+        },
+        {
+          "id": "sevilla:su-sozlesmesi-devir-cambio-titularidad-ve-baja",
+          "sheet": "Yanıtlar",
+          "row": 58,
+          "sentences": [
+            "Taşındığın evde su sözleşmesi başka birinin adınaysa yeni abonelik değil, EMASESA'dan devir (transferencia ya da cambio de titularidad) istersin.",
+            "Devir ücretsizdir; yalnız olası borçlar için EMASESA kasasına bir teminat (fianza) yatırılır.",
+            "Devri EMASESA'nın Oficina Online'ından iste."
+          ]
+        },
+        {
+          "id": "sevilla:su-fiyati-kisi-sayisina-gore-emasesa-tarifesi",
+          "sheet": "Yanıtlar",
+          "row": 59,
+          "sentences": [
+            "EMASESA'nın tarife sayfasındaki m³ fiyat örneği 2025 yılına aittir: evde 3 kişi kayıtlıysa aylık 7 m³ tüketimde m³ başına 2,369 euro, 15 m³'te 3,084 euro, 30 m³'te 4,089 euro çıkar; bu tutarlara KDV v",
+            "EMASESA konut tüketimini evde kayıtlı (padrón ile kanıtlanmış) kişi sayısına göre faturalar; tarife kişi başına tüketim bloklarından oluşur.",
+            "EMASESA 18 Şubat 2026 tarihli BOP 33/2026 yönetmeliğiyle yeni tarifeler yayımladı; 2026 tarifelerinin kendisi bu yönetmelikte yer alır; EMASESA'nın tarife sayfasındaki m³ fiyat tablosu ise 2025 yılı i"
+          ]
+        },
+        {
+          "id": "sevilla:emasesa-su-faturasi-nasil-okunur-kalemler",
+          "sheet": "Yanıtlar",
+          "row": 60,
+          "sentences": [
+            "EMASESA su faturası nasıl okunur: sabit ücret, tüketim, canon ve KDV",
+            "EMASESA faturası içme suyu (abastecimiento) ve atık su (saneamiento) hizmetini ve diğer kurumlar adına toplanan canonları kapsar.",
+            "EMASESA'ya göre bir kişinin verimli su tüketimi ayda 3 m³'ü aşmamalı."
+          ]
+        },
+        {
+          "id": "sevilla:emasesa-sosyal-tarife-kimler-yararlanir",
+          "sheet": "Yanıtlar",
+          "row": 61,
+          "sentences": [
+            "EMASESA sosyal su tarifesi (tarifa social): kimler yararlanır, indirim yüzde kaç?",
+            "Yararlananlar: EMASESA'dan su alan ve aynı evde kayıtlı kişilerinin toplam brüt geliri IPREM'e (çoklu etki göstergesi) bağlı sınırların altında kalan haneler.",
+            "Solicitud Tarifa Social formunu doldurup EMASESA'nın Oficina Online'ından, tarifasocial@emasesa.com adresine e-postayla ya da cita previa alarak Puntos de Atención Ciudadana noktalarında ver; gerekli "
+          ]
+        },
+        {
+          "id": "sevilla:emasesa-sosyal-tarife-basvuru-belgeler-yenileme",
+          "sheet": "Yanıtlar",
+          "row": 62,
+          "sentences": [
+            "EMASESA sosyal tarifesine başvuru: nereden, hangi belgelerle, ne kadar süre geçerli, nasıl yenilenir?",
+            "Sosyal tarife başvurusunu Oficina Online'dan, tarifasocial@emasesa.com adresine e-postayla ya da Puntos de Atención Ciudadana'da cita previa alarak yaparsın; imzalı başvuru formu ve gerekli belgeler b",
+            "Eksik olan bir şey varsa EMASESA süre tanıyan bir bildirim gönderir; süre içinde cevap vermezsen başvurudan vazgeçmiş sayılırsın ve yeni form vermen gerekir."
+          ]
+        },
+        {
+          "id": "sevilla:emasesa-su-faturasi-odeme-yollari",
+          "sheet": "Yanıtlar",
+          "row": 63,
+          "sentences": [
+            "EMASESA su faturası nasıl ödenir: kart, Bizum, banka ve otomatik ödeme",
+            "EMASESA faturasını kartla (Pago Rápido, Oficina Online, Mi Emasesa uygulaması ya da telefon), Bizum ile, bankalarda ya da merkez ve müşteri noktalarında ödeyebilirsin.",
+            "Süresi geçmiş faturada EMASESA sana yeni bir ödeme belgesi gönderir."
+          ]
+        },
+        {
+          "id": "sevilla:su-faturasi-odenmezse-kesinti-mektubu-ve-yeniden-baglanma",
+          "sheet": "Yanıtlar",
+          "row": 64,
+          "sentences": [
+            "Fatura gönüllü ödeme süresinde ödenmezse EMASESA sözleşmeye göre suyu kesebilir.",
+            "Kesintiden önce gelen mektup, gönüllü ödeme döneminin bittiğini ve hangi tarihten sonra kesme yetkisi doğduğunu bildirir; borcu mektuptaki tarihten önce EMASESA'nın bir müşteri noktasında ödemen gerek",
+            "Borcu o tarihten önce EMASESA'nın herhangi bir müşteri noktasında öde."
+          ]
+        },
+        {
+          "id": "sevilla:su-sayaci-tahmini-okuma-kacak-kontrolu-yuksek-fatura",
+          "sheet": "Yanıtlar",
+          "row": 65,
+          "sentences": [
+            "Su sayacı, tahmini fatura ve kaçak kontrolü: EMASESA'dan beklenmedik yüksek fatura gelirse",
+            "EMASESA sayaçtan gerçek okuma alamazsa (sayaç arızası, evde kimsenin bulunmaması gibi nedenlerle) faturayı tahmini tüketimle keser; sayaç arızası dışındaki durumlarda tahmin sonradan gerçek okumaya gö",
+            "Okumayı kendin de bildirebilirsin ve EMASESA bunu kontrol eder."
+          ]
+        },
+        {
+          "id": "sevilla:emasesa-sevilla-distrito-sur-ve-este-musteri-noktalari",
+          "sheet": "Yanıtlar",
+          "row": 66,
+          "sentences": [
+            "Sevilla'da EMASESA müşteri noktaları: Distrito Sur ve Distrito Este adresleri, saatleri ve telefon",
+            "Su işlerini yüz yüze halletmek için EMASESA'nın Puntos de Atención Ciudadana noktalarından ikisi şunlardır: Distrito Sur (C/ Jorge Guillén, s/n, 41013) ve Distrito Este (C/ Cueva de Menga, s/n, Urb.",
+            "Randevuyu EMASESA'nın Cita previa servisinden al; bu iki noktada randevusuz hizmet verilmez."
+          ]
+        },
+        {
+          "id": "sevilla:term:041",
+          "sheet": "Sözlük",
+          "row": 48,
+          "sentences": [
+            "EMASESA"
+          ]
+        },
+        {
+          "id": "sevilla:term:042",
+          "sheet": "Sözlük",
+          "row": 49,
+          "sentences": [
+            "tarifa social (EMASESA sosyal su tarifesi)",
+            "EMASESA'nın sıkça sorulan sorular sayfasına göre ayrıca evde kayıtlı 16 yaş üstü kişilerden hiçbirinin, oturduğu ev ile bir garaj ve/veya depo dışındaki gayrimenkullerinin kadastro değeri tabloda beli"
+          ]
+        }
+      ]
+    },
+    {
+      "anchor": "emvisesa",
+      "kind": "sozluk",
+      "farkli_deger": [
+        "tarih"
+      ],
+      "values": {
+        "sure": [
+          "000 hafta"
+        ],
+        "tarih": [
+          "15 eylul",
+          "20 aralik"
+        ]
+      },
+      "mentions": [
+        {
+          "id": "sevilla:sevilla-korumali-konut-kayit-defteri-nedir",
+          "sheet": "Yanıtlar",
+          "row": 33,
+          "sentences": [
+            "Kayıt aracı güncellenirken geçerli geçici yol olarak doldurulmuş formu Sevilla Belediyesi Sede Electrónica'dan \"presentación general\" başlatıp ekleyerek de gönderebilirsin; EMVISESA'nın 'Konut talep e",
+            "Başvuru sayfasına göre yalnız imzalı form yeterli; EMVISESA'nın 'Konut talep et' sayfası ise şartları gösteren belgelerin hazır olmasını istiyor, bu yüzden bu belgeleri de yanında götür."
+          ]
+        },
+        {
+          "id": "sevilla:sevilla-konut-kayit-basvurusu-randevu-ve-form",
+          "sheet": "Yanıtlar",
+          "row": 34,
+          "sentences": [
+            "Başvuru için önce randevu alırsın (Sevilla'dan 010, şehir dışından 955 010 010; belediye web platformunda doğru seçenek 'Emvisesa ve Registro de Demandantes'), sonra imzalı formu ilçendeki vatandaş hi",
+            "Formu EMVISESA'nın sitesinden indirebilir ya da vatandaş hizmet noktalarından alabilirsin.",
+            "Kayıt aracı güncellenirken e-başvuru, belediye elektronik şubesinde 'presentación general' başlatıp doldurduğun formu ekleyerek de yapılıyor; EMVISESA'nın 'Konut talep et' sayfası ayrıca 'Oficina Virt"
+          ]
+        },
+        {
+          "id": "sevilla:korumali-konut-cekilis-gecerlilik-ve-vazgecme",
+          "sheet": "Yanıtlar",
+          "row": 36,
+          "sentences": [
+            "EMVISESA'nın sayfasına göre son çekiliş 20 Aralık 2022'de yapıldı."
+          ]
+        },
+        {
+          "id": "sevilla:sevilla-kira-referans-fiyat-haritasi-ipra",
+          "sheet": "Yanıtlar",
+          "row": 37,
+          "sentences": [
+            "Belediye konut şirketi EMVISESA, şehrin 107 yerleşim mahallesi için interaktif kira referans endeksi yayınlıyor",
+            "EMVISESA'nın IPRA (Índice de Precio de Referencia de Alquiler) uygulaması, Sevilla'nın 107 yerleşim mahallesinin kira referans endeksini interaktif haritada gösterir.",
+            "EMVISESA'nın duyurusuna göre IPRA, kiracının fiilen ödediği kiraya dayanır ve veri olarak AVRA'ya yasal olarak yatırılması gereken depozitoyu (fianza) esas alır; POA ise ev sahiplerinin ilanda istediğ"
+          ]
+        },
+        {
+          "id": "sevilla:emvisesa-ppr-2026-kira-yardimi",
+          "sheet": "Yanıtlar",
+          "row": 40,
+          "sentences": [
+            "EMVISESA kiracısıysan: düşük gelirli aileler için PPR kira yardımı (2026) şartları ve evrakı",
+            "Yalnızca EMVISESA konutlarının kiracıları; sosyal hizmetler kullanıcısı olmak şart; 2026 başvuru süresi 15 Eylül 2026'da doldu",
+            "PPR (Protocolo de Protección a Familias con Pocos Recursos), EMVISESA'nın ya da EMVISESA'nın yönettiği konutların kiracısı ve yasal kullanıcısı olan, risk altındaki ya da dışlanmış ailelere verilen ki"
+          ]
+        },
+        {
+          "id": "sevilla:sevilla-konut-isleri-adresler-emvisesa-registro-omdv",
+          "sheet": "Yanıtlar",
+          "row": 41,
+          "sentences": [
+            "Sevilla'da konut işleri için adresler ve telefonlar: EMVISESA merkezi, Registro ofisi ve Konut Hakkı Ofisi (OMDV)",
+            "San Jerónimo 5'te; EMVISESA merkezi Parque Empresarial Arte Sacro'da",
+            "Konut Hakkı Belediye Ofisi (OMDV) de Avenida de San Jerónimo 5'tedir; genel bilgi ve randevu telefonu 955 476 171, saatleri hafta içi 8:30-14:30 ve salı 16:00-18:30 (randevuyla); EMVISESA kiracılarını"
+          ]
+        },
+        {
+          "id": "sevilla:term:006",
+          "sheet": "Sözlük",
+          "row": 13,
+          "sentences": [
+            "EMVISESA'nın korumalı konut talep kaydına yazılmak için de önceden randevu alman şarttır; randevu 010'u arayarak ya da Sevilla Belediyesi'nin web platformundan alınır."
+          ]
+        },
+        {
+          "id": "sevilla:term:020",
+          "sheet": "Sözlük",
+          "row": 27,
+          "sentences": [
+            "Sevilla'nın 107 yerleşim mahallesi için kira referans endeksini interaktif bir haritada gösteren EMVISESA aracıdır."
+          ]
+        },
+        {
+          "id": "sevilla:term:021",
+          "sheet": "Sözlük",
+          "row": 28,
+          "sentences": [
+            "EMVISESA"
+          ]
+        }
+      ]
+    },
+    {
+      "anchor": "feria de abril",
+      "kind": "sozluk",
+      "farkli_deger": [
+        "tarih"
+      ],
+      "values": {
+        "tarih": [
+          "25 aralik",
+          "6 ocak"
+        ]
+      },
+      "mentions": [
+        {
+          "id": "sevilla:konteyner-renkleri-sevilla",
+          "sheet": "Yanıtlar",
+          "row": 75,
+          "sentences": [
+            "km), Los Naranjos (Su Eminencia ve Sevilla-Utrera yollarının kesişimi), Las Jacarandas (Sevilla-Brenes yolu, Pino Montano II yanı, Ronda Supernorte yakını), Las Palmeras (Polígono Tablada 6; Feria de "
+          ]
+        },
+        {
+          "id": "sevilla:feria-de-abril-el-real-casetas-gunluk-hayat",
+          "sheet": "Yanıtlar",
+          "row": 83,
+          "sentences": [
+            "Sevilla'da Feria de Abril günlerinde şehirde ne olur, casetaya nasıl girilir?"
+          ]
+        },
+        {
+          "id": "sevilla:feria-de-abril-ulasim-park-ve-erisilebilirlik",
+          "sheet": "Yanıtlar",
+          "row": 84,
+          "sentences": [
+            "Sevilla'da Feria de Abril'e otobüs, taksi ya da engelli park kartıyla araçla nasıl gidilir, El Real engelli ve hareket kısıtlı kişiler için erişilebilir mi?"
+          ]
+        },
+        {
+          "id": "sevilla:sevilla-turizm-danisma-noktalari-adres-ve-saatler",
+          "sheet": "Yanıtlar",
+          "row": 175,
+          "sentences": [
+            "Triana tarafında Plaza del Altozano'daki noktaya her gün 09:30-14:30 arasında uğra; her yıl Feria de Abril günlerinde ve 25 Aralık ile 1 ve 6 Ocak'ta kapalı."
+          ]
+        },
+        {
+          "id": "sevilla:jardines-del-prado-de-san-sebastian",
+          "sheet": "Mekânlar",
+          "row": 34,
+          "sentences": [
+            "Jardines del Prado de San Sebastián, Parque de María Luisa'ya ve eski tütün fabrikasına çok yakın bir yeşil alandır; eskiden Feria de Abril bu alana kurulurdu.",
+            "Bahçenin içindeki La Ciudad de los Niños, Sevilla'nın bayram ve geleneklerine saygı duruşu olan 1.164 m²'lik bir çocuk parkı: Feria de Abril'in eski kapısının 34 m genişliğinde ve 15 m yüksekliğinde k"
+          ]
+        },
+        {
+          "id": "sevilla:los-remedios",
+          "sheet": "Mahalleler",
+          "row": 11,
+          "sentences": [
+            "Nehrin öbür yakasında Feria de Abril alanı, yayalaştırılmış Calle Asunción ve yerel yaşam",
+            "Nisan Fuarı'nın (Feria de Abril) kurulduğu Real de la Feria buradadır.",
+            "Feria de Abril sırasında Calle Asunción, Real'e girişin ana yolu oluyor ve kalabalıklaşıyor."
+          ]
+        },
+        {
+          "id": "sevilla:term:053",
+          "sheet": "Sözlük",
+          "row": 60,
+          "sentences": [
+            "Feria de Abril (Nisan Fuarı)"
+          ]
+        }
+      ]
+    },
+    {
+      "anchor": "avra",
+      "kind": "sozluk",
+      "farkli_deger": [
+        "tarih"
+      ],
+      "values": {
+        "tarih": [
+          "23 ocak",
+          "24 ocak"
+        ]
+      },
+      "mentions": [
+        {
+          "id": "sevilla:kira-depozitosu-fianza-ve-iade",
+          "sheet": "Yanıtlar",
+          "row": 27,
+          "sentences": [
+            "AVRA'ya yatırılmış bir fianza'nın iadesini kiraya veren (ya da yasal temsilcisi) 810 numaralı formla ister; idare talepten itibaren bir ay içinde öder.",
+            "Form dijital sertifikayla çevrim içi gönderilir ya da cita previa alınıp AVRA ofisinde teslim edilir; iade için kiraya verenin banka hesabı AVRA'nın GIRO sisteminde kayıtlı olmalıdır.",
+            "AVRA'ya yatırılmış fianza için kiraya verenin iade başvurusu: 810 formu, emlak referansı (referencia catastral) ve AVRA'nın GIRO sisteminde kayıtlı banka hesabı"
+          ]
+        },
+        {
+          "id": "sevilla:endulus-kira-depozitosu-fianza-avra-yatirma-zorunlulugu",
+          "sheet": "Yanıtlar",
+          "row": 32,
+          "sentences": [
+            "Endülüs'te kira depozitosu (fianza) AVRA'ya yatırılır mı: 24 Ocak 2026 öncesi ve sonrası sözleşmeler",
+            "24 Ocak 2026 dahil bu tarihten sonra yapılan kira sözleşmelerinde depozitoyu Endülüs yönetimine (AVRA) yatırma zorunluluğu kaldırılmıştır.",
+            "Kira sözleşmesinin tarihine bak: sözleşme 24 Ocak 2026 ya da sonrasındaysa depozito için AVRA'ya yatırma yükümlülüğü yoktur."
+          ]
+        },
+        {
+          "id": "sevilla:sevilla-kira-referans-fiyat-haritasi-ipra",
+          "sheet": "Yanıtlar",
+          "row": 37,
+          "sentences": [
+            "EMVISESA'nın duyurusuna göre IPRA, kiracının fiilen ödediği kiraya dayanır ve veri olarak AVRA'ya yasal olarak yatırılması gereken depozitoyu (fianza) esas alır; POA ise ev sahiplerinin ilanda istediğ",
+            "AVRA ise Endülüs'te fianzayı AVRA'ya yatırma zorunluluğunun 24 Ocak 2026'dan itibaren yapılan sözleşmelerde kalktığını bildiriyor.",
+            "IPRA'nın dayandığı depozito verisi AVRA'ya yatan fianzadır; 24 Ocak 2026'dan itibaren yapılan sözleşmelerde AVRA'ya yatırma zorunlu olmadığı için IPRA'nın depozito verisi bu sözleşmeleri tam kapsamaz."
+          ]
+        },
+        {
+          "id": "sevilla:avra-eski-fianza-iade-basvurusu-model-810",
+          "sheet": "Yanıtlar",
+          "row": 44,
+          "sentences": [
+            "Eski kira depozitosunu (fianza) AVRA'dan geri almak: Model 810 formu, belgeler ve bir aylık süre",
+            "Endülüs'te 23 Ocak 2026'ya (dahil) kadar yapılan kira sözleşmelerinde depozito (fianza) AVRA'ya (Endülüs Konut ve Yenileme Ajansı) yatırılıyordu.",
+            "AVRA, talepten itibaren bir ay içinde depozitoyu iade eder."
+          ]
+        },
+        {
+          "id": "sevilla:term:019",
+          "sheet": "Sözlük",
+          "row": 26,
+          "sentences": [
+            "AVRA",
+            "AVRA'nın tam adı Agencia de Vivienda y Rehabilitación de Andalucía, yani Endülüs konut ve yenileme ajansıdır."
+          ]
+        },
+        {
+          "id": "sevilla:term:020",
+          "sheet": "Sözlük",
+          "row": 27,
+          "sentences": [
+            "Endeks, kiracının fiilen ödediği kirayı esas alır (veri olarak AVRA'ya yatırılan depozito, yani fianza kullanılır); kira piyasası hakkında herkese açık güncel bilgi verir."
+          ]
+        }
+      ]
+    },
+    {
+      "anchor": "semana santa",
+      "kind": "sozluk",
+      "farkli_deger": [
+        "tarih"
+      ],
+      "values": {
+        "tarih": [
+          "15 eylul",
+          "15 haziran",
+          "16 eylul",
+          "16 haziran",
+          "28 mart"
+        ]
+      },
+      "mentions": [
+        {
+          "id": "sevilla:semana-santa-2027-sevilla-gunluk-hayat",
+          "sheet": "Yanıtlar",
+          "row": 82,
+          "sentences": [
+            "Sevilla'da Semana Santa 2027'de ne zaman, günlük hayatı nasıl etkiler?",
+            "Sevilla Turizm Kurumu'na göre Semana Santa 2027'de 21-28 Mart arasında kutlanır.",
+            "Misafirin geliyorsa konaklamayı erkenden ayarla; Semana Santa Sevilla'nın en yoğun turizm dönemlerinden biridir."
+          ]
+        },
+        {
+          "id": "sevilla:sevilla-turizm-danisma-noktalari-adres-ve-saatler",
+          "sheet": "Yanıtlar",
+          "row": 175,
+          "sentences": [
+            "Her yıl Semana Santa haftasında (Domingo de Ramos'tan Sábado Santo'ya) 09:30-15:00 açık."
+          ]
+        },
+        {
+          "id": "sevilla:basilica-de-la-macarena",
+          "sheet": "Mekânlar",
+          "row": 68,
+          "sentences": [
+            "Basílica de la Macarena 1949'da açıldı ve Semana Santa'nın en tanınmış kardeşliklerinden Hermandad de la Esperanza Macarena'ya ev sahipliği yapıyor; 17."
+          ]
+        },
+        {
+          "id": "sevilla:iglesia-de-san-vicente",
+          "sheet": "Mekânlar",
+          "row": 107,
+          "sentences": [
+            "Üç şapelde Sevilla Semana Santa'sının iki kardeşliği, Las Penas ve Las Siete Palabras, yer alıyor."
+          ]
+        },
+        {
+          "id": "sevilla:archivo-historico-provincial-de-sevilla",
+          "sheet": "Mekânlar",
+          "row": 111,
+          "sentences": [
+            "16 Eylül-15 Haziran arası hafta içi 08.45-14.30, 16 Haziran-15 Eylül arası 08.45-14.00 açık; Semana Santa ve Feria'nın tatil olmayan günlerinde 09.00-13.30; ulusal, bölgesel ve yerel tatillerde kapalı"
+          ]
+        },
+        {
+          "id": "sevilla:term:054",
+          "sheet": "Sözlük",
+          "row": 61,
+          "sentences": [
+            "Semana Santa (Kutsal Hafta)"
+          ]
+        }
+      ]
+    },
+    {
+      "anchor": "bienal de flamenco",
+      "kind": "sozluk",
+      "farkli_deger": [
+        "tarih"
+      ],
+      "values": {
+        "tarih": [
+          "11 eylul",
+          "2 ekim"
+        ],
+        "ucret": [
+          "30 €"
+        ]
+      },
+      "mentions": [
+        {
+          "id": "sevilla:flamenko-bienali-ne-zaman-nasil-izlenir",
+          "sheet": "Yanıtlar",
+          "row": 114,
+          "sentences": [
+            "Sevilla Flamenko Bienali (Bienal de Flamenco) ne zaman, kaç yılda bir yapılır?",
+            "Bienal de Flamenco çift yıllarda yapılır ve flamenkonun en büyük adlarını Sevilla'ya toplar."
+          ]
+        },
+        {
+          "id": "sevilla:andalucia-flamenco-programi-ve-teatro-central",
+          "sheet": "Yanıtlar",
+          "row": 115,
+          "sentences": [
+            "Bienal de Flamenco'nun Teatro Central'daki 2026 gösterileri 11 Eylül-2 Ekim arasında, hepsi 22:30'daydı ve bilet 30 euroydu.",
+            "Bienal de Flamenco 2026'nın Teatro Central gösterileri (30 euro) sona erdi; Junta kültür ajandasındaki etkinlik sayfasında durum \"Finalizada\" (bitti) görünüyor."
+          ]
+        },
+        {
+          "id": "sevilla:teatro-central-sevilla",
+          "sheet": "Mekânlar",
+          "row": 61,
+          "sentences": [
+            "Junta de Andalucía'nın Bienal de Flamenco kaydı, Teatro Central'ı sahne sanatlarında bir öncü mekân (\"espacio de vanguardia\") olarak tanımlıyor; çizgisi yeni biçim, kavram ve sahne dillerine yöneliyor"
+          ]
+        },
+        {
+          "id": "sevilla:term:055",
+          "sheet": "Sözlük",
+          "row": 62,
+          "sentences": [
+            "Bienal de Flamenco (Flamenko Bienali)"
+          ]
+        }
+      ]
+    },
+    {
+      "anchor": "ex-01",
+      "kind": "kod",
+      "farkli_deger": [
+        "ucret"
+      ],
+      "values": {
+        "ucret": [
+          "10,94 €",
+          "16,40 €"
+        ]
+      },
+      "mentions": [
+        {
+          "id": "sevilla:oturum-izni-yenileme",
+          "sheet": "Yanıtlar",
+          "row": 127,
+          "sentences": [
+            "İzin başvurusunu iznin bitişinden önceki iki ay içinde, EX-01 formuyla ve Política Territorial bakanlığının elektronik sedesinden (Mercurio) yaparsın; harç 790 modeli, 052 kodu, 2.2.1 başlığıdır (16,4",
+            "İzin başvurusunu iznin bitişinden önceki iki ay içinde elektronik yap: Política Territorial bakanlığının elektronik sedesinde (Mercurio) EX-01 formunu doldurup imzala; pasaportunun tam kopyasını, madd",
+            "EX-01 formu"
+          ]
+        },
+        {
+          "id": "sevilla:kar-amaci-gutmeyen-oturum-vizesi",
+          "sheet": "Yanıtlar",
+          "row": 132,
+          "sentences": [
+            "Ulusal vize başvuru formunu ve EX-01 formunu doldur; oturum izni harcı için 790 kodu 052 formunu (2.1 başlıklı, ilk geçici oturum izni; kar amacı gütmeyen oturum için 2.1.1 alt başlığı, 10,94 euro) ik",
+            "Ulusal vize başvuru formu ve EX-01 formu"
+          ]
+        },
+        {
+          "id": "sevilla:tasinma-oncesi-vize-ve-ilk-oturum-izni",
+          "sheet": "Yanıtlar",
+          "row": 165,
+          "sentences": [
+            "Oturum izni başvuru formu EX-01, imzalı"
+          ]
+        },
+        {
+          "id": "sevilla:oturum-vizesi-basvurusunda-getirilecek-belgeler",
+          "sheet": "Yanıtlar",
+          "row": 166,
+          "sentences": [
+            "Listede vize formu, oturum izni formu EX-01, fotoğraf, pasaport, maddi yeterlilik belgeleri, sağlık sigortası (İspanya kamu sağlık sisteminin tüm risklerini kapsamalı), sabıka kaydı, tıbbi rapor, kons",
+            "Vize başvuru formunu ve EX-01 oturum izni formunu her bölümünü doldurup imzala.",
+            "Oturum izni başvuru formu EX-01, imzalı"
+          ]
+        }
+      ]
+    },
+    {
+      "anchor": "790-052",
+      "kind": "kod",
+      "farkli_deger": [
+        "ucret"
+      ],
+      "values": {
+        "sure": [
+          "6 ay"
+        ],
+        "ucret": [
+          "10,94 €",
+          "16,08 €",
+          "203,84 €",
+          "407,71 €"
+        ]
+      },
+      "mentions": [
+        {
+          "id": "sevilla:kar-amaci-gutmeyen-oturum-vizesi",
+          "sheet": "Yanıtlar",
+          "row": 132,
+          "sentences": [
+            "Ulusal vize başvuru formunu ve EX-01 formunu doldur; oturum izni harcı için 790 kodu 052 formunu (2.1 başlıklı, ilk geçici oturum izni; kar amacı gütmeyen oturum için 2.1.1 alt başlığı, 10,94 euro) ik",
+            "790 kodu 052 harç formu (2.1 başlıklı)"
+          ]
+        },
+        {
+          "id": "sevilla:ab-disi-isverenle-calisma-ve-oturum-izni-cuenta-ajena",
+          "sheet": "Yanıtlar",
+          "row": 141,
+          "sentences": [
+            "Harçlar başvuruda doğar ve 10 iş günü içinde ödenir: senin harcın 790 kodu 052 (2.1.3) ile 10,94 €; iş izni 6 ay ya da daha uzunsa işveren 790 kodu 062 (3.2.1) ile, ücret asgari ücretin iki katından a",
+            "Çalışan: 10,94 € (790 kodu 052, 2.1.3); işveren (iş izni 6 ay ve üzeri, 790 kodu 062, 3.2.1): ücret asgari ücretin iki katından azsa 203,84 €, iki katı ya da fazlaysa 407,71 €; vize harcı ayrıca ödeni"
+          ]
+        },
+        {
+          "id": "sevilla:sevilla-yabancilar-ofisi-oficina-de-extranjeria-ve-polis-randevusu",
+          "sheet": "Yanıtlar",
+          "row": 143,
+          "sentences": [
+            "Harçları çevrim içi de ödeyebilirsin: oturum harcı 790 kodu 052, çalışma harcı 790 kodu 062 sayfasından."
+          ]
+        }
+      ]
+    },
+    {
+      "anchor": "bono alquiler joven",
+      "kind": "sozluk",
+      "farkli_deger": [
+        "tarih"
+      ],
+      "values": {
+        "tarih": [
+          "13 ocak",
+          "22 haziran"
+        ],
+        "ucret": [
+          "250 €"
+        ]
+      },
+      "mentions": [
+        {
+          "id": "sevilla:bono-alquiler-joven-endulus-2026",
+          "sheet": "Yanıtlar",
+          "row": 38,
+          "sentences": [
+            "Endülüs'te 35 yaş ve altına kira yardımı (Bono Alquiler Joven): kimlere verilir, 2026'da durum ne?",
+            "Bono Alquiler Joven, Endülüs Junta'sının gençlere verdiği kira yardımıdır: aylık en fazla 250 euro, en çok 24 tam ve ardışık ay için; 2026 başvuru dönemi 13 Ocak 2026'da yeniden açıldı ve 22 Haziran 2"
+          ]
+        },
+        {
+          "id": "sevilla:bono-alquiler-joven-kira-tavani-sozlesme-turleri",
+          "sheet": "Yanıtlar",
+          "row": 39,
+          "sentences": [
+            "Bono Alquiler Joven: kira üst sınırı, sözleşme türleri ve kira ödemesini kanıtlama"
+          ]
+        },
+        {
+          "id": "sevilla:term:023",
+          "sheet": "Sözlük",
+          "row": 30,
+          "sentences": [
+            "Bono Alquiler Joven (genç kira yardımı)"
+          ]
+        }
+      ]
+    },
+    {
+      "anchor": "convenio especial",
+      "kind": "sozluk",
+      "farkli_deger": [
+        "ucret"
+      ],
+      "values": {
+        "sure": [
+          "1 yil"
+        ],
+        "ucret": [
+          "157 €",
+          "60 €"
+        ]
+      },
+      "mentions": [
+        {
+          "id": "sevilla:kamu-saglik-sistemine-erisim-hak-sahipleri",
+          "sheet": "Yanıtlar",
+          "row": 206,
+          "sentences": [
+            "Sigortalı ya da yararlanıcı olmayan ve başka bir yoldan kamu sağlık korumasına erişimi bulunmayanlar ücret karşılığı convenio especial (kamu sistemine ücretle katılım sözleşmesi) ile de hizmet alabili",
+            "Sigortalı ya da yararlanıcı değilsen ve başka bir yoldan kamu sağlık korumasına erişimin yoksa convenio especial ile ücret karşılığı kamu sistemine girebilirsin; bunun için başvurudan hemen önce İspan",
+            "Convenio especial: 65 yaş altı aylık 60 €, 65 yaş ve üstü aylık 157 €."
+          ]
+        },
+        {
+          "id": "sevilla:saglik-sigortasi-sarti-ve-convenio-especial",
+          "sheet": "Yanıtlar",
+          "row": 207,
+          "sentences": [
+            "İspanya'da vize ve oturum için sağlık sigortası gerekir mi, kamu sistemine convenio especial ile nasıl girilir?",
+            "Sigorta şartı vize ve oturum türüne bağlıdır; kamu güvencesi olmayanlar için convenio especial aylık 60 € (65 yaş ve üstü 157 €)",
+            "Kamu güvencesi olmayanlar için convenio especial var: Sanidad Bakanlığı sayfasına göre kamu sağlık sistemine (SNS) ücretle katılım sağlar, 65 yaşın altında aylık 60 €, 65 yaş ve üstünde aylık 157 € tu"
+          ]
+        },
+        {
+          "id": "sevilla:term:035",
+          "sheet": "Sözlük",
+          "row": 42,
+          "sentences": [
+            "convenio especial (özel sağlık sözleşmesi)"
+          ]
+        }
+      ]
+    },
+    {
+      "anchor": "iban",
+      "kind": "sozluk",
+      "farkli_deger": [
+        "tarih"
+      ],
+      "values": {
+        "tarih": [
+          "19 subat",
+          "9 ekim"
+        ]
+      },
+      "mentions": [
+        {
+          "id": "sevilla:elektrik-aboneligi-serbest-piyasa-pvpc",
+          "sheet": "Yanıtlar",
+          "row": 48,
+          "sentences": [
+            "Seçtiğin tedarikçiye CUPS kodunu, sözleşme sahibinin adını ve DNI'sini (kimlik numarası), yeni abonelik adresini, Certificado de Instalación ya da Boletín Eléctrico'yu, istediğin gücü ve faturaların ç",
+            "Faturaların çekileceği hesabın IBAN kodu"
+          ]
+        },
+        {
+          "id": "sevilla:iban-ve-sepa-havalesi",
+          "sheet": "Yanıtlar",
+          "row": 145,
+          "sentences": [
+            "İspanya'da IBAN nedir ve SEPA havalesi nasıl çalışır?",
+            "IBAN hesabı tanımlar; SEPA bölgesinde euro ödemeleri yurt içi ve sınır ötesi aynı koşullarda yapılır",
+            "IBAN, hesabı tanımlayan harf ve rakamlardan oluşan bir koddur; uluslararası bir standarda dayanır ve İspanya'da 24 karakterdir."
+          ]
+        },
+        {
+          "id": "sevilla:term:044",
+          "sheet": "Sözlük",
+          "row": 51,
+          "sentences": [
+            "IBAN"
+          ]
+        }
+      ]
+    },
+    {
+      "anchor": "itv",
+      "kind": "sozluk",
+      "farkli_deger": [
+        "ucret"
+      ],
+      "values": {
+        "sure": [
+          "4 yil"
+        ],
+        "ucret": [
+          "33,28 €",
+          "38,39 €",
+          "43,52 €",
+          "48,62 €"
+        ]
+      },
+      "mentions": [
+        {
+          "id": "sevilla:arac-kaydi-ulusal-cerceve",
+          "sheet": "Yanıtlar",
+          "row": 198,
+          "sentences": [
+            "Aracın elektronik ITV kartı (ficha ITV electrónica) olup olmadığına bak; yalnız kâğıt kartı varsa DGT'nin genel başvuru formuyla başvurabilirsin, bunun için dijital DNI, geçerli elektronik sertifika y",
+            "Elektronik ITV kartı (NIVE) ya da satış kaydı düşülmüş ITV kartı; yoksa fatura veya açık artırma tahsis tutanağı",
+            "Yurtdışından alınan yeni araç, AB'den: KDV ödeme belgesi (AEAT modelo 309 ya da 300) veya KDV mükellefleri sicilinde kayıt belgesi; ITV'nin ficha técnica'sı"
+          ]
+        },
+        {
+          "id": "sevilla:itv-arac-muayene-periyotlari",
+          "sheet": "Yanıtlar",
+          "row": 229,
+          "sentences": [
+            "İspanya'da ITV araç muayenesi kaç yılda bir yapılır?",
+            "İspanya'da tescilli bir otomobil (M1) ilk 4 yıl ITV'den muaftır; 4 yılı geçince 2 yılda bir, 10 yılı geçince her yıl muayeneye girer.",
+            "Muayeneyi yetkili ITV istasyonunda yaptır; istasyonları bulunduğu özerk topluluğun yetkili organı yetkilendirir."
+          ]
+        },
+        {
+          "id": "sevilla:term:051",
+          "sheet": "Sözlük",
+          "row": 58,
+          "sentences": [
+            "ITV (araç muayenesi)",
+            "Aracın yolda kullanıma uygun olduğunu, güvenlik ve çevre koşullarını sağladığını kontrol eden muayene; İspanya'da kayıtlı araçlar, yönetmelikte belirtilen durum, sıklık ve istisnalara göre ITV istasyo"
+          ]
+        }
+      ]
+    },
+    {
+      "anchor": "sevici",
+      "kind": "sozluk",
+      "farkli_deger": [
+        "sure"
+      ],
+      "values": {
+        "sure": [
+          "12 ay",
+          "7 gun"
+        ],
+        "ucret": [
+          "150 €"
+        ]
+      },
+      "mentions": [
+        {
+          "id": "sevilla:sevilla-metro-saatleri-otobus-hatti-ve-taksi-telefonlari",
+          "sheet": "Yanıtlar",
+          "row": 176,
+          "sentences": [
+            "Metro ve otobüs müşteri hatları, taksi telefonları ve kamu bisikleti Sevici",
+            "Kısa mesafe için kamu bisikleti Sevici'yi de kullanabilirsin."
+          ]
+        },
+        {
+          "id": "sevilla:sevici-kamu-bisikleti-ve-sevilla-bisiklet-yollari",
+          "sheet": "Yanıtlar",
+          "row": 240,
+          "sentences": [
+            "Sevilla'da kamu bisikleti Sevici'ye nasıl abone olunur, bisiklet yolları ve güvenli bisiklet parkı nerede?",
+            "Sevici, Sevilla'nın kamu bisikleti (bisiklet kiralama) sistemidir; Turismo de Sevilla'ya göre 265 istasyonu ve istasyonlarda 2.600 bisikleti vardır.",
+            "Belediyenin Gerencia de Urbanismo y Medio Ambiente kurumuna göre iki abonelik var: 7 gün art arda sınırsız yolculuk veren kısa süreli abonelik (Abono de Corta Duración) herhangi bir Sevici istasyonund"
+          ]
+        },
+        {
+          "id": "sevilla:term:050",
+          "sheet": "Sözlük",
+          "row": 57,
+          "sentences": [
+            "Sevici"
+          ]
+        }
+      ]
+    },
+    {
+      "anchor": "790-062",
+      "kind": "kod",
+      "farkli_deger": [
+        "ucret"
+      ],
+      "values": {
+        "sure": [
+          "6 ay"
+        ],
+        "ucret": [
+          "10,94 €",
+          "16,08 €",
+          "203,84 €",
+          "407,71 €"
+        ]
+      },
+      "mentions": [
+        {
+          "id": "sevilla:ab-disi-isverenle-calisma-ve-oturum-izni-cuenta-ajena",
+          "sheet": "Yanıtlar",
+          "row": 141,
+          "sentences": [
+            "Harçlar başvuruda doğar ve 10 iş günü içinde ödenir: senin harcın 790 kodu 052 (2.1.3) ile 10,94 €; iş izni 6 ay ya da daha uzunsa işveren 790 kodu 062 (3.2.1) ile, ücret asgari ücretin iki katından a",
+            "Çalışan: 10,94 € (790 kodu 052, 2.1.3); işveren (iş izni 6 ay ve üzeri, 790 kodu 062, 3.2.1): ücret asgari ücretin iki katından azsa 203,84 €, iki katı ya da fazlaysa 407,71 €; vize harcı ayrıca ödeni"
+          ]
+        },
+        {
+          "id": "sevilla:sevilla-yabancilar-ofisi-oficina-de-extranjeria-ve-polis-randevusu",
+          "sheet": "Yanıtlar",
+          "row": 143,
+          "sentences": [
+            "Harçları çevrim içi de ödeyebilirsin: oturum harcı 790 kodu 052, çalışma harcı 790 kodu 062 sayfasından."
+          ]
+        }
+      ]
+    },
+    {
+      "anchor": "aussa",
+      "kind": "sozluk",
+      "farkli_deger": [
+        "ucret"
+      ],
+      "values": {
+        "tarih": [
+          "60 ekim"
+        ],
+        "ucret": [
+          "0,45 €",
+          "0,60 €",
+          "0,65 €",
+          "1,25 €",
+          "1,70 €",
+          "2,00 €",
+          "4,60 €"
+        ]
+      },
+      "mentions": [
+        {
+          "id": "sevilla:sevilla-park-etmek-mavi-bolge-aussa-otoparklar",
+          "sheet": "Yanıtlar",
+          "row": 243,
+          "sentences": [
+            "Sevilla'da araç park etmek: mavi bölge (zona regulada) ve AUSSA otoparkları nasıl işler?",
+            "Sevilla'da sokakta düzenlemeli park (halk arasında zona azul, bugünkü adı GES) hafta içi 9:00-14:00 ve 17:00-20:00, cumartesi 10:00-14:00 ücretlidir; parkmetreye ya da AUSSA'nın Apparkya uygulamasına ",
+            "AUSSA'nın Ekim 2026 itibarıyla verdiği tarifeye göre üç bölge türü var: Zona MAR (çok yüksek devir) en az 35 dakika 0,60 €, en çok 60 dakika 1,25 €; Zona Azul en az 35 dakika 0,45 €, en çok 120 dakika"
+          ]
+        },
+        {
+          "id": "sevilla:term:052",
+          "sheet": "Sözlük",
+          "row": 59,
+          "sentences": [
+            "AUSSA (düzenli park yönetimi)"
+          ]
+        }
+      ]
+    },
+    {
+      "anchor": "cita previa",
+      "kind": "sozluk",
+      "farkli_deger": [],
+      "values": {},
+      "mentions": [
+        {
+          "id": "sevilla:sevilla-yenidogan-bebek-nufus-kaydi-registro-civil",
+          "sheet": "Yanıtlar",
+          "row": 17,
+          "sentences": [
+            "Ofisin yeni doğan kaydı (Inscripción recién nacidos) hattı 600 15 80 95'tir; cita previa için Adalet Bakanlığı'nın çevrim içi randevu sayfasını kullan."
+          ]
+        },
+        {
+          "id": "sevilla:familia-numerosa-unvani-alma-yenileme-ve-sevilla-basvurusu",
+          "sheet": "Yanıtlar",
+          "row": 25,
+          "sentences": [
+            "Yüz yüze başvuruda elektronik araçların yoksa kayıt bürosunda yardım alabilirsin; bunun için cita previa önerilir."
+          ]
+        },
+        {
+          "id": "sevilla:kira-depozitosu-fianza-ve-iade",
+          "sheet": "Yanıtlar",
+          "row": 27,
+          "sentences": [
+            "Form dijital sertifikayla çevrim içi gönderilir ya da cita previa alınıp AVRA ofisinde teslim edilir; iade için kiraya verenin banka hesabı AVRA'nın GIRO sisteminde kayıtlı olmalıdır."
+          ]
+        },
+        {
+          "id": "sevilla:endulus-kira-depozitosu-fianza-avra-yatirma-zorunlulugu",
+          "sheet": "Yanıtlar",
+          "row": 32,
+          "sentences": [
+            "Eski rejimde AVRA'ya yatırılmış bir depozitoyu geri almak için sözleşme sona erince kiraya veren (ya da yasal temsilcisi) iade talebinde bulunur: 810 formunu çevrim içi dijital sertifikayla doldurur, "
+          ]
+        },
+        {
+          "id": "sevilla:avra-eski-fianza-iade-basvurusu-model-810",
+          "sheet": "Yanıtlar",
+          "row": 44,
+          "sentences": [
+            "Kiraya verenden 810 numaralı iade formunu doldurmasını iste: dijital sertifikayla internetten; internette doldurup çıktısını bir AVRA ofisine vererek; ya da randevu (cita previa) alıp ofiste kâğıt üze"
+          ]
+        },
+        {
+          "id": "sevilla:su-aboneligi-emasesa-ilk-kez",
+          "sheet": "Yanıtlar",
+          "row": 57,
+          "sentences": [
+            "Başvuruyu Oficina Online'dan evden verebilir ya da Puntos de Atención Ciudadana'da cita previa (randevu) alarak yüz yüze yapabilirsin.",
+            "Oficina Online'dan başvur ya da Puntos de Atención Ciudadana için cita previa al; yüz yüze gidiyorsan doldurulmuş ve çıktısı alınmış başvuru formunu götür (Solicitud para la Instalación de Suministro "
+          ]
+        },
+        {
+          "id": "sevilla:su-sozlesmesi-devir-cambio-titularidad-ve-baja",
+          "sheet": "Yanıtlar",
+          "row": 58,
+          "sentences": [
+            "Yüz yüze gitmek istersen Puntos de Atención Ciudadana noktalarına cita previa (randevu) al; Sevilla'da örneğin Distrito Sur noktası C/ Jorge Guillén s/n, 41013 adresindedir ve randevusuz hizmet vermez"
+          ]
+        },
+        {
+          "id": "sevilla:emasesa-sosyal-tarife-kimler-yararlanir",
+          "sheet": "Yanıtlar",
+          "row": 61,
+          "sentences": [
+            "Solicitud Tarifa Social formunu doldurup EMASESA'nın Oficina Online'ından, tarifasocial@emasesa.com adresine e-postayla ya da cita previa alarak Puntos de Atención Ciudadana noktalarında ver; gerekli "
+          ]
+        },
+        {
+          "id": "sevilla:emasesa-sosyal-tarife-basvuru-belgeler-yenileme",
+          "sheet": "Yanıtlar",
+          "row": 62,
+          "sentences": [
+            "Sosyal tarife başvurusunu Oficina Online'dan, tarifasocial@emasesa.com adresine e-postayla ya da Puntos de Atención Ciudadana'da cita previa alarak yaparsın; imzalı başvuru formu ve gerekli belgeler b",
+            "Formu ve belgeleri Oficina Online'dan, tarifasocial@emasesa.com adresine e-postayla ya da cita previa ile bir müşteri noktasında teslim et."
+          ]
+        },
+        {
+          "id": "sevilla:emasesa-su-faturasi-odeme-yollari",
+          "sheet": "Yanıtlar",
+          "row": 63,
+          "sentences": [
+            "EMASESA yüz yüze hizmet verdiği her noktada randevuyu zorunlu tutar; yüz yüze ödeyeceksen önce cita previa al.",
+            "İade edilen faturayı Calle Escuelas Pías 1'deki merkez ofiste (EMASESA'nın sık sorulan sorular sayfasına göre pazartesi-cuma 8:00-14:15) ya da anlaşmalı bankalarda ödeyebilirsin; merkez dahil yüz yüze"
+          ]
+        },
+        {
+          "id": "sevilla:su-faturasi-odenmezse-kesinti-mektubu-ve-yeniden-baglanma",
+          "sheet": "Yanıtlar",
+          "row": 64,
+          "sentences": [
+            "Sözleşme yapmadan suyu kullanıyorsan EMASESA 'uso fraudulento' mektubu gönderir; durumu düzeltmek için cita previa alıp sözleşmeni düzenlersin."
+          ]
+        },
+        {
+          "id": "sevilla:emasesa-sevilla-distrito-sur-ve-este-musteri-noktalari",
+          "sheet": "Yanıtlar",
+          "row": 66,
+          "sentences": [
+            "İkisinde de cita previa (randevu) olmadan hizmet alınmaz.",
+            "Randevuyu EMASESA'nın Cita previa servisinden al; bu iki noktada randevusuz hizmet verilmez."
+          ]
+        },
+        {
+          "id": "sevilla:idi-sevilla-universitesi-ispanyolca-kursu",
+          "sheet": "Yanıtlar",
+          "row": 78,
+          "sentences": [
+            "Kayıt için IDI sitesindeki Secretaría bölümünde Matrícula (kayıt) ve Cita previa (ön randevu) sayfalarını kullan; kurs ücretleri aynı bölümdeki Precios públicos (kamu fiyatları) sayfasında."
+          ]
+        },
+        {
+          "id": "sevilla:sevilla-serbest-calisma-vergi-dairesi-ofisleri-ve-cade",
+          "sheet": "Yanıtlar",
+          "row": 102,
+          "sentences": [
+            "Yardım ve kayıt desteği için CADE Sevilla – Centro'ya (C/ Sales y Ferré 2, 41004; telefon 671 532 397) ya da CADE Sevilla – PCT Cartuja'ya (C/ Américo Vespucio 3, Edificio C-7, 1ª planta, 41092; telef"
+          ]
+        },
+        {
+          "id": "sevilla:junta-kayit-ofisi-randevu-alma-adimlari",
+          "sheet": "Yanıtlar",
+          "row": 137,
+          "sentences": [
+            "Junta ofisi randevusunu Cita previa uygulamasından ya da 012 / 955 012 012 numaralarından alırsın."
+          ]
+        },
+        {
+          "id": "sevilla:sevilla-yabancilar-ofisi-oficina-de-extranjeria-ve-polis-randevusu",
+          "sheet": "Yanıtlar",
+          "row": 143,
+          "sentences": [
+            "Plaza de España, Torre Norte; izin başvurusu çevrim içi, TIE için polis randevusu cita previa sayfasından",
+            "İzin başvurularını çevrim içi Mercurio sisteminden verirsin; dijital sertifikan yoksa ilk başvurun (solicitud inicial) için ofis randevusunu 955 56 94 96 telefonundan (09:00-14:00) ya da cita_previa_e",
+            "TIE'nin çıkarılması (parmak izi) ve teslimi için polis randevusu devletin cita previa (ICP) sayfasından alınır; aynı sayfanın polis işlemleri bölümü TIE randevusu için sevilla.oue@policia.es e-postası"
+          ]
+        },
+        {
+          "id": "sevilla:sevilla-vergi-dairesi-aeat-ofisleri-ve-cita-previa",
+          "sheet": "Yanıtlar",
+          "row": 158,
+          "sentences": [
+            "Şehirde Sevilla Centro, Heliópolis ve Nervión idareleri var; ofiste yüz yüze işlem için randevu (cita previa) gerekir"
+          ]
+        },
+        {
+          "id": "sevilla:opaef-vergi-odeme-yollari-ve-banka-talimati-domiciliacion",
+          "sheet": "Yanıtlar",
+          "row": 163,
+          "sentences": [
+            "Ofiste ödeme için önce e-ofisten ya da 900 700 100 numarasından randevu (cita previa) al."
+          ]
+        },
+        {
+          "id": "sevilla:junta-kayit-yardim-ofisleri-sevilla",
+          "sheet": "Yanıtlar",
+          "row": 200,
+          "sentences": [
+            "Randevulu gitmen önerilir: ofisi, günü ve saati seçerek randevuyu Cita previa uygulamasından ya da 012 / 955 012 012 telefonundan al; ikisinde de DNI ya da NIE numaran gerekir."
+          ]
+        },
+        {
+          "id": "sevilla:seguridad-social-telefonla-randevu-caiss",
+          "sheet": "Yanıtlar",
+          "row": 201,
+          "sentences": [
+            "Telefon istemezsen sede.seg-social.gob.es üzerindeki cita previa sayfasından sertifikasız randevu alabilirsin."
+          ]
+        },
+        {
+          "id": "sevilla:dgt-sevilla-randevu-ve-kimler-randevusuz-gider",
+          "sheet": "Yanıtlar",
+          "row": 202,
+          "sentences": [
+            "DGT'nin Sevilla'daki ofislerinde işlem yapmak için genel kural olarak önceden randevu (cita previa) almalısın; DGT randevuyu en geç talepten sonraki on beş gün içinde vermeye çalışır.",
+            "DGT cita previa sayfasından internet üzerinden, miDGT uygulamasından ya da 060'ı arayarak randevu al."
+          ]
+        },
+        {
+          "id": "sevilla:sevilla-registro-civil-adres-ve-telefonlar",
+          "sheet": "Yanıtlar",
+          "row": 205,
+          "sentences": [
+            "Yüz yüze işlem için önce Registro Civil cita previa (randevu) sayfasından randevu al, sonra C/ Vermondo Resta s/n, 41018 adresindeki Registro Civil Exclusivo Nº 1'e git."
+          ]
+        },
+        {
+          "id": "sevilla:hamilelik-dogum-ve-cocuk-sagligi-haklari",
+          "sheet": "Yanıtlar",
+          "row": 211,
+          "sentences": [
+            "Ödenek başvurusunu INSS'e yap: sertifika ya da Cl@ve ile sede electrónica'dan yapabilirsin; yüz yüze işlem için INSS'in cita previa servisinden randevu al (bilgi hattı 901 16 65 65)."
+          ]
+        },
+        {
+          "id": "sevilla:ruh-sagligi-ve-yasli-bakimi-dependencia",
+          "sheet": "Yanıtlar",
+          "row": 212,
+          "sentences": [
+            "Endülüs'te bağımlılık derecesi için başvurunu Junta de Andalucía'nın internet hizmetinden sertifika ya da Cl@ve ile yap; yüz yüze istersen randevu (cita previa) alıp bir kayıt yardım ofisinde (oficina"
+          ]
+        },
+        {
+          "id": "sevilla:term:006",
+          "sheet": "Sözlük",
+          "row": 13,
+          "sentences": [
+            "cita previa (önceden randevu)"
+          ]
+        }
+      ]
+    },
+    {
+      "anchor": "cl ve",
+      "kind": "sozluk",
+      "farkli_deger": [],
+      "values": {
+        "sure": [
+          "10 gun"
+        ],
+        "tarih": [
+          "26 mart"
+        ],
+        "ucret": [
+          "166,50 €"
+        ]
+      },
+      "mentions": [
+        {
+          "id": "sevilla:egitim-sistemi-zorunlu-egitim-ve-okul-turleri",
+          "sheet": "Yanıtlar",
+          "row": 8,
+          "sentences": [
+            "Elektronik başvuruda iANDE anahtarı, dijital sertifika ya da Cl@ve"
+          ]
+        },
+        {
+          "id": "sevilla:sevilla-okul-basvurusu-ve-matrikul-online-secretaria-virtual-iande",
+          "sheet": "Yanıtlar",
+          "row": 21,
+          "sentences": [
+            "Kimlik doğrulaması için üç yol var: iANDE anahtarı, dijital sertifika ve Cl@ve.",
+            "iANDE anahtarın yoksa ya da yenisi gerekiyorsa herhangi bir okula yüz yüze git ve iste; dijital sertifika ya da Cl@ve de kullanılabilir.",
+            "iANDE anahtarı (iPASEN'den) ya da dijital sertifika ya da Cl@ve"
+          ]
+        },
+        {
+          "id": "sevilla:familia-numerosa-unvani-alma-yenileme-ve-sevilla-basvurusu",
+          "sheet": "Yanıtlar",
+          "row": 25,
+          "sentences": [
+            "İnternetten VEAJA'dan (dijital sertifika veya Cl@ve gerekir) ya da Presentación Electrónica General'den, yüz yüze ise herhangi bir kamu kayıt bürosundan (oficina de asistencia en materia de registros)"
+          ]
+        },
+        {
+          "id": "sevilla:elektrik-ve-telekom-sikayet-yollari",
+          "sheet": "Yanıtlar",
+          "row": 55,
+          "sentences": [
+            "Operatörden bir ay içinde yanıt alamazsan ya da yanıt seni tatmin etmezse OAUT'a başvur; başvuruyu elektronik sertifika ya da Cl@ve ile internetten yapabilir ya da formu imzalayıp idarenin herhangi bi"
+          ]
+        },
+        {
+          "id": "sevilla:serbest-calisan-autonomo-kayit-ve-prim-tablosu",
+          "sheet": "Yanıtlar",
+          "row": 94,
+          "sentences": [
+            "Importass uygulamasında Cl@ve, dijital sertifika ya da geçerli başka bir yöntemle kimliğini doğrula.",
+            "Cl@ve, dijital sertifika ya da geçerli başka bir kimlik doğrulama yöntemi"
+          ]
+        },
+        {
+          "id": "sevilla:yabanci-diploma-denklik-okul-ve-universite",
+          "sheet": "Yanıtlar",
+          "row": 96,
+          "sentences": [
+            "Üniversite diploması için harç: 166,50 euro (homologación ya da declaración de equivalencia başvurusunda); kartla ya da hesaptan (NIF/NIE ve Cl@ve gerekir), Modelo 790-107 ile ya da yurtdışından haval"
+          ]
+        },
+        {
+          "id": "sevilla:endulus-sae-is-arayan-kaydi-demandante-de-empleo",
+          "sheet": "Yanıtlar",
+          "row": 97,
+          "sentences": [
+            "Cl@ve veya dijital sertifikayla gönderirsen kaydın geçerli olur; kullanıcı adı ve şifreyle gönderirsen kimliğini doğrulamak için randevu alıp iş bürosunda (oficina de empleo) kaydı tamamlarsın.",
+            "Cl@ve veya dijital sertifikayla gönderdiysen kaydın geçerlidir."
+          ]
+        },
+        {
+          "id": "sevilla:sevilla-sehrinde-is-ofisleri-adresleri",
+          "sheet": "Yanıtlar",
+          "row": 98,
+          "sentences": [
+            "İnternetten yapılabilen işler için (kayıt, yenileme, değişiklik) ofise gitmeden Cl@ve, dijital sertifika ya da kullanıcı adı ve şifreyle devam et."
+          ]
+        },
+        {
+          "id": "sevilla:sevilla-dijital-kimlik-bildirim-yuz-yuze-yardim",
+          "sheet": "Yanıtlar",
+          "row": 138,
+          "sentences": [
+            "Cl@ve, dijital sertifika ve elektronik bildirim için Junta kayıt ofislerinde yüz yüze yardım var mı?",
+            "Junta kayıt ofislerinin randevu sistemi: kimlik ve imza (Cl@ve, dijital sertifika), bildirim, Carpeta Ciudadana ve vekâlet kaydı hizmetleri",
+            "Junta kayıt yardım ofislerinin randevu sistemi (merkeze göre aradığında seçtiğin ildeki ofisler listelenir), belge sunmanın yanında kimlik ve imza (dijital sertifika, Cl@ve), elektronik bildirime eriş"
+          ]
+        },
+        {
+          "id": "sevilla:yillik-gelir-vergisi-beyani-renta",
+          "sheet": "Yanıtlar",
+          "row": 148,
+          "sentences": [
+            "İnternetten verenler Agencia Tributaria'nın elektronik merkezine tanınmış elektronik sertifika, Cl@ve Móvil, referans numarası ya da eIDAS ile giriyordu."
+          ]
+        },
+        {
+          "id": "sevilla:gestor-asesor-vergi-beyani-temsil",
+          "sheet": "Yanıtlar",
+          "row": 150,
+          "sentences": [
+            "Beyanı kendin vermek istiyorsan Agencia Tributaria'nın elektronik merkezine tanınmış elektronik sertifika, Cl@ve Móvil, referans numarası ya da eIDAS ile gir."
+          ]
+        },
+        {
+          "id": "sevilla:sosyal-guvenlik-numarasi-alma",
+          "sheet": "Yanıtlar",
+          "row": 188,
+          "sentences": [
+            "Cl@ve ya da dijital sertifikan yoksa: DNI/NIE'nin iki yüzünün kopyası ve kimlik belgesinin ön yüzü elinde çekilmiş bir selfie"
+          ]
+        },
+        {
+          "id": "sevilla:vida-laboral-raporu-alma",
+          "sheet": "Yanıtlar",
+          "row": 189,
+          "sentences": [
+            "Vida laboral raporunu Seguridad Social'ın çevrimiçi \"Informe de tu vida laboral\" sayfasından Cl@ve, DNIe, elektronik sertifika, SMS ya da selfie ile kimliğini doğrulayarak alırsın.",
+            "Kimlik yöntemini seç: Cl@ve Permanente, Cl@ve Móvil, DNIe, elektronik sertifika ya da SMS yolu.",
+            "Kimlik doğrulama yöntemlerinden biri: Cl@ve Permanente, Cl@ve Móvil, DNIe, elektronik sertifika ya da SMS yolu"
+          ]
+        },
+        {
+          "id": "sevilla:clave-pin-ve-permanente-farki",
+          "sheet": "Yanıtlar",
+          "row": 191,
+          "sentences": [
+            "Cl@ve sistemi: Cl@ve uygulaması (Cl@ve Móvil) ile Cl@ve Permanente farkı nedir?",
+            "Cl@ve uygulaması telefonla onay verir, Permanente kalıcı şifreyle çalışır",
+            "Cl@ve uygulamasında (Cl@ve Móvil) kimlik doğrulama istekleri telefonuna gelir; Cl@ve Permanente'de ise DNI ya da NIE'nle, kullanıcı kodunla ve aktivasyonda kendin belirlediğin şifreyle girersin."
+          ]
+        },
+        {
+          "id": "sevilla:arac-kaydi-ulusal-cerceve",
+          "sheet": "Yanıtlar",
+          "row": 198,
+          "sentences": [
+            "Aracın elektronik ITV kartı (ficha ITV electrónica) olup olmadığına bak; yalnız kâğıt kartı varsa DGT'nin genel başvuru formuyla başvurabilirsin, bunun için dijital DNI, geçerli elektronik sertifika y"
+          ]
+        },
+        {
+          "id": "sevilla:endulus-carpeta-ciudadana-junta-dijital-islemler",
+          "sheet": "Yanıtlar",
+          "row": 199,
+          "sentences": [
+            "Junta işlemleri, belgeleri, randevuları ve kartları tek uygulamada; giriş Cl@ve ya da dijital sertifika ile",
+            "Girişte kimliğini Cl@ve ile ya da dijital sertifika ile doğrularsın.",
+            "Kimliğini Cl@ve ile ya da dijital sertifikayla doğrula."
+          ]
+        },
+        {
+          "id": "sevilla:hamilelik-dogum-ve-cocuk-sagligi-haklari",
+          "sheet": "Yanıtlar",
+          "row": 211,
+          "sentences": [
+            "Ödenek başvurusunu INSS'e yap: sertifika ya da Cl@ve ile sede electrónica'dan yapabilirsin; yüz yüze işlem için INSS'in cita previa servisinden randevu al (bilgi hattı 901 16 65 65)."
+          ]
+        },
+        {
+          "id": "sevilla:ruh-sagligi-ve-yasli-bakimi-dependencia",
+          "sheet": "Yanıtlar",
+          "row": 212,
+          "sentences": [
+            "Endülüs'te bağımlılık derecesi için başvurunu Junta de Andalucía'nın internet hizmetinden sertifika ya da Cl@ve ile yap; yüz yüze istersen randevu (cita previa) alıp bir kayıt yardım ofisinde (oficina"
+          ]
+        },
+        {
+          "id": "sevilla:endulus-saglik-karti-tarjeta-sanitaria-ve-aile-hekimi-secimi",
+          "sheet": "Yanıtlar",
+          "row": 213,
+          "sentences": [
+            "Aile hekimini ve merkezi, evinin bağlı olduğu sağlık bölgesindeki (distrito sanitario) profesyoneller arasından seçersin; merkezde başvurursan yanıt 45 günden önce gelir, Cl@ve, dijital sertifika ya d",
+            "Cl@ve, dijital sertifika ya da e-DNI'ın varsa seçimi ClicSalud+ üzerinden yap, hekim değişikliği hemen işlenir; atama belgesini yazdır ya da kaydet.",
+            "Cl@ve, dijital sertifika ya da e-DNI'ın yoksa hekim ve merkez seçimini yalnızca sağlık merkezinde yapabilirsin; oturmadığın bir yerleşimdeki merkezi seçersen de merkezde yapılır."
+          ]
+        },
+        {
+          "id": "sevilla:saglik-merkezi-randevu-yollari-clicsalud-salud-responde",
+          "sheet": "Yanıtlar",
+          "row": 219,
+          "sentences": [
+            "ClicSalud+ portalı için dijital sertifika, DNIe veya Cl@ve gerekir; sayfa, aile hekimliği randevusu adımında kişiyi kişisel veriyle tanımlamayı da sayıyor.",
+            "Dijital sertifikan, DNIe'n ya da Cl@ve'in varsa ClicSalud+'ta kimliğini doğrula, muayene türünü seç, takvimden gün ve saati seç."
+          ]
+        },
+        {
+          "id": "sevilla:randevu-iptal-degistirme-hastane-randevusu-avisas-justificante",
+          "sheet": "Yanıtlar",
+          "row": 220,
+          "sentences": [
+            "Hastane ve tetkik randevularını çevrim içi değiştirmek için dijital sertifika, DNIe, Cl@ve veya mobil QR gerekir; görüntüleme tetkiki için ise randevu mektubundaki telefondan merkezi aramalısın.",
+            "Hastane randevusunu görmek için dijital sertifika, DNIe ya da Cl@ve ile ClicSalud+'a gir; değiştirmek için dijital sertifika, DNIe, Cl@ve ya da mobil QR kullan.",
+            "Kişisel veriyle girersen yalnızca sağlık merkezi randevularının belgesini görürsün; hastane ve tetkik belgeleri için dijital sertifika, DNIe veya Cl@ve gerekir."
+          ]
+        },
+        {
+          "id": "sevilla:ucus-gecikme-iptal-aesa-sikayet",
+          "sheet": "Yanıtlar",
+          "row": 230,
+          "sentences": [
+            "AESA'ya elektronik yoldan (dijital sertifika, Cl@ve Permanente ya da Cl@ve'i olmayan yabancılar için önceden kayıt gerektiren e4F; Cl@ve PIN imza vermediği için bununla başvuru baştan sona yapılamaz, "
+          ]
+        },
+        {
+          "id": "sevilla:term:007",
+          "sheet": "Sözlük",
+          "row": 14,
+          "sentences": [
+            "Cl@ve",
+            "Cl@ve Permanente kullanıcı kodu (DNI veya NIE) ve şifreyle çalışır; Cl@ve uygulaması ise kimlik doğrulamayı ve elektronik imzayı tek yerde toplar."
+          ]
+        }
+      ]
+    },
+    {
+      "anchor": "112",
+      "kind": "sozluk",
+      "farkli_deger": [],
+      "values": {},
+      "mentions": [
+        {
+          "id": "sevilla:diger-resmi-yardim-hatlari",
+          "sheet": "Yanıtlar",
+          "row": 70,
+          "sentences": [
+            "İspanya'da 112 dışında hangi resmî yardım hatları var (016, 021, 028, 024)?",
+            "Evet, 112 dışında konuya özel resmî hatlar var: 016, 021, 028, ATENPRO, 900 19 10 10 ve 024.",
+            "Yaşamı hemen tehdit eden acil bir durumda doğrudan 112'yi ara."
+          ]
+        },
+        {
+          "id": "sevilla:endulus-112-nasil-calisir",
+          "sheet": "Yanıtlar",
+          "row": 73,
+          "sentences": [
+            "Sevilla'da 112'yi arayınca ne olur, hangi dillerde cevap verirler?",
+            "Endülüs 112 hattı ücretsiz ve kesintisiz; İspanyolca, İngilizce, Fransızca, Almanca ve Arapça yanıt veriliyor",
+            "Sevilla'da 112'yi aradığında operatörler İspanyolca, İngilizce, Fransızca, Almanca ve Arapça cevap verir; açılışta \"Emergencias 112 Andalucía, ¿dígame?\" der, sonra ne olduğunu, nerede olduğunu ve tele"
+          ]
+        },
+        {
+          "id": "sevilla:endulus-bilgi-hatlari-salud-consumo-012",
+          "sheet": "Yanıtlar",
+          "row": 74,
+          "sentences": [
+            "Bunlar bilgi hatlarıdır; hayati tehlikede 112 ya da 061'i ara.",
+            "Hayati tehlike varsa bu hatları değil 112'yi ya da 061'i ara.",
+            "Bunlar bilgi hatlarıdır; hayati tehlikede 112 ya da 061'i ara."
+          ]
+        },
+        {
+          "id": "sevilla:sevilla-junta-012-hatti-bilgi-ve-randevu",
+          "sheet": "Yanıtlar",
+          "row": 181,
+          "sentences": [
+            "061 ve 112 bu hattın dışında; onları doğrudan ararsın.",
+            "Acil durumda 112'yi, sağlık acilinde 061'i doğrudan ara; bunlar 012 kapsamında değil."
+          ]
+        },
+        {
+          "id": "sevilla:acil-durumda-112",
+          "sheet": "Yanıtlar",
+          "row": 209,
+          "sentences": [
+            "112 Avrupa ortak acil çağrı numarasıdır, arama ücretsizdir; çağrı bulunduğun bölgedeki merkeze yönlendirilir",
+            "112'yi ara: Avrupa ortak (tek Avrupa) acil çağrı numarasıdır, İspanya'da ulusal düzeyde kullanılır ve aramalar ücretsizdir (Real Decreto 903/1997); idarelerin kullandığı başka acil çağrı hizmetleri de",
+            "Sağlık acili, yangın ve kurtarma, vatandaş güvenliği ya da sivil koruma yardımı gerektiren acil bir durumda 112'yi çevir."
+          ]
+        },
+        {
+          "id": "sevilla:salud-responde-24-saat-saglik-hatti-ceviri-hizmeti",
+          "sheet": "Yanıtlar",
+          "row": 221,
+          "sentences": [
+            "Acil durumda Salud Responde'yi değil 112'yi ya da 061'i ara."
+          ]
+        },
+        {
+          "id": "sevilla:endulus-acil-061-112-urgencia-emergencia-farki",
+          "sheet": "Yanıtlar",
+          "row": 222,
+          "sentences": [
+            "Endülüs'te 061 ile 112 arasındaki fark ne, hafif bir rahatsızlıkta nereye gidilir?",
+            "061, sağlık acilleri (emergencia sanitaria) için doğrudan arama hattıdır; 112 Andalucía ise tek numarayla sağlık, yangın söndürme ve kurtarma, vatandaş güvenliği ve sivil koruma acillerini karşılar.",
+            "112 Andalucía tek ve ücretsiz numaradır, çağrıları İspanyolca, İngilizce, Fransızca, Almanca ve Arapça yanıtlayan ekip karşılar."
+          ]
+        },
+        {
+          "id": "sevilla:sevilla-ruh-sagligi-024-hatti-ve-ruh-sagligi-birimleri",
+          "sheet": "Yanıtlar",
+          "row": 225,
+          "sentences": [
+            "Hayati tehlike ya da kriz anında 112'yi (tek ve ücretsiz numara) ya da 061'i ara; Endülüs'te 112 çağrıları İspanyolca, İngilizce, Fransızca, Almanca ve Arapça karşılanır."
+          ]
+        },
+        {
+          "id": "sevilla:ucus-gecikme-iptal-aesa-sikayet",
+          "sheet": "Yanıtlar",
+          "row": 230,
+          "sentences": [
+            "İmzalı formu Agencia Estatal de Seguridad Aérea, División de Derechos de los Pasajeros, Paseo de la Castellana 112, 28046 Madrid adresine postayla gönder ya da AESA'nın, devlet, özerk topluluk ve yere"
+          ]
+        },
+        {
+          "id": "sevilla:term:037",
+          "sheet": "Sözlük",
+          "row": 44,
+          "sentences": [
+            "112 (acil çağrı hattı)"
+          ]
+        },
+        {
+          "id": "sevilla:term:038",
+          "sheet": "Sözlük",
+          "row": 45,
+          "sentences": [
+            "061 ve 112 bu hizmetin kapsamı dışındadır."
+          ]
+        }
+      ]
+    },
+    {
+      "anchor": "ingreso minimo vital",
+      "kind": "sozluk",
+      "farkli_deger": [],
+      "values": {
+        "ucret": [
+          "8400 €"
+        ]
+      },
+      "mentions": [
+        {
+          "id": "sevilla:ingreso-minimo-vital-ve-cocuk-destegi",
+          "sheet": "Yanıtlar",
+          "row": 10,
+          "sentences": [
+            "İspanya'da Ingreso Mínimo Vital ve çocuk yardımı eki (complemento de ayuda para la infancia) kimlere verilir, yabancı için ikamet şartı nedir?",
+            "Ingreso Mínimo Vital (IMV, asgari yaşamsal gelir), ekonomik açıdan kırılgan durumdaki kişilere ve birlikte yaşayan birimlere (unidad de convivencia) verilir; yararlanıcılar (bireysel başvuranlar ve bi",
+            "Başvuruyu Seguridad Social'ın elektronik şubesindeki Servicio Ingreso Mínimo Vital üzerinden yap; IMV'yi ve çocuk ekini buradan talep edersin."
+          ]
+        },
+        {
+          "id": "sevilla:emvisesa-ppr-2026-kira-yardimi",
+          "sheet": "Yanıtlar",
+          "row": 40,
+          "sentences": [
+            "Sosyal Güvenlik entegre yardım belgesi (Ingreso Mínimo Vital alıp almadığını gösterir)"
+          ]
+        },
+        {
+          "id": "sevilla:bono-social-elektrik-kimler-alir",
+          "sheet": "Yanıtlar",
+          "row": 52,
+          "sentences": [
+            "Savunmasız sayılmak için şunlardan biri yeter: birlikte yaşayanların yıllık toplam geliri IPREM'in 1,5 katını aşmamak (sayfada 14 maaşlı 1 IPREM = 8.400 euro), büyük aile (familia numerosa) belgesi, g",
+            "Savunmasız tüketici ölçütlerinden birine uyup uymadığına bak: birlikte yaşayanların toplam yıllık geliri en çok IPREM'in 1,5 katı (sayfada 14 maaşlı 1 IPREM = 8.400 euro olarak verilir; her ek yetişki"
+          ]
+        },
+        {
+          "id": "sevilla:aile-birlesimi-ile-oturum",
+          "sheet": "Yanıtlar",
+          "row": 128,
+          "sentences": [
+            "Genel gelir şartı iki kişilik aile birimi için aylık IPREM'in yüzde 150'si, her ek kişi için yüzde 50'sidir; aile birimi biri çocuk iki kişiyse yıllık Ingreso Mínimo Vital (asgari geçim geliri) garant",
+            "Gelir: genel kural iki kişilik aile birimi için aylık IPREM'in yüzde 150'si, her ek kişi için yüzde 50'si; aile birimi biri çocuk iki kişiyse yıllık Ingreso Mínimo Vital (asgari geçim geliri) garantil"
+          ]
+        },
+        {
+          "id": "sevilla:kalici-oturum-bes-yil",
+          "sheet": "Yanıtlar",
+          "row": 129,
+          "sentences": [
+            "Küçükler ve temsil edilen kişiler söz konusuysa bu tutar düşürülebilir: asgari ücrete (salario mínimo interprofesional) eşit ya da daha yüksek istikrarlı gelir yeterli sayılır; aile birimi biri çocuk "
+          ]
+        },
+        {
+          "id": "sevilla:yillik-gelir-vergisi-beyani-renta",
+          "sheet": "Yanıtlar",
+          "row": 148,
+          "sentences": [
+            "Ingreso Mínimo Vital (IMV) alan kişiler ve aynı yaşam birimindeki herkes, IMV'yi sürdürebilmek için, geliri yukarıdaki sınırların altında kalsa bile her yıl IRPF beyanı verir."
+          ]
+        },
+        {
+          "id": "sevilla:rmisa-asgari-gelir-destegi-kimler-yararlanir-tutar",
+          "sheet": "Yanıtlar",
+          "row": 159,
+          "sentences": [
+            "RMISA, ulusal Ingreso Mínimo Vital (IMV) ile aynı destek değildir; Junta sayfası IMV'yi ayrı bir destek olarak sunar ve Seguridad Social bağlantısına yönlendirir."
+          ]
+        },
+        {
+          "id": "sevilla:endulus-imv-tamamlayici-yardim-ve-bono-social-termico",
+          "sheet": "Yanıtlar",
+          "row": 164,
+          "sentences": [
+            "Endülüs'te Ingreso Mínimo Vital alanlara tamamlayıcı yardım ve ısınma desteği (Bono Social Térmico) var mı?",
+            "Junta de Andalucía, Ingreso Mínimo Vital (IMV) aldığı halde kısa vadede geçim ihtiyaçlarını karşılayamayan aileler için olağanüstü bir tamamlayıcı yardım (Ayuda Complementaria al IMV) sunar; yardım yı",
+            "Ayuda Complementaria al Ingreso Mínimo Vital\" bağlantısından, Bono Social Térmico için aynı sayfadaki \"Cómo realizar el trámite\" bağlantısından ulaşırsın (aşağıdaki Bilgi al düğmesi bu sayfayı açar)."
+          ]
+        },
+        {
+          "id": "sevilla:recete-ilac-katilim-payi-copago",
+          "sheet": "Yanıtlar",
+          "row": 208,
+          "sentences": [
+            "Katkıdan muaf olanlar arasında iş kazası ve meslek hastalığı tedavileri, asgari yaşam geliri (ingreso mínimo vital) alanlar, katkısız emekli aylığı alanlar ve %33 ve üzeri engelli çocuklar vardır."
+          ]
+        },
+        {
+          "id": "sevilla:term:057",
+          "sheet": "Sözlük",
+          "row": 64,
+          "sentences": [
+            "Ingreso Mínimo Vital (IMV, asgari yaşam geliri)"
+          ]
+        }
+      ]
+    },
+    {
+      "anchor": "irpf",
+      "kind": "sozluk",
+      "farkli_deger": [],
+      "values": {
+        "ucret": [
+          "300000 €"
+        ]
+      },
+      "mentions": [
+        {
+          "id": "sevilla:issizlik-maasi-paro-sepe-basvurusu",
+          "sheet": "Yanıtlar",
+          "row": 92,
+          "sentences": [
+            "Brüt tutardan sosyal güvenlik primi ve gerektiğinde IRPF stopajı (retención) düşülür"
+          ]
+        },
+        {
+          "id": "sevilla:ab-disi-isverenle-calisma-ve-oturum-izni-cuenta-ajena",
+          "sheet": "Yanıtlar",
+          "row": 141,
+          "sentences": [
+            "İşverenin kimlik ya da şirket belgeleri, son üç yıla ait IRPF, IVA ya da kurumlar vergisi beyannamesi veya şirketin çalışan kayıt raporu (VILE) ve yapılacak işin tanımı (memoria descriptiva)",
+            "Ev hizmetinde (servicio doméstico) işverenin NIF ya da NIE kopyası ve son IRPF beyannamesi ya da vergi idaresinden gelir belgesi"
+          ]
+        },
+        {
+          "id": "sevilla:gelir-vergisi-irpf-devlet-dilimleri",
+          "sheet": "Yanıtlar",
+          "row": 146,
+          "sentences": [
+            "İspanya'da gelir vergisi (IRPF) dilimleri nelerdir?",
+            "Renta 2025 kılavuzuna göre (2025 geliri, 2026'da verilen beyan) IRPF devlet ölçeği, genel vergi matrahı (base liquidable general) için şöyledir: 12.450 euroya kadar %9,50, 12.450-20.200 euro arası %12"
+          ]
+        },
+        {
+          "id": "sevilla:yillik-gelir-vergisi-beyani-renta",
+          "sheet": "Yanıtlar",
+          "row": 148,
+          "sentences": [
+            "Ingreso Mínimo Vital (IMV) alan kişiler ve aynı yaşam birimindeki herkes, IMV'yi sürdürebilmek için, geliri yukarıdaki sınırların altında kalsa bile her yıl IRPF beyanı verir.",
+            "Zorunluluk sınırlarının altında kalsan bile IRPF mevzuatından doğan bir iade (örneğin kesintiler ya da annelik, kalabalık aile ve bakmakla yükümlü engelli indirimleri nedeniyle) istiyorsan beyan verme"
+          ]
+        },
+        {
+          "id": "sevilla:beckham-yasasi-ozel-vergi-rejimi",
+          "sheet": "Yanıtlar",
+          "row": 155,
+          "sentences": [
+            "Rejim, taşınması sonucu İspanya'da vergi mukimi olan ve gelir vergisini Mukim Olmayanlar Gelir Vergisi (IRNR) kurallarıyla ödemeyi seçen kişiler içindir; bu süre boyunca IRPF mükellefi kalırsın."
+          ]
+        },
+        {
+          "id": "sevilla:endulus-gelir-vergisi-irpf-bolge-dilimleri-ve-indirimleri",
+          "sheet": "Yanıtlar",
+          "row": 156,
+          "sentences": [
+            "Endülüs'te gelir vergisinin (IRPF) bölge dilimleri nelerdir, bölgesel indirimler hangileri?"
+          ]
+        },
+        {
+          "id": "sevilla:recete-ilac-katilim-payi-copago",
+          "sheet": "Yanıtlar",
+          "row": 208,
+          "sentences": [
+            "Gelir, IRPF beyanındaki vergilendirilebilir genel ve tasarruf matrahı (base liquidable general y del ahorro) kutusundaki tutardır."
+          ]
+        },
+        {
+          "id": "sevilla:term:031",
+          "sheet": "Sözlük",
+          "row": 38,
+          "sentences": [
+            "Brüt tutardan Sosyal Güvenlik primi ve gerekirse IRPF stopajı kesilir."
+          ]
+        },
+        {
+          "id": "sevilla:term:045",
+          "sheet": "Sözlük",
+          "row": 52,
+          "sentences": [
+            "IRPF (gelir vergisi)"
+          ]
+        }
+      ]
+    },
+    {
+      "anchor": "nif",
+      "kind": "sozluk",
+      "farkli_deger": [],
+      "values": {
+        "ucret": [
+          "166,50 €"
+        ]
+      },
+      "mentions": [
+        {
+          "id": "sevilla:su-aboneligi-emasesa-ilk-kez",
+          "sheet": "Yanıtlar",
+          "row": 57,
+          "sentences": [
+            "Kimlik belgeni ekle: NIF, NIE veya pasaport.",
+            "NIF, NIE veya pasaport"
+          ]
+        },
+        {
+          "id": "sevilla:su-sozlesmesi-devir-cambio-titularidad-ve-baja",
+          "sheet": "Yanıtlar",
+          "row": 58,
+          "sentences": [
+            "Kimlik belgeni (NIF, NIE veya pasaport) ve evi kullanma hakkını gösteren belgeyi ekle.",
+            "NIF, NIE veya pasaport"
+          ]
+        },
+        {
+          "id": "sevilla:yabanci-diploma-denklik-okul-ve-universite",
+          "sheet": "Yanıtlar",
+          "row": 96,
+          "sentences": [
+            "Üniversite diploması için harç: 166,50 euro (homologación ya da declaración de equivalencia başvurusunda); kartla ya da hesaptan (NIF/NIE ve Cl@ve gerekir), Modelo 790-107 ile ya da yurtdışından haval"
+          ]
+        },
+        {
+          "id": "sevilla:junta-kayit-ofisi-randevu-alma-adimlari",
+          "sheet": "Yanıtlar",
+          "row": 137,
+          "sentences": [
+            "Randevu için DNI ya da NIE numarası gerekir; NIF'in yoksa ayrı bir seçenek var",
+            "İki yolda da DNI ya da NIE numarası istenir; NIF'in yoksa uygulamadaki 'NIF'siz kişiler için randevu' bağlantısını kullanırsın.",
+            "DNI ya da NIE numaranı gir; NIF'in yoksa 'Solicitar cita para personas sin NIF' bağlantısını kullan."
+          ]
+        },
+        {
+          "id": "sevilla:ab-disi-isverenle-calisma-ve-oturum-izni-cuenta-ajena",
+          "sheet": "Yanıtlar",
+          "row": 141,
+          "sentences": [
+            "Ev hizmetinde (servicio doméstico) işverenin NIF ya da NIE kopyası ve son IRPF beyannamesi ya da vergi idaresinden gelir belgesi"
+          ]
+        },
+        {
+          "id": "sevilla:vergi-numarasi-nif-nie-alma",
+          "sheet": "Yanıtlar",
+          "row": 190,
+          "sentences": [
+            "Vergi numarası (NIF) nedir, NIE'n yoksa NIF'i nasıl alırsın?",
+            "Çoğu kişide NIF, DNI ya da NIE ile aynıdır; NIE'si olmayan yabancı NIF'i Agencia Tributaria'dan Modelo 030 ile ister",
+            "Vergi açısından sonuç doğuran bir işlem yapacaksan bir NIF'in (vergi kimlik numarası) olmalı; NIF genellikle DNI ya da NIE numaranla aynıdır."
+          ]
+        },
+        {
+          "id": "sevilla:fnmt-dijital-sertifika-kurma",
+          "sheet": "Yanıtlar",
+          "row": 192,
+          "sentences": [
+            "AB dışı yabancıysan ofise NIE'nin yazılı olduğu yabancı kimlik kartını (TIE) ya da NIF/NIE veriliş belgesini pasaportunla birlikte götürürsün.",
+            "AB vatandaşı: NIE'nin yazılı olduğu yabancı kimlik belgesi, AB vatandaşı sertifikası (Certificado de Ciudadano de la Unión) ya da NIF/NIE veriliş belgesi; yanında pasaport ya da ülkenin kimlik kartı",
+            "AB dışı yabancı: NIE'nin yazılı olduğu kırmızı, yeşil ya da beyaz yabancı kimlik kartı (TIE) ya da NIF/NIE veriliş belgesi; yanında pasaport"
+          ]
+        },
+        {
+          "id": "sevilla:junta-kayit-yardim-ofisleri-sevilla",
+          "sheet": "Yanıtlar",
+          "row": 200,
+          "sentences": [
+            "NIF'in (DNI ya da NIE) yoksa uygulamada \"Solicitar cita para personas sin NIF\" bağlantısını seç ve kimlik bilgilerini gir; randevudaki kimlik bilgileri ofise gidecek kişininkiyle aynı olmalı."
+          ]
+        },
+        {
+          "id": "sevilla:term:011",
+          "sheet": "Sözlük",
+          "row": 18,
+          "sentences": [
+            "NIF (vergi kimlik numarası)"
+          ]
+        }
+      ]
+    },
+    {
+      "anchor": "tarjeta sanitaria",
+      "kind": "sozluk",
+      "farkli_deger": [],
+      "values": {
+        "sure": [
+          "9 gun"
+        ]
+      },
+      "mentions": [
+        {
+          "id": "sevilla:sevilla-dogum-sonrasi-saglik-sosyal-guvenlik-ve-padron-adimlari",
+          "sheet": "Yanıtlar",
+          "row": 18,
+          "sentences": [
+            "Sonra sırayla: sağlık merkezinde randevular (lohusa ziyareti doğumdan 5-9 gün sonra ve bebeğin sağlık izlem programı), yaklaşık üçüncü günde topuk testi, Registro Civil kaydı, bebeğin, sağlık güvences"
+          ]
+        },
+        {
+          "id": "sevilla:sevilla-varistan-sonra-ilk-hafta-resmi-isler-sirasi",
+          "sheet": "Yanıtlar",
+          "row": 183,
+          "sentences": [
+            "Başvuru formunu doldur; formu, DNI'ni, INSS belgeni ve padrón belgeni aslı ve fotokopisiyle sağlık merkezine götürüp ilk sağlık kartını iste; ayrıntı \"Endülüs'te kamu sağlık kartı (tarjeta sanitaria) "
+          ]
+        },
+        {
+          "id": "sevilla:kamu-saglik-sistemine-erisim-hak-sahipleri",
+          "sheet": "Yanıtlar",
+          "row": 206,
+          "sentences": [
+            "Hak tanınınca bölgenin sağlık idaresi sana bireysel sağlık kartını (tarjeta sanitaria individual) verir: Sevilla'da kartı ilk kez almak için kayıtlı olacağın sağlık merkezine (centro de salud) git ve ",
+            "Yasal ikamet yolu, sağlık merkezine (her belgenin aslı ve fotokopisiyle): tarjeta sanitaria başvuru formu (modelo de solicitud), DNI, kart yararlanıcı (eş ya da çocuk) için isteniyorsa yararlanıcı 14 "
+          ]
+        },
+        {
+          "id": "sevilla:endulus-saglik-karti-tarjeta-sanitaria-ve-aile-hekimi-secimi",
+          "sheet": "Yanıtlar",
+          "row": 213,
+          "sentences": [
+            "Endülüs'te kamu sağlık kartı (tarjeta sanitaria) nasıl alınır, aile hekimi ve sağlık merkezi nasıl seçilir?",
+            "İlk tarjeta sanitaria'yı çevrim içi alamazsın; kendi sağlık merkezine (centro de salud) gidip başvurursun.",
+            "Junta'nın tarjeta sanitaria sayfası ilk kart başvurusu için bir ücret belirtmiyor."
+          ]
+        },
+        {
+          "id": "sevilla:saglik-merkezi-randevu-yollari-clicsalud-salud-responde",
+          "sheet": "Yanıtlar",
+          "row": 219,
+          "sentences": [
+            "Tarjeta sanitaria numarası"
+          ]
+        },
+        {
+          "id": "sevilla:salud-responde-24-saat-saglik-hatti-ceviri-hizmeti",
+          "sheet": "Yanıtlar",
+          "row": 221,
+          "sentences": [
+            "Uygulamada ilk kez profil açarken sağlık kartı (tarjeta sanitaria) numaran gerekir."
+          ]
+        },
+        {
+          "id": "sevilla:term:032",
+          "sheet": "Sözlük",
+          "row": 39,
+          "sentences": [
+            "Tarjeta sanitaria'yı ilk kez almak için gidilen yerdir; Endülüs'te acil hizmetler hastanelerde olduğu kadar centro de salud'lerde de verilir."
+          ]
+        },
+        {
+          "id": "sevilla:term:033",
+          "sheet": "Sözlük",
+          "row": 40,
+          "sentences": [
+            "tarjeta sanitaria (sağlık kartı)"
+          ]
+        },
+        {
+          "id": "sevilla:term:034",
+          "sheet": "Sözlük",
+          "row": 41,
+          "sentences": [
+            "Tarjeta Sanitaria Europea (TSE, Avrupa Sağlık Kartı)"
+          ]
+        }
+      ]
+    },
+    {
+      "anchor": "061",
+      "kind": "sozluk",
+      "farkli_deger": [],
+      "values": {},
+      "mentions": [
+        {
+          "id": "sevilla:endulus-bilgi-hatlari-salud-consumo-012",
+          "sheet": "Yanıtlar",
+          "row": 74,
+          "sentences": [
+            "Bunlar bilgi hatlarıdır; hayati tehlikede 112 ya da 061'i ara.",
+            "Hayati tehlike varsa bu hatları değil 112'yi ya da 061'i ara.",
+            "Bunlar bilgi hatlarıdır; hayati tehlikede 112 ya da 061'i ara."
+          ]
+        },
+        {
+          "id": "sevilla:sevilla-junta-012-hatti-bilgi-ve-randevu",
+          "sheet": "Yanıtlar",
+          "row": 181,
+          "sentences": [
+            "061 ve 112 bu hattın dışında; onları doğrudan ararsın.",
+            "Acil durumda 112'yi, sağlık acilinde 061'i doğrudan ara; bunlar 012 kapsamında değil."
+          ]
+        },
+        {
+          "id": "sevilla:salud-responde-24-saat-saglik-hatti-ceviri-hizmeti",
+          "sheet": "Yanıtlar",
+          "row": 221,
+          "sentences": [
+            "Acil durumda Salud Responde'yi değil 112'yi ya da 061'i ara."
+          ]
+        },
+        {
+          "id": "sevilla:endulus-acil-061-112-urgencia-emergencia-farki",
+          "sheet": "Yanıtlar",
+          "row": 222,
+          "sentences": [
+            "Endülüs'te 061 ile 112 arasındaki fark ne, hafif bir rahatsızlıkta nereye gidilir?",
+            "Acil müdahale gerektiren durum (emergencia) 061; ivedi ama hayati olmayan durum (urgencia) için sağlık merkezi ya da hastane acili",
+            "061, sağlık acilleri (emergencia sanitaria) için doğrudan arama hattıdır; 112 Andalucía ise tek numarayla sağlık, yangın söndürme ve kurtarma, vatandaş güvenliği ve sivil koruma acillerini karşılar."
+          ]
+        },
+        {
+          "id": "sevilla:sevilla-ruh-sagligi-024-hatti-ve-ruh-sagligi-birimleri",
+          "sheet": "Yanıtlar",
+          "row": 225,
+          "sentences": [
+            "Hayati tehlike ya da kriz anında 112'yi (tek ve ücretsiz numara) ya da 061'i ara; Endülüs'te 112 çağrıları İspanyolca, İngilizce, Fransızca, Almanca ve Arapça karşılanır."
+          ]
+        },
+        {
+          "id": "sevilla:term:036",
+          "sheet": "Sözlük",
+          "row": 43,
+          "sentences": [
+            "061 (Endülüs sağlık acil hattı)",
+            "Endülüs'te acil bir sağlık durumunda 061 aranır veya yakındaki bir acil servise gidilir."
+          ]
+        },
+        {
+          "id": "sevilla:term:038",
+          "sheet": "Sözlük",
+          "row": 45,
+          "sentences": [
+            "061 ve 112 bu hizmetin kapsamı dışındadır."
+          ]
+        }
+      ]
+    },
+    {
+      "anchor": "pvpc",
+      "kind": "sozluk",
+      "farkli_deger": [],
+      "values": {},
+      "mentions": [
+        {
+          "id": "sevilla:elektrik-aboneligi-serbest-piyasa-pvpc",
+          "sheet": "Yanıtlar",
+          "row": 48,
+          "sentences": [
+            "Elektrik aboneliği nasıl yapılır; serbest piyasa ile PVPC arasındaki fark nedir?",
+            "Serbest piyasa herkese açık; regüle fiyat PVPC yalnız 10 kW ve altı gerçek kişi ve mikro işletmelere",
+            "Elektrik için iki yol var: serbest piyasada fiyat ve koşulları tedarikçiyle serbestçe kararlaştırırsın; regüle piyasada ise yalnız PVPC (küçük tüketici gönüllü fiyatı) sözleşmesi yaparsın."
+          ]
+        },
+        {
+          "id": "sevilla:elektrik-faturasi-nasil-okunur",
+          "sheet": "Yanıtlar",
+          "row": 49,
+          "sentences": [
+            "PVPC'de vergiler PVPC fiyatının içinde değil, üstüne eklenir.",
+            "PVPC'deysen vergiler PVPC fiyatının üstüne uygulanır.",
+            "PVPC'deki, bono social'deki ve geçici olarak serbest piyasa sözleşmesi olmayan tüketicilerin faturalarının biçimi ve içeriği düzenlenmiştir."
+          ]
+        },
+        {
+          "id": "sevilla:bono-social-elektrik-kimler-alir",
+          "sheet": "Yanıtlar",
+          "row": 52,
+          "sentences": [
+            "Oturduğun konutta PVPC sözleşmen olmalı; gelir, aile ya da emeklilik durumun resmî ölçütlerden birine uymalı",
+            "Bono social (elektrik faturası indirimi) için oturduğun asıl konutta PVPC sözleşmen olmalı ve gelir ya da aile durumun MITECO'nun sıraladığı ölçütlerden birine uymalı.",
+            "Elektrik sözleşmenin oturduğun asıl konutta (vivienda habitual) ve PVPC üzerinde olduğunu kontrol et."
+          ]
+        },
+        {
+          "id": "sevilla:cnmc-teklif-karsilastirma-araci",
+          "sheet": "Yanıtlar",
+          "row": 54,
+          "sentences": [
+            "Araçta regüle fiyatlı teklifler (elektrikte PVPC, gazda TUR) ile serbest fiyatlı teklifler birlikte görünür.",
+            "Regüle fiyatlı teklifleri (elektrikte PVPC, gazda TUR) ve serbest fiyatlı teklifleri birlikte incele.",
+            "PVPC'de, 10 kW ve altı güçte ve referans tedarikçideysen, faturanı CNMC'nin PVPC fatura simülatörüyle simüle et; serbest piyasa sözleşmen varsa ya da gücün 10 kW'ın üzerindeyse simülatör işine yaramaz"
+          ]
+        },
+        {
+          "id": "sevilla:term:039",
+          "sheet": "Sözlük",
+          "row": 46,
+          "sentences": [
+            "PVPC (düzenlenmiş elektrik tarifesi)"
+          ]
+        },
+        {
+          "id": "sevilla:term:040",
+          "sheet": "Sözlük",
+          "row": 47,
+          "sentences": [
+            "Serbest piyasada satıcı ve tüketici koşulları serbestçe belirler; düzenlenmiş piyasada ise yalnızca PVPC sözleşmesi yapılabilir."
+          ]
+        }
+      ]
+    },
+    {
+      "anchor": "autonomo",
+      "kind": "sozluk",
+      "farkli_deger": [],
+      "values": {},
+      "mentions": [
+        {
+          "id": "sevilla:serbest-calisan-autonomo-kayit-ve-prim-tablosu",
+          "sheet": "Yanıtlar",
+          "row": 94,
+          "sentences": [
+            "İspanya'da serbest çalışan (autónomo) olarak Seguridad Social'a (RETA) alta nasıl yapılır, 2026 prim bazı tablosu nedir?",
+            "Servicios bölümünden Altas, bajas y modificaciones, sonra Afiliación y altas de trabajadores, sonra Alta en trabajo autónomo yolunu izle ve Solicitar alta düğmesine bas."
+          ]
+        },
+        {
+          "id": "sevilla:sevilla-serbest-calisma-vergi-dairesi-ofisleri-ve-cade",
+          "sheet": "Yanıtlar",
+          "row": 102,
+          "sentences": [
+            "Serbest çalışan (autónomo) olarak işe başlamadan önce hem Seguridad Social'a hem de vergi idaresine (Agencia Tributaria) kayıt yaptırman gerekir."
+          ]
+        },
+        {
+          "id": "sevilla:sevilla-cmac-zorunlu-uzlastirma-ve-sercla",
+          "sheet": "Yanıtlar",
+          "row": 105,
+          "sentences": [
+            "Papeleta de conciliación dilekçesini internetten Consejería de Empleo, Empresa y Trabajo Autónomo'nun sanal ofisi üzerinden verirsin; internetten başvurmak zorunda değilsen dilekçeyi Sevilla CMAC'ına ",
+            "Papeleta de conciliación dilekçesini Consejería de Empleo, Empresa y Trabajo Autónomo'nun sanal ofisinden ver."
+          ]
+        },
+        {
+          "id": "sevilla:yillik-gelir-vergisi-beyani-renta",
+          "sheet": "Yanıtlar",
+          "row": 148,
+          "sentences": [
+            "Vergi dönemi içinde RETA'ya (autónomo) kayıtlı olan herkes geliri ne olursa olsun beyan verir.",
+            "2023'ten beri, vergi dönemi içinde herhangi bir anda RETA'ya (autónomo rejimine) ya da Denizciler özel rejimine kendi hesabına çalışan olarak kayıtlı olan herkes geliri ne kadar olursa olsun beyan ver"
+          ]
+        },
+        {
+          "id": "sevilla:term:027",
+          "sheet": "Sözlük",
+          "row": 34,
+          "sentences": [
+            "autónomo (serbest çalışan)",
+            "Sosyal Güvenlik'e autónomo olarak alta yaptırmak, kendi hesabına faaliyete başlamanın ilk adımıdır ve Importass uygulamasıyla mobilden yapılabilir."
+          ]
+        }
+      ]
+    },
+    {
+      "anchor": "bizum",
+      "kind": "sozluk",
+      "farkli_deger": [],
+      "values": {
+        "tarih": [
+          "20 temmuz"
+        ],
+        "ucret": [
+          "3000 €"
+        ]
+      },
+      "mentions": [
+        {
+          "id": "sevilla:emasesa-su-faturasi-odeme-yollari",
+          "sheet": "Yanıtlar",
+          "row": 63,
+          "sentences": [
+            "EMASESA su faturası nasıl ödenir: kart, Bizum, banka ve otomatik ödeme",
+            "Faturadaki QR kodla kart ya da Bizum; otomatik ödeme (domiciliación) her bankada tanımlanabilir",
+            "EMASESA faturasını kartla (Pago Rápido, Oficina Online, Mi Emasesa uygulaması ya da telefon), Bizum ile, bankalarda ya da merkez ve müşteri noktalarında ödeyebilirsin."
+          ]
+        },
+        {
+          "id": "sevilla:bizum-nedir-nasil-kullanilir",
+          "sheet": "Yanıtlar",
+          "row": 153,
+          "sentences": [
+            "Bizum nedir, nasıl kullanılır, yanlış kişiye gönderirsem geri alabilir miyim?",
+            "Bizum hesabı telefon numarana bağlar; Banco de España'nın 2021 tarihli yazısına göre yanlış kişiye gönderilen işlem geri alınamaz",
+            "Yanlış kişiye gönderdiğin Bizum geri alınamaz: Banco de España'nın 20 Temmuz 2021 tarihli yazısına göre tek seçenek o kişiyle iletişime geçip parayı geri göndermesini istemek ya da bankana başvurup pa"
+          ]
+        },
+        {
+          "id": "sevilla:opaef-vergi-odeme-yollari-ve-banka-talimati-domiciliacion",
+          "sheet": "Yanıtlar",
+          "row": 163,
+          "sentences": [
+            "OPAEF'in düzenlediği ya da gönderdiği ödeme belgesiyle (carta de pago) borcunu anlaşmalı bankaların şubelerinde, bu bankaların ATM'lerinde, OPAEF e-ofisinde kartla ya da Bizum'la veya OPAEF'in vatanda",
+            "E-ofiste Bizum üst sınırı 3.000 euro'dur.",
+            "Ödeme şeklini seç: anlaşmalı banka şubesi, bankanın ATM'si, e-ofiste kart ya da Bizum, OPAEF ofisinde kart ya da Correos postanesinde giro (postane tarifesi ayrıca ödenir)."
+          ]
+        },
+        {
+          "id": "sevilla:term:041",
+          "sheet": "Sözlük",
+          "row": 48,
+          "sentences": [
+            "İçme suyu, atık su ve su faturası konusunda başvuru yapılan kuruluştur; faturalar Bizum ile de ödenebilir."
+          ]
+        },
+        {
+          "id": "sevilla:term:043",
+          "sheet": "Sözlük",
+          "row": 50,
+          "sentences": [
+            "Bizum"
+          ]
+        }
+      ]
+    },
+    {
+      "anchor": "sae",
+      "kind": "sozluk",
+      "farkli_deger": [],
+      "values": {},
+      "mentions": [
+        {
+          "id": "sevilla:endulus-sae-is-arayan-kaydi-demandante-de-empleo",
+          "sheet": "Yanıtlar",
+          "row": 97,
+          "sentences": [
+            "Endülüs'te iş arayan olarak (SAE'ye) nasıl kayıt olunur, AB dışı yabancı için izin şartı nedir?",
+            "SAE'de iş arayan (demandante de empleo) kaydını SAE web sitesindeki ya da AppSAE'deki formu doldurarak yaparsın.",
+            "SAE web sitesindeki ya da AppSAE'deki kayıt formunu doldur ve gönder."
+          ]
+        },
+        {
+          "id": "sevilla:sevilla-sehrinde-is-ofisleri-adresleri",
+          "sheet": "Yanıtlar",
+          "row": 98,
+          "sentences": [
+            "SAE'nin randevu sayfasına göre yüz yüze ya da telefonla randevu alırken ofisi sen seçersin, yani oturduğun semtteki ofisle sınırlı değilsin.",
+            "SAE'nin randevu sayfasından ya da AppSAE'den o ofis için yüz yüze veya telefonla randevu al."
+          ]
+        },
+        {
+          "id": "sevilla:sae-randevusu-ve-demanda-yenileme-sevilla",
+          "sheet": "Yanıtlar",
+          "row": 99,
+          "sentences": [
+            "Sevilla'da SAE randevusu nasıl alınır, iş arayan kaydı (demanda) nasıl yenilenir?",
+            "Randevu AppSAE, SAE sitesi ya da çağrı merkezinden; yenileme genellikle 90 günde bir",
+            "SAE'de randevuyu AppSAE'den, SAE web sitesinden ya da 955 625 695 numaralı çağrı merkezinden alırsın; çağrı merkezi pazartesi–cuma 08:00–20:00 arası açık."
+          ]
+        },
+        {
+          "id": "sevilla:sevilla-sepe-il-mudurlugu-adresi",
+          "sheet": "Yanıtlar",
+          "row": 100,
+          "sentences": [
+            "Sevilla'da SEPE il müdürlüğü (Dirección Provincial) nerede, ödenek başvurusundan önce SAE kaydı neden önemli?",
+            "SAE'ye göre ödenek başvurusundan önce iş arayan kaydının (demanda) aktif olduğundan emin olmalısın.",
+            "SAE'deki iş arayan kaydının (demanda) aktif olduğunu kontrol et; gerekirse kaydı yenile ya da yeniden kaydol."
+          ]
+        },
+        {
+          "id": "sevilla:term:029",
+          "sheet": "Sözlük",
+          "row": 36,
+          "sentences": [
+            "SAE (Endülüs İstihdam Servisi)"
+          ]
+        }
+      ]
+    },
+    {
+      "anchor": "790-012",
+      "kind": "kod",
+      "farkli_deger": [],
+      "values": {
+        "ucret": [
+          "9,84 €"
+        ]
+      },
+      "mentions": [
+        {
+          "id": "sevilla:nie-nedir-ne-ise-yarar",
+          "sheet": "Yanıtlar",
+          "row": 123,
+          "sentences": [
+            "Dilekçe EX15 formu ve 790 kodu 012 harç belgesiyle verilir; NIE harcı 9,84 euro'dur.",
+            "790 kodu 012 harç belgesini al ve 9,84 euro harcı öde; harç, hesabın olmasa da bankalarda ve tasarruf kasalarında ödenir.",
+            "790 kodu 012 harç ödeme belgesi"
+          ]
+        },
+        {
+          "id": "sevilla:ab-vatandasi-kayit-sertifikasi",
+          "sheet": "Yanıtlar",
+          "row": 124,
+          "sentences": [
+            "790 kodu 012 harç belgesini al ve harcı öde.",
+            "790 kodu 012 harç ödeme belgesi"
+          ]
+        },
+        {
+          "id": "sevilla:tie-yabanci-kimlik-karti",
+          "sheet": "Yanıtlar",
+          "row": 125,
+          "sentences": [
+            "Başvuruyu EX17 formu ve 790 kodu 012 harç belgesiyle bir yabancılar ofisine (Oficina de Extranjería) ya da polis karakoluna yap; harcı hesabın olmasa da bankalarda ve tasarruf kasalarında ödersin.",
+            "790 kodu 012 harç ödeme belgesi"
+          ]
+        },
+        {
+          "id": "sevilla:brexit-sonrasi-ingiliz-oturumu",
+          "sheet": "Yanıtlar",
+          "row": 136,
+          "sentences": [
+            "Elinde geçici ya da kalıcı kayıt sertifikası (certificado de registro) varsa tek adımda polis birimine EX23 formu, geçerli pasaport, 790 kodu 012 harç belgesi ve fotoğrafla başvurursun.",
+            "Tek adımda EX23 formunu, geçerli pasaportunu (süresi dolduysa kopyasını ve yenileme başvurusunu), 790 kodu 012 harç belgesini ve kimlik belgesi kurallarına uygun fotoğrafı götür.",
+            "Karar en çok üç ay içinde bildirilir; bildirimden sonra bir ay içinde polis birimine şahsen gidip EX23 formu, pasaport, 790 kodu 012 harç belgesi ve fotoğrafla belgeni iste."
+          ]
+        }
+      ]
+    },
+    {
+      "anchor": "centro de salud",
+      "kind": "sozluk",
+      "farkli_deger": [],
+      "values": {},
+      "mentions": [
+        {
+          "id": "sevilla:kamu-saglik-sistemine-erisim-hak-sahipleri",
+          "sheet": "Yanıtlar",
+          "row": 206,
+          "sentences": [
+            "Hak tanınınca bölgenin sağlık idaresi sana bireysel sağlık kartını (tarjeta sanitaria individual) verir: Sevilla'da kartı ilk kez almak için kayıtlı olacağın sağlık merkezine (centro de salud) git ve "
+          ]
+        },
+        {
+          "id": "sevilla:endulus-saglik-karti-tarjeta-sanitaria-ve-aile-hekimi-secimi",
+          "sheet": "Yanıtlar",
+          "row": 213,
+          "sentences": [
+            "İlk tarjeta sanitaria'yı çevrim içi alamazsın; kendi sağlık merkezine (centro de salud) gidip başvurursun."
+          ]
+        },
+        {
+          "id": "sevilla:sevilla-kent-ici-saglik-merkezleri-distrito-sevilla",
+          "sheet": "Yanıtlar",
+          "row": 217,
+          "sentences": [
+            "Sevilla kent içinde hangi sağlık merkezleri (centro de salud) var, Distrito Sevilla'ya nasıl ulaşılır?"
+          ]
+        },
+        {
+          "id": "sevilla:term:032",
+          "sheet": "Sözlük",
+          "row": 39,
+          "sentences": [
+            "centro de salud (aile sağlığı merkezi)",
+            "Tarjeta sanitaria'yı ilk kez almak için gidilen yerdir; Endülüs'te acil hizmetler hastanelerde olduğu kadar centro de salud'lerde de verilir."
+          ]
+        }
+      ]
+    },
+    {
+      "anchor": "tarifa social",
+      "kind": "sozluk",
+      "farkli_deger": [],
+      "values": {},
+      "mentions": [
+        {
+          "id": "sevilla:emasesa-sosyal-tarife-kimler-yararlanir",
+          "sheet": "Yanıtlar",
+          "row": 61,
+          "sentences": [
+            "EMASESA sosyal su tarifesi (tarifa social): kimler yararlanır, indirim yüzde kaç?",
+            "Solicitud Tarifa Social formunu doldurup EMASESA'nın Oficina Online'ından, tarifasocial@emasesa.com adresine e-postayla ya da cita previa alarak Puntos de Atención Ciudadana noktalarında ver; gerekli "
+          ]
+        },
+        {
+          "id": "sevilla:emasesa-sosyal-tarife-basvuru-belgeler-yenileme",
+          "sheet": "Yanıtlar",
+          "row": 62,
+          "sentences": [
+            "Solicitud tarifa social formunu EMASESA sayfasından indir ya da bir müşteri noktasından al; doldurup imzala."
+          ]
+        },
+        {
+          "id": "sevilla:su-faturasi-odenmezse-kesinti-mektubu-ve-yeniden-baglanma",
+          "sheet": "Yanıtlar",
+          "row": 64,
+          "sentences": [
+            "Geliri sosyal tarife sınırının altındaysa tarifa social için başvur; başvuruyla birlikte borç tanıma ve ödeme planı imzalanır."
+          ]
+        },
+        {
+          "id": "sevilla:term:042",
+          "sheet": "Sözlük",
+          "row": 49,
+          "sentences": [
+            "tarifa social (EMASESA sosyal su tarifesi)"
+          ]
+        }
+      ]
+    },
+    {
+      "anchor": "hoja de reclamaciones",
+      "kind": "sozluk",
+      "farkli_deger": [],
+      "values": {
+        "sure": [
+          "3 ay"
+        ]
+      },
+      "mentions": [
+        {
+          "id": "sevilla:kira-ve-konut-hizmeti-sikayeti-hoja-de-reclamaciones-012",
+          "sheet": "Yanıtlar",
+          "row": 43,
+          "sentences": [
+            "Endülüs'te işletmelerden şikâyet formu (hoja de reclamaciones) nasıl istenir?",
+            "İşletmeden ya da hizmet verenden şikâyet formunu (hoja de reclamaciones) iste; hemen ve ücretsiz vermek zorunda.",
+            "Doldurulmuş şikâyet formu (hoja de reclamaciones)"
+          ]
+        },
+        {
+          "id": "sevilla:otobus-yolcu-haklari-rotar-bagaj-engelli",
+          "sheet": "Yanıtlar",
+          "row": 227,
+          "sentences": [
+            "Şikâyetini önce taşıyıcıya hizmetin verildiği ya da verilmesi gereken tarihten itibaren 3 ay içinde yap: taşıyıcıların istasyonlardaki bilgi gişelerinde ya da bilet satış noktalarında genellikle bulun"
+          ]
+        },
+        {
+          "id": "sevilla:term:060",
+          "sheet": "Sözlük",
+          "row": 67,
+          "sentences": [
+            "hoja de reclamaciones (şikâyet formu)"
+          ]
+        }
+      ]
+    },
+    {
+      "anchor": "iande",
+      "kind": "sozluk",
+      "farkli_deger": [],
+      "values": {},
+      "mentions": [
+        {
+          "id": "sevilla:egitim-sistemi-zorunlu-egitim-ve-okul-turleri",
+          "sheet": "Yanıtlar",
+          "row": 8,
+          "sentences": [
+            "Elektronik başvuruda iANDE anahtarı, dijital sertifika ya da Cl@ve"
+          ]
+        },
+        {
+          "id": "sevilla:sevilla-okul-basvurusu-ve-matrikul-online-secretaria-virtual-iande",
+          "sheet": "Yanıtlar",
+          "row": 21,
+          "sentences": [
+            "Sevilla'da okul başvurusu ve matrikülü internetten nasıl yaparım: Secretaría Virtual, iANDE, iPASEN?",
+            "Okula gitmeden başvuru ve matrikül; iANDE anahtarı iPASEN'de, ders ve yemek formları aynı işlemde",
+            "Kimlik doğrulaması için üç yol var: iANDE anahtarı, dijital sertifika ve Cl@ve."
+          ]
+        },
+        {
+          "id": "sevilla:term:058",
+          "sheet": "Sözlük",
+          "row": 65,
+          "sentences": [
+            "iANDE"
+          ]
+        }
+      ]
+    },
+    {
+      "anchor": "nuss",
+      "kind": "sozluk",
+      "farkli_deger": [],
+      "values": {},
+      "mentions": [
+        {
+          "id": "sevilla:ilk-gunlerde-nuss-ve-temel-odeme-hesabi",
+          "sheet": "Yanıtlar",
+          "row": 167,
+          "sentences": [
+            "Sosyal güvenlik numarası (NUSS) başvurusu \"Sosyal güvenlik numarası (Seguridad Social, NAF/NUSS) nasıl alınır?\" sorusunda."
+          ]
+        },
+        {
+          "id": "sevilla:sosyal-guvenlik-numarasi-alma",
+          "sheet": "Yanıtlar",
+          "row": 188,
+          "sentences": [
+            "Sosyal güvenlik numarası (Seguridad Social, NAF/NUSS) nasıl alınır?",
+            "Sosyal güvenlik numaranı (NAF ya da NUSS) TGSS portalındaki \"Solicitar el número de Seguridad Social\" hizmetiyle çevrimiçi alırsın; numarayı istediğin zaman talep edebilirsin."
+          ]
+        },
+        {
+          "id": "sevilla:term:009",
+          "sheet": "Sözlük",
+          "row": 16,
+          "sentences": [
+            "NUSS (Sosyal Güvenlik numarası)"
+          ]
+        }
+      ]
+    },
+    {
+      "anchor": "tarjeta de transporte",
+      "kind": "sozluk",
+      "farkli_deger": [],
+      "values": {
+        "ucret": [
+          "1,50 €"
+        ]
+      },
+      "mentions": [
+        {
+          "id": "sevilla:sevilla-ulasim-karti-fiyati-ve-konsorsiyum-iletisim",
+          "sheet": "Yanıtlar",
+          "row": 177,
+          "sentences": [
+            "Consorcio'ya entegre metropol ulaşım hatlarını düzenli kullanacaksan Andalucía ulaşım kartını (Tarjeta de Transporte, Consorcio kartı) al: bu entegre metropol hatlarında kartla ücret nakitten düşüktür",
+            "Kartı nereden alacağın ve nasıl yükleyeceğin \"Sevilla'da Consorcio ulaşım kartı (Tarjeta de Transporte Metropolitano) nasıl alınır ve yüklenir?\" sorusunda."
+          ]
+        },
+        {
+          "id": "sevilla:sevilla-consorcio-ulasim-karti-alma-ve-yukleme",
+          "sheet": "Yanıtlar",
+          "row": 235,
+          "sentences": [
+            "Sevilla'da Consorcio ulaşım kartı (Tarjeta de Transporte Metropolitano) nasıl alınır ve yüklenir?"
+          ]
+        },
+        {
+          "id": "sevilla:term:049",
+          "sheet": "Sözlük",
+          "row": 56,
+          "sentences": [
+            "tarjeta de transporte (ulaşım kartı)"
+          ]
+        }
+      ]
+    },
+    {
+      "anchor": "apostilla",
+      "kind": "sozluk",
+      "farkli_deger": [],
+      "values": {},
+      "mentions": [
+        {
+          "id": "sevilla:belge-ceviri-ve-apostil",
+          "sheet": "Yanıtlar",
+          "row": 193,
+          "sentences": [
+            "İspanya'da düzenlenen adli ya da idari belge için İspanya Adalet Bakanlığı'nın (Ministerio de Justicia) apostil sayfasından başvur; başvuru çevrim içi (Solicitud de Apostilla de Documentos), posta yol"
+          ]
+        },
+        {
+          "id": "sevilla:term:014",
+          "sheet": "Sözlük",
+          "row": 21,
+          "sentences": [
+            "apostilla (Lahey apostili)"
+          ]
+        }
+      ]
+    },
+    {
+      "anchor": "arraigo",
+      "kind": "sozluk",
+      "farkli_deger": [],
+      "values": {
+        "tarih": [
+          "30 haziran"
+        ],
+        "ucret": [
+          "38,28 €"
+        ]
+      },
+      "mentions": [
+        {
+          "id": "sevilla:arraigo-kok-salma-oturumu",
+          "sheet": "Yanıtlar",
+          "row": 130,
+          "sentences": [
+            "Arraigo (kök salma) ile oturum izni almak mümkün mü?",
+            "Beş tür arraigo var; çoğunda iki yıl kesintisiz İspanya'da bulunmak gerekir.",
+            "Arraigo, İspanya'da yaşayan ve ekonomik, sosyal, ailevi, çalışma ya da eğitim bağı olan yabancılara verilen geçici oturum izni türüdür."
+          ]
+        },
+        {
+          "id": "sevilla:term:016",
+          "sheet": "Sözlük",
+          "row": 23,
+          "sentences": [
+            "arraigo (kök salma oturumu)",
+            "Çeşitleri: ikinci fırsat, sosyal-iş, sosyal, sosyal-eğitim ve aile arraigo'su.",
+            "İzinler bir yıl süreli; aile arraigo'su beş yıl süreli."
+          ]
+        }
+      ]
+    },
+    {
+      "anchor": "atal",
+      "kind": "sozluk",
+      "farkli_deger": [],
+      "values": {},
+      "mentions": [
+        {
+          "id": "sevilla:sevilla-atal-ispanyolca-bilmeyen-cocuk-icin-okul-destegi",
+          "sheet": "Yanıtlar",
+          "row": 16,
+          "sentences": [
+            "Sevilla'daki devlet okullarında İspanyolca bilmeyen yabancı çocuklar için ATAL desteği nedir?",
+            "ATAL (Aulas Temporales de Adaptación Lingüística, geçici dil uyum sınıfları), İspanyolca bilmeyen yabancı öğrencilere okul saatinde, bu iş için görevli öğretmenlerce verilen bir İspanyolca öğretim pro",
+            "ATAL öğretmeni üç ayda bir (trimestre başına) her çocuk için bireysel bir ilerleme raporu yazar ve sınıf öğretmenine verir."
+          ]
+        },
+        {
+          "id": "sevilla:term:056",
+          "sheet": "Sözlük",
+          "row": 63,
+          "sentences": [
+            "ATAL (dil uyum sınıfları)"
+          ]
+        }
+      ]
+    },
+    {
+      "anchor": "certificado de registro de ciudadano de la ue",
+      "kind": "sozluk",
+      "farkli_deger": [],
+      "values": {},
+      "mentions": [
+        {
+          "id": "sevilla:ab-vatandasi-kayit-sertifikasi",
+          "sheet": "Yanıtlar",
+          "row": 124,
+          "sentences": [
+            "AB vatandaşı kayıt sertifikası (Certificado de Registro de Ciudadano de la UE) nasıl alınır?"
+          ]
+        },
+        {
+          "id": "sevilla:term:005",
+          "sheet": "Sözlük",
+          "row": 12,
+          "sentences": [
+            "Certificado de Registro de Ciudadano de la UE (AB vatandaşı kayıt belgesi)"
+          ]
+        }
+      ]
+    },
+    {
+      "anchor": "consorcio de transporte",
+      "kind": "sozluk",
+      "farkli_deger": [],
+      "values": {},
+      "mentions": [
+        {
+          "id": "sevilla:sevilla-otobus-terminalleri-plaza-de-armas-prado",
+          "sheet": "Yanıtlar",
+          "row": 239,
+          "sentences": [
+            "Plaza de Armas otogarının yönetim yetkisi Sevilla metropol ulaşım konsorsiyumundadır (Consorcio de Transporte Metropolitano del Área de Sevilla)."
+          ]
+        },
+        {
+          "id": "sevilla:term:048",
+          "sheet": "Sözlük",
+          "row": 55,
+          "sentences": [
+            "Consorcio de Transporte (Sevilla Metropoliten Ulaşım Konsorsiyumu)",
+            "Sevilla çevresinde metropoliten ulaşımı birleştiren kamu kuruluşu; adı Consorcio de Transporte Metropolitano del Área de Sevilla."
+          ]
+        }
+      ]
+    },
+    {
+      "anchor": "finiquito",
+      "kind": "sozluk",
+      "farkli_deger": [],
+      "values": {},
+      "mentions": [
+        {
+          "id": "sevilla:finiquito-isten-ayrilirken-tasfiye-belgesi",
+          "sheet": "Yanıtlar",
+          "row": 90,
+          "sentences": [
+            "İşten ayrılırken finiquito (tasfiye makbuzu) imzalamadan önce hangi güvencelere sahipsin?",
+            "İki güvencen var: İşveren, sözleşmenin sona ermesi nedeniyle fesih ya da ön bildirim (preaviso) yaptığında, borçlu olduğu tutarların tasfiye belgesi önerisini (propuesta del documento de liquidación) ",
+            "Finiquito makbuzunu imzalamadan önce işçi temsilcisinin (representante legal de los trabajadores) imza anında hazır bulunmasını iste."
+          ]
+        },
+        {
+          "id": "sevilla:term:025",
+          "sheet": "Sözlük",
+          "row": 32,
+          "sentences": [
+            "finiquito (işten ayrılma tasfiye makbuzu)",
+            "Çalışan, finiquito imzalanırken işçi temsilcisinin hazır bulunmasını isteyebilir."
+          ]
+        }
+      ]
+    },
+    {
+      "anchor": "ibi",
+      "kind": "sozluk",
+      "farkli_deger": [],
+      "values": {},
+      "mentions": [
+        {
+          "id": "sevilla:endulus-kiraci-haklari-satis-ev-giris-faturalar",
+          "sheet": "Yanıtlar",
+          "row": 42,
+          "sentences": [
+            "Sayaçlı faturalar (elektrik, su, gaz, telefon) kiracıya aittir; IBI (emlak vergisi) ve çöp harcı gibi konutla ilgili vergiler sözleşmeyle bile kiracıya yüklenemez (md.",
+            "IBI ve çöp harcı gibi vergiler sözleşmeyle bile sana yüklenemez; ortak gider payı ancak yazılı ve yıllık tutarı belirtilmiş bir maddeyle sana yüklenebilir, kira aracılığı ve sözleşme masrafları hiçbir"
+          ]
+        },
+        {
+          "id": "sevilla:term:017",
+          "sheet": "Sözlük",
+          "row": 24,
+          "sentences": [
+            "IBI (emlak vergisi)",
+            "Junta de Andalucía'nın kiracı ve ev sahibi hakları sayfasına göre IBI, çöp harcı ve konutun bina sigortası ev sahibinin yükümlülüğüdür."
+          ]
+        }
+      ]
+    },
+    {
+      "anchor": "ipra",
+      "kind": "sozluk",
+      "farkli_deger": [],
+      "values": {
+        "tarih": [
+          "24 ocak"
+        ]
+      },
+      "mentions": [
+        {
+          "id": "sevilla:sevilla-kira-referans-fiyat-haritasi-ipra",
+          "sheet": "Yanıtlar",
+          "row": 37,
+          "sentences": [
+            "Sevilla'da mahalle mahalle kira fiyatına nereden bakarsın: IPRA kira referans haritası",
+            "EMVISESA'nın IPRA (Índice de Precio de Referencia de Alquiler) uygulaması, Sevilla'nın 107 yerleşim mahallesinin kira referans endeksini interaktif haritada gösterir.",
+            "Haritada mahalleni seçince iki kart açılır: birincisi mahalledeki konut turizmi baskısını ve geçmişini, ikincisi IPRA ve POA değerlerinin geçmiş grafiğini verir."
+          ]
+        },
+        {
+          "id": "sevilla:term:020",
+          "sheet": "Sözlük",
+          "row": 27,
+          "sentences": [
+            "IPRA (kira referans fiyat endeksi)"
+          ]
+        }
+      ]
+    },
+    {
+      "anchor": "nomina",
+      "kind": "sozluk",
+      "farkli_deger": [],
+      "values": {},
+      "mentions": [
+        {
+          "id": "sevilla:maas-bordrosu-nomina-icerigi",
+          "sheet": "Yanıtlar",
+          "row": 89,
+          "sentences": [
+            "Maaş bordrosu (nómina) neleri göstermek zorunda, imzalamak ne anlama gelir?"
+          ]
+        },
+        {
+          "id": "sevilla:term:024",
+          "sheet": "Sözlük",
+          "row": 31,
+          "sentences": [
+            "nómina (maaş bordrosu)"
+          ]
+        }
+      ]
+    },
+    {
+      "anchor": "oficina de asistencia en materia de registros",
+      "kind": "sozluk",
+      "farkli_deger": [],
+      "values": {},
+      "mentions": [
+        {
+          "id": "sevilla:familia-numerosa-unvani-alma-yenileme-ve-sevilla-basvurusu",
+          "sheet": "Yanıtlar",
+          "row": 25,
+          "sentences": [
+            "İnternetten VEAJA'dan (dijital sertifika veya Cl@ve gerekir) ya da Presentación Electrónica General'den, yüz yüze ise herhangi bir kamu kayıt bürosundan (oficina de asistencia en materia de registros)"
+          ]
+        },
+        {
+          "id": "sevilla:term:059",
+          "sheet": "Sözlük",
+          "row": 66,
+          "sentences": [
+            "Oficina de Asistencia en Materia de Registros (kayıt yardım ofisi)"
+          ]
+        }
+      ]
+    },
+    {
+      "anchor": "sellar el paro",
+      "kind": "sozluk",
+      "farkli_deger": [],
+      "values": {},
+      "mentions": [
+        {
+          "id": "sevilla:sae-randevusu-ve-demanda-yenileme-sevilla",
+          "sheet": "Yanıtlar",
+          "row": 99,
+          "sentences": [
+            "İş arayan kaydını (demanda de empleo) genellikle her 90 günde bir yenilemen gerekir ('sellar el paro'); tarihler iş kartında (tarjeta de empleo) yazar."
+          ]
+        },
+        {
+          "id": "sevilla:term:030",
+          "sheet": "Sözlük",
+          "row": 37,
+          "sentences": [
+            "sellar el paro (işsizlik kaydını yenileme)"
+          ]
+        }
+      ]
+    },
+    {
+      "anchor": "traductor jurado",
+      "kind": "sozluk",
+      "farkli_deger": [],
+      "values": {},
+      "mentions": [
+        {
+          "id": "sevilla:arraigo-kok-salma-oturumu",
+          "sheet": "Yanıtlar",
+          "row": 130,
+          "sentences": [
+            "Başka ülkede düzenlenen belgeleri yeminli tercümana (traductor jurado) İspanyolcaya ya da başvuru bölgesinin resmî diline çevirt; resmî belgelerde İspanyol konsolosluğu tasdiki ya da Lahey apostili ge"
+          ]
+        },
+        {
+          "id": "sevilla:term:015",
+          "sheet": "Sözlük",
+          "row": 22,
+          "sentences": [
+            "traductor jurado (yeminli tercüman)"
+          ]
+        }
+      ]
+    },
+    {
+      "anchor": "vida laboral",
+      "kind": "sozluk",
+      "farkli_deger": [],
+      "values": {},
+      "mentions": [
+        {
+          "id": "sevilla:vida-laboral-raporu-alma",
+          "sheet": "Yanıtlar",
+          "row": 189,
+          "sentences": [
+            "Vida laboral (çalışma geçmişi raporu) nasıl alınır?",
+            "Vida laboral raporunu Seguridad Social'ın çevrimiçi \"Informe de tu vida laboral\" sayfasından Cl@ve, DNIe, elektronik sertifika, SMS ya da selfie ile kimliğini doğrulayarak alırsın.",
+            "\"Informe de tu vida laboral\" sayfasında \"Consultar vida laboral\" düğmesini seç."
+          ]
+        },
+        {
+          "id": "sevilla:term:010",
+          "sheet": "Sözlük",
+          "row": 17,
+          "sentences": [
+            "vida laboral (çalışma geçmişi raporu)"
+          ]
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "groups": 57,
+    "farkli_degerli": 25
+  },
+  "not": "Aday listesi; karar degildir. Farkli deger farkli islem ya da donemden de gelebilir."
+}

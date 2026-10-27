@@ -8,6 +8,21 @@ Amaç: Eindhoven bittikten sonra skill'leri testleriyle son hâline getirmek (Ba
 - **Kısmen:** B15 (acik_mi.py kapısı + agents\acik-mi.md + places kapısı hazır; eksik: city-audit L1'de açık-mı örneklemesi). B16 **tamamlandı (skill-son-hal-5)**: Barış kararı "sen", Berlin gibi (ilk "kişisiz" kararı benim yanlış ölçümüme dayanıyordu); `text_quality --address-standard sen` city-pack kapılarında ve city-audit L0'da; SKILL.md, ortak-kurallar ve test "sen". Eindhoven ölçümü (`sen` standardı): Yanıtlar 138 siz / 148 sen / 3 karışık → v002'de tek geçiş. Açık P2: kişisiz Yanıtlar/Mekânlar kaydı bulgu değil (Berlin Mekânlar 91/92 "sen"); gerekirse sekme başına kişisiz sayısı uyarı olarak eklenir.
 - **Açık:** add_sources `os.replace` ara sıra WinError 5 (bir kez görüldü); KAPSAM.md U3 notu; `sablon_turetme.md` bölme sonrası güncellemesi.
 
+## Sevilla dersleri (25 Ekim 2026; L0 %7 → düzeltme → L1 %74)
+
+**Skill metnine işlendi (25.10.2026):**
+- city-pack: ülke paketi otomatik (`ulke\<ISO>` + `bolge\<bölge>`, ULKE_FAZI sırası; şehirler sırayla, önce İspanya); Drive'da Atınç şablonu araması intake'in ilk işi; eşzamanlı ajan 20 → 5 ve takılma bekçisi; ayna/yan alan adı yasağı; turizm portalı ücret/saat/kural kaynağı değil; K108 ayrı mekân kuralı; bilet/rezervasyon bağlantısı etiketi; ticari fotoğrafsız mekân grup başına ≤2; fotoğrafsız mekân teslim edilmez (yedekle değiştir); ES resmî adres kaydı (CartoCiudad) + kutu kontrolü; foto ret listesi (maket, etkinlik karesi, yüz); hak zinciri ön kontrolü (Flickr/Panoramio/PxHere incelemesiz kare seçilmez); kapak alt yazısı farklı; üretim denetçisi K25/K26 bakar; yanıt yazarına işlem kartının dört öğesi (nereye, ne getir, ne öder, ne zaman); **Düzeltme turu** bölümü (ISSUE → faz eşlemesi).
+- city-audit: L1 ajan talimatları `city-audit\agents\l1\` (şehirden bağımsız, yer tutuculu) ve betikler `city-audit\betikler\` (hazirla_l1/2/3, capraz, snapcmp, tarih, k04, birlestir, bekci.ps1, kayıt örneği); Opus → Sonnet; ≤5 eşzamanlı; `_acikmi_girdi` klasör kuralı (girdi `_acikmi`'ye konunca kapı 58 sahte bulgu verdi); WebFetch/arama özeti kanıt değil; L1 öncesi maliyet sorusu; ülke paketi kartlarının `valid_until` kontrolü (K35).
+
+**Açık (araç kodu; test yazılarak yapılacak, `uretim\sevilla\_is\notlar_skill.md`):**
+- `photo_rows rows` indirme yarım kalınca (missing_download > 0) foto parçalarını yazıyor ve eski satırları siliyor → çıkış 2 vermeli.
+- `photo_sources`: Openverse bekletmesi listedeki öteki kaynakları da durduruyor.
+- `photo_rows`: kapak ↔ mekân aynı dosyada kanıt JSON'unu iki kez yazıyor (K05, Sevilla'da 24 dosya).
+- `download_media.py` (Atınç): Windows'ta ilerleme dosyası `os.replace` "Access is denied"; yeniden teslimde "Existing destination differs" → Atınç'a bildirilecek; geçici paket döngüsü tarifi skill'e alınabilir.
+- Faz 5 adım 1: koordinatı ya da QID'i boş plan satırı sayılıp raporlanmalı (mahallelere QID eşleme).
+- `merge_package`: grup başına `collection=Evet` oranı > %50 ise bulgu.
+- city-audit betikleri toolkit'e taşınıp testlenmeli (şu an yalnız Sevilla'da gerçek veriyle denendi).
+
 ## A. Araç kutusu (toolkit/scripts)
 
 | # | Ö | Sorun (pilotta görülen) | Düzeltme |

@@ -1,0 +1,58 @@
+{
+  "tool": "acik_mi",
+  "acik_mi": "C:\\temp_private\\corteqs\\0000_newera\\denetim\\sevilla_2026-10-26_L1\\_acikmi",
+  "mekanlar": [
+    "C:\\temp_private\\corteqs\\0000_newera\\denetim\\sevilla_2026-10-26_L1\\acik-mi-orneklem.jsonl"
+  ],
+  "kaynaklar": [],
+  "min_year": 2025,
+  "mekan": 120,
+  "tarama": {
+    "dosya": 15,
+    "satir": 120,
+    "mekan": 120
+  },
+  "dogrulama": {
+    "dosya": 15,
+    "satir": 120
+  },
+  "durum": {
+    "belirsiz": 120
+  },
+  "eylem": {
+    "dokunma": 112,
+    "kartta belirt": 8
+  },
+  "sonuc": {
+    "ret": 99,
+    "onay": 21
+  },
+  "listede_olmayan": {
+    "tarama": 0,
+    "dogrulama": 0
+  },
+  "findings": [
+    {
+      "code": "not_yok",
+      "entry_id": "sevilla:costurero-de-la-reina",
+      "where": "parti_01_dogrulama.jsonl:8",
+      "message": "'kartta belirt' kartında 2026 ya da sonrası tarihli not yok (acik-mi-orneklem.jsonl:8): '<gün> <ay> <yıl> itibarıyla …' cümlesi bekleniyor"
+    },
+    {
+      "code": "not_yok",
+      "entry_id": "sevilla:plaza-nueva",
+      "where": "parti_02_dogrulama.jsonl:7",
+      "message": "'kartta belirt' kartında 2026 ya da sonrası tarihli not yok (acik-mi-orneklem.jsonl:15): '<gün> <ay> <yıl> itibarıyla …' cümlesi bekleniyor"
+    },
+    {
+      "code": "not_yok",
+      "entry_id": "sevilla:jardines-del-prado-de-san-sebastian",
+      "where": "parti_02_dogrulama.jsonl:8",
+      "message": "'kartta belirt' kartında 2026 ya da sonrası tarihli not yok (acik-mi-orneklem.jsonl:16): '<gün> <ay> <yıl> itibarıyla …' cümlesi bekleniyor"
+    }
+  ],
+  "by_code": {
+    "not_yok": 3
+  },
+  "out": "C:\\temp_private\\corteqs\\0000_newera\\denetim\\sevilla_2026-10-26_L1\\acik-mi-denetim.json"
+}

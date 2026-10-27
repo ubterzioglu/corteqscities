@@ -49,7 +49,7 @@ from web_fetch import RawResponse
 
 ROOT = Path(r"C:\temp_private\corteqs\0000_newera")
 ARAC = ROOT / "araclar" / "arac"
-TEMPLATE = ROOT / "ekler_eindhoven" / "CITY-039_eindhoven_v001.xlsx"
+TEMPLATE = ROOT / "ekler" / "eindhoven" / "CITY-039_eindhoven_v001.xlsx"
 SCRIPTS = Path(__file__).resolve().parent.parent / "scripts"
 FIXTURE = Path(__file__).resolve().parent / "fixtures" / "mini_city"
 CITY, BBOX, DATE = "eindhoven", "51.3,51.55,5.3,5.6", "2026-10-22"

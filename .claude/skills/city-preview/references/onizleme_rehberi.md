@@ -1,6 +1,6 @@
 # city-preview rehberi: K maddeleri, yöntem ve kanıt
 
-Kaynak: kılavuz 2.0 (`ROOT\analiz_2026-10-22\SEHIR_DENETIM_CHECKLIST_metin.txt`, K01–K03, K92–K94, K103, K109–K113), `toolkit\checks.yaml` (scope `drive-manual` / `preview-later`) ve ekip akışı (`CorteQS_Newera_Digest_ve_Sehir_Uretim_Adimlari.md`, G ve H). Kılavuz sütunu kısa özettir; tereddütte kılavuzun kendi bölümü okunur. Adım numaraları SKILL.md'dekilerdir. Sonuç değerleri yalnız GEÇTİ / KALDI / KONTROL EDİLEMEDİ / UYGULANMAZ; skill karar vermez, kanıt toplar.
+Kaynak: kılavuz 2.0 (`ROOT\belgeler\kilavuz\analiz_2026-10-22\SEHIR_DENETIM_CHECKLIST_metin.txt`, K01–K03, K92–K94, K103, K109–K113), `toolkit\checks.yaml` (scope `drive-manual` / `preview-later`) ve ekip akışı (`CorteQS_Newera_Digest_ve_Sehir_Uretim_Adimlari.md`, G ve H). Kılavuz sütunu kısa özettir; tereddütte kılavuzun kendi bölümü okunur. Adım numaraları SKILL.md'dekilerdir. Sonuç değerleri yalnız GEÇTİ / KALDI / KONTROL EDİLEMEDİ / UYGULANMAZ; skill karar vermez, kanıt toplar.
 
 Drive bağlayıcısı (2026-10 Eindhoven denemesi) kayıtta `id`, `title`, `mimeType`, `fileSize` (metin), `parentId`, `createdTime`, `modifiedTime`, `viewUrl` verir; `md5Checksum` ve `headRevisionId` vermez. Bu yüzden içerik özdeşliği yalnız indirilen baytın SHA-256'sıyla kanıtlanır (ana Excel ve JSON'lar); medya "yalnız ad/boyut" kalır ve bu hash doğrulaması değildir. MD5 yolu yalnız bir bağlayıcı `md5Checksum` verirse çalışır.
 

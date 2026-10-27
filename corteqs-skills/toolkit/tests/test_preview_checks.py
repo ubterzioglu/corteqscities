@@ -419,8 +419,8 @@ NEGATIVE = {
         {"entry_id": "t:n16", "steps": "Satın aldığın kurumun hesabından şartları kontrol et; iptal onayını sakla."},
     ],
     "Mekânlar": [
-        {"entry_id": "t:n8", "status_note": "Tadilat nedeniyle 1 Kasım 2026'dan 15 Mart 2027'ye kadar kapalı."},
-        {"entry_id": "t:n9", "visit_status": "Açık", "note": "Rezervasyon zorunlu; biletler üç hafta önceden satışa çıkar."},
+        {"entry_id": "t:n9", "note": "Tadilat nedeniyle 1 Kasım 2026'dan 15 Mart 2027'ye kadar kapalı; biletler üç "
+                                     "hafta önceden satışa çıkar."},  # kapanis notta: bant degil
     ],
     "Fotoğraflar": [
         {"photo_id": "t:foto:n", "caption": "1931'de açılan istasyonun arşiv kaydı yok; cephe 2019'da yenilendi."},
@@ -462,7 +462,9 @@ def test_warning_scan_flags_real_band_texts_and_reader_audit_work(tmp_path, caps
     wrong = {key: (found[key], want) for key, want in EXPECTED_HITS.items()
              if found[key][0] != want[0] or not want[1] <= found[key][1]}
     assert wrong == {}, wrong
-    assert s["by_check"] == {"K103": 8, "K104": 15} and s["hits"] == 23 and "t:y2" in d["samples"]["tekrar_kontrol"]
+    assert s["by_check"] == {"K103": 8, "K104": 15, "K105": 0} and s["hits"] == 23 and "t:y2" in d["samples"]["tekrar_kontrol"]
+    card = [h for h in d["hits"] if h["field"] in pc.CARD_BAND_FIELDS]
+    assert card and all("kart_bandi" in h["patterns"] for h in card)
     assert next(h for h in d["hits"] if h["id"] == "t:foto:1")["entry_id"] == "t:m1"  # kare + bagli kart
     assert {b["field"] for b in d["band_values"]} == {"overlay", "status_note", "venue_editorial", "visit_status", "hero_note"}
     assert s["exempt"] == 0  # bant alaninda tarihli kapanis cumlesi de muaf degil (t:m6)
@@ -473,8 +475,25 @@ def test_warning_scan_keeps_concrete_closures_bookings_and_normal_steps(tmp_path
     assert code == 0 and s["hits"] == 0 and d["hits"] == [], d["hits"]
     assert s["exempt"] == 1 and d["exempt"][0]["id"] == "t:foto:n8"  # tarihli kapanis cumlesindeki 'sitesinden kontrol'
     assert d["exempt"][0]["patterns"] == ["siteden_bilgi_dogrula"]
-    assert {(b["id"], b["field"]) for b in d["band_values"]} == {("t:n8", "status_note"), ("t:n9", "visit_status"),
-                                                                 ("t:f9", "photo_credit")}
+    assert {(b["id"], b["field"]) for b in d["band_values"]} == {("t:f9", "photo_credit")}
+
+
+def test_warning_scan_flags_any_text_in_card_band_fields(tmp_path, capsys):
+    """Sevilla dis denetimi S06: dolu visit_status sablonda fotograf ustune bant olur; tarihli, somut ya da 'Açık' fark etmez."""
+    rows = {"Mekânlar": [
+        {"entry_id": "t:b1", "visit_status": "Yapım çalışmaları nedeniyle kapalı"},  # Sevilla Mekânlar!41
+        {"entry_id": "t:b2", "status_note": "Tadilat nedeniyle 1 Kasım 2026'dan 15 Mart 2027'ye kadar kapalı."},
+        {"entry_id": "t:b3", "visit_status": "Açık"},
+        {"entry_id": "t:b4", "visit_status": "   "},  # bosluk = bos
+    ], "EkDetaylar": [{"detail_id": "t:b5", "entry_id": "t:b1", "key": "venue_editorial", "value": "Pazartesi kapalı."}],
+        "SayfaAlanları": [{"field_id": "t:b6", "key": "hero_kicker", "value_type": "text", "value": "İspanya · Sevilla"}]}
+    code, s, d = _scan(capsys, tmp_path, rows)
+    found = {(h["id"], h["field"]): (h["check"], h["patterns"]) for h in d["hits"]}
+    assert code == 1 and found == {("t:b1", "visit_status"): ("K103", ["kart_bandi"]),
+                                   ("t:b2", "status_note"): ("K103", ["kart_bandi"]),
+                                   ("t:b3", "visit_status"): ("K103", ["kart_bandi"]),
+                                   ("t:b5", "venue_editorial"): ("K103", ["kart_bandi"])}, found
+    assert s["by_pattern"] == {"kart_bandi": 4}
 
 
 @pytest.mark.parametrize("sentence, exempt", [
@@ -486,6 +505,31 @@ def test_warning_scan_keeps_concrete_closures_bookings_and_normal_steps(tmp_path
 def test_warning_scan_exemption_needs_day_month_and_a_closure_word(sentence, exempt):
     hits, freed = pc.sentence_patterns(sentence)
     assert (bool(freed), bool(hits)) == (exempt, not exempt), (hits, freed)
+
+
+@pytest.mark.parametrize("sentence, pattern", [
+    ("4-7 Aralık kongresi nedeniyle ziyaret yalnız Giralda ile sınırlı.", "yilsiz_istisna"),  # Sevilla S21
+    ("4-8 Aralık 2024 kongresi nedeniyle katedral ziyareti sınırlıydı.", "gecmis_tarihli_istisna"),
+    ("12 Kasım 2026 itibarıyla yenileme nedeniyle kapalı (müzenin sitesi).", None),  # bu yil
+    ("Her yıl 28 Şubat'ta Endülüs Günü nedeniyle resmî daireler kapalıdır.", None),  # yinelenen
+    ("Başvurular 7 Nisan-6 Mayıs arasında yapılır.", None),  # istisna sozcugu yok
+    ("Pazartesi günleri kapalı.", None),  # tarih yok
+    ("Okul yılı 2024'te değişen takvimle başladı.", None),  # gun-ay yok
+    ("Saray 1 Ocak, 6 Ocak, Kutsal Cuma ve 25 Aralık'ta kapalı.", None),  # Sevilla: tatil listesi, neden yok
+    ("Fernando 23 Kasım'ın San Clemente günü olması nedeniyle 1248'de manastırı kurdurdu.", None),  # tarih bilgisi
+])
+def test_dated_exception_pattern(sentence, pattern):
+    assert pc.dated_exception(sentence, 2026) == pattern
+
+
+def test_warning_scan_reports_dated_exceptions_as_k105(tmp_path, capsys):
+    rows = {"Yanıtlar": [{"entry_id": "t:k1", "note": "Ziyaret saatleri değişebilir. 4-7 Aralık kongresi nedeniyle "
+                                                      "ziyaret yalnız Giralda ile sınırlı."}]}
+    code, s, d = _scan(capsys, tmp_path, rows)
+    assert code == 1 and s["by_check"]["K105"] == 1
+    hit = d["hits"][0]
+    assert (hit["id"], hit["check"], hit["patterns"]) == ("t:k1", "K105", ["yilsiz_istisna"])
+    assert hit["sentences"] == ["4-7 Aralık kongresi nedeniyle ziyaret yalnız Giralda ile sınırlı."]
 
 
 def test_warning_scan_usage_errors(tmp_path, capsys):

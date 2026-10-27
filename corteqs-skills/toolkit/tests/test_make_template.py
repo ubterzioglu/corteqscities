@@ -30,7 +30,7 @@ pytestmark = pytest.mark.filterwarnings("ignore:.*extension is not supported and
 
 ROOT = Path(r"C:\temp_private\corteqs\0000_newera")
 REAL_BASE = ROOT / "ekler" / "CITY-000_berlin_ornek_v001.xlsx"
-REAL_ORACLE = ROOT / "ekler_eindhoven" / "CITY-039_eindhoven_v001.xlsx"
+REAL_ORACLE = ROOT / "ekler" / "eindhoven" / "CITY-039_eindhoven_v001.xlsx"
 REAL_TOOLS = ROOT / "araclar" / "arac"
 VALIDATE_ALL = Path(__file__).resolve().parent.parent / "scripts" / "validate_all.py"
 

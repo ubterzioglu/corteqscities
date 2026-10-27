@@ -1,0 +1,132 @@
+{
+  "tool": "acik_mi",
+  "acik_mi": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\acik_mi",
+  "mekanlar": [
+    "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\data\\parcalar\\Mekânlar.mekan1.jsonl",
+    "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\data\\parcalar\\Mekânlar.mekan10.jsonl",
+    "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\data\\parcalar\\Mekânlar.mekan11.jsonl",
+    "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\data\\parcalar\\Mekânlar.mekan2.jsonl",
+    "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\data\\parcalar\\Mekânlar.mekan3.jsonl",
+    "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\data\\parcalar\\Mekânlar.mekan4.jsonl",
+    "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\data\\parcalar\\Mekânlar.mekan5.jsonl",
+    "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\data\\parcalar\\Mekânlar.mekan6.jsonl",
+    "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\data\\parcalar\\Mekânlar.mekan7.jsonl",
+    "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\data\\parcalar\\Mekânlar.mekan8.jsonl",
+    "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\data\\parcalar\\Mekânlar.mekan9.jsonl"
+  ],
+  "kaynaklar": [
+    "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\kaynak_dizini.jsonl"
+  ],
+  "min_year": 2025,
+  "mekan": 120,
+  "tarama": {
+    "dosya": 14,
+    "satir": 155,
+    "mekan": 151
+  },
+  "dogrulama": {
+    "dosya": 14,
+    "satir": 96
+  },
+  "durum": {
+    "açık": 74,
+    "belirsiz": 73,
+    "geçici kapalı": 5,
+    "insaat": 1,
+    "kapalı": 1,
+    "taşındı": 1
+  },
+  "eylem": {
+    "dokunma": 84,
+    "kartta belirt": 11,
+    "sil": 1
+  },
+  "sonuc": {
+    "onay": 69,
+    "ret": 27
+  },
+  "listede_olmayan": {
+    "tarama": 35,
+    "dogrulama": 22
+  },
+  "findings": [
+    {
+      "code": "tarama_yok",
+      "entry_id": "sevilla:fibes-palacio-de-congresos",
+      "where": "Mekânlar.mekan11.jsonl:1",
+      "message": "Fibes - Palacio de Congresos y Exposiciones de Sevilla: hiçbir tarama dosyasında satırı yok"
+    },
+    {
+      "code": "tarama_yok",
+      "entry_id": "sevilla:parque-de-los-bermejales",
+      "where": "Mekânlar.mekan3.jsonl:17",
+      "message": "Parque de los Bermejales: hiçbir tarama dosyasında satırı yok"
+    },
+    {
+      "code": "kaynak_izi_yok",
+      "entry_id": "sevilla:hospital-de-los-venerables",
+      "where": "ek2h_dogrulama.jsonl:1",
+      "message": "kanıt adresinin kaynak kimliği kartın source_ids'inde yok (Mekânlar.mekan6.jsonl:10): add_sources ile kaynak yapıp kimliği ekle"
+    },
+    {
+      "code": "not_yok",
+      "entry_id": "sevilla:plaza-de-america",
+      "where": "ek4_mekan10_dogrulama.jsonl:6",
+      "message": "'kartta belirt' kartında 2026 ya da sonrası tarihli not yok (Mekânlar.mekan10.jsonl:7): '<gün> <ay> <yıl> itibarıyla …' cümlesi bekleniyor"
+    },
+    {
+      "code": "kaynak_izi_yok",
+      "entry_id": "sevilla:plaza-de-america",
+      "where": "ek4_mekan10_dogrulama.jsonl:6",
+      "message": "kanıt adresinin kaynak kimliği kartın source_ids'inde yok (Mekânlar.mekan10.jsonl:7): add_sources ile kaynak yapıp kimliği ekle"
+    },
+    {
+      "code": "kaynak_izi_yok",
+      "entry_id": "sevilla:hospital-de-la-santa-caridad",
+      "where": "ek4_mekan9_dogrulama.jsonl:1",
+      "message": "kanıt adresinin kaynak kimliği kartın source_ids'inde yok (Mekânlar.mekan9.jsonl:2): add_sources ile kaynak yapıp kimliği ekle"
+    },
+    {
+      "code": "kaynak_izi_yok",
+      "entry_id": "sevilla:museo-arqueologico-de-sevilla",
+      "where": "muzeler_dogrulama.jsonl:1",
+      "message": "kanıt adresinin kaynak kimliği kartın source_ids'inde yok (Mekânlar.mekan2.jsonl:2): add_sources ile kaynak yapıp kimliği ekle"
+    },
+    {
+      "code": "not_yok",
+      "entry_id": "sevilla:teatro-lope-de-vega",
+      "where": "sahne_dogrulama.jsonl:1",
+      "message": "'kartta belirt' kartında 2026 ya da sonrası tarihli not yok (Mekânlar.mekan2.jsonl:18): '<gün> <ay> <yıl> itibarıyla …' cümlesi bekleniyor"
+    },
+    {
+      "code": "kaynak_izi_yok",
+      "entry_id": "sevilla:teatro-lope-de-vega",
+      "where": "sahne_dogrulama.jsonl:1",
+      "message": "kanıt adresinin kaynak kimliği kartın source_ids'inde yok (Mekânlar.mekan2.jsonl:18): add_sources ile kaynak yapıp kimliği ekle"
+    },
+    {
+      "code": "not_yok",
+      "entry_id": "sevilla:estadio-benito-villamarin-tur",
+      "where": "spor_dogrulama.jsonl:3",
+      "message": "'kartta belirt' kartında 2026 ya da sonrası tarihli not yok (Mekânlar.mekan3.jsonl:7): '<gün> <ay> <yıl> itibarıyla …' cümlesi bekleniyor"
+    },
+    {
+      "code": "kaynak_izi_yok",
+      "entry_id": "sevilla:hospital-de-la-santa-caridad",
+      "where": "tarih_dogrulama.jsonl:4",
+      "message": "kanıt adresinin kaynak kimliği kartın source_ids'inde yok (Mekânlar.mekan9.jsonl:2): add_sources ile kaynak yapıp kimliği ekle"
+    },
+    {
+      "code": "kaynak_izi_yok",
+      "entry_id": "sevilla:hospital-de-los-venerables",
+      "where": "tarih_dogrulama.jsonl:11",
+      "message": "kanıt adresinin kaynak kimliği kartın source_ids'inde yok (Mekânlar.mekan6.jsonl:10): add_sources ile kaynak yapıp kimliği ekle"
+    }
+  ],
+  "by_code": {
+    "kaynak_izi_yok": 7,
+    "not_yok": 3,
+    "tarama_yok": 2
+  },
+  "out": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\acik_mi_rapor_d12.json"
+}

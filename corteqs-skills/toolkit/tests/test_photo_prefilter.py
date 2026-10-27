@@ -216,6 +216,35 @@ def test_geosearch_without_name_match_is_flagged_and_ranked_lower():
     assert decide(geo, rules=rules)["decision"] == "reject"
 
 
+def _sevilla(name: str, **over) -> dict:
+    return entry(entry_id="sevilla:x", name=name, municipality="Sevilla", municipality_aliases=["Seville"],
+                 lat=None, lon=None, **over)
+
+
+def test_longer_source_name_is_flagged_as_possibly_another_building():
+    """Sevilla dis denetimi S01: 'Iglesia de San Vicente' kartina Triana'daki 'San Vicente de Paúl' karesi geldi."""
+    c = cand(entry_id="sevilla:x", title="File:Sevilla - Triana, Iglesia de San Vicente de Paúl 31.jpg",
+             description_text="Puerta de la iglesia", categories=["Iglesia de San Vicente de Paúl (Sevilla)"])
+    result = decide(c, _sevilla("Iglesia de San Vicente"))
+    assert result["decision"] == "flag" and "name_extended" in result["reasons"], result
+    assert any("san vicente de paul" in note for note in result["notes"])
+
+
+@pytest.mark.parametrize("title, name, extra", [
+    ("Iglesia de San Vicente, Sevilla 03.jpg", "Iglesia de San Vicente", {}),  # devam yok
+    ("Real Alcázar de Sevilla 2019.jpg", "Real Alcázar", {}),  # sehir adi
+    ("Real Alcazar of Seville gardens.jpg", "Real Alcázar", {}),  # sehirin baska adi
+    ("Iglesia de Santa Ana de Triana 2.jpg", "Iglesia de Santa Ana", {"district": "Triana"}),  # kendi semti
+    ("Iglesia de San Vicente de Paúl 31.jpg", "Iglesia de San Vicente de Paúl", {}),  # adin tamami
+    ("Iglesia de San Vicente (Sevilla) - de 2015.jpg", "Iglesia de San Vicente", {}),  # 'de' + sayi ad degil
+    ("Torre del Oro de noche.jpg", "Torre del Oro", {}),  # 'de noche': yaygin betimleme
+])
+def test_legitimate_name_continuations_are_not_flagged(title, name, extra):
+    c = cand(entry_id="sevilla:x", title=title, description_text="", categories=[])
+    result = decide(c, _sevilla(name, **extra))
+    assert "name_extended" not in result["reasons"], result
+
+
 def test_missing_entry_flags():
     result = pr.evaluate(cand(), None, pr.DEFAULT_RULES)
     assert result["decision"] == "flag" and "no_plan_entry" in result["reasons"]

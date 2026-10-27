@@ -24,8 +24,8 @@ entry_id, city_id, slug, title, subtitle, summary, keywords, stages, source_ids,
 - `title`: yerin gerçek/resmî adı, özgün yazımıyla. `subtitle` (en çok 160): ne olduğu ve nerede, kısa. `summary`: o yere özgü 2–4 cümle; ne olduğu, adres veya semt, açık günler ve saatler, ücret, kimlere uygun (kaynakta ne varsa).
 - `district`: semt veya ilçe (plandaki). `location`: kaynaktaki açık adres (sokak, numara, posta kodu).
 - `latitude`/`longitude`: plandaki sayılar (Wikidata ya da ülkenin resmî adres kaydı), AYNEN; ikisi birlikte sayı ya da ikisi `""`; `<bbox>` içinde. Uydurma koordinat yok; iki mekâna kendin aynı koordinatı verme. Plan iki mekâna aynı koordinatı veriyorsa (aynı bina ya da meydan) ya da kendi kontrolünde bir kaydında `coord_range` çıkıyorsa koordinatı değiştirme, kaydırma ya da silme: plandaki gibi bırak ve `open`'a yaz.
-- `visit_status`: `""`. Yalnız kaynak yerin şu an kapalı, tadilatta veya taşınmış olduğunu söylüyorsa kısa durum ("Yenileme nedeniyle kapalı") ve defter satırı. "Ziyaret durumunu kontrol et" gibi kalıp yazılmaz.
-- `note`: yalnız o yere ait pratik bilgi (ücretsiz gün, çanta kuralı, erişilebilirlik, geçici sergi veya tadilat); yoksa `""`. Her mekânın notu kendinedir.
+- `visit_status`: her zaman `""`, istisnasız. Dolu her değer (kapanış, "Açık", tarihli durum) sitede fotoğrafın üstüne bant olarak basılır; bu K103 P1'dir (Sevilla dış denetimi S06). Kapanış, tadilat ya da taşınma `note`'a gider.
+- `note`: yalnız o yere ait pratik bilgi (ücretsiz gün, çanta kuralı, erişilebilirlik, geçici sergi veya tadilat); yoksa `""`. Her mekânın notu kendinedir. Kaynak yerin şu an kapalı, tadilatta ya da taşınmış olduğunu söylüyorsa tarihli tek cümle ("<gün> <ay> <yıl> itibarıyla yenileme nedeniyle kapalı (<kaynağın adı>)") ve defter satırı. "Ziyaret durumunu kontrol et" gibi kalıp yazılmaz.
 - `collection` = `Hayır` (tek, gerçek yer). `Evet` yalnız ana döngünün istediği derleme/dizin kaydında; her grupta en az bir `Hayır` mekân şart.
 - `media_key` = `""` (fotoğraf bağı Fotoğraflar sekmesinde kurulur).
 - Kapanmış veya taşınmış yer yazılmaz; `gaps`'e gider.
@@ -54,6 +54,7 @@ term_id, city_id, term, definition, source_ids, reviewed_on, order, editorial_st
 - `term_id` = `<city_id>:term:001` … (3 hane, ana döngünün verdiği başlangıçtan); `order` 1..N, sekmede benzersiz.
 - `term`: okuyucunun konut, kayıt, ulaşım, sağlık, eğitim ve günlük yaşamda karşılaşacağı gerçek yerel terim, yerel yazımıyla. Genel sözlük kelimesiyle sayı doldurulmaz; aynı terimin iki yazılışı tek maddedir.
 - `definition`: 1–3 cümle Türkçe; ne olduğu ve okuyucunun onunla nerede karşılaşacağı. `source_ids` boş olamaz; tanımdaki her kural ve sayı defterde (`term_id` sahipli).
+- **Her terimin en az bir defter satırı olur**, kural ya da sayı içermese de: `field` = `definition`, `claim` = tanımın ana cümlesi, `quote` = kaynakta terimin ne olduğunu söyleyen birebir cümle. Dış denetim B4'ü "bütün tanım iddiaları bağımsız kapandı mı" diye sayar; defter satırı olmayan terim `iddia_defteri`'nde `iddiasiz_kayit` görünür ve B4'e sayılmaz (Sevilla: 60 terim okundu, B4 0/60).
 
 ## SayfaAlanları
 Anahtar sırası (SayfaAlanları):
@@ -83,7 +84,7 @@ field_id, city_id, key, label, value_type, value, reviewed_on
 | `arrival_note` | Metin | Kişisel takvimin yasal süre yerine geçmediğini açıklayan yerel not | yasal süreler kaynaklı ve defterde |
 | `emergency_url` | Metin | Yerel resmî acil yardım açıklamasına bağlantı | resmî https sayfası (kaynak dizininde) |
 | `pharmacy_url` | Metin | Yerel resmî nöbetçi eczane/eczane bulma bağlantısı | resmî https sayfası (kaynak dizininde) |
-| `advice_entry` | Metin | Danışma kartının bu şehirdeki içerik slugı | yeni gelenin ilk başvuracağı danışma kartının slug'ı |
+| `advice_entry` | Metin | Danışma kartının bu şehirdeki içerik slugı | yeni gelenin ilk başvuracağı **danışma hizmeti** kartının slug'ı (kim, nerede, hangi dilde danışmanlık veriyor); sitede şablonun varsayılan "danışmanlık" düğmesi olur, bu yüzden bilgi kartına (padron, NIE) bağlanmaz (Sevilla S07). Ayrıntı `references\sitede_gorunum.md`. |
 | `facts` | JSON | En az 4 kısa bilgi; her biri aynı şehirde bir içerik slugına gider | en az 4 × `{"value","label","entry"}`; her `value` defterde ve `entry` kartında da yazılı |
 | `quick_links` | JSON | En az 3 hızlı bağlantı; aynı şehirde içerik slugına gider | en az 3 × `{"label","entry"}`; anahtar `entry`, `url` DEĞİL |
 | `timeline` | JSON | En az 4 kişisel hazırlık hatırlatıcısı; offset taşınma tarihine göre gün | en az 4 × `{"title","note","offset"}` (+ isteğe bağlı `entry`); `offset` tamsayı, -730..730; kişisel hatırlatıcıdır, yasal süre değil |
@@ -122,7 +123,8 @@ route_id, city_id, title, tag, stops, stop_entry_ids, entry_id, note, reviewed_o
 - "Kahve molası", "dönüş" gibi genel duraklar durak sayılmaz; gerekiyorsa `note`'a yazılır.
 - `tag`: `<süre> · <tema>` (ör. `Yarım gün · Kültür`). `title`: rotayı ayırt eden Türkçe ad.
 - `note`: başlangıç ve bitiş, yürüyüş veya toplu taşıma, mesafe ve süre varsayımı, açık günler, bilet ihtiyacı; yalnız durak kayıtlarındaki ve kaynaklardaki bilgiyle (defterde `route_id` sahipli, `field` = `note`).
-- Uygulanabilirlik: ardışık duraklar arası mesafeyi koordinatlardan hesapla (haversine, betik `<TMP>`'de). Yürüyüş rotasında ardışık iki durak 3 km'den yakın; rota bir durağın kapalı olduğu günü önermez; haritada uzak iki yeri komşu gibi bağlamaz.
+- Uygulanabilirlik: ardışık duraklar arası mesafeyi koordinatlardan hesapla (haversine, betik `<TMP>`'de). Yürüyüş rotasında ardışık iki durak 3 km'den yakın; rota bir durağın kapalı olduğu günü önermez; haritada uzak iki yeri komşu gibi bağlamaz. Haversine kuş uçuşudur: notta "kuş uçuşu ~X km" yazılır, "X km yürüyüş" yazılmaz.
+- **Gün ve saat planı:** rota bir gün ve başlangıç saati önerir (`note`'ta); her durak için o gün o saatte açık olduğunu durak kaydının saatlerinden göster. Açık değilse durak sırası değişir ya da "dışarıdan görülür" diye ayrılır. Durakların toplam ziyaret ve yürüyüş süresi `tag`'deki süreye sığar. Kendi kontrolünde durak başına satır yaz (`<TMP>\rota_plan.jsonl`: `route_id, durak, varis_saati, acik_mi, dayanak`) ve ana döngüye dönüşte sayıyı ver. Emsal: Sevilla dış denetimi S10 (yalnız pazar sabahı açık Santa Clara, 17:00 sonrası planda; L1'de de ISS-009/028 olarak bilinip kapanmadı).
 - Çeşitlilik: ilk gün tanışma, kültür ve tarih, sanat ve müze, açık hava, aile, yeme-içme ve mahalle, spor, yağmurlu gün, ücretsiz keşif; farklı semtler.
 - `source_ids`: nottaki bilgilerin kaynakları (durak kayıtlarının kaynakları); boş olamaz.
 
@@ -130,6 +132,10 @@ route_id, city_id, title, tag, stops, stop_entry_ids, entry_id, note, reviewed_o
 - Mekân bilgisinin kaynağı mekânın KENDİ resmî sitesindeki alt sayfa (ziyaret, iletişim, bilet) ya da belediye veya resmî kurum sayfasıdır.
 - Şehir turizm portalı (şehrin tanıtım sitesi: `visit<şehir>`, `thisis<şehir>`, `<şehir>365` türü) mekân ve mahalle kaynağı olarak kullanılmaz: sayfaları çoğu zaman JavaScript ile yüklenir, kopyada yalnız menü kalır (pilotta reddedilen 19 mekân kaynağının 15'i ince metindi, çoğu bu tür portal sayfasıydı) ve tanıtım dilindedir. Tek istisna: yerin kendi sitesi ve belediye sayfası yoksa ve ana döngü görev mesajında açıkça izin verdiyse; o zaman da `add_sources` `must_contain` kanıtıyla kabul etmeden kullanılmaz.
 - Ticari siteler hiçbir alanda kaynak değildir (ortak kurallar §4); pilotta mahalle kartlarında expat portalları kullanıldı ve açık konu oldu. Bilet üçüncü taraf bir sitede satılıyorsa yerin resmî sitesindeki bilet sayfasını bağla.
+- Ücret, indirim, ücretsiz gün ve saat yalnız yerin kendi resmî bilet/ziyaret sayfasından; turizm portalı izinliyken bile bu alanların kaynağı olmaz (Sevilla L1: Maestranza ve Museo Taurino kartları turizm sitesindeki eski 10 € tarifesini yazdı, resmî sayfa 12 €). Kendi sayfası yoksa ücreti yazma, `gaps`'e yaz.
+- Bağlantı etiketi hedefle aynı olur: "Bilet al" bilet satan sayfaya, "Rezervasyon yap" genel rezervasyon sayfasına (tek bir etkinliğin duyurusuna değil), "Ziyaret bilgisi" saat ve adres veren sayfaya gider (Sevilla L1: 5 bağlantı bilet satmayan ya da erişilebilirlik bildirimi sayfasına gidiyordu).
+- Ayrı mekân kuralı (K108): aynı adresi, gişesi ya da bileti paylaşan bölüm (bahçe, iç müze, sur parçası) ana mekânın kartında anlatılır; ayrı kart yazılmaz. Ana döngü böyle bir çift verdiyse yazmadan `gaps`'e "alt nesne: <ana mekân>" yaz.
+- Kurum ya da işletmeci adı başlıkta değişebilir bilgi olarak yazılmaz (Sevilla L1: "Hospital de los Venerables (Fundación Focus)" — mülkiyet değişmişti).
 - Yeni adres: ortak kurallar §4'teki `add_sources` komutu (`--subdir snap_<gorev>-<rol><sira>`: yazarsan `<rol>` = `yazar`, her koşu yeni klasör; `--topic <konu>`). `source_urls` bırakılmaz.
 
 ## Bitirmeden

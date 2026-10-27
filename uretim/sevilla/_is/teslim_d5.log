@@ -1,0 +1,46 @@
+{"phase":"assemble","event":"start","ts":"2026-10-26T18:16:05.165Z"}
+{"status":"ok","city_id":"sevilla","rows":{"Yanıtlar":240,"Mekânlar":120,"Mahalleler":16,"Bağlantılar":575,"Adımlar":7,"Rotalar":12,"Sözlük":60,"SayfaAlanları":23,"Fotoğraflar":334,"Kanıtlar":334,"FotoğrafKaynakları":334,"Şehir":1},"per_topic":{"aile":19,"ev":19,"fatura":19,"gunluk":20,"is":20,"kesif":20,"oturum":19,"para":21,"planlama":20,"resmi":21,"saglik":20,"ulasim":22},"places_by_group":{"Tarih ve mimari":56,"Doğa ve açık hava":18,"Sahne ve müzik":10,"Müzeler":10,"Sanat ve sergiler":11,"Çocuklarla keşif":5,"Spor":3,"Yeme ve içme":7},"sources_used":500,"sources_claims_only":0,"claims":6176,"quote_miss":0,"issue_kinds":{},"out":"C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\birlestir_rapor.json"}
+### merge exit=0 19:16:23
+{"status":"ok","sources":500,"with_snapshot":500,"copied":0,"removed_unused":0,"unused_kept":0,"pruned":true,"missing":[],"hash_mismatch":[],"rows_out":"C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\data\\Kaynaklar.jsonl","target_dir":"C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\paket\\Lisans kanıtları"}
+### package_sources exit=0 19:17:22
+{"rows_written":{"Adımlar":7,"Bağlantılar":575,"FotoğrafKaynakları":334,"Fotoğraflar":334,"Kanıtlar":334,"Kaynaklar":500,"Konular":12,"Mahalleler":16,"Mekânlar":120,"Rotalar":12,"SayfaAlanları":23,"Sözlük":60,"Teslimat":1,"Yanıtlar":240,"Şehir":1},"rejected":0,"deduped":0,"defaults_applied":0,"fidelity":"ok","fidelity_accepted":["zip part removed by openpyxl: xl/sharedStrings.xml","zip part added by openpyxl: docProps/app.xml","zip part added by openpyxl: docProps/core.xml"],"out":"C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\paket\\CITY-107_sevilla_v001.xlsx"}
+### build exit=0 19:17:26
+{"tool":"rota_mesafe","routes":12,"legs":40,"measured":40,"problems":0,"problem_examples":[],"max_leg_walk_m":2943,"requests":0,"cache_hits":40,"out":"C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\rota_mesafe.jsonl"}
+### rota_mesafe exit=0 19:17:27
+{"tool":"validate_all","mode":"audit","new_content":true,"structure":{"errors":0,"warnings":1002},"media":{"errors":0},"minimum_gaps":{},"error_classes":[],"media_classes":[],"tolerated_duplicate_list_cells":0,"extras":{"placeholders":0,"wikipedia_labeled_official":0,"verified_without_snapshot":0,"shared_coordinates":3,"homepage_only_sources":0,"history_share":1},"extras_note":"ek kontrol, resmî sayılara dahil değil; tarih payı 56/120 (eşik 0.35, öneri)","technically_complete":true}
+### validate exit=0 19:17:32
+{"tool":"text_quality","workbook":"CITY-107_sevilla_v001.xlsx","exact_clusters":0,"near_clusters":0,"template_clusters":0,"shared_steps":0,"placeholders":0,"filler":0,"evasive":0,"without_action":0,"visual_json_errors":0,"caption_is_title":0,"hedge_cards":0,"hedge_share":0.0,"exact_records":0,"short_repeat_groups":1,"repeated_sentences":34,"cards_total":376,"visual_json_empty":237,"address":{"standard":"sen","records":825,"hitapsiz":542,"siz":0,"sen":283,"karisik":0,"findings":0,"labels":{"records":575,"hitapsiz":107,"siz":0,"sen":468,"karisik":0},"skipped":[]},"findings":0,"out":"C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\text_quality_final.json"}
+### text_quality exit=0 19:17:35
+{"tool":"preview_checks warning-scan","records":2569,"values":2190,"hits":0,"hit_records":0,"exempt":0,"by_check":{"K103":0,"K104":0,"K105":0},"by_pattern":{},"band_values":4,"skipped_sheets":[],"findings":0,"out":"C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\uyari_tarama_final.json"}
+### warning_scan exit=0 19:17:36
+{"claims":2418,"by_kind":{"age":139,"date":573,"duration":507,"money":490,"percent":267,"time":295,"weekday":147},"by_sheet":{"Sözlük":24,"Yanıtlar":2394},"entries_with_claims":187,"claims_without_source":0,"claims_with_missing_source_ids":0,"out":"C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\claims_final.jsonl"}
+### claim_extract exit=0 19:17:37
+{"status":"ok","urls":500,"fetched":500,"saved":500,"failed":0,"thin_text":0,"soft_404":0,"evidence_checked":0,"evidence_missing":0,"evidence_stale":0,"evidence_from_index":0,"must_contain_unmatched":0,"non_html":0,"truncated":2,"skipped":0,"index_rows":574,"index_kept":74,"requests_made":0,"cache_hits":500,"retry_transient":false,"index":"C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\snap\\index.jsonl"}
+### fetch exit=0 19:17:47
+{"claims":2418,"entries":187,"mode":"number","by_result":{"supported":1779,"not_in_source":639,"no_snapshot":0,"homepage_only_source":0,"no_source":0},"by_kind":{"age":{"not_in_source":5,"supported":134},"date":{"not_in_source":441,"supported":132},"duration":{"not_in_source":13,"supported":494},"money":{"not_in_source":17,"supported":473},"percent":{"not_in_source":3,"supported":264},"time":{"not_in_source":17,"supported":278},"weekday":{"not_in_source":143,"supported":4}},"number_only_hits":0,"source_states":{"ok":251},"snapshot_format":"toolkit","snapshots_indexed":606,"snapshots_skipped":[],"out":"C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\claim_check_final.json"}
+### claim_number exit=1 19:18:30
+{"status":"findings","unique_urls":500,"relations":1075,"tested":500,"classes":{"ok_200":463,"redirect_ok":37},"verdicts":{"çalışıyor":500,"bozuk":0,"erişim teyidi açık":0,"test edilmedi":0,"geçersiz":0},"flags":{"homepage_only":18,"wikipedia":0,"wikipedia_labeled_official":0,"redirected_to_homepage":0,"cross_host_redirect":2},"findings":18,"error_domains_top":{},"requests_made":0,"cache_hits":500,"out":"C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\url_check_final.json"}
+### url_check exit=1 19:18:35
+{"phase":"assemble","event":"end","ts":"2026-10-26T18:18:36.129Z"}
+{"phase":"deliver","event":"start","ts":"2026-10-26T18:18:36.366Z"}
+{"tool":"validate_all","mode":"emit","new_content":true,"structure":{"errors":0,"warnings":1002},"media":{"errors":0},"minimum_gaps":{},"error_classes":[],"media_classes":[],"tolerated_duplicate_list_cells":0,"extras":{"placeholders":0,"wikipedia_labeled_official":0,"verified_without_snapshot":0,"shared_coordinates":3,"homepage_only_sources":0,"history_share":1},"extras_note":"ek kontrol, resmî sayılara dahil değil; tarih payı 56/120 (eşik 0.35, öneri)","technically_complete":true,"emitted":["normalized-tables-v7.json","paket-kontrol-v7.json","photo-provenance-v7.json","fotograf-atiflari-v7.csv","fotograf-atif-onizleme.html"]}
+### emit exit=0 19:18:41
+{"tool":"iddia_defteri","kayit":479,"iddia":6176,"kayit_iddiali":452,"silinen_kayit_iddiasi":0,"denetim_satiri":6819,"kayit_denetlenen":472,"son_durum_sayim":{"düzeltildi":64,"temiz":408},"kopyasiz_iddia":0,"duzelt_kayitsiz":0,"dogrulama_sorunlu":8,"out":"C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\paket\\Teslimler"}
+### iddia_defteri exit=0 19:18:58
+{"tool":"gorsel_kalite","photos":334,"covers":8,"flagged":51,"by_reason":{"guclu_kirpma":49,"bulanik":2},"blur_threshold":150.0,"sharpness_percentiles":{"p5":686.28,"p10":866.33,"p25":1668.95,"p50":2746.05,"p75":5138.4,"p90":8213.02,"min":95.38,"max":21004.11},"sheets":15,"out_dir":"C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\gorsel_kalite"}
+### gorsel_kalite exit=1 19:19:20
+{"tool":"kanit_teslim","rota_satiri":92,"mekan_dogrulama":136,"mekan_gecti":136,"foto_inceleme":334,"foto_ek_hak_belirsiz":0,"eksik_sayim":{"rota_plansiz":0,"rota_bacaksiz":0,"mekan_denetimsiz":0,"foto_incelemesiz":0,"gorsel_kalite":0},"eksik":{}}
+### kanit_teslim exit=0 19:19:23
+{"files":2014,"total_mb":375.73,"images":759,"missing":0,"sha_mismatch":0,"file_ne_original":0,"bad_ext":0,"ext_mismatch":0,"orphans":0,"dup_sha":37,"errors":0}
+### inv1 exit=0 19:19:38
+{"verdict":"TEKNİK KONTROL GEÇTİ — insan paket incelemesi bekliyor","blocking":0,"info":3,"notes":46,"progress":"eklendi","manifest_mismatch":["photos_downloaded"],"out_dir":"C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\paket\\Teslimler"}
+### sum1 exit=1 19:19:39
+{"files":2014,"total_mb":375.76,"images":759,"missing":0,"sha_mismatch":0,"file_ne_original":0,"bad_ext":0,"ext_mismatch":0,"orphans":0,"dup_sha":37,"errors":0}
+### inv2 exit=0 19:19:46
+{"verdict":"TEKNİK KONTROL GEÇTİ — insan paket incelemesi bekliyor","blocking":0,"info":3,"notes":46,"progress":"güncellendi","manifest_mismatch":["photos_downloaded"],"out_dir":"C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\paket\\Teslimler"}
+### sum2 exit=1 19:19:47
+{"files":2014,"total_mb":375.76,"images":759,"missing":0,"sha_mismatch":0,"file_ne_original":0,"bad_ext":0,"ext_mismatch":0,"orphans":0,"dup_sha":37,"errors":0}
+### inv3 exit=0 19:19:53
+{"tool":"kanit_kapsami","alt_sinir":93.79,"onizleme_ile_azami":98.79,"eksik":["A1","A2","A3","A4","A5","C4"],"out":"C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\kanit_kapsami.json"}
+### kanit_kapsami exit=1 19:19:54
+TESLIM_D5_BITTI

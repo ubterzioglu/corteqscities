@@ -12,4 +12,4 @@ Mesaj yalnız bir şehir adından (ya da "<şehir> paketi" gibi kısa bir istekt
 - Sade Türkçe, jargonsuz; kararları tek öneriyle sor.
 - Karar gerektirmeyen işleri beklemeden yap; uzun işleri paralel çalıştır ve kısa durum raporu ver.
 - Bu ortamda bekleme: uzun işi PowerShell `run_in_background` ile çalıştır, bitişi onun bildirimiyle al. Monitor aracı `/c/...` yollarını görmüyor (sessiz kalır); Bash her komut sonunda zararsız bir "cwd" hatasıyla çıkış 1 verebilir, script'in kendi çıktısına bak. Türkçe karakterli yollarda sayımları Python'la yap.
-- Şehir üretimi ve denetimi için skill yeterli; `DEVIR_*.md` belgelerini okuma (yalnız kullanıcı geçmişi sorarsa).
+- Şehir üretimi ve denetimi için skill yeterli; `belgeler\devir\` altındaki devir belgelerini okuma (yalnız kullanıcı geçmişi sorarsa).

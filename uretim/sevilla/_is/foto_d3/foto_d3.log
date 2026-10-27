@@ -1,0 +1,25 @@
+{"status":"findings","selected":349,"planned":345,"dropped":4,"drop_examples":[["sevilla:san-bernardo|File:Estación de Cádiz en Sevilla 1.jpg","yazar uygun degil: This file is a work by Takashi kurita . "],["sevilla:huevo-de-colon|File:Huevo de Colón general3.jpg","yazar uygun degil: This file is a work by Takashi kurita . "],["sevilla:plaza-del-duque|File:Monument Velázquez Plaza Duque Victoria - Séville (ES61) - 2023-04-24 - 1.jpg","aday yok"],["sevilla:plaza-de-america|File:Fontaine Plaza America - Séville (ES61) - 2023-04-25 - 1.jpg","aday yok"]],"missing_entries":[],"original_thumb_fixed":0,"candidate_files":["foto/candidates.jsonl","foto_d3/candidates.jsonl","foto_ek/candidates.jsonl","foto_ek2/candidates.jsonl","foto_ek3/candidates.jsonl","foto_ek4/candidates.jsonl","foto_ek6/candidates.jsonl","foto_ek7/candidates.jsonl"],"plan_out":"C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\foto\\indirme_plani.json","clean_out":"C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\foto\\secim_temiz.jsonl"}
+### plan exit=1 11:29:51
+urllib.error.HTTPError: HTTP Error 429: Too many requests (f061ab2)
+download try 1 exit 1 11:31:26
+PermissionError: [WinError 5] Access is denied: 'C:\\Users\\BARIS-~1\\AppData\\Local\\Temp\\claude\\c--temp-private-corteqs-0000-newera\\e1640e62-11af-476a-83cc-e29539d8a592\\scratchpad\\d3_foto2_w\\pkg_tmp\\Teslimler\\download-progress-v7.part' -> 'C:\\Users\\BARIS-~1\\AppData\\Local\\Temp\\claude\
+download try 2 exit 1 11:31:46
+PermissionError: [WinError 5] Access is denied: 'C:\\Users\\BARIS-~1\\AppData\\Local\\Temp\\claude\\c--temp-private-corteqs-0000-newera\\e1640e62-11af-476a-83cc-e29539d8a592\\scratchpad\\d3_foto2_w\\pkg_tmp\\Teslimler\\download-progress-v7.part' -> 'C:\\Users\\BARIS-~1\\AppData\\Local\\Temp\\claude\
+download try 3 exit 1 11:31:57
+PermissionError: [WinError 5] Access is denied: 'C:\\Users\\BARIS-~1\\AppData\\Local\\Temp\\claude\\c--temp-private-corteqs-0000-newera\\e1640e62-11af-476a-83cc-e29539d8a592\\scratchpad\\d3_foto2_w\\pkg_tmp\\Teslimler\\download-progress-v7.part' -> 'C:\\Users\\BARIS-~1\\AppData\\Local\\Temp\\claude\
+download try 4 exit 1 11:32:09
+PermissionError: [WinError 5] Access is denied: 'C:\\Users\\BARIS-~1\\AppData\\Local\\Temp\\claude\\c--temp-private-corteqs-0000-newera\\e1640e62-11af-476a-83cc-e29539d8a592\\scratchpad\\d3_foto2_w\\pkg_tmp\\Teslimler\\download-progress-v7.part' -> 'C:\\Users\\BARIS-~1\\AppData\\Local\\Temp\\claude\
+download try 5 exit 1 11:32:20
+PermissionError: [WinError 5] Access is denied: 'C:\\Users\\BARIS-~1\\AppData\\Local\\Temp\\claude\\c--temp-private-corteqs-0000-newera\\e1640e62-11af-476a-83cc-e29539d8a592\\scratchpad\\d3_foto2_w\\pkg_tmp\\Teslimler\\download-progress-v7.part' -> 'C:\\Users\\BARIS-~1\\AppData\\Local\\Temp\\claude\
+download try 6 exit 1 11:32:34
+PermissionError: [WinError 5] Access is denied: 'C:\\Users\\BARIS-~1\\AppData\\Local\\Temp\\claude\\c--temp-private-corteqs-0000-newera\\e1640e62-11af-476a-83cc-e29539d8a592\\scratchpad\\d3_foto2_w\\pkg_tmp\\Teslimler\\download-progress-v7.part' -> 'C:\\Users\\BARIS-~1\\AppData\\Local\\Temp\\claude\
+download try 7 exit 1 11:32:47
+{"completed": 345, "unique_urls": 337, "rights_approval_granted": false}
+download try 8 exit 0 11:33:36
+plan dosya: 345; gecici pakette: 345
+plan disi silinen: 5 sevilla_caac-centro-andaluz-arte-contemporaneo_03.jpg, sevilla_el-patio-sevillano_02.jpg, sevilla_el-patio-sevillano_03.jpg, sevilla_museo-del-baile-flamenco_02.jpg, sevilla_tablao-el-arenal_01.jpg
+paket fotograf: 345
+{"status":"ok","photos":345,"roles":{"Mekân":337,"Kapak":8},"missing_download":0,"entries_with_photo":135,"errors":0,"error_examples":[],"candidate_files":["foto/candidates.jsonl","foto_d3/candidates.jsonl","foto_ek/candidates.jsonl","foto_ek2/candidates.jsonl","foto_ek3/candidates.jsonl","foto_ek4/candidates.jsonl","foto_ek6/candidates.jsonl","foto_ek7/candidates.jsonl"],"search_files":["foto/search.jsonl","foto_d3/search.jsonl","foto_ek/search.jsonl","foto_ek2/search.jsonl","foto_ek3/search.jsonl","foto_ek4/search.jsonl","foto_ek5/search.jsonl","foto_ek6/search.jsonl","foto_ek7/search.jsonl"],"parts_dir":"C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\data\\parcalar"}
+### rows exit=0 11:34:44
+{"dosya": 3, "alan": 2070, "ters_bolu": 0, "ornek": []}
+FOTO_D3_BITTI

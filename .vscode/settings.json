@@ -1,0 +1,28 @@
+{
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/.venv/**": true,
+    "**/.omc/**": true,
+    "**/uretim/*/_is/**": true,
+    "**/uretim/*/paket/Fotoğraflar/**": true,
+    "**/uretim/*/paket/Lisans kanıtları/**": true,
+    "**/denetim/**": true,
+    "**/ulke/*/_is/**": true
+  },
+  "search.exclude": {
+    "**/.venv": true,
+    "**/.omc/state": true,
+    "**/uretim/*/_is": true,
+    "**/denetim/*/kanitlar": true,
+    "**/denetim/*/_cache": true,
+    "**/*.body": true
+  },
+  "files.exclude": {
+    "**/.venv": true,
+    "**/__pycache__": true
+  },
+  "git.autorefresh": false,
+  "git.autofetch": false,
+  "files.maxMemoryForLargeFilesMB": 8192
+}

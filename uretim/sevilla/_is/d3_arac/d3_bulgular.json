@@ -1,0 +1,642 @@
+[
+ {
+  "entry_id": "sevilla:alameda-de-hercules-cevresi",
+  "alan": "compare_json.Ulaşım",
+  "iddia": "Ulaşım hücresi Turismo'nun yürüyüş rotasıyla ve 'metro durağı yok' cümlesiyle dolduruldu",
+  "sonuc": "bulgu_kapanmamış",
+  "agirlik": "orta",
+  "alinti": "Alameda de Hércules'e Turismo de Sevilla'nın kuzey bölgesi yürüyüş rotası Plaza del Museo'dan Calle San Vicente ve Plaza de San Lorenzo üzerinden ulaşıyor.",
+  "dogrusu": "S09 kapanış testi Ulaşım alanının gerçekten ulaşımı anlatmasını istiyor. Kaynak 449 bir bar-restoran (gastro) rotası, yürüyüş ya da ulaşım rotası değil. Bu hücre S09'da eleştirilen 'tarihî yol / turistik rota' kalıbının aynısı. Semte hizmet veren otobüs hattı ya da durak (Tussam) kaynakla yazılmalı. Metro durağının olmaması tek başına ulaşım bilgisi sayılmaz.",
+  "_grup": "denetim:mahrota:mahalleler"
+ },
+ {
+  "entry_id": "sevilla:san-lorenzo-ve-san-vicente",
+  "alan": "compare_json.Ulaşım",
+  "iddia": "Ulaşım = gastro rotasının yürüyüş güzergâhı + metro durağı yok",
+  "sonuc": "bulgu_kapanmamış",
+  "agirlik": "orta",
+  "alinti": "Plaza del Museo'dan Calle San Vicente üzerinden Plaza de la Gavidia'ya, oradan Plaza de San Lorenzo'ya yürüyerek varılıyor. Metro Línea 1'in 21 durağı arasında San Lorenzo ya da San Vicente adını taşıyan durak yok.",
+  "dogrusu": "Eski metindeki gastro rotası kaynak adı çıkarılarak yürüyüş tarifine çevrilmiş. Hiçbir toplu taşıma hattı ya da durağı yok. S09'un 'Ulaşım ulaşımı anlatsın' testi geçmiyor. Semte hizmet veren otobüs hatları kaynakla eklenmeli.",
+  "_grup": "denetim:mahrota:mahalleler"
+ },
+ {
+  "entry_id": "sevilla:el-porvenir",
+  "alan": "compare_json.Ulaşım",
+  "iddia": "Ulaşım hücresinde yalnız 'metro durağı yok' var",
+  "sonuc": "bulgu_kapanmamış",
+  "agirlik": "orta",
+  "alinti": "Metro Línea 1'in 21 durağı arasında Porvenir adını taşıyan durak yok.",
+  "dogrusu": "Cümle CTAS listesiyle doğru (21 durak, Porvenir yok), ama semte nasıl gidileceğini hiç anlatmıyor. S09 kapanmadı. Yakındaki ulaşım (otobüs hatları ya da kaynakta adı geçen en yakın metro durağı) kaynakla yazılmalı.",
+  "_grup": "denetim:mahrota:mahalleler"
+ },
+ {
+  "entry_id": "sevilla:el-porvenir",
+  "alan": "compare_json.Yeşil alan ve açık alan",
+  "iddia": "Semt hücresine şehir geneli yeşil alan istatistiği yazılmış",
+  "sonuc": "bulgu_kapanmamış",
+  "agirlik": "hafif",
+  "alinti": "Şehir geneli için: kişi başına 14 m² yeşil alan ve 115.000 ağaç (Turismo de Sevilla).",
+  "dogrusu": "Rakamlar kaynak 216'da var ('14 metros cuadrados por habitante', '115.000 árboles'), ama El Porvenir'i öbür semtlerle aynı eksende karşılaştırmıyor. S09 semt düzeyinde yeşil alan istiyor. Semtin içindeki ya da kenarındaki açık alan kaynakla yazılmalı, kaynak yoksa bunu açıkça belirtmeli.",
+  "_grup": "denetim:mahrota:mahalleler"
+ },
+ {
+  "entry_id": "sevilla:la-macarena",
+  "alan": "compare_json.Ulaşım",
+  "iddia": "Ulaşım: 'kolayca ulaşılıyor' + metro durağı yok",
+  "sonuc": "bulgu_kapanmamış",
+  "agirlik": "orta",
+  "alinti": "Basílica ve surların bulunduğu bölgeye hem yürüyerek hem toplu taşımayla kolayca ulaşılıyor. Metro Línea 1'in 21 durağı arasında Macarena adını taşıyan durak yok.",
+  "dogrusu": "Genel bir cümle, hat ya da durak adı yok. S09 testi geçmiyor. Kaynakla adı verilmiş otobüs hatları ya da durakları gerekiyor.",
+  "_grup": "denetim:mahrota:mahalleler"
+ },
+ {
+  "entry_id": "sevilla:calle-feria",
+  "alan": "compare_json.Ulaşım / Yapı ve konut dokusu / Yeşil alan",
+  "iddia": "Ulaşım yalnız konum ve 'metro yok'; konut dokusu hücresi pazar binasını anlatıyor",
+  "sonuc": "bulgu_kapanmamış",
+  "agirlik": "orta",
+  "alinti": "Mercado de la Feria (Calle Feria 98) Macarena semtinin çok yakınında. Metro Línea 1'in 21 durağı arasında Feria adını taşıyan durak yok.",
+  "dogrusu": "Ulaşım hücresinde ulaşım bilgisi yok. 'Yapı ve konut dokusu' konutu değil, pazar binasını anlatıyor (1863/1925 pavyonlar; bu tarihler kaynak 312'de doğru). Yeşil alan hücresi bir kiliseyi açık alan diye sayıyor. S09 bu semtte kapanmadı.",
+  "_grup": "denetim:mahrota:mahalleler"
+ },
+ {
+  "entry_id": "sevilla:los-remedios",
+  "alan": "compare_json.Ulaşım",
+  "iddia": "Calle Asunción metro ve otobüsle bağlantılı; Feria alanı yakınında Tussam durakları var",
+  "sonuc": "bulgu_kapanmamış",
+  "agirlik": "hafif",
+  "alinti": "Calle Asunción metro ve otobüsle bağlantılı. Feria de Abril sırasında Real'e girişin ana yolu; Feria alanının yakınında Tussam otobüs durakları var.",
+  "dogrusu": "İki cümle de kaynaklarda var (298: 'conectada por metro y autobús'; 283: TUSSAM durakları), ama hiçbir durak ya da hat adı yok, oysa öbür semtlerde var. Semte hizmet veren metro durakları (ör. Plaza de Cuba, Parque de los Príncipes) kaynakla yazılmalı. Bu haliyle semtler aynı eksende karşılaştırılamıyor.",
+  "_grup": "denetim:mahrota:mahalleler"
+ },
+ {
+  "entry_id": "sevilla:triana",
+  "alan": "compare_json.Ulaşım",
+  "iddia": "Triana'da Metro Línea 1'in Plaza de Cuba durağı var",
+  "sonuc": "eksik_koşul",
+  "agirlik": "hafif",
+  "alinti": "Metro Línea 1'in Plaza de Cuba durağı var; Turismo de Sevilla'nın Triana sayfasında anılan Plaza de Cuba ile aynı adı taşıyor.",
+  "dogrusu": "CTAS listesinde (288) Plaza de Cuba durağı var, ama listede semt bilgisi yok. Kaynak 297 Plaza de Cuba'yı yalnız 'milla cero' küresiyle anıyor. Plaza de Cuba Triana ile Los Remedios'un sınırında, Los Remedios girişinde. Duraktan 'Triana'nın durağı' diye söz etmek kaynakta yok. Konum 'sınırda / Los Remedios girişinde' diye yazılmalı, durak Los Remedios kaydında da anılmalı.",
+  "_grup": "denetim:mahrota:mahalleler"
+ },
+ {
+  "entry_id": "sevilla:sevilla-este",
+  "alan": "compare_json.Ulaşım",
+  "iddia": "Cercanías'ın Palacio de Congresos istasyonu semtte",
+  "sonuc": "kaynak_yetersiz",
+  "agirlik": "hafif",
+  "alinti": "Cercanías'ın Palacio de Congresos istasyonu semtte (FIBES, Palacio de Congresos y Exposiciones).",
+  "dogrusu": "Kaynak 289 istasyonu yalnız listede adıyla veriyor. Kaynak 304 (Sevilla Este) ve 305 (FIBES) istasyondan hiç söz etmiyor. 'Semtte' konumu kaynakta desteklenmiyor. İstasyonun yeri resmî kaynakla (Renfe/CTAS planı) gösterilmeli ya da cümle 'FIBES'e en yakın Cercanías istasyonu' diye kaynağa uyarlanmalı.",
+  "_grup": "denetim:mahrota:mahalleler"
+ },
+ {
+  "entry_id": "sevilla:calle-feria",
+  "alan": "note",
+  "iddia": "Pazar saatleri Turismo de Sevilla'ya dayandırılmış",
+  "sonuc": "kaynak_yetersiz",
+  "agirlik": "orta",
+  "alinti": "Turismo de Sevilla'ya göre pazar saatleri: salı ve çarşamba 12:30-18:00; perşembe, cuma ve cumartesi 13:00-00:00; pazar 13:00-18:00. Aynı sayfa pazarı sabah 9:00-14:00 arasında gezmeyi de öneriyor.",
+  "dogrusu": "Saatler kaynak 312'de birebir var, ama bu bir turizm portalı. Saat bilgisi turizm portalına dayandırılamaz. Aynı sayfanın 9:00-14:00 önerisi açılış saatleriyle çelişiyor ve karar okura kalıyor. Pazarın resmî sitesi (mercadodelaferia.es, kaynakta adı geçiyor) ya da belediye sayfası kaynak alınmalı.",
+  "_grup": "denetim:mahrota:mahalleler"
+ },
+ {
+  "entry_id": "sevilla:san-lorenzo-ve-san-vicente",
+  "alan": "note",
+  "iddia": "San Vicente ayin saatleri ve ücretsiz giriş Turismo de Sevilla'ya dayandırılmış",
+  "sonuc": "kaynak_yetersiz",
+  "agirlik": "hafif",
+  "alinti": "San Vicente kilisesine giriş ücretsiz. Turismo de Sevilla'ya göre ayinler hafta içi ve bayram arifelerinde 20:00'de, tatil günlerinde 11:00, 12:00 ve 20:00'de.",
+  "dogrusu": "Kaynak 450'de değerler birebir var ('Gratis'; 'Misas: Laborables y Vísperas: 20:00 h. Festivos 11:00, 12:00 y 20:00 h.'), ama kaynak turizm portalı. Ücret ve saat için parroquia ya da Başpiskoposluk sayfası gerekiyor.",
+  "_grup": "denetim:mahrota:mahalleler"
+ },
+ {
+  "entry_id": "sevilla:la-macarena",
+  "alan": "note",
+  "iddia": "Basílica saatleri (09:00-14:00, 17:00-21:00) turizm portalına dayanıyor",
+  "sonuc": "kaynak_yetersiz",
+  "agirlik": "hafif",
+  "alinti": "Basílica pazartesiden pazara 09:00-14:00 ve 17:00-21:00 saatleri arasında açık.",
+  "dogrusu": "Saat kaynak 300'de (visitasevilla.es) birebir var ('Lunes a domingo, de 9:00 a 14:00 y de 17:00 a 21:00'), ama kaynak turizm portalı. Basílica/Hermandad de la Macarena'nın resmî sitesi kaynak alınmalı. Not bu turda değişmedi, kayıt kapsamda olduğu için yazıldı.",
+  "_grup": "denetim:mahrota:mahalleler"
+ },
+ {
+  "entry_id": "sevilla:route:001–012",
+  "alan": "note",
+  "iddia": "S10 kapanış testi: 12/12 rota aynı gün için zaman çizelgesi ve gerçek ulaşım/yürüyüş kanıtıyla sınanmalı",
+  "sonuc": "bulgu_kapanmamış",
+  "agirlik": "orta",
+  "alinti": "Ardışık duraklar arası kuş uçuşu ~0,70; 0,22 ve 2,40 km, toplam yaklaşık ~3,33 km (koordinatlardan hesap; yürüyüş mesafesi değil).",
+  "dogrusu": "Saat planları eklenmiş ama 12 rotanın hiçbirinde gerçek yürüyüş/ulaşım mesafesi ya da süresi yok; rota_plan.jsonl de yalnız açık-mı kontrolü içeriyor. Özellikle route:005'te Jardín Americano–Alamillo arası 2,40 km kuş uçuşu ve ulaşım biçimi belirtilmemiş. Her geçiş için gerçek yaya/toplu taşıma süresi eklenmeli.",
+  "_grup": "denetim:mahrota:rotalar"
+ },
+ {
+  "entry_id": "sevilla:route:011",
+  "alan": "note",
+  "iddia": "Calle Feria pazarı pazar 13:00–18:00 açık; pazar günü pazarı 13:00'ten sonra gez",
+  "sonuc": "yanlış",
+  "agirlik": "orta",
+  "alinti": "Calle Feria pazarı salı–çarşamba 12:30–18:00, perşembe–cumartesi 13:00–0:00, pazar 13:00–18:00 açık",
+  "dogrusu": "Resmî Mercados de Sevilla (kaynak 563) ve durak kaydının güncel hali: 'Puestos: Lunes a sábado de 8:00 a 15:00' — pazar kapalı. Rota notu turizm portalı (kaynak 312) saatlerini kullanıyor ve 'Pazar günü ... pazarı 13:00'ten sonra gez' önerisi resmî saatle çelişiyor.",
+  "_grup": "denetim:mahrota:rotalar"
+ },
+ {
+  "entry_id": "sevilla:route:009",
+  "alan": "note",
+  "iddia": "Calle Feria pazarı saatleri Turismo de Sevilla'ya göre salı–çarşamba 12:30–18:00, perşembe–cumartesi 13:00–00:00, pazar 13:00–18:00",
+  "sonuc": "yanlış",
+  "agirlik": "orta",
+  "alinti": "Calle Feria pazarı Turismo de Sevilla'ya göre salı–çarşamba 12:30–18:00, perşembe–cumartesi 13:00–00:00, pazar 13:00–18:00 açık",
+  "dogrusu": "Durak kaydı bu turda resmî Mercados de Sevilla'ya (kaynak 563) göre güncellendi: tezgâhlar pazartesi–cumartesi 8:00–15:00. Rota hâlâ turizm portalı saatini veriyor (kaynak_yetersiz). 13:15 perşembe ziyareti iki takvime de uyuyor ama saat bilgisi yanlış.",
+  "_grup": "denetim:mahrota:rotalar"
+ },
+ {
+  "entry_id": "sevilla:route:010",
+  "alan": "note",
+  "iddia": "Salvador için Turismo de Sevilla pazartesi–cumartesi 10:15–18:00 diyor",
+  "sonuc": "kaynak_yetersiz",
+  "agirlik": "hafif",
+  "alinti": "Turismo de Sevilla ise pazartesi–cumartesi 10:15–18:00 diyor. Planlanan 13:45 ziyareti iki takvime de uyuyor.",
+  "dogrusu": "Durak kaydı yalnız Archidiócesis (kaynak 474: lunes a sábados 9–17 h, acceso hasta 16.30; domingos 14.30–19.30; julio y agosto cerrado) takvimine geçti. Turizm portalı saat kaynağı yapılmamalı; çelişki okura bırakılmamalı.",
+  "_grup": "denetim:mahrota:rotalar"
+ },
+ {
+  "entry_id": "sevilla:route:006",
+  "alan": "note",
+  "iddia": "Plaza de Toros kapanışı iki ayrı takvim: 21:30 ve 19:30",
+  "sonuc": "eksik_koşul",
+  "agirlik": "hafif",
+  "alinti": "resmî sayfa kapanışı iki ayrı takvimle veriyor: 21:30 ve 19:30",
+  "dogrusu": "Durak kaydının güncel hali takvimi ayırıyor: 31 Ekim'e kadar 09:30–21:30, 1 Kasım'dan itibaren 19:30 (gişe 19:00). Rota notu güncel koşulu taşımıyor, çelişkiyi okura bırakıyor.",
+  "_grup": "denetim:mahrota:rotalar"
+ },
+ {
+  "entry_id": "sevilla:route:006",
+  "alan": "note",
+  "iddia": "Güzel Sanatlar Müzesi salı–cumartesi 9–21h; pazar, tatil ve Ağustos'ta 9–15h",
+  "sonuc": "kaynak_yetersiz",
+  "agirlik": "hafif",
+  "alinti": "Güzel Sanatlar Müzesi salı–cumartesi 9–21h açık; pazar, resmî tatiller ve Ağustos'ta 9–15h, pazartesi kapalı.",
+  "dogrusu": "Saat yalnız turizm portalına (kaynak 337, visitasevilla.es) dayanıyor; resmî museosdeandalucia sayfası kaynak gösterilmeli.",
+  "_grup": "denetim:mahrota:rotalar"
+ },
+ {
+  "entry_id": "sevilla:route:007",
+  "alan": "note",
+  "iddia": "Museo del Baile Flamenco her gün 10:00–18:00 açık",
+  "sonuc": "kaynak_yetersiz",
+  "agirlik": "hafif",
+  "alinti": "Museo del Baile Flamenco her gün 10:00–18:00 açık.",
+  "dogrusu": "Resmî site (501) yalnız 'Horario del Museo: 10:00 - 18:00' diyor, 'her gün' demiyor; 'Todos los días' turizm portalından (340) geliyor ve orada saat 11:00–18:00. İki kaynak birleştirilmiş (route:006'da da aynı ifade var).",
+  "_grup": "denetim:mahrota:rotalar"
+ },
+ {
+  "entry_id": "sevilla:route:001",
+  "alan": "note",
+  "iddia": "Archivo salı–cumartesi 9:30–17:00, pazar 10:00–14:00, son giriş 30 dk önce; Casa de Pilatos her gün 9:00–18:00; Murillo kışın 8:00–22:00",
+  "sonuc": "kaynak_yetersiz",
+  "agirlik": "orta",
+  "alinti": "Archivo salı–cumartesi 9:30–17:00 açık, pazartesi kapalı; Casa de Pilatos her gün 9:00–18:00",
+  "dogrusu": "Bu üç durağın saati yalnız turizm portalından (328, 382, 353 visitasevilla.es). Resmî kaynak (cultura.gob.es AGI, fundacionmedinaceli.org, sevilla.org) gerekli. Catedral (206) ve Alcázar (315) resmî kaynakla doğru.",
+  "_grup": "denetim:mahrota:rotalar"
+ },
+ {
+  "entry_id": "sevilla:route:002",
+  "alan": "note",
+  "iddia": "Mercado de Triana pazartesi–cumartesi 09:00–00:00, pazar 09:00–17:00; Centro Cerámica salı–pazar 10:00–19:00",
+  "sonuc": "kaynak_yetersiz",
+  "agirlik": "orta",
+  "alinti": "Mercado de Triana pazartesi–cumartesi 09:00–00:00, pazar ve resmî tatillerde 09:00–17:00 açık; Centro Cerámica Triana salı–pazar 10:00–19:00 açık",
+  "dogrusu": "Saatler yalnız turizm portalına (371, 341) dayanıyor; resmî pazar/merkez sayfası kaynak olmalı. Torre del Oro saati resmî (344) ve doğru.",
+  "_grup": "denetim:mahrota:rotalar"
+ },
+ {
+  "entry_id": "sevilla:route:003",
+  "alan": "note",
+  "iddia": "Plaza de España 8–24, María Luisa 8–24, Casa de la Ciencia salı–pazar 10–20 ve 3 euro, Costurero 09:30–14:30",
+  "sonuc": "kaynak_yetersiz",
+  "agirlik": "orta",
+  "alinti": "Casa de la Ciencia salı–pazar 10:00–20:00 açık, tatil olmayan pazartesiler kapalı; genel giriş 3 euro.",
+  "dogrusu": "Rotanın bütün saat ve ücret kaynakları turizm portalı (326, 390, 351, 335). Ücret ve saat için resmî kaynak (CSIC Casa de la Ciencia, sevilla.org) gerekli. Aynı durum route:008'de (390, 351) ve route:012'de (353, 351) de var.",
+  "_grup": "denetim:mahrota:rotalar"
+ },
+ {
+  "entry_id": "sevilla:route:005",
+  "alan": "note",
+  "iddia": "CaixaForum hafta içi 9–20, hafta sonu 10–20; genel giriş 6 euro",
+  "sonuc": "kaynak_yetersiz",
+  "agirlik": "orta",
+  "alinti": "CaixaForum hafta içi 9–20 h, hafta sonu ve tatillerde 10–20 h açık; genel giriş 6 euro.",
+  "dogrusu": "Saat ve ücret yalnız turizm portalına (347) dayanıyor; caixaforum.org/es/sevilla resmî kaynak olmalı.",
+  "_grup": "denetim:mahrota:rotalar"
+ },
+ {
+  "entry_id": "sevilla:route:004",
+  "alan": "note",
+  "iddia": "Macarena her gün 9–14 ve 17–21; Algaba ve San Román saatini telefondan öğren",
+  "sonuc": "kaynak_yetersiz",
+  "agirlik": "hafif",
+  "alinti": "Macarena Bazilikası her gün 9:00–14:00 ve 17:00–21:00 açık",
+  "dogrusu": "Saat yalnız turizm portalından (300); resmî hermandaddelamacarena.es gerekli. Ayrıca 'açılış saatlerini 955 472 097 ... numaralı telefondan öğren' ifadesi bilgiyi okura bırakıyor (kalıba yakın).",
+  "_grup": "denetim:mahrota:rotalar"
+ },
+ {
+  "entry_id": "sevilla:route:011",
+  "alan": "note",
+  "iddia": "Espacio Santa Clara salı–cumartesi 10:00–14:00 ve 17:00–20:00, pazar sabahı açık",
+  "sonuc": "kaynak_yetersiz",
+  "agirlik": "hafif",
+  "alinti": "Espacio Santa Clara salı–cumartesi 10:00–14:00 ve 17:00–20:00 açık, pazar sabahı da açık",
+  "dogrusu": "Saat yalnız turizm portalından (336); resmî ICAS sayfası (icas.sevilla.org) gerekli. Pazar için saat aralığı yok. S10'un Santa Clara kısmı ise kapandı: iç ziyaret cumartesi 10:45'e alınmış.",
+  "_grup": "denetim:mahrota:rotalar"
+ },
+ {
+  "entry_id": "sevilla:casa-de-la-ciencia",
+  "alan": "summary",
+  "iddia": "Salı–pazar 10:00–20:00 açık, tatil olmayan pazartesiler kapalı; genel giriş 3 €",
+  "sonuc": "kaynak_yetersiz",
+  "agirlik": "orta",
+  "alinti": "Salı–pazar 10:00–20:00 açık, tatil olmayan pazartesiler kapalı; genel giriş 3 €.",
+  "dogrusu": "Saat ve ücretin tek dayanağı sevilla:kaynak:390, yani Turismo de Sevilla (visitasevilla.es) turizm portalı. Saat ve ücret, CSIC Casa de la Ciencia'nın kendi 'Horarios y precios' sayfasından alınmalı; o sayfa yoksa ikisi kesin bilgi gibi yazılmamalı. Planetaryum ölçüsü (S16) kapanmış: kartta artık 6 m yazıyor ve bu değer CSIC 556 ile Fundación Descubre 564'te birebir geçiyor.",
+  "_grup": "denetim:mekan:ilk yarı"
+ },
+ {
+  "entry_id": "sevilla:jardines-de-cristina",
+  "alan": "summary",
+  "iddia": "S08: kart bahçenin kendi kimliğini ve ziyaret değerini anlatmalı",
+  "sonuc": "bulgu_kapanmamış",
+  "agirlik": "orta",
+  "alinti": "Karşıdaki Palacio de San Telmo bugün Andalucía özerk yönetiminin başkanlık merkezi; Junta içini ücretsiz rehberli turlarla gezdiriyor.",
+  "dogrusu": "Bahçe hâlâ yalnız konumla anlatılıyor (Paseo de Roma, San Telmo'nun karşısı). Özetin ve notun geri kalanı başka bir yerin, karşıdaki Palacio de San Telmo'nun rehberli turuna ait. Bahçenin ne sunduğu, saatleri ve girişi birincil kaynakla yazılmalı. San Telmo turu kendi kartına taşınmalı ya da kartta açıkça yan bilgi olarak ayrılmalı.",
+  "_grup": "denetim:mekan:ilk yarı"
+ },
+ {
+  "entry_id": "sevilla:jardines-de-cristina",
+  "alan": "note",
+  "iddia": "Grup rezervasyonu en fazla 25 kişi ve yalnız telefonla yapılıyor",
+  "sonuc": "yanlış",
+  "agirlik": "hafif",
+  "alinti": "Grup rezervasyonu en fazla 25 kişi ve yalnız telefonla yapılıyor.",
+  "dogrusu": "Kaynak 553 telefonu esas alıyor ama tek kanal saymıyor: 'Estas reservas se deberán realizar vía telefónica. En caso de no ser atendido al momento, puede mandar un correo a la dirección arriba indicada'. Bu yüzden 'yalnız' sözcüğü fazla. Kartta ayrıca rezervasyon için her katılımcının ad-soyadı ve DNI/pasaport bilgisinin istendiği de eksik.",
+  "_grup": "denetim:mekan:ilk yarı"
+ },
+ {
+  "entry_id": "sevilla:palacio-bucarelli",
+  "alan": "latitude/longitude",
+  "iddia": "Koordinat 37.399045, -5.996742 (S18 kapsamında yeni eklendi)",
+  "sonuc": "çelişkili_kaynak",
+  "agirlik": "hafif",
+  "alinti": "\"latitude\": 37.399045, \"longitude\": -5.996742",
+  "dogrusu": "Bu koordinat ne defterde (claim yok) ne de bağlı kaynak kopyalarında geçiyor. Koordinat veren tek kopya Junta Agenda Cultural 528 ve o başka bir nokta veriyor: '37.385915, -5.9931406162577'. Bu nokta Santa Cruz civarına düşüyor; Calle Santa Clara'ya uymuyor. OSM'de Calle Santa Clara'nın güney ucu yaklaşık 37.4006, -5.9964. Kartın değeri makul görünüyor ama dayanağı yok. Yetkili bir harita ya da adres kaynağı deftere bağlanmalı, Junta kaynağıyla olan çelişki de not edilmeli.",
+  "_grup": "denetim:mekan:ilk yarı"
+ },
+ {
+  "entry_id": "sevilla:casa-de-salinas",
+  "alan": "latitude/longitude",
+  "iddia": "Koordinat 37.386957, -5.989622 (S18 kapsamında yeni eklendi)",
+  "sonuc": "kaynak_yetersiz",
+  "agirlik": "hafif",
+  "alinti": "\"latitude\": 37.386957, \"longitude\": -5.989622",
+  "dogrusu": "Defterde koordinat claim'i yok, kaynak kopyalarında (524, 525) da koordinat geçmiyor. OSM Nominatim 'Casa de Salinas, Calle Mateos Gago' için 37.3870159, -5.9896342 veriyor; kartın değeri bununla örtüşüyor. Bu dayanak deftere bağlanmalı.",
+  "_grup": "denetim:mekan:ilk yarı"
+ },
+ {
+  "entry_id": "sevilla:palacio-bucarelli",
+  "alan": "summary",
+  "iddia": "Haziran–Eylül'de genel ziyaret 9:00–13:00 arası",
+  "sonuc": "eksik_koşul",
+  "agirlik": "hafif",
+  "alinti": "Haziran–Eylül'de genel ziyaret 9:00–13:00 arası.",
+  "dogrusu": "Kaynak 554: '*Los sábados del mes de Julio permaneceremos cerrados.' Yani temmuz cumartesileri kapalı. Ayrıca kapanış günlerinden önceki günlerde öğlen kapanılıyor: '(LOS DÍAS PREVIOS SE CIERRA AL MEDIO DIA)'. İki koşul da kartta yok.",
+  "_grup": "denetim:mekan:ilk yarı"
+ },
+ {
+  "entry_id": "sevilla:auditorio-cartuja-sevilla",
+  "alan": "note",
+  "iddia": "S08: organizatör iletişimi ziyaretçi kanalından ayrılmalı",
+  "sonuc": "bulgu_kapanmamış",
+  "agirlik": "hafif",
+  "alinti": "Genel iletişim: +34 954 722 968, info@yventu.com; sohbet hattı hafta içi 8:00–16:00 yanıt veriyor.",
+  "dogrusu": "Kaynak 370'te bu telefon ve e-posta etkinlik düzenlemek isteyenlerin iletişimi olarak veriliyor: 'Hablemos de tu próximo evento… Contacta con Auditorio Cartuja y cuéntanos qué necesitas'. Kart bunları 'genel iletişim' diye sunuyor. Bilet için etkinlik sayfasına yönlendirmesi doğru. Ancak bu numara ve e-posta 'etkinlik düzenlemek için' diye etiketlenmeli.",
+  "_grup": "denetim:mekan:ilk yarı"
+ },
+ {
+  "entry_id": "sevilla:hospital-de-la-santa-caridad",
+  "alan": "note",
+  "iddia": "25 Ekim 2026 itibarıyla kilise rehabilitasyon nedeniyle ziyarete kapalı; çalışmalar yaklaşık iki yıl sürecek",
+  "sonuc": "çelişkili_kaynak",
+  "agirlik": "orta",
+  "alinti": "25 Ekim 2026 itibarıyla Iglesia del Señor San Jorge rehabilitasyon çalışması nedeniyle ziyarete kapalı; çalışmaların yaklaşık iki yıl süreceği duyuruldu (Viva Sevilla, Sevilla Actualidad).",
+  "dogrusu": "Kaynaklar 'Ekim 2026 itibarıyla' durumu göstermiyor ve birbiriyle uyuşmuyor. Sevilla Actualidad (11.03.2025) kilisenin değil bütün Hastanenin kapandığını yazıyor: 'El Hospital de la Caridad cierra sus puertas desde este lunes debido a las obras de rehabilitación previstas para los próximos dos años'. Viva Sevilla (09.06.2026) yalnızca 'iglesia del Señor San Jorge, actualmente en rehabilitación' diyor, kapanış demiyor. Resmî site santa-caridad.es ise bugün ziyaret saatleri veriyor: 'Diario: 10:10 – 17:00 (Viernes: 20:30)'. Casas Palacio sayfasında da 'Horario de Atención' saatleri var. Açık mı kapalı mı, resmî kaynakla kesinleştirilmeli. Kesinleşene kadar not tarihli ve kaynağıyla yazılmalı ('Mart 2025'te iki yıllık restorasyon için kapandığı duyuruldu'). 'Bugün kapalı' diye kesin hüküm verilmemeli.",
+  "_grup": "denetim:dis"
+ },
+ {
+  "entry_id": "sevilla:hospital-de-la-santa-caridad",
+  "alan": "summary",
+  "iddia": "Şapelin içinde Murillo, Valdés Leal, Roldán, Pineda ve Zurbarán eserleri görülebilir",
+  "sonuc": "bulgu_kapanmamış",
+  "agirlik": "orta",
+  "alinti": "şapelin içinde Murillo, Valdés Leal, Pedro Roldán, Bernardo Simón de Pineda ve Zurbarán'ın tabloları, heykelleri, freskleri ve retabloları görülebilir",
+  "dogrusu": "Kartın kendi notu kiliseyi kapalı sayıyor. Kaynaklara göre eserler Mart 2025'te sergi için yerinden indirildi (Sevilla Actualidad: 'las obras de la iglesia de San Jorge se descolgarán el próximo 19 de marzo'). Kilise de hâlâ rehabilitasyonda. Özetteki 'görülebilir' kapalı yeri açıkmış gibi sunuyor (S06 düzeltmesi: 'Kapalı yere açıkmış gibi yönlendirme yapma'). Cümle 'şapelde ... eserleri bulunur' biçimine getirilmeli ve kapanış/restorasyon durumuyla tutarlı olmalı.",
+  "_grup": "denetim:dis"
+ },
+ {
+  "entry_id": "sevilla:field:advice_entry",
+  "alan": "value",
+  "iddia": "Danışmanlık düğmesi 'sevilla-gocmen-dernekleri-adres-ve-telefon-listesi' kartına gidiyor",
+  "sonuc": "bulgu_kapanmamış",
+  "agirlik": "orta",
+  "alinti": "sevilla-gocmen-dernekleri-adres-ve-telefon-listesi",
+  "dogrusu": "Düğmenin etiketi şablonda sabit ve Türkçe danışmanlık ima ediyor. Hedef kart ise yalnız dernek adres ve telefonlarını sıralıyor, hangi hizmeti verdiklerini yazmıyor: 'hangisinin hangi hizmeti verdiğini aramadan önce telefonla sorabilirsin'. Hizmet dili ve ücret de yok. sitede_gorunum.md kuralına göre düğme yalnız danışma hizmetini anlatan karta bağlanır: kim veriyor, nerede, hangi dilde, ücretli mi. Kapanış testi de 'Türkçe hizmet sunulduğu kanıtsız ima edilmez' diyor. Bu karta bağlıyken ikisi de sağlanmıyor. Düğme gerçekten danışma hizmeti anlatan kaynaklı bir karta bağlanmalı (ör. Sevilla Acoge'nin ya da belediyenin göçmen danışma hizmeti: hizmet türü, dil, ücret, adres). Ya da hedef kart bu öğelerle tamamlanmalı.",
+  "_grup": "denetim:dis"
+ },
+ {
+  "entry_id": "sevilla:katedral-ve-giralda-saatler-bilet-ve-rehberli-tur",
+  "alan": "summary;steps",
+  "iddia": "Yabancı işsizlerin ücretsiz girişten yararlanıp yararlanamayacağını gişede sor",
+  "sonuc": "kalıp",
+  "agirlik": "hafif",
+  "alinti": "yabancı işsiz olarak bu haktan yararlanıp yararlanamayacağını gişede sor",
+  "dogrusu": "Kaynak yalnızca 'Desempleados nacionales' diyor. Kart bu belirsizliği çözmeden doğrulamayı okura bırakıyor; aynı ifade steps'te de var: 'işsiz olarak ücretsiz giriş hakkının sana da tanınıp tanınmadığını gişede sor'. Doğrusu, tarifenin kelimesi kelimesine ne dediğini aktarmak: 'Tarife ücretsiz girişi ulusal işsizlerle (desempleados nacionales) sınırlıyor; resmî belgeyle kanıtlanır.' 'Gişede sor' kaldırılmalı.",
+  "_grup": "denetim:dis"
+ },
+ {
+  "entry_id": "sevilla:hospital-de-los-venerables",
+  "alan": "note;summary;subtitle",
+  "iddia": "25 Ekim 2026 itibarıyla bina tadilat nedeniyle ziyarete kapalı",
+  "sonuc": "kaynak_yetersiz",
+  "agirlik": "hafif",
+  "alinti": "25 Ekim 2026 itibarıyla bina tadilat nedeniyle ziyarete kapalı (Turismo de Sevilla).",
+  "dogrusu": "Kapanışın tek dayanağı turizm portalı, o da kendi içinde çelişiyor. Aynı sayfa hem 'El hospital puede visitarse' hem 'Cerrado temporalmente por obras' diyor. Resmî site losvenerables.es bakım modunda ve durum bilgisi vermiyor. Durum, işletmeci Fundación Focus'un resmî kaynağıyla teyit edilmeli. Teyit edilemezse kapanışın yalnız turizm portalına dayandığı açıkça yazılmalı.",
+  "_grup": "denetim:dis"
+ },
+ {
+  "entry_id": "sevilla:monasterio-de-san-jeronimo-de-buenavista",
+  "alan": "note;subtitle",
+  "iddia": "25 Ekim 2026 itibarıyla geçici olarak ziyarete kapalı",
+  "sonuc": "kaynak_yetersiz",
+  "agirlik": "hafif",
+  "alinti": "25 Ekim 2026 itibarıyla geçici olarak ziyarete kapalı (Turismo de Sevilla).",
+  "dogrusu": "Saat ve kapanış bilgisinin tek kaynağı turizm portalı: 'Horario: Lunes a viernes, de 9:00 a 21:00 (cerrado temporalmente)'. Bina belediyenin sivil merkezi; durum sevilla.org'daki centro cívico sayfasıyla teyit edilmeli. Ayrıca kapalı bir mekân için notta 'birlikte gezilebilir' önerisi var; bu öneri yalnız park ve nehir kıyısına bağlanmalı.",
+  "_grup": "denetim:dis"
+ },
+ {
+  "entry_id": "sevilla:bodega-dos-de-mayo",
+  "alan": "summary",
+  "iddia": "Sitenin iki saat ifadesi yan yana yazılmış, cuma-pazar 16:30-20:00 çözülmeden bırakılmış",
+  "sonuc": "bulgu_kapanmamış",
+  "agirlik": "orta",
+  "alinti": "Cuma-pazar 16:30-20:00 arası için ifadeler ayrışıyor.",
+  "dogrusu": "S11'in kapanış testi tek yorum istiyor. Kartta yalnız şu kalmalı: 'Her gün 12:30-16:30 ve 20:00-24:00 açık (bodeganın sitesi)'. Cuma-pazar öğleden sonraki ek saat ayrıca anlatılmamalı, iki ifadenin karşılaştırması da editoryal kayda taşınmalı.",
+  "_grup": "denetim:mekan:ikinci yarı"
+ },
+ {
+  "entry_id": "sevilla:bodega-dos-de-mayo",
+  "alan": "note",
+  "iddia": "Çözülmemiş saat okura telefonla doğrulatılıyor",
+  "sonuc": "kalıp",
+  "agirlik": "orta",
+  "alinti": "cuma-pazar 16:30-20:00 arasında gitmek istiyorsan önce bu numarayı arayıp açık olup olmadığını sor.",
+  "dogrusu": "Okura denetim işi bırakan cümle kaldırılmalı. Telefon numarası yalnız iletişim bilgisi olarak kalabilir: +34 954 223 800.",
+  "_grup": "denetim:mekan:ikinci yarı"
+ },
+ {
+  "entry_id": "sevilla:mercado-de-la-calle-feria",
+  "alan": "Rotalar sevilla:route:009 ve route:011 note (bağlı rota)",
+  "iddia": "Kart tezgâh saatini pazartesi-cumartesi 8:00-15:00 veriyor, bağlı iki rota ise turizm portalından alınmış başka bir takvim veriyor",
+  "sonuc": "bulgu_kapanmamış",
+  "agirlik": "orta",
+  "alinti": "Calle Feria pazarı Turismo de Sevilla'ya göre salı–çarşamba 12:30–18:00, perşembe–cumartesi 13:00–00:00, pazar 13:00–18:00 açık",
+  "dogrusu": "S11'in kapanış testi bağlı rotaların saatlerini de kapsıyor. Mercados de Sevilla (kaynak:563): 'Puestos: Lunes a sábado de 8:00 a 15:00'. Rotalardaki saat ya bununla birleşmeli ya da açıkça gastro bölümün saati diye ayrılmalı. Saat için turizm portalı (kaynak:312) dayanak olmamalı.",
+  "_grup": "denetim:mekan:ikinci yarı"
+ },
+ {
+  "entry_id": "sevilla:iglesia-del-divino-salvador",
+  "alan": "Rotalar sevilla:route:010 note (bağlı rota)",
+  "iddia": "Kart Archidiócesis saatini veriyor, bağlı rota ise iki kaynağın çelişkisini hâlâ okura sunuyor",
+  "sonuc": "bulgu_kapanmamış",
+  "agirlik": "orta",
+  "alinti": "Salvador Kilisesi için kaynaklar farklı saat veriyor: Archidiócesis de Sevilla pazartesi–cumartesi 9:00–17:00 (giriş 16:30'a kadar)",
+  "dogrusu": "Rotada yalnız Archidiócesis'in saati kalmalı: pazartesi-cumartesi 9:00-17:00 (giriş 16:30'a kadar), pazar 14:30-19:30, temmuz-ağustos kapalı. Turismo de Sevilla'nın 10:15-18:00 takvimi rotadan çıkarılmalı.",
+  "_grup": "denetim:mekan:ikinci yarı"
+ },
+ {
+  "entry_id": "sevilla:plaza-de-toros-de-la-maestranza",
+  "alan": "Rotalar sevilla:route:006 note (bağlı rota)",
+  "iddia": "Rota, kapanış saatini 1 Kasım duyurusuyla çözmeden iki takvim olarak veriyor",
+  "sonuc": "bulgu_kapanmamış",
+  "agirlik": "orta",
+  "alinti": "resmî sayfa kapanışı iki ayrı takvimle veriyor: 21:30 ve 19:30",
+  "dogrusu": "Rota kartla aynı tek yorumu kullanmalı: 31 Ekim'e kadar 09:30-21:30, 1 Kasım'dan itibaren 19:30'a kadar, gişe 19:00'da kapanıyor (kaynak:562 duyurusu).",
+  "_grup": "denetim:mekan:ikinci yarı"
+ },
+ {
+  "entry_id": "sevilla:parroquia-de-santa-ana-triana",
+  "alan": "summary/subtitle",
+  "iddia": "Giriş serbest",
+  "sonuc": "kaynak_yetersiz",
+  "agirlik": "orta",
+  "alinti": "La entrada es libre, aunque algunas áreas pueden estar restringidas durante actos.",
+  "dogrusu": "Ücretsiz girişin tek dayanağı turizm portalı (visitasevilla, kaynak:461). Archidiócesis sayfası (kaynak:474) 'Templo, Sacristía y Cripta Museo' ziyaretine ücret bilgisi vermiyor. Ücret ya kilisenin kendi sitesinden (santanatriana.org) gösterilmeli ya da 'giriş serbest' cümlesi kaldırılmalı.",
+  "_grup": "denetim:mekan:ikinci yarı"
+ },
+ {
+  "entry_id": "sevilla:parroquia-de-santa-ana-triana",
+  "alan": "summary",
+  "iddia": "Cumartesi ve pazar kiliseye ibadet için açık olduğu saatlerde girebilirsin",
+  "sonuc": "eksik_koşul",
+  "agirlik": "hafif",
+  "alinti": "Sábados y domingos : solo culto",
+  "dogrusu": "Archidiócesis hafta sonu için yalnız 'Apertura' saatini veriyor, ziyaret saati vermiyor. Turizm portalı da hafta sonunun yalnız ibadete ayrıldığını yazıyor. Kart 'hafta sonu yalnız ibadet saatlerinde açık; turistik ziyaret hafta içi' demeli, ziyaretçiye giriş izni varmış gibi yazmamalı.",
+  "_grup": "denetim:mekan:ikinci yarı"
+ },
+ {
+  "entry_id": "sevilla:parroquia-de-la-o",
+  "alan": "summary",
+  "iddia": "Giriş ücretsiz",
+  "sonuc": "kaynak_yetersiz",
+  "agirlik": "hafif",
+  "alinti": "Gratis 954 334 485 / 954 337 539 Calle de Castilla, 30",
+  "dogrusu": "Ücretsiz girişin tek dayanağı turizm portalı (kaynak:463). Archidiócesis listesinde ücret bilgisi yok. Ücret bilgisi resmî bir dayanakla gösterilmeli ya da cümle kaldırılmalı.",
+  "_grup": "denetim:mekan:ikinci yarı"
+ },
+ {
+  "entry_id": "sevilla:iglesia-de-santa-marina",
+  "alan": "summary/subtitle",
+  "iddia": "Giriş ücretsiz",
+  "sonuc": "kaynak_yetersiz",
+  "agirlik": "hafif",
+  "alinti": "Ficha Misa: Festivos a las 12:00 h. Gratis 954 372 757 Calle San Luis",
+  "dogrusu": "Ücretsiz girişin tek dayanağı turizm portalı (kaynak:465). Bu portalın aynı fişindeki ayin saati ve telefon da Archidiócesis'le uyuşmuyor. Ücret resmî bir dayanakla gösterilmeli ya da cümle kaldırılmalı.",
+  "_grup": "denetim:mekan:ikinci yarı"
+ },
+ {
+  "entry_id": "sevilla:cartuja-center-cite",
+  "alan": "note",
+  "iddia": "Katılımcılar için özel otopark var",
+  "sonuc": "kaynak_yetersiz",
+  "agirlik": "hafif",
+  "alinti": "Sí, Cartuja Center CITE dispone de un aparcamiento público de más de 300 amplias plazas",
+  "dogrusu": "İşletmecinin sayfası (kaynak:558/561) otoparkı herkese açık ve ücretli diye anlatıyor: 4 kat, 310 yer. Cümle 'Binanın 300'den fazla yerli kendi otoparkı var (herkese açık)' olmalı. Turizm portalındaki 'aparcamiento privado para asistentes' ifadesi dayanak olmamalı.",
+  "_grup": "denetim:mekan:ikinci yarı"
+ },
+ {
+  "entry_id": "sevilla:plaza-de-toros-de-la-maestranza",
+  "alan": "note",
+  "iddia": "Aile bileti iki yetişkin ve 16 yaşa kadar çocuklar için 29 euro",
+  "sonuc": "çelişkili_kaynak",
+  "agirlik": "hafif",
+  "alinti": "Familia Dos adultos y dos niños (hasta 16 años) 29 €",
+  "dogrusu": "Tarife sayfasının bir bloğu 'Dos adultos y niños', öteki bloğu 'Dos adultos y dos niños' diyor. Çocuk sayısı belirsiz kalıyor. Kartta 'iki yetişkin ve iki çocuk (16 yaşa kadar)' gibi güvenli tarafta kalan bir ifade kullanılmalı ya da sayı netleştirilmeli.",
+  "_grup": "denetim:mekan:ikinci yarı"
+ },
+ {
+  "entry_id": "sevilla:libro-de-familia-nedir",
+  "alan": "summary; steps",
+  "iddia": "Ley 20/2011 30 Nisan 2021'de yürürlüğe girdi, o tarihten beri yeni Libro de Familia verilmiyor (ülke çapında tek tarih)",
+  "sonuc": "bulgu_kapanmamış",
+  "agirlik": "ciddi",
+  "alinti": "Ley 20/2011 (Registro Civil Yasası) 30 Nisan 2021'de yürürlüğe girdi; o tarihten itibaren yeni Libro de Familia verilmiyor.",
+  "dogrusu": "S05 kapanış testi 194. kartı da kapsıyor ama kart değiştirilmemiş (reviewed_on 2026-10-25). DICIREG talimatı 10.3 (kaynak 542): DICIREG'li ofislerde Libro de Familia verilmez, DICIREG'siz ofislerde verilmeye devam eder. Sevilla'da DICIREG 3 Mart 2025'te devreye girdi (BOE-A-2025-3074, kaynak 541). Kart, diğer kartlarla aynı tarihi ve aynı belge ayrımını kullanmalı.",
+  "_grup": "denetim:yanit"
+ },
+ {
+  "entry_id": "sevilla:term:012",
+  "alan": "definition",
+  "iddia": "Ley 20/2011 yürürlüğe girdikten sonra yeni libro de familia düzenlenmez",
+  "sonuc": "bulgu_kapanmamış",
+  "agirlik": "orta",
+  "alinti": "Ley 20/2011 yürürlüğe girdikten sonra yeni libro de familia düzenlenmez; daha önce verilmiş olanlar etkilerini sürdürür.",
+  "dogrusu": "Kaynak 542 (10.3) bunu yasanın yürürlüğüne değil, ofise DICIREG kurulmasına bağlıyor: 'En las Oficinas con DICIREG, no se emitirán Libros de Familia... En las Oficinas sin DICIREG se seguirán emitiendo'. İlk cümle, kapanış testinin yasakladığı ülke çapında tek tarihli kesintiyi yeniden kuruyor. Ayrıca son cümledeki 'literal suretle birlikte istenebilir' bağlamsız kalmış; bu Junta sayfasında yalnız Seguridad Social kaydı için geçiyor.",
+  "_grup": "denetim:yanit"
+ },
+ {
+  "entry_id": "sevilla:sevilla-yenidogan-bebek-nufus-kaydi-registro-civil",
+  "alan": "summary; timing",
+  "iddia": "Sevilla'da 3 Mart 2025'ten beri kayıt süresi (koşulsuz) 10 gündür",
+  "sonuc": "eksik_koşul",
+  "agirlik": "orta",
+  "alinti": "ulusal yasa (BOE) esas olduğu için Sevilla'da, Ley 20/2011'in uygulandığı 3 Mart 2025'ten beri süre 10 gündür; işlemi bu süre içinde bitir.",
+  "dogrusu": "Ley 20/2011 md. 47.1'deki 10 günlük süre yalnız iki durumda geçerli: doğum sağlık kuruluşu dışında olduysa ya da hastane md. 46'daki 72 saatlik bildirimi göndermediyse. Hastane doğumunda bildirimi 72 saat içinde hastane yapar. Ayrıca talimat (542) md. 46'daki hastane bildiriminin 2015'ten beri yürürlükte olduğunu söylüyor; süreyi 3 Mart 2025'e bağlayan bir dayanak kaynakta yok. Junta'nın 24 saat-8 gün kuralını okura ikinci bir süre olarak göstermek kafa karıştırıyor. Yalnız yasadaki koşullu kural yazılmalı.",
+  "_grup": "denetim:yanit"
+ },
+ {
+  "entry_id": "sevilla:sevilla-yenidogan-bebek-nufus-kaydi-registro-civil",
+  "alan": "steps; note",
+  "iddia": "Ana akış: hastanenin sarı formunu doldur, Registro Civil ofisine başvur. Hastaneden elektronik bildirim yalnız 'bazı sağlık merkezlerinde'.",
+  "sonuc": "eksik_koşul",
+  "agirlik": "orta",
+  "alinti": "Hastanenin verdiği sarı formu (impreso amarillo) anne-baba olarak ön ve arka yüzüyle doldur.",
+  "dogrusu": "S05 düzeltmesi, Sevilla'daki güncel elektronik akışın anlatılmasını istiyordu. Adımlar ise DICIREG öncesi adı taşıyan Junta ofis sayfasından ('Registro Civil exclusivo Nº1', kaynak 252) gelen yüz yüze akışı varsayılan gibi sunuyor. Ley 20/2011 md. 46 hastaneyi doğumu 72 saat içinde elektronik formla bildirmekle yükümlü tutuyor; sertifikayı da talimat 10.3'e göre declarante sede'den indiriyor. Ofise başvuru yalnız iki durumda gerekli: hastane bildirimi gönderilmediyse ya da doğum hastane dışında olduysa. Adımlar bu koşulla yazılmalı.",
+  "_grup": "denetim:yanit"
+ },
+ {
+  "entry_id": "sevilla:sevilla-havalimani-ve-santa-justa-garindan-merkeze",
+  "alan": "steps; cost",
+  "iddia": "Taksi trayekt başına 24,98 €'dan başlar",
+  "sonuc": "kaynak_yetersiz",
+  "agirlik": "orta",
+  "alinti": "taksi: trayekt başına 24,98 €'dan başlar",
+  "dogrusu": "Tutar yalnız turizm portalında (visitasevilla.es, kaynak 184) geçiyor. Aynı sayfada EA için eski ücretler duruyor (5 €/6 €/41 €), yani güncel değil. Taksi tarifesi resmî bir kaynaktan alınmalı: Sevilla belediyesinin taksi tarifesi ya da Aena'nın taksi sayfası. Bulunamazsa tutar çıkarılmalı. 'trayekt' Türkçe değil; 'yolculuk' yazılmalı.",
+  "_grup": "denetim:yanit"
+ },
+ {
+  "entry_id": "sevilla:sevilla-havalimani-ve-santa-justa-garindan-merkeze",
+  "alan": "steps",
+  "iddia": "Aylık kart dahil bilet otobüste, havalimanı durağındaki gişeden ya da Tussam noktalarından alınır",
+  "sonuc": "eksik_koşul",
+  "agirlik": "hafif",
+  "alinti": "havalimanı aylık kartı 24,60 € (kişiye özel, ilk kullanımdan sonra 30 takvim günü, sınırsız yolculuk, EA ve Tussam'ın normal hatlarında geçerli). Bileti otobüste, havalimanı durağındaki gişeden",
+  "dogrusu": "Aena (kaynak 544) otobüste ya da durakta satışı yalnız tek yön ve dönüş biletleri için yazıyor. Aylık kart 'can be requested through the Tussam website or at any of its Customer Service points'. Satış kanalı cümlesi aylık karttan ayrılmalı. S04'ün kendisi kapandı: ücretler özette, ücret alanında, adımlarda ve Adımlar step:1'de 6 € / 8 € / 24,60 € olarak birbirini tutuyor.",
+  "_grup": "denetim:yanit"
+ },
+ {
+  "entry_id": "sevilla:endulus-okul-kaydi-basvuru-donemi-ve-gec-gelen-ogrenci",
+  "alan": "summary; timing; note (ve diğer okul kartları)",
+  "iddia": "2026/27 başvuru dönemi 1 Mart-7 Nisan 2026",
+  "sonuc": "bulgu_kapanmamış",
+  "agirlik": "hafif",
+  "alinti": "2026/27 için dönem 1 Mart-7 Nisan 2026'ydı (Junta de Andalucía resmî takvimi) ve kapandı",
+  "dogrusu": "Tarih Junta takvim sayfasıyla (kaynak 247) birebir uyuşuyor ve beş okul kartında da aynı; çelişki giderilmiş. S12 düzeltmesinin bir parçası ise yapılmamış: ilk ilan edilen süre (1-31 Mart) ile BOJA'daki 7 Nisan'a uzatma hiçbir kartta ayrılmıyor. Bir kartta tek cümleyle 'ilk süre 31 Mart'tı, BOJA ile 7 Nisan'a uzatıldı' yazılmalı.",
+  "_grup": "denetim:yanit"
+ },
+ {
+  "entry_id": "sevilla:libro-de-familia-nedir",
+  "alan": "subtitle; summary",
+  "iddia": "30 Nisan 2021'den beri yeni Libro de Familia verilmiyor; eskiler etkisini sürdürüyor / Ley 20/2011 30 Nisan 2021'de yürürlüğe girdi; o tarihten itibaren yeni Libro de Familia verilmiyor",
+  "sonuc": "bulgu_kapanmamış",
+  "agirlik": "ciddi",
+  "alinti": "En las Oficinas sin DICIREG se seguirán emitiendo los Libros de Familia y actualizando los mismos (sevilla:kaynak:542)",
+  "dogrusu": "'libro de familia' çelişki grubu kapanmadı. Bu turda 4 karta 'Sevilla'da 3 Mart 2025'ten beri yeni libro verilmiyor' eklendi, ama bu kart hâlâ 2021 tarihini veriyor. Kaynak 542'ye göre DICIREG'e geçmeyen ofisler libro vermeye devam etti; Sevilla'da kesilme tarihi 3 Mart 2025 (BOE-A-2025-3074). Doğrusu: 'Ley 20/2011 30 Nisan 2021'de yürürlüğe girdi; libro, ofis DICIREG'e geçince kesilir. Sevilla'da bu 3 Mart 2025'te oldu; önceden verilmiş librolar geçerli.'",
+  "_grup": "tutarlilik:denetim"
+ },
+ {
+  "entry_id": "sevilla:term:012",
+  "alan": "definition",
+  "iddia": "Ley 20/2011 yürürlüğe girdikten sonra yeni libro de familia düzenlenmez; ... Sevilla'daki Registro Civil ofisleri 3 Mart 2025'ten beri DICIREG ile çalışır",
+  "sonuc": "bulgu_kapanmamış",
+  "agirlik": "orta",
+  "alinti": "En las Oficinas sin DICIREG se seguirán emitiendo los Libros de Familia (sevilla:kaynak:542)",
+  "dogrusu": "İlk cümle libronun yasanın yürürlüğe girdiği an kesildiğini söylüyor, ikinci cümle Sevilla için 3 Mart 2025 diyor; ikisi birbirini tutmuyor. Doğrusu: 'Yeni libro de familia, Registro Civil ofisi DICIREG'e geçince düzenlenmez; Sevilla'da bu 3 Mart 2025'ten beri böyle.'",
+  "_grup": "tutarlilik:denetim"
+ },
+ {
+  "entry_id": "sevilla:familia-numerosa-unvani-alma-yenileme-ve-sevilla-basvurusu",
+  "alan": "documents",
+  "iddia": "Libro de Familia kopyası ...; ilk başvuruda her durumda gerekir. Sevilla'da 3 Mart 2025'ten beri Registro Civil yeni Libro de Familia vermiyor, yerine doğum ve evlilik sertifikası veriliyor",
+  "sonuc": "eksik_koşul",
+  "agirlik": "orta",
+  "alinti": "Copia de Libro de Familia o documentación análoga para nacionales de terceros países. Se aportará en todos los casos de solicitud de expedición (sevilla:kaynak:447)",
+  "dogrusu": "Satır hem 'her durumda gerekir' hem 'artık verilmiyor' diyor. Librosu olmayan aile (çocuğu 3 Mart 2025'ten sonra Sevilla'da kaydedilmiş) ne getireceğini bilemiyor. Junta kaynağı (447) sertifikayı kabul ettiğini söylemiyor; kart da söylemiyor. Libro yoksa hangi belgenin kabul edildiği resmî kaynakla yazılmalı. Kaynak yoksa çelişki açık bırakılmamalı; durum 'Junta sayfası yalnız libro ya da yabancılar için benzeri belgeyi sayıyor' diye açıkça yazılmalı.",
+  "_grup": "tutarlilik:denetim"
+ },
+ {
+  "entry_id": "sevilla:endulus-saglik-karti-tarjeta-sanitaria-ve-aile-hekimi-secimi",
+  "alan": "documents; iddia_defteri:C-...-6",
+  "iddia": "14 yaşından küçük için Libro de Familia (... yeni doğanın kaydında Registro Civil onun yerine doğum sertifikası verir)",
+  "sonuc": "eksik_koşul",
+  "agirlik": "hafif",
+  "alinti": "DNI de la persona beneficiaria mayor de 14 años o Libro de Familia si es una persona menor de esa edad o recién nacida. (sevilla:kaynak:128)",
+  "dogrusu": "Sağlık merkezinin kaynağı (128) yeni doğan için de açıkça libro istiyor. Kart ve iddia satırı 'recién nacida' kısmını düşürmüş, alıntıda ise duruyor. Merkezin sertifikayı libro yerine kabul ettiği hiçbir kaynakta yok; okur bunu kendisi çıkarıyor. Doğrusu: 'Junta sayfası 14 yaş altı ve yeni doğan için libro istiyor. Sevilla'da 3 Mart 2025'ten sonra kaydedilen bebeğe libro verilmez, kaydın sertifikası verilir.' Merkezin sertifikayı kabul ettiği söylenecekse buna kaynak gerekir.",
+  "_grup": "tutarlilik:denetim"
+ },
+ {
+  "entry_id": "sevilla:emvisesa-ppr-2026-kira-yardimi",
+  "alan": "documents",
+  "iddia": "Aile cüzdanı (Libro de Familia) fotokopisi (Sevilla'da 3 Mart 2025'ten beri yeni libro verilmiyor, yerine doğum ve evlilik sertifikası veriliyor)",
+  "sonuc": "eksik_koşul",
+  "agirlik": "hafif",
+  "alinti": "Fotocopia del libro de familia. (sevilla:kaynak:149)",
+  "dogrusu": "Sorun aynı: EMVISESA yalnız libro fotokopisi istiyor. Kart libronun artık verilmediğini ekliyor ama EMVISESA'nın sertifikayı kabul edip etmediğini söylemiyor; librosu olmayan okur ne getireceğini bilmiyor. Ya kabul edilen belge kaynakla yazılmalı ya da açıkça 'EMVISESA sayfası yalnız libro fotokopisini sayıyor' denmeli.",
+  "_grup": "tutarlilik:denetim"
+ },
+ {
+  "entry_id": "sevilla:sevilla-okul-yeri-yetersizse-puanlama-ve-oncelik-kriterleri",
+  "alan": "documents",
+  "iddia": "Libro de familia (tek ebeveynli aile ya da çoğul doğum için onaylı kopya); Sevilla'da 3 Mart 2025'ten beri Registro Civil yeni libro vermiyor, yerine doğum sertifikası (certificación) veriyor",
+  "sonuc": "eksik_koşul",
+  "agirlik": "hafif",
+  "alinti": "Mediante copia autenticada del libro de familia que incluirá todas las páginas escritas (sevilla:kaynak:136)",
+  "dogrusu": "Eğitim kaynağı (136) çoğul doğumu yalnız libronun onaylı kopyasıyla kabul ediyor. Kart libro verilmediğini ekledi ama sertifikanın kabul edilip edilmediğini söylemiyor; çoğul doğumu 2025 sonrası olan aile ne getireceğini bilemiyor. Kabul edilen belge kaynakla yazılmalı ya da durum açıkça belirtilmeli.",
+  "_grup": "tutarlilik:denetim"
+ },
+ {
+  "entry_id": "sevilla:sevilla-yenidogan-bebek-nufus-kaydi-registro-civil",
+  "alan": "subtitle",
+  "iddia": "yasal bildirim süresi 10 gün",
+  "sonuc": "eksik_koşul",
+  "agirlik": "hafif",
+  "alinti": "los obligados a promover la inscripción dispondrán de un plazo de diez días para declarar el nacimiento (sevilla:kaynak:028)",
+  "dogrusu": "Ley 20/2011 md. 47.1'deki 10 gün yalnız sağlık kuruluşu dışındaki doğumlar ya da hastanenin bildirimi göndermediği durumlar için geçerli; hastane doğumunu kurum 72 saat içinde kendisi bildirir. Kartın timing alanı bunu doğru veriyor, alt başlık ise koşulsuz '10 gün' diyor. Önerilen alt başlık: 'hastane 72 saatte bildirir; bildirilmezse 10 gün'.",
+  "_grup": "tutarlilik:denetim"
+ },
+ {
+  "entry_id": "sevilla:route:006",
+  "alan": "iddia_defteri:C-route-006-2",
+  "iddia": "Plaza de Toros her gün 09:30'da açılıyor; 1 Kasım'a kadar kapanış 21:30",
+  "sonuc": "kaynak_yetersiz",
+  "agirlik": "hafif",
+  "alinti": "Lunes – Domingo 09:30 h – 21:30 h (sevilla:kaynak:499)",
+  "dogrusu": "Rota notu ve durak kaydı '31 Ekim'e kadar 21:30' diyor, defter satırı ise '1 Kasım'a kadar'. 1 Kasım 19:30 takviminin ilk günü olduğu için bu ifade belirsiz. Tarih sınırı satıra bağlı kaynakta (499) yok; 562'deki duyurudan geliyor. Doğrusu: '31 Ekim'e kadar kapanış 21:30', kaynak 499+562.",
+  "_grup": "tutarlilik:denetim"
+ }
+]

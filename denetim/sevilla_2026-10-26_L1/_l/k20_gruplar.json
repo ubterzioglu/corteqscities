@@ -1,0 +1,128 @@
+{
+ "toplam": 120,
+ "gruplar": {
+  "Tarih ve mimari": 56,
+  "Doğa ve açık hava": 18,
+  "Sanat ve sergiler": 11,
+  "Sahne ve müzik": 10,
+  "Müzeler": 10,
+  "Yeme ve içme": 7,
+  "Çocuklarla keşif": 5,
+  "Spor": 3
+ },
+ "temel_8_grup_dolu": true,
+ "bos_grup": [],
+ "kilise_manastir_kapel_sayisi": 33,
+ "kilise_manastir_kapel": [
+  "Iglesia del Divino Salvador",
+  "Basílica del Gran Poder",
+  "Capilla de los Marineros",
+  "Basílica del Cristo de la Expiración (El Cachorro)",
+  "Espacio Santa Clara (Antiguo Monasterio)",
+  "Catedral de Sevilla y Giralda",
+  "Basílica de la Macarena",
+  "Iglesia de San Luis de los Franceses",
+  "Convento de Santa Paula",
+  "Iglesia de Santa Catalina",
+  "Iglesia de San Marcos",
+  "Iglesia de San Román",
+  "Iglesia de la Magdalena",
+  "Convento de Santa Inés",
+  "Monasterio de San Clemente",
+  "Parroquia de San Jacinto",
+  "Capilla del Carmen (El Mechero)",
+  "Iglesia de Santa María la Blanca",
+  "Iglesia de San Pedro",
+  "Real Parroquia de la Señora Santa Ana (Triana)",
+  "Iglesia del Valle (Santuario de los Gitanos)",
+  "Parroquia de Nuestra Señora de la O",
+  "Iglesia de San Vicente",
+  "Monasterio de San Jerónimo de Buenavista",
+  "Iglesia de Santa Marina",
+  "Iglesia de San Sebastián",
+  "Capilla de los Luises",
+  "Iglesia de San Andrés",
+  "Iglesia de Omnium Sanctorum",
+  "Iglesia de San Esteban",
+  "Iglesia de San Bartolomé",
+  "Iglesia de San Juan de la Palma",
+  "Iglesia de San Nicolás de Bari"
+ ],
+ "meydan_sayisi": 8,
+ "meydanlar": [
+  "Plaza de España",
+  "Plaza Nueva",
+  "Plaza del Duque",
+  "Plaza de Doña Elvira",
+  "Plaza de los Refinadores",
+  "Plaza del Altozano",
+  "Plaza de América",
+  "Plaza de Santa Cruz"
+ ],
+ "cogaltma_adaylari": [
+  {
+   "kartlar": [
+    "Estadio La Cartuja",
+    "Betis Tour - Estadio La Cartuja"
+   ],
+   "gozlem": "Aynı stadyum iki ayrı Spor kartı; Spor grubunda 3 kartın 2'si aynı yapı."
+  },
+  {
+   "kartlar": [
+    "Metropol Parasol (Setas) y Antiquarium",
+    "Mercado de la Encarnación (Las Setas)"
+   ],
+   "gozlem": "Aynı yapı iki kart (Tarih ve mimari + Yeme ve içme); işlev farkı var, kabul edilebilir ama çoğaltma izlenimi."
+  },
+  {
+   "kartlar": [
+    "Jardines de Murillo",
+    "Paseo de Catalina de Ribera",
+    "Plaza de los Refinadores"
+   ],
+   "gozlem": "Bitişik üç kart (Murillo–Catalina de Ribera arası kuş uçuşu ~0,06 km)."
+  },
+  {
+   "kartlar": [
+    "Plaza de América",
+    "Museo de Artes y Costumbres Populares",
+    "Museo Arqueológico de Sevilla"
+   ],
+   "gozlem": "Aynı meydan ve üzerindeki iki müze ayrı kart."
+  }
+ ],
+ "kapali_kart_bilgisi": {
+  "kart": "Museo Arqueológico de Sevilla",
+  "grup": "Müzeler",
+  "kanit_url": "https://visitasevilla.es/plaza-de-america-y-museos/",
+  "alinti": "Museo Arqueológico: Cerrado temporalmente por reformas",
+  "gozlem": "Müzeler grubundaki 10 kartın biri reform için kapalı; fiilen 9 ziyaret edilebilir müze."
+ },
+ "ilce_adi_tutarsizligi": "district alanında 'Arenal' (1) ve 'El Arenal' (5) aynı semt için iki yazım.",
+ "cesitlilik_acigi": "Tarih ve mimari 56/120 (%47); bunların büyük kısmı kilise/manastır/şapel (33 kart, toplamın %28'i). İnce gruplar: Spor 3 (2'si aynı stadyum), Çocuklarla keşif 5, Yeme ve içme 7. Müzeler'de Museo Arqueológico reform için kapalı.",
+ "K20": "geçti",
+ "K20_gerekce": "8 temel grubun hepsi dolu ve kartlar gerçek mekânlar; kilise yoğunluğu ve Spor'daki stadyum çiftlemesi çeşitlilik notu (P2), grubu boş ya da sahte bırakmıyor.",
+ "bulgular": [
+  {
+   "check_id": "K20",
+   "oncelik": "P2",
+   "gozlem": "Estadio La Cartuja ve Betis Tour - Estadio La Cartuja aynı yapı; Spor grubu fiilen 2 mekân.",
+   "kanit_url": "",
+   "alinti": ""
+  },
+  {
+   "check_id": "K20",
+   "oncelik": "P2",
+   "gozlem": "Kilise/manastır/şapel kartı 33/120; Tarih ve mimari grubunun çoğu dinî yapı.",
+   "kanit_url": "",
+   "alinti": ""
+  },
+  {
+   "check_id": "K20",
+   "oncelik": "P2",
+   "gozlem": "Museo Arqueológico reform için kapalı; Müzeler grubunda sayılıyor.",
+   "kanit_url": "https://visitasevilla.es/plaza-de-america-y-museos/",
+   "alinti": "Museo Arqueológico: Cerrado temporalmente por reformas"
+  }
+ ]
+}

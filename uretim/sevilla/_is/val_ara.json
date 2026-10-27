@@ -5,7 +5,7 @@
     "new_content": true,
     "structure": {
       "errors": 0,
-      "warnings": 819
+      "warnings": 1002
     },
     "media": {
       "errors": 0
@@ -17,12 +17,12 @@
     "extras": {
       "placeholders": 0,
       "wikipedia_labeled_official": 0,
-      "verified_without_snapshot": 0,
+      "verified_without_snapshot": 500,
       "shared_coordinates": 2,
       "homepage_only_sources": 0,
-      "history_share": 0
+      "history_share": 1
     },
-    "extras_note": "ek kontrol, resmî sayılara dahil değil; tarih payı 39/120 (eşik 0.35, öneri)",
+    "extras_note": "ek kontrol, resmî sayılara dahil değil; tarih payı 57/120 (eşik 0.35, öneri)",
     "technically_complete": true
   },
   "structure": {
@@ -31,13 +31,13 @@
     "schema_version": "1.0",
     "acceptance_version": "2026-10-13.1",
     "counts": {
-      "answers": 240,
+      "answers": 241,
       "places": 120,
       "neighborhoods": 16,
       "routes": 12,
       "glossary": 60,
       "topics": 12,
-      "photos": 250,
+      "photos": 326,
       "hero_photos": 8
     },
     "minimum": {
@@ -836,51 +836,234 @@
       "Kanıtlar!?: metadata_review_status incelemesi açık.",
       "Kanıtlar!?: pixel_review_status incelemesi açık.",
       "Kanıtlar!?: rights_status incelemesi açık.",
-      "Mekânlar!?: Mekân / mahalleye bağlı gerçek fotoğraf eksik.",
-      "Mekânlar!?: Mekân / mahalleye bağlı gerçek fotoğraf eksik.",
-      "Mekânlar!?: Mekân / mahalleye bağlı gerçek fotoğraf eksik.",
-      "Mekânlar!?: Mekân / mahalleye bağlı gerçek fotoğraf eksik.",
-      "Mekânlar!?: Mekân / mahalleye bağlı gerçek fotoğraf eksik.",
-      "Mekânlar!?: Mekân / mahalleye bağlı gerçek fotoğraf eksik.",
-      "Mekânlar!?: Mekân / mahalleye bağlı gerçek fotoğraf eksik.",
-      "Mekânlar!?: Mekân / mahalleye bağlı gerçek fotoğraf eksik.",
-      "Mekânlar!?: Mekân / mahalleye bağlı gerçek fotoğraf eksik.",
-      "Mekânlar!?: Mekân / mahalleye bağlı gerçek fotoğraf eksik.",
-      "Mekânlar!?: Mekân / mahalleye bağlı gerçek fotoğraf eksik.",
-      "Mekânlar!?: Mekân / mahalleye bağlı gerçek fotoğraf eksik.",
-      "Mekânlar!?: Mekân / mahalleye bağlı gerçek fotoğraf eksik.",
-      "Mekânlar!?: Mekân / mahalleye bağlı gerçek fotoğraf eksik.",
-      "Mekânlar!?: Mekân / mahalleye bağlı gerçek fotoğraf eksik.",
-      "Mekânlar!?: Mekân / mahalleye bağlı gerçek fotoğraf eksik.",
-      "Mekânlar!?: Mekân / mahalleye bağlı gerçek fotoğraf eksik.",
-      "Mekânlar!?: Mekân / mahalleye bağlı gerçek fotoğraf eksik.",
-      "Mekânlar!?: Mekân / mahalleye bağlı gerçek fotoğraf eksik.",
-      "Mekânlar!?: Mekân / mahalleye bağlı gerçek fotoğraf eksik.",
-      "Mekânlar!?: Mekân / mahalleye bağlı gerçek fotoğraf eksik.",
-      "Mekânlar!?: Mekân / mahalleye bağlı gerçek fotoğraf eksik.",
-      "Mekânlar!?: Mekân / mahalleye bağlı gerçek fotoğraf eksik.",
-      "Mekânlar!?: Mekân / mahalleye bağlı gerçek fotoğraf eksik.",
-      "Mekânlar!?: Mekân / mahalleye bağlı gerçek fotoğraf eksik.",
-      "Mekânlar!?: Mekân / mahalleye bağlı gerçek fotoğraf eksik.",
-      "Mekânlar!?: Mekân / mahalleye bağlı gerçek fotoğraf eksik.",
-      "Mekânlar!?: Mekân / mahalleye bağlı gerçek fotoğraf eksik.",
-      "Mekânlar!?: Mekân / mahalleye bağlı gerçek fotoğraf eksik.",
-      "Mekânlar!?: Mekân / mahalleye bağlı gerçek fotoğraf eksik.",
-      "Mekânlar!?: Mekân / mahalleye bağlı gerçek fotoğraf eksik.",
-      "Mekânlar!?: Mekân / mahalleye bağlı gerçek fotoğraf eksik.",
-      "Mekânlar!?: Mekân / mahalleye bağlı gerçek fotoğraf eksik.",
-      "Mekânlar!?: Mekân / mahalleye bağlı gerçek fotoğraf eksik.",
-      "Mekânlar!?: Mekân / mahalleye bağlı gerçek fotoğraf eksik.",
-      "Mekânlar!?: Mekân / mahalleye bağlı gerçek fotoğraf eksik.",
-      "Mekânlar!?: Mekân / mahalleye bağlı gerçek fotoğraf eksik.",
-      "Mekânlar!?: Mekân / mahalleye bağlı gerçek fotoğraf eksik.",
-      "Mekânlar!?: Mekân / mahalleye bağlı gerçek fotoğraf eksik.",
-      "Mahalleler!?: Mekân / mahalleye bağlı gerçek fotoğraf eksik.",
-      "Mahalleler!?: Mekân / mahalleye bağlı gerçek fotoğraf eksik.",
-      "Mahalleler!?: Mekân / mahalleye bağlı gerçek fotoğraf eksik.",
-      "Mahalleler!?: Mekân / mahalleye bağlı gerçek fotoğraf eksik.",
-      "Mahalleler!?: Mekân / mahalleye bağlı gerçek fotoğraf eksik.",
-      "Mahalleler!?: Mekân / mahalleye bağlı gerçek fotoğraf eksik."
+      "Kanıtlar!?: metadata_review_status incelemesi açık.",
+      "Kanıtlar!?: pixel_review_status incelemesi açık.",
+      "Kanıtlar!?: rights_status incelemesi açık.",
+      "Kanıtlar!?: metadata_review_status incelemesi açık.",
+      "Kanıtlar!?: pixel_review_status incelemesi açık.",
+      "Kanıtlar!?: rights_status incelemesi açık.",
+      "Kanıtlar!?: metadata_review_status incelemesi açık.",
+      "Kanıtlar!?: pixel_review_status incelemesi açık.",
+      "Kanıtlar!?: rights_status incelemesi açık.",
+      "Kanıtlar!?: metadata_review_status incelemesi açık.",
+      "Kanıtlar!?: pixel_review_status incelemesi açık.",
+      "Kanıtlar!?: rights_status incelemesi açık.",
+      "Kanıtlar!?: metadata_review_status incelemesi açık.",
+      "Kanıtlar!?: pixel_review_status incelemesi açık.",
+      "Kanıtlar!?: rights_status incelemesi açık.",
+      "Kanıtlar!?: metadata_review_status incelemesi açık.",
+      "Kanıtlar!?: pixel_review_status incelemesi açık.",
+      "Kanıtlar!?: rights_status incelemesi açık.",
+      "Kanıtlar!?: metadata_review_status incelemesi açık.",
+      "Kanıtlar!?: pixel_review_status incelemesi açık.",
+      "Kanıtlar!?: rights_status incelemesi açık.",
+      "Kanıtlar!?: metadata_review_status incelemesi açık.",
+      "Kanıtlar!?: pixel_review_status incelemesi açık.",
+      "Kanıtlar!?: rights_status incelemesi açık.",
+      "Kanıtlar!?: metadata_review_status incelemesi açık.",
+      "Kanıtlar!?: pixel_review_status incelemesi açık.",
+      "Kanıtlar!?: rights_status incelemesi açık.",
+      "Kanıtlar!?: metadata_review_status incelemesi açık.",
+      "Kanıtlar!?: pixel_review_status incelemesi açık.",
+      "Kanıtlar!?: rights_status incelemesi açık.",
+      "Kanıtlar!?: metadata_review_status incelemesi açık.",
+      "Kanıtlar!?: pixel_review_status incelemesi açık.",
+      "Kanıtlar!?: rights_status incelemesi açık.",
+      "Kanıtlar!?: metadata_review_status incelemesi açık.",
+      "Kanıtlar!?: pixel_review_status incelemesi açık.",
+      "Kanıtlar!?: rights_status incelemesi açık.",
+      "Kanıtlar!?: metadata_review_status incelemesi açık.",
+      "Kanıtlar!?: pixel_review_status incelemesi açık.",
+      "Kanıtlar!?: rights_status incelemesi açık.",
+      "Kanıtlar!?: metadata_review_status incelemesi açık.",
+      "Kanıtlar!?: pixel_review_status incelemesi açık.",
+      "Kanıtlar!?: rights_status incelemesi açık.",
+      "Kanıtlar!?: metadata_review_status incelemesi açık.",
+      "Kanıtlar!?: pixel_review_status incelemesi açık.",
+      "Kanıtlar!?: rights_status incelemesi açık.",
+      "Kanıtlar!?: metadata_review_status incelemesi açık.",
+      "Kanıtlar!?: pixel_review_status incelemesi açık.",
+      "Kanıtlar!?: rights_status incelemesi açık.",
+      "Kanıtlar!?: metadata_review_status incelemesi açık.",
+      "Kanıtlar!?: pixel_review_status incelemesi açık.",
+      "Kanıtlar!?: rights_status incelemesi açık.",
+      "Kanıtlar!?: metadata_review_status incelemesi açık.",
+      "Kanıtlar!?: pixel_review_status incelemesi açık.",
+      "Kanıtlar!?: rights_status incelemesi açık.",
+      "Kanıtlar!?: metadata_review_status incelemesi açık.",
+      "Kanıtlar!?: pixel_review_status incelemesi açık.",
+      "Kanıtlar!?: rights_status incelemesi açık.",
+      "Kanıtlar!?: metadata_review_status incelemesi açık.",
+      "Kanıtlar!?: pixel_review_status incelemesi açık.",
+      "Kanıtlar!?: rights_status incelemesi açık.",
+      "Kanıtlar!?: metadata_review_status incelemesi açık.",
+      "Kanıtlar!?: pixel_review_status incelemesi açık.",
+      "Kanıtlar!?: rights_status incelemesi açık.",
+      "Kanıtlar!?: metadata_review_status incelemesi açık.",
+      "Kanıtlar!?: pixel_review_status incelemesi açık.",
+      "Kanıtlar!?: rights_status incelemesi açık.",
+      "Kanıtlar!?: metadata_review_status incelemesi açık.",
+      "Kanıtlar!?: pixel_review_status incelemesi açık.",
+      "Kanıtlar!?: rights_status incelemesi açık.",
+      "Kanıtlar!?: metadata_review_status incelemesi açık.",
+      "Kanıtlar!?: pixel_review_status incelemesi açık.",
+      "Kanıtlar!?: rights_status incelemesi açık.",
+      "Kanıtlar!?: metadata_review_status incelemesi açık.",
+      "Kanıtlar!?: pixel_review_status incelemesi açık.",
+      "Kanıtlar!?: rights_status incelemesi açık.",
+      "Kanıtlar!?: metadata_review_status incelemesi açık.",
+      "Kanıtlar!?: pixel_review_status incelemesi açık.",
+      "Kanıtlar!?: rights_status incelemesi açık.",
+      "Kanıtlar!?: metadata_review_status incelemesi açık.",
+      "Kanıtlar!?: pixel_review_status incelemesi açık.",
+      "Kanıtlar!?: rights_status incelemesi açık.",
+      "Kanıtlar!?: metadata_review_status incelemesi açık.",
+      "Kanıtlar!?: pixel_review_status incelemesi açık.",
+      "Kanıtlar!?: rights_status incelemesi açık.",
+      "Kanıtlar!?: metadata_review_status incelemesi açık.",
+      "Kanıtlar!?: pixel_review_status incelemesi açık.",
+      "Kanıtlar!?: rights_status incelemesi açık.",
+      "Kanıtlar!?: metadata_review_status incelemesi açık.",
+      "Kanıtlar!?: pixel_review_status incelemesi açık.",
+      "Kanıtlar!?: rights_status incelemesi açık.",
+      "Kanıtlar!?: metadata_review_status incelemesi açık.",
+      "Kanıtlar!?: pixel_review_status incelemesi açık.",
+      "Kanıtlar!?: rights_status incelemesi açık.",
+      "Kanıtlar!?: metadata_review_status incelemesi açık.",
+      "Kanıtlar!?: pixel_review_status incelemesi açık.",
+      "Kanıtlar!?: rights_status incelemesi açık.",
+      "Kanıtlar!?: metadata_review_status incelemesi açık.",
+      "Kanıtlar!?: pixel_review_status incelemesi açık.",
+      "Kanıtlar!?: rights_status incelemesi açık.",
+      "Kanıtlar!?: metadata_review_status incelemesi açık.",
+      "Kanıtlar!?: pixel_review_status incelemesi açık.",
+      "Kanıtlar!?: rights_status incelemesi açık.",
+      "Kanıtlar!?: metadata_review_status incelemesi açık.",
+      "Kanıtlar!?: pixel_review_status incelemesi açık.",
+      "Kanıtlar!?: rights_status incelemesi açık.",
+      "Kanıtlar!?: metadata_review_status incelemesi açık.",
+      "Kanıtlar!?: pixel_review_status incelemesi açık.",
+      "Kanıtlar!?: rights_status incelemesi açık.",
+      "Kanıtlar!?: metadata_review_status incelemesi açık.",
+      "Kanıtlar!?: pixel_review_status incelemesi açık.",
+      "Kanıtlar!?: rights_status incelemesi açık.",
+      "Kanıtlar!?: metadata_review_status incelemesi açık.",
+      "Kanıtlar!?: pixel_review_status incelemesi açık.",
+      "Kanıtlar!?: rights_status incelemesi açık.",
+      "Kanıtlar!?: metadata_review_status incelemesi açık.",
+      "Kanıtlar!?: pixel_review_status incelemesi açık.",
+      "Kanıtlar!?: rights_status incelemesi açık.",
+      "Kanıtlar!?: metadata_review_status incelemesi açık.",
+      "Kanıtlar!?: pixel_review_status incelemesi açık.",
+      "Kanıtlar!?: rights_status incelemesi açık.",
+      "Kanıtlar!?: metadata_review_status incelemesi açık.",
+      "Kanıtlar!?: pixel_review_status incelemesi açık.",
+      "Kanıtlar!?: rights_status incelemesi açık.",
+      "Kanıtlar!?: metadata_review_status incelemesi açık.",
+      "Kanıtlar!?: pixel_review_status incelemesi açık.",
+      "Kanıtlar!?: rights_status incelemesi açık.",
+      "Kanıtlar!?: metadata_review_status incelemesi açık.",
+      "Kanıtlar!?: pixel_review_status incelemesi açık.",
+      "Kanıtlar!?: rights_status incelemesi açık.",
+      "Kanıtlar!?: metadata_review_status incelemesi açık.",
+      "Kanıtlar!?: pixel_review_status incelemesi açık.",
+      "Kanıtlar!?: rights_status incelemesi açık.",
+      "Kanıtlar!?: metadata_review_status incelemesi açık.",
+      "Kanıtlar!?: pixel_review_status incelemesi açık.",
+      "Kanıtlar!?: rights_status incelemesi açık.",
+      "Kanıtlar!?: metadata_review_status incelemesi açık.",
+      "Kanıtlar!?: pixel_review_status incelemesi açık.",
+      "Kanıtlar!?: rights_status incelemesi açık.",
+      "Kanıtlar!?: metadata_review_status incelemesi açık.",
+      "Kanıtlar!?: pixel_review_status incelemesi açık.",
+      "Kanıtlar!?: rights_status incelemesi açık.",
+      "Kanıtlar!?: metadata_review_status incelemesi açık.",
+      "Kanıtlar!?: pixel_review_status incelemesi açık.",
+      "Kanıtlar!?: rights_status incelemesi açık.",
+      "Kanıtlar!?: metadata_review_status incelemesi açık.",
+      "Kanıtlar!?: pixel_review_status incelemesi açık.",
+      "Kanıtlar!?: rights_status incelemesi açık.",
+      "Kanıtlar!?: metadata_review_status incelemesi açık.",
+      "Kanıtlar!?: pixel_review_status incelemesi açık.",
+      "Kanıtlar!?: rights_status incelemesi açık.",
+      "Kanıtlar!?: metadata_review_status incelemesi açık.",
+      "Kanıtlar!?: pixel_review_status incelemesi açık.",
+      "Kanıtlar!?: rights_status incelemesi açık.",
+      "Kanıtlar!?: metadata_review_status incelemesi açık.",
+      "Kanıtlar!?: pixel_review_status incelemesi açık.",
+      "Kanıtlar!?: rights_status incelemesi açık.",
+      "Kanıtlar!?: metadata_review_status incelemesi açık.",
+      "Kanıtlar!?: pixel_review_status incelemesi açık.",
+      "Kanıtlar!?: rights_status incelemesi açık.",
+      "Kanıtlar!?: metadata_review_status incelemesi açık.",
+      "Kanıtlar!?: pixel_review_status incelemesi açık.",
+      "Kanıtlar!?: rights_status incelemesi açık.",
+      "Kanıtlar!?: metadata_review_status incelemesi açık.",
+      "Kanıtlar!?: pixel_review_status incelemesi açık.",
+      "Kanıtlar!?: rights_status incelemesi açık.",
+      "Kanıtlar!?: metadata_review_status incelemesi açık.",
+      "Kanıtlar!?: pixel_review_status incelemesi açık.",
+      "Kanıtlar!?: rights_status incelemesi açık.",
+      "Kanıtlar!?: metadata_review_status incelemesi açık.",
+      "Kanıtlar!?: pixel_review_status incelemesi açık.",
+      "Kanıtlar!?: rights_status incelemesi açık.",
+      "Kanıtlar!?: metadata_review_status incelemesi açık.",
+      "Kanıtlar!?: pixel_review_status incelemesi açık.",
+      "Kanıtlar!?: rights_status incelemesi açık.",
+      "Kanıtlar!?: metadata_review_status incelemesi açık.",
+      "Kanıtlar!?: pixel_review_status incelemesi açık.",
+      "Kanıtlar!?: rights_status incelemesi açık.",
+      "Kanıtlar!?: metadata_review_status incelemesi açık.",
+      "Kanıtlar!?: pixel_review_status incelemesi açık.",
+      "Kanıtlar!?: rights_status incelemesi açık.",
+      "Kanıtlar!?: metadata_review_status incelemesi açık.",
+      "Kanıtlar!?: pixel_review_status incelemesi açık.",
+      "Kanıtlar!?: rights_status incelemesi açık.",
+      "Kanıtlar!?: metadata_review_status incelemesi açık.",
+      "Kanıtlar!?: pixel_review_status incelemesi açık.",
+      "Kanıtlar!?: rights_status incelemesi açık.",
+      "Kanıtlar!?: metadata_review_status incelemesi açık.",
+      "Kanıtlar!?: pixel_review_status incelemesi açık.",
+      "Kanıtlar!?: rights_status incelemesi açık.",
+      "Kanıtlar!?: metadata_review_status incelemesi açık.",
+      "Kanıtlar!?: pixel_review_status incelemesi açık.",
+      "Kanıtlar!?: rights_status incelemesi açık.",
+      "Kanıtlar!?: metadata_review_status incelemesi açık.",
+      "Kanıtlar!?: pixel_review_status incelemesi açık.",
+      "Kanıtlar!?: rights_status incelemesi açık.",
+      "Kanıtlar!?: metadata_review_status incelemesi açık.",
+      "Kanıtlar!?: pixel_review_status incelemesi açık.",
+      "Kanıtlar!?: rights_status incelemesi açık.",
+      "Kanıtlar!?: metadata_review_status incelemesi açık.",
+      "Kanıtlar!?: pixel_review_status incelemesi açık.",
+      "Kanıtlar!?: rights_status incelemesi açık.",
+      "Kanıtlar!?: metadata_review_status incelemesi açık.",
+      "Kanıtlar!?: pixel_review_status incelemesi açık.",
+      "Kanıtlar!?: rights_status incelemesi açık.",
+      "Kanıtlar!?: metadata_review_status incelemesi açık.",
+      "Kanıtlar!?: pixel_review_status incelemesi açık.",
+      "Kanıtlar!?: rights_status incelemesi açık.",
+      "Kanıtlar!?: metadata_review_status incelemesi açık.",
+      "Kanıtlar!?: pixel_review_status incelemesi açık.",
+      "Kanıtlar!?: rights_status incelemesi açık.",
+      "Kanıtlar!?: metadata_review_status incelemesi açık.",
+      "Kanıtlar!?: pixel_review_status incelemesi açık.",
+      "Kanıtlar!?: rights_status incelemesi açık.",
+      "Kanıtlar!?: metadata_review_status incelemesi açık.",
+      "Kanıtlar!?: pixel_review_status incelemesi açık.",
+      "Kanıtlar!?: rights_status incelemesi açık.",
+      "Kanıtlar!?: metadata_review_status incelemesi açık.",
+      "Kanıtlar!?: pixel_review_status incelemesi açık.",
+      "Kanıtlar!?: rights_status incelemesi açık.",
+      "Kanıtlar!?: metadata_review_status incelemesi açık.",
+      "Kanıtlar!?: pixel_review_status incelemesi açık.",
+      "Kanıtlar!?: rights_status incelemesi açık.",
+      "Kanıtlar!?: metadata_review_status incelemesi açık.",
+      "Kanıtlar!?: pixel_review_status incelemesi açık.",
+      "Kanıtlar!?: rights_status incelemesi açık.",
+      "Kanıtlar!?: metadata_review_status incelemesi açık.",
+      "Kanıtlar!?: pixel_review_status incelemesi açık.",
+      "Kanıtlar!?: rights_status incelemesi açık."
     ],
     "human_acceptance": "Yerel içerik, Türkçe, işlem bağlantısı, lisans ve kare eşleşmesi insan tarafından ayrıca incelenir.",
     "checks_do_not_prove": [
@@ -891,69 +1074,71 @@
       "Şehrin otomatik yayımlanması veya editoryal onay"
     ],
     "legacy_row_credit_counts": {
-      "photos": 250,
+      "photos": 326,
       "hero_photos": 8
     },
     "counting_note": "Fiziksel SHA veya aynı kanonik kaynak tek kare sayılır. Rol ayrıdır. Satır onay/kredi bayrağı miktarı sıfırlamaz; insan onayı ayrıca bütün pakete verilir."
   },
   "media": {
     "schema": "corteqs-media-provenance/7.0",
-    "photos": 258,
-    "different_files": 250,
-    "different_source_pages": 250,
+    "photos": 334,
+    "different_files": 327,
+    "different_source_pages": 327,
     "errors": [],
     "open_provenance_points": [
-      "sevilla:photo:palacio-de-la-condesa-de-lebrija-01: bağımsız fotoğrafçı profil URL kaydı yok",
-      "sevilla:photo:palacio-de-la-condesa-de-lebrija-02: bağımsız fotoğrafçı profil URL kaydı yok",
+      "sevilla:photo:hospital-de-las-cinco-llagas-02: bağımsız fotoğrafçı profil URL kaydı yok",
+      "sevilla:photo:convento-de-santa-ines-02: bağımsız fotoğrafçı profil URL kaydı yok",
+      "sevilla:photo:monasterio-de-san-clemente-02: bağımsız fotoğrafçı profil URL kaydı yok",
+      "sevilla:photo:museo-arqueologico-de-sevilla-01: bağımsız fotoğrafçı profil URL kaydı yok",
+      "sevilla:photo:alfalfa-ve-encarnacion-01: bağımsız fotoğrafçı profil URL kaydı yok",
+      "sevilla:photo:sevilla-del-29-01: bağımsız fotoğrafçı profil URL kaydı yok",
+      "sevilla:photo:calle-feria-03: bağımsız fotoğrafçı profil URL kaydı yok",
+      "sevilla:photo:monasterio-de-san-jeronimo-de-buenavista-02: bağımsız fotoğrafçı profil URL kaydı yok",
+      "sevilla:photo:monasterio-de-san-jeronimo-de-buenavista-03: bağımsız fotoğrafçı profil URL kaydı yok",
+      "sevilla:photo:iglesia-de-santa-marina-01: bağımsız fotoğrafçı profil URL kaydı yok",
+      "sevilla:photo:archivo-historico-provincial-de-sevilla-03: bağımsız fotoğrafçı profil URL kaydı yok",
+      "sevilla:photo:real-alcazar-de-sevilla-01: bağımsız fotoğrafçı profil URL kaydı yok",
       "sevilla:photo:palacio-de-san-telmo-01: bağımsız fotoğrafçı profil URL kaydı yok",
-      "sevilla:photo:palacio-de-san-telmo-02: bağımsız fotoğrafçı profil URL kaydı yok",
-      "sevilla:photo:plaza-de-espana-01: bağımsız fotoğrafçı profil URL kaydı yok",
-      "sevilla:photo:plaza-de-espana-02: bağımsız fotoğrafçı profil URL kaydı yok",
       "sevilla:photo:archivo-general-de-indias-02: bağımsız fotoğrafçı profil URL kaydı yok",
-      "sevilla:photo:muralla-de-la-macarena-01: bağımsız fotoğrafçı profil URL kaydı yok",
-      "sevilla:photo:plaza-de-toros-de-la-maestranza-02: bağımsız fotoğrafçı profil URL kaydı yok",
+      "sevilla:photo:plaza-de-toros-de-la-maestranza-01: bağımsız fotoğrafçı profil URL kaydı yok",
+      "sevilla:photo:espacio-santa-clara-01: bağımsız fotoğrafçı profil URL kaydı yok",
       "sevilla:photo:espacio-santa-clara-02: bağımsız fotoğrafçı profil URL kaydı yok",
       "sevilla:photo:museo-de-bellas-artes-de-sevilla-01: bağımsız fotoğrafçı profil URL kaydı yok",
       "sevilla:photo:museo-de-bellas-artes-de-sevilla-02: bağımsız fotoğrafçı profil URL kaydı yok",
       "sevilla:photo:museo-historico-militar-sevilla-01: bağımsız fotoğrafçı profil URL kaydı yok",
-      "sevilla:photo:palacio-marqueses-de-la-algaba-02: bağımsız fotoğrafçı profil URL kaydı yok",
-      "sevilla:photo:palacio-marqueses-de-la-algaba-03: bağımsız fotoğrafçı profil URL kaydı yok",
+      "sevilla:photo:real-academia-bellas-artes-sevilla-01: bağımsız fotoğrafçı profil URL kaydı yok",
       "sevilla:photo:estadio-sanchez-pizjuan-tur-01: bağımsız fotoğrafçı profil URL kaydı yok",
-      "sevilla:photo:estadio-la-cartuja-02: bağımsız fotoğrafçı profil URL kaydı yok",
       "sevilla:photo:teatro-lope-de-vega-02: bağımsız fotoğrafçı profil URL kaydı yok",
       "sevilla:photo:cartuja-center-cite-02: bağımsız fotoğrafçı profil URL kaydı yok",
-      "sevilla:photo:auditorio-cartuja-sevilla-01: bağımsız fotoğrafçı profil URL kaydı yok",
+      "sevilla:photo:el-rinconcillo-02: bağımsız fotoğrafçı profil URL kaydı yok",
       "sevilla:photo:catedral-de-sevilla-giralda-01: bağımsız fotoğrafçı profil URL kaydı yok",
-      "sevilla:photo:catedral-de-sevilla-giralda-03: bağımsız fotoğrafçı profil URL kaydı yok",
-      "sevilla:photo:casa-de-pilatos-02: bağımsız fotoğrafçı profil URL kaydı yok",
-      "sevilla:photo:basilica-de-la-macarena-01: bağımsız fotoğrafçı profil URL kaydı yok",
       "sevilla:photo:basilica-de-la-macarena-02: bağımsız fotoğrafçı profil URL kaydı yok",
       "sevilla:photo:basilica-de-la-macarena-03: bağımsız fotoğrafçı profil URL kaydı yok",
       "sevilla:photo:casa-de-la-ciencia-01: bağımsız fotoğrafçı profil URL kaydı yok",
       "sevilla:photo:estadio-benito-villamarin-tur-01: bağımsız fotoğrafçı profil URL kaydı yok",
-      "sevilla:photo:estadio-benito-villamarin-tur-02: bağımsız fotoğrafçı profil URL kaydı yok",
-      "sevilla:photo:tablao-el-arenal-01: bağımsız fotoğrafçı profil URL kaydı yok",
       "sevilla:photo:confiteria-la-campana-01: bağımsız fotoğrafçı profil URL kaydı yok",
       "sevilla:photo:iglesia-de-san-luis-de-los-franceses-01: bağımsız fotoğrafçı profil URL kaydı yok",
-      "sevilla:photo:convento-de-santa-paula-02: bağımsız fotoğrafçı profil URL kaydı yok",
       "sevilla:photo:jardines-torre-de-los-perdigones-01: bağımsız fotoğrafçı profil URL kaydı yok",
+      "sevilla:photo:iglesia-de-san-marcos-02: bağımsız fotoğrafçı profil URL kaydı yok",
       "sevilla:photo:iglesia-de-la-magdalena-01: bağımsız fotoğrafçı profil URL kaydı yok",
       "sevilla:photo:santa-cruz-01: bağımsız fotoğrafçı profil URL kaydı yok",
+      "sevilla:photo:los-remedios-02: bağımsız fotoğrafçı profil URL kaydı yok",
+      "sevilla:photo:la-macarena-02: bağımsız fotoğrafçı profil URL kaydı yok",
       "sevilla:photo:la-cartuja-01: bağımsız fotoğrafçı profil URL kaydı yok",
-      "sevilla:photo:la-cartuja-02: bağımsız fotoğrafçı profil URL kaydı yok",
       "sevilla:photo:jardines-de-murillo-03: bağımsız fotoğrafçı profil URL kaydı yok",
       "sevilla:photo:museo-de-bellas-artes-de-sevilla-03: bağımsız fotoğrafçı profil URL kaydı yok",
-      "sevilla:photo:museo-del-baile-flamenco-03: bağımsız fotoğrafçı profil URL kaydı yok",
       "sevilla:photo:museo-maritimo-torre-del-oro-03: bağımsız fotoğrafçı profil URL kaydı yok",
       "sevilla:photo:real-academia-bellas-artes-sevilla-02: bağımsız fotoğrafçı profil URL kaydı yok",
-      "sevilla:photo:auditorio-cartuja-sevilla-02: bağımsız fotoğrafçı profil URL kaydı yok",
-      "sevilla:photo:auditorio-cartuja-sevilla-03: bağımsız fotoğrafçı profil URL kaydı yok",
+      "sevilla:photo:auditorio-cartuja-sevilla-01: bağımsız fotoğrafçı profil URL kaydı yok",
       "sevilla:photo:casa-de-pilatos-03: bağımsız fotoğrafçı profil URL kaydı yok",
       "sevilla:photo:convento-de-santa-paula-03: bağımsız fotoğrafçı profil URL kaydı yok",
-      "sevilla:photo:hospital-de-las-cinco-llagas-02: bağımsız fotoğrafçı profil URL kaydı yok",
-      "sevilla:photo:monasterio-de-san-clemente-02: bağımsız fotoğrafçı profil URL kaydı yok",
-      "sevilla:photo:monasterio-de-san-clemente-03: bağımsız fotoğrafçı profil URL kaydı yok",
+      "sevilla:photo:jardin-americano-01: bağımsız fotoğrafçı profil URL kaydı yok",
+      "sevilla:photo:plaza-de-santa-cruz-01: bağımsız fotoğrafçı profil URL kaydı yok",
+      "sevilla:photo:plaza-de-santa-cruz-02: bağımsız fotoğrafçı profil URL kaydı yok",
+      "sevilla:photo:iglesia-de-san-juan-de-la-palma-01: bağımsız fotoğrafçı profil URL kaydı yok",
+      "sevilla:photo:iglesia-de-san-juan-de-la-palma-03: bağımsız fotoğrafçı profil URL kaydı yok",
       "sevilla:photo:kapak-02: bağımsız fotoğrafçı profil URL kaydı yok",
+      "sevilla:photo:kapak-06: bağımsız fotoğrafçı profil URL kaydı yok",
       "sevilla:photo:kapak-07: bağımsız fotoğrafçı profil URL kaydı yok"
     ],
     "structural_passed": true,
@@ -973,37 +1158,23 @@
   "warning_classes": [
     {
       "class": "Kanıtlar: metadata_review_status incelemesi açık.",
-      "count": 258,
+      "count": 334,
       "examples": [
         "Kanıtlar!?: metadata_review_status incelemesi açık."
       ]
     },
     {
       "class": "Kanıtlar: pixel_review_status incelemesi açık.",
-      "count": 258,
+      "count": 334,
       "examples": [
         "Kanıtlar!?: pixel_review_status incelemesi açık."
       ]
     },
     {
       "class": "Kanıtlar: rights_status incelemesi açık.",
-      "count": 258,
+      "count": 334,
       "examples": [
         "Kanıtlar!?: rights_status incelemesi açık."
-      ]
-    },
-    {
-      "class": "Mekânlar: Mekân / mahalleye bağlı gerçek fotoğraf eksik.",
-      "count": 39,
-      "examples": [
-        "Mekânlar!?: Mekân / mahalleye bağlı gerçek fotoğraf eksik."
-      ]
-    },
-    {
-      "class": "Mahalleler: Mekân / mahalleye bağlı gerçek fotoğraf eksik.",
-      "count": 6,
-      "examples": [
-        "Mahalleler!?: Mekân / mahalleye bağlı gerçek fotoğraf eksik."
       ]
     }
   ],
@@ -1025,9 +1196,4510 @@
     },
     "verified_without_snapshot": {
       "label": "ek kontrol",
-      "count": 0,
-      "items": [],
-      "verified_total": 446
+      "count": 500,
+      "items": [
+        {
+          "sheet": "Kaynaklar",
+          "row": 8,
+          "id": "sevilla:kaynak:001",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 9,
+          "id": "sevilla:kaynak:002",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 10,
+          "id": "sevilla:kaynak:003",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 11,
+          "id": "sevilla:kaynak:004",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 12,
+          "id": "sevilla:kaynak:005",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 13,
+          "id": "sevilla:kaynak:006",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 14,
+          "id": "sevilla:kaynak:008",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 15,
+          "id": "sevilla:kaynak:009",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 16,
+          "id": "sevilla:kaynak:010",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 17,
+          "id": "sevilla:kaynak:011",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 18,
+          "id": "sevilla:kaynak:012",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 19,
+          "id": "sevilla:kaynak:013",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 20,
+          "id": "sevilla:kaynak:014",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 21,
+          "id": "sevilla:kaynak:015",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 22,
+          "id": "sevilla:kaynak:016",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 23,
+          "id": "sevilla:kaynak:017",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 24,
+          "id": "sevilla:kaynak:018",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 25,
+          "id": "sevilla:kaynak:019",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 26,
+          "id": "sevilla:kaynak:020",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 27,
+          "id": "sevilla:kaynak:021",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 28,
+          "id": "sevilla:kaynak:022",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 29,
+          "id": "sevilla:kaynak:023",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 30,
+          "id": "sevilla:kaynak:024",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 31,
+          "id": "sevilla:kaynak:025",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 32,
+          "id": "sevilla:kaynak:026",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 33,
+          "id": "sevilla:kaynak:027",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 34,
+          "id": "sevilla:kaynak:028",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 35,
+          "id": "sevilla:kaynak:029",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 36,
+          "id": "sevilla:kaynak:030",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 37,
+          "id": "sevilla:kaynak:031",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 38,
+          "id": "sevilla:kaynak:032",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 39,
+          "id": "sevilla:kaynak:033",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 40,
+          "id": "sevilla:kaynak:034",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 41,
+          "id": "sevilla:kaynak:035",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 42,
+          "id": "sevilla:kaynak:036",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 43,
+          "id": "sevilla:kaynak:037",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 44,
+          "id": "sevilla:kaynak:038",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 45,
+          "id": "sevilla:kaynak:039",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 46,
+          "id": "sevilla:kaynak:040",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 47,
+          "id": "sevilla:kaynak:041",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 48,
+          "id": "sevilla:kaynak:042",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 49,
+          "id": "sevilla:kaynak:043",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 50,
+          "id": "sevilla:kaynak:044",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 51,
+          "id": "sevilla:kaynak:045",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 52,
+          "id": "sevilla:kaynak:046",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 53,
+          "id": "sevilla:kaynak:047",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 54,
+          "id": "sevilla:kaynak:048",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 55,
+          "id": "sevilla:kaynak:049",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 56,
+          "id": "sevilla:kaynak:050",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 57,
+          "id": "sevilla:kaynak:051",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 58,
+          "id": "sevilla:kaynak:052",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 59,
+          "id": "sevilla:kaynak:053",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 60,
+          "id": "sevilla:kaynak:055",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 61,
+          "id": "sevilla:kaynak:057",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 62,
+          "id": "sevilla:kaynak:058",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 63,
+          "id": "sevilla:kaynak:059",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 64,
+          "id": "sevilla:kaynak:060",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 65,
+          "id": "sevilla:kaynak:061",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 66,
+          "id": "sevilla:kaynak:062",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 67,
+          "id": "sevilla:kaynak:063",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 68,
+          "id": "sevilla:kaynak:064",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 69,
+          "id": "sevilla:kaynak:065",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 70,
+          "id": "sevilla:kaynak:066",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 71,
+          "id": "sevilla:kaynak:067",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 72,
+          "id": "sevilla:kaynak:068",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 73,
+          "id": "sevilla:kaynak:069",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 74,
+          "id": "sevilla:kaynak:070",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 75,
+          "id": "sevilla:kaynak:071",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 76,
+          "id": "sevilla:kaynak:073",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 77,
+          "id": "sevilla:kaynak:074",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 78,
+          "id": "sevilla:kaynak:075",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 79,
+          "id": "sevilla:kaynak:076",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 80,
+          "id": "sevilla:kaynak:077",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 81,
+          "id": "sevilla:kaynak:078",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 82,
+          "id": "sevilla:kaynak:079",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 83,
+          "id": "sevilla:kaynak:080",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 84,
+          "id": "sevilla:kaynak:081",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 85,
+          "id": "sevilla:kaynak:082",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 86,
+          "id": "sevilla:kaynak:083",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 87,
+          "id": "sevilla:kaynak:085",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 88,
+          "id": "sevilla:kaynak:086",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 89,
+          "id": "sevilla:kaynak:087",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 90,
+          "id": "sevilla:kaynak:088",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 91,
+          "id": "sevilla:kaynak:089",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 92,
+          "id": "sevilla:kaynak:090",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 93,
+          "id": "sevilla:kaynak:091",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 94,
+          "id": "sevilla:kaynak:092",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 95,
+          "id": "sevilla:kaynak:093",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 96,
+          "id": "sevilla:kaynak:094",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 97,
+          "id": "sevilla:kaynak:095",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 98,
+          "id": "sevilla:kaynak:096",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 99,
+          "id": "sevilla:kaynak:097",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 100,
+          "id": "sevilla:kaynak:098",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 101,
+          "id": "sevilla:kaynak:099",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 102,
+          "id": "sevilla:kaynak:100",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 103,
+          "id": "sevilla:kaynak:101",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 104,
+          "id": "sevilla:kaynak:102",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 105,
+          "id": "sevilla:kaynak:103",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 106,
+          "id": "sevilla:kaynak:104",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 107,
+          "id": "sevilla:kaynak:105",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 108,
+          "id": "sevilla:kaynak:106",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 109,
+          "id": "sevilla:kaynak:108",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 110,
+          "id": "sevilla:kaynak:110",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 111,
+          "id": "sevilla:kaynak:111",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 112,
+          "id": "sevilla:kaynak:112",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 113,
+          "id": "sevilla:kaynak:114",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 114,
+          "id": "sevilla:kaynak:115",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 115,
+          "id": "sevilla:kaynak:116",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 116,
+          "id": "sevilla:kaynak:117",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 117,
+          "id": "sevilla:kaynak:118",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 118,
+          "id": "sevilla:kaynak:119",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 119,
+          "id": "sevilla:kaynak:120",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 120,
+          "id": "sevilla:kaynak:121",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 121,
+          "id": "sevilla:kaynak:122",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 122,
+          "id": "sevilla:kaynak:123",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 123,
+          "id": "sevilla:kaynak:124",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 124,
+          "id": "sevilla:kaynak:125",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 125,
+          "id": "sevilla:kaynak:126",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 126,
+          "id": "sevilla:kaynak:127",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 127,
+          "id": "sevilla:kaynak:128",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 128,
+          "id": "sevilla:kaynak:129",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 129,
+          "id": "sevilla:kaynak:130",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 130,
+          "id": "sevilla:kaynak:131",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 131,
+          "id": "sevilla:kaynak:132",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 132,
+          "id": "sevilla:kaynak:133",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 133,
+          "id": "sevilla:kaynak:134",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 134,
+          "id": "sevilla:kaynak:135",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 135,
+          "id": "sevilla:kaynak:136",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 136,
+          "id": "sevilla:kaynak:137",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 137,
+          "id": "sevilla:kaynak:138",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 138,
+          "id": "sevilla:kaynak:140",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 139,
+          "id": "sevilla:kaynak:141",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 140,
+          "id": "sevilla:kaynak:143",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 141,
+          "id": "sevilla:kaynak:144",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 142,
+          "id": "sevilla:kaynak:145",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 143,
+          "id": "sevilla:kaynak:146",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 144,
+          "id": "sevilla:kaynak:147",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 145,
+          "id": "sevilla:kaynak:148",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 146,
+          "id": "sevilla:kaynak:149",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 147,
+          "id": "sevilla:kaynak:150",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 148,
+          "id": "sevilla:kaynak:152",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 149,
+          "id": "sevilla:kaynak:153",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 150,
+          "id": "sevilla:kaynak:154",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 151,
+          "id": "sevilla:kaynak:155",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 152,
+          "id": "sevilla:kaynak:156",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 153,
+          "id": "sevilla:kaynak:157",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 154,
+          "id": "sevilla:kaynak:158",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 155,
+          "id": "sevilla:kaynak:159",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 156,
+          "id": "sevilla:kaynak:160",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 157,
+          "id": "sevilla:kaynak:161",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 158,
+          "id": "sevilla:kaynak:162",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 159,
+          "id": "sevilla:kaynak:164",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 160,
+          "id": "sevilla:kaynak:165",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 161,
+          "id": "sevilla:kaynak:167",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 162,
+          "id": "sevilla:kaynak:168",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 163,
+          "id": "sevilla:kaynak:169",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 164,
+          "id": "sevilla:kaynak:170",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 165,
+          "id": "sevilla:kaynak:171",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 166,
+          "id": "sevilla:kaynak:173",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 167,
+          "id": "sevilla:kaynak:174",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 168,
+          "id": "sevilla:kaynak:175",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 169,
+          "id": "sevilla:kaynak:176",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 170,
+          "id": "sevilla:kaynak:177",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 171,
+          "id": "sevilla:kaynak:178",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 172,
+          "id": "sevilla:kaynak:179",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 173,
+          "id": "sevilla:kaynak:180",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 174,
+          "id": "sevilla:kaynak:181",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 175,
+          "id": "sevilla:kaynak:184",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 176,
+          "id": "sevilla:kaynak:185",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 177,
+          "id": "sevilla:kaynak:189",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 178,
+          "id": "sevilla:kaynak:190",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 179,
+          "id": "sevilla:kaynak:191",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 180,
+          "id": "sevilla:kaynak:192",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 181,
+          "id": "sevilla:kaynak:193",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 182,
+          "id": "sevilla:kaynak:196",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 183,
+          "id": "sevilla:kaynak:197",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 184,
+          "id": "sevilla:kaynak:198",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 185,
+          "id": "sevilla:kaynak:199",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 186,
+          "id": "sevilla:kaynak:200",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 187,
+          "id": "sevilla:kaynak:201",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 188,
+          "id": "sevilla:kaynak:202",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 189,
+          "id": "sevilla:kaynak:203",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 190,
+          "id": "sevilla:kaynak:204",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 191,
+          "id": "sevilla:kaynak:205",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 192,
+          "id": "sevilla:kaynak:206",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 193,
+          "id": "sevilla:kaynak:207",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 194,
+          "id": "sevilla:kaynak:209",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 195,
+          "id": "sevilla:kaynak:211",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 196,
+          "id": "sevilla:kaynak:212",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 197,
+          "id": "sevilla:kaynak:213",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 198,
+          "id": "sevilla:kaynak:214",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 199,
+          "id": "sevilla:kaynak:215",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 200,
+          "id": "sevilla:kaynak:216",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 201,
+          "id": "sevilla:kaynak:218",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 202,
+          "id": "sevilla:kaynak:220",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 203,
+          "id": "sevilla:kaynak:221",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 204,
+          "id": "sevilla:kaynak:222",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 205,
+          "id": "sevilla:kaynak:223",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 206,
+          "id": "sevilla:kaynak:224",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 207,
+          "id": "sevilla:kaynak:225",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 208,
+          "id": "sevilla:kaynak:226",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 209,
+          "id": "sevilla:kaynak:227",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 210,
+          "id": "sevilla:kaynak:229",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 211,
+          "id": "sevilla:kaynak:230",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 212,
+          "id": "sevilla:kaynak:231",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 213,
+          "id": "sevilla:kaynak:232",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 214,
+          "id": "sevilla:kaynak:233",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 215,
+          "id": "sevilla:kaynak:235",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 216,
+          "id": "sevilla:kaynak:236",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 217,
+          "id": "sevilla:kaynak:237",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 218,
+          "id": "sevilla:kaynak:238",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 219,
+          "id": "sevilla:kaynak:239",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 220,
+          "id": "sevilla:kaynak:240",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 221,
+          "id": "sevilla:kaynak:241",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 222,
+          "id": "sevilla:kaynak:242",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 223,
+          "id": "sevilla:kaynak:243",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 224,
+          "id": "sevilla:kaynak:244",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 225,
+          "id": "sevilla:kaynak:245",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 226,
+          "id": "sevilla:kaynak:246",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 227,
+          "id": "sevilla:kaynak:247",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 228,
+          "id": "sevilla:kaynak:248",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 229,
+          "id": "sevilla:kaynak:249",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 230,
+          "id": "sevilla:kaynak:250",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 231,
+          "id": "sevilla:kaynak:251",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 232,
+          "id": "sevilla:kaynak:252",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 233,
+          "id": "sevilla:kaynak:253",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 234,
+          "id": "sevilla:kaynak:254",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 235,
+          "id": "sevilla:kaynak:255",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 236,
+          "id": "sevilla:kaynak:256",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 237,
+          "id": "sevilla:kaynak:257",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 238,
+          "id": "sevilla:kaynak:258",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 239,
+          "id": "sevilla:kaynak:259",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 240,
+          "id": "sevilla:kaynak:262",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 241,
+          "id": "sevilla:kaynak:264",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 242,
+          "id": "sevilla:kaynak:266",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 243,
+          "id": "sevilla:kaynak:267",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 244,
+          "id": "sevilla:kaynak:268",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 245,
+          "id": "sevilla:kaynak:269",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 246,
+          "id": "sevilla:kaynak:270",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 247,
+          "id": "sevilla:kaynak:272",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 248,
+          "id": "sevilla:kaynak:273",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 249,
+          "id": "sevilla:kaynak:274",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 250,
+          "id": "sevilla:kaynak:275",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 251,
+          "id": "sevilla:kaynak:276",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 252,
+          "id": "sevilla:kaynak:277",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 253,
+          "id": "sevilla:kaynak:278",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 254,
+          "id": "sevilla:kaynak:280",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 255,
+          "id": "sevilla:kaynak:281",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 256,
+          "id": "sevilla:kaynak:282",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 257,
+          "id": "sevilla:kaynak:283",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 258,
+          "id": "sevilla:kaynak:284",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 259,
+          "id": "sevilla:kaynak:285",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 260,
+          "id": "sevilla:kaynak:286",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 261,
+          "id": "sevilla:kaynak:287",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 262,
+          "id": "sevilla:kaynak:288",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 263,
+          "id": "sevilla:kaynak:289",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 264,
+          "id": "sevilla:kaynak:290",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 265,
+          "id": "sevilla:kaynak:291",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 266,
+          "id": "sevilla:kaynak:292",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 267,
+          "id": "sevilla:kaynak:294",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 268,
+          "id": "sevilla:kaynak:295",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 269,
+          "id": "sevilla:kaynak:296",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 270,
+          "id": "sevilla:kaynak:297",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 271,
+          "id": "sevilla:kaynak:298",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 272,
+          "id": "sevilla:kaynak:299",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 273,
+          "id": "sevilla:kaynak:300",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 274,
+          "id": "sevilla:kaynak:301",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 275,
+          "id": "sevilla:kaynak:302",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 276,
+          "id": "sevilla:kaynak:303",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 277,
+          "id": "sevilla:kaynak:304",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 278,
+          "id": "sevilla:kaynak:306",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 279,
+          "id": "sevilla:kaynak:307",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 280,
+          "id": "sevilla:kaynak:308",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 281,
+          "id": "sevilla:kaynak:309",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 282,
+          "id": "sevilla:kaynak:310",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 283,
+          "id": "sevilla:kaynak:311",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 284,
+          "id": "sevilla:kaynak:312",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 285,
+          "id": "sevilla:kaynak:313",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 286,
+          "id": "sevilla:kaynak:315",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 287,
+          "id": "sevilla:kaynak:316",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 288,
+          "id": "sevilla:kaynak:317",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 289,
+          "id": "sevilla:kaynak:318",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 290,
+          "id": "sevilla:kaynak:319",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 291,
+          "id": "sevilla:kaynak:322",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 292,
+          "id": "sevilla:kaynak:323",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 293,
+          "id": "sevilla:kaynak:324",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 294,
+          "id": "sevilla:kaynak:325",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 295,
+          "id": "sevilla:kaynak:326",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 296,
+          "id": "sevilla:kaynak:328",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 297,
+          "id": "sevilla:kaynak:330",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 298,
+          "id": "sevilla:kaynak:332",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 299,
+          "id": "sevilla:kaynak:333",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 300,
+          "id": "sevilla:kaynak:334",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 301,
+          "id": "sevilla:kaynak:335",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 302,
+          "id": "sevilla:kaynak:336",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 303,
+          "id": "sevilla:kaynak:337",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 304,
+          "id": "sevilla:kaynak:339",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 305,
+          "id": "sevilla:kaynak:340",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 306,
+          "id": "sevilla:kaynak:341",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 307,
+          "id": "sevilla:kaynak:343",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 308,
+          "id": "sevilla:kaynak:344",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 309,
+          "id": "sevilla:kaynak:347",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 310,
+          "id": "sevilla:kaynak:348",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 311,
+          "id": "sevilla:kaynak:349",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 312,
+          "id": "sevilla:kaynak:350",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 313,
+          "id": "sevilla:kaynak:351",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 314,
+          "id": "sevilla:kaynak:352",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 315,
+          "id": "sevilla:kaynak:353",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 316,
+          "id": "sevilla:kaynak:354",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 317,
+          "id": "sevilla:kaynak:355",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 318,
+          "id": "sevilla:kaynak:356",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 319,
+          "id": "sevilla:kaynak:357",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 320,
+          "id": "sevilla:kaynak:360",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 321,
+          "id": "sevilla:kaynak:362",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 322,
+          "id": "sevilla:kaynak:363",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 323,
+          "id": "sevilla:kaynak:366",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 324,
+          "id": "sevilla:kaynak:367",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 325,
+          "id": "sevilla:kaynak:369",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 326,
+          "id": "sevilla:kaynak:371",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 327,
+          "id": "sevilla:kaynak:372",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 328,
+          "id": "sevilla:kaynak:374",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 329,
+          "id": "sevilla:kaynak:376",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 330,
+          "id": "sevilla:kaynak:377",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 331,
+          "id": "sevilla:kaynak:378",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 332,
+          "id": "sevilla:kaynak:379",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 333,
+          "id": "sevilla:kaynak:381",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 334,
+          "id": "sevilla:kaynak:382",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 335,
+          "id": "sevilla:kaynak:384",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 336,
+          "id": "sevilla:kaynak:389",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 337,
+          "id": "sevilla:kaynak:394",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 338,
+          "id": "sevilla:kaynak:395",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 339,
+          "id": "sevilla:kaynak:397",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 340,
+          "id": "sevilla:kaynak:398",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 341,
+          "id": "sevilla:kaynak:399",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 342,
+          "id": "sevilla:kaynak:400",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 343,
+          "id": "sevilla:kaynak:402",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 344,
+          "id": "sevilla:kaynak:405",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 345,
+          "id": "sevilla:kaynak:406",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 346,
+          "id": "sevilla:kaynak:408",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 347,
+          "id": "sevilla:kaynak:410",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 348,
+          "id": "sevilla:kaynak:411",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 349,
+          "id": "sevilla:kaynak:412",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 350,
+          "id": "sevilla:kaynak:413",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 351,
+          "id": "sevilla:kaynak:414",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 352,
+          "id": "sevilla:kaynak:415",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 353,
+          "id": "sevilla:kaynak:417",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 354,
+          "id": "sevilla:kaynak:420",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 355,
+          "id": "sevilla:kaynak:426",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 356,
+          "id": "sevilla:kaynak:427",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 357,
+          "id": "sevilla:kaynak:429",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 358,
+          "id": "sevilla:kaynak:430",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 359,
+          "id": "sevilla:kaynak:433",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 360,
+          "id": "sevilla:kaynak:435",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 361,
+          "id": "sevilla:kaynak:436",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 362,
+          "id": "sevilla:kaynak:438",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 363,
+          "id": "sevilla:kaynak:447",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 364,
+          "id": "sevilla:kaynak:448",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 365,
+          "id": "sevilla:kaynak:449",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 366,
+          "id": "sevilla:kaynak:450",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 367,
+          "id": "sevilla:kaynak:451",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 368,
+          "id": "sevilla:kaynak:455",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 369,
+          "id": "sevilla:kaynak:457",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 370,
+          "id": "sevilla:kaynak:458",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 371,
+          "id": "sevilla:kaynak:460",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 372,
+          "id": "sevilla:kaynak:461",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 373,
+          "id": "sevilla:kaynak:462",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 374,
+          "id": "sevilla:kaynak:463",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 375,
+          "id": "sevilla:kaynak:466",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 376,
+          "id": "sevilla:kaynak:467",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 377,
+          "id": "sevilla:kaynak:468",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 378,
+          "id": "sevilla:kaynak:470",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 379,
+          "id": "sevilla:kaynak:472",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 380,
+          "id": "sevilla:kaynak:474",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 381,
+          "id": "sevilla:kaynak:476",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 382,
+          "id": "sevilla:kaynak:477",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 383,
+          "id": "sevilla:kaynak:478",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 384,
+          "id": "sevilla:kaynak:479",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 385,
+          "id": "sevilla:kaynak:480",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 386,
+          "id": "sevilla:kaynak:481",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 387,
+          "id": "sevilla:kaynak:482",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 388,
+          "id": "sevilla:kaynak:484",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 389,
+          "id": "sevilla:kaynak:486",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 390,
+          "id": "sevilla:kaynak:487",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 391,
+          "id": "sevilla:kaynak:488",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 392,
+          "id": "sevilla:kaynak:489",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 393,
+          "id": "sevilla:kaynak:490",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 394,
+          "id": "sevilla:kaynak:491",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 395,
+          "id": "sevilla:kaynak:493",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 396,
+          "id": "sevilla:kaynak:495",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 397,
+          "id": "sevilla:kaynak:496",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 398,
+          "id": "sevilla:kaynak:497",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 399,
+          "id": "sevilla:kaynak:498",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 400,
+          "id": "sevilla:kaynak:499",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 401,
+          "id": "sevilla:kaynak:500",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 402,
+          "id": "sevilla:kaynak:501",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 403,
+          "id": "sevilla:kaynak:502",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 404,
+          "id": "sevilla:kaynak:503",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 405,
+          "id": "sevilla:kaynak:505",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 406,
+          "id": "sevilla:kaynak:506",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 407,
+          "id": "sevilla:kaynak:507",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 408,
+          "id": "sevilla:kaynak:508",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 409,
+          "id": "sevilla:kaynak:509",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 410,
+          "id": "sevilla:kaynak:511",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 411,
+          "id": "sevilla:kaynak:512",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 412,
+          "id": "sevilla:kaynak:513",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 413,
+          "id": "sevilla:kaynak:514",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 414,
+          "id": "sevilla:kaynak:515",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 415,
+          "id": "sevilla:kaynak:516",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 416,
+          "id": "sevilla:kaynak:517",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 417,
+          "id": "sevilla:kaynak:518",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 418,
+          "id": "sevilla:kaynak:520",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 419,
+          "id": "sevilla:kaynak:521",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 420,
+          "id": "sevilla:kaynak:522",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 421,
+          "id": "sevilla:kaynak:523",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 422,
+          "id": "sevilla:kaynak:524",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 423,
+          "id": "sevilla:kaynak:525",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 424,
+          "id": "sevilla:kaynak:527",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 425,
+          "id": "sevilla:kaynak:528",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 426,
+          "id": "sevilla:kaynak:530",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 427,
+          "id": "sevilla:kaynak:531",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 428,
+          "id": "sevilla:kaynak:532",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 429,
+          "id": "sevilla:kaynak:533",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 430,
+          "id": "sevilla:kaynak:534",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 431,
+          "id": "sevilla:kaynak:535",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 432,
+          "id": "sevilla:kaynak:536",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 433,
+          "id": "sevilla:kaynak:537",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 434,
+          "id": "sevilla:kaynak:538",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 435,
+          "id": "sevilla:kaynak:539",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 436,
+          "id": "sevilla:kaynak:541",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 437,
+          "id": "sevilla:kaynak:542",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 438,
+          "id": "sevilla:kaynak:544",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 439,
+          "id": "sevilla:kaynak:545",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 440,
+          "id": "sevilla:kaynak:546",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 441,
+          "id": "sevilla:kaynak:547",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 442,
+          "id": "sevilla:kaynak:548",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 443,
+          "id": "sevilla:kaynak:550",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 444,
+          "id": "sevilla:kaynak:551",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 445,
+          "id": "sevilla:kaynak:554",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 446,
+          "id": "sevilla:kaynak:555",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 447,
+          "id": "sevilla:kaynak:557",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 448,
+          "id": "sevilla:kaynak:558",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 449,
+          "id": "sevilla:kaynak:562",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 450,
+          "id": "sevilla:kaynak:563",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 451,
+          "id": "sevilla:kaynak:565",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 452,
+          "id": "sevilla:kaynak:567",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 453,
+          "id": "sevilla:kaynak:570",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 454,
+          "id": "sevilla:kaynak:571",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 455,
+          "id": "sevilla:kaynak:572",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 456,
+          "id": "sevilla:kaynak:573",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 457,
+          "id": "sevilla:kaynak:574",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 458,
+          "id": "sevilla:kaynak:575",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 459,
+          "id": "sevilla:kaynak:576",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 460,
+          "id": "sevilla:kaynak:579",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 461,
+          "id": "sevilla:kaynak:580",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 462,
+          "id": "sevilla:kaynak:581",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 463,
+          "id": "sevilla:kaynak:582",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 464,
+          "id": "sevilla:kaynak:584",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 465,
+          "id": "sevilla:kaynak:587",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 466,
+          "id": "sevilla:kaynak:588",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 467,
+          "id": "sevilla:kaynak:589",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 468,
+          "id": "sevilla:kaynak:590",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 469,
+          "id": "sevilla:kaynak:591",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 470,
+          "id": "sevilla:kaynak:592",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 471,
+          "id": "sevilla:kaynak:593",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 472,
+          "id": "sevilla:kaynak:595",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 473,
+          "id": "sevilla:kaynak:597",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 474,
+          "id": "sevilla:kaynak:598",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 475,
+          "id": "sevilla:kaynak:599",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 476,
+          "id": "sevilla:kaynak:600",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 477,
+          "id": "sevilla:kaynak:601",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 478,
+          "id": "sevilla:kaynak:602",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 479,
+          "id": "sevilla:kaynak:603",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 480,
+          "id": "sevilla:kaynak:604",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 481,
+          "id": "sevilla:kaynak:605",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 482,
+          "id": "sevilla:kaynak:606",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 483,
+          "id": "sevilla:kaynak:607",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 484,
+          "id": "sevilla:kaynak:608",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 485,
+          "id": "sevilla:kaynak:609",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 486,
+          "id": "sevilla:kaynak:610",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 487,
+          "id": "sevilla:kaynak:611",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 488,
+          "id": "sevilla:kaynak:613",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 489,
+          "id": "sevilla:kaynak:614",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 490,
+          "id": "sevilla:kaynak:615",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 491,
+          "id": "sevilla:kaynak:616",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 492,
+          "id": "sevilla:kaynak:617",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 493,
+          "id": "sevilla:kaynak:618",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 494,
+          "id": "sevilla:kaynak:619",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 495,
+          "id": "sevilla:kaynak:620",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 496,
+          "id": "sevilla:kaynak:621",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 497,
+          "id": "sevilla:kaynak:623",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 498,
+          "id": "sevilla:kaynak:624",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 499,
+          "id": "sevilla:kaynak:625",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 500,
+          "id": "sevilla:kaynak:627",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 501,
+          "id": "sevilla:kaynak:628",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 502,
+          "id": "sevilla:kaynak:629",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 503,
+          "id": "sevilla:kaynak:630",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 504,
+          "id": "sevilla:kaynak:631",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 505,
+          "id": "sevilla:kaynak:632",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 506,
+          "id": "sevilla:kaynak:633",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        },
+        {
+          "sheet": "Kaynaklar",
+          "row": 507,
+          "id": "sevilla:kaynak:634",
+          "missing": [
+            "snapshot_file",
+            "snapshot_sha256"
+          ]
+        }
+      ],
+      "verified_total": 500
     },
     "shared_coordinates": {
       "label": "ek kontrol",
@@ -1061,13 +5733,13 @@
     },
     "history_share": {
       "label": "ek kontrol",
-      "count": 0,
+      "count": 1,
       "items": [],
-      "history": 39,
+      "history": 57,
       "total": 120,
-      "ratio": 0.325,
+      "ratio": 0.475,
       "threshold": 0.35,
-      "flagged": false,
+      "flagged": true,
       "threshold_note": "öneri: 'Tarih ve mimari' payı > 35% ise çeşitlilik gözden geçirilmeli"
     }
   }

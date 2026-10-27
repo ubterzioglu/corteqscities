@@ -1,0 +1,533 @@
+{
+ "meta": {
+  "tool": "city-audit L2",
+  "level": "L2",
+  "label": "yerel paket denetimi",
+  "city_id": "sevilla",
+  "catalog": "CITY-107",
+  "xlsx": "CITY-107_sevilla_v001.xlsx",
+  "xlsx_sha256": "6fefa38be706b2eade81300541edc52063ff580effab51f0e730e331f9a13288",
+  "previous_audit": "denetim/sevilla_2026-10-25_L1 (Excel 78561c28…, %74, DÜZELTME GEREKLİ)",
+  "checked_on": "2026-10-26",
+  "template": "kılavuz 2.0 bölüm 20",
+  "status_counts": {
+   "separate_stage": 9,
+   "geçti": 67,
+   "kaldı": 32,
+   "kısmi": 9,
+   "uygulanmaz": 1,
+   "not_checked": 2
+  },
+  "note": "L2: 300 kart (29 iddia partisi), 120 mekân (açık-mı tam), 16 mahalle, 12 rota, 575 bağlantı, 500 kaynak, 334 fotoğraf (iki görsel tarama + 334 hak zinciri); her olumsuz karar Opus karşı denetiminden geçti."
+ },
+ "criteria": [
+  {
+   "code": "A1",
+   "status": "ok",
+   "passed": 223,
+   "required": 240,
+   "reason": "240/240 yanıt denetlendi; P0/P1 kart bulgusu, yanlış/eski iddia ya da kullanılamaz olan 17 kart."
+  },
+  {
+   "code": "A2",
+   "status": "ok",
+   "passed": 183,
+   "required": 240,
+   "reason": "K25/K26/K31 kaldı 57 yanıt (karşı denetim sonrası); bağlantı K51/K53 bulguları ayrı."
+  },
+  {
+   "code": "A3",
+   "status": "ok",
+   "passed": 3204,
+   "required": 3211,
+   "reason": "3211 iddia: doğru 3204, yanlış 4, kaynak_yetersiz 3; kaynak ajanı 500/500."
+  },
+  {
+   "code": "A4",
+   "status": "ok",
+   "passed": 3207,
+   "required": 3211,
+   "reason": "yanlış 4, eski 0 (karşı denetim sonrası)."
+  },
+  {
+   "code": "A5",
+   "status": "ok",
+   "passed": 245,
+   "required": 300,
+   "reason": "K32 kaldı + K28 küme kartları 55."
+  },
+  {
+   "code": "B1",
+   "status": "ok",
+   "passed": 118,
+   "required": 120,
+   "reason": "120/120 mekân denetlendi; alt nesne 2, iki kaynakla kapanış 0."
+  },
+  {
+   "code": "B2",
+   "status": "ok",
+   "passed": 16,
+   "required": 16,
+   "reason": "K44 geçti 16."
+  },
+  {
+   "code": "B3",
+   "status": "ok",
+   "passed": 12,
+   "required": 12,
+   "reason": "K47 geçti 12."
+  },
+  {
+   "code": "B4",
+   "status": "ok",
+   "passed": 60,
+   "required": 60,
+   "reason": "60/60 sözlük; K25/K26/K48 kaldı ya da yanlış iddia 0."
+  },
+  {
+   "code": "B5",
+   "status": "ok",
+   "passed": 113,
+   "required": 118,
+   "reason": "P0/P1 mekân bulgusu ya da açık-mı P1 5 mekân."
+  },
+  {
+   "code": "C1",
+   "status": "ok",
+   "passed": 320,
+   "required": 250,
+   "reason": "Tekil 326 mekân karesi; ret 5, hak zinciri kaldı/belirsiz 1."
+  },
+  {
+   "code": "C2",
+   "status": "ok",
+   "passed": 329,
+   "required": 334,
+   "reason": "334 kare iki taramada; ret 5."
+  },
+  {
+   "code": "C3",
+   "status": "ok",
+   "passed": 136,
+   "required": 136,
+   "reason": "Fotoğrafsız kayıt yok."
+  },
+  {
+   "code": "C4",
+   "status": "ok",
+   "passed": 325,
+   "required": 326,
+   "reason": "Yakın tekrar/kalite ret ya da çözülmemiş flag 1."
+  },
+  {
+   "code": "C5",
+   "status": "ok",
+   "passed": 8,
+   "required": 8,
+   "reason": "Kapak ret 0, hak zinciri 0."
+  },
+  {
+   "code": "D1",
+   "status": "ok",
+   "passed": 333,
+   "required": 334,
+   "reason": "334/334 kare ilk kaynağına kadar; kaldı/belirsiz 1."
+  },
+  {
+   "code": "D2",
+   "status": "ok",
+   "passed": 334,
+   "required": 334,
+   "reason": "Etiket↔URL ve yazar (validate_all) + lisans ajanları."
+  },
+  {
+   "code": "D3",
+   "status": "ok",
+   "passed": 334,
+   "required": 334,
+   "reason": "Hash zinciri 334/334; K61 görsel uyuşmazlık ret 0."
+  },
+  {
+   "code": "D4",
+   "status": "ok",
+   "passed": 334,
+   "required": 334,
+   "reason": "Ek hak / yüz sorunlu 0."
+  },
+  {
+   "code": "D5",
+   "status": "partial",
+   "passed": 334,
+   "required": 334,
+   "reason": "Paket içi atıf önizlemesi 334/334 kare doğru (yazar, kaynak, lisans, değişiklik notu, dosya); hedef görünüm (site) K94 önizleme aşamasında."
+  },
+  {
+   "code": "E1",
+   "status": "ok",
+   "passed": 10,
+   "required": 12,
+   "reason": "K08–K16 + K45, K46, K49."
+  },
+  {
+   "code": "E2",
+   "status": "ok",
+   "passed": 1998,
+   "required": 2014,
+   "reason": "16 artık kanıt dosyası (K05 P2)."
+  },
+  {
+   "code": "E3",
+   "status": "ok",
+   "passed": 23,
+   "required": 23,
+   "reason": "Sayfa alanı P0/P1 bulgusu 0."
+  },
+  {
+   "code": "E4",
+   "status": "separate_stage",
+   "reason": "Önizleme ayrı aşama."
+  },
+  {
+   "code": "E5",
+   "status": "partial",
+   "passed": 4,
+   "required": 5,
+   "reason": "Kök Excel, üç klasör, kimlik, sürüm/sayı tutarlılığı; Drive ayrı aşama."
+  }
+ ],
+ "findings": [
+  {
+   "id": "ISS-001",
+   "priority": "P1",
+   "criteria": [
+    "B1"
+   ]
+  },
+  {
+   "id": "ISS-002",
+   "priority": "P1",
+   "criteria": [
+    "B5"
+   ]
+  },
+  {
+   "id": "ISS-003",
+   "priority": "P2",
+   "criteria": [
+    "B1"
+   ]
+  },
+  {
+   "id": "ISS-004",
+   "priority": "P2",
+   "criteria": [
+    "B5"
+   ]
+  },
+  {
+   "id": "ISS-005",
+   "priority": "P2",
+   "criteria": [
+    "B5"
+   ]
+  },
+  {
+   "id": "ISS-006",
+   "priority": "P2",
+   "criteria": [
+    "B2"
+   ]
+  },
+  {
+   "id": "ISS-007",
+   "priority": "P2",
+   "criteria": [
+    "B2",
+    "E1"
+   ]
+  },
+  {
+   "id": "ISS-008",
+   "priority": "P2",
+   "criteria": [
+    "B3"
+   ]
+  },
+  {
+   "id": "ISS-009",
+   "priority": "P2",
+   "criteria": [
+    "A2"
+   ]
+  },
+  {
+   "id": "ISS-010",
+   "priority": "P2",
+   "criteria": [
+    "A2"
+   ]
+  },
+  {
+   "id": "ISS-011",
+   "priority": "P2",
+   "criteria": [
+    "E3"
+   ]
+  },
+  {
+   "id": "ISS-012",
+   "priority": "P2",
+   "criteria": [
+    "E3"
+   ]
+  },
+  {
+   "id": "ISS-013",
+   "priority": "P2",
+   "criteria": [
+    "E3"
+   ]
+  },
+  {
+   "id": "ISS-014",
+   "priority": "P2",
+   "criteria": [
+    "A3"
+   ]
+  },
+  {
+   "id": "ISS-015",
+   "priority": "P2",
+   "criteria": [
+    "A4"
+   ]
+  },
+  {
+   "id": "ISS-016",
+   "priority": "P2",
+   "criteria": [
+    "A3"
+   ]
+  },
+  {
+   "id": "ISS-017",
+   "priority": "P2",
+   "criteria": [
+    "D1"
+   ]
+  },
+  {
+   "id": "ISS-018",
+   "priority": "P2",
+   "criteria": [
+    "D4"
+   ]
+  },
+  {
+   "id": "ISS-019",
+   "priority": "P1",
+   "criteria": [
+    "A4",
+    "A1"
+   ]
+  },
+  {
+   "id": "ISS-020",
+   "priority": "P1",
+   "criteria": [
+    "A4",
+    "A1"
+   ]
+  },
+  {
+   "id": "ISS-021",
+   "priority": "P1",
+   "criteria": [
+    "A4",
+    "A1"
+   ]
+  },
+  {
+   "id": "ISS-022",
+   "priority": "P2",
+   "criteria": [
+    "A4",
+    "A1"
+   ]
+  },
+  {
+   "id": "ISS-023",
+   "priority": "P2",
+   "criteria": [
+    "A3"
+   ]
+  },
+  {
+   "id": "ISS-024",
+   "priority": "P1",
+   "criteria": [
+    "A2",
+    "A1"
+   ]
+  },
+  {
+   "id": "ISS-025",
+   "priority": "P2",
+   "criteria": [
+    "A2",
+    "A1"
+   ]
+  },
+  {
+   "id": "ISS-026",
+   "priority": "P1",
+   "criteria": [
+    "A2",
+    "A1"
+   ]
+  },
+  {
+   "id": "ISS-027",
+   "priority": "P2",
+   "criteria": [
+    "A2",
+    "A1"
+   ]
+  },
+  {
+   "id": "ISS-028",
+   "priority": "P1",
+   "criteria": [
+    "A2",
+    "A1"
+   ]
+  },
+  {
+   "id": "ISS-029",
+   "priority": "P2",
+   "criteria": [
+    "A2",
+    "A1"
+   ]
+  },
+  {
+   "id": "ISS-030",
+   "priority": "P2",
+   "criteria": [
+    "A5"
+   ]
+  },
+  {
+   "id": "ISS-031",
+   "priority": "P1",
+   "criteria": [
+    "A4"
+   ]
+  },
+  {
+   "id": "ISS-032",
+   "priority": "P2",
+   "criteria": [
+    "A4"
+   ]
+  },
+  {
+   "id": "ISS-033",
+   "priority": "P1",
+   "criteria": [
+    "A1"
+   ]
+  },
+  {
+   "id": "ISS-034",
+   "priority": "P1",
+   "criteria": [
+    "A5"
+   ]
+  },
+  {
+   "id": "ISS-035",
+   "priority": "P2",
+   "criteria": [
+    "A5"
+   ]
+  },
+  {
+   "id": "ISS-036",
+   "priority": "P1",
+   "criteria": [
+    "C2"
+   ]
+  },
+  {
+   "id": "ISS-037",
+   "priority": "P2",
+   "criteria": [
+    "C2"
+   ]
+  },
+  {
+   "id": "ISS-038",
+   "priority": "P1",
+   "criteria": [
+    "C2"
+   ]
+  },
+  {
+   "id": "ISS-039",
+   "priority": "P1",
+   "criteria": [
+    "C4"
+   ]
+  },
+  {
+   "id": "ISS-040",
+   "priority": "P1",
+   "criteria": [
+    "B5"
+   ]
+  },
+  {
+   "id": "ISS-041",
+   "priority": "P2",
+   "criteria": [
+    "B5"
+   ]
+  },
+  {
+   "id": "ISS-042",
+   "priority": "P2",
+   "criteria": [
+    "E2"
+   ]
+  },
+  {
+   "id": "ISS-043",
+   "priority": "P2",
+   "criteria": [
+    "E1"
+   ]
+  },
+  {
+   "id": "ISS-044",
+   "priority": "P2",
+   "criteria": [
+    "C4"
+   ]
+  }
+ ],
+ "coverage": {
+  "cards": [
+   436,
+   436
+  ],
+  "photos": [
+   334,
+   334
+  ],
+  "critical_claims": [
+   2418,
+   2418
+  ]
+ }
+}

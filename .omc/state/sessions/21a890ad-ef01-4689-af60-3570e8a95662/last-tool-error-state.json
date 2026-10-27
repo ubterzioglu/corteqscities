@@ -1,7 +1,0 @@
-{
-  "tool_name": "PowerShell",
-  "tool_input_preview": "{\"command\":\"$r='C:\\\\temp_private\\\\corteqs\\\\0000_newera'\\nforeach($p in $r,\\\"$r\\\\corteqs-skills\\\",\\\"$r\\\\ulke\\\",\\\"C:\\\\temp_private\\\\corteqs\\\",\\\"C:\\\\temp_private\\\"){ $o = git -C $p rev-parse --show-tople...",
-  "error": "Exit code 128\nC:\\temp_private\\corteqs\\0000_newera -> C:/temp_private/corteqs/0000_newera\r\nC:\\temp_private\\corteqs\\0000_newera\\corteqs-skills -> C:/temp_private/corteqs/0000_newera\r\nC:\\temp_private\\corteqs\\0000_newera\\ulke -> C:/temp_private/corteqs/0000_newera\r\nC:\\temp_private\\corteqs -> fatal: not a git repository (or any of the parent directories): .git\r\nC:\\temp_private -> fatal: not a git repository (or any of the parent directories): .git\r\n\r\nFullName\r\n--------\r\nC:\\temp_private\\corteqs\\0000_n...",
-  "timestamp": "2026-10-24T19:07:38.796Z",
-  "retry_count": 1
-}

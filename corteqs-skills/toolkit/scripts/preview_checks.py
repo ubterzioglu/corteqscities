@@ -387,6 +387,7 @@ def run_drive(args: argparse.Namespace) -> int:
 # --- warning-scan (K103, K104) ---
 BAND_FIELDS = ("overlay", "status_note", "venue_editorial", "visit_status",  # fotograf ustunde bant ya da rozet
                "hero_kicker", "hero_accent", "hero_note", "photo_credit")  # SayfaAlanlari: kapak fotografinin ustu
+CARD_BAND_FIELDS = BAND_FIELDS[:4]  # kartin fotografi ustundeki bant: dolu her metin K103 (Sevilla S06, 'Açık' dahil)
 K103_FIELDS = (*BAND_FIELDS, "caption")
 K104_FIELDS = ("note", "summary", "subtitle", "steps", "description", "intro", "tagline")
 SCAN_FIELDS = K103_FIELDS + K104_FIELDS
@@ -428,6 +429,28 @@ DATE_FOLDED = re.compile(rf"\b\d{{1,2}} (?:{_MONTHS})\w*")  # gun + ay; tek basi
 STATUS = re.compile(r"\b(?:kapali|kapanis|kapan(?:di|acak|iyor)|tadilat|renovasyon|insaat|rezervasyon|yeniden acil)\w*")
 # yalniz kapanis/tadilat/rezervasyon ailesi: 'bilet' ve 'yenileme' (kayit yenileme de olabilir) somut durum degil
 SENTENCE = re.compile(r"(?<=[.!?])\s+|\n+")
+# K105: gun-ay + istisna, yilsiz ya da gecmis yilli (Sevilla S21: 2024 kongresi yil yazilmadan guncel notta)
+# neden + kisit birlikte: yalniz 'kapali' tatil listesi ('1 Ocak'ta kapali') ve mevsim saatleri bulgu degil (Sevilla: 15/16)
+EXCEPTION_CAUSE = re.compile(r"\b(?:nedeniyle|dolayisiyla|kongre\w*|etkinli\w*|toren\w*)")
+EXCEPTION_LIMIT = re.compile(r"\b(?:kapali\w*|kapan(?:acak|ir|di)\w*|sinirli\w*|yalniz\w*|iptal\w*|ertelen\w*)")
+RECURRING = re.compile(r"\b(?:her yil\w*|her sene\w*|yillik|genellikle|her ay\w*)")
+YEAR = re.compile(r"\b(?:1[0-9]|20)\d{2}\b")
+
+def dated_exception(sentence: str, year: int) -> str | None:
+    """'yilsiz_istisna' | 'gecmis_tarihli_istisna' | None. Yinelenen ('her yil') ve istisnasiz tarih bulgu degil."""
+    folded = fold(sentence)
+    if not (DATE_FOLDED.search(folded) and EXCEPTION_CAUSE.search(folded) and EXCEPTION_LIMIT.search(folded)) \
+            or RECURRING.search(folded):
+        return None
+    years = [int(found) for found in YEAR.findall(folded)]
+    if not years:
+        return "yilsiz_istisna"
+    return "gecmis_tarihli_istisna" if max(years) < year else None
+
+def dated_exceptions(text: str, year: int) -> tuple[list[str], list[str]]:
+    found = [(dated_exception(s, year), s) for s in filter(None, (p.strip() for p in SENTENCE.split(text)))]
+    hits = [(name, s) for name, s in found if name]
+    return list(dict.fromkeys(name for name, _ in hits)), [_clip(s) for _, s in hits]
 
 def sentence_patterns(sentence: str, band: bool = False) -> tuple[list[str], list[str]]:
     """(bulgu, muaf). Bantta muaflik yok, her emir 'bant_emri'; digerinde muaf: gun-ay/tam tarih VE somut durum."""
@@ -481,8 +504,9 @@ def _hit_base(sheet: str, record: dict[str, Any], field: str) -> dict[str, Any]:
     entry = str(record.get("entry_id") or "")
     return {**base, "entry_id": entry} if entry and entry != record_id else base
 
-def scan_records(records: list[tuple[str, dict[str, Any]]]) -> dict[str, Any]:
+def scan_records(records: list[tuple[str, dict[str, Any]]], year: int | None = None) -> dict[str, Any]:
     hits, exempt, bands, values = [], [], [], 0
+    year = year or dt.date.today().year
     for sheet, record in records:
         for field, text in _field_values(sheet, record):
             values += 1
@@ -490,9 +514,14 @@ def scan_records(records: list[tuple[str, dict[str, Any]]]) -> dict[str, Any]:
             if field in BAND_FIELDS and text.strip():
                 bands.append({**base, "value": _clip(text)})
             result = scan_value(text, field in BAND_FIELDS)
-            if result["hits"]:
-                hits.append({**base, "check": "K103" if field in K103_FIELDS else "K104", "patterns": result["hits"],
-                             "sentences": result["hit_sentences"][:3]})
+            card_band = ["kart_bandi"] if field in CARD_BAND_FIELDS and text.strip() else []
+            if result["hits"] or card_band:
+                hits.append({**base, "check": "K103" if field in K103_FIELDS else "K104",
+                             "patterns": result["hits"] + card_band,
+                             "sentences": result["hit_sentences"][:3] or [_clip(text)]})
+            dated, dated_sentences = dated_exceptions(text, year)
+            if dated:
+                hits.append({**base, "check": "K105", "patterns": dated, "sentences": dated_sentences[:3]})
             if result["exempt"]:
                 exempt.append({**base, "patterns": result["exempt"], "sentences": result["exempt_sentences"][:3],
                                "reason": "tarihli somut durum bilgisi (kapanis/rezervasyon/tadilat)"})
@@ -502,7 +531,7 @@ def scan_summary(scan: dict[str, Any], skipped: list[str]) -> dict[str, Any]:
     by_pattern = Counter(name for hit in scan["hits"] for name in hit["patterns"])
     return {"records": scan["records"], "values": scan["values"], "hits": len(scan["hits"]),
             "hit_records": len({(hit["sheet"], hit["row"]) for hit in scan["hits"]}), "exempt": len(scan["exempt"]),
-            "by_check": {check: sum(1 for hit in scan["hits"] if hit["check"] == check) for check in ("K103", "K104")},
+            "by_check": {check: sum(1 for hit in scan["hits"] if hit["check"] == check) for check in ("K103", "K104", "K105")},
             "by_pattern": dict(sorted(by_pattern.items())), "band_values": len(scan["band_values"]),
             "skipped_sheets": skipped, "findings": len(scan["hits"])}
 

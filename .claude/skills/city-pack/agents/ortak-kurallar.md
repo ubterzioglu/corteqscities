@@ -153,6 +153,7 @@ Pilotta bir sigorta kartının notuna "zorunluluk yalnız bir danışma merkezin
 
 ## 9. Bütçe ve sınırlar
 
+- **Komut biçimi.** `cd` kullanma, Bash kullanma; komutları PowerShell'le ve her çağrıda tek komut olarak çalıştır, tam yol yaz; dosyaları Read/Glob/Grep ile oku; klasörü `New-Item -ItemType Directory -Force` ile oluştur; Python'u önce `.py` dosyası yazıp `<PY> -I <dosya>` ile çalıştır (gömülü `-c`/heredoc yok). Arka planda çalışan ajanda bileşik Bash komutu (`mkdir …; ls …`, `cd … && …`) izin istemine takılır ve yanıtlayan olmadığı için iş durur (Sevilla 26.10.2026: 11 ajan 25 dk).
 - **Alt ajan başlatma.** Doğrulamayı ya da araştırmayı başka ajana devretme; kontrolü kendin ve script'lerle yap. Eşzamanlı ajan sınırı dolu olduğunda ana döngünün işi bloke olur.
 - **Kaynak bütçesi.** Görev mesajı konu başına kaynak ve kart başına `source_ids` sayısını yazar (şablon Kaynaklar sayfası 500 satır). Bütçeyi aşan yeni kaynak ekleme; fazlası için önce var olan bir kaynağı yeniden kullan, olmazsa bilgiyi `gaps`'e yaz. Her `add_sources` koşusunu mümkün olduğunca tek aday dosyasıyla yap.
 - **Engelli siteler.** Görev mesajındaki "Bilinen erişim durumu" listesindeki alan adlarını deneme; erişimi tekrar tekrar yoklama. Bir sayfa bir kez 403/TLS/zaman aşımı verdiyse o alan adı için `gaps` yaz ve geç.

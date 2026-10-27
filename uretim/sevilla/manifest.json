@@ -1,693 +1,748 @@
 {
- "schema_version": "1",
- "city": {
-  "city_id": "sevilla",
-  "name": "Sevilla",
-  "country": "İspanya",
-  "city_code": "CITY-107"
- },
- "paths": {
-  "work": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla",
-  "package_root": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\paket",
-  "template_xlsx": "C:\\temp_private\\corteqs\\0000_newera\\ekler_sevilla\\CITY-107_sevilla_v001.xlsx",
-  "tools": "C:\\temp_private\\corteqs\\0000_newera\\araclar\\arac",
-  "delivery_xlsx": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\paket\\CITY-107_sevilla_v001.xlsx",
-  "data_dir": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\data",
-  "snapshots": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\snap",
-  "cache": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\cache",
-  "usage_log": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\phase_log.jsonl"
- },
- "country_pack": {
-  "path": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\ulke_paketi",
-  "valid_until": "2026-11-05"
- },
- "phase": "deliver",
- "phases": {
-  "intake": {
-   "status": "done",
-   "started_at": "2026-10-24T21:13:29Z",
-   "ended_at": "2026-10-24T21:23:07Z",
-   "gates": [
-    {
-     "script": "xlsx_dump",
-     "exit_code": 0,
-     "summary": {
-      "sheets": 16,
-      "missing_sheets": [],
-      "total_rows": 2
-     },
-     "report": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\sablon_dump",
-     "at": "2026-10-24T21:23:07Z"
-    },
-    {
-     "script": "validate_all",
-     "exit_code": 1,
-     "summary": {
-      "structure": {
-       "errors": 8
-      },
-      "note": "yalnız 8 şablon Şehir hatası (delivery_id düzeltmesinden sonra; önce 9)"
-     },
-     "report": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\val_sablon.json",
-     "at": "2026-10-24T21:23:07Z"
-    },
-    {
-     "script": "wikidata_places",
-     "exit_code": 0,
-     "summary": {
-      "items": 1658,
-      "with_site": 251,
-      "with_image": 835,
-      "with_category": 776
-     },
-     "report": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\mekan\\wikidata_aday.jsonl",
-     "at": "2026-10-24T21:23:07Z"
-    },
-    {
-     "script": "pack_merge",
-     "exit_code": 0,
-     "summary": {
-      "cards": 105,
-      "claims": 2045,
-      "actions": 176,
-      "sources": 143
-     },
-     "report": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\ulke_paketi\\pack.json",
-     "at": "2026-10-24T21:23:07Z"
-    },
-    {
-     "script": "fetch_snapshot",
-     "exit_code": 1,
-     "summary": {
-      "urls": 43,
-      "saved": 25,
-      "failed": 18,
-      "thin_text": 5
-     },
-     "report": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\kesif\\erisim_snap\\index.jsonl",
-     "at": "2026-10-24T21:23:07Z"
-    }
-   ],
-   "outputs": [
-    "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\sablon.xlsx",
-    "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\data\\Konular.jsonl",
-    "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\yazar\\ilk5.json",
-    "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\kesif\\KESIF_TALIMAT.md"
-   ]
+  "schema_version": "1",
+  "city": {
+    "city_id": "sevilla",
+    "name": "Sevilla",
+    "country": "İspanya",
+    "city_code": "CITY-107"
   },
-  "sources": {
-   "status": "done",
-   "started_at": "2026-10-24T21:23:18Z",
-   "ended_at": "2026-10-24T21:39:07Z",
-   "gates": [
-    {
-     "script": "add_sources",
-     "exit_code": 1,
-     "summary": {
-      "city_sources_per_topic": {
-       "planlama": 13,
-       "oturum": 7,
-       "resmi": 14,
-       "ev": 13,
-       "fatura": 12,
-       "para": 9,
-       "saglik": 14,
-       "is": 13,
-       "aile": 13,
-       "ulasim": 14,
-       "gunluk": 14,
-       "kesif": 17
-      },
-      "index_total": 279,
-      "country_pack_sources": 143,
-      "rejected": {
-       "oturum": 1,
-       "is": 1,
-       "kesif": 1
-      }
-     },
-     "report": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\kaynak_dizini.jsonl",
-     "at": "2026-10-24T21:39:07Z"
-    }
-   ],
-   "outputs": [
-    "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\yazar\\planlama_kaynaklar.jsonl",
-    "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\yazar\\oturum_kaynaklar.jsonl",
-    "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\yazar\\resmi_kaynaklar.jsonl",
-    "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\yazar\\ev_kaynaklar.jsonl",
-    "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\yazar\\fatura_kaynaklar.jsonl",
-    "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\yazar\\para_kaynaklar.jsonl",
-    "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\yazar\\saglik_kaynaklar.jsonl",
-    "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\yazar\\is_kaynaklar.jsonl",
-    "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\yazar\\aile_kaynaklar.jsonl",
-    "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\yazar\\ulasim_kaynaklar.jsonl",
-    "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\yazar\\gunluk_kaynaklar.jsonl",
-    "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\yazar\\kesif_kaynaklar.jsonl"
-   ]
+  "paths": {
+    "work": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla",
+    "package_root": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\paket",
+    "template_xlsx": "C:\\temp_private\\corteqs\\0000_newera\\ekler_sevilla\\CITY-107_sevilla_v001.xlsx",
+    "tools": "C:\\temp_private\\corteqs\\0000_newera\\araclar\\arac",
+    "delivery_xlsx": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\paket\\CITY-107_sevilla_v001.xlsx",
+    "data_dir": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\data",
+    "snapshots": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\snap",
+    "cache": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\cache",
+    "usage_log": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\phase_log.jsonl"
   },
-  "answers": {
-   "status": "done",
-   "started_at": "2026-10-24T21:40:05Z",
-   "ended_at": "2026-10-25T05:06:03Z",
-   "gates": [
-    {
-     "script": "merge_package",
-     "exit_code": 0,
-     "summary": {
-      "Yanıtlar": 239,
-      "Bağlantılar": 383,
-      "Adımlar": 7,
-      "sources_used": 275,
-      "claims": 3583,
-      "quote_miss": 0,
-      "issues": 0
-     },
-     "report": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\birlestir_rapor.json",
-     "at": "2026-10-24T23:04:40Z"
-    },
-    {
-     "script": "text_quality",
-     "exit_code": 0,
-     "summary": {
-      "findings": 0,
-      "address_findings": 0,
-      "cards_total": 239
-     },
-     "report": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\text_quality.json",
-     "at": "2026-10-24T23:04:40Z"
-    },
-    {
-     "script": "validate_all",
-     "exit_code": 1,
-     "summary": {
-      "structure": {
-       "errors": 8
-      },
-      "note": "yalnız 8 şablon Şehir hatası; asgari eksikler faz 4-5 sekmeleri"
-     },
-     "report": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\val_ara.json",
-     "at": "2026-10-24T23:04:40Z"
-    },
-    {
-     "script": "claim_audit",
-     "exit_code": 0,
-     "summary": {
-      "city_cards": 136,
-      "country_skip": 103,
-      "unaudited": 0,
-      "claims_audited": 569,
-      "dogru": 436,
-      "ciddi": 2,
-      "orta": 45,
-      "hafif": 86,
-      "dogrulama": {
-       "dogru": 140,
-       "duzeltildi": 4
-      }
-     },
-     "report": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\denetim",
-     "at": "2026-10-24T23:04:40Z"
-    },
-    {
-     "script": "duzeltme_turu_L0",
-     "exit_code": 0,
-     "summary": {
-      "Yanıtlar": 240,
-      "Bağlantılar": 529,
-      "merge_issues": 0,
-      "build_rejected": 0,
-      "text_quality_findings": 0,
-      "validate_structure_errors": 0,
-      "denetim": "aile-ek2: 8 iddia, 3 doğru, 5 eksik_koşul (orta 2, hafif 3) editör uyguladı; ciddi 0",
-      "kaynak": "L0 denetimi denetim/sevilla_2026-10-25_L0 ISS-001, ISS-008"
-     },
-     "report": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\denetim\\aile-ek2_degisiklik.jsonl",
-     "at": "2026-10-25T05:06:03Z"
-    }
-   ],
-   "outputs": [
-    "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\data\\Yanıtlar.jsonl",
-    "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\denetim"
-   ]
+  "country_pack": {
+    "path": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\ulke_paketi",
+    "valid_until": "2026-11-05"
   },
-  "places": {
-   "status": "done",
-   "started_at": "2026-10-24T23:05:05Z",
-   "ended_at": "2026-10-25T06:04:01Z",
-   "gates": [
-    {
-     "script": "acik_mi",
-     "exit_code": 0,
-     "summary": {
-      "mekan": 100,
-      "findings": 0,
-      "sil": 1,
-      "kartta_belirt": 7
-     },
-     "report": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\acik_mi_rapor.json",
-     "at": "2026-10-25T01:38:50Z"
-    },
-    {
-     "script": "merge_package",
-     "exit_code": 0,
-     "summary": {
-      "Mekânlar": 100,
-      "Mahalleler": 15,
-      "Rotalar": 12,
-      "Sözlük": 60,
-      "SayfaAlanları": 23,
-      "issues": 0,
-      "quote_miss": 0
-     },
-     "report": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\birlestir_rapor.json",
-     "at": "2026-10-25T01:38:50Z"
-    },
-    {
-     "script": "text_quality",
-     "exit_code": 0,
-     "summary": {
-      "findings": 0
-     },
-     "report": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\text_quality.json",
-     "at": "2026-10-25T01:38:50Z"
-    },
-    {
-     "script": "validate_all",
-     "exit_code": 1,
-     "summary": {
-      "structure": {
-       "errors": 0
-      },
-      "media": {
-       "errors": 0
-      },
-      "minimum_gaps": [
-       "photos",
-       "hero_photos"
+  "phase": "deliver",
+  "phases": {
+    "intake": {
+      "status": "done",
+      "started_at": "2026-10-24T21:13:29Z",
+      "ended_at": "2026-10-24T21:23:07Z",
+      "gates": [
+        {
+          "script": "xlsx_dump",
+          "exit_code": 0,
+          "summary": {
+            "sheets": 16,
+            "missing_sheets": [],
+            "total_rows": 2
+          },
+          "report": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\sablon_dump",
+          "at": "2026-10-24T21:23:07Z"
+        },
+        {
+          "script": "validate_all",
+          "exit_code": 1,
+          "summary": {
+            "structure": {
+              "errors": 8
+            },
+            "note": "yalnız 8 şablon Şehir hatası (delivery_id düzeltmesinden sonra; önce 9)"
+          },
+          "report": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\val_sablon.json",
+          "at": "2026-10-24T21:23:07Z"
+        },
+        {
+          "script": "wikidata_places",
+          "exit_code": 0,
+          "summary": {
+            "items": 1658,
+            "with_site": 251,
+            "with_image": 835,
+            "with_category": 776
+          },
+          "report": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\mekan\\wikidata_aday.jsonl",
+          "at": "2026-10-24T21:23:07Z"
+        },
+        {
+          "script": "pack_merge",
+          "exit_code": 0,
+          "summary": {
+            "cards": 105,
+            "claims": 2045,
+            "actions": 176,
+            "sources": 143
+          },
+          "report": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\ulke_paketi\\pack.json",
+          "at": "2026-10-24T21:23:07Z"
+        },
+        {
+          "script": "fetch_snapshot",
+          "exit_code": 1,
+          "summary": {
+            "urls": 43,
+            "saved": 25,
+            "failed": 18,
+            "thin_text": 5
+          },
+          "report": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\kesif\\erisim_snap\\index.jsonl",
+          "at": "2026-10-24T21:23:07Z"
+        }
+      ],
+      "outputs": [
+        "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\sablon.xlsx",
+        "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\data\\Konular.jsonl",
+        "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\yazar\\ilk5.json",
+        "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\kesif\\KESIF_TALIMAT.md"
       ]
-     },
-     "report": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\val_ara.json",
-     "at": "2026-10-25T01:38:50Z"
     },
-    {
-     "script": "duzeltme_turu_L0",
-     "exit_code": 0,
-     "summary": {
-      "Mekânlar": 120,
-      "Mahalleler": 16,
-      "merge_issues": 0,
-      "build_rejected": 0,
-      "text_quality_findings": 0,
-      "validate_structure_errors": 0,
-      "acik_mi_findings": 0,
-      "yeni_mekan": 20,
-      "silinen": "espacio-eslava (ele geçirilmiş site)",
-      "koordinat_eklenen": 25,
-      "collection_hayir": 12,
-      "denetim": "mekan5 39 iddia (orta 1, hafif 8), mekan6 44 iddia (orta 3, hafif 8), mahalle2 8 iddia (orta 2, hafif 2); ciddi 0; doğrulayıcı 30/31 doğru"
-     },
-     "report": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\acik_mi_rapor.json",
-     "at": "2026-10-25T06:04:01Z"
+    "sources": {
+      "status": "done",
+      "started_at": "2026-10-24T21:23:18Z",
+      "ended_at": "2026-10-24T21:39:07Z",
+      "gates": [
+        {
+          "script": "add_sources",
+          "exit_code": 1,
+          "summary": {
+            "city_sources_per_topic": {
+              "planlama": 13,
+              "oturum": 7,
+              "resmi": 14,
+              "ev": 13,
+              "fatura": 12,
+              "para": 9,
+              "saglik": 14,
+              "is": 13,
+              "aile": 13,
+              "ulasim": 14,
+              "gunluk": 14,
+              "kesif": 17
+            },
+            "index_total": 279,
+            "country_pack_sources": 143,
+            "rejected": {
+              "oturum": 1,
+              "is": 1,
+              "kesif": 1
+            }
+          },
+          "report": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\kaynak_dizini.jsonl",
+          "at": "2026-10-24T21:39:07Z"
+        }
+      ],
+      "outputs": [
+        "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\yazar\\planlama_kaynaklar.jsonl",
+        "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\yazar\\oturum_kaynaklar.jsonl",
+        "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\yazar\\resmi_kaynaklar.jsonl",
+        "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\yazar\\ev_kaynaklar.jsonl",
+        "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\yazar\\fatura_kaynaklar.jsonl",
+        "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\yazar\\para_kaynaklar.jsonl",
+        "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\yazar\\saglik_kaynaklar.jsonl",
+        "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\yazar\\is_kaynaklar.jsonl",
+        "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\yazar\\aile_kaynaklar.jsonl",
+        "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\yazar\\ulasim_kaynaklar.jsonl",
+        "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\yazar\\gunluk_kaynaklar.jsonl",
+        "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\yazar\\kesif_kaynaklar.jsonl"
+      ]
+    },
+    "answers": {
+      "status": "done",
+      "started_at": "2026-10-24T21:40:05Z",
+      "ended_at": "2026-10-27T00:09:33Z",
+      "gates": [
+        {
+          "script": "merge_package",
+          "exit_code": 0,
+          "summary": {
+            "Yanıtlar": 239,
+            "Bağlantılar": 383,
+            "Adımlar": 7,
+            "sources_used": 275,
+            "claims": 3583,
+            "quote_miss": 0,
+            "issues": 0
+          },
+          "report": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\birlestir_rapor.json",
+          "at": "2026-10-24T23:04:40Z"
+        },
+        {
+          "script": "text_quality",
+          "exit_code": 0,
+          "summary": {
+            "findings": 0,
+            "address_findings": 0,
+            "cards_total": 239
+          },
+          "report": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\text_quality.json",
+          "at": "2026-10-24T23:04:40Z"
+        },
+        {
+          "script": "validate_all",
+          "exit_code": 1,
+          "summary": {
+            "structure": {
+              "errors": 8
+            },
+            "note": "yalnız 8 şablon Şehir hatası; asgari eksikler faz 4-5 sekmeleri"
+          },
+          "report": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\val_ara.json",
+          "at": "2026-10-24T23:04:40Z"
+        },
+        {
+          "script": "claim_audit",
+          "exit_code": 0,
+          "summary": {
+            "city_cards": 136,
+            "country_skip": 103,
+            "unaudited": 0,
+            "claims_audited": 569,
+            "dogru": 436,
+            "ciddi": 2,
+            "orta": 45,
+            "hafif": 86,
+            "dogrulama": {
+              "dogru": 140,
+              "duzeltildi": 4
+            }
+          },
+          "report": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\denetim",
+          "at": "2026-10-24T23:04:40Z"
+        },
+        {
+          "script": "duzeltme_turu_L0",
+          "exit_code": 0,
+          "summary": {
+            "Yanıtlar": 240,
+            "Bağlantılar": 529,
+            "merge_issues": 0,
+            "build_rejected": 0,
+            "text_quality_findings": 0,
+            "validate_structure_errors": 0,
+            "denetim": "aile-ek2: 8 iddia, 3 doğru, 5 eksik_koşul (orta 2, hafif 3) editör uyguladı; ciddi 0",
+            "kaynak": "L0 denetimi denetim/sevilla_2026-10-25_L0 ISS-001, ISS-008"
+          },
+          "report": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\denetim\\aile-ek2_degisiklik.jsonl",
+          "at": "2026-10-25T05:06:03Z"
+        }
+      ],
+      "outputs": [
+        "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\data\\Yanıtlar.jsonl",
+        "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\denetim"
+      ]
+    },
+    "places": {
+      "status": "done",
+      "started_at": "2026-10-24T23:05:05Z",
+      "ended_at": "2026-10-25T20:29:29Z",
+      "gates": [
+        {
+          "script": "acik_mi",
+          "exit_code": 0,
+          "summary": {
+            "mekan": 100,
+            "findings": 0,
+            "sil": 1,
+            "kartta_belirt": 7
+          },
+          "report": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\acik_mi_rapor.json",
+          "at": "2026-10-25T01:38:50Z"
+        },
+        {
+          "script": "merge_package",
+          "exit_code": 0,
+          "summary": {
+            "Mekânlar": 100,
+            "Mahalleler": 15,
+            "Rotalar": 12,
+            "Sözlük": 60,
+            "SayfaAlanları": 23,
+            "issues": 0,
+            "quote_miss": 0
+          },
+          "report": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\birlestir_rapor.json",
+          "at": "2026-10-25T01:38:50Z"
+        },
+        {
+          "script": "text_quality",
+          "exit_code": 0,
+          "summary": {
+            "findings": 0
+          },
+          "report": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\text_quality.json",
+          "at": "2026-10-25T01:38:50Z"
+        },
+        {
+          "script": "validate_all",
+          "exit_code": 1,
+          "summary": {
+            "structure": {
+              "errors": 0
+            },
+            "media": {
+              "errors": 0
+            },
+            "minimum_gaps": [
+              "photos",
+              "hero_photos"
+            ]
+          },
+          "report": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\val_ara.json",
+          "at": "2026-10-25T01:38:50Z"
+        },
+        {
+          "script": "duzeltme_turu_L0",
+          "exit_code": 0,
+          "summary": {
+            "Mekânlar": 120,
+            "Mahalleler": 16,
+            "merge_issues": 0,
+            "build_rejected": 0,
+            "text_quality_findings": 0,
+            "validate_structure_errors": 0,
+            "acik_mi_findings": 0,
+            "yeni_mekan": 20,
+            "silinen": "espacio-eslava (ele geçirilmiş site)",
+            "koordinat_eklenen": 25,
+            "collection_hayir": 12,
+            "denetim": "mekan5 39 iddia (orta 1, hafif 8), mekan6 44 iddia (orta 3, hafif 8), mahalle2 8 iddia (orta 2, hafif 2); ciddi 0; doğrulayıcı 30/31 doğru"
+          },
+          "report": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\acik_mi_rapor.json",
+          "at": "2026-10-25T06:04:01Z"
+        }
+      ],
+      "outputs": [
+        "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\data\\parcalar"
+      ]
+    },
+    "photos": {
+      "status": "done",
+      "started_at": "2026-10-25T01:38:50Z",
+      "ended_at": "2026-10-27T00:36:18Z",
+      "gates": [
+        {
+          "script": "photo_rows",
+          "exit_code": 0,
+          "summary": {
+            "photos": 258,
+            "Mekân": 250,
+            "Kapak": 8,
+            "entries_with_photo": 91,
+            "missing_download": 0
+          },
+          "report": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\foto\\rows_rapor.json",
+          "at": "2026-10-25T02:17:47Z"
+        },
+        {
+          "script": "validate_all",
+          "exit_code": 0,
+          "summary": {
+            "structure": {
+              "errors": 0
+            },
+            "media": {
+              "errors": 0
+            },
+            "minimum_gaps": {}
+          },
+          "report": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\val_ara.json",
+          "at": "2026-10-25T02:17:47Z"
+        },
+        {
+          "script": "duzeltme_turu_L0",
+          "exit_code": 0,
+          "summary": {
+            "turlar": "ek3 (24 fotoğrafsız kayıt, 268 aday), ek4 (21 yeni mekân + 1 mahalle, 302 aday)",
+            "inceleme": "ana döngü (8 pafta), ikinci göz yok",
+            "secim": {
+              "venue_photos": 305,
+              "covers": 8,
+              "entries_with_photo": 118,
+              "entries_without": 19
+            },
+            "photo_rows": {
+              "photos": 313,
+              "missing_download": 0,
+              "ters_bolu": 0
+            },
+            "download": "geçici paket + .download-cache, 4. denemede tamam (Windows PermissionError)"
+          },
+          "report": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\foto\\rows_rapor.json",
+          "at": "2026-10-25T06:16:53Z"
+        }
+      ],
+      "outputs": [
+        "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\foto\\selected.jsonl"
+      ]
+    },
+    "assemble": {
+      "status": "done",
+      "started_at": "2026-10-25T02:17:47Z",
+      "ended_at": "2026-10-27T00:37:19Z",
+      "gates": [
+        {
+          "script": "merge_package",
+          "exit_code": 0,
+          "summary": {
+            "issues": 0,
+            "quote_miss": 0
+          },
+          "report": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\birlestir_rapor.json",
+          "at": "2026-10-25T02:25:16Z"
+        },
+        {
+          "script": "build_xlsx",
+          "exit_code": 0,
+          "summary": {
+            "rejected": 0
+          },
+          "report": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\build_final.json",
+          "at": "2026-10-25T02:25:16Z"
+        },
+        {
+          "script": "validate_all",
+          "exit_code": 0,
+          "summary": {
+            "structure": {
+              "errors": 0
+            },
+            "media": {
+              "errors": 0
+            },
+            "minimum_gaps": {}
+          },
+          "report": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\validation.json",
+          "at": "2026-10-25T02:25:16Z"
+        },
+        {
+          "script": "text_quality",
+          "exit_code": 0,
+          "summary": {
+            "findings": 0
+          },
+          "report": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\text_quality_final.json",
+          "at": "2026-10-25T02:25:16Z"
+        },
+        {
+          "script": "url_check",
+          "exit_code": 1,
+          "summary": {
+            "tested": 416,
+            "calisiyor": 416,
+            "bozuk": 0,
+            "homepage_only": 14
+          },
+          "report": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\url_check_final.json",
+          "at": "2026-10-25T02:25:16Z"
+        },
+        {
+          "script": "duzeltme_turu_L0",
+          "exit_code": 0,
+          "summary": {
+            "merge_issues": 0,
+            "build_rejected": 0,
+            "validate": {
+              "structure_errors": 0,
+              "media_errors": 0,
+              "minimum_gaps": {}
+            },
+            "text_quality_findings": 0,
+            "url": {
+              "unique": 446,
+              "bozuk": 0,
+              "homepage_only": 18,
+              "cross_host_redirect": 4
+            },
+            "claim_number_not_in_source": 460
+          },
+          "report": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\validation.json",
+          "at": "2026-10-25T06:18:08Z"
+        }
+      ],
+      "outputs": [
+        "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\paket\\CITY-107_sevilla_v001.xlsx"
+      ]
+    },
+    "deliver": {
+      "status": "done",
+      "started_at": "2026-10-25T02:25:16Z",
+      "ended_at": "2026-10-27T00:38:04Z",
+      "gates": [
+        {
+          "script": "validate_all",
+          "exit_code": 0,
+          "summary": {
+            "mode": "emit",
+            "structure": {
+              "errors": 0
+            },
+            "media": {
+              "errors": 0
+            }
+          },
+          "report": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\validation_emit.json",
+          "at": "2026-10-25T02:27:37Z"
+        },
+        {
+          "script": "inventory",
+          "exit_code": 0,
+          "summary": {
+            "missing": 0,
+            "sha_mismatch": 0,
+            "bad_ext": 0,
+            "ext_mismatch": 0
+          },
+          "report": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\dosya-envanteri.json",
+          "at": "2026-10-25T02:27:37Z"
+        },
+        {
+          "script": "render_summary",
+          "exit_code": 1,
+          "summary": {
+            "verdict": "DÜZELTME GEREKLİ",
+            "blocking": 2,
+            "neden": "fotoğrafsız 19 mekân + 5 mahalle (OI-014)"
+          },
+          "report": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\paket\\Teslimler\\TESLIM_OZETI.txt",
+          "at": "2026-10-25T02:27:37Z"
+        },
+        {
+          "script": "duzeltme_turu_L0",
+          "exit_code": 0,
+          "summary": {
+            "emit": 0,
+            "files": 1712,
+            "total_mb": 332.79,
+            "dup_sha": 32,
+            "render_summary": "DÜZELTME GEREKLİ (1 engelleyici: fotoğrafsız 18 mekân; 2 bilgi)",
+            "targets": "8/8 hedef karşılandı"
+          },
+          "report": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\paket\\Teslimler\\TESLIM_OZETI.txt",
+          "at": "2026-10-25T06:19:07Z"
+        }
+      ]
     }
-   ],
-   "outputs": [
-    "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\data\\parcalar"
-   ]
   },
-  "photos": {
-   "status": "done",
-   "started_at": "2026-10-25T01:38:50Z",
-   "ended_at": "2026-10-25T06:16:53Z",
-   "gates": [
+  "sources_researched": 610,
+  "next_step": "Bağımsız L0 (27.10.2026, denetim\\sevilla_2026-10-27_L0) sonucuna bak; sonra Drive yükleme + city-preview (D5 görünür atıf, E4 web; kanıt modelinin son 5 puanı) ve yeni oturumda city-audit L1 (içerik yüzdesi). L1 %95 altında kalırsa ertelenen 36 kartın K26 eksikleri (OI-033) ayrı tur.",
+  "open_items": [
     {
-     "script": "photo_rows",
-     "exit_code": 0,
-     "summary": {
-      "photos": 258,
-      "Mekân": 250,
-      "Kapak": 8,
-      "entries_with_photo": 91,
-      "missing_download": 0
-     },
-     "report": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\foto\\rows_rapor.json",
-     "at": "2026-10-25T02:17:47Z"
+      "id": "OI-029",
+      "priority": "P2",
+      "owner": "insan",
+      "text": "TUSSAM şehir otobüsü ve Metrocentro tramvayı tek yolculuk ve Tarjeta Multiviaje ücreti, işletmecinin kendi kanalı (K26, K31): tussam.es bu ağdan 403. 2026 tarifesi BOP Sevilla'da PDF olarak yayımlanmış (bopsevilla.dipusevilla.es, dosya firmado-1785279627416-final-3f7ff780.pdf) ama araç kutusu PDF metnini çıkaramadığı için kaynak yapılamadı. İnsan: tutarlar BOP PDF'inden eklenebilir.",
+      "evidence": "uretim\\sevilla\\_is\\denetim\\ulasim-d12_degisiklik.jsonl; uretim\\sevilla\\_is\\notlar_skill.md"
     },
     {
-     "script": "validate_all",
-     "exit_code": 0,
-     "summary": {
-      "structure": {
-       "errors": 0
-      },
-      "media": {
-       "errors": 0
-      },
-      "minimum_gaps": {}
-     },
-     "report": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\val_ara.json",
-     "at": "2026-10-25T02:17:47Z"
+      "id": "OI-030",
+      "priority": "P2",
+      "owner": "insan",
+      "text": "Cartuja düşük emisyon bölgesi (ZBE) rejimi (hangi etiket, saat, başlangıç, 2026 durumu): BOP ilanı PDF; kart 2024 ilanını tarihiyle yazıyor.",
+      "evidence": "uretim\\sevilla\\_is\\denetim\\ulasim-d12_degisiklik.jsonl"
     },
     {
-     "script": "duzeltme_turu_L0",
-     "exit_code": 0,
-     "summary": {
-      "turlar": "ek3 (24 fotoğrafsız kayıt, 268 aday), ek4 (21 yeni mekân + 1 mahalle, 302 aday)",
-      "inceleme": "ana döngü (8 pafta), ikinci göz yok",
-      "secim": {
-       "venue_photos": 305,
-       "covers": 8,
-       "entries_with_photo": 118,
-       "entries_without": 19
-      },
-      "photo_rows": {
-       "photos": 313,
-       "missing_download": 0,
-       "ters_bolu": 0
-      },
-      "download": "geçici paket + .download-cache, 4. denemede tamam (Windows PermissionError)"
-     },
-     "report": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\foto\\rows_rapor.json",
-     "at": "2026-10-25T06:16:53Z"
+      "id": "OI-031",
+      "priority": "P2",
+      "owner": "insan",
+      "text": "Mavi bölge cezasına itiraz (Gestión de Sanciones) kanalı, belgesi ve süresi: sevilla.org erişilemez.",
+      "evidence": "uretim\\sevilla\\_is\\denetim\\ulasim-d12_degisiklik.jsonl"
+    },
+    {
+      "id": "OI-032",
+      "priority": "P2",
+      "owner": "ai",
+      "text": "Havalimanı ve Santa Justa OIT-Andalucía danışma noktalarının saatleri işletmeci Junta'nın kaynağında yok, karttan çıkarıldı; Feria de Abril 2027 tarihi resmî kaynakta yok.",
+      "evidence": "uretim\\sevilla\\_is\\denetim\\planlama-d12_degisiklik.jsonl"
+    },
+    {
+      "id": "OI-037",
+      "priority": "P2",
+      "owner": "insan",
+      "text": "Üç mekânın kaynağı hâlâ femas.es (Sevilla Belediyesi içeriği, festival alan adında): parque-de-san-jeronimo (sevilla:kaynak:621, tek kaynak), monasterio-de-san-jeronimo-de-buenavista (595; öteki kaynak 603 yalnız adres veriyor), jardines-de-cristina (597, tek kaynak). sevilla.org bu ağdan açılmadığı için aynı bilgiyi veren resmî sayfa ya da tarihli haber bulunamadı (IAPH Guía Digital metni JavaScript ile yükleniyor). Bu turda parque-magallanes (Junta park sayfası ve Visita Sevilla) ve parque-de-los-bermejales (OI-036) femas.es'ten çıkarıldı. İnsan kararı: sevilla.org erişilince kaynakları değiştir ya da mekânları çıkar.",
+      "evidence": "uretim\\sevilla\\_is\\denetim\\mekan3-d12_degisiklik.jsonl; mekan6-d12_degisiklik.jsonl; mekan7-d12_degisiklik.jsonl"
+    },
+    {
+      "id": "OI-034",
+      "priority": "P2",
+      "owner": "ai",
+      "text": "Kaynaklar sekmesi 499/500. Bu turda 515'ten indirildi: iddiası kaydın öteki kaynağında birebir geçen kaynaklar taşındı; ana bilgi olmayan ayrıntılar mekân özetlerinden çıktı (ör. CAAC sergi tarihleri, Maestranza salon kapasitesi, Cartuja Center kuruluş tarihi ve salon kapasitesi; eski değerler değişiklik kayıtlarında, bulgu_claim_id \"kapasite\"). Bağımsız doğrulayıcı 23 boşaltmayı denetledi; ana bilgisi giden Palacio Bucarelli tanıtımı geri getirildi. Teatro de la Maestranza'nın tek bağlantısı spain.info (Turespaña) sayfasına gidiyor (resmî site kaynağı kapasite nedeniyle geri alınamadı); Guadalquivir kaydının seyir bilgileri çıktı, başlığı \"Muelle de las Delicias\" olarak daraltıldı; Parque Magallanes'in yüzölçümü, pergola ve kano tesisi bilgisi resmî kaynakta bulunamadığı için çıktı.",
+      "evidence": "uretim\\sevilla\\_is\\denetim\\kapasite-d12_dogrulama.jsonl; uretim\\sevilla\\_is\\birlestir_rapor.json"
+    },
+    {
+      "id": "OI-035",
+      "priority": "P2",
+      "owner": "insan",
+      "text": "K108 (alt nesne) iki çift: parque-de-san-jeronimo ile huevo-de-colon (anıt parkın içinde) ve estadio-benito-villamarin-tur ile estadio-la-cartuja (tur kaydı La Cartuja'nın koordinatı ve adresiyle). 120 mekân hedefi için kartlar silinmedi; metinler ayrıştırıldı. Karar: birleştirilsin mi, yerine yeni mekân mı?",
+      "evidence": "uretim\\sevilla\\_is\\denetim\\mekan3-d12_dogrulama.jsonl"
+    },
+    {
+      "id": "OI-038",
+      "priority": "P2",
+      "owner": "ai",
+      "text": "d13 bağımsız denetiminden sonra açık kalan orta/hafif bulgular (yanlış ve çelişkili olanlar hedefli düzeltmeyle kapatıldı): çoğu erişilemeyen resmî kaynaktan (belediye, TUSSAM) eksik koşul ya da kaynak yetersizliği; mekân bilgisi turizm portalına dayanan plaza-de-america ve teatro-de-la-maestranza; tek haber kaynaklı parque-de-los-bermejales; ziyaret bilgisi olmayan monasterio-de-san-jeronimo-de-buenavista; santa-marina'da yılsız kapanış istisnası; kamu sağlık kartında convenio especial yolunun yeri/belgesi; kreş başvurusunda yüz yüze başvuru yeri; Sevici güvenli bisiklet parkı kullanımı turizm portalından; scooter kartında Sevilla yerel kuralı yok; TUSSAM kartı öteki kartları tekrar ediyor. Ayrıntı _is\\denetim\\*-d13_iddia.jsonl ve *-d13_karar.jsonl.",
+      "evidence": "uretim\\sevilla\\_is\\notlar.md"
+    },
+    {
+      "id": "OI-036",
+      "priority": "P2",
+      "owner": "insan",
+      "text": "parque-de-los-bermejales (d11'de eklendi): kartın tek kaynağı ve açık kanıtı yerel yayın vivirediciones.es (19.10.2026, yolların yenilenmesi); sayfa içeriğin yapay zekâ desteğiyle doğrulanmış kaynaklardan hazırlandığını yazıyor; belediye kaynağı yok (sevilla.org erişilemez). İnsan kararı: kaynak yeterli mi?",
+      "evidence": "uretim\\sevilla\\_is\\acik_mi\\ek5_d12.jsonl"
+    },
+    {
+      "id": "OI-033",
+      "priority": "P2",
+      "owner": "ai",
+      "text": "Kullanıcı kararıyla bu tur 15 P1 ve script'le kapanan P2'lerle sınırlandı; 24 P2 ertelendi, gerekçeleri _is\\duzeltme_kararlari.jsonl'de. En büyükleri: 36 kartta kaynakta olmayan K26 öğesi (ISS-027), 47 kaynağın ana sayfa ya da yönlenen adresi (ISS-016), 27 kaynakta K35 (ISS-015), 25 kartta küçük tekrar (ISS-035), 10 rotada gözlem (ISS-008), 10 mekânda K42 (ISS-004), 6 mahallede K44 (ISS-006), 10 kaynakta K30 (ISS-014), 8 karede K74 ve 5 karede K71 lisans notu (ISS-018, ISS-017), Şehir ve sayfa alanlarında K29/K90/K91 (ISS-011–013), auditorio-cartuja-sevilla-01 karesi (ISS-037), 4 mekânda tarihli durum notu (ISS-041), C4 görsel kalite kanıtı (ISS-044; dikey karelerin kırpması önizlemede ölçülür).",
+      "evidence": "uretim\\sevilla\\_is\\duzeltme_kararlari.jsonl; denetim\\sevilla_2026-10-26_L1\\issues.json"
+    },
+    {
+      "id": "OI-001",
+      "priority": "P1",
+      "owner": "insan",
+      "text": "Sevilla Belediyesi sitesi (sevilla.org, sede.sevilla.org) bu ağdan zaman aşımı veriyor; belediye işlemleri ve mahalle bilgisi yan resmî kaynaklardan (Junta, Diputación, belediye kurumları; ör. Gerencia de Urbanismo) alındı. Erişim teyidi açık.",
+      "evidence": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\kesif\\erisim_snap\\index.jsonl"
+    },
+    {
+      "id": "OI-003",
+      "priority": "P2",
+      "owner": "insan",
+      "text": "lipasam.es ve aena.es TLS sertifika hatası, hospitaluvirgenrocio.es ve clicsalud.es DNS yok; sertifika doğrulaması kapatılmadı (kural 8).",
+      "evidence": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\kesif\\erisim_snap\\index.jsonl"
+    },
+    {
+      "id": "OI-004",
+      "priority": "P2",
+      "owner": "atinc",
+      "text": "Atınç şablonunda delivery_id büyük harfli (CITY-107-v001): resmî doğrulayıcı reddediyor. Yalnız _is\\sablon.xlsx kopyasında city-107-v001 yapıldı (yedek _is\\sablon_orijinal_kopya.xlsx).",
+      "evidence": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\val_sablon.json"
+    },
+    {
+      "id": "OI-005",
+      "priority": "P2",
+      "owner": "atinc",
+      "text": "Bilgi: Şehir.priority alanının anlamı sözleşmede tanımsız (3 yazılır); source_url (Kapsam kaynağı) Atınç şablonunda InterNations listesi, anlamı sorulacak.",
+      "evidence": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\sablon_dump\\Şehir.jsonl"
+    },
+    {
+      "id": "OI-006",
+      "priority": "P2",
+      "owner": "ai",
+      "text": "Bilgi: ülke paketi (ES v9 + Andalucía v2) kullanıldı; 6 kira kartının geçerliliği 2026-11-05'te, 8 kartın 2026-12-31'de bitiyor.",
+      "evidence": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\ulke_paketi\\pack.json"
+    },
+    {
+      "id": "OI-008",
+      "priority": "P2",
+      "owner": "insan",
+      "text": "Kaynağı erişilemeyen sitede kaldığı için cevapsız ya da kısmen cevaplı ilk sorular: Sevilla nüfus kaydı ofisi/randevusu; Sevilla şehri IBI ve araç vergisi ödeme yolu; çöp vergisinin tahsili; elektrik dağıtıcı ve arıza hattı; Sevilla fahri başkonsolosluk adresi; mahalleye göre kira; ücretsiz İspanyolca kursu; belediye kütüphane şubeleri; DGT il müdürlüğü adresi (TUSSAM, ZBE ve mavi bölge için OI-029–031).",
+      "evidence": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\kesif\\EK_KAYNAK_GOREV.md"
+    },
+    {
+      "id": "OI-009",
+      "priority": "P2",
+      "owner": "ai",
+      "text": "Bağımsız denetimin hafif bulgularından editörün kaynakla kapatamadığı notlar (ör. EMVISESA iki sayfa çelişkisi, SAS randevu iki görüş, Katedral işsiz indirimi kapsamı) kartlarda atıflı bırakıldı.",
+      "evidence": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\denetim"
+    },
+    {
+      "id": "OI-011",
+      "priority": "P2",
+      "owner": "insan",
+      "text": "Açık-mı kapısı temiz (bulgu 0, 120 mekân). Tarama satırlarında 76 açık, 73 belirsiz (çoğu kamusal alan ve kilise: tarihli açık kanıtı da kapanış kanıtı da yok), 5 geçici kapalı, 1 inşaat, 1 kapalı, 1 taşındı; 10 kartta tarihli not. Bu turda Fibes ve Parque de los Bermejales tarandı, 5 mekânın kanıtı kartın kaynaklarına bağlandı. Pabellón de la Navegación iki kaynakla silinmişti (Junta dili \"geçici\").",
+      "evidence": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\acik_mi_rapor.json"
+    },
+    {
+      "id": "OI-012",
+      "priority": "P2",
+      "owner": "atinc",
+      "text": "Atınç'ın download_media.py aracı Windows'ta ilerleme dosyasını yerine yazamıyor (PermissionError, os.replace); geçici klasörde tekrarlanan koşularla aşıldı, araç değiştirilmedi.",
+      "evidence": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\notlar_skill.md"
+    },
+    {
+      "id": "OI-013",
+      "priority": "P2",
+      "owner": "ai",
+      "text": "Üç kaydın tek kaynağı ana sayfa: casa-de-la-guitarra (casadelaguitarra.es, JS), indoor-minigolf-sevilla (minigolfsevilla.com), Sözlük AUSSA terimi (aussa.es); derin resmî sayfa bulunamadı.",
+      "evidence": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\url_check_final.json",
+      "check_id": "K30"
+    },
+    {
+      "id": "OI-016",
+      "priority": "P2",
+      "owner": "ai",
+      "text": "L0 ISS-007: 13 collection=Evet kaydının 12'si Hayır yapıldı (bağımsız adresli müze ve tesisler); museo-taurino-real-maestranza Evet kaldı (plaza-de-toros-de-la-maestranza kaydının içindeki müze).",
+      "evidence": "_is\\denetim\\duzeltme_L0_degisiklik.jsonl",
+      "check_id": "K108"
+    },
+    {
+      "id": "OI-017",
+      "priority": "P2",
+      "owner": "atinc",
+      "text": "8 kapak karesi mekân karesiyle aynı Commons dosyası olduğu için photo_rows her ikisine ayrı kaynak/lisans kanıt JSON'u yazıyor (bayt bayt aynı dosyalar, envanterde dup_sha). İşlevi bozmaz; araç kutusu değiştirilmedi.",
+      "evidence": "denetim\\sevilla_2026-10-25_L0\\issues.json (ISS-005); _is\\notlar_skill.md",
+      "check_id": "K05"
+    },
+    {
+      "id": "OI-018",
+      "priority": "P2",
+      "owner": "ai",
+      "text": "Espacio Eslava paketten çıkarıldı: tek kaynağı ve bağlantısı olan espacioeslava.com ele geçirilmiş (kumar/Rusça reklam metinleri); açık-mı doğrulayıcısı faal olduğuna dair resmî kanıt bulamadı.",
+      "evidence": "_is\\denetim\\duzeltme_L0_degisiklik.jsonl; _is\\acik_mi\\ek2g_dogrulama.jsonl",
+      "check_id": "K49"
+    },
+    {
+      "id": "OI-020",
+      "priority": "P2",
+      "owner": "insan",
+      "text": "Açık-mı yeni mekânlar (25.10): 21 mekânın 15'i açık (2025–2026 tarihli faaliyet), 6'sı belirsiz (Cervecería Giralda, Parque Magallanes, Cartuja Qanat, Archivo Histórico Provincial, Monasterio de San Jerónimo, Muelle de la Sal zayıf kanıt). Yeni kayıtların açık kanıtlarının çoğu planomato.com etkinlik ajandasından.",
+      "evidence": "_is\\acik_mi\\ek2g.jsonl, ek2h.jsonl, *_dogrulama.jsonl; _is\\acik_mi_rapor.json",
+      "check_id": "K39"
+    },
+    {
+      "id": "OI-021",
+      "priority": "P2",
+      "owner": "insan",
+      "text": "hospital-de-los-venerables: binanın kilisesi Cabildo Catedral duyurusuyla 30 Haziran 2026'ya kadar ücretsiz açıktı; bugünkü ziyaret durumu resmî kaynakta yok; kart tarihli notla ve \"Tarih ve mimari\" grubunda tutuldu. İnsan kararı: okur değeri düşükse kaydı çıkar (yerine doğrulanmış yedek).",
+      "evidence": "_is\\acik_mi\\ek2h_dogrulama.jsonl; _is\\denetim\\acik_mi_degisiklik.jsonl",
+      "check_id": "K39"
+    },
+    {
+      "id": "OI-024",
+      "priority": "P2",
+      "owner": "ai",
+      "text": "K26/K31/K40 öğesi kaynakta bulunamayan kartlar (yazılmadı, dolgu konmadı): başlıca Sevilla Belediyesi ofis adresleri ve ücretleri (sevilla.org erişilemez: Padrón, sosyal hizmet merkezleri, IVTM), taksi tarifesi, Lipasam toplama saatleri, konsolosluk harç tutarları, bazı başvurularda karar süresi.",
+      "evidence": "uretim\\sevilla\\_is\\denetim\\*-d2_degisiklik.jsonl, *-d2_karar.jsonl",
+      "check_id": "K26"
+    },
+    {
+      "id": "OI-025",
+      "priority": "P2",
+      "owner": "ai",
+      "text": "Fotoğraf: Openverse/Europeana ikinci kaynakları ~6 saat bekletme nedeniyle denenemedi; Plaza de Santa Cruz adayları Wikidata 429 nedeniyle Commons kategorisinden alındı. Bu turda La Cartuja (2025 sonrası 2 kare), Paseo de las Delicias ve Parque de los Bermejales kareleri değişti/eklendi; 6 eski kare çıkarıldı.",
+      "evidence": "uretim\\sevilla\\_is\\foto\\inceleme\\review_d2_ana.jsonl; uretim\\sevilla\\_is\\foto_ek6\\\\"
+    },
+    {
+      "id": "OI-027",
+      "priority": "P2",
+      "owner": "ai",
+      "text": "Paket 120 mekân ve 16 mahalle; iki mekânın (casa-de-salinas, palacio-bucarelli) koordinatı IGN CartoCiudad adres kaydından. Kaynak kaydı zayıf iki mekân: cine-cervantes-sevilla (yalnız bilet platformu), jardin-americano (sevilla.org erişilemez).",
+      "evidence": "uretim\\sevilla\\_is\\notlar.md"
+    },
+    {
+      "id": "OI-028",
+      "priority": "P2",
+      "owner": "ai",
+      "text": "Mekân kartlarının bant alanı (visit_status) bütün kayıtlarda boş; kapanış ve tadilatlar notta tarihli.",
+      "evidence": "uretim\\sevilla\\_is\\notlar.md"
     }
-   ],
-   "outputs": [
-    "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\foto\\selected.jsonl"
-   ]
-  },
-  "assemble": {
-   "status": "done",
-   "started_at": "2026-10-25T02:17:47Z",
-   "ended_at": "2026-10-25T06:18:08Z",
-   "gates": [
-    {
-     "script": "merge_package",
-     "exit_code": 0,
-     "summary": {
-      "issues": 0,
-      "quote_miss": 0
-     },
-     "report": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\birlestir_rapor.json",
-     "at": "2026-10-25T02:25:16Z"
-    },
-    {
-     "script": "build_xlsx",
-     "exit_code": 0,
-     "summary": {
-      "rejected": 0
-     },
-     "report": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\build_final.json",
-     "at": "2026-10-25T02:25:16Z"
-    },
-    {
-     "script": "validate_all",
-     "exit_code": 0,
-     "summary": {
-      "structure": {
-       "errors": 0
-      },
-      "media": {
-       "errors": 0
-      },
-      "minimum_gaps": {}
-     },
-     "report": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\validation.json",
-     "at": "2026-10-25T02:25:16Z"
-    },
-    {
-     "script": "text_quality",
-     "exit_code": 0,
-     "summary": {
-      "findings": 0
-     },
-     "report": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\text_quality_final.json",
-     "at": "2026-10-25T02:25:16Z"
-    },
-    {
-     "script": "url_check",
-     "exit_code": 1,
-     "summary": {
-      "tested": 416,
-      "calisiyor": 416,
-      "bozuk": 0,
-      "homepage_only": 14
-     },
-     "report": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\url_check_final.json",
-     "at": "2026-10-25T02:25:16Z"
-    },
-    {
-     "script": "duzeltme_turu_L0",
-     "exit_code": 0,
-     "summary": {
-      "merge_issues": 0,
-      "build_rejected": 0,
-      "validate": {
-       "structure_errors": 0,
-       "media_errors": 0,
-       "minimum_gaps": {}
-      },
-      "text_quality_findings": 0,
-      "url": {
-       "unique": 446,
-       "bozuk": 0,
-       "homepage_only": 18,
-       "cross_host_redirect": 4
-      },
-      "claim_number_not_in_source": 460
-     },
-     "report": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\validation.json",
-     "at": "2026-10-25T06:18:08Z"
-    }
-   ],
-   "outputs": [
-    "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\paket\\CITY-107_sevilla_v001.xlsx"
-   ]
-  },
-  "deliver": {
-   "status": "done",
-   "started_at": "2026-10-25T02:25:16Z",
-   "ended_at": "2026-10-25T06:19:07Z",
-   "gates": [
-    {
-     "script": "validate_all",
-     "exit_code": 0,
-     "summary": {
-      "mode": "emit",
-      "structure": {
-       "errors": 0
-      },
-      "media": {
-       "errors": 0
-      }
-     },
-     "report": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\validation_emit.json",
-     "at": "2026-10-25T02:27:37Z"
-    },
-    {
-     "script": "inventory",
-     "exit_code": 0,
-     "summary": {
-      "missing": 0,
-      "sha_mismatch": 0,
-      "bad_ext": 0,
-      "ext_mismatch": 0
-     },
-     "report": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\dosya-envanteri.json",
-     "at": "2026-10-25T02:27:37Z"
-    },
-    {
-     "script": "render_summary",
-     "exit_code": 1,
-     "summary": {
-      "verdict": "DÜZELTME GEREKLİ",
-      "blocking": 2,
-      "neden": "fotoğrafsız 19 mekân + 5 mahalle (OI-014)"
-     },
-     "report": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\paket\\Teslimler\\TESLIM_OZETI.txt",
-     "at": "2026-10-25T02:27:37Z"
-    },
-    {
-     "script": "duzeltme_turu_L0",
-     "exit_code": 0,
-     "summary": {
-      "emit": 0,
-      "files": 1712,
-      "total_mb": 332.79,
-      "dup_sha": 32,
-      "render_summary": "DÜZELTME GEREKLİ (1 engelleyici: fotoğrafsız 18 mekân; 2 bilgi)",
-      "targets": "8/8 hedef karşılandı"
-     },
-     "report": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\paket\\Teslimler\\TESLIM_OZETI.txt",
-     "at": "2026-10-25T06:19:07Z"
-    }
-   ]
+  ],
+  "photos_downloaded": 334,
+  "delivered": {
+    "at": "2026-10-27T00:39:35Z",
+    "xlsx_sha256": "556343a623a674241fa1519e64d7c23ee8903a00667a535ede360bedd5adb663",
+    "inventory": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\paket\\Teslimler\\dosya-envanteri.json",
+    "files": 1949,
+    "total_mb": 407.18,
+    "note": "L2 sonrası düzeltme turu (d11–d13, 26–27.10.2026) sonrası yeniden teslim; önceki SHA 6fefa38be706b2eade81300541edc52063ff580effab51f0e730e331f9a13288"
   }
- },
- "sources_researched": 475,
- "next_step": "Yeni temiz oturumda city-audit L0 (\"Sevilla paketini denetle L0\"), ardından L1; score.json gelince run_log --score. Açık: 18 fotoğrafsız mekân (OI-019), Venerables kararı (OI-021), 3 koordinatsız mekân (OI-015).",
- "open_items": [
-  {
-   "id": "OI-001",
-   "priority": "P1",
-   "text": "Sevilla Belediyesi sitesi (sevilla.org, sede.sevilla.org) bu ağdan zaman aşımı veriyor; belediye işlemleri ve mahalle bilgisi yan resmî kaynaklardan (Junta, Diputación, belediye şirketleri) alınacak. Erişim teyidi açık.",
-   "evidence": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\kesif\\erisim_snap\\index.jsonl",
-   "owner": "insan"
-  },
-  {
-   "id": "OI-002",
-   "priority": "P2",
-   "text": "Ulaşım: tussam.es 403, consorciotransportes-sevilla.com zaman aşımı, ctas.ctan.es DNS yok. Şehir otobüsü ve metropol konsorsiyum tarifesi kaynağı açık.",
-   "evidence": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\kesif\\erisim_snap\\index.jsonl",
-   "owner": "insan"
-  },
-  {
-   "id": "OI-003",
-   "priority": "P2",
-   "text": "lipasam.es ve aena.es TLS sertifika hatası, hospitaluvirgenrocio.es ve clicsalud.es DNS yok; sertifika doğrulaması kapatılmadı (kural 8).",
-   "evidence": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\kesif\\erisim_snap\\index.jsonl",
-   "owner": "insan"
-  },
-  {
-   "id": "OI-004",
-   "priority": "P2",
-   "text": "Atınç şablonunda delivery_id büyük harfli (CITY-107-v001): resmî doğrulayıcı reddediyor. Yalnız _is\\sablon.xlsx kopyasında city-107-v001 yapıldı (yedek _is\\sablon_orijinal_kopya.xlsx).",
-   "evidence": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\val_sablon.json",
-   "owner": "atinc"
-  },
-  {
-   "id": "OI-005",
-   "priority": "P2",
-   "text": "Bilgi: Şehir.priority alanının anlamı sözleşmede tanımsız (3 yazılır); source_url (Kapsam kaynağı) Atınç şablonunda InterNations listesi, anlamı sorulacak.",
-   "evidence": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\sablon_dump\\Şehir.jsonl",
-   "owner": "atinc"
-  },
-  {
-   "id": "OI-006",
-   "priority": "P2",
-   "text": "Bilgi: ülke paketi (ES v9 + Andalucía v2) kullanıldı; 6 kira kartının geçerliliği 2026-11-05'te, 8 kartın 2026-12-31'de bitiyor.",
-   "evidence": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\ulke_paketi\\pack.json",
-   "owner": "ai"
-  },
-  {
-   "id": "OI-007",
-   "priority": "P2",
-   "text": "Belediye sayfaları (empadronamiento, IBI/IVTM, çöp vergisi, belediye kütüphaneleri) femas.es alan adında açılıyor (belediye sunucusu, festival alan adı). Engeli dolanmak ve okura yanıltıcı adres vermek olacağı için kullanılmadı; bu bilgiler pakette eksik. sevilla.org erişimi açılırsa eklenebilir.",
-   "evidence": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\kesif\\resmi_ek\\selected.jsonl",
-   "owner": "insan"
-  },
-  {
-   "id": "OI-008",
-   "priority": "P2",
-   "text": "Kaynağı erişilemeyen sitede kaldığı için cevapsız ya da kısmen cevaplı ilk sorular: Sevilla nüfus kaydı ofisi/randevusu; Sevilla şehri IBI ve araç vergisi ödeme yolu; çöp vergisinin tahsili; elektrik dağıtıcı ve arıza hattı; Oficina de Extranjería adresi ve TIE randevu usulü; Sevilla fahri başkonsolosluk adresi; mahalleye göre kira; ücretsiz İspanyolca kursu; belediye kütüphane şubeleri; TUSSAM şehir otobüsü tarifesi; ZBE ve mavi bölge kuralları; DGT il müdürlüğü adresi.",
-   "evidence": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\kesif\\EK_KAYNAK_GOREV.md",
-   "owner": "insan"
-  },
-  {
-   "id": "OI-009",
-   "priority": "P2",
-   "text": "Bağımsız denetimin hafif bulgularından editörün kaynakla kapatamadığı notlar (ör. EMVISESA iki sayfa çelişkisi, SAS randevu iki görüş, Katedral işsiz indirimi kapsamı) kartlarda atıflı bırakıldı.",
-   "evidence": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\denetim",
-   "owner": "ai"
-  },
-  {
-   "id": "OI-010",
-   "priority": "P2",
-   "text": "Mahalle 15 (hedef 16, asgari 12): 16. semt için iki resmî kaynak bulunamadı (belediye sitesi erişilemez). Spor grubunda 5 mekân: belediye spor tesisleri (IMD) sevilla.org altında.",
-   "evidence": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\birlestir_rapor.json",
-   "owner": "insan"
-  },
-  {
-   "id": "OI-011",
-   "priority": "P2",
-   "text": "Açık-mı: 57 mekânda karar \"belirsiz\" (tarihli açık kanıtı da kapanış kanıtı da yok; çoğu kamusal alan ve kilise); kapanış izi yok, kart değişmedi. Pabellón de la Navegación iki kaynakla silindi (Junta dili \"geçici\").",
-   "evidence": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\acik_mi_rapor.json",
-   "owner": "insan"
-  },
-  {
-   "id": "OI-012",
-   "priority": "P2",
-   "text": "Atınç'ın download_media.py aracı Windows'ta ilerleme dosyasını yerine yazamıyor (PermissionError, os.replace); geçici klasörde tekrarlanan koşularla aşıldı, araç değiştirilmedi.",
-   "evidence": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\notlar_skill.md",
-   "owner": "atinc"
-  },
-  {
-   "id": "OI-013",
-   "priority": "P2",
-   "check_id": "K30",
-   "text": "Üç kaydın tek kaynağı ana sayfa: casa-de-la-guitarra (casadelaguitarra.es, JS), indoor-minigolf-sevilla (minigolfsevilla.com), Sözlük AUSSA terimi (aussa.es); derin resmî sayfa bulunamadı. Diğer 11 ana sayfa kaynağına derin sayfa eklendi.",
-   "evidence": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\url_check_final.json",
-   "owner": "ai"
-  },
-  {
-   "id": "OI-014",
-   "priority": "P1",
-   "text": "Fotoğrafsız 24 kayıt (19 mekân, 5 mahalle): Commons'ta aday yok ya da adaylar yalnız sergi nesnesi/çini; Openverse 23 saat bekletme verdi. Sonraki adım: Openverse açılınca bu kayıtlar için foto ek turu. Liste: alameda-de-hercules-cevresi, alfalfa-ve-encarnacion, bodega-gongora, calle-feria, casa-fabiola-coleccion-bellver, centro-ceramica-triana, centro-nautico-alamillo, ciudad-de-los-ninos-prado, espacio-primera-vuelta-al-mundo-nao-victoria, fundacion-cajasol-sevilla, galeria-rafael-ortiz, guadalquivir-paseo-de-las-delicias, indoor-minigolf-sevilla, mercado-de-la-encarnacion, mercado-lonja-del-barranco, musan-museo-del-santo-angel, museo-arqueologico-de-sevilla, museo-de-las-ilusiones, museo-historia-de-la-farmacia-us, museo-ve-plaza-nueva, rock-and-wall-climbing, sevilla-del-29, tablao-los-gallos, teatro-flamenco-sevilla",
-   "evidence": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\foto\\selected.jsonl",
-   "owner": "ai"
-  },
-  {
-   "id": "OI-015",
-   "priority": "P2",
-   "owner": "insan",
-   "check_id": "K43",
-   "text": "Düzeltme turu (L0 ISS-006): 28 koordinatsız mekânın 25'ine resmî kaynaklı koordinat eklendi (CartoCiudad/IGN adres kaydı 16, Wikidata 9; kayıt denetim/duzeltme_L0_degisiklik.jsonl). 3 mekân koordinatsız kaldı: centro-nautico-alamillo (Parque del Alamillo içinde, adres portalı yok), huevo-de-colon (Parque de San Jerónimo anıtı; Wikidata öğesi yok), espacio-primera-vuelta-al-mundo-nao-victoria (Muelle de las Delicias, numarasız). Haritada gösterilemez; adres metni var. İnsan: Wikidata öğesi açılabilir ya da sahadan koordinat.",
-   "evidence": "_is\\denetim\\duzeltme_L0_degisiklik.jsonl; _is\\mekan\\koordinat_cartociudad.json"
-  },
-  {
-   "id": "OI-016",
-   "priority": "P2",
-   "owner": "ai",
-   "check_id": "K108",
-   "text": "Düzeltme turu (L0 ISS-007): 13 collection=Evet kaydının 12'si Hayır yapıldı (bağımsız adresli müze/tesisler: Bellas Artes, Arqueológico, Artes y Costumbres, Baile Flamenco, Casa Fabiola, Cerámica Triana, Histórico Militar, Marítimo Torre del Oro, Historia de la Farmacia, Sánchez-Pizjuán turu, Casa de la Ciencia, Convento de Santa Paula). museo-taurino-real-maestranza Evet kaldı: plaza-de-toros-de-la-maestranza kaydının içindeki müze. L1'de K108 teyidi.",
-   "evidence": "_is\\denetim\\duzeltme_L0_degisiklik.jsonl"
-  },
-  {
-   "id": "OI-017",
-   "priority": "P2",
-   "owner": "atinc",
-   "check_id": "K05",
-   "text": "L0 ISS-005: 8 kapak karesi mekân karesiyle aynı Commons dosyası olduğu için photo_rows her ikisine ayrı kaynak/lisans kanıt JSON'u yazıyor (16 bayt bayt aynı dosya, envanter dup_sha 24). İşlevi bozmaz; araç kutusu değiştirilmedi (kural 14), notlar_skill.md'ye yazıldı. Tekrar tasarım gereği: kapak satırının kendi kanıt dosyası resmî doğrulayıcının zincir kuralı.",
-   "evidence": "denetim\\sevilla_2026-10-25_L0\\issues.json (ISS-005); _is\\notlar_skill.md"
-  },
-  {
-   "id": "OI-018",
-   "priority": "P2",
-   "owner": "ai",
-   "check_id": "K49",
-   "text": "Düzeltme turu: seçilen Espacio Eslava (Yeme ve içme) paketten çıkarıldı — tek kaynağı ve bağlantısı olan espacioeslava.com ele geçirilmiş (kumar/Rusça reklam metinleri); açık-mı doğrulayıcısı işletmenin faal olduğuna dair resmî kanıt bulamadı. Kayıt: denetim/duzeltme_L0_degisiklik.jsonl.",
-   "evidence": "_is\\denetim\\duzeltme_L0_degisiklik.jsonl; _is\\acik_mi\\ek2g_dogrulama.jsonl"
-  },
-  {
-   "id": "OI-019",
-   "priority": "P2",
-   "owner": "insan",
-   "check_id": "K22",
-   "text": "Düzeltme turu sonrası fotoğrafsız kayıtlar (Commons'ta kare yok; Openverse/Flickr 18 saatlik bekletme nedeniyle denenemedi): bodega-gongora, mercado-lonja-del-barranco (rota 009 durakları), tablao-los-gallos, teatro-flamenco-sevilla, galeria-rafael-ortiz, museo-de-las-ilusiones, musan-museo-del-santo-angel, museo-historia-de-la-farmacia-us, fundacion-cajasol-sevilla, indoor-minigolf-sevilla, rock-and-wall-climbing, centro-nautico-alamillo, espacio-primera-vuelta-al-mundo-nao-victoria, cartuja-qanat, cerveceria-giralda, sala-cero-teatro, teatro-la-fundicion, cicus-centro-iniciativas-culturales. v001'deki 24 fotoğrafsız kaydın 13'ü (5 mahalle dahil) bu turda kare aldı. Sonraki adım: Openverse açılınca photo_sources turu; ya da bu ticari mekânları fotoğraflı yerlerle değiştirme kararı (editoryal).",
-   "evidence": "_is\\foto\\selected.jsonl (secim_birlestir2 özeti entries_without); _is\\foto_ek3, _is\\foto_ek4"
-  },
-  {
-   "id": "OI-020",
-   "priority": "P2",
-   "owner": "insan",
-   "check_id": "K39",
-   "text": "Düzeltme turu açık-mı: 21 yeni mekân tarandı (ek2g/ek2h); 15 açık (2025–2026 tarihli faaliyet), 6 belirsiz (kapanış kanıtı yok: Cervecería Giralda, Parque Magallanes, Cartuja Qanat, Archivo Histórico Provincial, Monasterio de San Jerónimo, Muelle de la Sal zayıf kanıt). hospital-de-los-venerables tadilat nedeniyle ziyarete kapalı → karta tarihli not (kartta belirt). Yeni kayıtların açık kanıtlarının çoğu planomato.com etkinlik ajandasından; L1 örnekleminde öncelikli.",
-   "evidence": "_is\\acik_mi\\ek2g.jsonl, ek2h.jsonl, *_dogrulama.jsonl; _is\\acik_mi_rapor.json"
-  },
-  {
-   "id": "OI-021",
-   "priority": "P2",
-   "owner": "insan",
-   "check_id": "K39",
-   "text": "hospital-de-los-venerables (Sanat ve sergiler, yeni): Turismo de Sevilla 'Cerrado temporalmente por obras' diyor; ticari rehber (andalucia.com) 2027'ye kadar kapalı yazıyor, resmî teyit yok. v001'de aynı nedenle paketten çıkarılmıştı; düzeltme turunda seçim ajanı yeniden getirdi. Kart acik-mi §5 ile tarihli not ve visit_status taşıyarak tutuldu (120 hedefi için). İnsan kararı: okur değeri düşükse kaydı çıkar (yerine doğrulanmış yedek: Sala Fun Club, Alameda de Hércules 61).",
-   "evidence": "_is\\acik_mi\\ek2h_dogrulama.jsonl; _is\\denetim\\acik_mi_degisiklik.jsonl"
-  }
- ],
- "photos_downloaded": 313,
- "delivered": {
-  "at": "2026-10-25T06:19:07Z",
-  "xlsx_sha256": "2cd4b46b401c244524363bad6fef5e49d1b5927931ff26a5f55d5a9f416ec4b9",
-  "inventory": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\paket\\Teslimler\\dosya-envanteri.json",
-  "files": 1712,
-  "total_mb": 332.79,
-  "note": "düzeltme turu (L0 2026-10-25 bulguları) sonrası yeniden teslim; önceki teslim SHA 8c8b454ba24832e9a7c8566a9126f021010b13502bfd1f65ddf23daac9af34ba"
- }
 }

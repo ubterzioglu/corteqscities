@@ -3,11 +3,16 @@
   "acik_mi": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\acik_mi",
   "mekanlar": [
     "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\data\\parcalar\\Mekânlar.mekan1.jsonl",
+    "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\data\\parcalar\\Mekânlar.mekan10.jsonl",
+    "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\data\\parcalar\\Mekânlar.mekan11.jsonl",
     "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\data\\parcalar\\Mekânlar.mekan2.jsonl",
     "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\data\\parcalar\\Mekânlar.mekan3.jsonl",
     "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\data\\parcalar\\Mekânlar.mekan4.jsonl",
     "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\data\\parcalar\\Mekânlar.mekan5.jsonl",
-    "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\data\\parcalar\\Mekânlar.mekan6.jsonl"
+    "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\data\\parcalar\\Mekânlar.mekan6.jsonl",
+    "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\data\\parcalar\\Mekânlar.mekan7.jsonl",
+    "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\data\\parcalar\\Mekânlar.mekan8.jsonl",
+    "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\data\\parcalar\\Mekânlar.mekan9.jsonl"
   ],
   "kaynaklar": [
     "C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\kaynak_dizini.jsonl"
@@ -15,33 +20,34 @@
   "min_year": 2025,
   "mekan": 120,
   "tarama": {
-    "dosya": 10,
-    "satir": 134,
-    "mekan": 131
+    "dosya": 15,
+    "satir": 157,
+    "mekan": 153
   },
   "dogrulama": {
-    "dosya": 10,
-    "satir": 82
+    "dosya": 14,
+    "satir": 96
   },
   "durum": {
-    "açık": 66,
-    "belirsiz": 62,
-    "geçici kapalı": 4,
+    "açık": 76,
+    "belirsiz": 73,
+    "geçici kapalı": 5,
+    "insaat": 1,
     "kapalı": 1,
     "taşındı": 1
   },
   "eylem": {
-    "dokunma": 73,
-    "kartta belirt": 8,
+    "dokunma": 85,
+    "kartta belirt": 10,
     "sil": 1
   },
   "sonuc": {
-    "onay": 59,
-    "ret": 23
+    "onay": 69,
+    "ret": 27
   },
   "listede_olmayan": {
-    "tarama": 12,
-    "dogrulama": 9
+    "tarama": 35,
+    "dogrulama": 22
   },
   "findings": [],
   "by_code": {},

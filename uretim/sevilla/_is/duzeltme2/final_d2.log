@@ -1,0 +1,26 @@
+{"tool":"acik_mi","acik_mi":"C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\acik_mi","min_year":2025,"mekan":120,"tarama":{"dosya":14,"satir":155,"mekan":151},"dogrulama":{"dosya":14,"satir":96},"durum":{"açık":74,"belirsiz":73,"geçici kapalı":5,"insaat":1,"kapalı":1,"taşındı":1},"eylem":{"dokunma":84,"kartta belirt":11,"sil":1},"sonuc":{"onay":69,"ret":27},"listede_olmayan":{"tarama":33,"dogrulama":21},"by_code":{},"out":"C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\acik_mi_rapor.json","findings":0,"items":[]}
+### acik_mi exit=0 21:14:32
+{"phase":"places","event":"end","ts":"2026-10-25T20:14:32.578Z"}
+{"phase":"photos","event":"start","ts":"2026-10-25T20:14:33.232Z"}
+{"status":"ok","city_id":"sevilla","rows":{"Yanıtlar":240,"Mekânlar":120,"Mahalleler":16,"Bağlantılar":578,"Adımlar":7,"Rotalar":12,"Sözlük":60,"SayfaAlanları":23,"Fotoğraflar":308,"Kanıtlar":308,"FotoğrafKaynakları":308,"Şehir":1},"per_topic":{"aile":19,"ev":19,"fatura":19,"gunluk":20,"is":20,"kesif":20,"oturum":19,"para":21,"planlama":20,"resmi":21,"saglik":20,"ulasim":22},"places_by_group":{"Tarih ve mimari":56,"Doğa ve açık hava":18,"Müzeler":10,"Sanat ve sergiler":11,"Çocuklarla keşif":5,"Spor":3,"Sahne ve müzik":10,"Yeme ve içme":7},"sources_used":480,"sources_claims_only":0,"claims":558
+### merge exit=0 21:14:35
+{"status":"findings","selected":354,"planned":350,"dropped":4,"drop_examples":[["sevilla:san-bernardo|File:Estación de Cádiz en Sevilla 1.jpg","yazar uygun degil: This file is a work by Takashi kurita . "],["sevilla:huevo-de-colon|File:Huevo de Colón general3.jpg","yazar uygun degil: This file is a work by Takashi kurita . "],["sevilla:plaza-del-duque|File:Monument Velázquez Plaza Duque Victoria - Séville (ES61) - 2023-04-24 - 1.jpg","aday yok"],["sevilla:plaza-de-america|File:Fontaine Plaza America - Séville (ES61) - 2023-04-25 - 1.jpg","aday yok"]],"missing_entries":[],"original_thumb_fixed":0,"candidate_files":["foto/candidates.jsonl","foto_ek/candidates.jsonl","foto_ek2/candidates.jsonl","foto_ek3/candidates.jsonl","foto_ek4/candidates.jsonl","foto_ek6/candidates.jsonl","foto_ek7/candidates.jsonl"],"plan_out":"C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\foto\\indirm
+### plan exit=1 21:14:36
+{"completed": 350, "unique_urls": 342, "rights_approval_granted": false}
+download try 1 exit 0 21:16:34
+plan dosya: 350; gecici pakette: 350
+paket fotograf: 350
+{"status":"ok","photos":350,"roles":{"Mekân":342,"Kapak":8},"missing_download":0,"entries_with_photo":136,"errors":0,"error_examples":[],"candidate_files":["foto/candidates.jsonl","foto_ek/candidates.jsonl","foto_ek2/candidates.jsonl","foto_ek3/candidates.jsonl","foto_ek4/candidates.jsonl","foto_ek6/candidates.jsonl","foto_ek7/candidates.jsonl"],"search_files":["foto/search.jsonl","foto_ek/search.jsonl","foto_ek2/search.jsonl","foto_ek3/search.jsonl","foto_ek4/search.jsonl","foto_ek5/search.jsonl","foto_ek6/search.jsonl","foto_ek7/search.jsonl"],"parts_dir":"C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\data\\parcalar"}
+### rows exit=0 21:17:49
+{"dosya": 3, "alan": 2100, "ters_bolu": 0, "ornek": []}
+FOTO7D_BITTI
+{"phase":"photos","event":"end","ts":"2026-10-25T20:17:50.321Z"}
+python.exe: C:\temp_private\corteqs\0000_newera\uretim\sevilla\_is\final_d2.ps1:8
+Line |
+   8 |  & $PY -X utf8 -c "import json,pathlib; W=pathlib.Path(r'$WORK'); m=js …
+     |  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | ScriptBlock should only be specified as a value of the Command parameter.
+
+{"phase":"assemble","event":"start","ts":"2026-10-25T20:17:50.740Z"}
+{"status":"ok","city_id":"sevilla","rows":{"Yanıtlar":240,"Mekânlar":120,"Mahalleler":16,"Bağlantılar":578,"Adımlar":7,"Rotalar":12,"Sözlük":60,"SayfaAlanları":23,"Fotoğraflar":350,"Kanıtlar":350,"FotoğrafKaynakları":350,"Şehir":1},"per_topic":{"aile":19,"ev":19,"fatura":19,"gunluk":20,"is":20,"kesif":20,"oturum":19,"para":21,"planlama":20,"resmi":21,"saglik":20,"ulasim":22},"places_by_group":{"Tarih ve mimari":56,"Doğa ve açık hava":18,"Müzeler":10,"Sanat ve sergiler":11,"Çocuklarla keşif":5,"Spor":3,"Sahne ve müzik":10,"Yeme ve içme":7},"sources_used":480,"sources_claims_only":0,"claims":5587,"quote_miss":0,"issue_kinds":{},"out":"C:\\temp_private\\corteqs\\0000_newera\\uretim\\sevilla\\_is\\birlestir_rapor.json"}
+### merge exit=0

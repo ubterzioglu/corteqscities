@@ -1,0 +1,465 @@
+{
+ "kaynak": "C:\\temp_private\\corteqs\\0000_newera\\denetim\\sevilla_2026-10-26_L1\\issues.json",
+ "sayim": {
+  "P1|Kısmen (kayıt değişti; kapanış L1 teyidi)": 13,
+  "P2|Kapandı? (kayıt silindi)": 7,
+  "P2|Kısmen (kayıt değişti; kapanış L1 teyidi)": 14,
+  "P2|Açık (kayıtta dosya farkı yok)": 8,
+  "P1|Açık (kayıtta dosya farkı yok)": 1,
+  "P1|Kapandı? (kayıt silindi)": 1
+ },
+ "bulgular": [
+  {
+   "issue_id": "ISS-001",
+   "oncelik": "P1",
+   "check_id": "K108",
+   "entry": "sevilla:parque-de-san-jeronimo",
+   "durum": "Kısmen (kayıt değişti; kapanış L1 teyidi)",
+   "degisim": [
+    "changed:keywords,location,note,reviewed_on,source_ids,subtitle"
+   ]
+  },
+  {
+   "issue_id": "ISS-002",
+   "oncelik": "P1",
+   "check_id": "K42",
+   "entry": "sevilla:costurero-de-la-reina",
+   "durum": "Kısmen (kayıt değişti; kapanış L1 teyidi)",
+   "degisim": [
+    "changed:keywords,note,reviewed_on,source_ids,summary"
+   ]
+  },
+  {
+   "issue_id": "ISS-003",
+   "oncelik": "P2",
+   "check_id": "K108",
+   "entry": "sevilla:ciudad-de-los-ninos-prado",
+   "durum": "Kapandı? (kayıt silindi)",
+   "degisim": [
+    "deleted:"
+   ]
+  },
+  {
+   "issue_id": "ISS-004",
+   "oncelik": "P2",
+   "check_id": "K42",
+   "entry": "sevilla:casa-de-la-memoria-al-andalus, sevilla:estadio-benito-villamarin-tur, se",
+   "durum": "Kısmen (kayıt değişti; kapanış L1 teyidi)",
+   "degisim": [
+    "changed:note,reviewed_on,summary",
+    "changed:reviewed_on,source_ids,subtitle,summary",
+    "changed:note,reviewed_on,summary"
+   ]
+  },
+  {
+   "issue_id": "ISS-005",
+   "oncelik": "P2",
+   "check_id": "K43",
+   "entry": "sevilla:guadalquivir-paseo-de-las-delicias",
+   "durum": "Kısmen (kayıt değişti; kapanış L1 teyidi)",
+   "degisim": [
+    "changed:reviewed_on,source_ids,subtitle,summary,title"
+   ]
+  },
+  {
+   "issue_id": "ISS-006",
+   "oncelik": "P2",
+   "check_id": "K44",
+   "entry": "sevilla:alfalfa-ve-encarnacion, sevilla:calle-feria, sevilla:el-porvenir, sevill",
+   "durum": "Açık (kayıtta dosya farkı yok)",
+   "degisim": []
+  },
+  {
+   "issue_id": "ISS-007",
+   "oncelik": "P2",
+   "check_id": "K45",
+   "entry": "sevilla:el-porvenir",
+   "durum": "Açık (kayıtta dosya farkı yok)",
+   "degisim": []
+  },
+  {
+   "issue_id": "ISS-008",
+   "oncelik": "P2",
+   "check_id": "K47",
+   "entry": "sevilla:route:001, sevilla:route:002, sevilla:route:003, sevilla:route:004, sevi",
+   "durum": "Kısmen (kayıt değişti; kapanış L1 teyidi)",
+   "degisim": [
+    "changed:note,source_ids",
+    "changed:note,reviewed_on,source_ids"
+   ]
+  },
+  {
+   "issue_id": "ISS-009",
+   "oncelik": "P2",
+   "check_id": "K51",
+   "entry": "sevilla:su-fiyati-kisi-sayisina-gore-emasesa-tarifesi",
+   "durum": "Açık (kayıtta dosya farkı yok)",
+   "degisim": []
+  },
+  {
+   "issue_id": "ISS-010",
+   "oncelik": "P2",
+   "check_id": "K53",
+   "entry": "sevilla:archivo-general-de-indias, sevilla:jardin-americano, sevilla:kar-amaci-g",
+   "durum": "Kısmen (kayıt değişti; kapanış L1 teyidi)",
+   "degisim": [
+    "changed:source_ids",
+    "changed:keywords,location,note,reviewed_on,source_ids,subtitle"
+   ]
+  },
+  {
+   "issue_id": "ISS-011",
+   "oncelik": "P2",
+   "check_id": "K29",
+   "entry": "facts, journey_intro, sehir:sevilla",
+   "durum": "Açık (kayıtta dosya farkı yok)",
+   "degisim": []
+  },
+  {
+   "issue_id": "ISS-012",
+   "oncelik": "P2",
+   "check_id": "K90",
+   "entry": "emergency, facts",
+   "durum": "Açık (kayıtta dosya farkı yok)",
+   "degisim": []
+  },
+  {
+   "issue_id": "ISS-013",
+   "oncelik": "P2",
+   "check_id": "K91",
+   "entry": "sehir:sevilla",
+   "durum": "Açık (kayıtta dosya farkı yok)",
+   "degisim": []
+  },
+  {
+   "issue_id": "ISS-014",
+   "oncelik": "P2",
+   "check_id": "K30",
+   "entry": "sevilla:kaynak:082, sevilla:kaynak:143, sevilla:kaynak:381, sevilla:kaynak:530, ",
+   "durum": "Kapandı? (kayıt silindi)",
+   "degisim": [
+    "deleted:"
+   ]
+  },
+  {
+   "issue_id": "ISS-015",
+   "oncelik": "P2",
+   "check_id": "K35",
+   "entry": "sevilla:kaynak:016, sevilla:kaynak:018, sevilla:kaynak:031, sevilla:kaynak:050, ",
+   "durum": "Kapandı? (kayıt silindi)",
+   "degisim": [
+    "deleted:",
+    "deleted:"
+   ]
+  },
+  {
+   "issue_id": "ISS-016",
+   "oncelik": "P2",
+   "check_id": "K51",
+   "entry": "sevilla:kaynak:005, sevilla:kaynak:025, sevilla:kaynak:055, sevilla:kaynak:061, ",
+   "durum": "Kapandı? (kayıt silindi)",
+   "degisim": [
+    "deleted:",
+    "deleted:",
+    "deleted:"
+   ]
+  },
+  {
+   "issue_id": "ISS-017",
+   "oncelik": "P2",
+   "check_id": "K71",
+   "entry": "sevilla:auditorio-cartuja-sevilla, sevilla:confiteria-la-campana, sevilla:jardin",
+   "durum": "Kısmen (kayıt değişti; kapanış L1 teyidi)",
+   "degisim": [
+    "changed:source_ids,summary"
+   ]
+  },
+  {
+   "issue_id": "ISS-018",
+   "oncelik": "P2",
+   "check_id": "K74",
+   "entry": "sevilla:caac-centro-andaluz-arte-contemporaneo, sevilla:caixaforum-sevilla, sevi",
+   "durum": "Kısmen (kayıt değişti; kapanış L1 teyidi)",
+   "degisim": [
+    "changed:source_ids,summary"
+   ]
+  },
+  {
+   "issue_id": "ISS-019",
+   "oncelik": "P1",
+   "check_id": "K29",
+   "entry": "sevilla:endulus-saglik-karti-tarjeta-sanitaria-ve-aile-hekimi-secimi",
+   "durum": "Kısmen (kayıt değişti; kapanış L1 teyidi)",
+   "degisim": [
+    "changed:documents,steps,subtitle,summary,timing"
+   ]
+  },
+  {
+   "issue_id": "ISS-020",
+   "oncelik": "P1",
+   "check_id": "K29",
+   "entry": "sevilla:metro-sevilla-bilet-turleri-ve-fiyatlari",
+   "durum": "Kısmen (kayıt değişti; kapanış L1 teyidi)",
+   "degisim": [
+    "changed:cost,note,reviewed_on,steps,subtitle,summary"
+   ]
+  },
+  {
+   "issue_id": "ISS-021",
+   "oncelik": "P1",
+   "check_id": "K29",
+   "entry": "sevilla:serbest-calisan-autonomo-kayit-ve-prim-tablosu",
+   "durum": "Kısmen (kayıt değişti; kapanış L1 teyidi)",
+   "degisim": [
+    "changed:cost,documents,note,steps,summary"
+   ]
+  },
+  {
+   "issue_id": "ISS-022",
+   "oncelik": "P2",
+   "check_id": "K29",
+   "entry": "sevilla:sevilla-dogum-sonrasi-saglik-sosyal-guvenlik-ve-padron-adimlari",
+   "durum": "Kısmen (kayıt değişti; kapanış L1 teyidi)",
+   "degisim": [
+    "changed:note,reviewed_on,source_ids,steps,timing"
+   ]
+  },
+  {
+   "issue_id": "ISS-023",
+   "oncelik": "P2",
+   "check_id": "K30",
+   "entry": "sevilla:sevilla-park-etmek-mavi-bolge-aussa-otoparklar, sevilla:term:052",
+   "durum": "Kısmen (kayıt değişti; kapanış L1 teyidi)",
+   "degisim": [
+    "changed:cost,keywords,note,source_ids,steps,subtitle",
+    "changed:definition,reviewed_on"
+   ]
+  },
+  {
+   "issue_id": "ISS-024",
+   "oncelik": "P1",
+   "check_id": "K25",
+   "entry": "sevilla:sevilla-bisiklet-ve-elektrikli-scooter-kurallari",
+   "durum": "Kısmen (kayıt değişti; kapanış L1 teyidi)",
+   "degisim": [
+    "changed:note,reviewed_on,source_ids,steps,subtitle,summary"
+   ]
+  },
+  {
+   "issue_id": "ISS-025",
+   "oncelik": "P2",
+   "check_id": "K25",
+   "entry": "sevilla:sevilla-cevresi-dos-hermanas-alcala-rinconada-saglik-bolgeleri, sevilla:",
+   "durum": "Kısmen (kayıt değişti; kapanış L1 teyidi)",
+   "degisim": [
+    "changed:cost,keywords,note,source_ids,steps,subtitle"
+   ]
+  },
+  {
+   "issue_id": "ISS-026",
+   "oncelik": "P1",
+   "check_id": "K26",
+   "entry": "sevilla:kamu-saglik-sistemine-erisim-hak-sahipleri, sevilla:sevilla-cartuja-dusu",
+   "durum": "Kısmen (kayıt değişti; kapanış L1 teyidi)",
+   "degisim": [
+    "changed:cost,documents,note,reviewed_on,source_ids,steps",
+    "changed:note,reviewed_on,source_ids,steps,subtitle,summary",
+    "changed:cost,note,reviewed_on,source_ids,steps,summary"
+   ]
+  },
+  {
+   "issue_id": "ISS-027",
+   "oncelik": "P2",
+   "check_id": "K26",
+   "entry": "sevilla:sevilla-kres-escuela-infantil-0-3-yas-basvurusu, sevilla:kira-depozitosu",
+   "durum": "Kapandı? (kayıt silindi)",
+   "degisim": [
+    "changed:documents,reviewed_on,steps,summary,timing",
+    "changed:reviewed_on,steps",
+    "deleted:"
+   ]
+  },
+  {
+   "issue_id": "ISS-028",
+   "oncelik": "P1",
+   "check_id": "K31",
+   "entry": "sevilla:term:052",
+   "durum": "Kısmen (kayıt değişti; kapanış L1 teyidi)",
+   "degisim": [
+    "changed:definition,reviewed_on"
+   ]
+  },
+  {
+   "issue_id": "ISS-029",
+   "oncelik": "P2",
+   "check_id": "K31",
+   "entry": "sevilla:organik-atik-ayri-toplama-zorunlulugu, sevilla:itv-arac-muayene-periyotl",
+   "durum": "Kısmen (kayıt değişti; kapanış L1 teyidi)",
+   "degisim": [
+    "changed:reviewed_on,steps",
+    "changed:note,reviewed_on,source_ids,steps,subtitle,summary",
+    "changed:cost,keywords,note,source_ids,steps,subtitle"
+   ]
+  },
+  {
+   "issue_id": "ISS-030",
+   "oncelik": "P2",
+   "check_id": "K32",
+   "entry": "sevilla:sevilla-cartuja-dusuk-emisyon-bolgesi-zbe, sevilla:feria-de-abril-el-rea",
+   "durum": "Kapandı? (kayıt silindi)",
+   "degisim": [
+    "changed:note,reviewed_on,source_ids,steps,subtitle,summary",
+    "deleted:",
+    "deleted:"
+   ]
+  },
+  {
+   "issue_id": "ISS-031",
+   "oncelik": "P1",
+   "check_id": "K41",
+   "entry": "sevilla:metro-sevilla-bilet-turleri-ve-fiyatlari",
+   "durum": "Kısmen (kayıt değişti; kapanış L1 teyidi)",
+   "degisim": [
+    "changed:cost,note,reviewed_on,steps,subtitle,summary"
+   ]
+  },
+  {
+   "issue_id": "ISS-032",
+   "oncelik": "P2",
+   "check_id": "K41",
+   "entry": "sevilla:kar-amaci-gutmeyen-oturum-vizesi, sevilla:sevilla-okul-yerlestirme-sonuc",
+   "durum": "Kapandı? (kayıt silindi)",
+   "degisim": [
+    "changed:note,steps,summary",
+    "deleted:",
+    "deleted:"
+   ]
+  },
+  {
+   "issue_id": "ISS-033",
+   "oncelik": "P1",
+   "check_id": "K19",
+   "entry": "sevilla:planlama, sevilla:oturum, sevilla:ev, sevilla:ulasim",
+   "durum": "Açık (kayıtta dosya farkı yok)",
+   "degisim": []
+  },
+  {
+   "issue_id": "ISS-034",
+   "oncelik": "P1",
+   "check_id": "K28",
+   "entry": "sevilla:061-ya-da-saglik-merkezi-acil-ayrimi, sevilla:bisikletle-sevilla-sevici-",
+   "durum": "Kapandı? (kayıt silindi)",
+   "degisim": [
+    "deleted:",
+    "deleted:",
+    "changed:cost,note,reviewed_on,source_ids,steps,summary"
+   ]
+  },
+  {
+   "issue_id": "ISS-035",
+   "oncelik": "P2",
+   "check_id": "K28",
+   "entry": "sevilla:acil-durumda-112, sevilla:avra-eski-fianza-iade-basvurusu-model-810, sev",
+   "durum": "Kısmen (kayıt değişti; kapanış L1 teyidi)",
+   "degisim": [
+    "changed:cost,documents,note,reviewed_on,source_ids,steps",
+    "changed:keywords,note,reviewed_on,source_ids,steps,subtitle",
+    "changed:reviewed_on,steps"
+   ]
+  },
+  {
+   "issue_id": "ISS-036",
+   "oncelik": "P1",
+   "check_id": "K105",
+   "entry": "sevilla:photo:estadio-la-cartuja-01, sevilla:photo:estadio-la-cartuja-02",
+   "durum": "Kısmen (kayıt değişti; kapanış L1 teyidi)",
+   "degisim": [
+    "changed:author,caption,capture_date,license,license_url,modifications",
+    "changed:attribution_url,author_url,downloaded_file_url,downloaded_on,original_file_url,original_sha256",
+    "changed:author,caption,capture_date,modifications,sha256,source_checked_on"
+   ]
+  },
+  {
+   "issue_id": "ISS-037",
+   "oncelik": "P2",
+   "check_id": "K105",
+   "entry": "sevilla:photo:auditorio-cartuja-sevilla-01",
+   "durum": "Kısmen (kayıt değişti; kapanış L1 teyidi)",
+   "degisim": [
+    "changed:source_checked_on",
+    "changed:downloaded_on"
+   ]
+  },
+  {
+   "issue_id": "ISS-038",
+   "oncelik": "P1",
+   "check_id": "K60",
+   "entry": "sevilla:photo:guadalquivir-paseo-de-las-delicias-02",
+   "durum": "Kısmen (kayıt değişti; kapanış L1 teyidi)",
+   "degisim": [
+    "changed:author,caption,capture_date,license,license_url,modifications",
+    "changed:attribution_url,author_url,downloaded_file_url,downloaded_on,original_file_url,original_sha256"
+   ]
+  },
+  {
+   "issue_id": "ISS-039",
+   "oncelik": "P1",
+   "check_id": "K65",
+   "entry": "sevilla:photo:casa-roman-sevilla-01",
+   "durum": "Kısmen (kayıt değişti; kapanış L1 teyidi)",
+   "degisim": [
+    "changed:caption,capture_date,modifications,sha256,source_checked_on,source_url",
+    "changed:downloaded_file_url,downloaded_on,original_file_url,original_sha256,web_file,web_height"
+   ]
+  },
+  {
+   "issue_id": "ISS-040",
+   "oncelik": "P1",
+   "check_id": "K39",
+   "entry": "sevilla:costurero-de-la-reina, sevilla:plaza-nueva, sevilla:jardines-del-prado-d",
+   "durum": "Kısmen (kayıt değişti; kapanış L1 teyidi)",
+   "degisim": [
+    "changed:keywords,note,reviewed_on,source_ids,summary",
+    "changed:note,reviewed_on,source_ids",
+    "changed:keywords,note,reviewed_on,source_ids,summary"
+   ]
+  },
+  {
+   "issue_id": "ISS-041",
+   "oncelik": "P2",
+   "check_id": "K39",
+   "entry": "sevilla:hospital-de-la-santa-caridad, sevilla:jardin-americano, sevilla:estadio-",
+   "durum": "Kısmen (kayıt değişti; kapanış L1 teyidi)",
+   "degisim": [
+    "changed:note,reviewed_on,source_ids",
+    "changed:note,reviewed_on,summary"
+   ]
+  },
+  {
+   "issue_id": "ISS-042",
+   "oncelik": "P2",
+   "check_id": "K05",
+   "entry": "auditorio-cartuja-sevilla-03, caixaforum-sevilla-03, capilla-de-los-marineros-03",
+   "durum": "Açık (kayıtta dosya farkı yok)",
+   "degisim": []
+  },
+  {
+   "issue_id": "ISS-043",
+   "oncelik": "P2",
+   "check_id": "K14",
+   "entry": "city-107-v001",
+   "durum": "Kısmen (kayıt değişti; kapanış L1 teyidi)",
+   "degisim": [
+    "changed:notes,updated_on"
+   ]
+  },
+  {
+   "issue_id": "ISS-044",
+   "oncelik": "P2",
+   "check_id": "K83",
+   "entry": "C4",
+   "durum": "Açık (kayıtta dosya farkı yok)",
+   "degisim": []
+  }
+ ]
+}

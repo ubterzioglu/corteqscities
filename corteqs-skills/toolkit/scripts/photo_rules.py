@@ -40,6 +40,12 @@ DEFAULT_RULES: dict[str, Any] = {
         "generic_name_tokens": ["museum", "kerk", "park", "plein", "straat", "station", "toren", "theater", "galerie",
                                 "centrum", "merkez", "campus", "monument", "stadion"],
         "min_token_len": 5,
+        # kaynak adi = mekan adi + baglac + yeni ad ('Iglesia de San Vicente' -> '... de Paul'): baska yapi olabilir
+        # 'dos/das/do/da' yok: Ispanyolca 'dos dias' (iki gun) Sevilla'da yanlis alarm verdi
+        "name_connectors": ["de la", "de los", "de las", "de", "del", "della", "dei", "di", "du", "des", "van", "von", "of"],
+        "name_descriptors": ["noche", "dia", "nuit", "nacht", "night", "day", "cerca", "frente", "lejos", "interior",
+                             "exterior", "invierno", "verano", "primavera", "otono", "above", "below", "afar",
+                             "the", "siglo", "los", "las", "ciudad", "noche", "madrugada", "tarde", "manana"],
         "gps_flag_km": 2.0,
         "gps_reject_km": 12.0,
         "city_reject_km": 25.0,
@@ -197,6 +203,26 @@ def check_place(c: dict, e: dict | None, rules: dict, ctx: dict) -> list[dict]:
     return [_finding("place_mismatch", "flag", "baslik/aciklama/kategorilerde belediye veya mekan adi yok")]
 
 
+def check_name_extension(c: dict, e: dict | None, rules: dict, ctx: dict) -> list[dict]:
+    """Kaynak adinda mekan adi bir baglac ve yeni bir adla uzuyorsa flag (Sevilla S01: '... San Vicente de Paul').
+
+    Sehir/semt adi, mekanin kendi ad sozcukleri, sayi ve betimleme ('de noche') uzanti sayilmaz.
+    """
+    cfg = rules["place"]
+    full = [fold(t) for t in [e.get("name"), *(e.get("aliases") or [])] if fold(t)]
+    known = {tok for name in full for tok in name.split()}
+    known |= {tok for t in [e.get("municipality"), *(e.get("municipality_aliases") or []), e.get("district")]
+              for tok in fold(t).split()}
+    connectors = "|".join(re.escape(x) for x in sorted(cfg["name_connectors"], key=len, reverse=True))
+    for name in sorted(full, key=len, reverse=True):
+        for match in re.finditer(rf"\b{re.escape(name)} ({connectors}) ([a-z]{{3,}})\b", ctx["text"]):
+            word = match.group(2)
+            if word not in known and word not in cfg["name_descriptors"]:
+                return [_finding("name_extended", "flag",
+                                 f"kaynak adi mekan adindan uzun: '{match.group(0)}' (baska yapi olabilir)")]
+    return []
+
+
 def check_gps(c: dict, e: dict | None, rules: dict, ctx: dict) -> list[dict]:
     lat, lon = c.get("lat"), c.get("lon")
     if lat is None or lon is None:
@@ -254,7 +280,7 @@ def check_geosearch(c: dict, e: dict | None, rules: dict, ctx: dict) -> list[dic
     return [_finding("geosearch_unconfirmed", cfg["severity"], "yalniz koordinat yakinligiyla bulundu; mekan adi metinde yok")]
 
 
-ENTRY_CHECKS = (check_place, check_geosearch, check_gps, check_archive,
+ENTRY_CHECKS = (check_place, check_name_extension, check_geosearch, check_gps, check_archive,
                 _keyword_check("detail_interior", "detail", "detay/ic mekan"),
                 _keyword_check("statue_subject", "statue", "heykel/anit konusu"),
                 _keyword_check("off_subject", "off_subject", "konu disi altyapi"), check_rights)

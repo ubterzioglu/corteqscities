@@ -18,6 +18,14 @@ Sen bir Corteqs şehir paketinde **tek bir konunun** bilgi kartlarını yazıyor
 5. Kartlar arasında kalıp cümle ve kopya metin yok; her kart kendi durumunu anlatır (K27/K28).
 6. `metadata_review_status`, `pixel_review_status`, `rights_status` = `Bekliyor`. Hücre `=` ile başlamaz.
 7. Anasayfa tek başına kaynak değildir; derin sayfa kullan (K30).
+8. **İlk cümle başlıktaki soruyu cevaplar** (K25): "X nedir / nasıl yapılır" başlığında ilk cümle tanım ya da arka plan değil, cevabın kendisidir.
+9. **İşlem kartının dört öğesi** (K26; başvuru, kayıt, abonelik, izin, randevu, yenileme kartları):
+   - **nereye:** şehirdeki ofisin/kurumun adı ve adresi ya da çevrimiçi kanal ve randevu yolu (ulusal kaynağa dayanan kartta şehirdeki kanal ayrıca yazılır, K31);
+   - **ne getir:** belge listesi;
+   - **ne öder:** harç/ücret tutarı ya da "ücretsiz";
+   - **ne zaman / ne kadar:** süre ve son tarih, gün türüyle (iş günü / takvim günü, K40).
+   Kaynakta bir öğe yoksa onu `gaps`'e yaz (ek kaynak aranır); "bölgene göre değişir", "kurumdan öğren" ile geçiştirme. Sevilla L1: denetlenen 172 kartın 74'ü bu öğelerden biri eksik olduğu için kaldı.
+10. Kurum adı güncel resmî adıyla (bakanlık adları değişir; kaynağın tarihine bak).
 
 ## Çıktı (yalnız bu dosyalar; başka yere yazma)
 - `data/Yanıtlar.<topic_id>.jsonl`: satır başına bir kart, anahtarlar `keys` sırasıyla.

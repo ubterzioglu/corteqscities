@@ -1,0 +1,1214 @@
+
+<!DOCTYPE html >
+<html dir="ltr" class="ms-isBot" lang="es-ES">
+    <head><meta http-equiv="X-UA-Compatible" content="IE=edge" />
+   <script type="text/javascript">//<![CDATA[
+(function() {
+    function addEditWarning() {
+        // Detecta si la URL es privada (ajusta el patrón según tu entorno)
+        var isPrivate = window.location.href.toLowerCase().indexOf("edicionportal") !== -1;
+ 
+        if (isPrivate) {
+            // Crear el contenedor dinámicamente
+            var container = document.createElement('div');
+            container.className = 'edit-warning-container';
+            container.style.backgroundColor = 'red';
+            container.style.padding = '15px';
+ 
+            // Contenido interno del aviso
+            container.innerHTML = `
+                <div style="font-size: 30px; text-align: center; color: white; margin-bottom: 10px;">
+                    <strong>AVISO.</strong>
+                </div>
+                <div style="font-size: 18px; text-align: center; color: white;">
+                    <strong>
+                        Desde el Ministerio de la Presidencia, Justicia y Relaciones con las Cortes se ha impulsado la traducción a lenguas cooficiales de parte del contenido del Portal Institucional.
+                        Debido a ello, y para evitar que se modifique contenido que esté en proceso de traducción, se comunica que cualquier modificación de contenido del Portal, salvo en lo referente a
+                        Empleo Público, Noticias del Gabinete de Prensa y Subastas de la ORGA, queda congelada hasta nuevo aviso. Muchas gracias y disculpen las molestias.
+                    </strong>
+                </div>
+            `;
+ 
+            // Insertar al inicio del body
+            document.body.insertBefore(container, document.body.firstChild);
+        }
+    }
+ 
+    // Ejecuta cuando el DOM esté listo
+    if (document.readyState !== 'loading') {
+        addEditWarning();
+    } else {
+        document.addEventListener('DOMContentLoaded', addEditWarning);
+    }
+ 
+    // Re-ejecuta tras postbacks parciales (SharePoint clásico)
+    try {
+        if (window.Sys && Sys.WebForms && Sys.WebForms.PageRequestManager) {
+            Sys.WebForms.PageRequestManager.getInstance().add_endRequest(addEditWarning);
+        }
+    } catch (e) { /* Ignorar si no aplica */ }
+})();
+//]]></script>
+        
+        <meta name="ProgId" content="SharePoint.WebPartPage.Document" /><meta name="WebPartPageExpansion" content="full" /><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><meta name="GENERATOR" content="Microsoft SharePoint" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="Expires" content="0" /><script type="text/javascript">//<![CDATA[
+        var formDigestElement = document.getElementsByName('__REQUESTDIGEST')[0];
+        if (!((formDigestElement == null) || (formDigestElement.tagName.toLowerCase() != 'input') || (formDigestElement.type.toLowerCase() != 'hidden') ||
+            (formDigestElement.value == null) || (formDigestElement.value.length <= 0)))
+        {
+            formDigestElement.value = '0x95FEE09C19513BEEDA8FDED5F14C9F89C8D9E370948C4ACC2F4977A0CB34F27156D70E377B7CB33AA92D770BE764D30C4125E094096898D6B68BD605A9440B87,27 Oct 2026 00:41:27 -0000';_spPageContextInfo.updateFormDigestPageLoaded = new Date();
+        }
+        //]]>
+        </script><title>
+	El Registro Civil - Estado civil
+</title><link rel="stylesheet" type="text/css" href="/_layouts/15/3082/styles/Themable/corev15.css?rev=MvZzo%2FUmuvh7wDZy8d1www%3D%3DTAG0"/>
+<link id="fontsCss" rel="stylesheet" type="text/css" href="/SiteAssets/fonts/icomoon.css"/>
+<link id="libsCss" rel="stylesheet" type="text/css" href="/SiteAssets/css/libs.css"/>
+<link id="justiciaCss" rel="stylesheet" type="text/css" href="/SiteAssets/css/justicia.css"/>
+<link id="utilCss" rel="stylesheet" type="text/css" href="/SiteAssets/css/util.css"/>
+<link rel="stylesheet" type="text/css" href="/_layouts/15/3082/styles/Themable/searchv15.css?rev=LgB0uAsYpWDm9eHFlTjFUA%3D%3DTAG0"/>
+<link id="foundationMasterCss" rel="stylesheet" type="text/css" href="/SiteAssets/fonts/foundation/foundation-icons.css"/>
+<script type="text/javascript" src="/_layouts/15/3082/initstrings.js?rev=VH27cqV0GG4Tm%2FLXObNlKQ%3D%3DTAG0"></script>
+<script type="text/javascript" src="/_layouts/15/init.js?rev=YPuH2sG56FuG1bnyGzRzFQ%3D%3DTAG0"></script>
+<script type="text/javascript" src="/ScriptResource.axd?d=hSeDzvZm4-UEK4-iYlzArfFL_7CZFBUg7kCvDHD9mUr7PBYNPmVitfFTb6kjCIqz0Bn2NTKT4oEehQQ8rkTssP8jFf16GxufST14Y11n7YTk4FxpBEac-b3k-p6_jsqSVaD82b5Sp1I8RIKsZ_jbW9xohHmfCKwYHottLP-PIIglrRJUAu5eMVcaxW9Iwqi00&amp;t=fffffffff7f39b88"></script>
+<script type="text/javascript" src="/_layouts/15/blank.js?rev=xLMlyjalEDldDyf8i1bPEg%3D%3DTAG0"></script>
+<script type="text/javascript" src="/_layouts/15/3082/sp.res.js?rev=J%2BxNHd1ikIXlPBl%2FKw%2FybQ%3D%3DTAG0"></script>
+<script type="text/javascript" src="/_layouts/15/sp.runtime.js?rev=tWdA2V2hBgic%2FT6i%2B%2FJ2Ew%3D%3DTAG0"></script>
+<script type="text/javascript" src="/_layouts/15/sp.js?rev=CqEPe0htc%2FnIVFfms%2FIxTw%3D%3DTAG0"></script>
+<script type="text/javascript" src="/_layouts/15/sp.init.js?rev=clAHmeKFMzku%2BqTFs0HHUw%3D%3DTAG0"></script>
+<script type="text/javascript" src="/_layouts/15/sp.ui.dialog.js?rev=HnfeuKjAJSpaMwixLLIEDA%3D%3DTAG0"></script>
+<script type="text/javascript" src="/_layouts/15/sp.publishing.js?rev=a3X7cgHW1qpRutD%2F9hbZvQ%3D%3DTAG0"></script>
+<script type="text/javascript">RegisterSod("require.js", "\u002f_layouts\u002f15\u002frequire.js?rev=4UhLIF\u00252FezOvmGnh\u00252Fs0LLpA\u00253D\u00253DTAG0");</script>
+<script type="text/javascript">RegisterSod("strings.js", "\u002f_layouts\u002f15\u002f3082\u002fstrings.js?rev=L3YO7EIa1vDmCtORuAnTsQ\u00253D\u00253DTAG0");</script>
+<script type="text/javascript">RegisterSod("core.js", "\u002f_layouts\u002f15\u002fcore.js?rev=oYLuS7oM9VicA6Bp4aBmew\u00253D\u00253DTAG0");RegisterSodDep("core.js", "strings.js");</script>
+<script type="text/javascript">RegisterSod("menu.js", "\u002f_layouts\u002f15\u002fmenu.js?rev=f7Wm9Hx7NnwHn\u00252FjP\u00252FTQp7Q\u00253D\u00253DTAG0");</script>
+<script type="text/javascript">RegisterSod("mQuery.js", "\u002f_layouts\u002f15\u002fmquery.js?rev=TfhBhHoCfy1DPEh40\u00252Fp23g\u00253D\u00253DTAG0");</script>
+<script type="text/javascript">RegisterSod("callout.js", "\u002f_layouts\u002f15\u002fcallout.js?rev=MljUBny1CFG6spbWcM3lWw\u00253D\u00253DTAG0");RegisterSodDep("callout.js", "strings.js");RegisterSodDep("callout.js", "mQuery.js");RegisterSodDep("callout.js", "core.js");</script>
+<script type="text/javascript">RegisterSod("sp.core.js", "\u002f_layouts\u002f15\u002fsp.core.js?rev=Z44rHB8PffrQPbo6HZC6HQ\u00253D\u00253DTAG0");RegisterSodDep("sp.core.js", "strings.js");RegisterSodDep("sp.core.js", "core.js");</script>
+<script type="text/javascript">RegisterSod("clienttemplates.js", "\u002f_layouts\u002f15\u002fclienttemplates.js?rev=XGrin\u00252BBgSMZ73oisG97QgQ\u00253D\u00253DTAG0");</script>
+<script type="text/javascript">RegisterSod("sharing.js", "\u002f_layouts\u002f15\u002fsharing.js?rev=1z7Hb\u00252FJLJPX3Nt\u00252FzWYpfSw\u00253D\u00253DTAG0");RegisterSodDep("sharing.js", "strings.js");RegisterSodDep("sharing.js", "mQuery.js");RegisterSodDep("sharing.js", "clienttemplates.js");RegisterSodDep("sharing.js", "core.js");</script>
+<script type="text/javascript">RegisterSod("suitelinks.js", "\u002f_layouts\u002f15\u002fsuitelinks.js?rev=WaKCIoN7lbKxpgwcaXKJsQ\u00253D\u00253DTAG0");RegisterSodDep("suitelinks.js", "strings.js");RegisterSodDep("suitelinks.js", "core.js");</script>
+<script type="text/javascript">RegisterSod("userprofile", "\u002f_layouts\u002f15\u002fsp.userprofiles.js?rev=cx6U8sP\u00252ByP0OFLjk6ekyIg\u00253D\u00253DTAG0");</script>
+<script type="text/javascript">RegisterSod("followingcommon.js", "\u002f_layouts\u002f15\u002ffollowingcommon.js?rev=KM4oS914egSz2TslqiIzcQ\u00253D\u00253DTAG0");RegisterSodDep("followingcommon.js", "strings.js");RegisterSodDep("followingcommon.js", "userprofile");RegisterSodDep("followingcommon.js", "core.js");RegisterSodDep("followingcommon.js", "mQuery.js");</script>
+<script type="text/javascript">RegisterSod("profilebrowserscriptres.resx", "\u002f_layouts\u002f15\u002f3082\u002fprofilebrowserscriptres.js?rev=Q0jeR3lY56raUGvs8iu7RA\u00253D\u00253DTAG0");</script>
+<script type="text/javascript">RegisterSod("sp.ui.mysitecommon.js", "\u002f_layouts\u002f15\u002fsp.ui.mysitecommon.js?rev=FrquuGzUNTjciGnstEuZ6w\u00253D\u00253DTAG0");RegisterSodDep("sp.ui.mysitecommon.js", "userprofile");RegisterSodDep("sp.ui.mysitecommon.js", "profilebrowserscriptres.resx");</script>
+<script type="text/javascript">RegisterSod("browserScript", "\u002f_layouts\u002f15\u002fnon_ie.js?rev=v3ymou3aP9sKV8xFuQ\u00252Bu5Q\u00253D\u00253DTAG0");RegisterSodDep("browserScript", "strings.js");</script>
+<script type="text/javascript">RegisterSod("inplview", "\u002f_layouts\u002f15\u002finplview.js?rev=NftH85thZrEjVQ9PCKWDew\u00253D\u00253DTAG0");RegisterSodDep("inplview", "strings.js");RegisterSodDep("inplview", "core.js");RegisterSodDep("inplview", "clienttemplates.js");</script>
+<script type="text/javascript">RegisterSod("datepicker.js", "\u002f_layouts\u002f15\u002fdatepicker.js?rev=1JXsWbYiJJ3QHbX\u00252BME4Irw\u00253D\u00253DTAG0");RegisterSodDep("datepicker.js", "strings.js");</script>
+<script type="text/javascript">RegisterSod("clientrenderer.js", "\u002f_layouts\u002f15\u002fclientrenderer.js?rev=Da1kIG1BnQORi9\u00252FKzt56DQ\u00253D\u00253DTAG0");</script>
+<script type="text/javascript">RegisterSod("srch.resources.resx", "\u002f_layouts\u002f15\u002f3082\u002fsrch.resources.js?rev=02cp7YrtZjOY4M0gurrGWA\u00253D\u00253DTAG0");</script>
+<script type="text/javascript">RegisterSod("search.clientcontrols.js", "\u002f_layouts\u002f15\u002fsearch.clientcontrols.js?rev=llkkoa8WzW2Akde91RvLUw\u00253D\u00253DTAG0");RegisterSodDep("search.clientcontrols.js", "clientrenderer.js");RegisterSodDep("search.clientcontrols.js", "srch.resources.resx");</script>
+
+        
+	
+
+        <script type="text/javascript" src="/ruxitagentjs_ICA2NVfjqrux_10253230922075355.js" data-dtconfig="rid=RID_-473962975|rpid=1858647467|domain=mjusticia.gob.es|reportUrl=/rb_5f4b3571-8a71-4a88-b845-3f03b1be02ff|app=77ccfad7a4399be6|rcdec=1209600000|featureHash=ICA2NVfjqrux|vcv=2|rdnt=1|uxrgce=1|bp=3|srmcrv=10|cuc=pe4u6mkx|mel=100000|mb=.twitter|dpvc=1|iub=^bs/WsaUpload^bs.ashx^p^bs/corev15/|ssv=4|lastModification=1750689379235|dtVersion=10253230922075355|srmcrl=1|tp=500,50,0,1|uxdcw=1500|agentUri=/ruxitagentjs_ICA2NVfjqrux_10253230922075355.js">//<![CDATA[//]]></script><script src="/SiteAssets/js/libs.js" type="text/javascript">//<![CDATA[
+                
+        
+        
+        
+        //]]></script>
+        <script src="/SiteAssets/js/justicia.js" type="text/javascript">//<![CDATA[
+        
+        
+        
+        
+        //]]></script>
+        <script src="/SiteAssets/js/components/loadChangeLanguage.js" type="text/javascript">//<![CDATA[
+   		 
+        
+        //]]></script>
+       
+        <link type="text/xml" rel="alternate" href="/es/Ciudadano/EstadoCivil/_vti_bin/spsdisco.aspx" />
+            
+    
+    
+
+
+            <link rel="shortcut icon" href="/PublishingImages/icon/favicon.ico" type="image/vnd.microsoft.icon" id="favicon" />
+            <meta name="description" content="Estado civil El Registro Civil" /><meta name="keywords" content="Ministerio de Justicia, Estado civil, El Registro Civil" /><link rel="canonical" href="https://www.mjusticia.gob.es:443/es/ciudadania/estado-civil/registro-civil" />
+            
+            
+        <span id="DeltaSPWebPartManager">
+        <script src="/_layouts/15/next/spfx/sp-classic-page-assembly_es-es.js?version=1">
+
+</script><script>
+	//<!--
+	
+
+(function(global){
+  var correlationId = "aecf48a2-0575-2055-a636-e43aff0b83d9";
+
+  var handleFailure = function(errorInformation) {
+        console.error(errorInformation.message);
+  }
+
+  var _spPageContextInfo={"webServerRelativeUrl":"/es/Ciudadano/EstadoCivil","webAbsoluteUrl":"https://www.mjusticia.gob.es/es/Ciudadano/EstadoCivil","siteAbsoluteUrl":"https://www.mjusticia.gob.es","siteId":"{eb074c7f-572c-4559-b44d-1ff46e7b0d53}","isSPO":false,"serverRequestPath":"/es/Ciudadano/EstadoCivil/Paginas/registro-civil.aspx","layoutsUrl":"_layouts/15","webId":"{4e9d1273-2626-4590-a2d7-e9afab4a456a}","webTitle":"Estado Civil","webTemplate":"53","tenantAppVersion":"3625148736","isAppWeb":false,"webLogoUrl":"/SiteAssets/images/brand/mpjrc1.svg","webLanguage":3082,"currentLanguage":3082,"currentUICultureName":"es-ES","currentCultureName":"es-ES","env":null,"nid":0,"fid":0,"serverTime":"2026-10-27T00:41:27.9016938Z","siteClientTag":"5157$$16.0.5565.1001","crossDomainPhotosEnabled":false,"webUIVersion":"15","pageListId":"{9e10cc16-ccb8-414d-b57f-ca6c7a27ae5e}","pageItemId":5,"pagePersonalizationScope":1,"userId":null,"userLoginName":null,"userDisplayName":null,"systemUserKey":null,"alertsEnabled":true,"siteServerRelativeUrl":"/","allowSilverlightPrompt":true,"themeCacheToken":null,"themedCssFolderUrl":null,"themedImageFileNames":null,"isSiteAdmin":false,"ExpFeatures":[480215056,1880287568,1561350208,302071836,3212816,69472768,4194310,-2113396707,268502022,-872284160,1049232,-2147421952,65536,65536,2097472,917504,-2147474174,1372324107,67108882,0,0,-2147483648,2097152,0,0,32768,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,32768],"CorrelationId":"aecf48a2-0575-2055-a636-e43aff0b83d9","siteClassification":"","isNoScriptEnabled":false,"RecycleBinItemCount":0,"sitePagesEnabled":false,"isAnonymousGuestUser":false,"isExternalGuestUser":false,"webPermMasks":{"High":16,"Low":196673},"listPermsMask":{"High":16,"Low":196673},"pagePermsMask":{"High":16,"Low":196673}};_spPageContextInfo.updateFormDigestPageLoaded=new Date(_spPageContextInfo.serverTime);_spPageContextInfo.clientServerTimeDelta=new Date(_spPageContextInfo.serverTime)-new Date();if(typeof(define)=='function'){define('SPPageContextInfo',[],function(){return _spPageContextInfo;});}
+
+  var spClientSidePageContext = { 
+
+"clientSideApplicationId" : "eb4b666b-5c29-4dad-9a99-23613f21a2b7",
+
+"contextWebInfo" : {"_ObjectType_":"SP.ContextWebInformation","FormDigestTimeoutSeconds":1800,"FormDigestValue":"0x95FEE09C19513BEEDA8FDED5F14C9F89C8D9E370948C4ACC2F4977A0CB34F27156D70E377B7CB33AA92D770BE764D30C4125E094096898D6B68BD605A9440B87,27 Oct 2026 00:41:27 -0000","LibraryVersion":"16.0.5565.1001","SiteFullUrl":"https:\u002f\u002fwww.mjusticia.gob.es","SupportedSchemaVersions":["14.0.0.0","15.0.0.0"],"WebFullUrl":"https:\u002f\u002fwww.mjusticia.gob.es\u002fes\u002fCiudadano\u002fEstadoCivil"},
+
+"manifests" : [{"preloadOptions":{},"title":{"default":"classic-page-webpart-application"},"description":{"default":"Classic page webpart application"},"preloadComponents":["02a01e42-69ab-403d-8a16-acd128661f8e","0d910c1c-13b9-4e1c-9aa4-b008c5e42d7d","aa0a46ec-1505-43cd-a44a-93f3a5aa460a","974a7777-0990-4136-8fa6-95d80114c2e0","c83d5509-ccd5-4c67-919f-2440f237927a","a81a5cf6-c9ad-4a0a-85aa-68c03d2d22a2","8494e7d7-6b99-47b2-a741-59873e42f16f","1c4541f7-5c31-41aa-9fa8-fbc9dc14c0a8","1c6c9123-7aac-41f3-a376-3caea41ed83f","f97266fb-ccb7-430e-9384-4124d05295d3","467dc675-7cc5-4709-8aac-78e3b71bd2f6","7263c7d0-1d6a-45ec-8d85-d4d1d234171b","73e1dc6c-8441-42cc-ad47-4bd3659f8a3a","8217e442-8ed3-41fd-957d-b112e841286a","cc2cc925-b5be-41bb-880a-f0f8030c6aff","4df9bb86-ab0a-4aab-ab5f-48bf167048fb","3fbad3f4-a628-41b0-8694-2054c09edccd","05ed6956-59ad-4aa6-9e4e-b832c96ae87b"],"manifestVersion":2,"id":"eb4b666b-5c29-4dad-9a99-23613f21a2b7","version":"0.1.5","componentType":"Application","alias":"ClassicPageWebPartApplication","isInternal":true,"loaderConfig":{"internalModuleBaseUrls":["/_layouts/15/next/spfx/"],"entryModuleId":"sp-classic-page-application","scriptResources":{"sp-classic-page-application":{"type":"localizedPath","defaultPath":{"default":"sp-classic-page-application_es-es.js?version=1"}},"@microsoft/sp-core-library":{"type":"component","id":"7263c7d0-1d6a-45ec-8d85-d4d1d234171b","version":"1.1.0"},"@microsoft/sp-webpart-base":{"type":"component","id":"974a7777-0990-4136-8fa6-95d80114c2e0","version":"1.1.1"},"@microsoft/sp-application-base":{"type":"component","id":"4df9bb86-ab0a-4aab-ab5f-48bf167048fb","version":"1.1.1"},"@microsoft/sp-loader":{"type":"component","id":"1c6c9123-7aac-41f3-a376-3caea41ed83f","version":"1.1.1"},"@ms/sp-telemetry":{"type":"component","id":"8217e442-8ed3-41fd-957d-b112e841286a","version":"0.2.2"}}}}, {"preconfiguredEntries":[{"title":{"default":"Funciones JS comunes"},"description":{"default":"Webpart responsible for adding custom scripts."},"officeFabricIconFontName":"PageEdit","groupId":"5c03119e-3074-46fd-976b-c60198311f70","group":{"default":"Justicia SPFx WebParts"},"properties":{"description":"Webpart responsible for adding custom scripts."}}],"manifestVersion":2,"id":"c09194d6-41cb-4f2b-9311-8234ccc6e2fd","version":"0.0.1","componentType":"WebPart","alias":"InstCommonScriptsWpWebPart","loaderConfig":{"internalModuleBaseUrls":["https://www.mjusticia.gob.es/SiteAssets/AppsManifest/"],"entryModuleId":"inst-common-scripts-wp-web-part","scriptResources":{"inst-common-scripts-wp-web-part":{"type":"path","path":"inst-common-scripts-wp-web-part_fa4c5e209d742a5ec2cfba3da8cf4718.js"},"mjusticia":{"type":"path","path":"https://www.mjusticia.gob.es/SiteAssets/js/core-client-common-library.min.js"},"CommonResources":{"type":"localizedPath","defaultPath":{"default":"core.client.componentsportal-commonresources_es-es_762a4bef9e1139fd5a179bdcfbd0c7ce.js"}},"react":{"type":"component","id":"0d910c1c-13b9-4e1c-9aa4-b008c5e42d7d","version":"15.4.2"},"@microsoft/sp-core-library":{"type":"component","id":"7263c7d0-1d6a-45ec-8d85-d4d1d234171b","version":"1.1.0"},"react-dom":{"type":"component","id":"aa0a46ec-1505-43cd-a44a-93f3a5aa460a","version":"15.4.2"},"@microsoft/sp-webpart-base":{"type":"component","id":"974a7777-0990-4136-8fa6-95d80114c2e0","version":"1.1.1"}}}}, {"preconfiguredEntries":[{"title":{"default":"Menú de términos"},"description":{"default":"Component that retrieves the parent item and children from Taxonomy"},"officeFabricIconFontName":"BulletedList2Mirrored","groupId":"5c03119e-3074-46fd-976b-c60198311f70","group":{"default":"Justicia SPFx WebParts"},"properties":{}}],"manifestVersion":2,"id":"1c173a18-77cf-43cf-a794-b566366b1219","version":"0.0.1","componentType":"WebPart","alias":"InstSideMenuWpWebPart","loaderConfig":{"internalModuleBaseUrls":["https://www.mjusticia.gob.es/SiteAssets/AppsManifest/"],"entryModuleId":"inst-side-menu-wp-web-part","scriptResources":{"inst-side-menu-wp-web-part":{"type":"path","path":"inst-side-menu-wp-web-part_4e646b82799a04d7be7786efbcc90984.js"},"mjusticia":{"type":"path","path":"https://www.mjusticia.gob.es/SiteAssets/js/core-client-common-library.min.js"},"CommonResources":{"type":"localizedPath","defaultPath":{"default":"core.client.componentsportal-commonresources_es-es_762a4bef9e1139fd5a179bdcfbd0c7ce.js"}},"react":{"type":"component","id":"0d910c1c-13b9-4e1c-9aa4-b008c5e42d7d","version":"15.4.2"},"@microsoft/sp-core-library":{"type":"component","id":"7263c7d0-1d6a-45ec-8d85-d4d1d234171b","version":"1.1.0"},"react-dom":{"type":"component","id":"aa0a46ec-1505-43cd-a44a-93f3a5aa460a","version":"15.4.2"},"@microsoft/sp-webpart-base":{"type":"component","id":"974a7777-0990-4136-8fa6-95d80114c2e0","version":"1.1.1"}}}}, {"preconfiguredEntries":[{"title":{"default":"Consulta de contenido"},"description":{"default":"A react content by query WebPart for querying items within a site and easily displaying them using a simple yet powerfull HandleBars templating engine."},"officeFabricIconFontName":"BulletedList","groupId":"46edf08f-95c7-4ca7-9146-6471f9f471be","group":{"default":"Justicia SPFx WebParts"},"properties":{"description":"React Content Query WebPart"}}],"manifestVersion":2,"id":"ac515af1-4490-4c7b-8191-d49b41b26c5e","version":"0.0.1","componentType":"WebPart","alias":"ContentQueryWebPart","loaderConfig":{"internalModuleBaseUrls":["https://www.mjusticia.gob.es/SiteAssets/AppsManifest/"],"entryModuleId":"content-query-web-part","scriptResources":{"content-query-web-part":{"type":"path","path":"content-query-web-part_fe50e3101bcb83441cb83cd8c711e595.js"},"mjusticia":{"type":"path","path":"https://www.mjusticia.gob.es/SiteAssets/js/core-client-common-library.min.js"},"CommonResources":{"type":"localizedPath","defaultPath":{"default":"core.client.componentsportal-commonresources_es-es_762a4bef9e1139fd5a179bdcfbd0c7ce.js"}},"react":{"type":"component","id":"0d910c1c-13b9-4e1c-9aa4-b008c5e42d7d","version":"15.4.2"},"@microsoft/sp-core-library":{"type":"component","id":"7263c7d0-1d6a-45ec-8d85-d4d1d234171b","version":"1.1.0"},"@microsoft/sp-lodash-subset":{"type":"component","id":"73e1dc6c-8441-42cc-ad47-4bd3659f8a3a","version":"1.1.0"},"react-dom":{"type":"component","id":"aa0a46ec-1505-43cd-a44a-93f3a5aa460a","version":"15.4.2"},"@microsoft/sp-http":{"type":"component","id":"c07208f0-ea3b-4c1a-9965-ac1b825211a6","version":"1.1.1"},"@microsoft/sp-webpart-base":{"type":"component","id":"974a7777-0990-4136-8fa6-95d80114c2e0","version":"1.1.1"},"@microsoft/sp-loader":{"type":"component","id":"1c6c9123-7aac-41f3-a376-3caea41ed83f","version":"1.1.1"}}}}, {"preconfiguredEntries":[{"title":{"default":"Valorar información"},"description":{"default":"Valorar información"},"officeFabricIconFontName":"BulletedList2Mirrored","groupId":"5c03119e-3074-46fd-976b-c60198311f70","group":{"default":"Justicia SPFx WebParts"},"properties":{}}],"manifestVersion":2,"id":"27890c84-83f9-4ef9-a0ff-8c82689c9fa8","version":"0.0.1","componentType":"WebPart","alias":"InstValorarInfoWpWebPart","loaderConfig":{"internalModuleBaseUrls":["https://www.mjusticia.gob.es/SiteAssets/AppsManifest/"],"entryModuleId":"inst-valorar-info-wp-web-part","scriptResources":{"inst-valorar-info-wp-web-part":{"type":"path","path":"inst-valorar-info-wp-web-part_cd078310837646a09ee812da7b1f1886.js"},"mjusticia":{"type":"path","path":"https://www.mjusticia.gob.es/SiteAssets/js/core-client-common-library.min.js"},"CommonResources":{"type":"localizedPath","defaultPath":{"default":"core.client.componentsportal-commonresources_es-es_762a4bef9e1139fd5a179bdcfbd0c7ce.js"}},"react":{"type":"component","id":"0d910c1c-13b9-4e1c-9aa4-b008c5e42d7d","version":"15.4.2"},"@microsoft/sp-core-library":{"type":"component","id":"7263c7d0-1d6a-45ec-8d85-d4d1d234171b","version":"1.1.0"},"@microsoft/sp-lodash-subset":{"type":"component","id":"73e1dc6c-8441-42cc-ad47-4bd3659f8a3a","version":"1.1.0"},"react-dom":{"type":"component","id":"aa0a46ec-1505-43cd-a44a-93f3a5aa460a","version":"15.4.2"},"@microsoft/sp-http":{"type":"component","id":"c07208f0-ea3b-4c1a-9965-ac1b825211a6","version":"1.1.1"},"@microsoft/sp-webpart-base":{"type":"component","id":"974a7777-0990-4136-8fa6-95d80114c2e0","version":"1.1.1"}}}}, {"manifestVersion":2,"id":"7263c7d0-1d6a-45ec-8d85-d4d1d234171b","version":"1.1.0","componentType":"Library","alias":"SPCoreLibrary","isInternal":true,"loaderConfig":{"internalModuleBaseUrls":["/_layouts/15/next/spfx/"],"entryModuleId":"sp-core-library","scriptResources":{"sp-core-library":{"type":"localizedPath","defaultPath":{"default":"sp-core-library_es-es.js?version=1"}},"@microsoft/sp-lodash-subset":{"type":"component","id":"73e1dc6c-8441-42cc-ad47-4bd3659f8a3a","version":"1.1.0"}}}}, {"manifestVersion":2,"id":"974a7777-0990-4136-8fa6-95d80114c2e0","version":"1.1.1","componentType":"Library","alias":"SPWebPartBase","isInternal":true,"loaderConfig":{"internalModuleBaseUrls":["/_layouts/15/next/spfx/"],"entryModuleId":"sp-webpart-base","scriptResources":{"sp-webpart-base":{"type":"localizedPath","defaultPath":{"default":"sp-webpart-base_es-es.js?version=1"}},"@microsoft/sp-core-library":{"type":"component","id":"7263c7d0-1d6a-45ec-8d85-d4d1d234171b","version":"1.1.0"},"@microsoft/decorators":{"type":"component","id":"f97266fb-ccb7-430e-9384-4124d05295d3","version":"1.1.0"},"react":{"type":"component","id":"0d910c1c-13b9-4e1c-9aa4-b008c5e42d7d","version":"15.4.2"},"@ms/sp-telemetry":{"type":"component","id":"8217e442-8ed3-41fd-957d-b112e841286a","version":"0.2.2"},"@microsoft/sp-lodash-subset":{"type":"component","id":"73e1dc6c-8441-42cc-ad47-4bd3659f8a3a","version":"1.1.0"},"office-ui-fabric-react":{"type":"component","id":"02a01e42-69ab-403d-8a16-acd128661f8e","version":"1.1.0"},"react-dom":{"type":"component","id":"aa0a46ec-1505-43cd-a44a-93f3a5aa460a","version":"15.4.2"},"@microsoft/sp-http":{"type":"component","id":"c07208f0-ea3b-4c1a-9965-ac1b825211a6","version":"1.1.1"},"@microsoft/sp-page-context":{"type":"component","id":"1c4541f7-5c31-41aa-9fa8-fbc9dc14c0a8","version":"1.1.0"},"@microsoft/sp-component-base":{"type":"component","id":"467dc675-7cc5-4709-8aac-78e3b71bd2f6","version":"1.1.0"},"@microsoft/sp-loader":{"type":"component","id":"1c6c9123-7aac-41f3-a376-3caea41ed83f","version":"1.1.1"}}}}, {"manifestVersion":2,"id":"4df9bb86-ab0a-4aab-ab5f-48bf167048fb","version":"1.1.1","componentType":"Library","alias":"SPApplicationBase","isInternal":true,"loaderConfig":{"internalModuleBaseUrls":["/_layouts/15/next/spfx/"],"entryModuleId":"sp-application-base","scriptResources":{"sp-application-base":{"type":"path","path":"sp-application-base.js?version=1"},"@ms/sp-telemetry":{"type":"component","id":"8217e442-8ed3-41fd-957d-b112e841286a","version":"0.2.2"},"@microsoft/sp-core-library":{"type":"component","id":"7263c7d0-1d6a-45ec-8d85-d4d1d234171b","version":"1.1.0"},"@microsoft/sp-http":{"type":"component","id":"c07208f0-ea3b-4c1a-9965-ac1b825211a6","version":"1.1.1"},"@microsoft/sp-page-context":{"type":"component","id":"1c4541f7-5c31-41aa-9fa8-fbc9dc14c0a8","version":"1.1.0"},"@ms/odsp-utilities-bundle":{"type":"component","id":"cc2cc925-b5be-41bb-880a-f0f8030c6aff","version":"1.1.0"},"@microsoft/sp-extension-base":{"type":"component","id":"0773bd53-a69e-4293-87e6-ba80ea4d614b","version":"0.1.1"},"@microsoft/decorators":{"type":"component","id":"f97266fb-ccb7-430e-9384-4124d05295d3","version":"1.1.0"},"@microsoft/sp-loader":{"type":"component","id":"1c6c9123-7aac-41f3-a376-3caea41ed83f","version":"1.1.1"},"office-ui-fabric-react":{"type":"component","id":"02a01e42-69ab-403d-8a16-acd128661f8e","version":"1.1.0"}}}}, {"manifestVersion":2,"id":"1c6c9123-7aac-41f3-a376-3caea41ed83f","version":"1.1.1","componentType":"Library","alias":"SPLoader","isInternal":true,"loaderConfig":{"internalModuleBaseUrls":["/_layouts/15/next/spfx/"],"entryModuleId":"sp-loader","scriptResources":{"sp-loader":{"type":"localizedPath","defaultPath":{"default":"sp-loader_es-es.js?version=1"}},"@microsoft/sp-core-library":{"type":"component","id":"7263c7d0-1d6a-45ec-8d85-d4d1d234171b","version":"1.1.0"},"@ms/sp-telemetry":{"type":"component","id":"8217e442-8ed3-41fd-957d-b112e841286a","version":"0.2.2"},"@microsoft/sp-lodash-subset":{"type":"component","id":"73e1dc6c-8441-42cc-ad47-4bd3659f8a3a","version":"1.1.0"},"@ms/odsp-utilities-bundle":{"type":"component","id":"cc2cc925-b5be-41bb-880a-f0f8030c6aff","version":"1.1.0"}}}}, {"manifestVersion":2,"id":"8217e442-8ed3-41fd-957d-b112e841286a","version":"0.2.2","componentType":"Library","alias":"SPTelemetry","isInternal":true,"loaderConfig":{"internalModuleBaseUrls":["/_layouts/15/next/spfx/"],"entryModuleId":"sp-telemetry","scriptResources":{"sp-telemetry":{"type":"path","path":"sp-telemetry.js?version=1"},"@microsoft/sp-core-library":{"type":"component","id":"7263c7d0-1d6a-45ec-8d85-d4d1d234171b","version":"1.1.0"},"@ms/odsp-utilities-bundle":{"type":"component","id":"cc2cc925-b5be-41bb-880a-f0f8030c6aff","version":"1.1.0"}}}}, {"manifestVersion":2,"id":"02a01e42-69ab-403d-8a16-acd128661f8e","version":"1.1.0","componentType":"Library","alias":"OfficeUIFabricReact","isInternal":true,"loaderConfig":{"internalModuleBaseUrls":["/_layouts/15/next/spfx/"],"entryModuleId":"office-ui-fabric-react.bundle","scriptResources":{"office-ui-fabric-react.bundle":{"type":"path","path":"office-ui-fabric-react.bundle.js?version=1"},"react":{"type":"component","id":"0d910c1c-13b9-4e1c-9aa4-b008c5e42d7d","version":"15.4.2"},"react-dom":{"type":"component","id":"aa0a46ec-1505-43cd-a44a-93f3a5aa460a","version":"15.4.2"}}}}, {"manifestVersion":2,"id":"0d910c1c-13b9-4e1c-9aa4-b008c5e42d7d","version":"15.4.2","componentType":"Library","alias":"React","isInternal":true,"loaderConfig":{"internalModuleBaseUrls":["/_layouts/15/next/spfx/"],"entryModuleId":"react.bundle","scriptResources":{"react.bundle":{"type":"path","path":"react.bundle.js?version=1"}}}}, {"manifestVersion":2,"id":"aa0a46ec-1505-43cd-a44a-93f3a5aa460a","version":"15.4.2","componentType":"Library","alias":"ReactDOM","isInternal":true,"loaderConfig":{"internalModuleBaseUrls":["/_layouts/15/next/spfx/"],"entryModuleId":"react.dom.bundle","scriptResources":{"react.dom.bundle":{"type":"path","path":"react.dom.bundle.js?version=1"},"react":{"type":"component","id":"0d910c1c-13b9-4e1c-9aa4-b008c5e42d7d","version":"15.4.2"}}}}, {"manifestVersion":2,"id":"1c4541f7-5c31-41aa-9fa8-fbc9dc14c0a8","version":"1.1.0","componentType":"Library","alias":"SPPageContext","isInternal":true,"loaderConfig":{"internalModuleBaseUrls":["/_layouts/15/next/spfx/"],"entryModuleId":"sp-page-context","scriptResources":{"sp-page-context":{"type":"path","path":"sp-page-context.js?version=1"},"@microsoft/sp-core-library":{"type":"component","id":"7263c7d0-1d6a-45ec-8d85-d4d1d234171b","version":"1.1.0"},"@microsoft/sp-http":{"type":"component","id":"c07208f0-ea3b-4c1a-9965-ac1b825211a6","version":"1.1.1"},"@ms/sp-telemetry":{"type":"component","id":"8217e442-8ed3-41fd-957d-b112e841286a","version":"0.2.2"}}}}, {"manifestVersion":2,"id":"f97266fb-ccb7-430e-9384-4124d05295d3","version":"1.1.0","componentType":"Library","alias":"Decorators","isInternal":true,"loaderConfig":{"internalModuleBaseUrls":["/_layouts/15/next/spfx/"],"entryModuleId":"decorators","scriptResources":{"decorators":{"type":"path","path":"decorators.js?version=1"}}}}, {"manifestVersion":2,"id":"467dc675-7cc5-4709-8aac-78e3b71bd2f6","version":"1.1.0","componentType":"Library","alias":"SPComponentBase","isInternal":true,"loaderConfig":{"internalModuleBaseUrls":["/_layouts/15/next/spfx/"],"entryModuleId":"sp-component-base","scriptResources":{"sp-component-base":{"type":"path","path":"sp-component-base.js?version=1"},"@microsoft/decorators":{"type":"component","id":"f97266fb-ccb7-430e-9384-4124d05295d3","version":"1.1.0"},"@microsoft/sp-core-library":{"type":"component","id":"7263c7d0-1d6a-45ec-8d85-d4d1d234171b","version":"1.1.0"},"@ms/sp-telemetry":{"type":"component","id":"8217e442-8ed3-41fd-957d-b112e841286a","version":"0.2.2"}}}}, {"manifestVersion":2,"id":"73e1dc6c-8441-42cc-ad47-4bd3659f8a3a","version":"1.1.0","componentType":"Library","alias":"SPLodashSubset","isInternal":true,"loaderConfig":{"internalModuleBaseUrls":["/_layouts/15/next/spfx/"],"entryModuleId":"sp-lodash-subset","scriptResources":{"sp-lodash-subset":{"type":"path","path":"sp-lodash-subset.js?version=1"}}}}, {"manifestVersion":2,"id":"cc2cc925-b5be-41bb-880a-f0f8030c6aff","version":"1.1.0","componentType":"Library","alias":"OdspUtilitiesBundle","isInternal":true,"loaderConfig":{"internalModuleBaseUrls":["/_layouts/15/next/spfx/"],"entryModuleId":"odsp-utilities.bundle","scriptResources":{"odsp-utilities.bundle":{"type":"path","path":"odsp-utilities.bundle.js?version=1"}}}}, {"manifestVersion":2,"id":"05ed6956-59ad-4aa6-9e4e-b832c96ae87b","version":"0.0.5","componentType":"Library","alias":"SPA11y","isInternal":true,"loaderConfig":{"internalModuleBaseUrls":["/_layouts/15/next/spfx/"],"entryModuleId":"sp-a11y","scriptResources":{"sp-a11y":{"type":"path","path":"sp-a11y.js?version=1"}}}}, {"manifestVersion":2,"id":"c07208f0-ea3b-4c1a-9965-ac1b825211a6","version":"1.1.1","componentType":"Library","alias":"SPHttp","isInternal":true,"loaderConfig":{"internalModuleBaseUrls":["/_layouts/15/next/spfx/"],"entryModuleId":"sp-http","scriptResources":{"sp-http":{"type":"path","path":"sp-http.js?version=1"},"@microsoft/decorators":{"type":"component","id":"f97266fb-ccb7-430e-9384-4124d05295d3","version":"1.1.0"},"@microsoft/sp-core-library":{"type":"component","id":"7263c7d0-1d6a-45ec-8d85-d4d1d234171b","version":"1.1.0"},"@microsoft/sp-lodash-subset":{"type":"component","id":"73e1dc6c-8441-42cc-ad47-4bd3659f8a3a","version":"1.1.0"},"@ms/sp-telemetry":{"type":"component","id":"8217e442-8ed3-41fd-957d-b112e841286a","version":"0.2.2"}}}}, {"manifestVersion":2,"id":"0773bd53-a69e-4293-87e6-ba80ea4d614b","version":"0.1.1","componentType":"Library","alias":"SPExtensionBase","isInternal":true,"loaderConfig":{"internalModuleBaseUrls":["/_layouts/15/next/spfx/"],"entryModuleId":"sp-extension-base","scriptResources":{"sp-extension-base":{"type":"localizedPath","defaultPath":{"default":"sp-extension-base_es-es.js?version=1"}},"@microsoft/sp-component-base":{"type":"component","id":"467dc675-7cc5-4709-8aac-78e3b71bd2f6","version":"1.1.0"},"@ms/sp-telemetry":{"type":"component","id":"8217e442-8ed3-41fd-957d-b112e841286a","version":"0.2.2"},"@microsoft/decorators":{"type":"component","id":"f97266fb-ccb7-430e-9384-4124d05295d3","version":"1.1.0"},"@microsoft/sp-core-library":{"type":"component","id":"7263c7d0-1d6a-45ec-8d85-d4d1d234171b","version":"1.1.0"},"@microsoft/sp-http":{"type":"component","id":"c07208f0-ea3b-4c1a-9965-ac1b825211a6","version":"1.1.1"},"@microsoft/sp-loader":{"type":"component","id":"1c6c9123-7aac-41f3-a376-3caea41ed83f","version":"1.1.1"}}}}],
+
+"perf" : {"IisLatency":"2","spRequestDuration":"780","QueryCount":"105","QueryDuration":"327","CPUDuration":"422","ClaimsAuthenticationTime":"2501","ClaimsAuthenticationTimeType":"ClaimsIdentityNotSet"}
+};
+
+  // Make the legacy page context info available in preloaded context for client side app.
+  spClientSidePageContext.spPageContextInfo = _spPageContextInfo;
+
+  try {
+    global.moduleLoaderPromise = global.spModuleLoader.start(spClientSidePageContext, handleFailure).catch(function(e) {
+      handleFailure({ message: "No se puede cargar la aplicaci\u00F3n de esta p\u00E1gina. Use el bot\u00F3n Atr\u00E1s del explorador para volver a intentarlo. Si el problema persiste, p\u00F3ngase en contacto con el administrador del sitio y proporci\u00F3nele la informaci\u00F3n que aparece en Detalles t\u00E9cnicos.", error: e });
+    });
+  } catch (e) {
+    handleFailure({ message: "No se puede cargar la aplicaci\u00F3n de esta p\u00E1gina. Use el bot\u00F3n Atr\u00E1s del explorador para volver a intentarlo. Si el problema persiste, p\u00F3ngase en contacto con el administrador del sitio y proporci\u00F3nele la informaci\u00F3n que aparece en Detalles t\u00E9cnicos.", error: e });
+  }
+})(window);
+//-->
+
+</script>
+        </span>
+        
+        <!-- CUSTOM CSS THE MJUSTICIA -->
+        </head>
+    <body id="institucional" onhashchange="if (typeof(_spBodyOnHashChange) != 'undefined') _spBodyOnHashChange();"><div id="imgPrefetch" style="display:none">
+<img src="/PublishingImages/icon/favicon.ico?rev=40" />
+<img src="/_layouts/15/images/spcommon.png?rev=40" />
+</div>
+<form method="post" action="./registro-civil?TermStoreId=f43c78bc-a74a-40cc-b651-101f01816128&amp;TermSetId=3ba6e183-fd59-4f7f-803e-3e6ea57d21ae&amp;TermId=9778ccb8-842d-4570-996d-46c13f056a31" id="aspnetForm">
+<input type="hidden" name="_wpcmWpid" id="_wpcmWpid" value="" />
+<input type="hidden" name="wpcmVal" id="wpcmVal" value="" />
+<input type="hidden" name="MSOWebPartPage_PostbackSource" id="MSOWebPartPage_PostbackSource" value="" />
+<input type="hidden" name="MSOTlPn_SelectedWpId" id="MSOTlPn_SelectedWpId" value="" />
+<input type="hidden" name="MSOTlPn_View" id="MSOTlPn_View" value="0" />
+<input type="hidden" name="MSOTlPn_ShowSettings" id="MSOTlPn_ShowSettings" value="False" />
+<input type="hidden" name="MSOGallery_SelectedLibrary" id="MSOGallery_SelectedLibrary" value="" />
+<input type="hidden" name="MSOGallery_FilterString" id="MSOGallery_FilterString" value="" />
+<input type="hidden" name="MSOTlPn_Button" id="MSOTlPn_Button" value="none" />
+<input type="hidden" name="__REQUESTDIGEST" id="__REQUESTDIGEST" value="noDigest" />
+<input type="hidden" name="MSOSPWebPartManager_DisplayModeName" id="MSOSPWebPartManager_DisplayModeName" value="Browse" />
+<input type="hidden" name="MSOSPWebPartManager_ExitingDesignMode" id="MSOSPWebPartManager_ExitingDesignMode" value="false" />
+<input type="hidden" name="MSOWebPartPage_Shared" id="MSOWebPartPage_Shared" value="" />
+<input type="hidden" name="MSOLayout_LayoutChanges" id="MSOLayout_LayoutChanges" value="" />
+<input type="hidden" name="MSOLayout_InDesignMode" id="MSOLayout_InDesignMode" value="" />
+<input type="hidden" name="_wpSelected" id="_wpSelected" value="" />
+<input type="hidden" name="_wzSelected" id="_wzSelected" value="" />
+<input type="hidden" name="MSOSPWebPartManager_OldDisplayModeName" id="MSOSPWebPartManager_OldDisplayModeName" value="Browse" />
+<input type="hidden" name="MSOSPWebPartManager_StartWebPartEditingName" id="MSOSPWebPartManager_StartWebPartEditingName" value="false" />
+<input type="hidden" name="MSOSPWebPartManager_EndWebPartEditing" id="MSOSPWebPartManager_EndWebPartEditing" value="false" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="l13UOe8rmdudhT/NZzYJSS4eoIo88mD1bmqrYojWe0IPVLe4Uwor+s3iuXJLkm8H6yOwdOMBD3rosiQCFB8HPw4hbv6u2uKGf+g295mTVGrOg8Umjh77p3kVcab5afyB1KLIuBrPzjY7olDH/oGqjqq0sL0KQZb6jI22dQwBYvpOzgMq8VVD0stzSSuDjbZre/yaTQzHKGufIqrMyBxa6/kdDS1P+I/wgg7g59Mfa34/BNGWS9sbyF8n3lP1njmudWxMWpy7lHEY/sMaUD4zpN95GBbzYcUDGr8WtLZ0enZi+E+eJcFvlgKVTSiCTMuFSQuSeWaksqADxO4omQduMt7k47AE8aApZYy/HYdcveCk+R9NFAg8ZHdibhddP/dsZrsp7kkN21rFPfsr3La1Mm9JZGG+c9Tv5DZkm5q+cpBRRUHjtwEGbfmFKrOVmcczhIunLfUm6Sw41IEQOpU9pJh2wZvbHZrYMUDbLoPPjpGhPrH5g25qb62zf9n5vjPUoxWdTPmBSgU6Au/frcp5791NoLqlzYRkzwsrSZqrBx4hhYjQByGo+FzAj+VIJAB3SwITHDKokxoUOSVHQ/QctOwqrZ6N4k5hf9OhTPPV0eDVlxswikkCDuDdnihpr7Y9/LKETLLY0ktQKaHT0bqEolmnxsHT5OSMXymYQ5H0CoAV00kwvYvaxS4XdzGLzLd4tjLZkIv+mFt1QhRTw/HKmCfg/YeTb5xB/Azo+zc6y/vJWBS9YkjnkllB5w56JJj3A/mc1Vdh0hd0GWxVSPxTOFg94TtdSOX4h8ccpMUazC0NgE3CjsotwoqemN7ZKL4RHFFGCTceTWQ8joAicYrSqI4YUK34/m5iNTk9s/Aicgpa3w1hPB1mSTP3S3f5vDeI6wRabpdWEj3WIGRYltcaB+980ZJ4D16EiuEAnWZne0J9B5OUcarANXfIWDJaulVv51mHQyOoRZ2X5P+wxqsRxF7LW/qyEq8VoZnaaTThe+2XBB+ti0DBaqtaAU459eG+dv7uSrdXoIYILw919wd+ol/IIPmvUWz4sTT+8iePd5HLckjSzOOYTPld1CHjLuGOZ2yna9noOxNfer07sxpAzOFJuNy/VKueeeM/LCvKY3db/Mldp19tmRsNBYfnk3ELs+sASnqp3y0E6n4oknt2KBS2Vgq8YvOamIurqnv+pgiprdC6Xx1Rga006zo/TAHwggTdumlphSRLXBhkhLZCvNgOIPKVy+TYoEHL4ord5CkGlNPNQf1ww2MXXCJNXfSvwaAt3z32OyFQAqICZp9yMH3H3sNGXJqn1Wsd1swwB8uTzBDBUGiGU4DX1Ug4djWABRFi8CQsTUPiIL6nAjlIfGFiSC64AjrPipLtilLnS2NkbuYRKbeVJqjrXXOy0fzDDeMOdThOU95Js5rg5fBjDBlglZsi0s5iZIo0naoTHiWs7gm6Nm+GdVPHnFPMHGfmxTnjCPZc9n/t/bQt+MB/ADC4HvaYX/MzLHilVlxRb4CC+UPJjUX2p8EedVK2hnY/ENeIOTxU0Z4rJT0rwcacqPmRvRNWD9q//4kdRRvGkjyQDCgLOktE3od1jTgSllnYwubbVieQNtDEJL7Gw/2ldLgG/WLHdfD3W8QYKpEdMe4vJWV0nd4oM0VIIvi6kzX9bYjekuFnZ44zK0pWBa77KNCGcu5oSrFUzVxTYR20NBTK7Gklx0B0xEg8fGxp/4lwlsg3Kxq+TCrvsNK1Q+p9WreLxclUVrx21BnGlgxI6gYj6zV24MHCiH/mNlHRgCybVlNzYy6F9rJN4mrTXuJpQ3dsHlOQ//PGXvN2MiAYjd1z06BDt1/xDH4jPJ3kPL3td1xLhVa7WIHpGAYsjMym6J3JNv6FMRJay3q5ujE6No8BvMh/99xgYm7ENAWiGsTMiT86MUR/+QZ1LgJn0lDseg5ds9WMQW72ae5T4YDjBy2TDsw89oZoxKpPo5KokiRiQMZlXX3d9FQtG4jnLOK+fP1KeIKc9YFsgFSn5/bu4xsFc6PkPwAHSWNW8R5JxyZC16PlTFXp/mz+jaCgOf18ciqKL5sBE1P/pmBuEDl03IaQzy2nEaWQjQqYnFkTsQpIfTtdFtcqaf9bjSmOzZa2p5weqAMI2Cc4RQmp4uZp3ScEhaT9E44+XjixMlD74ZgwHRJjS/d+SHd8uXXHebo+WE5ycoIVN4id1eoeasyTZfiKSRWdjn5FynBCZI5EmoezeMzOlMIU1nkzkOnrdxwiDa3LDlH4a2uYDwj/0AP2SrnyHHrkuj5ny6OU8IvV84D7IIIZOQbTx5hbUVhY5YXQviFzNQ2Wpl18imKGEMp9nNTMZ2HtG2JPLDOkKzxaZ71VC26nj5y33CG7NKlG0pDMQJd1nFljxe3z4gy+DGxQk1pE57yINOJiw6YwfA29w5Pqp8Fscj7+R53slfpCSvnvb3atBiVg8dB/kxq0a5QanJ0=" />
+
+
+<script type="text/javascript">
+//<![CDATA[
+var MSOWebPartPageFormName = 'aspnetForm';
+var g_presenceEnabled = true;
+var g_wsaEnabled = false;
+
+var g_correlationId = 'aecf48a2-0575-2055-a636-e43aff0b83d9';
+var g_wsaQoSEnabled = false;
+var g_wsaQoSDataPoints = [];
+var g_wsaRUMEnabled = false;
+var g_wsaLCID = 3082;
+var g_wsaListTemplateId = 850;
+var g_wsaSiteTemplateId = 'BLANKINTERNET#0';
+var _fV4UI=true;var _spPageContextInfo = {webServerRelativeUrl: "\u002fes\u002fCiudadano\u002fEstadoCivil", webAbsoluteUrl: "https:\u002f\u002fwww.mjusticia.gob.es\u002fes\u002fCiudadano\u002fEstadoCivil", siteAbsoluteUrl: "https:\u002f\u002fwww.mjusticia.gob.es", serverRequestPath: "\u002fes\u002fCiudadano\u002fEstadoCivil\u002fPaginas\u002fregistro-civil.aspx", layoutsUrl: "_layouts\u002f15", webTitle: "Estado Civil", webTemplate: "53", tenantAppVersion: "3625148736", isAppWeb: false, Has2019Era: true, webLogoUrl: "\u002fSiteAssets\u002fimages\u002fbrand\u002fmpjrc1.svg", webLanguage: 3082, currentLanguage: 3082, currentUICultureName: "es-ES", currentCultureName: "es-ES", clientServerTimeDelta: new Date("2026-10-27T00:41:27.3860679Z") - new Date(), updateFormDigestPageLoaded: new Date("2026-10-27T00:41:27.3860679Z"), siteClientTag: "5157$$16.0.5565.1001", crossDomainPhotosEnabled:false, webUIVersion:15, webPermMasks:{High:16,Low:196673},pageListId:"{9e10cc16-ccb8-414d-b57f-ca6c7a27ae5e}",pageItemId:5, pagePersonalizationScope:1, alertsEnabled:true, customMarkupInCalculatedFieldDisabled: true, siteServerRelativeUrl: "\u002f", allowSilverlightPrompt:'True', isSiteAdmin: false};
+                            function DoCallBack(filterText)
+                            {WebForm_DoCallback('ctl00$ctl40$ResultAvisos$ctl01',filterText,UpdateFilterCallback,0,CallBackError,true)
+                            }
+                            function CallBackError(result, clientsideString)
+                            {                
+                            }
+                        document.onreadystatechange=fnRemoveAllStatus; function fnRemoveAllStatus(){removeAllStatus(true)};Flighting.ExpFeatures = [480215056,1880287568,1561350208,302071836,3212816,69472768,4194310,-2113396707,268502022,-872284160,1049232,-2147421952,65536,65536,2097472,917504,-2147474174,1372324107,67108882,0,0,-2147483648,2097152,0,0,32768,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,32768]; (function()
+{
+    if(typeof(window.SP) == "undefined") window.SP = {};
+    if(typeof(window.SP.YammerSwitch) == "undefined") window.SP.YammerSwitch = {};
+
+    var ysObj = window.SP.YammerSwitch;
+    ysObj.IsEnabled = false;
+    ysObj.TargetYammerHostName = "www.yammer.com";
+} )(); var _spWebPartComponents = new Object();//]]>
+</script>
+
+<script src="/_layouts/15/blank.js?rev=xLMlyjalEDldDyf8i1bPEg%3D%3DTAG0" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+(function(){
+
+        if (typeof(_spBodyOnLoadFunctions) === 'undefined' || _spBodyOnLoadFunctions === null) {
+            return;
+        }
+        _spBodyOnLoadFunctions.push(function() {
+            SP.SOD.executeFunc('core.js', 'FollowingDocument', function() { FollowingDocument(); });
+        });
+    })();(function(){
+
+        if (typeof(_spBodyOnLoadFunctions) === 'undefined' || _spBodyOnLoadFunctions === null) {
+            return;
+        }
+        _spBodyOnLoadFunctions.push(function() {
+            SP.SOD.executeFunc('core.js', 'FollowingCallout', function() { FollowingCallout(); });
+        });
+    })();if (typeof(DeferWebFormInitCallback) == 'function') DeferWebFormInitCallback();//]]>
+</script>
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="63F3C61C" />
+<input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="" />
+    
+
+               <!-- TOP MENU -->
+        
+        
+        
+        
+        
+        <div id="ms-designer-ribbon">
+            <div>
+	
+	<div id="s4-ribbonrow" style="visibility:hidden;display:none"></div>
+
+</div>
+
+
+            
+        </div>
+        
+        <div id="s4-workspace">
+            <!--INICIO HEADER-->
+            <header class="header">
+                <div class="header__wrapper">
+                    <div class="header__left">
+                        <h1 class="hidden">
+                            Ministerio de la Presidencia, Justicia y Relaciones de las Cortes
+                            </h1>
+                            <div data-sp-cs-webpartid='g_fb2ed871_d2f3_4f19_8ef4_44a02b49296e'>
+                <script>(function cswp_WPQ1(global) {
+                 if (global.moduleLoaderPromise) {
+                   global.moduleLoaderPromise.then(function(application) {
+                     try {
+                        application.loadWebPart("g_fb2ed871_d2f3_4f19_8ef4_44a02b49296e", "c09194d6-41cb-4f2b-9311-8234ccc6e2fd", "\u003cdiv data-sp-webpart=\"\" data-sp-webpartdataversion=1.0 data-sp-webpartdata=\"&#123;&quot;id&quot;&#58;&quot;c09194d6-41cb-4f2b-9311-8234ccc6e2fd&quot;,&quot;instanceId&quot;&#58;null,&quot;title&quot;&#58;&quot;Inst Common Scripts WebPart&quot;,&quot;description&quot;&#58;&quot;Webpart responsible for adding custom scripts.&quot;,&quot;version&quot;&#58;&quot;0.0.1&quot;,&quot;properties&quot;&#58;&#123;&quot;description&quot;&#58;&quot;Webpart responsible for adding custom scripts.&quot;&#125;,&quot;htmlProperties&quot;&#58;null&#125;\"\u003e\u003cdiv data-sp-componentid=\"\"\u003ec09194d6-41cb-4f2b-9311-8234ccc6e2fd\u003c/div\u003e\u003cdiv data-sp-htmlproperties=\"\"\u003e\u003c/div\u003e\u003c/div\u003e", 1, 1, true, []);
+                        }
+                     catch (e) {
+                        if (application != null && application.logClientSideWebPartLoadError != null) {
+                          application.logClientSideWebPartLoadError("g_fb2ed871_d2f3_4f19_8ef4_44a02b49296e", "No se puede cargar un elemento web en esta p\u00E1gina. Utilice el bot\u00F3n Atr\u00E1s del explorador para volver a intentarlo. Si el problema persiste, p\u00F3ngase en contacto con el administrador del sitio y facil\u00EDtele la informaci\u00F3n que aparece en Detalles t\u00E9cnicos.");
+                          console.error(e);
+                        }
+                        else {
+                            console.error("No se puede cargar un elemento web en esta p\u00E1gina. Utilice el bot\u00F3n Atr\u00E1s del explorador para volver a intentarlo. Si el problema persiste, p\u00F3ngase en contacto con el administrador del sitio y facil\u00EDtele la informaci\u00F3n que aparece en Detalles t\u00E9cnicos.");
+                            console.error(e);
+                        }
+                      }
+                   });
+                 }
+                 else {
+                   console.error("No se puede cargar el contenedor de elemento web de esta p\u00E1gina. Utilice el bot\u00F3n Atr\u00E1s del explorador para volver a intentarlo. Si el problema persiste, p\u00F3ngase en contacto con el administrador del sitio.");
+                 }
+               })(window);</script>
+              </div>
+                              <div class="header__logos">
+                                <a href="https://www.mpr.gob.es" accesskey="H" class="header__logos__img">
+                                    <img src="/Siteassets/images/logos/logo-ministerio-mpjrc.svg" alt="Ministerio de Justicia" />
+                                </a>
+                                 <a href="/" accesskey="2" class="header__logos__img secretaria">
+                                    <img src="/SiteAssets/images/logos/secretaria-justicia.svg" alt="Ministerio de justicia" />
+                                </a>
+                                 <a href="/" accesskey="3" class="header__logos__img secretaria secretaria--small">
+                                    <img src="/SiteAssets/images/logos/secretaria-justicia-small.svg" alt="Ministerio de justicia" />
+                                </a>
+                            </div>
+                            <!-- end of header__logos -->
+                        </div>
+                        <!-- end of header__left -->
+                        <div class="header__right">
+                            <div class="header__right__top">
+                                <ul class="header__list">
+                                    <li class="header__list__item header__list__item--language">
+                                        <div class="header__language language">
+                                            <a href="#" class="header__list__link header__list__link--language language-btn select">
+                                                <span>
+                                                </span>
+                                                <i class="icon-mj_chevron-down-bold header__list__link__icon">
+                                                </i>
+                                            </a>
+                                            <ul class="language__list">
+                                                <li class="language__item">
+                                                    <a href="/ca" class="language__link">Català
+                                                    </a>
+                                                </li>
+                                                <li class="language__item">
+                                                    <a href="/en" class="language__link">English
+                                                    </a>
+                                                </li>
+                                                <li class="language__item">
+                                                    <a href="/es" class="language__link">Castellano
+                                                    </a>
+                                                </li>
+                                                <li class="language__item">
+                                                    <a href="/eu" class="language__link">Euskara
+                                                    </a>
+                                                </li>
+                                                <li class="language__item">
+                                                    <a href="/gl" class="language__link">Galego
+                                                    </a>
+                                                </li>
+                                                <li class="language__item">
+                                                    <a href="/va" class="language__link">Valencià
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="header__list__item header__list__item--search">
+                                        <a class="header__list__link header__list__link--search" title="botón de buscador">
+                                            <span>
+                                                Buscar
+                                                </span>
+                                                <i class="icon-mj_search header__list__link__icon">
+                                                </i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <!-- end of header__list -->
+                                </div>
+                                <!-- end of header__right__top -->
+                                <div class="header__right__bottom">
+						                                 <nav class="nav">
+							<ul class="nav__list">
+								<li class="nav__item">
+									<a href="#" class="nav__btn">
+										<span>Institucional</span>
+										<i class="icon-mj_chevron-down-bold nav__btn__icon"></i>
+									</a>
+									<nav class="subnav">
+										<div class="subnav__header">
+											<a href="/es/institucional" class="subnav__subhome">
+												<span> Institucional </span>
+												<i class="icon-mj_chevron-right"></i>
+											</a>
+										</div>
+										<ul class="subnav__list">
+											<li class="subnav__item">
+												<a href="/es/institucional/funciones-estructura" class="subnav__btn"><span>Funciones y
+														Estructura</span></a>
+											</li>
+											<li class="subnav__item">
+												<a href="/es/institucional/organigrama" class="subnav__btn"><span>Organigrama</span></a>
+											</li>
+											<li class="subnav__item">
+												<a href="/es/institucional/organismos" class="subnav__btn"><span>Organismos</span></a>
+											</li>
+											<li class="subnav__item">
+												<a href="/es/institucional/gabinete-comunicacion" class="subnav__btn"><span>Gabinete de
+														Comunicación</span></a>
+											</li>
+										</ul>
+									</nav>
+								</li>
+								<li class="nav__item">
+									<a href="#" class="nav__btn">
+										<span>Servicio Público de Justicia</span>
+										<i class="icon-mj_chevron-down-bold nav__btn__icon"></i>
+									</a>
+									<nav class="subnav">
+										<div class="subnav__header">
+											<a href="/es/servicio-justicia" class="subnav__subhome">
+												<span> Servicio Público de Justicia </span>
+												<i class="icon-mj_chevron-right"></i>
+											</a>
+										</div>
+										<ul class="subnav__list">
+											<li class="subnav__item">
+												<a href="/es/servicio-justicia/organizacion-justicia" class="subnav__btn"><span>Instituciones de la Justicia</span></a>
+											</li>
+											<li class="subnav__item">
+												<a href="/es/servicio-justicia/proyectos-transformacion" class="subnav__btn"><span>Proyectos
+														Transformación Justicia</span></a>
+											</li>
+											<li class="subnav__item">
+												<a href="/es/servicio-justicia/nuevo-modelo-registro-civil" class="subnav__btn"><span>Nuevo
+														modelo del Registro Civil</span></a>
+											</li>
+											<li class="subnav__item">
+												<a href="/es/servicio-justicia/nuevo-modelo-organizativo-justicia" class="subnav__btn"><span>Nuevo modelo Organizativo de la Justicia</span></a>
+											</li>
+										</ul>
+									</nav>
+								</li>
+								<li class="nav__item">
+									<a href="#" class="nav__btn">
+										<span>Áreas</span>
+										<i class="icon-mj_chevron-down-bold nav__btn__icon"></i>
+									</a>
+									<nav class="subnav">
+										<div class="subnav__header">
+											<a href="/es/areas-actuacion" class="subnav__subhome">
+												<span> Áreas </span>
+												<i class="icon-mj_chevron-right"></i>
+											</a>
+										</div>
+										<ul class="subnav__list">
+											<li class="subnav__item">
+												<a href="/es/areas-actuacion/actividad-legislativa" class="subnav__btn"><span>Actividad
+														Legislativa</span></a>
+											</li>
+											<li class="subnav__item">
+												<a href="/es/areas-actuacion/igualdad" class="subnav__btn"><span>Igualdad</span></a>
+											</li>
+											<li class="subnav__item">
+												<a href="/es/areas-actuacion/conferencias-jornadas" class="subnav__btn"><span>Conferencias y
+														jornadas</span></a>
+											</li>
+											<li class="subnav__item">
+												<a href="/es/areas-actuacion/documentacion-publicaciones" class="subnav__btn"><span>Documentación y Publicaciones</span></a>
+											</li>
+											<li class="subnav__item">
+												<a href="/es/areas-actuacion/derechos-de-gracia" class="subnav__btn"><span>Derechos de
+														Gracia</span></a>
+											</li>
+											<li class="subnav__item">
+												<a href="/es/areas-actuacion/oficina-recuperacion-gestion" class="subnav__btn"><span>Oficina de
+														Recuperación y Gestión de Activos</span></a>
+											</li>
+											<li class="subnav__item">
+												<a href="/es/areas-actuacion/fondos-next-generation" class="subnav__btn"><span>Fondos Next
+														Generation</span></a>
+											</li>
+											<li class="subnav__item">
+												<a href="/es/areas-actuacion/internacional" class="subnav__btn"><span>Internacional</span></a>
+											</li>
+											<li class="subnav__item">
+												<a href="/es/areas-actuacion/tesoros-ministerio-justicia" class="subnav__btn"><span>Tesoros
+														Ministerio de Justicia</span></a>
+											</li>
+										</ul>
+									</nav>
+								</li>
+								<li class="nav__item">
+									<a href="#" class="nav__btn">
+										<span>Ciudadanía</span>
+										<i class="icon-mj_chevron-down-bold nav__btn__icon"></i>
+									</a>
+									<nav class="subnav">
+										<div class="subnav__header">
+											<a href="/es/ciudadania" class="subnav__subhome">
+												<span> Ciudadanía </span>
+												<i class="icon-mj_chevron-right"></i>
+											</a>
+										</div>
+										<ul class="subnav__list">
+											<li class="subnav__item">
+												<a href="/es/ciudadania/tramites" class="subnav__btn"><span>Trámites</span></a>
+											</li>
+											<li class="subnav__item">
+												<a href="/es/ciudadania/empleo-publico" class="subnav__btn"><span>Empleo Público</span></a>
+											</li>
+											<li class="subnav__item">
+												<a href="/es/ciudadania/victimas" class="subnav__btn"><span>Víctimas</span></a>
+											</li>
+											<li class="subnav__item">
+												<a href="/es/ciudadania/nacionalidad" class="subnav__btn"><span>Nacionalidad</span></a>
+											</li>
+											<li class="subnav__item">
+												<a href="/es/ciudadania/registros" class="subnav__btn"><span>Registros</span></a>
+											</li>
+											<li class="subnav__item">
+												<a href="/es/ciudadania/estado-civil" class="subnav__btn"><span>Estado civil</span></a>
+											</li>
+											<li class="subnav__item">
+												<a href="/es/ciudadania/cita-previa" class="subnav__btn"><span>Citas previas</span></a>
+											</li>
+											<li class="subnav__item">
+												<a href="/es/ciudadania/justicia-accesible-personas-discapacidad" class="subnav__btn"><span>Justicia Accesible para Personas con Discapacidad</span></a>
+											</li>
+											<li class="subnav__item">
+												<a href="https://www.mpr.gob.es/servicios/participacion/Paginas/index.aspx" class="subnav__btn"><span>Participación pública en proyectos normativos</span></a>
+											</li>
+										</ul>
+									</nav>
+								</li>
+								<li class="nav__item">
+									<a href="#" class="nav__btn">
+										<span>Entidades</span>
+										<i class="icon-mj_chevron-down-bold nav__btn__icon"></i>
+									</a>
+									<nav class="subnav">
+										<div class="subnav__header">
+											<a href="/es/entidad" class="subnav__subhome">
+												<span> Entidades </span>
+												<i class="icon-mj_chevron-right"></i>
+											</a>
+										</div>
+										<ul class="subnav__list">
+											<li class="subnav__item">
+												<a href="/es/entidad/profesionales" class="subnav__btn"><span>Profesionales</span></a>
+											</li>
+											<li class="subnav__item">
+												<a href="/es/entidad/registros" class="subnav__btn"><span>Registros</span></a>
+											</li>
+										</ul>
+									</nav>
+								</li>
+							</ul>
+						</nav>                     
+				 </div>
+                                <!-- end of header__right__bottom -->
+                            </div>
+                            <!-- end of header__right -->
+                            <a href="#" class="header__btn-toggle nav__btn-toggle">
+                                <div class="nav__btn-toggle__lines">
+                                    <span class="nav__btn-toggle__line nav__btn-toggle__line--top">
+                                    </span>
+                                    <span class="nav__btn-toggle__line nav__btn-toggle__line--middle">
+                                    </span>
+                                    <span class="nav__btn-toggle__line nav__btn-toggle__line--bottom">
+                                    </span>
+                                </div>
+                                <!--end of nav__btn-toggle__lines-->
+                                <p class="nav__btn-toggle__word">
+                                    Menú
+                                    </p>
+                                </a>
+                                <!-- nav__btn-toggle-->
+                            </div>
+                            <div class="header__flag">
+                            </div>
+                            <div class="header__subnav">
+                                <div class="header__subnav__wrapper">
+                                    <ul class="header__subnav__list">
+                                        <li class="header__subnav__item">
+                                            <a href="https://sede.mjusticia.gob.es" class="header__subnav__link">
+                                                <i class="icon-mj_mouse">
+                                                </i>
+                                                <span>
+                                                    Sede Electrónica
+                                                    </span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="header__search">
+                                    <div class="search__wrapper">
+                                        <form class="search__form">
+                                            <div class="search__form__container">
+                                                <input class="search__form__input form-control inpSearch" type="search" placeholder="Buscar en el Ministerio" aria-label="Search" title="Buscador" name="q" id="buscar" />
+                                                <button class="search__form__btn" type="button" title="botón de buscador" id="buscadorbuttom">
+                                                    <i class="icon-mj_search  search__form__btn__icon">
+                                                    </i>
+                                                </button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                                <!-- buscador-->
+                            </header>
+                            <div id="s4-bodyContainer">
+                                
+                                
+                                    
+                                    
+                                
+                                
+                                <!--  -->
+                                
+                                
+                                    
+                                    
+                                
+                                
+                                
+                                
+                                
+                                
+                                <span id="DeltaPlaceHolderMain">
+                                    
+    <!-- GUID Categoria de suscripcion -->
+    <div>
+	
+        <div id="txtNewsletterCategories" class="hide"></div>
+    
+</div>
+    
+     <!-- Tipo de contenido de la pagina -->
+    <div id="txtContentType" class="hide">
+		CommonCTPages</div>
+    
+      <!--Area -->
+    <div id="txtCategoriaArea" class="hide">
+		</div>
+
+ 	<!--Vitales-->
+    <div id="txtCategoriaHechosVitales" class="hide">
+		</div>
+
+	<!--GUID valoracion-->	
+	 <div id="txtContentID" class="hide">
+		{8D8DAE56-D9BE-43C3-B497-3F7836923EF1}
+    </div>
+
+
+    <main id="main" role="main" class="main content">
+       		
+        <!-- Breadcrumb -->        
+         <div class="breadcrumb">
+			
+		    <span id="ctl00_PlaceHolderMain_siteMapPath" class="breadcrumb__list"><span class="breadcrumb__item">
+	                    
+					        <a class="breadcrumb__link" href='/es' title='Español'>Español</a>
+					      
+	            </span><span></span><span class="breadcrumb__item">
+	                    
+					        <a class="breadcrumb__link" href='/es/ciudadania' title='Ciudadanía'>Ciudadanía</a>
+					      
+	            </span><span></span><span class="breadcrumb__item">
+	                    
+					        <a class="breadcrumb__link" href='/es/ciudadania/estado-civil' title='Estado civil'>Estado civil</a>
+					      
+	            </span><span></span><span class="breadcrumb__item">
+			          
+			                   Registro Civil
+			           
+			        </span></span>	
+			    	
+		  <asp:input type="hidden" id="commoncolbreadcrumb" value='Sí' />
+		 </div>   
+ 			
+ 		 <!-- Avisos Multiportal -->
+                <div class="ms-webpart-zone ms-fullWidth">
+	<div id="MSOZoneCell_WebPartWPQ5" class="s4-wpcell-plain ms-webpartzone-cell ms-webpart-cell-vertical ms-fullWidth ">
+		<div class="ms-webpart-chrome ms-webpart-chrome-vertical ms-webpart-chrome-fullWidth ">
+			<div WebPartID="be50a4a1-68b4-49d3-b8da-e9a0c8532ac5" HasPers="false" id="WebPartWPQ5" width="100%" class="ms-WPBody noindex " allowDelete="false" style="" ><div class="ms-webpart-chrome ms-webpart-chrome-fullWidth ">
+				<div class="ms-webpart-chrome-title" id="WebPartWPQ6_ChromeTitle">
+					<span title="" id="WebPartTitleWPQ6" class="js-webpart-titleCell"><h2 style="text-align:justify;" class="ms-webpart-titleText">&nbsp;<span></span><span id="WebPartCaptionWPQ6"></span></h2></span>
+				</div><div WebPartID="00000000-0000-0000-0000-000000000000" HasPers="true" id="WebPartWPQ6" width="100%" class="ms-WPBody ms-WPBorder noindex ms-wpContentDivSpace " OnlyForMePart="true" allowDelete="false" style="" ><noscript><div id="ctl00_ctl40_ResultAvisos_ctl00_noscript">Parece que el explorador no tiene JavaScript habilitado. Active JavaScript e inténtelo de nuevo.</div></noscript><div id="ctl00_ctl40_ResultAvisos_ctl00">
+
+				</div><div class="ms-clear"></div></div>
+			</div><div class="ms-webpart-chrome ms-webpart-chrome-fullWidth ">
+				<div class="ms-webpart-chrome-title" id="WebPartWPQ7_ChromeTitle">
+					<span title="" id="WebPartTitleWPQ7" class="js-webpart-titleCell"><h2 style="text-align:justify;" class="ms-webpart-titleText">&nbsp;<span></span><span id="WebPartCaptionWPQ7"></span></h2></span>
+				</div><div WebPartID="00000000-0000-0000-0000-000000000000" HasPers="true" id="WebPartWPQ7" width="100%" class="ms-WPBody ms-WPBorder noindex ms-wpContentDivSpace " OnlyForMePart="true" allowDelete="false" style="" ><?xml version="1.0" encoding="utf-8"?><div class="ms-clear"></div></div>
+			</div><div class="ms-clear"></div></div>
+		</div>
+	</div>
+</div>                   
+       
+	
+                 	   
+          <section class="section">
+				<div class="section__wrapper">
+						<div class="titleSection">
+                          
+				                
+				                
+				                <div>
+	
+				                    <h2 class="cH1"> El Registro Civil</h2>
+				                
+</div>
+				                 
+            			</div>
+				</div>
+			</section>
+                    <section class="section section--small">
+      					<div class="section__wrapper">                           
+                            <div class="grid-aside">
+						           <aside class="grid-aside__aside common-right-container">
+						            
+						            
+						         
+            					    <div data-sp-cs-webpartid='g_23d60964_07d0_4a44_bc3d_4d4c38d72271'>
+                <script>(function cswp_WPQ2(global) {
+                 if (global.moduleLoaderPromise) {
+                   global.moduleLoaderPromise.then(function(application) {
+                     try {
+                        application.loadWebPart("g_23d60964_07d0_4a44_bc3d_4d4c38d72271", "1c173a18-77cf-43cf-a794-b566366b1219", "\u003cdiv data-sp-webpart=\"\" data-sp-webpartdataversion=1.0 data-sp-webpartdata=\"&#123;&quot;id&quot;&#58;&quot;1c173a18-77cf-43cf-a794-b566366b1219&quot;,&quot;instanceId&quot;&#58;&quot;g_23d60964_07d0_4a44_bc3d_4d4c38d72271&quot;,&quot;title&quot;&#58;&quot;Menu Lateral&quot;,&quot;description&quot;&#58;&quot;Component that retrieves the parent item and children from Taxonomy&quot;,&quot;dataVersion&quot;&#58;&quot;1.0&quot;,&quot;properties&quot;&#58;&#123;&quot;defaultTermSet&quot;&#58;&quot;Navegación de variantes&quot;,&quot;isNavigationSubhome&quot;&#58;false,&quot;position&quot;&#58;&quot;5077EE53-8720-473F-B854-61B90F92AF9B&quot;,&quot;showParent&quot;&#58;false,&quot;showSiblings&quot;&#58;true,&quot;showChildren&quot;&#58;true,&quot;style&quot;&#58;1,&quot;isNavigation&quot;&#58;true&#125;&#125;\"\u003e\u003cdiv data-sp-componentid=\"\"\u003e1c173a18-77cf-43cf-a794-b566366b1219\u003c/div\u003e\u003cdiv data-sp-htmlproperties=\"\"\u003e\u003c/div\u003e\u003c/div\u003e", 1, 1, true, []);
+                        }
+                     catch (e) {
+                        if (application != null && application.logClientSideWebPartLoadError != null) {
+                          application.logClientSideWebPartLoadError("g_23d60964_07d0_4a44_bc3d_4d4c38d72271", "No se puede cargar un elemento web en esta p\u00E1gina. Utilice el bot\u00F3n Atr\u00E1s del explorador para volver a intentarlo. Si el problema persiste, p\u00F3ngase en contacto con el administrador del sitio y facil\u00EDtele la informaci\u00F3n que aparece en Detalles t\u00E9cnicos.");
+                          console.error(e);
+                        }
+                        else {
+                            console.error("No se puede cargar un elemento web en esta p\u00E1gina. Utilice el bot\u00F3n Atr\u00E1s del explorador para volver a intentarlo. Si el problema persiste, p\u00F3ngase en contacto con el administrador del sitio y facil\u00EDtele la informaci\u00F3n que aparece en Detalles t\u00E9cnicos.");
+                            console.error(e);
+                        }
+                      }
+                   });
+                 }
+                 else {
+                   console.error("No se puede cargar el contenedor de elemento web de esta p\u00E1gina. Utilice el bot\u00F3n Atr\u00E1s del explorador para volver a intentarlo. Si el problema persiste, p\u00F3ngase en contacto con el administrador del sitio.");
+                 }
+               })(window);</script>
+              </div>
+								
+												
+									<menu class="ms-hide">
+	<ie:menuitem id="MSOMenu_Help" iconsrc="/_layouts/15/images/HelpIcon.gif" onmenuclick="MSOWebPartPage_SetNewWindowLocation(MenuWebPart.getAttribute(&#39;helpLink&#39;), MenuWebPart.getAttribute(&#39;helpMode&#39;))" text="Ayuda" type="option" style="display:none">
+
+	</ie:menuitem>
+</menu>		
+                      
+	                         			
+									</aside>
+								<div class="grid-aside__main">
+            						        					
+
+            						   	                                   
+	                                 	  <div>
+	
+	
+												<div class="editor">    
+													<div data-check-remove="yes">
+														<div id="ctl00_PlaceHolderMain_ctl07_ctl00_label" style='display:none'>Contenido de la página</div><div id="ctl00_PlaceHolderMain_ctl07_ctl00__ControlWrapper_RichHtmlField" class="ms-rtestate-field" style="display:inline" aria-labelledby="ctl00_PlaceHolderMain_ctl07_ctl00_label"><h3>  <a href="/es/Ciudadano/EstadoCivil/Documents/Nota%20cita%20previa%20RCC.pdf">
+                     <strong>​Servicio de Cita Previa en el Registro Civil Central</strong></a><strong>.​</strong></h3><div><h3><br><strong>
+           
+             
+            </strong><a href="/es/Documents/NOTA%20INFORMATIVA%20ENTRADA%20EN%20VIGOR%20LEY%206-2021.pdf"><strong>
+                Nota informativa sobre entrada en vigor de la  Ley 6​/2021, de 28 de abril, de reforma de la ley 20/2011</strong></a>​ 
+     ​</h3><div><br>
+   <h3> 
+      ​Advertenc​ia&#58;</h3><p>El Ministerio de Justicia recuerda que de conformidad con el artículo primero de la Ley 25/1986, de 24 de diciembre, de Supresión de las Tasas Judiciales, las actuaciones del Registro Civil son gratuitas,​&#160;y sus certificaciones pueden obtenerse directamente por los ciudadanos sin coste alguno y sin que estén sometidas al pago de ninguna tasa o derecho, bien presencialmente ante la Oficina del Registro Civil correspondiente, bien a través de la 
+      <a href="/es">Sede electrónica del Ministerio de Justicia</a>.<br></p><p>El Ministerio de Justicia advierte que no tiene relación alguna con ninguna de las páginas web que ofrecen a los ciudadanos la obtención de dichas certificaciones a cambio de un precio. Estas cantidades no se corresponden en ningún caso con el pago de ninguna tasa o derecho a abonar al Ministerio de Justicia, ya que, como se indica en el párrafo anterior, las certificaciones del Registro Civil son gratuitas.</p><p><strong>​El Registro Civil es un registro en el que se inscriben los hechos concernientes al estado civil de las personas.</strong>​<br></p><h3>¿Q​​​ué se inscribe en el Registro Civil?</h3><p>En el Registro Civil se inscriben&#58;</p><ul><li>El nacimiento.</li><li>La filiación.</li><li>El nombre y apellidos y cambios sobre los mismos.</li><li>La emancipación y habilitación de edad.</li><li>Las modificaciones judiciales de la capacidad de las personas o que éstas han sido declaradas en concurso, quiebra o suspensión de pagos.</li><li>Las declaraciones de ausencia o fallecimiento.</li><li>La nacionalidad y vecindad.</li><li>La patria potestad, tutela y demás representaciones que señala la Ley.</li><li>El matrimonio.</li><li>La defunción.</li></ul><h3>¿Cuánto cuest​a inscribir en el Registro Civil?</h3><p>Son enteramente gratuitos los asientos del Registro Civil, las licencias de enterramiento y los expedientes relativos al Registro Civil.</p><h3>¿Cuáles son los ó​rganos del Registro Civil?</h3><p>Institucionalmente el 
+      <a href="http&#58;//www.mjusticia.gob.es/?apartado=buscadorGeneral&amp;tipo=RC&amp;lang=es_es">Registro Civil</a> es único.</p><p>Conforme al artículo 10 de la Ley del Registro Civil, el Registro Civil está integrado por los Registros Municipales a cargo del Juez de 1ª Instancia, asistido del Secretario, por los Registros Consulares, a cargo de los Cónsules de España en el extranjero y por el Registro Civil Central.</p><p>Los 
+      <a href="http&#58;//www.mjusticia.gob.es/?apartado=buscadorGeneral&amp;tipo=RC&amp;lang=es_es">Registro Civil</a> Municipales Principales son 431. De ellos 16 son exclusivos dedicados únicamente a tareas de Registro Civil. El resto se encuentra a cargo de un Juez de 1ª Instancia asistido por un secretario que realizan actividades registrales de forma parcial.</p><p>Los 
+      <a href="http&#58;//www.mjusticia.gob.es/">Juzgados de Paz</a>, actuando asimismo como Registros Civiles Municipales Delegados. En la actualidad existen 7.667.</p><p>En cada 
+      <a class="enlacePantallaNueva" href="http&#58;//www.exteriores.gob.es/Portal/es/ServiciosAlCiudadano/Paginas/EmbajadasConsulados.aspx">demarcación consular</a> existe una oficina del Registro Civil. En la actualidad existen 177.</p><h3>¿Cómo se orga​​niza el Registro Civil?</h3><p>El Registro Civil se divide en cuatro secciones&#58;</p><ul><li><p>La primera, de Nacimientos y general;</p></li><li><p>La segunda, Matrimonios;</p></li><li><p>La tercera, Defunciones;</p></li><li><p>La cuarta, Tutelas y representaciones legales.</p></li></ul><h3>¿Qué Registro es co​mpetente en cada caso?</h3><p>Los nacimientos, matrimonios y defunciones han de inscribirse en el Registro del lugar en que ocurren. Si se desconoce dicho lugar, la inscripción de nacimiento o defunción se hará en el Registro correspondiente a aquel en que se encuentre el niño abandonado o el cadáver.</p><p>Para la inscripción de los nacimientos, matrimonios y defunciones ocurridos en el curso de un viaje será competente el del lugar en que se dé término al mismo. Si se tratare de fallecimiento, el del lugar donde haya de efectuarse el enterramiento o, en su defecto, el de primera arribada.</p><p>No obstante lo anterior, los nacimientos acaecidos en territorio español, cuando su inscripción se solicite dentro del plazo, podrán inscribirse en el Registro Civil Municipal correspondiente al domicilio del progenitor o progenitores legalmente conocidos.</p><p>La solicitud se formulará, de común acuerdo, por los representantes legales del nacido o, en su caso, por el único representante legal de éste, acompañándose a la petición la documentación reglamentariamente establecida para justificar el domicilio común de los padres o del solo progenitor conocido.</p><p>En las inscripciones de nacimiento extendidas como consecuencia de lo establecido en este apartado, se considerará a todos los efectos legales que el lugar del nacimiento del inscrito es el municipio en el que se haya practicado el asiento. Las certificaciones en extracto sólo harán mención de este término municipal.</p><p>También es competente el Registro Civil Municipal cuando se trate de la inscripción del nacimiento por adopción o adquisición de la nacionalidad española a que se refieren expresamente los apartados 3 y 4 del artículo 16 de la Ley del Registro Civil.</p><h3>Efectos de la inscripción​​ en el Registro Civil.</h3><p>El Registro Civil constituye la prueba de los hechos inscritos. Sólo en los casos de falta de inscripción o en los que no fuera posible certificar (obtener certificación) el asiento se admitirán otros medios de prueba, pero en el primer supuesto será requisito indispensable para su admisión que, previa o simultáneamente, se haya instado la inscripción omitida o la reconstitución del asiento.</p><h3>Publicidad del Registro ​​Civil.</h3><p>El Registro Civil es público para quienes tengan interés en conocer los asientos, salvo en los siguientes casos, que impiden que se dé publicidad sin autorización especial</p><ul><li><p>De la filiación adoptiva o desconocida o de circunstancias que descubran tal carácter y del cambio del apellido Expósito u otros análogos o inconvenientes.</p></li><li><p>De la rectificación del sexo.</p></li><li><p>De las causas de privación o suspensión de la patria potestad.</p></li><li><p>De los documentos archivados, en cuanto a los extremos citados en los números anteriores o a circunstancias deshonrosas o que estén incorporados en expediente que tenga carácter reservado.</p></li><li><p>Del legajo de abortos.</p></li><li><p>De los cambios de apellidos autorizados conforme a lo previsto en el párrafo tercero del artículo 208 de este Reglamento.</p></li></ul><p>La publicidad se r​​ealiza&#58;</p><ul><li><p>Por manifestación y examen de los libros, previa autorización de su Encargado.</p></li><li><p> 
+         <a href="https&#58;//sede.mjusticia.gob.es/">Por certificación de los asientos</a>&#58; Las certificaciones del Registro Civil son gratuitas y no están sometidas a ninguna tasa o derecho</p></li></ul><h3>¿Qué es el Registro Civil Ce​ntral?</h3><p>El Registro Civil Central es un registro dependiente del Ministerio de Justicia en el que se inscriben los hechos para cuya inscripción no resulte competente ningún otro Registro y aquéllos que no puedan inscribirse por concurrir circunstancias excepcionales que impidan el funcionamiento del Registro correspondiente.</p><p>Igualmente se llevarán en el Registro Civil Central los libros formados con los duplicados de las inscripciones consulares y de las inscripciones de nacimiento, que aún habiendo acaecido en el extranjero, hayan sido practicadas en los Registros Municipales conforme a lo dispuesto en la Ley.</p><p>También se llevarán en el Registro Central los libros formados con los duplicados de las inscripciones sobre modificaciones judiciales de la capacidad de obrar, constitución y modificación de cargos tutelares, prórroga o rehabilitación de la patria potestad, medidas judiciales sobre guarda o administración de presuntos incapaces o menores no sujetos a patria potestad, vigilancia o control de tales cargos, y constitución de patrimonios protegidos y designación y modificación de administradores de patrimonios protegidos practicadas en los distintos Registros Municipales, bajo la denominación de &quot;Libro de Incapacitaciones, cargos tutelares y administradores de Patrimonios Protegidos (<a href="http&#58;//www.boe.es/boe/dias/2009/03/26/pdfs/BOE-A-2009-5028.pdf" class="enlacePantallaNueva">Ley 1/2009 de 25 de marzo</a>).</p><p>Cuando sea competente un Registro Consular, si el promotor está domiciliado en España, deberá practicarse antes la inscripción en el Registro Central, y después, por traslado, en el Consular correspondiente.</p><p>También se inscribirán en el Libro Especial de este Registro los matrimonios secretos.</p><h3>Organiza​​ción del Registro Civil Central.</h3><p>El Registro Civil Central está cargo de dos Magistrados, asistidos de otros tantos Secretarios Judiciales, y está atendido por funcionarios de la Administración de Justicia.</p><p>En el Registro Civil Central se inscriben&#58;</p><ul><li><p>El nacimiento de españoles ocurrido en el extranjero.</p></li><li><p>El nacimiento de extranjeros que adquieren la nacionalidad española (*).</p></li><li><p>El nacimiento y la adopción constituida en el extranjero (*)</p></li><li><p>Las modificaciones de nacionalidad y vecindad de personas nacidas en el extranjero.</p></li><li><p>El matrimonio celebrado en el extranjero entre españoles o personas que posteriormente adquieren la nacionalidad española.</p></li><li><p>El matrimonio secreto.</p></li><li><p>La defunción de españoles ocurrida en el extranjero.</p></li><li><p>La defunción de personas de nacionalidad extranjera fallecidas al servicio de las Fuerzas Armadas y de las Fuerzas de Seguridad españolas, siempre que dicho fallecimiento hubiera ocurrido durante una misión u operación fuera de España.</p></li></ul><p>(<span class="asterisco">*</span>) Pueden también inscribirse en el Registro Municipal, según permite la 
+      <a href="http&#58;//www.boe.es/boe/dias/2005/11/19/pdfs/A37846-37868.pdf" class="enlacePantallaNueva">disposición adicional séptima de la Ley 24/2005, de 18 de noviembre, de reformas para el impulso de la productividad.</a></p><h3>Nuevos folletos d​​el Registro Civil Central<br></h3><ul><li> 
+         <a href="/es/Ciudadano/EstadoCivil/Documents/1292430468731-Folleto_Certificados_Reg.PDF" class="enlacePantallaNueva">Folleto Certificados Reg. Civil Central 
+            <span>(PDF. 234 
+               <abbr lang="en" title="Kilobytes">KB</abbr>)</span></a></li><li> 
+         <a href="/es/Ciudadano/EstadoCivil/Documents/1292430468815-To_request_CERTIFICATES_of_Birth_Marriage_Death.PDF" class="enlacePantallaNueva">To request CERTIFICATES of&#58; Birth Marriage Death 
+            <span>(PDF. 234 
+               <abbr lang="en" title="Kilobytes">KB</abbr>)</span></a></li><li> 
+         <a href="/es/Ciudadano/EstadoCivil/Documents/1292430468830-On_y_demande_les_EXTRAITS_ET_COPIES_des_Naissance_Mariage_Deces.PDF" class="enlacePantallaNueva">On y demande les EXTRAITS ET COPIES des&#58; Naissance Mariage Décès 
+            <span>(PDF. 154 
+               <abbr lang="en" title="Kilobytes">KB</abbr>)</span></a></li><li> 
+         <a href="/es/Ciudadano/EstadoCivil/Documents/1292430468845-Folleto_Certificados_Reg.PDF" class="enlacePantallaNueva">Folleto Certificados Reg. Civil Central (árabe) 
+            <span>(PDF. 905 
+               <abbr lang="en" title="Kilobytes">KB</abbr>)</span></a></li><li> 
+         <a href="/es/Ciudadano/EstadoCivil/Documents/1292430468860-Application_for_Spanish_citizenship_by_choice.PDF" class="enlacePantallaNueva">Application for Spanish citizenship by choice 
+            <span>(PDF. 234 
+               <abbr lang="en" title="Kilobytes">KB</abbr>)</span></a></li><li> 
+         <a href="/es/Ciudadano/EstadoCivil/Documents/1292430468875-Demande_de_Nationalite_Espagnole_par_option.PDF" class="enlacePantallaNueva">Demande de Nationalite Espagnole par option 
+            <span>(PDF. 154 
+               <abbr lang="en" title="Kilobytes">KB</abbr>)</span></a></li><li> 
+         <a href="/es/Ciudadano/EstadoCivil/Documents/1292430468890-Nacionalidad_espanola_por_opcion_arabe.PDF" class="enlacePantallaNueva">Nacionalidad española por opción (árabe) 
+            <span>(PDF. 1,07 
+               <abbr lang="en" title="Megabytes">MB</abbr>)</span></a></li><li> 
+         <a href="/es/Ciudadano/EstadoCivil/Documents/1292430468905-Birth_registration_with_marginal_note_of_international_adoption.PDF" class="enlacePantallaNueva">Birth registration with marginal note of international adoption 
+            <span>(PDF. 237 
+               <abbr lang="en" title="Kilobytes">KB</abbr>)</span></a></li><li> 
+         <a href="/es/Ciudadano/EstadoCivil/Documents/1292430468920-Inscription_de_naissance_avec_mention_marginale_D%27Adoption_internationale.PDF" class="enlacePantallaNueva">Inscription de naissance avec mention marginale D'Adoption internationale 
+            <span>(PDF. 981 
+               <abbr lang="en" title="Kilobytes">KB</abbr>)</span></a></li><li> 
+         <a href="/es/Ciudadano/EstadoCivil/Documents/1292430469435-Inscripcion_de_Nacimiento_con_marginal_de_adopcion_Internacional_arabe.PDF" class="enlacePantallaNueva">Inscripción de Nacimiento con marginal de adopción Internacional (árabe) 
+            <span>(PDF. 924 
+               <abbr lang="en" title="Kilobytes">KB</abbr>)</span></a></li><li> 
+         <a href="/es/Ciudadano/EstadoCivil/Documents/1292430468695-INSCRIPCION_NACIMIENTO_EXTRANJEROS_ADQUIEREN_NACIONALIDAD_ESPANOLA.PDF" class="enlacePantallaNueva">INSCRIPCION NACIMIENTO EXTRANJEROS ADQUIEREN NACIONALIDAD ESPAÑOLA 
+            <span>(PDF. 235 
+               <abbr lang="en" title="Kilobytes">KB</abbr>)</span></a></li><li> 
+         <a href="/es/Ciudadano/EstadoCivil/Documents/1292430469450-Birth_registration_of_foreign_citizens_acquiring_Spanish_citizenship.PDF" class="enlacePantallaNueva">Birth registration of foreign citizens acquiring Spanish citizenship 
+            <span>(PDF. 234 
+               <abbr lang="en" title="Kilobytes">KB</abbr>)</span></a></li><li> 
+         <a href="/es/Ciudadano/EstadoCivil/Documents/1292430469465-Inscription_de_la_naissance_des_ressortissants_etrangers_ayant_acquis_la_nationalite_espagnole.PDF" class="enlacePantallaNueva">Inscription de la naissance des ressortissants étrangers ayant acquis la nationalité espagnole 
+            <span>(PDF. 161 
+               <abbr lang="en" title="Kilobytes">KB</abbr>)</span></a></li><li> 
+         <a href="/es/Ciudadano/EstadoCivil/Documents/1292430469480-Inscripcion_de_nacimiento_de_ciudadanos_extranjeros_que_adquieren_la_nacionalidad_Espanola_arabe.PDF" class="enlacePantallaNueva">Inscripción de nacimiento de ciudadanos extranjeros que adquieren la nacionalidad Española (árabe) 
+            <span>(PDF. 964 
+               <abbr lang="en" title="Kilobytes">KB</abbr>)</span></a></li><li> 
+         <a href="/es/Ciudadano/EstadoCivil/Documents/1292430468659-INSCRIPCION_MATRIMONIO_ESPANOLES_EN_EXTRANJERO.PDF" class="enlacePantallaNueva">INSCRIPCION MATRIMONIO ESPAÑOLES EN EXTRANJERO 
+            <span>(PDF. 236 
+               <abbr lang="en" title="Kilobytes">KB</abbr>)</span></a></li><li> 
+         <a href="/es/Ciudadano/EstadoCivil/Documents/1292430469495-Registration_of_the_Marriage_of_Spanish_subjects_abroad.PDF" class="enlacePantallaNueva">Registration of the Marriage of Spanish subjects abroad 
+            <span>(PDF. 235 
+               <abbr lang="en" title="Kilobytes">KB</abbr>)</span></a></li><li> 
+         <a href="/es/Ciudadano/EstadoCivil/Documents/1292430469510-Inscription_du_mariage_contractE_par_les_Espagnols_a_l%27Etranger.PDF" class="enlacePantallaNueva">Inscription du mariage contractÉ par les Espagnols a l'Etranger 
+            <span>(PDF. 153 
+               <abbr lang="en" title="Kilobytes">KB</abbr>)</span></a></li><li> 
+         <a href="/es/Ciudadano/EstadoCivil/Documents/1292430469525-Inscripcion_de_Matrimonio_celebrado_por_espanoles_en_el_Extranjero_arabe.PDF" class="enlacePantallaNueva">Inscripción de Matrimonio celebrado por españoles en el Extranjero (árabe) 
+            <span>(PDF. 1,04 
+               <abbr lang="en" title="Megabytes">MB</abbr>)</span></a></li></ul><h3>Normat​​iva<br></h3><ul><li> 
+         <a href="http&#58;//www.boe.es/buscar/act.php?id=BOE-A-1957-7537" class="enlaceAviso enlacePantallaNueva" title="Este enlace se abre en una nueva pantalla">Ley de 8 de junio de 1957 sobre el Registro Civil</a>.</li><li> 
+         <a href="https&#58;//www.boe.es/buscar/doc.php?id=BOE-A-1958-18486" class="enlaceAviso enlacePantallaNueva" title="Este enlace se abre en una nueva pantalla">Decreto de 14 de noviembre de 1958 por el que se aprueba el Reglamento de la Ley del Registro Civil</a>.</li><li> 
+         <a class="enlacePantallaNueva" href="http&#58;//www.boe.es/boe/dias/1990/05/25/pdfs/A14378-14378.pdf">Real Decreto 644/1990, de 18 de mayo sobre normas relativas al Registro Civil Central.</a></li><li> 
+         <a href="/es/Ciudadano/EstadoCivil/Documents/1292430468641-ResolucionCircular_de_31_de_octubre_de_2005_en_materia_de_adopciones_internacionales.PDF" class="enlacePantallaNueva">Resolución-Circular de 31 de octubre de 2005 en materia de adopciones internacionales 
+            <span>(PDF. 143 
+               <abbr lang="en" title="Kilobytes">KB</abbr>)</span></a>.</li><li> 
+         <a href="/es/Ciudadano/EstadoCivil/Documents/1292430468677-Instruccion_de_28_de_febrero_de_2006.PDF" class="enlacePantallaNueva">Instrucción de 28 de febrero de 2006 
+            <span>(PDF. 245 
+               <abbr lang="en" title="Kilobytes">KB</abbr>)</span></a>, de la Dirección General de los Registros y del Notariado, sobre competencia de los Registros Civiles Municipales en materia de adquisición de nacionalidad española y adopciones internacionales.</li><li> 
+         <a href="https&#58;//www.boe.es/boe/dias/2015/07/03/pdfs/BOE-A-2015-7391.pdf" class="enlaceAviso enlacePantallaNueva" title="Este enlace se abre en una nueva pantalla">Ley 15/2015, de 2 de julio, de la Jurisdicción Voluntaria</a>.</li><li> 
+         <a class="enlacePantallaNueva" href="https&#58;//www.boe.es/diario_boe/txt.php?id=BOE-A-2015-7851">Ley 19/2015, de 13 de julio, de medidas de reforma administrativa en el ámbito de la Administración de Justicia y del Registro Civil</a>.</li><li> 
+         <a href="/es/Ciudadano/EstadoCivil/Documents/1292430469145-Instruccion_Conjunta_de_6_de_mayo_de_2019__del_Director_General_de_los_Registros_y_del_Notariado_y_.PDF" class="enlacePantallaNueva">Instrucción Conjunta de 6 de mayo de 2019, del Director General de los Registros y del Notariado y de la Magistrada-Juez Encargada del Registro Civil Central, sobre atención presencial con cita previa en la sede de la Calle Montera, de dicho Registro. 
+            <span>(PDF. 561 
+               <abbr lang="en" title="Kilobytes">KB</abbr>)</span></a></li></ul></div></div></div>
+													</div>
+												</div>
+										
+</div>
+										
+										 
+
+	 									  
+											<aside class="grid-aside__aside">
+												<div>
+	
+
+													<div>
+														<textarea data-check-remove="yes" id="txtCommonColBRRelatedDocs" class="hide">
+															
+														</textarea> 
+													</div>
+														
+													<div>																			
+														<textarea data-check-remove="yes" id="txtCommonColBRRelatedLinks" class="hide">
+															{&quot;title&quot;:&quot;Enlaces relacionados&quot;,&quot;position&quot;:&quot;lateral&quot;,&quot;urls&quot;:[{&quot;name&quot;:&quot;Hoja de Datos Defunción&quot;,&quot;url&quot;:&quot;/es/Ciudadano/EstadoCivil/Documents/Hoja de Datos Defuncion.pdf&quot;,&quot;ext&quot;:&quot;&quot;,&quot;size&quot;:&quot;0&quot;,&quot;title&quot;:&quot;Este enlace se abre en una nueva pantalla&quot;,&quot;alt&quot;:&quot;&quot;,&quot;timecreated&quot;:&quot;2022-06-15T19:35:42Z&quot;,&quot;external&quot;:true},{&quot;name&quot;:&quot;Hoja de Datos Matrimonio&quot;,&quot;url&quot;:&quot;/es/Ciudadano/EstadoCivil/Documents/Hoja de Datos Matrimonio.pdf&quot;,&quot;ext&quot;:&quot;&quot;,&quot;size&quot;:&quot;0&quot;,&quot;title&quot;:&quot;Este enlace se abre en una nueva pantalla&quot;,&quot;alt&quot;:&quot;&quot;,&quot;timecreated&quot;:&quot;2022-06-15T19:35:42Z&quot;,&quot;external&quot;:true},{&quot;name&quot;:&quot;Hoja de Datos Nacimiento&quot;,&quot;url&quot;:&quot;/es/Ciudadano/EstadoCivil/Documents/Hoja_declaratoria_de_datos_nacimiento.pdf&quot;,&quot;ext&quot;:&quot;&quot;,&quot;size&quot;:&quot;0&quot;,&quot;title&quot;:&quot;Este enlace se abre en una nueva pantalla&quot;,&quot;alt&quot;:&quot;&quot;,&quot;timecreated&quot;:&quot;2022-06-15T19:35:42Z&quot;,&quot;external&quot;:true},{&quot;name&quot;:&quot;Solicitud de Duplicado Consular&quot;,&quot;url&quot;:&quot;/es/Ciudadano/EstadoCivil/Documents/Solicitud de Duplicado Consular.pdf&quot;,&quot;ext&quot;:&quot;&quot;,&quot;size&quot;:&quot;0&quot;,&quot;title&quot;:&quot;Este enlace se abre en una nueva pantalla&quot;,&quot;alt&quot;:&quot;&quot;,&quot;timecreated&quot;:&quot;2022-06-15T19:35:42Z&quot;,&quot;external&quot;:true},{&quot;name&quot;:&quot;Solicitud de Incoación de Expediente de Inscripción de Nacimiento de Persona ya anotada&quot;,&quot;url&quot;:&quot;/es/Ciudadano/EstadoCivil/Documents/Solicitud de Incoacion de Expediente de Inscripcion de Nacimiento de Persona ya anotada.pdf&quot;,&quot;ext&quot;:&quot;&quot;,&quot;size&quot;:&quot;0&quot;,&quot;title&quot;:&quot;Este enlace se abre en una nueva pantalla&quot;,&quot;alt&quot;:&quot;&quot;,&quot;timecreated&quot;:&quot;2022-06-15T19:35:42Z&quot;,&quot;external&quot;:true},{&quot;name&quot;:&quot;Solicitud de Incoación de Expediente de Rectificación de error&quot;,&quot;url&quot;:&quot;/es/Ciudadano/EstadoCivil/Documents/Solicitud de Incoacion de Expediente de Rectificacion de error.pdf&quot;,&quot;ext&quot;:&quot;&quot;,&quot;size&quot;:&quot;0&quot;,&quot;title&quot;:&quot;Este enlace se abre en una nueva pantalla&quot;,&quot;alt&quot;:&quot;&quot;,&quot;timecreated&quot;:&quot;2022-06-15T19:35:42Z&quot;,&quot;external&quot;:true},{&quot;name&quot;:&quot;Solicitud de Incripción de Defunción ocurrida fuera de España&quot;,&quot;url&quot;:&quot;/es/Ciudadano/EstadoCivil/Documents/Solicitud de Incripcion de Defuncion ocurrida fuera de Espanna.pdf&quot;,&quot;ext&quot;:&quot;&quot;,&quot;size&quot;:&quot;0&quot;,&quot;title&quot;:&quot;Este enlace se abre en una nueva pantalla&quot;,&quot;alt&quot;:&quot;&quot;,&quot;timecreated&quot;:&quot;2022-06-15T19:35:42Z&quot;,&quot;external&quot;:true},{&quot;name&quot;:&quot;Solicitud de Incripción de Nacimiento con Marginal de Adopción&quot;,&quot;url&quot;:&quot;/es/Ciudadano/EstadoCivil/Documents/Solicitud de Incripcion de Nacimiento con Marginal de Adopcion.pdf&quot;,&quot;ext&quot;:&quot;&quot;,&quot;size&quot;:&quot;0&quot;,&quot;title&quot;:&quot;Este enlace se abre en una nueva pantalla&quot;,&quot;alt&quot;:&quot;&quot;,&quot;timecreated&quot;:&quot;2022-06-15T19:35:42Z&quot;,&quot;external&quot;:true},{&quot;name&quot;:&quot;Solicitud de Incripción de Nacimiento de español ocurrido fuera de España&quot;,&quot;url&quot;:&quot;/es/Ciudadano/EstadoCivil/Documents/Solicitud de Incripcion de Nacimiento de espannol ocurrido fuera de Espanna.pdf&quot;,&quot;ext&quot;:&quot;&quot;,&quot;size&quot;:&quot;0&quot;,&quot;title&quot;:&quot;Este enlace se abre en una nueva pantalla&quot;,&quot;alt&quot;:&quot;&quot;,&quot;timecreated&quot;:&quot;2022-06-15T19:35:42Z&quot;,&quot;external&quot;:true},{&quot;name&quot;:&quot;Solicitud de Inscripción de Matrimonio Civil celebrado Fuera de España&quot;,&quot;url&quot;:&quot;/es/Ciudadano/EstadoCivil/Documents/Solicitud de Inscripcion de Matrimonio Civil celebrado Fuera de Espanna.pdf&quot;,&quot;ext&quot;:&quot;&quot;,&quot;size&quot;:&quot;0&quot;,&quot;title&quot;:&quot;Este enlace se abre en una nueva pantalla&quot;,&quot;alt&quot;:&quot;&quot;,&quot;timecreated&quot;:&quot;2022-06-15T19:35:42Z&quot;,&quot;external&quot;:true},{&quot;name&quot;:&quot;Solicitud de Inscripción de Nacimiento según Convenio de Guatemala&quot;,&quot;url&quot;:&quot;/es/Ciudadano/EstadoCivil/Documents/Solicitud de Inscripcion de Nacimiento segun Convenio de Guatemala.pdf&quot;,&quot;ext&quot;:&quot;&quot;,&quot;size&quot;:&quot;0&quot;,&quot;title&quot;:&quot;Este enlace se abre en una nueva pantalla&quot;,&quot;alt&quot;:&quot;&quot;,&quot;timecreated&quot;:&quot;2022-06-15T19:35:42Z&quot;,&quot;external&quot;:true},{&quot;name&quot;:&quot;Solicitud de Inscripción de Nacimiento según art. 307 RRC.&quot;,&quot;url&quot;:&quot;/es/Ciudadano/EstadoCivil/Documents/Solicitud de Inscripcion de Nacimiento segun art. 307 RRC.pdf&quot;,&quot;ext&quot;:&quot;&quot;,&quot;size&quot;:&quot;0&quot;,&quot;title&quot;:&quot;Este enlace se abre en una nueva pantalla&quot;,&quot;alt&quot;:&quot;&quot;,&quot;timecreated&quot;:&quot;2022-06-15T19:35:42Z&quot;,&quot;external&quot;:true},{&quot;name&quot;:&quot;Solicitud de Inscripción de Nacimiento y Opción a la Nacionalidad Española&quot;,&quot;url&quot;:&quot;/es/Ciudadano/EstadoCivil/Documents/Solicitud de Inscripcion de Nacimiento y Opcion a la Nacionalidad Espannola.pdf&quot;,&quot;ext&quot;:&quot;&quot;,&quot;size&quot;:&quot;0&quot;,&quot;title&quot;:&quot;Este enlace se abre en una nueva pantalla&quot;,&quot;alt&quot;:&quot;&quot;,&quot;timecreated&quot;:&quot;2022-06-15T19:35:42Z&quot;,&quot;external&quot;:true},{&quot;name&quot;:&quot;Solicitud de Inscripción de Nacimiento Ciudadana Casada con Español&quot;,&quot;url&quot;:&quot;/es/Ciudadano/EstadoCivil/Documents/Solicitud de Inscripcion de Nacimiento Ciudadana Casada con Espannol.pdf&quot;,&quot;ext&quot;:&quot;&quot;,&quot;size&quot;:&quot;0&quot;,&quot;title&quot;:&quot;Este enlace se abre en una nueva pantalla&quot;,&quot;alt&quot;:&quot;&quot;,&quot;timecreated&quot;:&quot;2022-06-15T19:35:42Z&quot;,&quot;external&quot;:true}]}
+														</textarea>
+													</div> 
+												
+													<div>	
+														<textarea data-check-remove="yes" id="txtCommonColBRRelatedBanners" class="hide">
+															      
+														</textarea> 
+													</div>
+												  
+													<div>	
+														<textarea data-check-remove="yes" id="txtCommonColBRRelatedDocsExternals" class="hide">
+															      
+														</textarea>
+													</div>												  		
+	 									  
+</div>
+	 									  
+										</aside>
+                                   
+                        		 	</div>
+								</div>
+                                                                                            			  
+                        </div>
+                   
+        </section>
+        
+             
+		
+
+			<div data-sp-cs-webpartid='EnlacesInteres'>
+                <script>(function cswp_WPQ3(global) {
+                 if (global.moduleLoaderPromise) {
+                   global.moduleLoaderPromise.then(function(application) {
+                     try {
+                        application.loadWebPart("EnlacesInteres", "ac515af1-4490-4c7b-8191-d49b41b26c5e", "\u003cdiv data-sp-webpart=\"\" data-sp-webpartdataversion=1.0 data-sp-webpartdata=\"&#123;&quot;id&quot;&#58;&quot;ac515af1-4490-4c7b-8191-d49b41b26c5e&quot;,&quot;instanceId&quot;&#58;&quot;g_29ec38c9_2d52_4def_b498_403179713aee&quot;,&quot;title&quot;&#58;&quot;React Content Query WebPart&quot;,&quot;description&quot;&#58;&quot;A react content by query WebPart for querying items within a site and easily displaying them using a simple yet powerfull HandleBars templating engine.&quot;,&quot;dataVersion&quot;&#58;&quot;1.0.12&quot;,&quot;properties&quot;&#58;&#123;&quot;description&quot;&#58;&quot;React Content Query WebPart&quot;,&quot;webUrl&quot;&#58;&quot;/currentvariation&quot;,&quot;listId&quot;&#58;&quot;Campañas Institucionales&quot;,&quot;orderBy&quot;&#58;&quot;CommonColOrder&quot;,&quot;filters&quot;&#58;[&#123;&quot;index&quot;&#58;2,&quot;field&quot;&#58;&#123;&quot;internalName&quot;&#58;&quot;PublishingStartDate&quot;,&quot;displayName&quot;&#58;&quot;Fecha Inicio&quot;,&quot;type&quot;&#58;3&#125;,&quot;operator&quot;&#58;6,&quot;join&quot;&#58;2,&quot;value&quot;&#58;null,&quot;me&quot;&#58;false,&quot;includeTime&quot;&#58;false,&quot;expression&quot;&#58;&quot;[Today]&quot;&#125;,&#123;&quot;index&quot;&#58;1,&quot;field&quot;&#58;&#123;&quot;internalName&quot;&#58;&quot;PublishingExpirationDate&quot;,&quot;displayName&quot;&#58;&quot;Fecha Fin&quot;,&quot;type&quot;&#58;3&#125;,&quot;operator&quot;&#58;5,&quot;join&quot;&#58;1,&quot;value&quot;&#58;null,&quot;me&quot;&#58;false,&quot;includeTime&quot;&#58;false,&quot;expression&quot;&#58;&quot;[Today]&quot;&#125;,&#123;&quot;index&quot;&#58;0,&quot;field&quot;&#58;&#123;&quot;internalName&quot;&#58;&quot;CommonColVisible&quot;,&quot;displayName&quot;&#58;&quot;Visible&quot;,&quot;type&quot;&#58;1&#125;,&quot;operator&quot;&#58;1,&quot;join&quot;&#58;1,&quot;value&quot;&#58;&quot;true&quot;,&quot;me&quot;&#58;false,&quot;includeTime&quot;&#58;false,&quot;expression&quot;&#58;null&#125;],&quot;viewFields&quot;&#58;[&quot;ID&quot;,&quot;FileDirRef&quot;,&quot;CommonColImageAlt&quot;,&quot;CommonColImageTitle&quot;,&quot;PublishingExpirationDate&quot;,&quot;PublishingStartDate&quot;,&quot;CommonColImageUrl&quot;,&quot;CommonColOrder&quot;,&quot;Title&quot;,&quot;CommonColVisible&quot;,&quot;CommonColUrl&quot;],&quot;itemLimit&quot;&#58;&quot;&quot;,&quot;templateUrl&quot;&#58;&quot;/SiteAssets/Handlebars/Subhome/InstCampaignWP_v2.html&quot;,&quot;templateText&quot;&#58;&quot;&lt;style type=\\&quot;text/css\\&quot;&gt;\\n    .dynamic-template .dynamic-items .dynamic-item &#123;\\n        background&#58; #ffffff;\\n        box-shadow&#58; 0px 0px 6px #bfbebe;\\n        margin-bottom&#58; 15px;\\n    &#125;\\n    .dynamic-template .dynamic-items .dynamic-item h3 &#123;\\n        background&#58; #47b4de;\\n        color&#58; #fff;\\n        padding&#58; 5px 5px 7px 10px;\\n        margin&#58; 0px;\\n    &#125;\\n    .dynamic-template .dynamic-items .dynamic-item .dynamic-item-fields &#123;\\n        padding&#58; 10px;\\n    &#125;\\n    .dynamic-template .dynamic-items .dynamic-item .dynamic-item-fields span &#123;\\n        display&#58; block;\\n        font-size&#58; 12px;\\n    &#125;\\n&lt;/style&gt;\\n\\n&lt;div class=\\&quot;dynamic-template\\&quot;&gt;\\n    &lt;h2&gt;Dynamically generated template&lt;/h2&gt;\\n    &lt;div class=\\&quot;dynamic-items\\&quot;&gt;\\n        &#123;&#123;#each items&#125;&#125;\\n            &lt;div class=\\&quot;dynamic-item\\&quot;&gt;\\n                &lt;h3&gt;Result #&#123;&#123;@index&#125;&#125;&lt;/h3&gt;\\n                &lt;div class=\\&quot;dynamic-item-fields\\&quot;&gt;\\n                    &lt;span&gt;&lt;b&gt;CommonColImageAlt &#58; &lt;/b&gt;&#123;&#123;CommonColImageAlt.textValue&#125;&#125;&lt;/span&gt;\\n                    &lt;span&gt;&lt;b&gt;PublishingExpirationDate &#58; &lt;/b&gt;&#123;&#123;PublishingExpirationDate.textValue&#125;&#125;&lt;/span&gt;\\n                    &lt;span&gt;&lt;b&gt;PublishingStartDate &#58; &lt;/b&gt;&#123;&#123;PublishingStartDate.textValue&#125;&#125;&lt;/span&gt;\\n                    &lt;span&gt;&lt;b&gt;CommonColImageUrl &#58; &lt;/b&gt;&#123;&#123;CommonColImageUrl.textValue&#125;&#125;&lt;/span&gt;\\n                    &lt;span&gt;&lt;b&gt;CommonColOrder &#58; &lt;/b&gt;&#123;&#123;CommonColOrder.textValue&#125;&#125;&lt;/span&gt;\\n                    &lt;span&gt;&lt;b&gt;Title &#58; &lt;/b&gt;&#123;&#123;Title.textValue&#125;&#125;&lt;/span&gt;\\n                    &lt;span&gt;&lt;b&gt;CommonColVisible &#58; &lt;/b&gt;&#123;&#123;CommonColVisible.textValue&#125;&#125;&lt;/span&gt;\\n                    &lt;span&gt;&lt;b&gt;CommonColUrl &#58; &lt;/b&gt;&#123;&#123;CommonColUrl.textValue&#125;&#125;&lt;/span&gt;\\n                &lt;/div&gt;\\n            &lt;/div&gt;\\n        &#123;&#123;/each&#125;&#125;\\n    &lt;/div&gt;\\n&lt;/div&gt;&quot;,&quot;siteUrl&quot;&#58;&quot;currentweb&quot;,&quot;cacheDurationSec&quot;&#58;&quot;0&quot;,&quot;externalScripts&quot;&#58;&quot;&quot;&#125;&#125;\"\u003e\u003cdiv data-sp-componentid=\"\"\u003eac515af1-4490-4c7b-8191-d49b41b26c5e\u003c/div\u003e\u003cdiv data-sp-htmlproperties=\"\"\u003e\u003c/div\u003e\u003c/div\u003e", 1, 1, true, []);
+                        }
+                     catch (e) {
+                        if (application != null && application.logClientSideWebPartLoadError != null) {
+                          application.logClientSideWebPartLoadError("EnlacesInteres", "No se puede cargar un elemento web en esta p\u00E1gina. Utilice el bot\u00F3n Atr\u00E1s del explorador para volver a intentarlo. Si el problema persiste, p\u00F3ngase en contacto con el administrador del sitio y facil\u00EDtele la informaci\u00F3n que aparece en Detalles t\u00E9cnicos.");
+                          console.error(e);
+                        }
+                        else {
+                            console.error("No se puede cargar un elemento web en esta p\u00E1gina. Utilice el bot\u00F3n Atr\u00E1s del explorador para volver a intentarlo. Si el problema persiste, p\u00F3ngase en contacto con el administrador del sitio y facil\u00EDtele la informaci\u00F3n que aparece en Detalles t\u00E9cnicos.");
+                            console.error(e);
+                        }
+                      }
+                   });
+                 }
+                 else {
+                   console.error("No se puede cargar el contenedor de elemento web de esta p\u00E1gina. Utilice el bot\u00F3n Atr\u00E1s del explorador para volver a intentarlo. Si el problema persiste, p\u00F3ngase en contacto con el administrador del sitio.");
+                 }
+               })(window);</script>
+              </div>     			
+        
+   </main>
+<div style='display:none' id='hidZone'></div>
+                                </span>
+                                
+                            </div>
+                            <!--INICIO FOOTER-->
+						 <footer class="footer">
+				 <div data-sp-cs-webpartid='g_23d60964_07d0_4a44_bc3d_4d4c38d72299'>
+                <script>(function cswp_WPQ4(global) {
+                 if (global.moduleLoaderPromise) {
+                   global.moduleLoaderPromise.then(function(application) {
+                     try {
+                        application.loadWebPart("g_23d60964_07d0_4a44_bc3d_4d4c38d72299", "27890c84-83f9-4ef9-a0ff-8c82689c9fa8", "\u003cdiv data-sp-webpart=\"\" data-sp-webpartdataversion=1.0 data-sp-webpartdata=\"&#123;&quot;id&quot;&#58;&quot;27890c84-83f9-4ef9-a0ff-8c82689c9fa8&quot;,&quot;instanceId&quot;&#58;&quot;g_23d60964_07d0_4a44_bc3d_4d4c38d72299&quot;,&quot;title&quot;&#58;&quot;Menu Lateral&quot;,&quot;description&quot;&#58;&quot;Component that retrieves the parent item and children from Taxonomy&quot;,&quot;dataVersion&quot;&#58;&quot;1.0&quot;,&quot;properties&quot;&#58;&#123;&quot;defaultTermSet&quot;&#58;&quot;Navegación de variantes&quot;,&quot;position&quot;&#58;&quot;5077EE53-8720-473F-B854-61B90F92AF9B&quot;,&quot;showParent&quot;&#58;false,&quot;showSiblings&quot;&#58;true,&quot;showChildren&quot;&#58;true,&quot;style&quot;&#58;1,&quot;isNavigation&quot;&#58;true&#125;&#125;\"\u003e\u003cdiv data-sp-componentid=\"\"\u003e1c173a18-77cf-43cf-a794-b566366b1219\u003c/div\u003e\u003cdiv data-sp-htmlproperties=\"\"\u003e\u003c/div\u003e\u003c/div\u003e", 1, 1, true, []);
+                        }
+                     catch (e) {
+                        if (application != null && application.logClientSideWebPartLoadError != null) {
+                          application.logClientSideWebPartLoadError("g_23d60964_07d0_4a44_bc3d_4d4c38d72299", "No se puede cargar un elemento web en esta p\u00E1gina. Utilice el bot\u00F3n Atr\u00E1s del explorador para volver a intentarlo. Si el problema persiste, p\u00F3ngase en contacto con el administrador del sitio y facil\u00EDtele la informaci\u00F3n que aparece en Detalles t\u00E9cnicos.");
+                          console.error(e);
+                        }
+                        else {
+                            console.error("No se puede cargar un elemento web en esta p\u00E1gina. Utilice el bot\u00F3n Atr\u00E1s del explorador para volver a intentarlo. Si el problema persiste, p\u00F3ngase en contacto con el administrador del sitio y facil\u00EDtele la informaci\u00F3n que aparece en Detalles t\u00E9cnicos.");
+                            console.error(e);
+                        }
+                      }
+                   });
+                 }
+                 else {
+                   console.error("No se puede cargar el contenedor de elemento web de esta p\u00E1gina. Utilice el bot\u00F3n Atr\u00E1s del explorador para volver a intentarlo. Si el problema persiste, p\u00F3ngase en contacto con el administrador del sitio.");
+                 }
+               })(window);</script>
+              </div>
+
+    <div class="footer__wrapper">
+      <div class="footer__top">
+        <nav class="footer__nav">
+          <ul class="footer__nav__list">
+            <li class="footer__nav__item">
+             <a href="/es/mapa" title="Mapa Web" class="footer__nav__link">Mapa Web</a>
+            </li>
+        
+            <li class="footer__nav__item">
+              <a href="/es/guia-navegacion" title="Guía de Navegación" class="footer__nav__link">Guía de Navegación</a>
+            </li>
+        
+            <li class="footer__nav__item">
+              <a href="/es/institucional/gabinete-comunicacion/canales" title="Canales" class="footer__nav__link">Canales</a>
+            </li>
+        
+            <li class="footer__nav__item">
+               <a href="/es/enlaces-interes" title="Enlaces de Interés" class="footer__nav__link">Enlaces de Interés</a>
+            </li>
+        
+            <li class="footer__nav__item">
+               <a href="/es/accesibilidad" title="Accesibilidad" class="footer__nav__link">Accesibilidad</a>
+            </li>
+			 <li class="footer__nav__item">
+               <a href="/es/comunicacion-informacion-infracciones" title="Accesibilidad" class="footer__nav__link">Canal Interno de Información</a>
+            </li>
+        
+            
+          </ul>
+        </nav><!-- end of footer__nav -->
+      </div><!-- end of footer__top -->
+
+      <div class="footer__bottom">
+        <div class="footer__logo">
+          <img src="/SiteAssets/images/logos/logo-ministerio-mpjrc-pie.svg" alt="Ministerio de Justicia" class="footer__logo__img" />
+        </div><!-- end of footer__logo -->
+
+        <div class="footer__list">
+          <div class="footer__list__item">
+             <a href="/es/atencion-ciudadano" class="footer__list__link">Atención al ciudadano</a>
+            <p class="footer__list__text"><a href="tel:+34902007214">902 007 214</a> / <a href="tel:+34918372295">918 372 295</a> </p>				                                                   
+          </div><!-- end of footer__list__item -->
+          
+          <div class="footer__list__item">
+            <a href="/es/direcciones-telefonos" class="footer__list__link" title="Direcciones y teléfonos">Direcciones y teléfonos</a>
+          </div><!-- end of footer__list__item -->
+        </div><!-- end of footer__list -->
+      </div><!-- end of footer__bottom -->
+
+      <div class="footer__last">
+        <nav class="footer__nav">
+          <ul class="footer__nav__list">
+            <li class="footer__nav__item">
+              <a href="/es/aviso-legal" title="Aviso Legal" class="footer__nav__link">Aviso Legal</a>
+            </li>
+        
+            <li class="footer__nav__item">
+              <a href="/es/politica-cookies" title="Política de Cookies" class="footer__nav__link">Política de Cookies</a>
+            </li>
+			<li class="footer__nav__item">
+             <a href="/es/politica-privacidad" title="Política de privacidad" class="footer__nav__link">Política de privacidad</a>
+            </li>
+            <li class="footer__nav__item">
+             <a href="https://www.miteco.gob.es/es/ministerio/atencion-a-la-ciudadania/servicios-de-informacion/unidad-informacion-ambiental.html" title="Información ambiental" class="footer__nav__link">Información ambiental                                                    </a>
+            </li>
+
+          </ul>
+        </nav><!-- end of footer__nav -->
+
+        
+
+        <ul class="footer__rrss">
+          <li class="footer__rrss__item">
+            <a href="https://twitter.com/justiciagob" class="footer__rrss__link">
+              <i class="icon-mj_x"></i>
+            </a><!-- end of footer__rrss__link -->
+          </li><!-- end of footer__rrss__item -->
+
+          <li class="footer__rrss__item">
+            <a href="https://www.facebook.com/MinisteriodeJusticiaEsp" class="footer__rrss__link">
+              <i class="icon-mj_facebook"></i>
+            </a><!-- end of footer__rrss__link -->
+          </li><!-- end of footer__rrss__item -->
+
+          <li class="footer__rrss__item">
+            <a href="https://www.instagram.com/justiciagob/" class="footer__rrss__link">
+              <i class="icon-mj_instagram"></i>
+            </a><!-- end of footer__rrss__link -->
+          </li><!-- end of footer__rrss__item -->
+
+          <li class="footer__rrss__item">
+            <a href="https://www.linkedin.com/company/ministerio-justicia" class="footer__rrss__link">
+              <i class="icon-mj_linkedin"></i>
+            </a><!-- end of footer__rrss__link -->
+          </li><!-- end of footer__rrss__item -->
+        </ul><!-- end of footer__rrss -->
+      </div>
+    </div><!-- end of footer__wrapper -->
+
+  </footer>      
+               
+						 <!-- pie -->
+                            </div>
+                            <!-- Script de implantación para www.mjusticia.gob.es -->
+<script async="async" type="text/javascript" src="https://www--mjusticia--gob--es.insuit.net/i4tservice/insuit-app.js">//<![CDATA[//]]></script>
+
+                            <!--FIN FOOTER-->
+                            <img class="iconUp" src="/SiteAssets/images/iconos/ico_circulo-up.svg" alt="icono flecha subida" />
+                            <div id="navBarContainer">
+                                
+                            </div>
+                                     <!-- AVISO DE COOKIES -->
+<div id="cookie-banner" class="cookies">
+    <div class="cookies__header">
+      <h4 class="cookies__title">Cookies</h4>
+    </div> <div class="cookies__content">
+    <p class="cookies__text">Este sitio web utiliza cookies propias necesarias para su correcto funcionamiento y visualización por parte del usuario. Aparte, solo bajo aceptación expresa, utiliza cookies propias o de terceros para fines analíticos o de medición, que puede aceptar o rechazar a través de los siguientes enlaces.
+Para obtener más información y configurar sus preferencias, consulte nuestra <a href="/es/politica-cookies"><strong>Política de cookies</strong></a>.</p>
+  <div class="cookies__btns">
+  <button id="accept-cookies" class="btn cookies__btn aceptarAnalytis">Aceptar</button>
+  <button id="reject-cookies" class="btn cookies__btn rechazarAnalytis">Rechazar</button>
+  </div>
+  </div>
+</div>
+
+<script type="text/javascript">//<![CDATA[
+  // Funciones para manejar cookies
+  function setCookie(name, value, days) {
+    var expires = "";
+    if (days) {
+      var date = new Date();
+      date.setTime(date.getTime() + (days*24*60*60*1000));
+      expires = "; expires=" + date.toUTCString();
+    }
+    document.cookie = name + "=" + (value || "") + expires + "; path=/";
+  }
+
+  function getCookie(name) {
+    var nameEQ = name + "=";
+    var ca = document.cookie.split(';');
+    for(var i=0;i < ca.length;i++) {
+      var c = ca[i];
+      while (c.charAt(0)==' ') c = c.substring(1,c.length);
+      if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+    }
+    return null;
+  }
+
+  function loadGoogleAnalytics() {
+  	var gtagScript = document.createElement('script');
+    gtagScript.async = true;
+    gtagScript.src = "https://www.googletagmanager.com/gtag/js?id=G-7W12KPJKTW"; // Reemplaza con tu ID
+    document.head.appendChild(gtagScript);
+
+    // Definir dataLayer y gtag en el scope global
+    window.dataLayer = window.dataLayer || [];
+    window.gtag = function(){ dataLayer.push(arguments); };
+
+    // Inicializar GA4
+    window.gtag('js', new Date());
+    window.gtag('config', 'G-7W12KPJKTW'); // Reemplaza con tu ID
+    
+    //Esto es antiguo de Universal Anaytics, ahora se emplea GA4
+    /*(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-21579987-1', 'auto'); // Sustituye por tu ID de GA
+    ga('send', 'pageview');*/
+  }
+
+  document.addEventListener("DOMContentLoaded", function() {
+    var consent = getCookie('cookieConsent');
+    var banner = document.getElementById('cookie-banner');
+
+    if (consent === 'true') {
+      loadGoogleAnalytics();
+      banner.style.display = 'none';
+    } else if (consent === 'false') {
+      banner.style.display = 'none';
+    }
+
+    document.getElementById('accept-cookies').addEventListener('click', function() {
+      setCookie('cookieConsent', 'true', 365);
+      banner.style.display = 'none';
+      loadGoogleAnalytics();
+    });
+
+    document.getElementById('reject-cookies').addEventListener('click', function() {
+      setCookie('cookieConsent', 'false', 365);
+      banner.style.display = 'none';
+    });
+  });
+//]]></script>
+
+                        <div id="DeltaFormDigest">
+	
+    <script type="text/javascript">//<![CDATA[
+        var formDigestElement = document.getElementsByName('__REQUESTDIGEST')[0];
+        if (!((formDigestElement == null) || (formDigestElement.tagName.toLowerCase() != 'input') || (formDigestElement.type.toLowerCase() != 'hidden') ||
+            (formDigestElement.value == null) || (formDigestElement.value.length <= 0)))
+        {
+            formDigestElement.value = '0x5CF53037250C7636DBAC205FFD5BC8ACF6156A29890BEF6C12A2BD2811829D0C1E483F83AD6E0BC0B28C99251A923D616B658EE0E8E81783CF1D3B7CFF8FE4A8,27 Oct 2026 00:41:28 -0000';_spPageContextInfo.updateFormDigestPageLoaded = new Date();
+        }
+        //]]>
+        </script>
+
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var sdpWPQ6=$get('WebPartWPQ6');
+                            if (sdpWPQ6 != null) { // webpart body div
+                                sdpWPQ6 = sdpWPQ6.parentNode;
+                                if (sdpWPQ6 != null) { // webpart div
+                                    sdpWPQ6.className='display-none';
+                                }
+                            }var _spFormDigestRefreshInterval = 1440000; IsSPSocialSwitchEnabled = function() { return true; };var _fV4UI = true;
+function _RegisterWebPartPageCUI()
+{
+    var initInfo = {editable: false,isEditMode: false,allowWebPartAdder: false,listId: "{9e10cc16-ccb8-414d-b57f-ca6c7a27ae5e}",itemId: 5,recycleBinEnabled: true,enableMinorVersioning: true,enableModeration: true,forceCheckout: true,rootFolderUrl: "\u002fes\u002fCiudadano\u002fEstadoCivil\u002fPaginas",itemPermissions:{High:16,Low:196673}};
+    SP.Ribbon.WebPartComponent.registerWithPageManager(initInfo);
+    var wpcomp = SP.Ribbon.WebPartComponent.get_instance();
+    var hid;
+    hid = document.getElementById("_wpSelected");
+    if (hid != null)
+    {
+        var wpid = hid.value;
+        if (wpid.length > 0)
+        {
+            var zc = document.getElementById(wpid);
+            if (zc != null)
+                wpcomp.selectWebPart(zc, false);
+        }
+    }
+    hid = document.getElementById("_wzSelected");
+    if (hid != null)
+    {
+        var wzid = hid.value;
+        if (wzid.length > 0)
+        {
+            wpcomp.selectWebPartZone(null, wzid);
+        }
+    }
+};
+function __RegisterWebPartPageCUI() {
+ExecuteOrDelayUntilScriptLoaded(_RegisterWebPartPageCUI, "sp.ribbon.js");}
+_spBodyOnLoadFunctionNames.push("__RegisterWebPartPageCUI");var __wpmExportWarning='This Web Part Page has been personalized. As a result, one or more Web Part properties may contain confidential information. Make sure the properties contain information that is safe for others to read. After exporting this Web Part, view properties in the Web Part description file (.WebPart) by using a text editor such as Microsoft Notepad.';var __wpmCloseProviderWarning='You are about to close this Web Part.  It is currently providing data to other Web Parts, and these connections will be deleted if this Web Part is closed.  To close this Web Part, click OK.  To keep this Web Part, click Cancel.';var __wpmDeleteWarning='You are about to permanently delete this Web Part.  Are you sure you want to do this?  To delete this Web Part, click OK.  To keep this Web Part, click Cancel.';
+            ExecuteOrDelayUntilScriptLoaded(
+                function() 
+                {                    
+                    Srch.ScriptApplicationManager.get_current().states = {"webUILanguageName":"es-ES","webDefaultLanguageName":"es-ES","contextUrl":"https://www.mjusticia.gob.es/es/Ciudadano/EstadoCivil","contextTitle":"Estado Civil","supportedLanguages":[{"id":1025,"label":"Árabe"},{"id":1093,"label":"Bangla"},{"id":1026,"label":"Búlgaro"},{"id":1027,"label":"Catalán"},{"id":2052,"label":"Chino (simplificado)"},{"id":1028,"label":"Chino (tradicional)"},{"id":1050,"label":"Croata"},{"id":1029,"label":"Checo"},{"id":1030,"label":"Danés"},{"id":1043,"label":"Neerlandés"},{"id":1033,"label":"Inglés"},{"id":1035,"label":"Finlandés"},{"id":1036,"label":"Francés"},{"id":1031,"label":"Alemán"},{"id":1032,"label":"Griego"},{"id":1095,"label":"Gujarati"},{"id":1037,"label":"Hebreo"},{"id":1081,"label":"Hindi"},{"id":1038,"label":"Húngaro"},{"id":1039,"label":"Islandés"},{"id":1057,"label":"Indonesio"},{"id":1040,"label":"Italiano"},{"id":1041,"label":"Japonés"},{"id":1099,"label":"Kannada"},{"id":1042,"label":"Coreano"},{"id":1062,"label":"Letón"},{"id":1063,"label":"Lituano"},{"id":1086,"label":"Malayo"},{"id":1100,"label":"Malayalam"},{"id":1102,"label":"Marathi"},{"id":1044,"label":"Noruego"},{"id":1045,"label":"Polaco"},{"id":1046,"label":"Portugués (Brasil)"},{"id":2070,"label":"Portugués (Portugal)"},{"id":1094,"label":"Punjabi"},{"id":1048,"label":"Rumano"},{"id":1049,"label":"Ruso"},{"id":3098,"label":"Serbio (cirílico)"},{"id":2074,"label":"Serbio (latino)"},{"id":1051,"label":"Eslovaco"},{"id":1060,"label":"Esloveno"},{"id":3082,"label":"Español (España)"},{"id":2058,"label":"Español (México)"},{"id":1053,"label":"Sueco"},{"id":1097,"label":"Tamil"},{"id":1098,"label":"Telugu"},{"id":1054,"label":"Tailandés"},{"id":1055,"label":"Turco"},{"id":1058,"label":"Ucraniano"},{"id":1056,"label":"Urdu"},{"id":1066,"label":"Vietnamita"}],"navigationNodes":[{"id":0,"name":"Este sitio","url":"~site/_layouts/15/osssearchresults.aspx?u={contexturl}","promptString":"Buscar este sitio"}],"webUILanguageDirectory":"es-ES","showAdminDetails":false,"defaultPagesListName":"Paginas","isSPFSKU":false,"defaultQueryProperties":{"culture":3082,"uiLanguage":3082,"summaryLength":180,"desiredSnippetLength":90,"enableStemming":true,"enablePhonetic":false,"enableNicknames":false,"trimDuplicates":true,"bypassResultTypes":false,"enableInterleaving":true,"enableQueryRules":true,"processBestBets":true,"enableOrderingHitHighlightedProperty":false,"hitHighlightedMultivaluePropertyLimit":-1,"processPersonalFavorites":true},"showSuggestions":true,"showPersonalResults":true,"openDocumentsInClient":false};
+                    Srch.U.trace(null, 'SerializeToClient', 'ScriptApplicationManager state initialized.');
+                }, 'Search.ClientControls.js');var g_clientIdDeltaPlaceHolderMain = "DeltaPlaceHolderMain";
+var g_clientIdDeltaPlaceHolderUtilityContent = "DeltaPlaceHolderUtilityContent";
+//]]>
+</script>
+</form><span id="DeltaPlaceHolderUtilityContent"></span></body>
+                    </html>

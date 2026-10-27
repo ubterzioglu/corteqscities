@@ -1,0 +1,17 @@
+# Yerel ortam
+.venv/
+__pycache__/
+*.pyc
+.omc/state/
+.omc/logs/
+.omc/artifacts/
+.omc/handoffs/
+
+# Ara çalışma ve önbellek (ürün değil, yeniden üretilebilir)
+uretim/*/_is/cache/
+uretim/*/_is/snap*/
+uretim/*/_tmp*/
+denetim/*/_cache/
+denetim/*/_dump/
+denetim/*/_render/
+*.body

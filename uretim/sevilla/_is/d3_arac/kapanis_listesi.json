@@ -1,0 +1,1224 @@
+{
+ "aile": {
+  "son_tur": "d10",
+  "sonraki_tur": "d11",
+  "kayitlar": [
+   {
+    "entry_id": "sevilla:sevilla-dogum-sonrasi-saglik-sosyal-guvenlik-ve-padron-adimlari",
+    "tur": "d10",
+    "ozet": "Orta: (1) ikamet ve başka zorunlu kapsam yok koşulu kaynakta yararlanıcı (bebek) için, kart titular'a yüklemiş (ledger d8-2); (2) elektronik kayıt iki yol (sertifika/Cl@ve: TUSS; sertifikasız: INSS portalı + fotoğraf), kart karıştırmış (d5-1); (3) yüz yüze kayıt CAISS'te, kart il müdürlüğü adresini vermiş, o adres yalnız Oficina de Registro, Sevilla CAISS adresleri kaynakta var (d5-2).",
+    "bulgular": [
+     {
+      "claim_id": "C-sevilla-dogum-sonrasi-saglik-sosyal-guvenlik-ve-padron-adimlari-d8-2",
+      "sonuç": "yanlış",
+      "ağırlık": "orta",
+      "iddia": "Titular'ın (ebeveynin) İspanya'da yasal ve fiilî ikameti olmalı ve başka yoldan zorunlu sağlık kapsamı bulunmamalıdır",
+      "doğrusu": "Koşul yararlanıcıya (bebeğe) aittir: İspanya'da yasal ve fiilî ikamet ve başka bir yoldan zorunlu kapsamının olmaması; titular için aranan şey sağlık güvencesinde kayıtlı olmasıdır. Adım 5 ve ledger satırı düzeltilmeli."
+     },
+     {
+      "claim_id": "C-sevilla-dogum-sonrasi-saglik-sosyal-guvenlik-ve-padron-adimlari-d5-1",
+      "sonuç": "eksik_koşul",
+      "ağırlık": "orta",
+      "iddia": "Elektronik kayıtta e-posta adresi ve DNI/NIE ile çekilmiş fotoğraf gerekir (Tu Seguridad Social üzerinden)",
+      "doğrusu": "Elektronik kayıt iki yoldur: dijital sertifika/Cl@ve varsa Tu Seguridad Social; yoksa INSS portalı (e-posta + DNI/NIE'yle fotoğraf). Adım 5 ve belge satırı bu ayrımı yazmalı."
+     },
+     {
+      "claim_id": "C-sevilla-dogum-sonrasi-saglik-sosyal-guvenlik-ve-padron-adimlari-d5-2",
+      "sonuç": "yanlış",
+      "ağırlık": "orta",
+      "iddia": "Seguridad Social kaydı için nereye: 'INSS'in Sevilla il müdürlüğü Calle Sánchez Perrier 2, 41009 Sevilla (tel. 954 74 60 00)'",
+      "doğrusu": "Yüz yüze kayıt için DIR3 listesindeki Sevilla CAISS merkezlerinden (ör. Sevilla 2 Los Remedios, Calle Niebla 19) biri ya da liste bağlantısı verilmeli; il müdürlüğü adresi 'genel kayıt/idari merkez' olarak ayrı yazılmalı."
+     }
+    ],
+    "mekan_kaldi": []
+   }
+  ],
+  "hafif": [
+   {
+    "entry_id": "sevilla:sevilla-registro-civil-hangi-islem-icin-hangi-telefon",
+    "tur": "d7",
+    "ozet": "Hafif: babalık tanıma için 'iki ebeveyn DNI'siyle' kaynakta yalnız DNI geçiyor; yabancı ebeveyn (NIE/pasaport) için kaynakta kimlik bilgisi yok. Hatlar ve adım Junta sayfasından; sayfa DICIREG sonrası ofis adını güncellememiş, numaraların güncelliği belirsiz.",
+    "bulgular": [
+     {
+      "claim_id": "C-sevilla-registro-civil-hangi-islem-icin-hangi-telefon-11",
+      "sonuç": "eksik_koşul",
+      "ağırlık": "hafif",
+      "iddia": "Babalık tanımada iki ebeveyn DNI'siyle gelir.",
+      "doğrusu": "Yabancı ebeveyn için geçerli kimlik belgesini Registro Civil'den (600 15 80 92) teyit edip yaz; kaynakta yalnız DNI geçtiğini belirt."
+     }
+    ],
+    "mekan_kaldi": []
+   },
+   {
+    "entry_id": "sevilla:sevilla-aile-destekleri-ekonomik-yardim-bulusma-noktasi-arabuluculuk",
+    "tur": "d7",
+    "ozet": "Hafif: arabuluculuk kaynakta yalnız şiddet içermeyen çatışmalar için; kartta koşul yok. Hafif: 'Ayuda de Emergencia Social için aynı merkeze başvur' kaynakta yok (kaynak yalnız prestasyonlar çerçevesinde olduğunu söyler). K26 hafif: Sevilla'daki toplum sosyal hizmetleri merkezine ulaşma yolu (belediye merkezi/randevu) ve PEF'e nasıl erişileceği kartta yok.",
+    "bulgular": [
+     {
+      "claim_id": "C-sevilla-aile-destekleri-ekonomik-yardim-bulusma-noktasi-arabuluculuk-8",
+      "sonuç": "eksik_koşul",
+      "ağırlık": "hafif",
+      "iddia": "Aile içi anlaşmazlıkta arabuluculuk için Registro de Mediación Familiar'daki arabulucular kullanılır (koşulsuz).",
+      "doğrusu": "Aile arabuluculuğunun şiddet içermeyen çatışmalar için olduğunu yaz."
+     },
+     {
+      "claim_id": "C-sevilla-aile-destekleri-ekonomik-yardim-bulusma-noktasi-arabuluculuk-d5-1",
+      "sonuç": "kaynak_yetersiz",
+      "ağırlık": "hafif",
+      "iddia": "Ayuda de Emergencia Social için aynı toplum sosyal hizmetleri merkezine başvur.",
+      "doğrusu": "Başvuru kanalını Sevilla belediyesi sosyal hizmetler sayfasından teyit edip yaz ya da 'toplum sosyal hizmetleri kapsamındadır' diye bırak."
+     },
+     {
+      "claim_id": "sevilla-aile-destekleri-ekonomik-yardim-bulusma-noktasi-arabuluculuk-d7-1",
+      "sonuç": "kaynak_yetersiz",
+      "ağırlık": "hafif",
+      "iddia": "Kart Sevilla'daki toplum sosyal hizmetleri merkezine nasıl ulaşılacağını (belediye merkezi, randevu yolu) ve PEF'e nasıl erişileceğini söylemiyor; 'oturduğun yerin merkezi' genel kalıyor.",
+      "doğrusu": "Sevilla'da yaşayanlar için ilgili Centro de Servicios Sociales'i (Ayuntamiento de Sevilla, mahalleye göre) ve randevu yolunu kaynakla ekle; PEF için erişim yolunu (sosyal hizmetler ya da mahkeme yönlendirmesi) Junta kaynağından teyit et."
+     }
+    ],
+    "mekan_kaldi": []
+   }
+  ]
+ },
+ "ev": {
+  "son_tur": "d10",
+  "sonraki_tur": "d11",
+  "kayitlar": [],
+  "hafif": [
+   {
+    "entry_id": "sevilla:sevilla-korumali-konut-kayit-defteri-nedir",
+    "tur": "d7",
+    "ozet": "hafif: 'yıllık IPREM' ifadesi kaynakta yok (yalnız '7 veces el IPREM').",
+    "bulgular": [
+     {
+      "claim_id": "sevilla-korumali-konut-kayit-defteri-nedir-d7-1",
+      "sonuç": "kaynak_yetersiz",
+      "ağırlık": "hafif",
+      "iddia": "Kayıt için gelir sınırı 'yıllık' IPREM'in 7 katı",
+      "doğrusu": "'yıllık' sözcüğünü kaldır ('gelir IPREM'in 7 katını aşmamalı') ya da yıllık hesabı gösteren resmî kaynak ekle."
+     }
+    ],
+    "mekan_kaldi": []
+   },
+   {
+    "entry_id": "sevilla:sevilla-konut-kayit-basvurusu-randevu-ve-form",
+    "tur": "d7",
+    "ozet": "K26 eksiği: ne öder (ücret/ücretsiz) yazılmamış; kaynaklarda da ücret bilgisi yok.",
+    "bulgular": [
+     {
+      "claim_id": "sevilla-konut-kayit-basvurusu-randevu-ve-form-d7-1",
+      "sonuç": "kaynak_yetersiz",
+      "ağırlık": "hafif",
+      "iddia": "İşlem kartında 'ne öder' öğesi yok (cost boş; ücretsiz ya da tutar yazılmamış) — K26",
+      "doğrusu": "Kartın ücret alanına, kaynakta ifadesi bulunursa 'başvuru ücretsiz' yaz; bulunamıyorsa kaynakta ücret belirtilmediğini açıkça belirt."
+     }
+    ],
+    "mekan_kaldi": []
+   },
+   {
+    "entry_id": "sevilla:sevilla-kira-referans-fiyat-haritasi-ipra",
+    "tur": "d7",
+    "ozet": "hafif: 'IPRA depozito verisi yeni sözleşmeleri tam kapsamaz' sonucu kaynakta yok, editör çıkarımı.",
+    "bulgular": [
+     {
+      "claim_id": "sevilla-kira-referans-fiyat-haritasi-ipra-d7-1",
+      "sonuç": "kaynak_yetersiz",
+      "ağırlık": "hafif",
+      "iddia": "IPRA'nın depozito verisi 24 Ocak 2026'dan sonraki sözleşmeleri 'tam kapsamaz'",
+      "doğrusu": "Cümleyi 'yeni sözleşmelerde AVRA'ya depozito yatırılmadığı için IPRA verisi bu sözleşmeleri içermeyebilir' diye yumuşat ya da çıkar."
+     }
+    ],
+    "mekan_kaldi": []
+   },
+   {
+    "entry_id": "sevilla:bono-alquiler-joven-endulus-2026",
+    "tur": "d7",
+    "ozet": "hafif: akrabalık notu eksik (hane üyeleri, kayın akrabalığı, kiraya veren şirket ortağı); Sevilla'nın 900/600 grubu yazılmamış.",
+    "bulgular": [
+     {
+      "claim_id": "bono-alquiler-joven-endulus-2026-d7-1",
+      "sonuç": "eksik_koşul",
+      "ağırlık": "hafif",
+      "iddia": "Yardım, kiraya verenle 'birinci ya da ikinci derece akrabalık' varsa verilmez",
+      "doğrusu": "Notu 'başvuran ya da hane üyelerinden biri kiraya verenle birinci/ikinci derece kan ya da kayın akrabalığı içindeyse ya da kiraya veren şirketin ortağıysa yardım verilmez' diye tamamla."
+     },
+     {
+      "claim_id": "bono-alquiler-joven-endulus-2026-d7-2",
+      "sonuç": "kaynak_yetersiz",
+      "ağırlık": "hafif",
+      "iddia": "Kira üst sınırı 900/600 euro: Sevilla'nın hangi grupta olduğu yazılmamış",
+      "doğrusu": "Decreto 91/2020 Ek V'e dayanarak 'Sevilla için sınır X euro' diye yaz (grup resmî kaynakla doğrulanmalı)."
+     }
+    ],
+    "mekan_kaldi": []
+   },
+   {
+    "entry_id": "sevilla:bono-alquiler-joven-kira-tavani-sozlesme-turleri",
+    "tur": "d7",
+    "ozet": "hafif: Sevilla'nın Plan Vive Ek V grubu yazılmamış, kira sınırı Sevilla için belirsiz.",
+    "bulgular": [
+     {
+      "claim_id": "bono-alquiler-joven-kira-tavani-sozlesme-turleri-d7-1",
+      "sonuç": "kaynak_yetersiz",
+      "ağırlık": "hafif",
+      "iddia": "Kira üst sınırı 900/600 euro ve 380/300 euro: Sevilla'nın hangi grupta olduğu yazılmamış",
+      "doğrusu": "Sevilla'nın grubunu Decreto 91/2020 Ek V'ten doğrulayıp 'Sevilla için konut sınırı X, oda/kişi payı Y euro' diye yaz."
+     }
+    ],
+    "mekan_kaldi": []
+   },
+   {
+    "entry_id": "sevilla:emvisesa-ppr-2026-kira-yardimi",
+    "tur": "d7",
+    "ozet": "K26 eksiği: ne öder (başvuru ücreti/ücretsiz) yazılmamış.",
+    "bulgular": [
+     {
+      "claim_id": "emvisesa-ppr-2026-kira-yardimi-d7-1",
+      "sonuç": "kaynak_yetersiz",
+      "ağırlık": "hafif",
+      "iddia": "İşlem kartında 'ne öder' öğesi yok (cost boş; başvuru ücreti ya da ücretsiz yazılmamış) — K26",
+      "doğrusu": "Ücret alanına kaynakta varsa 'başvuru ücretsiz' yaz; yoksa 'kaynakta ücret ve yardım tutarı belirtilmemiş' diye açıkça belirt."
+     }
+    ],
+    "mekan_kaldi": []
+   },
+   {
+    "entry_id": "sevilla:kira-ve-konut-hizmeti-sikayeti-hoja-de-reclamaciones-012",
+    "tur": "d7",
+    "ozet": "K25: ilk cümle 'nasıl istenir' sorusunu cevaplamıyor; K26 nereye: Sevilla'da somut kayıt ofisi/kanal yok.",
+    "bulgular": [
+     {
+      "claim_id": "kira-ve-konut-hizmeti-sikayeti-hoja-de-reclamaciones-012-d7-1",
+      "sonuç": "kaynak_yetersiz",
+      "ağırlık": "hafif",
+      "iddia": "Özetin ilk cümlesi başlıktaki 'nasıl istenir?' sorusunu cevaplamıyor — K25",
+      "doğrusu": "İlk cümle: 'İşletmeden şikâyet formunu istersin; form hemen ve ücretsiz verilmek zorundadır.' diye başlasın."
+     },
+     {
+      "claim_id": "kira-ve-konut-hizmeti-sikayeti-hoja-de-reclamaciones-012-d7-2",
+      "sonuç": "kaynak_yetersiz",
+      "ağırlık": "hafif",
+      "iddia": "İşlem kartında 'nereye' öğesi Sevilla için somut değil (yalnız 'Junta'nın bir biriminin kayıt servisi') — K26",
+      "doğrusu": "Sevilla'daki Junta kayıt ofisinin (ör. il temsilciliği) adresini resmî kaynakla ekle ya da çevrim içi yolu öne çıkar."
+     }
+    ],
+    "mekan_kaldi": []
+   }
+  ]
+ },
+ "fatura": {
+  "son_tur": "d10",
+  "sonraki_tur": "d11",
+  "kayitlar": [],
+  "hafif": [
+   {
+    "entry_id": "sevilla:su-aboneligi-emasesa-ilk-kez",
+    "tur": "d7",
+    "ozet": "Kanallar, CO015, belgeler, padrón etkisi, 15 iş günü uyumlu. K26 ne öder: sözleşme bedeli tutarı ya da tutarın yayımlandığı yer (tarife sayfası, BOP 33/2026) kartta yok.",
+    "bulgular": [
+     {
+      "claim_id": "su-aboneligi-emasesa-ilk-kez-d7-1",
+      "sonuç": "kaynak_yetersiz",
+      "ağırlık": "hafif",
+      "iddia": "Kart \"Abonelikte EMASESA'ya sözleşme bedeli (derechos de contratación) ödenir\" diyor; tutar ya da tutarın nerede yayımlandığı yok (K26 ne öder: tutar eksik).",
+      "doğrusu": "Cost alanına: \"Sözleşme bedelinin (derechos de contratación) tutarı EMASESA'nın tarife sayfasındaki yönetmelikte (BOP 33/2026) yayımlanır; bu kartta tutar yok\" gibi bir yönlendirme koy ve tarife sayfasını kaynak olarak ekle."
+     }
+    ],
+    "mekan_kaldi": []
+   },
+   {
+    "entry_id": "sevilla:su-sozlesmesi-devir-cambio-titularidad-ve-baja",
+    "tur": "d7",
+    "ozet": "Devir şartları, ücretsiz devir + fianza, Distrito Sur adresi/randevu, boşanma 2 yıl, ölüm devralanları uyumlu; başlıktan baja çıkarılmış. K26 ne getir/ne zaman: ölüm (ölüm belgesi + mirasçı beyanı) ve boşanma (karar + convenio regulador) belgeleri belge listesinde yok; timing boş (2 yıl yalnız notta). fianza tutarı kaynakta yok.",
+    "bulgular": [
+     {
+      "claim_id": "su-sozlesmesi-devir-cambio-titularidad-ve-baja-d7-1",
+      "sonuç": "eksik_koşul",
+      "ağırlık": "hafif",
+      "iddia": "Notta ölüm ve boşanma devri anlatılıyor ama bu iki durumda istenen ek belgeler (ölümde ölüm belgesi + mirasçı beyanı; boşanmada boşanma kararı + convenio regulador) kartın belge listesinde ve adımlarında yok; \"timing\" alanı da boş (2 yıllık süre yalnız notta) (K26 ne getir / ne zaman eksik).",
+      "doğrusu": "Documents alanına ekle: \"Ölümde: abonenin ölüm belgesi (certificado de defunción) ve mirasçı beyanı (declaración de herederos); boşanmada: boşanma kararı (sentencia) ve convenio regulador\". Timing alanına: \"Boşanma devri için olay tarihinden itibaren 2 yıl\" yaz."
+     }
+    ],
+    "mekan_kaldi": []
+   },
+   {
+    "entry_id": "sevilla:emasesa-sosyal-tarife-kimler-yararlanir",
+    "tur": "d7",
+    "ozet": "Yüzdeler, IPREM tablosu (6 satır sütun sırası doğru), 110 litre, 16 yaş, %33/III. derece, borç şartı uyumlu. Hafif: nottaki \"tarife sayfası ise ... sabit ücretlere\" karşıtlığı yanlış (iki sayfa da aynı şeyi söylüyor); padrón izni koşulsuz yazılmış (yalnız elektronik erişimi olan yerlerde); belge listesi Catastro izni ve engellilik belgesini içermiyor (kardeş kartta var).",
+    "bulgular": [
+     {
+      "claim_id": "emasesa-sosyal-tarife-kimler-yararlanir-d7-1",
+      "sonuç": "eksik_koşul",
+      "ağırlık": "hafif",
+      "iddia": "Notun \"tarife sayfası ise suyu açık konutta haklı bir nedenle tüketim olmazsa indirimin sabit ücretlere uygulanabileceğini belirtiyor\" cümlesi SSS ile tarife sayfasını yanlış karşılaştırıyor: her iki sayfa da suyu açık konutta fiilî kullanım kaydı ister ve haklı nedenle tüketim yoksa indirimin sabit ücretlere uygulanabileceğini yazar; fark yalnız SSS'nin bunu ayda ortalama en az 333 litre olarak sayısallaştırmasıdır.",
+      "doğrusu": "Cümleyi şöyle düzelt: \"Her iki sayfa da suyu açık konutta fiilî kullanım ister ve haklı nedenle tüketim yoksa indirimin sabit ücretlere uygulanabileceğini yazar; SSS ayrıca bunu ayda ortalama en az 333 litre diye sayısallaştırır.\""
+     },
+     {
+      "claim_id": "emasesa-sosyal-tarife-kimler-yararlanir-d7-2",
+      "sonuç": "eksik_koşul",
+      "ağırlık": "hafif",
+      "iddia": "Belge listesinde \"ya da EMASESA'nın padrón verisine bakması için izin\" koşulsuz yazılmış; SSS bu izin yolunu yalnız EMASESA'nın belediye padrónuna elektronik erişimi olan yerlerdeki kayıtlılar için tanıyor.",
+      "doğrusu": "\"... ya da (EMASESA'nın belediye padrónuna elektronik erişimi olan yerlerde) padrón verisine bakması için izin\" diye koşulu ekle."
+     },
+     {
+      "claim_id": "emasesa-sosyal-tarife-kimler-yararlanir-d7-3",
+      "sonuç": "eksik_koşul",
+      "ağırlık": "hafif",
+      "iddia": "Belge listesi (3 madde) Catastro verisi izni (ya da Catastro sertifikası) ve engellilik/bağımlılık belgesini içermiyor; aynı SSS listesi kardeş kartta (başvuru-belgeler-yenileme) 5 madde. Not ise kadastro sınırını SSS'den anıyor, yani liste notla da tutarsız.",
+      "doğrusu": "Belge listesine SSS'deki iki maddeyi ekle: Catastro izni (vermeyenler Catastro sertifikası) ve varsa engellilik/bağımlılık belgesi; Catastro maddesine \"SSS listesinde, 2026 tarife sayfasında geçmiyor\" notunu düş ya da listeyi kardeş kartla aynı yap."
+     }
+    ],
+    "mekan_kaldi": []
+   }
+  ]
+ },
+ "is": {
+  "son_tur": "d7",
+  "sonraki_tur": "d8",
+  "kayitlar": [],
+  "hafif": [
+   {
+    "entry_id": "sevilla:issizlik-maasi-paro-sepe-basvurusu",
+    "tur": "d7",
+    "ozet": "K26 nereye/randevu yolu: kart 'randevu alarak ödenek ofisinden' diyor ama randevunun nasıl alınacağını (SEPE elektronik ofisi ya da telefon) yazmıyor; Sevilla'daki ödenek ofisi de adlandırılmıyor. | Not satırındaki 'AB serbest dolaşım rejimi Türk vatandaşına uygulanmaz, Türk vatandaşı AB dışı vatandaş satırına girer' kuralının defterde karşılığı yok.",
+    "bulgular": [
+     {
+      "claim_id": "issizlik-maasi-paro-sepe-basvurusu-d7-1",
+      "sonuç": "eksik_koşul",
+      "ağırlık": "hafif",
+      "iddia": "K26 nereye/randevu yolu: kart 'randevu alarak ödenek ofisinden' diyor ama randevunun nasıl alınacağını (SEPE elektronik ofisi ya da telefon) yazmıyor; Sevilla'daki ödenek ofisi de adlandırılmıyor.",
+      "doğrusu": "4. adıma ekle: ödenek ofisi randevusunu SEPE elektronik ofisinden ya da telefonla alırsın; Sevilla için il müdürlüğü kartına yönlendir."
+     },
+     {
+      "claim_id": "issizlik-maasi-paro-sepe-basvurusu-d7-2",
+      "sonuç": "kaynak_yetersiz",
+      "ağırlık": "hafif",
+      "iddia": "Not satırındaki 'AB serbest dolaşım rejimi Türk vatandaşına uygulanmaz, Türk vatandaşı AB dışı vatandaş satırına girer' kuralının defterde karşılığı yok.",
+      "doğrusu": "Cümleyi kaynaklı bir defter satırına bağla (AB dışı vatandaş = TIE satırı) ya da 'AB dışı vatandaşsan (Türk vatandaşı dahil) fotoğraflı TIE satırı geçerlidir' diye kaynağın ayrımına yasla."
+     }
+    ],
+    "mekan_kaldi": []
+   },
+   {
+    "entry_id": "sevilla:serbest-calisan-autonomo-kayit-ve-prim-tablosu",
+    "tur": "d7",
+    "ozet": "Not satırı: 'yönetmelik bu otomatik yetkiyi anne-baba olarak birleştirilenler için saymaz' kuralının defterde karşılığı yok.",
+    "bulgular": [
+     {
+      "claim_id": "serbest-calisan-autonomo-kayit-ve-prim-tablosu-d7-1",
+      "sonuç": "kaynak_yetersiz",
+      "ağırlık": "hafif",
+      "iddia": "Not satırı: 'yönetmelik bu otomatik yetkiyi anne-baba olarak birleştirilenler için saymaz' kuralının defterde karşılığı yok.",
+      "doğrusu": "Defterde ayrı satır aç (m.65.2 sayılanlar; m.68.6 anne-baba için çalışma izni şartı) ya da cümleyi 'yetki eş, kayıtlı partner ve çocuk için tanınır' diye olumlu biçimde yaz."
+     }
+    ],
+    "mekan_kaldi": []
+   },
+   {
+    "entry_id": "sevilla:endulus-sae-is-arayan-kaydi-demandante-de-empleo",
+    "tur": "d7",
+    "ozet": "K26 ne öder: işlem kartında cost alanı boş; kayıt ücretli mi ücretsiz mi, kartta yok.",
+    "bulgular": [
+     {
+      "claim_id": "endulus-sae-is-arayan-kaydi-demandante-de-empleo-d7-1",
+      "sonuç": "kaynak_yetersiz",
+      "ağırlık": "hafif",
+      "iddia": "K26 ne öder: işlem kartında cost alanı boş; kayıt ücretli mi ücretsiz mi, kartta yok.",
+      "doğrusu": "SAE ya da Junta'nın resmî bir sayfasında ücretsizliği bul ve cost alanına kaynakla yaz; bulunamazsa K26 'ne öder' öğesi açık kalır."
+     }
+    ],
+    "mekan_kaldi": []
+   },
+   {
+    "entry_id": "sevilla:sae-randevusu-ve-demanda-yenileme-sevilla",
+    "tur": "d7",
+    "ozet": "K26 ne öder: işlem kartında cost alanı boş; randevu ve yenilemenin ücretsiz olup olmadığı yazılı değil. | K26 ne getir: ofiste yenileme için kaynak yalnız 'DNI' diyor; yabancı okurun (TIE/NIE) kimliğinin kabul edilip edilmediği belli değil, kart bunu 'SAE'nin sayfası DNI'yi sayar' diye kaynağa atıp okura bırakıyor.",
+    "bulgular": [
+     {
+      "claim_id": "sae-randevusu-ve-demanda-yenileme-sevilla-d7-1",
+      "sonuç": "kaynak_yetersiz",
+      "ağırlık": "hafif",
+      "iddia": "K26 ne öder: işlem kartında cost alanı boş; randevu ve yenilemenin ücretsiz olup olmadığı yazılı değil.",
+      "doğrusu": "Resmî bir sayfada ücretsizliği bul ve cost alanına kaynakla yaz; bulunamazsa K26 'ne öder' öğesi açık kalır."
+     },
+     {
+      "claim_id": "sae-randevusu-ve-demanda-yenileme-sevilla-d7-2",
+      "sonuç": "eksik_koşul",
+      "ağırlık": "hafif",
+      "iddia": "K26 ne getir: ofiste yenileme için kaynak yalnız 'DNI' diyor; yabancı okurun (TIE/NIE) kimliğinin kabul edilip edilmediği belli değil, kart bunu 'SAE'nin sayfası DNI'yi sayar' diye kaynağa atıp okura bırakıyor.",
+      "doğrusu": "SAE'nin yabancı kimlik belgesini (TIE/NIE) kabul ettiğine dair resmî sayfa bul; bulunamazsa kartta 'sayfa yalnız DNI sayıyor, yabancı kimliği için SAE'ye belge sorusu açık' diye açıkça ve tek cümlede belirt."
+     }
+    ],
+    "mekan_kaldi": []
+   },
+   {
+    "entry_id": "sevilla:sevilla-sepe-il-mudurlugu-adresi",
+    "tur": "d7",
+    "ozet": "3. adım cümlesi 'telefonla ya da SEPE sitesinden randevu alarak ödenek ofisinden' iki biçimde okunabilir ('telefonla başvuru' gibi); kaynakta telefon ve elektronik ofis randevu kanalıdır, başvuru kanalı değil.",
+    "bulgular": [
+     {
+      "claim_id": "sevilla-sepe-il-mudurlugu-adresi-d7-1",
+      "sonuç": "eksik_koşul",
+      "ağırlık": "hafif",
+      "iddia": "3. adım cümlesi 'telefonla ya da SEPE sitesinden randevu alarak ödenek ofisinden' iki biçimde okunabilir ('telefonla başvuru' gibi); kaynakta telefon ve elektronik ofis randevu kanalıdır, başvuru kanalı değil.",
+      "doğrusu": "Cümleyi 'randevuyu SEPE elektronik ofisinden ya da telefonla alıp ödenek ofisinde başvurursun' diye yeniden kur."
+     }
+    ],
+    "mekan_kaldi": []
+   },
+   {
+    "entry_id": "sevilla:sevilla-cmac-zorunlu-uzlastirma-ve-sercla",
+    "tur": "d7",
+    "ozet": "K26 ne öder: işlem kartında cost alanı boş; CMAC uzlaştırmasının ücretsiz olup olmadığı kartta yok. | C-sevilla-cmac-zorunlu-uzlastirma-ve-sercla-17: ET m.59.3 'keser' ifadesi sürenin durma/devam mantığını anlatmıyor",
+    "bulgular": [
+     {
+      "claim_id": "C-sevilla-cmac-zorunlu-uzlastirma-ve-sercla-17",
+      "sonuç": "kaynak_yetersiz",
+      "ağırlık": "hafif",
+      "iddia": "Uzlaştırma başvurusu dava hakkı süresini keser (kart: 'uzlaştırma başvurusu bu süreyi keser')",
+      "doğrusu": "Uzlaştırma başvurusunun dava hakkı süresine etkisini LRJS m.65 metniyle (kaynaklı defter satırı) netleştir; cümleyi 'başvuru süreyi durdurur, kalan günler uzlaştırma denemesinden sonra işlemeye devam eder' biçiminde, kaynaklı yaz."
+     },
+     {
+      "claim_id": "sevilla-cmac-zorunlu-uzlastirma-ve-sercla-d7-1",
+      "sonuç": "kaynak_yetersiz",
+      "ağırlık": "hafif",
+      "iddia": "K26 ne öder: işlem kartında cost alanı boş; CMAC uzlaştırmasının ücretsiz olup olmadığı kartta yok.",
+      "doğrusu": "Junta'nın resmî sayfasında ücretsizliği bul ve cost alanına kaynakla yaz; bulunamazsa K26 'ne öder' öğesi açık kalır."
+     }
+    ],
+    "mekan_kaldi": []
+   }
+  ]
+ },
+ "kesif": {
+  "son_tur": "d7",
+  "sonraki_tur": "d8",
+  "kayitlar": [],
+  "hafif": [
+   {
+    "entry_id": "sevilla:katedral-ve-giralda-saatler-bilet-ve-rehberli-tur",
+    "tur": "d7",
+    "ozet": "eksik_koşul: Kart, ziyaret kuralı ve giriş yolunun yıl boyu sabit olduğunu varsayıyor; kaynak sayfa 4-8 Aralık için istisna duyuruyor",
+    "bulgular": [
+     {
+      "claim_id": "katedral-ve-giralda-saatler-bilet-ve-rehberli-tur-d7-1",
+      "sonuç": "eksik_koşul",
+      "ağırlık": "hafif",
+      "iddia": "Kart, ziyaret kuralı ve giriş yolunun yıl boyu sabit olduğunu varsayıyor; kaynak sayfa 4-8 Aralık için istisna duyuruyor",
+      "doğrusu": "Nota ekle: 'Resmî sayfaya göre 4-7 Aralık'ta kültürel ziyaret yalnız Giralda'ya çıkış ve Fons Pietatis sergisini kapsıyor, çevrimiçi giriş Puerta del Perdón'dan, gişe Puerta del Lagarto'da; 8 Aralık'ta kültürel ziyaret yok.'"
+     }
+    ],
+    "mekan_kaldi": []
+   },
+   {
+    "entry_id": "sevilla:sevilla-acik-havada-spor-secenekleri",
+    "tur": "d7",
+    "ozet": "eksik_koşul: Adım 5: 'Triana Köprüsü'ndeki tırmanış alanını yalnız deneyimliysen kullan'",
+    "bulgular": [
+     {
+      "claim_id": "sevilla-acik-havada-spor-secenekleri-d7-1",
+      "sonuç": "eksik_koşul",
+      "ağırlık": "hafif",
+      "iddia": "Adım 5: 'Triana Köprüsü'ndeki tırmanış alanını yalnız deneyimliysen kullan'",
+      "doğrusu": "Adımı kaynaktaki şiddetle yaz: 'Triana Köprüsü'ndeki tırmanış alanı profesyonellere yönelik; güvenlik önlemi olmadığı için deneyimli olsan bile kendi sorumluluğunda kullan, yeni başlıyorsan kullanma.'"
+     }
+    ],
+    "mekan_kaldi": []
+   },
+   {
+    "entry_id": "sevilla:turizm-bilgi-ofisleri-adres-ve-saatler",
+    "tur": "d7",
+    "ozet": "eksik_koşul: Adım 2-3 havalimanı ve Santa Justa noktalarını saat vermeden öneriyor; başlık 'ne zaman açık' diyor",
+    "bulgular": [
+     {
+      "claim_id": "turizm-bilgi-ofisleri-adres-ve-saatler-d7-1",
+      "sonuç": "eksik_koşul",
+      "ağırlık": "hafif",
+      "iddia": "Adım 2-3 havalimanı ve Santa Justa noktalarını saat vermeden öneriyor; başlık 'ne zaman açık' diyor",
+      "doğrusu": "Havalimanı ve Santa Justa noktaları için ekle: hafta içi 09:00-19:30, cumartesi, pazar ve tatil günleri 09:30-15:00 (gece ya da hafta sonu öğleden sonra varırsan kapalı)."
+     }
+    ],
+    "mekan_kaldi": []
+   },
+   {
+    "entry_id": "sevilla:real-alcazar-konserler-gece-ziyaretleri-ve-sergiler",
+    "tur": "d7",
+    "ozet": "eksik_koşul: 'Real Alcázar abierto a Sevilla' temalı ziyaretleri ücretsiz",
+    "bulgular": [
+     {
+      "claim_id": "C-real-alcazar-konserler-gece-ziyaretleri-ve-sergiler-3",
+      "sonuç": "eksik_koşul",
+      "ağırlık": "hafif",
+      "iddia": "'Real Alcázar abierto a Sevilla' temalı ziyaretleri ücretsiz",
+      "doğrusu": "'Temalı ziyaretler ücretsiz' yerine: 'Real Alcázar abierto a Sevilla temalı ziyaretleri etkinlik tarifesine tabi değil (ücret alınmıyor); kimlerin katılabildiği ve takvimi tarifede yazmıyor.' Başlık ve alt başlıktaki 'temalı ziyaretler ücretsiz' ifadesini de aynı şekilde yumuşat."
+     }
+    ],
+    "mekan_kaldi": []
+   }
+  ]
+ },
+ "mahalle": {
+  "son_tur": "d10",
+  "sonraki_tur": "d11",
+  "kayitlar": [],
+  "hafif": [
+   {
+    "entry_id": "sevilla:sevilla-del-29",
+    "tur": "d7",
+    "ozet": "Pavyonların 'çoğu' denmiş, kaynak 'muchos' (birçoğu) diyor (eksik_koşul, hafif).",
+    "bulgular": [
+     {
+      "claim_id": "C-sevilla-del-29-5",
+      "sonuç": "eksik_koşul",
+      "ağırlık": "hafif",
+      "iddia": "Compare Yapı ve summary: ülke pavyonlarının 'çoğu' bugün konsolosluk, müze ya da kurum",
+      "doğrusu": "'çoğu' yerine 'birçoğu' yazılsın (summary ve compare.Yapı ve konut dokusu)."
+     }
+    ],
+    "mekan_kaldi": []
+   }
+  ]
+ },
+ "mekan1": {
+  "son_tur": "d9",
+  "sonraki_tur": "d10",
+  "kayitlar": [],
+  "hafif": [
+   {
+    "entry_id": "sevilla:parque-del-alamillo",
+    "tur": "d9",
+    "ozet": "Saatler, adres, telefon ve etkinlik listesi kaynakla birebir. İki hafif sorun: özetteki 'meşelik' kaynakta yok (kaynak yalnız 'dehesa y bosque mediterráneo' başlığını veriyor) ve alt başlıktaki 'Junta işlettiği' kaynakta yazmıyor.",
+    "bulgular": [
+     {
+      "claim_id": "parque-del-alamillo-d9-1",
+      "sonuç": "kaynak_yetersiz",
+      "ağırlık": "hafif",
+      "iddia": "Özet: 'nehir ormanı (bosque de ribera), meşelik ve Akdeniz ormanı (dehesa), portakal ve sebze bahçesi (naranjal y huerta) gibi farklı peyzajlardan oluşuyor'",
+      "doğrusu": "Kaynak yalnız başlıkları veriyor. 'Meşelik' kaldırılıp 'dehesa (ağaçlı mera) ve Akdeniz ormanı' yazılmalı ya da dehesa'nın tanımı park sayfasından alınmalı."
+     },
+     {
+      "claim_id": "parque-del-alamillo-d9-2",
+      "sonuç": "kaynak_yetersiz",
+      "ağırlık": "hafif",
+      "iddia": "Alt başlık: 'Isla de la Cartuja'da Junta de Andalucía'nın işlettiği doğa parkı'",
+      "doğrusu": "'Junta de Andalucía'nın sitesinde tanıtılan doğa parkı' diye yaz ya da 'Gestión del Parque' sayfasını kaynak ekleyip işletme bilgisini oradan al."
+     }
+    ],
+    "mekan_kaldi": []
+   }
+  ]
+ },
+ "mekan3": {
+  "son_tur": "d9",
+  "sonraki_tur": "d10",
+  "kayitlar": [],
+  "hafif": [
+   {
+    "entry_id": "sevilla:iglesia-de-santa-catalina",
+    "tur": "d9",
+    "ozet": "Yılsız yaz düzeni saatleri karttan çıktı, adres/koordinat/ücret/telefonlar kaynaklarla uyuşuyor, mekân doğrulaması geçti. Kalan tek bulgu atıf: özetteki tarih ve mimari anlatı 'Junta de Andalucía'nın kültür ajandasına göre' diye veriliyor, oysa metni Junta değil, rehberli ziyareti satan özel işletme GuiArte Sevilla yazmış (sayfada 'Organizador'); Junta'nın alan sayfasında bu metin yok. Atfı düzelt",
+    "bulgular": [
+     {
+      "claim_id": "iglesia-de-santa-catalina-d9-1",
+      "sonuç": "kaynak_yetersiz",
+      "ağırlık": "hafif",
+      "iddia": "Özet: 'Junta de Andalucía'nın kültür ajandasına göre Sevilla'nın ilk (primitivas) parroquia kiliselerinden biri: eski bir caminin yerine kurulmuş, kökeni XIII. yüzyıl, XIV. yüzyılda depremden sonra yeniden yapılmış; ağır basan üslup gotik-mudéjar, Figueroa Capilla Sacramental'i yaptı, içeride Roldán/Duque Cornejo/Martínez eserleri' (C-13, C-14, C-15, C-18)",
+      "doğrusu": "Metni Junta yazmıyor: ajanda sayfasında yayımlanan açıklama, rehberli ziyareti satan özel işletme GuiArte Sevilla'ya ait. Kartta 'Junta ajandasında yayımlanan GuiArte Sevilla tanıtım metnine göre' diye atıf ver; ya da kökeni/yüzyıl/üslup ayrıntılarını Archidiócesis ya da Junta'nın miras kaydı gibi kilisenin sahibi ya da resmî tescil kaynağından teyit edip onlara dayandır."
+     }
+    ],
+    "mekan_kaldi": []
+   }
+  ]
+ },
+ "oturum": {
+  "son_tur": "d10",
+  "sonraki_tur": "d11",
+  "kayitlar": [
+   {
+    "entry_id": "sevilla:junta-kayit-ofisinde-dilekce-sunma",
+    "tur": "d10",
+    "ozet": "Orta (eksik_koşul): adım 1 'DNI ya da NIE numarası gerekir' diyor; aynı kaynak sayfa NIF'i olmayanlar için uygulamada 'Solicitar cita para personas sin NIF' yolunu ve randevusuz gidene aynı gün ofiste randevu verilebileceğini yazıyor (C-k2). NIE'si olmayan yeni gelen okuyucu randevu alamayacağını sanır. Düzeltme: NIE/DNI varsa uygulama ya da telefon; yoksa 'personas sin NIF' seçeneği ve müsaitse a",
+    "bulgular": [
+     {
+      "claim_id": "C-junta-kayit-ofisinde-dilekce-sunma-k2",
+      "sonuç": "eksik_koşul",
+      "ağırlık": "orta",
+      "iddia": "Randevu için DNI ya da NIE numarası gerekir",
+      "doğrusu": "NIE/DNI numaran varsa uygulamadan ya da telefondan randevu al; yoksa uygulamada 'Solicitar cita para personas sin NIF' seçeneğini kullan. Randevun yoksa aynı gün ofiste, müsaitlik varsa randevu alınabilir (kaynak: 'En caso de que no dispongas de cita, podrás obtenerla en la misma Oficina en el mismo día si hubiera citas disponibles')."
+     }
+    ],
+    "mekan_kaldi": []
+   }
+  ],
+  "hafif": [
+   {
+    "entry_id": "sevilla:aile-birlesimi-ile-oturum",
+    "tur": "d7",
+    "ozet": "K26 eksik: nereye (Sevilla Yabancılar Ofisi adı/adresi ve randevu yolu yok). Diğer iddialar (gelir şartı, 1 yıl şartı, harçlar 10,94/16,08, aşamalar izin-vize-TIE) kaynakla uyumlu.",
+    "bulgular": [
+     {
+      "claim_id": "aile-birlesimi-ile-oturum-d7-1",
+      "sonuç": "eksik_koşul",
+      "ağırlık": "hafif",
+      "iddia": "K26: Kart, izin başvurusunun nereye yapılacağını 'oturduğun ilin yabancılar ofisi' diye yazıyor; Sevilla'daki Yabancılar Ofisi'nin adı/adresi ve randevu (cita) yolu kartta yok.",
+      "doğrusu": "İzin başvurusu için Sevilla Yabancılar Ofisi'nin (Oficina de Extranjería) adını, adresini ve randevu yolunu resmî kaynakla ekle; elektronik kanal (Mercurio) ana yol olarak kalsın."
+     }
+    ],
+    "mekan_kaldi": []
+   },
+   {
+    "entry_id": "sevilla:kar-amaci-gutmeyen-oturum-vizesi",
+    "tur": "d7",
+    "ozet": "K26 eksik: ne öder (vize ücreti ve BLS hizmet ücreti tutarı yok). Gelir şartı %400/2.400 euro, aile bireyi 600 euro, harçlar 10,94/16,08, süreler kaynakla uyumlu.",
+    "bulgular": [
+     {
+      "claim_id": "kar-amaci-gutmeyen-oturum-vizesi-d7-1",
+      "sonuç": "kaynak_yetersiz",
+      "ağırlık": "hafif",
+      "iddia": "K26: ne öder öğesi eksik: izin harcı (10,94) ve TIE (16,08) var, ama vize ücreti ile BLS hizmet ücretinin tutarı kartta yok.",
+      "doğrusu": "Vize ücretinin 2026 tutarını 'Nuevas Tasas Consulares 2026' tarifesinden ve BLS hizmet ücretini BLS tarifesinden resmî kaynakla ekle; bulunamazsa 'tutar kaynakta yok' notu kalsın (kart zaten yazıyor)."
+     }
+    ],
+    "mekan_kaldi": []
+   },
+   {
+    "entry_id": "sevilla:ogrenci-oturumuyla-calisma-hakki",
+    "tur": "d7",
+    "ozet": "K25 eksik: ilk cümle başlıktaki soruya net cevap vermiyor ('izin istenebilir'); asıl cevap sonraki cümlelerde. Madde 57 içeriği (30 saat, özerk bölge sınırı, 52.1.a otomatik yetki, staj) kaynakla uyumlu.",
+    "bulgular": [
+     {
+      "claim_id": "ogrenci-oturumuyla-calisma-hakki-d7-1",
+      "sonuç": "eksik_koşul",
+      "ağırlık": "hafif",
+      "iddia": "K25: İlk cümle 'çalışmak için izin istenebilir' diyor; başlıktaki soruya asıl cevap (md. 52.1.a yükseköğrenim izniyle ek işlem olmadan, haftada en çok 30 saat çalışabilirsin) ikinci ve üçüncü cümlede.",
+      "doğrusu": "İlk cümleyi şöyle kur: 'Evet: üniversite gibi yükseköğrenim (md. 52.1.a) öğrenci iznin varsa eğitimle bağdaşan işte ek işlem olmadan, haftada en çok 30 saat çalışabilirsin; diğer öğrenci izinlerinde önce çalışma izni başvurusu gerekir.'"
+     }
+    ],
+    "mekan_kaldi": []
+   },
+   {
+    "entry_id": "sevilla:ispanyol-vatandasligi-basvurusu",
+    "tur": "d7",
+    "ozet": "K26 eksik: ne öder (harç tutarı yok); başvuru yalnız elektronik diye yazılmış (md. 4.1 genel sunum kurallarını saklı tutuyor); butonlar yalnız BOE hukuk metni, başvuru/ödeme sayfası yok. 10/5/2/1 yıl kuralları, DELE A2 + CCSE, 1 yıl karar süresi, 180 gün kaynakla uyumlu.",
+    "bulgular": [
+     {
+      "claim_id": "ispanyol-vatandasligi-basvurusu-d7-1",
+      "sonuç": "kaynak_yetersiz",
+      "ağırlık": "hafif",
+      "iddia": "K26: ne öder öğesi eksik: kart 'harç ödenir' diyor ama tutar yok; DELE ve CCSE ücretlerinin de tutarı yok.",
+      "doğrusu": "Başvuru harcı tutarını Adalet Bakanlığı'nın ödeme formu/sayfasından 2026 tutarıyla ekle (tarihiyle); DELE ve CCSE için Instituto Cervantes'in güncel fiyatını ayrı kaynakla ekle. Bulunamazsa 'tutar bu kaynakta yok' notunu kartta açıkça bırak."
+     },
+     {
+      "claim_id": "C-ispanyol-vatandasligi-basvurusu-112",
+      "sonuç": "eksik_koşul",
+      "ağırlık": "hafif",
+      "iddia": "Başvuru standart formla elektronik uygulama üzerinden yapılır",
+      "doğrusu": "Cümleyi 'Başvuru esas olarak Adalet Bakanlığı'nın elektronik uygulamasıyla yapılır; genel sunum kurallarına göre başka yoldan sunum da mümkündür' diye düzelt."
+     },
+     {
+      "claim_id": "ispanyol-vatandasligi-basvurusu-d7-2",
+      "sonuç": "eksik_koşul",
+      "ağırlık": "hafif",
+      "iddia": "Butonlar: iki buton da hukuk metni (Código Civil ve RD 1004/2015, BOE); başvuru formu ve ödeme formu için Adalet Bakanlığı sayfasına buton yok.",
+      "doğrusu": "Adalet Bakanlığı'nın nacionalidad por residencia başvuru (sede electrónica) sayfasını 'Başvuru yap' butonu olarak ekle; BOE metinleri 'Bilgi al' olarak kalabilir."
+     }
+    ],
+    "mekan_kaldi": []
+   },
+   {
+    "entry_id": "sevilla:brexit-sonrasi-ingiliz-oturumu",
+    "tur": "d7",
+    "ozet": "K26 eksik: nereye/randevu yolu (Sevilla Yabancılar Ofisi adresi ve randevunun nereden alınacağı yok). EX23/EX20/EX21, 12,00 euro, 5/10 yıl, 3 ay/1 ay süreleri ve aşama ayrımı kaynakla uyumlu.",
+    "bulgular": [
+     {
+      "claim_id": "brexit-sonrasi-ingiliz-oturumu-d7-1",
+      "sonuç": "eksik_koşul",
+      "ağırlık": "hafif",
+      "iddia": "K26: nereye öğesi eksik: kart 'yüz yüze işlem için ön randevu gerekir' diyor ama randevunun nereden/nasıl alınacağı ve Sevilla'daki Yabancılar Ofisi'nin adı/adresi yok.",
+      "doğrusu": "İki adımlı yolda ofis adımı için Sevilla Yabancılar Ofisi'nin adresini ve polis adımı için randevu kanalını (polis sede randevu sayfası) resmî kaynakla ekle."
+     }
+    ],
+    "mekan_kaldi": []
+   }
+  ]
+ },
+ "para": {
+  "son_tur": "d10",
+  "sonraki_tur": "d11",
+  "kayitlar": [],
+  "hafif": [
+   {
+    "entry_id": "sevilla:banka-hesabi-acma-ve-temel-odeme-hesabi",
+    "tur": "d7",
+    "ozet": "K26 ne öder: Banco de España şikâyetinin ücret durumu yok. İddialar kaynakla uyumlu.",
+    "bulgular": [
+     {
+      "claim_id": "banka-hesabi-acma-ve-temel-odeme-hesabi-d7-1",
+      "sonuç": "eksik_koşul",
+      "ağırlık": "hafif",
+      "iddia": "K26 ne öder: kart, Banco de España'ya şikâyetin ücret durumunu söylemiyor (cost alanı yalnız temel ödeme hesabı için)",
+      "doğrusu": "cost alanına şikâyetin ücretini kaynaklı olarak ekle (resmî sayfada 'ücretsiz' ifadesi bulunursa) ya da kaynakta yoksa bunun yazılmadığını kartta belirt; K26 'ne öder' öğesi şikâyet işlemi için eksik."
+     }
+    ],
+    "mekan_kaldi": []
+   },
+   {
+    "entry_id": "sevilla:yillik-gelir-vergisi-beyani-renta",
+    "tur": "d7",
+    "ozet": "Sevilla'daki AEAT ofis adresleri yalnız ofis dizininden; Renta şahsen beyanı bu ofislerde verildiği kaynakta yazmıyor (kaynak_yetersiz).",
+    "bulgular": [
+     {
+      "claim_id": "yillik-gelir-vergisi-beyani-renta-d7-1",
+      "sonuç": "kaynak_yetersiz",
+      "ağırlık": "hafif",
+      "iddia": "Sevilla'da şahsen beyan için AEAT Delegación Especial, Heliópolis ve Nervión ofisleri (adımlar)",
+      "doğrusu": "Ofis adreslerini 'AEAT Sevilla ofis dizini' olarak ver; Renta yardımının hangi ofislerde ve hangi kanaldan (cita) verildiğini AEAT'nin Renta yardım sayfasından kaynakla ya da cümleyi 'randevu AEAT e-ofisinden alınır' diye genelle."
+     }
+    ],
+    "mekan_kaldi": []
+   },
+   {
+    "entry_id": "sevilla:endulus-ikinci-el-konut-alimi-itp-indirimli-oranlar",
+    "tur": "d7",
+    "ozet": "Oranlar ve sınırlar Ley 5/2021 ile uyumlu; nüfus kaybı belediyesi tanımı (3.000'den az nüfus) eksik, timing alanı belirsizlik bırakıyor.",
+    "bulgular": [
+     {
+      "claim_id": "endulus-ikinci-el-konut-alimi-itp-indirimli-oranlar-d7-1",
+      "sonuç": "eksik_koşul",
+      "ağırlık": "hafif",
+      "iddia": "Nüfus kaybı sorunu olan belediye koşulu (%3,5) tanımsız bırakılmış; ayrıca timing alanı 'sayfada tarih belirtilmemiştir' diyerek okura belirsizlik bırakıyor",
+      "doğrusu": "Kartta 'nüfus kaybı sorunu olan belediye = nüfusu 3.000'den az belediye (Ley 5/2021 md. 8)' diye yaz ve 'Sevilla şehri bu grupta değildir' notunu ekle (nüfus rakamı kaynaklıysa); timing alanını 'Ley 5/2021 son güncel metin 31/12/2025, 01/01/2026'dan itibaren' diye doldur."
+     }
+    ],
+    "mekan_kaldi": []
+   },
+   {
+    "entry_id": "sevilla:rmisa-asgari-gelir-destegi-kimler-yararlanir-tutar",
+    "tur": "d7",
+    "ozet": "K26 eksik: ne öder (cost boş), nereye Sevilla'ya özgü değil. İddialar kaynakla uyumlu.",
+    "bulgular": [
+     {
+      "claim_id": "rmisa-asgari-gelir-destegi-kimler-yararlanir-tutar-d7-1",
+      "sonuç": "eksik_koşul",
+      "ağırlık": "hafif",
+      "iddia": "K26: cost (ne öder) boş; nereye alanı 'oturduğun yerin sosyal hizmetler merkezi' diye genel, Sevilla'daki merkez/randevu yolu yok",
+      "doğrusu": "Başvurunun ücretsiz olduğunu kaynaklı biçimde yaz (ya da 'kaynakta ücret yazmıyor' notu); Sevilla Belediyesi Servicios Sociales Comunitarios başvuru kanalını/randevu yolunu resmî sayfadan ekle."
+     }
+    ],
+    "mekan_kaldi": []
+   },
+   {
+    "entry_id": "sevilla:rmisa-basvuru-karar-sureci-ve-uzatma",
+    "tur": "d7",
+    "ozet": "K26 eksik: ne öder (cost boş); Sevilla'daki başvuru merkezi/randevu yolu yok. 170 (12 ay) ile 171 (6 ay) çelişkisi kartta açıkça belirtilmiş.",
+    "bulgular": [
+     {
+      "claim_id": "rmisa-basvuru-karar-sureci-ve-uzatma-d7-1",
+      "sonuç": "eksik_koşul",
+      "ağırlık": "hafif",
+      "iddia": "K26: cost (ne öder) boş; Sevilla'daki sosyal hizmetler merkezi adresi ve randevu yolu yok (yalnız il Delegación adresi var)",
+      "doğrusu": "Ne öder: ücret durumu (kaynak bulunursa 'ücretsiz'); nereye: Sevilla Belediyesi Servicios Sociales Comunitarios merkezi ve cita yolu eklenmeli."
+     }
+    ],
+    "mekan_kaldi": []
+   },
+   {
+    "entry_id": "sevilla:endulus-imv-tamamlayici-yardim-ve-bono-social-termico",
+    "tur": "d7",
+    "ozet": "K26 eksik: ne getir, ne zaman (başvuru dönemi). Oranlar (RDL 7/2026) ve Junta sayfası çelişkisi kartta doğru çözülmüş.",
+    "bulgular": [
+     {
+      "claim_id": "endulus-imv-tamamlayici-yardim-ve-bono-social-termico-d7-1",
+      "sonuç": "eksik_koşul",
+      "ağırlık": "hafif",
+      "iddia": "K26: ne getir (belge listesi) ve ne zaman (başvuru dönemi/son gün) alanları boş; Ayuda Complementaria ve Bono Social Térmico için tutar/ücret yok",
+      "doğrusu": "Bağlantılı işlem sayfalarından (Acceso al trámite / Cómo realizar el trámite) belge listesini ve başvuru dönemini kaynaklı ekle; Ayuda Complementaria için tutar/ücret bilgisini 'kaynakta yok' diye not et."
+     }
+    ],
+    "mekan_kaldi": []
+   }
+  ]
+ },
+ "planlama": {
+  "son_tur": "d10",
+  "sonraki_tur": "d11",
+  "kayitlar": [],
+  "hafif": [
+   {
+    "entry_id": "sevilla:tasinma-oncesi-vize-ve-ilk-oturum-izni",
+    "tur": "d7",
+    "ozet": "[hafif] K26 ne öder: harç 790-052 ve BLS bedeli tutarı yok; K26 nereye: TIE için Sevilla'daki ofis/randevu yolu yok (kaynakta yok); pasaportun 10 yıl kuralı belge listesinde yok.",
+    "bulgular": [
+     {
+      "claim_id": "tasinma-oncesi-vize-ve-ilk-oturum-izni-d7-1",
+      "sonuç": "kaynak_yetersiz",
+      "ağırlık": "hafif",
+      "iddia": "K26 ne öder: kartta harç (modelo 790-052) ve BLS hizmet bedeli için tutar yok",
+      "doğrusu": "Tutar için 'Nuevas Tasas Consulares 2026' sayfası kaynak olarak eklenip harç ve BLS bedeli yazılmalı; olmazsa 'tutarı resmî sayfada yayımlanıyor' diye açıkça belirtilmeli."
+     },
+     {
+      "claim_id": "tasinma-oncesi-vize-ve-ilk-oturum-izni-d7-2",
+      "sonuç": "kaynak_yetersiz",
+      "ağırlık": "hafif",
+      "iddia": "K26 nereye: TIE için Sevilla'daki ofis ve randevu yolu kartta yok",
+      "doğrusu": "Sevilla'da TIE alınacak polis birimi ve randevu yolu için ayrı resmî kaynak (Policía Nacional / Extranjería Sevilla) eklenip adım güncellenmeli."
+     },
+     {
+      "claim_id": "tasinma-oncesi-vize-ve-ilk-oturum-izni-d7-3",
+      "sonuç": "eksik_koşul",
+      "ağırlık": "hafif",
+      "iddia": "Pasaport şartı eksik: 10 yıldan eski düzenlenmiş pasaport kabul edilmez (documents satırında yok)",
+      "doğrusu": "Belge satırı: 'Pasaport: en az 1 yıl geçerli, iki boş sayfalı; 10 yıldan eski düzenlenmiş pasaport kabul edilmez'."
+     }
+    ],
+    "mekan_kaldi": []
+   },
+   {
+    "entry_id": "sevilla:oturum-vizesi-basvurusunda-getirilecek-belgeler",
+    "tur": "d7",
+    "ozet": "[hafif] Özet karar süresinin başlangıcını (olumlu oturum izni kararından sonraki gün) vermiyor; K26 ne öder: tutarlar ve IPREM %400 euro karşılığı yok.",
+    "bulgular": [
+     {
+      "claim_id": "oturum-vizesi-basvurusunda-getirilecek-belgeler-d7-1",
+      "sonuç": "eksik_koşul",
+      "ağırlık": "hafif",
+      "iddia": "Özet 'yasal karar süresi 1 aydır' diyor ama sürenin başlangıcını vermiyor",
+      "doğrusu": "Özet: 'yasal karar süresi, oturum izninin olumlu sonuçlandığının bildirimini izleyen günden başlayarak 1 aydır.'"
+     },
+     {
+      "claim_id": "oturum-vizesi-basvurusunda-getirilecek-belgeler-d7-2",
+      "sonuç": "kaynak_yetersiz",
+      "ağırlık": "hafif",
+      "iddia": "K26 ne öder: harç, BLS bedeli ve IPREM %400 için tutar yok",
+      "doğrusu": "IPREM'in 2026 değeri (resmî kaynakla) ve 790-052 harcı eklenmeli ya da tutarın resmî sayfada olduğu açıkça yazılmalı."
+     }
+    ],
+    "mekan_kaldi": []
+   },
+   {
+    "entry_id": "sevilla:ilk-gunlerde-nuss-ve-temel-odeme-hesabi",
+    "tur": "d7",
+    "ozet": "[hafif] K26 ne öder: NUSS ücreti/temel hesap komisyonu yok (kaynak kopyada yok).",
+    "bulgular": [
+     {
+      "claim_id": "ilk-gunlerde-nuss-ve-temel-odeme-hesabi-d7-1",
+      "sonuç": "kaynak_yetersiz",
+      "ağırlık": "hafif",
+      "iddia": "K26 ne öder: NUSS ücreti ve temel ödeme hesabı komisyonu/ücretsizliği kartta yok (cost boş)",
+      "doğrusu": "Banco de España'nın 'Comisiones' ve 'Gratuidad' sekmeleri kaynak metne eklenip ücret satırı yazılmalı."
+     }
+    ],
+    "mekan_kaldi": []
+   },
+   {
+    "entry_id": "sevilla:ab-disindan-gelirken-esya-ve-nakit-gumruk-beyani",
+    "tur": "d7",
+    "ozet": "[hafif] K26 nereye/ne öder: DUA'nın verileceği Sevilla ofisi ve ücret yok (kaynakta yok). İçerik iddiaları kaynakla uyumlu.",
+    "bulgular": [
+     {
+      "claim_id": "ab-disindan-gelirken-esya-ve-nakit-gumruk-beyani-d7-1",
+      "sonuç": "kaynak_yetersiz",
+      "ağırlık": "hafif",
+      "iddia": "K26 nereye / ne öder: ithalat beyannamesinin (DUA) verileceği Sevilla'daki gümrük ofisi/kanalı ve ücret kartta yok",
+      "doğrusu": "Sevilla'daki gümrük ofisi/giriş noktası için AEAT Aduanas kaynağı eklenmeli; ücret yoksa kaynakla 'ücret yazılmıyor' notu düşülmeli."
+     }
+    ],
+    "mekan_kaldi": []
+   },
+   {
+    "entry_id": "sevilla:sevilla-metro-saatleri-otobus-hatti-ve-taksi-telefonlari",
+    "tur": "d7",
+    "ozet": "[hafif] Otobüs/taksi telefonları ve biletçi noktaları yalnız turizm portalına dayanıyor; 'yeşil ışıklıysa boş' kaynakta yok.",
+    "bulgular": [
+     {
+      "claim_id": "sevilla-metro-saatleri-otobus-hatti-ve-taksi-telefonlari-d7-1",
+      "sonuç": "kaynak_yetersiz",
+      "ağırlık": "hafif",
+      "iddia": "Otobüs müşteri hattı, biletçi noktaları, taksi telefonları ve 'yeşil ışıklıysa boş' yorumu yalnız turizm portalına (Turismo de Sevilla) dayanıyor; Tussam/belediye kaynağı yok, 'boş' ifadesi kaynakta yazmıyor",
+      "doğrusu": "Tussam ve Sevilla taksi işletmecisi/belediye sayfaları kaynak olarak eklenmeli; 'yeşil ışıklıysa boş' yerine kaynaktaki ifade ('yeşil ışıklı taksi') kullanılmalı."
+     }
+    ],
+    "mekan_kaldi": []
+   },
+   {
+    "entry_id": "sevilla:sevilla-ulasim-karti-fiyati-ve-konsorsiyum-iletisim",
+    "tur": "d7",
+    "ozet": "[hafif] Adım ilk yüklemenin 5 € olduğunu kesin yazıyor (kaynak 'asgari yükleme' diyor); K26 nereye: Sevilla'da satış noktası yok (kaynakta yok).",
+    "bulgular": [
+     {
+      "claim_id": "sevilla-ulasim-karti-fiyati-ve-konsorsiyum-iletisim-d7-1",
+      "sonuç": "eksik_koşul",
+      "ağırlık": "hafif",
+      "iddia": "Adım 'ilk alımda en az 5 € yüklemeyle alınır' diyor; kaynak ilk alımda yalnız 'asgari bir yükleme' diyor, 5 € tutarı sonraki yüklemeler (recargas) için yazılı",
+      "doğrusu": "Adım: 'ilk alımda 1,50 € kart bedeli ve en az bir yükleme ödersin; sonraki yüklemeler en az 5 €'."
+     },
+     {
+      "claim_id": "sevilla-ulasim-karti-fiyati-ve-konsorsiyum-iletisim-d7-2",
+      "sonuç": "kaynak_yetersiz",
+      "ağırlık": "hafif",
+      "iddia": "K26 nereye: Sevilla'da kartın satıldığı nokta kartta yok ('herhangi bir nokta' deniyor)",
+      "doğrusu": "Sevilla Konsorsiyumu satış noktaları sayfası (resmî kaynak olarak) eklenip en az bir somut nokta yazılmalı."
+     }
+    ],
+    "mekan_kaldi": []
+   },
+   {
+    "entry_id": "sevilla:sevilla-gocmen-dernekleri-adres-ve-telefon-listesi",
+    "tur": "d7",
+    "ozet": "[hafif] E-postanın 'genel iletişim' etiketi ve hizmet–adres bağı kaynaksız; K26 saat/randevu/ücret yok (kaynakta yok).",
+    "bulgular": [
+     {
+      "claim_id": "sevilla-gocmen-dernekleri-adres-ve-telefon-listesi-d7-1",
+      "sonuç": "kaynak_yetersiz",
+      "ağırlık": "hafif",
+      "iddia": "comunicacion@sevillaacoge.org için 'genel iletişim e-posta adresi' etiketi kaynakta yok; anasayfa alt bilgisinde etiketsiz yayımlı",
+      "doğrusu": "E-postayı etiketsiz ('vakfın sitesinde yayımlanan e-posta') yaz ya da hukuk servisi sayfasından ayrı bir kanal bul."
+     },
+     {
+      "claim_id": "sevilla-gocmen-dernekleri-adres-ve-telefon-listesi-d7-2",
+      "sonuç": "eksik_koşul",
+      "ağırlık": "hafif",
+      "iddia": "Hukuk danışmanlığının bu adreste/telefonla verildiği kaynakta bağlanmıyor: hukuk servisi sayfası adres, telefon, randevu vermiyor; adres ve telefon vakfın anasayfasından",
+      "doğrusu": "Adres 'vakfın adresi' diye nitelenmeli; hukuk servisinin burada verildiği kaynaksız yazılmamalı."
+     },
+     {
+      "claim_id": "sevilla-gocmen-dernekleri-adres-ve-telefon-listesi-d7-3",
+      "sonuç": "kaynak_yetersiz",
+      "ağırlık": "hafif",
+      "iddia": "K26: hizmetin çalışma saati, randevu yolu ve ücreti kartta yok",
+      "doğrusu": "Saat, randevu ve ücret için Sevilla Acoge'nin ilgili sayfası kaynağa eklenmeli; yoksa kartta 'bu bilgi kaynakta yok' notu düşülmeli."
+     }
+    ],
+    "mekan_kaldi": []
+   },
+   {
+    "entry_id": "sevilla:sevilla-gecici-konaklama-turistik-daire-kayit-kodu-kontrolu",
+    "tur": "d7",
+    "ozet": "[hafif] Buton sorgu sayfasına gitmiyor; cost satırı ev sahibine ait; adres araması yalnız sokak adıyla; ulusal kayıt numarası kuralı doğrulanamadı.",
+    "bulgular": [
+     {
+      "claim_id": "sevilla-gecici-konaklama-turistik-daire-kayit-kodu-kontrolu-d7-1",
+      "sonuç": "kaynak_yetersiz",
+      "ağırlık": "hafif",
+      "iddia": "Buton, kartın işlemi olan sorgu sayfasına (Buscador de Establecimientos y Servicios Turísticos) değil, ev sahiplerine yönelik SSS sayfasına gidiyor; ikinci buton turizm portalı",
+      "doğrusu": "Buscador sayfasının adresi kaynak olarak eklenip ana buton ona çevrilmeli."
+     },
+     {
+      "claim_id": "sevilla-gecici-konaklama-turistik-daire-kayit-kodu-kontrolu-d7-2",
+      "sonuç": "eksik_koşul",
+      "ağırlık": "hafif",
+      "iddia": "cost satırı 'Ev sahibi için kayıt ücretsizdir' okuru değil ev sahibini ilgilendiriyor; okurun sorgu ücreti hakkında kaynak bir şey demiyor",
+      "doğrusu": "Ücret satırı kaldırılmalı ya da 'kaydı ev sahibi yaptırır, ücretsizdir; sorgu için ücret kaynakta yazılmıyor' diye düzeltilmeli."
+     },
+     {
+      "claim_id": "sevilla-gecici-konaklama-turistik-daire-kayit-kodu-kontrolu-d7-3",
+      "sonuç": "eksik_koşul",
+      "ağırlık": "hafif",
+      "iddia": "Adresle sorgu yalnız sokak adıyla yapılır; tam adres için Excel dosyası indirmek gerekir (kartta 'ev adresi ile sorgulanır' yazıyor)",
+      "doğrusu": "Adım: 'ev adresiyle yalnız sokak adı girerek ara; tam adres için sayfadaki Excel dosyasını indir'."
+     },
+     {
+      "claim_id": "sevilla-gecici-konaklama-turistik-daire-kayit-kodu-kontrolu-d7-4",
+      "sonuç": "kaynak_yetersiz",
+      "ağırlık": "hafif",
+      "iddia": "Junta SSS sayfası tarihsiz; 2025 sonrası ulusal kayıt numarası (Registro Único) kuralı kartta yok ve kaynakta da geçmiyor",
+      "doğrusu": "Ulusal kayıt numarası kuralı için resmî kaynak bulunursa karta eklenmeli; bulunamazsa kart yalnız Andalucía VUT kodunu anlattığını belirtmeli."
+     }
+    ],
+    "mekan_kaldi": []
+   }
+  ]
+ },
+ "resmi": {
+  "son_tur": "d10",
+  "sonraki_tur": "d11",
+  "kayitlar": [],
+  "hafif": [
+   {
+    "entry_id": "sevilla:sosyal-guvenlik-numarasi-alma",
+    "tur": "d7",
+    "ozet": "K26 eksik: ne öder (tutar ya da 'ücretsiz') ve ne zaman (numaranın ne kadar sürede geldiği) kartta yok; kaynaklar 019/093 de bu iki öğeyi vermiyor, kaynak bulunmalı ya da kapsam açıkça belirtilmeli. Defter satırları doğru.",
+    "bulgular": [],
+    "mekan_kaldi": []
+   },
+   {
+    "entry_id": "sevilla:vida-laboral-raporu-alma",
+    "tur": "d7",
+    "ozet": "K26 eksik: ne öder (tutar ya da 'ücretsiz') ve raporun ne zaman/hangi yolla eline geçtiği (anında PDF mi, posta mı) yok; kaynak 020 vermiyor. Defter satırları doğru.",
+    "bulgular": [],
+    "mekan_kaldi": []
+   },
+   {
+    "entry_id": "sevilla:vergi-numarasi-nif-nie-alma",
+    "tur": "d7",
+    "ozet": "K26 eksik: nereye öğesinde Sevilla Brigada Provincial için randevu yolu (cita previa) yok; ne getir listesi yalnız EX15 ve 790-012 (pasaport/kimlik nüshası gibi öğeler kaynakta yok, kaynak eklenmeli). Ücret (9,84 euro) ve süre (5 gün) doğru. Defter satırları doğru.",
+    "bulgular": [],
+    "mekan_kaldi": []
+   },
+   {
+    "entry_id": "sevilla:fnmt-dijital-sertifika-kurma",
+    "tur": "d7",
+    "ozet": "K26 eksik: nereye (Sevilla'daki kimlik doğrulama ofisi ve randevu yolu; yalnız ofis bulucu anılıyor), ne getir (ofiste gösterilecek kimlik belgesi; kaynak 024 yazmıyor), ne öder (tutar ya da 'ücretsiz'; kaynak yazmıyor). Defter satırları doğru.",
+    "bulgular": [],
+    "mekan_kaldi": []
+   },
+   {
+    "entry_id": "sevilla:belge-ceviri-ve-apostil",
+    "tur": "d7",
+    "ozet": "K26 eksik: ne getir (apostil için belge/orijinal koşulu), ne öder (apostil ve tercüme ücreti), ne zaman (süre); kaynak 026 vermiyor. Ayrıca 'çevrim içi' başvuru ifadesi kaynakta açık yazmıyor (C-belge-ceviri-ve-apostil-308, hafif). Diğer satırlar doğru.",
+    "bulgular": [
+     {
+      "claim_id": "C-belge-ceviri-ve-apostil-308",
+      "sonuç": "kaynak_yetersiz",
+      "ağırlık": "hafif",
+      "iddia": "Apostil başvurusu çevrim içi, posta yoluyla ya da yüz yüze yapılır",
+      "doğrusu": "Kartta 'çevrim içi' yerine kaynaktaki hizmet adını kullan (Solicitud de Apostilla de Documentos / por Correo Postal / Presencial) ya da çevrimiçi olduğunu gösteren Adalet Bakanlığı sedesi sayfasını kaynak olarak ekle."
+     }
+    ],
+    "mekan_kaldi": []
+   },
+   {
+    "entry_id": "sevilla:arac-kaydi-ulusal-cerceve",
+    "tur": "d7",
+    "ozet": "Yurtdışından ikinci el araç belge listesinde ficha técnica AB dışı alımda da gerekiyormuş gibi okunuyor; kaynak yalnız AB'den alınan ikinci el için listeliyor (hafif, eksik_koşul). K25/K26 geçti (Sevilla ofisi başka karta yönlendirilmiş).",
+    "bulgular": [
+     {
+      "claim_id": "arac-kaydi-ulusal-cerceve-d7-1",
+      "sonuç": "eksik_koşul",
+      "ağırlık": "hafif",
+      "iddia": "Yurtdışından alınan ikinci el araç: aracın orijinal belgeleri ve ficha técnica; AB dışından alındıysa H1 belgesi",
+      "doğrusu": "İkinci el araçta AB'den: orijinal belgeler + ITV ficha técnica + vergi ödeme belgesi; AB dışından: orijinal belgeler + H1 ithalat belgesi (ITV kartında ithalat şerhi yoksa). Ficha técnica yalnız AB'den alınan ikinci elde listeleniyor."
+     }
+    ],
+    "mekan_kaldi": []
+   },
+   {
+    "entry_id": "sevilla:junta-kayit-yardim-ofisleri-sevilla",
+    "tur": "d7",
+    "ozet": "K26 eksik: nereye (Sevilla'daki ofisin adı/adresi yok, okura 'dizinden bul' deniyor; kaynakta Sevilla ofis listesi yok), ne öder (tutar ya da 'ücretsiz'; kaynak yazmıyor). Defter satırları doğru.",
+    "bulgular": [],
+    "mekan_kaldi": []
+   }
+  ]
+ },
+ "rota": {
+  "son_tur": "d7",
+  "sonraki_tur": "d8",
+  "kayitlar": [
+   {
+    "entry_id": "sevilla:route:005",
+    "tur": "d7",
+    "ozet": "Not/plan (12/7/39 dk, 58 dk, kuş uçuşu 2,7 km) güncel ölçümle doğru, ama bacaklar dosyası (_is\\rota_mesafe.jsonl bacak 2-3: 8 dk/35 dk, 219/2405 m) eski kalmış; not ile dosya tutarsız. Diğer kontroller temiz: durak kimlikleri gerçek, saatler 'kayıtta yok' diye açık, plan akışı tutarlı (10:00+75+12 dk<11:30; 11:30+20+7<12:15; 12:15+20+39<13:15), her bacak <3 km, toplam 3 sa 53 dk.",
+    "bulgular": [
+     {
+      "claim_id": "C-route-005-3",
+      "sonuç": "çelişkili_kaynak",
+      "ağırlık": "orta",
+      "iddia": "Yürüyüş toplam ~4,4 km, ~58 dk; bacaklar 862 m/12 dk, 562 m/7 dk, 2943 m/39 dk; Jardín Americano–Alamillo kuş uçuşu ~2,7 km (2722 m)",
+      "doğrusu": "rota_mesafe.jsonl bacak 2: kus_ucusu_m 409, yuruyus_m 562, yuruyus_dk 7; bacak 3: kus_ucusu_m 2722, yuruyus_m 2943, yuruyus_dk 39 olarak güncellenmeli (toplam 4367 m / 58 dk). Not metni değişmez."
+     }
+    ],
+    "mekan_kaldi": []
+   }
+  ],
+  "hafif": []
+ },
+ "saglik": {
+  "son_tur": "d10",
+  "sonraki_tur": "d11",
+  "kayitlar": [],
+  "hafif": [
+   {
+    "entry_id": "sevilla:kamu-saglik-sistemine-erisim-hak-sahipleri",
+    "tur": "d7",
+    "ozet": "İçerik kaynakla uyumlu (40 iddia + 3 d6 iddiası doğru). Tek bulgu K26: INSS belgesinin nereden alınacağı ile convenio especial için nereye ve ne getir (belge listesi) eksik.",
+    "bulgular": [
+     {
+      "claim_id": "C-kamu-saglik-sistemine-erisim-hak-sahipleri-d7-1",
+      "sonuç": "eksik_koşul",
+      "ağırlık": "hafif",
+      "iddia": "K26 eksik: (a) documents satırındaki 'INSS'in verdiği sigortalı ya da yararlanıcı belgesi' için belgenin nereden/nasıl alınacağı (Sevilla'daki INSS ofisi ya da randevu yolu) kartta yok; (b) convenio especial için nereye (Endülüs'te hangi birim/kanal) ve ne getir (belge listesi) kartta yok, butonlarda da convenio especial sayfası yok.",
+      "doğrusu": "Karta şunları ekle: INSS belgesini Sevilla'da nereden alacağını (örn. INSS CAISS ofisi, cita previa) tek cümleyle; convenio especial için başvuruyu Endülüs'te Servicio Andaluz de Salud'a yaptığını, getirilecekler: kimlik/pasaport, kesintisiz 1 yıllık ikamet kanıtı, empadronamiento, declaración responsable ya da menşe ülke sertifikası (Sanidad sayfası); bu sayfaya buton ekle."
+     }
+    ],
+    "mekan_kaldi": []
+   },
+   {
+    "entry_id": "sevilla:endulus-saglik-karti-tarjeta-sanitaria-ve-aile-hekimi-secimi",
+    "tur": "d7",
+    "ozet": "22 iddia + 2 DICIREG iddiası doğru. Bulgular: K26 eksik (nereye: merkez bulma yolu; ne öder: tutar/ücretsiz yok; ne zaman: kart süresi yok); 'DNI' yabancı için dayanaksız; Libro de Familia yerine sertifikanın kabulü kaynaksız.",
+    "bulgular": [
+     {
+      "claim_id": "C-endulus-saglik-karti-tarjeta-sanitaria-ve-aile-hekimi-secimi-d7-1",
+      "sonuç": "kaynak_yetersiz",
+      "ağırlık": "hafif",
+      "iddia": "K26 eksik: nereye (Sevilla'da kendi sağlık merkezini nereden bulacağın; Junta'nın 'Encuentra tu centro' / merkez arama sayfası ve başvuru için randevu gerekip gerekmediği), ne öder (kartta tutar ya da 'ücretsiz' yok, yalnız 'sayfa ücret belirtmiyor' deniyor), ne zaman (kartın kaç günde çıktığı) kartta yok.",
+      "doğrusu": "Adım 1'e merkezi Junta'nın 'Buscador de centros sanitarios' sayfasından bulmayı yaz. cost satırındaki 'sayfa ücret belirtmiyor' cümlesini kaldır (okura kaynak durumunu anlatıyor); ücret kaynakta yoksa satırı boş bırak ya da kaynaktan 'ücretsiz' teyidi bul. Kartın teslim süresi kaynakta yok (yalnız kayıp kart yenilemesi için 15 gün yazıyor, ilk başvuru için değil)."
+     },
+     {
+      "claim_id": "C-endulus-saglik-karti-tarjeta-sanitaria-ve-aile-hekimi-secimi-d7-2",
+      "sonuç": "kaynak_yetersiz",
+      "ağırlık": "hafif",
+      "iddia": "Documents satırında 'Başvuru sahibinin DNI'ı' istendiği yazılı; yabancı sakin için NIE/TIE'nin kabul edilip edilmediği kartta ve kaynakta belirtilmiyor.",
+      "doğrusu": "Junta sayfası yalnız 'DNI del titular' diyor; izinli yabancı için TIE/NIE kabulü kaynakta yazmıyor. İzinli yabancının hangi kimlikle başvuracağını gösteren bir SAS/Junta kaynağı ekle; bulunamazsa satırı 'DNI (Junta sayfasının yazdığı belge)' diye bırakıp yabancı için ayrı bir kimlik vaadi verme."
+     },
+     {
+      "claim_id": "C-endulus-saglik-karti-tarjeta-sanitaria-ve-aile-hekimi-secimi-d7-3",
+      "sonuç": "kaynak_yetersiz",
+      "ağırlık": "hafif",
+      "iddia": "Yeni doğan için Libro de Familia yerine Registro Civil'in verdiği doğum sertifikasının (certificación de nacimiento) sağlık merkezinde kabul edileceği ima ediliyor.",
+      "doğrusu": "Kaynaklar yalnız Libro de Familia'nın verilmediğini ve yerine sertifika verildiğini söylüyor; sağlık merkezinin sertifikayı tarjeta sanitaria başvurusunda kabul ettiğini hiçbiri yazmıyor. Kabul bilgisini bir SAS/Junta kaynağından bulup ekle; bulunamazsa 'kabul eder' anlamına gelen kısmı çıkar ve yalnız Libro de Familia'nın Sevilla'da verilmediği ile Registro Civil'in doğum sertifikası verdiği olgusunu yaz."
+     }
+    ],
+    "mekan_kaldi": []
+   },
+   {
+    "entry_id": "sevilla:salud-responde-24-saat-saglik-hatti-ceviri-hizmeti",
+    "tur": "d7",
+    "ozet": "10 iddia doğru. Tek bulgu: uygulama profili için yalnız kart numarası yazılmış, doğum tarihi ve kimlik numarası da gerekiyor; uygulamanın yalnız aile hekimi ve pediatri randevusu içindir notu yok.",
+    "bulgular": [
+     {
+      "claim_id": "C-salud-responde-24-saat-saglik-hatti-ceviri-hizmeti-d7-1",
+      "sonuç": "eksik_koşul",
+      "ağırlık": "hafif",
+      "iddia": "Uygulamada ilk kez profil açarken sağlık kartı numaran gerekir (yalnız bu belirtilmiş).",
+      "doğrusu": "'Uygulamada ilk kez profil açarken sağlık kartı numaran, doğum tarihin ve kimlik belge numaran gerekir; uygulama yalnız aile hekimi ve pediatri randevusu içindir (kaynak: 'solo para medicina de familia y pediatría'), diğer randevular için 955 54 50 60.'"
+     }
+    ],
+    "mekan_kaldi": []
+   },
+   {
+    "entry_id": "sevilla:sevilla-ruh-sagligi-024-hatti-ve-ruh-sagligi-birimleri",
+    "tur": "d7",
+    "ozet": "20 iddia doğru (024, 112 beş dil, Rocío/Valme listeleri, Macarena adresleri). Tek bulgu: Macarena alanı için yalnız iki birim sayılmış, kaynak listede Camas, Carmona, Sierra Norte, Rinconada da var.",
+    "bulgular": [
+     {
+      "claim_id": "C-sevilla-ruh-sagligi-024-hatti-ve-ruh-sagligi-birimleri-d7-1",
+      "sonuç": "eksik_koşul",
+      "ağırlık": "hafif",
+      "iddia": "Macarena alanı için yalnız Macarena Norte ve Macarena Centro birimleri sayılıyor; kaynak listede alanın başka toplum ruh sağlığı birimleri de var (Camas, Carmona, Sierra Norte, Rinconada). Valme için tam liste verilirken Macarena için iki birimle sınırlı kalıyor.",
+      "doğrusu": "'Macarena alanında Macarena Norte (C/ Periodista Juan Carlos Vélez 4, 41009) ve Macarena Centro (C/ Mª Auxiliadora 4, 41003) birimlerinin yanında Camas, Carmona, Sierra Norte ve Rinconada birimleri de var' diye yaz ya da 'örneğin' ekle."
+     }
+    ],
+    "mekan_kaldi": []
+   }
+  ]
+ },
+ "sozluk": {
+  "son_tur": "d10",
+  "sonraki_tur": "d11",
+  "kayitlar": [],
+  "hafif": [
+   {
+    "entry_id": "sevilla:term:019",
+    "tur": "d7",
+    "ozet": "Dört iddia kaynakta doğru. Hafif: iade, eski rejimde yatırılmış depozito için sözleşmeler sona erdikçe ve talep üzerine yapılır; tanım bu koşulu yazmıyor.",
+    "bulgular": [
+     {
+      "claim_id": "C-term-019-d7-1",
+      "sonuç": "eksik_koşul",
+      "ağırlık": "hafif",
+      "iddia": "Tanım iadeyi koşulsuz gösteriyor: eski rejimde yatırılmış depozito sözleşmeler sona erdikçe ve ilgili talep edince iade edilir",
+      "doğrusu": "İade cümlesine \"sözleşme sona erdikçe ve talep üzerine\" ekle."
+     }
+    ],
+    "mekan_kaldi": []
+   },
+   {
+    "entry_id": "sevilla:term:020",
+    "tur": "d7",
+    "ozet": "Beş iddia 2022 duyurusunda doğru. Hafif: tanım \"güncel\" bilgi ve AVRA depozitosuna dayanmayı şimdiki zamanla yazıyor; kaynak 2022 tarihli, aynı sözlükte AVRA maddesi 24.01.2026 sonrası yatırmanın kalktığını söylüyor. Tarih/dönem eklenmeli.",
+    "bulgular": [
+     {
+      "claim_id": "C-term-020-d7-1",
+      "sonuç": "kaynak_yetersiz",
+      "ağırlık": "hafif",
+      "iddia": "Tanım IPRA verisinin AVRA depozitosuna dayandığını ve bilginin \"güncel\" olduğunu şimdiki zamanda yazıyor",
+      "doğrusu": "Tanıma \"EMVISESA'nın 2022 duyurusuna göre\" ifadesini ekle, \"güncel\" kelimesini kaldır ya da dönemi belirt."
+     }
+    ],
+    "mekan_kaldi": []
+   },
+   {
+    "entry_id": "sevilla:term:034",
+    "tur": "d7",
+    "ozet": "Sınır cümlesi doğru ama tanım TSE'nin ne olduğunu (kim verir, kimde bulunur) söylemiyor ve kaynak convenio especial sayfası; terim paketteki hiçbir kartta geçmiyor. TSE'yi anlatan resmî sayfa eklenmeli.",
+    "bulgular": [
+     {
+      "claim_id": "C-term-034-d7-1",
+      "sonuç": "kaynak_yetersiz",
+      "ağırlık": "hafif",
+      "iddia": "Tanımın ana cümlesi TSE'nin ne olduğunu (kim verir, kimde bulunur) söylemiyor; yalnız sınırını söylüyor",
+      "doğrusu": "Tanıma, kaynakla desteklenen bir \"ne olduğu\" cümlesi ekle (ör. AB/AEA ülkesindeki sağlık sigortasının verdiği kart) ve bunu TSE'yi doğrudan anlatan bir resmî sayfayla (Seguridad Social/Sanidad TSE sayfası) destekle; yoksa maddeyi kaldır."
+     }
+    ],
+    "mekan_kaldi": []
+   }
+  ]
+ },
+ "ulasim": {
+  "son_tur": "d10",
+  "sonraki_tur": "d11",
+  "kayitlar": [],
+  "hafif": [
+   {
+    "entry_id": "sevilla:otobus-yolcu-haklari-rotar-bagaj-engelli",
+    "tur": "d7",
+    "ozet": "Hafif: iade 'tamamı' ifadesi Art. 19(5) koşulunu düşürüyor; muafiyet notu Art. 18'i anmıyor; K26 nereye: DGTT şikâyet kanalı (başvuru sayfası/adres) kartta yok, butonlar bilgi sayfası. Ağırlık çekirdek hak bilgileri (120/90 dk, %50, 80 €, 36 saat, 450 €, 1.200 €) kaynakla birebir doğru.",
+    "bulgular": [
+     {
+      "claim_id": "C-otobus-yolcu-haklari-rotar-bagaj-engelli-7",
+      "sonuç": "eksik_koşul",
+      "ağırlık": "hafif",
+      "iddia": "İade 14 gün içinde ödenir ve bilet bedelinin tamamını kapsar",
+      "doğrusu": "İade, yapılmamış yolculuk kısmının ödenen bedelini kapsar; yapılmış kısım yalnız yolculuk özgün seyahat planına artık hizmet etmiyorsa iade edilir. Ödeme, seçenek sunulduktan ya da talep alındıktan sonra 14 gün içinde yapılır."
+     },
+     {
+      "claim_id": "C-otobus-yolcu-haklari-rotar-bagaj-engelli-22",
+      "sonuç": "eksik_koşul",
+      "ağırlık": "hafif",
+      "iddia": "Düzenli ulusal hatlar için muafiyet en geç 2021'de doldu; bugün seçenek değildir",
+      "doğrusu": "Notu daralt: 'Genel muafiyet seçeneği 2021'de bitti; engelli yolculara ilişkin bölümde ise ulusal hukuk en az aynı korumayı veriyorsa üye devlet ulusal hatları muaf tutabilir.' Ya da muafiyet notunu kartın dışına al."
+     },
+     {
+      "claim_id": "otobus-yolcu-haklari-rotar-bagaj-engelli-d7-1",
+      "sonuç": "eksik_koşul",
+      "ağırlık": "hafif",
+      "iddia": "DGTT'ye şikâyetin nereden/nasıl yapılacağı (K26 nereye) kartta yok; yalnız kurumun adı var",
+      "doğrusu": "DGTT şikâyetinin başvuru kanalını (elektronik başvuru sayfası ya da posta adresi) resmî sayfadan ekle ve butonlardan birini bu başvuru sayfasına yönlendir. Kanal resmî sayfada bulunamazsa DGTT adımını kartta kanalsız bırakma; kurumu ve ücretsiz olduğunu yaz, başvuru için resmî Ministerio de Transportes sayfasını butonla ver."
+     }
+    ],
+    "mekan_kaldi": []
+   },
+   {
+    "entry_id": "sevilla:sevilla-consorcio-ulasim-karti-alma-ve-yukleme",
+    "tur": "d7",
+    "ozet": "Hafif: kapsam (hangi araçlarda geçer) ve form ayrıntıları defterde karşılıksız (kaynak destekliyor); form ad/kimlik/adres/telefon de istiyor, documents boş; K26 nereye: Sevilla'da somut satış noktası yok. Tutarlar (1,50 / 5 / 500 €) iki resmî kaynakta doğru.",
+    "bulgular": [
+     {
+      "claim_id": "sevilla-consorcio-ulasim-karti-alma-ve-yukleme-d7-1",
+      "sonuç": "kaynak_yetersiz",
+      "ağırlık": "hafif",
+      "iddia": "Kartın geçtiği araçlar (metropol otobüsler, Metro 1. hat, Renfe Cercanías, bazı şehir otobüsleri), kart numarasının yeri, Bus+Bici bisikletinin sınırlı olması ve Plaza de Armas bisiklet parkı kart metninde var ama defterde karşılığı yok",
+      "doğrusu": "Defterde bu bilgiler için satır aç (kapsam, kart numarası yeri, Bus+Bici, Plaza de Armas). 'Bazı şehir otobüslerinde' yerine: 'TUSSAM (özel hizmetler ve havalimanı hattı hariç), Metrocentro, Dos Hermanas, Alcalá de Guadaíra, La Rinconada ve Mairena del Alcor şehir otobüslerinde'."
+     },
+     {
+      "claim_id": "sevilla-consorcio-ulasim-karti-alma-ve-yukleme-d7-2",
+      "sonuç": "eksik_koşul",
+      "ağırlık": "hafif",
+      "iddia": "Kartın nereden alınacağı: kartta yalnız 'Consorcio'nun yetkili satış noktaları' yazıyor, Sevilla'da hangi nokta/ofis olduğu yok (K26 nereye)",
+      "doğrusu": "Consorcio'nun resmî satış noktaları sayfasından Sevilla'daki somut yer(ler)i (örn. bilet büfeleri/ofis adı) ve sayfanın bağlantısını ekle; bir butonu bu sayfaya yönlendir."
+     },
+     {
+      "claim_id": "C-sevilla-consorcio-ulasim-karti-alma-ve-yukleme-15",
+      "sonuç": "eksik_koşul",
+      "ağırlık": "hafif",
+      "iddia": "Yükleme sorgusu: e-posta, kart numarası, dönem; yanıt 48 saatte e-postayla",
+      "doğrusu": "Adıma 'formda ayrıca ad, kimlik numarası (DNI/NIE), adres ve telefon da istenebilir' ekle ve documents alanını doldur; zorunlu alanlar belli değilse 'formda istenen kişisel bilgileri doldur' de."
+     }
+    ],
+    "mekan_kaldi": []
+   }
+  ]
+ }
+}

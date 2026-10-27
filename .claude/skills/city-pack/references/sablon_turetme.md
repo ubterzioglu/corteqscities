@@ -1,6 +1,6 @@
 # Şablon türetme (make_template)
 
-**Ne zaman:** Atınç'ın şehir şablonu (`ROOT\ekler*\CITY-NNN_<city_id>_v001.xlsx`; ör. Aberdeen `ekler\`, Eindhoven `ekler_eindhoven\` içinde) varsa **onu kullan**. Yoksa (Tilburg, Dortmund …) şablonu Berlin örneğinden türet. Atınç'ın şablonu sonradan gelirse ona geç; ikisi eşdeğerdir (aşağıda "Güvence").
+**Ne zaman:** Atınç'ın şehir şablonu (`ROOT\ekler\<city_id>\CITY-NNN_<city_id>_v001.xlsx` ya da `ROOT\ekler\CITY-NNN_<city_id>_v001.xlsx`; ör. Aberdeen `ekler\`, Eindhoven `ekler\eindhoven\` içinde) varsa **onu kullan**. Yoksa (Tilburg, Dortmund …) şablonu Berlin örneğinden türet. Atınç'ın şablonu sonradan gelirse ona geç; ikisi eşdeğerdir (aşağıda "Güvence").
 
 ## Komut (Tilburg; katalog numarası bilinmiyor → 901)
 

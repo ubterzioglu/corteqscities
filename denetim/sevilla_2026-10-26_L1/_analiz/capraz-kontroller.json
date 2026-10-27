@@ -1,0 +1,1203 @@
+{
+ "sheet_rows": {
+  "Adımlar": 7,
+  "Bağlantılar": 575,
+  "FotoğrafKaynakları": 334,
+  "Fotoğraflar": 334,
+  "Kanıtlar": 334,
+  "Kaynaklar": 500,
+  "Konular": 12,
+  "Mahalleler": 16,
+  "Mekânlar": 120,
+  "Rotalar": 12,
+  "SayfaAlanları": 23,
+  "Sözlük": 60,
+  "Teslimat": 1,
+  "Yanıtlar": 240,
+  "Şehir": 1
+ },
+ "photos": {
+  "rows": 334,
+  "roles": {
+   "Mekân": 326,
+   "Kapak": 8
+  },
+  "unique_file_sha": 327,
+  "unique_venue_sha": 326,
+  "unique_cover_sha": 8,
+  "unique_source_url": 327,
+  "covers": [
+   {
+    "photo_id": "sevilla:photo:kapak-01",
+    "row": 333,
+    "file": "Fotoğraflar/sevilla_kapak_01.jpg"
+   },
+   {
+    "photo_id": "sevilla:photo:kapak-02",
+    "row": 334,
+    "file": "Fotoğraflar/sevilla_kapak_02.jpg"
+   },
+   {
+    "photo_id": "sevilla:photo:kapak-03",
+    "row": 335,
+    "file": "Fotoğraflar/sevilla_kapak_03.jpg"
+   },
+   {
+    "photo_id": "sevilla:photo:kapak-04",
+    "row": 336,
+    "file": "Fotoğraflar/sevilla_kapak_04.jpg"
+   },
+   {
+    "photo_id": "sevilla:photo:kapak-05",
+    "row": 337,
+    "file": "Fotoğraflar/sevilla_kapak_05.jpg"
+   },
+   {
+    "photo_id": "sevilla:photo:kapak-06",
+    "row": 338,
+    "file": "Fotoğraflar/sevilla_kapak_06.jpg"
+   },
+   {
+    "photo_id": "sevilla:photo:kapak-07",
+    "row": 339,
+    "file": "Fotoğraflar/sevilla_kapak_07.jpg"
+   },
+   {
+    "photo_id": "sevilla:photo:kapak-08",
+    "row": 340,
+    "file": "Fotoğraflar/sevilla_kapak_08.jpg"
+   }
+  ],
+  "cover_sha_also_venue": 7,
+  "places_with_photo": 120,
+  "places_total": 120,
+  "districts_with_photo": 16,
+  "districts_total": 16,
+  "places_without_photo": [],
+  "districts_without_photo": [],
+  "group_counts": {
+   "Tarih ve mimari": 56,
+   "Doğa ve açık hava": 18,
+   "Sahne ve müzik": 10,
+   "Müzeler": 10,
+   "Sanat ve sergiler": 11,
+   "Çocuklarla keşif": 5,
+   "Spor": 3,
+   "Yeme ve içme": 7
+  },
+  "group_without_photo": {},
+  "max_per_entry": 3,
+  "entries_over_5": [],
+  "unknown_photo_entries": [],
+  "hero_photo_id": "sevilla:photo:kapak-01",
+  "hero_exists": true,
+  "collection_values": {
+   "Hayır": 120
+  }
+ },
+ "coordinates": {
+  "with_coords": 120,
+  "lat_range": [
+   37.3705,
+   37.42749
+  ],
+  "lon_range": [
+   -6.010942,
+   -5.925462
+  ],
+  "shared": [
+   {
+    "lat": 37.39325,
+    "lon": -5.99188,
+    "entries": [
+     "sevilla:metropol-parasol-antiquarium",
+     "sevilla:mercado-de-la-encarnacion"
+    ]
+   },
+   {
+    "lat": 37.37969,
+    "lon": -5.98689,
+    "entries": [
+     "sevilla:jardines-del-prado-de-san-sebastian",
+     "sevilla:ciudad-de-los-ninos-prado"
+    ]
+   },
+   {
+    "lat": 37.41724,
+    "lon": -6.00456,
+    "entries": [
+     "sevilla:estadio-la-cartuja",
+     "sevilla:estadio-benito-villamarin-tur"
+    ]
+   }
+  ]
+ },
+ "routes": [
+  {
+   "route_id": "sevilla:route:001",
+   "row": 8,
+   "title": "Santa Cruz ve Katedral çevresi",
+   "stops": 5,
+   "stop_ids": 5,
+   "len_match": true,
+   "first_is_entry": true,
+   "unknown_ids": [],
+   "ids": [
+    "sevilla:catedral-de-sevilla-giralda",
+    "sevilla:real-alcazar-de-sevilla",
+    "sevilla:archivo-general-de-indias",
+    "sevilla:casa-de-pilatos",
+    "sevilla:jardines-de-murillo"
+   ]
+  },
+  {
+   "route_id": "sevilla:route:002",
+   "row": 9,
+   "title": "Triana ve nehir kıyısı",
+   "stops": 6,
+   "stop_ids": 6,
+   "len_match": true,
+   "first_is_entry": true,
+   "unknown_ids": [],
+   "ids": [
+    "sevilla:museo-maritimo-torre-del-oro",
+    "sevilla:puente-de-triana",
+    "sevilla:mercado-de-triana",
+    "sevilla:centro-ceramica-triana",
+    "sevilla:capilla-de-los-marineros",
+    "sevilla:basilica-del-cachorro"
+   ]
+  },
+  {
+   "route_id": "sevilla:route:003",
+   "row": 10,
+   "title": "María Luisa Parkı ve Plaza de España",
+   "stops": 5,
+   "stop_ids": 5,
+   "len_match": true,
+   "first_is_entry": true,
+   "unknown_ids": [],
+   "ids": [
+    "sevilla:plaza-de-espana",
+    "sevilla:parque-de-maria-luisa",
+    "sevilla:museo-de-artes-y-costumbres-populares",
+    "sevilla:casa-de-la-ciencia",
+    "sevilla:costurero-de-la-reina"
+   ]
+  },
+  {
+   "route_id": "sevilla:route:004",
+   "row": 11,
+   "title": "Macarena ve surlar",
+   "stops": 4,
+   "stop_ids": 4,
+   "len_match": true,
+   "first_is_entry": true,
+   "unknown_ids": [],
+   "ids": [
+    "sevilla:basilica-de-la-macarena",
+    "sevilla:jardines-torre-de-los-perdigones",
+    "sevilla:palacio-marqueses-de-la-algaba",
+    "sevilla:iglesia-de-san-roman"
+   ]
+  },
+  {
+   "route_id": "sevilla:route:005",
+   "row": 12,
+   "title": "Cartuja Adası: sanat, bahçe ve nehir ormanı",
+   "stops": 4,
+   "stop_ids": 4,
+   "len_match": true,
+   "first_is_entry": true,
+   "unknown_ids": [],
+   "ids": [
+    "sevilla:caixaforum-sevilla",
+    "sevilla:caac-centro-andaluz-arte-contemporaneo",
+    "sevilla:jardin-americano",
+    "sevilla:parque-del-alamillo"
+   ]
+  },
+  {
+   "route_id": "sevilla:route:006",
+   "row": 13,
+   "title": "Müzeler günü",
+   "stops": 4,
+   "stop_ids": 4,
+   "len_match": true,
+   "first_is_entry": true,
+   "unknown_ids": [],
+   "ids": [
+    "sevilla:museo-de-bellas-artes-de-sevilla",
+    "sevilla:museo-del-baile-flamenco",
+    "sevilla:plaza-de-toros-de-la-maestranza",
+    "sevilla:museo-maritimo-torre-del-oro"
+   ]
+  },
+  {
+   "route_id": "sevilla:route:007",
+   "row": 14,
+   "title": "Flamenko akşamı",
+   "stops": 3,
+   "stop_ids": 3,
+   "len_match": true,
+   "first_is_entry": true,
+   "unknown_ids": [],
+   "ids": [
+    "sevilla:museo-del-baile-flamenco",
+    "sevilla:casa-de-la-memoria-al-andalus",
+    "sevilla:casa-de-la-guitarra"
+   ]
+  },
+  {
+   "route_id": "sevilla:route:008",
+   "row": 15,
+   "title": "Çocuklarla bir gün",
+   "stops": 4,
+   "stop_ids": 4,
+   "len_match": true,
+   "first_is_entry": true,
+   "unknown_ids": [],
+   "ids": [
+    "sevilla:acuario-de-sevilla",
+    "sevilla:jardines-de-las-delicias",
+    "sevilla:casa-de-la-ciencia",
+    "sevilla:parque-de-maria-luisa"
+   ]
+  },
+  {
+   "route_id": "sevilla:route:009",
+   "row": 16,
+   "title": "Pazarlar ve tapas",
+   "stops": 3,
+   "stop_ids": 3,
+   "len_match": true,
+   "first_is_entry": true,
+   "unknown_ids": [],
+   "ids": [
+    "sevilla:mercado-de-la-encarnacion",
+    "sevilla:mercado-de-la-calle-feria",
+    "sevilla:el-rinconcillo"
+   ]
+  },
+  {
+   "route_id": "sevilla:route:010",
+   "row": 17,
+   "title": "Kiliseler ve saraylar",
+   "stops": 4,
+   "stop_ids": 4,
+   "len_match": true,
+   "first_is_entry": true,
+   "unknown_ids": [],
+   "ids": [
+    "sevilla:palacio-de-las-duenas",
+    "sevilla:iglesia-de-santa-catalina",
+    "sevilla:palacio-de-la-condesa-de-lebrija",
+    "sevilla:iglesia-del-divino-salvador"
+   ]
+  },
+  {
+   "route_id": "sevilla:route:011",
+   "row": 18,
+   "title": "Alameda ve kuzey",
+   "stops": 5,
+   "stop_ids": 5,
+   "len_match": true,
+   "first_is_entry": true,
+   "unknown_ids": [],
+   "ids": [
+    "sevilla:basilica-del-gran-poder",
+    "sevilla:espacio-santa-clara",
+    "sevilla:alameda-de-hercules",
+    "sevilla:mercado-de-la-calle-feria",
+    "sevilla:palacio-marqueses-de-la-algaba"
+   ]
+  },
+  {
+   "route_id": "sevilla:route:012",
+   "row": 19,
+   "title": "Yeşil alanlar",
+   "stops": 5,
+   "stop_ids": 5,
+   "len_match": true,
+   "first_is_entry": true,
+   "unknown_ids": [],
+   "ids": [
+    "sevilla:jardines-de-murillo",
+    "sevilla:paseo-catalina-de-ribera",
+    "sevilla:jardines-de-cristina",
+    "sevilla:jardines-de-las-delicias",
+    "sevilla:parque-de-maria-luisa"
+   ]
+  }
+ ],
+ "residue_scan": [],
+ "backslash_cells": {
+  "by_column": {
+   "Kanıtlar.source_evidence_json": 333,
+   "Mahalleler.compare_json": 5
+  },
+  "samples": {
+   "Kanıtlar.source_evidence_json": "{\"source_url\": \"https://commons.wikimedia.org/wiki/File:Hospital_5_llagas_2017001.jpg\", \"author\": \"Anual\", \"license\": \"C",
+   "Mahalleler.compare_json": "{\"Konum\": \"Guadalquivir'in sağ yakasında, kentin geri kalanından nehirle ayrılan bir semt.\", \"Ulaşım\": \"Metro Línea 1'in"
+  }
+ },
+ "dates": {
+  "Bağlantılar.checked_on": {
+   "n": 575,
+   "blank": 0,
+   "min": "2026-10-24",
+   "max": "2026-10-26",
+   "top": [
+    [
+     "2026-10-24",
+     345
+    ],
+    [
+     "2026-10-25",
+     172
+    ],
+    [
+     "2026-10-26",
+     58
+    ]
+   ],
+   "future": 58
+  },
+  "FotoğrafKaynakları.downloaded_on": {
+   "n": 334,
+   "blank": 0,
+   "min": "2026-10-26",
+   "max": "2026-10-26",
+   "top": [
+    [
+     "2026-10-26",
+     334
+    ]
+   ],
+   "future": 334
+  },
+  "Fotoğraflar.source_checked_on": {
+   "n": 334,
+   "blank": 0,
+   "min": "2026-10-26",
+   "max": "2026-10-26",
+   "top": [
+    [
+     "2026-10-26",
+     334
+    ]
+   ],
+   "future": 334
+  },
+  "Fotoğraflar.capture_date": {
+   "n": 296,
+   "blank": 38,
+   "min": "2006-02-25",
+   "max": "2026-05-31",
+   "top": [
+    [
+     "2023-04-24",
+     14
+    ],
+    [
+     "2023-04-25",
+     7
+    ],
+    [
+     "2016-09-11",
+     5
+    ]
+   ],
+   "future": 0
+  },
+  "Kanıtlar.checked_on": {
+   "n": 334,
+   "blank": 0,
+   "min": "2026-10-26",
+   "max": "2026-10-26",
+   "top": [
+    [
+     "2026-10-26",
+     334
+    ]
+   ],
+   "future": 334
+  },
+  "Kaynaklar.checked_on": {
+   "n": 500,
+   "blank": 0,
+   "min": "2026-10-24",
+   "max": "2026-10-26",
+   "top": [
+    [
+     "2026-10-24",
+     369
+    ],
+    [
+     "2026-10-25",
+     73
+    ],
+    [
+     "2026-10-26",
+     58
+    ]
+   ],
+   "future": 58
+  },
+  "Mahalleler.reviewed_on": {
+   "n": 16,
+   "blank": 0,
+   "min": "2026-10-26",
+   "max": "2026-10-26",
+   "top": [
+    [
+     "2026-10-26",
+     16
+    ]
+   ],
+   "future": 16
+  },
+  "Mekânlar.reviewed_on": {
+   "n": 120,
+   "blank": 0,
+   "min": "2026-10-25",
+   "max": "2026-10-26",
+   "top": [
+    [
+     "2026-10-25",
+     79
+    ],
+    [
+     "2026-10-26",
+     41
+    ]
+   ],
+   "future": 41
+  },
+  "Rotalar.reviewed_on": {
+   "n": 12,
+   "blank": 0,
+   "min": "2026-10-26",
+   "max": "2026-10-26",
+   "top": [
+    [
+     "2026-10-26",
+     12
+    ]
+   ],
+   "future": 12
+  },
+  "SayfaAlanları.reviewed_on": {
+   "n": 23,
+   "blank": 0,
+   "min": "2026-10-25",
+   "max": "2026-10-26",
+   "top": [
+    [
+     "2026-10-25",
+     22
+    ],
+    [
+     "2026-10-26",
+     1
+    ]
+   ],
+   "future": 1
+  },
+  "Sözlük.reviewed_on": {
+   "n": 60,
+   "blank": 0,
+   "min": "2026-10-25",
+   "max": "2026-10-26",
+   "top": [
+    [
+     "2026-10-25",
+     53
+    ],
+    [
+     "2026-10-26",
+     7
+    ]
+   ],
+   "future": 7
+  },
+  "Teslimat.updated_on": {
+   "n": 1,
+   "blank": 0,
+   "min": "2026-10-25",
+   "max": "2026-10-25",
+   "top": [
+    [
+     "2026-10-25",
+     1
+    ]
+   ],
+   "future": 0
+  },
+  "Yanıtlar.reviewed_on": {
+   "n": 240,
+   "blank": 0,
+   "min": "2026-10-24",
+   "max": "2026-10-26",
+   "top": [
+    [
+     "2026-10-24",
+     127
+    ],
+    [
+     "2026-10-25",
+     65
+    ],
+    [
+     "2026-10-26",
+     48
+    ]
+   ],
+   "future": 48
+  },
+  "Şehir.reviewed_on": {
+   "n": 1,
+   "blank": 0,
+   "min": "2026-10-25",
+   "max": "2026-10-25",
+   "top": [
+    [
+     "2026-10-25",
+     1
+    ]
+   ],
+   "future": 0
+  },
+  "Şehir.source_checked_on": {
+   "n": 1,
+   "blank": 0,
+   "min": "2026-10-10",
+   "max": "2026-10-10",
+   "top": [
+    [
+     "2026-10-10",
+     1
+    ]
+   ],
+   "future": 0
+  },
+  "Şehir.coordinate_checked_on": {
+   "n": 1,
+   "blank": 0,
+   "min": "2026-10-10",
+   "max": "2026-10-10",
+   "top": [
+    [
+     "2026-10-10",
+     1
+    ]
+   ],
+   "future": 0
+  }
+ },
+ "latest_content_date": "2026-10-26",
+ "teslimat": {
+  "schema_version": "1.0",
+  "delivery_id": "city-107-v001",
+  "city_id": "sevilla",
+  "editor": "Atınç",
+  "scope": "Tam teslim",
+  "updated_on": "2026-10-25",
+  "editorial_status": "Taslak",
+  "notes": "Claude üretimi (city-pack, ülke paketi ES v9 + Endülüs v2); 25.10.2026 bağımsız L0 ve L1 denetimlerinden sonra iki düzeltme turu (2. tur: 165 kartta başvuru yeri/belge/ücret/süre tamamlama, 21 mekân çıkarıldı, 21 fotoğraflı mekân eklendi (120 mekân, hepsi fotoğraflı), lisansı kuşkulu ve yanlış 7 kare değiştirildi); insan onayı yok; açık konular Teslimler/ACIK_KONULAR.txt.",
+  "_row": 8
+ },
+ "status_values": {
+  "FotoğrafKaynakları.provenance_status": {
+   "Kayıttan doğrulandı": 278,
+   "Eksik alan var": 56
+  },
+  "Fotoğraflar.editorial_status": {
+   "Taslak": 334
+  },
+  "Fotoğraflar.completion_credit": {
+   "Evet": 334
+  },
+  "Kanıtlar.metadata_review_status": {
+   "Bekliyor": 334
+  },
+  "Kanıtlar.pixel_review_status": {
+   "Bekliyor": 334
+  },
+  "Kanıtlar.rights_status": {
+   "Bekliyor": 334
+  },
+  "Kaynaklar.verified": {
+   "Evet": 500
+  },
+  "Mahalleler.editorial_status": {
+   "Taslak": 16
+  },
+  "Mekânlar.editorial_status": {
+   "Taslak": 120
+  },
+  "Rotalar.editorial_status": {
+   "Taslak": 12
+  },
+  "Sözlük.editorial_status": {
+   "Taslak": 60
+  },
+  "Teslimat.editorial_status": {
+   "Taslak": 1
+  },
+  "Yanıtlar.editorial_status": {
+   "Taslak": 240
+  },
+  "Şehir.editorial_status": {
+   "Taslak": 1
+  }
+ },
+ "approval_like_values": [],
+ "licenses": {
+  "CC BY-SA 4.0": 202,
+  "CC BY 3.0": 30,
+  "CC BY 2.0": 12,
+  "CC BY-SA 3.0": 36,
+  "CC0 1.0": 32,
+  "CC BY-SA 3.0 es": 9,
+  "Public domain": 3,
+  "CC BY 4.0": 5,
+  "CC BY-SA 2.0": 4,
+  "CC BY 2.5": 1
+ },
+ "license_url_by_label": {
+  "CC BY-SA 4.0": [
+   "https://creativecommons.org/licenses/by-sa/4.0/"
+  ],
+  "CC BY 3.0": [
+   "https://creativecommons.org/licenses/by/3.0/"
+  ],
+  "CC BY 2.0": [
+   "https://creativecommons.org/licenses/by/2.0/"
+  ],
+  "CC BY-SA 3.0": [
+   "https://creativecommons.org/licenses/by-sa/3.0/"
+  ],
+  "CC0 1.0": [
+   "https://creativecommons.org/publicdomain/zero/1.0/"
+  ],
+  "CC BY-SA 3.0 es": [
+   "https://creativecommons.org/licenses/by-sa/3.0/es/deed.en/"
+  ],
+  "Public domain": [
+   "https://commons.wikimedia.org/wiki/File:Avenida_alamillo.JPG",
+   "https://commons.wikimedia.org/wiki/File:Fachada_de_la_bas%C3%ADlica.JPG",
+   "https://commons.wikimedia.org/wiki/File:SevillaTorreDeLosPerdigones01.JPG"
+  ],
+  "CC BY 4.0": [
+   "https://creativecommons.org/licenses/by/4.0/"
+  ],
+  "CC BY-SA 2.0": [
+   "https://creativecommons.org/licenses/by-sa/2.0/"
+  ],
+  "CC BY 2.5": [
+   "https://creativecommons.org/licenses/by/2.5/"
+  ]
+ },
+ "url_roles": {
+  "author_url_filled": 278,
+  "author_url_blank_with_note": 56,
+  "author_url_blank_no_note": [],
+  "role_mixing": [
+   {
+    "photo_id": "sevilla:photo:bodega-dos-de-mayo-01",
+    "same": [
+     "original_file_url",
+     "downloaded_file_url"
+    ]
+   },
+   {
+    "photo_id": "sevilla:photo:iglesia-del-valle-01",
+    "same": [
+     "original_file_url",
+     "downloaded_file_url"
+    ]
+   },
+   {
+    "photo_id": "sevilla:photo:basilica-del-gran-poder-02",
+    "same": [
+     "source_url",
+     "license_url"
+    ]
+   },
+   {
+    "photo_id": "sevilla:photo:parque-del-alamillo-01",
+    "same": [
+     "source_url",
+     "license_url"
+    ]
+   },
+   {
+    "photo_id": "sevilla:photo:casa-roman-sevilla-02",
+    "same": [
+     "original_file_url",
+     "downloaded_file_url"
+    ]
+   },
+   {
+    "photo_id": "sevilla:photo:jardines-torre-de-los-perdigones-02",
+    "same": [
+     "source_url",
+     "license_url"
+    ]
+   }
+  ],
+  "author_blank": []
+ },
+ "photo_chain": {
+  "ids_photos": 334,
+  "ids_sources": 334,
+  "ids_evidence": 334,
+  "id_sets_equal": true,
+  "orig_eq_file": 334,
+  "orig_sha_eq": 334,
+  "web_in_inventory": 334,
+  "web_sha_eq": 334,
+  "pixel_review_eq_file": 334,
+  "evidence_id_match": 334,
+  "problems": [],
+  "web_dims_ok": "334/334",
+  "web_files_unique": 327,
+  "derivation_filled": 334,
+  "modifications_filled": 334
+ },
+ "sources": {
+  "rows": 500,
+  "verified": {
+   "Evet": 500
+  },
+  "snapshot_sha_ok": 500,
+  "snapshot_problems": [],
+  "unreferenced": [
+   "sevilla:kaynak:143",
+   "sevilla:kaynak:270",
+   "sevilla:kaynak:472"
+  ],
+  "dangling_refs": [],
+  "shared_snapshot": [
+   [
+    {
+     "source_id": "sevilla:kaynak:178",
+     "url": "https://www.juntadeandalucia.es/organismos/fomentoymovilidad/areas/servicios-transporte/transporte-publico/paginas/tarjeta-transporte.html"
+    },
+    {
+     "source_id": "sevilla:kaynak:259",
+     "url": "https://www.juntadeandalucia.es/organismos/fomentoarticulaciondelterritorioyvivienda/areas/servicios-transporte/transporte-publico/paginas/tarjeta-transporte.html"
+    }
+   ]
+  ],
+  "duplicate_urls": {},
+  "checked_on": {
+   "2026-10-24": 369,
+   "2026-10-25": 73,
+   "2026-10-26": 58
+  }
+ },
+ "teslimler": {
+  "files": [
+   "ACIK_KONULAR.txt",
+   "ILERLEME_KAYDI.txt",
+   "TESLIM_OZETI.txt",
+   "bagimsiz-denetim-v7.csv",
+   "dosya-envanteri.json",
+   "download-progress-v7.json",
+   "foto-inceleme-v7.jsonl",
+   "fotograf-atif-onizleme.html",
+   "fotograf-atiflari-v7.csv",
+   "gorsel-kalite-v7.json",
+   "iddia-defteri-ozet-v7.json",
+   "iddia-defteri-v7.csv",
+   "mekan-dogrulama-v7.jsonl",
+   "normalized-tables-v7.json",
+   "paket-kontrol-v7.json",
+   "photo-provenance-v7.json",
+   "rota-plani-v7.jsonl"
+  ],
+  "subdirs": {
+   "WebKopyalari": 425
+  },
+  "provenance_rows": 334,
+  "provenance_field_diffs": {},
+  "csv_rows": 334,
+  "csv_field_diffs": {},
+  "csv_downloaded_on_sample": "2026-10-26 00:00:00",
+  "html_img_src": 334,
+  "html_relative": 334,
+  "html_missing_targets": [],
+  "html_missing_count": 0,
+  "normalized_counts": {
+   "metadata": 1,
+   "city": 1,
+   "topics": 12,
+   "answers": 240,
+   "places": 120,
+   "neighborhoods": 16,
+   "actions": 575,
+   "routes": 12,
+   "glossary": 60,
+   "journey_steps": 7,
+   "sources": 500,
+   "photos": 334,
+   "evidence": 334,
+   "page_fields": 23,
+   "entry_details": 0
+  },
+  "paket_kontrol": {
+   "technically_complete": true,
+   "long_values_restored": 0,
+   "structure_errors": 0,
+   "structure_warnings": 1002,
+   "media_errors": 0,
+   "counts": {
+    "answers": 240,
+    "places": 120,
+    "neighborhoods": 16,
+    "routes": 12,
+    "glossary": 60,
+    "topics": 12,
+    "photos": 326,
+    "hero_photos": 8
+   }
+  },
+  "pkg_inventory": {
+   "files": 2014,
+   "summary": {
+    "files": 2014,
+    "total_mb": 375.76,
+    "images": 759,
+    "missing": 0,
+    "sha_mismatch": 0,
+    "file_ne_original": 0,
+    "bad_ext": 0,
+    "ext_mismatch": 0,
+    "orphans": 0,
+    "dup_sha": 37,
+    "errors": 0
+   },
+   "only_in_pkg_inventory": [],
+   "only_in_audit_inventory": [],
+   "sha_differs": [
+    "Teslimler/dosya-envanteri.json"
+   ]
+  },
+  "download_progress": {
+   "rows": 334,
+   "downloaded_on": {
+    "2026-10-26": 334
+   },
+   "sha_matches_excel": 334
+  }
+ },
+ "inventory": {
+  "summary": {
+   "files": 2014,
+   "total_mb": 375.76,
+   "images": 759,
+   "missing": 0,
+   "sha_mismatch": 0,
+   "file_ne_original": 0,
+   "bad_ext": 0,
+   "ext_mismatch": 0,
+   "orphans": 0,
+   "dup_sha": 37,
+   "errors": 0
+  },
+  "folders": {
+   ".": 1,
+   "Fotoğraflar": 334,
+   "Lisans kanıtları": 1237,
+   "Teslimler": 442
+  },
+  "ext": {
+   "xlsx": 1,
+   "jpg": 334,
+   "html": 500,
+   "json": 745,
+   "txt": 3,
+   "csv": 3,
+   "jsonl": 3,
+   "webp": 425
+  },
+  "dup_sha": [
+   {
+    "sha256": "19bc2f6f395703283e2c7c07c2c918c5c6e61ddbbbc62b11d57287456c1c32ef",
+    "files": [
+     "Lisans kanıtları/caixaforum-sevilla-02.source-evidence.json",
+     "Lisans kanıtları/caixaforum-sevilla-03.source-evidence.json"
+    ]
+   },
+   {
+    "sha256": "1a6e1e951e3f9ceda30c9d81e1e4380a119a5dae68ce4f5f9ece8d4cbc999fe0",
+    "files": [
+     "Lisans kanıtları/teatro-de-la-maestranza-02.license-evidence.json",
+     "Lisans kanıtları/teatro-de-la-maestranza-03.license-evidence.json"
+    ]
+   },
+   {
+    "sha256": "20c46e4c69a01146b9ada4d97d43b2fec51e32ac1c93061c2a198351559186a9",
+    "files": [
+     "Lisans kanıtları/kapak-05.source-evidence.json",
+     "Lisans kanıtları/metropol-parasol-antiquarium-01.source-evidence.json"
+    ]
+   },
+   {
+    "sha256": "25c2a7f4586b895d0729df78f2a07e79363cac09330fa32ed64af69f5bcf62bc",
+    "files": [
+     "Lisans kanıtları/catedral-de-sevilla-giralda-01.license-evidence.json",
+     "Lisans kanıtları/kapak-02.license-evidence.json"
+    ]
+   },
+   {
+    "sha256": "289f8a9698f425d1a3dfedda5fee6dfa22c4c454a80c912b1c1add0a0dde4b1b",
+    "files": [
+     "Lisans kanıtları/iglesia-de-san-esteban-02.license-evidence.json",
+     "Lisans kanıtları/iglesia-de-san-esteban-03.license-evidence.json"
+    ]
+   },
+   {
+    "sha256": "2dbfca3a9cd5507924bc3ddcdf4964caf4c02ff5f75aa95471ab8fcb3ac3dede",
+    "files": [
+     "Fotoğraflar/sevilla_catedral-de-sevilla-giralda_01.jpg",
+     "Fotoğraflar/sevilla_kapak_02.jpg"
+    ]
+   },
+   {
+    "sha256": "2eb7cd230cd87b60d39dda0974a1aa20dfbd3bc49ad4c5f722574efaa9eaac06",
+    "files": [
+     "Lisans kanıtları/kapak-01.source-evidence.json",
+     "Lisans kanıtları/plaza-de-espana-01.source-evidence.json"
+    ]
+   },
+   {
+    "sha256": "3b015c3b3a8c7d5839acbb477cb71cc8b8812983d7ab5fe4ce40057bbfb56aba",
+    "files": [
+     "Fotoğraflar/sevilla_kapak_07.jpg",
+     "Fotoğraflar/sevilla_palacio-de-san-telmo_01.jpg"
+    ]
+   },
+   {
+    "sha256": "3c236f89a1ca3e00d53bc42fcdeb4536d0650556030b0aef29a61247977b8a61",
+    "files": [
+     "Lisans kanıtları/kapak-03.license-evidence.json",
+     "Lisans kanıtları/puente-de-triana-01.license-evidence.json"
+    ]
+   },
+   {
+    "sha256": "3ef99414f915c060326e46c7dfc55c3d0c8644fc91f582ec19cd1d6f97ae3d5b",
+    "files": [
+     "Fotoğraflar/sevilla_kapak_03.jpg",
+     "Fotoğraflar/sevilla_puente-de-triana_01.jpg"
+    ]
+   },
+   {
+    "sha256": "423646a7db94958ca78f202d1a78f05c37cfd8d293d4354227f002d7681b5a72",
+    "files": [
+     "Lisans kanıtları/catedral-de-sevilla-giralda-01.source-evidence.json",
+     "Lisans kanıtları/kapak-02.source-evidence.json"
+    ]
+   },
+   {
+    "sha256": "49d2c9e6a98e29d6708689a992c9df56c841b0e0b71da548e17657ee55b80c37",
+    "files": [
+     "Lisans kanıtları/kapak-03.source-evidence.json",
+     "Lisans kanıtları/puente-de-triana-01.source-evidence.json"
+    ]
+   },
+   {
+    "sha256": "4d2618f0931c542347708300fdfb0f20ba491d7ec1859d06c89c5818ae664089",
+    "files": [
+     "Lisans kanıtları/kapak-01.license-evidence.json",
+     "Lisans kanıtları/plaza-de-espana-01.license-evidence.json"
+    ]
+   },
+   {
+    "sha256": "4ff117ced07a1ae111e08752a5cb4f4928983f5af55a0a2e1a6e6fbe22794e6c",
+    "files": [
+     "Lisans kanıtları/museo-ve-plaza-nueva-02.source-evidence.json",
+     "Lisans kanıtları/museo-ve-plaza-nueva-03.source-evidence.json"
+    ]
+   },
+   {
+    "sha256": "55b8c2c4eca0ebcf72ba9ed599db1c2807812ce80ce22fc67ec0686f6894dbbb",
+    "files": [
+     "Fotoğraflar/sevilla_kapak_01.jpg",
+     "Fotoğraflar/sevilla_plaza-de-espana_01.jpg"
+    ]
+   },
+   {
+    "sha256": "6a35efd62fb5f61d58af688d5d72137a1af47a33b0cb859ee686e8469032be30",
+    "files": [
+     "Fotoğraflar/sevilla_kapak_04.jpg",
+     "Fotoğraflar/sevilla_parque-de-maria-luisa_01.jpg"
+    ]
+   },
+   {
+    "sha256": "78b90636651513d31792921a290733819f1c1761705e85575cae4b4731fb7c11",
+    "files": [
+     "Lisans kanıtları/capilla-de-los-marineros-02.source-evidence.json",
+     "Lisans kanıtları/capilla-de-los-marineros-03.source-evidence.json"
+    ]
+   },
+   {
+    "sha256": "7adbb9125574780b36af0b8b3e00f4f658e662e42fb0523fd35bdef45740ff5f",
+    "files": [
+     "Lisans kanıtları/teatro-de-la-maestranza-02.source-evidence.json",
+     "Lisans kanıtları/teatro-de-la-maestranza-03.source-evidence.json"
+    ]
+   },
+   {
+    "sha256": "8697ed24e00794379742f4052f700705068f944858fbdb8d2cde20d84a464b24",
+    "files": [
+     "Lisans kanıtları/kapak-04.source-evidence.json",
+     "Lisans kanıtları/parque-de-maria-luisa-01.source-evidence.json"
+    ]
+   },
+   {
+    "sha256": "870cef894f54785047c95fa4be43dfaf0a8f45b0a7249fa7a82fc03c822f4b12",
+    "files": [
+     "Lisans kanıtları/museo-ve-plaza-nueva-02.license-evidence.json",
+     "Lisans kanıtları/museo-ve-plaza-nueva-03.license-evidence.json"
+    ]
+   },
+   {
+    "sha256": "8fb630b2391fda25b5d00fa2e1dc81b0bb64baf7abdf780a2b3a61494646713f",
+    "files": [
+     "Lisans kanıtları/capilla-de-los-marineros-02.license-evidence.json",
+     "Lisans kanıtları/capilla-de-los-marineros-03.license-evidence.json"
+    ]
+   },
+   {
+    "sha256": "9e4261610e5b9dd5fe8bf9f3d2fa06c91b94ef28a07754d32633b4c776e13d59",
+    "files": [
+     "Lisans kanıtları/auditorio-cartuja-sevilla-02.source-evidence.json",
+     "Lisans kanıtları/auditorio-cartuja-sevilla-03.source-evidence.json"
+    ]
+   },
+   {
+    "sha256": "a866463f8e8dc62a5ddd9cc40711fcde85fcba00b4da79d4903266a97b2115a4",
+    "files": [
+     "Lisans kanıtları/iglesia-de-san-esteban-02.source-evidence.json",
+     "Lisans kanıtları/iglesia-de-san-esteban-03.source-evidence.json"
+    ]
+   },
+   {
+    "sha256": "b2009d62672e78f3b8354be62270101ce2f51ef88e7d150ff4a0041c7b8310d2",
+    "files": [
+     "Lisans kanıtları/auditorio-cartuja-sevilla-02.license-evidence.json",
+     "Lisans kanıtları/auditorio-cartuja-sevilla-03.license-evidence.json"
+    ]
+   },
+   {
+    "sha256": "b8cc6143b4793b0caba44aeb54fc233c0ec3a46d73a94554b349344eb97708ea",
+    "files": [
+     "Lisans kanıtları/kapak-04.license-evidence.json",
+     "Lisans kanıtları/parque-de-maria-luisa-01.license-evidence.json"
+    ]
+   },
+   {
+    "sha256": "bd2143bc2144411f3b12b1dcedb7c5d678fc947b78ce3b1aafeae4cc85140b75",
+    "files": [
+     "Lisans kanıtları/iglesia-de-san-pedro-01.source-evidence.json",
+     "Lisans kanıtları/iglesia-de-san-pedro-02.source-evidence.json"
+    ]
+   },
+   {
+    "sha256": "c15f5211cdfb5f843e1c0e86a942303e4481f46da4e3be077a095e46e4cf97c2",
+    "files": [
+     "Lisans kanıtları/alameda-de-hercules-cevresi-01.license-evidence.json",
+     "Lisans kanıtları/kapak-08.license-evidence.json"
+    ]
+   },
+   {
+    "sha256": "c39036c2df78d00577dafa811140c34c4a9e48acd1bd72c3111660607c931c02",
+    "files": [
+     "Lisans kanıtları/iglesia-de-san-pedro-01.license-evidence.json",
+     "Lisans kanıtları/iglesia-de-san-pedro-02.license-evidence.json"
+    ]
+   },
+   {
+    "sha256": "d2b80e6f9e4fe98097a4c24935d501cb9abee1d283d23b0f6224124bebd061de",
+    "files": [
+     "Lisans kanıtları/kapak-07.license-evidence.json",
+     "Lisans kanıtları/palacio-de-san-telmo-01.license-evidence.json"
+    ]
+   },
+   {
+    "sha256": "d50c2ce545e8f75e7a21cb9211f97f0208046efb6cebb9e73e841a3ea24844c5",
+    "files": [
+     "Lisans kanıtları/alameda-de-hercules-cevresi-01.source-evidence.json",
+     "Lisans kanıtları/kapak-08.source-evidence.json"
+    ]
+   },
+   {
+    "sha256": "e1fef169fa054dc0824c7222e6cf9b3121a75571b812f5abc95af4972feb3adb",
+    "files": [
+     "Lisans kanıtları/kapak-07.source-evidence.json",
+     "Lisans kanıtları/palacio-de-san-telmo-01.source-evidence.json"
+    ]
+   },
+   {
+    "sha256": "e3e6c09f9ef7c0b4b6ac18f6b8e7380ac3df9afb2937c55154d4027095684458",
+    "files": [
+     "Lisans kanıtları/iglesia-de-san-sebastian-02.license-evidence.json",
+     "Lisans kanıtları/iglesia-de-san-sebastian-03.license-evidence.json"
+    ]
+   },
+   {
+    "sha256": "f0d69c26993dfa07e671917e2607329a20873b7d44b368ea288904370731f868",
+    "files": [
+     "Fotoğraflar/sevilla_alameda-de-hercules-cevresi_01.jpg",
+     "Fotoğraflar/sevilla_kapak_08.jpg"
+    ]
+   },
+   {
+    "sha256": "f17c65e917b3eaf5b936631afb005267ca877191840b16ab3ad1ef8033425e95",
+    "files": [
+     "Lisans kanıtları/kapak-05.license-evidence.json",
+     "Lisans kanıtları/metropol-parasol-antiquarium-01.license-evidence.json"
+    ]
+   },
+   {
+    "sha256": "f192eb976fa271f2dc53a9a00c194ecf751e16812b5ea8c7b9b0c5939ca49951",
+    "files": [
+     "Lisans kanıtları/iglesia-de-san-sebastian-02.source-evidence.json",
+     "Lisans kanıtları/iglesia-de-san-sebastian-03.source-evidence.json"
+    ]
+   },
+   {
+    "sha256": "f603a79f0fe57a7852dac8862bfc92a5d8b1e96a7d6325d965f2c1a0a7674089",
+    "files": [
+     "Fotoğraflar/sevilla_kapak_05.jpg",
+     "Fotoğraflar/sevilla_metropol-parasol-antiquarium_01.jpg"
+    ]
+   },
+   {
+    "sha256": "fc410b9c22a2dda038c26f41372f46da89dab38cff8bbb97dff24e2bf08ea829",
+    "files": [
+     "Lisans kanıtları/caixaforum-sevilla-02.license-evidence.json",
+     "Lisans kanıtları/caixaforum-sevilla-03.license-evidence.json"
+    ]
+   }
+  ],
+  "orphans_excluded": {
+   "teslimler": 115,
+   "xlsx": 1,
+   "json": 738
+  },
+  "xlsx_root": [
+   "CITY-107_sevilla_v001.xlsx"
+  ]
+ },
+ "longest_cell": {
+  "chars": 10345,
+  "sheet": "Kanıtlar",
+  "row": 280,
+  "field": "source_evidence_json"
+ },
+ "ekdetaylar_rows": 0
+}

@@ -1,0 +1,178 @@
+{
+ "schema_version": "1",
+ "city": {
+  "city_id": "malaga",
+  "name": "Málaga",
+  "country": "İspanya",
+  "city_code": "CITY-075"
+ },
+ "paths": {
+  "work": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\malaga",
+  "package_root": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\malaga\\paket",
+  "template_xlsx": "C:\\temp_private\\corteqs\\0000_newera\\ekler\\malaga\\CITY-075_malaga_v001.xlsx",
+  "tools": "C:\\temp_private\\corteqs\\0000_newera\\araclar\\arac",
+  "delivery_xlsx": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\malaga\\paket\\CITY-075_malaga_v001.xlsx",
+  "data_dir": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\malaga\\_is\\data",
+  "snapshots": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\malaga\\_is\\snap",
+  "cache": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\malaga\\_is\\cache"
+ },
+ "country_pack": {
+  "path": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\malaga\\_is\\ulke_paketi",
+  "valid_until": "2026-11-05"
+ },
+ "phase": "answers",
+ "phases": {
+  "intake": {
+   "status": "done",
+   "started_at": "2026-10-25T21:11:51Z",
+   "gates": [
+    {
+     "script": "xlsx_dump",
+     "exit_code": 0,
+     "summary": {
+      "sheets": 16,
+      "missing_sheets": [],
+      "total_rows": 2
+     },
+     "report": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\malaga\\_is\\sablon_dump",
+     "at": "2026-10-25T21:16:52Z"
+    },
+    {
+     "script": "validate_all",
+     "exit_code": 1,
+     "summary": {
+      "structure": {
+       "errors": 8
+      },
+      "note": "yalnız 8 şablon Şehir hatası (delivery_id düzeltmesinden sonra; önce 9)"
+     },
+     "report": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\malaga\\_is\\val_sablon.json",
+     "at": "2026-10-25T21:16:52Z"
+    },
+    {
+     "script": "wikidata_places",
+     "exit_code": 0,
+     "summary": {
+      "items": 2114,
+      "with_site": 269,
+      "with_image": 1074,
+      "with_category": 1210
+     },
+     "report": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\malaga\\_is\\mekan\\wikidata_aday.jsonl",
+     "at": "2026-10-25T21:16:52Z"
+    },
+    {
+     "script": "pack_merge+country_apply",
+     "exit_code": 0,
+     "summary": {
+      "cards": 105,
+      "claims": 2045,
+      "sources_added": 143,
+      "stale": 0
+     },
+     "report": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\malaga\\_is\\ulke_paketi\\pack.json",
+     "at": "2026-10-25T21:16:52Z"
+    },
+    {
+     "script": "fetch_snapshot",
+     "exit_code": 1,
+     "summary": {
+      "urls": 43,
+      "saved": 31,
+      "failed": 12,
+      "thin_text": 4
+     },
+     "report": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\malaga\\_is\\kesif\\erisim_snap\\index.jsonl",
+     "at": "2026-10-25T21:16:52Z"
+    }
+   ],
+   "outputs": [
+    "C:\\temp_private\\corteqs\\0000_newera\\uretim\\malaga\\_is\\sablon.xlsx",
+    "C:\\temp_private\\corteqs\\0000_newera\\uretim\\malaga\\_is\\data\\Konular.jsonl",
+    "C:\\temp_private\\corteqs\\0000_newera\\uretim\\malaga\\_is\\yazar\\ilk5.json",
+    "C:\\temp_private\\corteqs\\0000_newera\\uretim\\malaga\\_is\\kesif\\KESIF_TALIMAT.md",
+    "C:\\temp_private\\corteqs\\0000_newera\\uretim\\malaga\\_is\\ortam.ps1"
+   ],
+   "ended_at": "2026-10-25T21:16:52Z"
+  },
+  "sources": {
+   "status": "done",
+   "started_at": "2026-10-25T21:17:07Z",
+   "gates": [
+    {
+     "script": "add_sources",
+     "exit_code": 0,
+     "summary": {
+      "per_topic": {
+       "planlama": 14,
+       "oturum": 12,
+       "resmi": 13,
+       "ev": 16,
+       "fatura": 16,
+       "para": 14,
+       "saglik": 14,
+       "is": 13,
+       "aile": 12,
+       "ulasim": 15,
+       "gunluk": 15,
+       "kesif": 17
+      },
+      "min": 12,
+      "kaynak_dizini": 295,
+      "ulke_paketi_kaynak": 143
+     },
+     "report": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\malaga\\_is\\kaynak_dizini.jsonl",
+     "at": "2026-10-25T21:50:14Z"
+    }
+   ],
+   "outputs": [
+    "C:\\temp_private\\corteqs\\0000_newera\\uretim\\malaga\\_is\\yazar\\planlama_kaynaklar.jsonl",
+    "C:\\temp_private\\corteqs\\0000_newera\\uretim\\malaga\\_is\\yazar\\oturum_kaynaklar.jsonl",
+    "C:\\temp_private\\corteqs\\0000_newera\\uretim\\malaga\\_is\\yazar\\resmi_kaynaklar.jsonl",
+    "C:\\temp_private\\corteqs\\0000_newera\\uretim\\malaga\\_is\\yazar\\ev_kaynaklar.jsonl",
+    "C:\\temp_private\\corteqs\\0000_newera\\uretim\\malaga\\_is\\yazar\\fatura_kaynaklar.jsonl",
+    "C:\\temp_private\\corteqs\\0000_newera\\uretim\\malaga\\_is\\yazar\\para_kaynaklar.jsonl",
+    "C:\\temp_private\\corteqs\\0000_newera\\uretim\\malaga\\_is\\yazar\\saglik_kaynaklar.jsonl",
+    "C:\\temp_private\\corteqs\\0000_newera\\uretim\\malaga\\_is\\yazar\\is_kaynaklar.jsonl",
+    "C:\\temp_private\\corteqs\\0000_newera\\uretim\\malaga\\_is\\yazar\\aile_kaynaklar.jsonl",
+    "C:\\temp_private\\corteqs\\0000_newera\\uretim\\malaga\\_is\\yazar\\ulasim_kaynaklar.jsonl",
+    "C:\\temp_private\\corteqs\\0000_newera\\uretim\\malaga\\_is\\yazar\\gunluk_kaynaklar.jsonl",
+    "C:\\temp_private\\corteqs\\0000_newera\\uretim\\malaga\\_is\\yazar\\kesif_kaynaklar.jsonl",
+    "C:\\temp_private\\corteqs\\0000_newera\\uretim\\malaga\\_is\\kesif\\gaps.json"
+   ],
+   "ended_at": "2026-10-25T21:50:14Z"
+  },
+  "answers": {
+   "status": "running",
+   "started_at": "2026-10-25T21:50:16Z",
+   "gates": [],
+   "outputs": []
+  }
+ },
+ "sources_researched": 299,
+ "next_step": "answers: DURAKLATILDI 25.10.2026 23:00 — devam için uretim\\malaga\\DURUM.md; yeni oturumda 'mark answers start' ile pencere yeniden açılır, kesif'in 4 taslak kartı gözden geçirilip devam edilir, diğer 11 konu yazarı baştan başlar",
+ "open_items": [
+  {
+   "id": "OI-001",
+   "priority": "P2",
+   "text": "Erişim: malaga.es (Diputación) 403; sede.administracionespublicas.gob.es (cita previa) ve mivau.gob.es 403; huvv.es, aena.es, bibliotecas.malaga.eu, gmu.malaga.eu TLS sertifika hatası (doğrulama kapatılmadı, kural 8); sede.malaga.eu ve deportes.malaga.eu JS ile yükleniyor (ince metin); Junta okul kayıt sayfası 503. Bilgi başka resmî kurumdan alınacak; erişim teyidi açık.",
+   "evidence": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\malaga\\_is\\kesif\\erisim_snap\\index.jsonl",
+   "owner": "insan"
+  },
+  {
+   "id": "OI-002",
+   "priority": "P2",
+   "text": "Atınç şablonunda delivery_id büyük harfli (CITY-075-v001): resmî doğrulayıcı reddediyor. Yalnız _is\\sablon.xlsx kopyasında city-075-v001 yapıldı (yedek _is\\sablon_orijinal_kopya.xlsx).",
+   "evidence": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\malaga\\_is\\val_sablon.json",
+   "owner": "atinc"
+  },
+  {
+   "id": "OI-003",
+   "priority": "P2",
+   "text": "Bilgi: Şehir.priority alanının anlamı sözleşmede tanımsız (şablondaki 3 korunuyor); Şehir.source_url (Kapsam kaynağı) şablonda InterNations listesi — anlamı Atınç'a soruldu.",
+   "evidence": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\malaga\\_is\\sablon_dump\\Şehir.jsonl",
+   "owner": "atinc"
+  }
+ ],
+ "photos_downloaded": 0
+}

@@ -15,6 +15,8 @@ Numaralı temas paftalarına bakarak her karenin bağlı mekânı gerçekten gö
 3. Belirgin kişi yüzü ön planda, logo/reklam ağırlıklı, iç mekân yerine plan/harita, ekran görüntüsü, AI görünümü → ret veya işaret.
 4. Düşük çözünürlük, aşırı kırpma, filigran → ret.
 5. dHash çiftinden yalnız biri seçilir (K63).
+5a. **Ad kontrolü:** label'daki Commons dosya adını mekân adıyla karşılaştır. `decisions.json`'da `name_extended` (kaynak adı mekân adından uzun: "Iglesia de San Vicente" ↔ "… San Vicente de Paúl, Triana") ya da dosya adında başka semt, başka şehir veya eski yapı adı varsa kare **ret**; aynı yapı olduğunu görüntüdeki ayırt edici öğe ya da adresle göstermedikçe. Sevilla'da bu kare seçildi, dış denetimde P1 çıktı (S01).
+5b. **Kare içi eser/gösteri:** kareyi çağdaş heykel, mural, sokak sanatı, sergi ya da sahne gösterisi dolduruyorsa `flag` + `reason`'da "ek hak: <eser>"; fotoğraf lisansı eserin hakkını kapsamaz (Sevilla S15: yedi kare). Mekânın başka karesi varsa onu seç.
 6. Mekân başına en iyi 1–3 kare; kapak adayları ayrıca işaretlenir.
 
 ## Sınırlar

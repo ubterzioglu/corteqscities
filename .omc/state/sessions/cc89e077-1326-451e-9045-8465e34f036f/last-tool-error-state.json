@@ -1,7 +1,0 @@
-{
-  "tool_name": "Bash",
-  "tool_input_preview": "{\"command\":\"cat .gitignore 2>/dev/null || echo \\\"(gitignore yok)\\\"; echo \\\"--- staged by top dir\\\"; git diff --cached --name-only > /c/tmp/staged.txt; awk -F/ '{print $1\\\"/\\\"$2}' /c/tmp/staged.txt | s...",
-  "error": "Exit code 1\n--- staged by top dir\n/usr/bin/bash: line 1: /c/tmp/staged.txt: No such file or directory\nawk: fatal: cannot open file `/c/tmp/staged.txt' for reading: No such file or directory\n--- cache count\ngrep: /c/tmp/staged.txt: No such file or directory\n--- prior committed _cache / pycache\n3254\n165\n/usr/bin/bash: line 1: /c/Users/BARIS-~1/AppData/Local/Temp/claude-48b0-cwd: No such file or directory",
-  "timestamp": "2026-10-25T13:36:11.186Z",
-  "retry_count": 1
-}

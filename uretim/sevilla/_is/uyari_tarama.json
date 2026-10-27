@@ -1,0 +1,86 @@
+{
+  "tool": "preview_checks warning-scan",
+  "workbook": "ara.xlsx",
+  "fields": {
+    "bant": [
+      "overlay",
+      "status_note",
+      "venue_editorial",
+      "visit_status",
+      "hero_kicker",
+      "hero_accent",
+      "hero_note",
+      "photo_credit"
+    ],
+    "K103": [
+      "overlay",
+      "status_note",
+      "venue_editorial",
+      "visit_status",
+      "hero_kicker",
+      "hero_accent",
+      "hero_note",
+      "photo_credit",
+      "caption"
+    ],
+    "K104": [
+      "note",
+      "summary",
+      "subtitle",
+      "steps",
+      "description",
+      "intro",
+      "tagline",
+      "SayfaAlanları"
+    ]
+  },
+  "summary": {
+    "records": 2575,
+    "values": 2197,
+    "hits": 0,
+    "hit_records": 0,
+    "exempt": 0,
+    "by_check": {
+      "K103": 0,
+      "K104": 0,
+      "K105": 0
+    },
+    "by_pattern": {},
+    "band_values": 4,
+    "skipped_sheets": [],
+    "findings": 0
+  },
+  "samples": {},
+  "hits": [],
+  "exempt": [],
+  "band_values": [
+    {
+      "sheet": "SayfaAlanları",
+      "row": 8,
+      "id": "sevilla:field:hero_kicker",
+      "field": "hero_kicker",
+      "value": "İspanya · Sevilla Rehberi"
+    },
+    {
+      "sheet": "SayfaAlanları",
+      "row": 9,
+      "id": "sevilla:field:hero_accent",
+      "field": "hero_accent",
+      "value": "Sevilla'da ilk günden yerleşmeye kadar"
+    },
+    {
+      "sheet": "SayfaAlanları",
+      "row": 10,
+      "id": "sevilla:field:hero_note",
+      "field": "hero_note",
+      "value": "Oturum, adres kaydı, sağlık, konut, ulaşım ve keşif konularında resmî kaynaklara dayanan, sade Türkçe bir yol haritası."
+    },
+    {
+      "sheet": "SayfaAlanları",
+      "row": 20,
+      "id": "sevilla:field:photo_credit",
+      "field": "photo_credit",
+      "value": "Fotoğrafların yazar, lisans ve kaynak bilgisi her karenin altında yer alır."
+    }
+  ]
+}

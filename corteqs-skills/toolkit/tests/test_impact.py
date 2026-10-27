@@ -14,7 +14,7 @@ import impact
 
 C = "testville"
 TOOLKIT = Path(__file__).resolve().parent.parent
-REAL_XLSX = Path(r"C:\temp_private\corteqs\0000_newera\eindhoven_qwen38_max\CITY-039_eindhoven_v001.xlsx")
+REAL_XLSX = Path(r"C:\temp_private\corteqs\0000_newera\arsiv\eindhoven_qwen38_max\CITY-039_eindhoven_v001.xlsx")
 
 
 def base_rows() -> dict[str, list[dict[str, Any]]]:

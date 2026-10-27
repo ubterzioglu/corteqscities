@@ -1,0 +1,432 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1792966120643,
+  "projectRoot": "c:\\temp_private\\corteqs\\0000_newera",
+  "techStack": {
+    "languages": [],
+    "frameworks": [],
+    "packageManager": null,
+    "runtime": null
+  },
+  "build": {
+    "buildCommand": null,
+    "testCommand": null,
+    "lintCommand": null,
+    "devCommand": null,
+    "scripts": {}
+  },
+  "conventions": {
+    "namingStyle": null,
+    "importStyle": null,
+    "testPattern": null,
+    "fileOrganization": null
+  },
+  "structure": {
+    "isMonorepo": false,
+    "workspaces": [],
+    "mainDirectories": [],
+    "gitBranches": {
+      "defaultBranch": "main",
+      "branchingStrategy": null
+    }
+  },
+  "customNotes": [],
+  "directoryMap": {
+    "araclar": {
+      "path": "araclar",
+      "purpose": null,
+      "fileCount": 1,
+      "lastAccessed": 1792966120571,
+      "keyFiles": [
+        "kontrol_salt_okunur.py"
+      ]
+    },
+    "arsiv": {
+      "path": "arsiv",
+      "purpose": null,
+      "fileCount": 0,
+      "lastAccessed": 1792966120572,
+      "keyFiles": []
+    },
+    "belgeler": {
+      "path": "belgeler",
+      "purpose": null,
+      "fileCount": 0,
+      "lastAccessed": 1792966120572,
+      "keyFiles": []
+    },
+    "corteqs-skills": {
+      "path": "corteqs-skills",
+      "purpose": null,
+      "fileCount": 2,
+      "lastAccessed": 1792966120573,
+      "keyFiles": [
+        "IYILESTIRME_LISTESI.md",
+        "KULLANIM_KILAVUZU.md"
+      ]
+    },
+    "denetim": {
+      "path": "denetim",
+      "purpose": null,
+      "fileCount": 0,
+      "lastAccessed": 1792966120573,
+      "keyFiles": []
+    },
+    "ekler": {
+      "path": "ekler",
+      "purpose": null,
+      "fileCount": 9,
+      "lastAccessed": 1792966120573,
+      "keyFiles": [
+        "00_OKU_PROMPTLA_VERILECEK_DOSYALAR.txt",
+        "BERLIN_ORNEGI_ONEMLI_NOTLAR_v7.txt",
+        "CITY-000_berlin_ornek_v001.xlsx",
+        "CITY-003_aberdeen_v001.xlsx",
+        "Corteqs_Sehir_Icerik_Sablonu_v7.xlsx"
+      ]
+    },
+    "Sevilla_Detayli_Denetim_20261025.assets": {
+      "path": "Sevilla_Detayli_Denetim_20261025.assets",
+      "purpose": null,
+      "fileCount": 16,
+      "lastAccessed": 1792966120574,
+      "keyFiles": [
+        "page009_img52.jpeg",
+        "page094_img1415.jpeg",
+        "page095_img1417.jpeg",
+        "page096_img1419.jpeg",
+        "page097_img1421.jpeg"
+      ]
+    },
+    "Sevilla_Detayli_Denetim_20261025_gorseller": {
+      "path": "Sevilla_Detayli_Denetim_20261025_gorseller",
+      "purpose": null,
+      "fileCount": 16,
+      "lastAccessed": 1792966120574,
+      "keyFiles": [
+        "s009_1.jpeg",
+        "s094_1.jpeg",
+        "s095_1.jpeg",
+        "s096_1.jpeg",
+        "s097_1.jpeg"
+      ]
+    },
+    "ulke": {
+      "path": "ulke",
+      "purpose": null,
+      "fileCount": 0,
+      "lastAccessed": 1792966120575,
+      "keyFiles": []
+    },
+    "uretim": {
+      "path": "uretim",
+      "purpose": null,
+      "fileCount": 0,
+      "lastAccessed": 1792966120575,
+      "keyFiles": []
+    }
+  },
+  "hotPaths": [
+    {
+      "path": ".claude/skills/city-pack/agents/ortak-kurallar.md",
+      "accessCount": 95,
+      "lastAccessed": 1793031586291,
+      "type": "file"
+    },
+    {
+      "path": ".claude/skills/city-pack/agents/editor.md",
+      "accessCount": 33,
+      "lastAccessed": 1793016737183,
+      "type": "file"
+    },
+    {
+      "path": "",
+      "accessCount": 28,
+      "lastAccessed": 1793036792218,
+      "type": "directory"
+    },
+    {
+      "path": ".claude/skills/city-pack/agents/yanit-yazari.md",
+      "accessCount": 24,
+      "lastAccessed": 1792965083462,
+      "type": "file"
+    },
+    {
+      "path": ".claude/skills/city-pack/agents/iddia-denetcisi.md",
+      "accessCount": 22,
+      "lastAccessed": 1793017886075,
+      "type": "file"
+    },
+    {
+      "path": "uretim/sevilla/_is/denetim/DENETCI_GOREV.md",
+      "accessCount": 17,
+      "lastAccessed": 1793032322741,
+      "type": "file"
+    },
+    {
+      "path": ".claude/skills/city-pack/references/contract_digest.md",
+      "accessCount": 16,
+      "lastAccessed": 1792965083298,
+      "type": "file"
+    },
+    {
+      "path": "uretim/sevilla/_is/yazar/YAZAR_GOREV.md",
+      "accessCount": 15,
+      "lastAccessed": 1792964696414,
+      "type": "file"
+    },
+    {
+      "path": "corteqs-skills/deneme_ulke_paketi/ULKE_FAZI.md",
+      "accessCount": 13,
+      "lastAccessed": 1793009788387,
+      "type": "file"
+    },
+    {
+      "path": "uretim/sevilla/_is/kesif/KESIF_TALIMAT.md",
+      "accessCount": 10,
+      "lastAccessed": 1792954545556,
+      "type": "file"
+    },
+    {
+      "path": "uretim/sevilla/_is/snap_kesif_ev/4d14420c586aa1dfe6c0b0e0707eee1cfd1770bea74378f0fc5c94fa98fb3434.txt",
+      "accessCount": 10,
+      "lastAccessed": 1793035051071,
+      "type": "file"
+    },
+    {
+      "path": "uretim/sevilla/_is/snap_kesif_ev/e1e8f49c077194271012cda5041111a91aad9c5235dc4d7372bbcfbd0149c669.txt",
+      "accessCount": 10,
+      "lastAccessed": 1793035176801,
+      "type": "file"
+    },
+    {
+      "path": "uretim/sevilla/_is/snap_ulke_es/sevilla_kaynak_136_es-an_kaynak_012.txt",
+      "accessCount": 9,
+      "lastAccessed": 1793035747729,
+      "type": "file"
+    },
+    {
+      "path": "uretim/sevilla/_is/snap_kesif_ev/8916c067979dd980341df4b2f6c8bd6cc9ee2d1cf4142b94914359a7eb43d1d6.txt",
+      "accessCount": 8,
+      "lastAccessed": 1793035155362,
+      "type": "file"
+    },
+    {
+      "path": "uretim/sevilla/_is/snap_ulke_es/sevilla_kaynak_133_es-an_kaynak_006.txt",
+      "accessCount": 8,
+      "lastAccessed": 1793035282110,
+      "type": "file"
+    },
+    {
+      "path": "uretim/sevilla/_is/snap_kesif_ev/bad9681b73db0e62b209df47a00a02e3e5e60ab8e4dec8cd6b53f9e5d7f37174.txt",
+      "accessCount": 8,
+      "lastAccessed": 1793036731981,
+      "type": "file"
+    },
+    {
+      "path": "uretim/sevilla/_is/snap_kesif_para/374c1581a630be72d0f7802ca3b92e946fb8bc3f295136139f57bb566c34e8b9.txt",
+      "accessCount": 7,
+      "lastAccessed": 1793034620625,
+      "type": "file"
+    },
+    {
+      "path": "uretim/sevilla/_is/snap_kesif_ev/116e2bbdc165c57a2dabe356b22097d4baa60b7beb9f3cd9a060ab264f31944c.txt",
+      "accessCount": 7,
+      "lastAccessed": 1793035226850,
+      "type": "file"
+    },
+    {
+      "path": "uretim/sevilla/_is/kesif/KESIF_GOREV.md",
+      "accessCount": 6,
+      "lastAccessed": 1792879395198,
+      "type": "file"
+    },
+    {
+      "path": "uretim/sevilla/_is/snap_kesif_ev/cc928298c656f36454baa4a728eb5e514c63d8e8e89a97064809b16c8578b4c6.txt",
+      "accessCount": 6,
+      "lastAccessed": 1793035278979,
+      "type": "file"
+    },
+    {
+      "path": "uretim/sevilla/_is/snap_kesif_ev/7bc67220da1eb6d247ec844b9844ed0e205c608fcbdd1c482e2817e37b1aeca4.txt",
+      "accessCount": 6,
+      "lastAccessed": 1793035281531,
+      "type": "file"
+    },
+    {
+      "path": "uretim/sevilla/_is/snap_kesif_para/073e5ec37cd4ab713bbc53152c9d1d986002c95bafc4f4960f1efb665dfede9e.txt",
+      "accessCount": 6,
+      "lastAccessed": 1793035865219,
+      "type": "file"
+    },
+    {
+      "path": "uretim/sevilla/_is/snap_kesif_para/89ae5d4fb7ec50fd57a79c96bf673a5f0f3a24a1970923f39233edb685772efe.txt",
+      "accessCount": 5,
+      "lastAccessed": 1793032559983,
+      "type": "file"
+    },
+    {
+      "path": "uretim/sevilla/_is/snap_kesif_para/fb56737ba30a01c212134f020aa67259e81bfa93683d4f82cbc16188540bd138.txt",
+      "accessCount": 5,
+      "lastAccessed": 1793033789523,
+      "type": "file"
+    },
+    {
+      "path": "uretim/sevilla/_is/snap_kesif_para/180dbeaf3424fc39d8b555b37cb4cb106db78ee8d81fdc667b876245772f2b5e.txt",
+      "accessCount": 5,
+      "lastAccessed": 1793033813663,
+      "type": "file"
+    },
+    {
+      "path": "uretim/sevilla/_is/snap_kesif_ev/1ec7e96a3bb8ce7f4bc3dbe196bf16a010be2f3b2e82820bd5db38f28668c315.txt",
+      "accessCount": 5,
+      "lastAccessed": 1793035049523,
+      "type": "file"
+    },
+    {
+      "path": "uretim/sevilla/_is/snap_kesif_ev/4665a410c5ebb39ec3fe90e60216f6881e7ce6aceebcdc3fd19c4bd28199421b.txt",
+      "accessCount": 5,
+      "lastAccessed": 1793035051959,
+      "type": "file"
+    },
+    {
+      "path": "uretim/sevilla/_is/snap_kesif_saglik/0d3211fe8ac1da3c7dfd8684318745b1c50c54729c81144deff8304b14cd41bb.txt",
+      "accessCount": 5,
+      "lastAccessed": 1793035677431,
+      "type": "file"
+    },
+    {
+      "path": "uretim/sevilla/_is/snap_kesif_saglik/3bd4b855063b9fdc59a33f0ca2e14998b9c7311cc53c05c1a0bc45104ae5f6ec.txt",
+      "accessCount": 4,
+      "lastAccessed": 1793030618787,
+      "type": "file"
+    },
+    {
+      "path": "uretim/sevilla/_is/snap_kesif_saglik/af2e615d34b5357d0b5e9909fbacc0e1bcf1a41dc97b5cdbca36da02174060a9.txt",
+      "accessCount": 4,
+      "lastAccessed": 1793030618895,
+      "type": "file"
+    },
+    {
+      "path": "uretim/sevilla/_is/snap_kesif_ev/dad2ea7551dd600f517ac1a6ffdaed53d52209637516805ad1fdd542b5f62342.txt",
+      "accessCount": 4,
+      "lastAccessed": 1793031325147,
+      "type": "file"
+    },
+    {
+      "path": "uretim/sevilla/_is/snap_kesif_saglik/4e0bd0de1c34c6aef1c81f8bbba33375751103a2d6415ffd4d17ffcf87d80566.txt",
+      "accessCount": 4,
+      "lastAccessed": 1793031615279,
+      "type": "file"
+    },
+    {
+      "path": "uretim/sevilla/_is/snap_kesif_para/dca25083d57a4b4c9ed41cf40a8fbda6392e7006c1b07fe43104b19ffeeb0a71.txt",
+      "accessCount": 4,
+      "lastAccessed": 1793032564478,
+      "type": "file"
+    },
+    {
+      "path": "uretim/sevilla/_is/snap_kesif_ev/0db83795abe0fedcda82a06c003d97155899881bbca768fc1e4059d7205a02f8.txt",
+      "accessCount": 4,
+      "lastAccessed": 1793035052925,
+      "type": "file"
+    },
+    {
+      "path": "uretim/sevilla/_is/snap_kesif_saglik/7fd2c0c08a8d31e570d7b021488e34f4cc063d5ad46b7f7e1a8efbc7936e8f77.txt",
+      "accessCount": 4,
+      "lastAccessed": 1793035470305,
+      "type": "file"
+    },
+    {
+      "path": "uretim/sevilla/_is/snap_kesif_gunluk/1c1146e54c546d7589796c9f4b907b85e7d2e98dbe0505ab6e64e2d6f6cb59eb.txt",
+      "accessCount": 4,
+      "lastAccessed": 1793035697315,
+      "type": "file"
+    },
+    {
+      "path": "uretim/sevilla/_is/snap_kesif_saglik/4752d49f0bf6d71c34adeee42e9fb3a9d167a71d826330ba8d8ae17f3a4aa343.txt",
+      "accessCount": 3,
+      "lastAccessed": 1792881114490,
+      "type": "file"
+    },
+    {
+      "path": "uretim/sevilla/_is/snap_kesif_saglik/f80b18d6a17e95cb69e88ab08b5e46247b104821e366ace5745e7218273b0a08.txt",
+      "accessCount": 3,
+      "lastAccessed": 1792881115943,
+      "type": "file"
+    },
+    {
+      "path": "uretim/sevilla/_is/snap_kesif_saglik/8d321c197edaa92f162c80bee4e2806cbc85b90211f8b93d02f41adec4db773f.txt",
+      "accessCount": 3,
+      "lastAccessed": 1792881179427,
+      "type": "directory"
+    },
+    {
+      "path": "uretim/sevilla/_is/snap_kesif_saglik/8925d571eecd5832ca408e5c822af88f27c4d1773fe4e4ed2084cd5572ff3ae5.txt",
+      "accessCount": 3,
+      "lastAccessed": 1793030595778,
+      "type": "file"
+    },
+    {
+      "path": "SEVILLA_BASLANGIC.md",
+      "accessCount": 2,
+      "lastAccessed": 1792876448418,
+      "type": "file"
+    },
+    {
+      "path": "uretim/sevilla/_is/kesif/EK_KAYNAK_GOREV.md",
+      "accessCount": 2,
+      "lastAccessed": 1792879389134,
+      "type": "file"
+    },
+    {
+      "path": "YENI_ULKE_SEHIR.md",
+      "accessCount": 2,
+      "lastAccessed": 1792905559198,
+      "type": "file"
+    },
+    {
+      "path": "uretim/sevilla/_is/snap_kesif_saglik/b877fb1a6293b43ae07cad1ee709fabf65164683c6467c25b587e112f6a1754e.txt",
+      "accessCount": 2,
+      "lastAccessed": 1793028943435,
+      "type": "file"
+    },
+    {
+      "path": "uretim/sevilla/_is/snap_kesif_saglik/272d6b641ad0e9262309fabccf888475f5437fc6a443b7ba6dd430b6baa72d8c.txt",
+      "accessCount": 2,
+      "lastAccessed": 1793029255358,
+      "type": "file"
+    },
+    {
+      "path": "ulke/ES/acik_konular.md",
+      "accessCount": 1,
+      "lastAccessed": 1792876621601,
+      "type": "directory"
+    },
+    {
+      "path": "uretim/sevilla/_is/yazar/ilk5.json",
+      "accessCount": 1,
+      "lastAccessed": 1792877113133,
+      "type": "file"
+    },
+    {
+      "path": "ISPANYA_YENI_SEHIR.md",
+      "accessCount": 1,
+      "lastAccessed": 1792878458239,
+      "type": "file"
+    },
+    {
+      "path": "uretim/sevilla/_is/kur.ps1",
+      "accessCount": 1,
+      "lastAccessed": 1792878882961,
+      "type": "file"
+    },
+    {
+      "path": "uretim/sevilla/_is/snap_kesif_para/64efab7739effa0f7da4a85fc299ccf24bed11b605a66db61921b5bd52f965d3.txt",
+      "accessCount": 1,
+      "lastAccessed": 1792879928842,
+      "type": "file"
+    }
+  ],
+  "userDirectives": []
+}
