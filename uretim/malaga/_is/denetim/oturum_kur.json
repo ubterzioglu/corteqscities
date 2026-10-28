@@ -1,0 +1,101 @@
+{
+ "text_quality": [
+  {
+   "yer": "exact_duplicates[0]",
+   "sheet": "Yanıtlar",
+   "field": "cost",
+   "size": 3,
+   "length": 78,
+   "sample": "790 kodu 012 harcı bankalarda ve tasarruf kasalarında, hesabın olmasa da ödenir.",
+   "members": [
+    {
+     "row": 112,
+     "id": "malaga:nie-basvurusu-polis-birimi"
+    },
+    {
+     "row": 113,
+     "id": "malaga:tie-karti-basvuru-birimi"
+    },
+    {
+     "row": 114,
+     "id": "malaga:ilce-polis-birimlerinde-nie-tie"
+    }
+   ]
+  },
+  {
+   "yer": "exact_duplicates[1]",
+   "sheet": "Yanıtlar",
+   "field": "documents",
+   "size": 3,
+   "length": 66,
+   "sample": "EX15 formu (NIE ve sertifika talebi) 790 kodu 012 harç ödeme belgesi",
+   "members": [
+    {
+     "row": 98,
+     "id": "malaga:nie-nedir-ne-ise-yarar"
+    },
+    {
+     "row": 112,
+     "id": "malaga:nie-basvurusu-polis-birimi"
+    },
+    {
+     "row": 114,
+     "id": "malaga:ilce-polis-birimlerinde-nie-tie"
+    }
+   ]
+  },
+  {
+   "yer": "address.findings[2]",
+   "sheet": "Yanıtlar",
+   "row": 108,
+   "id": "malaga:altin-vize-sona-erdi",
+   "form": "karisik",
+   "fields": {
+    "steps": "karisik"
+   },
+   "siz": [
+    "başvurun"
+   ],
+   "sen": [
+    "planlıyorsan",
+    "yaptıysan",
+    "iznin",
+    "istiyorsan"
+   ],
+   "reason": "karisik"
+  }
+ ],
+ "uyari_tarama": [
+  {
+   "yer": "samples",
+   "guncel_kontrol": [
+    "malaga:endulus-okul-kaydi-basvuru-donemi-ve-gec-gelen-ogrenci",
+    "malaga:kaynak:209",
+    "malaga:kaynak:216",
+    "malaga:kaynak:275"
+   ],
+   "belirsiz_durum": [
+    "malaga:dijital-gocebe-vizesi"
+   ],
+   "siteden_bilgi_dogrula": [
+    "malaga:kaynak:275"
+   ]
+  },
+  {
+   "yer": "hits[2]",
+   "sheet": "Yanıtlar",
+   "row": 106,
+   "id": "malaga:dijital-gocebe-vizesi",
+   "field": "note",
+   "check": "K104",
+   "patterns": [
+    "belirsiz_durum"
+   ],
+   "sentences": [
+    "Şart listesi İstanbul Başkonsolosluğu'nun 7 Ocak 2025 tarihli sayfasındandır; vize ücreti ve diğer şartlar sonradan değişmiş olabilir."
+   ]
+  }
+ ],
+ "birlestir": [],
+ "claim_check_number_kalan": []
+}

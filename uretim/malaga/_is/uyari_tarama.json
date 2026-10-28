@@ -1,0 +1,139 @@
+{
+  "tool": "preview_checks warning-scan",
+  "workbook": "ara.xlsx",
+  "fields": {
+    "bant": [
+      "overlay",
+      "status_note",
+      "venue_editorial",
+      "visit_status",
+      "hero_kicker",
+      "hero_accent",
+      "hero_note",
+      "photo_credit"
+    ],
+    "K103": [
+      "overlay",
+      "status_note",
+      "venue_editorial",
+      "visit_status",
+      "hero_kicker",
+      "hero_accent",
+      "hero_note",
+      "photo_credit",
+      "caption"
+    ],
+    "K104": [
+      "note",
+      "summary",
+      "subtitle",
+      "steps",
+      "description",
+      "intro",
+      "tagline",
+      "SayfaAlanları"
+    ]
+  },
+  "summary": {
+    "records": 1492,
+    "values": 1769,
+    "hits": 3,
+    "hit_records": 3,
+    "exempt": 0,
+    "by_check": {
+      "K103": 0,
+      "K104": 3,
+      "K105": 0
+    },
+    "by_pattern": {
+      "guncel_kontrol": 3,
+      "siteden_bilgi_dogrula": 1
+    },
+    "band_values": 4,
+    "skipped_sheets": [],
+    "findings": 3
+  },
+  "samples": {
+    "guncel_kontrol": [
+      "malaga:kaynak:209",
+      "malaga:kaynak:216",
+      "malaga:kaynak:275"
+    ],
+    "siteden_bilgi_dogrula": [
+      "malaga:kaynak:275"
+    ]
+  },
+  "hits": [
+    {
+      "sheet": "Kaynaklar",
+      "row": 203,
+      "id": "malaga:kaynak:209",
+      "field": "summary",
+      "check": "K104",
+      "patterns": [
+        "guncel_kontrol"
+      ],
+      "sentences": [
+        "Paro (işsizlik) için SEPE randevu telefonu; 2022 tarihli haber, güncelliği teyit edilmeli"
+      ]
+    },
+    {
+      "sheet": "Kaynaklar",
+      "row": 209,
+      "id": "malaga:kaynak:216",
+      "field": "summary",
+      "check": "K104",
+      "patterns": [
+        "guncel_kontrol"
+      ],
+      "sentences": [
+        "Başvuru tarihleri takvimi (2026/27: 1 Mart-7 Nisan, kura 13 Mayıs); 2027/28 takvimi yayınlanınca güncel mi kontrol edilmeli"
+      ]
+    },
+    {
+      "sheet": "Kaynaklar",
+      "row": 262,
+      "id": "malaga:kaynak:275",
+      "field": "summary",
+      "check": "K104",
+      "patterns": [
+        "siteden_bilgi_dogrula",
+        "guncel_kontrol"
+      ],
+      "sentences": [
+        "ilk5/kesif-1,2: ücretsiz giriş (Pazar son iki saat), saatler, tarifeler; sayfa güncel mi diye kontrol edilmeli"
+      ]
+    }
+  ],
+  "exempt": [],
+  "band_values": [
+    {
+      "sheet": "SayfaAlanları",
+      "row": 8,
+      "id": "malaga:field:hero_kicker",
+      "field": "hero_kicker",
+      "value": "İspanya · Málaga rehberi"
+    },
+    {
+      "sheet": "SayfaAlanları",
+      "row": 9,
+      "id": "malaga:field:hero_accent",
+      "field": "hero_accent",
+      "value": "Yeni şehrinde ilk günden yolunu bul"
+    },
+    {
+      "sheet": "SayfaAlanları",
+      "row": 10,
+      "id": "malaga:field:hero_note",
+      "field": "hero_note",
+      "value": "Kayıt işlemlerinden ulaşıma, sağlıktan semtlere Málaga'da ihtiyacın olan bilgi resmî kaynaklardan derlendi."
+    },
+    {
+      "sheet": "SayfaAlanları",
+      "row": 20,
+      "id": "malaga:field:photo_credit",
+      "field": "photo_credit",
+      "value": "Fotoğrafların sahibi ve lisans bilgisi her karenin altında yazılıdır."
+    }
+  ]
+}

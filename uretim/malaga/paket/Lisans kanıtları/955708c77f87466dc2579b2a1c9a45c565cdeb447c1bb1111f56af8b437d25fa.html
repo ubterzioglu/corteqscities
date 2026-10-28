@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html>
+
+<head><meta charset="UTF-8"><script>if(navigator.userAgent.match(/MSIE|Internet Explorer/i)||navigator.userAgent.match(/Trident\/7\..*?rv:11/i)){var href=document.location.href;if(!href.match(/[?&]nowprocket/)){if(href.indexOf("?")==-1){if(href.indexOf("#")==-1){document.location.href=href+"?nowprocket=1"}else{document.location.href=href.replace("#","?nowprocket=1#")}}else{if(href.indexOf("#")==-1){document.location.href=href+"&nowprocket=1"}else{document.location.href=href.replace("#","&nowprocket=1#")}}}}</script><script>(()=>{class RocketLazyLoadScripts{constructor(){this.v="2.0.5",this.userEvents=["keydown","keyup","mousedown","mouseup","mousemove","mouseover","mouseout","touchmove","touchstart","touchend","touchcancel","wheel","click","dblclick","input"],this.attributeEvents=["onblur","onclick","oncontextmenu","ondblclick","onfocus","onmousedown","onmouseenter","onmouseleave","onmousemove","onmouseout","onmouseover","onmouseup","onmousewheel","onscroll","onsubmit"]}async t(){this.i(),this.o(),/iP(ad|hone)/.test(navigator.userAgent)&&this.h(),this.u(),this.l(this),this.m(),this.k(this),this.p(this),this._(),await Promise.all([this.R(),this.L()]),this.lastBreath=Date.now(),this.S(this),this.P(),this.D(),this.O(),this.M(),await this.C(this.delayedScripts.normal),await this.C(this.delayedScripts.defer),await this.C(this.delayedScripts.async),await this.T(),await this.F(),await this.j(),await this.A(),window.dispatchEvent(new Event("rocket-allScriptsLoaded")),this.everythingLoaded=!0,this.lastTouchEnd&&await new Promise(t=>setTimeout(t,500-Date.now()+this.lastTouchEnd)),this.I(),this.H(),this.U(),this.W()}i(){this.CSPIssue=sessionStorage.getItem("rocketCSPIssue"),document.addEventListener("securitypolicyviolation",t=>{this.CSPIssue||"script-src-elem"!==t.violatedDirective||"data"!==t.blockedURI||(this.CSPIssue=!0,sessionStorage.setItem("rocketCSPIssue",!0))},{isRocket:!0})}o(){window.addEventListener("pageshow",t=>{this.persisted=t.persisted,this.realWindowLoadedFired=!0},{isRocket:!0}),window.addEventListener("pagehide",()=>{this.onFirstUserAction=null},{isRocket:!0})}h(){let t;function e(e){t=e}window.addEventListener("touchstart",e,{isRocket:!0}),window.addEventListener("touchend",function i(o){o.changedTouches[0]&&t.changedTouches[0]&&Math.abs(o.changedTouches[0].pageX-t.changedTouches[0].pageX)<10&&Math.abs(o.changedTouches[0].pageY-t.changedTouches[0].pageY)<10&&o.timeStamp-t.timeStamp<200&&(window.removeEventListener("touchstart",e,{isRocket:!0}),window.removeEventListener("touchend",i,{isRocket:!0}),"INPUT"===o.target.tagName&&"text"===o.target.type||(o.target.dispatchEvent(new TouchEvent("touchend",{target:o.target,bubbles:!0})),o.target.dispatchEvent(new MouseEvent("mouseover",{target:o.target,bubbles:!0})),o.target.dispatchEvent(new PointerEvent("click",{target:o.target,bubbles:!0,cancelable:!0,detail:1,clientX:o.changedTouches[0].clientX,clientY:o.changedTouches[0].clientY})),event.preventDefault()))},{isRocket:!0})}q(t){this.userActionTriggered||("mousemove"!==t.type||this.firstMousemoveIgnored?"keyup"===t.type||"mouseover"===t.type||"mouseout"===t.type||(this.userActionTriggered=!0,this.onFirstUserAction&&this.onFirstUserAction()):this.firstMousemoveIgnored=!0),"click"===t.type&&t.preventDefault(),t.stopPropagation(),t.stopImmediatePropagation(),"touchstart"===this.lastEvent&&"touchend"===t.type&&(this.lastTouchEnd=Date.now()),"click"===t.type&&(this.lastTouchEnd=0),this.lastEvent=t.type,t.composedPath&&t.composedPath()[0].getRootNode()instanceof ShadowRoot&&(t.rocketTarget=t.composedPath()[0]),this.savedUserEvents.push(t)}u(){this.savedUserEvents=[],this.userEventHandler=this.q.bind(this),this.userEvents.forEach(t=>window.addEventListener(t,this.userEventHandler,{passive:!1,isRocket:!0})),document.addEventListener("visibilitychange",this.userEventHandler,{isRocket:!0})}U(){this.userEvents.forEach(t=>window.removeEventListener(t,this.userEventHandler,{passive:!1,isRocket:!0})),document.removeEventListener("visibilitychange",this.userEventHandler,{isRocket:!0}),this.savedUserEvents.forEach(t=>{(t.rocketTarget||t.target).dispatchEvent(new window[t.constructor.name](t.type,t))})}m(){const t="return false",e=Array.from(this.attributeEvents,t=>"data-rocket-"+t),i="["+this.attributeEvents.join("],[")+"]",o="[data-rocket-"+this.attributeEvents.join("],[data-rocket-")+"]",s=(e,i,o)=>{o&&o!==t&&(e.setAttribute("data-rocket-"+i,o),e["rocket"+i]=new Function("event",o),e.setAttribute(i,t))};new MutationObserver(t=>{for(const n of t)"attributes"===n.type&&(n.attributeName.startsWith("data-rocket-")||this.everythingLoaded?n.attributeName.startsWith("data-rocket-")&&this.everythingLoaded&&this.N(n.target,n.attributeName.substring(12)):s(n.target,n.attributeName,n.target.getAttribute(n.attributeName))),"childList"===n.type&&n.addedNodes.forEach(t=>{if(t.nodeType===Node.ELEMENT_NODE)if(this.everythingLoaded)for(const i of[t,...t.querySelectorAll(o)])for(const t of i.getAttributeNames())e.includes(t)&&this.N(i,t.substring(12));else for(const e of[t,...t.querySelectorAll(i)])for(const t of e.getAttributeNames())this.attributeEvents.includes(t)&&s(e,t,e.getAttribute(t))})}).observe(document,{subtree:!0,childList:!0,attributeFilter:[...this.attributeEvents,...e]})}I(){this.attributeEvents.forEach(t=>{document.querySelectorAll("[data-rocket-"+t+"]").forEach(e=>{this.N(e,t)})})}N(t,e){const i=t.getAttribute("data-rocket-"+e);i&&(t.setAttribute(e,i),t.removeAttribute("data-rocket-"+e))}k(t){Object.defineProperty(HTMLElement.prototype,"onclick",{get(){return this.rocketonclick||null},set(e){this.rocketonclick=e,this.setAttribute(t.everythingLoaded?"onclick":"data-rocket-onclick","this.rocketonclick(event)")}})}S(t){function e(e,i){let o=e[i];e[i]=null,Object.defineProperty(e,i,{get:()=>o,set(s){t.everythingLoaded?o=s:e["rocket"+i]=o=s}})}e(document,"onreadystatechange"),e(window,"onload"),e(window,"onpageshow");try{Object.defineProperty(document,"readyState",{get:()=>t.rocketReadyState,set(e){t.rocketReadyState=e},configurable:!0}),document.readyState="loading"}catch(t){console.log("WPRocket DJE readyState conflict, bypassing")}}l(t){this.originalAddEventListener=EventTarget.prototype.addEventListener,this.originalRemoveEventListener=EventTarget.prototype.removeEventListener,this.savedEventListeners=[],EventTarget.prototype.addEventListener=function(e,i,o){o&&o.isRocket||!t.B(e,this)&&!t.userEvents.includes(e)||t.B(e,this)&&!t.userActionTriggered||e.startsWith("rocket-")||t.everythingLoaded?t.originalAddEventListener.call(this,e,i,o):(t.savedEventListeners.push({target:this,remove:!1,type:e,func:i,options:o}),"mouseenter"!==e&&"mouseleave"!==e||t.originalAddEventListener.call(this,e,t.savedUserEvents.push,o))},EventTarget.prototype.removeEventListener=function(e,i,o){o&&o.isRocket||!t.B(e,this)&&!t.userEvents.includes(e)||t.B(e,this)&&!t.userActionTriggered||e.startsWith("rocket-")||t.everythingLoaded?t.originalRemoveEventListener.call(this,e,i,o):t.savedEventListeners.push({target:this,remove:!0,type:e,func:i,options:o})}}J(t,e){this.savedEventListeners=this.savedEventListeners.filter(i=>{let o=i.type,s=i.target||window;return e!==o||t!==s||(this.B(o,s)&&(i.type="rocket-"+o),this.$(i),!1)})}H(){EventTarget.prototype.addEventListener=this.originalAddEventListener,EventTarget.prototype.removeEventListener=this.originalRemoveEventListener,this.savedEventListeners.forEach(t=>this.$(t))}$(t){t.remove?this.originalRemoveEventListener.call(t.target,t.type,t.func,t.options):this.originalAddEventListener.call(t.target,t.type,t.func,t.options)}p(t){let e;function i(e){return t.everythingLoaded?e:e.split(" ").map(t=>"load"===t||t.startsWith("load.")?"rocket-jquery-load":t).join(" ")}function o(o){function s(e){const s=o.fn[e];o.fn[e]=o.fn.init.prototype[e]=function(){return this[0]===window&&t.userActionTriggered&&("string"==typeof arguments[0]||arguments[0]instanceof String?arguments[0]=i(arguments[0]):"object"==typeof arguments[0]&&Object.keys(arguments[0]).forEach(t=>{const e=arguments[0][t];delete arguments[0][t],arguments[0][i(t)]=e})),s.apply(this,arguments),this}}if(o&&o.fn&&!t.allJQueries.includes(o)){const e={DOMContentLoaded:[],"rocket-DOMContentLoaded":[]};for(const t in e)document.addEventListener(t,()=>{e[t].forEach(t=>t())},{isRocket:!0});o.fn.ready=o.fn.init.prototype.ready=function(i){function s(){parseInt(o.fn.jquery)>2?setTimeout(()=>i.bind(document)(o)):i.bind(document)(o)}return"function"==typeof i&&(t.realDomReadyFired?!t.userActionTriggered||t.fauxDomReadyFired?s():e["rocket-DOMContentLoaded"].push(s):e.DOMContentLoaded.push(s)),this},s("on"),s("one"),s("off"),t.allJQueries.push(o)}e=o}t.allJQueries=[],o(window.jQuery),Object.defineProperty(window,"jQuery",{get:()=>e,set(t){o(t)}})}P(){const t=new Map;document.write=document.writeln=function(e){const i=document.currentScript,o=document.createRange(),s=i.parentElement;let n=t.get(i);void 0===n&&(n=i.nextSibling,t.set(i,n));const c=document.createDocumentFragment();o.setStart(c,0),c.appendChild(o.createContextualFragment(e)),s.insertBefore(c,n)}}async R(){return new Promise(t=>{this.userActionTriggered?t():this.onFirstUserAction=t})}async L(){return new Promise(t=>{document.addEventListener("DOMContentLoaded",()=>{this.realDomReadyFired=!0,t()},{isRocket:!0})})}async j(){return this.realWindowLoadedFired?Promise.resolve():new Promise(t=>{window.addEventListener("load",t,{isRocket:!0})})}M(){this.pendingScripts=[];this.scriptsMutationObserver=new MutationObserver(t=>{for(const e of t)e.addedNodes.forEach(t=>{"SCRIPT"!==t.tagName||!t.src||t.noModule||t.isWPRocket||this.pendingScripts.push({script:t,promise:new Promise(e=>{const i=()=>{const i=this.pendingScripts.findIndex(e=>e.script===t);i>=0&&this.pendingScripts.splice(i,1),e()};t.addEventListener("load",i,{isRocket:!0}),t.addEventListener("error",i,{isRocket:!0}),setTimeout(i,1e3)})})})}),this.scriptsMutationObserver.observe(document,{childList:!0,subtree:!0})}async F(){await this.X(),this.pendingScripts.length?(await this.pendingScripts[0].promise,await this.F()):this.scriptsMutationObserver.disconnect()}D(){this.delayedScripts={normal:[],async:[],defer:[]},document.querySelectorAll("script[type$=rocketlazyloadscript]").forEach(t=>{t.hasAttribute("data-rocket-src")?t.hasAttribute("async")&&!1!==t.async?this.delayedScripts.async.push(t):t.hasAttribute("defer")&&!1!==t.defer||"module"===t.getAttribute("data-rocket-type")?this.delayedScripts.defer.push(t):this.delayedScripts.normal.push(t):this.delayedScripts.normal.push(t)})}async _(){await this.L();let t=[];document.querySelectorAll("script[type$=rocketlazyloadscript][data-rocket-src]").forEach(e=>{let i=e.getAttribute("data-rocket-src");if(i&&!i.startsWith("data:")){i.startsWith("//")&&(i=location.protocol+i);try{const o=new URL(i).origin;o!==location.origin&&t.push({src:o,crossOrigin:e.crossOrigin||"module"===e.getAttribute("data-rocket-type")})}catch(t){}}}),t=[...new Map(t.map(t=>[JSON.stringify(t),t])).values()],this.Y(t,"preconnect")}async G(t){if(await this.K(),!0!==t.noModule||!("noModule"in HTMLScriptElement.prototype))return new Promise(e=>{let i;function o(){(i||t).setAttribute("data-rocket-status","executed"),e()}try{if(navigator.userAgent.includes("Firefox/")||""===navigator.vendor||this.CSPIssue)i=document.createElement("script"),[...t.attributes].forEach(t=>{let e=t.nodeName;"type"!==e&&("data-rocket-type"===e&&(e="type"),"data-rocket-src"===e&&(e="src"),i.setAttribute(e,t.nodeValue))}),t.text&&(i.text=t.text),t.nonce&&(i.nonce=t.nonce),i.hasAttribute("src")?(i.addEventListener("load",o,{isRocket:!0}),i.addEventListener("error",()=>{i.setAttribute("data-rocket-status","failed-network"),e()},{isRocket:!0}),setTimeout(()=>{i.isConnected||e()},1)):(i.text=t.text,o()),i.isWPRocket=!0,t.parentNode.replaceChild(i,t);else{const i=t.getAttribute("data-rocket-type"),s=t.getAttribute("data-rocket-src");i?(t.type=i,t.removeAttribute("data-rocket-type")):t.removeAttribute("type"),t.addEventListener("load",o,{isRocket:!0}),t.addEventListener("error",i=>{this.CSPIssue&&i.target.src.startsWith("data:")?(console.log("WPRocket: CSP fallback activated"),t.removeAttribute("src"),this.G(t).then(e)):(t.setAttribute("data-rocket-status","failed-network"),e())},{isRocket:!0}),s?(t.fetchPriority="high",t.removeAttribute("data-rocket-src"),t.src=s):t.src="data:text/javascript;base64,"+window.btoa(unescape(encodeURIComponent(t.text)))}}catch(i){t.setAttribute("data-rocket-status","failed-transform"),e()}});t.setAttribute("data-rocket-status","skipped")}async C(t){const e=t.shift();return e?(e.isConnected&&await this.G(e),this.C(t)):Promise.resolve()}O(){this.Y([...this.delayedScripts.normal,...this.delayedScripts.defer,...this.delayedScripts.async],"preload")}Y(t,e){this.trash=this.trash||[];let i=!0;var o=document.createDocumentFragment();t.forEach(t=>{const s=t.getAttribute&&t.getAttribute("data-rocket-src")||t.src;if(s&&!s.startsWith("data:")){const n=document.createElement("link");n.href=s,n.rel=e,"preconnect"!==e&&(n.as="script",n.fetchPriority=i?"high":"low"),t.getAttribute&&"module"===t.getAttribute("data-rocket-type")&&(n.crossOrigin=!0),t.crossOrigin&&(n.crossOrigin=t.crossOrigin),t.integrity&&(n.integrity=t.integrity),t.nonce&&(n.nonce=t.nonce),o.appendChild(n),this.trash.push(n),i=!1}}),document.head.appendChild(o)}W(){this.trash.forEach(t=>t.remove())}async T(){try{document.readyState="interactive"}catch(t){}this.fauxDomReadyFired=!0;try{await this.K(),this.J(document,"readystatechange"),document.dispatchEvent(new Event("rocket-readystatechange")),await this.K(),document.rocketonreadystatechange&&document.rocketonreadystatechange(),await this.K(),this.J(document,"DOMContentLoaded"),document.dispatchEvent(new Event("rocket-DOMContentLoaded")),await this.K(),this.J(window,"DOMContentLoaded"),window.dispatchEvent(new Event("rocket-DOMContentLoaded"))}catch(t){console.error(t)}}async A(){try{document.readyState="complete"}catch(t){}try{await this.K(),this.J(document,"readystatechange"),document.dispatchEvent(new Event("rocket-readystatechange")),await this.K(),document.rocketonreadystatechange&&document.rocketonreadystatechange(),await this.K(),this.J(window,"load"),window.dispatchEvent(new Event("rocket-load")),await this.K(),window.rocketonload&&window.rocketonload(),await this.K(),this.allJQueries.forEach(t=>t(window).trigger("rocket-jquery-load")),await this.K(),this.J(window,"pageshow");const t=new Event("rocket-pageshow");t.persisted=this.persisted,window.dispatchEvent(t),await this.K(),window.rocketonpageshow&&window.rocketonpageshow({persisted:this.persisted})}catch(t){console.error(t)}}async K(){Date.now()-this.lastBreath>45&&(await this.X(),this.lastBreath=Date.now())}async X(){return document.hidden?new Promise(t=>setTimeout(t)):new Promise(t=>requestAnimationFrame(t))}B(t,e=window){return e===document&&"readystatechange"===t||(e===document&&"DOMContentLoaded"===t||(e===window&&"DOMContentLoaded"===t||(e===window&&"load"===t||e===window&&"pageshow"===t)))}static run(){(new RocketLazyLoadScripts).t()}}RocketLazyLoadScripts.run()})();
+</script>
+
+	
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta name="format-detection" content="telephone=no">
+
+	<link rel="apple-touch-icon" sizes="76x76" href="https://www.elpimpi.com/wp-content/themes/pimpi/favicons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://www.elpimpi.com/wp-content/themes/pimpi/favicons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://www.elpimpi.com/wp-content/themes/pimpi/favicons/favicon-16x16.png">
+<link rel="manifest" href="https://www.elpimpi.com/wp-content/themes/pimpi/favicons/site.webmanifest">
+<link rel="mask-icon" href="https://www.elpimpi.com/wp-content/themes/pimpi/favicons/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#2d89ef">
+<meta name="theme-color" content="#ffffff"><meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+<!-- Etiqueta de Google (gtag.js) modo de consentimiento dataLayer añadido por Site Kit -->
+<script type="text/rocketlazyloadscript" id="google_gtagjs-js-consent-mode-data-layer">
+window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}
+gtag('consent', 'default', {"ad_personalization":"denied","ad_storage":"denied","ad_user_data":"denied","analytics_storage":"denied","functionality_storage":"denied","security_storage":"denied","personalization_storage":"denied","region":["AT","BE","BG","CH","CY","CZ","DE","DK","EE","ES","FI","FR","GB","GR","HR","HU","IE","IS","IT","LI","LT","LU","LV","MT","NL","NO","PL","PT","RO","SE","SI","SK"],"wait_for_update":500});
+window._googlesitekitConsentCategoryMap = {"statistics":["analytics_storage"],"marketing":["ad_storage","ad_user_data","ad_personalization"],"functional":["functionality_storage","security_storage"],"preferences":["personalization_storage"]};
+window._googlesitekitConsents = {"ad_personalization":"denied","ad_storage":"denied","ad_user_data":"denied","analytics_storage":"denied","functionality_storage":"denied","security_storage":"denied","personalization_storage":"denied","region":["AT","BE","BG","CH","CY","CZ","DE","DK","EE","ES","FI","FR","GB","GR","HR","HU","IE","IS","IT","LI","LT","LU","LV","MT","NL","NO","PL","PT","RO","SE","SI","SK"],"wait_for_update":500};
+</script>
+<!-- Fin de la etiqueta Google (gtag.js) modo de consentimiento dataLayer añadido por Site Kit -->
+
+	<!-- This site is optimized with the Yoast SEO plugin v28.6 - https://yoast.com/product/yoast-seo-wordpress/ -->
+	<title>Reservas - El Pimpi</title>
+<link data-rocket-prefetch href="https://www.googletagmanager.com" rel="dns-prefetch">
+<link data-rocket-prefetch href="https://www.covermanager.com" rel="dns-prefetch">
+<link data-rocket-prefetch href="https://challenges.cloudflare.com" rel="dns-prefetch">
+<link data-rocket-preload as="style" data-wpr-hosted-gf-parameters="family=Averia%20Serif%20Libre%3A300%2C400%2C700%7COswald%3A400%2C700&display=swap" href="https://www.elpimpi.com/wp-content/cache/fonts/1/google-fonts/css/e/7/d/ced95fd86e91d069f39f48b35737a.css" rel="preload">
+<link data-wpr-hosted-gf-parameters="family=Averia%20Serif%20Libre%3A300%2C400%2C700%7COswald%3A400%2C700&display=swap" href="https://www.elpimpi.com/wp-content/cache/fonts/1/google-fonts/css/e/7/d/ced95fd86e91d069f39f48b35737a.css" media="print" onload="this.media=&#039;all&#039;" rel="stylesheet">
+<noscript data-wpr-hosted-gf-parameters=""><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Averia%20Serif%20Libre%3A300%2C400%2C700%7COswald%3A400%2C700&#038;display=swap"></noscript>
+<style id="rocket-critical-css">.wpml-ls-legacy-list-horizontal{border:1px solid transparent;padding:7px;clear:both}.wpml-ls-legacy-list-horizontal>ul{padding:0;margin:0!important;list-style-type:none}.wpml-ls-legacy-list-horizontal .wpml-ls-item{padding:0;margin:0;list-style-type:none;display:inline-block}.wpml-ls-legacy-list-horizontal a{display:block;text-decoration:none;padding:5px 10px 6px;line-height:1}.wpml-ls-legacy-list-horizontal .wpml-ls-flag{display:inline;vertical-align:middle}input{font-family:inherit;font-weight:inherit;font-size:100%}body,div,span,iframe,h1,p,img,ul,li,label,details,nav,summary{border:0;vertical-align:baseline;background:transparent;margin:0;padding:0}body{line-height:1}details,nav{display:block}a{font-size:100%;vertical-align:baseline;background:transparent;margin:0;padding:0}input{vertical-align:middle}ul,li{list-style:none}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}details,nav,summary{display:block}a{background-color:transparent}h1{font-size:2em;margin:0.67em 0}img{border:0}svg:not(:root){overflow:hidden}button,input{color:inherit;font:inherit;margin:0}button{overflow:visible}button{text-transform:none}button{-webkit-appearance:button}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}input{line-height:normal}input[type="checkbox"]{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;padding:0}*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*:before,*:after{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}html{font-size:10px}body{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:14px;line-height:1.42857143;color:#333;background-color:#fff}input,button{font-family:inherit;font-size:inherit;line-height:inherit}a{color:#337ab7;text-decoration:none}img{vertical-align:middle}.container{margin-right:auto;margin-left:auto;padding-left:15px;padding-right:15px}@media (min-width:768px){.container{width:750px}}@media (min-width:992px){.container{width:970px}}@media (min-width:1200px){.container{width:1170px}}.container:before,.container:after{content:" ";display:table}.container:after{clear:both}@-ms-viewport{width:device-width}img,iframe{max-width:100%}img{height:auto}body{font-family:"Averia Serif Libre",serif;font-size:16px;color:#808181}a,input,button{outline:none!important}a{text-decoration:none;color:#808181}.container{margin-right:auto;margin-left:auto;max-width:1140px;width:100%}@media (min-width:992px){.c-wrapper{padding-top:180px}}@media (max-width:991px){.c-wrapper{padding-top:90px}}.wrapper{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.e-burger-wrapper{width:25px;padding:0;background:transparent;border:0;color:#424242;line-height:0;outline:none!important;text-align:left}.e-burger-wrapper .e-burger{display:inline-block;position:relative;width:25px;height:2px;background:#f4e9d3;padding:0;border:0}.e-burger-wrapper .e-burger:before,.e-burger-wrapper .e-burger:after{left:0;content:"";width:25px;background:#f4e9d3;height:2px;position:absolute;display:inline-block;transform-origin:0.28571rem center}.e-burger-wrapper .e-burger:before{top:6px}.e-burger-wrapper .e-burger:after{top:-6px}@media (min-width:1025px){.e-burger-wrapper{display:none}}.e-cta a{text-transform:uppercase;text-align:center;display:inline-block;border:2px solid #e4002b;background-color:#e4002b;padding:5px 10px;font-size:14px;color:#f4e9d3}.e-logo{max-width:160px}.e-logo a{display:block}@media (max-width:991px){.e-logo{max-width:80px}}.e-menu .menu-item{position:relative;font-size:16px}.e-menu a{color:#f4e9d3;padding-bottom:7.5px;padding-top:7.5px}.e-menu .sub-menu{position:absolute;display:none;z-index:1;left:-30px;padding:15px;background-color:rgba(60,60,59,0.65);width:calc(100% + 60px)}.e-menu .sub-menu .menu-item{line-height:1.15;font-size:14px;margin-bottom:15px;margin-top:15px;margin-right:0;margin-left:0}.e-menu .sub-menu .menu-item:first-child{margin-top:0}.e-menu .sub-menu .menu-item:last-child{margin-bottom:0}.e-menu .sub-menu .menu-item a{color:#f4e9d3}@media (min-width:768px) and (max-width:991px){.e-menu .menu-item{font-size:14px;margin-right:7.5px;margin-left:7.5px}}@media (max-width:1024px){.e-menu{visibility:hidden;display:none}}.b-form{position:relative;margin-bottom:60px}.b-form .form__heading,.b-form .e-form{position:relative;z-index:2}.b-form .form__heading{text-align:center;background-image:var(--wpr-bg-ba1711ac-af36-41ea-b656-7f43aad252f8);background-position:bottom center;background-repeat:no-repeat;background-size:165px auto}.b-form .form__title{text-transform:uppercase;font-family:"Oswald",sans-serif;color:#3c3c3b}.b-form .e-form{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-pack:space-between;-ms-flex-pack:space-between;justify-content:space-between}@media (min-width:992px){.b-form{padding:60px 120px 120px}.b-form .form__heading{padding-right:25%;padding-left:25%}}@media (max-width:991px){.b-form{margin-bottom:90px}.b-form .form__heading{font-size:16px}}@media (min-width:768px) and (max-width:991px){.b-form{padding:60px}}@media (min-width:768px){.b-form{margin-top:60px;margin-right:8%;margin-left:8%;background:url(https://www.elpimpi.com/wp-content/themes/pimpi/img/backgrounds/form-tl.png) 0 0 no-repeat;background-size:100% auto}.b-form:before,.b-form:after{display:block;content:"";position:absolute;z-index:1;bottom:0}.b-form:before{right:0;width:100%;height:100%;background:var(--wpr-bg-1f5df322-0846-40b6-9936-d948f747d645) bottom right no-repeat}.b-form:after{left:-110px;width:280px;height:450px;background:var(--wpr-bg-df4834f8-c597-499d-a6cd-c68847113045) bottom left no-repeat;background-size:auto 100%}.b-form .form__heading{padding-bottom:60px;margin-bottom:60px}.b-form .form__title{letter-spacing:5px;font-size:36px}}@media (max-width:767px){.b-form .form__heading{padding-bottom:45px;margin-bottom:45px}.b-form .form__title{letter-spacing:1px;font-size:28px}}.b-nav{background-color:#3c3c3b}.b-nav .menu-item{font-size:24px;padding-top:7.5px}.b-nav .menu-item a{color:#f4e9d3}.b-nav .menu-item.menu-item-has-children>a{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.b-nav .menu-item.menu-item-has-children>a:after{content:url(https://www.elpimpi.com/wp-content/themes/pimpi/img/backgrounds/arrow-down.png);margin-bottom:-7.5px}@media (min-width:1025px){.b-nav{display:none}}@media (max-width:1024px){.b-nav{transform:translate(110%,0);-webkit-transform:translate(110%,0);-webkit-box-pack:space-between;-ms-flex-pack:space-between;justify-content:space-between;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;position:fixed;overflow-y:auto;z-index:10;width:100%;left:0}.b-nav .sub-menu{display:none;margin-bottom:7.5px}.b-nav .sub-menu .menu-item{padding-bottom:0;padding-top:0;line-height:2}.b-nav .wrapper{-webkit-box-align:flex-start;-ms-flex-align:flex-start;align-items:flex-start;-webkit-box-pack:space-between;-ms-flex-pack:space-between;justify-content:space-between;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;position:relative;height:100%;width:100%;padding-left:45px;top:calc(-80px / 2)}.b-nav .wpml-ls{padding-bottom:45px!important}.b-nav .wpml-ls,.b-nav .wpml-ls a{padding-top:0!important;padding-left:0!important;padding-right:0!important}.b-nav .wpml-ls li:not(:last-child){margin-right:15px}}@media (min-width:992px) and (max-width:1024px){.b-nav{top:152.92px;height:calc(100vh - 152.92px)}}@media (min-width:768px) and (max-width:1024px){.b-nav .wrapper{padding-top:120px}.b-nav .sub-menu .menu-item{font-size:16px}}@media (min-width:768px) and (max-width:991px){.b-nav{top:111.45px;height:calc(100vh - 111.45px)}}@media (max-width:767px){.b-nav{overflow-x:auto;height:calc(100vh - 80px);top:80px}.b-nav .wrapper{padding-top:90px}.b-nav .sub-menu .menu-item{font-size:12px}}@media (min-width:992px){.b-form .form__heading{padding-right:10%;padding-left:10%}}@media screen and (max-width:1250px){.e-menu .menu-item a{font-size:14px}.e-logo{max-width:120px}}.c-header{position:fixed;border-top-style:solid;background-color:#3c3c3b;z-index:99;width:100%;left:0;top:0}.c-header .border{content:"";display:block;background-color:#e4002b;height:40px;position:relative;z-index:9}.c-header .wrapper{-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:stretch;-ms-flex-align:stretch;align-items:stretch;padding-top:15px;position:relative;z-index:9;gap:20px}.c-header .wrapper .e-logo,.c-header .wrapper .e-menu,.c-header .wrapper .e-cta__wrapper,.c-header .wrapper .wpml-ls{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.c-header .wrapper .e-cta__wrapper{gap:10px}.c-header .wrapper .wrapper{padding-top:0}.c-header .e-logo img{width:100px}@media (min-width:1025px){.c-header{padding-bottom:30px}.c-header .wrapper{padding-top:30px}.c-header .container{max-width:1300px}.c-header .wpml-ls{padding:0!important}}@media (max-width:1024px){.c-header{padding-bottom:15px}.c-header .e-menu{display:none!important}.c-header .wrapper{padding-top:15px}.c-header .wpml-ls{display:none!important}}@media (max-width:767px){.c-header{height:80px}.c-header .e-cta__wrapper .e-cta a{padding:5px 7.5px;font-size:12px}}@media (max-width:1024px){.b-nav#e-menu{padding-top:50px}}@media (max-width:767px){.b-nav#e-menu{padding-top:70px}}.cmplz-cookiebanner{box-sizing:border-box}:root{--cmplz_banner_width:526px;--cmplz_banner_background_color:#f4e9d3;--cmplz_banner_border_color:#f4e9d3;--cmplz_banner_border_width:0px 0px 0px 0px ;--cmplz_banner_border_radius:12px 12px 12px 12px;--cmplz_banner_margin:10px;--cmplz_categories-height:163px;--cmplz_title_font_size:15px;--cmplz_text_line_height:calc(var(--cmplz_text_font_size) * 1.5);--cmplz_text_color:#656464;--cmplz_hyperlink_color:#e4002b;--cmplz_text_font_size:12px;--cmplz_link_font_size:12px;--cmplz_category_body_font_size:12px;--cmplz_button_accept_background_color:#e4002b;--cmplz_button_accept_border_color:#e4002b;--cmplz_button_accept_text_color:#ffffff;--cmplz_button_deny_background_color:#e4002b;--cmplz_button_deny_border_color:#e4002b;--cmplz_button_deny_text_color:#ffffff;--cmplz_button_settings_background_color:#e4002b;--cmplz_button_settings_border_color:#e4002b;--cmplz_button_settings_text_color:#ffffff;--cmplz_button_border_radius:6px 6px 6px 6px;--cmplz_button_font_size:15px;--cmplz_category_header_always_active_color:green;--cmplz_category_header_title_font_size:14px;--cmplz_category_header_active_font_size:12px;--cmplz-manage-consent-height:50px;--cmplz-manage-consent-offset:-35px;--cmplz_slider_active_color:#e4002b;--cmplz_slider_inactive_color:#9b9b9b;--cmplz_slider_bullet_color:#ffffff}#cmplz-manage-consent .cmplz-manage-consent{margin:unset;z-index:9998;color:var(--cmplz_text_color);background-color:var(--cmplz_banner_background_color);border-style:solid;border-color:var(--cmplz_banner_border_color);border-width:var(--cmplz_banner_border_width);border-radius:var(--cmplz_banner_border_radius);border-bottom-left-radius:0;border-bottom-right-radius:0;line-height:initial;position:fixed;bottom:var(--cmplz-manage-consent-offset);min-width:100px;height:var(--cmplz-manage-consent-height);right:40px;padding:15px;animation:mc_slideOut 0.5s forwards}@-webkit-keyframes mc_slideOut{100%{bottom:var(--cmplz-manage-consent-offset)}}@keyframes mc_slideOut{100%{bottom:var(--cmplz-manage-consent-offset)}}@media (max-width:425px){.cmplz-cookiebanner .cmplz-header .cmplz-title{display:none}}.cmplz-cookiebanner{max-height:calc(100vh - 20px);overflow-y:auto;position:fixed;height:auto;left:50%;top:50%;-ms-transform:translateX(-50%) translateY(-50%);transform:translateX(-50%) translateY(-50%);grid-template-rows:minmax(0,1fr);z-index:99999;background:var(--cmplz_banner_background_color)}.cmplz-cookiebanner .cmplz-buttons a.cmplz-btn.tcf{display:none}.cmplz-cookiebanner .cmplz-body{width:100%;grid-column:span 3;overflow-y:auto;overflow-x:hidden;max-height:55vh}.cmplz-cookiebanner .cmplz-body::-webkit-scrollbar-track{border-radius:10px;-webkit-box-shadow:inset 0 0 2px rgba(0,0,0,0);background-color:transparent}.cmplz-cookiebanner .cmplz-body::-webkit-scrollbar{width:5px;background-color:transparent}.cmplz-cookiebanner .cmplz-body::-webkit-scrollbar-thumb{background-color:var(--cmplz_button_accept_background_color);border-radius:10px}@media (min-width:350px){.cmplz-cookiebanner .cmplz-body{min-width:300px}}@media (max-height:400px){.cmplz-cookiebanner{height:calc(100vh - 20px);display:flex;flex-direction:column;overflow:hidden;gap:1px;grid-row-gap:1px;padding:7px 12px!important;zoom:0.6}.cmplz-cookiebanner .cmplz-body{flex:1;min-height:0;overflow-y:auto;max-height:none;margin-top:15px!important}.cmplz-cookiebanner .cmplz-header,.cmplz-cookiebanner .cmplz-divider,.cmplz-cookiebanner .cmplz-links,.cmplz-cookiebanner .cmplz-buttons,.cmplz-cookiebanner .cmplz-documents{flex-shrink:0}.cmplz-cookiebanner .cmplz-header{margin-bottom:15px!important;max-height:10px}.cmplz-close{zoom:0.6!important}.cmplz-cookiebanner .cmplz-buttons{gap:1px!important}.cmplz-cookiebanner .cmplz-buttons .cmplz-btn{height:15vh!important;min-height:unset!important;padding:0!important;white-space:nowrap!important;font-size:1.1rem!important;line-height:14px!important;zoom:0.5!important}.cmplz-cookiebanner .cmplz-documents,.cmplz-cookiebanner .cmplz-information{zoom:0.5!important}}@media (max-height:400px) and (max-width:768px){.cmplz-cookiebanner{gap:1px}}.cmplz-cookiebanner{border-style:solid;border-color:var(--cmplz_banner_border_color);border-width:var(--cmplz_banner_border_width);border-radius:var(--cmplz_banner_border_radius);padding:15px 20px;display:grid;grid-gap:10px}.cmplz-cookiebanner .cmplz-divider{margin-left:-20px;margin-right:-20px}.cmplz-cookiebanner .cmplz-header{grid-template-columns:100px 1fr 100px;align-items:center;display:grid;grid-column:span 3}@media (max-width:399px){.cmplz-cookiebanner .cmplz-header{grid-template-columns:auto 1fr auto}}.cmplz-cookiebanner .cmplz-title{justify-self:center;grid-column-start:2;font-size:var(--cmplz_title_font_size);color:var(--cmplz_text_color);font-weight:500}.cmplz-cookiebanner .cmplz-close{line-height:20px;justify-self:end;grid-column-start:3;font-size:20px;width:20px;height:20px;color:var(--cmplz_text_color)}.cmplz-cookiebanner .cmplz-close svg{width:20px;height:20px}.cmplz-cookiebanner .cmplz-message{word-wrap:break-word;font-size:var(--cmplz_text_font_size);line-height:var(--cmplz_text_line_height);color:var(--cmplz_text_color);margin-bottom:5px}.cmplz-cookiebanner .cmplz-message a{color:var(--cmplz_hyperlink_color)}.cmplz-cookiebanner .cmplz-message,.cmplz-cookiebanner .cmplz-categories,.cmplz-cookiebanner .cmplz-links,.cmplz-cookiebanner .cmplz-buttons,.cmplz-cookiebanner .cmplz-divider{grid-column:span 3}.cmplz-cookiebanner .cmplz-categories .cmplz-category{background-color:rgba(239,239,239,0.5)}.cmplz-cookiebanner .cmplz-categories .cmplz-category:not(:last-child){margin-bottom:10px}.cmplz-cookiebanner .cmplz-categories .cmplz-category .cmplz-category-header{display:grid;grid-template-columns:1fr auto 15px;grid-template-rows:minmax(0,1fr);align-items:center;grid-gap:10px;padding:10px}.cmplz-cookiebanner .cmplz-categories .cmplz-category .cmplz-category-header .cmplz-category-title{font-weight:500;grid-column-start:1;justify-self:start;font-size:var(--cmplz_category_header_title_font_size);color:var(--cmplz_text_color);margin:0}.cmplz-cookiebanner .cmplz-categories .cmplz-category .cmplz-category-header .cmplz-always-active{font-size:var(--cmplz_category_header_active_font_size);font-weight:500;color:var(--cmplz_category_header_always_active_color)}.cmplz-cookiebanner .cmplz-categories .cmplz-category .cmplz-category-header .cmplz-always-active label{display:none}.cmplz-cookiebanner .cmplz-categories .cmplz-category .cmplz-category-header .cmplz-banner-checkbox{display:flex;align-items:center;margin:0}.cmplz-cookiebanner .cmplz-categories .cmplz-category .cmplz-category-header .cmplz-banner-checkbox input[data-category=cmplz_functional]{display:none}.cmplz-cookiebanner .cmplz-categories .cmplz-category .cmplz-category-header .cmplz-icon.cmplz-open{content:'';transform:rotate(0deg);background-size:cover;height:18px;width:18px}.cmplz-cookiebanner .cmplz-categories .cmplz-category .cmplz-description{font-size:var(--cmplz_category_body_font_size);color:var(--cmplz_text_color);margin:0;max-width:100%;padding:10px}@media (max-width:425px){.cmplz-cookiebanner .cmplz-category .cmplz-category-header{grid-template-columns:1fr!important}}@media (max-width:425px){.cmplz-cookiebanner .cmplz-message{margin-right:5px}}.cmplz-cookiebanner .cmplz-buttons{display:flex;gap:var(--cmplz_banner_margin)}.cmplz-cookiebanner .cmplz-buttons .cmplz-btn{min-height:45px;padding:10px;margin:initial;width:100%;white-space:nowrap;border-radius:var(--cmplz_button_border_radius);font-size:var(--cmplz_button_font_size);font-weight:500;text-decoration:none;line-height:20px;text-align:center;flex:initial}.cmplz-cookiebanner .cmplz-buttons .cmplz-btn.cmplz-accept{background-color:var(--cmplz_button_accept_background_color);border:1px solid var(--cmplz_button_accept_border_color);color:var(--cmplz_button_accept_text_color)}.cmplz-cookiebanner .cmplz-buttons .cmplz-btn.cmplz-deny{background-color:var(--cmplz_button_deny_background_color);border:1px solid var(--cmplz_button_deny_border_color);color:var(--cmplz_button_deny_text_color)}.cmplz-cookiebanner .cmplz-buttons .cmplz-btn.cmplz-view-preferences{background-color:var(--cmplz_button_settings_background_color);border:1px solid var(--cmplz_button_settings_border_color);color:var(--cmplz_button_settings_text_color)}.cmplz-cookiebanner .cmplz-buttons .cmplz-btn.cmplz-save-preferences{background-color:var(--cmplz_button_settings_background_color);border:1px solid var(--cmplz_button_settings_border_color);color:var(--cmplz_button_settings_text_color)}.cmplz-cookiebanner .cmplz-buttons .cmplz-btn.cmplz-manage-options{background-color:var(--cmplz_button_settings_background_color);border:1px solid var(--cmplz_button_settings_border_color);color:var(--cmplz_button_settings_text_color)}.cmplz-cookiebanner .cmplz-buttons a.cmplz-btn{display:flex;align-items:center;justify-content:center;padding:initial}@media (max-width:425px){.cmplz-cookiebanner .cmplz-links.cmplz-information{display:initial;text-align:center}}.cmplz-cookiebanner .cmplz-links{display:flex;gap:var(--cmplz_banner_margin)}.cmplz-cookiebanner .cmplz-links.cmplz-information{justify-content:space-between}.cmplz-cookiebanner .cmplz-links.cmplz-documents{justify-content:center}.cmplz-cookiebanner .cmplz-links .cmplz-link{color:var(--cmplz_hyperlink_color);font-size:var(--cmplz_link_font_size);text-decoration:underline;margin:0}.cmplz-cookiebanner .cmplz-links .cmplz-link.cmplz-read-more-purposes{display:none}.cmplz-categories .cmplz-category .cmplz-description-statistics-anonymous{display:none}.cmplz-categories .cmplz-category .cmplz-description-statistics{display:block}.cmplz-cookiebanner{top:initial;left:initial;right:10px;bottom:10px;transform:initial}@media (min-width:768px){.cmplz-cookiebanner{min-width:var(--cmplz_banner_width);max-width:100%;display:grid;grid-row-gap:10px}}@media (max-width:768px){.cmplz-cookiebanner{left:initial;right:initial;bottom:0;width:100%}.cmplz-cookiebanner .cmplz-buttons{flex-direction:column}}@media (min-width:768px){.cmplz-message,.cmplz-categories{width:calc(var(--cmplz_banner_width) - 42px)}}.cmplz-cookiebanner .cmplz-categories,.cmplz-cookiebanner .cmplz-save-preferences,.cmplz-cookiebanner .cmplz-link.cmplz-manage-options,.cmplz-cookiebanner .cmplz-manage-vendors,.cmplz-cookiebanner .cmplz-btn.cmplz-manage-options{display:none}.cmplz-cookiebanner .cmplz-links.cmplz-information{display:none}.cmplz-cookiebanner .cmplz-preferences{display:none}@media (max-width:768px){#cmplz-manage-consent .cmplz-manage-consent{display:none}}.cmplz-logo{display:none!important}.cmplz-cookiebanner .cmplz-categories .cmplz-category .cmplz-banner-checkbox{position:relative}.cmplz-cookiebanner .cmplz-categories .cmplz-category .cmplz-banner-checkbox input.cmplz-consent-checkbox{opacity:0;margin:0;margin-top:-10px;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";filter:alpha(opacity=0);-moz-opacity:0;-khtml-opacity:0;position:absolute;z-index:1;top:0px;left:0px;width:40px;height:20px}.cmplz-cookiebanner .cmplz-categories .cmplz-category .cmplz-banner-checkbox .cmplz-label{position:relative;padding-left:30px;margin:0}.cmplz-cookiebanner .cmplz-categories .cmplz-category .cmplz-banner-checkbox .cmplz-label:before,.cmplz-cookiebanner .cmplz-categories .cmplz-category .cmplz-banner-checkbox .cmplz-label:after{box-sizing:border-box;position:absolute;-webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px}.cmplz-cookiebanner .cmplz-categories .cmplz-category .cmplz-banner-checkbox .cmplz-label:before{display:block;content:"";color:#fff;box-sizing:border-box;font-family:'FontAwesome',sans-serif;padding-left:23px;font-size:12px;line-height:20px;background-color:var(--cmplz_slider_inactive_color);left:0px;top:-7px;height:15px;width:28px;-webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px}.cmplz-cookiebanner .cmplz-categories .cmplz-category .cmplz-banner-checkbox .cmplz-label:after{display:block;content:"";letter-spacing:20px;background:var(--cmplz_slider_bullet_color);left:4px;top:-5px;height:11px;width:11px}.cmplz-cookiebanner{box-shadow:rgba(0,0,0,0.19) 0px 10px 20px,rgba(0,0,0,0.23) 0px 6px 6px}#cmplz-manage-consent .cmplz-manage-consent{box-shadow:rgba(0,0,0,0.19) 0px 10px 20px,rgba(0,0,0,0.23) 0px 6px 6px}</style><link rel="preload" data-rocket-preload as="image" href="https://www.elpimpi.com/wp-content/themes/pimpi/img/backgrounds/form-tl.png" fetchpriority="high">
+	<link rel="canonical" href="https://www.elpimpi.com/reservas/" />
+	<meta property="og:locale" content="es_ES" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="Reservas - El Pimpi" />
+	<meta property="og:description" content="Si no encuentra disponibilidad para la fecha seleccionada, recuerde que puede acudir sin reserva. Le atenderemos por orden de llegada, con un tiempo de espera estimado de aproximadamente 20 minutos." />
+	<meta property="og:url" content="https://www.elpimpi.com/reservas/" />
+	<meta property="og:site_name" content="El Pimpi" />
+	<meta property="article:publisher" content="https://www.facebook.com/elpimpimalaga" />
+	<meta property="article:modified_time" content="2025-10-02T08:18:15+00:00" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:site" content="@elpimpimalaga" />
+	<meta name="twitter:label1" content="Tiempo de lectura" />
+	<meta name="twitter:data1" content="1 minuto" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/www.elpimpi.com\/reservas\/","url":"https:\/\/www.elpimpi.com\/reservas\/","name":"Reservas - El Pimpi","isPartOf":{"@id":"https:\/\/www.elpimpi.com\/#website"},"datePublished":"2019-10-29T12:37:33+00:00","dateModified":"2025-10-02T08:18:15+00:00","breadcrumb":{"@id":"https:\/\/www.elpimpi.com\/reservas\/#breadcrumb"},"inLanguage":"es","potentialAction":[{"@type":"ReadAction","target":["https:\/\/www.elpimpi.com\/reservas\/"]}]},{"@type":"BreadcrumbList","@id":"https:\/\/www.elpimpi.com\/reservas\/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Portada","item":"https:\/\/www.elpimpi.com\/"},{"@type":"ListItem","position":2,"name":"Reservas"}]},{"@type":"WebSite","@id":"https:\/\/www.elpimpi.com\/#website","url":"https:\/\/www.elpimpi.com\/","name":"El Pimpi","description":"Bodega Bar","publisher":{"@id":"https:\/\/www.elpimpi.com\/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https:\/\/www.elpimpi.com\/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"es"},{"@type":"Organization","@id":"https:\/\/www.elpimpi.com\/#organization","name":"El Pimpi","url":"https:\/\/www.elpimpi.com\/","logo":{"@type":"ImageObject","inLanguage":"es","@id":"https:\/\/www.elpimpi.com\/#\/schema\/logo\/image\/","url":"https:\/\/www.elpimpi.com\/wp-content\/uploads\/2020\/09\/cropped-Favicon_pimpi_web.png","contentUrl":"https:\/\/www.elpimpi.com\/wp-content\/uploads\/2020\/09\/cropped-Favicon_pimpi_web.png","width":512,"height":512,"caption":"El Pimpi"},"image":{"@id":"https:\/\/www.elpimpi.com\/#\/schema\/logo\/image\/"},"sameAs":["https:\/\/www.facebook.com\/elpimpimalaga","https:\/\/x.com\/elpimpimalaga"]}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel='dns-prefetch' href='//challenges.cloudflare.com' />
+<link rel='dns-prefetch' href='//www.googletagmanager.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link href='https://fonts.gstatic.com' crossorigin rel='preconnect' />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://www.elpimpi.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.elpimpi.com%2Freservas%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://www.elpimpi.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.elpimpi.com%2Freservas%2F&#038;format=xml" />
+<style id="wp-img-auto-sizes-contain-inline-css">
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+<style id="classic-theme-styles-inline-css">
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+/*# sourceURL=/wp-includes/css/classic-themes.min.css */
+</style>
+
+<style id="global-styles-inline-css">
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}.wp-block-button{--wp--preset--dimension--25: 25%;--wp--preset--dimension--50: 50%;--wp--preset--dimension--75: 75%;--wp--preset--dimension--100: 100%;}:where(body) { margin: 0; }:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}:root :where(.wp-element-button, .wp-block-button__link){background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;font-style: inherit;font-weight: inherit;letter-spacing: inherit;line-height: inherit;padding-top: calc(0.667em + 2px);padding-right: calc(1.333em + 2px);padding-bottom: calc(0.667em + 2px);padding-left: calc(1.333em + 2px);text-decoration: none;text-transform: inherit;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+
+<link rel='preload'  href='https://www.elpimpi.com/wp-content/plugins/sitepress-multilingual-cms/templates/language-switchers/legacy-list-horizontal/style.min.css?ver=510000' data-rocket-async="style" as="style" onload="this.onload=null;this.rel='stylesheet'" onerror="this.removeAttribute('data-rocket-async')"  media='all' />
+<link rel='preload'  href='https://www.elpimpi.com/wp-content/plugins/complianz-gdpr/assets/css/cookieblocker.min.css?ver=1790854649' data-rocket-async="style" as="style" onload="this.onload=null;this.rel='stylesheet'" onerror="this.removeAttribute('data-rocket-async')"  media='all' />
+
+
+<link data-minify="1" rel='preload'  href='https://www.elpimpi.com/wp-content/cache/background-css/1/www.elpimpi.com/wp-content/cache/min/1/wp-content/themes/pimpi/style.css?ver=1792153594&wpr_t=1793115027' data-rocket-async="style" as="style" onload="this.onload=null;this.rel='stylesheet'" onerror="this.removeAttribute('data-rocket-async')"  media='all' />
+<link data-minify="1" rel='preload'  href='https://www.elpimpi.com/wp-content/cache/min/1/wp-content/themes/pimpi/js/vendor/fancybox/fancybox.css?ver=1792153594' data-rocket-async="style" as="style" onload="this.onload=null;this.rel='stylesheet'" onerror="this.removeAttribute('data-rocket-async')"  media='all' />
+<link data-minify="1" rel='preload'  href='https://www.elpimpi.com/wp-content/cache/min/1/wp-content/themes/pimpi/js/vendor/flickity/flickity.css?ver=1792153594' data-rocket-async="style" as="style" onload="this.onload=null;this.rel='stylesheet'" onerror="this.removeAttribute('data-rocket-async')"  media='all' />
+<link data-minify="1" rel='preload'  href='https://www.elpimpi.com/wp-content/cache/min/1/wp-content/themes/pimpi/js/vendor/aos/aos.css?ver=1792153594' data-rocket-async="style" as="style" onload="this.onload=null;this.rel='stylesheet'" onerror="this.removeAttribute('data-rocket-async')"  media='all' />
+<link data-minify="1" rel='preload'  href='https://www.elpimpi.com/wp-content/cache/background-css/1/www.elpimpi.com/wp-content/cache/min/1/wp-content/themes/pimpi/assets/css/custom-styles.css?ver=1792153594&wpr_t=1793115027' data-rocket-async="style" as="style" onload="this.onload=null;this.rel='stylesheet'" onerror="this.removeAttribute('data-rocket-async')"  media='all' />
+<link data-minify="1" rel='preload'  href='https://www.elpimpi.com/wp-content/cache/min/1/wp-content/uploads/complianz/css/banner-5-optin.css?ver=1792153594' data-rocket-async="style" as="style" onload="this.onload=null;this.rel='stylesheet'" onerror="this.removeAttribute('data-rocket-async')"  media='all' />
+<script type="text/rocketlazyloadscript" id="jquery-js" data-rocket-src="https://www.elpimpi.com/wp-content/themes/pimpi/js/jquery.min.js" data-rocket-defer defer></script>
+<script type="text/rocketlazyloadscript" data-minify="1" id="flickity-js" data-rocket-src="https://www.elpimpi.com/wp-content/cache/min/1/wp-content/themes/pimpi/js/vendor/flickity/flickity.js?ver=1792153594" data-rocket-defer defer></script>
+<script type="text/rocketlazyloadscript" data-minify="1" id="aos-js" data-rocket-src="https://www.elpimpi.com/wp-content/cache/min/1/wp-content/themes/pimpi/js/vendor/aos/aos.js?ver=1792153594" data-rocket-defer defer></script>
+<script type="text/rocketlazyloadscript" data-minify="1" id="carousels-js" data-rocket-src="https://www.elpimpi.com/wp-content/cache/min/1/wp-content/themes/pimpi/js/carousels.js?ver=1792153594" data-rocket-defer defer></script>
+
+<!-- Fragmento de código de la etiqueta de Google (gtag.js) añadida por Site Kit -->
+<!-- Fragmento de código de Google Analytics añadido por Site Kit -->
+<script type="text/rocketlazyloadscript" id="google_gtagjs-js" data-rocket-src="https://www.googletagmanager.com/gtag/js?id=GT-NNXS4CZF" async></script>
+<script type="text/rocketlazyloadscript" id="google_gtagjs-js-after">
+window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}
+gtag("set","linker",{"domains":["www.elpimpi.com"]});
+gtag("js", new Date());
+gtag("set", "developer_id.dZTNiMT", true);
+gtag("config", "GT-NNXS4CZF", {"googlesitekit_post_type":"page"});
+ window._googlesitekit = window._googlesitekit || {}; window._googlesitekit.throttledEvents = []; window._googlesitekit.gtagEvent = (name, data) => { var key = JSON.stringify( { name, data } ); if ( !! window._googlesitekit.throttledEvents[ key ] ) { return; } window._googlesitekit.throttledEvents[ key ] = true; setTimeout( () => { delete window._googlesitekit.throttledEvents[ key ]; }, 5 ); gtag( "event", name, { ...data, event_source: "site-kit" } ); }; 
+//# sourceURL=google_gtagjs-js-after
+</script>
+<link rel="https://api.w.org/" href="https://www.elpimpi.com/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://www.elpimpi.com/wp-json/wp/v2/pages/33" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.elpimpi.com/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 7.1.3" />
+<link rel='shortlink' href='https://www.elpimpi.com/?p=33' />
+<meta name="generator" content="WPML ver:5.1.0 stt:1,2;" />
+<meta name="generator" content="Site Kit by Google 1.188.0" />			<style>.cmplz-hidden {
+					display: none !important;
+				}</style>
+				<link rel="icon" href="https://www.elpimpi.com/wp-content/uploads/2020/09/cropped-Favicon_pimpi_web_2-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://www.elpimpi.com/wp-content/uploads/2020/09/cropped-Favicon_pimpi_web_2-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://www.elpimpi.com/wp-content/uploads/2020/09/cropped-Favicon_pimpi_web_2-180x180.png" />
+<meta name="msapplication-TileImage" content="https://www.elpimpi.com/wp-content/uploads/2020/09/cropped-Favicon_pimpi_web_2-270x270.png" />
+<style id="wp-custom-css">
+#menu-legal li,
+#menu-legal-ingles li{
+	margin: 5px 10px
+}
+.c-footer p {
+	display: block;
+}
+</style>
+<noscript><style id="rocket-lazyload-nojs-css">.rll-youtube-player, [data-lazy-src]{display:none !important;}</style></noscript><script type="text/rocketlazyloadscript">
+/*! loadCSS rel=preload polyfill. [c]2017 Filament Group, Inc. MIT License */
+(function(w){"use strict";if(!w.loadCSS){w.loadCSS=function(){}}
+var rp=loadCSS.relpreload={};rp.support=(function(){var ret;try{ret=w.document.createElement("link").relList.supports("preload")}catch(e){ret=!1}
+return function(){return ret}})();rp.bindMediaToggle=function(link){var finalMedia=link.media||"all";function enableStylesheet(){link.media=finalMedia}
+if(link.addEventListener){link.addEventListener("load",enableStylesheet)}else if(link.attachEvent){link.attachEvent("onload",enableStylesheet)}
+setTimeout(function(){link.rel="stylesheet";link.media="only x"});setTimeout(enableStylesheet,3000)};rp.poly=function(){if(rp.support()){return}
+var links=w.document.getElementsByTagName("link");for(var i=0;i<links.length;i++){var link=links[i];if(link.rel==="preload"&&link.getAttribute("as")==="style"&&!link.getAttribute("data-loadcss")){link.setAttribute("data-loadcss",!0);rp.bindMediaToggle(link)}}};if(!rp.support()){rp.poly();var run=w.setInterval(rp.poly,500);if(w.addEventListener){w.addEventListener("load",function(){rp.poly();w.clearInterval(run)})}else if(w.attachEvent){w.attachEvent("onload",function(){rp.poly();w.clearInterval(run)})}}
+if(typeof exports!=="undefined"){exports.loadCSS=loadCSS}
+else{w.loadCSS=loadCSS}}(typeof global!=="undefined"?global:this))
+</script>
+<style id="wpr-lazyload-bg-container"></style><style id="wpr-lazyload-bg-exclusion">.b-form{--wpr-bg-11afed41-d5ae-4aea-a621-ead806854cfd: url('https://www.elpimpi.com/wp-content/themes/pimpi/img/backgrounds/form-tl.png');}.event-form{--wpr-bg-4d2ef747-66cc-4aa1-b575-418f86b663c5: url('https://www.elpimpi.com/wp-content/themes/pimpi/img/backgrounds/form-tl.png');}.b-form{--wpr-bg-00fc4bb6-daf2-496a-b320-11bb2d525b7f: url('https://www.elpimpi.com/wp-content/themes/pimpi/img/backgrounds/form-tl.png');}</style>
+<noscript>
+<style id="wpr-lazyload-bg-nostyle">.c-prefooter .container:before{--wpr-bg-f74df755-37f8-464c-85b7-0b00984e29c6: url('https://www.elpimpi.com/wp-content/themes/pimpi/img/content/pimpi-right.png');}.e-feature .feature__title{--wpr-bg-f7caa6af-d662-43c6-bf35-e9a94de6e4b5: url('https://www.elpimpi.com/wp-content/themes/pimpi/img/backgrounds/line-subtitle-short.png');}.e-space .space__heading{--wpr-bg-ef2aec90-8775-4c6e-acfd-d271a43fee70: url('https://www.elpimpi.com/wp-content/themes/pimpi/img/backgrounds/line-subtitle.png');}.b-cols .header{--wpr-bg-38789d32-7cc3-4cd9-9b60-d08b97c4b006: url('https://www.elpimpi.com/wp-content/themes/pimpi/img/backgrounds/line-subtitle.png');}.b-form:before{--wpr-bg-ec334589-6ea8-464d-9f79-0f76b6d70271: url('https://www.elpimpi.com/wp-content/themes/pimpi/img/backgrounds/form-br.png');}.b-form:after{--wpr-bg-75be7a8d-0047-4114-a22a-ee0d61268580: url('https://www.elpimpi.com/wp-content/themes/pimpi/img/backgrounds/form-bottle.png');}.c-starred .starred__heading,.b-starred .starred__heading{--wpr-bg-343b434a-8b7e-4ea2-b19b-420dbbc05493: url('https://www.elpimpi.com/wp-content/themes/pimpi/img/backgrounds/line-subtitle.png');}.b-subheading .subheading__title{--wpr-bg-a0874f13-ae12-44c8-beae-97c72061f6ce: url('https://www.elpimpi.com/wp-content/themes/pimpi/img/backgrounds/line-subtitle.png');}.c-content.--list .container{--wpr-bg-dcc8cbff-5d7c-47dd-a70d-aa0abbdb69b1: url('https://www.elpimpi.com/wp-content/themes/pimpi/img/backgrounds/line-container.png');}.e-excerpt{--wpr-bg-5b286935-deb2-4732-a49e-29a9b2074ed3: url('https://www.elpimpi.com/wp-content/themes/pimpi/img/backgrounds/line-container.png');}.e-meals .meals__title{--wpr-bg-ba8877f8-73f4-434b-b43e-1d1d196837b7: url('https://www.elpimpi.com/wp-content/themes/pimpi/img/backgrounds/line-subtitle.png');}.e-menu>.wrapper>.current-page-ancestor>a,.e-menu>.wrapper>.current-menu-ancestor>a,.e-menu>.wrapper>.current-menu-parent>a,.e-menu>.wrapper>.current-menu-item>a,.e-menu>.wrapper>.current_page_item>a{--wpr-bg-3c27043c-3a2e-4b1b-ba7f-99e12e86951b: url('https://www.elpimpi.com/wp-content/themes/pimpi/img/backgrounds/line-current.png');}.single-agenda .menu-item-51>a{--wpr-bg-04e0e5fe-8e9b-4e47-8ef7-30955784937d: url('https://www.elpimpi.com/wp-content/themes/pimpi/img/backgrounds/line-current.png');}.e-milestone .milestone__image{--wpr-bg-fae9ae33-d204-417c-8a62-0c37d9033bee: url('https://www.elpimpi.com/wp-content/themes/pimpi/img/backgrounds/milestone.png');}.e-space:after{--wpr-bg-d6627922-84d3-4110-9907-527bc4bb0228: url('https://www.elpimpi.com/wp-content/themes/pimpi/img/backgrounds/line-janna.png');}1){--wpr-bg-5cb9729a-2a4f-47f5-994e-95ffe3afe4a1: url('https://www.elpimpi.com/wp-content/themes/pimpi/img/backgrounds/decoration-1.png');}2){--wpr-bg-f117ceb9-a09f-41fd-ba39-6a5301c3f616: url('https://www.elpimpi.com/wp-content/themes/pimpi/img/backgrounds/decoration-2.png');}3){--wpr-bg-a0419ea7-40a8-44fa-a8ee-faf58f8fc49f: url('https://www.elpimpi.com/wp-content/themes/pimpi/img/backgrounds/decoration-3.png');}.agenda__title,.agenda__starred,.agenda__related{--wpr-bg-527093f6-7737-4280-ac75-711d21e17a04: url('https://www.elpimpi.com/wp-content/themes/pimpi/img/backgrounds/line-black.png');}.booking__title{--wpr-bg-716f8087-7097-41d0-8fa5-bffaebafe8ef: url('https://www.elpimpi.com/wp-content/themes/pimpi/img/backgrounds/line-subtitle.png');}.b-food:before{--wpr-bg-8e2e70a3-8aba-4bf5-b85c-70b070cb1178: url('https://www.elpimpi.com/wp-content/themes/pimpi/img/backgrounds/lines-food-left-top.png');}.b-food:after{--wpr-bg-b1469d06-f6b6-4e72-a849-64053c6075fb: url('https://www.elpimpi.com/wp-content/themes/pimpi/img/backgrounds/lines-food-right-bottom.png');}.b-form .form__heading{--wpr-bg-51739628-996f-458f-8f42-d118218b1781: url('https://www.elpimpi.com/wp-content/themes/pimpi/img/backgrounds/line-subtitle.png');}.related__header{--wpr-bg-3e9675c6-2836-4bdb-8891-451cc6cdd4ec: url('https://www.elpimpi.com/wp-content/themes/pimpi/img/backgrounds/line-container.png');}.b-related .related__header,.b-related .related__grid{--wpr-bg-18c68c07-a7bd-4b8b-a583-32bbde09af73: url('https://www.elpimpi.com/wp-content/themes/pimpi/img/backgrounds/line-container.png');}.b-restaurant .container{--wpr-bg-2f95f4f1-9168-4f15-a401-bb9a556255a2: url('https://www.elpimpi.com/wp-content/themes/pimpi/img/backgrounds/line-black.png');}.c-history .history__heading{--wpr-bg-3b91ea70-349a-433e-9a2d-883c820ee474: url('https://www.elpimpi.com/wp-content/themes/pimpi/img/backgrounds/line-subtitle.png');}.c-album .album__stamp{--wpr-bg-f768b950-0b94-44a9-8e82-a23b76a58244: url('https://www.elpimpi.com/wp-content/themes/pimpi/img/backgrounds/stamp.png');}.c-spaces .spaces__list{--wpr-bg-d16e66ba-81ca-4107-b026-a22e873e3065: url('https://www.elpimpi.com/wp-content/themes/pimpi/img/backgrounds/line-black.png');}.c-spaces .spaces__list:before{--wpr-bg-2a81800e-a800-455e-84a0-fdce59a2d17a: url('https://www.elpimpi.com/wp-content/themes/pimpi/img/backgrounds/line-black.png');}.c-timeline{--wpr-bg-57457d4f-1b16-4f9a-956f-54658ee36946: url('https://www.elpimpi.com/wp-content/themes/pimpi/img/backgrounds/timeline.png');}.fancybox-infobar .fancybox-button{--wpr-bg-aa8a3504-50f7-4759-817d-322388bab47e: url('https://www.elpimpi.com/wp-content/themes/pimpi/img/backgrounds/arrow-white.png');}.fancybox-infobar .fancybox-button:hover,.fancybox-infobar .fancybox-button:active,.fancybox-infobar .fancybox-button:focus{--wpr-bg-486ac05f-aca9-413b-9e13-a6c069b3e586: url('https://www.elpimpi.com/wp-content/themes/pimpi/img/backgrounds/arrow-white.png');}.event-form .form::before{--wpr-bg-6bc12573-3b8c-4f3d-8a09-5eb729cb2304: url('https://www.elpimpi.com/wp-content/themes/pimpi/img/backgrounds/form-br.png');}.taxonomy-buttons .term-link::before{--wpr-bg-9a211401-3e8d-4a13-8a19-0675f477dd50: url('https://www.elpimpi.com/wp-content/themes/pimpi/assets/images/borde-horizontal.svg');}.taxonomy-buttons .term-link::after{--wpr-bg-188c94ac-7a72-4acb-b75b-d3497f2505cb: url('https://www.elpimpi.com/wp-content/themes/pimpi/assets/images/borde-horizontal.svg');}.taxonomy-buttons .term-link a::before{--wpr-bg-a0c4ba20-f5e3-45c3-a43e-3b11ec2afca3: url('https://www.elpimpi.com/wp-content/themes/pimpi/assets/images/borde-vertical.svg');}.taxonomy-buttons .term-link a::after{--wpr-bg-bf82092a-6c69-44a1-a526-41ea33ae0f62: url('https://www.elpimpi.com/wp-content/themes/pimpi/assets/images/borde-vertical.svg');}.filete-ondas{--wpr-bg-cd171c4f-eaea-4d1f-8f17-e0ac6e4013c4: url('https://www.elpimpi.com/wp-content/themes/pimpi/assets/images/filete-ondas.svg');}.filete-ondas-cent{--wpr-bg-52be6e70-641c-4686-a54e-9f7873794968: url('https://www.elpimpi.com/wp-content/themes/pimpi/assets/images/filete-ondas.svg');}.experiences .separador{--wpr-bg-7adeb8a5-7a54-4cf3-8e3c-048eabb1cddb: url('https://www.elpimpi.com/wp-content/themes/pimpi/assets/images/filete-separador.svg');}.event-form .form__heading{--wpr-bg-8513e161-470f-44a3-880a-17990f4931f3: url('https://www.elpimpi.com/wp-content/themes/pimpi/img/backgrounds/line-subtitle.png');}.b-form:before{--wpr-bg-1f5df322-0846-40b6-9936-d948f747d645: url('https://www.elpimpi.com/wp-content/themes/pimpi/img/backgrounds/form-br.png');}.b-form:after{--wpr-bg-df4834f8-c597-499d-a6cd-c68847113045: url('https://www.elpimpi.com/wp-content/themes/pimpi/img/backgrounds/form-bottle.png');}.b-form .form__heading{--wpr-bg-ba1711ac-af36-41ea-b656-7f43aad252f8: url('https://www.elpimpi.com/wp-content/themes/pimpi/img/backgrounds/line-subtitle.png');}</style>
+</noscript>
+<script type="application/javascript">const rocket_pairs = [{"selector":".c-prefooter .container","style":".c-prefooter .container:before{--wpr-bg-f74df755-37f8-464c-85b7-0b00984e29c6: url('https:\/\/www.elpimpi.com\/wp-content\/themes\/pimpi\/img\/content\/pimpi-right.png');}","hash":"f74df755-37f8-464c-85b7-0b00984e29c6","url":"https:\/\/www.elpimpi.com\/wp-content\/themes\/pimpi\/img\/content\/pimpi-right.png"},{"selector":".e-feature .feature__title","style":".e-feature .feature__title{--wpr-bg-f7caa6af-d662-43c6-bf35-e9a94de6e4b5: url('https:\/\/www.elpimpi.com\/wp-content\/themes\/pimpi\/img\/backgrounds\/line-subtitle-short.png');}","hash":"f7caa6af-d662-43c6-bf35-e9a94de6e4b5","url":"https:\/\/www.elpimpi.com\/wp-content\/themes\/pimpi\/img\/backgrounds\/line-subtitle-short.png"},{"selector":".e-space .space__heading","style":".e-space .space__heading{--wpr-bg-ef2aec90-8775-4c6e-acfd-d271a43fee70: url('https:\/\/www.elpimpi.com\/wp-content\/themes\/pimpi\/img\/backgrounds\/line-subtitle.png');}","hash":"ef2aec90-8775-4c6e-acfd-d271a43fee70","url":"https:\/\/www.elpimpi.com\/wp-content\/themes\/pimpi\/img\/backgrounds\/line-subtitle.png"},{"selector":".b-cols .header","style":".b-cols .header{--wpr-bg-38789d32-7cc3-4cd9-9b60-d08b97c4b006: url('https:\/\/www.elpimpi.com\/wp-content\/themes\/pimpi\/img\/backgrounds\/line-subtitle.png');}","hash":"38789d32-7cc3-4cd9-9b60-d08b97c4b006","url":"https:\/\/www.elpimpi.com\/wp-content\/themes\/pimpi\/img\/backgrounds\/line-subtitle.png"},{"selector":".b-form","style":".b-form:before{--wpr-bg-ec334589-6ea8-464d-9f79-0f76b6d70271: url('https:\/\/www.elpimpi.com\/wp-content\/themes\/pimpi\/img\/backgrounds\/form-br.png');}","hash":"ec334589-6ea8-464d-9f79-0f76b6d70271","url":"https:\/\/www.elpimpi.com\/wp-content\/themes\/pimpi\/img\/backgrounds\/form-br.png"},{"selector":".b-form","style":".b-form:after{--wpr-bg-75be7a8d-0047-4114-a22a-ee0d61268580: url('https:\/\/www.elpimpi.com\/wp-content\/themes\/pimpi\/img\/backgrounds\/form-bottle.png');}","hash":"75be7a8d-0047-4114-a22a-ee0d61268580","url":"https:\/\/www.elpimpi.com\/wp-content\/themes\/pimpi\/img\/backgrounds\/form-bottle.png"},{"selector":".c-starred .starred__heading,.b-starred .starred__heading","style":".c-starred .starred__heading,.b-starred .starred__heading{--wpr-bg-343b434a-8b7e-4ea2-b19b-420dbbc05493: url('https:\/\/www.elpimpi.com\/wp-content\/themes\/pimpi\/img\/backgrounds\/line-subtitle.png');}","hash":"343b434a-8b7e-4ea2-b19b-420dbbc05493","url":"https:\/\/www.elpimpi.com\/wp-content\/themes\/pimpi\/img\/backgrounds\/line-subtitle.png"},{"selector":".b-subheading .subheading__title","style":".b-subheading .subheading__title{--wpr-bg-a0874f13-ae12-44c8-beae-97c72061f6ce: url('https:\/\/www.elpimpi.com\/wp-content\/themes\/pimpi\/img\/backgrounds\/line-subtitle.png');}","hash":"a0874f13-ae12-44c8-beae-97c72061f6ce","url":"https:\/\/www.elpimpi.com\/wp-content\/themes\/pimpi\/img\/backgrounds\/line-subtitle.png"},{"selector":".c-content.--list .container","style":".c-content.--list .container{--wpr-bg-dcc8cbff-5d7c-47dd-a70d-aa0abbdb69b1: url('https:\/\/www.elpimpi.com\/wp-content\/themes\/pimpi\/img\/backgrounds\/line-container.png');}","hash":"dcc8cbff-5d7c-47dd-a70d-aa0abbdb69b1","url":"https:\/\/www.elpimpi.com\/wp-content\/themes\/pimpi\/img\/backgrounds\/line-container.png"},{"selector":".e-excerpt","style":".e-excerpt{--wpr-bg-5b286935-deb2-4732-a49e-29a9b2074ed3: url('https:\/\/www.elpimpi.com\/wp-content\/themes\/pimpi\/img\/backgrounds\/line-container.png');}","hash":"5b286935-deb2-4732-a49e-29a9b2074ed3","url":"https:\/\/www.elpimpi.com\/wp-content\/themes\/pimpi\/img\/backgrounds\/line-container.png"},{"selector":".e-meals .meals__title","style":".e-meals .meals__title{--wpr-bg-ba8877f8-73f4-434b-b43e-1d1d196837b7: url('https:\/\/www.elpimpi.com\/wp-content\/themes\/pimpi\/img\/backgrounds\/line-subtitle.png');}","hash":"ba8877f8-73f4-434b-b43e-1d1d196837b7","url":"https:\/\/www.elpimpi.com\/wp-content\/themes\/pimpi\/img\/backgrounds\/line-subtitle.png"},{"selector":".e-menu>.wrapper>.current-page-ancestor>a,.e-menu>.wrapper>.current-menu-ancestor>a,.e-menu>.wrapper>.current-menu-parent>a,.e-menu>.wrapper>.current-menu-item>a,.e-menu>.wrapper>.current_page_item>a","style":".e-menu>.wrapper>.current-page-ancestor>a,.e-menu>.wrapper>.current-menu-ancestor>a,.e-menu>.wrapper>.current-menu-parent>a,.e-menu>.wrapper>.current-menu-item>a,.e-menu>.wrapper>.current_page_item>a{--wpr-bg-3c27043c-3a2e-4b1b-ba7f-99e12e86951b: url('https:\/\/www.elpimpi.com\/wp-content\/themes\/pimpi\/img\/backgrounds\/line-current.png');}","hash":"3c27043c-3a2e-4b1b-ba7f-99e12e86951b","url":"https:\/\/www.elpimpi.com\/wp-content\/themes\/pimpi\/img\/backgrounds\/line-current.png"},{"selector":".single-agenda .menu-item-51>a","style":".single-agenda .menu-item-51>a{--wpr-bg-04e0e5fe-8e9b-4e47-8ef7-30955784937d: url('https:\/\/www.elpimpi.com\/wp-content\/themes\/pimpi\/img\/backgrounds\/line-current.png');}","hash":"04e0e5fe-8e9b-4e47-8ef7-30955784937d","url":"https:\/\/www.elpimpi.com\/wp-content\/themes\/pimpi\/img\/backgrounds\/line-current.png"},{"selector":".e-milestone .milestone__image","style":".e-milestone .milestone__image{--wpr-bg-fae9ae33-d204-417c-8a62-0c37d9033bee: url('https:\/\/www.elpimpi.com\/wp-content\/themes\/pimpi\/img\/backgrounds\/milestone.png');}","hash":"fae9ae33-d204-417c-8a62-0c37d9033bee","url":"https:\/\/www.elpimpi.com\/wp-content\/themes\/pimpi\/img\/backgrounds\/milestone.png"},{"selector":".e-space","style":".e-space:after{--wpr-bg-d6627922-84d3-4110-9907-527bc4bb0228: url('https:\/\/www.elpimpi.com\/wp-content\/themes\/pimpi\/img\/backgrounds\/line-janna.png');}","hash":"d6627922-84d3-4110-9907-527bc4bb0228","url":"https:\/\/www.elpimpi.com\/wp-content\/themes\/pimpi\/img\/backgrounds\/line-janna.png"},{"selector":"1)","style":"1){--wpr-bg-5cb9729a-2a4f-47f5-994e-95ffe3afe4a1: url('https:\/\/www.elpimpi.com\/wp-content\/themes\/pimpi\/img\/backgrounds\/decoration-1.png');}","hash":"5cb9729a-2a4f-47f5-994e-95ffe3afe4a1","url":"https:\/\/www.elpimpi.com\/wp-content\/themes\/pimpi\/img\/backgrounds\/decoration-1.png"},{"selector":"2)","style":"2){--wpr-bg-f117ceb9-a09f-41fd-ba39-6a5301c3f616: url('https:\/\/www.elpimpi.com\/wp-content\/themes\/pimpi\/img\/backgrounds\/decoration-2.png');}","hash":"f117ceb9-a09f-41fd-ba39-6a5301c3f616","url":"https:\/\/www.elpimpi.com\/wp-content\/themes\/pimpi\/img\/backgrounds\/decoration-2.png"},{"selector":"3)","style":"3){--wpr-bg-a0419ea7-40a8-44fa-a8ee-faf58f8fc49f: url('https:\/\/www.elpimpi.com\/wp-content\/themes\/pimpi\/img\/backgrounds\/decoration-3.png');}","hash":"a0419ea7-40a8-44fa-a8ee-faf58f8fc49f","url":"https:\/\/www.elpimpi.com\/wp-content\/themes\/pimpi\/img\/backgrounds\/decoration-3.png"},{"selector":".agenda__title,.agenda__starred,.agenda__related","style":".agenda__title,.agenda__starred,.agenda__related{--wpr-bg-527093f6-7737-4280-ac75-711d21e17a04: url('https:\/\/www.elpimpi.com\/wp-content\/themes\/pimpi\/img\/backgrounds\/line-black.png');}","hash":"527093f6-7737-4280-ac75-711d21e17a04","url":"https:\/\/www.elpimpi.com\/wp-content\/themes\/pimpi\/img\/backgrounds\/line-black.png"},{"selector":".booking__title","style":".booking__title{--wpr-bg-716f8087-7097-41d0-8fa5-bffaebafe8ef: url('https:\/\/www.elpimpi.com\/wp-content\/themes\/pimpi\/img\/backgrounds\/line-subtitle.png');}","hash":"716f8087-7097-41d0-8fa5-bffaebafe8ef","url":"https:\/\/www.elpimpi.com\/wp-content\/themes\/pimpi\/img\/backgrounds\/line-subtitle.png"},{"selector":".b-food","style":".b-food:before{--wpr-bg-8e2e70a3-8aba-4bf5-b85c-70b070cb1178: url('https:\/\/www.elpimpi.com\/wp-content\/themes\/pimpi\/img\/backgrounds\/lines-food-left-top.png');}","hash":"8e2e70a3-8aba-4bf5-b85c-70b070cb1178","url":"https:\/\/www.elpimpi.com\/wp-content\/themes\/pimpi\/img\/backgrounds\/lines-food-left-top.png"},{"selector":".b-food","style":".b-food:after{--wpr-bg-b1469d06-f6b6-4e72-a849-64053c6075fb: url('https:\/\/www.elpimpi.com\/wp-content\/themes\/pimpi\/img\/backgrounds\/lines-food-right-bottom.png');}","hash":"b1469d06-f6b6-4e72-a849-64053c6075fb","url":"https:\/\/www.elpimpi.com\/wp-content\/themes\/pimpi\/img\/backgrounds\/lines-food-right-bottom.png"},{"selector":".b-form .form__heading","style":".b-form .form__heading{--wpr-bg-51739628-996f-458f-8f42-d118218b1781: url('https:\/\/www.elpimpi.com\/wp-content\/themes\/pimpi\/img\/backgrounds\/line-subtitle.png');}","hash":"51739628-996f-458f-8f42-d118218b1781","url":"https:\/\/www.elpimpi.com\/wp-content\/themes\/pimpi\/img\/backgrounds\/line-subtitle.png"},{"selector":".related__header","style":".related__header{--wpr-bg-3e9675c6-2836-4bdb-8891-451cc6cdd4ec: url('https:\/\/www.elpimpi.com\/wp-content\/themes\/pimpi\/img\/backgrounds\/line-container.png');}","hash":"3e9675c6-2836-4bdb-8891-451cc6cdd4ec","url":"https:\/\/www.elpimpi.com\/wp-content\/themes\/pimpi\/img\/backgrounds\/line-container.png"},{"selector":".b-related .related__header,.b-related .related__grid","style":".b-related .related__header,.b-related .related__grid{--wpr-bg-18c68c07-a7bd-4b8b-a583-32bbde09af73: url('https:\/\/www.elpimpi.com\/wp-content\/themes\/pimpi\/img\/backgrounds\/line-container.png');}","hash":"18c68c07-a7bd-4b8b-a583-32bbde09af73","url":"https:\/\/www.elpimpi.com\/wp-content\/themes\/pimpi\/img\/backgrounds\/line-container.png"},{"selector":".b-restaurant .container","style":".b-restaurant .container{--wpr-bg-2f95f4f1-9168-4f15-a401-bb9a556255a2: url('https:\/\/www.elpimpi.com\/wp-content\/themes\/pimpi\/img\/backgrounds\/line-black.png');}","hash":"2f95f4f1-9168-4f15-a401-bb9a556255a2","url":"https:\/\/www.elpimpi.com\/wp-content\/themes\/pimpi\/img\/backgrounds\/line-black.png"},{"selector":".c-history .history__heading","style":".c-history .history__heading{--wpr-bg-3b91ea70-349a-433e-9a2d-883c820ee474: url('https:\/\/www.elpimpi.com\/wp-content\/themes\/pimpi\/img\/backgrounds\/line-subtitle.png');}","hash":"3b91ea70-349a-433e-9a2d-883c820ee474","url":"https:\/\/www.elpimpi.com\/wp-content\/themes\/pimpi\/img\/backgrounds\/line-subtitle.png"},{"selector":".c-album .album__stamp","style":".c-album .album__stamp{--wpr-bg-f768b950-0b94-44a9-8e82-a23b76a58244: url('https:\/\/www.elpimpi.com\/wp-content\/themes\/pimpi\/img\/backgrounds\/stamp.png');}","hash":"f768b950-0b94-44a9-8e82-a23b76a58244","url":"https:\/\/www.elpimpi.com\/wp-content\/themes\/pimpi\/img\/backgrounds\/stamp.png"},{"selector":".c-spaces .spaces__list","style":".c-spaces .spaces__list{--wpr-bg-d16e66ba-81ca-4107-b026-a22e873e3065: url('https:\/\/www.elpimpi.com\/wp-content\/themes\/pimpi\/img\/backgrounds\/line-black.png');}","hash":"d16e66ba-81ca-4107-b026-a22e873e3065","url":"https:\/\/www.elpimpi.com\/wp-content\/themes\/pimpi\/img\/backgrounds\/line-black.png"},{"selector":".c-spaces .spaces__list","style":".c-spaces .spaces__list:before{--wpr-bg-2a81800e-a800-455e-84a0-fdce59a2d17a: url('https:\/\/www.elpimpi.com\/wp-content\/themes\/pimpi\/img\/backgrounds\/line-black.png');}","hash":"2a81800e-a800-455e-84a0-fdce59a2d17a","url":"https:\/\/www.elpimpi.com\/wp-content\/themes\/pimpi\/img\/backgrounds\/line-black.png"},{"selector":".c-timeline","style":".c-timeline{--wpr-bg-57457d4f-1b16-4f9a-956f-54658ee36946: url('https:\/\/www.elpimpi.com\/wp-content\/themes\/pimpi\/img\/backgrounds\/timeline.png');}","hash":"57457d4f-1b16-4f9a-956f-54658ee36946","url":"https:\/\/www.elpimpi.com\/wp-content\/themes\/pimpi\/img\/backgrounds\/timeline.png"},{"selector":".fancybox-infobar .fancybox-button","style":".fancybox-infobar .fancybox-button{--wpr-bg-aa8a3504-50f7-4759-817d-322388bab47e: url('https:\/\/www.elpimpi.com\/wp-content\/themes\/pimpi\/img\/backgrounds\/arrow-white.png');}","hash":"aa8a3504-50f7-4759-817d-322388bab47e","url":"https:\/\/www.elpimpi.com\/wp-content\/themes\/pimpi\/img\/backgrounds\/arrow-white.png"},{"selector":".fancybox-infobar .fancybox-button","style":".fancybox-infobar .fancybox-button:hover,.fancybox-infobar .fancybox-button:active,.fancybox-infobar .fancybox-button:focus{--wpr-bg-486ac05f-aca9-413b-9e13-a6c069b3e586: url('https:\/\/www.elpimpi.com\/wp-content\/themes\/pimpi\/img\/backgrounds\/arrow-white.png');}","hash":"486ac05f-aca9-413b-9e13-a6c069b3e586","url":"https:\/\/www.elpimpi.com\/wp-content\/themes\/pimpi\/img\/backgrounds\/arrow-white.png"},{"selector":".event-form .form","style":".event-form .form::before{--wpr-bg-6bc12573-3b8c-4f3d-8a09-5eb729cb2304: url('https:\/\/www.elpimpi.com\/wp-content\/themes\/pimpi\/img\/backgrounds\/form-br.png');}","hash":"6bc12573-3b8c-4f3d-8a09-5eb729cb2304","url":"https:\/\/www.elpimpi.com\/wp-content\/themes\/pimpi\/img\/backgrounds\/form-br.png"},{"selector":".taxonomy-buttons .term-link","style":".taxonomy-buttons .term-link::before{--wpr-bg-9a211401-3e8d-4a13-8a19-0675f477dd50: url('https:\/\/www.elpimpi.com\/wp-content\/themes\/pimpi\/assets\/images\/borde-horizontal.svg');}","hash":"9a211401-3e8d-4a13-8a19-0675f477dd50","url":"https:\/\/www.elpimpi.com\/wp-content\/themes\/pimpi\/assets\/images\/borde-horizontal.svg"},{"selector":".taxonomy-buttons .term-link","style":".taxonomy-buttons .term-link::after{--wpr-bg-188c94ac-7a72-4acb-b75b-d3497f2505cb: url('https:\/\/www.elpimpi.com\/wp-content\/themes\/pimpi\/assets\/images\/borde-horizontal.svg');}","hash":"188c94ac-7a72-4acb-b75b-d3497f2505cb","url":"https:\/\/www.elpimpi.com\/wp-content\/themes\/pimpi\/assets\/images\/borde-horizontal.svg"},{"selector":".taxonomy-buttons .term-link a","style":".taxonomy-buttons .term-link a::before{--wpr-bg-a0c4ba20-f5e3-45c3-a43e-3b11ec2afca3: url('https:\/\/www.elpimpi.com\/wp-content\/themes\/pimpi\/assets\/images\/borde-vertical.svg');}","hash":"a0c4ba20-f5e3-45c3-a43e-3b11ec2afca3","url":"https:\/\/www.elpimpi.com\/wp-content\/themes\/pimpi\/assets\/images\/borde-vertical.svg"},{"selector":".taxonomy-buttons .term-link a","style":".taxonomy-buttons .term-link a::after{--wpr-bg-bf82092a-6c69-44a1-a526-41ea33ae0f62: url('https:\/\/www.elpimpi.com\/wp-content\/themes\/pimpi\/assets\/images\/borde-vertical.svg');}","hash":"bf82092a-6c69-44a1-a526-41ea33ae0f62","url":"https:\/\/www.elpimpi.com\/wp-content\/themes\/pimpi\/assets\/images\/borde-vertical.svg"},{"selector":".filete-ondas","style":".filete-ondas{--wpr-bg-cd171c4f-eaea-4d1f-8f17-e0ac6e4013c4: url('https:\/\/www.elpimpi.com\/wp-content\/themes\/pimpi\/assets\/images\/filete-ondas.svg');}","hash":"cd171c4f-eaea-4d1f-8f17-e0ac6e4013c4","url":"https:\/\/www.elpimpi.com\/wp-content\/themes\/pimpi\/assets\/images\/filete-ondas.svg"},{"selector":".filete-ondas-cent","style":".filete-ondas-cent{--wpr-bg-52be6e70-641c-4686-a54e-9f7873794968: url('https:\/\/www.elpimpi.com\/wp-content\/themes\/pimpi\/assets\/images\/filete-ondas.svg');}","hash":"52be6e70-641c-4686-a54e-9f7873794968","url":"https:\/\/www.elpimpi.com\/wp-content\/themes\/pimpi\/assets\/images\/filete-ondas.svg"},{"selector":".experiences .separador","style":".experiences .separador{--wpr-bg-7adeb8a5-7a54-4cf3-8e3c-048eabb1cddb: url('https:\/\/www.elpimpi.com\/wp-content\/themes\/pimpi\/assets\/images\/filete-separador.svg');}","hash":"7adeb8a5-7a54-4cf3-8e3c-048eabb1cddb","url":"https:\/\/www.elpimpi.com\/wp-content\/themes\/pimpi\/assets\/images\/filete-separador.svg"},{"selector":".event-form .form__heading","style":".event-form .form__heading{--wpr-bg-8513e161-470f-44a3-880a-17990f4931f3: url('https:\/\/www.elpimpi.com\/wp-content\/themes\/pimpi\/img\/backgrounds\/line-subtitle.png');}","hash":"8513e161-470f-44a3-880a-17990f4931f3","url":"https:\/\/www.elpimpi.com\/wp-content\/themes\/pimpi\/img\/backgrounds\/line-subtitle.png"},{"selector":".b-form","style":".b-form:before{--wpr-bg-1f5df322-0846-40b6-9936-d948f747d645: url('https:\/\/www.elpimpi.com\/wp-content\/themes\/pimpi\/img\/backgrounds\/form-br.png');}","hash":"1f5df322-0846-40b6-9936-d948f747d645","url":"https:\/\/www.elpimpi.com\/wp-content\/themes\/pimpi\/img\/backgrounds\/form-br.png"},{"selector":".b-form","style":".b-form:after{--wpr-bg-df4834f8-c597-499d-a6cd-c68847113045: url('https:\/\/www.elpimpi.com\/wp-content\/themes\/pimpi\/img\/backgrounds\/form-bottle.png');}","hash":"df4834f8-c597-499d-a6cd-c68847113045","url":"https:\/\/www.elpimpi.com\/wp-content\/themes\/pimpi\/img\/backgrounds\/form-bottle.png"},{"selector":".b-form .form__heading","style":".b-form .form__heading{--wpr-bg-ba1711ac-af36-41ea-b656-7f43aad252f8: url('https:\/\/www.elpimpi.com\/wp-content\/themes\/pimpi\/img\/backgrounds\/line-subtitle.png');}","hash":"ba1711ac-af36-41ea-b656-7f43aad252f8","url":"https:\/\/www.elpimpi.com\/wp-content\/themes\/pimpi\/img\/backgrounds\/line-subtitle.png"}]; const rocket_excluded_pairs = [{"selector":".b-form","style":".b-form{--wpr-bg-11afed41-d5ae-4aea-a621-ead806854cfd: url('https:\/\/www.elpimpi.com\/wp-content\/themes\/pimpi\/img\/backgrounds\/form-tl.png');}","hash":"11afed41-d5ae-4aea-a621-ead806854cfd","url":"https:\/\/www.elpimpi.com\/wp-content\/themes\/pimpi\/img\/backgrounds\/form-tl.png"},{"selector":".event-form","style":".event-form{--wpr-bg-4d2ef747-66cc-4aa1-b575-418f86b663c5: url('https:\/\/www.elpimpi.com\/wp-content\/themes\/pimpi\/img\/backgrounds\/form-tl.png');}","hash":"4d2ef747-66cc-4aa1-b575-418f86b663c5","url":"https:\/\/www.elpimpi.com\/wp-content\/themes\/pimpi\/img\/backgrounds\/form-tl.png"},{"selector":".b-form","style":".b-form{--wpr-bg-00fc4bb6-daf2-496a-b320-11bb2d525b7f: url('https:\/\/www.elpimpi.com\/wp-content\/themes\/pimpi\/img\/backgrounds\/form-tl.png');}","hash":"00fc4bb6-daf2-496a-b320-11bb2d525b7f","url":"https:\/\/www.elpimpi.com\/wp-content\/themes\/pimpi\/img\/backgrounds\/form-tl.png"}];</script><meta name="generator" content="WP Rocket 3.23.4" data-wpr-features="wpr_lazyload_css_bg_img wpr_delay_js wpr_defer_js wpr_minify_js wpr_async_css wpr_lazyload_images wpr_lazyload_iframes wpr_preconnect_external_domains wpr_oci wpr_minify_css wpr_cdn wpr_preload_links wpr_host_fonts_locally wpr_desktop" /></head>
+
+<body class="wp-singular page-template page-template-page-booking page-template-page-booking-php page page-id-33 wp-theme-pimpi">
+	
+	<div  class="c-wrapper ">
+
+					<div  class="c-header --opaque">
+		
+		
+		<div  class="border"></div>
+		
+		<div  class="container">
+			<div  class="wrapper">
+				<div class="e-logo">
+					<a href="https://www.elpimpi.com">
+						<img src="https://www.elpimpi.com/wp-content/themes/pimpi/img/content/logo.png" alt="El Pimpi" />
+					</a>
+				</div>
+				<nav class="e-menu">
+					<ul id="menu-principal" class="wrapper"><li id="menu-item-20722" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-20722"><a href="https://www.elpimpi.com/el-pimpi/">El Pimpi</a>
+<ul class="sub-menu">
+	<li id="menu-item-20724" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20724"><a href="https://www.elpimpi.com/el-pimpi/historia/">Historia</a></li>
+	<li id="menu-item-20725" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20725"><a href="https://www.elpimpi.com/el-pimpi/instalaciones/">Instalaciones</a></li>
+	<li id="menu-item-20723" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20723"><a href="https://www.elpimpi.com/el-pimpi/huerta-del-paraiso/">Huerta del paraíso</a></li>
+</ul>
+</li>
+<li id="menu-item-20726" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20726"><a href="https://www.elpimpi.com/cartas/">Cartas</a></li>
+<li id="menu-item-20740" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-20740"><a href="https://www.elpimpi.com/novedades/">Novedades</a>
+<ul class="sub-menu">
+	<li id="menu-item-174967" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-174967"><a href="https://www.elpimpi.com/novedades/">Noticias</a></li>
+	<li id="menu-item-174966" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-174966"><a href="https://www.elpimpi.com/?page_id=37">Feria 2026</a></li>
+</ul>
+</li>
+<li id="menu-item-20733" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-20733"><a href="https://www.elpimpi.com/galeria/">Galería</a>
+<ul class="sub-menu">
+	<li id="menu-item-20732" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20732"><a href="https://www.elpimpi.com/el-pimpi/personalidades/">Personalidades</a></li>
+	<li id="menu-item-20496" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-20496"><a target="_blank" href="https://www.instagram.com/bodegaelpimpi/">Instagram</a></li>
+</ul>
+</li>
+<li id="menu-item-20734" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20734"><a href="https://www.elpimpi.com/grupo-el-pimpi/">La Sole</a></li>
+<li id="menu-item-20735" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20735"><a href="https://www.elpimpi.com/fundacion-el-pimpi/">Fundación El Pimpi</a></li>
+<li id="menu-item-121094" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-121094"><a href="https://www.elpimpi.com/experiencias-en-el-corazon-de-malaga/">Experiencias</a></li>
+</ul>				</nav>
+
+				<div class="e-cta__wrapper">
+					<div class="e-cta">
+						<a href="https://www.elpimpi.com/reservas/">
+							Reservas						</a>
+					</div>
+					<div class="e-cta">
+						<a href="https://www.elpimpi.com/regala-el-pimpi/">
+							Regala Pimpi						</a>
+					</div>
+				
+					
+					<div class="e-burger-wrapper">
+						<button class="e-burger">
+							<span class="lines"></span>
+						</button>
+					</div>
+
+				</div>
+
+				
+<div role="navigation" aria-label="Selector de idiomas" class="wpml-ls-statics-shortcode_actions wpml-ls wpml-ls-legacy-list-horizontal">
+	<ul><li class="wpml-ls-slot-shortcode_actions wpml-ls-item wpml-ls-item-es wpml-ls-current-language wpml-ls-first-item wpml-ls-item-legacy-list-horizontal">
+				<a href="https://www.elpimpi.com/reservas/" hreflang="es" lang="es" class="wpml-ls-link" aria-current="page" aria-label="Cambiar a Español" title="Cambiar a Español">
+					                                    <img
+            class="wpml-ls-flag"
+            src="https://www.elpimpi.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/es.png"
+            alt="Español"
+            
+            width=18
+            height=12
+    /></a>
+			</li><li class="wpml-ls-slot-shortcode_actions wpml-ls-item wpml-ls-item-en wpml-ls-last-item wpml-ls-item-legacy-list-horizontal">
+				<a href="https://www.elpimpi.com/en/reservations/" hreflang="en" lang="en" class="wpml-ls-link" aria-label="Cambiar a Inglés" title="Cambiar a Inglés">
+					                                    <img
+            class="wpml-ls-flag"
+            src="https://www.elpimpi.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/en.png"
+            alt="Inglés"
+            
+            width=18
+            height=12
+    /></a>
+			</li></ul>
+</div>
+
+			</div>
+		</div>
+	</div>
+
+	<div  class="b-nav" id="e-menu">
+		<div class="wrapper">
+			<ul id="menu-principal-1" class=""><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-20722"><a href="https://www.elpimpi.com/el-pimpi/">El Pimpi</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20724"><a href="https://www.elpimpi.com/el-pimpi/historia/">Historia</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20725"><a href="https://www.elpimpi.com/el-pimpi/instalaciones/">Instalaciones</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20723"><a href="https://www.elpimpi.com/el-pimpi/huerta-del-paraiso/">Huerta del paraíso</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20726"><a href="https://www.elpimpi.com/cartas/">Cartas</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-20740"><a href="https://www.elpimpi.com/novedades/">Novedades</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-174967"><a href="https://www.elpimpi.com/novedades/">Noticias</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-174966"><a href="https://www.elpimpi.com/?page_id=37">Feria 2026</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-20733"><a href="https://www.elpimpi.com/galeria/">Galería</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20732"><a href="https://www.elpimpi.com/el-pimpi/personalidades/">Personalidades</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-20496"><a target="_blank" href="https://www.instagram.com/bodegaelpimpi/">Instagram</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20734"><a href="https://www.elpimpi.com/grupo-el-pimpi/">La Sole</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20735"><a href="https://www.elpimpi.com/fundacion-el-pimpi/">Fundación El Pimpi</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-121094"><a href="https://www.elpimpi.com/experiencias-en-el-corazon-de-malaga/">Experiencias</a></li>
+</ul>
+<div role="navigation" aria-label="Selector de idiomas" class="wpml-ls-statics-shortcode_actions wpml-ls wpml-ls-legacy-list-horizontal">
+	<ul><li class="wpml-ls-slot-shortcode_actions wpml-ls-item wpml-ls-item-es wpml-ls-current-language wpml-ls-first-item wpml-ls-item-legacy-list-horizontal">
+				<a href="https://www.elpimpi.com/reservas/" hreflang="es" lang="es" class="wpml-ls-link" aria-current="page" aria-label="Cambiar a Español" title="Cambiar a Español">
+					                                    <img
+            class="wpml-ls-flag"
+            src="https://www.elpimpi.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/es.png"
+            alt="Español"
+            
+            width=18
+            height=12
+    /></a>
+			</li><li class="wpml-ls-slot-shortcode_actions wpml-ls-item wpml-ls-item-en wpml-ls-last-item wpml-ls-item-legacy-list-horizontal">
+				<a href="https://www.elpimpi.com/en/reservations/" hreflang="en" lang="en" class="wpml-ls-link" aria-label="Cambiar a Inglés" title="Cambiar a Inglés">
+					                                    <img
+            class="wpml-ls-flag"
+            src="https://www.elpimpi.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/en.png"
+            alt="Inglés"
+            
+            width=18
+            height=12
+    /></a>
+			</li></ul>
+</div>
+		</div>
+	</div>
+
+  <div  class="container">
+    <div  class="b-form">
+
+      <div class="form__heading">
+        <h1 class="form__title">Haz tu reserva</h1>
+        <p style="text-align: center;">Si no encuentra disponibilidad para la fecha seleccionada, recuerde que puede acudir sin reserva. Le atenderemos por orden de llegada, con un tiempo de espera estimado de aproximadamente 20 minutos.</p>
+      </div>
+
+      <div class="e-form">
+        <script type="text/rocketlazyloadscript" data-minify="1" data-rocket-type="text/javascript" data-rocket-src="https://www.elpimpi.com/wp-content/cache/min/1/js/iframeResizer/iframeResizer.min.js?ver=1792153605" data-rocket-defer defer></script><iframe loading="lazy" id="restaurante-pimpi" title="Reservas" src="about:blank" width="100%" height="550"  frameborder="0" onload="iFrameResize();" allow="payment" data-rocket-lazyload="fitvidscompatible" data-lazy-src="https://www.covermanager.com/reservation/module_restaurant/restaurante-pimpi/spanish"></iframe><noscript><iframe id="restaurante-pimpi" title="Reservas" src="https://www.covermanager.com/reservation/module_restaurant/restaurante-pimpi/spanish" width="100%" height="550"  frameborder="0" onload="iFrameResize();" allow="payment"></iframe></noscript>      </div>
+
+    </div>
+  </div>
+
+
+			
+<div  class="c-prefooter">
+	<div  class="container">
+		<div class="wrapper">
+
+			<div class="e-info">
+				<img src="https://www.elpimpi.com/wp-content/themes/pimpi/img/content/icon-location.png" role="presentation" />
+				<dl>
+					<dt>Localización</dt>
+					<dd><a href="https://maps.app.goo.gl/1rBhiZfnvSfE9QGr5" target="_blank">Calle Granada, 62</a></dd>
+					<dd><a href="https://maps.app.goo.gl/1rBhiZfnvSfE9QGr5" target="_blank">Calle Alcazabilla - 29015 Málaga</a></dd>
+				</dl>
+			</div>
+			<div class="e-info">
+				<img src="https://www.elpimpi.com/wp-content/themes/pimpi/img/content/icon-schedule.png" role="presentation" />
+				<dl>
+					<dt>Horario</dt>
+					<dd>Domingo a jueves: 12.00h-00.00h<br> Cocina Non Stop: 12.00h-23.30h <br> Viernes y sábado: 12.00h-00.30h<br> Cocina Non Stop: 12.00h-00.00h</dd>
+				</dl>
+			</div>
+			<div class="e-info">
+				<img src="https://www.elpimpi.com/wp-content/themes/pimpi/img/content/icon-contact.png" role="presentation" />
+				<dl>
+					<dt>Contacto</dt>
+					<dd>952 225 403</dd>
+					<dd><a href="mailto:reservas@elpimpi.com">
+						reservas@elpimpi.com					</a></dd>
+				</dl>
+			</div>
+			<div class="e-info">
+				<img src="https://www.elpimpi.com/wp-content/themes/pimpi/img/content/icon-press.png" role="presentation" />
+				<dl>
+					<dt>Prensa</dt>
+					<dd>
+						Imágenes de prensa<br> disponibles a solicitud.<br><a href="mailto:mjariza@elpimpi.com">Contáctenos.</a>					</dd>
+				</dl>
+			</div>
+
+		</div>
+	</div>
+</div><div  class="c-footer">
+	<div  class="container">
+		<div class="wrapper">
+			<div class="social">
+	<ul>
+				<li>
+			<a target="_blank" href="https://www.instagram.com/bodegaelpimpi/">
+				<img
+				 src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E"
+					alt="Instagram"
+			 data-lazy-src="https://www.elpimpi.com/wp-content/uploads/2024/02/icon-instagram.png"	/><noscript><img
+					src="https://www.elpimpi.com/wp-content/uploads/2024/02/icon-instagram.png"
+					alt="Instagram"
+				/></noscript>
+			</a>
+		</li>
+				<li>
+			<a target="_blank" href="https://www.facebook.com/elpimpimalaga">
+				<img
+				 src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E"
+					alt="Facebook"
+			 data-lazy-src="https://www.elpimpi.com/wp-content/uploads/2024/02/facebook.png"	/><noscript><img
+					src="https://www.elpimpi.com/wp-content/uploads/2024/02/facebook.png"
+					alt="Facebook"
+				/></noscript>
+			</a>
+		</li>
+				<li>
+			<a target="_blank" href="https://www.tripadvisor.es/Restaurant_Review-g187438-d806282-Reviews-El_Pimpi-Malaga_Costa_del_Sol_Province_of_Malaga_Andalucia.html">
+				<img
+				 src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E"
+					alt="Tripadvisor"
+			 data-lazy-src="https://www.elpimpi.com/wp-content/uploads/2024/02/tripadvisor2.png"	/><noscript><img
+					src="https://www.elpimpi.com/wp-content/uploads/2024/02/tripadvisor2.png"
+					alt="Tripadvisor"
+				/></noscript>
+			</a>
+		</li>
+				<li>
+			<a target="_blank" href="https://twitter.com/elpimpimalaga">
+				<img
+				 src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E"
+					alt="Twitter-X"
+			 data-lazy-src="https://www.elpimpi.com/wp-content/uploads/2024/02/twitter-x-icon-2.png"	/><noscript><img
+					src="https://www.elpimpi.com/wp-content/uploads/2024/02/twitter-x-icon-2.png"
+					alt="Twitter-X"
+				/></noscript>
+			</a>
+		</li>
+				<li>
+			<a target="_blank" href="https://www.youtube.com/user/bodegaelpimpi">
+				<img
+				 src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E"
+					alt="Youtube"
+			 data-lazy-src="https://www.elpimpi.com/wp-content/uploads/2024/02/youtube.png"	/><noscript><img
+					src="https://www.elpimpi.com/wp-content/uploads/2024/02/youtube.png"
+					alt="Youtube"
+				/></noscript>
+			</a>
+		</li>
+				<li>
+			<a target="_blank" href="https://www.pinterest.es/elpimpi/_created/">
+				<img
+				 src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E"
+					alt="Pinterest"
+			 data-lazy-src="https://www.elpimpi.com/wp-content/uploads/2024/02/pinterest.png"	/><noscript><img
+					src="https://www.elpimpi.com/wp-content/uploads/2024/02/pinterest.png"
+					alt="Pinterest"
+				/></noscript>
+			</a>
+		</li>
+			</ul>
+</div>
+			<div class="license">
+				<p>&copy; 2013-2026 | El Pimpi</p>
+				<ul id="menu-legal" class="menu"><li id="menu-item-174681" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-174681"><a href="https://www.elpimpi.com/trabaja-con-nosotros/">Trabaja con nosotros</a></li>
+<li id="menu-item-76" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-76"><a href="https://www.elpimpi.com/aviso-legal/">Aviso legal</a></li>
+<li id="menu-item-77" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-77"><a rel="privacy-policy" href="https://www.elpimpi.com/politica-privacidad/">Política de privacidad</a></li>
+<li id="menu-item-21029" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21029"><a href="https://www.elpimpi.com/politica-de-cookies-ue/">Política de cookies (UE)</a></li>
+<li id="menu-item-174043" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-174043"><a target="_blank" href="https://qrco.de/bh1rOA">Sistema Interno de Información</a></li>
+</ul>			</div>
+
+
+		</div>
+	</div>
+</div>			<div  class="feder-footer">
+				<div  class="feder-container">
+						<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="Fondos Feder" class="feder" data-lazy-src="https://www.elpimpi.com/wp-content/themes/pimpi/assets/images/andalucia-europa-logo.svg"><noscript><img src="https://www.elpimpi.com/wp-content/themes/pimpi/assets/images/andalucia-europa-logo.svg" alt="Fondos Feder" class="feder"></noscript>
+						<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" class="ue" data-lazy-src="https://www.elpimpi.com/wp-content/themes/pimpi/assets/images/ue-logo.svg"><noscript><img src="https://www.elpimpi.com/wp-content/themes/pimpi/assets/images/ue-logo.svg" alt="" class="ue"></noscript>
+						<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" class="j-andalucia" data-lazy-src="https://www.elpimpi.com/wp-content/themes/pimpi/assets/images/junta-andalucia-logo.svg"><noscript><img src="https://www.elpimpi.com/wp-content/themes/pimpi/assets/images/junta-andalucia-logo.svg" alt="" class="j-andalucia"></noscript>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/pimpi/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+
+<!-- Consent Management powered by Complianz | GDPR/CCPA Cookie Consent https://wordpress.org/plugins/complianz-gdpr -->
+<div id="cmplz-cookiebanner-container"><div class="cmplz-cookiebanner cmplz-hidden banner-5  optin cmplz-bottom-right cmplz-categories-type-view-preferences" aria-modal="true" data-nosnippet="true" role="dialog" aria-live="polite" aria-labelledby="cmplz-header-5-optin" aria-describedby="cmplz-message-5-optin">
+	<div class="cmplz-header">
+		<div class="cmplz-logo"></div>
+		<div class="cmplz-title" id="cmplz-header-5-optin">Gestionar consentimiento de cookies</div>
+		<div class="cmplz-close" tabindex="0" role="button" aria-label="Cerrar ventana">
+			<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="times" class="svg-inline--fa fa-times fa-w-11" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 352 512"><path fill="currentColor" d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"></path></svg>
+		</div>
+	</div>
+
+	<div class="cmplz-divider cmplz-divider-header"></div>
+	<div class="cmplz-body">
+		<div class="cmplz-message" id="cmplz-message-5-optin"><p>BODEGAS EL PIMPI, S.L. le informa que este sitio web usa cookies propias y de terceros para gestionarlo, recopilar información sobre su uso con fines analíticos y mostrar publicidad personalizada basada en un perfil elaborado a partir de sus hábitos de navegación. Puede obtener más información en nuestra <a href="https://www.elpimpi.com/politica-de-cookies-ue/">Política de Cookies.</a></p></div>
+		<!-- categories start -->
+		<div class="cmplz-categories">
+			<details class="cmplz-category cmplz-functional" >
+				<summary>
+						<span class="cmplz-category-header">
+							<span class="cmplz-category-title">Funcional</span>
+							<span class='cmplz-always-active'>
+								<span class="cmplz-banner-checkbox">
+									<input type="checkbox"
+										   id="cmplz-functional-optin"
+										   data-category="cmplz_functional"
+										   class="cmplz-consent-checkbox cmplz-functional"
+										   size="40"
+										   value="1"/>
+									
+									<label class="cmplz-label" for="cmplz-functional-optin" tabindex="0"><span class="screen-reader-text">Funcional</span></label>
+								</span>
+								Siempre activo							</span>
+							<span class="cmplz-icon cmplz-open">
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"  height="18" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
+							</span>
+						</span>
+				</summary>
+				<div class="cmplz-description">
+					<span class="cmplz-description-functional">El almacenamiento o acceso técnico es estrictamente necesario para el propósito legítimo de permitir el uso de un servicio específico explícitamente solicitado por el abonado o usuario, o con el único propósito de llevar a cabo la transmisión de una comunicación a través de una red de comunicaciones electrónicas.</span>
+				</div>
+			</details>
+
+			<details class="cmplz-category cmplz-preferences" >
+				<summary>
+						<span class="cmplz-category-header">
+							<span class="cmplz-category-title">Preferencias</span>
+							<span class="cmplz-banner-checkbox">
+								<input type="checkbox"
+									   id="cmplz-preferences-optin"
+									   data-category="cmplz_preferences"
+									   class="cmplz-consent-checkbox cmplz-preferences"
+									   size="40"
+									   value="1"/>
+                                <button class="accept">Aceptar</button> - 
+                                <button class="reject">Rechazar</button>
+															</span>
+							<span class="cmplz-icon cmplz-open">
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"  height="18" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
+							</span>
+						</span>
+				</summary>
+				<div class="cmplz-description">
+					<span class="cmplz-description-preferences">El almacenamiento o acceso técnico es necesario para la finalidad legítima de almacenar preferencias no solicitadas por el abonado o usuario.</span>
+				</div>
+			</details>
+
+			<details class="cmplz-category cmplz-statistics" >
+				<summary>
+						<span class="cmplz-category-header">
+							<span class="cmplz-category-title">Estadísticas</span>
+							<span class="cmplz-banner-checkbox">
+								<input type="checkbox"
+									   id="cmplz-statistics-optin"
+									   data-category="cmplz_statistics"
+									   class="cmplz-consent-checkbox cmplz-statistics"
+									   size="40"
+									   value="1"/>
+									<button class="accept">Aceptar</button> - 
+									<button class="reject">Rechazar</button>
+															</span>
+							<span class="cmplz-icon cmplz-open">
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"  height="18" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
+							</span>
+						</span>
+				</summary>
+				<div class="cmplz-description">
+					<span class="cmplz-description-statistics">El almacenamiento o acceso técnico que es utilizado exclusivamente con fines estadísticos.</span>
+					<span class="cmplz-description-statistics-anonymous">El almacenamiento o acceso técnico que se utiliza exclusivamente con fines estadísticos anónimos. Sin un requerimiento, el cumplimiento voluntario por parte de tu proveedor de servicios de Internet, o los registros adicionales de un tercero, la información almacenada o recuperada sólo para este propósito no se puede utilizar para identificarte.</span>
+				</div>
+			</details>
+			<details class="cmplz-category cmplz-marketing" >
+				<summary>
+						<span class="cmplz-category-header">
+							<span class="cmplz-category-title">Marketing</span>
+							<span class="cmplz-banner-checkbox">
+								<input type="checkbox"
+									   id="cmplz-marketing-optin"
+									   data-category="cmplz_marketing"
+									   class="cmplz-consent-checkbox cmplz-marketing"
+									   size="40"
+									   value="1"/>
+								<button class="accept">Aceptar</button> - 
+                                <button class="reject">Rechazar</button>
+															</span>
+							<span class="cmplz-icon cmplz-open">
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"  height="18" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
+							</span>
+						</span>
+				</summary>
+				<div class="cmplz-description">
+					<span class="cmplz-description-marketing">El almacenamiento o acceso técnico es necesario para crear perfiles de usuario para enviar publicidad, o para rastrear al usuario en una web o en varias web con fines de marketing similares.</span>
+				</div>
+			</details>
+		</div><!-- categories end -->
+			</div>
+
+	<div class="cmplz-links cmplz-information">
+		<a class="cmplz-link cmplz-manage-options cookie-statement" href="#" data-relative_url="#cmplz-manage-consent-container">Administrar opciones</a>
+		<a class="cmplz-link cmplz-manage-third-parties cookie-statement" href="#" data-relative_url="#cmplz-cookies-overview">Gestionar los servicios</a>
+		<a class="cmplz-link cmplz-manage-vendors tcf cookie-statement" href="#" data-relative_url="#cmplz-tcf-wrapper">Gestionar {vendor_count} proveedores</a>
+		<a class="cmplz-link cmplz-external cmplz-read-more-purposes tcf" target="_blank" rel="noopener noreferrer nofollow" href="https://cookiedatabase.org/tcf/purposes/">Leer más sobre estos propósitos</a>
+			</div>
+
+	<div class="cmplz-divider cmplz-footer"></div>
+
+	<div class="cmplz-buttons">
+		<button class="cmplz-btn cmplz-accept">Aceptar</button>
+		<button class="cmplz-btn cmplz-deny">Denegar</button>
+		<button class="cmplz-btn cmplz-view-preferences">Ver preferencias</button>
+		<button class="cmplz-btn cmplz-save-preferences">Guardar preferencias</button>
+		<a class="cmplz-btn cmplz-manage-options tcf cookie-statement" href="#" data-relative_url="#cmplz-manage-consent-container">Ver preferencias</a>
+			</div>
+	<div class="cmplz-links cmplz-documents">
+		<a class="cmplz-link cookie-statement" href="#" data-relative_url="">Política de cookies</a>
+		<a class="cmplz-link privacy-statement" href="#" data-relative_url="">Política de privacidad</a>
+		<a class="cmplz-link impressum" href="#" data-relative_url="">{title}</a>
+			</div>
+
+</div>
+
+</div>
+					<div id="cmplz-manage-consent" data-nosnippet="true"><button class="cmplz-btn cmplz-hidden cmplz-manage-consent manage-consent-5" aria-haspopup="dialog" aria-controls="cmplz-cookiebanner-5-optin">Gestionar consentimiento de cookies</button>
+
+</div><script type="text/rocketlazyloadscript">function loadScript(a){var b=document.getElementsByTagName("head")[0],c=document.createElement("script");c.type="text/javascript",c.src="https://tracker.metricool.com/resources/be.js",c.onreadystatechange=a,c.onload=a,b.appendChild(c)}loadScript(function(){beTracker.t({hash:"5ea68715149be7274648ff8c13265b4a"})});</script>	<script type="text/rocketlazyloadscript" data-rocket-type="text/javascript">window.addEventListener('DOMContentLoaded', function() {
+		jQuery(document).ready(function($) {
+			$('.wpcf7-date').on('input', function() {
+				var valor = $(this).val();
+				var unset_days = [
+					"2025-09-12","2025-09-13","2025-09-14","2025-09-20","2025-12-05","2025-12-06","2025-12-07","2025-12-08","2026-03-29","2026-03-30","2026-03-31","2026-04-01","2026-04-02","2026-04-03","2026-04-04",				];
+				var limit_hours_dinner = [
+					"2025-09-17","2025-09-19","2025-09-24","2025-09-25","2025-09-26","2025-10-04","2025-09-19","2025-12-24","2025-12-31",				] 
+				var limit_hours_lunch = [
+					"2025-10-05","2026-01-01","2026-04-05",				]
+				var hours_lunch = [
+					'12:30',
+					'12:45',
+					'13:00',
+					'13:15',
+					'13:30',
+					'13:45',
+					'14:00'
+				]
+				var hours_dinner = [
+					'18:00',
+					'18:15',
+					'18:30',
+					'18:45',
+					'19:00',
+					'19:15',
+					'19:30',
+					'19:45',
+					'20:00',
+					'20:15',
+					'20:30',
+					'20:45',
+					'21:00',
+				]
+				var option_value;
+				if(unset_days.includes(valor)) {
+					var message = $(this).closest('.--date').data('message');
+					alert(message);
+					$(this).val('');
+				}
+				if(limit_hours_lunch.includes(valor) || limit_hours_dinner.includes(valor)) {
+					if(limit_hours_lunch.includes(valor)) {
+						var message = $(this).closest('.--date').data('lunch');
+						alert(message);
+						$('.--time select').val('');
+						$('.--time select option').each(function() {
+							option_value = $(this).val();
+							$(this).attr("disabled", false);
+							if(hours_lunch.includes(option_value)) {
+								$(this).attr("disabled", true);
+							}
+						});
+					}
+					
+					if(limit_hours_dinner.includes(valor)) {
+						var message = $(this).closest('.--date').data('dinner');
+						alert(message);
+						$('.--time select').val('');
+						$('.--time select option').each(function() {
+							option_value = $(this).val();
+							$(this).attr("disabled", false);
+							if( hours_dinner.includes(option_value)) {
+								$(this).attr("disabled", true);
+							}
+						});
+					}
+				} else {
+					$('.--time select option').attr("disabled", false);
+				}
+			});
+		});
+	});</script>
+	<script data-wp-strategy="async" id="cloudflare-turnstile-js" src="https://challenges.cloudflare.com/turnstile/v0/api.js" data-rocket-defer defer></script>
+<script type="text/rocketlazyloadscript" id="cloudflare-turnstile-js-after">
+document.addEventListener( 'wpcf7submit', e => turnstile.reset() );
+//# sourceURL=cloudflare-turnstile-js-after
+</script>
+<script type="text/rocketlazyloadscript" id="rocket-browser-checker-js-after">
+"use strict";var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||!1,descriptor.configurable=!0,"value"in descriptor&&(descriptor.writable=!0),Object.defineProperty(target,descriptor.key,descriptor)}}return function(Constructor,protoProps,staticProps){return protoProps&&defineProperties(Constructor.prototype,protoProps),staticProps&&defineProperties(Constructor,staticProps),Constructor}}();function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor))throw new TypeError("Cannot call a class as a function")}var RocketBrowserCompatibilityChecker=function(){function RocketBrowserCompatibilityChecker(options){_classCallCheck(this,RocketBrowserCompatibilityChecker),this.passiveSupported=!1,this._checkPassiveOption(this),this.options=!!this.passiveSupported&&options}return _createClass(RocketBrowserCompatibilityChecker,[{key:"_checkPassiveOption",value:function(self){try{var options={get passive(){return!(self.passiveSupported=!0)}};window.addEventListener("test",null,options),window.removeEventListener("test",null,options)}catch(err){self.passiveSupported=!1}}},{key:"initRequestIdleCallback",value:function(){!1 in window&&(window.requestIdleCallback=function(cb){var start=Date.now();return setTimeout(function(){cb({didTimeout:!1,timeRemaining:function(){return Math.max(0,50-(Date.now()-start))}})},1)}),!1 in window&&(window.cancelIdleCallback=function(id){return clearTimeout(id)})}},{key:"isDataSaverModeOn",value:function(){return"connection"in navigator&&!0===navigator.connection.saveData}},{key:"supportsLinkPrefetch",value:function(){var elem=document.createElement("link");return elem.relList&&elem.relList.supports&&elem.relList.supports("prefetch")&&window.IntersectionObserver&&"isIntersecting"in IntersectionObserverEntry.prototype}},{key:"isSlowConnection",value:function(){return"connection"in navigator&&"effectiveType"in navigator.connection&&("2g"===navigator.connection.effectiveType||"slow-2g"===navigator.connection.effectiveType)}}]),RocketBrowserCompatibilityChecker}();
+//# sourceURL=rocket-browser-checker-js-after
+</script>
+<script id="rocket-preload-links-js-extra">
+var RocketPreloadLinksConfig = {"excludeUris":"/(?:.+/)?feed(?:/(?:.+/?)?)?$|/(?:.+/)?embed/|/(index.php/)?(.*)wp-json(/.*|$)|/refer/|/go/|/recommend/|/recommends/","usesTrailingSlash":"1","imageExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|pdf|doc|docx|xls|xlsx|php","fileExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|pdf|doc|docx|xls|xlsx|php|html|htm","siteUrl":"https://www.elpimpi.com","onHoverDelay":"100","rateThrottle":"3"};
+//# sourceURL=rocket-preload-links-js-extra
+</script>
+<script type="text/rocketlazyloadscript" id="rocket-preload-links-js-after">
+(function() {
+"use strict";var r="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e},e=function(){function i(e,t){for(var n=0;n<t.length;n++){var i=t[n];i.enumerable=i.enumerable||!1,i.configurable=!0,"value"in i&&(i.writable=!0),Object.defineProperty(e,i.key,i)}}return function(e,t,n){return t&&i(e.prototype,t),n&&i(e,n),e}}();function i(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}var t=function(){function n(e,t){i(this,n),this.browser=e,this.config=t,this.options=this.browser.options,this.prefetched=new Set,this.eventTime=null,this.threshold=1111,this.numOnHover=0}return e(n,[{key:"init",value:function(){!this.browser.supportsLinkPrefetch()||this.browser.isDataSaverModeOn()||this.browser.isSlowConnection()||(this.regex={excludeUris:RegExp(this.config.excludeUris,"i"),images:RegExp(".("+this.config.imageExt+")$","i"),fileExt:RegExp(".("+this.config.fileExt+")$","i")},this._initListeners(this))}},{key:"_initListeners",value:function(e){-1<this.config.onHoverDelay&&document.addEventListener("mouseover",e.listener.bind(e),e.listenerOptions),document.addEventListener("mousedown",e.listener.bind(e),e.listenerOptions),document.addEventListener("touchstart",e.listener.bind(e),e.listenerOptions)}},{key:"listener",value:function(e){var t=e.target.closest("a"),n=this._prepareUrl(t);if(null!==n)switch(e.type){case"mousedown":case"touchstart":this._addPrefetchLink(n);break;case"mouseover":this._earlyPrefetch(t,n,"mouseout")}}},{key:"_earlyPrefetch",value:function(t,e,n){var i=this,r=setTimeout(function(){if(r=null,0===i.numOnHover)setTimeout(function(){return i.numOnHover=0},1e3);else if(i.numOnHover>i.config.rateThrottle)return;i.numOnHover++,i._addPrefetchLink(e)},this.config.onHoverDelay);t.addEventListener(n,function e(){t.removeEventListener(n,e,{passive:!0}),null!==r&&(clearTimeout(r),r=null)},{passive:!0})}},{key:"_addPrefetchLink",value:function(i){return this.prefetched.add(i.href),new Promise(function(e,t){var n=document.createElement("link");n.rel="prefetch",n.href=i.href,n.onload=e,n.onerror=t,document.head.appendChild(n)}).catch(function(){})}},{key:"_prepareUrl",value:function(e){if(null===e||"object"!==(void 0===e?"undefined":r(e))||!1 in e||-1===["http:","https:"].indexOf(e.protocol))return null;var t=e.href.substring(0,this.config.siteUrl.length),n=this._getPathname(e.href,t),i={original:e.href,protocol:e.protocol,origin:t,pathname:n,href:t+n};return this._isLinkOk(i)?i:null}},{key:"_getPathname",value:function(e,t){var n=t?e.substring(this.config.siteUrl.length):e;return n.startsWith("/")||(n="/"+n),this._shouldAddTrailingSlash(n)?n+"/":n}},{key:"_shouldAddTrailingSlash",value:function(e){return this.config.usesTrailingSlash&&!e.endsWith("/")&&!this.regex.fileExt.test(e)}},{key:"_isLinkOk",value:function(e){return null!==e&&"object"===(void 0===e?"undefined":r(e))&&(!this.prefetched.has(e.href)&&e.origin===this.config.siteUrl&&-1===e.href.indexOf("?")&&-1===e.href.indexOf("#")&&!this.regex.excludeUris.test(e.href)&&!this.regex.images.test(e.href))}}],[{key:"run",value:function(){"undefined"!=typeof RocketPreloadLinksConfig&&new n(new RocketBrowserCompatibilityChecker({capture:!0,passive:!0}),RocketPreloadLinksConfig).init()}}]),n}();t.run();
+}());
+
+//# sourceURL=rocket-preload-links-js-after
+</script>
+<script id="rocket_lazyload_css-js-extra">
+var rocket_lazyload_css_data = {"threshold":"300"};
+//# sourceURL=rocket_lazyload_css-js-extra
+</script>
+<script id="rocket_lazyload_css-js-after">
+!function o(n,a,c){function l(t,e){if(!a[t]){if(!n[t]){var r="function"==typeof require&&require;if(!e&&r)return r(t,!0);if(u)return u(t,!0);throw(e=new Error("Cannot find module '"+t+"'")).code="MODULE_NOT_FOUND",e}r=a[t]={exports:{}},n[t][0].call(r.exports,function(e){return l(n[t][1][e]||e)},r,r.exports,o,n,a,c)}return a[t].exports}for(var u="function"==typeof require&&require,e=0;e<c.length;e++)l(c[e]);return l}({1:[function(e,t,r){{let r="undefined"==typeof rocket_pairs?[]:rocket_pairs,o=(("undefined"==typeof rocket_excluded_pairs?[]:rocket_excluded_pairs).map(t=>{var e=t.selector;document.querySelectorAll(e).forEach(e=>{e.setAttribute("data-rocket-lazy-bg-"+t.hash,"excluded")})}),document.querySelector("#wpr-lazyload-bg-container"));var a=rocket_lazyload_css_data.threshold||300;let n=new IntersectionObserver(e=>{e.forEach(t=>{t.isIntersecting&&r.filter(e=>t.target.matches(e.selector)).map(t=>{var e;t&&((e=document.createElement("style")).textContent=t.style,o.insertAdjacentElement("afterend",e),t.elements.forEach(e=>{n.unobserve(e),e.setAttribute("data-rocket-lazy-bg-"+t.hash,"loaded")}))})})},{rootMargin:a+"px"});function c(){0<(0<arguments.length&&void 0!==arguments[0]?arguments[0]:[]).length&&r.forEach(t=>{try{document.querySelectorAll(t.selector).forEach(e=>{"loaded"!==e.getAttribute("data-rocket-lazy-bg-"+t.hash)&&"excluded"!==e.getAttribute("data-rocket-lazy-bg-"+t.hash)&&(n.observe(e),(t.elements||=[]).push(e))})}catch(e){console.error(e)}})}c(),(()=>{let r=window.MutationObserver;return function(e,t){if(e&&1===e.nodeType)return(t=new r(t)).observe(e,{attributes:!0,childList:!0,subtree:!0}),t}})()(document.querySelector("body"),c)}},{}]},{},[1]);
+//# sourceURL=rocket_lazyload_css-js-after
+</script>
+<script type="text/rocketlazyloadscript" data-minify="1" id="fancybox-js" data-rocket-src="https://www.elpimpi.com/wp-content/cache/min/1/wp-content/themes/pimpi/js/vendor/fancybox/fancybox.js?ver=1792153594" data-rocket-defer defer></script>
+<script type="text/rocketlazyloadscript" data-minify="1" id="functions-js" data-rocket-src="https://www.elpimpi.com/wp-content/cache/min/1/wp-content/themes/pimpi/js/functions.js?ver=1792153594" data-rocket-defer defer></script>
+<script type="text/rocketlazyloadscript" data-minify="1" id="base-js" data-rocket-src="https://www.elpimpi.com/wp-content/cache/min/1/wp-content/themes/pimpi/js/base.js?ver=1792153594" data-rocket-defer defer></script>
+<script type="text/rocketlazyloadscript" id="googlesitekit-consent-mode-js" data-rocket-src="https://www.elpimpi.com/wp-content/plugins/google-site-kit/dist/assets/js/googlesitekit-consent-mode-755f1678e260138d789e.js" data-rocket-defer defer></script>
+<script type="text/rocketlazyloadscript" id="googlesitekit-events-provider-contact-form-7-js" data-rocket-src="https://www.elpimpi.com/wp-content/plugins/google-site-kit/dist/assets/js/googlesitekit-events-provider-contact-form-7-fac2a8013ba5ba355cd0.js" defer></script>
+<script type="text/rocketlazyloadscript" id="googlesitekit-events-provider-content-events-js-before">
+window._googlesitekit = window._googlesitekit || {};
+window._googlesitekit.contentEvents = {"postID":33,"isSinglePost":false,"hasVimeoEmbed":false};
+//# sourceURL=googlesitekit-events-provider-content-events-js-before
+</script>
+<script type="text/rocketlazyloadscript" id="googlesitekit-events-provider-content-events-js" data-rocket-src="https://www.elpimpi.com/wp-content/plugins/google-site-kit/dist/assets/js/googlesitekit-events-provider-content-events-c7172f3fd0e4d5ad62ef.js" defer></script>
+<script id="wp-consent-api-js-extra">
+var consent_api = {"consent_type":"optin","waitfor_consent_hook":"","cookie_expiration":"30","cookie_prefix":"wp_consent","services":[]};
+//# sourceURL=wp-consent-api-js-extra
+</script>
+<script type="text/rocketlazyloadscript" id="wp-consent-api-js" data-rocket-src="https://www.elpimpi.com/wp-content/plugins/wp-consent-api/assets/js/wp-consent-api.min.js?ver=2.1.0" data-rocket-defer defer></script>
+<script id="cmplz-cookiebanner-js-extra">
+var complianz = {"prefix":"cmplz_","debug":"","user_banner_id":"5","set_cookies":[],"block_ajax_content":"","banner_version":"33","version":"7.5.5","store_consent":"","do_not_track_enabled":"","consenttype":"optin","region":"eu","geoip":"","dismiss_timeout":"","disable_cookiebanner":"","soft_cookiewall":"","dismiss_on_scroll":"","cookie_expiry":"365","url":"https://www.elpimpi.com/wp-json/complianz/v1/","locale":"lang=es&locale=es_ES","set_cookies_on_root":"","cookie_domain":"","current_policy_id":"66","cookie_path":"/","categories":{"statistics":"estad\u00edsticas","marketing":"m\u00e1rketing"},"tcf_active":"","placeholdertext":"Haz clic para aceptar cookies de marketing y permitir este contenido","css_file":"https://www.elpimpi.com/wp-content/uploads/complianz/css/banner-{banner_id}-{type}.css?v=33","page_links":{"eu":{"cookie-statement":{"title":"Pol\u00edtica de cookies ","url":"https://www.elpimpi.com/politica-de-cookies-ue/"},"privacy-statement":{"title":"Pol\u00edtica de privacidad","url":"https://www.elpimpi.com/politica-privacidad/"},"impressum":{"title":"Aviso legal","url":"https://www.elpimpi.com/aviso-legal/"}},"us":{"impressum":{"title":"Aviso legal","url":"https://www.elpimpi.com/aviso-legal/"}},"uk":{"impressum":{"title":"Aviso legal","url":"https://www.elpimpi.com/aviso-legal/"}},"ca":{"impressum":{"title":"Aviso legal","url":"https://www.elpimpi.com/aviso-legal/"}},"au":{"impressum":{"title":"Aviso legal","url":"https://www.elpimpi.com/aviso-legal/"}},"za":{"impressum":{"title":"Aviso legal","url":"https://www.elpimpi.com/aviso-legal/"}},"br":{"impressum":{"title":"Aviso legal","url":"https://www.elpimpi.com/aviso-legal/"}}},"tm_categories":"","forceEnableStats":"","preview":"","clean_cookies":"","aria_label":"Haz clic para aceptar cookies de marketing y permitir este contenido","iapi_nav":"fallback"};
+//# sourceURL=cmplz-cookiebanner-js-extra
+</script>
+<script type="text/rocketlazyloadscript" defer id="cmplz-cookiebanner-js" data-rocket-src="https://www.elpimpi.com/wp-content/plugins/complianz-gdpr/cookiebanner/js/complianz.min.js?ver=1790854649"></script>
+<script type="text/rocketlazyloadscript" id="cmplz-cookiebanner-js-after">
+document.addEventListener("cmplz_enable_category", function () {
+                document.querySelectorAll('[data-rocket-lazyload]').forEach(obj => {
+                    if (obj.hasAttribute('data-lazy-src')) {
+                        obj.setAttribute('src', obj.getAttribute('data-lazy-src'));
+                    }
+                });
+            });
+        
+		
+//# sourceURL=cmplz-cookiebanner-js-after
+</script>
+<script>window.lazyLoadOptions=[{elements_selector:"img[data-lazy-src],.rocket-lazyload,iframe[data-lazy-src]",data_src:"lazy-src",data_srcset:"lazy-srcset",data_sizes:"lazy-sizes",class_loading:"lazyloading",class_loaded:"lazyloaded",threshold:300,callback_loaded:function(element){if(element.tagName==="IFRAME"&&element.dataset.rocketLazyload=="fitvidscompatible"){if(element.classList.contains("lazyloaded")){if(typeof window.jQuery!="undefined"){if(jQuery.fn.fitVids){jQuery(element).parent().fitVids()}}}}}},{elements_selector:".rocket-lazyload",data_src:"lazy-src",data_srcset:"lazy-srcset",data_sizes:"lazy-sizes",class_loading:"lazyloading",class_loaded:"lazyloaded",threshold:300,}];window.addEventListener('LazyLoad::Initialized',function(e){var lazyLoadInstance=e.detail.instance;if(window.MutationObserver){var observer=new MutationObserver(function(mutations){var image_count=0;var iframe_count=0;var rocketlazy_count=0;mutations.forEach(function(mutation){for(var i=0;i<mutation.addedNodes.length;i++){if(typeof mutation.addedNodes[i].getElementsByTagName!=='function'){continue}
+if(typeof mutation.addedNodes[i].getElementsByClassName!=='function'){continue}
+images=mutation.addedNodes[i].getElementsByTagName('img');is_image=mutation.addedNodes[i].tagName=="IMG";iframes=mutation.addedNodes[i].getElementsByTagName('iframe');is_iframe=mutation.addedNodes[i].tagName=="IFRAME";rocket_lazy=mutation.addedNodes[i].getElementsByClassName('rocket-lazyload');image_count+=images.length;iframe_count+=iframes.length;rocketlazy_count+=rocket_lazy.length;if(is_image){image_count+=1}
+if(is_iframe){iframe_count+=1}}});if(image_count>0||iframe_count>0||rocketlazy_count>0){lazyLoadInstance.update()}});var b=document.getElementsByTagName("body")[0];var config={childList:!0,subtree:!0};observer.observe(b,config)}},!1)</script><script data-no-minify="1" async src="https://www.elpimpi.com/wp-content/plugins/wp-rocket/assets/js/lazyload/17.8.3/lazyload.min.js"></script>
+	<script>"use strict";function wprRemoveCPCSS(){var preload_stylesheets=document.querySelectorAll('link[data-rocket-async="style"][rel="preload"]');if(preload_stylesheets&&0<preload_stylesheets.length)for(var stylesheet_index=0;stylesheet_index<preload_stylesheets.length;stylesheet_index++){var media=preload_stylesheets[stylesheet_index].getAttribute("media")||"all";if(window.matchMedia(media).matches)return void setTimeout(wprRemoveCPCSS,200)}var elem=document.getElementById("rocket-critical-css");elem&&"remove"in elem&&elem.remove()}window.addEventListener?window.addEventListener("load",wprRemoveCPCSS):window.attachEvent&&window.attachEvent("onload",wprRemoveCPCSS);</script><noscript><link rel='stylesheet' id='wpml-legacy-horizontal-list-0-css' href='https://www.elpimpi.com/wp-content/plugins/sitepress-multilingual-cms/templates/language-switchers/legacy-list-horizontal/style.min.css?ver=510000' media='all' /><link rel='stylesheet' id='cmplz-general-css' href='https://www.elpimpi.com/wp-content/plugins/complianz-gdpr/assets/css/cookieblocker.min.css?ver=1790854649' media='all' /><link data-minify="1" rel='stylesheet' id='onionsheet-css' href='https://www.elpimpi.com/wp-content/cache/background-css/1/www.elpimpi.com/wp-content/cache/min/1/wp-content/themes/pimpi/style.css?ver=1792153594&wpr_t=1793115027' media='all' /><link data-minify="1" rel='stylesheet' id='fancybox-css' href='https://www.elpimpi.com/wp-content/cache/min/1/wp-content/themes/pimpi/js/vendor/fancybox/fancybox.css?ver=1792153594' media='all' /><link data-minify="1" rel='stylesheet' id='flickity-css' href='https://www.elpimpi.com/wp-content/cache/min/1/wp-content/themes/pimpi/js/vendor/flickity/flickity.css?ver=1792153594' media='all' /><link data-minify="1" rel='stylesheet' id='aos-css' href='https://www.elpimpi.com/wp-content/cache/min/1/wp-content/themes/pimpi/js/vendor/aos/aos.css?ver=1792153594' media='all' /><link data-minify="1" rel='stylesheet' id='custom-styles-css' href='https://www.elpimpi.com/wp-content/cache/background-css/1/www.elpimpi.com/wp-content/cache/min/1/wp-content/themes/pimpi/assets/css/custom-styles.css?ver=1792153594&wpr_t=1793115027' media='all' /><link data-minify="1" rel='stylesheet' id='cmplz-banner-5-optin-css' href='https://www.elpimpi.com/wp-content/cache/min/1/wp-content/uploads/complianz/css/banner-5-optin.css?ver=1792153594' media='all' /></noscript></body>
+</html>
+<!-- This website is like a Rocket, isn't it? Performance optimized by WP Rocket. Learn more: https://wp-rocket.me - Debug: cached@1793111427 -->

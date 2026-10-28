@@ -1,0 +1,50 @@
+{
+ "text_quality": [],
+ "uyari_tarama": [
+  {
+   "yer": "samples",
+   "guncel_kontrol": [
+    "malaga:endulus-okul-kaydi-basvuru-donemi-ve-gec-gelen-ogrenci",
+    "malaga:kaynak:209",
+    "malaga:kaynak:216",
+    "malaga:kaynak:275"
+   ],
+   "belirsiz_durum": [
+    "malaga:dijital-gocebe-vizesi"
+   ],
+   "siteden_bilgi_dogrula": [
+    "malaga:kaynak:275"
+   ]
+  },
+  {
+   "yer": "hits[0]",
+   "sheet": "Yanıtlar",
+   "row": 12,
+   "id": "malaga:endulus-okul-kaydi-basvuru-donemi-ve-gec-gelen-ogrenci",
+   "field": "note",
+   "check": "K104",
+   "patterns": [
+    "guncel_kontrol"
+   ],
+   "sentences": [
+    "Mart başvurusu genel kuraldır; her yılın kesin tarihleri değişebileceğinden güncel dönemi başvurmadan önce Junta'nın eğitim portalından doğrula."
+   ]
+  },
+  {
+   "yer": "hits[1]",
+   "sheet": "Yanıtlar",
+   "row": 12,
+   "id": "malaga:endulus-okul-kaydi-basvuru-donemi-ve-gec-gelen-ogrenci",
+   "field": "summary",
+   "check": "K104",
+   "patterns": [
+    "guncel_kontrol"
+   ],
+   "sentences": [
+    "Kesin tarihler yıldan yıla değişebilir, başvurmadan önce Junta'nın eğitim portalından güncel dönemi doğrula."
+   ]
+  }
+ ],
+ "birlestir": [],
+ "claim_check_number_kalan": []
+}

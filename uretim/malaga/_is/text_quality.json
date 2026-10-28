@@ -1,0 +1,5028 @@
+{
+  "tool": "text_quality",
+  "workbook": "ara.xlsx",
+  "params": {
+    "min_cluster": 3,
+    "near": 0.9
+  },
+  "summary": {
+    "exact_clusters": 0,
+    "near_clusters": 0,
+    "template_clusters": 0,
+    "shared_steps": 0,
+    "placeholders": 0,
+    "filler": 0,
+    "evasive": 0,
+    "without_action": 0,
+    "visual_json_errors": 0,
+    "caption_is_title": 0,
+    "hedge_cards": 1,
+    "hedge_share": 0.0026,
+    "exact_records": 0,
+    "short_repeat_groups": 1,
+    "repeated_sentences": 6,
+    "cards_total": 380,
+    "visual_json_empty": 242,
+    "address": {
+      "standard": "sen",
+      "records": 484,
+      "hitapsiz": 214,
+      "siz": 0,
+      "sen": 268,
+      "karisik": 2,
+      "findings": 2,
+      "labels": {
+        "records": 581,
+        "hitapsiz": 79,
+        "siz": 0,
+        "sen": 502,
+        "karisik": 0
+      },
+      "skipped": []
+    },
+    "findings": 2
+  },
+  "top_clusters": [],
+  "exact_duplicates": [],
+  "near_duplicates": [],
+  "template_duplicates": [],
+  "short_repeats": [
+    {
+      "sheet": "Yanıtlar",
+      "field": "cost",
+      "value": "Ücretsiz.",
+      "size": 5
+    }
+  ],
+  "repeated_sentences": [
+    {
+      "sheet": "Yanıtlar",
+      "sentence": "bu kart 7 ekim 2026 tarihli konsolide metne gore yayim 7 ekim yururluk 8 ekim",
+      "records": 5,
+      "fields": [
+        "summary",
+        "timing"
+      ],
+      "sample": "bu kart 7 Ekim 2026 tarihli konsolide metne göre (yayım 7 Ekim, yürürlük 8 Ekim)"
+    },
+    {
+      "sheet": "Yanıtlar",
+      "sentence": "kira yasasi 2026 da degisiyor",
+      "records": 5,
+      "fields": [
+        "summary",
+        "timing"
+      ],
+      "sample": "Kira yasası 2026'da değişiyor"
+    },
+    {
+      "sheet": "Yanıtlar",
+      "sentence": "790 kodu 012 harc odeme belgesi",
+      "records": 4,
+      "fields": [
+        "documents"
+      ],
+      "sample": "790 kodu 012 harç ödeme belgesi"
+    },
+    {
+      "sheet": "Yanıtlar",
+      "sentence": "kararname real decreto ley oldugu icin ileride degisebilir",
+      "records": 4,
+      "fields": [
+        "summary",
+        "timing"
+      ],
+      "sample": "kararname (Real Decreto-ley) olduğu için ileride değişebilir"
+    },
+    {
+      "sheet": "Yanıtlar",
+      "sentence": "bu surede cevap gelmezse basvuru reddedilmis sayilir",
+      "records": 3,
+      "fields": [
+        "timing"
+      ],
+      "sample": "bu sürede cevap gelmezse başvuru reddedilmiş sayılır"
+    },
+    {
+      "sheet": "Yanıtlar",
+      "sentence": "ispanya da duzensiz durumda olmaman gerekir",
+      "records": 3,
+      "fields": [
+        "steps"
+      ],
+      "sample": "İspanya'da düzensiz durumda olmaman gerekir"
+    }
+  ],
+  "shared_steps": [],
+  "placeholders": {
+    "count": 0,
+    "by_field": {},
+    "items": []
+  },
+  "filler": {
+    "count": 0,
+    "items": []
+  },
+  "hedges": {
+    "cards_total": 380,
+    "cards_with_hedge": 1,
+    "share": 0.0026,
+    "max_per_card": 1,
+    "by_pattern": {
+      "resmi_kaynaktan_dogrula": 1
+    },
+    "items": [
+      {
+        "sheet": "Yanıtlar",
+        "row": 114,
+        "id": "malaga:caminito-del-rey-bilet-rezervasyonu-yas-siniri-servis-ve-otopark",
+        "count": 1,
+        "patterns": [
+          "resmi_kaynaktan_dogrula"
+        ]
+      }
+    ]
+  },
+  "evasive_answers": {
+    "count": 0,
+    "items": []
+  },
+  "action_links": {
+    "skipped": false,
+    "checked": 380,
+    "missing": 0,
+    "map_only": 0,
+    "no_id": 0,
+    "items": []
+  },
+  "visual_json": {
+    "total": 244,
+    "empty": 242,
+    "valid": 2,
+    "by_error": {},
+    "errors": []
+  },
+  "caption_is_title": {
+    "count": 0,
+    "total": 0,
+    "items": []
+  },
+  "address": {
+    "standard": "sen",
+    "records": 484,
+    "hitapsiz": 214,
+    "siz": 0,
+    "sen": 268,
+    "karisik": 2,
+    "by_sheet": {
+      "Yanıtlar": {
+        "records": 244,
+        "hitapsiz": 1,
+        "siz": 0,
+        "sen": 243,
+        "karisik": 0
+      },
+      "Mekânlar": {
+        "records": 120,
+        "hitapsiz": 108,
+        "siz": 0,
+        "sen": 11,
+        "karisik": 1
+      },
+      "Mahalleler": {
+        "records": 16,
+        "hitapsiz": 16,
+        "siz": 0,
+        "sen": 0,
+        "karisik": 0
+      },
+      "Rotalar": {
+        "records": 0,
+        "hitapsiz": 0,
+        "siz": 0,
+        "sen": 0,
+        "karisik": 0
+      },
+      "Adımlar": {
+        "records": 6,
+        "hitapsiz": 0,
+        "siz": 0,
+        "sen": 6,
+        "karisik": 0
+      },
+      "Konular": {
+        "records": 12,
+        "hitapsiz": 12,
+        "siz": 0,
+        "sen": 0,
+        "karisik": 0
+      },
+      "Sözlük": {
+        "records": 62,
+        "hitapsiz": 62,
+        "siz": 0,
+        "sen": 0,
+        "karisik": 0
+      },
+      "SayfaAlanları": {
+        "records": 23,
+        "hitapsiz": 15,
+        "siz": 0,
+        "sen": 7,
+        "karisik": 1
+      },
+      "Şehir": {
+        "records": 1,
+        "hitapsiz": 0,
+        "siz": 0,
+        "sen": 1,
+        "karisik": 0
+      },
+      "Fotoğraflar": {
+        "records": 0,
+        "hitapsiz": 0,
+        "siz": 0,
+        "sen": 0,
+        "karisik": 0
+      }
+    },
+    "labels": {
+      "records": 581,
+      "hitapsiz": 79,
+      "siz": 0,
+      "sen": 502,
+      "karisik": 0
+    },
+    "skipped": [],
+    "findings": [
+      {
+        "sheet": "Mekânlar",
+        "row": 36,
+        "id": "malaga:parque-forestal-monte-victoria",
+        "form": "karisik",
+        "fields": {
+          "summary": "karisik"
+        },
+        "siz": [
+          "yazın"
+        ],
+        "sen": [
+          "gözlemleyebilirsin"
+        ],
+        "reason": "karisik"
+      },
+      {
+        "sheet": "SayfaAlanları",
+        "row": 27,
+        "id": "malaga:field:timeline",
+        "form": "karisik",
+        "fields": {
+          "value": "karisik"
+        },
+        "siz": [
+          "edin"
+        ],
+        "sen": [
+          "bak",
+          "başla",
+          "et",
+          "öğren",
+          "al"
+        ],
+        "reason": "karisik"
+      }
+    ],
+    "items": [
+      {
+        "sheet": "Yanıtlar",
+        "row": 8,
+        "id": "malaga:egitim-sistemi-zorunlu-egitim-ve-okul-turleri",
+        "form": "sen",
+        "fields": {
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "belirle",
+          "seç",
+          "hakkın",
+          "istiyorsan",
+          "yap"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 9,
+        "id": "malaga:yabanci-lise-diplomasi-ile-universiteye-giris",
+        "form": "sen",
+        "fields": {
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "bak",
+          "grubundasın",
+          "yaptırman",
+          "olman",
+          "gruptaysan"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 10,
+        "id": "malaga:ingreso-minimo-vital-ve-cocuk-destegi",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "oturduğun",
+          "üyesiysen",
+          "kanıtlarsın",
+          "dur",
+          "ver"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 11,
+        "id": "malaga:mec-burslari-ab-disi-sart-ve-basvuru-donemi",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "cost": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "değilsen",
+          "küçüksen",
+          "almışsan",
+          "kazanabilirsin",
+          "değiştirmen"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 12,
+        "id": "malaga:endulus-okul-kaydi-basvuru-donemi-ve-gec-gelen-ogrenci",
+        "form": "sen",
+        "fields": {
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "doldur",
+          "istediğin",
+          "ver",
+          "kullan",
+          "yazabilirsin"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 13,
+        "id": "malaga:okul-basvurusu-sonrasi-puanlama-kura-ve-kesin-kayit",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "zorundasın",
+          "ara",
+          "itirazın",
+          "ver",
+          "olman"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 14,
+        "id": "malaga:okul-bulma-iescolariza-ve-etki-alani",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "sorgularsın",
+          "verirsin",
+          "indir",
+          "seç",
+          "gör"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 15,
+        "id": "malaga:okul-puanlama-olcutleri-kardes-adres-engel-ve-belgeler",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "documents": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "edersen",
+          "sen",
+          "verirsin",
+          "kardeşin",
+          "belirt"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 16,
+        "id": "malaga:kres-0-3-yas-basvuru-takvimi-ve-ucretsiz-yer",
+        "form": "sen",
+        "fields": {
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "bul",
+          "gireceksen",
+          "ver",
+          "başvur",
+          "kaydettirmezsen"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 17,
+        "id": "malaga:ispanyolca-bilmeyen-cocuga-okulda-dil-destegi-atal",
+        "form": "sen",
+        "fields": {
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "sor",
+          "kullan"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 18,
+        "id": "malaga:ucretsiz-ders-kitabi-cheque-libro-ve-ipasen",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "timing": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "istediğin",
+          "alırsın",
+          "gir",
+          "git",
+          "indir"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 19,
+        "id": "malaga:okul-yemegi-aula-matinal-ve-etkinlik-basvurusu-ve-bonificacion",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "öğren"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 20,
+        "id": "malaga:dogan-bebegin-registro-civil-kaydi-sure-belge-ve-ucret",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "edersin",
+          "et",
+          "nedenin",
+          "doldur",
+          "ekle"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 21,
+        "id": "malaga:malaga-registro-civil-ofisi-ve-bebegin-padron-kaydi",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "gidersin",
+          "yaparsın",
+          "arayabilirsin",
+          "yazabilirsin",
+          "git"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 22,
+        "id": "malaga:3-yas-alti-cocuk-anne-vergi-indirimi-deduccion-por-maternidad",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "olmalısın",
+          "olduysan",
+          "olman",
+          "sağladığın",
+          "ulaştığın"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 23,
+        "id": "malaga:endulus-cocuklu-aileler-icin-yardim-ve-destek-listesi",
+        "form": "sen",
+        "fields": {
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "kayıtlıysan",
+          "bak",
+          "öğren",
+          "al",
+          "ara"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 24,
+        "id": "malaga:malaga-sosyal-hizmetler-merkezi-cssc-ve-aile-ekonomik-yardimi",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "ettiğin",
+          "oturduğun",
+          "Oturduğun",
+          "bul",
+          "et"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 25,
+        "id": "malaga:egitim-delegasyonu-malaga-konulara-gore-iletisim-adresleri",
+        "form": "sen",
+        "fields": {
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "yaz",
+          "kullan",
+          "ara"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 26,
+        "id": "malaga:kira-sozlesmesi-suresi-ve-uzama",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "istemiyorsan",
+          "bildirirsin",
+          "bak",
+          "sana",
+          "bil"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 27,
+        "id": "malaga:kira-depozitosu-fianza-ve-iade",
+        "form": "sen",
+        "fields": {
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "ver",
+          "bil",
+          "senden",
+          "sen",
+          "isteyebilirsin"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 28,
+        "id": "malaga:kira-artisi-siniri-irav",
+        "form": "sen",
+        "fields": {
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "bak"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 29,
+        "id": "malaga:kirada-onarim-ve-hasar-sorumlulugu",
+        "form": "sen",
+        "fields": {
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "bildir",
+          "ver",
+          "bekle",
+          "kendin",
+          "yaptır"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 30,
+        "id": "malaga:kiralik-evden-cikis-ve-ihbar-suresi",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "istiyorsan",
+          "bildirirsin",
+          "ol",
+          "bildir",
+          "ayrılıyorsan"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 31,
+        "id": "malaga:kiralik-ilan-dolandiriciligini-tanima",
+        "form": "sen",
+        "fields": {
+          "title": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "tanırsın",
+          "ol",
+          "ilgilendiğin",
+          "karşılaştır",
+          "bak"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 32,
+        "id": "malaga:endulus-kira-depozitosu-fianza-avra-yatirma-zorunlulugu",
+        "form": "sen",
+        "fields": {
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "bak",
+          "bulun"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 33,
+        "id": "malaga:konut-hakki-ofisi-imv-kira-ipotek-sorunu",
+        "form": "sen",
+        "fields": {
+          "title": "sen",
+          "summary": "sen",
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "ödeyemiyorsan",
+          "başvurursun",
+          "Başvuracağın",
+          "seni",
+          "sana"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 34,
+        "id": "malaga:imv-randevu-telefon-ve-evrak-kayit-noktalari",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "alırsın",
+          "ulaşabilirsin",
+          "alabilirsin",
+          "gidersin",
+          "gidebileceğin"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 35,
+        "id": "malaga:korumali-konut-talep-sicili-registro-demandantes",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "olman",
+          "istiyorsan",
+          "işaretlersin",
+          "olursun",
+          "yaparsın"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 36,
+        "id": "malaga:r12-universidad-202-kiralik-vpo-kira-ve-sartlar",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "dur",
+          "yap",
+          "olduğun",
+          "ol",
+          "hesapla"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 37,
+        "id": "malaga:korumali-konut-cagrilari-sira-mi-kura-mi",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "okuyabilirsin",
+          "bak",
+          "başvur",
+          "seçilirsen",
+          "yap"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 38,
+        "id": "malaga:bono-alquiler-joven-endulus-2026-kimler-alir",
+        "form": "sen",
+        "fields": {
+          "title": "sen",
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "kadarsan",
+          "alırsın",
+          "kanıtlamalısın",
+          "dur",
+          "seninle"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 40,
+        "id": "malaga:kiraladigin-daire-turistik-mi-konut-kirasi-mi",
+        "form": "sen",
+        "fields": {
+          "title": "sen",
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "Kiraladığın",
+          "anlarsın",
+          "bakabilirsin",
+          "indirmen",
+          "bak"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 41,
+        "id": "malaga:kiraci-giderleri-aidat-ibi-cop-ve-faturalar",
+        "form": "sen",
+        "fields": {
+          "title": "sen",
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "ödersin",
+          "ölçebildiğin",
+          "sen",
+          "sana",
+          "et"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 42,
+        "id": "malaga:ibi-emlak-vergisi-malaga-kim-oder-takvim",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "dur",
+          "alıyorsan",
+          "yaptırmıyorsan",
+          "kullan",
+          "yap"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 43,
+        "id": "malaga:konteyner-renkleri-ev-cop-ayirma-limasam",
+        "form": "sen",
+        "fields": {
+          "title": "sen",
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "atarsın",
+          "bilmediğin",
+          "sorabilirsin",
+          "koy",
+          "sakla"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 44,
+        "id": "malaga:eski-mobilya-atma-gunu-ve-saati-malaga",
+        "form": "sen",
+        "fields": {
+          "title": "sen",
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "bırakırsın",
+          "öğrenirsin",
+          "koy",
+          "götürürsün",
+          "gidemiyorsan"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 45,
+        "id": "malaga:punto-limpio-malaga-adresler-ve-kabul-edilenler",
+        "form": "sen",
+        "fields": {
+          "title": "sen",
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "bırakırsın",
+          "atığın",
+          "gidersin",
+          "bırakamazsın",
+          "götürürsün"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 46,
+        "id": "malaga:belediye-makbuzu-banka-atm-kart-bizum-odeme-malaga",
+        "form": "sen",
+        "fields": {
+          "title": "sen",
+          "summary": "sen",
+          "steps": "sen",
+          "timing": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "ödersin",
+          "alırsın",
+          "yaparsın",
+          "kullanırsın",
+          "girersin"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 47,
+        "id": "malaga:elektrik-aboneligi-serbest-piyasa-pvpc",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "documents": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "kararlaştırırsın",
+          "yaparsın",
+          "ver",
+          "değilsen",
+          "giremezsin"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 48,
+        "id": "malaga:elektrik-faturasi-nasil-okunur",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "tüketmesen",
+          "sözleşmediysen",
+          "et",
+          "bak",
+          "bul"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 49,
+        "id": "malaga:sozlesmeli-elektrik-gucu-nasil-secilir",
+        "form": "sen",
+        "fields": {
+          "subtitle": "sen",
+          "summary": "sen",
+          "steps": "sen",
+          "timing": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "tüketmesen",
+          "tut",
+          "iste",
+          "değiştirirsin",
+          "hakkın"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 50,
+        "id": "malaga:dogalgaz-aboneligi-tur-ve-fatura",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "kararlaştırırsın",
+          "belirle",
+          "karşılaştır",
+          "yapabilirsin",
+          "seç"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 51,
+        "id": "malaga:bono-social-elektrik-kimler-alir",
+        "form": "sen",
+        "fields": {
+          "subtitle": "sen",
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "Oturduğun",
+          "oturduğun",
+          "et",
+          "bak",
+          "aileysen"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 52,
+        "id": "malaga:internet-mobil-hat-sozlesmesi-taahhut-cayma",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "ödediysen",
+          "imzaladığın",
+          "cayamazsın",
+          "verdiğin",
+          "bildiğin"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 53,
+        "id": "malaga:cnmc-teklif-karsilastirma-araci",
+        "form": "sen",
+        "fields": {
+          "subtitle": "sen",
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "seçtiğin",
+          "yaparsın",
+          "başvurursun",
+          "aç",
+          "açabilirsin"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 54,
+        "id": "malaga:elektrik-ve-telekom-sikayet-yollari",
+        "form": "sen",
+        "fields": {
+          "subtitle": "sen",
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "et",
+          "bekle",
+          "edersin",
+          "kalmazsan",
+          "gidebilirsin"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 55,
+        "id": "malaga:apartman-yonetimi-comunidad-de-vecinos",
+        "form": "sen",
+        "fields": {
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "katıl",
+          "bildir",
+          "bildirmezsen",
+          "istiyorsan",
+          "belirt"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 56,
+        "id": "malaga:emasa-su-aboneligi-acma-kapatma-devir",
+        "form": "sen",
+        "fields": {
+          "title": "sen",
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "devredersin",
+          "yüklediğin",
+          "gönderebilirsin",
+          "gir",
+          "yapmayacaksan"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 57,
+        "id": "malaga:emasa-su-arizasi-ve-basinc-sorunu-bildirme",
+        "form": "sen",
+        "fields": {
+          "title": "sen",
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "bildirirsin",
+          "dur",
+          "ara",
+          "arıyorsan",
+          "bildirebilirsin"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 58,
+        "id": "malaga:emasa-su-faturasi-odeme-itiraz-ve-otomatik-odeme",
+        "form": "sen",
+        "fields": {
+          "title": "sen",
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "istersin",
+          "görürsün",
+          "tanımlarsın",
+          "görürsen",
+          "ödeyemediğin"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 59,
+        "id": "malaga:emasa-fondo-social-su-faturasi-yardimi",
+        "form": "sen",
+        "fields": {
+          "title": "sen",
+          "summary": "sen",
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "ödeyemiyorsan",
+          "alırsın",
+          "verirsin",
+          "olmalısın",
+          "borcun"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 60,
+        "id": "malaga:emasa-tarifeleri-2024-guncellemesi-bes-yil",
+        "form": "sen",
+        "fields": {
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "bil",
+          "tut"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 61,
+        "id": "malaga:cop-toplama-odemesi-pppnt-isyeri-ve-turistik-konut",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "kullanmasan",
+          "işletiyorsan",
+          "bil",
+          "bul",
+          "yap"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 62,
+        "id": "malaga:malaga-tuketici-ofisi-fatura-ve-hizmet-sikayeti",
+        "form": "sen",
+        "fields": {
+          "title": "sen",
+          "subtitle": "sen",
+          "summary": "sen",
+          "steps": "sen",
+          "documents": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "iletirsin",
+          "ver",
+          "bekle",
+          "istemediğin",
+          "şikâyetçiysen"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 63,
+        "id": "malaga:hoja-de-reclamaciones-nasil-istenir-ve-verilir",
+        "form": "sen",
+        "fields": {
+          "title": "sen",
+          "subtitle": "sen",
+          "summary": "sen",
+          "steps": "sen",
+          "documents": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "yaparsın",
+          "edebilirsin",
+          "bulunduğun",
+          "iste",
+          "isteyebilirsin"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 64,
+        "id": "malaga:telekom-sozlesmesi-asgari-icerik-ve-sozlesme-oncesi-kosullar",
+        "form": "sen",
+        "fields": {
+          "title": "sen",
+          "subtitle": "sen",
+          "summary": "sen",
+          "steps": "sen",
+          "documents": "sen",
+          "timing": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "istersin",
+          "hakkın",
+          "sana",
+          "iste",
+          "bozarsan"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 65,
+        "id": "malaga:resmi-tatiller-2027",
+        "form": "sen",
+        "fields": {
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "planla",
+          "bak",
+          "oku",
+          "öğren"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 66,
+        "id": "malaga:magaza-acilis-saatleri-cercevesi",
+        "form": "sen",
+        "fields": {
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "bak"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 67,
+        "id": "malaga:ab-disi-paket-gumruk-iva",
+        "form": "sen",
+        "fields": {
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "bak",
+          "öde",
+          "edeceksen",
+          "bil"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 68,
+        "id": "malaga:diger-resmi-yardim-hatlari",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "dur",
+          "ara",
+          "ulaşabilirsin"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 69,
+        "id": "malaga:bahsis-ve-odeme-aliskanliklari",
+        "form": "sen",
+        "fields": {
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "ver",
+          "belirle",
+          "ödeyeceksen",
+          "kat"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 70,
+        "id": "malaga:endulus-2027-resmi-tatilleri",
+        "form": "sen",
+        "fields": {
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "kat",
+          "ekle"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 71,
+        "id": "malaga:malaga-acil-durumda-112-061-ve-urgencias-numarasi",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "ararsın",
+          "ara",
+          "yükle",
+          "gönderebilirsin"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 72,
+        "id": "malaga:malaga-polise-suc-duyurusu-denuncia-ve-denuncia-ofisleri",
+        "form": "sen",
+        "fields": {
+          "subtitle": "sen",
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "seçtiğin",
+          "imzalarsın",
+          "tanıyabileceğin",
+          "ararsın",
+          "doldur"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 73,
+        "id": "malaga:malaga-geri-donusum-konteyner-renkleri-ve-atik-turleri",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "atarsın",
+          "bilmediğin",
+          "sorabilirsin",
+          "bulabilirsin"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 74,
+        "id": "malaga:malaga-eski-mobilya-ve-buyuk-esya-toplama-gunu-ve-saati",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "bırakırsın",
+          "öğrenirsin",
+          "taşıyamıyorsan",
+          "alırsın",
+          "öğren"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 75,
+        "id": "malaga:malaga-punto-limpio-atik-merkezi-adres-ve-saatler",
+        "form": "sen",
+        "fields": {
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "bul",
+          "git",
+          "getir",
+          "götür"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 76,
+        "id": "malaga:malaga-yerel-tatilleri-19-agustos-ve-8-eylul-ve-yilin-kalan-tatilleri",
+        "form": "sen",
+        "fields": {
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "ekle"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 77,
+        "id": "malaga:malaga-plajlarda-cankurtaran-saatleri-ambulans-ve-sorun-bildirme",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "arayabilirsin",
+          "kullan",
+          "et",
+          "git",
+          "ara"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 78,
+        "id": "malaga:malaga-feria-de-agosto-takvimi-19-agustos-ve-centro-historico-saat-siniri",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "yolla",
+          "kat",
+          "bil"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 79,
+        "id": "malaga:malaga-plaj-kurallari-yasaklar-ve-kopek-plaji-playa-de-la-arana",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "girebileceğin",
+          "gideceksen",
+          "seç",
+          "tut",
+          "götür"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 80,
+        "id": "malaga:malaga-omac-belediye-hizmet-ofisleri-isler-ve-randevu",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "alırsın",
+          "sunabilirsin",
+          "al",
+          "ara",
+          "üstündeysen"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 81,
+        "id": "malaga:malaga-belediye-spor-tesisleri-acik-saatler-ve-online-hizmet-kaydi",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "yaparsın",
+          "verirsin",
+          "et",
+          "doldur",
+          "ver"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 82,
+        "id": "malaga:malaga-acik-hava-pazarlari-mercadillo-gunleri-ve-saatleri",
+        "form": "sen",
+        "fields": {
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "bak",
+          "git"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 83,
+        "id": "malaga:is-sozlesmesi-turleri",
+        "form": "sen",
+        "fields": {
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "bak",
+          "çalıştırılırsan",
+          "sayılırsın"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 84,
+        "id": "malaga:asgari-ucret-smi-2026-calisma-saatleri",
+        "form": "sen",
+        "fields": {
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "bak",
+          "çalışıyorsan",
+          "hizmetlisiysen"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 85,
+        "id": "malaga:yillik-izin-ve-resmi-tatiller-2026",
+        "form": "sen",
+        "fields": {
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "belirlersin",
+          "anlaşamazsan",
+          "öğrenirsin",
+          "kullanırsın",
+          "kullanabilirsin"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 86,
+        "id": "malaga:maas-bordrosu-nomina-icerigi",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "onayladığın",
+          "dur",
+          "et",
+          "oku",
+          "al"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 87,
+        "id": "malaga:finiquito-isten-ayrilirken-tasfiye-belgesi",
+        "form": "sen",
+        "fields": {
+          "subtitle": "sen",
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "isteyebilirsin",
+          "yazdırabilirsin",
+          "bak",
+          "iste",
+          "senin"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 88,
+        "id": "malaga:isten-cikarilma-despido-turleri-ve-tazminat",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "seni",
+          "et",
+          "sana",
+          "hakkın",
+          "etmiyorsan"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 89,
+        "id": "malaga:issizlik-maasi-paro-sepe-basvurusu",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "ödediysen",
+          "kaldıysan",
+          "alabilirsin",
+          "çalıştığın",
+          "yaparsın"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 90,
+        "id": "malaga:is-kazasi-ve-meslek-hastaligi-tanimi",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "geçirdiğin",
+          "yaptığın",
+          "uğradığın",
+          "aldığın",
+          "belirle"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 91,
+        "id": "malaga:serbest-calisan-autonomo-kayit-ve-prim-tablosu",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "timing": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "oturduğun",
+          "olursun",
+          "yaparsın",
+          "ödeyeceğin",
+          "kendin"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 92,
+        "id": "malaga:dogum-ve-babalik-izni-sureleri",
+        "form": "sen",
+        "fields": {
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "kullan",
+          "kullanabilirsin",
+          "bildir",
+          "devredemezsin",
+          "olman"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 93,
+        "id": "malaga:yabanci-diploma-denklik-okul-ve-universite",
+        "form": "sen",
+        "fields": {
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "belirle",
+          "olmalısın",
+          "yolla",
+          "yap",
+          "ekle"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 94,
+        "id": "malaga:endulus-sae-is-arayan-kaydi-demandante-de-empleo",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "yaparsın",
+          "gönderirsen",
+          "tamamlarsın",
+          "vatandaşsan",
+          "ol"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 95,
+        "id": "malaga:sepe-malaga-teatinos-ofisi",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "alırsın",
+          "iste",
+          "ara",
+          "al",
+          "sor"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 96,
+        "id": "malaga:andalucia-orienta-imfe-teatinos",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "gidersin",
+          "sana",
+          "istersin",
+          "ol",
+          "kullan"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 97,
+        "id": "malaga:imfe-belediye-istihdam-ofisi",
+        "form": "sen",
+        "fields": {
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "ulaş",
+          "yaz",
+          "git",
+          "ara",
+          "sana"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 98,
+        "id": "malaga:promalaga-sirket-kurma-pae",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "alırsın",
+          "iste",
+          "yaz",
+          "ara",
+          "yaptır"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 99,
+        "id": "malaga:cade-malaga-andalucia-emprende",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "alırsın",
+          "doldur",
+          "seç",
+          "ara",
+          "ulaşırsın"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 100,
+        "id": "malaga:ayuda-al-empleo-issizler-icin-ulasim-karti",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "timing": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "alırsın",
+          "et",
+          "kaydın",
+          "olmalısın",
+          "başvur"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 101,
+        "id": "malaga:imfe-t-acompanamos-uzun-sureli-issizler",
+        "form": "sen",
+        "fields": {
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "et",
+          "alıyorsun",
+          "doldur",
+          "git",
+          "yaz"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 102,
+        "id": "malaga:imfe-sirkette-3-aylik-staj-experiencias-profesionales",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "olmalısın",
+          "çalışırsın",
+          "tamamlarsan",
+          "bak",
+          "ol"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 103,
+        "id": "malaga:zona-empleo-conecta-malaga-mahalle-istihdam-merkezleri",
+        "form": "sen",
+        "fields": {
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "bak",
+          "doldur",
+          "kullan",
+          "seninle",
+          "sana"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 104,
+        "id": "malaga:seguridad-social-randevu-inss-tgss",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "alırsın",
+          "istiyorsan",
+          "ara",
+          "sana",
+          "yaparsın"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 105,
+        "id": "malaga:picasso-muzeleri-ucretsiz-giris-gunleri",
+        "form": "sen",
+        "fields": {
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "seç",
+          "yaz",
+          "gidiyorsan"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 106,
+        "id": "malaga:pompidou-ve-thyssen-ucretsiz-giris-gunleri",
+        "form": "sen",
+        "fields": {
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "seç",
+          "kaydet",
+          "gidiyorsan"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 107,
+        "id": "malaga:picasso-ve-thyssen-bilet-fiyati-indirim-ve-ucretsiz-kategoriler",
+        "form": "sen",
+        "fields": {
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "belirle",
+          "götür",
+          "sakiniysen",
+          "göster"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 108,
+        "id": "malaga:pompidou-ve-casa-natal-bilet-fiyati-ortak-bilet-ve-ucretsiz-kategoriler",
+        "form": "sen",
+        "fields": {
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "belirle",
+          "al",
+          "göstermen",
+          "ziyaretçiysen",
+          "yapabilmen"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 109,
+        "id": "malaga:alcazaba-ve-gibralfaro-bilet-fiyati-indirim-ve-pazar-ucretsiz-giris",
+        "form": "sen",
+        "fields": {
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "istiyorsan",
+          "git",
+          "gezeceksen",
+          "seç",
+          "götür"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 110,
+        "id": "malaga:museo-de-malaga-ve-teatro-romano-ab-vatandasi-ucretsiz-giris-ve-ab-disi-ucret",
+        "form": "sen",
+        "fields": {
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "git",
+          "alınmazsın",
+          "gel",
+          "değilsen",
+          "öde"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 111,
+        "id": "malaga:malaga-katedrali-bilet-turleri-malagali-ucretsiz-giris-ve-saatler",
+        "form": "sen",
+        "fields": {
+          "title": "sen",
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "misin",
+          "alırsın",
+          "sakiniysen",
+          "seç",
+          "al"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 112,
+        "id": "malaga:la-concepcion-botanik-bahcesi-pazar-ucretsiz-saatleri-ve-indirimli-bilet",
+        "form": "sen",
+        "fields": {
+          "title": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "girersin",
+          "git",
+          "al",
+          "alamazsın",
+          "göster"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 113,
+        "id": "malaga:montes-de-malaga-doga-yuruyusu-isaretli-patikalar-ve-kurallar",
+        "form": "sen",
+        "fields": {
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "seç",
+          "uğra",
+          "çık",
+          "gidiyorsan",
+          "et"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 114,
+        "id": "malaga:caminito-del-rey-bilet-rezervasyonu-yas-siniri-servis-ve-otopark",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "alırsın",
+          "al",
+          "dene",
+          "edebilirsin",
+          "götür"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 115,
+        "id": "malaga:belediye-spor-tesisleri-online-hizmet-kaydi-alta-de-servicios",
+        "form": "sen",
+        "fields": {
+          "title": "sen",
+          "summary": "sen",
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "yaptırırsın",
+          "kaydolursun",
+          "edersin",
+          "sana",
+          "imzalarsın"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 116,
+        "id": "malaga:belediye-spor-tesisleri-acilis-saatleri-ve-musaitlik-sorgulama",
+        "form": "sen",
+        "fields": {
+          "title": "sen",
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "bakarsın",
+          "görürsün",
+          "olman",
+          "Gideceğin",
+          "bak"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 117,
+        "id": "malaga:montes-de-malaga-cevresinde-verdiales-ve-yerel-senlik-takvimi",
+        "form": "sen",
+        "fields": {
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "istiyorsan",
+          "git",
+          "bak",
+          "yap"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 118,
+        "id": "malaga:pompidou-ve-thyssen-muzelerine-canta-semsiye-yiyecek-ve-hayvanla-giris-kurallari",
+        "form": "sen",
+        "fields": {
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "bırakacağın",
+          "düşün"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 119,
+        "id": "malaga:gibralfaro-ve-monte-victoria-orman-parklari-sehir-icinde-yuruyus",
+        "form": "sen",
+        "fields": {
+          "title": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "gidersin",
+          "gir",
+          "seç",
+          "çık"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 120,
+        "id": "malaga:piknik-ve-barbeku-yapabilecegin-orman-parklari-la-concepcion-ve-lagarillo-blanco",
+        "form": "sen",
+        "fields": {
+          "title": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "yapabileceğin",
+          "git",
+          "gidiyorsan",
+          "kullan",
+          "çık"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 121,
+        "id": "malaga:mimma-muzik-muzesi-ve-parque-de-la-alegria-cocuklarla-gidilecek-yerler",
+        "form": "sen",
+        "fields": {
+          "title": "sen",
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "gidebilirsin",
+          "çalabileceğin",
+          "deneyebilirsin",
+          "git",
+          "dene"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 122,
+        "id": "malaga:belediye-kapali-pazar-yerleri-mercados-municipales-hangileri-nerede",
+        "form": "sen",
+        "fields": {
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "Oturduğun",
+          "seç",
+          "bak",
+          "git"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 123,
+        "id": "malaga:parque-de-malaga-ve-pedro-luis-alonso-bahceleri-sehir-merkezinde-tarihi-parklar",
+        "form": "sen",
+        "fields": {
+          "title": "sen",
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "görürsün",
+          "görebilirsin",
+          "gir",
+          "gez"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 124,
+        "id": "malaga:nie-nedir-ne-ise-yarar",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "bildirmen",
+          "olmaman",
+          "doldur",
+          "al",
+          "öde"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 125,
+        "id": "malaga:ab-vatandasi-kayit-sertifikasi",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "vatandaşıysan",
+          "kalacaksan",
+          "kalacağın",
+          "kendin",
+          "zorundasın"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 126,
+        "id": "malaga:tie-yabanci-kimlik-karti",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "kendin",
+          "istemelisin",
+          "başvurursun",
+          "bak",
+          "iste"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 127,
+        "id": "malaga:ab-vatandasi-calisma-izni-gerekli-mi",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "kalacaksan",
+          "belirle",
+          "bil",
+          "seninle",
+          "sana"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 128,
+        "id": "malaga:oturum-izni-yenileme",
+        "form": "sen",
+        "fields": {
+          "subtitle": "sen",
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "başvur",
+          "başvurman",
+          "başvurursan",
+          "başvursan",
+          "ödersin"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 129,
+        "id": "malaga:aile-birlesimi-ile-oturum",
+        "form": "sen",
+        "fields": {
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "et",
+          "Getireceğin",
+          "ol",
+          "olduğun",
+          "göster"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 130,
+        "id": "malaga:kalici-oturum-bes-yil",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "documents": "sen",
+          "timing": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "oturduysan",
+          "oturduğun",
+          "yaparsın",
+          "istersin",
+          "et"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 131,
+        "id": "malaga:arraigo-kok-salma-oturumu",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "olmalısın",
+          "belirle",
+          "et",
+          "İspanya'dasın",
+          "değilsin"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 132,
+        "id": "malaga:dijital-gocebe-vizesi",
+        "form": "sen",
+        "fields": {
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "çalışıyorsan",
+          "hazırla",
+          "ekle",
+          "göster",
+          "sana"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 133,
+        "id": "malaga:kar-amaci-gutmeyen-oturum-vizesi",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "olduğun",
+          "göster",
+          "yaptır",
+          "yaşadığın",
+          "al"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 134,
+        "id": "malaga:altin-vize-sona-erdi",
+        "form": "sen",
+        "fields": {
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "planlıyorsan",
+          "yaptıysan",
+          "iznin",
+          "istiyorsan"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 135,
+        "id": "malaga:ogrenci-oturumuyla-calisma-hakki",
+        "form": "sen",
+        "fields": {
+          "title": "sen",
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "hakkın",
+          "iznin",
+          "bak",
+          "çalışabilirsin",
+          "sen"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 136,
+        "id": "malaga:ispanyol-vatandasligi-basvurusu",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "göstermen",
+          "geçmelisin",
+          "belirle",
+          "ol",
+          "eşiysen"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 137,
+        "id": "malaga:brexit-sonrasi-ingiliz-oturumu",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "başvurursun",
+          "istersin",
+          "bak",
+          "istemen",
+          "iste"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 138,
+        "id": "malaga:nie-basvurusu-polis-birimi",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "cost": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "verirsin",
+          "belirle",
+          "olmaman",
+          "doldur",
+          "al"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 139,
+        "id": "malaga:tie-karti-basvuru-birimi",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "cost": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "verirsin",
+          "istersin",
+          "istemen",
+          "yeniliyorsan",
+          "iste"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 140,
+        "id": "malaga:ilce-polis-birimlerinde-nie-tie",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "Oturduğun",
+          "seç",
+          "Sol'daysan",
+          "git",
+          "Vélez-Málaga'daysan"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 141,
+        "id": "malaga:yabanci-hukuki-danismanlik-010",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "ulaşırsın",
+          "ara",
+          "bak",
+          "sor",
+          "durumun"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 142,
+        "id": "malaga:gocmen-dernekleri-listesi",
+        "form": "sen",
+        "fields": {
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "ara",
+          "git",
+          "ulaş",
+          "yaşıyorsan"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 143,
+        "id": "malaga:entegrasyon-cabasi-raporu",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "documents": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "alırsın",
+          "sunabileceğin",
+          "ettiğin",
+          "olman",
+          "et"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 144,
+        "id": "malaga:turk-vatandaslari-konsolosluk-madrid",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "başvuracağın",
+          "al",
+          "git",
+          "ara"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 145,
+        "id": "malaga:banka-hesabi-acma-ve-temel-odeme-hesabi",
+        "form": "sen",
+        "fields": {
+          "title": "sen",
+          "subtitle": "sen",
+          "summary": "sen",
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "yapabilirsin",
+          "oturduğun",
+          "doğduğun",
+          "senin",
+          "açtıramazsan"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 146,
+        "id": "malaga:iban-ve-sepa-havalesi",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "girdiğin",
+          "edersen",
+          "gir",
+          "seçebilirsin",
+          "bil"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 147,
+        "id": "malaga:gelir-vergisi-irpf-devlet-dilimleri",
+        "form": "sen",
+        "fields": {
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "uygula",
+          "sana",
+          "belirle",
+          "ekle"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 148,
+        "id": "malaga:kdv-iva-oranlari",
+        "form": "sen",
+        "fields": {
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "kat",
+          "bil"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 149,
+        "id": "malaga:yillik-gelir-vergisi-beyani-renta",
+        "form": "sen",
+        "fields": {
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "kalsan",
+          "istiyorsan",
+          "vermen"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 150,
+        "id": "malaga:vergi-iadesi-devolucion-renta",
+        "form": "sen",
+        "fields": {
+          "subtitle": "sen",
+          "summary": "sen",
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "yazdığın",
+          "belirttiğin",
+          "sen",
+          "sorgulayabilirsin",
+          "belirt"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 151,
+        "id": "malaga:gestor-asesor-vergi-beyani-temsil",
+        "form": "sen",
+        "fields": {
+          "title": "sen",
+          "subtitle": "sen",
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "senin",
+          "kendin",
+          "verebilirsin",
+          "istersen",
+          "kullanabilirsin"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 152,
+        "id": "malaga:arac-sigortasi-zorunlulugu-ve-hipotek-sigortalari",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "yaptırırsan",
+          "yap",
+          "tut",
+          "ettiysen",
+          "ettiğin"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 153,
+        "id": "malaga:emeklilik-yasi-ve-prim-suresi",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "dur",
+          "belirle",
+          "bil"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 154,
+        "id": "malaga:bizum-nedir-nasil-kullanilir",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "gönderdiğin",
+          "seç",
+          "bağlayabilirsin"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 155,
+        "id": "malaga:banka-ucretleri-ve-seffaflik-haklari",
+        "form": "sen",
+        "fields": {
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "karşılaştır",
+          "bil",
+          "hatırla",
+          "aşarsan",
+          "sana"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 156,
+        "id": "malaga:beckham-yasasi-ozel-vergi-rejimi",
+        "form": "sen",
+        "fields": {
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "et",
+          "ol",
+          "taşınacaksan",
+          "al"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 157,
+        "id": "malaga:endulus-gelir-vergisi-irpf-bolge-dilimleri-ve-indirimleri",
+        "form": "sen",
+        "fields": {
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "belirle",
+          "seç",
+          "ulaş"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 158,
+        "id": "malaga:endulus-ikinci-el-konut-alimi-itp-indirimli-oranlar",
+        "form": "sen",
+        "fields": {
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "belirle",
+          "seç",
+          "alıyorsan",
+          "senin",
+          "et"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 159,
+        "id": "malaga:malaga-emlak-vergisi-ibi-kim-oder-oran-ve-odeme-takvimi",
+        "form": "sen",
+        "fields": {
+          "steps": "sen",
+          "cost": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "bak",
+          "yaptığın",
+          "çektirmediysen",
+          "istiyorsan",
+          "edersen"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 160,
+        "id": "malaga:malaga-arac-vergisi-ivtm-odeme-satis-ve-terk",
+        "form": "sen",
+        "fields": {
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "öde",
+          "git",
+          "sattıysan",
+          "sana",
+          "ver"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 161,
+        "id": "malaga:malaga-plusvalia-arsa-deger-artisi-vergisi-beyani",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "cost": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "yaparsın",
+          "isteyebilirsin",
+          "Ödeyeceğin",
+          "görebilirsin",
+          "gir"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 162,
+        "id": "malaga:malaga-agencia-tributaria-ofisleri-ve-renta-randevusu",
+        "form": "sen",
+        "fields": {
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "aldıysan",
+          "değiştirmediysen",
+          "gidemeyeceksen",
+          "seni"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 163,
+        "id": "malaga:malaga-sosyal-hizmetler-merkezleri-ve-belediye-ekonomik-yardimlari",
+        "form": "sen",
+        "fields": {
+          "subtitle": "sen",
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "Oturduğun",
+          "git",
+          "oturduğun",
+          "başvur",
+          "olduğun"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 164,
+        "id": "malaga:endulus-asgari-gelir-destegi-rmisa-kimler-alir-nereden-basvurulur",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "timing": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "oturduğun",
+          "verirsin",
+          "bak",
+          "olduğun",
+          "ver"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 165,
+        "id": "malaga:banka-hesabi-acarken-istenen-kimlik-ve-para-kaynagi-belgeleri",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "documents": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "vatandaşıysan",
+          "yabancıysan",
+          "vermen",
+          "değilsen",
+          "açacağın"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 166,
+        "id": "malaga:gestrisam-vergi-ofisi-adres-saat-ve-randevu",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "documents": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "alırsın",
+          "al",
+          "ulaşırsın",
+          "seç",
+          "Gideceğin"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 167,
+        "id": "malaga:tasinma-oncesi-vize-ve-ilk-oturum-izni",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "aldığın",
+          "yaparsın",
+          "istemen",
+          "oturuyorsan",
+          "yap"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 168,
+        "id": "malaga:oturum-vizesi-basvurusunda-getirilecek-belgeler",
+        "form": "sen",
+        "fields": {
+          "title": "sen",
+          "summary": "sen",
+          "steps": "sen",
+          "documents": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "hazırlamalısın",
+          "olduğun",
+          "hazırla",
+          "ekle",
+          "imzala"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 169,
+        "id": "malaga:ilk-gunlerde-nuss-ve-temel-odeme-hesabi",
+        "form": "sen",
+        "fields": {
+          "title": "sen",
+          "subtitle": "sen",
+          "summary": "sen",
+          "steps": "sen",
+          "timing": "sen",
+          "note": "sen",
+          "visual_json": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "yapabilirsin",
+          "istediğin",
+          "isteyebilirsin",
+          "kullanırsın",
+          "oturuyorsan"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 170,
+        "id": "malaga:ab-disindan-gelirken-esya-ve-nakit-gumruk-beyani",
+        "form": "sen",
+        "fields": {
+          "title": "sen",
+          "summary": "sen",
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "bildirirsin",
+          "taşıyorsan",
+          "sunman",
+          "sun",
+          "taşıdığın"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 171,
+        "id": "malaga:ab-disindan-evcil-hayvanla-ispanyaya-giris",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "girebilirsin",
+          "yaptır",
+          "Geldiğin",
+          "geliyorsan",
+          "getir"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 172,
+        "id": "malaga:oturum-ve-ogrenci-vizesinde-saglik-sigortasi-sarti",
+        "form": "sen",
+        "fields": {
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "belirle",
+          "yaptır",
+          "ekle"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 173,
+        "id": "malaga:ispanya-para-birimi-euro-ve-resmi-dil",
+        "form": "sen",
+        "fields": {
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "Yaşayacağın"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 174,
+        "id": "malaga:ispanya-resmi-saat-ve-yaz-saati-kurali",
+        "form": "sen",
+        "fields": {
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "al",
+          "edeceksen",
+          "unutma"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 175,
+        "id": "malaga:ab-disindan-gelen-yolcunun-bagaj-muafiyeti",
+        "form": "sen",
+        "fields": {
+          "title": "sen",
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "getirebilirsin",
+          "ol",
+          "geliyorsan",
+          "tut",
+          "birleştirebilirsin"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 176,
+        "id": "malaga:havalimani-express-otobus-l-a-bilet-ve-duraklar",
+        "form": "sen",
+        "fields": {
+          "title": "sen",
+          "summary": "sen",
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "gidersin",
+          "alırsın",
+          "al",
+          "öde",
+          "okut"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 177,
+        "id": "malaga:havalimanindan-trenle-cercanias-c1-maria-zambrano",
+        "form": "sen",
+        "fields": {
+          "title": "sen",
+          "summary": "sen",
+          "steps": "sen",
+          "cost": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "gidersin",
+          "seçersen",
+          "binersin",
+          "ödersen",
+          "gittiğin"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 178,
+        "id": "malaga:cercanias-konsorsiyum-karti-cikista-tekrar-okutma",
+        "form": "sen",
+        "fields": {
+          "title": "sen",
+          "summary": "sen",
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "okutursun",
+          "edersin",
+          "gittiğin",
+          "aşarsan",
+          "okut"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 179,
+        "id": "malaga:consorcio-ulasim-karti-alma-ve-yukleme",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "alırsın",
+          "yüklersin",
+          "al",
+          "kullanacaksan",
+          "yükle"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 180,
+        "id": "malaga:emt-bilet-turleri-yeni-gelen-icin-secim",
+        "form": "sen",
+        "fields": {
+          "title": "sen",
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "geldiysen",
+          "seçersin",
+          "bineceksen",
+          "al",
+          "yaparsın"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 181,
+        "id": "malaga:metro-malaga-banka-karti-ile-metro-pay",
+        "form": "sen",
+        "fields": {
+          "title": "sen",
+          "summary": "sen",
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "edersin",
+          "geçersin",
+          "bineceksen",
+          "doğrularsın",
+          "kullan"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 182,
+        "id": "malaga:yaz-sicak-uyari-seviyeleri-ve-risk-gruplari",
+        "form": "sen",
+        "fields": {
+          "title": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "korunursun",
+          "dur",
+          "çıkman",
+          "kullan",
+          "al"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 183,
+        "id": "malaga:terral-ruzgari-malaga-guadalhorce-ve-diger-ruzgarlar",
+        "form": "sen",
+        "fields": {
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "izle",
+          "alabilirsin",
+          "kat"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 184,
+        "id": "malaga:belediye-yabancilar-hukuki-danisma-010",
+        "form": "sen",
+        "fields": {
+          "title": "sen",
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "ulaşırsın",
+          "ara"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 185,
+        "id": "malaga:junta-goc-politikalari-birimi-malaga-iletisim",
+        "form": "sen",
+        "fields": {
+          "title": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "kurarsın",
+          "ulaş",
+          "et"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 186,
+        "id": "malaga:turistik-daire-vut-kayit-kontrolu-gecici-konaklama",
+        "form": "sen",
+        "fields": {
+          "title": "sen",
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "edersin",
+          "aratırsın",
+          "sorabilirsin",
+          "aç",
+          "seç"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 187,
+        "id": "malaga:emt-karti-nereden-alinir-ve-musteri-merkezi",
+        "form": "sen",
+        "fields": {
+          "title": "sen",
+          "summary": "sen",
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "yüklersin",
+          "alırsın",
+          "yapabilirsin",
+          "al",
+          "ödersin"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 188,
+        "id": "malaga:empadronamiento-nedir-neden-gerekir",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "oturduğun",
+          "yaşıyorsan",
+          "geçirdiğin",
+          "yazılırsın",
+          "olduğun"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 189,
+        "id": "malaga:certificado-ve-volante-farki",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "isteyebilirsin",
+          "iste",
+          "istersen"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 190,
+        "id": "malaga:sosyal-guvenlik-numarasi-alma",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "documents": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "alabilirsin",
+          "erişemiyorsan",
+          "sunarsın",
+          "aç",
+          "iste"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 191,
+        "id": "malaga:vida-laboral-raporu-alma",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "timing": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "İstediğin",
+          "isteyebilirsin",
+          "olmadıysan",
+          "alamazsın",
+          "göremezsin"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 192,
+        "id": "malaga:vergi-numarasi-nif-nie-alma",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "istersin",
+          "istiyorsan",
+          "doldur",
+          "öde",
+          "ödeyebilirsin"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 193,
+        "id": "malaga:clave-pin-ve-permanente-farki",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "kendin",
+          "belirlediğin",
+          "istediğin",
+          "ol",
+          "değilsen"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 194,
+        "id": "malaga:fnmt-dijital-sertifika-kurma",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "başvurursun",
+          "doğrularsın",
+          "alırsın",
+          "iste",
+          "git"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 195,
+        "id": "malaga:belge-ceviri-ve-apostil",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "kendin",
+          "seçersin",
+          "yaparsın",
+          "seç",
+          "ol"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 196,
+        "id": "malaga:noter-islemleri-ve-ucretleri",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "ödeyeceğin",
+          "belirle",
+          "uygula",
+          "bulduğun",
+          "ekle"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 197,
+        "id": "malaga:libro-de-familia-nedir",
+        "form": "sen",
+        "fields": {
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "et",
+          "alamazsın",
+          "olduğun",
+          "iste"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 198,
+        "id": "malaga:registro-civil-ne-ise-yarar",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "alabilirsin",
+          "başvur",
+          "git",
+          "kullan"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 199,
+        "id": "malaga:yabanci-ehliyet-degisimi",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "değiştirebilirsin",
+          "ettiğin",
+          "istiyorsan",
+          "bak",
+          "aldıysan"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 200,
+        "id": "malaga:arac-kaydi-ulusal-cerceve",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "documents": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "alırsın",
+          "kendin",
+          "yapabilirsin",
+          "bak",
+          "başvurabilirsin"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 201,
+        "id": "malaga:endulus-carpeta-ciudadana-junta-dijital-islemler",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "bakabilirsin",
+          "doğrularsın",
+          "indir",
+          "aç",
+          "doğrula"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 202,
+        "id": "malaga:malaga-padron-kaydi-gestion-tributaria-ofisi-ve-randevu",
+        "form": "sen",
+        "fields": {
+          "title": "sen",
+          "summary": "sen",
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "gidersin",
+          "alırsın",
+          "yaptırırsın",
+          "yapacağın",
+          "seç"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 203,
+        "id": "malaga:omac-semt-ofisleri-calisma-saati-ve-islemler",
+        "form": "sen",
+        "fields": {
+          "title": "sen",
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "gidersin",
+          "alırsın",
+          "geçirebilirsin",
+          "al",
+          "geçtiysen"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 204,
+        "id": "malaga:belediye-randevu-malaga-24h-ve-merkezi-hat",
+        "form": "sen",
+        "fields": {
+          "title": "sen",
+          "summary": "sen",
+          "steps": "sen",
+          "timing": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "ulaşırsın",
+          "alırsın",
+          "seç",
+          "belirle",
+          "doldur"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 205,
+        "id": "malaga:fnmt-dijital-sertifika-kimlik-dogrulama-omac-malaga",
+        "form": "sen",
+        "fields": {
+          "title": "sen",
+          "summary": "sen",
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "yaptırırsın",
+          "yaptırabilirsin",
+          "başvur",
+          "indir",
+          "iste"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 206,
+        "id": "malaga:clave-yuz-yuze-kayit-randevu-ve-gerekli-belgeler",
+        "form": "sen",
+        "fields": {
+          "title": "sen",
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "alırsın",
+          "götürürsün",
+          "al",
+          "seç",
+          "gir"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 207,
+        "id": "malaga:ehliyet-degisimi-canje-dgt-cevrimici-basvuru-ve-jefatura-teslimi",
+        "form": "sen",
+        "fields": {
+          "title": "sen",
+          "subtitle": "sen",
+          "summary": "sen",
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "gidersin",
+          "yaparsın",
+          "alırsın",
+          "al",
+          "gir"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 208,
+        "id": "malaga:apostil-endulus-tsj-secretaria-de-gobierno-ve-elektronik-apostil",
+        "form": "sen",
+        "fields": {
+          "title": "sen",
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "aldığın",
+          "yaptırırsın",
+          "alabilirsin",
+          "belirle",
+          "ver"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 209,
+        "id": "malaga:kamu-saglik-sistemine-erisim-hak-sahipleri",
+        "form": "sen",
+        "fields": {
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "sağlıyorsan",
+          "sana",
+          "iznin",
+          "al",
+          "edilirsen"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 210,
+        "id": "malaga:saglik-sigortasi-sarti-ve-convenio-especial",
+        "form": "sen",
+        "fields": {
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "başvuruyorsan",
+          "yaptır",
+          "göster",
+          "yaşıyorsan",
+          "imzala"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 211,
+        "id": "malaga:recete-ilac-katilim-payi-copago",
+        "form": "sen",
+        "fields": {
+          "title": "sen",
+          "summary": "sen",
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "ödersin",
+          "kendin",
+          "dur",
+          "götür",
+          "öde"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 212,
+        "id": "malaga:acil-durumda-112",
+        "form": "sen",
+        "fields": {
+          "subtitle": "sen",
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "bulunduğun",
+          "ara",
+          "isteyebilirsin",
+          "çevir",
+          "bil"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 213,
+        "id": "malaga:ulusal-asi-takvimi",
+        "form": "sen",
+        "fields": {
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "aç",
+          "grubundaysan",
+          "bak",
+          "kullan"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 214,
+        "id": "malaga:hamilelik-dogum-ve-cocuk-sagligi-haklari",
+        "form": "sen",
+        "fields": {
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "başvur",
+          "iste",
+          "yaptır",
+          "git",
+          "olmalısın"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 215,
+        "id": "malaga:ruh-sagligi-ve-yasli-bakimi-dependencia",
+        "form": "sen",
+        "fields": {
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "başvur",
+          "edilirsin",
+          "değilsen",
+          "belirle",
+          "bakıyorsan"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 216,
+        "id": "malaga:endulus-saglik-karti-tarjeta-sanitaria-ve-aile-hekimi-secimi",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "timing": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "alamazsın",
+          "başvurursun",
+          "seçersin",
+          "başvurursan",
+          "bul"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 217,
+        "id": "malaga:malaga-aile-hekimi-ve-hemsire-randevusu-clicsalud-salud-responde",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "alabilirsin",
+          "gidersin",
+          "tutabilirsin",
+          "edersin",
+          "yap"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 218,
+        "id": "malaga:malaga-saglik-merkezleri-telefon-listesi-distrito-sanitario",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "arayabilirsin",
+          "bul",
+          "ara"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 219,
+        "id": "malaga:malaga-hospital-universitario-regional-carlos-haya-adres-acil-ve-cita",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "alabilirsin",
+          "ara",
+          "git",
+          "al",
+          "kullan"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 220,
+        "id": "malaga:malaga-hospital-materno-infantil-adres-acil-ve-randevu-kanallari",
+        "form": "sen",
+        "fields": {
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "ara",
+          "git",
+          "kullan"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 221,
+        "id": "malaga:malaga-hospital-virgen-de-la-victoria-teatinos-adres-ve-bagli-merkezler",
+        "form": "sen",
+        "fields": {
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "ara",
+          "git"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 222,
+        "id": "malaga:salud-responde-24-saat-saglik-hatti-39-dilde-ceviri",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "alabilirsin",
+          "ara",
+          "yazabilirsin",
+          "kullan",
+          "arayabilirsin"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 223,
+        "id": "malaga:endulus-2026-asi-takvimi-cocuk-ve-ergen-yenilikleri-ve-randevu",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "alırsın",
+          "al"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 224,
+        "id": "malaga:endulus-2026-asi-takvimi-yetiskin-pnomokok-zoster-covid-ve-randevu",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "alırsın",
+          "arasındaysan",
+          "yaptırmadıysan",
+          "al",
+          "yaşındaysan"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 225,
+        "id": "malaga:endulus-cocuk-dis-hekimi-0-15-yas-kamu-sagligi-ve-kontrol-randevusu",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "seçtiğin",
+          "istediğin",
+          "gidebilirsin",
+          "başvurabilirsin",
+          "seç"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 226,
+        "id": "malaga:endulus-siginma-basvurucusu-saglik-hakki-ve-saglik-merkezi-kaydi",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "oturacağın",
+          "başvurursun",
+          "yaptığın",
+          "verirsin",
+          "Oturacağın"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 227,
+        "id": "malaga:endulus-yenidogan-saglik-karti-rupyna-inss-kaydi-ve-kart-yenileme",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "gidersin",
+          "başvur",
+          "git",
+          "istersen",
+          "sorabilirsin"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 228,
+        "id": "malaga:endulus-convenio-especial-basvurusu-nereye-hangi-belgelerle-ve-kapsam",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "verirsin",
+          "başvurabilirsin",
+          "al",
+          "indir",
+          "ver"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 229,
+        "id": "malaga:acil-saglik-numarasi-061-ve-nobetci-eczane-bulma",
+        "form": "sen",
+        "fields": {
+          "title": "sen",
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "ararsın",
+          "bulursun",
+          "ara",
+          "git",
+          "aradığın"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 230,
+        "id": "malaga:renfe-bilet-iptal-degisiklik-genc-indirimi",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "yaşındaysan",
+          "karşılaştır",
+          "istiyorsan",
+          "seç",
+          "ekle"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 231,
+        "id": "malaga:otobus-yolcu-haklari-rotar-bagaj-engelli",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "hakkın",
+          "bak",
+          "seç",
+          "sana",
+          "iste"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 232,
+        "id": "malaga:hiz-siniri-alkol-ehliyet-puani",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "sana",
+          "bak",
+          "uygula",
+          "aldıysan",
+          "sürüyorsan"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 233,
+        "id": "malaga:itv-arac-muayene-periyotlari",
+        "form": "sen",
+        "fields": {
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "belirle",
+          "gir",
+          "aracıysan",
+          "uygula",
+          "yaptır"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 234,
+        "id": "malaga:ucus-gecikme-iptal-aesa-sikayet",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "et",
+          "yap",
+          "edebilirsin",
+          "ulaşırsan",
+          "seni"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 235,
+        "id": "malaga:ada-ceuta-melilla-yerlesik-ucus-indirimi",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "olursun",
+          "kanıtlaman",
+          "belirle",
+          "seç",
+          "vatandaşıysan"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 236,
+        "id": "malaga:endulus-metropol-ulasim-konsorsiyum-kartlari-ve-interoperabilite",
+        "form": "sen",
+        "fields": {
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "kullanabilirsin"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 237,
+        "id": "malaga:emt-otobus-temassiz-banka-karti-ile-odeme",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "alırsın",
+          "yaparsın",
+          "yapmazsın",
+          "öde",
+          "kartın"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 238,
+        "id": "malaga:consorcio-kartiyla-aktarma-suresi-ve-ucreti",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "bölersen",
+          "yaparsın",
+          "okut",
+          "binmemelisin",
+          "değişiyorsan"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 239,
+        "id": "malaga:sehirlerarasi-otobus-ucretleri-salto-tablosu-2026",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "söylersin",
+          "alırsın",
+          "Kartın",
+          "al",
+          "yükle"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 240,
+        "id": "malaga:buho-m-168-ve-caminito-del-rey-m-347-ozel-tarifeleri",
+        "form": "sen",
+        "fields": {
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "gidiyorsan",
+          "bineceksen",
+          "al",
+          "yapacaksan",
+          "öde"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 241,
+        "id": "malaga:emt-tarjeta-oro-yillik-abonman-ve-musteri-hizmetleri-ofisi",
+        "form": "sen",
+        "fields": {
+          "title": "sen",
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "gidersin",
+          "alırsın",
+          "git",
+          "gideceğin",
+          "sor"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 242,
+        "id": "malaga:emt-ucretsiz-yolculuk-yas-sinirlari-ve-kart-turleri",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "yükleyebilirsin",
+          "biniyorsan",
+          "ödemezsin",
+          "seç",
+          "alıyorsan"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 243,
+        "id": "malaga:emt-karti-yukleme-noktalari-ve-nfc-recarga",
+        "form": "sen",
+        "fields": {
+          "title": "sen",
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "yükletirsin",
+          "görürsün",
+          "seçersin",
+          "git",
+          "yaptır"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 244,
+        "id": "malaga:emt-otobusunde-evcil-hayvan-bebek-arabasi-bagaj-ve-bisiklet-kurallari",
+        "form": "sen",
+        "fields": {
+          "title": "sen",
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "misin",
+          "taşıyamazsın",
+          "binemezsin",
+          "koy",
+          "sen"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 245,
+        "id": "malaga:emt-otobusune-engelli-scooteri-homologasyon-basvurusu",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "senin",
+          "gönderirsin",
+          "ol",
+          "hazırla",
+          "götür"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 246,
+        "id": "malaga:elektrikli-scooter-vmp-kullanim-sartlari-malaga",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "taşımalısın",
+          "binemezsin",
+          "ol",
+          "kullanamazsın",
+          "dolaş"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 247,
+        "id": "malaga:dusuk-emisyon-bolgesi-zbe-arabayla-girme-kurallari-malaga",
+        "form": "sen",
+        "fields": {
+          "title": "sen",
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "misin",
+          "bak",
+          "öğren",
+          "girebilirsin",
+          "etiketliysen"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 248,
+        "id": "malaga:cercanias-malaga-bilet-iptal-ve-temassiz-banka-karti-odemesi",
+        "form": "sen",
+        "fields": {
+          "title": "sen",
+          "subtitle": "sen",
+          "summary": "sen",
+          "steps": "sen",
+          "documents": "sen",
+          "cost": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "alırsın",
+          "misin",
+          "ödersin",
+          "çık",
+          "et"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 249,
+        "id": "malaga:emt-tarjeta-estudiante-ve-tarjeta-joven-nasil-alinir",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "documents": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "sağlaman",
+          "yaparsın",
+          "belirle",
+          "arasındaysan",
+          "görüyorsan"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 250,
+        "id": "malaga:emt-tarjeta-oro-kimlere-verilir-nasil-alinir",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "documents": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "yaparsın",
+          "et",
+          "olmalısın",
+          "girmelisin",
+          "seç"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 251,
+        "id": "malaga:consorcio-kartiyla-renfe-cercanias-c1-c2-nasil-odenir",
+        "form": "sen",
+        "fields": {
+          "title": "sen",
+          "subtitle": "sen",
+          "summary": "sen",
+          "steps": "sen",
+          "cost": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "binersin",
+          "okutursun",
+          "okut",
+          "yapabilirsin",
+          "okutmalısın"
+        ]
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 8,
+        "id": "malaga:alcazaba-de-malaga",
+        "form": "sen",
+        "fields": {
+          "summary": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "dur"
+        ]
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 9,
+        "id": "malaga:castillo-de-gibralfaro",
+        "form": "sen",
+        "fields": {
+          "summary": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "dur"
+        ]
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 10,
+        "id": "malaga:catedral-de-malaga",
+        "form": "sen",
+        "fields": {
+          "summary": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "alabilirsin"
+        ]
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 11,
+        "id": "malaga:teatro-romano-de-malaga",
+        "form": "sen",
+        "fields": {
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "ara",
+          "yaz"
+        ]
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 18,
+        "id": "malaga:iglesia-santo-cristo-de-la-salud",
+        "form": "sen",
+        "fields": {
+          "summary": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "dur"
+        ]
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 36,
+        "id": "malaga:parque-forestal-monte-victoria",
+        "form": "karisik",
+        "fields": {
+          "summary": "karisik"
+        },
+        "siz": [
+          "yazın"
+        ],
+        "sen": [
+          "gözlemleyebilirsin"
+        ]
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 60,
+        "id": "malaga:el-pimpi",
+        "form": "sen",
+        "fields": {
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "Seçtiğin",
+          "gidebilirsin"
+        ]
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 96,
+        "id": "malaga:teatro-cervantes",
+        "form": "sen",
+        "fields": {
+          "summary": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "gezebilirsin"
+        ]
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 104,
+        "id": "malaga:estadio-la-rosaleda",
+        "form": "sen",
+        "fields": {
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "seçtiğin",
+          "ol",
+          "seni"
+        ]
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 113,
+        "id": "malaga:parque-del-norte",
+        "form": "sen",
+        "fields": {
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "getirirsen"
+        ]
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 118,
+        "id": "malaga:mimma-museo-interactivo-de-la-musica",
+        "form": "sen",
+        "fields": {
+          "subtitle": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "çalabildiğin"
+        ]
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 125,
+        "id": "malaga:centro-acuatico-de-malaga",
+        "form": "sen",
+        "fields": {
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "istersen"
+        ]
+      },
+      {
+        "sheet": "Adımlar",
+        "row": 8,
+        "id": "malaga:step:1",
+        "form": "sen",
+        "fields": {
+          "description": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "edersen",
+          "izle"
+        ]
+      },
+      {
+        "sheet": "Adımlar",
+        "row": 9,
+        "id": "malaga:step:2",
+        "form": "sen",
+        "fields": {
+          "title": "sen",
+          "description": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "al",
+          "yükle"
+        ]
+      },
+      {
+        "sheet": "Adımlar",
+        "row": 10,
+        "id": "malaga:step:3",
+        "form": "sen",
+        "fields": {
+          "title": "sen",
+          "description": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "al",
+          "alırsın"
+        ]
+      },
+      {
+        "sheet": "Adımlar",
+        "row": 11,
+        "id": "malaga:step:4",
+        "form": "sen",
+        "fields": {
+          "title": "sen",
+          "description": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "kaydol",
+          "al",
+          "götür"
+        ]
+      },
+      {
+        "sheet": "Adımlar",
+        "row": 12,
+        "id": "malaga:step:5",
+        "form": "sen",
+        "fields": {
+          "title": "sen",
+          "description": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "iste",
+          "bul",
+          "başla"
+        ]
+      },
+      {
+        "sheet": "Adımlar",
+        "row": 13,
+        "id": "malaga:step:6",
+        "form": "sen",
+        "fields": {
+          "description": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "izle"
+        ]
+      },
+      {
+        "sheet": "SayfaAlanları",
+        "row": 9,
+        "id": "malaga:field:hero_accent",
+        "form": "sen",
+        "fields": {
+          "value": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "bul"
+        ]
+      },
+      {
+        "sheet": "SayfaAlanları",
+        "row": 11,
+        "id": "malaga:field:topic_title",
+        "form": "sen",
+        "fields": {
+          "value": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "Bilmen"
+        ]
+      },
+      {
+        "sheet": "SayfaAlanları",
+        "row": 12,
+        "id": "malaga:field:topic_intro",
+        "form": "sen",
+        "fields": {
+          "value": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "bul"
+        ]
+      },
+      {
+        "sheet": "SayfaAlanları",
+        "row": 14,
+        "id": "malaga:field:journey_intro",
+        "form": "sen",
+        "fields": {
+          "value": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "yapabileceğin"
+        ]
+      },
+      {
+        "sheet": "SayfaAlanları",
+        "row": 16,
+        "id": "malaga:field:neighborhood_intro",
+        "form": "sen",
+        "fields": {
+          "value": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "karşılaştır"
+        ]
+      },
+      {
+        "sheet": "SayfaAlanları",
+        "row": 17,
+        "id": "malaga:field:explore_title",
+        "form": "sen",
+        "fields": {
+          "value": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "Keşfet"
+        ]
+      },
+      {
+        "sheet": "SayfaAlanları",
+        "row": 18,
+        "id": "malaga:field:explore_intro",
+        "form": "sen",
+        "fields": {
+          "value": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "görebileceğin",
+          "incele"
+        ]
+      },
+      {
+        "sheet": "SayfaAlanları",
+        "row": 27,
+        "id": "malaga:field:timeline",
+        "form": "karisik",
+        "fields": {
+          "value": "karisik"
+        },
+        "siz": [
+          "edin"
+        ],
+        "sen": [
+          "bak",
+          "başla",
+          "et",
+          "öğren",
+          "al"
+        ]
+      },
+      {
+        "sheet": "Şehir",
+        "row": 8,
+        "id": "malaga",
+        "form": "sen",
+        "fields": {
+          "intro": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "planlıyorsan",
+          "geldiysen"
+        ]
+      }
+    ]
+  }
+}

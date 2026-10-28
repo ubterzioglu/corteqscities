@@ -1,0 +1,53 @@
+{
+  "tool": "acik_mi",
+  "acik_mi": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\malaga\\_is\\acik_mi",
+  "mekanlar": [
+    "C:\\temp_private\\corteqs\\0000_newera\\uretim\\malaga\\_is\\data\\parcalar\\Mekânlar.m1.jsonl",
+    "C:\\temp_private\\corteqs\\0000_newera\\uretim\\malaga\\_is\\data\\parcalar\\Mekânlar.m2.jsonl",
+    "C:\\temp_private\\corteqs\\0000_newera\\uretim\\malaga\\_is\\data\\parcalar\\Mekânlar.m3.jsonl",
+    "C:\\temp_private\\corteqs\\0000_newera\\uretim\\malaga\\_is\\data\\parcalar\\Mekânlar.m4.jsonl"
+  ],
+  "kaynaklar": [
+    "C:\\temp_private\\corteqs\\0000_newera\\uretim\\malaga\\_is\\kaynak_dizini.jsonl"
+  ],
+  "min_year": 2025,
+  "mekan": 120,
+  "tarama": {
+    "dosya": 8,
+    "satir": 121,
+    "mekan": 121
+  },
+  "dogrulama": {
+    "dosya": 8,
+    "satir": 88
+  },
+  "durum": {
+    "açık": 66,
+    "belirsiz": 54,
+    "insaat": 1
+  },
+  "eylem": {
+    "dokunma": 84,
+    "kartta belirt": 4
+  },
+  "sonuc": {
+    "onay": 60,
+    "ret": 28
+  },
+  "listede_olmayan": {
+    "tarama": 1,
+    "dogrulama": 1
+  },
+  "findings": [
+    {
+      "code": "bos_alinti",
+      "entry_id": "malaga:playa-de-la-arana",
+      "where": "doga_dogrulama.jsonl:18",
+      "message": "kanit_alinti boş: kararın birebir alıntısı yok"
+    }
+  ],
+  "by_code": {
+    "bos_alinti": 1
+  },
+  "out": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\malaga\\_is\\acik_mi_rapor.json"
+}
