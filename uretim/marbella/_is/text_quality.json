@@ -6,9 +6,9 @@
     "near": 0.9
   },
   "summary": {
-    "exact_clusters": 0,
+    "exact_clusters": 1,
     "near_clusters": 0,
-    "template_clusters": 0,
+    "template_clusters": 2,
     "shared_steps": 0,
     "placeholders": 0,
     "filler": 0,
@@ -18,34 +18,133 @@
     "caption_is_title": 0,
     "hedge_cards": 0,
     "hedge_share": 0.0,
-    "exact_records": 0,
+    "exact_records": 3,
     "short_repeat_groups": 0,
-    "repeated_sentences": 4,
-    "cards_total": 229,
+    "repeated_sentences": 7,
+    "cards_total": 321,
     "visual_json_empty": 227,
     "address": {
       "standard": "sen",
-      "records": 272,
-      "hitapsiz": 31,
+      "records": 424,
+      "hitapsiz": 178,
       "siz": 0,
-      "sen": 241,
+      "sen": 246,
       "karisik": 0,
       "findings": 0,
       "labels": {
-        "records": 378,
-        "hitapsiz": 22,
+        "records": 482,
+        "hitapsiz": 52,
         "siz": 0,
-        "sen": 356,
+        "sen": 430,
         "karisik": 0
       },
       "skipped": []
     },
-    "findings": 0
+    "findings": 3
   },
-  "top_clusters": [],
-  "exact_duplicates": [],
+  "top_clusters": [
+    {
+      "kind": "template",
+      "sheet": "Mekânlar",
+      "field": "subtitle",
+      "size": 5,
+      "distinct": 3,
+      "sample": "Puerto Banús semtinde belediye kataloğundaki plaj"
+    },
+    {
+      "kind": "exact",
+      "sheet": "Mekânlar",
+      "field": "subtitle",
+      "size": 3,
+      "sample": "Las Chapas semtinde belediye kataloğundaki plaj"
+    },
+    {
+      "kind": "template",
+      "sheet": "Mekânlar",
+      "field": "note",
+      "size": 3,
+      "distinct": 3,
+      "sample": "Yakın çevre gezisi: Estepona"
+    }
+  ],
+  "exact_duplicates": [
+    {
+      "sheet": "Mekânlar",
+      "field": "subtitle",
+      "size": 3,
+      "length": 47,
+      "sample": "Las Chapas semtinde belediye kataloğundaki plaj",
+      "members": [
+        {
+          "row": 18,
+          "id": "marbella:playa-de-las-chapas"
+        },
+        {
+          "row": 37,
+          "id": "marbella:playa-la-vivora"
+        },
+        {
+          "row": 38,
+          "id": "marbella:playa-las-canas"
+        }
+      ]
+    }
+  ],
   "near_duplicates": [],
-  "template_duplicates": [],
+  "template_duplicates": [
+    {
+      "sheet": "Mekânlar",
+      "field": "subtitle",
+      "size": 5,
+      "distinct": 3,
+      "template": "¤ semtinde belediye katalogundaki plaj",
+      "sample": "Puerto Banús semtinde belediye kataloğundaki plaj",
+      "members": [
+        {
+          "row": 13,
+          "id": "marbella:playa-de-puerto-banus"
+        },
+        {
+          "row": 16,
+          "id": "marbella:playa-de-guadalmina"
+        },
+        {
+          "row": 18,
+          "id": "marbella:playa-de-las-chapas"
+        },
+        {
+          "row": 37,
+          "id": "marbella:playa-la-vivora"
+        },
+        {
+          "row": 38,
+          "id": "marbella:playa-las-canas"
+        }
+      ]
+    },
+    {
+      "sheet": "Mekânlar",
+      "field": "note",
+      "size": 3,
+      "distinct": 3,
+      "template": "yakin cevre gezisi ¤",
+      "sample": "Yakın çevre gezisi: Estepona",
+      "members": [
+        {
+          "row": 55,
+          "id": "marbella:selwo-aventura-estepona"
+        },
+        {
+          "row": 56,
+          "id": "marbella:bioparc-fuengirola"
+        },
+        {
+          "row": 80,
+          "id": "marbella:casa-museo-de-mijas"
+        }
+      ]
+    }
+  ],
   "short_repeats": [],
   "repeated_sentences": [
     {
@@ -88,6 +187,33 @@
         "timing"
       ],
       "sample": "kararname (Real Decreto-ley) olduğu için ileride değişebilir"
+    },
+    {
+      "sheet": "Mekânlar",
+      "sentence": "genel ziyaret yok etkinlik gunleri",
+      "records": 3,
+      "fields": [
+        "note"
+      ],
+      "sample": "Genel ziyaret yok, etkinlik günleri"
+    },
+    {
+      "sheet": "Mekânlar",
+      "sentence": "las chapas semtinde belediye katalogundaki plaj",
+      "records": 3,
+      "fields": [
+        "subtitle"
+      ],
+      "sample": "Las Chapas semtinde belediye kataloğundaki plaj"
+    },
+    {
+      "sheet": "Mekânlar",
+      "sentence": "sayfada konum haritasi var",
+      "records": 3,
+      "fields": [
+        "summary"
+      ],
+      "sample": "Sayfada konum haritası var"
     }
   ],
   "shared_steps": [],
@@ -101,7 +227,7 @@
     "items": []
   },
   "hedges": {
-    "cards_total": 229,
+    "cards_total": 321,
     "cards_with_hedge": 0,
     "share": 0.0,
     "max_per_card": 0,
@@ -114,7 +240,7 @@
   },
   "action_links": {
     "skipped": false,
-    "checked": 229,
+    "checked": 321,
     "missing": 0,
     "map_only": 0,
     "no_id": 0,
@@ -134,10 +260,10 @@
   },
   "address": {
     "standard": "sen",
-    "records": 272,
-    "hitapsiz": 31,
+    "records": 424,
+    "hitapsiz": 178,
     "siz": 0,
-    "sen": 241,
+    "sen": 246,
     "karisik": 0,
     "by_sheet": {
       "Yanıtlar": {
@@ -148,17 +274,17 @@
         "karisik": 0
       },
       "Mekânlar": {
-        "records": 0,
-        "hitapsiz": 0,
+        "records": 80,
+        "hitapsiz": 78,
         "siz": 0,
-        "sen": 0,
+        "sen": 2,
         "karisik": 0
       },
       "Mahalleler": {
-        "records": 0,
-        "hitapsiz": 0,
+        "records": 12,
+        "hitapsiz": 9,
         "siz": 0,
-        "sen": 0,
+        "sen": 3,
         "karisik": 0
       },
       "Rotalar": {
@@ -183,8 +309,8 @@
         "karisik": 0
       },
       "Sözlük": {
-        "records": 0,
-        "hitapsiz": 0,
+        "records": 60,
+        "hitapsiz": 60,
         "siz": 0,
         "sen": 0,
         "karisik": 0
@@ -212,10 +338,10 @@
       }
     },
     "labels": {
-      "records": 378,
-      "hitapsiz": 22,
+      "records": 482,
+      "hitapsiz": 52,
       "siz": 0,
-      "sen": 356,
+      "sen": 430,
       "karisik": 0
     },
     "skipped": [],
@@ -4228,6 +4354,76 @@
           "git",
           "hazırla",
           "al"
+        ]
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 34,
+        "id": "marbella:sendero-el-juanar-puerto-marbella",
+        "form": "sen",
+        "fields": {
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "gir",
+          "git",
+          "bırakıyorsun"
+        ]
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 57,
+        "id": "marbella:castillo-de-marbella-alcazaba-y-muralla",
+        "form": "sen",
+        "fields": {
+          "summary": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "sürebilirsin"
+        ]
+      },
+      {
+        "sheet": "Mahalleler",
+        "row": 8,
+        "id": "marbella:casco-antiguo",
+        "form": "sen",
+        "fields": {
+          "note": "sen",
+          "compare_json": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "et",
+          "kat"
+        ]
+      },
+      {
+        "sheet": "Mahalleler",
+        "row": 12,
+        "id": "marbella:guadaiza-cuatro-vientos",
+        "form": "sen",
+        "fields": {
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "olman"
+        ]
+      },
+      {
+        "sheet": "Mahalleler",
+        "row": 16,
+        "id": "marbella:sierra-blanca",
+        "form": "sen",
+        "fields": {
+          "compare_json": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "bildir",
+          "tut"
         ]
       },
       {

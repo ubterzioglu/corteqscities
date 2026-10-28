@@ -3,6 +3,1284 @@
   "workbook": "ara.xlsx",
   "groups": [
     {
+      "anchor": "fianza",
+      "kind": "sozluk",
+      "farkli_deger": [
+        "sure",
+        "tarih"
+      ],
+      "values": {
+        "sure": [
+          "5 yil",
+          "7 yil"
+        ],
+        "tarih": [
+          "23 ocak",
+          "24 ocak"
+        ]
+      },
+      "mentions": [
+        {
+          "id": "marbella:kira-depozitosu-fianza-ve-iade",
+          "sheet": "Yanıtlar",
+          "row": 28,
+          "sentences": [
+            "İspanya'da kira depozitosu (fianza) ne kadardır ve nasıl geri alınır?",
+            "Konutta fianza bir aylık kiradır; bakiye anahtar tesliminden bir ay sonra iade edilmemişse yasal faiz işler; fianza dışında ek güvence de kararlaştırılabilir",
+            "Konutta fianza bir aylık kiradır ve sözleşme yapılırken para olarak verilmesi zorunludur."
+          ]
+        },
+        {
+          "id": "marbella:kiralik-evden-cikis-ve-ihbar-suresi",
+          "sheet": "Yanıtlar",
+          "row": 31,
+          "sentences": [
+            "Kiraya veren, çıkıştan sonra iade etmesi gereken fianza bakiyesini anahtar tesliminden itibaren bir ay içinde iade etmezse bakiye yasal faiz işler.",
+            "Anahtarları teslim ederken teslim tarihini not et; fianza bakiyesi bir ay içinde iade edilmezse yasal faiz işler."
+          ]
+        },
+        {
+          "id": "marbella:endulus-kira-depozitosu-fianza-avra-yatirma-zorunlulugu",
+          "sheet": "Yanıtlar",
+          "row": 33,
+          "sentences": [
+            "Endülüs'te kira depozitosu (fianza) AVRA'ya yatırılır mı: 24 Ocak 2026 öncesi ve sonrası sözleşmeler"
+          ]
+        },
+        {
+          "id": "marbella:acosol-su-aboneligi-alta-belgeler",
+          "sheet": "Yanıtlar",
+          "row": 59,
+          "sentences": [
+            "Abonenin görevleri arasında teminat yatırma (fianza) vardır."
+          ]
+        },
+        {
+          "id": "marbella:term:016",
+          "sheet": "Sözlük",
+          "row": 23,
+          "sentences": [
+            "Fianza (kira depozitosu)",
+            "Endülüs'te 23 Ocak 2026'ya kadar yapılan sözleşmelerde fianza depo yükümlülüğü sürer."
+          ]
+        }
+      ]
+    },
+    {
+      "anchor": "nie",
+      "kind": "sozluk",
+      "farkli_deger": [
+        "sure"
+      ],
+      "values": {
+        "sure": [
+          "2 yil",
+          "5 yil"
+        ],
+        "tarih": [
+          "9 mart"
+        ],
+        "ucret": [
+          "9,84 €"
+        ]
+      },
+      "mentions": [
+        {
+          "id": "marbella:ingreso-minimo-vital-ve-cocuk-destegi",
+          "sheet": "Yanıtlar",
+          "row": 10,
+          "sentences": [
+            "Kimlik olarak ülkenin kimlik belgesi, yabancı kimlik kartı (TIE) ya da pasaportunu ver; NIE belgelerde yoksa ayrıca ver.",
+            "Kimlik belgesi: ülkenin kimlik belgesi, yabancı kimlik kartı (TIE) ya da pasaport (ve NIE)"
+          ]
+        },
+        {
+          "id": "marbella:okul-basvurusunda-adres-kaniti-ve-marbella-empadronamiento-ofisleri",
+          "sheet": "Yanıtlar",
+          "row": 17,
+          "sentences": [
+            "Okula sunacağın belge belediyenin verdiği empadronamiento belgesidir; aşağıdaki belge listesi ise Marbella'da empadronamiento kaydı (alta) içindir: kimlik (pasaport, ülkenin kimlik kartı ya da NIE/TIE",
+            "Pasaport, ülkenin kimlik kartı ya da NIE/TIE ile birlikte vesikalık fotoğraf (foto de carnet)"
+          ]
+        },
+        {
+          "id": "marbella:kirilgan-kiraci-icin-junta-kira-yardimi",
+          "sheet": "Yanıtlar",
+          "row": 40,
+          "sentences": [
+            "İdarenin kimlik verisi sorgusuna itiraz edersen: DNI/NIE ya da pasaport (ya da uluslararası koruma başvuru belgesi)"
+          ]
+        },
+        {
+          "id": "marbella:acosol-su-aboneligi-alta-belgeler",
+          "sheet": "Yanıtlar",
+          "row": 59,
+          "sentences": [
+            "Tapu ya da kira belgesi, DNI/NIE/CIF, kurulum sertifikası ve banka otomatik ödemesi; sayaç bataryasında su en çok 3 iş günü",
+            "Acosol'dan yeni su sözleşmesi (alta) için kurulumu onaylanmış sayaç bataryalı bağlantılarda evin kullanımını gösteren belge (tapu, kira sözleşmesi ya da mülkün kullanılabilirliğini gösteren belge), DN",
+            "Kimliğini hazırla: DNI, NIE ya da şirketse CIF."
+          ]
+        },
+        {
+          "id": "marbella:issizlik-maasi-paro-sepe-basvurusu",
+          "sheet": "Yanıtlar",
+          "row": 85,
+          "sentences": [
+            "AB vatandaşı: pasaport ya da kimlik belgesi ile NIE'yi gösteren kayıt sertifikası (veya sürekli oturum sertifikası)"
+          ]
+        },
+        {
+          "id": "marbella:endulus-sae-is-arayan-kaydi-demandante-de-empleo",
+          "sheet": "Yanıtlar",
+          "row": 90,
+          "sentences": [
+            "Formda istenen bilgileri hazırla: ad soyad, DNI, NIE veya pasaport, uyruk, adres, telefon, e-posta ve eğitim düzeyi.",
+            "DNI, NIE veya pasaport numarası"
+          ]
+        },
+        {
+          "id": "marbella:marbella-sae-kayit-ofisleri-las-palomas-san-pedro",
+          "sheet": "Yanıtlar",
+          "row": 91,
+          "sentences": [
+            "DNI, NIE veya pasaport (forma yazılır)",
+            "Randevu için DNI/NIE ve doğum tarihinle ya da kullanıcı adı ve şifre veya dijital sertifikayla giriş yaparsın; yalnız NIF/NIE ve doğum tarihiyle girersen randevuları sonradan görüntüleyemez, değiştire"
+          ]
+        },
+        {
+          "id": "marbella:nie-nedir-ne-ise-yarar",
+          "sheet": "Yanıtlar",
+          "row": 114,
+          "sentences": [
+            "NIE nedir, ne işe yarar ve nasıl istenir?",
+            "NIE, yabancılara verilen kimlik numarasıdır; harcı 9,84 euro",
+            "NIE (Número de Identidad de Extranjero, yabancı kimlik numarası), İspanya ile ekonomik, mesleki ya da sosyal bağı olan yabancıların Polis Genel Müdürlüğü'nden istemesi gereken numaradır."
+          ]
+        },
+        {
+          "id": "marbella:ab-vatandasi-kayit-sertifikasi",
+          "sheet": "Yanıtlar",
+          "row": 115,
+          "sentences": [
+            "Başvuruyu İspanya'ya girişinden itibaren üç ay içinde yaparsın; kayıt sertifikası hemen verilir ve üzerinde adın, uyruğun, adresin, NIE numaran ve kayıt tarihin yazar."
+          ]
+        },
+        {
+          "id": "marbella:dijital-gocebe-vizesi",
+          "sheet": "Yanıtlar",
+          "row": 122,
+          "sentences": [
+            "Başvuru anında NIE'ye sahip ol; başka dillerdeki belgeler yeminli tercümeyle, yabancı resmî belgeler ise onaylı ya da apostilli olmalı."
+          ]
+        },
+        {
+          "id": "marbella:marbella-nie-tie-polis-ofisi-randevu",
+          "sheet": "Yanıtlar",
+          "row": 128,
+          "sentences": [
+            "Marbella'da NIE ve TIE parmak izi için hangi ofise gidilir, randevu nasıl alınır?",
+            "Marbella'da NIE ataması ve TIE işlemleri Polis Genel Müdürlüğü'ne (Cuerpo Nacional de Policía) bağlı karakolda görülür; TIE, AB dışı yerleşik yabancılar için gereken kimlik kartıdır.",
+            "Polis sedesi, NIE ataması ve TIE çıkarma işlemlerini Marbella Karakolu'nun (Comisaría de Marbella, Avda."
+          ]
+        },
+        {
+          "id": "marbella:malaga-yenileme-marbella-polis-ayrimi",
+          "sheet": "Yanıtlar",
+          "row": 129,
+          "sentences": [
+            "NIE ve TIE parmak izi gibi işlemler için Málaga'ya gitmen gerekmez; bunlar Marbella Karakolu'nun işleri arasında sayılıyor."
+          ]
+        },
+        {
+          "id": "marbella:yabancilar-birimi-extranjeros-residentes",
+          "sheet": "Yanıtlar",
+          "row": 130,
+          "sentences": [
+            "NIE ve TIE (parmak izi, kart teslimi) polis karakollarında işlenir; belediye birimi bu işlemlerde yardımcı olur."
+          ]
+        },
+        {
+          "id": "marbella:marbella-ingreso-minimo-vital-imv-kosullari-basvuru",
+          "sheet": "Yanıtlar",
+          "row": 152,
+          "sentences": [
+            "Kimlik için yabancılar kendi ülkelerinin kimliğini, TIE'yi ya da pasaportu gösterir; NIE bu belgelerde yoksa ayrıca verilir.",
+            "Kimlik belgeni (TIE ya da pasaport; NIE bu belgelerde yoksa ayrıca NIE), ikamet kanıtını, adres için certificado de empadronamiento'yu ve aile birimi için libro de familia ya da Registro Civil sertifi",
+            "Kimlik: ülkenin kimlik belgesi ya da TIE ya da pasaport; NIE bu belgelerde yoksa ayrıca NIE"
+          ]
+        },
+        {
+          "id": "marbella:marbella-banka-hesabi-acmak-icin-gereken-belgeler",
+          "sheet": "Yanıtlar",
+          "row": 153,
+          "sentences": [
+            "İspanya genelinde: kimlik uyruğa göre değişir (AB vatandaşı pasaport ve NIE, AB dışı yabancı TIE); kaynak belgesi de istenebilir",
+            "Banco de España'nın 9 Mart 2021 tarihli yazısına göre banka önce kimliğini ister: AB vatandaşıysan pasaportun ya da ülkende verilen kimlik belgen ve NIE istenebilir, AB dışı yabancıysan Tarjeta de Ide",
+            "Bankaya git ya da başvur ve kimlik belgeni ver: AB vatandaşıysan pasaport ya da ülkenin kimliği ve NIE, AB dışıysan TIE."
+          ]
+        },
+        {
+          "id": "marbella:ilk-gunlerde-nuss-ve-temel-odeme-hesabi",
+          "sheet": "Yanıtlar",
+          "row": 156,
+          "sentences": [
+            "Sosyal güvenlik numaranı (NUSS, Número de la Seguridad Social) istediğin zaman isteyebilirsin; başvuruda kimlik bilgin (DNI ya da NIE), cep telefonu, e-posta ve mutat ikametgâh adresin gerekir.",
+            "NUSS yoksa kimlik bilgin (DNI ya da NIE), telefon, e-posta ve mutat ikametgâh adresinle başvur.",
+            "Cl@ve ya da elektronik sertifikan yoksa ve reşitsen (ya da emancipe küçüksen) DNI/NIE'nin iki yüzünün kopyasını ve kimlik belgenin ön yüzünü gösteren bir selfie'yi sun."
+          ]
+        },
+        {
+          "id": "marbella:marbella-ilk-hafta-yerel-duraklar",
+          "sheet": "Yanıtlar",
+          "row": 163,
+          "sentences": [
+            "Adres kaydı, NIE ve TIE için Marbella'daki adresler",
+            "Marbella'ya geldiğinde iki yerden başlayabilirsin: adres kaydı (empadronamiento) ve NIE ya da TIE işlemleri.",
+            "NIE ve TIE işlemlerini yapan ofislerden biri Marbella Comisaría'sı (Avda."
+          ]
+        },
+        {
+          "id": "marbella:vergi-numarasi-nif-nie-alma",
+          "sheet": "Yanıtlar",
+          "row": 176,
+          "sentences": [
+            "Vergi numarası (NIF) ve NIE nasıl alınır?",
+            "NIE'yi polis, NIE'si olmayanlara NIF'i Agencia Tributaria atar",
+            "Vergiyle ilgili işlemlerde NIF (vergi kimlik numarası) gerekir; çoğu kişide NIF, DNI ya da NIE ile aynıdır."
+          ]
+        },
+        {
+          "id": "marbella:clave-pin-ve-permanente-farki",
+          "sheet": "Yanıtlar",
+          "row": 177,
+          "sentences": [
+            "Cl@ve Permanente ise idareye sık giriş yapanlar için: DNI ya da NIE'nle, kullanıcı kodunla ve aktivasyonda kendin belirlediğin şifreyle girersin."
+          ]
+        },
+        {
+          "id": "marbella:oac-marbella-islemleri-ve-dijital-sertifika-kimlik-dogrulama",
+          "sheet": "Yanıtlar",
+          "row": 187,
+          "sentences": [
+            "FNMT'nin kişisel dijital sertifikası için DNI ya da NIE'n ve internet bağlantılı bir cihaz yeter; FNMT'nin verdiği sayısal kodu aldıktan sonra sertifikayı OAC'ta doğrulatırsın."
+          ]
+        },
+        {
+          "id": "marbella:marbella-adres-kaydi-yollari-ve-belgeler",
+          "sheet": "Yanıtlar",
+          "row": 188,
+          "sentences": [
+            "Sede Electrónica ve OAC yollarında kimlik (pasaport ya da menşe ülkenin kimlik kartı; ya da yanında vesikalık fotoğrafla NIE/TIE), konut belgesi ve doldurulmuş Alta y Cambio de Domicilio formu gerekir",
+            "Pasaport ya da menşe ülkenin kimlik kartı; ya da NIE/TIE (yanında vesikalık fotoğrafla)"
+          ]
+        },
+        {
+          "id": "marbella:marbella-adres-kaydi-yenileme-suresi-ve-getirisi",
+          "sheet": "Yanıtlar",
+          "row": 189,
+          "sentences": [
+            "AB vatandaşlarında NIE'si 2007'den önce olanlar ya da hiç NIE almamış olanlar 2 yılda bir, NIE'si 2007'den sonra olanlar 5 yılda bir yeniler.",
+            "Aralığını bul: AB vatandaşıysan NIE tarihine bak (2007 öncesi ya da hiç NIE yok: 2 yıl; 2007 sonrası: 5 yıl)."
+          ]
+        },
+        {
+          "id": "marbella:marbella-secmen-listesi-censo-electoral-kaydi",
+          "sheet": "Yanıtlar",
+          "row": 191,
+          "sentences": [
+            "İspanyol vatandaşlığı kazandıysan OAC'ta cita previa alıp DNI ya da NIE ile seçmen listesine yazılırsın.",
+            "İspanyol vatandaşlığı kazandıysan citaprevia.marbella.es üzerinden OAC için cita previa al ve DNI ya da NIE ile git.",
+            "DNI ya da NIE (İspanyol vatandaşlığı kazananlar için)"
+          ]
+        },
+        {
+          "id": "marbella:tarjeta-de-movilidad-ucretsiz-belediye-otobusu",
+          "sheet": "Yanıtlar",
+          "row": 192,
+          "sentences": [
+            "Kartı kaybeder ya da çaldırırsan 15 euroluk ödeme belgesini (carta de pago) e-postayla iste (adın, soyadın ve DNI ya da NIE numaran yazılı olsun; adres belediyenin kart sayfasında) ya da Mercado Centr"
+          ]
+        },
+        {
+          "id": "marbella:saglik-sigortasi-sarti-ve-convenio-especial",
+          "sheet": "Yanıtlar",
+          "row": 194,
+          "sentences": [
+            "Kimlik belgesi: kimlik kartı, NIE, pasaport ya da oturum kartı"
+          ]
+        },
+        {
+          "id": "marbella:marbella-ilk-saglik-karti-basvurusu-belgeler",
+          "sheet": "Yanıtlar",
+          "row": 205,
+          "sentences": [
+            "Merkezde başvuru formunu (modelo de solicitud), başvuranın (titular) ve 14 yaş üstü yararlanıcıların DNI'sini, 14 yaş altı yararlanıcı varsa libro de familia'yı ve Andalucía'da oturduğunu gösteren emp"
+          ]
+        },
+        {
+          "id": "marbella:term:003",
+          "sheet": "Sözlük",
+          "row": 10,
+          "sentences": [
+            "NIE (Número de Identidad de Extranjero)"
+          ]
+        },
+        {
+          "id": "marbella:term:005",
+          "sheet": "Sözlük",
+          "row": 12,
+          "sentences": [
+            "NIE ataması ve ilgili belgeler için kullanılan başvuru formu."
+          ]
+        },
+        {
+          "id": "marbella:term:006",
+          "sheet": "Sözlük",
+          "row": 13,
+          "sentences": [
+            "NIE ataması başvurusunda ödeme belgesi olarak istenen ücret formu."
+          ]
+        },
+        {
+          "id": "marbella:step:3",
+          "sheet": "Adımlar",
+          "row": 10,
+          "sentences": [
+            "Pasaport ya da NIE/TIE, konut belgesi (kiracıysan kira sözleşmesi ve fatura; ev sahibiysen tapu, nota simple ya da IBI faturası) ve Alta y Cambio de Domicilio formunu OAC'ta cita previa ile ya da Conc"
+          ]
+        },
+        {
+          "id": "marbella:step:4",
+          "sheet": "Adımlar",
+          "row": 11,
+          "sentences": [
+            "NIE ve TIE işlemleri için Marbella Comisaría'sı",
+            "952 86 72 41) NIE ataması ve TIE çıkarma işlemlerini yapan ofisler arasında."
+          ]
+        }
+      ]
+    },
+    {
+      "anchor": "tie",
+      "kind": "sozluk",
+      "farkli_deger": [
+        "ucret"
+      ],
+      "values": {
+        "sure": [
+          "1 ay"
+        ],
+        "tarih": [
+          "9 mart"
+        ],
+        "ucret": [
+          "10,94 €",
+          "12 €",
+          "12,00 €",
+          "16,08 €",
+          "16,40 €",
+          "19,30 €",
+          "21,87 €",
+          "81,54 €"
+        ]
+      },
+      "mentions": [
+        {
+          "id": "marbella:ingreso-minimo-vital-ve-cocuk-destegi",
+          "sheet": "Yanıtlar",
+          "row": 10,
+          "sentences": [
+            "Kimlik olarak ülkenin kimlik belgesi, yabancı kimlik kartı (TIE) ya da pasaportunu ver; NIE belgelerde yoksa ayrıca ver.",
+            "Kimlik belgesi: ülkenin kimlik belgesi, yabancı kimlik kartı (TIE) ya da pasaport (ve NIE)"
+          ]
+        },
+        {
+          "id": "marbella:okul-basvurusunda-adres-kaniti-ve-marbella-empadronamiento-ofisleri",
+          "sheet": "Yanıtlar",
+          "row": 17,
+          "sentences": [
+            "Okula sunacağın belge belediyenin verdiği empadronamiento belgesidir; aşağıdaki belge listesi ise Marbella'da empadronamiento kaydı (alta) içindir: kimlik (pasaport, ülkenin kimlik kartı ya da NIE/TIE",
+            "Pasaport, ülkenin kimlik kartı ya da NIE/TIE ile birlikte vesikalık fotoğraf (foto de carnet)"
+          ]
+        },
+        {
+          "id": "marbella:issizlik-maasi-paro-sepe-basvurusu",
+          "sheet": "Yanıtlar",
+          "row": 85,
+          "sentences": [
+            "AB dışı vatandaş: fotoğraflı TIE (pasaportu da yanında bulundur)"
+          ]
+        },
+        {
+          "id": "marbella:tie-yabanci-kimlik-karti",
+          "sheet": "Yanıtlar",
+          "row": 116,
+          "sentences": [
+            "TIE (yabancı kimlik kartı) nasıl alınır, ne zamana kadar başvurulur?",
+            "Altı aydan uzun süreli bir vizen ya da izninin olması halinde TIE (Tarjeta de Identidad de Extranjero, yabancı kimlik kartı) hem hakkın hem yükümlülüğündür.",
+            "Güncel resmî tarifeye göre harç: ilk TIE 16,08 euro, yenileme TIE'si 19,30 euro, uzun süreli ikamet TIE'si 21,87 euro."
+          ]
+        },
+        {
+          "id": "marbella:oturum-izni-yenileme",
+          "sheet": "Yanıtlar",
+          "row": 118,
+          "sentences": [
+            "İzin başvurusunu bitişten önceki iki ay içinde yap (16,40 euro); kartı (TIE) karardan sonra polis biriminde ayrıca alırsın (19,30 euro)",
+            "Çalışmasız geçici oturum izninin yenilenmesi iki ayrı işlemdir: önce izin başvurusu, karar bildirildikten sonra kart (TIE) başvurusu.",
+            "Karar bildirilince bir ay içinde polis biriminde yenilenen kartını (TIE) ayrıca istersin; kart harcı 19,30 euro'dur."
+          ]
+        },
+        {
+          "id": "marbella:aile-birlesimi-ile-oturum",
+          "sheet": "Yanıtlar",
+          "row": 119,
+          "sentences": [
+            "İspanya'ya girdikten sonra bir ay içinde polis biriminde kimlik kartını (TIE) ayrıca ister; ilk kart harcı 16,08 euro'dur.",
+            "İspanya'ya girdikten sonra bir ay içinde şahsen polis birimine (Comisaría de Policía) başvurup kimlik kartını (TIE) iste; ilk kart harcı 16,08 euro.",
+            "İzin başvurusu (790 modeli, 052 kodu, 2.1.2 başlığı): 10,94 euro; ilk kart (TIE): 16,08 euro."
+          ]
+        },
+        {
+          "id": "marbella:kalici-oturum-bes-yil",
+          "sheet": "Yanıtlar",
+          "row": 120,
+          "sentences": [
+            "Önce izin için yabancılar ofisine başvurulur (21,87 euro), kimlik kartı (TIE) izin verildikten sonra ayrıca alınır (21,87 euro)",
+            "Süreç iki ayrı işlemdir: önce izin başvurusu, karardan sonra kimlik kartı (TIE).",
+            "İzin verildikten sonra bir ay içinde kimlik kartını (TIE) polis biriminde ayrıca istersin; kart harcı 21,87 euro'dur."
+          ]
+        },
+        {
+          "id": "marbella:arraigo-kok-salma-oturumu",
+          "sheet": "Yanıtlar",
+          "row": 121,
+          "sentences": [
+            "Karar çıktıktan sonra kimlik kartını (TIE) polis biriminde ayrıca istersin; ilk kartın harcı 16,08 euro.",
+            "Karar bildirilince bir ay içinde polis biriminde kimlik kartını (TIE) ayrıca iste; ilk kartın harcı 16,08 euro.",
+            "İzin verilince ilk kimlik kartı (TIE) harcı: 16,08 euro."
+          ]
+        },
+        {
+          "id": "marbella:kar-amaci-gutmeyen-oturum-vizesi",
+          "sheet": "Yanıtlar",
+          "row": 123,
+          "sentences": [
+            "Vize verildikten sonra İspanya'ya girişinden itibaren 1 ay içinde yabancılar ofisinde ya da polis karakolunda kimlik kartını (TIE) iste.",
+            "Vize ve ilk oturum izni başvurusu birlikte işlem görür; kimlik kartı (TIE) vize verildikten ve İspanya'ya girildikten sonra ayrı bir işlemdir."
+          ]
+        },
+        {
+          "id": "marbella:brexit-sonrasi-ingiliz-oturumu",
+          "sheet": "Yanıtlar",
+          "row": 127,
+          "sentences": [
+            "Güncel resmî tarifeye göre 12,00 euro (Çekilme Anlaşması kapsamındaki TIE)."
+          ]
+        },
+        {
+          "id": "marbella:marbella-nie-tie-polis-ofisi-randevu",
+          "sheet": "Yanıtlar",
+          "row": 128,
+          "sentences": [
+            "Marbella'da NIE ve TIE parmak izi için hangi ofise gidilir, randevu nasıl alınır?",
+            "Marbella'da NIE ataması ve TIE işlemleri Polis Genel Müdürlüğü'ne (Cuerpo Nacional de Policía) bağlı karakolda görülür; TIE, AB dışı yerleşik yabancılar için gereken kimlik kartıdır.",
+            "Polis sedesi, NIE ataması ve TIE çıkarma işlemlerini Marbella Karakolu'nun (Comisaría de Marbella, Avda."
+          ]
+        },
+        {
+          "id": "marbella:malaga-yenileme-marbella-polis-ayrimi",
+          "sheet": "Yanıtlar",
+          "row": 129,
+          "sentences": [
+            "NIE ve TIE parmak izi gibi işlemler için Málaga'ya gitmen gerekmez; bunlar Marbella Karakolu'nun işleri arasında sayılıyor."
+          ]
+        },
+        {
+          "id": "marbella:yabancilar-birimi-extranjeros-residentes",
+          "sheet": "Yanıtlar",
+          "row": 130,
+          "sentences": [
+            "NIE ve TIE (parmak izi, kart teslimi) polis karakollarında işlenir; belediye birimi bu işlemlerde yardımcı olur."
+          ]
+        },
+        {
+          "id": "marbella:marbella-ingreso-minimo-vital-imv-kosullari-basvuru",
+          "sheet": "Yanıtlar",
+          "row": 152,
+          "sentences": [
+            "Kimlik için yabancılar kendi ülkelerinin kimliğini, TIE'yi ya da pasaportu gösterir; NIE bu belgelerde yoksa ayrıca verilir.",
+            "Kimlik belgeni (TIE ya da pasaport; NIE bu belgelerde yoksa ayrıca NIE), ikamet kanıtını, adres için certificado de empadronamiento'yu ve aile birimi için libro de familia ya da Registro Civil sertifi",
+            "Kimlik: ülkenin kimlik belgesi ya da TIE ya da pasaport; NIE bu belgelerde yoksa ayrıca NIE"
+          ]
+        },
+        {
+          "id": "marbella:marbella-banka-hesabi-acmak-icin-gereken-belgeler",
+          "sheet": "Yanıtlar",
+          "row": 153,
+          "sentences": [
+            "İspanya genelinde: kimlik uyruğa göre değişir (AB vatandaşı pasaport ve NIE, AB dışı yabancı TIE); kaynak belgesi de istenebilir",
+            "Banco de España'nın 9 Mart 2021 tarihli yazısına göre banka önce kimliğini ister: AB vatandaşıysan pasaportun ya da ülkende verilen kimlik belgen ve NIE istenebilir, AB dışı yabancıysan Tarjeta de Ide",
+            "Bankaya git ya da başvur ve kimlik belgeni ver: AB vatandaşıysan pasaport ya da ülkenin kimliği ve NIE, AB dışıysan TIE."
+          ]
+        },
+        {
+          "id": "marbella:tasinma-oncesi-vize-ve-ilk-oturum-izni",
+          "sheet": "Yanıtlar",
+          "row": 154,
+          "sentences": [
+            "İspanya'ya girdikten sonra 1 ay içinde yabancı kimlik kartını (TIE, Tarjeta de Identidad de Extranjero) istemen gerekir.",
+            "İspanya'ya girdiğin tarihten itibaren 1 ay içinde Oficina de Extranjeros'a (yabancılar bürosu) ya da ilgili Comisaría de Policía'ya başvurup TIE iste."
+          ]
+        },
+        {
+          "id": "marbella:ab-disindan-gelirken-esya-ve-nakit-gumruk-beyani",
+          "sheet": "Yanıtlar",
+          "row": 157,
+          "sentences": [
+            "Eski ikametinden kayıt silme belgeni, TIE başvurunu ya da kartını ve eşya listeni hazırla; önceki ikametini göstermek için herhangi bir belge kullanılabilir.",
+            "TIE başvurusu ya da TIE kartı (AB ve AEA dışı uyruklular için)"
+          ]
+        },
+        {
+          "id": "marbella:marbella-ilk-hafta-yerel-duraklar",
+          "sheet": "Yanıtlar",
+          "row": 163,
+          "sentences": [
+            "Adres kaydı, NIE ve TIE için Marbella'daki adresler",
+            "Marbella'ya geldiğinde iki yerden başlayabilirsin: adres kaydı (empadronamiento) ve NIE ya da TIE işlemleri.",
+            "NIE ve TIE işlemlerini yapan ofislerden biri Marbella Comisaría'sı (Avda."
+          ]
+        },
+        {
+          "id": "marbella:tie-basvurusu-marbella-belgeler-ve-harc",
+          "sheet": "Yanıtlar",
+          "row": 171,
+          "sentences": [
+            "Marbella'da TIE (yabancı kimlik kartı) başvurusunu nereye, hangi belgelerle yaparsın?",
+            "Oturma ya da oturma ve çalışma izni olan yabancı olarak TIE'yi (yabancı kimlik kartı) herhangi bir Oficina de Extranjería'ya ya da ilgili Comisaría de Policía'ya şahsen başvurarak istersin; Marbella'd",
+            "952 86 72 41) TIE çıkarma işlemlerini yapan ofislerden biridir."
+          ]
+        },
+        {
+          "id": "marbella:marbella-adres-kaydi-yollari-ve-belgeler",
+          "sheet": "Yanıtlar",
+          "row": 188,
+          "sentences": [
+            "Sede Electrónica ve OAC yollarında kimlik (pasaport ya da menşe ülkenin kimlik kartı; ya da yanında vesikalık fotoğrafla NIE/TIE), konut belgesi ve doldurulmuş Alta y Cambio de Domicilio formu gerekir",
+            "Pasaport ya da menşe ülkenin kimlik kartı; ya da NIE/TIE (yanında vesikalık fotoğrafla)"
+          ]
+        },
+        {
+          "id": "marbella:term:004",
+          "sheet": "Sözlük",
+          "row": 11,
+          "sentences": [
+            "TIE (Tarjeta de Identidad de Extranjero)"
+          ]
+        },
+        {
+          "id": "marbella:step:3",
+          "sheet": "Adımlar",
+          "row": 10,
+          "sentences": [
+            "Pasaport ya da NIE/TIE, konut belgesi (kiracıysan kira sözleşmesi ve fatura; ev sahibiysen tapu, nota simple ya da IBI faturası) ve Alta y Cambio de Domicilio formunu OAC'ta cita previa ile ya da Conc"
+          ]
+        },
+        {
+          "id": "marbella:step:4",
+          "sheet": "Adımlar",
+          "row": 11,
+          "sentences": [
+            "NIE ve TIE işlemleri için Marbella Comisaría'sı",
+            "952 86 72 41) NIE ataması ve TIE çıkarma işlemlerini yapan ofisler arasında."
+          ]
+        }
+      ]
+    },
+    {
+      "anchor": "cl ve",
+      "kind": "sozluk",
+      "farkli_deger": [
+        "sure"
+      ],
+      "values": {
+        "sure": [
+          "10 gun",
+          "360 gun"
+        ],
+        "tarih": [
+          "26 mart"
+        ]
+      },
+      "mentions": [
+        {
+          "id": "marbella:mec-burslari-ab-disi-sart-ve-basvuru-donemi",
+          "sheet": "Yanıtlar",
+          "row": 11,
+          "sentences": [
+            "FP, bachillerato ve diğer üniversite dışı bursların başvurusu Bakanlığın elektronik şubesinden (sede electrónica) yapılır: Cl@ve ya da elektronik sertifikanla ya da şubeye kayıtlı kullanıcı adı ve şif"
+          ]
+        },
+        {
+          "id": "marbella:elektrik-ve-telekom-sikayet-yollari",
+          "sheet": "Yanıtlar",
+          "row": 50,
+          "sentences": [
+            "Operatörden bir ay içinde yanıt alamazsan ya da yanıt seni tatmin etmezse OAUT'a başvur; başvuruyu elektronik sertifika ya da Cl@ve ile internetten yapabilir ya da formu imzalayıp idarenin herhangi bi"
+          ]
+        },
+        {
+          "id": "marbella:serbest-calisan-autonomo-kayit-ve-prim-tablosu",
+          "sheet": "Yanıtlar",
+          "row": 87,
+          "sentences": [
+            "Importass uygulamasında Cl@ve, dijital sertifika ya da geçerli başka bir yöntemle kimliğini doğrula.",
+            "Cl@ve, dijital sertifika ya da geçerli başka bir kimlik doğrulama yöntemi"
+          ]
+        },
+        {
+          "id": "marbella:endulus-sae-is-arayan-kaydi-demandante-de-empleo",
+          "sheet": "Yanıtlar",
+          "row": 90,
+          "sentences": [
+            "Cl@ve veya dijital sertifikayla gönderirsen kaydın geçerli olur; kullanıcı adı ve şifreyle gönderirsen kimliğini doğrulamak için randevu alıp iş bürosunda (oficina de empleo) kaydı tamamlarsın.",
+            "Cl@ve veya dijital sertifikayla gönderdiysen kaydın geçerlidir."
+          ]
+        },
+        {
+          "id": "marbella:marbella-sae-kayit-ofisleri-las-palomas-san-pedro",
+          "sheet": "Yanıtlar",
+          "row": 91,
+          "sentences": [
+            "Cl@ve ya da dijital sertifikayla gönderdiğin form hemen geçerli olur; kullanıcı adı ve şifreyle gönderdiysen kimliğini doğrulatmak için randevu almak zorundasın.",
+            "Formu Cl@ve ya da dijital sertifikayla gönderirsen kaydın hemen geçerli olur; yalnız kullanıcı adı ve şifre oluşturduysan kimliğin doğrulansın diye randevu almak zorundasın."
+          ]
+        },
+        {
+          "id": "marbella:paro-basvurusu-marbella-randevu-sepe",
+          "sheet": "Yanıtlar",
+          "row": 94,
+          "sentences": [
+            "SEPE, kayıt için ikamet adresine göre bağlı olduğun özerk topluluğun istihdam ofisine şahsen gidilmesini söylüyor; Andalucía'da kaydı SAE'nin çevrimiçi formuyla yaparsın: Cl@ve ya da dijital sertifika",
+            "Ödenek başvurusu kişisel bir yükümlülüktür; SEPE'nin e-sedesinden başvurabilirsin, bunun için dijital sertifika, DNI electrónico ya da Cl@ve kullanıcı adı ve şifresi gerekir.",
+            "Önce SAE'ye iş arayan olarak kayıt ol: çevrimiçi formu Cl@ve ya da dijital sertifikayla gönderirsen kaydın hemen geçerli olur; kullanıcı adı ve şifreyle gönderirsen kimliğin doğrulanması için ofisten "
+          ]
+        },
+        {
+          "id": "marbella:yillik-gelir-vergisi-beyani-renta",
+          "sheet": "Yanıtlar",
+          "row": 138,
+          "sentences": [
+            "İnternetten verenler Agencia Tributaria'nın elektronik merkezine tanınmış elektronik sertifika, Cl@ve Móvil, referans numarası ya da eIDAS ile giriyordu."
+          ]
+        },
+        {
+          "id": "marbella:gestor-asesor-vergi-beyani-temsil",
+          "sheet": "Yanıtlar",
+          "row": 140,
+          "sentences": [
+            "Beyanı kendin vermek istiyorsan Agencia Tributaria'nın elektronik merkezine tanınmış elektronik sertifika, Cl@ve Móvil, referans numarası ya da eIDAS ile gir."
+          ]
+        },
+        {
+          "id": "marbella:ilk-gunlerde-nuss-ve-temel-odeme-hesabi",
+          "sheet": "Yanıtlar",
+          "row": 156,
+          "sentences": [
+            "Cl@ve ya da elektronik sertifikan yoksa ve reşitsen (ya da emancipe küçüksen) DNI/NIE'nin iki yüzünün kopyasını ve kimlik belgenin ön yüzünü gösteren bir selfie'yi sun."
+          ]
+        },
+        {
+          "id": "marbella:vida-laboral-raporu-alma",
+          "sheet": "Yanıtlar",
+          "row": 175,
+          "sentences": [
+            "Kimlik yöntemini seç: Cl@ve Permanente, Cl@ve Móvil, DNIe, elektronik sertifika ya da SMS yolu."
+          ]
+        },
+        {
+          "id": "marbella:clave-pin-ve-permanente-farki",
+          "sheet": "Yanıtlar",
+          "row": 177,
+          "sentences": [
+            "Cl@ve sistemi: Cl@ve uygulaması (Cl@ve Móvil) ile Cl@ve Permanente farkı nedir?",
+            "Cl@ve uygulaması telefonla onay verir, Permanente kalıcı şifreyle çalışır",
+            "Cl@ve, idarenin elektronik hizmetlerine giriş sistemidir."
+          ]
+        },
+        {
+          "id": "marbella:arac-kaydi-ulusal-cerceve",
+          "sheet": "Yanıtlar",
+          "row": 184,
+          "sentences": [
+            "Aracın elektronik ITV kartı (ficha ITV electrónica) olup olmadığına bak; yalnız kâğıt kartı varsa DGT'nin genel başvuru formuyla başvurabilirsin, bunun için dijital DNI, geçerli elektronik sertifika y"
+          ]
+        },
+        {
+          "id": "marbella:endulus-carpeta-ciudadana-junta-dijital-islemler",
+          "sheet": "Yanıtlar",
+          "row": 185,
+          "sentences": [
+            "Junta işlemleri, belgeleri, randevuları ve kartları tek uygulamada; giriş Cl@ve ya da dijital sertifika ile",
+            "Girişte kimliğini Cl@ve ile ya da dijital sertifika ile doğrularsın.",
+            "Kimliğini Cl@ve ile ya da dijital sertifikayla doğrula."
+          ]
+        },
+        {
+          "id": "marbella:marbella-secmen-listesi-censo-electoral-kaydi",
+          "sheet": "Yanıtlar",
+          "row": 191,
+          "sentences": [
+            "AB vatandaşıysan oy isteğini bildir: INE'nin elektronik ofisinden Cl@ve ile, padrón kaydının olduğu belediyede CERE-DFA formuyla ya da Oficina del Censo Electoral'in (OCE) mektubunu aldıysan postayla."
+          ]
+        },
+        {
+          "id": "marbella:endulus-saglik-karti-tarjeta-sanitaria-ve-aile-hekimi-secimi",
+          "sheet": "Yanıtlar",
+          "row": 200,
+          "sentences": [
+            "İlk kart başvurusu genellikle sağlık merkezinde yapılır; hekim seçimi merkezde ya da Cl@ve gibi güvenli kimlikle çevrim içi yapılır",
+            "Aile hekimini ve merkezi, evinin bağlı olduğu sağlık bölgesindeki (distrito sanitario) profesyoneller arasından seçersin; merkezde başvurursan yanıt 45 günden önce gelir, Cl@ve, dijital sertifika ya d",
+            "Cl@ve, dijital sertifika ya da e-DNI'ın varsa seçimi ClicSalud+ üzerinden yap, hekim değişikliği hemen işlenir; atama belgesini yazdır ya da kaydet."
+          ]
+        },
+        {
+          "id": "marbella:marbella-aile-hekimi-randevusu-clicsalud-app",
+          "sheet": "Yanıtlar",
+          "row": 207,
+          "sentences": [
+            "Uygulamaya tam erişim için certificado digital, Cl@ve gelişmiş kaydı ya da bunlardan alınan QR kodu gerekir; bazı işlemler için kişisel veri ve cep telefonuna gelen tek kullanımlık kod yeterlidir.",
+            "Uygulamaya girmek için certificado digital, Cl@ve gelişmiş kaydı ya da QR kodu kullan; bazı işlemler için kişisel veri ve cep telefonuna gelen kod yeterlidir.",
+            "Certificado digital ya da Cl@ve (uygulamaya tam erişim için)"
+          ]
+        },
+        {
+          "id": "marbella:marbella-sanal-saglik-karti-ve-kart-yenileme",
+          "sheet": "Yanıtlar",
+          "row": 208,
+          "sentences": [
+            "Kartı Salud Andalucía uygulamasında etkinleştirirsin; bunun için certificado digital ya da Cl@ve gerekir, ClicSalud+ web sitesinde DNIe, uygulamada ise QR de kullanılabilir.",
+            "Salud Andalucía uygulamasını kur ve certificado digital ya da Cl@ve ile kimliğini doğrula.",
+            "Fiziksel kart kaybolursa yenilemeyi ClicSalud+ ya da uygulamadan iste: ya kart numaranı, doğum tarihini ve kimlik belgeni (14 yaşından itibaren) girerek ya da certificado digital, DNIe, Cl@ve veya uyg"
+          ]
+        },
+        {
+          "id": "marbella:marbella-cocuk-dis-hekimi-ve-asi-randevusu",
+          "sheet": "Yanıtlar",
+          "row": 213,
+          "sentences": [
+            "ClicSalud+ için kişisel verilerinle ya da dijital sertifika, DNIe veya Cl@ve ile kimliğini doğrula; sonra açılan takvimden gün ve saat seç.",
+            "ClicSalud+ için kişisel veriler ya da dijital sertifika, DNIe veya Cl@ve"
+          ]
+        },
+        {
+          "id": "marbella:ucus-gecikme-iptal-aesa-sikayet",
+          "sheet": "Yanıtlar",
+          "row": 218,
+          "sentences": [
+            "AESA'ya elektronik yoldan (dijital sertifika, Cl@ve Permanente ya da Cl@ve'i olmayan yabancılar için önceden kayıt gerektiren e4F; Cl@ve PIN imza vermediği için bununla başvuru baştan sona yapılamaz, "
+          ]
+        },
+        {
+          "id": "marbella:term:011",
+          "sheet": "Sözlük",
+          "row": 18,
+          "sentences": [
+            "Cl@ve"
+          ]
+        },
+        {
+          "id": "marbella:term:012",
+          "sheet": "Sözlük",
+          "row": 19,
+          "sentences": [
+            "Çevrimiçi başvurularda DNI electrónico veya Cl@ve ile birlikte kimlik doğrulama yollarından biri; örneğin işsizlik ödeneği başvurusu bu yollarla yapılır."
+          ]
+        },
+        {
+          "id": "marbella:term:030",
+          "sheet": "Sözlük",
+          "row": 37,
+          "sentences": [
+            "İnternet üzerinden birinci basamak randevusu alınan sistem; kimlik doğrulaması kişisel verilerle veya dijital sertifika, DNIe ya da Cl@ve ile yapılır."
+          ]
+        }
+      ]
+    },
+    {
+      "anchor": "oficina de extranjeria",
+      "kind": "sozluk",
+      "farkli_deger": [
+        "ucret"
+      ],
+      "values": {
+        "ucret": [
+          "10,94 €",
+          "21,87 €",
+          "38,28 €"
+        ]
+      },
+      "mentions": [
+        {
+          "id": "marbella:nie-nedir-ne-ise-yarar",
+          "sheet": "Yanıtlar",
+          "row": 114,
+          "sentences": [
+            "Dilekçeyi Polis Genel Müdürlüğü'ne yabancılar ofisi (Oficina de Extranjería) ya da polis karakolu (Comisaría) aracılığıyla ver; İspanya dışındaysan İspanya konsoloslukları üzerinden başvur."
+          ]
+        },
+        {
+          "id": "marbella:aile-birlesimi-ile-oturum",
+          "sheet": "Yanıtlar",
+          "row": 119,
+          "sentences": [
+            "Önce reagrupante, oturduğu ilin yabancılar ofisine (Oficina de Extranjería) yüz yüze ya da elektronik olarak (Mercurio) EX-02 formuyla izin başvurusu yapar; harç 790 modeli, 052 kodu, 2.1.2 başlığıdır"
+          ]
+        },
+        {
+          "id": "marbella:kalici-oturum-bes-yil",
+          "sheet": "Yanıtlar",
+          "row": 120,
+          "sentences": [
+            "İspanya'daysan izin başvurusunu oturduğun ilin yabancılar ofisine (Oficina de Extranjería) yüz yüze ya da elektronik olarak (Mercurio) EX-11 formuyla yaparsın; harç 790 modeli, 052 kodu, 2.6 başlığıdı"
+          ]
+        },
+        {
+          "id": "marbella:arraigo-kok-salma-oturumu",
+          "sheet": "Yanıtlar",
+          "row": 121,
+          "sentences": [
+            "Başvuru bir izin başvurusudur: oturduğun ilin yabancılar ofisine (Oficina de Extranjería) yüz yüze ya da Política Territorial bakanlığının elektronik sedesinden (Mercurio), EX-10 formuyla yapılır; har"
+          ]
+        },
+        {
+          "id": "marbella:marbella-nie-tie-polis-ofisi-randevu",
+          "sheet": "Yanıtlar",
+          "row": 128,
+          "sentences": [
+            "Randevuyu sedede 'Trámites Cuerpo de Policía Nacional' seçeneğiyle alırsın; 'Trámites en Oficina de Extranjería' seçeneği Málaga'daki ofis içindir."
+          ]
+        },
+        {
+          "id": "marbella:malaga-yenileme-marbella-polis-ayrimi",
+          "sheet": "Yanıtlar",
+          "row": 129,
+          "sentences": [
+            "Yenileme randevusu polis sedesinde 'Trámites en Oficina de Extranjería' seçeneğiyle alınır; bu seçenekteki işlemler Málaga'daki Oficina de Extranjería'da görülür.",
+            "Randevu ekranında 'Trámites en Oficina de Extranjería' seçeneğini seç; bu grup Málaga'daki Oficina de Extranjería içindir."
+          ]
+        },
+        {
+          "id": "marbella:yabancilar-birimi-extranjeros-residentes",
+          "sheet": "Yanıtlar",
+          "row": 130,
+          "sentences": [
+            "AB dışı yerleşiklerin kalış belgesi yenilemeleri (kısa süreli belgede hepsi, uzun süreli belgede ilk yenileme) Málaga'daki Oficina de Extranjería'da yapılır."
+          ]
+        },
+        {
+          "id": "marbella:tie-basvurusu-marbella-belgeler-ve-harc",
+          "sheet": "Yanıtlar",
+          "row": 171,
+          "sentences": [
+            "Oturma ya da oturma ve çalışma izni olan yabancı olarak TIE'yi (yabancı kimlik kartı) herhangi bir Oficina de Extranjería'ya ya da ilgili Comisaría de Policía'ya şahsen başvurarak istersin; Marbella'd",
+            "Başvurunu ve belgelerini herhangi bir Oficina de Extranjería'ya ya da ilgili Comisaría de Policía'ya şahsen sun; Marbella'da Comisaría de Marbella (Avda."
+          ]
+        },
+        {
+          "id": "marbella:vergi-numarasi-nif-nie-alma",
+          "sheet": "Yanıtlar",
+          "row": 176,
+          "sentences": [
+            "Başvuruyu Polis Genel Müdürlüğü'ne doğrudan, Oficina de Extranjería ya da polis karakolu üzerinden yap; İspanya'da değilsen İspanya'nın yurtdışındaki konsolosluklarından yap."
+          ]
+        },
+        {
+          "id": "marbella:term:008",
+          "sheet": "Sözlük",
+          "row": 15,
+          "sentences": [
+            "Oficina de Extranjería (Cuerpo Nacional de Policía)"
+          ]
+        }
+      ]
+    },
+    {
+      "anchor": "registro civil",
+      "kind": "sozluk",
+      "farkli_deger": [
+        "sure"
+      ],
+      "values": {
+        "sure": [
+          "10 gun",
+          "180 gun"
+        ],
+        "tarih": [
+          "8 haziran"
+        ]
+      },
+      "mentions": [
+        {
+          "id": "marbella:ingreso-minimo-vital-ve-cocuk-destegi",
+          "sheet": "Yanıtlar",
+          "row": 10,
+          "sentences": [
+            "Çocukların için libro de familia ya da Registro Civil'in verdiği doğum belgesini ekle.",
+            "Libro de familia ya da Registro Civil doğum belgesi (çocuklar için)"
+          ]
+        },
+        {
+          "id": "marbella:marbella-registro-civil-dogum-kaydi-adres-telefon-ve-saatler",
+          "sheet": "Yanıtlar",
+          "row": 25,
+          "sentences": [
+            "Marbella'da doğan çocuğun doğum kaydı nasıl yapılır; Registro Civil ofisinin adresi, telefonu ve saatleri nedir?",
+            "Doğum 10 gün içinde bildirilir; Oficina General del Registro Civil, Avda.",
+            "Geçiş döneminde doğum, doğumun gerçekleştiği yerin Registro Civil'ine kaydedilir; İspanya'da gerçekleşen doğumlar, süre içinde talep edilirse ebeveynin adresindeki Registro Civil'e de kaydedilebilir."
+          ]
+        },
+        {
+          "id": "marbella:ispanyol-vatandasligi-basvurusu",
+          "sheet": "Yanıtlar",
+          "row": 126,
+          "sentences": [
+            "Karar olumluysa bildirimden sonraki 180 gün içinde Registro Civil'de Kral'a bağlılık ve Anayasa'ya ve yasalara uyma yemini ya da sözünü ver (14 yaşından büyüksen), gerekiyorsa önceki vatandaşlıktan va"
+          ]
+        },
+        {
+          "id": "marbella:marbella-ingreso-minimo-vital-imv-kosullari-basvuru",
+          "sheet": "Yanıtlar",
+          "row": 152,
+          "sentences": [
+            "Kimlik belgeni (TIE ya da pasaport; NIE bu belgelerde yoksa ayrıca NIE), ikamet kanıtını, adres için certificado de empadronamiento'yu ve aile birimi için libro de familia ya da Registro Civil sertifi",
+            "Aile birimi: libro de familia ya da Registro Civil sertifikası (padrón verileriyle birlikte)"
+          ]
+        },
+        {
+          "id": "marbella:libro-de-familia-nedir",
+          "sheet": "Yanıtlar",
+          "row": 181,
+          "sentences": [
+            "DICIREG'e geçmiş Registro Civil ofisleri Libro de Familia vermez; daha önce verilenler etkisini sürdürür",
+            "Libro de Familia (aile cüzdanı), eski Registro Civil (medeni hâl sicili) sisteminde verilen bir belgedir.",
+            "Ley 20/2011 (Registro Civil Yasası) herkese açık, ücretsiz, İspanya genelinde tek, elektronik ve birlikte çalışabilir bir sicil modeli getirdi; bu modelde her bireysel kayıtta kişinin bilgilerini göst"
+          ]
+        },
+        {
+          "id": "marbella:registro-civil-ne-ise-yarar",
+          "sheet": "Yanıtlar",
+          "row": 182,
+          "sentences": [
+            "Registro Civil (medeni hâl sicili) ne işe yarar?",
+            "Registro Civil, kişilerin medeni hâline ilişkin olayların kaydedildiği sicildir: doğum, soybağı, ad ve soyad ile değişiklikleri, uyruk ve vecindad, velayet ve vesayet, evlilik, ölüm gibi.",
+            "Sertifikaları ilgili Registro Civil ofisinden yüz yüze ya da Adalet Bakanlığı'nın elektronik sedesinden alabilirsin."
+          ]
+        },
+        {
+          "id": "marbella:marbella-registro-civil-ofisi-adresi",
+          "sheet": "Yanıtlar",
+          "row": 190,
+          "sentences": [
+            "Marbella'da Registro Civil (medeni hâl sicili) ofisi nerede, nasıl ulaşırsın?",
+            "Marbella'nın Registro Civil ofisi (Oficina General del Registro Civil) Avda."
+          ]
+        },
+        {
+          "id": "marbella:term:044",
+          "sheet": "Sözlük",
+          "row": 51,
+          "sentences": [
+            "Registro Civil"
+          ]
+        },
+        {
+          "id": "marbella:term:045",
+          "sheet": "Sözlük",
+          "row": 52,
+          "sentences": [
+            "Aile birliğinin kanıtlanmasında kullanılan belge; ödenek başvurularında registro civil sertifikasıyla birlikte sayılır."
+          ]
+        }
+      ]
+    },
+    {
+      "anchor": "irpf",
+      "kind": "sozluk",
+      "farkli_deger": [
+        "ucret"
+      ],
+      "values": {
+        "ucret": [
+          "200 €",
+          "300000 €"
+        ]
+      },
+      "mentions": [
+        {
+          "id": "marbella:endulus-dogum-ve-evlat-edinme-gelir-vergisi-indirimi-200-euro",
+          "sheet": "Yanıtlar",
+          "row": 26,
+          "sentences": [
+            "Endülüs'te vergi mükellefi, doğum, evlat edinme ya da aile yanında bakım (acogimiento familiar) yılında özerk bölge gelir vergisi (IRPF) borcundan çocuk başına 200 € indirim alır."
+          ]
+        },
+        {
+          "id": "marbella:issizlik-maasi-paro-sepe-basvurusu",
+          "sheet": "Yanıtlar",
+          "row": 85,
+          "sentences": [
+            "Brüt tutardan sosyal güvenlik primi ve gerektiğinde IRPF stopajı (retención) düşülür"
+          ]
+        },
+        {
+          "id": "marbella:gelir-vergisi-irpf-devlet-dilimleri",
+          "sheet": "Yanıtlar",
+          "row": 136,
+          "sentences": [
+            "İspanya'da gelir vergisi (IRPF) dilimleri nelerdir?",
+            "Renta 2025 kılavuzuna göre (2025 geliri, 2026'da verilen beyan) IRPF devlet ölçeği şöyledir: 12.450 euroya kadar %9,50, 12.450-20.200 euro arası %12, 20.200-35.200 euro arası %15, 35.200-60.000 euro a"
+          ]
+        },
+        {
+          "id": "marbella:yillik-gelir-vergisi-beyani-renta",
+          "sheet": "Yanıtlar",
+          "row": 138,
+          "sentences": [
+            "Zorunluluk sınırlarının altında kalsan bile IRPF mevzuatından doğan bir iade (örneğin kesintiler ya da annelik, kalabalık aile ve bakmakla yükümlü engelli indirimleri nedeniyle) istiyorsan beyan verme"
+          ]
+        },
+        {
+          "id": "marbella:beckham-yasasi-ozel-vergi-rejimi",
+          "sheet": "Yanıtlar",
+          "row": 145,
+          "sentences": [
+            "Rejim, taşınmaları sonucu İspanya'da vergi mukimi olan ve gelir vergisini Mukim Olmayanlar Gelir Vergisi'nin özel kurallarıyla ödemeyi seçen kişiler içindir; bu süre boyunca IRPF mükellefi kalırlar."
+          ]
+        },
+        {
+          "id": "marbella:endulus-gelir-vergisi-irpf-bolge-dilimleri-ve-indirimleri",
+          "sheet": "Yanıtlar",
+          "row": 146,
+          "sentences": [
+            "Endülüs'te gelir vergisinin (IRPF) bölge dilimleri nelerdir, bölgesel indirimler hangileri?"
+          ]
+        },
+        {
+          "id": "marbella:recete-ilac-katilim-payi-copago",
+          "sheet": "Yanıtlar",
+          "row": 195,
+          "sentences": [
+            "Gelir, IRPF beyanındaki vergilendirilebilir genel ve tasarruf matrahı (base liquidable general y del ahorro) kutusundaki tutardır."
+          ]
+        },
+        {
+          "id": "marbella:term:019",
+          "sheet": "Sözlük",
+          "row": 26,
+          "sentences": [
+            "IRPF (Impuesto sobre la Renta de las Personas Físicas)"
+          ]
+        }
+      ]
+    },
+    {
+      "anchor": "cercanias",
+      "kind": "sozluk",
+      "farkli_deger": [
+        "ucret"
+      ],
+      "values": {
+        "ucret": [
+          "4 €",
+          "50 €",
+          "7,75 €"
+        ]
+      },
+      "mentions": [
+        {
+          "id": "marbella:renfe-bilet-iptal-degisiklik-genc-indirimi",
+          "sheet": "Yanıtlar",
+          "row": 214,
+          "sentences": [
+            "14-25 yaşındaysan Más Renfe Joven üyeliği (50 €) AVE ve Larga Distancia'da %30, Avant, Media Distancia ve Cercanías/Rodalies'te %25 indirim verir.",
+            "İndirimler: AVE ve Larga Distancia %30; Avant, Media Distancia ve Cercanías/Rodalies %25."
+          ]
+        },
+        {
+          "id": "marbella:malaga-havalimani-tren-c1-ekspres-otobus-merkeze",
+          "sheet": "Yanıtlar",
+          "row": 224,
+          "sentences": [
+            "Cercanías C1 Málaga Centro Alameda-Fuengirola; ekspres otobüs tek bilet 4 €",
+            "Havalimanından Málaga şehrine iki seçenek var: Cercanías C1 treni (Málaga Centro Alameda-Fuengirola hattı) ve ekspres otobüs."
+          ]
+        },
+        {
+          "id": "marbella:malaga-toplu-tasima-karti-tarjeta-de-transporte-alim-yukleme",
+          "sheet": "Yanıtlar",
+          "row": 229,
+          "sentences": [
+            "Konsorsiyuma bağlı şehirlerarası otobüslerde; Málaga, Alhaurín de la Torre, Benalmádena, Rincón de la Victoria ve Torremolinos şehir otobüslerinde (listede Marbella şehir otobüsü yoktur); Málaga, Cádi",
+            "Konsorsiyuma bağlı bir satış noktasına git (tütün bayii, gazete bayii, kitapçı); Málaga Cercanías hattında (C-1, C-2) istasyon gişesinden de alabilirsin.",
+            "Cercanías gişelerinin listesi Consorcio sitesindeki puntos de venta (satış noktaları) bölümündedir; Marbella'daki satış noktaları Consorcio'nun Cercanías sayfasında ayrıca sayılmıyor."
+          ]
+        },
+        {
+          "id": "marbella:malaga-metropol-ulasim-tarifesi-saltos-ve-aktarma-2026",
+          "sheet": "Yanıtlar",
+          "row": 230,
+          "sentences": [
+            "5 salto yalnız Renfe Cercanías'ta vardır: kartla ilk etap 7,75 €, aktarma süresi 150 dakika."
+          ]
+        },
+        {
+          "id": "marbella:malaga-cercanias-konsorsiyum-karti-giris-cikis-turnike",
+          "sheet": "Yanıtlar",
+          "row": 231,
+          "sentences": [
+            "Málaga Cercanías'ında (C1, C2) konsorsiyum kartıyla yolculuk nasıl ödenir, çıkışta kartı yeniden okutmak gerekir mi?",
+            "Málaga Cercanías'ının iki hattında (C-1 Málaga-Fuengirola, C-2 Málaga-Álora) konsorsiyum kartıyla yolculuk yapabilirsin.",
+            "Kartı ya da bakiyeni Cercanías gişelerinde ve otomatlarında yükle ya da düzenle."
+          ]
+        },
+        {
+          "id": "marbella:term:054",
+          "sheet": "Sözlük",
+          "row": 61,
+          "sentences": [
+            "Cercanías (banliyö treni)"
+          ]
+        },
+        {
+          "id": "marbella:term:055",
+          "sheet": "Sözlük",
+          "row": 62,
+          "sentences": [
+            "Konsorsiyum ulaşım kartı; Renfe Cercanías'ta da geçerlidir."
+          ]
+        }
+      ]
+    },
+    {
+      "anchor": "sepe",
+      "kind": "sozluk",
+      "farkli_deger": [
+        "sure"
+      ],
+      "values": {
+        "sure": [
+          "10 gun",
+          "15 gun",
+          "360 gun"
+        ]
+      },
+      "mentions": [
+        {
+          "id": "marbella:issizlik-maasi-paro-sepe-basvurusu",
+          "sheet": "Yanıtlar",
+          "row": 85,
+          "sentences": [
+            "İşsizlik ödeneği (paro) kimlere verilir, ne kadar sürer, SEPE'ye nasıl başvurulur?",
+            "Son 6 yılda en az 360 gün işsizlik primi ödediysen ve yasal olarak işsiz kaldıysan SEPE'den primli işsizlik ödeneği (prestación contributiva por desempleo) alabilirsin.",
+            "Başvuruyu son çalıştığın günden sonraki 15 iş günü içinde SEPE elektronik ofisinden, randevu alarak ödenek ofisinden, herhangi bir kamu kayıt ofisinden ya da idari postayla yap."
+          ]
+        },
+        {
+          "id": "marbella:endulus-sae-is-arayan-kaydi-demandante-de-empleo",
+          "sheet": "Yanıtlar",
+          "row": 90,
+          "sentences": [
+            "İşsizlik ödeneği için SEPE'ye başvuracaksan kaydı bundan önce yaptır."
+          ]
+        },
+        {
+          "id": "marbella:marbella-sae-kayit-ofisleri-las-palomas-san-pedro",
+          "sheet": "Yanıtlar",
+          "row": 91,
+          "sentences": [
+            "Kayıt çoğunlukla çevrimiçi yapılır; yardım için SAE'den randevu alırsın; SEPE listesinde Marbella için iki ofis var",
+            "Marbella'da SEPE'nin ofis listesinde iki istihdam ofisi (oficinas de empleo) var: Marbella - Las Palomas (Avda.",
+            "SEPE ile randevu SAE randevusundan ayrıdır; onu SEPE web sitesinden alırsın."
+          ]
+        },
+        {
+          "id": "marbella:paro-basvurusu-marbella-randevu-sepe",
+          "sheet": "Yanıtlar",
+          "row": 94,
+          "sentences": [
+            "Evet, ödenek almak için önce iş arayan (demandante de empleo) olarak kayıtlı olman gerekir; yüz yüze başvuru için randevuyu SEPE sedesinden ya da telefonla alırsın.",
+            "SEPE, kayıt için ikamet adresine göre bağlı olduğun özerk topluluğun istihdam ofisine şahsen gidilmesini söylüyor; Andalucía'da kaydı SAE'nin çevrimiçi formuyla yaparsın: Cl@ve ya da dijital sertifika",
+            "Ödenek başvurusu kişisel bir yükümlülüktür; SEPE'nin e-sedesinden başvurabilirsin, bunun için dijital sertifika, DNI electrónico ya da Cl@ve kullanıcı adı ve şifresi gerekir."
+          ]
+        },
+        {
+          "id": "marbella:term:023",
+          "sheet": "Sözlük",
+          "row": 30,
+          "sentences": [
+            "SEPE (Servicio Público de Empleo Estatal)"
+          ]
+        },
+        {
+          "id": "marbella:term:025",
+          "sheet": "Sözlük",
+          "row": 32,
+          "sentences": [
+            "Başvuru kişisel yükümlülüktür; SEPE'nin elektronik ofisinden yapılabilir."
+          ]
+        }
+      ]
+    },
+    {
+      "anchor": "bono alquiler joven",
+      "kind": "sozluk",
+      "farkli_deger": [
+        "tarih"
+      ],
+      "values": {
+        "sure": [
+          "24 ay"
+        ],
+        "tarih": [
+          "13 ocak",
+          "22 haziran"
+        ],
+        "ucret": [
+          "250 €"
+        ]
+      },
+      "mentions": [
+        {
+          "id": "marbella:bono-alquiler-joven-andalucia-2026-yardim-ve-durum",
+          "sheet": "Yanıtlar",
+          "row": 38,
+          "sentences": [
+            "Bono Alquiler Joven nedir, Marbella'da kiracı genç ayda ne kadar yardım alır ve başvuru açık mı?",
+            "Bono Alquiler Joven, 35 yaşına kadar kiracılara ayda en çok 250 euro ve en çok 24 ay boyunca kira yardımı veren Junta de Andalucía programıdır; 2026 başvuru dönemi 13 Ocak 2026'da yeniden açıldı ve 15"
+          ]
+        },
+        {
+          "id": "marbella:bono-alquiler-joven-kira-ust-siniri-oda-ve-yukumluluk",
+          "sheet": "Yanıtlar",
+          "row": 39,
+          "sentences": [
+            "Bono Alquiler Joven'de oda kiralıyorsan ya da ev arkadaşlarıyla kalıyorsan kira üst sınırı ve yükümlülükler neler?",
+            "Bono Alquiler Joven kira sözleşmeni beş türden birine ayırır ve kira üst sınırı türe göre değişir."
+          ]
+        },
+        {
+          "id": "marbella:term:058",
+          "sheet": "Sözlük",
+          "row": 65,
+          "sentences": [
+            "Bono Alquiler Joven"
+          ]
+        }
+      ]
+    },
+    {
       "anchor": "ex-01",
       "kind": "kod",
       "farkli_deger": [
@@ -42,6 +1320,1417 @@
             "Listede vize formu, oturum izni formu EX-01, fotoğraf, pasaport, maddi yeterlilik belgeleri, sağlık sigortası, sabıka kaydı, tıbbi rapor, konsolosluk bölgesinde ikamet kanıtı ve harç ödemesi bulunur.",
             "Vize başvuru formunu ve EX-01 oturum izni formunu her bölümünü doldurup imzala.",
             "Oturum izni başvuru formu EX-01, imzalı"
+          ]
+        }
+      ]
+    },
+    {
+      "anchor": "tenencia de alcaldia",
+      "kind": "sozluk",
+      "farkli_deger": [
+        "ucret"
+      ],
+      "values": {
+        "tarih": [
+          "31 mart"
+        ],
+        "ucret": [
+          "160 €",
+          "180 €",
+          "90 €"
+        ]
+      },
+      "mentions": [
+        {
+          "id": "marbella:belediye-escuela-infantil-basvuru-kosullari-ve-2026-27-listeleri",
+          "sheet": "Yanıtlar",
+          "row": 23,
+          "sentences": [
+            "Aynı duyuruya göre başvuru resmî formla yapılıyor, belgeler formun arkasında sayılıyordu; form Atención al Ciudadano, Enseñanza delegasyonu, kreşler, Las Chapas ve Nueva Andalucía ilçe ofisleri, San P",
+            "2019/20 duyurusuna göre resmî başvuru formu Atención al Ciudadano'dan, Enseñanza delegasyonundan, kreşlerden, Las Chapas ya da Nueva Andalucía ilçe ofislerinden, San Pedro Tenencia de Alcaldía'sından "
+          ]
+        },
+        {
+          "id": "marbella:las-chapas-ispanyolca-kursu-seviyeler-saatler-ve-fiyat",
+          "sheet": "Yanıtlar",
+          "row": 75,
+          "sentences": [
+            "Tenencia de Alcaldía de Las Chapas; A1–B1, konuşma ve DELE hazırlık; kurs 180 €, tek ödemede 160 €, iki taksitte 90 €; kayıt e-postayla",
+            "Marbella Belediyesi'nin Español para extranjeros kursu Las Chapas Tenencia de Alcaldía'sında (calle Pinsapo s/n) verilir."
+          ]
+        },
+        {
+          "id": "marbella:term:042",
+          "sheet": "Sözlük",
+          "row": 49,
+          "sentences": [
+            "Tenencia de Alcaldía"
+          ]
+        }
+      ]
+    },
+    {
+      "anchor": "cita previa",
+      "kind": "sozluk",
+      "farkli_deger": [],
+      "values": {},
+      "mentions": [
+        {
+          "id": "marbella:okul-basvurusunda-adres-kaniti-ve-marbella-empadronamiento-ofisleri",
+          "sheet": "Yanıtlar",
+          "row": 17,
+          "sentences": [
+            "Kayıt belgeleri sede electrónica'dan dijital sertifikayla ya da belediyenin Oficina de Atención al Ciudadano'sunda cita previa ile verilir.",
+            "Ofisler Concejalía de Extranjeros Residentes'in Palacio de Ferias y Congresos (telefon 952 768 766), Las Chapas (952 768 730, dahili 3209) ve Nueva Andalucía (952 761 600, dahili 1603) şubeleridir; ci",
+            "Belediyenin sede electrónica'sında dijital sertifikayla ya da Oficina de Atención al Ciudadano'dan cita previa alarak belgeleri teslim et."
+          ]
+        },
+        {
+          "id": "marbella:acosol-marbella-merkez-ofisi-randevu-ve-sikayet",
+          "sheet": "Yanıtlar",
+          "row": 54,
+          "sentences": [
+            "Randevu (cita previa) için sayfadaki 'Pide cita previa' bağlantısını, WhatsApp'tan +34 617 55 23 36'yı ya da doğrudan telefonu kullanabilirsin.",
+            "Randevu için sayfadaki 'Pide cita previa' bağlantısını kullan, WhatsApp'tan +34 617 55 23 36'ya yaz ya da +34 952 93 20 20'yi ara."
+          ]
+        },
+        {
+          "id": "marbella:marbella-ucretsiz-ispanyolca-kurslari-escuela-de-adultos-seviyeler-ve-kayit",
+          "sheet": "Yanıtlar",
+          "row": 73,
+          "sentences": [
+            "Kayıt için yüz yüze görüşme yapılır: matrícula döneminde (Eylül) konserjelikten ilgili öğretmenle cita previa alırsın.",
+            "Eylül matrícula döneminde konserjelikten seviyene uygun öğretmenle cita previa al (A1 sabah Pzt-Çar 11:30–13:20: José; A1 öğleden sonra Sal-Per 16:00–18:00: María del Mar)."
+          ]
+        },
+        {
+          "id": "marbella:marbella-vatandaslik-sinavina-hazirlik-kursu-dele-a2-ve-kultur-bilgisi",
+          "sheet": "Yanıtlar",
+          "row": 74,
+          "sentences": [
+            "Kayıt yüz yüze görüşmeyle olur; matrícula döneminde (Eylül) konserjelikten ilgili öğretmenle cita previa alırsın.",
+            "Kayıt için Eylül matrícula döneminde konserjelikten ilgili öğretmenle cita previa al."
+          ]
+        },
+        {
+          "id": "marbella:marbella-nie-tie-polis-ofisi-randevu",
+          "sheet": "Yanıtlar",
+          "row": 128,
+          "sentences": [
+            "Polis sedesinde cita previa (ön randevu) ekranında 'Trámites Cuerpo de Policía Nacional' seçeneğini seç; Marbella'daki NIE ve TIE işlemleri bu gruptadır."
+          ]
+        },
+        {
+          "id": "marbella:ucretsiz-avukat-justicia-gratuita",
+          "sheet": "Yanıtlar",
+          "row": 131,
+          "sentences": [
+            "SOJ'un adresi, saatleri ve telefonu için Junta'nın Andalucía SOJ listesine (PDF) bak; SOJ'dan ön randevu (cita previa) almak için de Junta sayfasında bir PDF bağlantısı var."
+          ]
+        },
+        {
+          "id": "marbella:marbella-ilk-hafta-yerel-duraklar",
+          "sheet": "Yanıtlar",
+          "row": 163,
+          "sentences": [
+            "Belgeleri Oficina de Atención al Ciudadano'ya cita previa (önceden randevu) alarak götür ya da Concejalía de Extranjeros Residentes'in Palacio de Ferias y Congresos'taki ofisine (C/ José Meliá 2) git;"
+          ]
+        },
+        {
+          "id": "marbella:oac-marbella-ofisleri-ve-cita-previa",
+          "sheet": "Yanıtlar",
+          "row": 186,
+          "sentences": [
+            "Ofislere cita previa (önceden randevu) ile gidersin; randevuyu citaprevia.marbella.es adresinden online ya da +34 952 761 100 numarasını arayarak alırsın.",
+            "Belediye ulaşım ofisi (Oficina de Atención al Ciudadano de Transporte Municipal) cita previa ile çalışır ve Arco de Marbella, N-340 nº 65'te; vergi işleri için Oficina de Gestión Tributaria Mercado Mu"
+          ]
+        },
+        {
+          "id": "marbella:oac-marbella-islemleri-ve-dijital-sertifika-kimlik-dogrulama",
+          "sheet": "Yanıtlar",
+          "row": 187,
+          "sentences": [
+            "Her işlem ve her başvuran kişi için ayrı cita previa almalısın.",
+            "citaprevia.marbella.es üzerinden OAC için cita previa al; her işlem ve her kişi için ayrı randevu gerekir."
+          ]
+        },
+        {
+          "id": "marbella:marbella-adres-kaydi-yollari-ve-belgeler",
+          "sheet": "Yanıtlar",
+          "row": 188,
+          "sentences": [
+            "Marbella'da empadronamiento'yu üç yerden yaptırabilirsin: belediyenin Sede Electrónica'sında (elektronik ofis; dijital sertifika gerekir), OAC ofislerinde cita previa ile yüz yüze ya da Concejalía de ",
+            "Yolu seç: Sede Electrónica (dijital sertifika gerekir), OAC ofislerinde cita previa ile yüz yüze ya da Concejalía de Extranjeros Residentes ofislerinde."
+          ]
+        },
+        {
+          "id": "marbella:marbella-secmen-listesi-censo-electoral-kaydi",
+          "sheet": "Yanıtlar",
+          "row": 191,
+          "sentences": [
+            "İspanyol vatandaşlığı kazandıysan OAC'ta cita previa alıp DNI ya da NIE ile seçmen listesine yazılırsın.",
+            "İspanyol vatandaşlığı kazandıysan citaprevia.marbella.es üzerinden OAC için cita previa al ve DNI ya da NIE ile git."
+          ]
+        },
+        {
+          "id": "marbella:tarjeta-de-movilidad-ucretsiz-belediye-otobusu",
+          "sheet": "Yanıtlar",
+          "row": 192,
+          "sentences": [
+            "Kartı, Marbella'daki OAC'tan (Oficina de Atención al Ciudadano) cita previa alarak (citaprevia.marbella.es) alırsın; adres kaydın (empadronado) Marbella'da olmalı.",
+            "citaprevia.marbella.es üzerinden OAC için cita previa al; birden çok kişi başvuracaksa her kişi için ayrı randevu al.",
+            "Kartı kaybeder ya da çaldırırsan 15 euroluk ödeme belgesini (carta de pago) e-postayla iste (adın, soyadın ve DNI ya da NIE numaran yazılı olsun; adres belediyenin kart sayfasında) ya da Mercado Centr"
+          ]
+        },
+        {
+          "id": "marbella:marbella-merkez-saglik-merkezleri-leganitos-ricardo-soriano",
+          "sheet": "Yanıtlar",
+          "row": 201,
+          "sentences": [
+            "Randevu (cita previa) ve işlemler için merkez sayfalarında ClicSalud+ ve Salud Andalucía uygulaması bağlantıları ile Salud Responde numarası (955 54 50 60) verilir; merkezlerin kendi telefonları sayfa"
+          ]
+        },
+        {
+          "id": "marbella:marbella-san-pedro-alcantara-saglik-merkezi",
+          "sheet": "Yanıtlar",
+          "row": 203,
+          "sentences": [
+            "Sayfada cita previa ve işlemler için ClicSalud+ ile Salud Andalucía uygulamasına bağlantı ve Salud Responde numarası (955 54 50 60) vardır; merkezin kendi telefonu bilgi içindir."
+          ]
+        },
+        {
+          "id": "marbella:marbella-yenidogan-bebek-saglik-karti",
+          "sheet": "Yanıtlar",
+          "row": 206,
+          "sentences": [
+            "Sağlık kartı için ayrıca INSS'in bebeği anne veya babanın yararlanıcısı olarak tanıması ve BADAS kaydına işlemesi gerekir; bu işlemi Seguridad Social elektronik merkezinden sertifikasız internetten ya"
+          ]
+        },
+        {
+          "id": "marbella:term:009",
+          "sheet": "Sözlük",
+          "row": 16,
+          "sentences": [
+            "Cita previa (randevu)"
+          ]
+        },
+        {
+          "id": "marbella:step:3",
+          "sheet": "Adımlar",
+          "row": 10,
+          "sentences": [
+            "Pasaport ya da NIE/TIE, konut belgesi (kiracıysan kira sözleşmesi ve fatura; ev sahibiysen tapu, nota simple ya da IBI faturası) ve Alta y Cambio de Domicilio formunu OAC'ta cita previa ile ya da Conc"
+          ]
+        }
+      ]
+    },
+    {
+      "anchor": "libro de familia",
+      "kind": "sozluk",
+      "farkli_deger": [],
+      "values": {
+        "tarih": [
+          "8 haziran"
+        ]
+      },
+      "mentions": [
+        {
+          "id": "marbella:ingreso-minimo-vital-ve-cocuk-destegi",
+          "sheet": "Yanıtlar",
+          "row": 10,
+          "sentences": [
+            "Çocukların için libro de familia ya da Registro Civil'in verdiği doğum belgesini ekle.",
+            "Libro de familia ya da Registro Civil doğum belgesi (çocuklar için)"
+          ]
+        },
+        {
+          "id": "marbella:okul-yerlestirme-puanlama-olcutleri-kardes-adres-gelir-aile-durumu",
+          "sheet": "Yanıtlar",
+          "row": 16,
+          "sentences": [
+            "Tek ebeveynli aile durumunda, idarenin kayıtlardan bilgi toplamasına itiraz edersen Libro de Familia'nın onaylı kopyasını sun.",
+            "Libro de Familia'nın onaylı kopyası (tek ebeveynli aile ve çoğul doğum için)"
+          ]
+        },
+        {
+          "id": "marbella:okul-basvurusunda-adres-kaniti-ve-marbella-empadronamiento-ofisleri",
+          "sheet": "Yanıtlar",
+          "row": 17,
+          "sentences": [
+            "Reşit olmayanlar için aynı belgeler istenir; çocuk İspanya'da doğduysa Libro de Familia ya da doğum belgesi eklenir.",
+            "Çocuk İspanya'da doğduysa Libro de Familia veya doğum belgesi (Certificado de Nacimiento)",
+            "Reşit olmayan çocuk için de kimlik ve konut belgeleri istenir; çocuk İspanya'da doğduysa Libro de Familia veya doğum belgesi eklenir."
+          ]
+        },
+        {
+          "id": "marbella:korumali-konut-talep-kaydi-marbella",
+          "sheet": "Yanıtlar",
+          "row": 34,
+          "sentences": [
+            "Gerekiyorsa libro de familia (aile cüzdanı) tamamı"
+          ]
+        },
+        {
+          "id": "marbella:issizlik-maasi-paro-sepe-basvurusu",
+          "sheet": "Yanıtlar",
+          "row": 85,
+          "sentences": [
+            "Çocuk varsa Libro de Familia ya da doğum veya aile sicil belgesi (yabancılarda resmî İspanyolca çevirili eşdeğeri)"
+          ]
+        },
+        {
+          "id": "marbella:marbella-ingreso-minimo-vital-imv-kosullari-basvuru",
+          "sheet": "Yanıtlar",
+          "row": 152,
+          "sentences": [
+            "Kimlik belgeni (TIE ya da pasaport; NIE bu belgelerde yoksa ayrıca NIE), ikamet kanıtını, adres için certificado de empadronamiento'yu ve aile birimi için libro de familia ya da Registro Civil sertifi",
+            "Aile birimi: libro de familia ya da Registro Civil sertifikası (padrón verileriyle birlikte)"
+          ]
+        },
+        {
+          "id": "marbella:marbella-ilk-hafta-yerel-duraklar",
+          "sheet": "Yanıtlar",
+          "row": 163,
+          "sentences": [
+            "Çocuk için de yetişkinlerle aynı belgeler istenir; çocuk İspanya'da doğduysa Libro de Familia ya da doğum belgesi (Certificado de Nacimiento) eklenir."
+          ]
+        },
+        {
+          "id": "marbella:libro-de-familia-nedir",
+          "sheet": "Yanıtlar",
+          "row": 181,
+          "sentences": [
+            "Libro de Familia (aile cüzdanı) nedir, hâlâ veriliyor mu?",
+            "DICIREG'e geçmiş Registro Civil ofisleri Libro de Familia vermez; daha önce verilenler etkisini sürdürür",
+            "Libro de Familia (aile cüzdanı), eski Registro Civil (medeni hâl sicili) sisteminde verilen bir belgedir."
+          ]
+        },
+        {
+          "id": "marbella:registro-civil-ne-ise-yarar",
+          "sheet": "Yanıtlar",
+          "row": 182,
+          "sentences": [
+            "DICIREG sistemine geçmiş ofislerde Libro de Familia verilmez; yerine doğum ve evlilik sertifikası (aile sertifikası işler hâle geldiğinde aile sertifikası) düzenlenir.",
+            "DICIREG'e geçmemiş ofisler Libro de Familia vermeye ve güncellemeye devam eder; ancak doğum sağlık merkezinden bildirildiyse yalnız elektronik doğum sertifikası düzenlenir ve bu sertifikayı Adalet Bak"
+          ]
+        },
+        {
+          "id": "marbella:marbella-adres-kaydi-yollari-ve-belgeler",
+          "sheet": "Yanıtlar",
+          "row": 188,
+          "sentences": [
+            "Çocuk için: yetişkinlerle aynı belgeler; İspanya'da doğduysa Libro de Familia ya da doğum belgesi"
+          ]
+        },
+        {
+          "id": "marbella:endulus-saglik-karti-tarjeta-sanitaria-ve-aile-hekimi-secimi",
+          "sheet": "Yanıtlar",
+          "row": 200,
+          "sentences": [
+            "14 yaşından büyük yararlanıcı için DNI; 14 yaşından küçük ya da yeni doğan için Libro de Familia"
+          ]
+        },
+        {
+          "id": "marbella:marbella-ilk-saglik-karti-basvurusu-belgeler",
+          "sheet": "Yanıtlar",
+          "row": 205,
+          "sentences": [
+            "Merkezde başvuru formunu (modelo de solicitud), başvuranın (titular) ve 14 yaş üstü yararlanıcıların DNI'sini, 14 yaş altı yararlanıcı varsa libro de familia'yı ve Andalucía'da oturduğunu gösteren emp",
+            "Libro de familia (14 yaş altı yararlanıcı varsa)"
+          ]
+        },
+        {
+          "id": "marbella:marbella-yenidogan-bebek-saglik-karti",
+          "sheet": "Yanıtlar",
+          "row": 206,
+          "sentences": [
+            "Ardından atención primaria merkezine modelo de solicitud, yasal temsilcinin (anne, baba ya da vasi) kimlik belgesi ve libro de familia ile gidersin.",
+            "Atención primaria merkezine modelo de solicitud, yasal temsilcinin kimlik belgesi ve libro de familia ile git.",
+            "Libro de familia"
+          ]
+        },
+        {
+          "id": "marbella:avanza-costa-del-sol-ucretsiz-cocuk-karti-tarjeta-infantil",
+          "sheet": "Yanıtlar",
+          "row": 236,
+          "sentences": [
+            "Belgeleri hazırla: çocuğun DNI fotokopisi (ön ve arka, isteğe bağlı), anne-baba ya da yasal temsilcinin kimlik fotokopisi (ön ve arka), libro de familia'nın (İspanya aile kayıt defteri) ebeveynlerin v",
+            "Libro de familia (İspanya aile kayıt defteri) fotokopisi: ebeveynlerin ve çocuğun kayıt sayfası"
+          ]
+        },
+        {
+          "id": "marbella:term:045",
+          "sheet": "Sözlük",
+          "row": 52,
+          "sentences": [
+            "Libro de familia"
+          ]
+        }
+      ]
+    },
+    {
+      "anchor": "salud responde",
+      "kind": "sozluk",
+      "farkli_deger": [],
+      "values": {},
+      "mentions": [
+        {
+          "id": "marbella:yaz-sicaginda-saglik-korunma-andalucia",
+          "sheet": "Yanıtlar",
+          "row": 166,
+          "sentences": [
+            "Bölgendeki sağlık risk seviyesini Salud Responde uygulamasından kontrol et."
+          ]
+        },
+        {
+          "id": "marbella:sicak-uyarisi-ile-saglik-risk-seviyesi-farki",
+          "sheet": "Yanıtlar",
+          "row": 167,
+          "sentences": [
+            "Sağlık açısından Junta, risk seviyesini Salud Responde uygulamasından kontrol etmeyi öneriyor; Aemet uyarısını ayrı bir bilgi olarak oku.",
+            "Salud Responde uygulamasında bölgendeki risk seviyesini ve güncel bilgileri takip et."
+          ]
+        },
+        {
+          "id": "marbella:endulus-saglik-karti-tarjeta-sanitaria-ve-aile-hekimi-secimi",
+          "sheet": "Yanıtlar",
+          "row": 200,
+          "sentences": [
+            "Kartla ilgili sorular için merkeze gitmeden önce Salud Responde'yi 955 54 50 60 numarasından arayabilirsin."
+          ]
+        },
+        {
+          "id": "marbella:marbella-merkez-saglik-merkezleri-leganitos-ricardo-soriano",
+          "sheet": "Yanıtlar",
+          "row": 201,
+          "sentences": [
+            "Randevu (cita previa) ve işlemler için merkez sayfalarında ClicSalud+ ve Salud Andalucía uygulaması bağlantıları ile Salud Responde numarası (955 54 50 60) verilir; merkezlerin kendi telefonları sayfa",
+            "Randevuyu ClicSalud+ ya da Salud Andalucía uygulamasından al veya Salud Responde'yi (955 54 50 60) ara; merkezlerin kendi telefonları bilgi içindir."
+          ]
+        },
+        {
+          "id": "marbella:marbella-albarizas-ve-la-campana-saglik-merkezleri",
+          "sheet": "Yanıtlar",
+          "row": 202,
+          "sentences": [
+            "Randevuyu ClicSalud+ veya Salud Andalucía uygulamasından al ya da Salud Responde'yi (955 54 50 60) ara."
+          ]
+        },
+        {
+          "id": "marbella:marbella-san-pedro-alcantara-saglik-merkezi",
+          "sheet": "Yanıtlar",
+          "row": 203,
+          "sentences": [
+            "Sayfada cita previa ve işlemler için ClicSalud+ ile Salud Andalucía uygulamasına bağlantı ve Salud Responde numarası (955 54 50 60) vardır; merkezin kendi telefonu bilgi içindir.",
+            "Randevuyu ClicSalud+ veya Salud Andalucía uygulamasından al ya da Salud Responde'yi (955 54 50 60) ara."
+          ]
+        },
+        {
+          "id": "marbella:marbella-hospital-costa-del-sol-adres-acil-telefonlar",
+          "sheet": "Yanıtlar",
+          "row": 204,
+          "sentences": [
+            "Salud Responde hattı 955 54 50 60'dır."
+          ]
+        },
+        {
+          "id": "marbella:marbella-ilk-saglik-karti-basvurusu-belgeler",
+          "sheet": "Yanıtlar",
+          "row": 205,
+          "sentences": [
+            "Sorular için 24 saat açık Salud Responde hattını (955 54 50 60) ara."
+          ]
+        },
+        {
+          "id": "marbella:marbella-aile-hekimi-randevusu-clicsalud-app",
+          "sheet": "Yanıtlar",
+          "row": 207,
+          "sentences": [
+            "ClicSalud+, ücretsiz Salud Andalucía uygulaması, Salud Responde hattı (955 54 50 60) ya da sağlık merkezi; hatırlatma bir gün önce gelir",
+            "Aile hekimi randevusunu birkaç yoldan alırsın: ClicSalud+ web sitesi ya da Salud Andalucía uygulamasındaki Agenda sanitaria bölümü, Salud Responde uygulaması, haftanın 7 günü 24 saat açık Salud Respon",
+            "Çevrim içi yolu kullanamıyorsan Salud Responde'yi (955 54 50 60) ara ya da sağlık merkezindeki Unidad de Atención a la Ciudadanía'ya tarjeta sanitaria veya kimlik belgenle git."
+          ]
+        },
+        {
+          "id": "marbella:endulus-2026-asi-takvimi-yenilikleri-cocuk-ergen-yetiskin",
+          "sheet": "Yanıtlar",
+          "row": 209,
+          "sentences": [
+            "Çocuk aşısı randevusunu ClicSalud+, Salud Andalucía uygulaması, Salud Responde (955 54 50 60) ya da sağlık merkezi üzerinden alabilirsin."
+          ]
+        },
+        {
+          "id": "marbella:salud-responde-955-54-50-60-neler-yapilir",
+          "sheet": "Yanıtlar",
+          "row": 212,
+          "sentences": [
+            "Salud Responde (955 54 50 60) hattından neler yapabilirsin: sağlık kartı soruları ve ameliyat için hastane seçimi",
+            "Salud Responde, Andalucía'nın 24 saat açık sağlık hattıdır: 955 54 50 60."
+          ]
+        },
+        {
+          "id": "marbella:marbella-cocuk-dis-hekimi-ve-asi-randevusu",
+          "sheet": "Yanıtlar",
+          "row": 213,
+          "sentences": [
+            "Aşı randevusu ClicSalud+, Salud Andalucía uygulaması, Salud Responde (955 54 50 60) ya da sağlık merkezinden alınır; 0-15 yaş diş hekimine sevk gerekmez",
+            "Çocuğun için aşı ve diş hekimi randevusunu Servicio Andaluz de Salud'un kanallarından alırsın: ClicSalud+ web sitesi, Salud Andalucía uygulaması, Salud Responde uygulaması, Salud Responde telefonu (95",
+            "Aşı randevusu Andalucía aşı takvimine göre alınır; bazı sağlık merkezleri randevuyu doğrudan vermek yerine talep yoluyla sunar: ClicSalud+, Salud Responde telefonu ya da merkezin kendisi."
+          ]
+        },
+        {
+          "id": "marbella:term:029",
+          "sheet": "Sözlük",
+          "row": 36,
+          "sentences": [
+            "Salud Responde"
+          ]
+        },
+        {
+          "id": "marbella:step:7",
+          "sheet": "Adımlar",
+          "row": 14,
+          "sentences": [
+            "Öğle güneşinden kaçın, bol su iç ve Salud Responde uygulamasından risk seviyesini takip et; ulusal plan her yıl mayıs ile eylül arasında devreye giriyor."
+          ]
+        }
+      ]
+    },
+    {
+      "anchor": "clicsalud",
+      "kind": "sozluk",
+      "farkli_deger": [],
+      "values": {
+        "tarih": [
+          "26 mart"
+        ]
+      },
+      "mentions": [
+        {
+          "id": "marbella:endulus-saglik-karti-tarjeta-sanitaria-ve-aile-hekimi-secimi",
+          "sheet": "Yanıtlar",
+          "row": 200,
+          "sentences": [
+            "Aile hekimini ve merkezi, evinin bağlı olduğu sağlık bölgesindeki (distrito sanitario) profesyoneller arasından seçersin; merkezde başvurursan yanıt 45 günden önce gelir, Cl@ve, dijital sertifika ya d",
+            "Cl@ve, dijital sertifika ya da e-DNI'ın varsa seçimi ClicSalud+ üzerinden yap, hekim değişikliği hemen işlenir; atama belgesini yazdır ya da kaydet.",
+            "Kartın sanal sürümü (TSV) 26 Mart 2026'dan beri kamu sağlık kapsamı olan ve Endülüs'te oturan kişilere açıktır; Salud Andalucía uygulaması, ClicSalud+ ya da Carpeta ciudadana üzerinden Cl@ve, dijital "
+          ]
+        },
+        {
+          "id": "marbella:marbella-merkez-saglik-merkezleri-leganitos-ricardo-soriano",
+          "sheet": "Yanıtlar",
+          "row": 201,
+          "sentences": [
+            "Randevu (cita previa) ve işlemler için merkez sayfalarında ClicSalud+ ve Salud Andalucía uygulaması bağlantıları ile Salud Responde numarası (955 54 50 60) verilir; merkezlerin kendi telefonları sayfa",
+            "Randevuyu ClicSalud+ ya da Salud Andalucía uygulamasından al veya Salud Responde'yi (955 54 50 60) ara; merkezlerin kendi telefonları bilgi içindir."
+          ]
+        },
+        {
+          "id": "marbella:marbella-albarizas-ve-la-campana-saglik-merkezleri",
+          "sheet": "Yanıtlar",
+          "row": 202,
+          "sentences": [
+            "Randevuyu ClicSalud+ veya Salud Andalucía uygulamasından al ya da Salud Responde'yi (955 54 50 60) ara."
+          ]
+        },
+        {
+          "id": "marbella:marbella-san-pedro-alcantara-saglik-merkezi",
+          "sheet": "Yanıtlar",
+          "row": 203,
+          "sentences": [
+            "Sayfada cita previa ve işlemler için ClicSalud+ ile Salud Andalucía uygulamasına bağlantı ve Salud Responde numarası (955 54 50 60) vardır; merkezin kendi telefonu bilgi içindir.",
+            "Randevuyu ClicSalud+ veya Salud Andalucía uygulamasından al ya da Salud Responde'yi (955 54 50 60) ara."
+          ]
+        },
+        {
+          "id": "marbella:marbella-hospital-costa-del-sol-adres-acil-telefonlar",
+          "sheet": "Yanıtlar",
+          "row": 204,
+          "sentences": [
+            "Hastane randevusu ve tetkik randevuları için ClicSalud+ ya da Salud Andalucía uygulamasındaki Agenda sanitaria'dan bazı randevu işlemlerini yapabilirsin."
+          ]
+        },
+        {
+          "id": "marbella:marbella-aile-hekimi-randevusu-clicsalud-app",
+          "sheet": "Yanıtlar",
+          "row": 207,
+          "sentences": [
+            "Marbella'da aile hekimine nasıl randevu alırsın: ClicSalud+, Salud Andalucía uygulaması, telefon",
+            "ClicSalud+, ücretsiz Salud Andalucía uygulaması, Salud Responde hattı (955 54 50 60) ya da sağlık merkezi; hatırlatma bir gün önce gelir",
+            "Aile hekimi randevusunu birkaç yoldan alırsın: ClicSalud+ web sitesi ya da Salud Andalucía uygulamasındaki Agenda sanitaria bölümü, Salud Responde uygulaması, haftanın 7 günü 24 saat açık Salud Respon"
+          ]
+        },
+        {
+          "id": "marbella:marbella-sanal-saglik-karti-ve-kart-yenileme",
+          "sheet": "Yanıtlar",
+          "row": 208,
+          "sentences": [
+            "Sanal kart için önce fiziksel kartı bir kez almış olman gerekir; yenileme ve kartı kilitleme ClicSalud+ ve uygulamadan yapılır",
+            "Kartı Salud Andalucía uygulamasında etkinleştirirsin; bunun için certificado digital ya da Cl@ve gerekir, ClicSalud+ web sitesinde DNIe, uygulamada ise QR de kullanılabilir.",
+            "Fiziksel kart bozulursa, kaybolursa ya da çalınırsa ClicSalud+ ve uygulama üzerinden yenileme isteyebilirsin; yeni kart BDU'da kayıtlı adrese posta ile gönderilir."
+          ]
+        },
+        {
+          "id": "marbella:endulus-2026-asi-takvimi-yenilikleri-cocuk-ergen-yetiskin",
+          "sheet": "Yanıtlar",
+          "row": 209,
+          "sentences": [
+            "Çocuk aşısı randevusunu ClicSalud+, Salud Andalucía uygulaması, Salud Responde (955 54 50 60) ya da sağlık merkezi üzerinden alabilirsin."
+          ]
+        },
+        {
+          "id": "marbella:salud-responde-955-54-50-60-neler-yapilir",
+          "sheet": "Yanıtlar",
+          "row": 212,
+          "sentences": [
+            "Aile hekimi ya da merkez değiştirme ayrı bir işlemdir: hekim ve merkez seçimi sağlık merkezinde ya da ClicSalud+ üzerinden yapılır."
+          ]
+        },
+        {
+          "id": "marbella:marbella-cocuk-dis-hekimi-ve-asi-randevusu",
+          "sheet": "Yanıtlar",
+          "row": 213,
+          "sentences": [
+            "Aşı randevusu ClicSalud+, Salud Andalucía uygulaması, Salud Responde (955 54 50 60) ya da sağlık merkezinden alınır; 0-15 yaş diş hekimine sevk gerekmez",
+            "Çocuğun için aşı ve diş hekimi randevusunu Servicio Andaluz de Salud'un kanallarından alırsın: ClicSalud+ web sitesi, Salud Andalucía uygulaması, Salud Responde uygulaması, Salud Responde telefonu (95",
+            "Aşı randevusu Andalucía aşı takvimine göre alınır; bazı sağlık merkezleri randevuyu doğrudan vermek yerine talep yoluyla sunar: ClicSalud+, Salud Responde telefonu ya da merkezin kendisi."
+          ]
+        },
+        {
+          "id": "marbella:term:030",
+          "sheet": "Sözlük",
+          "row": 37,
+          "sentences": [
+            "ClicSalud+"
+          ]
+        }
+      ]
+    },
+    {
+      "anchor": "centro de salud",
+      "kind": "sozluk",
+      "farkli_deger": [],
+      "values": {},
+      "mentions": [
+        {
+          "id": "marbella:marbella-adres-kaydi-yenileme-suresi-ve-getirisi",
+          "sheet": "Yanıtlar",
+          "row": 189,
+          "sentences": [
+            "Adres kaydının getirileri: sana en yakın sağlık merkezinde (Centro de Salud) aile hekimi, devlet okullarına erişim, uyruğuna göre yerel ve Avrupa seçimlerinde oy hakkı, belediye ve sosyal hizmetlerde "
+          ]
+        },
+        {
+          "id": "marbella:endulus-saglik-karti-tarjeta-sanitaria-ve-aile-hekimi-secimi",
+          "sheet": "Yanıtlar",
+          "row": 200,
+          "sentences": [
+            "İlk tarjeta sanitaria için genellikle kendi sağlık merkezine (centro de salud) gidip başvurursun; başvuru ayrıca herhangi bir resmî kayıt biriminden ya da Junta de Andalucía'nın Presentación Electróni"
+          ]
+        },
+        {
+          "id": "marbella:marbella-merkez-saglik-merkezleri-leganitos-ricardo-soriano",
+          "sheet": "Yanıtlar",
+          "row": 201,
+          "sentences": [
+            "Marbella merkezde devlet sağlık merkezi (centro de salud) nerede: Leganitos ve Ricardo Soriano adres, telefon, saat"
+          ]
+        },
+        {
+          "id": "marbella:marbella-albarizas-ve-la-campana-saglik-merkezleri",
+          "sheet": "Yanıtlar",
+          "row": 202,
+          "sentences": [
+            "Las Albarizas semtinde Centro de salud Las Albarizas var: Av.",
+            "Centro de salud La Campana (Nueva Andalucía) Av."
+          ]
+        },
+        {
+          "id": "marbella:marbella-san-pedro-alcantara-saglik-merkezi",
+          "sheet": "Yanıtlar",
+          "row": 203,
+          "sentences": [
+            "Centro de salud San Pedro de Alcántara Calle Príncipe de Asturias s/n'de; hafta içi 08:00-20:00",
+            "San Pedro Alcántara'daki Servicio Andaluz de Salud merkezlerinden biri Centro de salud San Pedro de Alcántara'dır: Cl."
+          ]
+        },
+        {
+          "id": "marbella:marbella-ilk-saglik-karti-basvurusu-belgeler",
+          "sheet": "Yanıtlar",
+          "row": 205,
+          "sentences": [
+            "Sağlık kartı başvurusunu bir atención primaria merkezine yaparsın; Marbella'da Centro de salud Leganitos (Pz."
+          ]
+        },
+        {
+          "id": "marbella:marbella-merkez-ricardo-soriano",
+          "sheet": "Mahalleler",
+          "row": 9,
+          "sentences": [
+            "Ricardo Soriano 61'de aile hekimi (Centro de salud), 68'de belediye vergi tahsilat ofisi (Patronato de Recaudación) var."
+          ]
+        },
+        {
+          "id": "marbella:san-pedro-alcantara-merkez",
+          "sheet": "Mahalleler",
+          "row": 11,
+          "sentences": [
+            "Centro de salud C/ Príncipe de Asturias'ta."
+          ]
+        },
+        {
+          "id": "marbella:term:028",
+          "sheet": "Sözlük",
+          "row": 35,
+          "sentences": [
+            "Centro de salud (sağlık merkezi)"
+          ]
+        }
+      ]
+    },
+    {
+      "anchor": "oac",
+      "kind": "sozluk",
+      "farkli_deger": [],
+      "values": {},
+      "mentions": [
+        {
+          "id": "marbella:oac-marbella-ofisleri-ve-cita-previa",
+          "sheet": "Yanıtlar",
+          "row": 186,
+          "sentences": [
+            "Marbella'da belediyenin vatandaş hizmet ofisleri (OAC) nerede, randevuyu nasıl alırsın?",
+            "Marbella Belediyesi'nin Oficina de Atención al Ciudadano (OAC, vatandaş hizmet ofisi) ağında dört ofis var: Marbella (Plaza de los Naranjos 1), San Pedro Alcántara (Plaza de la Iglesia 1), Nueva Andal",
+            "Marbella ofisine soruların için oac@marbella.es adresine yazabilir ya da 010 numarasını arayabilirsin."
+          ]
+        },
+        {
+          "id": "marbella:oac-marbella-islemleri-ve-dijital-sertifika-kimlik-dogrulama",
+          "sheet": "Yanıtlar",
+          "row": 187,
+          "sentences": [
+            "Marbella'da OAC'ta hangi işleri yaptırırsın, FNMT dijital sertifikası için kimlik doğrulamasını nasıl yaptırırsın?",
+            "OAC ofisleri adres kaydını (empadronamiento), dijital sertifika için kimlik doğrulamayı, belediyenin Tarjeta de Movilidad başvurusunu, geçmiş adres kaydı belgesini (volante histórico) ve çeşitli beled",
+            "FNMT'nin kişisel dijital sertifikası için DNI ya da NIE'n ve internet bağlantılı bir cihaz yeter; FNMT'nin verdiği sayısal kodu aldıktan sonra sertifikayı OAC'ta doğrulatırsın."
+          ]
+        },
+        {
+          "id": "marbella:marbella-adres-kaydi-yollari-ve-belgeler",
+          "sheet": "Yanıtlar",
+          "row": 188,
+          "sentences": [
+            "Sede Electrónica, OAC ofisleri ve Extranjeros Residentes",
+            "Marbella'da empadronamiento'yu üç yerden yaptırabilirsin: belediyenin Sede Electrónica'sında (elektronik ofis; dijital sertifika gerekir), OAC ofislerinde cita previa ile yüz yüze ya da Concejalía de ",
+            "Sede Electrónica ve OAC yollarında kimlik (pasaport ya da menşe ülkenin kimlik kartı; ya da yanında vesikalık fotoğrafla NIE/TIE), konut belgesi ve doldurulmuş Alta y Cambio de Domicilio formu gerekir"
+          ]
+        },
+        {
+          "id": "marbella:marbella-secmen-listesi-censo-electoral-kaydi",
+          "sheet": "Yanıtlar",
+          "row": 191,
+          "sentences": [
+            "AB vatandaşları ve karşılıklılık ülkeleri için 2027 seçimi süreleri; İspanyol vatandaşlığı kazananlar için OAC işlemi",
+            "İspanyol vatandaşlığı kazandıysan OAC'ta cita previa alıp DNI ya da NIE ile seçmen listesine yazılırsın.",
+            "İspanyol vatandaşlığı kazandıysan citaprevia.marbella.es üzerinden OAC için cita previa al ve DNI ya da NIE ile git."
+          ]
+        },
+        {
+          "id": "marbella:tarjeta-de-movilidad-ucretsiz-belediye-otobusu",
+          "sheet": "Yanıtlar",
+          "row": 192,
+          "sentences": [
+            "Kartı, Marbella'daki OAC'tan (Oficina de Atención al Ciudadano) cita previa alarak (citaprevia.marbella.es) alırsın; adres kaydın (empadronado) Marbella'da olmalı.",
+            "Dijital sertifikan varsa başvuruyu belediyenin elektronik ofisinden çevrimiçi yapabilirsin; kartı yine OAC'ta randevuyla alırsın.",
+            "citaprevia.marbella.es üzerinden OAC için cita previa al; birden çok kişi başvuracaksa her kişi için ayrı randevu al."
+          ]
+        },
+        {
+          "id": "marbella:term:009",
+          "sheet": "Sözlük",
+          "row": 16,
+          "sentences": [
+            "Belediye ofislerinde (OAC) bütün işlemler için önceden alınan randevu."
+          ]
+        },
+        {
+          "id": "marbella:term:010",
+          "sheet": "Sözlük",
+          "row": 17,
+          "sentences": [
+            "OAC (Oficina de Atención al Ciudadano)"
+          ]
+        },
+        {
+          "id": "marbella:term:053",
+          "sheet": "Sözlük",
+          "row": 60,
+          "sentences": [
+            "Marbella'da belediye otobüslerinde ücretsiz yolculuk sağlayan kart; OAC'ten randevuyla alınır."
+          ]
+        },
+        {
+          "id": "marbella:step:3",
+          "sheet": "Adımlar",
+          "row": 10,
+          "sentences": [
+            "Pasaport ya da NIE/TIE, konut belgesi (kiracıysan kira sözleşmesi ve fatura; ev sahibiysen tapu, nota simple ya da IBI faturası) ve Alta y Cambio de Domicilio formunu OAC'ta cita previa ile ya da Conc"
+          ]
+        }
+      ]
+    },
+    {
+      "anchor": "tarjeta sanitaria",
+      "kind": "sozluk",
+      "farkli_deger": [],
+      "values": {},
+      "mentions": [
+        {
+          "id": "marbella:kamu-saglik-sistemine-erisim-hak-sahipleri",
+          "sheet": "Yanıtlar",
+          "row": 193,
+          "sentences": [
+            "Hak koşullarının denetimi Seguridad Social tarafında INSS'e (denizcilerde Instituto Social de la Marina'ya) aittir; koşulları sağlıyorsan bölgenin sağlık idaresi sana bireysel sağlık kartını (tarjeta "
+          ]
+        },
+        {
+          "id": "marbella:endulus-saglik-karti-tarjeta-sanitaria-ve-aile-hekimi-secimi",
+          "sheet": "Yanıtlar",
+          "row": 200,
+          "sentences": [
+            "Endülüs'te kamu sağlık kartı (tarjeta sanitaria) nasıl alınır, aile hekimi ve sağlık merkezi nasıl seçilir?",
+            "İlk tarjeta sanitaria için genellikle kendi sağlık merkezine (centro de salud) gidip başvurursun; başvuru ayrıca herhangi bir resmî kayıt biriminden ya da Junta de Andalucía'nın Presentación Electróni"
+          ]
+        },
+        {
+          "id": "marbella:marbella-ilk-saglik-karti-basvurusu-belgeler",
+          "sheet": "Yanıtlar",
+          "row": 205,
+          "sentences": [
+            "Marbella'da ilk kez sağlık kartı (tarjeta sanitaria) için hangi belgelerle nereye başvurursun?"
+          ]
+        },
+        {
+          "id": "marbella:marbella-aile-hekimi-randevusu-clicsalud-app",
+          "sheet": "Yanıtlar",
+          "row": 207,
+          "sentences": [
+            "Aile hekimi randevusunu birkaç yoldan alırsın: ClicSalud+ web sitesi ya da Salud Andalucía uygulamasındaki Agenda sanitaria bölümü, Salud Responde uygulaması, haftanın 7 günü 24 saat açık Salud Respon",
+            "Çevrim içi yolu kullanamıyorsan Salud Responde'yi (955 54 50 60) ara ya da sağlık merkezindeki Unidad de Atención a la Ciudadanía'ya tarjeta sanitaria veya kimlik belgenle git."
+          ]
+        },
+        {
+          "id": "marbella:marbella-sanal-saglik-karti-ve-kart-yenileme",
+          "sheet": "Yanıtlar",
+          "row": 208,
+          "sentences": [
+            "Sanal sağlık kartı (tarjeta sanitaria virtual) nasıl alınır, fiziksel kart kaybolursa ne yaparsın?"
+          ]
+        },
+        {
+          "id": "marbella:salud-responde-955-54-50-60-neler-yapilir",
+          "sheet": "Yanıtlar",
+          "row": 212,
+          "sentences": [
+            "Hat, sağlık kartı (tarjeta sanitaria) konusundaki soruları yanıtlar.",
+            "Sağlık kartı (tarjeta sanitaria) konusundaki sorularını bu hatta sorabilirsin."
+          ]
+        },
+        {
+          "id": "marbella:marbella-cocuk-dis-hekimi-ve-asi-randevusu",
+          "sheet": "Yanıtlar",
+          "row": 213,
+          "sentences": [
+            "Diş hekimi hizmeti 0-15 yaş için geçerlidir: sevk almana gerek yoktur, ilk ziyarette tarjeta sanitaria göstermen yeter.",
+            "Merkezde randevu için Unidad de Atención a la Ciudadanía (vatandaş hizmet birimi) birimine çocuğunun tarjeta sanitaria'sını ya da kimlik belgesini götür.",
+            "Diş hekimine ilk ziyarette çocuğunun tarjeta sanitaria'sını göster; sağlık çalışanından sevk almana gerek yoktur."
+          ]
+        },
+        {
+          "id": "marbella:term:027",
+          "sheet": "Sözlük",
+          "row": 34,
+          "sentences": [
+            "Tarjeta sanitaria"
+          ]
+        }
+      ]
+    },
+    {
+      "anchor": "hospital costa del sol",
+      "kind": "sozluk",
+      "farkli_deger": [],
+      "values": {},
+      "mentions": [
+        {
+          "id": "marbella:marbella-merkez-saglik-merkezleri-leganitos-ricardo-soriano",
+          "sheet": "Yanıtlar",
+          "row": 201,
+          "sentences": [
+            "İkisinin de bağlı olduğu hastane Hospital Costa del Sol'dur."
+          ]
+        },
+        {
+          "id": "marbella:marbella-albarizas-ve-la-campana-saglik-merkezleri",
+          "sheet": "Yanıtlar",
+          "row": 202,
+          "sentences": [
+            "Las Albarizas hafta içi 08:00-20:00, La Campana hafta içi 08:00-15:00 açık; ikisi de Hospital Costa del Sol'a bağlı",
+            "İkisi de Distrito Costa del Sol, Marbella zona básica ve Hospital Costa del Sol'a bağlıdır."
+          ]
+        },
+        {
+          "id": "marbella:marbella-san-pedro-alcantara-saglik-merkezi",
+          "sheet": "Yanıtlar",
+          "row": 203,
+          "sentences": [
+            "Marbella zona básica ve Distrito Costa del Sol'a bağlıdır, referans hastanesi Hospital Costa del Sol'dur."
+          ]
+        },
+        {
+          "id": "marbella:marbella-hospital-costa-del-sol-adres-acil-telefonlar",
+          "sheet": "Yanıtlar",
+          "row": 204,
+          "sentences": [
+            "Marbella'daki devlet hastanesi Hospital Costa del Sol nerede, acil servis ve bilgi telefonları neler?",
+            "Marbella'daki devlet hastanesi Hospital Costa del Sol (Hospital Universitario Costa del Sol) Ctra."
+          ]
+        },
+        {
+          "id": "marbella:nueva-andalucia",
+          "sheet": "Mahalleler",
+          "row": 10,
+          "sentences": [
+            "Şehir otobüsünün L12 ve L4 hatları semti Hospital Costa del Sol ve Puerto Banús'a bağlar."
+          ]
+        },
+        {
+          "id": "marbella:term:033",
+          "sheet": "Sözlük",
+          "row": 40,
+          "sentences": [
+            "Hospital Costa del Sol"
+          ]
+        }
+      ]
+    },
+    {
+      "anchor": "ibi",
+      "kind": "sozluk",
+      "farkli_deger": [],
+      "values": {
+        "tarih": [
+          "7 ocak"
+        ]
+      },
+      "mentions": [
+        {
+          "id": "marbella:okul-basvurusunda-adres-kaniti-ve-marbella-empadronamiento-ofisleri",
+          "sheet": "Yanıtlar",
+          "row": 17,
+          "sentences": [
+            "Okula sunacağın belge belediyenin verdiği empadronamiento belgesidir; aşağıdaki belge listesi ise Marbella'da empadronamiento kaydı (alta) içindir: kimlik (pasaport, ülkenin kimlik kartı ya da NIE/TIE",
+            "Kira sözleşmesi + yakın tarihli elektrik, su ya da IBI faturası (kiracı)",
+            "Tapu, geçerli nota simple ya da son IBI faturası (malik)"
+          ]
+        },
+        {
+          "id": "marbella:marbella-belediye-vergileri-patronato-recaudacion",
+          "sheet": "Yanıtlar",
+          "row": 149,
+          "sentences": [
+            "Belediyenin 2026 mali ordonansları (Ordenanzas fiscales 2026) 7 Ocak 2026'da yayımlandı; içinde taşınmaz (emlak) vergisi IBI, araç vergisi IVTM ve çöp toplama tasası bölümleri var.",
+            "Ordenanzas fiscales 2026 PDF'ini sayfadan indir ve vergi türünün bölümüne bak: emlak vergisi IBI için 1.1, araç vergisi IVTM için 1.3, çöp tasası için 3.6."
+          ]
+        },
+        {
+          "id": "marbella:marbella-ilk-hafta-yerel-duraklar",
+          "sheet": "Yanıtlar",
+          "row": 163,
+          "sentences": [
+            "Konut belgesi olarak kiracıysan kira sözleşmeni ve yakın tarihli elektrik, su ya da IBI faturanı; ev sahibiysen tapunu (escritura), geçerli nota simple'ı ya da en son IBI faturanı götürürsün.",
+            "Kimliğini (pasaport ya da NIE/TIE; NIE/TIE ise vesikalık fotoğrafla) ve konut belgeni hazırla: kiracıysan kira sözleşmesi ile yakın tarihli elektrik, su ya da IBI faturası; ev sahibiysen tapu (escritu",
+            "Kiracıysan: kira sözleşmesi ve yakın tarihli elektrik, su ya da IBI faturası"
+          ]
+        },
+        {
+          "id": "marbella:marbella-adres-kaydi-yollari-ve-belgeler",
+          "sheet": "Yanıtlar",
+          "row": 188,
+          "sentences": [
+            "Konut belgeni hazırla: kiracıysan kira sözleşmesi ve yakın tarihli elektrik, su ya da IBI faturası; ev sahibiysen tapu, geçerli nota simple ya da en son IBI faturası.",
+            "Kiracıysan: kira sözleşmesi ve yakın tarihli elektrik, su ya da IBI faturası",
+            "Ev sahibiysen: tapu (escritura), geçerli nota simple ya da en son IBI faturası"
+          ]
+        },
+        {
+          "id": "marbella:term:017",
+          "sheet": "Sözlük",
+          "row": 24,
+          "sentences": [
+            "IBI (Impuesto sobre Bienes Inmuebles)",
+            "Kira veya mülkiyet kanıtı olarak güncel IBI faturası da istenebilir."
+          ]
+        },
+        {
+          "id": "marbella:step:3",
+          "sheet": "Adımlar",
+          "row": 10,
+          "sentences": [
+            "Pasaport ya da NIE/TIE, konut belgesi (kiracıysan kira sözleşmesi ve fatura; ev sahibiysen tapu, nota simple ya da IBI faturası) ve Alta y Cambio de Domicilio formunu OAC'ta cita previa ile ya da Conc"
+          ]
+        }
+      ]
+    },
+    {
+      "anchor": "sae",
+      "kind": "sozluk",
+      "farkli_deger": [],
+      "values": {},
+      "mentions": [
+        {
+          "id": "marbella:endulus-sae-is-arayan-kaydi-demandante-de-empleo",
+          "sheet": "Yanıtlar",
+          "row": 90,
+          "sentences": [
+            "Endülüs'te iş arayan olarak (SAE'ye) nasıl kayıt olunur, AB dışı yabancı için izin şartı nedir?",
+            "SAE'de iş arayan (demandante de empleo) kaydını SAE web sitesindeki ya da AppSAE'deki formu doldurarak yaparsın.",
+            "SAE web sitesindeki ya da AppSAE'deki kayıt formunu doldur ve gönder."
+          ]
+        },
+        {
+          "id": "marbella:marbella-sae-kayit-ofisleri-las-palomas-san-pedro",
+          "sheet": "Yanıtlar",
+          "row": 91,
+          "sentences": [
+            "Kayıt çoğunlukla çevrimiçi yapılır; yardım için SAE'den randevu alırsın; SEPE listesinde Marbella için iki ofis var",
+            "İş arayan (demandante de empleo) kaydıyla ilgili işlemlerin çoğunu (kayıt, değişiklik, yenileme, yeniden kayıt) SAE web sitesindeki Área de Personas'tan, AppSAE'den ya da Puntos de Empleo'da çevrimiçi",
+            "Yardım istersen ya da kişiye özel hizmet almak istersen SAE ofislerinden birine randevu alırsın; sistem önce evine en yakın ofisi önerir, ama 193 ofisten herhangi birini seçebilirsin."
+          ]
+        },
+        {
+          "id": "marbella:paro-basvurusu-marbella-randevu-sepe",
+          "sheet": "Yanıtlar",
+          "row": 94,
+          "sentences": [
+            "Marbella'da işsizlik ödeneği (paro) başvurusu için randevu nasıl alınır, önce SAE kaydı gerekir mi?",
+            "SEPE, kayıt için ikamet adresine göre bağlı olduğun özerk topluluğun istihdam ofisine şahsen gidilmesini söylüyor; Andalucía'da kaydı SAE'nin çevrimiçi formuyla yaparsın: Cl@ve ya da dijital sertifika",
+            "Önce SAE'ye iş arayan olarak kayıt ol: çevrimiçi formu Cl@ve ya da dijital sertifikayla gönderirsen kaydın hemen geçerli olur; kullanıcı adı ve şifreyle gönderirsen kimliğin doğrulanması için ofisten "
+          ]
+        },
+        {
+          "id": "marbella:term:022",
+          "sheet": "Sözlük",
+          "row": 29,
+          "sentences": [
+            "SAE (Servicio Andaluz de Empleo)"
+          ]
+        },
+        {
+          "id": "marbella:term:023",
+          "sheet": "Sözlük",
+          "row": 30,
+          "sentences": [
+            "Devletin kamu istihdam servisi; işsizlik ödeneği için başvurmadan önce SAE'de iş arayan olarak kayıtlı olmak şarttır."
+          ]
+        },
+        {
+          "id": "marbella:term:024",
+          "sheet": "Sözlük",
+          "row": 31,
+          "sentences": [
+            "SAE'ye iş arayan olarak kayıtlı kişi."
+          ]
+        }
+      ]
+    },
+    {
+      "anchor": "demandante de empleo",
+      "kind": "sozluk",
+      "farkli_deger": [],
+      "values": {},
+      "mentions": [
+        {
+          "id": "marbella:issizlik-maasi-paro-sepe-basvurusu",
+          "sheet": "Yanıtlar",
+          "row": 85,
+          "sentences": [
+            "Demandante de empleo (iş arayan) olarak kayıt ol ve ödenek boyunca kaydını sürdür."
+          ]
+        },
+        {
+          "id": "marbella:endulus-sae-is-arayan-kaydi-demandante-de-empleo",
+          "sheet": "Yanıtlar",
+          "row": 90,
+          "sentences": [
+            "SAE'de iş arayan (demandante de empleo) kaydını SAE web sitesindeki ya da AppSAE'deki formu doldurarak yaparsın."
+          ]
+        },
+        {
+          "id": "marbella:marbella-sae-kayit-ofisleri-las-palomas-san-pedro",
+          "sheet": "Yanıtlar",
+          "row": 91,
+          "sentences": [
+            "Marbella'da iş arayan olarak (demandante de empleo) nasıl kayıt olunur, randevu nasıl alınır, hangi ofisler var?",
+            "İş arayan (demandante de empleo) kaydıyla ilgili işlemlerin çoğunu (kayıt, değişiklik, yenileme, yeniden kayıt) SAE web sitesindeki Área de Personas'tan, AppSAE'den ya da Puntos de Empleo'da çevrimiçi"
+          ]
+        },
+        {
+          "id": "marbella:paro-basvurusu-marbella-randevu-sepe",
+          "sheet": "Yanıtlar",
+          "row": 94,
+          "sentences": [
+            "Evet, ödenek almak için önce iş arayan (demandante de empleo) olarak kayıtlı olman gerekir; yüz yüze başvuru için randevuyu SEPE sedesinden ya da telefonla alırsın."
+          ]
+        },
+        {
+          "id": "marbella:term:024",
+          "sheet": "Sözlük",
+          "row": 31,
+          "sentences": [
+            "Demandante de empleo"
+          ]
+        }
+      ]
+    },
+    {
+      "anchor": "ex-15",
+      "kind": "kod",
+      "farkli_deger": [],
+      "values": {
+        "ucret": [
+          "9,84 €"
+        ]
+      },
+      "mentions": [
+        {
+          "id": "marbella:nie-nedir-ne-ise-yarar",
+          "sheet": "Yanıtlar",
+          "row": 114,
+          "sentences": [
+            "Dilekçe EX15 formu ve 790 kodu 012 harç belgesiyle verilir; NIE harcı 9,84 euro'dur.",
+            "EX15 formunu (NIE ve sertifika talebi) doldur.",
+            "EX15 formu (NIE ve sertifika talebi)"
+          ]
+        },
+        {
+          "id": "marbella:marbella-nie-tie-polis-ofisi-randevu",
+          "sheet": "Yanıtlar",
+          "row": 128,
+          "sentences": [
+            "NIE için EX-15 formunu doldur ve NIE'ye neden ihtiyacın olduğunu gösteren belgeyi (banka ya da idari form gibi) hazırla; NIE başvurusunu evine en yakın polis ofisinde, mümkünse kendin yap.",
+            "EX-15 formu (NIE için)"
+          ]
+        },
+        {
+          "id": "marbella:vergi-numarasi-nif-nie-alma",
+          "sheet": "Yanıtlar",
+          "row": 176,
+          "sentences": [
+            "NIE ise İspanya ile ekonomik, mesleki veya sosyal bağı olan yabancılar için Polis Genel Müdürlüğü'nden (Dirección General de la Policía) istenir; EX15 formu ve Modelo 790 Kod 012 harç dekontu gerekir.",
+            "NIE istiyorsan EX15 formunu (NIE ve sertifika talebi) doldur.",
+            "EX15 formu (NIE ve sertifika talebi)"
+          ]
+        },
+        {
+          "id": "marbella:term:003",
+          "sheet": "Sözlük",
+          "row": 10,
+          "sentences": [
+            "Atanması EX15 formu ve 790 tasa ödemesiyle istenir."
+          ]
+        },
+        {
+          "id": "marbella:term:005",
+          "sheet": "Sözlük",
+          "row": 12,
+          "sentences": [
+            "EX15 formu"
+          ]
+        }
+      ]
+    },
+    {
+      "anchor": "inss",
+      "kind": "sozluk",
+      "farkli_deger": [],
+      "values": {},
+      "mentions": [
+        {
+          "id": "marbella:kamu-saglik-sistemine-erisim-hak-sahipleri",
+          "sheet": "Yanıtlar",
+          "row": 193,
+          "sentences": [
+            "Hak koşullarının denetimi Seguridad Social tarafında INSS'e (denizcilerde Instituto Social de la Marina'ya) aittir; koşulları sağlıyorsan bölgenin sağlık idaresi sana bireysel sağlık kartını (tarjeta "
+          ]
+        },
+        {
+          "id": "marbella:endulus-saglik-karti-tarjeta-sanitaria-ve-aile-hekimi-secimi",
+          "sheet": "Yanıtlar",
+          "row": 200,
+          "sentences": [
+            "Merkez, INSS'in verdiği sigortalı ya da yararlanıcı belgesini ve empadronamiento (belediye nüfus kaydı) belgesini ister.",
+            "INSS'in verdiği sigortalı (asegurado) ya da sigortalının yararlanıcısı (beneficiario) olduğunu gösteren belge"
+          ]
+        },
+        {
+          "id": "marbella:marbella-ilk-saglik-karti-basvurusu-belgeler",
+          "sheet": "Yanıtlar",
+          "row": 205,
+          "sentences": [
+            "Kart için üç koşul birlikte gerekir: Andalucía'da mutad ikamet ve SAS kullanıcı veri tabanında (BDU) kayıt, INSS tarafından tanınmış kamu sağlık kapsamı ve Sistema Nacional de Salud kaydı.",
+            "INSS'in tanıdığı kamu sağlık kapsamın yoksa bu koşullar sağlanmış olmaz."
+          ]
+        },
+        {
+          "id": "marbella:marbella-yenidogan-bebek-saglik-karti",
+          "sheet": "Yanıtlar",
+          "row": 206,
+          "sentences": [
+            "Doğum Andalucía'daki bir hastanede olduysa bebek otomatik kaydedilir; yine de INSS'te yararlanıcı olarak tanınması ve merkeze başvuru gerekir",
+            "Sağlık kartı için ayrıca INSS'in bebeği anne veya babanın yararlanıcısı olarak tanıması ve BADAS kaydına işlemesi gerekir; bu işlemi Seguridad Social elektronik merkezinden sertifikasız internetten ya",
+            "Anne ya da babanın yararlanıcısı olarak bebeğin INSS tarafından tanınmasını Seguridad Social elektronik merkezinden ya da randevuyla ofisten yaptır."
+          ]
+        },
+        {
+          "id": "marbella:term:060",
+          "sheet": "Sözlük",
+          "row": 67,
+          "sentences": [
+            "INSS (Instituto Nacional de la Seguridad Social)"
+          ]
+        }
+      ]
+    },
+    {
+      "anchor": "registro municipal de demandantes",
+      "kind": "sozluk",
+      "farkli_deger": [],
+      "values": {},
+      "mentions": [
+        {
+          "id": "marbella:korumali-konut-talep-kaydi-marbella",
+          "sheet": "Yanıtlar",
+          "row": 34,
+          "sentences": [
+            "Registro Municipal de Demandantes: kayıt sürekli açık, başvuru ofiste ya da Sede Electrónica üzerinden",
+            "Korumalı konuta, alım da kiralama da olsa, ancak Marbella Belediyesi'nin Registro Municipal de Demandantes (korumalı konut talep sicili) kaydındaysan başvurabilirsin; kaydı belediyenin vatandaş hizmet",
+            "Belediyenin vivienda.marbella.es sitesinden 'Formulario de solicitud de inscripción en el registro municipal de demandantes de vivienda protegida' PDF formunu indirip doldur."
+          ]
+        },
+        {
+          "id": "marbella:korumali-konut-basvuru-kosullari-gelir-sinirlari",
+          "sheet": "Yanıtlar",
+          "row": 35,
+          "sentences": [
+            "Registro Municipal de Demandantes'e yazıl; kayıt olmadan sorteoya girilmez (başvuru yolları ve belgeler için \"Marbella'da korumalı konut için talep kaydına nasıl yazılırsın?\" kartına bak)."
+          ]
+        },
+        {
+          "id": "marbella:san-pedro-84-korumali-konut-fiyatlari-ve-sorteo",
+          "sheet": "Yanıtlar",
+          "row": 36,
+          "sentences": [
+            "Sonraki korumalı konut projeleri için Registro Municipal de Demandantes kaydını tamamla (başvuru yolları ve belgeler için \"Marbella'da korumalı konut için talep kaydına nasıl yazılırsın?\" kartına bak)"
+          ]
+        },
+        {
+          "id": "marbella:genc-kiralik-konut-huerta-de-los-cristales",
+          "sheet": "Yanıtlar",
+          "row": 37,
+          "sentences": [
+            "Belediye, sonraki kiralık dağıtımlar için gençleri Registro Municipal de Demandantes'e yazılmaya çağırıyor.",
+            "Registro Municipal de Demandantes'e yazıl; belediye gelecek dağıtımlara katılmak için bunu şart koşuyor."
+          ]
+        },
+        {
+          "id": "marbella:term:057",
+          "sheet": "Sözlük",
+          "row": 64,
+          "sentences": [
+            "Registro Municipal de Demandantes"
+          ]
+        }
+      ]
+    },
+    {
+      "anchor": "certificado digital",
+      "kind": "sozluk",
+      "farkli_deger": [],
+      "values": {},
+      "mentions": [
+        {
+          "id": "marbella:bono-alquiler-joven-andalucia-2026-yardim-ve-durum",
+          "sheet": "Yanıtlar",
+          "row": 38,
+          "sentences": [
+            "FNMT'nin verdiği kişisel dijital sertifika (certificado digital de persona física)"
+          ]
+        },
+        {
+          "id": "marbella:marbella-aile-hekimi-randevusu-clicsalud-app",
+          "sheet": "Yanıtlar",
+          "row": 207,
+          "sentences": [
+            "Uygulamaya tam erişim için certificado digital, Cl@ve gelişmiş kaydı ya da bunlardan alınan QR kodu gerekir; bazı işlemler için kişisel veri ve cep telefonuna gelen tek kullanımlık kod yeterlidir.",
+            "Uygulamaya girmek için certificado digital, Cl@ve gelişmiş kaydı ya da QR kodu kullan; bazı işlemler için kişisel veri ve cep telefonuna gelen kod yeterlidir.",
+            "Certificado digital ya da Cl@ve (uygulamaya tam erişim için)"
+          ]
+        },
+        {
+          "id": "marbella:marbella-sanal-saglik-karti-ve-kart-yenileme",
+          "sheet": "Yanıtlar",
+          "row": 208,
+          "sentences": [
+            "Kartı Salud Andalucía uygulamasında etkinleştirirsin; bunun için certificado digital ya da Cl@ve gerekir, ClicSalud+ web sitesinde DNIe, uygulamada ise QR de kullanılabilir.",
+            "Salud Andalucía uygulamasını kur ve certificado digital ya da Cl@ve ile kimliğini doğrula.",
+            "Fiziksel kart kaybolursa yenilemeyi ClicSalud+ ya da uygulamadan iste: ya kart numaranı, doğum tarihini ve kimlik belgeni (14 yaşından itibaren) girerek ya da certificado digital, DNIe, Cl@ve veya uyg"
+          ]
+        },
+        {
+          "id": "marbella:term:012",
+          "sheet": "Sözlük",
+          "row": 19,
+          "sentences": [
+            "Certificado digital"
+          ]
+        }
+      ]
+    },
+    {
+      "anchor": "ex15 formu",
+      "kind": "sozluk",
+      "farkli_deger": [],
+      "values": {
+        "ucret": [
+          "9,84 €"
+        ]
+      },
+      "mentions": [
+        {
+          "id": "marbella:nie-nedir-ne-ise-yarar",
+          "sheet": "Yanıtlar",
+          "row": 114,
+          "sentences": [
+            "Dilekçe EX15 formu ve 790 kodu 012 harç belgesiyle verilir; NIE harcı 9,84 euro'dur.",
+            "EX15 formu (NIE ve sertifika talebi)"
+          ]
+        },
+        {
+          "id": "marbella:vergi-numarasi-nif-nie-alma",
+          "sheet": "Yanıtlar",
+          "row": 176,
+          "sentences": [
+            "NIE ise İspanya ile ekonomik, mesleki veya sosyal bağı olan yabancılar için Polis Genel Müdürlüğü'nden (Dirección General de la Policía) istenir; EX15 formu ve Modelo 790 Kod 012 harç dekontu gerekir.",
+            "EX15 formu (NIE ve sertifika talebi)"
+          ]
+        },
+        {
+          "id": "marbella:term:003",
+          "sheet": "Sözlük",
+          "row": 10,
+          "sentences": [
+            "Atanması EX15 formu ve 790 tasa ödemesiyle istenir."
+          ]
+        },
+        {
+          "id": "marbella:term:005",
+          "sheet": "Sözlük",
+          "row": 12,
+          "sentences": [
+            "EX15 formu"
+          ]
+        }
+      ]
+    },
+    {
+      "anchor": "patronato de recaudacion",
+      "kind": "sozluk",
+      "farkli_deger": [],
+      "values": {},
+      "mentions": [
+        {
+          "id": "marbella:cop-tasasi-marbella-ordonans-ve-vergi-ofisleri",
+          "sheet": "Yanıtlar",
+          "row": 57,
+          "sentences": [
+            "2026 mali ordonansında hizmet karşılığı tasalar grubunda 3.6 başlığı; Patronato de Recaudación Av.",
+            "Belediyenin iki vergi ofisi var: Patronato de Recaudación (Av.",
+            "Belediyenin vergi tahsilat ofisi Patronato de Recaudación'a git: Av."
+          ]
+        },
+        {
+          "id": "marbella:marbella-belediye-vergileri-patronato-recaudacion",
+          "sheet": "Yanıtlar",
+          "row": 149,
+          "sentences": [
+            "İki birim var: Patronato de Recaudación (Av.",
+            "Marbella belediyesinin vergi işleri için iki birimi var: Patronato de Recaudación, Av.",
+            "Patronato de Recaudación'a Av."
+          ]
+        },
+        {
+          "id": "marbella:marbella-merkez-ricardo-soriano",
+          "sheet": "Mahalleler",
+          "row": 9,
+          "sentences": [
+            "Ricardo Soriano 61'de aile hekimi (Centro de salud), 68'de belediye vergi tahsilat ofisi (Patronato de Recaudación) var."
+          ]
+        },
+        {
+          "id": "marbella:term:056",
+          "sheet": "Sözlük",
+          "row": 63,
+          "sentences": [
+            "Patronato de Recaudación"
+          ]
+        }
+      ]
+    },
+    {
+      "anchor": "secretaria virtual",
+      "kind": "sozluk",
+      "farkli_deger": [],
+      "values": {
+        "tarih": [
+          "31 mart"
+        ]
+      },
+      "mentions": [
+        {
+          "id": "marbella:endulus-okul-kaydi-basvuru-donemi-ve-gec-gelen-ogrenci",
+          "sheet": "Yanıtlar",
+          "row": 12,
+          "sentences": [
+            "Genel kural Mart ayı başvurusu ve Secretaría Virtual; yıl ortasında gelen öğrenci için olağanüstü usul (Decreto 21/2020 md.",
+            "Başvuru okula kâğıtla (Anexo III) ya da elektronik olarak Secretaría Virtual üzerinden verilir; her öğrenci için tek başvuru yapılır ve süre dışı başvuru öncelik kaybettirir.",
+            "Mart ayındaki genel başvuru döneminde tek bir başvuru formu doldur ve çocuğun öncelikle istediğin okulda (prioritario) başvurusunu ver; kâğıt için Anexo III'ü doldur, elektronik için Secretaría Virtua"
+          ]
+        },
+        {
+          "id": "marbella:okul-basvurusu-icin-bilgi-hatti-ve-malaga-egitim-delegasyonu",
+          "sheet": "Yanıtlar",
+          "row": 13,
+          "sentences": [
+            "Ücretsiz hat 900 848 000 (8.00–19.00), iEscolariza uygulaması, Secretaría Virtual ve Málaga'daki Delegación Territorial de Educación adresi",
+            "Okulları ve konut adresine göre puanları gösteren iEscolariza akıllı telefon uygulaması ile başvuru için Secretaría Virtual (elektronik başvuru) kullanılır.",
+            "Başvurunu Mart'ta (2026/27'de 1–31 Mart) Secretaría Virtual üzerinden elektronik olarak ver."
+          ]
+        },
+        {
+          "id": "marbella:okul-etaplarina-giris-yas-ve-diploma-kosullari",
+          "sheet": "Yanıtlar",
+          "row": 15,
+          "sentences": [
+            "Başvuru her yıl Mart'ta (2026/27'de 1–31 Mart) yapılır ve tercihen asıl istenen okula ya da Secretaría Virtual üzerinden verilir.",
+            "kademe Infantil'e ya da ilk kez Primaria'ya girecekse Mart'taki başvuru döneminde (2026/27'de 1–31 Mart) başvurunu asıl istediğin okula ya da Secretaría Virtual üzerinden ver."
+          ]
+        },
+        {
+          "id": "marbella:term:035",
+          "sheet": "Sözlük",
+          "row": 42,
+          "sentences": [
+            "Secretaría Virtual"
           ]
         }
       ]
@@ -88,42 +2777,380 @@
       ]
     },
     {
-      "anchor": "ex-15",
-      "kind": "kod",
+      "anchor": "carpeta ciudadana",
+      "kind": "sozluk",
       "farkli_deger": [],
       "values": {
-        "ucret": [
-          "9,84 €"
+        "tarih": [
+          "26 mart"
         ]
       },
       "mentions": [
         {
-          "id": "marbella:nie-nedir-ne-ise-yarar",
+          "id": "marbella:endulus-carpeta-ciudadana-junta-dijital-islemler",
           "sheet": "Yanıtlar",
-          "row": 114,
+          "row": 185,
           "sentences": [
-            "Dilekçe EX15 formu ve 790 kodu 012 harç belgesiyle verilir; NIE harcı 9,84 euro'dur.",
-            "EX15 formunu (NIE ve sertifika talebi) doldur.",
-            "EX15 formu (NIE ve sertifika talebi)"
+            "Endülüs'te Junta de Andalucía ile dijital işlem için Carpeta Ciudadana nedir ve nasıl girilir?",
+            "Carpeta Ciudadana, Junta de Andalucía'nın işlemlerini, bildirimlerini, dosyalarını (expediente) ve kartlarını tek yerde toplayan uygulamadır; mobil uygulama ve web uygulaması olarak sunulur.",
+            "Uygulama mağazasından Carpeta Ciudadana uygulamasını indir ya da web uygulamasını aç."
           ]
         },
         {
-          "id": "marbella:marbella-nie-tie-polis-ofisi-randevu",
+          "id": "marbella:endulus-saglik-karti-tarjeta-sanitaria-ve-aile-hekimi-secimi",
           "sheet": "Yanıtlar",
-          "row": 128,
+          "row": 200,
           "sentences": [
-            "NIE için EX-15 formunu doldur ve NIE'ye neden ihtiyacın olduğunu gösteren belgeyi (banka ya da idari form gibi) hazırla; NIE başvurusunu evine en yakın polis ofisinde, mümkünse kendin yap.",
-            "EX-15 formu (NIE için)"
+            "Kartın sanal sürümü (TSV) 26 Mart 2026'dan beri kamu sağlık kapsamı olan ve Endülüs'te oturan kişilere açıktır; Salud Andalucía uygulaması, ClicSalud+ ya da Carpeta ciudadana üzerinden Cl@ve, dijital "
           ]
         },
         {
-          "id": "marbella:vergi-numarasi-nif-nie-alma",
-          "sheet": "Yanıtlar",
-          "row": 176,
+          "id": "marbella:term:059",
+          "sheet": "Sözlük",
+          "row": 66,
           "sentences": [
-            "NIE ise İspanya ile ekonomik, mesleki veya sosyal bağı olan yabancılar için Polis Genel Müdürlüğü'nden (Dirección General de la Policía) istenir; EX15 formu ve Modelo 790 Kod 012 harç dekontu gerekir.",
-            "NIE istiyorsan EX15 formunu (NIE ve sertifika talebi) doldur.",
-            "EX15 formu (NIE ve sertifika talebi)"
+            "Carpeta ciudadana"
+          ]
+        }
+      ]
+    },
+    {
+      "anchor": "escolarizacion",
+      "kind": "sozluk",
+      "farkli_deger": [],
+      "values": {
+        "tarih": [
+          "30 nisan"
+        ]
+      },
+      "mentions": [
+        {
+          "id": "marbella:okul-basvurusu-icin-bilgi-hatti-ve-malaga-egitim-delegasyonu",
+          "sheet": "Yanıtlar",
+          "row": 13,
+          "sentences": [
+            "Delegasyonun içinde Servicio de Planificación y Escolarización birimi bulunur."
+          ]
+        },
+        {
+          "id": "marbella:junta-escuela-infantil-0-3-yas-basvurusu-ve-ucretsiz-kontenjan",
+          "sheet": "Yanıtlar",
+          "row": 22,
+          "sentences": [
+            "Başvuru dönemi için Junta eğitim portalındaki Escolarización 0 a 3 años sayfasını izle; 2026/27'de olağan başvuru 1–30 Nisan'dı."
+          ]
+        },
+        {
+          "id": "marbella:term:034",
+          "sheet": "Sözlük",
+          "row": 41,
+          "sentences": [
+            "Escolarización (okul kaydı)"
+          ]
+        }
+      ]
+    },
+    {
+      "anchor": "itv",
+      "kind": "sozluk",
+      "farkli_deger": [],
+      "values": {
+        "sure": [
+          "4 yil"
+        ]
+      },
+      "mentions": [
+        {
+          "id": "marbella:arac-kaydi-ulusal-cerceve",
+          "sheet": "Yanıtlar",
+          "row": 184,
+          "sentences": [
+            "Aracın elektronik ITV kartı (ficha ITV electrónica) olup olmadığına bak; yalnız kâğıt kartı varsa DGT'nin genel başvuru formuyla başvurabilirsin, bunun için dijital DNI, geçerli elektronik sertifika y",
+            "Elektronik ITV kartı (NIVE) ya da satış kaydı düşülmüş ITV kartı; yoksa fatura veya açık artırma tahsis tutanağı"
+          ]
+        },
+        {
+          "id": "marbella:itv-arac-muayene-periyotlari",
+          "sheet": "Yanıtlar",
+          "row": 217,
+          "sentences": [
+            "İspanya'da ITV araç muayenesi kaç yılda bir yapılır?",
+            "İspanya'da tescilli bir otomobil (M1) ilk 4 yıl ITV'den muaftır; 4 yılı geçince 2 yılda bir, 10 yılı geçince her yıl muayeneye girer.",
+            "Muayeneyi yetkili ITV istasyonunda yaptır; istasyonları bulunduğu özerk topluluğun yetkili organı yetkilendirir."
+          ]
+        },
+        {
+          "id": "marbella:term:047",
+          "sheet": "Sözlük",
+          "row": 54,
+          "sentences": [
+            "ITV (Inspección Técnica de Vehículos)",
+            "Araç teknik muayenesi; muayene kartı (tarjeta de inspección técnica) ITV'nin belgesidir."
+          ]
+        }
+      ]
+    },
+    {
+      "anchor": "ivtm",
+      "kind": "sozluk",
+      "farkli_deger": [],
+      "values": {
+        "tarih": [
+          "7 ocak"
+        ]
+      },
+      "mentions": [
+        {
+          "id": "marbella:marbella-belediye-vergileri-patronato-recaudacion",
+          "sheet": "Yanıtlar",
+          "row": 149,
+          "sentences": [
+            "Belediyenin 2026 mali ordonansları (Ordenanzas fiscales 2026) 7 Ocak 2026'da yayımlandı; içinde taşınmaz (emlak) vergisi IBI, araç vergisi IVTM ve çöp toplama tasası bölümleri var.",
+            "Ordenanzas fiscales 2026 PDF'ini sayfadan indir ve vergi türünün bölümüne bak: emlak vergisi IBI için 1.1, araç vergisi IVTM için 1.3, çöp tasası için 3.6."
+          ]
+        },
+        {
+          "id": "marbella:arac-kaydi-ulusal-cerceve",
+          "sheet": "Yanıtlar",
+          "row": 184,
+          "sentences": [
+            "Oturduğun belediyenin Impuesto de Circulación (IVTM) ödeme veya muafiyet belgesini al.",
+            "Oturduğun belediyenin Impuesto de Circulación (IVTM) ödeme veya muafiyet belgesi"
+          ]
+        },
+        {
+          "id": "marbella:term:018",
+          "sheet": "Sözlük",
+          "row": 25,
+          "sentences": [
+            "IVTM (Impuesto sobre Vehículos de Tracción Mecánica)"
+          ]
+        }
+      ]
+    },
+    {
+      "anchor": "reagrupacion familiar",
+      "kind": "sozluk",
+      "farkli_deger": [],
+      "values": {},
+      "mentions": [
+        {
+          "id": "marbella:ingreso-minimo-vital-ve-cocuk-destegi",
+          "sheet": "Yanıtlar",
+          "row": 10,
+          "sentences": [
+            "Bir yıl şartı doğum, evlat edinme, çocukların aile birleşimi (reagrupación familiar), evlat edinme amaçlı koruma ya da kalıcı aile yanında bakımla birime katılan reşit olmayanlar için, ayrıca insan ti"
+          ]
+        },
+        {
+          "id": "marbella:aile-birlesimi-ile-oturum",
+          "sheet": "Yanıtlar",
+          "row": 119,
+          "sentences": [
+            "Aile birleşimi (reagrupación familiar) ile İspanya'ya nasıl gelinir?"
+          ]
+        },
+        {
+          "id": "marbella:term:014",
+          "sheet": "Sözlük",
+          "row": 21,
+          "sentences": [
+            "Reagrupación familiar"
+          ]
+        }
+      ]
+    },
+    {
+      "anchor": "tarjeta de movilidad",
+      "kind": "sozluk",
+      "farkli_deger": [],
+      "values": {
+        "tarih": [
+          "22 mart"
+        ]
+      },
+      "mentions": [
+        {
+          "id": "marbella:oac-marbella-islemleri-ve-dijital-sertifika-kimlik-dogrulama",
+          "sheet": "Yanıtlar",
+          "row": 187,
+          "sentences": [
+            "Adres kaydı, Tarjeta de Movilidad, volante histórico ve sertifika doğrulama",
+            "OAC ofisleri adres kaydını (empadronamiento), dijital sertifika için kimlik doğrulamayı, belediyenin Tarjeta de Movilidad başvurusunu, geçmiş adres kaydı belgesini (volante histórico) ve çeşitli beled"
+          ]
+        },
+        {
+          "id": "marbella:tarjeta-de-movilidad-ucretsiz-belediye-otobusu",
+          "sheet": "Yanıtlar",
+          "row": 192,
+          "sentences": [
+            "Tarjeta de Movilidad (ücretsiz belediye otobüsü kartı) nasıl alınır?",
+            "Bilgiler Marbella belediyesinin 22 Mart 2023 tarihli Tarjeta de Movilidad sayfasına dayanır."
+          ]
+        },
+        {
+          "id": "marbella:term:053",
+          "sheet": "Sözlük",
+          "row": 60,
+          "sentences": [
+            "Tarjeta de Movilidad"
+          ]
+        }
+      ]
+    },
+    {
+      "anchor": "vivienda de uso turistico",
+      "kind": "sozluk",
+      "farkli_deger": [],
+      "values": {},
+      "mentions": [
+        {
+          "id": "marbella:turistik-kiralik-daire-kurallari-ve-kiraci",
+          "sheet": "Yanıtlar",
+          "row": 42,
+          "sentences": [
+            "Bir konutu aynı kiracıya kesintisiz iki aydan uzun süreyle kiralamak Endülüs kurallarında turistik konut (vivienda de uso turístico, VUT) sayılmaz; yani uzun dönem sözleşmenle oturuyorsan VUT kayıt ku"
+          ]
+        },
+        {
+          "id": "marbella:gecici-konaklama-kayitli-turistik-konut-kontrolu",
+          "sheet": "Yanıtlar",
+          "row": 170,
+          "sentences": [
+            "Andalucía'da turistik amaçla kiralanan konutun (vivienda de uso turístico, VUT) Registro de Turismo'da kayıtlı olması gerekir."
+          ]
+        },
+        {
+          "id": "marbella:term:051",
+          "sheet": "Sözlük",
+          "row": 58,
+          "sentences": [
+            "Vivienda de uso turístico (VUT)"
+          ]
+        }
+      ]
+    },
+    {
+      "anchor": "asistencia juridica gratuita",
+      "kind": "sozluk",
+      "farkli_deger": [],
+      "values": {},
+      "mentions": [
+        {
+          "id": "marbella:ucretsiz-avukat-justicia-gratuita",
+          "sheet": "Yanıtlar",
+          "row": 131,
+          "sentences": [
+            "İspanya'da bulunan yabancılar ücretsiz hukuki yardım (asistencia jurídica gratuita) için başvurabilir; standart bir form ve gelirinin yetmediğini gösteren belgeler gerekir.",
+            "Hakkın tanınıp tanınmadığına il komisyonu (Comisión de Asistencia Jurídica Gratuita) karar verir."
+          ]
+        },
+        {
+          "id": "marbella:term:049",
+          "sheet": "Sözlük",
+          "row": 56,
+          "sentences": [
+            "Asistencia jurídica gratuita"
+          ]
+        }
+      ]
+    },
+    {
+      "anchor": "atal",
+      "kind": "sozluk",
+      "farkli_deger": [],
+      "values": {},
+      "mentions": [
+        {
+          "id": "marbella:ispanyolca-bilmeyen-cocuk-icin-okulda-dil-destegi-atal-proa-ave",
+          "sheet": "Yanıtlar",
+          "row": 24,
+          "sentences": [
+            "Okulda İspanyolca bilmeyen çocuğa destek var mı: ATAL sınıfları, öğleden sonra dil programı ve ücretsiz Aula Virtual de Español nedir?",
+            "ATAL okul saatinde özel öğretmenle; öğleden sonra dil programı PROA kapsamında; AVE dört seviyeli, Instituto Cervantes ortaklığı, ücretsiz",
+            "Aulas Temporales de Adaptación Lingüística (ATAL), İspanyolca bilmeyen yabancı öğrenciye okul saatinde özel öğretmenle dil öğretir ve ilkokul ile ortaöğretim okullarında yürütülür."
+          ]
+        },
+        {
+          "id": "marbella:term:036",
+          "sheet": "Sözlük",
+          "row": 43,
+          "sentences": [
+            "ATAL (Aula Temporal de Adaptación Lingüística)"
+          ]
+        }
+      ]
+    },
+    {
+      "anchor": "bono social electrico",
+      "kind": "sozluk",
+      "farkli_deger": [],
+      "values": {},
+      "mentions": [
+        {
+          "id": "marbella:bono-social-elektrik-kimler-alir",
+          "sheet": "Yanıtlar",
+          "row": 47,
+          "sentences": [
+            "Bono social eléctrico (elektrik faturası indirimi) kimlere verilir?"
+          ]
+        },
+        {
+          "id": "marbella:term:020",
+          "sheet": "Sözlük",
+          "row": 27,
+          "sentences": [
+            "Bono social eléctrico"
+          ]
+        }
+      ]
+    },
+    {
+      "anchor": "cade marbella",
+      "kind": "sozluk",
+      "farkli_deger": [],
+      "values": {},
+      "mentions": [
+        {
+          "id": "marbella:cade-marbella-serbest-calisan-sirket-kurma",
+          "sheet": "Yanıtlar",
+          "row": 95,
+          "sentences": [
+            "CADE Marbella: Vivero de Empresas, Plaza de los Naranjos 3, tel.",
+            "Marbella'da serbest çalışan (autónomo) olmak ya da şirket kurmak için ilk durak CADE Marbella'dır (Andalucía Emprende): Vivero de Empresas de Marbella, Plaza de los Naranjos 3, 29601 Marbella, tel.",
+            "951 507 269, cade.marbella@andaluciaemprende.es."
+          ]
+        },
+        {
+          "id": "marbella:term:026",
+          "sheet": "Sözlük",
+          "row": 33,
+          "sentences": [
+            "CADE Marbella (Andalucía Emprende)"
+          ]
+        }
+      ]
+    },
+    {
+      "anchor": "escuela infantil",
+      "kind": "sozluk",
+      "farkli_deger": [],
+      "values": {},
+      "mentions": [
+        {
+          "id": "marbella:junta-escuela-infantil-0-3-yas-basvurusu-ve-ucretsiz-kontenjan",
+          "sheet": "Yanıtlar",
+          "row": 22,
+          "sentences": [
+            "Endülüs'te (Marbella'daki merkezler dahil) 0–3 yaş çocuk için Junta kreşine (escuela infantil) nasıl başvurulur, 1 ve 2 yaş ücretsiz mi (2026/27)?"
+          ]
+        },
+        {
+          "id": "marbella:term:037",
+          "sheet": "Sözlük",
+          "row": 44,
+          "sentences": [
+            "Escuela infantil (0-3 yaş kreşi)"
           ]
         }
       ]
@@ -152,11 +3179,140 @@
           ]
         }
       ]
+    },
+    {
+      "anchor": "hoja de reclamaciones",
+      "kind": "sozluk",
+      "farkli_deger": [],
+      "values": {},
+      "mentions": [
+        {
+          "id": "marbella:tuketici-sikayeti-omic-ve-hoja-de-reclamaciones-marbella",
+          "sheet": "Yanıtlar",
+          "row": 58,
+          "sentences": [
+            "Marbella'da fatura ya da hizmet sorununda tüketici şikâyetini nereye iletirsin: OMIC ve hoja de reclamaciones?",
+            "OMIC ücretsiz bilgi ve arabuluculuk sunar; şikâyet formu hoja de reclamaciones isteyince hemen ve ücretsiz verilmek zorunda",
+            "Şirketten hoja de reclamaciones (resmî şikâyet formu) istediğinde form hemen, bulunduğun yerde ve ücretsiz verilmek zorundadır; formu işletmeden çıkınca doldurup sonradan da teslim edebilirsin."
+          ]
+        },
+        {
+          "id": "marbella:term:048",
+          "sheet": "Sözlük",
+          "row": 55,
+          "sentences": [
+            "Hoja de reclamaciones"
+          ]
+        }
+      ]
+    },
+    {
+      "anchor": "programa de ayuda a las familias",
+      "kind": "sozluk",
+      "farkli_deger": [],
+      "values": {},
+      "mentions": [
+        {
+          "id": "marbella:junta-escuela-infantil-0-3-yas-basvurusu-ve-ucretsiz-kontenjan",
+          "sheet": "Yanıtlar",
+          "row": 22,
+          "sentences": [
+            "Endülüs Eğitim Bakanlığı, Junta'ya ait escuelas infantiles ile Programa de ayuda a las familias'a katılan kreş ve çocuk merkezlerinde 0–3 yaş (Primer Ciclo de Educación Infantil) kayıtlarını iki aşama"
+          ]
+        },
+        {
+          "id": "marbella:term:038",
+          "sheet": "Sözlük",
+          "row": 45,
+          "sentences": [
+            "Programa de ayuda a las familias (0-3)"
+          ]
+        }
+      ]
+    },
+    {
+      "anchor": "punto limpio",
+      "kind": "sozluk",
+      "farkli_deger": [],
+      "values": {},
+      "mentions": [
+        {
+          "id": "marbella:marbella-punto-limpio-konumlari-ilce-ilce",
+          "sheet": "Yanıtlar",
+          "row": 71,
+          "sentences": [
+            "Marbella'da punto limpio (belediye temiz noktası) hangi ilçede nerelerde bulunur?"
+          ]
+        },
+        {
+          "id": "marbella:term:039",
+          "sheet": "Sözlük",
+          "row": 46,
+          "sentences": [
+            "Punto limpio"
+          ]
+        }
+      ]
+    },
+    {
+      "anchor": "rmisa",
+      "kind": "sozluk",
+      "farkli_deger": [],
+      "values": {},
+      "mentions": [
+        {
+          "id": "marbella:marbella-endulus-renta-minima-rmisa-basvuru",
+          "sheet": "Yanıtlar",
+          "row": 151,
+          "sentences": [
+            "Marbella'da Endülüs asgari gelir desteğine (Renta Mínima de Inserción Social, RMISA) nereden başvurulur?",
+            "RMISA, Andalucía'da idari ikameti (vecindad administrativa) olan, yoksulluk ya da sosyal dışlanma durumunda ya da riskinde bulunan aile birimlerine yönelik aylık bir destektir; şartlardan birini karşı"
+          ]
+        },
+        {
+          "id": "marbella:term:050",
+          "sheet": "Sözlük",
+          "row": 57,
+          "sentences": [
+            "RMISA (Renta Mínima de Inserción Social en Andalucía)"
+          ]
+        }
+      ]
+    },
+    {
+      "anchor": "zbe",
+      "kind": "sozluk",
+      "farkli_deger": [],
+      "values": {
+        "tarih": [
+          "5 eylul"
+        ]
+      },
+      "mentions": [
+        {
+          "id": "marbella:marbella-dusuk-emisyon-bolgesi-zbe-eski-sehir-kurallari",
+          "sheet": "Yanıtlar",
+          "row": 234,
+          "sentences": [
+            "Marbella'da arabayla eski şehir merkezine girebilir miyim, düşük emisyon bölgesi (ZBE) var mı?",
+            "Eski şehir merkezleri için B, C, Eco ve Cero etiketli araçlara yönelik geçici ZBE önerisi 2023'te açıklandı; Eylül 2025'te kesin uygulama hâlâ hazırlıktaydı",
+            "Belediye 5 Eylül 2025'te Casco Antiguo'ya dört ölçüm cihazı kurduğunu ve bunun ZBE'nin kesin uygulamasından önceki adım olduğunu duyurdu."
+          ]
+        },
+        {
+          "id": "marbella:term:052",
+          "sheet": "Sözlük",
+          "row": 59,
+          "sentences": [
+            "ZBE (Zona de Bajas Emisiones)"
+          ]
+        }
+      ]
     }
   ],
   "summary": {
-    "groups": 4,
-    "farkli_degerli": 1
+    "groups": 49,
+    "farkli_degerli": 12
   },
   "not": "Aday listesi; karar degildir. Farkli deger farkli islem ya da donemden de gelebilir."
 }

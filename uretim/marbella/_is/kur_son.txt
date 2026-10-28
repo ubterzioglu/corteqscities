@@ -1,32 +1,32 @@
 == merge
-{"status":"ok","city_id":"marbella","rows":{"Yanıtlar":229,"Bağlantılar":378,"Adımlar":7,"SayfaAlanları":23,"Şehir":1},"per_topic":{"aile":19,"ev":16,"fatura":18,"gunluk":18,"is":20,"kesif":15,"oturum":20,"para":20,"planlama":18,"resmi":21,"saglik":21,"ulasim":23},"places_by_group":{},"sources_used":283,"sources_claims_only":1,"claims":3696,"quote_miss":0,"issue_kinds":{},"out":"/home/user/corteqscities/uretim/marbella/_is/birlestir_rapor.json"}
+{"status":"findings","city_id":"marbella","rows":{"Yanıtlar":229,"Mekânlar":80,"Mahalleler":12,"Bağlantılar":482,"Adımlar":7,"Sözlük":60,"SayfaAlanları":23,"Şehir":1},"per_topic":{"aile":19,"ev":16,"fatura":18,"gunluk":18,"is":20,"kesif":15,"oturum":20,"para":20,"planlama":18,"resmi":21,"saglik":21,"ulasim":23},"places_by_group":{"Doğa ve açık hava":32,"Spor":10,"Çocuklarla keşif":7,"Tarih ve mimari":21,"Müzeler":3,"Sanat ve sergiler":3,"Sahne ve müzik":4},"sources_used":372,"sources_claims_only":0,"claims":4217,"quote_miss":0,"issue_kinds":{"groups_without_place":1},"out":"/home/user/corteqscities/uretim/marbella/_is/birlestir_rapor.json"}
 
 == pkgsrc
-{"status":"ok","sources":283,"with_snapshot":283,"copied":0,"removed_unused":0,"unused_kept":0,"pruned":true,"missing":[],"hash_mismatch":[],"rows_out":"/home/user/corteqscities/uretim/marbella/_is/data/Kaynaklar.jsonl","target_dir":"/home/user/corteqscities/uretim/marbella/paket/Lisans kanıtları"}
+{"status":"ok","sources":372,"with_snapshot":372,"copied":88,"removed_unused":0,"unused_kept":0,"pruned":true,"missing":[],"hash_mismatch":[],"rows_out":"/home/user/corteqscities/uretim/marbella/_is/data/Kaynaklar.jsonl","target_dir":"/home/user/corteqscities/uretim/marbella/paket/Lisans kanıtları"}
 
 == build
-{"rows_written":{"Adımlar":7,"Bağlantılar":378,"Kaynaklar":283,"Konular":12,"SayfaAlanları":23,"Yanıtlar":229,"Şehir":1},"rejected":0,"deduped":0,"defaults_applied":0,"fidelity":"ok","fidelity_accepted":["zip part removed by openpyxl: xl/sharedStrings.xml","zip part added by openpyxl: docProps/app.xml","zip part added by openpyxl: docProps/core.xml"],"out":"/home/user/corteqscities/uretim/marbella/_is/ara/ara.xlsx"}
+{"rows_written":{"Adımlar":7,"Bağlantılar":482,"Kaynaklar":372,"Konular":12,"Mahalleler":12,"Mekânlar":80,"SayfaAlanları":23,"Sözlük":60,"Yanıtlar":229,"Şehir":1},"rejected":0,"deduped":0,"defaults_applied":0,"fidelity":"ok","fidelity_accepted":["zip part removed by openpyxl: xl/sharedStrings.xml","zip part added by openpyxl: docProps/app.xml","zip part added by openpyxl: docProps/core.xml"],"out":"/home/user/corteqscities/uretim/marbella/_is/ara/ara.xlsx"}
 
 == textq
-{"tool":"text_quality","workbook":"ara.xlsx","exact_clusters":0,"near_clusters":0,"template_clusters":0,"shared_steps":0,"placeholders":0,"filler":0,"evasive":0,"without_action":0,"visual_json_errors":0,"caption_is_title":0,"hedge_cards":0,"hedge_share":0.0,"exact_records":0,"short_repeat_groups":0,"repeated_sentences":4,"cards_total":229,"visual_json_empty":227,"address":{"standard":"sen","records":272,"hitapsiz":31,"siz":0,"sen":241,"karisik":0,"findings":0,"labels":{"records":378,"hitapsiz":22,"siz":0,"sen":356,"karisik":0},"skipped":[]},"findings":0,"out":"/home/user/corteqscities/uretim/marbella/_is/text_quality.json"}
+{"tool":"text_quality","workbook":"ara.xlsx","exact_clusters":1,"near_clusters":0,"template_clusters":2,"shared_steps":0,"placeholders":0,"filler":0,"evasive":0,"without_action":0,"visual_json_errors":0,"caption_is_title":0,"hedge_cards":0,"hedge_share":0.0,"exact_records":3,"short_repeat_groups":0,"repeated_sentences":7,"cards_total":321,"visual_json_empty":227,"address":{"standard":"sen","records":424,"hitapsiz":178,"siz":0,"sen":246,"karisik":0,"findings":0,"labels":{"records":482,"hitapsiz":52,"siz":0,"sen":430,"karisik":0},"skipped":[]},"findings":3,"out":"/home/user/corteqscities/uretim/marbella/_is/text_quality.json"}
 
 == warn
-{"tool":"preview_checks warning-scan","records":934,"values":1154,"hits":0,"hit_records":0,"exempt":0,"by_check":{"K103":0,"K104":0,"K105":0},"by_pattern":{},"band_values":4,"skipped_sheets":[],"findings":0,"out":"/home/user/corteqscities/uretim/marbella/_is/uyari_tarama.json"}
+{"tool":"preview_checks warning-scan","records":1279,"values":1458,"hits":0,"hit_records":0,"exempt":0,"by_check":{"K103":0,"K104":0,"K105":0},"by_pattern":{},"band_values":4,"skipped_sheets":[],"findings":0,"out":"/home/user/corteqscities/uretim/marbella/_is/uyari_tarama.json"}
 
 == tutar
-{"tool":"kart_tutarlilik","groups":4,"farkli_degerli":1,"out":"/home/user/corteqscities/uretim/marbella/_is/tutarlilik.json"}
+{"tool":"kart_tutarlilik","groups":49,"farkli_degerli":12,"out":"/home/user/corteqscities/uretim/marbella/_is/tutarlilik.json"}
 
 == extract
-{"claims":2127,"by_kind":{"age":114,"date":388,"duration":478,"money":452,"percent":204,"time":319,"weekday":172},"by_sheet":{"Yanıtlar":2127},"entries_with_claims":181,"claims_without_source":0,"claims_with_missing_source_ids":0,"out":"/home/user/corteqscities/uretim/marbella/_is/claims.jsonl"}
+37,"by_kind":{"age":116,"date":393,"duration":479,"money":452,"percent":204,"time":321,"weekday":172},"by_sheet":{"Sözlük":10,"Yanıtlar":2127},"entries_with_claims":189,"claims_without_source":0,"claims_with_missing_source_ids":0,"out":"/home/user/corteqscities/uretim/marbella/_is/claims.jsonl"}
 
 == snap
-indings","urls":283,"fetched":283,"saved":262,"failed":21,"thin_text":0,"soft_404":0,"evidence_checked":0,"evidence_missing":0,"evidence_stale":0,"evidence_from_index":0,"must_contain_unmatched":0,"non_html":0,"truncated":2,"skipped":0,"index_rows":285,"index_kept":2,"requests_made":0,"cache_hits":283,"retry_transient":false,"index":"/home/user/corteqscities/uretim/marbella/_is/snap/index.jsonl"}
+indings","urls":372,"fetched":372,"saved":351,"failed":21,"thin_text":0,"soft_404":0,"evidence_checked":0,"evidence_missing":0,"evidence_stale":0,"evidence_from_index":0,"must_contain_unmatched":0,"non_html":0,"truncated":2,"skipped":0,"index_rows":374,"index_kept":2,"requests_made":0,"cache_hits":372,"retry_transient":false,"index":"/home/user/corteqscities/uretim/marbella/_is/snap/index.jsonl"}
 
 == ccheck
-"supported":337},"percent":{"no_snapshot":33,"not_in_source":50,"supported":121},"time":{"not_in_source":8,"supported":311},"weekday":{"not_in_source":161,"supported":11}},"number_only_hits":627,"source_states":{"fetch_error":17,"http_error":1,"ok":214},"snapshot_format":"toolkit","snapshots_indexed":292,"snapshots_skipped":[],"out":"/home/user/corteqscities/uretim/marbella/_is/claim_check.json"}
+"supported":337},"percent":{"no_snapshot":33,"not_in_source":50,"supported":121},"time":{"not_in_source":8,"supported":313},"weekday":{"not_in_source":161,"supported":11}},"number_only_hits":630,"source_states":{"fetch_error":17,"http_error":1,"ok":214},"snapshot_format":"toolkit","snapshots_indexed":381,"snapshots_skipped":[],"out":"/home/user/corteqscities/uretim/marbella/_is/claim_check.json"}
 
 == ccheckn
-ported":402},"percent":{"no_snapshot":33,"not_in_source":6,"supported":165},"time":{"not_in_source":8,"supported":311},"weekday":{"not_in_source":161,"supported":11}},"number_only_hits":0,"source_states":{"fetch_error":17,"http_error":1,"ok":214},"snapshot_format":"toolkit","snapshots_indexed":292,"snapshots_skipped":[],"out":"/home/user/corteqscities/uretim/marbella/_is/claim_check_number.json"}
+ported":402},"percent":{"no_snapshot":33,"not_in_source":6,"supported":165},"time":{"not_in_source":8,"supported":313},"weekday":{"not_in_source":161,"supported":11}},"number_only_hits":0,"source_states":{"fetch_error":17,"http_error":1,"ok":214},"snapshot_format":"toolkit","snapshots_indexed":381,"snapshots_skipped":[],"out":"/home/user/corteqscities/uretim/marbella/_is/claim_check_number.json"}
 
 == valid
-{"structure": {"errors": 0, "warnings": 7}, "media": {"errors": 0}, "classes": []}
+{"structure": {"errors": 0, "warnings": 97}, "media": {"errors": 0}, "classes": []}

@@ -1,12 +1,12 @@
 {
   "note": "'supported' yalnız tutarlılıktır: değer, kartın gösterdiği kaynak snapshot metninde geçiyor. İddianın doğru, güncel ya da aynı statü/dönem için geçerli olduğunun kanıtı değil (doğruluk kanıtı değil); resmî kaynakla ayrıca doğrulanmalı. 'not_in_source' kaynak metni olduğu hâlde değerin bulunmadığını, 'no_snapshot' metin olmadığı/ince olduğu için karar verilemediğini, 'homepage_only_source' kartın yalnız anasayfa(lar)a dayandığını gösterir.",
   "summary": {
-    "claims": 2127,
-    "entries": 181,
+    "claims": 2137,
+    "entries": 189,
     "mode": "number",
     "by_result": {
-      "supported": 1517,
-      "not_in_source": 495,
+      "supported": 1523,
+      "not_in_source": 499,
       "no_snapshot": 115,
       "homepage_only_source": 0,
       "no_source": 0
@@ -15,17 +15,17 @@
       "age": {
         "no_snapshot": 4,
         "not_in_source": 4,
-        "supported": 106
+        "supported": 108
       },
       "date": {
         "no_snapshot": 12,
-        "not_in_source": 278,
-        "supported": 98
+        "not_in_source": 282,
+        "supported": 99
       },
       "duration": {
         "no_snapshot": 36,
         "not_in_source": 18,
-        "supported": 424
+        "supported": 425
       },
       "money": {
         "no_snapshot": 30,
@@ -39,7 +39,7 @@
       },
       "time": {
         "not_in_source": 8,
-        "supported": 311
+        "supported": 313
       },
       "weekday": {
         "not_in_source": 161,
@@ -53,7 +53,7 @@
       "ok": 214
     },
     "snapshot_format": "toolkit",
-    "snapshots_indexed": 292,
+    "snapshots_indexed": 381,
     "snapshots_skipped": []
   },
   "results": [
@@ -134814,6 +134814,594 @@
         "hesap_varsa_girdiler": null,
         "sonuç": "supported",
         "belirsizlik": "kaynakların 1/1 tanesi tam metinle denetlendi; yalnız tutarlılık; doğruluk/güncellik/statü ayrıca doğrulanmalı"
+      }
+    },
+    {
+      "claim_id": "marbella:term:016:#1",
+      "entry_id": "marbella:term:016",
+      "sheet": "Sözlük",
+      "_row": 23,
+      "field": "definition",
+      "kind": "date",
+      "text": "23 Ocak 2026",
+      "sentence": "Endülüs'te 23 Ocak 2026'ya kadar yapılan sözleşmelerde fianza depo yükümlülüğü sürer.",
+      "values": [
+        {
+          "kind": "date",
+          "day": 23,
+          "month": 1,
+          "year": 2026
+        }
+      ],
+      "result": "supported",
+      "value_levels": [
+        "unit"
+      ],
+      "sources": [
+        {
+          "source_id": "marbella:kaynak:137",
+          "url": "https://www.juntadeandalucia.es/organismos/avra/areas/fianzas/notas-ley-vivienda-andalucia-2025.html",
+          "homepage": false,
+          "snapshot_id": "563e15273db8a4ca7c8b52036a5f66ba988a30c5641ced9a0fcbc618a9d3352a.txt",
+          "chars": 1472,
+          "snapshot_state": "ok"
+        }
+      ],
+      "evidence": [
+        {
+          "value_index": 0,
+          "source_id": "marbella:kaynak:137",
+          "url": "https://www.juntadeandalucia.es/organismos/avra/areas/fianzas/notas-ley-vivienda-andalucia-2025.html",
+          "snapshot_id": "563e15273db8a4ca7c8b52036a5f66ba988a30c5641ced9a0fcbc618a9d3352a.txt",
+          "level": "unit",
+          "snippet": "…de la fianza de los contratos con fecha de devengo (fecha de contrato) hasta el 23/01/2026, inclusive. De conformidad con lo dispuesto en la Disposición Adicional Sexta d…",
+          "fetched_at": "2026-10-28"
+        }
+      ],
+      "uncertainty": "kaynakların 1/1 tanesi tam metinle denetlendi; yalnız tutarlılık; doğruluk/güncellik/statü ayrıca doğrulanmalı",
+      "claim_record": {
+        "claim_id": "marbella:term:016:#1",
+        "entry_id": "marbella:term:016",
+        "Excel_satırı": "Sözlük!23",
+        "iddia": "Endülüs'te 23 Ocak 2026'ya kadar yapılan sözleşmelerde fianza depo yükümlülüğü sürer.",
+        "ülke_şehir_statü": null,
+        "dönem": null,
+        "resmî_URL": [
+          "https://www.juntadeandalucia.es/organismos/avra/areas/fianzas/notas-ley-vivienda-andalucia-2025.html"
+        ],
+        "kaynak_bölümü": "…de la fianza de los contratos con fecha de devengo (fecha de contrato) hasta el 23/01/2026, inclusive. De conformidad con lo dispuesto en la Disposición Adicional Sexta d…",
+        "yayın_yürürlük_tarihleri": null,
+        "kontrol_tarihi": "2026-10-28",
+        "hesap_varsa_girdiler": null,
+        "sonuç": "supported",
+        "belirsizlik": "kaynakların 1/1 tanesi tam metinle denetlendi; yalnız tutarlılık; doğruluk/güncellik/statü ayrıca doğrulanmalı"
+      }
+    },
+    {
+      "claim_id": "marbella:term:019:#1",
+      "entry_id": "marbella:term:019",
+      "sheet": "Sözlük",
+      "_row": 26,
+      "field": "definition",
+      "kind": "date",
+      "text": "8 Nisan",
+      "sentence": "2025 geliri için beyan 8 Nisan - 30 Haziran 2026 arasında yapılır.",
+      "values": [
+        {
+          "kind": "date",
+          "day": 8,
+          "month": 4
+        }
+      ],
+      "result": "not_in_source",
+      "value_levels": [
+        null
+      ],
+      "sources": [
+        {
+          "source_id": "marbella:kaynak:135",
+          "url": "https://www.juntadeandalucia.es/organismos/economiahaciendayfondoseuropeos/areas/tributos-juego/tributos/paginas/medidasautirpf25.html",
+          "homepage": false,
+          "snapshot_id": "da52584ca9adfe6eecfb2c4e516058dbb397fdafff07e53cfa4e2a950a8286fd.txt",
+          "chars": 3214,
+          "snapshot_state": "ok"
+        }
+      ],
+      "evidence": [],
+      "uncertainty": "kaynakların 1/1 tanesi tam metinle denetlendi",
+      "claim_record": {
+        "claim_id": "marbella:term:019:#1",
+        "entry_id": "marbella:term:019",
+        "Excel_satırı": "Sözlük!26",
+        "iddia": "2025 geliri için beyan 8 Nisan - 30 Haziran 2026 arasında yapılır.",
+        "ülke_şehir_statü": null,
+        "dönem": null,
+        "resmî_URL": [
+          "https://www.juntadeandalucia.es/organismos/economiahaciendayfondoseuropeos/areas/tributos-juego/tributos/paginas/medidasautirpf25.html"
+        ],
+        "kaynak_bölümü": null,
+        "yayın_yürürlük_tarihleri": null,
+        "kontrol_tarihi": "2026-10-28",
+        "hesap_varsa_girdiler": null,
+        "sonuç": "not_in_source",
+        "belirsizlik": "kaynakların 1/1 tanesi tam metinle denetlendi"
+      }
+    },
+    {
+      "claim_id": "marbella:term:019:#2",
+      "entry_id": "marbella:term:019",
+      "sheet": "Sözlük",
+      "_row": 26,
+      "field": "definition",
+      "kind": "date",
+      "text": "30 Haziran 2026",
+      "sentence": "2025 geliri için beyan 8 Nisan - 30 Haziran 2026 arasında yapılır.",
+      "values": [
+        {
+          "kind": "date",
+          "day": 30,
+          "month": 6,
+          "year": 2026
+        }
+      ],
+      "result": "not_in_source",
+      "value_levels": [
+        null
+      ],
+      "sources": [
+        {
+          "source_id": "marbella:kaynak:135",
+          "url": "https://www.juntadeandalucia.es/organismos/economiahaciendayfondoseuropeos/areas/tributos-juego/tributos/paginas/medidasautirpf25.html",
+          "homepage": false,
+          "snapshot_id": "da52584ca9adfe6eecfb2c4e516058dbb397fdafff07e53cfa4e2a950a8286fd.txt",
+          "chars": 3214,
+          "snapshot_state": "ok"
+        }
+      ],
+      "evidence": [],
+      "uncertainty": "kaynakların 1/1 tanesi tam metinle denetlendi",
+      "claim_record": {
+        "claim_id": "marbella:term:019:#2",
+        "entry_id": "marbella:term:019",
+        "Excel_satırı": "Sözlük!26",
+        "iddia": "2025 geliri için beyan 8 Nisan - 30 Haziran 2026 arasında yapılır.",
+        "ülke_şehir_statü": null,
+        "dönem": null,
+        "resmî_URL": [
+          "https://www.juntadeandalucia.es/organismos/economiahaciendayfondoseuropeos/areas/tributos-juego/tributos/paginas/medidasautirpf25.html"
+        ],
+        "kaynak_bölümü": null,
+        "yayın_yürürlük_tarihleri": null,
+        "kontrol_tarihi": "2026-10-28",
+        "hesap_varsa_girdiler": null,
+        "sonuç": "not_in_source",
+        "belirsizlik": "kaynakların 1/1 tanesi tam metinle denetlendi"
+      }
+    },
+    {
+      "claim_id": "marbella:term:020:#1",
+      "entry_id": "marbella:term:020",
+      "sheet": "Sözlük",
+      "_row": 27,
+      "field": "definition",
+      "kind": "date",
+      "text": "31 Aralık 2026",
+      "sentence": "31 Aralık 2026'ya kadar indirim oranı geçici olarak yükseltilmiştir.",
+      "values": [
+        {
+          "kind": "date",
+          "day": 31,
+          "month": 12,
+          "year": 2026
+        }
+      ],
+      "result": "not_in_source",
+      "value_levels": [
+        null
+      ],
+      "sources": [
+        {
+          "source_id": "marbella:kaynak:075",
+          "url": "https://www.miteco.gob.es/es/energia/pobreza-energetica/pe-001/requisitos.html",
+          "homepage": false,
+          "snapshot_id": "725e0ea985d3e5b9f322b84194d048484b09a337bad307fb47130a3afb08e869.txt",
+          "chars": 20813,
+          "snapshot_state": "ok"
+        }
+      ],
+      "evidence": [],
+      "uncertainty": "kaynakların 1/1 tanesi tam metinle denetlendi",
+      "claim_record": {
+        "claim_id": "marbella:term:020:#1",
+        "entry_id": "marbella:term:020",
+        "Excel_satırı": "Sözlük!27",
+        "iddia": "31 Aralık 2026'ya kadar indirim oranı geçici olarak yükseltilmiştir.",
+        "ülke_şehir_statü": null,
+        "dönem": null,
+        "resmî_URL": [
+          "https://www.miteco.gob.es/es/energia/pobreza-energetica/pe-001/requisitos.html"
+        ],
+        "kaynak_bölümü": null,
+        "yayın_yürürlük_tarihleri": null,
+        "kontrol_tarihi": "2026-10-28",
+        "hesap_varsa_girdiler": null,
+        "sonuç": "not_in_source",
+        "belirsizlik": "kaynakların 1/1 tanesi tam metinle denetlendi"
+      }
+    },
+    {
+      "claim_id": "marbella:term:029:#1",
+      "entry_id": "marbella:term:029",
+      "sheet": "Sözlük",
+      "_row": 36,
+      "field": "definition",
+      "kind": "duration",
+      "text": "24 saat",
+      "sentence": "telefonla 24 saat ulaşılır ve aynı adlı uygulamayla da randevu alınır.",
+      "values": [
+        {
+          "kind": "duration",
+          "value": 24,
+          "unit": "hour"
+        }
+      ],
+      "result": "supported",
+      "value_levels": [
+        "number"
+      ],
+      "sources": [
+        {
+          "source_id": "marbella:kaynak:293",
+          "url": "https://www.sspa.juntadeandalucia.es/servicioandaluzdesalud/ciudadania/citas-en-centros-de-atencion-primaria",
+          "homepage": false,
+          "snapshot_id": "5c911b8c9645908549cbc191b9fe5a5270766c6bdee1baccb609435e0368fc6c.txt",
+          "chars": 34822,
+          "snapshot_state": "ok"
+        }
+      ],
+      "evidence": [
+        {
+          "value_index": 0,
+          "source_id": "marbella:kaynak:293",
+          "url": "https://www.sspa.juntadeandalucia.es/servicioandaluzdesalud/ciudadania/citas-en-centros-de-atencion-primaria",
+          "snapshot_id": "5c911b8c9645908549cbc191b9fe5a5270766c6bdee1baccb609435e0368fc6c.txt",
+          "level": "number",
+          "snippet": "…eléfono Llamando a Salud Responde, centro de atención telefónica disponible las 24 horas del día, de lunes a domingo, los 365 días del año. Teléfono: 955 54 50 60…",
+          "fetched_at": "2026-10-28"
+        }
+      ],
+      "uncertainty": "kaynakların 1/1 tanesi tam metinle denetlendi; yalnız tutarlılık; doğruluk/güncellik/statü ayrıca doğrulanmalı",
+      "claim_record": {
+        "claim_id": "marbella:term:029:#1",
+        "entry_id": "marbella:term:029",
+        "Excel_satırı": "Sözlük!36",
+        "iddia": "telefonla 24 saat ulaşılır ve aynı adlı uygulamayla da randevu alınır.",
+        "ülke_şehir_statü": null,
+        "dönem": null,
+        "resmî_URL": [
+          "https://www.sspa.juntadeandalucia.es/servicioandaluzdesalud/ciudadania/citas-en-centros-de-atencion-primaria"
+        ],
+        "kaynak_bölümü": "…eléfono Llamando a Salud Responde, centro de atención telefónica disponible las 24 horas del día, de lunes a domingo, los 365 días del año. Teléfono: 955 54 50 60…",
+        "yayın_yürürlük_tarihleri": null,
+        "kontrol_tarihi": "2026-10-28",
+        "hesap_varsa_girdiler": null,
+        "sonuç": "supported",
+        "belirsizlik": "kaynakların 1/1 tanesi tam metinle denetlendi; yalnız tutarlılık; doğruluk/güncellik/statü ayrıca doğrulanmalı"
+      }
+    },
+    {
+      "claim_id": "marbella:term:037:#1",
+      "entry_id": "marbella:term:037",
+      "sheet": "Sözlük",
+      "_row": 44,
+      "field": "definition",
+      "kind": "age",
+      "text": "0-3 yaş",
+      "sentence": "Eğitimin ilk döngüsü olan 0-3 yaş kreşleri;",
+      "values": [
+        {
+          "kind": "age",
+          "value": 0
+        },
+        {
+          "kind": "age",
+          "value": 3
+        }
+      ],
+      "result": "supported",
+      "value_levels": [
+        "number",
+        "number"
+      ],
+      "sources": [
+        {
+          "source_id": "marbella:kaynak:171",
+          "url": "https://www.juntadeandalucia.es/educacion/portales/web/escolarizacion/0-a-3-anos",
+          "homepage": false,
+          "snapshot_id": "ab29d4c8d3ad0bd95b88e0f0085e392e1c73efa85f6c71b917e5e5eb49db4e32.txt",
+          "chars": 3853,
+          "snapshot_state": "ok"
+        }
+      ],
+      "evidence": [
+        {
+          "value_index": 0,
+          "source_id": "marbella:kaynak:171",
+          "url": "https://www.juntadeandalucia.es/educacion/portales/web/escolarizacion/0-a-3-anos",
+          "snapshot_id": "ab29d4c8d3ad0bd95b88e0f0085e392e1c73efa85f6c71b917e5e5eb49db4e32.txt",
+          "level": "number",
+          "snippet": "…nfantil adheridos al Programa de ayuda a las familias para los niños y niñas de 0 a 3 años para el curso 2026/27. Este proceso se divide en: Procedimiento de res…",
+          "fetched_at": "2026-10-28"
+        },
+        {
+          "value_index": 1,
+          "source_id": "marbella:kaynak:171",
+          "url": "https://www.juntadeandalucia.es/educacion/portales/web/escolarizacion/0-a-3-anos",
+          "snapshot_id": "ab29d4c8d3ad0bd95b88e0f0085e392e1c73efa85f6c71b917e5e5eb49db4e32.txt",
+          "level": "number",
+          "snippet": "…til adheridos al Programa de ayuda a las familias para los niños y niñas de 0 a 3 años para el curso 2026/27. Este proceso se divide en: Procedimiento de reserva…",
+          "fetched_at": "2026-10-28"
+        }
+      ],
+      "uncertainty": "kaynakların 1/1 tanesi tam metinle denetlendi; yalnız tutarlılık; doğruluk/güncellik/statü ayrıca doğrulanmalı",
+      "claim_record": {
+        "claim_id": "marbella:term:037:#1",
+        "entry_id": "marbella:term:037",
+        "Excel_satırı": "Sözlük!44",
+        "iddia": "Eğitimin ilk döngüsü olan 0-3 yaş kreşleri;",
+        "ülke_şehir_statü": null,
+        "dönem": null,
+        "resmî_URL": [
+          "https://www.juntadeandalucia.es/educacion/portales/web/escolarizacion/0-a-3-anos"
+        ],
+        "kaynak_bölümü": "…nfantil adheridos al Programa de ayuda a las familias para los niños y niñas de 0 a 3 años para el curso 2026/27. Este proceso se divide en: Procedimiento de res…",
+        "yayın_yürürlük_tarihleri": null,
+        "kontrol_tarihi": "2026-10-28",
+        "hesap_varsa_girdiler": null,
+        "sonuç": "supported",
+        "belirsizlik": "kaynakların 1/1 tanesi tam metinle denetlendi; yalnız tutarlılık; doğruluk/güncellik/statü ayrıca doğrulanmalı"
+      }
+    },
+    {
+      "claim_id": "marbella:term:038:#1",
+      "entry_id": "marbella:term:038",
+      "sheet": "Sözlük",
+      "_row": 45,
+      "field": "definition",
+      "kind": "age",
+      "text": "0-3 yaş",
+      "sentence": "0-3 yaş çocuklar için kreş ücretini destekleyen Endülüs programı;",
+      "values": [
+        {
+          "kind": "age",
+          "value": 0
+        },
+        {
+          "kind": "age",
+          "value": 3
+        }
+      ],
+      "result": "supported",
+      "value_levels": [
+        "number",
+        "number"
+      ],
+      "sources": [
+        {
+          "source_id": "marbella:kaynak:171",
+          "url": "https://www.juntadeandalucia.es/educacion/portales/web/escolarizacion/0-a-3-anos",
+          "homepage": false,
+          "snapshot_id": "ab29d4c8d3ad0bd95b88e0f0085e392e1c73efa85f6c71b917e5e5eb49db4e32.txt",
+          "chars": 3853,
+          "snapshot_state": "ok"
+        }
+      ],
+      "evidence": [
+        {
+          "value_index": 0,
+          "source_id": "marbella:kaynak:171",
+          "url": "https://www.juntadeandalucia.es/educacion/portales/web/escolarizacion/0-a-3-anos",
+          "snapshot_id": "ab29d4c8d3ad0bd95b88e0f0085e392e1c73efa85f6c71b917e5e5eb49db4e32.txt",
+          "level": "number",
+          "snippet": "…nfantil adheridos al Programa de ayuda a las familias para los niños y niñas de 0 a 3 años para el curso 2026/27. Este proceso se divide en: Procedimiento de res…",
+          "fetched_at": "2026-10-28"
+        },
+        {
+          "value_index": 1,
+          "source_id": "marbella:kaynak:171",
+          "url": "https://www.juntadeandalucia.es/educacion/portales/web/escolarizacion/0-a-3-anos",
+          "snapshot_id": "ab29d4c8d3ad0bd95b88e0f0085e392e1c73efa85f6c71b917e5e5eb49db4e32.txt",
+          "level": "number",
+          "snippet": "…til adheridos al Programa de ayuda a las familias para los niños y niñas de 0 a 3 años para el curso 2026/27. Este proceso se divide en: Procedimiento de reserva…",
+          "fetched_at": "2026-10-28"
+        }
+      ],
+      "uncertainty": "kaynakların 1/1 tanesi tam metinle denetlendi; yalnız tutarlılık; doğruluk/güncellik/statü ayrıca doğrulanmalı",
+      "claim_record": {
+        "claim_id": "marbella:term:038:#1",
+        "entry_id": "marbella:term:038",
+        "Excel_satırı": "Sözlük!45",
+        "iddia": "0-3 yaş çocuklar için kreş ücretini destekleyen Endülüs programı;",
+        "ülke_şehir_statü": null,
+        "dönem": null,
+        "resmî_URL": [
+          "https://www.juntadeandalucia.es/educacion/portales/web/escolarizacion/0-a-3-anos"
+        ],
+        "kaynak_bölümü": "…nfantil adheridos al Programa de ayuda a las familias para los niños y niñas de 0 a 3 años para el curso 2026/27. Este proceso se divide en: Procedimiento de res…",
+        "yayın_yürürlük_tarihleri": null,
+        "kontrol_tarihi": "2026-10-28",
+        "hesap_varsa_girdiler": null,
+        "sonuç": "supported",
+        "belirsizlik": "kaynakların 1/1 tanesi tam metinle denetlendi; yalnız tutarlılık; doğruluk/güncellik/statü ayrıca doğrulanmalı"
+      }
+    },
+    {
+      "claim_id": "marbella:term:044:#1",
+      "entry_id": "marbella:term:044",
+      "sheet": "Sözlük",
+      "_row": 51,
+      "field": "definition",
+      "kind": "time",
+      "text": "09:00",
+      "sentence": "Arias de Velasco 15'te, hafta içi 09:00-13:00 açık.",
+      "values": [
+        {
+          "kind": "time",
+          "value": "09:00"
+        }
+      ],
+      "result": "supported",
+      "value_levels": [
+        "unit"
+      ],
+      "sources": [
+        {
+          "source_id": "marbella:kaynak:179",
+          "url": "https://extranjeros.marbella.es/informacion/direcciones-de-interes/oficina-registro-civil",
+          "homepage": false,
+          "snapshot_id": "302f2fd40603fa5339dea3f57c2c13705bfc4225b0f12ed9dc0461a98454f295.txt",
+          "chars": 586,
+          "snapshot_state": "ok"
+        }
+      ],
+      "evidence": [
+        {
+          "value_index": 0,
+          "source_id": "marbella:kaynak:179",
+          "url": "https://extranjeros.marbella.es/informacion/direcciones-de-interes/oficina-registro-civil",
+          "snapshot_id": "302f2fd40603fa5339dea3f57c2c13705bfc4225b0f12ed9dc0461a98454f295.txt",
+          "level": "unit",
+          "snippet": "…4.88255336231772 Av. Arias de Velasco, 15, 29601 Marbella 951 914 357 De L-V de 09:00-13:00 Visto: 3346",
+          "fetched_at": "2026-10-28"
+        }
+      ],
+      "uncertainty": "kaynakların 1/1 tanesi tam metinle denetlendi; yalnız tutarlılık; doğruluk/güncellik/statü ayrıca doğrulanmalı",
+      "claim_record": {
+        "claim_id": "marbella:term:044:#1",
+        "entry_id": "marbella:term:044",
+        "Excel_satırı": "Sözlük!51",
+        "iddia": "Arias de Velasco 15'te, hafta içi 09:00-13:00 açık.",
+        "ülke_şehir_statü": null,
+        "dönem": null,
+        "resmî_URL": [
+          "https://extranjeros.marbella.es/informacion/direcciones-de-interes/oficina-registro-civil"
+        ],
+        "kaynak_bölümü": "…4.88255336231772 Av. Arias de Velasco, 15, 29601 Marbella 951 914 357 De L-V de 09:00-13:00 Visto: 3346",
+        "yayın_yürürlük_tarihleri": null,
+        "kontrol_tarihi": "2026-10-28",
+        "hesap_varsa_girdiler": null,
+        "sonuç": "supported",
+        "belirsizlik": "kaynakların 1/1 tanesi tam metinle denetlendi; yalnız tutarlılık; doğruluk/güncellik/statü ayrıca doğrulanmalı"
+      }
+    },
+    {
+      "claim_id": "marbella:term:044:#2",
+      "entry_id": "marbella:term:044",
+      "sheet": "Sözlük",
+      "_row": 51,
+      "field": "definition",
+      "kind": "time",
+      "text": "13:00",
+      "sentence": "Arias de Velasco 15'te, hafta içi 09:00-13:00 açık.",
+      "values": [
+        {
+          "kind": "time",
+          "value": "13:00"
+        }
+      ],
+      "result": "supported",
+      "value_levels": [
+        "unit"
+      ],
+      "sources": [
+        {
+          "source_id": "marbella:kaynak:179",
+          "url": "https://extranjeros.marbella.es/informacion/direcciones-de-interes/oficina-registro-civil",
+          "homepage": false,
+          "snapshot_id": "302f2fd40603fa5339dea3f57c2c13705bfc4225b0f12ed9dc0461a98454f295.txt",
+          "chars": 586,
+          "snapshot_state": "ok"
+        }
+      ],
+      "evidence": [
+        {
+          "value_index": 0,
+          "source_id": "marbella:kaynak:179",
+          "url": "https://extranjeros.marbella.es/informacion/direcciones-de-interes/oficina-registro-civil",
+          "snapshot_id": "302f2fd40603fa5339dea3f57c2c13705bfc4225b0f12ed9dc0461a98454f295.txt",
+          "level": "unit",
+          "snippet": "…5336231772 Av. Arias de Velasco, 15, 29601 Marbella 951 914 357 De L-V de 09:00-13:00 Visto: 3346",
+          "fetched_at": "2026-10-28"
+        }
+      ],
+      "uncertainty": "kaynakların 1/1 tanesi tam metinle denetlendi; yalnız tutarlılık; doğruluk/güncellik/statü ayrıca doğrulanmalı",
+      "claim_record": {
+        "claim_id": "marbella:term:044:#2",
+        "entry_id": "marbella:term:044",
+        "Excel_satırı": "Sözlük!51",
+        "iddia": "Arias de Velasco 15'te, hafta içi 09:00-13:00 açık.",
+        "ülke_şehir_statü": null,
+        "dönem": null,
+        "resmî_URL": [
+          "https://extranjeros.marbella.es/informacion/direcciones-de-interes/oficina-registro-civil"
+        ],
+        "kaynak_bölümü": "…5336231772 Av. Arias de Velasco, 15, 29601 Marbella 951 914 357 De L-V de 09:00-13:00 Visto: 3346",
+        "yayın_yürürlük_tarihleri": null,
+        "kontrol_tarihi": "2026-10-28",
+        "hesap_varsa_girdiler": null,
+        "sonuç": "supported",
+        "belirsizlik": "kaynakların 1/1 tanesi tam metinle denetlendi; yalnız tutarlılık; doğruluk/güncellik/statü ayrıca doğrulanmalı"
+      }
+    },
+    {
+      "claim_id": "marbella:term:058:#1",
+      "entry_id": "marbella:term:058",
+      "sheet": "Sözlük",
+      "_row": 65,
+      "field": "definition",
+      "kind": "date",
+      "text": "22 Haziran 2026",
+      "sentence": "2026 başvuru dönemi 22 Haziran 2026'da 15.000 başvuruya ulaşılınca kapandı.",
+      "values": [
+        {
+          "kind": "date",
+          "day": 22,
+          "month": 6,
+          "year": 2026
+        }
+      ],
+      "result": "not_in_source",
+      "value_levels": [
+        null
+      ],
+      "sources": [
+        {
+          "source_id": "marbella:kaynak:221",
+          "url": "https://www.juntadeandalucia.es/organismos/viviendajuventudyordenaciondelterritorio/areas/vivienda-rehabilitacion/fomento-alquiler/bono-alquiler-joven/paginas/convocatoria-2025.html",
+          "homepage": false,
+          "snapshot_id": "8916c067979dd980341df4b2f6c8bd6cc9ee2d1cf4142b94914359a7eb43d1d6.txt",
+          "chars": 13050,
+          "snapshot_state": "ok"
+        }
+      ],
+      "evidence": [],
+      "uncertainty": "kaynakların 1/1 tanesi tam metinle denetlendi",
+      "claim_record": {
+        "claim_id": "marbella:term:058:#1",
+        "entry_id": "marbella:term:058",
+        "Excel_satırı": "Sözlük!65",
+        "iddia": "2026 başvuru dönemi 22 Haziran 2026'da 15.000 başvuruya ulaşılınca kapandı.",
+        "ülke_şehir_statü": null,
+        "dönem": null,
+        "resmî_URL": [
+          "https://www.juntadeandalucia.es/organismos/viviendajuventudyordenaciondelterritorio/areas/vivienda-rehabilitacion/fomento-alquiler/bono-alquiler-joven/paginas/convocatoria-2025.html"
+        ],
+        "kaynak_bölümü": null,
+        "yayın_yürürlük_tarihleri": null,
+        "kontrol_tarihi": "2026-10-28",
+        "hesap_varsa_girdiler": null,
+        "sonuç": "not_in_source",
+        "belirsizlik": "kaynakların 1/1 tanesi tam metinle denetlendi"
       }
     }
   ]
