@@ -1,0 +1,44 @@
+{
+  "summary": {
+    "rows_written": {
+      "Bağlantılar": 242,
+      "Kaynaklar": 191,
+      "Konular": 12,
+      "Yanıtlar": 143
+    },
+    "rejected": 0,
+    "deduped": 0,
+    "defaults_applied": 0,
+    "fidelity": "ok",
+    "fidelity_accepted": [
+      "zip part removed by openpyxl: xl/sharedStrings.xml",
+      "zip part added by openpyxl: docProps/app.xml",
+      "zip part added by openpyxl: docProps/core.xml"
+    ],
+    "out": "/home/user/corteqscities/uretim/marbella/_is/ara/ara.xlsx"
+  },
+  "files": {
+    "Bağlantılar": "Bağlantılar.jsonl",
+    "Kaynaklar": "Kaynaklar.jsonl",
+    "Konular": "Konular.jsonl",
+    "Yanıtlar": "Yanıtlar.jsonl"
+  },
+  "capacities": {
+    "Bağlantılar": 800,
+    "Kaynaklar": 500,
+    "Konular": 30,
+    "Yanıtlar": 300
+  },
+  "schema_source": "/home/user/corteqscities/araclar/arac/core/content_delivery/schema_definition.py",
+  "rejected": [],
+  "deduped": [],
+  "rows_planned": {
+    "Bağlantılar": 242,
+    "Kaynaklar": 191,
+    "Konular": 12,
+    "Yanıtlar": 143
+  },
+  "exit_code": 0,
+  "partial": true,
+  "elapsed_s": 2.05
+}
