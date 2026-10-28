@@ -21,7 +21,7 @@
   "path": "/home/user/corteqscities/uretim/marbella/_is/ulke_paketi",
   "valid_until": "2026-11-05"
  },
- "phase": "sources",
+ "phase": "answers",
  "phases": {
   "intake": {
    "status": "done",
@@ -97,8 +97,63 @@
    "ended_at": "2026-10-28T09:02:41Z"
   },
   "sources": {
+   "status": "done",
+   "started_at": "2026-10-28T09:03:08Z",
+   "gates": [
+    {
+     "script": "add_sources",
+     "exit_code": 1,
+     "summary": {
+      "per_topic": {
+       "planlama": 14,
+       "oturum": 16,
+       "resmi": 15,
+       "ev": 16,
+       "fatura": 17,
+       "para": 12,
+       "saglik": 13,
+       "is": 12,
+       "aile": 14,
+       "ulasim": 12,
+       "gunluk": 15,
+       "kesif": 17
+      },
+      "min": 12,
+      "kaynak_dizini": 286,
+      "ulke_paketi_kaynak": 147,
+      "rejected": {
+       "saglik": 3,
+       "is": 1,
+       "ev": 1,
+       "para": 1,
+       "ulasim": 4,
+       "gunluk": 1
+      }
+     },
+     "report": "/home/user/corteqscities/uretim/marbella/_is/kaynak_dizini.jsonl",
+     "at": "2026-10-28T09:21:41Z"
+    }
+   ],
+   "outputs": [
+    "/home/user/corteqscities/uretim/marbella/_is/yazar/planlama_kaynaklar.jsonl",
+    "/home/user/corteqscities/uretim/marbella/_is/yazar/oturum_kaynaklar.jsonl",
+    "/home/user/corteqscities/uretim/marbella/_is/yazar/resmi_kaynaklar.jsonl",
+    "/home/user/corteqscities/uretim/marbella/_is/yazar/ev_kaynaklar.jsonl",
+    "/home/user/corteqscities/uretim/marbella/_is/yazar/fatura_kaynaklar.jsonl",
+    "/home/user/corteqscities/uretim/marbella/_is/yazar/para_kaynaklar.jsonl",
+    "/home/user/corteqscities/uretim/marbella/_is/yazar/saglik_kaynaklar.jsonl",
+    "/home/user/corteqscities/uretim/marbella/_is/yazar/is_kaynaklar.jsonl",
+    "/home/user/corteqscities/uretim/marbella/_is/yazar/aile_kaynaklar.jsonl",
+    "/home/user/corteqscities/uretim/marbella/_is/yazar/ulasim_kaynaklar.jsonl",
+    "/home/user/corteqscities/uretim/marbella/_is/yazar/gunluk_kaynaklar.jsonl",
+    "/home/user/corteqscities/uretim/marbella/_is/yazar/kesif_kaynaklar.jsonl",
+    "/home/user/corteqscities/uretim/marbella/_is/kesif/gaps.json"
+   ],
+   "ended_at": "2026-10-28T09:21:41Z"
+  },
+  "answers": {
    "status": "running",
-   "started_at": "2026-10-28T09:04:00Z",
+   "started_at": "2026-10-28T09:21:41Z",
    "gates": [],
    "outputs": []
   }
@@ -131,9 +186,16 @@
    "text": "Erken ölçüm (kural 15, faz 5): Marbella Wikidata mekân havuzu küçük — 179 aday, 103'ünde fotoğraf (Málaga 2.114). Mekân asgarisi 92 / hedef 120 ve foto asgarisi 187 zorlanabilir; seçimde yakın çevre gezisi payı (≤20) ve resmî sitelerden tamamlama gerekebilir.",
    "evidence": "/home/user/corteqscities/uretim/marbella/_is/mekan/wikidata_aday.jsonl",
    "owner": "ai"
+  },
+  {
+   "id": "OI-005",
+   "priority": "P2",
+   "text": "Erişim/araç: hcs.es (Hospital Costa del Sol) sayfaları gzip baytı olarak kaydedildi, kanıt aranamadı (2 sayfa reddedildi); hastane bilgisi SAS merkez sayfalarından. ayuntamiento.marbella.es ordenanza PDF'leri ince/taranmış (5 red). Junta 2 sayfa 504/zaman aşımı.",
+   "evidence": "/home/user/corteqscities/uretim/marbella/_is/snap_kesif_saglik/eklenen.json",
+   "owner": "ai"
   }
  ],
- "sources_researched": 0,
+ "sources_researched": 286,
  "photos_downloaded": 0,
- "next_step": "sources: 4 keşif ajanı (3'er konu)"
+ "next_step": "answers: 12 konu yazarı (en çok 5 eşzamanlı)"
 }
