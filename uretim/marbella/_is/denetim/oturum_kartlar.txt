@@ -1,0 +1,893 @@
+===== KART 1/6: marbella:marbella-nie-tie-polis-ofisi-randevu =====
+{
+ "entry_id": "marbella:marbella-nie-tie-polis-ofisi-randevu",
+ "city_id": "marbella",
+ "slug": "marbella-nie-tie-polis-ofisi-randevu",
+ "title": "Marbella'da NIE ve TIE parmak izi için hangi ofise gidilir, randevu nasıl alınır?",
+ "subtitle": "Randevuyu polis sedesinde 'Cuerpo de Policía Nacional' seçeneğiyle alırsın",
+ "summary": "Marbella'da NIE ataması ve TIE işlemleri Polis Genel Müdürlüğü'ne (Cuerpo Nacional de Policía) bağlı karakolda görülür. Polis sedesi, NIE ataması ve TIE çıkarma işlemlerini Marbella Karakolu'nun (Comisaría de Marbella, Avda. Arias de Velasco 25, tel. 952 867 241) işleri arasında sayar. Randevuyu sedede 'Trámites Cuerpo de Policía Nacional' seçeneğiyle alırsın; 'Trámites en Oficina de Extranjería' seçeneği Málaga'daki ofis içindir. Belediyenin yabancılar sitesi ise Oficina Extranjería CNP'yi Avda. Duque de Lerma / Edif. España Local 2 adresinde gösteriyor (hafta içi 09:00-14:00, tel. 952 820 561).",
+ "keywords": "NIE, TIE, toma de huella, cita previa, Comisaría de Marbella, parmak izi randevusu, Cuerpo Nacional de Policía",
+ "stages": "planning;new",
+ "source_ids": "marbella:kaynak:203;marbella:kaynak:189",
+ "reviewed_on": "2026-10-28",
+ "order": 200,
+ "featured": "Evet",
+ "editorial_status": "Taslak",
+ "topic_id": "marbella:oturum",
+ "steps": "Polis sedesinde cita previa (ön randevu) ekranında 'Trámites Cuerpo de Policía Nacional' seçeneğini seç; Marbella'daki NIE ve TIE işlemleri bu gruptadır.\nNIE için EX-15 formunu doldur ve NIE'ye neden ihtiyacın olduğunu gösteren belgeyi (banka ya da idari form gibi) hazırla.\nTIE için önce 'toma de huella (expedición de tarjeta)' yani parmak izi randevusu al.\nParmak izi işlemi bitince 'recogida de tarjeta de identidad de extranjero (TIE)' yani kart teslimi için ayrı bir randevu daha al.\nBaşvuruyu evine en yakın polis ofisinde, mümkünse kendin yap.",
+ "documents": "EX-15 formu (NIE için)\nPasaport ya da ülkendeki geçerli kimlik belgesi (aslı ve bir fotokopisi)\nNIE'ye neden ihtiyacın olduğunu gösteren belge (ör. banka ya da idari form)",
+ "timing": "NIE sertifikası, başvurudan sonra yaklaşık iki hafta içinde elden teslim edilir.",
+ "cost": "",
+ "note": "Polis sedesi ile belediye sitesi Marbella ofisi için farklı adres veriyor; gitmeden önce 952 867 241 ya da 952 820 561 numarasını arayıp işlemin hangi adreste yapıldığını sor.",
+ "visual_json": "",
+ "_sekme": "Yanıtlar",
+ "kaynaklar": [
+  {
+   "source_id": "marbella:kaynak:203",
+   "url": "https://extranjeros.marbella.es/informacion/extranjeria",
+   "publisher": "Ayuntamiento de Marbella",
+   "text_file": "/home/user/corteqscities/uretim/marbella/_is/snap_kesif_oturum/e818b10a07cc745745cd43d32521b005fdfbe9fa3bd060693c2c3047fa3f38c3.txt"
+  },
+  {
+   "source_id": "marbella:kaynak:189",
+   "url": "https://sede.policia.gob.es/portalCiudadano/_es/dependencias_localizador_accesible.php",
+   "publisher": "Policía Nacional - Sede Electrónica",
+   "text_file": "/home/user/corteqscities/uretim/marbella/_is/snap_kesif_planlama/34bc5281c113491e28586ac8b9957e642d80aa90f3382e483b5c681a3ecbd671.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-marbella-nie-tie-polis-ofisi-randevu-1",
+   "field": "summary",
+   "claim": "Polis sedesinde Marbella Karakolu adresi ve telefonu",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:189",
+   "quote": "Comisaría de Marbella Dirección Avda. Arias de Velasco n.º 25 Teléfono 952867241"
+  },
+  {
+   "claim_id": "C-marbella-nie-tie-polis-ofisi-randevu-2",
+   "field": "summary",
+   "claim": "Marbella Karakolu NIE ataması ve TIE çıkarma işlemleri yapar",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:189",
+   "quote": "Fax 951519130 Trámites Certificados y asignación de NIE Cartas de Invitación Expedición TIE Régimen Comunitario"
+  },
+  {
+   "claim_id": "C-marbella-nie-tie-polis-ofisi-randevu-3",
+   "field": "summary",
+   "claim": "Randevu ekranında iki seçenek var",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:203",
+   "quote": "aparecen dos opciones para obtener la misma: Trámites en Oficina de Extranjería y Trámites Cuerpo de Policía Nacional"
+  },
+  {
+   "claim_id": "C-marbella-nie-tie-polis-ofisi-randevu-4",
+   "field": "summary",
+   "claim": "Polis trámites il karakollarında, birinci seçenek Málaga'daki ofiste",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:203",
+   "quote": "los trámites del Cuerpo de Policía Nacional se llevan a cabo en las comisarías de policía de los municipios de la provincia de Málaga"
+  },
+  {
+   "claim_id": "C-marbella-nie-tie-polis-ofisi-randevu-5",
+   "field": "summary",
+   "claim": "Belediye sitesi Oficina Extranjería CNP adresi, saati, telefonu",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:203",
+   "quote": "Oficina de Extranjería - CNP Avda. Duque de Lerma / Edif. España Local 2 - 29601 Marbella De lunes a viernes de 09:00 a 14:00 horas +34 952 820 561"
+  },
+  {
+   "claim_id": "C-marbella-nie-tie-polis-ofisi-randevu-6",
+   "field": "steps",
+   "claim": "TIE için önce parmak izi randevusu",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:203",
+   "quote": "Para la obtención del TIE debes solicitar cita previa en"
+  },
+  {
+   "claim_id": "C-marbella-nie-tie-polis-ofisi-randevu-7",
+   "field": "steps",
+   "claim": "İşlem bitince kart teslimi için ayrı randevu",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:203",
+   "quote": "Una vez finalizado, debes solicitar cita previa en"
+  },
+  {
+   "claim_id": "C-marbella-nie-tie-polis-ofisi-randevu-8",
+   "field": "steps",
+   "claim": "NIE başvurusu evine en yakın polis ofisinde",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:203",
+   "quote": "debe hacerlo en la oficina de policía más cercana a su hogar"
+  },
+  {
+   "claim_id": "C-marbella-nie-tie-polis-ofisi-randevu-9",
+   "field": "steps",
+   "claim": "EX-15 formu doldurulur",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:203",
+   "quote": "Tendrá que completar el formulario EX-15"
+  },
+  {
+   "claim_id": "C-marbella-nie-tie-polis-ofisi-randevu-10",
+   "field": "steps",
+   "claim": "Kişisel başvuru önerilir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:203",
+   "quote": "es mejor presentar la solicitud personalmente"
+  },
+  {
+   "claim_id": "C-marbella-nie-tie-polis-ofisi-randevu-11",
+   "field": "documents",
+   "claim": "Pasaport ya da ülkedeki kimlik belgesi",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:203",
+   "quote": "Pasaporte, documento nacional de identidad vigente en su país."
+  },
+  {
+   "claim_id": "C-marbella-nie-tie-polis-ofisi-randevu-12",
+   "field": "documents",
+   "claim": "Aslı ve bir kopya istenir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:203",
+   "quote": "El original y una copia de la siguiente documentación se deben proporcionar con el formulario"
+  },
+  {
+   "claim_id": "C-marbella-nie-tie-polis-ofisi-randevu-13",
+   "field": "documents",
+   "claim": "NIE ihtiyacını gösteren belge",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:203",
+   "quote": "Documentación que certifique la necesidad de obtener el NIE (formulario administrativo, formulario bancario, etc.)."
+  },
+  {
+   "claim_id": "C-marbella-nie-tie-polis-ofisi-randevu-14",
+   "field": "timing",
+   "claim": "NIE sertifikası yaklaşık iki hafta içinde teslim",
+   "value": "2",
+   "unit": "hafta",
+   "period": "",
+   "source_id": "marbella:kaynak:203",
+   "quote": "el certificado será entregado al interesado en persona en el plazo aproximado de dos semanas"
+  },
+  {
+   "claim_id": "C-marbella-nie-tie-polis-ofisi-randevu-15",
+   "field": "note",
+   "claim": "Belediye sitesi telefonları",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:203",
+   "quote": "+34 952 820 561 +34 952 865 793"
+  }
+ ],
+ "adimlar": [],
+ "butonlar": [
+  {
+   "action_id": "marbella:action:marbella-nie-tie-polis-ofisi-randevu-1",
+   "label": "Başvur",
+   "url": "https://sede.policia.gob.es/portalCiudadano/_es/tramites_extranjeria_tramite_tarjeta_residencia_residenciaytrabajo.php"
+  },
+  {
+   "action_id": "marbella:action:marbella-nie-tie-polis-ofisi-randevu-2",
+   "label": "Bilgi al",
+   "url": "https://extranjeros.marbella.es/informacion/extranjeria"
+  }
+ ]
+}
+
+===== KART 2/6: marbella:malaga-yenileme-marbella-polis-ayrimi =====
+{
+ "entry_id": "marbella:malaga-yenileme-marbella-polis-ayrimi",
+ "city_id": "marbella",
+ "slug": "malaga-yenileme-marbella-polis-ayrimi",
+ "title": "Oturum belgesi yenilemesi için Marbella'dan Málaga'ya gitmek gerekir mi?",
+ "subtitle": "Kısa süreli belgelerde her yenileme, uzun süreli belgelerde ilk yenileme Málaga'da",
+ "summary": "Evet, bazı yenilemeler için Málaga'ya gitmen gerekir. Marbella Belediyesi'nin yabancılar sitesine göre kısa süreli kalış belgeleri iki yıl geçerlidir ve bütün yenilemeleri Málaga'da yapılır; uzun süreli kalış belgeleri beş yıl geçerlidir ve ilk yenileme Málaga'da yapılır. Polis sedesinde Málaga'daki Brigada Provincial de Extranjería y Fronteras (Pl. Manuel Azaña 3, tel. 952 046 468) kalış uzatması, öğrenci ve çalışmasız oturum (no lucrativa) gibi işlemleri listeler. NIE ataması ve TIE çıkarma ise Marbella Karakolu'nda görülür.",
+ "keywords": "Málaga, Oficina de Extranjería, oturum yenileme, Brigada Provincial de Extranjería, prórroga de estancia, residencia no lucrativa",
+ "stages": "new;settled",
+ "source_ids": "marbella:kaynak:203;marbella:kaynak:189",
+ "reviewed_on": "2026-10-28",
+ "order": 201,
+ "featured": "Hayır",
+ "editorial_status": "Taslak",
+ "topic_id": "marbella:oturum",
+ "steps": "Belgenin türüne bak: kısa süreli kalış belgesi iki, uzun süreli kalış belgesi beş yıl geçerlidir.\nKısa süreli belgede her yenileme için, uzun süreli belgede ilk yenileme için Málaga'daki birime başvuracağını bil.\nRandevu ekranında 'Trámites en Oficina de Extranjería' seçeneğini seç; bu grup Málaga'daki ofis içindir.\nKalış uzatması, öğrenci ya da çalışmasız oturum işleri için Málaga'daki Brigada Provincial de Extranjería y Fronteras'ın telefonunu ara: 952 046 468.",
+ "documents": "",
+ "timing": "",
+ "cost": "",
+ "note": "NIE ve TIE parmak izi gibi işlemler için Málaga'ya gitmen gerekmez; bunlar Marbella Karakolu'nun işleri arasında sayılıyor.",
+ "visual_json": "",
+ "_sekme": "Yanıtlar",
+ "kaynaklar": [
+  {
+   "source_id": "marbella:kaynak:203",
+   "url": "https://extranjeros.marbella.es/informacion/extranjeria",
+   "publisher": "Ayuntamiento de Marbella",
+   "text_file": "/home/user/corteqscities/uretim/marbella/_is/snap_kesif_oturum/e818b10a07cc745745cd43d32521b005fdfbe9fa3bd060693c2c3047fa3f38c3.txt"
+  },
+  {
+   "source_id": "marbella:kaynak:189",
+   "url": "https://sede.policia.gob.es/portalCiudadano/_es/dependencias_localizador_accesible.php",
+   "publisher": "Policía Nacional - Sede Electrónica",
+   "text_file": "/home/user/corteqscities/uretim/marbella/_is/snap_kesif_planlama/34bc5281c113491e28586ac8b9957e642d80aa90f3382e483b5c681a3ecbd671.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-malaga-yenileme-marbella-polis-ayrimi-1",
+   "field": "summary",
+   "claim": "Kısa süreli belgeler iki yıl geçerli, bütün yenilemeler Málaga'da",
+   "value": "2",
+   "unit": "yıl",
+   "period": "",
+   "source_id": "marbella:kaynak:203",
+   "quote": "Las estancias de corta duración tienen una vigencia de dos años y todas las renovaciones deben tramitarse en Málaga."
+  },
+  {
+   "claim_id": "C-malaga-yenileme-marbella-polis-ayrimi-2",
+   "field": "summary",
+   "claim": "Uzun süreli belgeler beş yıl geçerli, ilk yenileme Málaga'da",
+   "value": "5",
+   "unit": "yıl",
+   "period": "",
+   "source_id": "marbella:kaynak:203",
+   "quote": "Las estancias de larga duración tienen una vigencia de cinco años y la primera renovación debe tramitarse en Málaga."
+  },
+  {
+   "claim_id": "C-malaga-yenileme-marbella-polis-ayrimi-3",
+   "field": "summary",
+   "claim": "Birinci seçenek Málaga'daki Oficina de Extranjería işlemleri",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:203",
+   "quote": "los trámites que aparecen en el primer desplegable se realizan en la Oficina de Extranjería de Málaga"
+  },
+  {
+   "claim_id": "C-malaga-yenileme-marbella-polis-ayrimi-4",
+   "field": "summary",
+   "claim": "Málaga Brigada adresi ve telefonu",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:189",
+   "quote": "Brigada Provincial de Extranjería y Fronteras de Málaga Dirección Pl. Manuel Azaña n.º 3 Teléfono 952046468"
+  },
+  {
+   "claim_id": "C-malaga-yenileme-marbella-polis-ayrimi-5",
+   "field": "summary",
+   "claim": "Brigada'nın işlem listesi",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:189",
+   "quote": "Prórrogas de estancia Títulos de Viaje y Cédulas de Inscripción Expedición TIE Régimen Comunitario Autorizaciones de Regreso Estudiantes Residencias No lucrativas"
+  },
+  {
+   "claim_id": "C-malaga-yenileme-marbella-polis-ayrimi-6",
+   "field": "note",
+   "claim": "Marbella Karakolu NIE ve TIE yapar",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:189",
+   "quote": "Fax 951519130 Trámites Certificados y asignación de NIE Cartas de Invitación Expedición TIE Régimen Comunitario"
+  }
+ ],
+ "adimlar": [],
+ "butonlar": [
+  {
+   "action_id": "marbella:action:malaga-yenileme-marbella-polis-ayrimi-1",
+   "label": "Bilgi al",
+   "url": "https://sede.policia.gob.es/portalCiudadano/_es/dependencias_localizador_accesible.php"
+  },
+  {
+   "action_id": "marbella:action:malaga-yenileme-marbella-polis-ayrimi-2",
+   "label": "Randevu al",
+   "url": "https://extranjeros.marbella.es/informacion/extranjeria"
+  }
+ ]
+}
+
+===== KART 3/6: marbella:yabancilar-birimi-extranjeros-residentes =====
+{
+ "entry_id": "marbella:yabancilar-birimi-extranjeros-residentes",
+ "city_id": "marbella",
+ "slug": "yabancilar-birimi-extranjeros-residentes",
+ "title": "Marbella'da yabancılara yardım eden belediye birimi (Extranjeros Residentes) nerede?",
+ "subtitle": "Palacio de Ferias'ta, hafta içi 09:00-14:00; izinleri polis verir",
+ "summary": "Marbella Belediyesi'nin Yabancı Sakinler Birimi (Concejalía de Extranjeros Residentes) Palacio de Ferias y Congresos 'Adolfo Suárez'te, C/ José Meliá 2'dedir; hafta içi 09:00-14:00 açıktır, tel. 952 768 766. Yabancılarla ilgili işlemlerin yetkisi İçişleri Bakanlığı'nda ve polistedir; belediye birimi Marbella'da yaşayan yabancılara bu işlemlerde yardımcı olur, izin vermez. Las Chapas (Calle Pinsapo s/n, tel. 952 768 730 dahili 3209) ve Nueva Andalucía'da (Avda. Miguel de Cervantes 15, tel. 952 761 600 dahili 1603) da aynı saatlerde iki şube vardır.",
+ "keywords": "Extranjeros Residentes, Concejalía, yabancılar birimi, Palacio de Ferias, Marbella belediyesi, Las Chapas, Nueva Andalucía",
+ "stages": "planning;new;settled",
+ "source_ids": "marbella:kaynak:187;marbella:kaynak:203",
+ "reviewed_on": "2026-10-28",
+ "order": 202,
+ "featured": "Evet",
+ "editorial_status": "Taslak",
+ "topic_id": "marbella:oturum",
+ "steps": "Merkez ofise gitmek için Palacio de Ferias y Congresos'a, C/ José Meliá 2'ye git; hafta içi 09:00-14:00 arası açık.\nÖnce aramak istersen 952 768 766 numarasını ara.\nDoğuda yaşıyorsan Las Chapas şubesini (Calle Pinsapo s/n), batıda yaşıyorsan Nueva Andalucía şubesini (Avda. Miguel de Cervantes 15) seç.\nYazılı sormak için belediyenin iletişim sayfasındaki formu doldur.",
+ "documents": "",
+ "timing": "",
+ "cost": "",
+ "note": "Pasaport, NIE, TIE ve yenileme dilekçeleri polis birimlerinde işlenir; belediye birimi bu yolda sana eşlik eder.",
+ "visual_json": "",
+ "_sekme": "Yanıtlar",
+ "kaynaklar": [
+  {
+   "source_id": "marbella:kaynak:187",
+   "url": "https://extranjeros.marbella.es/contacto",
+   "publisher": "Ayuntamiento de Marbella",
+   "text_file": "/home/user/corteqscities/uretim/marbella/_is/snap_kesif_planlama/8065ea490666be4843cee640f7b41a7b81a3e04a18a5d7748ab7a8bace9c5345.txt"
+  },
+  {
+   "source_id": "marbella:kaynak:203",
+   "url": "https://extranjeros.marbella.es/informacion/extranjeria",
+   "publisher": "Ayuntamiento de Marbella",
+   "text_file": "/home/user/corteqscities/uretim/marbella/_is/snap_kesif_oturum/e818b10a07cc745745cd43d32521b005fdfbe9fa3bd060693c2c3047fa3f38c3.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-yabancilar-birimi-extranjeros-residentes-1",
+   "field": "summary",
+   "claim": "Merkez ofis adresi, saati, telefonu",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:187",
+   "quote": "Concejalía de Extranjeros Residentes Palacio de Ferias y Congresos \"Adolfo Suárez\" C/José Meliá 2 - 29601 Marbella De lunes a viernes de 09:00 a 14:00 horas +34 952 768 766"
+  },
+  {
+   "claim_id": "C-yabancilar-birimi-extranjeros-residentes-2",
+   "field": "summary",
+   "claim": "Las Chapas şubesi",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:187",
+   "quote": "Las Chapas - Distrito Este Calle Pinsapo s/n - 29603 Marbella De lunes a viernes de 09:00 a 14:00 horas +34 952 768 730 - Ext. 3209"
+  },
+  {
+   "claim_id": "C-yabancilar-birimi-extranjeros-residentes-3",
+   "field": "summary",
+   "claim": "Nueva Andalucía şubesi",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:187",
+   "quote": "Nueva Andalucía - Distrito Oeste Avda. Miguel de Cervantes 15 - Marbella De lunes a viernes de 09:00 a 14:00 horas +34 952 761 600 Ext. 1603"
+  },
+  {
+   "claim_id": "C-yabancilar-birimi-extranjeros-residentes-4",
+   "field": "summary",
+   "claim": "Yetki Polis'te, belediye yardımcı",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:203",
+   "quote": "El Ministerio del Interior, a través del Cuerpo Nacional de Policía, es quien tiene competencia para llevar a cabo todos los procedimientos y trámites relacionados con Extranjería."
+  },
+  {
+   "claim_id": "C-yabancilar-birimi-extranjeros-residentes-5",
+   "field": "summary",
+   "claim": "Belediye birimi yabancılara yardıma hazır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:203",
+   "quote": "La Concejalía de Extranjeros Residentes está a disposición de los ciudadanos extranjeros que residen en Marbella para asistir en los diferentes procedimientos a llevar a cabo."
+  },
+  {
+   "claim_id": "C-yabancilar-birimi-extranjeros-residentes-6",
+   "field": "steps",
+   "claim": "İletişim formu",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:187",
+   "quote": "cumplimente el formulario o hágalo a través de los teléfonos abajo indicados"
+  }
+ ],
+ "adimlar": [],
+ "butonlar": [
+  {
+   "action_id": "marbella:action:yabancilar-birimi-extranjeros-residentes-1",
+   "label": "Formu doldur",
+   "url": "https://extranjeros.marbella.es/contacto"
+  },
+  {
+   "action_id": "marbella:action:yabancilar-birimi-extranjeros-residentes-2",
+   "label": "Bilgi al",
+   "url": "https://extranjeros.marbella.es/informacion/extranjeria"
+  }
+ ]
+}
+
+===== KART 4/6: marbella:ucretsiz-avukat-justicia-gratuita =====
+{
+ "entry_id": "marbella:ucretsiz-avukat-justicia-gratuita",
+ "city_id": "marbella",
+ "slug": "ucretsiz-avukat-justicia-gratuita",
+ "title": "Marbella'da yabancı olarak ücretsiz avukat desteği (justicia gratuita) için nasıl başvurulur?",
+ "subtitle": "İspanya'daki yabancılar da başvurabilir; gelir sınırı 14.400 euro'dan başlıyor",
+ "summary": "İspanya'da bulunan yabancılar ücretsiz hukuki yardım (asistencia jurídica gratuita) için başvurabilir; standart bir form ve gelirinin yetmediğini gösteren belgeler gerekir. Ailenin yıllık brüt geliri tek kişide 14.400 euro'yu, iki ya da üç kişide 18.000 euro'yu, dört kişiden fazlada 21.600 euro'yu aşmamalıdır. Başvuru, davanın görüleceği mahkemenin bulunduğu yerdeki baro hukuk danışma servisine (SOJ) verilir; dava henüz açılmamışsa oturduğun yerin mahkemesine de verilebilir.",
+ "keywords": "justicia gratuita, asistencia jurídica gratuita, SOJ, ücretsiz avukat, baro, IPREM, Servicio de Orientación Jurídica",
+ "stages": "new;settled",
+ "source_ids": "marbella:kaynak:201;marbella:kaynak:202",
+ "reviewed_on": "2026-10-28",
+ "order": 203,
+ "featured": "Hayır",
+ "editorial_status": "Taslak",
+ "topic_id": "marbella:oturum",
+ "steps": "Standart başvuru formunu (modelo normalizado) Junta'nın başvuru kataloğundan doldur.\nGelirinin yetmediğini gösteren belgeleri forma ekle.\nFormu, davanın görüleceği mahkemenin bulunduğu yerdeki baro hukuk danışma servisine (SOJ) ver; dava açılmamışsa oturduğun yerin mahkemesine verebilirsin.\nHakkın tanınıp tanınmadığına il komisyonu (Comisión de Asistencia Jurídica Gratuita) karar verir.",
+ "documents": "Standart başvuru formu (modelo normalizado)\nEkonomik kaynakların yetersizliğini gösteren belgeler",
+ "timing": "",
+ "cost": "",
+ "note": "Cinsiyet temelli şiddet, terör ve insan ticareti mağdurları ile istismar mağduru çocuk ve engelliler bu davalarda gelir kanıtlamak zorunda değildir.",
+ "visual_json": "",
+ "_sekme": "Yanıtlar",
+ "kaynaklar": [
+  {
+   "source_id": "marbella:kaynak:201",
+   "url": "https://www.juntadeandalucia.es/organismos/justiciaadministracionlocalyfuncionpublica/areas/justicia/gratuita/tramitacion-justicia-gratuita.html",
+   "publisher": "Junta de Andalucía",
+   "text_file": "/home/user/corteqscities/uretim/marbella/_is/snap_kesif_oturum/4fef4809099562f17c7b543c165c0bf9a730fba3e7219e0b030aeb1eada7f3d4.txt"
+  },
+  {
+   "source_id": "marbella:kaynak:202",
+   "url": "https://www.juntadeandalucia.es/organismos/justiciaadministracionlocalyfuncionpublica/areas/justicia/gratuita/derecho-justicia-gratuita.html",
+   "publisher": "Junta de Andalucía",
+   "text_file": "/home/user/corteqscities/uretim/marbella/_is/snap_kesif_oturum/61a8cc1482098732eb2d45d643840a6ca9dde21a1029ce28c9cb2714ec8d8f3e.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-ucretsiz-avukat-justicia-gratuita-1",
+   "field": "summary",
+   "claim": "Başvurabilecek kişiler: İspanya'daki yabancılar",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:202",
+   "quote": "Las personas extranjeras que se encuentren en España."
+  },
+  {
+   "claim_id": "C-ucretsiz-avukat-justicia-gratuita-2",
+   "field": "summary",
+   "claim": "Form ve gelir yetersizliği belgesi",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:202",
+   "quote": "Podrá solicitar asistencia jurídica gratuita cualquier persona física mediante la presentación del modelo de solicitud normalizado."
+  },
+  {
+   "claim_id": "C-ucretsiz-avukat-justicia-gratuita-3",
+   "field": "summary",
+   "claim": "Gelir yetersizliği belgelendirilir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:202",
+   "quote": "deberá acompañar documentación justificativa que acredite la insuficiencia de recursos económicos"
+  },
+  {
+   "claim_id": "C-ucretsiz-avukat-justicia-gratuita-4",
+   "field": "summary",
+   "claim": "Tek kişi eşiği",
+   "value": "14400",
+   "unit": "EUR",
+   "period": "yıllık, aile brüt",
+   "source_id": "marbella:kaynak:202",
+   "quote": "Un miembro 2 veces 14.400€"
+  },
+  {
+   "claim_id": "C-ucretsiz-avukat-justicia-gratuita-5",
+   "field": "summary",
+   "claim": "İki-üç kişi eşiği",
+   "value": "18000",
+   "unit": "EUR",
+   "period": "yıllık, aile brüt",
+   "source_id": "marbella:kaynak:202",
+   "quote": "Dos o tres miembros 2,5 veces 18.000€"
+  },
+  {
+   "claim_id": "C-ucretsiz-avukat-justicia-gratuita-6",
+   "field": "summary",
+   "claim": "Dört kişiden fazla eşiği",
+   "value": "21600",
+   "unit": "EUR",
+   "period": "yıllık, aile brüt",
+   "source_id": "marbella:kaynak:202",
+   "quote": "Más de cuatro 3 veces 21.600€"
+  },
+  {
+   "claim_id": "C-ucretsiz-avukat-justicia-gratuita-7",
+   "field": "summary",
+   "claim": "Gelir hesabı yıllık, aile başına",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:202",
+   "quote": "computados anualmente por todos los conceptos y por unidad familiar"
+  },
+  {
+   "claim_id": "C-ucretsiz-avukat-justicia-gratuita-8",
+   "field": "summary",
+   "claim": "SOJ ve mahkeme yeri",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:201",
+   "quote": "En los Servicios de Orientación Jurídica (pdf) de los colegios de abogacías donde se halle el juzgado o tribunal que vaya a conocer del asunto."
+  },
+  {
+   "claim_id": "C-ucretsiz-avukat-justicia-gratuita-9",
+   "field": "summary",
+   "claim": "Dava açılmadıysa ikamet mahkemesi",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:201",
+   "quote": "Ante el juzgado del domicilio de la persona solicitante, si no se ha iniciado el proceso judicial."
+  },
+  {
+   "claim_id": "C-ucretsiz-avukat-justicia-gratuita-10",
+   "field": "steps",
+   "claim": "Başvuru katalog üzerinden standart model",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:201",
+   "quote": "deberá presentar la solicitud-formularios en modelo normalizado"
+  },
+  {
+   "claim_id": "C-ucretsiz-avukat-justicia-gratuita-11",
+   "field": "steps",
+   "claim": "Komisyon hakkı tanır ya da reddeder",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:201",
+   "quote": "Reconocer o denegar el derecho a la asistencia jurídica gratuita."
+  },
+  {
+   "claim_id": "C-ucretsiz-avukat-justicia-gratuita-12",
+   "field": "note",
+   "claim": "Mağdurlar gelir kanıtlamaz",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:202",
+   "quote": "No necesitan demostrar la insuficiencia de recursos para litigar"
+  },
+  {
+   "claim_id": "C-ucretsiz-avukat-justicia-gratuita-13",
+   "field": "note",
+   "claim": "Mağdur grupları",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:202",
+   "quote": "Las personas víctimas de violencia de género, de terrorismo y de trata de seres humanos"
+  }
+ ],
+ "adimlar": [],
+ "butonlar": [
+  {
+   "action_id": "marbella:action:ucretsiz-avukat-justicia-gratuita-1",
+   "label": "Başvur",
+   "url": "https://www.juntadeandalucia.es/organismos/justiciaadministracionlocalyfuncionpublica/areas/justicia/gratuita/tramitacion-justicia-gratuita.html"
+  },
+  {
+   "action_id": "marbella:action:ucretsiz-avukat-justicia-gratuita-2",
+   "label": "Hesapla",
+   "url": "https://www.juntadeandalucia.es/organismos/justiciaadministracionlocalyfuncionpublica/areas/justicia/gratuita/derecho-justicia-gratuita.html"
+  }
+ ]
+}
+
+===== KART 5/6: marbella:turk-konsoloslugu-madrid-buyukelcilik =====
+{
+ "entry_id": "marbella:turk-konsoloslugu-madrid-buyukelcilik",
+ "city_id": "marbella",
+ "slug": "turk-konsoloslugu-madrid-buyukelcilik",
+ "title": "Türkiye'nin Marbella'ya bağlı temsilciliği hangisi, konsolosluk işleri için nereye başvurulur?",
+ "subtitle": "Endülüs, Madrid Büyükelçiliği'nin görev bölgesinde",
+ "summary": "Marbella'nın içinde olduğu Endülüs, T.C. Madrid Büyükelçiliği'nin görev bölgesindedir. Büyükelçilik Rafael Calvo 18, 2ºA-B, 28010 Madrid adresindedir (tel. +34 913 103 904); konsolosluk şubesi hafta içi 09:30-12:30 arası çalışır. Randevuyu büyükelçilik sitesindeki 'Randevu Al' menüsünden alırsın. Sitede ayrıca bir Malaga Fahri Başkonsolosluğu da sayılıyor.",
+ "keywords": "Türk konsolosluğu, Madrid Büyükelçiliği, Endülüs, konsolosluk randevusu, Malaga Fahri Başkonsolosluğu, pasaport, Marbella",
+ "stages": "planning;new;settled",
+ "source_ids": "marbella:kaynak:199;marbella:kaynak:198",
+ "reviewed_on": "2026-10-28",
+ "order": 204,
+ "featured": "Hayır",
+ "editorial_status": "Taslak",
+ "topic_id": "marbella:oturum",
+ "steps": "Büyükelçilik sitesindeki 'Randevu Al' menüsünden Türk vatandaşları için konsolosluk işlemleri randevusu al.\nRandevu günü Rafael Calvo 18, 2ºA-B, 28010 Madrid adresindeki konsolosluk şubesine git; şube hafta içi 09:30-12:30 arası açık.\nMesai dışı acil durumda nöbetçi telefonu ara: +34 629 476 693.\nGenel konsolosluk soruları için 7/24 çalışan çağrı merkezini ara: +90 312 292 29 29.",
+ "documents": "",
+ "timing": "",
+ "cost": "",
+ "note": "Büyükelçilik 2026'da 29 Ekim Cumhuriyet Bayramı'nda kapalıdır.",
+ "visual_json": "",
+ "_sekme": "Yanıtlar",
+ "kaynaklar": [
+  {
+   "source_id": "marbella:kaynak:199",
+   "url": "https://madrid-be.mfa.gov.tr/Mission/Contact",
+   "publisher": "T.C. Dışişleri Bakanlığı",
+   "text_file": "/home/user/corteqscities/uretim/marbella/_is/snap_kesif_oturum/daffb592a27cdecf9a62544d0c91dcd63f165c1a79ccaceb8b49ed1a7cd29451.txt"
+  },
+  {
+   "source_id": "marbella:kaynak:198",
+   "url": "https://madrid-emb.mfa.gov.tr/Mission/Contact",
+   "publisher": "T.C. Dışişleri Bakanlığı (Madrid Büyükelçiliği)",
+   "text_file": "/home/user/corteqscities/uretim/marbella/_is/snap_kesif_oturum/339adf5b68406e1f303f45a9feee3666b18946a16ff5d1590c88aad3adbe4404.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-turk-konsoloslugu-madrid-buyukelcilik-1",
+   "field": "summary",
+   "claim": "Endülüs Madrid Büyükelçiliği görev bölgesinde",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:199",
+   "quote": "Görev Bölgesi : Asturyas, Bask, Ceuta, Melilla, Ekstremadura, Endülüs"
+  },
+  {
+   "claim_id": "C-turk-konsoloslugu-madrid-buyukelcilik-2",
+   "field": "summary",
+   "claim": "Büyükelçilik adresi ve telefonu",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:199",
+   "quote": "T. C. Madrid Büyükelçiliği, Rafael Calvo, 18 2ºA-B 28010 Madrid E-posta embajada.madrid@mfa.gov.tr Telefon + 34 913 103 904"
+  },
+  {
+   "claim_id": "C-turk-konsoloslugu-madrid-buyukelcilik-3",
+   "field": "summary",
+   "claim": "Konsolosluk şubesi saati",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:199",
+   "quote": "Konsolosluk Şubesi 09:30 - 12:30"
+  },
+  {
+   "claim_id": "C-turk-konsoloslugu-madrid-buyukelcilik-4",
+   "field": "summary",
+   "claim": "Çalışma saatleri hafta içi",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:199",
+   "quote": "Pazartesi - Cuma 09:00 - 17:00"
+  },
+  {
+   "claim_id": "C-turk-konsoloslugu-madrid-buyukelcilik-5",
+   "field": "summary",
+   "claim": "Malaga Fahri Başkonsolosluğu bağlı temsilcilik",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:199",
+   "quote": "Malaga Fahri Başkonsolosluğu"
+  },
+  {
+   "claim_id": "C-turk-konsoloslugu-madrid-buyukelcilik-6",
+   "field": "steps",
+   "claim": "Randevu menüsü",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:199",
+   "quote": "Randevu Al Türk Vatandaşları İçin Konsolosluk İşlemleri"
+  },
+  {
+   "claim_id": "C-turk-konsoloslugu-madrid-buyukelcilik-7",
+   "field": "steps",
+   "claim": "Acil nöbetçi telefon",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:199",
+   "quote": "Nöbetçi / Acil Durum Telefonu +34 629476693"
+  },
+  {
+   "claim_id": "C-turk-konsoloslugu-madrid-buyukelcilik-8",
+   "field": "steps",
+   "claim": "7/24 çağrı merkezi",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:199",
+   "quote": "KONSOLOSLUK ÇAĞRI MERKEZİ 7/24 + 90 312 292 29 29"
+  },
+  {
+   "claim_id": "C-turk-konsoloslugu-madrid-buyukelcilik-9",
+   "field": "note",
+   "claim": "29 Ekim 2026 tatil",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:199",
+   "quote": "29.10.2026 29.10.2026 29 Ekim Cumhuriyet Bayramı"
+  }
+ ],
+ "adimlar": [],
+ "butonlar": [
+  {
+   "action_id": "marbella:action:turk-konsoloslugu-madrid-buyukelcilik-1",
+   "label": "Randevu al",
+   "url": "https://madrid-be.mfa.gov.tr/Mission/Contact"
+  },
+  {
+   "action_id": "marbella:action:turk-konsoloslugu-madrid-buyukelcilik-2",
+   "label": "Bilgi al",
+   "url": "https://madrid-emb.mfa.gov.tr/Mission/Contact"
+  }
+ ]
+}
+
+===== KART 6/6: marbella:sosyal-hizmetler-derechos-sociales-basvuru =====
+{
+ "entry_id": "marbella:sosyal-hizmetler-derechos-sociales-basvuru",
+ "city_id": "marbella",
+ "slug": "sosyal-hizmetler-derechos-sociales-basvuru",
+ "title": "Marbella'da belediye sosyal hizmetlerine (Derechos Sociales) nereden başvurulur?",
+ "subtitle": "Merkez Calle Vázquez Clavel 25'te; ilk görüşme için hedef 20 iş günü",
+ "summary": "Marbella Belediyesi'nin Sosyal Haklar Birimi (Delegación de Derechos Sociales) Calle Vázquez Clavel 25 bajos, 29603 Marbella adresinde, tel. 952 768 700. San Pedro Alcántara'da Calle Viento de Levante s/n adresinde, tel. 952 768 735. Birimin hizmet şartnamesi, sosyal hizmet uzmanıyla ilk görüşme için en çok 20 iş günü, değerlendirme gerektiren belediye yardımlarının belgeler tamamlandıktan sonra 14 iş günü içinde işlenmesini taahhüt eder. Mahalle merkezleri Miraflores, Las Chapas ve Nueva Andalucía'dadır.",
+ "keywords": "Derechos Sociales, servicios sociales, trabajador social, Vázquez Clavel, sosyal hizmet, Miraflores, San Pedro Alcántara",
+ "stages": "new;settled",
+ "source_ids": "marbella:kaynak:188;marbella:kaynak:200",
+ "reviewed_on": "2026-10-28",
+ "order": 205,
+ "featured": "Hayır",
+ "editorial_status": "Taslak",
+ "topic_id": "marbella:oturum",
+ "steps": "Oturduğun bölgeye göre merkezi seç: Marbella (Calle Vázquez Clavel 25 bajos), San Pedro Alcántara (Calle Viento de Levante s/n), Miraflores, Las Chapas ya da Nueva Andalucía.\nTelefonla ilk görüşme iste: Marbella 952 768 700, San Pedro Alcántara 952 768 735.\nSosyal hizmet uzmanıyla ilk görüşmeye git; şartname bunu en çok 20 iş günü içinde vermeyi taahhüt ediyor.\nYardım için değerlendirme gerekiyorsa belgelerini tamamla; tamamlanmış dosya 14 iş günü içinde işlenir.",
+ "documents": "",
+ "timing": "İlk görüşme en çok 20 iş günü; değerlendirme gerektiren yardımlar belgeler tamamlandıktan sonra 14 iş günü.",
+ "cost": "",
+ "note": "Taahhüt edilen süreler birimin 2019'da güncellenen hizmet şartnamesinden alınmıştır.",
+ "visual_json": "",
+ "_sekme": "Yanıtlar",
+ "kaynaklar": [
+  {
+   "source_id": "marbella:kaynak:188",
+   "url": "https://ayuntamiento.marbella.es/documentos/cartas-de-servicios-municipales/1062-carta-de-servicios-de-la-delegacion-de-derechos-sociales.html",
+   "publisher": "Ayuntamiento de Marbella",
+   "text_file": "/home/user/corteqscities/uretim/marbella/_is/snap_kesif_planlama/54083ed54a0ddde8c7f3edce5f33cc61f7fd26c25900f7facb0a7d93451a0aa5.txt"
+  },
+  {
+   "source_id": "marbella:kaynak:200",
+   "url": "https://www.marbella.es/web/derechos-sociales/instalaciones-ds/centro-social-comunitario-marbella.html",
+   "publisher": "Ayuntamiento de Marbella",
+   "text_file": "/home/user/corteqscities/uretim/marbella/_is/snap_kesif_oturum/0cc938f548d96adda84dd826aa379cb82d8c66d6cb922617680a3e31d0238cd9.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-sosyal-hizmetler-derechos-sociales-basvuru-1",
+   "field": "summary",
+   "claim": "Marbella merkez adresi ve telefonu",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:188",
+   "quote": "Delegación de Derechos Sociales MARBELLA Calle Vázquez Clavel nº 25 bajos 29603 Marbella 952768700"
+  },
+  {
+   "claim_id": "C-sosyal-hizmetler-derechos-sociales-basvuru-2",
+   "field": "summary",
+   "claim": "San Pedro Alcántara adresi",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:188",
+   "quote": "SAN PEDRO ALCANTARA Calle Viento de Levante s/n 29670 San Pedro Alcántara 952768735"
+  },
+  {
+   "claim_id": "C-sosyal-hizmetler-derechos-sociales-basvuru-3",
+   "field": "summary",
+   "claim": "İlk görüşme için 20 iş günü",
+   "value": "20",
+   "unit": "iş günü",
+   "period": "",
+   "source_id": "marbella:kaynak:188",
+   "quote": "Plazo máximo de 20 días para primera entrevista con Trabajador/a Social."
+  },
+  {
+   "claim_id": "C-sosyal-hizmetler-derechos-sociales-basvuru-4",
+   "field": "summary",
+   "claim": "Yardımlar 14 iş günü",
+   "value": "14",
+   "unit": "iş günü",
+   "period": "",
+   "source_id": "marbella:kaynak:188",
+   "quote": "Plazo de 14 días hábiles para la tramitación de todas las prestaciones municipales que requieren valoración social (una vez completa la documentación)"
+  },
+  {
+   "claim_id": "C-sosyal-hizmetler-derechos-sociales-basvuru-5",
+   "field": "summary",
+   "claim": "Mahalle merkezleri",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:188",
+   "quote": "MIRAFLORES Avenida José Luís Morales Marín nº 7 29601 Marbella 952900493 LAS CHAPAS Calle Alcornoque s/n 29603 Marbella 952830971 NUEVA ANDALUCIA Calle Tirso de Molina s/n 29660 Marbella 952768774"
+  },
+  {
+   "claim_id": "C-sosyal-hizmetler-derechos-sociales-basvuru-6",
+   "field": "steps",
+   "claim": "Marbella merkezi telefon",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:200",
+   "quote": "952 768 700 Calle Vázquez Clavel nº 25 bajos 29603 Marbella"
+  },
+  {
+   "claim_id": "C-sosyal-hizmetler-derechos-sociales-basvuru-7",
+   "field": "timing",
+   "claim": "Şartname 20 gün",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:188",
+   "quote": "Indicador: Porcentaje de primeras entrevistas realizadas en un plazo máximo de 20 días hábiles"
+  },
+  {
+   "claim_id": "C-sosyal-hizmetler-derechos-sociales-basvuru-8",
+   "field": "note",
+   "claim": "Şartname güncelleme tarihi",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:188",
+   "quote": "Actualizado el 29 Noviembre 2019"
+  }
+ ],
+ "adimlar": [],
+ "butonlar": [
+  {
+   "action_id": "marbella:action:sosyal-hizmetler-derechos-sociales-basvuru-1",
+   "label": "Bilgi al",
+   "url": "https://www.marbella.es/web/derechos-sociales/instalaciones-ds/centro-social-comunitario-marbella.html"
+  },
+  {
+   "action_id": "marbella:action:sosyal-hizmetler-derechos-sociales-basvuru-2",
+   "label": "Bilgi al",
+   "url": "https://ayuntamiento.marbella.es/documentos/cartas-de-servicios-municipales/1062-carta-de-servicios-de-la-delegacion-de-derechos-sociales.html"
+  }
+ ]
+}

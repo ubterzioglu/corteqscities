@@ -1,38 +1,30 @@
 {
   "rows": {
-    "Yanıtlar": 143,
-    "Bağlantılar": 242
+    "Yanıtlar": 218,
+    "Bağlantılar": 356,
+    "Adımlar": 7
   },
   "per_topic": {
-    "aile": 12,
-    "ev": 7,
-    "fatura": 9,
-    "gunluk": 6,
+    "aile": 19,
+    "ev": 16,
+    "fatura": 16,
+    "gunluk": 18,
     "is": 19,
+    "kesif": 13,
     "oturum": 20,
     "para": 20,
     "planlama": 17,
-    "resmi": 14,
-    "saglik": 12,
-    "ulasim": 7
+    "resmi": 20,
+    "saglik": 20,
+    "ulasim": 20
   },
   "places_by_group": {},
-  "sources_used": 191,
+  "sources_used": 262,
   "sources_claims_only": 0,
-  "claims": 2573,
+  "claims": 3283,
   "quote_miss": 0,
-  "issue_kinds": {
-    "claim_source_not_in_owner": 1
-  },
-  "issues": [
-    [
-      "claim_source_not_in_owner",
-      "planlama.jsonl",
-      "C-malaga-havalimani-marbella-otobus-ve-taksi-2",
-      "marbella:malaga-havalimani-marbella-otobus-ve-taksi",
-      "marbella:kaynak:288"
-    ]
-  ],
+  "issue_kinds": {},
+  "issues": [],
   "quote_miss_list": [],
   "claims_only_sources": []
 }

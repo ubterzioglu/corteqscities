@@ -1,0 +1,32 @@
+== merge
+{"status":"ok","city_id":"marbella","rows":{"Yanıtlar":218,"Bağlantılar":356,"Adımlar":7},"per_topic":{"aile":19,"ev":16,"fatura":16,"gunluk":18,"is":19,"kesif":13,"oturum":20,"para":20,"planlama":17,"resmi":20,"saglik":20,"ulasim":20},"places_by_group":{},"sources_used":262,"sources_claims_only":0,"claims":3283,"quote_miss":0,"issue_kinds":{},"out":"/home/user/corteqscities/uretim/marbella/_is/birlestir_rapor.json"}
+
+== pkgsrc
+{"status":"ok","sources":262,"with_snapshot":262,"copied":17,"removed_unused":0,"unused_kept":0,"pruned":true,"missing":[],"hash_mismatch":[],"rows_out":"/home/user/corteqscities/uretim/marbella/_is/data/Kaynaklar.jsonl","target_dir":"/home/user/corteqscities/uretim/marbella/paket/Lisans kanıtları"}
+
+== build
+{"rows_written":{"Adımlar":7,"Bağlantılar":356,"Kaynaklar":262,"Konular":12,"Yanıtlar":218},"rejected":0,"deduped":0,"defaults_applied":0,"fidelity":"ok","fidelity_accepted":["zip part removed by openpyxl: xl/sharedStrings.xml","zip part added by openpyxl: docProps/app.xml","zip part added by openpyxl: docProps/core.xml"],"out":"/home/user/corteqscities/uretim/marbella/_is/ara/ara.xlsx"}
+
+== textq
+{"tool":"text_quality","workbook":"ara.xlsx","exact_clusters":0,"near_clusters":0,"template_clusters":0,"shared_steps":0,"placeholders":0,"filler":0,"evasive":0,"without_action":0,"visual_json_errors":0,"caption_is_title":0,"hedge_cards":0,"hedge_share":0.0,"exact_records":0,"short_repeat_groups":0,"repeated_sentences":5,"cards_total":218,"visual_json_empty":216,"address":{"standard":"sen","records":238,"hitapsiz":16,"siz":0,"sen":220,"karisik":2,"findings":2,"labels":{"records":356,"hitapsiz":14,"siz":0,"sen":342,"karisik":0},"skipped":[]},"findings":2,"out":"/home/user/corteqscities/uretim/marbella/_is/text_quality.json"}
+
+== warn
+{"tool":"preview_checks warning-scan","records":857,"values":1069,"hits":3,"hit_records":2,"exempt":0,"by_check":{"K103":0,"K104":3,"K105":0},"by_pattern":{"belirsiz_durum":1,"guncel_kontrol":2},"band_values":0,"skipped_sheets":[],"findings":3,"out":"/home/user/corteqscities/uretim/marbella/_is/uyari_tarama.json"}
+
+== tutar
+{"tool":"kart_tutarlilik","groups":3,"farkli_degerli":1,"out":"/home/user/corteqscities/uretim/marbella/_is/tutarlilik.json"}
+
+== extract
+{"claims":1806,"by_kind":{"age":98,"date":320,"duration":428,"money":372,"percent":198,"time":253,"weekday":137},"by_sheet":{"Yanıtlar":1806},"entries_with_claims":164,"claims_without_source":0,"claims_with_missing_source_ids":0,"out":"/home/user/corteqscities/uretim/marbella/_is/claims.jsonl"}
+
+== snap
+indings","urls":262,"fetched":262,"saved":241,"failed":21,"thin_text":0,"soft_404":0,"evidence_checked":0,"evidence_missing":0,"evidence_stale":0,"evidence_from_index":0,"must_contain_unmatched":0,"non_html":0,"truncated":2,"skipped":0,"index_rows":262,"index_kept":0,"requests_made":0,"cache_hits":262,"retry_transient":false,"index":"/home/user/corteqscities/uretim/marbella/_is/snap/index.jsonl"}
+
+== ccheck
+,"supported":263},"percent":{"no_snapshot":33,"not_in_source":48,"supported":117},"time":{"not_in_source":8,"supported":245},"weekday":{"not_in_source":132,"supported":5}},"number_only_hits":557,"source_states":{"fetch_error":17,"http_error":1,"ok":191},"snapshot_format":"toolkit","snapshots_indexed":269,"snapshots_skipped":[],"out":"/home/user/corteqscities/uretim/marbella/_is/claim_check.json"}
+
+== ccheckn
+pported":322},"percent":{"no_snapshot":33,"not_in_source":6,"supported":159},"time":{"not_in_source":8,"supported":245},"weekday":{"not_in_source":132,"supported":5}},"number_only_hits":0,"source_states":{"fetch_error":17,"http_error":1,"ok":191},"snapshot_format":"toolkit","snapshots_indexed":269,"snapshots_skipped":[],"out":"/home/user/corteqscities/uretim/marbella/_is/claim_check_number.json"}
+
+== valid
+{"structure": {"errors": 8, "warnings": 37}, "media": {"errors": 0}, "classes": [["Şehir: Para birimi kodu zorunlu.", 1], ["Şehir: Rehber başlığı zorunlu.", 1], ["Şehir: Rehber giriş metni zorunlu.", 1], ["Şehir: Rehber kontrol tarihi zorunlu.", 1], ["Şehir: Saat dilimi zorunlu.", 1], ["Şehir: Yerel dil zorunlu.", 1], ["Şehir: geçerli IANA saat dilimi gerekli.", 1], ["Şehir: para birimi 3 büyük ASCII harf olmalı.", 1]]}

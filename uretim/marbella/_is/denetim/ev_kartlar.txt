@@ -1,0 +1,1574 @@
+===== KART 1/9: marbella:korumali-konut-talep-kaydi-marbella =====
+{
+ "entry_id": "marbella:korumali-konut-talep-kaydi-marbella",
+ "city_id": "marbella",
+ "slug": "korumali-konut-talep-kaydi-marbella",
+ "title": "Marbella'da korumalı konut (vivienda protegida) için talep kaydına nasıl yazılırsın?",
+ "subtitle": "Registro Municipal de Demandantes: kayıt sürekli açık, başvuru ofiste ya da Sede Electrónica üzerinden",
+ "summary": "Korumalı konuta, alım da kiralama da olsa, ancak Marbella Belediyesi'nin Registro Municipal de Demandantes (korumalı konut talep sicili) kaydındaysan başvurabilirsin; kaydı belediyenin vatandaş hizmet ofislerinde (Oficinas Municipales de Atención a los Ciudadanos) ve giriş kayıt biriminde yüz yüze ya da Sede Electrónica bağlantısı üzerinden yaparsın. Sicil süreklidir, başvuru için kapanış tarihi yoktur. Kaydın tamamlanınca talep ettiğin konut türüne göre yapılan sorteolara katılırsın.",
+ "keywords": "korumalı konut, vivienda protegida, registro de demandantes, sorteo, Marbella belediyesi, sosyal konut",
+ "stages": "new;settled",
+ "source_ids": "marbella:kaynak:216;marbella:kaynak:215",
+ "reviewed_on": "2026-10-28",
+ "order": 400,
+ "featured": "Evet",
+ "editorial_status": "Taslak",
+ "topic_id": "marbella:ev",
+ "steps": "Belediyenin vivienda.marbella.es sitesinden 'Formulario de solicitud de inscripción en el registro municipal de demandantes de vivienda protegida' PDF formunu indirip doldur.\nYüz yüze başvuracaksan formu ve belgeleri Oficinas Municipales de Atención a los Ciudadanos'a ya da belediyenin giriş kayıt birimine (registro de entrada) ver.\nÇevrimiçi başvuracaksan vivienda.marbella.es sayfasındaki Sede Electrónica bağlantısını kullan.\n18 yaşından büyük her başvuru sahibinin geçerli kimliğinin fotokopisini ekle; durumun gerektiriyorsa aşağıdaki ek belgeleri de koy.\nKayıt tamamlanınca talep ettiğin türdeki sorteolara otomatik katılırsın.",
+ "documents": "Geçerli kimlik belgesinin fotokopisi (18 yaşından büyük her başvuru sahibi için; 14 yaşından büyük çocuklar için DNI zorunlu)\nGerekiyorsa libro de familia (aile cüzdanı) tamamı\nGerekiyorsa boşanma ya da ayrılık kararı\nGerekiyorsa velayet için sözleşme ya da beyan (convenio regulador / declaración responsable)\nGerekiyorsa bağımlılık (dependencia) kararı\nGerekiyorsa cinsiyet temelli şiddet kararı (auto o sentencia de violencia de género)\nGerekiyorsa geri dönen göçmen belgesi (certificado de emigrante retornado)",
+ "timing": "Sicil sürekli açıktır; başvuru için son tarih yoktur.",
+ "cost": "",
+ "note": "",
+ "visual_json": "",
+ "_sekme": "Yanıtlar",
+ "kaynaklar": [
+  {
+   "source_id": "marbella:kaynak:216",
+   "url": "https://vivienda.marbella.es/registro-de-demandantes/como-se-realiza-el-tramite-y-donde.html",
+   "publisher": "Ayuntamiento de Marbella - Vivienda y Suelo",
+   "text_file": "/home/user/corteqscities/uretim/marbella/_is/snap_kesif_ev/cd8541e2d4a812803cc55c4314f785798db1c2269ba1de29387d874221fb8c80.txt"
+  },
+  {
+   "source_id": "marbella:kaynak:215",
+   "url": "https://vivienda.marbella.es/registro-de-demandantes/requisitos.html",
+   "publisher": "Ayuntamiento de Marbella - Vivienda y Suelo",
+   "text_file": "/home/user/corteqscities/uretim/marbella/_is/snap_kesif_ev/439aea82abe3aec7fc3b5419848d9f84adba8b57475cfd55bb16dfa582785053.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-korumali-konut-talep-kaydi-marbella-1",
+   "field": "summary",
+   "claim": "Başvuru yüz yüze belediye vatandaş hizmet ofislerinde ve giriş kayıt biriminde yapılabilir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:216",
+   "quote": "Por vía presencial, en las Oficinas Municipales de Atención a los Ciudadanos y registro de entrada del Ayuntamiento"
+  },
+  {
+   "claim_id": "C-korumali-konut-talep-kaydi-marbella-2",
+   "field": "summary",
+   "claim": "Başvuru Sede Electrónica bağlantısıyla çevrimiçi de yapılabilir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:216",
+   "quote": "Por vía telemática, a través de enlace disponible en este sitio web. Sede Electrónica"
+  },
+  {
+   "claim_id": "C-korumali-konut-talep-kaydi-marbella-3",
+   "field": "summary",
+   "claim": "Kayıt olunca talep edilene göre yapılan sorteolara katılım başlar",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:216",
+   "quote": "Una vez inscrito, comenzará a participar en los sorteos que se celebren de acuerdo a lo demandado."
+  },
+  {
+   "claim_id": "C-korumali-konut-talep-kaydi-marbella-4",
+   "field": "summary",
+   "claim": "Korumalı konut sahibi olmak için sicile kayıt gerekir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:215",
+   "quote": "Para ser adjudicatario de una vivienda protegida será necesaria la inscripción en el Registro Municipal de Demandantes de Vivienda Protegida."
+  },
+  {
+   "claim_id": "C-korumali-konut-talep-kaydi-marbella-5",
+   "field": "timing",
+   "claim": "Sicil süreklidir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:215",
+   "quote": "Fecha de solicitud: El registro es permanente"
+  },
+  {
+   "claim_id": "C-korumali-konut-talep-kaydi-marbella-6",
+   "field": "documents",
+   "claim": "Kimlik fotokopisi 18 yaş üstü tüm başvuru sahiplerinden istenir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:216",
+   "quote": "Fotocopia del documento de identidad en vigor de todos los solicitantes mayores de edad."
+  },
+  {
+   "claim_id": "C-korumali-konut-talep-kaydi-marbella-7",
+   "field": "documents",
+   "claim": "Çocuklar için 14 yaşından itibaren DNI zorunlu",
+   "value": "14",
+   "unit": "yaş",
+   "period": "",
+   "source_id": "marbella:kaynak:216",
+   "quote": "Para los menores es obligatorio el DNI a partir de los 14 años."
+  },
+  {
+   "claim_id": "C-korumali-konut-talep-kaydi-marbella-8",
+   "field": "documents",
+   "claim": "Libro de familia gerektiğinde tamamı eklenir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:216",
+   "quote": "Libro de familia completo."
+  },
+  {
+   "claim_id": "C-korumali-konut-talep-kaydi-marbella-9",
+   "field": "documents",
+   "claim": "Boşanma ya da ayrılık kararı gerektiğinde eklenir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:216",
+   "quote": "Sentencia de separación o divorcio."
+  },
+  {
+   "claim_id": "C-korumali-konut-talep-kaydi-marbella-10",
+   "field": "documents",
+   "claim": "Velayet için sözleşme ya da beyan gerektiğinde eklenir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:216",
+   "quote": "Convenio regulador o acreditación de guarda y custodia mediante declaración responsable."
+  },
+  {
+   "claim_id": "C-korumali-konut-talep-kaydi-marbella-11",
+   "field": "documents",
+   "claim": "Bağımlılık kararı gerektiğinde eklenir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:216",
+   "quote": "Resolución de la situación de dependencia."
+  },
+  {
+   "claim_id": "C-korumali-konut-talep-kaydi-marbella-12",
+   "field": "documents",
+   "claim": "Cinsiyet temelli şiddet kararı gerektiğinde eklenir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:216",
+   "quote": "Auto o sentencia de violencia de género."
+  },
+  {
+   "claim_id": "C-korumali-konut-talep-kaydi-marbella-13",
+   "field": "documents",
+   "claim": "Geri dönen göçmen belgesi gerektiğinde eklenir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:216",
+   "quote": "Certificado de emigrante retornado."
+  },
+  {
+   "claim_id": "C-korumali-konut-talep-kaydi-marbella-14",
+   "field": "steps",
+   "claim": "Başvuru formu belediye sitesinde PDF olarak sunuluyor",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:216",
+   "quote": "Formulario de solicitud de inscripción en el registro municipal de demandantes de vivienda protegida"
+  }
+ ],
+ "adimlar": [],
+ "butonlar": [
+  {
+   "action_id": "marbella:action:korumali-konut-talep-kaydi-marbella-1",
+   "label": "Başvur",
+   "url": "https://vivienda.marbella.es/registro-de-demandantes/como-se-realiza-el-tramite-y-donde.html"
+  },
+  {
+   "action_id": "marbella:action:korumali-konut-talep-kaydi-marbella-2",
+   "label": "Bilgi al",
+   "url": "https://vivienda.marbella.es/registro-de-demandantes/requisitos.html"
+  }
+ ]
+}
+
+===== KART 2/9: marbella:korumali-konut-basvuru-kosullari-gelir-sinirlari =====
+{
+ "entry_id": "marbella:korumali-konut-basvuru-kosullari-gelir-sinirlari",
+ "city_id": "marbella",
+ "slug": "korumali-konut-basvuru-kosullari-gelir-sinirlari",
+ "title": "Marbella'da korumalı konut için kimler başvurabilir: mülk ve gelir şartı nedir?",
+ "subtitle": "Başka tam mülkiyet konut olmaması, sınırlı gelir ve San Pedro'daki 84 konutluk projede 3 ve 5,5 IPREM sınırı",
+ "summary": "Marbella'da korumalı konut için başka bir konutun tam mülkiyetine (serbest ya da korumalı) sahip olmaman ve gelirinin sınırlı olması gerekir; alacağın konut da sürekli oturma yerin olacaktır. Miras yoluyla edinilmiş en çok %50'lik pay, mahkeme ya da idare kararıyla yıkık/ruin sayılan konut ya da aile büyümesi, hareket kısıtı veya bağımlılık nedeniyle uyarlanmış konut ihtiyacı istisnadır. Belediyenin San Pedro Alcántara'daki 84 konutluk projesinde belediye başkanı Marbella'da kayıtlı (empadronado) olmayı da şart olarak saymıştı; gençlere ayrılan 42 konut için 35 yaşından küçük ve gelir en çok 3 IPREM, genel rejimdeki 38 konut için gelir en çok 5,5 IPREM idi.",
+ "keywords": "korumalı konut, vivienda protegida, IPREM, gelir sınırı, empadronamiento, genç konut",
+ "stages": "planning;new",
+ "source_ids": "marbella:kaynak:215;marbella:kaynak:218",
+ "reviewed_on": "2026-10-28",
+ "order": 401,
+ "featured": "Hayır",
+ "editorial_status": "Taslak",
+ "topic_id": "marbella:ev",
+ "steps": "Adına ya da aynı hane/birlikte yaşayan kişiler adına başka bir konutun tam mülkiyeti ya da intifa hakkı olup olmadığını belirle; varsa istisna maddelerinden birine girip girmediğine bak.\nGelirinin ilgili özerk bölge konut planındaki programın üst sınırının altında kalmasını sağla; San Pedro projesinde sınır gençler için 3 IPREM, genel rejim için 5,5 IPREM idi.\nMarbella'da adres kaydını (empadronamiento) yaptır; belediye başkanı bu projede Marbella'da kayıtlı olmayı şart saymıştı.\nRegistro Municipal de Demandantes'e yazıl; kayıt olmadan sorteoya girilmez.",
+ "documents": "",
+ "timing": "",
+ "cost": "",
+ "note": "",
+ "visual_json": "",
+ "_sekme": "Yanıtlar",
+ "kaynaklar": [
+  {
+   "source_id": "marbella:kaynak:215",
+   "url": "https://vivienda.marbella.es/registro-de-demandantes/requisitos.html",
+   "publisher": "Ayuntamiento de Marbella - Vivienda y Suelo",
+   "text_file": "/home/user/corteqscities/uretim/marbella/_is/snap_kesif_ev/439aea82abe3aec7fc3b5419848d9f84adba8b57475cfd55bb16dfa582785053.txt"
+  },
+  {
+   "source_id": "marbella:kaynak:218",
+   "url": "https://www.marbella.es/actualidad/noticias/los-interesados-en-optar-a-una-de-las-84-viviendas-protegidas-promovidas-por-el-ayuntamiento-en-san-pedro-alcantara-deberan-inscribirse-en-el-registro-municipal-antes-del-1-de-octubre.html",
+   "publisher": "Ayuntamiento de Marbella",
+   "text_file": "/home/user/corteqscities/uretim/marbella/_is/snap_kesif_ev/ae7ef92260b5aefdb0917d16e391fa9d0d1f6994f65a08749ce27067cc614376.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-korumali-konut-basvuru-kosullari-gelir-sinirlari-1",
+   "field": "summary",
+   "claim": "Konut sürekli ve asıl ikametgâh olacak",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:215",
+   "quote": "La vivienda que se adquiera debe destinarse a residencia habitual y permanente."
+  },
+  {
+   "claim_id": "C-korumali-konut-basvuru-kosullari-gelir-sinirlari-2",
+   "field": "summary",
+   "claim": "Başka bir tam mülkiyet konuta sahip olunmamalı",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:215",
+   "quote": "La persona demandante no puede ser titular de pleno dominio de otra vivienda libre o protegida"
+  },
+  {
+   "claim_id": "C-korumali-konut-basvuru-kosullari-gelir-sinirlari-3",
+   "field": "summary",
+   "claim": "Gelir, özerk bölge konut planlarındaki programlara göre sınırlı",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:215",
+   "quote": "Tener unos ingresos económicos limitados de conformidad con lo establecido para los distintos programas en los planes autonómicos de vivienda y suelo."
+  },
+  {
+   "claim_id": "C-korumali-konut-basvuru-kosullari-gelir-sinirlari-4",
+   "field": "summary",
+   "claim": "Miras yoluyla %50 ve altı pay istisna",
+   "value": "50",
+   "unit": "%",
+   "period": "",
+   "source_id": "marbella:kaynak:215",
+   "quote": "Las que hayan adquirido a título de herencia o legado, una cuota de pleno dominio sobre una vivienda igual o inferior al 50%."
+  },
+  {
+   "claim_id": "C-korumali-konut-basvuru-kosullari-gelir-sinirlari-5",
+   "field": "summary",
+   "claim": "Yıkık ya da ruin ilan edilmiş konut istisna",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:215",
+   "quote": "haya sido declarada, mediante resolución judicial o administrativa, infravivienda o en ruina física."
+  },
+  {
+   "claim_id": "C-korumali-konut-basvuru-kosullari-gelir-sinirlari-6",
+   "field": "summary",
+   "claim": "Uyarlanmış konut ihtiyacında mevcut konut 6 ay içinde devredilmeli",
+   "value": "6",
+   "unit": "ay",
+   "period": "",
+   "source_id": "marbella:kaynak:215",
+   "quote": "deberán transmitir la vivienda que tienen en propiedad, en el plazo máximo de seis meses"
+  },
+  {
+   "claim_id": "C-korumali-konut-basvuru-kosullari-gelir-sinirlari-7",
+   "field": "summary",
+   "claim": "San Pedro projesinde gençler için 42 konut, 35 yaş altı ve 3 IPREM sınırı",
+   "value": "42 / 3",
+   "unit": "konut / IPREM",
+   "period": "2025",
+   "source_id": "marbella:kaynak:218",
+   "quote": "42 unidades destinadas a jóvenes menores de 35 años con ingresos que no superen tres veces el IPREM"
+  },
+  {
+   "claim_id": "C-korumali-konut-basvuru-kosullari-gelir-sinirlari-8",
+   "field": "summary",
+   "claim": "San Pedro projesinde genel rejim 38 konut, 5,5 IPREM sınırı",
+   "value": "38 / 5,5",
+   "unit": "konut / IPREM",
+   "period": "2025",
+   "source_id": "marbella:kaynak:218",
+   "quote": "otras 38 de régimen general, en este caso para familias con rentas de hasta 5,5 veces el IPREM"
+  },
+  {
+   "claim_id": "C-korumali-konut-basvuru-kosullari-gelir-sinirlari-9",
+   "field": "summary",
+   "claim": "Belediye başkanına göre şartlar: Marbella adres kaydı, başka konut olmaması, gelir kanıtı",
+   "value": "",
+   "unit": "",
+   "period": "2025",
+   "source_id": "marbella:kaynak:218",
+   "quote": "se encuentra el empadronamiento en Marbella, no disponer de otra vivienda en propiedad y la acreditación de ingresos mínimos y máximos"
+  }
+ ],
+ "adimlar": [],
+ "butonlar": [
+  {
+   "action_id": "marbella:action:korumali-konut-basvuru-kosullari-gelir-sinirlari-1",
+   "label": "Başvur",
+   "url": "https://vivienda.marbella.es/registro-de-demandantes/como-se-realiza-el-tramite-y-donde.html"
+  },
+  {
+   "action_id": "marbella:action:korumali-konut-basvuru-kosullari-gelir-sinirlari-2",
+   "label": "Bilgi al",
+   "url": "https://vivienda.marbella.es/registro-de-demandantes/requisitos.html"
+  }
+ ]
+}
+
+===== KART 3/9: marbella:san-pedro-84-korumali-konut-fiyatlari-ve-sorteo =====
+{
+ "entry_id": "marbella:san-pedro-84-korumali-konut-fiyatlari-ve-sorteo",
+ "city_id": "marbella",
+ "slug": "san-pedro-84-korumali-konut-fiyatlari-ve-sorteo",
+ "title": "Marbella Belediyesi'nin San Pedro Alcántara'daki 84 korumalı konutu kaça sunuldu ve süreç nasıl işledi?",
+ "subtitle": "Yardımlar sonrası 170.000, 220.000 ve 236.000 euro; 3.207 kayıtlı talep sahibi; 84 konut dağıtıldı",
+ "summary": "Belediyenin San Pedro Alcántara'daki 84 korumalı konutu, 15.000 euroluk yardım düşüldükten sonra gençlere ayrılan yaklaşık 97 m² konutlarda 170.000 euro, genel rejimdeki 112 m² konutlarda 220.000 euro ve uyarlanmış konutlarda 236.000 euro fiyatla sunuldu. Yardımın 10.000 eurosunu belediye, 5.000 eurosunu inşaatı yapan Fundación Vimpyca verdi. Eylül 2025'te sicilde 3.207 kayıtlı talep sahibi vardı (1.796'sı genç rejiminde) ve bir bini aşkını belgelerini hâlâ tamamlamamıştı; belediye başkanı sorteonun yıl sonundan önce yapılacağını, ilk listeden sonra da itiraz (alegaciones) döneminin açılacağını söylemişti. Mart 2026 tarihli belediye haberi bu 84 konutun dağıtıldığını yazıyor.",
+ "keywords": "korumalı konut fiyatı, San Pedro Alcántara, vivienda protegida, sorteo, Vimpyca, Marbella",
+ "stages": "planning;new",
+ "source_ids": "marbella:kaynak:218;marbella:kaynak:219",
+ "reviewed_on": "2026-10-28",
+ "order": 402,
+ "featured": "Hayır",
+ "editorial_status": "Taslak",
+ "topic_id": "marbella:ev",
+ "steps": "Sonraki korumalı konut projeleri için Registro Municipal de Demandantes kaydını tamamla; belediye ilk listeye girmek için kayıt ve tüm şartların yerine getirilmesini zorunlu sayıyor.\nKaydındaki eksik belgeleri tamamla: Eylül 2025'te kayıtlı 3.207 kişiden bir bini aşkını belge eksiği olduğu için ilk listeye giremeyecek durumdaydı.\nİlk liste yayımlanınca itiraz (alegaciones) dönemini izle; liste sonrası itiraz dönemi açılıyor.\nYeni projelerde fiyat düzeyi için San Pedro örneğini kullan: 97 m² genç konutu yaklaşık 170.000 euro, 112 m² genel rejim 220.000 euro.",
+ "documents": "",
+ "timing": "",
+ "cost": "",
+ "note": "",
+ "visual_json": "",
+ "_sekme": "Yanıtlar",
+ "kaynaklar": [
+  {
+   "source_id": "marbella:kaynak:218",
+   "url": "https://www.marbella.es/actualidad/noticias/los-interesados-en-optar-a-una-de-las-84-viviendas-protegidas-promovidas-por-el-ayuntamiento-en-san-pedro-alcantara-deberan-inscribirse-en-el-registro-municipal-antes-del-1-de-octubre.html",
+   "publisher": "Ayuntamiento de Marbella",
+   "text_file": "/home/user/corteqscities/uretim/marbella/_is/snap_kesif_ev/ae7ef92260b5aefdb0917d16e391fa9d0d1f6994f65a08749ce27067cc614376.txt"
+  },
+  {
+   "source_id": "marbella:kaynak:219",
+   "url": "https://www.marbella.es/actualidad/noticias/el-ayuntamiento-y-la-junta-entregan-las-llaves-de-las-primeras-viviendas-de-alquiler-para-jovenes-de-marbella.html",
+   "publisher": "Ayuntamiento de Marbella",
+   "text_file": "/home/user/corteqscities/uretim/marbella/_is/snap_kesif_ev/1a10178dfd872c152e8dcc3e9cea88507566453bdff43afccb7e4b11dbc564ee.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-san-pedro-84-korumali-konut-fiyatlari-ve-sorteo-1",
+   "field": "summary",
+   "claim": "Gençler için yaklaşık 97 m² konutlar yardım sonrası 170.000 euro",
+   "value": "170000",
+   "unit": "EUR",
+   "period": "2025",
+   "source_id": "marbella:kaynak:218",
+   "quote": "las destinadas a jóvenes, con unos 97 metros cuadrados construidos, se sitúan en 170.000 euros tras la aplicación de las ayudas"
+  },
+  {
+   "claim_id": "C-san-pedro-84-korumali-konut-fiyatlari-ve-sorteo-2",
+   "field": "summary",
+   "claim": "Genel rejim 112 m² konutlar 220.000 euro, uyarlanmış konutlar 236.000 euro",
+   "value": "220000 / 236000",
+   "unit": "EUR",
+   "period": "2025",
+   "source_id": "marbella:kaynak:218",
+   "quote": "las de régimen general, de 112 metros cuadrados, en 220.000 euros, y las adaptadas, de mayor superficie, en 236.000 euros"
+  },
+  {
+   "claim_id": "C-san-pedro-84-korumali-konut-fiyatlari-ve-sorteo-3",
+   "field": "summary",
+   "claim": "Doğrudan alım yardımı: belediyeden 10.000 euro, Fundación Vimpyca'dan 5.000 euro",
+   "value": "10000 / 5000",
+   "unit": "EUR",
+   "period": "2025",
+   "source_id": "marbella:kaynak:218",
+   "quote": "ayudas directas para la compra de 10.000 euros por parte del Ayuntamiento y de 5.000 euros aportados por la Fundación Vimpyca"
+  },
+  {
+   "claim_id": "C-san-pedro-84-korumali-konut-fiyatlari-ve-sorteo-4",
+   "field": "summary",
+   "claim": "Sicilde 3.207 kayıtlı, 1.796 genç rejiminde; bir bini aşkın kişi belge tamamlamalı",
+   "value": "3207 / 1796",
+   "unit": "kişi",
+   "period": "2025-09",
+   "source_id": "marbella:kaynak:218",
+   "quote": "en el registro municipal de demandantes hay un total de 3.207 inscritos (1.796 para el régimen joven), de los cuales más de un millar aún deben aportar distinta documentación."
+  },
+  {
+   "claim_id": "C-san-pedro-84-korumali-konut-fiyatlari-ve-sorteo-5",
+   "field": "steps",
+   "claim": "İlk listeye girmek için kayıt ve tüm şartlar gerekli; sonrasında itiraz dönemi açılır",
+   "value": "",
+   "unit": "",
+   "period": "2025-09",
+   "source_id": "marbella:kaynak:218",
+   "quote": "Es absolutamente imprescindible estar registrado y cumplir todos los requisitos para poder estar en el primer listado, tras el que se abrirá un periodo de alegaciones"
+  },
+  {
+   "claim_id": "C-san-pedro-84-korumali-konut-fiyatlari-ve-sorteo-6",
+   "field": "summary",
+   "claim": "Belediye haberi 84 konutun San Pedro Alcántara'da dağıtıldığını yazıyor",
+   "value": "84",
+   "unit": "konut",
+   "period": "2026-03",
+   "source_id": "marbella:kaynak:219",
+   "quote": "las 84 adjudicadas en San Pedro Alcántara"
+  },
+  {
+   "claim_id": "C-san-pedro-84-korumali-konut-fiyatlari-ve-sorteo-7",
+   "field": "summary",
+   "claim": "Belediye başkanı sorteonun yıl sonundan önce yapılacağını açıklamıştı",
+   "value": "",
+   "unit": "",
+   "period": "2025-09",
+   "source_id": "marbella:kaynak:218",
+   "quote": "el sorteo público se realizará antes de final de año"
+  },
+  {
+   "claim_id": "C-san-pedro-84-korumali-konut-fiyatlari-ve-sorteo-8",
+   "field": "summary",
+   "claim": "Yardımlar konut fiyatını toplam 15.000 euro düşürüyor",
+   "value": "15000",
+   "unit": "EUR",
+   "period": "2025",
+   "source_id": "marbella:kaynak:218",
+   "quote": "lo que permite rebajar el precio de las viviendas en 15.000 euros"
+  }
+ ],
+ "adimlar": [],
+ "butonlar": [
+  {
+   "action_id": "marbella:action:san-pedro-84-korumali-konut-fiyatlari-ve-sorteo-1",
+   "label": "Başvur",
+   "url": "https://vivienda.marbella.es/registro-de-demandantes/como-se-realiza-el-tramite-y-donde.html"
+  },
+  {
+   "action_id": "marbella:action:san-pedro-84-korumali-konut-fiyatlari-ve-sorteo-2",
+   "label": "Bilgi al",
+   "url": "https://www.marbella.es/actualidad/noticias/los-interesados-en-optar-a-una-de-las-84-viviendas-protegidas-promovidas-por-el-ayuntamiento-en-san-pedro-alcantara-deberan-inscribirse-en-el-registro-municipal-antes-del-1-de-octubre.html"
+  }
+ ]
+}
+
+===== KART 4/9: marbella:genc-kiralik-konut-huerta-de-los-cristales =====
+{
+ "entry_id": "marbella:genc-kiralik-konut-huerta-de-los-cristales",
+ "city_id": "marbella",
+ "slug": "genc-kiralik-konut-huerta-de-los-cristales",
+ "title": "Marbella'da gençler için belediye kiralık konutu var mı: Huerta de los Cristales'te kira ne kadar?",
+ "subtitle": "18 korumalı kiralık daire, 130-300 euro aylık kira, sözleşme 1 ile 5 yıl; başvuru talep siciliyle",
+ "summary": "Evet: Marbella Belediyesi ile Junta de Andalucía, Travesía de Huerta de los Cristales'teki eski Escuela Oficial de Idiomas binasında gençler için 18 korumalı kiralık daire yaptı; anahtarlar Mart 2026'da teslim edildi. Daireler bir ve iki yatak odalı, aylık kira 130 ile 300 euro arasında ve mutfakları donanımlı. Kiracılar sözleşme imzalarken başka bir çözüm bulmak için bir ile beş yıl süre alıyor, yani konut geçici bir basamak. Belediye, sonraki kiralık dağıtımlar için gençleri Registro Municipal de Demandantes'e yazılmaya çağırıyor.",
+ "keywords": "genç kiralık konut, Huerta de los Cristales, vivienda protegida alquiler, Marbella, talep sicili",
+ "stages": "planning;new",
+ "source_ids": "marbella:kaynak:219;marbella:kaynak:216",
+ "reviewed_on": "2026-10-28",
+ "order": 403,
+ "featured": "Hayır",
+ "editorial_status": "Taslak",
+ "topic_id": "marbella:ev",
+ "steps": "Registro Municipal de Demandantes'e yazıl; belediye gelecek dağıtımlara katılmak için bunu şart koşuyor.\nFormu ve kimlik belgelerini belediyenin vatandaş hizmet ofislerine ya da giriş kayıt birimine ver; çevrimiçi yapmak için Sede Electrónica bağlantısını kullan.\nDaire alırsan sözleşmede yazan bir ile beş yıllık süre içinde bir sonraki konut çözümünü planla.\nBelediyenin bildirdiği yeni projelerde (San Pedro Alcántara'da 132 kiralık konut) kayıtlı olmak için sicilde kal.",
+ "documents": "Geçerli kimlik belgesinin fotokopisi (18 yaşından büyük her başvuru sahibi için)",
+ "timing": "Kiracı sözleşmede bir ile beş yıl arasında kalabiliyor.",
+ "cost": "Aylık kira 130-300 euro (Mart 2026 belediye açıklaması).",
+ "note": "",
+ "visual_json": "",
+ "_sekme": "Yanıtlar",
+ "kaynaklar": [
+  {
+   "source_id": "marbella:kaynak:219",
+   "url": "https://www.marbella.es/actualidad/noticias/el-ayuntamiento-y-la-junta-entregan-las-llaves-de-las-primeras-viviendas-de-alquiler-para-jovenes-de-marbella.html",
+   "publisher": "Ayuntamiento de Marbella",
+   "text_file": "/home/user/corteqscities/uretim/marbella/_is/snap_kesif_ev/1a10178dfd872c152e8dcc3e9cea88507566453bdff43afccb7e4b11dbc564ee.txt"
+  },
+  {
+   "source_id": "marbella:kaynak:216",
+   "url": "https://vivienda.marbella.es/registro-de-demandantes/como-se-realiza-el-tramite-y-donde.html",
+   "publisher": "Ayuntamiento de Marbella - Vivienda y Suelo",
+   "text_file": "/home/user/corteqscities/uretim/marbella/_is/snap_kesif_ev/cd8541e2d4a812803cc55c4314f785798db1c2269ba1de29387d874221fb8c80.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-genc-kiralik-konut-huerta-de-los-cristales-1",
+   "field": "summary",
+   "claim": "İlk 18 kiralık korumalı konut Travesía de Huerta de los Cristales'te, eski Escuela Oficial de Idiomas binasında",
+   "value": "18",
+   "unit": "konut",
+   "period": "2026-03",
+   "source_id": "marbella:kaynak:219",
+   "quote": "ubicadas en la Travesía de Huerta de los Cristales, tras el proyecto de rehabilitación llevado a cabo en el antiguo edificio de la Escuela Oficial de Idiomas"
+  },
+  {
+   "claim_id": "C-genc-kiralik-konut-huerta-de-los-cristales-2",
+   "field": "summary",
+   "claim": "Daireler bir ve iki yatak odalı, kira 130-300 euro/ay",
+   "value": "130-300",
+   "unit": "EUR/ay",
+   "period": "2026-03",
+   "source_id": "marbella:kaynak:219",
+   "quote": "las 18 viviendas disponen de uno y dos dormitorios, con alquileres que se sitúan entre 130 y 300 euros mensuales"
+  },
+  {
+   "claim_id": "C-genc-kiralik-konut-huerta-de-los-cristales-3",
+   "field": "summary",
+   "claim": "Mutfaklar donanımlı, dolaplar monte edilmiş",
+   "value": "",
+   "unit": "",
+   "period": "2026-03",
+   "source_id": "marbella:kaynak:219",
+   "quote": "así como de cocinas equipadas y armarios montados"
+  },
+  {
+   "claim_id": "C-genc-kiralik-konut-huerta-de-los-cristales-4",
+   "field": "summary",
+   "claim": "Kiracılara sözleşmede başka çözüm bulmak için 1-5 yıl süre veriliyor",
+   "value": "1-5",
+   "unit": "yıl",
+   "period": "2026-03",
+   "source_id": "marbella:kaynak:219",
+   "quote": "tienen entre uno y cinco años para poder alcanzar otra alternativa"
+  },
+  {
+   "claim_id": "C-genc-kiralik-konut-huerta-de-los-cristales-5",
+   "field": "summary",
+   "claim": "Anahtar teslimi 16 Mart 2026 tarihli haberde duyuruldu",
+   "value": "2026-03-16",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:219",
+   "quote": "Lunes, 16 de Marzo de 2026"
+  },
+  {
+   "claim_id": "C-genc-kiralik-konut-huerta-de-los-cristales-6",
+   "field": "steps",
+   "claim": "Gelecek dağıtımlara katılmak için talep siciline kayıt şart",
+   "value": "",
+   "unit": "",
+   "period": "2026-03",
+   "source_id": "marbella:kaynak:219",
+   "quote": "inscribirse en el Registro Municipal de Demandantes de Vivienda, requisito necesario para participar en futuros procesos de adjudicación"
+  },
+  {
+   "claim_id": "C-genc-kiralik-konut-huerta-de-los-cristales-7",
+   "field": "steps",
+   "claim": "San Pedro Alcántara'da 132 yeni kiralık konut yapılacak",
+   "value": "132",
+   "unit": "konut",
+   "period": "2026-03",
+   "source_id": "marbella:kaynak:219",
+   "quote": "132 nuevas viviendas que se van a ejecutar en San Pedro Alcántara, también en régimen de alquiler"
+  },
+  {
+   "claim_id": "C-genc-kiralik-konut-huerta-de-los-cristales-8",
+   "field": "steps",
+   "claim": "Başvuru ofis ya da Sede Electrónica ile",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:216",
+   "quote": "Por vía presencial, en las Oficinas Municipales de Atención a los Ciudadanos y registro de entrada del Ayuntamiento"
+  },
+  {
+   "claim_id": "C-genc-kiralik-konut-huerta-de-los-cristales-9",
+   "field": "documents",
+   "claim": "Kimlik fotokopisi 18 yaş üstü tüm başvuru sahiplerinden istenir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:216",
+   "quote": "Fotocopia del documento de identidad en vigor de todos los solicitantes mayores de edad."
+  }
+ ],
+ "adimlar": [],
+ "butonlar": [
+  {
+   "action_id": "marbella:action:genc-kiralik-konut-huerta-de-los-cristales-1",
+   "label": "Başvur",
+   "url": "https://vivienda.marbella.es/registro-de-demandantes/como-se-realiza-el-tramite-y-donde.html"
+  },
+  {
+   "action_id": "marbella:action:genc-kiralik-konut-huerta-de-los-cristales-2",
+   "label": "Bilgi al",
+   "url": "https://www.marbella.es/actualidad/noticias/el-ayuntamiento-y-la-junta-entregan-las-llaves-de-las-primeras-viviendas-de-alquiler-para-jovenes-de-marbella.html"
+  }
+ ]
+}
+
+===== KART 5/9: marbella:bono-alquiler-joven-andalucia-2026-yardim-ve-durum =====
+{
+ "entry_id": "marbella:bono-alquiler-joven-andalucia-2026-yardim-ve-durum",
+ "city_id": "marbella",
+ "slug": "bono-alquiler-joven-andalucia-2026-yardim-ve-durum",
+ "title": "Bono Alquiler Joven nedir, Marbella'da kiracı genç ayda ne kadar yardım alır ve başvuru açık mı?",
+ "subtitle": "35 yaşa kadar, ayda en çok 250 euro, en çok 24 ay; 2026 dönemi 22 Haziran 2026'da 15.000 başvuruyla kapandı",
+ "summary": "Bono Alquiler Joven, 35 yaşına kadar kiracılara ayda en çok 250 euro ve en çok 24 ay boyunca kira yardımı veren Junta de Andalucía programıdır; 2026 başvuru dönemi 13 Ocak 2026'da yeniden açıldı ve 15.000 başvuruya ulaşılınca 22 Haziran 2026'da kapandı. Marbella Belediyesi'nin gençlik sayfasında da başvurular geçici olarak kapalı görünüyor. Başvuru yalnız çevrimiçi (VEAJA) yapılır ve FNMT'nin verdiği kişisel dijital sertifika ile Autofirma programı gerekir. Gelir sınırı tek kişide 3 IPREM (14 maaşla 25.200 euro), birden fazla kişilik hanede 4 IPREM (33.600 euro).",
+ "keywords": "Bono Alquiler Joven, kira yardımı, Junta de Andalucía, 250 euro, IPREM, genç kiracı, VEAJA",
+ "stages": "planning;new;settled",
+ "source_ids": "marbella:kaynak:221;marbella:kaynak:220",
+ "reviewed_on": "2026-10-28",
+ "order": 404,
+ "featured": "Evet",
+ "editorial_status": "Taslak",
+ "topic_id": "marbella:ev",
+ "steps": "Yaşının başvuru anında 35 ya da altı olduğunu, AB/AEA/İsviçre vatandaşı olduğunu ya da AB dışındaysan İspanya'da düzenli ikamet/kalış durumunda bulunduğunu karşıla.\nKira sözleşmenin (ya da sözleşme taahhüdünün) senin adına olduğundan ve geçen vergi döneminde gelirinin tek kişide 3 IPREM, ortak hanede 4 IPREM sınırını aşmadığından emin ol.\nFNMT'den kişisel dijital sertifika al ve bilgisayarına Autofirma programını yükle.\nYeni bir çağrı açıldığında başvuruyu Junta de Andalucía'nın VEAJA (Ventanilla Electrónica) hizmetinden, Catálogo de Procedimientos y Servicios üzerinden yap.\nYardım alırsan kira ödemelerini makbuz, banka dekontu ya da otomatik ödeme kaydıyla belgele.",
+ "documents": "FNMT'nin verdiği kişisel dijital sertifika (certificado digital de persona física)\nAutofirma programı\nKira sözleşmesi ya da sözleşme taahhüdü (compromiso de contrato)\nDüzenli gelir kaynağını gösteren belgeler\nAdres kaydı (empadronamiento) belgesi",
+ "timing": "Yardım en çok 24 ay; 2026 dönemi 13 Ocak - 22 Haziran 2026 arasında açıktı ve doldu.",
+ "cost": "",
+ "note": "Başvurular kapalı; yeni çağrı açılana kadar başvuru yapılamıyor.",
+ "visual_json": "",
+ "_sekme": "Yanıtlar",
+ "kaynaklar": [
+  {
+   "source_id": "marbella:kaynak:221",
+   "url": "https://www.juntadeandalucia.es/organismos/viviendajuventudyordenaciondelterritorio/areas/vivienda-rehabilitacion/fomento-alquiler/bono-alquiler-joven/paginas/convocatoria-2025.html",
+   "publisher": "Junta de Andalucía",
+   "text_file": "/home/user/corteqscities/uretim/marbella/_is/snap_kesif_ev/8916c067979dd980341df4b2f6c8bd6cc9ee2d1cf4142b94914359a7eb43d1d6.txt"
+  },
+  {
+   "source_id": "marbella:kaynak:220",
+   "url": "https://www.marbella.es/web/juventud/recursos-juveniles/vivienda/bono-alquiler-joven.html",
+   "publisher": "Ayuntamiento de Marbella - Juventud",
+   "text_file": "/home/user/corteqscities/uretim/marbella/_is/snap_kesif_ev/c39ce2b141c8625954269ac81f11463b9c00a9a92e655456d481253ce239ed37.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-bono-alquiler-joven-andalucia-2026-yardim-ve-durum-1",
+   "field": "summary",
+   "claim": "Yardım aylık en çok 250 euro",
+   "value": "250",
+   "unit": "EUR/ay",
+   "period": "2026",
+   "source_id": "marbella:kaynak:221",
+   "quote": "El importe de la ayuda es hasta un máximo de 250 euros mensuales."
+  },
+  {
+   "claim_id": "C-bono-alquiler-joven-andalucia-2026-yardim-ve-durum-2",
+   "field": "summary",
+   "claim": "Dönem en çok 24 ay, tam ve ardışık aylar",
+   "value": "24",
+   "unit": "ay",
+   "period": "2026",
+   "source_id": "marbella:kaynak:221",
+   "quote": "El período subvencionable podrá alcanzar hasta 24 meses, que han de ser naturales, completos y consecutivos."
+  },
+  {
+   "claim_id": "C-bono-alquiler-joven-andalucia-2026-yardim-ve-durum-3",
+   "field": "summary",
+   "claim": "Başvuru dönemi 13 Ocak 2026'da yeniden açıldı",
+   "value": "2026-01-13",
+   "unit": "",
+   "period": "2026",
+   "source_id": "marbella:kaynak:221",
+   "quote": "El plazo de presentación de solicitudes se reabrió el 13 de enero de 2026 a las 16:00 horas"
+  },
+  {
+   "claim_id": "C-bono-alquiler-joven-andalucia-2026-yardim-ve-durum-4",
+   "field": "summary",
+   "claim": "22 Haziran 2026'da 15.000 başvuruya ulaşılınca kapandı",
+   "value": "2026-06-22",
+   "unit": "",
+   "period": "2026",
+   "source_id": "marbella:kaynak:221",
+   "quote": "se cerró el día 22 de junio de 2026 cuando se alcanzó el número de 15.000 solicitudes presentadas."
+  },
+  {
+   "claim_id": "C-bono-alquiler-joven-andalucia-2026-yardim-ve-durum-5",
+   "field": "summary",
+   "claim": "Marbella gençlik sayfasında başvurular geçici olarak kapalı",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:220",
+   "quote": "¡SOLICITUDES TEMPORALMENTE CERRADAS!"
+  },
+  {
+   "claim_id": "C-bono-alquiler-joven-andalucia-2026-yardim-ve-durum-6",
+   "field": "summary",
+   "claim": "Başvuru yalnız çevrimiçi, VEAJA üzerinden",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:221",
+   "quote": "Las solicitudes se realizarán exclusivamente de manera telemática a través de la Ventanilla Electrónica de la Administración de la Junta de Andalucía (VEAJA)"
+  },
+  {
+   "claim_id": "C-bono-alquiler-joven-andalucia-2026-yardim-ve-durum-7",
+   "field": "summary",
+   "claim": "FNMT'den kişisel dijital sertifika gerekir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:221",
+   "quote": "Disponer de certificado digital de persona física emitido por la Fábrica Nacional de Moneda y Timbre."
+  },
+  {
+   "claim_id": "C-bono-alquiler-joven-andalucia-2026-yardim-ve-durum-8",
+   "field": "summary",
+   "claim": "Autofirma kurulu olmalı",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:221",
+   "quote": "Tener instalado el producto Autofirma"
+  },
+  {
+   "claim_id": "C-bono-alquiler-joven-andalucia-2026-yardim-ve-durum-9",
+   "field": "steps",
+   "claim": "Yaş sınırı 35 (35 dahil), reşit olmak",
+   "value": "35",
+   "unit": "yaş",
+   "period": "2026",
+   "source_id": "marbella:kaynak:221",
+   "quote": "Ser persona física mayor de edad y tener hasta treinta y cinco años, incluida la edad de treinta y cinco años en el momento de solicitar la ayuda."
+  },
+  {
+   "claim_id": "C-bono-alquiler-joven-andalucia-2026-yardim-ve-durum-10",
+   "field": "steps",
+   "claim": "AB dışı yabancılar düzenli kalış ya da ikamette olmalı",
+   "value": "",
+   "unit": "",
+   "period": "2026",
+   "source_id": "marbella:kaynak:221",
+   "quote": "En el caso de las personas extranjeras no comunitarios deberán hallarse en situación de estancia o residencia regular en España."
+  },
+  {
+   "claim_id": "C-bono-alquiler-joven-andalucia-2026-yardim-ve-durum-11",
+   "field": "summary",
+   "claim": "Tek kişide gelir sınırı 3 IPREM",
+   "value": "3",
+   "unit": "IPREM",
+   "period": "2026",
+   "source_id": "marbella:kaynak:221",
+   "quote": "Hasta 3 veces el Indicador Público de Renta de Efectos Múltiples (IPREM) para una sola persona."
+  },
+  {
+   "claim_id": "C-bono-alquiler-joven-andalucia-2026-yardim-ve-durum-12",
+   "field": "summary",
+   "claim": "Birden fazla kişilik hanede sınır 4 IPREM",
+   "value": "4",
+   "unit": "IPREM",
+   "period": "2026",
+   "source_id": "marbella:kaynak:221",
+   "quote": "Hasta 4 veces el IPREM para unidades familiares o de convivencia no unipersonales."
+  },
+  {
+   "claim_id": "C-bono-alquiler-joven-andalucia-2026-yardim-ve-durum-13",
+   "field": "summary",
+   "claim": "3 IPREM 14 maaşla 25.200 euro, 4 IPREM 33.600 euro",
+   "value": "25200 / 33600",
+   "unit": "EUR",
+   "period": "2026",
+   "source_id": "marbella:kaynak:221",
+   "quote": "Los datos calculados para 3 veces el IPREM en 14 pagas son 25.200,00 € y para 4 veces el IPREM son 33.600,00 €"
+  },
+  {
+   "claim_id": "C-bono-alquiler-joven-andalucia-2026-yardim-ve-durum-14",
+   "field": "documents",
+   "claim": "Düzenli gelir kaynağı gerekir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:221",
+   "quote": "Disponer de una fuente regular de ingresos."
+  },
+  {
+   "claim_id": "C-bono-alquiler-joven-andalucia-2026-yardim-ve-durum-15",
+   "field": "documents",
+   "claim": "Kira sözleşmesi ya da sözleşme taahhüdü sahibi olmak gerekir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:221",
+   "quote": "Un compromiso de contrato suscrito por el arrendador y el arrendatario que recoja las condiciones esenciales del contrato a firmar"
+  },
+  {
+   "claim_id": "C-bono-alquiler-joven-andalucia-2026-yardim-ve-durum-16",
+   "field": "documents",
+   "claim": "Adres kaydı yardım döneminin başından beri geçerli olmalı",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:221",
+   "quote": "alta en el padrón municipal debe estar vigente desde el inicio del periodo subvencionable"
+  },
+  {
+   "claim_id": "C-bono-alquiler-joven-andalucia-2026-yardim-ve-durum-17",
+   "field": "steps",
+   "claim": "Kira ödemesi makbuz, dekont, otomatik ödeme ya da hesaba yatırma ile kanıtlanır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:221",
+   "quote": "Se acreditará mediante recibo justificativo del pago, extracto bancario de la transferencia, domiciliación bancaria de dicha cuantía o de su ingreso en cuenta."
+  }
+ ],
+ "adimlar": [],
+ "butonlar": [
+  {
+   "action_id": "marbella:action:bono-alquiler-joven-andalucia-2026-yardim-ve-durum-1",
+   "label": "Bilgi al",
+   "url": "https://www.juntadeandalucia.es/organismos/viviendajuventudyordenaciondelterritorio/areas/vivienda-rehabilitacion/fomento-alquiler/bono-alquiler-joven/paginas/convocatoria-2025.html"
+  },
+  {
+   "action_id": "marbella:action:bono-alquiler-joven-andalucia-2026-yardim-ve-durum-2",
+   "label": "Bilgi al",
+   "url": "https://www.marbella.es/web/juventud/recursos-juveniles/vivienda/bono-alquiler-joven.html"
+  }
+ ]
+}
+
+===== KART 6/9: marbella:bono-alquiler-joven-kira-ust-siniri-oda-ve-yukumluluk =====
+{
+ "entry_id": "marbella:bono-alquiler-joven-kira-ust-siniri-oda-ve-yukumluluk",
+ "city_id": "marbella",
+ "slug": "bono-alquiler-joven-kira-ust-siniri-oda-ve-yukumluluk",
+ "title": "Bono Alquiler Joven'de oda kiralıyorsan ya da ev arkadaşlarıyla kalıyorsan kira üst sınırı ve yükümlülükler neler?",
+ "subtitle": "5 sözleşme türü, 600/900 euro konut sınırı, 300/380 euro kişi başı sınır; yardım sonrası 15 gün içinde bildirim",
+ "summary": "Bono Alquiler Joven kira sözleşmeni beş türden birine ayırır ve kira üst sınırı türe göre değişir. Konut sözleşmelerinde (tür 1, 2, 3 ve 4) konutun aylık kirası Plan Vive'in 1, 2 ve 3. grup belediyelerinde 900 euro, öteki Endülüs belediyelerinde 600 euroyu aşamaz; ev arkadaşlarıyla paylaştığın sözleşmede (tür 4) kişi başı kira ayrıca bu gruplarda 380, öteki belediyelerde 300 euro ile sınırlıdır. Oda sözleşmesinde (tür 5) odanın kirası 380 ya da 300 euroyu geçemez. Sözleşmede garaj, depo ve aidat ayrı yazılmamışsa kiradan yüzdelik kesinti yapılır; yardımı alırsan kira ödemelerini belgelemek ve koşullarda değişiklik olursa 15 gün içinde bildirmek zorundasın.",
+ "keywords": "Bono Alquiler Joven, oda kiralama, kira üst sınırı, ev arkadaşı, Plan Vive, kira yardımı, Endülüs",
+ "stages": "planning;new;settled",
+ "source_ids": "marbella:kaynak:221",
+ "reviewed_on": "2026-10-28",
+ "order": 405,
+ "featured": "Hayır",
+ "editorial_status": "Taslak",
+ "topic_id": "marbella:ev",
+ "steps": "Sözleşmen tek kişilik konut mu, aile/birlikte yaşayan grup mu, ev arkadaşı paylaşımı mı, yoksa oda sözleşmesi mi? Beş türden hangisine girdiğini belirle.\nKira tutarını tür sınırıyla karşılaştır: konut sözleşmelerinde 900 ya da 600 euro, paylaşımda ve odada kişi başı 380 ya da 300 euro.\nSözleşmede garaj, depo ve aidat ayrı yazılmamışsa kiradan düşülecek yüzdeyi hesaba kat: depo %5, garaj %10, garaj ve depo %15, yalnız aidat %5.\nYardımı alırsan aylık kira ödemelerini makbuz, banka dekontu ya da otomatik ödeme kaydıyla belgele.\nYardımı veren kuruma koşullarındaki değişikliği 15 gün içinde bildir.",
+ "documents": "Kira sözleşmesi ya da oda sözleşmesi\nKira ödemesi makbuzu, banka dekontu ya da otomatik ödeme kaydı",
+ "timing": "Yükümlülükler yardım dönemi boyunca sürer; değişiklikler 15 gün içinde bildirilir.",
+ "cost": "",
+ "note": "Plan Vive grupları Decreto 91/2020'nin Ek V listesinde yer alır.",
+ "visual_json": "",
+ "_sekme": "Yanıtlar",
+ "kaynaklar": [
+  {
+   "source_id": "marbella:kaynak:221",
+   "url": "https://www.juntadeandalucia.es/organismos/viviendajuventudyordenaciondelterritorio/areas/vivienda-rehabilitacion/fomento-alquiler/bono-alquiler-joven/paginas/convocatoria-2025.html",
+   "publisher": "Junta de Andalucía",
+   "text_file": "/home/user/corteqscities/uretim/marbella/_is/snap_kesif_ev/8916c067979dd980341df4b2f6c8bd6cc9ee2d1cf4142b94914359a7eb43d1d6.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-bono-alquiler-joven-kira-ust-siniri-oda-ve-yukumluluk-1",
+   "field": "summary",
+   "claim": "Tür 4: birden fazla bağımsız kiracılı sözleşme (aile/birlikte yaşayan olmayan)",
+   "value": "",
+   "unit": "",
+   "period": "2026",
+   "source_id": "marbella:kaynak:221",
+   "quote": "Tipo 4. Contrato de vivienda de varias personas arrendatarias que no forman una familia o una unidad de convivencia."
+  },
+  {
+   "claim_id": "C-bono-alquiler-joven-kira-ust-siniri-oda-ve-yukumluluk-2",
+   "field": "summary",
+   "claim": "Tür 5: yalnız oda sözleşmesi",
+   "value": "",
+   "unit": "",
+   "period": "2026",
+   "source_id": "marbella:kaynak:221",
+   "quote": "Tipo 5. Contrato de habitación."
+  },
+  {
+   "claim_id": "C-bono-alquiler-joven-kira-ust-siniri-oda-ve-yukumluluk-3",
+   "field": "summary",
+   "claim": "Konut kira sınırı Plan Vive 1, 2, 3. grup belediyelerinde 900 euro/ay",
+   "value": "900",
+   "unit": "EUR/ay",
+   "period": "2026",
+   "source_id": "marbella:kaynak:221",
+   "quote": "900 € mensuales para las viviendas ubicadas en municipios de los Grupos 1, 2 y 3 relacionados en el Anexo V del Decreto 91/2020"
+  },
+  {
+   "claim_id": "C-bono-alquiler-joven-kira-ust-siniri-oda-ve-yukumluluk-4",
+   "field": "summary",
+   "claim": "Diğer Endülüs belediyelerinde konut kira sınırı 600 euro/ay",
+   "value": "600",
+   "unit": "EUR/ay",
+   "period": "2026",
+   "source_id": "marbella:kaynak:221",
+   "quote": "600 € mensuales para el resto de municipios andaluces."
+  },
+  {
+   "claim_id": "C-bono-alquiler-joven-kira-ust-siniri-oda-ve-yukumluluk-5",
+   "field": "summary",
+   "claim": "Tür 4 ve oda sözleşmesinde kişi başı sınır 1, 2, 3. grupta 380 euro",
+   "value": "380",
+   "unit": "EUR/ay",
+   "period": "2026",
+   "source_id": "marbella:kaynak:221",
+   "quote": "380 € para las viviendas ubicadas en municipios de los Grupos 1, 2 y 3 del Anexo V del Plan Vive."
+  },
+  {
+   "claim_id": "C-bono-alquiler-joven-kira-ust-siniri-oda-ve-yukumluluk-6",
+   "field": "summary",
+   "claim": "Diğer belediyelerde kişi başı ya da oda sınırı 300 euro/ay",
+   "value": "300",
+   "unit": "EUR/ay",
+   "period": "2026",
+   "source_id": "marbella:kaynak:221",
+   "quote": "300 € mensuales para el resto de municipios andaluces."
+  },
+  {
+   "claim_id": "C-bono-alquiler-joven-kira-ust-siniri-oda-ve-yukumluluk-7",
+   "field": "steps",
+   "claim": "Garaj ve depo ayrı yazılmamışsa depo için %5 kesinti",
+   "value": "5",
+   "unit": "%",
+   "period": "2026",
+   "source_id": "marbella:kaynak:221",
+   "quote": "El 5 por ciento de la establecida en contrato cuando este incluya vivienda y trastero;"
+  },
+  {
+   "claim_id": "C-bono-alquiler-joven-kira-ust-siniri-oda-ve-yukumluluk-8",
+   "field": "steps",
+   "claim": "Garaj için %10 kesinti",
+   "value": "10",
+   "unit": "%",
+   "period": "2026",
+   "source_id": "marbella:kaynak:221",
+   "quote": "El 10 por ciento cuando este incluya vivienda y garaje."
+  },
+  {
+   "claim_id": "C-bono-alquiler-joven-kira-ust-siniri-oda-ve-yukumluluk-9",
+   "field": "steps",
+   "claim": "Garaj, depo ve konut birlikte ise %15 kesinti",
+   "value": "15",
+   "unit": "%",
+   "period": "2026",
+   "source_id": "marbella:kaynak:221",
+   "quote": "El 15 por ciento cuando incluya vivienda, garaje y trastero."
+  },
+  {
+   "claim_id": "C-bono-alquiler-joven-kira-ust-siniri-oda-ve-yukumluluk-10",
+   "field": "steps",
+   "claim": "Yalnız aidat dahilse %5 kesinti",
+   "value": "5",
+   "unit": "%",
+   "period": "2026",
+   "source_id": "marbella:kaynak:221",
+   "quote": "El 5 por ciento cuando incluya sólo gastos de comunidad."
+  },
+  {
+   "claim_id": "C-bono-alquiler-joven-kira-ust-siniri-oda-ve-yukumluluk-11",
+   "field": "steps",
+   "claim": "Kira ödemesi makbuz, dekont, otomatik ödeme ya da hesaba yatırma ile kanıtlanır",
+   "value": "",
+   "unit": "",
+   "period": "2026",
+   "source_id": "marbella:kaynak:221",
+   "quote": "Se acreditará mediante recibo justificativo del pago, extracto bancario de la transferencia, domiciliación bancaria de dicha cuantía o de su ingreso en cuenta."
+  },
+  {
+   "claim_id": "C-bono-alquiler-joven-kira-ust-siniri-oda-ve-yukumluluk-12",
+   "field": "steps",
+   "claim": "Koşul değişikliği 15 gün içinde bildirilir",
+   "value": "15",
+   "unit": "gün",
+   "period": "2026",
+   "source_id": "marbella:kaynak:221",
+   "quote": "Comunicar en un plazo de 15 días al órgano competente para la resolución de la ayuda cualquier modificación"
+  },
+  {
+   "claim_id": "C-bono-alquiler-joven-kira-ust-siniri-oda-ve-yukumluluk-13",
+   "field": "summary",
+   "claim": "Garaj, depo ve aidat yardım kapsamında değil",
+   "value": "",
+   "unit": "",
+   "period": "2026",
+   "source_id": "marbella:kaynak:221",
+   "quote": "No serán subvencionables las rentas derivadas de anejos a la vivienda, ni otros gastos reflejados en el contrato de alquiler (garajes, trasteros o gastos de la comunidad)."
+  }
+ ],
+ "adimlar": [],
+ "butonlar": [
+  {
+   "action_id": "marbella:action:bono-alquiler-joven-kira-ust-siniri-oda-ve-yukumluluk-1",
+   "label": "Bilgi al",
+   "url": "https://www.juntadeandalucia.es/organismos/viviendajuventudyordenaciondelterritorio/areas/vivienda-rehabilitacion/fomento-alquiler/bono-alquiler-joven/paginas/convocatoria-2025.html"
+  }
+ ]
+}
+
+===== KART 7/9: marbella:kirilgan-kiraci-icin-junta-kira-yardimi =====
+{
+ "entry_id": "marbella:kirilgan-kiraci-icin-junta-kira-yardimi",
+ "city_id": "marbella",
+ "slug": "kirilgan-kiraci-icin-junta-kira-yardimi",
+ "title": "Tahliye tehdidi altındaysan ya da kırılgan durumdaysan Junta de Andalucía kira yardımı alabilir misin?",
+ "subtitle": "Tahliye edilenler, cinsiyet temelli şiddet mağdurları ve evsizler için kira yardımı: kira en çok 600 euro, aidat en çok 200 euro",
+ "summary": "Evet: Junta de Andalucía, cinsiyet temelli şiddet, insan ticareti ya da cinsel şiddet mağdurlarına, evinden tahliye edilen kişilere, evsizlere ve sosyal hizmetlerin özel olarak kırılgan saydığı kişilere kira yardımı veriyor. Kira sözleşmesi Ley 29/1994'e göre yapılmış, kira en çok 600 euro (gerekçeli durumda 900 euro) olmalı; aidat da en çok 200 euro/ay karşılanır. Mağdur olduğunu gösteren belge ve Endülüs'te adres kaydı (ya da Policía Local'ın bir yılı aşkın yerleşim belgesi) gerekir. Son çağrının başvuru dönemi 3 Kasım - 2 Aralık 2025 idi ve kredi bitince dönem erken kapanır; başvuru Málaga ilindeki konut için Málaga'nın konut delegasyonuna yapılır.",
+ "keywords": "kira yardımı, tahliye, desahucio, kırılgan kiracı, Junta de Andalucía, sosyal hizmetler, evsizler",
+ "stages": "settled",
+ "source_ids": "marbella:kaynak:222;marbella:kaynak:223",
+ "reviewed_on": "2026-10-28",
+ "order": 406,
+ "featured": "Hayır",
+ "editorial_status": "Taslak",
+ "topic_id": "marbella:ev",
+ "steps": "Önce Marbella Sosyal Hizmetleri'nden (Delegación de Derechos Sociales) durumunu gösteren belge ya da rapor al; yardım için mağdur ya da tahliye edilen kişi olduğunu belgelemen gerekir.\nKira sözleşmenin konutun asıl ikametgâhı için ve kirası 600 euroyu (gerekçeli durumda 900 euro) aşmayacak şekilde yapıldığından emin ol.\nBaşvuru formunu (Anexo I) ve kanıt belgesini Junta de Andalucía'nın konut delegasyonuna, konutun bulunduğu il için çevrimiçi ya da ley 39/2015 madde 16.4'teki kayıt yerlerinden vererek başvur.\nÖn karar önerisini aldığında Anexo II ile itirazını, kabulünü ve istenen belgeleri 10 iş günü içinde teslim et.\nTahliye riskinde danışmanlık için 012 ya da 955 012 012'yi ara.",
+ "documents": "Anexo I başvuru formu\nMağdur ya da tahliye edilen kişi olduğunu gösteren belge (1 Ocak 2024'ten sonra düzenlenmiş ya da güncellenmiş)\nDNI/NIE ya da pasaport (ya da uluslararası koruma başvuru belgesi)\nKonutun kira sözleşmesi\nAdres kaydı (empadronamiento) belgesi ya da Policía Local'ın bir yılı aşkın yerleşim belgesi",
+ "timing": "Son çağrı: 3 Kasım - 2 Aralık 2025 (kredi biterse daha erken kapanır). Ek belgeler için ön karar bildiriminden sonra 10 iş günü.",
+ "cost": "Kira en çok 600 euro (gerekçeli durumda 900 euro); aidat en çok 200 euro/ay yardım kapsamında.",
+ "note": "",
+ "visual_json": "",
+ "_sekme": "Yanıtlar",
+ "kaynaklar": [
+  {
+   "source_id": "marbella:kaynak:222",
+   "url": "https://www.juntadeandalucia.es/organismos/fomentoarticulaciondelterritorioyvivienda/areas/vivienda-rehabilitacion/fomento-alquiler/ayudas-vulnerables-general/paginas/vulnerables-2025.html",
+   "publisher": "Junta de Andalucía",
+   "text_file": "/home/user/corteqscities/uretim/marbella/_is/snap_kesif_ev/a5a644cd318b754cfd1405950828539d106017a86fc54a072795ec7fbace83d1.txt"
+  },
+  {
+   "source_id": "marbella:kaynak:223",
+   "url": "https://www.juntadeandalucia.es/temas/vivienda-consumo/compra/desahucios.html",
+   "publisher": "Junta de Andalucía",
+   "text_file": "/home/user/corteqscities/uretim/marbella/_is/snap_kesif_ev/3f03f7ade9aac75afee32352278d487bd3cd7fbf4c9ef63995289e8d22fe8e0a.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-kirilgan-kiraci-icin-junta-kira-yardimi-1",
+   "field": "summary",
+   "claim": "Hedef kitle: cinsiyet şiddeti, insan ticareti, cinsel şiddet mağdurları, tahliye edilenler, evsizler",
+   "value": "",
+   "unit": "",
+   "period": "2025",
+   "source_id": "marbella:kaynak:222",
+   "quote": "víctimas de violencia de género, víctimas de trata con fines de explotación sexual, víctimas de violencia sexual, personas objeto de desahucio de su vivienda habitual, personas sin hogar"
+  },
+  {
+   "claim_id": "C-kirilgan-kiraci-icin-junta-kira-yardimi-2",
+   "field": "summary",
+   "claim": "Kira en çok 600 euro/ay olmalı",
+   "value": "600",
+   "unit": "EUR/ay",
+   "period": "2025",
+   "source_id": "marbella:kaynak:222",
+   "quote": "deberá ser igual o inferior a 600 euros mensuales"
+  },
+  {
+   "claim_id": "C-kirilgan-kiraci-icin-junta-kira-yardimi-3",
+   "field": "summary",
+   "claim": "Gerekçeli durumda kira 900 euroya kadar çıkabilir",
+   "value": "900",
+   "unit": "EUR/ay",
+   "period": "2025",
+   "source_id": "marbella:kaynak:222",
+   "quote": "la renta arrendaticia podrá alcanzar hasta 900 euros al mes."
+  },
+  {
+   "claim_id": "C-kirilgan-kiraci-icin-junta-kira-yardimi-4",
+   "field": "summary",
+   "claim": "Aidat en çok 200 euro/ay karşılanır",
+   "value": "200",
+   "unit": "EUR/ay",
+   "period": "2025",
+   "source_id": "marbella:kaynak:222",
+   "quote": "Gastos de comunidad con un máximo de 200 € mensuales."
+  },
+  {
+   "claim_id": "C-kirilgan-kiraci-icin-junta-kira-yardimi-5",
+   "field": "summary",
+   "claim": "Endülüs adres kaydı ya da Policía Local'ın bir yılı aşkın yerleşim belgesi gerekir",
+   "value": "1",
+   "unit": "yıl",
+   "period": "2025",
+   "source_id": "marbella:kaynak:222",
+   "quote": "Estar empadronada en Andalucía o acreditar mediante certificado de la Policía Local que acredite el establecimiento en la zona de más de un año de antigüedad"
+  },
+  {
+   "claim_id": "C-kirilgan-kiraci-icin-junta-kira-yardimi-6",
+   "field": "summary",
+   "claim": "Kiraya veren kamu idaresi ya da kamu şirketiyse yardım alınamaz",
+   "value": "",
+   "unit": "",
+   "period": "2025",
+   "source_id": "marbella:kaynak:222",
+   "quote": "La persona arrendadora de la vivienda sea una administración pública o empresa pública."
+  },
+  {
+   "claim_id": "C-kirilgan-kiraci-icin-junta-kira-yardimi-7",
+   "field": "timing",
+   "claim": "Son çağrının başvuru dönemi 3 Kasım - 2 Aralık 2025",
+   "value": "2025-11-03 / 2025-12-02",
+   "unit": "",
+   "period": "2025",
+   "source_id": "marbella:kaynak:222",
+   "quote": "desde el 3 de noviembre de 2025 hasta el 2 de diciembre de 2025"
+  },
+  {
+   "claim_id": "C-kirilgan-kiraci-icin-junta-kira-yardimi-8",
+   "field": "timing",
+   "claim": "Kredi biterse başvuru dönemi erken kapanır",
+   "value": "",
+   "unit": "",
+   "period": "2025",
+   "source_id": "marbella:kaynak:222",
+   "quote": "se dará por finalizado dicho plazo, de conformidad con el artículo 12 de las bases reguladoras tipo"
+  },
+  {
+   "claim_id": "C-kirilgan-kiraci-icin-junta-kira-yardimi-9",
+   "field": "steps",
+   "claim": "Başvuru, konutun bulunduğu ilin Delegación Territorial de Fomento, Articulación del Territorio y Vivienda'sına yapılır",
+   "value": "",
+   "unit": "",
+   "period": "2025",
+   "source_id": "marbella:kaynak:222",
+   "quote": "Delegación Territorial de Fomento, Articulación del Territorio y Vivienda de la provincia en la que esté ubicada la vivienda objeto del contrato de arrendamiento"
+  },
+  {
+   "claim_id": "C-kirilgan-kiraci-icin-junta-kira-yardimi-10",
+   "field": "timing",
+   "claim": "Anexo II için süre, ön karar bildiriminden sonra 10 iş günü",
+   "value": "10",
+   "unit": "iş günü",
+   "period": "2025",
+   "source_id": "marbella:kaynak:222",
+   "quote": "será de diez días hábiles a partir del día siguiente al de la notificación de la propuesta provisional de resolución"
+  },
+  {
+   "claim_id": "C-kirilgan-kiraci-icin-junta-kira-yardimi-11",
+   "field": "documents",
+   "claim": "Kimlik: DNI/NIE ya da pasaport",
+   "value": "",
+   "unit": "",
+   "period": "2025",
+   "source_id": "marbella:kaynak:222",
+   "quote": "DNI/ NIE, o según el caso, documentación de solicitud de protección internacional o pasaporte en vigor o en proceso de renovación"
+  },
+  {
+   "claim_id": "C-kirilgan-kiraci-icin-junta-kira-yardimi-12",
+   "field": "summary",
+   "claim": "Kırılgan sayılma kararını sosyal hizmetler verir",
+   "value": "",
+   "unit": "",
+   "period": "2025",
+   "source_id": "marbella:kaynak:222",
+   "quote": "consideradas como tales por los Servicios Sociales de la Comunidad Autónoma o de la Administración Local correspondiente"
+  },
+  {
+   "claim_id": "C-kirilgan-kiraci-icin-junta-kira-yardimi-13",
+   "field": "documents",
+   "claim": "Kanıt belgesi 1 Ocak 2024'ten itibaren düzenlenmiş ya da güncellenmiş olabilir",
+   "value": "2024-01-01",
+   "unit": "",
+   "period": "2025",
+   "source_id": "marbella:kaynak:222",
+   "quote": "Dicho documento podrá haber sido emitido o actualizado desde el 1 de enero de 2024."
+  },
+  {
+   "claim_id": "C-kirilgan-kiraci-icin-junta-kira-yardimi-14",
+   "field": "summary",
+   "claim": "Kira sözleşmesi Ley 29/1994 (Arrendamientos Urbanos) kapsamında olmalı",
+   "value": "",
+   "unit": "",
+   "period": "2025",
+   "source_id": "marbella:kaynak:222",
+   "quote": "de conformidad con la Ley 29/1994, de 24 de noviembre, de Arrendamientos Urbanos"
+  },
+  {
+   "claim_id": "C-kirilgan-kiraci-icin-junta-kira-yardimi-15",
+   "field": "steps",
+   "claim": "Başvuru formu Anexo I",
+   "value": "",
+   "unit": "",
+   "period": "2025",
+   "source_id": "marbella:kaynak:222",
+   "quote": "se deberá presentar el formulario de solicitud (Anexo I)"
+  },
+  {
+   "claim_id": "C-kirilgan-kiraci-icin-junta-kira-yardimi-16",
+   "field": "steps",
+   "claim": "Başvuru çevrimiçi ya da yüz yüze",
+   "value": "",
+   "unit": "",
+   "period": "2025",
+   "source_id": "marbella:kaynak:222",
+   "quote": "se podrán presentar bien de manera telemática o presencial"
+  },
+  {
+   "claim_id": "C-kirilgan-kiraci-icin-junta-kira-yardimi-17",
+   "field": "steps",
+   "claim": "Ön karar önerisinin kabulü ya da vazgeçme Anexo II ile bildirilir",
+   "value": "",
+   "unit": "",
+   "period": "2025",
+   "source_id": "marbella:kaynak:222",
+   "quote": "Comunicar la aceptación o desistimiento de la propuesta provisional de resolución."
+  },
+  {
+   "claim_id": "C-kirilgan-kiraci-icin-junta-kira-yardimi-18",
+   "field": "steps",
+   "claim": "Tahliye riskinde danışmanlık sistemi var; telefon 012 ya da 955 012 012",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:223",
+   "quote": "Para solicitar más información llama a los teléfonos 012 o 955 012 012."
+  },
+  {
+   "claim_id": "C-kirilgan-kiraci-icin-junta-kira-yardimi-19",
+   "field": "steps",
+   "claim": "Evini kaybetme riski olanlara kişisel danışmanlık ve bilgi sistemi sunuluyor",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:223",
+   "quote": "Dispones de un sistema de asesoramiento e información personalizado destinado a los sectores de población que corren riesgo de pérdida de su vivienda habitual."
+  }
+ ],
+ "adimlar": [],
+ "butonlar": [
+  {
+   "action_id": "marbella:action:kirilgan-kiraci-icin-junta-kira-yardimi-1",
+   "label": "Başvur",
+   "url": "https://www.juntadeandalucia.es/organismos/fomentoarticulaciondelterritorioyvivienda/areas/vivienda-rehabilitacion/fomento-alquiler/ayudas-vulnerables-general/paginas/vulnerables-2025.html"
+  },
+  {
+   "action_id": "marbella:action:kirilgan-kiraci-icin-junta-kira-yardimi-2",
+   "label": "Bilgi al",
+   "url": "https://www.juntadeandalucia.es/temas/vivienda-consumo/compra/desahucios.html"
+  }
+ ]
+}
+
+===== KART 8/9: marbella:tahliye-ve-ipotek-riskinde-marbella-sosyal-hizmetler =====
+{
+ "entry_id": "marbella:tahliye-ve-ipotek-riskinde-marbella-sosyal-hizmetler",
+ "city_id": "marbella",
+ "slug": "tahliye-ve-ipotek-riskinde-marbella-sosyal-hizmetler",
+ "title": "Marbella'da kira ya da ipotek yüzünden evini kaybetme riskin varsa nereye gidersin?",
+ "subtitle": "Vázquez Clavel 25'teki Derechos Sociales delegasyonu, ipotek aracılık ofisi ve Junta'nın 012 hattı",
+ "summary": "Marbella'da önce belediyenin Delegación de Derechos Sociales ofisine ya da Centro de Servicios Sociales Comunitarios'a git: Calle Vázquez Clavel nº 25 bajos, 29603 Marbella, telefon 952 768 700. İpotek borcun varsa aynı adreste Oficina de Intermediación Hipotecaria da çalışıyor. San Pedro Alcántara'da Calle Viento de Levante s/n adresindeki merkez (952 768 735) aynı hizmeti verir. Belediyenin hizmet şartnamesine göre sosyal çalışmacıyla ilk görüşme en geç 20 iş günü içinde yapılır; şartname 2019'da güncellenmiş. Junta de Andalucía'nın tahliye yardımları ve konut koruma danışmanlığı için 012 ya da 955 012 012'yi arayabilirsin.",
+ "keywords": "tahliye, desahucio, ipotek, sosyal hizmetler, Derechos Sociales, Marbella, konut kaybı",
+ "stages": "settled",
+ "source_ids": "marbella:kaynak:188;marbella:kaynak:223",
+ "reviewed_on": "2026-10-28",
+ "order": 407,
+ "featured": "Hayır",
+ "editorial_status": "Taslak",
+ "topic_id": "marbella:ev",
+ "steps": "Marbella'da Calle Vázquez Clavel nº 25 bajos adresindeki Delegación de Derechos Sociales'e git ya da 952 768 700'ü ara; San Pedro Alcántara'da Calle Viento de Levante s/n'deki merkez için 952 768 735'i ara.\nİpotek borcun yüzünden evini kaybetme riskin varsa aynı adreste Oficina de Intermediación Hipotecaria'ya başvur.\nSosyal çalışmacıyla ilk görüşme için en geç 20 iş günü içinde randevu verilmesi hedefleniyor; e-posta ile derechossociales@marbella.es adresine de yazabilirsin.\nJunta de Andalucía'nın tahliye yardımları ve konut koruma danışmanlığı için 012 ya da 955 012 012'yi ara.",
+ "documents": "",
+ "timing": "Sosyal çalışmacıyla ilk görüşme en geç 20 iş günü içinde; başvuru dosyası tamamlandıktan sonra belediye yardımları 14 iş günü içinde işleme alınır.",
+ "cost": "",
+ "note": "",
+ "visual_json": "",
+ "_sekme": "Yanıtlar",
+ "kaynaklar": [
+  {
+   "source_id": "marbella:kaynak:188",
+   "url": "https://ayuntamiento.marbella.es/documentos/cartas-de-servicios-municipales/1062-carta-de-servicios-de-la-delegacion-de-derechos-sociales.html",
+   "publisher": "Ayuntamiento de Marbella",
+   "text_file": "/home/user/corteqscities/uretim/marbella/_is/snap_kesif_planlama/54083ed54a0ddde8c7f3edce5f33cc61f7fd26c25900f7facb0a7d93451a0aa5.txt"
+  },
+  {
+   "source_id": "marbella:kaynak:223",
+   "url": "https://www.juntadeandalucia.es/temas/vivienda-consumo/compra/desahucios.html",
+   "publisher": "Junta de Andalucía",
+   "text_file": "/home/user/corteqscities/uretim/marbella/_is/snap_kesif_ev/3f03f7ade9aac75afee32352278d487bd3cd7fbf4c9ef63995289e8d22fe8e0a.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-tahliye-ve-ipotek-riskinde-marbella-sosyal-hizmetler-1",
+   "field": "location",
+   "claim": "Marbella Derechos Sociales ve Servicios Sociales Comunitarios: Vázquez Clavel 25 bajos, tel. 952768700",
+   "value": "952768700",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:188",
+   "quote": "Calle Vázquez Clavel nº 25 bajos 29603 Marbella 952768700"
+  },
+  {
+   "claim_id": "C-tahliye-ve-ipotek-riskinde-marbella-sosyal-hizmetler-2",
+   "field": "location",
+   "claim": "Oficina de Intermediación Hipotecaria aynı adreste",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:188",
+   "quote": "Oficina de Intermediación Hipotecaria Calle Vázquez Clavel nº 25 bajos 29603 Marbella 952768700"
+  },
+  {
+   "claim_id": "C-tahliye-ve-ipotek-riskinde-marbella-sosyal-hizmetler-3",
+   "field": "location",
+   "claim": "San Pedro Alcántara merkezi Calle Viento de Levante s/n, tel. 952768735",
+   "value": "952768735",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:188",
+   "quote": "SAN PEDRO ALCANTARA Calle Viento de Levante s/n 29670 San Pedro Alcántara 952768735"
+  },
+  {
+   "claim_id": "C-tahliye-ve-ipotek-riskinde-marbella-sosyal-hizmetler-4",
+   "field": "steps",
+   "claim": "Sosyal çalışmacıyla ilk görüşme için en çok 20 gün (iş günü)",
+   "value": "20",
+   "unit": "iş günü",
+   "period": "2019",
+   "source_id": "marbella:kaynak:188",
+   "quote": "Indicador: Porcentaje de primeras entrevistas realizadas en un plazo máximo de 20 días hábiles"
+  },
+  {
+   "claim_id": "C-tahliye-ve-ipotek-riskinde-marbella-sosyal-hizmetler-5",
+   "field": "timing",
+   "claim": "Değerlendirme gerektiren belediye yardımları dosya tamamlandıktan sonra 14 iş günü içinde işleme alınır",
+   "value": "14",
+   "unit": "iş günü",
+   "period": "2019",
+   "source_id": "marbella:kaynak:188",
+   "quote": "Plazo de 14 días hábiles para la tramitación de todas las prestaciones municipales que requieren valoración social (una vez completa la documentación)"
+  },
+  {
+   "claim_id": "C-tahliye-ve-ipotek-riskinde-marbella-sosyal-hizmetler-6",
+   "field": "steps",
+   "claim": "Delegasyonun e-posta adresi",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:188",
+   "quote": "e-mail: derechossociales@marbella.es"
+  },
+  {
+   "claim_id": "C-tahliye-ve-ipotek-riskinde-marbella-sosyal-hizmetler-7",
+   "field": "summary",
+   "claim": "Hizmet şartnamesi 29 Kasım 2019'da güncellenmiş",
+   "value": "2019-11-29",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:188",
+   "quote": "Actualizado el 29 Noviembre 2019"
+  },
+  {
+   "claim_id": "C-tahliye-ve-ipotek-riskinde-marbella-sosyal-hizmetler-8",
+   "field": "steps",
+   "claim": "Junta tahliye yardımları ve konut koruma danışmanlığı sunuyor; 012 / 955 012 012",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:223",
+   "quote": "Para solicitar más información llama a los teléfonos 012 o 955 012 012."
+  },
+  {
+   "claim_id": "C-tahliye-ve-ipotek-riskinde-marbella-sosyal-hizmetler-9",
+   "field": "summary",
+   "claim": "Evini kaybetme riski altındakilere kişisel danışmanlık sistemi var",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:223",
+   "quote": "Dispones de un sistema de asesoramiento e información personalizado destinado a los sectores de población que corren riesgo de pérdida de su vivienda habitual."
+  }
+ ],
+ "adimlar": [],
+ "butonlar": [
+  {
+   "action_id": "marbella:action:tahliye-ve-ipotek-riskinde-marbella-sosyal-hizmetler-1",
+   "label": "Bilgi al",
+   "url": "https://ayuntamiento.marbella.es/documentos/cartas-de-servicios-municipales/1062-carta-de-servicios-de-la-delegacion-de-derechos-sociales.html"
+  },
+  {
+   "action_id": "marbella:action:tahliye-ve-ipotek-riskinde-marbella-sosyal-hizmetler-2",
+   "label": "Bilgi al",
+   "url": "https://www.juntadeandalucia.es/temas/vivienda-consumo/compra/desahucios.html"
+  }
+ ]
+}
+
+===== KART 9/9: marbella:turistik-kiralik-daire-kurallari-ve-kiraci =====
+{
+ "entry_id": "marbella:turistik-kiralik-daire-kurallari-ve-kiraci",
+ "city_id": "marbella",
+ "slug": "turistik-kiralik-daire-kurallari-ve-kiraci",
+ "title": "Marbella'da turistik kiralık daire (VUT) kuralları uzun dönem kiracıyı nasıl etkiler?",
+ "subtitle": "Aynı kiracıya kesintisiz 2 aydan uzun kira VUT sayılmaz; ilan kayıtlı mı diye Registro de Turismo'da aranır",
+ "summary": "Bir konutu aynı kiracıya kesintisiz iki aydan uzun süreyle kiralamak Endülüs kurallarında turistik konut (vivienda de uso turístico, VUT) sayılmaz; yani uzun dönem sözleşmenle oturuyorsan VUT kayıt kuralları senin sözleşmeni kapsamaz. Konut, rezervasyon imkânı veren turistik kanallarda ilan edilirse turistik amaçlı sayılır ve ev sahibinin Registro de Turismo de Andalucía'ya kayıtlı olması gerekir; kayıtsız işletme 'clandestina' sayılır ve ağır ihlaldir. Korumalı konutlar ve apartman tüzüğü turistik kullanımı açıkça yasaklayan binalar VUT olamaz. Marbella Belediyesi Şubat 2025'te belediye VUT sicili ve dükkân alanlarının turistik amaçla kullanımını sınırlayan yeni bir ordonans hazırladığını duyurdu.",
+ "keywords": "turistik kiralık, VUT, vivienda de uso turístico, Registro de Turismo de Andalucía, kısa dönem kira, Marbella",
+ "stages": "planning;new;settled",
+ "source_ids": "marbella:kaynak:191;marbella:kaynak:224",
+ "reviewed_on": "2026-10-28",
+ "order": 408,
+ "featured": "Hayır",
+ "editorial_status": "Taslak",
+ "topic_id": "marbella:ev",
+ "steps": "Uzun dönem sözleşmeni aynı kiracıya (sana) kesintisiz iki aydan uzun süreyle yazdır; bu durumda konut VUT sayılmaz.\nTuristik kiralık ilan gördüğünde ilanın Registro de Turismo de Andalucía'da kayıtlı olup olmadığını Buscador de Establecimientos y Servicios Turísticos ile ara: kayıt numarası, ticari ad, konut adresi ya da işleten kişinin adı ile aranabilir.\nKonutun korumalı konut olup olmadığına ve apartman tüzüğünün turistik kullanımı yasaklayıp yasaklamadığına bak; ikisinde de konut VUT olamaz.\nEv sahibi mevsimlik kısa dönem kiraya yönelirse bunun turistik kiralama sayılabileceğini bil: rezervasyon yapılabilen kanallarda satılan ya da gün/hafta ile kiralanan konut VUT olarak kaydedilmelidir.",
+ "documents": "",
+ "timing": "",
+ "cost": "VUT kaydı ev sahibi için ücretsizdir.",
+ "note": "",
+ "visual_json": "",
+ "_sekme": "Yanıtlar",
+ "kaynaklar": [
+  {
+   "source_id": "marbella:kaynak:191",
+   "url": "https://www.juntadeandalucia.es/organismos/turismoyandaluciaexterior/areas/registro-turismo/establecimientos-servicios/paginas/faq-viviendas-turismo.html",
+   "publisher": "Junta de Andalucía - Turismo",
+   "text_file": "/home/user/corteqscities/uretim/marbella/_is/snap_kesif_planlama/fcf30f83839248de18ea30b129b2f60f840da699c0c25dd1e8ccaa708f09ee5b.txt"
+  },
+  {
+   "source_id": "marbella:kaynak:224",
+   "url": "https://www.marbella.es/actualidad/noticias/marbella-contara-con-un-registro-municipal-de-viviendas-turisticas-y-con-una-nueva-normativa-que-limitara-el-cambio-de-uso-para-esta-actividad-de-los-locales-comerciales.html",
+   "publisher": "Ayuntamiento de Marbella",
+   "text_file": "/home/user/corteqscities/uretim/marbella/_is/snap_kesif_ev/46abe21f69f974d9e0a9fff595da11ce8115569fc4c55481b18e210bbaa73838.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-turistik-kiralik-daire-kurallari-ve-kiraci-1",
+   "field": "summary",
+   "claim": "Aynı kiracıya kesintisiz 2 aydan uzun kiralanan konut VUT sayılmaz",
+   "value": "2",
+   "unit": "ay",
+   "period": "",
+   "source_id": "marbella:kaynak:191",
+   "quote": "Las viviendas arrendadas por tiempo superior a dos meses computados de forma continuada a un mismo arrendatario."
+  },
+  {
+   "claim_id": "C-turistik-kiralik-daire-kurallari-ve-kiraci-2",
+   "field": "summary",
+   "claim": "Turistik kanallarda pazarlanan konut turistik amaçlı sayılır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:191",
+   "quote": "Se presumirá que existe finalidad turística cuando la vivienda sea comercializada o promocionada en canales de oferta turística."
+  },
+  {
+   "claim_id": "C-turistik-kiralik-daire-kurallari-ve-kiraci-3",
+   "field": "summary",
+   "claim": "Kayıtsız işletme clandestina sayılır ve ağır ihlal",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:191",
+   "quote": "En caso de ejercer la actividad sin haber presentado esta Declaración Responsable, se considerará su vivienda como clandestina, estando tipificado como infracción grave"
+  },
+  {
+   "claim_id": "C-turistik-kiralik-daire-kurallari-ve-kiraci-4",
+   "field": "summary",
+   "claim": "Korumalı konutlar VUT olamaz",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:191",
+   "quote": "Las viviendas sometidas a régimen de protección pública, no pudiendo destinarse a tal fin ni completas ni por habitaciones."
+  },
+  {
+   "claim_id": "C-turistik-kiralik-daire-kurallari-ve-kiraci-5",
+   "field": "summary",
+   "claim": "Tüzüğü turistik kullanımı yasaklayan binalardaki konutlar VUT olamaz",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:191",
+   "quote": "Las viviendas ubicadas en inmuebles cuyos títulos constitutivos o estatutos de la comunidad de propietarios contengan prohibición expresa para la actividad de alojamiento turístico"
+  },
+  {
+   "claim_id": "C-turistik-kiralik-daire-kurallari-ve-kiraci-6",
+   "field": "steps",
+   "claim": "Kayıt numarası, ticari ad ya da adresle arama yapılabilir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:191",
+   "quote": "Por número de inscripción en el Registro de Turismo."
+  },
+  {
+   "claim_id": "C-turistik-kiralik-daire-kurallari-ve-kiraci-7",
+   "field": "steps",
+   "claim": "Adresle arama seçeneği",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:191",
+   "quote": "Por domicilio de la vivienda"
+  },
+  {
+   "claim_id": "C-turistik-kiralik-daire-kurallari-ve-kiraci-8",
+   "field": "cost",
+   "claim": "Registro de Turismo kaydı ücretsiz",
+   "value": "0",
+   "unit": "EUR",
+   "period": "",
+   "source_id": "marbella:kaynak:191",
+   "quote": "Ninguno, es totalmente gratuito."
+  },
+  {
+   "claim_id": "C-turistik-kiralik-daire-kurallari-ve-kiraci-9",
+   "field": "summary",
+   "claim": "Marbella Belediyesi belediye VUT sicili ve yeni ordonans duyurdu",
+   "value": "",
+   "unit": "",
+   "period": "2025-02",
+   "source_id": "marbella:kaynak:224",
+   "quote": "Marbella contará con un registro municipal de viviendas turísticas y con una nueva normativa que limitará el cambio de uso para esta actividad de los locales comerciales"
+  },
+  {
+   "claim_id": "C-turistik-kiralik-daire-kurallari-ve-kiraci-10",
+   "field": "summary",
+   "claim": "Haber tarihi 19 Şubat 2025",
+   "value": "2025-02-19",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:224",
+   "quote": "Miércoles, 19 de Febrero de 2025"
+  },
+  {
+   "claim_id": "C-turistik-kiralik-daire-kurallari-ve-kiraci-11",
+   "field": "steps",
+   "claim": "Gün ya da hafta ile bedelli kiralama turistik konut sayılır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:191",
+   "quote": "Sí, si se ofrece mediante precio el servicio de alojamiento, de forma habitual y con finalidad turística"
+  },
+  {
+   "claim_id": "C-turistik-kiralik-daire-kurallari-ve-kiraci-12",
+   "field": "steps",
+   "claim": "Rezervasyon imkânı veren her site turistik kanal sayılır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:191",
+   "quote": "Toda página web que anuncie una oferta turística o vacacional y con posibilidad de reserva se considera canal de oferta turística"
+  }
+ ],
+ "adimlar": [],
+ "butonlar": [
+  {
+   "action_id": "marbella:action:turistik-kiralik-daire-kurallari-ve-kiraci-1",
+   "label": "Bilgi al",
+   "url": "https://www.juntadeandalucia.es/organismos/turismoyandaluciaexterior/areas/registro-turismo/establecimientos-servicios/paginas/faq-viviendas-turismo.html"
+  },
+  {
+   "action_id": "marbella:action:turistik-kiralik-daire-kurallari-ve-kiraci-2",
+   "label": "Bilgi al",
+   "url": "https://www.marbella.es/actualidad/noticias/marbella-contara-con-un-registro-municipal-de-viviendas-turisticas-y-con-una-nueva-normativa-que-limitara-el-cambio-de-uso-para-esta-actividad-de-los-locales-comerciales.html"
+  }
+ ]
+}

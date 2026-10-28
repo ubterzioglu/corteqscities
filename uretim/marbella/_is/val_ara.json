@@ -5,26 +5,18 @@
     "new_content": true,
     "structure": {
       "errors": 8,
-      "warnings": 40
+      "warnings": 37
     },
     "media": {
       "errors": 0
     },
     "minimum_gaps": {
-      "answers": {
-        "actual": 143,
-        "minimum": 212
-      },
       "places": {
         "actual": 0,
         "minimum": 92
       },
       "neighborhoods": {
         "actual": 0,
-        "minimum": 12
-      },
-      "topics": {
-        "actual": 11,
         "minimum": 12
       },
       "photos": {
@@ -121,12 +113,12 @@
     "schema_version": "1.0",
     "acceptance_version": "2026-10-13.1",
     "counts": {
-      "answers": 143,
+      "answers": 218,
       "places": 0,
       "neighborhoods": 0,
       "routes": 0,
       "glossary": 0,
-      "topics": 11,
+      "topics": 12,
       "photos": 0,
       "hero_photos": 0
     },
@@ -186,17 +178,14 @@
       "SayfaAlanları!?: advice_entry: bağlı içerik bu şehirde bulunamadı.",
       "SayfaAlanları!?: budget_fields: anahtarlar birer kez ve eksiksiz olmalı: income, rent, bills, food, transport, health, leisure, other, deposit, moving.",
       "SayfaAlanları!?: place_groups: anahtarlar birer kez ve eksiksiz olmalı: museum, art, stage, sport, nature, family, food, history.",
-      "Adımlar!?: En az 4 yerleşim adımı gerekli.",
       "SayfaAlanları!?: Sekiz keşif grubunun her birinde gerçek mekân gerekli.",
       "Şehir!?: currency_symbol: zorunlu.",
       "Şehir!?: currency_label: zorunlu.",
       "Şehir!?: forecast_label: zorunlu.",
       "Şehir!?: forecast_url: bağlantı gerekli.",
       "Şehir!?: provider_url: bağlantı gerekli.",
-      "Yanıt: 143 / asgari 212; hedef 240.",
       "Keşif noktası: 0 / asgari 92; hedef 120.",
       "Mahalle: 0 / asgari 12; hedef 16.",
-      "Yanıt içeren konu: 11 / asgari 12; hedef 12.",
       "Rota: 0 / asgari 9; hedef 12.",
       "Sözlük terimi: 0 / asgari 48; hedef 60.",
       "Farklı mekân fotoğrafı: 0 / asgari 187; hedef 250.",
@@ -252,13 +241,6 @@
       "examples": [
         "SayfaAlanları!?: place_groups: en az 8 yapılandırılmış kayıt gerekli.",
         "SayfaAlanları!?: place_groups: anahtarlar birer kez ve eksiksiz olmalı: museum, art, stage, sport, nature, family, food, history."
-      ]
-    },
-    {
-      "class": "Adımlar: En az 4 yerleşim adımı gerekli.",
-      "count": 1,
-      "examples": [
-        "Adımlar!?: En az 4 yerleşim adımı gerekli."
       ]
     },
     {
@@ -458,20 +440,6 @@
       ]
     },
     {
-      "class": "Yanıt içeren konu: 11 / asgari 12; hedef 12.",
-      "count": 1,
-      "examples": [
-        "Yanıt içeren konu: 11 / asgari 12; hedef 12."
-      ]
-    },
-    {
-      "class": "Yanıt: 143 / asgari 212; hedef 240.",
-      "count": 1,
-      "examples": [
-        "Yanıt: 143 / asgari 212; hedef 240."
-      ]
-    },
-    {
       "class": "Şehir: currency_label",
       "count": 1,
       "examples": [
@@ -527,7 +495,7 @@
       "label": "ek kontrol",
       "count": 0,
       "items": [],
-      "verified_total": 191
+      "verified_total": 262
     },
     "shared_coordinates": {
       "label": "ek kontrol",

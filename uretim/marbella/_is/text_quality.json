@@ -20,22 +20,22 @@
     "hedge_share": 0.0,
     "exact_records": 0,
     "short_repeat_groups": 0,
-    "repeated_sentences": 4,
-    "cards_total": 143,
-    "visual_json_empty": 141,
+    "repeated_sentences": 5,
+    "cards_total": 218,
+    "visual_json_empty": 216,
     "address": {
       "standard": "sen",
-      "records": 156,
-      "hitapsiz": 13,
+      "records": 238,
+      "hitapsiz": 16,
       "siz": 0,
-      "sen": 141,
+      "sen": 220,
       "karisik": 2,
       "findings": 2,
       "labels": {
-        "records": 242,
-        "hitapsiz": 0,
+        "records": 356,
+        "hitapsiz": 14,
         "siz": 0,
-        "sen": 242,
+        "sen": 342,
         "karisik": 0
       },
       "skipped": []
@@ -88,6 +88,15 @@
         "timing"
       ],
       "sample": "kararname (Real Decreto-ley) olduğu için ileride değişebilir"
+    },
+    {
+      "sheet": "Yanıtlar",
+      "sentence": "soru icin 34 952 761 185 i ara ya da deportes marbella",
+      "records": 3,
+      "fields": [
+        "steps"
+      ],
+      "sample": "Soru için +34 952 761 185'i ara ya da deportes@marbella"
     }
   ],
   "shared_steps": [],
@@ -101,7 +110,7 @@
     "items": []
   },
   "hedges": {
-    "cards_total": 143,
+    "cards_total": 218,
     "cards_with_hedge": 0,
     "share": 0.0,
     "max_per_card": 0,
@@ -114,15 +123,15 @@
   },
   "action_links": {
     "skipped": false,
-    "checked": 143,
+    "checked": 218,
     "missing": 0,
     "map_only": 0,
     "no_id": 0,
     "items": []
   },
   "visual_json": {
-    "total": 143,
-    "empty": 141,
+    "total": 218,
+    "empty": 216,
     "valid": 2,
     "by_error": {},
     "errors": []
@@ -134,17 +143,17 @@
   },
   "address": {
     "standard": "sen",
-    "records": 156,
-    "hitapsiz": 13,
+    "records": 238,
+    "hitapsiz": 16,
     "siz": 0,
-    "sen": 141,
+    "sen": 220,
     "karisik": 2,
     "by_sheet": {
       "Yanıtlar": {
-        "records": 143,
-        "hitapsiz": 0,
+        "records": 218,
+        "hitapsiz": 1,
         "siz": 0,
-        "sen": 141,
+        "sen": 215,
         "karisik": 2
       },
       "Mekânlar": {
@@ -169,10 +178,10 @@
         "karisik": 0
       },
       "Adımlar": {
-        "records": 0,
-        "hitapsiz": 0,
+        "records": 7,
+        "hitapsiz": 2,
         "siz": 0,
-        "sen": 0,
+        "sen": 5,
         "karisik": 0
       },
       "Konular": {
@@ -212,17 +221,17 @@
       }
     },
     "labels": {
-      "records": 242,
-      "hitapsiz": 0,
+      "records": 356,
+      "hitapsiz": 14,
       "siz": 0,
-      "sen": 242,
+      "sen": 342,
       "karisik": 0
     },
     "skipped": [],
     "findings": [
       {
         "sheet": "Yanıtlar",
-        "row": 44,
+        "row": 79,
         "id": "marbella:yillik-izin-ve-resmi-tatiller-2026",
         "form": "karisik",
         "fields": {
@@ -241,7 +250,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 71,
+        "row": 119,
         "id": "marbella:altin-vize-sona-erdi",
         "form": "karisik",
         "fields": {
@@ -482,6 +491,129 @@
       {
         "sheet": "Yanıtlar",
         "row": 20,
+        "id": "marbella:zorunlu-gorev-degisikligiyle-tasinan-aile-icin-okul-onceligi",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "edersen",
+          "belirle",
+          "belirt",
+          "et",
+          "hazırla"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 21,
+        "id": "marbella:okul-yemegi-erken-servis-basvurusu-ve-concertado-okul-ucretleri",
+        "form": "sen",
+        "fields": {
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "iste",
+          "bak",
+          "istiyorsan",
+          "ver",
+          "bil"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 22,
+        "id": "marbella:junta-escuela-infantil-0-3-yas-basvurusu-ve-ucretsiz-kontenjan",
+        "form": "sen",
+        "fields": {
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "belirle",
+          "bak",
+          "izle",
+          "yap",
+          "bul"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 23,
+        "id": "marbella:belediye-escuela-infantil-basvuru-kosullari-ve-2026-27-listeleri",
+        "form": "sen",
+        "fields": {
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "ol",
+          "al",
+          "ekle",
+          "et",
+          "izle"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 24,
+        "id": "marbella:ispanyolca-bilmeyen-cocuk-icin-okulda-dil-destegi-atal-proa-ave",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "başvuracağın",
+          "başvur",
+          "ara",
+          "sor",
+          "istiyorsan"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 25,
+        "id": "marbella:marbella-registro-civil-dogum-kaydi-adres-telefon-ve-saatler",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "başvuracağın",
+          "ara",
+          "sor",
+          "kullan",
+          "gönder"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 26,
+        "id": "marbella:endulus-dogum-ve-evlat-edinme-gelir-vergisi-indirimi-200-euro",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "oturuyorsan",
+          "dur",
+          "kullan",
+          "ol",
+          "kat"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 27,
         "id": "marbella:kira-sozlesmesi-suresi-ve-uzama",
         "form": "sen",
         "fields": {
@@ -499,7 +631,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 21,
+        "row": 28,
         "id": "marbella:kira-depozitosu-fianza-ve-iade",
         "form": "sen",
         "fields": {
@@ -516,7 +648,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 22,
+        "row": 29,
         "id": "marbella:kira-artisi-siniri-irav",
         "form": "sen",
         "fields": {
@@ -529,7 +661,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 23,
+        "row": 30,
         "id": "marbella:kirada-onarim-ve-hasar-sorumlulugu",
         "form": "sen",
         "fields": {
@@ -546,7 +678,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 24,
+        "row": 31,
         "id": "marbella:kiralik-evden-cikis-ve-ihbar-suresi",
         "form": "sen",
         "fields": {
@@ -564,7 +696,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 25,
+        "row": 32,
         "id": "marbella:kiralik-ilan-dolandiriciligini-tanima",
         "form": "sen",
         "fields": {
@@ -582,7 +714,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 26,
+        "row": 33,
         "id": "marbella:endulus-kira-depozitosu-fianza-avra-yatirma-zorunlulugu",
         "form": "sen",
         "fields": {
@@ -596,7 +728,167 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 27,
+        "row": 34,
+        "id": "marbella:korumali-konut-talep-kaydi-marbella",
+        "form": "sen",
+        "fields": {
+          "title": "sen",
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "yazılırsın",
+          "kaydındaysan",
+          "başvurabilirsin",
+          "yaparsın",
+          "ettiğin"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 35,
+        "id": "marbella:korumali-konut-basvuru-kosullari-gelir-sinirlari",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "alacağın",
+          "belirle",
+          "bak",
+          "sağla",
+          "yaptır"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 36,
+        "id": "marbella:san-pedro-84-korumali-konut-fiyatlari-ve-sorteo",
+        "form": "sen",
+        "fields": {
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "tamamla",
+          "izle",
+          "kullan"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 37,
+        "id": "marbella:genc-kiralik-konut-huerta-de-los-cristales",
+        "form": "sen",
+        "fields": {
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "ver",
+          "kullan",
+          "alırsan",
+          "planla",
+          "kal"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 38,
+        "id": "marbella:bono-alquiler-joven-andalucia-2026-yardim-ve-durum",
+        "form": "sen",
+        "fields": {
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "dışındaysan",
+          "senin",
+          "ol",
+          "al",
+          "yükle"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 39,
+        "id": "marbella:bono-alquiler-joven-kira-ust-siniri-oda-ve-yukumluluk",
+        "form": "sen",
+        "fields": {
+          "title": "sen",
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "kiralıyorsan",
+          "kalıyorsan",
+          "paylaştığın",
+          "alırsan",
+          "zorundasın"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 40,
+        "id": "marbella:kirilgan-kiraci-icin-junta-kira-yardimi",
+        "form": "sen",
+        "fields": {
+          "title": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "altındaysan",
+          "durumdaysan",
+          "misin",
+          "al",
+          "belgelemen"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 41,
+        "id": "marbella:tahliye-ve-ipotek-riskinde-marbella-sosyal-hizmetler",
+        "form": "sen",
+        "fields": {
+          "title": "sen",
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "riskin",
+          "gidersin",
+          "git",
+          "borcun",
+          "arayabilirsin"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 42,
+        "id": "marbella:turistik-kiralik-daire-kurallari-ve-kiraci",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "oturuyorsan",
+          "senin",
+          "sana",
+          "ara",
+          "bak"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 43,
         "id": "marbella:elektrik-aboneligi-serbest-piyasa-pvpc",
         "form": "sen",
         "fields": {
@@ -616,7 +908,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 28,
+        "row": 44,
         "id": "marbella:elektrik-faturasi-nasil-okunur",
         "form": "sen",
         "fields": {
@@ -634,7 +926,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 29,
+        "row": 45,
         "id": "marbella:sozlesmeli-elektrik-gucu-nasil-secilir",
         "form": "sen",
         "fields": {
@@ -654,7 +946,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 30,
+        "row": 46,
         "id": "marbella:dogalgaz-aboneligi-tur-ve-fatura",
         "form": "sen",
         "fields": {
@@ -673,7 +965,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 31,
+        "row": 47,
         "id": "marbella:bono-social-elektrik-kimler-alir",
         "form": "sen",
         "fields": {
@@ -692,7 +984,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 32,
+        "row": 48,
         "id": "marbella:internet-mobil-hat-sozlesmesi-taahhut-cayma",
         "form": "sen",
         "fields": {
@@ -711,7 +1003,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 33,
+        "row": 49,
         "id": "marbella:cnmc-teklif-karsilastirma-araci",
         "form": "sen",
         "fields": {
@@ -730,7 +1022,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 34,
+        "row": 50,
         "id": "marbella:elektrik-ve-telekom-sikayet-yollari",
         "form": "sen",
         "fields": {
@@ -749,7 +1041,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 35,
+        "row": 51,
         "id": "marbella:apartman-yonetimi-comunidad-de-vecinos",
         "form": "sen",
         "fields": {
@@ -767,7 +1059,134 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 36,
+        "row": 52,
+        "id": "marbella:su-sozlesmesi-islemleri-acosol-marbella",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "yaparsın",
+          "gönderirsin",
+          "sana",
+          "aç",
+          "seç"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 53,
+        "id": "marbella:su-faturasi-acosol-oficina-virtual-ve-odeme",
+        "form": "sen",
+        "fields": {
+          "title": "sen",
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "ödersin",
+          "olursun",
+          "yazarsın",
+          "git",
+          "gir"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 54,
+        "id": "marbella:acosol-marbella-merkez-ofisi-randevu-ve-sikayet",
+        "form": "sen",
+        "fields": {
+          "title": "sen",
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "alırsın",
+          "yazabilirsin",
+          "git",
+          "doldur",
+          "yaz"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 55,
+        "id": "marbella:cop-konteyneri-arizasi-ve-buyuk-esya-toplama-telefonu",
+        "form": "sen",
+        "fields": {
+          "title": "sen",
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "bildirirsin",
+          "istiyorsan",
+          "arayabilirsin",
+          "istediğin",
+          "bildir"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 56,
+        "id": "marbella:belediye-atik-deposu-marbella-adres-saat-ve-limitler",
+        "form": "sen",
+        "fields": {
+          "title": "sen",
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "götürebilirsin",
+          "dur",
+          "götür",
+          "bak",
+          "getir"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 57,
+        "id": "marbella:cop-tasasi-marbella-ordonans-ve-vergi-ofisleri",
+        "form": "sen",
+        "fields": {
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "bak",
+          "git"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 58,
+        "id": "marbella:tuketici-sikayeti-omic-ve-hoja-de-reclamaciones-marbella",
+        "form": "sen",
+        "fields": {
+          "title": "sen",
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "iletirsin",
+          "yaşarsan",
+          "isteyebilirsin",
+          "bulunduğun",
+          "edebilirsin"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 59,
         "id": "marbella:resmi-tatiller-2027",
         "form": "sen",
         "fields": {
@@ -783,7 +1202,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 37,
+        "row": 60,
         "id": "marbella:magaza-acilis-saatleri-cercevesi",
         "form": "sen",
         "fields": {
@@ -796,7 +1215,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 38,
+        "row": 61,
         "id": "marbella:ab-disi-paket-gumruk-iva",
         "form": "sen",
         "fields": {
@@ -812,7 +1231,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 39,
+        "row": 62,
         "id": "marbella:diger-resmi-yardim-hatlari",
         "form": "sen",
         "fields": {
@@ -828,7 +1247,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 40,
+        "row": 63,
         "id": "marbella:bahsis-ve-odeme-aliskanliklari",
         "form": "sen",
         "fields": {
@@ -844,7 +1263,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 41,
+        "row": 64,
         "id": "marbella:endulus-2027-resmi-tatilleri",
         "form": "sen",
         "fields": {
@@ -858,7 +1277,209 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 42,
+        "row": 65,
+        "id": "marbella:marbella-yerel-acil-numaralar-ve-polis-itfaiye-koruma-adresleri",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "ara",
+          "git",
+          "başvur"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 66,
+        "id": "marbella:marbella-konteyner-renkleri-ve-temizlik-sorunu-bildirme-uygulamasi",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "görürsen",
+          "bildirebilirsin",
+          "bildir"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 67,
+        "id": "marbella:marbella-mobilya-ve-buyuk-esya-toplama-telefon-ve-saat",
+        "form": "sen",
+        "fields": {
+          "subtitle": "sen",
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "ara",
+          "yaparsın",
+          "bırakırsın",
+          "aramazsan",
+          "kendin"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 68,
+        "id": "marbella:marbella-belediye-atik-deposu-adres-saat-ve-kabul-limitleri",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "dur",
+          "git",
+          "getir",
+          "hazırla",
+          "ara"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 69,
+        "id": "marbella:marbella-punto-limpio-konumlari-ilce-ilce",
+        "form": "sen",
+        "fields": {
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "Oturduğun",
+          "belirle",
+          "sana",
+          "seç",
+          "gör"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 70,
+        "id": "marbella:marbella-plaj-cankurtaran-hizmeti-2026-tarih-saat-ve-su-kalitesi",
+        "form": "sen",
+        "fields": {
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "kat",
+          "planla",
+          "ara"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 71,
+        "id": "marbella:marbella-ucretsiz-ispanyolca-kurslari-escuela-de-adultos-seviyeler-ve-kayit",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "alırsın",
+          "belirle",
+          "bilmiyorsan",
+          "biliyorsan",
+          "al"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 72,
+        "id": "marbella:marbella-vatandaslik-sinavina-hazirlik-kursu-dele-a2-ve-kultur-bilgisi",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "alırsın",
+          "al",
+          "katıl",
+          "yaz"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 73,
+        "id": "marbella:las-chapas-ispanyolca-kursu-seviyeler-saatler-ve-fiyat",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "yazarsın",
+          "sana",
+          "gönder",
+          "görüş",
+          "bekle"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 74,
+        "id": "marbella:san-pedro-ve-nueva-andalucia-ispanyolca-kurslari-seviye-saat-ve-fiyat",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "dur",
+          "Yaşadığın",
+          "seç",
+          "belirle",
+          "yazılacaksan"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 75,
+        "id": "marbella:marbella-merkez-kutuphane-fernando-alcala-marin-saatler-ve-diger-kutuphaneler",
+        "form": "sen",
+        "fields": {
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "git",
+          "gel",
+          "kullan",
+          "seç"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 76,
+        "id": "marbella:andalucia-2026-kalan-resmi-tatiller-ve-yerel-tatillerin-idari-surelere-etkisi",
+        "form": "sen",
+        "fields": {
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "bul",
+          "kat"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 77,
         "id": "marbella:is-sozlesmesi-turleri",
         "form": "sen",
         "fields": {
@@ -873,7 +1494,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 43,
+        "row": 78,
         "id": "marbella:asgari-ucret-smi-2026-calisma-saatleri",
         "form": "sen",
         "fields": {
@@ -888,7 +1509,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 44,
+        "row": 79,
         "id": "marbella:yillik-izin-ve-resmi-tatiller-2026",
         "form": "karisik",
         "fields": {
@@ -906,7 +1527,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 45,
+        "row": 80,
         "id": "marbella:maas-bordrosu-nomina-icerigi",
         "form": "sen",
         "fields": {
@@ -924,7 +1545,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 46,
+        "row": 81,
         "id": "marbella:finiquito-isten-ayrilirken-tasfiye-belgesi",
         "form": "sen",
         "fields": {
@@ -943,7 +1564,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 47,
+        "row": 82,
         "id": "marbella:isten-cikarilma-despido-turleri-ve-tazminat",
         "form": "sen",
         "fields": {
@@ -961,7 +1582,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 48,
+        "row": 83,
         "id": "marbella:issizlik-maasi-paro-sepe-basvurusu",
         "form": "sen",
         "fields": {
@@ -980,7 +1601,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 49,
+        "row": 84,
         "id": "marbella:is-kazasi-ve-meslek-hastaligi-tanimi",
         "form": "sen",
         "fields": {
@@ -998,7 +1619,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 50,
+        "row": 85,
         "id": "marbella:serbest-calisan-autonomo-kayit-ve-prim-tablosu",
         "form": "sen",
         "fields": {
@@ -1017,7 +1638,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 51,
+        "row": 86,
         "id": "marbella:dogum-ve-babalik-izni-sureleri",
         "form": "sen",
         "fields": {
@@ -1035,7 +1656,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 52,
+        "row": 87,
         "id": "marbella:yabanci-diploma-denklik-okul-ve-universite",
         "form": "sen",
         "fields": {
@@ -1053,7 +1674,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 53,
+        "row": 88,
         "id": "marbella:endulus-sae-is-arayan-kaydi-demandante-de-empleo",
         "form": "sen",
         "fields": {
@@ -1072,7 +1693,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 54,
+        "row": 89,
         "id": "marbella:marbella-sae-kayit-ofisleri-las-palomas-san-pedro",
         "form": "sen",
         "fields": {
@@ -1092,7 +1713,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 55,
+        "row": 90,
         "id": "marbella:belediye-is-bulma-ajansi-agencia-colocacion",
         "form": "sen",
         "fields": {
@@ -1110,7 +1731,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 56,
+        "row": 91,
         "id": "marbella:plan-municipal-empleabilidad-ucretsiz-kurslar",
         "form": "sen",
         "fields": {
@@ -1127,7 +1748,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 57,
+        "row": 92,
         "id": "marbella:paro-basvurusu-marbella-randevu-sepe",
         "form": "sen",
         "fields": {
@@ -1146,7 +1767,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 58,
+        "row": 93,
         "id": "marbella:cade-marbella-serbest-calisan-sirket-kurma",
         "form": "sen",
         "fields": {
@@ -1164,7 +1785,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 59,
+        "row": 94,
         "id": "marbella:seguridad-social-tgss-telefon-vida-laboral-autonomo",
         "form": "sen",
         "fields": {
@@ -1179,7 +1800,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 60,
+        "row": 95,
         "id": "marbella:marbella-issizlik-ve-serbest-calisan-rakamlari-2026",
         "form": "sen",
         "fields": {
@@ -1193,7 +1814,216 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 61,
+        "row": 96,
+        "id": "marbella:marbella-eski-kent-kale-naranjos-meydani-gezi",
+        "form": "sen",
+        "fields": {
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "başla",
+          "bak",
+          "yürü"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 97,
+        "id": "marbella:marbella-eski-kent-encarnacion-kilisesi-hospital-real",
+        "form": "sen",
+        "fields": {
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "git",
+          "bak",
+          "gör",
+          "yürü"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 98,
+        "id": "marbella:marbella-muzeleri-grabado-cortijo-miraflores-ucret-saat",
+        "form": "sen",
+        "fields": {
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "git",
+          "öde",
+          "ara",
+          "yaz"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 99,
+        "id": "marbella:marbella-roma-donemi-villa-romana-rio-verde-sala-arqueologica",
+        "form": "sen",
+        "fields": {
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "git",
+          "ara",
+          "yaz",
+          "gidiyorsan",
+          "indir"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 100,
+        "id": "marbella:marbella-kentsel-biyocesitlilik-yuruyusu-sendas-alameda",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "başlayabilirsin",
+          "başla",
+          "yürü",
+          "bak",
+          "dinle"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 101,
+        "id": "marbella:marbella-gozetleme-kuleleri-torre-ancon",
+        "form": "sen",
+        "fields": {
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "gör",
+          "et"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 102,
+        "id": "marbella:sierra-blanca-yuruyus-agi-zirveler-natura-2000",
+        "form": "sen",
+        "fields": {
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "seç",
+          "indir",
+          "oku",
+          "görürsen",
+          "doldur"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 103,
+        "id": "marbella:sierra-blanca-yuruyusu-oncesi-guvenlik-onerileri",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "al",
+          "bildir",
+          "götür",
+          "yürüdüğün"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 104,
+        "id": "marbella:marbella-plajlari-listesi-venus-bajadilla-erisilebilir",
+        "form": "sen",
+        "fields": {
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "gideceğin",
+          "seç",
+          "arıyorsan",
+          "değerlendir"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 105,
+        "id": "marbella:marbella-cocuklarla-parklar-mediterraneo-represa",
+        "form": "sen",
+        "fields": {
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "git",
+          "seç",
+          "ara",
+          "yaz"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 106,
+        "id": "marbella:marbella-skate-parklari-urban-park-represa",
+        "form": "sen",
+        "fields": {
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "git",
+          "ara",
+          "yaz"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 107,
+        "id": "marbella:marbella-belediye-spor-tesisleri-havuz-saha-kiralama",
+        "form": "sen",
+        "fields": {
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "seç",
+          "git",
+          "ara",
+          "yaz"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 108,
+        "id": "marbella:marbella-tiyatro-kutuphane-kultur-merkezleri",
+        "form": "sen",
+        "fields": {
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "incele",
+          "yaşadığın",
+          "seç",
+          "bak"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 109,
         "id": "marbella:nie-nedir-ne-ise-yarar",
         "form": "sen",
         "fields": {
@@ -1211,7 +2041,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 62,
+        "row": 110,
         "id": "marbella:ab-vatandasi-kayit-sertifikasi",
         "form": "sen",
         "fields": {
@@ -1229,7 +2059,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 63,
+        "row": 111,
         "id": "marbella:tie-yabanci-kimlik-karti",
         "form": "sen",
         "fields": {
@@ -1247,7 +2077,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 64,
+        "row": 112,
         "id": "marbella:ab-vatandasi-calisma-izni-gerekli-mi",
         "form": "sen",
         "fields": {
@@ -1265,7 +2095,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 65,
+        "row": 113,
         "id": "marbella:oturum-izni-yenileme",
         "form": "sen",
         "fields": {
@@ -1284,7 +2114,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 66,
+        "row": 114,
         "id": "marbella:aile-birlesimi-ile-oturum",
         "form": "sen",
         "fields": {
@@ -1303,7 +2133,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 67,
+        "row": 115,
         "id": "marbella:kalici-oturum-bes-yil",
         "form": "sen",
         "fields": {
@@ -1322,7 +2152,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 68,
+        "row": 116,
         "id": "marbella:arraigo-kok-salma-oturumu",
         "form": "sen",
         "fields": {
@@ -1341,7 +2171,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 69,
+        "row": 117,
         "id": "marbella:dijital-gocebe-vizesi",
         "form": "sen",
         "fields": {
@@ -1358,7 +2188,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 70,
+        "row": 118,
         "id": "marbella:kar-amaci-gutmeyen-oturum-vizesi",
         "form": "sen",
         "fields": {
@@ -1377,7 +2207,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 71,
+        "row": 119,
         "id": "marbella:altin-vize-sona-erdi",
         "form": "karisik",
         "fields": {
@@ -1395,7 +2225,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 72,
+        "row": 120,
         "id": "marbella:ogrenci-oturumuyla-calisma-hakki",
         "form": "sen",
         "fields": {
@@ -1414,7 +2244,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 73,
+        "row": 121,
         "id": "marbella:ispanyol-vatandasligi-basvurusu",
         "form": "sen",
         "fields": {
@@ -1432,7 +2262,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 74,
+        "row": 122,
         "id": "marbella:brexit-sonrasi-ingiliz-oturumu",
         "form": "sen",
         "fields": {
@@ -1450,7 +2280,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 75,
+        "row": 123,
         "id": "marbella:marbella-nie-tie-polis-ofisi-randevu",
         "form": "sen",
         "fields": {
@@ -1470,7 +2300,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 76,
+        "row": 124,
         "id": "marbella:malaga-yenileme-marbella-polis-ayrimi",
         "form": "sen",
         "fields": {
@@ -1489,7 +2319,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 77,
+        "row": 125,
         "id": "marbella:yabancilar-birimi-extranjeros-residentes",
         "form": "sen",
         "fields": {
@@ -1507,7 +2337,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 78,
+        "row": 126,
         "id": "marbella:ucretsiz-avukat-justicia-gratuita",
         "form": "sen",
         "fields": {
@@ -1525,7 +2355,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 79,
+        "row": 127,
         "id": "marbella:turk-konsoloslugu-madrid-buyukelcilik",
         "form": "sen",
         "fields": {
@@ -1542,7 +2372,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 80,
+        "row": 128,
         "id": "marbella:sosyal-hizmetler-derechos-sociales-basvuru",
         "form": "sen",
         "fields": {
@@ -1559,7 +2389,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 81,
+        "row": 129,
         "id": "marbella:banka-hesabi-acma-ve-temel-odeme-hesabi",
         "form": "sen",
         "fields": {
@@ -1580,7 +2410,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 82,
+        "row": 130,
         "id": "marbella:iban-ve-sepa-havalesi",
         "form": "sen",
         "fields": {
@@ -1598,7 +2428,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 83,
+        "row": 131,
         "id": "marbella:gelir-vergisi-irpf-devlet-dilimleri",
         "form": "sen",
         "fields": {
@@ -1614,7 +2444,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 84,
+        "row": 132,
         "id": "marbella:kdv-iva-oranlari",
         "form": "sen",
         "fields": {
@@ -1628,7 +2458,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 85,
+        "row": 133,
         "id": "marbella:yillik-gelir-vergisi-beyani-renta",
         "form": "sen",
         "fields": {
@@ -1643,7 +2473,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 86,
+        "row": 134,
         "id": "marbella:vergi-iadesi-devolucion-renta",
         "form": "sen",
         "fields": {
@@ -1663,7 +2493,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 87,
+        "row": 135,
         "id": "marbella:gestor-asesor-vergi-beyani-temsil",
         "form": "sen",
         "fields": {
@@ -1683,7 +2513,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 88,
+        "row": 136,
         "id": "marbella:arac-sigortasi-zorunlulugu-ve-hipotek-sigortalari",
         "form": "sen",
         "fields": {
@@ -1701,7 +2531,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 89,
+        "row": 137,
         "id": "marbella:emeklilik-yasi-ve-prim-suresi",
         "form": "sen",
         "fields": {
@@ -1717,7 +2547,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 90,
+        "row": 138,
         "id": "marbella:bizum-nedir-nasil-kullanilir",
         "form": "sen",
         "fields": {
@@ -1733,7 +2563,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 91,
+        "row": 139,
         "id": "marbella:banka-ucretleri-ve-seffaflik-haklari",
         "form": "sen",
         "fields": {
@@ -1751,7 +2581,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 92,
+        "row": 140,
         "id": "marbella:beckham-yasasi-ozel-vergi-rejimi",
         "form": "sen",
         "fields": {
@@ -1767,7 +2597,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 93,
+        "row": 141,
         "id": "marbella:endulus-gelir-vergisi-irpf-bolge-dilimleri-ve-indirimleri",
         "form": "sen",
         "fields": {
@@ -1782,7 +2612,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 94,
+        "row": 142,
         "id": "marbella:endulus-ikinci-el-konut-alimi-itp-indirimli-oranlar",
         "form": "sen",
         "fields": {
@@ -1799,7 +2629,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 95,
+        "row": 143,
         "id": "marbella:marbella-vergi-dairesi-agencia-tributaria-ofisi",
         "form": "sen",
         "fields": {
@@ -1818,7 +2648,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 96,
+        "row": 144,
         "id": "marbella:marbella-belediye-vergileri-patronato-recaudacion",
         "form": "sen",
         "fields": {
@@ -1835,7 +2665,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 97,
+        "row": 145,
         "id": "marbella:marbella-sosyal-hizmetler-merkezleri-belediye-yardimi",
         "form": "sen",
         "fields": {
@@ -1854,7 +2684,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 98,
+        "row": 146,
         "id": "marbella:marbella-endulus-renta-minima-rmisa-basvuru",
         "form": "sen",
         "fields": {
@@ -1873,7 +2703,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 99,
+        "row": 147,
         "id": "marbella:marbella-ingreso-minimo-vital-imv-kosullari-basvuru",
         "form": "sen",
         "fields": {
@@ -1891,7 +2721,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 100,
+        "row": 148,
         "id": "marbella:marbella-banka-hesabi-acmak-icin-gereken-belgeler",
         "form": "sen",
         "fields": {
@@ -1911,7 +2741,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 101,
+        "row": 149,
         "id": "marbella:tasinma-oncesi-vize-ve-ilk-oturum-izni",
         "form": "sen",
         "fields": {
@@ -1930,7 +2760,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 102,
+        "row": 150,
         "id": "marbella:oturum-vizesi-basvurusunda-getirilecek-belgeler",
         "form": "sen",
         "fields": {
@@ -1951,7 +2781,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 103,
+        "row": 151,
         "id": "marbella:ilk-gunlerde-nuss-ve-temel-odeme-hesabi",
         "form": "sen",
         "fields": {
@@ -1974,7 +2804,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 104,
+        "row": 152,
         "id": "marbella:ab-disindan-gelirken-esya-ve-nakit-gumruk-beyani",
         "form": "sen",
         "fields": {
@@ -1994,7 +2824,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 105,
+        "row": 153,
         "id": "marbella:ab-disindan-evcil-hayvanla-ispanyaya-giris",
         "form": "sen",
         "fields": {
@@ -2012,7 +2842,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 106,
+        "row": 154,
         "id": "marbella:oturum-ve-ogrenci-vizesinde-saglik-sigortasi-sarti",
         "form": "sen",
         "fields": {
@@ -2027,7 +2857,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 107,
+        "row": 155,
         "id": "marbella:ispanya-para-birimi-euro-ve-resmi-dil",
         "form": "sen",
         "fields": {
@@ -2040,7 +2870,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 108,
+        "row": 156,
         "id": "marbella:ispanya-resmi-saat-ve-yaz-saati-kurali",
         "form": "sen",
         "fields": {
@@ -2055,7 +2885,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 109,
+        "row": 157,
         "id": "marbella:ab-disindan-gelen-yolcunun-bagaj-muafiyeti",
         "form": "sen",
         "fields": {
@@ -2074,7 +2904,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 110,
+        "row": 158,
         "id": "marbella:marbella-ilk-hafta-yerel-duraklar",
         "form": "sen",
         "fields": {
@@ -2094,7 +2924,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 111,
+        "row": 159,
         "id": "marbella:extranjeros-residentes-ofisleri-marbella",
         "form": "sen",
         "fields": {
@@ -2110,7 +2940,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 112,
+        "row": 160,
         "id": "marbella:sosyal-hizmetler-merkezleri-marbella",
         "form": "sen",
         "fields": {
@@ -2129,7 +2959,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 113,
+        "row": 161,
         "id": "marbella:yaz-sicaginda-saglik-korunma-andalucia",
         "form": "sen",
         "fields": {
@@ -2148,7 +2978,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 114,
+        "row": 162,
         "id": "marbella:sicak-uyarisi-ile-saglik-risk-seviyesi-farki",
         "form": "sen",
         "fields": {
@@ -2166,7 +2996,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 115,
+        "row": 163,
         "id": "marbella:malaga-havalimani-marbella-otobus-ve-taksi",
         "form": "sen",
         "fields": {
@@ -2177,15 +3007,15 @@
         "siz": [],
         "sen": [
           "ulaşırsın",
-          "alırsın",
+          "görürsün",
           "edersen",
           "gör",
-          "al"
+          "ara"
         ]
       },
       {
         "sheet": "Yanıtlar",
-        "row": 116,
+        "row": 164,
         "id": "marbella:marbella-otogari-ve-sehirlerarasi-otobus-firmalari",
         "form": "sen",
         "fields": {
@@ -2203,7 +3033,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 117,
+        "row": 165,
         "id": "marbella:gecici-konaklama-kayitli-turistik-konut-kontrolu",
         "form": "sen",
         "fields": {
@@ -2222,7 +3052,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 118,
+        "row": 166,
         "id": "marbella:empadronamiento-nedir-neden-gerekir",
         "form": "sen",
         "fields": {
@@ -2240,7 +3070,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 119,
+        "row": 167,
         "id": "marbella:certificado-ve-volante-farki",
         "form": "sen",
         "fields": {
@@ -2256,7 +3086,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 120,
+        "row": 168,
         "id": "marbella:sosyal-guvenlik-numarasi-alma",
         "form": "sen",
         "fields": {
@@ -2276,7 +3106,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 121,
+        "row": 169,
         "id": "marbella:vida-laboral-raporu-alma",
         "form": "sen",
         "fields": {
@@ -2295,7 +3125,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 122,
+        "row": 170,
         "id": "marbella:vergi-numarasi-nif-nie-alma",
         "form": "sen",
         "fields": {
@@ -2313,7 +3143,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 123,
+        "row": 171,
         "id": "marbella:clave-pin-ve-permanente-farki",
         "form": "sen",
         "fields": {
@@ -2331,7 +3161,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 124,
+        "row": 172,
         "id": "marbella:fnmt-dijital-sertifika-kurma",
         "form": "sen",
         "fields": {
@@ -2350,7 +3180,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 125,
+        "row": 173,
         "id": "marbella:belge-ceviri-ve-apostil",
         "form": "sen",
         "fields": {
@@ -2368,7 +3198,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 126,
+        "row": 174,
         "id": "marbella:noter-islemleri-ve-ucretleri",
         "form": "sen",
         "fields": {
@@ -2386,7 +3216,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 127,
+        "row": 175,
         "id": "marbella:libro-de-familia-nedir",
         "form": "sen",
         "fields": {
@@ -2403,7 +3233,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 128,
+        "row": 176,
         "id": "marbella:registro-civil-ne-ise-yarar",
         "form": "sen",
         "fields": {
@@ -2422,7 +3252,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 129,
+        "row": 177,
         "id": "marbella:yabanci-ehliyet-degisimi",
         "form": "sen",
         "fields": {
@@ -2441,7 +3271,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 130,
+        "row": 178,
         "id": "marbella:arac-kaydi-ulusal-cerceve",
         "form": "sen",
         "fields": {
@@ -2460,7 +3290,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 131,
+        "row": 179,
         "id": "marbella:endulus-carpeta-ciudadana-junta-dijital-islemler",
         "form": "sen",
         "fields": {
@@ -2478,7 +3308,123 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 132,
+        "row": 180,
+        "id": "marbella:oac-marbella-ofisleri-ve-cita-previa",
+        "form": "sen",
+        "fields": {
+          "title": "sen",
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "alırsın",
+          "gidersin",
+          "al",
+          "ara",
+          "aldığın"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 181,
+        "id": "marbella:oac-marbella-islemleri-ve-dijital-sertifika-kimlik-dogrulama",
+        "form": "sen",
+        "fields": {
+          "title": "sen",
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "yaptırırsın",
+          "doğrulatırsın",
+          "almalısın",
+          "yap",
+          "al"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 182,
+        "id": "marbella:marbella-adres-kaydi-yollari-ve-belgeler",
+        "form": "sen",
+        "fields": {
+          "title": "sen",
+          "summary": "sen",
+          "steps": "sen",
+          "documents": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "yaptırırsın",
+          "yaptırabilirsin",
+          "seni",
+          "seç",
+          "hazırla"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 183,
+        "id": "marbella:marbella-adres-kaydi-yenileme-suresi-ve-getirisi",
+        "form": "sen",
+        "fields": {
+          "title": "sen",
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "yenilemen",
+          "sana",
+          "bul",
+          "vatandaşıysan",
+          "bak"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 184,
+        "id": "marbella:marbella-registro-civil-ofisi-adresi",
+        "form": "sen",
+        "fields": {
+          "title": "sen",
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "ulaşırsın",
+          "ara",
+          "yaz",
+          "sor",
+          "git"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 185,
+        "id": "marbella:marbella-secmen-listesi-censo-electoral-kaydi",
+        "form": "sen",
+        "fields": {
+          "title": "sen",
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "yazılırsın",
+          "tamamlaman",
+          "kazandıysan",
+          "yaptır",
+          "olman"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 186,
         "id": "marbella:kamu-saglik-sistemine-erisim-hak-sahipleri",
         "form": "sen",
         "fields": {
@@ -2495,7 +3441,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 133,
+        "row": 187,
         "id": "marbella:saglik-sigortasi-sarti-ve-convenio-especial",
         "form": "sen",
         "fields": {
@@ -2512,7 +3458,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 134,
+        "row": 188,
         "id": "marbella:recete-ilac-katilim-payi-copago",
         "form": "sen",
         "fields": {
@@ -2532,7 +3478,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 135,
+        "row": 189,
         "id": "marbella:acil-durumda-112",
         "form": "sen",
         "fields": {
@@ -2551,7 +3497,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 136,
+        "row": 190,
         "id": "marbella:ulusal-asi-takvimi",
         "form": "sen",
         "fields": {
@@ -2567,7 +3513,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 137,
+        "row": 191,
         "id": "marbella:hamilelik-dogum-ve-cocuk-sagligi-haklari",
         "form": "sen",
         "fields": {
@@ -2584,7 +3530,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 138,
+        "row": 192,
         "id": "marbella:ruh-sagligi-ve-yasli-bakimi-dependencia",
         "form": "sen",
         "fields": {
@@ -2601,7 +3547,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 139,
+        "row": 193,
         "id": "marbella:endulus-saglik-karti-tarjeta-sanitaria-ve-aile-hekimi-secimi",
         "form": "sen",
         "fields": {
@@ -2621,7 +3567,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 140,
+        "row": 194,
         "id": "marbella:marbella-merkez-saglik-merkezleri-leganitos-ricardo-soriano",
         "form": "sen",
         "fields": {
@@ -2636,7 +3582,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 141,
+        "row": 195,
         "id": "marbella:marbella-albarizas-ve-la-campana-saglik-merkezleri",
         "form": "sen",
         "fields": {
@@ -2654,7 +3600,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 142,
+        "row": 196,
         "id": "marbella:marbella-san-pedro-alcantara-saglik-merkezi",
         "form": "sen",
         "fields": {
@@ -2668,7 +3614,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 143,
+        "row": 197,
         "id": "marbella:marbella-hospital-costa-del-sol-adres-acil-telefonlar",
         "form": "sen",
         "fields": {
@@ -2683,7 +3629,130 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 144,
+        "row": 198,
+        "id": "marbella:marbella-ilk-saglik-karti-basvurusu-belgeler",
+        "form": "sen",
+        "fields": {
+          "title": "sen",
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "başvurursun",
+          "yaparsın",
+          "verirsin",
+          "sana",
+          "et"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 199,
+        "id": "marbella:marbella-yenidogan-bebek-saglik-karti",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "yaparsın",
+          "gidersin",
+          "doğrula",
+          "yaptır",
+          "git"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 200,
+        "id": "marbella:marbella-aile-hekimi-randevusu-clicsalud-app",
+        "form": "sen",
+        "fields": {
+          "title": "sen",
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "alırsın",
+          "iste",
+          "kullan",
+          "ara",
+          "et"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 201,
+        "id": "marbella:marbella-sanal-saglik-karti-ve-kart-yenileme",
+        "form": "sen",
+        "fields": {
+          "title": "sen",
+          "subtitle": "sen",
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "yaparsın",
+          "olman",
+          "etkinleştirirsin",
+          "alırsın",
+          "isteyebilirsin"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 203,
+        "id": "marbella:marbella-yaz-sicagi-saglik-riskleri-ulusal-sicak-plani",
+        "form": "sen",
+        "fields": {
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "bak",
+          "et"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 204,
+        "id": "marbella:marbella-belediye-saglik-tuketici-hizmetler-delegasyonu",
+        "form": "sen",
+        "fields": {
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "ulaş",
+          "bak"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 205,
+        "id": "marbella:salud-responde-955-54-50-60-neler-yapilir",
+        "form": "sen",
+        "fields": {
+          "title": "sen",
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "yapabilirsin",
+          "istiyorsan",
+          "ara",
+          "hazırla",
+          "yaptır"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 206,
         "id": "marbella:renfe-bilet-iptal-degisiklik-genc-indirimi",
         "form": "sen",
         "fields": {
@@ -2701,7 +3770,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 145,
+        "row": 207,
         "id": "marbella:otobus-yolcu-haklari-rotar-bagaj-engelli",
         "form": "sen",
         "fields": {
@@ -2719,7 +3788,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 146,
+        "row": 208,
         "id": "marbella:hiz-siniri-alkol-ehliyet-puani",
         "form": "sen",
         "fields": {
@@ -2737,7 +3806,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 147,
+        "row": 209,
         "id": "marbella:itv-arac-muayene-periyotlari",
         "form": "sen",
         "fields": {
@@ -2754,7 +3823,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 148,
+        "row": 210,
         "id": "marbella:ucus-gecikme-iptal-aesa-sikayet",
         "form": "sen",
         "fields": {
@@ -2772,7 +3841,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 149,
+        "row": 211,
         "id": "marbella:ada-ceuta-melilla-yerlesik-ucus-indirimi",
         "form": "sen",
         "fields": {
@@ -2790,7 +3859,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 150,
+        "row": 212,
         "id": "marbella:endulus-metropol-ulasim-konsorsiyum-kartlari-ve-interoperabilite",
         "form": "sen",
         "fields": {
@@ -2799,6 +3868,306 @@
         "siz": [],
         "sen": [
           "kullanabilirsin"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 213,
+        "id": "marbella:sehir-otobusu-urbanos-marbella-hat-tarife-bilgisi",
+        "form": "sen",
+        "fields": {
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "aç",
+          "gideceğin",
+          "seç",
+          "gör",
+          "gidiyorsan"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 214,
+        "id": "marbella:marbella-otogari-san-pedro-sehirlerarasi-otobus",
+        "form": "sen",
+        "fields": {
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "Gideceğin",
+          "seç",
+          "al",
+          "kalkacaksan",
+          "git"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 215,
+        "id": "marbella:marbella-otogarindan-malaga-havalimani-otobus-avanza",
+        "form": "sen",
+        "fields": {
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "git",
+          "seç",
+          "ara",
+          "bak"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 216,
+        "id": "marbella:malaga-havalimani-tren-c1-ekspres-otobus-merkeze",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "dur",
+          "edeceksen",
+          "istersen",
+          "seç",
+          "öde"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 217,
+        "id": "marbella:malaga-havalimani-taksi-tarifeleri-4-5-9",
+        "form": "sen",
+        "fields": {
+          "title": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "gidersen",
+          "git",
+          "bak",
+          "kat"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 218,
+        "id": "marbella:marbella-taksi-tarifeleri-2026-taximetro",
+        "form": "sen",
+        "fields": {
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "et",
+          "bil",
+          "kat"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 219,
+        "id": "marbella:marbella-elektrikli-scooter-vmp-kurallari",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "olmalısın",
+          "takmalısın",
+          "ol",
+          "kullan",
+          "dur"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 220,
+        "id": "marbella:marbella-paseo-maritimo-bisiklet-vmp-sektorleri",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "geçebilirsin",
+          "kullan",
+          "Gideceğin",
+          "belirle",
+          "git"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 221,
+        "id": "marbella:malaga-toplu-tasima-karti-tarjeta-de-transporte-alim-yukleme",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "alırsın",
+          "ödersin",
+          "git",
+          "al",
+          "öde"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 222,
+        "id": "marbella:malaga-metropol-ulasim-tarifesi-saltos-ve-aktarma-2026",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "dur",
+          "Gideceğin",
+          "öğren",
+          "ver",
+          "yapacaksan"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 223,
+        "id": "marbella:malaga-cercanias-konsorsiyum-karti-giris-cikis-turnike",
+        "form": "sen",
+        "fields": {
+          "subtitle": "sen",
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "okutmazsan",
+          "yapabilirsin",
+          "aşarsan",
+          "Vazgeçersen",
+          "edebilirsin"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 224,
+        "id": "marbella:andalucia-toplu-tasima-cocuk-ucretsiz-genc-indirimi-2026",
+        "form": "sen",
+        "fields": {
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "izle",
+          "gençsen",
+          "al",
+          "yolcuysan",
+          "kullan"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 225,
+        "id": "marbella:consorcio-malaga-monedero-virtual-telefonla-ode",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "timing": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "doğrulaman",
+          "indir",
+          "aç",
+          "doldur",
+          "et"
+        ]
+      },
+      {
+        "sheet": "Adımlar",
+        "row": 9,
+        "id": "marbella:step:2",
+        "form": "sen",
+        "fields": {
+          "title": "sen",
+          "description": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "seç",
+          "et",
+          "ara"
+        ]
+      },
+      {
+        "sheet": "Adımlar",
+        "row": 10,
+        "id": "marbella:step:3",
+        "form": "sen",
+        "fields": {
+          "title": "sen",
+          "description": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "yaptır",
+          "hazırla",
+          "doldur",
+          "ver"
+        ]
+      },
+      {
+        "sheet": "Adımlar",
+        "row": 11,
+        "id": "marbella:step:4",
+        "form": "sen",
+        "fields": {
+          "title": "sen",
+          "description": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "ara"
+        ]
+      },
+      {
+        "sheet": "Adımlar",
+        "row": 13,
+        "id": "marbella:step:6",
+        "form": "sen",
+        "fields": {
+          "title": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "başvur"
+        ]
+      },
+      {
+        "sheet": "Adımlar",
+        "row": 14,
+        "id": "marbella:step:7",
+        "form": "sen",
+        "fields": {
+          "description": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "et"
         ]
       }
     ]
