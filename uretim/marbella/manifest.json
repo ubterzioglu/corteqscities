@@ -1,0 +1,139 @@
+{
+ "schema_version": "1",
+ "city": {
+  "city_id": "marbella",
+  "name": "Marbella",
+  "country": "İspanya",
+  "city_code": "CITY-080"
+ },
+ "paths": {
+  "work": "/home/user/corteqscities/uretim/marbella",
+  "package_root": "/home/user/corteqscities/uretim/marbella/paket",
+  "template_xlsx": "/home/user/corteqscities/ekler/marbella/CITY-080_marbella_v001.xlsx",
+  "tools": "/home/user/corteqscities/araclar/arac",
+  "delivery_xlsx": "/home/user/corteqscities/uretim/marbella/paket/CITY-080_marbella_v001.xlsx",
+  "data_dir": "/home/user/corteqscities/uretim/marbella/_is/data",
+  "snapshots": "/home/user/corteqscities/uretim/marbella/_is/snap",
+  "cache": "/home/user/corteqscities/uretim/marbella/_is/cache",
+  "usage_log": "/home/user/corteqscities/uretim/marbella/_is/phase_log.jsonl"
+ },
+ "country_pack": {
+  "path": "/home/user/corteqscities/uretim/marbella/_is/ulke_paketi",
+  "valid_until": "2026-11-05"
+ },
+ "phase": "sources",
+ "phases": {
+  "intake": {
+   "status": "done",
+   "started_at": "2026-10-28T08:59:29Z",
+   "gates": [
+    {
+     "script": "xlsx_dump",
+     "exit_code": 0,
+     "summary": {
+      "sheets": 16,
+      "missing_sheets": [],
+      "total_rows": 2
+     },
+     "report": "/home/user/corteqscities/uretim/marbella/_is/sablon_dump",
+     "at": "2026-10-28T09:02:00Z"
+    },
+    {
+     "script": "validate_all",
+     "exit_code": 1,
+     "summary": {
+      "structure": {
+       "errors": 8
+      },
+      "note": "yalnız 8 şablon Şehir hatası (delivery_id düzeltmesinden sonra; önce 9)"
+     },
+     "report": "/home/user/corteqscities/uretim/marbella/_is/val_sablon.json",
+     "at": "2026-10-28T09:02:00Z"
+    },
+    {
+     "script": "wikidata_places",
+     "exit_code": 0,
+     "summary": {
+      "items": 179,
+      "with_site": 20,
+      "with_image": 103,
+      "with_category": 103
+     },
+     "report": "/home/user/corteqscities/uretim/marbella/_is/mekan/wikidata_aday.jsonl",
+     "at": "2026-10-28T09:02:00Z"
+    },
+    {
+     "script": "pack_merge+country_apply",
+     "exit_code": 0,
+     "summary": {
+      "cards": 105,
+      "claims": 2186,
+      "sources_added": 147,
+      "stale": 0
+     },
+     "report": "/home/user/corteqscities/uretim/marbella/_is/ulke_paketi/pack.json",
+     "at": "2026-10-28T09:02:00Z"
+    },
+    {
+     "script": "fetch_snapshot",
+     "exit_code": 1,
+     "summary": {
+      "urls": 44,
+      "saved": 27,
+      "failed": 17,
+      "thin_text": 3
+     },
+     "report": "/home/user/corteqscities/uretim/marbella/_is/kesif/erisim_snap/index.jsonl",
+     "at": "2026-10-28T09:02:00Z"
+    }
+   ],
+   "outputs": [
+    "/home/user/corteqscities/uretim/marbella/_is/sablon.xlsx",
+    "/home/user/corteqscities/uretim/marbella/_is/data/Konular.jsonl",
+    "/home/user/corteqscities/uretim/marbella/_is/yazar/ilk5.json",
+    "/home/user/corteqscities/uretim/marbella/_is/kesif/KESIF_TALIMAT.md",
+    "/home/user/corteqscities/uretim/marbella/_is/ortam.sh"
+   ],
+   "ended_at": "2026-10-28T09:02:41Z"
+  },
+  "sources": {
+   "status": "running",
+   "started_at": "2026-10-28T09:04:00Z",
+   "gates": [],
+   "outputs": []
+  }
+ },
+ "open_items": [
+  {
+   "id": "OI-001",
+   "priority": "P2",
+   "text": "Erişim: sede.marbella.es, mgec.es, puertodeandalucia.es bağlantı kurulamadı; hidralia.es, puertobanus.com, museosdeandalucia.es TLS sertifika hatası (doğrulama kapatılmadı, kural 8); malaga.es 405, sede.administracionespublicas.gob.es ve mivau.gob.es 403; Junta okul kayıt sayfası 503; sede.agenciatributaria.gob.es bağlantı sıfırlandı. Bilgi başka resmî kurumdan alınacak; erişim teyidi açık.",
+   "evidence": "/home/user/corteqscities/uretim/marbella/_is/kesif/erisim_snap/index.jsonl",
+   "owner": "insan"
+  },
+  {
+   "id": "OI-002",
+   "priority": "P2",
+   "text": "Atınç şablonunda delivery_id büyük harfli (CITY-080-v001): resmî doğrulayıcı reddediyor. Yalnız _is/sablon.xlsx kopyasında city-080-v001 yapıldı (yedek _is/sablon_orijinal_kopya.xlsx).",
+   "evidence": "/home/user/corteqscities/uretim/marbella/_is/val_sablon.json",
+   "owner": "atinc"
+  },
+  {
+   "id": "OI-003",
+   "priority": "P2",
+   "text": "Bilgi: Şehir.priority alanının anlamı sözleşmede tanımsız (şablondaki 3 korunuyor); Şehir.source_url (Kapsam kaynağı) şablonda InterNations listesi — anlamı Atınç'a soruldu.",
+   "evidence": "/home/user/corteqscities/uretim/marbella/_is/sablon_dump/Şehir.jsonl",
+   "owner": "atinc"
+  },
+  {
+   "id": "OI-004",
+   "priority": "P1",
+   "text": "Erken ölçüm (kural 15, faz 5): Marbella Wikidata mekân havuzu küçük — 179 aday, 103'ünde fotoğraf (Málaga 2.114). Mekân asgarisi 92 / hedef 120 ve foto asgarisi 187 zorlanabilir; seçimde yakın çevre gezisi payı (≤20) ve resmî sitelerden tamamlama gerekebilir.",
+   "evidence": "/home/user/corteqscities/uretim/marbella/_is/mekan/wikidata_aday.jsonl",
+   "owner": "ai"
+  }
+ ],
+ "sources_researched": 0,
+ "photos_downloaded": 0,
+ "next_step": "sources: 4 keşif ajanı (3'er konu)"
+}

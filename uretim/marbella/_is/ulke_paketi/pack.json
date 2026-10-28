@@ -1,0 +1,544 @@
+{
+ "country": "ES",
+ "version": 9,
+ "built": "2026-10-24",
+ "parts": [
+  {
+   "path": "/home/user/corteqscities/ulke/ES",
+   "version": 9,
+   "region": null
+  },
+  {
+   "path": "/home/user/corteqscities/ulke/ES/bolge/andalucia",
+   "version": 2,
+   "region": "andalucia"
+  }
+ ],
+ "cards": {
+  "nie-nedir-ne-ise-yarar": {
+   "sha256": "b4008e3863f5f289dbddd3b101b530e90daedddb2d30c5547450a8ac42d02db8",
+   "valid_until": null,
+   "topic": "oturum"
+  },
+  "ab-vatandasi-kayit-sertifikasi": {
+   "sha256": "60a799707e16ebc2575be661ffca3acfa3a1229bd38a14f8ce9275dc35c69135",
+   "valid_until": null,
+   "topic": "oturum"
+  },
+  "tie-yabanci-kimlik-karti": {
+   "sha256": "a6bab9c429bf6cca9cb59b90effe555a08beebfafec1dee8f459020f791e03ad",
+   "valid_until": null,
+   "topic": "oturum"
+  },
+  "ab-vatandasi-calisma-izni-gerekli-mi": {
+   "sha256": "74a42aceb540f34a158e6b51e15a4a4c963bac4a917a6e2bee435bec78278c57",
+   "valid_until": null,
+   "topic": "oturum"
+  },
+  "oturum-izni-yenileme": {
+   "sha256": "4daed53ec8caa70799af3b6b861127ffc8f14fa41a066210da81f062cbea4955",
+   "valid_until": null,
+   "topic": "oturum"
+  },
+  "aile-birlesimi-ile-oturum": {
+   "sha256": "60fdb06d85f9fd1d4453b6271bbd43c59d4ed0a01bbca9f8675b3570e07d2d7f",
+   "valid_until": null,
+   "topic": "oturum"
+  },
+  "kalici-oturum-bes-yil": {
+   "sha256": "e6b6a7f9a1d4a2c0c60cb3d7d9e3f0c3b7a25e993a26b569e8097f26d52d805c",
+   "valid_until": null,
+   "topic": "oturum"
+  },
+  "arraigo-kok-salma-oturumu": {
+   "sha256": "82a6ce7980e74ccce5782043d1f8963ee25f24842e21180cb90e3e4d5b3a8390",
+   "valid_until": null,
+   "topic": "oturum"
+  },
+  "dijital-gocebe-vizesi": {
+   "sha256": "139ab7c60a1c2e6097d3301ba5f3614c63dfa956a5fe23187ab1be98c248cead",
+   "valid_until": "2026-12-31",
+   "topic": "oturum"
+  },
+  "kar-amaci-gutmeyen-oturum-vizesi": {
+   "sha256": "1b9e3c70950275d5e5862250d61c229d1d45f4b293f06f7f26d4354cf0d9d59d",
+   "valid_until": "2026-12-31",
+   "topic": "oturum"
+  },
+  "altin-vize-sona-erdi": {
+   "sha256": "296bb981fe273b00de1b32a18f1b28d67fc84187349e0b9c5d85bf84a524fbb7",
+   "valid_until": null,
+   "topic": "oturum"
+  },
+  "ogrenci-oturumuyla-calisma-hakki": {
+   "sha256": "dab27f59f227bba8b260ff30baad0c6f953492ee7a8ad1de56f4ef9ad5cbad49",
+   "valid_until": null,
+   "topic": "oturum"
+  },
+  "ispanyol-vatandasligi-basvurusu": {
+   "sha256": "e9dae9784854f79c11fa77303d5f1e660606a9ba971b0b3389967ca3cd70dadb",
+   "valid_until": null,
+   "topic": "oturum"
+  },
+  "brexit-sonrasi-ingiliz-oturumu": {
+   "sha256": "affd16dd7761fc0495b32107d0acffdb0d719eca6d984a8ba7e331b29f414ee1",
+   "valid_until": null,
+   "topic": "oturum"
+  },
+  "empadronamiento-nedir-neden-gerekir": {
+   "sha256": "c3defebd747ac2c16b4c6931d9ec96cceda16288b92e545941f85bc2111cd0ab",
+   "valid_until": null,
+   "topic": "resmi"
+  },
+  "certificado-ve-volante-farki": {
+   "sha256": "ad452c41857261e4dba08923f8e2bc9e908e510ff6f19708ee2497636bd15e76",
+   "valid_until": null,
+   "topic": "resmi"
+  },
+  "sosyal-guvenlik-numarasi-alma": {
+   "sha256": "6a77dbabff801c26f063815d5405f2d55decf49d7abc31d0efc3854608fd581a",
+   "valid_until": null,
+   "topic": "resmi"
+  },
+  "vida-laboral-raporu-alma": {
+   "sha256": "766a67ebf28247dea647a5d6b401435ac72f59e5b71ffd2e976d41b865116dd9",
+   "valid_until": null,
+   "topic": "resmi"
+  },
+  "vergi-numarasi-nif-nie-alma": {
+   "sha256": "fccab909658340e75f25592e9a5c08caf3098ba512c310973277e742e8b5c3cf",
+   "valid_until": null,
+   "topic": "resmi"
+  },
+  "clave-pin-ve-permanente-farki": {
+   "sha256": "453b181e1bd89fb462847ec105de24bc2e75e441cb9cb896b56e206244be4f43",
+   "valid_until": null,
+   "topic": "resmi"
+  },
+  "fnmt-dijital-sertifika-kurma": {
+   "sha256": "bd3912688ffefdcba8523f7f4f841c3724e4c86b8990e18d320a38d10a3dc7ff",
+   "valid_until": null,
+   "topic": "resmi"
+  },
+  "belge-ceviri-ve-apostil": {
+   "sha256": "3237ca758644b555a67b3ce9090c3ba3cb7d237b03ec1793bea086ebcab1b852",
+   "valid_until": null,
+   "topic": "resmi"
+  },
+  "noter-islemleri-ve-ucretleri": {
+   "sha256": "1bc803395a0cef4b5c846602ae3fa848d3696e96d44c5528a7e8ef014eb3af72",
+   "valid_until": null,
+   "topic": "resmi"
+  },
+  "libro-de-familia-nedir": {
+   "sha256": "39825409037e69d33de413ee1b4ba9dc38e283a49cea29b3492a9f5dff01345e",
+   "valid_until": null,
+   "topic": "resmi"
+  },
+  "registro-civil-ne-ise-yarar": {
+   "sha256": "d8ec39ca99c7db71afe2cec1f9b75df6366d7a5544069364e1f938cae2e7f202",
+   "valid_until": null,
+   "topic": "resmi"
+  },
+  "yabanci-ehliyet-degisimi": {
+   "sha256": "307f8a814ebae56d8b859f3bf131e86bbcc3538a7cb6ae6355d0b08abed8b6c5",
+   "valid_until": null,
+   "topic": "resmi"
+  },
+  "arac-kaydi-ulusal-cerceve": {
+   "sha256": "ff03a485b510a0d66e5dedaaa6ec3c843298af1a27d708d1770b2668922eb902",
+   "valid_until": null,
+   "topic": "resmi"
+  },
+  "banka-hesabi-acma-ve-temel-odeme-hesabi": {
+   "sha256": "01250a87037c6cdfaf92e47ce09b795b9299cdb7e46d9a91df634b78fae1ce60",
+   "valid_until": null,
+   "topic": "para"
+  },
+  "iban-ve-sepa-havalesi": {
+   "sha256": "fd79be1ba27425d7afb02cad80f90fca8f5b806158c0630543d35f818648676d",
+   "valid_until": null,
+   "topic": "para"
+  },
+  "gelir-vergisi-irpf-devlet-dilimleri": {
+   "sha256": "1052b08a27cdfb9f8e188df4077b11f6805613654e6df4ef030874f739080282",
+   "valid_until": null,
+   "topic": "para"
+  },
+  "kdv-iva-oranlari": {
+   "sha256": "0dfc9b89e206bccb9a8daaa8ebd2a75ae47fe60a4cf13eaea7b0dd197fb5a470",
+   "valid_until": null,
+   "topic": "para"
+  },
+  "yillik-gelir-vergisi-beyani-renta": {
+   "sha256": "542073eb0d0497fb85fa774d445939280692ae9274bc4aa97980a2b40e7f1439",
+   "valid_until": null,
+   "topic": "para"
+  },
+  "vergi-iadesi-devolucion-renta": {
+   "sha256": "017cbc12d6b2fa1a201bfba59b2548b9e485bd42ff0ef388acb07b8a7e40b5df",
+   "valid_until": null,
+   "topic": "para"
+  },
+  "gestor-asesor-vergi-beyani-temsil": {
+   "sha256": "847cd88a1768c1e023c56b905439f28cc8eb8bbcc990c954c80b84060ebfc579",
+   "valid_until": null,
+   "topic": "para"
+  },
+  "arac-sigortasi-zorunlulugu-ve-hipotek-sigortalari": {
+   "sha256": "dd558dcf5d80a20a60b5d7fe1c9c70d56713baa04705a89f64abcad4a64a71ee",
+   "valid_until": null,
+   "topic": "para"
+  },
+  "emeklilik-yasi-ve-prim-suresi": {
+   "sha256": "b18db3151eb041ae2e6ddff6289e51335a89eff59c5928863ce405406c1a9fc6",
+   "valid_until": null,
+   "topic": "para"
+  },
+  "bizum-nedir-nasil-kullanilir": {
+   "sha256": "03b24ae4c66169f8c3e950d3be474a5913deada80d83a0e43762a21a9eb204d6",
+   "valid_until": null,
+   "topic": "para"
+  },
+  "banka-ucretleri-ve-seffaflik-haklari": {
+   "sha256": "3c0c566410f2a86b858d7b4a5b3aa1383d71c8e1b3f605482a592042dc100451",
+   "valid_until": null,
+   "topic": "para"
+  },
+  "beckham-yasasi-ozel-vergi-rejimi": {
+   "sha256": "ba010fbcbaabf7ee604886065927683f59d2f64e6b5d11e9d4d6927aaeb9565b",
+   "valid_until": null,
+   "topic": "para"
+  },
+  "is-sozlesmesi-turleri": {
+   "sha256": "8f332a1fd0b2c0ed6f423df0ac4466f53df14b13973f8295558ca6e9010142f3",
+   "valid_until": null,
+   "topic": "is"
+  },
+  "asgari-ucret-smi-2026-calisma-saatleri": {
+   "sha256": "ba79181532ef5f98e2f649a9db9a7525b3c14a7837a1ed439cb5da30db37d823",
+   "valid_until": "2026-12-31",
+   "topic": "is"
+  },
+  "yillik-izin-ve-resmi-tatiller-2026": {
+   "sha256": "97207074944cb6db11259e828b08dbb09bfc899c11e7c7fde729246c35c296b6",
+   "valid_until": "2026-12-31",
+   "topic": "is"
+  },
+  "maas-bordrosu-nomina-icerigi": {
+   "sha256": "c4c5e84be5d38eb047f75186a33c28a95929f1b01123ebd6015b3f77fe46e461",
+   "valid_until": "2026-12-31",
+   "topic": "is"
+  },
+  "finiquito-isten-ayrilirken-tasfiye-belgesi": {
+   "sha256": "d277936c1e238888df37b5495dbe3f54cc66cfa2a6a2c7e79e1bfc55eb065ad6",
+   "valid_until": null,
+   "topic": "is"
+  },
+  "isten-cikarilma-despido-turleri-ve-tazminat": {
+   "sha256": "0c838ab44ed068a12fb6ea6aeef234361aed058b7c14ba3816e1bbd3ae786911",
+   "valid_until": null,
+   "topic": "is"
+  },
+  "issizlik-maasi-paro-sepe-basvurusu": {
+   "sha256": "5ef24b28f4c3b46c6656aef0d749c46b29699f9b6e179e46d9b77a97476cfbbc",
+   "valid_until": null,
+   "topic": "is"
+  },
+  "is-kazasi-ve-meslek-hastaligi-tanimi": {
+   "sha256": "627fb1280580293db1e2b5ea622871f6926a2987fb4586fadf3c09bbee03bd48",
+   "valid_until": null,
+   "topic": "is"
+  },
+  "serbest-calisan-autonomo-kayit-ve-prim-tablosu": {
+   "sha256": "4e94edca521274868877af19733bdb05bffa9a996cef30eaa52bc8bb36b63e71",
+   "valid_until": "2026-12-31",
+   "topic": "is"
+  },
+  "dogum-ve-babalik-izni-sureleri": {
+   "sha256": "50eb87dce2d7e4385fe41df67e340fb802b399bebb88f9f0bd5513897a5f27fd",
+   "valid_until": null,
+   "topic": "is"
+  },
+  "yabanci-diploma-denklik-okul-ve-universite": {
+   "sha256": "150c95f9e3ee2181bb287d1f1268c63a7972d1ceb1bfda396f8330256b096cf1",
+   "valid_until": null,
+   "topic": "is"
+  },
+  "elektrik-aboneligi-serbest-piyasa-pvpc": {
+   "sha256": "1435878a15af1de72c4039574beeb15173ff35a5a6e50ee895a46740d3dea6c8",
+   "valid_until": null,
+   "topic": "fatura"
+  },
+  "elektrik-faturasi-nasil-okunur": {
+   "sha256": "e341a4f66440426bbc94cb7bb00cdc33ccb9c9c10628e0dcb1b8402aa2b44899",
+   "valid_until": null,
+   "topic": "fatura"
+  },
+  "sozlesmeli-elektrik-gucu-nasil-secilir": {
+   "sha256": "e199dc49d9b248c6f8d5a4430a88bbd6dc82d8675adf010445796cd07b7e476b",
+   "valid_until": null,
+   "topic": "fatura"
+  },
+  "dogalgaz-aboneligi-tur-ve-fatura": {
+   "sha256": "54e35e3afde1df3b2733eea77b011a4b0fd95e7c3746dabce6d4466687521ca8",
+   "valid_until": null,
+   "topic": "fatura"
+  },
+  "bono-social-elektrik-kimler-alir": {
+   "sha256": "9c7f088cbe91a1d89c7409ddc932d07d9d47fc251982e097fd3de6ac49173cc6",
+   "valid_until": "2026-12-31",
+   "topic": "fatura"
+  },
+  "internet-mobil-hat-sozlesmesi-taahhut-cayma": {
+   "sha256": "be292acb6a2fe74a3d4d227386b947361f405761d6429c5bc2f285f4093b7d5e",
+   "valid_until": null,
+   "topic": "fatura"
+  },
+  "cnmc-teklif-karsilastirma-araci": {
+   "sha256": "fb370bcb04929250788227c4cffc26dab087f1c6a535e2b0013b929af970fff8",
+   "valid_until": null,
+   "topic": "fatura"
+  },
+  "elektrik-ve-telekom-sikayet-yollari": {
+   "sha256": "bfbdbbec164d05a8727aaa5a2ed73dbf2bdddfa98a3a7ce2809784873bc13c36",
+   "valid_until": null,
+   "topic": "fatura"
+  },
+  "apartman-yonetimi-comunidad-de-vecinos": {
+   "sha256": "d3c1e9ee6e9c81841bfd2b88985b2d7e20105dead13a1cba04e74546f3c8ebb9",
+   "valid_until": null,
+   "topic": "fatura"
+  },
+  "kamu-saglik-sistemine-erisim-hak-sahipleri": {
+   "sha256": "1e74cd10ec02f53c2c60cbb6d3f37d144f60231376b32856216ef687ba9146d9",
+   "valid_until": null,
+   "topic": "saglik"
+  },
+  "saglik-sigortasi-sarti-ve-convenio-especial": {
+   "sha256": "80596d87fbf7c0a48d7a395b9ca771eb7f39f7f361b9515bd777b4aa985e01a6",
+   "valid_until": null,
+   "topic": "saglik"
+  },
+  "recete-ilac-katilim-payi-copago": {
+   "sha256": "5b9cd87edba6af1606cfeadfa6710d73385b02516cef521a7a4a5051100824ee",
+   "valid_until": null,
+   "topic": "saglik"
+  },
+  "acil-durumda-112": {
+   "sha256": "3dce9cc00b9ec82f8c6d6ef81141b12e18d33ea0a5e49baa35ac93afcbc54a03",
+   "valid_until": null,
+   "topic": "saglik"
+  },
+  "ulusal-asi-takvimi": {
+   "sha256": "e4dac7dcd8f14eed38eaa369fc306cff6453b36e7ca37cec60b0d9b0afd6f24b",
+   "valid_until": null,
+   "topic": "saglik"
+  },
+  "hamilelik-dogum-ve-cocuk-sagligi-haklari": {
+   "sha256": "1bb92782e3cb643120b3de986b86d155096076fd1011e8e642a7b6b50d97a878",
+   "valid_until": null,
+   "topic": "saglik"
+  },
+  "ruh-sagligi-ve-yasli-bakimi-dependencia": {
+   "sha256": "06859942eaf1ff2488210d17f0d10b0424aba126a25e25f299000483c8b53a2e",
+   "valid_until": null,
+   "topic": "saglik"
+  },
+  "kira-sozlesmesi-suresi-ve-uzama": {
+   "sha256": "6d5b44499ce2470db22b12cd15d7525f0b86dea3b2a5caf2fbe56beb396233b5",
+   "valid_until": "2026-11-05",
+   "topic": "ev"
+  },
+  "kira-depozitosu-fianza-ve-iade": {
+   "sha256": "adeda8124d3ef67ef3af767febfa9621d569537af4ce2287936694e7a01e78bc",
+   "valid_until": "2026-11-05",
+   "topic": "ev"
+  },
+  "kira-artisi-siniri-irav": {
+   "sha256": "8257b317cabbaca41a8d618ebc29f91012c0050fb725826ce3818b7b02457dca",
+   "valid_until": "2026-11-05",
+   "topic": "ev"
+  },
+  "kirada-onarim-ve-hasar-sorumlulugu": {
+   "sha256": "c8c92f6d21a55e4d001ca7cdbdca59942070b3fa6929871539f0f644a79e56ae",
+   "valid_until": "2026-11-05",
+   "topic": "ev"
+  },
+  "kiralik-evden-cikis-ve-ihbar-suresi": {
+   "sha256": "bb5e5f56f7a9dfa02cae4cf475b8c609f043d89b2de619fac4774b7865ed34bc",
+   "valid_until": "2026-11-05",
+   "topic": "ev"
+  },
+  "kiralik-ilan-dolandiriciligini-tanima": {
+   "sha256": "e256b11cc95b0fe66472db3fff3fec7b686cff91572a721eaeb3cd4ba3875000",
+   "valid_until": "2026-11-05",
+   "topic": "ev"
+  },
+  "tasinma-oncesi-vize-ve-ilk-oturum-izni": {
+   "sha256": "e79aede4ae3d345db7a1bc261de17dd52a7ae3bf1b03b910820b6df55bcf2ce4",
+   "valid_until": null,
+   "topic": "planlama"
+  },
+  "oturum-vizesi-basvurusunda-getirilecek-belgeler": {
+   "sha256": "ab5e1d76871b3c66ddb26fb773e9c7cf9c9896495966ec5552049fa9e3cd208e",
+   "valid_until": null,
+   "topic": "planlama"
+  },
+  "ilk-gunlerde-nuss-ve-temel-odeme-hesabi": {
+   "sha256": "8b7c62d47ce8d1646ac32e49c1d1fbff5d267eeb0996addaf3563447233c1c74",
+   "valid_until": null,
+   "topic": "planlama"
+  },
+  "ab-disindan-gelirken-esya-ve-nakit-gumruk-beyani": {
+   "sha256": "bd51df608c6e7f6416c40a2f972e1b684bf58a546ec3021133fa6b163e72d186",
+   "valid_until": null,
+   "topic": "planlama"
+  },
+  "ab-disindan-evcil-hayvanla-ispanyaya-giris": {
+   "sha256": "da9d16acd6fed0667ba942330f80606d08a0a15dd045268cdd35c72c6fb0edf2",
+   "valid_until": null,
+   "topic": "planlama"
+  },
+  "oturum-ve-ogrenci-vizesinde-saglik-sigortasi-sarti": {
+   "sha256": "d408f87c8eca1688622ad3e448e694f0441ef26e4038d28abba637a207294e31",
+   "valid_until": null,
+   "topic": "planlama"
+  },
+  "ispanya-para-birimi-euro-ve-resmi-dil": {
+   "sha256": "9407cde188a240c44ec81f22ae5d3a5baf5c433a795e4041ecf7aa6331878eab",
+   "valid_until": null,
+   "topic": "planlama"
+  },
+  "ispanya-resmi-saat-ve-yaz-saati-kurali": {
+   "sha256": "511b84ee0a37c0cc0b53b787577674ec2adc9f71ce4808e3a213bd118f8c20f8",
+   "valid_until": null,
+   "topic": "planlama"
+  },
+  "ab-disindan-gelen-yolcunun-bagaj-muafiyeti": {
+   "sha256": "9e318198fece81db5f42a16b35e6ebd9845865eba0b1699b3900bdaa4f7ee755",
+   "valid_until": null,
+   "topic": "planlama"
+  },
+  "egitim-sistemi-zorunlu-egitim-ve-okul-turleri": {
+   "sha256": "3fb389402e9fade186f1e3b1313c00667d0c86c82403379520e459be97557ac3",
+   "valid_until": null,
+   "topic": "aile"
+  },
+  "yabanci-lise-diplomasi-ile-universiteye-giris": {
+   "sha256": "096a5b5db7429484bb4b4e58cb7662a8ddb3d6d7805439ada35eccb6f13304dc",
+   "valid_until": null,
+   "topic": "aile"
+  },
+  "ingreso-minimo-vital-ve-cocuk-destegi": {
+   "sha256": "f5b973d2b51b41c5e547cce79c2bf791ff8eef43f4402e4870919b7bffbc045c",
+   "valid_until": "2026-12-31",
+   "topic": "aile"
+  },
+  "mec-burslari-ab-disi-sart-ve-basvuru-donemi": {
+   "sha256": "838e9dd466508c33cd3855bbf7668ced6382bb4cc787d5eb79406b72aeb8e362",
+   "valid_until": "2027-05-31",
+   "topic": "aile"
+  },
+  "renfe-bilet-iptal-degisiklik-genc-indirimi": {
+   "sha256": "b0f9d6d35ad455dcb540a4089ac569d9510467a2bca7229632c99310b5623d58",
+   "valid_until": null,
+   "topic": "ulasim"
+  },
+  "otobus-yolcu-haklari-rotar-bagaj-engelli": {
+   "sha256": "7019d0e476be12f0b2bf121e00df5b47b913cc63d6b94df27fe362df4164f6c1",
+   "valid_until": null,
+   "topic": "ulasim"
+  },
+  "hiz-siniri-alkol-ehliyet-puani": {
+   "sha256": "747a3203500f10cc48886a89c3b03f156a5aade88882873e10d04b0177e320f4",
+   "valid_until": null,
+   "topic": "ulasim"
+  },
+  "itv-arac-muayene-periyotlari": {
+   "sha256": "c17f4f36e987a4d6b861111b6e94bdd0217bf4b82b05702eabd0cc0385157a50",
+   "valid_until": null,
+   "topic": "ulasim"
+  },
+  "ucus-gecikme-iptal-aesa-sikayet": {
+   "sha256": "d331256eade2477a961d078485fb407ee3e571e9ca935279b20d5fd4b144b13f",
+   "valid_until": null,
+   "topic": "ulasim"
+  },
+  "ada-ceuta-melilla-yerlesik-ucus-indirimi": {
+   "sha256": "d13eae1ed976a6507b71c928b64f9b7d59ccd324836729dc3ca2a5714932a293",
+   "valid_until": null,
+   "topic": "ulasim"
+  },
+  "resmi-tatiller-2027": {
+   "sha256": "56834c0b5d6e9b891b0978e0a0ebb455661453aeb0ad5b21eef2ea23899e111c",
+   "valid_until": "2027-12-31",
+   "topic": "gunluk"
+  },
+  "magaza-acilis-saatleri-cercevesi": {
+   "sha256": "36e0a76e96377b40f5b7edfd23ae055b43396ebcfc0808b8840d3f840b2511e9",
+   "valid_until": null,
+   "topic": "gunluk"
+  },
+  "ab-disi-paket-gumruk-iva": {
+   "sha256": "322a0a484fa7034bd0537b61a5b41aa1849cc278c3911dd2ae36b84ab462e9c6",
+   "valid_until": "2026-12-31",
+   "topic": "gunluk"
+  },
+  "diger-resmi-yardim-hatlari": {
+   "sha256": "55d257b1fcc1dc93248af55c8adb81f07c76f561025490b5d9bb60ad37f1e6ea",
+   "valid_until": null,
+   "topic": "gunluk"
+  },
+  "bahsis-ve-odeme-aliskanliklari": {
+   "sha256": "cc125752c1fcd6716fc7c1f9816a503fb5d6e31b68f117c9f5059b24d4c519dd",
+   "valid_until": null,
+   "topic": "gunluk"
+  },
+  "endulus-saglik-karti-tarjeta-sanitaria-ve-aile-hekimi-secimi": {
+   "sha256": "225bd9206a50e0f486203cc7654e37408dbc2d9f73a0f6b73caf2a4a57038aec",
+   "valid_until": null,
+   "topic": "saglik"
+  },
+  "endulus-gelir-vergisi-irpf-bolge-dilimleri-ve-indirimleri": {
+   "sha256": "56c233a9e542968c6a9f8ee044e07e37f9c41c8c64cd868e118130af04bd6ba4",
+   "valid_until": "2026-12-31",
+   "topic": "para"
+  },
+  "endulus-ikinci-el-konut-alimi-itp-indirimli-oranlar": {
+   "sha256": "2a89b92c057fd5e1f19917bdb48aa0ae2602aa73eb6396c1466fcaa53b9c9376",
+   "valid_until": "2026-12-31",
+   "topic": "para"
+  },
+  "endulus-kira-depozitosu-fianza-avra-yatirma-zorunlulugu": {
+   "sha256": "1581759b755b4bb6be8a85dd5c308619c5db778d7dbf5d9d690dac9f495b1c3d",
+   "valid_until": null,
+   "topic": "ev"
+  },
+  "endulus-sae-is-arayan-kaydi-demandante-de-empleo": {
+   "sha256": "c4dbc7ae9a66aa6a6291795bb67c44fd85c3ec717b07b0dc4e0be9c18b23f1c2",
+   "valid_until": null,
+   "topic": "is"
+  },
+  "endulus-okul-kaydi-basvuru-donemi-ve-gec-gelen-ogrenci": {
+   "sha256": "d1ccac77c9fc7e81c417509276c2d10cb1890be457aa35e440da059cb2610e92",
+   "valid_until": "2027-02-28",
+   "topic": "aile"
+  },
+  "endulus-metropol-ulasim-konsorsiyum-kartlari-ve-interoperabilite": {
+   "sha256": "611fd0deffb73ddedfdf4fac29bc73778cf9565f5ec97721de85d9d179658386",
+   "valid_until": null,
+   "topic": "ulasim"
+  },
+  "endulus-2027-resmi-tatilleri": {
+   "sha256": "9d29a62135f70eb9ecc166eec293d44c61abaf195b0972507e31b80234ee3bdd",
+   "valid_until": "2027-12-31",
+   "topic": "gunluk"
+  },
+  "endulus-carpeta-ciudadana-junta-dijital-islemler": {
+   "sha256": "fefa941429686135bbd69f13e159b8d8f4016376a7f91b3dfd196e8ea083a227",
+   "valid_until": null,
+   "topic": "resmi"
+  }
+ }
+}
