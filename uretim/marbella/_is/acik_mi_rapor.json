@@ -1,0 +1,125 @@
+{
+  "tool": "acik_mi",
+  "acik_mi": "/home/user/corteqscities/uretim/marbella/_is/acik_mi",
+  "mekanlar": [
+    "/home/user/corteqscities/uretim/marbella/_is/data/parcalar/Mekânlar.m1.jsonl",
+    "/home/user/corteqscities/uretim/marbella/_is/data/parcalar/Mekânlar.m2.jsonl",
+    "/home/user/corteqscities/uretim/marbella/_is/data/parcalar/Mekânlar.m3.jsonl"
+  ],
+  "kaynaklar": [
+    "/home/user/corteqscities/uretim/marbella/_is/kaynak_dizini.jsonl"
+  ],
+  "min_year": 2025,
+  "mekan": 101,
+  "tarama": {
+    "dosya": 6,
+    "satir": 101,
+    "mekan": 101
+  },
+  "dogrulama": {
+    "dosya": 6,
+    "satir": 60
+  },
+  "durum": {
+    "belirsiz": 55,
+    "açık": 44,
+    "insaat": 2
+  },
+  "eylem": {
+    "dokunma": 53,
+    "kartta belirt": 7
+  },
+  "sonuc": {
+    "onay": 37,
+    "ret": 23
+  },
+  "listede_olmayan": {
+    "tarama": 0,
+    "dogrulama": 0
+  },
+  "findings": [
+    {
+      "code": "not_yok",
+      "entry_id": "marbella:polideportivo-carlos-cabezas",
+      "where": "m1_dogrulama.jsonl:17",
+      "message": "'kartta belirt' kartında 2026 ya da sonrası tarihli not yok (Mekânlar.m1.jsonl:40): '<gün> <ay> <yıl> itibarıyla …' cümlesi bekleniyor"
+    },
+    {
+      "code": "kaynak_izi_yok",
+      "entry_id": "marbella:polideportivo-carlos-cabezas",
+      "where": "m1_dogrulama.jsonl:17",
+      "message": "kanıt adresinin kaynak kimliği kartın source_ids'inde yok (Mekânlar.m1.jsonl:40): add_sources ile kaynak yapıp kimliği ekle"
+    },
+    {
+      "code": "not_yok",
+      "entry_id": "marbella:parque-arroyo-de-la-represa",
+      "where": "m1_dogrulama.jsonl:24",
+      "message": "'kartta belirt' kartında 2026 ya da sonrası tarihli not yok (Mekânlar.m1.jsonl:47): '<gün> <ay> <yıl> itibarıyla …' cümlesi bekleniyor"
+    },
+    {
+      "code": "kaynak_izi_yok",
+      "entry_id": "marbella:parque-arroyo-de-la-represa",
+      "where": "m1_dogrulama.jsonl:24",
+      "message": "kanıt adresinin kaynak kimliği kartın source_ids'inde yok (Mekânlar.m1.jsonl:47): add_sources ile kaynak yapıp kimliği ekle"
+    },
+    {
+      "code": "not_yok",
+      "entry_id": "marbella:centro-interpretacion-torres-vigia-la-cala",
+      "where": "m3_dogrulama.jsonl:1",
+      "message": "'kartta belirt' kartında 2026 ya da sonrası tarihli not yok (Mekânlar.m3.jsonl:5): '<gün> <ay> <yıl> itibarıyla …' cümlesi bekleniyor"
+    },
+    {
+      "code": "kaynak_izi_yok",
+      "entry_id": "marbella:centro-interpretacion-torres-vigia-la-cala",
+      "where": "m3_dogrulama.jsonl:1",
+      "message": "kanıt adresinin kaynak kimliği kartın source_ids'inde yok (Mekânlar.m3.jsonl:5): add_sources ile kaynak yapıp kimliği ekle"
+    },
+    {
+      "code": "not_yok",
+      "entry_id": "marbella:mercado-municipal-san-pedro-alcantara",
+      "where": "m3_dogrulama.jsonl:6",
+      "message": "'kartta belirt' kartında 2026 ya da sonrası tarihli not yok (Mekânlar.m3.jsonl:13): '<gün> <ay> <yıl> itibarıyla …' cümlesi bekleniyor"
+    },
+    {
+      "code": "kaynak_izi_yok",
+      "entry_id": "marbella:mercado-municipal-san-pedro-alcantara",
+      "where": "m3_dogrulama.jsonl:6",
+      "message": "kanıt adresinin kaynak kimliği kartın source_ids'inde yok (Mekânlar.m3.jsonl:13): add_sources ile kaynak yapıp kimliği ekle"
+    },
+    {
+      "code": "not_yok",
+      "entry_id": "marbella:auditorio-jose-pernia-calderon",
+      "where": "sahne_dogrulama.jsonl:1",
+      "message": "'kartta belirt' kartında 2026 ya da sonrası tarihli not yok (Mekânlar.m2.jsonl:31): '<gün> <ay> <yıl> itibarıyla …' cümlesi bekleniyor"
+    },
+    {
+      "code": "not_yok",
+      "entry_id": "marbella:castillo-de-marbella-alcazaba-y-muralla",
+      "where": "tarih_dogrulama.jsonl:1",
+      "message": "'kartta belirt' kartında 2026 ya da sonrası tarihli not yok (Mekânlar.m2.jsonl:1): '<gün> <ay> <yıl> itibarıyla …' cümlesi bekleniyor"
+    },
+    {
+      "code": "kaynak_izi_yok",
+      "entry_id": "marbella:castillo-de-marbella-alcazaba-y-muralla",
+      "where": "tarih_dogrulama.jsonl:1",
+      "message": "kanıt adresinin kaynak kimliği kartın source_ids'inde yok (Mekânlar.m2.jsonl:1): add_sources ile kaynak yapıp kimliği ekle"
+    },
+    {
+      "code": "not_yok",
+      "entry_id": "marbella:casa-consistorial-de-marbella",
+      "where": "tarih_dogrulama.jsonl:16",
+      "message": "'kartta belirt' kartında 2026 ya da sonrası tarihli not yok (Mekânlar.m2.jsonl:17): '<gün> <ay> <yıl> itibarıyla …' cümlesi bekleniyor"
+    },
+    {
+      "code": "kaynak_izi_yok",
+      "entry_id": "marbella:casa-consistorial-de-marbella",
+      "where": "tarih_dogrulama.jsonl:16",
+      "message": "kanıt adresinin kaynak kimliği kartın source_ids'inde yok (Mekânlar.m2.jsonl:17): add_sources ile kaynak yapıp kimliği ekle"
+    }
+  ],
+  "by_code": {
+    "not_yok": 7,
+    "kaynak_izi_yok": 6
+  },
+  "out": "/home/user/corteqscities/uretim/marbella/_is/acik_mi_rapor.json"
+}
