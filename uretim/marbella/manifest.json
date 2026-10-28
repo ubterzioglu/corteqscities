@@ -152,10 +152,98 @@
    "ended_at": "2026-10-28T09:21:41Z"
   },
   "answers": {
-   "status": "running",
-   "started_at": "2026-10-28T09:21:41Z",
-   "gates": [],
-   "outputs": []
+   "status": "done",
+   "started_at": "2026-10-28T09:21:47Z",
+   "gates": [
+    {
+     "script": "merge_package",
+     "exit_code": 0,
+     "summary": {
+      "Yanıtlar": 229,
+      "Bağlantılar": 378,
+      "Adımlar": 7,
+      "sources_used": 282,
+      "claims": 3687,
+      "quote_miss": 0,
+      "issues": 0
+     },
+     "report": "/home/user/corteqscities/uretim/marbella/_is/birlestir_rapor.json",
+     "at": "2026-10-28T12:15:32Z"
+    },
+    {
+     "script": "build_xlsx",
+     "exit_code": 0,
+     "summary": {
+      "rejected": 0
+     },
+     "report": "/home/user/corteqscities/uretim/marbella/_is/build.json",
+     "at": "2026-10-28T12:15:32Z"
+    },
+    {
+     "script": "text_quality",
+     "exit_code": 0,
+     "summary": {
+      "findings": 0,
+      "address_findings": 0,
+      "cards_total": 229
+     },
+     "report": "/home/user/corteqscities/uretim/marbella/_is/text_quality.json",
+     "at": "2026-10-28T12:15:32Z"
+    },
+    {
+     "script": "warning-scan",
+     "exit_code": 0,
+     "summary": {
+      "findings": 0,
+      "not": "3 K104 cümlesi ana döngüde düzeltildi (denetim/kur-ana_degisiklik.jsonl)"
+     },
+     "report": "/home/user/corteqscities/uretim/marbella/_is/uyari_tarama.json",
+     "at": "2026-10-28T12:15:32Z"
+    },
+    {
+     "script": "kart_tutarlilik",
+     "exit_code": 1,
+     "summary": {
+      "groups": 4,
+      "farkli_degerli": 1,
+      "not": "EX-01 harcı 10,94 € (ilk geçici izin 2.1.1) ve 16,40 € (yenileme 2.2.1): farklı işlemler, çelişki değil; tutarlılık editörü açılmadı"
+     },
+     "report": "/home/user/corteqscities/uretim/marbella/_is/tutarlilik.json",
+     "at": "2026-10-28T12:15:32Z"
+    },
+    {
+     "script": "validate_all",
+     "exit_code": 1,
+     "summary": {
+      "structure": {
+       "errors": 8
+      },
+      "note": "yalnız 8 şablon Şehir hatası; Şehir satırı places fazında"
+     },
+     "report": "/home/user/corteqscities/uretim/marbella/_is/val_ara.json",
+     "at": "2026-10-28T12:15:32Z"
+    },
+    {
+     "script": "claim_audit",
+     "exit_code": 0,
+     "summary": {
+      "city_cards": 134,
+      "country_skip": 100,
+      "country_audit_pending": 5,
+      "unaudited_city": 0,
+      "ciddi_ilk": 11,
+      "not": "12 konu: denetim → çürütme → editör → (ek denetim) → doğrulayıcı → doğrulama turu"
+     },
+     "report": "/home/user/corteqscities/uretim/marbella/_is/denetim",
+     "at": "2026-10-28T12:15:32Z"
+    }
+   ],
+   "outputs": [
+    "/home/user/corteqscities/uretim/marbella/_is/data/parcalar",
+    "/home/user/corteqscities/uretim/marbella/_is/claims",
+    "/home/user/corteqscities/uretim/marbella/_is/denetim"
+   ],
+   "ended_at": "2026-10-28T12:15:32Z"
   }
  },
  "open_items": [
@@ -193,9 +281,30 @@
    "text": "Erişim/araç: hcs.es (Hospital Costa del Sol) sayfaları gzip baytı olarak kaydedildi, kanıt aranamadı (2 sayfa reddedildi); hastane bilgisi SAS merkez sayfalarından. ayuntamiento.marbella.es ordenanza PDF'leri ince/taranmış (5 red). Junta 2 sayfa 504/zaman aşımı.",
    "evidence": "/home/user/corteqscities/uretim/marbella/_is/snap_kesif_saglik/eklenen.json",
    "owner": "ai"
+  },
+  {
+   "id": "OI-006",
+   "priority": "P2",
+   "text": "Kart sayısı: ev 16 ve keşif 15 kart (konu başına 18 beklenir). Ev: Marbella kira düzeyi ve VUT kararı için erişilebilir resmî kaynak yok (mivau 403). Keşif: liman, müze saat/ücret ve Sierra Blanca patika sayfalarında gövde metni yok; places fazında yeni mekân kaynaklarıyla tamamlanacak. Toplam 229 kart (asgari 212, hedef 240).",
+   "evidence": "/home/user/corteqscities/uretim/marbella/_is/birlestir_rapor.json",
+   "owner": "ai"
+  },
+  {
+   "id": "OI-007",
+   "priority": "P1",
+   "text": "Editörler 5 ülke kartını değiştirdi (dijital-gocebe-vizesi, altin-vize-sona-erdi, yillik-izin-ve-resmi-tatiller-2026, endulus-saglik-karti..., endulus-okul-kaydi...; sonuncusu ana döngünün K104 düzeltmesi). audit-scope bunları 'audit' yaptı; assemble adım 0 (d5 son tam denetim) bu 5 kartı denetler.",
+   "evidence": "/home/user/corteqscities/uretim/marbella/_is/ulke_denetim_kapsami.json",
+   "owner": "ai"
+  },
+  {
+   "id": "OI-008",
+   "priority": "P2",
+   "text": "Bilgi eksikleri (resmî kaynakta yok/erişilemez; kartlara yazılmadı): Marbella şehir otobüsü tek bilet ve Bonobús tutarı; ORE park tarifesi; havalimanı otobüsü saatleri; su tarifesi ve abonelik belgeleri; çöp tasası; IBI/IVTM tutar ve takvim; nöbetçi eczane; Málaga Oficina de Extranjería adresi; Türk fahri konsolosluğu iletişimi; Marbella'nın 2026 yerel tatil günleri; belediye kreşi 2026/27 takvimi; liman ve müze saat/ücretleri.",
+   "evidence": "/home/user/corteqscities/uretim/marbella/_is/kesif/gaps.json",
+   "owner": "insan"
   }
  ],
  "sources_researched": 286,
  "photos_downloaded": 0,
- "next_step": "answers: 12 konu yazarı (en çok 5 eşzamanlı)"
+ "next_step": "places: mekân seçimi (havuz 179 aday), mahalle, sözlük, Şehir+SayfaAlanları, rotalar"
 }
