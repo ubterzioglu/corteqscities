@@ -3,9 +3,11 @@
     "rows_written": {
       "Adımlar": 7,
       "Bağlantılar": 378,
-      "Kaynaklar": 282,
+      "Kaynaklar": 283,
       "Konular": 12,
-      "Yanıtlar": 229
+      "SayfaAlanları": 23,
+      "Yanıtlar": 229,
+      "Şehir": 1
     },
     "rejected": 0,
     "deduped": 0,
@@ -23,14 +25,18 @@
     "Bağlantılar": "Bağlantılar.jsonl",
     "Kaynaklar": "Kaynaklar.jsonl",
     "Konular": "Konular.jsonl",
-    "Yanıtlar": "Yanıtlar.jsonl"
+    "SayfaAlanları": "SayfaAlanları.jsonl",
+    "Yanıtlar": "Yanıtlar.jsonl",
+    "Şehir": "Şehir.jsonl"
   },
   "capacities": {
     "Adımlar": 40,
     "Bağlantılar": 800,
     "Kaynaklar": 500,
     "Konular": 30,
-    "Yanıtlar": 300
+    "SayfaAlanları": 120,
+    "Yanıtlar": 300,
+    "Şehir": 1
   },
   "schema_source": "/home/user/corteqscities/araclar/arac/core/content_delivery/schema_definition.py",
   "rejected": [],
@@ -38,11 +44,13 @@
   "rows_planned": {
     "Adımlar": 7,
     "Bağlantılar": 378,
-    "Kaynaklar": 282,
+    "Kaynaklar": 283,
     "Konular": 12,
-    "Yanıtlar": 229
+    "SayfaAlanları": 23,
+    "Yanıtlar": 229,
+    "Şehir": 1
   },
   "exit_code": 0,
   "partial": true,
-  "elapsed_s": 2.103
+  "elapsed_s": 2.151
 }

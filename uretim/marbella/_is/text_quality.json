@@ -25,10 +25,10 @@
     "visual_json_empty": 227,
     "address": {
       "standard": "sen",
-      "records": 249,
-      "hitapsiz": 16,
+      "records": 272,
+      "hitapsiz": 31,
       "siz": 0,
-      "sen": 233,
+      "sen": 241,
       "karisik": 0,
       "findings": 0,
       "labels": {
@@ -134,10 +134,10 @@
   },
   "address": {
     "standard": "sen",
-    "records": 249,
-    "hitapsiz": 16,
+    "records": 272,
+    "hitapsiz": 31,
     "siz": 0,
-    "sen": 233,
+    "sen": 241,
     "karisik": 0,
     "by_sheet": {
       "Yanıtlar": {
@@ -190,17 +190,17 @@
         "karisik": 0
       },
       "SayfaAlanları": {
-        "records": 0,
-        "hitapsiz": 0,
+        "records": 23,
+        "hitapsiz": 16,
         "siz": 0,
-        "sen": 0,
+        "sen": 7,
         "karisik": 0
       },
       "Şehir": {
         "records": 1,
-        "hitapsiz": 1,
+        "hitapsiz": 0,
         "siz": 0,
-        "sen": 0,
+        "sen": 1,
         "karisik": 0
       },
       "Fotoğraflar": {
@@ -4287,6 +4287,116 @@
         "siz": [],
         "sen": [
           "et"
+        ]
+      },
+      {
+        "sheet": "SayfaAlanları",
+        "row": 12,
+        "id": "marbella:field:topic_intro",
+        "form": "sen",
+        "fields": {
+          "value": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "bul"
+        ]
+      },
+      {
+        "sheet": "SayfaAlanları",
+        "row": 14,
+        "id": "marbella:field:journey_intro",
+        "form": "sen",
+        "fields": {
+          "value": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "değiştirebilirsin"
+        ]
+      },
+      {
+        "sheet": "SayfaAlanları",
+        "row": 16,
+        "id": "marbella:field:neighborhood_intro",
+        "form": "sen",
+        "fields": {
+          "value": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "karşılaştır"
+        ]
+      },
+      {
+        "sheet": "SayfaAlanları",
+        "row": 17,
+        "id": "marbella:field:explore_title",
+        "form": "sen",
+        "fields": {
+          "value": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "keşfet"
+        ]
+      },
+      {
+        "sheet": "SayfaAlanları",
+        "row": 18,
+        "id": "marbella:field:explore_intro",
+        "form": "sen",
+        "fields": {
+          "value": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "gez"
+        ]
+      },
+      {
+        "sheet": "SayfaAlanları",
+        "row": 26,
+        "id": "marbella:field:quick_links",
+        "form": "sen",
+        "fields": {
+          "value": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "yaptır"
+        ]
+      },
+      {
+        "sheet": "SayfaAlanları",
+        "row": 27,
+        "id": "marbella:field:timeline",
+        "form": "sen",
+        "fields": {
+          "value": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "netleştir",
+          "belirle",
+          "ayarla",
+          "kalacağın",
+          "ayır"
+        ]
+      },
+      {
+        "sheet": "Şehir",
+        "row": 8,
+        "id": "marbella",
+        "form": "sen",
+        "fields": {
+          "intro": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "planlıyorsan",
+          "taşındıysan",
+          "başla"
         ]
       }
     ]

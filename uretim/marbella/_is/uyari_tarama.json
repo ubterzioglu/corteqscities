@@ -35,8 +35,8 @@
     ]
   },
   "summary": {
-    "records": 910,
-    "values": 1137,
+    "records": 934,
+    "values": 1154,
     "hits": 0,
     "hit_records": 0,
     "exempt": 0,
@@ -46,12 +46,41 @@
       "K105": 0
     },
     "by_pattern": {},
-    "band_values": 0,
+    "band_values": 4,
     "skipped_sheets": [],
     "findings": 0
   },
   "samples": {},
   "hits": [],
   "exempt": [],
-  "band_values": []
+  "band_values": [
+    {
+      "sheet": "SayfaAlanları",
+      "row": 8,
+      "id": "marbella:field:hero_kicker",
+      "field": "hero_kicker",
+      "value": "İspanya · Marbella rehberi"
+    },
+    {
+      "sheet": "SayfaAlanları",
+      "row": 9,
+      "id": "marbella:field:hero_accent",
+      "field": "hero_accent",
+      "value": "Costa del Sol'da ilk günlerini kolaylaştır"
+    },
+    {
+      "sheet": "SayfaAlanları",
+      "row": 10,
+      "id": "marbella:field:hero_note",
+      "field": "hero_note",
+      "value": "Adres kaydından sağlık kartına, evden ulaşıma Marbella'da yeni hayat için resmî kaynaklara dayanan Türkçe adımlar."
+    },
+    {
+      "sheet": "SayfaAlanları",
+      "row": 20,
+      "id": "marbella:field:photo_credit",
+      "field": "photo_credit",
+      "value": "Fotoğrafların yazar ve lisans bilgileri her karenin altında yer alır."
+    }
+  ]
 }
