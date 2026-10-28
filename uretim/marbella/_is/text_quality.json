@@ -6,9 +6,9 @@
     "near": 0.9
   },
   "summary": {
-    "exact_clusters": 1,
+    "exact_clusters": 0,
     "near_clusters": 0,
-    "template_clusters": 2,
+    "template_clusters": 1,
     "shared_steps": 0,
     "placeholders": 0,
     "filler": 0,
@@ -18,114 +18,47 @@
     "caption_is_title": 0,
     "hedge_cards": 0,
     "hedge_share": 0.0,
-    "exact_records": 3,
-    "short_repeat_groups": 0,
+    "exact_records": 0,
+    "short_repeat_groups": 1,
     "repeated_sentences": 7,
-    "cards_total": 321,
+    "cards_total": 342,
     "visual_json_empty": 227,
     "address": {
       "standard": "sen",
-      "records": 424,
-      "hitapsiz": 178,
+      "records": 445,
+      "hitapsiz": 198,
       "siz": 0,
-      "sen": 246,
+      "sen": 247,
       "karisik": 0,
       "findings": 0,
       "labels": {
-        "records": 482,
-        "hitapsiz": 52,
+        "records": 503,
+        "hitapsiz": 58,
         "siz": 0,
-        "sen": 430,
+        "sen": 445,
         "karisik": 0
       },
       "skipped": []
     },
-    "findings": 3
+    "findings": 1
   },
   "top_clusters": [
     {
       "kind": "template",
       "sheet": "Mekânlar",
-      "field": "subtitle",
-      "size": 5,
-      "distinct": 3,
-      "sample": "Puerto Banús semtinde belediye kataloğundaki plaj"
-    },
-    {
-      "kind": "exact",
-      "sheet": "Mekânlar",
-      "field": "subtitle",
-      "size": 3,
-      "sample": "Las Chapas semtinde belediye kataloğundaki plaj"
-    },
-    {
-      "kind": "template",
-      "sheet": "Mekânlar",
       "field": "note",
-      "size": 3,
+      "size": 7,
       "distinct": 3,
       "sample": "Yakın çevre gezisi: Estepona"
     }
   ],
-  "exact_duplicates": [
-    {
-      "sheet": "Mekânlar",
-      "field": "subtitle",
-      "size": 3,
-      "length": 47,
-      "sample": "Las Chapas semtinde belediye kataloğundaki plaj",
-      "members": [
-        {
-          "row": 18,
-          "id": "marbella:playa-de-las-chapas"
-        },
-        {
-          "row": 37,
-          "id": "marbella:playa-la-vivora"
-        },
-        {
-          "row": 38,
-          "id": "marbella:playa-las-canas"
-        }
-      ]
-    }
-  ],
+  "exact_duplicates": [],
   "near_duplicates": [],
   "template_duplicates": [
     {
       "sheet": "Mekânlar",
-      "field": "subtitle",
-      "size": 5,
-      "distinct": 3,
-      "template": "¤ semtinde belediye katalogundaki plaj",
-      "sample": "Puerto Banús semtinde belediye kataloğundaki plaj",
-      "members": [
-        {
-          "row": 13,
-          "id": "marbella:playa-de-puerto-banus"
-        },
-        {
-          "row": 16,
-          "id": "marbella:playa-de-guadalmina"
-        },
-        {
-          "row": 18,
-          "id": "marbella:playa-de-las-chapas"
-        },
-        {
-          "row": 37,
-          "id": "marbella:playa-la-vivora"
-        },
-        {
-          "row": 38,
-          "id": "marbella:playa-las-canas"
-        }
-      ]
-    },
-    {
-      "sheet": "Mekânlar",
       "field": "note",
-      "size": 3,
+      "size": 7,
       "distinct": 3,
       "template": "yakin cevre gezisi ¤",
       "sample": "Yakın çevre gezisi: Estepona",
@@ -141,12 +74,44 @@
         {
           "row": 80,
           "id": "marbella:casa-museo-de-mijas"
+        },
+        {
+          "row": 101,
+          "id": "marbella:castillo-de-mijas"
+        },
+        {
+          "row": 106,
+          "id": "marbella:torre-de-calahonda"
+        },
+        {
+          "row": 107,
+          "id": "marbella:ermita-nuestra-senora-de-los-remedios-mijas"
+        },
+        {
+          "row": 108,
+          "id": "marbella:iglesia-inmaculada-concepcion-mijas"
         }
       ]
     }
   ],
-  "short_repeats": [],
+  "short_repeats": [
+    {
+      "sheet": "Mekânlar",
+      "field": "note",
+      "value": "Yakın çevre gezisi: Mijas",
+      "size": 5
+    }
+  ],
   "repeated_sentences": [
+    {
+      "sheet": "Mekânlar",
+      "sentence": "yakin cevre gezisi estepona",
+      "records": 5,
+      "fields": [
+        "note"
+      ],
+      "sample": "Yakın çevre gezisi: Estepona"
+    },
     {
       "sheet": "Yanıtlar",
       "sentence": "bu kart 7 ekim 2026 tarihli konsolide metne gore yayim 7 ekim yururluk 8 ekim",
@@ -199,15 +164,6 @@
     },
     {
       "sheet": "Mekânlar",
-      "sentence": "las chapas semtinde belediye katalogundaki plaj",
-      "records": 3,
-      "fields": [
-        "subtitle"
-      ],
-      "sample": "Las Chapas semtinde belediye kataloğundaki plaj"
-    },
-    {
-      "sheet": "Mekânlar",
       "sentence": "sayfada konum haritasi var",
       "records": 3,
       "fields": [
@@ -227,7 +183,7 @@
     "items": []
   },
   "hedges": {
-    "cards_total": 321,
+    "cards_total": 342,
     "cards_with_hedge": 0,
     "share": 0.0,
     "max_per_card": 0,
@@ -240,7 +196,7 @@
   },
   "action_links": {
     "skipped": false,
-    "checked": 321,
+    "checked": 342,
     "missing": 0,
     "map_only": 0,
     "no_id": 0,
@@ -260,10 +216,10 @@
   },
   "address": {
     "standard": "sen",
-    "records": 424,
-    "hitapsiz": 178,
+    "records": 445,
+    "hitapsiz": 198,
     "siz": 0,
-    "sen": 246,
+    "sen": 247,
     "karisik": 0,
     "by_sheet": {
       "Yanıtlar": {
@@ -274,10 +230,10 @@
         "karisik": 0
       },
       "Mekânlar": {
-        "records": 80,
-        "hitapsiz": 78,
+        "records": 101,
+        "hitapsiz": 98,
         "siz": 0,
-        "sen": 2,
+        "sen": 3,
         "karisik": 0
       },
       "Mahalleler": {
@@ -338,10 +294,10 @@
       }
     },
     "labels": {
-      "records": 482,
-      "hitapsiz": 52,
+      "records": 503,
+      "hitapsiz": 58,
       "siz": 0,
-      "sen": 430,
+      "sen": 445,
       "karisik": 0
     },
     "skipped": [],
@@ -4382,6 +4338,19 @@
         "siz": [],
         "sen": [
           "sürebilirsin"
+        ]
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 96,
+        "id": "marbella:teatro-manuel-espana-mijas",
+        "form": "sen",
+        "fields": {
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "git"
         ]
       },
       {

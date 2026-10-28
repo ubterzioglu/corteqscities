@@ -5,16 +5,12 @@
     "new_content": true,
     "structure": {
       "errors": 0,
-      "warnings": 97
+      "warnings": 116
     },
     "media": {
       "errors": 0
     },
     "minimum_gaps": {
-      "places": {
-        "actual": 80,
-        "minimum": 92
-      },
       "photos": {
         "actual": 0,
         "minimum": 187
@@ -35,11 +31,11 @@
       "placeholders": 0,
       "wikipedia_labeled_official": 0,
       "verified_without_snapshot": 0,
-      "shared_coordinates": 3,
+      "shared_coordinates": 4,
       "homepage_only_sources": 0,
       "history_share": 0
     },
-    "extras_note": "ek kontrol, resmî sayılara dahil değil; tarih payı 21/80 (eşik 0.35, öneri)",
+    "extras_note": "ek kontrol, resmî sayılara dahil değil; tarih payı 28/101 (eşik 0.35, öneri)",
     "technically_complete": false
   },
   "structure": {
@@ -49,7 +45,7 @@
     "acceptance_version": "2026-10-13.1",
     "counts": {
       "answers": 229,
-      "places": 80,
+      "places": 101,
       "neighborhoods": 12,
       "routes": 0,
       "glossary": 60,
@@ -159,6 +155,27 @@
       "Mekânlar!?: Mekân / mahalleye bağlı gerçek fotoğraf eksik.",
       "Mekânlar!?: Mekân / mahalleye bağlı gerçek fotoğraf eksik.",
       "Mekânlar!?: Mekân / mahalleye bağlı gerçek fotoğraf eksik.",
+      "Mekânlar!?: Mekân / mahalleye bağlı gerçek fotoğraf eksik.",
+      "Mekânlar!?: Mekân / mahalleye bağlı gerçek fotoğraf eksik.",
+      "Mekânlar!?: Mekân / mahalleye bağlı gerçek fotoğraf eksik.",
+      "Mekânlar!?: Mekân / mahalleye bağlı gerçek fotoğraf eksik.",
+      "Mekânlar!?: Mekân / mahalleye bağlı gerçek fotoğraf eksik.",
+      "Mekânlar!?: Mekân / mahalleye bağlı gerçek fotoğraf eksik.",
+      "Mekânlar!?: Mekân / mahalleye bağlı gerçek fotoğraf eksik.",
+      "Mekânlar!?: Mekân / mahalleye bağlı gerçek fotoğraf eksik.",
+      "Mekânlar!?: Mekân / mahalleye bağlı gerçek fotoğraf eksik.",
+      "Mekânlar!?: Mekân / mahalleye bağlı gerçek fotoğraf eksik.",
+      "Mekânlar!?: Mekân / mahalleye bağlı gerçek fotoğraf eksik.",
+      "Mekânlar!?: Mekân / mahalleye bağlı gerçek fotoğraf eksik.",
+      "Mekânlar!?: Mekân / mahalleye bağlı gerçek fotoğraf eksik.",
+      "Mekânlar!?: Mekân / mahalleye bağlı gerçek fotoğraf eksik.",
+      "Mekânlar!?: Mekân / mahalleye bağlı gerçek fotoğraf eksik.",
+      "Mekânlar!?: Mekân / mahalleye bağlı gerçek fotoğraf eksik.",
+      "Mekânlar!?: Mekân / mahalleye bağlı gerçek fotoğraf eksik.",
+      "Mekânlar!?: Mekân / mahalleye bağlı gerçek fotoğraf eksik.",
+      "Mekânlar!?: Mekân / mahalleye bağlı gerçek fotoğraf eksik.",
+      "Mekânlar!?: Mekân / mahalleye bağlı gerçek fotoğraf eksik.",
+      "Mekânlar!?: Mekân / mahalleye bağlı gerçek fotoğraf eksik.",
       "Mahalleler!?: Mekân / mahalleye bağlı gerçek fotoğraf eksik.",
       "Mahalleler!?: Mekân / mahalleye bağlı gerçek fotoğraf eksik.",
       "Mahalleler!?: Mekân / mahalleye bağlı gerçek fotoğraf eksik.",
@@ -171,8 +188,6 @@
       "Mahalleler!?: Mekân / mahalleye bağlı gerçek fotoğraf eksik.",
       "Mahalleler!?: Mekân / mahalleye bağlı gerçek fotoğraf eksik.",
       "Mahalleler!?: Mekân / mahalleye bağlı gerçek fotoğraf eksik.",
-      "SayfaAlanları!?: Sekiz keşif grubunun her birinde gerçek mekân gerekli.",
-      "Keşif noktası: 80 / asgari 92; hedef 120.",
       "Rota: 0 / asgari 9; hedef 12.",
       "Farklı mekân fotoğrafı: 0 / asgari 187; hedef 250.",
       "Kapak fotoğrafı: 0 / asgari 6; hedef 8."
@@ -215,7 +230,7 @@
   "warning_classes": [
     {
       "class": "Mekânlar: Mekân / mahalleye bağlı gerçek fotoğraf eksik.",
-      "count": 80,
+      "count": 101,
       "examples": [
         "Mekânlar!?: Mekân / mahalleye bağlı gerçek fotoğraf eksik."
       ]
@@ -242,24 +257,10 @@
       ]
     },
     {
-      "class": "Keşif noktası: 80 / asgari 92; hedef 120.",
-      "count": 1,
-      "examples": [
-        "Keşif noktası: 80 / asgari 92; hedef 120."
-      ]
-    },
-    {
       "class": "Rota: 0 / asgari 9; hedef 12.",
       "count": 1,
       "examples": [
         "Rota: 0 / asgari 9; hedef 12."
-      ]
-    },
-    {
-      "class": "SayfaAlanları: Sekiz keşif grubunun her birinde gerçek mekân gerekli.",
-      "count": 1,
-      "examples": [
-        "SayfaAlanları!?: Sekiz keşif grubunun her birinde gerçek mekân gerekli."
       ]
     }
   ],
@@ -283,11 +284,11 @@
       "label": "ek kontrol",
       "count": 0,
       "items": [],
-      "verified_total": 372
+      "verified_total": 392
     },
     "shared_coordinates": {
       "label": "ek kontrol",
-      "count": 3,
+      "count": 4,
       "items": [
         {
           "sheet": "Mekânlar",
@@ -296,6 +297,15 @@
           "entry_ids": [
             "marbella:parque-del-mediterraneo",
             "marbella:playa-el-pinillo"
+          ]
+        },
+        {
+          "sheet": "Mekânlar",
+          "latitude": 36.509433,
+          "longitude": -4.884127,
+          "entry_ids": [
+            "marbella:capilla-de-san-juan-de-dios-marbella",
+            "marbella:hospital-real-de-la-misericordia"
           ]
         },
         {
@@ -317,7 +327,7 @@
           ]
         }
       ],
-      "entries": 6
+      "entries": 8
     },
     "homepage_only_sources": {
       "label": "ek kontrol",
@@ -328,9 +338,9 @@
       "label": "ek kontrol",
       "count": 0,
       "items": [],
-      "history": 21,
-      "total": 80,
-      "ratio": 0.2625,
+      "history": 28,
+      "total": 101,
+      "ratio": 0.2772,
       "threshold": 0.35,
       "flagged": false,
       "threshold_note": "öneri: 'Tarih ve mimari' payı > 35% ise çeşitlilik gözden geçirilmeli"
