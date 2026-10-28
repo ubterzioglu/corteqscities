@@ -11,5 +11,5 @@ export WORK='/home/user/corteqscities/uretim/marbella'
 export PKG='/home/user/corteqscities/uretim/marbella/paket'
 export CITY='marbella'
 export EXCEL='/home/user/corteqscities/uretim/marbella/paket/CITY-080_marbella_v001.xlsx'
-export BBOX='36.45,36.57,-5.02,-4.71'
+export BBOX='36.40,36.62,-5.18,-4.62'
 export PYTHONDONTWRITEBYTECODE=1 PYTHONUTF8=1

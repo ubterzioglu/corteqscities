@@ -21,7 +21,7 @@
   "path": "/home/user/corteqscities/uretim/marbella/_is/ulke_paketi",
   "valid_until": "2026-11-05"
  },
- "phase": "answers",
+ "phase": "places",
  "phases": {
   "intake": {
    "status": "done",
@@ -244,6 +244,12 @@
     "/home/user/corteqscities/uretim/marbella/_is/denetim"
    ],
    "ended_at": "2026-10-28T12:15:32Z"
+  },
+  "places": {
+   "status": "running",
+   "started_at": "2026-10-28T15:06:49Z",
+   "gates": [],
+   "outputs": []
   }
  },
  "open_items": [
@@ -301,6 +307,13 @@
    "priority": "P2",
    "text": "Bilgi eksikleri (resmî kaynakta yok/erişilemez; kartlara yazılmadı): Marbella şehir otobüsü tek bilet ve Bonobús tutarı; ORE park tarifesi; havalimanı otobüsü saatleri; su tarifesi ve abonelik belgeleri; çöp tasası; IBI/IVTM tutar ve takvim; nöbetçi eczane; Málaga Oficina de Extranjería adresi; Türk fahri konsolosluğu iletişimi; Marbella'nın 2026 yerel tatil günleri; belediye kreşi 2026/27 takvimi; liman ve müze saat/ücretleri.",
    "evidence": "/home/user/corteqscities/uretim/marbella/_is/kesif/gaps.json",
+   "owner": "insan"
+  },
+  {
+   "id": "OI-009",
+   "priority": "P2",
+   "text": "Maliyet kararı (kural 15; Barış 28.10.2026): ilk 3 fazda 82 ajan (hedef ≤60). Kullanıcı 'ucuz yol'u seçti: places/photos/assemble ~25–30 ajan; çürütme yalnız ciddi bulguda; d5 son denetim yalnız mekân/mahalle/rota/sözlük/Şehir ve değişen kartlarda (yanıt kartları tam denetlendi); foto incelemesi ana döngüde. BBOX yakın çevre gezileri için 36.40,36.62,-5.18,-4.62'ye genişletildi.",
+   "evidence": "/home/user/corteqscities/uretim/marbella/_is/phase_log.jsonl",
    "owner": "insan"
   }
  ],
