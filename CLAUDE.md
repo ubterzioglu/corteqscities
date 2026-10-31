@@ -6,7 +6,8 @@ Mesaj yalnız bir şehir adından (ya da "<şehir> paketi" gibi kısa bir istekt
 1. Başka bilgi isteme. Hemen `city-pack` skill'ini çağır ve intake'i o şehirle başlat.
 2. Skill gerisini kendisi bulur ve kurallarını kendisi uygular: şehir kimliği, ülke, şablon (Atınç'ın dosyası yoksa Berlin örneğinden türetme), yerel deneme numarası, hitap, ölçüm.
 3. Yalnız gerçekten bulunamayan ya da karar gerektiren bir şey çıkarsa tek öneriyle sor ("aksini söylemezsen böyle yapıyorum").
-4. O şehrin `uretim\<city_id>\manifest.json` dosyası zaten varsa yeni üretim başlatma. Durumu iki üç cümleyle özetle, ne yapılacağını tek öneriyle sor (devam / yeni sürüm / baştan).
+4. Kullanıcı şehir adının yanına "hibrit" yazarsa (ör. "Valencia hibrit") `city-pack` yerine `city-pack-hibrit` skill'ini çağır: basit yazım rolleri Qwen'e, denetim ve düzeltme Claude'a.
+5. O şehrin `uretim\<city_id>\manifest.json` dosyası zaten varsa yeni üretim başlatma. Durumu iki üç cümleyle özetle, ne yapılacağını tek öneriyle sor (devam / yeni sürüm / baştan).
 
 ## Çalışma biçimi
 - Sade Türkçe, jargonsuz; kararları tek öneriyle sor.

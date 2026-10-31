@@ -1,0 +1,33 @@
+{
+  "_aciklama": "Hangi rolu kim yapar. 'qwen' = betikler\\qwen_isci.py ile Qwen API; 'claude' = Agent araci (Sonnet). Rolu geri almak icin degeri 'claude' yap. Uretim sirasinda degistirme (SKILL kural 14); degisiklik sehirler arasinda yapilir.",
+  "roller": {
+    "sozluk-yazari": "qwen",
+    "mahalle-yazari": "qwen",
+    "mekan-yazari": "qwen",
+    "rota-yazari": "qwen",
+    "yanit-yazari": "qwen",
+    "sayfa-yazari": "claude",
+    "kaynak-kesfi": "claude",
+    "mekan-secimi": "claude",
+    "acik-mi-tarayici": "claude",
+    "acik-mi-dogrulayici": "claude",
+    "iddia-denetcisi": "claude",
+    "editor": "claude",
+    "dogrulayici": "claude",
+    "foto-inceleme": "claude"
+  },
+  "qwen": {
+    "base_url": "https://token-plan.maas.qwencloudapi.com/compatible-mode/v1",
+    "model": "qwen3.8-max",
+    "api_key_env": "QWEN_API_KEY",
+    "max_tokens": 32000,
+    "temperature": 0.3,
+    "zaman_asimi_sn": 900,
+    "eszamanli": 4,
+    "ek_govde": {}
+  },
+  "geri_cekme_esigi": {
+    "_aciklama": "Qwen yazdigi bir rolde Claude tam denetiminin 'duzelt' karti orani Sevilla Sonnet oranini bu kadar puan asarsa rol sonraki sehirde 'claude'a doner.",
+    "duzelt_orani_fark_puan": 15
+  }
+}
