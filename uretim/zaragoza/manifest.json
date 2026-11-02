@@ -1,0 +1,139 @@
+{
+ "schema_version": "1",
+ "city": {
+  "city_id": "zaragoza",
+  "name": "Zaragoza",
+  "country": "İspanya",
+  "city_code": "CITY-128"
+ },
+ "paths": {
+  "work": "/home/user/corteqscities/uretim/zaragoza",
+  "package_root": "/home/user/corteqscities/uretim/zaragoza/paket",
+  "template_xlsx": "/home/user/corteqscities/ekler/zaragoza/CITY-128_zaragoza_v001.xlsx",
+  "tools": "/home/user/corteqscities/araclar/arac",
+  "delivery_xlsx": "/home/user/corteqscities/uretim/zaragoza/paket/CITY-128_zaragoza_v001.xlsx",
+  "data_dir": "/home/user/corteqscities/uretim/zaragoza/_is/data",
+  "snapshots": "/home/user/corteqscities/uretim/zaragoza/_is/snap",
+  "cache": "/home/user/corteqscities/uretim/zaragoza/_is/cache",
+  "usage_log": "/home/user/corteqscities/uretim/zaragoza/_is/phase_log.jsonl"
+ },
+ "country_pack": {
+  "path": "/home/user/corteqscities/uretim/zaragoza/_is/ulke_paketi",
+  "valid_until": "2026-11-05"
+ },
+ "phase": "intake",
+ "phases": {
+  "intake": {
+   "status": "done",
+   "started_at": "2026-11-02T15:36:16Z",
+   "ended_at": "2026-11-02T15:39:29Z",
+   "gates": [
+    {
+     "script": "xlsx_dump",
+     "exit_code": 0,
+     "summary": {
+      "sheets": 16,
+      "missing_sheets": []
+     },
+     "report": "/home/user/corteqscities/uretim/zaragoza/_is/sablon_dump",
+     "at": "2026-11-02T15:39:29Z"
+    },
+    {
+     "script": "validate_all",
+     "exit_code": 1,
+     "summary": {
+      "structure": {
+       "errors": 8
+      },
+      "note": "yalnız 8 şablon Şehir hatası (delivery_id düzeltmesinden sonra; önce 9)"
+     },
+     "report": "/home/user/corteqscities/uretim/zaragoza/_is/val_sablon.json",
+     "at": "2026-11-02T15:39:29Z"
+    },
+    {
+     "script": "wikidata_places",
+     "exit_code": 0,
+     "summary": {
+      "items": 1310,
+      "with_site": 270,
+      "with_image": 697,
+      "with_category": 667
+     },
+     "report": "/home/user/corteqscities/uretim/zaragoza/_is/mekan/wikidata_aday.jsonl",
+     "at": "2026-11-02T15:39:29Z"
+    },
+    {
+     "script": "country_apply",
+     "exit_code": 0,
+     "summary": {
+      "cards": 96,
+      "sources_added": 133,
+      "stale": 0,
+      "bolge_paketi": "yok"
+     },
+     "report": "/home/user/corteqscities/uretim/zaragoza/_is/ulke_paketi/pack.json",
+     "at": "2026-11-02T15:39:29Z"
+    },
+    {
+     "script": "fetch_snapshot",
+     "exit_code": 1,
+     "summary": {
+      "urls": 42,
+      "saved": 32,
+      "failed": 10,
+      "thin_text": 5
+     },
+     "report": "/home/user/corteqscities/uretim/zaragoza/_is/kesif/erisim_snap/index.jsonl",
+     "at": "2026-11-02T15:39:29Z"
+    }
+   ],
+   "outputs": [
+    "/home/user/corteqscities/uretim/zaragoza/_is/sablon.xlsx",
+    "/home/user/corteqscities/uretim/zaragoza/_is/data/Konular.jsonl",
+    "/home/user/corteqscities/uretim/zaragoza/_is/yazar/ilk5.json",
+    "/home/user/corteqscities/uretim/zaragoza/_is/kesif/KESIF_TALIMAT.md",
+    "/home/user/corteqscities/uretim/zaragoza/_is/ortam.sh"
+   ]
+  }
+ },
+ "open_items": [
+  {
+   "id": "OI-001",
+   "priority": "P2",
+   "text": "Erişim: inclusion.gob.es, mivau.gob.es, camarazaragoza.com 403; iass.aragon.es, dpz.es, sede.administracionespublicas.gob.es, sede.agenciatributaria.gob.es bağlantı sıfırlandı; cortesaragon.es (Aljafería) bağlantı koptu; ecociudadzaragoza.es (su şirketi) tünel bağlantısı kurulamadı. Bilgi başka resmî kurumdan alınacak; erişim teyidi açık.",
+   "evidence": "/home/user/corteqscities/uretim/zaragoza/_is/kesif/erisim_snap/index.jsonl",
+   "owner": "insan"
+  },
+  {
+   "id": "OI-002",
+   "priority": "P2",
+   "text": "Atınç şablonunda delivery_id büyük harfli (CITY-128-v001): resmî doğrulayıcı reddediyor. Yalnız _is/sablon.xlsx kopyasında city-128-v001 yapıldı (yedek _is/sablon_orijinal_kopya.xlsx).",
+   "evidence": "/home/user/corteqscities/uretim/zaragoza/_is/val_sablon.json",
+   "owner": "atinc"
+  },
+  {
+   "id": "OI-003",
+   "priority": "P2",
+   "text": "Bilgi: Şehir.priority alanının anlamı sözleşmede tanımsız (şablondaki 3 korunuyor); Şehir.source_url (Kapsam kaynağı) şablonda InterNations listesi; anlamı Atınç'a soruldu.",
+   "evidence": "/home/user/corteqscities/uretim/zaragoza/_is/sablon_dump/Şehir.jsonl",
+   "owner": "atinc"
+  },
+  {
+   "id": "OI-004",
+   "priority": "P1",
+   "text": "Tarih: ülke paketindeki 6 kira kartı (kira-sozlesmesi-suresi-ve-uzama, kira-depozitosu-fianza-ve-iade, kira-artisi-siniri-irav, kirada-onarim-ve-hasar-sorumlulugu, kiralik-evden-cikis-ve-ihbar-suresi, kiralik-ilan-dolandiriciligini-tanima) 5.11.2026'da eskir; apply 2.11'de kopyaladı (stale 0). Teslim bu tarihten sonra olacağı için ya ülke paketi yenilenmeli ya da bu kartların kaynağı şehir döngüsünde yeniden doğrulanmalı. 8 kart 31.12.2026'da eskir.",
+   "evidence": "/home/user/corteqscities/uretim/zaragoza/_is/ulke_paketi/pack.json",
+   "owner": "insan"
+  },
+  {
+   "id": "OI-005",
+   "priority": "P2",
+   "text": "Aragón bölge paketi yok: bölge kuralları (Salud Aragón, INAEM, Aragón okul kaydı, Aragón vergileri, IASS) şehir kartlarında yazılacak; RUN_LOG notunda 'bölge paketi: yok'.",
+   "evidence": "/home/user/corteqscities/ulke/ES/bolge",
+   "owner": "ai"
+  }
+ ],
+ "sources_researched": 133,
+ "photos_downloaded": 0,
+ "next_step": "sources: 4 keşif ajanı (3'er konu), KESIF_TALIMAT.md erişim listesiyle"
+}
