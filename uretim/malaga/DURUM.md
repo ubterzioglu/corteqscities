@@ -1,82 +1,86 @@
-# Málaga (CITY-075) — nerede kaldı
+# Málaga (CITY-075) — DEVİR (02.11.2026)
 
-Durduruldu: 25.10.2026 saat 23:00 (Barış'ın isteğiyle). Üretim oturumu: `912613eb-ab28-44b8-b5f0-a261661e6f6a` (`_is\oturumlar.txt`'de).
+> **GÜNCEL (02.11.2026 15:20 UTC): TESLİM EDİLDİ.** Oturum 749ae7aa aşağıdaki 12 adımı bitirdi: d5 editör/doğrulama turları, eksik doğrulayıcılar, tutarlılık turu, d6 yeniden denetim + son düzeltme, son foto denetimi (342/342 keep), teslim zinciri (`_is\teslim.ps1`), manifest `delivered` (Excel SHA cd6a6392…), RUN_LOG. Kanıt kapsamı alt sınırı %91,62; açık konular `_is\notlar.md` → `paket\Teslimler\ACIK_KONULAR.txt`. **Sıradaki:** yeni oturumda yalnız "**Malaga paketini denetle**" (city-audit L0, sonra L1). Aşağıdaki metin tarihsel devirdir.
 
-## Kısaca
-- **Bitti:** hazırlık (intake) ve kaynak keşfi (sources).
-- **Yarıda:** kart yazımı (answers). 5 yazar 22:51'de başladı, 23:00'te durduruldu. Yalnız keşif konusunda 4 taslak kart yazılmıştı; öteki 11 konuda henüz Málaga kartı yok.
-- **Başlanmadı:** mekânlar, fotoğraflar, birleştirme, teslim.
+Yeni oturumda yalnız **"Malaga"** yaz. Skill manifest'i görür; bu dosyayı oku, sonra "Sıradaki işler"i sırayla yürüt. Üretim oturumları: `_is\oturumlar.txt` (son: `3dbf0801-…`; yeni oturumu da ekle).
 
-## Bitenler
-- **Şablon:** Atınç'ın Drive'ındaki resmî dosya, `ekler\malaga\CITY-075_malaga_v001.xlsx`. Kopyası `_is\sablon.xlsx`; yalnız `delivery_id` küçük harfe çevrildi (`city-075-v001`, OI-002). Boş şablonda resmî doğrulayıcı yalnız beklenen 8 Şehir hatasını veriyor.
-- **Ülke ve Endülüs paketi:** `_is\ulke_paketi` aktarıldı: 105 kart, 2045 iddia, 143 kaynak, eskimiş kart yok. Kira kartlarının geçerliliği 5.11.2026'da bitiyor; bu tarihten önce bitirmek daha ucuz.
-- **Konular ve sorular:** 12 konu (`_is\data\Konular.jsonl`) ve 60 "ilk soru" (`_is\yazar\ilk5.json`). Hitap: sen.
-- **Mekân havuzu:** `_is\mekan\wikidata_aday.jsonl`, 2.114 aday; 1.074'ünün fotoğrafı var. Kutu (BBOX): `36.57,36.87,-4.60,-4.28`.
-- **Erişim haritası:** `_is\kesif\KESIF_TALIMAT.md`. malaga.eu açık. Engelli olanlar:
-  - 403 bot engeli: malaga.es, cita previa sitesi, mivau.gob.es
-  - TLS sertifika hatası: huvv.es, aena.es, bibliotecas.malaga.eu, gmu.malaga.eu
-  - JS ile yükleniyor, metin gelmiyor: sede.malaga.eu, deportes.malaga.eu
-- **Kaynaklar:** 299 kaynak (`_is\kaynak_dizini.jsonl`); 143'ü ülke paketinden, 4'ünü durdurulan yazarlar ekledi. Kaynak keşfinden konu başına kabul edilen sayılar:
+**Dal uyarısı:** depo şu an `hibrit-skill` dalında (main değil). Málaga dosyaları commitlenmemiş; dal değiştirmeden önce Barış'a sor.
 
-  | Konu | Kaynak | Konu | Kaynak |
-  |---|---|---|---|
-  | planlama | 14 | saglik | 14 |
-  | oturum | 12 | is | 13 |
-  | resmi | 13 | aile | 12 |
-  | ev | 16 | ulasim | 15 |
-  | fatura | 16 | gunluk | 15 |
-  | para | 14 | kesif | 17 |
+## Tek cümle
+İçerik ve 342 fotoğraf hazır; son tam denetimin (d5) editör turu çoğu parçada bitti, ama doğrulama turu, birkaç editör ve teslim zinciri Opus haftalık sınırı (31.10 öğlen) yüzünden yarıda kaldı.
 
-  Yazar listeleri `_is\yazar\<konu>_kaynaklar.jsonl` dosyalarında. Bulunamayan bilgiler (44+ madde) `_is\kesif\gaps.json`'da; tamamlama turunda kullanılacak.
+## Model ve sınırlar
+- **Opus haftalık sınırı doldu, 5 Kasım 07:00'de (Berlin) açılır.** Sonnet sınırı 31.10 22:00'de açılmış olmalı: yeni ajanları **Sonnet** ile başlat (skill varsayılanı: editör orta, doğrulayıcı yüksek). Sonnet de doluysa 5 Kasım'ı bekle, Barış'a sorma.
+- Eski oturumun ajanlarına `SendMessage` yeni oturumdan ulaşmaz: yarıda kalan işler **aynı görevle yeni ajana** verilir; görev mesajına "önce mevcut hâli bulgularla karşılaştır, uygulanmışı tekrar etme" yazılır.
+- Workflow aracı yok, yalnız Agent. Eşzamanlı en çok 5 ajan.
 
-## Yarıda kalan: kart yazımı (answers)
-- Görev dosyası hazır: `_is\yazar\YAZAR_GOREV.md`.
-- Ülke kartları dosyalarda duruyor; durdurulan yazarlar hiçbirine dokunmadı (sayılar aktarılan paketle aynı).
-- **kesif:** 4 taslak Málaga kartı yazıldı (`Yanıtlar.kesif.jsonl`, 8 bağlantı, 63 iddia). Bu kartlar denetlenmedi.
-- **aile ve gunluk:** kart yok. Yazarların eklediği kaynaklar:
-  - aile: `malaga:kaynak:298`, `malaga:kaynak:299` (028 yeniden kullanıldı)
-  - gunluk: `malaga:kaynak:296`, `malaga:kaynak:297`
-- Yazarların yarım taslakları `_is\yazar\taslak_<konu>\` altına kopyalandı (aile, gunluk, kesif). Bunlar yalnız yardımcı betikler; kart içermiyor.
-- **Hedef Málaga kartı sayısı** (ülke kartlarıyla birlikte konu başına yaklaşık 20; toplam yaklaşık 243):
+## Sayılar (30.10 son KUR; d5 editörleri sonra bazı kartları değiştirdi)
+- Yanıtlar 244 (105 ülke + 139 Málaga), Mekânlar 120, Mahalleler 16, Sözlük 62, Rotalar 12, Adımlar 6, SayfaAlanları 23 + Şehir 1, Bağlantılar 583, Kaynaklar ≈434 (sınır 500).
+- Fotoğraf 334 mekân + 8 kapak = 342 dosya; 136 kaydın hepsi fotoğraflı.
+- Ajan sayısı çok aştı (≈265; hedef 60). Yeni ajanlarda parça birleştir.
 
-  | Konu | Hedef | order aralığı |
-  |---|---|---|
-  | planlama | 11 | 100 |
-  | oturum | 8 | 200 |
-  | resmi | 8 | 300 |
-  | ev | 13 | 400 |
-  | fatura | 11 | 500 |
-  | para | 7 | 600 |
-  | saglik | 12 | 700 |
-  | is | 8 | 800 |
-  | aile | 15 | 900 |
-  | ulasim | 13 | 1000 |
-  | gunluk | 14 | 1100 |
-  | kesif | 18 | 1200 |
+## Barış kararları (geçerli)
+- İspanya ülke paketi olduğu gibi. Bulunamayan bilgi → açık konulara, beklenmez.
+- **Önerildi, itiraz gelmedi (uygula):** (a) vergi-numarasi-nif-nie-alma kartında zayıf kaynak 004 ile değiştirilir, NIE harcı 9,84 € yazılır; (b) Ayuntamiento ve Palacio Episcopal mekânları kısa (yalnız adres) hâliyle kalır, eksiklik açık konuya (silmek mekânı 120'nin altına indirir = K17 hedef eksiği).
 
-## Devam etmek için (yeni oturumda)
-1. Yalnız **"Malaga"** yaz. Skill manifest'i görüp durumu özetler ve "kaldığı yerden devam" önerir.
-2. Önce yeni oturumu `_is\oturumlar.txt`'ye ekle, sonra pencereyi yeniden aç: `phase_usage mark answers start`. Bundan sonra `manifest_check` temiz çıkmalı. Şu an tek bulgusu "answers running ama pencere kapalı"; bu duraklatmadan kaynaklanıyor ve beklenen bir bulgu.
-3. Yazarları başlat: aynı anda en çok 5, her birine `YAZAR_GOREV.md` ve yukarıdaki hedef ile order aralığı. Geçici klasör yeni oturumun scratchpad'inde olur. `add_sources` klasörleri sırayı sürdürür: `snap_aile-yazar4`, `snap_gunluk-yazar2`, `snap_kesif-yazar1` …
-   - **kesif yazarına:** "dosyada önceki yazarın 4 taslak kartı var; gözden geçir, sorunluysa düzelt, hedefe kadar devam et."
-4. Sonra skill'in standart döngüsü: KUR → tam denetim → tamamlama turu editörü (gaps.json + ek kaynak) → doğrulayıcı.
+## KRİTİK tuzaklar
+- Araç kutusu script'lerini **`-I` ile çağırma**; `-X utf8` yeter. Yalnız kendi küçük `.py`'lerinde `-I`.
+- PowerShell'de `2>&1 | ForEach { $_.Substring }` patlar → `| Out-String` ile sar. `Get-ChildItem -Filter` dizi almaz.
+- Python'u `-c` ile Türkçe çıktı basarken `-X utf8` şart (cp1252 hatası).
+- Wikimedia/Openverse 429: bekle, aynı komutu tekrarla. `denetim_girdi.py` ilk tur adı `d1`.
 
-## Bilinen tuzaklar (bu oturumda görüldü)
-- **Workflow aracıyla başlatılan ajanlar** ilk kabuk komutunda 12 dakika takıldı (görünmeyen izin onayı). Agent aracıyla başlatılanlarda kabuk ve `add_sources` çalıştı. Ajanları Agent aracıyla başlat.
-- **PowerShell'de `$py` değişkeni `$PY`'yi ezer.** Betik metnini başka adla tut.
-- Skill notları: `_is\notlar_skill.md` (3 satır; şehir teslim edilince geliştirme turunda ele alınacak).
+## d5 durumu (02.11 dosya kayıtlarına göre)
+| Parça | editör (`-d5_degisiklik`) | doğrulayıcı (`-d5_dogrulama`) | doğrulama turu (`-d5-d2_degisiklik`) |
+|---|---|---|---|
+| aile, ev, fatura, gunluk | bitti | bitti (orta: aile 3, fatura 1, gunluk 1) | **yapılmadı** (ajan dosya yazmadan durdu) |
+| is, saglik, sozluk | bitti | **yok** | – |
+| oturum | bitti (19/22) | bitti (3 hafif hatalı, orta eksik 3) | **yapılmadı** |
+| resmi | bitti (15/21) | bitti (orta eksik 2) | **yapılmadı** |
+| para, planlama, ulasim | bitti | **yok** (ajan durdu, dosya yok) | – |
+| m1, m2 | bitti (36/36; açık-mı kapısı çıkış 0) | yok | – |
+| m3 | bitti (dosya 31.10 11:39) | yok | – |
+| m4 | **yarıda** (dosya 11:44; kısmi) | yok | – |
+| m5 | **başlamadı** | yok | – |
+| mahalle | bitti (91 KB kayıt) | yok | – |
+| rota | **başlamadı** (`rota-d5_degisiklik` yok) | yok | – |
+| sayfa (Şehir+SayfaAlanları) | **başlamadı** | yok | – |
+| kesif | orta 0, editör gerekmez | – | – |
+Ciddi bulgu hiçbir parçada yok. Çürütme (teyit) dosyaları bütün parçalarda hazır.
 
-## Ölçüm
-- Ajan sayısı: 14 (hedef ≤60). Dağılım:
-  - 4 takılan workflow ajanı (iş yapmadı)
-  - 4 kaynak keşfi ajanı + 1 oturum ek kaynak ajanı (her biri ~150–215 bin token)
-  - 5 durdurulan yazar
-- Faz pencereleri `_is\phase_log.jsonl`'de:
+## SIRADAKİ İŞLER (sırayla)
+1. **Önce KUR hızlı** (`_is\kur_hizli.ps1`): yarıda kalan ajanlar dosyayı bozmuş mu bak (birleştirme bulgusu 0, kurulum reddi 0). Bozuk satır varsa ilgili parçanın yedeği ajanın `<scratchpad>\<p>_w\` klasöründeydi (eski oturumun scratchpad'i: `C:\Users\BARIS-~1\AppData\Local\Temp\claude\c--temp-private-corteqs-0000-newera\3dbf0801-3e6f-491e-849e-5609f646e14f\scratchpad\`).
+2. **Yarıda/başlamamış editörler** (`_is\denetim\D5_EDITOR_GOREV.md`; yeni ajan, Sonnet orta): m4 (devam) + m5; rota (yürüyüş `_is\rota_mesafe.jsonl`'den; 007 ilk bacak ve 008); sayfa. m3–m5 görev mesajındaki ek notlar: Inacua adı/adresi kaynağın dediğine daralt; Cortijo de Torres 12.000/11.935 atıfla; MIMMA çift kaydı (K108) silme yok, açık konu.
+3. **Doğrulama turu editörleri** (en çok bir kez; çıktı `<p>-d5-d2_degisiklik.jsonl`, eski dosyalara dokunma; görev 8 + 2, 6, 7):
+   - aile: çocuk başına ödenek kartı (Ley 19/2021, kaynak 107: yeni başvuru yok); okul kaydı "Delegación Territorial" eşleştirmesi; kart başına ≤2 source_ids (`endulus-okul-kaydi` 3, `dogan-bebegin-…` 4); kreş ve padrón K26 (kaynakta varsa).
+   - ev: turistik daire özetinde şart iki bölge için geri gelsin.
+   - fatura: EMASA fondo social 2026 çağrısı (kaynağın tarihiyle sınırla).
+   - gunluk: spor tesisleri kartı kesif'teki iki kartı tekrar ediyor (K27).
+   - oturum: nie-basvurusu, tie-karti, ilce düğmeleri kartın kaynağında olmayan sayfaya (001/300) gidiyor; oturum-izni-yenileme ücretli/serbest çalışan belgeleri (005 md. 80); arraigo 38,28 € ve kâr amacı gütmeyen 10,94 € (kaynak 002, değiştir-boşalt); ab-vatandasi notu (kaynak 295).
+   - resmi: vergi-numarasi (karar a); yabanci-ehliyet canje kartına yönlendirme + K27; fnmt-kurma OMAC yönlendirmesi.
+4. **Eksik doğrulayıcılar** (`D5_DOGRULAYICI_GOREV.md`; yeni ajan, Sonnet yüksek; parçaları grupla): para+planlama+ulasim; is+saglik+sozluk; m1+m2+m3; m4+m5+mahalle; rota+sayfa (editörleri bitince). Çıkan ciddi/orta `hatali_duzeltme`/`eksik_kalan` → tek doğrulama turu.
+5. **Bilinen düzeltmeler** (yukarıdakilere girmeyenler): K27 kart çiftleri (OMAC, IBI, mobilya, punto limpio, Cercanías–Consorcio, 010) — editörlerin yaptığını tutarlılık turunda kontrol et; Kaynaklar `summary` notları (kaynak 209, 216, 275) okura iş bırakıyor → `kaynak_taslak.jsonl` düzelt, `package_sources` ile yeniden yaz.
+6. **Tutarlılık turu** (`kart_tutarlilik.py`, tek editör, görev 9), sonra **KUR tam** (`_is\kur.ps1`): birleştirme 0, kurulum reddi 0, `text_quality --address-standard sen` 0, `warning-scan` 0, `validate_all` yapı 0.
+7. **Rota yürüyüşü** yeniden ölç (`rota_mesafe.py`) rota editöründen sonra.
+8. **Son foto denetimi** (skill faz 6 adım 6): `foto_denetim_girdi.py` + `contact_sheet.py` (256 px), 3 pafta/ajan; ret/yinelenen çıkar, kayıt fotoğrafsız kalmasın; `foto_secim_birlestir.py` + `foto_indir2.ps1`.
+9. **Teslim hazırlığı**: `_is\data\Teslimat.jsonl` (scope Tam teslim, updated_on teslim günü, editorial_status Taslak, şablon notu kalmasın; CITY-075 resmî numara → "YEREL DENEME" yazma), `manifest.json` (`sources_researched` gerçek sayı, `photos_downloaded` 342, `open_items`), `_is\notlar.md`. Sonra **teslim zinciri** (faz 5 adım 6–7 → faz 6 → faz 7); `kanit_teslim`, `kanit_kapsami` çıkış 0 hedef.
+10. **Faz işaretleri**: manifest hâlâ `answers: running`; places/photos/assemble işaretsiz yürüdü. Teslimden önce fazları `done` yap, `phase_log.jsonl`'e ardışık pencereler yaz (UTC ISO), `manifest_check` temiz.
+11. **Ölçüm**: `phase_usage report` + `run_log` (oturumlar `oturumlar.txt`; not "<N>. şehir; ülke paketi: <yol>; hitap: sen").
+12. **Kullanıcıya**: paket `uretim\malaga\paket\`; yeni oturumda "**Malaga paketini denetle**" (L0, sonra L1); Drive'ı Barış yükler; `notlar_skill.md` not sayısı.
 
-  | Faz | Pencere (UTC) |
-  |---|---|
-  | intake | 21:11–21:17 |
-  | sources | 21:17–21:50 |
-  | answers | 21:50–22:00 (duraklatıldı) |
+## Açık konular (teslimde ACIK_KONULAR'a)
+- OI-001 erişim engelleri, OI-002 Atınç `delivery_id`, OI-003 `priority`/`source_url` anlamı.
+- Kaynakta bulunamayanlar: NIE/TIE cita previa yolu ve yabancılar ofisi adı/adresi; vize harcı; dijital göçebe başvuru yeri/süresi; vatandaşlık harcı; TA.1 formu (TGSS NAF sayfası gerek); vida laboral ücretsizliği; FNMT/Clave için kimlik belgesi, ücret, Málaga AEAT ofisi; Jefatura Provincial de Tráfico adresi; apostil yüz yüze yeri/ücreti; padrón belge/ücret; EMASA belge/bedel (PDF); IVTM 2026 tarifesi (PDF); IBI yalnız 2024 oranı; Bizum yalnız 2021 bilgisi; Cercanías tekil bilet tutarı; ZBE yabancı plaka kuralı; ITV ücret/randevu; Consorcio bilet ücretleri; evcil hayvan 7 ay/3 ay kuralı 2026/131 ile karşılaştırılmadı; belediye bisikleti; kira düzeyi; gürültü yönetmeliği; turistik daire askı kararı; Feria/Semana Santa 2027; Registro Civil randevusu; UMA botanik bahçesi sitesi çalışmıyor.
+- Mekân: Ayuntamiento, Palacio Episcopal yalnız adres (karar b); La Farola iç ziyaret bilgisi yok; Katedral ikinci saat tablosu yılsız; Comandante Benítez ve Pedregalejo durumu haber kaynaklı ("… itibarıyla" notlu); Baños del Carmen 9 Eylül 2026 haberi; Mercado de Ciudad Jardín iki adres; MIMMA çift kayıt (K108); Casa Natal Picasso, CAC/MUCAC resmî sayfa 403; Inacua 2025 kapanış izi ve adres uyuşmazlığı.
+- Fotoğraf: ikinci kaynak (Openverse/Europeana) hız sınırı yüzünden kullanılamadı; ek hak taşıyan kareler elendi.
+- Kalite zinciri: Opus/Sonnet sınırları yüzünden bazı parçalarda doğrulama turu yapılamadıysa buraya yaz.
 
-- Açık konular (manifest): OI-001 erişim engelleri, OI-002 Atınç `delivery_id`, OI-003 `priority` ve `source_url` anlamı (bilgi).
+## Dosya haritası (W = `uretim\malaga`)
+- `W\_is\araclar\` kendi araçlarım: `kartlar_txt.py`, `hazirla_denetim.py`, `sil_mekan.py`, `secim_*.py`, `foto_secim_birlestir.py` (foto adım 6), `foto_kapsam.py`, `foto_indir2.ps1` (indirme + rows + yol kontrolü), `acik_topla.py`, `akis_durum.py`.
+- KUR: `W\_is\kur.ps1` (tam), `W\_is\kur_hizli.ps1`.
+- Denetim: `W\_is\denetim\<p>-d5_{kartlar,iddia,karar,mekan-dogrulama,teyit,degisiklik,dogrulama}.jsonl`; görevler `D5_GOREV.md`, `D5_EDITOR_GOREV.md`, `D5_DOGRULAYICI_GOREV.md`; notlar `W\_is\d5_notlari.md`, skill/araç notları `W\_is\notlar_skill.md`.
+- Mekân planı `W\_is\mekan\plan.jsonl`; silinen 19 mekânın yedeği `W\_is\yedek_silinen\`.
+- Foto: `W\_is\foto\selected.jsonl`, `foto\inceleme\`, `foto\indirme_plani.json`.
+- Rota: `W\_is\rota_mesafe.jsonl`, `W\_is\rota_plan.jsonl`.
+
+## Skill/araç notları (kural 14)
+`notlar_skill.md`: Workflow ajanları kabuksuz; `$py` `$PY`'yi ezer; `denetim_girdi` ilk tur adı; `photo_prefilter` kısa listeyi ada göre keser; `-I` bayrağı; editörler kart başına 2 kaynak sınırını aşabiliyor; `add_sources` PDF reddediyor. Ek (02.11): model haftalık sınırı dolunca ajanlar dosya yazmadan durabiliyor — doğrulama turu gibi kısa işler bile; devir belgesinde dosya kaydı esas alınmalı, ajan raporu değil.

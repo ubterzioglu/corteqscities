@@ -1,0 +1,3688 @@
+===== KART 1/19: malaga:picasso-muzeleri-ucretsiz-giris-gunleri =====
+{
+ "entry_id": "malaga:picasso-muzeleri-ucretsiz-giris-gunleri",
+ "city_id": "malaga",
+ "slug": "picasso-muzeleri-ucretsiz-giris-gunleri",
+ "title": "Museo Picasso Málaga ve Casa Natal Picasso'ya hangi gün ve saatte ücretsiz girilir?",
+ "subtitle": "Museo Picasso: pazar günü son iki saat ve yılda 4 gün; Casa Natal: pazar 16:00-20:00 ve yılda 5 gün",
+ "summary": "Museo Picasso Málaga'da her pazar kapanıştan önceki son iki saat herkese ücretsizdir (kasalar kapanıştan yarım saat önce kapanır); ayrıca 28 Şubat, 18 Mayıs, 27 Eylül ve müzenin açılış yıldönümü olan 27 Ekim'de giriş ücretsizdir. Casa Natal Picasso'da her pazar 16:00-20:00 arası ücretsizdir; ek olarak 28 Şubat, Mayıs'taki Noche en Blanco, 18 Mayıs, 27 Eylül ve Picasso'nun doğumunu anma günü olan 25 Ekim'de giriş ücretsizdir.",
+ "keywords": "Museo Picasso Málaga, Casa Natal Picasso, ücretsiz müze, pazar ücretsiz, Noche en Blanco, entrada gratuita, Picasso doğum günü",
+ "stages": "planning;new;settled",
+ "source_ids": "malaga:kaynak:275;malaga:kaynak:282",
+ "reviewed_on": "2026-10-27",
+ "order": 1200,
+ "featured": "Evet",
+ "editorial_status": "Taslak",
+ "topic_id": "malaga:kesif",
+ "steps": "Casa Natal için pazar günü 16:00-20:00 arasını seç; müzeye kabul kapanıştan 15 dakika önce biter.\nMuseo Picasso için pazar günü kapanıştan önceki son iki saati seç: Kasım-Şubat 16:00'dan, Mart-Haziran ve Eylül-Ekim 17:00'den, Temmuz-Ağustos 18:00'den başlar.\n28 Şubat, 18 Mayıs ve 27 Eylül'ü iki müze için de ücretsiz gün olarak takvimine yaz; 27 Ekim yalnız Museo Picasso'da, 25 Ekim yalnız Casa Natal'da ücretsizdir.\nGrupla gidiyorsan ücretsiz günleri ve saatleri seçme: Casa Natal bu zamanlarda grup rezervasyonu almaz.",
+ "documents": "",
+ "timing": "Her pazar; 28 Şubat, 18 Mayıs, 27 Eylül; Museo Picasso'da 27 Ekim; Casa Natal'da Mayıs'taki Noche en Blanco (tarihi her yıl değişir) ve 25 Ekim",
+ "cost": "Ücretsiz",
+ "note": "Ücretsiz girişler yalnız müze ziyaretini kapsar; kültürel ve eğitsel etkinlikler ücretsiz değildir. Museo Picasso 24 ve 31 Aralık ile 5 Ocak'ta 10:00-15:00 açıktır; 25 Aralık, 1 ve 6 Ocak kapalıdır.",
+ "visual_json": "",
+ "_sekme": "Yanıtlar",
+ "kaynaklar": [
+  {
+   "source_id": "malaga:kaynak:275",
+   "url": "https://www.museopicassomalaga.org/es/visita",
+   "publisher": "Museo Picasso Málaga (Fundación Paul, Christine y Bernard Ruiz-Picasso / Junta de Andalucía)",
+   "text_file": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\malaga\\_is\\snap_kesif_kesif\\80a945a7279ed8b509d1f082e8d8db7b04f4c20d954c9bff3bf86ec541d4564f.txt"
+  },
+  {
+   "source_id": "malaga:kaynak:282",
+   "url": "https://museocasanatalpicasso.malaga.eu/Visita/horarios-y-tarifas/",
+   "publisher": "Ayuntamiento de Málaga - Fundación Picasso",
+   "text_file": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\malaga\\_is\\snap_kesif_kesif\\4046aada68eb76bec319483746d555173f2632886b15f363d1b5a5887be26d50.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-picasso-muzeleri-ucretsiz-giris-gunleri-1",
+   "field": "summary",
+   "claim": "Museo Picasso pazarları kapanıştan önceki son iki saatte herkese ücretsiz",
+   "value": "son 2 saat",
+   "unit": "saat",
+   "period": "her pazar",
+   "source_id": "malaga:kaynak:275",
+   "quote": "Entrada libre para todos los públicos cada domingo durante las dos últimas horas de apertura (cierre de taquillas media hora antes)"
+  },
+  {
+   "claim_id": "C-picasso-muzeleri-ucretsiz-giris-gunleri-2",
+   "field": "summary",
+   "claim": "Museo Picasso 28 Şubat (Endülüs Günü) ve 18 Mayıs (Müzeler Günü) ücretsiz",
+   "value": "28 Şubat; 18 Mayıs",
+   "unit": "gün",
+   "period": "yıllık",
+   "source_id": "malaga:kaynak:275",
+   "quote": "Día de Andalucía (28 febrero), Día Internacional de los Museos (18 mayo)"
+  },
+  {
+   "claim_id": "C-picasso-muzeleri-ucretsiz-giris-gunleri-3",
+   "field": "summary",
+   "claim": "Museo Picasso 27 Eylül (Dünya Turizm Günü) ve 27 Ekim (açılış yıldönümü) ücretsiz",
+   "value": "27 Eylül; 27 Ekim",
+   "unit": "gün",
+   "period": "yıllık",
+   "source_id": "malaga:kaynak:275",
+   "quote": "Día Mundial del Turismo (27 septiembre) y Aniversario de apertura del museo (27 octubre)"
+  },
+  {
+   "claim_id": "C-picasso-muzeleri-ucretsiz-giris-gunleri-4",
+   "field": "steps",
+   "claim": "Museo Picasso Kasım-Şubat arası 18:00'da kapanır; son iki saat 16:00'da başlar (hesap)",
+   "value": "18:00",
+   "unit": "saat",
+   "period": "Kasım-Şubat",
+   "source_id": "malaga:kaynak:275",
+   "quote": "Noviembre-febrero: de 10 a 18 h"
+  },
+  {
+   "claim_id": "C-picasso-muzeleri-ucretsiz-giris-gunleri-5",
+   "field": "steps",
+   "claim": "Museo Picasso Mart-Haziran arası 19:00'da kapanır; son iki saat 17:00'de başlar (hesap)",
+   "value": "19:00",
+   "unit": "saat",
+   "period": "Mart-Haziran",
+   "source_id": "malaga:kaynak:275",
+   "quote": "Marzo-junio: de 10 a 19 h"
+  },
+  {
+   "claim_id": "C-picasso-muzeleri-ucretsiz-giris-gunleri-6",
+   "field": "steps",
+   "claim": "Museo Picasso Eylül-Ekim arası 19:00'da kapanır; son iki saat 17:00'de başlar (hesap)",
+   "value": "19:00",
+   "unit": "saat",
+   "period": "Eylül-Ekim",
+   "source_id": "malaga:kaynak:275",
+   "quote": "Septiembre-octubre: de 10 a 19 h"
+  },
+  {
+   "claim_id": "C-picasso-muzeleri-ucretsiz-giris-gunleri-7",
+   "field": "steps",
+   "claim": "Museo Picasso Temmuz-Ağustos arası 20:00'de kapanır; son iki saat 18:00'de başlar (hesap)",
+   "value": "20:00",
+   "unit": "saat",
+   "period": "Temmuz-Ağustos",
+   "source_id": "malaga:kaynak:275",
+   "quote": "Julio-agosto: de 10 a 20 h"
+  },
+  {
+   "claim_id": "C-picasso-muzeleri-ucretsiz-giris-gunleri-8",
+   "field": "note",
+   "claim": "İndirim ve ücretsizlikler yalnız müze ziyaretine uygulanır, kültürel ve eğitsel etkinliklere uygulanmaz",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:275",
+   "quote": "Los descuentos y gratuidades solamente se aplicarán a las tarifas para visitar el Museo, no a las actividades culturales ni educativas."
+  },
+  {
+   "claim_id": "C-picasso-muzeleri-ucretsiz-giris-gunleri-9",
+   "field": "summary",
+   "claim": "Casa Natal pazarları 16:00-20:00 arası ücretsiz",
+   "value": "16:00-20:00",
+   "unit": "saat",
+   "period": "her pazar",
+   "source_id": "malaga:kaynak:282",
+   "quote": "La entrada es gratuita todos los domingos de 16:00 a 20:00 h"
+  },
+  {
+   "claim_id": "C-picasso-muzeleri-ucretsiz-giris-gunleri-10",
+   "field": "steps",
+   "claim": "Casa Natal'da kabul kapanıştan 15 dakika önce biter",
+   "value": "15",
+   "unit": "dakika",
+   "period": "",
+   "source_id": "malaga:kaynak:282",
+   "quote": "La admisión de público terminará 15 minutos antes del cierre del museo."
+  },
+  {
+   "claim_id": "C-picasso-muzeleri-ucretsiz-giris-gunleri-11",
+   "field": "summary",
+   "claim": "Casa Natal 28 Şubat (Endülüs Günü) ücretsiz",
+   "value": "28 Şubat",
+   "unit": "gün",
+   "period": "yıllık",
+   "source_id": "malaga:kaynak:282",
+   "quote": "Día de Andalucía (28 de febrero)"
+  },
+  {
+   "claim_id": "C-picasso-muzeleri-ucretsiz-giris-gunleri-12",
+   "field": "summary",
+   "claim": "Casa Natal Noche en Blanco (Mayıs, değişken tarih) ücretsiz",
+   "value": "Mayıs",
+   "unit": "",
+   "period": "yıllık",
+   "source_id": "malaga:kaynak:282",
+   "quote": "Noche en blanco (mayo, en fecha variable)"
+  },
+  {
+   "claim_id": "C-picasso-muzeleri-ucretsiz-giris-gunleri-13",
+   "field": "summary",
+   "claim": "Casa Natal 18 Mayıs ücretsiz",
+   "value": "18 Mayıs",
+   "unit": "gün",
+   "period": "yıllık",
+   "source_id": "malaga:kaynak:282",
+   "quote": "Día Internacional de los Museos (18 de mayo)"
+  },
+  {
+   "claim_id": "C-picasso-muzeleri-ucretsiz-giris-gunleri-14",
+   "field": "summary",
+   "claim": "Casa Natal 27 Eylül ücretsiz",
+   "value": "27 Eylül",
+   "unit": "gün",
+   "period": "yıllık",
+   "source_id": "malaga:kaynak:282",
+   "quote": "Día Internacional del Turismo (27 de septiembre)"
+  },
+  {
+   "claim_id": "C-picasso-muzeleri-ucretsiz-giris-gunleri-15",
+   "field": "summary",
+   "claim": "Casa Natal 25 Ekim (Picasso'nun doğumunu anma günü) ücretsiz",
+   "value": "25 Ekim",
+   "unit": "gün",
+   "period": "yıllık",
+   "source_id": "malaga:kaynak:282",
+   "quote": "Conmemoración del nacimiento de Pablo Ruiz Picasso (25 de octubre)"
+  },
+  {
+   "claim_id": "C-picasso-muzeleri-ucretsiz-giris-gunleri-16",
+   "field": "steps",
+   "claim": "Ücretsiz günlerde ve saatlerde grup rezervasyonu ve resmî rehber anlatımı kabul edilmez",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:282",
+   "quote": "En los días y tramos horarios con entrada gratuita no se aceptan reservas de grupos ni las explicaciones a grupos por parte de guías oficiales."
+  },
+  {
+   "claim_id": "C-picasso-muzeleri-ucretsiz-giris-gunleri-17",
+   "field": "note",
+   "claim": "Museo Picasso 24 ve 31 Aralık ile 5 Ocak'ta 10:00-15:00 açıktır",
+   "value": "10:00-15:00",
+   "unit": "saat",
+   "period": "24 Aralık, 31 Aralık, 5 Ocak",
+   "source_id": "malaga:kaynak:275",
+   "quote": "24 y 31 diciembre y 5 enero: de 10 a 15 h"
+  },
+  {
+   "claim_id": "C-picasso-muzeleri-ucretsiz-giris-gunleri-18",
+   "field": "note",
+   "claim": "Museo Picasso 25 Aralık, 1 Ocak ve 6 Ocak kapalıdır",
+   "value": "kapalı",
+   "unit": "",
+   "period": "25 Aralık, 1 Ocak, 6 Ocak",
+   "source_id": "malaga:kaynak:275",
+   "quote": "25 diciembre, 1 enero y 6 enero: cerrado"
+  }
+ ],
+ "adimlar": [],
+ "butonlar": [
+  {
+   "action_id": "malaga:action:picasso-muzeleri-ucretsiz-giris-gunleri-1",
+   "label": "Tarifeyi gör",
+   "url": "https://www.museopicassomalaga.org/es/visita"
+  },
+  {
+   "action_id": "malaga:action:picasso-muzeleri-ucretsiz-giris-gunleri-2",
+   "label": "Tarifeyi gör",
+   "url": "https://museocasanatalpicasso.malaga.eu/Visita/horarios-y-tarifas/"
+  }
+ ]
+}
+
+===== KART 2/19: malaga:pompidou-ve-thyssen-ucretsiz-giris-gunleri =====
+{
+ "entry_id": "malaga:pompidou-ve-thyssen-ucretsiz-giris-gunleri",
+ "city_id": "malaga",
+ "slug": "pompidou-ve-thyssen-ucretsiz-giris-gunleri",
+ "title": "Centre Pompidou Málaga ve Museo Carmen Thyssen'e hangi gün ve saatte ücretsiz girilir?",
+ "subtitle": "İkisinde de pazar 16:00'dan sonra ücretsiz; Thyssen'de 28 Şubat, 24 Mart, 18 Mayıs, 27 Eylül; Pompidou'da Noche en Blanco, 18 Mayıs, 27 Eylül",
+ "summary": "Centre Pompidou Málaga'da pazar günleri 16:00'dan kapanışa kadar herkes ücretsiz girer; Museo Carmen Thyssen'de de pazarları 16:00'dan sonra giriş ücretsizdir. Thyssen dört sabit günde (28 Şubat Endülüs Günü, 24 Mart müze yıldönümü, 18 Mayıs Müzeler Günü, 27 Eylül Turizm Günü) ve Noche en Blanco gibi kültürel etkinliklerde belirli saatlerde ücretsizdir. Pompidou'nun ücretsiz özel günleri Noche en Blanco (Mayıs'ta bir cumartesi), 18 Mayıs ve 27 Eylül'dür.",
+ "keywords": "Centre Pompidou Málaga, Carmen Thyssen, pazar ücretsiz, ücretsiz müze günü, Noche en Blanco, entrada gratuita domingo",
+ "stages": "planning;new;settled",
+ "source_ids": "malaga:kaynak:277;malaga:kaynak:279",
+ "reviewed_on": "2026-10-27",
+ "order": 1201,
+ "featured": "Hayır",
+ "editorial_status": "Taslak",
+ "topic_id": "malaga:kesif",
+ "steps": "Pompidou için pazar günü 16:00 ile 20:00 arasını seç; kabul kapanıştan 30 dakika önce biter.\nThyssen için pazar günü 16:00'dan sonrasını seç; müze 20:00'de kapanır.\n28 Şubat, 24 Mart, 18 Mayıs ve 27 Eylül'ü Thyssen'in; Mayıs'taki Noche en Blanco, 18 Mayıs ve 27 Eylül'ü Pompidou'nun ücretsiz günleri olarak kaydet.\nPompidou'ya grupla gidiyorsan ücretsiz saatleri seçme: bu zamanlarda grup rezervasyonu kabul edilmez.",
+ "documents": "",
+ "timing": "Her pazar 16:00'dan sonra; yıllık özel günler (Thyssen: 4 sabit gün, Pompidou: 3 gün)",
+ "cost": "Ücretsiz",
+ "note": "Pompidou salı günleri kapalıdır; salı resmî tatile denk gelirse ya da tatil arifesiyse açıktır. 25 Aralık ve 1 Ocak kapalıdır, 24 ve 31 Aralık 15:00'e kadar açıktır. Thyssen pazartesi günleri kapalıdır (lunes festivo günlerinde açıktır).",
+ "visual_json": "",
+ "_sekme": "Yanıtlar",
+ "kaynaklar": [
+  {
+   "source_id": "malaga:kaynak:277",
+   "url": "https://centrepompidou-malaga.eu/visita/",
+   "publisher": "Centre Pompidou Málaga (Ayuntamiento de Málaga)",
+   "text_file": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\malaga\\_is\\snap_kesif_kesif\\d6e99290d199995f0872dfa840cc96e15d9bc02e45fdf5a9758246ed6fdf1d2b.txt"
+  },
+  {
+   "source_id": "malaga:kaynak:279",
+   "url": "https://www.carmenthyssenmalaga.org/faqs",
+   "publisher": "Museo Carmen Thyssen Málaga",
+   "text_file": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\malaga\\_is\\snap_kesif_kesif\\5ca80f0c03a4d25ae5906bf23078649aae613d6404f2dd09f42adc8fd32fab8c.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-pompidou-ve-thyssen-ucretsiz-giris-gunleri-1",
+   "field": "summary",
+   "claim": "Pompidou pazarları 16:00'dan kapanışa kadar herkese ücretsiz",
+   "value": "16:00",
+   "unit": "saat",
+   "period": "her pazar",
+   "source_id": "malaga:kaynak:277",
+   "quote": "para todo el público los domingos a partir de las 16:00 horas y hasta la hora de cierre"
+  },
+  {
+   "claim_id": "C-pompidou-ve-thyssen-ucretsiz-giris-gunleri-2",
+   "field": "summary",
+   "claim": "Pompidou'da Noche en Blanco ücretsiz günlerden biri",
+   "value": "Mayıs",
+   "unit": "",
+   "period": "yıllık",
+   "source_id": "malaga:kaynak:277",
+   "quote": "Noche en Blanco (un sábado de mayo, en fecha variable)"
+  },
+  {
+   "claim_id": "C-pompidou-ve-thyssen-ucretsiz-giris-gunleri-3",
+   "field": "summary",
+   "claim": "Pompidou'da 18 Mayıs ücretsiz gün",
+   "value": "18 Mayıs",
+   "unit": "gün",
+   "period": "yıllık",
+   "source_id": "malaga:kaynak:277",
+   "quote": "Día Internacional de los Museos (18 de mayo)"
+  },
+  {
+   "claim_id": "C-pompidou-ve-thyssen-ucretsiz-giris-gunleri-4",
+   "field": "summary",
+   "claim": "Pompidou'da 27 Eylül ücretsiz gün",
+   "value": "27 Eylül",
+   "unit": "gün",
+   "period": "yıllık",
+   "source_id": "malaga:kaynak:277",
+   "quote": "Día Internacional del Turismo (27 de septiembre)"
+  },
+  {
+   "claim_id": "C-pompidou-ve-thyssen-ucretsiz-giris-gunleri-5",
+   "field": "steps",
+   "claim": "Pompidou salı dışında 09:30-20:00 açıktır",
+   "value": "9:30-20:00",
+   "unit": "saat",
+   "period": "",
+   "source_id": "malaga:kaynak:277",
+   "quote": "9:30 - 20:00h (incluyendo festivos)"
+  },
+  {
+   "claim_id": "C-pompidou-ve-thyssen-ucretsiz-giris-gunleri-6",
+   "field": "steps",
+   "claim": "Pompidou'ya kabul kapanıştan 30 dakika önce biter",
+   "value": "30",
+   "unit": "dakika",
+   "period": "",
+   "source_id": "malaga:kaynak:277",
+   "quote": "La admisión del público se permite hasta 30 minutos antes del cierre del museo."
+  },
+  {
+   "claim_id": "C-pompidou-ve-thyssen-ucretsiz-giris-gunleri-7",
+   "field": "note",
+   "claim": "Pompidou salı günleri kapalıdır; salı tatile denk gelirse ya da tatil arifesiyse açıktır; 25 Aralık ve 1 Ocak kapalıdır",
+   "value": "salı",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:277",
+   "quote": "El centro abrirá martes festivos y vísperas. Cerrado todos los martes, 25 de diciembre y 1 de enero."
+  },
+  {
+   "claim_id": "C-pompidou-ve-thyssen-ucretsiz-giris-gunleri-8",
+   "field": "steps",
+   "claim": "Pompidou ücretsiz günlerde ve saatlerde grup rezervasyonu ve resmî rehber anlatımı kabul etmez",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:277",
+   "quote": "En los días y tramos horarios con entrada gratuita no se aceptan reservas de grupos ni las explicaciones a grupos por parte de guías oficiales."
+  },
+  {
+   "claim_id": "C-pompidou-ve-thyssen-ucretsiz-giris-gunleri-9",
+   "field": "summary",
+   "claim": "Thyssen pazarları 16:00'dan sonra ücretsiz",
+   "value": "16:00",
+   "unit": "saat",
+   "period": "her pazar",
+   "source_id": "malaga:kaynak:279",
+   "quote": "Además, todos los domingos, a partir de las 16.00h el acceso gratuito."
+  },
+  {
+   "claim_id": "C-pompidou-ve-thyssen-ucretsiz-giris-gunleri-10",
+   "field": "summary",
+   "claim": "Thyssen'de 28 Şubat, 24 Mart, 18 Mayıs ve 27 Eylül ücretsiz",
+   "value": "28 Şubat; 24 Mart; 18 Mayıs; 27 Eylül",
+   "unit": "gün",
+   "period": "yıllık",
+   "source_id": "malaga:kaynak:279",
+   "quote": "el 28 de febrero (Día de Andalucía), el 24 de marzo (Aniversario del Museo), el 18 de Mayo (Día Internacional de los Museos) y el 27 de septiembre (Día Internacional del Turismo)"
+  },
+  {
+   "claim_id": "C-pompidou-ve-thyssen-ucretsiz-giris-gunleri-11",
+   "field": "summary",
+   "claim": "Thyssen Noche en Blanco gibi kültürel etkinliklerde belirli saatlerde ücretsiz açılır",
+   "value": "",
+   "unit": "",
+   "period": "Mayıs",
+   "source_id": "malaga:kaynak:279",
+   "quote": "También, en eventos culturales como “La Noche en Blanco”, el Museo abre sus puertas de forma gratuita determinadas horas del día."
+  },
+  {
+   "claim_id": "C-pompidou-ve-thyssen-ucretsiz-giris-gunleri-12",
+   "field": "steps",
+   "claim": "Thyssen salı-pazar 10:00-20:00 arası açıktır",
+   "value": "10:00-20:00",
+   "unit": "saat",
+   "period": "",
+   "source_id": "malaga:kaynak:279",
+   "quote": "Martes a domingo: Abierto de 10.00 a 20.00 h."
+  },
+  {
+   "claim_id": "C-pompidou-ve-thyssen-ucretsiz-giris-gunleri-13",
+   "field": "note",
+   "claim": "Thyssen pazartesi kapalıdır (festivo pazartesiler hariç)",
+   "value": "pazartesi",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:279",
+   "quote": "Lunes cerrado (excepto lunes festivos)."
+  },
+  {
+   "claim_id": "C-pompidou-ve-thyssen-ucretsiz-giris-gunleri-14",
+   "field": "note",
+   "claim": "Pompidou 24 ve 31 Aralık'ta 15:00'e kadar açıktır",
+   "value": "15:00",
+   "unit": "saat",
+   "period": "24 ve 31 Aralık",
+   "source_id": "malaga:kaynak:277",
+   "quote": "Los días 24 y 31 de diciembre el centro permanecerá abierto hasta las 15:00 h."
+  }
+ ],
+ "adimlar": [],
+ "butonlar": [
+  {
+   "action_id": "malaga:action:pompidou-ve-thyssen-ucretsiz-giris-gunleri-1",
+   "label": "Tarifeyi gör",
+   "url": "https://centrepompidou-malaga.eu/visita/"
+  },
+  {
+   "action_id": "malaga:action:pompidou-ve-thyssen-ucretsiz-giris-gunleri-2",
+   "label": "Bilgi al",
+   "url": "https://www.carmenthyssenmalaga.org/faqs"
+  }
+ ]
+}
+
+===== KART 3/19: malaga:picasso-ve-thyssen-bilet-fiyati-indirim-ve-ucretsiz-kategoriler =====
+{
+ "entry_id": "malaga:picasso-ve-thyssen-bilet-fiyati-indirim-ve-ucretsiz-kategoriler",
+ "city_id": "malaga",
+ "slug": "picasso-ve-thyssen-bilet-fiyati-indirim-ve-ucretsiz-kategoriler",
+ "title": "Museo Picasso Málaga ve Museo Carmen Thyssen Málaga'nın bilet fiyatı ne kadar, kimler indirimli ya da ücretsiz girer?",
+ "subtitle": "Picasso 13 €, Thyssen 12 €; işsiz, UMA öğrencisi ve engelli ücretsiz; indirimli bilet 65 yaş üstü ve 26 yaş altı öğrenciye",
+ "summary": "Genel bilet Museo Picasso Málaga'da 13 € (indirimli 11 €), Museo Carmen Thyssen Málaga'da 12 € (arkeolojik alanla 15 €; indirimli 8 € ve 10 €). SEPE'ye (devlet iş kurumu) kayıtlı işsizler, Universidad de Málaga (UMA) öğrencileri ve engelliler iki müzeye de ücretsiz girer; Picasso'da engelli ziyaretçiyle bir refakatçi, öğretmenler, ICOM üyeleri ve gazeteciler de ücretsizdir. Thyssen'de engellilik oranı en az %33 olanlar ile Bellas Artes ve Historia del Arte öğretmen ve öğrencileri ücretsizdir. Çocuk eşiği Picasso'da 17, Thyssen'de 18 yaş altıdır; Thyssen'de 13 yaş altı çocuk yetişkinle girer.",
+ "keywords": "ücretsiz müze, işsiz, SEPE, UMA öğrencisi, engelli, Museo Picasso, Thyssen, reducida, tarifa gratuita",
+ "stages": "planning;new;settled",
+ "source_ids": "malaga:kaynak:275;malaga:kaynak:278",
+ "reviewed_on": "2026-10-27",
+ "order": 1202,
+ "featured": "Hayır",
+ "editorial_status": "Taslak",
+ "topic_id": "malaga:kesif",
+ "steps": "Hangi kategoride olduğunu belirle: işsiz, UMA öğrencisi, öğretmen, engelli, basın ya da ICOM üyesi.\nKategorini gösteren akreditasyon belgesini (ör. SEPE kaydı, UMA öğrenci kartı, engellilik belgesi) yanında götür; Thyssen ücretsizliği belgeyle (con acreditación) tanır.\nPicasso müzesi biletleri çevrimiçi satar; çevrimiçi tükenmişse bile yalnız yoğunluğun az olduğu anlarda kasadan da alınabilir.\nThyssen'de Málaga ili sakiniysen indirimli bilet (8 €, arkeolojik alanlı bilette 10 €) için bunu belgeyle göster.",
+ "documents": "Kategoriyi gösteren akreditasyon belgesi (işsizlik kaydı, öğrenci kartı ya da engellilik belgesi gibi)",
+ "timing": "Müze açık olduğu her gün; Thyssen tarifeleri 2026'dan itibaren geçerli",
+ "cost": "Ücretsiz (kategoriye göre); genel bilet Picasso 13 €, Thyssen 12 €",
+ "note": "Picasso'da indirimli bilet 65 yaş üstü, Avrupa Gençlik Kartı sahipleri ve 26 yaş altı öğrenciler içindir. Thyssen'de indirimli bilet 65 yaş üstü ve emekliler, 26 yaş altı öğrenciler, Carné Joven Euro sahipleri, Málaga ili sakinleri ve büyük aileler içindir.",
+ "visual_json": "",
+ "_sekme": "Yanıtlar",
+ "kaynaklar": [
+  {
+   "source_id": "malaga:kaynak:275",
+   "url": "https://www.museopicassomalaga.org/es/visita",
+   "publisher": "Museo Picasso Málaga (Fundación Paul, Christine y Bernard Ruiz-Picasso / Junta de Andalucía)",
+   "text_file": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\malaga\\_is\\snap_kesif_kesif\\80a945a7279ed8b509d1f082e8d8db7b04f4c20d954c9bff3bf86ec541d4564f.txt"
+  },
+  {
+   "source_id": "malaga:kaynak:278",
+   "url": "https://www.carmenthyssenmalaga.org/horarios-tarifas-ubicacion",
+   "publisher": "Museo Carmen Thyssen Málaga",
+   "text_file": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\malaga\\_is\\snap_kesif_kesif\\ce4b841d37f2321ee773faa1a0cb0820fa092c85cb84967d088343c2c799dbb4.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-picasso-ve-thyssen-bilet-fiyati-indirim-ve-ucretsiz-kategoriler-1",
+   "field": "summary",
+   "claim": "Museo Picasso: SEPE'ye kayıtlı işsizler ücretsiz",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:275",
+   "quote": "Desempleados inscritos en el SEPE"
+  },
+  {
+   "claim_id": "C-picasso-ve-thyssen-bilet-fiyati-indirim-ve-ucretsiz-kategoriler-2",
+   "field": "summary",
+   "claim": "Museo Picasso: UMA öğrencileri ücretsiz",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:275",
+   "quote": "Estudiantes de la Universidad de Málaga (UMA)"
+  },
+  {
+   "claim_id": "C-picasso-ve-thyssen-bilet-fiyati-indirim-ve-ucretsiz-kategoriler-3",
+   "field": "summary",
+   "claim": "Museo Picasso: 17 yaş altı ücretsiz",
+   "value": "17",
+   "unit": "yaş",
+   "period": "",
+   "source_id": "malaga:kaynak:275",
+   "quote": "Menores de 17 años"
+  },
+  {
+   "claim_id": "C-picasso-ve-thyssen-bilet-fiyati-indirim-ve-ucretsiz-kategoriler-4",
+   "field": "summary",
+   "claim": "Museo Picasso: engelli kişi ve bir refakatçisi ücretsiz",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:275",
+   "quote": "Personas con diversidad funcional (y un acompañante)"
+  },
+  {
+   "claim_id": "C-picasso-ve-thyssen-bilet-fiyati-indirim-ve-ucretsiz-kategoriler-5",
+   "field": "summary",
+   "claim": "Museo Picasso: öğretmenler ücretsiz",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:275",
+   "quote": "Docentes"
+  },
+  {
+   "claim_id": "C-picasso-ve-thyssen-bilet-fiyati-indirim-ve-ucretsiz-kategoriler-6",
+   "field": "summary",
+   "claim": "Museo Picasso: ICOM üyeleri ücretsiz",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:275",
+   "quote": "Miembros del ICOM"
+  },
+  {
+   "claim_id": "C-picasso-ve-thyssen-bilet-fiyati-indirim-ve-ucretsiz-kategoriler-7",
+   "field": "summary",
+   "claim": "Museo Picasso: gazeteciler ücretsiz",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:275",
+   "quote": "Periodistas"
+  },
+  {
+   "claim_id": "C-picasso-ve-thyssen-bilet-fiyati-indirim-ve-ucretsiz-kategoriler-8",
+   "field": "summary",
+   "claim": "Museo Picasso genel bilet 13 €, indirimli 11 €",
+   "value": "13; 11",
+   "unit": "EUR",
+   "period": "",
+   "source_id": "malaga:kaynak:275",
+   "quote": "13€ / Reducida 11€"
+  },
+  {
+   "claim_id": "C-picasso-ve-thyssen-bilet-fiyati-indirim-ve-ucretsiz-kategoriler-9",
+   "field": "note",
+   "claim": "Museo Picasso indirimli bilet: Avrupa Gençlik Kartı sahipleri",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:275",
+   "quote": "Titulares del Carné Joven Europeo"
+  },
+  {
+   "claim_id": "C-picasso-ve-thyssen-bilet-fiyati-indirim-ve-ucretsiz-kategoriler-10",
+   "field": "note",
+   "claim": "Museo Picasso indirimli bilet: 65 yaş üstü",
+   "value": "65",
+   "unit": "yaş",
+   "period": "",
+   "source_id": "malaga:kaynak:275",
+   "quote": "Mayores de 65 años"
+  },
+  {
+   "claim_id": "C-picasso-ve-thyssen-bilet-fiyati-indirim-ve-ucretsiz-kategoriler-11",
+   "field": "note",
+   "claim": "Museo Picasso indirimli bilet: 26 yaş altı öğrenciler",
+   "value": "26",
+   "unit": "yaş",
+   "period": "",
+   "source_id": "malaga:kaynak:275",
+   "quote": "Estudiantes menores de 26 años"
+  },
+  {
+   "claim_id": "C-picasso-ve-thyssen-bilet-fiyati-indirim-ve-ucretsiz-kategoriler-12",
+   "field": "summary",
+   "claim": "Thyssen: 18 yaş altı ve yetişkin eşliğinde 13 yaş altı ücretsiz",
+   "value": "18; 13",
+   "unit": "yaş",
+   "period": "",
+   "source_id": "malaga:kaynak:278",
+   "quote": "Menores de 18 años y menores de 13 acompañados"
+  },
+  {
+   "claim_id": "C-picasso-ve-thyssen-bilet-fiyati-indirim-ve-ucretsiz-kategoriler-13",
+   "field": "summary",
+   "claim": "Thyssen: engellilik oranı en az %33 olanlar ücretsiz",
+   "value": "33",
+   "unit": "%",
+   "period": "",
+   "source_id": "malaga:kaynak:278",
+   "quote": "Personas con discapacidad igual o superior al 33%"
+  },
+  {
+   "claim_id": "C-picasso-ve-thyssen-bilet-fiyati-indirim-ve-ucretsiz-kategoriler-14",
+   "field": "summary",
+   "claim": "Thyssen: SEPE'ye kayıtlı işsizler ücretsiz",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:278",
+   "quote": "Desempleados inscritos en el Servicio Público de Empleo Estatal"
+  },
+  {
+   "claim_id": "C-picasso-ve-thyssen-bilet-fiyati-indirim-ve-ucretsiz-kategoriler-15",
+   "field": "summary",
+   "claim": "Thyssen: UMA öğrencileri ücretsiz",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:278",
+   "quote": "Estudiantes de la Universidad de Málaga"
+  },
+  {
+   "claim_id": "C-picasso-ve-thyssen-bilet-fiyati-indirim-ve-ucretsiz-kategoriler-16",
+   "field": "summary",
+   "claim": "Thyssen: Bellas Artes / Historia del Arte öğretmen ve öğrencileri ücretsiz",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:278",
+   "quote": "Profesores y alumnos de enseñanza reglada en Bellas Artes o Historia del Arte"
+  },
+  {
+   "claim_id": "C-picasso-ve-thyssen-bilet-fiyati-indirim-ve-ucretsiz-kategoriler-17",
+   "field": "summary",
+   "claim": "Thyssen genel bilet 12 € (arkeolojik alanla 15 €)",
+   "value": "12; 15",
+   "unit": "EUR",
+   "period": "2026",
+   "source_id": "malaga:kaynak:278",
+   "quote": "12 € / 15 € con yacimiento"
+  },
+  {
+   "claim_id": "C-picasso-ve-thyssen-bilet-fiyati-indirim-ve-ucretsiz-kategoriler-18",
+   "field": "summary",
+   "claim": "Thyssen indirimli bilet 8 € (arkeolojik alanla 10 €)",
+   "value": "8; 10",
+   "unit": "EUR",
+   "period": "2026",
+   "source_id": "malaga:kaynak:278",
+   "quote": "8 € / 10 € con yacimiento"
+  },
+  {
+   "claim_id": "C-picasso-ve-thyssen-bilet-fiyati-indirim-ve-ucretsiz-kategoriler-19",
+   "field": "note",
+   "claim": "Thyssen indirimli bilet: Málaga ili sakinleri",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:278",
+   "quote": "Residentes en la provincia de Málaga"
+  },
+  {
+   "claim_id": "C-picasso-ve-thyssen-bilet-fiyati-indirim-ve-ucretsiz-kategoriler-20",
+   "field": "note",
+   "claim": "Thyssen indirimli bilet: 65 yaş üstü ve emekliler",
+   "value": "65",
+   "unit": "yaş",
+   "period": "",
+   "source_id": "malaga:kaynak:278",
+   "quote": "Mayores de 65 años y pensionistas"
+  },
+  {
+   "claim_id": "C-picasso-ve-thyssen-bilet-fiyati-indirim-ve-ucretsiz-kategoriler-21",
+   "field": "note",
+   "claim": "Thyssen indirimli bilet: büyük aileler",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:278",
+   "quote": "Familias numerosas"
+  },
+  {
+   "claim_id": "C-picasso-ve-thyssen-bilet-fiyati-indirim-ve-ucretsiz-kategoriler-22",
+   "field": "timing",
+   "claim": "Thyssen tarifeleri 2026'dan itibaren geçerli",
+   "value": "2026",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:278",
+   "quote": "Tarifas válidas a partir de 2026."
+  },
+  {
+   "claim_id": "C-picasso-ve-thyssen-bilet-fiyati-indirim-ve-ucretsiz-kategoriler-23",
+   "field": "steps",
+   "claim": "Thyssen ücretsiz tarife akreditasyonla (belgeyle) tanınır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:278",
+   "quote": "Tarifa gratuita (con acreditación):"
+  },
+  {
+   "claim_id": "C-picasso-ve-thyssen-bilet-fiyati-indirim-ve-ucretsiz-kategoriler-24",
+   "field": "steps",
+   "claim": "Picasso'da biletler çevrimiçi satılır; çevrimiçi tükenmişse yalnız yoğunluğun az olduğu anlarda kasadan da alınabilir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:275",
+   "quote": "Si están agotadas, en momentos de poca afluencia también se pueden adquirir en la taquilla del Museo."
+  }
+ ],
+ "adimlar": [],
+ "butonlar": [
+  {
+   "action_id": "malaga:action:picasso-ve-thyssen-bilet-fiyati-indirim-ve-ucretsiz-kategoriler-1",
+   "label": "Bilgi al",
+   "url": "https://www.museopicassomalaga.org/es/visita"
+  },
+  {
+   "action_id": "malaga:action:picasso-ve-thyssen-bilet-fiyati-indirim-ve-ucretsiz-kategoriler-2",
+   "label": "Tarifeyi gör",
+   "url": "https://www.carmenthyssenmalaga.org/horarios-tarifas-ubicacion"
+  }
+ ]
+}
+
+===== KART 4/19: malaga:pompidou-ve-casa-natal-bilet-fiyati-ortak-bilet-ve-ucretsiz-kategoriler =====
+{
+ "entry_id": "malaga:pompidou-ve-casa-natal-bilet-fiyati-ortak-bilet-ve-ucretsiz-kategoriler",
+ "city_id": "malaga",
+ "slug": "pompidou-ve-casa-natal-bilet-fiyati-ortak-bilet-ve-ucretsiz-kategoriler",
+ "title": "Centre Pompidou Málaga ve Museo Casa Natal Picasso'nun bilet fiyatı ne kadar, ortak bilet var mı, kimler ücretsiz girer?",
+ "subtitle": "Pompidou 9 €, Casa Natal 3 €; üç müzelik hafta bileti 16,50 €; işsiz, 18 yaş altı, gençlik kartı sahibi ve engelli ücretsiz",
+ "summary": "Centre Pompidou Málaga'nın yarı kalıcı ve geçici sergiyi birlikte kapsayan genel bileti 9 € (indirimli 5,50 €), yalnız yarı kalıcı sergi 7 €; Museo Casa Natal Picasso'nun genel bileti 3 € (indirimli 2 €). Casa Natal + Pompidou ikili ortak bileti (10 €, indirimli 6 €) Casa Natal sitesinde yalnız 8 kişilik gruplar için tarife bölümünde listelenir; bireysel ziyaret için Casa Natal, Pompidou ve Museo Ruso koleksiyonunu kapsayan, 1 hafta geçerli ortak bilet (Bono Arte Xperience) 16,50 € (indirimli 9,50 €) vardır. Resmen işsiz olanlar, 18 yaş altı, Carné Joven Euro sahipleri ve belgeli engelliler Pompidou'ya ücretsiz girer; Casa Natal'da liste benzerdir (gençlik kartında 30 yaş altı sınırı vardır); ek olarak belediye kütüphanesi üyeleri de ücretsiz girer.",
+ "keywords": "Pompidou Málaga ücretsiz, Casa Natal ücretsiz, Carné Joven, kütüphane üyeliği, işsiz, engelli, ücretsiz müze",
+ "stages": "planning;new;settled",
+ "source_ids": "malaga:kaynak:277;malaga:kaynak:282",
+ "reviewed_on": "2026-10-27",
+ "order": 1203,
+ "featured": "Hayır",
+ "editorial_status": "Taslak",
+ "topic_id": "malaga:kesif",
+ "steps": "Kategorini belirle: işsiz, 18 yaş altı, gençlik kartı, belediye kütüphanesi üyesi, engelli, öğretmen ya da öğrenci (sanat tarihi/güzel sanatlar).\nKategoriyi kanıtlayan belgeyi yanına al: Casa Natal ücretsizliği için kütüphane üyeliğini kartla (carnet) göstermen gerekir.\nEngelli ziyaretçiysen Casa Natal'da ziyaretini yapabilmen için zorunlu olan refakatçin de ücretsiz girer.\n13 yaş altı çocukla Casa Natal'a gidiyorsan çocuğun yanında bir yetişkin olsun.",
+ "documents": "Kategoriyi gösteren belge (işsizlik kaydı, gençlik kartı, kütüphane üyelik kartı, engellilik belgesi gibi)",
+ "timing": "Müze açık olduğu her gün",
+ "cost": "Pompidou yarı kalıcı + geçici genel 9 € (yalnız yarı kalıcı sergi 7 €), indirimli 5,50 €; Casa Natal 3 € (indirimli 2 €); üç müzelik Bono Arte Xperience 16,50 € (indirimli 9,50 €); kategoriye göre ücretsiz",
+ "note": "Çevrimiçi satın almada 0,30 € ek hizmet bedeli alınır. Casa Natal'da Avrupa Gençlik Kartı için üst yaş sınırı 30'dur; çocuk eşiği iki müzede de 18 yaş altıdır. İndirimli bilet Pompidou'da 65 yaş üstü, 26 yaşa kadar öğrenciler, büyük aileler ve Universidad etkinliklerine katılanlar için; Casa Natal'da büyük aileler, 65 yaş üstü, 26 yaşa kadar öğrenciler ve Universidad de Málaga kongre etkinliklerine katılanlar içindir.",
+ "visual_json": "",
+ "_sekme": "Yanıtlar",
+ "kaynaklar": [
+  {
+   "source_id": "malaga:kaynak:277",
+   "url": "https://centrepompidou-malaga.eu/visita/",
+   "publisher": "Centre Pompidou Málaga (Ayuntamiento de Málaga)",
+   "text_file": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\malaga\\_is\\snap_kesif_kesif\\d6e99290d199995f0872dfa840cc96e15d9bc02e45fdf5a9758246ed6fdf1d2b.txt"
+  },
+  {
+   "source_id": "malaga:kaynak:282",
+   "url": "https://museocasanatalpicasso.malaga.eu/Visita/horarios-y-tarifas/",
+   "publisher": "Ayuntamiento de Málaga - Fundación Picasso",
+   "text_file": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\malaga\\_is\\snap_kesif_kesif\\4046aada68eb76bec319483746d555173f2632886b15f363d1b5a5887be26d50.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-pompidou-ve-casa-natal-bilet-fiyati-ortak-bilet-ve-ucretsiz-kategoriler-1",
+   "field": "summary",
+   "claim": "Pompidou: resmen işsizler, 18 yaş altı ve Carné Joven Euro sahipleri ücretsiz",
+   "value": "18",
+   "unit": "yaş",
+   "period": "",
+   "source_id": "malaga:kaynak:277",
+   "quote": "personas en situación oficial de desempleo, menores de 18 años, poseedores del carnet joven euro"
+  },
+  {
+   "claim_id": "C-pompidou-ve-casa-natal-bilet-fiyati-ortak-bilet-ve-ucretsiz-kategoriler-2",
+   "field": "summary",
+   "claim": "Pompidou: belgeli engelliler ücretsiz",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:277",
+   "quote": "personas discapacitadas con acreditación"
+  },
+  {
+   "claim_id": "C-pompidou-ve-casa-natal-bilet-fiyati-ortak-bilet-ve-ucretsiz-kategoriler-3",
+   "field": "summary",
+   "claim": "Pompidou: sanat tarihi ve güzel sanatlar üniversite öğretmen ve öğrencileri ücretsiz",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:277",
+   "quote": "profesorado universitario de Historia del Arte y Bellas Artes, alumnos universitarios de Historia del Arte y Bellas Artes"
+  },
+  {
+   "claim_id": "C-pompidou-ve-casa-natal-bilet-fiyati-ortak-bilet-ve-ucretsiz-kategoriler-4",
+   "field": "summary",
+   "claim": "Pompidou: müze çalışanları, ICOM üyeleri, resmî rehberler ve basın kartlıları ücretsiz",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:277",
+   "quote": "empleados de museos y miembros del ICOM, guías turísticos con acreditación oficial, poseedores de carné de prensa"
+  },
+  {
+   "claim_id": "C-pompidou-ve-casa-natal-bilet-fiyati-ortak-bilet-ve-ucretsiz-kategoriler-5",
+   "field": "summary",
+   "claim": "Casa Natal: 18 yaş altı ücretsiz, 13 yaş altı yetişkinle",
+   "value": "18; 13",
+   "unit": "yaş",
+   "period": "",
+   "source_id": "malaga:kaynak:282",
+   "quote": "Menores de 18 años (los menores de 13 años deben ir acompañados por un adulto)"
+  },
+  {
+   "claim_id": "C-pompidou-ve-casa-natal-bilet-fiyati-ortak-bilet-ve-ucretsiz-kategoriler-6",
+   "field": "summary",
+   "claim": "Casa Natal: 30 yaş altı Avrupa Gençlik Kartı sahipleri ücretsiz",
+   "value": "30",
+   "unit": "yaş",
+   "period": "",
+   "source_id": "malaga:kaynak:282",
+   "quote": "Poseedores del carnet joven europeo (menores de 30 años)"
+  },
+  {
+   "claim_id": "C-pompidou-ve-casa-natal-bilet-fiyati-ortak-bilet-ve-ucretsiz-kategoriler-7",
+   "field": "summary",
+   "claim": "Casa Natal: Málaga belediye kütüphanesi üyeleri kartla ücretsiz",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:282",
+   "quote": "Socios de las bibliotecas municipales de Málaga, acreditados con carnet"
+  },
+  {
+   "claim_id": "C-pompidou-ve-casa-natal-bilet-fiyati-ortak-bilet-ve-ucretsiz-kategoriler-8",
+   "field": "summary",
+   "claim": "Casa Natal: resmen işsizler ücretsiz",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:282",
+   "quote": "Personas en situación oficial de desempleo"
+  },
+  {
+   "claim_id": "C-pompidou-ve-casa-natal-bilet-fiyati-ortak-bilet-ve-ucretsiz-kategoriler-9",
+   "field": "summary",
+   "claim": "Casa Natal: engelli kişinin zorunlu refakatçisi de ücretsiz",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:282",
+   "quote": "También podrá acceder al museo de forma gratuita la persona que lo acompañe, siempre y cuando ésta sea imprescindible para que pueda realizar su visita"
+  },
+  {
+   "claim_id": "C-pompidou-ve-casa-natal-bilet-fiyati-ortak-bilet-ve-ucretsiz-kategoriler-10",
+   "field": "summary",
+   "claim": "Casa Natal: sanat tarihi/güzel sanatlar öğretmen ve öğrencileri ücretsiz",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:282",
+   "quote": "Docentes y estudiantes universitarios de Historia del Arte y Bellas Artes, acreditados"
+  },
+  {
+   "claim_id": "C-pompidou-ve-casa-natal-bilet-fiyati-ortak-bilet-ve-ucretsiz-kategoriler-11",
+   "field": "cost",
+   "claim": "Pompidou yarı kalıcı ve geçici sergiyi birlikte kapsayan genel bilet 9 €, indirimli 5,50 €",
+   "value": "9;5,50",
+   "unit": "EUR",
+   "period": "2026",
+   "source_id": "malaga:kaynak:277",
+   "quote": "Combinada (semipermanente + temporal)"
+  },
+  {
+   "claim_id": "C-pompidou-ve-casa-natal-bilet-fiyati-ortak-bilet-ve-ucretsiz-kategoriler-12",
+   "field": "cost",
+   "claim": "Pompidou yalnız yarı kalıcı sergi genel 7 €, indirimli 4 €",
+   "value": "7;4",
+   "unit": "EUR",
+   "period": "2026",
+   "source_id": "malaga:kaynak:277",
+   "quote": "Exposición semipermanente 7 € 4 €"
+  },
+  {
+   "claim_id": "C-pompidou-ve-casa-natal-bilet-fiyati-ortak-bilet-ve-ucretsiz-kategoriler-13",
+   "field": "note",
+   "claim": "Pompidou çevrimiçi bilette 0,30 € ek hizmet bedeli",
+   "value": "0,30",
+   "unit": "EUR",
+   "period": "",
+   "source_id": "malaga:kaynak:277",
+   "quote": "Conlleva un cargo de gestión adicional de 0,30 €"
+  },
+  {
+   "claim_id": "C-pompidou-ve-casa-natal-bilet-fiyati-ortak-bilet-ve-ucretsiz-kategoriler-14",
+   "field": "note",
+   "claim": "Pompidou indirimli bilet: 65 yaş üstü, 26 yaşa kadar öğrenciler, büyük aileler ve Universidad etkinliklerine katılanlar",
+   "value": "65;26",
+   "unit": "yaş",
+   "period": "",
+   "source_id": "malaga:kaynak:277",
+   "quote": "La entrada reducida se aplica a mayores de 65 años, estudiantes de hasta 26 años, familias numerosas y participantes en las actividades congresuales realizadas por la Universidad."
+  },
+  {
+   "claim_id": "C-pompidou-ve-casa-natal-bilet-fiyati-ortak-bilet-ve-ucretsiz-kategoriler-15",
+   "field": "cost",
+   "claim": "Casa Natal genel bilet 3 €",
+   "value": "3",
+   "unit": "EUR",
+   "period": "",
+   "source_id": "malaga:kaynak:282",
+   "quote": "Museo Casa Natal (Plaza de la Merced,15): 3 €"
+  },
+  {
+   "claim_id": "C-pompidou-ve-casa-natal-bilet-fiyati-ortak-bilet-ve-ucretsiz-kategoriler-16",
+   "field": "cost",
+   "claim": "Casa Natal indirimli bilet 2 €",
+   "value": "2",
+   "unit": "EUR",
+   "period": "",
+   "source_id": "malaga:kaynak:282",
+   "quote": "Museo Casa Natal (Plaza de la Merced, 15): 2 €"
+  },
+  {
+   "claim_id": "C-pompidou-ve-casa-natal-bilet-fiyati-ortak-bilet-ve-ucretsiz-kategoriler-17",
+   "field": "cost",
+   "claim": "Casa Natal + Pompidou ikili ortak bilet genel 10 €, indirimli 6 €; Casa Natal sitesinde 8 kişilik grup tarifesi bölümünde listelenir",
+   "value": "10;6",
+   "unit": "EUR",
+   "period": "",
+   "source_id": "malaga:kaynak:282",
+   "quote": "Entrada conjunta Museo Casa Natal + Centre Pompidou Málaga. General: 10 €. Reducida: 6 €"
+  },
+  {
+   "claim_id": "C-pompidou-ve-casa-natal-bilet-fiyati-ortak-bilet-ve-ucretsiz-kategoriler-18",
+   "field": "cost",
+   "claim": "Casa Natal + Pompidou + Museo Ruso ortak bilet genel 16,50 €, indirimli 9,50 €",
+   "value": "16,50;9,50",
+   "unit": "EUR",
+   "period": "",
+   "source_id": "malaga:kaynak:282",
+   "quote": "Entrada conjunta Museo Casa Natal + Centre Pompidou Málaga + Colección del Museo Ruso. General: 16,50 €. Reducida: 9,50 €"
+  },
+  {
+   "claim_id": "C-pompidou-ve-casa-natal-bilet-fiyati-ortak-bilet-ve-ucretsiz-kategoriler-19",
+   "field": "cost",
+   "claim": "Üçlü ortak bilet (Bono Arte Xperience) 1 hafta boyunca geçerlidir",
+   "value": "1",
+   "unit": "hafta",
+   "period": "Bono Arte Xperience",
+   "source_id": "malaga:kaynak:277",
+   "quote": "Bono Arte Xperience (3 museos durante 1 semana)"
+  },
+  {
+   "claim_id": "C-pompidou-ve-casa-natal-bilet-fiyati-ortak-bilet-ve-ucretsiz-kategoriler-20",
+   "field": "note",
+   "claim": "Casa Natal'da indirimli bilet büyük aileler, 65 yaş üstü, 26 yaşa kadar öğrenciler ve Universidad de Málaga kongre katılımcıları içindir",
+   "value": "65; 26",
+   "unit": "yaş",
+   "period": "",
+   "source_id": "malaga:kaynak:282",
+   "quote": "Pueden acogerse a la tarifa reducida miembros de familias numerosas acreditadas, según dispone la Ley 40/2003, mayores de 65 años, estudiantes hasta 26 años y participantes en las actividades congresuales de la Universidad de Málaga."
+  },
+  {
+   "claim_id": "C-pompidou-ve-casa-natal-bilet-fiyati-ortak-bilet-ve-ucretsiz-kategoriler-21",
+   "field": "summary",
+   "claim": "Casa Natal + Pompidou ikili ortak bileti, Casa Natal sitesinde 8 kişilik gruplar için tarife bölümünde listelenir",
+   "value": "8",
+   "unit": "kişi",
+   "period": "",
+   "source_id": "malaga:kaynak:282",
+   "quote": "Estrictamente para grupos de 8 personas."
+  },
+  {
+   "claim_id": "C-pompidou-ve-casa-natal-bilet-fiyati-ortak-bilet-ve-ucretsiz-kategoriler-22",
+   "field": "cost",
+   "claim": "Bireysel ziyaret: Bono Arte Xperience (3 müze, 1 hafta) genel 16,50 €, indirimli 9,50 €",
+   "value": "16,50;9,50",
+   "unit": "EUR",
+   "period": "2026",
+   "source_id": "malaga:kaynak:277",
+   "quote": "Bono Arte Xperience (3 museos durante 1 semana)"
+  }
+ ],
+ "adimlar": [],
+ "butonlar": [
+  {
+   "action_id": "malaga:action:pompidou-ve-casa-natal-bilet-fiyati-ortak-bilet-ve-ucretsiz-kategoriler-1",
+   "label": "Tarifeyi gör",
+   "url": "https://centrepompidou-malaga.eu/visita/"
+  },
+  {
+   "action_id": "malaga:action:pompidou-ve-casa-natal-bilet-fiyati-ortak-bilet-ve-ucretsiz-kategoriler-2",
+   "label": "Tarifeyi gör",
+   "url": "https://museocasanatalpicasso.malaga.eu/Visita/horarios-y-tarifas/"
+  }
+ ]
+}
+
+===== KART 5/19: malaga:alcazaba-ve-gibralfaro-bilet-fiyati-indirim-ve-pazar-ucretsiz-giris =====
+{
+ "entry_id": "malaga:alcazaba-ve-gibralfaro-bilet-fiyati-indirim-ve-pazar-ucretsiz-giris",
+ "city_id": "malaga",
+ "slug": "alcazaba-ve-gibralfaro-bilet-fiyati-indirim-ve-pazar-ucretsiz-giris",
+ "title": "Alcazaba ve Gibralfaro Kalesi'ne ücretsiz girmenin ya da indirimli bilet almanın yolu var mı?",
+ "subtitle": "Pazar 14:00'ten sonra herkese ücretsiz; genel bilet 7 €, Alcazaba + Gibralfaro ortak bilet 10 €",
+ "summary": "Evet: Málaga Belediyesi şu anda her pazar 14:00'ten itibaren tüm ziyaretçilere ücretsiz giriş veriyor (gün ve saati belediyenin Kültür ve Tarihî Miras Alanı belirler). Diğer zamanlarda genel bilet 7 €, Alcazaba + Gibralfaro Kalesi ortak bileti 10 €; indirimli bilet 3 € (ortak 5 €). 65 yaş üstü, emekli ya da yasal işsiz olmak ve öğrenci olmak indirimi \"AB vatandaşları\" için tanımlanmış; Avrupa Gençlik Kartı, %33 ve üzeri engellilik ve büyük aile kartı da indirim sağlar. 6 yaşından küçükler ücretsiz girer.",
+ "keywords": "Alcazaba, Gibralfaro, ücretsiz pazar, bilet fiyatı, ortak bilet, indirimli giriş, Málaga kale",
+ "stages": "planning;new;settled",
+ "source_ids": "malaga:kaynak:276",
+ "reviewed_on": "2026-10-27",
+ "order": 1204,
+ "featured": "Hayır",
+ "editorial_status": "Taslak",
+ "topic_id": "malaga:kesif",
+ "steps": "Ücretsiz girmek istiyorsan pazar günü 14:00'ten sonra git; son giriş (último pase) kapanıştan bir saat önce.\nİki yapıyı da gezeceksen 10 €'luk ortak bileti seç.\nİndirim için kategoriyi kanıtlayan belgeni götür (gençlik kartı, engellilik belgesi, büyük aile kartı; 65 yaş üstü, emekli, işsiz ve öğrenci indirimi AB vatandaşları için).\nKış tarifesinde (1 Kasım-31 Mart) 9:00-18:00, yaz tarifesinde (1 Nisan-31 Ekim) 9:00-20:00 arasında git.",
+ "documents": "İndirimli giriş için kategoriyi gösteren belge",
+ "timing": "Kış 1 Kasım-31 Mart 9:00-18:00; yaz 1 Nisan-31 Ekim 9:00-20:00; son giriş kapanıştan 1 saat önce",
+ "cost": "Genel 7 €; Alcazaba + Gibralfaro ortak 10 €; indirimli 3 € (ortak 5 €); pazar 14:00'ten sonra ve 6 yaş altı ücretsiz",
+ "note": "Grup tarifesi (en az 10 kişi) 5 €, ortak grup tarifesi 8 €.",
+ "visual_json": "",
+ "_sekme": "Yanıtlar",
+ "kaynaklar": [
+  {
+   "source_id": "malaga:kaynak:276",
+   "url": "https://alcazabaygibralfaro.malaga.eu/es/visitas/horarios-y-tarifas/",
+   "publisher": "Ayuntamiento de Málaga - Alcazaba y Castillo de Gibralfaro",
+   "text_file": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\malaga\\_is\\snap_kesif_kesif\\843353ab808c4e4b29f508db779bf706c4e70b31c7256a3a00512d30f87e6e62.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-alcazaba-ve-gibralfaro-bilet-fiyati-indirim-ve-pazar-ucretsiz-giris-1",
+   "field": "timing",
+   "claim": "Kış: 1 Kasım-31 Mart 9:00-18:00, son giriş 17:00",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:276",
+   "quote": "Invierno: Del 1 noviembre al 31 de marzo de 9:00 a 18:00 (último pase a las 17.00)"
+  },
+  {
+   "claim_id": "C-alcazaba-ve-gibralfaro-bilet-fiyati-indirim-ve-pazar-ucretsiz-giris-2",
+   "field": "timing",
+   "claim": "Yaz: 1 Nisan-31 Ekim 9:00-20:00, son giriş 19:00",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:276",
+   "quote": "Verano: Del 1 abril al 31 de octubre de 09:00 a 20:00 (último pase a las 19.00)"
+  },
+  {
+   "claim_id": "C-alcazaba-ve-gibralfaro-bilet-fiyati-indirim-ve-pazar-ucretsiz-giris-3",
+   "field": "steps",
+   "claim": "Son giriş kapanıştan bir saat önce",
+   "value": "1",
+   "unit": "saat",
+   "period": "",
+   "source_id": "malaga:kaynak:276",
+   "quote": "El último pase será una hora antes de la hora de cierre."
+  },
+  {
+   "claim_id": "C-alcazaba-ve-gibralfaro-bilet-fiyati-indirim-ve-pazar-ucretsiz-giris-4",
+   "field": "cost",
+   "claim": "Genel bilet 7 €, Alcazaba + Gibralfaro ortak bilet 10 €",
+   "value": "7;10",
+   "unit": "EUR",
+   "period": "",
+   "source_id": "malaga:kaynak:276",
+   "quote": "GENERAL 7,00 € CONJUNTA (Alcazaba + Castillo de Gibralfaro) 10,00 €"
+  },
+  {
+   "claim_id": "C-alcazaba-ve-gibralfaro-bilet-fiyati-indirim-ve-pazar-ucretsiz-giris-5",
+   "field": "cost",
+   "claim": "İndirimli bilet 3 €, indirimli ortak bilet 5 €",
+   "value": "3;5",
+   "unit": "EUR",
+   "period": "",
+   "source_id": "malaga:kaynak:276",
+   "quote": "REDUCIDA 3,00 € REDUCIDA CONJUNTA (Alcazaba y Castillo de Gibralfaro) 5,00 €"
+  },
+  {
+   "claim_id": "C-alcazaba-ve-gibralfaro-bilet-fiyati-indirim-ve-pazar-ucretsiz-giris-6",
+   "field": "note",
+   "claim": "Grup tarifesi (en az 10 kişi) 5 €, ortak grup tarifesi 8 €",
+   "value": "5;8;10",
+   "unit": "EUR;kişi",
+   "period": "",
+   "source_id": "malaga:kaynak:276",
+   "quote": "GRUPOS (Min. 10 pax.) 5,00 € GRUPOS CONJUNTA (Alcazaba y Castillo de Gibralfaro) 8,00 €"
+  },
+  {
+   "claim_id": "C-alcazaba-ve-gibralfaro-bilet-fiyati-indirim-ve-pazar-ucretsiz-giris-7",
+   "field": "summary",
+   "claim": "65 yaş üstü AB vatandaşları, emekliler ve yasal işsizler indirimli bilet alır",
+   "value": "65",
+   "unit": "yaş",
+   "period": "",
+   "source_id": "malaga:kaynak:276",
+   "quote": "Ciudadanos de la UE mayores de 65 años, jubilados/as o en situación legal de desempleo."
+  },
+  {
+   "claim_id": "C-alcazaba-ve-gibralfaro-bilet-fiyati-indirim-ve-pazar-ucretsiz-giris-8",
+   "field": "summary",
+   "claim": "AB vatandaşı olan ve öğrenci olduğunu kanıtlayanlar indirimli bilet alır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:276",
+   "quote": "Ciudadanos de la UE que acrediten su condición de estudiantes."
+  },
+  {
+   "claim_id": "C-alcazaba-ve-gibralfaro-bilet-fiyati-indirim-ve-pazar-ucretsiz-giris-9",
+   "field": "summary",
+   "claim": "%33 ve üzeri engelliler ile büyük aile kartı sahipleri indirimli bilet alır",
+   "value": "33",
+   "unit": "%",
+   "period": "",
+   "source_id": "malaga:kaynak:276",
+   "quote": "Personas con discapacidad igual o superior al 33%. Titulares del carnet de familia numerosa."
+  },
+  {
+   "claim_id": "C-alcazaba-ve-gibralfaro-bilet-fiyati-indirim-ve-pazar-ucretsiz-giris-10",
+   "field": "summary",
+   "claim": "Avrupa Gençlik Kartı sahipleri indirimli bilet alır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:276",
+   "quote": "Titulares del carnet joven europeo."
+  },
+  {
+   "claim_id": "C-alcazaba-ve-gibralfaro-bilet-fiyati-indirim-ve-pazar-ucretsiz-giris-11",
+   "field": "summary",
+   "claim": "6 yaşından küçükler ücretsiz girer",
+   "value": "6",
+   "unit": "yaş",
+   "period": "",
+   "source_id": "malaga:kaynak:276",
+   "quote": "Personas menores de 6 años."
+  },
+  {
+   "claim_id": "C-alcazaba-ve-gibralfaro-bilet-fiyati-indirim-ve-pazar-ucretsiz-giris-12",
+   "field": "summary",
+   "claim": "Tüm ziyaretçilere ücretsiz gün ve saati belediyenin Kültür ve Tarihî Miras Alanı belirler; şu anda her pazar 14:00'ten sonra",
+   "value": "14:00",
+   "unit": "saat",
+   "period": "",
+   "source_id": "malaga:kaynak:276",
+   "quote": "Todos los visitantes en el día de la semana y en el horario de visita pública que determine el Área de Cultura y Patrimonio Histórico. Actualmente: todos los domingos a partir de las 14:00."
+  }
+ ],
+ "adimlar": [],
+ "butonlar": [
+  {
+   "action_id": "malaga:action:alcazaba-ve-gibralfaro-bilet-fiyati-indirim-ve-pazar-ucretsiz-giris-1",
+   "label": "Tarifeyi gör",
+   "url": "https://alcazabaygibralfaro.malaga.eu/es/visitas/horarios-y-tarifas/"
+  }
+ ]
+}
+
+===== KART 6/19: malaga:museo-de-malaga-ve-teatro-romano-ab-vatandasi-ucretsiz-giris-ve-ab-disi-ucret =====
+{
+ "entry_id": "malaga:museo-de-malaga-ve-teatro-romano-ab-vatandasi-ucretsiz-giris-ve-ab-disi-ucret",
+ "city_id": "malaga",
+ "slug": "museo-de-malaga-ve-teatro-romano-ab-vatandasi-ucretsiz-giris-ve-ab-disi-ucret",
+ "title": "Museo de Málaga ve Roma Tiyatrosu'na ücretsiz girilir mi, AB vatandaşı olmayanlar ne öder?",
+ "subtitle": "Roma Tiyatrosu herkese ücretsiz; Museo de Málaga AB vatandaşlarına ücretsiz, diğer uyruklara 1,50 €",
+ "summary": "Roma Tiyatrosu'na (Teatro Romano) herkes ücretsiz girer, rezervasyon gerekmez; giriş kapasiteye kadar serbesttir. Museo de Málaga'ya (Junta de Andalucía) belgeli AB vatandaşları ücretsiz girer, diğer uyruklar 1,50 € öder. Museo de Málaga salı-cumartesi 9:00-21:00, pazar ve çoğu resmî tatilde 9:00-15:00 açıktır; pazartesi kapalıdır (tatil arifesine denk gelen pazartesiler tatil saatiyle açıktır). 1 ve 6 Ocak, 1 Mayıs, 24, 25 ve 31 Aralık günleri müze kapalıdır. Roma Tiyatrosu salı-cumartesi 10:00-18:00, pazar ve tatillerde 10:00-16:00 açıktır; kapalı günler dışındaki ulusal, bölgesel ve yerel tatillerde açılış için tiyatroya e-postayla sorulur.",
+ "keywords": "Museo de Málaga, Teatro Romano, ücretsiz müze, AB vatandaşı, 1,50 euro, Alcazabilla, Plaza Aduana",
+ "stages": "planning;new;settled",
+ "source_ids": "malaga:kaynak:280;malaga:kaynak:281",
+ "reviewed_on": "2026-10-27",
+ "order": 1205,
+ "featured": "Evet",
+ "editorial_status": "Taslak",
+ "topic_id": "malaga:kesif",
+ "steps": "Roma Tiyatrosu için Calle Alcazabilla'ya git; kapanıştan önceki son 30 dakikada içeri alınmazsın, bu yüzden en geç kapanıştan yarım saat önce gel.\nMuseo de Málaga için Plaza Aduana'ya git ve AB vatandaşı değilsen gişede 1,50 € öde.\nGrupla gidiyorsan (en az 10, en çok 30 kişi) Museo de Málaga ziyaretlerinin rehberli olmadığını bil.\nRoma Tiyatrosu'nda hayvanla giremezsin; yalnız engelli kişilerin asistan köpekleri alınır.",
+ "documents": "AB vatandaşlığını gösteren belge (Museo de Málaga ücretsiz girişi için)",
+ "timing": "Museo de Málaga: salı-cumartesi 9:00-21:00, pazar ve çoğu tatil 9:00-15:00 (1 ve 6 Ocak, 1 Mayıs, 24, 25 ve 31 Aralık kapalı); Roma Tiyatrosu: salı-cumartesi 10:00-18:00, pazar ve tatil 10:00-16:00",
+ "cost": "Roma Tiyatrosu ücretsiz; Museo de Málaga AB vatandaşlarına ücretsiz, diğer uyruklara 1,50 €",
+ "note": "Museo de Málaga ve Roma Tiyatrosu 1 ve 6 Ocak, 1 Mayıs, 24, 25 ve 31 Aralık günleri kapalıdır; Roma Tiyatrosu aşırı sıcak uyarılarında (AEMET turuncu ve kırmızı) halka kapatılabilir.",
+ "visual_json": "",
+ "_sekme": "Yanıtlar",
+ "kaynaklar": [
+  {
+   "source_id": "malaga:kaynak:280",
+   "url": "https://www.museosdeandalucia.es/web/museodemalaga/informacion-general",
+   "publisher": "Junta de Andalucía - Museos de Andalucía",
+   "text_file": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\malaga\\_is\\snap_kesif_kesif\\273b5cfb9a1f776d083256f08145f8324d5911879fad54b9a96084878d73e575.txt"
+  },
+  {
+   "source_id": "malaga:kaynak:281",
+   "url": "https://www.juntadeandalucia.es/aaiicc/enclaves/enclave-arqueologico-teatro-romano-de-malaga",
+   "publisher": "Junta de Andalucía - Agencia Andaluza de Instituciones Culturales",
+   "text_file": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\malaga\\_is\\snap_kesif_kesif\\f3248e2080a983b9399c24d36864353d9d114d484707b78237057d3b80f534de.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-museo-de-malaga-ve-teatro-romano-ab-vatandasi-ucretsiz-giris-ve-ab-disi-ucret-1",
+   "field": "cost",
+   "claim": "Roma Tiyatrosu giriş ücretsiz, kapasiteye kadar",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:281",
+   "quote": "precio: Gratuito. Acceso permitido hasta límite de aforo por seguridad de visitantes y estructuras."
+  },
+  {
+   "claim_id": "C-museo-de-malaga-ve-teatro-romano-ab-vatandasi-ucretsiz-giris-ve-ab-disi-ucret-2",
+   "field": "timing",
+   "claim": "Roma Tiyatrosu salı-cumartesi 10:00-18:00, pazar ve tatil 10:00-16:00",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:281",
+   "quote": "De martes a sábado de 10:00 a 18:00 h. Domingos y festivos de 10:00 a 16:00 h."
+  },
+  {
+   "claim_id": "C-museo-de-malaga-ve-teatro-romano-ab-vatandasi-ucretsiz-giris-ve-ab-disi-ucret-3",
+   "field": "summary",
+   "claim": "Roma Tiyatrosu serbest ziyaret için rezervasyon gerekmez",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:281",
+   "quote": "No es necesario reservar entrada para la visita libre."
+  },
+  {
+   "claim_id": "C-museo-de-malaga-ve-teatro-romano-ab-vatandasi-ucretsiz-giris-ve-ab-disi-ucret-4",
+   "field": "steps",
+   "claim": "Kapanıştan önceki 30 dakikada Roma Tiyatrosu'na giriş kabul edilmez",
+   "value": "30",
+   "unit": "dakika",
+   "period": "",
+   "source_id": "malaga:kaynak:281",
+   "quote": "No se permitirá el acceso de los visitantes al enclave en los 30 minutos previos al cierre."
+  },
+  {
+   "claim_id": "C-museo-de-malaga-ve-teatro-romano-ab-vatandasi-ucretsiz-giris-ve-ab-disi-ucret-5",
+   "field": "steps",
+   "claim": "Roma Tiyatrosu'na hayvanla giriş yasak, asistan köpekler hariç",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:281",
+   "quote": "no está permitida la entrada con animales, a excepción de los perros de asistencia"
+  },
+  {
+   "claim_id": "C-museo-de-malaga-ve-teatro-romano-ab-vatandasi-ucretsiz-giris-ve-ab-disi-ucret-6",
+   "field": "note",
+   "claim": "Roma Tiyatrosu 1-6 Ocak, 1 Mayıs, 24-25-31 Aralık kapalıdır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:281",
+   "quote": "Cerrado: 1 y 6 de enero, 1 de mayo, 24, 25 y 31 de diciembre."
+  },
+  {
+   "claim_id": "C-museo-de-malaga-ve-teatro-romano-ab-vatandasi-ucretsiz-giris-ve-ab-disi-ucret-7",
+   "field": "note",
+   "claim": "Aşırı sıcak uyarılarında Roma Tiyatrosu halka kapatılabilir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:281",
+   "quote": "este enclave podrá cerrar sus puertas al público ante episodios de temperaturas excesivas"
+  },
+  {
+   "claim_id": "C-museo-de-malaga-ve-teatro-romano-ab-vatandasi-ucretsiz-giris-ve-ab-disi-ucret-8",
+   "field": "summary",
+   "claim": "Museo de Málaga: belgeli AB vatandaşlarına ücretsiz, diğer uyruklara 1,50 €",
+   "value": "1,50",
+   "unit": "EUR",
+   "period": "",
+   "source_id": "malaga:kaynak:280",
+   "quote": "Ciudadanos de la UE acreditados: gratuita. Otras nacionalidades: 1,50 euros."
+  },
+  {
+   "claim_id": "C-museo-de-malaga-ve-teatro-romano-ab-vatandasi-ucretsiz-giris-ve-ab-disi-ucret-9",
+   "field": "timing",
+   "claim": "Museo de Málaga salı-cumartesi 9:00-21:00, pazar ve çoğu tatilde 9:00-15:00, pazartesi kapalı (arife pazartesileri açık); 1-6 Ocak, 1 Mayıs, 24-25-31 Aralık kapalı",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:280",
+   "quote": "Excepto los lunes víspera de festivo, que abre con horario de festivo. Cerrado 1 y 6 de enero, 1 de mayo y 24, 25 y 31 de diciembre."
+  },
+  {
+   "claim_id": "C-museo-de-malaga-ve-teatro-romano-ab-vatandasi-ucretsiz-giris-ve-ab-disi-ucret-10",
+   "field": "steps",
+   "claim": "Museo de Málaga adresi Plaza Aduana s/n, 29015 Málaga",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:280",
+   "quote": "Dirección: Plaza Aduana s/n, 29015 Málaga"
+  },
+  {
+   "claim_id": "C-museo-de-malaga-ve-teatro-romano-ab-vatandasi-ucretsiz-giris-ve-ab-disi-ucret-11",
+   "field": "steps",
+   "claim": "Museo de Málaga'da grup en az 10, en çok 30 kişi; ziyaretler rehberli değil",
+   "value": "10;30",
+   "unit": "kişi",
+   "period": "",
+   "source_id": "malaga:kaynak:280",
+   "quote": "Se considerará grupo a partir de 10 personas. El número máximo por grupo será de 30 personas."
+  },
+  {
+   "claim_id": "C-museo-de-malaga-ve-teatro-romano-ab-vatandasi-ucretsiz-giris-ve-ab-disi-ucret-12",
+   "field": "steps",
+   "claim": "Museo de Málaga ziyaretleri rehberli değildir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:280",
+   "quote": "Las visitas no son guiadas."
+  }
+ ],
+ "adimlar": [],
+ "butonlar": [
+  {
+   "action_id": "malaga:action:museo-de-malaga-ve-teatro-romano-ab-vatandasi-ucretsiz-giris-ve-ab-disi-ucret-1",
+   "label": "Bilgi al",
+   "url": "https://www.museosdeandalucia.es/web/museodemalaga/informacion-general"
+  },
+  {
+   "action_id": "malaga:action:museo-de-malaga-ve-teatro-romano-ab-vatandasi-ucretsiz-giris-ve-ab-disi-ucret-2",
+   "label": "Bilgi al",
+   "url": "https://www.juntadeandalucia.es/aaiicc/enclaves/enclave-arqueologico-teatro-romano-de-malaga"
+  }
+ ]
+}
+
+===== KART 7/19: malaga:malaga-katedrali-bilet-turleri-malagali-ucretsiz-giris-ve-saatler =====
+{
+ "entry_id": "malaga:malaga-katedrali-bilet-turleri-malagali-ucretsiz-giris-ve-saatler",
+ "city_id": "malaga",
+ "slug": "malaga-katedrali-bilet-turleri-malagali-ucretsiz-giris-ve-saatler",
+ "title": "Málaga Katedrali'ne Málaga sakini olarak ücretsiz girer misin, bilet türleri ve saatler neler?",
+ "subtitle": "Genel 10 €; Málaga sakini, engelli ve 13 yaş altı ücretsiz (sesli rehbersiz); gişede ve çevrimiçi aynı fiyat",
+ "summary": "Evet: Málaga'da oturanlar, farklı yetenekleri olan kişiler ve 13 yaşından küçükler Katedral'e ücretsiz girer; bu bilet sesli rehberi içermez ve yalnız Katedral için geçerlidir. Diğerleri için sesli rehber dahil genel bilet 10 €, 65 yaş üstü 9 €, 18-25 yaş öğrenci 7 €, 13-17 yaş genç 6 €, grup (15 kişiden fazla) 7 € ve Málaga piskoposluğundan olmayan, grupla gelen 12 yaş altı çocuklar için okul bileti 4 €. Bileti doğrudan Katedral kapısında ya da çevrimiçi aynı fiyata alırsın.",
+ "keywords": "Málaga Katedrali, Catedral de Málaga, katedral bileti, Malagalı ücretsiz, sesli rehber, ziyaret saatleri",
+ "stages": "planning;new;settled",
+ "source_ids": "malaga:kaynak:287",
+ "reviewed_on": "2026-10-27",
+ "order": 1206,
+ "featured": "Hayır",
+ "editorial_status": "Taslak",
+ "topic_id": "malaga:kesif",
+ "steps": "Málaga sakiniysen ücretsiz bilet türünü seç (sesli rehber içermez).\nDiğer türlerde bileti kapıdan ya da çevrimiçi al; fiyat aynı.\n26 Ekim-29 Mart arasında hafta içi 10:30-18:30, cumartesi 10:30-18:00, pazar 14:00-18:00 gel; son giriş kapanıştan 45 dakika önce.\nİçeride düzgün giyin (vestir con decoro).",
+ "documents": "",
+ "timing": "26 Ekim-29 Mart: pazartesi-cuma 10:30-18:30, cumartesi 10:30-18:00, pazar 14:00-18:00; son giriş kapanıştan 45 dakika önce. 30 Mart-30 Mayıs: pazartesi-cuma 10:30-19:30; 1 Haziran-25 Ekim: pazartesi-cuma 10:30-20:00 (cumartesi ve pazar saatleri aynı). 24 ve 31 Aralık 10:00-15:00, 6 Ocak 14:00-18:00; 25 Aralık ve 1 Ocak kapalı",
+ "cost": "Genel 10 €; grup 7 €; 65 yaş üstü 9 €; 13-17 yaş 6 €; öğrenci (18-25) 7 €; Málaga piskoposluğundan olmayan, grupla gelen 12 yaş altı çocuklar için okul bileti 4 €; Málaga sakini, engelli ve 13 yaş altı ücretsiz",
+ "note": "Her gün (pazartesi-pazar) 8:30-9:00 arasında serbest giriş (acceso libre) vardır. Sesli rehber İspanyolca, İngilizce, Portekizce, Fransızca, Almanca, Rusça, İtalyanca, Lehçe, Felemenkçe ve Danca dillerindedir.",
+ "visual_json": "",
+ "_sekme": "Yanıtlar",
+ "kaynaklar": [
+  {
+   "source_id": "malaga:kaynak:287",
+   "url": "https://malagacatedral.com/visita-cultural/tarifas-y-horarios/",
+   "publisher": "Catedral de Málaga (Cabildo Catedral)",
+   "text_file": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\malaga\\_is\\snap_kesif_kesif\\6a3073a6cff15eb28903131a7d49a25ccf770f7c89e50e34f6444fc20b353b35.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-malaga-katedrali-bilet-turleri-malagali-ucretsiz-giris-ve-saatler-1",
+   "field": "cost",
+   "claim": "Katedral genel 10 €, grup 7 €, 65 yaş üstü 9 €, genç 6 €, öğrenci 7 €, okul grubu 4 €, Málaga sakini ücretsiz",
+   "value": "10;7;9;6;7;4",
+   "unit": "EUR",
+   "period": "",
+   "source_id": "malaga:kaynak:287",
+   "quote": "GENERAL GRUPOS MAYORES JÓVENES ESTUDIANTES ESCOLARES MÁLAGA Catedral 10.00 € 7.00 € 9.00 € 6.00 € 7.00 € 4.00 € GRATIS*"
+  },
+  {
+   "claim_id": "C-malaga-katedrali-bilet-turleri-malagali-ucretsiz-giris-ve-saatler-2",
+   "field": "summary",
+   "claim": "Ücretsiz bilet: Málaga'da oturanlar, farklı yetenekleri olan kişiler ve 13 yaş altı",
+   "value": "13",
+   "unit": "yaş",
+   "period": "",
+   "source_id": "malaga:kaynak:287",
+   "quote": "GRATUITA* (Catedral) → residentes en Málaga, personas con capacidades diferentes y menores de 13 años"
+  },
+  {
+   "claim_id": "C-malaga-katedrali-bilet-turleri-malagali-ucretsiz-giris-ve-saatler-3",
+   "field": "summary",
+   "claim": "Ücretsiz bilet sesli rehberi içermez ve yalnız Katedral için geçerlidir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:287",
+   "quote": "La entrada GRATUITA no incluye audioguía y es válida solo para la Catedral."
+  },
+  {
+   "claim_id": "C-malaga-katedrali-bilet-turleri-malagali-ucretsiz-giris-ve-saatler-4",
+   "field": "summary",
+   "claim": "Mayores bileti 65 yaş üstü içindir",
+   "value": "65",
+   "unit": "yaş",
+   "period": "",
+   "source_id": "malaga:kaynak:287",
+   "quote": "MAYORES → mayores de 65 años"
+  },
+  {
+   "claim_id": "C-malaga-katedrali-bilet-turleri-malagali-ucretsiz-giris-ve-saatler-5",
+   "field": "summary",
+   "claim": "Grup bileti 15 kişiden fazla gruplar içindir",
+   "value": "15",
+   "unit": "kişi",
+   "period": "",
+   "source_id": "malaga:kaynak:287",
+   "quote": "GRUPOS → más de 15 personas"
+  },
+  {
+   "claim_id": "C-malaga-katedrali-bilet-turleri-malagali-ucretsiz-giris-ve-saatler-6",
+   "field": "summary",
+   "claim": "Okul bileti Málaga piskoposluğundan olmayan, grupla gelen 12 yaş altı çocuklar içindir",
+   "value": "12",
+   "unit": "yaş",
+   "period": "",
+   "source_id": "malaga:kaynak:287",
+   "quote": "ESCOLARES → menores de 12 años en grupo y que no sean de la diócesis de Málaga"
+  },
+  {
+   "claim_id": "C-malaga-katedrali-bilet-turleri-malagali-ucretsiz-giris-ve-saatler-7",
+   "field": "summary",
+   "claim": "Genç bilet 13-17 yaş içindir",
+   "value": "13-17",
+   "unit": "yaş",
+   "period": "",
+   "source_id": "malaga:kaynak:287",
+   "quote": "JÓVENES → de 13 a 17 años"
+  },
+  {
+   "claim_id": "C-malaga-katedrali-bilet-turleri-malagali-ucretsiz-giris-ve-saatler-8",
+   "field": "summary",
+   "claim": "Öğrenci bileti 18-25 yaş arası öğrenciler içindir",
+   "value": "18-25",
+   "unit": "yaş",
+   "period": "",
+   "source_id": "malaga:kaynak:287",
+   "quote": "ESTUDIANTES → estudiantes de 18 a 25 años"
+  },
+  {
+   "claim_id": "C-malaga-katedrali-bilet-turleri-malagali-ucretsiz-giris-ve-saatler-9",
+   "field": "summary",
+   "claim": "Bilet doğrudan Katedral kapısında alınır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:287",
+   "quote": "Puede adquirir su entrada directamente en la puerta de la Catedral."
+  },
+  {
+   "claim_id": "C-malaga-katedrali-bilet-turleri-malagali-ucretsiz-giris-ve-saatler-10",
+   "field": "summary",
+   "claim": "Çevrimiçi bilet gişeyle aynı fiyattadır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:287",
+   "quote": "evitando colas y al mismo precio que en taquilla"
+  },
+  {
+   "claim_id": "C-malaga-katedrali-bilet-turleri-malagali-ucretsiz-giris-ve-saatler-11",
+   "field": "timing",
+   "claim": "26 Ekim-29 Mart: pazartesi-cuma 10:30-18:30, cumartesi 10:30-18:00, pazar 14:00-18:00",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:287",
+   "quote": "Del 26 de Octubre al 29 de Marzo Lunes a Viernes: 10:30 a 18:30. Sábados: 10:30 a 18:00 Domingo: 14:00 a 18:00"
+  },
+  {
+   "claim_id": "C-malaga-katedrali-bilet-turleri-malagali-ucretsiz-giris-ve-saatler-12",
+   "field": "steps",
+   "claim": "Son giriş kapanıştan 45 dakika önce",
+   "value": "45",
+   "unit": "dakika",
+   "period": "",
+   "source_id": "malaga:kaynak:287",
+   "quote": "Último acceso 45 minutos antes del cierre."
+  },
+  {
+   "claim_id": "C-malaga-katedrali-bilet-turleri-malagali-ucretsiz-giris-ve-saatler-13",
+   "field": "steps",
+   "claim": "İçeride düzgün giyinmek gerekir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:287",
+   "quote": "Es necesario VESTIR CON DECORO en el interior del templo."
+  },
+  {
+   "claim_id": "C-malaga-katedrali-bilet-turleri-malagali-ucretsiz-giris-ve-saatler-14",
+   "field": "note",
+   "claim": "Her gün (pazartesi-pazar) 8:30-9:00 arası serbest giriş (güncel tarihli tablo)",
+   "value": "8:30-9:00",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:287",
+   "quote": "*Acceso libre de Lunes a Domingo de 8:30h a 9:00h"
+  },
+  {
+   "claim_id": "C-malaga-katedrali-bilet-turleri-malagali-ucretsiz-giris-ve-saatler-15",
+   "field": "note",
+   "claim": "Sesli rehber 10 dilde: İspanyolca, İngilizce, Portekizce, Fransızca, Almanca, Rusça, İtalyanca, Lehçe, Felemenkçe, Danca",
+   "value": "10",
+   "unit": "dil",
+   "period": "",
+   "source_id": "malaga:kaynak:287",
+   "quote": "español, inglés, portugués, francés, alemán, ruso, italiano, polaco, holandés y danés"
+  },
+  {
+   "claim_id": "C-malaga-katedrali-bilet-turleri-malagali-ucretsiz-giris-ve-saatler-16",
+   "field": "timing",
+   "claim": "Katedral 30 Mart-30 Mayıs hafta içi 10:30-19:30",
+   "value": "10:30-19:30",
+   "unit": "saat",
+   "period": "",
+   "source_id": "malaga:kaynak:287",
+   "quote": "Lunes a Viernes: 10:30 a 19:30."
+  },
+  {
+   "claim_id": "C-malaga-katedrali-bilet-turleri-malagali-ucretsiz-giris-ve-saatler-17",
+   "field": "timing",
+   "claim": "Katedral 1 Haziran-25 Ekim hafta içi 10:30-20:00",
+   "value": "10:30-20:00",
+   "unit": "saat",
+   "period": "",
+   "source_id": "malaga:kaynak:287",
+   "quote": "Lunes a Viernes: 10:30 a 20:00."
+  },
+  {
+   "claim_id": "C-malaga-katedrali-bilet-turleri-malagali-ucretsiz-giris-ve-saatler-18",
+   "field": "timing",
+   "claim": "Katedral 24 Aralık 10:00-15:00",
+   "value": "10:00-15:00",
+   "unit": "saat",
+   "period": "",
+   "source_id": "malaga:kaynak:287",
+   "quote": "24 de Diciembre: 10:00h – 15:00h"
+  },
+  {
+   "claim_id": "C-malaga-katedrali-bilet-turleri-malagali-ucretsiz-giris-ve-saatler-19",
+   "field": "timing",
+   "claim": "Katedral 31 Aralık 10:00-15:00",
+   "value": "10:00-15:00",
+   "unit": "saat",
+   "period": "",
+   "source_id": "malaga:kaynak:287",
+   "quote": "31 de Diciembre: 10:00h – 15:00h"
+  },
+  {
+   "claim_id": "C-malaga-katedrali-bilet-turleri-malagali-ucretsiz-giris-ve-saatler-20",
+   "field": "timing",
+   "claim": "Katedral 25 Aralık ziyarete kapalı",
+   "value": "kapalı",
+   "unit": "saat",
+   "period": "",
+   "source_id": "malaga:kaynak:287",
+   "quote": "25 de Diciembre: CERRADA a las visitas"
+  },
+  {
+   "claim_id": "C-malaga-katedrali-bilet-turleri-malagali-ucretsiz-giris-ve-saatler-21",
+   "field": "timing",
+   "claim": "Katedral 1 Ocak ziyarete kapalı",
+   "value": "kapalı",
+   "unit": "saat",
+   "period": "",
+   "source_id": "malaga:kaynak:287",
+   "quote": "01 de Enero: CERRADA a las visitas"
+  },
+  {
+   "claim_id": "C-malaga-katedrali-bilet-turleri-malagali-ucretsiz-giris-ve-saatler-22",
+   "field": "timing",
+   "claim": "Katedral 6 Ocak 14:00-18:00",
+   "value": "14:00-18:00",
+   "unit": "saat",
+   "period": "",
+   "source_id": "malaga:kaynak:287",
+   "quote": "06 de Enero: 14:00h – 18:00h"
+  }
+ ],
+ "adimlar": [],
+ "butonlar": [
+  {
+   "action_id": "malaga:action:malaga-katedrali-bilet-turleri-malagali-ucretsiz-giris-ve-saatler-1",
+   "label": "Bilet al",
+   "url": "https://malagacatedral.com/visita-cultural/tarifas-y-horarios/"
+  }
+ ]
+}
+
+===== KART 8/19: malaga:la-concepcion-botanik-bahcesi-pazar-ucretsiz-saatleri-ve-indirimli-bilet =====
+{
+ "entry_id": "malaga:la-concepcion-botanik-bahcesi-pazar-ucretsiz-saatleri-ve-indirimli-bilet",
+ "city_id": "malaga",
+ "slug": "la-concepcion-botanik-bahcesi-pazar-ucretsiz-saatleri-ve-indirimli-bilet",
+ "title": "La Concepción Botanik Bahçesi'ne hangi gün ve saatte ücretsiz girersin, indirimli bilet kimlere?",
+ "subtitle": "Pazarları ücretsiz saat dilimi var; ordinaria 5,20 €, indirimli 3,10 €; bilet yalnız gişeden",
+ "summary": "La Concepción Botanik Bahçesi pazar günleri belirli saatlerde ücretsizdir: 1 Ekim-31 Mart arası 14:00-17:30, 1 Nisan-30 Eylül arası 16:30-20:30. Diğer zamanlarda ordinaria bilet 5,20 €, indirimli bilet 3,10 €; indirim 16 yaşına kadar gençlere, büyük ailelere, 26 yaşına kadar öğrencilere, emeklilere ve emekli aylığı alanlara, Málaga Pass, İspanyolca öğrenen öğrenciler için \"Live Spanish in Malaga\" ya da 30 yaş altı Tarjeta joven Junta Andalucía sahiplerine tanınır. Bilet çevrimiçi satılmaz, yalnız bahçenin gişesinden alınır. Bahçe pazartesi, 25 Aralık ve 1 Ocak kapalıdır; tatile denk gelen (ya da tatili kaydırılan) pazartesiler normal saatte açıktır, 24 ve 31 Aralık'ta bahçe 15:00'te kapanır.",
+ "keywords": "La Concepción, botanik bahçesi, Jardín Botánico, pazar ücretsiz, indirimli bilet, Málaga Pass, Live Spanish in Malaga",
+ "stages": "planning;new;settled",
+ "source_ids": "malaga:kaynak:284",
+ "reviewed_on": "2026-10-27",
+ "order": 1207,
+ "featured": "Hayır",
+ "editorial_status": "Taslak",
+ "topic_id": "malaga:kesif",
+ "steps": "Ücretsiz girmek için pazar günü, kışın (1 Ekim-31 Mart) 14:00-17:30 arasında, yazın (1 Nisan-30 Eylül) 16:30-20:30 arasında git.\nBileti gişeden al; çevrimiçi alamazsın. İndirimli bilet için ilgili kartı ya da belgeni göster.\nBahçeye Camino del Jardín Botánico 3'e gidersin: şehir merkezine 6 km; EMT'nin 20 numaralı hattının son durağından 15 dakika yürüyüş, ya da İstasyon'dan kalkan City Sightseeing hattı (EMT 91, 1,40 €).\nKöpeğinle gelebilirsin: tasmalı olmalı ve kuralları imzalaman gerekir.",
+ "documents": "İndirim için kategoriyi gösteren belge ya da kart (öğrenci kartı, Málaga Pass, Tarjeta joven Junta Andalucía gibi)",
+ "timing": "1 Nisan-30 Eylül 9:30-20:30; 1 Ekim-31 Mart 9:30-17:30; pazartesi, 25 Aralık ve 1 Ocak kapalı (tatile denk gelen pazartesiler açık); 24 ve 31 Aralık 15:00'e kadar",
+ "cost": "Ordinaria 5,20 €; indirimli 3,10 €; pazar ücretsiz saat dilimleri",
+ "note": "16 yaşından küçükler her zaman bir yetişkinle gezmelidir. Rehberli tur isteğe bağlıdır, 1,5 saat sürer ve yalnız önceden rezervasyonla yapılır: 951 926 180 / 639 91 40 55 (WhatsApp da olur).",
+ "visual_json": "",
+ "_sekme": "Yanıtlar",
+ "kaynaklar": [
+  {
+   "source_id": "malaga:kaynak:284",
+   "url": "https://laconcepcion.malaga.eu/es/visitas/",
+   "publisher": "Ayuntamiento de Málaga - Jardín Botánico-Histórico La Concepción",
+   "text_file": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\malaga\\_is\\snap_kesif_kesif\\e3d0ff85b32eb8027280577a46d53e06d0fd3c128012361d8ceb0d6642046956.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-la-concepcion-botanik-bahcesi-pazar-ucretsiz-saatleri-ve-indirimli-bilet-1",
+   "field": "timing",
+   "claim": "Pazar ücretsiz saat: 1 Ekim-31 Mart 14:00-17:30",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:284",
+   "quote": "Domingos entre el 1 de octubre y el 31 de marzo, de 14:00 a 17:30"
+  },
+  {
+   "claim_id": "C-la-concepcion-botanik-bahcesi-pazar-ucretsiz-saatleri-ve-indirimli-bilet-2",
+   "field": "timing",
+   "claim": "Pazar ücretsiz saat: 1 Nisan-30 Eylül 16:30-20:30",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:284",
+   "quote": "Domingos entre el 1 de abril y el 30 de septiembre, de 16:30 a 20:30"
+  },
+  {
+   "claim_id": "C-la-concepcion-botanik-bahcesi-pazar-ucretsiz-saatleri-ve-indirimli-bilet-3",
+   "field": "cost",
+   "claim": "Ordinaria bilet 5,20 €",
+   "value": "5,20",
+   "unit": "EUR",
+   "period": "",
+   "source_id": "malaga:kaynak:284",
+   "quote": "Ordinaria: 5,20 € por persona (Para público en general)"
+  },
+  {
+   "claim_id": "C-la-concepcion-botanik-bahcesi-pazar-ucretsiz-saatleri-ve-indirimli-bilet-4",
+   "field": "cost",
+   "claim": "İndirimli bilet 3,10 €; 16 yaşına kadar gençler, büyük aileler, 26 yaşına kadar öğrenciler, emekliler",
+   "value": "3,10",
+   "unit": "EUR",
+   "period": "",
+   "source_id": "malaga:kaynak:284",
+   "quote": "Reducida: 3,10 € por persona (Para jóvenes hasta 16 años inclusive, familias numerosas o equiparadas, estudiantes hasta 26 años inclusive, jubilados, pensionistas"
+  },
+  {
+   "claim_id": "C-la-concepcion-botanik-bahcesi-pazar-ucretsiz-saatleri-ve-indirimli-bilet-5",
+   "field": "summary",
+   "claim": "Málaga Pass, İspanyolca öğrenen öğrenciler için Live Spanish in Malaga ve 30 yaş altı Tarjeta joven Junta Andalucía indirim sağlar",
+   "value": "30",
+   "unit": "yaş",
+   "period": "",
+   "source_id": "malaga:kaynak:284",
+   "quote": "al presentar alguna de las siguientes tarjetas: Málaga Pass, 'Live Spanish in Malaga' para estudiantes de español o la Tarjeta joven Junta Andalucía -para menores de 30 años-"
+  },
+  {
+   "claim_id": "C-la-concepcion-botanik-bahcesi-pazar-ucretsiz-saatleri-ve-indirimli-bilet-6",
+   "field": "summary",
+   "claim": "Bilet çevrimiçi alınamaz, yalnız gişeden",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:284",
+   "quote": "La entrada no se puede adquirir previamente online, únicamente se puede comprar en la taquilla al llegar."
+  },
+  {
+   "claim_id": "C-la-concepcion-botanik-bahcesi-pazar-ucretsiz-saatleri-ve-indirimli-bilet-7",
+   "field": "timing",
+   "claim": "1 Nisan-30 Eylül 9:30-20:30",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:284",
+   "quote": "Del 1 de abril al 30 de septiembre: De 09:30 a 20:30 h"
+  },
+  {
+   "claim_id": "C-la-concepcion-botanik-bahcesi-pazar-ucretsiz-saatleri-ve-indirimli-bilet-8",
+   "field": "timing",
+   "claim": "1 Ekim-31 Mart 9:30-17:30",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:284",
+   "quote": "Del 1 de octubre al 31 de marzo: De 09:30 a 17:30 h"
+  },
+  {
+   "claim_id": "C-la-concepcion-botanik-bahcesi-pazar-ucretsiz-saatleri-ve-indirimli-bilet-9",
+   "field": "timing",
+   "claim": "Bahçe pazartesi, 25 Aralık ve 1 Ocak kapalıdır; tatile denk gelen pazartesiler normal saatte açıktır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:284",
+   "quote": "Los lunes festivos o con la festividad trasladada, el jardín abrirá en su horario habitual."
+  },
+  {
+   "claim_id": "C-la-concepcion-botanik-bahcesi-pazar-ucretsiz-saatleri-ve-indirimli-bilet-10",
+   "field": "note",
+   "claim": "16 yaşından küçükler yetişkinle gezmelidir",
+   "value": "16",
+   "unit": "yaş",
+   "period": "",
+   "source_id": "malaga:kaynak:284",
+   "quote": "(Los menores de 16 años han de ir siempre acompañados por un adulto)"
+  },
+  {
+   "claim_id": "C-la-concepcion-botanik-bahcesi-pazar-ucretsiz-saatleri-ve-indirimli-bilet-11",
+   "field": "steps",
+   "claim": "Adres: Camino del Jardín Botánico 3, 29014 Málaga",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:284",
+   "quote": "Camino del Jardín Botánico, nº 3 - 29014 Málaga"
+  },
+  {
+   "claim_id": "C-la-concepcion-botanik-bahcesi-pazar-ucretsiz-saatleri-ve-indirimli-bilet-12",
+   "field": "steps",
+   "claim": "Bahçe merkeze 6 km uzaklıktadır",
+   "value": "6",
+   "unit": "km",
+   "period": "",
+   "source_id": "malaga:kaynak:284",
+   "quote": "La Concepción está a 6 Km del centro de Málaga."
+  },
+  {
+   "claim_id": "C-la-concepcion-botanik-bahcesi-pazar-ucretsiz-saatleri-ve-indirimli-bilet-13",
+   "field": "steps",
+   "claim": "EMT 20 numaralı hattın son durağından 15 dakika yürüyüş",
+   "value": "15",
+   "unit": "dakika",
+   "period": "",
+   "source_id": "malaga:kaynak:284",
+   "quote": "Desde la última parada de la línea 20 de la EMT, 15 min. a pie"
+  },
+  {
+   "claim_id": "C-la-concepcion-botanik-bahcesi-pazar-ucretsiz-saatleri-ve-indirimli-bilet-14",
+   "field": "steps",
+   "claim": "City Sightseeing (EMT 91) istasyondan 1,40 €",
+   "value": "1,40",
+   "unit": "EUR",
+   "period": "",
+   "source_id": "malaga:kaynak:284",
+   "quote": "Bus City sightseeing (línea 91 EMT), desde la Estación de Tren y Autobús (1,40 €)"
+  },
+  {
+   "claim_id": "C-la-concepcion-botanik-bahcesi-pazar-ucretsiz-saatleri-ve-indirimli-bilet-15",
+   "field": "steps",
+   "claim": "Köpekler tasmalı olmak koşuluyla kabul edilir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:284",
+   "quote": "Serán bienvenidos siempre que vayan con correa"
+  },
+  {
+   "claim_id": "C-la-concepcion-botanik-bahcesi-pazar-ucretsiz-saatleri-ve-indirimli-bilet-16",
+   "field": "note",
+   "claim": "Rehberli tur yalnız rezervasyonla; telefon 951926180 / 639 91 40 55",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:284",
+   "quote": "Se realizan exclusivamente previa reserva: 951926180 / 639 91 40 55 (también por WhatsApp)"
+  },
+  {
+   "claim_id": "C-la-concepcion-botanik-bahcesi-pazar-ucretsiz-saatleri-ve-indirimli-bilet-17",
+   "field": "note",
+   "claim": "Rehberli tur 1,5 saat sürer",
+   "value": "1,5",
+   "unit": "saat",
+   "period": "",
+   "source_id": "malaga:kaynak:284",
+   "quote": "Tienen una duración de una hora y media"
+  },
+  {
+   "claim_id": "C-la-concepcion-botanik-bahcesi-pazar-ucretsiz-saatleri-ve-indirimli-bilet-18",
+   "field": "timing",
+   "claim": "24 ve 31 Aralık'ta bahçe 15:00'te kapanır",
+   "value": "15:00",
+   "unit": "saat",
+   "period": "24 ve 31 Aralık",
+   "source_id": "malaga:kaynak:284",
+   "quote": "24 y 31 de diciembre el cierre del Jardín será a las 15:00 h."
+  }
+ ],
+ "adimlar": [],
+ "butonlar": [
+  {
+   "action_id": "malaga:action:la-concepcion-botanik-bahcesi-pazar-ucretsiz-saatleri-ve-indirimli-bilet-1",
+   "label": "Bilgi al",
+   "url": "https://laconcepcion.malaga.eu/es/visitas/"
+  }
+ ]
+}
+
+===== KART 9/19: malaga:montes-de-malaga-doga-yuruyusu-isaretli-patikalar-ve-kurallar =====
+{
+ "entry_id": "malaga:montes-de-malaga-doga-yuruyusu-isaretli-patikalar-ve-kurallar",
+ "city_id": "malaga",
+ "slug": "montes-de-malaga-doga-yuruyusu-isaretli-patikalar-ve-kurallar",
+ "title": "Málaga'ya yakın doğa yürüyüşü için Montes de Málaga'da hangi işaretli patikalar ve alanlar var?",
+ "subtitle": "Dört işaretli patika: Torrijos, Pocopán, El Cerrado ve Umbría de Contadoras; bisiklet şeritleri ve ekomüze",
+ "summary": "Montes de Málaga'da dört işaretli patika var: El Cerrado, Pocopán, Torrijos ve Umbría de Contadoras; bisikletliler için Lagar de Contreras ve Picapedreros-Boticario şeritleri bulunur. Alan Málaga, Colmenar ve Casabermeja belediye sınırlarına yayılır; Junta de Andalucía'nın Özel Koruma Alanı (ZEC) künyesine göre yüzölçümü 4.992,85 hektardır. Torrijos'ta ekomüze (Lagar de Torrijos), kontrollü kamp alanı ve dinlenme alanı; El Cochino seyir terasında dürbünle yırtıcı kuş izlenebilir. Yağışlı dönemde Picapedreros şelalesi görülür.",
+ "keywords": "Montes de Málaga, doğa yürüyüşü, Torrijos patikası, Pocopán, doğa parkı, senderismo, bisiklet yolu",
+ "stages": "planning;new;settled",
+ "source_ids": "malaga:kaynak:285",
+ "reviewed_on": "2026-10-27",
+ "order": 1208,
+ "featured": "Hayır",
+ "editorial_status": "Taslak",
+ "topic_id": "malaga:kesif",
+ "steps": "Yürüyüş için Torrijos, Pocopán, El Cerrado ya da Umbría de Contadoras patikalarından birini seç.\nTorrijos patikasında Lagar de Torrijos ekomüzesine uğra; manzara için El Cochino seyir terasına çık.\nAteş yakma tehlikesine karşı sigara ve yanıcı madde atma; çöpünü en yakın konteynere kadar yanında taşı.\nAracınla gidiyorsan yalnız belirlenmiş yerlere park et.",
+ "documents": "",
+ "timing": "",
+ "cost": "",
+ "note": "Parkın ziyaretçi merkezleri, bilgi noktaları ve ekomüzeleri yürüyüşten önce bilgi almak için kullanılabilir.",
+ "visual_json": "",
+ "_sekme": "Yanıtlar",
+ "kaynaklar": [
+  {
+   "source_id": "malaga:kaynak:285",
+   "url": "https://juntadeandalucia.es/medioambiente/portal/web/ventanadelvisitante/detalle-buscador-mapa/-/asset_publisher/Jlbxh2qB3NwR/content/montes-de-malaga-2",
+   "publisher": "Junta de Andalucía - Consejería de Sostenibilidad y Medio Ambiente",
+   "text_file": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\malaga\\_is\\snap_kesif_kesif\\295e0f53ec62b85c7d789b792d3ebf7f9fabcaad24f900b8e212692843a61a85.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-montes-de-malaga-doga-yuruyusu-isaretli-patikalar-ve-kurallar-1",
+   "field": "summary",
+   "claim": "Park Casabermeja, Colmenar ve Málaga belediyelerine yayılır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:285",
+   "quote": "Municipios Casabermeja, Colmenar, Málaga"
+  },
+  {
+   "claim_id": "C-montes-de-malaga-doga-yuruyusu-isaretli-patikalar-ve-kurallar-2",
+   "field": "summary",
+   "claim": "Montes de Málaga Özel Koruma Alanı (ZEC) künyesinde toplam yüzölçümü 4.992,85 hektar",
+   "value": "4.992,85",
+   "unit": "ha",
+   "period": "",
+   "source_id": "malaga:kaynak:285",
+   "quote": "Superficie Total 4.992,85 ha."
+  },
+  {
+   "claim_id": "C-montes-de-malaga-doga-yuruyusu-isaretli-patikalar-ve-kurallar-3",
+   "field": "summary",
+   "claim": "El Cerrado ve Pocopán işaretli patikaları",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:285",
+   "quote": "EQUIPAMIENTO: SENDERO SEÑALIZADO EL CERRADO MÁLAGA (MÁLAGA) EQUIPAMIENTO: SENDERO SEÑALIZADO POCOPÁN MÁLAGA (MÁLAGA)"
+  },
+  {
+   "claim_id": "C-montes-de-malaga-doga-yuruyusu-isaretli-patikalar-ve-kurallar-4",
+   "field": "summary",
+   "claim": "Torrijos ve Umbría de Contadoras işaretli patikaları",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:285",
+   "quote": "EQUIPAMIENTO: SENDERO SEÑALIZADO TORRIJOS MÁLAGA (MÁLAGA) EQUIPAMIENTO: SENDERO SEÑALIZADO UMBRÍA DE CONTADORAS MÁLAGA (MÁLAGA)"
+  },
+  {
+   "claim_id": "C-montes-de-malaga-doga-yuruyusu-isaretli-patikalar-ve-kurallar-5",
+   "field": "summary",
+   "claim": "Lagar de Contreras ve Picapedreros-Boticario bisiklet şeritleri",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:285",
+   "quote": "EQUIPAMIENTO: CARRIL CICLOTURISTA LAGAR DE CONTRERAS MÁLAGA (MÁLAGA) EQUIPAMIENTO: CARRIL CICLOTURISTA PICAPEDREROS-BOTICARIO MÁLAGA (MÁLAGA)"
+  },
+  {
+   "claim_id": "C-montes-de-malaga-doga-yuruyusu-isaretli-patikalar-ve-kurallar-6",
+   "field": "summary",
+   "claim": "Torrijos'ta kontrollü kamp alanı vardır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:285",
+   "quote": "EQUIPAMIENTO: ZONA DE ACAMPADA CONTROLADA TORRIJOS MÁLAGA (MÁLAGA)"
+  },
+  {
+   "claim_id": "C-montes-de-malaga-doga-yuruyusu-isaretli-patikalar-ve-kurallar-7",
+   "field": "summary",
+   "claim": "Lagar de Torrijos'ta ekomüze bulunur",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:285",
+   "quote": "El Lagar de Torrijos es una muestra de esta arquitectura y en él actualmente se encuentra el ecomuseo del mismo nombre"
+  },
+  {
+   "claim_id": "C-montes-de-malaga-doga-yuruyusu-isaretli-patikalar-ve-kurallar-8",
+   "field": "summary",
+   "claim": "El Cochino seyir terasından dürbünle yırtıcı kuşlar izlenir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:285",
+   "quote": "Un buen lugar para observarlas es el mirador del Cochino, donde con la ayuda de unos prismáticos, puede avistarse el elegante vuelo de rapaces"
+  },
+  {
+   "claim_id": "C-montes-de-malaga-doga-yuruyusu-isaretli-patikalar-ve-kurallar-9",
+   "field": "summary",
+   "claim": "Yağışlı dönemde Picapedreros şelalesi görülür",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:285",
+   "quote": "En época de lluvias, por ejemplo, pueden contemplarse bellos saltos de aguas como el de Picapedreros"
+  },
+  {
+   "claim_id": "C-montes-de-malaga-doga-yuruyusu-isaretli-patikalar-ve-kurallar-10",
+   "field": "steps",
+   "claim": "Yangını önlemek için sigara ve yanıcı madde atılmaz",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:285",
+   "quote": "Colabora para evitar incendios. No arrojes cigarrillos o cualquier otro objeto que produzca combustión."
+  },
+  {
+   "claim_id": "C-montes-de-malaga-doga-yuruyusu-isaretli-patikalar-ve-kurallar-11",
+   "field": "steps",
+   "claim": "Çöp en yakın konteynere kadar taşınır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:285",
+   "quote": "La basura no vuelve sola. Llévala contigo hasta el contenedor más próximo."
+  },
+  {
+   "claim_id": "C-montes-de-malaga-doga-yuruyusu-isaretli-patikalar-ve-kurallar-12",
+   "field": "steps",
+   "claim": "Park yalnız belirlenmiş yerlere yapılır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:285",
+   "quote": "Aparca en los lugares habilitados"
+  },
+  {
+   "claim_id": "C-montes-de-malaga-doga-yuruyusu-isaretli-patikalar-ve-kurallar-13",
+   "field": "note",
+   "claim": "Park ziyaretçi merkezleri, bilgi noktaları ve ekomüzeleriyle tanıtılır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:285",
+   "quote": "Acude a nuestros centros de visitantes, puntos de información y ecomuseos para sacarle el máximo partido a tu visita."
+  }
+ ],
+ "adimlar": [],
+ "butonlar": [
+  {
+   "action_id": "malaga:action:montes-de-malaga-doga-yuruyusu-isaretli-patikalar-ve-kurallar-1",
+   "label": "Bilgi al",
+   "url": "https://www.juntadeandalucia.es/medioambiente/portal/web/ventanadelvisitante/detalle-buscador-mapa/-/asset_publisher/Jlbxh2qB3NwR/content/montes-de-malaga-2"
+  }
+ ]
+}
+
+===== KART 10/19: malaga:caminito-del-rey-bilet-rezervasyonu-yas-siniri-servis-ve-otopark =====
+{
+ "entry_id": "malaga:caminito-del-rey-bilet-rezervasyonu-yas-siniri-servis-ve-otopark",
+ "city_id": "malaga",
+ "slug": "caminito-del-rey-bilet-rezervasyonu-yas-siniri-servis-ve-otopark",
+ "title": "Caminito del Rey için bilet nasıl alınır, yaş sınırı, servis otobüsü ve otopark ücreti ne kadar?",
+ "subtitle": "Genel bilet 10 €, rehberli tur 18 €; 8 yaş altı giremez; bilet yalnız resmî sitede ya da kuzey giriş gişesinde",
+ "summary": "Caminito del Rey biletini resmî rezervasyon sitesinden ya da kuzey girişteki gişeden (müsaitliğe göre) alırsın; Puerto de las Atalayas'taki ziyaretçi karşılama merkezinde şu anda bilet satılmıyor. Genel bilet 10 € (bir seferde en çok 10 bilet), en çok 30 kişilik resmî rehberli tur 18 €, servis otobüsü 2,5 €, otopark 2 €. 8 yaşından küçükler giremez; resmî site, 8 yaşından büyük herkesten yaşını doğrulamak için orijinal DNI ya da Libro de Familia taşımasını istiyor. Merkez, Málaga şehrinden 57,7 km uzaktadır.",
+ "keywords": "Caminito del Rey, bilet, rezervasyon, El Chorro, Ardales, yaş sınırı, servis otobüsü",
+ "stages": "planning;new;settled",
+ "source_ids": "malaga:kaynak:286",
+ "reviewed_on": "2026-10-27",
+ "order": 1209,
+ "featured": "Hayır",
+ "editorial_status": "Taslak",
+ "topic_id": "malaga:kesif",
+ "steps": "Bileti resmî rezervasyon sitesinden (caminitodelrey.info) önceden al ya da kuzey girişteki gişede müsaitliğe göre dene.\nServis otobüsü (2,5 €) ve otopark (2 €) için yerini ayrıca rezerve edebilirsin.\n8 yaşından büyük her katılımcı için resmî sitenin yaş doğrulaması amacıyla istediği orijinal DNI ya da Libro de Familia'yı götür; 8 yaşından küçükler yürüyüşe giremez.\nRehberli tur istersen İspanyolca ya da İngilizce yapılan 18 €'luk resmî turu seç.",
+ "documents": "8 yaşından büyük katılımcılar için orijinal DNI ya da Libro de Familia",
+ "timing": "",
+ "cost": "Genel bilet 10 €; rehberli tur 18 €; servis otobüsü 2,5 €; otopark 2 €",
+ "note": "Ziyaretçi merkezindeki otopark günlüğü 2 €'dur.",
+ "visual_json": "",
+ "_sekme": "Yanıtlar",
+ "kaynaklar": [
+  {
+   "source_id": "malaga:kaynak:286",
+   "url": "https://www.caminitodelrey.info/",
+   "publisher": "Diputación de Málaga (Caminito del Rey resmî rezervasyon platformu)",
+   "text_file": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\malaga\\_is\\snap_kesif_kesif\\63e6666fb2601ec9b5059c24474e033791696a86ede60dab9e70f4204ac5001a.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-caminito-del-rey-bilet-rezervasyonu-yas-siniri-servis-ve-otopark-1",
+   "field": "summary",
+   "claim": "Şu anda ziyaretçi karşılama merkezinde bilet satılmıyor",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:286",
+   "quote": "Actualmente, en el Centro de recepción de visitantes no se pueden comprar entradas para acceder al Caminito del Rey."
+  },
+  {
+   "claim_id": "C-caminito-del-rey-bilet-rezervasyonu-yas-siniri-servis-ve-otopark-2",
+   "field": "summary",
+   "claim": "Bilet web sitesinden ya da kuzey girişteki gişeden (müsaitliğe göre) alınır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:286",
+   "quote": "Puede reservar y adquirir su entrada a través de esta web o en el acceso norte del Caminito de Rey, en taquilla (según disponibilidad)."
+  },
+  {
+   "claim_id": "C-caminito-del-rey-bilet-rezervasyonu-yas-siniri-servis-ve-otopark-3",
+   "field": "cost",
+   "claim": "Genel bilet 10 €; bir seferde en çok 10 bilet",
+   "value": "10",
+   "unit": "EUR",
+   "period": "",
+   "source_id": "malaga:kaynak:286",
+   "quote": "Entrada general 10€ Haz el Caminito a tu aire. Límite de compra de 10 entradas"
+  },
+  {
+   "claim_id": "C-caminito-del-rey-bilet-rezervasyonu-yas-siniri-servis-ve-otopark-4",
+   "field": "cost",
+   "claim": "Resmî rehberli tur 18 €, en çok 30 kişi, İspanyolca ve İngilizce",
+   "value": "18;30",
+   "unit": "EUR;kişi",
+   "period": "",
+   "source_id": "malaga:kaynak:286",
+   "quote": "Visita guiada oficial 18€ Grupo máximo de 30 personas acompañados de un guía con certificado de calidad. Visitas en español e inglés."
+  },
+  {
+   "claim_id": "C-caminito-del-rey-bilet-rezervasyonu-yas-siniri-servis-ve-otopark-5",
+   "field": "cost",
+   "claim": "Servis otobüsü 2,5 €",
+   "value": "2,5",
+   "unit": "EUR",
+   "period": "",
+   "source_id": "malaga:kaynak:286",
+   "quote": "Autobús lanzadera 2.5€"
+  },
+  {
+   "claim_id": "C-caminito-del-rey-bilet-rezervasyonu-yas-siniri-servis-ve-otopark-6",
+   "field": "cost",
+   "claim": "Otopark 2 €",
+   "value": "2",
+   "unit": "EUR",
+   "period": "",
+   "source_id": "malaga:kaynak:286",
+   "quote": "Aparcamiento 2€"
+  },
+  {
+   "claim_id": "C-caminito-del-rey-bilet-rezervasyonu-yas-siniri-servis-ve-otopark-7",
+   "field": "note",
+   "claim": "Ziyaretçi merkezi otoparkı günlük 2 €",
+   "value": "2",
+   "unit": "EUR",
+   "period": "",
+   "source_id": "malaga:kaynak:286",
+   "quote": "Puede aparcar en el Parking del Centro de Recepción de visitantes (2 euros/día)."
+  },
+  {
+   "claim_id": "C-caminito-del-rey-bilet-rezervasyonu-yas-siniri-servis-ve-otopark-8",
+   "field": "summary",
+   "claim": "8 yaşından küçükler Caminito del Rey'e giremez",
+   "value": "8",
+   "unit": "yaş",
+   "period": "",
+   "source_id": "malaga:kaynak:286",
+   "quote": "Los menores de 8 años no pueden acceder al Caminito del Rey."
+  },
+  {
+   "claim_id": "C-caminito-del-rey-bilet-rezervasyonu-yas-siniri-servis-ve-otopark-9",
+   "field": "documents",
+   "claim": "Resmî site 8 yaşından büyüklerin yaşlarını orijinal DNI ya da Libro de Familia ile doğrulamasını ister",
+   "value": "8",
+   "unit": "yaş",
+   "period": "",
+   "source_id": "malaga:kaynak:286",
+   "quote": "Los mayores de 8 años deben llevar su DNI original o Libro de Familia para comprobar su edad."
+  },
+  {
+   "claim_id": "C-caminito-del-rey-bilet-rezervasyonu-yas-siniri-servis-ve-otopark-10",
+   "field": "summary",
+   "claim": "Ziyaretçi merkezi Málaga şehrine 57,7 km uzaktadır",
+   "value": "57,7",
+   "unit": "km",
+   "period": "",
+   "source_id": "malaga:kaynak:286",
+   "quote": "A 57,7 km desde la ciudad de Málaga"
+  }
+ ],
+ "adimlar": [],
+ "butonlar": [
+  {
+   "action_id": "malaga:action:caminito-del-rey-bilet-rezervasyonu-yas-siniri-servis-ve-otopark-1",
+   "label": "Bilet al",
+   "url": "https://www.caminitodelrey.info/"
+  }
+ ]
+}
+
+===== KART 11/19: malaga:belediye-spor-tesisleri-online-hizmet-kaydi-alta-de-servicios =====
+{
+ "entry_id": "malaga:belediye-spor-tesisleri-online-hizmet-kaydi-alta-de-servicios",
+ "city_id": "malaga",
+ "slug": "belediye-spor-tesisleri-online-hizmet-kaydi-alta-de-servicios",
+ "title": "Málaga belediyesinin spor tesislerini kullanmak için online hizmet kaydını (alta de servicios) nasıl yaptırırsın?",
+ "subtitle": "Dijital sertifikayla çevrimiçi ya da formla OMAC ofisinde; kullanıcı adı ve şifre en geç 15 iş günü içinde",
+ "summary": "Belediye spor alanının online platformuna iki yoldan kaydolursun. Dijital sertifikan yoksa \"Solicitud Alta de servicios online del Área de Deporte\" formunu doldurup belediyenin OMAC ofislerinden birine teslim edersin; sistem sana en geç 15 iş günü içinde kullanıcı adı ve şifre gönderir. Dijital sertifikan varsa başvuruyu çevrimiçi yapıp imzalarsın ve yanıtı Mi Carpeta'dan alırsın. Kayıttan sonra edeporte.malaga.eu'da alan rezerve eder, ders aidatlarını ödersin ve etkinliklerin aylık yenilemesini yaparsın.",
+ "keywords": "spor tesisleri, Área de Deporte, alta de servicios, edeporte, OMAC, polideportivo, Mi Carpeta",
+ "stages": "new;settled",
+ "source_ids": "malaga:kaynak:291;malaga:kaynak:290",
+ "reviewed_on": "2026-10-27",
+ "order": 1210,
+ "featured": "Hayır",
+ "editorial_status": "Taslak",
+ "topic_id": "malaga:kesif",
+ "steps": "Sertifikasız yolu seçtiysen \"Solicitud Alta de servicios online del Área de Deporte\" formunu doldur ve OMAC ofislerinden birine teslim et.\nSertifikalı yolu seçtiysen tarayıcında kullanıcı sertifikanın kurulu olmasını sağla, çevrimiçi başvuruyu doldurup imzala ve cevabı Mi Carpeta'da bekle.\nKullanıcı adı ve şifren geldiğinde edeporte.malaga.eu/Malaga/Login adresinden giriş yap.\nGirişten sonra alan rezerve et ya da ders aidatını öde.",
+ "documents": "Doldurulmuş \"Solicitud Alta de servicios online del Área de Deporte\" formu (sertifikasız yol)\nTarayıcıda kurulu dijital kullanıcı sertifikası (çevrimiçi yol)",
+ "timing": "Sertifikasız yolda kullanıcı adı ve şifre en geç 15 iş günü içinde gelir",
+ "cost": "",
+ "note": "Platformla ayrıca Ciudad Jardín, Tiro de Pichón ve José Paterna polideportivolarındaki alanları anlık kiralar, \"Ciudad de Málaga\" atletizm stadyumuna spor bileti alırsın. Spor etkinliklerine kayıt (Inscripción en las Actividades Deportivas) ayrı bir işlemdir.",
+ "visual_json": "",
+ "_sekme": "Yanıtlar",
+ "kaynaklar": [
+  {
+   "source_id": "malaga:kaynak:291",
+   "url": "https://deporte.malaga.eu/espacios-deportivos/instalaciones/Alta-de-servicios-por-internet/",
+   "publisher": "Ayuntamiento de Málaga - Área de Deporte",
+   "text_file": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\malaga\\_is\\snap_kesif_kesif\\1047037fe92cb18e69f58cc266ead5a87ce8d384c8be0a5acf24da11b9dad013.txt"
+  },
+  {
+   "source_id": "malaga:kaynak:290",
+   "url": "https://deporte.malaga.eu/tramites/",
+   "publisher": "Ayuntamiento de Málaga - Área de Deporte",
+   "text_file": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\malaga\\_is\\snap_kesif_kesif\\f455373acd0148618e42bd73351931f2be6cac26fd89e212f045d714801a93af.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-belediye-spor-tesisleri-online-hizmet-kaydi-alta-de-servicios-1",
+   "field": "summary",
+   "claim": "Sertifikasız yolda form doldurulur",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:291",
+   "quote": "Solicitud Alta de servicios online del Área de Deporte"
+  },
+  {
+   "claim_id": "C-belediye-spor-tesisleri-online-hizmet-kaydi-alta-de-servicios-2",
+   "field": "summary",
+   "claim": "Form OMAC ofislerinden birine teslim edilir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:291",
+   "quote": "Personarse en algunos de las siguientes oficinas"
+  },
+  {
+   "claim_id": "C-belediye-spor-tesisleri-online-hizmet-kaydi-alta-de-servicios-3",
+   "field": "timing",
+   "claim": "Kullanıcı adı ve şifre en geç 15 iş günü içinde gönderilir",
+   "value": "15",
+   "unit": "iş günü",
+   "period": "",
+   "source_id": "malaga:kaynak:291",
+   "quote": "El sistema le enviará una clave y contraseña de acceso como usuario en el plazo máximo de 15 días hábiles."
+  },
+  {
+   "claim_id": "C-belediye-spor-tesisleri-online-hizmet-kaydi-alta-de-servicios-4",
+   "field": "summary",
+   "claim": "Karar, formdaki e-posta adresine bildirilir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:291",
+   "quote": "La resolución se le notificará al correo electrónico que haya rellenado para notificación en el formulario."
+  },
+  {
+   "claim_id": "C-belediye-spor-tesisleri-online-hizmet-kaydi-alta-de-servicios-5",
+   "field": "documents",
+   "claim": "Çevrimiçi yol için tarayıcıda kullanıcı sertifikası kurulu olmalıdır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:291",
+   "quote": "Es requisito previo tener instalado un certificado de usuario en el navegador"
+  },
+  {
+   "claim_id": "C-belediye-spor-tesisleri-online-hizmet-kaydi-alta-de-servicios-6",
+   "field": "steps",
+   "claim": "Sertifikalı yolda yanıt Mi Carpeta'da beklenir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:291",
+   "quote": "Esperar la respuesta de la Administración en Mi Carpeta."
+  },
+  {
+   "claim_id": "C-belediye-spor-tesisleri-online-hizmet-kaydi-alta-de-servicios-7",
+   "field": "summary",
+   "claim": "Kayıtlı kullanıcı platformdan alan rezerve eder ve ders aidatı öder",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:291",
+   "quote": "Consultar disponibilidad de espacios Reservas de espacios Pago de mensualidades de clases"
+  },
+  {
+   "claim_id": "C-belediye-spor-tesisleri-online-hizmet-kaydi-alta-de-servicios-8",
+   "field": "steps",
+   "claim": "Giriş adresi edeporte.malaga.eu",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:291",
+   "quote": "https://edeporte.malaga.eu/Malaga/Login"
+  },
+  {
+   "claim_id": "C-belediye-spor-tesisleri-online-hizmet-kaydi-alta-de-servicios-9",
+   "field": "note",
+   "claim": "Platformla Ciudad Jardín, Tiro de Pichón ve José Paterna polideportivolarından alan kiralanır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:291",
+   "quote": "Polideportivo Ciudad Jardín Polideportivo Tiro de Pichón Polideportivo José Paterna"
+  },
+  {
+   "claim_id": "C-belediye-spor-tesisleri-online-hizmet-kaydi-alta-de-servicios-10",
+   "field": "note",
+   "claim": "Atletizm stadyumu için spor bileti alınır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:291",
+   "quote": "Adquirir tickets para la práctica deportiva en el estadio de atletismo “Ciudad de Málaga”"
+  },
+  {
+   "claim_id": "C-belediye-spor-tesisleri-online-hizmet-kaydi-alta-de-servicios-11",
+   "field": "summary",
+   "claim": "Platformla kayıtlı etkinliklerin aylık yenilemesi yapılır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:291",
+   "quote": "Realizar la renovación mensual de las actividades en las que ya estás dado de alta."
+  },
+  {
+   "claim_id": "C-belediye-spor-tesisleri-online-hizmet-kaydi-alta-de-servicios-12",
+   "field": "note",
+   "claim": "Spor etkinliklerine kayıt (Inscripción en las Actividades Deportivas) \"Alta de Servicios on line\" işleminden ayrı bir trámite olarak listelenir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:290",
+   "quote": "Inscripción en las Actividades Deportivas"
+  }
+ ],
+ "adimlar": [],
+ "butonlar": [
+  {
+   "action_id": "malaga:action:belediye-spor-tesisleri-online-hizmet-kaydi-alta-de-servicios-1",
+   "label": "Başvur",
+   "url": "https://deporte.malaga.eu/espacios-deportivos/instalaciones/Alta-de-servicios-por-internet/"
+  },
+  {
+   "action_id": "malaga:action:belediye-spor-tesisleri-online-hizmet-kaydi-alta-de-servicios-2",
+   "label": "Bilgi al",
+   "url": "https://www.malaga.eu/la-ciudad/instalaciones-y-espacios/index.html?idCtEsp=CT51&idDistrito=&texto=OMAC&param1=0"
+  }
+ ]
+}
+
+===== KART 12/19: malaga:belediye-spor-tesisleri-acilis-saatleri-ve-musaitlik-sorgulama =====
+{
+ "entry_id": "malaga:belediye-spor-tesisleri-acilis-saatleri-ve-musaitlik-sorgulama",
+ "city_id": "malaga",
+ "slug": "belediye-spor-tesisleri-acilis-saatleri-ve-musaitlik-sorgulama",
+ "title": "Málaga'da belediye spor tesisleri (Ciudad Jardín, Tiro de Pichón, José Paterna, atletizm stadyumu) hangi saatlerde açık, müsaitliğe nasıl bakarsın?",
+ "subtitle": "Ciudad Jardín hafta içi 8:00-23:00; atletizm stadyumu hafta içi 8:00-22:00; müsaitlik kayıt olmadan görülür",
+ "summary": "Ciudad Jardín polideportivosu hafta içi 8:00-23:00, cumartesi ve pazar 9:00-22:00 açıktır. Tiro de Pichón ile José Paterna hafta içi 9:00-14:00 ve 17:00-23:00, cumartesi 9:00-14:00 ve 17:00-22:00, pazar 9:00-14:00 açıktır; ikisi de ağustosta, pazar günleri ise temmuz ve ağustosta kapalıdır. Atletizm stadyumu hafta içi 8:00-22:00, cumartesi 9:00-15:00, pazar 9:00-14:00 açıktır. Online rezervasyon platformunda müsaitliği kayıt olmadan görürsün; rezervasyon yapmak için önceden kayıtlı olman gerekir.",
+ "keywords": "Ciudad Jardín, Tiro de Pichón, José Paterna, atletizm stadyumu, spor tesisi saatleri, rezervasyon",
+ "stages": "new;settled",
+ "source_ids": "malaga:kaynak:289",
+ "reviewed_on": "2026-10-27",
+ "order": 1211,
+ "featured": "Hayır",
+ "editorial_status": "Taslak",
+ "topic_id": "malaga:kesif",
+ "steps": "Gideceğin tesisin gününe ve dönemine bak: Tiro de Pichón ve José Paterna ağustosta, pazar günleri ayrıca temmuzda kapalı.\nMüsait alanları online platformdaki rezervasyon ve sorgu bağlantısından kayıtsız görebilirsin.\nRezervasyon yapmak istiyorsan önce online hizmet kaydını yaptır.",
+ "documents": "",
+ "timing": "Ciudad Jardín hafta içi 8:00-23:00, hafta sonu 9:00-22:00; atletizm stadyumu hafta içi 8:00-22:00",
+ "cost": "",
+ "note": "Ücret tahsilat (ödeme) saatleri tesise göre kısıtlıdır: Ciudad Jardín'de hafta içi ve cumartesi 9:30-13:30 ile 18:00-22:00, pazar yalnız 9:30-13:30; atletizm stadyumunda hafta içi yalnız 16:30-20:30, cumartesi 9:30-13:30. Tiro de Pichón'da salı ve cuma 9:30-13:30, çarşamba 18:00-22:00; José Paterna'da pazartesi 9:30-13:30, perşembe 18:00-22:00; ikisinde de cumartesi sabahı (dönüşümlü cumartesiler) 9:30-13:30, pazar tahsilat yok.",
+ "visual_json": "",
+ "_sekme": "Yanıtlar",
+ "kaynaklar": [
+  {
+   "source_id": "malaga:kaynak:289",
+   "url": "https://deporte.malaga.eu/espacios-deportivos/instalaciones/",
+   "publisher": "Ayuntamiento de Málaga - Área de Deporte",
+   "text_file": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\malaga\\_is\\snap_kesif_kesif\\7f26da5a8945053b149895d29c5c3ee33c7c494460591a7c0adf4d9a70bded61.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-belediye-spor-tesisleri-acilis-saatleri-ve-musaitlik-sorgulama-1",
+   "field": "timing",
+   "claim": "Ciudad Jardín: hafta içi 8:00-23:00, cumartesi ve pazar 9:00-22:00",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:289",
+   "quote": "CIUDAD JARDÍN Lunes a viernes Todo el año 8:00-23:00 Sábado Todo el año 9:00-22:00 Domingo Todo el año 9:00-22:00"
+  },
+  {
+   "claim_id": "C-belediye-spor-tesisleri-acilis-saatleri-ve-musaitlik-sorgulama-2",
+   "field": "timing",
+   "claim": "Tiro de Pichón: hafta içi 9:00-14:00 ve 17:00-23:00, ağustos hariç",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:289",
+   "quote": "TIRO DE PICHÓN Lunes a viernes Todo el año menos agosto 9:00-14:00 y 17:00-23:00"
+  },
+  {
+   "claim_id": "C-belediye-spor-tesisleri-acilis-saatleri-ve-musaitlik-sorgulama-3",
+   "field": "timing",
+   "claim": "José Paterna: hafta içi 9:00-14:00 ve 17:00-23:00, ağustos hariç",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:289",
+   "quote": "JOSÉ PATERNA Lunes a viernes Todo el año menos agosto 9:00-14:00 y 17:00-23:00"
+  },
+  {
+   "claim_id": "C-belediye-spor-tesisleri-acilis-saatleri-ve-musaitlik-sorgulama-4",
+   "field": "timing",
+   "claim": "Tiro de Pichón ve José Paterna cumartesi 9:00-14:00 ve 17:00-22:00 (ağustos hariç)",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:289",
+   "quote": "Sábado Todo el año menos agosto 9:00-14:00 y 17:00-22:00"
+  },
+  {
+   "claim_id": "C-belediye-spor-tesisleri-acilis-saatleri-ve-musaitlik-sorgulama-5",
+   "field": "timing",
+   "claim": "Tiro de Pichón ve José Paterna pazar 9:00-14:00, temmuz ve ağustos hariç",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:289",
+   "quote": "Domingo Todo el año menos julio y agosto 9:00-14:00"
+  },
+  {
+   "claim_id": "C-belediye-spor-tesisleri-acilis-saatleri-ve-musaitlik-sorgulama-6",
+   "field": "timing",
+   "claim": "Atletizm stadyumu: hafta içi 8:00-22:00, cumartesi 9:00-15:00, pazar 9:00-14:00",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:289",
+   "quote": "ESTADIO DE ATLETISMO Lunes a viernes Todo el año 8:00-22:00 Sábado Todo el año 9:00-15:00 Domingo Todo el año 9:00-14:00"
+  },
+  {
+   "claim_id": "C-belediye-spor-tesisleri-acilis-saatleri-ve-musaitlik-sorgulama-7",
+   "field": "summary",
+   "claim": "Müsaitlik online sistemde kayıt olmadan görülür",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:289",
+   "quote": "La disponibilidad de nuestras instalaciones sin estar dado de alta en nuestro sistema de reservas on-line"
+  },
+  {
+   "claim_id": "C-belediye-spor-tesisleri-acilis-saatleri-ve-musaitlik-sorgulama-8",
+   "field": "summary",
+   "claim": "Online rezervasyon için önceden kayıtlı olmak gerekir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:289",
+   "quote": "Realizar reservas de instalaciones on-line (para ello tiene que estar dado de alta previamente)."
+  },
+  {
+   "claim_id": "C-belediye-spor-tesisleri-acilis-saatleri-ve-musaitlik-sorgulama-9",
+   "field": "note",
+   "claim": "Ciudad Jardín tahsilat saatleri hafta içi ve cumartesi 9:30-13:30 ve 18:00-22:00, pazar yalnız 9:30-13:30",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:289",
+   "quote": "Ciudad Jardín Lunes a viernes Todo el año 9:30 - 13:30 18:00 - 22:00"
+  },
+  {
+   "claim_id": "C-belediye-spor-tesisleri-acilis-saatleri-ve-musaitlik-sorgulama-10",
+   "field": "note",
+   "claim": "Atletizm stadyumu tahsilat hafta içi yalnız 16:30-20:30",
+   "value": "16:30-20:30",
+   "unit": "saat",
+   "period": "",
+   "source_id": "malaga:kaynak:289",
+   "quote": "16:30 - 20:30"
+  },
+  {
+   "claim_id": "C-belediye-spor-tesisleri-acilis-saatleri-ve-musaitlik-sorgulama-11",
+   "field": "note",
+   "claim": "Tiro de Pichón tahsilat salı ve cuma 9:30-13:30",
+   "value": "9:30-13:30",
+   "unit": "saat",
+   "period": "",
+   "source_id": "malaga:kaynak:289",
+   "quote": "Martes y viernes 9:30 - 13:30"
+  },
+  {
+   "claim_id": "C-belediye-spor-tesisleri-acilis-saatleri-ve-musaitlik-sorgulama-12",
+   "field": "note",
+   "claim": "Tiro de Pichón tahsilat çarşamba 18:00-22:00",
+   "value": "18:00-22:00",
+   "unit": "saat",
+   "period": "",
+   "source_id": "malaga:kaynak:289",
+   "quote": "Miércoles 18:00 - 22:00"
+  },
+  {
+   "claim_id": "C-belediye-spor-tesisleri-acilis-saatleri-ve-musaitlik-sorgulama-13",
+   "field": "note",
+   "claim": "José Paterna tahsilat pazartesi 9:30-13:30",
+   "value": "9:30-13:30",
+   "unit": "saat",
+   "period": "",
+   "source_id": "malaga:kaynak:289",
+   "quote": "Lunes 9:30 - 13:30"
+  },
+  {
+   "claim_id": "C-belediye-spor-tesisleri-acilis-saatleri-ve-musaitlik-sorgulama-14",
+   "field": "note",
+   "claim": "José Paterna tahsilat perşembe 18:00-22:00",
+   "value": "18:00-22:00",
+   "unit": "saat",
+   "period": "",
+   "source_id": "malaga:kaynak:289",
+   "quote": "Jueves 18:00 - 22:00"
+  },
+  {
+   "claim_id": "C-belediye-spor-tesisleri-acilis-saatleri-ve-musaitlik-sorgulama-15",
+   "field": "note",
+   "claim": "Tiro de Pichón ve José Paterna cumartesi sabahı dönüşümlü cumartesiler 9:30-13:30",
+   "value": "9:30-13:30",
+   "unit": "saat",
+   "period": "",
+   "source_id": "malaga:kaynak:289",
+   "quote": "Sábado alterno 9:30 - 13:30"
+  }
+ ],
+ "adimlar": [],
+ "butonlar": [
+  {
+   "action_id": "malaga:action:belediye-spor-tesisleri-acilis-saatleri-ve-musaitlik-sorgulama-1",
+   "label": "Bilgi al",
+   "url": "https://deporte.malaga.eu/espacios-deportivos/instalaciones/"
+  }
+ ]
+}
+
+===== KART 13/19: malaga:montes-de-malaga-cevresinde-verdiales-ve-yerel-senlik-takvimi =====
+{
+ "entry_id": "malaga:montes-de-malaga-cevresinde-verdiales-ve-yerel-senlik-takvimi",
+ "city_id": "malaga",
+ "slug": "montes-de-malaga-cevresinde-verdiales-ve-yerel-senlik-takvimi",
+ "title": "Málaga ve Montes de Málaga çevresinde Verdiales, Feria ve yerel şenlikler hangi tarihlerde yapılır?",
+ "subtitle": "Verdiales festivali 29-30 Temmuz, Fiesta Mayor 28 Aralık; Málaga Feria'sı ağustosta; Colmenar ve Casabermeja şenlikleri",
+ "summary": "Verdiales, Montes de Málaga çevresinin köklü ve renkli geleneksel halk danslarıdır; San Juan, Santiago ve 28 Aralık'ta oynanır. Málaga'da Festival de Verdiales 29 ve 30 Temmuz'da, Fiesta Mayor de Verdiales 28 Aralık'ta yapılır. Málaga'da Verbena de San Juan 24 Haziran'dadır ve Feria ağustos ayında yapılır. Colmenar'da Mosto ve Chacina Şenliği aralıkta, Candelaria ve San Blas Romería'sı şubatın ilk pazarı, Pipa Günü Romería'sı 3 Mayıs'ta; Casabermeja'da San Sebastián ocak sonunda, San Marcos 25 Nisan'da, Feria ağustosun ilk pazarında yapılır.",
+ "keywords": "Verdiales, Feria de Málaga, San Juan, Colmenar, Casabermeja, yerel şenlikler, romería",
+ "stages": "planning;new;settled",
+ "source_ids": "malaga:kaynak:285",
+ "reviewed_on": "2026-10-27",
+ "order": 1212,
+ "featured": "Hayır",
+ "editorial_status": "Taslak",
+ "topic_id": "malaga:kesif",
+ "steps": "Verdiales görmek istiyorsan 29-30 Temmuz'daki festivale ya da 28 Aralık'taki Fiesta Mayor'a git.\nHaziranda 24 Haziran'daki San Juan Verbena'sına bak; ağustosta Málaga Feria'sı için takvimini boşalt.\nColmenar ve Casabermeja'daki şenlikler için o ilçenin tarihine göre plan yap: Colmenar'da şubat, mayıs ve aralık; Casabermeja'da ocak, nisan ve ağustos.",
+ "documents": "",
+ "timing": "",
+ "cost": "",
+ "note": "",
+ "visual_json": "",
+ "_sekme": "Yanıtlar",
+ "kaynaklar": [
+  {
+   "source_id": "malaga:kaynak:285",
+   "url": "https://juntadeandalucia.es/medioambiente/portal/web/ventanadelvisitante/detalle-buscador-mapa/-/asset_publisher/Jlbxh2qB3NwR/content/montes-de-malaga-2",
+   "publisher": "Junta de Andalucía - Consejería de Sostenibilidad y Medio Ambiente",
+   "text_file": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\malaga\\_is\\snap_kesif_kesif\\295e0f53ec62b85c7d789b792d3ebf7f9fabcaad24f900b8e212692843a61a85.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-montes-de-malaga-cevresinde-verdiales-ve-yerel-senlik-takvimi-1",
+   "field": "timing",
+   "claim": "Málaga: Feria ağustos, Verdiales festivali 29-30 Temmuz, Fiesta Mayor 28 Aralık, San Juan Verbena'sı 24 Haziran",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:285",
+   "quote": "MÁLAGA (MÁLAGA) Feria Mes de agosto Festival de verdiales 29 y 30 de julio Fiesta Mayor de Verdiales 28 de diciembre Verbena de San Juan 24 de junio"
+  },
+  {
+   "claim_id": "C-montes-de-malaga-cevresinde-verdiales-ve-yerel-senlik-takvimi-2",
+   "field": "timing",
+   "claim": "Colmenar: Mosto ve Chacina Şenliği aralık, Candelaria Romería'sı şubatın ilk pazarı, Pipa Günü Romería'sı 3 Mayıs",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:285",
+   "quote": "COLMENAR (MÁLAGA) Fiesta del Mosto y la Chacina Mes de diciembre Romería de la Virgen de la Candelaria y San Blas Primer domingo de febrero Romería del Día de la Pipa 3 de mayo"
+  },
+  {
+   "claim_id": "C-montes-de-malaga-cevresinde-verdiales-ve-yerel-senlik-takvimi-3",
+   "field": "timing",
+   "claim": "Casabermeja: San Sebastián ocak sonu, San Marcos 25 Nisan, Feria ağustosun ilk pazarı",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:285",
+   "quote": "CASABERMEJA (MÁLAGA) Día de San Sebastián Finales de enero Día de San marcos 25 de abril Feria Primer domingo de agosto"
+  },
+  {
+   "claim_id": "C-montes-de-malaga-cevresinde-verdiales-ve-yerel-senlik-takvimi-4",
+   "field": "summary",
+   "claim": "Verdiales köklü ve renkli geleneksel danslardır; San Juan, Santiago ve 28 Aralık'ta oynanır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:285",
+   "quote": "unos bailes típicos de gran tradición y colorido, que se danzan en la festividad de San Juan, Santiago y el 28 de diciembre"
+  }
+ ],
+ "adimlar": [],
+ "butonlar": [
+  {
+   "action_id": "malaga:action:montes-de-malaga-cevresinde-verdiales-ve-yerel-senlik-takvimi-1",
+   "label": "Bilgi al",
+   "url": "https://www.juntadeandalucia.es/medioambiente/portal/web/ventanadelvisitante/detalle-buscador-mapa/-/asset_publisher/Jlbxh2qB3NwR/content/montes-de-malaga-2"
+  }
+ ]
+}
+
+===== KART 14/19: malaga:pompidou-ve-thyssen-muzelerine-canta-semsiye-yiyecek-ve-hayvanla-giris-kurallari =====
+{
+ "entry_id": "malaga:pompidou-ve-thyssen-muzelerine-canta-semsiye-yiyecek-ve-hayvanla-giris-kurallari",
+ "city_id": "malaga",
+ "slug": "pompidou-ve-thyssen-muzelerine-canta-semsiye-yiyecek-ve-hayvanla-giris-kurallari",
+ "title": "Centre Pompidou Málaga ve Carmen Thyssen Müzesi'ne sırt çantası, şemsiye, yiyecek ya da hayvanla girilir mi?",
+ "subtitle": "Her ikisinde de yiyecek, içecek ve hayvan yasak; Thyssen'de sırt çantası ve şemsiye de alınmaz, vestiyer var",
+ "summary": "Müzeye göre değişir. Centre Pompidou Málaga'ya yiyecek ya da içecekle, mayoyla ya da üstsüz, hayvanla (asistan köpekler hariç) ve şemsiye dahil sivri nesnelerle girilmez; kuralları arasında sırt çantası yasağı yer almaz, eşyalar için zemin katta vestiyer ve emanet bölümü vardır. Museo Carmen Thyssen Málaga'ya da yiyecek, içecek, hayvan (rehber köpekler hariç), mayo, sırt çantası, spor ya da seyahat çantası, bavul ve şemsiyeyle girilmez; tripod, monopod ve selfie çubuğu gibi eserlere zarar verebilecek malzeme de yasaktır. Thyssen'de eserlere dokunmak da yasaktır. Eşyalarını bırakmak için Thyssen'de vestiyer (guardarropa), Pompidou'da zemin katta vestiyer ve emanet bölümü vardır.",
+ "keywords": "Pompidou Málaga kuralları, Thyssen müzesi kuralları, müzeye çanta, şemsiye, vestiyer, evcil hayvan",
+ "stages": "planning;new;settled",
+ "source_ids": "malaga:kaynak:277;malaga:kaynak:278",
+ "reviewed_on": "2026-10-27",
+ "order": 1213,
+ "featured": "Hayır",
+ "editorial_status": "Taslak",
+ "topic_id": "malaga:kesif",
+ "steps": "Müzeye gitmeden önce çantanı ve şemsiyeni bırakacağın yeri düşün: Thyssen'de sırt çantası, spor ya da seyahat çantası, bavul ve şemsiye alınmaz; vestiyer hizmeti vardır.\nPompidou'ya şemsiyeyle girme; vestiyer ve emanet bölümü zemin katta (planta 0).\nYanında yiyecek ya da içecek getirme; ikisi de müzede yasak.\nEvcil hayvanını müzeye götürme; yalnız asistan ya da rehber köpekler alınır.",
+ "documents": "",
+ "timing": "",
+ "cost": "",
+ "note": "Pompidou'da mayoyla ya da üstsüz girilemez; Thyssen'de mayoyla giriş yasaktır.",
+ "visual_json": "",
+ "_sekme": "Yanıtlar",
+ "kaynaklar": [
+  {
+   "source_id": "malaga:kaynak:277",
+   "url": "https://centrepompidou-malaga.eu/visita/",
+   "publisher": "Centre Pompidou Málaga (Ayuntamiento de Málaga)",
+   "text_file": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\malaga\\_is\\snap_kesif_kesif\\d6e99290d199995f0872dfa840cc96e15d9bc02e45fdf5a9758246ed6fdf1d2b.txt"
+  },
+  {
+   "source_id": "malaga:kaynak:278",
+   "url": "https://www.carmenthyssenmalaga.org/horarios-tarifas-ubicacion",
+   "publisher": "Museo Carmen Thyssen Málaga",
+   "text_file": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\malaga\\_is\\snap_kesif_kesif\\ce4b841d37f2321ee773faa1a0cb0820fa092c85cb84967d088343c2c799dbb4.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-pompidou-ve-thyssen-muzelerine-canta-semsiye-yiyecek-ve-hayvanla-giris-kurallari-1",
+   "field": "summary",
+   "claim": "Pompidou'ya hayvanla girilmez, asistan köpekler hariç",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:277",
+   "quote": "No se permite la entrada de animales, excepto perros de asistencia."
+  },
+  {
+   "claim_id": "C-pompidou-ve-thyssen-muzelerine-canta-semsiye-yiyecek-ve-hayvanla-giris-kurallari-2",
+   "field": "summary",
+   "claim": "Pompidou'ya yiyecek ve içecekle girilmez",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:277",
+   "quote": "No se permite acceder con comida y/o bebida."
+  },
+  {
+   "claim_id": "C-pompidou-ve-thyssen-muzelerine-canta-semsiye-yiyecek-ve-hayvanla-giris-kurallari-3",
+   "field": "note",
+   "claim": "Pompidou'ya mayoyla ya da üstsüz girilmez",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:277",
+   "quote": "No se permite la entrada en traje de baño o sin camiseta."
+  },
+  {
+   "claim_id": "C-pompidou-ve-thyssen-muzelerine-canta-semsiye-yiyecek-ve-hayvanla-giris-kurallari-4",
+   "field": "summary",
+   "claim": "Pompidou'ya şemsiye dahil sivri nesnelerle girilmez",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:277",
+   "quote": "No se permite la entrada de objetos punzantes o similares, incluidos paraguas, que puedan causar daño a las obras de arte expuestas."
+  },
+  {
+   "claim_id": "C-pompidou-ve-thyssen-muzelerine-canta-semsiye-yiyecek-ve-hayvanla-giris-kurallari-5",
+   "field": "steps",
+   "claim": "Pompidou vestiyer ve emanet hizmeti zemin kattadır",
+   "value": "0",
+   "unit": "kat",
+   "period": "",
+   "source_id": "malaga:kaynak:277",
+   "quote": "El servicio de guardarropa y de consignas se encuentra en la planta 0 del edificio."
+  },
+  {
+   "claim_id": "C-pompidou-ve-thyssen-muzelerine-canta-semsiye-yiyecek-ve-hayvanla-giris-kurallari-6",
+   "field": "summary",
+   "claim": "Thyssen'e sırt çantası, spor ya da seyahat çantası, bavul ve şemsiyeyle girilmez",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:278",
+   "quote": "Mochilas, bolsas de deporte o de viaje, maletas y paraguas"
+  },
+  {
+   "claim_id": "C-pompidou-ve-thyssen-muzelerine-canta-semsiye-yiyecek-ve-hayvanla-giris-kurallari-7",
+   "field": "summary",
+   "claim": "Thyssen'e hayvanla girilmez, rehber köpekler hariç",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:278",
+   "quote": "Animales excepto perros guía"
+  },
+  {
+   "claim_id": "C-pompidou-ve-thyssen-muzelerine-canta-semsiye-yiyecek-ve-hayvanla-giris-kurallari-8",
+   "field": "summary",
+   "claim": "Thyssen'e tripod, monopod ve selfie çubuğu gibi eserlere zarar verebilecek malzemeyle girilmez",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:278",
+   "quote": "Materiales de pintura y objetos que puedan dañar las obras de arte (tales como trípodes, monopies, palos de “selfies”, etc)"
+  },
+  {
+   "claim_id": "C-pompidou-ve-thyssen-muzelerine-canta-semsiye-yiyecek-ve-hayvanla-giris-kurallari-9",
+   "field": "summary",
+   "claim": "Thyssen'e yiyecek ve içecekle girilmez",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:278",
+   "quote": "Comida y bebida"
+  },
+  {
+   "claim_id": "C-pompidou-ve-thyssen-muzelerine-canta-semsiye-yiyecek-ve-hayvanla-giris-kurallari-10",
+   "field": "note",
+   "claim": "Thyssen'e mayoyla girilmez",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:278",
+   "quote": "La entrada en traje de baño"
+  },
+  {
+   "claim_id": "C-pompidou-ve-thyssen-muzelerine-canta-semsiye-yiyecek-ve-hayvanla-giris-kurallari-11",
+   "field": "summary",
+   "claim": "Thyssen'de eserlere dokunmak yasaktır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:278",
+   "quote": "Tocar las obras de arte"
+  },
+  {
+   "claim_id": "C-pompidou-ve-thyssen-muzelerine-canta-semsiye-yiyecek-ve-hayvanla-giris-kurallari-12",
+   "field": "steps",
+   "claim": "Thyssen'de vestiyer hizmeti vardır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:278",
+   "quote": "Wifi, audioguía, guardarropa, visita virtual y cafetería."
+  }
+ ],
+ "adimlar": [],
+ "butonlar": [
+  {
+   "action_id": "malaga:action:pompidou-ve-thyssen-muzelerine-canta-semsiye-yiyecek-ve-hayvanla-giris-kurallari-1",
+   "label": "Bilgi al",
+   "url": "https://centrepompidou-malaga.eu/visita/"
+  },
+  {
+   "action_id": "malaga:action:pompidou-ve-thyssen-muzelerine-canta-semsiye-yiyecek-ve-hayvanla-giris-kurallari-2",
+   "label": "Bilgi al",
+   "url": "https://www.carmenthyssenmalaga.org/horarios-tarifas-ubicacion"
+  }
+ ]
+}
+
+===== KART 15/19: malaga:gibralfaro-ve-monte-victoria-orman-parklari-sehir-icinde-yuruyus =====
+{
+ "entry_id": "malaga:gibralfaro-ve-monte-victoria-orman-parklari-sehir-icinde-yuruyus",
+ "city_id": "malaga",
+ "slug": "gibralfaro-ve-monte-victoria-orman-parklari-sehir-icinde-yuruyus",
+ "title": "Şehir merkezine yakın yürüyüş için Gibralfaro ve Monte Victoria orman parklarına nasıl gidersin, neler var?",
+ "subtitle": "Gibralfaro'da 2 km'den uzun patika ağı, Monte Victoria'da çam ormanı; ikisi de şehrin içinde",
+ "summary": "Gibralfaro'ya şehir merkezinden ya da La Victoria, La Malagueta gibi mahallelerden rahatça girilir; Monte Victoria'da ise Vía Sacra (Carretera del Vía Crucis) Calle Amargura yanındaki bir yoldan başlayıp ermitada biter. Parque Forestal de Gibralfaro, Alcazaba ile Gibralfaro Kalesi'ni birbirine bağlayan, çam ve okaliptüslerden oluşan 278.000 m²'lik bir Akdeniz ormanıdır; 2 km'den uzun ve farklı zorluklarda patika ağı vardır. Parque Forestal Monte Victoria ise 312.000 m²'lik, deniz seviyesinden en çok 193,5 m yüksekliğe çıkan bir çam ormanıdır; Centro bölgesindedir, tamamen şehir dokusuyla çevrilidir ve kuzeyde Montes de Málaga, güneyde Gibralfaro tepesi ile sınırlanır.",
+ "keywords": "Gibralfaro, Monte Victoria, orman parkı, parque forestal, şehir içi yürüyüş, patika, Málaga doğa",
+ "stages": "planning;new;settled",
+ "source_ids": "malaga:kaynak:326;malaga:kaynak:327",
+ "reviewed_on": "2026-10-27",
+ "order": 1214,
+ "featured": "Hayır",
+ "editorial_status": "Taslak",
+ "topic_id": "malaga:kesif",
+ "steps": "Merkezden ya da La Victoria, La Malagueta gibi mahallelerden Gibralfaro Orman Parkı'na gir.\n2 km'den uzun patika ağından zorluğuna göre bir rota seç; ormanlık hat Alcazaba ile Gibralfaro Kalesi'ni birbirine bağlar.\nBir de Monte Victoria'ya çık; çam ormanı şehir dokusuyla çevrili. Vía Sacra (Carretera del Vía Crucis) Calle Amargura yanındaki bir yoldan başlar ve ermitada biter.",
+ "documents": "",
+ "timing": "",
+ "cost": "",
+ "note": "Monte Victoria adını şehrin hamisi Santuario de la Victoria'ya yakınlığından alır.",
+ "visual_json": "",
+ "_sekme": "Yanıtlar",
+ "kaynaklar": [
+  {
+   "source_id": "malaga:kaynak:326",
+   "url": "https://medioambiente.malaga.eu/parques-y-jardines/parques-y-jardines-de-malaga/zonas-forestales/detalle-del-parque/Parque-Forestal-Monte-Victoria/",
+   "publisher": "Ayuntamiento de Málaga - Área de Sostenibilidad Medioambiental",
+   "text_file": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\malaga\\_is\\snap_kesif_mekan\\c69b534e8ba1a88aa83537108af56a4136ae68f435c4a6c073440a8d19977222.txt"
+  },
+  {
+   "source_id": "malaga:kaynak:327",
+   "url": "https://medioambiente.malaga.eu/parques-y-jardines/parques-y-jardines-de-malaga/detalle-del-parque/Parque-Forestal-de-Gibralfaro/",
+   "publisher": "Ayuntamiento de Málaga - Área de Sostenibilidad Medioambiental",
+   "text_file": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\malaga\\_is\\snap_kesif_mekan\\5e07b2e0bec055611d6b685e8cb548a9679d157867dbeb4c8eb01f2fc2f04c09.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-gibralfaro-ve-monte-victoria-orman-parklari-sehir-icinde-yuruyus-1",
+   "field": "summary",
+   "claim": "Gibralfaro Orman Parkı 278.000 m²'dir",
+   "value": "278.000",
+   "unit": "m²",
+   "period": "",
+   "source_id": "malaga:kaynak:327",
+   "quote": "A lo largo de una extensión de 278.000 metros cuadrados"
+  },
+  {
+   "claim_id": "C-gibralfaro-ve-monte-victoria-orman-parklari-sehir-icinde-yuruyus-2",
+   "field": "summary",
+   "claim": "Gibralfaro ormanı çam ve okaliptüslerden oluşur ve Alcazaba ile Gibralfaro Kalesi'ni birbirine bağlar",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:327",
+   "quote": "enlaza la Alcazaba y el Castillo de Gibralfaro"
+  },
+  {
+   "claim_id": "C-gibralfaro-ve-monte-victoria-orman-parklari-sehir-icinde-yuruyus-3",
+   "field": "summary",
+   "claim": "Gibralfaro'ya merkezden ve La Victoria, La Malagueta gibi mahallelerden rahatça girilir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:327",
+   "quote": "su acceso sea muy cómodo desde el propio centro y desde barrios como el de La Victoria y La Malagueta"
+  },
+  {
+   "claim_id": "C-gibralfaro-ve-monte-victoria-orman-parklari-sehir-icinde-yuruyus-4",
+   "field": "summary",
+   "claim": "Gibralfaro'da 2 km'den uzun, farklı zorluklarda patika ağı vardır",
+   "value": "2",
+   "unit": "km",
+   "period": "",
+   "source_id": "malaga:kaynak:327",
+   "quote": "Cuenta con una amplia red de senderos de más de 2 km de longitud, y de variada dificultad."
+  },
+  {
+   "claim_id": "C-gibralfaro-ve-monte-victoria-orman-parklari-sehir-icinde-yuruyus-5",
+   "field": "summary",
+   "claim": "Monte Victoria 312.000 m² ve en çok 193,5 m yüksekliktedir",
+   "value": "312.000; 193,5",
+   "unit": "m²; m",
+   "period": "",
+   "source_id": "malaga:kaynak:326",
+   "quote": "312.000 metros cuadrados de superficie, solo alcanza 193.5 metros de altura sobre el nivel del mar"
+  },
+  {
+   "claim_id": "C-gibralfaro-ve-monte-victoria-orman-parklari-sehir-icinde-yuruyus-6",
+   "field": "summary",
+   "claim": "Monte Victoria Centro bölgesindedir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:326",
+   "quote": "Se encuentra en el Distrito Nº 1 Centro"
+  },
+  {
+   "claim_id": "C-gibralfaro-ve-monte-victoria-orman-parklari-sehir-icinde-yuruyus-7",
+   "field": "summary",
+   "claim": "Monte Victoria tamamen şehir dokusuyla çevrilidir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:326",
+   "quote": "actualmente está completamente rodeado por el casco urbano"
+  },
+  {
+   "claim_id": "C-gibralfaro-ve-monte-victoria-orman-parklari-sehir-icinde-yuruyus-8",
+   "field": "summary",
+   "claim": "Monte Victoria kuzeyde Montes de Málaga, güneyde Gibralfaro tepesi ile sınırlanır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:326",
+   "quote": "Limita al norte con los Montes de Málaga, al sur con el Monte Gibralfaro"
+  },
+  {
+   "claim_id": "C-gibralfaro-ve-monte-victoria-orman-parklari-sehir-icinde-yuruyus-9",
+   "field": "steps",
+   "claim": "Vía Sacra Calle Amargura yanındaki bir yoldan başlar ve ermitada biter",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:326",
+   "quote": "parte de un camino junto a la calle Amargura y termina en la Ermita"
+  },
+  {
+   "claim_id": "C-gibralfaro-ve-monte-victoria-orman-parklari-sehir-icinde-yuruyus-10",
+   "field": "note",
+   "claim": "Monte Victoria adını Santuario de la Victoria'ya yakınlığından alır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:326",
+   "quote": "Este espacio natural fue llamado así por su proximidad al Santuario de la Victoria"
+  },
+  {
+   "claim_id": "C-gibralfaro-ve-monte-victoria-orman-parklari-sehir-icinde-yuruyus-11",
+   "field": "summary",
+   "claim": "Vía Sacra (Carretera del Vía Crucis) Calle Amargura yanındaki bir yoldan başlar ve ermitada biter",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:326",
+   "quote": "parte de un camino junto a la calle Amargura y termina en la Ermita"
+  }
+ ],
+ "adimlar": [],
+ "butonlar": [
+  {
+   "action_id": "malaga:action:gibralfaro-ve-monte-victoria-orman-parklari-sehir-icinde-yuruyus-1",
+   "label": "Bilgi al",
+   "url": "https://medioambiente.malaga.eu/parques-y-jardines/parques-y-jardines-de-malaga/detalle-del-parque/Parque-Forestal-de-Gibralfaro/"
+  },
+  {
+   "action_id": "malaga:action:gibralfaro-ve-monte-victoria-orman-parklari-sehir-icinde-yuruyus-2",
+   "label": "Bilgi al",
+   "url": "https://medioambiente.malaga.eu/parques-y-jardines/parques-y-jardines-de-malaga/zonas-forestales/detalle-del-parque/Parque-Forestal-Monte-Victoria/"
+  }
+ ]
+}
+
+===== KART 16/19: malaga:piknik-ve-barbeku-yapabilecegin-orman-parklari-la-concepcion-ve-lagarillo-blanco =====
+{
+ "entry_id": "malaga:piknik-ve-barbeku-yapabilecegin-orman-parklari-la-concepcion-ve-lagarillo-blanco",
+ "city_id": "malaga",
+ "slug": "piknik-ve-barbeku-yapabilecegin-orman-parklari-la-concepcion-ve-lagarillo-blanco",
+ "title": "Málaga'da piknik ve barbekü yapabileceğin orman parkları hangileri: La Concepción ve Lagarillo Blanco'da neler var?",
+ "subtitle": "La Concepción'da iki barbekü alanı ve çocuk parkı; Lagarillo Blanco'da masalı ve barbekülü 4 alan",
+ "summary": "Piknik ve barbekü için Parque Forestal La Concepción (iki barbekü alanı, çocuk parkı) ve Parque Forestal Lagarillo Blanco (masalı ve barbekülü 4 dinlenme alanı, petank sahası) uygundur. La Concepción (190.000 m²) şehrin kuzeyinde, La Concepción Botanik Bahçesi'nin yanındadır ve içinden Guadalmedina nehri geçer; parkta piknik ve barbekü yapılabilen bir dinlenme alanı vardır, iki barbekü alanından biri ermitanın yanında, biri renkli köprünün yanındadır. Parkta ayrıca kuş gözlem noktası, en üst kısımda seyir terası ve salıncak, kaydırak ile tahterevalliden oluşan üç elemanlı bir çocuk parkı bulunur. Lagarillo Blanco (183.500 m²) El Palo tarafında Monte San Antón'un eteğindedir; A-7 otoyolundan ve Pinares de San Antón yerleşkesinden girilir.",
+ "keywords": "piknik, barbekü, barbacoa, La Concepción orman parkı, Lagarillo Blanco, çocuk parkı, El Palo",
+ "stages": "planning;new;settled",
+ "source_ids": "malaga:kaynak:325;malaga:kaynak:331",
+ "reviewed_on": "2026-10-27",
+ "order": 1215,
+ "featured": "Hayır",
+ "editorial_status": "Taslak",
+ "topic_id": "malaga:kesif",
+ "steps": "Piknik ve barbekü için La Concepción Orman Parkı'ndaki dinlenme alanına git; barbekü alanları ermitanın yanında ve renkli köprünün yanındadır.\nÇocukla gidiyorsan parktaki salıncak, kaydırak ve tahterevalliyi kullan; kuş gözlem noktasına ve en üstteki seyir terasına çık.\nEl Palo tarafındaysan Lagarillo Blanco'ya git: A-7 otoyolundan ya da Pinares de San Antón yerleşkesinden girilir; 4 dinlenme alanında masa, barbekü ve petank sahası var.",
+ "documents": "",
+ "timing": "",
+ "cost": "",
+ "note": "Lagarillo Blanco'da her yıl ocak sonunda San Antón romería'sı yapılır; La Concepción ormanında Ciudad Jardín bölgesi eylülde Romería de la Alegría'yı kutlar.",
+ "visual_json": "",
+ "_sekme": "Yanıtlar",
+ "kaynaklar": [
+  {
+   "source_id": "malaga:kaynak:325",
+   "url": "https://medioambiente.malaga.eu/parques-y-jardines/parques-y-jardines-de-malaga/zonas-forestales/detalle-del-parque/Parque-Forestal-La-Concepcion/",
+   "publisher": "Ayuntamiento de Málaga - Área de Sostenibilidad Medioambiental",
+   "text_file": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\malaga\\_is\\snap_kesif_mekan\\1229a2fffe56aef672ab28c69e481891047a352ade98596e005c1f01d3c71733.txt"
+  },
+  {
+   "source_id": "malaga:kaynak:331",
+   "url": "https://medioambiente.malaga.eu/parques-y-jardines/parques-y-jardines-de-malaga/zonas-forestales/detalle-del-parque/Parque-Forestal-Lagarillo-Blanco/",
+   "publisher": "Ayuntamiento de Málaga - Área de Sostenibilidad Medioambiental",
+   "text_file": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\malaga\\_is\\snap_kesif_mekan\\a001635358259c2dd266e557b5f8fb2d690bb947eb2eb866290c32cc08fd04ff.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-piknik-ve-barbeku-yapabilecegin-orman-parklari-la-concepcion-ve-lagarillo-blanco-1",
+   "field": "summary",
+   "claim": "La Concepción Orman Parkı 190.000 m²'dir ve Guadalmedina nehri içinden geçer",
+   "value": "190.000",
+   "unit": "m²",
+   "period": "",
+   "source_id": "malaga:kaynak:325",
+   "quote": "tiene una superficie de 190.000 metros cuadrados"
+  },
+  {
+   "claim_id": "C-piknik-ve-barbeku-yapabilecegin-orman-parklari-la-concepcion-ve-lagarillo-blanco-2",
+   "field": "summary",
+   "claim": "Park La Concepción Botanik Bahçesi'nin yanında, şehrin kuzeyindedir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:325",
+   "quote": "Se encuentra junto al Jardín Botánico-Histórico La Concepción, en la parte norte de la capital"
+  },
+  {
+   "claim_id": "C-piknik-ve-barbeku-yapabilecegin-orman-parklari-la-concepcion-ve-lagarillo-blanco-3",
+   "field": "summary",
+   "claim": "Parkın içinden Guadalmedina nehri geçer",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:325",
+   "quote": "Está atravesado por el río Guadalmedina"
+  },
+  {
+   "claim_id": "C-piknik-ve-barbeku-yapabilecegin-orman-parklari-la-concepcion-ve-lagarillo-blanco-4",
+   "field": "summary",
+   "claim": "İki barbekü alanı vardır: biri ermitanın yanında, biri renkli köprünün yanında",
+   "value": "2",
+   "unit": "alan",
+   "period": "",
+   "source_id": "malaga:kaynak:325",
+   "quote": "Hay dos zonas de barbacoa: una junto a la ermita y otra al lado del puente de colores"
+  },
+  {
+   "claim_id": "C-piknik-ve-barbeku-yapabilecegin-orman-parklari-la-concepcion-ve-lagarillo-blanco-5",
+   "field": "summary",
+   "claim": "Parkta kuş gözlem noktası ve üç elemanlı çocuk parkı (salıncak, kaydırak, tahterevalli) vardır",
+   "value": "3",
+   "unit": "eleman",
+   "period": "",
+   "source_id": "malaga:kaynak:325",
+   "quote": "Existe también un observatorio de aves, parque infantil con 3 elementos, columpio, tobogán y balancín"
+  },
+  {
+   "claim_id": "C-piknik-ve-barbeku-yapabilecegin-orman-parklari-la-concepcion-ve-lagarillo-blanco-6",
+   "field": "summary",
+   "claim": "En üst kısımda seyir terası vardır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:325",
+   "quote": "En su parte más alta encontramos un mirador"
+  },
+  {
+   "claim_id": "C-piknik-ve-barbeku-yapabilecegin-orman-parklari-la-concepcion-ve-lagarillo-blanco-7",
+   "field": "note",
+   "claim": "Ciudad Jardín bölgesi romería de la Alegría'yı eylülde bu ormanda kutlar",
+   "value": "",
+   "unit": "",
+   "period": "eylül",
+   "source_id": "malaga:kaynak:325",
+   "quote": "El distrito de Ciudad Jardín celebra su romería de la Alegría en septiembre en este entorno forestal"
+  },
+  {
+   "claim_id": "C-piknik-ve-barbeku-yapabilecegin-orman-parklari-la-concepcion-ve-lagarillo-blanco-8",
+   "field": "summary",
+   "claim": "Lagarillo Blanco 183.500 m²'dir",
+   "value": "183.500",
+   "unit": "m²",
+   "period": "",
+   "source_id": "malaga:kaynak:331",
+   "quote": "Tiene una superficie de 183.500 metros cuadrados"
+  },
+  {
+   "claim_id": "C-piknik-ve-barbeku-yapabilecegin-orman-parklari-la-concepcion-ve-lagarillo-blanco-9",
+   "field": "summary",
+   "claim": "Lagarillo Blanco'da masa ve barbekülü 4 dinlenme alanı ve petank sahası vardır",
+   "value": "4",
+   "unit": "alan",
+   "period": "",
+   "source_id": "malaga:kaynak:331",
+   "quote": "En éste parque existen 4 áreas de esparcimiento con mesas de picnic y barbacoas, contando además con pista de petanca"
+  },
+  {
+   "claim_id": "C-piknik-ve-barbeku-yapabilecegin-orman-parklari-la-concepcion-ve-lagarillo-blanco-10",
+   "field": "summary",
+   "claim": "Lagarillo Blanco'ya A-7'den ve Pinares de San Antón yerleşkesinden girilir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:331",
+   "quote": "Se puede acceder al parque desde la A-7 y desde la propia urbanización de Pinares de San Antón"
+  },
+  {
+   "claim_id": "C-piknik-ve-barbeku-yapabilecegin-orman-parklari-la-concepcion-ve-lagarillo-blanco-11",
+   "field": "note",
+   "claim": "Lagarillo Blanco'da San Antón romería'sı her yıl ocak sonunda yapılır",
+   "value": "",
+   "unit": "",
+   "period": "ocak sonu",
+   "source_id": "malaga:kaynak:331",
+   "quote": "En este parque se hace anualmente la romería de San Antón a finales de enero"
+  },
+  {
+   "claim_id": "C-piknik-ve-barbeku-yapabilecegin-orman-parklari-la-concepcion-ve-lagarillo-blanco-12",
+   "field": "summary",
+   "claim": "La Concepción'da piknik ve barbekü yapılabilen bir dinlenme alanı vardır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:325",
+   "quote": "cuenta con zona recreativa en la que se puede hacer picnic y barbacoa"
+  }
+ ],
+ "adimlar": [],
+ "butonlar": [
+  {
+   "action_id": "malaga:action:piknik-ve-barbeku-yapabilecegin-orman-parklari-la-concepcion-ve-lagarillo-blanco-1",
+   "label": "Bilgi al",
+   "url": "https://medioambiente.malaga.eu/parques-y-jardines/parques-y-jardines-de-malaga/zonas-forestales/detalle-del-parque/Parque-Forestal-La-Concepcion/"
+  },
+  {
+   "action_id": "malaga:action:piknik-ve-barbeku-yapabilecegin-orman-parklari-la-concepcion-ve-lagarillo-blanco-2",
+   "label": "Bilgi al",
+   "url": "https://medioambiente.malaga.eu/parques-y-jardines/parques-y-jardines-de-malaga/zonas-forestales/detalle-del-parque/Parque-Forestal-Lagarillo-Blanco/"
+  }
+ ]
+}
+
+===== KART 17/19: malaga:mimma-muzik-muzesi-ve-parque-de-la-alegria-cocuklarla-gidilecek-yerler =====
+{
+ "entry_id": "malaga:mimma-muzik-muzesi-ve-parque-de-la-alegria-cocuklarla-gidilecek-yerler",
+ "city_id": "malaga",
+ "slug": "mimma-muzik-muzesi-ve-parque-de-la-alegria-cocuklarla-gidilecek-yerler",
+ "title": "Çocuklarla Málaga'da nereye gidebilirsin: müzik aletlerini çalabileceğin MIMMA ve oyun alanlı Parque de la Alegría'da neler var?",
+ "subtitle": "MIMMA'da 'çalın' odaları ve gün boyu saatler; Parque de la Alegría'da çocuk alanı, koşu ve bisiklet pistleri",
+ "summary": "MIMMA (Museo Interactivo de la Música Málaga) Calle Beatas 15'teki Palacio Conde de las Navas'tadır. \"Se ruega tocar\" (lütfen çalın) odalarında sanal bir öğretmen eşliğinde keman, udu, çello, gitar ve flamenko kajonu gibi aletleri çalarak deneyebilirsin. 7 Eylül-24 Haziran arası pazartesi 10:00-16:00, salı-pazar 10:00-19:00; 25 Haziran-6 Eylül arası pazartesi 10:30-16:00, salı-pazar 10:30-19:30 açıktır. Açık havada çocuklar için Ciudad Jardín bölgesindeki Parque de la Alegría (15.100 m², 2011'de açıldı) uygundur: yüksek bir çitle çevrili parkta çocuk alanı, koşu pisti ve bisiklet pisti vardır.",
+ "keywords": "çocukla gezi, MIMMA, müzik müzesi, Parque de la Alegría, oyun parkı, Ciudad Jardín, çocuk aktivitesi",
+ "stages": "planning;new;settled",
+ "source_ids": "malaga:kaynak:422;malaga:kaynak:383",
+ "reviewed_on": "2026-10-27",
+ "order": 1216,
+ "featured": "Hayır",
+ "editorial_status": "Taslak",
+ "topic_id": "malaga:kesif",
+ "steps": "MIMMA'da \"Se ruega tocar\" odalarına git ve sanal öğretmenin anlattığı aletleri çalarak dene.\nGişeye kapanıştan en geç 30 dakika önce gel; salonlar kapanıştan 10 dakika önce boşaltılmaya başlar.\nParque de la Alegría'da çocuk oyun alanını, koşu ve bisiklet pistlerini kullan; park yüksek bir çitle çevrilidir.",
+ "documents": "",
+ "timing": "MIMMA 7 Eylül-24 Haziran: pazartesi 10:00-16:00, salı-pazar 10:00-19:00; 25 Haziran-6 Eylül: pazartesi 10:30-16:00, salı-pazar 10:30-19:30",
+ "cost": "",
+ "note": "",
+ "visual_json": "",
+ "_sekme": "Yanıtlar",
+ "kaynaklar": [
+  {
+   "source_id": "malaga:kaynak:422",
+   "url": "https://www.musicaenaccion.com/mimma-museo/",
+   "publisher": "Museo Interactivo de la Música Málaga (MIMMA)",
+   "text_file": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\malaga\\_is\\snap_mekan2-4-2\\a7f7f393b013bffb66cfd577d87b60865f736adc2d4eac1b9c24e0613f197b2a.txt"
+  },
+  {
+   "source_id": "malaga:kaynak:383",
+   "url": "https://medioambiente.malaga.eu/parques-y-jardines/parques-y-jardines-de-malaga/parques-infantiles-y-biosaludables/detalle-del-parque/Parque-de-La-Alegria/",
+   "publisher": "Ayuntamiento de Málaga - Área de Sostenibilidad Medioambiental",
+   "text_file": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\malaga\\_is\\snap_kesif_mekan\\5b85564aab98adeecffb4a909c5db9e12c5e15b0b26fe24fabb67f3284029038.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-mimma-muzik-muzesi-ve-parque-de-la-alegria-cocuklarla-gidilecek-yerler-1",
+   "field": "summary",
+   "claim": "MIMMA Calle Beatas 15'teki Palacio Conde de las Navas'tadır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:422",
+   "quote": "Palacio Conde de las Navas"
+  },
+  {
+   "claim_id": "C-mimma-muzik-muzesi-ve-parque-de-la-alegria-cocuklarla-gidilecek-yerler-2",
+   "field": "summary",
+   "claim": "MIMMA adresi Calle Beatas, 15",
+   "value": "15",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:422",
+   "quote": "Calle Beatas, 15"
+  },
+  {
+   "claim_id": "C-mimma-muzik-muzesi-ve-parque-de-la-alegria-cocuklarla-gidilecek-yerler-3",
+   "field": "summary",
+   "claim": "Çalınabilen aletler: keman, udu, çello, gitar, flamenko kajonu",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:422",
+   "quote": "como el violín, el udú, el violonchelo, la guitarra, el cajón flamenco"
+  },
+  {
+   "claim_id": "C-mimma-muzik-muzesi-ve-parque-de-la-alegria-cocuklarla-gidilecek-yerler-4",
+   "field": "summary",
+   "claim": "Ziyaretçilerin aletleri çalarak deneyimlemesi teşvik edilir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:422",
+   "quote": "en las que se anima al público a aprender por medio de la propia experimentación, tocando los instrumentos"
+  },
+  {
+   "claim_id": "C-mimma-muzik-muzesi-ve-parque-de-la-alegria-cocuklarla-gidilecek-yerler-5",
+   "field": "timing",
+   "claim": "MIMMA kış (7 Eylül-24 Haziran): pazartesi 10:00-16:00, salı-pazar 10:00-19:00",
+   "value": "10:00-16:00; 10:00-19:00",
+   "unit": "saat",
+   "period": "7 Eylül-24 Haziran",
+   "source_id": "malaga:kaynak:422",
+   "quote": "Lunes 10:00 a 16:00h, Martes a domingo 10:00 a 19:00h"
+  },
+  {
+   "claim_id": "C-mimma-muzik-muzesi-ve-parque-de-la-alegria-cocuklarla-gidilecek-yerler-6",
+   "field": "timing",
+   "claim": "MIMMA yaz (25 Haziran-6 Eylül): pazartesi 10:30-16:00, salı-pazar 10:30-19:30",
+   "value": "10:30-16:00; 10:30-19:30",
+   "unit": "saat",
+   "period": "25 Haziran-6 Eylül",
+   "source_id": "malaga:kaynak:422",
+   "quote": "Lunes 10:30 a 16:00h, Martes a domingo 10:30 a 19:30h"
+  },
+  {
+   "claim_id": "C-mimma-muzik-muzesi-ve-parque-de-la-alegria-cocuklarla-gidilecek-yerler-7",
+   "field": "timing",
+   "claim": "MIMMA kış sezonu 7 Eylül-24 Haziran",
+   "value": "",
+   "unit": "",
+   "period": "7 Eylül-24 Haziran",
+   "source_id": "malaga:kaynak:422",
+   "quote": "Horario invierno (7 de septiembre – 24 de junio)"
+  },
+  {
+   "claim_id": "C-mimma-muzik-muzesi-ve-parque-de-la-alegria-cocuklarla-gidilecek-yerler-8",
+   "field": "timing",
+   "claim": "MIMMA yaz sezonu 25 Haziran-6 Eylül",
+   "value": "",
+   "unit": "",
+   "period": "25 Haziran-6 Eylül",
+   "source_id": "malaga:kaynak:422",
+   "quote": "Horario de verano (25 de junio – 6 de septiembre)"
+  },
+  {
+   "claim_id": "C-mimma-muzik-muzesi-ve-parque-de-la-alegria-cocuklarla-gidilecek-yerler-9",
+   "field": "steps",
+   "claim": "MIMMA gişesi kapanıştan 30 dakika önce kapanır",
+   "value": "30",
+   "unit": "dakika",
+   "period": "",
+   "source_id": "malaga:kaynak:422",
+   "quote": "La taquilla se cerrara 30 minutos antes de la hora de cierre"
+  },
+  {
+   "claim_id": "C-mimma-muzik-muzesi-ve-parque-de-la-alegria-cocuklarla-gidilecek-yerler-10",
+   "field": "steps",
+   "claim": "Salonların boşaltılması kapanıştan 10 dakika önce başlar",
+   "value": "10",
+   "unit": "dakika",
+   "period": "",
+   "source_id": "malaga:kaynak:422",
+   "quote": "El desalojo de las salas se inicia 10 minutos antes de la hora de cierre del Museo"
+  },
+  {
+   "claim_id": "C-mimma-muzik-muzesi-ve-parque-de-la-alegria-cocuklarla-gidilecek-yerler-11",
+   "field": "summary",
+   "claim": "Parque de la Alegría Ciudad Jardín bölgesindedir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:383",
+   "quote": "pertenece al distrito de Ciudad Jardín"
+  },
+  {
+   "claim_id": "C-mimma-muzik-muzesi-ve-parque-de-la-alegria-cocuklarla-gidilecek-yerler-12",
+   "field": "summary",
+   "claim": "Parque de la Alegría 2011'de açıldı ve 15.100 m²'dir",
+   "value": "15.100; 2011",
+   "unit": "m²; yıl",
+   "period": "",
+   "source_id": "malaga:kaynak:383",
+   "quote": "Inaugurado en 2011, cuenta con una extensión de 15.100 metros"
+  },
+  {
+   "claim_id": "C-mimma-muzik-muzesi-ve-parque-de-la-alegria-cocuklarla-gidilecek-yerler-13",
+   "field": "summary",
+   "claim": "Park yüksek bir çitle çevrilidir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:383",
+   "quote": "rodeado por una alta verja de remates puntiagudos"
+  },
+  {
+   "claim_id": "C-mimma-muzik-muzesi-ve-parque-de-la-alegria-cocuklarla-gidilecek-yerler-14",
+   "field": "summary",
+   "claim": "Parkta koşu pisti (mavi) ve bisiklet pisti (yeşil) vardır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:383",
+   "quote": "la pista azul para correr y la verde para bicis"
+  },
+  {
+   "claim_id": "C-mimma-muzik-muzesi-ve-parque-de-la-alegria-cocuklarla-gidilecek-yerler-15",
+   "field": "summary",
+   "claim": "Parkta çocuk alanı vardır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:383",
+   "quote": "las instalaciones de la zona infantil"
+  }
+ ],
+ "adimlar": [],
+ "butonlar": [
+  {
+   "action_id": "malaga:action:mimma-muzik-muzesi-ve-parque-de-la-alegria-cocuklarla-gidilecek-yerler-1",
+   "label": "Ziyaret bilgisi",
+   "url": "https://www.musicaenaccion.com/mimma-museo/"
+  },
+  {
+   "action_id": "malaga:action:mimma-muzik-muzesi-ve-parque-de-la-alegria-cocuklarla-gidilecek-yerler-2",
+   "label": "Bilgi al",
+   "url": "https://medioambiente.malaga.eu/parques-y-jardines/parques-y-jardines-de-malaga/parques-infantiles-y-biosaludables/detalle-del-parque/Parque-de-La-Alegria/"
+  }
+ ]
+}
+
+===== KART 18/19: malaga:belediye-kapali-pazar-yerleri-mercados-municipales-hangileri-nerede =====
+{
+ "entry_id": "malaga:belediye-kapali-pazar-yerleri-mercados-municipales-hangileri-nerede",
+ "city_id": "malaga",
+ "slug": "belediye-kapali-pazar-yerleri-mercados-municipales-hangileri-nerede",
+ "title": "Málaga'da belediyenin kapalı pazar yerleri (mercados municipales) hangileri, en büyüğü hangisi?",
+ "subtitle": "15 belediye pazarı, yaklaşık bin tezgâh; en büyüğü 260 tezgâhlı Atarazanas, en küçüğü Pedregalejo",
+ "summary": "Málaga'da belediyenin doğrudan işlettiği 15 kapalı pazar (mercado municipal) şunlardır: Atarazanas, Bailén, Carranque, Churriana, Ciudad Jardín, Dos Hermanas, El Carmen, El Palo, García Grana, Huelin, La Merced, La Palma, Pedregalejo, Portada Alta ve Salamanca. Hepsinde toplam bin kadar tezgâh ve dükkân, yaklaşık 500 işletmeci bulunur; ortalama tezgâh sayısı 65'tir. En büyüğü 260 tezgâhlı Atarazanas'tır (halk arasında \"mercado central\", 1979'da Bien de Interés Cultural ilan edildi), en küçüğü Pedregalejo'dur. Faaliyetin %66,30'unu taze ürünler (manav, kasap, balıkçı) oluşturur.",
+ "keywords": "mercado municipal, belediye pazarı, Atarazanas, Bailén, Carranque, Ciudad Jardín, taze ürün, Málaga market",
+ "stages": "new;settled",
+ "source_ids": "malaga:kaynak:305;malaga:kaynak:390",
+ "reviewed_on": "2026-10-27",
+ "order": 1217,
+ "featured": "Hayır",
+ "editorial_status": "Taslak",
+ "topic_id": "malaga:kesif",
+ "steps": "Oturduğun mahalleye en yakın pazarı yukarıdaki 15 pazar arasından seç.\nTaze ürün (manav, kasap, balıkçı) için büyük pazar yerlerine bak: en büyüğü Atarazanas, 260 tezgâhla.\nPazara git: Atarazanas Calle Atarazanas'ta, Bailén Plaza de Bailén 8'de, Carranque Calle Virgen de la Esperanza 18'de, Ciudad Jardín Avenida Santiago Ramón y Cajal 148'de, Churriana Plaza Mayor 6'da, Dos Hermanas Calle Ingeniero Díaz Pettersen 10'da.",
+ "documents": "",
+ "timing": "",
+ "cost": "",
+ "note": "",
+ "visual_json": "",
+ "_sekme": "Yanıtlar",
+ "kaynaklar": [
+  {
+   "source_id": "malaga:kaynak:305",
+   "url": "https://mercadillos.malaga.eu/mercadillos/",
+   "publisher": "Ayuntamiento de Málaga (Servicio de Mercados y Vía Pública)",
+   "text_file": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\malaga\\_is\\snap_gunluk-yazar2\\f2d13129e3fcb068e333e3ac982a2e414c06700a97f1e5fd3ef416d9851c7071.txt"
+  },
+  {
+   "source_id": "malaga:kaynak:390",
+   "url": "https://mercadosmunicipalesyviapublica.malaga.eu/",
+   "publisher": "Ayuntamiento de Málaga",
+   "text_file": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\malaga\\_is\\snap_kesif_mekan\\bf6162dbde6f5fdd43523e4622f141106e903325b9f8a6efd62ac506ea19e095.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-belediye-kapali-pazar-yerleri-mercados-municipales-hangileri-nerede-1",
+   "field": "summary",
+   "claim": "Málaga'da 15 belediye pazarı vardır",
+   "value": "15",
+   "unit": "pazar",
+   "period": "",
+   "source_id": "malaga:kaynak:305",
+   "quote": "Málaga cuenta con 15 mercados municipales"
+  },
+  {
+   "claim_id": "C-belediye-kapali-pazar-yerleri-mercados-municipales-hangileri-nerede-2",
+   "field": "summary",
+   "claim": "Pazarlarda bin kadar tezgâh ve yaklaşık 500 işletmeci vardır",
+   "value": "500",
+   "unit": "işletmeci",
+   "period": "",
+   "source_id": "malaga:kaynak:305",
+   "quote": "Estos 15 mercados albergan algo más de un millar de puestos y locales comerciales, al frente de los cuales se encuentran casi 500 concesionarios."
+  },
+  {
+   "claim_id": "C-belediye-kapali-pazar-yerleri-mercados-municipales-hangileri-nerede-3",
+   "field": "summary",
+   "claim": "Ortalama tezgâh sayısı 65'tir; en büyük pazar Atarazanas 260 tezgâhlıdır; en küçük pazar Pedregalejo'dur",
+   "value": "65; 260",
+   "unit": "tezgâh",
+   "period": "",
+   "source_id": "malaga:kaynak:305",
+   "quote": "desde el más grande de todos, Atarazanas, que alberga 260 puestos, hasta el más pequeño, Pedregalejo"
+  },
+  {
+   "claim_id": "C-belediye-kapali-pazar-yerleri-mercados-municipales-hangileri-nerede-4",
+   "field": "summary",
+   "claim": "Atarazanas 1979'da Bien de Interés Cultural ilan edildi, halk arasında mercado central denir",
+   "value": "1979",
+   "unit": "yıl",
+   "period": "",
+   "source_id": "malaga:kaynak:305",
+   "quote": "fue declarado Bien de Interés Cultural en 1979"
+  },
+  {
+   "claim_id": "C-belediye-kapali-pazar-yerleri-mercados-municipales-hangileri-nerede-5",
+   "field": "summary",
+   "claim": "Taze ürünler faaliyetin %66,30'unu oluşturur",
+   "value": "66,30",
+   "unit": "%",
+   "period": "",
+   "source_id": "malaga:kaynak:305",
+   "quote": "suponen el 66’30% de la actividad"
+  },
+  {
+   "claim_id": "C-belediye-kapali-pazar-yerleri-mercados-municipales-hangileri-nerede-6",
+   "field": "summary",
+   "claim": "Pazarlar belediyenin Mercados Municipales ve Vía Pública servisi tarafından doğrudan yönetilir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:305",
+   "quote": "La gestión de estos mercados la realiza directamente el Ayuntamiento de Málaga"
+  },
+  {
+   "claim_id": "C-belediye-kapali-pazar-yerleri-mercados-municipales-hangileri-nerede-7",
+   "field": "steps",
+   "claim": "Bailén pazarı Plaza de Bailén 8",
+   "value": "8",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:390",
+   "quote": "Plaza De Bailén, 8"
+  },
+  {
+   "claim_id": "C-belediye-kapali-pazar-yerleri-mercados-municipales-hangileri-nerede-8",
+   "field": "steps",
+   "claim": "Carranque pazarı Calle Virgen de la Esperanza 18",
+   "value": "18",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:390",
+   "quote": "C/ Virgen De La Esperanza, 18"
+  },
+  {
+   "claim_id": "C-belediye-kapali-pazar-yerleri-mercados-municipales-hangileri-nerede-9",
+   "field": "steps",
+   "claim": "Churriana pazarı Plaza Mayor 6",
+   "value": "6",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:390",
+   "quote": "C/ Plaza Mayor, 6"
+  },
+  {
+   "claim_id": "C-belediye-kapali-pazar-yerleri-mercados-municipales-hangileri-nerede-10",
+   "field": "steps",
+   "claim": "Dos Hermanas pazarı Calle Ingeniero Díaz Pettersen 10",
+   "value": "10",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:390",
+   "quote": "C/ Ingeniero Díaz Pettersen, 10"
+  },
+  {
+   "claim_id": "C-belediye-kapali-pazar-yerleri-mercados-municipales-hangileri-nerede-11",
+   "field": "summary",
+   "claim": "El Carmen belediye pazarlarından biridir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:305",
+   "quote": "Mercado de El Carmen"
+  },
+  {
+   "claim_id": "C-belediye-kapali-pazar-yerleri-mercados-municipales-hangileri-nerede-12",
+   "field": "summary",
+   "claim": "García Grana belediye pazarlarından biridir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:305",
+   "quote": "Mercado de García Grana"
+  },
+  {
+   "claim_id": "C-belediye-kapali-pazar-yerleri-mercados-municipales-hangileri-nerede-13",
+   "field": "summary",
+   "claim": "La Merced belediye pazarlarından biridir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:305",
+   "quote": "Mercado de La Merced"
+  },
+  {
+   "claim_id": "C-belediye-kapali-pazar-yerleri-mercados-municipales-hangileri-nerede-14",
+   "field": "summary",
+   "claim": "Portada Alta belediye pazarlarından biridir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:305",
+   "quote": "Mercado de Portada Alta"
+  },
+  {
+   "claim_id": "C-belediye-kapali-pazar-yerleri-mercados-municipales-hangileri-nerede-15",
+   "field": "summary",
+   "claim": "Salamanca belediye pazarlarından biridir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:305",
+   "quote": "Mercado de Salamanca"
+  },
+  {
+   "claim_id": "C-belediye-kapali-pazar-yerleri-mercados-municipales-hangileri-nerede-16",
+   "field": "steps",
+   "claim": "Ciudad Jardín pazarı Avenida Santiago Ramón y Cajal 148",
+   "value": "148",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:390",
+   "quote": "Avda. Santiago Ramón Y Cajal, 148"
+  },
+  {
+   "claim_id": "C-belediye-kapali-pazar-yerleri-mercados-municipales-hangileri-nerede-17",
+   "field": "steps",
+   "claim": "Atarazanas pazarı Calle Atarazanas'tadır (numara kaynakta 10 ve 8 olarak çelişkili, yazılmadı)",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:390",
+   "quote": "Calle Atarazanas"
+  }
+ ],
+ "adimlar": [],
+ "butonlar": [
+  {
+   "action_id": "malaga:action:belediye-kapali-pazar-yerleri-mercados-municipales-hangileri-nerede-1",
+   "label": "Bilgi al",
+   "url": "https://mercadosmunicipalesyviapublica.malaga.eu/"
+  },
+  {
+   "action_id": "malaga:action:belediye-kapali-pazar-yerleri-mercados-municipales-hangileri-nerede-2",
+   "label": "Bilgi al",
+   "url": "https://mercadillos.malaga.eu/mercadillos/"
+  }
+ ]
+}
+
+===== KART 19/19: malaga:parque-de-malaga-ve-pedro-luis-alonso-bahceleri-sehir-merkezinde-tarihi-parklar =====
+{
+ "entry_id": "malaga:parque-de-malaga-ve-pedro-luis-alonso-bahceleri-sehir-merkezinde-tarihi-parklar",
+ "city_id": "malaga",
+ "slug": "parque-de-malaga-ve-pedro-luis-alonso-bahceleri-sehir-merkezinde-tarihi-parklar",
+ "title": "Şehrin ortasındaki Parque de Málaga ve Pedro Luis Alonso Bahçeleri nerede, neler görürsün?",
+ "subtitle": "Paseo del Parque'te 3,3 hektarlık subtropikal park; belediye binasının yanında 1947 tarihli 6.500 m²'lik bahçe",
+ "summary": "Parque de Málaga, Paseo del Parque'te, şehir merkezindedir ve 3,3 hektarlık bir alana yayılır. 1896 tarihli bir yasadan doğmuştur; 19. yüzyıl sonunda denizden kazanılan arazi üzerine kurulmuştur. Tropikal ve subtropikal türler, palmiyeler, ejder ağaçları, doğu çınarları ve incir ağaçlarının yanında çok sayıda çeşme ve anıt görürsün. Palmeral de las Sorpresas'a yakındır ve Avrupa'nın en iyi açık subtropikal bahçelerinden biri sayılır. Belediye binasının doğu yanında, Avenida Cervantes, Calle Roma ve Calle Guillén Sotelo arasında 1947'de çizilmiş 6.500 m²'lik Jardines Pedro Luis Alonso vardır; bankında oturabilir, bahçeyi Alcazaba ve Gibralfaro Kalesi'nden de görebilirsin.",
+ "keywords": "Parque de Málaga, Pedro Luis Alonso, tarihi park, subtropikal bahçe, Paseo del Parque, merkez, yürüyüş",
+ "stages": "planning;new;settled",
+ "source_ids": "malaga:kaynak:328;malaga:kaynak:336",
+ "reviewed_on": "2026-10-27",
+ "order": 1218,
+ "featured": "Hayır",
+ "editorial_status": "Taslak",
+ "topic_id": "malaga:kesif",
+ "steps": "Parque de Málaga'ya Paseo del Parque'ten gir; çeşmeleri, anıtları ve subtropikal bitkileri gez.\nPalmeral de las Sorpresas'ı da yürüyüşüne kat; Parque'ye çok yakındır.\nJardines Pedro Luis Alonso'ya belediye binasının doğu yanından, Avenida Cervantes - Calle Roma - Calle Guillén Sotelo arasından gir.",
+ "documents": "",
+ "timing": "",
+ "cost": "",
+ "note": "",
+ "visual_json": "",
+ "_sekme": "Yanıtlar",
+ "kaynaklar": [
+  {
+   "source_id": "malaga:kaynak:328",
+   "url": "https://medioambiente.malaga.eu/parques-y-jardines/parques-y-jardines-de-malaga/detalle-del-parque/El-Parque-de-Malaga-00001/",
+   "publisher": "Ayuntamiento de Málaga - Área de Sostenibilidad Medioambiental",
+   "text_file": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\malaga\\_is\\snap_kesif_mekan\\cbf676184b35a9ac8d28b8bf990bceb3d15942dce0c79e684f4ea96f3d182ea3.txt"
+  },
+  {
+   "source_id": "malaga:kaynak:336",
+   "url": "https://medioambiente.malaga.eu/parques-y-jardines/parques-y-jardines-de-malaga/detalle-del-parque/Jardines-Pedro-Luis-Alonso/",
+   "publisher": "Ayuntamiento de Málaga - Área de Sostenibilidad Medioambiental",
+   "text_file": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\malaga\\_is\\snap_kesif_mekan\\5a1b92a2f9fde92eafb3236572a4d93a8512d1e75adcc934168cf4f9d988bffe.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-parque-de-malaga-ve-pedro-luis-alonso-bahceleri-sehir-merkezinde-tarihi-parklar-1",
+   "field": "summary",
+   "claim": "Parque de Málaga Paseo del Parque'tedir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:328",
+   "quote": "Paseo del Parque"
+  },
+  {
+   "claim_id": "C-parque-de-malaga-ve-pedro-luis-alonso-bahceleri-sehir-merkezinde-tarihi-parklar-2",
+   "field": "summary",
+   "claim": "Parque merkezdedir ve 3,3 hektardır",
+   "value": "3,3",
+   "unit": "hektar",
+   "period": "",
+   "source_id": "malaga:kaynak:328",
+   "quote": "con una extensión de 3.3 hectáreas"
+  },
+  {
+   "claim_id": "C-parque-de-malaga-ve-pedro-luis-alonso-bahceleri-sehir-merkezinde-tarihi-parklar-3",
+   "field": "summary",
+   "claim": "Parkın kökeni 1896 tarihli bir yasaya dayanır",
+   "value": "1896",
+   "unit": "yıl",
+   "period": "",
+   "source_id": "malaga:kaynak:328",
+   "quote": "teniendo su origen en una ley de 1896"
+  },
+  {
+   "claim_id": "C-parque-de-malaga-ve-pedro-luis-alonso-bahceleri-sehir-merkezinde-tarihi-parklar-4",
+   "field": "summary",
+   "claim": "Parkın arazisi 19. yüzyıl sonunda denizden kazanılmıştır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:328",
+   "quote": "se le ganaron terrenos al mar a finales del siglo XIX"
+  },
+  {
+   "claim_id": "C-parque-de-malaga-ve-pedro-luis-alonso-bahceleri-sehir-merkezinde-tarihi-parklar-5",
+   "field": "summary",
+   "claim": "Avrupa'nın en iyi açık subtropikal bahçelerinden biri sayılır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:328",
+   "quote": "uno de los mejores jardines subtropicales abiertos de Europa"
+  },
+  {
+   "claim_id": "C-parque-de-malaga-ve-pedro-luis-alonso-bahceleri-sehir-merkezinde-tarihi-parklar-6",
+   "field": "summary",
+   "claim": "Palmeral de las Sorpresas'a yakındır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:328",
+   "quote": "Su cercanía con el \"Palmeral de las Sorpresas\""
+  },
+  {
+   "claim_id": "C-parque-de-malaga-ve-pedro-luis-alonso-bahceleri-sehir-merkezinde-tarihi-parklar-7",
+   "field": "summary",
+   "claim": "Jardines Pedro Luis Alonso Avenida Cervantes - Calle Roma - Calle Guillén Sotelo arasındadır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:336",
+   "quote": "Avda. Cervantes - Calle Roma - Calle Guillén Sotelo"
+  },
+  {
+   "claim_id": "C-parque-de-malaga-ve-pedro-luis-alonso-bahceleri-sehir-merkezinde-tarihi-parklar-8",
+   "field": "summary",
+   "claim": "Bahçeler 1947'de çizilmiştir",
+   "value": "1947",
+   "unit": "yıl",
+   "period": "",
+   "source_id": "malaga:kaynak:336",
+   "quote": "Fueron trazados en 1947"
+  },
+  {
+   "claim_id": "C-parque-de-malaga-ve-pedro-luis-alonso-bahceleri-sehir-merkezinde-tarihi-parklar-9",
+   "field": "summary",
+   "claim": "Bahçeler 6.500 m²'dir",
+   "value": "6.500",
+   "unit": "m²",
+   "period": "",
+   "source_id": "malaga:kaynak:336",
+   "quote": "6.500 metros cuadrados"
+  },
+  {
+   "claim_id": "C-parque-de-malaga-ve-pedro-luis-alonso-bahceleri-sehir-merkezinde-tarihi-parklar-10",
+   "field": "summary",
+   "claim": "Bahçeler belediye binasının doğu yanındadır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:336",
+   "quote": "lateral este del Ayuntamiento"
+  },
+  {
+   "claim_id": "C-parque-de-malaga-ve-pedro-luis-alonso-bahceleri-sehir-merkezinde-tarihi-parklar-11",
+   "field": "summary",
+   "claim": "Bahçe Alcazaba ve Gibralfaro Kalesi'nden görülebilir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:336",
+   "quote": "desde las alturas de la Alcazaba de Málaga y del Castillo de Gibralfaro"
+  }
+ ],
+ "adimlar": [],
+ "butonlar": [
+  {
+   "action_id": "malaga:action:parque-de-malaga-ve-pedro-luis-alonso-bahceleri-sehir-merkezinde-tarihi-parklar-1",
+   "label": "Bilgi al",
+   "url": "https://medioambiente.malaga.eu/parques-y-jardines/parques-y-jardines-de-malaga/detalle-del-parque/El-Parque-de-Malaga-00001/"
+  },
+  {
+   "action_id": "malaga:action:parque-de-malaga-ve-pedro-luis-alonso-bahceleri-sehir-merkezinde-tarihi-parklar-2",
+   "label": "Bilgi al",
+   "url": "https://medioambiente.malaga.eu/parques-y-jardines/parques-y-jardines-de-malaga/detalle-del-parque/Jardines-Pedro-Luis-Alonso/"
+  }
+ ]
+}

@@ -5,7 +5,8 @@
     "C:\\temp_private\\corteqs\\0000_newera\\uretim\\malaga\\_is\\data\\parcalar\\Mekânlar.m1.jsonl",
     "C:\\temp_private\\corteqs\\0000_newera\\uretim\\malaga\\_is\\data\\parcalar\\Mekânlar.m2.jsonl",
     "C:\\temp_private\\corteqs\\0000_newera\\uretim\\malaga\\_is\\data\\parcalar\\Mekânlar.m3.jsonl",
-    "C:\\temp_private\\corteqs\\0000_newera\\uretim\\malaga\\_is\\data\\parcalar\\Mekânlar.m4.jsonl"
+    "C:\\temp_private\\corteqs\\0000_newera\\uretim\\malaga\\_is\\data\\parcalar\\Mekânlar.m4.jsonl",
+    "C:\\temp_private\\corteqs\\0000_newera\\uretim\\malaga\\_is\\data\\parcalar\\Mekânlar.m5.jsonl"
   ],
   "kaynaklar": [
     "C:\\temp_private\\corteqs\\0000_newera\\uretim\\malaga\\_is\\kaynak_dizini.jsonl"
@@ -13,41 +14,47 @@
   "min_year": 2025,
   "mekan": 120,
   "tarama": {
-    "dosya": 8,
-    "satir": 121,
-    "mekan": 121
+    "dosya": 9,
+    "satir": 140,
+    "mekan": 140
   },
   "dogrulama": {
-    "dosya": 8,
-    "satir": 88
+    "dosya": 9,
+    "satir": 96
   },
   "durum": {
-    "açık": 66,
-    "belirsiz": 54,
+    "açık": 81,
+    "belirsiz": 58,
     "insaat": 1
   },
   "eylem": {
-    "dokunma": 84,
+    "dokunma": 92,
     "kartta belirt": 4
   },
   "sonuc": {
-    "onay": 60,
-    "ret": 28
+    "onay": 65,
+    "ret": 31
   },
   "listede_olmayan": {
-    "tarama": 1,
-    "dogrulama": 1
+    "tarama": 20,
+    "dogrulama": 16
   },
   "findings": [
     {
-      "code": "bos_alinti",
-      "entry_id": "malaga:playa-de-la-arana",
-      "where": "doga_dogrulama.jsonl:18",
-      "message": "kanit_alinti boş: kararın birebir alıntısı yok"
+      "code": "not_yok",
+      "entry_id": "malaga:parque-forestal-comandante-benitez",
+      "where": "doga_dogrulama.jsonl:1",
+      "message": "'kartta belirt' kartında 2026 ya da sonrası tarihli not yok (Mekânlar.m2.jsonl:13): '<gün> <ay> <yıl> itibarıyla …' cümlesi bekleniyor"
+    },
+    {
+      "code": "not_yok",
+      "entry_id": "malaga:playa-de-pedregalejo",
+      "where": "doga_dogrulama.jsonl:21",
+      "message": "'kartta belirt' kartında 2026 ya da sonrası tarihli not yok (Mekânlar.m2.jsonl:16): '<gün> <ay> <yıl> itibarıyla …' cümlesi bekleniyor"
     }
   ],
   "by_code": {
-    "bos_alinti": 1
+    "not_yok": 2
   },
   "out": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\malaga\\_is\\acik_mi_rapor.json"
 }

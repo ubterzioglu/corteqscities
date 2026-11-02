@@ -1,0 +1,45 @@
+AÇIK KONULAR
+- ek kontrol, resmî sayıya dahil değil: homepage_only_sources — 1
+- Envanter: dup_sha — 24 (örnek: {"sha256": "128441a8a2ac4071da620f4592f2053386ac10e283f5a123cb1009450bf0787a", "files": ["Lisans kanıtları/kap)
+- # Málaga (CITY-075) — açık konular
+- Bu paket yapay zekâ taslağıdır; insan incelemesi ve onayı yoktur. Aşağıdaki maddeler teslim anında açıktır.
+- ## Erişim ve şablon
+- OI-001 (P2, insan): malaga.es (Diputación), sede.administracionespublicas.gob.es (cita previa) ve mivau.gob.es 403 veriyor; huvv.es, aena.es, bibliotecas.malaga.eu, gmu.malaga.eu TLS sertifika hatası veriyor (doğrulama kapatılmadı); sede.malaga.eu ve deportes.malaga.eu JS ile yükleniyor. Bilgi başka resmî kurumlardan alındı; bu sitelerin erişim teyidi açık.
+- OI-002 (P2, Atınç): Şablonda delivery_id büyük harfli (CITY-075-v001); resmî doğrulayıcı reddediyor. Yalnız çalışma kopyasında city-075-v001 yapıldı.
+- OI-003 (P2, Atınç): Şehir.priority alanının anlamı sözleşmede tanımsız (3 korundu); Şehir.source_url (Kapsam kaynağı) şablonda InterNations listesi, anlamı soruldu.
+- OI-004 (P2, insan): İspanya ülke paketi 05.11.2026'ya kadar geçerli (kira kartları); bu tarihten sonra ülke paketi güncellenmeli.
+- ## Kaynakta bulunamayan bilgiler (kartlar kaynağın dediğiyle sınırlandı)
+- Oturum: NIE/TIE cita previa yolu ve yabancılar ofisinin adı/adresi; vize harcı; kâr amacı gütmeyen oturum vizesinde 2026 gelir şartı tutarları (yalnız Yeni Delhi büyükelçiliği sayfasında var, İstanbul konsolosluğu sayfasında yok; karta yazılmadı); arraigo için EX10 formu bilgisi; dijital göçebe vizesinde başvuru yeri ve karar süresi; ücretli/serbest çalışma yenilemesinde başvuru ofisi; vatandaşlık harcı.
+- Resmî işlemler: TA.1 formu ve NUSS başvuru yeri/süresi (TGSS NAF sayfası gerekir); vida laboral ücretsizliği; FNMT/Clave için kimlik belgesi, ücret ve Málaga AEAT ofisi; ehliyet değişiminde (canje) ücret; Jefatura Provincial de Tráfico adresi; apostil yüz yüze yeri/ücreti.
+- Aile: okul başvuru dönemi Junta sayfalarında çelişkili (takvim 1 Mart–7 Nisan; SSS 1–31 Mart), kartlarda atıfla; Libro de Familia kaynakları doğum ve Registro Civil kartlarına 2 kaynak sınırı yüzünden eklenemedi (yönlendirme var); UNEDasiss/PCE ücret ve takvimi; okul yemeği/aula matinal fiyatı ve bonificación; Seguridad Social aile ödenekleri sayfası; CSSC aile ekonomik yardımı yönetmeliği (PDF eklenemedi); Registro Civil randevusu.
+- Ev ve faturalar: Konut Hakkı Ofisi güncel hizmet sayfası; korumalı konut talep sicili ücreti; EMASA abonelik/tarife ve itiraz formu sayfaları; EMASA fondo social 2026 son başvuru kuralı (PDF metin olarak alınamadı); IVTM 2026 tarifesi (PDF); IBI yalnız 2024 oranı; kira düzeyi; turistik daire askı kararı.
+- Günlük yaşam ve ulaşım: polise suç duyurusu ücreti ve ofis saatleri; padrón belge/ücreti; Bizum yalnız 2021 bilgisi; Cercanías tekil bilet tutarı; Consorcio bilet ücretleri; ZBE yabancı plaka kuralı; ITV ücret/randevu; belediye bisikleti; gürültü yönetmeliği; evcil hayvan 7 ay/3 ay kuralı 2026/131 ile karşılaştırılmadı.
+- Eczane bağlantısı (Sayfa: pharmacy_url): yerel resmî Málaga Eczacılar Odası sayfası kaynak dizininde yok; ulusal konseyin Málaga'ya süzülmüş listesi kullanılıyor.
+- Etkinlik takvimi: Feria/Semana Santa 2027 tarihleri.
+- ## Mekânlar
+- Ayuntamiento ve Palacio Episcopal yalnız adresle kısa tutuldu (silmek mekân sayısını 120'nin altına indirir).
+- La Farola: iç ziyaret bilgisi yok. Katedral: ikinci saat tablosu yılsız.
+- Comandante Benítez orman parkı: Campamento Benítez ile aynı yer olduğu kaynakta yok; kart yalnız belediye sayfasına daraltıldı, ziyaret durumu bilinmiyor. Pedregalejo durumu haber kaynaklı.
+- Baños del Carmen: 9 Eylül 2026 haberi. Mercado de Ciudad Jardín: iki adres; koordinatın hangisine ait olduğu kaynaktan belli değil.
+- MIMMA çift kaydı (K108) açık. Casa Natal Picasso, CAC/MUCAC resmî sayfaları 403.
+- Inacua (centro-acuatico-de-malaga): 2025 kapanış izi ve kaynakta ad-adres karışıklığı (kaynak 419).
+- Museo Cofradía de Estudiantes: kardeşliğin resmî ziyaret sayfası yok; saat, ücret ve açık olup olmadığı bilinmiyor.
+- Antigua Casa de Guardia (öne çıkan mekân): kapı numarası ve saatler yalnız tavernanın ana sayfasında; /contacto/ ve /equipo/ sayfalarının kopyası ince çıktı (reddedildi). Kart kaynağın dediğiyle sınırlı.
+- Auditorio Curro Román: kaynakta adres ve koordinattan başka bilgi yok; kart park kartına yönlendiriyor. Inacua kartında slug ile başlık uyumsuz (slug değişmez).
+- Mahalle: ciudad-jardin ulaşım alanı yalnız konum bilgisi; teatinos "Gündelik hizmetler" alanı park anlatımı; ensanche-centro ve la-victoria başlıkları kaynakta geçmeyen semt adı taşıyor.
+- Real Club Mediterráneo, UMA spor kompleksi, Sala María Cristina, Principia, Echegaray, Soho: halka açık saat/ücret/üyelik bilgisi kaynaklarda kısmen ya da hiç yok.
+- Centro Andaluz de las Letras, Ecomuseo Lagar de Torrijos, Abadía de Santa Ana: açık gün/saat kaynakta yok.
+- UMA botanik bahçesi sitesi çalışmıyor.
+- ## Fotoğraf
+- İkinci kaynaklar (Openverse/Europeana) hız sınırı yüzünden kullanılamadı; ek hak taşıyan kareler elendi.
+- Görsel kalite: 342 karenin 34'ü işaretli (33 güçlü kırpma: dikey ya da çok geniş kare; 1 düşük çözünürlük). Sitenin kırpması önizlemede kesinleşir.
+- ## Bağlantılar
+- 439 adresin 438'i çalışıyor; 1 resmî sayfa 403 veriyor (erişim teyidi açık), 2 adres başka alan adına yönlendiriyor.
+- ## Kanıt kapsamı (teslimde)
+- Dış denetim modeline göre puan alt sınırı %91,62 (önizlemeyle en çok %96,62). Kısmi ölçütler: A1–A5 (244 kartın 231'i; 13 kartta doğrulayıcının bulduğu bilgi eksiği kaynakta olmadığı için kapanmadı), B1/B5 (18 mekânda son mekân doğrulaması "kaldı": kaynakta ziyaret saati/ücreti yok), C4 (34 kare kırpma işareti). Ayrıntı _is\kanit_kapsami.json.
+- ## Kalite zinciri
+- Kart başına en çok 2 kaynak kuralı yüzünden bazı işlem kartlarında (arraigo, kâr amacı gütmeyen oturum, kreş, Registro Civil) kaynak seçimi tutarlılık turunda yeniden yapıldı; ikiliye sığmayan bilgi karttan çıktı.
+- Rotalar 4–6 kaynak taşıyor (durak ve iddia kaynakları); "kart başına ≤2 kaynak" bulgusu rotalarda gerekçeyle reddedildi.
+- Son denetimin (d5) doğrulama turundan sonra kalan hafif bulgular ayrı turla kapatılmadı (kural: tek doğrulama turu).
+
+Editör ve hak incelemesi ayrıca gereklidir.

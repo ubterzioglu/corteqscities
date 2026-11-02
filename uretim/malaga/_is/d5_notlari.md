@@ -8,3 +8,7 @@
 - aile: dogan-bebegin-registro-civil kartında Málaga Registro Civil ofis adresi/telefonu yok (K26 nereye); bilgi malaga-registro-civil-ofisi kartında var — değiştir-boşalt ile kaynak eklenebilir.
 - aile: okul başvuru dönemi Junta sayfalarında çelişkili (takvim 1 Mart–7 Nisan; SSS 1–31 Mart) — kartlarda atıfla yazıldı; tutarlılık turunda tek dil.
 - aile + gunluk: doğrulayıcının hafif hatali_duzeltme/eksik_kalan satırları doğrulama turunun kapsamı dışında kaldı (aile 11, gunluk 2) — d5 denetimi yeniden bakacak.
+- Tutarlılık turu (27.10–28.10): 10 kart değişti (tutarlilik_degisiklik.jsonl); d5 bunları denetler.
+- Aynı konuyu işleyen kart çiftleri (K27/K28, görev 5): iki OMAC, iki IBI, iki mobilya, iki punto limpio, iki Cercanías–Consorcio, iki belediye yabancı hukuki danışma (010) kartı — d5 editörü birleştirsin ya da ayrıştırsın (slug'ı başka sekmede kullanılan silinmez; advice_entry = belediye-yabancilar-hukuki-danisma-010).
+- Sözlük term:013 (Libro de familia): 30.4.2021'den beri yeni cüzdan verilmediği tanıma eklenecek.
+- Mekân tekrarları: MIMMA iki kayıt (K108) — birini sil; Cerrado de Calderón kaynağı El Morlaco'yu anlatıyor — birleştir/sil; Ayuntamiento ve Palacio Episcopal kaynakları yalnız adres veriyor.

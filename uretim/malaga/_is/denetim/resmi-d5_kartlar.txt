@@ -1,0 +1,4138 @@
+===== KART 1/21: malaga:empadronamiento-nedir-neden-gerekir =====
+{
+ "entry_id": "malaga:empadronamiento-nedir-neden-gerekir",
+ "city_id": "malaga",
+ "slug": "empadronamiento-nedir-neden-gerekir",
+ "title": "Empadronamiento (belediye nüfus kaydı) nedir, neden gerekir?",
+ "subtitle": "İspanya'da yaşayan herkes oturduğu belediyenin Padrón kaydına yazılmak zorunda",
+ "summary": "Empadronamiento, oturduğun belediyenin Padrón (belediye nüfus sicili) kaydına yazılmandır. İspanya'da yaşayan herkes düzenli olarak oturduğu belediyenin Padrón'una kayıt olmak zorunda; birden çok belediyede yaşıyorsan yalnız yılın en uzun kısmını geçirdiğin belediyeye yazılırsın. Padrón belediyenin idari kaydıdır; verileri o belediyede oturduğunun ve adresinin kanıtı sayılır ve kayıt, çok sayıda idari işlem için ön şarttır. Kayıt olduğun anda o belediyenin vecino'su (hemşehrisi) olursun. Málaga'da padrón işlemini belediyenin OMAC ofislerinde ya da Tabacalera'daki Gestión Tributaria ofisinde (yalnız randevuyla) yaptırırsın.",
+ "keywords": "empadronamiento, padrón, belediye kaydı, nüfus kaydı, vecino, ikamet kanıtı, adres kaydı",
+ "stages": "new;settled",
+ "source_ids": "malaga:kaynak:017;malaga:kaynak:223",
+ "reviewed_on": "2026-10-27",
+ "order": 9014,
+ "featured": "Hayır",
+ "editorial_status": "Taslak",
+ "topic_id": "malaga:resmi",
+ "steps": "Düzenli olarak oturduğun belediyeyi belirle; birden çok belediyede yaşıyorsan yılın en uzun kısmını geçirdiğin belediye geçerli.\nO belediyenin Padrón'una kayıt ol; Málaga'da bunu OMAC ofislerinde ya da Gestión Tributaria ofisinde (yalnız randevuyla) yaptır.\nKayıt anından itibaren belediyenin vecino'su sayılırsın; adres ve ikamet kanıtı için belediyeden Padrón sertifikasını (certificado de empadronamiento) al.\nAB, AEA ya da anlaşmayla aynı rejimin tanındığı bir devletin vatandaşı değilsen ve uzun süreli oturum iznin yoksa kaydını her iki yılda bir yenile.",
+ "documents": "",
+ "timing": "",
+ "cost": "",
+ "note": "AB, AEA ve anlaşmayla aynı rejimin tanındığı devletlerin vatandaşları dışındaki, uzun süreli oturum izni olmayan yabancıların kaydı her iki yılda bir yenilenmek zorunda; yenilenmezse kayıt, ilgiliye önceden söz hakkı tanınmadan düşürülebilir.",
+ "visual_json": "",
+ "_sekme": "Yanıtlar",
+ "kaynaklar": [
+  {
+   "source_id": "malaga:kaynak:017",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392",
+   "publisher": "Agencia Estatal Boletín Oficial del Estado (BOE)",
+   "text_file": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\malaga\\_is\\snap_ulke_es\\malaga_kaynak_017_es_kaynak_018.txt"
+  },
+  {
+   "source_id": "malaga:kaynak:223",
+   "url": "https://gestrisam.malaga.eu/atencion-a-la-ciudadania/padron-de-habitantes/",
+   "publisher": "Ayuntamiento de Málaga (Gestión Tributaria)",
+   "text_file": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\malaga\\_is\\snap_kesif_aile\\a3a24834b9150215aca62262baf6362301520c2a293c77dfc9a9f183440c54d3.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-empadronamiento-nedir-neden-gerekir-1",
+   "field": "summary",
+   "claim": "İspanya'da yaşayan herkes oturduğu belediyenin Padrón'una kayıt olmak zorunda",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:017",
+   "quote": "Toda persona que viva en España está obligada a inscribirse en el Padrón del municipio en el que resida habitualmente."
+  },
+  {
+   "claim_id": "C-empadronamiento-nedir-neden-gerekir-2",
+   "field": "summary",
+   "claim": "Birden çok belediyede yaşayan yalnız yılın en uzun kısmını geçirdiği belediyeye kayıt olur",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:017",
+   "quote": "Quien viva en varios municipios deberá inscribirse únicamente en el que habite durante más tiempo al año."
+  },
+  {
+   "claim_id": "C-empadronamiento-nedir-neden-gerekir-3",
+   "field": "summary",
+   "claim": "Padrón belediyenin idari kaydıdır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:017",
+   "quote": "El Padrón municipal es el registro administrativo donde constan los vecinos de un municipio."
+  },
+  {
+   "claim_id": "C-empadronamiento-nedir-neden-gerekir-4",
+   "field": "summary",
+   "claim": "Padrón verileri belediyede oturmanın ve adresin kanıtıdır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:017",
+   "quote": "Sus datos constituyen prueba de la residencia en el municipio y del domicilio habitual en el mismo."
+  },
+  {
+   "claim_id": "C-empadronamiento-nedir-neden-gerekir-5",
+   "field": "summary",
+   "claim": "Vecino olma koşulu kayıt anında kazanılır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:017",
+   "quote": "La condición de vecino se adquiere en el mismo momento de su inscripción en el Padrón."
+  },
+  {
+   "claim_id": "C-empadronamiento-nedir-neden-gerekir-6",
+   "field": "note",
+   "claim": "AB, AEA ve anlaşmayla aynı rejimin tanındığı devletler dışındaki, uzun süreli oturum izni olmayan yabancıların kaydı iki yılda bir yenilenir",
+   "value": "2",
+   "unit": "yıl",
+   "period": "",
+   "source_id": "malaga:kaynak:017",
+   "quote": "deberá ser objeto de renovación periódica cada dos años cuando se trate de la inscripción de extranjeros sin autorización de residencia de larga duración"
+  },
+  {
+   "claim_id": "C-empadronamiento-nedir-neden-gerekir-7",
+   "field": "note",
+   "claim": "Yenilenmeyen kayıt için kayıt düşürme (caducidad) kararı verilebilir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:017",
+   "quote": "El transcurso del plazo señalado en el párrafo anterior será causa para acordar la caducidad de las inscripciones que deban ser objeto de renovación periódica"
+  },
+  {
+   "claim_id": "C-empadronamiento-nedir-neden-gerekir-8",
+   "field": "summary",
+   "claim": "Málaga'da padrón işlemi OMAC'larda ya da Gestión Tributaria ofisinde (yalnız randevuyla) yapılır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:223",
+   "quote": "En las oficinas municipales de atención a la ciudadanía (OMAC). En la oficina de Atención al ciudadano de Gestión Tributaria. (Exclusivamente con cita previa)"
+  },
+  {
+   "claim_id": "C-empadronamiento-nedir-neden-gerekir-9",
+   "field": "summary",
+   "claim": "Padrón kaydı çok sayıda idari işlem için ön şarttır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:223",
+   "quote": "la correcta inscripción en el Padrón Municipal de Habitantes es un requisito imprescindible para la realización de un gran número de trámites administrativos"
+  },
+  {
+   "claim_id": "C-empadronamiento-nedir-neden-gerekir-10",
+   "field": "steps",
+   "claim": "Padrón sertifikaları resmî belge değeri taşır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:017",
+   "quote": "Las certificaciones que de dichos datos se expidan tendrán carácter de documento público y fehaciente para todos los efectos administrativos."
+  }
+ ],
+ "adimlar": [],
+ "butonlar": [
+  {
+   "action_id": "malaga:action:empadronamiento-nedir-neden-gerekir-1",
+   "label": "Bilgi al",
+   "url": "https://gestrisam.malaga.eu/atencion-a-la-ciudadania/padron-de-habitantes/"
+  },
+  {
+   "action_id": "malaga:action:empadronamiento-nedir-neden-gerekir-2",
+   "label": "Bilgi al",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392"
+  }
+ ]
+}
+
+===== KART 2/21: malaga:certificado-ve-volante-farki =====
+{
+ "entry_id": "malaga:certificado-ve-volante-farki",
+ "city_id": "malaga",
+ "slug": "certificado-ve-volante-farki",
+ "title": "Certificado de empadronamiento ile volante arasındaki fark nedir?",
+ "subtitle": "Certificado kesin kanıt, volante yalnız bilgi belgesidir",
+ "summary": "Padrón kaydın için belediyeden iki tür belge isteyebilirsin: certificado (sertifika) ve volante (bilgi kâğıdı). Certificado, empadronamiento kaydını kesin delil olarak kanıtlayan belgedir ve resmî işlemlerde kamu belgesi sayılır. Kâğıt hâlindeki certificado'yu belediye sekreteri imzalar, belediye başkanı onaylar (ya da yerlerine bakanlar); imzalar elle ya da elektronik olabilir. Volante ise yalnız bilgi vermek için düzenlenen bir belgedir: certificado'daki biçim şartları aranmaz ve hiçbir belediye görevlisinin imzasını taşımaz.",
+ "keywords": "certificado de empadronamiento, volante de empadronamiento, padrón belgesi, ikamet belgesi, adres kanıtı",
+ "stages": "new;settled",
+ "source_ids": "malaga:kaynak:017;malaga:kaynak:018",
+ "reviewed_on": "2026-10-24",
+ "order": 9015,
+ "featured": "Hayır",
+ "editorial_status": "Taslak",
+ "topic_id": "malaga:resmi",
+ "steps": "Belediyenin Padrón servisinden certificado ya da volante iste; ikisi de elektronik yolla istenip verilebilir.\nBir işlemde kayıt kanıtı gerekiyorsa certificado'yu iste; volante yalnız bilgi verir.\nBelgeyi posta ya da kurye ile istersen belediye onu yalnız Padrón kaydındaki adrese gönderir.",
+ "documents": "",
+ "timing": "",
+ "cost": "",
+ "note": "Elektronik yolla istediğinde belediye erişimi yalnız ilgili kişiye açık tutmak zorunda; bunun için elektronik imza ya da kişisel şifre şart.",
+ "visual_json": "",
+ "_sekme": "Yanıtlar",
+ "kaynaklar": [
+  {
+   "source_id": "malaga:kaynak:017",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392",
+   "publisher": "Agencia Estatal Boletín Oficial del Estado (BOE)",
+   "text_file": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\malaga\\_is\\snap_ulke_es\\malaga_kaynak_017_es_kaynak_018.txt"
+  },
+  {
+   "source_id": "malaga:kaynak:018",
+   "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2020-4784",
+   "publisher": "Agencia Estatal Boletín Oficial del Estado (BOE)",
+   "text_file": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\malaga\\_is\\snap_ulke_es\\malaga_kaynak_018_es_kaynak_019.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-certificado-ve-volante-farki-1",
+   "field": "summary",
+   "claim": "Certificado empadronamiento kaydını kesin delil olarak kanıtlar",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:018",
+   "quote": "La certificación es el documento que acredita fehacientemente el hecho del empadronamiento."
+  },
+  {
+   "claim_id": "C-certificado-ve-volante-farki-2",
+   "field": "summary",
+   "claim": "Padrón certificado'ları resmî işlemlerde kamu belgesi sayılır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:017",
+   "quote": "Las certificaciones que de dichos datos se expidan tendrán carácter de documento público y fehaciente para todos los efectos administrativos."
+  },
+  {
+   "claim_id": "C-certificado-ve-volante-farki-3",
+   "field": "summary",
+   "claim": "Kâğıt certificado'yu belediye sekreteri imzalar, belediye başkanı onaylar",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:018",
+   "quote": "la certificación emitida en papel debe estar suscrita por el Secretario del Ayuntamiento y conformada por el Alcalde, o por quienes les sustituyan"
+  },
+  {
+   "claim_id": "C-certificado-ve-volante-farki-4",
+   "field": "summary",
+   "claim": "İmzalar elle ya da elektronik olabilir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:018",
+   "quote": "ya sea mediante firmas manuscritas o electrónicas conforme a la legislación vigente"
+  },
+  {
+   "claim_id": "C-certificado-ve-volante-farki-5",
+   "field": "summary",
+   "claim": "Volante yalnız bilgi amaçlı belgedir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:018",
+   "quote": "los Ayuntamientos podrán expedir volantes de empadronamiento, como documentos de carácter puramente informativo"
+  },
+  {
+   "claim_id": "C-certificado-ve-volante-farki-6",
+   "field": "summary",
+   "claim": "Volante hiçbir belediye görevlisinin imzasını gerektirmez",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:018",
+   "quote": "el volante de empadronamiento no requiere la firma de ningún funcionario o autoridad municipal"
+  },
+  {
+   "claim_id": "C-certificado-ve-volante-farki-7",
+   "field": "steps",
+   "claim": "Volante ve certificado elektronik yolla istenip verilebilir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:018",
+   "quote": "Los volantes y certificados de empadronamiento podrán ser solicitados y, o expedidos por medios electrónicos."
+  },
+  {
+   "claim_id": "C-certificado-ve-volante-farki-8",
+   "field": "steps",
+   "claim": "Postayla gönderim yalnız Padrón kaydındaki adrese yapılır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:018",
+   "quote": "el envío se dirigirá, en todo caso, a la dirección postal que figura en la propia inscripción padronal"
+  },
+  {
+   "claim_id": "C-certificado-ve-volante-farki-9",
+   "field": "note",
+   "claim": "Elektronik erişimde elektronik imza ya da kişisel şifre şart",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:018",
+   "quote": "Se considera, a estos efectos, imprescindible el uso de firma electrónica o el acceso por contraseña personal."
+  }
+ ],
+ "adimlar": [],
+ "butonlar": [
+  {
+   "action_id": "malaga:action:certificado-ve-volante-farki-1",
+   "label": "Bilgi al",
+   "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2020-4784"
+  }
+ ]
+}
+
+===== KART 3/21: malaga:sosyal-guvenlik-numarasi-alma =====
+{
+ "entry_id": "malaga:sosyal-guvenlik-numarasi-alma",
+ "city_id": "malaga",
+ "slug": "sosyal-guvenlik-numarasi-alma",
+ "title": "Sosyal güvenlik numarası (Seguridad Social, NAF/NUSS) nasıl alınır?",
+ "subtitle": "Çevrimiçi hizmetle ya da TA.1 formuyla",
+ "summary": "Sosyal güvenlik numarası NAF ya da NUSS adıyla geçer. Numarayı TGSS portalındaki \"Solicitar el número de Seguridad Social\" hizmetiyle çevrimiçi alabilirsin. Bu hizmete erişemiyorsan \"TA.1 - Solicitud de afiliación a la Seguridad Social, Asignación de Número de Seguridad Social y Variación de datos\" formunu doldurup imzalayarak sunarsın.",
+ "keywords": "sosyal güvenlik numarası, Seguridad Social, NAF, NUSS, TA.1, afiliación, TGSS",
+ "stages": "new;settled",
+ "source_ids": "malaga:kaynak:019",
+ "reviewed_on": "2026-10-24",
+ "order": 9016,
+ "featured": "Hayır",
+ "editorial_status": "Taslak",
+ "topic_id": "malaga:resmi",
+ "steps": "TGSS portalında \"Solicitar el número de Seguridad Social\" hizmetini aç ve numarayı çevrimiçi iste.\nHizmete erişemiyorsan TA.1 formunu eksiksiz doldur, imzala ve sun.\nEv işinde çalışacaksan numaranın hazır olduğundan emin ol; işverenin seni numaran olmadan kayda geçiremez.",
+ "documents": "TA.1 formu (çevrimiçi hizmete erişemezsen)",
+ "timing": "",
+ "cost": "",
+ "note": "Ev hizmetlisi olarak (Sistema Especial para Empleados de Hogar) çalışacaksan işverenin seni kayda geçirmesi için bu numaranın olması şart; işveren tarafında da hane için bir CCC (Código de Cuenta de Cotización) gerekir.",
+ "visual_json": "",
+ "_sekme": "Yanıtlar",
+ "kaynaklar": [
+  {
+   "source_id": "malaga:kaynak:019",
+   "url": "https://www.seg-social.es/wps/portal/wss/internet/Trabajadores/Afiliacion/10817/31190/2194/160060?changeLanguage=es",
+   "publisher": "Seguridad Social (Tesorería General de la Seguridad Social)",
+   "text_file": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\malaga\\_is\\snap_ulke_es\\malaga_kaynak_019_es_kaynak_020.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-sosyal-guvenlik-numarasi-alma-1",
+   "field": "summary",
+   "claim": "NAF/NUSS çevrimiçi hizmetle alınabilir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:019",
+   "quote": "El NAF/NUSS se puede obtener de forma telemática a través del servicio"
+  },
+  {
+   "claim_id": "C-sosyal-guvenlik-numarasi-alma-2",
+   "field": "summary",
+   "claim": "Çevrimiçi hizmetin adı ve yeri",
+   "value": "Solicitar el número de Seguridad Social",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:019",
+   "quote": "“Solicitar el número de Seguridad Social” disponible en el Portal de la TGSS"
+  },
+  {
+   "claim_id": "C-sosyal-guvenlik-numarasi-alma-3",
+   "field": "summary",
+   "claim": "Hizmete erişilemezse imzalı TA.1 formu sunulur",
+   "value": "TA.1",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:019",
+   "quote": "En el supuesto de no poder acceder a este servicio, se podrá presentar debidamente cumplimentado y firmado el modelo"
+  },
+  {
+   "claim_id": "C-sosyal-guvenlik-numarasi-alma-4",
+   "field": "summary",
+   "claim": "TA.1 formunun adı",
+   "value": "TA.1",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:019",
+   "quote": "Solicitud de afiliación a la Seguridad Social, Asignación de Número de Seguridad Social y Variación de datos"
+  },
+  {
+   "claim_id": "C-sosyal-guvenlik-numarasi-alma-5",
+   "field": "note",
+   "claim": "Ev hizmetlisi kaydı için NAF/NUSS gerekir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:019",
+   "quote": "El alta de una persona empleada de hogar en el Sistema Especial para Empleados de Hogar requiere que ésta disponga del Número de Afiliación (NAF) o de Seguridad Social (NUSS)."
+  },
+  {
+   "claim_id": "C-sosyal-guvenlik-numarasi-alma-6",
+   "field": "note",
+   "claim": "Ev işi için hane sahibinin CCC'si olmalı",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:019",
+   "quote": "el titular del hogar familiar deberá disponer de un Código de Cuenta de Cotización (CCC) para el Sistema Especial para Empleados de Hogar"
+  }
+ ],
+ "adimlar": [],
+ "butonlar": [
+  {
+   "action_id": "malaga:action:sosyal-guvenlik-numarasi-alma-1",
+   "label": "Bilgi al",
+   "url": "https://www.seg-social.es/wps/portal/wss/internet/Trabajadores/Afiliacion/10817/31190/2194/160060?changeLanguage=es"
+  }
+ ]
+}
+
+===== KART 4/21: malaga:vida-laboral-raporu-alma =====
+{
+ "entry_id": "malaga:vida-laboral-raporu-alma",
+ "city_id": "malaga",
+ "slug": "vida-laboral-raporu-alma",
+ "title": "Vida laboral (çalışma geçmişi raporu) nasıl alınır?",
+ "subtitle": "Seguridad Social kayıt ve çıkış geçmişin PDF olarak, çevrimiçi",
+ "summary": "Vida laboral raporu, Seguridad Social'daki tüm kayıt (alta) ve çıkış (baja) durumlarını ve kaç gün kayıtlı kaldığını gösterir. İstediğin zaman isteyebilirsin; rapor o günün güncel bilgisini verir. Seguridad Social'a hiç kayıtlı olmadıysan rapor alamazsın; yurtdışındaki dönemleri, askerlik ve alternatif sosyal hizmet dönemlerini raporda göremezsin. Raporu tüm geçmişin ya da seçtiğin dönem için PDF olarak alırsın.",
+ "keywords": "vida laboral, çalışma geçmişi, Seguridad Social, alta baja, çalışma raporu, Cl@ve",
+ "stages": "new;settled",
+ "source_ids": "malaga:kaynak:020",
+ "reviewed_on": "2026-10-24",
+ "order": 9017,
+ "featured": "Hayır",
+ "editorial_status": "Taslak",
+ "topic_id": "malaga:resmi",
+ "steps": "\"Informe de tu vida laboral\" sayfasında \"Consultar vida laboral\" düğmesini seç.\nKimlik yöntemini seç: Cl@ve Permanente, Cl@ve Móvil, DNIe, elektronik sertifika ya da SMS yolu.\nElektronik kimliğin yoksa \"Ninguno de los anteriores\" seçeneğiyle kişisel bilgilerini gir, selfie çek ve kimlik belgenin fotoğrafını ekle.\nRaporu tüm geçmişin ya da seçtiğin dönem için PDF olarak al.\nRaporda hata görürsen veri ekleme ya da değiştirme talebinde bulun.\nİstersen raporun Seguridad Social'a bildirdiğin adrese postalanmasını iste.",
+ "documents": "",
+ "timing": "İstediğin zaman başvurabilirsin; rapor o günkü güncel bilgiyi verir.",
+ "cost": "",
+ "note": "",
+ "visual_json": "",
+ "_sekme": "Yanıtlar",
+ "kaynaklar": [
+  {
+   "source_id": "malaga:kaynak:020",
+   "url": "https://portal.seg-social.gob.es/wps/portal/importass/importass/Categorias/Vida+laboral+e+informes/Informes+sobre+tu+situacion+laboral/Informe+de+tu+vida+laboral",
+   "publisher": "Seguridad Social - Tesorería General (Import@ss)",
+   "text_file": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\malaga\\_is\\snap_ulke_es\\malaga_kaynak_020_es_kaynak_021.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-vida-laboral-raporu-alma-1",
+   "field": "summary",
+   "claim": "Rapor tüm alta ve baja durumlarını ve kayıtlı gün sayısını gösterir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:020",
+   "quote": "Consulta todas tus situaciones de alta y baja en los distintos regímenes de la Seguridad Social y el número de días que has estado en alta."
+  },
+  {
+   "claim_id": "C-vida-laboral-raporu-alma-2",
+   "field": "summary",
+   "claim": "Seguridad Social'a hiç kayıtlı olmayan rapor alamaz",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:020",
+   "quote": "Si no has estado de alta en la Seguridad Social no podrás obtener este informe."
+  },
+  {
+   "claim_id": "C-vida-laboral-raporu-alma-3",
+   "field": "summary",
+   "claim": "Yurtdışı, askerlik ve alternatif sosyal hizmet dönemleri raporda görünmez",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:020",
+   "quote": "No podrás consultar periodos en el extranjero, los correspondientes al servicio militar o a la prestación social sustitutoria."
+  },
+  {
+   "claim_id": "C-vida-laboral-raporu-alma-4",
+   "field": "timing",
+   "claim": "İstediğin zaman istenebilir, bilgi o tarihe göre günceldir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:020",
+   "quote": "Puedes solicitarlo en cualquier momento. Obtendrás la información actualizada a esa fecha"
+  },
+  {
+   "claim_id": "C-vida-laboral-raporu-alma-5",
+   "field": "summary",
+   "claim": "Rapor PDF olarak tüm geçmiş ya da seçilen dönem için alınır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:020",
+   "quote": "Obtener un informe en PDF de tu vida laboral completa o acotada según tu búsqueda."
+  },
+  {
+   "claim_id": "C-vida-laboral-raporu-alma-6",
+   "field": "steps",
+   "claim": "Hata görülürse veri ekleme ya da değiştirme istenebilir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:020",
+   "quote": "Solicitar la incorporación o modificación de datos si detectas errores."
+  },
+  {
+   "claim_id": "C-vida-laboral-raporu-alma-7",
+   "field": "steps",
+   "claim": "Rapor TGSS'e bildirilen adrese postalanabilir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:020",
+   "quote": "Solicitar el envío del informe de vida laboral al domicilio que has comunicado a la Tesorería General de la Seguridad Social"
+  },
+  {
+   "claim_id": "C-vida-laboral-raporu-alma-8",
+   "field": "steps",
+   "claim": "Kimlik yöntemleri",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:020",
+   "quote": "Tengo Cl@ve Permanente, Cl@ve Móvil, DNIe, Certificado Electrónico o Vía SMS"
+  },
+  {
+   "claim_id": "C-vida-laboral-raporu-alma-9",
+   "field": "steps",
+   "claim": "Elektronik kimlik yoksa kişisel bilgi, selfie ve kimlik fotoğrafı gerekir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:020",
+   "quote": "Será necesario rellenar tus datos personales, un selfie y adjuntar una fotografía de tu documento de identidad."
+  }
+ ],
+ "adimlar": [],
+ "butonlar": [
+  {
+   "action_id": "malaga:action:vida-laboral-raporu-alma-1",
+   "label": "Başvur",
+   "url": "https://portal.seg-social.gob.es/wps/portal/importass/importass/Categorias/Vida+laboral+e+informes/Informes+sobre+tu+situacion+laboral/Informe+de+tu+vida+laboral"
+  }
+ ]
+}
+
+===== KART 5/21: malaga:vergi-numarasi-nif-nie-alma =====
+{
+ "entry_id": "malaga:vergi-numarasi-nif-nie-alma",
+ "city_id": "malaga",
+ "slug": "vergi-numarasi-nif-nie-alma",
+ "title": "Vergi numarası (NIF) ve NIE nasıl alınır?",
+ "subtitle": "NIE'yi polis, NIE'si olmayanlara NIF'i Agencia Tributaria atar",
+ "summary": "Vergiyle ilgili işlemlerde NIF (vergi kimlik numarası) gerekir; çoğu kişide NIF, DNI ya da NIE ile aynıdır. DNI ya da NIE'n yoksa NIF atanmasını Agencia Tributaria'dan istersin (Modelo 030, çevrimiçi). NIE ise İspanya ile ekonomik, mesleki veya sosyal bağı olan yabancılar için Polis Genel Müdürlüğü'nden (Dirección General de la Policía) istenir; EX15 formu ve Modelo 790 Kod 012 harç dekontu gerekir. Polisin karar vermesi için yasal süre beş gündür.",
+ "keywords": "NIF, NIE, vergi numarası, Agencia Tributaria, EX15, Modelo 030, Modelo 790, yabancı kimlik numarası",
+ "stages": "new;settled",
+ "source_ids": "malaga:kaynak:021;malaga:kaynak:001",
+ "reviewed_on": "2026-10-24",
+ "order": 9018,
+ "featured": "Hayır",
+ "editorial_status": "Taslak",
+ "topic_id": "malaga:resmi",
+ "steps": "NIE istiyorsan EX15 formunu (NIE ve sertifika talebi) doldur.\nModelo 790 Kod 012 harcını öde; bankalarda, tasarruf kasalarında ve kredi kooperatiflerinde ödeyebilirsin, hesabının olması gerekmez. Dekontu başvuruya ekle.\nBaşvuruyu Polis Genel Müdürlüğü'ne doğrudan, Oficina de Extranjería ya da polis karakolu üzerinden yap; İspanya'da değilsen İspanya'nın yurtdışındaki konsolosluklarından yap.\nBaşvuruda NIE'yi neden istediğini bildir; İspanya'da düzensiz durumda olmaman gerekir.\nDNI ya da NIE'n yoksa ve vergi işlemi yapacaksan Modelo 030 ile Agencia Tributaria'dan NIF atanmasını iste.",
+ "documents": "EX15 formu (NIE ve sertifika talebi)\nModelo 790 Kod 012 harç ödeme belgesi",
+ "timing": "Polis, NIE başvurusunu başvurunun ilgili kuruma girmesinden itibaren en geç beş günde sonuçlandırmak zorunda; bu sürede cevap gelmezse başvuru reddedilmiş sayılır.",
+ "cost": "",
+ "note": "",
+ "visual_json": "",
+ "_sekme": "Yanıtlar",
+ "kaynaklar": [
+  {
+   "source_id": "malaga:kaynak:021",
+   "url": "https://sede.agenciatributaria.gob.es/Sede/censos-nif-domicilio-fiscal/solicitar-nif/nif-persona-fisica.html",
+   "publisher": "Agencia Tributaria (AEAT)",
+   "text_file": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\malaga\\_is\\snap_ulke_es\\malaga_kaynak_021_es_kaynak_022.txt"
+  },
+  {
+   "source_id": "malaga:kaynak:001",
+   "url": "https://sede.policia.gob.es/portalCiudadano/_es/tramites_extranjeria_tramite_asignacion_nie.php",
+   "publisher": "Dirección General de la Policía (Policía Nacional) - Sede electrónica",
+   "text_file": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\malaga\\_is\\snap_ulke_es\\malaga_kaynak_001_es_kaynak_001.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-vergi-numarasi-nif-nie-alma-1",
+   "field": "summary",
+   "claim": "NIF genelde DNI ya da NIE ile aynıdır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:021",
+   "quote": "debes disponer de un NIF que, en general, coincidirá con su DNI o NIE"
+  },
+  {
+   "claim_id": "C-vergi-numarasi-nif-nie-alma-2",
+   "field": "summary",
+   "claim": "DNI ya da NIE yoksa NIF'in atanması Agencia Tributaria'dan istenir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:021",
+   "quote": "Si no dispones de DNI o NIE y vas a realizar operaciones con trascendencia tributaria, podrás solicitar a la Agencia Tributaria la asignación de un NIF."
+  },
+  {
+   "claim_id": "C-vergi-numarasi-nif-nie-alma-3",
+   "field": "steps",
+   "claim": "NIE'si olmayan yabancı uyruklu kişi NIF'i Agencia Tributaria'dan ister",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:021",
+   "quote": "que no dispongan de NIE, de forma transitoria por estar obligados a tenerlo, o de forma definitiva al no estar obligados, deben solicitar a la Administración tributaria la asignación de un NIF"
+  },
+  {
+   "claim_id": "C-vergi-numarasi-nif-nie-alma-4",
+   "field": "summary",
+   "claim": "Modelo 030 DNI/NIE'siz kişinin NIF talebidir, çevrimiçi",
+   "value": "030",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:021",
+   "quote": "Modelo 030. Solicitud de NIF de persona física - sin DNI/NIE - no presencial"
+  },
+  {
+   "claim_id": "C-vergi-numarasi-nif-nie-alma-5",
+   "field": "summary",
+   "claim": "NIE Polis Genel Müdürlüğü'nden istenir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:001",
+   "quote": "deberán interesar la asignación del Número de Identidad de Extranjero a la Dirección General de la Policía"
+  },
+  {
+   "claim_id": "C-vergi-numarasi-nif-nie-alma-6",
+   "field": "steps",
+   "claim": "İspanya'da düzensiz durumda olmamak gerekir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:001",
+   "quote": "Que no se encuentre en España en situación irregular."
+  },
+  {
+   "claim_id": "C-vergi-numarasi-nif-nie-alma-7",
+   "field": "steps",
+   "claim": "Başvuruda NIE isteme gerekçesi bildirilir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:001",
+   "quote": "Que se comuniquen los motivos por los que solicitan la asignación de dicho número."
+  },
+  {
+   "claim_id": "C-vergi-numarasi-nif-nie-alma-8",
+   "field": "timing",
+   "claim": "Polis en geç beş günde karar verir",
+   "value": "5",
+   "unit": "gün",
+   "period": "",
+   "source_id": "malaga:kaynak:001",
+   "quote": "El procedimiento habrá de ser resuelto en el plazo máximo de cinco días desde la entrada de la solicitud en el registro del órgano competente para su tramitación."
+  },
+  {
+   "claim_id": "C-vergi-numarasi-nif-nie-alma-9",
+   "field": "timing",
+   "claim": "Süre içinde cevap gelmezse başvuru reddedilmiş sayılır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:001",
+   "quote": "Efecto de la falta de resolución en este plazo: Desestimatorio (inicio a solicitud del interesado)."
+  },
+  {
+   "claim_id": "C-vergi-numarasi-nif-nie-alma-10",
+   "field": "documents",
+   "claim": "EX15 formu",
+   "value": "EX15",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:001",
+   "quote": "Solicitud de Número de Identidad de Extranjero (NIE) y Certificados. (Formulario EX15)"
+  },
+  {
+   "claim_id": "C-vergi-numarasi-nif-nie-alma-11",
+   "field": "documents",
+   "claim": "Modelo 790 Kod 012 harç dekontu",
+   "value": "790-012",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:001",
+   "quote": "Justificante de pago Tasa modelo 790 Código 012."
+  },
+  {
+   "claim_id": "C-vergi-numarasi-nif-nie-alma-12",
+   "field": "steps",
+   "claim": "Harç bankalarda, tasarruf kasalarında ve kredi kooperatiflerinde, hesap açık olmadan ödenir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:001",
+   "quote": "Bancos, Cajas de Ahorro y Cooperativas de Crédito, en las que no es preciso tener cuenta abierta"
+  },
+  {
+   "claim_id": "C-vergi-numarasi-nif-nie-alma-13",
+   "field": "steps",
+   "claim": "İspanya dışındaki kişi başvuruyu konsolosluklar üzerinden yapar",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:001",
+   "quote": "solicitará la asignación de NIE a la Comisaría General de Extranjería y Fronteras, a través de las Oficinas Consulares de España en el exterior"
+  },
+  {
+   "claim_id": "C-vergi-numarasi-nif-nie-alma-14",
+   "field": "steps",
+   "claim": "Başvuru Polis Genel Müdürlüğü'ne doğrudan ya da Oficina de Extranjería veya karakollar üzerinden yapılır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:001",
+   "quote": "Se solicita a la Dirección General de la Policía, directamente o a través de las Oficinas de Extranjería"
+  }
+ ],
+ "adimlar": [],
+ "butonlar": [
+  {
+   "action_id": "malaga:action:vergi-numarasi-nif-nie-alma-1",
+   "label": "Başvur",
+   "url": "https://sede.agenciatributaria.gob.es/Sede/censos-nif-domicilio-fiscal/solicitar-nif/nif-persona-fisica.html"
+  },
+  {
+   "action_id": "malaga:action:vergi-numarasi-nif-nie-alma-2",
+   "label": "Bilgi al",
+   "url": "https://sede.policia.gob.es/portalCiudadano/_es/tramites_extranjeria_tramite_asignacion_nie.php"
+  }
+ ]
+}
+
+===== KART 6/21: malaga:clave-pin-ve-permanente-farki =====
+{
+ "entry_id": "malaga:clave-pin-ve-permanente-farki",
+ "city_id": "malaga",
+ "slug": "clave-pin-ve-permanente-farki",
+ "title": "Cl@ve sistemi: Cl@ve uygulaması (Cl@ve Móvil) ile Cl@ve Permanente farkı nedir?",
+ "subtitle": "Cl@ve uygulaması telefonla onay verir, Permanente kalıcı şifreyle çalışır",
+ "summary": "Cl@ve uygulaması (Cl@ve Móvil) işlem anında telefonuna gelen istekle kimliğini onaylatır; Cl@ve Permanente ise DNI ya da NIE'ne, kullanıcı koduna ve aktivasyonda kendin belirlediğin şifreye dayanır. Eski Cl@ve PIN uygulamasını kullananlar yeni Cl@ve uygulamasına güncellenir; etkinleştirdikten sonra yapmak istediğin işlemler için kimlik doğrulama istekleri telefonuna Cl@ve Móvil ile gelir. Permanente, idareye sık giriş yapanlar için tasarlanmıştır. Yüksek güvenlik isteyen hizmetlerde Permanente'ye ek olarak telefonuna SMS ile gelen tek kullanımlık bir kod da istenir.",
+ "keywords": "Cl@ve, Cl@ve Móvil, Cl@ve PIN, Cl@ve Permanente, e-devlet girişi, dijital kimlik, OTP",
+ "stages": "new;settled",
+ "source_ids": "malaga:kaynak:022;malaga:kaynak:023",
+ "reviewed_on": "2026-10-27",
+ "order": 9019,
+ "featured": "Hayır",
+ "editorial_status": "Taslak",
+ "topic_id": "malaga:resmi",
+ "steps": "Önce Cl@ve sistemine kayıt ol; Permanente'nin aktivasyonu için kayıt şarttır. Henüz kayıtlı değilsen Cl@ve uygulaması kayıt için şu yolları sunar: elektronik sertifika, davet mektubu (carta de invitación) ya da yüz yüze kayıt.\nTelefonundan kullanacaksan Cl@ve uygulamasını Android için Google Play'den, iOS için Apple Store'dan indir; Android 8 ya da üstü, iOS 15 ya da üstü gerekir.\nCl@ve'ye kayıtlıysan uygulamayı SMS ile gelen etkinleştirme koduyla ya da elektronik sertifikayla etkinleştir.\nSık kullanacaksan Cl@ve Permanente'yi aktive et ve aktivasyonda kendi şifreni belirle.",
+ "documents": "",
+ "timing": "",
+ "cost": "",
+ "note": "",
+ "visual_json": "",
+ "_sekme": "Yanıtlar",
+ "kaynaklar": [
+  {
+   "source_id": "malaga:kaynak:022",
+   "url": "https://clave.gob.es/clave-permanente/que-es",
+   "publisher": "Gobierno de España - Cl@ve (clave.gob.es)",
+   "text_file": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\malaga\\_is\\snap_ulke_es\\malaga_kaynak_022_es_kaynak_024.txt"
+  },
+  {
+   "source_id": "malaga:kaynak:023",
+   "url": "https://clave.gob.es/en/clave-movil/app-clave",
+   "publisher": "Gobierno de España, Cl@ve",
+   "text_file": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\malaga\\_is\\snap_ulke_es\\malaga_kaynak_023_es_kaynak_038.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-clave-pin-ve-permanente-farki-8",
+   "field": "summary",
+   "claim": "Cl@ve Permanente: kullanıcı kodu, DNI/NIE ve aktivasyonda belirlenen şifre (özetin ilk cümlesinde de)",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:022",
+   "quote": "Se basa en el uso de un código de usuario, su DNI o NIE, y de una contraseña que se establece en el proceso de activación"
+  },
+  {
+   "claim_id": "C-clave-pin-ve-permanente-farki-9",
+   "field": "summary",
+   "claim": "Permanente idarenin hizmetlerine sık girenler için tasarlanmıştır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:022",
+   "quote": "Es un sistema de autenticación diseñado para personas que necesitan acceder frecuentemente a los servicios electrónicos de la Administración."
+  },
+  {
+   "claim_id": "C-clave-pin-ve-permanente-farki-10",
+   "field": "steps",
+   "claim": "Permanente aktivasyonu için önce sisteme kayıt gerekir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:022",
+   "quote": "Para acceder al proceso de activación es necesario que previamente te hayas registrado en el sistema."
+  },
+  {
+   "claim_id": "C-clave-pin-ve-permanente-farki-11",
+   "field": "summary",
+   "claim": "Yüksek güvenlikli hizmetlerde SMS ile tek kullanımlık kod istenir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:022",
+   "quote": "el sistema refuerza la autenticación con la solicitud de introducción de un código numérico de un solo uso (One Time Password, OTP) que se envía previamente por mensaje SMS a tu teléfono móvil."
+  },
+  {
+   "claim_id": "C-clave-pin-ve-permanente-farki-201",
+   "field": "summary",
+   "claim": "Eski Cl@ve PIN uygulaması yeni Cl@ve uygulamasına güncellenir, istekler Cl@ve Móvil ile gelir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:023",
+   "quote": "Users of the old Cl@ve PIN app will be updated to the new version of the Cl@ve app and, once activated, will receive authentication requests via Cl@ve Mobile"
+  },
+  {
+   "claim_id": "C-clave-pin-ve-permanente-farki-202",
+   "field": "steps",
+   "claim": "Uygulama Android için Google Play'den, iOS için Apple Store'dan indirilir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:023",
+   "quote": "You can download the app from Google Play for Android and from the Apple Store for iOS"
+  },
+  {
+   "claim_id": "C-clave-pin-ve-permanente-farki-203",
+   "field": "steps",
+   "claim": "Android 8 ya da üstü, iOS 15 ya da üstü gerekir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:023",
+   "quote": "you need Android 8 or later and iOS 15 or later"
+  },
+  {
+   "claim_id": "C-clave-pin-ve-permanente-farki-204",
+   "field": "steps",
+   "claim": "Kayıtlı kullanıcı uygulamayı SMS kodu ya da elektronik sertifika ile etkinleştirir (üçüncü seçenek dijital kimlik kartıdır)",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:023",
+   "quote": "can identify themselves and activate it using three options: with an activation code sent by SMS, with an electronic certificate"
+  },
+  {
+   "claim_id": "C-clave-pin-ve-permanente-farki-301",
+   "field": "steps",
+   "claim": "Kayıtlı olmayanlar için kayıt yolları: elektronik sertifika, davet mektubu, yüz yüze",
+   "value": "elektronik sertifika; davet mektubu; yüz yüze",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:023",
+   "quote": "via an electronic certificate, an invitation letter, in person"
+  }
+ ],
+ "adimlar": [],
+ "butonlar": [
+  {
+   "action_id": "malaga:action:clave-pin-ve-permanente-farki-1",
+   "label": "Bilgi al",
+   "url": "https://clave.gob.es/en/clave-movil/app-clave"
+  },
+  {
+   "action_id": "malaga:action:clave-pin-ve-permanente-farki-2",
+   "label": "Bilgi al",
+   "url": "https://clave.gob.es/clave-permanente/que-es"
+  }
+ ]
+}
+
+===== KART 7/21: malaga:fnmt-dijital-sertifika-kurma =====
+{
+ "entry_id": "malaga:fnmt-dijital-sertifika-kurma",
+ "city_id": "malaga",
+ "slug": "fnmt-dijital-sertifika-kurma",
+ "title": "Dijital sertifika (FNMT) nasıl kurulur?",
+ "subtitle": "Dört adım: yazılım, çevrimiçi başvuru, ofiste kimlik doğrulama, indirme",
+ "summary": "FNMT'nin kişisel yazılım sertifikası (indirilebilir dosya) dört adımda alınır ve adımların bu sırayla yapılması gerekir. Önce gerekli yazılımı kurar, sonra çevrimiçi başvurursun; başvuru bitince e-postana bir Código de Solicitud (başvuru kodu) gelir. Ardından bir Oficina de Acreditación de Identidad'de (kimlik doğrulama ofisi) yüz yüze kimliğini doğrularsın. Kimliğini doğruladıktan yaklaşık 1 saat sonra aynı kodla sertifikayı indirir, kurar ve yedeğini alırsın.",
+ "keywords": "FNMT, dijital sertifika, certificado digital, elektronik sertifika, Código de Solicitud, kimlik doğrulama ofisi",
+ "stages": "new;settled",
+ "source_ids": "malaga:kaynak:024",
+ "reviewed_on": "2026-10-24",
+ "order": 9020,
+ "featured": "Hayır",
+ "editorial_status": "Taslak",
+ "topic_id": "malaga:resmi",
+ "steps": "FNMT sayfasında belirtilen yazılımı bilgisayarına kur.\nSertifikayı internetten iste; işlem bitince e-postana Código de Solicitud gelir.\nKodla birlikte bir Oficina de Acreditación de Identidad'e git ve kimliğini yüz yüze doğrulat; FNMT'nin ofis bulucu servisinden ofis seçebilirsin.\nKimlik doğrulamadan yaklaşık 1 saat sonra aynı kodla sertifikayı indir, kur ve yedeğini al.",
+ "documents": "Código de Solicitud (e-postana gelen başvuru kodu)",
+ "timing": "Sertifika, kimlik doğrulamadan yaklaşık 1 saat sonra indirilebilir.",
+ "cost": "",
+ "note": "AEAT, Seguridad Social ve bazı diğer ofislerde kimlik doğrulama için randevu gerekir. FNMT yedek almayı öneriyor; kriptografik kart ya da USB istersen FNMT'nin hizmet kataloğuna bak.",
+ "visual_json": "",
+ "_sekme": "Yanıtlar",
+ "kaynaklar": [
+  {
+   "source_id": "malaga:kaynak:024",
+   "url": "https://www.sede.fnmt.gob.es/certificados/persona-fisica/obtener-certificado-software",
+   "publisher": "Fábrica Nacional de Moneda y Timbre (FNMT)",
+   "text_file": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\malaga\\_is\\snap_ulke_es\\malaga_kaynak_024_es_kaynak_025.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-fnmt-dijital-sertifika-kurma-1",
+   "field": "summary",
+   "claim": "Sertifika yazılım olarak indirilir ve dört adımda, sırayla alınır",
+   "value": "4",
+   "unit": "adım",
+   "period": "",
+   "source_id": "malaga:kaynak:024",
+   "quote": "El proceso de obtención del Certificado software (como archivo descargable) de usuario, se divide en cuatro pasos que deben realizarse en el orden señalado:"
+  },
+  {
+   "claim_id": "C-fnmt-dijital-sertifika-kurma-2",
+   "field": "summary",
+   "claim": "Başvurudan sonra e-postaya Código de Solicitud gelir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:024",
+   "quote": "recibirás en tu cuenta de correo electrónico un Código de Solicitud que te será requerido en el momento de acreditar tu identidad"
+  },
+  {
+   "claim_id": "C-fnmt-dijital-sertifika-kurma-3",
+   "field": "summary",
+   "claim": "Kimlik doğrulama bir kimlik doğrulama ofisinde yüz yüze yapılır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:024",
+   "quote": "Acreditación presencial en una Oficina de Acreditación de Identidad."
+  },
+  {
+   "claim_id": "C-fnmt-dijital-sertifika-kurma-4",
+   "field": "timing",
+   "claim": "Sertifika kimlik doğrulamadan yaklaşık 1 saat sonra indirilebilir",
+   "value": "1",
+   "unit": "saat",
+   "period": "",
+   "source_id": "malaga:kaynak:024",
+   "quote": "Aproximadamente 1 hora después de que hayas acreditado tu identidad en una Oficina de Acreditación de Identidad"
+  },
+  {
+   "claim_id": "C-fnmt-dijital-sertifika-kurma-5",
+   "field": "steps",
+   "claim": "Sertifikanın yedeği önerilir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:024",
+   "quote": "desde aquí podrás descargar e instalar tu certificado y realizar una copia de seguridad (RECOMENDADO)."
+  },
+  {
+   "claim_id": "C-fnmt-dijital-sertifika-kurma-6",
+   "field": "note",
+   "claim": "AEAT, Seguridad Social ve diğer ofislerde randevu gerekir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:024",
+   "quote": "En las oficinas de la AEAT, Seguridad Social y en otras oficinas se requiere de cita previa"
+  },
+  {
+   "claim_id": "C-fnmt-dijital-sertifika-kurma-7",
+   "field": "note",
+   "claim": "Kriptografik kart ya da USB için FNMT hizmet kataloğu",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:024",
+   "quote": "Si estás interesado en adquirir una tarjeta o USB criptográficos de la FNMT entre en nuestro CATÁLOGO DE SERVICIOS"
+  },
+  {
+   "claim_id": "C-fnmt-dijital-sertifika-kurma-8",
+   "field": "steps",
+   "claim": "Ofis bulucu servisi",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:024",
+   "quote": "Para tu comodidad, puedes hacer uso de nuestro servicio LOCALIZADOR DE OFICINAS."
+  }
+ ],
+ "adimlar": [],
+ "butonlar": [
+  {
+   "action_id": "malaga:action:fnmt-dijital-sertifika-kurma-1",
+   "label": "Başvur",
+   "url": "https://www.sede.fnmt.gob.es/certificados/persona-fisica/obtener-certificado-software"
+  }
+ ]
+}
+
+===== KART 8/21: malaga:belge-ceviri-ve-apostil =====
+{
+ "entry_id": "malaga:belge-ceviri-ve-apostil",
+ "city_id": "malaga",
+ "slug": "belge-ceviri-ve-apostil",
+ "title": "Resmî belgeler nasıl tercüme ve apostil edilir?",
+ "subtitle": "Yeminli tercüman resmî tercüme yapar; apostil belgenin düzenlendiği ülkede alınır",
+ "summary": "Bir tercümenin İspanya'da resmî nitelik kazanması için yeminli tercüman (Traductor-Intérprete Jurado) tarafından yapılması gerekir; bu kişilerin tercümeleri mahkemelere ve idari makamlara sunulabilir. Yeminli tercümanları Dışişleri Bakanlığı atar ve Oficina de Interpretación de Lenguas resmî listeyi yayımlar; ofis aracılık etmez, tercümanı listeden kendin seçersin. Apostil, 5 Ekim 1961 tarihli La Haye Sözleşmesi'ni imzalayan ülkelerde düzenlenen resmî belgenin imzasının gerçekliğini onaylayan nottur; apostilli belge, Sözleşme'ye taraf başka ülkede ek bir onay istenmeden tanınır. İspanya'da düzenlenen adli ya da idari belge için başvuruyu İspanya Adalet Bakanlığı'nın (Ministerio de Justicia) apostil sayfasından yaparsın; noter belgelerinin apostili yalnız Colegio de Notarios'a aittir. Adli, idari ve noter belgeleri apostil edilebilir.",
+ "keywords": "apostil, yeminli tercüman, traductor jurado, belge tercümesi, La Haye Sözleşmesi, legalización, noter belgesi",
+ "stages": "planning;new",
+ "source_ids": "malaga:kaynak:025;malaga:kaynak:026",
+ "reviewed_on": "2026-10-24",
+ "order": 9021,
+ "featured": "Hayır",
+ "editorial_status": "Taslak",
+ "topic_id": "malaga:resmi",
+ "steps": "Belgeyi çevirtmek için Dışişleri Bakanlığı'nın resmî listesindeki arama motorundan dil çiftine uygun bir yeminli tercüman seç.\nTercüme resmî kurumlara sunulacaksa tercümanın imzası ve mührüyle tasdikli olduğundan emin ol.\nİspanya'da düzenlenen adli ya da idari belge için İspanya Adalet Bakanlığı'nın (Ministerio de Justicia) apostil sayfasından başvur; noter belgesi için yalnız Colegio de Notarios'a başvur.\nBelge sözleşmeye taraf bir başka ülkede kullanılacaksa apostilli belge ek bir onay istenmeden tanınır.",
+ "documents": "",
+ "timing": "",
+ "cost": "",
+ "note": "Diplomatik ya da konsolosluk görevlilerinin düzenlediği belgeler ile doğrudan ticari veya gümrük işlemiyle ilgili idari belgeler apostil edilemez. Katalanca, Galiçyaca ve Baskça için yeminli tercümanları 1992'den beri ilgili özerk yönetimler (Generalitat de Catalunya, Xunta de Galicia, Bask Hükümeti) atıyor ve kendi listelerini tutuyor. Bu kart yalnız İspanya'da düzenlenen belgelerin apostilini anlatır.",
+ "visual_json": "",
+ "_sekme": "Yanıtlar",
+ "kaynaklar": [
+  {
+   "source_id": "malaga:kaynak:025",
+   "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Traductores-Interpretes-Jurados.aspx",
+   "publisher": "Ministerio de Asuntos Exteriores, Unión Europea y Cooperación",
+   "text_file": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\malaga\\_is\\snap_ulke_es\\malaga_kaynak_025_es_kaynak_026.txt"
+  },
+  {
+   "source_id": "malaga:kaynak:026",
+   "url": "https://www.mjusticia.gob.es/es/ciudadania/tramites/legalizacion-unica-apostilla",
+   "publisher": "Ministerio de Justicia",
+   "text_file": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\malaga\\_is\\snap_ulke_es\\malaga_kaynak_026_es_kaynak_027.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-belge-ceviri-ve-apostil-1",
+   "field": "summary",
+   "claim": "Yeminli tercümanların tercümeleri resmî niteliktedir, mahkemelere ve idari makamlara sunulabilir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:025",
+   "quote": "tendrán carácter oficial, pudiendo ser aportadas ante los órganos judiciales y administrativos"
+  },
+  {
+   "claim_id": "C-belge-ceviri-ve-apostil-2",
+   "field": "steps",
+   "claim": "Yeminli tercüman imza ve mühürle sadakati tasdik eder",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:025",
+   "quote": "Estos profesionales certificarán con su firma y sello la fidelidad y exactitud de sus actuaciones"
+  },
+  {
+   "claim_id": "C-belge-ceviri-ve-apostil-3",
+   "field": "summary",
+   "claim": "Yeminli tercüman unvanını Dışişleri Bakanlığı verir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:025",
+   "quote": "El Ministerio de Asuntos Exteriores, Unión Europea y Cooperación es competente para la concesión de los títulos de Traductor/a Jurado/a e Intérprete Jurado/a."
+  },
+  {
+   "claim_id": "C-belge-ceviri-ve-apostil-4",
+   "field": "summary",
+   "claim": "Oficina de Interpretación de Lenguas resmî tercüman listesini yayımlar",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:025",
+   "quote": "elabora y publica periódicamente un Listado de todos los Traductores/as Jurados/as e Intérpretes Jurados/as"
+  },
+  {
+   "claim_id": "C-belge-ceviri-ve-apostil-5",
+   "field": "summary",
+   "claim": "Ofis aracılık etmez, yeminli tercüme yapmaz",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:025",
+   "quote": "la Oficina de Interpretación de Lenguas no hace de intermediaria en estos encargos ni realiza traducciones juradas particulares"
+  },
+  {
+   "claim_id": "C-belge-ceviri-ve-apostil-6",
+   "field": "note",
+   "claim": "Bakanlık Katalanca, Galiçyaca ve Baskça için 1992'den beri sınav açmıyor",
+   "value": "1992",
+   "unit": "yıl",
+   "period": "",
+   "source_id": "malaga:kaynak:025",
+   "quote": "desde el año 1992 el Ministerio de Asuntos Exteriores, Unión Europea y Cooperación no convoca pruebas para el nombramiento de traductores/as jurados"
+  },
+  {
+   "claim_id": "C-belge-ceviri-ve-apostil-7",
+   "field": "note",
+   "claim": "Özerk topluluklar kendi unvanlarını verir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:025",
+   "quote": "Estas comunidades autónomas otorgan sus títulos con base en sus propias competencias derivadas de sus respectivos Estatutos de Autonomía."
+  },
+  {
+   "claim_id": "C-belge-ceviri-ve-apostil-101",
+   "field": "summary",
+   "claim": "La Haye Sözleşmesi 5 Ekim 1961 tarihlidir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:026",
+   "quote": "XII Convenio de La Haya, de 5 de octubre de 1961"
+  },
+  {
+   "claim_id": "C-belge-ceviri-ve-apostil-301",
+   "field": "summary",
+   "claim": "Apostil, Sözleşme'yi imzalayan ülkede düzenlenen resmî belgenin imzasının gerçekliğini onaylar",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:026",
+   "quote": "certificará la autenticidad de la firma de los documentos públicos expedidos en un país firmante del XII Convenio de La Haya"
+  },
+  {
+   "claim_id": "C-belge-ceviri-ve-apostil-302",
+   "field": "summary",
+   "claim": "Apostilli belge Sözleşme'ye taraf başka ülkede başka onay istenmeden tanınır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:026",
+   "quote": "deberán ser reconocidos en cualquier otro país del Convenio sin necesidad de otro tipo de autenticación"
+  },
+  {
+   "claim_id": "C-belge-ceviri-ve-apostil-303",
+   "field": "summary",
+   "claim": "Adli, idari ve noter belgeleri apostil edilebilir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:026",
+   "quote": "Documentos judiciales Documentos administrativos Documentos notariales"
+  },
+  {
+   "claim_id": "C-belge-ceviri-ve-apostil-304",
+   "field": "summary",
+   "claim": "Noter belgelerinin apostili yalnız Colegio de Notarios'a aittir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:026",
+   "quote": "la apostilla de los documentos notariales corresponde, únicamente, a los Colegio de Notarios"
+  },
+  {
+   "claim_id": "C-belge-ceviri-ve-apostil-305",
+   "field": "note",
+   "claim": "Diplomatik ya da konsolosluk görevlilerinin düzenlediği belgeler apostil edilemez",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:026",
+   "quote": "Documentos expedidos por funcionarios diplomáticos o consulares."
+  },
+  {
+   "claim_id": "C-belge-ceviri-ve-apostil-306",
+   "field": "note",
+   "claim": "Doğrudan ticari ya da gümrük işlemiyle ilgili idari belgeler apostil edilemez",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:026",
+   "quote": "Documentos administrativos relacionados, directamente, con una operación comercial o aduanera"
+  },
+  {
+   "claim_id": "C-belge-ceviri-ve-apostil-307",
+   "field": "steps",
+   "claim": "Adalet Bakanlığı sayfasında apostil başvurusu (Solicitud de Apostilla de Documentos) sunulur",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:026",
+   "quote": "Solicitud de Apostilla de Documentos"
+  }
+ ],
+ "adimlar": [],
+ "butonlar": [
+  {
+   "action_id": "malaga:action:belge-ceviri-ve-apostil-1",
+   "label": "Bilgi al",
+   "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Traductores-Interpretes-Jurados.aspx"
+  },
+  {
+   "action_id": "malaga:action:belge-ceviri-ve-apostil-2",
+   "label": "Başvur",
+   "url": "https://www.mjusticia.gob.es/es/ciudadania/tramites/legalizacion-unica-apostilla"
+  }
+ ]
+}
+
+===== KART 9/21: malaga:noter-islemleri-ve-ucretleri =====
+{
+ "entry_id": "malaga:noter-islemleri-ve-ucretleri",
+ "city_id": "malaga",
+ "slug": "noter-islemleri-ve-ucretleri",
+ "title": "Noter ücretleri: noter tarifesi (arancel) nasıl hesaplanır?",
+ "subtitle": "Tarife Real Decreto 1426/1989'a göre; aşağıdaki tutarlar tarife tutarlarıdır",
+ "summary": "Noter ücretleri, Real Decreto 1426/1989 ile onaylanan Noter Tarifesi'ne (Arancel de los Notarios) göre belirlenir. Aşağıdaki tutarlar tarifedeki tutarlardır (kuruşa yuvarlanmıştır); ödeyeceğin tutar uygulanan indirimlere göre değişir. Değeri olmayan belgelerde sabit tutarlar var: genel vekâletname 30,05 euro, dava vekâletnamesi 15,03 euro, tutanak (acta) 36,06 euro; vasiyetname (vasiyet eden başına), evlilik sözleşmesi ve medeni hâl gibi diğer belgeler 30,05 euro. İmza tasdiki (legitimación de firma) 6,01 euro; aynı belgedeki her ek imza 3,01 euro. Değeri olan işlemlerde ücret, işlemin konusu malın değerine göre kademeli ölçekle hesaplanır ve ölçekle bulunan tarife tutarından yüzde 5 indirim yapılır. Kişisel ve ipotekli kredilerde ayrıca yüzde 25 indirim vardır; devletin, özerk bölgelerin, il ve belediyelerin yasal olarak ödemekle yükümlü olduğu işlemler, siyasi partilerle sendikaların ödediği işlemler, kamu konut kredileri ve korunan konutların sonraki devirleri gibi sayılan hâllerde indirim yüzde 50'dir. Bu indirimler yürürlükteki diğer indirimlere ek olarak uygulanır.",
+ "keywords": "noter, notario, noter ücreti, arancel, vekâletname, imza tasdiki, legitimación de firma, vasiyetname",
+ "stages": "new;settled",
+ "source_ids": "malaga:kaynak:027",
+ "reviewed_on": "2026-10-24",
+ "order": 9022,
+ "featured": "Hayır",
+ "editorial_status": "Taslak",
+ "topic_id": "malaga:resmi",
+ "steps": "İşlemin değeri olup olmadığını belirle: vekâlet, vasiyet, evlilik sözleşmesi gibi değersiz belgelerde sabit tutar, değeri olan işlemde ölçek uygulanır.\nDeğeri olan işlemde ölçeği uygula: değer 6.010,12 euroyu aşmıyorsa tarife tutarı 90,15 euro; fazla kısım için 6.010,13 ile 30.050,61 euro arasında binde 4,5; 30.050,62 ile 60.101,21 euro arasında binde 1,50; 60.101,22 ile 150.253,03 euro arasında binde 1; 150.253,04 ile 601.012,10 euro arasında binde 0,5; 601.012,10 ile 6.010.121,04 euro arasında binde 0,3.\nÖlçekle bulduğun tarife tutarından yüzde 5 indirimi düş; kredi ya da sayılan kamu işlemlerinde ilgili yüzde 25 ya da yüzde 50 indirimi de uygula.\nİmza tasdiki ya da kopya da gerekiyorsa bunları ayrı kalem olarak ekle.\nDeğer 6.010.121,04 euroyu aşıyorsa aşan kısım için noter ücreti, taraflarla serbestçe anlaştığı tutardır.\nTarifenin tam nüshası ve ek normlar bütün noterliklerde halka açık bulundurulur; tutarı noterlikte bu nüshadan görebilirsin.",
+ "documents": "",
+ "timing": "",
+ "cost": "Tarife tutarları: yetkili kopya sayfa başına 3,01 euro (12. sayfadan itibaren yarısı); basit kopya sayfa başına 0,60 euro; değeri 6.010,12 euroyu aşmayan işlemde tarife tutarı 90,15 euro (değeri olan işlemlerde bu tutardan yüzde 5 indirim yapılır).",
+ "note": "BOE'deki birleştirilmiş tarife metninin son güncellemesi 17/11/2011 tarihlidir; yukarıdaki tutarlar bu metne göre.",
+ "visual_json": "",
+ "_sekme": "Yanıtlar",
+ "kaynaklar": [
+  {
+   "source_id": "malaga:kaynak:027",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1989-28111",
+   "publisher": "Agencia Estatal Boletín Oficial del Estado (BOE)",
+   "text_file": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\malaga\\_is\\snap_ulke_es\\malaga_kaynak_027_es_kaynak_028.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-noter-islemleri-ve-ucretleri-1",
+   "field": "summary",
+   "claim": "Ücretler Noter Tarifesi'ne göre belirlenir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:027",
+   "quote": "Real Decreto 1426/1989, de 17 de noviembre, por el que se aprueba el Arancel de los Notarios."
+  },
+  {
+   "claim_id": "C-noter-islemleri-ve-ucretleri-2",
+   "field": "summary",
+   "claim": "Genel vekâletname (tarife tutarı; kartta kuruşa yuvarlanmış: 30,05 euro)",
+   "value": "30,050605",
+   "unit": "EUR",
+   "period": "",
+   "source_id": "malaga:kaynak:027",
+   "quote": "Poderes en general: 30,050605 euros"
+  },
+  {
+   "claim_id": "C-noter-islemleri-ve-ucretleri-3",
+   "field": "summary",
+   "claim": "Dava vekâletnamesi (tarife tutarı; kartta kuruşa yuvarlanmış: 15,03 euro)",
+   "value": "15,025303",
+   "unit": "EUR",
+   "period": "",
+   "source_id": "malaga:kaynak:027",
+   "quote": "Poderes para pleitos: 15,025303 euros"
+  },
+  {
+   "claim_id": "C-noter-islemleri-ve-ucretleri-4",
+   "field": "summary",
+   "claim": "Tutanak (acta) (tarife tutarı; kartta kuruşa yuvarlanmış: 36,06 euro)",
+   "value": "36,060726",
+   "unit": "EUR",
+   "period": "",
+   "source_id": "malaga:kaynak:027",
+   "quote": "Actas: 36,060726 euros"
+  },
+  {
+   "claim_id": "C-noter-islemleri-ve-ucretleri-5",
+   "field": "summary",
+   "claim": "Vasiyetname, vasiyet eden başına (tarife tutarı; kartta kuruşa yuvarlanmış: 30,05 euro)",
+   "value": "30,050605",
+   "unit": "EUR",
+   "period": "",
+   "source_id": "malaga:kaynak:027",
+   "quote": "Testamentos, por otorgante: 30,050605 euros"
+  },
+  {
+   "claim_id": "C-noter-islemleri-ve-ucretleri-6",
+   "field": "summary",
+   "claim": "Evlilik sözleşmesi (tarife tutarı; kartta kuruşa yuvarlanmış: 30,05 euro)",
+   "value": "30,050605",
+   "unit": "EUR",
+   "period": "",
+   "source_id": "malaga:kaynak:027",
+   "quote": "Capitulaciones matrimoniales: 30,050605 euros"
+  },
+  {
+   "claim_id": "C-noter-islemleri-ve-ucretleri-7",
+   "field": "summary",
+   "claim": "Medeni hâl, reşit kılma, nesep tanıma gibi diğer belgeler (tarife tutarı; kartta kuruşa yuvarlanmış: 30,05 euro)",
+   "value": "30,050605",
+   "unit": "EUR",
+   "period": "",
+   "source_id": "malaga:kaynak:027",
+   "quote": "Demás documentos (estado civil, emancipación, reconocimiento de filiación, etc.): 30,050605 euros."
+  },
+  {
+   "claim_id": "C-noter-islemleri-ve-ucretleri-8",
+   "field": "summary",
+   "claim": "İmza tasdiki (tarife tutarı; kartta kuruşa yuvarlanmış: 6,01 euro)",
+   "value": "6,010121",
+   "unit": "EUR",
+   "period": "",
+   "source_id": "malaga:kaynak:027",
+   "quote": "Por la legitimación de firma se percibirán 6,010121 euros"
+  },
+  {
+   "claim_id": "C-noter-islemleri-ve-ucretleri-9",
+   "field": "summary",
+   "claim": "Aynı belgedeki her ek imza (tarife tutarı; kartta kuruşa yuvarlanmış: 3,01 euro)",
+   "value": "3,005061",
+   "unit": "EUR",
+   "period": "",
+   "source_id": "malaga:kaynak:027",
+   "quote": "por cada firma más contenida en el mismo documento, se devengarán 3,005061 euros"
+  },
+  {
+   "claim_id": "C-noter-islemleri-ve-ucretleri-10",
+   "field": "cost",
+   "claim": "Yetkili kopya sayfa başına (tarife tutarı; kartta kuruşa yuvarlanmış: 3,01 euro)",
+   "value": "3,005061",
+   "unit": "EUR",
+   "period": "",
+   "source_id": "malaga:kaynak:027",
+   "quote": "Las copias y cédulas autorizadas y su nota de expedición, en su caso, devengarán 3,005061 euros por cada folio o parte de él."
+  },
+  {
+   "claim_id": "C-noter-islemleri-ve-ucretleri-11",
+   "field": "cost",
+   "claim": "12. sayfadan itibaren yetkili kopya yarı fiyat",
+   "value": "12",
+   "unit": "sayfa",
+   "period": "",
+   "source_id": "malaga:kaynak:027",
+   "quote": "A partir del duodécimo folio inclusive, se percibirá la mitad de la cantidad anterior."
+  },
+  {
+   "claim_id": "C-noter-islemleri-ve-ucretleri-12",
+   "field": "cost",
+   "claim": "Basit kopya sayfa başına (tarife tutarı; kartta kuruşa yuvarlanmış: 0,60 euro)",
+   "value": "0,601012",
+   "unit": "EUR",
+   "period": "",
+   "source_id": "malaga:kaynak:027",
+   "quote": "Las copias simples devengarán a razón de 0,601012 euros por folio."
+  },
+  {
+   "claim_id": "C-noter-islemleri-ve-ucretleri-13",
+   "field": "cost",
+   "claim": "Değeri 6.010,12 euroyu aşmayan işlemde ücret (tarife tutarı; kartta kuruşa yuvarlanmış: 90,15 euro)",
+   "value": "90,151816",
+   "unit": "EUR",
+   "period": "",
+   "source_id": "malaga:kaynak:027",
+   "quote": "Cuando el valor no exceda de 6.010,12 euros: 90,151816 euros."
+  },
+  {
+   "claim_id": "C-noter-islemleri-ve-ucretleri-14",
+   "field": "steps",
+   "claim": "6.010,13 ile 30.050,61 euro arası fazla kısım için binde 4,5",
+   "value": "4,5",
+   "unit": "binde",
+   "period": "",
+   "source_id": "malaga:kaynak:027",
+   "quote": "Por el exceso comprendido entre 6.010,13 y 30.050,61 euros: 4,5 por mil."
+  },
+  {
+   "claim_id": "C-noter-islemleri-ve-ucretleri-15",
+   "field": "steps",
+   "claim": "6.010.121,04 euroyu aşan kısımda ücret serbestçe anlaşılır",
+   "value": "6.010.121,04",
+   "unit": "EUR",
+   "period": "",
+   "source_id": "malaga:kaynak:027",
+   "quote": "Por lo que excede de 6.010.121,04 euros el Notario percibirá la cantidad que libremente acuerde con las partes otorgantes."
+  },
+  {
+   "claim_id": "C-noter-islemleri-ve-ucretleri-16",
+   "field": "steps",
+   "claim": "Tarifenin tam nüshası tüm noterliklerde halka açıktır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:027",
+   "quote": "que sean múltiplos de 601,01 estará a disposición del público en todas las Notarías"
+  },
+  {
+   "claim_id": "C-noter-islemleri-ve-ucretleri-17",
+   "field": "note",
+   "claim": "Birleştirilmiş metnin son güncellemesi 17/11/2011",
+   "value": "17/11/2011",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:027",
+   "quote": "Última actualización, publicada el 17/11/2011, en vigor a partir del 18/11/2011."
+  },
+  {
+   "claim_id": "C-noter-islemleri-ve-ucretleri-101",
+   "field": "summary",
+   "claim": "Kişisel ve ipotekli kredilerde tarife yüzde 25 indirimli uygulanır",
+   "value": "25",
+   "unit": "%",
+   "period": "",
+   "source_id": "malaga:kaynak:027",
+   "quote": "Los derechos establecidos en el apartado 1, se reducirán en un 25 por 100 en los préstamos y créditos personales o con garantía hipotecaria"
+  },
+  {
+   "claim_id": "C-noter-islemleri-ve-ucretleri-102",
+   "field": "summary",
+   "claim": "Tarife tutarları yürürlükteki diğer indirim ve rebajlarla birlikte uygulanır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:027",
+   "quote": "con carácter adicional a los demás descuentos y rebajas previstos en la normativa vigente"
+  },
+  {
+   "claim_id": "C-noter-islemleri-ve-ucretleri-103",
+   "field": "summary",
+   "claim": "Ölçekle hesaplanan değerli işlemlerde tarife tutarına yüzde 5 indirim uygulanır",
+   "value": "5",
+   "unit": "%",
+   "period": "",
+   "source_id": "malaga:kaynak:027",
+   "quote": "En todos los supuestos de este apartado se aplicará una rebaja del 5 por 100 del importe del arancel a percibir por el notario."
+  },
+  {
+   "claim_id": "C-noter-islemleri-ve-ucretleri-104",
+   "field": "summary",
+   "claim": "Yüzde 50 indirim: devlet, özerk bölge, il ya da belediyenin yasal olarak ödemekle yükümlü olduğu işlemler",
+   "value": "50",
+   "unit": "%",
+   "period": "",
+   "source_id": "malaga:kaynak:027",
+   "quote": "Instrumentos en que por disposición expresa de la Ley resulten obligados al pago de los derechos notariales el Estado, Comunidades Autónomas, provincias o municipios"
+  },
+  {
+   "claim_id": "C-noter-islemleri-ve-ucretleri-105",
+   "field": "summary",
+   "claim": "Yüzde 50 indirim: indirim oranı bu hâllerde yüzde 50'ye çıkar",
+   "value": "50",
+   "unit": "%",
+   "period": "",
+   "source_id": "malaga:kaynak:027",
+   "quote": "La reducción alcanzará un 50 por 100 en los casos siguientes:"
+  },
+  {
+   "claim_id": "C-noter-islemleri-ve-ucretleri-106",
+   "field": "summary",
+   "claim": "Yüzde 50 indirim: siyasi partiler ve sendikalar ödemekle yükümlüyse",
+   "value": "50",
+   "unit": "%",
+   "period": "",
+   "source_id": "malaga:kaynak:027",
+   "quote": "Instrumentos en que resulten obligados al pago los partidos políticos y las organizaciones sindicales."
+  },
+  {
+   "claim_id": "C-noter-islemleri-ve-ucretleri-107",
+   "field": "summary",
+   "claim": "Yüzde 50 indirim: konut yapımı ve geliştirmesi için kamu idarelerinin verdiği kredi ya da avanslar",
+   "value": "50",
+   "unit": "%",
+   "period": "",
+   "source_id": "malaga:kaynak:027",
+   "quote": "Préstamos o anticipos concedidos por las diferentes Administraciones públicas para la promoción y construcción de viviendas."
+  },
+  {
+   "claim_id": "C-noter-islemleri-ve-ucretleri-108",
+   "field": "summary",
+   "claim": "Yüzde 50 indirim: korunan konut vasfı almış bina ve konutların ikinci ve sonraki devirleri",
+   "value": "50",
+   "unit": "%",
+   "period": "",
+   "source_id": "malaga:kaynak:027",
+   "quote": "Segundas o posteriores transmisiones de edificios y viviendas que hayan obtenido la calificación o certificación de actuación protegible"
+  },
+  {
+   "claim_id": "C-noter-islemleri-ve-ucretleri-109",
+   "field": "steps",
+   "claim": "Ölçek: 30.050,62 ile 60.101,21 euro arası binde 1,50",
+   "value": "1,50",
+   "unit": "binde",
+   "period": "",
+   "source_id": "malaga:kaynak:027",
+   "quote": "Por el exceso comprendido entre 30.050,62 y 60.101,21 euros: 1,50 por mil."
+  },
+  {
+   "claim_id": "C-noter-islemleri-ve-ucretleri-110",
+   "field": "steps",
+   "claim": "Ölçek: 60.101,22 ile 150.253,03 euro arası binde 1",
+   "value": "1",
+   "unit": "binde",
+   "period": "",
+   "source_id": "malaga:kaynak:027",
+   "quote": "Por el exceso comprendido entre 60.101,22 y 150.253,03 euros: 1 por mil."
+  },
+  {
+   "claim_id": "C-noter-islemleri-ve-ucretleri-111",
+   "field": "steps",
+   "claim": "Ölçek: 150.253,04 ile 601.012,10 euro arası binde 0,5",
+   "value": "0,5",
+   "unit": "binde",
+   "period": "",
+   "source_id": "malaga:kaynak:027",
+   "quote": "Por el exceso comprendido entre 150.253,04 y 601.012,10 euros: 0,5 por mil."
+  },
+  {
+   "claim_id": "C-noter-islemleri-ve-ucretleri-112",
+   "field": "steps",
+   "claim": "Ölçek: 601.012,10 euro üstü ile 6.010.121,04 euro arası binde 0,3",
+   "value": "0,3",
+   "unit": "binde",
+   "period": "",
+   "source_id": "malaga:kaynak:027",
+   "quote": "Por lo que excede de 601.012,10 euros hasta 6.010.121,04 euros: 0,3 por mil."
+  }
+ ],
+ "adimlar": [],
+ "butonlar": [
+  {
+   "action_id": "malaga:action:noter-islemleri-ve-ucretleri-1",
+   "label": "Tarifeyi gör",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1989-28111"
+  }
+ ]
+}
+
+===== KART 10/21: malaga:libro-de-familia-nedir =====
+{
+ "entry_id": "malaga:libro-de-familia-nedir",
+ "city_id": "malaga",
+ "slug": "libro-de-familia-nedir",
+ "title": "Libro de Familia (aile cüzdanı) nedir?",
+ "subtitle": "30 Nisan 2021'den beri yeni Libro de Familia verilmiyor; eskiler etkisini sürdürüyor",
+ "summary": "Libro de Familia (aile cüzdanı), eski Registro Civil (medeni hâl sicili) sisteminde verilen bir belgedir. Ley 20/2011 (Registro Civil Yasası) 30 Nisan 2021'de yürürlüğe girdi; o tarihten itibaren yeni Libro de Familia verilmiyor. Daha önce verilmiş olanlar ise 8 Haziran 1957 tarihli eski Registro Civil Yasası'nın 8. ve 75. maddelerindeki etkilerini sürdürüyor. Yeni sistemde her bireysel kayıtta kişinin bilgilerini gösteren bir sayfa ya da özet bulunuyor.",
+ "keywords": "Libro de Familia, aile cüzdanı, Registro Civil, Ley 20/2011, medeni hâl kaydı, bireysel kayıt",
+ "stages": "new;settled",
+ "source_ids": "malaga:kaynak:028;malaga:kaynak:029",
+ "reviewed_on": "2026-10-24",
+ "order": 9023,
+ "featured": "Hayır",
+ "editorial_status": "Taslak",
+ "topic_id": "malaga:resmi",
+ "steps": "Elinde eskiden verilmiş bir Libro de Familia varsa saklamaya devam et; bu belgeler yasadaki etkilerini sürdürüyor. Yeni Libro de Familia alamazsın, çünkü artık verilmiyor.\nKayıtlarının sertifikasını bağlı olduğun Registro Civil'den iste; Registro Civil sertifikaları ücretsizdir.",
+ "documents": "",
+ "timing": "",
+ "cost": "",
+ "note": "",
+ "visual_json": "",
+ "_sekme": "Yanıtlar",
+ "kaynaklar": [
+  {
+   "source_id": "malaga:kaynak:028",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2011-12628",
+   "publisher": "Agencia Estatal Boletín Oficial del Estado (BOE)",
+   "text_file": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\malaga\\_is\\snap_ulke_es\\malaga_kaynak_028_es_kaynak_029.txt"
+  },
+  {
+   "source_id": "malaga:kaynak:029",
+   "url": "https://www.mjusticia.gob.es/es/ciudadania/estado-civil/registro-civil",
+   "publisher": "Ministerio de Justicia",
+   "text_file": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\malaga\\_is\\snap_ulke_es\\malaga_kaynak_029_es_kaynak_030.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-libro-de-familia-nedir-1",
+   "field": "summary",
+   "claim": "Yasanın adı Ley 20/2011 (21 Temmuz 2011), Registro Civil Yasası",
+   "value": "20/2011",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:028",
+   "quote": "Ley 20/2011, de 21 de julio, del Registro Civil."
+  },
+  {
+   "claim_id": "C-libro-de-familia-nedir-3",
+   "field": "summary",
+   "claim": "Her bireysel kayıtta kişisel verileri gösteren sayfa ya da özet bulunacak",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:028",
+   "quote": "se ha previsto que en cada registro individual conste una hoja o extracto en la que figuren los datos personales de la vida del individuo"
+  },
+  {
+   "claim_id": "C-libro-de-familia-nedir-6",
+   "field": "steps",
+   "claim": "Registro Civil sertifikaları ücretsizdir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:029",
+   "quote": "Las certificaciones del Registro Civil son gratuitas y no están sometidas a ninguna tasa o derecho"
+  },
+  {
+   "claim_id": "C-libro-de-familia-nedir-101",
+   "field": "summary",
+   "claim": "30 Nisan 2021'den itibaren yeni Libro de Familia verilmez",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:028",
+   "quote": "A partir de la fecha de entrada en vigor de la presente Ley no se expedirán Libros de Familia"
+  },
+  {
+   "claim_id": "C-libro-de-familia-nedir-102",
+   "field": "summary",
+   "claim": "Eski Libro de Familia'lar 1957 yasasındaki etkilerini sürdürür",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:028",
+   "quote": "seguirán teniendo los efectos previstos en los artículos 8 y 75 de la Ley del Registro Civil de 8 de junio de 1957"
+  },
+  {
+   "claim_id": "C-libro-de-familia-nedir-103",
+   "field": "summary",
+   "claim": "Yasa 30 Nisan 2021'de yürürlüğe girdi",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:028",
+   "quote": "La presente Ley entrará en vigor el 30 de abril de 2021"
+  },
+  {
+   "claim_id": "C-libro-de-familia-nedir-104",
+   "field": "subtitle",
+   "claim": "Registro Civil Yasası'nda Libro de Familia'dan vazgeçilmesi öngörülmüştü",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:028",
+   "quote": "puesto que se prescindirá del Libro de Familia"
+  }
+ ],
+ "adimlar": [],
+ "butonlar": [
+  {
+   "action_id": "malaga:action:libro-de-familia-nedir-1",
+   "label": "Bilgi al",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2011-12628"
+  },
+  {
+   "action_id": "malaga:action:libro-de-familia-nedir-2",
+   "label": "Bilgi al",
+   "url": "https://www.mjusticia.gob.es/es/ciudadania/estado-civil/registro-civil"
+  }
+ ]
+}
+
+===== KART 11/21: malaga:registro-civil-ne-ise-yarar =====
+{
+ "entry_id": "malaga:registro-civil-ne-ise-yarar",
+ "city_id": "malaga",
+ "slug": "registro-civil-ne-ise-yarar",
+ "title": "Registro Civil (medeni hâl sicili) ne işe yarar?",
+ "subtitle": "Doğum, evlilik, ölüm gibi olaylar kaydedilir; kayıtlar ve sertifikalar ücretsiz",
+ "summary": "Registro Civil, kişilerin medeni hâline ilişkin olayların kaydedildiği sicildir: doğum, soybağı, ad ve soyad ile değişiklikleri, uyruk ve vecindad, velayet ve vesayet, evlilik, ölüm gibi. Sicildeki kayıtlar, kayıtlı olayların kanıtıdır. Kayıtlar, defin ruhsatları ve sicille ilgili dosyalar tamamen ücretsizdir; sertifikalar da hiçbir harca tabi değildir. Sertifikaları ilgili Registro Civil ofisinden yüz yüze ya da Adalet Bakanlığı'nın elektronik sedesinden alabilirsin.",
+ "keywords": "Registro Civil, medeni hâl sicili, doğum kaydı, evlilik kaydı, ölüm kaydı, sertifika, ücretsiz",
+ "stages": "new;settled",
+ "source_ids": "malaga:kaynak:029",
+ "reviewed_on": "2026-10-24",
+ "order": 9024,
+ "featured": "Hayır",
+ "editorial_status": "Taslak",
+ "topic_id": "malaga:resmi",
+ "steps": "Olayın (doğum, evlilik, ölüm) gerçekleştiği yerdeki Registro Civil'e başvur.\nSertifika için ilgili Registro Civil ofisine git ya da Adalet Bakanlığı'nın elektronik sedesini kullan.\nSertifika karşılığında ücret isteyen sitelere ödeme yapma; Adalet Bakanlığı bu sitelerle ilgili değil ve sertifikalar ücretsiz.",
+ "documents": "",
+ "timing": "",
+ "cost": "",
+ "note": "Yurtdışında doğan İspanyolların doğumu Registro Civil Central'de kaydedilir.",
+ "visual_json": "",
+ "_sekme": "Yanıtlar",
+ "kaynaklar": [
+  {
+   "source_id": "malaga:kaynak:029",
+   "url": "https://www.mjusticia.gob.es/es/ciudadania/estado-civil/registro-civil",
+   "publisher": "Ministerio de Justicia",
+   "text_file": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\malaga\\_is\\snap_ulke_es\\malaga_kaynak_029_es_kaynak_030.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-registro-civil-ne-ise-yarar-1",
+   "field": "summary",
+   "claim": "Registro Civil medeni hâle ilişkin olayları kaydeder",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:029",
+   "quote": "El Registro Civil es un registro en el que se inscriben los hechos concernientes al estado civil de las personas."
+  },
+  {
+   "claim_id": "C-registro-civil-ne-ise-yarar-2",
+   "field": "summary",
+   "claim": "Sicile doğum yazılır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:029",
+   "quote": "En el Registro Civil se inscriben: El nacimiento."
+  },
+  {
+   "claim_id": "C-registro-civil-ne-ise-yarar-3",
+   "field": "summary",
+   "claim": "Sicile evlilik yazılır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:029",
+   "quote": "El matrimonio."
+  },
+  {
+   "claim_id": "C-registro-civil-ne-ise-yarar-4",
+   "field": "summary",
+   "claim": "Sicile ölüm yazılır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:029",
+   "quote": "La defunción."
+  },
+  {
+   "claim_id": "C-registro-civil-ne-ise-yarar-5",
+   "field": "summary",
+   "claim": "Sicil kayıtlı olayların kanıtıdır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:029",
+   "quote": "El Registro Civil constituye la prueba de los hechos inscritos."
+  },
+  {
+   "claim_id": "C-registro-civil-ne-ise-yarar-6",
+   "field": "summary",
+   "claim": "Kayıtlar, defin ruhsatları ve dosyalar ücretsizdir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:029",
+   "quote": "Son enteramente gratuitos los asientos del Registro Civil, las licencias de enterramiento y los expedientes relativos al Registro Civil."
+  },
+  {
+   "claim_id": "C-registro-civil-ne-ise-yarar-7",
+   "field": "summary",
+   "claim": "Sertifikalar ücretsizdir, harca tabi değildir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:029",
+   "quote": "Las certificaciones del Registro Civil son gratuitas y no están sometidas a ninguna tasa o derecho"
+  },
+  {
+   "claim_id": "C-registro-civil-ne-ise-yarar-8",
+   "field": "summary",
+   "claim": "Sertifika ofisten yüz yüze ya da Adalet Bakanlığı'nın elektronik sedesinden alınır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:029",
+   "quote": "bien presencialmente ante la Oficina del Registro Civil correspondiente, bien a través de la Sede electrónica del Ministerio de Justicia"
+  },
+  {
+   "claim_id": "C-registro-civil-ne-ise-yarar-9",
+   "field": "steps",
+   "claim": "Doğum, evlilik ve ölüm olayın gerçekleştiği yerin sicilinde kaydedilir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:029",
+   "quote": "Los nacimientos, matrimonios y defunciones han de inscribirse en el Registro del lugar en que ocurren."
+  },
+  {
+   "claim_id": "C-registro-civil-ne-ise-yarar-10",
+   "field": "steps",
+   "claim": "Bakanlığın ücret isteyen sitelerle ilgisi yok",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:029",
+   "quote": "no tiene relación alguna con ninguna de las páginas web que ofrecen a los ciudadanos la obtención de dichas certificaciones a cambio de un precio"
+  },
+  {
+   "claim_id": "C-registro-civil-ne-ise-yarar-11",
+   "field": "note",
+   "claim": "Yurtdışında doğan İspanyolların doğumu Registro Civil Central'de kaydedilir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:029",
+   "quote": "El nacimiento de españoles ocurrido en el extranjero."
+  }
+ ],
+ "adimlar": [],
+ "butonlar": [
+  {
+   "action_id": "malaga:action:registro-civil-ne-ise-yarar-1",
+   "label": "Bilgi al",
+   "url": "https://www.mjusticia.gob.es/es/ciudadania/estado-civil/registro-civil"
+  }
+ ]
+}
+
+===== KART 12/21: malaga:yabanci-ehliyet-degisimi =====
+{
+ "entry_id": "malaga:yabanci-ehliyet-degisimi",
+ "city_id": "malaga",
+ "slug": "yabanci-ehliyet-degisimi",
+ "title": "Türk ehliyeti İspanyol ehliyetine nasıl değiştirilir (DGT)?",
+ "subtitle": "Türkiye ile 2011'den beri anlaşma var: A2 ve B sınavsız, C/D/E sınıflarında sınav gerekir, A1/F/G/H değişmez",
+ "summary": "Türkiye ile İspanya arasında ehliyet tanıma ve değişim anlaşması var; anlaşma 25 Nisan 2011'de yürürlüğe girdi. İspanya'da yasal ikamet ettikten sonra Türk ehliyetini anlaşmadaki eşdeğerlik tablosuna göre İspanyol ehliyetiyle değiştirebilirsin. Türk A2 ve B sınıfları teorik ve pratik sınav olmadan değişir. Türk C, D ve E sınıflarının İspanyol karşılıkları arasında C1, C, D1, D ve +E sınıfları da bulunur; bunlar için hem özel bilgi (teorik) sınavı hem trafikte sürüş sınavı gerekir. Türk A1, F, G ve H sınıfları değiştirilemez. 25 Nisan 2011'den sonra alınan ehliyetin, başvuranın yasal ikametinin bulunduğu devlette verilmiş olması şarttır. İspanya'da normal ikamet ettiğin günden itibaren yabancı ehliyetin en çok altı ay geçerlidir; sürmeye devam etmek istiyorsan değişim zorunludur.",
+ "keywords": "ehliyet değişimi, canje, DGT, yabancı ehliyet, permiso de conducir, convenio, psikofiziksel rapor",
+ "stages": "new;settled",
+ "source_ids": "malaga:kaynak:030;malaga:kaynak:031;malaga:kaynak:246",
+ "reviewed_on": "2026-10-27",
+ "order": 9025,
+ "featured": "Hayır",
+ "editorial_status": "Taslak",
+ "topic_id": "malaga:resmi",
+ "steps": "Ehliyetinin sınıfına bak: Türk A2 ve B sınıfı sınavsız değişir; C, D ve E sınıfında sınav gerekir; A1, F, G ve H sınıfı değiştirilemez.\nEhliyeti 25 Nisan 2011'den sonra aldıysan, onu yasal ikametinin bulunduğu devlette aldığından emin ol; İspanya'da yasal ikametçiyken alınmış yabancı ehliyet değiştirilemez.\nGeçerli oturum kartını ve ehliyeti İspanya'da yerleşik olmadan önce aldığını gösteren belgeyi hazırla.\nYetkili bir Centro de Reconocimiento de Conductores'tan psikofiziksel yeterlilik raporu al; rapor 90 gün geçerli, başvurunu bu süre dolmadan yap.\nBaşvuruyu DGT'nin çevrimiçi canje hizmetinden yap: önce ehliyetinin Türkiye tarafından doğrulanmasını iste, doğrulama olumlu gelince canje başvurusunu ver; DGT'ye göre bu hizmette randevu almazsın (2011 anlaşmasının BOE metni ise randevunun telefonla ya da internetten alınmasını öngörüyor). Sınav gerektirmeyen sınıflarda ehliyeti değiştir; sınav gerektirenlerde sınavlara gir.\nİşlem sırasında sana geçici ehliyet verilir; kalıcı ehliyet yaklaşık bir buçuk ayda gelir.",
+ "documents": "Orijinal Türk ehliyeti\nGeçerli oturum kartı (tarjeta de residencia)\nEhliyeti İspanya'da yerleşik olmadan önce aldığını gösteren belge (oturum, öğrenci ya da AB kartı ya da yabancılar kayıt belgesi)\nPsikofiziksel yeterlilik raporu (Centro de Reconocimiento de Conductores)",
+ "timing": "Başvuruda geçici ehliyet verilir; kalıcı ehliyet yaklaşık bir buçuk ayda gelir.",
+ "cost": "",
+ "note": "Değiştirmek istediğin ehliyet de başka bir ülkeden, o ülkeyle anlaşma olmadan değişimle alınmışsa değişim yapılamaz. Anlaşmaya göre ehliyetin geçerliliğinden ya da sürüş yeterliliğinden şüphe edilirse teorik ve/veya pratik sınav istenebilir.",
+ "visual_json": "",
+ "_sekme": "Yanıtlar",
+ "kaynaklar": [
+  {
+   "source_id": "malaga:kaynak:030",
+   "url": "https://www.dgt.es/nuestros-servicios/permisos-de-conducir/permisos-extranjeros-y-de-fuerzas-y-cuerpos-de-seguridad/canjes-de-permisos/canjes-de-permisos-extranjeros/canje-de-permisos-de-otros-paises/",
+   "publisher": "Dirección General de Tráfico (DGT)",
+   "text_file": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\malaga\\_is\\snap_ulke_es\\malaga_kaynak_030_es_kaynak_032.txt"
+  },
+  {
+   "source_id": "malaga:kaynak:031",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2011-5606",
+   "publisher": "Boletín Oficial del Estado",
+   "text_file": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\malaga\\_is\\snap_ulke_es\\malaga_kaynak_031_es_kaynak_035.txt"
+  },
+  {
+   "source_id": "malaga:kaynak:246",
+   "url": "https://www.dgt.es/comunicacion/notas-de-prensa/20250520-dgt-servicio-de-canje-digital-de-permisos-de-conduccion/",
+   "publisher": "Dirección General de Tráfico",
+   "text_file": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\malaga\\_is\\snap_kesif_resmi\\2ff033ec1a9f56e2f4dc37bd4f9cda4dda8d23ee75855171c95c617bccd533a7.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-yabanci-ehliyet-degisimi-7",
+   "field": "summary",
+   "claim": "Yerleşik olduktan sonra alınan ehliyet değişmez",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:030",
+   "quote": "Si obtuviste tu permiso extranjero siendo ya residente legal en España."
+  },
+  {
+   "claim_id": "C-yabanci-ehliyet-degisimi-8",
+   "field": "documents",
+   "claim": "Oturum kartı geçerli olmalı",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:030",
+   "quote": "Para la acreditación de la residencia: Tarjeta de residencia en vigor."
+  },
+  {
+   "claim_id": "C-yabanci-ehliyet-degisimi-9",
+   "field": "documents",
+   "claim": "Yerleşik olmadan önce alındığını gösteren belge",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:030",
+   "quote": "Tarjeta de Residencia, de Estudiante o Comunitaria."
+  },
+  {
+   "claim_id": "C-yabanci-ehliyet-degisimi-10",
+   "field": "documents",
+   "claim": "Yabancılar kayıt belgesi de kabul edilir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:030",
+   "quote": "Certificado de inscripción en el registro de extranjeros."
+  },
+  {
+   "claim_id": "C-yabanci-ehliyet-degisimi-11",
+   "field": "steps",
+   "claim": "Rapor yetkili bir Centro de Reconocimiento de Conductores'tan alınır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:030",
+   "quote": "Para ello acude a un Centro de Reconocimiento de Conductores autorizado indicando que se trata de un informe para obtener el permiso de conducir"
+  },
+  {
+   "claim_id": "C-yabanci-ehliyet-degisimi-12",
+   "field": "steps",
+   "claim": "Rapor 90 gün geçerli",
+   "value": "90",
+   "unit": "gün",
+   "period": "",
+   "source_id": "malaga:kaynak:030",
+   "quote": "Este certificado tiene un período de validez de 90 días, deberás presentar tu solicitud para realizar el examen antes de que caduque."
+  },
+  {
+   "claim_id": "C-yabanci-ehliyet-degisimi-13",
+   "field": "timing",
+   "claim": "Başvuruda geçici ehliyet verilir, kalıcı ehliyet yaklaşık bir buçuk ayda gelir",
+   "value": "1,5",
+   "unit": "ay",
+   "period": "",
+   "source_id": "malaga:kaynak:030",
+   "quote": "En el momento de realizar el trámite te entregaremos un permiso provisional. En un plazo aproximado de un mes y medio tendrás tu permiso definitivo."
+  },
+  {
+   "claim_id": "C-yabanci-ehliyet-degisimi-14",
+   "field": "note",
+   "claim": "Başka ülkeden anlaşmasız değişimle alınmış ehliyet değişmez",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:030",
+   "quote": "El permiso que quieres canjear fue obtenido a su vez como canje de otro país con el que España no tenga convenio."
+  },
+  {
+   "claim_id": "C-yabanci-ehliyet-degisimi-101",
+   "field": "summary",
+   "claim": "Anlaşma 25 Nisan 2011'de yürürlüğe girdi",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:031",
+   "quote": "El presente Acuerdo entra en vigor el 25 de abril de 2011"
+  },
+  {
+   "claim_id": "C-yabanci-ehliyet-degisimi-102",
+   "field": "summary",
+   "claim": "Anlaşma kapsamındaki ehliyetler eşdeğerlik tablosuna göre sınavsız değişir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:031",
+   "quote": "de conformidad a la tabla de equivalencias entre las clases de permisos turcos y españoles, sin tener que realizar las pruebas teóricas y prácticas exigidas para su obtención"
+  },
+  {
+   "claim_id": "C-yabanci-ehliyet-degisimi-103",
+   "field": "summary",
+   "claim": "Türk A2 İspanyol A'ya, Türk B İspanyol B'ye karşılık gelir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:031",
+   "quote": "A1 A2 A. B . B. C . C1, C."
+  },
+  {
+   "claim_id": "C-yabanci-ehliyet-degisimi-104",
+   "field": "summary",
+   "claim": "Türk D ve E sınıflarının karşılıkları arasında C1, C, D1, D ve +E sınıfları var",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:031",
+   "quote": "D . B, C1, C, D1, B+E, C1+E, C+E, D1+E, D+E."
+  },
+  {
+   "claim_id": "C-yabanci-ehliyet-degisimi-105",
+   "field": "summary",
+   "claim": "C1, C, D1, D ve +E sınıfları için özel bilgi sınavı ve trafikte sürüş sınavı gerekir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:031",
+   "quote": "deberán realizar una prueba de control de conocimientos específicos, y una prueba de circulación en vías abiertas al tráfico general"
+  },
+  {
+   "claim_id": "C-yabanci-ehliyet-degisimi-106",
+   "field": "summary",
+   "claim": "Bu sınav şartı Türk ehliyeti için İspanyol C1, C1+E, C, C+E, D1, D1+E, D ve D+E karşılıkları içindir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:031",
+   "quote": "permisos españoles de las clases C1, C1+E, C, C+E, D1, D1+E, D y D+E"
+  },
+  {
+   "claim_id": "C-yabanci-ehliyet-degisimi-107",
+   "field": "summary",
+   "claim": "Türk A1, F, G ve H sınıfları değiştirilemez",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:031",
+   "quote": "Los permisos turcos de las categorías A1, F, G y H no son canjeables"
+  },
+  {
+   "claim_id": "C-yabanci-ehliyet-degisimi-108",
+   "field": "summary",
+   "claim": "25 Nisan 2011'den sonra verilen ehliyet, yasal ikametin bulunduğu devlette verilmiş olmalı",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:031",
+   "quote": "será requisito indispensable, para acceder al canje, que los permisos hayan sido expedidos en el Estado donde el solicitante tenga su residencia legal"
+  },
+  {
+   "claim_id": "C-yabanci-ehliyet-degisimi-109",
+   "field": "summary",
+   "claim": "Yabancı ehliyet normal ikametten itibaren en çok altı ay geçerli, değişim zorunlu",
+   "value": "6",
+   "unit": "ay",
+   "period": "",
+   "source_id": "malaga:kaynak:030",
+   "quote": "Tu permiso extranjero es solo valido durante el plazo de seis meses, como máximo, contados desde que hayas adquirido la residencia normal en España"
+  },
+  {
+   "claim_id": "C-yabanci-ehliyet-degisimi-111",
+   "field": "steps",
+   "claim": "2011 anlaşmasının BOE metnine göre randevu telefonla ya da internetten alınır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:031",
+   "quote": "solicitarán telefónicamente o por Internet, la asignación de una cita para efectuar el canje"
+  },
+  {
+   "claim_id": "C-yabanci-ehliyet-degisimi-112",
+   "field": "note",
+   "claim": "Şüphe halinde teorik ve/veya pratik sınav istenebilir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:031",
+   "quote": "se podrá exigir la realización de pruebas teóricas y/o prácticas según sea el caso"
+  },
+  {
+   "claim_id": "C-yabanci-ehliyet-degisimi-tut1",
+   "field": "steps",
+   "claim": "DGT'nin dijital canje hizmetinde randevu alınmaz",
+   "value": "",
+   "unit": "",
+   "period": "2025'ten beri",
+   "source_id": "malaga:kaynak:246",
+   "quote": "Con este servicio el ciudadano no necesita pedir cita previa"
+  },
+  {
+   "claim_id": "C-yabanci-ehliyet-degisimi-tut2",
+   "field": "steps",
+   "claim": "Türkiye ehliyetlerinde canjeden önce ehliyetin veren ülkece doğrulanması istenir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:246",
+   "quote": "Serbia, Túnez o Turquía, antes de canjear se solicita una verificación previa del permiso ante el país que lo ha expedido"
+  }
+ ],
+ "adimlar": [],
+ "butonlar": [
+  {
+   "action_id": "malaga:action:yabanci-ehliyet-degisimi-1",
+   "label": "Bilgi al",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2011-5606"
+  },
+  {
+   "action_id": "malaga:action:yabanci-ehliyet-degisimi-2",
+   "label": "Başvur",
+   "url": "https://sede.dgt.gob.es/es/permisos-de-conducir/canjes-de-permisos/canjes-de-permisos-extranjeros/"
+  },
+  {
+   "action_id": "malaga:action:yabanci-ehliyet-degisimi-3",
+   "label": "Bilgi al",
+   "url": "https://www.dgt.es/nuestros-servicios/permisos-de-conducir/permisos-extranjeros-y-de-fuerzas-y-cuerpos-de-seguridad/canjes-de-permisos/canjes-de-permisos-extranjeros/canje-de-permisos-de-otros-paises/"
+  }
+ ]
+}
+
+===== KART 13/21: malaga:arac-kaydi-ulusal-cerceve =====
+{
+ "entry_id": "malaga:arac-kaydi-ulusal-cerceve",
+ "city_id": "malaga",
+ "slug": "arac-kaydi-ulusal-cerceve",
+ "title": "Araç kaydı (matriculación) nasıl yapılır? Ulusal çerçeve",
+ "subtitle": "Yeni ya da yurtdışından alınan araç tescil edilmeden yollarda kullanılamaz",
+ "summary": "İspanya'da yeni ya da yurtdışından alınmış (yeni veya kullanılmış) bir aracı yollarda kullanmadan önce tescil ettirmen (matriculación) gerekir; plakalar takılmadan motorlu araçla dolaşılmaz. DGT'nin tescil işlemi için azami süresi 3 aydır; bu sürede cevap gelmezse işlem yapılmamıştır, idari sessizlik olumsuz sayılır. İşlem bitince araç için plaka numarası ve Permiso de circulación (ruhsat) verilir; plakaları bu belgelerle alırsın. Başvuruyu alıcı-malik ya da onun yetkilendirdiği kişi yapar; işlemi çoğunlukla satıcı firma (concesionario) veya gestor halleder ama kendin de yapabilirsin.",
+ "keywords": "araç tescili, matriculación, DGT, Permiso de circulación, plaka, Modelo 576, IVTM, ITV",
+ "stages": "new;settled",
+ "source_ids": "malaga:kaynak:032;malaga:kaynak:033",
+ "reviewed_on": "2026-10-24",
+ "order": 9026,
+ "featured": "Hayır",
+ "editorial_status": "Taslak",
+ "topic_id": "malaga:resmi",
+ "steps": "Aracın elektronik ITV kartı (ficha ITV electrónica) olup olmadığına bak; yalnız kâğıt kartı varsa DGT'nin genel başvuru formuyla başvurabilirsin, bunun için dijital DNI, geçerli elektronik sertifika ya da Cl@ve bilgilerin gerekir.\nTescil vergisini Modelo 576 ile öde ya da muafiyet veya tabi olmama belgesi (Modelo 06 veya 05) al; Bask Bölgesi ve Navarra'da ilgili Hacienda Foral'a başvurulur.\nOturduğun belediyenin Impuesto de Circulación (IVTM) ödeme veya muafiyet belgesini al.\nDGT harcını öde; yeni araçta genel durumda çevrimiçi formdaki \"Pagar\" düğmesiyle ya da önceden aldığın tasa numarasıyla öde, yüz yüze başvuruda harcı kartla öde (nakit olmaz).\nBaşvuruyu çevrimiçi yap ya da internetten veya 060'tan randevu alıp Jefatura ya da Oficina local de Tráfico'ya git; yüz yüze başvuru yalnız bireylere açık.\nTescil bitince plaka numarası ve Permiso de circulación ile plakaları al.",
+ "documents": "Elektronik ITV kartı (NIVE) ya da satış kaydı düşülmüş ITV kartı; yoksa fatura veya açık artırma tahsis tutanağı\nImpuesto Especial sobre Determinados Medios de Transporte ödeme, muafiyet ya da tabi olmama belgesi (Modelo 576, 06 veya 05)\nOturduğun belediyenin Impuesto de Circulación (IVTM) ödeme veya muafiyet belgesi\nDGT harcı ödeme belgesi\nKimlik belgesi (yüz yüze başvuruda orijinal ve geçerli)",
+ "timing": "DGT'nin tescil için azami süresi 3 aydır; bu sürede cevap gelmezse işlem yapılmamış sayılır.",
+ "cost": "",
+ "note": "Tescil vergisi (Impuesto Especial sobre Determinados Medios de Transporte) Modelo 576 ile kendi beyanınla ödenir (autoliquidación); tutar aracın özelliğine ve bölgeye göre değişir. Römorklar bu vergiden muaftır.",
+ "visual_json": "",
+ "_sekme": "Yanıtlar",
+ "kaynaklar": [
+  {
+   "source_id": "malaga:kaynak:032",
+   "url": "https://sede.dgt.gob.es/es/vehiculos/matriculaciones-de-vehiculos/matriculacion-ordinaria/",
+   "publisher": "Dirección General de Tráfico (DGT) - Sede electrónica",
+   "text_file": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\malaga\\_is\\snap_ulke_es\\malaga_kaynak_032_es_kaynak_033.txt"
+  },
+  {
+   "source_id": "malaga:kaynak:033",
+   "url": "https://sede.agenciatributaria.gob.es/Sede/impuestos-tasas/impuesto-matriculacion.html",
+   "publisher": "Agencia Tributaria (AEAT)",
+   "text_file": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\malaga\\_is\\snap_ulke_es\\malaga_kaynak_033_es_kaynak_034.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-arac-kaydi-ulusal-cerceve-1",
+   "field": "summary",
+   "claim": "Araç yollarda kullanılmadan önce tescil edilmeli",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:032",
+   "quote": "La matriculación de un vehículo es un requisito previo a que puedas circular con él por las vías públicas"
+  },
+  {
+   "claim_id": "C-arac-kaydi-ulusal-cerceve-2",
+   "field": "summary",
+   "claim": "Plaka takılmadan motorlu araç ve 750 kg üzeri römork kullanılamaz",
+   "value": "750",
+   "unit": "kg",
+   "period": "",
+   "source_id": "malaga:kaynak:032",
+   "quote": "es importante colocar las placas de matrícula antes de poder circular con cualquier vehículo a motor, así como remolques y semirremolques de masa máxima autorizada superior a 750 kilogramos."
+  },
+  {
+   "claim_id": "C-arac-kaydi-ulusal-cerceve-3",
+   "field": "timing",
+   "claim": "DGT'nin tescil için azami süresi 3 ay",
+   "value": "3",
+   "unit": "ay",
+   "period": "",
+   "source_id": "malaga:kaynak:032",
+   "quote": "El plazo máximo fijado para realizar el procedimiento de matriculación por parte de la DGT es de 3 meses."
+  },
+  {
+   "claim_id": "C-arac-kaydi-ulusal-cerceve-4",
+   "field": "timing",
+   "claim": "Sürede cevap gelmezse işlem yapılmamıştır, sessizlik olumsuz",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:032",
+   "quote": "Si no obtienes respuesta en este plazo es porque el trámite no se ha realizado, considerando el silencio administrativo como negativo."
+  },
+  {
+   "claim_id": "C-arac-kaydi-ulusal-cerceve-5",
+   "field": "summary",
+   "claim": "İşlem sonunda plaka numarası ve Permiso de circulación verilir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:032",
+   "quote": "Una vez realizado el trámite de matriculación, te entregaremos el número de matrícula y el Permiso de circulación"
+  },
+  {
+   "claim_id": "C-arac-kaydi-ulusal-cerceve-6",
+   "field": "summary",
+   "claim": "Plakalar bu belgelerle alınır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:032",
+   "quote": "Con esta documentación podrás adquirir tus placas de matrículas."
+  },
+  {
+   "claim_id": "C-arac-kaydi-ulusal-cerceve-7",
+   "field": "summary",
+   "claim": "Tescili alıcı-malik ya da yetkili kişi yapar",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:032",
+   "quote": "La matriculación de un vehículo debe hacerla el comprador-titular o cualquier persona autorizada en su nombre."
+  },
+  {
+   "claim_id": "C-arac-kaydi-ulusal-cerceve-8",
+   "field": "summary",
+   "claim": "Genelde concesionario ya da gestor yapar, kişi kendisi de yapabilir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:032",
+   "quote": "lo habitual es que la gestión de la matriculación de un vehículo la realice el concesionario dónde lo has adquirido o un gestor, puedes hacerlo tú mismo"
+  },
+  {
+   "claim_id": "C-arac-kaydi-ulusal-cerceve-9",
+   "field": "steps",
+   "claim": "Yalnız kâğıt ITV kartı varsa genel başvuru formu kullanılır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:032",
+   "quote": "Para vehículos que sólo dispongan de ficha ITV en formato físico, puedes presentar tu solicitud de matriculación a través de nuestro Formulario de Solicitud General."
+  },
+  {
+   "claim_id": "C-arac-kaydi-ulusal-cerceve-10",
+   "field": "steps",
+   "claim": "Çevrimiçi başvuruda dijital DNI, elektronik sertifika ya da Cl@ve gerekir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:032",
+   "quote": "Debes disponer de DNI Digital o certificado electrónico en vigor o tus credenciales de Cl@ve."
+  },
+  {
+   "claim_id": "C-arac-kaydi-ulusal-cerceve-11",
+   "field": "documents",
+   "claim": "Özel taşıt vergisi ödeme, muafiyet ya da tabi olmama belgesi gerekir (Modelo 576, 06 veya 05)",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:032",
+   "quote": "Deberás justifica el pago del Impuesto Especial de Determinados Medios de Transportes (modelo 576, 06 o 05 de la Agencia Estatal Tributaria)."
+  },
+  {
+   "claim_id": "C-arac-kaydi-ulusal-cerceve-12",
+   "field": "note",
+   "claim": "Römork bu vergiden muaf",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:032",
+   "quote": "Si tienes un remolque, este pago no hace falta que lo realices ya que están exentos."
+  },
+  {
+   "claim_id": "C-arac-kaydi-ulusal-cerceve-13",
+   "field": "steps",
+   "claim": "Bask Bölgesi ve Navarra'da ilgili Hacienda Foral'a başvurulur",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:032",
+   "quote": "o, en el caso de País Vasco y Navarra, en su Hacienda Foral correspondiente"
+  },
+  {
+   "claim_id": "C-arac-kaydi-ulusal-cerceve-14",
+   "field": "documents",
+   "claim": "Oturulan belediyenin Impuesto de Circulación (IVTM) ödemesi ya da muafiyet belgesi gerekir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:032",
+   "quote": "También tienes que liquidar el Impuesto de Circulación (IVTM) del ayuntamiento en el que tengas tu domicilio"
+  },
+  {
+   "claim_id": "C-arac-kaydi-ulusal-cerceve-15",
+   "field": "documents",
+   "claim": "ITV kartı ya da fatura veya açık artırma tahsis tutanağı gerekir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:032",
+   "quote": "Tarjeta de ITV electrónica (NIVE) Ayuda o tarjeta de ITV con la diligencia de venta o, en su defecto, factura o acta de adjudicación si procede de subasta."
+  },
+  {
+   "claim_id": "C-arac-kaydi-ulusal-cerceve-16",
+   "field": "steps",
+   "claim": "Çevrimiçi başvuruda genel durumda harç formdaki Pagar düğmesiyle ödenir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:032",
+   "quote": "podrás pagarla en el mismo formulario pulsando el botón 'Pagar' del panel de “Solicitud”."
+  },
+  {
+   "claim_id": "C-arac-kaydi-ulusal-cerceve-17",
+   "field": "steps",
+   "claim": "Yüz yüze başvuruda harç kartla ödenir, nakit olmaz",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:032",
+   "quote": "También podrás realizar el abono de la tasa en el momento de realizar el trámite en nuestras oficinas con tarjeta, nunca en efectivo."
+  },
+  {
+   "claim_id": "C-arac-kaydi-ulusal-cerceve-18",
+   "field": "steps",
+   "claim": "Yüz yüze için randevu internetten ya da 060'tan alınır",
+   "value": "060",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:032",
+   "quote": "necesitas solicitar cita previa por internet o llamando al 060"
+  },
+  {
+   "claim_id": "C-arac-kaydi-ulusal-cerceve-19",
+   "field": "steps",
+   "claim": "Yüz yüze başvuru yalnız bireylere açık",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:032",
+   "quote": "el canal presencial está reservado únicamente para particulares"
+  },
+  {
+   "claim_id": "C-arac-kaydi-ulusal-cerceve-20",
+   "field": "documents",
+   "claim": "Yüz yüze başvuruda orijinal ve geçerli kimlik belgesi gerekir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:032",
+   "quote": "Deberás acudir con tu documentación original y en vigor para acreditar tu identidad"
+  },
+  {
+   "claim_id": "C-arac-kaydi-ulusal-cerceve-21",
+   "field": "note",
+   "claim": "Tescil vergisi Modelo 576 ile kendi beyanla ödenir",
+   "value": "576",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:033",
+   "quote": "Modelo 576. Impuesto Especial sobre Determinados Medios de Transporte. Autoliquidación."
+  },
+  {
+   "claim_id": "C-arac-kaydi-ulusal-cerceve-22",
+   "field": "steps",
+   "claim": "Muafiyet ve tabi olmama için Modelo 06 kullanılır",
+   "value": "06",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:033",
+   "quote": "Modelo 06. Impuesto Especial sobre determinados medios de transporte. Exenciones y no sujeción sin reconocimiento previo."
+  }
+ ],
+ "adimlar": [],
+ "butonlar": [
+  {
+   "action_id": "malaga:action:arac-kaydi-ulusal-cerceve-1",
+   "label": "Başvur",
+   "url": "https://sede.dgt.gob.es/es/vehiculos/matriculaciones-de-vehiculos/matriculacion-ordinaria/"
+  },
+  {
+   "action_id": "malaga:action:arac-kaydi-ulusal-cerceve-2",
+   "label": "Formu doldur",
+   "url": "https://sede.agenciatributaria.gob.es/Sede/impuestos-tasas/impuesto-matriculacion.html"
+  }
+ ]
+}
+
+===== KART 14/21: malaga:endulus-carpeta-ciudadana-junta-dijital-islemler =====
+{
+ "entry_id": "malaga:endulus-carpeta-ciudadana-junta-dijital-islemler",
+ "city_id": "malaga",
+ "slug": "endulus-carpeta-ciudadana-junta-dijital-islemler",
+ "title": "Endülüs'te Junta de Andalucía ile dijital işlem için Carpeta Ciudadana nedir ve nasıl girilir?",
+ "subtitle": "Junta işlemleri, belgeleri, randevuları ve kartları tek uygulamada; giriş Cl@ve ya da dijital sertifika ile",
+ "summary": "Carpeta Ciudadana, Junta de Andalucía'nın işlemlerini, bildirimlerini, dosyalarını (expediente) ve kartlarını tek yerde toplayan uygulamadır; mobil uygulama ve web uygulaması olarak sunulur. Uygulamada resmî belge ve sertifikaları indirip yazdırabilir, idareyle randevularını alıp değiştirebilir, işlemlerinin durumuna dair bildirim alabilir ve açık dosyalarının durumuna bakabilirsin. Kartlar bölümünde familia numerosa, carné joven, tarjeta 65, engelli ve sağlık kartı gösterilir. Girişte kimliğini Cl@ve ile ya da dijital sertifika ile doğrularsın.",
+ "keywords": "Carpeta Ciudadana, Junta de Andalucía, Cl@ve, certificado digital, expediente, cita previa, JUNTAS",
+ "stages": "new;settled",
+ "source_ids": "malaga:kaynak:141",
+ "reviewed_on": "2026-10-24",
+ "order": 9104,
+ "featured": "Hayır",
+ "editorial_status": "Taslak",
+ "topic_id": "malaga:resmi",
+ "steps": "Uygulama mağazasından Carpeta Ciudadana uygulamasını indir ya da web uygulamasını aç.\nKimliğini Cl@ve ile ya da dijital sertifikayla doğrula.\nBelgelerine, randevularına, bildirimlerine, kartlarına ve dosyalarına uygulamadan eriş.",
+ "documents": "Cl@ve ya da dijital sertifika",
+ "timing": "",
+ "cost": "",
+ "note": "Giriş için Cl@ve ya da dijital sertifika gerekir.",
+ "visual_json": "",
+ "_sekme": "Yanıtlar",
+ "kaynaklar": [
+  {
+   "source_id": "malaga:kaynak:141",
+   "url": "https://www.juntadeandalucia.es/servicios/carpeta-ciudadana.html",
+   "publisher": "Junta de Andalucía",
+   "text_file": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\malaga\\_is\\snap_ulke_es\\malaga_kaynak_141_es-an_kaynak_011.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-endulus-carpeta-ciudadana-junta-dijital-islemler-1",
+   "field": "summary",
+   "claim": "Uygulama Junta'nın işlemlerini, bildirimlerini, dosyalarını ve kartlarını tek yerde toplar",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:141",
+   "quote": "Ahorra tiempo, colas y trámites con la app que pone todas las gestiones, notificaciones, expedientes y tarjetas de la Junta de Andalucía en un mismo lugar"
+  },
+  {
+   "claim_id": "C-endulus-carpeta-ciudadana-junta-dijital-islemler-2",
+   "field": "summary",
+   "claim": "Web uygulaması da vardır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:141",
+   "quote": "Accede a la aplicación web de la Carpeta ciudadana"
+  },
+  {
+   "claim_id": "C-endulus-carpeta-ciudadana-junta-dijital-islemler-3",
+   "field": "summary",
+   "claim": "Resmî belge ve sertifika indirilip yazdırılabilir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:141",
+   "quote": "Descarga e imprime títulos, certificados y otros documentos oficiales."
+  },
+  {
+   "claim_id": "C-endulus-carpeta-ciudadana-junta-dijital-islemler-4",
+   "field": "summary",
+   "claim": "Randevu alınabilir, görülebilir, değiştirilebilir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:141",
+   "quote": "Reserva, consulta o modifica tus citas con la administración andaluza."
+  },
+  {
+   "claim_id": "C-endulus-carpeta-ciudadana-junta-dijital-islemler-5",
+   "field": "summary",
+   "claim": "İşlem durumu ve tarihlerine dair bildirim gelir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:141",
+   "quote": "Recibe alertas y avisos sobre el estado y fechas relevantes de tus trámites."
+  },
+  {
+   "claim_id": "C-endulus-carpeta-ciudadana-junta-dijital-islemler-6",
+   "field": "summary",
+   "claim": "Kartlar: familia numerosa, carné joven, tarjeta 65, engelli, sağlık",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:141",
+   "quote": "Familia numerosa, carné joven, tarjeta 65, de discapacidad y sanitaria."
+  },
+  {
+   "claim_id": "C-endulus-carpeta-ciudadana-junta-dijital-islemler-7",
+   "field": "summary",
+   "claim": "Açık dosyaların durumu görülür",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:141",
+   "quote": "Revisa el estado de tus expedientes abiertos, de forma rápida y sencilla."
+  },
+  {
+   "claim_id": "C-endulus-carpeta-ciudadana-junta-dijital-islemler-8",
+   "field": "steps",
+   "claim": "Uygulama mağazasından indirilir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:141",
+   "quote": "Descarga la App Carpeta Ciudadana de la Junta de Andalucía en tu tienda de aplicaciones"
+  },
+  {
+   "claim_id": "C-endulus-carpeta-ciudadana-junta-dijital-islemler-9",
+   "field": "steps",
+   "claim": "Giriş Cl@ve ya da dijital sertifikayla",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:141",
+   "quote": "Identifícate con Cl@ve o certificado digital"
+  }
+ ],
+ "adimlar": [],
+ "butonlar": [
+  {
+   "action_id": "malaga:action:endulus-carpeta-ciudadana-junta-dijital-islemler-1",
+   "label": "Bilgi al",
+   "url": "https://www.juntadeandalucia.es/servicios/carpeta-ciudadana.html"
+  }
+ ]
+}
+
+===== KART 15/21: malaga:malaga-padron-kaydi-gestion-tributaria-ofisi-ve-randevu =====
+{
+ "entry_id": "malaga:malaga-padron-kaydi-gestion-tributaria-ofisi-ve-randevu",
+ "city_id": "malaga",
+ "slug": "malaga-padron-kaydi-gestion-tributaria-ofisi-ve-randevu",
+ "title": "Málaga'da empadronamiento (padrón kaydı) için nereye gidersin, randevuyu nasıl alırsın?",
+ "subtitle": "Tabacalera'daki Gestión Tributaria ofisi yalnız randevuyla; OMAC ofislerinde de yapılır",
+ "summary": "Málaga'da padrón işlemini belediyenin OMAC ofislerinde ya da Gestión Tributaria'nın Tabacalera'daki ofisinde (Av. Sor Teresa Prat 17, 29003) yaptırırsın; Gestión Tributaria ofisi yalnız randevuyla çalışır. Randevuyu internet sayfasından ya da 951 92 60 10 veya 010 numarasından alırsın. Ofis pazartesi-cuma 8:30-14:00 arasında açıktır; perşembe 17:00-19:00 arasında da padrón dahil genel işlemler için hizmet verir (15 Haziran-15 Eylül ve 26 Aralık-5 Ocak hariç). 65 yaşını geçenler kendi işlemleri için (başkası adına değil) randevusuz gidebilir; randevusuz kabul pazartesi-cuma 8:30-13:30 arasındadır.",
+ "keywords": "padrón, empadronamiento, Málaga adres kaydı, Gestión Tributaria, Tabacalera, cita previa, OMAC",
+ "stages": "new;settled",
+ "source_ids": "malaga:kaynak:223;malaga:kaynak:242",
+ "reviewed_on": "2026-10-27",
+ "order": 300,
+ "featured": "Evet",
+ "editorial_status": "Taslak",
+ "topic_id": "malaga:resmi",
+ "steps": "Padrón işlemini yapacağın yeri seç: semtindeki OMAC ofisi ya da Tabacalera'daki Gestión Tributaria ofisi.\nGestión Tributaria için randevuyu web sayfasından ya da 951 92 60 10 veya 010 numarasından al.\nRandevudan önce ilgili hizmetin ve işlemin sayfasına bakıp gereken belgeleri öğren. Randevu gününde bu belgelerle Av. Sor Teresa Prat 17, 29003 Málaga adresindeki ofise git.\nEk bilgi için gestrisam@malaga.eu adresine yazabilirsin.",
+ "documents": "",
+ "timing": "Pazartesi-cuma 8:30-14:00; perşembe 17:00-19:00 (15 Haziran-15 Eylül ve 26 Aralık-5 Ocak hariç)",
+ "cost": "",
+ "note": "Her yıl Semana Santa haftasında, feria haftasında ve 26 Aralık-5 Ocak arasındaki iş günlerinde ofis 9:00-14:00 arası çalışır; 24 ve 31 Aralık kapalıdır. Belediyenin e-ofisi (Sede Electrónica) üzerinden de işlem yapabilirsin.",
+ "visual_json": "",
+ "_sekme": "Yanıtlar",
+ "kaynaklar": [
+  {
+   "source_id": "malaga:kaynak:223",
+   "url": "https://gestrisam.malaga.eu/atencion-a-la-ciudadania/padron-de-habitantes/",
+   "publisher": "Ayuntamiento de Málaga (Gestión Tributaria)",
+   "text_file": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\malaga\\_is\\snap_kesif_aile\\a3a24834b9150215aca62262baf6362301520c2a293c77dfc9a9f183440c54d3.txt"
+  },
+  {
+   "source_id": "malaga:kaynak:242",
+   "url": "https://gestrisam.malaga.eu/atencion-a-la-ciudadania/atencion-presencial/",
+   "publisher": "Ayuntamiento de Málaga - Gestión Tributaria",
+   "text_file": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\malaga\\_is\\snap_kesif_resmi\\420d9326055a51d3faf9423ec0ba8ea90c782bc3473e36e00cf9d40b95ca5b00.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-step-3-1",
+   "field": "description",
+   "claim": "Gestión Tributaria ofisi adresi Av. Sor Teresa Prat 17",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:242",
+   "quote": "Av. Sor Teresa Prat, 17, C.P. 29003 (Tabacalera)"
+  },
+  {
+   "claim_id": "C-step-3-2",
+   "field": "description",
+   "claim": "Padrón işlemi randevuyla yapılan hizmetler arasında",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:242",
+   "quote": "TRAMITES, MULTAS, OTROS TRIBUTOS Y REGISTRO DOCUMENTOS. PADRÓN MUNICIPAL DE HABITANTES."
+  },
+  {
+   "claim_id": "C-step-3-3",
+   "field": "description",
+   "claim": "Randevu telefon numarası 951 92 60 10",
+   "value": "951 92 60 10",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:242",
+   "quote": "951 92 60 10"
+  },
+  {
+   "claim_id": "C-step-3-4",
+   "field": "description",
+   "claim": "Randevu 010 numarasından da alınabilir",
+   "value": "010",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:242",
+   "quote": "010 (*) tarificación especial"
+  },
+  {
+   "claim_id": "C-step-3-5",
+   "field": "description",
+   "claim": "Randevu internet sayfasından da alınabilir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:242",
+   "quote": "Desde esta página Web."
+  },
+  {
+   "claim_id": "C-malaga-padron-kaydi-gestion-tributaria-ofisi-ve-randevu-1",
+   "field": "summary",
+   "claim": "Yabancılar da ikamet ettikleri belediyede padróna yazılmak zorunda",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:223",
+   "quote": "Todo español o extranjero que viva en el territorio español deberá estar empadronado en el municipio en el que reside habitualmente."
+  },
+  {
+   "claim_id": "C-malaga-padron-kaydi-gestion-tributaria-ofisi-ve-randevu-2",
+   "field": "summary",
+   "claim": "Padrón işlemleri OMAC ofislerinde yapılır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:223",
+   "quote": "En las oficinas municipales de atención a la ciudadanía (OMAC)."
+  },
+  {
+   "claim_id": "C-malaga-padron-kaydi-gestion-tributaria-ofisi-ve-randevu-3",
+   "field": "summary",
+   "claim": "Gestión Tributaria ofisi yalnız randevuyla çalışır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:223",
+   "quote": "En la oficina de Atención al ciudadano de Gestión Tributaria. (Exclusivamente con cita previa)"
+  },
+  {
+   "claim_id": "C-malaga-padron-kaydi-gestion-tributaria-ofisi-ve-randevu-4",
+   "field": "summary",
+   "claim": "Ofis adresi Av. Sor Teresa Prat 17, 29003 (Tabacalera)",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:242",
+   "quote": "Av. Sor Teresa Prat, 17, C.P. 29003 (Tabacalera)"
+  },
+  {
+   "claim_id": "C-malaga-padron-kaydi-gestion-tributaria-ofisi-ve-randevu-5",
+   "field": "summary",
+   "claim": "Randevu internet sayfasından alınabilir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:242",
+   "quote": "Desde esta página Web."
+  },
+  {
+   "claim_id": "C-malaga-padron-kaydi-gestion-tributaria-ofisi-ve-randevu-6",
+   "field": "summary",
+   "claim": "Randevu telefon numarası 951 92 60 10",
+   "value": "951 92 60 10",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:242",
+   "quote": "951 92 60 10"
+  },
+  {
+   "claim_id": "C-malaga-padron-kaydi-gestion-tributaria-ofisi-ve-randevu-7",
+   "field": "summary",
+   "claim": "Randevu 010 numarasından da alınır (özel tarifeli)",
+   "value": "010",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:242",
+   "quote": "010 (*) tarificación especial"
+  },
+  {
+   "claim_id": "C-malaga-padron-kaydi-gestion-tributaria-ofisi-ve-randevu-8",
+   "field": "timing",
+   "claim": "Pazartesi-cuma 8:30-14:00",
+   "value": "8:30-14:00",
+   "unit": "saat",
+   "period": "",
+   "source_id": "malaga:kaynak:242",
+   "quote": "De lunes a viernes: de 8:30 a 14:00 horas."
+  },
+  {
+   "claim_id": "C-malaga-padron-kaydi-gestion-tributaria-ofisi-ve-randevu-9",
+   "field": "timing",
+   "claim": "Perşembe 17:00-19:00; 15 Haziran-15 Eylül ve 26 Aralık-5 Ocak hariç; padrón dahil",
+   "value": "17:00-19:00",
+   "unit": "saat",
+   "period": "",
+   "source_id": "malaga:kaynak:242",
+   "quote": "Jueves: de 17:00 a 19:00 horas, excepto del 15/06 al 15/09 y del 26/12 al 05/01 (Servicios de trámites generales, Padrón de habitantes y fraccionamiento y aplazamiento de pagos)."
+  },
+  {
+   "claim_id": "C-malaga-padron-kaydi-gestion-tributaria-ofisi-ve-randevu-10",
+   "field": "note",
+   "claim": "Semana Santa, feria haftası ve 26 Aralık-5 Ocak iş günlerinde 9:00-14:00",
+   "value": "9:00-14:00",
+   "unit": "saat",
+   "period": "",
+   "source_id": "malaga:kaynak:242",
+   "quote": "En días laborables de Semana Santa, semana de feria y del 26/12 al 05/01: de 9:00 a 14:00 horas."
+  },
+  {
+   "claim_id": "C-malaga-padron-kaydi-gestion-tributaria-ofisi-ve-randevu-11",
+   "field": "note",
+   "claim": "24 ve 31 Aralık kapalı",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:242",
+   "quote": "Cerrado los días 24 y 31 de diciembre."
+  },
+  {
+   "claim_id": "C-malaga-padron-kaydi-gestion-tributaria-ofisi-ve-randevu-13",
+   "field": "summary",
+   "claim": "65 yaşını geçenler kendi işlemleri için (başkası adına değil) randevusuz gidebilir; randevusuz kabul pazartesi-cuma 8:30-13:30",
+   "value": "65; 8:30-13:30",
+   "unit": "yaş",
+   "period": "",
+   "source_id": "malaga:kaynak:242",
+   "quote": "Atención presencial sin cita previa para mayores de 65 años - gestiones y trámites que le son propios, NO DE TERCEROS. De lunes a viernes: de 8:30 a 13:30 horas."
+  },
+  {
+   "claim_id": "C-malaga-padron-kaydi-gestion-tributaria-ofisi-ve-randevu-14",
+   "field": "steps",
+   "claim": "Bilgi e-postası gestrisam@malaga.eu",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:223",
+   "quote": "A través de nuestro buzón gestrisam@malaga.eu"
+  },
+  {
+   "claim_id": "C-malaga-padron-kaydi-gestion-tributaria-ofisi-ve-randevu-15",
+   "field": "note",
+   "claim": "Belediyenin e-ofisi (Sede Electrónica) üzerinden de işlem yapılabilir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:242",
+   "quote": "Realice sus tramites por Sede Electrónica"
+  },
+  {
+   "claim_id": "C-malaga-padron-kaydi-gestion-tributaria-ofisi-ve-randevu-16",
+   "field": "steps",
+   "claim": "Randevudan önce işlemin sayfasına bakılıp gerekli belgelerle gidilir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:242",
+   "quote": "Deberá acceder al Servicio correspondiente y al trámite que quiera realizar con el fin de informarse y acudir con la documentación necesaria para ello."
+  }
+ ],
+ "adimlar": [
+  {
+   "step_id": "malaga:step:3",
+   "title": "Adres kaydı (padrón) için randevu al",
+   "when": "Kalacak adres belli olunca",
+   "description": "Gestión Tributaria'nın Tabacalera'daki ofisinde (Av. Sor Teresa Prat 17) padrón işlemi randevuyla yapılır; randevuyu 951 92 60 10 ya da 010 üzerinden veya internetten alırsın."
+  }
+ ],
+ "butonlar": [
+  {
+   "action_id": "malaga:action:malaga-padron-kaydi-gestion-tributaria-ofisi-ve-randevu-1",
+   "label": "Randevu al",
+   "url": "https://gestrisam.malaga.eu/atencion-a-la-ciudadania/atencion-presencial/cita-previa-padron-municipal-de-habitantes/"
+  },
+  {
+   "action_id": "malaga:action:malaga-padron-kaydi-gestion-tributaria-ofisi-ve-randevu-2",
+   "label": "Bilgi al",
+   "url": "https://gestrisam.malaga.eu/atencion-a-la-ciudadania/atencion-presencial/"
+  }
+ ]
+}
+
+===== KART 16/21: malaga:omac-semt-ofisleri-calisma-saati-ve-islemler =====
+{
+ "entry_id": "malaga:omac-semt-ofisleri-calisma-saati-ve-islemler",
+ "city_id": "malaga",
+ "slug": "omac-semt-ofisleri-calisma-saati-ve-islemler",
+ "title": "Málaga'da OMAC (semt belediye hizmet ofisi) nedir, hangi işler için gidersin, randevuyu nasıl alırsın?",
+ "subtitle": "Pazartesi-cuma 9:00-14:00; randevuyla, 65 yaş üstü randevusuz",
+ "summary": "OMAC, Málaga Belediyesi'nin semtlerde bulunan ve çok sayıda belediye hizmetinin bilgi ve işlemlerini tek yerde toplayan yüz yüze ofisidir; pazartesi-cuma 9:00-14:00 açıktır ve randevuyla çalışır, 65 yaş üstü kişiler randevusuz gidebilir. Randevuyu citaprevia.malaga.eu adresinden ya da belediye bilgi hattı 951 92 60 10'dan alırsın. OMAC bir kayıt gişesidir: belediyeye yönelik belgeleri burada kayda geçirebilirsin; mevzuat başka bir gişe öngörüyorsa belge o gişeye verilir, OMAC'tan o işlem için yalnız form ve başvuru evrakı alabilirsin; ayrıca şikâyet ve öneri bırakır, işlemlerin ne olduğu, nereden istendiği, süreci, harçları ve formları hakkında bilgi alırsın. OMAC, FNMT sözleşmesi kapsamında dijital sertifika işlemleri için de yetkilidir.",
+ "keywords": "OMAC, Málaga belediye ofisi, cita previa, semt ofisi, Junta Municipal de Distrito, dijital sertifika, belge sunma",
+ "stages": "new;settled",
+ "source_ids": "malaga:kaynak:243;malaga:kaynak:244",
+ "reviewed_on": "2026-10-27",
+ "order": 301,
+ "featured": "Hayır",
+ "editorial_status": "Taslak",
+ "topic_id": "malaga:resmi",
+ "steps": "Randevuyu citaprevia.malaga.eu adresinden ya da 951 92 60 10 numaralı belediye bilgi hattından al; 65 yaşını geçtiysen randevusuz gidebilirsin.\nSemtindeki OMAC'ı bul; merkezde OMAC, Calle La Merced 1 adresindeki Junta Municipal de Distrito 1 binasındadır.\nBelediyeye sunacağın belgeyi OMAC gişesinde kayda geçir; mevzuat başka bir gişe öngörüyorsa belgeyi o gişeye ver, OMAC'tan yalnız formları ve başvuru evrakını al.",
+ "documents": "",
+ "timing": "Pazartesi-cuma 9:00-14:00 (resmî tatiller ile 24 ve 31 Aralık hariç)",
+ "cost": "",
+ "note": "Merkez ilçedeki (Distrito 1) bina ayrıca merkezde oturanlar için park kartı (Tarjeta Verde) işlemlerini yürütür; bina santrali 951928852, e-posta distrito1@malaga.eu.",
+ "visual_json": "",
+ "_sekme": "Yanıtlar",
+ "kaynaklar": [
+  {
+   "source_id": "malaga:kaynak:243",
+   "url": "https://saic.malaga.eu/oficinas-o.m.a.c./",
+   "publisher": "Ayuntamiento de Málaga",
+   "text_file": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\malaga\\_is\\snap_kesif_resmi\\4c1beb06b227fd6d4a9dab6b5750d4a5aea1ace2f7d53a10f25e7e485ec801cc.txt"
+  },
+  {
+   "source_id": "malaga:kaynak:244",
+   "url": "https://www.malaga.eu/la-ciudad/instalaciones-y-espacios/detalle-de-la-instalacion/?id=415",
+   "publisher": "Ayuntamiento de Málaga",
+   "text_file": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\malaga\\_is\\snap_kesif_resmi\\07fad5ebad8a1257db0b83d666e966b4f5af660bda04b05954053652b18c37ec.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-omac-semt-ofisleri-calisma-saati-ve-islemler-1",
+   "field": "summary",
+   "claim": "OMAC semtlerde, çok sayıda belediye hizmetini tek ofiste toplar",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:243",
+   "quote": "Las OMAC son dependencias presenciales que acercan la administración municipal a la ciudadanía, situándose en su barrio."
+  },
+  {
+   "claim_id": "C-omac-semt-ofisleri-calisma-saati-ve-islemler-2",
+   "field": "timing",
+   "claim": "Pazartesi-cuma 9:00-14:00, resmî tatil ve 24-31 Aralık hariç",
+   "value": "9:00-14:00",
+   "unit": "saat",
+   "period": "",
+   "source_id": "malaga:kaynak:243",
+   "quote": "Horario de Atención: De lunes a viernes de 9:00 a 14:00. Salvo Festivos y los días 24 y 31 de diciembre."
+  },
+  {
+   "claim_id": "C-omac-semt-ofisleri-calisma-saati-ve-islemler-3",
+   "field": "summary",
+   "claim": "Randevu gerekir, 65 yaş üstü randevusuz; randevu citaprevia.malaga.eu ya da 951-926-010",
+   "value": "65",
+   "unit": "yaş",
+   "period": "",
+   "source_id": "malaga:kaynak:243",
+   "quote": "Atención con cita previa salvo a mayores de 65 años que podrán acudir sin cita. Puede obtener cita en citaprevia.malaga.eu o en el Teléfono Municipal de Información 951-926-010."
+  },
+  {
+   "claim_id": "C-omac-semt-ofisleri-calisma-saati-ve-islemler-4",
+   "field": "summary",
+   "claim": "OMAC'ta belediyeye yönelik belgeler kayda geçirilir; mevzuat başka bir gişe öngörüyorsa belge o gişeye verilir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:243",
+   "quote": "se puede presentar cualquier documento municipal, salvo cuando la normativa aplicable establezca una ventanilla diferente."
+  },
+  {
+   "claim_id": "C-omac-semt-ofisleri-calisma-saati-ve-islemler-5",
+   "field": "summary",
+   "claim": "Şikâyet ve öneri bırakılabilir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:243",
+   "quote": "Quejas y Sugerencias"
+  },
+  {
+   "claim_id": "C-omac-semt-ofisleri-calisma-saati-ve-islemler-6",
+   "field": "summary",
+   "claim": "OMAC dijital sertifika (Certificado Digital) işlemleri için başvurulabilecek bir yerdir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:243",
+   "quote": "La OMAC está habilitada para ello (Convenio con la Fábrica Nacional de Moneda y Timbre)."
+  },
+  {
+   "claim_id": "C-omac-semt-ofisleri-calisma-saati-ve-islemler-7",
+   "field": "summary",
+   "claim": "OMAC'ta işlemlerin ne olduğu, nereden istendiği, süreci, harçları ve formları hakkında bilgi verilir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:243",
+   "quote": "Información sobre trámites (qué es, dónde se solicita, procedimiento, tasas, formularios...)"
+  },
+  {
+   "claim_id": "C-omac-semt-ofisleri-calisma-saati-ve-islemler-8",
+   "field": "steps",
+   "claim": "Merkezde OMAC Calle La Merced 1'de",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:244",
+   "quote": "CALLE LA MERCED,1"
+  },
+  {
+   "claim_id": "C-omac-semt-ofisleri-calisma-saati-ve-islemler-9",
+   "field": "steps",
+   "claim": "Bina Junta Municipal de Distrito 1 ve OMAC'ı barındırır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:244",
+   "quote": "Junta Municipal de Distrito 1 - Málaga Centro - OMAC"
+  },
+  {
+   "claim_id": "C-omac-semt-ofisleri-calisma-saati-ve-islemler-10",
+   "field": "steps",
+   "claim": "Formlar ve başvurular OMAC'tan alınabilir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:243",
+   "quote": "en cuyo caso se podrán recoger formularios, impresos y solicitudes."
+  },
+  {
+   "claim_id": "C-omac-semt-ofisleri-calisma-saati-ve-islemler-11",
+   "field": "note",
+   "claim": "Junta Municipal merkezde oturanlar için Tarjeta Verde işlemlerini yürütür",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:244",
+   "quote": "Tramitación de la Tarjeta Verde para aparcamientos de Residentes en el Centro."
+  },
+  {
+   "claim_id": "C-omac-semt-ofisleri-calisma-saati-ve-islemler-12",
+   "field": "note",
+   "claim": "Bina santrali 951928852",
+   "value": "951928852",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:244",
+   "quote": "Centralita 951928852"
+  },
+  {
+   "claim_id": "C-omac-semt-ofisleri-calisma-saati-ve-islemler-13",
+   "field": "note",
+   "claim": "Bina e-postası distrito1@malaga.eu",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:244",
+   "quote": "distrito1@malaga.eu"
+  },
+  {
+   "claim_id": "C-omac-semt-ofisleri-calisma-saati-ve-islemler-tut1",
+   "field": "steps",
+   "claim": "Başka gişe öngörülen işlemde OMAC'tan form, belge ve başvuru evrakı alınabilir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:243",
+   "quote": "salvo cuando la normativa aplicable establezca una ventanilla diferente de presentación, en cuyo caso se podrán recoger formularios, impresos y solicitudes"
+  }
+ ],
+ "adimlar": [],
+ "butonlar": [
+  {
+   "action_id": "malaga:action:omac-semt-ofisleri-calisma-saati-ve-islemler-1",
+   "label": "Randevu al",
+   "url": "https://citaprevia.malaga.eu/"
+  },
+  {
+   "action_id": "malaga:action:omac-semt-ofisleri-calisma-saati-ve-islemler-2",
+   "label": "Bilgi al",
+   "url": "https://www.malaga.eu/la-ciudad/instalaciones-y-espacios/detalle-de-la-instalacion/?id=415"
+  }
+ ]
+}
+
+===== KART 17/21: malaga:belediye-randevu-malaga-24h-ve-merkezi-hat =====
+{
+ "entry_id": "malaga:belediye-randevu-malaga-24h-ve-merkezi-hat",
+ "city_id": "malaga",
+ "slug": "belediye-randevu-malaga-24h-ve-merkezi-hat",
+ "title": "Málaga belediyesinden randevu nasıl alınır, hangi telefon numaralarından ulaşırsın?",
+ "subtitle": "Málaga 24h sekmesi, Málaga Funciona uygulaması, 010 ve 951 92 60 10",
+ "summary": "Belediye randevusunu malaga.eu'daki \"Málaga 24h\" sekmesinde Cita Previa bölümünden ya da ücretsiz \"Málaga Funciona\" uygulamasından alırsın: servisi seç, takvimden gün ve saati belirle, istenen bilgileri doldur ve \"Pedir Cita\"ya bas. Telefonla 010 (özel tarifeli) ya da 951 92 60 10 (metropol arama) numaralarına ulaşırsın; hatlar her gün 08:00-22:00 arasında açıktır (belediye rehberi açılışı 07:00 olarak yazıyor). Gestión Tributaria padrón randevusunda randevudan 10 dakika önce gişeye gidersin; o randevuya gelemeyeceksen değiştir ya da iptal et. Dijital sertifikan varsa birçok işlemi belediyenin e-ofisinden de yapabilirsin.",
+ "keywords": "cita previa, Málaga 24h, Málaga Funciona, 010, belediye randevusu, Registro General, sede electrónica",
+ "stages": "new;settled",
+ "source_ids": "malaga:kaynak:245;malaga:kaynak:224;malaga:kaynak:223",
+ "reviewed_on": "2026-10-27",
+ "order": 302,
+ "featured": "Hayır",
+ "editorial_status": "Taslak",
+ "topic_id": "malaga:resmi",
+ "steps": "malaga.eu ana sayfasında \"Málaga 24h\" sekmesinden Cita Previa'ya gir ya da Málaga Funciona uygulamasını (Android ve iOS) aç.\nRandevuyu citaprevia.malaga.eu adresinden de alabilirsin. Randevu alacağın alanı ya da servisi seç, takvimden gün ve saati belirle, bilgileri doldur ve \"Pedir Cita\"ya bas.\nGestión Tributaria padrón randevusunda, randevudan 10 dakika önce 13 numaralı gişeye gidip kimliğini ve katılımını doğrulat.\nGestión Tributaria padrón randevusuna gelemeyeceksen randevu kodunu söyleyerek 951 92 60 10 ya da 010'u ara ve randevuyu değiştir ya da iptal et.",
+ "documents": "",
+ "timing": "Gestión Tributaria padrón randevusunda randevudan 10 dakika önce gişede ol",
+ "cost": "",
+ "note": "Registro General (Avenida de Cervantes 4) hafta içi 9:00-14:00 arasında yalnız randevuyla çalışır; randevuyu citaprevia.malaga.eu adresinden ya da 951 92 72 16 numarasından alırsın.",
+ "visual_json": "",
+ "_sekme": "Yanıtlar",
+ "kaynaklar": [
+  {
+   "source_id": "malaga:kaynak:245",
+   "url": "https://www.malaga.eu/guia-telematica-municipal/",
+   "publisher": "Ayuntamiento de Málaga",
+   "text_file": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\malaga\\_is\\snap_kesif_resmi\\016e2155f2acb72b09dd465cf2142bbf91b74eb7c0ed62bbf51998cf21dd0b63.txt"
+  },
+  {
+   "source_id": "malaga:kaynak:224",
+   "url": "https://gestrisam.malaga.eu/atencion-a-la-ciudadania/atencion-presencial/cita-previa-padron-municipal-de-habitantes/",
+   "publisher": "Ayuntamiento de Málaga (Gestión Tributaria)",
+   "text_file": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\malaga\\_is\\snap_kesif_aile\\f73f11ab6fd1d038b172df16f1698c22bc97f63397d0af216458865e0dc0c378.txt"
+  },
+  {
+   "source_id": "malaga:kaynak:223",
+   "url": "https://gestrisam.malaga.eu/atencion-a-la-ciudadania/padron-de-habitantes/",
+   "publisher": "Ayuntamiento de Málaga (Gestión Tributaria)",
+   "text_file": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\malaga\\_is\\snap_kesif_aile\\a3a24834b9150215aca62262baf6362301520c2a293c77dfc9a9f183440c54d3.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-belediye-randevu-malaga-24h-ve-merkezi-hat-1",
+   "field": "steps",
+   "claim": "Randevu malaga.eu'daki Málaga 24h sekmesinden alınır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:245",
+   "quote": "Málaga 24h"
+  },
+  {
+   "claim_id": "C-belediye-randevu-malaga-24h-ve-merkezi-hat-2",
+   "field": "steps",
+   "claim": "Málaga Funciona uygulaması ücretsiz, Android ve iOS",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:245",
+   "quote": "de descarga gratuita en terminales móviles tanto Android como IOS"
+  },
+  {
+   "claim_id": "C-belediye-randevu-malaga-24h-ve-merkezi-hat-3",
+   "field": "steps",
+   "claim": "Servis seçilir, gün ve saat takvimden belirlenir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:245",
+   "quote": "Una vez que se accede, hay que seleccionar el área o servicio para el que se requiere solicitar cita previa y seguir los pasos siguientes para la selección del día y hora mediante calendario"
+  },
+  {
+   "claim_id": "C-belediye-randevu-malaga-24h-ve-merkezi-hat-4",
+   "field": "steps",
+   "claim": "Bilgiler doldurulur ve Pedir Cita ile bitirilir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:245",
+   "quote": "rellenar los datos que se solicitan y finalizar pulsando Pedir Cita."
+  },
+  {
+   "claim_id": "C-belediye-randevu-malaga-24h-ve-merkezi-hat-5",
+   "field": "summary",
+   "claim": "010 özel tarifeli, 951 92 60 10 metropol arama",
+   "value": "010; 951 92 60 10",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:245",
+   "quote": "El teléfono 010 está considerado como teléfono de tarificación especial y el 951 92 60 10 como llamada metropolitana"
+  },
+  {
+   "claim_id": "C-belediye-randevu-malaga-24h-ve-merkezi-hat-6",
+   "field": "timing",
+   "claim": "Gestión Tributaria padrón randevusunda randevudan 10 dakika önce 13 numaralı gişeye gidilir",
+   "value": "10",
+   "unit": "dakika",
+   "period": "",
+   "source_id": "malaga:kaynak:224",
+   "quote": "con una antelación de 10 minutos"
+  },
+  {
+   "claim_id": "C-belediye-randevu-malaga-24h-ve-merkezi-hat-7",
+   "field": "steps",
+   "claim": "Gelemeyen kişi Gestión Tributaria randevusunu değiştirir ya da iptal eder",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:224",
+   "quote": "Si no pudiera acudir a su cita, proceda a su modificación o anulación con el fin de que otras personas puedan aprovecharla"
+  },
+  {
+   "claim_id": "C-belediye-randevu-malaga-24h-ve-merkezi-hat-8",
+   "field": "steps",
+   "claim": "Gestión Tributaria randevusu randevu koduyla 951 92 60 10 ya da 010 üzerinden değiştirilir/iptal edilir",
+   "value": "951 92 60 10; 010",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:224",
+   "quote": "comuníquelo indicando su código de cita llamando a los teléfonos"
+  },
+  {
+   "claim_id": "C-belediye-randevu-malaga-24h-ve-merkezi-hat-9",
+   "field": "summary",
+   "claim": "Dijital sertifikası olan e-ofisten işlem yapabilir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:224",
+   "quote": "puede hacerlo a través de la SEDE ELECTRÓNICA si dispone de certificado digital, y si no dispone de certificado, puede solicitar Cita Previa y le atenderemos presencialmente"
+  },
+  {
+   "claim_id": "C-belediye-randevu-malaga-24h-ve-merkezi-hat-10",
+   "field": "note",
+   "claim": "Registro General Avenida de Cervantes 4",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:245",
+   "quote": "La atención presencial en el Registro General del Ayuntamiento de Málaga, sito en avenida de Cervantes nº 4"
+  },
+  {
+   "claim_id": "C-belediye-randevu-malaga-24h-ve-merkezi-hat-11",
+   "field": "note",
+   "claim": "Registro General hafta içi 9:00-14:00, yalnız randevuyla",
+   "value": "09.00-14.00",
+   "unit": "saat",
+   "period": "",
+   "source_id": "malaga:kaynak:245",
+   "quote": "en horario de 09.00 a 14.00 horas de lunes a viernes, se realizará, exclusivamente, mediante cita previa concertada"
+  },
+  {
+   "claim_id": "C-belediye-randevu-malaga-24h-ve-merkezi-hat-12",
+   "field": "note",
+   "claim": "Registro General randevu telefonu 951 92 72 16",
+   "value": "951 92 72 16",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:245",
+   "quote": "O también llamando al teléfono de atención 951 92 72 16, en horario de 09.00 a 14.00 horas de lunes a viernes."
+  },
+  {
+   "claim_id": "C-belediye-randevu-malaga-24h-ve-merkezi-hat-13",
+   "field": "summary",
+   "claim": "Merkezî telefon hatları (010, 951 92 60 10) belediye rehberine göre her gün 07:00-22:00 arasında açık",
+   "value": "07:00-22:00",
+   "unit": "saat",
+   "period": "",
+   "source_id": "malaga:kaynak:245",
+   "quote": "Este servicio centralizado está activo de lunes a domingo, con un horario ininterrumpido de 07.00 de la mañana a las 22.00 horas."
+  },
+  {
+   "claim_id": "C-belediye-randevu-malaga-24h-ve-merkezi-hat-14",
+   "field": "steps",
+   "claim": "Randevu citaprevia.malaga.eu adresinden de alınır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:245",
+   "quote": "Desde la página web del Ayuntamiento de Málaga, a través del enlace https://citaprevia.malaga.eu/"
+  },
+  {
+   "claim_id": "C-belediye-randevu-malaga-24h-ve-merkezi-hat-15",
+   "field": "summary",
+   "claim": "Padrón bilgi telefonları (951 92 60 10, 010) her gün 08:00-22:00 arasında yanıtlanır",
+   "value": "08:00-22:00",
+   "unit": "saat",
+   "period": "",
+   "source_id": "malaga:kaynak:223",
+   "quote": "Atendido de 08:00 a 22:00 horas"
+  }
+ ],
+ "adimlar": [],
+ "butonlar": [
+  {
+   "action_id": "malaga:action:belediye-randevu-malaga-24h-ve-merkezi-hat-1",
+   "label": "Randevu al",
+   "url": "https://citaprevia.malaga.eu/"
+  },
+  {
+   "action_id": "malaga:action:belediye-randevu-malaga-24h-ve-merkezi-hat-2",
+   "label": "Bilgi al",
+   "url": "https://www.malaga.eu/guia-telematica-municipal/"
+  }
+ ]
+}
+
+===== KART 18/21: malaga:fnmt-dijital-sertifika-kimlik-dogrulama-omac-malaga =====
+{
+ "entry_id": "malaga:fnmt-dijital-sertifika-kimlik-dogrulama-omac-malaga",
+ "city_id": "malaga",
+ "slug": "fnmt-dijital-sertifika-kimlik-dogrulama-omac-malaga",
+ "title": "Málaga'da FNMT dijital sertifikası için kimlik doğrulamasını nerede yaptırırsın?",
+ "subtitle": "Belediye OMAC ofisleri FNMT ile sözleşmeli; AEAT ve Seguridad Social ofislerinde randevu gerekir",
+ "summary": "Málaga'da FNMT dijital sertifikası için kimlik doğrulamasını belediyenin OMAC ofislerinde yaptırabilirsin; OMAC, FNMT ile yapılan sözleşme kapsamında dijital sertifika işlemleri için yetkilidir. AEAT, Seguridad Social ve diğer doğrulama ofislerinde ise randevu gerekir. Süreç dört adımdır ve bu sırayla ilerler: gerekli yazılımı kur, çevrimiçi başvur, e-postana gelen başvuru koduyla kimliğini doğrulat, sertifikayı indir.",
+ "keywords": "FNMT, dijital sertifika, certificado digital, Oficina de Acreditación de Identidad, OMAC, kimlik doğrulama, video kimlik",
+ "stages": "new;settled",
+ "source_ids": "malaga:kaynak:249;malaga:kaynak:243",
+ "reviewed_on": "2026-10-27",
+ "order": 303,
+ "featured": "Hayır",
+ "editorial_status": "Taslak",
+ "topic_id": "malaga:resmi",
+ "steps": "FNMT sayfasındaki yazılımı bilgisayarına kur.\nSertifikayı çevrimiçi iste; işlem bitince e-postana bir başvuru kodu (Código de Solicitud) gelir.\nKimliğini e-postana gelen başvuru koduyla (Código de Solicitud) bir Oficina de Acreditación de Identidad'te doğrulat: Málaga'da OMAC'a randevuyla git; AEAT ve Seguridad Social ofislerinde de randevu gerekir.\nKimlik doğrulamadan yaklaşık 1 saat sonra başvuru koduyla sertifikayı indir, kur ve yedeğini al.",
+ "documents": "E-postana gelen başvuru kodu (Código de Solicitud)",
+ "timing": "Kimlik doğrulamadan yaklaşık 1 saat sonra indirilir",
+ "cost": "",
+ "note": "OMAC'ta randevuyu citaprevia.malaga.eu ya da 951 92 60 10 üzerinden alırsın; ofis pazartesi-cuma 9:00-14:00 açıktır, 65 yaş üstü kişiler randevusuz gidebilir.",
+ "visual_json": "",
+ "_sekme": "Yanıtlar",
+ "kaynaklar": [
+  {
+   "source_id": "malaga:kaynak:249",
+   "url": "https://www.sede.fnmt.gob.es/preguntas-frecuentes/certificado-de-persona-fisica/-/asset_publisher/eIal9z2VE0Kb/content/1133-que-pasos-he-de-seguir-para-obtener-un-certificado-fnmt-de-persona-fisica-",
+   "publisher": "FNMT-RCM",
+   "text_file": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\malaga\\_is\\snap_kesif_resmi\\f6dc2e0c6c9c84c168e3343a91b9c3276a1c44a76dc7acce641bf36b9e5e133c.txt"
+  },
+  {
+   "source_id": "malaga:kaynak:243",
+   "url": "https://saic.malaga.eu/oficinas-o.m.a.c./",
+   "publisher": "Ayuntamiento de Málaga",
+   "text_file": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\malaga\\_is\\snap_kesif_resmi\\4c1beb06b227fd6d4a9dab6b5750d4a5aea1ace2f7d53a10f25e7e485ec801cc.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-fnmt-dijital-sertifika-kimlik-dogrulama-omac-malaga-1",
+   "field": "summary",
+   "claim": "Sertifika alma dört adımdır ve sırayla yapılır",
+   "value": "4",
+   "unit": "adım",
+   "period": "",
+   "source_id": "malaga:kaynak:249",
+   "quote": "El proceso de obtención del Certificado de persona física de forma presencial, se divide en cuatro pasos que deben realizarse en el orden señalado"
+  },
+  {
+   "claim_id": "C-fnmt-dijital-sertifika-kimlik-dogrulama-omac-malaga-2",
+   "field": "steps",
+   "claim": "Çevrimiçi başvuruda e-postaya Código de Solicitud gelir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:249",
+   "quote": "Solicitud vía internet de su Certificado. Al finalizar el proceso de solicitud, usted recibirá en su cuenta de correo electrónico un Código de Solicitud"
+  },
+  {
+   "claim_id": "C-fnmt-dijital-sertifika-kimlik-dogrulama-omac-malaga-3",
+   "field": "steps",
+   "claim": "Kimlik Oficina de Acreditación de Identidad'te doğrulanır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:249",
+   "quote": "Acreditación de la identidad en una Oficina de Acreditación de Identidad."
+  },
+  {
+   "claim_id": "C-fnmt-dijital-sertifika-kimlik-dogrulama-omac-malaga-4",
+   "field": "steps",
+   "claim": "AEAT ve Seguridad Social ofislerinde randevu gerekir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:249",
+   "quote": "En las oficinas de la AEAT, Seguridad Social y en otras oficinas se requiere de cita previa, consulte con la propia oficina."
+  },
+  {
+   "claim_id": "C-fnmt-dijital-sertifika-kimlik-dogrulama-omac-malaga-5",
+   "field": "timing",
+   "claim": "Doğrulamadan yaklaşık 1 saat sonra indirilir",
+   "value": "1",
+   "unit": "saat",
+   "period": "",
+   "source_id": "malaga:kaynak:249",
+   "quote": "Aproximadamente 1 hora después de que haya acreditado su identidad en una Oficina de Acreditación de Identidad"
+  },
+  {
+   "claim_id": "C-fnmt-dijital-sertifika-kimlik-dogrulama-omac-malaga-7",
+   "field": "summary",
+   "claim": "OMAC'ta dijital sertifika alınabilir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:243",
+   "quote": "Asimismo puede obtenerse el Certificado Digital, que permite la identificación segura y la Firma Electrónica"
+  },
+  {
+   "claim_id": "C-fnmt-dijital-sertifika-kimlik-dogrulama-omac-malaga-8",
+   "field": "summary",
+   "claim": "OMAC FNMT sözleşmesi kapsamında dijital sertifika işlemleri için yetkilidir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:243",
+   "quote": "La OMAC está habilitada para ello (Convenio con la Fábrica Nacional de Moneda y Timbre)."
+  },
+  {
+   "claim_id": "C-fnmt-dijital-sertifika-kimlik-dogrulama-omac-malaga-9",
+   "field": "note",
+   "claim": "OMAC pazartesi-cuma 9:00-14:00",
+   "value": "9:00-14:00",
+   "unit": "saat",
+   "period": "",
+   "source_id": "malaga:kaynak:243",
+   "quote": "Horario de Atención: De lunes a viernes de 9:00 a 14:00. Salvo Festivos y los días 24 y 31 de diciembre."
+  },
+  {
+   "claim_id": "C-fnmt-dijital-sertifika-kimlik-dogrulama-omac-malaga-10",
+   "field": "note",
+   "claim": "OMAC randevusu citaprevia.malaga.eu ya da 951-926-010, 65 yaş üstü randevusuz",
+   "value": "65",
+   "unit": "yaş",
+   "period": "",
+   "source_id": "malaga:kaynak:243",
+   "quote": "Atención con cita previa salvo a mayores de 65 años que podrán acudir sin cita. Puede obtener cita en citaprevia.malaga.eu o en el Teléfono Municipal de Información 951-926-010."
+  },
+  {
+   "claim_id": "C-fnmt-dijital-sertifika-kimlik-dogrulama-omac-malaga-11",
+   "field": "documents",
+   "claim": "Kimlik doğrulama anında e-postadaki başvuru kodu (Código de Solicitud) istenir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:249",
+   "quote": "usted recibirá en su cuenta de correo electrónico un Código de Solicitud que le será requerido en el momento de acreditar su identidad"
+  }
+ ],
+ "adimlar": [],
+ "butonlar": [
+  {
+   "action_id": "malaga:action:fnmt-dijital-sertifika-kimlik-dogrulama-omac-malaga-1",
+   "label": "Başvur",
+   "url": "https://www.sede.fnmt.gob.es/certificados/persona-fisica/obtener-certificado-software"
+  },
+  {
+   "action_id": "malaga:action:fnmt-dijital-sertifika-kimlik-dogrulama-omac-malaga-2",
+   "label": "Randevu al",
+   "url": "https://citaprevia.malaga.eu/"
+  }
+ ]
+}
+
+===== KART 19/21: malaga:clave-yuz-yuze-kayit-randevu-ve-gerekli-belgeler =====
+{
+ "entry_id": "malaga:clave-yuz-yuze-kayit-randevu-ve-gerekli-belgeler",
+ "city_id": "malaga",
+ "slug": "clave-yuz-yuze-kayit-randevu-ve-gerekli-belgeler",
+ "title": "Cl@ve'e yüz yüze kaydolmak için randevuyu nasıl alırsın, randevuya ne götürürsün?",
+ "subtitle": "Randevu: 91 333 5 333 ya da Sede Electrónica; kayıt şahsen yapılır",
+ "summary": "Cl@ve'e yüz yüze kayıt için randevuyu 91 333 5 333 numarasından (pazartesi-cuma 9:00-19:00, Ağustos'ta 15:00'e kadar) ya da Agencia Tributaria Sede Electrónica'daki \"Asistencia y Cita\" bölümünden alırsın. Kayıtta kişinin şahsen bulunması şarttır; temsilciyle ya da vekâletle yapılamaz. Yanında DNI'ni (geçerlilik tarihiyle) ya da NIE'ni (düzenleme tarihiyle), cep telefonu numaranı ve e-posta adresini götürürsün; yabancılar kimliklerini ülkelerinin yetkili makamlarınca verilmiş pasaport ya da seyahat belgesiyle kanıtlar. Ofise gitmeden kayıt yolları da var: davet mektubuyla CSV ya da dijital sertifika/elektronik DNI; uygulamayla video kimlik doğrulaması ise şu an yalnız geçerli DNI'si olan İspanyol vatandaşları için açık.",
+ "keywords": "Cl@ve, Cl@ve kaydı, yüz yüze kayıt, Agencia Tributaria, Asistencia y Cita, NIE, elektronik kimlik",
+ "stages": "new;settled",
+ "source_ids": "malaga:kaynak:248",
+ "reviewed_on": "2026-10-27",
+ "order": 304,
+ "featured": "Hayır",
+ "editorial_status": "Taslak",
+ "topic_id": "malaga:resmi",
+ "steps": "Randevuyu 91 333 5 333 numarasından ya da Sede Electrónica'daki \"Asistencia y Cita\" bölümünden al.\nÇevrimiçi randevuda \"Otras gestiones\" altında \"Identificación electrónica\" ve \"Registro en Cl@ve\" hizmetini seç, ilini ya da posta kodunu gir ve sana en yakın ofisten randevu seç.\nRandevuya kimlik belgen, cep telefonu numaran ve e-posta adresinle şahsen git.",
+ "documents": "DNI (geçerlilik tarihiyle) ya da NIE (düzenleme tarihiyle)\nYabancılar için ülkesinin yetkili makamlarınca verilmiş pasaport veya seyahat belgesi\nUlusal ya da yabancı cep telefonu numarası\nE-posta adresi\nReşit olmayanlarda velayet sahibi ve velayeti gösteren belge (libro de familia)",
+ "timing": "Randevu hattı pazartesi-cuma 9:00-19:00 (Ağustos'ta 15:00'e kadar)",
+ "cost": "",
+ "note": "Kayıt vekâletle ya da temsilciyle yapılamaz, kişinin kendisinin gitmesi gerekir.",
+ "visual_json": "",
+ "_sekme": "Yanıtlar",
+ "kaynaklar": [
+  {
+   "source_id": "malaga:kaynak:248",
+   "url": "https://sede.agenciatributaria.gob.es/Sede/ayuda/consultas-informaticas/firma-digital-sistema-clave-pin-tecnica/registrarse-clave-pin/registro-presencial-sistema-clave.html",
+   "publisher": "Agencia Tributaria",
+   "text_file": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\malaga\\_is\\snap_kesif_resmi\\97ae990e6167552e06df4a8de78f256890aeddb8725f74157bedadabae54f71e.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-step-4-1",
+   "field": "description",
+   "claim": "Cl@ve randevu telefonu 91 333 5 333, hafta içi 9-19",
+   "value": "91 333 5 333",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:248",
+   "quote": "Puedes solicitar cita para registrarte en nuestras oficinas, en el teléfono 91 333 5 333 de lunes a viernes, de 9 a 19 horas"
+  },
+  {
+   "claim_id": "C-step-4-2",
+   "field": "description",
+   "claim": "Randevuya cep telefonu numarası götürülür",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:248",
+   "quote": "Su número de teléfono móvil nacional o extranjero."
+  },
+  {
+   "claim_id": "C-step-4-3",
+   "field": "description",
+   "claim": "Randevuya e-posta adresi götürülür",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:248",
+   "quote": "Una dirección de correo electrónico."
+  },
+  {
+   "claim_id": "C-clave-yuz-yuze-kayit-randevu-ve-gerekli-belgeler-1",
+   "field": "timing",
+   "claim": "Randevu hattı 91 333 5 333, pazartesi-cuma 9-19, Ağustos'ta 15:00'e kadar",
+   "value": "91 333 5 333",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:248",
+   "quote": "Puedes solicitar cita para registrarte en nuestras oficinas, en el teléfono 91 333 5 333 de lunes a viernes, de 9 a 19 horas (hasta las 15 horas en agosto)"
+  },
+  {
+   "claim_id": "C-clave-yuz-yuze-kayit-randevu-ve-gerekli-belgeler-2",
+   "field": "summary",
+   "claim": "Randevu Sede Electrónica'daki Asistencia y Cita bölümünden de alınır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:248",
+   "quote": "Asistencia y Cita"
+  },
+  {
+   "claim_id": "C-clave-yuz-yuze-kayit-randevu-ve-gerekli-belgeler-3",
+   "field": "summary",
+   "claim": "Kayıt için kişinin şahsen bulunması şarttır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:248",
+   "quote": "es imprescindible la comparecencia física del interesado"
+  },
+  {
+   "claim_id": "C-clave-yuz-yuze-kayit-randevu-ve-gerekli-belgeler-4",
+   "field": "note",
+   "claim": "Kayıt temsilci ya da vekâletle yapılamaz",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:248",
+   "quote": "Este trámite no puede efectuarse mediante representación ni a través de apoderamiento."
+  },
+  {
+   "claim_id": "C-clave-yuz-yuze-kayit-randevu-ve-gerekli-belgeler-5",
+   "field": "documents",
+   "claim": "DNI için geçerlilik tarihi, NIE için düzenleme tarihi",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:248",
+   "quote": "Su DNI o NIE, con la fecha de validez o de expedición, respectivamente."
+  },
+  {
+   "claim_id": "C-clave-yuz-yuze-kayit-randevu-ve-gerekli-belgeler-6",
+   "field": "documents",
+   "claim": "Ulusal ya da yabancı cep telefonu numarası",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:248",
+   "quote": "Su número de teléfono móvil nacional o extranjero."
+  },
+  {
+   "claim_id": "C-clave-yuz-yuze-kayit-randevu-ve-gerekli-belgeler-7",
+   "field": "documents",
+   "claim": "E-posta adresi",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:248",
+   "quote": "Una dirección de correo electrónico."
+  },
+  {
+   "claim_id": "C-clave-yuz-yuze-kayit-randevu-ve-gerekli-belgeler-8",
+   "field": "documents",
+   "claim": "Yabancılar için pasaport ya da seyahat belgesi",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:248",
+   "quote": "Los ciudadanos extranjeros deben acreditar su identidad presentando la documentación expedida por las autoridades competentes del país de origen: pasaporte o documento de viaje."
+  },
+  {
+   "claim_id": "C-clave-yuz-yuze-kayit-randevu-ve-gerekli-belgeler-9",
+   "field": "documents",
+   "claim": "Reşit olmayanlar velayet sahibiyle ve libro de familia ile gelir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:248",
+   "quote": "Los menores de edad deben acudir con su DNI en vigor, acompañados de quien ejerza su patria potestad con la documentación que acredite su identificación y la patria potestad (libro de familia)."
+  },
+  {
+   "claim_id": "C-clave-yuz-yuze-kayit-randevu-ve-gerekli-belgeler-10",
+   "field": "summary",
+   "claim": "Video kimlik şu an yalnız geçerli DNI'li İspanyol vatandaşlarına açık",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:248",
+   "quote": "con videoidentificación utilizando la APP Cl@ve (actualmente solo para ciudadanos españoles con un DNI en vigor)"
+  },
+  {
+   "claim_id": "C-clave-yuz-yuze-kayit-randevu-ve-gerekli-belgeler-11",
+   "field": "summary",
+   "claim": "Çevrimiçi kayıt davet mektubuyla CSV ile yapılabilir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:248",
+   "quote": "con CSV (previa solicitud de carta de invitación)"
+  },
+  {
+   "claim_id": "C-clave-yuz-yuze-kayit-randevu-ve-gerekli-belgeler-12",
+   "field": "summary",
+   "claim": "Çevrimiçi kayıt dijital imza (sertifika ya da elektronik DNI) ile yapılabilir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:248",
+   "quote": "con firma digital (certificado o DNI electrónico)"
+  },
+  {
+   "claim_id": "C-clave-yuz-yuze-kayit-randevu-ve-gerekli-belgeler-13",
+   "field": "steps",
+   "claim": "Çevrimiçi randevuda Otras gestiones, Identificación electrónica, Registro en Cl@ve seçilir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:248",
+   "quote": "selecciona \"Otras gestiones\" y marca, en el apartado de selección del servicio de la cita, \"Identificación electrónica\", \"Registro en Cl@ve\"."
+  },
+  {
+   "claim_id": "C-clave-yuz-yuze-kayit-randevu-ve-gerekli-belgeler-14",
+   "field": "steps",
+   "claim": "İl ya da posta kodu girilir, yakın ofisten randevu seçilir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:248",
+   "quote": "seleccionar una cita en la Administración o Delegación más cercana a tu domicilio"
+  }
+ ],
+ "adimlar": [
+  {
+   "step_id": "malaga:step:4",
+   "title": "Cl@ve'e yüz yüze kaydol",
+   "when": "Adres kaydından sonra",
+   "description": "Cl@ve için randevuyu 91 333 5 333 numarasından al; randevuya kimlik belgeni, cep telefonu numaranı ve e-posta adresini götür."
+  }
+ ],
+ "butonlar": [
+  {
+   "action_id": "malaga:action:clave-yuz-yuze-kayit-randevu-ve-gerekli-belgeler-1",
+   "label": "Randevu al",
+   "url": "https://sede.agenciatributaria.gob.es/Sede/ayuda/consultas-informaticas/firma-digital-sistema-clave-pin-tecnica/registrarse-clave-pin/registro-presencial-sistema-clave.html"
+  }
+ ]
+}
+
+===== KART 20/21: malaga:ehliyet-degisimi-canje-dgt-cevrimici-basvuru-ve-jefatura-teslimi =====
+{
+ "entry_id": "malaga:ehliyet-degisimi-canje-dgt-cevrimici-basvuru-ve-jefatura-teslimi",
+ "city_id": "malaga",
+ "slug": "ehliyet-degisimi-canje-dgt-cevrimici-basvuru-ve-jefatura-teslimi",
+ "title": "Türk ehliyetini İspanyol ehliyetiyle değiştirirken (canje) Málaga'daki trafik şubesine ne zaman gidersin?",
+ "subtitle": "Başvuru çevrimiçi; şubeye yalnız asıl ehliyeti teslim edip geçici belgeyi almak için gidersin",
+ "summary": "Ehliyet değişiminde başvuruyu çevrimiçi yaparsın; trafik şubesine (Jefatura Provincial de Tráfico) yalnızca son aşamada gidip asıl ehliyetini teslim eder ve geçici sürüş belgeni alırsın. DGT, Türkiye'yi önce ehliyetin ülkesince doğrulanmasını isteyen ülkeler arasında sayar: doğrulama olumlu gelince canje başvurusunu yaparsın; doğrulama e-postası günler, hatta haftalar sürebilir. Yalnız motosiklet ve otomobil sınıflarını (A1, A, B, B+E) içeren ehliyette ek sınav yoktur ve değişim bedeli 28,87 euro; kamyon ve otobüs sınıflarında (C, D) 94,05 euro. Bu sınıf adları İspanyol ehliyetinin sınıflarıdır; 2011 anlaşmasına göre Türk ehliyetinin A1, F, G ve H sınıfları hiç değiştirilemez.",
+ "keywords": "ehliyet değişimi, canje, DGT, Jefatura Provincial de Tráfico Málaga, Türk ehliyeti, permiso de conducir, sürücü belgesi",
+ "stages": "new;settled",
+ "source_ids": "malaga:kaynak:246;malaga:kaynak:247;malaga:kaynak:031",
+ "reviewed_on": "2026-10-27",
+ "order": 305,
+ "featured": "Evet",
+ "editorial_status": "Taslak",
+ "topic_id": "malaga:resmi",
+ "steps": "Yetkili bir sürücü muayene merkezinden (Centro de Reconocimiento de Conductores) psikofiziksel yeterlilik raporu al; yalnız A ve B sınıflarında grup I raporu yeterlidir.\nDGT Sede Electrónica'ya Cl@ve ya da dijital sertifikanla gir, ehliyetin verildiği ülkeyi seç ve ehliyetinin geçerliliğinin doğrulanmasını iste.\nDoğrulama olumlu gelince canje başvurusunu doldur, belgeleri tarayıp yükle ve bedeli öde.\nBaşvurun işlenince gelen e-postadaki yönergeyle başvuruda seçtiğin Jefatura'ya git, asıl ehliyetini teslim et ve geçici sürüş belgeni al.\nKalıcı ehliyetin yaklaşık bir buçuk ay içinde adresine postayla gelir.",
+ "documents": "Geçerli kimlik: DNI, pasaport ya da AB dışı yabancılar için oturum izni\nİkamet kanıtı: DNI, TIE veya AB vatandaşı kayıt sertifikası\nEhliyet aslı (geçerli ve yürürlükte)\nYetkili merkezden psikofiziksel yeterlilik raporu\nEhliyeti İspanya'da oturmuyorken aldığını gösteren belge: yabancı kimlik/oturum kartı (TIE) ya da öğrenci kartı ya da yabancılar sicilinde kayıt belgesi (bunlardan biri)",
+ "timing": "Ülke doğrulaması günler hatta haftalar sürebilir; kalıcı ehliyet yaklaşık bir buçuk ayda gelir; DGT başvurunun işlenme süresini garanti etmez; geçici belge 6 ay geçerli ve yalnız İspanya'da kullanılır",
+ "cost": "A1, A, B, B+E sınıfları 28,87 euro (tasa 2.3); C ve D sınıfları 94,05 euro (tasa 2.1, iki sınav hakkı dahil); ofiste yüz yüze ödemede yalnız kart kabul edilir, nakit değil",
+ "note": "Yabancı ehliyetin İspanya'da geçerliliği, normal ikamet kazandığın günden (normal ikamet: İspanya'da yasal statüyle, bir takvim yılında en az 185 gün kalmak) itibaren en çok altı aydır; sonrasında araç kullanmaya devam etmek için değişim yaptırman gerekir. DGT'ye göre çevrimiçi canje başvurusunda randevu almazsın; gün ve saat e-postayla bildirilir. Şubelerdeki öteki işlemler için randevuyu çevrimiçi ya da 060 numarasından alırsın.",
+ "visual_json": "",
+ "_sekme": "Yanıtlar",
+ "kaynaklar": [
+  {
+   "source_id": "malaga:kaynak:246",
+   "url": "https://www.dgt.es/comunicacion/notas-de-prensa/20250520-dgt-servicio-de-canje-digital-de-permisos-de-conduccion/",
+   "publisher": "Dirección General de Tráfico",
+   "text_file": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\malaga\\_is\\snap_kesif_resmi\\2ff033ec1a9f56e2f4dc37bd4f9cda4dda8d23ee75855171c95c617bccd533a7.txt"
+  },
+  {
+   "source_id": "malaga:kaynak:247",
+   "url": "https://sede.dgt.gob.es/es/permisos-de-conducir/canjes-de-permisos/canjes-de-permisos-extranjeros/extracomunitarios/canje-paises-G4-CL-CP/",
+   "publisher": "Dirección General de Tráfico",
+   "text_file": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\malaga\\_is\\snap_kesif_resmi\\aea9650cc5ddad1a9c343a86f3e1caaf842b187e5492be06839d9c741ed9bbff.txt"
+  },
+  {
+   "source_id": "malaga:kaynak:031",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2011-5606",
+   "publisher": "Boletín Oficial del Estado",
+   "text_file": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\malaga\\_is\\snap_ulke_es\\malaga_kaynak_031_es_kaynak_035.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-ehliyet-degisimi-canje-dgt-cevrimici-basvuru-ve-jefatura-teslimi-1",
+   "field": "summary",
+   "claim": "Türkiye değişim yapılabilen ülkeler listesinde",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:247",
+   "quote": "Serbia, Túnez y Turquía, podrán ser canjeados por un permiso español equivalente, cuando se reúnan una serie de requisitos:"
+  },
+  {
+   "claim_id": "C-ehliyet-degisimi-canje-dgt-cevrimici-basvuru-ve-jefatura-teslimi-2",
+   "field": "summary",
+   "claim": "Türkiye için önce ehliyet ülkesinden doğrulama istenir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:246",
+   "quote": "Serbia, Túnez o Turquía, antes de canjear se solicita una verificación previa del permiso ante el país que lo ha expedido"
+  },
+  {
+   "claim_id": "C-ehliyet-degisimi-canje-dgt-cevrimici-basvuru-ve-jefatura-teslimi-3",
+   "field": "summary",
+   "claim": "Doğrulama e-postası günler hatta haftalar sürebilir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:247",
+   "quote": "puede tardar en llegarte varios días e incluso semanas"
+  },
+  {
+   "claim_id": "C-ehliyet-degisimi-canje-dgt-cevrimici-basvuru-ve-jefatura-teslimi-5",
+   "field": "summary",
+   "claim": "A ve B sınıflarında ek sınav yoktur, değişim doğrudandır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:247",
+   "quote": "El canje de permisos que solo incluyan autorizaciones para conducir motos, coches y/o vehículos ligeros (A1, A, B, B + E), no requiere realizar pruebas adicionales, el canje es directo."
+  },
+  {
+   "claim_id": "C-ehliyet-degisimi-canje-dgt-cevrimici-basvuru-ve-jefatura-teslimi-6",
+   "field": "cost",
+   "claim": "Tasa 2.3: 28,87 euro",
+   "value": "28,87",
+   "unit": "EUR",
+   "period": "",
+   "source_id": "malaga:kaynak:247",
+   "quote": "la tasa 2.3 de 28,87 €"
+  },
+  {
+   "claim_id": "C-ehliyet-degisimi-canje-dgt-cevrimici-basvuru-ve-jefatura-teslimi-7",
+   "field": "cost",
+   "claim": "Tasa 2.1: 94,05 euro, iki sınav hakkı",
+   "value": "94,05",
+   "unit": "EUR",
+   "period": "",
+   "source_id": "malaga:kaynak:247",
+   "quote": "la tasa 2.1 de 94,05 €. Esta tasa te da derecho a realizar 2 convocatorias para realizar las pruebas."
+  },
+  {
+   "claim_id": "C-ehliyet-degisimi-canje-dgt-cevrimici-basvuru-ve-jefatura-teslimi-8",
+   "field": "cost",
+   "claim": "Ofiste yüz yüze ödemede yalnız kart kabul edilir, nakit değil",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:247",
+   "quote": "En caso de hacerlo presencialmente, podrás pagar la tasa en nuestras oficinas en el momento de efectuarlo, usando cualquier tarjeta de débito o crédito, nunca en metálico"
+  },
+  {
+   "claim_id": "C-ehliyet-degisimi-canje-dgt-cevrimici-basvuru-ve-jefatura-teslimi-9",
+   "field": "steps",
+   "claim": "Çevrimiçi başvuru dijital sertifika ya da Cl@ve ile yapılır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:247",
+   "quote": "Por internet, a través de nuestro servicio, con tu certificado digital o credenciales Cl@ve."
+  },
+  {
+   "claim_id": "C-ehliyet-degisimi-canje-dgt-cevrimici-basvuru-ve-jefatura-teslimi-10",
+   "field": "steps",
+   "claim": "Çevrimiçi başvuruda randevu gerekmez; şubeye yalnız teslim için gidilir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:246",
+   "quote": "Con este servicio el ciudadano no necesita pedir cita previa"
+  },
+  {
+   "claim_id": "C-ehliyet-degisimi-canje-dgt-cevrimici-basvuru-ve-jefatura-teslimi-11",
+   "field": "steps",
+   "claim": "Şubede asıl ehliyet teslim edilir, geçici belge alınır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:246",
+   "quote": "solo tendrá que acudir a la Jefatura Provincial de Tráfico correspondiente para entregar su permiso de conducción original, válido y en vigor, y recoger la autorización provisional para conducir"
+  },
+  {
+   "claim_id": "C-ehliyet-degisimi-canje-dgt-cevrimici-basvuru-ve-jefatura-teslimi-12",
+   "field": "steps",
+   "claim": "Başvuruda işlem yapılacak şube açılır listeden seçilir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:247",
+   "quote": "Selecciona en el desplegable la jefatura u oficina dónde quieres realizar el trámite."
+  },
+  {
+   "claim_id": "C-ehliyet-degisimi-canje-dgt-cevrimici-basvuru-ve-jefatura-teslimi-13",
+   "field": "steps",
+   "claim": "Kalıcı ehliyet yaklaşık bir buçuk ayda eve gelir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:247",
+   "quote": "Lo normal es que en un mes y medio después de la realización de tu trámite tengas tu nuevo permiso ya en tu casa."
+  },
+  {
+   "claim_id": "C-ehliyet-degisimi-canje-dgt-cevrimici-basvuru-ve-jefatura-teslimi-14",
+   "field": "steps",
+   "claim": "Grup I raporu yalnız A ve B içeren canje için yeterli",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:247",
+   "quote": "Si el canje no requiere realizar ninguna prueba (en general si solo incluye autorización para permisos A y B) el informe de aptitud que tienes que presentar es el del grupo I."
+  },
+  {
+   "claim_id": "C-ehliyet-degisimi-canje-dgt-cevrimici-basvuru-ve-jefatura-teslimi-15",
+   "field": "timing",
+   "claim": "Geçici belgeyle 6 ay sürülebilir",
+   "value": "6",
+   "unit": "ay",
+   "period": "",
+   "source_id": "malaga:kaynak:247",
+   "quote": "durante 6 meses podrás conducir con el permiso provisional"
+  },
+  {
+   "claim_id": "C-ehliyet-degisimi-canje-dgt-cevrimici-basvuru-ve-jefatura-teslimi-16",
+   "field": "timing",
+   "claim": "Geçici belge yalnız İspanya sınırları içinde geçerli",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:247",
+   "quote": "Con el carné provisional sólo puedes conducir dentro de nuestras fronteras."
+  },
+  {
+   "claim_id": "C-ehliyet-degisimi-canje-dgt-cevrimici-basvuru-ve-jefatura-teslimi-17",
+   "field": "note",
+   "claim": "Yabancı ehliyet normal ikametten itibaren en çok altı ay geçerli",
+   "value": "6",
+   "unit": "ay",
+   "period": "",
+   "source_id": "malaga:kaynak:247",
+   "quote": "Recuerda que tu permiso es solo válido durante el plazo de seis meses, como máximo, contados desde que hayas adquirido la residencia normal en España."
+  },
+  {
+   "claim_id": "C-ehliyet-degisimi-canje-dgt-cevrimici-basvuru-ve-jefatura-teslimi-18",
+   "field": "note",
+   "claim": "Şubelerdeki öteki işlemler için randevu çevrimiçi ya da 060 ile alınır",
+   "value": "060",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:247",
+   "quote": "Para realizar trámites en todas las jefaturas es necesario solicitar online cita previa o llamando al 060."
+  },
+  {
+   "claim_id": "C-ehliyet-degisimi-canje-dgt-cevrimici-basvuru-ve-jefatura-teslimi-19",
+   "field": "documents",
+   "claim": "Kimlik: DNI, pasaport veya AB dışı yabancılar için oturum izni",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:247",
+   "quote": "Identificación del interesado: Original en vigor para acreditar la identidad: DNI o pasaporte en vigor o autorización de residencia para extranjeros no comunitarios."
+  },
+  {
+   "claim_id": "C-ehliyet-degisimi-canje-dgt-cevrimici-basvuru-ve-jefatura-teslimi-20",
+   "field": "documents",
+   "claim": "İkamet kanıtı",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:247",
+   "quote": "Acreditación de la residencia: Original del DNI o tarjeta de residencia (tarjeta de identidad de extranjero) o certificado de inscripción en el registro de ciudadanos de la UE"
+  },
+  {
+   "claim_id": "C-ehliyet-degisimi-canje-dgt-cevrimici-basvuru-ve-jefatura-teslimi-21",
+   "field": "documents",
+   "claim": "Ehliyetin İspanya'da oturmuyorken alındığı TIE/oturum kartı, öğrenci kartı ya da yabancı kayıt belgelerinden biriyle gösterilir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:247",
+   "quote": "En otro caso deberás aportar alguno de los siguientes documentos: Tarjeta de Identidad Extranjero, de Residencia o de Estudiante."
+  },
+  {
+   "claim_id": "C-ehliyet-degisimi-canje-dgt-cevrimici-basvuru-ve-jefatura-teslimi-22",
+   "field": "documents",
+   "claim": "Psikofiziksel yeterlilik raporu yetkili merkezden",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:247",
+   "quote": "Informe de aptitud psicofísica, expedido por un Centro de Reconocimiento de Conductores autorizado."
+  },
+  {
+   "claim_id": "C-ehliyet-degisimi-canje-dgt-cevrimici-basvuru-ve-jefatura-teslimi-23",
+   "field": "note",
+   "claim": "Normal ikamet bir takvim yılında en az 185 gün kalmaktır (yasal statüyle birlikte, bkz. C-25)",
+   "value": "185",
+   "unit": "gün",
+   "period": "takvim yılı",
+   "source_id": "malaga:kaynak:247",
+   "quote": "La residencia normal es el lugar en el que permanezca una persona habitualmente, es decir, durante al menos ciento ochenta y cinco días por cada año natural"
+  },
+  {
+   "claim_id": "C-ehliyet-degisimi-canje-dgt-cevrimici-basvuru-ve-jefatura-teslimi-24",
+   "field": "timing",
+   "claim": "DGT başvurunun işlenme süresini garanti etmez",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:247",
+   "quote": "Atenderemos tu solicitud en el menor plazo posible, pero no nos es posible garantizar un plazo."
+  },
+  {
+   "claim_id": "C-ehliyet-degisimi-canje-dgt-cevrimici-basvuru-ve-jefatura-teslimi-25",
+   "field": "note",
+   "claim": "Normal ikamet İspanya'da düzenli (yasal) statüde kalmayı gerektirir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:247",
+   "quote": "Se entiende por residencia normal la permanencia en España en situación regular que deberá ser debidamente acreditada"
+  },
+  {
+   "claim_id": "C-ehliyet-degisimi-canje-dgt-cevrimici-basvuru-ve-jefatura-teslimi-tut1",
+   "field": "summary",
+   "claim": "Türk A1, F, G ve H sınıfları değiştirilemez",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:031",
+   "quote": "Los permisos turcos de las categorías A1, F, G y H no son canjeables"
+  }
+ ],
+ "adimlar": [],
+ "butonlar": [
+  {
+   "action_id": "malaga:action:ehliyet-degisimi-canje-dgt-cevrimici-basvuru-ve-jefatura-teslimi-1",
+   "label": "Başvur",
+   "url": "https://sede.dgt.gob.es/es/permisos-de-conducir/canjes-de-permisos/canjes-de-permisos-extranjeros/extracomunitarios/canje-paises-G4-CL-CP/"
+  },
+  {
+   "action_id": "malaga:action:ehliyet-degisimi-canje-dgt-cevrimici-basvuru-ve-jefatura-teslimi-2",
+   "label": "Bilgi al",
+   "url": "https://www.dgt.es/comunicacion/notas-de-prensa/20250520-dgt-servicio-de-canje-digital-de-permisos-de-conduccion/"
+  }
+ ]
+}
+
+===== KART 21/21: malaga:apostil-endulus-tsj-secretaria-de-gobierno-ve-elektronik-apostil =====
+{
+ "entry_id": "malaga:apostil-endulus-tsj-secretaria-de-gobierno-ve-elektronik-apostil",
+ "city_id": "malaga",
+ "slug": "apostil-endulus-tsj-secretaria-de-gobierno-ve-elektronik-apostil",
+ "title": "Málaga'da aldığın İspanyol belgeyi başka ülkede kullanmak için apostili ya da legalizasyonu nereden yaptırırsın?",
+ "subtitle": "Belge türüne göre TSJA Secretaría de Gobierno, Colegio Notarial ya da Adalet Bakanlığı",
+ "summary": "Belge Endülüs'te düzenlendiyse apostili belgenin türü belirler: mahkeme ve adli kaynaklı belgelerde Tribunal Superior de Justicia'nın Secretaría de Gobierno'su, noter belgelerinde Colegio Notarial dekanı, merkezî idare belgelerinde (Registro Civil Central dahil) Adalet Bakanlığı apostil verir. Belgenin kullanılacağı ülke 5 Ekim 1961 tarihli Lahey Sözleşmesi'ne taraf ise işlem apostil; taraf değilse legalizasyondur ve zincir uzar: adli belge ile medeni hâl belgesi için TSJ Secretaría de Gobierno'su, noter belgesi için Colegio Notarial, ardından Adalet Bakanlığı, Dışişleri Bakanlığı Legalizasyon Şubesi (Madrid) ve belgenin kullanılacağı ülkenin İspanya'daki diplomatik ya da konsolosluk temsilciliği. Başvuruda belgenin kullanılacağı ülkeyi yazman zorunludur. Adalet Bakanlığı'nın bazı belgeleri için elektronik apostili Cl@ve ile çevrimiçi de alabilirsin.",
+ "keywords": "apostil, legalizasyon, Lahey Sözleşmesi, TSJA, Secretaría de Gobierno, Colegio Notarial, elektronik apostil, belge onayı",
+ "stages": "planning;new",
+ "source_ids": "malaga:kaynak:250;malaga:kaynak:251",
+ "reviewed_on": "2026-10-27",
+ "order": 306,
+ "featured": "Hayır",
+ "editorial_status": "Taslak",
+ "topic_id": "malaga:resmi",
+ "steps": "Belgenin türünü belirle: adli, noter ya da merkezî idare belgesi. Öğrenim belgeleri için ayrı bir düzenleme (Eğitim Bakanlığı'nın 16 Nisan 1990 tarihli emri) var; bölgesel ve yerel idare belgelerinin de kendi kuralları var.\nBelgeyi ilgili merciye ver: Secretaría de Gobierno (adli belgeler), Colegio Notarial dekanı (noter belgeleri) ya da Adalet Bakanlığı (merkezî idare belgeleri).\nBaşvuruda belgenin kullanılacağı ülkeyi yaz.\nPostayla yapacaksan 662 977 334 numaralı hattan bilgi al ve başvuru formunu (Formulario de solicitud de Legalización o Apostilla) doldurup belgeyle birlikte Secretaría de Gobierno. T.S.J.A. Plaza Nueva 10, 18071 Granada adresine gönder.\nÜlke Lahey Sözleşmesi'ne taraf değilse legalizasyon zincirini izle: önce Secretaría de Gobierno ya da Colegio Notarial, sonra Adalet Bakanlığı, Dışişleri Bakanlığı Legalizasyon Şubesi ve belgenin kullanılacağı ülkenin temsilciliği.\nAdalet Bakanlığı belgelerinde çevrimiçi apostil için Bakanlığın sitesinde Cl@ve ile giriş yap.",
+ "documents": "Orijinal belge (orijinal mühür ve imzası olmayan fotokopi işleme alınmaz); belgenin güncel olması önerilir\nBelgenin kullanılacağı ülke bilgisi",
+ "timing": "Elektronik apostil, düzenlendiği tarihten itibaren 1 yıl boyunca indirilebilir; doğrulaması 25 yıl yapılabilir",
+ "cost": "",
+ "note": "Andalucía dışında düzenlenen belgeler, orijinal mühür ve imzası olmayan fotokopiler, TSJ'de imzası tanınmayan belgeler ve iki imzası (Juez de Paz ile Secretario) bulunmayan Juzgado de Paz belgeleri legalize edilmez.",
+ "visual_json": "",
+ "_sekme": "Yanıtlar",
+ "kaynaklar": [
+  {
+   "source_id": "malaga:kaynak:250",
+   "url": "https://www.juntadeandalucia.es/organismos/justiciaadministracionlocalyfuncionpublica/areas/justicia/atencion-ciudadania/tramites-judiciales/legalizaciones-apostillas.html",
+   "publisher": "Junta de Andalucía",
+   "text_file": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\malaga\\_is\\snap_kesif_resmi\\3042638fe36c2a701d2b595d2998923830311f420bd39d1a8a2fbaad466293b5.txt"
+  },
+  {
+   "source_id": "malaga:kaynak:251",
+   "url": "https://sede.mjusticia.gob.es/tramites/apostilla-electronica",
+   "publisher": "Ministerio de Justicia",
+   "text_file": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\malaga\\_is\\snap_kesif_resmi\\f371fed98a87cf31c384c597db2066d6dd3ab1ab3cecaf7ef89a554a4738d3c0.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-apostil-endulus-tsj-secretaria-de-gobierno-ve-elektronik-apostil-1",
+   "field": "summary",
+   "claim": "Kullanılacak ülke 5 Ekim 1961 tarihli Lahey Sözleşmesi'ne taraf ise işlem apostildir",
+   "value": "1961",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:250",
+   "quote": "ha firmadoel Convenio de la Haya de 5 de octubre de 1961"
+  },
+  {
+   "claim_id": "C-apostil-endulus-tsj-secretaria-de-gobierno-ve-elektronik-apostil-2",
+   "field": "summary",
+   "claim": "Taraf olmayan ülke için işlem legalizasyondur",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:250",
+   "quote": "no ha firmado el referido Convenio de la Haya"
+  },
+  {
+   "claim_id": "C-apostil-endulus-tsj-secretaria-de-gobierno-ve-elektronik-apostil-3",
+   "field": "summary",
+   "claim": "Adli belgelerde Secretario de Gobierno apostil verir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:250",
+   "quote": "Secretario de Gobierno del Tribunal Superior de Justicia de la Comunidad Autónoma correspondiente: documentos dimanantes de una autoridad o funcionario vinculado a una jurisdicción del Estado"
+  },
+  {
+   "claim_id": "C-apostil-endulus-tsj-secretaria-de-gobierno-ve-elektronik-apostil-4",
+   "field": "summary",
+   "claim": "Noter belgelerinde Colegio Notarial dekanı apostil verir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:250",
+   "quote": "Decano del Colegio Notarial respectivo o Miembro de su Junta Directiva: documentos autorizados notarialmente y documentos privados cuyas firmas hayan sido legitimadas por Notario."
+  },
+  {
+   "claim_id": "C-apostil-endulus-tsj-secretaria-de-gobierno-ve-elektronik-apostil-5",
+   "field": "summary",
+   "claim": "Merkezî idare belgelerinde Adalet Bakanlığı apostil verir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:250",
+   "quote": "Ministerio de Justicia: documentos expedidos por las autoridades y funcionarios de la Administración Central (incluido el Registro Civil Central)."
+  },
+  {
+   "claim_id": "C-apostil-endulus-tsj-secretaria-de-gobierno-ve-elektronik-apostil-6",
+   "field": "summary",
+   "claim": "Başvuruda belgenin kullanılacağı ülke yazılmak zorunda",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:250",
+   "quote": "Deberá expresar obligatoriamente el país en el que se quiere que surta efecto la legalización o apostilla."
+  },
+  {
+   "claim_id": "C-apostil-endulus-tsj-secretaria-de-gobierno-ve-elektronik-apostil-7",
+   "field": "documents",
+   "claim": "Belgelerin güncel olması önerilir (zorunluluk değil)",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:250",
+   "quote": "Es conveniente que las certificaciones estén actualizadas."
+  },
+  {
+   "claim_id": "C-apostil-endulus-tsj-secretaria-de-gobierno-ve-elektronik-apostil-8",
+   "field": "note",
+   "claim": "Andalucía dışındaki belgeler legalize edilmez",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:250",
+   "quote": "Certificaciones no pertenecientes a Andalucía."
+  },
+  {
+   "claim_id": "C-apostil-endulus-tsj-secretaria-de-gobierno-ve-elektronik-apostil-9",
+   "field": "note",
+   "claim": "Fotokopiler (orijinal mühür ve imzasız) legalize edilmez",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:250",
+   "quote": "Fotocopias (sin sello y firma original)."
+  },
+  {
+   "claim_id": "C-apostil-endulus-tsj-secretaria-de-gobierno-ve-elektronik-apostil-10",
+   "field": "note",
+   "claim": "TSJ'de imzası tanınmayan belgeler legalize edilmez",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:250",
+   "quote": "Documentos cuya firma no esté reconocida por este Tribunal Superior."
+  },
+  {
+   "claim_id": "C-apostil-endulus-tsj-secretaria-de-gobierno-ve-elektronik-apostil-11",
+   "field": "note",
+   "claim": "Juzgado de Paz belgelerinde iki imza gerekir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:250",
+   "quote": "Certificaciones de Juzgados de Paz que no tengan dos firmas (Juez de Paz y Secretario)"
+  },
+  {
+   "claim_id": "C-apostil-endulus-tsj-secretaria-de-gobierno-ve-elektronik-apostil-12",
+   "field": "steps",
+   "claim": "Posta yoluyla başvuru mümkün",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:250",
+   "quote": "Puede tramitar la solicitud de legalización o apostilla a través de correo ordinario"
+  },
+  {
+   "claim_id": "C-apostil-endulus-tsj-secretaria-de-gobierno-ve-elektronik-apostil-13",
+   "field": "steps",
+   "claim": "Secretaría de Gobierno iletişim numarası 662 977 334",
+   "value": "662 977 334",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:250",
+   "quote": "a través del número de contacto 662 977 334"
+  },
+  {
+   "claim_id": "C-apostil-endulus-tsj-secretaria-de-gobierno-ve-elektronik-apostil-14",
+   "field": "steps",
+   "claim": "Posta adresi Secretaría de Gobierno. T.S.J.A. Plaza Nueva 10, 18071 Granada",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:250",
+   "quote": "La documentación deben remitirla a: Secretaría de Gobierno. T.S.J.A. Plaza Nueva 10 18071 Granada"
+  },
+  {
+   "claim_id": "C-apostil-endulus-tsj-secretaria-de-gobierno-ve-elektronik-apostil-15",
+   "field": "steps",
+   "claim": "Çevrimiçi apostilde Cl@ve ile kimlik doğrulanır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:251",
+   "quote": "Se le solicitará que se identifique con Cl@ve."
+  },
+  {
+   "claim_id": "C-apostil-endulus-tsj-secretaria-de-gobierno-ve-elektronik-apostil-16",
+   "field": "steps",
+   "claim": "Çevrimiçi apostil yalnız Adalet Bakanlığı'nın bazı belgeleri için açık",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:251",
+   "quote": "Nota: Actualmente, este trámite solo está disponible para algunos certificados emitidos por el Ministerio de Justicia."
+  },
+  {
+   "claim_id": "C-apostil-endulus-tsj-secretaria-de-gobierno-ve-elektronik-apostil-17",
+   "field": "timing",
+   "claim": "Elektronik apostil 1 yıl indirilebilir",
+   "value": "1",
+   "unit": "yıl",
+   "period": "",
+   "source_id": "malaga:kaynak:251",
+   "quote": "La Apostilla electrónica recibida estará disponible para su descarga durante un año a partir de la fecha de emisión de la misma."
+  },
+  {
+   "claim_id": "C-apostil-endulus-tsj-secretaria-de-gobierno-ve-elektronik-apostil-18",
+   "field": "timing",
+   "claim": "Apostil doğrulaması 25 yıl yapılabilir",
+   "value": "25",
+   "unit": "yıl",
+   "period": "",
+   "source_id": "malaga:kaynak:251",
+   "quote": "podrá realizarse durante un plazo de 25 años desde la fecha de emisión de la apostilla"
+  },
+  {
+   "claim_id": "C-apostil-endulus-tsj-secretaria-de-gobierno-ve-elektronik-apostil-19",
+   "field": "summary",
+   "claim": "Adli ve medeni hâl belgelerinin legalizasyonu Secretaría de Gobierno'dan geçer",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:250",
+   "quote": "Vía Judicial. Para documentos judiciales (sentencias, testimonios, autos...) y relacionados con el estado civil de las personas (fe de vida, acta de matrimonio...)."
+  },
+  {
+   "claim_id": "C-apostil-endulus-tsj-secretaria-de-gobierno-ve-elektronik-apostil-20",
+   "field": "summary",
+   "claim": "Noter belgelerinin legalizasyonu Colegio Notarial'dan başlar",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:250",
+   "quote": "Vía Notarial. En general para documentos que autorice un notario. Los funcionarios competentes son: Colegio Notarial correspondiente."
+  },
+  {
+   "claim_id": "C-apostil-endulus-tsj-secretaria-de-gobierno-ve-elektronik-apostil-21",
+   "field": "summary",
+   "claim": "Legalizasyonda Dışişleri Bakanlığı Legalizasyon Şubesi (Madrid) da yer alır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:250",
+   "quote": "Ministerio de Asuntos Exteriores y de Cooperación, Sección de Legalizaciones, C/ General Pardiña 55, 28006 Madrid"
+  },
+  {
+   "claim_id": "C-apostil-endulus-tsj-secretaria-de-gobierno-ve-elektronik-apostil-22",
+   "field": "summary",
+   "claim": "Legalizasyonun son halkası belgenin kullanılacağı ülkenin İspanya'daki diplomatik ya da konsolosluk temsilciliğidir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:250",
+   "quote": "Representación Diplomática o Consular acreditada en España del país en el que va a surtir efecto."
+  },
+  {
+   "claim_id": "C-apostil-endulus-tsj-secretaria-de-gobierno-ve-elektronik-apostil-23",
+   "field": "steps",
+   "claim": "Öğrenim belgeleri için ayrı bir düzenleme vardır (16 Nisan 1990 tarihli emir)",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:250",
+   "quote": "Documentos de estudios. Regulación específica (Orden del Ministerio de Educación y Cultura de 16 de abril de 1990.BOE núm. 94, de 19 de abril)."
+  },
+  {
+   "claim_id": "C-apostil-endulus-tsj-secretaria-de-gobierno-ve-elektronik-apostil-24",
+   "field": "steps",
+   "claim": "Başvuru için Formulario de solicitud de Legalización o Apostilla formu vardır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:250",
+   "quote": "Formulario de solicitud de Legalización o Apostilla"
+  },
+  {
+   "claim_id": "C-apostil-endulus-tsj-secretaria-de-gobierno-ve-elektronik-apostil-25",
+   "field": "summary",
+   "claim": "Adalet Bakanlığı legalizasyon zincirinde yer alır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "malaga:kaynak:250",
+   "quote": "Ministerio de Justicia, Registro General, C/ San Bernardo 45, 28015 Madrid"
+  }
+ ],
+ "adimlar": [],
+ "butonlar": [
+  {
+   "action_id": "malaga:action:apostil-endulus-tsj-secretaria-de-gobierno-ve-elektronik-apostil-1",
+   "label": "Bilgi al",
+   "url": "https://www.juntadeandalucia.es/organismos/justiciaadministracionlocalyfuncionpublica/areas/justicia/atencion-ciudadania/tramites-judiciales/legalizaciones-apostillas.html"
+  },
+  {
+   "action_id": "malaga:action:apostil-endulus-tsj-secretaria-de-gobierno-ve-elektronik-apostil-2",
+   "label": "Bilgi al",
+   "url": "https://sede.mjusticia.gob.es/tramites/apostilla-electronica"
+  }
+ ]
+}

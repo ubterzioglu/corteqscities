@@ -3,93 +3,6 @@
   "workbook": "ara.xlsx",
   "groups": [
     {
-      "anchor": "fianza",
-      "kind": "sozluk",
-      "farkli_deger": [
-        "sure",
-        "tarih",
-        "ucret"
-      ],
-      "values": {
-        "sure": [
-          "5 yil",
-          "7 yil"
-        ],
-        "tarih": [
-          "1 ocak",
-          "24 ocak"
-        ],
-        "ucret": [
-          "1,90 €",
-          "23,95 €",
-          "5,00 €"
-        ]
-      },
-      "mentions": [
-        {
-          "id": "malaga:kira-depozitosu-fianza-ve-iade",
-          "sheet": "Yanıtlar",
-          "row": 27,
-          "sentences": [
-            "İspanya'da kira depozitosu (fianza) ne kadardır ve nasıl geri alınır?",
-            "Konutta fianza bir aylık kiradır; bakiye anahtar tesliminden bir ay sonra iade edilmemişse yasal faiz işler; fianza dışında ek güvence de kararlaştırılabilir",
-            "Konutta fianza bir aylık kiradır ve sözleşme yapılırken para olarak verilmesi zorunludur."
-          ]
-        },
-        {
-          "id": "malaga:kiralik-evden-cikis-ve-ihbar-suresi",
-          "sheet": "Yanıtlar",
-          "row": 30,
-          "sentences": [
-            "Kiraya veren, çıkıştan sonra iade etmesi gereken fianza bakiyesini anahtar tesliminden itibaren bir ay içinde iade etmezse bakiye yasal faiz işler.",
-            "Anahtarları teslim ederken teslim tarihini not et; fianza bakiyesi bir ay içinde iade edilmezse yasal faiz işler."
-          ]
-        },
-        {
-          "id": "malaga:endulus-kira-depozitosu-fianza-avra-yatirma-zorunlulugu",
-          "sheet": "Yanıtlar",
-          "row": 32,
-          "sentences": [
-            "Endülüs'te kira depozitosu (fianza) AVRA'ya yatırılır mı: 24 Ocak 2026 öncesi ve sonrası sözleşmeler"
-          ]
-        },
-        {
-          "id": "malaga:kiraci-giderleri-aidat-ibi-cop-ve-faturalar",
-          "sheet": "Yanıtlar",
-          "row": 41,
-          "sentences": [
-            "Junta'ya göre sözleşme süreyi, fianza'yı, kirayı, giderleri ve sözleşmenin nasıl biteceğini açıkça yazmalıdır."
-          ]
-        },
-        {
-          "id": "malaga:emt-karti-nereden-alinir-ve-musteri-merkezi",
-          "sheet": "Yanıtlar",
-          "row": 187,
-          "sentences": [
-            "Kartı estanco ya da gazete-dergi kiosku gibi bir satış noktasından (liste EMT'nin kart alma ve yükleme sayfasında) ya da Alameda Principal 47'deki EMT Müşteri Hizmetleri Merkezi'nden al; kart için 1,9",
-            "Kart için 1,90 € fianza (depozito); yükleme: 10 yolculuk 5,00 €, bir aylık sınırsız yolculuk 23,95 € (1 Ocak 2025'ten geçerli tarifeler 2026 boyunca uzatıldı)",
-            "Kartı alıp bir yıl dolmadan, iyi durumdaysa geri verirsen fianza iade edilir; yüklü bakiye iade edilmez."
-          ]
-        },
-        {
-          "id": "malaga:term:051",
-          "sheet": "Sözlük",
-          "row": 58,
-          "sentences": [
-            "Fianza (kira depozitosu)"
-          ]
-        },
-        {
-          "id": "malaga:term:052",
-          "sheet": "Sözlük",
-          "row": 59,
-          "sentences": [
-            "Sözleşmede süre, fianza, kira bedeli, giderler ve sona erme biçimi açıkça yazılmalıdır."
-          ]
-        }
-      ]
-    },
-    {
       "anchor": "emt",
       "kind": "sozluk",
       "farkli_deger": [
@@ -110,9 +23,9 @@
           "1,40 €",
           "1,90 €",
           "13,50 €",
-          "23,95 €",
+          "16,20 €",
           "4 €",
-          "5,00 €",
+          "5,95 €",
           "6,05 €"
         ]
       },
@@ -159,8 +72,8 @@
           "row": 187,
           "sentences": [
             "Málaga'da EMT otobüs kartını nereden alıp yüklersin, EMT müşteri merkezi nerede ve ne zaman açık?",
-            "EMT otobüs kartını (bonobús) şehirdeki satış ağından ya da Alameda Principal 47'deki (29001 Málaga) EMT Müşteri Hizmetleri Merkezi'nden (Centro de Atención al Cliente) alırsın; merkez hafta içi 9:00-1",
-            "Satış ağının büyük bölümü estanco ve gazete-dergi bayilerinden (kiosko) oluşur, nokta listesi EMT'nin sayfasındadır."
+            "EMT otobüs kartını (bonobús, kişiselleştirilmemiş tarjeta bus) satış ağındaki işyerlerinden ya da Alameda Principal 47'deki (29001 Málaga) EMT Müşteri Hizmetleri Merkezi'nden (Centro de Atención al Cl",
+            "Kartı satış ağındaki bir işyerinden ya da Alameda Principal 47'deki EMT Müşteri Hizmetleri Merkezi'nden al; kart için 1,90 € fianza (depozito) ödersin ve işyeri sana makbuz verir."
           ]
         },
         {
@@ -197,8 +110,8 @@
           "row": 242,
           "sentences": [
             "Málaga EMT otobüslerinde hangi yaştakiler ücretsiz biner; Estudiante, Joven ve Oro kartları kimler için?",
-            "3 yaşından küçük çocuklar bilet almaz; 3 ile 14 yaş arasındaki çocuklar (ikisi dahil) 1 Temmuz 2025'ten beri EMT otobüslerinde ücretsiz biner.",
-            "Düzenli binenler için EMT yaşa göre kart öneriyor: 16 yaşından küçükler için Tarjeta de Estudiante, 16-25 yaş arası için Tarjeta Joven, 65 yaş ve üstü ile Sosyal Güvenlik'ten mutlak sürekli maluliyet "
+            "3 yaş altı ve 3-14 yaş ücretsiz; EMT yaşa göre Estudiante (16 altı), Joven (16-25) ve Oro (65 ve üstü) kartını öneriyor",
+            "3 yaşından küçük çocuklar bilet almaz; 3 ile 14 yaş arasındaki çocuklar (ikisi dahil) 1 Temmuz 2025'ten beri EMT otobüslerinde ücretsiz biner."
           ]
         },
         {
@@ -269,7 +182,7 @@
         {
           "id": "malaga:museo-aeronautico-malaga",
           "sheet": "Mekânlar",
-          "row": 70,
+          "row": 62,
           "sentences": [
             "EMT'nin A hattıyla son durağa gidip yaklaşık 20 dakika yürünüyor."
           ]
@@ -277,9 +190,17 @@
         {
           "id": "malaga:oxo-museo-videojuego",
           "sheet": "Mekânlar",
-          "row": 72,
+          "row": 64,
           "sentences": [
-            "Müze EMT otobüsü, metro, banliyö treni, il otobüsü ya da taksiyle ulaşılabilen merkezi bir noktada."
+            "Müzeye EMT otobüsü, metro, banliyö treni ve il otobüsüyle ulaşılıyor; yakın otoparklar Parking de la Marina, Parking Camas ve Parking Tejón y Rodríguez."
+          ]
+        },
+        {
+          "id": "malaga:teatinos",
+          "sheet": "Mahalleler",
+          "row": 18,
+          "sentences": [
+            "EMT, öğrenci kartına şartlara bağlı, UMA (Málaga Üniversitesi) kartına ise indirimli aylık yükleme sunuyor; semtte 2010'da açılan, sinemadan esinlenmiş Parque del Cine var."
           ]
         },
         {
@@ -305,7 +226,7 @@
           "row": 52,
           "sentences": [
             "Transbordo (EMT aktarması)",
-            "EMT otobüslerinde 1 saat içinde hat değiştirerek istenilen sayıda binme olanağı veren aktarma hizmeti."
+            "EMT otobüslerinde, bus kartına 10, 20 ya da 30 seferlik Multiviajes yüklenmişse ilk binişten (kartın ilk okutulmasından) sonra 1 saat içinde farklı hatlara istenilen sayıda binme olanağı veren, ücrets"
           ]
         },
         {
@@ -359,8 +280,8 @@
           "row": 178,
           "sentences": [
             "Málaga Cercanías trenlerinde Consorcio kartıyla yolculuk nasıl ödenir, çıkışta kartı neden tekrar okutursun?",
-            "Consorcio ulaşım kartıyla Cercanías C-1 (Málaga-Fuengirola) ve C-2 (Málaga-Álora) hatlarında yolculuk edersin.",
-            "Kartı Consorcio'nun satış noktaları listesinde yer alan Cercanías gişelerinden (taquilla) al; liste Consorcio sitesindeki satış noktaları bölümündedir."
+            "Bu kural Consorcio ulaşım kartıyla Cercanías C-1 (Málaga-Fuengirola) ve C-2 (Málaga-Álora) hatlarında yolculuk edenler içindir.",
+            "Bu kart yalnız çıkışta okutmanın nedenini ve 180 dakika kuralını anlatır; tarife tablosu, yolculuğu iptal etme ve grupla binme kuralı 'Málaga'da Consorcio kartıyla Cercanías (C-1 ve C-2) yolculuğu kaç"
           ]
         },
         {
@@ -369,6 +290,7 @@
           "row": 179,
           "sentences": [
             "Kart şehirlerarası otobüslerde, Málaga şehir otobüslerinde ve komşu belediyelerin otobüslerinde, Málaga/Cádiz/Sevilla Cercanías trenlerinde ve Málaga/Sevilla/Granada metrolarında geçer.",
+            "Kartı bir Consorcio satış noktasından (estanco, kiosko ya da librería) ya da kartı satan Cercanías istasyon gişelerinden al.",
             "Kartı en az 5 euroyla yükle; yüklemeyi aynı satış noktalarında ya da Cercanías otomat ve gişelerinde yapabilirsin."
           ]
         },
@@ -405,15 +327,15 @@
           "sheet": "Yanıtlar",
           "row": 251,
           "sentences": [
-            "Málaga'da Consorcio ulaşım kartıyla Cercanías (C-1 ve C-2) trenine nasıl binersin, çıkışta neden tekrar okutursun?",
-            "Consorcio ulaşım kartıyla (ve Endülüs'teki diğer Consorcio kartlarıyla) Renfe Cercanías Málaga'nın C-1 Málaga-Fuengirola ve C-2 Málaga-Álora hatlarında yolculuk edebilir, otobüs ve Metro'ya aktarma ya",
-            "Kartı Cercanías otomatlarında ve istasyon gişelerinde yüklersin, kartı satın almak istersen Consorcio'nun satış noktaları listesindeki Cercanías gişelerinde alırsın."
+            "Málaga'da Consorcio kartıyla Cercanías (C-1 ve C-2) yolculuğu kaç euro tutar, iptal edilir mi, grupla binilir mi?",
+            "Consorcio kartıyla Cercanías C-1 ve C-2 yolculuğu salto sayısına göre 1,04 ile 7,75 euro arasında tutar (15 Temmuz-31 Aralık 2026 tarifesi); girişten sonra 15 dakika içinde iptal edebilirsin ve fotoğr",
+            "Consorcio ulaşım kartıyla (ve Endülüs'teki diğer Consorcio kartlarıyla) Renfe Cercanías Málaga'nın C-1 Málaga-Fuengirola ve C-2 Málaga-Álora hatlarında yolculuk edebilir, otobüs ve Metro'ya aktarma ya"
           ]
         },
         {
           "id": "malaga:mercado-central-de-atarazanas",
           "sheet": "Mekânlar",
-          "row": 61,
+          "row": 57,
           "sentences": [
             "Sayfada otobüs olarak 2 ve 10 numaralı hatların Atarazanas durağı, 36 numaralı hattın Plaza de Arriola durağı belirtiliyor; Cercanías ile Málaga Centro istasyonundan gelinebiliyor."
           ]
@@ -495,7 +417,7 @@
           "row": 21,
           "sentences": [
             "Málaga'da bebeğin kaydı için nereye gidilir: Registro Civil ofisi nerede, bebeği belediye nüfus kaydına (padrón) nasıl yazdırırım?",
-            "Oficina General del Registro Civil: Fiscal Luis Portero García s/n; padrón için OMAC ofisleri ya da randevuyla Gestión Tributaria",
+            "Oficina General del Registro Civil: Fiscal Luis Portero García s/n; padrón için Edificio de Tabacalera ya da Juntas Municipales de Distrito, harç yok",
             "Málaga'da Registro Civil işleri için Oficina General del Registro Civil'e gidersin: adres Fiscal Luis Portero García, s/n, 29010 Málaga, telefon 951 939 006."
           ]
         },
@@ -540,7 +462,8 @@
           "sheet": "Sözlük",
           "row": 20,
           "sentences": [
-            "Çocukla soybağını göstermek için Registro Civil'den alınan doğum belgesinin yanında ya da yerine kabul edilen belgedir; ör."
+            "Registro Civil Yasası (Ley 20/2011) 30 Nisan 2021'de yürürlüğe girdi; o tarihten beri yeni libro de familia verilmiyor, daha önce verilenler hükümlerini korur.",
+            "Soybağını göstermek için libro de familia ya da Registro Civil'den alınan doğum belgesi sunulur; ikisi alternatiftir."
           ]
         },
         {
@@ -609,7 +532,7 @@
           "sentences": [
             "İspanya'da KDV (IVA) oranları kaç?",
             "İspanya'da genel KDV (IVA) oranı %21'dir; azaltılmış oranlar %10 ve %4'tür ve belirli işlemlere %0 uygulanır (AEAT'nin güncel oran sayfasına göre).",
-            "Canarias, Ceuta ve Melilla'da İspanyol KDV'sinin (IVA) uygulanmadığını bil; bu kart bu bölgeleri kapsamaz."
+            "Canarias, Ceuta ve Melilla'da İspanyol KDV'sinin (IVA) uygulanmadığını bil."
           ]
         },
         {
@@ -631,18 +554,772 @@
       ]
     },
     {
-      "anchor": "cl ve",
+      "anchor": "nie",
       "kind": "sozluk",
       "farkli_deger": [
-        "tarih"
+        "ucret"
       ],
+      "values": {
+        "ucret": [
+          "16,08 €",
+          "19,30 €",
+          "9,84 €"
+        ]
+      },
+      "mentions": [
+        {
+          "id": "malaga:ingreso-minimo-vital-ve-cocuk-destegi",
+          "sheet": "Yanıtlar",
+          "row": 10,
+          "sentences": [
+            "Kimlik olarak ülkenin kimlik belgesi, yabancı kimlik kartı (TIE) ya da pasaportunu ver; NIE belgelerde yoksa ayrıca ver.",
+            "Kimlik belgesi: ülkenin kimlik belgesi, yabancı kimlik kartı (TIE) ya da pasaport (ve NIE)"
+          ]
+        },
+        {
+          "id": "malaga:emasa-fondo-social-su-faturasi-yardimi",
+          "sheet": "Yanıtlar",
+          "row": 59,
+          "sentences": [
+            "Başvuru için 18 yaşından büyük, geçerli DNI/NIE sahibi, Málaga'da kayıtlı (empadronado) olmalı, yardım istenen konutun ev kullanımı su sözleşmesinin sahibi olmalısın.",
+            "Geçerli DNI/NIE"
+          ]
+        },
+        {
+          "id": "malaga:issizlik-maasi-paro-sepe-basvurusu",
+          "sheet": "Yanıtlar",
+          "row": 89,
+          "sentences": [
+            "AB vatandaşı: pasaport ya da kimlik belgesi ile NIE'yi gösteren kayıt sertifikası (veya sürekli oturum sertifikası)"
+          ]
+        },
+        {
+          "id": "malaga:endulus-sae-is-arayan-kaydi-demandante-de-empleo",
+          "sheet": "Yanıtlar",
+          "row": 94,
+          "sentences": [
+            "Formda istenen bilgileri hazırla: ad soyad, DNI, NIE veya pasaport, uyruk, adres, telefon, e-posta ve eğitim düzeyi.",
+            "DNI, NIE veya pasaport numarası"
+          ]
+        },
+        {
+          "id": "malaga:seguridad-social-randevu-inss-tgss",
+          "sheet": "Yanıtlar",
+          "row": 104,
+          "sentences": [
+            "INSS için telefonla randevu almak istiyorsan 91 541 25 30 ya da 901 10 65 70'i ara; kimlik bilgilerin (DNI veya NIE) ve posta kodun elinin altında olsun.",
+            "Randevudan sonra sistem sana bir localizador verir; randevuyu değiştirmek ya da iptal etmek için aynı telefonda DNI/NIE ve localizador ile işlem yaparsın.",
+            "DNI veya NIE (telefonla randevuda)"
+          ]
+        },
+        {
+          "id": "malaga:nie-nedir-ne-ise-yarar",
+          "sheet": "Yanıtlar",
+          "row": 124,
+          "sentences": [
+            "NIE nedir, ne işe yarar ve nasıl istenir?",
+            "NIE, yabancılara verilen kimlik numarasıdır; harcı 9,84 euro",
+            "NIE (Número de Identidad de Extranjero, yabancı kimlik numarası), İspanya ile ekonomik, mesleki ya da sosyal bağı olan yabancıların Polis Genel Müdürlüğü'nden istemesi gereken numaradır."
+          ]
+        },
+        {
+          "id": "malaga:ab-vatandasi-kayit-sertifikasi",
+          "sheet": "Yanıtlar",
+          "row": 125,
+          "sentences": [
+            "Başvuruyu İspanya'ya girişinden itibaren üç ay içinde yaparsın; kayıt sertifikası hemen verilir ve üzerinde adın, uyruğun, adresin, NIE numaran ve kayıt tarihin yazar.",
+            "Málaga'da AB vatandaşı rejimi (Régimen Comunitario) işlemini il merkezindeki polis birimi yapar; adresi ve telefonu 'Málaga'da TIE (yabancı kimlik kartı) için hangi polis birimine başvurulur?' kartınd"
+          ]
+        },
+        {
+          "id": "malaga:dijital-gocebe-vizesi",
+          "sheet": "Yanıtlar",
+          "row": 132,
+          "sentences": [
+            "Başvuru anında NIE'ye sahip ol; başka dillerdeki belgeler yeminli tercümeyle, yabancı resmî belgeler ise onaylı ya da apostilli olmalı."
+          ]
+        },
+        {
+          "id": "malaga:brexit-sonrasi-ingiliz-oturumu",
+          "sheet": "Yanıtlar",
+          "row": 137,
+          "sentences": [
+            "Málaga'da TIE çıkaran polis biriminin adresi ve telefonu 'Málaga'da TIE (yabancı kimlik kartı) için hangi polis birimine başvurulur?' kartında, ilçe karakolları 'Marbella, Fuengirola, Vélez-Málaga ve "
+          ]
+        },
+        {
+          "id": "malaga:nie-basvurusu-polis-birimi",
+          "sheet": "Yanıtlar",
+          "row": 138,
+          "sentences": [
+            "Málaga'da NIE hangi polis biriminde alınır ve nelerle başvurulur?",
+            "Málaga'da NIE (yabancı kimlik numarası) işlemi için polis sitesinde listelenen birim, Brigada Provincial de Extranjería y Fronteras de Málaga'dır (il yabancılar ve sınır tugayı).",
+            "Manuel Azaña n.º 3, telefonu 952 04 64 68; NIE sertifikaları ve NIE ataması bu birimin işlemleri arasında sayılır."
+          ]
+        },
+        {
+          "id": "malaga:tie-karti-basvuru-birimi",
+          "sheet": "Yanıtlar",
+          "row": 139,
+          "sentences": [
+            "İl içindeki ilçe karakolları 'Marbella, Fuengirola, Vélez-Málaga ve Málaga ilinin diğer ilçelerinde NIE ve TIE işlemi nerede yapılır?' kartında."
+          ]
+        },
+        {
+          "id": "malaga:ilce-polis-birimlerinde-nie-tie",
+          "sheet": "Yanıtlar",
+          "row": 140,
+          "sentences": [
+            "Marbella, Fuengirola, Vélez-Málaga ve Málaga ilinin diğer ilçelerinde NIE ve TIE işlemi nerede yapılır?",
+            "Polis sitesindeki listede Marbella, Estepona, Torremolinos-Benalmádena, Fuengirola, Vélez-Málaga, Antequera ve Ronda karakollarının her biri için NIE sertifikası ve ataması, TIE çıkarma, AB vatandaşı ",
+            "NIE için EX15 formunu ve 790 kodu 012 harç belgesini karakola götür."
+          ]
+        },
+        {
+          "id": "malaga:entegrasyon-cabasi-raporu",
+          "sheet": "Yanıtlar",
+          "row": 143,
+          "sentences": [
+            "Sertifikada adın, NIE, program, toplam saat ve katıldığın saat yazmalı."
+          ]
+        },
+        {
+          "id": "malaga:malaga-agencia-tributaria-ofisleri-ve-renta-randevusu",
+          "sheet": "Yanıtlar",
+          "row": 162,
+          "sentences": [
+            "Randevu NIF/NIE ile ya da Cl@ve, referans numarası, elektronik DNI veya elektronik sertifikayla internetten ya da Agencia Tributaria uygulamasından alınıyordu."
+          ]
+        },
+        {
+          "id": "malaga:banka-hesabi-acarken-istenen-kimlik-ve-para-kaynagi-belgeleri",
+          "sheet": "Yanıtlar",
+          "row": 165,
+          "sentences": [
+            "AB vatandaşından pasaport ya da kimlik belgesi ve NIE, AB dışından yabancıdan TIE istenebilir; banka para kaynağı belgesi de isteyebilir",
+            "Banka hesap açarken önce kimliğini ister: AB vatandaşıysan pasaportun ya da ülkenin kimlik belgen NIE'nle birlikte istenebilir; AB dışından bir yabancıysan Tarjeta de Identidad de Extranjero (TIE) ver",
+            "Bankaya kimlik belgenle git: AB vatandaşıysan pasaportunu ya da ülkenin kimlik belgesini NIE'nle birlikte, AB dışından bir yabancıysan TIE'ni göster."
+          ]
+        },
+        {
+          "id": "malaga:ilk-gunlerde-nuss-ve-temel-odeme-hesabi",
+          "sheet": "Yanıtlar",
+          "row": 169,
+          "sentences": [
+            "NUSS'u istediğin zaman isteyebilirsin; başvuruda DNI ya da NIE, cep telefonu, e-posta ve mutat ikametgâh adresi gerekir",
+            "Sosyal güvenlik numaranı (NUSS, Número de la Seguridad Social) istediğin zaman isteyebilirsin; başvuruda kimlik bilgin (DNI ya da NIE), cep telefonu, e-posta ve mutat ikametgâh adresin gerekir.",
+            "NUSS yoksa kimlik bilgin (DNI ya da NIE), telefon, e-posta ve mutat ikametgâh adresinle başvur."
+          ]
+        },
+        {
+          "id": "malaga:vergi-numarasi-nif-nie-alma",
+          "sheet": "Yanıtlar",
+          "row": 192,
+          "sentences": [
+            "Vergi numarası (NIF) ve NIE nasıl alınır?",
+            "DNI ya da NIE'si olmayana NIF'i Agencia Tributaria atar; NIE ayrı bir numaradır ve harcı 9,84 euro",
+            "Vergi işlemleri için gereken NIF'i (vergi kimlik numarası), DNI ya da NIE'n yoksa Agencia Tributaria atar: Modelo 030 ile çevrimiçi istersin; DNI ya da NIE'n varsa NIF çoğunlukla zaten odur."
+          ]
+        },
+        {
+          "id": "malaga:clave-pin-ve-permanente-farki",
+          "sheet": "Yanıtlar",
+          "row": 193,
+          "sentences": [
+            "Cl@ve uygulaması (Cl@ve Móvil) işlem anında telefonuna gelen istekle kimliğini onaylatır; Cl@ve Permanente ise DNI ya da NIE'ne, kullanıcı koduna ve aktivasyonda kendin belirlediğin şifreye dayanır."
+          ]
+        },
+        {
+          "id": "malaga:clave-yuz-yuze-kayit-randevu-ve-gerekli-belgeler",
+          "sheet": "Yanıtlar",
+          "row": 206,
+          "sentences": [
+            "Yanında DNI'ni (geçerlilik tarihiyle) ya da NIE'ni (düzenleme tarihiyle), cep telefonu numaranı ve e-posta adresini götürürsün; yabancılar kimliklerini ülkelerinin yetkili makamlarınca verilmiş pasapo",
+            "DNI (geçerlilik tarihiyle) ya da NIE (düzenleme tarihiyle)"
+          ]
+        },
+        {
+          "id": "malaga:endulus-saglik-karti-tarjeta-sanitaria-ve-aile-hekimi-secimi",
+          "sheet": "Yanıtlar",
+          "row": 216,
+          "sentences": [
+            "İlk kart sağlık merkezinde başvuruyla alınır, yabancı sakinde NIE gerekir; hekim seçimi merkezde ya da Cl@ve gibi güvenli kimlikle çevrim içi yapılır",
+            "Kartı, Endülüs'te mutat olarak oturan ve kamu sağlık kapsamı INSS tarafından tanınmış kişi alabilir; 14 yaşından büyüklerde DNI ya da yabancı sakinler için NIE gerekir.",
+            "Başvuru sahibinin DNI'ı (basılı ya da dijital) ya da yabancı sakinse NIE'si"
+          ]
+        },
+        {
+          "id": "malaga:endulus-yenidogan-saglik-karti-rupyna-inss-kaydi-ve-kart-yenileme",
+          "sheet": "Yanıtlar",
+          "row": 227,
+          "sentences": [
+            "Yukarıdaki kayıt adımları Endülüs'teki bir hastanede doğan bebekler içindir; diğer durumlarda ilk kez başvuruda başvuru formu, DNI (yabancı residentlerde NIE) ve empadronamiento belgesiyle sağlık merk"
+          ]
+        },
+        {
+          "id": "malaga:endulus-convenio-especial-basvurusu-nereye-hangi-belgelerle-ve-kapsam",
+          "sheet": "Yanıtlar",
+          "row": 228,
+          "sentences": [
+            "Kimlik belgesi: DNI, NIE ya da pasaport"
+          ]
+        },
+        {
+          "id": "malaga:term:006",
+          "sheet": "Sözlük",
+          "row": 13,
+          "sentences": [
+            "NIE (Número de Identidad de Extranjero)"
+          ]
+        },
+        {
+          "id": "malaga:term:007",
+          "sheet": "Sözlük",
+          "row": 14,
+          "sentences": [
+            "NIE ve sertifika başvurusunda kullanılan form EX-15 ile ödeme belgesi olan 790 numaralı harç (modelo 790, código 012)."
+          ]
+        },
+        {
+          "id": "malaga:term:017",
+          "sheet": "Sözlük",
+          "row": 24,
+          "sentences": [
+            "Vergi açısından önem taşıyan işlem yapan gerçek kişinin NIF'i olmalıdır; genelde DNI ya da NIE ile aynıdır."
+          ]
+        },
+        {
+          "id": "malaga:term:038",
+          "sheet": "Sözlük",
+          "row": 45,
+          "sentences": [
+            "Başvuran 18 yaşından büyük olmalı, geçerli DNI ya da NIE'ye sahip olmalı, Málaga belediyesinde kayıtlı olmalı ve konutun su ya da kanalizasyon sözleşmesinin sahibi olmalıdır."
+          ]
+        },
+        {
+          "id": "malaga:step:5",
+          "sheet": "Adımlar",
+          "row": 12,
+          "sentences": [
+            "Kimlik bilgin (DNI ya da NIE), cep telefonun, e-postan ve mutat ikametgâh adresinle NUSS iste; daha önce çalıştıysan ya da Seguro Escolar kapsamında olduysan numaran zaten atanmış olabilir."
+          ]
+        },
+        {
+          "id": "malaga:step:6",
+          "sheet": "Adımlar",
+          "row": 13,
+          "sentences": [
+            "Endülüs sağlık kartı (tarjeta sanitaria) için başvuru formunu, kimlik belgeni (DNI ya da NIE) ve empadronamiento belgeni bir sağlık merkezine ver; başvuruda sana merkez ve aile hekimi atanır."
+          ]
+        }
+      ]
+    },
+    {
+      "anchor": "tie",
+      "kind": "sozluk",
+      "farkli_deger": [
+        "ucret"
+      ],
+      "values": {
+        "sure": [
+          "1 ay"
+        ],
+        "ucret": [
+          "12 €",
+          "12,00 €",
+          "16,08 €",
+          "16,40 €",
+          "19,30 €",
+          "21,87 €",
+          "81,54 €",
+          "9,84 €"
+        ]
+      },
+      "mentions": [
+        {
+          "id": "malaga:ingreso-minimo-vital-ve-cocuk-destegi",
+          "sheet": "Yanıtlar",
+          "row": 10,
+          "sentences": [
+            "Kimlik olarak ülkenin kimlik belgesi, yabancı kimlik kartı (TIE) ya da pasaportunu ver; NIE belgelerde yoksa ayrıca ver.",
+            "Kimlik belgesi: ülkenin kimlik belgesi, yabancı kimlik kartı (TIE) ya da pasaport (ve NIE)"
+          ]
+        },
+        {
+          "id": "malaga:issizlik-maasi-paro-sepe-basvurusu",
+          "sheet": "Yanıtlar",
+          "row": 89,
+          "sentences": [
+            "AB dışı vatandaş: fotoğraflı TIE (pasaportu da yanında bulundur)"
+          ]
+        },
+        {
+          "id": "malaga:ab-vatandasi-kayit-sertifikasi",
+          "sheet": "Yanıtlar",
+          "row": 125,
+          "sentences": [
+            "Málaga'da AB vatandaşı rejimi (Régimen Comunitario) işlemini il merkezindeki polis birimi yapar; adresi ve telefonu 'Málaga'da TIE (yabancı kimlik kartı) için hangi polis birimine başvurulur?' kartınd"
+          ]
+        },
+        {
+          "id": "malaga:tie-yabanci-kimlik-karti",
+          "sheet": "Yanıtlar",
+          "row": 126,
+          "sentences": [
+            "TIE (yabancı kimlik kartı) nasıl alınır, ne zamana kadar başvurulur?",
+            "Altı aydan uzun süreli bir vizen ya da izninin olması halinde TIE (Tarjeta de Identidad de Extranjero, yabancı kimlik kartı) hem hakkın hem yükümlülüğündür.",
+            "Güncel resmî tarifeye göre harç: ilk TIE 16,08 euro, yenileme TIE'si 19,30 euro, uzun süreli ikamet TIE'si 21,87 euro."
+          ]
+        },
+        {
+          "id": "malaga:oturum-izni-yenileme",
+          "sheet": "Yanıtlar",
+          "row": 128,
+          "sentences": [
+            "Yenileme başvurusu için 16,40 euro ve yenilenen kartın (TIE) basımı için 19,30 euro harç ödersin; çalışma iznini yeniliyorsan ayrıca 81,54 euro çalışma izni harcı vardır: ücretli çalışmada bunu işvere",
+            "Yenileme kararı bildirilince bir ay içinde yetkili polis karakoluna şahsen gidip yenilenen kartını (TIE) iste.",
+            "Harçları ayrı öde: yenileme başvurusu için 16,40 euro, yenilenen kart (TIE) için 19,30 euro."
+          ]
+        },
+        {
+          "id": "malaga:kalici-oturum-bes-yil",
+          "sheet": "Yanıtlar",
+          "row": 130,
+          "sentences": [
+            "Önce izin için yabancılar ofisine başvurulur, kimlik kartı (TIE) izin verildikten sonra ayrıca alınır",
+            "İzin verildikten sonra kimlik kartını (TIE) ayrıca polis karakolundan ya da yabancılar ofisinden istersin.",
+            "İzin verilince bir ay içinde şahsen polis karakolundan ya da yabancılar ofisinden kimlik kartını (TIE) iste."
+          ]
+        },
+        {
+          "id": "malaga:kar-amaci-gutmeyen-oturum-vizesi",
+          "sheet": "Yanıtlar",
+          "row": 133,
+          "sentences": [
+            "Vize verildikten sonra İspanya'ya girişinden itibaren 1 ay içinde yabancılar ofisinde ya da polis karakolunda kimlik kartını (TIE) iste."
+          ]
+        },
+        {
+          "id": "malaga:brexit-sonrasi-ingiliz-oturumu",
+          "sheet": "Yanıtlar",
+          "row": 137,
+          "sentences": [
+            "Güncel resmî tarifeye göre 12,00 euro (Çekilme Anlaşması kapsamındaki TIE).",
+            "Málaga'da TIE çıkaran polis biriminin adresi ve telefonu 'Málaga'da TIE (yabancı kimlik kartı) için hangi polis birimine başvurulur?' kartında, ilçe karakolları 'Marbella, Fuengirola, Vélez-Málaga ve "
+          ]
+        },
+        {
+          "id": "malaga:tie-karti-basvuru-birimi",
+          "sheet": "Yanıtlar",
+          "row": 139,
+          "sentences": [
+            "Málaga'da TIE (yabancı kimlik kartı) için hangi polis birimine başvurulur?",
+            "Manuel Azaña n.º 3; EX17 formuyla başvurulur, ilk TIE harcı 16,08 euro",
+            "Polis sitesinin Málaga listesinde TIE (Tarjeta de Identidad de Extranjero, yabancı kimlik kartı) çıkarma (Expedición TIE) işlemi Brigada Provincial de Extranjería y Fronteras de Málaga'da yürütülür; a"
+          ]
+        },
+        {
+          "id": "malaga:ilce-polis-birimlerinde-nie-tie",
+          "sheet": "Yanıtlar",
+          "row": 140,
+          "sentences": [
+            "Marbella, Fuengirola, Vélez-Málaga ve Málaga ilinin diğer ilçelerinde NIE ve TIE işlemi nerede yapılır?",
+            "Polis sitesindeki listede Marbella, Estepona, Torremolinos-Benalmádena, Fuengirola, Vélez-Málaga, Antequera ve Ronda karakollarının her biri için NIE sertifikası ve ataması, TIE çıkarma, AB vatandaşı ",
+            "TIE için EX17 formunu ve 790 kodu 012 harç belgesini karakola götür."
+          ]
+        },
+        {
+          "id": "malaga:entegrasyon-cabasi-raporu",
+          "sheet": "Yanıtlar",
+          "row": 143,
+          "sentences": [
+            "Normalleştirilmiş başvuru formunu doldur; TIE'ni (eklemiyorsan oturum izninin verildiği ya da yenilendiği kararı), empadronamiento belgeni ve sertifikalarını ekle; yasal temsilcin varsa onun DNI'sini ",
+            "TIE (yabancı kimlik kartı); eklemiyorsan geçici oturum izninin verildiği ya da yenilendiği karar",
+            "Empadronamiento belgesi (kimlik verisinin sorgulanmasına açıkça izin verirsen TIE ve empadronamiento belgesi eklenmez)"
+          ]
+        },
+        {
+          "id": "malaga:banka-hesabi-acarken-istenen-kimlik-ve-para-kaynagi-belgeleri",
+          "sheet": "Yanıtlar",
+          "row": 165,
+          "sentences": [
+            "AB vatandaşından pasaport ya da kimlik belgesi ve NIE, AB dışından yabancıdan TIE istenebilir; banka para kaynağı belgesi de isteyebilir",
+            "Banka hesap açarken önce kimliğini ister: AB vatandaşıysan pasaportun ya da ülkenin kimlik belgen NIE'nle birlikte istenebilir; AB dışından bir yabancıysan Tarjeta de Identidad de Extranjero (TIE) ver",
+            "Bankaya kimlik belgenle git: AB vatandaşıysan pasaportunu ya da ülkenin kimlik belgesini NIE'nle birlikte, AB dışından bir yabancıysan TIE'ni göster."
+          ]
+        },
+        {
+          "id": "malaga:tasinma-oncesi-vize-ve-ilk-oturum-izni",
+          "sheet": "Yanıtlar",
+          "row": 167,
+          "sentences": [
+            "Süreç dört adımda ilerler: BLS International ofisinde randevulu başvuru, makbuzdaki kodla dosya takibi, vizeyi şahsen teslim alma ve İspanya'ya girdikten sonra 1 ay içinde yabancı kimlik kartı (TIE, T",
+            "İspanya'ya girdiğin tarihten itibaren 1 ay içinde Oficina de Extranjeros'a (yabancılar bürosu) ya da ilgili Comisaría de Policía'ya başvurup TIE iste."
+          ]
+        },
+        {
+          "id": "malaga:ab-disindan-gelirken-esya-ve-nakit-gumruk-beyani",
+          "sheet": "Yanıtlar",
+          "row": 170,
+          "sentences": [
+            "Eski ikametinden kayıt silme belgeni, TIE başvurunu ya da kartını ve eşya listeni hazırla; önceki ikametini göstermek için herhangi bir belge kullanılabilir.",
+            "TIE başvurusu ya da TIE kartı (AB ve AEA dışı uyruklular için)"
+          ]
+        },
+        {
+          "id": "malaga:ehliyet-degisimi-canje-dgt-cevrimici-basvuru-ve-jefatura-teslimi",
+          "sheet": "Yanıtlar",
+          "row": 207,
+          "sentences": [
+            "İkamet kanıtı: DNI, TIE veya AB vatandaşı kayıt sertifikası",
+            "Ehliyeti İspanya'da oturmuyorken aldığını gösteren belge: yabancı kimlik/oturum kartı (TIE) ya da öğrenci kartı ya da yabancılar sicilinde kayıt belgesi (bunlardan biri)"
+          ]
+        },
+        {
+          "id": "malaga:term:008",
+          "sheet": "Sözlük",
+          "row": 15,
+          "sentences": [
+            "TIE (Tarjeta de Identidad de Extranjero)",
+            "İlk oturum izni, yenileme gibi her işlem türü için ayrı bir TIE işlemi ve harcı vardır."
+          ]
+        }
+      ]
+    },
+    {
+      "anchor": "790-012",
+      "kind": "kod",
+      "farkli_deger": [
+        "ucret"
+      ],
+      "values": {
+        "tarih": [
+          "2 temmuz"
+        ],
+        "ucret": [
+          "12,00 €",
+          "16,08 €",
+          "19,30 €",
+          "21,87 €",
+          "9,84 €"
+        ]
+      },
+      "mentions": [
+        {
+          "id": "malaga:nie-nedir-ne-ise-yarar",
+          "sheet": "Yanıtlar",
+          "row": 124,
+          "sentences": [
+            "Dilekçe EX15 formu ve 790 kodu 012 harç belgesiyle verilir; NIE harcı 9,84 euro'dur.",
+            "790 kodu 012 harç belgesini al ve 9,84 euro harcı öde; harç, hesabın olmasa da bankalarda ve tasarruf kasalarında ödenir.",
+            "790 kodu 012 harç ödeme belgesi"
+          ]
+        },
+        {
+          "id": "malaga:ab-vatandasi-kayit-sertifikasi",
+          "sheet": "Yanıtlar",
+          "row": 125,
+          "sentences": [
+            "790 kodu 012 harç belgesini al ve kayıt sertifikası için 12,00 euro harcı öde.",
+            "790 kodu 012 harç ödeme belgesi"
+          ]
+        },
+        {
+          "id": "malaga:tie-yabanci-kimlik-karti",
+          "sheet": "Yanıtlar",
+          "row": 126,
+          "sentences": [
+            "790 kodu 012 harç ödeme belgesi"
+          ]
+        },
+        {
+          "id": "malaga:brexit-sonrasi-ingiliz-oturumu",
+          "sheet": "Yanıtlar",
+          "row": 137,
+          "sentences": [
+            "2 Temmuz 2020 tarihli ortak talimata göre, elinde geçici ya da kalıcı kayıt sertifikası (certificado de registro) varsa tek adımda polis birimine EX23 formu, geçerli pasaport, 790 kodu 012 harç belges",
+            "Tek adımda EX23 formunu, geçerli pasaportunu (süresi dolduysa kopyasını ve yenileme başvurusunu), 790 kodu 012 harç belgesini (12,00 euro) ve kimlik belgesi kurallarına uygun fotoğrafı götür.",
+            "Karar en çok üç ay içinde bildirilir; bildirimden sonra bir ay içinde polis birimine şahsen gidip EX23 formu, pasaport, 790 kodu 012 harç belgesi ve fotoğrafla belgeni iste."
+          ]
+        },
+        {
+          "id": "malaga:nie-basvurusu-polis-birimi",
+          "sheet": "Yanıtlar",
+          "row": 138,
+          "sentences": [
+            "Dosyada EX15 formu ve 790 kodu 012 harç belgesi olur; güncel polis tarifesine göre NIE harcı 9,84 euro.",
+            "790 kodu 012 harç belgesini doldur ve 9,84 euro NIE harcını öde.",
+            "790 kodu 012 harç ödeme belgesi (Justificante de pago)"
+          ]
+        },
+        {
+          "id": "malaga:tie-karti-basvuru-birimi",
+          "sheet": "Yanıtlar",
+          "row": 139,
+          "sentences": [
+            "Başvuru EX17 formuyla yapılır ve yanında 790 kodu 012 harç belgesi gerekir.",
+            "790 kodu 012 harç belgesini doldur ve harcı öde: ilk TIE 16,08 euro, yenileme TIE'si 19,30 euro, uzun süreli ikamet TIE'si 21,87 euro.",
+            "Ödenmiş 790 kodu 012 harç belgesi (ilk TIE, yenileme TIE'si ya da uzun süreli ikamet TIE'si için tutar farklıdır)"
+          ]
+        },
+        {
+          "id": "malaga:ilce-polis-birimlerinde-nie-tie",
+          "sheet": "Yanıtlar",
+          "row": 140,
+          "sentences": [
+            "NIE için EX15 formunu ve 790 kodu 012 harç belgesini karakola götür.",
+            "TIE için EX17 formunu ve 790 kodu 012 harç belgesini karakola götür.",
+            "NIE ve TIE için 790 kodu 012 harç ödeme belgesi"
+          ]
+        },
+        {
+          "id": "malaga:term:007",
+          "sheet": "Sözlük",
+          "row": 14,
+          "sentences": [
+            "Formulario EX-15 ve tasa modelo 790 código 012"
+          ]
+        }
+      ]
+    },
+    {
+      "anchor": "dgt",
+      "kind": "sozluk",
+      "farkli_deger": [
+        "ucret"
+      ],
+      "values": {
+        "sure": [
+          "3 ay"
+        ],
+        "ucret": [
+          "27,85 €",
+          "99,77 €"
+        ]
+      },
+      "mentions": [
+        {
+          "id": "malaga:yabanci-ehliyet-degisimi",
+          "sheet": "Yanıtlar",
+          "row": 199,
+          "sentences": [
+            "Türk ehliyeti İspanya'da hangi sınıflarda ve hangi koşullarla değiştirilebilir (DGT)?",
+            "Türk C, D ve E sınıflarının İspanyol karşılıkları arasında C1, C, D1, D ve +E sınıfları da bulunur; anlaşma metnine göre bunlar için hem özel bilgi (teorik) sınavı hem trafikte sürüş sınavı gerekir; D",
+            "Türk A2 ve B sınıflarında değişim sınavsızdır; C1, C, D1, D ve +E karşılıklarında anlaşma metnine göre özel bilgi sınavına ve trafikte sürüş sınavına girersin; DGT genellikle pratik sınavı, bazı durum"
+          ]
+        },
+        {
+          "id": "malaga:arac-kaydi-ulusal-cerceve",
+          "sheet": "Yanıtlar",
+          "row": 200,
+          "sentences": [
+            "DGT'nin tescil işlemi için azami süresi 3 aydır; bu sürede cevap gelmezse işlem yapılmamıştır, idari sessizlik olumsuz sayılır.",
+            "Aracın elektronik ITV kartı (ficha ITV electrónica) olup olmadığına bak; yalnız kâğıt kartı varsa DGT'nin genel başvuru formuyla başvurabilirsin, bunun için dijital DNI, geçerli elektronik sertifika y",
+            "DGT harcını öde; yeni araçta genel durumda çevrimiçi formdaki \"Pagar\" düğmesiyle ya da önceden aldığın tasa numarasıyla öde, yüz yüze başvuruda harcı kartla öde (nakit olmaz)."
+          ]
+        },
+        {
+          "id": "malaga:ehliyet-degisimi-canje-dgt-cevrimici-basvuru-ve-jefatura-teslimi",
+          "sheet": "Yanıtlar",
+          "row": 207,
+          "sentences": [
+            "DGT, Türkiye'yi önce ehliyetin ülkesince doğrulanmasını isteyen ülkeler arasında sayar: doğrulama olumlu gelince canje başvurusunu yaparsın; doğrulama e-postası günler, hatta haftalar sürebilir.",
+            "Türk ehliyetindeki sınıfların bu sınıflara karşılığı için 'Türk ehliyeti İspanya'da hangi sınıflarda ve hangi koşullarla değiştirilebilir (DGT)?' kartına bak.",
+            "DGT Sede Electrónica'ya Cl@ve ya da dijital sertifikanla gir, ehliyetin verildiği ülkeyi seç ve ehliyetinin geçerliliğinin doğrulanmasını iste."
+          ]
+        },
+        {
+          "id": "malaga:dusuk-emisyon-bolgesi-zbe-arabayla-girme-kurallari-malaga",
+          "sheet": "Yanıtlar",
+          "row": 247,
+          "sentences": [
+            "Belediyenin sayfasına göre vatandaşların (ciudadanía) DGT çevre etiketi taşıması zorunlu değil, çünkü bölge plaka tanıma kameralarıyla ve DGT ile belediye nüfus kaydı (padrón) verilerinden geliştirile",
+            "Aracının çevre etiketini DGT'nin sayfasındaki sorgulamayla öğren.",
+            "Aracın plakası ve DGT çevre etiketi bilgisi"
+          ]
+        },
+        {
+          "id": "malaga:term:047",
+          "sheet": "Sözlük",
+          "row": 54,
+          "sentences": [
+            "DGT (Dirección General de Tráfico)"
+          ]
+        },
+        {
+          "id": "malaga:term:049",
+          "sheet": "Sözlük",
+          "row": 56,
+          "sentences": [
+            "Tescil, araçla yolda dolaşmanın ön koşuludur; DGT tescil işlemini en çok 3 ay içinde yapar, bu sürede yanıt gelmezse işlem yapılmamış sayılır."
+          ]
+        },
+        {
+          "id": "malaga:term:050",
+          "sheet": "Sözlük",
+          "row": 57,
+          "sentences": [
+            "DGT çevre etiketini ayrıca edinmek zorunlu değildir; ancak bölgeye erişim aracın çevresel sınıflandırmasına göre denetlenir."
+          ]
+        }
+      ]
+    },
+    {
+      "anchor": "fianza",
+      "kind": "sozluk",
+      "farkli_deger": [
+        "sure"
+      ],
+      "values": {
+        "sure": [
+          "5 yil",
+          "7 yil"
+        ],
+        "tarih": [
+          "24 ocak"
+        ],
+        "ucret": [
+          "1,90 €"
+        ]
+      },
+      "mentions": [
+        {
+          "id": "malaga:kira-depozitosu-fianza-ve-iade",
+          "sheet": "Yanıtlar",
+          "row": 27,
+          "sentences": [
+            "İspanya'da kira depozitosu (fianza) ne kadardır ve nasıl geri alınır?",
+            "Konutta fianza bir aylık kiradır; bakiye anahtar tesliminden bir ay sonra iade edilmemişse yasal faiz işler; fianza dışında ek güvence de kararlaştırılabilir",
+            "Konutta fianza bir aylık kiradır ve sözleşme yapılırken para olarak verilmesi zorunludur."
+          ]
+        },
+        {
+          "id": "malaga:kiralik-evden-cikis-ve-ihbar-suresi",
+          "sheet": "Yanıtlar",
+          "row": 30,
+          "sentences": [
+            "Kiraya veren, çıkıştan sonra iade etmesi gereken fianza bakiyesini anahtar tesliminden itibaren bir ay içinde iade etmezse bakiye yasal faiz işler.",
+            "Anahtarları teslim ederken teslim tarihini not et; fianza bakiyesi bir ay içinde iade edilmezse yasal faiz işler."
+          ]
+        },
+        {
+          "id": "malaga:endulus-kira-depozitosu-fianza-avra-yatirma-zorunlulugu",
+          "sheet": "Yanıtlar",
+          "row": 32,
+          "sentences": [
+            "Endülüs'te kira depozitosu (fianza) AVRA'ya yatırılır mı: 24 Ocak 2026 öncesi ve sonrası sözleşmeler"
+          ]
+        },
+        {
+          "id": "malaga:kiraci-giderleri-aidat-ibi-cop-ve-faturalar",
+          "sheet": "Yanıtlar",
+          "row": 41,
+          "sentences": [
+            "Junta'ya göre sözleşme süreyi, fianza'yı, kirayı, giderleri ve sözleşmenin nasıl biteceğini açıkça yazmalıdır."
+          ]
+        },
+        {
+          "id": "malaga:emt-karti-nereden-alinir-ve-musteri-merkezi",
+          "sheet": "Yanıtlar",
+          "row": 187,
+          "sentences": [
+            "Kart satış ağındaki işyerlerinde ve Alameda Principal 47'deki müşteri merkezinde alınır; 1,90 euro fianza (depozito)",
+            "EMT otobüs kartını (bonobús, kişiselleştirilmemiş tarjeta bus) satış ağındaki işyerlerinden ya da Alameda Principal 47'deki (29001 Málaga) EMT Müşteri Hizmetleri Merkezi'nden (Centro de Atención al Cl",
+            "Kartı satış ağındaki bir işyerinden ya da Alameda Principal 47'deki EMT Müşteri Hizmetleri Merkezi'nden al; kart için 1,90 € fianza (depozito) ödersin ve işyeri sana makbuz verir."
+          ]
+        },
+        {
+          "id": "malaga:term:051",
+          "sheet": "Sözlük",
+          "row": 58,
+          "sentences": [
+            "Fianza (kira depozitosu)"
+          ]
+        },
+        {
+          "id": "malaga:term:052",
+          "sheet": "Sözlük",
+          "row": 59,
+          "sentences": [
+            "Sözleşmede süre, fianza, kira bedeli, giderler ve sona erme biçimi açıkça yazılmalıdır."
+          ]
+        }
+      ]
+    },
+    {
+      "anchor": "sepe",
+      "kind": "sozluk",
+      "farkli_deger": [
+        "sure"
+      ],
+      "values": {
+        "sure": [
+          "10 gun",
+          "15 gun",
+          "360 gun"
+        ],
+        "tarih": [
+          "17 agustos"
+        ]
+      },
+      "mentions": [
+        {
+          "id": "malaga:issizlik-maasi-paro-sepe-basvurusu",
+          "sheet": "Yanıtlar",
+          "row": 89,
+          "sentences": [
+            "İşsizlik ödeneği (paro) kimlere verilir, ne kadar sürer, SEPE'ye nasıl başvurulur?",
+            "Son 6 yılda en az 360 gün işsizlik primi ödediysen ve yasal olarak işsiz kaldıysan SEPE'den primli işsizlik ödeneği (prestación contributiva por desempleo) alabilirsin.",
+            "Başvuruyu son çalıştığın günden sonraki 15 iş günü içinde SEPE elektronik ofisinden, randevu alarak ödenek ofisinden, herhangi bir kamu kayıt ofisinden ya da idari postayla yap."
+          ]
+        },
+        {
+          "id": "malaga:endulus-sae-is-arayan-kaydi-demandante-de-empleo",
+          "sheet": "Yanıtlar",
+          "row": 94,
+          "sentences": [
+            "İşsizlik ödeneği için SEPE'ye başvuracaksan kaydı bundan önce yaptır."
+          ]
+        },
+        {
+          "id": "malaga:sepe-malaga-teatinos-ofisi",
+          "sheet": "Yanıtlar",
+          "row": 95,
+          "sentences": [
+            "Málaga'da işsizlik ödeneği için SEPE ofisi nerede, randevu nasıl alınır?",
+            "SEPE Málaga-Teatinos iş ofisi: C/ Kandinsky 26; randevu SEPE elektronik ofisinden ya da 2022'de duyurulan 91 926 79 70 hattından",
+            "SEPE'nin Málaga-Teatinos iş ofisi (Oficina de Empleo) C/ Kandinsky, 26, 29010 Málaga adresindedir; randevuyu (cita previa) 91 926 79 70 numaralı resmî telefondan ya da SEPE'nin elektronik ofisinden al"
+          ]
+        },
+        {
+          "id": "malaga:picasso-ve-thyssen-bilet-fiyati-indirim-ve-ucretsiz-kategoriler",
+          "sheet": "Yanıtlar",
+          "row": 107,
+          "sentences": [
+            "SEPE'ye (devlet iş kurumu) kayıtlı işsizler, Universidad de Málaga (UMA) öğrencileri ve engelliler iki müzeye de ücretsiz girer; Picasso'da engelli ziyaretçiyle bir refakatçi, öğretmenler, ICOM üyeler",
+            "SEPE kaydı, UMA öğrenci kartı, engellilik belgesi) yanında götür; Thyssen ücretsizliği belgeyle (con acreditación) tanır."
+          ]
+        },
+        {
+          "id": "malaga:term:021",
+          "sheet": "Sözlük",
+          "row": 28,
+          "sentences": [
+            "SEPE (Servicio Público de Empleo Estatal)"
+          ]
+        }
+      ]
+    },
+    {
+      "anchor": "cl ve",
+      "kind": "sozluk",
+      "farkli_deger": [],
       "values": {
         "sure": [
           "10 gun"
         ],
         "tarih": [
-          "00 agustos",
-          "26 mart"
+          "00 agustos"
         ]
       },
       "mentions": [
@@ -651,7 +1328,7 @@
           "sheet": "Yanıtlar",
           "row": 11,
           "sentences": [
-            "FP, bachillerato ve diğer üniversite dışı bursların başvurusu Bakanlığın elektronik şubesinden (sede electrónica) yapılır: Cl@ve ya da elektronik sertifikanla ya da şubeye kayıtlı kullanıcı adı ve şif"
+            "Üniversite bursu başvurusunu Bakanlığın elektronik şubesinden (sede electrónica) yap: Cl@ve ya da elektronik sertifikanla ya da şubeye kayıtlı kullanıcı adı ve şifrenle giriş yap, çevrimiçi formu dold"
           ]
         },
         {
@@ -672,14 +1349,6 @@
           ]
         },
         {
-          "id": "malaga:telekom-sozlesmesi-asgari-icerik-ve-sozlesme-oncesi-kosullar",
-          "sheet": "Yanıtlar",
-          "row": 64,
-          "sentences": [
-            "Oficina'ya başvuruyu elektronik sertifikan ya da Cl@ve ile internetten yap; kâğıtla yapacaksan imzalı formu herhangi bir idare kaydına ya da Paseo de la Castellana 162, 28020 Madrid adresine ilet."
-          ]
-        },
-        {
           "id": "malaga:serbest-calisan-autonomo-kayit-ve-prim-tablosu",
           "sheet": "Yanıtlar",
           "row": 91,
@@ -694,7 +1363,7 @@
           "row": 94,
           "sentences": [
             "Cl@ve veya dijital sertifikayla gönderirsen kaydın geçerli olur; kullanıcı adı ve şifreyle gönderirsen kimliğini doğrulamak için randevu alıp iş bürosunda (oficina de empleo) kaydı tamamlarsın.",
-            "Cl@ve veya dijital sertifikayla gönderdiysen kaydın geçerlidir."
+            "Cl@ve veya dijital sertifikayla gönderdiysen kaydın geçerlidir; danışmanlık için SAE'nin herhangi bir iş bürosundan randevu alabilirsin."
           ]
         },
         {
@@ -804,7 +1473,7 @@
           "sheet": "Yanıtlar",
           "row": 208,
           "sentences": [
-            "Adalet Bakanlığı'nın bazı belgeleri için elektronik apostili Cl@ve ile çevrimiçi de alabilirsin.",
+            "Málaga'dan Secretaría de Gobierno'ya başvurmak için belgeyi posta yoluyla Granada'ya (Plaza Nueva 10, 18071) gönderebilirsin; Adalet Bakanlığı'nın bazı belgeleri için elektronik apostili Cl@ve ile çev",
             "Adalet Bakanlığı belgelerinde çevrimiçi apostil için Bakanlığın sitesinde Cl@ve ile giriş yap."
           ]
         },
@@ -813,7 +1482,7 @@
           "sheet": "Yanıtlar",
           "row": 216,
           "sentences": [
-            "İlk kart yalnız sağlık merkezinde başvuruyla alınır; hekim seçimi merkezde ya da Cl@ve gibi güvenli kimlikle çevrim içi yapılır",
+            "İlk kart sağlık merkezinde başvuruyla alınır, yabancı sakinde NIE gerekir; hekim seçimi merkezde ya da Cl@ve gibi güvenli kimlikle çevrim içi yapılır",
             "Aile hekimini ve merkezi, evinin bağlı olduğu sağlık bölgesindeki (distrito sanitario) profesyoneller arasından seçersin; merkezde başvurursan yanıt 45 günden önce gelir, Cl@ve, dijital sertifika ya d",
             "Cl@ve, dijital sertifika ya da e-DNI'ın varsa seçimi ClicSalud+ üzerinden yap, hekim değişikliği hemen işlenir; atama belgesini yazdır ya da kaydet."
           ]
@@ -871,238 +1540,12 @@
       ]
     },
     {
-      "anchor": "tie",
-      "kind": "sozluk",
-      "farkli_deger": [
-        "ucret"
-      ],
-      "values": {
-        "sure": [
-          "1 ay"
-        ],
-        "ucret": [
-          "12 €",
-          "12,00 €",
-          "16,08 €",
-          "16,40 €",
-          "19,30 €",
-          "21,87 €",
-          "81,54 €"
-        ]
-      },
-      "mentions": [
-        {
-          "id": "malaga:ingreso-minimo-vital-ve-cocuk-destegi",
-          "sheet": "Yanıtlar",
-          "row": 10,
-          "sentences": [
-            "Kimlik olarak ülkenin kimlik belgesi, yabancı kimlik kartı (TIE) ya da pasaportunu ver; NIE belgelerde yoksa ayrıca ver.",
-            "Kimlik belgesi: ülkenin kimlik belgesi, yabancı kimlik kartı (TIE) ya da pasaport (ve NIE)"
-          ]
-        },
-        {
-          "id": "malaga:issizlik-maasi-paro-sepe-basvurusu",
-          "sheet": "Yanıtlar",
-          "row": 89,
-          "sentences": [
-            "AB dışı vatandaş: fotoğraflı TIE (pasaportu da yanında bulundur)"
-          ]
-        },
-        {
-          "id": "malaga:tie-yabanci-kimlik-karti",
-          "sheet": "Yanıtlar",
-          "row": 126,
-          "sentences": [
-            "TIE (yabancı kimlik kartı) nasıl alınır, ne zamana kadar başvurulur?",
-            "Altı aydan uzun süreli bir vizen ya da izninin olması halinde TIE (Tarjeta de Identidad de Extranjero, yabancı kimlik kartı) hem hakkın hem yükümlülüğündür.",
-            "Güncel resmî tarifeye göre harç: ilk TIE 16,08 euro, yenileme TIE'si 19,30 euro, uzun süreli ikamet TIE'si 21,87 euro."
-          ]
-        },
-        {
-          "id": "malaga:oturum-izni-yenileme",
-          "sheet": "Yanıtlar",
-          "row": 128,
-          "sentences": [
-            "Yenileme başvurusu için 16,40 euro ve yenilenen kartın (TIE) basımı için 19,30 euro harç ödersin; çalışma iznini yeniliyorsan ayrıca 81,54 euro çalışma izni harcı vardır: ücretli çalışmada bunu işvere",
-            "Yenileme kararı bildirilince bir ay içinde yetkili polis karakoluna şahsen gidip yenilenen kartını (TIE) iste.",
-            "Harçları ayrı öde: yenileme başvurusu için 16,40 euro, yenilenen kart (TIE) için 19,30 euro."
-          ]
-        },
-        {
-          "id": "malaga:kalici-oturum-bes-yil",
-          "sheet": "Yanıtlar",
-          "row": 130,
-          "sentences": [
-            "Önce izin için yabancılar ofisine başvurulur, kimlik kartı (TIE) izin verildikten sonra ayrıca alınır",
-            "İzin verildikten sonra kimlik kartını (TIE) ayrıca polis karakolundan ya da yabancılar ofisinden istersin.",
-            "İzin verilince bir ay içinde şahsen polis karakolundan ya da yabancılar ofisinden kimlik kartını (TIE) iste."
-          ]
-        },
-        {
-          "id": "malaga:kar-amaci-gutmeyen-oturum-vizesi",
-          "sheet": "Yanıtlar",
-          "row": 133,
-          "sentences": [
-            "Vize verildikten sonra İspanya'ya girişinden itibaren 1 ay içinde yabancılar ofisinde ya da polis karakolunda kimlik kartını (TIE) iste."
-          ]
-        },
-        {
-          "id": "malaga:brexit-sonrasi-ingiliz-oturumu",
-          "sheet": "Yanıtlar",
-          "row": 137,
-          "sentences": [
-            "Güncel resmî tarifeye göre 12,00 euro (Çekilme Anlaşması kapsamındaki TIE)."
-          ]
-        },
-        {
-          "id": "malaga:tie-karti-basvuru-birimi",
-          "sheet": "Yanıtlar",
-          "row": 139,
-          "sentences": [
-            "Málaga'da TIE (yabancı kimlik kartı) için hangi polis birimine başvurulur?",
-            "TIE (Tarjeta de Identidad de Extranjero, yabancı kimlik kartı) başvurusunu, ilk kart ya da yenileme olarak oturum veya oturum+çalışma izni sahipleri için herhangi bir yabancılar ofisine (Oficina de Ex",
-            "Polis sitesinin Málaga listesinde TIE çıkarma (Expedición TIE) işlemi Brigada Provincial de Extranjería y Fronteras de Málaga'da yürütülür; adresi Pl."
-          ]
-        },
-        {
-          "id": "malaga:ilce-polis-birimlerinde-nie-tie",
-          "sheet": "Yanıtlar",
-          "row": 140,
-          "sentences": [
-            "Marbella, Fuengirola, Vélez-Málaga ve Málaga ilinin diğer ilçelerinde NIE ve TIE işlemi nerede yapılır?",
-            "Polis sitesindeki listede Marbella, Estepona, Torremolinos-Benalmádena, Fuengirola, Vélez-Málaga, Antequera ve Ronda karakollarının her biri için NIE sertifikası ve ataması, TIE çıkarma, AB vatandaşı ",
-            "TIE için gereken form ve belgeyi 'Málaga'da TIE (yabancı kimlik kartı) için hangi polis birimine başvurulur?' kartında bul; TIE resmî sayfasına aşağıdaki bağlantıdan da ulaşırsın."
-          ]
-        },
-        {
-          "id": "malaga:entegrasyon-cabasi-raporu",
-          "sheet": "Yanıtlar",
-          "row": 143,
-          "sentences": [
-            "Normalleştirilmiş başvuru formunu doldur; TIE'ni (eklemiyorsan oturum izninin verildiği ya da yenilendiği kararı), empadronamiento belgeni ve sertifikalarını ekle; yasal temsilcin varsa onun DNI'sini ",
-            "TIE (yabancı kimlik kartı); eklemiyorsan geçici oturum izninin verildiği ya da yenilendiği karar",
-            "Empadronamiento belgesi (kimlik verisinin sorgulanmasına açıkça izin verirsen TIE ve empadronamiento belgesi eklenmez)"
-          ]
-        },
-        {
-          "id": "malaga:banka-hesabi-acarken-istenen-kimlik-ve-para-kaynagi-belgeleri",
-          "sheet": "Yanıtlar",
-          "row": 165,
-          "sentences": [
-            "AB vatandaşından pasaport ya da kimlik belgesi ve NIE, AB dışından yabancıdan TIE istenebilir; banka para kaynağı belgesi de isteyebilir",
-            "Banka hesap açarken önce kimliğini ister: AB vatandaşıysan pasaportun ya da ülkenin kimlik belgen NIE'nle birlikte istenebilir; AB dışından bir yabancıysan Tarjeta de Identidad de Extranjero (TIE) ver",
-            "Bankaya kimlik belgenle git: AB vatandaşıysan pasaportunu ya da ülkenin kimlik belgesini NIE'nle birlikte, AB dışından bir yabancıysan TIE'ni göster."
-          ]
-        },
-        {
-          "id": "malaga:tasinma-oncesi-vize-ve-ilk-oturum-izni",
-          "sheet": "Yanıtlar",
-          "row": 167,
-          "sentences": [
-            "İspanya'ya girdikten sonra 1 ay içinde yabancı kimlik kartını (TIE, Tarjeta de Identidad de Extranjero) istemen gerekir.",
-            "İspanya'ya girdiğin tarihten itibaren 1 ay içinde Oficina de Extranjeros'a (yabancılar bürosu) ya da ilgili Comisaría de Policía'ya başvurup TIE iste."
-          ]
-        },
-        {
-          "id": "malaga:ab-disindan-gelirken-esya-ve-nakit-gumruk-beyani",
-          "sheet": "Yanıtlar",
-          "row": 170,
-          "sentences": [
-            "Eski ikametinden kayıt silme belgeni, TIE başvurunu ya da kartını ve eşya listeni hazırla; önceki ikametini göstermek için herhangi bir belge kullanılabilir.",
-            "TIE başvurusu ya da TIE kartı (AB ve AEA dışı uyruklular için)"
-          ]
-        },
-        {
-          "id": "malaga:ehliyet-degisimi-canje-dgt-cevrimici-basvuru-ve-jefatura-teslimi",
-          "sheet": "Yanıtlar",
-          "row": 207,
-          "sentences": [
-            "İkamet kanıtı: DNI, TIE veya AB vatandaşı kayıt sertifikası",
-            "Ehliyeti İspanya'da oturmuyorken aldığını gösteren belge: yabancı kimlik/oturum kartı (TIE) ya da öğrenci kartı ya da yabancılar sicilinde kayıt belgesi (bunlardan biri)"
-          ]
-        },
-        {
-          "id": "malaga:term:008",
-          "sheet": "Sözlük",
-          "row": 15,
-          "sentences": [
-            "TIE (Tarjeta de Identidad de Extranjero)",
-            "İlk oturum izni, yenileme gibi her işlem türü için ayrı bir TIE işlemi ve harcı vardır."
-          ]
-        }
-      ]
-    },
-    {
-      "anchor": "sepe",
-      "kind": "sozluk",
-      "farkli_deger": [
-        "sure"
-      ],
-      "values": {
-        "sure": [
-          "10 gun",
-          "15 gun",
-          "360 gun"
-        ],
-        "tarih": [
-          "17 agustos"
-        ]
-      },
-      "mentions": [
-        {
-          "id": "malaga:issizlik-maasi-paro-sepe-basvurusu",
-          "sheet": "Yanıtlar",
-          "row": 89,
-          "sentences": [
-            "İşsizlik ödeneği (paro) kimlere verilir, ne kadar sürer, SEPE'ye nasıl başvurulur?",
-            "Son 6 yılda en az 360 gün işsizlik primi ödediysen ve yasal olarak işsiz kaldıysan SEPE'den primli işsizlik ödeneği (prestación contributiva por desempleo) alabilirsin.",
-            "Başvuruyu son çalıştığın günden sonraki 15 iş günü içinde SEPE elektronik ofisinden, randevu alarak ödenek ofisinden, herhangi bir kamu kayıt ofisinden ya da idari postayla yap."
-          ]
-        },
-        {
-          "id": "malaga:endulus-sae-is-arayan-kaydi-demandante-de-empleo",
-          "sheet": "Yanıtlar",
-          "row": 94,
-          "sentences": [
-            "İşsizlik ödeneği için SEPE'ye başvuracaksan kaydı bundan önce yaptır."
-          ]
-        },
-        {
-          "id": "malaga:sepe-malaga-teatinos-ofisi",
-          "sheet": "Yanıtlar",
-          "row": 95,
-          "sentences": [
-            "Málaga'da işsizlik ödeneği için SEPE ofisi nerede, randevu nasıl alınır?",
-            "SEPE Málaga-Teatinos iş ofisi: C/ Kandinsky 26; randevu için 91 926 79 70 ya da SEPE elektronik ofisi",
-            "SEPE'nin Málaga-Teatinos iş ofisi (Oficina de Empleo) C/ Kandinsky, 26, 29010 Málaga adresindedir; randevuyu (cita previa) 91 926 79 70 numaralı resmî telefondan ya da SEPE'nin elektronik ofisinden al"
-          ]
-        },
-        {
-          "id": "malaga:picasso-ve-thyssen-bilet-fiyati-indirim-ve-ucretsiz-kategoriler",
-          "sheet": "Yanıtlar",
-          "row": 107,
-          "sentences": [
-            "SEPE'ye (devlet iş kurumu) kayıtlı işsizler, Universidad de Málaga (UMA) öğrencileri ve engelliler iki müzeye de ücretsiz girer; Picasso'da engelli ziyaretçiyle bir refakatçi, öğretmenler, ICOM üyeler",
-            "SEPE kaydı, UMA öğrenci kartı, engellilik belgesi) yanında götür; Thyssen ücretsizliği belgeyle (con acreditación) tanır."
-          ]
-        },
-        {
-          "id": "malaga:term:021",
-          "sheet": "Sözlük",
-          "row": 28,
-          "sentences": [
-            "SEPE (Servicio Público de Empleo Estatal)"
-          ]
-        }
-      ]
-    },
-    {
-      "anchor": "nie",
+      "anchor": "libro de familia",
       "kind": "sozluk",
       "farkli_deger": [],
       "values": {
-        "ucret": [
-          "9,84 €"
+        "tarih": [
+          "30 nisan"
         ]
       },
       "mentions": [
@@ -1111,17 +1554,44 @@
           "sheet": "Yanıtlar",
           "row": 10,
           "sentences": [
-            "Kimlik olarak ülkenin kimlik belgesi, yabancı kimlik kartı (TIE) ya da pasaportunu ver; NIE belgelerde yoksa ayrıca ver.",
-            "Kimlik belgesi: ülkenin kimlik belgesi, yabancı kimlik kartı (TIE) ya da pasaport (ve NIE)"
+            "Çocukların için libro de familia ya da Registro Civil'in verdiği doğum belgesini ekle.",
+            "Libro de familia ya da Registro Civil doğum belgesi (çocuklar için)"
           ]
         },
         {
-          "id": "malaga:emasa-fondo-social-su-faturasi-yardimi",
+          "id": "malaga:okul-puanlama-olcutleri-kardes-adres-engel-ve-belgeler",
           "sheet": "Yanıtlar",
-          "row": 59,
+          "row": 15,
           "sentences": [
-            "Başvuru için 18 yaşından büyük, geçerli DNI/NIE sahibi, Málaga'da kayıtlı (empadronado) olmalı, yardım istenen konutun ev kullanımı su sözleşmesinin sahibi olmalısın.",
-            "Geçerli DNI/NIE"
+            "Verilerin alınmasına itiraz edersen tek ebeveynli aile durumunu, yazılı sayfaların tamamını içeren Libro de familia onaylı kopyasıyla kanıtlarsın.",
+            "Libro de familia onaylı kopyası (tek ebeveynli aile için verilerin alınmasına itiraz edersen; çoklu doğum)"
+          ]
+        },
+        {
+          "id": "malaga:dogan-bebegin-registro-civil-kaydi-sure-belge-ve-ucret",
+          "sheet": "Yanıtlar",
+          "row": 20,
+          "sentences": [
+            "Kayıtla birlikte Libro de Familia verilip verilmediği 'Libro de Familia (aile cüzdanı) nedir?' kartında anlatılır."
+          ]
+        },
+        {
+          "id": "malaga:malaga-registro-civil-ofisi-ve-bebegin-padron-kaydi",
+          "sheet": "Yanıtlar",
+          "row": 21,
+          "sentences": [
+            "Bebeğin kimliğini göster: DNI ya da pasaportu olmayan 14 yaş altı çocuk için İspanya'da düzenlenmiş doğum belgesi (certificado de nacimiento) ya da elinde varsa Libro de Familia yeterlidir.",
+            "Bebeğin kimliği: DNI ya da pasaportu yoksa doğum belgesi (certificado de nacimiento) ya da elinde varsa Libro de Familia",
+            "Libro de Familia'nın bugünkü durumu (yeni verilip verilmediği) 'Libro de Familia (aile cüzdanı) nedir?' kartında."
+          ]
+        },
+        {
+          "id": "malaga:korumali-konut-talep-sicili-registro-demandantes",
+          "sheet": "Yanıtlar",
+          "row": 35,
+          "sentences": [
+            "Yürürlükteki kimlik belgesinin fotokopisini ekle (18 yaş üstü her başvuran için); durumuna göre tam aile cüzdanı (libro de familia), boşanma ya da ayrılık kararı veya bağımlılık kararı gibi belgeleri ",
+            "Durumuna göre: tam aile cüzdanı (libro de familia), boşanma ya da ayrılık kararı, bağımlılık kararı"
           ]
         },
         {
@@ -1129,126 +1599,27 @@
           "sheet": "Yanıtlar",
           "row": 89,
           "sentences": [
-            "AB vatandaşı: pasaport ya da kimlik belgesi ile NIE'yi gösteren kayıt sertifikası (veya sürekli oturum sertifikası)"
+            "Çocuk varsa Libro de Familia ya da doğum veya aile sicil belgesi (yabancılarda resmî İspanyolca çevirili eşdeğeri)"
           ]
         },
         {
-          "id": "malaga:endulus-sae-is-arayan-kaydi-demandante-de-empleo",
+          "id": "malaga:caminito-del-rey-bilet-rezervasyonu-yas-siniri-servis-ve-otopark",
           "sheet": "Yanıtlar",
-          "row": 94,
+          "row": 114,
           "sentences": [
-            "Formda istenen bilgileri hazırla: ad soyad, DNI, NIE veya pasaport, uyruk, adres, telefon, e-posta ve eğitim düzeyi.",
-            "DNI, NIE veya pasaport numarası"
+            "8 yaşından küçükler giremez; resmî site, 8 yaşından büyük herkesten yaşını doğrulamak için orijinal DNI ya da Libro de Familia taşımasını istiyor.",
+            "8 yaşından büyük her katılımcı için resmî sitenin yaş doğrulaması amacıyla istediği orijinal DNI ya da Libro de Familia'yı götür; 8 yaşından küçükler yürüyüşe giremez.",
+            "8 yaşından büyük katılımcılar için orijinal DNI ya da Libro de Familia"
           ]
         },
         {
-          "id": "malaga:seguridad-social-randevu-inss-tgss",
+          "id": "malaga:libro-de-familia-nedir",
           "sheet": "Yanıtlar",
-          "row": 104,
+          "row": 197,
           "sentences": [
-            "INSS için telefonla randevu almak istiyorsan 91 541 25 30 ya da 901 10 65 70'i ara; kimlik bilgilerin (DNI veya NIE) ve posta kodun elinin altında olsun.",
-            "Randevudan sonra sistem sana bir localizador verir; randevuyu değiştirmek ya da iptal etmek için aynı telefonda DNI/NIE ve localizador ile işlem yaparsın.",
-            "DNI veya NIE (telefonla randevuda)"
-          ]
-        },
-        {
-          "id": "malaga:nie-nedir-ne-ise-yarar",
-          "sheet": "Yanıtlar",
-          "row": 124,
-          "sentences": [
-            "NIE nedir, ne işe yarar ve nasıl istenir?",
-            "NIE, yabancılara verilen kimlik numarasıdır; harcı 9,84 euro",
-            "NIE (Número de Identidad de Extranjero, yabancı kimlik numarası), İspanya ile ekonomik, mesleki ya da sosyal bağı olan yabancıların Polis Genel Müdürlüğü'nden istemesi gereken numaradır."
-          ]
-        },
-        {
-          "id": "malaga:ab-vatandasi-kayit-sertifikasi",
-          "sheet": "Yanıtlar",
-          "row": 125,
-          "sentences": [
-            "Başvuruyu İspanya'ya girişinden itibaren üç ay içinde yaparsın; kayıt sertifikası hemen verilir ve üzerinde adın, uyruğun, adresin, NIE numaran ve kayıt tarihin yazar."
-          ]
-        },
-        {
-          "id": "malaga:dijital-gocebe-vizesi",
-          "sheet": "Yanıtlar",
-          "row": 132,
-          "sentences": [
-            "Başvuru anında NIE'ye sahip ol; başka dillerdeki belgeler yeminli tercümeyle, yabancı resmî belgeler ise onaylı ya da apostilli olmalı."
-          ]
-        },
-        {
-          "id": "malaga:nie-basvurusu-polis-birimi",
-          "sheet": "Yanıtlar",
-          "row": 138,
-          "sentences": [
-            "Málaga'da NIE hangi polis biriminde alınır ve nelerle başvurulur?",
-            "Málaga'da NIE (yabancı kimlik numarası) işlemi için polis sitesinde listelenen birim, Brigada Provincial de Extranjería y Fronteras de Málaga'dır (il yabancılar ve sınır tugayı).",
-            "Manuel Azaña n.º 3, telefonu 952 04 64 68; NIE sertifikaları ve NIE ataması bu birimin işlemleri arasında sayılır."
-          ]
-        },
-        {
-          "id": "malaga:ilce-polis-birimlerinde-nie-tie",
-          "sheet": "Yanıtlar",
-          "row": 140,
-          "sentences": [
-            "Marbella, Fuengirola, Vélez-Málaga ve Málaga ilinin diğer ilçelerinde NIE ve TIE işlemi nerede yapılır?",
-            "Polis sitesindeki listede Marbella, Estepona, Torremolinos-Benalmádena, Fuengirola, Vélez-Málaga, Antequera ve Ronda karakollarının her biri için NIE sertifikası ve ataması, TIE çıkarma, AB vatandaşı ",
-            "NIE için EX15 formunu ve 790 kodu 012 harç belgesini karakola götür."
-          ]
-        },
-        {
-          "id": "malaga:entegrasyon-cabasi-raporu",
-          "sheet": "Yanıtlar",
-          "row": 143,
-          "sentences": [
-            "Sertifikada adın, NIE, program, toplam saat ve katıldığın saat yazmalı."
-          ]
-        },
-        {
-          "id": "malaga:malaga-agencia-tributaria-ofisleri-ve-renta-randevusu",
-          "sheet": "Yanıtlar",
-          "row": 162,
-          "sentences": [
-            "Randevu NIF/NIE ile ya da Cl@ve, referans numarası, elektronik DNI veya elektronik sertifikayla internetten ya da Agencia Tributaria uygulamasından alınıyordu."
-          ]
-        },
-        {
-          "id": "malaga:banka-hesabi-acarken-istenen-kimlik-ve-para-kaynagi-belgeleri",
-          "sheet": "Yanıtlar",
-          "row": 165,
-          "sentences": [
-            "AB vatandaşından pasaport ya da kimlik belgesi ve NIE, AB dışından yabancıdan TIE istenebilir; banka para kaynağı belgesi de isteyebilir",
-            "Banka hesap açarken önce kimliğini ister: AB vatandaşıysan pasaportun ya da ülkenin kimlik belgen NIE'nle birlikte istenebilir; AB dışından bir yabancıysan Tarjeta de Identidad de Extranjero (TIE) ver",
-            "Bankaya kimlik belgenle git: AB vatandaşıysan pasaportunu ya da ülkenin kimlik belgesini NIE'nle birlikte, AB dışından bir yabancıysan TIE'ni göster."
-          ]
-        },
-        {
-          "id": "malaga:ilk-gunlerde-nuss-ve-temel-odeme-hesabi",
-          "sheet": "Yanıtlar",
-          "row": 169,
-          "sentences": [
-            "Sosyal güvenlik numaranı (NUSS, Número de la Seguridad Social) istediğin zaman isteyebilirsin; başvuruda kimlik bilgin (DNI ya da NIE), cep telefonu, e-posta ve mutat ikametgâh adresin gerekir.",
-            "NUSS yoksa kimlik bilgin (DNI ya da NIE), telefon, e-posta ve mutat ikametgâh adresinle başvur.",
-            "Cl@ve ya da elektronik sertifikan yoksa ve reşitsen (ya da emancipe küçüksen) DNI/NIE'nin iki yüzünün kopyasını ve kimlik belgenin ön yüzünü gösteren bir selfie'yi sun."
-          ]
-        },
-        {
-          "id": "malaga:vergi-numarasi-nif-nie-alma",
-          "sheet": "Yanıtlar",
-          "row": 192,
-          "sentences": [
-            "Vergi numarası (NIF) ve NIE nasıl alınır?",
-            "NIE'yi polis, NIE'si olmayanlara NIF'i Agencia Tributaria atar",
-            "Vergiyle ilgili işlemlerde NIF (vergi kimlik numarası) gerekir; çoğu kişide NIF, DNI ya da NIE ile aynıdır."
-          ]
-        },
-        {
-          "id": "malaga:clave-pin-ve-permanente-farki",
-          "sheet": "Yanıtlar",
-          "row": 193,
-          "sentences": [
-            "Cl@ve uygulaması (Cl@ve Móvil) işlem anında telefonuna gelen istekle kimliğini onaylatır; Cl@ve Permanente ise DNI ya da NIE'ne, kullanıcı koduna ve aktivasyonda kendin belirlediğin şifreye dayanır."
+            "Libro de Familia (aile cüzdanı) nedir?",
+            "30 Nisan 2021'den beri yeni Libro de Familia verilmiyor; eskiler etkisini sürdürüyor",
+            "Libro de Familia (aile cüzdanı), eski Registro Civil (medeni hâl sicili) sisteminde verilen bir belgedir."
           ]
         },
         {
@@ -1256,16 +1627,15 @@
           "sheet": "Yanıtlar",
           "row": 206,
           "sentences": [
-            "Yanında DNI'ni (geçerlilik tarihiyle) ya da NIE'ni (düzenleme tarihiyle), cep telefonu numaranı ve e-posta adresini götürürsün; yabancılar kimliklerini ülkelerinin yetkili makamlarınca verilmiş pasapo",
-            "DNI (geçerlilik tarihiyle) ya da NIE (düzenleme tarihiyle)"
+            "Reşit olmayanlarda velayet sahibi ve velayeti gösteren belge (libro de familia)"
           ]
         },
         {
-          "id": "malaga:saglik-sigortasi-sarti-ve-convenio-especial",
+          "id": "malaga:endulus-saglik-karti-tarjeta-sanitaria-ve-aile-hekimi-secimi",
           "sheet": "Yanıtlar",
-          "row": 210,
+          "row": 216,
           "sentences": [
-            "Kimlik belgesi: kimlik kartı, NIE, pasaport ya da oturum kartı"
+            "14 yaşından büyük yararlanıcılar için DNI ya da NIE; 14 yaşından küçük yararlanıcı varsa Libro de Familia"
           ]
         },
         {
@@ -1273,47 +1643,35 @@
           "sheet": "Yanıtlar",
           "row": 227,
           "sentences": [
-            "Yukarıdaki kayıt adımları Endülüs'teki bir hastanede doğan bebekler içindir; diğer durumlarda ilk kez başvuruda başvuru formu, DNI (yabancı residentlerde NIE) ve empadronamiento belgesiyle sağlık merk"
+            "Sonra sağlık merkezine başvuru formu, yasal temsilcinin kimliği ve libro de familia ile gidersin; kart posta ile kayıtlı adrese gönderilir.",
+            "Sağlık merkezine başvuru formu (modelo de solicitud), yasal temsilcinin (anne, baba ya da vasi) kimliği ve libro de familia ile git.",
+            "Libro de familia"
           ]
         },
         {
-          "id": "malaga:endulus-convenio-especial-basvurusu-nereye-hangi-belgelerle-ve-kapsam",
+          "id": "malaga:emt-tarjeta-oro-kimlere-verilir-nasil-alinir",
           "sheet": "Yanıtlar",
-          "row": 228,
+          "row": 250,
           "sentences": [
-            "Kimlik belgesi: DNI, NIE ya da pasaport"
+            "Literal evlilik belgesi ya da libro de familia (yalnız çift modalitesinde)"
           ]
         },
         {
-          "id": "malaga:term:006",
+          "id": "malaga:term:013",
           "sheet": "Sözlük",
-          "row": 13,
+          "row": 20,
           "sentences": [
-            "NIE (Número de Identidad de Extranjero)"
+            "Libro de familia",
+            "Registro Civil Yasası (Ley 20/2011) 30 Nisan 2021'de yürürlüğe girdi; o tarihten beri yeni libro de familia verilmiyor, daha önce verilenler hükümlerini korur.",
+            "Soybağını göstermek için libro de familia ya da Registro Civil'den alınan doğum belgesi sunulur; ikisi alternatiftir."
           ]
         },
         {
-          "id": "malaga:term:007",
+          "id": "malaga:term:056",
           "sheet": "Sözlük",
-          "row": 14,
+          "row": 63,
           "sentences": [
-            "NIE ve sertifika başvurusunda kullanılan form EX-15 ile ödeme belgesi olan 790 numaralı harç (modelo 790, código 012)."
-          ]
-        },
-        {
-          "id": "malaga:term:017",
-          "sheet": "Sözlük",
-          "row": 24,
-          "sentences": [
-            "Vergi açısından önem taşıyan işlem yapan gerçek kişinin NIF'i olmalıdır; genelde DNI ya da NIE ile aynıdır."
-          ]
-        },
-        {
-          "id": "malaga:term:038",
-          "sheet": "Sözlük",
-          "row": 45,
-          "sentences": [
-            "Başvuran 18 yaşından büyük olmalı, geçerli DNI ya da NIE'ye sahip olmalı, Málaga belediyesinde kayıtlı olmalı ve konutun su ya da kanalizasyon sözleşmesinin sahibi olmalıdır."
+            "Başvuruda İspanya'daki adres certificado de empadronamiento ile, çocukla bağ libro de familia ya da doğum belgesiyle gösterilir."
           ]
         }
       ]
@@ -1335,16 +1693,6 @@
       },
       "mentions": [
         {
-          "id": "malaga:malaga-registro-civil-ofisi-ve-bebegin-padron-kaydi",
-          "sheet": "Yanıtlar",
-          "row": 21,
-          "sentences": [
-            "Oficina General del Registro Civil: Fiscal Luis Portero García s/n; padrón için OMAC ofisleri ya da randevuyla Gestión Tributaria",
-            "Bebeği belediye nüfus kaydına (padrón) yazdırmak için belediyenin OMAC ofislerine gidersin ya da Gestión Tributaria'nın ofisinde randevuyla işlem yaparsın.",
-            "Bebeği padrón'a yazdırmak için belediyenin OMAC (oficinas municipales de atención a la ciudadanía) ofislerinden birine git."
-          ]
-        },
-        {
           "id": "malaga:emasa-fondo-social-su-faturasi-yardimi",
           "sheet": "Yanıtlar",
           "row": 59,
@@ -1360,7 +1708,7 @@
           "sentences": [
             "Málaga'da OMAC (belediye vatandaş hizmet ofisi) nedir, hangi işler yapılır, randevu nasıl alınır?",
             "OMAC (Oficina Municipal de Atención a la Ciudadanía), Málaga Belediyesi'nin semtlerde yüz yüze hizmet veren ofisleridir; pazartesi–cuma 9:00–14:00 açıktır (resmî tatiller ile 24 ve 31 Aralık hariç).",
-            "OMAC bir kayıt penceresidir: belediyeye ait belgeni sunabilirsin; yürürlükteki düzenleme başka bir başvuru penceresi belirliyorsa belge orada verilir."
+            "Bu kart ofislerin adreslerini ve belge sunma dışındaki hizmetleri (bilgi, dijital sertifika) toplar; belediyeye belge sunma ve kayıt gişesi kuralı 'Málaga'da OMAC (semt belediye hizmet ofisi) nedir, h"
           ]
         },
         {
@@ -1368,9 +1716,7 @@
           "sheet": "Yanıtlar",
           "row": 81,
           "sentences": [
-            "Ciudad Jardín, Tiro de Pichón, José Paterna ve atletizm stadyumu saatleri; kayıt formu OMAC'a verilir, şifre en çok 15 iş gününde gelir",
-            "Atletizm stadyumu biletini, Ciudad Jardín, Tiro de Pichón ve José Paterna polideportivolarındaki sahaların saatlik kiralamasını ve aylık etkinlik yenilemesini online platformdan yaparsın; platforma ka",
-            "Formu OMAC ofislerinden birine ver: OMAC pazartesi–cuma 9:00–14:00 açıktır (resmî tatillerde ve 24, 31 Aralık'ta kapalı) ve 65 yaşın üstündekiler dışında randevuyla hizmet verir; randevuyu citaprevia."
+            "Kayıt formu, OMAC teslimi ve dijital sertifikayla çevrimiçi yol için 'Málaga belediyesinin spor tesislerini kullanmak için online hizmet kaydını (alta de servicios) nasıl yaptırırsın?' kartına bak."
           ]
         },
         {
@@ -1396,8 +1742,16 @@
           "sheet": "Yanıtlar",
           "row": 188,
           "sentences": [
-            "Málaga'da padrón işlemini belediyenin OMAC ofislerinde ya da Tabacalera'daki Gestión Tributaria ofisinde (yalnız randevuyla) yaptırırsın.",
+            "Málaga'da padrón işlemini belediyenin OMAC ofislerinde ya da Gestión Tributaria'nın yurttaş hizmet ofisinde (yalnız randevuyla) yaptırırsın.",
             "O belediyenin Padrón'una kayıt ol; Málaga'da bunu OMAC ofislerinde ya da Gestión Tributaria ofisinde (yalnız randevuyla) yaptır."
+          ]
+        },
+        {
+          "id": "malaga:fnmt-dijital-sertifika-kurma",
+          "sheet": "Yanıtlar",
+          "row": 194,
+          "sentences": [
+            "Málaga'da kimlik doğrulamanın yapılabileceği belediye ofisleri (OMAC) için \"Málaga'da FNMT dijital sertifikası için kimlik doğrulamasını nerede yaptırırsın?\" kartına bak."
           ]
         },
         {
@@ -1417,7 +1771,7 @@
           "sentences": [
             "Málaga'da OMAC (semt belediye hizmet ofisi) nedir, hangi işler için gidersin, randevuyu nasıl alırsın?",
             "OMAC, Málaga Belediyesi'nin semtlerde bulunan ve çok sayıda belediye hizmetinin bilgi ve işlemlerini tek yerde toplayan yüz yüze ofisidir; pazartesi-cuma 9:00-14:00 açıktır ve randevuyla çalışır, 65 y",
-            "OMAC bir kayıt gişesidir: belediyeye yönelik belgeleri burada kayda geçirebilirsin (mevzuat başka bir gişe öngörüyorsa orada yalnız form ve başvuru evrakını alırsın); ayrıca şikâyet ve öneri bırakır, "
+            "OMAC bir kayıt gişesidir: belediyeye yönelik belgeleri burada kayda geçirebilirsin; mevzuat başka bir gişe öngörüyorsa belge o gişeye verilir, OMAC'tan o işlem için yalnız form ve başvuru evrakı alabi"
           ]
         },
         {
@@ -1427,7 +1781,7 @@
           "sentences": [
             "Belediye OMAC ofisleri FNMT ile sözleşmeli; AEAT ve Seguridad Social ofislerinde randevu gerekir",
             "Málaga'da FNMT dijital sertifikası için kimlik doğrulamasını belediyenin OMAC ofislerinde yaptırabilirsin; OMAC, FNMT ile yapılan sözleşme kapsamında dijital sertifika işlemleri için yetkilidir.",
-            "Kimliğini e-postana gelen başvuru koduyla (Código de Solicitud) bir Oficina de Acreditación de Identidad'te doğrulat: Málaga'da OMAC'a randevuyla git; AEAT ve Seguridad Social ofislerinde de randevu g"
+            "OMAC randevusunu citaprevia.malaga.eu ya da 951 92 60 10 üzerinden al; 65 yaşını geçtiysen randevusuz gidebilirsin."
           ]
         },
         {
@@ -1455,7 +1809,8 @@
           "sheet": "Sözlük",
           "row": 10,
           "sentences": [
-            "Araç vergisinde adres değişikliğini OMAC'a ya da Gestión Tributaria'ya bildirirken titular'ın DNI fotokopisine seçenek olarak sunulabilir."
+            "Araç vergisinde (IVTM) aracın adresini (domicilio del vehículo) kanıtlamak için Tráfico'da (Jefatura Provincial de Tráfico), OMAC'ta ya da Gestión Tributaria'da titular'ın (araç sahibinin) DNI fotokop",
+            "Sahibin kendi adres değişikliğinde ise önce Padrón kaydı güncellenir, ardından Tráfico, OMAC ya da Gestión Tributaria'ya gidilir."
           ]
         },
         {
@@ -1463,7 +1818,8 @@
           "sheet": "Sözlük",
           "row": 12,
           "sentences": [
-            "OMAC (Oficina Municipal de Atención a la Ciudadanía)"
+            "OMAC (Oficina Municipal de Atención a la Ciudadanía)",
+            "OMAC aynı zamanda bir kayıt (evrak teslim) penceresidir: mevzuat başka bir pencere öngörmedikçe belediyeye yönelik her belge buraya sunulabilir."
           ]
         }
       ]
@@ -1505,7 +1861,7 @@
           "sheet": "Yanıtlar",
           "row": 216,
           "sentences": [
-            "Kartla ilgili sorular için merkeze gitmeden önce Salud Responde'yi 955 54 50 60 numarasından arayabilirsin."
+            "Kartla ilgili soruların için 24 saat açık Salud Responde hattını ara: 955 54 50 60."
           ]
         },
         {
@@ -1600,131 +1956,6 @@
       ]
     },
     {
-      "anchor": "libro de familia",
-      "kind": "sozluk",
-      "farkli_deger": [],
-      "values": {
-        "tarih": [
-          "30 nisan"
-        ]
-      },
-      "mentions": [
-        {
-          "id": "malaga:ingreso-minimo-vital-ve-cocuk-destegi",
-          "sheet": "Yanıtlar",
-          "row": 10,
-          "sentences": [
-            "Çocukların için libro de familia ya da Registro Civil'in verdiği doğum belgesini ekle.",
-            "Libro de familia ya da Registro Civil doğum belgesi (çocuklar için)"
-          ]
-        },
-        {
-          "id": "malaga:okul-puanlama-olcutleri-kardes-adres-engel-ve-belgeler",
-          "sheet": "Yanıtlar",
-          "row": 15,
-          "sentences": [
-            "Verilerin alınmasına itiraz edersen tek ebeveynli aile durumunu, yazılı sayfaların tamamını içeren Libro de familia onaylı kopyasıyla kanıtlarsın.",
-            "Libro de familia onaylı kopyası (tek ebeveynli aile için verilerin alınmasına itiraz edersen; çoklu doğum)"
-          ]
-        },
-        {
-          "id": "malaga:dogan-bebegin-registro-civil-kaydi-sure-belge-ve-ucret",
-          "sheet": "Yanıtlar",
-          "row": 20,
-          "sentences": [
-            "Libro de familia'n varsa doğum oraya işlenir, yoksa kayıtla birlikte hemen verilir."
-          ]
-        },
-        {
-          "id": "malaga:korumali-konut-talep-sicili-registro-demandantes",
-          "sheet": "Yanıtlar",
-          "row": 35,
-          "sentences": [
-            "Yürürlükteki kimlik belgesinin fotokopisini ekle (18 yaş üstü her başvuran için); durumuna göre tam aile cüzdanı (libro de familia), boşanma ya da ayrılık kararı veya bağımlılık kararı gibi belgeleri ",
-            "Durumuna göre: tam aile cüzdanı (libro de familia), boşanma ya da ayrılık kararı, bağımlılık kararı"
-          ]
-        },
-        {
-          "id": "malaga:issizlik-maasi-paro-sepe-basvurusu",
-          "sheet": "Yanıtlar",
-          "row": 89,
-          "sentences": [
-            "Çocuk varsa Libro de Familia ya da doğum veya aile sicil belgesi (yabancılarda resmî İspanyolca çevirili eşdeğeri)"
-          ]
-        },
-        {
-          "id": "malaga:caminito-del-rey-bilet-rezervasyonu-yas-siniri-servis-ve-otopark",
-          "sheet": "Yanıtlar",
-          "row": 114,
-          "sentences": [
-            "8 yaşından küçükler giremez; resmî site, 8 yaşından büyük herkesten yaşını doğrulamak için orijinal DNI ya da Libro de Familia taşımasını istiyor.",
-            "8 yaşından büyük her katılımcı için resmî sitenin yaş doğrulaması amacıyla istediği orijinal DNI ya da Libro de Familia'yı götür; 8 yaşından küçükler yürüyüşe giremez.",
-            "8 yaşından büyük katılımcılar için orijinal DNI ya da Libro de Familia"
-          ]
-        },
-        {
-          "id": "malaga:libro-de-familia-nedir",
-          "sheet": "Yanıtlar",
-          "row": 197,
-          "sentences": [
-            "Libro de Familia (aile cüzdanı) nedir?",
-            "30 Nisan 2021'den beri yeni Libro de Familia verilmiyor; eskiler etkisini sürdürüyor",
-            "Libro de Familia (aile cüzdanı), eski Registro Civil (medeni hâl sicili) sisteminde verilen bir belgedir."
-          ]
-        },
-        {
-          "id": "malaga:clave-yuz-yuze-kayit-randevu-ve-gerekli-belgeler",
-          "sheet": "Yanıtlar",
-          "row": 206,
-          "sentences": [
-            "Reşit olmayanlarda velayet sahibi ve velayeti gösteren belge (libro de familia)"
-          ]
-        },
-        {
-          "id": "malaga:endulus-saglik-karti-tarjeta-sanitaria-ve-aile-hekimi-secimi",
-          "sheet": "Yanıtlar",
-          "row": 216,
-          "sentences": [
-            "14 yaşından büyük yararlanıcı için DNI; 14 yaşından küçük ya da yeni doğan için Libro de Familia"
-          ]
-        },
-        {
-          "id": "malaga:endulus-yenidogan-saglik-karti-rupyna-inss-kaydi-ve-kart-yenileme",
-          "sheet": "Yanıtlar",
-          "row": 227,
-          "sentences": [
-            "Sonra sağlık merkezine başvuru formu, yasal temsilcinin kimliği ve libro de familia ile gidersin; kart posta ile kayıtlı adrese gönderilir.",
-            "Sağlık merkezine başvuru formu (modelo de solicitud), yasal temsilcinin (anne, baba ya da vasi) kimliği ve libro de familia ile git.",
-            "Libro de familia"
-          ]
-        },
-        {
-          "id": "malaga:emt-tarjeta-oro-kimlere-verilir-nasil-alinir",
-          "sheet": "Yanıtlar",
-          "row": 250,
-          "sentences": [
-            "Literal evlilik belgesi ya da libro de familia (yalnız çift modalitesinde)"
-          ]
-        },
-        {
-          "id": "malaga:term:013",
-          "sheet": "Sözlük",
-          "row": 20,
-          "sentences": [
-            "Libro de familia"
-          ]
-        },
-        {
-          "id": "malaga:term:056",
-          "sheet": "Sözlük",
-          "row": 63,
-          "sentences": [
-            "Başvuruda İspanya'daki adres certificado de empadronamiento ile, çocukla bağ libro de familia ya da doğum belgesiyle gösterilir."
-          ]
-        }
-      ]
-    },
-    {
       "anchor": "ingreso minimo vital",
       "kind": "sozluk",
       "farkli_deger": [],
@@ -1753,6 +1984,15 @@
           "row": 22,
           "sentences": [
             "Ebeveynlerden biri o çocuk için ingreso mínimo vital'in çocuk ekini aldığı aylarda indirim hesaplanmaz; bu eke 1 Ocak 2023'ten önce hak kazanılmışsa istisna vardır."
+          ]
+        },
+        {
+          "id": "malaga:endulus-cocuklu-aileler-icin-yardim-ve-destek-listesi",
+          "sheet": "Yanıtlar",
+          "row": 23,
+          "sentences": [
+            "Bu ödenek aynı çocuk için Ingreso Mínimo Vital ile birlikte alınamaz: IMV tutarı ödenekten yüksekse ya da düşük olup IMV'yi seçersen IMV tanınır ve ödenek hakkı sona erer; ödeneği seçersen IMV başvuru",
+            "Ingreso Mínimo Vital ve çocuk eki, 3 yaşından küçük çocuk için anne vergi indirimi ve ücretsiz ders kitabının koşul, tutar ve başvuru yolu ayrı yanıtlarda anlatılır."
           ]
         },
         {
@@ -1809,7 +2049,7 @@
           "sheet": "Sözlük",
           "row": 20,
           "sentences": [
-            "Ingreso Mínimo Vital başvurusunda."
+            "Ingreso Mínimo Vital başvurusunda belge listesinde böyle sayılır."
           ]
         },
         {
@@ -1826,11 +2066,7 @@
       "anchor": "clicsalud",
       "kind": "sozluk",
       "farkli_deger": [],
-      "values": {
-        "tarih": [
-          "26 mart"
-        ]
-      },
+      "values": {},
       "mentions": [
         {
           "id": "malaga:endulus-saglik-karti-tarjeta-sanitaria-ve-aile-hekimi-secimi",
@@ -1839,7 +2075,7 @@
           "sentences": [
             "Aile hekimini ve merkezi, evinin bağlı olduğu sağlık bölgesindeki (distrito sanitario) profesyoneller arasından seçersin; merkezde başvurursan yanıt 45 günden önce gelir, Cl@ve, dijital sertifika ya d",
             "Cl@ve, dijital sertifika ya da e-DNI'ın varsa seçimi ClicSalud+ üzerinden yap, hekim değişikliği hemen işlenir; atama belgesini yazdır ya da kaydet.",
-            "Kartın sanal sürümü (TSV) 26 Mart 2026'dan beri kamu sağlık kapsamı olan ve Endülüs'te oturan kişilere açıktır; Salud Andalucía uygulaması, ClicSalud+ ya da Carpeta ciudadana üzerinden Cl@ve, dijital "
+            "Kartın sanal sürümünü (TSV) kullanmak için en az bir kez basılı kart almış olman gerekir; TSV'yi dijital sertifika ya da Cl@ve ile (ClicSalud+'ta e-DNI ile de) etkinleştirirsin."
           ]
         },
         {
@@ -1917,94 +2153,6 @@
       ]
     },
     {
-      "anchor": "790-012",
-      "kind": "kod",
-      "farkli_deger": [],
-      "values": {
-        "ucret": [
-          "9,84 €"
-        ]
-      },
-      "mentions": [
-        {
-          "id": "malaga:nie-nedir-ne-ise-yarar",
-          "sheet": "Yanıtlar",
-          "row": 124,
-          "sentences": [
-            "Dilekçe EX15 formu ve 790 kodu 012 harç belgesiyle verilir; NIE harcı 9,84 euro'dur.",
-            "790 kodu 012 harç belgesini al ve 9,84 euro harcı öde; harç, hesabın olmasa da bankalarda ve tasarruf kasalarında ödenir.",
-            "790 kodu 012 harç ödeme belgesi"
-          ]
-        },
-        {
-          "id": "malaga:ab-vatandasi-kayit-sertifikasi",
-          "sheet": "Yanıtlar",
-          "row": 125,
-          "sentences": [
-            "790 kodu 012 harç belgesini al ve harcı öde.",
-            "790 kodu 012 harç ödeme belgesi"
-          ]
-        },
-        {
-          "id": "malaga:arraigo-kok-salma-oturumu",
-          "sheet": "Yanıtlar",
-          "row": 131,
-          "sentences": [
-            "Başvuru, polis sayfasındaki olağanüstü durumlar (circunstancias excepcionales) başvurusunda kullanılan EX10 formu ve 790 kodu 012 harç belgesiyle yapılır.",
-            "EX10 formunu doldur ve 790 kodu 012 harç belgesini hazırla.",
-            "790 kodu 012 harç ödeme belgesi"
-          ]
-        },
-        {
-          "id": "malaga:brexit-sonrasi-ingiliz-oturumu",
-          "sheet": "Yanıtlar",
-          "row": 137,
-          "sentences": [
-            "Elinde geçici ya da kalıcı kayıt sertifikası (certificado de registro) varsa tek adımda polis birimine EX23 formu, geçerli pasaport, 790 kodu 012 harç belgesi ve fotoğrafla başvurursun.",
-            "Tek adımda EX23 formunu, geçerli pasaportunu (süresi dolduysa kopyasını ve yenileme başvurusunu), 790 kodu 012 harç belgesini ve kimlik belgesi kurallarına uygun fotoğrafı götür.",
-            "Karar en çok üç ay içinde bildirilir; bildirimden sonra bir ay içinde polis birimine şahsen gidip EX23 formu, pasaport, 790 kodu 012 harç belgesi ve fotoğrafla belgeni iste."
-          ]
-        },
-        {
-          "id": "malaga:nie-basvurusu-polis-birimi",
-          "sheet": "Yanıtlar",
-          "row": 138,
-          "sentences": [
-            "Dosyada EX15 formu ve 790 kodu 012 harç belgesi olur; yönetmelik süresi beş gündür.",
-            "790 kodu 012 harç belgesini al ve harcı bankada ya da tasarruf kasasında öde; hesabının olması gerekmez.",
-            "790 kodu 012 harç ödeme belgesi (Justificante de pago)"
-          ]
-        },
-        {
-          "id": "malaga:tie-karti-basvuru-birimi",
-          "sheet": "Yanıtlar",
-          "row": 139,
-          "sentences": [
-            "Dilekçe EX17 formudur ve yanında 790 kodu 012 harç belgesi gerekir.",
-            "790 kodu 012 harç belgesini al ve harcı bankada ya da tasarruf kasasında öde; hesabının olması gerekmez.",
-            "790 kodu 012 harç ödeme belgesi"
-          ]
-        },
-        {
-          "id": "malaga:ilce-polis-birimlerinde-nie-tie",
-          "sheet": "Yanıtlar",
-          "row": 140,
-          "sentences": [
-            "NIE için EX15 formunu ve 790 kodu 012 harç belgesini karakola götür.",
-            "NIE için 790 kodu 012 harç ödeme belgesi"
-          ]
-        },
-        {
-          "id": "malaga:term:007",
-          "sheet": "Sözlük",
-          "row": 14,
-          "sentences": [
-            "Formulario EX-15 ve tasa modelo 790 código 012"
-          ]
-        }
-      ]
-    },
-    {
       "anchor": "autonomo",
       "kind": "sozluk",
       "farkli_deger": [],
@@ -2034,7 +2182,7 @@
           "sheet": "Yanıtlar",
           "row": 104,
           "sentences": [
-            "TGSS (kayıt, autónomo, borç, vida laboral gibi işler) için randevu sistemi yoktur: TGSS ofislerine pazartesi-cuma 9.00-14.00 arası gidilebilir, ancak işlemleri mümkünse telefonla ya da Importass üzeri",
+            "TGSS (kayıt, autónomo, borç, vida laboral gibi işler) için randevu sistemi yoktur: Málaga'dakiler dahil herhangi bir TGSS ofisine pazartesi-cuma 9.00-14.00 arası gidilebilir, ancak işlemleri mümkünse ",
             "TGSS işleri için (kayıt, autónomo, borç gibi) randevu yoktur; TGSS ofislerine pazartesi-cuma 9.00-14.00 arası gidebilirsin ya da 901 50 20 50 / 91 541 02 91'i ara."
           ]
         },
@@ -2082,83 +2230,86 @@
       ]
     },
     {
-      "anchor": "dgt",
+      "anchor": "ibi",
       "kind": "sozluk",
       "farkli_deger": [],
       "values": {
-        "sure": [
-          "3 ay"
+        "tarih": [
+          "1 ocak"
         ]
       },
       "mentions": [
         {
-          "id": "malaga:yabanci-ehliyet-degisimi",
+          "id": "malaga:malaga-registro-civil-ofisi-ve-bebegin-padron-kaydi",
           "sheet": "Yanıtlar",
-          "row": 199,
+          "row": 21,
           "sentences": [
-            "Türk ehliyeti İspanyol ehliyetine nasıl değiştirilir (DGT)?"
+            "Adresi gösteren bir belge ekle: tapu belgesi (escritura, nota del Registro ya da IBI makbuzu), elektrik, su ya da doğalgaz sözleşmesi (sözleşme güncel değilse yeni bir fatura) ya da yürürlükteki kira "
           ]
         },
         {
-          "id": "malaga:arac-kaydi-ulusal-cerceve",
+          "id": "malaga:kiraci-giderleri-aidat-ibi-cop-ve-faturalar",
           "sheet": "Yanıtlar",
-          "row": 200,
+          "row": 41,
           "sentences": [
-            "DGT'nin tescil işlemi için azami süresi 3 aydır; bu sürede cevap gelmezse işlem yapılmamıştır, idari sessizlik olumsuz sayılır.",
-            "Aracın elektronik ITV kartı (ficha ITV electrónica) olup olmadığına bak; yalnız kâğıt kartı varsa DGT'nin genel başvuru formuyla başvurabilirsin, bunun için dijital DNI, geçerli elektronik sertifika y",
-            "DGT harcını öde; yeni araçta genel durumda çevrimiçi formdaki \"Pagar\" düğmesiyle ya da önceden aldığın tasa numarasıyla öde, yüz yüze başvuruda harcı kartla öde (nakit olmaz)."
+            "Kiracı olarak hangi giderleri ödersin: apartman aidatı, IBI, çöp harcı, su ve elektrik?",
+            "Sayaçlı faturalar ve sözleşmede kararlaştırılan yükler kiracıya; aksi yazılmadıysa IBI ve çöp harcı Junta'ya göre ev sahibine aittir",
+            "Junta'ya göre IBI, çöp harcı ve konut sigortası ev sahibinin yükümlülüğüdür; ancak kiracı yükümlülükleri arasında 'sözleşmede kararlaştırılmış vergi ve yükler' de geçtiği için bunların sana yüklenip y"
           ]
         },
         {
-          "id": "malaga:ehliyet-degisimi-canje-dgt-cevrimici-basvuru-ve-jefatura-teslimi",
+          "id": "malaga:ibi-emlak-vergisi-malaga-kim-oder-takvim",
           "sheet": "Yanıtlar",
-          "row": 207,
+          "row": 42,
           "sentences": [
-            "DGT, Türkiye'yi önce ehliyetin ülkesince doğrulanmasını isteyen ülkeler arasında sayar: doğrulama olumlu gelince canje başvurusunu yaparsın; doğrulama e-postası günler, hatta haftalar sürebilir.",
-            "DGT Sede Electrónica'ya Cl@ve ya da dijital sertifikanla gir, ehliyetin verildiği ülkeyi seç ve ehliyetinin geçerliliğinin doğrulanmasını iste.",
-            "DGT'ye göre çevrimiçi canje başvurusunda randevu almazsın; gün ve saat e-postayla bildirilir."
+            "Málaga'da ev alıp satarken IBI (emlak vergisi) kimin borcudur, nasıl ve hangi takvimle ödenir?",
+            "IBI'yi Málaga'da taşınmazın sahibi, intifa ya da yüzey hakkı sahibi ya da idari imtiyaz sahibi öder; vergi katastral değer üzerinden hesaplanır ve her yıl 1 Ocak'ta doğar.",
+            "İki ya da altı taksit için Gestrisam'ın işlem listesindeki 'IBI."
           ]
         },
         {
-          "id": "malaga:hiz-siniri-alkol-ehliyet-puani",
+          "id": "malaga:malaga-emlak-vergisi-ibi-kim-oder-oran-ve-odeme-takvimi",
           "sheet": "Yanıtlar",
-          "row": 232,
+          "row": 159,
           "sentences": [
-            "48.1.b'deki değişiklik 01/10/2026'dan beri yürürlükte), puan bilgisi DGT sayfasına (22/09/2026) göredir."
+            "Málaga'da mülk sahibiysen emlak vergisinin (IBI) oranı kaç, taksitler ve Catastro bildirimi nasıl yapılır?",
+            "Genel kentsel IBI oranı %0,4510'dur (kırsal mülkte %0,6543, özel nitelikli mülkte %1,3; Gestrisam'ın yayımladığı son oranlar 2024'e ait); 2026 gönüllü ödeme dönemleri bitti ve değişiklik olursa Catast",
+            "IBI'yi her yıl 1 Ocak'ta mülkün maliki, intifa veya yüzey hakkı sahibi ya da idari imtiyaz (concesión administrativa) sahibi olan kişi öder; birden fazla malik varsa idareye karşı hepsi müteselsil sor"
           ]
         },
         {
-          "id": "malaga:dusuk-emisyon-bolgesi-zbe-arabayla-girme-kurallari-malaga",
+          "id": "malaga:malaga-plusvalia-arsa-deger-artisi-vergisi-beyani",
           "sheet": "Yanıtlar",
-          "row": 247,
+          "row": 161,
           "sentences": [
-            "Belediyenin sayfasına göre vatandaşların (ciudadanía) DGT çevre etiketi taşıması zorunlu değil, çünkü bölge plaka tanıma kameralarıyla ve DGT ile belediye nüfus kaydı (padrón) verilerinden geliştirile",
-            "Aracının çevre etiketini DGT'nin sayfasındaki sorgulamayla öğren.",
-            "Aracın plakası ve DGT çevre etiketi bilgisi"
+            "Matrah, IBI'deki arsa değeriyle yıllara göre değişen bir katsayıdan çıkar; satış ve alış arasındaki arsa değeri farkı daha düşükse bu farkın esas alınmasını isteyebilirsin.",
+            "Simülasyon programına katastro referansını ve IBI makbuzundaki sabit numarayı (número fijo del IBI) gir; program hem objektif hem doğrudan yöntemin matrahını gösterir."
           ]
         },
         {
-          "id": "malaga:term:047",
+          "id": "malaga:gestrisam-vergi-ofisi-adres-saat-ve-randevu",
+          "sheet": "Yanıtlar",
+          "row": 166,
+          "sentences": [
+            "Randevulu hizmetler genel işlemler, cezalar ve diğer vergiler, belge kaydı, Padrón, Plusvalía, IBI (katastro belgeleri) ile ödeme erteleme ve taksitlendirmedir.",
+            "İşlemine uygun randevu hizmetini seç: genel işlemler, cezalar ve diğer vergiler, belge kaydı; Padrón; Plusvalía; IBI (katastro belgeleri); ödeme erteleme ve taksitlendirme.",
+            "65 yaşın üstündeysen kendi işlemlerin için randevusuz gidebilirsin, ama yalnız şu işlemlerde: genel bilgi, belge kaydı, elektronik imza alma, Padrón, IBI'de mülk sahibi değişikliği, vergi denetimi, ge"
+          ]
+        },
+        {
+          "id": "malaga:term:023",
           "sheet": "Sözlük",
-          "row": 54,
+          "row": 30,
           "sentences": [
-            "DGT (Dirección General de Tráfico)"
+            "IBI (Impuesto sobre Bienes Inmuebles)"
           ]
         },
         {
-          "id": "malaga:term:049",
+          "id": "malaga:term:024",
           "sheet": "Sözlük",
-          "row": 56,
+          "row": 31,
           "sentences": [
-            "Tescil, araçla yolda dolaşmanın ön koşuludur; DGT tescil işlemini en çok 3 ay içinde yapar, bu sürede yanıt gelmezse işlem yapılmamış sayılır."
-          ]
-        },
-        {
-          "id": "malaga:term:050",
-          "sheet": "Sözlük",
-          "row": 57,
-          "sentences": [
-            "Bölgenin denetimi bir sistemle yapıldığı için DGT çevre etiketi zorunlu değildir."
+            "Taşınmazın kadastro değeri; IBI'nin vergi matrahıdır."
           ]
         }
       ]
@@ -2242,6 +2393,9 @@
       "kind": "sozluk",
       "farkli_deger": [],
       "values": {
+        "sure": [
+          "1 yil"
+        ],
         "ucret": [
           "4,79 €"
         ]
@@ -2300,7 +2454,8 @@
           "sheet": "Sözlük",
           "row": 44,
           "sentences": [
-            "EMASA (Empresa Municipal de Aguas)"
+            "EMASA (Empresa Municipal de Aguas)",
+            "Su faturasını ödemekte zorlananlar için Emasa'nın Fondo Social adlı yardım fonu vardır; yürürlükte ev tipi su sözleşmesi olan ve sosyal ve ekonomik açıdan kırılgan durumdaki aboneler yararlanabilir."
           ]
         },
         {
@@ -2309,84 +2464,8 @@
           "row": 45,
           "sentences": [
             "Fondo Social Emasa",
-            "Emasa'nın, su faturasını ödemekte zorlanan haneler için sağladığı yardım."
-          ]
-        }
-      ]
-    },
-    {
-      "anchor": "ibi",
-      "kind": "sozluk",
-      "farkli_deger": [],
-      "values": {
-        "tarih": [
-          "1 ocak"
-        ]
-      },
-      "mentions": [
-        {
-          "id": "malaga:kiraci-giderleri-aidat-ibi-cop-ve-faturalar",
-          "sheet": "Yanıtlar",
-          "row": 41,
-          "sentences": [
-            "Kiracı olarak hangi giderleri ödersin: apartman aidatı, IBI, çöp harcı, su ve elektrik?",
-            "Sayaçlı faturalar ve sözleşmede kararlaştırılan yükler kiracıya; aksi yazılmadıysa IBI ve çöp harcı Junta'ya göre ev sahibine aittir",
-            "Junta'ya göre IBI, çöp harcı ve konut sigortası ev sahibinin yükümlülüğüdür; ancak kiracı yükümlülükleri arasında 'sözleşmede kararlaştırılmış vergi ve yükler' de geçtiği için bunların sana yüklenip y"
-          ]
-        },
-        {
-          "id": "malaga:ibi-emlak-vergisi-malaga-kim-oder-takvim",
-          "sheet": "Yanıtlar",
-          "row": 42,
-          "sentences": [
-            "Málaga'da IBI (emlak vergisi) kim öder, ne zaman ve nasıl ödenir?",
-            "IBI'yi Málaga'da taşınmazın sahibi, intifa ya da yüzey hakkı sahibi ya da idari imtiyaz sahibi öder; vergi katastral değer üzerinden hesaplanır ve her yıl 1 Ocak'ta doğar.",
-            "İki ya da altı taksit için Gestrisam'ın işlem listesindeki 'IBI."
-          ]
-        },
-        {
-          "id": "malaga:malaga-emlak-vergisi-ibi-kim-oder-oran-ve-odeme-takvimi",
-          "sheet": "Yanıtlar",
-          "row": 159,
-          "sentences": [
-            "Málaga'da emlak vergisi (IBI) kim öder, oranı kaç, ne zaman ödenir?",
-            "IBI'yi her yıl 1 Ocak'ta mülkün maliki, intifa veya yüzey hakkı sahibi ya da idari imtiyaz (concesión administrativa) sahibi olan kişi öder; birden fazla malik varsa idareye karşı hepsi müteselsil sor",
-            "Büyük aile indirimi, güneş enerjisi indirimi, mülkiyet devri (cambio de titularidad) ve Flexipago gibi IBI işlemlerini belediyenin Sede Electrónica'sından yap; belediye işlemleri yalnız bu kanaldan yü"
-          ]
-        },
-        {
-          "id": "malaga:malaga-plusvalia-arsa-deger-artisi-vergisi-beyani",
-          "sheet": "Yanıtlar",
-          "row": 161,
-          "sentences": [
-            "Matrah, IBI'deki arsa değeriyle yıllara göre değişen bir katsayıdan çıkar; satış ve alış arasındaki arsa değeri farkı daha düşükse bu farkın esas alınmasını isteyebilirsin.",
-            "Simülasyon programına katastro referansını ve IBI makbuzundaki sabit numarayı (número fijo del IBI) gir; program hem objektif hem doğrudan yöntemin matrahını gösterir."
-          ]
-        },
-        {
-          "id": "malaga:gestrisam-vergi-ofisi-adres-saat-ve-randevu",
-          "sheet": "Yanıtlar",
-          "row": 166,
-          "sentences": [
-            "Randevulu hizmetler genel işlemler, cezalar ve diğer vergiler, belge kaydı, Padrón, Plusvalía, IBI (katastro belgeleri) ile ödeme erteleme ve taksitlendirmedir.",
-            "İşlemine uygun randevu hizmetini seç: genel işlemler, cezalar ve diğer vergiler, belge kaydı; Padrón; Plusvalía; IBI (katastro belgeleri); ödeme erteleme ve taksitlendirme.",
-            "65 yaşın üstündeysen kendi işlemlerin için randevusuz gidebilirsin, ama yalnız şu işlemlerde: genel bilgi, belge kaydı, elektronik imza alma, Padrón, IBI'de mülk sahibi değişikliği, vergi denetimi, ge"
-          ]
-        },
-        {
-          "id": "malaga:term:023",
-          "sheet": "Sözlük",
-          "row": 30,
-          "sentences": [
-            "IBI (Impuesto sobre Bienes Inmuebles)"
-          ]
-        },
-        {
-          "id": "malaga:term:024",
-          "sheet": "Sözlük",
-          "row": 31,
-          "sentences": [
-            "Taşınmazın kadastro değeri; IBI'nin vergi matrahıdır."
+            "Emasa'nın, su faturasını ödemekte zorlanan haneler için sağladığı yardım.",
+            "Bunlara ek olarak Servicios Sociales'in sosyal ve ekonomik kırılganlık durumunu tanımış olması, son yardımın onayından bu yana 1 yıl geçmiş olması, Emasa'ya başka borcunun olmaması (borcu varsa ödeme "
           ]
         }
       ]
@@ -2411,7 +2490,7 @@
           "row": 216,
           "sentences": [
             "Endülüs'te kamu sağlık kartı (tarjeta sanitaria) nasıl alınır, aile hekimi ve sağlık merkezi nasıl seçilir?",
-            "İlk tarjeta sanitaria'yı çevrim içi alamazsın; kendi sağlık merkezine (centro de salud) gidip başvurursun."
+            "İlk tarjeta sanitaria için doldurduğun başvuru formunu (modelo de solicitud) belgelerinle birlikte bir sağlık merkezine (centro de atención primaria) verirsin; başvuruda sana bir merkez ve aile hekimi"
           ]
         },
         {
@@ -2455,63 +2534,7 @@
           "sheet": "Adımlar",
           "row": 13,
           "sentences": [
-            "Endülüs sağlık kartı (tarjeta sanitaria) ve aile hekimi seçimi için ilgili karttaki adımları izle."
-          ]
-        }
-      ]
-    },
-    {
-      "anchor": "centro de salud",
-      "kind": "sozluk",
-      "farkli_deger": [],
-      "values": {},
-      "mentions": [
-        {
-          "id": "malaga:endulus-saglik-karti-tarjeta-sanitaria-ve-aile-hekimi-secimi",
-          "sheet": "Yanıtlar",
-          "row": 216,
-          "sentences": [
-            "İlk tarjeta sanitaria'yı çevrim içi alamazsın; kendi sağlık merkezine (centro de salud) gidip başvurursun."
-          ]
-        },
-        {
-          "id": "malaga:malaga-aile-hekimi-ve-hemsire-randevusu-clicsalud-salud-responde",
-          "sheet": "Yanıtlar",
-          "row": 217,
-          "sentences": [
-            "Sağlık merkezi (centro de salud) randevusunu üç uzaktan yoldan alabilirsin: ClicSalud+ internet sitesi, 'Salud Andalucía' ya da 'Salud Responde' uygulaması ve günün 24 saati, yılın 365 günü açık olan "
-          ]
-        },
-        {
-          "id": "malaga:malaga-saglik-merkezleri-telefon-listesi-distrito-sanitario",
-          "sheet": "Yanıtlar",
-          "row": 218,
-          "sentences": [
-            "Málaga bölgesinde sağlık merkezlerinin (centro de salud) telefon numaraları ve Distrito Sanitario iletişimi"
-          ]
-        },
-        {
-          "id": "malaga:acil-saglik-numarasi-061-ve-nobetci-eczane-bulma",
-          "sheet": "Yanıtlar",
-          "row": 229,
-          "sentences": [
-            "Ateş, ağrı, kusma gibi hayati tehlike olmayan ama hemen bakım gereken bir durumda, mesai saatleri içinde acil birimi olan bir sağlık ocağına (centro de salud) git; mesai dışında hastane acil servisine"
-          ]
-        },
-        {
-          "id": "malaga:term:029",
-          "sheet": "Sözlük",
-          "row": 36,
-          "sentences": [
-            "İlk kez isteyen kişi sağlık merkezine (centro de salud) başvurur."
-          ]
-        },
-        {
-          "id": "malaga:term:030",
-          "sheet": "Sözlük",
-          "row": 37,
-          "sentences": [
-            "Centro de salud"
+            "Endülüs sağlık kartı (tarjeta sanitaria) için başvuru formunu, kimlik belgeni (DNI ya da NIE) ve empadronamiento belgeni bir sağlık merkezine ver; başvuruda sana merkez ve aile hekimi atanır."
           ]
         }
       ]
@@ -2574,25 +2597,21 @@
       ]
     },
     {
-      "anchor": "cita previa",
+      "anchor": "nif",
       "kind": "sozluk",
       "farkli_deger": [],
-      "values": {},
+      "values": {
+        "ucret": [
+          "9,84 €"
+        ]
+      },
       "mentions": [
         {
-          "id": "malaga:malaga-registro-civil-ofisi-ve-bebegin-padron-kaydi",
+          "id": "malaga:endulus-gelir-vergisi-irpf-bolge-dilimleri-ve-indirimleri",
           "sheet": "Yanıtlar",
-          "row": 21,
+          "row": 157,
           "sentences": [
-            "Gestión Tributaria'nın ofisi yalnız randevuyla hizmet verir; belediyenin padrón sayfasında \"Cita Previa - Padrón Municipal de Habitantes\" başlıklı bir randevu bağlantısı var."
-          ]
-        },
-        {
-          "id": "malaga:sepe-malaga-teatinos-ofisi",
-          "sheet": "Yanıtlar",
-          "row": 95,
-          "sentences": [
-            "SEPE'nin Málaga-Teatinos iş ofisi (Oficina de Empleo) C/ Kandinsky, 26, 29010 Málaga adresindedir; randevuyu (cita previa) 91 926 79 70 numaralı resmî telefondan ya da SEPE'nin elektronik ofisinden al"
+            "Kira indirimi için beyannamede ev sahibinin vergi numarasını (NIF) yaz; ortak beyanda indirimin şartını eşlerden en az birinin taşıması yeter."
           ]
         },
         {
@@ -2600,32 +2619,42 @@
           "sheet": "Yanıtlar",
           "row": 161,
           "sentences": [
-            "Sor Teresa Prat 17, 29003 Tabacalera) randevu (cita previa) alarak ya da Ley 39/2015 md."
+            "Miras senedi yoksa: mirasçıların kimlik belgesi (DNI/NIF), ölüm belgesi, varsa özel paylaşım defteri (cuaderno particional), son irade belgesi (certificado de actos de última voluntad), vasiyet ya da "
           ]
         },
         {
-          "id": "malaga:belediye-randevu-malaga-24h-ve-merkezi-hat",
+          "id": "malaga:malaga-agencia-tributaria-ofisleri-ve-renta-randevusu",
           "sheet": "Yanıtlar",
-          "row": 204,
+          "row": 162,
           "sentences": [
-            "Belediye randevusunu malaga.eu'daki \"Málaga 24h\" sekmesinde Cita Previa bölümünden ya da ücretsiz \"Málaga Funciona\" uygulamasından alırsın: servisi seç, takvimden gün ve saati belirle, istenen bilgile",
-            "malaga.eu ana sayfasında \"Málaga 24h\" sekmesinden Cita Previa'ya gir ya da Málaga Funciona uygulamasını (Android ve iOS) aç."
+            "Randevu NIF/NIE ile ya da Cl@ve, referans numarası, elektronik DNI veya elektronik sertifikayla internetten ya da Agencia Tributaria uygulamasından alınıyordu."
           ]
         },
         {
-          "id": "malaga:term:004",
-          "sheet": "Sözlük",
-          "row": 11,
+          "id": "malaga:vergi-numarasi-nif-nie-alma",
+          "sheet": "Yanıtlar",
+          "row": 192,
           "sentences": [
-            "Cita previa"
+            "Vergi numarası (NIF) ve NIE nasıl alınır?",
+            "DNI ya da NIE'si olmayana NIF'i Agencia Tributaria atar; NIE ayrı bir numaradır ve harcı 9,84 euro",
+            "Vergi işlemleri için gereken NIF'i (vergi kimlik numarası), DNI ya da NIE'n yoksa Agencia Tributaria atar: Modelo 030 ile çevrimiçi istersin; DNI ya da NIE'n varsa NIF çoğunlukla zaten odur."
           ]
         },
         {
-          "id": "malaga:term:025",
-          "sheet": "Sözlük",
-          "row": 32,
+          "id": "malaga:emt-otobus-temassiz-banka-karti-ile-odeme",
+          "sheet": "Yanıtlar",
+          "row": 237,
           "sentences": [
-            "Málaga'da bu hizmet için randevu (cita previa) şarttır."
+            "Fatura için clientes@emtsam.es adresine ad-soyadını ya da ticari unvanını, adresini, NIF/CIF numaranı, tarihi, saati, otobüsü ve ödemede kullandığın kartın son 4 hanesini yaz."
+          ]
+        },
+        {
+          "id": "malaga:term:017",
+          "sheet": "Sözlük",
+          "row": 24,
+          "sentences": [
+            "NIF (número de identificación fiscal)",
+            "Vergi açısından önem taşıyan işlem yapan gerçek kişinin NIF'i olmalıdır; genelde DNI ya da NIE ile aynıdır."
           ]
         }
       ]
@@ -2634,19 +2663,15 @@
       "anchor": "punto limpio",
       "kind": "sozluk",
       "farkli_deger": [],
-      "values": {
-        "ucret": [
-          "750 €"
-        ]
-      },
+      "values": {},
       "mentions": [
         {
           "id": "malaga:eski-mobilya-atma-gunu-ve-saati-malaga",
           "sheet": "Yanıtlar",
           "row": 44,
           "sentences": [
-            "Elektrikli ev aletleri ve diğer elektrikli cihazlar mobilya sayılmaz, bunları punto limpio'ya götürürsün; gidemiyorsan 900 900 000 numarasını arayıp randevu alırsın.",
-            "Elektrikli aletleri sokağa bırakma, punto limpio'ya götür; gidemiyorsan 900 900 000'ı arayıp randevu al."
+            "Elektrikli ev aletleri ve diğer elektrikli cihazlar mobilya sayılmaz, bunları punto limpio'ya götürürsün (nereye ve nasıl: 'Málaga'da elektrikli eşya ve konteynere uymayan evsel atıkları nereye bırakı",
+            "Elektrikli aletleri sokağa bırakma, punto limpio'ya götür; taşıyamıyorsan 900 900 000'ı arayıp randevu al."
           ]
         },
         {
@@ -2656,7 +2681,7 @@
           "sentences": [
             "Málaga'da elektrikli eşya ve konteynere uymayan evsel atıkları nereye bırakırsın (punto limpio)?",
             "Elektrikli ev aletleri dahil konteynere uymayan evsel atıkları punto limpio'ya (belediyenin ücretsiz atık merkezi) bırakırsın; bu noktalar yalnız evsel atık kabul eder, sanayi atığı kabul etmez.",
-            "Elektrikli ev aletlerini sokağa mobilya gibi bırakamazsın; punto limpio'ya götürürsün, gidemiyorsan 900 900 000 numarasını arayıp randevu alırsın."
+            "Çok miktarda atığın varsa Polígono Guadalhorce'deki sabit noktaya (C/ Hermanas Bronte) gidersin; Limasam sayfası bu noktayı bir bölümünde 85 numarayla ve C/ Werther s/n'deki (Las Virreinas) ikinci sab"
           ]
         },
         {
@@ -2674,7 +2699,7 @@
           "sheet": "Yanıtlar",
           "row": 74,
           "sentences": [
-            "Her semtte haftada bir gün; 21:00–24:00 arası konteynerin yanına; elektrikli aletler punto limpio'ya; ceza 750 €'ya kadar",
+            "Her semtte haftada bir gün; 21:00–24:00 arası konteynerin yanına; elektrikli aletler punto limpio'ya",
             "Elektrikli ev aletleri mobilya sayılmaz ve punto limpio'ya götürülür; taşıyamıyorsan 900 900 000'ı arayıp randevu alırsın.",
             "Elektrikli ev aletlerini ve diğer elektrikli cihazları sokağa bırakma, punto limpio'ya götür."
           ]
@@ -2764,6 +2789,103 @@
       ]
     },
     {
+      "anchor": "centro de salud",
+      "kind": "sozluk",
+      "farkli_deger": [],
+      "values": {},
+      "mentions": [
+        {
+          "id": "malaga:malaga-aile-hekimi-ve-hemsire-randevusu-clicsalud-salud-responde",
+          "sheet": "Yanıtlar",
+          "row": 217,
+          "sentences": [
+            "Sağlık merkezi (centro de salud) randevusunu üç uzaktan yoldan alabilirsin: ClicSalud+ internet sitesi, 'Salud Andalucía' ya da 'Salud Responde' uygulaması ve günün 24 saati, yılın 365 günü açık olan "
+          ]
+        },
+        {
+          "id": "malaga:malaga-saglik-merkezleri-telefon-listesi-distrito-sanitario",
+          "sheet": "Yanıtlar",
+          "row": 218,
+          "sentences": [
+            "Málaga bölgesinde sağlık merkezlerinin (centro de salud) telefon numaraları ve Distrito Sanitario iletişimi"
+          ]
+        },
+        {
+          "id": "malaga:acil-saglik-numarasi-061-ve-nobetci-eczane-bulma",
+          "sheet": "Yanıtlar",
+          "row": 229,
+          "sentences": [
+            "Ateş, ağrı, kusma gibi hayati tehlike olmayan ama hemen bakım gereken bir durumda acil birimi olan bir sağlık ocağına (centro de salud) ya da hastane acil servisine git."
+          ]
+        },
+        {
+          "id": "malaga:term:029",
+          "sheet": "Sözlük",
+          "row": 36,
+          "sentences": [
+            "İlk kez isteyen kişi sağlık merkezine (centro de salud) başvurur."
+          ]
+        },
+        {
+          "id": "malaga:term:030",
+          "sheet": "Sözlük",
+          "row": 37,
+          "sentences": [
+            "Centro de salud"
+          ]
+        }
+      ]
+    },
+    {
+      "anchor": "cita previa",
+      "kind": "sozluk",
+      "farkli_deger": [],
+      "values": {},
+      "mentions": [
+        {
+          "id": "malaga:sepe-malaga-teatinos-ofisi",
+          "sheet": "Yanıtlar",
+          "row": 95,
+          "sentences": [
+            "SEPE'nin Málaga-Teatinos iş ofisi (Oficina de Empleo) C/ Kandinsky, 26, 29010 Málaga adresindedir; randevuyu (cita previa) 91 926 79 70 numaralı resmî telefondan ya da SEPE'nin elektronik ofisinden al"
+          ]
+        },
+        {
+          "id": "malaga:malaga-plusvalia-arsa-deger-artisi-vergisi-beyani",
+          "sheet": "Yanıtlar",
+          "row": 161,
+          "sentences": [
+            "Sor Teresa Prat 17, 29003 Tabacalera) randevu (cita previa) alarak ya da Ley 39/2015 md."
+          ]
+        },
+        {
+          "id": "malaga:belediye-randevu-malaga-24h-ve-merkezi-hat",
+          "sheet": "Yanıtlar",
+          "row": 204,
+          "sentences": [
+            "Belediye randevusunu malaga.eu'daki \"Málaga 24h\" sekmesinde Cita Previa bölümünden ya da ücretsiz \"Málaga Funciona\" uygulamasından alırsın: servisi seç, takvimden gün ve saati belirle, istenen bilgile",
+            "malaga.eu ana sayfasında \"Málaga 24h\" sekmesinden Cita Previa'ya gir ya da Málaga Funciona uygulamasını (Android ve iOS) aç."
+          ]
+        },
+        {
+          "id": "malaga:term:004",
+          "sheet": "Sözlük",
+          "row": 11,
+          "sentences": [
+            "Cita previa"
+          ]
+        },
+        {
+          "id": "malaga:term:025",
+          "sheet": "Sözlük",
+          "row": 32,
+          "sentences": [
+            "Málaga'da bu hizmet için randevu (cita previa) şarttır."
+          ]
+        }
+      ]
+    },
+    {
       "anchor": "ex-15",
       "kind": "kod",
       "farkli_deger": [],
@@ -2788,7 +2910,7 @@
           "sheet": "Yanıtlar",
           "row": 138,
           "sentences": [
-            "Dosyada EX15 formu ve 790 kodu 012 harç belgesi olur; yönetmelik süresi beş gündür.",
+            "Dosyada EX15 formu ve 790 kodu 012 harç belgesi olur; güncel polis tarifesine göre NIE harcı 9,84 euro.",
             "EX15 formunu doldur.",
             "EX15 formu"
           ]
@@ -2807,9 +2929,9 @@
           "sheet": "Yanıtlar",
           "row": 192,
           "sentences": [
-            "NIE ise İspanya ile ekonomik, mesleki veya sosyal bağı olan yabancılar için Polis Genel Müdürlüğü'nden (Dirección General de la Policía) istenir; EX15 formu ve Modelo 790 Kod 012 harç dekontu gerekir.",
-            "NIE istiyorsan EX15 formunu (NIE ve sertifika talebi) doldur.",
-            "EX15 formu (NIE ve sertifika talebi)"
+            "NIE ise ayrı bir yabancı kimlik numarasıdır ve Policía Nacional'dan EX-15 formuyla istenir; Policía Nacional'ın harç listesine göre NIE ataması 9,84 euro harca tabidir ve harç Modelo 790 kod 012 ile ö",
+            "NIE istiyorsan EX-15 başvuru formunu doldur ve 9,84 euro NIE harcını Modelo 790 kod 012 formuyla öde.",
+            "EX-15 başvuru formu (NIE için)"
           ]
         },
         {
@@ -2819,57 +2941,6 @@
           "sentences": [
             "Formulario EX-15 ve tasa modelo 790 código 012",
             "NIE ve sertifika başvurusunda kullanılan form EX-15 ile ödeme belgesi olan 790 numaralı harç (modelo 790, código 012)."
-          ]
-        }
-      ]
-    },
-    {
-      "anchor": "nif",
-      "kind": "sozluk",
-      "farkli_deger": [],
-      "values": {},
-      "mentions": [
-        {
-          "id": "malaga:malaga-plusvalia-arsa-deger-artisi-vergisi-beyani",
-          "sheet": "Yanıtlar",
-          "row": 161,
-          "sentences": [
-            "Miras senedi yoksa: mirasçıların kimlik belgesi (DNI/NIF), ölüm belgesi, varsa özel paylaşım defteri (cuaderno particional), son irade belgesi (certificado de actos de última voluntad), vasiyet ya da "
-          ]
-        },
-        {
-          "id": "malaga:malaga-agencia-tributaria-ofisleri-ve-renta-randevusu",
-          "sheet": "Yanıtlar",
-          "row": 162,
-          "sentences": [
-            "Randevu NIF/NIE ile ya da Cl@ve, referans numarası, elektronik DNI veya elektronik sertifikayla internetten ya da Agencia Tributaria uygulamasından alınıyordu."
-          ]
-        },
-        {
-          "id": "malaga:vergi-numarasi-nif-nie-alma",
-          "sheet": "Yanıtlar",
-          "row": 192,
-          "sentences": [
-            "Vergi numarası (NIF) ve NIE nasıl alınır?",
-            "NIE'yi polis, NIE'si olmayanlara NIF'i Agencia Tributaria atar",
-            "Vergiyle ilgili işlemlerde NIF (vergi kimlik numarası) gerekir; çoğu kişide NIF, DNI ya da NIE ile aynıdır."
-          ]
-        },
-        {
-          "id": "malaga:emt-otobus-temassiz-banka-karti-ile-odeme",
-          "sheet": "Yanıtlar",
-          "row": 237,
-          "sentences": [
-            "Fatura için clientes@emtsam.es adresine ad-soyadını ya da ticari unvanını, adresini, NIF/CIF numaranı, tarihi, saati, otobüsü ve ödemede kullandığın kartın son 4 hanesini yaz."
-          ]
-        },
-        {
-          "id": "malaga:term:017",
-          "sheet": "Sözlük",
-          "row": 24,
-          "sentences": [
-            "NIF (número de identificación fiscal)",
-            "Vergi açısından önem taşıyan işlem yapan gerçek kişinin NIF'i olmalıdır; genelde DNI ya da NIE ile aynıdır."
           ]
         }
       ]
@@ -2919,11 +2990,7 @@
       "anchor": "escolarizacion",
       "kind": "sozluk",
       "farkli_deger": [],
-      "values": {
-        "tarih": [
-          "30 mart"
-        ]
-      },
+      "values": {},
       "mentions": [
         {
           "id": "malaga:okul-bulma-iescolariza-ve-etki-alani",
@@ -2939,7 +3006,7 @@
           "sheet": "Yanıtlar",
           "row": 16,
           "sentences": [
-            "Başvuru formunu Junta'nın 0–3 yaş escolarización sayfasındaki Impresos bölümünden bul; kreşlerin teklifi (oferta educativa) 2026/27'de 30 Mart'ta ilan edildi."
+            "Başvuru formunu (modelo) Junta'nın 0–3 yaş escolarización sayfasından al; kâğıtla başvuruyu seçtiğin kreşe ver, elektronik başvuruyu Secretaría Virtual de los Centros üzerinden yap."
           ]
         },
         {
@@ -2956,6 +3023,49 @@
           "row": 64,
           "sentences": [
             "Escolarización (okula kayıt ve yerleştirme)"
+          ]
+        }
+      ]
+    },
+    {
+      "anchor": "ivtm",
+      "kind": "sozluk",
+      "farkli_deger": [],
+      "values": {},
+      "mentions": [
+        {
+          "id": "malaga:malaga-arac-vergisi-ivtm-odeme-satis-ve-terk",
+          "sheet": "Yanıtlar",
+          "row": 160,
+          "sentences": [
+            "Málaga'da araç vergisi (IVTM) kime düşer, ne zaman ödenir, aracı satınca ya da terk edince vergi nasıl durur?",
+            "IVTM'yi trafik sicilinde (Jefatura Provincial de Tráfico) adına kayıtlı araç sahibi öder ve vergi araç sicilden silinene kadar sürer.",
+            "Yeni araç tescilinde önce IVTM autoliquidación'ını belediyenin Sede Electrónica'sındaki 'IVTM."
+          ]
+        },
+        {
+          "id": "malaga:arac-kaydi-ulusal-cerceve",
+          "sheet": "Yanıtlar",
+          "row": 200,
+          "sentences": [
+            "Oturduğun belediyenin Impuesto de Circulación (IVTM) ödeme veya muafiyet belgesini al.",
+            "Oturduğun belediyenin Impuesto de Circulación (IVTM) ödeme veya muafiyet belgesi"
+          ]
+        },
+        {
+          "id": "malaga:term:003",
+          "sheet": "Sözlük",
+          "row": 10,
+          "sentences": [
+            "Araç vergisinde (IVTM) aracın adresini (domicilio del vehículo) kanıtlamak için Tráfico'da (Jefatura Provincial de Tráfico), OMAC'ta ya da Gestión Tributaria'da titular'ın (araç sahibinin) DNI fotokop"
+          ]
+        },
+        {
+          "id": "malaga:term:026",
+          "sheet": "Sözlük",
+          "row": 33,
+          "sentences": [
+            "IVTM (Impuesto sobre Vehículos de Tracción Mecánica)"
           ]
         }
       ]
@@ -2983,7 +3093,7 @@
           "sentences": [
             "Randevulu hizmetler genel işlemler, cezalar ve diğer vergiler, belge kaydı, Padrón, Plusvalía, IBI (katastro belgeleri) ile ödeme erteleme ve taksitlendirmedir.",
             "İşlemine uygun randevu hizmetini seç: genel işlemler, cezalar ve diğer vergiler, belge kaydı; Padrón; Plusvalía; IBI (katastro belgeleri); ödeme erteleme ve taksitlendirme.",
-            "Plusvalía için randevu gerekir; ceza ve katastro belgesi bu listede geçmez."
+            "Randevuya işlemin belgeleriyle git; örneğin satış ya da bağışta Plusvalía beyanı için devir senedinin basit kopyası (copia simple) istenir, senette önceki mülkiyet senedi geçmiyorsa onun fotokopisi de"
           ]
         },
         {
@@ -3025,7 +3135,8 @@
           "sheet": "Sözlük",
           "row": 38,
           "sentences": [
-            "SAS (Servicio Andaluz de Salud)"
+            "SAS (Servicio Andaluz de Salud)",
+            "İvedi ve acil sağlık hizmetleri için geniş bir kaynak ağı SAS'a bağlıdır."
           ]
         },
         {
@@ -3033,7 +3144,7 @@
           "sheet": "Sözlük",
           "row": 39,
           "sentences": [
-            "SAS'ın telefon, internet ve mobil uygulamayla sunduğu çok kanallı sağlık hizmeti hattı."
+            "SAS'ın telefon hattı ve mobil uygulamasıyla çok kanallı sunduğu sağlık hizmeti."
           ]
         },
         {
@@ -3042,6 +3153,45 @@
           "row": 40,
           "sentences": [
             "SAS'ın internet hizmeti; kişisel verilerle ya da certificado digital, DNIe veya Cl@ve ile kimlik doğrulayıp birinci basamak randevusu alınır."
+          ]
+        }
+      ]
+    },
+    {
+      "anchor": "ex-17",
+      "kind": "kod",
+      "farkli_deger": [],
+      "values": {
+        "ucret": [
+          "16,08 €"
+        ]
+      },
+      "mentions": [
+        {
+          "id": "malaga:tie-yabanci-kimlik-karti",
+          "sheet": "Yanıtlar",
+          "row": 126,
+          "sentences": [
+            "EX17 formu (TIE başvurusu)"
+          ]
+        },
+        {
+          "id": "malaga:tie-karti-basvuru-birimi",
+          "sheet": "Yanıtlar",
+          "row": 139,
+          "sentences": [
+            "Manuel Azaña n.º 3; EX17 formuyla başvurulur, ilk TIE harcı 16,08 euro",
+            "Başvuru EX17 formuyla yapılır ve yanında 790 kodu 012 harç belgesi gerekir.",
+            "EX17 formunu (TIE başvurusu) doldur."
+          ]
+        },
+        {
+          "id": "malaga:ilce-polis-birimlerinde-nie-tie",
+          "sheet": "Yanıtlar",
+          "row": 140,
+          "sentences": [
+            "TIE için EX17 formunu ve 790 kodu 012 harç belgesini karakola götür.",
+            "TIE için EX17 formu"
           ]
         }
       ]
@@ -3079,41 +3229,6 @@
           "sentences": [
             "Homologación (yurt dışı diploma denkliği)",
             "Mevzuat homologación (denklik onayı), declaración de equivalencia ve convalidación yollarını ayrı ayrı düzenler."
-          ]
-        }
-      ]
-    },
-    {
-      "anchor": "ivtm",
-      "kind": "sozluk",
-      "farkli_deger": [],
-      "values": {},
-      "mentions": [
-        {
-          "id": "malaga:malaga-arac-vergisi-ivtm-odeme-satis-ve-terk",
-          "sheet": "Yanıtlar",
-          "row": 160,
-          "sentences": [
-            "Málaga'da araç vergisi (IVTM) kime düşer, ne zaman ödenir, aracı satınca ya da terk edince vergi nasıl durur?",
-            "IVTM'yi trafik sicilinde (Jefatura Provincial de Tráfico) adına kayıtlı araç sahibi öder ve vergi araç sicilden silinene kadar sürer.",
-            "Yeni araç tescilinde önce IVTM autoliquidación'ını belediyenin Sede Electrónica'sındaki 'IVTM."
-          ]
-        },
-        {
-          "id": "malaga:arac-kaydi-ulusal-cerceve",
-          "sheet": "Yanıtlar",
-          "row": 200,
-          "sentences": [
-            "Oturduğun belediyenin Impuesto de Circulación (IVTM) ödeme veya muafiyet belgesini al.",
-            "Oturduğun belediyenin Impuesto de Circulación (IVTM) ödeme veya muafiyet belgesi"
-          ]
-        },
-        {
-          "id": "malaga:term:026",
-          "sheet": "Sözlük",
-          "row": 33,
-          "sentences": [
-            "IVTM (Impuesto sobre Vehículos de Tracción Mecánica)"
           ]
         }
       ]
@@ -3161,7 +3276,7 @@
           "sheet": "Yanıtlar",
           "row": 104,
           "sentences": [
-            "TGSS (kayıt, autónomo, borç, vida laboral gibi işler) için randevu sistemi yoktur: TGSS ofislerine pazartesi-cuma 9.00-14.00 arası gidilebilir, ancak işlemleri mümkünse telefonla ya da Importass üzeri"
+            "TGSS (kayıt, autónomo, borç, vida laboral gibi işler) için randevu sistemi yoktur: Málaga'dakiler dahil herhangi bir TGSS ofisine pazartesi-cuma 9.00-14.00 arası gidilebilir, ancak işlemleri mümkünse "
           ]
         },
         {
@@ -3281,6 +3396,9 @@
       "values": {
         "tarih": [
           "30 haziran"
+        ],
+        "ucret": [
+          "38,28 €"
         ]
       },
       "mentions": [
@@ -3291,7 +3409,7 @@
           "sentences": [
             "Arraigo (kök salma) ile oturum izni almak mümkün mü?",
             "Beş tür arraigo var; çoğunda iki yıl kesintisiz İspanya'da bulunmuş olmak gerekir",
-            "Arraigo, İspanya'da yaşayan ve ekonomik, sosyal, ailevi, çalışma ya da eğitim bağı olan yabancılara verilen geçici oturum izni türüdür."
+            "Evet: İspanya'da başvurudan önceki en az iki yıl kesintisiz bulunduysan ve ilgili şartları sağlıyorsan beş arraigo türünden biriyle geçici oturum izni alabilirsin; aile arraigosunda asgari kalış süres"
           ]
         },
         {
@@ -3300,7 +3418,8 @@
           "row": 67,
           "sentences": [
             "Arraigo",
-            "Segunda oportunidad, sociolaboral, social, socioformativo ve familiar alt türleri vardır; arraigo familiar, İspanya'da bulunup bir İspanyol vatandaşıyla bağı olanlar içindir."
+            "Arraigo familiar iki durum içindir: başka bir AB/AEA devleti ya da İsviçre vatandaşı reşit olmayan çocuğun ebeveyni ya da vasisi olmak (başvuruda İspanya'da yaşadığını, çocuğu bakımında tuttuğunu ve o",
+            "İspanyol vatandaşının yakınları ise arraigo familiar dışında ayrı bir oturum statüsü olarak düzenlenir."
           ]
         }
       ]
@@ -3309,14 +3428,18 @@
       "anchor": "ex-01",
       "kind": "kod",
       "farkli_deger": [],
-      "values": {},
+      "values": {
+        "ucret": [
+          "10,94 €"
+        ]
+      },
       "mentions": [
         {
           "id": "malaga:kar-amaci-gutmeyen-oturum-vizesi",
           "sheet": "Yanıtlar",
           "row": 133,
           "sentences": [
-            "Ulusal vize başvuru formunu ve EX-01 formunu doldur; oturum izni harcı için 790 kodu 052 formunu (2.1 başlıklı, ilk geçici oturum izni) iki nüsha doldurup imzala ya da internetten öde.",
+            "Ulusal vize başvuru formunu ve EX-01 formunu doldur; oturum izni harcı için 790 kodu 052 formunu (2.1 başlıklı, ilk geçici oturum izni; harç 10,94 euro) iki nüsha doldurup imzala ya da internetten öde",
             "Ulusal vize başvuru formu ve EX-01 formu"
           ]
         },
@@ -3408,30 +3531,6 @@
       ]
     },
     {
-      "anchor": "padron municipal",
-      "kind": "sozluk",
-      "farkli_deger": [],
-      "values": {},
-      "mentions": [
-        {
-          "id": "malaga:malaga-registro-civil-ofisi-ve-bebegin-padron-kaydi",
-          "sheet": "Yanıtlar",
-          "row": 21,
-          "sentences": [
-            "Gestión Tributaria'nın ofisi yalnız randevuyla hizmet verir; belediyenin padrón sayfasında \"Cita Previa - Padrón Municipal de Habitantes\" başlıklı bir randevu bağlantısı var."
-          ]
-        },
-        {
-          "id": "malaga:term:001",
-          "sheet": "Sözlük",
-          "row": 8,
-          "sentences": [
-            "Padrón municipal (empadronamiento)"
-          ]
-        }
-      ]
-    },
-    {
       "anchor": "pae",
       "kind": "sozluk",
       "farkli_deger": [],
@@ -3484,7 +3583,7 @@
   ],
   "summary": {
     "groups": 47,
-    "farkli_degerli": 8
+    "farkli_degerli": 10
   },
   "not": "Aday listesi; karar degildir. Farkli deger farkli islem ya da donemden de gelebilir."
 }

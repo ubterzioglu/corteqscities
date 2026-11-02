@@ -15,7 +15,8 @@ sehir = json.loads((work / "sablon_dump" / "Şehir.jsonl").read_text(encoding="u
 ad = str(sehir.get("name", "")).strip()
 city = {"municipality": ad, "municipality_aliases": sorted({ad, *pc._aliases(sehir.get("aliases"))} - {""}),
         "city_lat": pc._float(sehir.get("latitude")), "city_lon": pc._float(sehir.get("longitude"))}
-plan = [json.loads(l) for l in (work / "mekan" / "plan.jsonl").read_text(encoding="utf-8").splitlines() if l.strip()]
+plan_yolu = pathlib.Path(sys.argv[3]) if len(sys.argv) > 3 else work / "mekan" / "plan.jsonl"
+plan = [json.loads(l) for l in plan_yolu.read_text(encoding="utf-8").splitlines() if l.strip()]
 rows = []
 for r in plan:
     name = str(r.get("name") or "").strip()
