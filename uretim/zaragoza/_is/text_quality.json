@@ -20,22 +20,22 @@
     "hedge_share": 0.0,
     "exact_records": 4,
     "short_repeat_groups": 1,
-    "repeated_sentences": 12,
-    "cards_total": 370,
+    "repeated_sentences": 16,
+    "cards_total": 369,
     "visual_json_empty": 246,
     "address": {
       "standard": "sen",
-      "records": 489,
-      "hitapsiz": 210,
+      "records": 488,
+      "hitapsiz": 207,
       "siz": 0,
-      "sen": 279,
+      "sen": 281,
       "karisik": 0,
       "findings": 0,
       "labels": {
-        "records": 563,
+        "records": 562,
         "hitapsiz": 82,
         "siz": 0,
-        "sen": 481,
+        "sen": 480,
         "karisik": 0
       },
       "skipped": []
@@ -116,6 +116,15 @@
       "sample": "köpeklerin serbest bırakılmasına izin veriliyor"
     },
     {
+      "sheet": "Mekânlar",
+      "sentence": "tesisin kendisi acik zaragoza belediyesi haberi",
+      "records": 5,
+      "fields": [
+        "note"
+      ],
+      "sample": "tesisin kendisi açık (Zaragoza Belediyesi haberi)"
+    },
+    {
       "sheet": "Yanıtlar",
       "sentence": "bu kart 7 ekim 2026 tarihli konsolide metne gore yayim 7 ekim yururluk 8 ekim",
       "records": 5,
@@ -137,12 +146,12 @@
     },
     {
       "sheet": "Mekânlar",
-      "sentence": "gunluk 08 00 22 00 yaz havuzlari 10 30 21 00 arasi aciktir",
+      "sentence": "belediye sayfasina gore 08 00 22 00 arasi yaz havuzlari 10 30 21 00 arasi aciktir",
       "records": 4,
       "fields": [
         "summary"
       ],
-      "sample": "Günlük 08:00-22:00, yaz havuzları 10:30-21:00 arası açıktır"
+      "sample": "Belediye sayfasına göre 08:00-22:00 arası, yaz havuzları 10:30-21:00 arası açıktır"
     },
     {
       "sheet": "Mekânlar",
@@ -173,6 +182,33 @@
         "timing"
       ],
       "sample": "kararname (Real Decreto-ley) olduğu için ileride değişebilir"
+    },
+    {
+      "sheet": "Mekânlar",
+      "sentence": "00 25 aralik ve 1 ocak kapali",
+      "records": 3,
+      "fields": [
+        "summary"
+      ],
+      "sample": "00, 25 Aralık ve 1 Ocak kapalı"
+    },
+    {
+      "sheet": "Mekânlar",
+      "sentence": "16 yas alti 65 yas ustu issizler ve en az 33 engelli ziyaretciyle refakatcisi giris ucreti odemez",
+      "records": 3,
+      "fields": [
+        "summary"
+      ],
+      "sample": "16 yaş altı, 65 yaş üstü, işsizler ve en az %33 engelli ziyaretçiyle refakatçisi giriş ücreti ödemez"
+    },
+    {
+      "sheet": "Mekânlar",
+      "sentence": "2 kasim 2026 itibariyla yaz havuzlari mevsimlik olarak kapali yaz sezonu 30 agustos tarihine kadar",
+      "records": 3,
+      "fields": [
+        "note"
+      ],
+      "sample": "2 Kasım 2026 itibarıyla yaz havuzları mevsimlik olarak kapalı (yaz sezonu 30 Ağustos tarihine kadar)"
     },
     {
       "sheet": "Mekânlar",
@@ -231,7 +267,7 @@
     "items": []
   },
   "hedges": {
-    "cards_total": 370,
+    "cards_total": 369,
     "cards_with_hedge": 0,
     "share": 0.0,
     "max_per_card": 0,
@@ -244,7 +280,7 @@
   },
   "action_links": {
     "skipped": false,
-    "checked": 370,
+    "checked": 369,
     "missing": 0,
     "map_only": 0,
     "no_id": 0,
@@ -264,10 +300,10 @@
   },
   "address": {
     "standard": "sen",
-    "records": 489,
-    "hitapsiz": 210,
+    "records": 488,
+    "hitapsiz": 207,
     "siz": 0,
-    "sen": 279,
+    "sen": 281,
     "karisik": 0,
     "by_sheet": {
       "Yanıtlar": {
@@ -278,8 +314,8 @@
         "karisik": 0
       },
       "Mekânlar": {
-        "records": 109,
-        "hitapsiz": 104,
+        "records": 108,
+        "hitapsiz": 103,
         "siz": 0,
         "sen": 5,
         "karisik": 0
@@ -314,9 +350,9 @@
       },
       "Sözlük": {
         "records": 64,
-        "hitapsiz": 62,
+        "hitapsiz": 60,
         "siz": 0,
-        "sen": 2,
+        "sen": 4,
         "karisik": 0
       },
       "SayfaAlanları": {
@@ -342,10 +378,10 @@
       }
     },
     "labels": {
-      "records": 563,
+      "records": 562,
       "hitapsiz": 82,
       "siz": 0,
-      "sen": 481,
+      "sen": 480,
       "karisik": 0
     },
     "skipped": [],
@@ -4857,15 +4893,15 @@
       },
       {
         "sheet": "Mekânlar",
-        "row": 87,
-        "id": "zaragoza:teatro-principal",
+        "row": 78,
+        "id": "zaragoza:galacho-de-juslibol",
         "form": "sen",
         "fields": {
-          "summary": "sen"
+          "note": "sen"
         },
         "siz": [],
         "sen": [
-          "ulaşabilirsin"
+          "dur"
         ]
       },
       {
@@ -4911,7 +4947,8 @@
         "siz": [],
         "sen": [
           "başla",
-          "gör"
+          "gör",
+          "girmeyeceksin"
         ]
       },
       {
@@ -5034,7 +5071,8 @@
         "siz": [],
         "sen": [
           "başla",
-          "kullanabilirsin"
+          "git",
+          "kullan"
         ]
       },
       {
@@ -5164,6 +5202,19 @@
       },
       {
         "sheet": "Sözlük",
+        "row": 26,
+        "id": "zaragoza:term:019",
+        "form": "sen",
+        "fields": {
+          "definition": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "görebilirsin"
+        ]
+      },
+      {
+        "sheet": "Sözlük",
         "row": 51,
         "id": "zaragoza:term:044",
         "form": "sen",
@@ -5173,6 +5224,19 @@
         "siz": [],
         "sen": [
           "seni"
+        ]
+      },
+      {
+        "sheet": "Sözlük",
+        "row": 59,
+        "id": "zaragoza:term:052",
+        "form": "sen",
+        "fields": {
+          "definition": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "alabilirsin"
         ]
       },
       {

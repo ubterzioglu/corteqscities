@@ -1,25 +1,25 @@
 {
   "note": "'supported' yalnız tutarlılıktır: değer, kartın gösterdiği kaynak snapshot metninde geçiyor. İddianın doğru, güncel ya da aynı statü/dönem için geçerli olduğunun kanıtı değil (doğruluk kanıtı değil); resmî kaynakla ayrıca doğrulanmalı. 'not_in_source' kaynak metni olduğu hâlde değerin bulunmadığını, 'no_snapshot' metin olmadığı/ince olduğu için karar verilemediğini, 'homepage_only_source' kartın yalnız anasayfa(lar)a dayandığını gösterir.",
   "summary": {
-    "claims": 2820,
-    "entries": 214,
+    "claims": 2862,
+    "entries": 221,
     "mode": "unit",
     "by_result": {
-      "supported": 1197,
-      "not_in_source": 1610,
+      "supported": 1219,
+      "not_in_source": 1630,
       "no_snapshot": 13,
       "homepage_only_source": 0,
       "no_source": 0
     },
     "by_kind": {
       "age": {
-        "not_in_source": 142,
+        "not_in_source": 143,
         "supported": 6
       },
       "date": {
         "no_snapshot": 2,
-        "not_in_source": 369,
-        "supported": 125
+        "not_in_source": 374,
+        "supported": 133
       },
       "duration": {
         "no_snapshot": 7,
@@ -29,7 +29,7 @@
       "money": {
         "no_snapshot": 3,
         "not_in_source": 144,
-        "supported": 365
+        "supported": 368
       },
       "percent": {
         "no_snapshot": 1,
@@ -40,22 +40,22 @@
         "supported": 1
       },
       "time": {
-        "not_in_source": 66,
-        "supported": 504
+        "not_in_source": 69,
+        "supported": 515
       },
       "weekday": {
-        "not_in_source": 274,
+        "not_in_source": 285,
         "supported": 2
       }
     },
-    "number_only_hits": 795,
+    "number_only_hits": 796,
     "source_states": {
       "fetch_error": 9,
       "http_error": 5,
-      "ok": 263
+      "ok": 266
     },
     "snapshot_format": "toolkit",
-    "snapshots_indexed": 469,
+    "snapshots_indexed": 479,
     "snapshots_skipped": []
   },
   "results": [
@@ -178394,6 +178394,1525 @@
       }
     },
     {
+      "claim_id": "zaragoza:term:005:#1",
+      "entry_id": "zaragoza:term:005",
+      "sheet": "Sözlük",
+      "_row": 12,
+      "field": "definition",
+      "kind": "date",
+      "text": "16 Eylül",
+      "sentence": "Zaragoza'daki Yabancılar Bürosu (Oficina de Extranjería) randevuyla çalışır (kış, 16 Eylül–15 Haziran: pazartesi–perşembe 09.00–17.30, cuma 09.00–14.00;",
+      "values": [
+        {
+          "kind": "date",
+          "day": 16,
+          "month": 9
+        }
+      ],
+      "result": "supported",
+      "value_levels": [
+        "unit"
+      ],
+      "sources": [
+        {
+          "source_id": "zaragoza:kaynak:304",
+          "url": "https://www.zaragoza.es/sede/servicio/equipamiento/12574",
+          "homepage": false,
+          "snapshot_id": "36cae0746848715b1b007a6da6a2a86c13017aae37e6a3be87d15f92cdccf2b3.txt",
+          "chars": 2822,
+          "snapshot_state": "ok"
+        },
+        {
+          "source_id": "zaragoza:kaynak:185",
+          "url": "https://www.aragon.es/tramitador/-/tramite/solicitud-cita-atencion-sanitaria-atencion-primaria",
+          "homepage": false,
+          "snapshot_id": "67167ca2fb7afae642157ff20f812b123db90b3f4940e3080a16ba4ba5a5efa5.txt",
+          "chars": 7031,
+          "snapshot_state": "ok"
+        }
+      ],
+      "evidence": [
+        {
+          "value_index": 0,
+          "source_id": "zaragoza:kaynak:304",
+          "url": "https://www.zaragoza.es/sede/servicio/equipamiento/12574",
+          "snapshot_id": "36cae0746848715b1b007a6da6a2a86c13017aae37e6a3be87d15f92cdccf2b3.txt",
+          "level": "unit",
+          "snippet": "…0071 Teléfono: 976980020 Fax: 976999026 Horario: CITA PREVIA HORARIO: Invierno (16 SEP-15 JUN): de lunes a jueves de 09 a 17:30 h. Viernes de 09 a 14 h. Verano (16 JU…",
+          "fetched_at": "2026-11-02"
+        }
+      ],
+      "uncertainty": "kaynakların 2/2 tanesi tam metinle denetlendi; yalnız tutarlılık; doğruluk/güncellik/statü ayrıca doğrulanmalı",
+      "claim_record": {
+        "claim_id": "zaragoza:term:005:#1",
+        "entry_id": "zaragoza:term:005",
+        "Excel_satırı": "Sözlük!12",
+        "iddia": "Zaragoza'daki Yabancılar Bürosu (Oficina de Extranjería) randevuyla çalışır (kış, 16 Eylül–15 Haziran: pazartesi–perşembe 09.00–17.30, cuma 09.00–14.00;",
+        "ülke_şehir_statü": null,
+        "dönem": null,
+        "resmî_URL": [
+          "https://www.zaragoza.es/sede/servicio/equipamiento/12574",
+          "https://www.aragon.es/tramitador/-/tramite/solicitud-cita-atencion-sanitaria-atencion-primaria"
+        ],
+        "kaynak_bölümü": "…0071 Teléfono: 976980020 Fax: 976999026 Horario: CITA PREVIA HORARIO: Invierno (16 SEP-15 JUN): de lunes a jueves de 09 a 17:30 h. Viernes de 09 a 14 h. Verano (16 JU…",
+        "yayın_yürürlük_tarihleri": null,
+        "kontrol_tarihi": "2026-11-02",
+        "hesap_varsa_girdiler": null,
+        "sonuç": "supported",
+        "belirsizlik": "kaynakların 2/2 tanesi tam metinle denetlendi; yalnız tutarlılık; doğruluk/güncellik/statü ayrıca doğrulanmalı"
+      }
+    },
+    {
+      "claim_id": "zaragoza:term:005:#2",
+      "entry_id": "zaragoza:term:005",
+      "sheet": "Sözlük",
+      "_row": 12,
+      "field": "definition",
+      "kind": "date",
+      "text": "15 Haziran",
+      "sentence": "Zaragoza'daki Yabancılar Bürosu (Oficina de Extranjería) randevuyla çalışır (kış, 16 Eylül–15 Haziran: pazartesi–perşembe 09.00–17.30, cuma 09.00–14.00;",
+      "values": [
+        {
+          "kind": "date",
+          "day": 15,
+          "month": 6
+        }
+      ],
+      "result": "supported",
+      "value_levels": [
+        "unit"
+      ],
+      "sources": [
+        {
+          "source_id": "zaragoza:kaynak:304",
+          "url": "https://www.zaragoza.es/sede/servicio/equipamiento/12574",
+          "homepage": false,
+          "snapshot_id": "36cae0746848715b1b007a6da6a2a86c13017aae37e6a3be87d15f92cdccf2b3.txt",
+          "chars": 2822,
+          "snapshot_state": "ok"
+        },
+        {
+          "source_id": "zaragoza:kaynak:185",
+          "url": "https://www.aragon.es/tramitador/-/tramite/solicitud-cita-atencion-sanitaria-atencion-primaria",
+          "homepage": false,
+          "snapshot_id": "67167ca2fb7afae642157ff20f812b123db90b3f4940e3080a16ba4ba5a5efa5.txt",
+          "chars": 7031,
+          "snapshot_state": "ok"
+        }
+      ],
+      "evidence": [
+        {
+          "value_index": 0,
+          "source_id": "zaragoza:kaynak:304",
+          "url": "https://www.zaragoza.es/sede/servicio/equipamiento/12574",
+          "snapshot_id": "36cae0746848715b1b007a6da6a2a86c13017aae37e6a3be87d15f92cdccf2b3.txt",
+          "level": "unit",
+          "snippet": "…léfono: 976980020 Fax: 976999026 Horario: CITA PREVIA HORARIO: Invierno (16 SEP-15 JUN): de lunes a jueves de 09 a 17:30 h. Viernes de 09 a 14 h. Verano (16 JUN-15 SE…",
+          "fetched_at": "2026-11-02"
+        }
+      ],
+      "uncertainty": "kaynakların 2/2 tanesi tam metinle denetlendi; yalnız tutarlılık; doğruluk/güncellik/statü ayrıca doğrulanmalı",
+      "claim_record": {
+        "claim_id": "zaragoza:term:005:#2",
+        "entry_id": "zaragoza:term:005",
+        "Excel_satırı": "Sözlük!12",
+        "iddia": "Zaragoza'daki Yabancılar Bürosu (Oficina de Extranjería) randevuyla çalışır (kış, 16 Eylül–15 Haziran: pazartesi–perşembe 09.00–17.30, cuma 09.00–14.00;",
+        "ülke_şehir_statü": null,
+        "dönem": null,
+        "resmî_URL": [
+          "https://www.zaragoza.es/sede/servicio/equipamiento/12574",
+          "https://www.aragon.es/tramitador/-/tramite/solicitud-cita-atencion-sanitaria-atencion-primaria"
+        ],
+        "kaynak_bölümü": "…léfono: 976980020 Fax: 976999026 Horario: CITA PREVIA HORARIO: Invierno (16 SEP-15 JUN): de lunes a jueves de 09 a 17:30 h. Viernes de 09 a 14 h. Verano (16 JUN-15 SE…",
+        "yayın_yürürlük_tarihleri": null,
+        "kontrol_tarihi": "2026-11-02",
+        "hesap_varsa_girdiler": null,
+        "sonuç": "supported",
+        "belirsizlik": "kaynakların 2/2 tanesi tam metinle denetlendi; yalnız tutarlılık; doğruluk/güncellik/statü ayrıca doğrulanmalı"
+      }
+    },
+    {
+      "claim_id": "zaragoza:term:005:#3",
+      "entry_id": "zaragoza:term:005",
+      "sheet": "Sözlük",
+      "_row": 12,
+      "field": "definition",
+      "kind": "weekday",
+      "text": "pazartesi",
+      "sentence": "Zaragoza'daki Yabancılar Bürosu (Oficina de Extranjería) randevuyla çalışır (kış, 16 Eylül–15 Haziran: pazartesi–perşembe 09.00–17.30, cuma 09.00–14.00;",
+      "values": [
+        {
+          "kind": "weekday",
+          "value": "monday"
+        }
+      ],
+      "result": "not_in_source",
+      "value_levels": [
+        null
+      ],
+      "sources": [
+        {
+          "source_id": "zaragoza:kaynak:304",
+          "url": "https://www.zaragoza.es/sede/servicio/equipamiento/12574",
+          "homepage": false,
+          "snapshot_id": "36cae0746848715b1b007a6da6a2a86c13017aae37e6a3be87d15f92cdccf2b3.txt",
+          "chars": 2822,
+          "snapshot_state": "ok"
+        },
+        {
+          "source_id": "zaragoza:kaynak:185",
+          "url": "https://www.aragon.es/tramitador/-/tramite/solicitud-cita-atencion-sanitaria-atencion-primaria",
+          "homepage": false,
+          "snapshot_id": "67167ca2fb7afae642157ff20f812b123db90b3f4940e3080a16ba4ba5a5efa5.txt",
+          "chars": 7031,
+          "snapshot_state": "ok"
+        }
+      ],
+      "evidence": [],
+      "uncertainty": "kaynakların 2/2 tanesi tam metinle denetlendi",
+      "claim_record": {
+        "claim_id": "zaragoza:term:005:#3",
+        "entry_id": "zaragoza:term:005",
+        "Excel_satırı": "Sözlük!12",
+        "iddia": "Zaragoza'daki Yabancılar Bürosu (Oficina de Extranjería) randevuyla çalışır (kış, 16 Eylül–15 Haziran: pazartesi–perşembe 09.00–17.30, cuma 09.00–14.00;",
+        "ülke_şehir_statü": null,
+        "dönem": null,
+        "resmî_URL": [
+          "https://www.zaragoza.es/sede/servicio/equipamiento/12574",
+          "https://www.aragon.es/tramitador/-/tramite/solicitud-cita-atencion-sanitaria-atencion-primaria"
+        ],
+        "kaynak_bölümü": null,
+        "yayın_yürürlük_tarihleri": null,
+        "kontrol_tarihi": "2026-11-02",
+        "hesap_varsa_girdiler": null,
+        "sonuç": "not_in_source",
+        "belirsizlik": "kaynakların 2/2 tanesi tam metinle denetlendi"
+      }
+    },
+    {
+      "claim_id": "zaragoza:term:005:#4",
+      "entry_id": "zaragoza:term:005",
+      "sheet": "Sözlük",
+      "_row": 12,
+      "field": "definition",
+      "kind": "weekday",
+      "text": "perşembe",
+      "sentence": "Zaragoza'daki Yabancılar Bürosu (Oficina de Extranjería) randevuyla çalışır (kış, 16 Eylül–15 Haziran: pazartesi–perşembe 09.00–17.30, cuma 09.00–14.00;",
+      "values": [
+        {
+          "kind": "weekday",
+          "value": "thursday"
+        }
+      ],
+      "result": "not_in_source",
+      "value_levels": [
+        null
+      ],
+      "sources": [
+        {
+          "source_id": "zaragoza:kaynak:304",
+          "url": "https://www.zaragoza.es/sede/servicio/equipamiento/12574",
+          "homepage": false,
+          "snapshot_id": "36cae0746848715b1b007a6da6a2a86c13017aae37e6a3be87d15f92cdccf2b3.txt",
+          "chars": 2822,
+          "snapshot_state": "ok"
+        },
+        {
+          "source_id": "zaragoza:kaynak:185",
+          "url": "https://www.aragon.es/tramitador/-/tramite/solicitud-cita-atencion-sanitaria-atencion-primaria",
+          "homepage": false,
+          "snapshot_id": "67167ca2fb7afae642157ff20f812b123db90b3f4940e3080a16ba4ba5a5efa5.txt",
+          "chars": 7031,
+          "snapshot_state": "ok"
+        }
+      ],
+      "evidence": [],
+      "uncertainty": "kaynakların 2/2 tanesi tam metinle denetlendi",
+      "claim_record": {
+        "claim_id": "zaragoza:term:005:#4",
+        "entry_id": "zaragoza:term:005",
+        "Excel_satırı": "Sözlük!12",
+        "iddia": "Zaragoza'daki Yabancılar Bürosu (Oficina de Extranjería) randevuyla çalışır (kış, 16 Eylül–15 Haziran: pazartesi–perşembe 09.00–17.30, cuma 09.00–14.00;",
+        "ülke_şehir_statü": null,
+        "dönem": null,
+        "resmî_URL": [
+          "https://www.zaragoza.es/sede/servicio/equipamiento/12574",
+          "https://www.aragon.es/tramitador/-/tramite/solicitud-cita-atencion-sanitaria-atencion-primaria"
+        ],
+        "kaynak_bölümü": null,
+        "yayın_yürürlük_tarihleri": null,
+        "kontrol_tarihi": "2026-11-02",
+        "hesap_varsa_girdiler": null,
+        "sonuç": "not_in_source",
+        "belirsizlik": "kaynakların 2/2 tanesi tam metinle denetlendi"
+      }
+    },
+    {
+      "claim_id": "zaragoza:term:005:#5",
+      "entry_id": "zaragoza:term:005",
+      "sheet": "Sözlük",
+      "_row": 12,
+      "field": "definition",
+      "kind": "time",
+      "text": "09.00",
+      "sentence": "Zaragoza'daki Yabancılar Bürosu (Oficina de Extranjería) randevuyla çalışır (kış, 16 Eylül–15 Haziran: pazartesi–perşembe 09.00–17.30, cuma 09.00–14.00;",
+      "values": [
+        {
+          "kind": "time",
+          "value": "09:00"
+        }
+      ],
+      "result": "supported",
+      "value_levels": [
+        "unit"
+      ],
+      "sources": [
+        {
+          "source_id": "zaragoza:kaynak:304",
+          "url": "https://www.zaragoza.es/sede/servicio/equipamiento/12574",
+          "homepage": false,
+          "snapshot_id": "36cae0746848715b1b007a6da6a2a86c13017aae37e6a3be87d15f92cdccf2b3.txt",
+          "chars": 2822,
+          "snapshot_state": "ok"
+        },
+        {
+          "source_id": "zaragoza:kaynak:185",
+          "url": "https://www.aragon.es/tramitador/-/tramite/solicitud-cita-atencion-sanitaria-atencion-primaria",
+          "homepage": false,
+          "snapshot_id": "67167ca2fb7afae642157ff20f812b123db90b3f4940e3080a16ba4ba5a5efa5.txt",
+          "chars": 7031,
+          "snapshot_state": "ok"
+        }
+      ],
+      "evidence": [
+        {
+          "value_index": 0,
+          "source_id": "zaragoza:kaynak:185",
+          "url": "https://www.aragon.es/tramitador/-/tramite/solicitud-cita-atencion-sanitaria-atencion-primaria",
+          "snapshot_id": "67167ca2fb7afae642157ff20f812b123db90b3f4940e3080a16ba4ba5a5efa5.txt",
+          "level": "unit",
+          "snippet": "…a con el Servicio de Información y Registro: 976 714 111. De lunes a viernes de 9:00 a 14:00 h atencionalaciudadania@aragon.es Apartado anterior: Fases de la tramit…",
+          "fetched_at": "2026-11-02"
+        }
+      ],
+      "uncertainty": "kaynakların 2/2 tanesi tam metinle denetlendi; yalnız tutarlılık; doğruluk/güncellik/statü ayrıca doğrulanmalı",
+      "claim_record": {
+        "claim_id": "zaragoza:term:005:#5",
+        "entry_id": "zaragoza:term:005",
+        "Excel_satırı": "Sözlük!12",
+        "iddia": "Zaragoza'daki Yabancılar Bürosu (Oficina de Extranjería) randevuyla çalışır (kış, 16 Eylül–15 Haziran: pazartesi–perşembe 09.00–17.30, cuma 09.00–14.00;",
+        "ülke_şehir_statü": null,
+        "dönem": null,
+        "resmî_URL": [
+          "https://www.zaragoza.es/sede/servicio/equipamiento/12574",
+          "https://www.aragon.es/tramitador/-/tramite/solicitud-cita-atencion-sanitaria-atencion-primaria"
+        ],
+        "kaynak_bölümü": "…a con el Servicio de Información y Registro: 976 714 111. De lunes a viernes de 9:00 a 14:00 h atencionalaciudadania@aragon.es Apartado anterior: Fases de la tramit…",
+        "yayın_yürürlük_tarihleri": null,
+        "kontrol_tarihi": "2026-11-02",
+        "hesap_varsa_girdiler": null,
+        "sonuç": "supported",
+        "belirsizlik": "kaynakların 2/2 tanesi tam metinle denetlendi; yalnız tutarlılık; doğruluk/güncellik/statü ayrıca doğrulanmalı"
+      }
+    },
+    {
+      "claim_id": "zaragoza:term:005:#6",
+      "entry_id": "zaragoza:term:005",
+      "sheet": "Sözlük",
+      "_row": 12,
+      "field": "definition",
+      "kind": "time",
+      "text": "17.30",
+      "sentence": "Zaragoza'daki Yabancılar Bürosu (Oficina de Extranjería) randevuyla çalışır (kış, 16 Eylül–15 Haziran: pazartesi–perşembe 09.00–17.30, cuma 09.00–14.00;",
+      "values": [
+        {
+          "kind": "time",
+          "value": "17:30"
+        }
+      ],
+      "result": "supported",
+      "value_levels": [
+        "unit"
+      ],
+      "sources": [
+        {
+          "source_id": "zaragoza:kaynak:304",
+          "url": "https://www.zaragoza.es/sede/servicio/equipamiento/12574",
+          "homepage": false,
+          "snapshot_id": "36cae0746848715b1b007a6da6a2a86c13017aae37e6a3be87d15f92cdccf2b3.txt",
+          "chars": 2822,
+          "snapshot_state": "ok"
+        },
+        {
+          "source_id": "zaragoza:kaynak:185",
+          "url": "https://www.aragon.es/tramitador/-/tramite/solicitud-cita-atencion-sanitaria-atencion-primaria",
+          "homepage": false,
+          "snapshot_id": "67167ca2fb7afae642157ff20f812b123db90b3f4940e3080a16ba4ba5a5efa5.txt",
+          "chars": 7031,
+          "snapshot_state": "ok"
+        }
+      ],
+      "evidence": [
+        {
+          "value_index": 0,
+          "source_id": "zaragoza:kaynak:304",
+          "url": "https://www.zaragoza.es/sede/servicio/equipamiento/12574",
+          "snapshot_id": "36cae0746848715b1b007a6da6a2a86c13017aae37e6a3be87d15f92cdccf2b3.txt",
+          "level": "unit",
+          "snippet": "…rario: CITA PREVIA HORARIO: Invierno (16 SEP-15 JUN): de lunes a jueves de 09 a 17:30 h. Viernes de 09 a 14 h. Verano (16 JUN-15 SEP): de lunes a viernes de 09 a 14 …",
+          "fetched_at": "2026-11-02"
+        }
+      ],
+      "uncertainty": "kaynakların 2/2 tanesi tam metinle denetlendi; yalnız tutarlılık; doğruluk/güncellik/statü ayrıca doğrulanmalı",
+      "claim_record": {
+        "claim_id": "zaragoza:term:005:#6",
+        "entry_id": "zaragoza:term:005",
+        "Excel_satırı": "Sözlük!12",
+        "iddia": "Zaragoza'daki Yabancılar Bürosu (Oficina de Extranjería) randevuyla çalışır (kış, 16 Eylül–15 Haziran: pazartesi–perşembe 09.00–17.30, cuma 09.00–14.00;",
+        "ülke_şehir_statü": null,
+        "dönem": null,
+        "resmî_URL": [
+          "https://www.zaragoza.es/sede/servicio/equipamiento/12574",
+          "https://www.aragon.es/tramitador/-/tramite/solicitud-cita-atencion-sanitaria-atencion-primaria"
+        ],
+        "kaynak_bölümü": "…rario: CITA PREVIA HORARIO: Invierno (16 SEP-15 JUN): de lunes a jueves de 09 a 17:30 h. Viernes de 09 a 14 h. Verano (16 JUN-15 SEP): de lunes a viernes de 09 a 14 …",
+        "yayın_yürürlük_tarihleri": null,
+        "kontrol_tarihi": "2026-11-02",
+        "hesap_varsa_girdiler": null,
+        "sonuç": "supported",
+        "belirsizlik": "kaynakların 2/2 tanesi tam metinle denetlendi; yalnız tutarlılık; doğruluk/güncellik/statü ayrıca doğrulanmalı"
+      }
+    },
+    {
+      "claim_id": "zaragoza:term:005:#7",
+      "entry_id": "zaragoza:term:005",
+      "sheet": "Sözlük",
+      "_row": 12,
+      "field": "definition",
+      "kind": "weekday",
+      "text": "cuma",
+      "sentence": "Zaragoza'daki Yabancılar Bürosu (Oficina de Extranjería) randevuyla çalışır (kış, 16 Eylül–15 Haziran: pazartesi–perşembe 09.00–17.30, cuma 09.00–14.00;",
+      "values": [
+        {
+          "kind": "weekday",
+          "value": "friday"
+        }
+      ],
+      "result": "not_in_source",
+      "value_levels": [
+        null
+      ],
+      "sources": [
+        {
+          "source_id": "zaragoza:kaynak:304",
+          "url": "https://www.zaragoza.es/sede/servicio/equipamiento/12574",
+          "homepage": false,
+          "snapshot_id": "36cae0746848715b1b007a6da6a2a86c13017aae37e6a3be87d15f92cdccf2b3.txt",
+          "chars": 2822,
+          "snapshot_state": "ok"
+        },
+        {
+          "source_id": "zaragoza:kaynak:185",
+          "url": "https://www.aragon.es/tramitador/-/tramite/solicitud-cita-atencion-sanitaria-atencion-primaria",
+          "homepage": false,
+          "snapshot_id": "67167ca2fb7afae642157ff20f812b123db90b3f4940e3080a16ba4ba5a5efa5.txt",
+          "chars": 7031,
+          "snapshot_state": "ok"
+        }
+      ],
+      "evidence": [],
+      "uncertainty": "kaynakların 2/2 tanesi tam metinle denetlendi",
+      "claim_record": {
+        "claim_id": "zaragoza:term:005:#7",
+        "entry_id": "zaragoza:term:005",
+        "Excel_satırı": "Sözlük!12",
+        "iddia": "Zaragoza'daki Yabancılar Bürosu (Oficina de Extranjería) randevuyla çalışır (kış, 16 Eylül–15 Haziran: pazartesi–perşembe 09.00–17.30, cuma 09.00–14.00;",
+        "ülke_şehir_statü": null,
+        "dönem": null,
+        "resmî_URL": [
+          "https://www.zaragoza.es/sede/servicio/equipamiento/12574",
+          "https://www.aragon.es/tramitador/-/tramite/solicitud-cita-atencion-sanitaria-atencion-primaria"
+        ],
+        "kaynak_bölümü": null,
+        "yayın_yürürlük_tarihleri": null,
+        "kontrol_tarihi": "2026-11-02",
+        "hesap_varsa_girdiler": null,
+        "sonuç": "not_in_source",
+        "belirsizlik": "kaynakların 2/2 tanesi tam metinle denetlendi"
+      }
+    },
+    {
+      "claim_id": "zaragoza:term:005:#8",
+      "entry_id": "zaragoza:term:005",
+      "sheet": "Sözlük",
+      "_row": 12,
+      "field": "definition",
+      "kind": "time",
+      "text": "14.00",
+      "sentence": "Zaragoza'daki Yabancılar Bürosu (Oficina de Extranjería) randevuyla çalışır (kış, 16 Eylül–15 Haziran: pazartesi–perşembe 09.00–17.30, cuma 09.00–14.00;",
+      "values": [
+        {
+          "kind": "time",
+          "value": "14:00"
+        }
+      ],
+      "result": "supported",
+      "value_levels": [
+        "unit"
+      ],
+      "sources": [
+        {
+          "source_id": "zaragoza:kaynak:304",
+          "url": "https://www.zaragoza.es/sede/servicio/equipamiento/12574",
+          "homepage": false,
+          "snapshot_id": "36cae0746848715b1b007a6da6a2a86c13017aae37e6a3be87d15f92cdccf2b3.txt",
+          "chars": 2822,
+          "snapshot_state": "ok"
+        },
+        {
+          "source_id": "zaragoza:kaynak:185",
+          "url": "https://www.aragon.es/tramitador/-/tramite/solicitud-cita-atencion-sanitaria-atencion-primaria",
+          "homepage": false,
+          "snapshot_id": "67167ca2fb7afae642157ff20f812b123db90b3f4940e3080a16ba4ba5a5efa5.txt",
+          "chars": 7031,
+          "snapshot_state": "ok"
+        }
+      ],
+      "evidence": [
+        {
+          "value_index": 0,
+          "source_id": "zaragoza:kaynak:304",
+          "url": "https://www.zaragoza.es/sede/servicio/equipamiento/12574",
+          "snapshot_id": "36cae0746848715b1b007a6da6a2a86c13017aae37e6a3be87d15f92cdccf2b3.txt",
+          "level": "unit",
+          "snippet": "…O: Invierno (16 SEP-15 JUN): de lunes a jueves de 09 a 17:30 h. Viernes de 09 a 14 h. Verano (16 JUN-15 SEP): de lunes a viernes de 09 a 14 h. Página Web: https://m…",
+          "fetched_at": "2026-11-02"
+        }
+      ],
+      "uncertainty": "kaynakların 2/2 tanesi tam metinle denetlendi; yalnız tutarlılık; doğruluk/güncellik/statü ayrıca doğrulanmalı",
+      "claim_record": {
+        "claim_id": "zaragoza:term:005:#8",
+        "entry_id": "zaragoza:term:005",
+        "Excel_satırı": "Sözlük!12",
+        "iddia": "Zaragoza'daki Yabancılar Bürosu (Oficina de Extranjería) randevuyla çalışır (kış, 16 Eylül–15 Haziran: pazartesi–perşembe 09.00–17.30, cuma 09.00–14.00;",
+        "ülke_şehir_statü": null,
+        "dönem": null,
+        "resmî_URL": [
+          "https://www.zaragoza.es/sede/servicio/equipamiento/12574",
+          "https://www.aragon.es/tramitador/-/tramite/solicitud-cita-atencion-sanitaria-atencion-primaria"
+        ],
+        "kaynak_bölümü": "…O: Invierno (16 SEP-15 JUN): de lunes a jueves de 09 a 17:30 h. Viernes de 09 a 14 h. Verano (16 JUN-15 SEP): de lunes a viernes de 09 a 14 h. Página Web: https://m…",
+        "yayın_yürürlük_tarihleri": null,
+        "kontrol_tarihi": "2026-11-02",
+        "hesap_varsa_girdiler": null,
+        "sonuç": "supported",
+        "belirsizlik": "kaynakların 2/2 tanesi tam metinle denetlendi; yalnız tutarlılık; doğruluk/güncellik/statü ayrıca doğrulanmalı"
+      }
+    },
+    {
+      "claim_id": "zaragoza:term:005:#9",
+      "entry_id": "zaragoza:term:005",
+      "sheet": "Sözlük",
+      "_row": 12,
+      "field": "definition",
+      "kind": "date",
+      "text": "16 Haziran",
+      "sentence": "yaz, 16 Haziran–15 Eylül: pazartesi–cuma 09.00–14.00);",
+      "values": [
+        {
+          "kind": "date",
+          "day": 16,
+          "month": 6
+        }
+      ],
+      "result": "supported",
+      "value_levels": [
+        "unit"
+      ],
+      "sources": [
+        {
+          "source_id": "zaragoza:kaynak:304",
+          "url": "https://www.zaragoza.es/sede/servicio/equipamiento/12574",
+          "homepage": false,
+          "snapshot_id": "36cae0746848715b1b007a6da6a2a86c13017aae37e6a3be87d15f92cdccf2b3.txt",
+          "chars": 2822,
+          "snapshot_state": "ok"
+        },
+        {
+          "source_id": "zaragoza:kaynak:185",
+          "url": "https://www.aragon.es/tramitador/-/tramite/solicitud-cita-atencion-sanitaria-atencion-primaria",
+          "homepage": false,
+          "snapshot_id": "67167ca2fb7afae642157ff20f812b123db90b3f4940e3080a16ba4ba5a5efa5.txt",
+          "chars": 7031,
+          "snapshot_state": "ok"
+        }
+      ],
+      "evidence": [
+        {
+          "value_index": 0,
+          "source_id": "zaragoza:kaynak:304",
+          "url": "https://www.zaragoza.es/sede/servicio/equipamiento/12574",
+          "snapshot_id": "36cae0746848715b1b007a6da6a2a86c13017aae37e6a3be87d15f92cdccf2b3.txt",
+          "level": "unit",
+          "snippet": "…6 SEP-15 JUN): de lunes a jueves de 09 a 17:30 h. Viernes de 09 a 14 h. Verano (16 JUN-15 SEP): de lunes a viernes de 09 a 14 h. Página Web: https://mpt.gob.es/delega…",
+          "fetched_at": "2026-11-02"
+        }
+      ],
+      "uncertainty": "kaynakların 2/2 tanesi tam metinle denetlendi; yalnız tutarlılık; doğruluk/güncellik/statü ayrıca doğrulanmalı",
+      "claim_record": {
+        "claim_id": "zaragoza:term:005:#9",
+        "entry_id": "zaragoza:term:005",
+        "Excel_satırı": "Sözlük!12",
+        "iddia": "yaz, 16 Haziran–15 Eylül: pazartesi–cuma 09.00–14.00);",
+        "ülke_şehir_statü": null,
+        "dönem": null,
+        "resmî_URL": [
+          "https://www.zaragoza.es/sede/servicio/equipamiento/12574",
+          "https://www.aragon.es/tramitador/-/tramite/solicitud-cita-atencion-sanitaria-atencion-primaria"
+        ],
+        "kaynak_bölümü": "…6 SEP-15 JUN): de lunes a jueves de 09 a 17:30 h. Viernes de 09 a 14 h. Verano (16 JUN-15 SEP): de lunes a viernes de 09 a 14 h. Página Web: https://mpt.gob.es/delega…",
+        "yayın_yürürlük_tarihleri": null,
+        "kontrol_tarihi": "2026-11-02",
+        "hesap_varsa_girdiler": null,
+        "sonuç": "supported",
+        "belirsizlik": "kaynakların 2/2 tanesi tam metinle denetlendi; yalnız tutarlılık; doğruluk/güncellik/statü ayrıca doğrulanmalı"
+      }
+    },
+    {
+      "claim_id": "zaragoza:term:005:#10",
+      "entry_id": "zaragoza:term:005",
+      "sheet": "Sözlük",
+      "_row": 12,
+      "field": "definition",
+      "kind": "date",
+      "text": "15 Eylül",
+      "sentence": "yaz, 16 Haziran–15 Eylül: pazartesi–cuma 09.00–14.00);",
+      "values": [
+        {
+          "kind": "date",
+          "day": 15,
+          "month": 9
+        }
+      ],
+      "result": "supported",
+      "value_levels": [
+        "unit"
+      ],
+      "sources": [
+        {
+          "source_id": "zaragoza:kaynak:304",
+          "url": "https://www.zaragoza.es/sede/servicio/equipamiento/12574",
+          "homepage": false,
+          "snapshot_id": "36cae0746848715b1b007a6da6a2a86c13017aae37e6a3be87d15f92cdccf2b3.txt",
+          "chars": 2822,
+          "snapshot_state": "ok"
+        },
+        {
+          "source_id": "zaragoza:kaynak:185",
+          "url": "https://www.aragon.es/tramitador/-/tramite/solicitud-cita-atencion-sanitaria-atencion-primaria",
+          "homepage": false,
+          "snapshot_id": "67167ca2fb7afae642157ff20f812b123db90b3f4940e3080a16ba4ba5a5efa5.txt",
+          "chars": 7031,
+          "snapshot_state": "ok"
+        }
+      ],
+      "evidence": [
+        {
+          "value_index": 0,
+          "source_id": "zaragoza:kaynak:304",
+          "url": "https://www.zaragoza.es/sede/servicio/equipamiento/12574",
+          "snapshot_id": "36cae0746848715b1b007a6da6a2a86c13017aae37e6a3be87d15f92cdccf2b3.txt",
+          "level": "unit",
+          "snippet": "…5 JUN): de lunes a jueves de 09 a 17:30 h. Viernes de 09 a 14 h. Verano (16 JUN-15 SEP): de lunes a viernes de 09 a 14 h. Página Web: https://mpt.gob.es/delegaciones_…",
+          "fetched_at": "2026-11-02"
+        }
+      ],
+      "uncertainty": "kaynakların 2/2 tanesi tam metinle denetlendi; yalnız tutarlılık; doğruluk/güncellik/statü ayrıca doğrulanmalı",
+      "claim_record": {
+        "claim_id": "zaragoza:term:005:#10",
+        "entry_id": "zaragoza:term:005",
+        "Excel_satırı": "Sözlük!12",
+        "iddia": "yaz, 16 Haziran–15 Eylül: pazartesi–cuma 09.00–14.00);",
+        "ülke_şehir_statü": null,
+        "dönem": null,
+        "resmî_URL": [
+          "https://www.zaragoza.es/sede/servicio/equipamiento/12574",
+          "https://www.aragon.es/tramitador/-/tramite/solicitud-cita-atencion-sanitaria-atencion-primaria"
+        ],
+        "kaynak_bölümü": "…5 JUN): de lunes a jueves de 09 a 17:30 h. Viernes de 09 a 14 h. Verano (16 JUN-15 SEP): de lunes a viernes de 09 a 14 h. Página Web: https://mpt.gob.es/delegaciones_…",
+        "yayın_yürürlük_tarihleri": null,
+        "kontrol_tarihi": "2026-11-02",
+        "hesap_varsa_girdiler": null,
+        "sonuç": "supported",
+        "belirsizlik": "kaynakların 2/2 tanesi tam metinle denetlendi; yalnız tutarlılık; doğruluk/güncellik/statü ayrıca doğrulanmalı"
+      }
+    },
+    {
+      "claim_id": "zaragoza:term:005:#11",
+      "entry_id": "zaragoza:term:005",
+      "sheet": "Sözlük",
+      "_row": 12,
+      "field": "definition",
+      "kind": "weekday",
+      "text": "pazartesi",
+      "sentence": "yaz, 16 Haziran–15 Eylül: pazartesi–cuma 09.00–14.00);",
+      "values": [
+        {
+          "kind": "weekday",
+          "value": "monday"
+        }
+      ],
+      "result": "not_in_source",
+      "value_levels": [
+        null
+      ],
+      "sources": [
+        {
+          "source_id": "zaragoza:kaynak:304",
+          "url": "https://www.zaragoza.es/sede/servicio/equipamiento/12574",
+          "homepage": false,
+          "snapshot_id": "36cae0746848715b1b007a6da6a2a86c13017aae37e6a3be87d15f92cdccf2b3.txt",
+          "chars": 2822,
+          "snapshot_state": "ok"
+        },
+        {
+          "source_id": "zaragoza:kaynak:185",
+          "url": "https://www.aragon.es/tramitador/-/tramite/solicitud-cita-atencion-sanitaria-atencion-primaria",
+          "homepage": false,
+          "snapshot_id": "67167ca2fb7afae642157ff20f812b123db90b3f4940e3080a16ba4ba5a5efa5.txt",
+          "chars": 7031,
+          "snapshot_state": "ok"
+        }
+      ],
+      "evidence": [],
+      "uncertainty": "kaynakların 2/2 tanesi tam metinle denetlendi",
+      "claim_record": {
+        "claim_id": "zaragoza:term:005:#11",
+        "entry_id": "zaragoza:term:005",
+        "Excel_satırı": "Sözlük!12",
+        "iddia": "yaz, 16 Haziran–15 Eylül: pazartesi–cuma 09.00–14.00);",
+        "ülke_şehir_statü": null,
+        "dönem": null,
+        "resmî_URL": [
+          "https://www.zaragoza.es/sede/servicio/equipamiento/12574",
+          "https://www.aragon.es/tramitador/-/tramite/solicitud-cita-atencion-sanitaria-atencion-primaria"
+        ],
+        "kaynak_bölümü": null,
+        "yayın_yürürlük_tarihleri": null,
+        "kontrol_tarihi": "2026-11-02",
+        "hesap_varsa_girdiler": null,
+        "sonuç": "not_in_source",
+        "belirsizlik": "kaynakların 2/2 tanesi tam metinle denetlendi"
+      }
+    },
+    {
+      "claim_id": "zaragoza:term:005:#12",
+      "entry_id": "zaragoza:term:005",
+      "sheet": "Sözlük",
+      "_row": 12,
+      "field": "definition",
+      "kind": "weekday",
+      "text": "cuma",
+      "sentence": "yaz, 16 Haziran–15 Eylül: pazartesi–cuma 09.00–14.00);",
+      "values": [
+        {
+          "kind": "weekday",
+          "value": "friday"
+        }
+      ],
+      "result": "not_in_source",
+      "value_levels": [
+        null
+      ],
+      "sources": [
+        {
+          "source_id": "zaragoza:kaynak:304",
+          "url": "https://www.zaragoza.es/sede/servicio/equipamiento/12574",
+          "homepage": false,
+          "snapshot_id": "36cae0746848715b1b007a6da6a2a86c13017aae37e6a3be87d15f92cdccf2b3.txt",
+          "chars": 2822,
+          "snapshot_state": "ok"
+        },
+        {
+          "source_id": "zaragoza:kaynak:185",
+          "url": "https://www.aragon.es/tramitador/-/tramite/solicitud-cita-atencion-sanitaria-atencion-primaria",
+          "homepage": false,
+          "snapshot_id": "67167ca2fb7afae642157ff20f812b123db90b3f4940e3080a16ba4ba5a5efa5.txt",
+          "chars": 7031,
+          "snapshot_state": "ok"
+        }
+      ],
+      "evidence": [],
+      "uncertainty": "kaynakların 2/2 tanesi tam metinle denetlendi",
+      "claim_record": {
+        "claim_id": "zaragoza:term:005:#12",
+        "entry_id": "zaragoza:term:005",
+        "Excel_satırı": "Sözlük!12",
+        "iddia": "yaz, 16 Haziran–15 Eylül: pazartesi–cuma 09.00–14.00);",
+        "ülke_şehir_statü": null,
+        "dönem": null,
+        "resmî_URL": [
+          "https://www.zaragoza.es/sede/servicio/equipamiento/12574",
+          "https://www.aragon.es/tramitador/-/tramite/solicitud-cita-atencion-sanitaria-atencion-primaria"
+        ],
+        "kaynak_bölümü": null,
+        "yayın_yürürlük_tarihleri": null,
+        "kontrol_tarihi": "2026-11-02",
+        "hesap_varsa_girdiler": null,
+        "sonuç": "not_in_source",
+        "belirsizlik": "kaynakların 2/2 tanesi tam metinle denetlendi"
+      }
+    },
+    {
+      "claim_id": "zaragoza:term:005:#13",
+      "entry_id": "zaragoza:term:005",
+      "sheet": "Sözlük",
+      "_row": 12,
+      "field": "definition",
+      "kind": "time",
+      "text": "09.00",
+      "sentence": "yaz, 16 Haziran–15 Eylül: pazartesi–cuma 09.00–14.00);",
+      "values": [
+        {
+          "kind": "time",
+          "value": "09:00"
+        }
+      ],
+      "result": "supported",
+      "value_levels": [
+        "unit"
+      ],
+      "sources": [
+        {
+          "source_id": "zaragoza:kaynak:304",
+          "url": "https://www.zaragoza.es/sede/servicio/equipamiento/12574",
+          "homepage": false,
+          "snapshot_id": "36cae0746848715b1b007a6da6a2a86c13017aae37e6a3be87d15f92cdccf2b3.txt",
+          "chars": 2822,
+          "snapshot_state": "ok"
+        },
+        {
+          "source_id": "zaragoza:kaynak:185",
+          "url": "https://www.aragon.es/tramitador/-/tramite/solicitud-cita-atencion-sanitaria-atencion-primaria",
+          "homepage": false,
+          "snapshot_id": "67167ca2fb7afae642157ff20f812b123db90b3f4940e3080a16ba4ba5a5efa5.txt",
+          "chars": 7031,
+          "snapshot_state": "ok"
+        }
+      ],
+      "evidence": [
+        {
+          "value_index": 0,
+          "source_id": "zaragoza:kaynak:185",
+          "url": "https://www.aragon.es/tramitador/-/tramite/solicitud-cita-atencion-sanitaria-atencion-primaria",
+          "snapshot_id": "67167ca2fb7afae642157ff20f812b123db90b3f4940e3080a16ba4ba5a5efa5.txt",
+          "level": "unit",
+          "snippet": "…a con el Servicio de Información y Registro: 976 714 111. De lunes a viernes de 9:00 a 14:00 h atencionalaciudadania@aragon.es Apartado anterior: Fases de la tramit…",
+          "fetched_at": "2026-11-02"
+        }
+      ],
+      "uncertainty": "kaynakların 2/2 tanesi tam metinle denetlendi; yalnız tutarlılık; doğruluk/güncellik/statü ayrıca doğrulanmalı",
+      "claim_record": {
+        "claim_id": "zaragoza:term:005:#13",
+        "entry_id": "zaragoza:term:005",
+        "Excel_satırı": "Sözlük!12",
+        "iddia": "yaz, 16 Haziran–15 Eylül: pazartesi–cuma 09.00–14.00);",
+        "ülke_şehir_statü": null,
+        "dönem": null,
+        "resmî_URL": [
+          "https://www.zaragoza.es/sede/servicio/equipamiento/12574",
+          "https://www.aragon.es/tramitador/-/tramite/solicitud-cita-atencion-sanitaria-atencion-primaria"
+        ],
+        "kaynak_bölümü": "…a con el Servicio de Información y Registro: 976 714 111. De lunes a viernes de 9:00 a 14:00 h atencionalaciudadania@aragon.es Apartado anterior: Fases de la tramit…",
+        "yayın_yürürlük_tarihleri": null,
+        "kontrol_tarihi": "2026-11-02",
+        "hesap_varsa_girdiler": null,
+        "sonuç": "supported",
+        "belirsizlik": "kaynakların 2/2 tanesi tam metinle denetlendi; yalnız tutarlılık; doğruluk/güncellik/statü ayrıca doğrulanmalı"
+      }
+    },
+    {
+      "claim_id": "zaragoza:term:005:#14",
+      "entry_id": "zaragoza:term:005",
+      "sheet": "Sözlük",
+      "_row": 12,
+      "field": "definition",
+      "kind": "time",
+      "text": "14.00",
+      "sentence": "yaz, 16 Haziran–15 Eylül: pazartesi–cuma 09.00–14.00);",
+      "values": [
+        {
+          "kind": "time",
+          "value": "14:00"
+        }
+      ],
+      "result": "supported",
+      "value_levels": [
+        "unit"
+      ],
+      "sources": [
+        {
+          "source_id": "zaragoza:kaynak:304",
+          "url": "https://www.zaragoza.es/sede/servicio/equipamiento/12574",
+          "homepage": false,
+          "snapshot_id": "36cae0746848715b1b007a6da6a2a86c13017aae37e6a3be87d15f92cdccf2b3.txt",
+          "chars": 2822,
+          "snapshot_state": "ok"
+        },
+        {
+          "source_id": "zaragoza:kaynak:185",
+          "url": "https://www.aragon.es/tramitador/-/tramite/solicitud-cita-atencion-sanitaria-atencion-primaria",
+          "homepage": false,
+          "snapshot_id": "67167ca2fb7afae642157ff20f812b123db90b3f4940e3080a16ba4ba5a5efa5.txt",
+          "chars": 7031,
+          "snapshot_state": "ok"
+        }
+      ],
+      "evidence": [
+        {
+          "value_index": 0,
+          "source_id": "zaragoza:kaynak:304",
+          "url": "https://www.zaragoza.es/sede/servicio/equipamiento/12574",
+          "snapshot_id": "36cae0746848715b1b007a6da6a2a86c13017aae37e6a3be87d15f92cdccf2b3.txt",
+          "level": "unit",
+          "snippet": "…O: Invierno (16 SEP-15 JUN): de lunes a jueves de 09 a 17:30 h. Viernes de 09 a 14 h. Verano (16 JUN-15 SEP): de lunes a viernes de 09 a 14 h. Página Web: https://m…",
+          "fetched_at": "2026-11-02"
+        }
+      ],
+      "uncertainty": "kaynakların 2/2 tanesi tam metinle denetlendi; yalnız tutarlılık; doğruluk/güncellik/statü ayrıca doğrulanmalı",
+      "claim_record": {
+        "claim_id": "zaragoza:term:005:#14",
+        "entry_id": "zaragoza:term:005",
+        "Excel_satırı": "Sözlük!12",
+        "iddia": "yaz, 16 Haziran–15 Eylül: pazartesi–cuma 09.00–14.00);",
+        "ülke_şehir_statü": null,
+        "dönem": null,
+        "resmî_URL": [
+          "https://www.zaragoza.es/sede/servicio/equipamiento/12574",
+          "https://www.aragon.es/tramitador/-/tramite/solicitud-cita-atencion-sanitaria-atencion-primaria"
+        ],
+        "kaynak_bölümü": "…O: Invierno (16 SEP-15 JUN): de lunes a jueves de 09 a 17:30 h. Viernes de 09 a 14 h. Verano (16 JUN-15 SEP): de lunes a viernes de 09 a 14 h. Página Web: https://m…",
+        "yayın_yürürlük_tarihleri": null,
+        "kontrol_tarihi": "2026-11-02",
+        "hesap_varsa_girdiler": null,
+        "sonuç": "supported",
+        "belirsizlik": "kaynakların 2/2 tanesi tam metinle denetlendi; yalnız tutarlılık; doğruluk/güncellik/statü ayrıca doğrulanmalı"
+      }
+    },
+    {
+      "claim_id": "zaragoza:term:008:#1",
+      "entry_id": "zaragoza:term:008",
+      "sheet": "Sözlük",
+      "_row": 15,
+      "field": "definition",
+      "kind": "date",
+      "text": "16 Eylül",
+      "sentence": "kış (16 Eylül–15 Haziran) pazartesi–perşembe 09.00–17.30, cuma 09.00–14.00, yaz (16 Haziran–15 Eylül) pazartesi–cuma 09.00–14.00 açıktır.",
+      "values": [
+        {
+          "kind": "date",
+          "day": 16,
+          "month": 9
+        }
+      ],
+      "result": "supported",
+      "value_levels": [
+        "unit"
+      ],
+      "sources": [
+        {
+          "source_id": "zaragoza:kaynak:304",
+          "url": "https://www.zaragoza.es/sede/servicio/equipamiento/12574",
+          "homepage": false,
+          "snapshot_id": "36cae0746848715b1b007a6da6a2a86c13017aae37e6a3be87d15f92cdccf2b3.txt",
+          "chars": 2822,
+          "snapshot_state": "ok"
+        }
+      ],
+      "evidence": [
+        {
+          "value_index": 0,
+          "source_id": "zaragoza:kaynak:304",
+          "url": "https://www.zaragoza.es/sede/servicio/equipamiento/12574",
+          "snapshot_id": "36cae0746848715b1b007a6da6a2a86c13017aae37e6a3be87d15f92cdccf2b3.txt",
+          "level": "unit",
+          "snippet": "…0071 Teléfono: 976980020 Fax: 976999026 Horario: CITA PREVIA HORARIO: Invierno (16 SEP-15 JUN): de lunes a jueves de 09 a 17:30 h. Viernes de 09 a 14 h. Verano (16 JU…",
+          "fetched_at": "2026-11-02"
+        }
+      ],
+      "uncertainty": "kaynakların 1/1 tanesi tam metinle denetlendi; yalnız tutarlılık; doğruluk/güncellik/statü ayrıca doğrulanmalı",
+      "claim_record": {
+        "claim_id": "zaragoza:term:008:#1",
+        "entry_id": "zaragoza:term:008",
+        "Excel_satırı": "Sözlük!15",
+        "iddia": "kış (16 Eylül–15 Haziran) pazartesi–perşembe 09.00–17.30, cuma 09.00–14.00, yaz (16 Haziran–15 Eylül) pazartesi–cuma 09.00–14.00 açıktır.",
+        "ülke_şehir_statü": null,
+        "dönem": null,
+        "resmî_URL": [
+          "https://www.zaragoza.es/sede/servicio/equipamiento/12574"
+        ],
+        "kaynak_bölümü": "…0071 Teléfono: 976980020 Fax: 976999026 Horario: CITA PREVIA HORARIO: Invierno (16 SEP-15 JUN): de lunes a jueves de 09 a 17:30 h. Viernes de 09 a 14 h. Verano (16 JU…",
+        "yayın_yürürlük_tarihleri": null,
+        "kontrol_tarihi": "2026-11-02",
+        "hesap_varsa_girdiler": null,
+        "sonuç": "supported",
+        "belirsizlik": "kaynakların 1/1 tanesi tam metinle denetlendi; yalnız tutarlılık; doğruluk/güncellik/statü ayrıca doğrulanmalı"
+      }
+    },
+    {
+      "claim_id": "zaragoza:term:008:#2",
+      "entry_id": "zaragoza:term:008",
+      "sheet": "Sözlük",
+      "_row": 15,
+      "field": "definition",
+      "kind": "date",
+      "text": "15 Haziran",
+      "sentence": "kış (16 Eylül–15 Haziran) pazartesi–perşembe 09.00–17.30, cuma 09.00–14.00, yaz (16 Haziran–15 Eylül) pazartesi–cuma 09.00–14.00 açıktır.",
+      "values": [
+        {
+          "kind": "date",
+          "day": 15,
+          "month": 6
+        }
+      ],
+      "result": "supported",
+      "value_levels": [
+        "unit"
+      ],
+      "sources": [
+        {
+          "source_id": "zaragoza:kaynak:304",
+          "url": "https://www.zaragoza.es/sede/servicio/equipamiento/12574",
+          "homepage": false,
+          "snapshot_id": "36cae0746848715b1b007a6da6a2a86c13017aae37e6a3be87d15f92cdccf2b3.txt",
+          "chars": 2822,
+          "snapshot_state": "ok"
+        }
+      ],
+      "evidence": [
+        {
+          "value_index": 0,
+          "source_id": "zaragoza:kaynak:304",
+          "url": "https://www.zaragoza.es/sede/servicio/equipamiento/12574",
+          "snapshot_id": "36cae0746848715b1b007a6da6a2a86c13017aae37e6a3be87d15f92cdccf2b3.txt",
+          "level": "unit",
+          "snippet": "…léfono: 976980020 Fax: 976999026 Horario: CITA PREVIA HORARIO: Invierno (16 SEP-15 JUN): de lunes a jueves de 09 a 17:30 h. Viernes de 09 a 14 h. Verano (16 JUN-15 SE…",
+          "fetched_at": "2026-11-02"
+        }
+      ],
+      "uncertainty": "kaynakların 1/1 tanesi tam metinle denetlendi; yalnız tutarlılık; doğruluk/güncellik/statü ayrıca doğrulanmalı",
+      "claim_record": {
+        "claim_id": "zaragoza:term:008:#2",
+        "entry_id": "zaragoza:term:008",
+        "Excel_satırı": "Sözlük!15",
+        "iddia": "kış (16 Eylül–15 Haziran) pazartesi–perşembe 09.00–17.30, cuma 09.00–14.00, yaz (16 Haziran–15 Eylül) pazartesi–cuma 09.00–14.00 açıktır.",
+        "ülke_şehir_statü": null,
+        "dönem": null,
+        "resmî_URL": [
+          "https://www.zaragoza.es/sede/servicio/equipamiento/12574"
+        ],
+        "kaynak_bölümü": "…léfono: 976980020 Fax: 976999026 Horario: CITA PREVIA HORARIO: Invierno (16 SEP-15 JUN): de lunes a jueves de 09 a 17:30 h. Viernes de 09 a 14 h. Verano (16 JUN-15 SE…",
+        "yayın_yürürlük_tarihleri": null,
+        "kontrol_tarihi": "2026-11-02",
+        "hesap_varsa_girdiler": null,
+        "sonuç": "supported",
+        "belirsizlik": "kaynakların 1/1 tanesi tam metinle denetlendi; yalnız tutarlılık; doğruluk/güncellik/statü ayrıca doğrulanmalı"
+      }
+    },
+    {
+      "claim_id": "zaragoza:term:008:#3",
+      "entry_id": "zaragoza:term:008",
+      "sheet": "Sözlük",
+      "_row": 15,
+      "field": "definition",
+      "kind": "weekday",
+      "text": "pazartesi",
+      "sentence": "kış (16 Eylül–15 Haziran) pazartesi–perşembe 09.00–17.30, cuma 09.00–14.00, yaz (16 Haziran–15 Eylül) pazartesi–cuma 09.00–14.00 açıktır.",
+      "values": [
+        {
+          "kind": "weekday",
+          "value": "monday"
+        }
+      ],
+      "result": "not_in_source",
+      "value_levels": [
+        null
+      ],
+      "sources": [
+        {
+          "source_id": "zaragoza:kaynak:304",
+          "url": "https://www.zaragoza.es/sede/servicio/equipamiento/12574",
+          "homepage": false,
+          "snapshot_id": "36cae0746848715b1b007a6da6a2a86c13017aae37e6a3be87d15f92cdccf2b3.txt",
+          "chars": 2822,
+          "snapshot_state": "ok"
+        }
+      ],
+      "evidence": [],
+      "uncertainty": "kaynakların 1/1 tanesi tam metinle denetlendi",
+      "claim_record": {
+        "claim_id": "zaragoza:term:008:#3",
+        "entry_id": "zaragoza:term:008",
+        "Excel_satırı": "Sözlük!15",
+        "iddia": "kış (16 Eylül–15 Haziran) pazartesi–perşembe 09.00–17.30, cuma 09.00–14.00, yaz (16 Haziran–15 Eylül) pazartesi–cuma 09.00–14.00 açıktır.",
+        "ülke_şehir_statü": null,
+        "dönem": null,
+        "resmî_URL": [
+          "https://www.zaragoza.es/sede/servicio/equipamiento/12574"
+        ],
+        "kaynak_bölümü": null,
+        "yayın_yürürlük_tarihleri": null,
+        "kontrol_tarihi": "2026-11-02",
+        "hesap_varsa_girdiler": null,
+        "sonuç": "not_in_source",
+        "belirsizlik": "kaynakların 1/1 tanesi tam metinle denetlendi"
+      }
+    },
+    {
+      "claim_id": "zaragoza:term:008:#4",
+      "entry_id": "zaragoza:term:008",
+      "sheet": "Sözlük",
+      "_row": 15,
+      "field": "definition",
+      "kind": "weekday",
+      "text": "perşembe",
+      "sentence": "kış (16 Eylül–15 Haziran) pazartesi–perşembe 09.00–17.30, cuma 09.00–14.00, yaz (16 Haziran–15 Eylül) pazartesi–cuma 09.00–14.00 açıktır.",
+      "values": [
+        {
+          "kind": "weekday",
+          "value": "thursday"
+        }
+      ],
+      "result": "not_in_source",
+      "value_levels": [
+        null
+      ],
+      "sources": [
+        {
+          "source_id": "zaragoza:kaynak:304",
+          "url": "https://www.zaragoza.es/sede/servicio/equipamiento/12574",
+          "homepage": false,
+          "snapshot_id": "36cae0746848715b1b007a6da6a2a86c13017aae37e6a3be87d15f92cdccf2b3.txt",
+          "chars": 2822,
+          "snapshot_state": "ok"
+        }
+      ],
+      "evidence": [],
+      "uncertainty": "kaynakların 1/1 tanesi tam metinle denetlendi",
+      "claim_record": {
+        "claim_id": "zaragoza:term:008:#4",
+        "entry_id": "zaragoza:term:008",
+        "Excel_satırı": "Sözlük!15",
+        "iddia": "kış (16 Eylül–15 Haziran) pazartesi–perşembe 09.00–17.30, cuma 09.00–14.00, yaz (16 Haziran–15 Eylül) pazartesi–cuma 09.00–14.00 açıktır.",
+        "ülke_şehir_statü": null,
+        "dönem": null,
+        "resmî_URL": [
+          "https://www.zaragoza.es/sede/servicio/equipamiento/12574"
+        ],
+        "kaynak_bölümü": null,
+        "yayın_yürürlük_tarihleri": null,
+        "kontrol_tarihi": "2026-11-02",
+        "hesap_varsa_girdiler": null,
+        "sonuç": "not_in_source",
+        "belirsizlik": "kaynakların 1/1 tanesi tam metinle denetlendi"
+      }
+    },
+    {
+      "claim_id": "zaragoza:term:008:#5",
+      "entry_id": "zaragoza:term:008",
+      "sheet": "Sözlük",
+      "_row": 15,
+      "field": "definition",
+      "kind": "time",
+      "text": "09.00",
+      "sentence": "kış (16 Eylül–15 Haziran) pazartesi–perşembe 09.00–17.30, cuma 09.00–14.00, yaz (16 Haziran–15 Eylül) pazartesi–cuma 09.00–14.00 açıktır.",
+      "values": [
+        {
+          "kind": "time",
+          "value": "09:00"
+        }
+      ],
+      "result": "not_in_source",
+      "value_levels": [
+        null
+      ],
+      "sources": [
+        {
+          "source_id": "zaragoza:kaynak:304",
+          "url": "https://www.zaragoza.es/sede/servicio/equipamiento/12574",
+          "homepage": false,
+          "snapshot_id": "36cae0746848715b1b007a6da6a2a86c13017aae37e6a3be87d15f92cdccf2b3.txt",
+          "chars": 2822,
+          "snapshot_state": "ok"
+        }
+      ],
+      "evidence": [],
+      "uncertainty": "kaynakların 1/1 tanesi tam metinle denetlendi",
+      "claim_record": {
+        "claim_id": "zaragoza:term:008:#5",
+        "entry_id": "zaragoza:term:008",
+        "Excel_satırı": "Sözlük!15",
+        "iddia": "kış (16 Eylül–15 Haziran) pazartesi–perşembe 09.00–17.30, cuma 09.00–14.00, yaz (16 Haziran–15 Eylül) pazartesi–cuma 09.00–14.00 açıktır.",
+        "ülke_şehir_statü": null,
+        "dönem": null,
+        "resmî_URL": [
+          "https://www.zaragoza.es/sede/servicio/equipamiento/12574"
+        ],
+        "kaynak_bölümü": null,
+        "yayın_yürürlük_tarihleri": null,
+        "kontrol_tarihi": "2026-11-02",
+        "hesap_varsa_girdiler": null,
+        "sonuç": "not_in_source",
+        "belirsizlik": "kaynakların 1/1 tanesi tam metinle denetlendi"
+      }
+    },
+    {
+      "claim_id": "zaragoza:term:008:#6",
+      "entry_id": "zaragoza:term:008",
+      "sheet": "Sözlük",
+      "_row": 15,
+      "field": "definition",
+      "kind": "time",
+      "text": "17.30",
+      "sentence": "kış (16 Eylül–15 Haziran) pazartesi–perşembe 09.00–17.30, cuma 09.00–14.00, yaz (16 Haziran–15 Eylül) pazartesi–cuma 09.00–14.00 açıktır.",
+      "values": [
+        {
+          "kind": "time",
+          "value": "17:30"
+        }
+      ],
+      "result": "supported",
+      "value_levels": [
+        "unit"
+      ],
+      "sources": [
+        {
+          "source_id": "zaragoza:kaynak:304",
+          "url": "https://www.zaragoza.es/sede/servicio/equipamiento/12574",
+          "homepage": false,
+          "snapshot_id": "36cae0746848715b1b007a6da6a2a86c13017aae37e6a3be87d15f92cdccf2b3.txt",
+          "chars": 2822,
+          "snapshot_state": "ok"
+        }
+      ],
+      "evidence": [
+        {
+          "value_index": 0,
+          "source_id": "zaragoza:kaynak:304",
+          "url": "https://www.zaragoza.es/sede/servicio/equipamiento/12574",
+          "snapshot_id": "36cae0746848715b1b007a6da6a2a86c13017aae37e6a3be87d15f92cdccf2b3.txt",
+          "level": "unit",
+          "snippet": "…rario: CITA PREVIA HORARIO: Invierno (16 SEP-15 JUN): de lunes a jueves de 09 a 17:30 h. Viernes de 09 a 14 h. Verano (16 JUN-15 SEP): de lunes a viernes de 09 a 14 …",
+          "fetched_at": "2026-11-02"
+        }
+      ],
+      "uncertainty": "kaynakların 1/1 tanesi tam metinle denetlendi; yalnız tutarlılık; doğruluk/güncellik/statü ayrıca doğrulanmalı",
+      "claim_record": {
+        "claim_id": "zaragoza:term:008:#6",
+        "entry_id": "zaragoza:term:008",
+        "Excel_satırı": "Sözlük!15",
+        "iddia": "kış (16 Eylül–15 Haziran) pazartesi–perşembe 09.00–17.30, cuma 09.00–14.00, yaz (16 Haziran–15 Eylül) pazartesi–cuma 09.00–14.00 açıktır.",
+        "ülke_şehir_statü": null,
+        "dönem": null,
+        "resmî_URL": [
+          "https://www.zaragoza.es/sede/servicio/equipamiento/12574"
+        ],
+        "kaynak_bölümü": "…rario: CITA PREVIA HORARIO: Invierno (16 SEP-15 JUN): de lunes a jueves de 09 a 17:30 h. Viernes de 09 a 14 h. Verano (16 JUN-15 SEP): de lunes a viernes de 09 a 14 …",
+        "yayın_yürürlük_tarihleri": null,
+        "kontrol_tarihi": "2026-11-02",
+        "hesap_varsa_girdiler": null,
+        "sonuç": "supported",
+        "belirsizlik": "kaynakların 1/1 tanesi tam metinle denetlendi; yalnız tutarlılık; doğruluk/güncellik/statü ayrıca doğrulanmalı"
+      }
+    },
+    {
+      "claim_id": "zaragoza:term:008:#7",
+      "entry_id": "zaragoza:term:008",
+      "sheet": "Sözlük",
+      "_row": 15,
+      "field": "definition",
+      "kind": "weekday",
+      "text": "cuma",
+      "sentence": "kış (16 Eylül–15 Haziran) pazartesi–perşembe 09.00–17.30, cuma 09.00–14.00, yaz (16 Haziran–15 Eylül) pazartesi–cuma 09.00–14.00 açıktır.",
+      "values": [
+        {
+          "kind": "weekday",
+          "value": "friday"
+        }
+      ],
+      "result": "not_in_source",
+      "value_levels": [
+        null
+      ],
+      "sources": [
+        {
+          "source_id": "zaragoza:kaynak:304",
+          "url": "https://www.zaragoza.es/sede/servicio/equipamiento/12574",
+          "homepage": false,
+          "snapshot_id": "36cae0746848715b1b007a6da6a2a86c13017aae37e6a3be87d15f92cdccf2b3.txt",
+          "chars": 2822,
+          "snapshot_state": "ok"
+        }
+      ],
+      "evidence": [],
+      "uncertainty": "kaynakların 1/1 tanesi tam metinle denetlendi",
+      "claim_record": {
+        "claim_id": "zaragoza:term:008:#7",
+        "entry_id": "zaragoza:term:008",
+        "Excel_satırı": "Sözlük!15",
+        "iddia": "kış (16 Eylül–15 Haziran) pazartesi–perşembe 09.00–17.30, cuma 09.00–14.00, yaz (16 Haziran–15 Eylül) pazartesi–cuma 09.00–14.00 açıktır.",
+        "ülke_şehir_statü": null,
+        "dönem": null,
+        "resmî_URL": [
+          "https://www.zaragoza.es/sede/servicio/equipamiento/12574"
+        ],
+        "kaynak_bölümü": null,
+        "yayın_yürürlük_tarihleri": null,
+        "kontrol_tarihi": "2026-11-02",
+        "hesap_varsa_girdiler": null,
+        "sonuç": "not_in_source",
+        "belirsizlik": "kaynakların 1/1 tanesi tam metinle denetlendi"
+      }
+    },
+    {
+      "claim_id": "zaragoza:term:008:#8",
+      "entry_id": "zaragoza:term:008",
+      "sheet": "Sözlük",
+      "_row": 15,
+      "field": "definition",
+      "kind": "time",
+      "text": "14.00",
+      "sentence": "kış (16 Eylül–15 Haziran) pazartesi–perşembe 09.00–17.30, cuma 09.00–14.00, yaz (16 Haziran–15 Eylül) pazartesi–cuma 09.00–14.00 açıktır.",
+      "values": [
+        {
+          "kind": "time",
+          "value": "14:00"
+        }
+      ],
+      "result": "supported",
+      "value_levels": [
+        "unit"
+      ],
+      "sources": [
+        {
+          "source_id": "zaragoza:kaynak:304",
+          "url": "https://www.zaragoza.es/sede/servicio/equipamiento/12574",
+          "homepage": false,
+          "snapshot_id": "36cae0746848715b1b007a6da6a2a86c13017aae37e6a3be87d15f92cdccf2b3.txt",
+          "chars": 2822,
+          "snapshot_state": "ok"
+        }
+      ],
+      "evidence": [
+        {
+          "value_index": 0,
+          "source_id": "zaragoza:kaynak:304",
+          "url": "https://www.zaragoza.es/sede/servicio/equipamiento/12574",
+          "snapshot_id": "36cae0746848715b1b007a6da6a2a86c13017aae37e6a3be87d15f92cdccf2b3.txt",
+          "level": "unit",
+          "snippet": "…O: Invierno (16 SEP-15 JUN): de lunes a jueves de 09 a 17:30 h. Viernes de 09 a 14 h. Verano (16 JUN-15 SEP): de lunes a viernes de 09 a 14 h. Página Web: https://m…",
+          "fetched_at": "2026-11-02"
+        }
+      ],
+      "uncertainty": "kaynakların 1/1 tanesi tam metinle denetlendi; yalnız tutarlılık; doğruluk/güncellik/statü ayrıca doğrulanmalı",
+      "claim_record": {
+        "claim_id": "zaragoza:term:008:#8",
+        "entry_id": "zaragoza:term:008",
+        "Excel_satırı": "Sözlük!15",
+        "iddia": "kış (16 Eylül–15 Haziran) pazartesi–perşembe 09.00–17.30, cuma 09.00–14.00, yaz (16 Haziran–15 Eylül) pazartesi–cuma 09.00–14.00 açıktır.",
+        "ülke_şehir_statü": null,
+        "dönem": null,
+        "resmî_URL": [
+          "https://www.zaragoza.es/sede/servicio/equipamiento/12574"
+        ],
+        "kaynak_bölümü": "…O: Invierno (16 SEP-15 JUN): de lunes a jueves de 09 a 17:30 h. Viernes de 09 a 14 h. Verano (16 JUN-15 SEP): de lunes a viernes de 09 a 14 h. Página Web: https://m…",
+        "yayın_yürürlük_tarihleri": null,
+        "kontrol_tarihi": "2026-11-02",
+        "hesap_varsa_girdiler": null,
+        "sonuç": "supported",
+        "belirsizlik": "kaynakların 1/1 tanesi tam metinle denetlendi; yalnız tutarlılık; doğruluk/güncellik/statü ayrıca doğrulanmalı"
+      }
+    },
+    {
+      "claim_id": "zaragoza:term:008:#9",
+      "entry_id": "zaragoza:term:008",
+      "sheet": "Sözlük",
+      "_row": 15,
+      "field": "definition",
+      "kind": "date",
+      "text": "16 Haziran",
+      "sentence": "kış (16 Eylül–15 Haziran) pazartesi–perşembe 09.00–17.30, cuma 09.00–14.00, yaz (16 Haziran–15 Eylül) pazartesi–cuma 09.00–14.00 açıktır.",
+      "values": [
+        {
+          "kind": "date",
+          "day": 16,
+          "month": 6
+        }
+      ],
+      "result": "supported",
+      "value_levels": [
+        "unit"
+      ],
+      "sources": [
+        {
+          "source_id": "zaragoza:kaynak:304",
+          "url": "https://www.zaragoza.es/sede/servicio/equipamiento/12574",
+          "homepage": false,
+          "snapshot_id": "36cae0746848715b1b007a6da6a2a86c13017aae37e6a3be87d15f92cdccf2b3.txt",
+          "chars": 2822,
+          "snapshot_state": "ok"
+        }
+      ],
+      "evidence": [
+        {
+          "value_index": 0,
+          "source_id": "zaragoza:kaynak:304",
+          "url": "https://www.zaragoza.es/sede/servicio/equipamiento/12574",
+          "snapshot_id": "36cae0746848715b1b007a6da6a2a86c13017aae37e6a3be87d15f92cdccf2b3.txt",
+          "level": "unit",
+          "snippet": "…6 SEP-15 JUN): de lunes a jueves de 09 a 17:30 h. Viernes de 09 a 14 h. Verano (16 JUN-15 SEP): de lunes a viernes de 09 a 14 h. Página Web: https://mpt.gob.es/delega…",
+          "fetched_at": "2026-11-02"
+        }
+      ],
+      "uncertainty": "kaynakların 1/1 tanesi tam metinle denetlendi; yalnız tutarlılık; doğruluk/güncellik/statü ayrıca doğrulanmalı",
+      "claim_record": {
+        "claim_id": "zaragoza:term:008:#9",
+        "entry_id": "zaragoza:term:008",
+        "Excel_satırı": "Sözlük!15",
+        "iddia": "kış (16 Eylül–15 Haziran) pazartesi–perşembe 09.00–17.30, cuma 09.00–14.00, yaz (16 Haziran–15 Eylül) pazartesi–cuma 09.00–14.00 açıktır.",
+        "ülke_şehir_statü": null,
+        "dönem": null,
+        "resmî_URL": [
+          "https://www.zaragoza.es/sede/servicio/equipamiento/12574"
+        ],
+        "kaynak_bölümü": "…6 SEP-15 JUN): de lunes a jueves de 09 a 17:30 h. Viernes de 09 a 14 h. Verano (16 JUN-15 SEP): de lunes a viernes de 09 a 14 h. Página Web: https://mpt.gob.es/delega…",
+        "yayın_yürürlük_tarihleri": null,
+        "kontrol_tarihi": "2026-11-02",
+        "hesap_varsa_girdiler": null,
+        "sonuç": "supported",
+        "belirsizlik": "kaynakların 1/1 tanesi tam metinle denetlendi; yalnız tutarlılık; doğruluk/güncellik/statü ayrıca doğrulanmalı"
+      }
+    },
+    {
+      "claim_id": "zaragoza:term:008:#10",
+      "entry_id": "zaragoza:term:008",
+      "sheet": "Sözlük",
+      "_row": 15,
+      "field": "definition",
+      "kind": "date",
+      "text": "15 Eylül",
+      "sentence": "kış (16 Eylül–15 Haziran) pazartesi–perşembe 09.00–17.30, cuma 09.00–14.00, yaz (16 Haziran–15 Eylül) pazartesi–cuma 09.00–14.00 açıktır.",
+      "values": [
+        {
+          "kind": "date",
+          "day": 15,
+          "month": 9
+        }
+      ],
+      "result": "supported",
+      "value_levels": [
+        "unit"
+      ],
+      "sources": [
+        {
+          "source_id": "zaragoza:kaynak:304",
+          "url": "https://www.zaragoza.es/sede/servicio/equipamiento/12574",
+          "homepage": false,
+          "snapshot_id": "36cae0746848715b1b007a6da6a2a86c13017aae37e6a3be87d15f92cdccf2b3.txt",
+          "chars": 2822,
+          "snapshot_state": "ok"
+        }
+      ],
+      "evidence": [
+        {
+          "value_index": 0,
+          "source_id": "zaragoza:kaynak:304",
+          "url": "https://www.zaragoza.es/sede/servicio/equipamiento/12574",
+          "snapshot_id": "36cae0746848715b1b007a6da6a2a86c13017aae37e6a3be87d15f92cdccf2b3.txt",
+          "level": "unit",
+          "snippet": "…5 JUN): de lunes a jueves de 09 a 17:30 h. Viernes de 09 a 14 h. Verano (16 JUN-15 SEP): de lunes a viernes de 09 a 14 h. Página Web: https://mpt.gob.es/delegaciones_…",
+          "fetched_at": "2026-11-02"
+        }
+      ],
+      "uncertainty": "kaynakların 1/1 tanesi tam metinle denetlendi; yalnız tutarlılık; doğruluk/güncellik/statü ayrıca doğrulanmalı",
+      "claim_record": {
+        "claim_id": "zaragoza:term:008:#10",
+        "entry_id": "zaragoza:term:008",
+        "Excel_satırı": "Sözlük!15",
+        "iddia": "kış (16 Eylül–15 Haziran) pazartesi–perşembe 09.00–17.30, cuma 09.00–14.00, yaz (16 Haziran–15 Eylül) pazartesi–cuma 09.00–14.00 açıktır.",
+        "ülke_şehir_statü": null,
+        "dönem": null,
+        "resmî_URL": [
+          "https://www.zaragoza.es/sede/servicio/equipamiento/12574"
+        ],
+        "kaynak_bölümü": "…5 JUN): de lunes a jueves de 09 a 17:30 h. Viernes de 09 a 14 h. Verano (16 JUN-15 SEP): de lunes a viernes de 09 a 14 h. Página Web: https://mpt.gob.es/delegaciones_…",
+        "yayın_yürürlük_tarihleri": null,
+        "kontrol_tarihi": "2026-11-02",
+        "hesap_varsa_girdiler": null,
+        "sonuç": "supported",
+        "belirsizlik": "kaynakların 1/1 tanesi tam metinle denetlendi; yalnız tutarlılık; doğruluk/güncellik/statü ayrıca doğrulanmalı"
+      }
+    },
+    {
+      "claim_id": "zaragoza:term:019:#1",
+      "entry_id": "zaragoza:term:019",
+      "sheet": "Sözlük",
+      "_row": 26,
+      "field": "definition",
+      "kind": "time",
+      "text": "9.15",
+      "sentence": "listede adres, telefon, nöbet saati ve bölge yer alır, kimi eczaneler 9.15'ten ertesi sabah 9.15'e kadar nöbetlidir.",
+      "values": [
+        {
+          "kind": "time",
+          "value": "09:15"
+        }
+      ],
+      "result": "supported",
+      "value_levels": [
+        "unit"
+      ],
+      "sources": [
+        {
+          "source_id": "zaragoza:kaynak:193",
+          "url": "https://www.zaragoza.es/sede/servicio/farmacia/",
+          "homepage": false,
+          "snapshot_id": "2f5392675f35fc3a223f1c92bbdae0af3acec7d3ab89d1e59a256c9cd3e91887.txt",
+          "chars": 3157,
+          "snapshot_state": "ok"
+        }
+      ],
+      "evidence": [
+        {
+          "value_index": 0,
+          "source_id": "zaragoza:kaynak:193",
+          "url": "https://www.zaragoza.es/sede/servicio/farmacia/",
+          "snapshot_id": "2f5392675f35fc3a223f1c92bbdae0af3acec7d3ab89d1e59a256c9cd3e91887.txt",
+          "level": "unit",
+          "snippet": "…s Ferrandez CB Teléfono: 976270929 C/ Zafiro, 1 Horario de guardia: Abiertas de 9:15 h. a 13:45 h. y de 17:00 h. a 21:30 h. noche. Sector Torrero-Paz, junto a Urb. …",
+          "fetched_at": "2026-11-02"
+        }
+      ],
+      "uncertainty": "kaynakların 1/1 tanesi tam metinle denetlendi; yalnız tutarlılık; doğruluk/güncellik/statü ayrıca doğrulanmalı",
+      "claim_record": {
+        "claim_id": "zaragoza:term:019:#1",
+        "entry_id": "zaragoza:term:019",
+        "Excel_satırı": "Sözlük!26",
+        "iddia": "listede adres, telefon, nöbet saati ve bölge yer alır, kimi eczaneler 9.15'ten ertesi sabah 9.15'e kadar nöbetlidir.",
+        "ülke_şehir_statü": null,
+        "dönem": null,
+        "resmî_URL": [
+          "https://www.zaragoza.es/sede/servicio/farmacia/"
+        ],
+        "kaynak_bölümü": "…s Ferrandez CB Teléfono: 976270929 C/ Zafiro, 1 Horario de guardia: Abiertas de 9:15 h. a 13:45 h. y de 17:00 h. a 21:30 h. noche. Sector Torrero-Paz, junto a Urb. …",
+        "yayın_yürürlük_tarihleri": null,
+        "kontrol_tarihi": "2026-11-02",
+        "hesap_varsa_girdiler": null,
+        "sonuç": "supported",
+        "belirsizlik": "kaynakların 1/1 tanesi tam metinle denetlendi; yalnız tutarlılık; doğruluk/güncellik/statü ayrıca doğrulanmalı"
+      }
+    },
+    {
       "claim_id": "zaragoza:term:034:#1",
       "entry_id": "zaragoza:term:034",
       "sheet": "Sözlük",
@@ -178401,7 +179920,7 @@
       "field": "definition",
       "kind": "age",
       "text": "36 yaşından",
-      "sentence": "Başvuru 36 yaşından küçükler içindir.",
+      "sentence": "Aragón'da 36 yaşından küçük kişilere kira desteği veren Bono Alquiler Joven.",
       "values": [
         {
           "kind": "age",
@@ -178438,7 +179957,7 @@
         "claim_id": "zaragoza:term:034:#1",
         "entry_id": "zaragoza:term:034",
         "Excel_satırı": "Sözlük!41",
-        "iddia": "Başvuru 36 yaşından küçükler içindir.",
+        "iddia": "Aragón'da 36 yaşından küçük kişilere kira desteği veren Bono Alquiler Joven.",
         "ülke_şehir_statü": null,
         "dönem": null,
         "resmî_URL": [
@@ -178453,6 +179972,126 @@
       }
     },
     {
+      "claim_id": "zaragoza:term:034:#2",
+      "entry_id": "zaragoza:term:034",
+      "sheet": "Sözlük",
+      "_row": 41,
+      "field": "definition",
+      "kind": "money",
+      "text": "600 euro",
+      "sentence": "Yaş (35 dâhil) tek şart değildir: başvuran ve evde yaşayanların yıllık geliri IPREM'in (14 ödemeli) 3 katını aşmamalı, aylık kira en çok 600 euro (oda kirasında 300 euro) olmalı ve başvuran İspanya'da konut sahibi ya da intifa hakkı sahibi olmamalıdır.",
+      "values": [
+        {
+          "kind": "money",
+          "value": 600,
+          "currency": "EUR"
+        }
+      ],
+      "result": "supported",
+      "value_levels": [
+        "unit"
+      ],
+      "sources": [
+        {
+          "source_id": "zaragoza:kaynak:146",
+          "url": "https://www.aragon.es/tramitador/-/tramite/bono-alquiler-joven-en-la-comunidad-autonoma-de-aragon",
+          "homepage": false,
+          "snapshot_id": "501722afbd5c880bb4417188099aecb28520b9953e17dd8b477a845b050af3b9.txt",
+          "chars": 4835,
+          "snapshot_state": "ok"
+        }
+      ],
+      "evidence": [
+        {
+          "value_index": 0,
+          "source_id": "zaragoza:kaynak:146",
+          "url": "https://www.aragon.es/tramitador/-/tramite/bono-alquiler-joven-en-la-comunidad-autonoma-de-aragon",
+          "snapshot_id": "501722afbd5c880bb4417188099aecb28520b9953e17dd8b477a845b050af3b9.txt",
+          "level": "unit",
+          "snippet": "…nda objeto del contrato de arrendamiento o cesión deberá ser igual o inferior a 600 euros mensuales. En esta renta o precio no se incluye el importe que pudiera correspo…",
+          "fetched_at": "2026-11-02"
+        }
+      ],
+      "uncertainty": "kaynakların 1/1 tanesi tam metinle denetlendi; yalnız tutarlılık; doğruluk/güncellik/statü ayrıca doğrulanmalı",
+      "claim_record": {
+        "claim_id": "zaragoza:term:034:#2",
+        "entry_id": "zaragoza:term:034",
+        "Excel_satırı": "Sözlük!41",
+        "iddia": "Yaş (35 dâhil) tek şart değildir: başvuran ve evde yaşayanların yıllık geliri IPREM'in (14 ödemeli) 3 katını aşmamalı, aylık kira en çok 600 euro (oda kirasında 300 euro) olmalı ve başvuran İspanya'da konut sahibi ya da intifa hakkı sahibi olmamalıdır.",
+        "ülke_şehir_statü": null,
+        "dönem": null,
+        "resmî_URL": [
+          "https://www.aragon.es/tramitador/-/tramite/bono-alquiler-joven-en-la-comunidad-autonoma-de-aragon"
+        ],
+        "kaynak_bölümü": "…nda objeto del contrato de arrendamiento o cesión deberá ser igual o inferior a 600 euros mensuales. En esta renta o precio no se incluye el importe que pudiera correspo…",
+        "yayın_yürürlük_tarihleri": null,
+        "kontrol_tarihi": "2026-11-02",
+        "hesap_varsa_girdiler": null,
+        "sonuç": "supported",
+        "belirsizlik": "kaynakların 1/1 tanesi tam metinle denetlendi; yalnız tutarlılık; doğruluk/güncellik/statü ayrıca doğrulanmalı"
+      }
+    },
+    {
+      "claim_id": "zaragoza:term:034:#3",
+      "entry_id": "zaragoza:term:034",
+      "sheet": "Sözlük",
+      "_row": 41,
+      "field": "definition",
+      "kind": "money",
+      "text": "300 euro",
+      "sentence": "Yaş (35 dâhil) tek şart değildir: başvuran ve evde yaşayanların yıllık geliri IPREM'in (14 ödemeli) 3 katını aşmamalı, aylık kira en çok 600 euro (oda kirasında 300 euro) olmalı ve başvuran İspanya'da konut sahibi ya da intifa hakkı sahibi olmamalıdır.",
+      "values": [
+        {
+          "kind": "money",
+          "value": 300,
+          "currency": "EUR"
+        }
+      ],
+      "result": "supported",
+      "value_levels": [
+        "unit"
+      ],
+      "sources": [
+        {
+          "source_id": "zaragoza:kaynak:146",
+          "url": "https://www.aragon.es/tramitador/-/tramite/bono-alquiler-joven-en-la-comunidad-autonoma-de-aragon",
+          "homepage": false,
+          "snapshot_id": "501722afbd5c880bb4417188099aecb28520b9953e17dd8b477a845b050af3b9.txt",
+          "chars": 4835,
+          "snapshot_state": "ok"
+        }
+      ],
+      "evidence": [
+        {
+          "value_index": 0,
+          "source_id": "zaragoza:kaynak:146",
+          "url": "https://www.aragon.es/tramitador/-/tramite/bono-alquiler-joven-en-la-comunidad-autonoma-de-aragon",
+          "snapshot_id": "501722afbd5c880bb4417188099aecb28520b9953e17dd8b477a845b050af3b9.txt",
+          "level": "unit",
+          "snippet": "…aso de alquiler de habitación esta renta o precio deberá ser igual o inferior a 300 euros mensuales. Trámites Convocatorias activas Listado de trámites asociados con est…",
+          "fetched_at": "2026-11-02"
+        }
+      ],
+      "uncertainty": "kaynakların 1/1 tanesi tam metinle denetlendi; yalnız tutarlılık; doğruluk/güncellik/statü ayrıca doğrulanmalı",
+      "claim_record": {
+        "claim_id": "zaragoza:term:034:#3",
+        "entry_id": "zaragoza:term:034",
+        "Excel_satırı": "Sözlük!41",
+        "iddia": "Yaş (35 dâhil) tek şart değildir: başvuran ve evde yaşayanların yıllık geliri IPREM'in (14 ödemeli) 3 katını aşmamalı, aylık kira en çok 600 euro (oda kirasında 300 euro) olmalı ve başvuran İspanya'da konut sahibi ya da intifa hakkı sahibi olmamalıdır.",
+        "ülke_şehir_statü": null,
+        "dönem": null,
+        "resmî_URL": [
+          "https://www.aragon.es/tramitador/-/tramite/bono-alquiler-joven-en-la-comunidad-autonoma-de-aragon"
+        ],
+        "kaynak_bölümü": "…aso de alquiler de habitación esta renta o precio deberá ser igual o inferior a 300 euros mensuales. Trámites Convocatorias activas Listado de trámites asociados con est…",
+        "yayın_yürürlük_tarihleri": null,
+        "kontrol_tarihi": "2026-11-02",
+        "hesap_varsa_girdiler": null,
+        "sonuç": "supported",
+        "belirsizlik": "kaynakların 1/1 tanesi tam metinle denetlendi; yalnız tutarlılık; doğruluk/güncellik/statü ayrıca doğrulanmalı"
+      }
+    },
+    {
       "claim_id": "zaragoza:term:042:#1",
       "entry_id": "zaragoza:term:042",
       "sheet": "Sözlük",
@@ -178460,7 +180099,7 @@
       "field": "definition",
       "kind": "date",
       "text": "18 Ekim",
-      "sentence": "2019'da Uluslararası Turistik İlgi ilan edilmiş, 2026'da 10-18 Ekim'de düzenleniyor.",
+      "sentence": "2019'da Uluslararası Turistik İlgi ilan edilmiş, 2026 şenliği 10-18 Ekim'de yapıldı.",
       "values": [
         {
           "kind": "date",
@@ -178498,7 +180137,7 @@
         "claim_id": "zaragoza:term:042:#1",
         "entry_id": "zaragoza:term:042",
         "Excel_satırı": "Sözlük!49",
-        "iddia": "2019'da Uluslararası Turistik İlgi ilan edilmiş, 2026'da 10-18 Ekim'de düzenleniyor.",
+        "iddia": "2019'da Uluslararası Turistik İlgi ilan edilmiş, 2026 şenliği 10-18 Ekim'de yapıldı.",
         "ülke_şehir_statü": null,
         "dönem": null,
         "resmî_URL": [
@@ -179044,6 +180683,799 @@
       }
     },
     {
+      "claim_id": "zaragoza:term:051:#1",
+      "entry_id": "zaragoza:term:051",
+      "sheet": "Sözlük",
+      "_row": 58,
+      "field": "definition",
+      "kind": "weekday",
+      "text": "pazartesi",
+      "sentence": "pazartesi–perşembe 08.30–20.30, cuma 08.30–15.00 (1 Temmuz–15 Eylül arası 08.30–15.00) açıktır.",
+      "values": [
+        {
+          "kind": "weekday",
+          "value": "monday"
+        }
+      ],
+      "result": "not_in_source",
+      "value_levels": [
+        null
+      ],
+      "sources": [
+        {
+          "source_id": "zaragoza:kaynak:289",
+          "url": "https://www.zaragoza.es/sede/servicio/equipamiento/2136",
+          "homepage": false,
+          "snapshot_id": "f2bb96905f52aef4d9e9d0fa76fca83b128734d28ce0d5c7a9ffec197fcc881b.txt",
+          "chars": 6107,
+          "snapshot_state": "ok"
+        }
+      ],
+      "evidence": [],
+      "uncertainty": "kaynakların 1/1 tanesi tam metinle denetlendi",
+      "claim_record": {
+        "claim_id": "zaragoza:term:051:#1",
+        "entry_id": "zaragoza:term:051",
+        "Excel_satırı": "Sözlük!58",
+        "iddia": "pazartesi–perşembe 08.30–20.30, cuma 08.30–15.00 (1 Temmuz–15 Eylül arası 08.30–15.00) açıktır.",
+        "ülke_şehir_statü": null,
+        "dönem": null,
+        "resmî_URL": [
+          "https://www.zaragoza.es/sede/servicio/equipamiento/2136"
+        ],
+        "kaynak_bölümü": null,
+        "yayın_yürürlük_tarihleri": null,
+        "kontrol_tarihi": "2026-11-02",
+        "hesap_varsa_girdiler": null,
+        "sonuç": "not_in_source",
+        "belirsizlik": "kaynakların 1/1 tanesi tam metinle denetlendi"
+      }
+    },
+    {
+      "claim_id": "zaragoza:term:051:#2",
+      "entry_id": "zaragoza:term:051",
+      "sheet": "Sözlük",
+      "_row": 58,
+      "field": "definition",
+      "kind": "weekday",
+      "text": "perşembe",
+      "sentence": "pazartesi–perşembe 08.30–20.30, cuma 08.30–15.00 (1 Temmuz–15 Eylül arası 08.30–15.00) açıktır.",
+      "values": [
+        {
+          "kind": "weekday",
+          "value": "thursday"
+        }
+      ],
+      "result": "not_in_source",
+      "value_levels": [
+        null
+      ],
+      "sources": [
+        {
+          "source_id": "zaragoza:kaynak:289",
+          "url": "https://www.zaragoza.es/sede/servicio/equipamiento/2136",
+          "homepage": false,
+          "snapshot_id": "f2bb96905f52aef4d9e9d0fa76fca83b128734d28ce0d5c7a9ffec197fcc881b.txt",
+          "chars": 6107,
+          "snapshot_state": "ok"
+        }
+      ],
+      "evidence": [],
+      "uncertainty": "kaynakların 1/1 tanesi tam metinle denetlendi",
+      "claim_record": {
+        "claim_id": "zaragoza:term:051:#2",
+        "entry_id": "zaragoza:term:051",
+        "Excel_satırı": "Sözlük!58",
+        "iddia": "pazartesi–perşembe 08.30–20.30, cuma 08.30–15.00 (1 Temmuz–15 Eylül arası 08.30–15.00) açıktır.",
+        "ülke_şehir_statü": null,
+        "dönem": null,
+        "resmî_URL": [
+          "https://www.zaragoza.es/sede/servicio/equipamiento/2136"
+        ],
+        "kaynak_bölümü": null,
+        "yayın_yürürlük_tarihleri": null,
+        "kontrol_tarihi": "2026-11-02",
+        "hesap_varsa_girdiler": null,
+        "sonuç": "not_in_source",
+        "belirsizlik": "kaynakların 1/1 tanesi tam metinle denetlendi"
+      }
+    },
+    {
+      "claim_id": "zaragoza:term:051:#3",
+      "entry_id": "zaragoza:term:051",
+      "sheet": "Sözlük",
+      "_row": 58,
+      "field": "definition",
+      "kind": "time",
+      "text": "08.30",
+      "sentence": "pazartesi–perşembe 08.30–20.30, cuma 08.30–15.00 (1 Temmuz–15 Eylül arası 08.30–15.00) açıktır.",
+      "values": [
+        {
+          "kind": "time",
+          "value": "08:30"
+        }
+      ],
+      "result": "supported",
+      "value_levels": [
+        "unit"
+      ],
+      "sources": [
+        {
+          "source_id": "zaragoza:kaynak:289",
+          "url": "https://www.zaragoza.es/sede/servicio/equipamiento/2136",
+          "homepage": false,
+          "snapshot_id": "f2bb96905f52aef4d9e9d0fa76fca83b128734d28ce0d5c7a9ffec197fcc881b.txt",
+          "chars": 6107,
+          "snapshot_state": "ok"
+        }
+      ],
+      "evidence": [
+        {
+          "value_index": 0,
+          "source_id": "zaragoza:kaynak:289",
+          "url": "https://www.zaragoza.es/sede/servicio/equipamiento/2136",
+          "snapshot_id": "f2bb96905f52aef4d9e9d0fa76fca83b128734d28ce0d5c7a9ffec197fcc881b.txt",
+          "level": "unit",
+          "snippet": "…orreo electrónico: serviciosinmigrantes@zaragoza.es Horario: Lunes a jueves, de 08:30 a 20:30 h. Viernes, de 08:30 a 15:00 h. En verano (1 julio al 15 septiembre): d…",
+          "fetched_at": "2026-11-02"
+        }
+      ],
+      "uncertainty": "kaynakların 1/1 tanesi tam metinle denetlendi; yalnız tutarlılık; doğruluk/güncellik/statü ayrıca doğrulanmalı",
+      "claim_record": {
+        "claim_id": "zaragoza:term:051:#3",
+        "entry_id": "zaragoza:term:051",
+        "Excel_satırı": "Sözlük!58",
+        "iddia": "pazartesi–perşembe 08.30–20.30, cuma 08.30–15.00 (1 Temmuz–15 Eylül arası 08.30–15.00) açıktır.",
+        "ülke_şehir_statü": null,
+        "dönem": null,
+        "resmî_URL": [
+          "https://www.zaragoza.es/sede/servicio/equipamiento/2136"
+        ],
+        "kaynak_bölümü": "…orreo electrónico: serviciosinmigrantes@zaragoza.es Horario: Lunes a jueves, de 08:30 a 20:30 h. Viernes, de 08:30 a 15:00 h. En verano (1 julio al 15 septiembre): d…",
+        "yayın_yürürlük_tarihleri": null,
+        "kontrol_tarihi": "2026-11-02",
+        "hesap_varsa_girdiler": null,
+        "sonuç": "supported",
+        "belirsizlik": "kaynakların 1/1 tanesi tam metinle denetlendi; yalnız tutarlılık; doğruluk/güncellik/statü ayrıca doğrulanmalı"
+      }
+    },
+    {
+      "claim_id": "zaragoza:term:051:#4",
+      "entry_id": "zaragoza:term:051",
+      "sheet": "Sözlük",
+      "_row": 58,
+      "field": "definition",
+      "kind": "time",
+      "text": "20.30",
+      "sentence": "pazartesi–perşembe 08.30–20.30, cuma 08.30–15.00 (1 Temmuz–15 Eylül arası 08.30–15.00) açıktır.",
+      "values": [
+        {
+          "kind": "time",
+          "value": "20:30"
+        }
+      ],
+      "result": "supported",
+      "value_levels": [
+        "unit"
+      ],
+      "sources": [
+        {
+          "source_id": "zaragoza:kaynak:289",
+          "url": "https://www.zaragoza.es/sede/servicio/equipamiento/2136",
+          "homepage": false,
+          "snapshot_id": "f2bb96905f52aef4d9e9d0fa76fca83b128734d28ce0d5c7a9ffec197fcc881b.txt",
+          "chars": 6107,
+          "snapshot_state": "ok"
+        }
+      ],
+      "evidence": [
+        {
+          "value_index": 0,
+          "source_id": "zaragoza:kaynak:289",
+          "url": "https://www.zaragoza.es/sede/servicio/equipamiento/2136",
+          "snapshot_id": "f2bb96905f52aef4d9e9d0fa76fca83b128734d28ce0d5c7a9ffec197fcc881b.txt",
+          "level": "unit",
+          "snippet": "…ectrónico: serviciosinmigrantes@zaragoza.es Horario: Lunes a jueves, de 08:30 a 20:30 h. Viernes, de 08:30 a 15:00 h. En verano (1 julio al 15 septiembre): de 08:30 …",
+          "fetched_at": "2026-11-02"
+        }
+      ],
+      "uncertainty": "kaynakların 1/1 tanesi tam metinle denetlendi; yalnız tutarlılık; doğruluk/güncellik/statü ayrıca doğrulanmalı",
+      "claim_record": {
+        "claim_id": "zaragoza:term:051:#4",
+        "entry_id": "zaragoza:term:051",
+        "Excel_satırı": "Sözlük!58",
+        "iddia": "pazartesi–perşembe 08.30–20.30, cuma 08.30–15.00 (1 Temmuz–15 Eylül arası 08.30–15.00) açıktır.",
+        "ülke_şehir_statü": null,
+        "dönem": null,
+        "resmî_URL": [
+          "https://www.zaragoza.es/sede/servicio/equipamiento/2136"
+        ],
+        "kaynak_bölümü": "…ectrónico: serviciosinmigrantes@zaragoza.es Horario: Lunes a jueves, de 08:30 a 20:30 h. Viernes, de 08:30 a 15:00 h. En verano (1 julio al 15 septiembre): de 08:30 …",
+        "yayın_yürürlük_tarihleri": null,
+        "kontrol_tarihi": "2026-11-02",
+        "hesap_varsa_girdiler": null,
+        "sonuç": "supported",
+        "belirsizlik": "kaynakların 1/1 tanesi tam metinle denetlendi; yalnız tutarlılık; doğruluk/güncellik/statü ayrıca doğrulanmalı"
+      }
+    },
+    {
+      "claim_id": "zaragoza:term:051:#5",
+      "entry_id": "zaragoza:term:051",
+      "sheet": "Sözlük",
+      "_row": 58,
+      "field": "definition",
+      "kind": "weekday",
+      "text": "cuma",
+      "sentence": "pazartesi–perşembe 08.30–20.30, cuma 08.30–15.00 (1 Temmuz–15 Eylül arası 08.30–15.00) açıktır.",
+      "values": [
+        {
+          "kind": "weekday",
+          "value": "friday"
+        }
+      ],
+      "result": "not_in_source",
+      "value_levels": [
+        null
+      ],
+      "sources": [
+        {
+          "source_id": "zaragoza:kaynak:289",
+          "url": "https://www.zaragoza.es/sede/servicio/equipamiento/2136",
+          "homepage": false,
+          "snapshot_id": "f2bb96905f52aef4d9e9d0fa76fca83b128734d28ce0d5c7a9ffec197fcc881b.txt",
+          "chars": 6107,
+          "snapshot_state": "ok"
+        }
+      ],
+      "evidence": [],
+      "uncertainty": "kaynakların 1/1 tanesi tam metinle denetlendi",
+      "claim_record": {
+        "claim_id": "zaragoza:term:051:#5",
+        "entry_id": "zaragoza:term:051",
+        "Excel_satırı": "Sözlük!58",
+        "iddia": "pazartesi–perşembe 08.30–20.30, cuma 08.30–15.00 (1 Temmuz–15 Eylül arası 08.30–15.00) açıktır.",
+        "ülke_şehir_statü": null,
+        "dönem": null,
+        "resmî_URL": [
+          "https://www.zaragoza.es/sede/servicio/equipamiento/2136"
+        ],
+        "kaynak_bölümü": null,
+        "yayın_yürürlük_tarihleri": null,
+        "kontrol_tarihi": "2026-11-02",
+        "hesap_varsa_girdiler": null,
+        "sonuç": "not_in_source",
+        "belirsizlik": "kaynakların 1/1 tanesi tam metinle denetlendi"
+      }
+    },
+    {
+      "claim_id": "zaragoza:term:051:#6",
+      "entry_id": "zaragoza:term:051",
+      "sheet": "Sözlük",
+      "_row": 58,
+      "field": "definition",
+      "kind": "time",
+      "text": "15.00",
+      "sentence": "pazartesi–perşembe 08.30–20.30, cuma 08.30–15.00 (1 Temmuz–15 Eylül arası 08.30–15.00) açıktır.",
+      "values": [
+        {
+          "kind": "time",
+          "value": "15:00"
+        }
+      ],
+      "result": "supported",
+      "value_levels": [
+        "unit"
+      ],
+      "sources": [
+        {
+          "source_id": "zaragoza:kaynak:289",
+          "url": "https://www.zaragoza.es/sede/servicio/equipamiento/2136",
+          "homepage": false,
+          "snapshot_id": "f2bb96905f52aef4d9e9d0fa76fca83b128734d28ce0d5c7a9ffec197fcc881b.txt",
+          "chars": 6107,
+          "snapshot_state": "ok"
+        }
+      ],
+      "evidence": [
+        {
+          "value_index": 0,
+          "source_id": "zaragoza:kaynak:289",
+          "url": "https://www.zaragoza.es/sede/servicio/equipamiento/2136",
+          "snapshot_id": "f2bb96905f52aef4d9e9d0fa76fca83b128734d28ce0d5c7a9ffec197fcc881b.txt",
+          "level": "unit",
+          "snippet": "…es@zaragoza.es Horario: Lunes a jueves, de 08:30 a 20:30 h. Viernes, de 08:30 a 15:00 h. En verano (1 julio al 15 septiembre): de 08:30 a 15:00 h. Equipamiento inclu…",
+          "fetched_at": "2026-11-02"
+        }
+      ],
+      "uncertainty": "kaynakların 1/1 tanesi tam metinle denetlendi; yalnız tutarlılık; doğruluk/güncellik/statü ayrıca doğrulanmalı",
+      "claim_record": {
+        "claim_id": "zaragoza:term:051:#6",
+        "entry_id": "zaragoza:term:051",
+        "Excel_satırı": "Sözlük!58",
+        "iddia": "pazartesi–perşembe 08.30–20.30, cuma 08.30–15.00 (1 Temmuz–15 Eylül arası 08.30–15.00) açıktır.",
+        "ülke_şehir_statü": null,
+        "dönem": null,
+        "resmî_URL": [
+          "https://www.zaragoza.es/sede/servicio/equipamiento/2136"
+        ],
+        "kaynak_bölümü": "…es@zaragoza.es Horario: Lunes a jueves, de 08:30 a 20:30 h. Viernes, de 08:30 a 15:00 h. En verano (1 julio al 15 septiembre): de 08:30 a 15:00 h. Equipamiento inclu…",
+        "yayın_yürürlük_tarihleri": null,
+        "kontrol_tarihi": "2026-11-02",
+        "hesap_varsa_girdiler": null,
+        "sonuç": "supported",
+        "belirsizlik": "kaynakların 1/1 tanesi tam metinle denetlendi; yalnız tutarlılık; doğruluk/güncellik/statü ayrıca doğrulanmalı"
+      }
+    },
+    {
+      "claim_id": "zaragoza:term:051:#7",
+      "entry_id": "zaragoza:term:051",
+      "sheet": "Sözlük",
+      "_row": 58,
+      "field": "definition",
+      "kind": "date",
+      "text": "1 Temmuz",
+      "sentence": "pazartesi–perşembe 08.30–20.30, cuma 08.30–15.00 (1 Temmuz–15 Eylül arası 08.30–15.00) açıktır.",
+      "values": [
+        {
+          "kind": "date",
+          "day": 1,
+          "month": 7
+        }
+      ],
+      "result": "not_in_source",
+      "value_levels": [
+        null
+      ],
+      "sources": [
+        {
+          "source_id": "zaragoza:kaynak:289",
+          "url": "https://www.zaragoza.es/sede/servicio/equipamiento/2136",
+          "homepage": false,
+          "snapshot_id": "f2bb96905f52aef4d9e9d0fa76fca83b128734d28ce0d5c7a9ffec197fcc881b.txt",
+          "chars": 6107,
+          "snapshot_state": "ok"
+        }
+      ],
+      "evidence": [],
+      "uncertainty": "kaynakların 1/1 tanesi tam metinle denetlendi",
+      "claim_record": {
+        "claim_id": "zaragoza:term:051:#7",
+        "entry_id": "zaragoza:term:051",
+        "Excel_satırı": "Sözlük!58",
+        "iddia": "pazartesi–perşembe 08.30–20.30, cuma 08.30–15.00 (1 Temmuz–15 Eylül arası 08.30–15.00) açıktır.",
+        "ülke_şehir_statü": null,
+        "dönem": null,
+        "resmî_URL": [
+          "https://www.zaragoza.es/sede/servicio/equipamiento/2136"
+        ],
+        "kaynak_bölümü": null,
+        "yayın_yürürlük_tarihleri": null,
+        "kontrol_tarihi": "2026-11-02",
+        "hesap_varsa_girdiler": null,
+        "sonuç": "not_in_source",
+        "belirsizlik": "kaynakların 1/1 tanesi tam metinle denetlendi"
+      }
+    },
+    {
+      "claim_id": "zaragoza:term:051:#8",
+      "entry_id": "zaragoza:term:051",
+      "sheet": "Sözlük",
+      "_row": 58,
+      "field": "definition",
+      "kind": "date",
+      "text": "15 Eylül",
+      "sentence": "pazartesi–perşembe 08.30–20.30, cuma 08.30–15.00 (1 Temmuz–15 Eylül arası 08.30–15.00) açıktır.",
+      "values": [
+        {
+          "kind": "date",
+          "day": 15,
+          "month": 9
+        }
+      ],
+      "result": "not_in_source",
+      "value_levels": [
+        null
+      ],
+      "sources": [
+        {
+          "source_id": "zaragoza:kaynak:289",
+          "url": "https://www.zaragoza.es/sede/servicio/equipamiento/2136",
+          "homepage": false,
+          "snapshot_id": "f2bb96905f52aef4d9e9d0fa76fca83b128734d28ce0d5c7a9ffec197fcc881b.txt",
+          "chars": 6107,
+          "snapshot_state": "ok"
+        }
+      ],
+      "evidence": [],
+      "uncertainty": "kaynakların 1/1 tanesi tam metinle denetlendi",
+      "claim_record": {
+        "claim_id": "zaragoza:term:051:#8",
+        "entry_id": "zaragoza:term:051",
+        "Excel_satırı": "Sözlük!58",
+        "iddia": "pazartesi–perşembe 08.30–20.30, cuma 08.30–15.00 (1 Temmuz–15 Eylül arası 08.30–15.00) açıktır.",
+        "ülke_şehir_statü": null,
+        "dönem": null,
+        "resmî_URL": [
+          "https://www.zaragoza.es/sede/servicio/equipamiento/2136"
+        ],
+        "kaynak_bölümü": null,
+        "yayın_yürürlük_tarihleri": null,
+        "kontrol_tarihi": "2026-11-02",
+        "hesap_varsa_girdiler": null,
+        "sonuç": "not_in_source",
+        "belirsizlik": "kaynakların 1/1 tanesi tam metinle denetlendi"
+      }
+    },
+    {
+      "claim_id": "zaragoza:term:052:#1",
+      "entry_id": "zaragoza:term:052",
+      "sheet": "Sözlük",
+      "_row": 59,
+      "field": "definition",
+      "kind": "time",
+      "text": "9.00",
+      "sentence": "Program hakkında bilgiyi Casa de las Culturas'ta 9.00–12.00 arası yüz yüze alabilirsin.",
+      "values": [
+        {
+          "kind": "time",
+          "value": "09:00"
+        }
+      ],
+      "result": "not_in_source",
+      "value_levels": [
+        null
+      ],
+      "sources": [
+        {
+          "source_id": "zaragoza:kaynak:290",
+          "url": "https://www.zaragoza.es/sede/servicio/tramite/25281",
+          "homepage": false,
+          "snapshot_id": "2fb10f06ba441f99719d9a516733ba0b5acd01d2804175d8db7af215c167337e.txt",
+          "chars": 2911,
+          "snapshot_state": "ok"
+        }
+      ],
+      "evidence": [],
+      "uncertainty": "kaynakların 1/1 tanesi tam metinle denetlendi",
+      "claim_record": {
+        "claim_id": "zaragoza:term:052:#1",
+        "entry_id": "zaragoza:term:052",
+        "Excel_satırı": "Sözlük!59",
+        "iddia": "Program hakkında bilgiyi Casa de las Culturas'ta 9.00–12.00 arası yüz yüze alabilirsin.",
+        "ülke_şehir_statü": null,
+        "dönem": null,
+        "resmî_URL": [
+          "https://www.zaragoza.es/sede/servicio/tramite/25281"
+        ],
+        "kaynak_bölümü": null,
+        "yayın_yürürlük_tarihleri": null,
+        "kontrol_tarihi": "2026-11-02",
+        "hesap_varsa_girdiler": null,
+        "sonuç": "not_in_source",
+        "belirsizlik": "kaynakların 1/1 tanesi tam metinle denetlendi"
+      }
+    },
+    {
+      "claim_id": "zaragoza:term:052:#2",
+      "entry_id": "zaragoza:term:052",
+      "sheet": "Sözlük",
+      "_row": 59,
+      "field": "definition",
+      "kind": "time",
+      "text": "12.00",
+      "sentence": "Program hakkında bilgiyi Casa de las Culturas'ta 9.00–12.00 arası yüz yüze alabilirsin.",
+      "values": [
+        {
+          "kind": "time",
+          "value": "12:00"
+        }
+      ],
+      "result": "not_in_source",
+      "value_levels": [
+        null
+      ],
+      "sources": [
+        {
+          "source_id": "zaragoza:kaynak:290",
+          "url": "https://www.zaragoza.es/sede/servicio/tramite/25281",
+          "homepage": false,
+          "snapshot_id": "2fb10f06ba441f99719d9a516733ba0b5acd01d2804175d8db7af215c167337e.txt",
+          "chars": 2911,
+          "snapshot_state": "ok"
+        }
+      ],
+      "evidence": [],
+      "uncertainty": "kaynakların 1/1 tanesi tam metinle denetlendi",
+      "claim_record": {
+        "claim_id": "zaragoza:term:052:#2",
+        "entry_id": "zaragoza:term:052",
+        "Excel_satırı": "Sözlük!59",
+        "iddia": "Program hakkında bilgiyi Casa de las Culturas'ta 9.00–12.00 arası yüz yüze alabilirsin.",
+        "ülke_şehir_statü": null,
+        "dönem": null,
+        "resmî_URL": [
+          "https://www.zaragoza.es/sede/servicio/tramite/25281"
+        ],
+        "kaynak_bölümü": null,
+        "yayın_yürürlük_tarihleri": null,
+        "kontrol_tarihi": "2026-11-02",
+        "hesap_varsa_girdiler": null,
+        "sonuç": "not_in_source",
+        "belirsizlik": "kaynakların 1/1 tanesi tam metinle denetlendi"
+      }
+    },
+    {
+      "claim_id": "zaragoza:term:053:#1",
+      "entry_id": "zaragoza:term:053",
+      "sheet": "Sözlük",
+      "_row": 60,
+      "field": "definition",
+      "kind": "age",
+      "text": "0–3 yaş",
+      "sentence": "Belediyeye ait, 0–3 yaş çocuklar için okul öncesi eğitim kurumu (kreş).",
+      "values": [
+        {
+          "kind": "age",
+          "value": 0
+        },
+        {
+          "kind": "age",
+          "value": 3
+        }
+      ],
+      "result": "not_in_source",
+      "value_levels": [
+        "number",
+        "number"
+      ],
+      "sources": [
+        {
+          "source_id": "zaragoza:kaynak:222",
+          "url": "https://www.zaragoza.es/sede/servicio/tramite/10901",
+          "homepage": false,
+          "snapshot_id": "5ac31652048bf78f930615ca64f7e655d40ff657064891eeb664331f5c661d8f.txt",
+          "chars": 12763,
+          "snapshot_state": "ok"
+        },
+        {
+          "source_id": "zaragoza:kaynak:344",
+          "url": "https://www.zaragoza.es/sede/servicio/tramite/24500",
+          "homepage": false,
+          "snapshot_id": "7c20fc7b76598b914a971553713ee4ded67d1ff7b257030c7eb18f6bab282a93.txt",
+          "chars": 12262,
+          "snapshot_state": "ok"
+        }
+      ],
+      "evidence": [
+        {
+          "value_index": 0,
+          "source_id": "zaragoza:kaynak:222",
+          "url": "https://www.zaragoza.es/sede/servicio/tramite/10901",
+          "snapshot_id": "5ac31652048bf78f930615ca64f7e655d40ff657064891eeb664331f5c661d8f.txt",
+          "level": "number",
+          "snippet": "…n en la EIM María Urrea. Imagen informativa Cerrar Modal Requisitos Infancia de 0-3 años. Haber nacido en los años 2024, 2025 o del 1 de enero al 30 de junio de …",
+          "fetched_at": "2026-11-02"
+        },
+        {
+          "value_index": 1,
+          "source_id": "zaragoza:kaynak:222",
+          "url": "https://www.zaragoza.es/sede/servicio/tramite/10901",
+          "snapshot_id": "5ac31652048bf78f930615ca64f7e655d40ff657064891eeb664331f5c661d8f.txt",
+          "level": "number",
+          "snippet": "…en la EIM María Urrea. Imagen informativa Cerrar Modal Requisitos Infancia de 0-3 años. Haber nacido en los años 2024, 2025 o del 1 de enero al 30 de junio de 20…",
+          "fetched_at": "2026-11-02"
+        }
+      ],
+      "uncertainty": "kaynakların 2/2 tanesi tam metinle denetlendi; sayı birimsiz geçiyor (birim eşleşmedi)",
+      "claim_record": {
+        "claim_id": "zaragoza:term:053:#1",
+        "entry_id": "zaragoza:term:053",
+        "Excel_satırı": "Sözlük!60",
+        "iddia": "Belediyeye ait, 0–3 yaş çocuklar için okul öncesi eğitim kurumu (kreş).",
+        "ülke_şehir_statü": null,
+        "dönem": null,
+        "resmî_URL": [
+          "https://www.zaragoza.es/sede/servicio/tramite/10901",
+          "https://www.zaragoza.es/sede/servicio/tramite/24500"
+        ],
+        "kaynak_bölümü": "…n en la EIM María Urrea. Imagen informativa Cerrar Modal Requisitos Infancia de 0-3 años. Haber nacido en los años 2024, 2025 o del 1 de enero al 30 de junio de …",
+        "yayın_yürürlük_tarihleri": null,
+        "kontrol_tarihi": "2026-11-02",
+        "hesap_varsa_girdiler": null,
+        "sonuç": "not_in_source",
+        "belirsizlik": "kaynakların 2/2 tanesi tam metinle denetlendi; sayı birimsiz geçiyor (birim eşleşmedi)"
+      }
+    },
+    {
+      "claim_id": "zaragoza:term:053:#2",
+      "entry_id": "zaragoza:term:053",
+      "sheet": "Sözlük",
+      "_row": 60,
+      "field": "definition",
+      "kind": "date",
+      "text": "27 Mart 2026",
+      "sentence": "Yer başvurusu yüz yüze, birinci tercih edilen belediye kreşine yapılır (2026/27 dönemi başvuruları 20–27 Mart 2026'daydı);",
+      "values": [
+        {
+          "kind": "date",
+          "day": 27,
+          "month": 3,
+          "year": 2026
+        }
+      ],
+      "result": "not_in_source",
+      "value_levels": [
+        null
+      ],
+      "sources": [
+        {
+          "source_id": "zaragoza:kaynak:222",
+          "url": "https://www.zaragoza.es/sede/servicio/tramite/10901",
+          "homepage": false,
+          "snapshot_id": "5ac31652048bf78f930615ca64f7e655d40ff657064891eeb664331f5c661d8f.txt",
+          "chars": 12763,
+          "snapshot_state": "ok"
+        },
+        {
+          "source_id": "zaragoza:kaynak:344",
+          "url": "https://www.zaragoza.es/sede/servicio/tramite/24500",
+          "homepage": false,
+          "snapshot_id": "7c20fc7b76598b914a971553713ee4ded67d1ff7b257030c7eb18f6bab282a93.txt",
+          "chars": 12262,
+          "snapshot_state": "ok"
+        }
+      ],
+      "evidence": [],
+      "uncertainty": "kaynakların 2/2 tanesi tam metinle denetlendi",
+      "claim_record": {
+        "claim_id": "zaragoza:term:053:#2",
+        "entry_id": "zaragoza:term:053",
+        "Excel_satırı": "Sözlük!60",
+        "iddia": "Yer başvurusu yüz yüze, birinci tercih edilen belediye kreşine yapılır (2026/27 dönemi başvuruları 20–27 Mart 2026'daydı);",
+        "ülke_şehir_statü": null,
+        "dönem": null,
+        "resmî_URL": [
+          "https://www.zaragoza.es/sede/servicio/tramite/10901",
+          "https://www.zaragoza.es/sede/servicio/tramite/24500"
+        ],
+        "kaynak_bölümü": null,
+        "yayın_yürürlük_tarihleri": null,
+        "kontrol_tarihi": "2026-11-02",
+        "hesap_varsa_girdiler": null,
+        "sonuç": "not_in_source",
+        "belirsizlik": "kaynakların 2/2 tanesi tam metinle denetlendi"
+      }
+    },
+    {
+      "claim_id": "zaragoza:term:053:#3",
+      "entry_id": "zaragoza:term:053",
+      "sheet": "Sözlük",
+      "_row": 60,
+      "field": "definition",
+      "kind": "money",
+      "text": "15 euro",
+      "sentence": "kayıt da yüz yüze yapılır ve 15 euro ön ödeme ister (2026/27 kaydı 20–28 Mayıs 2026'daydı).",
+      "values": [
+        {
+          "kind": "money",
+          "value": 15,
+          "currency": "EUR"
+        }
+      ],
+      "result": "supported",
+      "value_levels": [
+        "unit"
+      ],
+      "sources": [
+        {
+          "source_id": "zaragoza:kaynak:222",
+          "url": "https://www.zaragoza.es/sede/servicio/tramite/10901",
+          "homepage": false,
+          "snapshot_id": "5ac31652048bf78f930615ca64f7e655d40ff657064891eeb664331f5c661d8f.txt",
+          "chars": 12763,
+          "snapshot_state": "ok"
+        },
+        {
+          "source_id": "zaragoza:kaynak:344",
+          "url": "https://www.zaragoza.es/sede/servicio/tramite/24500",
+          "homepage": false,
+          "snapshot_id": "7c20fc7b76598b914a971553713ee4ded67d1ff7b257030c7eb18f6bab282a93.txt",
+          "chars": 12262,
+          "snapshot_state": "ok"
+        }
+      ],
+      "evidence": [
+        {
+          "value_index": 0,
+          "source_id": "zaragoza:kaynak:344",
+          "url": "https://www.zaragoza.es/sede/servicio/tramite/24500",
+          "snapshot_id": "7c20fc7b76598b914a971553713ee4ded67d1ff7b257030c7eb18f6bab282a93.txt",
+          "level": "unit",
+          "snippet": "…ios y realización de actividades Pago Deberá aportar el justificante de pago de 15 euros, como se le indica en el apartado de Documentación. Plazo de Presentación Fecha…",
+          "fetched_at": "2026-11-02"
+        }
+      ],
+      "uncertainty": "kaynakların 2/2 tanesi tam metinle denetlendi; yalnız tutarlılık; doğruluk/güncellik/statü ayrıca doğrulanmalı",
+      "claim_record": {
+        "claim_id": "zaragoza:term:053:#3",
+        "entry_id": "zaragoza:term:053",
+        "Excel_satırı": "Sözlük!60",
+        "iddia": "kayıt da yüz yüze yapılır ve 15 euro ön ödeme ister (2026/27 kaydı 20–28 Mayıs 2026'daydı).",
+        "ülke_şehir_statü": null,
+        "dönem": null,
+        "resmî_URL": [
+          "https://www.zaragoza.es/sede/servicio/tramite/10901",
+          "https://www.zaragoza.es/sede/servicio/tramite/24500"
+        ],
+        "kaynak_bölümü": "…ios y realización de actividades Pago Deberá aportar el justificante de pago de 15 euros, como se le indica en el apartado de Documentación. Plazo de Presentación Fecha…",
+        "yayın_yürürlük_tarihleri": null,
+        "kontrol_tarihi": "2026-11-02",
+        "hesap_varsa_girdiler": null,
+        "sonuç": "supported",
+        "belirsizlik": "kaynakların 2/2 tanesi tam metinle denetlendi; yalnız tutarlılık; doğruluk/güncellik/statü ayrıca doğrulanmalı"
+      }
+    },
+    {
+      "claim_id": "zaragoza:term:053:#4",
+      "entry_id": "zaragoza:term:053",
+      "sheet": "Sözlük",
+      "_row": 60,
+      "field": "definition",
+      "kind": "date",
+      "text": "28 Mayıs 2026",
+      "sentence": "kayıt da yüz yüze yapılır ve 15 euro ön ödeme ister (2026/27 kaydı 20–28 Mayıs 2026'daydı).",
+      "values": [
+        {
+          "kind": "date",
+          "day": 28,
+          "month": 5,
+          "year": 2026
+        }
+      ],
+      "result": "not_in_source",
+      "value_levels": [
+        null
+      ],
+      "sources": [
+        {
+          "source_id": "zaragoza:kaynak:222",
+          "url": "https://www.zaragoza.es/sede/servicio/tramite/10901",
+          "homepage": false,
+          "snapshot_id": "5ac31652048bf78f930615ca64f7e655d40ff657064891eeb664331f5c661d8f.txt",
+          "chars": 12763,
+          "snapshot_state": "ok"
+        },
+        {
+          "source_id": "zaragoza:kaynak:344",
+          "url": "https://www.zaragoza.es/sede/servicio/tramite/24500",
+          "homepage": false,
+          "snapshot_id": "7c20fc7b76598b914a971553713ee4ded67d1ff7b257030c7eb18f6bab282a93.txt",
+          "chars": 12262,
+          "snapshot_state": "ok"
+        }
+      ],
+      "evidence": [],
+      "uncertainty": "kaynakların 2/2 tanesi tam metinle denetlendi",
+      "claim_record": {
+        "claim_id": "zaragoza:term:053:#4",
+        "entry_id": "zaragoza:term:053",
+        "Excel_satırı": "Sözlük!60",
+        "iddia": "kayıt da yüz yüze yapılır ve 15 euro ön ödeme ister (2026/27 kaydı 20–28 Mayıs 2026'daydı).",
+        "ülke_şehir_statü": null,
+        "dönem": null,
+        "resmî_URL": [
+          "https://www.zaragoza.es/sede/servicio/tramite/10901",
+          "https://www.zaragoza.es/sede/servicio/tramite/24500"
+        ],
+        "kaynak_bölümü": null,
+        "yayın_yürürlük_tarihleri": null,
+        "kontrol_tarihi": "2026-11-02",
+        "hesap_varsa_girdiler": null,
+        "sonuç": "not_in_source",
+        "belirsizlik": "kaynakların 2/2 tanesi tam metinle denetlendi"
+      }
+    },
+    {
       "claim_id": "zaragoza:term:056:#1",
       "entry_id": "zaragoza:term:056",
       "sheet": "Sözlük",
@@ -179161,6 +181593,57 @@
         "hesap_varsa_girdiler": null,
         "sonuç": "not_in_source",
         "belirsizlik": "kaynakların 1/1 tanesi tam metinle denetlendi; sayı birimsiz geçiyor (birim eşleşmedi)"
+      }
+    },
+    {
+      "claim_id": "zaragoza:term:064:#1",
+      "entry_id": "zaragoza:term:064",
+      "sheet": "Sözlük",
+      "_row": 71,
+      "field": "definition",
+      "kind": "date",
+      "text": "1 Ocak 2024",
+      "sentence": "toptan elektrik piyasasına endeksli, saatlik değişen dinamik bir fiyattır ve 1 Ocak 2024'ten beri dalgalanmayı azaltmak için kısmen uzun vadeli fiyat sinyallerini de içerir.",
+      "values": [
+        {
+          "kind": "date",
+          "day": 1,
+          "month": 1,
+          "year": 2024
+        }
+      ],
+      "result": "not_in_source",
+      "value_levels": [
+        null
+      ],
+      "sources": [
+        {
+          "source_id": "zaragoza:kaynak:073",
+          "url": "https://www.miteco.gob.es/es/energia/energia-electrica/electricidad/contratacion-suministro/precio-voluntario.html",
+          "homepage": false,
+          "snapshot_id": "a65e479de1666f2a7724e8c6335a811df08b17cc860dfbb30a008f5f699358a8.txt",
+          "chars": 7477,
+          "snapshot_state": "ok"
+        }
+      ],
+      "evidence": [],
+      "uncertainty": "kaynakların 1/1 tanesi tam metinle denetlendi",
+      "claim_record": {
+        "claim_id": "zaragoza:term:064:#1",
+        "entry_id": "zaragoza:term:064",
+        "Excel_satırı": "Sözlük!71",
+        "iddia": "toptan elektrik piyasasına endeksli, saatlik değişen dinamik bir fiyattır ve 1 Ocak 2024'ten beri dalgalanmayı azaltmak için kısmen uzun vadeli fiyat sinyallerini de içerir.",
+        "ülke_şehir_statü": null,
+        "dönem": null,
+        "resmî_URL": [
+          "https://www.miteco.gob.es/es/energia/energia-electrica/electricidad/contratacion-suministro/precio-voluntario.html"
+        ],
+        "kaynak_bölümü": null,
+        "yayın_yürürlük_tarihleri": null,
+        "kontrol_tarihi": "2026-11-02",
+        "hesap_varsa_girdiler": null,
+        "sonuç": "not_in_source",
+        "belirsizlik": "kaynakların 1/1 tanesi tam metinle denetlendi"
       }
     }
   ]

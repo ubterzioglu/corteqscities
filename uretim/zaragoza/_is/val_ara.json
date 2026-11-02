@@ -5,7 +5,7 @@
     "new_content": true,
     "structure": {
       "errors": 0,
-      "warnings": 124
+      "warnings": 123
     },
     "media": {
       "errors": 0
@@ -31,7 +31,7 @@
       "homepage_only_sources": 0,
       "history_share": 0
     },
-    "extras_note": "ek kontrol, resmî sayılara dahil değil; tarih payı 27/109 (eşik 0.35, öneri)",
+    "extras_note": "ek kontrol, resmî sayılara dahil değil; tarih payı 27/108 (eşik 0.35, öneri)",
     "technically_complete": false
   },
   "structure": {
@@ -41,7 +41,7 @@
     "acceptance_version": "2026-10-13.1",
     "counts": {
       "answers": 248,
-      "places": 109,
+      "places": 108,
       "neighborhoods": 13,
       "routes": 12,
       "glossary": 64,
@@ -71,7 +71,6 @@
     },
     "errors": [],
     "warnings": [
-      "Mekânlar!?: Mekân / mahalleye bağlı gerçek fotoğraf eksik.",
       "Mekânlar!?: Mekân / mahalleye bağlı gerçek fotoğraf eksik.",
       "Mekânlar!?: Mekân / mahalleye bağlı gerçek fotoğraf eksik.",
       "Mekânlar!?: Mekân / mahalleye bağlı gerçek fotoğraf eksik.",
@@ -234,7 +233,7 @@
   "warning_classes": [
     {
       "class": "Mekânlar: Mekân / mahalleye bağlı gerçek fotoğraf eksik.",
-      "count": 109,
+      "count": 108,
       "examples": [
         "Mekânlar!?: Mekân / mahalleye bağlı gerçek fotoğraf eksik."
       ]
@@ -281,7 +280,7 @@
       "label": "ek kontrol",
       "count": 0,
       "items": [],
-      "verified_total": 449
+      "verified_total": 458
     },
     "shared_coordinates": {
       "label": "ek kontrol",
@@ -299,8 +298,8 @@
       "count": 0,
       "items": [],
       "history": 27,
-      "total": 109,
-      "ratio": 0.2477,
+      "total": 108,
+      "ratio": 0.25,
       "threshold": 0.35,
       "flagged": false,
       "threshold_note": "öneri: 'Tarih ve mimari' payı > 35% ise çeşitlilik gözden geçirilmeli"
