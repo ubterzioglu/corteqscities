@@ -21,7 +21,7 @@
   "path": "/home/user/corteqscities/uretim/zaragoza/_is/ulke_paketi",
   "valid_until": "2026-11-05"
  },
- "phase": "sources",
+ "phase": "answers",
  "phases": {
   "intake": {
    "status": "done",
@@ -96,8 +96,33 @@
    ]
   },
   "sources": {
-   "status": "running",
+   "status": "done",
    "started_at": "2026-11-02T15:40:12Z",
+   "gates": [
+    {
+     "script": "add_sources",
+     "exit_code": 0,
+     "summary": {
+      "topics": 12,
+      "min_per_topic": 16,
+      "accepted": 194,
+      "rejected": 0,
+      "kaynak_dizini": 327,
+      "not": "keşif 4 konu başına 25-27 adres verdi; ilk 18 alındı, fazlası kesif/<konu>/yedek.jsonl"
+     },
+     "report": "/home/user/corteqscities/uretim/zaragoza/_is/kesif",
+     "at": "2026-11-02T15:52:33Z"
+    }
+   ],
+   "outputs": [
+    "/home/user/corteqscities/uretim/zaragoza/_is/yazar",
+    "/home/user/corteqscities/uretim/zaragoza/_is/kesif/gaps.json"
+   ],
+   "ended_at": "2026-11-02T15:52:33Z"
+  },
+  "answers": {
+   "status": "running",
+   "started_at": "2026-11-02T15:53:01Z",
    "gates": [],
    "outputs": []
   }
@@ -106,7 +131,7 @@
   {
    "id": "OI-001",
    "priority": "P2",
-   "text": "Erişim: inclusion.gob.es, mivau.gob.es, camarazaragoza.com 403; iass.aragon.es, dpz.es, sede.administracionespublicas.gob.es, sede.agenciatributaria.gob.es bağlantı sıfırlandı; cortesaragon.es (Aljafería) bağlantı koptu; ecociudadzaragoza.es (su şirketi) tünel bağlantısı kurulamadı. Bilgi başka resmî kurumdan alınacak; erişim teyidi açık.",
+   "text": "Erişim: inclusion.gob.es, mivau.gob.es, camarazaragoza.com 403; iass.aragon.es, dpz.es, sede.administracionespublicas.gob.es, sede.agenciatributaria.gob.es bağlantı sıfırlandı; cortesaragon.es (Aljafería) bağlantı koptu; ecociudadzaragoza.es (su şirketi) tünel bağlantısı kurulamadı. Bilgi başka resmî kurumdan alınacak; erişim teyidi açık. Keşifte ek: educacionfpydeportes.gob.es bağlantı koptu; mapaoficinas.fnmt.es 502; hola-zaragoza.avanzagrupo.com ve aeropuerto.ctaz.es 403; tranviasdezaragoza.es JS (boş metin).",
    "evidence": "/home/user/corteqscities/uretim/zaragoza/_is/kesif/erisim_snap/index.jsonl",
    "owner": "insan"
   },
@@ -139,7 +164,7 @@
    "owner": "ai"
   }
  ],
- "sources_researched": 133,
+ "sources_researched": 327,
  "photos_downloaded": 0,
- "next_step": "sources: 4 keşif ajanı (3'er konu), KESIF_TALIMAT.md erişim listesiyle"
+ "next_step": "answers: 12 konu yazarı (yanit-yazari.md), ülke kartları country_cards olarak"
 }
