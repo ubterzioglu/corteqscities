@@ -1,0 +1,45 @@
+{
+  "tool": "acik_mi",
+  "acik_mi": "/home/user/corteqscities/uretim/zaragoza/_is/acik_mi",
+  "mekanlar": [
+    "/home/user/corteqscities/uretim/zaragoza/_is/data/parcalar/Mekânlar.m1.jsonl",
+    "/home/user/corteqscities/uretim/zaragoza/_is/data/parcalar/Mekânlar.m2.jsonl",
+    "/home/user/corteqscities/uretim/zaragoza/_is/data/parcalar/Mekânlar.m3.jsonl",
+    "/home/user/corteqscities/uretim/zaragoza/_is/data/parcalar/Mekânlar.m4.jsonl"
+  ],
+  "kaynaklar": [
+    "/home/user/corteqscities/uretim/zaragoza/_is/kaynak_dizini.jsonl"
+  ],
+  "min_year": 2025,
+  "mekan": 108,
+  "tarama": {
+    "dosya": 8,
+    "satir": 110,
+    "mekan": 110
+  },
+  "dogrulama": {
+    "dosya": 8,
+    "satir": 74
+  },
+  "durum": {
+    "açık": 60,
+    "belirsiz": 44,
+    "geçici kapalı": 5,
+    "insaat": 1
+  },
+  "eylem": {
+    "dokunma": 59,
+    "kartta belirt": 15
+  },
+  "sonuc": {
+    "onay": 43,
+    "ret": 31
+  },
+  "listede_olmayan": {
+    "tarama": 2,
+    "dogrulama": 1
+  },
+  "findings": [],
+  "by_code": {},
+  "out": "/home/user/corteqscities/uretim/zaragoza/_is/acik_mi_rapor.json"
+}

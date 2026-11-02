@@ -1,0 +1,2 @@
+- 2026-11-02 | intake | pack_merge tek paketle çalışmıyor ('en az iki paket gerekli'); bölge paketi olmayan şehirde (Aragón) manifest.country_pack = _is/ulke_paketi kuralı uygulanamıyor | ulke/ES kopyası _is/ulke_paketi'ye alındı (bolge/ hariç); pack_merge tek pakete izin vermeli
+- 2026-11-02 | intake | Marbella ile aynı bulut oturumunda yürütülüyor (kullanıcı kararı); Marbella photos penceresi bu oturumda açık kaldı, run_log iki şehrin ajanlarını aynı oturum kaydından okuyacak | Marbella photos penceresi yerelde kapanır; run_log'da şehir ayrımı phase_log pencereleriyle

@@ -1,0 +1,971 @@
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es">
+
+
+<head>
+	<!-- 1. Inicializar dataLayer y Consent Mode por defecto -->
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){ dataLayer.push(arguments); }
+
+	  // Consent Mode v2 - default denied
+	  gtag("consent", "default", {
+		ad_storage: "denied",
+		ad_user_data: "denied",
+		ad_personalization: "denied",
+		analytics_storage: "denied",
+		functionality_storage: "denied",
+		personalization_storage: "denied",
+		security_storage: "granted",
+		wait_for_update: 2000
+	  });
+
+	  // Ajustes recomendados
+	  gtag("set", "ads_data_redaction", true);
+	  gtag("set", "url_passthrough", true);
+	</script>
+
+	<!-- 2. CookieYes -->
+	<script id="cookieyes" type="text/javascript" src="https://cdn-cookieyes.com/client_data/15696a73c8085d6278f50b08b6506d5d/script.js"></script>
+
+	<!-- 2b. Recargar la página si el usuario retira el consentimiento con vídeos o mapas cargados -->
+	<script>
+	document.addEventListener("cookieyes_consent_update", function (e) {
+	  // CookieYes lanza este evento también al cargar la página cuando el visitante
+	  // aún no ha elegido nada: en ese caso no hay que hacer nada.
+	  var c = (typeof getCkyConsent === "function") ? getCkyConsent() : null;
+	  if (!c || !c.isUserActionCompleted) return;
+
+	  var rechazadas = (e.detail && e.detail.rejected) || [];
+	  if (rechazadas.length === 0) return;
+
+	  // Seguro antirrecarga en bucle: como máximo una recarga cada 10 segundos
+	  try {
+		var ultima = parseInt(sessionStorage.getItem("ckyReload") || "0", 10);
+		if (Date.now() - ultima < 10000) return;
+	  } catch (err) {}
+
+	  var dominios = ["youtube.com", "youtube-nocookie.com", "google.com/maps", "maps.google."];
+	  var iframes = document.getElementsByTagName("iframe");
+	  for (var i = 0; i < iframes.length; i++) {
+		var src = iframes[i].getAttribute("src") || "";
+		for (var j = 0; j < dominios.length; j++) {
+		  if (src.indexOf(dominios[j]) !== -1) {
+			try { sessionStorage.setItem("ckyReload", String(Date.now())); } catch (err) {}
+			location.reload();
+			return;
+		  }
+		}
+	  }
+	});
+	</script>
+
+	<!-- 3. Cargar librería Google Tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-HE7P17RQT9"></script>
+
+	<!-- 4. Configurar GA4 (esto es lo que faltaba) -->
+	<script>
+	  gtag("js", new Date());
+	  gtag("config", "G-HE7P17RQT9");
+	</script>
+
+		
+		
+		 
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+        <meta name="lang" content="es" />
+
+        <meta name="author" content="Zaragoza Deporte" />
+
+        <meta name="description" content="Todo el deporte municipal de Zaragoza: cursillos deportivos, eventos, noticias, ayudas, carreras populares, Pabellón Príncipe Felipe, Palacio de Deportes" />
+
+		<meta name="keywords" content="Zaragoza Deporte municipal ayuntamiento deportes eventos carreras pabellón príncipe felipe palacio" />
+
+        <meta name="date" scheme="W3CDTF" content="2026-11-02T00:00:00+02:00" />
+
+        <meta name="DC.date.issued" scheme="W3CDTF" content="2026-11-02" />
+
+        <meta name="DC.date" scheme="W3CDTF" content="2026-11-02" />
+
+        <meta name="organization" content="Zaragoza Deporte Municipal S. A. U."/>
+
+        <meta property="article:publisher" content="https://www.facebook.com/zaragozadeporte" />
+
+        <meta property="article:published_time" content="2026-11-02" />
+
+        <meta property="article:section" content="noticias" />
+
+        <meta property="og:title" content="Zaragoza Deporte" />
+
+        <meta property="og:description" content="Todo el deporte municipal de Zaragoza: cursillos deportivos, eventos, noticias, ayudas, carreras populares, Pabellón Príncipe Felipe, Palacio de Deportes" />
+
+        <meta property="og:image" content="https://zaragozadeporte.com/assets/images/logo.png" />
+
+        <meta property="og:url" content="https://zaragozadeporte.com/default.asp" />
+
+        <meta property="og:type" content="article"/>
+
+        <meta property="og:site_name" content="Zaragoza Deporte"/>
+
+        <meta property="fb:app_id" content="205051982838157"/>
+
+        <meta property="twitter:site" content="@zaragozadeporte" />        
+
+        
+
+        <link rel="stylesheet" type="text/css" href="/assets/vendor/owl-slider.css"/>
+
+        <link rel="stylesheet" type="text/css" href="/assets/vendor/settings.css"/>
+
+        <link rel="stylesheet" type="text/css" href="/assets/css/bootstrap.css"/>
+
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet"/>
+       
+        <link rel="stylesheet" type="text/css" href="/assets/css/style.css?v=2"/>
+
+        <link rel="shortcut icon" href="/assets/images/favicon.png" />
+
+        <title>Zaragoza Deporte</title>
+    
+
+    </head>
+
+
+
+    <body>
+    
+    <!-- End pushmenu -->
+    <div class="wrappage">
+        <div class="row"><header id="header">
+			
+			            <div class="header-top">                    <div class="container">                    <div class="box float-left">                        <p class="icon-menu-mobile"><i class="fa fa-bars" ></i></p>                        <div class="logo"><a href="https://zaragozadeporte.com/" title="Zaragoza Deporte">                        <img src="/assets/images/logoAdmin.png" alt="Zaragoza Deporte" class="img-fluid">                        </a></div>                        <div class="logo-mobile">                            <span class="logos-zdm">                                <a href="https://zaragozadeporte.com/" title="Zaragoza Deporte"><img src="/assets/images/logoAdmin.png" alt="Zaragoza Deporte" class="img-fluid"></a>                                <a href="https://zaragoza2027.es" title="Zaragoza, Capital Europea del Deporte 2027" target="_blank" rel="noopener" class="logo-2027"><img src="/assets/images/Zaragoza_2027_Cabecera_Movil.png" alt="Zaragoza, Capital Europea del Deporte 2027"></a>                            </span>                        </div>                        <div class="box-right d-print-none">                            <div class="logo logo-2027-desktop">                                <a href="https://zaragoza2027.es" title="Zaragoza, Capital Europea del Deporte 2027" target="_blank" rel="noopener"><img src="/assets/images/Zaragoza_2027_Cabecera_Web.png" alt="Zaragoza, Capital Europea del Deporte 2027"></a>                            </div>                            <div class="social">                            	<a href="/Buscador.asp" title="Buscador"><i class="fa fa-search"></i></a>                                <a href="https://www.facebook.com/ZaragozaDeporte" title="Facebook Zaragoza Deporte" target="_blank"><i class="fab fa-facebook"></i></a>                                <a href="http://twitter.com/zaragozadeporte" title="X-Twitter Zaragoza Deporte" target="_blank"><i class="fab fa-x-twitter"></i></a>                                <a href="https://www.instagram.com/zaragozadeporte/" title="Instagram Zaragoza Deporte" target="_blank"><i class="fab fa-instagram"></i></a>                                <a href="https://youtube.com/@zaragozadeporte" title="YouTube Zaragoza Deporte" target="_blank"><i class="fab fa-youtube"></i></a>                                <a href="https://www.tiktok.com/@zaragozadeporte" title="TikTok Zaragoza Deporte" target="_blank"><i class="fab fa-tiktok"></i></a>                                                            </div>						</div>                    </div>                                    </div>                    <!-- End container -->                </div>                <!-- End header-top -->
+<div class="container">
+                <nav class="navbar navbar-expand-lg mega-menu d-print-none">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                  <ul class="nav navbar-nav" id="navbar">
+                    <li class="level1 hover-menu">
+                        <a href="/" title="Portada">Portada</a>
+                    </li>
+
+                    <li class="level1 hover-menu">
+                        <a href="#" title="Eventos">Eventos</a>
+                        <ul class="menu-level-1 list-menu">
+                           <li class="level2"><a href="/Agenda.asp" title="Calendario de eventos">Calendario de eventos</a></li>
+                            <li class="level2"><a href="/Destacados.asp" title="Eventos destacados">Eventos destacados</a></li>
+                            
+                            <li class="level2"><a href="/TrofeosCiudadDeZaragoza.asp" title="Trofeos Ciudad de Zaragoza">Trofeos «Ciudad de Zaragoza»</a></li>
+                            <li class="level2"><a href="/CarrerasPopulares.asp" title="Carreras Populares">Carreras populares</a></li>
+                            <li class="level2"><a href="/Conciertos-Espectaculos.asp" title="Conciertos/Espectaculos">Conciertos/Espectaculos</a></li>
+                            <li class="level2"><a href="/MueveteEnCasa" title="#MueveteEnCasa">#MueveteEnCasa</a></li>   
+                          <li class="level2"><a href="https://www.zaragoza.es/sede/portal/juventud/liga-joven/" title="Liga Joven ZGZ" target="_blank">Liga Joven ZGZ</a></li>
+                           
+                        </ul>
+                    </li>
+                    
+                    <li class="level1 hover-menu">
+                        <a href="#" title="Cursillos y actividades">Cursillos y actividades</a>
+                        <ul class="menu-level-1 list-menu">
+                           <li class="level2"><a href="/Actividades.asp" title="Toda la oferta de cursos municipales del programa «Entra en Acción»">Cursillos deportivos municipales</a></li>
+                           <li class="level2"><a href="http://www.zaragozanda.es" target="_blank" title="ZaragozAnda, 22 rutas por senderos periurbanos de Zaragoza">Rutas ZaragozAnda</a></li>
+                           <li class="level2"><a href="/ActividadesTipo.asp?id=5" title="Deporte escolar: Natación, Bicicleta, Orientación y Escalada">Deporte escolar</a></li>
+                        
+						<li class="level2"><a href="https://zaragozanda.es/andanda/" target="_blank" title="App Andanda!">App Andanda!</a></li>	
+ 						<li class="level2"><a href="https://zaragozanda.es/rutaz" target="_blank" title="Ruta Z">Ruta Z</a></li>
+                        
+                        </ul>
+                    </li>
+                    
+                    <li class="level1 hover-menu">
+                        <a href="#" title="Actualidad">Actualidad</a>
+                        <ul class="menu-level-1 list-menu">
+                           <li class="level2"><a href="/Noticias.asp" title="Noticias">Noticias</a></li>
+                            <li class="level2"><a href="/Boletin" title="Boletín Digital">Boletín Digital</a></li>
+                            <li class="level2"><a href="/Sorteos.asp" title="Sorteos">Sorteos</a></li>
+                           
+                            <li class="level2"><a href="/ZaragozaDeporteMujer" title="Zaragoza, Deporte y Mujer. Promoción del deporte y la actividad física entre las mujeres.">Zaragoza, Deporte y Mujer</a></li>
+                            <li class="level2"><a href="https://zaragozainspiradeporte.com" title="Zaragoza Inspira Deporte. Crowdfunding para apoyar a deportistas." target="_blank">Zaragoza Inspira Deporte</a></li>
+						</ul>
+                    </li>   
+                    
+                    <li class="level1 hover-menu">
+                        <a href="#" title="Instalaciones">Instalaciones</a>
+                        <ul class="menu-level-1 list-menu">
+                          <li class="level2"><a href="http://www.pabellonprincipefelipe.com" target="_blank" title="Pabellón «Príncipe Felipe»">Pabellón «Príncipe Felipe»</a></li>
+                          <li class="level2"><a href="http://www.palaciodeporteszaragoza.com" target="_blank" title="Palacio de Deportes">Palacio de Deportes</a></li>    
+                          <li class="level2 texto13"><a href="/Potreros" title="Instalaciones Deportivas Elementales, también llamadas «potreros», son pequeñas instalaciones deportivas al aire libre.">Instalaciones Deportivas Elementales</a></li>
+                          <li class="level2"><a href="/CircuitosRunning" title="Circuitos Running Ibercaja">Circuitos Running Ibercaja</a></li>    
+                          <li class="level2 texto13"><a href="http://www.zaragoza.es/ciudad/deporte" target="_blank" title="Servicio de Instalaciones Deportivas">Servicio de Instalaciones Deportivas</a></li>
+                        </ul>
+                    </li> 
+                    
+                    <li class="level1 hover-menu"><a href="#" title="Trámites/Solicitudes">Solicitudes</a>
+                        <ul class="menu-level-1 list-menu">
+                            <li class="level2"><a href="/Ayudas" title="Ayudas económicas">Ayudas económicas</a></li>
+                            <li class="level2"><a href="/Autorizaciones" title="Autorizaciones espacios publicos">Autorizaciones espacios publicos</a></li>
+                           
+                        </ul>
+                    </li>
+                    
+                    
+                    <li class="level1 hover-menu"><a href="#" title="Zaragoza Deporte">Zaragoza Deporte</a>
+                        <ul class="menu-level-1 list-menu">
+                        <li class="level2"><a href="/QuienesSomos.asp" title="Presentación">Presentación</a></li>
+                        <li class="level2"><a href="/EstructuraOrganica.asp" title="Estructura orgánica">Estructura orgánica</a></li>
+                        <li class="level2"><a href="/OrganigramaFuncional.asp" title="Organigrama funcional">Organigrama funcional</a></li>
+                        <li class="level2"><a href="/docs/EstatutosZDM.pdf" target="_blank" title="Estatutos">Estatutos</a></li>    
+						<li class="level2"><a href="/GalasDeporte.asp" target="_self" title="Galas del Deporte">Galas del Deporte</a></li>
+                        <li class="level2"><a href="/PerfilContratante.asp" target="_self" title="Perfil contratante">Perfil del Contratante</a></li>    
+						<li class="level2"><a href="/Memorias.asp" target="_self" title="Memorias anuales">Memorias anuales</a></li>
+						<li class="level2"><a href="https://www.zaragoza.es/web/hacienda-economia/servicio/cuenta-bancaria/?titularContains=deporte" target="_blank" title="Cuentas Abiertas">Cuentas Abiertas</a></li>
+                        <li class="level2"><a href="/Empleo" target="_self" title="Empleo">Empleo</a></li>    
+                        <li class="level2"><a href="/PatrocinadoresColaboradores.asp" title="Patrocinadores y colaboradores">Patrocinadores y Colaboradores</a></li>
+                        <li class="level2"><a href="/IdentidadGrafica.asp" title="Identidad gr&aacute;fica">Identidad gráfica</a></li>
+                        <li class="level2"><a href="/Contacto.asp" title="Contacto">Contacto</a></li>
+                           
+                        </ul>
+                    </li>
+                    <li class="level1 hover-menu">
+                        <a href="/Buscador.asp" title="Buscador">Buscador</a>
+                    </li>
+                  </ul>
+                         
+                           
+
+                </nav>
+                </div>
+                <!-- End megamenu -->
+
+        </header></div><!-- /header /row-->
+    
+	<div class=""></div>
+        <div class="container">
+                                                                                            
+            <div class="row">
+                    
+
+<div class="col-md-8">
+                    <div class="title-v1">
+                        <h3>DESTACADOS</h3>
+                        <div class="orther-link">
+                            <ul>
+                                <li><a href="/Agenda.asp" title="Agenda" target="_self">Agenda</a></li>
+                                <li><a href="/Actividades.asp" title="Cursillos" target="_self">Cursillos</a></li>
+                                <li><a href="/CarrerasPopulares.asp" title="Carreras" target="_self">Carreras</a></li>
+                                <li><a href="/Boletin" title="Boletín" target="_self">Boletín</a></li>
+                                <li><a href="/Ayudas" title="Ayudas" target="_self">Ayudas</a></li>
+								<li><a href="/Sorteos.asp" title="Sorteos" target="_self">Sorteos</a></li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+    
+    
+
+    
+    
+    
+    
+                    <div class="gaming mb-3 box">
+                        <div class="row">
+                            <div class="col-md-12 mb-2 box">
+                                <div class="post-item ver3 overlay">
+                                    
+                                    <div class="wrap-images">
+                                    <a class="images" href="Destacado.asp?id=1748" title="Cursillos Deportivos Municipales «Entra en Acción» 2026/2027" target="_self"><img class="img-fluid" src="https://zaragozadeporte.com/docs/Portada/FotoPortadaHorizontal1748.jpg" title="Cursillos Deportivos Municipales «Entra en Acción» 2026/2027" alt="Cursillos Deportivos Municipales «Entra en Acción» 2026/2027"></a>
+                                    </div>
+                                    
+                               <div class="text">
+                                        
+                                        <h2><a href="Destacado.asp?id=1748" title="Cursillos Deportivos Municipales «Entra en Acción» 2026/2027" target="_self">Cursillos Deportivos Municipales «Entra en Acción» 2026/2027</a></h2>
+                                        
+                                        <p>Consulta toda la información sobre las actividades deportivas: natación, gimnasia de mantenimiento, tenis, gimnasia acuática, «nada cuidando tu espalda» y deporte escolar.</p>
+                                        
+                                  </div>
+                                </div>
+                                <!-- End item -->
+                            </div>
+    
+    
+    
+   
+                            <div class="col-md-6">
+                                <div class="post-item ver3 overlay">
+                                    
+                                    <div class="wrap-images">
+                                    <a class="images" href="Evento.asp?id=7400" title="XXX Día del Minibasket 2026<br>XIII Memorial «José Antonio García Charles»" target="_self"><img class="img-fluid" src="https://zaragozadeporte.com/docs/Portada/FotoPortada1751.jpg" title="XXX Día del Minibasket 2026<br>XIII Memorial «José Antonio García Charles»" alt="XXX Día del Minibasket 2026<br>XIII Memorial «José Antonio García Charles»"></a>
+                                </div>
+                                    
+                               <div class="text">
+                                       
+                                        <h2><a href="Evento.asp?id=7400" title="XXX Día del Minibasket 2026<br>XIII Memorial «José Antonio García Charles»" target="_self">XXX Día del Minibasket 2026<br>XIII Memorial «José Antonio García Charles»</a></h2>
+                                        
+                                        <p>Sábado, 14 noviembre 2026</p>
+                                        
+                                  </div>
+                                </div>
+                                <!-- End item -->
+                            </div>
+   
+                            <div class="col-md-6">
+                                <div class="post-item ver3 overlay">
+                                    
+                                    <div class="wrap-images">
+                                    <a class="images" href="Destacado.asp?id=1120" title="Carreras Populares Zaragoza" target="_self"><img class="img-fluid" src="https://zaragozadeporte.com/docs/Portada/FotoPortada1120.jpg" title="Carreras Populares Zaragoza" alt="Carreras Populares Zaragoza"></a>
+                                </div>
+                                    
+                               <div class="text">
+                                       
+                                        <h2><a href="Destacado.asp?id=1120" title="Carreras Populares Zaragoza" target="_self">Carreras Populares Zaragoza</a></h2>
+                                        
+                                        <p>Calendario de carreras en Zaragoza</p>
+                                        
+                                  </div>
+                                </div>
+                                <!-- End item -->
+                            </div>
+ 
+                        </div>
+                    </div>  
+                                        
+                                        
+                                        
+                    <div class="gaming box mb-3">
+                        <div class="row">
+                            <div class="col-md-6 col-sm-6">
+  
+   
+                            <div class="post-item ver3 overlay">
+                                    <div class="wrap-images">
+                                    <a class="images" href="Evento.asp?id=7205" title="Concierto de Bryan Adams" target="_self"><img class="img-fluid" src="https://zaragozadeporte.com/docs/Portada/FotoPortada1722.jpg" title="Concierto de Bryan Adams" alt="Concierto de Bryan Adams"></a>
+                                </div>                                    
+                               <div class="text">
+                                        <h2><a href="Evento.asp?id=7205" title="Concierto de Bryan Adams" target="_self">Concierto de Bryan Adams</a></h2>
+                                  </div>
+                                </div>
+                                <!-- End item -->
+    
+    
+   
+                            <div class="post-item ver3 overlay">
+                                    <div class="wrap-images">
+                                    <a class="images" href="Evento.asp?id=7157" title="Concierto de Hombres G" target="_self"><img class="img-fluid" src="https://zaragozadeporte.com/docs/Portada/FotoPortadaCuadrada1710.jpg" title="Concierto de Hombres G" alt="Concierto de Hombres G"></a>
+                                </div>                                    
+                               <div class="text">
+                                        <h2><a href="Evento.asp?id=7157" title="Concierto de Hombres G" target="_self">Concierto de Hombres G</a></h2>
+                                  </div>
+                                </div>
+                                <!-- End item -->
+    
+    
+    
+                              </div>                    
+                            <div class="col-md-6 col-sm-6 w_100">
+
+       
+    
+    
+                                <div class="post-item ver2">
+                                     <a class="images" href="Evento.asp?id=7191" title="Concierto de Enrique Bunbury"><img class="img-fluid foto100x100" src="https://zaragozadeporte.com/docs/Portada/FotoPortadaCuadrada1736.jpg" alt="Concierto de Enrique Bunbury" title="Concierto de Enrique Bunbury"></a>
+                                      <div class="text">
+                                        <h2><a href="Evento.asp?id=7191" title="Concierto de Enrique Bunbury">Concierto de Enrique Bunbury</a></h2>
+                                        
+                                        <p>Sábado, 12 de diciembre de 2026</p>
+                                        
+                                      </div>
+                                  </div>
+                                <!-- End item -->
+      
+    
+    
+                                <div class="post-item ver2">
+                                     <a class="images" href="Evento.asp?id=7292" title="Concierto de Kase.O"><img class="img-fluid foto100x100" src="https://zaragozadeporte.com/docs/Portada/FotoPortadaCuadrada1740.jpg" alt="Concierto de Kase.O" title="Concierto de Kase.O"></a>
+                                      <div class="text">
+                                        <h2><a href="Evento.asp?id=7292" title="Concierto de Kase.O">Concierto de Kase.O</a></h2>
+                                        
+                                        <p>Sábado, 20 de febrero de 2027</p>
+                                        
+                                      </div>
+                                  </div>
+                                <!-- End item -->
+      
+    
+    
+                                <div class="post-item ver2">
+                                     <a class="images" href="Evento.asp?id=7411" title="Concierto de Siloé"><img class="img-fluid foto100x100" src="https://zaragozadeporte.com/docs/Portada/FotoPortadaCuadrada1753.jpg" alt="Concierto de Siloé" title="Concierto de Siloé"></a>
+                                      <div class="text">
+                                        <h2><a href="Evento.asp?id=7411" title="Concierto de Siloé">Concierto de Siloé</a></h2>
+                                        
+                                        <p>Viernes, 7 de mayo de 2027</p>
+                                        
+                                      </div>
+                                  </div>
+                                <!-- End item -->
+      
+    
+    
+                                <div class="post-item ver2">
+                                     <a class="images" href="Destacado.asp?id=1238" title="Instalaciones Deportivas Municipales"><img class="img-fluid foto100x100" src="https://zaragozadeporte.com/docs/Portada/FotoPortadaCuadrada1238.jpg" alt="Instalaciones Deportivas Municipales" title="Instalaciones Deportivas Municipales"></a>
+                                      <div class="text">
+                                        <h2><a href="Destacado.asp?id=1238" title="Instalaciones Deportivas Municipales">Instalaciones Deportivas Municipales</a></h2>
+                                        
+                                        <p>Directorio de centros</p>
+                                        
+                                      </div>
+                                  </div>
+                                <!-- End item -->
+      
+    
+    
+                                <div class="post-item ver2">
+                                     <a class="images" href="Destacado.asp?id=1241" title="Instalaciones Deportivas Elementales"><img class="img-fluid foto100x100" src="https://zaragozadeporte.com/docs/Portada/FotoPortadaCuadrada1241.jpg" alt="Instalaciones Deportivas Elementales" title="Instalaciones Deportivas Elementales"></a>
+                                      <div class="text">
+                                        <h2><a href="Destacado.asp?id=1241" title="Instalaciones Deportivas Elementales">Instalaciones Deportivas Elementales</a></h2>
+                                        
+                                        <p>Listado de los populares «potreros» de la ciudad</p>
+                                        
+                                      </div>
+                                  </div>
+                                <!-- End item -->
+     
+    
+
+                                
+                            </div>
+                     </div>
+                    <!-- Boletín -->                
+                    <div class="post-bottom-footer box mt-3 bg-light">
+                    <div class="post-item ver2 cat-1">
+                        <a class="images" href="/Boletin" title="¡Suscríbete a nuestro boletín digital!" alt="Boletín de Zaragoza Deporte"><img class="img-fluid" src="/assets/images/home/Boletin.png" alt="images"></a>
+                        <div class="text">
+                            <h2><a href="/Boletin" title="¡Suscríbete a nuestro boletín digital!">¡SUSCRÍBETE A NUESTRO BOLETÍN PARA MANTENERTE INFORMADO!</a></h2>
+                            <p>Recibe gratis cada semana nuestro boletín con toda la información deportiva de Zaragoza: Eventos, actualidad, recomendaciones, cursillos... ¡y participa en nuestros sorteos!</p>
+                        </div>
+                    </div>
+                    </div>  
+                    <!-- End Boletín -->
+					
+                    <!-- Vídeos --> 
+                    <div class="gaming box mt-3">
+                        <div class="row">                                        
+                    
+                        <div class="col-md-6">
+                                <div class="video-responsive mb-3"><iframe src="https://www.youtube.com/embed/-EbKbCpxTAM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+                        </div>
+                    
+                        <div class="col-md-6">
+                                <div class="video-responsive mb-3"><iframe src="https://www.youtube.com/embed/0b7SfMuvjDk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+                        </div>
+                    
+                        </div>
+                    </div>                                        
+                        
+                    <!-- End Vídeos -->                
+								
+                    </div>
+
+
+                    <!-- End destacados -->
+                </div>
+                <div class="col-md-4">
+					                <aside class="widget popular">
+                    <h3 class="widget-title">LO MÁS BUSCADO</h3>
+
+                      <div class="content">
+                        <div class="post-item ver3 overlay">
+                            <a class="images" href="/Actividades.asp" title="Cursillos Deportivos Municipales «Entra en Acción»"><img class="img-fluid" src="/assets/images/popular/Entra-en-accion_1000-563.jpg" alt="Cursillos Deportivos Municipales «Entra en Acción»" title="Cursillos Deportivos Municipales «Entra en Acción»"></a>
+                            <div class="text">
+                                <h2><a href="/Actividades.asp" title="Cursillos Deportivos Municipales «Entra en Acción»">Cursillos Deportivos Municipales «Entra en Acción»</a></h2>
+                            </div>
+                            </div>
+                        <!-- End item -->
+                        <div class="post-item ver2">
+                                <a class="images" href="/Conciertos-Espectaculos.asp" title="Conciertos/Espectaculos"><img class='img-fluid' src="/assets/images/popular/Conciertos_Espectaculos_1000_612.jpg" alt="Conciertos/Espectaculos" title="Conciertos/Espectaculos"></a>
+                                <div class="text">
+                                  <h2><a href="/Conciertos-Espectaculos.asp" title="Conciertos/Espectaculos">Conciertos/Espectaculos</a></h2>
+                              </div>							
+                        </div>
+                        <!-- End item -->
+                          
+                              <div class="post-item ver2">
+                                <a class="images" href="/Boletin" title="Boletín «Zaragoza Deporte Digital»"><img class='img-fluid' src="/assets/images/popular/Boletin_500_355.png" alt="Boletín «Zaragoza Deporte Digital»" title="Boletín «Zaragoza Deporte Digital»"></a>
+                                <div class="text">
+                                    <h2><a href="/Boletin" title="Boletín «Zaragoza Deporte Digital»">Boletín «Zaragoza Deporte Digital»</a></h2>
+                                </div>
+                            </div>
+                            <!-- End item -->                            
+                            <div class="post-item ver2">
+                                <a class="images" href="http://www.pabellonprincipefelipe.com" title="Pabellón «Príncipe Felipe»" target="_blank"><img class='img-fluid' src="/assets/images/menu/Logo_Pabellon_Principe_Felipe_500_355.png" alt="Pabellón «Príncipe Felipe»" title="Pabellón «Príncipe Felipe»"></a>
+                                <div class="text">
+                                    <h2><a href="http://www.pabellonprincipefelipe.com" title="Pabellón «Príncipe Felipe»" target="_blank">Pabellón «Príncipe Felipe»</a></h2>
+                                </div>
+                            </div>
+                            <!-- End item -->
+                            <div class="post-item ver2">
+                                <a class="images" href="http://www.palaciodeporteszaragoza.com" title="Palacio de Deportes" target="_blank"><img class='img-fluid' src="/assets/images/menu/Logo_Palacio_Deportes_500_355.png" alt="Palacio de Deportes" title="Palacio de Deportes"></a>
+                                <div class="text">
+                                    <h2><a href="http://www.palaciodeporteszaragoza.com" title="Palacio de Deportes" target="_blank">Palacio de Deportes</a></h2>
+                                </div>
+                            </div>
+                            <!-- End item -->
+
+                            <div class="post-item ver2">
+                                <a class="images" href="http://www.zaragozanda.es" title="Zaragozanda, rutas por senderos de Zaragoza" target="_blank"><img class='img-fluid' src="/assets/images/menu/Logo_Zaragozanda_500_355.png" alt="Zaragozanda, rutas por senderos de Zaragoza" title="Zaragozanda, rutas por senderos de Zaragoza"></a>
+                                <div class="text">
+                                    <h2><a href="http://www.zaragozanda.es" title="Zaragozanda, rutas por senderos de Zaragoza" target="_blank">Zaragozanda, rutas por senderos de Zaragoza</a></h2>
+                                </div>
+                            </div>
+                            <!-- End item -->
+                            <div class="post-item ver2">
+                                <a class="images" href="/TrofeosCiudadDeZaragoza.asp" title="Trofeos «Ciudad de Zaragoza»"><img class='img-fluid' src="/assets/images/popular/Trofeos-Ciudad-de-Zaragoza_500_355.png" alt="Trofeos «Ciudad de Zaragoza»" title="Trofeos «Ciudad de Zaragoza»"></a>
+                                <div class="text">
+                                    <h2><a href="/TrofeosCiudadDeZaragoza.asp" title="Trofeos «Ciudad de Zaragoza»">Trofeos «Ciudad de Zaragoza»</a></h2>
+                                </div>
+                            </div>
+                            <!-- End item -->
+                            <div class="post-item ver2">
+                                <a class="images" href="/Ayudas.asp" title="Ayudas económicas"><img class='img-fluid' src="/assets/images/popular/Ayudas_500_355.png" alt="Ayudas económicas" title="Ayudas económicas"></a>
+                                <div class="text">
+                                    <h2><a href="/Ayudas.asp" title="Ayudas económicas">Ayudas económicas</a></h2>
+                              </div>
+                          </div>
+                            <!-- End item -->                                
+                            <div class="post-item ver2">
+                                <a class="images" href="/Agenda.asp" title="Calendario de Eventos"><img class='img-fluid' src="/assets/images/popular/Calendario_500_355.png" alt="Calendario de Eventos" title="Calendario de Eventos"></a>
+                                <div class="text">
+                                    <h2><a href="/Agenda.asp" title="Calendario de Eventos">Calendario de Eventos</a></h2>
+                              </div>
+                          </div>
+                            <!-- End item --> 
+                            <div class="post-item ver2">
+                                <a class="images" href="/CircuitosRunning" title="Circuitos Running Ibercaja Zaragoza"><img class='img-fluid' src="/assets/images/popular/CircuitosRunning_500_355.png" alt="Circuitos Running Ibercaja Zaragoza" title="Circuitos Running Ibercaja Zaragoza"></a>
+                                <div class="text">
+                                    <h2><a href="/CircuitosRunning" title="Circuitos Running Ibercaja Zaragoza">Circuitos Running Ibercaja Zaragoza</a></h2>
+                              </div>
+                          </div>
+                            <!-- End item -->                            
+						  
+						  
+<!--                               <div class="post-item ver2">
+                                <a class="images" href="/Sorteos.asp" title="Sorteos"><img class="img-fluid" src="/assets/images/popular/Sorteos_500_355.png" alt="Sorteos" title="Sorteos"></a>
+                                <div class="text">
+                                    <h2><a href="/Sorteos.asp" title="Sorteos">Sorteos</a></h2>
+                              </div>
+                          </div>
+-->
+                            <!-- End item --> 
+						  
+
+                            <!-- End item -->
+                            <div class="post-item ver2">
+                                <a class="images" href="https://zaragozanda.es/andanda" title="Andanda!"><img class="img-fluid" src="/assets/images/menu/Logo_Andanda_500_355.png" alt="Andanda!" title="Andanda!"></a>
+                                <div class="text">
+                                    <h2><a href="https://zaragozanda.es/andanda" title="Andanda!" target="_blank">Andanda!</a></h2>
+                                </div>
+                            </div>
+                            <!-- End item -->
+                            <div class="post-item ver2">
+                                <a class="images" href="https://zaragozanda.es/rutaz" title="Ruta Z"><img class="img-fluid" src="/assets/images/menu/Logo_RutaZ_500_355.png" alt="Ruta Z" title="Ruta Z"></a>
+                                <div class="text">
+                                    <h2><a href="https://zaragozanda.es/rutaz" title="Ruta Z" target="_blank">Ruta Z</a></h2>
+                                </div>
+                            </div>
+                            <!-- End item -->
+						  
+                              
+                        </div>
+                    </aside>
+
+                </div>
+            </div>
+        </div>
+        <!-- End container -->
+        
+        <!-- End youtube-slide -->
+         <div class="container">
+            <div class="row">
+                   
+                    <div class="banner col-md-6 my-4">
+                        <a class="images" href="https://www.zaragoza.es/sede/servicio/noticia/326129" title="Zaragoza, Capital Europea del Deporte 2027" target="_blank"><img class="img-fluid" src="/assets/images/banners/capital_zaragoza-2027.png" alt="Zaragoza, Capital Europea del Deporte 2027" title="Zaragoza, Capital Europea del Deporte 2027"></a>
+                    </div>
+                    <div class="banner col-md-6 my-4">
+                        <a class="images" href="/TrofeosCiudadDeZaragoza.asp" title="Trofeos «Ciudad de Zaragoza»"><img class="img-fluid" src="/assets/images/banners/TrofeosCiudadZaragoza.png" alt="Trofeos «Ciudad de Zaragoza»" title="Trofeos «Ciudad de Zaragoza»"></a>
+                    </div>
+
+                <!-- End banner -->
+                
+
+
+
+<div class="col-md-6">
+
+                    <div class="title-v1">
+
+                        <h3>ÚLTIMAS NOTICIAS</h3>
+
+                        <div class="orther-link">
+
+                            <ul>
+
+                                <li><a href="/Noticias.asp" title="Ver todas las noticias">Ver todas las noticias</a></li>
+
+                            </ul>
+
+                        </div>
+
+                    </div>
+
+                    <!-- End tile -->
+
+                    <div class="row mb-3 size-18">
+
+                        
+
+                        <div class="col-md-6 col-sm-6">
+
+                            <div class="post-item ver3 overlay">
+
+                                <div class="wrap-images">
+
+                                       <a class="images" href="/Noticia.asp?id=7685" title="El Ayuntamiento de Zaragoza impulsa la prevención del acoso en el deporte con un taller formativo de LALIGA VS BULLYING"><img class="img-fluid foto270x182" src="https://zaragozadeporte.com/docs/Noticias/FotoNoticiaAurea7685.jpg" alt="El Ayuntamiento de Zaragoza impulsa la prevención del acoso en el deporte con un taller formativo de LALIGA VS BULLYING"  title="El Ayuntamiento de Zaragoza impulsa la prevención del acoso en el deporte con un taller formativo de LALIGA VS BULLYING"></a>
+
+                                  </div>
+
+                                <div class="text">
+
+                                    <h2><a href="/Noticia.asp?id=7685" title="El Ayuntamiento de Zaragoza impulsa la prevención del acoso en el deporte con un taller formativo de LALIGA VS BULLYING">El Ayuntamiento de Zaragoza impulsa la prevención del acoso en el deporte con un taller formativo de LALIGA VS BULLYING</a></h2>
+
+                                </div>
+
+                            </div>
+
+                            <!-- End item -->
+
+                        </div>
+
+                        <!-- end col-md-6 -->
+
+                        
+
+                        <div class="col-md-6 col-sm-6">
+
+                            <div class="post-item ver3 overlay">
+
+                                <div class="wrap-images">
+
+                                       <a class="images" href="/Noticia.asp?id=7680" title="El partido de Aspanoa se celebrará el domingo 15 de noviembre en el Ibercaja Estadio"><img class="img-fluid foto270x182" src="https://zaragozadeporte.com/docs/Noticias/FotoNoticiaAurea7680.jpeg" alt="El partido de Aspanoa se celebrará el domingo 15 de noviembre en el Ibercaja Estadio"  title="El partido de Aspanoa se celebrará el domingo 15 de noviembre en el Ibercaja Estadio"></a>
+
+                                  </div>
+
+                                <div class="text">
+
+                                    <h2><a href="/Noticia.asp?id=7680" title="El partido de Aspanoa se celebrará el domingo 15 de noviembre en el Ibercaja Estadio">El partido de Aspanoa se celebrará el domingo 15 de noviembre en el Ibercaja Estadio</a></h2>
+
+                                </div>
+
+                            </div>
+
+                            <!-- End item -->
+
+                        </div>
+
+                        <!-- end col-md-6 -->
+
+                        
+
+                        
+
+                        
+
+                        
+
+                    </div>
+
+                    <!-- End row -->
+
+                    <div class="post-bottom-footer box mb-3">
+
+                        
+
+                        <div class="post-item ver2 cat-1">
+
+                             <a class="images" href="/Noticia.asp?id=7665" title="La CaixaBank 10K Zaragoza aspira a alcanzar los 7.000 corredores este domingo 25 octubre"><img class="img-fluid foto130x86" src="https://zaragozadeporte.com/docs/Noticias/FotoNoticiaAurea7665.jpeg" alt="La CaixaBank 10K Zaragoza aspira a alcanzar los 7.000 corredores este domingo 25 octubre"  title="La CaixaBank 10K Zaragoza aspira a alcanzar los 7.000 corredores este domingo 25 octubre"></a>
+
+                            <div class="text">
+
+                                <h2><a href="/Noticia.asp?id=7665" title="La CaixaBank 10K Zaragoza aspira a alcanzar los 7.000 corredores este domingo 25 octubre">La CaixaBank 10K Zaragoza aspira a alcanzar los 7.000 corredores este domingo 25 octubre</a></h2>
+
+                            </div>
+
+                        </div>
+
+                        <!-- End item -->
+
+                        
+
+                        <div class="post-item ver2 cat-1">
+
+                             <a class="images" href="/Noticia.asp?id=7664" title="La Copa del Mundo conquista Zaragoza con Luis de la Fuente como invitado de excepción"><img class="img-fluid foto130x86" src="https://zaragozadeporte.com/docs/Noticias/FotoNoticiaAurea7664.jpeg" alt="La Copa del Mundo conquista Zaragoza con Luis de la Fuente como invitado de excepción"  title="La Copa del Mundo conquista Zaragoza con Luis de la Fuente como invitado de excepción"></a>
+
+                            <div class="text">
+
+                                <h2><a href="/Noticia.asp?id=7664" title="La Copa del Mundo conquista Zaragoza con Luis de la Fuente como invitado de excepción">La Copa del Mundo conquista Zaragoza con Luis de la Fuente como invitado de excepción</a></h2>
+
+                            </div>
+
+                        </div>
+
+                        <!-- End item -->
+
+                        
+
+                        <div class="post-item ver2 cat-1">
+
+                             <a class="images" href="/Noticia.asp?id=7663" title="5º ciclo de las charlas «Conquistar la cima» de Carlos Pauner, el único alpinista aragonés que ha ascendido a los 14 ocho miles del planeta"><img class="img-fluid foto130x86" src="https://zaragozadeporte.com/docs/Noticias/FotoNoticiaAurea7663.jpg" alt="5º ciclo de las charlas «Conquistar la cima» de Carlos Pauner, el único alpinista aragonés que ha ascendido a los 14 ocho miles del planeta"  title="5º ciclo de las charlas «Conquistar la cima» de Carlos Pauner, el único alpinista aragonés que ha ascendido a los 14 ocho miles del planeta"></a>
+
+                            <div class="text">
+
+                                <h2><a href="/Noticia.asp?id=7663" title="5º ciclo de las charlas «Conquistar la cima» de Carlos Pauner, el único alpinista aragonés que ha ascendido a los 14 ocho miles del planeta">5º ciclo de las charlas «Conquistar la cima» de Carlos Pauner, el único alpinista aragonés que ha ascendido a los 14 ocho miles del planeta</a></h2>
+
+                            </div>
+
+                        </div>
+
+                        <!-- End item -->
+
+                            
+
+
+
+                    </div>
+
+                </div>
+
+                  
+
+
+
+                <div class="col-md-6">
+
+                    <div class="title-v1">
+
+                        <h3>RECOMENDACIONES</h3>
+
+                    </div>
+
+                    <!-- End tile -->
+
+                    <div class="row mb-3 size-18">
+
+                        <div class="col-md-6 col-sm-6">
+
+                            <div class="post-item ver3 overlay">
+
+                                <div class="wrap-images">
+
+                                    <a class="images" href="https://zaragozanda.es/ruta-13" target="_blank" title="Ruta 13: Vuelta al meandro de Juslibol"><img class="img-fluid foto270x182" src="https://zaragozadeporte.com/assets/images/zaragozanda/Ruta13.jpg" title="Ruta 13: Vuelta al meandro de Juslibol" alt="Ruta 13: Vuelta al meandro de Juslibol"></a>
+
+                                </div>
+
+                                <div class="text">
+
+                                    <h2><a href="https://zaragozanda.es/ruta-13" target="_blank" title="Ruta 13: Vuelta al meandro de Juslibol">ZaragozAnda Ruta 13: Vuelta al meandro de Juslibol</a></h2>
+
+                                        <div class="tag">
+
+                                        <a class="comments" href="https://zaragozanda.es" target="_blank" title="Ver todas las Rutas ZaragozAnda"><i class="fa fa-external-link"></i>Ver todas las Rutas ZaragozAnda</a>
+
+                                    	</div>
+
+                                </div>
+
+                            </div>
+
+                            <!-- End item -->
+
+                        </div>
+
+                        <!-- end col-md-6 -->
+
+                        <div class="col-md-6 col-sm-6">
+
+                            <div class="post-item ver3 overlay">
+
+                                <div class="wrap-images">
+
+                                    <a class="images" href="/Potreros/Instalacion.asp?id=39" title="IDE Jardines de Lisboa"><img class="img-fluid foto270x182" src="https://zaragozadeporte.com/docs/IDE/FotoPista746.JPG" title="IDE Jardines de Lisboa" alt="IDE Jardines de Lisboa"></a>
+
+                                </div>
+
+                                <div class="text">
+
+                                    <h2><a href="/Potreros/Instalacion.asp?id=39" title="IDE Jardines de Lisboa">Instalaciones Deportivas Elementales:<br />IDE JARDINES DE LISBOA</a></h2>
+
+                                        <div class="tag">
+
+                                        <a class="comments" href="https://zaragozadeporte.com/Potreros" title="Ver todas las I.D.E."><i class="fa fa-external-link"></i>Ver todas las I.D.E.</a>
+
+                                    	</div>
+
+                                </div>
+
+						 </div>
+
+                            <!-- End item -->
+
+                        </div>
+
+                        <!-- end col-md-6 -->
+
+                    </div>
+
+                    <!-- End row -->
+
+                    <div class="post-bottom-footer box mb-3">
+
+                        <div class="post-item ver2 cat-2">
+
+                                    <a class="images" href="/Actividad.asp?id=237" title="Cursillos Deportivos Municipales: Orientación en los Parques 2026/2027"><img class="img-fluid foto130x86" src="https://zaragozadeporte.com/docs/Actividades/FotoActividad237.jpeg" title="Cursillos Deportivos Municipales: Orientación en los Parques 2026/2027" alt="Cursillos Deportivos Municipales: Orientación en los Parques 2026/2027"></a>
+
+                            <div class="text">
+
+                                <h2><a href="/Actividad.asp?id=237" title="Cursillos Deportivos Municipales: Orientación en los Parques 2026/2027">Cursillos Deportivos Municipales:<br>ORIENTACIÓN EN LOS PARQUES 2026/2027</a></h2>
+
+                                        <div class="tag">
+
+                                        <a class="comments" href="/Actividades.asp" title="Ver todos los Cursillos"><i class="fa fa-external-link"></i>Ver todos los Cursillos</a>
+
+                                    	</div>
+
+                            </div>
+
+                        </div>
+
+                        <!-- End item -->
+
+                        
+
+                        <div class="post-item ver2 cat-2">
+
+                                    <a class="images" href="https://zaragozanda.es/ruta-20" target="_blank" title="Ruta 20: Entre el Ebro y el Jalón"><img class="img-fluid foto130x86" src="https://zaragozadeporte.com/assets/images/zaragozanda/Ruta20.jpg" title="Ruta 20: Entre el Ebro y el Jalón" alt="Ruta 20: Entre el Ebro y el Jalón"></a>
+
+                            <div class="text">
+
+                                    <h2><a href="https://zaragozanda.es/ruta-20" target="_blank" title="Ruta 20: Entre el Ebro y el Jalón">ZaragozAnda Ruta 20: Entre el Ebro y el Jalón</a></h2>
+
+                                        <div class="tag">
+
+                                        <a class="comments" href="https://zaragozanda.es" target="_blank" title="Ver todas las Rutas ZaragozAnda"><i class="fa fa-external-link"></i>Ver todas las Rutas ZaragozAnda</a>
+
+                                    	</div>
+
+                            </div>
+
+                        </div>
+
+                        <!-- End item -->
+
+                            
+
+                        <div class="post-item ver2 cat-2">
+
+                                    <a class="images" href="https://app.easypromosapp.com/p/3053244" target="_blank" title="Sorteo de entradas para ver el Casademont Zaragoza - Unicaja [8 noviembre 2026]"><img class="img-fluid foto130x86" src="https://zaragozadeporte.com/docs/sorteos/FotoSorteo1126.png" title="Sorteo de entradas para ver el Casademont Zaragoza - Unicaja [8 noviembre 2026]" alt="Sorteo de entradas para ver el Casademont Zaragoza - Unicaja [8 noviembre 2026]"></a>
+
+                            <div class="text">
+
+                                <h2><a href="https://app.easypromosapp.com/p/3053244" target="_blank" title="Sorteo de entradas para ver el Casademont Zaragoza - Unicaja [8 noviembre 2026]">Sorteo de entradas para ver el Casademont Zaragoza - Unicaja [8 noviembre 2026]</a></h2>
+
+                                        <div class="tag">
+
+                                        <a class="comments" href="/Sorteos.asp" title="comments"><i class="fa fa-external-link"></i>Ver todos los Sorteos</a>
+
+                                    	</div>
+
+                            </div>
+
+                        </div>
+
+                        <!-- End item -->
+
+                            
+
+                    </div>
+
+                </div>
+
+    
+            </div>
+        </div>
+        <!-- End box-bottom -->
+        <div id="back-to-top">
+            <i class="fa fa-long-arrow-up"></i>
+        </div>
+                <footer id="footer" class="footer-v1">         
+          <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <a class="logo-footer mb-4" href="#" title="logo"><img src="/assets/images/footer/Logo-blanco_200_60.png" alt="Logo-footer"></a>
+                   <div class="social">
+                                <a href="https://www.facebook.com/ZaragozaDeporte" title="Facebook Zaragoza Deporte" target="_blank"><i class="fab fa-facebook"></i></a>
+                                <a href="http://twitter.com/zaragozadeporte" title="X-Twitter Zaragoza Deporte" target="_blank"><i class="fab fa-x-twitter"></i></a>
+                                <a href="https://www.instagram.com/zaragozadeporte/" title="Instagram Zaragoza Deporte" target="_blank"><i class="fab fa-instagram"></i></a>
+                                <a href="https://www.youtube.com/channel/UCrbg42GBP0od_5U00mj97ww" title="YouTube Zaragoza Deporte" target="_blank"><i class="fab fa-youtube"></i></a>   
+					   			<a href="https://www.tiktok.com/@zaragozadeporte" title="TikTok Zaragoza Deporte" target="_blank"><i class="fab fa-tiktok"></i></a>                                
+
+                   </div>
+                 </div>
+                 <div class="col-md-6">   
+                    <div class="widget footer-info">
+                        <h3 class="widget-title">CONTACTO</h3>
+                        <ul>
+                            <li><i class="fa fa-home"></i> Avda. Cesáreo Alierta, 120. 50013 Zaragoza<br />
+                            Pabellón «Príncipe Felipe»</li>
+                            <li><i class="fa fa-phone-square"></i> (+34) 976 72 38 38</li>
+                            <li><i class="fa fa-envelope"></i> <a href="mailto:zaragozadeporte@zaragozadeporte.com" title="link">zaragozadeporte@zaragozadeporte.com</a></li>
+                            <li><i class="fa fa-bell"></i> <a href="https://zaragozadeporte.com/Noticia.asp?id=3677" title="Solicitud Cita Previa">Solicitud Cita Previa</a></li>
+                        </ul>
+                    </div>
+                    <!-- End widget -->
+                </div>
+                <div class="col-md-3">
+                    <div class="widget categories">
+                        <ul>
+                            <li><a href="/PatrocinadoresColaboradores.asp" target="_self" title="Patrocinadores/Colaboradores de Zaragoza Deporte">patrocinadores/colaboradores</a></li>
+                            <li><a href="/politica-de-privacidad.asp" target="_self" title="Política de Privacidad">política de privacidad</a></li>
+                            <li><a href="/DatosCorporativos.asp" target="_self" title="Datos corporativos">datos corporativos</a></li>
+                          <li> <a href="/AvisoLegal.asp" target="_self" title="Aviso Legal">aviso legal</a></li>
+							<li> <a href="/Canal-de-denuncias.asp" target="_self" title="Canal de Denuncias">canal de denuncias</a></li>
+                            <li><a href="/Cookies.asp" target="_self" title="Política de cookies">política cookies</a></li>
+							
+							<li><a href="#" class="cky-banner-element" title="Gestionar consentimiento cookies">gestionar cookies</a></li>
+							
+</a>
+
+							
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- End row -->
+          </div>
+          <!-- End container -->
+        </footer>
+		<!-- End footer -->
+    <!-- End wrappage -->
+    </div>
+        <script type="text/javascript" src="/assets/js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="/assets/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/assets/js/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="/assets/js/store.js"></script>
+    <script type="text/javascript" src="/assets/js/jquery.themepunch.revolution.min.js"></script>
+    <script type="text/javascript" src="/assets/js/jquery.themepunch.plugins.min.js"></script>
+
+    
+
+    </body>    
+</html>

@@ -1,0 +1,406 @@
+{
+ "schema_version": "1",
+ "city": {
+  "city_id": "zaragoza",
+  "name": "Zaragoza",
+  "country": "İspanya",
+  "city_code": "CITY-128"
+ },
+ "paths": {
+  "work": "/home/user/corteqscities/uretim/zaragoza",
+  "package_root": "/home/user/corteqscities/uretim/zaragoza/paket",
+  "template_xlsx": "/home/user/corteqscities/ekler/zaragoza/CITY-128_zaragoza_v001.xlsx",
+  "tools": "/home/user/corteqscities/araclar/arac",
+  "delivery_xlsx": "/home/user/corteqscities/uretim/zaragoza/paket/CITY-128_zaragoza_v001.xlsx",
+  "data_dir": "/home/user/corteqscities/uretim/zaragoza/_is/data",
+  "snapshots": "/home/user/corteqscities/uretim/zaragoza/_is/snap",
+  "cache": "/home/user/corteqscities/uretim/zaragoza/_is/cache",
+  "usage_log": "/home/user/corteqscities/uretim/zaragoza/_is/phase_log.jsonl"
+ },
+ "country_pack": {
+  "path": "/home/user/corteqscities/uretim/zaragoza/_is/ulke_paketi",
+  "valid_until": "2026-11-05"
+ },
+ "phase": "places",
+ "phases": {
+  "intake": {
+   "status": "done",
+   "started_at": "2026-11-02T15:36:16Z",
+   "ended_at": "2026-11-02T15:39:29Z",
+   "gates": [
+    {
+     "script": "xlsx_dump",
+     "exit_code": 0,
+     "summary": {
+      "sheets": 16,
+      "missing_sheets": []
+     },
+     "report": "/home/user/corteqscities/uretim/zaragoza/_is/sablon_dump",
+     "at": "2026-11-02T15:39:29Z"
+    },
+    {
+     "script": "validate_all",
+     "exit_code": 1,
+     "summary": {
+      "structure": {
+       "errors": 8
+      },
+      "note": "yalnız 8 şablon Şehir hatası (delivery_id düzeltmesinden sonra; önce 9)"
+     },
+     "report": "/home/user/corteqscities/uretim/zaragoza/_is/val_sablon.json",
+     "at": "2026-11-02T15:39:29Z"
+    },
+    {
+     "script": "wikidata_places",
+     "exit_code": 0,
+     "summary": {
+      "items": 1310,
+      "with_site": 270,
+      "with_image": 697,
+      "with_category": 667
+     },
+     "report": "/home/user/corteqscities/uretim/zaragoza/_is/mekan/wikidata_aday.jsonl",
+     "at": "2026-11-02T15:39:29Z"
+    },
+    {
+     "script": "country_apply",
+     "exit_code": 0,
+     "summary": {
+      "cards": 96,
+      "sources_added": 133,
+      "stale": 0,
+      "bolge_paketi": "yok"
+     },
+     "report": "/home/user/corteqscities/uretim/zaragoza/_is/ulke_paketi/pack.json",
+     "at": "2026-11-02T15:39:29Z"
+    },
+    {
+     "script": "fetch_snapshot",
+     "exit_code": 1,
+     "summary": {
+      "urls": 42,
+      "saved": 32,
+      "failed": 10,
+      "thin_text": 5
+     },
+     "report": "/home/user/corteqscities/uretim/zaragoza/_is/kesif/erisim_snap/index.jsonl",
+     "at": "2026-11-02T15:39:29Z"
+    }
+   ],
+   "outputs": [
+    "/home/user/corteqscities/uretim/zaragoza/_is/sablon.xlsx",
+    "/home/user/corteqscities/uretim/zaragoza/_is/data/Konular.jsonl",
+    "/home/user/corteqscities/uretim/zaragoza/_is/yazar/ilk5.json",
+    "/home/user/corteqscities/uretim/zaragoza/_is/kesif/KESIF_TALIMAT.md",
+    "/home/user/corteqscities/uretim/zaragoza/_is/ortam.sh"
+   ]
+  },
+  "sources": {
+   "status": "done",
+   "started_at": "2026-11-02T15:40:12Z",
+   "gates": [
+    {
+     "script": "add_sources",
+     "exit_code": 0,
+     "summary": {
+      "topics": 12,
+      "min_per_topic": 16,
+      "accepted": 194,
+      "rejected": 0,
+      "kaynak_dizini": 327,
+      "not": "keşif 4 konu başına 25-27 adres verdi; ilk 18 alındı, fazlası kesif/<konu>/yedek.jsonl"
+     },
+     "report": "/home/user/corteqscities/uretim/zaragoza/_is/kesif",
+     "at": "2026-11-02T15:52:33Z"
+    }
+   ],
+   "outputs": [
+    "/home/user/corteqscities/uretim/zaragoza/_is/yazar",
+    "/home/user/corteqscities/uretim/zaragoza/_is/kesif/gaps.json"
+   ],
+   "ended_at": "2026-11-02T15:52:33Z"
+  },
+  "answers": {
+   "status": "done",
+   "started_at": "2026-11-02T15:53:01Z",
+   "gates": [
+    {
+     "script": "merge_package",
+     "exit_code": 0,
+     "summary": {
+      "Yanıtlar": 248,
+      "sehir": 152,
+      "ulke": 96,
+      "Bağlantılar": 420,
+      "Adımlar": 7,
+      "quote_miss": 0,
+      "issues": 0,
+      "sources_used": 320
+     },
+     "report": "/home/user/corteqscities/uretim/zaragoza/_is/birlestir_rapor.json",
+     "at": "2026-11-02T17:53:36Z"
+    },
+    {
+     "script": "build_xlsx",
+     "exit_code": 0,
+     "summary": {
+      "rejected": 0
+     },
+     "report": "/home/user/corteqscities/uretim/zaragoza/_is/build.json",
+     "at": "2026-11-02T17:53:36Z"
+    },
+    {
+     "script": "text_quality",
+     "exit_code": 0,
+     "summary": {
+      "findings": 0,
+      "address_findings": 0
+     },
+     "report": "/home/user/corteqscities/uretim/zaragoza/_is/text_quality.json",
+     "at": "2026-11-02T17:53:36Z"
+    },
+    {
+     "script": "warning-scan",
+     "exit_code": 0,
+     "summary": {
+      "findings": 0
+     },
+     "report": "/home/user/corteqscities/uretim/zaragoza/_is/uyari_tarama.json",
+     "at": "2026-11-02T17:53:36Z"
+    },
+    {
+     "script": "kart_tutarlilik",
+     "exit_code": 1,
+     "summary": {
+      "groups": 3,
+      "farkli_degerli": 1,
+      "not": "EX-01 harcı 10,94 € (ilk geçici izin 2.1.1) ve 16,40 € (yenileme 2.2.1): farklı işlemler, çelişki değil"
+     },
+     "report": "/home/user/corteqscities/uretim/zaragoza/_is/tutarlilik.json",
+     "at": "2026-11-02T17:53:36Z"
+    },
+    {
+     "script": "validate_all",
+     "exit_code": 1,
+     "summary": {
+      "structure_errors": 8,
+      "not": "yalnız şablon Şehir hataları (places'te Şehir parçası kapatır)"
+     },
+     "report": "/home/user/corteqscities/uretim/zaragoza/_is/val_ara.json",
+     "at": "2026-11-02T17:53:36Z"
+    },
+    {
+     "script": "denetim_kapsami",
+     "exit_code": 0,
+     "summary": {
+      "denetlenen": 158,
+      "denetimsiz": 0,
+      "ciddi": 0,
+      "not": "ucuz yol (OI-006): 6 denetçi + 6 editör (2'şer konu) + 1 ek denetçi + 1 ek editör; çürütme/doğrulayıcı gerekmedi (ciddi 0)"
+     },
+     "report": "/home/user/corteqscities/uretim/zaragoza/_is/denetim",
+     "at": "2026-11-02T17:53:36Z"
+    }
+   ],
+   "outputs": [
+    "/home/user/corteqscities/uretim/zaragoza/_is/data/Yanıtlar.jsonl",
+    "/home/user/corteqscities/uretim/zaragoza/_is/data/Bağlantılar.jsonl",
+    "/home/user/corteqscities/uretim/zaragoza/_is/data/Adımlar.jsonl",
+    "/home/user/corteqscities/uretim/zaragoza/_is/ara/ara.xlsx"
+   ],
+   "ended_at": "2026-11-02T17:53:36Z"
+  },
+  "places": {
+   "status": "done",
+   "started_at": "2026-11-02T17:54:15Z",
+   "gates": [
+    {
+     "script": "merge_package",
+     "exit_code": 0,
+     "summary": {
+      "Mekânlar": 108,
+      "Mahalleler": 13,
+      "Rotalar": 12,
+      "Sözlük": 64,
+      "Bağlantılar": 562,
+      "quote_miss": 0,
+      "issues": 0
+     },
+     "report": "/home/user/corteqscities/uretim/zaragoza/_is/birlestir_rapor.json",
+     "at": "2026-11-02T19:21:29Z"
+    },
+    {
+     "script": "build_xlsx",
+     "exit_code": 0,
+     "summary": {
+      "rejected": 0,
+      "Kaynaklar": 458
+     },
+     "report": "/home/user/corteqscities/uretim/zaragoza/_is/build.json",
+     "at": "2026-11-02T19:21:29Z"
+    },
+    {
+     "script": "text_quality",
+     "exit_code": 0,
+     "summary": {
+      "findings": 0,
+      "address_findings": 0
+     },
+     "report": "/home/user/corteqscities/uretim/zaragoza/_is/text_quality.json",
+     "at": "2026-11-02T19:21:29Z"
+    },
+    {
+     "script": "warning-scan",
+     "exit_code": 0,
+     "summary": {
+      "findings": 0
+     },
+     "report": "/home/user/corteqscities/uretim/zaragoza/_is/uyari_tarama.json",
+     "at": "2026-11-02T19:21:29Z"
+    },
+    {
+     "script": "kart_tutarlilik",
+     "exit_code": 1,
+     "summary": {
+      "groups": 50,
+      "farkli_degerli": 11,
+      "not": "sözlük-çapalı gruplar; çoğu farklı işlem değerleri; d5'te bakılır"
+     },
+     "report": "/home/user/corteqscities/uretim/zaragoza/_is/tutarlilik.json",
+     "at": "2026-11-02T19:21:29Z"
+    },
+    {
+     "script": "validate_all",
+     "exit_code": 0,
+     "summary": {
+      "structure_errors": 0,
+      "media_errors": 0,
+      "warnings": 123,
+      "not": "uyarıların hepsi fotoğraf eksiği"
+     },
+     "report": "/home/user/corteqscities/uretim/zaragoza/_is/val_ara.json",
+     "at": "2026-11-02T19:21:29Z"
+    },
+    {
+     "script": "acik_mi",
+     "exit_code": 0,
+     "summary": {
+      "mekan": 108,
+      "findings": 0,
+      "kartta_belirt": 15,
+      "silinen": 0
+     },
+     "report": "/home/user/corteqscities/uretim/zaragoza/_is/acik_mi_rapor.json",
+     "at": "2026-11-02T19:21:29Z"
+    },
+    {
+     "script": "rota_mesafe",
+     "exit_code": 0,
+     "summary": {
+      "routes": 12,
+      "legs": 30,
+      "problems": 0,
+      "max_leg_walk_m": 3082,
+      "not": "rota 012 ilk bacak notta toplu taşıma"
+     },
+     "report": "/home/user/corteqscities/uretim/zaragoza/_is/rota_mesafe.jsonl",
+     "at": "2026-11-02T19:21:29Z"
+    },
+    {
+     "script": "denetim_kapsami",
+     "exit_code": 0,
+     "summary": {
+      "denetimsiz": 0,
+      "ciddi": 1,
+      "not": "ucuz yol: 4 yer denetçisi + 3 yer editörü + 1 doğrulayıcı (m4, ciddi: canal K108 silindi); sayfa parçası d5'te"
+     },
+     "report": "/home/user/corteqscities/uretim/zaragoza/_is/denetim",
+     "at": "2026-11-02T19:21:29Z"
+    }
+   ],
+   "outputs": [
+    "/home/user/corteqscities/uretim/zaragoza/_is/data/Mekânlar.jsonl",
+    "/home/user/corteqscities/uretim/zaragoza/_is/data/Mahalleler.jsonl",
+    "/home/user/corteqscities/uretim/zaragoza/_is/data/Rotalar.jsonl",
+    "/home/user/corteqscities/uretim/zaragoza/_is/data/Sözlük.jsonl",
+    "/home/user/corteqscities/uretim/zaragoza/_is/ara/ara.xlsx"
+   ],
+   "ended_at": "2026-11-02T19:21:29Z"
+  }
+ },
+ "open_items": [
+  {
+   "id": "OI-001",
+   "priority": "P2",
+   "text": "Erişim: inclusion.gob.es, mivau.gob.es, camarazaragoza.com 403; iass.aragon.es, dpz.es, sede.administracionespublicas.gob.es, sede.agenciatributaria.gob.es bağlantı sıfırlandı; cortesaragon.es (Aljafería) bağlantı koptu; ecociudadzaragoza.es (su şirketi) tünel bağlantısı kurulamadı. Bilgi başka resmî kurumdan alınacak; erişim teyidi açık. Keşifte ek: educacionfpydeportes.gob.es bağlantı koptu; mapaoficinas.fnmt.es 502; hola-zaragoza.avanzagrupo.com ve aeropuerto.ctaz.es 403; tranviasdezaragoza.es JS (boş metin).",
+   "evidence": "/home/user/corteqscities/uretim/zaragoza/_is/kesif/erisim_snap/index.jsonl",
+   "owner": "insan"
+  },
+  {
+   "id": "OI-002",
+   "priority": "P2",
+   "text": "Atınç şablonunda delivery_id büyük harfli (CITY-128-v001): resmî doğrulayıcı reddediyor. Yalnız _is/sablon.xlsx kopyasında city-128-v001 yapıldı (yedek _is/sablon_orijinal_kopya.xlsx).",
+   "evidence": "/home/user/corteqscities/uretim/zaragoza/_is/val_sablon.json",
+   "owner": "atinc"
+  },
+  {
+   "id": "OI-003",
+   "priority": "P2",
+   "text": "Bilgi: Şehir.priority alanının anlamı sözleşmede tanımsız (şablondaki 3 korunuyor); Şehir.source_url (Kapsam kaynağı) şablonda InterNations listesi; anlamı Atınç'a soruldu.",
+   "evidence": "/home/user/corteqscities/uretim/zaragoza/_is/sablon_dump/Şehir.jsonl",
+   "owner": "atinc"
+  },
+  {
+   "id": "OI-004",
+   "priority": "P1",
+   "text": "Tarih: ülke paketindeki 6 kira kartı (kira-sozlesmesi-suresi-ve-uzama, kira-depozitosu-fianza-ve-iade, kira-artisi-siniri-irav, kirada-onarim-ve-hasar-sorumlulugu, kiralik-evden-cikis-ve-ihbar-suresi, kiralik-ilan-dolandiriciligini-tanima) 5.11.2026'da eskir; apply 2.11'de kopyaladı (stale 0). Teslim bu tarihten sonra olacağı için ya ülke paketi yenilenmeli ya da bu kartların kaynağı şehir döngüsünde yeniden doğrulanmalı. 8 kart 31.12.2026'da eskir.",
+   "evidence": "/home/user/corteqscities/uretim/zaragoza/_is/ulke_paketi/pack.json",
+   "owner": "insan"
+  },
+  {
+   "id": "OI-005",
+   "priority": "P2",
+   "text": "Aragón bölge paketi yok: bölge kuralları (Salud Aragón, INAEM, Aragón okul kaydı, Aragón vergileri, IASS) şehir kartlarında yazılacak; RUN_LOG notunda 'bölge paketi: yok'.",
+   "evidence": "/home/user/corteqscities/ulke/ES/bolge",
+   "owner": "ai"
+  },
+  {
+   "id": "OI-006",
+   "priority": "P2",
+   "text": "Maliyet kararı (kural 15; kullanıcı 2.11.2026): 'ucuz yol'. Answers denetiminde her denetçi ve editör 2 konuyu birlikte alır; çürütme ve doğrulayıcı yalnız ciddi bulguda; ülke paketinin değişmeyen kartları (audit-scope skip) denetlenmez. Bütün şehir kartları ve değişen 6 ülke kartı tam denetimden geçer. Yazım sonrası 16 ajan.",
+   "evidence": "/home/user/corteqscities/uretim/zaragoza/_is/phase_log.jsonl",
+   "owner": "insan"
+  },
+  {
+   "id": "OI-007",
+   "priority": "P1",
+   "text": "Ülke paketi kartlarında denetim bulguları (audit-scope 'şehirde değişti' ile denetime giren 6 kart): yillik-izin-ve-resmi-tatiller-2026 (2), dijital-gocebe-vizesi (7), altin-vize-sona-erdi (3), tasinma-oncesi-vize-ve-ilk-oturum-izni (1), ilk-gunlerde-nuss-ve-temel-odeme-hesabi (4), ab-disindan-gelirken-esya-ve-nakit-gumruk-beyani (3). Şehir editörleri ülke kartlarını değiştirmedi (kural); bulgular ülke paketi güncellemesinde (ulke/ES) ya da assemble d5'te kapatılmalı. Ayrıntı: _is/denetim/<konu>_iddia.jsonl.",
+   "evidence": "/home/user/corteqscities/uretim/zaragoza/_is/ulke_denetim_kapsami.json",
+   "owner": "ai"
+  },
+  {
+   "id": "OI-008",
+   "priority": "P2",
+   "text": "Koordinat: places sonunda koordinatsız mekân 0. 10 mekân CartoCiudad portal kaydından (kapı numarası eşleşen); m3/m4 editörleri 9 mekânı belediyenin kendi ekipman sayfasındaki konum bilgisiyle doldurdu (resmî ama CartoCiudad değil; çizgisel parklarda tek nokta yaklaşık); Mercado San Vicente de Paúl CartoCiudad portal 21 (kart adresi 22; belediye UTM noktasıyla ~35 m uyumlu). d5'te bakılmalı.",
+   "evidence": "/home/user/corteqscities/uretim/zaragoza/_is/mekan/cartociudad.json",
+   "owner": "ai"
+  },
+  {
+   "id": "OI-009",
+   "priority": "P2",
+   "text": "Mekân listesinden çıkarılanlar: casino-mercantil (eklenen kaynak 465 Casa Molins sayfasıymış, yapı kanıtlanamadı), jardin-botanico-de-zaragoza (K108: Parque Grande içinde), auditorio-de-zaragoza ve iglesia-de-san-juan-de-los-panetes (kaynak kanıtı reddedildi). Mekân 110 (asgari 92, hedef 120).",
+   "evidence": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_mekan/eklenen.json",
+   "owner": "ai"
+  },
+  {
+   "id": "OI-010",
+   "priority": "P2",
+   "text": "İnce mekân kartları (kaynak yalnız adres/iletişim veriyor; not boş, saat/ücret yok): Parque Tapices de Goya, Víctimas del Terrorismo, de los Poetas, del Respeto, de la Razón, Parque Goya, Teatro del Mercado, Teatro de la Estación, Sala Zeta, Teatro Bicho, Auditorio Eduardo del Pueyo, Club Náutico. Kaynak kotası (460/500) yüzünden ikinci kaynak eklenmedi. d5 son denetimde S08 açısından bakılmalı; gerekirse fotoğraflı yedek mekânla değiştirme ya da çıkarma (mekân 108, asgari 92). canal-de-aguas-bravas silindi (K108, 2026 işletmede değil). m4 doğrulayıcısı 6 ince kartı (Teatro del Mercado, Estación, Sala Zeta, Bicho, Eduardo del Pueyo, Club Náutico) 'eksik_kalan orta' saydı; ana döngü kararı (2.11.2026): kota dolu, bilinçli ince kart olarak kabul, d5'te yeniden bakılır.",
+   "evidence": "/home/user/corteqscities/uretim/zaragoza/_is/denetim/m3_degisiklik.jsonl",
+   "owner": "ai"
+  }
+ ],
+ "sources_researched": 327,
+ "photos_downloaded": 0,
+ "next_step": "photos (yerel makine; bu bulut ortamında Wikimedia hız sınırlı): photo_candidates plan-from-xlsx → QID → commons_search → photo_sources → tur1. Ayrıntı: uretim/zaragoza/DURUM.md"
+}

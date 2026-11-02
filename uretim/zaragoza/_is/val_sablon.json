@@ -1,0 +1,555 @@
+{
+  "summary": {
+    "tool": "validate_all",
+    "mode": "audit",
+    "new_content": false,
+    "structure": {
+      "errors": 8,
+      "warnings": 40
+    },
+    "media": {
+      "errors": 0
+    },
+    "minimum_gaps": {
+      "answers": {
+        "actual": 0,
+        "minimum": 212
+      },
+      "places": {
+        "actual": 0,
+        "minimum": 92
+      },
+      "neighborhoods": {
+        "actual": 0,
+        "minimum": 12
+      },
+      "topics": {
+        "actual": 0,
+        "minimum": 12
+      },
+      "photos": {
+        "actual": 0,
+        "minimum": 187
+      },
+      "hero_photos": {
+        "actual": 0,
+        "minimum": 6
+      },
+      "routes": {
+        "actual": 0,
+        "minimum": 9
+      },
+      "glossary": {
+        "actual": 0,
+        "minimum": 48
+      }
+    },
+    "error_classes": [
+      {
+        "class": "Şehir: Para birimi kodu zorunlu.",
+        "count": 1,
+        "examples": [
+          "Şehir!?: Para birimi kodu zorunlu."
+        ]
+      },
+      {
+        "class": "Şehir: Rehber başlığı zorunlu.",
+        "count": 1,
+        "examples": [
+          "Şehir!?: Rehber başlığı zorunlu."
+        ]
+      },
+      {
+        "class": "Şehir: Rehber giriş metni zorunlu.",
+        "count": 1,
+        "examples": [
+          "Şehir!?: Rehber giriş metni zorunlu."
+        ]
+      },
+      {
+        "class": "Şehir: Rehber kontrol tarihi zorunlu.",
+        "count": 1,
+        "examples": [
+          "Şehir!?: Rehber kontrol tarihi zorunlu."
+        ]
+      },
+      {
+        "class": "Şehir: Saat dilimi zorunlu.",
+        "count": 1,
+        "examples": [
+          "Şehir!?: Saat dilimi zorunlu."
+        ]
+      },
+      {
+        "class": "Şehir: Yerel dil zorunlu.",
+        "count": 1,
+        "examples": [
+          "Şehir!?: Yerel dil zorunlu."
+        ]
+      },
+      {
+        "class": "Şehir: geçerli IANA saat dilimi gerekli.",
+        "count": 1,
+        "examples": [
+          "Şehir: geçerli IANA saat dilimi gerekli."
+        ]
+      },
+      {
+        "class": "Şehir: para birimi 3 büyük ASCII harf olmalı.",
+        "count": 1,
+        "examples": [
+          "Şehir: para birimi 3 büyük ASCII harf olmalı."
+        ]
+      }
+    ],
+    "media_classes": [],
+    "tolerated_duplicate_list_cells": 0,
+    "extras": {
+      "placeholders": 0,
+      "wikipedia_labeled_official": 0,
+      "verified_without_snapshot": 0,
+      "shared_coordinates": 0,
+      "homepage_only_sources": 0,
+      "history_share": 0
+    },
+    "extras_note": "ek kontrol, resmî sayılara dahil değil; tarih payı 0/0 (eşik 0.35, öneri)",
+    "technically_complete": false
+  },
+  "structure": {
+    "valid": false,
+    "mode": "draft",
+    "schema_version": "1.0",
+    "acceptance_version": "2026-10-13.1",
+    "counts": {
+      "answers": 0,
+      "places": 0,
+      "neighborhoods": 0,
+      "routes": 0,
+      "glossary": 0,
+      "topics": 0,
+      "photos": 0,
+      "hero_photos": 0
+    },
+    "minimum": {
+      "answers": 212,
+      "places": 92,
+      "neighborhoods": 12,
+      "topics": 12,
+      "photos": 187,
+      "hero_photos": 6,
+      "routes": 9,
+      "glossary": 48
+    },
+    "target": {
+      "answers": 240,
+      "places": 120,
+      "neighborhoods": 16,
+      "topics": 12,
+      "photos": 250,
+      "hero_photos": 8,
+      "routes": 12,
+      "glossary": 60
+    },
+    "errors": [
+      "Şehir!?: Rehber başlığı zorunlu.",
+      "Şehir!?: Rehber giriş metni zorunlu.",
+      "Şehir!?: Para birimi kodu zorunlu.",
+      "Şehir!?: Yerel dil zorunlu.",
+      "Şehir!?: Saat dilimi zorunlu.",
+      "Şehir!?: Rehber kontrol tarihi zorunlu.",
+      "Şehir: geçerli IANA saat dilimi gerekli.",
+      "Şehir: para birimi 3 büyük ASCII harf olmalı."
+    ],
+    "warnings": [
+      "SayfaAlanları!?: hero_kicker: Türkçe sayfa metni eksik.",
+      "SayfaAlanları!?: hero_accent: Türkçe sayfa metni eksik.",
+      "SayfaAlanları!?: hero_note: Türkçe sayfa metni eksik.",
+      "SayfaAlanları!?: topic_title: Türkçe sayfa metni eksik.",
+      "SayfaAlanları!?: topic_intro: Türkçe sayfa metni eksik.",
+      "SayfaAlanları!?: journey_title: Türkçe sayfa metni eksik.",
+      "SayfaAlanları!?: journey_intro: Türkçe sayfa metni eksik.",
+      "SayfaAlanları!?: neighborhood_title: Türkçe sayfa metni eksik.",
+      "SayfaAlanları!?: neighborhood_intro: Türkçe sayfa metni eksik.",
+      "SayfaAlanları!?: explore_title: Türkçe sayfa metni eksik.",
+      "SayfaAlanları!?: explore_intro: Türkçe sayfa metni eksik.",
+      "SayfaAlanları!?: sources_note: Türkçe sayfa metni eksik.",
+      "SayfaAlanları!?: photo_credit: Türkçe sayfa metni eksik.",
+      "SayfaAlanları!?: arrival_note: Türkçe sayfa metni eksik.",
+      "SayfaAlanları!?: emergency_url: bu ülkeye ait resmî bağlantı gerekli.",
+      "SayfaAlanları!?: pharmacy_url: bu ülkeye ait resmî bağlantı gerekli.",
+      "SayfaAlanları!?: facts: en az 4 yapılandırılmış kayıt gerekli.",
+      "SayfaAlanları!?: quick_links: en az 3 yapılandırılmış kayıt gerekli.",
+      "SayfaAlanları!?: timeline: en az 4 yapılandırılmış kayıt gerekli.",
+      "SayfaAlanları!?: budget_fields: en az 10 yapılandırılmış kayıt gerekli.",
+      "SayfaAlanları!?: place_groups: en az 8 yapılandırılmış kayıt gerekli.",
+      "SayfaAlanları!?: emergency: en az 1 yapılandırılmış kayıt gerekli.",
+      "SayfaAlanları!?: advice_entry: bağlı içerik bu şehirde bulunamadı.",
+      "SayfaAlanları!?: budget_fields: anahtarlar birer kez ve eksiksiz olmalı: income, rent, bills, food, transport, health, leisure, other, deposit, moving.",
+      "SayfaAlanları!?: place_groups: anahtarlar birer kez ve eksiksiz olmalı: museum, art, stage, sport, nature, family, food, history.",
+      "Adımlar!?: En az 4 yerleşim adımı gerekli.",
+      "SayfaAlanları!?: Sekiz keşif grubunun her birinde gerçek mekân gerekli.",
+      "Şehir!?: currency_symbol: zorunlu.",
+      "Şehir!?: currency_label: zorunlu.",
+      "Şehir!?: forecast_label: zorunlu.",
+      "Şehir!?: forecast_url: bağlantı gerekli.",
+      "Şehir!?: provider_url: bağlantı gerekli.",
+      "Yanıt: 0 / asgari 212; hedef 240.",
+      "Keşif noktası: 0 / asgari 92; hedef 120.",
+      "Mahalle: 0 / asgari 12; hedef 16.",
+      "Yanıt içeren konu: 0 / asgari 12; hedef 12.",
+      "Rota: 0 / asgari 9; hedef 12.",
+      "Sözlük terimi: 0 / asgari 48; hedef 60.",
+      "Farklı mekân fotoğrafı: 0 / asgari 187; hedef 250.",
+      "Kapak fotoğrafı: 0 / asgari 6; hedef 8."
+    ],
+    "human_acceptance": "Yerel içerik, Türkçe, işlem bağlantısı, lisans ve kare eşleşmesi insan tarafından ayrıca incelenir.",
+    "checks_do_not_prove": [
+      "Kaynağın bugün erişilebilir veya doğru olması",
+      "Dosyanın gerçek fotoğraf olduğunun semantik kanıtı",
+      "Fotoğrafçı veya üçüncü kişi haklarının hukuki kesinliği",
+      "Yerel mevzuat ve Türkçe metnin editoryal yeterliliği",
+      "Şehrin otomatik yayımlanması veya editoryal onay"
+    ],
+    "legacy_row_credit_counts": {
+      "photos": 0,
+      "hero_photos": 0
+    },
+    "counting_note": "Fiziksel SHA veya aynı kanonik kaynak tek kare sayılır. Rol ayrıdır. Satır onay/kredi bayrağı miktarı sıfırlamaz; insan onayı ayrıca bütün pakete verilir."
+  },
+  "media": {
+    "schema": "corteqs-media-provenance/7.0",
+    "photos": 0,
+    "different_files": 0,
+    "different_source_pages": 0,
+    "errors": [],
+    "open_provenance_points": [],
+    "structural_passed": true,
+    "checks": {
+      "file_bytes_and_sha": true,
+      "image_decoding": true,
+      "license_label_url": true,
+      "url_format": true,
+      "live_http_availability": false,
+      "human_pixel_and_underlying_rights_review": false
+    },
+    "human_rights_approval_granted_by_tool": false,
+    "existing_package_approval": "Bu dosya denetimi mevcut insan onayını değiştirmez.",
+    "database_written": false,
+    "published": false
+  },
+  "warning_classes": [
+    {
+      "class": "SayfaAlanları: budget_fields",
+      "count": 2,
+      "examples": [
+        "SayfaAlanları!?: budget_fields: en az 10 yapılandırılmış kayıt gerekli.",
+        "SayfaAlanları!?: budget_fields: anahtarlar birer kez ve eksiksiz olmalı: income, rent, bills, food, transport, health, leisure, other, deposit, moving."
+      ]
+    },
+    {
+      "class": "SayfaAlanları: place_groups",
+      "count": 2,
+      "examples": [
+        "SayfaAlanları!?: place_groups: en az 8 yapılandırılmış kayıt gerekli.",
+        "SayfaAlanları!?: place_groups: anahtarlar birer kez ve eksiksiz olmalı: museum, art, stage, sport, nature, family, food, history."
+      ]
+    },
+    {
+      "class": "Adımlar: En az 4 yerleşim adımı gerekli.",
+      "count": 1,
+      "examples": [
+        "Adımlar!?: En az 4 yerleşim adımı gerekli."
+      ]
+    },
+    {
+      "class": "Farklı mekân fotoğrafı: 0 / asgari 187; hedef 250.",
+      "count": 1,
+      "examples": [
+        "Farklı mekân fotoğrafı: 0 / asgari 187; hedef 250."
+      ]
+    },
+    {
+      "class": "Kapak fotoğrafı: 0 / asgari 6; hedef 8.",
+      "count": 1,
+      "examples": [
+        "Kapak fotoğrafı: 0 / asgari 6; hedef 8."
+      ]
+    },
+    {
+      "class": "Keşif noktası: 0 / asgari 92; hedef 120.",
+      "count": 1,
+      "examples": [
+        "Keşif noktası: 0 / asgari 92; hedef 120."
+      ]
+    },
+    {
+      "class": "Mahalle: 0 / asgari 12; hedef 16.",
+      "count": 1,
+      "examples": [
+        "Mahalle: 0 / asgari 12; hedef 16."
+      ]
+    },
+    {
+      "class": "Rota: 0 / asgari 9; hedef 12.",
+      "count": 1,
+      "examples": [
+        "Rota: 0 / asgari 9; hedef 12."
+      ]
+    },
+    {
+      "class": "SayfaAlanları: Sekiz keşif grubunun her birinde gerçek mekân gerekli.",
+      "count": 1,
+      "examples": [
+        "SayfaAlanları!?: Sekiz keşif grubunun her birinde gerçek mekân gerekli."
+      ]
+    },
+    {
+      "class": "SayfaAlanları: advice_entry",
+      "count": 1,
+      "examples": [
+        "SayfaAlanları!?: advice_entry: bağlı içerik bu şehirde bulunamadı."
+      ]
+    },
+    {
+      "class": "SayfaAlanları: arrival_note",
+      "count": 1,
+      "examples": [
+        "SayfaAlanları!?: arrival_note: Türkçe sayfa metni eksik."
+      ]
+    },
+    {
+      "class": "SayfaAlanları: emergency",
+      "count": 1,
+      "examples": [
+        "SayfaAlanları!?: emergency: en az 1 yapılandırılmış kayıt gerekli."
+      ]
+    },
+    {
+      "class": "SayfaAlanları: emergency_url",
+      "count": 1,
+      "examples": [
+        "SayfaAlanları!?: emergency_url: bu ülkeye ait resmî bağlantı gerekli."
+      ]
+    },
+    {
+      "class": "SayfaAlanları: explore_intro",
+      "count": 1,
+      "examples": [
+        "SayfaAlanları!?: explore_intro: Türkçe sayfa metni eksik."
+      ]
+    },
+    {
+      "class": "SayfaAlanları: explore_title",
+      "count": 1,
+      "examples": [
+        "SayfaAlanları!?: explore_title: Türkçe sayfa metni eksik."
+      ]
+    },
+    {
+      "class": "SayfaAlanları: facts",
+      "count": 1,
+      "examples": [
+        "SayfaAlanları!?: facts: en az 4 yapılandırılmış kayıt gerekli."
+      ]
+    },
+    {
+      "class": "SayfaAlanları: hero_accent",
+      "count": 1,
+      "examples": [
+        "SayfaAlanları!?: hero_accent: Türkçe sayfa metni eksik."
+      ]
+    },
+    {
+      "class": "SayfaAlanları: hero_kicker",
+      "count": 1,
+      "examples": [
+        "SayfaAlanları!?: hero_kicker: Türkçe sayfa metni eksik."
+      ]
+    },
+    {
+      "class": "SayfaAlanları: hero_note",
+      "count": 1,
+      "examples": [
+        "SayfaAlanları!?: hero_note: Türkçe sayfa metni eksik."
+      ]
+    },
+    {
+      "class": "SayfaAlanları: journey_intro",
+      "count": 1,
+      "examples": [
+        "SayfaAlanları!?: journey_intro: Türkçe sayfa metni eksik."
+      ]
+    },
+    {
+      "class": "SayfaAlanları: journey_title",
+      "count": 1,
+      "examples": [
+        "SayfaAlanları!?: journey_title: Türkçe sayfa metni eksik."
+      ]
+    },
+    {
+      "class": "SayfaAlanları: neighborhood_intro",
+      "count": 1,
+      "examples": [
+        "SayfaAlanları!?: neighborhood_intro: Türkçe sayfa metni eksik."
+      ]
+    },
+    {
+      "class": "SayfaAlanları: neighborhood_title",
+      "count": 1,
+      "examples": [
+        "SayfaAlanları!?: neighborhood_title: Türkçe sayfa metni eksik."
+      ]
+    },
+    {
+      "class": "SayfaAlanları: pharmacy_url",
+      "count": 1,
+      "examples": [
+        "SayfaAlanları!?: pharmacy_url: bu ülkeye ait resmî bağlantı gerekli."
+      ]
+    },
+    {
+      "class": "SayfaAlanları: photo_credit",
+      "count": 1,
+      "examples": [
+        "SayfaAlanları!?: photo_credit: Türkçe sayfa metni eksik."
+      ]
+    },
+    {
+      "class": "SayfaAlanları: quick_links",
+      "count": 1,
+      "examples": [
+        "SayfaAlanları!?: quick_links: en az 3 yapılandırılmış kayıt gerekli."
+      ]
+    },
+    {
+      "class": "SayfaAlanları: sources_note",
+      "count": 1,
+      "examples": [
+        "SayfaAlanları!?: sources_note: Türkçe sayfa metni eksik."
+      ]
+    },
+    {
+      "class": "SayfaAlanları: timeline",
+      "count": 1,
+      "examples": [
+        "SayfaAlanları!?: timeline: en az 4 yapılandırılmış kayıt gerekli."
+      ]
+    },
+    {
+      "class": "SayfaAlanları: topic_intro",
+      "count": 1,
+      "examples": [
+        "SayfaAlanları!?: topic_intro: Türkçe sayfa metni eksik."
+      ]
+    },
+    {
+      "class": "SayfaAlanları: topic_title",
+      "count": 1,
+      "examples": [
+        "SayfaAlanları!?: topic_title: Türkçe sayfa metni eksik."
+      ]
+    },
+    {
+      "class": "Sözlük terimi: 0 / asgari 48; hedef 60.",
+      "count": 1,
+      "examples": [
+        "Sözlük terimi: 0 / asgari 48; hedef 60."
+      ]
+    },
+    {
+      "class": "Yanıt içeren konu: 0 / asgari 12; hedef 12.",
+      "count": 1,
+      "examples": [
+        "Yanıt içeren konu: 0 / asgari 12; hedef 12."
+      ]
+    },
+    {
+      "class": "Yanıt: 0 / asgari 212; hedef 240.",
+      "count": 1,
+      "examples": [
+        "Yanıt: 0 / asgari 212; hedef 240."
+      ]
+    },
+    {
+      "class": "Şehir: currency_label",
+      "count": 1,
+      "examples": [
+        "Şehir!?: currency_label: zorunlu."
+      ]
+    },
+    {
+      "class": "Şehir: currency_symbol",
+      "count": 1,
+      "examples": [
+        "Şehir!?: currency_symbol: zorunlu."
+      ]
+    },
+    {
+      "class": "Şehir: forecast_label",
+      "count": 1,
+      "examples": [
+        "Şehir!?: forecast_label: zorunlu."
+      ]
+    },
+    {
+      "class": "Şehir: forecast_url",
+      "count": 1,
+      "examples": [
+        "Şehir!?: forecast_url: bağlantı gerekli."
+      ]
+    },
+    {
+      "class": "Şehir: provider_url",
+      "count": 1,
+      "examples": [
+        "Şehir!?: provider_url: bağlantı gerekli."
+      ]
+    }
+  ],
+  "tolerated_duplicate_list_cells": [],
+  "extras": {
+    "placeholders": {
+      "label": "ek kontrol",
+      "count": 0,
+      "items": []
+    },
+    "wikipedia_labeled_official": {
+      "label": "ek kontrol",
+      "count": 0,
+      "items": [],
+      "by_sheet": {
+        "Bağlantılar": 0,
+        "Kaynaklar": 0
+      }
+    },
+    "verified_without_snapshot": {
+      "label": "ek kontrol",
+      "count": 0,
+      "items": [],
+      "verified_total": 0
+    },
+    "shared_coordinates": {
+      "label": "ek kontrol",
+      "count": 0,
+      "items": [],
+      "entries": 0
+    },
+    "homepage_only_sources": {
+      "label": "ek kontrol",
+      "count": 0,
+      "items": []
+    },
+    "history_share": {
+      "label": "ek kontrol",
+      "count": 0,
+      "items": [],
+      "history": 0,
+      "total": 0,
+      "ratio": 0.0,
+      "threshold": 0.35,
+      "flagged": false,
+      "threshold_note": "öneri: 'Tarih ve mimari' payı > 35% ise çeşitlilik gözden geçirilmeli"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+# Linux (bulut oturumu) karşılığı ortam.ps1
+export ROOT='/home/user/corteqscities'
+export PY='/home/user/venv/bin/python'
+export TK='/home/user/corteqscities/corteqs-skills/toolkit/scripts'
+export CHECKS='/home/user/corteqscities/corteqs-skills/toolkit/checks.yaml'
+export TOOLS='/home/user/corteqscities/araclar/arac'
+export DIGEST='/home/user/corteqscities/.claude/skills/city-pack/references/contract_digest.md'
+export AGENTS='/home/user/corteqscities/.claude/skills/city-pack/agents'
+export DU='/home/user/corteqscities/corteqs-skills/deneme_ulke_paketi'
+export WORK='/home/user/corteqscities/uretim/zaragoza'
+export PKG='/home/user/corteqscities/uretim/zaragoza/paket'
+export CITY='zaragoza'
+export EXCEL='/home/user/corteqscities/uretim/zaragoza/paket/CITY-128_zaragoza_v001.xlsx'
+export BBOX='41.559,41.76,-1.053,-0.777'
+export PYTHONDONTWRITEBYTECODE=1 PYTHONUTF8=1

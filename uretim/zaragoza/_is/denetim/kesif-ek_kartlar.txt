@@ -1,0 +1,266 @@
+===== KART 1/2: zaragoza:belediye-muzeleri-tam-bilet-ve-abonolar =====
+{
+ "entry_id": "zaragoza:belediye-muzeleri-tam-bilet-ve-abonolar",
+ "city_id": "zaragoza",
+ "slug": "belediye-muzeleri-tam-bilet-ve-abonolar",
+ "title": "Zaragoza belediye müzelerinde tam bilet ve abonolar kaç euro?",
+ "subtitle": "Puerto Fluvial ve Termas 3 euro; Foro, Teatro ve Pablo Gargallo 4 euro; Abono Ruta de Caesaraugusta 7 euro, Abono 5 museos 9 euro",
+ "summary": "Zaragoza Belediyesi'nin tarife tüzüğüne (Texto regulador nº 27) göre tek müze için genel bireysel giriş Museo del Puerto Fluvial ve Museo de las Termas Públicas'ta 3 euro; Museo del Foro, Museo del Teatro ve Museo Pablo Gargallo'da 4 euro. İndirimli tarife Puerto Fluvial ve Termas'ta 2, Foro, Teatro ve Gargallo'da 3 euro. Dört Roma müzesini kapsayan Abono Ruta de Caesaraugusta genel 7, indirimli 5 euro; beş belediye müzesini kapsayan Abono 5 museos genel 9, indirimli 6 euro. Museo Pablo Gargallo (Pza. de San Felipe 3), müzenin resmî sayfasına göre tesis ve erişilebilirlik iyileştirme çalışmaları nedeniyle geçici olarak kapalıdır.",
+ "keywords": "müze bileti, Museo del Foro, Museo del Teatro, Museo de las Termas, Puerto Fluvial, Pablo Gargallo, Abono Ruta Caesaraugusta, Abono 5 museos",
+ "stages": "planning;new",
+ "source_ids": "zaragoza:kaynak:357;zaragoza:kaynak:356",
+ "reviewed_on": "2026-11-02",
+ "order": 1217,
+ "featured": "Hayır",
+ "editorial_status": "Taslak",
+ "topic_id": "zaragoza:kesif",
+ "steps": "Tek bir Roma müzesine gireceksen Puerto Fluvial ya da Termas için 3, Foro ya da Teatro için 4 euro hazırla.\nİndirimli tarife için geçerli belgeni göster (ör. carné joven, 16 yaşından itibaren öğrenci kartı); indirimli tutar Puerto Fluvial ve Termas'ta 2, Foro ve Teatro'da 3 euro.\nDört Roma müzesini birden gezeceksen Abono Ruta de Caesaraugusta'yı al: genel 7, indirimli 5 euro.\nBeş müzelik Abono 5 museos genel 9, indirimli 6 euro'dur; bireysel ziyaretçiler içindir, grup ziyaretlerinde geçmez.",
+ "documents": "İndirim için geçerli belge (ör. carné joven, 16 yaşından itibaren öğrenci kartı)",
+ "timing": "",
+ "cost": "Tek müze genel: Puerto Fluvial ve Termas 3 euro; Foro, Teatro ve Pablo Gargallo 4 euro. İndirimli: Puerto Fluvial ve Termas 2 euro; Foro, Teatro ve Pablo Gargallo 3 euro. Abono Ruta de Caesaraugusta 7 euro (indirimli 5); Abono 5 museos 9 euro (indirimli 6); Paseo guiado romano indirimli 3 euro.",
+ "note": "Museo Pablo Gargallo tesis ve erişilebilirlik iyileştirme çalışmaları nedeniyle geçici olarak kapalıdır; telefonu 976 724922'dir. Paseo guiado romano dört Roma müzesinin kalıntılarını kapsar ve yalnız bireysel ziyaretçiler içindir.",
+ "visual_json": "",
+ "_sekme": "Yanıtlar",
+ "kaynaklar": [
+  {
+   "source_id": "zaragoza:kaynak:357",
+   "url": "https://www.zaragoza.es/sede/servicio/normativa/3803",
+   "publisher": "Ayuntamiento de Zaragoza",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif-editor1/93ed4db9fc422a4464b38ee70706553b28b17a9638c3c111c46011223be706f5.txt"
+  },
+  {
+   "source_id": "zaragoza:kaynak:356",
+   "url": "https://www.zaragoza.es/sede/portal/museos/pablo-gargallo/",
+   "publisher": "Ayuntamiento de Zaragoza",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif-editor1/b007fb83608b07e5313b8d50977cc4b9f0fd33466113bbc1c0a4a61f7b91ad18.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-belediye-muzeleri-tam-bilet-ve-abonolar-1",
+   "field": "cost",
+   "claim": "Puerto Fluvial ve Termas müzelerinde genel tek müze girişi 3 euro, indirimli 2 euro, formativ grup 1 euro",
+   "value": "3; 2; 1",
+   "unit": "EUR",
+   "period": "yürürlükte",
+   "source_id": "zaragoza:kaynak:357",
+   "quote": "Puerto fluvial de Caesaraugusta Termas públicas de Caesaraugusta 3 euros 2 euros 1 euros"
+  },
+  {
+   "claim_id": "C-belediye-muzeleri-tam-bilet-ve-abonolar-2",
+   "field": "cost",
+   "claim": "Foro, Teatro ve Pablo Gargallo müzelerinde genel tek müze girişi 4 euro, indirimli 3 euro, formativ grup 1 euro",
+   "value": "4; 3; 1",
+   "unit": "EUR",
+   "period": "yürürlükte",
+   "source_id": "zaragoza:kaynak:357",
+   "quote": "Foro de Caesaraugusta Teatro de Caesaraugusta Pablo Gargallo 4 euros 3 euros 1 euros"
+  },
+  {
+   "claim_id": "C-belediye-muzeleri-tam-bilet-ve-abonolar-3",
+   "field": "cost",
+   "claim": "Abono Ruta de Caesaraugusta (4 Roma müzesi) genel 7 euro, indirimli 5 euro",
+   "value": "7; 5",
+   "unit": "EUR",
+   "period": "yürürlükte",
+   "source_id": "zaragoza:kaynak:357",
+   "quote": "Ruta de Caesaraugusta: 4 museos romanos (2) 7 euros 5 euros 2 euros"
+  },
+  {
+   "claim_id": "C-belediye-muzeleri-tam-bilet-ve-abonolar-4",
+   "field": "cost",
+   "claim": "Abono 5 museos genel 9 euro, indirimli 6 euro",
+   "value": "9; 6",
+   "unit": "EUR",
+   "period": "yürürlükte",
+   "source_id": "zaragoza:kaynak:357",
+   "quote": "Abono 5 museos: los 5 museos municipales (3) 9 euros 6 euros ---"
+  },
+  {
+   "claim_id": "C-belediye-muzeleri-tam-bilet-ve-abonolar-5",
+   "field": "cost",
+   "claim": "Paseo guiado romano indirimli 3 euro",
+   "value": "3",
+   "unit": "EUR",
+   "period": "yürürlükte",
+   "source_id": "zaragoza:kaynak:357",
+   "quote": "Paseo guiado (4) --- 3 euros ---"
+  },
+  {
+   "claim_id": "C-belediye-muzeleri-tam-bilet-ve-abonolar-6",
+   "field": "note",
+   "claim": "Abono 5 museos grup ziyaretlerinde geçmez",
+   "value": "",
+   "unit": "",
+   "period": "yürürlükte",
+   "source_id": "zaragoza:kaynak:357",
+   "quote": "Esta tarifa no se aplicará a las visitas de grupo."
+  },
+  {
+   "claim_id": "C-belediye-muzeleri-tam-bilet-ve-abonolar-7",
+   "field": "note",
+   "claim": "İndirim için geçerli belge sunulur",
+   "value": "",
+   "unit": "",
+   "period": "yürürlükte",
+   "source_id": "zaragoza:kaynak:357",
+   "quote": "TARIFA REDUCIDA: Para la aplicación del descuento se presentará el oportuno documento acreditativo en vigor"
+  },
+  {
+   "claim_id": "C-belediye-muzeleri-tam-bilet-ve-abonolar-8",
+   "field": "note",
+   "claim": "Pablo Gargallo müzesi tesis ve erişilebilirlik iyileştirme çalışmaları nedeniyle geçici olarak kapalıdır",
+   "value": "",
+   "unit": "",
+   "period": "yürürlükte",
+   "source_id": "zaragoza:kaynak:356",
+   "quote": "Debido al desarrollo de las obras de mejora en las instalaciones y accesibilidad, el Museo Pablo Gargallo permanecerá temporalmente cerrado"
+  },
+  {
+   "claim_id": "C-belediye-muzeleri-tam-bilet-ve-abonolar-9",
+   "field": "note",
+   "claim": "Pablo Gargallo müzesi telefonu 976 724922'dir",
+   "value": "976 724922",
+   "unit": "",
+   "period": "yürürlükte",
+   "source_id": "zaragoza:kaynak:356",
+   "quote": "976 724922"
+  },
+  {
+   "claim_id": "C-belediye-muzeleri-tam-bilet-ve-abonolar-10",
+   "field": "note",
+   "claim": "Pablo Gargallo müzesi adresi Pza. de San Felipe 3'tür",
+   "value": "Pza. de San Felipe, 3",
+   "unit": "",
+   "period": "yürürlükte",
+   "source_id": "zaragoza:kaynak:356",
+   "quote": "Pza. de San Felipe, 3"
+  }
+ ],
+ "adimlar": [],
+ "butonlar": [
+  {
+   "action_id": "zaragoza:action:belediye-muzeleri-tam-bilet-ve-abonolar-1",
+   "label": "Tarifeyi gör",
+   "url": "https://www.zaragoza.es/sede/portal/museos/foro/visita/entradas"
+  },
+  {
+   "action_id": "zaragoza:action:belediye-muzeleri-tam-bilet-ve-abonolar-2",
+   "label": "Bilgi al",
+   "url": "https://www.zaragoza.es/sede/portal/museos/pablo-gargallo/"
+  }
+ ]
+}
+
+===== KART 2/2: zaragoza:zaragoza-turizm-ofisleri-adres-ve-saatler =====
+{
+ "entry_id": "zaragoza:zaragoza-turizm-ofisleri-adres-ve-saatler",
+ "city_id": "zaragoza",
+ "slug": "zaragoza-turizm-ofisleri-adres-ve-saatler",
+ "title": "Zaragoza'da turizm ofisleri nerede, saat kaçta açık?",
+ "subtitle": "Plaza del Pilar, Torreón de la Zuda ve Estación Delicias; telefon 976 201 200",
+ "summary": "Zaragoza Turizm'in şehirdeki üç ofisi: Plaza del Pilar (C/ Santiago 22) her gün 10:00-20:00; Torreón de la Zuda (Glorieta de Pío XII, Avda. César Augusto) pazartesi-cumartesi 10:00-14:00 ve 16:30-20:00, pazar 10:00-14:00; Estación Zaragoza-Delicias (C/ Rioja 33) her gün 10:00-20:00. Turistik otobüs paketleri ve Zaragoza Family bonu gibi biletler bu ofislerden alınır. Turist danışma hattı 976 201 200, WhatsApp 606 655 107'dir; hizmet İspanyolca, İngilizce, Fransızca, Almanca ve İtalyanca verilir.",
+ "keywords": "turizm ofisi, oficina de turismo, Plaza del Pilar, Torreón de la Zuda, Estación Delicias, Zaragoza Turismo, bilgi hattı",
+ "stages": "planning;new",
+ "source_ids": "zaragoza:kaynak:355",
+ "reviewed_on": "2026-11-02",
+ "order": 1218,
+ "featured": "Hayır",
+ "editorial_status": "Taslak",
+ "topic_id": "zaragoza:kesif",
+ "steps": "Merkezdeyken Plaza del Pilar'daki ofise (C/ Santiago 22) git; her gün 10:00-20:00 açıktır.\nEski kentin yanındaki Torreón de la Zuda ofisine pazartesi-cumartesi 10:00-14:00 ve 16:30-20:00, pazar 10:00-14:00 arasında git.\nTrenle ya da otobüsle geliyorsan Estación Delicias'taki ofise (C/ Rioja 33) uğra; her gün 10:00-20:00 açıktır.\nUzaktan sormak için 976 201 200'ü ara ya da 606 655 107 numarasına WhatsApp'tan yaz.",
+ "documents": "",
+ "timing": "Plaza del Pilar ve Estación Delicias her gün 10:00-20:00; Torreón de la Zuda pazartesi-cumartesi 10:00-14:00 ve 16:30-20:00, pazar 10:00-14:00",
+ "cost": "",
+ "note": "Ofisler 24 ve 31 Aralık öğleden sonraları, 25 Aralık ve 1 Ocak günleri kapalıdır.",
+ "visual_json": "",
+ "_sekme": "Yanıtlar",
+ "kaynaklar": [
+  {
+   "source_id": "zaragoza:kaynak:355",
+   "url": "https://www.zaragoza.es/sede/portal/turismo/es-util/oficinas-de-turismo",
+   "publisher": "Ayuntamiento de Zaragoza",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif-editor1/7a03e0527660f8e8729f8728d4a5ebf4feacbb21ef91c82e75b9c39f967d89fa.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-zaragoza-turizm-ofisleri-adres-ve-saatler-1",
+   "field": "summary",
+   "claim": "Plaza del Pilar turizm ofisi C/ Santiago 22'dedir, her gün 10:00-20:00 açıktır",
+   "value": "10:00-20:00",
+   "unit": "saat",
+   "period": "yürürlükte",
+   "source_id": "zaragoza:kaynak:355",
+   "quote": "Oficina de turismo Plaza del Pilar C/ Santiago 22 - Plaza del Pilar Diario de 10 h a 20 h."
+  },
+  {
+   "claim_id": "C-zaragoza-turizm-ofisleri-adres-ve-saatler-2",
+   "field": "summary",
+   "claim": "Torreón de la Zuda turizm ofisi Glorieta de Pío XII'dedir; pazartesi-cumartesi 10:00-14:00 ve 16:30-20:00, pazar 10:00-14:00 açıktır",
+   "value": "10-14; 16:30-20",
+   "unit": "saat",
+   "period": "yürürlükte",
+   "source_id": "zaragoza:kaynak:355",
+   "quote": "Glorieta de Pío XII, s/n / Avda. César Augusto Lunes a sábados de 10 h a 14 h y de 16:30 h a 20 h. Domingos de 10 h a 14h."
+  },
+  {
+   "claim_id": "C-zaragoza-turizm-ofisleri-adres-ve-saatler-3",
+   "field": "summary",
+   "claim": "Estación Delicias turizm ofisi C/ Rioja 33'tedir, her gün 10:00-20:00 açıktır",
+   "value": "10:00-20:00",
+   "unit": "saat",
+   "period": "yürürlükte",
+   "source_id": "zaragoza:kaynak:355",
+   "quote": "Estación Intermodal Zaragoza Delicias. C/ Rioja, 33. De lunes a domingo, de 10 h a 20 h."
+  },
+  {
+   "claim_id": "C-zaragoza-turizm-ofisleri-adres-ve-saatler-4",
+   "field": "summary",
+   "claim": "Ofisler 24 ve 31 Aralık öğleden sonraları, 25 Aralık ve 1 Ocak günleri kapalıdır",
+   "value": "",
+   "unit": "",
+   "period": "yürürlükte",
+   "source_id": "zaragoza:kaynak:355",
+   "quote": "Las oficinas permanecerán cerradas las tardes del 24 y 31 de diciembre y los días 25 de diciembre y 1 enero."
+  },
+  {
+   "claim_id": "C-zaragoza-turizm-ofisleri-adres-ve-saatler-5",
+   "field": "summary",
+   "claim": "Turist danışma hattı 976 201 200'dür",
+   "value": "976 201 200",
+   "unit": "",
+   "period": "yürürlükte",
+   "source_id": "zaragoza:kaynak:355",
+   "quote": "Teléfono de atención turística 976 201 200"
+  },
+  {
+   "claim_id": "C-zaragoza-turizm-ofisleri-adres-ve-saatler-6",
+   "field": "summary",
+   "claim": "Turist danışma WhatsApp numarası 606 655 107'dir",
+   "value": "606 655 107",
+   "unit": "",
+   "period": "yürürlükte",
+   "source_id": "zaragoza:kaynak:355",
+   "quote": "Atención turística por Whatsapp 606 655 107"
+  },
+  {
+   "claim_id": "C-zaragoza-turizm-ofisleri-adres-ve-saatler-7",
+   "field": "summary",
+   "claim": "Turist danışma İspanyolca, İngilizce, Fransızca, Almanca ve İtalyanca verilir",
+   "value": "5 dil",
+   "unit": "",
+   "period": "yürürlükte",
+   "source_id": "zaragoza:kaynak:355",
+   "quote": "Atención Turística en cinco idiomas: español, inglés, francés, alemán e italiano en horario de 10 h a 20 h."
+  }
+ ],
+ "adimlar": [],
+ "butonlar": [
+  {
+   "action_id": "zaragoza:action:zaragoza-turizm-ofisleri-adres-ve-saatler-1",
+   "label": "Bilgi al",
+   "url": "https://www.zaragoza.es/sede/portal/turismo/es-util/oficinas-de-turismo"
+  }
+ ]
+}

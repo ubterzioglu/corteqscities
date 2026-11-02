@@ -1,0 +1,1898 @@
+===== KART 1/10: zaragoza:su-aboneligi-kullanilmis-daire-alta =====
+{
+ "entry_id": "zaragoza:su-aboneligi-kullanilmis-daire-alta",
+ "city_id": "zaragoza",
+ "slug": "su-aboneligi-kullanilmis-daire-alta",
+ "title": "Zaragoza'da daha önce kullanılmış bir daire veya dükkânda su aboneliği (alta) nasıl açtırılır?",
+ "subtitle": "Oficina Municipal del Agua: telefon, ofis, belgeler ve sayaç randevusu",
+ "summary": "Önceki kullanıcısı olan ama şu an aboneliği kapalı (baja) bir dairede suyu, Zaragoza Belediyesi'nin Oficina Municipal del Agua (Belediye Su Ofisi) birimine alta (abonelik açma) başvurusu yaparak açtırırsın. Sayaca müdahale, başvurudan sonraki iki iş günü içinde yapılır. Sayaca ulaşmak için eve girmek gerekiyorsa başvuru sırasında gün ve saat kararlaştırılır; bekleme süresi en çok 2 saattir ve kapıyı senin açman gerekir. Su hâlâ önceki kişi adına açıksa bu kart değil, abone devri (cambio de titular) kartı geçerlidir.",
+ "keywords": "su aboneliği, alta, Oficina Municipal del Agua, contador, Zaragoza su, póliza de agua",
+ "stages": "new",
+ "source_ids": "zaragoza:kaynak:153;zaragoza:kaynak:156",
+ "reviewed_on": "2026-11-02",
+ "order": 500,
+ "featured": "Evet",
+ "editorial_status": "Taslak",
+ "topic_id": "zaragoza:fatura",
+ "steps": "Ev sahibiysen tapu (escritura) ya da noter belgesini, kiracıysan kira sözleşmesini veya ev sahibinin yazılı iznini (autorización escrita) hazırla.\nSu ofisini 976 200 800 numarasından ara (pazartesi–cuma 08.00–16.30) ya da Avda. Ranillas 3 A'daki ofise git; faturayı otomatik ödemeye bağlamayacaksan ofise gitmen gerekir.\nAbone adı soyadı ve NIF'i, açılacak adresin tam adresi, suyun kullanım amacı, fatura gönderim şekli (e-posta ya da posta), telefonun ve tebligat adresini bildir; otomatik ödeme istersen IBAN'ı da ver.\nSayaç evin içindeyse başvuru sırasında randevu günü ve saatini belirle ve o saatte evde ol.",
+ "documents": "Mülk sahibi için: tapu (escritura) ya da işlemi sürüyorsa noter belgesi\nKiracı için: kira sözleşmesi ya da ev sahibinin yazılı izni\nAbonenin NIF'i, açılacak adresin tam adresi ve IBAN (otomatik ödeme için)",
+ "timing": "Sayaca müdahale başvurudan sonraki 2 iş günü içinde yapılır; evde bekleme süresi en çok 2 saattir",
+ "cost": "Abonelik (contratación) ücreti alınır ve ilk faturayla tahsil edilir",
+ "note": "Ofiste yüz yüze başvuru, ödemeyi otomatik ödemeye bağlamak istemeyenler için zorunludur; ötekilere telefonla başvuru önerilir. Ofiste randevulu hizmet salı ve perşembe 10.00–13.00 saatleri arasındadır. Başvuru için aguaszaragoza@aquara.es adresi ve 689 225116 numaralı WhatsApp hattı da var.",
+ "visual_json": "",
+ "_sekme": "Yanıtlar",
+ "kaynaklar": [
+  {
+   "source_id": "zaragoza:kaynak:153",
+   "url": "https://www.zaragoza.es/sede/servicio/tramite/2",
+   "publisher": "Ayuntamiento de Zaragoza",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_fatura/bf543ccce8aa92d8e1b47e64024849432ed86d600556cfd9c80154c51a8dce43.txt"
+  },
+  {
+   "source_id": "zaragoza:kaynak:156",
+   "url": "https://www.zaragoza.es/sede/portal/medioambiente/agua/tramites/",
+   "publisher": "Ayuntamiento de Zaragoza",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_fatura/f608b37fafc791b2991e401fc241f74d35efc272ec961ff2624bcd32f08eb54f.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-su-aboneligi-kullanilmis-daire-alta-1",
+   "field": "summary",
+   "claim": "Sayaca müdahale alta başvurusundan sonraki iki iş günü içinde yapılır",
+   "value": "2",
+   "unit": "iş günü",
+   "period": "güncel sayfa",
+   "source_id": "zaragoza:kaynak:153",
+   "quote": "La intervención sobre el contador de agua para permitir el consumo se realiza en los dos días laborables siguientes a la solicitud de alta."
+  },
+  {
+   "claim_id": "C-su-aboneligi-kullanilmis-daire-alta-2",
+   "field": "summary",
+   "claim": "Eve girmek gerekiyorsa başvuruda gün ve saat kararlaştırılır, azami bekleme 2 saattir",
+   "value": "2",
+   "unit": "saat",
+   "period": "güncel sayfa",
+   "source_id": "zaragoza:kaynak:153",
+   "quote": "El plazo de espera máximo es de 2 horas."
+  },
+  {
+   "claim_id": "C-su-aboneligi-kullanilmis-daire-alta-3",
+   "field": "steps",
+   "claim": "Ofis adresi",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:153",
+   "quote": "Zentro Empresarial. Avda. Ranillas, 3 A, oficina 0A (Recinto Expo) 50018"
+  },
+  {
+   "claim_id": "C-su-aboneligi-kullanilmis-daire-alta-4",
+   "field": "steps",
+   "claim": "Telefon ve WhatsApp numaraları",
+   "value": "976 200 800",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:153",
+   "quote": "976 200 800 (atención al cliente) - 900 810 064 (lectura contador) - Whatsapp: 689 225116"
+  },
+  {
+   "claim_id": "C-su-aboneligi-kullanilmis-daire-alta-5",
+   "field": "steps",
+   "claim": "Telefonla ve contratación hizmeti pazartesi–cuma 8–16:30",
+   "value": "8-16:30",
+   "unit": "saat",
+   "period": "güncel sayfa",
+   "source_id": "zaragoza:kaynak:153",
+   "quote": "Lunes a viernes: atención teléfonica y contratación: de 8 a 16:30h."
+  },
+  {
+   "claim_id": "C-su-aboneligi-kullanilmis-daire-alta-6",
+   "field": "note",
+   "claim": "Ofiste salı ve perşembe 10–13 arası randevulu hizmet",
+   "value": "10-13",
+   "unit": "saat",
+   "period": "güncel sayfa",
+   "source_id": "zaragoza:kaynak:153",
+   "quote": "Martes y jueves de 10 a 13h. Cita Previa"
+  },
+  {
+   "claim_id": "C-su-aboneligi-kullanilmis-daire-alta-7",
+   "field": "note",
+   "claim": "Otomatik ödeme istemeyenlerin yüz yüze başvurması zorunludur, ötekilere telefon önerilir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:153",
+   "quote": "La modalidad \"presencial\" es obligatoria para aquellos clientes que no quieren domiciliar el pago de los recibos."
+  },
+  {
+   "claim_id": "C-su-aboneligi-kullanilmis-daire-alta-8",
+   "field": "documents",
+   "claim": "Mülk sahibi tapu ya da noter belgesi sunar",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:153",
+   "quote": "Si el titular es propietario: Escritura propiedad o justificante del Notario si se encuentra en tramitación."
+  },
+  {
+   "claim_id": "C-su-aboneligi-kullanilmis-daire-alta-9",
+   "field": "documents",
+   "claim": "Kiracı kira sözleşmesi ya da ev sahibinin yazılı iznini sunar",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:153",
+   "quote": "Si el titular es inquilino: contrato de alquiler o autorización escrita del propietario."
+  },
+  {
+   "claim_id": "C-su-aboneligi-kullanilmis-daire-alta-10",
+   "field": "documents",
+   "claim": "Otomatik ödeme için IBAN gerekir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:153",
+   "quote": "El código IBAN, si se van a domiciliar los recibos."
+  },
+  {
+   "claim_id": "C-su-aboneligi-kullanilmis-daire-alta-11",
+   "field": "cost",
+   "claim": "Contratación ücreti ilk faturada tahsil edilir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:153",
+   "quote": "lleva consigo la exigencia de la tasa de \"contratación\". Se hará efectiva mediante cargo en la primera facturación que se efectúe."
+  },
+  {
+   "claim_id": "C-su-aboneligi-kullanilmis-daire-alta-12",
+   "field": "note",
+   "claim": "E-posta adresi",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:153",
+   "quote": "aguaszaragoza@aquara.es"
+  }
+ ],
+ "adimlar": [],
+ "butonlar": [
+  {
+   "action_id": "zaragoza:action:su-aboneligi-kullanilmis-daire-alta-1",
+   "label": "Başvur",
+   "url": "https://www.zaragoza.es/sede/servicio/tramite/2"
+  },
+  {
+   "action_id": "zaragoza:action:su-aboneligi-kullanilmis-daire-alta-2",
+   "label": "Bilgi al",
+   "url": "https://www.zaragoza.es/sede/portal/medioambiente/agua/tramites/"
+  }
+ ]
+}
+
+===== KART 2/10: zaragoza:su-abone-devri-cambio-de-titular =====
+{
+ "entry_id": "zaragoza:su-abone-devri-cambio-de-titular",
+ "city_id": "zaragoza",
+ "slug": "su-abone-devri-cambio-de-titular",
+ "title": "Zaragoza'da evdeki suyu önceki kullanıcıdan kendi adıma nasıl geçiririm (cambio de titular)?",
+ "subtitle": "Sayaç okumasını kendin verirsen devir hemen yapılır ve ücret düşer",
+ "summary": "Evde su açıksa ve önceki kullanıcı adına kayıtlıysa yeni abonelik açmazsın; cambio de titular (abone devri) başvurusu yaparsın. Sayaç okumasını kendin verirsen devir hemen yapılır ve indirimli tarife uygulanır. Okuma vermezsen devir, teknik servis sayaca ulaşana kadar geçerli olmaz. Başvuruyu internetten (sertifikasız da başlatılabilir), telefonla ya da ofiste yaparsın.",
+ "keywords": "cambio de titular, abone devri, su sayacı, kiracı, Oficina Municipal del Agua, lectura contador",
+ "stages": "new",
+ "source_ids": "zaragoza:kaynak:154;zaragoza:kaynak:153",
+ "reviewed_on": "2026-11-02",
+ "order": 501,
+ "featured": "Hayır",
+ "editorial_status": "Taslak",
+ "topic_id": "zaragoza:fatura",
+ "steps": "Eve girer girmez sayaç okumasını yaz ve tarihini not et; tarih, önceki abonenin son faturalanan döneminden sonra ve başvuru gününden önce olmalı.\nKira sözleşmeni ya da tapunu, NIF'ini, adresi, suyun kullanım amacını ve gerekiyorsa IBAN'ını hazırla.\n'Iniciar trámite sin certificado' seçeneğiyle internetten başvur ya da 976 200 800 numarasını ara; ofise de gidebilirsin.\nSayaç evin içindeyse başvuruda randevu saati belirle ve evde ol; sayaç 10 yıl veya daha eskiyse belediye sayacı değiştirir.",
+ "documents": "Mülk sahibi için tapu (escritura) ya da noter belgesi; kiracı için kira sözleşmesi veya ev sahibinin yazılı izni\nSayaç okuması ve okumanın alındığı tarih\nBaşvuranın NIF'i, adres, IBAN (otomatik ödeme için)\nTesisat değiştirildiyse ya da sayaç çapı büyütüldüyse yetkili tesisatçı firmanın kurulum sertifikası",
+ "timing": "Okuma verilirse devir hemen yapılır; okuma yoksa teknik servis sayaca ulaşınca; sayaçlar bir arada duruyorsa başvurudan sonraki 2 gün içinde",
+ "cost": "Abonelik (contratación) ücreti ilk faturada tahsil edilir; okumayı kendin verirsen indirimli tarife uygulanır",
+ "note": "Önceki abone adına fatura gelmeye devam etmesin diye devri geciktirme: devir yapılana kadar faturalar eski abonenin adına çıkar. Kiracıysan tapu yerine kira sözleşmesi ya da ev sahibinin yazılı izni yeterli.",
+ "visual_json": "",
+ "_sekme": "Yanıtlar",
+ "kaynaklar": [
+  {
+   "source_id": "zaragoza:kaynak:154",
+   "url": "https://www.zaragoza.es/sede/servicio/tramite/3",
+   "publisher": "Ayuntamiento de Zaragoza",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_fatura/f26125c7344debc019efad6049a99b408b430d6954b2c4a9625cf2c1701f942e.txt"
+  },
+  {
+   "source_id": "zaragoza:kaynak:153",
+   "url": "https://www.zaragoza.es/sede/servicio/tramite/2",
+   "publisher": "Ayuntamiento de Zaragoza",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_fatura/bf543ccce8aa92d8e1b47e64024849432ed86d600556cfd9c80154c51a8dce43.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-su-abone-devri-cambio-de-titular-1",
+   "field": "summary",
+   "claim": "Okuma verilirse devir hemen yapılır, işlem ücreti daha düşüktür",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:154",
+   "quote": "a) Si se facilita la lectura del contador, el cambio es inmediato y la tasa a abonar por la gestión menor"
+  },
+  {
+   "claim_id": "C-su-abone-devri-cambio-de-titular-2",
+   "field": "summary",
+   "claim": "Okuma verilmezse devir teknik servis sayaca ulaşana kadar geçerli olmaz",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:154",
+   "quote": "b) Si no se facilita la lectura del contador, el cambio de titular no será efectivo hasta que el servicio técnico acceda al contador de agua."
+  },
+  {
+   "claim_id": "C-su-abone-devri-cambio-de-titular-3",
+   "field": "summary",
+   "claim": "Okumayı başvuran verirse indirimli tarife uygulanır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:154",
+   "quote": "Si la lectura de cambio es facilitada por el solicitante, se aplica la tarifa reducida."
+  },
+  {
+   "claim_id": "C-su-abone-devri-cambio-de-titular-4",
+   "field": "steps",
+   "claim": "Okuma ve tarihi önceki aboneye ait son faturalanan dönem ile başvuru günü arasında olmalı",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:154",
+   "quote": "Deberá corresponder a una fecha entre el último periodo facturado en la póliza anterior y la fecha de realización del trámite."
+  },
+  {
+   "claim_id": "C-su-abone-devri-cambio-de-titular-5",
+   "field": "steps",
+   "claim": "Sertifikasız internet başvurusu seçeneği",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:154",
+   "quote": "Iniciar trámite sin certificado"
+  },
+  {
+   "claim_id": "C-su-abone-devri-cambio-de-titular-6",
+   "field": "steps",
+   "claim": "Telefon ve saat",
+   "value": "976 200 800",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:154",
+   "quote": "976 200 800 - Lunes a viernes: de 08 a 16,30 h."
+  },
+  {
+   "claim_id": "C-su-abone-devri-cambio-de-titular-7",
+   "field": "steps",
+   "claim": "Sayaç 10 yıl veya daha eskiyse değiştirilir",
+   "value": "10",
+   "unit": "yıl",
+   "period": "güncel sayfa",
+   "source_id": "zaragoza:kaynak:154",
+   "quote": "Si el contador instalado tiene 10 o más años, se procederá a su sustitución."
+  },
+  {
+   "claim_id": "C-su-abone-devri-cambio-de-titular-8",
+   "field": "timing",
+   "claim": "Sayaçlar bir arada duruyorsa erişim başvurudan sonraki iki gün içinde olur",
+   "value": "2",
+   "unit": "gün",
+   "period": "güncel sayfa",
+   "source_id": "zaragoza:kaynak:154",
+   "quote": "Cuando el contado está en batería, el acceso se produce en los dos días siguientes a la solicitud de cambio de titular."
+  },
+  {
+   "claim_id": "C-su-abone-devri-cambio-de-titular-9",
+   "field": "steps",
+   "claim": "Eve girilecekse bekleme azami 2 saat",
+   "value": "2",
+   "unit": "saat",
+   "period": "güncel sayfa",
+   "source_id": "zaragoza:kaynak:154",
+   "quote": "El plazo de espera máximo es de 2 horas."
+  },
+  {
+   "claim_id": "C-su-abone-devri-cambio-de-titular-10",
+   "field": "documents",
+   "claim": "Tesisat değiştirildiyse kurulum sertifikası zorunlu",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:154",
+   "quote": "es imprescindible el Certificado de instalación emitido por empresa instaladora autorizada."
+  },
+  {
+   "claim_id": "C-su-abone-devri-cambio-de-titular-11",
+   "field": "documents",
+   "claim": "Kiracı için kira sözleşmesi veya ev sahibinin yazılı izni",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:154",
+   "quote": "Si el titular es inquilino: contrato de alquiler o autorización escrita del propietario."
+  },
+  {
+   "claim_id": "C-su-abone-devri-cambio-de-titular-12",
+   "field": "cost",
+   "claim": "Devir de contratación ücreti ilk faturaya yansır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:154",
+   "quote": "El cambio de titular lleva consigo la exigencia de la tasa de \"contratación\". Se hará efectiva mediante cargo en la primera facturación que se efectúe."
+  },
+  {
+   "claim_id": "C-su-abone-devri-cambio-de-titular-13",
+   "field": "note",
+   "claim": "Devir yapılmazsa faturalar eski abone adına gelmeye devam eder",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:154",
+   "quote": "cuando se dispone de agua a nombre de un usuario anterior y no se ha modificado el calibre de la instalación."
+  }
+ ],
+ "adimlar": [],
+ "butonlar": [
+  {
+   "action_id": "zaragoza:action:su-abone-devri-cambio-de-titular-1",
+   "label": "Başvur",
+   "url": "https://www.zaragoza.es/sede/servicio/tramite/3"
+  },
+  {
+   "action_id": "zaragoza:action:su-abone-devri-cambio-de-titular-2",
+   "label": "Bilgi al",
+   "url": "https://www.zaragoza.es/sede/servicio/tramite/2"
+  }
+ ]
+}
+
+===== KART 3/10: zaragoza:su-aboneligi-kapatma-baja-son-fatura =====
+{
+ "entry_id": "zaragoza:su-aboneligi-kapatma-baja-son-fatura",
+ "city_id": "zaragoza",
+ "slug": "su-aboneligi-kapatma-baja-son-fatura",
+ "title": "Zaragoza'da evden çıkarken su aboneliği (baja) nasıl kapatılır ve son fatura ne zaman çekilir?",
+ "subtitle": "Sayaç mühürlenmezse faturalar sana gelmeye devam eder; son fatura 3–4 ay sonra",
+ "summary": "Evden çıkarken su aboneliğini kapatmak için belediyeye baja (abonelik kapatma) başvurusu yaparsın; abonelik ancak sayaç mühürlendikten (precinto) sonra sona erer. Mühürleme, başvurudan sonraki iki iş günü içinde yapılır. Sayaç mühürlenemezse faturalar abonelik sahibine gelmeye devam eder. Yeni bir kullanıcı geliyorsa baja yerine abone devri (cambio de titular) istenebilir.",
+ "keywords": "su aboneliği kapatma, baja, precinto contador, son fatura, depósito fianza, Zaragoza",
+ "stages": "settled",
+ "source_ids": "zaragoza:kaynak:155;zaragoza:kaynak:153",
+ "reviewed_on": "2026-11-02",
+ "order": 502,
+ "featured": "Hayır",
+ "editorial_status": "Taslak",
+ "topic_id": "zaragoza:fatura",
+ "steps": "Taşınma tarihinden üç dört gün önce baja başvurusu yap; sayaç evin içindeyse belediye ekibiyle randevu al ve sayaca ulaşımı kendin sağla.\nBaşvuruyu internetten ('Iniciar trámite sin certificado'), 976 200 800 numaralı telefondan ya da su ofisinde yap; adresi, abone adı ve NIF'ini, yeni tebligat adresini ve telefonunu bildir.\nSayacın iki iş günü içinde mühürlendiğinden emin ol; gerekirse su ofisini arayıp teyit et.\nFaturaları otomatik ödemeye bağladıysan banka hesabını son fatura çekilene kadar kapatma.\n1 Ocak 2011'den önce açılan abonelikte alta sırasında yatırdığın teminat (fianza) veya bağlantı hakkını geri istemek için baja tamamlandıktan sonra iade başvurusu yap.",
+ "documents": "Kapatılacak adresin tam adresi\nAbone adı soyadı ve NIF'i; başvuran farklıysa başvuranın NIF'i\nYeni tebligat adresi (yeni vergi ikametgâhı) ve iletişim telefonu\nAbonelik numarası (póliza); bir fatura ya da banka dekontu yeterli",
+ "timing": "Sayaç mühürleme başvurudan sonraki 2 iş günü içinde; otomatik ödemede son fatura mühürlemeden yaklaşık 3–4 ay sonra çekilir",
+ "cost": "",
+ "note": "Sayaç mühürlenmezse faturalar abonelik sahibine gelmeye devam eder. Otomatik ödemeyi son fatura çekilmeden kapatırsan fatura ödenmemiş kalır ve ek ücret ve gecikme faizi ile tahsil edilir. 'Tanto alzado' (sabit paket) veya yalnız kanalizasyon (saneamiento) abonelikleri için ayrı işlemler var. Eski adresten fatura gelmeye devam ediyorsa itiraz (reclamación) yolu vardır.",
+ "visual_json": "",
+ "_sekme": "Yanıtlar",
+ "kaynaklar": [
+  {
+   "source_id": "zaragoza:kaynak:155",
+   "url": "https://www.zaragoza.es/sede/servicio/tramite/40",
+   "publisher": "Ayuntamiento de Zaragoza",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_fatura/58eb845a997b92832cb430f1ccc3b9d7abdd5e41d5172d6e2fead8d17962e05d.txt"
+  },
+  {
+   "source_id": "zaragoza:kaynak:153",
+   "url": "https://www.zaragoza.es/sede/servicio/tramite/2",
+   "publisher": "Ayuntamiento de Zaragoza",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_fatura/bf543ccce8aa92d8e1b47e64024849432ed86d600556cfd9c80154c51a8dce43.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-su-aboneligi-kapatma-baja-son-fatura-1",
+   "field": "summary",
+   "claim": "Baja ancak sayaç mühürlenince geçerli olur; mühürleme başvurudan sonraki iki iş günü içinde",
+   "value": "2",
+   "unit": "iş günü",
+   "period": "güncel sayfa",
+   "source_id": "zaragoza:kaynak:155",
+   "quote": "es imprescindible el precinto del contador en los dos días siguientes hábiles a la solicitud de baja"
+  },
+  {
+   "claim_id": "C-su-aboneligi-kapatma-baja-son-fatura-2",
+   "field": "summary",
+   "claim": "Sayaç mühürlenemezse faturalar abonelik sahibine gelmeye devam eder",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:155",
+   "quote": "si no se puede precintar el contador, seguirán emitiéndose recibos y exigiéndose el pago al titular de la póliza."
+  },
+  {
+   "claim_id": "C-su-aboneligi-kapatma-baja-son-fatura-3",
+   "field": "steps",
+   "claim": "Başvuruyu taşınmadan 3–4 gün önce yapmak önerilir",
+   "value": "3-4",
+   "unit": "gün",
+   "period": "güncel sayfa",
+   "source_id": "zaragoza:kaynak:155",
+   "quote": "Le aconsejamos que solicite la baja tres o cuatro días antes de la fecha prevista para el desalojo de la vivienda."
+  },
+  {
+   "claim_id": "C-su-aboneligi-kapatma-baja-son-fatura-4",
+   "field": "steps",
+   "claim": "Telefon ve saat",
+   "value": "976 200 800",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:155",
+   "quote": "976 200 800 - Lunes a viernes: de 08 a 16,30 h."
+  },
+  {
+   "claim_id": "C-su-aboneligi-kapatma-baja-son-fatura-5",
+   "field": "steps",
+   "claim": "Sertifikasız internet başvurusu",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:155",
+   "quote": "Iniciar trámite sin certificado"
+  },
+  {
+   "claim_id": "C-su-aboneligi-kapatma-baja-son-fatura-6",
+   "field": "steps",
+   "claim": "Banka hesabını son fatura çekilene kadar kapatma",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:155",
+   "quote": "no anule la cuenta de domiciliación hasta que se le haya cargado el último recibo"
+  },
+  {
+   "claim_id": "C-su-aboneligi-kapatma-baja-son-fatura-7",
+   "field": "timing",
+   "claim": "Son fatura mühürlemeden yaklaşık dört ay sonra çekilir (işlem sayfası)",
+   "value": "4",
+   "unit": "ay",
+   "period": "güncel sayfa",
+   "source_id": "zaragoza:kaynak:155",
+   "quote": "que se cargará en su cuenta aproximadamente cuatro meses después de haberse precintado el contador"
+  },
+  {
+   "claim_id": "C-su-aboneligi-kapatma-baja-son-fatura-8",
+   "field": "timing",
+   "claim": "Son fatura yaklaşık üç ay sonra çekilir (tavsiye bölümü)",
+   "value": "3",
+   "unit": "ay",
+   "period": "güncel sayfa",
+   "source_id": "zaragoza:kaynak:155",
+   "quote": "el último recibo se lo cargaremos, aproximadamente, tres meses después de haberse completado la baja en el servicio."
+  },
+  {
+   "claim_id": "C-su-aboneligi-kapatma-baja-son-fatura-9",
+   "field": "steps",
+   "claim": "Teminat ve bağlantı hakkı iadesi 1.1.2011 öncesi abonelikler için",
+   "value": "2011-01-01",
+   "unit": "tarih",
+   "period": "",
+   "source_id": "zaragoza:kaynak:155",
+   "quote": "Devolución de la Fianza o los Derechos de Conexión de Acometida que hubieran sido depositados al solicitar el alta (para pólizas dadas de alta antes del 01/01/2011)."
+  },
+  {
+   "claim_id": "C-su-aboneligi-kapatma-baja-son-fatura-10",
+   "field": "documents",
+   "claim": "Abonelik numarası fatura ya da banka dekontundan alınabilir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:155",
+   "quote": "Nº de póliza (puede aportarse una factura o un recibo bancario)."
+  },
+  {
+   "claim_id": "C-su-aboneligi-kapatma-baja-son-fatura-11",
+   "field": "documents",
+   "claim": "Yeni tebligat adresi",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:155",
+   "quote": "Dirección para Notificaciones (nuevo domicilio fiscal)"
+  },
+  {
+   "claim_id": "C-su-aboneligi-kapatma-baja-son-fatura-12",
+   "field": "note",
+   "claim": "Tanto alzado ve yalnız saneamiento abonelikleri için ayrı işlem var",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:155",
+   "quote": "Este procedimiento de baja no es aplicable en los supuestos de fincas abastecidas en la modalidad de \"Tanto alzado\" o de \"Solo saneamiento\""
+  },
+  {
+   "claim_id": "C-su-aboneligi-kapatma-baja-son-fatura-13",
+   "field": "note",
+   "claim": "Otomatik ödemeyi erken kapatırsan son fatura ödenmez, tahsilat ek ücretle yapılır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:155",
+   "quote": "De no hacerlo así, corre el riesgo de que el último recibo no se pague y le sea reclamado en vía de apremio con recargo e intereses de demora."
+  },
+  {
+   "claim_id": "C-su-aboneligi-kapatma-baja-son-fatura-14",
+   "field": "steps",
+   "claim": "Gerekirse ofisi arayıp teyit et",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:155",
+   "quote": "le recomendamos que contacte con la Oficina Municipal del Agua para confirmar que la gestión se ha cumplido correctamente."
+  }
+ ],
+ "adimlar": [],
+ "butonlar": [
+  {
+   "action_id": "zaragoza:action:su-aboneligi-kapatma-baja-son-fatura-1",
+   "label": "Başvur",
+   "url": "https://www.zaragoza.es/sede/servicio/tramite/40"
+  },
+  {
+   "action_id": "zaragoza:action:su-aboneligi-kapatma-baja-son-fatura-2",
+   "label": "Bilgi al",
+   "url": "https://www.zaragoza.es/sede/servicio/tramite/2"
+  }
+ ]
+}
+
+===== KART 4/10: zaragoza:zaragoza-su-faturasi-yapisi-sabit-ucret-kademe =====
+{
+ "entry_id": "zaragoza:zaragoza-su-faturasi-yapisi-sabit-ucret-kademe",
+ "city_id": "zaragoza",
+ "slug": "zaragoza-su-faturasi-yapisi-sabit-ucret-kademe",
+ "title": "Zaragoza'da su faturası nasıl hesaplanır: sabit ücret, kademeli tüketim fiyatı ve fatura dönemi nedir?",
+ "subtitle": "Sayaç çapına göre günlük sabit ücret, üç tüketim kademesi, çöp ücretiyle tek fatura",
+ "summary": "Zaragoza'da su faturası iki parçadan oluşur: sayaç çapına göre günlük sabit ücret (cuota fija) ve tüketime bağlı, üç kademeli değişken ücret. Ev kullanımı tarifesinde (Tarifa nº 1) günlük 0,2 m³'e kadar olan tüketim 0,287, 0,2–0,616 m³ arası 0,688, 0,616 m³ üstü 1,720 euro fiyatla hesaplanır. Çapı 20 mm'ye kadar olan sayaç için sabit ücret günlük 0,093264 euro'dur. Fatura aylık ya da üç aylıktır ve çöp toplama ile işleme ücretiyle tek faturada gelir.",
+ "keywords": "su faturası, cuota fija, tarifa agua, Zaragoza, tramo de consumo, factura agua y basuras",
+ "stages": "new;settled",
+ "source_ids": "zaragoza:kaynak:162;zaragoza:kaynak:156",
+ "reviewed_on": "2026-11-02",
+ "order": 503,
+ "featured": "Hayır",
+ "editorial_status": "Taslak",
+ "topic_id": "zaragoza:fatura",
+ "steps": "Faturadaki sayaç çapını (calibre) bul; çap 20 mm'ye kadarsa sabit ücret günlük 0,093264 euro'dur.\nGünlük ortalama tüketimini hesapla: dönemdeki m³ değerini fatura döneminin gün sayısına böl.\nGünlük tüketimin ilk 0,2 m³'ü 0,287, 0,2–0,616 m³ arası kısmı 0,688, bu sınırı aşan kısmı 1,720 euro ile çarp (ev kullanımı).\nSayacı kendin okuyup bildirmek istersen 24 saat çalışan okuma telefonunu (976 398 611) ara.",
+ "documents": "",
+ "timing": "Fatura dönemi aylık ya da üç aylıktır; \"tanto alzado\" (sabit paket) abonelikleri her zaman üç aylık faturalanır",
+ "cost": "Ev kullanımında kademe fiyatları 0,287, 0,688 ve 1,720 euro; 20 mm'ye kadar sayaç için sabit ücret günlük 0,093264 euro",
+ "note": "Fatura tutarına tabloda yazılan fiyatların yanında ordenanzadaki katsayılar ve yasal vergiler de yansır. Şebekede arıza ya da sızıntı görürsen çalışma saatleri dışında arıza hattı 976 721 550'yi ara.",
+ "visual_json": "",
+ "_sekme": "Yanıtlar",
+ "kaynaklar": [
+  {
+   "source_id": "zaragoza:kaynak:162",
+   "url": "https://www.zaragoza.es/sede/servicio/normativa/3564",
+   "publisher": "Ayuntamiento de Zaragoza",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_fatura/89f648b88848058878dfaa7e3ea2c02f33c0524f4c04c965e1e1af90dd8332d6.txt"
+  },
+  {
+   "source_id": "zaragoza:kaynak:156",
+   "url": "https://www.zaragoza.es/sede/portal/medioambiente/agua/tramites/",
+   "publisher": "Ayuntamiento de Zaragoza",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_fatura/f608b37fafc791b2991e401fc241f74d35efc272ec961ff2624bcd32f08eb54f.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-zaragoza-su-faturasi-yapisi-sabit-ucret-kademe-1",
+   "field": "summary",
+   "claim": "Tarife sabit ve değişken iki parçadan oluşur",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:162",
+   "quote": "se componen de dos elementos distintos, una parte fija y una parte variable, en función del consumo."
+  },
+  {
+   "claim_id": "C-zaragoza-su-faturasi-yapisi-sabit-ucret-kademe-2",
+   "field": "summary",
+   "claim": "Sabit ücret sayaç çapına göre belirlenir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:162",
+   "quote": "La cuota fija consiste en una cantidad en función del calibre del contador"
+  },
+  {
+   "claim_id": "C-zaragoza-su-faturasi-yapisi-sabit-ucret-kademe-3",
+   "field": "summary",
+   "claim": "20 mm sayaç için sabit ücret günlük 0,093264 euro",
+   "value": "0,093264",
+   "unit": "EUR/gün",
+   "period": "güncel ordenanza",
+   "source_id": "zaragoza:kaynak:162",
+   "quote": "CALIBRES EUROS/DÍA Hasta 20 0,093264"
+  },
+  {
+   "claim_id": "C-zaragoza-su-faturasi-yapisi-sabit-ucret-kademe-4",
+   "field": "summary",
+   "claim": "Ev kullanımı tarifesi kademe fiyatları 0,287 / 0,688 / 1,720",
+   "value": "0,287; 0,688; 1,720",
+   "unit": "EUR",
+   "period": "güncel ordenanza",
+   "source_id": "zaragoza:kaynak:162",
+   "quote": "TARIFA Nº 1 USOS DOMÉSTICOS Y ASIMILADOS TRAMOS CONSUMO Euros De 0 a 0,2 m3/día 0,287 De 0,2 hasta 0,616 m3/día 0,688 Más de 0,616 m3/día 1,720"
+  },
+  {
+   "claim_id": "C-zaragoza-su-faturasi-yapisi-sabit-ucret-kademe-5",
+   "field": "summary",
+   "claim": "Fatura aylık ya da üç aylık",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:162",
+   "quote": "La periodicidad de facturación será trimestral o mensual"
+  },
+  {
+   "claim_id": "C-zaragoza-su-faturasi-yapisi-sabit-ucret-kademe-6",
+   "field": "summary",
+   "claim": "Su faturası çöp ücretleriyle tek recibo olarak gelir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:162",
+   "quote": "se realizará a través de recibo conjunto con las tasas o tarifas correspondientes a los servicios de recogida y tratamiento de residuos"
+  },
+  {
+   "claim_id": "C-zaragoza-su-faturasi-yapisi-sabit-ucret-kademe-7",
+   "field": "timing",
+   "claim": "Tanto alzado modalitesi her zaman üç aylık",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:162",
+   "quote": "Las pólizas de agua en la modalidad de \"tanto alzado\", se facturarán trimestralmente en todo caso."
+  },
+  {
+   "claim_id": "C-zaragoza-su-faturasi-yapisi-sabit-ucret-kademe-8",
+   "field": "note",
+   "claim": "Fatura tutarına yasal vergiler yansıtılır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:162",
+   "quote": "Sobre el importe de los servicios facturados se repercutirán los tributos y recargos legalmente establecidos a favor de otros entes públicos."
+  },
+  {
+   "claim_id": "C-zaragoza-su-faturasi-yapisi-sabit-ucret-kademe-9",
+   "field": "steps",
+   "claim": "Okuma bildirimi için 24 saat telefon",
+   "value": "976 398 611",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:156",
+   "quote": "Contestador de Lecturas 24 horas 976 398 611"
+  },
+  {
+   "claim_id": "C-zaragoza-su-faturasi-yapisi-sabit-ucret-kademe-10",
+   "field": "note",
+   "claim": "Arıza hattı",
+   "value": "976 721 550",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:156",
+   "quote": "Teléfono de AVERIAS en la Red Pública 976 721 550"
+  },
+  {
+   "claim_id": "C-zaragoza-su-faturasi-yapisi-sabit-ucret-kademe-11",
+   "field": "steps",
+   "claim": "Kademe sınırları: günlük 0,2 ve 0,616 m³",
+   "value": "0,2; 0,616",
+   "unit": "m³/gün",
+   "period": "",
+   "source_id": "zaragoza:kaynak:162",
+   "quote": "Más de 0,616 m3/día 1,720"
+  }
+ ],
+ "adimlar": [],
+ "butonlar": [
+  {
+   "action_id": "zaragoza:action:zaragoza-su-faturasi-yapisi-sabit-ucret-kademe-1",
+   "label": "Tarifeyi gör",
+   "url": "https://www.zaragoza.es/sede/servicio/normativa/3564"
+  },
+  {
+   "action_id": "zaragoza:action:zaragoza-su-faturasi-yapisi-sabit-ucret-kademe-2",
+   "label": "Bilgi al",
+   "url": "https://www.zaragoza.es/sede/portal/medioambiente/agua/tramites/"
+  }
+ ]
+}
+
+===== KART 5/10: zaragoza:zaragoza-cop-ucreti-toplama-isleme =====
+{
+ "entry_id": "zaragoza:zaragoza-cop-ucreti-toplama-isleme",
+ "city_id": "zaragoza",
+ "slug": "zaragoza-cop-ucreti-toplama-isleme",
+ "title": "Zaragoza'da çöp ücreti (tasa de basuras) nasıl işler ve evim için yılda ne kadar öderim?",
+ "subtitle": "Ayrı çöp aboneliği yok: toplama ve işleme ücreti su faturasıyla birlikte gelir",
+ "summary": "Zaragoza'da ev için ayrı bir çöp aboneliği açtırmazsın: çöp toplama ve çöp işleme ücretini su aboneliğinin sahibi (titular de la póliza) öder ve ücret su faturasıyla birlikte tahsil edilir. Su aboneliğini kapattığında çöp ücreti de genel olarak sona erer; ev hâlâ kullanımdaysa devam eder. Konutlar için toplama ücreti yılda 41,26 euro, işleme ücreti yılda 31,42 euro'dur; dönemlik su tüketimi günde 0,283 m³'ü aşıyorsa tutarlar 45,44 ve 34,56 euro olur. Belediye 2026'da bu tarifelerin ekini değiştirmeyi önerdi; ilk onay 29 Eylül 2026'da verildi ve halk incelemesi 17 Kasım 2026'da bitiyor.",
+ "keywords": "çöp ücreti, tasa de basuras, recogida de residuos, tratamiento de residuos, su faturası, Zaragoza",
+ "stages": "new;settled",
+ "source_ids": "zaragoza:kaynak:160;zaragoza:kaynak:161",
+ "reviewed_on": "2026-11-02",
+ "order": 504,
+ "featured": "Evet",
+ "editorial_status": "Taslak",
+ "topic_id": "zaragoza:fatura",
+ "steps": "Su aboneliğini aç ya da kendi adına geçir; çöp ücreti, abonelik açıldığı anda aynı başvuruyla birlikte başlar.\nFaturanda su, kanalizasyon ve çöp kalemlerinin tek recibo olarak geldiğini kontrol et.\nEvden çıkarken su aboneliğini kapat; abonelik kapanınca çöp ücreti de genel olarak sona erer.\nDüşük gelirliysen su ve çöp indirimi (bonificación) için belediyeye ayrıca başvuru yap.",
+ "documents": "",
+ "timing": "Çöp ücreti su ücretiyle aynı dönemde (aylık ya da üç aylık) faturalanır",
+ "cost": "Konut: toplama yılda 41,26 euro, işleme yılda 31,42 euro (dönemlik su tüketimi günde 0,283 m³ ve altı); tüketim bunun üstündeyse toplama 45,44, işleme 34,56 euro",
+ "note": "Tutarlar şu an yürürlükteki tarifeye aittir. Tarife eki için önerilen değişiklik yürürlüğe girerse yeni tutarlar ancak yayımlandıktan sonra 1 Ocak'tan itibaren uygulanır.",
+ "visual_json": "",
+ "_sekme": "Yanıtlar",
+ "kaynaklar": [
+  {
+   "source_id": "zaragoza:kaynak:160",
+   "url": "https://www.zaragoza.es/sede/servicio/normativa/3503",
+   "publisher": "Ayuntamiento de Zaragoza",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_fatura/10e6dd56bd488c28f36950911e315b7c3620b9d27d76960ed936df0db9bcde17.txt"
+  },
+  {
+   "source_id": "zaragoza:kaynak:161",
+   "url": "https://www.zaragoza.es/sede/servicio/normativa/3504",
+   "publisher": "Ayuntamiento de Zaragoza",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_fatura/c503b096b9ce0021d1484c1c2503aa451022a053123af41877c72d1e41f8cd16.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-zaragoza-cop-ucreti-toplama-isleme-1",
+   "field": "summary",
+   "claim": "Çöp toplama ücreti zorunlu hizmet için alınır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:160",
+   "quote": "la prestación del servicio de recogida obligatoria de los residuos domésticos y comerciales"
+  },
+  {
+   "claim_id": "C-zaragoza-cop-ucreti-toplama-isleme-2",
+   "field": "summary",
+   "claim": "Su fatura sahibi çöp ücretinin mükellefidir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:160",
+   "quote": "se considerará sujeto pasivo el titular de la póliza de agua"
+  },
+  {
+   "claim_id": "C-zaragoza-cop-ucreti-toplama-isleme-3",
+   "field": "summary",
+   "claim": "Su bajası genel olarak çöp ücretini de sona erdirir, ev kullanımdaysa devam eder",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:160",
+   "quote": "la confirmación de baja en estos servicios supondrá, con carácter general, la baja en el servicio de recogida de residuos"
+  },
+  {
+   "claim_id": "C-zaragoza-cop-ucreti-toplama-isleme-4",
+   "field": "summary",
+   "claim": "Konutlar için toplama ücreti 41,26 / 45,44 euro yıl",
+   "value": "41,26; 45,44",
+   "unit": "EUR/yıl",
+   "period": "yürürlükteki tarife",
+   "source_id": "zaragoza:kaynak:160",
+   "quote": "Epígrafe 1 Euros/año 1. Viviendas 1.1 Consumo de agua del periodo menor que o = 0,283 m3/día 41,26 1.2 Consumo de agua del periodo mayor que 0,283 m3/día 45,44"
+  },
+  {
+   "claim_id": "C-zaragoza-cop-ucreti-toplama-isleme-5",
+   "field": "summary",
+   "claim": "Konutlar için işleme ücreti 31,42 / 34,56 euro yıl",
+   "value": "31,42; 34,56",
+   "unit": "EUR/yıl",
+   "period": "yürürlükteki tarife",
+   "source_id": "zaragoza:kaynak:161",
+   "quote": "Epígrafe 1 Euros/año 1. Viviendas 1.1 Consumo de agua del periodo <= 0,283 m3/día. 31,42 1.2 Consumo de agua del periodo > 0,283 m3/día 34,56"
+  },
+  {
+   "claim_id": "C-zaragoza-cop-ucreti-toplama-isleme-6",
+   "field": "summary",
+   "claim": "Ek değişikliği için ilk onay 29 Eylül 2026",
+   "value": "2026-09-29",
+   "unit": "tarih",
+   "period": "",
+   "source_id": "zaragoza:kaynak:160",
+   "quote": "La Comisión Plenaria de Hacienda y Fondos Europeos de 29 de septiembre de 2026 aprobó inicialmente la modificación del Anexo de la Ordenanza Fiscal n.º 17.1"
+  },
+  {
+   "claim_id": "C-zaragoza-cop-ucreti-toplama-isleme-7",
+   "field": "summary",
+   "claim": "Halk incelemesi 17 Kasım 2026 Salı biter",
+   "value": "2026-11-17",
+   "unit": "tarih",
+   "period": "",
+   "source_id": "zaragoza:kaynak:160",
+   "quote": "Se inicia el 5 de octubre de 2026 y finaliza el martes 17 de noviembre de 2026."
+  },
+  {
+   "claim_id": "C-zaragoza-cop-ucreti-toplama-isleme-8",
+   "field": "steps",
+   "claim": "Su ile birlikte yürütülen yönetimde alta aynı anda yapılır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:160",
+   "quote": "el alta se producirá simultáneamente al solicitar la prestación de este servicio."
+  },
+  {
+   "claim_id": "C-zaragoza-cop-ucreti-toplama-isleme-9",
+   "field": "timing",
+   "claim": "Çöp ücreti su ücretiyle aynı dönemde devreye girer",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:160",
+   "quote": "se devengará de manera conjunta e integrada con la tasa de abastecimiento de agua potable o tarifas de saneamiento de aguas residuales y en sus mismos períodos impositivos"
+  },
+  {
+   "claim_id": "C-zaragoza-cop-ucreti-toplama-isleme-10",
+   "field": "note",
+   "claim": "Ordenanza değişiklikleri yayımdan sonraki 1 Ocak itibarıyla uygulanır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:160",
+   "quote": "comenzará a aplicarse a partir del 1 de Enero siguiente, salvo que en las mismas se señale otra fecha"
+  },
+  {
+   "claim_id": "C-zaragoza-cop-ucreti-toplama-isleme-11",
+   "field": "steps",
+   "claim": "İşleme ücreti de aynı su póliza sahibi ile bağlantılı",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:161",
+   "quote": "se considerará sujeto pasivo el titular de la póliza de agua"
+  }
+ ],
+ "adimlar": [],
+ "butonlar": [
+  {
+   "action_id": "zaragoza:action:zaragoza-cop-ucreti-toplama-isleme-1",
+   "label": "Tarifeyi gör",
+   "url": "https://www.zaragoza.es/sede/servicio/normativa/3503"
+  },
+  {
+   "action_id": "zaragoza:action:zaragoza-cop-ucreti-toplama-isleme-2",
+   "label": "Başvur",
+   "url": "https://www.zaragoza.es/sede/servicio/tramite/2"
+  }
+ ]
+}
+
+===== KART 6/10: zaragoza:dusuk-gelirli-hane-su-cop-indirimi-tipo =====
+{
+ "entry_id": "zaragoza:dusuk-gelirli-hane-su-cop-indirimi-tipo",
+ "city_id": "zaragoza",
+ "slug": "dusuk-gelirli-hane-su-cop-indirimi-tipo",
+ "title": "Zaragoza'da düşük gelirli hane için su ve çöp indirimi (Tipo 1, 2, 3) nasıl istenir?",
+ "subtitle": "Unidad de Tasas y Precios Públicos: internet, ofis, gelir belgeleri ve geçerlilik süresi",
+ "summary": "Düşük gelirli bir hane olarak su ve çöp faturanda indirim almak için, belediyenin Unidad de Tasas y Precios Públicos birimine bonificación (indirim) başvurusu yaparsın; hane, gelire göre Tipo 1, Tipo 2 ya da Tipo 3 olarak sınıflandırılır. Tipo 1 hanede su sabit ücreti yüzde 50, ilk iki tüketim kademesi yüzde 99 ve yüzde 75, çöp ücretleri yüzde 100 indirimlidir. Başvuruyu internetten (sertifika ya da Cl@ve ile) veya Vía Hispanidad 20'deki ofiste yaparsın. İndirim pensiyonerde 3, işsizde 1, çalışanda 2 yıl geçerlidir. Su aboneliği oturan kişilerden birinin adına olmalı ve ödemeler otomatik ödemede olmalıdır.",
+ "keywords": "su indirimi, çöp indirimi, bonificación tarifa agua, Tipo 1 Tipo 2 Tipo 3, IPREM, Zaragoza",
+ "stages": "new;settled",
+ "source_ids": "zaragoza:kaynak:157;zaragoza:kaynak:158",
+ "reviewed_on": "2026-11-02",
+ "order": 505,
+ "featured": "Hayır",
+ "editorial_status": "Taslak",
+ "topic_id": "zaragoza:fatura",
+ "steps": "Su aboneliğinin evde oturan biri adına olduğunu kontrol et; değilse önce abone devri (cambio de titular) yap.\nEvdeki herkesin empadronamiento kaydını güncelle: tablo, evde kayıtlı kişi sayısına göre hesaplanır.\nSu aboneliklerinin hepsini otomatik ödemeye bağla ve belediyeye ödenmemiş borcun olmadığından emin ol.\nGelir belgelerini hazırla ve başvuruyu internetten (sertifika ya da Cl@ve ile) ya da Vía Hispanidad 20'de pazartesi–cuma 08.00–13.00 arasında yap.\nBaşvuru kabul edilirse verilen belgede geçerlilik süresi ve bitiş tarihi yazar; bitmeden yeniden başvur.",
+ "documents": "Abone ve başvuranın NIF'i ya da NIE'si\nSon 3 ayın bordroları\nEmpadronamiento belgesinde görünen tüm yetişkinlerin son gelir vergisi beyannamesi (beyan vermiyorsan başvuruda belirt)\nEmekli için INSS'ten gelir belgesi; işsiz için güncel iş arama kartı ve yardım belgesi\nIngreso Aragonés de Inserción alıyorsan bu yardımın karar belgesi (gelir belgesi gerekmez)",
+ "timing": "İndirim pensiyonerde 3, işsizde 1, çalışanda 2 yıl geçerlidir; süre dolmadan yeniden başvurulur; başvuru gelir şartları sağlandığı her an yapılabilir",
+ "cost": "",
+ "note": "Tipo 2 hanede indirimler çok düşüktür (sabit ücrette yüzde 0, çöp ücretlerinde yüzde 12,4). Tipo 3'te tüm kalemlerde yüzde 50 vardır, üçüncü tüketim kademesinde yoktur. Kalabalık ve büyük aile haneleri için ayrı olarak 'per cápita' Tarifa 3 başvurusu yapılabilir. Başvuruya yanıt verilmezse sessizlik red anlamına gelir; red durumunda belediyeye itiraz dilekçesi verilebilir.",
+ "visual_json": "",
+ "_sekme": "Yanıtlar",
+ "kaynaklar": [
+  {
+   "source_id": "zaragoza:kaynak:157",
+   "url": "https://www.zaragoza.es/sede/servicio/tramite/73",
+   "publisher": "Ayuntamiento de Zaragoza",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_fatura/1893de8f20c865ef65c4d121602ca532e4eb5c3f6edda06d36fd32e3f1e726be.txt"
+  },
+  {
+   "source_id": "zaragoza:kaynak:158",
+   "url": "https://www.zaragoza.es/sede/servicio/tramite/39064",
+   "publisher": "Ayuntamiento de Zaragoza",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_fatura/9a7e8e1611513f764eece8535e53e2af80041cdb425d1a4b6ca6c38c49d72e5f.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-dusuk-gelirli-hane-su-cop-indirimi-tipo-1",
+   "field": "summary",
+   "claim": "Hane gelir, mal varlığı ve finansal varlıklara göre Tipo 1/2/3 olarak sınıflandırılır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:157",
+   "quote": "Cada hogar se tipifica como \"Tipo 1\", \"Tipo 2\" o \"Tipo 3\", en función de las rentas, bienes y activos financieros de que disponga."
+  },
+  {
+   "claim_id": "C-dusuk-gelirli-hane-su-cop-indirimi-tipo-2",
+   "field": "summary",
+   "claim": "Tipo 1: sabit ücret %50, kademe 1 %99, kademe 2 %75",
+   "value": "50; 99; 75",
+   "unit": "%",
+   "period": "güncel sayfa",
+   "source_id": "zaragoza:kaynak:157",
+   "quote": "CUOTA FIJA AGUA 50% 0% 50% CONSUMO AGUA TRAMO 1 99% 7% 50% CONSUMO AGUA TRAMO 2 75% 7% 50% CONSUMO AGUA TRAMO 3 0% 0% 0%"
+  },
+  {
+   "claim_id": "C-dusuk-gelirli-hane-su-cop-indirimi-tipo-3",
+   "field": "summary",
+   "claim": "Tipo 1: çöp toplama ve işleme %100, Tipo 2: %12,4, Tipo 3: %50",
+   "value": "100; 12,4; 50",
+   "unit": "%",
+   "period": "güncel sayfa",
+   "source_id": "zaragoza:kaynak:157",
+   "quote": "REGOGIDA DE BASURAS 100% 12,4% 50% TRATAMIENTO Y ELIMINACIÓN BASURAS 100% 12,4% 50%"
+  },
+  {
+   "claim_id": "C-dusuk-gelirli-hane-su-cop-indirimi-tipo-4",
+   "field": "summary",
+   "claim": "Geçerlilik: emekli 3, işsiz 1, çalışan 2 yıl",
+   "value": "3; 1; 2",
+   "unit": "yıl",
+   "period": "güncel sayfa",
+   "source_id": "zaragoza:kaynak:157",
+   "quote": "Pensionistas: 3 años. Desempleados: 1 año. Personas en activo: 2 años."
+  },
+  {
+   "claim_id": "C-dusuk-gelirli-hane-su-cop-indirimi-tipo-5",
+   "field": "summary",
+   "claim": "Abonelik evde oturan birinin adına olmalı",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:157",
+   "quote": "La póliza de abastecimiento de agua debe estar a nombre de alguno de los ocupantes de la vivienda."
+  },
+  {
+   "claim_id": "C-dusuk-gelirli-hane-su-cop-indirimi-tipo-6",
+   "field": "summary",
+   "claim": "Tüm su abonelikleri otomatik ödemede ve belediye borcu olmamalı",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:157",
+   "quote": "El titular ha de tener domiciliadas todas las pólizas de agua de las que sea titular, así como estar al corriente de pago de cualquier exacción municipal"
+  },
+  {
+   "claim_id": "C-dusuk-gelirli-hane-su-cop-indirimi-tipo-7",
+   "field": "steps",
+   "claim": "Gelir sınırları evde kayıtlı kişi sayısına göre belirlenir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:157",
+   "quote": "(Nº DE PERSONAS EMPADRONADAS)"
+  },
+  {
+   "claim_id": "C-dusuk-gelirli-hane-su-cop-indirimi-tipo-8",
+   "field": "steps",
+   "claim": "Dört kişiye kadar hanede Tipo 1 sınırı 16.866, Tipo 2 24.239, Tipo 3 21.984,48 euro",
+   "value": "16.866,00; 24.239,00; 21.984,48",
+   "unit": "EUR/yıl",
+   "period": "2024 tablosu",
+   "source_id": "zaragoza:kaynak:157",
+   "quote": "Hasta 4 Personas 16.866,00 24.239,00 21.984,48"
+  },
+  {
+   "claim_id": "C-dusuk-gelirli-hane-su-cop-indirimi-tipo-9",
+   "field": "steps",
+   "claim": "Tabloya referans IPREM 8.400 euro",
+   "value": "8.400",
+   "unit": "EUR",
+   "period": "yıllık, 14 ödeme",
+   "source_id": "zaragoza:kaynak:157",
+   "quote": "Importe de Referencia: IPREM anual (14 pagas) - 8.400,00"
+  },
+  {
+   "claim_id": "C-dusuk-gelirli-hane-su-cop-indirimi-tipo-10",
+   "field": "steps",
+   "claim": "Mal varlığı sınırı IPREM x 5,88 = 49.392 euro",
+   "value": "49.392",
+   "unit": "EUR",
+   "period": "",
+   "source_id": "zaragoza:kaynak:157",
+   "quote": "I.P.R.E.M anual x 5,88 = 49.392,00 €"
+  },
+  {
+   "claim_id": "C-dusuk-gelirli-hane-su-cop-indirimi-tipo-11",
+   "field": "steps",
+   "claim": "Ofis adresi",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:157",
+   "quote": "Dirección: Vía Hispanidad, 20, 50071"
+  },
+  {
+   "claim_id": "C-dusuk-gelirli-hane-su-cop-indirimi-tipo-12",
+   "field": "steps",
+   "claim": "Ofis saatleri",
+   "value": "8-13",
+   "unit": "saat",
+   "period": "pazartesi-cuma",
+   "source_id": "zaragoza:kaynak:157",
+   "quote": "De lunes a viernes de 8 a 13 horas."
+  },
+  {
+   "claim_id": "C-dusuk-gelirli-hane-su-cop-indirimi-tipo-13",
+   "field": "steps",
+   "claim": "Çevrimiçi başvuru sertifika ya da Cl@ve ile",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:157",
+   "quote": "Iniciar trámite con certificado o Cl@ve"
+  },
+  {
+   "claim_id": "C-dusuk-gelirli-hane-su-cop-indirimi-tipo-14",
+   "field": "steps",
+   "claim": "Gelir değişiklikleri bir ay içinde bildirilmeli",
+   "value": "1",
+   "unit": "ay",
+   "period": "",
+   "source_id": "zaragoza:kaynak:157",
+   "quote": "deberá ser comunicada en el plazo máximo de un mes desde que se hubiera producido"
+  },
+  {
+   "claim_id": "C-dusuk-gelirli-hane-su-cop-indirimi-tipo-15",
+   "field": "documents",
+   "claim": "Son 3 ayın bordroları",
+   "value": "3",
+   "unit": "ay",
+   "period": "",
+   "source_id": "zaragoza:kaynak:157",
+   "quote": "Nóminas de los 3 últimos meses"
+  },
+  {
+   "claim_id": "C-dusuk-gelirli-hane-su-cop-indirimi-tipo-16",
+   "field": "documents",
+   "claim": "Yetişkinlerin son gelir vergisi beyannamesi",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:157",
+   "quote": "Última declaración de la renta de todas las personas mayores de edad que figuren en el certificado del padrón de habitantes."
+  },
+  {
+   "claim_id": "C-dusuk-gelirli-hane-su-cop-indirimi-tipo-17",
+   "field": "documents",
+   "claim": "NIF ya da NIE",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:157",
+   "quote": "N.I.F. o N.I.E. del titular beneficiario."
+  },
+  {
+   "claim_id": "C-dusuk-gelirli-hane-su-cop-indirimi-tipo-18",
+   "field": "documents",
+   "claim": "İşsiz için iş arama kartı",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:157",
+   "quote": "Parados: La tarjeta de demanda de empleo actualizada"
+  },
+  {
+   "claim_id": "C-dusuk-gelirli-hane-su-cop-indirimi-tipo-19",
+   "field": "timing",
+   "claim": "Başvuru şartlar sağlandığı her an yapılabilir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:157",
+   "quote": "Las solicitudes se pueden presentar en cualquier momento a partir de la fecha en que se cumplen los requisitos."
+  },
+  {
+   "claim_id": "C-dusuk-gelirli-hane-su-cop-indirimi-tipo-20",
+   "field": "note",
+   "claim": "Kalabalık aile ve 6 kişiden fazla haneler Tarifa 3 isteyebilir",
+   "value": "6",
+   "unit": "kişi",
+   "period": "",
+   "source_id": "zaragoza:kaynak:158",
+   "quote": "Hogares habitados por más de 6 personas: En el caso de domicilios cohabitados por más de seis personas"
+  },
+  {
+   "claim_id": "C-dusuk-gelirli-hane-su-cop-indirimi-tipo-21",
+   "field": "note",
+   "claim": "Başvurunun sessizlik sonucu negatif",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:158",
+   "quote": "Silencio Administrativo NEGATIVO"
+  },
+  {
+   "claim_id": "C-dusuk-gelirli-hane-su-cop-indirimi-tipo-22",
+   "field": "note",
+   "claim": "Büyük aileler Tarifa 3 (per cápita) isteyebilir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:158",
+   "quote": "Familias numerosas: Los titulares del servicio que formen parte de familias numerosas pueden solicitar la aplicación de la Tarifa 3"
+  }
+ ],
+ "adimlar": [],
+ "butonlar": [
+  {
+   "action_id": "zaragoza:action:dusuk-gelirli-hane-su-cop-indirimi-tipo-1",
+   "label": "Başvur",
+   "url": "https://www.zaragoza.es/sede/servicio/tramite/73"
+  },
+  {
+   "action_id": "zaragoza:action:dusuk-gelirli-hane-su-cop-indirimi-tipo-2",
+   "label": "Formu doldur",
+   "url": "https://www.zaragoza.es/sede/servicio/tramite/39064"
+  }
+ ]
+}
+
+===== KART 7/10: zaragoza:zaragoza-su-tasarruf-indirimi-yuzde-10 =====
+{
+ "entry_id": "zaragoza:zaragoza-su-tasarruf-indirimi-yuzde-10",
+ "city_id": "zaragoza",
+ "slug": "zaragoza-su-tasarruf-indirimi-yuzde-10",
+ "title": "Zaragoza'da su tüketimini azaltırsam faturada yüzde 10 indirim alır mıyım?",
+ "subtitle": "Başvuru gerekmez; indirim iki yıllık okuma karşılaştırmasıyla kendiliğinden uygulanır",
+ "summary": "Evet: Zaragoza'da ev kullanımında su tüketimini iki yıl öncesine göre en az yüzde 10 azaltırsan, sonraki yılın faturalarında su ücretinde yüzde 10 indirim uygulanır. Başvuru gerekmez, belediye bunu kendiliğinden (de oficio) uygular. İndirim için su aboneliğinin Zaragoza'da empadronada kayıtlı kişi ya da apartman yönetimi adına olması, ödemelerin otomatik ödemede bulunması ve belediye borcunun olmaması gerekir.",
+ "keywords": "su tasarrufu indirimi, incentivo ahorro agua, yüzde 10 indirim, domiciliación, Zaragoza su",
+ "stages": "settled",
+ "source_ids": "zaragoza:kaynak:159",
+ "reviewed_on": "2026-11-02",
+ "order": 506,
+ "featured": "Hayır",
+ "editorial_status": "Taslak",
+ "topic_id": "zaragoza:fatura",
+ "steps": "Su aboneliğini ve otomatik ödemeni, karşılaştırılacak ilk yılın 1 Ocak'ından önce başlat.\nSayaç okumalarının eksiksiz olduğundan emin ol: okumaları belediyeye kendin bildiriyorsan her dönem bildir.\nTüm belediye vergi ve ücretlerini otomatik ödemeye bağla ve borçsuz ol.\nBaşvuru yapma; koşullar sağlanırsa indirim sonraki yılın faturalarına kendiliğinden yansır.",
+ "documents": "",
+ "timing": "İki ardışık yılın okuması karşılaştırılır; indirim sonraki yılın faturalarına uygulanır",
+ "cost": "Su tarifesinde yüzde 10 indirim",
+ "note": "Yıllık tüketimin her iki karşılaştırma yılında da en az 37 m³ olması gerekir. Kaçak, bozuk sayaç ya da okuma hatası gibi tüketimi etkileyen olay yaşanan okumalar karşılaştırmadan çıkarılır; eksik okuma varsa indirim uygulanmaz.",
+ "visual_json": "",
+ "_sekme": "Yanıtlar",
+ "kaynaklar": [
+  {
+   "source_id": "zaragoza:kaynak:159",
+   "url": "https://www.zaragoza.es/sede/servicio/tramite/39",
+   "publisher": "Ayuntamiento de Zaragoza",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_fatura/7b0a0c9db55d5dc838967f75a8d543b3659201a4eaa6899b30563080ee03a2b5.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-zaragoza-su-tasarruf-indirimi-yuzde-10-1",
+   "field": "summary",
+   "claim": "Ev kullanımında tüketim iki yıl karşılaştırılınca azalmışsa tasada %10 indirim var",
+   "value": "10",
+   "unit": "%",
+   "period": "güncel sayfa",
+   "source_id": "zaragoza:kaynak:159",
+   "quote": "Reducción de un 10% en la tasa a pagar en usos domésticos, si el consumo se ha reducido comparando los dos últimos años."
+  },
+  {
+   "claim_id": "C-zaragoza-su-tasarruf-indirimi-yuzde-10-2",
+   "field": "summary",
+   "claim": "İndirim kendiliğinden uygulanır, başvuru gerekmez",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:159",
+   "quote": "Se aplica de oficio, no requiere solicitud."
+  },
+  {
+   "claim_id": "C-zaragoza-su-tasarruf-indirimi-yuzde-10-3",
+   "field": "summary",
+   "claim": "Tüketimde en az %10 azalma gerekir",
+   "value": "10",
+   "unit": "%",
+   "period": "",
+   "source_id": "zaragoza:kaynak:159",
+   "quote": "haya experimentado una disminución mínima del 10%."
+  },
+  {
+   "claim_id": "C-zaragoza-su-tasarruf-indirimi-yuzde-10-4",
+   "field": "summary",
+   "claim": "Abone Zaragoza'da empadronada kişi ya da apartman yönetimi olmalı",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:159",
+   "quote": "El titular de la póliza sea Comunidad de Propietarios de viviendas o persona física, no fallecida, empadronada en Zaragoza"
+  },
+  {
+   "claim_id": "C-zaragoza-su-tasarruf-indirimi-yuzde-10-5",
+   "field": "summary",
+   "claim": "Fatura otomatik ödemede olmalı",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:159",
+   "quote": "La póliza ha de tener domiciliados los recibos."
+  },
+  {
+   "claim_id": "C-zaragoza-su-tasarruf-indirimi-yuzde-10-6",
+   "field": "steps",
+   "claim": "Abonelik karşılaştırma yılının 1 Ocak'ından önce açılmış olmalı",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:159",
+   "quote": "El alta de la póliza sea anterior al 1 de enero del primer año a comparar."
+  },
+  {
+   "claim_id": "C-zaragoza-su-tasarruf-indirimi-yuzde-10-7",
+   "field": "note",
+   "claim": "Karşılaştırılan yıllardan hiçbirinde yıllık tüketim 37 m³ altında olmamalı",
+   "value": "37",
+   "unit": "m³/yıl",
+   "period": "",
+   "source_id": "zaragoza:kaynak:159",
+   "quote": "El consumo anual en cualquiera de los años a comparar no podrá ser inferior a 37 m³/año."
+  },
+  {
+   "claim_id": "C-zaragoza-su-tasarruf-indirimi-yuzde-10-8",
+   "field": "note",
+   "claim": "Tüketimi etkileyen olay yaşanan okumalar çıkarılır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:159",
+   "quote": "se desecharán aquellas en las que se haya producido alguna incidencia que afecte al consumo o su medición"
+  },
+  {
+   "claim_id": "C-zaragoza-su-tasarruf-indirimi-yuzde-10-9",
+   "field": "steps",
+   "claim": "Belediye vergileri otomatik ödemede ve borçsuz olmalı",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:159",
+   "quote": "El titular ha de tener domiciliados todos los tributos municipales de cobro periódico de los que sea titular"
+  }
+ ],
+ "adimlar": [],
+ "butonlar": [
+  {
+   "action_id": "zaragoza:action:zaragoza-su-tasarruf-indirimi-yuzde-10-1",
+   "label": "Bilgi al",
+   "url": "https://www.zaragoza.es/sede/servicio/tramite/39"
+  }
+ ]
+}
+
+===== KART 8/10: zaragoza:eski-adres-su-faturasi-itiraz-reclamacion =====
+{
+ "entry_id": "zaragoza:eski-adres-su-faturasi-itiraz-reclamacion",
+ "city_id": "zaragoza",
+ "slug": "eski-adres-su-faturasi-itiraz-reclamacion",
+ "title": "Zaragoza'da taşındığım adresin su faturası hâlâ adıma geliyorsa ne yapmalıyım (baja yapılmamışsa)?",
+ "subtitle": "Instancia ile baja ve fatura düzeltmesi: kayıt ofisleri, belgeler ve ortalama 3 ay",
+ "summary": "Eski adresin su aboneliğini kapattırmadıysan faturalar, sayaç sökülene ya da yeni kullanıcı abone devrini yaptırana kadar adına gelmeye devam eder. Çözüm için belediyeye genel dilekçe (instancia modelo general) ile abonelik bajasını ve eski adresten ayrıldığın tarihten sonraki faturaların düzeltilmesini (regularización) istersin. Dilekçeyi Plaza del Pilar 18 ya da Vía Hispanidad 20'deki Oficina de Registro'ya verirsin; yanıt süresi ortalama üç aydır, para iadesi gerekiyorsa en çok altı aydır.",
+ "keywords": "eski adres su faturası, reclamación titularidad, baja olmadan taşınma, instancia general, Oficina de Registro Zaragoza",
+ "stages": "settled",
+ "source_ids": "zaragoza:kaynak:163;zaragoza:kaynak:155",
+ "reviewed_on": "2026-11-02",
+ "order": 507,
+ "featured": "Hayır",
+ "editorial_status": "Taslak",
+ "topic_id": "zaragoza:fatura",
+ "steps": "Sorun yeniyse eski adrese yeni giren kullanıcıyla ya da ev sahibiyle konuş: abone devrinin yapılmasını ve yanlış ödenen faturaların karşılıklı düzeltilmesini iste; böylece gecikme faizi ve ceza riskinden kaçınırsın.\nEski adresten ayrıldığını gösteren belgeleri topla: satış senedi, iptal edilmiş kira sözleşmesi, boşanma kararı, mahkeme tahliye kararı, elektrik aboneliğinin kapatıldığı belge ya da mal sahibinin yeminli beyanı gibi.\nGenel dilekçede (instancia modelo general) abonelik bajasını ve bağlantın koptuktan sonra kesilen faturaların düzeltilmesini iste.\nDilekçeyi ve belgeleri Plaza del Pilar 18'deki ya da Vía Hispanidad 20'deki Oficina de Registro'ya ver ya da Unidad de Tasas y Precios Públicos'a posta ile gönder.\nHaciz bildirimi aldıysan önce Unidad de Tasas y Precios Públicos ile görüş ve bildirimin kopyasını dilekçeye ekle.",
+ "documents": "Genel dilekçe (instancia modelo general)\nAdresle bağlantının koptuğu tarihi gösteren belge: satış senedi, iptal edilmiş kira sözleşmesi, boşanma kararı, tahliye kararı, elektrik aboneliği kapatma belgesi ya da mal sahibinin yeminli beyanı\nMülkiyet sicilinden (Registro de la Propiedad) eski adresin sahiplerini gösteren nota simple\nHaciz sürecindeysen Servicio de Recaudación Municipal'in gönderdiği bildirimin kopyası",
+ "timing": "Çözüm süresi ortalama 3 ay, para iadesi gerekiyorsa en çok 6 ay",
+ "cost": "",
+ "note": "Dilekçe vermen tahsilat sürecini durdurmaz: ödenmemiş fatura varsa tahsilat sürer. Baja yapmamak, belediyenin yaptırım sürecine konu olabilecek bir ihlal sayılır. Ev sahibiysen kiracı çıkınca suyun kiracı adına olduğundan emin ol.",
+ "visual_json": "",
+ "_sekme": "Yanıtlar",
+ "kaynaklar": [
+  {
+   "source_id": "zaragoza:kaynak:163",
+   "url": "https://www.zaragoza.es/sede/servicio/tramite/310",
+   "publisher": "Ayuntamiento de Zaragoza",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_fatura/d9b75e5603c9972762ac7a7bed4092dd6f432121a2d78400c265fb46fc8c2ce3.txt"
+  },
+  {
+   "source_id": "zaragoza:kaynak:155",
+   "url": "https://www.zaragoza.es/sede/servicio/tramite/40",
+   "publisher": "Ayuntamiento de Zaragoza",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_fatura/58eb845a997b92832cb430f1ccc3b9d7abdd5e41d5172d6e2fead8d17962e05d.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-eski-adres-su-faturasi-itiraz-reclamacion-1",
+   "field": "summary",
+   "claim": "Baja ya da abone devri olmadan faturalar eski aboneye gelmeye devam eder",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:163",
+   "quote": "Se siguen girando recibos a nombre del titular de la póliza y exigiéndose su pago, mientras no se desmonte el contador o se produzca un cambio de titular."
+  },
+  {
+   "claim_id": "C-eski-adres-su-faturasi-itiraz-reclamacion-2",
+   "field": "summary",
+   "claim": "Dilekçe baja ve fatura düzeltmesini ister",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:163",
+   "quote": "Instancia modelo general en la que solicite la baja de la póliza y la regularización, si procede, de los recibos emitidos a partir de su desvinculación de la finca"
+  },
+  {
+   "claim_id": "C-eski-adres-su-faturasi-itiraz-reclamacion-3",
+   "field": "timing",
+   "claim": "Ortalama çözüm süresi 3 ay, para iadesi gerekirse en çok 6 ay",
+   "value": "3; 6",
+   "unit": "ay",
+   "period": "güncel sayfa",
+   "source_id": "zaragoza:kaynak:163",
+   "quote": "Por término medio, el plazo de resolución se sitúa en tres meses. Caso de ser necesaria devolución de ingresos, el plazo máximo se sitúa en seis meses."
+  },
+  {
+   "claim_id": "C-eski-adres-su-faturasi-itiraz-reclamacion-4",
+   "field": "steps",
+   "claim": "Kayıt ofisi Plaza del Pilar adresi",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:163",
+   "quote": "Oficina de Registro Plaza del Pilar Dirección: Pza. del Pilar , 18 50071"
+  },
+  {
+   "claim_id": "C-eski-adres-su-faturasi-itiraz-reclamacion-5",
+   "field": "steps",
+   "claim": "Pilar kayıt ofisi saatleri",
+   "value": "8:30-13:30",
+   "unit": "saat",
+   "period": "pazartesi-cuma, resmî tatiller hariç",
+   "source_id": "zaragoza:kaynak:163",
+   "quote": "Lunes a viernes de 8:30 a 13:30 h. (excepto festivos)"
+  },
+  {
+   "claim_id": "C-eski-adres-su-faturasi-itiraz-reclamacion-6",
+   "field": "steps",
+   "claim": "Pilar kayıt ofisi pazartesi, perşembe ve ayın ilk ve son cuması öğleden sonra",
+   "value": "16-19",
+   "unit": "saat",
+   "period": "",
+   "source_id": "zaragoza:kaynak:163",
+   "quote": "Lunes y jueves y el primer y último viernes de cada mes, de 16 a 19 h."
+  },
+  {
+   "claim_id": "C-eski-adres-su-faturasi-itiraz-reclamacion-7",
+   "field": "steps",
+   "claim": "Seminario kayıt ofisi adresi ve saatleri",
+   "value": "8:30-13:30",
+   "unit": "saat",
+   "period": "",
+   "source_id": "zaragoza:kaynak:163",
+   "quote": "Oficina de Registro Seminario Dirección: Vía Hispanidad, 20, 50071 Horario Lunes a viernes de 8:30 a 13:30h."
+  },
+  {
+   "claim_id": "C-eski-adres-su-faturasi-itiraz-reclamacion-8",
+   "field": "steps",
+   "claim": "Sorun yeniyse karşılıklı anlaşarak düzeltmek gecikme faizi ve ceza riskini önler",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:163",
+   "quote": "regularicen la situación de mutuo acuerdo"
+  },
+  {
+   "claim_id": "C-eski-adres-su-faturasi-itiraz-reclamacion-9",
+   "field": "steps",
+   "claim": "Haciz bildirimi varsa önce yetkili birimle görüşülmeli",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:163",
+   "quote": "consulte primero con el órgano gestor, para determinar si es posible la paralización del embargo"
+  },
+  {
+   "claim_id": "C-eski-adres-su-faturasi-itiraz-reclamacion-10",
+   "field": "documents",
+   "claim": "Ayrılışı kanıtlayan belge örnekleri",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:163",
+   "quote": "escritura de compraventa; contrato de alquiler cancelado; sentencia de separación matrimonial; desahucio judicial; certificado de baja en el contrato de suministro eléctrico"
+  },
+  {
+   "claim_id": "C-eski-adres-su-faturasi-itiraz-reclamacion-11",
+   "field": "documents",
+   "claim": "Nota simple",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:163",
+   "quote": "Nota simple del Registro de la Propiedad respecto a los propietarios de la finca en cuestión"
+  },
+  {
+   "claim_id": "C-eski-adres-su-faturasi-itiraz-reclamacion-12",
+   "field": "note",
+   "claim": "Dilekçe tahsilatı durdurmaz",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:163",
+   "quote": "En ningún caso la presentación de reclamación supone la paralización del procedimiento recaudatorio, caso de que existan recibos impagados"
+  },
+  {
+   "claim_id": "C-eski-adres-su-faturasi-itiraz-reclamacion-13",
+   "field": "note",
+   "claim": "Baja yapmamak ihlal sayılır ve yaptırım sürecine konu olabilir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:163",
+   "quote": "el hecho de no haber solicitado la baja en el servicio se considera infracción por incumplimiento de las obligaciones contraídas"
+  },
+  {
+   "claim_id": "C-eski-adres-su-faturasi-itiraz-reclamacion-14",
+   "field": "note",
+   "claim": "Kiracılı mülkte su kiracı adına olmalı",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:163",
+   "quote": "Si Ud. es propietario de una finca en alquiler, asegúrese siempre de que el suministro de agua está a nombre del inquilino."
+  },
+  {
+   "claim_id": "C-eski-adres-su-faturasi-itiraz-reclamacion-15",
+   "field": "summary",
+   "claim": "Sonraki kullanıcı olduysa ödenen faturalar geri alınabilir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:163",
+   "quote": "tendrá derecho a la devolución de los importes abonados no prescritos."
+  }
+ ],
+ "adimlar": [],
+ "butonlar": [
+  {
+   "action_id": "zaragoza:action:eski-adres-su-faturasi-itiraz-reclamacion-1",
+   "label": "Başvur",
+   "url": "https://www.zaragoza.es/sede/servicio/tramite/310"
+  },
+  {
+   "action_id": "zaragoza:action:eski-adres-su-faturasi-itiraz-reclamacion-2",
+   "label": "Bilgi al",
+   "url": "https://www.zaragoza.es/sede/servicio/tramite/40"
+  }
+ ]
+}
+
+===== KART 9/10: zaragoza:aragon-bono-social-termico-isinma-yardimi =====
+{
+ "entry_id": "zaragoza:aragon-bono-social-termico-isinma-yardimi",
+ "city_id": "zaragoza",
+ "slug": "aragon-bono-social-termico-isinma-yardimi",
+ "title": "Aragón'da bono social térmico (ısınma, sıcak su ve mutfak yardımı) nasıl alınır?",
+ "subtitle": "Başvuru yok: elektrikte sosyal indirimi olanlara otomatik, yılda tek ödeme",
+ "summary": "Bono social térmico için başvuru yapmazsın: bir önceki yılın 31 Aralık'ında elektrik faturası indirimi (bono social eléctrico) hakkı olan herkes yardıma otomatik hak kazanır. Aragón'daki 2025 tutarları bölge iklim kuşağına ve kırılganlık derecesine göre 139,64 ile 400,69 euro arasındadır ve yılda tek ödemeyle elektrik faturanın bağlı olduğu banka hesabına yatırılır. Yardımı reddetmek ya da banka hesabını değiştirmek istersen postayla gelen 5 haneli kod ve DNI ya da NIE ile web sitesinden işlem yaparsın.",
+ "keywords": "bono social térmico, Aragón ısınma yardımı, bono social eléctrico, kırılgan tüketici, Gobierno de Aragón",
+ "stages": "settled",
+ "source_ids": "zaragoza:kaynak:164;zaragoza:kaynak:165",
+ "reviewed_on": "2026-11-02",
+ "order": 508,
+ "featured": "Hayır",
+ "editorial_status": "Taslak",
+ "topic_id": "zaragoza:fatura",
+ "steps": "Elektrik sözleşmenin bono social eléctrico (elektrikte sosyal indirim) kapsamında olup olmadığını kontrol et; hak, bir önceki yılın 31 Aralık durumuna göre belirlenir.\nPosta kutunu izle: kod ve iklim kuşağı bilgisini içeren mektup postayla gelir (2025 yardımı için mektup Temmuz 2025'te gönderildi).\nYardıma itirazın yoksa hiçbir şey yapma; tutar elektrik faturanın bağlı olduğu hesaba yatırılır.\nYardımı reddetmek ya da hesabı değiştirmek istersen mektuptaki 5 haneli kod ve DNI ya da NIE ile bono social térmico web sitesine gir.\nSorularını bst@aragon.es adresine yaz ya da 876 150 436 numarasını ara.",
+ "documents": "DNI ya da NIE\nPostayla gelen 5 haneli erişim kodu",
+ "timing": "Yılda tek ödeme; ödemeden önce sana bildirim gelir ve itiraz ya da hesap değiştirme hakkın vardır",
+ "cost": "2025 tutarları: C bölgesi 139,64 / 223,42 euro, D bölgesi 210,71 / 337,13 euro, E bölgesi 250,44 / 400,69 euro (kırılgan / çok kırılgan tüketici)",
+ "note": "Yardım, aynı amaçla verilen başka yardımlarla ve bono social eléctrico ile birlikte alınabilir. Tutarlar, Transición Ecológica Bakanlığı'nın fonları önceden aktarmasına bağlıdır.",
+ "visual_json": "",
+ "_sekme": "Yanıtlar",
+ "kaynaklar": [
+  {
+   "source_id": "zaragoza:kaynak:164",
+   "url": "https://www.aragon.es/-/bono-social-termico-en-aragon",
+   "publisher": "Gobierno de Aragón",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_fatura/72c3009c9b5251c675bf3614ea99f2f2e2ac81db0b6d0572dcc70f41bc5bf829.txt"
+  },
+  {
+   "source_id": "zaragoza:kaynak:165",
+   "url": "https://www.aragon.es/tramitador/-/tramite/ayudas-bono-social-termico",
+   "publisher": "Gobierno de Aragón",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_fatura/8610e4775b88d278ce41d823334a35ffc68868753f6c86f5194ca78ae15dee2c.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-aragon-bono-social-termico-isinma-yardimi-1",
+   "field": "summary",
+   "claim": "Yardım bono social eléctrico yararlanıcılarına yöneliktir",
+   "value": "",
+   "unit": "",
+   "period": "2025",
+   "source_id": "zaragoza:kaynak:164",
+   "quote": "Bono social térmico en Aragón ejercicio 2025, pensado para todos aquellos consumidores que son beneficiarios del bono social eléctrico."
+  },
+  {
+   "claim_id": "C-aragon-bono-social-termico-isinma-yardimi-2",
+   "field": "summary",
+   "claim": "Başvuru gerekmez; hak, önceki yılın 31 Aralık durumuna göredir",
+   "value": "",
+   "unit": "",
+   "period": "2025",
+   "source_id": "zaragoza:kaynak:164",
+   "quote": "No es preciso solicitarlo porque en cada ejercicio son beneficiarios del Bono Social Térmico aquellos consumidores que sean beneficiarios del bono social de electricidad a 31 de diciembre"
+  },
+  {
+   "claim_id": "C-aragon-bono-social-termico-isinma-yardimi-3",
+   "field": "cost",
+   "claim": "2025 tutarları iklim kuşağı C/D/E ve kırılganlık derecesine göre",
+   "value": "139,64; 223,42; 210,71; 337,13; 250,44; 400,69",
+   "unit": "EUR",
+   "period": "2025",
+   "source_id": "zaragoza:kaynak:164",
+   "quote": "ZONA CLIMÁTICA VULNERABLE VULNERABLE SEVERO C 139,64 € 223,42 € D 210,71 € 337,13 € E 250,44 € 400,69 €"
+  },
+  {
+   "claim_id": "C-aragon-bono-social-termico-isinma-yardimi-4",
+   "field": "summary",
+   "claim": "Yılda tek ödeme, elektrik faturasının bağlı olduğu hesaba",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:164",
+   "quote": "La ayuda por beneficiario se abonará en un pago único anual, en su cuenta corriente en la que tienen domiciliada la factura eléctrica"
+  },
+  {
+   "claim_id": "C-aragon-bono-social-termico-isinma-yardimi-5",
+   "field": "timing",
+   "claim": "Ödemeden önce bildirim yapılır, vazgeçme ve hesap değiştirme mümkündür",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:165",
+   "quote": "Previamente a la transferencia de la ayuda, se le notificará la misma para que pueda renunciar a ella, o modificar su cuenta corriente del pago."
+  },
+  {
+   "claim_id": "C-aragon-bono-social-termico-isinma-yardimi-6",
+   "field": "steps",
+   "claim": "Mektup iklim kuşağı ve kırılganlık bilgisi için kod verir",
+   "value": "",
+   "unit": "",
+   "period": "2025",
+   "source_id": "zaragoza:kaynak:164",
+   "quote": "Durante el mes de julio de 2025 se ha remitido a cada beneficiario un correo postal con un código para que pueda conocer su zona climática y su grado de vulnerabilidad"
+  },
+  {
+   "claim_id": "C-aragon-bono-social-termico-isinma-yardimi-7",
+   "field": "steps",
+   "claim": "Vazgeçme ve hesap değiştirme 5 haneli kod ve DNI/NIE ile web sitesinden yapılır",
+   "value": "5",
+   "unit": "hane",
+   "period": "",
+   "source_id": "zaragoza:kaynak:164",
+   "quote": "con el código de cinco dígitos que ha recibido mediante correo postal y con su DNI o NIE"
+  },
+  {
+   "claim_id": "C-aragon-bono-social-termico-isinma-yardimi-8",
+   "field": "steps",
+   "claim": "Yalnız vazgeçmek ya da hesap değiştirmek için işlem gerekir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:165",
+   "quote": "Solamente hace falta hacer algún trámite si usted quiere renunciar al bono o quiere modificar el número de cuenta."
+  },
+  {
+   "claim_id": "C-aragon-bono-social-termico-isinma-yardimi-9",
+   "field": "steps",
+   "claim": "İletişim e-posta ve telefon",
+   "value": "876 150 436",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:164",
+   "quote": "Canales de información: Correo electrónico: bst@aragon.es Teléfono : 876 150 436"
+  },
+  {
+   "claim_id": "C-aragon-bono-social-termico-isinma-yardimi-10",
+   "field": "documents",
+   "claim": "DNI ve mektuptaki erişim anahtarı",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:164",
+   "quote": "Su número de DNI y la clave de acceso que ha recibido por carta."
+  },
+  {
+   "claim_id": "C-aragon-bono-social-termico-isinma-yardimi-11",
+   "field": "note",
+   "claim": "Başka yardımlarla ve bono social eléctrico ile uyumludur",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:164",
+   "quote": "Esta ayuda es compatible con cualquier otra ayuda para la misma finalidad y con la percepción del bono social de electricidad."
+  },
+  {
+   "claim_id": "C-aragon-bono-social-termico-isinma-yardimi-12",
+   "field": "note",
+   "claim": "Tutarlar Bakanlığın fon aktarmasına bağlıdır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:164",
+   "quote": "(*) Importes condicionados a que el Ministerio para la Transición Ecológica y el Reto Demográfico transfiera previamente los fondos."
+  }
+ ],
+ "adimlar": [],
+ "butonlar": [
+  {
+   "action_id": "zaragoza:action:aragon-bono-social-termico-isinma-yardimi-1",
+   "label": "Bilgi al",
+   "url": "https://www.aragon.es/-/bono-social-termico-en-aragon"
+  },
+  {
+   "action_id": "zaragoza:action:aragon-bono-social-termico-isinma-yardimi-2",
+   "label": "Formu doldur",
+   "url": "https://www.aragon.es/tramitador/-/tramite/ayudas-bono-social-termico"
+  }
+ ]
+}
+
+===== KART 10/10: zaragoza:fatura-odeyemezsen-acil-yardim-aragon-zaragoza =====
+{
+ "entry_id": "zaragoza:fatura-odeyemezsen-acil-yardim-aragon-zaragoza",
+ "city_id": "zaragoza",
+ "slug": "fatura-odeyemezsen-acil-yardim-aragon-zaragoza",
+ "title": "Zaragoza'da elektrik, gaz veya su faturasını ödeyemezsem hangi acil yardımlara başvurabilirim?",
+ "subtitle": "Aragón enerji acil yardımı ve Zaragoza Belediyesi Ayudas de Urgente Necesidad: nereye, ne getir, tavan tutarlar",
+ "summary": "Faturanı ödeyemiyorsan Zaragoza'da iki yol var; ikisi de Centro de Servicios Sociales (sosyal hizmet merkezi) üzerinden gider. Aragón'un enerji acil yardımı gaz, elektrik ve su tüketimini kapsar: ödenmemiş bildirimini aldıktan sonra 10 gün içinde, tedarik kesildiyse 5 gün içinde sosyal hizmet merkezine gitmen gerekir. Zaragoza Belediyesi'nin Ayudas de Urgente Necesidad yardımı elektrik, gaz ve kira gibi temel giderleri kapsar; gelir sınırı tek kişi için yılda 10.500 euro'dur ve belediyede kayıtlı (empadronado) olman gerekir.",
+ "keywords": "acil yardım, fatura yardımı, ayudas de urgencia, ayudas de urgente necesidad, servicios sociales, Zaragoza, enerji yoksulluğu",
+ "stages": "new;settled",
+ "source_ids": "zaragoza:kaynak:166;zaragoza:kaynak:167",
+ "reviewed_on": "2026-11-02",
+ "order": 509,
+ "featured": "Hayır",
+ "editorial_status": "Taslak",
+ "topic_id": "zaragoza:fatura",
+ "steps": "Ödenmemiş fatura bildirimini aldığın günden itibaren 10 gün içinde (tedarik kesildiyse 5 gün içinde) bağlı olduğun Centro de Servicios Sociales'e git.\nBelediye yardımı için Centro Municipal de Servicios Sociales'ten randevu (cita previa) al.\nSosyal hizmet uzmanının (Trabajo Social) yönlendirmesini izle ve istediği belgeleri getir.\nGelirinin tek kişi için yılda 10.500 euro altında olduğunu ve belediyede kayıtlı olduğunu belgeyle göster.",
+ "documents": "DNI; yabancıysan oturum kartı (tarjeta de residencia), istisnaen kimlik belgesi\nHane halkı için aile cüzdanı (libro de familia) ve hane üyelerinin listesi\nGelir ve mal varlığı için yeminli beyan; son 3 ayın bordroları\nİhtiyacı gösteren belgeler: kira sözleşmesi, faturalar, tıbbi rapor gibi",
+ "timing": "Aragón enerji yardımı için ödenmemiş bildirimden itibaren 10 gün; tedarik kesildiyse 5 gün",
+ "cost": "Belediye yardımında bir kalem için yılda en çok 4.200 euro, tüm kalemler toplamında yılda en çok 5.250 euro",
+ "note": "Aragón enerji yardımı yalnızca asıl ve sürekli oturduğun konutun sözleşme sahibine verilir. Başvuruya yanıt verilmezse sessizlik red anlamına gelir; red kararına belediyeye itiraz (recurso de reposición) edebilirsin.",
+ "visual_json": "",
+ "_sekme": "Yanıtlar",
+ "kaynaklar": [
+  {
+   "source_id": "zaragoza:kaynak:166",
+   "url": "https://www.aragon.es/-/servicios-sociales-generales.-ayudas-de-urgencia-para-situaciones-generales",
+   "publisher": "Gobierno de Aragón",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_fatura/6f1c86dc90d08fcb55983d88da8aff1f2cb9547e8096e8c51e29fda3b257990b.txt"
+  },
+  {
+   "source_id": "zaragoza:kaynak:167",
+   "url": "https://www.zaragoza.es/sede/servicio/tramite/113",
+   "publisher": "Ayuntamiento de Zaragoza",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_fatura/afdafe4ace0cdbfde250438e576aff31dab50f058b6f8cade47a029a5f5beec0.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-fatura-odeyemezsen-acil-yardim-aragon-zaragoza-1",
+   "field": "summary",
+   "claim": "Aragón enerji acil yardımı gaz, elektrik ve su tüketimini kapsar",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:166",
+   "quote": "referidos al consumo de gas, energía eléctrica y agua."
+  },
+  {
+   "claim_id": "C-fatura-odeyemezsen-acil-yardim-aragon-zaragoza-2",
+   "field": "summary",
+   "claim": "Ödenmemiş bildirimden sonra 10 gün içinde sosyal hizmet merkezine gidilmeli",
+   "value": "10",
+   "unit": "gün",
+   "period": "",
+   "source_id": "zaragoza:kaynak:166",
+   "quote": "En el plazo de 10 días desde que se ha recibido la notificación de impago el interesado debe ir a su Centro de Servicios Sociales."
+  },
+  {
+   "claim_id": "C-fatura-odeyemezsen-acil-yardim-aragon-zaragoza-3",
+   "field": "summary",
+   "claim": "Tedarik kesildiyse süre 5 gün",
+   "value": "5",
+   "unit": "gün",
+   "period": "",
+   "source_id": "zaragoza:kaynak:166",
+   "quote": "Si ya le han cortado el suministro, dispone de 5 días para acudir a su Centro de Servicios Sociales."
+  },
+  {
+   "claim_id": "C-fatura-odeyemezsen-acil-yardim-aragon-zaragoza-4",
+   "field": "note",
+   "claim": "Yardım yalnızca sözleşme sahibine ve asıl-daimi konuta verilir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:166",
+   "quote": "Las ayudas se conceden a la persona titular del contrato de suministro, para el que se solicitan, referido únicamente a su vivienda habitual y permanente."
+  },
+  {
+   "claim_id": "C-fatura-odeyemezsen-acil-yardim-aragon-zaragoza-5",
+   "field": "summary",
+   "claim": "Belediye yardımı luz ve gas gibi temel giderleri kapsar",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:167",
+   "quote": "Entre estas necesidades se incluyen la vivienda, la alimentación, luz, gas, electrodomésticos"
+  },
+  {
+   "claim_id": "C-fatura-odeyemezsen-acil-yardim-aragon-zaragoza-6",
+   "field": "summary",
+   "claim": "Gelir sınırı 1,25 IPREM; tek kişi için 2026'da 10.500 euro",
+   "value": "10.500",
+   "unit": "EUR/yıl",
+   "period": "2026",
+   "source_id": "zaragoza:kaynak:167",
+   "quote": "1 miembro: 10.500 euros 2 miembros: 12.600 euros 3 miembros: 14.700 euros 4 miembros: 16.800 euros"
+  },
+  {
+   "claim_id": "C-fatura-odeyemezsen-acil-yardim-aragon-zaragoza-7",
+   "field": "summary",
+   "claim": "Gelir sınırı 1,25 IPREM ve ikinci üyeden itibaren %20 artış",
+   "value": "1,25; 20",
+   "unit": "IPREM; %",
+   "period": "2026",
+   "source_id": "zaragoza:kaynak:167",
+   "quote": "Tener unos ingresos anuales que estén por debajo del 1,25 veces el IPREM,* incrementado en un 20% a partir del segundo miembro."
+  },
+  {
+   "claim_id": "C-fatura-odeyemezsen-acil-yardim-aragon-zaragoza-8",
+   "field": "summary",
+   "claim": "Başvuranın Zaragoza'da empadronada olması gerekir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:167",
+   "quote": "estén empadronadas y tengan residencia efectiva en el municipio de Zaragoza"
+  },
+  {
+   "claim_id": "C-fatura-odeyemezsen-acil-yardim-aragon-zaragoza-9",
+   "field": "cost",
+   "claim": "Yılda tüm kalemler toplamı en çok 5.250 euro",
+   "value": "5.250",
+   "unit": "EUR/yıl",
+   "period": "",
+   "source_id": "zaragoza:kaynak:167",
+   "quote": "Máximo anual por varios conceptos: 5.250 euros"
+  },
+  {
+   "claim_id": "C-fatura-odeyemezsen-acil-yardim-aragon-zaragoza-10",
+   "field": "cost",
+   "claim": "Tek kalem için yılda en çok 4.200 euro",
+   "value": "4.200",
+   "unit": "EUR/yıl",
+   "period": "",
+   "source_id": "zaragoza:kaynak:167",
+   "quote": "Máximo anual por un solo concepto: 4.200 euros"
+  },
+  {
+   "claim_id": "C-fatura-odeyemezsen-acil-yardim-aragon-zaragoza-11",
+   "field": "steps",
+   "claim": "Randevu al",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:167",
+   "quote": "Pida cita previa en el Centro Municipal de Servicios Sociales correspondiente."
+  },
+  {
+   "claim_id": "C-fatura-odeyemezsen-acil-yardim-aragon-zaragoza-12",
+   "field": "steps",
+   "claim": "Sosyal hizmet uzmanının yönlendirmesini izle",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:166",
+   "quote": "deberán seguir las indicaciones del profesional de Trabajo Social y aportar la documentación que le solicite."
+  },
+  {
+   "claim_id": "C-fatura-odeyemezsen-acil-yardim-aragon-zaragoza-13",
+   "field": "documents",
+   "claim": "DNI",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:167",
+   "quote": "Fotocopia del DNI (documento nacional de identidad)"
+  },
+  {
+   "claim_id": "C-fatura-odeyemezsen-acil-yardim-aragon-zaragoza-14",
+   "field": "documents",
+   "claim": "Yabancılar için oturum kartı",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:167",
+   "quote": "En caso de personas extranjeras, tarjeta de residencia y excepcionalmente documento acreditativo de su personalidad."
+  },
+  {
+   "claim_id": "C-fatura-odeyemezsen-acil-yardim-aragon-zaragoza-15",
+   "field": "documents",
+   "claim": "Son 3 ayın bordrosu",
+   "value": "3",
+   "unit": "ay",
+   "period": "",
+   "source_id": "zaragoza:kaynak:167",
+   "quote": "Nómina de los tres últimos meses anteriores a la fecha de solicitud."
+  },
+  {
+   "claim_id": "C-fatura-odeyemezsen-acil-yardim-aragon-zaragoza-16",
+   "field": "documents",
+   "claim": "Gereksinimi gösteren belgeler",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:167",
+   "quote": "contrato de alquiler, facturas, presupuestos, informe médico, certificado de discapacidad, etc."
+  },
+  {
+   "claim_id": "C-fatura-odeyemezsen-acil-yardim-aragon-zaragoza-17",
+   "field": "note",
+   "claim": "Sessizlik red anlamına gelir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:167",
+   "quote": "Silencio Administrativo NEGATIVO"
+  },
+  {
+   "claim_id": "C-fatura-odeyemezsen-acil-yardim-aragon-zaragoza-18",
+   "field": "note",
+   "claim": "Red kararına recurso de reposición yapılabilir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:167",
+   "quote": "Recurso de Reposición: te permite solicitar al Ayuntamiento que revise su decisión."
+  }
+ ],
+ "adimlar": [],
+ "butonlar": [
+  {
+   "action_id": "zaragoza:action:fatura-odeyemezsen-acil-yardim-aragon-zaragoza-1",
+   "label": "Başvur",
+   "url": "https://www.zaragoza.es/sede/servicio/tramite/113"
+  },
+  {
+   "action_id": "zaragoza:action:fatura-odeyemezsen-acil-yardim-aragon-zaragoza-2",
+   "label": "Bilgi al",
+   "url": "https://www.aragon.es/-/servicios-sociales-generales.-ayudas-de-urgencia-para-situaciones-generales"
+  }
+ ]
+}
