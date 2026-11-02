@@ -6,6 +6,9 @@ Kullanim:
 
 --mode audit (varsayilan): read() + validate_files() + delivery_tools.audit(); paket klasorune HICBIR sey yazmaz.
 --mode emit: ayni kontroller + check_delivery.py'nin Teslimler/ ciktilari (yalniz uretim sonunda).
+--ready-scan: resmi dogrulayiciyi bir kez de 'ready' kipinde calistirir. Hatalar uce ayrilir: insan onayi bekleyen
+  (editor durumu, inceleyen adi, uc foto inceleme alani; AI dolduramaz, beklenir), asgari sayi ve ENGEL (geri kalan her
+  sey, or. bos hero_photo_id). Engel varsa cikis 1. Taslak kip bazi zorunluluklari hic gostermez (Malaga MAL-003).
 Resmi okuyucu ';' listesinde yinelenen degerde cokuyor; burada tekrarlar atilip sayilir (geri alinan yama).
 stdout: tek satir JSON ozet; tam listeler --out dosyasina. Cikis: 0 temiz, 1 bulgu, 2 kullanim/yapi hatasi.
 Ek kontroller (extra_checks) 'ek kontrol' olarak ayri raporlanir; resmi sayilara karismaz, cikis kodunu etkilemez.
@@ -30,6 +33,14 @@ from common import EXIT_FINDINGS, EXIT_OK, EXIT_USAGE, emit, setup_utf8, write_j
 
 OFFICIAL_PACKAGES = ("read_delivery_v7", "v7_validation", "delivery_tools", "core")
 UTF8_HINT = "resmî araçlar UTF-8 modu ister: python -X utf8 (veya PYTHONUTF8=1)"
+# 'ready' kipinde yalniz insanin kapatabildigi alanlar (kural: AI bunlari Bekliyor/Taslak/bos birakir)
+HUMAN_GATE = (
+    "Editör durumu Onaylandı olmalı; insan incelemesi gerekli.",
+    "Teslimat: insan inceleyen adı gerekli.",
+    "metadata_review_status incelemesi açık.",
+    "pixel_review_status incelemesi açık.",
+    "rights_status incelemesi açık.",
+)
 
 
 class ToolsError(Exception):
@@ -48,6 +59,7 @@ class OfficialRun:
     structure: dict[str, Any]
     media: dict[str, Any]
     tolerated: list[str]
+    ready: dict[str, list[str]] | None = None
 
 
 # --- hata siniflari -----------------------------------------------------------------
@@ -109,7 +121,7 @@ def _purge_official_modules() -> None:
         del sys.modules[name]
 
 
-def load_tools(tools_dir: Path) -> SimpleNamespace:
+def load_tools(tools_dir: Path, ready: bool = False) -> SimpleNamespace:
     """Resmi modulleri verilen klasorden (onbellek temizlenerek) yukler; __pycache__ yazilmaz."""
     tools = Path(tools_dir).resolve()
     if not (tools / "read_delivery_v7.py").is_file():
@@ -121,7 +133,9 @@ def load_tools(tools_dir: Path) -> SimpleNamespace:
     sys.path.insert(0, str(tools))
     try:
         delivery = importlib.import_module("delivery_tools")
+        legacy = importlib.import_module("core.content_delivery.delivery_validation") if ready else None
         return SimpleNamespace(
+            validate_ready=legacy and legacy.validate, ready_labels=tuple(legacy.LABELS.values()) if legacy else (),
             dv=importlib.import_module("core.content_delivery.delivery_values"),
             read=importlib.import_module("read_delivery_v7").read,
             validate_files=importlib.import_module("v7_validation").validate_files,
@@ -134,7 +148,23 @@ def load_tools(tools_dir: Path) -> SimpleNamespace:
             sys.path.remove(str(tools))
 
 
-def run_official(tools: SimpleNamespace, workbook: Path, root: Path, new_content: bool) -> OfficialRun:
+def ready_kind(message: str, labels: tuple[str, ...]) -> str:
+    if message.endswith(HUMAN_GATE):
+        return "human_gate"
+    if any(message.startswith(f"{label}:") for label in labels):
+        return "minimum"
+    return "blockers"
+
+
+def ready_scan(tools: SimpleNamespace, data: dict[str, Any], root: Path) -> dict[str, list[str]]:
+    result = tools.validate_ready(data, mode="ready", assets_root=root)
+    kinds: dict[str, list[str]] = {"human_gate": [], "minimum": [], "blockers": []}
+    for message in result.get("errors", []):
+        kinds[ready_kind(message, tools.ready_labels)].append(message)
+    return kinds
+
+
+def run_official(tools: SimpleNamespace, workbook: Path, root: Path, new_content: bool, ready: bool = False) -> OfficialRun:
     with tolerant_lists(tools.dv) as offending:
         try:
             data, provenance, archives = tools.read(workbook)
@@ -142,7 +172,14 @@ def run_official(tools: SimpleNamespace, workbook: Path, root: Path, new_content
             raise UsageError(f"çalışma kitabı okunamadı ({type(exc).__name__}: {exc})") from exc
         structure = tools.validate_files(data, assets_root=root)
         media = tools.audit(root, data["photos"], provenance, require_new_chain=new_content)
-    return OfficialRun(data, provenance, archives, structure, media, list(offending))
+        scan = ready_scan(tools, data, root) if ready else None
+    return OfficialRun(data, provenance, archives, structure, media, list(offending), scan)
+
+
+def ready_summary(scan: dict[str, list[str]], max_examples: int) -> dict[str, Any]:
+    counts = {kind: len(messages) for kind, messages in scan.items()}
+    return {**counts, "blocker_classes": group_classes(scan["blockers"], max_examples),
+            "note": "human_gate insan onayı bekler (beklenir); blockers AI'nin kapatabileceği hazır kip engelleri"}
 
 
 # --- ozet / rapor -------------------------------------------------------------------------
@@ -171,6 +208,7 @@ def build_summary(args: argparse.Namespace, run: OfficialRun, extras: dict[str, 
         "extras_note": f"ek kontrol, resmî sayılara dahil değil; tarih payı {history['history']}/{history['total']} "
                        f"(eşik {history['threshold']}, öneri)",
         "technically_complete": technically_complete(run),
+        **({"ready_scan": ready_summary(run.ready, args.max_examples)} if run.ready is not None else {}),
     }
 
 
@@ -182,6 +220,7 @@ def build_report(summary: dict[str, Any], run: OfficialRun, extras: dict[str, An
         "warning_classes": group_classes(run.structure.get("warnings", []), max_examples),
         "tolerated_duplicate_list_cells": run.tolerated,
         "extras": extras,
+        **({"ready_scan": run.ready} if run.ready is not None else {}),
     }
 
 
@@ -218,6 +257,7 @@ def parse_args(argv: list[str] | None) -> argparse.Namespace:
     parser.add_argument("--tools", type=Path, default=None, help="araclar/arac klasörü (yoksa CORTEQS_TOOLS)")
     parser.add_argument("--mode", choices=("audit", "emit"), default="audit")
     parser.add_argument("--new-content", action="store_true")
+    parser.add_argument("--ready-scan", action="store_true", help="hazır kipini de çalıştır; insan onayı dışı engel = bulgu")
     parser.add_argument("--out", type=Path, default=None)
     parser.add_argument("--max-examples", type=_non_negative, default=3)
     return parser.parse_args(argv)
@@ -242,8 +282,8 @@ def main(argv: list[str] | None = None) -> int:
     args = parse_args(argv)
     try:
         tools_dir, root = check_inputs(args)
-        tools = load_tools(tools_dir)
-        run = run_official(tools, args.workbook, root, args.new_content)
+        tools = load_tools(tools_dir, ready=args.ready_scan)
+        run = run_official(tools, args.workbook, root, args.new_content, ready=args.ready_scan)
     except (UsageError, ToolsError) as exc:
         emit({"tool": "validate_all", "error": str(exc)})
         return EXIT_USAGE
@@ -255,6 +295,7 @@ def main(argv: list[str] | None = None) -> int:
         write_json(args.out, build_report(summary, run, extras, args.max_examples))
     emit(summary)
     clean = summary["technically_complete"] and not summary["structure"]["errors"] and not summary["media"]["errors"]
+    clean = clean and not (run.ready or {}).get("blockers")
     return EXIT_OK if clean else EXIT_FINDINGS
 
 

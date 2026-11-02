@@ -111,6 +111,19 @@ def test_writes_ledger_audit_and_summary_for_records_in_the_final_excel(work, ca
     assert code == 1 and s["kopyasiz_iddia"] == 1  # kopyasi olmayan kaynaga dayanan iddia bulgudur
 
 
+def test_quotes_in_fields_get_jsonl_twin_and_csv_readback(work, capsys):
+    """Malaga dis denetimi MAL-006: alintidaki cift tirnak RFC 4180'e uygun yazildi ama ters egik cizgiyi kacis sayan
+    okuyucu 15 satiri kaymis gordu. JSONL ikizi okuyucudan bagimsizdir; CSV yazildiktan sonra geri okunur."""
+    _jsonl(work["claims"] / "konu.jsonl", [{**_claim("C-1", "t:y1"), "quote": 'dice "seis" euros, \\ fin'}])
+    code, s = _run(work, capsys)
+    twin = [json.loads(line) for line in (work["out"] / idf.LEDGER_JSONL).read_text(encoding="utf-8").splitlines()]
+    assert twin[0]["alinti"] == 'dice "seis" euros, \\ fin'
+    assert [r["alinti"] for r in _csv(work["out"] / idf.LEDGER_NAME)][:1] == ['dice "seis" euros, \\ fin']
+    assert (work["out"] / idf.AUDIT_JSONL).is_file()
+    summary = json.loads((work["out"] / idf.SUMMARY_NAME).read_text(encoding="utf-8"))
+    assert "RFC 4180" in summary["csv_bicimi"] and summary["csv_geri_okuma"] == {idf.LEDGER_NAME: "ok", idf.AUDIT_NAME: "ok"}
+
+
 def test_term_and_route_claims_are_owned_by_their_own_ids(work, capsys):
     """Sozluk defteri term_id, rota defteri route_id tasir (entry_id yok); ikisi de deftere girer."""
     term = {**_claim("C-T1", ""), "term_id": "t:s1", "field": "definition"}
@@ -180,6 +193,36 @@ def test_country_pack_audit_dir_is_read_first_and_linked_by_slug(work, capsys, t
     audit = _csv(work["out"] / idf.AUDIT_NAME)
     assert audit[0]["claim_id"] == "P-1" and audit[0]["entry_id"] == "t:y3"
     assert code == 1  # C-3 kopyasiz
+
+
+def test_country_pack_fix_missing_from_final_excel_is_a_finding(work, capsys, tmp_path):
+    """Malaga dis denetimi MAL-002: ulke paketi 26.10'da 7 kartı düzeltti, şehir 25.10'daki kopyayla devam etti;
+    düzeltme son Excel'de yoktu ama paketin degisiklik kaydi karti 'düzeltildi' gösterdi."""
+    pack = tmp_path / "ulke" / "denetim"
+    _jsonl(pack / "oturum_degisiklik.jsonl", [
+        {"entry_id": "es:y1", "alan": "title", "eski": "Bir", "yeni": "Paket editörünün düzelttiği uzun başlık metni",
+         "bulgu_claim_id": "P-9"}])
+    _jsonl(work["audit"] / "konu-d3_degisiklik.jsonl", [
+        {"entry_id": "t:y2", "alan": "title", "eski": "x", "yeni": "Şehir editörünün yazdığı ama sonra ezilen başlık",
+         "bulgu_claim_id": "D-2"}])
+    code = idf.main(["--xlsx", str(work["xlsx"]), "--claims-dir", str(work["claims"]), "--audit-dir", str(pack),
+                     "--audit-dir", str(work["audit"]), "--out-dir", str(work["out"])])
+    printed = json.loads(capsys.readouterr().out.strip().splitlines()[-1])
+    summary = json.loads((work["out"] / idf.SUMMARY_NAME).read_text(encoding="utf-8"))
+    missing = {(m["kaynak"], m["entry_id"], m["alan"]) for m in summary["uygulanmamis_duzeltme"]}
+    assert missing == {("paket", "t:y1", "title"), ("sehir", "t:y2", "title")}
+    assert printed["uygulanmamis_paket_duzeltmesi"] == 1 and code == 1
+
+
+def test_medium_finding_without_change_record_stays_open_even_if_card_was_fixed(work, capsys):
+    """Kart baska bir bulgu icin duzeltildi ('düzeltildi'), ama bu orta bulgu ne uygulandi ne curutuldu."""
+    _jsonl(work["audit"] / "konu-d4_iddia.jsonl", [_audit("D4-1", "t:y1", "eksik_koşul")])
+    _jsonl(work["audit"] / "konu-d4_karar.jsonl", [{"entry_id": "t:y1", "karar": "düzelt", "en_agir": "orta", "ozet": "x"}])
+    _jsonl(work["audit"] / "konu-d4_degisiklik.jsonl", [{"entry_id": "t:y1", "alan": "summary", "bulgu_claim_id": "baska"}])
+    code, printed = _run(work, capsys)
+    summary = json.loads((work["out"] / idf.SUMMARY_NAME).read_text(encoding="utf-8"))
+    assert [b["claim_id"] for b in summary["acik_bulgu"]] == ["D4-1"]  # D-1: sonraki d2 turu karti temiz buldu
+    assert summary["son_durum"]["t:y1"] == "düzeltildi" and printed["acik_bulgu"] == 1 and code == 1
 
 
 def test_usage_errors(work, capsys, tmp_path):

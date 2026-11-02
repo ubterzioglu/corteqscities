@@ -350,7 +350,7 @@ Hazırlık:
 & $PY $TK\merge_package.py $WORK\_is --city-id $CITY --bbox=$BBOX
 & $PY $TK\package_sources.py $WORK\_is $PKG --out $WORK\_is\kaynak_paket_final.json
 & $PY $TK\build_xlsx.py --template $WORK\_is\sablon.xlsx --data-dir $WORK\_is\data --out $EXCEL --report $WORK\_is\build_final.json --tools $TOOLS --overwrite
-& $PY $TK\validate_all.py $EXCEL $PKG --tools $TOOLS --mode audit --new-content --out $WORK\_is\validation.json
+& $PY $TK\validate_all.py $EXCEL $PKG --tools $TOOLS --mode audit --new-content --ready-scan --out $WORK\_is\validation.json
 & $PY $TK\text_quality.py $EXCEL --address-standard sen --out $WORK\_is\text_quality_final.json
 & $PY $TK\claim_extract.py $EXCEL --out $WORK\_is\claims_final.jsonl
 & $PY $TK\fetch_snapshot.py --xlsx $EXCEL --out-dir $WORK\_is\snap --cache-dir $WORK\_is\cache
@@ -358,14 +358,14 @@ Hazırlık:
 & $PY $TK\url_check.py $EXCEL --cache-dir $WORK\_is\cache --out $WORK\_is\url_check_final.json --retry-transient
 ```
 - Tam kurulum: `build_xlsx` burada `--partial` YOK; tek red bile varsa Excel yazılmaz.
-- Kapı: `merge_package` çıkış 0, yani `_is\birlestir_rapor.json`'da `issues` ve `quote_miss_list` boş (AI onayı `editorial_status`/`reviewer`, `source_not_in_draft`, `claim_source_not_in_owner` dahil; Teslimat zincirden önce elle yazıldığı için onay alanlarına yalnız bu kapı bakar); `validate_all --new-content` yapı 0, medya 0, asgari eksik yok (kalan her eksik kanıtıyla `open_items`'ta), P0 yok; `text_quality` temiz, hitap bulgusu 0 dahil (B16, `--address-standard sen`; fotoğraf alt yazıları da); bozuk URL 0. Pilot: yapı 0, medya 0, URL 352/352 çalışıyor.
+- Kapı: `merge_package` çıkış 0, yani `_is\birlestir_rapor.json`'da `issues` ve `quote_miss_list` boş (AI onayı `editorial_status`/`reviewer`, `source_not_in_draft`, `claim_source_not_in_owner` dahil; Teslimat zincirden önce elle yazıldığı için onay alanlarına yalnız bu kapı bakar); `validate_all --new-content` yapı 0, medya 0, asgari eksik yok (kalan her eksik kanıtıyla `open_items`'ta), P0 yok; hazır kip engeli 0 (`ready_scan.blockers`; `human_gate` beklenir); `text_quality` temiz, hitap bulgusu 0 dahil (B16, `--address-standard sen`; fotoğraf alt yazıları da); bozuk URL 0. Pilot: yapı 0, medya 0, URL 352/352 çalışıyor. Ülke paketi tazeliği, Teslimat sorumlusu, `iddia_defteri`'nin yeni çıkış nedenleri (`acik_bulgu`, `uygulanmamis_duzeltme`) ve güncellik araması (kural 21) city-pack'teki gibidir (Málaga dış denetimi, 02.11.2026).
 
 ### 7. deliver
 
 ```powershell
 Remove-Item -LiteralPath "$PKG\Teslimler\.download-cache" -Recurse -Force -ErrorAction SilentlyContinue
 if (Test-Path -LiteralPath "$PKG\Teslimler\.download-cache") { throw 'download-cache silinemedi' }
-& $PY $TK\validate_all.py $EXCEL $PKG --tools $TOOLS --mode emit --new-content --out $WORK\_is\validation_emit.json
+& $PY $TK\validate_all.py $EXCEL $PKG --tools $TOOLS --mode emit --new-content --ready-scan --out $WORK\_is\validation_emit.json
 & $PY $TK\iddia_defteri.py --xlsx $EXCEL --claims-dir $WORK\_is\claims --audit-dir $WORK\_is\denetim --out-dir $PKG\Teslimler
 & $PY $TK\gorsel_kalite.py --xlsx $EXCEL --pkg $PKG --out-dir $WORK\_is\gorsel_kalite
 & $PY $TK\kanit_teslim.py --xlsx $EXCEL --work $WORK\_is --pkg $PKG --quality $WORK\_is\gorsel_kalite\gorsel-kalite-v7.json

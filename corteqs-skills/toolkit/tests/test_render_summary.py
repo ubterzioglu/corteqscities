@@ -57,10 +57,27 @@ def test_clean_run_writes_three_files_without_v7_suffix_and_required_sentence(tm
     assert "Araştırmada saptanan açık konu yok; editör/hak kabulü ayrıca gereklidir" in open_issues
     summary = (out / "TESLIM_OZETI.txt").read_text(encoding="utf-8")
     assert "city_id: testville" in summary and "CITY-999" in summary and "Testville" in summary
-    assert "YEREL DENEME" in summary and "Drive'a yüklenmedi" in summary
+    assert "YEREL DENEME" in summary and "yükleme durumunu ölçmez" in summary  # CITY-999: yerel deneme
+    assert "Drive'a yüklenmedi" not in summary  # Malaga MAL-007: arac Drive durumunu bilmez, iddia etmez
     assert "Editör tarafından onaylandı: HAYIR" in summary
     assert code == 0
     assert json.loads(capsys.readouterr().out.strip().splitlines()[-1])["verdict"].startswith("TEKNİK KONTROL GEÇTİ")
+
+
+def test_drive_lines_official_number_is_not_local_trial():
+    lines = render_summary.drive_lines("CITY-075")
+    assert all("YEREL DENEME" not in line and "ölçmez" in line for line in lines)
+
+
+def test_ready_scan_blocker_makes_summary_need_fixing(tmp_path, package, capsys):
+    """Malaga MAL-003: ozet 'TEKNİK KONTROL GEÇTİ' derken hazir kipte bos ana kapak engeli vardi."""
+    val = validation()
+    val["summary"]["ready_scan"] = {"human_gate": 10, "minimum": 0, "blockers": 1,
+                                    "blocker_classes": [{"class": "Şehir: ana kapak fotoğrafı gerekli.", "count": 1}]}
+    code, out = run(tmp_path, package, inventory(), val)
+    summary = (out / "TESLIM_OZETI.txt").read_text(encoding="utf-8")
+    assert "DÜZELTME GEREKLİ" in summary and code == 1
+    assert "hazır kip): Şehir: ana kapak fotoğrafı gerekli." in (out / "ACIK_KONULAR.txt").read_text(encoding="utf-8")
 
 
 def test_issues_are_listed_with_counts_and_exit_1(tmp_path, package):

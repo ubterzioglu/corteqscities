@@ -427,6 +427,32 @@ def test_rows_write_every_package_path_with_forward_slashes(tmp_path, capsys):
     assert paths and not [value for value in paths if "\\" in str(value)]
 
 
+def test_rows_rights_basis_is_frame_specific_and_derivation_names_the_thumb(tmp_path, capsys):
+    """Malaga dis denetimi D4 (1/4) ve MAL-005: rights_basis her karede ayni genel lisans cumlesiydi; kareye ozgu ek hak
+    karari yalniz foto-inceleme-v7.jsonl'de kaldi. Teslim dosyasi Commons kucultmesiyse derivation bunu acikca yazar."""
+    work, package = make_work(tmp_path, GOOD[:2], SELECTED[:2])
+    stub = make_stub_tools(tmp_path / "arac")
+    run(capsys, "plan", work, "--city-id", CITY, "--tools", stub)
+    fake_download(work, package)
+    first = read_jsonl(work / "foto" / "secim_temiz.jsonl")[0]["photo_id"]
+    write_jsonl(work / "foto" / "inceleme" / "denetim_1.jsonl",
+                [{"photo_id": first, "gorsel_sonuc": "keep", "ek_hak": "var", "not": "duvarda çağdaş tablo"}])
+    code, _ = run(capsys, "rows", work, "--package", package, "--city-id", CITY, "--tools", stub)
+    parts = work / "data" / "parcalar"
+    evidence = read_jsonl(parts / "Kanıtlar.foto.jsonl")
+    assert code == pr.EXIT_OK
+    assert evidence[0]["rights_basis"].startswith("Wikimedia Commons dosya sayfasındaki lisans:")
+    assert "kare içi ek hak: var (duvarda çağdaş tablo)" in evidence[0]["rights_basis"]
+    assert "kare içi ek hak: belirsiz" in evidence[1]["rights_basis"]  # inceleme yoksa uydurulmaz
+    photos = read_jsonl(parts / "Fotoğraflar.foto.jsonl")
+    prov = {p["photo_id"]: p for p in read_jsonl(parts / "FotoğrafKaynakları.foto.jsonl")}
+    scaled = [p["photo_id"] for p in photos if "küçültülmüş kopyası indirildi" in p["modifications"]]
+    assert scaled  # fikstur en az bir kucultme icerir
+    for pid in prov:
+        named = "kaynak orijinalinin baytları pakette yok" in str(prov[pid].get("derivation"))
+        assert named == (pid in scaled), pid
+
+
 # ---------------------------------------------------------------- degisiklik notu (hermetik)
 
 def jpeg(path: Path, size: tuple[int, int], orientation: int | None = None) -> Path:

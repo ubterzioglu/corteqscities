@@ -52,6 +52,7 @@ from urllib.parse import urlsplit
 from PIL import Image
 
 import download_plan
+import kanit_teslim
 from common import (EXIT_FINDINGS, EXIT_OK, EXIT_USAGE, HUMAN_PENDING_VALUE, emit, safe_relpath, setup_utf8,
                     sha256_file, write_json)
 from photo_rounds import load_candidates, read_jsonl, round_files, shown
@@ -384,8 +385,36 @@ def build_rows(tools: Tools, city: str, date: str, package: Path, sources: dict)
         order[key] += 1
         out["photos"].append(posix_paths(photo))
         out["evidence"].append(posix_paths(evidence))
-        out["provenance"].append(posix_paths(provenance))
+        out["provenance"].append(posix_paths(with_derivation_chain(provenance, download)))
     return out
+
+
+def with_derivation_chain(provenance: dict[str, Any], download: dict[str, Any]) -> dict[str, Any]:
+    """Teslim dosyasi Commons kucultmesiyse (/thumb/) derivation bunu basa yazar: resmi alan adi `original_file` paketteki
+    asil dosyayi ve onun SHA'sini tasir, kaynak orijinalini degil (Malaga dis denetimi MAL-005, 325/342 iliski)."""
+    url = str(download.get("downloaded_file_url") or provenance.get("downloaded_file_url") or "")
+    if "/thumb/" not in urlsplit(url).path:
+        return provenance
+    chain = (f"Teslim dosyası ({provenance.get('original_file', '')}) kaynak orijinalinin "
+             f"({provenance.get('original_file_url', '')}) Wikimedia küçültülmüş kopyasıdır; kaynak orijinalinin baytları "
+             "pakette yok, original_sha256 teslim dosyasınındır.")
+    return {**provenance, "derivation": f"{chain} {provenance.get('derivation') or ''}".strip()}
+
+
+def with_frame_rights(work: Path, result: dict[str, Any]) -> dict[str, Any]:
+    """Kanıtlar.rights_basis'e kareye ozgu ek hak sonucunu ekler (son foto denetimi > ikinci goz > ek tur > inceleme;
+    kanit_teslim ile ayni oncelik). Inceleme yoksa 'belirsiz' yazilir, uydurulmaz. Bu AI on incelemesidir; rights_status
+    Bekliyor kalir (Malaga dis denetimi D4: genel lisans cumlesi kareye ozgu gerekce sayilmadi)."""
+    reviews, _ = kanit_teslim.photo_rows(work, result["photos"])
+    by_id = {r["photo_id"]: r for r in reviews}
+    evidence = []
+    for row in result["evidence"]:
+        review = by_id.get(row["photo_id"], {})
+        verdict = review.get("ek_hak") or kanit_teslim.UNKNOWN_RIGHTS
+        note = str(review.get("not") or "").strip() if verdict != "yok" else ""
+        frame = f"kare içi ek hak: {verdict}" + (f" ({note[:200]})" if note else "")
+        evidence.append({**row, "rights_basis": f"{row['rights_basis']}; {frame} (AI ön incelemesi, insan onayı değil)."})
+    return {**result, "evidence": evidence}
 
 
 # ---------------------------------------------------------------- girdi / cikti (okuma kurallari: photo_rounds)
@@ -457,7 +486,7 @@ def run_rows(args: argparse.Namespace, tools: Tools, work: Path) -> int:
     candidate_files = args.candidates or round_files(work, "candidates.jsonl")
     search_files = args.search or round_files(work, "search.jsonl")
     sources = load_rows_sources(args, work, package, candidate_files, search_files)
-    result = build_rows(tools, args.city_id, args.date, package, sources)
+    result = with_frame_rights(work, build_rows(tools, args.city_id, args.date, package, sources))
     parts_dir = Path(args.parts_dir or work / "data" / "parcalar")
     for name, key in zip(PART_NAMES, ("photos", "evidence", "provenance")):
         write_jsonl(parts_dir / f"{name}.foto.jsonl", result[key])

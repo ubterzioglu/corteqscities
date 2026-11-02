@@ -52,6 +52,17 @@ STUB_VALIDATION = '''
 def validate_files(data, assets_root):
     return dict(data["_structure"])
 '''
+STUB_READY = '''
+import json
+from pathlib import Path
+
+LABELS = {"answers": "Yanıt", "photos": "Farklı mekân fotoğrafı"}
+CFG = Path(__file__).resolve().parents[2] / "stub_config.json"
+
+def validate(data, mode="draft", assets_root=None):
+    assert mode == "ready"
+    return {"errors": json.loads(CFG.read_text(encoding="utf-8")).get("ready_errors", [])}
+'''
 STUB_DELIVERY = '''
 from pathlib import Path
 
@@ -80,7 +91,8 @@ def make_tools(base: Path, config: dict, name: str = "tools") -> Path:
     pkg.mkdir(parents=True)
     (tools / "core" / "__init__.py").write_text("", encoding="utf-8")
     (pkg / "__init__.py").write_text("", encoding="utf-8")
-    for path, body in ((pkg / "delivery_values.py", STUB_VALUES), (tools / "read_delivery_v7.py", STUB_READ),
+    for path, body in ((pkg / "delivery_values.py", STUB_VALUES), (pkg / "delivery_validation.py", STUB_READY),
+                       (tools / "read_delivery_v7.py", STUB_READ),
                        (tools / "v7_validation.py", STUB_VALIDATION), (tools / "delivery_tools.py", STUB_DELIVERY)):
         path.write_text(textwrap.dedent(body), encoding="utf-8")
     (tools / "stub_config.json").write_text(json.dumps(config, ensure_ascii=False), encoding="utf-8")
@@ -285,6 +297,42 @@ def test_tools_from_env_and_missing_everywhere(tmp_path, package, capsys, monkey
     monkeypatch.delenv("CORTEQS_TOOLS")
     code, summary = run(capsys, [package["xlsx"], package["root"]])
     assert code == EXIT_USAGE and "--tools" in summary["error"]
+
+
+READY_ERRORS = [
+    "Yanıtlar!8: Editör durumu Onaylandı olmalı; insan incelemesi gerekli.",
+    "Teslimat: insan inceleyen adı gerekli.",
+    "Kanıtlar!9: rights_status incelemesi açık.",
+    "Kanıtlar!9: pixel_review_status incelemesi açık.",
+    "Farklı mekân fotoğrafı: 180 / asgari 187; hedef 250.",
+    "Şehir: ana kapak fotoğrafı gerekli.",
+]
+
+
+def test_ready_scan_separates_human_gate_from_blockers(tmp_path, package, capsys):
+    """Malaga dis denetimi MAL-003: bos hero_photo_id taslak kipte hic gorunmuyordu, yalniz hazir kipte engel."""
+    tools = make_tools(tmp_path, {**CLEAN, "ready_errors": READY_ERRORS})
+    out = tmp_path / "r.json"
+    code, summary = run(capsys, [package["xlsx"], package["root"], "--tools", tools, "--ready-scan", "--out", out])
+    assert code == EXIT_FINDINGS  # taslak temiz, ama hazir kipte gercek engel var
+    assert summary["technically_complete"] is True
+    scan = summary["ready_scan"]
+    assert (scan["human_gate"], scan["minimum"], scan["blockers"]) == (4, 1, 1)
+    assert scan["blocker_classes"][0]["class"] == "Şehir: ana kapak fotoğrafı gerekli."
+    report = json.loads(out.read_text(encoding="utf-8"))
+    assert report["ready_scan"]["blockers"] == ["Şehir: ana kapak fotoğrafı gerekli."]
+
+
+def test_ready_scan_only_human_gate_is_clean(tmp_path, package, capsys):
+    tools = make_tools(tmp_path, {**CLEAN, "ready_errors": READY_ERRORS[:4]})
+    code, summary = run(capsys, [package["xlsx"], package["root"], "--tools", tools, "--ready-scan"])
+    assert code == EXIT_OK and summary["ready_scan"]["blockers"] == 0
+
+
+def test_without_ready_scan_flag_no_ready_section(tmp_path, package, capsys):
+    tools = make_tools(tmp_path, {**CLEAN, "ready_errors": READY_ERRORS})
+    code, summary = run(capsys, [package["xlsx"], package["root"], "--tools", tools])
+    assert code == EXIT_OK and "ready_scan" not in summary
 
 
 def test_bad_max_examples_is_usage_error(tmp_path, package):

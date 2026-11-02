@@ -66,6 +66,9 @@ def _validation_issues(validation: dict[str, Any]) -> tuple[list[str], list[str]
         for cls in summary.get(group, []):
             example = (cls.get("examples") or [""])[0]
             blocking.append(f"Resmî doğrulayıcı ({label}): {cls['class']} — {cls['count']}" + (f" (örnek: {example})" if example else ""))
+    # --ready-scan: hazir kipin insan onayi disindaki engelleri (Malaga MAL-003: bos ana kapak taslak kipte gorunmuyordu)
+    for cls in (summary.get("ready_scan") or {}).get("blocker_classes", []):
+        blocking.append(f"Resmî doğrulayıcı (hazır kip): {cls['class']} — {cls['count']}")
     # minimum_gaps burada listelenmez: ayni eksik Berlin tablosundan (_coverage_issues) tek satir olarak gelir
     extras = [f"ek kontrol, resmî sayıya dahil değil: {name} — {n}" for name, n in (summary.get("extras") or {}).items() if n]
     return blocking, extras
@@ -125,11 +128,25 @@ def _count(value: Any) -> str:
     return NOT_MEASURED if value is None else str(value)
 
 
+LOCAL_TRIAL_FROM = 900  # 900+ = yerel deneme numarasi (city-pack intake)
+
+
+def drive_lines(city_code: Any) -> list[str]:
+    """Bu arac Drive durumunu olcmez; durum iddiasi yazmaz. Malaga dis denetimi MAL-007: resmi CITY-075 paketi Drive'a
+    yuklendikten sonra da ozet 'YEREL DENEME - Drive'a yüklenmedi' diyordu."""
+    match = re.search(r"(\d+)", str(city_code or ""))
+    if match and int(match.group(1)) >= LOCAL_TRIAL_FROM:
+        text = "YEREL DENEME (resmî katalog numarası değil) - Drive yüklemesi kullanıcıda; bu özet yükleme durumunu ölçmez"
+    else:
+        text = "Drive yüklemesi kullanıcıda; bu özet yükleme durumunu ölçmez"
+    return [f"Dosya: {text}", f"Klasör: {text}"]
+
+
 def render_summary(metrics: dict[str, Any], issues: dict[str, list[str]], verdict_text: str, date: str) -> str:
     inv, val, ph, human = metrics["inventory"], metrics["validation"], metrics["photos"], metrics["human"]
     out = [f"Şehir: {metrics['city_name']} | city_id: {metrics['city_id']} | CITY kodu: {metrics['city_code']}",
            f"Hazırlayan: {metrics['editor']}", f"Excel sürümü/tarihi: {metrics['version']} · {date}",
-           "Dosya: YEREL DENEME - Drive'a yüklenmedi (manuel yüklenecek)", "Klasör: YEREL DENEME - Drive'a yüklenmedi (manuel yüklenecek)",
+           *drive_lines(metrics["city_code"]),
            f"Durum: {verdict_text}", "Editör tarafından onaylandı: HAYIR (AI kontrolü yayın veya hak onayı değildir)", "",
            "Sekme satır sayıları: " + ", ".join(f"{k} {v}" for k, v in metrics["row_counts"].items()), "",
            f"Berlin karşılaştırması (kaynak: {metrics['berlin'][0]['source']}):"]

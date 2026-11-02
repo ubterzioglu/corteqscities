@@ -89,12 +89,14 @@ step_id, city_id, entry_id, title, when, description, order
   ```powershell
   & <PY> <TK>\add_sources.py <WORK>\_is --candidates <TMP>\yeni_kaynak_<sira>.jsonl --subdir snap_<gorev>-<rol><sira> --topic <konu> --city-id <city_id>
   ```
-  - Her koşu YENİ bir klasör alır (ör. `snap_saglik-yazar1`, `snap_saglik-editor1`, `snap_saglik-editor2`): `add_sources` sonucunu (`eklenen.json`) her koşuda baştan yazar; eski klasörü yeniden kullanmak önceki haritayı siler. `<sira>` 1'den başlar; önce `Test-Path <WORK>\_is\snap_<gorev>-<rol><sira>` ile bak, klasör varsa bir artır. Ana döngünün kaynak keşfi klasörlerine (`snap_kesif_` ile başlayanlar) ve başka ajanın klasörüne `--subdir` verme: oradaki harita, başka konudan gelen kaynak kimlikleri dahil, silinir.
+  - Her koşu YENİ bir klasör alır (ör. `snap_saglik-yazar1`, `snap_saglik-editor1`, `snap_saglik-editor2`): `add_sources` sonucunu (`eklenen.json`) her koşuda baştan yazar; eski klasörü yeniden kullanmak önceki haritayı siler. `<sira>` 1'den başlar; önce `Test-Path <WORK>\_is\snap_<gorev>-<rol><sira>` ile bak, klasör varsa bir artır. Ana döngünün kaynak keşfi ve ülke paketi klasörlerine (`snap_kesif_` ve `snap_ulke_` ile başlayanlar) ve başka ajanın klasörüne `--subdir` verme: oradaki harita, başka konudan gelen kaynak kimlikleri dahil, silinir.
   - Aday dosyası, satır başına: `{"url":"https://…","must_contain":["sayfadaki birebir ifade"],"title":"…","publisher":"yayıncı kurum","lang":"…","why":"Türkçe kısa araştırma notu"}`. `publisher` zorunlu; `why` Kaynaklar sekmesine araştırma notu olarak gider. `must_contain`'e defterde alıntılayacağın kısa birebir ifadeleri koy (adres satırı, tutar, saat).
   - Sonuç `<WORK>\_is\snap_<gorev>-<rol><sira>\eklenen.json`: `map` (url → source_id) ve `rejected` (url ve neden: kopya yok/ince, soft-404, kanıt metinde yok). Çıkış 0 hepsi kabul, 1 ret var, 2 komut hatası (komutu düzelt).
   - Kabul edilen kimliği `source_ids`'e ve defterdeki `source_id`'ye yaz. Alıntı bizim kopyamızda (kaynak dizinindeki `text_file`) geçmeli; tarayıcıda veya WebFetch'te görmen yetmez: bazı resmî siteler içeriği JavaScript ile yükler, kopyada yalnız menü kalır.
   - Reddedilen adresi kullanma. Başka resmî sayfa bul ve komutu yeni aday dosyası ve yeni `<sira>` ile tekrarla; bulamazsan o bilgiyi yazma, `gaps`'e koy.
   - `kaynak_dizini.jsonl` ve `kaynak_taslak.jsonl`'e yalnız bu komut yazar; elle düzenleme.
+- Kapasite: `kaynak_dizini.jsonl`'de bulunan ama hiçbir kayıtta kullanılmayan bir kaynağı karta bağlamak da pakete YENİ kaynak ekler (Kaynaklar sekmesine yalnız kullanılanlar girer). Kapasite dolu denildiyse bu da "değiştir-boşalt" ister: aynı anda bir kaynağı boşalt (`kaynak_kullanim.py` ile göster). Sevilla d19: iki "zaten dizinde var" kaynağı bağlanınca sayım 500'den 502'ye çıktı.
+- Senin parçanda olmayan bir kaydı ilgilendiren bulguyu (ör. rota bulgusu durak mekânının notunda) düzeltmeye çalışma; değişiklik kaydına `alan: kapsam_disi:<slug>` satırıyla yaz ve dönüşte `open`'da listele. Ana döngü onu o parçanın editörüne verir.
 
 ## 5. İddia defteri
 
