@@ -1,66 +1,69 @@
-# Marbella (CITY-080) — nerede kaldı (devir notu)
+# Marbella (CITY-080): nerede kaldı (devir notu)
 
-Yazıldı: 2 Kasım 2026. Üretim oturumu: bulut (claude.ai/code), `session_01CvxEJ9YWLNBW8jDmXMD3RF`; 28–29 Ekim 2026'da çalıştı, 29 Ekim'de haftalık kullanım limiti dolunca durdu. Bütün iş GitHub'da **`marbella-uretim`** dalında (main'e birleştirilmedi).
+Güncellendi: 2 Kasım 2026, ikinci bulut oturumu (`session_01CvxEJBe5keKSHuRVevDebw`). Bütün iş GitHub'da **`marbella-uretim`** dalında; main'e birleştirilmedi.
 
 ## Kısaca
-- **Bitti:** intake, sources, answers. Places fazının neredeyse tamamı.
-- **Yarıda:** places fazının son adımı. m3 mekân parçasının (21 mekân) **editör turu** çalışmadı: denetim, çürütme ve mekân doğrulama dosyaları hazır, bulgular uygulanmadı.
-- **Başlanmadı:** photos, assemble, deliver.
-- Manifest: `phase: places`, `places: running`. `manifest_check` en son temizdi.
+- **Bitti:** intake, sources, answers, **places** (2 Kasım'da kapandı; kapı temiz).
+- **Yarıda:** photos. Faz açıldı (`mark photos start`, manifest `photos: running`). Plan ve QID adımı yapıldı. **Arama yapılamadı:** Wikimedia bu bulut ağında hız sınırı uyguluyor (30–60 sn bekletme, `cirrussearch-too-busy`). Openverse 60.481 sn bekleme istedi. 110 kaydın yalnız 1'i arandı (Playa de la Fontanilla, 25 aday).
+- **Başlanmadı:** assemble, deliver.
+- `manifest_check`: 0 bulgu.
 
-## Yeni oturumda ilk iş
-1. Dalı al: `git fetch origin marbella-uretim` ve `git checkout marbella-uretim` (ya da `git pull`).
-2. **Ortam:** Bu oturum Linux'taydı (`ROOT=/home/user/corteqscities`, `PY=/home/user/venv/bin/python`), PowerShell yoktu. Komutlar `_is/ortam.sh` ve `_is/kur.sh` ile çalıştı. Windows'ta `_is/ortam.ps1` hazır (aşağıda); `manifest.json` içindeki `paths.*` ve `country_pack.path` Linux yolu: Windows'ta çalışılacaksa ROOT'a göre çevrilmeli (`/home/user/corteqscities` → `C:\temp_private\corteqs\0000_newera`, `/` → `\`). `kaynak_dizini.jsonl` içindeki `text_file` yolları göreli, değişmez.
-3. `manifest_check` → temizse aşağıdaki "Sıradaki adımlar".
-4. Bu oturumu `_is/oturumlar.txt`'ye ekle (ilk satır bulut oturumunun kaydı; faz 7 ölçümünde o kayıt bu makinede yok, `run_log` gap verecek: kanıtıyla `open_items`'a yaz).
+## Yeni oturumda ilk iş (yerel makine)
+1. Dalı al:
+   - `git fetch origin marbella-uretim`
+   - `git checkout marbella-uretim` (ya da `git pull`)
+2. **Ortam:** Windows'ta `_is/ortam.ps1`. `manifest.json` içindeki `paths.*`, `country_pack.path`, `gates[].report` ve `kaynak_dizini.jsonl` → `text_file` alanları **Linux yolu** (`/home/user/corteqscities/...`). Windows'ta çalışılacaksa bunlar ROOT'a göre çevrilmeli: `/home/user/corteqscities` → `C:\temp_private\corteqs\0000_newera`, `/` → `\`. Bir defalık küçük betikle yapılır. Not: `kaynak_dizini.jsonl`'de `text_file` **mutlak** yol (önceki not "göreli" diyordu; yanlıştı).
+3. **Kaynak metinleri:** `snap_*` klasörleri `.gitignore`'da. İlk bulut makinesi kapanınca 429 kaynak metninin hepsi kaybolmuştu; bu oturumda geri kuruldu:
+   - Ülke paketi kopyaları (`snap_ulke_es`, 147): `ulke/ES/kaynaklar` ve `ulke/ES/bolge/andalucia/kaynaklar`'dan kopyalandı. **Git'te değil.** Yerelde `_is/araclar/kaynak_geri_yukle_1_ulke.py` ile yeniden kurulur (yolları düzelt).
+   - Kalan 282: yeniden indirildi. **`.txt` dosyaları git'e zorla eklendi** (`git add -f`, ~16 MB). HTML'ler git'te yok.
+   - Kayıt: `_is/kaynak_geri_yukleme.json`. Yeniden indirilen sayfaların çoğu 28–29 Ekim kopyasından bayt düzeyinde farklı (yalnız 16 sayfa aynı; dinamik içerik). Yine de birleştirmede alıntı uyuşmazlığı 0. Kaynak 246 (seg-social) İngilizce geliyordu, `?lang=es` ile alındı. Kaynak 242 (AEAT) ikinci denemede alındı.
+   - `_is/cache` ve `_is/snap` (KUR'un snapshot klasörü) de git dışı. KUR ilk çalışmada bunları yeniden indirir (~10 dk).
+4. `manifest_check` çalıştır. Bu oturumu `_is/oturumlar.txt`'ye ekle (şu an 2 bulut satırı var; ikisinin kaydı da yerelde yok, faz 7'de `run_log` gap verecek: kanıtıyla `open_items`'a yaz).
 
-## Sayılar (2 Kasım 2026, parça dosyalarından)
+## Sayılar (2 Kasım 2026, KUR sonrası)
 | | Sayı | Asgari / hedef |
 |---|---|---|
-| Yanıtlar (kart) | 229 (105 ülke+Endülüs, 124+ Marbella) | 212 / 240 |
-| Konular | 12 | 12 |
-| Mekânlar | 99 | 92 / 120 |
+| Yanıtlar | 229 | 212 / 240 |
+| Mekânlar | **98** (m1 47, m2 30, m3 21) | 92 / 120 |
 | Mahalleler | 12 | 12 / 16 |
-| Sözlük | 60 | 48 / 60 |
+| Sözlük | **59** | 48 / 60 |
 | Rotalar | 12 | 9 / 12 |
-| Şehir + SayfaAlanları | 1 + 23 | — |
-| Kaynak dizini | 429 (pakette kullanılan ~400) | Kaynaklar sekmesi ≤500 |
+| Bağlantılar | 501 | — |
+| Kaynaklar (pakette) | 402 | ≤500 |
 | Fotoğraf | 0 | 187 / 250, kapak 6 / 8 |
 
-Mekân grupları: Doğa ve açık hava 33, Tarih ve mimari 27, Spor 9, Çocuklarla keşif 8, Müzeler 8, Sanat 6, Sahne 6, Yeme ve içme 2. Yakın çevre gezisi 17 (Mijas, Estepona, Fuengirola, Juanar; sınır 20). BBOX yakın çevre için genişletildi: `36.40,36.62,-5.18,-4.62`.
+Gruplar: Doğa ve açık hava 33, Tarih ve mimari 28, Spor 9, Çocuklarla keşif 7, Müzeler 7, Sanat 6, Sahne 6, Yeme ve içme 2.
 
-En son KUR (mekânlar yazıldıktan sonra): birleştirme ihlali 0, alıntı uyuşmazlığı 0, kurulumda red 0, `validate_all` yapı hatası 0, medya 0, hitap bulgusu 0, warning-scan 0. Mekân editörleri sonrası KUR yeniden çalıştırılmadı.
+Places kapısı (manifest `phases.places.gates`): birleştirme bulgusu 0, alıntı uyuşmazlığı 0, kurulumda red 0, `text_quality` hitap 0, warning-scan 0, `acik_mi` 0, `validate_all` yapı 0 / medya 0 (112 uyarının hepsi fotoğraf eksiği). `kart_tutarlilik` çıkış 1: 11 sözlük-çapalı grup; farklı işlemlerin değerlerini topluyor, d5'te bakılır.
 
-## Biten fazlar (özet)
-- **intake:** Atınç'ın Drive şablonu `ekler/marbella/CITY-080_marbella_v001.xlsx` (delivery_id kopyada küçük harf: OI-002). Ülke + Endülüs paketi uygulandı (105 kart, eskimiş 0). Wikidata QID Q484799, havuz 179 aday (küçük: OI-004).
-- **sources:** 4 keşif ajanı, 286 kaynak, her konuda ≥12.
-- **answers:** 6 yazar + 12 parça için tam denetim zinciri (denetim → çürütme → editör → ek denetim → doğrulayıcı → doğrulama turu). 134 Marbella kartının hepsi denetlendi. Editörler 5 ülke kartını değiştirdi → assemble d5'te denetlenecek (OI-007).
-- **places:** 3 seçim turu (ikinci ve üçüncüsü kullanıcı kararıyla: 80 → 101 mekân), 3 mekân yazarı, mahalle+sözlük, sayfa ve rota yazarı. "Bugün açık mı": 2 tarayıcı + 2 şüpheci doğrulayıcı + uygulama editörü; **kapı `acik_mi.py` çıkış 0**; kalıcı kapanmış mekân yok, 7 karta tarihli not (Casa Consistorial reformda, Castillo iç alanı kapalı, Auditorio kışın kapalı, Carlos Cabezas yeni saha, Represa pump track inşaatı, Torres Vigía merkezi geçici kapalı, San Pedro pazarı yenileme planı). Rota bacakları ölçüldü (`rota_mesafe.jsonl`, 36/36, problem 0).
-- **Yer denetimi** (`_is/araclar/yer_zinciri.js` workflow; ucuz yol: çürütme ve doğrulayıcı yalnız ciddi bulguda): mahalle, sözlük, rota, m1, m2 bitti; **m3 editörü çalışmadı.** K108 ile iki mekân silindi: `centro-tecnico-de-alto-rendimiento` (Represa'ya taşındı), `hospital-real-de-la-misericordia` (Capilla de San Juan de Dios ile aynı yapı; rota 007 güncellendi).
+## Bu oturumda yapılanlar
+- **m3 editör turu:** 42 bulgu, 38 uygulandı, 4 reddedildi (kaynakta adres yok, koordinat değişmedi). 19 kayıt değişti. Capilla de San Juan de Dios kartına kaynak:272 bilgisi eklendi (Hospital Real ile aynı yapı). Castillo de San Luis grubu Müzeler → Tarih ve mimari.
+- **m3 doğrulayıcı:** 46 satır; hatalı düzeltme 0, ciddi/orta 0, 9 hafif eksik (OI-011). Doğrulama turu gerekmedi.
+- **Kararlar (kullanıcı onayı):**
+  - `parque-del-mediterraneo` silindi (K108). Bilgisi `playa-el-pinillo` kartına taşındı (16 voleybol sahası, saatler; defter satırları da). Rota 009'un son durağı El Pinillo oldu (aynı nokta, `rota_mesafe` bacağı aynı).
+  - Sözlük `term:054 Cercanías` silindi.
+  - `parque-vigil-de-quinones` / `polideportivo-paco-cantos` aynı koordinat: CartoCiudad Cánovas del Castillo 31 = Vigil'in adresi, doğru. Paco Cantos'un adresi "s/n", resmî portal yok; kural gereği değişmedi → OI-010 (OSM'de ~170 m güneyde).
+- **Açık-mı kapısı:** yer denetim editörleri 7 kartın "… itibarıyla" notunu kaldırmış ya da biçimini değiştirmişti, kapı 7 `not_yok` verdi. Ana döngü notları kapı biçimine getirdi; editörlerin kaynakla düzelttiği içerik korundu.
+- Bütün ana döngü değişiklikleri: `_is/denetim/kur-ana_degisiklik.jsonl`.
 
 ## Sıradaki adımlar
-1. **m3 editör turu** (yer_zinciri.js'teki `editorIstemi`, parça `m3`, dosyalar `Mekânlar.m3.jsonl`, `Bağlantılar.m3.jsonl`, `Rotalar.rota.jsonl`, `claims/m3.jsonl`). Girdiler hazır: `denetim/m3_iddia.jsonl` (ciddi 1, orta 16, hafif 25), `m3_karar.jsonl` (18 düzelt), `m3_teyit.jsonl` (ciddi bulgu "kısmen"), `m3_mekan-dogrulama.jsonl` (12 "kaldı"). Ciddi bulgu olduğu için ardından doğrulayıcı (+ gerekirse doğrulama turu). m2 doğrulama turunun bıraktığı not: `capilla-de-san-juan-de-dios-marbella` kartına kaynak:272'deki adres/işlev bilgisi eklenmeli (Hospital Real silindi, kapel artık yapının tek kaydı) ve keşif Yanıtlar kartlarında "Hospital Real" geçen metinler bu kayda göre kontrol edilmeli.
-2. **Ana döngü kararları (places kapanmadan):**
-   - `parque-del-mediterraneo`: K108 teyitli (adresi plaj adı, koordinatı El Pinillo ile aynı) ama rota durağı; ya rotadan çıkarılıp silinir ya El Pinillo kartında anlatılır. Silinirse mekân 98 olur (asgari 92 üstünde).
-   - `parque-vigil-de-quinones` ve `polideportivo-paco-cantos` aynı koordinatı paylaşıyor (CartoCiudad yakın portal): resmî adres kaydıyla ayrı koordinat bulunmazsa open_items.
-   - Sözlük `term:054 Cercanías`: Marbella'da tren yok; terim kalsın mı karar.
-3. **Mekân doğrulama satırları (B5):** editörlerin değiştirdiği mekân ve mahallelerde `*_mekan-dogrulama.jsonl` satırları güncellenmedi ("kaldı" satırları: m1 9, m2 5, mahalle 5, m3 12). `kanit_teslim` her kaydın en az bir "geçti" satırını ister: assemble adım 0'da (d5/d6) değişen kayıtlar yeniden denetlenip `<parça>-d5_mekan-dogrulama.jsonl` yazılmalı.
-4. KUR → places kapısı → `manifest` places done → `mark places end` → `manifest_check`.
-5. **photos:** Bu bulut oturumunda **Wikimedia 429** verdi (Commons API, `upload.wikimedia.org` dahil; Openverse zaman aşımı) → `foto/search.jsonl` ve `candidates.jsonl` BOŞ. Kendi bilgisayarında (başka çıkış adresi) yeniden çalıştır: `foto/arama.sh` sırası (commons_search → photo_sources `--sources openverse,smithsonian,europeana` → from-search). Önce `photo_candidates.py plan-from-xlsx` yeniden çalışmalı: `foto/venues.jsonl` hâlâ silinen iki mekânı içeriyor, QID ekleme adımı (`mekan/selected.jsonl` → `wikidata`) yeniden yapılır. 15 mekânın koordinatı yok (Wikidata/CartoCiudad'da bulunamadı); fotoğrafsız mekân teslim edilmez (K22): bulunamazsa places yeniden açılır.
-6. **assemble:** ucuz yol kararı (OI-009): d5 son tam denetim yalnız yer parçaları, değişen kayıtlar ve 5 ülke kartı (OI-007) üzerinde; yanıt kartları zaten tam denetlendi. Teslim zinciri.
-7. **deliver** + RUN_LOG; sonra yeni oturumda `city-audit` ("Marbella paketini denetle").
+1. **photos, adım 1 (yerel makinede):** `venues.jsonl` hazır (110 satır, 57 QID; silinen 3 mekân yok). Plan yeniden üretilmez; mekân değişirse `plan-from-xlsx` + QID adımı tekrarlanır. Arama: `_is/foto/arama.sh` sırası (Windows'ta SKILL komutları): `commons_search` (önbellek `_is/foto/cache`, devam eder) → `photo_sources --sources openverse,smithsonian,europeana` → `photo_candidates from-search`. Sonra SKILL'deki tur1 → inceleme → ikinci göz → kapak → seçim → indirme.
+   - 15 mekânın koordinatı yok. Fotoğrafsız mekân teslim edilmez (K22): bulunamazsa places yeniden açılır (`mark places start/end`).
+2. **assemble adım 0, d5 son denetim** (ucuz yol, OI-009): yalnız yer parçaları (m1, m2, m3, mahalle, rota, sözlük, Şehir), değişen kartlar ve 5 ülke kartı (OI-007). Bu denetim:
+   - B5 `<parça>-d5_mekan-dogrulama.jsonl` satırlarını yazmalı: değişen 87 yer kaydı (OI-012). `kanit_teslim` her kayıtta bir "geçti" satırı ister.
+   - Ana döngünün denetlenmemiş cümlelerini kapsamalı: 7 açık-mı notu, El Pinillo özeti, rota 009.
+   - OI-011'deki 9 hafif eksiği kapatmalı.
+3. Teslim zinciri → deliver + RUN_LOG → yeni oturumda `city-audit` ("Marbella paketini denetle").
 
 ## Dikkat
-- **Tarih:** ülke paketinde 6 kira kartı **5 Kasım 2026**'da, 8 kart 31 Aralık 2026'da eskir. 5 Kasım'dan sonra teslim edilecekse önce o kartların kaynağı yenilenmeli (`country_apply` stale listesi) ya da kartlar şehir yazarına kalır.
-- **Maliyet:** intake–answers 82 ajan (hedef ≤60); kullanıcı kalan fazlar için "ucuz yol"u seçti (OI-009). places'ta ~25 ajan daha kullanıldı. Ölçüm: `_is/phase_log.jsonl` (bulut oturumunun kaydı `/root/.claude/projects/...` bu makinede yok).
-- **Erişim haritası:** `_is/kesif/KESIF_TALIMAT.md` (sede.marbella.es, malaga.es, hidralia.es, puertobanus.com, museosdeandalucia.es, benahavis.es, ojen.es, istan.es kapalı; hcs.es kopyası gzip bozuk).
-- **Açık konular:** `manifest.json` → `open_items` (OI-001 … OI-009). Bilgi eksikleri listesi OI-008'de (şehir otobüsü bileti, su tarifesi, IBI takvimi, nöbetçi eczane yerine CGCOF bulucu kullanıldı vb.).
-- **Skill/araç notları:** `_is/notlar_skill.md` (Linux ortamı, Wikidata 429, Atınç delivery_id, hcs.es gzip). Teslimden sonra ayrı geliştirme turu.
+- **Tarih:** ülke paketindeki 6 kira kartı (`kira-sozlesmesi-suresi-ve-uzama`, `kira-depozitosu-fianza-ve-iade`, `kira-artisi-siniri-irav`, `kirada-onarim-ve-hasar-sorumlulugu`, `kiralik-evden-cikis-ve-ihbar-suresi`, `kiralik-ilan-dolandiriciligini-tanima`) **5 Kasım 2026**'da, 8 kart 31 Aralık 2026'da eskir. Marbella teslimi 5 Kasım'dan sonraya kalacak. Bu kartlar Marbella'ya intake'te kopyalandı. Teslimden önce ya ülke paketi (`ulke/ES`) yenilenmeli (kaynak yeniden doğrulama + bağımsız denetim, ULKE_FAZI kural 4) ya da bu 6 kartın kaynağı d5'te yeniden doğrulanmalı. Bu oturumda yapılmadı.
+- **Maliyet:** places'e bu oturumda 2 ajan daha (m3 editör, m3 doğrulayıcı). Toplam: intake–answers 82, places ~27.
+- **Erişim haritası:** `_is/kesif/KESIF_TALIMAT.md`. Ek: marbella.es toplu indirmede geçici 500 veriyor, yeniden deneme yetiyor.
+- **Açık konular:** `manifest.json` → `open_items` OI-001 … OI-012.
+- **Skill notları** (teslimden sonra ayrı geliştirme turu): (a) `snap_*` git dışı olduğu için bulut oturumu kapanınca kaynak metinleri kayboluyor; `.txt`'lerin git'e alınması ya da `ulke` kopyalarının yeniden kurulması skill'e yazılmalı. (b) Yer denetim editörü açık-mı notlarını silebiliyor; editör görev mesajına "… itibarıyla notunu koru" eklenmeli. (c) `kaynak_dizini` mutlak yolları makine değişince kırılıyor.
 
-## Dosya haritası (yalnız yeni olanlar)
-- `_is/ortam.sh`, `_is/ortam.ps1`, `_is/kur.sh` (KUR bloğu, Linux), `_is/foto/arama.sh`
-- `_is/araclar/`: `hazirla_denetim.py`, `kartlar_txt.py` (Málaga'dan), `cevap_zinciri.js` (yanıt denetim workflow'u), `yer_zinciri.js` (yer denetim workflow'u; Linux yollarıyla)
-- `_is/yazar/`: `YAZAR_GOREV.md`, `YER_GOREV.md`, `donus_*.jsonl`, `<konu>_eksikler.json`
-- `_is/mekan/`: `SECIM_GOREV.md`, `secim_{1,2,3}.jsonl`, `selected.jsonl`, `plan_m{1,2,3}.jsonl`, `mevcut_secim.txt`
-- `_is/acik_mi/`: tarama ve doğrulama dosyaları; `_is/acik_mi_rapor.json` (çıkış 0)
-- `_is/denetim/`: bütün denetim turları; `kur-ana_degisiklik.jsonl` (ana döngünün küçük düzeltmeleri: 3 K104 cümlesi, pharmacy_url, kaynak:380 yayıncısı)
+## Dosya haritası (bu oturumda eklenenler)
+- `_is/kaynak_geri_yukleme.json`, `_is/araclar/kaynak_geri_yukle_{1_ulke,2_yerlestir}.py` (`GERI` ortam değişkeni = indirme klasörü)
+- `_is/denetim/m3_degisiklik.jsonl`, `m3_dogrulama.jsonl`
+- `_is/snap_*/*.txt` (ülke kopyaları hariç)
+- `_is/foto/venues.jsonl` (yeni plan), `search.jsonl` / `candidates.jsonl` (yalnız 1 mekân), `cache/`
