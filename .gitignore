@@ -6,6 +6,10 @@ __pycache__/
 .omc/logs/
 .omc/artifacts/
 .omc/handoffs/
+.omc/sessions/
+.omc/.project-memory.json.tmp.*
+.omc/project-memory.json.rollback.*
+corteqs-skills/**/.omc/
 
 # Ara çalışma ve önbellek (ürün değil, yeniden üretilebilir)
 uretim/*/_is/cache/
