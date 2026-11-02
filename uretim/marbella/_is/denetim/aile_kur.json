@@ -1,0 +1,44 @@
+{
+ "text_quality": [],
+ "uyari_tarama": [
+  {
+   "yer": "samples",
+   "guncel_kontrol": [
+    "marbella:endulus-okul-kaydi-basvuru-donemi-ve-gec-gelen-ogrenci"
+   ],
+   "belirsiz_durum": [
+    "marbella:dijital-gocebe-vizesi"
+   ]
+  },
+  {
+   "yer": "hits[0]",
+   "sheet": "Yanıtlar",
+   "row": 12,
+   "id": "marbella:endulus-okul-kaydi-basvuru-donemi-ve-gec-gelen-ogrenci",
+   "field": "note",
+   "check": "K104",
+   "patterns": [
+    "guncel_kontrol"
+   ],
+   "sentences": [
+    "Mart başvurusu genel kuraldır; her yılın kesin tarihleri değişebileceğinden güncel dönemi başvurmadan önce Junta'nın eğitim portalından doğrula."
+   ]
+  },
+  {
+   "yer": "hits[1]",
+   "sheet": "Yanıtlar",
+   "row": 12,
+   "id": "marbella:endulus-okul-kaydi-basvuru-donemi-ve-gec-gelen-ogrenci",
+   "field": "summary",
+   "check": "K104",
+   "patterns": [
+    "guncel_kontrol"
+   ],
+   "sentences": [
+    "Kesin tarihler yıldan yıla değişebilir, başvurmadan önce Junta'nın eğitim portalından güncel dönemi doğrula."
+   ]
+  }
+ ],
+ "birlestir": [],
+ "claim_check_number_kalan": []
+}

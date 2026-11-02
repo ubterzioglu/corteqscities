@@ -1,0 +1,43 @@
+{
+  "tool": "acik_mi",
+  "acik_mi": "/home/user/corteqscities/uretim/marbella/_is/acik_mi",
+  "mekanlar": [
+    "/home/user/corteqscities/uretim/marbella/_is/data/parcalar/Mekânlar.m1.jsonl",
+    "/home/user/corteqscities/uretim/marbella/_is/data/parcalar/Mekânlar.m2.jsonl",
+    "/home/user/corteqscities/uretim/marbella/_is/data/parcalar/Mekânlar.m3.jsonl"
+  ],
+  "kaynaklar": [
+    "/home/user/corteqscities/uretim/marbella/_is/kaynak_dizini.jsonl"
+  ],
+  "min_year": 2025,
+  "mekan": 98,
+  "tarama": {
+    "dosya": 6,
+    "satir": 101,
+    "mekan": 101
+  },
+  "dogrulama": {
+    "dosya": 6,
+    "satir": 60
+  },
+  "durum": {
+    "belirsiz": 55,
+    "açık": 44,
+    "insaat": 2
+  },
+  "eylem": {
+    "dokunma": 53,
+    "kartta belirt": 7
+  },
+  "sonuc": {
+    "onay": 37,
+    "ret": 23
+  },
+  "listede_olmayan": {
+    "tarama": 3,
+    "dogrulama": 3
+  },
+  "findings": [],
+  "by_code": {},
+  "out": "/home/user/corteqscities/uretim/marbella/_is/acik_mi_rapor.json"
+}

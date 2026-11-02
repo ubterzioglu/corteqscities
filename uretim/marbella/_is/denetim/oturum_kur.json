@@ -1,0 +1,51 @@
+{
+ "text_quality": [
+  {
+   "yer": "address.findings[1]",
+   "sheet": "Yanıtlar",
+   "row": 106,
+   "id": "marbella:altin-vize-sona-erdi",
+   "form": "karisik",
+   "fields": {
+    "steps": "karisik"
+   },
+   "siz": [
+    "başvurun"
+   ],
+   "sen": [
+    "planlıyorsan",
+    "yaptıysan",
+    "iznin",
+    "istiyorsan"
+   ],
+   "reason": "karisik"
+  }
+ ],
+ "uyari_tarama": [
+  {
+   "yer": "samples",
+   "guncel_kontrol": [
+    "marbella:endulus-okul-kaydi-basvuru-donemi-ve-gec-gelen-ogrenci"
+   ],
+   "belirsiz_durum": [
+    "marbella:dijital-gocebe-vizesi"
+   ]
+  },
+  {
+   "yer": "hits[2]",
+   "sheet": "Yanıtlar",
+   "row": 104,
+   "id": "marbella:dijital-gocebe-vizesi",
+   "field": "note",
+   "check": "K104",
+   "patterns": [
+    "belirsiz_durum"
+   ],
+   "sentences": [
+    "Şart listesi İstanbul Başkonsolosluğu'nun 7 Ocak 2025 tarihli sayfasındandır; vize ücreti ve diğer şartlar sonradan değişmiş olabilir."
+   ]
+  }
+ ],
+ "birlestir": [],
+ "claim_check_number_kalan": []
+}

@@ -1,0 +1,449 @@
+{
+ "schema_version": "1",
+ "city": {
+  "city_id": "marbella",
+  "name": "Marbella",
+  "country": "İspanya",
+  "city_code": "CITY-080"
+ },
+ "paths": {
+  "work": "/home/user/corteqscities/uretim/marbella",
+  "package_root": "/home/user/corteqscities/uretim/marbella/paket",
+  "template_xlsx": "/home/user/corteqscities/ekler/marbella/CITY-080_marbella_v001.xlsx",
+  "tools": "/home/user/corteqscities/araclar/arac",
+  "delivery_xlsx": "/home/user/corteqscities/uretim/marbella/paket/CITY-080_marbella_v001.xlsx",
+  "data_dir": "/home/user/corteqscities/uretim/marbella/_is/data",
+  "snapshots": "/home/user/corteqscities/uretim/marbella/_is/snap",
+  "cache": "/home/user/corteqscities/uretim/marbella/_is/cache",
+  "usage_log": "/home/user/corteqscities/uretim/marbella/_is/phase_log.jsonl"
+ },
+ "country_pack": {
+  "path": "/home/user/corteqscities/uretim/marbella/_is/ulke_paketi",
+  "valid_until": "2026-11-05"
+ },
+ "phase": "photos",
+ "phases": {
+  "intake": {
+   "status": "done",
+   "started_at": "2026-10-28T08:59:29Z",
+   "gates": [
+    {
+     "script": "xlsx_dump",
+     "exit_code": 0,
+     "summary": {
+      "sheets": 16,
+      "missing_sheets": [],
+      "total_rows": 2
+     },
+     "report": "/home/user/corteqscities/uretim/marbella/_is/sablon_dump",
+     "at": "2026-10-28T09:02:00Z"
+    },
+    {
+     "script": "validate_all",
+     "exit_code": 1,
+     "summary": {
+      "structure": {
+       "errors": 8
+      },
+      "note": "yalnız 8 şablon Şehir hatası (delivery_id düzeltmesinden sonra; önce 9)"
+     },
+     "report": "/home/user/corteqscities/uretim/marbella/_is/val_sablon.json",
+     "at": "2026-10-28T09:02:00Z"
+    },
+    {
+     "script": "wikidata_places",
+     "exit_code": 0,
+     "summary": {
+      "items": 179,
+      "with_site": 20,
+      "with_image": 103,
+      "with_category": 103
+     },
+     "report": "/home/user/corteqscities/uretim/marbella/_is/mekan/wikidata_aday.jsonl",
+     "at": "2026-10-28T09:02:00Z"
+    },
+    {
+     "script": "pack_merge+country_apply",
+     "exit_code": 0,
+     "summary": {
+      "cards": 105,
+      "claims": 2186,
+      "sources_added": 147,
+      "stale": 0
+     },
+     "report": "/home/user/corteqscities/uretim/marbella/_is/ulke_paketi/pack.json",
+     "at": "2026-10-28T09:02:00Z"
+    },
+    {
+     "script": "fetch_snapshot",
+     "exit_code": 1,
+     "summary": {
+      "urls": 44,
+      "saved": 27,
+      "failed": 17,
+      "thin_text": 3
+     },
+     "report": "/home/user/corteqscities/uretim/marbella/_is/kesif/erisim_snap/index.jsonl",
+     "at": "2026-10-28T09:02:00Z"
+    }
+   ],
+   "outputs": [
+    "/home/user/corteqscities/uretim/marbella/_is/sablon.xlsx",
+    "/home/user/corteqscities/uretim/marbella/_is/data/Konular.jsonl",
+    "/home/user/corteqscities/uretim/marbella/_is/yazar/ilk5.json",
+    "/home/user/corteqscities/uretim/marbella/_is/kesif/KESIF_TALIMAT.md",
+    "/home/user/corteqscities/uretim/marbella/_is/ortam.sh"
+   ],
+   "ended_at": "2026-10-28T09:02:41Z"
+  },
+  "sources": {
+   "status": "done",
+   "started_at": "2026-10-28T09:03:08Z",
+   "gates": [
+    {
+     "script": "add_sources",
+     "exit_code": 1,
+     "summary": {
+      "per_topic": {
+       "planlama": 14,
+       "oturum": 16,
+       "resmi": 15,
+       "ev": 16,
+       "fatura": 17,
+       "para": 12,
+       "saglik": 13,
+       "is": 12,
+       "aile": 14,
+       "ulasim": 12,
+       "gunluk": 15,
+       "kesif": 17
+      },
+      "min": 12,
+      "kaynak_dizini": 286,
+      "ulke_paketi_kaynak": 147,
+      "rejected": {
+       "saglik": 3,
+       "is": 1,
+       "ev": 1,
+       "para": 1,
+       "ulasim": 4,
+       "gunluk": 1
+      }
+     },
+     "report": "/home/user/corteqscities/uretim/marbella/_is/kaynak_dizini.jsonl",
+     "at": "2026-10-28T09:21:41Z"
+    }
+   ],
+   "outputs": [
+    "/home/user/corteqscities/uretim/marbella/_is/yazar/planlama_kaynaklar.jsonl",
+    "/home/user/corteqscities/uretim/marbella/_is/yazar/oturum_kaynaklar.jsonl",
+    "/home/user/corteqscities/uretim/marbella/_is/yazar/resmi_kaynaklar.jsonl",
+    "/home/user/corteqscities/uretim/marbella/_is/yazar/ev_kaynaklar.jsonl",
+    "/home/user/corteqscities/uretim/marbella/_is/yazar/fatura_kaynaklar.jsonl",
+    "/home/user/corteqscities/uretim/marbella/_is/yazar/para_kaynaklar.jsonl",
+    "/home/user/corteqscities/uretim/marbella/_is/yazar/saglik_kaynaklar.jsonl",
+    "/home/user/corteqscities/uretim/marbella/_is/yazar/is_kaynaklar.jsonl",
+    "/home/user/corteqscities/uretim/marbella/_is/yazar/aile_kaynaklar.jsonl",
+    "/home/user/corteqscities/uretim/marbella/_is/yazar/ulasim_kaynaklar.jsonl",
+    "/home/user/corteqscities/uretim/marbella/_is/yazar/gunluk_kaynaklar.jsonl",
+    "/home/user/corteqscities/uretim/marbella/_is/yazar/kesif_kaynaklar.jsonl",
+    "/home/user/corteqscities/uretim/marbella/_is/kesif/gaps.json"
+   ],
+   "ended_at": "2026-10-28T09:21:41Z"
+  },
+  "answers": {
+   "status": "done",
+   "started_at": "2026-10-28T09:21:47Z",
+   "gates": [
+    {
+     "script": "merge_package",
+     "exit_code": 0,
+     "summary": {
+      "Yanıtlar": 229,
+      "Bağlantılar": 378,
+      "Adımlar": 7,
+      "sources_used": 282,
+      "claims": 3687,
+      "quote_miss": 0,
+      "issues": 0
+     },
+     "report": "/home/user/corteqscities/uretim/marbella/_is/birlestir_rapor.json",
+     "at": "2026-10-28T12:15:32Z"
+    },
+    {
+     "script": "build_xlsx",
+     "exit_code": 0,
+     "summary": {
+      "rejected": 0
+     },
+     "report": "/home/user/corteqscities/uretim/marbella/_is/build.json",
+     "at": "2026-10-28T12:15:32Z"
+    },
+    {
+     "script": "text_quality",
+     "exit_code": 0,
+     "summary": {
+      "findings": 0,
+      "address_findings": 0,
+      "cards_total": 229
+     },
+     "report": "/home/user/corteqscities/uretim/marbella/_is/text_quality.json",
+     "at": "2026-10-28T12:15:32Z"
+    },
+    {
+     "script": "warning-scan",
+     "exit_code": 0,
+     "summary": {
+      "findings": 0,
+      "not": "3 K104 cümlesi ana döngüde düzeltildi (denetim/kur-ana_degisiklik.jsonl)"
+     },
+     "report": "/home/user/corteqscities/uretim/marbella/_is/uyari_tarama.json",
+     "at": "2026-10-28T12:15:32Z"
+    },
+    {
+     "script": "kart_tutarlilik",
+     "exit_code": 1,
+     "summary": {
+      "groups": 4,
+      "farkli_degerli": 1,
+      "not": "EX-01 harcı 10,94 € (ilk geçici izin 2.1.1) ve 16,40 € (yenileme 2.2.1): farklı işlemler, çelişki değil; tutarlılık editörü açılmadı"
+     },
+     "report": "/home/user/corteqscities/uretim/marbella/_is/tutarlilik.json",
+     "at": "2026-10-28T12:15:32Z"
+    },
+    {
+     "script": "validate_all",
+     "exit_code": 1,
+     "summary": {
+      "structure": {
+       "errors": 8
+      },
+      "note": "yalnız 8 şablon Şehir hatası; Şehir satırı places fazında"
+     },
+     "report": "/home/user/corteqscities/uretim/marbella/_is/val_ara.json",
+     "at": "2026-10-28T12:15:32Z"
+    },
+    {
+     "script": "claim_audit",
+     "exit_code": 0,
+     "summary": {
+      "city_cards": 134,
+      "country_skip": 100,
+      "country_audit_pending": 5,
+      "unaudited_city": 0,
+      "ciddi_ilk": 11,
+      "not": "12 konu: denetim → çürütme → editör → (ek denetim) → doğrulayıcı → doğrulama turu"
+     },
+     "report": "/home/user/corteqscities/uretim/marbella/_is/denetim",
+     "at": "2026-10-28T12:15:32Z"
+    }
+   ],
+   "outputs": [
+    "/home/user/corteqscities/uretim/marbella/_is/data/parcalar",
+    "/home/user/corteqscities/uretim/marbella/_is/claims",
+    "/home/user/corteqscities/uretim/marbella/_is/denetim"
+   ],
+   "ended_at": "2026-10-28T12:15:32Z"
+  },
+  "places": {
+   "status": "done",
+   "started_at": "2026-10-28T15:06:49Z",
+   "gates": [
+    {
+     "script": "merge_package",
+     "exit_code": 0,
+     "summary": {
+      "Mekânlar": 98,
+      "Mahalleler": 12,
+      "Rotalar": 12,
+      "Sözlük": 59,
+      "Bağlantılar": 501,
+      "quote_miss": 0,
+      "issues": 0
+     },
+     "report": "/home/user/corteqscities/uretim/marbella/_is/birlestir_rapor.json",
+     "at": "2026-11-02T12:20:22Z"
+    },
+    {
+     "script": "build_xlsx",
+     "exit_code": 0,
+     "summary": {
+      "rejected": 0
+     },
+     "report": "/home/user/corteqscities/uretim/marbella/_is/build.json",
+     "at": "2026-11-02T12:20:22Z"
+    },
+    {
+     "script": "text_quality",
+     "exit_code": 0,
+     "summary": {
+      "findings": 0,
+      "address_findings": 0,
+      "address_standard": "sen"
+     },
+     "report": "/home/user/corteqscities/uretim/marbella/_is/text_quality.json",
+     "at": "2026-11-02T12:20:22Z"
+    },
+    {
+     "script": "warning-scan",
+     "exit_code": 0,
+     "summary": {
+      "findings": 0
+     },
+     "report": "/home/user/corteqscities/uretim/marbella/_is/uyari_tarama.json",
+     "at": "2026-11-02T12:20:22Z"
+    },
+    {
+     "script": "kart_tutarlilik",
+     "exit_code": 1,
+     "summary": {
+      "groups": 48,
+      "farkli_degerli": 11,
+      "not": "Sözlük-çapalı gruplar farklı işlemlerin değerlerini topluyor (ör. TIE ücretleri, NIE süreleri); places kayıtlarını etkileyen çelişki yok, d5'te yeniden bakılır."
+     },
+     "report": "/home/user/corteqscities/uretim/marbella/_is/tutarlilik.json",
+     "at": "2026-11-02T12:20:22Z"
+    },
+    {
+     "script": "validate_all",
+     "exit_code": 0,
+     "summary": {
+      "structure_errors": 0,
+      "media_errors": 0,
+      "warnings": 112,
+      "not": "uyarıların hepsi fotoğraf eksiği (photos fazı)"
+     },
+     "report": "/home/user/corteqscities/uretim/marbella/_is/val_ara.json",
+     "at": "2026-11-02T12:20:22Z"
+    },
+    {
+     "script": "acik_mi",
+     "exit_code": 0,
+     "summary": {
+      "mekan": 98,
+      "findings": 0,
+      "kartta_belirt": 7,
+      "kalici_kapali": 0
+     },
+     "report": "/home/user/corteqscities/uretim/marbella/_is/acik_mi_rapor.json",
+     "at": "2026-11-02T12:20:22Z"
+    },
+    {
+     "script": "rota_mesafe",
+     "exit_code": 0,
+     "summary": {
+      "bacak": 36,
+      "problem": 0,
+      "not": "rota 009 son durağı parque-del-mediterraneo → playa-el-pinillo (aynı nokta)"
+     },
+     "report": "/home/user/corteqscities/uretim/marbella/_is/rota_mesafe.jsonl",
+     "at": "2026-11-02T12:20:22Z"
+    }
+   ],
+   "outputs": [
+    "/home/user/corteqscities/uretim/marbella/_is/data/Mekânlar.jsonl",
+    "/home/user/corteqscities/uretim/marbella/_is/data/Mahalleler.jsonl",
+    "/home/user/corteqscities/uretim/marbella/_is/data/Rotalar.jsonl",
+    "/home/user/corteqscities/uretim/marbella/_is/data/Sözlük.jsonl",
+    "/home/user/corteqscities/uretim/marbella/_is/ara/ara.xlsx",
+    "/home/user/corteqscities/uretim/marbella/_is/kaynak_geri_yukleme.json"
+   ],
+   "ended_at": "2026-11-02T12:20:22Z"
+  },
+  "photos": {
+   "status": "running",
+   "started_at": "2026-11-02T12:21:15Z",
+   "gates": [],
+   "outputs": []
+  }
+ },
+ "open_items": [
+  {
+   "id": "OI-001",
+   "priority": "P2",
+   "text": "Erişim: sede.marbella.es, mgec.es, puertodeandalucia.es bağlantı kurulamadı; hidralia.es, puertobanus.com, museosdeandalucia.es TLS sertifika hatası (doğrulama kapatılmadı, kural 8); malaga.es 405, sede.administracionespublicas.gob.es ve mivau.gob.es 403; Junta okul kayıt sayfası 503; sede.agenciatributaria.gob.es bağlantı sıfırlandı. Bilgi başka resmî kurumdan alınacak; erişim teyidi açık.",
+   "evidence": "/home/user/corteqscities/uretim/marbella/_is/kesif/erisim_snap/index.jsonl",
+   "owner": "insan"
+  },
+  {
+   "id": "OI-002",
+   "priority": "P2",
+   "text": "Atınç şablonunda delivery_id büyük harfli (CITY-080-v001): resmî doğrulayıcı reddediyor. Yalnız _is/sablon.xlsx kopyasında city-080-v001 yapıldı (yedek _is/sablon_orijinal_kopya.xlsx).",
+   "evidence": "/home/user/corteqscities/uretim/marbella/_is/val_sablon.json",
+   "owner": "atinc"
+  },
+  {
+   "id": "OI-003",
+   "priority": "P2",
+   "text": "Bilgi: Şehir.priority alanının anlamı sözleşmede tanımsız (şablondaki 3 korunuyor); Şehir.source_url (Kapsam kaynağı) şablonda InterNations listesi — anlamı Atınç'a soruldu.",
+   "evidence": "/home/user/corteqscities/uretim/marbella/_is/sablon_dump/Şehir.jsonl",
+   "owner": "atinc"
+  },
+  {
+   "id": "OI-004",
+   "priority": "P1",
+   "text": "Erken ölçüm (kural 15, faz 5): Marbella Wikidata mekân havuzu küçük — 179 aday, 103'ünde fotoğraf (Málaga 2.114). Mekân asgarisi 92 / hedef 120 ve foto asgarisi 187 zorlanabilir; seçimde yakın çevre gezisi payı (≤20) ve resmî sitelerden tamamlama gerekebilir.",
+   "evidence": "/home/user/corteqscities/uretim/marbella/_is/mekan/wikidata_aday.jsonl",
+   "owner": "ai"
+  },
+  {
+   "id": "OI-005",
+   "priority": "P2",
+   "text": "Erişim/araç: hcs.es (Hospital Costa del Sol) sayfaları gzip baytı olarak kaydedildi, kanıt aranamadı (2 sayfa reddedildi); hastane bilgisi SAS merkez sayfalarından. ayuntamiento.marbella.es ordenanza PDF'leri ince/taranmış (5 red). Junta 2 sayfa 504/zaman aşımı.",
+   "evidence": "/home/user/corteqscities/uretim/marbella/_is/snap_kesif_saglik/eklenen.json",
+   "owner": "ai"
+  },
+  {
+   "id": "OI-006",
+   "priority": "P2",
+   "text": "Kart sayısı: ev 16 ve keşif 15 kart (konu başına 18 beklenir). Ev: Marbella kira düzeyi ve VUT kararı için erişilebilir resmî kaynak yok (mivau 403). Keşif: liman, müze saat/ücret ve Sierra Blanca patika sayfalarında gövde metni yok; places fazında yeni mekân kaynaklarıyla tamamlanacak. Toplam 229 kart (asgari 212, hedef 240).",
+   "evidence": "/home/user/corteqscities/uretim/marbella/_is/birlestir_rapor.json",
+   "owner": "ai"
+  },
+  {
+   "id": "OI-007",
+   "priority": "P1",
+   "text": "Editörler 5 ülke kartını değiştirdi (dijital-gocebe-vizesi, altin-vize-sona-erdi, yillik-izin-ve-resmi-tatiller-2026, endulus-saglik-karti..., endulus-okul-kaydi...; sonuncusu ana döngünün K104 düzeltmesi). audit-scope bunları 'audit' yaptı; assemble adım 0 (d5 son tam denetim) bu 5 kartı denetler.",
+   "evidence": "/home/user/corteqscities/uretim/marbella/_is/ulke_denetim_kapsami.json",
+   "owner": "ai"
+  },
+  {
+   "id": "OI-008",
+   "priority": "P2",
+   "text": "Bilgi eksikleri (resmî kaynakta yok/erişilemez; kartlara yazılmadı): Marbella şehir otobüsü tek bilet ve Bonobús tutarı; ORE park tarifesi; havalimanı otobüsü saatleri; su tarifesi ve abonelik belgeleri; çöp tasası; IBI/IVTM tutar ve takvim; nöbetçi eczane; Málaga Oficina de Extranjería adresi; Türk fahri konsolosluğu iletişimi; Marbella'nın 2026 yerel tatil günleri; belediye kreşi 2026/27 takvimi; liman ve müze saat/ücretleri.",
+   "evidence": "/home/user/corteqscities/uretim/marbella/_is/kesif/gaps.json",
+   "owner": "insan"
+  },
+  {
+   "id": "OI-009",
+   "priority": "P2",
+   "text": "Maliyet kararı (kural 15; Barış 28.10.2026): ilk 3 fazda 82 ajan (hedef ≤60). Kullanıcı 'ucuz yol'u seçti: places/photos/assemble ~25–30 ajan; çürütme yalnız ciddi bulguda; d5 son denetim yalnız mekân/mahalle/rota/sözlük/Şehir ve değişen kartlarda (yanıt kartları tam denetlendi); foto incelemesi ana döngüde. BBOX yakın çevre gezileri için 36.40,36.62,-5.18,-4.62'ye genişletildi.",
+   "evidence": "/home/user/corteqscities/uretim/marbella/_is/phase_log.jsonl",
+   "owner": "insan"
+  },
+  {
+   "id": "OI-010",
+   "priority": "P2",
+   "text": "parque-vigil-de-quinones ve polideportivo-paco-cantos aynı koordinatta (36.51361,-4.89753). Bu nokta CartoCiudad'da Avda. Cánovas del Castillo 31 portalı: Vigil de Quiñones'in adresi, doğru. Paco Cantos'un adresi 's/n', resmî portal kaydı yok; koordinat kuralı gereği değiştirilmedi. OSM'de tesis (leisure=sports_centre, way 986029578) 36.51215,-4.89831'de, ~170 m güneyde: haritada iki pin üst üste düşer.",
+   "evidence": "CartoCiudad findJsonp 'Avenida Cánovas del Castillo 31, Marbella' → 01.29.G29_290690205756; nominatim 'Polideportivo Paco Cantos Marbella' 2.11.2026",
+   "owner": "insan"
+  },
+  {
+   "id": "OI-011",
+   "priority": "P2",
+   "text": "m3 doğrulayıcısının 9 hafif 'eksik_kalan' satırı (5 kaynaksız koordinat: Castillo de San Luis, Lago de las Tortugas, Castillo de Mijas, Iglesia Inmaculada Mijas; Torres Vigía summary kipi; Peña notunda Virgen del Carmen atfı; Remedios defter C-1; CAC 'Ziyaret bilgisi' bağlantısı belediye sayfasında; Tejerinas Marchá cümlesi tarihsiz). Ciddi/orta yok; d5 son denetimde (assemble adım 0) kapatılacak.",
+   "evidence": "/home/user/corteqscities/uretim/marbella/_is/denetim/m3_dogrulama.jsonl",
+   "owner": "ai"
+  },
+  {
+   "id": "OI-012",
+   "priority": "P2",
+   "text": "B5: editörlerin değiştirdiği 87 yer kaydının (m1 38, m2 18, m3 19, mahalle 12) mekân doğrulama satırı güncellenmedi; ana döngünün 7 açık-mı notu, El Pinillo ve rota 009 değişikliği denetlenmedi (kur-ana_degisiklik.jsonl). Ucuz yol (OI-009) gereği assemble adım 0'daki d5 son denetimde <parça>-d5_iddia/_karar/_mekan-dogrulama yazılacak; kanit_teslim her kaydın bir 'geçti' satırını ister.",
+   "evidence": "/home/user/corteqscities/uretim/marbella/_is/denetim/kur-ana_degisiklik.jsonl",
+   "owner": "ai"
+  }
+ ],
+ "sources_researched": 286,
+ "photos_downloaded": 0,
+ "next_step": "photos: plan+QID hazır (foto/venues.jsonl, 110 satır). Commons/Openverse bu bulut ağında hız sınırlı (2.11.2026) — yerel makinede commons_search → photo_sources → from-search, sonra tur1. Ayrıntı: uretim/marbella/DURUM.md"
+}
