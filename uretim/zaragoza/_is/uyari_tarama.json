@@ -35,8 +35,8 @@
     ]
   },
   "summary": {
-    "records": 1010,
-    "values": 1298,
+    "records": 1502,
+    "values": 1758,
     "hits": 0,
     "hit_records": 0,
     "exempt": 0,
@@ -46,12 +46,41 @@
       "K105": 0
     },
     "by_pattern": {},
-    "band_values": 0,
+    "band_values": 4,
     "skipped_sheets": [],
     "findings": 0
   },
   "samples": {},
   "hits": [],
   "exempt": [],
-  "band_values": []
+  "band_values": [
+    {
+      "sheet": "SayfaAlanları",
+      "row": 8,
+      "id": "zaragoza:field:hero_kicker",
+      "field": "hero_kicker",
+      "value": "İspanya · Zaragoza rehberi"
+    },
+    {
+      "sheet": "SayfaAlanları",
+      "row": 9,
+      "id": "zaragoza:field:hero_accent",
+      "field": "hero_accent",
+      "value": "Ebro kıyısında yeni bir başlangıç"
+    },
+    {
+      "sheet": "SayfaAlanları",
+      "row": 10,
+      "id": "zaragoza:field:hero_note",
+      "field": "hero_note",
+      "value": "Aragón'ın başkentinde taşınma, yerleşme ve günlük yaşam için Türkçe, kaynaklı bir yol haritası."
+    },
+    {
+      "sheet": "SayfaAlanları",
+      "row": 20,
+      "id": "zaragoza:field:photo_credit",
+      "field": "photo_credit",
+      "value": "Fotoğrafların yazar ve lisans bilgileri her karenin altında ayrıca belirtilir."
+    }
+  ]
 }

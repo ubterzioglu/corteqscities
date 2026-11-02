@@ -1,29 +1,29 @@
 {
   "note": "'supported' yalnız tutarlılıktır: değer, kartın gösterdiği kaynak snapshot metninde geçiyor. İddianın doğru, güncel ya da aynı statü/dönem için geçerli olduğunun kanıtı değil (doğruluk kanıtı değil); resmî kaynakla ayrıca doğrulanmalı. 'not_in_source' kaynak metni olduğu hâlde değerin bulunmadığını, 'no_snapshot' metin olmadığı/ince olduğu için karar verilemediğini, 'homepage_only_source' kartın yalnız anasayfa(lar)a dayandığını gösterir.",
   "summary": {
-    "claims": 2806,
-    "entries": 207,
+    "claims": 2820,
+    "entries": 214,
     "mode": "unit",
     "by_result": {
-      "supported": 1195,
-      "not_in_source": 1598,
+      "supported": 1197,
+      "not_in_source": 1610,
       "no_snapshot": 13,
       "homepage_only_source": 0,
       "no_source": 0
     },
     "by_kind": {
       "age": {
-        "not_in_source": 141,
+        "not_in_source": 142,
         "supported": 6
       },
       "date": {
         "no_snapshot": 2,
-        "not_in_source": 366,
-        "supported": 123
+        "not_in_source": 369,
+        "supported": 125
       },
       "duration": {
         "no_snapshot": 7,
-        "not_in_source": 524,
+        "not_in_source": 526,
         "supported": 22
       },
       "money": {
@@ -44,18 +44,18 @@
         "supported": 504
       },
       "weekday": {
-        "not_in_source": 268,
+        "not_in_source": 274,
         "supported": 2
       }
     },
-    "number_only_hits": 792,
+    "number_only_hits": 795,
     "source_states": {
       "fetch_error": 9,
       "http_error": 5,
-      "ok": 262
+      "ok": 263
     },
     "snapshot_format": "toolkit",
-    "snapshots_indexed": 329,
+    "snapshots_indexed": 469,
     "snapshots_skipped": []
   },
   "results": [
@@ -178391,6 +178391,776 @@
         "hesap_varsa_girdiler": null,
         "sonuç": "supported",
         "belirsizlik": "kaynakların 2/2 tanesi tam metinle denetlendi; yalnız tutarlılık; doğruluk/güncellik/statü ayrıca doğrulanmalı"
+      }
+    },
+    {
+      "claim_id": "zaragoza:term:034:#1",
+      "entry_id": "zaragoza:term:034",
+      "sheet": "Sözlük",
+      "_row": 41,
+      "field": "definition",
+      "kind": "age",
+      "text": "36 yaşından",
+      "sentence": "Başvuru 36 yaşından küçükler içindir.",
+      "values": [
+        {
+          "kind": "age",
+          "value": 36
+        }
+      ],
+      "result": "not_in_source",
+      "value_levels": [
+        "number"
+      ],
+      "sources": [
+        {
+          "source_id": "zaragoza:kaynak:146",
+          "url": "https://www.aragon.es/tramitador/-/tramite/bono-alquiler-joven-en-la-comunidad-autonoma-de-aragon",
+          "homepage": false,
+          "snapshot_id": "501722afbd5c880bb4417188099aecb28520b9953e17dd8b477a845b050af3b9.txt",
+          "chars": 4835,
+          "snapshot_state": "ok"
+        }
+      ],
+      "evidence": [
+        {
+          "value_index": 0,
+          "source_id": "zaragoza:kaynak:146",
+          "url": "https://www.aragon.es/tramitador/-/tramite/bono-alquiler-joven-en-la-comunidad-autonoma-de-aragon",
+          "snapshot_id": "501722afbd5c880bb4417188099aecb28520b9953e17dd8b477a845b050af3b9.txt",
+          "level": "number",
+          "snippet": "… Autónoma de Aragón para ayudas al alquiler para personas aragonesas menores de 36 años. Dirigido a personas menores de 36 años Requisitos Ser persona física y te…",
+          "fetched_at": "2026-11-02"
+        }
+      ],
+      "uncertainty": "kaynakların 1/1 tanesi tam metinle denetlendi; sayı birimsiz geçiyor (birim eşleşmedi)",
+      "claim_record": {
+        "claim_id": "zaragoza:term:034:#1",
+        "entry_id": "zaragoza:term:034",
+        "Excel_satırı": "Sözlük!41",
+        "iddia": "Başvuru 36 yaşından küçükler içindir.",
+        "ülke_şehir_statü": null,
+        "dönem": null,
+        "resmî_URL": [
+          "https://www.aragon.es/tramitador/-/tramite/bono-alquiler-joven-en-la-comunidad-autonoma-de-aragon"
+        ],
+        "kaynak_bölümü": "… Autónoma de Aragón para ayudas al alquiler para personas aragonesas menores de 36 años. Dirigido a personas menores de 36 años Requisitos Ser persona física y te…",
+        "yayın_yürürlük_tarihleri": null,
+        "kontrol_tarihi": "2026-11-02",
+        "hesap_varsa_girdiler": null,
+        "sonuç": "not_in_source",
+        "belirsizlik": "kaynakların 1/1 tanesi tam metinle denetlendi; sayı birimsiz geçiyor (birim eşleşmedi)"
+      }
+    },
+    {
+      "claim_id": "zaragoza:term:042:#1",
+      "entry_id": "zaragoza:term:042",
+      "sheet": "Sözlük",
+      "_row": 49,
+      "field": "definition",
+      "kind": "date",
+      "text": "18 Ekim",
+      "sentence": "2019'da Uluslararası Turistik İlgi ilan edilmiş, 2026'da 10-18 Ekim'de düzenleniyor.",
+      "values": [
+        {
+          "kind": "date",
+          "day": 18,
+          "month": 10
+        }
+      ],
+      "result": "supported",
+      "value_levels": [
+        "unit"
+      ],
+      "sources": [
+        {
+          "source_id": "zaragoza:kaynak:253",
+          "url": "https://www.zaragoza.es/sede/portal/cultura/fiestas-pilar/",
+          "homepage": false,
+          "snapshot_id": "0bbded814031eee2ca3dd87edc8aca2bbd2e5cc7ae08f24662e32be258c80ee9.txt",
+          "chars": 4538,
+          "snapshot_state": "ok"
+        }
+      ],
+      "evidence": [
+        {
+          "value_index": 0,
+          "source_id": "zaragoza:kaynak:253",
+          "url": "https://www.zaragoza.es/sede/portal/cultura/fiestas-pilar/",
+          "snapshot_id": "0bbded814031eee2ca3dd87edc8aca2bbd2e5cc7ae08f24662e32be258c80ee9.txt",
+          "level": "unit",
+          "snippet": "… los tres millones de asistencias con la música y la cultura como protagonistas 18/10/2026 Las Fiestas del Pilar rozan los tres millones de asistencias con la música y la…",
+          "fetched_at": "2026-11-02"
+        }
+      ],
+      "uncertainty": "kaynakların 1/1 tanesi tam metinle denetlendi; yalnız tutarlılık; doğruluk/güncellik/statü ayrıca doğrulanmalı",
+      "claim_record": {
+        "claim_id": "zaragoza:term:042:#1",
+        "entry_id": "zaragoza:term:042",
+        "Excel_satırı": "Sözlük!49",
+        "iddia": "2019'da Uluslararası Turistik İlgi ilan edilmiş, 2026'da 10-18 Ekim'de düzenleniyor.",
+        "ülke_şehir_statü": null,
+        "dönem": null,
+        "resmî_URL": [
+          "https://www.zaragoza.es/sede/portal/cultura/fiestas-pilar/"
+        ],
+        "kaynak_bölümü": "… los tres millones de asistencias con la música y la cultura como protagonistas 18/10/2026 Las Fiestas del Pilar rozan los tres millones de asistencias con la música y la…",
+        "yayın_yürürlük_tarihleri": null,
+        "kontrol_tarihi": "2026-11-02",
+        "hesap_varsa_girdiler": null,
+        "sonuç": "supported",
+        "belirsizlik": "kaynakların 1/1 tanesi tam metinle denetlendi; yalnız tutarlılık; doğruluk/güncellik/statü ayrıca doğrulanmalı"
+      }
+    },
+    {
+      "claim_id": "zaragoza:term:043:#1",
+      "entry_id": "zaragoza:term:043",
+      "sheet": "Sözlük",
+      "_row": 50,
+      "field": "definition",
+      "kind": "date",
+      "text": "28 Ocak",
+      "sentence": "2026'da 28 Ocak - 1 Şubat arasında müzik, tiyatro ve gelenekler;",
+      "values": [
+        {
+          "kind": "date",
+          "day": 28,
+          "month": 1
+        }
+      ],
+      "result": "not_in_source",
+      "value_levels": [
+        null
+      ],
+      "sources": [
+        {
+          "source_id": "zaragoza:kaynak:255",
+          "url": "https://www.zaragoza.es/sede/portal/cultura/servicio/noticia/347387",
+          "homepage": false,
+          "snapshot_id": "3baeb980b2c5e882491f667f01ff80feca462349840fd8dbe62e472ed7a5ae8f.txt",
+          "chars": 5294,
+          "snapshot_state": "ok"
+        },
+        {
+          "source_id": "zaragoza:kaynak:275",
+          "url": "https://www.zaragoza.es/sede/portal/museos/puerto/visita/entradas",
+          "homepage": false,
+          "snapshot_id": "7100af86e120e5dd06a8cd2c1c604d19197873a4d20f153cb0b4c93e7db91c9f.txt",
+          "chars": 6673,
+          "snapshot_state": "ok"
+        }
+      ],
+      "evidence": [],
+      "uncertainty": "kaynakların 2/2 tanesi tam metinle denetlendi",
+      "claim_record": {
+        "claim_id": "zaragoza:term:043:#1",
+        "entry_id": "zaragoza:term:043",
+        "Excel_satırı": "Sözlük!50",
+        "iddia": "2026'da 28 Ocak - 1 Şubat arasında müzik, tiyatro ve gelenekler;",
+        "ülke_şehir_statü": null,
+        "dönem": null,
+        "resmî_URL": [
+          "https://www.zaragoza.es/sede/portal/cultura/servicio/noticia/347387",
+          "https://www.zaragoza.es/sede/portal/museos/puerto/visita/entradas"
+        ],
+        "kaynak_bölümü": null,
+        "yayın_yürürlük_tarihleri": null,
+        "kontrol_tarihi": "2026-11-02",
+        "hesap_varsa_girdiler": null,
+        "sonuç": "not_in_source",
+        "belirsizlik": "kaynakların 2/2 tanesi tam metinle denetlendi"
+      }
+    },
+    {
+      "claim_id": "zaragoza:term:043:#2",
+      "entry_id": "zaragoza:term:043",
+      "sheet": "Sözlük",
+      "_row": 50,
+      "field": "definition",
+      "kind": "date",
+      "text": "1 Şubat",
+      "sentence": "2026'da 28 Ocak - 1 Şubat arasında müzik, tiyatro ve gelenekler;",
+      "values": [
+        {
+          "kind": "date",
+          "day": 1,
+          "month": 2
+        }
+      ],
+      "result": "not_in_source",
+      "value_levels": [
+        null
+      ],
+      "sources": [
+        {
+          "source_id": "zaragoza:kaynak:255",
+          "url": "https://www.zaragoza.es/sede/portal/cultura/servicio/noticia/347387",
+          "homepage": false,
+          "snapshot_id": "3baeb980b2c5e882491f667f01ff80feca462349840fd8dbe62e472ed7a5ae8f.txt",
+          "chars": 5294,
+          "snapshot_state": "ok"
+        },
+        {
+          "source_id": "zaragoza:kaynak:275",
+          "url": "https://www.zaragoza.es/sede/portal/museos/puerto/visita/entradas",
+          "homepage": false,
+          "snapshot_id": "7100af86e120e5dd06a8cd2c1c604d19197873a4d20f153cb0b4c93e7db91c9f.txt",
+          "chars": 6673,
+          "snapshot_state": "ok"
+        }
+      ],
+      "evidence": [],
+      "uncertainty": "kaynakların 2/2 tanesi tam metinle denetlendi",
+      "claim_record": {
+        "claim_id": "zaragoza:term:043:#2",
+        "entry_id": "zaragoza:term:043",
+        "Excel_satırı": "Sözlük!50",
+        "iddia": "2026'da 28 Ocak - 1 Şubat arasında müzik, tiyatro ve gelenekler;",
+        "ülke_şehir_statü": null,
+        "dönem": null,
+        "resmî_URL": [
+          "https://www.zaragoza.es/sede/portal/cultura/servicio/noticia/347387",
+          "https://www.zaragoza.es/sede/portal/museos/puerto/visita/entradas"
+        ],
+        "kaynak_bölümü": null,
+        "yayın_yürürlük_tarihleri": null,
+        "kontrol_tarihi": "2026-11-02",
+        "hesap_varsa_girdiler": null,
+        "sonuç": "not_in_source",
+        "belirsizlik": "kaynakların 2/2 tanesi tam metinle denetlendi"
+      }
+    },
+    {
+      "claim_id": "zaragoza:term:043:#3",
+      "entry_id": "zaragoza:term:043",
+      "sheet": "Sözlük",
+      "_row": 50,
+      "field": "definition",
+      "kind": "date",
+      "text": "29 Ocak",
+      "sentence": "29 Ocak, Caesaraugusta müzelerinde ücretsiz giriş günüdür.",
+      "values": [
+        {
+          "kind": "date",
+          "day": 29,
+          "month": 1
+        }
+      ],
+      "result": "not_in_source",
+      "value_levels": [
+        null
+      ],
+      "sources": [
+        {
+          "source_id": "zaragoza:kaynak:255",
+          "url": "https://www.zaragoza.es/sede/portal/cultura/servicio/noticia/347387",
+          "homepage": false,
+          "snapshot_id": "3baeb980b2c5e882491f667f01ff80feca462349840fd8dbe62e472ed7a5ae8f.txt",
+          "chars": 5294,
+          "snapshot_state": "ok"
+        },
+        {
+          "source_id": "zaragoza:kaynak:275",
+          "url": "https://www.zaragoza.es/sede/portal/museos/puerto/visita/entradas",
+          "homepage": false,
+          "snapshot_id": "7100af86e120e5dd06a8cd2c1c604d19197873a4d20f153cb0b4c93e7db91c9f.txt",
+          "chars": 6673,
+          "snapshot_state": "ok"
+        }
+      ],
+      "evidence": [],
+      "uncertainty": "kaynakların 2/2 tanesi tam metinle denetlendi",
+      "claim_record": {
+        "claim_id": "zaragoza:term:043:#3",
+        "entry_id": "zaragoza:term:043",
+        "Excel_satırı": "Sözlük!50",
+        "iddia": "29 Ocak, Caesaraugusta müzelerinde ücretsiz giriş günüdür.",
+        "ülke_şehir_statü": null,
+        "dönem": null,
+        "resmî_URL": [
+          "https://www.zaragoza.es/sede/portal/cultura/servicio/noticia/347387",
+          "https://www.zaragoza.es/sede/portal/museos/puerto/visita/entradas"
+        ],
+        "kaynak_bölümü": null,
+        "yayın_yürürlük_tarihleri": null,
+        "kontrol_tarihi": "2026-11-02",
+        "hesap_varsa_girdiler": null,
+        "sonuç": "not_in_source",
+        "belirsizlik": "kaynakların 2/2 tanesi tam metinle denetlendi"
+      }
+    },
+    {
+      "claim_id": "zaragoza:term:046:#1",
+      "entry_id": "zaragoza:term:046",
+      "sheet": "Sözlük",
+      "_row": 53,
+      "field": "definition",
+      "kind": "weekday",
+      "text": "pazartesi",
+      "sentence": "Santiago Castillo, 4 adresinde, pazartesi ve perşembe sabahı ile pazar sabahı hizmet verir.",
+      "values": [
+        {
+          "kind": "weekday",
+          "value": "monday"
+        }
+      ],
+      "result": "not_in_source",
+      "value_levels": [
+        null
+      ],
+      "sources": [
+        {
+          "source_id": "zaragoza:kaynak:260",
+          "url": "https://www.zaragoza.es/sede/servicio/equipamiento/10255",
+          "homepage": false,
+          "snapshot_id": "8bab80b795e16b0d7ffbc25fa0f6b75e507a3a65301b068c8bedc731ef0e5881.txt",
+          "chars": 3511,
+          "snapshot_state": "ok"
+        }
+      ],
+      "evidence": [],
+      "uncertainty": "kaynakların 1/1 tanesi tam metinle denetlendi",
+      "claim_record": {
+        "claim_id": "zaragoza:term:046:#1",
+        "entry_id": "zaragoza:term:046",
+        "Excel_satırı": "Sözlük!53",
+        "iddia": "Santiago Castillo, 4 adresinde, pazartesi ve perşembe sabahı ile pazar sabahı hizmet verir.",
+        "ülke_şehir_statü": null,
+        "dönem": null,
+        "resmî_URL": [
+          "https://www.zaragoza.es/sede/servicio/equipamiento/10255"
+        ],
+        "kaynak_bölümü": null,
+        "yayın_yürürlük_tarihleri": null,
+        "kontrol_tarihi": "2026-11-02",
+        "hesap_varsa_girdiler": null,
+        "sonuç": "not_in_source",
+        "belirsizlik": "kaynakların 1/1 tanesi tam metinle denetlendi"
+      }
+    },
+    {
+      "claim_id": "zaragoza:term:046:#2",
+      "entry_id": "zaragoza:term:046",
+      "sheet": "Sözlük",
+      "_row": 53,
+      "field": "definition",
+      "kind": "weekday",
+      "text": "perşembe",
+      "sentence": "Santiago Castillo, 4 adresinde, pazartesi ve perşembe sabahı ile pazar sabahı hizmet verir.",
+      "values": [
+        {
+          "kind": "weekday",
+          "value": "thursday"
+        }
+      ],
+      "result": "not_in_source",
+      "value_levels": [
+        null
+      ],
+      "sources": [
+        {
+          "source_id": "zaragoza:kaynak:260",
+          "url": "https://www.zaragoza.es/sede/servicio/equipamiento/10255",
+          "homepage": false,
+          "snapshot_id": "8bab80b795e16b0d7ffbc25fa0f6b75e507a3a65301b068c8bedc731ef0e5881.txt",
+          "chars": 3511,
+          "snapshot_state": "ok"
+        }
+      ],
+      "evidence": [],
+      "uncertainty": "kaynakların 1/1 tanesi tam metinle denetlendi",
+      "claim_record": {
+        "claim_id": "zaragoza:term:046:#2",
+        "entry_id": "zaragoza:term:046",
+        "Excel_satırı": "Sözlük!53",
+        "iddia": "Santiago Castillo, 4 adresinde, pazartesi ve perşembe sabahı ile pazar sabahı hizmet verir.",
+        "ülke_şehir_statü": null,
+        "dönem": null,
+        "resmî_URL": [
+          "https://www.zaragoza.es/sede/servicio/equipamiento/10255"
+        ],
+        "kaynak_bölümü": null,
+        "yayın_yürürlük_tarihleri": null,
+        "kontrol_tarihi": "2026-11-02",
+        "hesap_varsa_girdiler": null,
+        "sonuç": "not_in_source",
+        "belirsizlik": "kaynakların 1/1 tanesi tam metinle denetlendi"
+      }
+    },
+    {
+      "claim_id": "zaragoza:term:046:#3",
+      "entry_id": "zaragoza:term:046",
+      "sheet": "Sözlük",
+      "_row": 53,
+      "field": "definition",
+      "kind": "weekday",
+      "text": "pazar",
+      "sentence": "Santiago Castillo, 4 adresinde, pazartesi ve perşembe sabahı ile pazar sabahı hizmet verir.",
+      "values": [
+        {
+          "kind": "weekday",
+          "value": "sunday"
+        }
+      ],
+      "result": "not_in_source",
+      "value_levels": [
+        null
+      ],
+      "sources": [
+        {
+          "source_id": "zaragoza:kaynak:260",
+          "url": "https://www.zaragoza.es/sede/servicio/equipamiento/10255",
+          "homepage": false,
+          "snapshot_id": "8bab80b795e16b0d7ffbc25fa0f6b75e507a3a65301b068c8bedc731ef0e5881.txt",
+          "chars": 3511,
+          "snapshot_state": "ok"
+        }
+      ],
+      "evidence": [],
+      "uncertainty": "kaynakların 1/1 tanesi tam metinle denetlendi",
+      "claim_record": {
+        "claim_id": "zaragoza:term:046:#3",
+        "entry_id": "zaragoza:term:046",
+        "Excel_satırı": "Sözlük!53",
+        "iddia": "Santiago Castillo, 4 adresinde, pazartesi ve perşembe sabahı ile pazar sabahı hizmet verir.",
+        "ülke_şehir_statü": null,
+        "dönem": null,
+        "resmî_URL": [
+          "https://www.zaragoza.es/sede/servicio/equipamiento/10255"
+        ],
+        "kaynak_bölümü": null,
+        "yayın_yürürlük_tarihleri": null,
+        "kontrol_tarihi": "2026-11-02",
+        "hesap_varsa_girdiler": null,
+        "sonuç": "not_in_source",
+        "belirsizlik": "kaynakların 1/1 tanesi tam metinle denetlendi"
+      }
+    },
+    {
+      "claim_id": "zaragoza:term:047:#1",
+      "entry_id": "zaragoza:term:047",
+      "sheet": "Sözlük",
+      "_row": 54,
+      "field": "definition",
+      "kind": "weekday",
+      "text": "pazartesi",
+      "sentence": "pazartesi-cuma, bildirimden sonraki 24 saat içinde toplanır, pazar günü hizmet yoktur.",
+      "values": [
+        {
+          "kind": "weekday",
+          "value": "monday"
+        }
+      ],
+      "result": "not_in_source",
+      "value_levels": [
+        null
+      ],
+      "sources": [
+        {
+          "source_id": "zaragoza:kaynak:259",
+          "url": "https://www.zaragoza.es/sede/servicio/tramite/138",
+          "homepage": false,
+          "snapshot_id": "53051f6faa94d09ba8a7fdee8c5ba67012339178a2a4190f101d2be37f880a1d.txt",
+          "chars": 2852,
+          "snapshot_state": "ok"
+        }
+      ],
+      "evidence": [],
+      "uncertainty": "kaynakların 1/1 tanesi tam metinle denetlendi",
+      "claim_record": {
+        "claim_id": "zaragoza:term:047:#1",
+        "entry_id": "zaragoza:term:047",
+        "Excel_satırı": "Sözlük!54",
+        "iddia": "pazartesi-cuma, bildirimden sonraki 24 saat içinde toplanır, pazar günü hizmet yoktur.",
+        "ülke_şehir_statü": null,
+        "dönem": null,
+        "resmî_URL": [
+          "https://www.zaragoza.es/sede/servicio/tramite/138"
+        ],
+        "kaynak_bölümü": null,
+        "yayın_yürürlük_tarihleri": null,
+        "kontrol_tarihi": "2026-11-02",
+        "hesap_varsa_girdiler": null,
+        "sonuç": "not_in_source",
+        "belirsizlik": "kaynakların 1/1 tanesi tam metinle denetlendi"
+      }
+    },
+    {
+      "claim_id": "zaragoza:term:047:#2",
+      "entry_id": "zaragoza:term:047",
+      "sheet": "Sözlük",
+      "_row": 54,
+      "field": "definition",
+      "kind": "weekday",
+      "text": "cuma",
+      "sentence": "pazartesi-cuma, bildirimden sonraki 24 saat içinde toplanır, pazar günü hizmet yoktur.",
+      "values": [
+        {
+          "kind": "weekday",
+          "value": "friday"
+        }
+      ],
+      "result": "not_in_source",
+      "value_levels": [
+        null
+      ],
+      "sources": [
+        {
+          "source_id": "zaragoza:kaynak:259",
+          "url": "https://www.zaragoza.es/sede/servicio/tramite/138",
+          "homepage": false,
+          "snapshot_id": "53051f6faa94d09ba8a7fdee8c5ba67012339178a2a4190f101d2be37f880a1d.txt",
+          "chars": 2852,
+          "snapshot_state": "ok"
+        }
+      ],
+      "evidence": [],
+      "uncertainty": "kaynakların 1/1 tanesi tam metinle denetlendi",
+      "claim_record": {
+        "claim_id": "zaragoza:term:047:#2",
+        "entry_id": "zaragoza:term:047",
+        "Excel_satırı": "Sözlük!54",
+        "iddia": "pazartesi-cuma, bildirimden sonraki 24 saat içinde toplanır, pazar günü hizmet yoktur.",
+        "ülke_şehir_statü": null,
+        "dönem": null,
+        "resmî_URL": [
+          "https://www.zaragoza.es/sede/servicio/tramite/138"
+        ],
+        "kaynak_bölümü": null,
+        "yayın_yürürlük_tarihleri": null,
+        "kontrol_tarihi": "2026-11-02",
+        "hesap_varsa_girdiler": null,
+        "sonuç": "not_in_source",
+        "belirsizlik": "kaynakların 1/1 tanesi tam metinle denetlendi"
+      }
+    },
+    {
+      "claim_id": "zaragoza:term:047:#3",
+      "entry_id": "zaragoza:term:047",
+      "sheet": "Sözlük",
+      "_row": 54,
+      "field": "definition",
+      "kind": "duration",
+      "text": "24 saat",
+      "sentence": "pazartesi-cuma, bildirimden sonraki 24 saat içinde toplanır, pazar günü hizmet yoktur.",
+      "values": [
+        {
+          "kind": "duration",
+          "value": 24,
+          "unit": "hour"
+        }
+      ],
+      "result": "not_in_source",
+      "value_levels": [
+        "number"
+      ],
+      "sources": [
+        {
+          "source_id": "zaragoza:kaynak:259",
+          "url": "https://www.zaragoza.es/sede/servicio/tramite/138",
+          "homepage": false,
+          "snapshot_id": "53051f6faa94d09ba8a7fdee8c5ba67012339178a2a4190f101d2be37f880a1d.txt",
+          "chars": 2852,
+          "snapshot_state": "ok"
+        }
+      ],
+      "evidence": [
+        {
+          "value_index": 0,
+          "source_id": "zaragoza:kaynak:259",
+          "url": "https://www.zaragoza.es/sede/servicio/tramite/138",
+          "snapshot_id": "53051f6faa94d09ba8a7fdee8c5ba67012339178a2a4190f101d2be37f880a1d.txt",
+          "level": "number",
+          "snippet": "…ud en línea o por teléfono, de lunes a viernes. La recogida se realizará en las 24 horas siguientes al aviso, teniendo en cuenta que los domingos no se presta est…",
+          "fetched_at": "2026-11-02"
+        }
+      ],
+      "uncertainty": "kaynakların 1/1 tanesi tam metinle denetlendi; sayı birimsiz geçiyor (birim eşleşmedi)",
+      "claim_record": {
+        "claim_id": "zaragoza:term:047:#3",
+        "entry_id": "zaragoza:term:047",
+        "Excel_satırı": "Sözlük!54",
+        "iddia": "pazartesi-cuma, bildirimden sonraki 24 saat içinde toplanır, pazar günü hizmet yoktur.",
+        "ülke_şehir_statü": null,
+        "dönem": null,
+        "resmî_URL": [
+          "https://www.zaragoza.es/sede/servicio/tramite/138"
+        ],
+        "kaynak_bölümü": "…ud en línea o por teléfono, de lunes a viernes. La recogida se realizará en las 24 horas siguientes al aviso, teniendo en cuenta que los domingos no se presta est…",
+        "yayın_yürürlük_tarihleri": null,
+        "kontrol_tarihi": "2026-11-02",
+        "hesap_varsa_girdiler": null,
+        "sonuç": "not_in_source",
+        "belirsizlik": "kaynakların 1/1 tanesi tam metinle denetlendi; sayı birimsiz geçiyor (birim eşleşmedi)"
+      }
+    },
+    {
+      "claim_id": "zaragoza:term:047:#4",
+      "entry_id": "zaragoza:term:047",
+      "sheet": "Sözlük",
+      "_row": 54,
+      "field": "definition",
+      "kind": "weekday",
+      "text": "pazar",
+      "sentence": "pazartesi-cuma, bildirimden sonraki 24 saat içinde toplanır, pazar günü hizmet yoktur.",
+      "values": [
+        {
+          "kind": "weekday",
+          "value": "sunday"
+        }
+      ],
+      "result": "not_in_source",
+      "value_levels": [
+        null
+      ],
+      "sources": [
+        {
+          "source_id": "zaragoza:kaynak:259",
+          "url": "https://www.zaragoza.es/sede/servicio/tramite/138",
+          "homepage": false,
+          "snapshot_id": "53051f6faa94d09ba8a7fdee8c5ba67012339178a2a4190f101d2be37f880a1d.txt",
+          "chars": 2852,
+          "snapshot_state": "ok"
+        }
+      ],
+      "evidence": [],
+      "uncertainty": "kaynakların 1/1 tanesi tam metinle denetlendi",
+      "claim_record": {
+        "claim_id": "zaragoza:term:047:#4",
+        "entry_id": "zaragoza:term:047",
+        "Excel_satırı": "Sözlük!54",
+        "iddia": "pazartesi-cuma, bildirimden sonraki 24 saat içinde toplanır, pazar günü hizmet yoktur.",
+        "ülke_şehir_statü": null,
+        "dönem": null,
+        "resmî_URL": [
+          "https://www.zaragoza.es/sede/servicio/tramite/138"
+        ],
+        "kaynak_bölümü": null,
+        "yayın_yürürlük_tarihleri": null,
+        "kontrol_tarihi": "2026-11-02",
+        "hesap_varsa_girdiler": null,
+        "sonuç": "not_in_source",
+        "belirsizlik": "kaynakların 1/1 tanesi tam metinle denetlendi"
+      }
+    },
+    {
+      "claim_id": "zaragoza:term:056:#1",
+      "entry_id": "zaragoza:term:056",
+      "sheet": "Sözlük",
+      "_row": 63,
+      "field": "definition",
+      "kind": "date",
+      "text": "19 Haziran",
+      "sentence": "Aragón başvurusunun 2026 dönemi 8-19 Haziran idi;",
+      "values": [
+        {
+          "kind": "date",
+          "day": 19,
+          "month": 6
+        }
+      ],
+      "result": "supported",
+      "value_levels": [
+        "unit"
+      ],
+      "sources": [
+        {
+          "source_id": "zaragoza:kaynak:228",
+          "url": "https://www.aragon.es/tramitador/-/tramite/becas-comedor-escolar-y-periodo-estival-no-lectivo",
+          "homepage": false,
+          "snapshot_id": "fc5ec43e82c808bf6b16ec31e22d8831a42113db0c4643c1a21018063a998549.txt",
+          "chars": 11806,
+          "snapshot_state": "ok"
+        }
+      ],
+      "evidence": [
+        {
+          "value_index": 0,
+          "source_id": "zaragoza:kaynak:228",
+          "url": "https://www.aragon.es/tramitador/-/tramite/becas-comedor-escolar-y-periodo-estival-no-lectivo",
+          "snapshot_id": "fc5ec43e82c808bf6b16ec31e22d8831a42113db0c4643c1a21018063a998549.txt",
+          "level": "unit",
+          "snippet": "…medor escolar. Trámite No10875 Más Compartir Fuera de plazo - Del 08/06/2026 al 19/06/2026 El plazo de presentación terminó el 19 junio 2026 Consultar trámite Otras accio…",
+          "fetched_at": "2026-11-02"
+        }
+      ],
+      "uncertainty": "kaynakların 1/1 tanesi tam metinle denetlendi; yalnız tutarlılık; doğruluk/güncellik/statü ayrıca doğrulanmalı",
+      "claim_record": {
+        "claim_id": "zaragoza:term:056:#1",
+        "entry_id": "zaragoza:term:056",
+        "Excel_satırı": "Sözlük!63",
+        "iddia": "Aragón başvurusunun 2026 dönemi 8-19 Haziran idi;",
+        "ülke_şehir_statü": null,
+        "dönem": null,
+        "resmî_URL": [
+          "https://www.aragon.es/tramitador/-/tramite/becas-comedor-escolar-y-periodo-estival-no-lectivo"
+        ],
+        "kaynak_bölümü": "…medor escolar. Trámite No10875 Más Compartir Fuera de plazo - Del 08/06/2026 al 19/06/2026 El plazo de presentación terminó el 19 junio 2026 Consultar trámite Otras accio…",
+        "yayın_yürürlük_tarihleri": null,
+        "kontrol_tarihi": "2026-11-02",
+        "hesap_varsa_girdiler": null,
+        "sonuç": "supported",
+        "belirsizlik": "kaynakların 1/1 tanesi tam metinle denetlendi; yalnız tutarlılık; doğruluk/güncellik/statü ayrıca doğrulanmalı"
+      }
+    },
+    {
+      "claim_id": "zaragoza:term:062:#1",
+      "entry_id": "zaragoza:term:062",
+      "sheet": "Sözlük",
+      "_row": 69,
+      "field": "definition",
+      "kind": "duration",
+      "text": "24 saat",
+      "sentence": "yılın her günü 24 saat açıktır.",
+      "values": [
+        {
+          "kind": "duration",
+          "value": 24,
+          "unit": "hour"
+        }
+      ],
+      "result": "not_in_source",
+      "value_levels": [
+        "number"
+      ],
+      "sources": [
+        {
+          "source_id": "zaragoza:kaynak:296",
+          "url": "https://www.zaragoza.es/sede/servicio/equipamiento/490",
+          "homepage": false,
+          "snapshot_id": "78abda3750b48d7869eba83711b13055bfa90a5115c04fe583ddc05bce8a6671.txt",
+          "chars": 6393,
+          "snapshot_state": "ok"
+        }
+      ],
+      "evidence": [
+        {
+          "value_index": 0,
+          "source_id": "zaragoza:kaynak:296",
+          "url": "https://www.zaragoza.es/sede/servicio/equipamiento/490",
+          "snapshot_id": "78abda3750b48d7869eba83711b13055bfa90a5115c04fe583ddc05bce8a6671.txt",
+          "level": "number",
+          "snippet": "… electrónico: albergue@zaragoza.es Horario: Abierto todos los días del año, las 24 horas Cómo llegar en transporte público Compartir Compartir en Twitter Comparti…",
+          "fetched_at": "2026-11-02"
+        }
+      ],
+      "uncertainty": "kaynakların 1/1 tanesi tam metinle denetlendi; sayı birimsiz geçiyor (birim eşleşmedi)",
+      "claim_record": {
+        "claim_id": "zaragoza:term:062:#1",
+        "entry_id": "zaragoza:term:062",
+        "Excel_satırı": "Sözlük!69",
+        "iddia": "yılın her günü 24 saat açıktır.",
+        "ülke_şehir_statü": null,
+        "dönem": null,
+        "resmî_URL": [
+          "https://www.zaragoza.es/sede/servicio/equipamiento/490"
+        ],
+        "kaynak_bölümü": "… electrónico: albergue@zaragoza.es Horario: Abierto todos los días del año, las 24 horas Cómo llegar en transporte público Compartir Compartir en Twitter Comparti…",
+        "yayın_yürürlük_tarihleri": null,
+        "kontrol_tarihi": "2026-11-02",
+        "hesap_varsa_girdiler": null,
+        "sonuç": "not_in_source",
+        "belirsizlik": "kaynakların 1/1 tanesi tam metinle denetlendi; sayı birimsiz geçiyor (birim eşleşmedi)"
       }
     }
   ]

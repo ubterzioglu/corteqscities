@@ -6,7 +6,7 @@
     "near": 0.9
   },
   "summary": {
-    "exact_clusters": 1,
+    "exact_clusters": 2,
     "near_clusters": 0,
     "template_clusters": 0,
     "shared_steps": 0,
@@ -18,31 +18,38 @@
     "caption_is_title": 0,
     "hedge_cards": 0,
     "hedge_share": 0.0,
-    "exact_records": 2,
+    "exact_records": 4,
     "short_repeat_groups": 1,
-    "repeated_sentences": 7,
-    "cards_total": 248,
+    "repeated_sentences": 12,
+    "cards_total": 370,
     "visual_json_empty": 246,
     "address": {
       "standard": "sen",
-      "records": 268,
-      "hitapsiz": 15,
+      "records": 489,
+      "hitapsiz": 210,
       "siz": 0,
-      "sen": 253,
+      "sen": 279,
       "karisik": 0,
       "findings": 0,
       "labels": {
-        "records": 421,
-        "hitapsiz": 13,
+        "records": 563,
+        "hitapsiz": 82,
         "siz": 0,
-        "sen": 408,
+        "sen": 481,
         "karisik": 0
       },
       "skipped": []
     },
-    "findings": 1
+    "findings": 2
   },
   "top_clusters": [
+    {
+      "kind": "exact",
+      "sheet": "Mekânlar",
+      "field": "note",
+      "size": 2,
+      "sample": "Engelliler için ayrılmış otopark ve alan, adapte tuvalet var; rehber köpekler kabul ediliyor. Köpekler serbest bırakılab…"
+    },
     {
       "kind": "exact",
       "sheet": "Yanıtlar",
@@ -52,6 +59,23 @@
     }
   ],
   "exact_duplicates": [
+    {
+      "sheet": "Mekânlar",
+      "field": "note",
+      "size": 2,
+      "length": 121,
+      "sample": "Engelliler için ayrılmış otopark ve alan, adapte tuvalet var; rehber köpekler kabul ediliyor. Köpekler serbest bırakılab…",
+      "members": [
+        {
+          "row": 73,
+          "id": "zaragoza:parque-de-la-aljaferia"
+        },
+        {
+          "row": 82,
+          "id": "zaragoza:parque-lineal-del-ebro-margen-izquierda"
+        }
+      ]
+    },
     {
       "sheet": "Yanıtlar",
       "field": "cost",
@@ -82,6 +106,16 @@
   ],
   "repeated_sentences": [
     {
+      "sheet": "Mekânlar",
+      "sentence": "kopeklerin serbest birakilmasina izin veriliyor",
+      "records": 6,
+      "fields": [
+        "note",
+        "summary"
+      ],
+      "sample": "köpeklerin serbest bırakılmasına izin veriliyor"
+    },
+    {
       "sheet": "Yanıtlar",
       "sentence": "bu kart 7 ekim 2026 tarihli konsolide metne gore yayim 7 ekim yururluk 8 ekim",
       "records": 5,
@@ -100,6 +134,24 @@
         "timing"
       ],
       "sample": "Kira yasası 2026'da değişiyor"
+    },
+    {
+      "sheet": "Mekânlar",
+      "sentence": "gunluk 08 00 22 00 yaz havuzlari 10 30 21 00 arasi aciktir",
+      "records": 4,
+      "fields": [
+        "summary"
+      ],
+      "sample": "Günlük 08:00-22:00, yaz havuzları 10:30-21:00 arası açıktır"
+    },
+    {
+      "sheet": "Mekânlar",
+      "sentence": "kopekler serbest birakilabilir",
+      "records": 4,
+      "fields": [
+        "note"
+      ],
+      "sample": "Köpekler serbest bırakılabilir"
     },
     {
       "sheet": "Yanıtlar",
@@ -121,6 +173,24 @@
         "timing"
       ],
       "sample": "kararname (Real Decreto-ley) olduğu için ileride değişebilir"
+    },
+    {
+      "sheet": "Mekânlar",
+      "sentence": "engelliler icin ayrilmis otopark ve alan adapte tuvalet var",
+      "records": 3,
+      "fields": [
+        "note"
+      ],
+      "sample": "Engelliler için ayrılmış otopark ve alan, adapte tuvalet var"
+    },
+    {
+      "sheet": "Mekânlar",
+      "sentence": "rehber kopekler kabul ediliyor",
+      "records": 3,
+      "fields": [
+        "note"
+      ],
+      "sample": "rehber köpekler kabul ediliyor"
     },
     {
       "sheet": "Yanıtlar",
@@ -161,7 +231,7 @@
     "items": []
   },
   "hedges": {
-    "cards_total": 248,
+    "cards_total": 370,
     "cards_with_hedge": 0,
     "share": 0.0,
     "max_per_card": 0,
@@ -174,7 +244,7 @@
   },
   "action_links": {
     "skipped": false,
-    "checked": 248,
+    "checked": 370,
     "missing": 0,
     "map_only": 0,
     "no_id": 0,
@@ -194,10 +264,10 @@
   },
   "address": {
     "standard": "sen",
-    "records": 268,
-    "hitapsiz": 15,
+    "records": 489,
+    "hitapsiz": 210,
     "siz": 0,
-    "sen": 253,
+    "sen": 279,
     "karisik": 0,
     "by_sheet": {
       "Yanıtlar": {
@@ -208,24 +278,24 @@
         "karisik": 0
       },
       "Mekânlar": {
-        "records": 0,
-        "hitapsiz": 0,
+        "records": 109,
+        "hitapsiz": 104,
         "siz": 0,
-        "sen": 0,
+        "sen": 5,
         "karisik": 0
       },
       "Mahalleler": {
-        "records": 0,
-        "hitapsiz": 0,
+        "records": 13,
+        "hitapsiz": 13,
         "siz": 0,
         "sen": 0,
         "karisik": 0
       },
       "Rotalar": {
-        "records": 0,
+        "records": 12,
         "hitapsiz": 0,
         "siz": 0,
-        "sen": 0,
+        "sen": 12,
         "karisik": 0
       },
       "Adımlar": {
@@ -243,17 +313,17 @@
         "karisik": 0
       },
       "Sözlük": {
-        "records": 0,
-        "hitapsiz": 0,
+        "records": 64,
+        "hitapsiz": 62,
         "siz": 0,
-        "sen": 0,
+        "sen": 2,
         "karisik": 0
       },
       "SayfaAlanları": {
-        "records": 0,
-        "hitapsiz": 0,
+        "records": 23,
+        "hitapsiz": 16,
         "siz": 0,
-        "sen": 0,
+        "sen": 7,
         "karisik": 0
       },
       "Şehir": {
@@ -272,10 +342,10 @@
       }
     },
     "labels": {
-      "records": 421,
-      "hitapsiz": 13,
+      "records": 563,
+      "hitapsiz": 82,
       "siz": 0,
-      "sen": 408,
+      "sen": 481,
       "karisik": 0
     },
     "skipped": [],
@@ -4732,6 +4802,242 @@
         ]
       },
       {
+        "sheet": "Mekânlar",
+        "row": 9,
+        "id": "zaragoza:la-seo-catedral-del-salvador",
+        "form": "sen",
+        "fields": {
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "yaşıyorsan",
+          "girebilirsin",
+          "göstermen"
+        ]
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 41,
+        "id": "zaragoza:alma-mater-museum",
+        "form": "sen",
+        "fields": {
+          "summary": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "ulaşabilirsin"
+        ]
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 54,
+        "id": "zaragoza:museo-goya-coleccion-ibercaja",
+        "form": "sen",
+        "fields": {
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "göster"
+        ]
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 56,
+        "id": "zaragoza:el-tubo",
+        "form": "sen",
+        "fields": {
+          "summary": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "girebilirsin"
+        ]
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 87,
+        "id": "zaragoza:teatro-principal",
+        "form": "sen",
+        "fields": {
+          "summary": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "ulaşabilirsin"
+        ]
+      },
+      {
+        "sheet": "Rotalar",
+        "row": 8,
+        "id": "zaragoza:route:001",
+        "form": "sen",
+        "fields": {
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "başla",
+          "çık",
+          "gir",
+          "yaşıyorsan",
+          "girersin"
+        ]
+      },
+      {
+        "sheet": "Rotalar",
+        "row": 9,
+        "id": "zaragoza:route:002",
+        "form": "sen",
+        "fields": {
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "başla",
+          "gez",
+          "çıkarsın"
+        ]
+      },
+      {
+        "sheet": "Rotalar",
+        "row": 10,
+        "id": "zaragoza:route:003",
+        "form": "sen",
+        "fields": {
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "başla",
+          "gör"
+        ]
+      },
+      {
+        "sheet": "Rotalar",
+        "row": 11,
+        "id": "zaragoza:route:004",
+        "form": "sen",
+        "fields": {
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "yürü",
+          "geçebilirsin"
+        ]
+      },
+      {
+        "sheet": "Rotalar",
+        "row": 12,
+        "id": "zaragoza:route:005",
+        "form": "sen",
+        "fields": {
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "başla"
+        ]
+      },
+      {
+        "sheet": "Rotalar",
+        "row": 13,
+        "id": "zaragoza:route:006",
+        "form": "sen",
+        "fields": {
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "başla",
+          "yürü"
+        ]
+      },
+      {
+        "sheet": "Rotalar",
+        "row": 14,
+        "id": "zaragoza:route:007",
+        "form": "sen",
+        "fields": {
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "başla",
+          "seç",
+          "gir",
+          "çık"
+        ]
+      },
+      {
+        "sheet": "Rotalar",
+        "row": 15,
+        "id": "zaragoza:route:008",
+        "form": "sen",
+        "fields": {
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "başla"
+        ]
+      },
+      {
+        "sheet": "Rotalar",
+        "row": 16,
+        "id": "zaragoza:route:009",
+        "form": "sen",
+        "fields": {
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "başla"
+        ]
+      },
+      {
+        "sheet": "Rotalar",
+        "row": 17,
+        "id": "zaragoza:route:010",
+        "form": "sen",
+        "fields": {
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "başla"
+        ]
+      },
+      {
+        "sheet": "Rotalar",
+        "row": 18,
+        "id": "zaragoza:route:011",
+        "form": "sen",
+        "fields": {
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "gez"
+        ]
+      },
+      {
+        "sheet": "Rotalar",
+        "row": 19,
+        "id": "zaragoza:route:012",
+        "form": "sen",
+        "fields": {
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "başla",
+          "kullanabilirsin"
+        ]
+      },
+      {
         "sheet": "Adımlar",
         "row": 8,
         "id": "zaragoza:step:1",
@@ -4841,6 +5147,127 @@
           "iste",
           "istediğin",
           "isteyebilirsin"
+        ]
+      },
+      {
+        "sheet": "Sözlük",
+        "row": 20,
+        "id": "zaragoza:term:013",
+        "form": "sen",
+        "fields": {
+          "definition": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "sana"
+        ]
+      },
+      {
+        "sheet": "Sözlük",
+        "row": 51,
+        "id": "zaragoza:term:044",
+        "form": "sen",
+        "fields": {
+          "definition": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "seni"
+        ]
+      },
+      {
+        "sheet": "SayfaAlanları",
+        "row": 11,
+        "id": "zaragoza:field:topic_title",
+        "form": "sen",
+        "fields": {
+          "value": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "bilmen"
+        ]
+      },
+      {
+        "sheet": "SayfaAlanları",
+        "row": 14,
+        "id": "zaragoza:field:journey_intro",
+        "form": "sen",
+        "fields": {
+          "value": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "yapabilirsin"
+        ]
+      },
+      {
+        "sheet": "SayfaAlanları",
+        "row": 15,
+        "id": "zaragoza:field:neighborhood_title",
+        "form": "sen",
+        "fields": {
+          "value": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "yaşayabilirsin"
+        ]
+      },
+      {
+        "sheet": "SayfaAlanları",
+        "row": 17,
+        "id": "zaragoza:field:explore_title",
+        "form": "sen",
+        "fields": {
+          "value": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "keşfet"
+        ]
+      },
+      {
+        "sheet": "SayfaAlanları",
+        "row": 19,
+        "id": "zaragoza:field:sources_note",
+        "form": "sen",
+        "fields": {
+          "value": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "danış"
+        ]
+      },
+      {
+        "sheet": "SayfaAlanları",
+        "row": 27,
+        "id": "zaragoza:field:timeline",
+        "form": "sen",
+        "fields": {
+          "value": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "netleştir",
+          "sana",
+          "bak",
+          "başla",
+          "yaptır"
+        ]
+      },
+      {
+        "sheet": "SayfaAlanları",
+        "row": 30,
+        "id": "zaragoza:field:emergency",
+        "form": "sen",
+        "fields": {
+          "value": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "ara"
         ]
       }
     ]
