@@ -266,6 +266,13 @@
    "text": "Ülke paketi kartlarında denetim bulguları (audit-scope 'şehirde değişti' ile denetime giren 6 kart): yillik-izin-ve-resmi-tatiller-2026 (2), dijital-gocebe-vizesi (7), altin-vize-sona-erdi (3), tasinma-oncesi-vize-ve-ilk-oturum-izni (1), ilk-gunlerde-nuss-ve-temel-odeme-hesabi (4), ab-disindan-gelirken-esya-ve-nakit-gumruk-beyani (3). Şehir editörleri ülke kartlarını değiştirmedi (kural); bulgular ülke paketi güncellemesinde (ulke/ES) ya da assemble d5'te kapatılmalı. Ayrıntı: _is/denetim/<konu>_iddia.jsonl.",
    "evidence": "/home/user/corteqscities/uretim/zaragoza/_is/ulke_denetim_kapsami.json",
    "owner": "ai"
+  },
+  {
+   "id": "OI-008",
+   "priority": "P2",
+   "text": "Koordinatsız mekânlar (11): teatro-bicho, cdm-alberto-maestro, cdm-torrero, cdm-perico-fernandez, club-nautico-de-zaragoza, parque-lineal-del-ebro-margen-izquierda, parque-lineal-del-huerva, parque-infantil-balambu, ludoteca-municipal-bolinche, aula-de-naturaleza-parque-labordeta, mercado-san-vicente-de-paul. Wikidata'da QID yok (arama 429) ve CartoCiudad'da kapı numarası eşleşmedi ya da adres numarasız (s/n, park). Koordinat uydurulmadı; places yazarları notta belirtir, harita için yerelde Wikidata/CartoCiudad ile yeniden denenmeli.",
+   "evidence": "/home/user/corteqscities/uretim/zaragoza/_is/mekan/cartociudad.json",
+   "owner": "ai"
   }
  ],
  "sources_researched": 327,
