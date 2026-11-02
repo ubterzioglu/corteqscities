@@ -121,10 +121,94 @@
    "ended_at": "2026-11-02T15:52:33Z"
   },
   "answers": {
-   "status": "running",
+   "status": "done",
    "started_at": "2026-11-02T15:53:01Z",
-   "gates": [],
-   "outputs": []
+   "gates": [
+    {
+     "script": "merge_package",
+     "exit_code": 0,
+     "summary": {
+      "Yanıtlar": 248,
+      "sehir": 152,
+      "ulke": 96,
+      "Bağlantılar": 420,
+      "Adımlar": 7,
+      "quote_miss": 0,
+      "issues": 0,
+      "sources_used": 320
+     },
+     "report": "/home/user/corteqscities/uretim/zaragoza/_is/birlestir_rapor.json",
+     "at": "2026-11-02T17:53:36Z"
+    },
+    {
+     "script": "build_xlsx",
+     "exit_code": 0,
+     "summary": {
+      "rejected": 0
+     },
+     "report": "/home/user/corteqscities/uretim/zaragoza/_is/build.json",
+     "at": "2026-11-02T17:53:36Z"
+    },
+    {
+     "script": "text_quality",
+     "exit_code": 0,
+     "summary": {
+      "findings": 0,
+      "address_findings": 0
+     },
+     "report": "/home/user/corteqscities/uretim/zaragoza/_is/text_quality.json",
+     "at": "2026-11-02T17:53:36Z"
+    },
+    {
+     "script": "warning-scan",
+     "exit_code": 0,
+     "summary": {
+      "findings": 0
+     },
+     "report": "/home/user/corteqscities/uretim/zaragoza/_is/uyari_tarama.json",
+     "at": "2026-11-02T17:53:36Z"
+    },
+    {
+     "script": "kart_tutarlilik",
+     "exit_code": 1,
+     "summary": {
+      "groups": 3,
+      "farkli_degerli": 1,
+      "not": "EX-01 harcı 10,94 € (ilk geçici izin 2.1.1) ve 16,40 € (yenileme 2.2.1): farklı işlemler, çelişki değil"
+     },
+     "report": "/home/user/corteqscities/uretim/zaragoza/_is/tutarlilik.json",
+     "at": "2026-11-02T17:53:36Z"
+    },
+    {
+     "script": "validate_all",
+     "exit_code": 1,
+     "summary": {
+      "structure_errors": 8,
+      "not": "yalnız şablon Şehir hataları (places'te Şehir parçası kapatır)"
+     },
+     "report": "/home/user/corteqscities/uretim/zaragoza/_is/val_ara.json",
+     "at": "2026-11-02T17:53:36Z"
+    },
+    {
+     "script": "denetim_kapsami",
+     "exit_code": 0,
+     "summary": {
+      "denetlenen": 158,
+      "denetimsiz": 0,
+      "ciddi": 0,
+      "not": "ucuz yol (OI-006): 6 denetçi + 6 editör (2'şer konu) + 1 ek denetçi + 1 ek editör; çürütme/doğrulayıcı gerekmedi (ciddi 0)"
+     },
+     "report": "/home/user/corteqscities/uretim/zaragoza/_is/denetim",
+     "at": "2026-11-02T17:53:36Z"
+    }
+   ],
+   "outputs": [
+    "/home/user/corteqscities/uretim/zaragoza/_is/data/Yanıtlar.jsonl",
+    "/home/user/corteqscities/uretim/zaragoza/_is/data/Bağlantılar.jsonl",
+    "/home/user/corteqscities/uretim/zaragoza/_is/data/Adımlar.jsonl",
+    "/home/user/corteqscities/uretim/zaragoza/_is/ara/ara.xlsx"
+   ],
+   "ended_at": "2026-11-02T17:53:36Z"
   }
  },
  "open_items": [
@@ -180,5 +264,5 @@
  ],
  "sources_researched": 327,
  "photos_downloaded": 0,
- "next_step": "answers: 12 konu yazarı (yanit-yazari.md), ülke kartları country_cards olarak"
+ "next_step": "places: 4 seçim ajanı (mekan/SECIM_GOREV.md), açık-mı, mekân/mahalle/sözlük/sayfa/rota yazarları"
 }

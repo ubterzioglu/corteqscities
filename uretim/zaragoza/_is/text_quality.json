@@ -6,7 +6,7 @@
     "near": 0.9
   },
   "summary": {
-    "exact_clusters": 3,
+    "exact_clusters": 1,
     "near_clusters": 0,
     "template_clusters": 0,
     "shared_steps": 0,
@@ -18,29 +18,29 @@
     "caption_is_title": 0,
     "hedge_cards": 0,
     "hedge_share": 0.0,
-    "exact_records": 6,
+    "exact_records": 2,
     "short_repeat_groups": 1,
-    "repeated_sentences": 4,
-    "cards_total": 236,
-    "visual_json_empty": 234,
+    "repeated_sentences": 7,
+    "cards_total": 248,
+    "visual_json_empty": 246,
     "address": {
       "standard": "sen",
-      "records": 256,
-      "hitapsiz": 13,
+      "records": 268,
+      "hitapsiz": 15,
       "siz": 0,
-      "sen": 243,
+      "sen": 253,
       "karisik": 0,
       "findings": 0,
       "labels": {
-        "records": 398,
+        "records": 421,
         "hitapsiz": 13,
         "siz": 0,
-        "sen": 385,
+        "sen": 408,
         "karisik": 0
       },
       "skipped": []
     },
-    "findings": 3
+    "findings": 1
   },
   "top_clusters": [
     {
@@ -48,21 +48,7 @@
       "sheet": "Yanıtlar",
       "field": "cost",
       "size": 2,
-      "sample": "Kaynakta ücret belirtilmiyor"
-    },
-    {
-      "kind": "exact",
-      "sheet": "Yanıtlar",
-      "field": "documents",
-      "size": 2,
-      "sample": "Kaynakta belge listesi verilmiyor"
-    },
-    {
-      "kind": "exact",
-      "sheet": "Yanıtlar",
-      "field": "timing",
-      "size": 2,
-      "sample": "2026-27 dönemi: 16.04.2026 09:00 - 22.04.2026 14:00"
+      "sample": "Randevu ve bilgi hattı (900 700 107) ücretsiz"
     }
   ],
   "exact_duplicates": [
@@ -70,50 +56,16 @@
       "sheet": "Yanıtlar",
       "field": "cost",
       "size": 2,
-      "length": 28,
-      "sample": "Kaynakta ücret belirtilmiyor",
+      "length": 43,
+      "sample": "Randevu ve bilgi hattı (900 700 107) ücretsiz",
       "members": [
         {
-          "row": 40,
-          "id": "zaragoza:kira-odeyemiyorsan-oficina-municipal-vivienda"
+          "row": 166,
+          "id": "zaragoza:zaragoza-sosyal-hizmetler-merkezi-cmss-randevu-ve-hizmetler"
         },
         {
-          "row": 42,
-          "id": "zaragoza:oda-kiralanan-ev-padron-uso-colectivo"
-        }
-      ]
-    },
-    {
-      "sheet": "Yanıtlar",
-      "field": "documents",
-      "size": 2,
-      "length": 33,
-      "sample": "Kaynakta belge listesi verilmiyor",
-      "members": [
-        {
-          "row": 36,
-          "id": "zaragoza:alza-piyasadan-yuzde-yirmi-ucuz-kira"
-        },
-        {
-          "row": 40,
-          "id": "zaragoza:kira-odeyemiyorsan-oficina-municipal-vivienda"
-        }
-      ]
-    },
-    {
-      "sheet": "Yanıtlar",
-      "field": "timing",
-      "size": 2,
-      "length": 48,
-      "sample": "2026-27 dönemi: 16.04.2026 09:00 - 22.04.2026 14:00",
-      "members": [
-        {
-          "row": 12,
-          "id": "zaragoza:okul-kaydi-basvuru-yolu-ve-yas-sartlari"
-        },
-        {
-          "row": 19,
-          "id": "zaragoza:aragon-kresleri-eei-ve-2-yas-sinifi"
+          "row": 172,
+          "id": "zaragoza:zaragoza-sosyal-hizmetler-merkezleri-listesi-adres-telefon"
         }
       ]
     }
@@ -125,7 +77,7 @@
       "sheet": "Yanıtlar",
       "field": "cost",
       "value": "Ücretsiz",
-      "size": 9
+      "size": 7
     }
   ],
   "repeated_sentences": [
@@ -169,6 +121,33 @@
         "timing"
       ],
       "sample": "kararname (Real Decreto-ley) olduğu için ileride değişebilir"
+    },
+    {
+      "sheet": "Yanıtlar",
+      "sentence": "ofis hafta ici is gunlerinde 9 30 14 00 ve 17 00 20 00 arasi aciktir",
+      "records": 3,
+      "fields": [
+        "steps"
+      ],
+      "sample": "ofis hafta içi iş günlerinde 9:30-14:00 ve 17:00-20:00 arası açıktır"
+    },
+    {
+      "sheet": "Yanıtlar",
+      "sentence": "ofisler 24 ve 31 aralik ogleden sonralari 25 aralik ve 1 ocak gunleri kapalidir",
+      "records": 3,
+      "fields": [
+        "note"
+      ],
+      "sample": "ofisler 24 ve 31 Aralık öğleden sonraları, 25 Aralık ve 1 Ocak günleri kapalıdır"
+    },
+    {
+      "sheet": "Yanıtlar",
+      "sentence": "pazartesi persembe ile ayin ilk ve son cumasi ayrica 16 00 19 00",
+      "records": 3,
+      "fields": [
+        "timing"
+      ],
+      "sample": "pazartesi, perşembe ile ayın ilk ve son cuması ayrıca 16:00–19:00"
     }
   ],
   "shared_steps": [],
@@ -182,7 +161,7 @@
     "items": []
   },
   "hedges": {
-    "cards_total": 236,
+    "cards_total": 248,
     "cards_with_hedge": 0,
     "share": 0.0,
     "max_per_card": 0,
@@ -195,15 +174,15 @@
   },
   "action_links": {
     "skipped": false,
-    "checked": 236,
+    "checked": 248,
     "missing": 0,
     "map_only": 0,
     "no_id": 0,
     "items": []
   },
   "visual_json": {
-    "total": 236,
-    "empty": 234,
+    "total": 248,
+    "empty": 246,
     "valid": 2,
     "by_error": {},
     "errors": []
@@ -215,17 +194,17 @@
   },
   "address": {
     "standard": "sen",
-    "records": 256,
-    "hitapsiz": 13,
+    "records": 268,
+    "hitapsiz": 15,
     "siz": 0,
-    "sen": 243,
+    "sen": 253,
     "karisik": 0,
     "by_sheet": {
       "Yanıtlar": {
-        "records": 236,
-        "hitapsiz": 0,
+        "records": 248,
+        "hitapsiz": 2,
         "siz": 0,
-        "sen": 236,
+        "sen": 246,
         "karisik": 0
       },
       "Mekânlar": {
@@ -293,10 +272,10 @@
       }
     },
     "labels": {
-      "records": 398,
+      "records": 421,
       "hitapsiz": 13,
       "siz": 0,
-      "sen": 385,
+      "sen": 408,
       "karisik": 0
     },
     "skipped": [],
@@ -384,6 +363,7 @@
         "fields": {
           "summary": "sen",
           "steps": "sen",
+          "documents": "sen",
           "note": "sen"
         },
         "siz": [],
@@ -440,7 +420,8 @@
         "fields": {
           "subtitle": "sen",
           "summary": "sen",
-          "steps": "sen"
+          "steps": "sen",
+          "documents": "sen"
         },
         "siz": [],
         "sen": [
@@ -529,14 +510,16 @@
         "id": "zaragoza:ozel-kres-icin-cheque-familia-zaragoza",
         "form": "sen",
         "fields": {
+          "summary": "sen",
           "steps": "sen"
         },
         "siz": [],
         "sen": [
-          "bak",
+          "yazabilirsin",
           "al",
           "hazırla",
-          "ver"
+          "ver",
+          "günün"
         ]
       },
       {
@@ -545,15 +528,16 @@
         "id": "zaragoza:okul-yemegi-bursu-ve-ders-kitabi-yardimi",
         "form": "sen",
         "fields": {
+          "summary": "sen",
           "steps": "sen"
         },
         "siz": [],
         "sen": [
+          "başvurabilirsin",
           "ol",
           "ver",
           "götür",
-          "al",
-          "kullan"
+          "al"
         ]
       },
       {
@@ -586,7 +570,8 @@
         "siz": [],
         "sen": [
           "doğrula",
-          "konuş",
+          "bildir",
+          "sor",
           "aç"
         ]
       },
@@ -647,6 +632,25 @@
       {
         "sheet": "Yanıtlar",
         "row": 27,
+        "id": "zaragoza:dogum-kaydi-registro-civil-zaragoza-belgeler-ve-adres",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "documents": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "evliysen",
+          "götürürsün",
+          "olsan",
+          "olmasan",
+          "al"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 28,
         "id": "zaragoza:kira-sozlesmesi-suresi-ve-uzama",
         "form": "sen",
         "fields": {
@@ -664,7 +668,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 28,
+        "row": 29,
         "id": "zaragoza:kira-depozitosu-fianza-ve-iade",
         "form": "sen",
         "fields": {
@@ -681,7 +685,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 29,
+        "row": 30,
         "id": "zaragoza:kira-artisi-siniri-irav",
         "form": "sen",
         "fields": {
@@ -694,7 +698,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 30,
+        "row": 31,
         "id": "zaragoza:kirada-onarim-ve-hasar-sorumlulugu",
         "form": "sen",
         "fields": {
@@ -711,7 +715,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 31,
+        "row": 32,
         "id": "zaragoza:kiralik-evden-cikis-ve-ihbar-suresi",
         "form": "sen",
         "fields": {
@@ -729,7 +733,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 32,
+        "row": 33,
         "id": "zaragoza:kiralik-ilan-dolandiriciligini-tanima",
         "form": "sen",
         "fields": {
@@ -747,7 +751,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 33,
+        "row": 34,
         "id": "zaragoza:aragon-fianza-deposito-kiraci-ne-yapar",
         "form": "sen",
         "fields": {
@@ -766,7 +770,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 34,
+        "row": 35,
         "id": "zaragoza:ev-sahibi-fianza-yatirmadiysa-aragon",
         "form": "sen",
         "fields": {
@@ -784,7 +788,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 35,
+        "row": 36,
         "id": "zaragoza:zaragoza-vivienda-sosyal-kira-listesi",
         "form": "sen",
         "fields": {
@@ -794,15 +798,15 @@
         "siz": [],
         "sen": [
           "yaptırırsın",
+          "sor",
           "et",
           "git",
-          "yaşayacağın",
-          "götür"
+          "yaşayacağın"
         ]
       },
       {
         "sheet": "Yanıtlar",
-        "row": 36,
+        "row": 37,
         "id": "zaragoza:alza-piyasadan-yuzde-yirmi-ucuz-kira",
         "form": "sen",
         "fields": {
@@ -819,41 +823,45 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 37,
+        "row": 38,
         "id": "zaragoza:alquiler-asequible-zaragoza-sorteo-basvuru",
         "form": "sen",
         "fields": {
-          "steps": "sen"
-        },
-        "siz": [],
-        "sen": [
-          "gir",
-          "bak",
-          "doldur",
-          "seçilirsen",
-          "gönder"
-        ]
-      },
-      {
-        "sheet": "Yanıtlar",
-        "row": 38,
-        "id": "zaragoza:zaragoza-genc-kira-yardimi-emancipacion",
-        "form": "sen",
-        "fields": {
+          "subtitle": "sen",
           "steps": "sen"
         },
         "siz": [],
         "sen": [
           "et",
-          "başvurabilirsin",
-          "doğrula",
+          "gir",
+          "izle",
           "doldur",
-          "yükle"
+          "seçilirsen"
         ]
       },
       {
         "sheet": "Yanıtlar",
         "row": 39,
+        "id": "zaragoza:zaragoza-genc-kira-yardimi-emancipacion",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "documents": "sen",
+          "cost": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "ödediğin",
+          "Kiraladığın",
+          "ikametin",
+          "et",
+          "başvurabilirsin"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 40,
         "id": "zaragoza:aragon-kira-yardimi-bono-alquiler-joven",
         "form": "sen",
         "fields": {
@@ -870,7 +878,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 40,
+        "row": 41,
         "id": "zaragoza:kira-odeyemiyorsan-oficina-municipal-vivienda",
         "form": "sen",
         "fields": {
@@ -882,13 +890,13 @@
           "yaşıyorsan",
           "riskin",
           "başvurursun",
-          "ol",
-          "git"
+          "yazabilirsin",
+          "ol"
         ]
       },
       {
         "sheet": "Yanıtlar",
-        "row": 41,
+        "row": 42,
         "id": "zaragoza:zaragoza-acil-yardim-kira-fianza",
         "form": "sen",
         "fields": {
@@ -897,16 +905,16 @@
         },
         "siz": [],
         "sen": [
+          "oturduğun",
           "yaparsın",
           "göstermen",
           "ol",
-          "Oturduğun",
-          "yap"
+          "Oturduğun"
         ]
       },
       {
         "sheet": "Yanıtlar",
-        "row": 42,
+        "row": 43,
         "id": "zaragoza:oda-kiralanan-ev-padron-uso-colectivo",
         "form": "sen",
         "fields": {
@@ -924,7 +932,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 43,
+        "row": 44,
         "id": "zaragoza:zaragoza-belediye-konut-programlari-rehberi",
         "form": "sen",
         "fields": {
@@ -932,16 +940,15 @@
         },
         "siz": [],
         "sen": [
-          "git",
-          "ara",
           "başvur",
           "incele",
-          "öğrenciysen"
+          "öğrenciysen",
+          "bak"
         ]
       },
       {
         "sheet": "Yanıtlar",
-        "row": 44,
+        "row": 45,
         "id": "zaragoza:elektrik-aboneligi-serbest-piyasa-pvpc",
         "form": "sen",
         "fields": {
@@ -961,7 +968,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 45,
+        "row": 46,
         "id": "zaragoza:elektrik-faturasi-nasil-okunur",
         "form": "sen",
         "fields": {
@@ -979,7 +986,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 46,
+        "row": 47,
         "id": "zaragoza:sozlesmeli-elektrik-gucu-nasil-secilir",
         "form": "sen",
         "fields": {
@@ -999,7 +1006,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 47,
+        "row": 48,
         "id": "zaragoza:dogalgaz-aboneligi-tur-ve-fatura",
         "form": "sen",
         "fields": {
@@ -1018,7 +1025,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 48,
+        "row": 49,
         "id": "zaragoza:bono-social-elektrik-kimler-alir",
         "form": "sen",
         "fields": {
@@ -1037,7 +1044,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 49,
+        "row": 50,
         "id": "zaragoza:internet-mobil-hat-sozlesmesi-taahhut-cayma",
         "form": "sen",
         "fields": {
@@ -1056,7 +1063,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 50,
+        "row": 51,
         "id": "zaragoza:cnmc-teklif-karsilastirma-araci",
         "form": "sen",
         "fields": {
@@ -1075,7 +1082,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 51,
+        "row": 52,
         "id": "zaragoza:elektrik-ve-telekom-sikayet-yollari",
         "form": "sen",
         "fields": {
@@ -1094,7 +1101,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 52,
+        "row": 53,
         "id": "zaragoza:apartman-yonetimi-comunidad-de-vecinos",
         "form": "sen",
         "fields": {
@@ -1112,7 +1119,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 53,
+        "row": 54,
         "id": "zaragoza:su-aboneligi-kullanilmis-daire-alta",
         "form": "sen",
         "fields": {
@@ -1124,13 +1131,13 @@
           "açtırırsın",
           "senin",
           "açman",
-          "sahibiysen",
-          "kiracıysan"
+          "yaparsın",
+          "sahibiysen"
         ]
       },
       {
         "sheet": "Yanıtlar",
-        "row": 54,
+        "row": 55,
         "id": "zaragoza:su-abone-devri-cambio-de-titular",
         "form": "sen",
         "fields": {
@@ -1151,7 +1158,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 55,
+        "row": 56,
         "id": "zaragoza:su-aboneligi-kapatma-baja-son-fatura",
         "form": "sen",
         "fields": {
@@ -1171,7 +1178,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 56,
+        "row": 57,
         "id": "zaragoza:zaragoza-su-faturasi-yapisi-sabit-ucret-kademe",
         "form": "sen",
         "fields": {
@@ -1189,7 +1196,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 57,
+        "row": 58,
         "id": "zaragoza:zaragoza-cop-ucreti-toplama-isleme",
         "form": "sen",
         "fields": {
@@ -1207,13 +1214,14 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 58,
+        "row": 59,
         "id": "zaragoza:dusuk-gelirli-hane-su-cop-indirimi-tipo",
         "form": "sen",
         "fields": {
           "summary": "sen",
           "steps": "sen",
-          "documents": "sen"
+          "documents": "sen",
+          "note": "sen"
         },
         "siz": [],
         "sen": [
@@ -1226,16 +1234,15 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 59,
+        "row": 60,
         "id": "zaragoza:zaragoza-su-tasarruf-indirimi-yuzde-10",
         "form": "sen",
         "fields": {
-          "summary": "sen",
           "steps": "sen"
         },
         "siz": [],
         "sen": [
-          "azaltırsan",
+          "et",
           "ol",
           "kendin",
           "bildiriyorsan",
@@ -1244,7 +1251,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 60,
+        "row": 61,
         "id": "zaragoza:eski-adres-su-faturasi-itiraz-reclamacion",
         "form": "sen",
         "fields": {
@@ -1264,13 +1271,14 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 61,
+        "row": 62,
         "id": "zaragoza:aragon-bono-social-termico-isinma-yardimi",
         "form": "sen",
         "fields": {
           "summary": "sen",
           "steps": "sen",
-          "timing": "sen"
+          "timing": "sen",
+          "note": "sen"
         },
         "siz": [],
         "sen": [
@@ -1283,7 +1291,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 62,
+        "row": 63,
         "id": "zaragoza:fatura-odeyemezsen-acil-yardim-aragon-zaragoza",
         "form": "sen",
         "fields": {
@@ -1298,13 +1306,13 @@
           "getir",
           "ödeyemiyorsan",
           "gitmen",
-          "olman",
+          "olmalısın",
           "aldığın"
         ]
       },
       {
         "sheet": "Yanıtlar",
-        "row": 63,
+        "row": 64,
         "id": "zaragoza:resmi-tatiller-2027",
         "form": "sen",
         "fields": {
@@ -1320,7 +1328,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 64,
+        "row": 65,
         "id": "zaragoza:magaza-acilis-saatleri-cercevesi",
         "form": "sen",
         "fields": {
@@ -1333,7 +1341,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 65,
+        "row": 66,
         "id": "zaragoza:ab-disi-paket-gumruk-iva",
         "form": "sen",
         "fields": {
@@ -1349,7 +1357,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 66,
+        "row": 67,
         "id": "zaragoza:diger-resmi-yardim-hatlari",
         "form": "sen",
         "fields": {
@@ -1365,7 +1373,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 67,
+        "row": 68,
         "id": "zaragoza:bahsis-ve-odeme-aliskanliklari",
         "form": "sen",
         "fields": {
@@ -1381,7 +1389,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 68,
+        "row": 69,
         "id": "zaragoza:cop-ayirma-renkleri-ve-saatleri",
         "form": "sen",
         "fields": {
@@ -1398,7 +1406,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 69,
+        "row": 70,
         "id": "zaragoza:eski-mobilya-buyuk-esya-ucretsiz-toplatma",
         "form": "sen",
         "fields": {
@@ -1418,25 +1426,26 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 70,
+        "row": 71,
         "id": "zaragoza:sabit-temiz-nokta-punto-limpio-kabul-saatler",
         "form": "sen",
         "fields": {
           "summary": "sen",
-          "steps": "sen"
+          "steps": "sen",
+          "note": "sen"
         },
         "siz": [],
         "sen": [
           "götürebilirsin",
           "gidersin",
-          "sana",
-          "seç",
+          "Sana",
+          "git",
           "getiriyorsan"
         ]
       },
       {
         "sheet": "Yanıtlar",
-        "row": 71,
+        "row": 72,
         "id": "zaragoza:mobil-temiz-nokta-boya-toner-aku-nereye",
         "form": "sen",
         "fields": {
@@ -1447,14 +1456,14 @@
         "sen": [
           "ver",
           "bırakabilirsin",
-          "bul",
           "getir",
-          "kendin"
+          "kendin",
+          "değilsen"
         ]
       },
       {
         "sheet": "Yanıtlar",
-        "row": 72,
+        "row": 73,
         "id": "zaragoza:pil-kizartma-yagi-tekstil-kahve-kapsulu-nereye",
         "form": "sen",
         "fields": {
@@ -1464,20 +1473,21 @@
         "siz": [],
         "sen": [
           "bırakırsın",
+          "bırakabilirsin",
           "bırak",
           "koy",
-          "ver",
-          "yaşarsan"
+          "ver"
         ]
       },
       {
         "sheet": "Yanıtlar",
-        "row": 73,
+        "row": 74,
         "id": "zaragoza:cop-toplama-sorunu-bildirme-ve-organik-kova-yenileme",
         "form": "sen",
         "fields": {
           "summary": "sen",
-          "steps": "sen"
+          "steps": "sen",
+          "timing": "sen"
         },
         "siz": [],
         "sen": [
@@ -1490,7 +1500,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 74,
+        "row": 75,
         "id": "zaragoza:belediye-kutuphanesi-uyelik-karti-carne-de-socio",
         "form": "sen",
         "fields": {
@@ -1508,7 +1518,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 75,
+        "row": 76,
         "id": "zaragoza:kutuphanelerde-dil-ogrenimi-cocuk-bolumu-calisma-alani",
         "form": "sen",
         "fields": {
@@ -1519,14 +1529,14 @@
         "sen": [
           "olmasan",
           "kullanırsın",
-          "sana",
-          "bul",
-          "git"
+          "git",
+          "istemiyorsan",
+          "kullanabilirsin"
         ]
       },
       {
         "sheet": "Yanıtlar",
-        "row": 76,
+        "row": 77,
         "id": "zaragoza:sivil-merkezler-centros-civicos-hizmetleri",
         "form": "sen",
         "fields": {
@@ -1535,13 +1545,12 @@
         "siz": [],
         "sen": [
           "bul",
-          "sor",
-          "bak"
+          "sor"
         ]
       },
       {
         "sheet": "Yanıtlar",
-        "row": 77,
+        "row": 78,
         "id": "zaragoza:sivil-merkezlerde-ispanyolca-dersi-ve-kurs-kaydi",
         "form": "sen",
         "fields": {
@@ -1550,33 +1559,16 @@
         },
         "siz": [],
         "sen": [
+          "başvur",
           "başvurursun",
           "seni",
-          "incele",
-          "bak",
-          "başvur"
+          "git",
+          "ara"
         ]
       },
       {
         "sheet": "Yanıtlar",
-        "row": 78,
-        "id": "zaragoza:fiestas-del-pilar-tarih-ve-ofrenda-de-flores",
-        "form": "sen",
-        "fields": {
-          "steps": "sen"
-        },
-        "siz": [],
-        "sen": [
-          "izle",
-          "katılacaksan",
-          "gir",
-          "seç",
-          "git"
-        ]
-      },
-      {
-        "sheet": "Yanıtlar",
-        "row": 79,
+        "row": 80,
         "id": "zaragoza:pilar-bayraminda-ulasim-cam-siseler-ve-kayip-cocuk",
         "form": "sen",
         "fields": {
@@ -1594,24 +1586,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 80,
-        "id": "zaragoza:san-valero-gunu-29-ocak-programi-ve-ucretsiz-muzeler",
-        "form": "sen",
-        "fields": {
-          "steps": "sen"
-        },
-        "siz": [],
-        "sen": [
-          "git",
-          "katıl",
-          "gez",
-          "gidiyorsan",
-          "izle"
-        ]
-      },
-      {
-        "sheet": "Yanıtlar",
-        "row": 81,
+        "row": 82,
         "id": "zaragoza:aragon-2026-resmi-tatiller-zaragoza-kalan-gunler",
         "form": "sen",
         "fields": {
@@ -1619,13 +1594,12 @@
         },
         "siz": [],
         "sen": [
-          "say",
-          "bak"
+          "say"
         ]
       },
       {
         "sheet": "Yanıtlar",
-        "row": 82,
+        "row": 83,
         "id": "zaragoza:belediye-bilgi-hatti-010-ve-olen-evcil-hayvan",
         "form": "sen",
         "fields": {
@@ -1642,7 +1616,22 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 83,
+        "row": 84,
+        "id": "zaragoza:acil-durum-telefonlari-092-080-061-112",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "dur",
+          "ara"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 85,
         "id": "zaragoza:is-sozlesmesi-turleri",
         "form": "sen",
         "fields": {
@@ -1657,7 +1646,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 84,
+        "row": 86,
         "id": "zaragoza:asgari-ucret-smi-2026-calisma-saatleri",
         "form": "sen",
         "fields": {
@@ -1672,7 +1661,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 85,
+        "row": 87,
         "id": "zaragoza:yillik-izin-ve-resmi-tatiller-2026",
         "form": "sen",
         "fields": {
@@ -1688,7 +1677,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 86,
+        "row": 88,
         "id": "zaragoza:maas-bordrosu-nomina-icerigi",
         "form": "sen",
         "fields": {
@@ -1706,7 +1695,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 87,
+        "row": 89,
         "id": "zaragoza:finiquito-isten-ayrilirken-tasfiye-belgesi",
         "form": "sen",
         "fields": {
@@ -1725,7 +1714,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 88,
+        "row": 90,
         "id": "zaragoza:isten-cikarilma-despido-turleri-ve-tazminat",
         "form": "sen",
         "fields": {
@@ -1743,7 +1732,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 89,
+        "row": 91,
         "id": "zaragoza:issizlik-maasi-paro-sepe-basvurusu",
         "form": "sen",
         "fields": {
@@ -1762,7 +1751,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 90,
+        "row": 92,
         "id": "zaragoza:is-kazasi-ve-meslek-hastaligi-tanimi",
         "form": "sen",
         "fields": {
@@ -1780,7 +1769,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 91,
+        "row": 93,
         "id": "zaragoza:serbest-calisan-autonomo-kayit-ve-prim-tablosu",
         "form": "sen",
         "fields": {
@@ -1799,7 +1788,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 92,
+        "row": 94,
         "id": "zaragoza:dogum-ve-babalik-izni-sureleri",
         "form": "sen",
         "fields": {
@@ -1817,7 +1806,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 93,
+        "row": 95,
         "id": "zaragoza:yabanci-diploma-denklik-okul-ve-universite",
         "form": "sen",
         "fields": {
@@ -1835,7 +1824,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 94,
+        "row": 96,
         "id": "zaragoza:inaem-isarayan-kaydi-zaragoza-ilk-kayit",
         "form": "sen",
         "fields": {
@@ -1854,7 +1843,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 95,
+        "row": 97,
         "id": "zaragoza:inaem-zaragoza-is-ofisleri-adres-telefon",
         "form": "sen",
         "fields": {
@@ -1864,15 +1853,15 @@
         "siz": [],
         "sen": [
           "oturduğun",
-          "Oturduğun",
-          "olduğun",
-          "bul",
-          "ara"
+          "karşılaştır",
+          "sor",
+          "ara",
+          "git"
         ]
       },
       {
         "sheet": "Yanıtlar",
-        "row": 96,
+        "row": 98,
         "id": "zaragoza:inaem-ranillas-compromiso-de-caspe-ofisleri-posta-kodlari",
         "form": "sen",
         "fields": {
@@ -1887,7 +1876,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 97,
+        "row": 99,
         "id": "zaragoza:inaem-darde-yenileme-ve-degisiklik-bildirimi",
         "form": "sen",
         "fields": {
@@ -1907,7 +1896,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 98,
+        "row": 100,
         "id": "zaragoza:issizlik-odenegi-inaem-kaydi-sepe-sirasi-zaragoza",
         "form": "sen",
         "fields": {
@@ -1927,7 +1916,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 99,
+        "row": 101,
         "id": "zaragoza:inaem-ucretsiz-meslek-kursu-kayit-zaragoza",
         "form": "sen",
         "fields": {
@@ -1947,7 +1936,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 100,
+        "row": 102,
         "id": "zaragoza:yabanci-universite-diplomasi-denklik-zaragoza-bilgi-noktalari",
         "form": "sen",
         "fields": {
@@ -1966,7 +1955,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 101,
+        "row": 103,
         "id": "zaragoza:ruta-zac-zaragoza-activa-girisimcilik-programi",
         "form": "sen",
         "fields": {
@@ -1982,7 +1971,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 102,
+        "row": 104,
         "id": "zaragoza:zaragoza-girisim-danismanligi-infoactiva-ve-autonomo-ofisi",
         "form": "sen",
         "fields": {
@@ -2001,13 +1990,46 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 103,
-        "id": "zaragoza:pilar-meydani-eski-kent-gezisi",
+        "row": 105,
+        "id": "zaragoza:2027-resmi-tatiller-aragon-ve-zaragoza",
+        "form": "sen",
+        "fields": {
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "yap",
+          "ekle"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 106,
+        "id": "zaragoza:yabanci-universite-diplomasi-denklik-harci-166-50-euro",
         "form": "sen",
         "fields": {
           "summary": "sen",
           "steps": "sen",
+          "timing": "sen",
           "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "ödersin",
+          "ödeyebilirsin",
+          "olmalısın",
+          "kartın",
+          "dışındaysan"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 107,
+        "id": "zaragoza:pilar-meydani-eski-kent-gezisi",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
         },
         "siz": [],
         "sen": [
@@ -2020,7 +2042,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 104,
+        "row": 108,
         "id": "zaragoza:aljaferia-sarayi-gezi-ulasim",
         "form": "sen",
         "fields": {
@@ -2037,7 +2059,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 105,
+        "row": 109,
         "id": "zaragoza:roma-muzeleri-ruta-caesaraugusta",
         "form": "sen",
         "fields": {
@@ -2055,7 +2077,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 106,
+        "row": 110,
         "id": "zaragoza:roma-muzeleri-indirim-ucretsiz-gunler",
         "form": "sen",
         "fields": {
@@ -2071,7 +2093,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 107,
+        "row": 111,
         "id": "zaragoza:ebro-kiyisi-aljaferiadan-expoya-yuruyus",
         "form": "sen",
         "fields": {
@@ -2089,7 +2111,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 108,
+        "row": 112,
         "id": "zaragoza:parque-grande-labordeta-gezi",
         "form": "sen",
         "fields": {
@@ -2101,13 +2123,13 @@
           "yürü",
           "gir",
           "çık",
-          "kirala",
-          "gez"
+          "çekebileceğin",
+          "kirala"
         ]
       },
       {
         "sheet": "Yanıtlar",
-        "row": 109,
+        "row": 113,
         "id": "zaragoza:parque-del-agua-neler-yapilir",
         "form": "sen",
         "fields": {
@@ -2124,7 +2146,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 110,
+        "row": 114,
         "id": "zaragoza:expo-alani-acuario-pabellon-puente",
         "form": "sen",
         "fields": {
@@ -2139,7 +2161,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 111,
+        "row": 115,
         "id": "zaragoza:turistik-otobus-bilet-rota",
         "form": "sen",
         "fields": {
@@ -2155,7 +2177,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 112,
+        "row": 116,
         "id": "zaragoza:zaragoza-family-bonu",
         "form": "sen",
         "fields": {
@@ -2173,7 +2195,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 113,
+        "row": 117,
         "id": "zaragoza:zaragoza-cocuklarla-nereye-gidilir",
         "form": "sen",
         "fields": {
@@ -2191,7 +2213,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 114,
+        "row": 118,
         "id": "zaragoza:acik-havada-spor-parklar-zaragoza",
         "form": "sen",
         "fields": {
@@ -2202,13 +2224,12 @@
           "kullan",
           "git",
           "seç",
-          "kirala",
-          "bak"
+          "kirala"
         ]
       },
       {
         "sheet": "Yanıtlar",
-        "row": 115,
+        "row": 119,
         "id": "zaragoza:zaragoza-iki-gun-programi",
         "form": "sen",
         "fields": {
@@ -2225,7 +2246,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 116,
+        "row": 120,
         "id": "zaragoza:zaragoza-panorama-manzara-noktalari",
         "form": "sen",
         "fields": {
@@ -2234,6 +2255,7 @@
         },
         "siz": [],
         "sen": [
+          "çekebileceğin",
           "git",
           "bak",
           "çık"
@@ -2241,7 +2263,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 117,
+        "row": 121,
         "id": "zaragoza:zaragoza-sanat-sergi-mekanlari",
         "form": "sen",
         "fields": {
@@ -2252,13 +2274,12 @@
         "sen": [
           "git",
           "gez",
-          "bak",
           "et"
         ]
       },
       {
         "sheet": "Yanıtlar",
-        "row": 118,
+        "row": 122,
         "id": "zaragoza:roma-muzeleri-etkinlik-takvimi",
         "form": "sen",
         "fields": {
@@ -2269,14 +2290,14 @@
         "sen": [
           "izlersin",
           "dur",
-          "git",
           "izle",
-          "katıl"
+          "al",
+          "yaptır"
         ]
       },
       {
         "sheet": "Yanıtlar",
-        "row": 119,
+        "row": 123,
         "id": "zaragoza:zaragoza-yerel-lezzetler-tapas",
         "form": "sen",
         "fields": {
@@ -2287,14 +2308,50 @@
         "sen": [
           "dene",
           "rastlarsın",
-          "seç",
           "yap",
-          "ver"
+          "ver",
+          "tamamla"
         ]
       },
       {
         "sheet": "Yanıtlar",
-        "row": 120,
+        "row": 124,
+        "id": "zaragoza:belediye-muzeleri-tam-bilet-ve-abonolar",
+        "form": "sen",
+        "fields": {
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "gireceksen",
+          "hazırla",
+          "göster",
+          "gezeceksen",
+          "al"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 125,
+        "id": "zaragoza:zaragoza-turizm-ofisleri-adres-ve-saatler",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "öğrenirsin",
+          "git",
+          "geliyorsan",
+          "uğra",
+          "ara"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 126,
         "id": "zaragoza:nie-nedir-ne-ise-yarar",
         "form": "sen",
         "fields": {
@@ -2312,7 +2369,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 121,
+        "row": 127,
         "id": "zaragoza:ab-vatandasi-kayit-sertifikasi",
         "form": "sen",
         "fields": {
@@ -2330,7 +2387,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 122,
+        "row": 128,
         "id": "zaragoza:tie-yabanci-kimlik-karti",
         "form": "sen",
         "fields": {
@@ -2348,7 +2405,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 123,
+        "row": 129,
         "id": "zaragoza:ab-vatandasi-calisma-izni-gerekli-mi",
         "form": "sen",
         "fields": {
@@ -2366,7 +2423,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 124,
+        "row": 130,
         "id": "zaragoza:oturum-izni-yenileme",
         "form": "sen",
         "fields": {
@@ -2385,7 +2442,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 125,
+        "row": 131,
         "id": "zaragoza:aile-birlesimi-ile-oturum",
         "form": "sen",
         "fields": {
@@ -2404,7 +2461,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 126,
+        "row": 132,
         "id": "zaragoza:kalici-oturum-bes-yil",
         "form": "sen",
         "fields": {
@@ -2423,7 +2480,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 127,
+        "row": 133,
         "id": "zaragoza:arraigo-kok-salma-oturumu",
         "form": "sen",
         "fields": {
@@ -2442,7 +2499,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 128,
+        "row": 134,
         "id": "zaragoza:dijital-gocebe-vizesi",
         "form": "sen",
         "fields": {
@@ -2459,7 +2516,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 129,
+        "row": 135,
         "id": "zaragoza:kar-amaci-gutmeyen-oturum-vizesi",
         "form": "sen",
         "fields": {
@@ -2478,7 +2535,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 130,
+        "row": 136,
         "id": "zaragoza:altin-vize-sona-erdi",
         "form": "sen",
         "fields": {
@@ -2494,7 +2551,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 131,
+        "row": 137,
         "id": "zaragoza:ogrenci-oturumuyla-calisma-hakki",
         "form": "sen",
         "fields": {
@@ -2513,7 +2570,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 132,
+        "row": 138,
         "id": "zaragoza:ispanyol-vatandasligi-basvurusu",
         "form": "sen",
         "fields": {
@@ -2531,7 +2588,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 133,
+        "row": 139,
         "id": "zaragoza:brexit-sonrasi-ingiliz-oturumu",
         "form": "sen",
         "fields": {
@@ -2549,7 +2606,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 134,
+        "row": 140,
         "id": "zaragoza:yabancilar-ofisi-zaragoza-adres-saat",
         "form": "sen",
         "fields": {
@@ -2559,12 +2616,13 @@
         "sen": [
           "ara",
           "al",
+          "alırsın",
           "git"
         ]
       },
       {
         "sheet": "Yanıtlar",
-        "row": 135,
+        "row": 141,
         "id": "zaragoza:tie-nie-zaragoza-hangi-birim",
         "form": "sen",
         "fields": {
@@ -2573,16 +2631,16 @@
         },
         "siz": [],
         "sen": [
-          "sor",
-          "ara",
+          "girdiysen",
+          "kendin",
+          "istersin",
           "yaptır",
-          "kalacaksan",
-          "başvur"
+          "iste"
         ]
       },
       {
         "sheet": "Yanıtlar",
-        "row": 136,
+        "row": 142,
         "id": "zaragoza:casa-de-las-culturas-gocmen-danismanligi",
         "form": "sen",
         "fields": {
@@ -2591,16 +2649,16 @@
         },
         "siz": [],
         "sen": [
+          "gidebilirsin",
           "ulaşabilirsin",
+          "kullan",
           "istersen",
-          "git",
-          "ara",
-          "yaz"
+          "git"
         ]
       },
       {
         "sheet": "Yanıtlar",
-        "row": 137,
+        "row": 143,
         "id": "zaragoza:saoji-hukuki-danismanlik-zaragoza",
         "form": "sen",
         "fields": {
@@ -2609,16 +2667,16 @@
         },
         "siz": [],
         "sen": [
+          "alırsın",
+          "yazabilirsin",
           "arayabilirsin",
           "iste",
-          "git",
-          "Randevun",
-          "durumun"
+          "git"
         ]
       },
       {
         "sheet": "Yanıtlar",
-        "row": 138,
+        "row": 144,
         "id": "zaragoza:aile-birlesimi-konut-yeterlilik-raporu-zaragoza",
         "form": "sen",
         "fields": {
@@ -2628,16 +2686,16 @@
         },
         "siz": [],
         "sen": [
+          "alırsın",
+          "yapabilirsin",
           "verebilirsin",
           "ol",
-          "başvur",
-          "götür",
-          "tamamla"
+          "başvur"
         ]
       },
       {
         "sheet": "Yanıtlar",
-        "row": 139,
+        "row": 145,
         "id": "zaragoza:yabanci-padron-yenileme-zaragoza",
         "form": "sen",
         "fields": {
@@ -2646,7 +2704,7 @@
         },
         "siz": [],
         "sen": [
-          "gidebilirsin",
+          "yenilersin",
           "gönderirsen",
           "git",
           "götür",
@@ -2655,23 +2713,24 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 140,
+        "row": 146,
         "id": "zaragoza:ciudadania-activa-entegrasyon-kursu-zaragoza",
         "form": "sen",
         "fields": {
-          "steps": "sen"
+          "steps": "sen",
+          "note": "sen"
         },
         "siz": [],
         "sen": [
           "et",
           "git",
-          "ol",
-          "katıl"
+          "katıl",
+          "arayabilirsin"
         ]
       },
       {
         "sheet": "Yanıtlar",
-        "row": 141,
+        "row": 147,
         "id": "zaragoza:ogrenci-vizesi-ve-karti-zaragoza",
         "form": "sen",
         "fields": {
@@ -2684,13 +2743,31 @@
           "vatandaşıysan",
           "almalısın",
           "başvurursun",
-          "kalıyorsan",
+          "istersin",
           "uzatırsın"
         ]
       },
       {
         "sheet": "Yanıtlar",
-        "row": 142,
+        "row": 148,
+        "id": "zaragoza:turkiye-konsoloslugu-barselona-aragon-zaragoza",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "alırsın",
+          "al",
+          "git",
+          "ara",
+          "ulaşabilirsin"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 149,
         "id": "zaragoza:banka-hesabi-acma-ve-temel-odeme-hesabi",
         "form": "sen",
         "fields": {
@@ -2711,7 +2788,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 143,
+        "row": 150,
         "id": "zaragoza:iban-ve-sepa-havalesi",
         "form": "sen",
         "fields": {
@@ -2729,7 +2806,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 144,
+        "row": 151,
         "id": "zaragoza:gelir-vergisi-irpf-devlet-dilimleri",
         "form": "sen",
         "fields": {
@@ -2745,7 +2822,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 145,
+        "row": 152,
         "id": "zaragoza:kdv-iva-oranlari",
         "form": "sen",
         "fields": {
@@ -2759,7 +2836,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 146,
+        "row": 153,
         "id": "zaragoza:yillik-gelir-vergisi-beyani-renta",
         "form": "sen",
         "fields": {
@@ -2774,7 +2851,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 147,
+        "row": 154,
         "id": "zaragoza:vergi-iadesi-devolucion-renta",
         "form": "sen",
         "fields": {
@@ -2794,7 +2871,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 148,
+        "row": 155,
         "id": "zaragoza:gestor-asesor-vergi-beyani-temsil",
         "form": "sen",
         "fields": {
@@ -2814,7 +2891,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 149,
+        "row": 156,
         "id": "zaragoza:arac-sigortasi-zorunlulugu-ve-hipotek-sigortalari",
         "form": "sen",
         "fields": {
@@ -2832,7 +2909,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 150,
+        "row": 157,
         "id": "zaragoza:emeklilik-yasi-ve-prim-suresi",
         "form": "sen",
         "fields": {
@@ -2848,7 +2925,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 151,
+        "row": 158,
         "id": "zaragoza:bizum-nedir-nasil-kullanilir",
         "form": "sen",
         "fields": {
@@ -2864,7 +2941,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 152,
+        "row": 159,
         "id": "zaragoza:banka-ucretleri-ve-seffaflik-haklari",
         "form": "sen",
         "fields": {
@@ -2882,7 +2959,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 153,
+        "row": 160,
         "id": "zaragoza:beckham-yasasi-ozel-vergi-rejimi",
         "form": "sen",
         "fields": {
@@ -2898,61 +2975,64 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 154,
+        "row": 161,
         "id": "zaragoza:zaragoza-konut-vergisi-ibi-odeme-ve-vergi-takvimi",
         "form": "sen",
         "fields": {
+          "summary": "sen",
           "steps": "sen",
           "note": "sen"
         },
         "siz": [],
         "sen": [
+          "öde",
           "Aldığın",
           "senin",
           "bildir",
-          "git",
-          "istiyorsan"
-        ]
-      },
-      {
-        "sheet": "Yanıtlar",
-        "row": 155,
-        "id": "zaragoza:zaragoza-arac-vergisi-ivtm-tutarlari-ve-odeme-yeri",
-        "form": "sen",
-        "fields": {
-          "steps": "sen",
-          "timing": "sen"
-        },
-        "siz": [],
-        "sen": [
-          "bak",
-          "bul",
-          "aldığın",
-          "ver",
           "git"
         ]
       },
       {
         "sheet": "Yanıtlar",
-        "row": 156,
-        "id": "zaragoza:zaragoza-elektrikli-hibrit-arac-vergi-indirimi-ve-muafiyet",
+        "row": 162,
+        "id": "zaragoza:zaragoza-arac-vergisi-ivtm-tutarlari-ve-odeme-yeri",
         "form": "sen",
         "fields": {
           "summary": "sen",
-          "steps": "sen"
+          "steps": "sen",
+          "timing": "sen"
         },
         "siz": [],
         "sen": [
-          "kendin",
-          "istemelisin",
-          "başvur",
-          "et",
-          "iste"
+          "ödersin",
+          "bak",
+          "bul",
+          "aldığın",
+          "ver"
         ]
       },
       {
         "sheet": "Yanıtlar",
-        "row": 157,
+        "row": 163,
+        "id": "zaragoza:zaragoza-elektrikli-hibrit-arac-vergi-indirimi-ve-muafiyet",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "istersin",
+          "istersen",
+          "et",
+          "iste",
+          "git"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 164,
         "id": "zaragoza:zaragoza-belediye-vergisi-gec-odeme-ek-odeme-ve-odeme-yollari",
         "form": "sen",
         "fields": {
@@ -2973,7 +3053,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 158,
+        "row": 165,
         "id": "zaragoza:zaragoza-belediye-acil-ihtiyac-yardimi-ayudas-de-urgente-necesidad",
         "form": "sen",
         "fields": {
@@ -2982,16 +3062,16 @@
         },
         "siz": [],
         "sen": [
-          "al",
           "oturduğun",
-          "git",
+          "gidersin",
           "olman",
+          "al",
           "Oturduğun"
         ]
       },
       {
         "sheet": "Yanıtlar",
-        "row": 159,
+        "row": 166,
         "id": "zaragoza:zaragoza-sosyal-hizmetler-merkezi-cmss-randevu-ve-hizmetler",
         "form": "sen",
         "fields": {
@@ -3011,7 +3091,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 160,
+        "row": 167,
         "id": "zaragoza:aragon-elektrik-gaz-su-faturasi-odenemezse-enerji-acil-yardimi",
         "form": "sen",
         "fields": {
@@ -3025,13 +3105,13 @@
           "ödeyemezsen",
           "yapmalısın",
           "gitmelisin",
-          "gitmen",
-          "aldığın"
+          "ödeyemiyorsan",
+          "git"
         ]
       },
       {
         "sheet": "Yanıtlar",
-        "row": 161,
+        "row": 168,
         "id": "zaragoza:aragon-pacimv-asgari-gelir-tamamlayici-destegi-kimler-alir",
         "form": "sen",
         "fields": {
@@ -3040,7 +3120,7 @@
         },
         "siz": [],
         "sen": [
-          "girmen",
+          "uyrukluysan",
           "alıyorsan",
           "isteyebilirsin",
           "edebileceğin",
@@ -3049,8 +3129,66 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 162,
+        "row": 169,
         "id": "zaragoza:aragon-gelir-vergisi-irpf-bolgesel-dilimler-ve-indirimler",
+        "form": "sen",
+        "fields": {
+          "title": "sen",
+          "summary": "sen",
+          "steps": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "yaşıyorsan",
+          "mukimiysen",
+          "verirsin",
+          "sayılırsın",
+          "geçirdiysen"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 170,
+        "id": "zaragoza:zaragoza-katastro-malik-degisikligi-ofis-adresi",
+        "form": "sen",
+        "fields": {
+          "subtitle": "sen",
+          "summary": "sen",
+          "steps": "sen",
+          "timing": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "aldıysan",
+          "yapacaksan",
+          "vermen",
+          "ver",
+          "hazırla"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 171,
+        "id": "zaragoza:zaragoza-ibi-orani-ve-aile-gunes-enerjisi-indirimleri",
+        "form": "sen",
+        "fields": {
+          "summary": "sen",
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "mükellefiysen",
+          "dur",
+          "sahibiysen",
+          "isteyebilirsin",
+          "bul"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 172,
+        "id": "zaragoza:zaragoza-sosyal-hizmetler-merkezleri-listesi-adres-telefon",
         "form": "sen",
         "fields": {
           "title": "sen",
@@ -3059,16 +3197,16 @@
         },
         "siz": [],
         "sen": [
-          "yaşıyorsan",
-          "verirsin",
-          "sayılırsan",
-          "geçirdiysen",
-          "bölmüşsen"
+          "gidersin",
+          "Oturduğun",
+          "bilmiyorsan",
+          "ara",
+          "bul"
         ]
       },
       {
         "sheet": "Yanıtlar",
-        "row": 163,
+        "row": 173,
         "id": "zaragoza:tasinma-oncesi-vize-ve-ilk-oturum-izni",
         "form": "sen",
         "fields": {
@@ -3087,7 +3225,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 164,
+        "row": 174,
         "id": "zaragoza:oturum-vizesi-basvurusunda-getirilecek-belgeler",
         "form": "sen",
         "fields": {
@@ -3108,7 +3246,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 165,
+        "row": 175,
         "id": "zaragoza:ilk-gunlerde-nuss-ve-temel-odeme-hesabi",
         "form": "sen",
         "fields": {
@@ -3131,7 +3269,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 166,
+        "row": 176,
         "id": "zaragoza:ab-disindan-gelirken-esya-ve-nakit-gumruk-beyani",
         "form": "sen",
         "fields": {
@@ -3151,7 +3289,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 167,
+        "row": 177,
         "id": "zaragoza:ab-disindan-evcil-hayvanla-ispanyaya-giris",
         "form": "sen",
         "fields": {
@@ -3169,7 +3307,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 168,
+        "row": 178,
         "id": "zaragoza:oturum-ve-ogrenci-vizesinde-saglik-sigortasi-sarti",
         "form": "sen",
         "fields": {
@@ -3184,7 +3322,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 169,
+        "row": 179,
         "id": "zaragoza:ispanya-para-birimi-euro-ve-resmi-dil",
         "form": "sen",
         "fields": {
@@ -3197,7 +3335,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 170,
+        "row": 180,
         "id": "zaragoza:ispanya-resmi-saat-ve-yaz-saati-kurali",
         "form": "sen",
         "fields": {
@@ -3212,7 +3350,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 171,
+        "row": 181,
         "id": "zaragoza:ab-disindan-gelen-yolcunun-bagaj-muafiyeti",
         "form": "sen",
         "fields": {
@@ -3231,7 +3369,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 172,
+        "row": 182,
         "id": "zaragoza:ilk-hafta-zaragoza-islem-sirasi",
         "form": "sen",
         "fields": {
@@ -3244,16 +3382,16 @@
         },
         "siz": [],
         "sen": [
-          "geldiğin",
           "yapmalısın",
           "yaptır",
-          "sor",
+          "olman",
+          "sorabilirsin",
           "oturduğun"
         ]
       },
       {
         "sheet": "Yanıtlar",
-        "row": 173,
+        "row": 183,
         "id": "zaragoza:casa-de-las-culturas-adres-saat-ve-hizmetler",
         "form": "sen",
         "fields": {
@@ -3269,7 +3407,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 174,
+        "row": 184,
         "id": "zaragoza:acogida-programi-icin-casa-de-las-culturas-randevusu",
         "form": "sen",
         "fields": {
@@ -3287,27 +3425,8 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 175,
+        "row": 185,
         "id": "zaragoza:saoji-ucretsiz-yabancilik-hukuku-danismanligi",
-        "form": "sen",
-        "fields": {
-          "summary": "sen",
-          "steps": "sen",
-          "note": "sen"
-        },
-        "siz": [],
-        "sen": [
-          "alırsın",
-          "ara",
-          "al",
-          "yap",
-          "dur"
-        ]
-      },
-      {
-        "sheet": "Yanıtlar",
-        "row": 176,
-        "id": "zaragoza:yeni-gelenler-icin-sendika-sivil-toplum-ve-ucretsiz-ispanyolca-adresleri",
         "form": "sen",
         "fields": {
           "summary": "sen",
@@ -3315,16 +3434,33 @@
         },
         "siz": [],
         "sen": [
-          "için",
-          "git",
+          "alırsın",
+          "ara",
           "al",
-          "iste",
-          "yaşadıysan"
+          "yazabilirsin",
+          "yap"
         ]
       },
       {
         "sheet": "Yanıtlar",
-        "row": 177,
+        "row": 186,
+        "id": "zaragoza:yeni-gelenler-icin-sendika-sivil-toplum-ve-ucretsiz-ispanyolca-adresleri",
+        "form": "sen",
+        "fields": {
+          "steps": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "git",
+          "al",
+          "iste",
+          "yaşadıysan",
+          "başvur"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 187,
         "id": "zaragoza:zaragoza-iklim-sicaklik-yagis-don-ve-sis",
         "form": "sen",
         "fields": {
@@ -3340,7 +3476,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 178,
+        "row": 188,
         "id": "zaragoza:yaz-sicak-dalgasi-onlemleri-ve-serinleme-siginaklari",
         "form": "sen",
         "fields": {
@@ -3358,7 +3494,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 179,
+        "row": 189,
         "id": "zaragoza:albergue-municipal-gecici-barinma-nasil-istenir",
         "form": "sen",
         "fields": {
@@ -3369,7 +3505,7 @@
         "siz": [],
         "sen": [
           "yerin",
-          "başvurursun",
+          "gidersin",
           "git",
           "istersen",
           "ara"
@@ -3377,7 +3513,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 180,
+        "row": 190,
         "id": "zaragoza:gencler-yurdu-baltasar-gracian-gecici-konaklama",
         "form": "sen",
         "fields": {
@@ -3390,12 +3526,12 @@
           "Gideceğin",
           "ol",
           "hazırla",
-          "yaz"
+          "arayabilirsin"
         ]
       },
       {
         "sheet": "Yanıtlar",
-        "row": 181,
+        "row": 191,
         "id": "zaragoza:madrid-barajas-havalimanindan-atocha-ve-merkeze-ulasim",
         "form": "sen",
         "fields": {
@@ -3415,7 +3551,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 182,
+        "row": 192,
         "id": "zaragoza:barselona-el-prat-havalimanindan-sehir-merkezine-ulasim",
         "form": "sen",
         "fields": {
@@ -3434,7 +3570,28 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 183,
+        "row": 193,
+        "id": "zaragoza:padron-volantesi-nasil-alinir",
+        "form": "sen",
+        "fields": {
+          "subtitle": "sen",
+          "summary": "sen",
+          "steps": "sen",
+          "documents": "sen",
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "kendin",
+          "basarsın",
+          "yazdırırsın",
+          "kimliğin",
+          "doldurursun"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 194,
         "id": "zaragoza:empadronamiento-nedir-neden-gerekir",
         "form": "sen",
         "fields": {
@@ -3452,7 +3609,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 184,
+        "row": 195,
         "id": "zaragoza:certificado-ve-volante-farki",
         "form": "sen",
         "fields": {
@@ -3468,7 +3625,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 185,
+        "row": 196,
         "id": "zaragoza:sosyal-guvenlik-numarasi-alma",
         "form": "sen",
         "fields": {
@@ -3488,7 +3645,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 186,
+        "row": 197,
         "id": "zaragoza:vida-laboral-raporu-alma",
         "form": "sen",
         "fields": {
@@ -3507,7 +3664,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 187,
+        "row": 198,
         "id": "zaragoza:vergi-numarasi-nif-nie-alma",
         "form": "sen",
         "fields": {
@@ -3525,7 +3682,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 188,
+        "row": 199,
         "id": "zaragoza:clave-pin-ve-permanente-farki",
         "form": "sen",
         "fields": {
@@ -3543,7 +3700,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 189,
+        "row": 200,
         "id": "zaragoza:fnmt-dijital-sertifika-kurma",
         "form": "sen",
         "fields": {
@@ -3562,7 +3719,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 190,
+        "row": 201,
         "id": "zaragoza:belge-ceviri-ve-apostil",
         "form": "sen",
         "fields": {
@@ -3580,7 +3737,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 191,
+        "row": 202,
         "id": "zaragoza:noter-islemleri-ve-ucretleri",
         "form": "sen",
         "fields": {
@@ -3598,7 +3755,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 192,
+        "row": 203,
         "id": "zaragoza:libro-de-familia-nedir",
         "form": "sen",
         "fields": {
@@ -3615,7 +3772,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 193,
+        "row": 204,
         "id": "zaragoza:registro-civil-ne-ise-yarar",
         "form": "sen",
         "fields": {
@@ -3634,7 +3791,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 194,
+        "row": 205,
         "id": "zaragoza:yabanci-ehliyet-degisimi",
         "form": "sen",
         "fields": {
@@ -3653,7 +3810,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 195,
+        "row": 206,
         "id": "zaragoza:arac-kaydi-ulusal-cerceve",
         "form": "sen",
         "fields": {
@@ -3672,13 +3829,14 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 196,
+        "row": 207,
         "id": "zaragoza:zaragoza-padron-kaydi-orc-juntas",
         "form": "sen",
         "fields": {
           "summary": "sen",
           "steps": "sen",
-          "documents": "sen"
+          "documents": "sen",
+          "timing": "sen"
         },
         "siz": [],
         "sen": [
@@ -3691,7 +3849,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 197,
+        "row": 208,
         "id": "zaragoza:yabanci-padron-yenileme-zaragoza-m007",
         "form": "sen",
         "fields": {
@@ -3704,14 +3862,14 @@
         "sen": [
           "yenilemezsen",
           "yabancıysan",
+          "geçiriyorsan",
           "yenilemen",
-          "yaparsın",
-          "Yenilemezsen"
+          "yaparsın"
         ]
       },
       {
         "sheet": "Yanıtlar",
-        "row": 198,
+        "row": 209,
         "id": "zaragoza:zaragoza-padron-volante-hemen-alma",
         "form": "sen",
         "fields": {
@@ -3720,26 +3878,27 @@
         },
         "siz": [],
         "sen": [
-          "kendin",
+          "hesabın",
           "yazdırırsın",
           "doldurursun",
           "alırsan",
-          "göstermen"
+          "kanıtlaman"
         ]
       },
       {
         "sheet": "Yanıtlar",
-        "row": 199,
+        "row": 210,
         "id": "zaragoza:zaragoza-padron-certificado-basvuru",
         "form": "sen",
         "fields": {
           "summary": "sen",
           "steps": "sen",
-          "documents": "sen"
+          "documents": "sen",
+          "note": "sen"
         },
         "siz": [],
         "sen": [
-          "istemen",
+          "isteyebilirsin",
           "başvurabilirsin",
           "istersen",
           "bak",
@@ -3748,16 +3907,19 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 200,
+        "row": 211,
         "id": "zaragoza:zaragoza-ici-adres-degisikligi-padron",
         "form": "sen",
         "fields": {
           "summary": "sen",
           "steps": "sen",
+          "documents": "sen",
           "timing": "sen",
           "note": "sen"
         },
-        "siz": [],
+        "siz": [
+          "ikinizin"
+        ],
         "sen": [
           "bildirmen",
           "yapabilirsin",
@@ -3768,7 +3930,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 201,
+        "row": 212,
         "id": "zaragoza:turk-ehliyeti-canje-jefatura-zaragoza",
         "form": "sen",
         "fields": {
@@ -3787,7 +3949,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 202,
+        "row": 213,
         "id": "zaragoza:clave-kaydi-dgt-jefatura-zaragoza",
         "form": "sen",
         "fields": {
@@ -3798,15 +3960,15 @@
         "siz": [],
         "sen": [
           "yaptırabilirsin",
+          "gidiyorsan",
+          "bulabilirsin",
           "imzaladığın",
-          "tamamlarsın",
-          "git",
-          "götür"
+          "tamamlarsın"
         ]
       },
       {
         "sheet": "Yanıtlar",
-        "row": 203,
+        "row": 214,
         "id": "zaragoza:zaragoza-oficina-de-registro-evrak-teslimi",
         "form": "sen",
         "fields": {
@@ -3816,7 +3978,7 @@
         "siz": [],
         "sen": [
           "yaparsın",
-          "gitmen",
+          "git",
           "hazırla",
           "aç",
           "ayır"
@@ -3824,7 +3986,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 204,
+        "row": 215,
         "id": "zaragoza:kamu-saglik-sistemine-erisim-hak-sahipleri",
         "form": "sen",
         "fields": {
@@ -3841,7 +4003,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 205,
+        "row": 216,
         "id": "zaragoza:saglik-sigortasi-sarti-ve-convenio-especial",
         "form": "sen",
         "fields": {
@@ -3858,7 +4020,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 206,
+        "row": 217,
         "id": "zaragoza:recete-ilac-katilim-payi-copago",
         "form": "sen",
         "fields": {
@@ -3878,7 +4040,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 207,
+        "row": 218,
         "id": "zaragoza:acil-durumda-112",
         "form": "sen",
         "fields": {
@@ -3897,7 +4059,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 208,
+        "row": 219,
         "id": "zaragoza:ulusal-asi-takvimi",
         "form": "sen",
         "fields": {
@@ -3913,7 +4075,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 209,
+        "row": 220,
         "id": "zaragoza:hamilelik-dogum-ve-cocuk-sagligi-haklari",
         "form": "sen",
         "fields": {
@@ -3930,7 +4092,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 210,
+        "row": 221,
         "id": "zaragoza:ruh-sagligi-ve-yasli-bakimi-dependencia",
         "form": "sen",
         "fields": {
@@ -3947,7 +4109,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 211,
+        "row": 222,
         "id": "zaragoza:aragon-saglik-karti-tarjeta-sanitaria-basvurusu",
         "form": "sen",
         "fields": {
@@ -3968,7 +4130,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 212,
+        "row": 223,
         "id": "zaragoza:kayitsiz-yabancilar-icin-aragon-evrensel-saglik-erisimi",
         "form": "sen",
         "fields": {
@@ -3986,7 +4148,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 213,
+        "row": 224,
         "id": "zaragoza:aile-hekimi-veya-cocuk-doktoru-degistirme-aragon",
         "form": "sen",
         "fields": {
@@ -4006,7 +4168,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 214,
+        "row": 225,
         "id": "zaragoza:uzman-hekim-ve-hastane-secimi-uzmanlik-merkezi-randevusu",
         "form": "sen",
         "fields": {
@@ -4016,16 +4178,16 @@
         },
         "siz": [],
         "sen": [
+          "seni",
+          "takibindeysen",
           "istediğin",
-          "yaparsın",
-          "seçtiğin",
-          "arayabilirsin",
-          "git"
+          "seçersin",
+          "seçtiğin"
         ]
       },
       {
         "sheet": "Yanıtlar",
-        "row": 215,
+        "row": 226,
         "id": "zaragoza:aragon-aile-hekimi-hemsire-randevusu-internetten",
         "form": "sen",
         "fields": {
@@ -4044,22 +4206,25 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 216,
+        "row": 227,
         "id": "zaragoza:zaragoza-hastane-acilleri-miguel-servet-ve-clinico",
         "form": "sen",
         "fields": {
-          "steps": "sen"
+          "steps": "sen",
+          "note": "sen"
         },
         "siz": [],
         "sen": [
           "gidiyorsan",
           "gir",
-          "alınırsın"
+          "alınırsın",
+          "gideceğin",
+          "olduğun"
         ]
       },
       {
         "sheet": "Yanıtlar",
-        "row": 217,
+        "row": 228,
         "id": "zaragoza:zaragoza-duap-acil-olmayan-saglik-sorunu-aksam-hafta-sonu",
         "form": "sen",
         "fields": {
@@ -4070,15 +4235,15 @@
         "siz": [],
         "sen": [
           "gidersin",
+          "olduğun",
           "görürsün",
           "ol",
-          "kullan",
-          "olduğun"
+          "kullan"
         ]
       },
       {
         "sheet": "Yanıtlar",
-        "row": 218,
+        "row": 229,
         "id": "zaragoza:zaragoza-gece-ve-hafta-sonu-saglik-merkezi-duap-hastane-sirasi",
         "form": "sen",
         "fields": {
@@ -4095,7 +4260,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 219,
+        "row": 230,
         "id": "zaragoza:061-aragon-saglik-acili-nasil-aranir",
         "form": "sen",
         "fields": {
@@ -4114,7 +4279,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 220,
+        "row": 231,
         "id": "zaragoza:zaragoza-nobetci-eczane-listesi-ve-nobet-saatleri",
         "form": "sen",
         "fields": {
@@ -4134,7 +4299,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 221,
+        "row": 232,
         "id": "zaragoza:aragon-convenio-especial-basvuru-adimlari-ve-ucret",
         "form": "sen",
         "fields": {
@@ -4143,16 +4308,16 @@
         },
         "siz": [],
         "sen": [
-          "dur",
           "yaparsın",
-          "imzalarsın",
-          "ol",
-          "indir"
+          "koyarsın",
+          "Başvurabilmen",
+          "dur",
+          "imzalarsın"
         ]
       },
       {
         "sheet": "Yanıtlar",
-        "row": 222,
+        "row": 233,
         "id": "zaragoza:aragon-cocuk-asi-takvimi-2024-ve-2019-farklari",
         "form": "sen",
         "fields": {
@@ -4168,24 +4333,47 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 223,
+        "row": 234,
         "id": "zaragoza:zaragoza-saglik-sektorleri-1-ve-3-merkez-hastane-uzmanlik",
         "form": "sen",
         "fields": {
+          "summary": "sen",
           "steps": "sen"
         },
         "siz": [],
         "sen": [
+          "bulursun",
           "Oturduğun",
           "bul",
-          "öğren",
           "arıyorsan",
           "sana"
         ]
       },
       {
         "sheet": "Yanıtlar",
-        "row": 224,
+        "row": 235,
+        "id": "zaragoza:zaragoza-saglik-merkezi-adresleri-ve-telefonlari",
+        "form": "sen",
+        "fields": {
+          "title": "sen",
+          "subtitle": "sen",
+          "summary": "sen",
+          "steps": "sen",
+          "documents": "sen",
+          "timing": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "olduğun",
+          "bulursun",
+          "öğrenirsin",
+          "bilmiyorsan",
+          "bulunduğun"
+        ]
+      },
+      {
+        "sheet": "Yanıtlar",
+        "row": 236,
         "id": "zaragoza:renfe-bilet-iptal-degisiklik-genc-indirimi",
         "form": "sen",
         "fields": {
@@ -4203,7 +4391,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 225,
+        "row": 237,
         "id": "zaragoza:otobus-yolcu-haklari-rotar-bagaj-engelli",
         "form": "sen",
         "fields": {
@@ -4221,7 +4409,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 226,
+        "row": 238,
         "id": "zaragoza:hiz-siniri-alkol-ehliyet-puani",
         "form": "sen",
         "fields": {
@@ -4239,7 +4427,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 227,
+        "row": 239,
         "id": "zaragoza:itv-arac-muayene-periyotlari",
         "form": "sen",
         "fields": {
@@ -4256,7 +4444,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 228,
+        "row": 240,
         "id": "zaragoza:ucus-gecikme-iptal-aesa-sikayet",
         "form": "sen",
         "fields": {
@@ -4274,7 +4462,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 229,
+        "row": 241,
         "id": "zaragoza:ada-ceuta-melilla-yerlesik-ucus-indirimi",
         "form": "sen",
         "fields": {
@@ -4292,7 +4480,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 230,
+        "row": 242,
         "id": "zaragoza:otobus-bilet-kurallari-zaragoza",
         "form": "sen",
         "fields": {
@@ -4304,15 +4492,15 @@
         "siz": [],
         "sen": [
           "okut",
-          "dur",
           "alırsın",
+          "dur",
           "istiyorsan",
           "kullan"
         ]
       },
       {
         "sheet": "Yanıtlar",
-        "row": 231,
+        "row": 243,
         "id": "zaragoza:tarjeta-bus-alma-yukleme-zaragoza",
         "form": "sen",
         "fields": {
@@ -4330,7 +4518,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 232,
+        "row": 244,
         "id": "zaragoza:abono-30-90-365-alma-zaragoza",
         "form": "sen",
         "fields": {
@@ -4339,34 +4527,35 @@
         },
         "siz": [],
         "sen": [
+          "alırsın",
           "dur",
           "gitmen",
           "götürürsün",
-          "yaparsan",
-          "alırsın"
+          "yaparsan"
         ]
       },
       {
         "sheet": "Yanıtlar",
-        "row": 233,
+        "row": 245,
         "id": "zaragoza:abono-30-gelire-gore-indirim-zaragoza",
         "form": "sen",
         "fields": {
           "summary": "sen",
-          "steps": "sen"
+          "steps": "sen",
+          "documents": "sen"
         },
         "siz": [],
         "sen": [
-          "dur",
           "götürürsün",
           "al",
           "hazırla",
-          "iste"
+          "ekle",
+          "eşin"
         ]
       },
       {
         "sheet": "Yanıtlar",
-        "row": 234,
+        "row": 246,
         "id": "zaragoza:abono-genc-buyuk-aile-engelli-indirimi-zaragoza",
         "form": "sen",
         "fields": {
@@ -4384,7 +4573,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 235,
+        "row": 247,
         "id": "zaragoza:abono-infantil-8-14-ucretsiz-zaragoza",
         "form": "sen",
         "fields": {
@@ -4402,7 +4591,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 236,
+        "row": 248,
         "id": "zaragoza:ctaz-15-yas-alti-ucretsiz-metropoliten-kart",
         "form": "sen",
         "fields": {
@@ -4420,7 +4609,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 237,
+        "row": 249,
         "id": "zaragoza:tarjeta-lazo-ciudadana-interbus-farki",
         "form": "sen",
         "fields": {
@@ -4438,7 +4627,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 238,
+        "row": 250,
         "id": "zaragoza:tramvay-zaragoza-hat-saat-otopark",
         "form": "sen",
         "fields": {
@@ -4457,12 +4646,13 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 239,
+        "row": 251,
         "id": "zaragoza:delicias-gari-madrid-trene-gitmek",
         "form": "sen",
         "fields": {
           "summary": "sen",
-          "steps": "sen"
+          "steps": "sen",
+          "cost": "sen"
         },
         "siz": [],
         "sen": [
@@ -4475,7 +4665,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 240,
+        "row": 252,
         "id": "zaragoza:bizi-zaragoza-uyelik-tarife-2026",
         "form": "sen",
         "fields": {
@@ -4493,7 +4683,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 241,
+        "row": 253,
         "id": "zaragoza:zbe-zaragoza-kurallari-etiket-kayit",
         "form": "sen",
         "fields": {
@@ -4510,7 +4700,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 242,
+        "row": 254,
         "id": "zaragoza:sakin-park-karti-zaragoza-mavi-turuncu-bolge",
         "form": "sen",
         "fields": {
@@ -4528,7 +4718,7 @@
       },
       {
         "sheet": "Yanıtlar",
-        "row": 243,
+        "row": 255,
         "id": "zaragoza:havalimani-zaragoza-otobus-taksi",
         "form": "sen",
         "fields": {
@@ -4536,7 +4726,6 @@
         },
         "siz": [],
         "sen": [
-          "bak",
           "okut",
           "ara",
           "gidiyorsan"
