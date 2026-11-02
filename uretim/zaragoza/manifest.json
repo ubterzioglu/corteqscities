@@ -169,6 +169,13 @@
    "text": "Maliyet kararı (kural 15; kullanıcı 2.11.2026): 'ucuz yol'. Answers denetiminde her denetçi ve editör 2 konuyu birlikte alır; çürütme ve doğrulayıcı yalnız ciddi bulguda; ülke paketinin değişmeyen kartları (audit-scope skip) denetlenmez. Bütün şehir kartları ve değişen 6 ülke kartı tam denetimden geçer. Yazım sonrası 16 ajan.",
    "evidence": "/home/user/corteqscities/uretim/zaragoza/_is/phase_log.jsonl",
    "owner": "insan"
+  },
+  {
+   "id": "OI-007",
+   "priority": "P1",
+   "text": "Ülke paketi kartlarında denetim bulguları (audit-scope 'şehirde değişti' ile denetime giren 6 kart): yillik-izin-ve-resmi-tatiller-2026 (2), dijital-gocebe-vizesi (7), altin-vize-sona-erdi (3), tasinma-oncesi-vize-ve-ilk-oturum-izni (1), ilk-gunlerde-nuss-ve-temel-odeme-hesabi (4), ab-disindan-gelirken-esya-ve-nakit-gumruk-beyani (3). Şehir editörleri ülke kartlarını değiştirmedi (kural); bulgular ülke paketi güncellemesinde (ulke/ES) ya da assemble d5'te kapatılmalı. Ayrıntı: _is/denetim/<konu>_iddia.jsonl.",
+   "evidence": "/home/user/corteqscities/uretim/zaragoza/_is/ulke_denetim_kapsami.json",
+   "owner": "ai"
   }
  ],
  "sources_researched": 327,
