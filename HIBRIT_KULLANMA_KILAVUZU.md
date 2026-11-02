@@ -172,6 +172,16 @@ Bu, Claude denetiminin **ilk turda "düzelt" dediği kartların yüzdesini** rol
 
 Hibriti tamamen bırakmak istersen: şehir adını "hibrit" demeden yaz; eski `city-pack` çalışır.
 
+### Asıl skill (`city-pack`) değişince
+
+Hibrit bir kopya olduğu için asıl skill'e eklenen dersler kendiliğinden gelmez. Her hibrit şehirden önce (üretim sürerken değil) şunu çalıştır ya da Claude'a "hibriti eşitle" de:
+
+```powershell
+C:\temp_private\corteqs\0000_newera\.venv\Scripts\python.exe C:\temp_private\corteqs\0000_newera\corteqs-skills\city-pack-hibrit\betikler\esitle.py
+```
+
+Asıl skill'in güncel halini alır, hibrit eklerini üstüne yeniden koyar. `"skill_degisti": false` = zaten eşit. Çıkış 1 = asıl skill'de hibritin bağlandığı bir satır değişmiş; Claude'a göster, script'teki eşleşme güncellenir.
+
 ---
 
 ## 8. Sorun giderme
