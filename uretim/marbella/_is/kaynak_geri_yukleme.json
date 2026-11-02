@@ -1,0 +1,17 @@
+{
+ "tarih": "2026-11-02",
+ "not": "snap_* klasörleri git dışı; bulut oturumu kapanınca kayboldu. ulke/ES kaynakları repodan kopyalandı, kalanlar yeniden indirildi (fetch_snapshot). 'farkli' = sayfa 28-29.10'dakinden farklı (dinamik içerik ya da güncelleme).",
+ "sayilar": {
+  "ulke_paketinden_kopya": 147,
+  "yeniden_indirilen": 281,
+  "ayni_html": 16,
+  "indirilemeyen": 1
+ },
+ "indirilemeyen": [
+  {
+   "source_id": "marbella:kaynak:242",
+   "url": "https://sede.agenciatributaria.gob.es/Sede/buscador-oficinas/malaga.html",
+   "hata": "connection: URLError: <urlopen error [Errno 104] Connection reset by peer>"
+  }
+ ]
+}
