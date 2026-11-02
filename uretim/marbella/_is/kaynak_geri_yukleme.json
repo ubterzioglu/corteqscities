@@ -1,17 +1,11 @@
 {
  "tarih": "2026-11-02",
- "not": "snap_* klasörleri git dışı; bulut oturumu kapanınca kayboldu. ulke/ES kaynakları repodan kopyalandı, kalanlar yeniden indirildi (fetch_snapshot). 'farkli' = sayfa 28-29.10'dakinden farklı (dinamik içerik ya da güncelleme).",
+ "not": "snap_* klasörleri git dışı; bulut oturumu kapanınca kayboldu. ulke/ES kaynakları repodan kopyalandı, kalanlar yeniden indirildi (fetch_snapshot). 'farkli' = sayfa 28-29.10'dakinden farklı (dinamik içerik ya da güncelleme). kaynak:246 (seg-social) İngilizce geldi; ?lang=es ile yeniden alındı (metin uzunluğu ilk kopyayla aynı: 52307). kaynak:242 (AEAT) ikinci denemede curl ile alındı.",
  "sayilar": {
   "ulke_paketinden_kopya": 147,
-  "yeniden_indirilen": 281,
+  "yeniden_indirilen": 282,
   "ayni_html": 16,
-  "indirilemeyen": 1
+  "indirilemeyen": 0
  },
- "indirilemeyen": [
-  {
-   "source_id": "marbella:kaynak:242",
-   "url": "https://sede.agenciatributaria.gob.es/Sede/buscador-oficinas/malaga.html",
-   "hata": "connection: URLError: <urlopen error [Errno 104] Connection reset by peer>"
-  }
- ]
+ "indirilemeyen": []
 }

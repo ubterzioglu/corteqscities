@@ -8,7 +8,7 @@
   "summary": {
     "exact_clusters": 0,
     "near_clusters": 0,
-    "template_clusters": 1,
+    "template_clusters": 0,
     "shared_steps": 0,
     "placeholders": 0,
     "filler": 0,
@@ -19,99 +19,35 @@
     "hedge_cards": 0,
     "hedge_share": 0.0,
     "exact_records": 0,
-    "short_repeat_groups": 1,
-    "repeated_sentences": 7,
-    "cards_total": 342,
+    "short_repeat_groups": 0,
+    "repeated_sentences": 5,
+    "cards_total": 339,
     "visual_json_empty": 227,
     "address": {
       "standard": "sen",
-      "records": 457,
-      "hitapsiz": 198,
+      "records": 453,
+      "hitapsiz": 192,
       "siz": 0,
-      "sen": 259,
+      "sen": 261,
       "karisik": 0,
       "findings": 0,
       "labels": {
-        "records": 503,
-        "hitapsiz": 58,
+        "records": 501,
+        "hitapsiz": 53,
         "siz": 0,
-        "sen": 445,
+        "sen": 448,
         "karisik": 0
       },
       "skipped": []
     },
-    "findings": 1
+    "findings": 0
   },
-  "top_clusters": [
-    {
-      "kind": "template",
-      "sheet": "Mekânlar",
-      "field": "note",
-      "size": 7,
-      "distinct": 3,
-      "sample": "Yakın çevre gezisi: Estepona"
-    }
-  ],
+  "top_clusters": [],
   "exact_duplicates": [],
   "near_duplicates": [],
-  "template_duplicates": [
-    {
-      "sheet": "Mekânlar",
-      "field": "note",
-      "size": 7,
-      "distinct": 3,
-      "template": "yakin cevre gezisi ¤",
-      "sample": "Yakın çevre gezisi: Estepona",
-      "members": [
-        {
-          "row": 55,
-          "id": "marbella:selwo-aventura-estepona"
-        },
-        {
-          "row": 56,
-          "id": "marbella:bioparc-fuengirola"
-        },
-        {
-          "row": 80,
-          "id": "marbella:casa-museo-de-mijas"
-        },
-        {
-          "row": 101,
-          "id": "marbella:castillo-de-mijas"
-        },
-        {
-          "row": 106,
-          "id": "marbella:torre-de-calahonda"
-        },
-        {
-          "row": 107,
-          "id": "marbella:ermita-nuestra-senora-de-los-remedios-mijas"
-        },
-        {
-          "row": 108,
-          "id": "marbella:iglesia-inmaculada-concepcion-mijas"
-        }
-      ]
-    }
-  ],
-  "short_repeats": [
-    {
-      "sheet": "Mekânlar",
-      "field": "note",
-      "value": "Yakın çevre gezisi: Mijas",
-      "size": 5
-    }
-  ],
+  "template_duplicates": [],
+  "short_repeats": [],
   "repeated_sentences": [
-    {
-      "sheet": "Mekânlar",
-      "sentence": "yakin cevre gezisi estepona",
-      "records": 5,
-      "fields": [
-        "note"
-      ],
-      "sample": "Yakın çevre gezisi: Estepona"
-    },
     {
       "sheet": "Yanıtlar",
       "sentence": "bu kart 7 ekim 2026 tarihli konsolide metne gore yayim 7 ekim yururluk 8 ekim",
@@ -155,15 +91,6 @@
     },
     {
       "sheet": "Mekânlar",
-      "sentence": "genel ziyaret yok etkinlik gunleri",
-      "records": 3,
-      "fields": [
-        "note"
-      ],
-      "sample": "Genel ziyaret yok, etkinlik günleri"
-    },
-    {
-      "sheet": "Mekânlar",
       "sentence": "sayfada konum haritasi var",
       "records": 3,
       "fields": [
@@ -183,7 +110,7 @@
     "items": []
   },
   "hedges": {
-    "cards_total": 342,
+    "cards_total": 339,
     "cards_with_hedge": 0,
     "share": 0.0,
     "max_per_card": 0,
@@ -196,7 +123,7 @@
   },
   "action_links": {
     "skipped": false,
-    "checked": 342,
+    "checked": 339,
     "missing": 0,
     "map_only": 0,
     "no_id": 0,
@@ -216,10 +143,10 @@
   },
   "address": {
     "standard": "sen",
-    "records": 457,
-    "hitapsiz": 198,
+    "records": 453,
+    "hitapsiz": 192,
     "siz": 0,
-    "sen": 259,
+    "sen": 261,
     "karisik": 0,
     "by_sheet": {
       "Yanıtlar": {
@@ -230,17 +157,17 @@
         "karisik": 0
       },
       "Mekânlar": {
-        "records": 101,
-        "hitapsiz": 98,
+        "records": 98,
+        "hitapsiz": 92,
         "siz": 0,
-        "sen": 3,
+        "sen": 6,
         "karisik": 0
       },
       "Mahalleler": {
         "records": 12,
-        "hitapsiz": 9,
+        "hitapsiz": 10,
         "siz": 0,
-        "sen": 3,
+        "sen": 2,
         "karisik": 0
       },
       "Rotalar": {
@@ -265,8 +192,8 @@
         "karisik": 0
       },
       "Sözlük": {
-        "records": 60,
-        "hitapsiz": 60,
+        "records": 59,
+        "hitapsiz": 59,
         "siz": 0,
         "sen": 0,
         "karisik": 0
@@ -294,10 +221,10 @@
       }
     },
     "labels": {
-      "records": 503,
-      "hitapsiz": 58,
+      "records": 501,
+      "hitapsiz": 53,
       "siz": 0,
-      "sen": 445,
+      "sen": 448,
       "karisik": 0
     },
     "skipped": [],
@@ -4324,12 +4251,39 @@
         "sen": [
           "gir",
           "git",
-          "bırakıyorsun"
+          "bırakıyorsun",
+          "öğren"
         ]
       },
       {
         "sheet": "Mekânlar",
-        "row": 57,
+        "row": 41,
+        "id": "marbella:complejo-deportivo-antonio-serrano-lima",
+        "form": "sen",
+        "fields": {
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "ara"
+        ]
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 43,
+        "id": "marbella:estadio-municipal-antonio-naranjo",
+        "form": "sen",
+        "fields": {
+          "note": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "ara"
+        ]
+      },
+      {
+        "sheet": "Mekânlar",
+        "row": 55,
         "id": "marbella:castillo-de-marbella-alcazaba-y-muralla",
         "form": "sen",
         "fields": {
@@ -4342,30 +4296,28 @@
       },
       {
         "sheet": "Mekânlar",
-        "row": 96,
-        "id": "marbella:teatro-manuel-espana-mijas",
+        "row": 73,
+        "id": "marbella:iglesia-de-san-pedro-de-alcantara",
         "form": "sen",
         "fields": {
-          "note": "sen"
+          "summary": "sen"
         },
         "siz": [],
         "sen": [
-          "git"
+          "ara"
         ]
       },
       {
-        "sheet": "Mahalleler",
-        "row": 8,
-        "id": "marbella:casco-antiguo",
+        "sheet": "Mekânlar",
+        "row": 77,
+        "id": "marbella:casa-museo-de-mijas",
         "form": "sen",
         "fields": {
-          "note": "sen",
-          "compare_json": "sen"
+          "summary": "sen"
         },
         "siz": [],
         "sen": [
-          "et",
-          "kat"
+          "öğrenebilirsin"
         ]
       },
       {
@@ -4374,11 +4326,14 @@
         "id": "marbella:guadaiza-cuatro-vientos",
         "form": "sen",
         "fields": {
+          "summary": "sen",
           "note": "sen"
         },
         "siz": [],
         "sen": [
-          "olman"
+          "olman",
+          "istediğin",
+          "ikametin"
         ]
       },
       {
@@ -4407,8 +4362,7 @@
         "sen": [
           "başla",
           "et",
-          "bakarsın",
-          "verebilirsin"
+          "bakarsın"
         ]
       },
       {
@@ -4505,8 +4459,7 @@
         },
         "siz": [],
         "sen": [
-          "başla",
-          "ayır"
+          "başla"
         ]
       },
       {
@@ -4547,8 +4500,7 @@
         "siz": [],
         "sen": [
           "başla",
-          "yürü",
-          "ödemezsin"
+          "yürü"
         ]
       },
       {

@@ -5,7 +5,7 @@
     "new_content": true,
     "structure": {
       "errors": 0,
-      "warnings": 115
+      "warnings": 112
     },
     "media": {
       "errors": 0
@@ -27,11 +27,11 @@
       "placeholders": 0,
       "wikipedia_labeled_official": 0,
       "verified_without_snapshot": 0,
-      "shared_coordinates": 4,
+      "shared_coordinates": 1,
       "homepage_only_sources": 0,
       "history_share": 0
     },
-    "extras_note": "ek kontrol, resmî sayılara dahil değil; tarih payı 28/101 (eşik 0.35, öneri)",
+    "extras_note": "ek kontrol, resmî sayılara dahil değil; tarih payı 28/98 (eşik 0.35, öneri)",
     "technically_complete": false
   },
   "structure": {
@@ -41,10 +41,10 @@
     "acceptance_version": "2026-10-13.1",
     "counts": {
       "answers": 229,
-      "places": 101,
+      "places": 98,
       "neighborhoods": 12,
       "routes": 12,
-      "glossary": 60,
+      "glossary": 59,
       "topics": 12,
       "photos": 0,
       "hero_photos": 0
@@ -71,9 +71,6 @@
     },
     "errors": [],
     "warnings": [
-      "Mekânlar!?: Mekân / mahalleye bağlı gerçek fotoğraf eksik.",
-      "Mekânlar!?: Mekân / mahalleye bağlı gerçek fotoğraf eksik.",
-      "Mekânlar!?: Mekân / mahalleye bağlı gerçek fotoğraf eksik.",
       "Mekânlar!?: Mekân / mahalleye bağlı gerçek fotoğraf eksik.",
       "Mekânlar!?: Mekân / mahalleye bağlı gerçek fotoğraf eksik.",
       "Mekânlar!?: Mekân / mahalleye bağlı gerçek fotoğraf eksik.",
@@ -225,7 +222,7 @@
   "warning_classes": [
     {
       "class": "Mekânlar: Mekân / mahalleye bağlı gerçek fotoğraf eksik.",
-      "count": 101,
+      "count": 98,
       "examples": [
         "Mekânlar!?: Mekân / mahalleye bağlı gerçek fotoğraf eksik."
       ]
@@ -272,30 +269,12 @@
       "label": "ek kontrol",
       "count": 0,
       "items": [],
-      "verified_total": 392
+      "verified_total": 163
     },
     "shared_coordinates": {
       "label": "ek kontrol",
-      "count": 4,
+      "count": 1,
       "items": [
-        {
-          "sheet": "Mekânlar",
-          "latitude": 36.50769,
-          "longitude": -4.85962,
-          "entry_ids": [
-            "marbella:parque-del-mediterraneo",
-            "marbella:playa-el-pinillo"
-          ]
-        },
-        {
-          "sheet": "Mekânlar",
-          "latitude": 36.509433,
-          "longitude": -4.884127,
-          "entry_ids": [
-            "marbella:capilla-de-san-juan-de-dios-marbella",
-            "marbella:hospital-real-de-la-misericordia"
-          ]
-        },
         {
           "sheet": "Mekânlar",
           "latitude": 36.51361,
@@ -304,18 +283,9 @@
             "marbella:parque-vigil-de-quinones",
             "marbella:polideportivo-paco-cantos"
           ]
-        },
-        {
-          "sheet": "Mekânlar",
-          "latitude": 36.51442,
-          "longitude": -4.88399,
-          "entry_ids": [
-            "marbella:centro-tecnico-de-alto-rendimiento",
-            "marbella:parque-arroyo-de-la-represa"
-          ]
         }
       ],
-      "entries": 8
+      "entries": 2
     },
     "homepage_only_sources": {
       "label": "ek kontrol",
@@ -327,8 +297,8 @@
       "count": 0,
       "items": [],
       "history": 28,
-      "total": 101,
-      "ratio": 0.2772,
+      "total": 98,
+      "ratio": 0.2857,
       "threshold": 0.35,
       "flagged": false,
       "threshold_note": "öneri: 'Tarih ve mimari' payı > 35% ise çeşitlilik gözden geçirilmeli"

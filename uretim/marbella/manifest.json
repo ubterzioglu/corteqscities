@@ -21,7 +21,7 @@
   "path": "/home/user/corteqscities/uretim/marbella/_is/ulke_paketi",
   "valid_until": "2026-11-05"
  },
- "phase": "places",
+ "phase": "photos",
  "phases": {
   "intake": {
    "status": "done",
@@ -246,8 +246,113 @@
    "ended_at": "2026-10-28T12:15:32Z"
   },
   "places": {
-   "status": "running",
+   "status": "done",
    "started_at": "2026-10-28T15:06:49Z",
+   "gates": [
+    {
+     "script": "merge_package",
+     "exit_code": 0,
+     "summary": {
+      "Mekânlar": 98,
+      "Mahalleler": 12,
+      "Rotalar": 12,
+      "Sözlük": 59,
+      "Bağlantılar": 501,
+      "quote_miss": 0,
+      "issues": 0
+     },
+     "report": "/home/user/corteqscities/uretim/marbella/_is/birlestir_rapor.json",
+     "at": "2026-11-02T12:20:22Z"
+    },
+    {
+     "script": "build_xlsx",
+     "exit_code": 0,
+     "summary": {
+      "rejected": 0
+     },
+     "report": "/home/user/corteqscities/uretim/marbella/_is/build.json",
+     "at": "2026-11-02T12:20:22Z"
+    },
+    {
+     "script": "text_quality",
+     "exit_code": 0,
+     "summary": {
+      "findings": 0,
+      "address_findings": 0,
+      "address_standard": "sen"
+     },
+     "report": "/home/user/corteqscities/uretim/marbella/_is/text_quality.json",
+     "at": "2026-11-02T12:20:22Z"
+    },
+    {
+     "script": "warning-scan",
+     "exit_code": 0,
+     "summary": {
+      "findings": 0
+     },
+     "report": "/home/user/corteqscities/uretim/marbella/_is/uyari_tarama.json",
+     "at": "2026-11-02T12:20:22Z"
+    },
+    {
+     "script": "kart_tutarlilik",
+     "exit_code": 1,
+     "summary": {
+      "groups": 48,
+      "farkli_degerli": 11,
+      "not": "Sözlük-çapalı gruplar farklı işlemlerin değerlerini topluyor (ör. TIE ücretleri, NIE süreleri); places kayıtlarını etkileyen çelişki yok, d5'te yeniden bakılır."
+     },
+     "report": "/home/user/corteqscities/uretim/marbella/_is/tutarlilik.json",
+     "at": "2026-11-02T12:20:22Z"
+    },
+    {
+     "script": "validate_all",
+     "exit_code": 0,
+     "summary": {
+      "structure_errors": 0,
+      "media_errors": 0,
+      "warnings": 112,
+      "not": "uyarıların hepsi fotoğraf eksiği (photos fazı)"
+     },
+     "report": "/home/user/corteqscities/uretim/marbella/_is/val_ara.json",
+     "at": "2026-11-02T12:20:22Z"
+    },
+    {
+     "script": "acik_mi",
+     "exit_code": 0,
+     "summary": {
+      "mekan": 98,
+      "findings": 0,
+      "kartta_belirt": 7,
+      "kalici_kapali": 0
+     },
+     "report": "/home/user/corteqscities/uretim/marbella/_is/acik_mi_rapor.json",
+     "at": "2026-11-02T12:20:22Z"
+    },
+    {
+     "script": "rota_mesafe",
+     "exit_code": 0,
+     "summary": {
+      "bacak": 36,
+      "problem": 0,
+      "not": "rota 009 son durağı parque-del-mediterraneo → playa-el-pinillo (aynı nokta)"
+     },
+     "report": "/home/user/corteqscities/uretim/marbella/_is/rota_mesafe.jsonl",
+     "at": "2026-11-02T12:20:22Z"
+    }
+   ],
+   "outputs": [
+    "/home/user/corteqscities/uretim/marbella/_is/data/Mekânlar.jsonl",
+    "/home/user/corteqscities/uretim/marbella/_is/data/Mahalleler.jsonl",
+    "/home/user/corteqscities/uretim/marbella/_is/data/Rotalar.jsonl",
+    "/home/user/corteqscities/uretim/marbella/_is/data/Sözlük.jsonl",
+    "/home/user/corteqscities/uretim/marbella/_is/ara/ara.xlsx",
+    "/home/user/corteqscities/uretim/marbella/_is/kaynak_geri_yukleme.json"
+   ],
+   "ended_at": "2026-11-02T12:20:22Z"
+  },
+  "photos": {
+   "status": "running",
+   "started_at": "2026-11-02T12:21:15Z",
    "gates": [],
    "outputs": []
   }
@@ -318,13 +423,27 @@
   },
   {
    "id": "OI-010",
-   "priority": "P3",
+   "priority": "P2",
    "text": "parque-vigil-de-quinones ve polideportivo-paco-cantos aynı koordinatta (36.51361,-4.89753). Bu nokta CartoCiudad'da Avda. Cánovas del Castillo 31 portalı: Vigil de Quiñones'in adresi, doğru. Paco Cantos'un adresi 's/n', resmî portal kaydı yok; koordinat kuralı gereği değiştirilmedi. OSM'de tesis (leisure=sports_centre, way 986029578) 36.51215,-4.89831'de, ~170 m güneyde: haritada iki pin üst üste düşer.",
    "evidence": "CartoCiudad findJsonp 'Avenida Cánovas del Castillo 31, Marbella' → 01.29.G29_290690205756; nominatim 'Polideportivo Paco Cantos Marbella' 2.11.2026",
    "owner": "insan"
+  },
+  {
+   "id": "OI-011",
+   "priority": "P2",
+   "text": "m3 doğrulayıcısının 9 hafif 'eksik_kalan' satırı (5 kaynaksız koordinat: Castillo de San Luis, Lago de las Tortugas, Castillo de Mijas, Iglesia Inmaculada Mijas; Torres Vigía summary kipi; Peña notunda Virgen del Carmen atfı; Remedios defter C-1; CAC 'Ziyaret bilgisi' bağlantısı belediye sayfasında; Tejerinas Marchá cümlesi tarihsiz). Ciddi/orta yok; d5 son denetimde (assemble adım 0) kapatılacak.",
+   "evidence": "/home/user/corteqscities/uretim/marbella/_is/denetim/m3_dogrulama.jsonl",
+   "owner": "ai"
+  },
+  {
+   "id": "OI-012",
+   "priority": "P2",
+   "text": "B5: editörlerin değiştirdiği 87 yer kaydının (m1 38, m2 18, m3 19, mahalle 12) mekân doğrulama satırı güncellenmedi; ana döngünün 7 açık-mı notu, El Pinillo ve rota 009 değişikliği denetlenmedi (kur-ana_degisiklik.jsonl). Ucuz yol (OI-009) gereği assemble adım 0'daki d5 son denetimde <parça>-d5_iddia/_karar/_mekan-dogrulama yazılacak; kanit_teslim her kaydın bir 'geçti' satırını ister.",
+   "evidence": "/home/user/corteqscities/uretim/marbella/_is/denetim/kur-ana_degisiklik.jsonl",
+   "owner": "ai"
   }
  ],
  "sources_researched": 286,
  "photos_downloaded": 0,
- "next_step": "places: DURAKLATILDI 29.10.2026 (haftalık limit) — devam için uretim/marbella/DURUM.md; sıradaki: m3 editör turu, K108/koordinat kararları, KUR, places kapanışı; sonra photos (Wikimedia bu bulut oturumunda 429 verdi, yerel makinede yeniden ara)"
+ "next_step": "photos: bu bulut oturumunda Wikimedia 429 (2.11.2026 yeniden denendi) — yerel makinede çalıştır: photo_candidates plan-from-xlsx (silinen 3 mekân çıkar) → QID → foto/arama.sh. Ayrıntı: uretim/marbella/DURUM.md"
 }
