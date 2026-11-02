@@ -1,0 +1,2516 @@
+===== KART 1/15: zaragoza:cop-ayirma-renkleri-ve-saatleri =====
+{
+ "entry_id": "zaragoza:cop-ayirma-renkleri-ve-saatleri",
+ "city_id": "zaragoza",
+ "slug": "cop-ayirma-renkleri-ve-saatleri",
+ "title": "Zaragoza'da çöp ve geri dönüşüm nasıl ayrılır, hangi saatte hangi konteynere atılır?",
+ "subtitle": "Kahverengi organik, sarı hafif ambalaj, mavi kâğıt, açık yeşil cam, gri geri kalan; cam 10:00-22:00 arası",
+ "summary": "Çöpü konteyner rengine göre ayır: kahverengi organik atık, sarı hafif ambalaj, mavi kâğıt-karton, yeşil cam, gri geri kalan çöp; kullanılmış yağ için beyaz, tekstil için kırmızı konteyner vardır (belediye yönetmeliği). Organik ve gri konteynere 20:00'den sonra, gece toplaması başlamadan (23:00) önce at. Camı yalnız 10:00 ile 22:00 arasında at. Hafif ambalaj ve kâğıt-karton için saat sınırı yoktur. Kâğıt-karton ile cam poşetsiz, öteki fraksiyonlar kapalı poşetle atılır.",
+ "keywords": "çöp ayırma, geri dönüşüm, konteyner renkleri, contenedor marrón, reciclaje Zaragoza, cam atık saati, residuos",
+ "stages": "new;settled",
+ "source_ids": "zaragoza:kaynak:262;zaragoza:kaynak:258",
+ "reviewed_on": "2026-11-02",
+ "order": 1100,
+ "featured": "Evet",
+ "editorial_status": "Taslak",
+ "topic_id": "zaragoza:gunluk",
+ "steps": "Evde beş fraksiyonu ayır: organik (kahverengi), hafif ambalaj (sarı), kâğıt-karton (mavi), cam (yeşil), geri kalan (gri).\nOrganik, hafif ambalaj ve geri kalan çöpü sıkıca kapatılmış poşetle at; kâğıt-karton ile camı poşetsiz konteynere koy.\nCam şişe ve kavanozu 10:00 ile 22:00 arasında at; kapak ve tıpayı çıkarıp metal ya da plastikse sarı konteynere koy.\nOrganik ve gri konteynere 20:00'den sonra, 23:00'te başlayan gece toplamasından önce at.\nKonteyner doluysa çöpü yola bırakma; aynı fraksiyonun başka konteynerine götür ya da boşaltılmasını bekle.",
+ "documents": "",
+ "timing": "Şehir merkezinde toplama geceleri 23:00-07:00, kırsal mahallelerde sabah 07:00-15:00",
+ "cost": "",
+ "note": "Konteynerin önüne park etme: kötü park edilmiş araç yüzünden konteyner boşaltılmayabilir. Yağlı pizza kutusu gibi kirli kâğıt-karton mavi konteynere girmez; kapaksız boş cam kavanoz ve şişe yeşil konteynere girer, seramik, ayna ve pencere camı girmez.",
+ "visual_json": "",
+ "_sekme": "Yanıtlar",
+ "kaynaklar": [
+  {
+   "source_id": "zaragoza:kaynak:262",
+   "url": "https://www.zaragoza.es/sede/servicio/normativa/13139",
+   "publisher": "Ayuntamiento de Zaragoza",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_gunluk/666a9d76591b901560b5408eb2b98c009e34ae20086dd394da861682dbcade9c.txt"
+  },
+  {
+   "source_id": "zaragoza:kaynak:258",
+   "url": "https://www.zaragoza.es/sede/portal/medioambiente/residuos/recogida/",
+   "publisher": "Ayuntamiento de Zaragoza",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_gunluk/e608770fb2d3e99c775162454ed925f9ef3226c29430788d83e4b79284039a2e.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-cop-ayirma-renkleri-ve-saatleri-1",
+   "field": "summary",
+   "claim": "Kahverengi konteyner organik atık (biorresiduo) içindir",
+   "value": "kahverengi",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:262",
+   "quote": "Color marrón para la fracción biorresiduo (orgánica)."
+  },
+  {
+   "claim_id": "C-cop-ayirma-renkleri-ve-saatleri-2",
+   "field": "summary",
+   "claim": "Sarı konteyner hafif ambalaj içindir",
+   "value": "sarı",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:262",
+   "quote": "Color amarillo para el caso de la fracción de envases ligeros."
+  },
+  {
+   "claim_id": "C-cop-ayirma-renkleri-ve-saatleri-3",
+   "field": "summary",
+   "claim": "Mavi konteyner kâğıt-karton içindir",
+   "value": "mavi",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:262",
+   "quote": "Color azul para la fracción papel-cartón."
+  },
+  {
+   "claim_id": "C-cop-ayirma-renkleri-ve-saatleri-4",
+   "field": "summary",
+   "claim": "Yeşil konteyner cam ambalaj içindir",
+   "value": "yeşil",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:262",
+   "quote": "Color verde para la fracción envases de vidrio."
+  },
+  {
+   "claim_id": "C-cop-ayirma-renkleri-ve-saatleri-5",
+   "field": "summary",
+   "claim": "Beyaz konteyner kullanılmış ev yağı içindir",
+   "value": "beyaz",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:262",
+   "quote": "Color blanco para aceite doméstico usado."
+  },
+  {
+   "claim_id": "C-cop-ayirma-renkleri-ve-saatleri-6",
+   "field": "summary",
+   "claim": "Kırmızı konteyner tekstil içindir",
+   "value": "kırmızı",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:262",
+   "quote": "Color rojo la fracción textil."
+  },
+  {
+   "claim_id": "C-cop-ayirma-renkleri-ve-saatleri-7",
+   "field": "summary",
+   "claim": "Gri konteyner geri kalan çöp (resto) içindir",
+   "value": "gri",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:262",
+   "quote": "Color gris para la fracción resto."
+  },
+  {
+   "claim_id": "C-cop-ayirma-renkleri-ve-saatleri-8",
+   "field": "summary",
+   "claim": "Organik ve geri kalan çöp 20:00'den sonra, gece toplaması başlamadan (23:00) önce atılır",
+   "value": "20:00-23:00",
+   "unit": "saat",
+   "period": "",
+   "source_id": "zaragoza:kaynak:262",
+   "quote": "se deberá depositar la fracción orgánica y la fracción resto a partir de las 20:00 horas de la tarde y antes del inicio del servicio de recogida nocturno a las 23:00 horas."
+  },
+  {
+   "claim_id": "C-cop-ayirma-renkleri-ve-saatleri-9",
+   "field": "summary",
+   "claim": "Cam 10:00 ile 22:00 arasında atılır",
+   "value": "10:00-22:00",
+   "unit": "saat",
+   "period": "",
+   "source_id": "zaragoza:kaynak:262",
+   "quote": "el vidrio se deberá depositar a partir de las 10:00 horas de la mañana y no más tarde de las 22:00 horas de la noche."
+  },
+  {
+   "claim_id": "C-cop-ayirma-renkleri-ve-saatleri-10",
+   "field": "summary",
+   "claim": "Hafif ambalaj ve kâğıt-karton her saat atılabilir",
+   "value": "saat sınırı yok",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:262",
+   "quote": "Los envases ligeros y el papel cartón pueden depositarse en cualquier momento."
+  },
+  {
+   "claim_id": "C-cop-ayirma-renkleri-ve-saatleri-11",
+   "field": "summary",
+   "claim": "Kâğıt-karton ve cam poşetsiz, diğer atıklar kapalı poşetle konteynere atılır",
+   "value": "poşetsiz: kâğıt-karton, cam",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:262",
+   "quote": "salvo en el caso de los contenedores de papel-cartón y vidrio que deben depositarse sin bolsa"
+  },
+  {
+   "claim_id": "C-cop-ayirma-renkleri-ve-saatleri-12",
+   "field": "steps",
+   "claim": "Cam ambalajdan ayrılan metal ya da plastik kapak ve tıpa hafif ambalaj konteynerine gider",
+   "value": "hafif ambalaj",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:262",
+   "quote": "se depositarán en el contenedor de residuos de envases ligeros"
+  },
+  {
+   "claim_id": "C-cop-ayirma-renkleri-ve-saatleri-13",
+   "field": "steps",
+   "claim": "Konteyner doluysa çöp yola bırakılmaz, aynı fraksiyonun başka konteynerine götürülür",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:262",
+   "quote": "debiéndose en tal caso llevar a otros contenedores de la fracción correspondiente."
+  },
+  {
+   "claim_id": "C-cop-ayirma-renkleri-ve-saatleri-14",
+   "field": "timing",
+   "claim": "Şehir merkezinde toplama geceleri 23:00 ile 07:00 arasında yapılır",
+   "value": "23:00-07:00",
+   "unit": "saat",
+   "period": "",
+   "source_id": "zaragoza:kaynak:258",
+   "quote": "La recogida en todo el núcleo urbano de Zaragoza se realiza durante la noche entre las 23 y las 7 h."
+  },
+  {
+   "claim_id": "C-cop-ayirma-renkleri-ve-saatleri-15",
+   "field": "timing",
+   "claim": "Kırsal mahallelerde toplama sabah 07:00 ile 15:00 arasında yapılır",
+   "value": "07:00-15:00",
+   "unit": "saat",
+   "period": "",
+   "source_id": "zaragoza:kaynak:258",
+   "quote": "la recogida en los barrios rurales se realiza por la mañana entre las 7 y 15 h."
+  },
+  {
+   "claim_id": "C-cop-ayirma-renkleri-ve-saatleri-16",
+   "field": "note",
+   "claim": "Kötü park edilmiş araç konteynerin boşaltılmamasına yol açar",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:258",
+   "quote": "Un coche mal aparcado provocará la NO recogida del contenedor y su posible desborde."
+  },
+  {
+   "claim_id": "C-cop-ayirma-renkleri-ve-saatleri-17",
+   "field": "note",
+   "claim": "Yağlı pizza kutusu gibi kirli kâğıt-karton mavi konteynere atılmaz",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:258",
+   "quote": "papeles y cartones sucios (como cajas de pizza con grasa)"
+  },
+  {
+   "claim_id": "C-cop-ayirma-renkleri-ve-saatleri-18",
+   "field": "note",
+   "claim": "Cam konteynerine seramik, ayna ve pencere camı atılmaz",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:258",
+   "quote": "cerámica, botes vacíos de medicamentos, cristales de ventanas o puertas, espejos"
+  }
+ ],
+ "adimlar": [],
+ "butonlar": [
+  {
+   "action_id": "zaragoza:action:cop-ayirma-renkleri-ve-saatleri-1",
+   "label": "Bilgi al",
+   "url": "https://www.zaragoza.es/sede/portal/medioambiente/residuos/recogida/"
+  },
+  {
+   "action_id": "zaragoza:action:cop-ayirma-renkleri-ve-saatleri-2",
+   "label": "Bilgi al",
+   "url": "https://www.zaragoza.es/sede/servicio/normativa/13139"
+  }
+ ]
+}
+
+===== KART 2/15: zaragoza:eski-mobilya-buyuk-esya-ucretsiz-toplatma =====
+{
+ "entry_id": "zaragoza:eski-mobilya-buyuk-esya-ucretsiz-toplatma",
+ "city_id": "zaragoza",
+ "slug": "eski-mobilya-buyuk-esya-ucretsiz-toplatma",
+ "title": "Zaragoza'da eski mobilya ve büyük eşyayı ücretsiz nasıl toplatırım?",
+ "subtitle": "Belediye mobilya, beyaz eşya ve hacimli eşyayı ücretsiz alır; çevrimiçi ya da 010 ile talep et, toplama 24 saat içinde",
+ "summary": "Zaragoza Belediyesi mobilya, beyaz eşya ve hacimli eşyayı ücretsiz toplar. Talebi belediyenin çevrimiçi işlem sayfasından ya da 010 numaralı telefondan yaparsın (şehir dışından 976 721 234); toplama talepten sonraki 24 saat içinde yapılır, pazar günü servis yoktur. Eşyayı şehirde 21:00-23:00 arasında ilgili konteynerlerin yanına bırakırsın; Valdespartera'da eşya sokakta bina girişinin yanına bırakılır. Hizmet ev halkı içindir, işyerleri ve sanayi için değildir.",
+ "keywords": "mobilya toplatma, büyük eşya, muebles y enseres, recogida de muebles, beyaz eşya atma, 010, chinches",
+ "stages": "new;settled",
+ "source_ids": "zaragoza:kaynak:259;zaragoza:kaynak:258",
+ "reviewed_on": "2026-11-02",
+ "order": 1101,
+ "featured": "Hayır",
+ "editorial_status": "Taslak",
+ "topic_id": "zaragoza:gunluk",
+ "steps": "Talebi çevrimiçi işlem sayfasından yap ya da 010'u ara; Zaragoza dışından 976 721 234'ü ara.\nEşyayı şehirde 21:00 ile 23:00 arasında ilgili konteynerlerin yanına bırak; Valdespartera'da sokakta bina girişinin yanına bırak.\nEşya iyi durumdaysa ve yeniden kullanılabilirse 'yeniden kullanım' formunu doldur ya da Tranviaser'i 976 300 269'dan ara.\nTahtakurusu (chinches) bulaşmış eşyada önce yetkili firmaya ilaçlat, sonra sıkı kapatılmış plastik torbaya koy ve üzerine 'CHINCHES' gibi uyarı yaz.\nHacim çoksa eşyayı sabit temiz noktaya (punto limpio fijo) kendin götür.",
+ "documents": "",
+ "timing": "Talepten sonra 24 saat içinde; pazar günü toplama yok",
+ "cost": "Ücretsiz",
+ "note": "Çöp, moloz ve tehlikeli madde alınmaz. Eşyayı sokağa kendi başına bırakmak yönetmelikle yasaktır. Toplama sokaktan yapılır; eşyayı bırakma noktasına taşımak sana aittir, evlere girilmez.",
+ "visual_json": "",
+ "_sekme": "Yanıtlar",
+ "kaynaklar": [
+  {
+   "source_id": "zaragoza:kaynak:259",
+   "url": "https://www.zaragoza.es/sede/servicio/tramite/138",
+   "publisher": "Ayuntamiento de Zaragoza",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_gunluk/53051f6faa94d09ba8a7fdee8c5ba67012339178a2a4190f101d2be37f880a1d.txt"
+  },
+  {
+   "source_id": "zaragoza:kaynak:258",
+   "url": "https://www.zaragoza.es/sede/portal/medioambiente/residuos/recogida/",
+   "publisher": "Ayuntamiento de Zaragoza",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_gunluk/e608770fb2d3e99c775162454ed925f9ef3226c29430788d83e4b79284039a2e.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-eski-mobilya-buyuk-esya-ucretsiz-toplatma-1",
+   "field": "cost",
+   "claim": "Hizmet ücretsizdir, çevrimiçi ya da telefonla talep edilir",
+   "value": "ücretsiz",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:259",
+   "quote": "Es un servicio gratuito, previa solicitud en línea o por teléfono, de lunes a viernes."
+  },
+  {
+   "claim_id": "C-eski-mobilya-buyuk-esya-ucretsiz-toplatma-2",
+   "field": "timing",
+   "claim": "Toplama avisodan sonraki 24 saat içinde yapılır; pazar günü hizmet verilmez",
+   "value": "24",
+   "unit": "saat",
+   "period": "",
+   "source_id": "zaragoza:kaynak:259",
+   "quote": "La recogida se realizará en las 24 horas siguientes al aviso, teniendo en cuenta que los domingos no se presta este servicio."
+  },
+  {
+   "claim_id": "C-eski-mobilya-buyuk-esya-ucretsiz-toplatma-3",
+   "field": "steps",
+   "claim": "Şehirde eşya 21:00-23:00 arasında ilgili konteynerlerin yanına bırakılır",
+   "value": "21:00-23:00",
+   "unit": "saat",
+   "period": "",
+   "source_id": "zaragoza:kaynak:259",
+   "quote": "deberán ser dejados junto a los recipientes que corresponda, entre las 21:00 y las 23:00."
+  },
+  {
+   "claim_id": "C-eski-mobilya-buyuk-esya-ucretsiz-toplatma-4",
+   "field": "steps",
+   "claim": "Valdespartera'da eşya sokakta bina girişinin yanına bırakılır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:259",
+   "quote": "Deberán ser dejados en el viario público junto al acceso a la finca."
+  },
+  {
+   "claim_id": "C-eski-mobilya-buyuk-esya-ucretsiz-toplatma-5",
+   "field": "steps",
+   "claim": "Telefon talebi belediye bilgi hattı 010'dan, şehir dışından 976 721 234'ten yapılır",
+   "value": "010; 976 721 234",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:259",
+   "quote": "Información municipal 010 (Si llama fuera de Zaragoza: 976 721234)"
+  },
+  {
+   "claim_id": "C-eski-mobilya-buyuk-esya-ucretsiz-toplatma-6",
+   "field": "steps",
+   "claim": "Yeniden kullanım için Tranviaser 976 300 269'dan aranır",
+   "value": "976 300 269",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:259",
+   "quote": "Para REUTILIZAR: Llamando a Tranviaser al teléfono 976300269"
+  },
+  {
+   "claim_id": "C-eski-mobilya-buyuk-esya-ucretsiz-toplatma-7",
+   "field": "steps",
+   "claim": "Tahtakurusu bulaşmış eşya 'CHINCHES' gibi uyarılarla işaretlenir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:259",
+   "quote": "«CHINCHES», «CHINCHES NO TOCAR», o similares"
+  },
+  {
+   "claim_id": "C-eski-mobilya-buyuk-esya-ucretsiz-toplatma-8",
+   "field": "steps",
+   "claim": "Hacim çoksa sabit temiz nokta önerilir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:259",
+   "quote": "Cuando el volumen de material a retirar es considerable se recomienda la utilización de los puntos limpios fijos."
+  },
+  {
+   "claim_id": "C-eski-mobilya-buyuk-esya-ucretsiz-toplatma-9",
+   "field": "summary",
+   "claim": "Hizmet işyerleri ve sanayi etkinlikleri için değildir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:259",
+   "quote": "Este servicio no está dirigido a actividades comerciales o industriales."
+  },
+  {
+   "claim_id": "C-eski-mobilya-buyuk-esya-ucretsiz-toplatma-10",
+   "field": "note",
+   "claim": "Çöp, moloz ve tehlikeli madde alınmaz",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:259",
+   "quote": "No se recogen basuras, escombros o cualquier material que presente características de peligrosidad."
+  },
+  {
+   "claim_id": "C-eski-mobilya-buyuk-esya-ucretsiz-toplatma-11",
+   "field": "note",
+   "claim": "Eşyanın sokağa bırakılması yönetmelikle yasaktır (madde 23.1)",
+   "value": "23.1",
+   "unit": "madde",
+   "period": "",
+   "source_id": "zaragoza:kaynak:259",
+   "quote": "prohíbe el abandono de muebles y enseres en la vía pública (art. 23.1)"
+  },
+  {
+   "claim_id": "C-eski-mobilya-buyuk-esya-ucretsiz-toplatma-12",
+   "field": "note",
+   "claim": "Evlere girilmez, eşya sokaktan alınır ve taşıma vatandaşa aittir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:259",
+   "quote": "La recogida se efectúa desde la vía pública, siendo por cuenta del ciudadano el traslado de los enseres hasta el punto de recogida. No se entra en los domicilios para la recogida."
+  }
+ ],
+ "adimlar": [],
+ "butonlar": [
+  {
+   "action_id": "zaragoza:action:eski-mobilya-buyuk-esya-ucretsiz-toplatma-1",
+   "label": "Başvur",
+   "url": "https://www.zaragoza.es/sede/servicio/tramite/138"
+  },
+  {
+   "action_id": "zaragoza:action:eski-mobilya-buyuk-esya-ucretsiz-toplatma-2",
+   "label": "Bilgi al",
+   "url": "https://www.zaragoza.es/sede/portal/medioambiente/residuos/recogida/"
+  }
+ ]
+}
+
+===== KART 3/15: zaragoza:sabit-temiz-nokta-punto-limpio-kabul-saatler =====
+{
+ "entry_id": "zaragoza:sabit-temiz-nokta-punto-limpio-kabul-saatler",
+ "city_id": "zaragoza",
+ "slug": "sabit-temiz-nokta-punto-limpio-kabul-saatler",
+ "title": "Zaragoza'da sabit temiz noktaya (punto limpio fijo) ne götürebilirim, saatleri nedir?",
+ "subtitle": "Ev atığı ücretsiz; pazartesi-cumartesi 07:30-20:30, pazar 08:00-14:30; boya, toner, akü ve sprey sabit noktada alınmaz",
+ "summary": "Sabit temiz noktalar yalnız bireylerin evde oluşan atığını ücretsiz kabul eder: pazartesi-cumartesi (resmî tatiller dahil) 07:30-20:30, pazar 08:00-14:30 açıktır. Mobilya, tekstil, küçük elektronik, monitör, kâğıt, cam, hafif ambalaj, pil, ev yağı, ahşap, ampul ve kahve kapsülü götürebilirsin. Yürüyerek ya da en çok 3.500 kg dara ağırlıklı özel araçla gidersin; görevli hangi konteynere atacağını söyler ve bir belge doldurtur.",
+ "keywords": "punto limpio, temiz nokta, atık getirme, enkaz, mobilya, elektronik atık, ampul, geri dönüşüm merkezi",
+ "stages": "new;settled",
+ "source_ids": "zaragoza:kaynak:258",
+ "reviewed_on": "2026-11-02",
+ "order": 1102,
+ "featured": "Hayır",
+ "editorial_status": "Taslak",
+ "topic_id": "zaragoza:gunluk",
+ "steps": "Belediyenin sabit temiz nokta sayfasındaki konum listesinden sana yakın olanı seç.\nBirden çok cins atık getiriyorsan her birini ayrı ayrı, kendi konteynerine at; görevli konteyneri gösterir.\nGörevlinin verdiği belgeyi doldur.\nBuzdolabı, klima ya da radyatör gibi sıcaklık değiştirici cihazdan ve büyük beyaz eşyadan günde en çok bir cihaz getir; enkazı en çok 10 küçük çuvalla (her biri 60 litreye kadar) getir.\nAmpul ve floresanı günde en çok 5 adet getir.",
+ "documents": "",
+ "timing": "Pazartesi-cumartesi 07:30-20:30 (tatiller dahil), pazar 08:00-14:30",
+ "cost": "Ücretsiz",
+ "note": "Sabit noktada alınmayanlar: araba aküsü ve yağı, toner, sprey, boya, çöp ve her türlü tehlikeli atık. Sayfaya göre bir atık firmasındaki uyarlamalar nedeniyle büyük beyaz eşya, soğutucu cihaz ve termosların kabulü 1 Kasım 2026'ya kadar geçici olarak durdurulmuştu.",
+ "visual_json": "",
+ "_sekme": "Yanıtlar",
+ "kaynaklar": [
+  {
+   "source_id": "zaragoza:kaynak:258",
+   "url": "https://www.zaragoza.es/sede/portal/medioambiente/residuos/recogida/",
+   "publisher": "Ayuntamiento de Zaragoza",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_gunluk/e608770fb2d3e99c775162454ed925f9ef3226c29430788d83e4b79284039a2e.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-sabit-temiz-nokta-punto-limpio-kabul-saatler-1",
+   "field": "summary",
+   "claim": "Punto limpio ev halkının atığını ücretsiz kabul eder",
+   "value": "ücretsiz",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:258",
+   "quote": "Un punto limpio es un lugar donde los vecinos pueden desprenderse gratuitamente de determinados tipos de residuos domésticos"
+  },
+  {
+   "claim_id": "C-sabit-temiz-nokta-punto-limpio-kabul-saatler-2",
+   "field": "timing",
+   "claim": "Pazartesi-cumartesi (tatiller dahil) 07:30-20:30 açıktır",
+   "value": "07:30-20:30",
+   "unit": "saat",
+   "period": "",
+   "source_id": "zaragoza:kaynak:258",
+   "quote": "Lunes a sábado (incluidos festivos) desde 7.30 h.a 20.30 h."
+  },
+  {
+   "claim_id": "C-sabit-temiz-nokta-punto-limpio-kabul-saatler-3",
+   "field": "timing",
+   "claim": "Pazar günü 08:00-14:30 açıktır",
+   "value": "08:00-14:30",
+   "unit": "saat",
+   "period": "",
+   "source_id": "zaragoza:kaynak:258",
+   "quote": "Los domingos el horario de 8 h. a 14.30 h."
+  },
+  {
+   "claim_id": "C-sabit-temiz-nokta-punto-limpio-kabul-saatler-4",
+   "field": "summary",
+   "claim": "Yalnız bireylerin ürettiği atık kabul edilir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:258",
+   "quote": "Solo se admitirán residuos generados por particulares."
+  },
+  {
+   "claim_id": "C-sabit-temiz-nokta-punto-limpio-kabul-saatler-5",
+   "field": "steps",
+   "claim": "Birden fazla atık cinsi ayrı ayrı ilgili konteynere atılır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:258",
+   "quote": "El usuario si va a depositar más de un residuo lo deberá hacer por separado para poder depositarlo en su contenedor correspondiente."
+  },
+  {
+   "claim_id": "C-sabit-temiz-nokta-punto-limpio-kabul-saatler-6",
+   "field": "steps",
+   "claim": "Görevlinin verdiği belge doldurulur",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:258",
+   "quote": "Se deberá cumplimentar el documento que nos facilitará el operario."
+  },
+  {
+   "claim_id": "C-sabit-temiz-nokta-punto-limpio-kabul-saatler-7",
+   "field": "summary",
+   "claim": "Yürüyerek ya da dara ağırlığı 3.500 kg'ı aşmayan özel araçla girilir",
+   "value": "3500",
+   "unit": "kg",
+   "period": "",
+   "source_id": "zaragoza:kaynak:258",
+   "quote": "(que no debe exceder de 3500 Kg. de tara)"
+  },
+  {
+   "claim_id": "C-sabit-temiz-nokta-punto-limpio-kabul-saatler-8",
+   "field": "steps",
+   "claim": "Enkaz günde en çok 10 küçük çuval, çuval 60 litreye kadar",
+   "value": "10",
+   "unit": "çuval",
+   "period": "günlük",
+   "source_id": "zaragoza:kaynak:258",
+   "quote": "Escombro: máx. 10 sacos pequeño/día (hasta 60 l)"
+  },
+  {
+   "claim_id": "C-sabit-temiz-nokta-punto-limpio-kabul-saatler-9",
+   "field": "steps",
+   "claim": "Sıcaklık değiştirici cihazdan her türden günde en çok bir cihaz alınır",
+   "value": "1",
+   "unit": "cihaz",
+   "period": "günlük",
+   "source_id": "zaragoza:kaynak:258",
+   "quote": "Aparatos de intercambio de temperatura (frigoríficos, aparatos de AC, radiadores, electrodomésticos con CFC): máx. un aparato de cada tipo por usuario y día"
+  },
+  {
+   "claim_id": "C-sabit-temiz-nokta-punto-limpio-kabul-saatler-10",
+   "field": "steps",
+   "claim": "Ampul ve floresan günde en çok 5 adet alınır",
+   "value": "5",
+   "unit": "adet",
+   "period": "günlük",
+   "source_id": "zaragoza:kaynak:258",
+   "quote": "5 unidades por usuario y día"
+  },
+  {
+   "claim_id": "C-sabit-temiz-nokta-punto-limpio-kabul-saatler-11",
+   "field": "summary",
+   "claim": "Kabul edilen atık türleri arasında mobilya, tekstil, ahşap ve kahve kapsülü vardır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:258",
+   "quote": "Cápsulas de máquinas domésticas expendedoras de café"
+  },
+  {
+   "claim_id": "C-sabit-temiz-nokta-punto-limpio-kabul-saatler-12",
+   "field": "note",
+   "claim": "Araba aküsü ve yağı, toner, sprey, boya, çöp ve tehlikeli atık sabit noktada alınmaz",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:258",
+   "quote": "Baterías y aceites de coche Tonner Sprays Pintura Basura Cualquier residuo peligroso"
+  },
+  {
+   "claim_id": "C-sabit-temiz-nokta-punto-limpio-kabul-saatler-13",
+   "field": "note",
+   "claim": "Büyük beyaz eşya, soğutucu cihaz ve termosların kabulü 1 Kasım 2026'ya kadar durdurulmuştu",
+   "value": "1 Kasım 2026",
+   "unit": "",
+   "period": "2026",
+   "source_id": "zaragoza:kaynak:258",
+   "quote": "Esta suspensión se prolongará previsiblemente hasta el 1 de noviembre de 2026."
+  }
+ ],
+ "adimlar": [],
+ "butonlar": [
+  {
+   "action_id": "zaragoza:action:sabit-temiz-nokta-punto-limpio-kabul-saatler-1",
+   "label": "Bilgi al",
+   "url": "https://www.zaragoza.es/sede/portal/medioambiente/residuos/recogida/"
+  }
+ ]
+}
+
+===== KART 4/15: zaragoza:mobil-temiz-nokta-boya-toner-aku-nereye =====
+{
+ "entry_id": "zaragoza:mobil-temiz-nokta-boya-toner-aku-nereye",
+ "city_id": "zaragoza",
+ "slug": "mobil-temiz-nokta-boya-toner-aku-nereye",
+ "title": "Boya, solvent, toner, eski akü gibi atıkları Zaragoza'da hangi temiz noktaya veririm?",
+ "subtitle": "Bunlar mobil temiz noktalarda (69 durak) alınır; mahalle noktaları sokakta 24 saat açıktır",
+ "summary": "Boya, solvent, toner, mürekkep kartuşu, araba aküsü ve civalı termometreyi mobil temiz noktalara (puntos limpios móviles) ver: şehir ve kırsal mahallelerde pazartesiden pazara hizmet veren 69 durak vardır. Her atığın günlük kişi başı sınırı vardır, örneğin boya için orijinal kapalı kapta en çok bir kutu (25 litreye kadar). Küçük ev aleti, pil, kullanılmış yağ ve ampul gibi şeyleri sokaktaki 24 saat açık mahalle noktalarına da bırakabilirsin.",
+ "keywords": "mobil temiz nokta, punto limpio móvil, boya atığı, toner, araba aküsü, şırınga, pil, mahalle temiz noktası",
+ "stages": "new;settled",
+ "source_ids": "zaragoza:kaynak:258;zaragoza:kaynak:260",
+ "reviewed_on": "2026-11-02",
+ "order": 1103,
+ "featured": "Hayır",
+ "editorial_status": "Taslak",
+ "topic_id": "zaragoza:gunluk",
+ "steps": "Belediyenin mobil temiz nokta sayfasında pazartesi-cumartesi ve pazar günleri için ayrı konum listeleri vardır; mahalle durağını oradan bul.\nBoya, yapıştırıcı, vernik, solvent ve böcek ilacını orijinal, kapalı kabıyla getir.\nToner kartuşunu (en çok 1) ve mürekkep kartuşunu (en çok 4) getir; araba aküsünden, civalı termometreden günde birer tane getir.\nŞırıngayı kapaklı getir ve en çok 10 adedi kutuya kendin at.\nMobil durağa gitmek zorunda değilsen küçük atıkları (toner, aerosol, pil, kapak, kapsül, ev yağı, floresan, CD) sokaktaki 24 saat açık mahalle noktalarına bırak.",
+ "documents": "",
+ "timing": "Durakta saatler duraktan durağa değişir; örnek: Casetas durağı pazartesi ve perşembe 08:30-10:30, pazar 08:30-10:00",
+ "cost": "",
+ "note": "Boya, yapıştırıcı ve vernik için en çok bir kap, en çok 25 litre; solvent için en çok bir kap, 5 litreye kadar; toz böcek ilacı için bir kap, 1 litreye kadar. Casetas durağının adresi Plaza Santiago Castillo 4, 50620.",
+ "visual_json": "",
+ "_sekme": "Yanıtlar",
+ "kaynaklar": [
+  {
+   "source_id": "zaragoza:kaynak:258",
+   "url": "https://www.zaragoza.es/sede/portal/medioambiente/residuos/recogida/",
+   "publisher": "Ayuntamiento de Zaragoza",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_gunluk/e608770fb2d3e99c775162454ed925f9ef3226c29430788d83e4b79284039a2e.txt"
+  },
+  {
+   "source_id": "zaragoza:kaynak:260",
+   "url": "https://www.zaragoza.es/sede/servicio/equipamiento/10255",
+   "publisher": "Ayuntamiento de Zaragoza",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_gunluk/8bab80b795e16b0d7ffbc25fa0f6b75e507a3a65301b068c8bedc731ef0e5881.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-mobil-temiz-nokta-boya-toner-aku-nereye-1",
+   "field": "summary",
+   "claim": "Mobil temiz noktalarda 69 durak vardır ve pazartesiden pazara şehir ve kırsal mahallelerde hizmet verir",
+   "value": "69",
+   "unit": "durak",
+   "period": "",
+   "source_id": "zaragoza:kaynak:258",
+   "quote": "Existen 69 paradas de puntos limpios móviles, que prestan un servicio de lunes a domingo en toda la ciudad y sus barrios rurales"
+  },
+  {
+   "claim_id": "C-mobil-temiz-nokta-boya-toner-aku-nereye-2",
+   "field": "summary",
+   "claim": "Mobil noktalar araba aküsünü kişi başı günde 1 adet alır",
+   "value": "1",
+   "unit": "adet",
+   "period": "günlük",
+   "source_id": "zaragoza:kaynak:258",
+   "quote": "Baterías automóvil. 1 unidad por persona y día."
+  },
+  {
+   "claim_id": "C-mobil-temiz-nokta-boya-toner-aku-nereye-3",
+   "field": "note",
+   "claim": "Boya, yapıştırıcı, vernik: kişi başı günde en çok bir kap",
+   "value": "1",
+   "unit": "kap",
+   "period": "günlük",
+   "source_id": "zaragoza:kaynak:258",
+   "quote": "Se admitirá como máximo un recipiento por persona y día."
+  },
+  {
+   "claim_id": "C-mobil-temiz-nokta-boya-toner-aku-nereye-4",
+   "field": "note",
+   "claim": "Boya kabı orijinal olmalı ve en çok 25 litre olmalı",
+   "value": "25",
+   "unit": "litre",
+   "period": "",
+   "source_id": "zaragoza:kaynak:258",
+   "quote": "Dicho recipiente deberá ser original, de un máximo de 25 litros"
+  },
+  {
+   "claim_id": "C-mobil-temiz-nokta-boya-toner-aku-nereye-5",
+   "field": "steps",
+   "claim": "Toner en çok 1, mürekkep kartuşu en çok 4 adet kişi başı günde",
+   "value": "1; 4",
+   "unit": "adet",
+   "period": "günlük",
+   "source_id": "zaragoza:kaynak:258",
+   "quote": "Se admitirán, como máximo, 1 cartucho de tóner y 4 cartuchos de tinta por persona y día."
+  },
+  {
+   "claim_id": "C-mobil-temiz-nokta-boya-toner-aku-nereye-6",
+   "field": "steps",
+   "claim": "Civalı termometre kişi başı günde 1 adet",
+   "value": "1",
+   "unit": "adet",
+   "period": "günlük",
+   "source_id": "zaragoza:kaynak:258",
+   "quote": "Termómetros de mercurio. 1 unidad por persona y día."
+  },
+  {
+   "claim_id": "C-mobil-temiz-nokta-boya-toner-aku-nereye-7",
+   "field": "note",
+   "claim": "Solvent yalnız orijinal kapalı kapta, kişi başı günde 1 kap ve en çok 5 litre",
+   "value": "1 kap; 5 L",
+   "unit": "",
+   "period": "günlük",
+   "source_id": "zaragoza:kaynak:258",
+   "quote": "Sólo se admitirán en su recipiente original, tapado y un máximo de 1 envase por persona y día de hasta 5 litros de capacidad."
+  },
+  {
+   "claim_id": "C-mobil-temiz-nokta-boya-toner-aku-nereye-8",
+   "field": "note",
+   "claim": "Toz böcek ilacı orijinal kapalı kapta, kişi başı günde 1 kap ve en çok 1 litre",
+   "value": "1 kap; 1 L",
+   "unit": "",
+   "period": "günlük",
+   "source_id": "zaragoza:kaynak:258",
+   "quote": "Unicamente se admitirán en su recipiente original, cerrado y un máximo de 1 envase por persona y día de hasta 1 litro de capacidad."
+  },
+  {
+   "claim_id": "C-mobil-temiz-nokta-boya-toner-aku-nereye-9",
+   "field": "steps",
+   "claim": "Şırıngalar kapaklı olmalı, kullanıcı kendisi kutuya atar, günde en çok 10 adet",
+   "value": "10",
+   "unit": "adet",
+   "period": "günlük",
+   "source_id": "zaragoza:kaynak:258",
+   "quote": "Sólo se admitirán encapuchadas y deberán ser introducidas en el recipiente por el propio usuario. Se admitirán un máximo de 10 jeringuillas por persona y día."
+  },
+  {
+   "claim_id": "C-mobil-temiz-nokta-boya-toner-aku-nereye-10",
+   "field": "summary",
+   "claim": "Mahalle noktaları (puntos limpios de proximidad) sokakta günün 24 saati açıktır",
+   "value": "24",
+   "unit": "saat",
+   "period": "",
+   "source_id": "zaragoza:kaynak:258",
+   "quote": "Disponibles las 24 horas del día, están instalados en la vía pública"
+  },
+  {
+   "claim_id": "C-mobil-temiz-nokta-boya-toner-aku-nereye-11",
+   "field": "steps",
+   "claim": "Mahalle noktalarına toner, aerosol, pil, kapak, kapsül, ev yağı, floresan, CD-DVD ve küçük ev aleti bırakılır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:258",
+   "quote": "Tóner y cartuchos de tinta para impresora Libros y revistas Aerosoles Pilas Tapones Cápsulas de café Aceite vegetal doméstico Pequeños electrodomésticos Cd-dvd"
+  },
+  {
+   "claim_id": "C-mobil-temiz-nokta-boya-toner-aku-nereye-12",
+   "field": "timing",
+   "claim": "Casetas durağı pazartesi ve perşembe 08:30-10:30 hizmet verir",
+   "value": "08:30-10:30",
+   "unit": "saat",
+   "period": "",
+   "source_id": "zaragoza:kaynak:260",
+   "quote": "Lunes y jueves de 8:30 a 10:30 h."
+  },
+  {
+   "claim_id": "C-mobil-temiz-nokta-boya-toner-aku-nereye-13",
+   "field": "timing",
+   "claim": "Casetas durağı pazar günü 08:30-10:00 hizmet verir",
+   "value": "08:30-10:00",
+   "unit": "saat",
+   "period": "",
+   "source_id": "zaragoza:kaynak:260",
+   "quote": "Domingo de 8:30 a 10:00 h."
+  },
+  {
+   "claim_id": "C-mobil-temiz-nokta-boya-toner-aku-nereye-14",
+   "field": "note",
+   "claim": "Casetas durağının adresi Plaza Santiago Castillo 4, 50620",
+   "value": "Pza. Santiago Castillo, 4 - 50620",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:260",
+   "quote": "Dirección: Pza. Santiago Castillo, 4 - 50620"
+  }
+ ],
+ "adimlar": [],
+ "butonlar": [
+  {
+   "action_id": "zaragoza:action:mobil-temiz-nokta-boya-toner-aku-nereye-1",
+   "label": "Bilgi al",
+   "url": "https://www.zaragoza.es/sede/portal/medioambiente/residuos/recogida/"
+  },
+  {
+   "action_id": "zaragoza:action:mobil-temiz-nokta-boya-toner-aku-nereye-2",
+   "label": "Bilgi al",
+   "url": "https://www.zaragoza.es/sede/servicio/equipamiento/10255"
+  }
+ ]
+}
+
+===== KART 5/15: zaragoza:pil-kizartma-yagi-tekstil-kahve-kapsulu-nereye =====
+{
+ "entry_id": "zaragoza:pil-kizartma-yagi-tekstil-kahve-kapsulu-nereye",
+ "city_id": "zaragoza",
+ "slug": "pil-kizartma-yagi-tekstil-kahve-kapsulu-nereye",
+ "title": "Zaragoza'da kullanılmış pil, kızartma yağı, eski kıyafet ve kahve kapsülünü nereye atarım?",
+ "subtitle": "Pil, yağ ve tekstil için sokakta ve belediye binalarında özel konteynerler var; hepsi ücretsiz belediye hizmetidir",
+ "summary": "Pili Alcaldías de Barrio, Juntas de Distrito, belediye binaları, 60 pil konteyneri (mupi), punto limpio ya da anlaşmalı dükkânlara bırakırsın; hizmet ücretsizdir. Kullanılmış yağ için sokakta 189, belediye binalarında 23 konteyner var. Eski kıyafet ve ayakkabı için 170 konteyner (sokakta olmayan ama vatandaşın ulaşabildiği yerlerde) ve kamusal alanda 40 konteyner var. Kahve kapsülünü sabit ve mobil temiz noktalara bırakırsın.",
+ "keywords": "pil atığı, kızartma yağı, kullanılmış yağ, tekstil konteyneri, kahve kapsülü, ropa usada, aceite usado, pilas",
+ "stages": "new;settled",
+ "source_ids": "zaragoza:kaynak:258;zaragoza:kaynak:262",
+ "reviewed_on": "2026-11-02",
+ "order": 1104,
+ "featured": "Hayır",
+ "editorial_status": "Taslak",
+ "topic_id": "zaragoza:gunluk",
+ "steps": "Kullanılmış pili Alcaldías de Barrio, Juntas de Distrito, belediye binaları, pil konteynerleri (mupi), temiz noktalar ya da anlaşmalı dükkânlara bırak.\nKızartma yağını en çok 5 litrelik kapalı plastik kaba koy ve sokaktaki yağ konteynerine ya da temiz noktaya bırak; yağı lavaboya dökme.\nEski kıyafet ve ayakkabıyı kapalı poşete koy ve tekstil konteynerine ya da sabit temiz noktaya bırak.\nKahve kapsüllerini sabit ya da mobil temiz noktaya ver.\nYağ konusunda sorun yaşarsan 976 132 713'ü ara.",
+ "documents": "",
+ "timing": "",
+ "cost": "Ücretsiz (pil toplama hizmeti)",
+ "note": "Konteyner adresleri belediyenin kendi atık sayfalarındaki konum listelerinde yer alır.",
+ "visual_json": "",
+ "_sekme": "Yanıtlar",
+ "kaynaklar": [
+  {
+   "source_id": "zaragoza:kaynak:258",
+   "url": "https://www.zaragoza.es/sede/portal/medioambiente/residuos/recogida/",
+   "publisher": "Ayuntamiento de Zaragoza",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_gunluk/e608770fb2d3e99c775162454ed925f9ef3226c29430788d83e4b79284039a2e.txt"
+  },
+  {
+   "source_id": "zaragoza:kaynak:262",
+   "url": "https://www.zaragoza.es/sede/servicio/normativa/13139",
+   "publisher": "Ayuntamiento de Zaragoza",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_gunluk/666a9d76591b901560b5408eb2b98c009e34ae20086dd394da861682dbcade9c.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-pil-kizartma-yagi-tekstil-kahve-kapsulu-nereye-1",
+   "field": "cost",
+   "claim": "Pil toplama hizmeti belediye tarafından vatandaşa ücretsizdir",
+   "value": "ücretsiz",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:258",
+   "quote": "El Ayuntamiento de Zaragoza pone a disposición del ciudadano de forma gratuita el servicio de recogida pilas en su término municipal."
+  },
+  {
+   "claim_id": "C-pil-kizartma-yagi-tekstil-kahve-kapsulu-nereye-2",
+   "field": "summary",
+   "claim": "Pil bırakma noktaları: Alcaldías de Barrio, Juntas de Distrito, belediye binaları, mupi, punto limpio, anlaşmalı dükkânlar",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:258",
+   "quote": "Alcaldías de Barrio Juntas de Distrito Edificios Municipales Mupis establecidos para ello (60 contenedores) Puntos Limpios (fijos y móviles) Comercios colaboradores"
+  },
+  {
+   "claim_id": "C-pil-kizartma-yagi-tekstil-kahve-kapsulu-nereye-3",
+   "field": "summary",
+   "claim": "Kullanılmış yağ için sokakta 189 konteyner vardır",
+   "value": "189",
+   "unit": "adet",
+   "period": "",
+   "source_id": "zaragoza:kaynak:258",
+   "quote": "La mayor parte de los contenedores se encuentran distribuidos por las vías públicas para un total de 189 unidades."
+  },
+  {
+   "claim_id": "C-pil-kizartma-yagi-tekstil-kahve-kapsulu-nereye-4",
+   "field": "summary",
+   "claim": "Belediye binalarında vatandaşın ulaşabildiği 23 yağ konteyneri vardır",
+   "value": "23",
+   "unit": "adet",
+   "period": "",
+   "source_id": "zaragoza:kaynak:258",
+   "quote": "Además también se dispone de 23 contenedores en dependencias municipales accesibles para los ciudadanos."
+  },
+  {
+   "claim_id": "C-pil-kizartma-yagi-tekstil-kahve-kapsulu-nereye-5",
+   "field": "steps",
+   "claim": "Yağla ilgili sorular için 976 132 713 aranır",
+   "value": "976 132 713",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:258",
+   "quote": "Cualquier consulta puede ser atendida llamando al tlf. 976132713."
+  },
+  {
+   "claim_id": "C-pil-kizartma-yagi-tekstil-kahve-kapsulu-nereye-6",
+   "field": "steps",
+   "claim": "Kullanılmış yağ en çok 5 litrelik kapalı plastik kaba konulur",
+   "value": "5",
+   "unit": "litre",
+   "period": "",
+   "source_id": "zaragoza:kaynak:262",
+   "quote": "en envases de plástico cerrados de hasta 5 litros"
+  },
+  {
+   "claim_id": "C-pil-kizartma-yagi-tekstil-kahve-kapsulu-nereye-7",
+   "field": "steps",
+   "claim": "Kullanılmış yemek yağını kanalizasyona dökmek yasaktır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:262",
+   "quote": "Está prohibido verter aceites de cocina usados a la red de saneamiento."
+  },
+  {
+   "claim_id": "C-pil-kizartma-yagi-tekstil-kahve-kapsulu-nereye-8",
+   "field": "summary",
+   "claim": "Tekstil için 170 konteyner (sokakta olmayan, vatandaşın ulaşabildiği) ve kamusal alanda 40 konteyner vardır",
+   "value": "170; 40",
+   "unit": "adet",
+   "period": "",
+   "source_id": "zaragoza:kaynak:258",
+   "quote": "Se cuenta para ello con 170 contenedores que no están ubicados en vía pública, pero que son accesibles para los vecinos así como 40 unidades distribuidas por el dominio publico municipal."
+  },
+  {
+   "claim_id": "C-pil-kizartma-yagi-tekstil-kahve-kapsulu-nereye-9",
+   "field": "steps",
+   "claim": "Tekstil konteynerlerine kapalı poşet içinde bırakılır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:262",
+   "quote": "Deberán depositarse en el interior de los contenedores en bolsas cerradas."
+  },
+  {
+   "claim_id": "C-pil-kizartma-yagi-tekstil-kahve-kapsulu-nereye-10",
+   "field": "summary",
+   "claim": "Kahve kapsülü 2014'ten beri sabit ve mobil temiz noktalarda ayrı toplanır",
+   "value": "2014",
+   "unit": "yıl",
+   "period": "",
+   "source_id": "zaragoza:kaynak:258",
+   "quote": "Desde el año 2014 el Ayuntamiento de Zaragoza dispone de una recogida separada de cápsulas de café"
+  }
+ ],
+ "adimlar": [],
+ "butonlar": [
+  {
+   "action_id": "zaragoza:action:pil-kizartma-yagi-tekstil-kahve-kapsulu-nereye-1",
+   "label": "Bilgi al",
+   "url": "https://www.zaragoza.es/sede/portal/medioambiente/residuos/recogida/"
+  }
+ ]
+}
+
+===== KART 6/15: zaragoza:cop-toplama-sorunu-bildirme-ve-organik-kova-yenileme =====
+{
+ "entry_id": "zaragoza:cop-toplama-sorunu-bildirme-ve-organik-kova-yenileme",
+ "city_id": "zaragoza",
+ "slug": "cop-toplama-sorunu-bildirme-ve-organik-kova-yenileme",
+ "title": "Zaragoza'da çöp toplama ve temizlikle ilgili sorunu nereye bildiririm, kaybolan organik kovayı nasıl yenilerim?",
+ "subtitle": "Zaragoza Más Limpia ofisi Plaza San Felipe 7'de; kova için polis tutanağı ve belediye dilekçesi gerekir",
+ "summary": "Çöp toplama ve temizlikle ilgili sorunu Oficina de Atención Ciudadana 'Zaragoza Más Limpia' ofisine bildirirsin: Plaza San Felipe 7, local derecha; telefon 976 20 43 36, e-posta zaragozalimpia@fcc.es. Geri dönüşüm bilgisi için 976 724 201 ve 976 724 002 numaraları da var; belediyenin şikâyet ve öneri servisini de kullanabilirsin. Binanın 120 ya da 240 litrelik organik kovası kaybolur veya bozulursa bina yöneticisi Policía Nacional'a ihbarda bulunur ve belediye kayıt birimlerine ihbar kopyasıyla genel dilekçe (Instancia General) verir.",
+ "keywords": "Zaragoza Más Limpia, çöp şikayeti, organik kova, cubo residuos orgánicos, Instancia General, denuncia, temizlik ofisi",
+ "stages": "new;settled",
+ "source_ids": "zaragoza:kaynak:261;zaragoza:kaynak:258",
+ "reviewed_on": "2026-11-02",
+ "order": 1105,
+ "featured": "Hayır",
+ "editorial_status": "Taslak",
+ "topic_id": "zaragoza:gunluk",
+ "steps": "Sorunu Plaza San Felipe 7'deki Zaragoza Más Limpia ofisine bildir, 976 20 43 36'yı ara ya da zaragozalimpia@fcc.es'e yaz.\nGeri dönüşümle ilgili özel bir soru için 976 724 201 ya da 976 724 002'yi ara.\nBinanın organik kovası kaybolduysa bina yöneticisi önce Zaragoza'daki herhangi bir Policía Nacional karakolunda ihbarda bulunur.\nYönetici sonra belediyenin kayıt birimlerinden birine (Registro General, Registro Auxiliar, Juntas Municipales ya da Juntas Vecinales) ihbar kopyasını ekleyerek genel dilekçe (Instancia General) verir.",
+ "documents": "Policía Nacional ihbarının (denuncia) kopyası\nGenel dilekçe (Instancia General)",
+ "timing": "",
+ "cost": "",
+ "note": "Kova, organik atık için 120 ya da 240 litrelik bina kovalarını kapsar; bu başvuruyu yalnız bina topluluğunun sorumlusu yapar.",
+ "visual_json": "",
+ "_sekme": "Yanıtlar",
+ "kaynaklar": [
+  {
+   "source_id": "zaragoza:kaynak:261",
+   "url": "https://www.zaragoza.es/sede/portal/medioambiente/residuos/",
+   "publisher": "Ayuntamiento de Zaragoza",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_gunluk/db724fe542e148bd62fc00ddbb55c883da2620e6942ba1a23ff5728f25210bab.txt"
+  },
+  {
+   "source_id": "zaragoza:kaynak:258",
+   "url": "https://www.zaragoza.es/sede/portal/medioambiente/residuos/recogida/",
+   "publisher": "Ayuntamiento de Zaragoza",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_gunluk/e608770fb2d3e99c775162454ed925f9ef3226c29430788d83e4b79284039a2e.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-cop-toplama-sorunu-bildirme-ve-organik-kova-yenileme-1",
+   "field": "summary",
+   "claim": "Zaragoza Más Limpia vatandaş hizmet ofisi Plaza San Felipe 7, local derecha adresindedir",
+   "value": "Plaza San Felipe nº7, local derecha",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:261",
+   "quote": "Oficina de Atención Ciudadana \"Zaragoza Más Limpia\" Plaza San Felipe nº7, local derecha"
+  },
+  {
+   "claim_id": "C-cop-toplama-sorunu-bildirme-ve-organik-kova-yenileme-2",
+   "field": "summary",
+   "claim": "Ofisin telefonu 976 20 43 36, e-postası zaragozalimpia@fcc.es'tir",
+   "value": "976 20 43 36",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:261",
+   "quote": "976 20 43 36 zaragozalimpia@fcc.es"
+  },
+  {
+   "claim_id": "C-cop-toplama-sorunu-bildirme-ve-organik-kova-yenileme-3",
+   "field": "steps",
+   "claim": "Geri dönüşüm bilgisi için 976 724 201 ve 976 724 002 aranır",
+   "value": "976 724 201; 976 724 002",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:258",
+   "quote": "Por teléfono: 976 724 201 , 976 724 002"
+  },
+  {
+   "claim_id": "C-cop-toplama-sorunu-bildirme-ve-organik-kova-yenileme-4",
+   "field": "summary",
+   "claim": "Belediyenin şikâyet ve öneri servisi kullanılabilir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:258",
+   "quote": "O puede utilizar el Servicio de Quejas y Sugerencias"
+  },
+  {
+   "claim_id": "C-cop-toplama-sorunu-bildirme-ve-organik-kova-yenileme-5",
+   "field": "summary",
+   "claim": "Kaybolan ya da bozulan organik kova 120 ve 240 litrelik kovalardır",
+   "value": "120; 240",
+   "unit": "litre",
+   "period": "",
+   "source_id": "zaragoza:kaynak:258",
+   "quote": "los Cubos de 120 y 240 litros que tienen ciertas comunidades para retirar sus Residuos Orgánicos, se deterioran o se pierden."
+  },
+  {
+   "claim_id": "C-cop-toplama-sorunu-bildirme-ve-organik-kova-yenileme-6",
+   "field": "steps",
+   "claim": "Yeni kova için bina topluluğu sorumlusu önce Policía Nacional karakolunda ihbarda bulunur",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:258",
+   "quote": "Presentar una denuncia en cualquier Comisaria de Policia Nacional de Zaragoza."
+  },
+  {
+   "claim_id": "C-cop-toplama-sorunu-bildirme-ve-organik-kova-yenileme-7",
+   "field": "steps",
+   "claim": "Sonra belediye kayıt birimlerine ihbar kopyasıyla Instancia General verilir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:258",
+   "quote": "Presentar en los Registro Municipales: Registro General, Registro Auxiliar y Juntas Municipales yJuntas Vecinales, una Instancia General adjuntando una copia de la denuncia."
+  },
+  {
+   "claim_id": "C-cop-toplama-sorunu-bildirme-ve-organik-kova-yenileme-8",
+   "field": "note",
+   "claim": "Başvuruyu bina topluluğunun sorumlusu yapar",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:258",
+   "quote": "el responsable de la comunidad de vecinos deberá:"
+  }
+ ],
+ "adimlar": [],
+ "butonlar": [
+  {
+   "action_id": "zaragoza:action:cop-toplama-sorunu-bildirme-ve-organik-kova-yenileme-1",
+   "label": "Bilgi al",
+   "url": "https://www.zaragoza.es/sede/portal/medioambiente/residuos/"
+  },
+  {
+   "action_id": "zaragoza:action:cop-toplama-sorunu-bildirme-ve-organik-kova-yenileme-2",
+   "label": "Bilgi al",
+   "url": "https://www.zaragoza.es/sede/portal/medioambiente/residuos/recogida/"
+  }
+ ]
+}
+
+===== KART 7/15: zaragoza:belediye-kutuphanesi-uyelik-karti-carne-de-socio =====
+{
+ "entry_id": "zaragoza:belediye-kutuphanesi-uyelik-karti-carne-de-socio",
+ "city_id": "zaragoza",
+ "slug": "belediye-kutuphanesi-uyelik-karti-carne-de-socio",
+ "title": "Zaragoza belediye kütüphanesi üyelik kartı (carné de socio) nasıl alınır, ne kadar kitap ödünç alırım?",
+ "subtitle": "Kart ücretsiz, 2 yıl geçerli; kimlik belgesiyle herhangi bir belediye kütüphanesinde ya da bibliobüs durağında alınır",
+ "summary": "Kartı ücretsiz alırsın: herhangi bir belediye kütüphanesine ya da bibliobüs durağına resmî kimlik belgenle (ya da Tarjeta Ciudadana'nla) gidip üye olursun. Kart 2 yıl geçerlidir, yenilenebilir ve tüm belediye kütüphanelerinde kullanılır. Reşit olmayanlar ebeveyn ya da yasal vasiyle gider. Kartla bir seferde 12 belgeyi en çok 28 gün ödünç alırsın; başkası ayırtmadıysa bir kez aynı süre uzatılır. İstisnaen Zaragoza'da ikamet ettiğini gösteren belge istenebilir.",
+ "keywords": "kütüphane kartı, carné de socio, Tarjeta Ciudadana, belediye kütüphanesi, ödünç kitap, biblioteca Zaragoza, bibliobús",
+ "stages": "new;settled",
+ "source_ids": "zaragoza:kaynak:269;zaragoza:kaynak:268",
+ "reviewed_on": "2026-11-02",
+ "order": 1106,
+ "featured": "Evet",
+ "editorial_status": "Taslak",
+ "topic_id": "zaragoza:gunluk",
+ "steps": "Çevrimiçi formu doldurabilirsin; kartı almak için kimlik belgenle kütüphaneye git.\nHerhangi bir belediye kütüphanesine ya da bibliobüs durağına git ve resmî kimlik belgeni ya da Tarjeta Ciudadana'nı göster.\nReşit değilsen ebeveynin ya da yasal vasinle git.\nÖdünç aldığın belgeleri 28 gün içinde geri ver; uzatmayı kütüphanede ya da kütüphanenin internet sitesinden yapabilirsin.",
+ "documents": "Resmî kimlik belgesi ya da Tarjeta Ciudadana\nGerekirse Zaragoza'da ikamet belgesi (istisnaen istenir)",
+ "timing": "Kart 2 yıl geçerli, yenilenebilir; ödünç süresi en çok 28 gün, bir kez uzatılır",
+ "cost": "Ücretsiz",
+ "note": "Kütüphane yönetimi: Patronato Municipal de Educación y Bibliotecas, C/ Cortesías 1, 50071 Zaragoza, telefon 976 724 926. Kütüphanedeki ücretsiz internet bilgisayarları üyeler içindir.",
+ "visual_json": "",
+ "_sekme": "Yanıtlar",
+ "kaynaklar": [
+  {
+   "source_id": "zaragoza:kaynak:269",
+   "url": "https://www.zaragoza.es/sede/servicio/tramite/25260",
+   "publisher": "Ayuntamiento de Zaragoza",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_gunluk/c628b7e6a909f4a6054e4bedf0ada7e2e7f69aa9ffd4f1b3d99aa04e76cb877e.txt"
+  },
+  {
+   "source_id": "zaragoza:kaynak:268",
+   "url": "https://www.zaragoza.es/sede/portal/bibliotecas-municipales/Servicios/guia-usuario",
+   "publisher": "Ayuntamiento de Zaragoza",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_gunluk/828524de9f744661e19bda40f4f46879319b499e88005972a88810b366b688a4.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-belediye-kutuphanesi-uyelik-karti-carne-de-socio-1",
+   "field": "cost",
+   "claim": "Kartın çıkarılması ücretsizdir",
+   "value": "ücretsiz",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:269",
+   "quote": "¿Hay que pagar por hacerse socio? No. La expedición del carné es gratuita."
+  },
+  {
+   "claim_id": "C-belediye-kutuphanesi-uyelik-karti-carne-de-socio-2",
+   "field": "documents",
+   "claim": "Üye olmak için resmî kimlik belgesi ya da Tarjeta Ciudadana gerekir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:269",
+   "quote": "Para ser socio, hay que presentar un documento oficial de identificación o la Tarjeta Ciudadana"
+  },
+  {
+   "claim_id": "C-belediye-kutuphanesi-uyelik-karti-carne-de-socio-3",
+   "field": "timing",
+   "claim": "Üyelik 2 yıl geçerlidir",
+   "value": "2",
+   "unit": "yıl",
+   "period": "",
+   "source_id": "zaragoza:kaynak:269",
+   "quote": "La vigencia de la condición de socio es de 2 años."
+  },
+  {
+   "claim_id": "C-belediye-kutuphanesi-uyelik-karti-carne-de-socio-4",
+   "field": "steps",
+   "claim": "Reşit olmayanlar ebeveyn ya da yasal vasiyle gelir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:269",
+   "quote": "Los menores deben acudir acompañados de padres, madres o tutores legales."
+  },
+  {
+   "claim_id": "C-belediye-kutuphanesi-uyelik-karti-carne-de-socio-5",
+   "field": "documents",
+   "claim": "İstisnaen Zaragoza'da ikamet belgesi istenebilir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:269",
+   "quote": "Excepcionalmente se podrá solicitar un documento acreditativo de domicilio en Zaragoza."
+  },
+  {
+   "claim_id": "C-belediye-kutuphanesi-uyelik-karti-carne-de-socio-6",
+   "field": "steps",
+   "claim": "Kayıt için herhangi bir kütüphaneye ya da bibliobüs durağına gidilir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:269",
+   "quote": "Para tramitar la inscripción, es necesario acudir a cualquier biblioteca o parada de bibliobús"
+  },
+  {
+   "claim_id": "C-belediye-kutuphanesi-uyelik-karti-carne-de-socio-7",
+   "field": "summary",
+   "claim": "Kart tüm belediye kütüphanelerinde geçerlidir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:269",
+   "quote": "El carné es válido para todas las Bibliotecas Públicas Municipales de Zaragoza"
+  },
+  {
+   "claim_id": "C-belediye-kutuphanesi-uyelik-karti-carne-de-socio-8",
+   "field": "summary",
+   "claim": "Bir üye en çok 12 belgeyi en çok 28 gün ödünç alabilir",
+   "value": "12; 28",
+   "unit": "belge; gün",
+   "period": "",
+   "source_id": "zaragoza:kaynak:268",
+   "quote": "hasta un total de 12 documentos por un periodo máximo de 28 días"
+  },
+  {
+   "claim_id": "C-belediye-kutuphanesi-uyelik-karti-carne-de-socio-9",
+   "field": "summary",
+   "claim": "Başkası ayırtmadıysa bir kez aynı süre uzatılır",
+   "value": "1",
+   "unit": "uzatma",
+   "period": "",
+   "source_id": "zaragoza:kaynak:268",
+   "quote": "admitiéndose 1 única renovación por el mismo periodo siempre que no haya sido reservado por otro usuario."
+  },
+  {
+   "claim_id": "C-belediye-kutuphanesi-uyelik-karti-carne-de-socio-10",
+   "field": "steps",
+   "claim": "Uzatma ve ayırtma internet sitesinden de yapılabilir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:268",
+   "quote": "se pueden hacer renovaciones de préstamos y reservas de materiales a través de la página web."
+  },
+  {
+   "claim_id": "C-belediye-kutuphanesi-uyelik-karti-carne-de-socio-11",
+   "field": "note",
+   "claim": "Ücretsiz internet bilgisayarları üyeler içindir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:268",
+   "quote": "Disponemos de puestos de acceso gratuito a Internet para nuestros socios."
+  },
+  {
+   "claim_id": "C-belediye-kutuphanesi-uyelik-karti-carne-de-socio-12",
+   "field": "note",
+   "claim": "Yönetim birimi Patronato Municipal de Educación y Bibliotecas, C/ Cortesías 1, 50071, tel. 976 724 926",
+   "value": "C/ Cortesías, 1 - 50071; 976 724 926",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:269",
+   "quote": "Patronato Municipal de Educación y Bibliotecas C/ Cortesías, 1 - 50071 http://educacion.zaragoza.es 976 724 926"
+  }
+ ],
+ "adimlar": [],
+ "butonlar": [
+  {
+   "action_id": "zaragoza:action:belediye-kutuphanesi-uyelik-karti-carne-de-socio-1",
+   "label": "Başvur",
+   "url": "https://www.zaragoza.es/sede/servicio/tramite/25260"
+  },
+  {
+   "action_id": "zaragoza:action:belediye-kutuphanesi-uyelik-karti-carne-de-socio-2",
+   "label": "Bilgi al",
+   "url": "https://www.zaragoza.es/sede/portal/bibliotecas-municipales/Servicios/guia-usuario"
+  }
+ ]
+}
+
+===== KART 8/15: zaragoza:kutuphanelerde-dil-ogrenimi-cocuk-bolumu-calisma-alani =====
+{
+ "entry_id": "zaragoza:kutuphanelerde-dil-ogrenimi-cocuk-bolumu-calisma-alani",
+ "city_id": "zaragoza",
+ "slug": "kutuphanelerde-dil-ogrenimi-cocuk-bolumu-calisma-alani",
+ "title": "Zaragoza belediye kütüphanelerinde dil öğrenimi koleksiyonu, çocuk bölümü ve çalışma alanı var mı?",
+ "subtitle": "Okuma, çalışma alanı ve bilgi hizmetleri ücretsiz; bazı kütüphanelerde dil öğrenimi ve çok kültürlülük koleksiyonu var",
+ "summary": "Evet: belediye kütüphanelerinde okuma ve çalışma alanı ücretsizdir, üye olmasan da kullanırsın. Fernando Lázaro Carreter kütüphanesinin (Torrero) uzmanlık alanı dil öğrenimi ve çizgi roman, Manuel Alvar kütüphanesinin (Delicias) çok kültürlülüktür. Mahalle kütüphanelerinin çocuk bölümü 14 yaş altına ayrılmıştır, 8 yaş altı çocuklar yanında yetişkinle gelir; 0-4 yaş için 'Rincón Peque' köşesi çoğu kütüphanede vardır. Hizmet 25 kütüphane ve bir bibliobüsle verilir.",
+ "keywords": "kütüphane, dil öğrenimi, çocuk kütüphanesi, çalışma alanı, Manuel Alvar, Fernando Lázaro Carreter, bibliobús, interculturalidad",
+ "stages": "new;settled",
+ "source_ids": "zaragoza:kaynak:268;zaragoza:kaynak:270",
+ "reviewed_on": "2026-11-02",
+ "order": 1107,
+ "featured": "Hayır",
+ "editorial_status": "Taslak",
+ "topic_id": "zaragoza:gunluk",
+ "steps": "Kütüphane sayfasındaki 'Busca tu biblioteca' aramasından mahalle ya da junta seçerek sana yakın kütüphaneyi bul.\nDil öğrenimi koleksiyonu için Torrero'daki Fernando Lázaro Carreter kütüphanesine, çok kültürlülük koleksiyonu için Delicias'taki Manuel Alvar kütüphanesine git.\nKitap ödünç almak ya da internet kullanmak istemiyorsan üye olmadan da okuma salonunu ve çalışma alanını kullanabilirsin.\nÇocuğun 8 yaşın altındaysa yanında bir yetişkin bulunsun; 0-4 yaş için 'Rincón Peque' köşesini kullan.\nToplu ziyaret ve kullanıcı eğitimi için rehberli ziyaret iste.",
+ "documents": "",
+ "timing": "",
+ "cost": "Ücretsiz",
+ "note": "Bibliobüsün 2026 durakları ve saatleri kütüphanenin ana sayfasındaki 'Bibliobús 2026' bağlantısındadır.",
+ "visual_json": "",
+ "_sekme": "Yanıtlar",
+ "kaynaklar": [
+  {
+   "source_id": "zaragoza:kaynak:268",
+   "url": "https://www.zaragoza.es/sede/portal/bibliotecas-municipales/Servicios/guia-usuario",
+   "publisher": "Ayuntamiento de Zaragoza",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_gunluk/828524de9f744661e19bda40f4f46879319b499e88005972a88810b366b688a4.txt"
+  },
+  {
+   "source_id": "zaragoza:kaynak:270",
+   "url": "https://www.zaragoza.es/sede/portal/bibliotecas-municipales/",
+   "publisher": "Ayuntamiento de Zaragoza",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_gunluk/103402cce8728609d9344969387a1668ae4e772266d3f6dbd5bc039d51a3da06.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-kutuphanelerde-dil-ogrenimi-cocuk-bolumu-calisma-alani-1",
+   "field": "summary",
+   "claim": "Kütüphaneye giriş ve temel hizmetler ücretsizdir",
+   "value": "ücretsiz",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:268",
+   "quote": "El acceso a la biblioteca es libre para todos los ciudadanos y los servicios anteriormente mencionados son gratuitos."
+  },
+  {
+   "claim_id": "C-kutuphanelerde-dil-ogrenimi-cocuk-bolumu-calisma-alani-2",
+   "field": "summary",
+   "claim": "Okuma salonunda üyeliğe gerek yoktur",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:268",
+   "quote": "pueden ser leídos y consultados libremente en nuestras instalaciones por todos los usuarios, sean o no socios de las bibliotecas."
+  },
+  {
+   "claim_id": "C-kutuphanelerde-dil-ogrenimi-cocuk-bolumu-calisma-alani-3",
+   "field": "summary",
+   "claim": "Fernando Lázaro Carreter kütüphanesinin uzmanlık alanı dil öğrenimi ve çizgi romandır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:268",
+   "quote": "Biblioteca Fernando Lázaro Carreter: Aprendizaje de idiomas y Cómic"
+  },
+  {
+   "claim_id": "C-kutuphanelerde-dil-ogrenimi-cocuk-bolumu-calisma-alani-4",
+   "field": "summary",
+   "claim": "Manuel Alvar kütüphanesinin uzmanlık alanı çok kültürlülüktür (interculturalidad)",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:268",
+   "quote": "Biblioteca Manuel Alvar: Interculturalidad"
+  },
+  {
+   "claim_id": "C-kutuphanelerde-dil-ogrenimi-cocuk-bolumu-calisma-alani-5",
+   "field": "steps",
+   "claim": "Fernando Lázaro Carreter kütüphanesi Torrero'dadır",
+   "value": "Torrero",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:270",
+   "quote": "Fernando Lázaro Carreter (Torrero)"
+  },
+  {
+   "claim_id": "C-kutuphanelerde-dil-ogrenimi-cocuk-bolumu-calisma-alani-6",
+   "field": "steps",
+   "claim": "Manuel Alvar kütüphanesi Delicias'tadır",
+   "value": "Delicias",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:270",
+   "quote": "Biblioteca Pública Manuel Alvar (Delicias)"
+  },
+  {
+   "claim_id": "C-kutuphanelerde-dil-ogrenimi-cocuk-bolumu-calisma-alani-7",
+   "field": "summary",
+   "claim": "Mahalle kütüphanelerinde 14 yaş altına ayrılmış bölüm vardır; 8 yaş altı yetişkinle gelir",
+   "value": "14; 8",
+   "unit": "yaş",
+   "period": "",
+   "source_id": "zaragoza:kaynak:268",
+   "quote": "En las Bibliotecas de Distrito se cuenta con una sala especialmente destinada a menores de 14 años. Los menores de 8 años deberán estar acompañados de un adulto."
+  },
+  {
+   "claim_id": "C-kutuphanelerde-dil-ogrenimi-cocuk-bolumu-calisma-alani-8",
+   "field": "summary",
+   "claim": "Çoğu kütüphanede 0-4 yaş için Rincón Peque köşesi vardır",
+   "value": "0-4",
+   "unit": "yaş",
+   "period": "",
+   "source_id": "zaragoza:kaynak:268",
+   "quote": "la mayoría de las bibliotecas tienen un Rincón Peque, un espacio especial destinado a que los más pequeños (niños y niñas de 0 a 4 años)"
+  },
+  {
+   "claim_id": "C-kutuphanelerde-dil-ogrenimi-cocuk-bolumu-calisma-alani-9",
+   "field": "summary",
+   "claim": "Hizmet 25 kütüphane ve bir bibliobüsle verilir",
+   "value": "25",
+   "unit": "kütüphane",
+   "period": "",
+   "source_id": "zaragoza:kaynak:268",
+   "quote": "se lleva a cabo de forma presencial en 25 bibliotecas, un bibliobús y servicios de extensión bibliotecaria"
+  },
+  {
+   "claim_id": "C-kutuphanelerde-dil-ogrenimi-cocuk-bolumu-calisma-alani-10",
+   "field": "steps",
+   "claim": "Çalışma alanları ücretsiz hizmet kapsamındadır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:268",
+   "quote": "ponemos a su disposición zonas para el estudio."
+  },
+  {
+   "claim_id": "C-kutuphanelerde-dil-ogrenimi-cocuk-bolumu-calisma-alani-11",
+   "field": "steps",
+   "claim": "Tüm kütüphanelerde rehberli ziyaret verilir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:268",
+   "quote": "Ofrecemos visitas guiadas en todas las bibliotecas"
+  },
+  {
+   "claim_id": "C-kutuphanelerde-dil-ogrenimi-cocuk-bolumu-calisma-alani-12",
+   "field": "note",
+   "claim": "Bibliobüsün 2026 durakları ve saatleri ana sayfada yer alır",
+   "value": "Bibliobús 2026",
+   "unit": "",
+   "period": "2026",
+   "source_id": "zaragoza:kaynak:270",
+   "quote": "Bibliobús 2026 Consulte paradas y horarios de la biblioteca móvil."
+  }
+ ],
+ "adimlar": [],
+ "butonlar": [
+  {
+   "action_id": "zaragoza:action:kutuphanelerde-dil-ogrenimi-cocuk-bolumu-calisma-alani-1",
+   "label": "Bilgi al",
+   "url": "https://www.zaragoza.es/sede/portal/bibliotecas-municipales/"
+  },
+  {
+   "action_id": "zaragoza:action:kutuphanelerde-dil-ogrenimi-cocuk-bolumu-calisma-alani-2",
+   "label": "Bilgi al",
+   "url": "https://www.zaragoza.es/sede/portal/bibliotecas-municipales/Servicios/guia-usuario"
+  }
+ ]
+}
+
+===== KART 9/15: zaragoza:sivil-merkezler-centros-civicos-hizmetleri =====
+{
+ "entry_id": "zaragoza:sivil-merkezler-centros-civicos-hizmetleri",
+ "city_id": "zaragoza",
+ "slug": "sivil-merkezler-centros-civicos-hizmetleri",
+ "title": "Zaragoza'daki sivil merkezler (centros cívicos) hangi hizmetleri verir?",
+ "subtitle": "Mahalle merkezlerinde kurs, atölye, kültür etkinliği, salon kullanımı, kütüphane ve sosyal hizmetler bir arada",
+ "summary": "Centros cívicos, belediyenin mahallelerdeki merkezleridir: kurs ve atölyeler, tiyatro, müzik, dans, sirk gibi kültür etkinlikleri ve vatandaşa bilgi hizmeti verirler. Merkezler bilgiyi yüz yüze ve telefonla verir; salonlarını dernek, kolektif ve vatandaşlara etkinlik için verir. Birçok merkezde sosyal hizmetler, boş zaman merkezi ve ludoteka, gençlik evi, yaşlı merkezi, junta ofisi ve kamu kütüphanesi bulunur. Hafta içi ve hafta sonu geniş saatlerde açıktırlar.",
+ "keywords": "centros cívicos, sivil merkez, mahalle merkezi, kurs ve atölye, ludoteka, gençlik evi, Zaragoza kültür, junta municipal",
+ "stages": "new;settled",
+ "source_ids": "zaragoza:kaynak:265;zaragoza:kaynak:264",
+ "reviewed_on": "2026-11-02",
+ "order": 1108,
+ "featured": "Hayır",
+ "editorial_status": "Taslak",
+ "topic_id": "zaragoza:gunluk",
+ "steps": "Kendi mahallendeki merkezi merkezler listesinden bul (ör. Delicias, La Almozara, Torrero, Casetas, Valdefierro).\nMerkezin kurs ve atölye programını, sosyal hizmet ya da kütüphane gibi içindeki birimleri merkeze giderek ya da arayarak sor.\nEtkinlik düzenlemek isteyen dernek ya da kişi merkezden salon ister.\nSayfadaki 'Hoy en el centro cívico' bölümünden güncel programa bak.",
+ "documents": "",
+ "timing": "Hafta içi ve hafta sonları geniş saatlerde açık",
+ "cost": "",
+ "note": "Her merkezin kendi saatleri ve adresi kendi sayfasında yer alır.",
+ "visual_json": "",
+ "_sekme": "Yanıtlar",
+ "kaynaklar": [
+  {
+   "source_id": "zaragoza:kaynak:265",
+   "url": "https://www.zaragoza.es/sede/portal/calidad/centros-civicos",
+   "publisher": "Ayuntamiento de Zaragoza",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_gunluk/d7302f14f048f658fe99074dd17f6afb2e69d4851970cc264a1294a699f86f37.txt"
+  },
+  {
+   "source_id": "zaragoza:kaynak:264",
+   "url": "https://www.zaragoza.es/sede/portal/centroscivicos/",
+   "publisher": "Ayuntamiento de Zaragoza",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_gunluk/96df25ee16970afdee027687fe5ef50a225bb0ffef0ec3146697fa241a6832ed.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-sivil-merkezler-centros-civicos-hizmetleri-1",
+   "field": "summary",
+   "claim": "Centros cívicos belediyeye aittir ve katılım, eğitim, kültür, sosyal hizmet ve vatandaşa hizmet programları sunar",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:264",
+   "quote": "que tienen la función de prestar servicios de participación ciudadana, con programas de carácter educativo, cultural, social o de atención al ciudadano."
+  },
+  {
+   "claim_id": "C-sivil-merkezler-centros-civicos-hizmetleri-2",
+   "field": "summary",
+   "claim": "Tiyatro, müzik, dans, sirk ve sihirbazlık sunulur",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:264",
+   "quote": "Teatro, música, danza, circo o magia son solo algunas de las disciplinas artísticas que se ofrecen."
+  },
+  {
+   "claim_id": "C-sivil-merkezler-centros-civicos-hizmetleri-3",
+   "field": "summary",
+   "claim": "Merkezler yüz yüze ve telefonla bilgi verir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:265",
+   "quote": "Informamos y atendemos al ciudadano, de forma presencial y telefónica, sobre los servicios que prestamos."
+  },
+  {
+   "claim_id": "C-sivil-merkezler-centros-civicos-hizmetleri-4",
+   "field": "summary",
+   "claim": "Salonlar dernek, kolektif, kâr amacı gütmeyen kuruluş ve vatandaşlara tahsis edilir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:265",
+   "quote": "a las asociaciones, colectivos, entidades sin ánimo de lucro, y a los ciudadanos en general."
+  },
+  {
+   "claim_id": "C-sivil-merkezler-centros-civicos-hizmetleri-5",
+   "field": "summary",
+   "claim": "Merkezlerin içinde sosyal hizmet merkezleri, boş zaman merkezleri ve ludoteka, gençlik evleri, yaşlı merkezleri, junta ofisleri ve kütüphane bulunur",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:265",
+   "quote": "Centros municipales de tiempo libre y ludotecas. Casas de juventud. Centros de Convivencia para mayores. Juntas municipales y vecinales. Bibliotecas públicas municipales."
+  },
+  {
+   "claim_id": "C-sivil-merkezler-centros-civicos-hizmetleri-6",
+   "field": "timing",
+   "claim": "Merkezler hafta içi, cumartesi ve pazar geniş saatlerde açık olmayı taahhüt eder",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:265",
+   "quote": "Realizar un horario amplio de apertura de los centros, tanto de lunes a viernes como sábados y domingos."
+  },
+  {
+   "claim_id": "C-sivil-merkezler-centros-civicos-hizmetleri-7",
+   "field": "steps",
+   "claim": "Merkez listesi: Casetas, Delicias, Distrito 14 (La Jota), Distrito Sur, Esquinas del Psiquiátrico, Estación del Norte, Garrapinillos, Casablanca, Juslibol, La Almozara, La Cartuja Baja",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:264",
+   "quote": "Casetas Delicias Distrito 14 (La Jota) Distrito Sur Esquinas del Psiquiátrico Estación del Norte Garrapinillos. Antonio Beltrán Martínez Isaac Valero (Casablanca) Juslibol La Almozara La Cartuja Baja"
+  },
+  {
+   "claim_id": "C-sivil-merkezler-centros-civicos-hizmetleri-8",
+   "field": "steps",
+   "claim": "Torrero, Valdefierro, Universidad ve diğer mahalle merkezleri",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:264",
+   "quote": "Centro Cívico Torrero Centro Cívico Universidad Centro Cívico Valdefierro Pilar Adiego"
+  },
+  {
+   "claim_id": "C-sivil-merkezler-centros-civicos-hizmetleri-9",
+   "field": "summary",
+   "claim": "Merkezlerin içinde belediye sosyal hizmet merkezleri bulunur",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:265",
+   "quote": "Centros municipales de servicios sociales."
+  }
+ ],
+ "adimlar": [],
+ "butonlar": [
+  {
+   "action_id": "zaragoza:action:sivil-merkezler-centros-civicos-hizmetleri-1",
+   "label": "Bilgi al",
+   "url": "https://www.zaragoza.es/sede/portal/centroscivicos/"
+  }
+ ]
+}
+
+===== KART 10/15: zaragoza:sivil-merkezlerde-ispanyolca-dersi-ve-kurs-kaydi =====
+{
+ "entry_id": "zaragoza:sivil-merkezlerde-ispanyolca-dersi-ve-kurs-kaydi",
+ "city_id": "zaragoza",
+ "slug": "sivil-merkezlerde-ispanyolca-dersi-ve-kurs-kaydi",
+ "title": "Zaragoza'da sivil merkezlerde İspanyolca (español) dersi ve diğer kurslara nasıl yazılırım?",
+ "subtitle": "2026-27 kursları 20 Haziran 2027'ye kadar; İspanyolca dersi La Jota merkezinde listeleniyor, kayıt dersi veren kuruluşa göre",
+ "summary": "İspanyolca dersi (Clases español) 2026-27 listesinde Centro Cívico Distrito 14 (La Jota) için yer alır; iki ayrı grup 20 Haziran 2027'ye kadar sürer. Kurslar okul takvimine göre işler ve 7 Eylül haftasından itibaren başlayabilir; kaydı dersi veren sosyal kuruluş ya da belediye birimi kendi belirlediği tarihlerde yapar. Listede düzenleyenin bilgisi yoksa kursun yapıldığı sivil merkeze başvurursun ve merkez seni düzenleyene yönlendirir.",
+ "keywords": "İspanyolca kursu, clases de español, sivil merkez kursları, Distrito 14 La Jota, cursos y talleres, Actividades Estables, Zaragoza kurs kaydı",
+ "stages": "new;settled",
+ "source_ids": "zaragoza:kaynak:266;zaragoza:kaynak:267",
+ "reviewed_on": "2026-11-02",
+ "order": 1109,
+ "featured": "Hayır",
+ "editorial_status": "Taslak",
+ "topic_id": "zaragoza:gunluk",
+ "steps": "Kurs listesini 'Cursos y talleres por Centro Cívico' bölümünden merkez merkez incele; İspanyolca dersi için Distrito 14 (La Jota) satırına bak.\nListede düzenleyen kuruluşun iletişim bilgisi varsa kayıt için ona başvur.\nİletişim bilgisi yoksa Centro Cívico Distrito 14 (La Jota) ile görüş; merkez seni düzenleyen kuruluşa ya da belediye birimine yönlendirir.\nMerkezin kendi etkinlik sayfasından ek kurslara bak; örneğin Distrito Sur merkezinde İngilizce ve konuşma grupları vardır.",
+ "documents": "",
+ "timing": "Kurslar 7 Eylül 2026 haftasından 20 Haziran 2027'ye kadar",
+ "cost": "",
+ "note": "Örnek merkez: Centro Cívico Distrito Sur, Calle Richard Wagner 2, 50012, telefon 976 726 242, e-posta civicodistritosur@zaragoza.es. Hafta içi 08:30-21:30, hafta sonu 09:30-20:30; 1 Ocak, Jueves ve Viernes Santo, 15 Ağustos, 12 Ekim, 25 Aralık, 24 ve 31 Aralık öğleden sonraları ile Temmuz-Ağustos hafta sonları kapalıdır.",
+ "visual_json": "",
+ "_sekme": "Yanıtlar",
+ "kaynaklar": [
+  {
+   "source_id": "zaragoza:kaynak:266",
+   "url": "https://www.zaragoza.es/sede/servicio/cultura/evento/programa/2425",
+   "publisher": "Ayuntamiento de Zaragoza",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_gunluk/87a1b39ff6ff941530fde376eca7126a08fb5705d56ae3e52f6c5613a6947129.txt"
+  },
+  {
+   "source_id": "zaragoza:kaynak:267",
+   "url": "https://www.zaragoza.es/sede/portal/centroscivicos/servicio/centroscivicos/29439",
+   "publisher": "Ayuntamiento de Zaragoza",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_gunluk/84e54b98eb0a6634f31aff38e359ad036cf1eb2b898341e69894a5b8495d3ded.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-sivil-merkezlerde-ispanyolca-dersi-ve-kurs-kaydi-1",
+   "field": "summary",
+   "claim": "Kurslar sosyal kuruluşlar ve belediye birimleri tarafından düzenlenir (Actividades Estables 2026-2027)",
+   "value": "",
+   "unit": "",
+   "period": "2026-2027",
+   "source_id": "zaragoza:kaynak:266",
+   "quote": "están organizados por las diferentes Entidades Sociales y Servicios Municipales que han participado en la convocatoria de Actividades Estables 2026-2027."
+  },
+  {
+   "claim_id": "C-sivil-merkezlerde-ispanyolca-dersi-ve-kurs-kaydi-2",
+   "field": "summary",
+   "claim": "Kurslar 7 Eylül haftasından itibaren başlayabilir, kayıt tarihlerini düzenleyen belirler",
+   "value": "7 Eylül",
+   "unit": "",
+   "period": "2026",
+   "source_id": "zaragoza:kaynak:266",
+   "quote": "pudiendo comenzar las actividades la semana del 7 de septiembre, de acuerdo con las fechas de inscripción establecidas por la Entidad o Servicio Municipal organizador."
+  },
+  {
+   "claim_id": "C-sivil-merkezlerde-ispanyolca-dersi-ve-kurs-kaydi-3",
+   "field": "steps",
+   "claim": "Düzenleyenin bilgisi yoksa kursun yapılacağı sivil merkezle iletişime geçilir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:266",
+   "quote": "En los cursos y talleres en los que no aparezcan los datos de la Entidad Organizadora para realizar la inscripción, contactar con el Centro Cívico en el que se desee realizar la actividad"
+  },
+  {
+   "claim_id": "C-sivil-merkezlerde-ispanyolca-dersi-ve-kurs-kaydi-4",
+   "field": "summary",
+   "claim": "İspanyolca dersi (Clases español) La Jota merkezinde 20 Haziran 2027'ye kadar listelenmiştir (ilk grup)",
+   "value": "20 Haziran 2027",
+   "unit": "",
+   "period": "2026-2027",
+   "source_id": "zaragoza:kaynak:266",
+   "quote": "Clases español Centro Cívico Distrito 14 (La Jota) hasta el 20 de junio de 2027 Refuerzo educativo"
+  },
+  {
+   "claim_id": "C-sivil-merkezlerde-ispanyolca-dersi-ve-kurs-kaydi-5",
+   "field": "summary",
+   "claim": "La Jota merkezinde ikinci bir İspanyolca dersi grubu daha listelenmiştir",
+   "value": "20 Haziran 2027",
+   "unit": "",
+   "period": "2026-2027",
+   "source_id": "zaragoza:kaynak:266",
+   "quote": "Entre nosotras Centro Cívico Distrito 14 (La Jota) hasta el 20 de junio de 2027 Clases español"
+  },
+  {
+   "claim_id": "C-sivil-merkezlerde-ispanyolca-dersi-ve-kurs-kaydi-6",
+   "field": "steps",
+   "claim": "Distrito Sur merkezinde İngilizce ve konuşma dersleri vardır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:267",
+   "quote": "Inglés y conversación I y I... Del 07 septiembre 2026 al 20 junio 2027"
+  },
+  {
+   "claim_id": "C-sivil-merkezlerde-ispanyolca-dersi-ve-kurs-kaydi-7",
+   "field": "note",
+   "claim": "Centro Cívico Distrito Sur adresi Calle Richard Wagner 2, 50012",
+   "value": "Calle Richard Wagner, 2 - 50012",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:267",
+   "quote": "Dirección:Calle Richard Wagner, 2 - 50012"
+  },
+  {
+   "claim_id": "C-sivil-merkezlerde-ispanyolca-dersi-ve-kurs-kaydi-8",
+   "field": "note",
+   "claim": "Telefon 976 726 242, e-posta civicodistritosur@zaragoza.es",
+   "value": "976 726 242",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:267",
+   "quote": "Teléfono:976 726 242 Email: civicodistritosur@zaragoza.es"
+  },
+  {
+   "claim_id": "C-sivil-merkezlerde-ispanyolca-dersi-ve-kurs-kaydi-9",
+   "field": "note",
+   "claim": "Distrito Sur hafta içi 08:30-21:30 açıktır",
+   "value": "08:30-21:30",
+   "unit": "saat",
+   "period": "",
+   "source_id": "zaragoza:kaynak:267",
+   "quote": "Lunes a viernes: de 8,30 a 21,30h."
+  },
+  {
+   "claim_id": "C-sivil-merkezlerde-ispanyolca-dersi-ve-kurs-kaydi-10",
+   "field": "note",
+   "claim": "Distrito Sur hafta sonu 09:30-20:30 açıktır",
+   "value": "09:30-20:30",
+   "unit": "saat",
+   "period": "",
+   "source_id": "zaragoza:kaynak:267",
+   "quote": "Sábado y domingo de 9,30 a 20,30h."
+  },
+  {
+   "claim_id": "C-sivil-merkezlerde-ispanyolca-dersi-ve-kurs-kaydi-11",
+   "field": "note",
+   "claim": "Distrito Sur kapalı günler: 1 Ocak, Jueves ve Viernes Santo, 15 Ağustos, 12 Ekim, 25 Aralık, 24 ve 31 Aralık öğleden sonraları, Temmuz-Ağustos hafta sonları",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:267",
+   "quote": "Cerrado: 1 enero, Jueves y Viernes Santo, 15 agosto, 12 octubre, 25 diciembre. Las tardes de 24 y 31 diciembre. Fines de semana de julio y agosto."
+  }
+ ],
+ "adimlar": [],
+ "butonlar": [
+  {
+   "action_id": "zaragoza:action:sivil-merkezlerde-ispanyolca-dersi-ve-kurs-kaydi-1",
+   "label": "Bilgi al",
+   "url": "https://www.zaragoza.es/sede/servicio/cultura/evento/programa/2425"
+  },
+  {
+   "action_id": "zaragoza:action:sivil-merkezlerde-ispanyolca-dersi-ve-kurs-kaydi-2",
+   "label": "Ziyaret bilgisi",
+   "url": "https://www.zaragoza.es/sede/portal/centroscivicos/servicio/centroscivicos/29439"
+  }
+ ]
+}
+
+===== KART 11/15: zaragoza:fiestas-del-pilar-tarih-ve-ofrenda-de-flores =====
+{
+ "entry_id": "zaragoza:fiestas-del-pilar-tarih-ve-ofrenda-de-flores",
+ "city_id": "zaragoza",
+ "slug": "fiestas-del-pilar-tarih-ve-ofrenda-de-flores",
+ "title": "Fiestas del Pilar ne zaman, Ofrenda de Flores'e kayıt olmadan nasıl katılırım?",
+ "subtitle": "2026'da 10-18 Ekim; çiçek sunusuna bireysel katılım için önceden kayıt gerekmedi, giriş San Vicente de Paúl'dan",
+ "summary": "Fiestas del Pilar 2026'da 10 Ekim cumartesiden 18 Ekim pazara kadar sürdü; resmî başlangıç 10 Ekim 21:00'de belediye balkonundaki pregón ve roketle yapıldı, kapanış 18 Ekim 22:30'da Parque Macanaz'daki havai fişekle oldu. Ofrenda de Flores'te binlerce kişi geleneksel kıyafetle Plaza del Pilar'da Meryem'e çiçek sunar. Gruba bağlı olmadan bireysel katılım için önceden kayıt gerekmedi: San Vicente de Paúl ve Arcedianos sokaklarından Plaza del Pilar'a 07:00-20:00 arasında girildi.",
+ "keywords": "Fiestas del Pilar, Pilar bayramı, Ofrenda de Flores, çiçek sunusu, Plaza del Pilar, pregón, Zaragoza festival, ekim bayramı",
+ "stages": "planning;new;settled",
+ "source_ids": "zaragoza:kaynak:254;zaragoza:kaynak:253",
+ "reviewed_on": "2026-11-02",
+ "order": 1110,
+ "featured": "Hayır",
+ "editorial_status": "Taslak",
+ "topic_id": "zaragoza:gunluk",
+ "steps": "Tarihleri belediyenin Fiestas del Pilar sayfasından ve @fiestaspilaroficial hesabından izle; 2026 tarihleri 10-18 Ekim'di.\nOfrenda'ya grupla katılacaksan iki güzergâhtan birine yönel: Plaza Aragón çıkışlı Paseo Independencia-Calle Alfonso I ya da Plaza Santa Engracia çıkışlı Paseo Independencia-Calle Don Jaime I.\nBireysel katılacaksan San Vicente de Paúl-Arcedianos sokağından Plaza del Pilar'a gir; kayıt gerekmez, giriş 07:00-20:00 arasındaydı.\nEvcil hayvanınla katılacaksan kalabalık az olsun diye 07:00-09:00 ya da 19:00-20:00 saatlerini seç.\nBasılı program için Oficinas Municipales de Turismo'ya (Plaza del Pilar, Estación Delicias) git.",
+ "documents": "",
+ "timing": "2026'da 10-18 Ekim; pregón 10 Ekim 21:00; havai fişek 18 Ekim 22:30",
+ "cost": "",
+ "note": "",
+ "visual_json": "",
+ "_sekme": "Yanıtlar",
+ "kaynaklar": [
+  {
+   "source_id": "zaragoza:kaynak:254",
+   "url": "https://www.zaragoza.es/sede/portal/cultura/fiestas-pilar/preguntas-frecuentes",
+   "publisher": "Ayuntamiento de Zaragoza",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_gunluk/9f51a011e4e7f1270c58c0c098f92df8995f206f611153cb01ad85869e5eda3e.txt"
+  },
+  {
+   "source_id": "zaragoza:kaynak:253",
+   "url": "https://www.zaragoza.es/sede/portal/cultura/fiestas-pilar/",
+   "publisher": "Ayuntamiento de Zaragoza",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_gunluk/0bbded814031eee2ca3dd87edc8aca2bbd2e5cc7ae08f24662e32be258c80ee9.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-fiestas-del-pilar-tarih-ve-ofrenda-de-flores-1",
+   "field": "summary",
+   "claim": "2026'da bayram 10-18 Ekim arasındaydı",
+   "value": "10-18 Ekim",
+   "unit": "",
+   "period": "2026",
+   "source_id": "zaragoza:kaynak:253",
+   "quote": "En 2026, se llevarán a cabo del 10 al 18 de octubre."
+  },
+  {
+   "claim_id": "C-fiestas-del-pilar-tarih-ve-ofrenda-de-flores-2",
+   "field": "summary",
+   "claim": "Pregón 10 Ekim cumartesi 21:00'de belediye balkonundan okundu ve roket atıldı",
+   "value": "10 Ekim 21:00",
+   "unit": "",
+   "period": "2026",
+   "source_id": "zaragoza:kaynak:254",
+   "quote": "El pregón es el sábado 10 de octubre a las 21:00 horas, desde el balcón del Ayuntamiento."
+  },
+  {
+   "claim_id": "C-fiestas-del-pilar-tarih-ve-ofrenda-de-flores-3",
+   "field": "summary",
+   "claim": "Havai fişek ve final gösterisi 18 Ekim 2026 22:30'da Parque Macanaz'daydı",
+   "value": "18 Ekim 22:30",
+   "unit": "",
+   "period": "2026",
+   "source_id": "zaragoza:kaynak:253",
+   "quote": "Fuegos artificiales y traca final 18 de octubre de 2026, 22:30 horas. Parque Macanaz"
+  },
+  {
+   "claim_id": "C-fiestas-del-pilar-tarih-ve-ofrenda-de-flores-4",
+   "field": "summary",
+   "claim": "Ofrenda de Flores'te binlerce kişi geleneksel kıyafetle Plaza del Pilar'da çiçek sunar",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:253",
+   "quote": "la Ofrenda de Flores, donde miles de personas, ataviadas con trajes tradicionales, ofrecerán flores a la Virgen en la Plaza del Pilar"
+  },
+  {
+   "claim_id": "C-fiestas-del-pilar-tarih-ve-ofrenda-de-flores-5",
+   "field": "steps",
+   "claim": "Birinci güzergâh: Paseo Independencia-Calle Alfonso I, çıkış Plaza Aragón",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:254",
+   "quote": "Recorrido 1: Paseo Independencia - Calle Alfonso I, con salida de Plaza Aragón."
+  },
+  {
+   "claim_id": "C-fiestas-del-pilar-tarih-ve-ofrenda-de-flores-6",
+   "field": "steps",
+   "claim": "İkinci güzergâh: Paseo Independencia-Calle Don Jaime I, çıkış Plaza Santa Engracia",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:254",
+   "quote": "Recorrido 2: Paseo Independencia - Calle Don Jaime I, con salida de Plaza Santa Engracia."
+  },
+  {
+   "claim_id": "C-fiestas-del-pilar-tarih-ve-ofrenda-de-flores-7",
+   "field": "steps",
+   "claim": "Bireysel katılımcılar San Vicente de Paúl-Arcedianos sokağından Plaza del Pilar'a 07:00-20:00 arasında girer",
+   "value": "07:00-20:00",
+   "unit": "saat",
+   "period": "2026",
+   "source_id": "zaragoza:kaynak:254",
+   "quote": "los participantes individuales dispondrán de acceso por Calle San Vicente de Paúl con Calle Arcedianos hasta Plaza del Pilar, desde las 07:00 hasta las 20:00 h."
+  },
+  {
+   "claim_id": "C-fiestas-del-pilar-tarih-ve-ofrenda-de-flores-8",
+   "field": "summary",
+   "claim": "Bireysel katılım için önceden kayıt gerekmedi",
+   "value": "",
+   "unit": "",
+   "period": "2026",
+   "source_id": "zaragoza:kaynak:254",
+   "quote": "Para su participación no se requerirá inscripción previa."
+  },
+  {
+   "claim_id": "C-fiestas-del-pilar-tarih-ve-ofrenda-de-flores-9",
+   "field": "steps",
+   "claim": "Evcil hayvanla katılacaklara 07:00-09:00 ya da 19:00-20:00 saatleri önerildi",
+   "value": "07:00-09:00; 19:00-20:00",
+   "unit": "saat",
+   "period": "2026",
+   "source_id": "zaragoza:kaynak:254",
+   "quote": "se recomienda acudir en las franjas horarias de 07:00 a 09:00 o de 19:00 a 20:00 h"
+  },
+  {
+   "claim_id": "C-fiestas-del-pilar-tarih-ve-ofrenda-de-flores-10",
+   "field": "steps",
+   "claim": "Basılı program Oficinas Municipales de Turismo'da (Plaza del Pilar, Estación Delicias) bulunur",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:254",
+   "quote": "En las Oficinas Municipales de Turismo (Plaza del Pilar, Estación Delicias) y también puedes acudir a los voluntarios de las fiestas"
+  },
+  {
+   "claim_id": "C-fiestas-del-pilar-tarih-ve-ofrenda-de-flores-11",
+   "field": "steps",
+   "claim": "Tam program belediyenin resmî ajandasında ve resmî sosyal medya hesabındadır",
+   "value": "@fiestaspilaroficial",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:254",
+   "quote": "En la agenda oficial de la web del Ayuntamiento de Zaragoza y en las redes sociales oficiales de fiestas del Pilar @fiestaspilaroficial."
+  }
+ ],
+ "adimlar": [],
+ "butonlar": [
+  {
+   "action_id": "zaragoza:action:fiestas-del-pilar-tarih-ve-ofrenda-de-flores-1",
+   "label": "Bilgi al",
+   "url": "https://www.zaragoza.es/sede/portal/cultura/fiestas-pilar/"
+  },
+  {
+   "action_id": "zaragoza:action:fiestas-del-pilar-tarih-ve-ofrenda-de-flores-2",
+   "label": "Bilgi al",
+   "url": "https://www.zaragoza.es/sede/portal/cultura/fiestas-pilar/preguntas-frecuentes"
+  }
+ ]
+}
+
+===== KART 12/15: zaragoza:pilar-bayraminda-ulasim-cam-siseler-ve-kayip-cocuk =====
+{
+ "entry_id": "zaragoza:pilar-bayraminda-ulasim-cam-siseler-ve-kayip-cocuk",
+ "city_id": "zaragoza",
+ "slug": "pilar-bayraminda-ulasim-cam-siseler-ve-kayip-cocuk",
+ "title": "Pilar bayramında şehre nasıl giderim, cam şişe yasağı ve kaybolan çocuk için ne yapmalıyım?",
+ "subtitle": "Tramvay 24 saat çalıştı, otobüsler takviye edildi; sokakta cam kap yasak; çocuk kaybolursa en yakın sağlık ya da polis noktası",
+ "summary": "Bayramda toplu taşıma önerilir: 2026'da tramvay seferleri bayram boyunca 24 saate çıkarıldı, şehir içi otobüs hatları özellikle geceleri takviye edildi ve merkezi Valdespartera alanına bağlayan iki servis çalıştı. En merkezi tramvay durağı 'Plaza de España'dır. Arabayla gideceksen La Chimenea ve Valdespartera'daki otoparklara bırakıp tramvay ya da otobüsle devam etmek önerildi. Sokakta ve tüm bayram alanlarında cam şişe ve cam kap kesinlikle yasaktır.",
+ "keywords": "Pilar bayramı ulaşım, tramvay 24 saat, cam şişe yasağı, kayıp çocuk, 112, Valdespartera, park ve devam, Plaza de España",
+ "stages": "new;settled",
+ "source_ids": "zaragoza:kaynak:254",
+ "reviewed_on": "2026-11-02",
+ "order": 1111,
+ "featured": "Hayır",
+ "editorial_status": "Taslak",
+ "topic_id": "zaragoza:gunluk",
+ "steps": "Merkeze tramvayla gidiyorsan en merkezi durak olan 'Plaza de España'da in.\nParque del Agua (Río y Juego) için 'Parque Goya' yönündeki tramvaya bin ve 'Parque del Agua - Luis Buñuel' durağında in.\nArabayla geldiysen La Chimenea ya da Valdespartera park alanına bırak ve devamını tramvay ya da otobüsle yap; merkezde birçok yol kapatılır.\nCam şişe ve cam kap taşıma; sokakta ve bayram alanlarında kullanımı yasaktır.\nÇocuğun kaybolursa en yakın sağlık ya da yerel polis noktasına git ya da yelekli gönüllüden yardım iste; acil durumda 112'yi ara.",
+ "documents": "",
+ "timing": "Tramvay bayram boyunca 24 saat (2026)",
+ "cost": "",
+ "note": "Otobüs ve tramvay filosunun tamamı alçak platformlu ve erişilebilirdir; tekerlekli sandalyeliler için ana alanlarda erişimli girişler bulunur.",
+ "visual_json": "",
+ "_sekme": "Yanıtlar",
+ "kaynaklar": [
+  {
+   "source_id": "zaragoza:kaynak:254",
+   "url": "https://www.zaragoza.es/sede/portal/cultura/fiestas-pilar/preguntas-frecuentes",
+   "publisher": "Ayuntamiento de Zaragoza",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_gunluk/9f51a011e4e7f1270c58c0c098f92df8995f206f611153cb01ad85869e5eda3e.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-pilar-bayraminda-ulasim-cam-siseler-ve-kayip-cocuk-1",
+   "field": "summary",
+   "claim": "En merkezi tramvay durağı 'Plaza de España'dır",
+   "value": "Plaza de España",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:254",
+   "quote": "La parada de tranvía más céntrica es \"Plaza de España\"."
+  },
+  {
+   "claim_id": "C-pilar-bayraminda-ulasim-cam-siseler-ve-kayip-cocuk-2",
+   "field": "summary",
+   "claim": "Bayram boyunca tramvay hizmeti 24 saate çıkarılır",
+   "value": "24",
+   "unit": "saat",
+   "period": "2026",
+   "source_id": "zaragoza:kaynak:254",
+   "quote": "Respecto al tranvía, su servicio se amplía a las 24 horas durante las fiestas"
+  },
+  {
+   "claim_id": "C-pilar-bayraminda-ulasim-cam-siseler-ve-kayip-cocuk-3",
+   "field": "summary",
+   "claim": "Merkezi Valdespartera alanına bağlayan iki servis çalışır",
+   "value": "2",
+   "unit": "servis",
+   "period": "2026",
+   "source_id": "zaragoza:kaynak:254",
+   "quote": "se pondrán en servicio dos lanzaderas para unir el centro de la ciudad con el recinto de Valdespartera"
+  },
+  {
+   "claim_id": "C-pilar-bayraminda-ulasim-cam-siseler-ve-kayip-cocuk-4",
+   "field": "summary",
+   "claim": "Şehir içi otobüs hatları özellikle geceleri takviye edilir",
+   "value": "",
+   "unit": "",
+   "period": "2026",
+   "source_id": "zaragoza:kaynak:254",
+   "quote": "Durante las fiestas se refuerzan las líneas de bus urbano, especialmente en horario nocturno."
+  },
+  {
+   "claim_id": "C-pilar-bayraminda-ulasim-cam-siseler-ve-kayip-cocuk-5",
+   "field": "steps",
+   "claim": "Arabayla gidenlere La Chimenea ve Valdespartera park alanları önerilir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:254",
+   "quote": "Se recomienda usar los parkings disuasorios como el de La Chimenea y Valdespartera y continuar el viaje en tranvía o autobús."
+  },
+  {
+   "claim_id": "C-pilar-bayraminda-ulasim-cam-siseler-ve-kayip-cocuk-6",
+   "field": "steps",
+   "claim": "Parque del Agua için 'Parque Goya' yönünde tramvaya binip 'Parque del Agua - Luis Buñuel' durağında inilir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:254",
+   "quote": "tomar el Tranvía en dirección 'Parque Goya' y bajarse en la parada 'Parque del Agua - Luis Buñuel'"
+  },
+  {
+   "claim_id": "C-pilar-bayraminda-ulasim-cam-siseler-ve-kayip-cocuk-7",
+   "field": "summary",
+   "claim": "Sokakta ve tüm bayram alanlarında cam şişe ve cam kap kullanımı kesinlikle yasaktır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:254",
+   "quote": "está terminantemente prohibido el uso de botellas o cualquier otro envase de vidrio en la vía pública y en todos los recintos festivos."
+  },
+  {
+   "claim_id": "C-pilar-bayraminda-ulasim-cam-siseler-ve-kayip-cocuk-8",
+   "field": "steps",
+   "claim": "Çocuk kaybolursa en yakın sağlık ya da yerel polis noktasına gidilir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:254",
+   "quote": "Dirígete inmediatamente al puesto sanitario, de policía local más cercano; allí te asistirán."
+  },
+  {
+   "claim_id": "C-pilar-bayraminda-ulasim-cam-siseler-ve-kayip-cocuk-9",
+   "field": "steps",
+   "claim": "Tek acil numara 112'dir",
+   "value": "112",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:254",
+   "quote": "El teléfono único de emergencias es el 112."
+  },
+  {
+   "claim_id": "C-pilar-bayraminda-ulasim-cam-siseler-ve-kayip-cocuk-10",
+   "field": "note",
+   "claim": "Otobüs ve tramvay filosu tamamen alçak platformlu ve erişilebilirdir",
+   "value": "100%",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:254",
+   "quote": "toda la flota de autobuses urbanos (AUZSA) y tranvías es 100% accesible con plataformas bajas y espacios reservados."
+  },
+  {
+   "claim_id": "C-pilar-bayraminda-ulasim-cam-siseler-ve-kayip-cocuk-11",
+   "field": "note",
+   "claim": "Ana alanların çoğunda tekerlekli sandalye erişimi vardır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:254",
+   "quote": "la mayoría de los espacios principales cuentan con accesos para Personas con Movilidad Reducida (PMR)"
+  }
+ ],
+ "adimlar": [],
+ "butonlar": [
+  {
+   "action_id": "zaragoza:action:pilar-bayraminda-ulasim-cam-siseler-ve-kayip-cocuk-1",
+   "label": "Bilgi al",
+   "url": "https://www.zaragoza.es/sede/portal/cultura/fiestas-pilar/preguntas-frecuentes"
+  }
+ ]
+}
+
+===== KART 13/15: zaragoza:san-valero-gunu-29-ocak-programi-ve-ucretsiz-muzeler =====
+{
+ "entry_id": "zaragoza:san-valero-gunu-29-ocak-programi-ve-ucretsiz-muzeler",
+ "city_id": "zaragoza",
+ "slug": "san-valero-gunu-29-ocak-programi-ve-ucretsiz-muzeler",
+ "title": "San Valero günü (29 Ocak) Zaragoza'da neler olur, hangi müzelere ücretsiz girilir?",
+ "subtitle": "2026'da 28 Ocak-1 Şubat; 29 Ocak'ta belediye açık kapı, Caesaraugusta rotası müzeleri ücretsiz, Plaza del Pilar'da dev roscón",
+ "summary": "San Valero günü 29 Ocak'tır; 2026'da kutlamalar 28 Ocak'tan 1 Şubat'a kadar beş gün sürdü. 29 Ocak 2026'da belediye (Ayuntamiento) 10:00'dan 20:00'ye kadar açık kapı günü düzenledi, Ruta de Caesaraugusta belediye müzeleri ve Museo del Fuego y de los Bomberos ücretsiz gezilebildi. Plaza del Pilar'da 600 metre uzunluğunda, yaklaşık 20.000 porsiyonluk dev roscón dağıtıldı. Çocuklar için Gigantes y Cabezudos geçidi 11:00'de Plaza del Pilar'dan başladı.",
+ "keywords": "San Valero, 29 Ocak, roscón gigante, Ruta de Caesaraugusta, ücretsiz müze, Gigantes y Cabezudos, Zaragoza kış festivali, Quimera y Aquiles",
+ "stages": "planning;new;settled",
+ "source_ids": "zaragoza:kaynak:255",
+ "reviewed_on": "2026-11-02",
+ "order": 1112,
+ "featured": "Hayır",
+ "editorial_status": "Taslak",
+ "topic_id": "zaragoza:gunluk",
+ "steps": "29 Ocak günü Plaza del Pilar'da dev roscón dağıtımına ve çiçekten Zaragoza bayrağının yapılışına git.\nAyuntamiento'nun 10:00-20:00 arasındaki açık kapı gününde rehberli ziyarete katıl.\nRuta de Caesaraugusta müzelerini 10:00-14:00 ve 17:00-21:00, Museo del Fuego y de los Bomberos'u 10:00-14:00 arasında ücretsiz gez.\nÇocukla gidiyorsan 11:00'de Plaza del Pilar'dan çıkan Gigantes, Cabezudos y Caballitos geçidini izle.",
+ "documents": "",
+ "timing": "2026'da 28 Ocak-1 Şubat; ana gün 29 Ocak",
+ "cost": "29 Ocak 2026'da belediye müzeleri ve Museo del Fuego ücretsizdi",
+ "note": "31 Ocak 2026 cumartesi akşamı Paseo de la Independencia'da 'Quimera y Aquiles' adlı gezici sokak tiyatrosu gösterildi.",
+ "visual_json": "",
+ "_sekme": "Yanıtlar",
+ "kaynaklar": [
+  {
+   "source_id": "zaragoza:kaynak:255",
+   "url": "https://www.zaragoza.es/sede/portal/cultura/servicio/noticia/347387",
+   "publisher": "Ayuntamiento de Zaragoza",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_gunluk/3baeb980b2c5e882491f667f01ff80feca462349840fd8dbe62e472ed7a5ae8f.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-san-valero-gunu-29-ocak-programi-ve-ucretsiz-muzeler-1",
+   "field": "summary",
+   "claim": "2026'da kutlamalar 28 Ocak-1 Şubat arasındaydı",
+   "value": "28 Ocak-1 Şubat",
+   "unit": "",
+   "period": "2026",
+   "source_id": "zaragoza:kaynak:255",
+   "quote": "Del 28 de enero al 1 de febrero, la ciudad celebra a su patrón"
+  },
+  {
+   "claim_id": "C-san-valero-gunu-29-ocak-programi-ve-ucretsiz-muzeler-2",
+   "field": "summary",
+   "claim": "Festivalin ana günü 29 Ocak, San Valero günüdür",
+   "value": "29 Ocak",
+   "unit": "",
+   "period": "2026",
+   "source_id": "zaragoza:kaynak:255",
+   "quote": "El eje central de la festividad se mantiene el 29 de enero, Día de San Valero"
+  },
+  {
+   "claim_id": "C-san-valero-gunu-29-ocak-programi-ve-ucretsiz-muzeler-3",
+   "field": "summary",
+   "claim": "Belediye 10:00'da açık kapı günü düzenledi, rehberli ziyaretler 20:00'ye kadar sürdü",
+   "value": "10:00-20:00",
+   "unit": "saat",
+   "period": "2026",
+   "source_id": "zaragoza:kaynak:255",
+   "quote": "Desde las 10:00 horas, el Ayuntamiento de Zaragoza celebra su jornada de puertas abiertas, con visitas guiadas hasta las 20:00 horas y apariciones teatralizadas."
+  },
+  {
+   "claim_id": "C-san-valero-gunu-29-ocak-programi-ve-ucretsiz-muzeler-4",
+   "field": "cost",
+   "claim": "Ruta de Caesaraugusta müzeleri 10:00-14:00 ve 17:00-21:00, Museo del Fuego 10:00-14:00 arasında ücretsiz gezilebildi",
+   "value": "ücretsiz",
+   "unit": "",
+   "period": "29 Ocak 2026",
+   "source_id": "zaragoza:kaynak:255",
+   "quote": "los museos municipales de la Ruta de Caesaraugusta (10:00‑14:00 y 17:00‑21:00) y el Museo del Fuego y de los Bomberos (10:00‑14:00) podrán visitarse gratuitamente."
+  },
+  {
+   "claim_id": "C-san-valero-gunu-29-ocak-programi-ve-ucretsiz-muzeler-5",
+   "field": "summary",
+   "claim": "Dev roscón 600 metre uzunluğunda ve yaklaşık 20.000 porsiyondu",
+   "value": "600 m; 20.000",
+   "unit": "",
+   "period": "2026",
+   "source_id": "zaragoza:kaynak:255",
+   "quote": "el reparto del roscón gigante en la Plaza del Pilar, con 600 metros y unas 20.000 raciones"
+  },
+  {
+   "claim_id": "C-san-valero-gunu-29-ocak-programi-ve-ucretsiz-muzeler-6",
+   "field": "steps",
+   "claim": "Çiçekten Zaragoza bayrağı yapıldı",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:255",
+   "quote": "se elaborará la bandera floral de Zaragoza"
+  },
+  {
+   "claim_id": "C-san-valero-gunu-29-ocak-programi-ve-ucretsiz-muzeler-7",
+   "field": "summary",
+   "claim": "Gigantes, Cabezudos y Caballitos geçidi 11:00'de Plaza del Pilar'dan başladı ve Casco Histórico'yu dolaştı",
+   "value": "11:00",
+   "unit": "saat",
+   "period": "2026",
+   "source_id": "zaragoza:kaynak:255",
+   "quote": "Comparsa de Gigantes, Cabezudos y Caballitos, que partirá a las 11:00 desde la Plaza del Pilar y recorrerá el Casco Histórico."
+  },
+  {
+   "claim_id": "C-san-valero-gunu-29-ocak-programi-ve-ucretsiz-muzeler-8",
+   "field": "note",
+   "claim": "31 Ocak cumartesi Paseo de la Independencia'da 'Quimera y Aquiles' gezici gösterisi yapıldı",
+   "value": "31 Ocak",
+   "unit": "",
+   "period": "2026",
+   "source_id": "zaragoza:kaynak:255",
+   "quote": "El sábado 31, el Paseo de la Independencia acogerá el esperado espectáculo itinerante"
+  }
+ ],
+ "adimlar": [],
+ "butonlar": [
+  {
+   "action_id": "zaragoza:action:san-valero-gunu-29-ocak-programi-ve-ucretsiz-muzeler-1",
+   "label": "Bilgi al",
+   "url": "https://www.zaragoza.es/sede/portal/cultura/servicio/noticia/347387"
+  }
+ ]
+}
+
+===== KART 14/15: zaragoza:aragon-2026-resmi-tatiller-zaragoza-kalan-gunler =====
+{
+ "entry_id": "zaragoza:aragon-2026-resmi-tatiller-zaragoza-kalan-gunler",
+ "city_id": "zaragoza",
+ "slug": "aragon-2026-resmi-tatiller-zaragoza-kalan-gunler",
+ "title": "Zaragoza'da (Aragón) 2026'da hangi günler resmî tatil, yılın geri kalanında hangileri var?",
+ "subtitle": "Aragón listesi 12 gün ve 2 yerel tatil; 23 Nisan San Jorge (Día de Aragón) bölgeye özgü; kalan günler 7, 8 ve 25 Aralık",
+ "summary": "Aragón'da 2026 için 12 resmî tatil günü var: 1 Ocak, 6 Ocak, 2 Nisan (Jueves Santo), 3 Nisan (Viernes Santo), 23 Nisan (San Jorge, Día de Aragón), 1 Mayıs, 15 Ağustos, 12 Ekim, 2 Kasım (1 Kasım pazara denk geldiği için pazartesiye alındı), 7 Aralık (6 Aralık pazar olduğu için), 8 Aralık ve 25 Aralık; ikisi yerel olmak üzere yıl toplamı 14 gündür. Kasım'ın geri kalanında tatil yoktur; yıl sonuna 7, 8 ve 25 Aralık kalır. Bu günler idari işlemler için de iş günü sayılmaz (inhábil).",
+ "keywords": "Aragón tatilleri 2026, San Jorge, Día de Aragón, fiestas laborales Zaragoza, 23 Nisan, resmi tatil takvimi, calendario laboral, inhábil",
+ "stages": "planning;new;settled",
+ "source_ids": "zaragoza:kaynak:257;zaragoza:kaynak:256",
+ "reviewed_on": "2026-11-02",
+ "order": 1113,
+ "featured": "Hayır",
+ "editorial_status": "Taslak",
+ "topic_id": "zaragoza:gunluk",
+ "steps": "2026'da Aragón'daki 12 tatil gününü iş, okul ve resmî işlem planında iş günü dışında say.\n23 Nisan San Jorge (Día de Aragón) tüm Aragón'da tatildir; bu gün Aragón'a özgü olandır.\nKasım'dan sonra kalan tatiller 7 Aralık (pazartesi), 8 Aralık (salı) ve 25 Aralık (cuma) günleridir.\nZaragoza'ya özgü iki yerel tatil için Boletín Oficial de Aragón'daki Zaragoza ili yerel tatiller kararına bak.",
+ "documents": "",
+ "timing": "2026 takvim yılı",
+ "cost": "",
+ "note": "Resmî tatiller ücretli ve telafisiz sayılır. 2027 için Gobierno de Aragón, 9 Eylül tarihli 163/2026 sayılı kararnameyi çıkardı; kararname 2027 tatillerini belirler.",
+ "visual_json": "",
+ "_sekme": "Yanıtlar",
+ "kaynaklar": [
+  {
+   "source_id": "zaragoza:kaynak:257",
+   "url": "https://www.zaragoza.es/sede/servicio/transparencia/1940",
+   "publisher": "Ayuntamiento de Zaragoza",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_gunluk/f8de6cf878ffa1fc5c60f3344619f39cc3301bd9df89cc4fedbf980dcc387ef7.txt"
+  },
+  {
+   "source_id": "zaragoza:kaynak:256",
+   "url": "https://www.aragon.es/trabajo-y-relaciones-laborales/calendario-laboral",
+   "publisher": "Gobierno de Aragón",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_gunluk/12587b719044da32ab7a3ec7635cf3a917944b27fbb1ce532ba438088b0e1889.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-aragon-2026-resmi-tatiller-zaragoza-kalan-gunler-1",
+   "field": "summary",
+   "claim": "Yılda toplam 14 tatil günü vardır, ikisi yerel",
+   "value": "14; 2",
+   "unit": "gün",
+   "period": "",
+   "source_id": "zaragoza:kaynak:256",
+   "quote": "Se establecen en total 14 días festivos, de los cuales dos serán locales."
+  },
+  {
+   "claim_id": "C-aragon-2026-resmi-tatiller-zaragoza-kalan-gunler-2",
+   "field": "summary",
+   "claim": "1 Ocak 2026 perşembe, Año Nuevo",
+   "value": "1 Ocak",
+   "unit": "",
+   "period": "2026",
+   "source_id": "zaragoza:kaynak:257",
+   "quote": "1 de enero, jueves, Año Nuevo."
+  },
+  {
+   "claim_id": "C-aragon-2026-resmi-tatiller-zaragoza-kalan-gunler-3",
+   "field": "summary",
+   "claim": "6 Ocak 2026 salı, Epifanía del Señor",
+   "value": "6 Ocak",
+   "unit": "",
+   "period": "2026",
+   "source_id": "zaragoza:kaynak:257",
+   "quote": "6 de enero, martes, Epifanía del Señor."
+  },
+  {
+   "claim_id": "C-aragon-2026-resmi-tatiller-zaragoza-kalan-gunler-4",
+   "field": "summary",
+   "claim": "2 Nisan 2026 Jueves Santo",
+   "value": "2 Nisan",
+   "unit": "",
+   "period": "2026",
+   "source_id": "zaragoza:kaynak:257",
+   "quote": "2 de abril, Jueves Santo."
+  },
+  {
+   "claim_id": "C-aragon-2026-resmi-tatiller-zaragoza-kalan-gunler-5",
+   "field": "summary",
+   "claim": "3 Nisan 2026 Viernes Santo",
+   "value": "3 Nisan",
+   "unit": "",
+   "period": "2026",
+   "source_id": "zaragoza:kaynak:257",
+   "quote": "3 de abril, Viernes Santo."
+  },
+  {
+   "claim_id": "C-aragon-2026-resmi-tatiller-zaragoza-kalan-gunler-6",
+   "field": "summary",
+   "claim": "23 Nisan 2026 San Jorge, Día de Aragón",
+   "value": "23 Nisan",
+   "unit": "",
+   "period": "2026",
+   "source_id": "zaragoza:kaynak:257",
+   "quote": "23 de abril, jueves a, San Jorge, Día de Aragón."
+  },
+  {
+   "claim_id": "C-aragon-2026-resmi-tatiller-zaragoza-kalan-gunler-7",
+   "field": "summary",
+   "claim": "1 Mayıs 2026 cuma, Fiesta del Trabajo",
+   "value": "1 Mayıs",
+   "unit": "",
+   "period": "2026",
+   "source_id": "zaragoza:kaynak:257",
+   "quote": "1 de mayo, viernes, Fiesta del Trabajo."
+  },
+  {
+   "claim_id": "C-aragon-2026-resmi-tatiller-zaragoza-kalan-gunler-8",
+   "field": "summary",
+   "claim": "15 Ağustos 2026 cumartesi, Asunción de la Virgen",
+   "value": "15 Ağustos",
+   "unit": "",
+   "period": "2026",
+   "source_id": "zaragoza:kaynak:257",
+   "quote": "15 de agosto, sábado, Asunción de la Virgen."
+  },
+  {
+   "claim_id": "C-aragon-2026-resmi-tatiller-zaragoza-kalan-gunler-9",
+   "field": "summary",
+   "claim": "12 Ekim 2026 Fiesta Nacional de España",
+   "value": "12 Ekim",
+   "unit": "",
+   "period": "2026",
+   "source_id": "zaragoza:kaynak:257",
+   "quote": "12 de octubre, lunesa, Fiesta Nacional de España."
+  },
+  {
+   "claim_id": "C-aragon-2026-resmi-tatiller-zaragoza-kalan-gunler-10",
+   "field": "summary",
+   "claim": "2 Kasım 2026 pazartesi, 1 Kasım pazara denk geldiği için Todos los Santos yerine",
+   "value": "2 Kasım",
+   "unit": "",
+   "period": "2026",
+   "source_id": "zaragoza:kaynak:257",
+   "quote": "2 de noviembre, lunes, en sustitución del día 1, domingo, Todos los Santos."
+  },
+  {
+   "claim_id": "C-aragon-2026-resmi-tatiller-zaragoza-kalan-gunler-11",
+   "field": "summary",
+   "claim": "7 Aralık 2026 pazartesi, 6 Aralık pazara denk geldiği için Anayasa Günü yerine",
+   "value": "7 Aralık",
+   "unit": "",
+   "period": "2026",
+   "source_id": "zaragoza:kaynak:257",
+   "quote": "7 de diciembre, lunes, en sustitución del día 6, domingo, Día de la Constitución Española."
+  },
+  {
+   "claim_id": "C-aragon-2026-resmi-tatiller-zaragoza-kalan-gunler-12",
+   "field": "summary",
+   "claim": "8 Aralık 2026 salı, Inmaculada Concepción",
+   "value": "8 Aralık",
+   "unit": "",
+   "period": "2026",
+   "source_id": "zaragoza:kaynak:257",
+   "quote": "8 de diciembre, martes, Inmaculada Concepción."
+  },
+  {
+   "claim_id": "C-aragon-2026-resmi-tatiller-zaragoza-kalan-gunler-13",
+   "field": "summary",
+   "claim": "Aragón 2026 listesinde 12 gün sayılır (1 Ocak'tan 25 Aralık'a); 2 yerel günle 14 eder",
+   "value": "12",
+   "unit": "gün",
+   "period": "2026",
+   "source_id": "zaragoza:kaynak:257",
+   "quote": "25 de diciembre, viernes, Natividad del Señor."
+  },
+  {
+   "claim_id": "C-aragon-2026-resmi-tatiller-zaragoza-kalan-gunler-14",
+   "field": "summary",
+   "claim": "25 Aralık 2026 cuma, Natividad del Señor",
+   "value": "25 Aralık",
+   "unit": "",
+   "period": "2026",
+   "source_id": "zaragoza:kaynak:257",
+   "quote": "25 de diciembre, viernes, Natividad del Señor."
+  },
+  {
+   "claim_id": "C-aragon-2026-resmi-tatiller-zaragoza-kalan-gunler-15",
+   "field": "steps",
+   "claim": "23 Nisan Día de Aragón tüm Aragón topraklarında tatil sayılır",
+   "value": "23 Nisan",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:256",
+   "quote": "El Día de Aragón, 23 de abril, tradicional conmemoración de San Jorge, se establece a todos los efectos festivo en todo el territorio de Aragón."
+  },
+  {
+   "claim_id": "C-aragon-2026-resmi-tatiller-zaragoza-kalan-gunler-16",
+   "field": "summary",
+   "claim": "Bu günler idari açıdan iş günü sayılmaz (inhábil)",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:256",
+   "quote": "Estas festividades tienen a efectos administrativos el carácter de inhábil."
+  },
+  {
+   "claim_id": "C-aragon-2026-resmi-tatiller-zaragoza-kalan-gunler-17",
+   "field": "steps",
+   "claim": "Zaragoza ili yerel tatilleri Boletín Oficial de Aragón'da yayımlandı (20.11.2025 ve tamamlayıcı karar 23.03.2026)",
+   "value": "20/11/2025; 23/03/2026",
+   "unit": "",
+   "period": "2026",
+   "source_id": "zaragoza:kaynak:256",
+   "quote": "Resolución complementaria fiestas locales para el año 2026 en los municipios de las provincias de Huesca, Teruel y Zaragoza, publicadas en el Boletín Oficial de Aragón del 23/03/2026"
+  },
+  {
+   "claim_id": "C-aragon-2026-resmi-tatiller-zaragoza-kalan-gunler-18",
+   "field": "steps",
+   "claim": "Yerel tatiller ilk kez 20 Kasım 2025 tarihli BOA'da yayımlandı",
+   "value": "20/11/2025",
+   "unit": "",
+   "period": "2026",
+   "source_id": "zaragoza:kaynak:256",
+   "quote": "Fiestas locales para el año 2026 en los municipios de las provincias de Huesca, Teruel y Zaragoza, publicadas en el Boletín Oficial de Aragón del 20/11/2025."
+  },
+  {
+   "claim_id": "C-aragon-2026-resmi-tatiller-zaragoza-kalan-gunler-19",
+   "field": "note",
+   "claim": "2027 tatilleri 9 Eylül tarihli 163/2026 sayılı Gobierno de Aragón kararnamesiyle belirlendi",
+   "value": "163/2026",
+   "unit": "",
+   "period": "2027",
+   "source_id": "zaragoza:kaynak:256",
+   "quote": "Decreto 163/2026, de 9 de septiembre, del Gobierno de Aragón, por el que se fijan las fiestas laborales retribuidas, no recuperables e inhábiles para el año 2027"
+  },
+  {
+   "claim_id": "C-aragon-2026-resmi-tatiller-zaragoza-kalan-gunler-20",
+   "field": "note",
+   "claim": "Resmî tatiller ücretli ve telafisizdir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:257",
+   "quote": "Las fiestas laborales, de carácter retribuido y no recuperables, para el año 2026, en la Comunidad Autónoma de Aragón"
+  }
+ ],
+ "adimlar": [],
+ "butonlar": [
+  {
+   "action_id": "zaragoza:action:aragon-2026-resmi-tatiller-zaragoza-kalan-gunler-1",
+   "label": "Bilgi al",
+   "url": "https://www.aragon.es/trabajo-y-relaciones-laborales/calendario-laboral"
+  },
+  {
+   "action_id": "zaragoza:action:aragon-2026-resmi-tatiller-zaragoza-kalan-gunler-2",
+   "label": "Bilgi al",
+   "url": "https://www.zaragoza.es/sede/servicio/transparencia/1940"
+  }
+ ]
+}
+
+===== KART 15/15: zaragoza:belediye-bilgi-hatti-010-ve-olen-evcil-hayvan =====
+{
+ "entry_id": "zaragoza:belediye-bilgi-hatti-010-ve-olen-evcil-hayvan",
+ "city_id": "zaragoza",
+ "slug": "belediye-bilgi-hatti-010-ve-olen-evcil-hayvan",
+ "title": "Zaragoza Belediyesi'nin 010 bilgi hattına hangi saatlerde ulaşırım, ölen evcil hayvanı nasıl bildiririm?",
+ "subtitle": "010 hafta içi 08:00-20:00, cumartesi 09:00-14:00; Zaragoza dışından 976 721 234; ölü hayvan bildirimi 976 59 23 16",
+ "summary": "010 belediyenin bilgi hattıdır: pazartesi-cuma 08:00-20:00, cumartesi 09:00-14:00 açıktır; Zaragoza dışından 976 721 234'ü ararsın. Mobilya toplatma talebini de bu numaradan verebilirsin. Evcil hayvanın ölürse 010'u ya da bütün gün açık olan 976 59 23 16'yı ararsın; toplama pazartesi-cumartesi 09:00-13:00 arasında yapılır. Büyükbaş, keçi ve koyun gibi hayvanlar bu hizmetle alınmaz.",
+ "keywords": "010, belediye bilgi hattı, Zaragoza telefon, ölü evcil hayvan, mascota muerta, 976 721 234, 976 592316, atención municipal",
+ "stages": "new;settled",
+ "source_ids": "zaragoza:kaynak:258;zaragoza:kaynak:259",
+ "reviewed_on": "2026-11-02",
+ "order": 1114,
+ "featured": "Hayır",
+ "editorial_status": "Taslak",
+ "topic_id": "zaragoza:gunluk",
+ "steps": "Belediye bilgisi için 010'u ara: pazartesi-cuma 08:00-20:00, cumartesi 09:00-14:00.\nZaragoza dışındaysan 976 721 234'ü ara.\nEvcil hayvanın ölürse 010'u ya da 976 59 23 16'yı ara; bu numara bütün gün bildirim alır.\nMobilya ve büyük eşya toplatma talebini 010'dan verebilirsin.",
+ "documents": "",
+ "timing": "010: pazartesi-cuma 08:00-20:00, cumartesi 09:00-14:00; ölü hayvan toplama pazartesi-cumartesi 09:00-13:00",
+ "cost": "",
+ "note": "Büyükbaş, keçi ve koyun ölü hayvan hizmetinin dışındadır.",
+ "visual_json": "",
+ "_sekme": "Yanıtlar",
+ "kaynaklar": [
+  {
+   "source_id": "zaragoza:kaynak:258",
+   "url": "https://www.zaragoza.es/sede/portal/medioambiente/residuos/recogida/",
+   "publisher": "Ayuntamiento de Zaragoza",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_gunluk/e608770fb2d3e99c775162454ed925f9ef3226c29430788d83e4b79284039a2e.txt"
+  },
+  {
+   "source_id": "zaragoza:kaynak:259",
+   "url": "https://www.zaragoza.es/sede/servicio/tramite/138",
+   "publisher": "Ayuntamiento de Zaragoza",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_gunluk/53051f6faa94d09ba8a7fdee8c5ba67012339178a2a4190f101d2be37f880a1d.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-belediye-bilgi-hatti-010-ve-olen-evcil-hayvan-1",
+   "field": "timing",
+   "claim": "010 pazartesi-cuma 08:00-20:00, cumartesi 09:00-14:00 açıktır",
+   "value": "08:00-20:00; 09:00-14:00",
+   "unit": "saat",
+   "period": "",
+   "source_id": "zaragoza:kaynak:258",
+   "quote": "se puede llamar al Servicio de atención telefónica 010, en horario de 8:00 a 20:00, de lunes a viernes, y de 9:00 a 14:00 los sábados."
+  },
+  {
+   "claim_id": "C-belediye-bilgi-hatti-010-ve-olen-evcil-hayvan-2",
+   "field": "summary",
+   "claim": "Zaragoza dışından 976 721 234 aranır",
+   "value": "976 721 234",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:259",
+   "quote": "Información municipal 010 (Si llama fuera de Zaragoza: 976 721234)"
+  },
+  {
+   "claim_id": "C-belediye-bilgi-hatti-010-ve-olen-evcil-hayvan-3",
+   "field": "summary",
+   "claim": "Ölü evcil hayvan bildirimi 976 59 23 16 numarasına bütün gün yapılabilir",
+   "value": "976 59 23 16",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:258",
+   "quote": "Cualquier ciudadano que desee deshacerse de un animal doméstico muerto puede dar el correspondiente aviso a través del teléfono 976 592316, en horario permanente de lunes a domingo."
+  },
+  {
+   "claim_id": "C-belediye-bilgi-hatti-010-ve-olen-evcil-hayvan-4",
+   "field": "summary",
+   "claim": "Ölü hayvan toplama pazartesi-cumartesi 09:00-13:00 arasında yapılır",
+   "value": "09:00-13:00",
+   "unit": "saat",
+   "period": "",
+   "source_id": "zaragoza:kaynak:258",
+   "quote": "Las recogidas se realizan de lunes a sábado, entre las 9:00 y las 13:00 horas."
+  },
+  {
+   "claim_id": "C-belediye-bilgi-hatti-010-ve-olen-evcil-hayvan-5",
+   "field": "note",
+   "claim": "Büyükbaş, keçi ve koyun bu hizmetle alınmaz",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:258",
+   "quote": "no se recoge el ganado bovino, caprino u ovino por la normativa MER"
+  },
+  {
+   "claim_id": "C-belediye-bilgi-hatti-010-ve-olen-evcil-hayvan-6",
+   "field": "steps",
+   "claim": "Mobilya toplatma talebi 010'dan verilebilir",
+   "value": "010",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:259",
+   "quote": "Información municipal 010"
+  }
+ ],
+ "adimlar": [],
+ "butonlar": [
+  {
+   "action_id": "zaragoza:action:belediye-bilgi-hatti-010-ve-olen-evcil-hayvan-1",
+   "label": "Bilgi al",
+   "url": "https://www.zaragoza.es/sede/portal/medioambiente/residuos/recogida/"
+  },
+  {
+   "action_id": "zaragoza:action:belediye-bilgi-hatti-010-ve-olen-evcil-hayvan-2",
+   "label": "Bilgi al",
+   "url": "https://www.zaragoza.es/sede/servicio/tramite/138"
+  }
+ ]
+}

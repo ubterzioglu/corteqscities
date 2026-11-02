@@ -1,0 +1,3307 @@
+===== KART 1/14: zaragoza:otobus-bilet-kurallari-zaragoza =====
+{
+ "entry_id": "zaragoza:otobus-bilet-kurallari-zaragoza",
+ "city_id": "zaragoza",
+ "slug": "otobus-bilet-kurallari-zaragoza",
+ "title": "Zaragoza'da şehir otobüsüne nasıl binilir ve tek yolculuk bileti nasıl alınır?",
+ "subtitle": "Tek bilet 1,70 €, gece hatlarında 1 €; nakit ya da Avanza uygulamasıyla; ön kapıdan bin, bileti her binişte okut",
+ "summary": "Zaragoza şehir otobüsünde tek yolculuk bileti 1,70 €'dur; gece hatlarında (N harfli hatlar) 1 €. Bileti şoförden nakitle alırsın ya da Avanza Zaragoza uygulamasından dijital bilet satın alırsın. 4 yaşından itibaren herkesin geçerli ve okutulmuş bir bilet taşıması zorunludur. Tek bilet yalnız o yolculuk için geçerlidir, aktarma hakkı vermez; aktarma istiyorsan kart ya da abonman kullan.",
+ "keywords": "otobüs, autobús urbano, Avanza Zaragoza, tek bilet, billete sencillo, gece otobüsü, otobüse binme kuralları",
+ "stages": "new;settled",
+ "source_ids": "zaragoza:kaynak:235;zaragoza:kaynak:238",
+ "reviewed_on": "2026-11-02",
+ "order": 1000,
+ "featured": "Hayır",
+ "editorial_status": "Taslak",
+ "topic_id": "zaragoza:ulasim",
+ "steps": "Otobüse ön kapıdan bin; tekerlekli sandalyedeysen orta kapıdaki rampayı kullan.\nBileti şoförden nakitle al (1,70 €). Para üstü en çok 10 € verilir; daha büyük banknotla ödersen şoför Plaza Aragón'daki kabinde bozdurabileceğin bir para üstü fişi verir.\nN harfli gece hatlarında tam parayı hazırla; bilet 1 €'dur.\nDijital bilet için Avanza Zaragoza uygulamasını (Android ve iOS) indir, bileti önceden satın al; süresi dolmaz. Binince şoförün cam bölmesindeki QR kodu okut ve uygulamaya kamera izni ver.\nBileti ya da kartını binişte okut ve yolculuk boyunca sakla.\nİnerken durak talebini zamanında yap ve panelin yandığını kontrol et.",
+ "documents": "",
+ "timing": "Dijital bilet satın alındıktan sonra süresi dolmaz; tek bilet yalnız satın alınan ya da okutulan yolculuk için geçerlidir",
+ "cost": "Tek bilet: 1,70 €; gece hatları: 1 € (1 Ocak 2026'dan beri)",
+ "note": "Çocuk arabasıyla ön kapıdan binersin; araba boşsa katlanmış olmalıdır. Rehber köpek ya da uygun taşıma kabındaki küçük bir hayvanla binebilirsin.",
+ "visual_json": "",
+ "_sekme": "Yanıtlar",
+ "kaynaklar": [
+  {
+   "source_id": "zaragoza:kaynak:235",
+   "url": "https://zaragoza.avanzagrupo.com/tarifas-y-titulos/",
+   "publisher": "Avanza Zaragoza (işletmeci)",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_ulasim/939dd2d99feac3c061d4a8120e56ab7c1144f92da70632dd51c4b33f1e0077ba.txt"
+  },
+  {
+   "source_id": "zaragoza:kaynak:238",
+   "url": "https://zaragoza.avanzagrupo.com/normas-de-servicio/",
+   "publisher": "Avanza Zaragoza",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_ulasim/d39f29d3cb435598a0019169334188e8c46afc2b69296f5962bb5ebc2ab6ec4c.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-otobus-bilet-kurallari-zaragoza-1",
+   "field": "summary",
+   "claim": "Tek yolculuk bileti 1,70 €",
+   "value": "1,70",
+   "unit": "EUR",
+   "period": "2026",
+   "source_id": "zaragoza:kaynak:235",
+   "quote": "Billete sencillo: 1,70€"
+  },
+  {
+   "claim_id": "C-otobus-bilet-kurallari-zaragoza-2",
+   "field": "summary",
+   "claim": "Gece hatlarında tek bilet 1 €",
+   "value": "1",
+   "unit": "EUR",
+   "period": "2026",
+   "source_id": "zaragoza:kaynak:235",
+   "quote": "Billete sencillo líneas nocturnas: 1€"
+  },
+  {
+   "claim_id": "C-otobus-bilet-kurallari-zaragoza-3",
+   "field": "cost",
+   "claim": "Tarifler 1 Ocak 2026'dan beri geçerli",
+   "value": "",
+   "unit": "",
+   "period": "2026",
+   "source_id": "zaragoza:kaynak:235",
+   "quote": "Desde el 1 de enero de 2026."
+  },
+  {
+   "claim_id": "C-otobus-bilet-kurallari-zaragoza-4",
+   "field": "summary",
+   "claim": "4 yaşından itibaren herkes geçerli ve okutulmuş bilet taşımak zorunda",
+   "value": "4",
+   "unit": "yaş",
+   "period": "",
+   "source_id": "zaragoza:kaynak:235",
+   "quote": "a partir de los 4 años, tienen la obligación de viajar provistas de un título de transporte en vigor debidamente validado"
+  },
+  {
+   "claim_id": "C-otobus-bilet-kurallari-zaragoza-5",
+   "field": "summary",
+   "claim": "Tek bilet yalnız o yolculuk için geçerli, aktarma yok",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:235",
+   "quote": "Válido solo para el viaje de autobús en el que se adquiere, no permite transbordo."
+  },
+  {
+   "claim_id": "C-otobus-bilet-kurallari-zaragoza-6",
+   "field": "steps",
+   "claim": "Bilet şoförden nakit alınır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:235",
+   "quote": "Se compra al propio conductor y se paga en efectivo."
+  },
+  {
+   "claim_id": "C-otobus-bilet-kurallari-zaragoza-7",
+   "field": "steps",
+   "claim": "Para üstü en çok 10 €",
+   "value": "10",
+   "unit": "EUR",
+   "period": "",
+   "source_id": "zaragoza:kaynak:235",
+   "quote": "El cambio máximo admitido son 10 euros."
+  },
+  {
+   "claim_id": "C-otobus-bilet-kurallari-zaragoza-8",
+   "field": "steps",
+   "claim": "Daha büyük para üstünde şoför Plaza Aragón kabininde bozdurulacak fiş verir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:235",
+   "quote": "el conductor proporciona un talón de cambio a canjear en Cabina Plaza Aragón"
+  },
+  {
+   "claim_id": "C-otobus-bilet-kurallari-zaragoza-9",
+   "field": "steps",
+   "claim": "N hatlarında tam para gerekir, bilet 1 €",
+   "value": "1",
+   "unit": "EUR",
+   "period": "",
+   "source_id": "zaragoza:kaynak:235",
+   "quote": "En las líneas nocturnas de autobús «N» el importe a pagar debe ser exacto, costando el billete 1€."
+  },
+  {
+   "claim_id": "C-otobus-bilet-kurallari-zaragoza-10",
+   "field": "steps",
+   "claim": "Dijital bilet Avanza Zaragoza uygulamasından alınır (Android, iOS)",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:235",
+   "quote": "Se compra desde la aplicación Avanza Zaragoza disponible para Android e iOS"
+  },
+  {
+   "claim_id": "C-otobus-bilet-kurallari-zaragoza-11",
+   "field": "steps",
+   "claim": "Dijital bilet önceden alınabilir, süresi dolmaz",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:235",
+   "quote": "Puedes comprarlo con antelación ya que no caduca."
+  },
+  {
+   "claim_id": "C-otobus-bilet-kurallari-zaragoza-12",
+   "field": "steps",
+   "claim": "Dijital bilet şoför bölmesindeki QR ile okutulur",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:235",
+   "quote": "tendrás que escanear el QR de la mampara del conductor"
+  },
+  {
+   "claim_id": "C-otobus-bilet-kurallari-zaragoza-13",
+   "field": "steps",
+   "claim": "Uygulamaya kamera izni verilmeli",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:235",
+   "quote": "Recuerda dar permisos a la aplicación para acceder a la cámara."
+  },
+  {
+   "claim_id": "C-otobus-bilet-kurallari-zaragoza-14",
+   "field": "steps",
+   "claim": "Otobüse ön kapıdan binilir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:238",
+   "quote": "Sube al autobús por la puerta delantera"
+  },
+  {
+   "claim_id": "C-otobus-bilet-kurallari-zaragoza-15",
+   "field": "steps",
+   "claim": "Tekerlekli sandalye orta kapıdaki rampadan girer",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:238",
+   "quote": "Si vas en silla de ruedas, debes acceder por la rampa habilitada en la puerta central."
+  },
+  {
+   "claim_id": "C-otobus-bilet-kurallari-zaragoza-16",
+   "field": "steps",
+   "claim": "Bilet girişte okutulur/alınır ve yolculuk boyunca saklanır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:238",
+   "quote": "Valida tu título o compra tu billete sencillo al entrar y consérvalo durante todo el viaje."
+  },
+  {
+   "claim_id": "C-otobus-bilet-kurallari-zaragoza-17",
+   "field": "steps",
+   "claim": "İnişte durak talebi zamanında yapılır ve panelin yandığı kontrol edilir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:238",
+   "quote": "Solicita la parada con suficiente antelación y comprueba que el panel está iluminado."
+  },
+  {
+   "claim_id": "C-otobus-bilet-kurallari-zaragoza-18",
+   "field": "note",
+   "claim": "Çocuk arabası ön kapıdan girer",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:238",
+   "quote": "Si viajas con carrito de bebé debes subir por la puerta delantera salvo excepciones."
+  },
+  {
+   "claim_id": "C-otobus-bilet-kurallari-zaragoza-19",
+   "field": "note",
+   "claim": "Boş çocuk arabası katlanmış olmalı",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:238",
+   "quote": "En caso de llevar el carro vacío deberá ir plegado."
+  },
+  {
+   "claim_id": "C-otobus-bilet-kurallari-zaragoza-20",
+   "field": "note",
+   "claim": "Rehber köpek ya da uygun kapta küçük hayvan alınır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:238",
+   "quote": "Puedes subir con tu perro guía/asistencia o un pequeño animal dentro de su receptáculo idóneo."
+  }
+ ],
+ "adimlar": [],
+ "butonlar": [
+  {
+   "action_id": "zaragoza:action:otobus-bilet-kurallari-zaragoza-1",
+   "label": "Tarifeyi gör",
+   "url": "https://zaragoza.avanzagrupo.com/tarifas-y-titulos/"
+  },
+  {
+   "action_id": "zaragoza:action:otobus-bilet-kurallari-zaragoza-2",
+   "label": "Bilgi al",
+   "url": "https://zaragoza.avanzagrupo.com/normas-de-servicio/"
+  }
+ ]
+}
+
+===== KART 2/14: zaragoza:tarjeta-bus-alma-yukleme-zaragoza =====
+{
+ "entry_id": "zaragoza:tarjeta-bus-alma-yukleme-zaragoza",
+ "city_id": "zaragoza",
+ "slug": "tarjeta-bus-alma-yukleme-zaragoza",
+ "title": "Zaragoza'da Tarjeta Bus nasıl alınır, nereden yüklenir ve bir yolculuk kaç euro tutar?",
+ "subtitle": "Fiziksel kart 7 € (5 € yüklü + 2 € depozito), dijital kart 5 €; kartla her yolculuk 0,55 €; 1 saat içinde aktarma ücretsiz",
+ "summary": "Tarjeta Bus'ın fiziksel sürümü 7 €'dur: 5 € yüklü ve 2 € depozito (fianza) ile satılır; kartı iyi durumda Müşteri Hizmetleri Ofisi'ne iade edersen depozito geri alınır. Kartla her yolculuk 0,55 €'dur. Kart kişisel değildir; bir ya da birkaç kişi aynı kartla binebilir. Dijital sürüm (Tarjeta BUS Digital) 5 €'dur, depozitosu yoktur ve Avanza Zaragoza uygulamasından alınır; yalnız şehir otobüsünde geçerlidir. Fiziksel kart şehir otobüsü, tramvay ve belediyenin diğer hatlarında geçer.",
+ "keywords": "Tarjeta Bus, Avanza, otobüs kartı, kart yükleme, recarga, fianza, dijital kart, aktarma",
+ "stages": "new;settled",
+ "source_ids": "zaragoza:kaynak:235;zaragoza:kaynak:237",
+ "reviewed_on": "2026-11-02",
+ "order": 1001,
+ "featured": "Evet",
+ "editorial_status": "Taslak",
+ "topic_id": "zaragoza:ulasim",
+ "steps": "Fiziksel kartı resmî satış noktalarından al; kart 5 € yüklü ve 2 € depozitoyla satılır.\nSatış ve yükleme noktalarını Avanza'nın yükleme sayfasındaki listeden bul; listede kiosk, kırtasiye ve tütün bayileri var (ör. Plaza España 3'teki kiosk, Avenida César Augusto 37'deki estanco).\nKartı 5 € ve katları olarak yükle; bakiye en çok 60 € olabilir. Yüklemeyi satış noktalarında ya da çevrim içi yaparsın.\nDijital kart istersen Avanza Zaragoza uygulamasında Billetes y Bonos > Títulos Digitales de Transporte bölümünden 5 €'ya al; yüklemesi de yalnız uygulamadan yapılır.\nHer binişte kartı okut. İlk ücretli yolculuktan sonraki 1 saat içinde aktarma ücretsizdir; aynı hatta gidiş-dönüş yolculuk aktarma sayılmaz.\nYüklemeyi iade edeceksen yükleme fişini yanında bulundur.",
+ "documents": "",
+ "timing": "Aktarma: ilk ücretli yolculuktan sonra 1 saat; bakiye üst sınırı 60 €",
+ "cost": "Fiziksel kart: 7 € (5 € yüklü + 2 € depozito). Dijital kart: 5 €. Her yolculuk: 0,55 € (1 Ocak 2026'dan beri)",
+ "note": "Kart kişisel değildir: aynı kartla birkaç kişi binebilir, kart en son inecek kişinin elinde kalmalıdır.",
+ "visual_json": "",
+ "_sekme": "Yanıtlar",
+ "kaynaklar": [
+  {
+   "source_id": "zaragoza:kaynak:235",
+   "url": "https://zaragoza.avanzagrupo.com/tarifas-y-titulos/",
+   "publisher": "Avanza Zaragoza (işletmeci)",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_ulasim/939dd2d99feac3c061d4a8120e56ab7c1144f92da70632dd51c4b33f1e0077ba.txt"
+  },
+  {
+   "source_id": "zaragoza:kaynak:237",
+   "url": "https://zaragoza.avanzagrupo.com/puntos-de-recarga/",
+   "publisher": "Avanza Zaragoza",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_ulasim/b92d0cd608f11fa19914fadcc43263527b11c7e7ea3dbdc9b78bda27d1e95c8c.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-tarjeta-bus-alma-yukleme-zaragoza-1",
+   "field": "cost",
+   "claim": "Fiziksel Tarjeta Bus 7 €",
+   "value": "7",
+   "unit": "EUR",
+   "period": "2026",
+   "source_id": "zaragoza:kaynak:235",
+   "quote": "Precio tarjeta: 7€"
+  },
+  {
+   "claim_id": "C-tarjeta-bus-alma-yukleme-zaragoza-2",
+   "field": "cost",
+   "claim": "Tarjeta Bus ile yolculuk 0,55 €",
+   "value": "0,55",
+   "unit": "EUR",
+   "period": "2026",
+   "source_id": "zaragoza:kaynak:235",
+   "quote": "Precio viaje: 0,55€"
+  },
+  {
+   "claim_id": "C-tarjeta-bus-alma-yukleme-zaragoza-3",
+   "field": "summary",
+   "claim": "Kart 5 € yüklü ve 2 € depozitoyla satılır",
+   "value": "2",
+   "unit": "EUR",
+   "period": "",
+   "source_id": "zaragoza:kaynak:235",
+   "quote": "Se vende cargada con 5€ y 2€ de fianza"
+  },
+  {
+   "claim_id": "C-tarjeta-bus-alma-yukleme-zaragoza-4",
+   "field": "summary",
+   "claim": "Depozito kart iyi durumda ofise iade edilirse geri alınır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:235",
+   "quote": "devolviendo la tarjeta en la Oficina de Atención al Cliente siempre que esté en buen estado"
+  },
+  {
+   "claim_id": "C-tarjeta-bus-alma-yukleme-zaragoza-5",
+   "field": "steps",
+   "claim": "Kart herhangi bir resmî satış noktasından alınır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:235",
+   "quote": "Compra: se realiza en cualquier establecimiento oficial."
+  },
+  {
+   "claim_id": "C-tarjeta-bus-alma-yukleme-zaragoza-6",
+   "field": "steps",
+   "claim": "Yükleme 5 € ve katları, bakiye en çok 60 €",
+   "value": "60",
+   "unit": "EUR",
+   "period": "",
+   "source_id": "zaragoza:kaynak:235",
+   "quote": "serán de 5€ o múltiplos, hasta un máximo de 60€ de saldo"
+  },
+  {
+   "claim_id": "C-tarjeta-bus-alma-yukleme-zaragoza-7",
+   "field": "steps",
+   "claim": "Yükleme çevrim içi ya da yükleme noktalarında yapılır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:235",
+   "quote": "Puede hacerse online o en los puntos de recarga establecidos"
+  },
+  {
+   "claim_id": "C-tarjeta-bus-alma-yukleme-zaragoza-8",
+   "field": "summary",
+   "claim": "Kart kişisel değildir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:235",
+   "quote": "Tarjeta no personal."
+  },
+  {
+   "claim_id": "C-tarjeta-bus-alma-yukleme-zaragoza-9",
+   "field": "summary",
+   "claim": "Fiziksel kart şehir otobüsü, tramvay ve belediyenin diğer hatlarında geçerli",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:235",
+   "quote": "Válida para el autobús urbano, el tranvía y otras líneas del Ayuntamiento de Zaragoza."
+  },
+  {
+   "claim_id": "C-tarjeta-bus-alma-yukleme-zaragoza-10",
+   "field": "summary",
+   "claim": "Dijital kart 5 €",
+   "value": "5",
+   "unit": "EUR",
+   "period": "2026",
+   "source_id": "zaragoza:kaynak:235",
+   "quote": "Precio tarjeta: 5€"
+  },
+  {
+   "claim_id": "C-tarjeta-bus-alma-yukleme-zaragoza-11",
+   "field": "summary",
+   "claim": "Dijital kartta depozito yok",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:235",
+   "quote": "ya que no hay fianza"
+  },
+  {
+   "claim_id": "C-tarjeta-bus-alma-yukleme-zaragoza-12",
+   "field": "steps",
+   "claim": "Dijital kart uygulamadan alınır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:235",
+   "quote": "Compra: se realiza desde nuestra app Avanza Zaragoza (Billetes y Bonos > Títulos Digitales de Transporte)."
+  },
+  {
+   "claim_id": "C-tarjeta-bus-alma-yukleme-zaragoza-13",
+   "field": "summary",
+   "claim": "Dijital kart yalnız şehir otobüsünde geçerli",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:235",
+   "quote": "Válida exclusivamente para el autobús urbano del Ayuntamiento de Zaragoza"
+  },
+  {
+   "claim_id": "C-tarjeta-bus-alma-yukleme-zaragoza-14",
+   "field": "steps",
+   "claim": "Aktarma ilk ücretli yolculuktan sonra 1 saat içinde ücretsiz; aynı hatta gidiş-dönüş hariç",
+   "value": "1",
+   "unit": "saat",
+   "period": "",
+   "source_id": "zaragoza:kaynak:235",
+   "quote": "permite transbordos gratuitos en el plazo de 1 hora desde el primer viaje de pago siempre que no se realicen trayectos de ida y vuelta en la misma línea"
+  },
+  {
+   "claim_id": "C-tarjeta-bus-alma-yukleme-zaragoza-15",
+   "field": "steps",
+   "claim": "Yükleme iadesinde fiş zorunlu",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:235",
+   "quote": "Si se necesita devolver la recarga, es obligatorio presentar el ticket o comprobante de la misma."
+  },
+  {
+   "claim_id": "C-tarjeta-bus-alma-yukleme-zaragoza-16",
+   "field": "note",
+   "claim": "Kart en son inecek kişide kalmalı",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:235",
+   "quote": "deberá quedarse en posesión de la última persona que vaya a abandonar el autobús"
+  },
+  {
+   "claim_id": "C-tarjeta-bus-alma-yukleme-zaragoza-17",
+   "field": "steps",
+   "claim": "Plaza España 3'teki kiosk satış ve yükleme noktası",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:237",
+   "quote": "PLAZA ESPAÑA, 3"
+  },
+  {
+   "claim_id": "C-tarjeta-bus-alma-yukleme-zaragoza-18",
+   "field": "steps",
+   "claim": "Avenida César Augusto 37'deki estanco satış ve yükleme noktası",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:237",
+   "quote": "AVDA. CÉSAR AUGUSTO, 37"
+  }
+ ],
+ "adimlar": [],
+ "butonlar": [
+  {
+   "action_id": "zaragoza:action:tarjeta-bus-alma-yukleme-zaragoza-1",
+   "label": "Bilgi al",
+   "url": "https://zaragoza.avanzagrupo.com/puntos-de-recarga/"
+  },
+  {
+   "action_id": "zaragoza:action:tarjeta-bus-alma-yukleme-zaragoza-2",
+   "label": "Tarifeyi gör",
+   "url": "https://zaragoza.avanzagrupo.com/tarifas-y-titulos/"
+  }
+ ]
+}
+
+===== KART 3/14: zaragoza:abono-30-90-365-alma-zaragoza =====
+{
+ "entry_id": "zaragoza:abono-30-90-365-alma-zaragoza",
+ "city_id": "zaragoza",
+ "slug": "abono-30-90-365-alma-zaragoza",
+ "title": "Zaragoza'da 30, 90 ve 365 günlük sınırsız otobüs ve tramvay abonmanı nasıl alınır?",
+ "subtitle": "Abono 30: 29,05 €, Abono 90: 76,35 €, Abono 365: 262,10 €; ilk alış Paseo Independencia 24-26'daki Avanza ofisinde, kimlik ve fotoğrafla",
+ "summary": "Abono 30 29,05 €, Abono 90 76,35 €, Abono 365 262,10 €'dur (1 Ocak 2026'dan beri); sınırsız yolculuk verir, kişiseldir ve devredilemez. İlk alışta Paseo Independencia 24-26'daki C.C. Independencia (El Caracol) alışveriş merkezinin -1. katındaki Avanza Müşteri Hizmetleri Ofisi'ne gitmen gerekir; kimliğini (DNI, NIE veya pasaport) ve yüz fotoğrafını götürürsün. Önce çevrim içi ön kayıt yaparsan ertesi günden itibaren doğrudan ofise gidip ödemeni yapar ve abonmanını alırsın. Nakit ya da kartla ödenir. Abonman şehir otobüsü, tramvay ve belediyenin diğer hatlarında geçerlidir.",
+ "keywords": "abonman, abono 30, abono 90, abono 365, Avanza Zaragoza, sınırsız otobüs, El Caracol, tramvay abonmanı",
+ "stages": "new;settled",
+ "source_ids": "zaragoza:kaynak:235;zaragoza:kaynak:236",
+ "reviewed_on": "2026-11-02",
+ "order": 1002,
+ "featured": "Hayır",
+ "editorial_status": "Taslak",
+ "topic_id": "zaragoza:ulasim",
+ "steps": "İstersen Avanza'nın sitesinden çevrim içi ön kayıt (preinscripción) yap; ertesi günden itibaren doğrudan ofise gidebilirsin.\nPaseo Independencia 24-26, -1. kattaki Avanza Müşteri Hizmetleri Ofisi'ne git; ofis hafta içi iş günlerinde 9:30-14:00 ve 17:00-20:00 arası açıktır.\nKimliğini (DNI, NIE veya pasaport) ve yüz fotoğrafını ver; ödemeyi nakit ya da kartla yap.\nAbonman geçerliyken yeni yükleme yapabilirsin: ikinci yükleme birincisi bitince devreye girer. Yüklemeyi çevrim içi ya da yükleme noktalarında yaparsın.\nSüre, yükleme gününden değil ilk kullandığın günden itibaren sayılır.\nKaybolan, çalınan ya da kötü kullanımdan bozulan abonman için kopya 4 €'dur (nakit).",
+ "documents": "DNI, NIE veya pasaport\nYüz fotoğrafı",
+ "timing": "Süre ilk kullanımdan başlar: 30, 90 ya da 365 gün. Çevrim içi ön kayıttan ertesi gün ofise gidilebilir",
+ "cost": "Abono 30: 29,05 €; Abono 90: 76,35 €; Abono 365: 262,10 € (1 Ocak 2026'dan beri). Kopya: 4 €",
+ "note": "Abonmanda aktarma kavramı yoktur, çünkü yolculuk sınırsızdır; abonmanı yalnız sahibi kullanabilir. Yüklemeyi iade etmek için yüklemenin henüz aktive edilmemiş olması ve işlem fişi gerekir.",
+ "visual_json": "",
+ "_sekme": "Yanıtlar",
+ "kaynaklar": [
+  {
+   "source_id": "zaragoza:kaynak:235",
+   "url": "https://zaragoza.avanzagrupo.com/tarifas-y-titulos/",
+   "publisher": "Avanza Zaragoza (işletmeci)",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_ulasim/939dd2d99feac3c061d4a8120e56ab7c1144f92da70632dd51c4b33f1e0077ba.txt"
+  },
+  {
+   "source_id": "zaragoza:kaynak:236",
+   "url": "https://zaragoza.avanzagrupo.com/bonificaciones-en-titulos/",
+   "publisher": "Avanza Zaragoza",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_ulasim/84851bb1d6af5c480194f3a413bed50ba9f08a024cd0984f79b98deff275dd0a.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-abono-30-90-365-alma-zaragoza-1",
+   "field": "cost",
+   "claim": "Abono 30 29,05 €",
+   "value": "29,05",
+   "unit": "EUR",
+   "period": "2026",
+   "source_id": "zaragoza:kaynak:235",
+   "quote": "Abono de 30 días: 29,05€"
+  },
+  {
+   "claim_id": "C-abono-30-90-365-alma-zaragoza-2",
+   "field": "cost",
+   "claim": "Abono 90 76,35 €",
+   "value": "76,35",
+   "unit": "EUR",
+   "period": "2026",
+   "source_id": "zaragoza:kaynak:235",
+   "quote": "Abono de 90 días: 76,35€"
+  },
+  {
+   "claim_id": "C-abono-30-90-365-alma-zaragoza-3",
+   "field": "cost",
+   "claim": "Abono 365 262,10 €",
+   "value": "262,10",
+   "unit": "EUR",
+   "period": "2026",
+   "source_id": "zaragoza:kaynak:235",
+   "quote": "Abono de 365 días: 262,10€"
+  },
+  {
+   "claim_id": "C-abono-30-90-365-alma-zaragoza-4",
+   "field": "cost",
+   "claim": "Tarifler 1 Ocak 2026'dan beri",
+   "value": "",
+   "unit": "",
+   "period": "2026",
+   "source_id": "zaragoza:kaynak:235",
+   "quote": "Desde el 1 de enero de 2026."
+  },
+  {
+   "claim_id": "C-abono-30-90-365-alma-zaragoza-5",
+   "field": "summary",
+   "claim": "Abonman sınırsız yolculuk verir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:235",
+   "quote": "Permite viajes ilimitados."
+  },
+  {
+   "claim_id": "C-abono-30-90-365-alma-zaragoza-6",
+   "field": "summary",
+   "claim": "Abonman kişiseldir ve devredilemez",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:235",
+   "quote": "Tarjeta personal e intransferible."
+  },
+  {
+   "claim_id": "C-abono-30-90-365-alma-zaragoza-7",
+   "field": "summary",
+   "claim": "Şehir otobüsü, tramvay ve belediyenin diğer hatlarında geçerli",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:235",
+   "quote": "Válidos para el autobús urbano, el tranvía y otras líneas del Ayuntamiento de Zaragoza."
+  },
+  {
+   "claim_id": "C-abono-30-90-365-alma-zaragoza-8",
+   "field": "summary",
+   "claim": "İlk alış El Caracol'daki müşteri ofisinde, Paseo Independencia 24-26, -1. kat",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:235",
+   "quote": "es necesario acudir a la Oficina de Atención al Cliente situada en el C.C. Independencia (El Caracol) situado en P. Independencia 24-26, planta -1"
+  },
+  {
+   "claim_id": "C-abono-30-90-365-alma-zaragoza-9",
+   "field": "documents",
+   "claim": "İlk alışta DNI, NIE veya pasaport ve yüz fotoğrafı gerekir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:235",
+   "quote": "Necesitaremos el DNI, NIE o pasaporte y foto de rostro."
+  },
+  {
+   "claim_id": "C-abono-30-90-365-alma-zaragoza-10",
+   "field": "summary",
+   "claim": "Çevrim içi ön kayıtla ertesi günden itibaren ofise gidilebilir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:235",
+   "quote": "Se puede realizar la preinscripción online y así acudir directamente a partir del día siguiente a la oficina"
+  },
+  {
+   "claim_id": "C-abono-30-90-365-alma-zaragoza-11",
+   "field": "summary",
+   "claim": "Ödeme nakit ya da kartla",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:235",
+   "quote": "Se puede pagar en efectivo y con tarjeta."
+  },
+  {
+   "claim_id": "C-abono-30-90-365-alma-zaragoza-12",
+   "field": "steps",
+   "claim": "Süre ilk kullanımdan itibaren sayılır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:235",
+   "quote": "los cuales comienzan a contar desde el primer uso, independientemente del día en que se hace la recarga"
+  },
+  {
+   "claim_id": "C-abono-30-90-365-alma-zaragoza-13",
+   "field": "steps",
+   "claim": "İkinci yükleme birincisi bitince etkinleşir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:235",
+   "quote": "esa segunda recarga se activará cuando finalice la actual"
+  },
+  {
+   "claim_id": "C-abono-30-90-365-alma-zaragoza-14",
+   "field": "cost",
+   "claim": "Kopya abonman 4 €, nakit",
+   "value": "4",
+   "unit": "EUR",
+   "period": "",
+   "source_id": "zaragoza:kaynak:235",
+   "quote": "de 4 euros a pagar en efectivo"
+  },
+  {
+   "claim_id": "C-abono-30-90-365-alma-zaragoza-15",
+   "field": "note",
+   "claim": "Abonmanda aktarma yok; yalnız sahibi kullanır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:235",
+   "quote": "Solo puede utilizar el abono el propietario del mismo."
+  },
+  {
+   "claim_id": "C-abono-30-90-365-alma-zaragoza-16",
+   "field": "note",
+   "claim": "Yükleme iadesi için aktive edilmemiş olmalı ve fiş gerekir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:235",
+   "quote": "Si se desea devolver la recarga es obligatorio que ésta no esté activada y presentar el ticket o comprobante de la operación."
+  },
+  {
+   "claim_id": "C-abono-30-90-365-alma-zaragoza-17",
+   "field": "steps",
+   "claim": "Ofis hafta içi 9:30-14:00 ve 17:00-20:00 açık",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:236",
+   "quote": "en horario lunes a viernes (laborables) de 9:30 a 14:00 horas y de 17:00 a 20:00 horas"
+  },
+  {
+   "claim_id": "C-abono-30-90-365-alma-zaragoza-18",
+   "field": "steps",
+   "claim": "Yükleme çevrim içi ya da yükleme noktalarında yapılır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:235",
+   "quote": "Puede hacerse online o en los puntos de recarga establecidos (oficina de atención al cliente incluida)."
+  }
+ ],
+ "adimlar": [],
+ "butonlar": [
+  {
+   "action_id": "zaragoza:action:abono-30-90-365-alma-zaragoza-1",
+   "label": "Tarifeyi gör",
+   "url": "https://zaragoza.avanzagrupo.com/tarifas-y-titulos/"
+  },
+  {
+   "action_id": "zaragoza:action:abono-30-90-365-alma-zaragoza-2",
+   "label": "Bilgi al",
+   "url": "https://zaragoza.avanzagrupo.com/bonificaciones-en-titulos/"
+  }
+ ]
+}
+
+===== KART 4/14: zaragoza:abono-30-gelire-gore-indirim-zaragoza =====
+{
+ "entry_id": "zaragoza:abono-30-gelire-gore-indirim-zaragoza",
+ "city_id": "zaragoza",
+ "slug": "abono-30-gelire-gore-indirim-zaragoza",
+ "title": "Zaragoza'da gelire göre indirimli Abono 30 (23,25 €) kimlere verilir ve nasıl alınır?",
+ "subtitle": "Zaragoza'da nüfus kaydı şart; hane geliri tek ebeveynli hanede en çok 15.000 €, diğerlerinde 30.000 €; belgeler Avanza ofisine götürülür",
+ "summary": "Gelire göre indirimli Abono 30 23,25 €'dur. Zaragoza belediye sınırlarında nüfus kaydın (empadronamiento) olmalı, hane üyelerinden hiçbiri Ekonomik Faaliyetler Vergisi'ne (IAE) kayıtlı olmamalı ve hane geliri tek ebeveynli hanede 15.000 €'yu, diğer hanelerde 30.000 €'yu aşmamalıdır (iki eşin geliri birlikte sayılır). Belgeleri Paseo Independencia 24-26'daki Avanza müşteri ofisine -1. kata götürürsün. Bu indirim büyük aile indirimiyle bir arada verilmez. İndirim bir yıl geçerlidir.",
+ "keywords": "gelire göre indirim, abono 30, bonificado por renta, empadronamiento, IRPF, Avanza, düşük gelir abonman",
+ "stages": "new;settled",
+ "source_ids": "zaragoza:kaynak:236",
+ "reviewed_on": "2026-11-02",
+ "order": 1003,
+ "featured": "Hayır",
+ "editorial_status": "Taslak",
+ "topic_id": "zaragoza:ulasim",
+ "steps": "Güncel nüfus kayıt belgeni (volante de empadronamiento) al; düzenlendiği tarihten itibaren 3 ay geçerlidir.\nSon gelir vergisi (IRPF) beyannamenin fotokopisini hazırla; yoksa Hacienda'dan son yıla ait IRPF imputaciones belgesi iste.\nDNI ya da NIE fotokopini, yüz fotoğrafını (daha önce abonmanın varsa kişisel kartını) ve aile cüzdanını ya da ofiste dolduracağın medeni hal beyanını hazırla.\nTüm belgeleri Paseo Independencia 24-26'daki (El Caracol, -1. kat) Avanza ofisine götür; ofis hafta içi 9:30-14:00 ve 17:00-20:00 arası açıktır.\n8-13 yaşındaki çocukların için aile cüzdanı ve bağlı olduğu indirimli abonmanla aynı indirimi isteyebilirsin.",
+ "documents": "DNI ya da NIE fotokopisi\nYüz fotoğrafı ya da kişisel ulaşım kartı\nSon gelir vergisi (IRPF) beyannamesinin fotokopisi; yoksa Hacienda'dan IRPF imputaciones belgesi\nGüncel nüfus kayıt belgesi (volante de empadronamiento, düzenlendiği tarihten itibaren 3 ay geçerli)\nAile cüzdanı ya da ofiste doldurulan medeni hal beyanı",
+ "timing": "İndirim her onay tarihinden itibaren bir yıl geçerli; bu sürede indirimli yükleme ve yenileme için ek işlem gerekmez",
+ "cost": "Abono 30: 23,25 € (1 Ocak 2026'dan beri)",
+ "note": "Çocukların için indirimin süresi, bağlı olduğu indirimli abonmanınkiyle aynıdır.",
+ "visual_json": "",
+ "_sekme": "Yanıtlar",
+ "kaynaklar": [
+  {
+   "source_id": "zaragoza:kaynak:236",
+   "url": "https://zaragoza.avanzagrupo.com/bonificaciones-en-titulos/",
+   "publisher": "Avanza Zaragoza",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_ulasim/84851bb1d6af5c480194f3a413bed50ba9f08a024cd0984f79b98deff275dd0a.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-abono-30-gelire-gore-indirim-zaragoza-1",
+   "field": "cost",
+   "claim": "Gelire göre indirimli Abono 30 23,25 €",
+   "value": "23,25",
+   "unit": "EUR",
+   "period": "2026",
+   "source_id": "zaragoza:kaynak:236",
+   "quote": "Precio: 23,25€"
+  },
+  {
+   "claim_id": "C-abono-30-gelire-gore-indirim-zaragoza-2",
+   "field": "summary",
+   "claim": "Zaragoza belediye sınırında nüfus kaydı şart",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:236",
+   "quote": "Estar empadronado en el término municipal de Zaragoza."
+  },
+  {
+   "claim_id": "C-abono-30-gelire-gore-indirim-zaragoza-3",
+   "field": "summary",
+   "claim": "Hane üyelerinden hiçbiri IAE'ye kayıtlı olmamalı",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:236",
+   "quote": "No estar dado de alta, ninguno de los miembros de la unidad familiar, en el Impuesto de Actividades Económicas."
+  },
+  {
+   "claim_id": "C-abono-30-gelire-gore-indirim-zaragoza-4",
+   "field": "summary",
+   "claim": "Tek ebeveynli hanede gelir sınırı 15.000 €",
+   "value": "15.000",
+   "unit": "EUR",
+   "period": "",
+   "source_id": "zaragoza:kaynak:236",
+   "quote": "Unidades familiares monoparentales: 15.000€."
+  },
+  {
+   "claim_id": "C-abono-30-gelire-gore-indirim-zaragoza-5",
+   "field": "summary",
+   "claim": "Diğer hanelerde gelir sınırı 30.000 €, iki eşin geliri birlikte",
+   "value": "30.000",
+   "unit": "EUR",
+   "period": "",
+   "source_id": "zaragoza:kaynak:236",
+   "quote": "Resto de unidades familiares: 30.000€, computadas las rentas de los dos miembros."
+  },
+  {
+   "claim_id": "C-abono-30-gelire-gore-indirim-zaragoza-6",
+   "field": "summary",
+   "claim": "Büyük aile indirimiyle bağdaşmaz",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:236",
+   "quote": "esta bonificación es incompatible con las que se concede a las familias numerosas"
+  },
+  {
+   "claim_id": "C-abono-30-gelire-gore-indirim-zaragoza-7",
+   "field": "timing",
+   "claim": "İndirim her onaydan itibaren bir yıl geçerli",
+   "value": "1",
+   "unit": "yıl",
+   "period": "",
+   "source_id": "zaragoza:kaynak:236",
+   "quote": "tendrá una vigencia de un año desde la fecha de cada concesión"
+  },
+  {
+   "claim_id": "C-abono-30-gelire-gore-indirim-zaragoza-8",
+   "field": "steps",
+   "claim": "Nüfus kayıt belgesi düzenlendiği tarihten 3 ay geçerli",
+   "value": "3",
+   "unit": "ay",
+   "period": "",
+   "source_id": "zaragoza:kaynak:236",
+   "quote": "Volante de empadronamiento actualizado (vigente 3 meses desde la fecha de emisión)."
+  },
+  {
+   "claim_id": "C-abono-30-gelire-gore-indirim-zaragoza-9",
+   "field": "steps",
+   "claim": "Son IRPF beyannamesi fotokopisi",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:236",
+   "quote": "Fotocopia de la última declaración presentada del Impuesto sobre la Renta de las Personas Físicas"
+  },
+  {
+   "claim_id": "C-abono-30-gelire-gore-indirim-zaragoza-10",
+   "field": "steps",
+   "claim": "Beyanname yoksa Hacienda'dan IRPF imputaciones belgesi",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:236",
+   "quote": "certificado de imputaciones del IRPF (solicitar en Hacienda)"
+  },
+  {
+   "claim_id": "C-abono-30-gelire-gore-indirim-zaragoza-11",
+   "field": "documents",
+   "claim": "DNI ya da NIE (yabancılar için) fotokopisi",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:236",
+   "quote": "Fotocopia del DNI o NIE (extranjeros)."
+  },
+  {
+   "claim_id": "C-abono-30-gelire-gore-indirim-zaragoza-12",
+   "field": "documents",
+   "claim": "Yüz fotoğrafı ya da daha önceki kişisel kart",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:236",
+   "quote": "Fotografía actual de rostro o, si ya has tenido antes abono, la tarjeta personal de transporte."
+  },
+  {
+   "claim_id": "C-abono-30-gelire-gore-indirim-zaragoza-13",
+   "field": "documents",
+   "claim": "Aile cüzdanı ya da ofiste doldurulan medeni hal beyanı",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:236",
+   "quote": "Libro de familia o declaración jurada del estado civil a cumplimentar en la oficina de atención al cliente de Avanza en Zaragoza."
+  },
+  {
+   "claim_id": "C-abono-30-gelire-gore-indirim-zaragoza-14",
+   "field": "steps",
+   "claim": "Belgeler Paseo Independencia 24-26, -1. kattaki Avanza ofisine verilir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:236",
+   "quote": "situada en el Centro Comercial Independencia «El Caracol» en el Paseo Independencia 24-26, planta -1"
+  },
+  {
+   "claim_id": "C-abono-30-gelire-gore-indirim-zaragoza-15",
+   "field": "steps",
+   "claim": "Ofis hafta içi 9:30-14:00 ve 17:00-20:00 açık",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:236",
+   "quote": "en horario lunes a viernes (laborables) de 9:30 a 14:00 horas y de 17:00 a 20:00 horas"
+  },
+  {
+   "claim_id": "C-abono-30-gelire-gore-indirim-zaragoza-16",
+   "field": "steps",
+   "claim": "8-13 yaş çocuklara aynı indirim verilir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:236",
+   "quote": "A los hijos de los beneficiarios de la bonificación que lo soliciten se les concederá la misma bonificación que al titular de la misma."
+  },
+  {
+   "claim_id": "C-abono-30-gelire-gore-indirim-zaragoza-17",
+   "field": "note",
+   "claim": "Çocukların indirim süresi bağlı abonmanla aynı",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:236",
+   "quote": "El plazo de vigencia de la bonificación será el mismo que el del abono 30 bonificado por renta a la que esté vinculada."
+  }
+ ],
+ "adimlar": [],
+ "butonlar": [
+  {
+   "action_id": "zaragoza:action:abono-30-gelire-gore-indirim-zaragoza-1",
+   "label": "Bilgi al",
+   "url": "https://zaragoza.avanzagrupo.com/bonificaciones-en-titulos/"
+  }
+ ]
+}
+
+===== KART 5/14: zaragoza:abono-genc-buyuk-aile-engelli-indirimi-zaragoza =====
+{
+ "entry_id": "zaragoza:abono-genc-buyuk-aile-engelli-indirimi-zaragoza",
+ "city_id": "zaragoza",
+ "slug": "abono-genc-buyuk-aile-engelli-indirimi-zaragoza",
+ "title": "Zaragoza'da Carné Joven, büyük aile ya da engelli indirimiyle abonman ne kadar tutar?",
+ "subtitle": "Carné Joven (30 yaş altı) Abono 90'da 47,95 €, Abono 365'te 164,50 €; büyük aile ve %33+ engelde 26,70 / 64,65 / 223,25 €",
+ "summary": "Geçerli Carné Joven'in varsa ve 30 yaşından küçüksen Abono 90 47,95 €, Abono 365 164,50 € olur; Abono 30'da Carné Joven indirimi yoktur. Büyük aile (Familia Numerosa) belgesiyle Abono 30 26,70 €, Abono 90 64,65 €, Abono 365 223,25 €'dur (normal tarifeye %15 indirim). Carné Joven ile büyük aile birlikteyse Abono 90 40,45 €, Abono 365 140,25 € tutar. %33 ve üzeri engel oranında fiyatlar büyük ailedekiyle aynıdır; engel indirimi başka indirimlerle birleşmez. Her durumda belgelerle Paseo Independencia 24-26'daki Avanza ofisine gidersin.",
+ "keywords": "Carné Joven, familia numerosa, büyük aile, engelli indirimi, abono bonificado, abono 90, abono 365, gençlik indirimi",
+ "stages": "new;settled",
+ "source_ids": "zaragoza:kaynak:235;zaragoza:kaynak:236",
+ "reviewed_on": "2026-11-02",
+ "order": 1004,
+ "featured": "Hayır",
+ "editorial_status": "Taslak",
+ "topic_id": "zaragoza:ulasim",
+ "steps": "Carné Joven indirimi için fiziksel ya da dijital orijinal Carné Joven'ini götür; 30 yaşından küçük olman gerekir.\nBüyük aile indirimi için bireysel Familia Numerosa kartını ya da büyük aile cüzdanını götür.\nEngel indirimi için %33 ve üzeri engel oranını gösteren ulusal ya da Avrupa engelli kartını ya da yetkili kurumun engel derecesi kararını götür.\nHer durumda kimliğini (DNI; engel indiriminde DNI ya da orijinal NIE) ve yüz fotoğrafını (daha önce abonmanın varsa kişisel kartını) Paseo Independencia 24-26, -1. kattaki Avanza ofisine götür.\nCarné Joven ya da büyük aile belgen yenilendiğinde belgeyi ofise yeniden göster; yoksa indirim sürmez.",
+ "documents": "DNI (engel indiriminde DNI ya da orijinal NIE)\nYüz fotoğrafı ya da daha önceki kişisel ulaşım kartı\nCarné Joven (fiziksel ya da dijital orijinal), büyük aile kartı veya cüzdanı ya da engel kartı / engel derecesi kararı",
+ "timing": "Carné Joven ya da büyük aile belgesi her yenilendiğinde ofiste yeniden gösterilir",
+ "cost": "Carné Joven: Abono 90 47,95 €, Abono 365 164,50 €. Büyük aile ve engel (%33+): Abono 30 26,70 €, Abono 90 64,65 €, Abono 365 223,25 €. Carné Joven + büyük aile: Abono 90 40,45 €, Abono 365 140,25 € (1 Ocak 2026'dan beri)",
+ "note": "Engel indirimi başka hiçbir indirimle birleşmez. Ulusal engelli kartı, hangi özerk toplulukta düzenlenmiş olursa olsun kabul edilir.",
+ "visual_json": "",
+ "_sekme": "Yanıtlar",
+ "kaynaklar": [
+  {
+   "source_id": "zaragoza:kaynak:235",
+   "url": "https://zaragoza.avanzagrupo.com/tarifas-y-titulos/",
+   "publisher": "Avanza Zaragoza (işletmeci)",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_ulasim/939dd2d99feac3c061d4a8120e56ab7c1144f92da70632dd51c4b33f1e0077ba.txt"
+  },
+  {
+   "source_id": "zaragoza:kaynak:236",
+   "url": "https://zaragoza.avanzagrupo.com/bonificaciones-en-titulos/",
+   "publisher": "Avanza Zaragoza",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_ulasim/84851bb1d6af5c480194f3a413bed50ba9f08a024cd0984f79b98deff275dd0a.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-abono-genc-buyuk-aile-engelli-indirimi-zaragoza-1",
+   "field": "cost",
+   "claim": "Carné Joven ile Abono 90 47,95 €",
+   "value": "47,95",
+   "unit": "EUR",
+   "period": "2026",
+   "source_id": "zaragoza:kaynak:235",
+   "quote": "Carné Joven: 47,95€"
+  },
+  {
+   "claim_id": "C-abono-genc-buyuk-aile-engelli-indirimi-zaragoza-2",
+   "field": "cost",
+   "claim": "Carné Joven ile Abono 365 164,50 €",
+   "value": "164,50",
+   "unit": "EUR",
+   "period": "2026",
+   "source_id": "zaragoza:kaynak:235",
+   "quote": "Carné Joven: 164,50€"
+  },
+  {
+   "claim_id": "C-abono-genc-buyuk-aile-engelli-indirimi-zaragoza-3",
+   "field": "cost",
+   "claim": "Carné Joven + büyük aile ile Abono 90 40,45 €",
+   "value": "40,45",
+   "unit": "EUR",
+   "period": "2026",
+   "source_id": "zaragoza:kaynak:235",
+   "quote": "Carné Joven + Familia Numerosa: 40,45€"
+  },
+  {
+   "claim_id": "C-abono-genc-buyuk-aile-engelli-indirimi-zaragoza-4",
+   "field": "cost",
+   "claim": "Carné Joven + büyük aile ile Abono 365 140,25 €",
+   "value": "140,25",
+   "unit": "EUR",
+   "period": "2026",
+   "source_id": "zaragoza:kaynak:235",
+   "quote": "Carné Joven + Familia Numerosa: 140,25€"
+  },
+  {
+   "claim_id": "C-abono-genc-buyuk-aile-engelli-indirimi-zaragoza-5",
+   "field": "cost",
+   "claim": "Büyük aile ile Abono 30 26,70 €",
+   "value": "26,70",
+   "unit": "EUR",
+   "period": "2026",
+   "source_id": "zaragoza:kaynak:235",
+   "quote": "Familia Numerosa: 26,70€"
+  },
+  {
+   "claim_id": "C-abono-genc-buyuk-aile-engelli-indirimi-zaragoza-6",
+   "field": "cost",
+   "claim": "Büyük aile ile Abono 90 64,65 €",
+   "value": "64,65",
+   "unit": "EUR",
+   "period": "2026",
+   "source_id": "zaragoza:kaynak:235",
+   "quote": "Familia Numerosa: 64,65€"
+  },
+  {
+   "claim_id": "C-abono-genc-buyuk-aile-engelli-indirimi-zaragoza-7",
+   "field": "cost",
+   "claim": "Büyük aile ile Abono 365 223,25 €",
+   "value": "223,25",
+   "unit": "EUR",
+   "period": "2026",
+   "source_id": "zaragoza:kaynak:235",
+   "quote": "Familia Numerosa: 223,25€"
+  },
+  {
+   "claim_id": "C-abono-genc-buyuk-aile-engelli-indirimi-zaragoza-8",
+   "field": "cost",
+   "claim": "Engel (%33+) ile Abono 30 26,70 €",
+   "value": "26,70",
+   "unit": "EUR",
+   "period": "2026",
+   "source_id": "zaragoza:kaynak:235",
+   "quote": "Discapacidad igual o mayor 33%: 26,70€"
+  },
+  {
+   "claim_id": "C-abono-genc-buyuk-aile-engelli-indirimi-zaragoza-9",
+   "field": "cost",
+   "claim": "Engel (%33+) ile Abono 90 64,65 €",
+   "value": "64,65",
+   "unit": "EUR",
+   "period": "2026",
+   "source_id": "zaragoza:kaynak:235",
+   "quote": "Discapacidad igual o mayor 33%: 64,65€"
+  },
+  {
+   "claim_id": "C-abono-genc-buyuk-aile-engelli-indirimi-zaragoza-10",
+   "field": "cost",
+   "claim": "Engel (%33+) ile Abono 365 223,25 €",
+   "value": "223,25",
+   "unit": "EUR",
+   "period": "2026",
+   "source_id": "zaragoza:kaynak:235",
+   "quote": "Discapacidad igual o mayor 33%: 223,25€"
+  },
+  {
+   "claim_id": "C-abono-genc-buyuk-aile-engelli-indirimi-zaragoza-11",
+   "field": "summary",
+   "claim": "Abono 30'da Carné Joven indirimi yok",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:236",
+   "quote": "No aplica bonificación"
+  },
+  {
+   "claim_id": "C-abono-genc-buyuk-aile-engelli-indirimi-zaragoza-12",
+   "field": "summary",
+   "claim": "Carné Joven indirimi: geçerli kart ve 30 yaş altı",
+   "value": "30",
+   "unit": "yaş",
+   "period": "",
+   "source_id": "zaragoza:kaynak:236",
+   "quote": "Se puede beneficiar toda persona que disponga de Carné Joven vigente y sea menor de 30 años."
+  },
+  {
+   "claim_id": "C-abono-genc-buyuk-aile-engelli-indirimi-zaragoza-13",
+   "field": "summary",
+   "claim": "Büyük aile indirimi normal tarifeye %15",
+   "value": "15",
+   "unit": "%",
+   "period": "",
+   "source_id": "zaragoza:kaynak:236",
+   "quote": "La bonificación de familia numerosa es del 15% sobre la tarifa regular de los abonos 30 – 90 – 365."
+  },
+  {
+   "claim_id": "C-abono-genc-buyuk-aile-engelli-indirimi-zaragoza-14",
+   "field": "summary",
+   "claim": "Engel indirimi %33 ve üzeri engel oranı için",
+   "value": "33",
+   "unit": "%",
+   "period": "",
+   "source_id": "zaragoza:kaynak:236",
+   "quote": "Se puede beneficiar toda persona que tenga una discapacidad mayor o igual al 33%."
+  },
+  {
+   "claim_id": "C-abono-genc-buyuk-aile-engelli-indirimi-zaragoza-15",
+   "field": "note",
+   "claim": "Engel indirimi başka indirimle birleşmez",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:236",
+   "quote": "Esta bonificación no es acumulable a ninguna otra."
+  },
+  {
+   "claim_id": "C-abono-genc-buyuk-aile-engelli-indirimi-zaragoza-16",
+   "field": "documents",
+   "claim": "Carné Joven fiziksel ya da dijital orijinal",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:236",
+   "quote": "Carné Joven físico o digital original."
+  },
+  {
+   "claim_id": "C-abono-genc-buyuk-aile-engelli-indirimi-zaragoza-17",
+   "field": "documents",
+   "claim": "Büyük aile bireysel kartı ya da cüzdanı",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:236",
+   "quote": "Carné individual de Familia numerosa o libro de familia numerosa en el que figura."
+  },
+  {
+   "claim_id": "C-abono-genc-buyuk-aile-engelli-indirimi-zaragoza-18",
+   "field": "documents",
+   "claim": "Engel indirimi: DNI veya orijinal NIE",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:236",
+   "quote": "DNI o NIE original."
+  },
+  {
+   "claim_id": "C-abono-genc-buyuk-aile-engelli-indirimi-zaragoza-19",
+   "field": "documents",
+   "claim": "Ulusal ya da Avrupa engelli kartı ya da engel derecesi kararı; her özerk toplulukta düzenlenmiş olabilir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:236",
+   "quote": "Tarjeta de discapacidad nacional (expedida en cualquier Comunidad Autónoma) o europea o la resolución del grado de discapacidad expedido por el órgano competente en la materia."
+  },
+  {
+   "claim_id": "C-abono-genc-buyuk-aile-engelli-indirimi-zaragoza-20",
+   "field": "steps",
+   "claim": "İndirim sürmesi için yenilenen belge ofiste yeniden gösterilir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:236",
+   "quote": "Cada vez que se renueve el Carné Joven o de Familia numerosa será necesario presentarlo nuevamente en la oficina para que la bonificación se mantenga."
+  },
+  {
+   "claim_id": "C-abono-genc-buyuk-aile-engelli-indirimi-zaragoza-21",
+   "field": "steps",
+   "claim": "Fotoğraf ya da daha önceki kişisel kart",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:236",
+   "quote": "Fotografía actual de rostro o, si ya has tenido antes abono, la tarjeta personal de transporte."
+  },
+  {
+   "claim_id": "C-abono-genc-buyuk-aile-engelli-indirimi-zaragoza-22",
+   "field": "steps",
+   "claim": "Belgeler Paseo Independencia 24-26, -1. kattaki ofise teslim edilir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:236",
+   "quote": "Paseo Independencia 24-26, planta -1"
+  },
+  {
+   "claim_id": "C-abono-genc-buyuk-aile-engelli-indirimi-zaragoza-23",
+   "field": "documents",
+   "claim": "Kimlik: DNI",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:236",
+   "quote": "DNI."
+  }
+ ],
+ "adimlar": [],
+ "butonlar": [
+  {
+   "action_id": "zaragoza:action:abono-genc-buyuk-aile-engelli-indirimi-zaragoza-1",
+   "label": "Bilgi al",
+   "url": "https://zaragoza.avanzagrupo.com/bonificaciones-en-titulos/"
+  },
+  {
+   "action_id": "zaragoza:action:abono-genc-buyuk-aile-engelli-indirimi-zaragoza-2",
+   "label": "Tarifeyi gör",
+   "url": "https://zaragoza.avanzagrupo.com/tarifas-y-titulos/"
+  }
+ ]
+}
+
+===== KART 6/14: zaragoza:abono-infantil-8-14-ucretsiz-zaragoza =====
+{
+ "entry_id": "zaragoza:abono-infantil-8-14-ucretsiz-zaragoza",
+ "city_id": "zaragoza",
+ "slug": "abono-infantil-8-14-ucretsiz-zaragoza",
+ "title": "Zaragoza'da 8-14 yaş çocuklar için ücretsiz otobüs ve tramvay abonmanı nasıl alınır?",
+ "subtitle": "Abono infantil 31 Aralık 2026'ya kadar ücretsiz; kimlik, aile cüzdanı fotokopisi, form ve fotoğrafla Avanza ofisine başvurulur",
+ "summary": "8 ile 14 yaş arasındaki çocuklar için Avanza'nın çocuk abonmanı (abono infantil) 31 Aralık 2026'ya kadar ücretsizdir; kişiseldir ve devredilemez, uygulama 1 Temmuz 2025'te başladı. Başvuru için çocuğun kimliği (DNI, pasaport veya NIE), aile cüzdanı ya da Medeni Kayıt (Registro Civil) belgesinin fotokopisi, doldurulmuş başvuru formu ve çocuğun güncel yüz fotoğrafıyla Paseo Independencia 24-26'daki Avanza müşteri ofisine (-1. kat) gidersin. Yenilemek için yalnızca kartı ofise götürmen yeterlidir.",
+ "keywords": "abono infantil, çocuk abonmanı, ücretsiz abonman, 8-14 yaş, Avanza, libro de familia, çocuk otobüs kartı",
+ "stages": "new;settled",
+ "source_ids": "zaragoza:kaynak:236;zaragoza:kaynak:235",
+ "reviewed_on": "2026-11-02",
+ "order": 1005,
+ "featured": "Hayır",
+ "editorial_status": "Taslak",
+ "topic_id": "zaragoza:ulasim",
+ "steps": "Çocuğun kimlik belgesini (DNI, pasaport veya NIE) hazırla.\nAile cüzdanının ya da Medeni Kayıt belgesinin fotokopisini al; bu belge zorunludur.\nBaşvuru formunu doldur ve çocuğun güncel yüz fotoğrafını hazırla.\nTüm belgelerle Paseo Independencia 24-26'daki C.C. Independencia (El Caracol) -1. kattaki Avanza müşteri ofisine git; ofis hafta içi iş günlerinde 9:30-14:00 ve 17:00-20:00 arası açıktır.\nYenilemek için yalnızca çocuğun kartını ofise götür.",
+ "documents": "Çocuğun DNI, pasaport veya NIE'si\nAile cüzdanı ya da Medeni Kayıt belgesinin fotokopisi (zorunlu)\nDoldurulmuş abonman başvuru formu\nÇocuğun güncel yüz fotoğrafı",
+ "timing": "Ücretsizlik 31 Aralık 2026'ya kadar geçerli; uygulama 1 Temmuz 2025'te başladı",
+ "cost": "Ücretsiz (31 Aralık 2026'ya kadar)",
+ "note": "Abonman çocuğa özeldir, başkası kullanamaz.",
+ "visual_json": "",
+ "_sekme": "Yanıtlar",
+ "kaynaklar": [
+  {
+   "source_id": "zaragoza:kaynak:236",
+   "url": "https://zaragoza.avanzagrupo.com/bonificaciones-en-titulos/",
+   "publisher": "Avanza Zaragoza",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_ulasim/84851bb1d6af5c480194f3a413bed50ba9f08a024cd0984f79b98deff275dd0a.txt"
+  },
+  {
+   "source_id": "zaragoza:kaynak:235",
+   "url": "https://zaragoza.avanzagrupo.com/tarifas-y-titulos/",
+   "publisher": "Avanza Zaragoza (işletmeci)",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_ulasim/939dd2d99feac3c061d4a8120e56ab7c1144f92da70632dd51c4b33f1e0077ba.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-abono-infantil-8-14-ucretsiz-zaragoza-1",
+   "field": "cost",
+   "claim": "8-14 yaş çocuk abonmanı 31 Aralık 2026'ya kadar ücretsiz, kişisel ve devredilemez",
+   "value": "0",
+   "unit": "EUR",
+   "period": "31.12.2026'ya kadar",
+   "source_id": "zaragoza:kaynak:236",
+   "quote": "Gratuito para los niños de entre 8 y 14 años hasta el 31 de diciembre de 2026. Es personal e intransferible."
+  },
+  {
+   "claim_id": "C-abono-infantil-8-14-ucretsiz-zaragoza-2",
+   "field": "timing",
+   "claim": "Uygulama 1 Temmuz 2025'te başladı",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:236",
+   "quote": "Fecha de inicio, 1 de julio de 2025."
+  },
+  {
+   "claim_id": "C-abono-infantil-8-14-ucretsiz-zaragoza-3",
+   "field": "documents",
+   "claim": "DNI, pasaport veya NIE",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:236",
+   "quote": "DNI, pasaporte o NIE."
+  },
+  {
+   "claim_id": "C-abono-infantil-8-14-ucretsiz-zaragoza-4",
+   "field": "documents",
+   "claim": "Aile cüzdanı ya da Medeni Kayıt fotokopisi zorunlu",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:236",
+   "quote": "Obligatorio: fotocopia del Libro de Familia o del Registro Civil."
+  },
+  {
+   "claim_id": "C-abono-infantil-8-14-ucretsiz-zaragoza-5",
+   "field": "documents",
+   "claim": "Doldurulmuş abonman başvurusu",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:236",
+   "quote": "Solicitud de abono cumplimentada."
+  },
+  {
+   "claim_id": "C-abono-infantil-8-14-ucretsiz-zaragoza-6",
+   "field": "documents",
+   "claim": "Güncel yüz fotoğrafı",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:236",
+   "quote": "Fotografía actual de rostro."
+  },
+  {
+   "claim_id": "C-abono-infantil-8-14-ucretsiz-zaragoza-7",
+   "field": "steps",
+   "claim": "Yenilemek için kartı ofise götürmek yeterli",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:236",
+   "quote": "Para renovar el abono infantil solo es necesario llevar la propia tarjeta a la Oficina de Atención al Cliente."
+  },
+  {
+   "claim_id": "C-abono-infantil-8-14-ucretsiz-zaragoza-8",
+   "field": "steps",
+   "claim": "Ofis Paseo Independencia 24-26, -1. katta",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:236",
+   "quote": "Paseo Independencia 24-26, planta -1"
+  },
+  {
+   "claim_id": "C-abono-infantil-8-14-ucretsiz-zaragoza-9",
+   "field": "steps",
+   "claim": "Ofis hafta içi 9:30-14:00 ve 17:00-20:00 açık",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:236",
+   "quote": "en horario lunes a viernes (laborables) de 9:30 a 14:00 horas y de 17:00 a 20:00 horas"
+  },
+  {
+   "claim_id": "C-abono-infantil-8-14-ucretsiz-zaragoza-10",
+   "field": "cost",
+   "claim": "Tarife sayfasında 8-14 yaş çocuk abonmanı ücretsiz",
+   "value": "0",
+   "unit": "EUR",
+   "period": "2026",
+   "source_id": "zaragoza:kaynak:235",
+   "quote": "Abono infantil 8-14: gratuito"
+  }
+ ],
+ "adimlar": [],
+ "butonlar": [
+  {
+   "action_id": "zaragoza:action:abono-infantil-8-14-ucretsiz-zaragoza-1",
+   "label": "Bilgi al",
+   "url": "https://zaragoza.avanzagrupo.com/bonificaciones-en-titulos/"
+  }
+ ]
+}
+
+===== KART 7/14: zaragoza:ctaz-15-yas-alti-ucretsiz-metropoliten-kart =====
+{
+ "entry_id": "zaragoza:ctaz-15-yas-alti-ucretsiz-metropoliten-kart",
+ "city_id": "zaragoza",
+ "slug": "ctaz-15-yas-alti-ucretsiz-metropoliten-kart",
+ "title": "Zaragoza çevresindeki metropoliten otobüslerde 15 yaş altı çocuklar için ücretsiz kart nasıl alınır?",
+ "subtitle": "CTAZ'ın ücretsiz kartı metropoliten ve kırsal mahalle hatlarında geçer; tramvay, şehir otobüsü ve Cercanías için ayrı başvuru gerekir",
+ "summary": "15 yaş altı çocuklar için CTAZ (Zaragoza Bölgesi Ulaşım Konsorsiyumu) ücretsiz bir Tarjeta Lazo veriyor; kartla CTAZ'ın metropoliten hatlarında ve kırsal mahalle (barrios rurales) hatlarında ücretsiz yolculuk yaparsın. Kart Zaragoza tramvayında, şehir otobüslerinde ve Cercanías trenlerinde ücretsiz değildir; bunlar için tramvay, Avanza Zaragoza ve Renfe Cercanías'ın kendi başvuru kanallarından ayrıca ücretsizlik başvurusu yaparsın. Başvuru CTAZ sayfasındaki çevrim içi formla yapılır.",
+ "keywords": "CTAZ, 15 yaş altı, ücretsiz ulaşım, Tarjeta Lazo, metropoliten otobüs, barrios rurales, çocuk kartı",
+ "stages": "new;settled",
+ "source_ids": "zaragoza:kaynak:244",
+ "reviewed_on": "2026-11-02",
+ "order": 1006,
+ "featured": "Hayır",
+ "editorial_status": "Taslak",
+ "topic_id": "zaragoza:ulasim",
+ "steps": "CTAZ'ın sayfasındaki formu aç ve belge türünü seç: DNI, NIE ya da DNI'sı olmayan 15 yaş altı çocuk.\nÇocuğun DNI numarasını, adını, soyadını ve doğum tarihini yaz.\nÇocuğun fotoğrafını yükle: önden, açık fonlu, vesikalık, 5 x 7 cm eşdeğeri, 300 dpi, JPG, en çok 1 MB, RGB renk modunda. Kart üzerine bu fotoğraf basılır; uygun değilse kart zamanında çıkarılamaz.\nAile cüzdanının çocuğun göründüğü sayfasını yükle (gif, jpg, jpeg, png ya da pdf; en çok 5 MB).\nVelinin DNI/NIE numarasını, adını, telefonunu ve e-postasını ekle, veri işleme onayını ver ve gönder.\nÖn kayıttan sonra kartı CTAZ ofislerinden almanın yolu sana bildirilir.",
+ "documents": "Çocuğun DNI/NIE'si (ya da DNI'sı olmayan 15 yaş altı seçeneği)\nAile cüzdanının çocuğun olduğu sayfası\nVelinin DNI/NIE'si\nÇocuğun fotoğrafı (5 x 7 cm eşdeğeri, 300 dpi, JPG, en çok 1 MB)",
+ "timing": "Kartın teslim yolu ön kayıttan sonra bildirilir",
+ "cost": "Kart ücretsiz; kapsamdaki hatlarda yolculuk ücretsiz",
+ "note": "Kapsamdaki hatlar arasında havalimanı hattı L505 de var. Kart tramvayda, Zaragoza şehir otobüslerinde ve Cercanías'ta ücretsizlik sağlamaz.",
+ "visual_json": "",
+ "_sekme": "Yanıtlar",
+ "kaynaklar": [
+  {
+   "source_id": "zaragoza:kaynak:244",
+   "url": "https://www.ctaz.es/tramites/tarifa-gratuita-para-menores-de-15-anos/",
+   "publisher": "CTAZ",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_ulasim/19281a19f19b7296fdbf71fbdbd42fb255b4164d854d611f0ac6250f4cffeb65.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-ctaz-15-yas-alti-ucretsiz-metropoliten-kart-1",
+   "field": "summary",
+   "claim": "Kartla CTAZ hizmetlerinde ve kırsal mahalle hatlarında ücretsiz yolculuk",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:244",
+   "quote": "Las tarjetas permitirán viajar sin coste en los servicios del Consorcio de Transportes del Área de Zaragoza (CTAZ) y en las líneas de barrios rurales."
+  },
+  {
+   "claim_id": "C-ctaz-15-yas-alti-ucretsiz-metropoliten-kart-2",
+   "field": "summary",
+   "claim": "Kart tramvayda, şehir otobüsünde ve Cercanías'ta ücretsizlik sağlamaz",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:244",
+   "quote": "La gratuidad con esta tarjeta no se aplica en el tranvía, buses urbanos ni cercanías."
+  },
+  {
+   "claim_id": "C-ctaz-15-yas-alti-ucretsiz-metropoliten-kart-3",
+   "field": "summary",
+   "claim": "Tramvay, Avanza ve Renfe Cercanías için ilgili kurumun kanalından başvurulur",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:244",
+   "quote": "Tranvías de Zaragoza, Avanza Zaragoza (autobuses urbanos) y Renfe Cercanías"
+  },
+  {
+   "claim_id": "C-ctaz-15-yas-alti-ucretsiz-metropoliten-kart-4",
+   "field": "summary",
+   "claim": "Başvuru CTAZ sayfasında çevrim içi yapılır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:244",
+   "quote": "La tramitación se realiza de forma online en esta misma página."
+  },
+  {
+   "claim_id": "C-ctaz-15-yas-alti-ucretsiz-metropoliten-kart-5",
+   "field": "steps",
+   "claim": "Belge türü: DNI, NIE ya da DNI'sı olmayan 15 yaş altı",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:244",
+   "quote": "DNI NIE Menor 15 años sin DNI"
+  },
+  {
+   "claim_id": "C-ctaz-15-yas-alti-ucretsiz-metropoliten-kart-6",
+   "field": "steps",
+   "claim": "Fotoğraf 5 x 7 cm eşdeğeri, 300 dpi, JPG",
+   "value": "300",
+   "unit": "dpi",
+   "period": "",
+   "source_id": "zaragoza:kaynak:244",
+   "quote": "El tamaño debe ser equivalente a 5 x 7 cm, con resolución de 300 puntos por pulgada, en formato JPG."
+  },
+  {
+   "claim_id": "C-ctaz-15-yas-alti-ucretsiz-metropoliten-kart-7",
+   "field": "steps",
+   "claim": "Fotoğraf en çok 1 MB",
+   "value": "1",
+   "unit": "MB",
+   "period": "",
+   "source_id": "zaragoza:kaynak:244",
+   "quote": "El tamaño máximo admitido es de 1 Megabyte."
+  },
+  {
+   "claim_id": "C-ctaz-15-yas-alti-ucretsiz-metropoliten-kart-8",
+   "field": "steps",
+   "claim": "Fotoğraf RGB olmalı, CMYK kabul edilmez",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:244",
+   "quote": "El modo de color debe ser RGB"
+  },
+  {
+   "claim_id": "C-ctaz-15-yas-alti-ucretsiz-metropoliten-kart-9",
+   "field": "steps",
+   "claim": "Fotoğraf önden, açık fonda çekilmeli",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:244",
+   "quote": "debe estar tomada frontalmente contra fondo claro"
+  },
+  {
+   "claim_id": "C-ctaz-15-yas-alti-ucretsiz-metropoliten-kart-10",
+   "field": "steps",
+   "claim": "Fotoğraf uygun değilse kart zamanında çıkarılamaz",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:244",
+   "quote": "Si no cumple con los requisitos no se podrá realizar la emisión de la tarjeta en plazo."
+  },
+  {
+   "claim_id": "C-ctaz-15-yas-alti-ucretsiz-metropoliten-kart-11",
+   "field": "steps",
+   "claim": "Aile cüzdanı sayfası en çok 5 MB",
+   "value": "5",
+   "unit": "MB",
+   "period": "",
+   "source_id": "zaragoza:kaynak:244",
+   "quote": "Los archivos deben ser menores de 5 MB. Tipos de archivo permitidos: gif, jpg, jpeg, png, pdf."
+  },
+  {
+   "claim_id": "C-ctaz-15-yas-alti-ucretsiz-metropoliten-kart-12",
+   "field": "documents",
+   "claim": "Aile cüzdanının çocuğun göründüğü sayfası",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:244",
+   "quote": "Libro de Familia por la página donde aparece el menor"
+  },
+  {
+   "claim_id": "C-ctaz-15-yas-alti-ucretsiz-metropoliten-kart-13",
+   "field": "documents",
+   "claim": "Velinin DNI/NIE'si",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:244",
+   "quote": "DNI/NIE del tutor"
+  },
+  {
+   "claim_id": "C-ctaz-15-yas-alti-ucretsiz-metropoliten-kart-14",
+   "field": "timing",
+   "claim": "Kartın alınış yolu ön kayıttan sonra bildirilir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:244",
+   "quote": "Una vez completada la preinscripción, se informará a las familias del procedimiento para la recogida de las tarjetas."
+  },
+  {
+   "claim_id": "C-ctaz-15-yas-alti-ucretsiz-metropoliten-kart-15",
+   "field": "steps",
+   "claim": "Kart hazır olunca CTAZ ofislerinden alınır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:244",
+   "quote": "para su retirada en en las oficinas del CTAZ"
+  },
+  {
+   "claim_id": "C-ctaz-15-yas-alti-ucretsiz-metropoliten-kart-16",
+   "field": "note",
+   "claim": "Havalimanı hattı L505 kapsamda",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:244",
+   "quote": "L505"
+  },
+  {
+   "claim_id": "C-ctaz-15-yas-alti-ucretsiz-metropoliten-kart-17",
+   "field": "steps",
+   "claim": "Veri işleme onayı verilir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:244",
+   "quote": "Acepto el tratamiento de datos"
+  },
+  {
+   "claim_id": "C-ctaz-15-yas-alti-ucretsiz-metropoliten-kart-18",
+   "field": "steps",
+   "claim": "Velinin telefonu zorunlu alan",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:244",
+   "quote": "Teléfono de contacto *"
+  }
+ ],
+ "adimlar": [],
+ "butonlar": [
+  {
+   "action_id": "zaragoza:action:ctaz-15-yas-alti-ucretsiz-metropoliten-kart-1",
+   "label": "Başvur",
+   "url": "https://www.ctaz.es/tramites/tarifa-gratuita-para-menores-de-15-anos/"
+  }
+ ]
+}
+
+===== KART 8/14: zaragoza:tarjeta-lazo-ciudadana-interbus-farki =====
+{
+ "entry_id": "zaragoza:tarjeta-lazo-ciudadana-interbus-farki",
+ "city_id": "zaragoza",
+ "slug": "tarjeta-lazo-ciudadana-interbus-farki",
+ "title": "Zaragoza'da Tarjeta Lazo nedir, nereden alınır ve Tarjeta Ciudadana ile Interbus'tan farkı nedir?",
+ "subtitle": "Lazo herkese açık; otobüs, tramvay, Cercanías, BiZi ve park ödemesini tek kartta toplar; Ciudadana yalnız nüfus kaydı Zaragoza'da olanlar için",
+ "summary": "Tarjeta Lazo herkese açıktır; Zaragoza Bölgesi Ulaşım Konsorsiyumu (CTAZ) çıkarır ve şehir otobüsü, kırsal mahalle hatları, havalimanı hattı, CTAZ'ın metropoliten hatları, tramvay, Cercanías, BiZi bisikleti ve düzenli park alanlarının (mavi ve turuncu bölge) ödemesinde geçer. Tarjeta Ciudadana'yı Zaragoza Belediyesi, Zaragoza'da nüfus kaydı olanlara çıkarır. Interbus da herkese açıktır ve şehir içi ulaşımda, Havalimanı-PLAZA hattında ve kırsal mahallelerde kullanılır. Lazo'yu satış noktalarında alır, otomatlarda ya da çevrim içi yüklersin.",
+ "keywords": "Tarjeta Lazo, Tarjeta Ciudadana, Interbus, CTAZ, ulaşım kartı, tek kart, bisiklet ve park ödemesi",
+ "stages": "new;settled",
+ "source_ids": "zaragoza:kaynak:240;zaragoza:kaynak:235",
+ "reviewed_on": "2026-11-02",
+ "order": 1007,
+ "featured": "Hayır",
+ "editorial_status": "Taslak",
+ "topic_id": "zaragoza:ulasim",
+ "steps": "Lazo'yu yetkili satış noktalarından, tütün bayilerinden (estanco) ya da kırtasiyelerden (papelería) al.\nKartı Tranvías ya da Avanza otomatlarında ya da çevrim içi yükle.\nBinerken kartı okuyucuya yaklaştır; sistem uygun bileti seçer ve belirlenen süre içinde ücretsiz aktarma uygular.\nAynı kartla BiZi bisikletine de erişebilirsin.\nPark ederken parkmetreye kartı yaklaştırarak süreyi başlat ya da uzat.\nNüfus kaydın Zaragoza'daysa Tarjeta Ciudadana da kullanabilirsin; Lazo herkese açıktır.",
+ "documents": "",
+ "timing": "Aktarmalar belirlenen süre içinde ücretsizdir",
+ "cost": "",
+ "note": "Avanza'nın Tarjeta Bus'ında aktarma süresi 1 saattir.",
+ "visual_json": "",
+ "_sekme": "Yanıtlar",
+ "kaynaklar": [
+  {
+   "source_id": "zaragoza:kaynak:240",
+   "url": "https://www.ctaz.es/servicios/tarjeta-lazo/",
+   "publisher": "Consorcio de Transportes del Área de Zaragoza",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_ulasim/1b1c4c0284285f38a2ff73070800edb5c342ed057a6483f05bd77c18ad25d566.txt"
+  },
+  {
+   "source_id": "zaragoza:kaynak:235",
+   "url": "https://zaragoza.avanzagrupo.com/tarifas-y-titulos/",
+   "publisher": "Avanza Zaragoza (işletmeci)",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_ulasim/939dd2d99feac3c061d4a8120e56ab7c1144f92da70632dd51c4b33f1e0077ba.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-tarjeta-lazo-ciudadana-interbus-farki-1",
+   "field": "summary",
+   "claim": "Lazo'yu CTAZ çıkarır ve kullanılabileceği hizmetler",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:240",
+   "quote": "Es válida en los servicios urbanos de Zaragoza, en las líneas de barrios rurales, en la línea del aeropuerto y en los servicios interurbanos gestionados por el CTAZ."
+  },
+  {
+   "claim_id": "C-tarjeta-lazo-ciudadana-interbus-farki-2",
+   "field": "summary",
+   "claim": "Lazo ile otobüs, kırsal mahalle, tramvay, Cercanías ve metropoliten hatlarda yolculuk",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:240",
+   "quote": "Con ella puedes viajar en autobuses urbanos, de barrios rurales, tranvía, cercanías, líneas metropolitanas"
+  },
+  {
+   "claim_id": "C-tarjeta-lazo-ciudadana-interbus-farki-3",
+   "field": "summary",
+   "claim": "Lazo ile BiZi kullanılır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:240",
+   "quote": "puedes usar el mismo soporte físico para acceder a Bizi Zaragoza"
+  },
+  {
+   "claim_id": "C-tarjeta-lazo-ciudadana-interbus-farki-4",
+   "field": "summary",
+   "claim": "Lazo ile düzenli park ödemesi parkmetrede yapılır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:240",
+   "quote": "Con la Tarjeta lazo puedes pagar el aparcamiento sin necesidad de monedas ni aplicaciones móviles."
+  },
+  {
+   "claim_id": "C-tarjeta-lazo-ciudadana-interbus-farki-5",
+   "field": "summary",
+   "claim": "Lazo yetkili noktalarda, tütün bayilerinde ve kırtasiyelerde alınır ve yüklenir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:240",
+   "quote": "La tarjeta se puede comprar y recargar en puntos autorizados, estancos o papelerías."
+  },
+  {
+   "claim_id": "C-tarjeta-lazo-ciudadana-interbus-farki-6",
+   "field": "summary",
+   "claim": "Lazo Tranvías ve Avanza otomatlarında ve çevrim içi yüklenir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:240",
+   "quote": "Puedes recargarla también en máquinas automáticas de Tranvías o de Avanza y de forma online."
+  },
+  {
+   "claim_id": "C-tarjeta-lazo-ciudadana-interbus-farki-7",
+   "field": "steps",
+   "claim": "Lazo okutulunca sistem uygun bileti seçer ve ücretsiz aktarma uygular",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:240",
+   "quote": "El sistema valida automáticamente el título adecuado y aplica la tarifa correspondiente, permitiendo también realizar transbordos gratuitos dentro del periodo establecido."
+  },
+  {
+   "claim_id": "C-tarjeta-lazo-ciudadana-interbus-farki-8",
+   "field": "steps",
+   "claim": "Parkmetreye kart yaklaştırılır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:240",
+   "quote": "Solo necesitas acercar la tarjeta al parquímetro para iniciar o renovar tu tiempo de estacionamiento"
+  },
+  {
+   "claim_id": "C-tarjeta-lazo-ciudadana-interbus-farki-9",
+   "field": "summary",
+   "claim": "Tarjeta Ciudadana'yı Zaragoza Belediyesi, Zaragoza'da nüfus kaydı olanlara çıkarır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:235",
+   "quote": "Emitida por el Ayuntamiento de Zaragoza para las personas empadronadas en Zaragoza capital."
+  },
+  {
+   "claim_id": "C-tarjeta-lazo-ciudadana-interbus-farki-10",
+   "field": "summary",
+   "claim": "Lazo herkese açık, CTAZ çıkarır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:235",
+   "quote": "Emitida por el Consorcio de Transportes de Zaragoza a disposición de cualquier persona."
+  },
+  {
+   "claim_id": "C-tarjeta-lazo-ciudadana-interbus-farki-11",
+   "field": "summary",
+   "claim": "Interbus şehir içi, Havalimanı-PLAZA ve kırsal mahalle hatlarında kullanılır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:235",
+   "quote": "Puede utilizarse en transporte urbano, interurbano Aeropuerto- PLAZA y en barrios rurales."
+  },
+  {
+   "claim_id": "C-tarjeta-lazo-ciudadana-interbus-farki-12",
+   "field": "note",
+   "claim": "Avanza'da aktarma süresi 1 saat",
+   "value": "1",
+   "unit": "saat",
+   "period": "",
+   "source_id": "zaragoza:kaynak:235",
+   "quote": "permite transbordos gratuitos en el plazo de 1 hora desde el primer viaje de pago"
+  }
+ ],
+ "adimlar": [],
+ "butonlar": [
+  {
+   "action_id": "zaragoza:action:tarjeta-lazo-ciudadana-interbus-farki-1",
+   "label": "Bilgi al",
+   "url": "https://www.ctaz.es/servicios/tarjeta-lazo/"
+  },
+  {
+   "action_id": "zaragoza:action:tarjeta-lazo-ciudadana-interbus-farki-2",
+   "label": "Tarifeyi gör",
+   "url": "https://zaragoza.avanzagrupo.com/tarifas-y-titulos/"
+  }
+ ]
+}
+
+===== KART 9/14: zaragoza:tramvay-zaragoza-hat-saat-otopark =====
+{
+ "entry_id": "zaragoza:tramvay-zaragoza-hat-saat-otopark",
+ "city_id": "zaragoza",
+ "slug": "tramvay-zaragoza-hat-saat-otopark",
+ "title": "Zaragoza tramvayı hangi hattı işletir, saat kaçta çalışır ve tramvay-otopark biletiyle nasıl kullanılır?",
+ "subtitle": "Tek hat, kuzey-güney; Info Joven rehberine göre 5:00-24:00; Valdespartera ve Puente de Santiago otoparklarında 24 saatlik tramvay hakkı",
+ "summary": "Zaragoza'da tek tramvay hattı vardır; Valdespartera ile Parque Goya arasında kuzey-güney doğrultusunda çalışır. Belediyenin gençlik rehberi (Info Joven) tramvayın 5:00 ile 24:00 arasında çalıştığını, sıklığın yoğun saatte 5 dakika, hafta sonu 20 dakikaya kadar olduğunu yazıyor. Tek bilet, Tarjeta Bus, Tarjeta Ciudadana ve Tarjeta Lazo ile binersin; Bus ve Ciudadana kartlarıyla tramvay-otobüs aktarması 1 saat içinde ücretsizdir, tek bilet aktarma vermez. Arabanı Valdespartera ya da Puente de Santiago otoparkına bırakırsan Billete Aparcamiento ile 24 saat boyunca istediğin kadar tramvaya binebilirsin.",
+ "keywords": "tramvay, tranvía Zaragoza, Valdespartera, Parque Goya, aparcamiento disuasorio, Billete Aparcamiento, park et bin",
+ "stages": "new;settled",
+ "source_ids": "zaragoza:kaynak:250;zaragoza:kaynak:240",
+ "reviewed_on": "2026-11-02",
+ "order": 1008,
+ "featured": "Hayır",
+ "editorial_status": "Taslak",
+ "topic_id": "zaragoza:ulasim",
+ "steps": "Tramvaya tek bilet, Tarjeta Bus, Tarjeta Ciudadana ya da Tarjeta Lazo ile bin; kartı araçtaki okuyucuya okut.\nArabanla geliyorsan Valdespartera (güney) ya da Puente de Santiago (kuzey) otoparkına bırak; girişte Ciudadana, Bus ya da Interbus kartını okut, kartın yoksa düğmeye basıp Billete Aparcamiento al.\nTramvayda kartını ya da Billete Aparcamiento'yu araç içinde okut; Billete Aparcamiento 24 saat boyunca istediğin kadar tramvay yolculuğu verir.\nOtoparktan çıkarken ücreti içerideki otomatta öde (isteğe bağlı fiş al), sonra kartı ya da Billete Aparcamiento'yu çıkış okuyucusuna yaklaştır; bariyer açılır.\nBisikletle tramvaya binmek istersen sıklık 5 dakikadan fazla olduğunda ve diğer yolculara engel olmuyorsa binebilirsin.",
+ "documents": "",
+ "timing": "Tramvay 5:00-24:00 arası (Info Joven rehberine göre); Billete Aparcamiento 24 saat geçerli",
+ "cost": "Otopark: tramvaya 24 saat içinde en az 2 kez binersen saati 0,06 €; tramvaysız ya da tek yolculukla saati 0,60 €. Biletsiz yolculuk cezası 50 € (8 gün içinde gönüllü ödemede 30 €)",
+ "note": "Info Joven rehberindeki saat ve ceza bilgileri 2024 tarihlidir; Pilar bayramı gibi özel günlerde tramvay 24 saat çalışabilir.",
+ "visual_json": "",
+ "_sekme": "Yanıtlar",
+ "kaynaklar": [
+  {
+   "source_id": "zaragoza:kaynak:250",
+   "url": "https://www.zaragoza.es/sede/portal/juventud/info-joven/servicio/noticia/333954",
+   "publisher": "Ayuntamiento de Zaragoza (Info Joven)",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_ulasim/ac21ffe9de817a75b90c58a7d329459470df58c6dad2b0f8957fcae453f271b0.txt"
+  },
+  {
+   "source_id": "zaragoza:kaynak:240",
+   "url": "https://www.ctaz.es/servicios/tarjeta-lazo/",
+   "publisher": "Consorcio de Transportes del Área de Zaragoza",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_ulasim/1b1c4c0284285f38a2ff73070800edb5c342ed057a6483f05bd77c18ad25d566.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-tramvay-zaragoza-hat-saat-otopark-1",
+   "field": "summary",
+   "claim": "Tek tramvay hattı kuzey-güney",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:250",
+   "quote": "Solo hay una línea de tranvía, que va de norte a sur de la ciudad."
+  },
+  {
+   "claim_id": "C-tramvay-zaragoza-hat-saat-otopark-2",
+   "field": "summary",
+   "claim": "Tramvay Valdespartera ile Parque Goya'yı bağlar",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:240",
+   "quote": "El tranvía recorre la ciudad de norte a sur uniendo Valdespartera y Parque Goya"
+  },
+  {
+   "claim_id": "C-tramvay-zaragoza-hat-saat-otopark-3",
+   "field": "summary",
+   "claim": "Çalışma saati 5-24, sıklık yoğun saatte 5 dakika, hafta sonu 20 dakika",
+   "value": "5-24",
+   "unit": "saat",
+   "period": "2024",
+   "source_id": "zaragoza:kaynak:250",
+   "quote": "El horario de funcionamiento es entre las 5 y las 24 h, con una frecuencia de entre cinco minutos (en horas punta) y 20 en fines de semana."
+  },
+  {
+   "claim_id": "C-tramvay-zaragoza-hat-saat-otopark-4",
+   "field": "summary",
+   "claim": "Tek bilet, Bus, Ciudadana ve Lazo ile binilir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:250",
+   "quote": "Se puede acceder con billete sencillo, con alguna de las tarjetas Bus, Ciudadana y Lazo"
+  },
+  {
+   "claim_id": "C-tramvay-zaragoza-hat-saat-otopark-5",
+   "field": "summary",
+   "claim": "Ciudadana ve Bus kartları tramvay-otobüs aktarmasını 1 saat verir, tek bilet vermez",
+   "value": "1",
+   "unit": "saat",
+   "period": "",
+   "source_id": "zaragoza:kaynak:250",
+   "quote": "Las tarjetas Ciudadana y Bus permiten transbordos entre tranvía y autobuses urbanos durante 1 hora. El billete sencillo no admite trasbordo."
+  },
+  {
+   "claim_id": "C-tramvay-zaragoza-hat-saat-otopark-6",
+   "field": "summary",
+   "claim": "Billete Aparcamiento 24 saat tramvay hakkı verir (Valdespartera ve Puente de Santiago)",
+   "value": "24",
+   "unit": "saat",
+   "period": "",
+   "source_id": "zaragoza:kaynak:250",
+   "quote": "estacionamientos disuasorios de Valdespartera y el Puente de Santiago, puedes utilizar el Billete Aparcamiento para pagar el tranvía tantas veces como quieras durante 24 h."
+  },
+  {
+   "claim_id": "C-tramvay-zaragoza-hat-saat-otopark-7",
+   "field": "cost",
+   "claim": "Biletsiz yolculuk cezası 50 €, 8 gün içinde gönüllü ödemede 30 €",
+   "value": "50",
+   "unit": "EUR",
+   "period": "2024",
+   "source_id": "zaragoza:kaynak:250",
+   "quote": "La sanción por no llevar billete es de 50 €; 30 € si se paga voluntariamente en los primeros 8 días."
+  },
+  {
+   "claim_id": "C-tramvay-zaragoza-hat-saat-otopark-8",
+   "field": "steps",
+   "claim": "Bisikletle tramvaya sıklık 5 dakikadan fazlaysa ve rahatsızlık vermiyorsa binilir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:250",
+   "quote": "se puede acceder con bicicleta al tranvía cuando la frecuencia sea superior a los cinco minutos y no suponga molestias para el resto de usuarios"
+  },
+  {
+   "claim_id": "C-tramvay-zaragoza-hat-saat-otopark-9",
+   "field": "note",
+   "claim": "Pilar bayramı gibi özel tarihlerde tramvay 24 saat çalışabilir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:250",
+   "quote": "En algunas fechas especiales (por ejemplo, durante las Fiestas del Pilar) suele alargar su horario a las 24 h del día."
+  },
+  {
+   "claim_id": "C-tramvay-zaragoza-hat-saat-otopark-10",
+   "field": "cost",
+   "claim": "Tramvayı en az 2 kez kullanırsan otopark saati 0,06 €",
+   "value": "0,06",
+   "unit": "EUR/saat",
+   "period": "",
+   "source_id": "zaragoza:kaynak:240",
+   "quote": "0,06 €/h"
+  },
+  {
+   "claim_id": "C-tramvay-zaragoza-hat-saat-otopark-11",
+   "field": "cost",
+   "claim": "Tramvaysız ya da tek yolculukla otopark saati 0,60 €",
+   "value": "0,60",
+   "unit": "EUR/saat",
+   "period": "",
+   "source_id": "zaragoza:kaynak:240",
+   "quote": "0,60 €/h"
+  },
+  {
+   "claim_id": "C-tramvay-zaragoza-hat-saat-otopark-12",
+   "field": "cost",
+   "claim": "0,06 € tarifesi için 24 saat içinde en az 2 tramvay yolculuğu gerekir",
+   "value": "2",
+   "unit": "yolculuk",
+   "period": "",
+   "source_id": "zaragoza:kaynak:240",
+   "quote": "Utilizando el tranvía al menos 2 veces en las siguientes 24 horas."
+  },
+  {
+   "claim_id": "C-tramvay-zaragoza-hat-saat-otopark-13",
+   "field": "steps",
+   "claim": "Girişte Ciudadana, Bus ya da Interbus okutulur",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:240",
+   "quote": "Acerca al lector del poste de entrada la tarjeta Ciudadana / Bus / Interbus."
+  },
+  {
+   "claim_id": "C-tramvay-zaragoza-hat-saat-otopark-14",
+   "field": "steps",
+   "claim": "Kartı yoksa düğmeye basınca Billete Aparcamiento çıkar",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:240",
+   "quote": "De no poseer ninguna, pulsa y emitirá automaticamente un Billete Aparcamiento."
+  },
+  {
+   "claim_id": "C-tramvay-zaragoza-hat-saat-otopark-15",
+   "field": "steps",
+   "claim": "Billete Aparcamiento 24 saat, istenildiği kadar tramvay",
+   "value": "24",
+   "unit": "saat",
+   "period": "",
+   "source_id": "zaragoza:kaynak:240",
+   "quote": "Tiene una validez de 24 horas para viajar en Tranvía tantas veces como desee."
+  },
+  {
+   "claim_id": "C-tramvay-zaragoza-hat-saat-otopark-16",
+   "field": "steps",
+   "claim": "Ödeme araç otoparktan çıkarılırken yapılır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:240",
+   "quote": "El pago se realiza al retirar el vehículo."
+  },
+  {
+   "claim_id": "C-tramvay-zaragoza-hat-saat-otopark-17",
+   "field": "steps",
+   "claim": "Ücret otopark içindeki otomatta gösterilir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:240",
+   "quote": "Introduce la tarjeta o el Billete Aparcamiento en una máquina expendedora del interior del parking."
+  },
+  {
+   "claim_id": "C-tramvay-zaragoza-hat-saat-otopark-18",
+   "field": "steps",
+   "claim": "Ödemeden sonra çıkış okuyucusuna kart ya da bilet yaklaştırılır, bariyer açılır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:240",
+   "quote": "aproxima al lector del poste de salida la tarjeta o Billete Aparcamiento y se abrirá la barrera"
+  },
+  {
+   "claim_id": "C-tramvay-zaragoza-hat-saat-otopark-19",
+   "field": "steps",
+   "claim": "Doğrulama tramvaydaki okuyucularda yapılır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:240",
+   "quote": "La validación es rápida y se realiza en los lectores instalados en el propio tranvía."
+  },
+  {
+   "claim_id": "C-tramvay-zaragoza-hat-saat-otopark-20",
+   "field": "steps",
+   "claim": "Otopark: kuzey erişim Puente de Santiago, güney erişim Valdespartera",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:240",
+   "quote": "Aparcamiento acceso Norte a Zaragoza: Puente de Santiago"
+  },
+  {
+   "claim_id": "C-tramvay-zaragoza-hat-saat-otopark-21",
+   "field": "steps",
+   "claim": "Güney erişim Valdespartera",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:240",
+   "quote": "Aparcamiento acceso Sur a Zaragoza: Valdespartera"
+  },
+  {
+   "claim_id": "C-tramvay-zaragoza-hat-saat-otopark-22",
+   "field": "steps",
+   "claim": "Otoparkta fiş istenebilir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:240",
+   "quote": "Puedes solicitar recibo."
+  }
+ ],
+ "adimlar": [],
+ "butonlar": [
+  {
+   "action_id": "zaragoza:action:tramvay-zaragoza-hat-saat-otopark-1",
+   "label": "Bilgi al",
+   "url": "https://www.ctaz.es/servicios/tarjeta-lazo/"
+  },
+  {
+   "action_id": "zaragoza:action:tramvay-zaragoza-hat-saat-otopark-2",
+   "label": "Ulaşımı planla",
+   "url": "https://www.zaragoza.es/sede/portal/juventud/info-joven/servicio/noticia/333954"
+  }
+ ]
+}
+
+===== KART 10/14: zaragoza:delicias-gari-madrid-trene-gitmek =====
+{
+ "entry_id": "zaragoza:delicias-gari-madrid-trene-gitmek",
+ "city_id": "zaragoza",
+ "slug": "delicias-gari-madrid-trene-gitmek",
+ "title": "Zaragoza Delicias garı nerede ve oradan Madrid'e trenle nasıl gidilir?",
+ "subtitle": "Gar C/ Rioja 33'te, 05:30-00:00 açık; Madrid Atocha'ya ilk tren 07:36; AVE ve Larga Distancia bileti Madrid'de bir Cercanías yolculuğunu da kapsar",
+ "summary": "Zaragoza-Delicias, şehrin yüksek hızlı tren garıdır ve adresi C/ Rioja 33, 50011 Zaragoza'dır; Estación Central de Autobuses ve Cercanías ile aynı intermodal noktadadır. Gar 05:30'dan 00:00'a kadar açıktır. Madrid'e AVE, Avlo ve Larga Distancia trenleri gider; Delicias'tan Madrid Puerta de Atocha - Almudena Grandes'e ilk tren 07:36'dadır. AVE ya da Larga Distancia bileti Madrid'de bir Cercanías yolculuğunu (Combinado Cercanías) de içerir. Bileti Renfe'nin sitesinden önceden alırsan en ucuz fiyatları bulursun.",
+ "keywords": "Delicias, Renfe, AVE, Avlo, Madrid Atocha, tren, Zaragoza Madrid, Combinado Cercanías, intermodal",
+ "stages": "planning;new;settled",
+ "source_ids": "zaragoza:kaynak:251;zaragoza:kaynak:252",
+ "reviewed_on": "2026-11-02",
+ "order": 1009,
+ "featured": "Hayır",
+ "editorial_status": "Taslak",
+ "topic_id": "zaragoza:ulasim",
+ "steps": "Renfe'nin Zaragoza-Madrid sayfasında seferleri ara; AVE, Avlo ya da Larga Distancia trenlerinden birini seç ve bileti önceden satın al.\nTren gününde C/ Rioja 33'teki Zaragoza-Delicias garına git; gar 05:30-00:00 arası açıktır.\nŞehir içinden garın Cercanías C1 hattı ve Estación Central de Autobuses ile bağlantısını kullanabilirsin.\nMadrid'de Puerta de Atocha - Almudena Grandes garında inersin; gar 05:00-01:00 arası açıktır.\nBiletin AVE ya da Larga Distancia ise Madrid'de ücretsiz bir Cercanías yolculuğu yapabilirsin.",
+ "documents": "",
+ "timing": "Delicias'tan Madrid Atocha'ya ilk tren 07:36 (Renfe sayfasına göre)",
+ "cost": "",
+ "note": "Madrid Puerta de Atocha garında tüm Cercanías hatlarına, metro ve otobüse bağlantı ile taksi durağı vardır.",
+ "visual_json": "",
+ "_sekme": "Yanıtlar",
+ "kaynaklar": [
+  {
+   "source_id": "zaragoza:kaynak:251",
+   "url": "https://www.renfe.com/es/es/inspirate/estaciones/zaragoza-delicias",
+   "publisher": "Renfe",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_ulasim/5bcd0e08266737e1cbba8d50ac73109e8640904d9256555bc8c73720040b5c63.txt"
+  },
+  {
+   "source_id": "zaragoza:kaynak:252",
+   "url": "https://www.renfe.com/es/es/inspirate/rutas/zaragoza-madrid",
+   "publisher": "Renfe",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_ulasim/f52c421421f3619511fe4ab3a6f4f2e4298dc59afe0689e7dcee989ec56cedfc.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-delicias-gari-madrid-trene-gitmek-1",
+   "field": "summary",
+   "claim": "Gar adresi C/ Rioja 33, 50011 Zaragoza",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:251",
+   "quote": "C/ Rioja, 33, 50011 Zaragoza."
+  },
+  {
+   "claim_id": "C-delicias-gari-madrid-trene-gitmek-2",
+   "field": "summary",
+   "claim": "Gar Estación Central de Autobuses ve Cercanías ile intermodal",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:251",
+   "quote": "manteniendo conexiones con la Estación Central de Autobuses de Zaragoza y Cercanías"
+  },
+  {
+   "claim_id": "C-delicias-gari-madrid-trene-gitmek-3",
+   "field": "summary",
+   "claim": "Gar 05:30-00:00 açık",
+   "value": "05:30-00:00",
+   "unit": "saat",
+   "period": "",
+   "source_id": "zaragoza:kaynak:251",
+   "quote": "El horario de la estación Zaragoza - Delicias es desde las 05:30 h hasta las 00:00 h."
+  },
+  {
+   "claim_id": "C-delicias-gari-madrid-trene-gitmek-4",
+   "field": "steps",
+   "claim": "Gar Cercanías C1 ile bağlantılı",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:251",
+   "quote": "correspondencia con la línea C1 de Cercanías"
+  },
+  {
+   "claim_id": "C-delicias-gari-madrid-trene-gitmek-5",
+   "field": "summary",
+   "claim": "Madrid'e AVE, Avlo ve Larga Distancia trenleri",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:252",
+   "quote": "Viaja a Madrid en nuestros trenes AVE, Avlo y Larga Distancia."
+  },
+  {
+   "claim_id": "C-delicias-gari-madrid-trene-gitmek-6",
+   "field": "summary",
+   "claim": "Delicias'tan Madrid Atocha'ya ilk tren 07:36",
+   "value": "07:36",
+   "unit": "saat",
+   "period": "",
+   "source_id": "zaragoza:kaynak:252",
+   "quote": "El primer tren que sale desde la estación de Zaragoza Delicias con destino Madrid Puerta de Atocha - Almudena grandes es a las 07:36 h"
+  },
+  {
+   "claim_id": "C-delicias-gari-madrid-trene-gitmek-7",
+   "field": "summary",
+   "claim": "AVE ya da Larga Distancia bileti Madrid'de ücretsiz Cercanías yolculuğu içerir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:252",
+   "quote": "incluye un viaje gratis en Cercanías (Combinado Cercanías)"
+  },
+  {
+   "claim_id": "C-delicias-gari-madrid-trene-gitmek-8",
+   "field": "summary",
+   "claim": "Önceden alınan bilet en ucuzdur",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:252",
+   "quote": "Comprando tu billete con antelación, consigues los precios más baratos."
+  },
+  {
+   "claim_id": "C-delicias-gari-madrid-trene-gitmek-9",
+   "field": "steps",
+   "claim": "Madrid Atocha 05:00-01:00 açık",
+   "value": "05:00-01:00",
+   "unit": "saat",
+   "period": "",
+   "source_id": "zaragoza:kaynak:252",
+   "quote": "es desde las 05:00 h hasta la 01:00 h"
+  },
+  {
+   "claim_id": "C-delicias-gari-madrid-trene-gitmek-10",
+   "field": "note",
+   "claim": "Madrid Atocha tüm Cercanías hatlarına bağlı",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:252",
+   "quote": "Conexiones con todas las líneas de Cercanías"
+  },
+  {
+   "claim_id": "C-delicias-gari-madrid-trene-gitmek-11",
+   "field": "note",
+   "claim": "Madrid Atocha metro ve otobüs bağlantısı",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:252",
+   "quote": "Conexión con metro y autobús"
+  },
+  {
+   "claim_id": "C-delicias-gari-madrid-trene-gitmek-12",
+   "field": "note",
+   "claim": "Madrid Atocha taksi durağı",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:252",
+   "quote": "Parada de taxi"
+  }
+ ],
+ "adimlar": [],
+ "butonlar": [
+  {
+   "action_id": "zaragoza:action:delicias-gari-madrid-trene-gitmek-1",
+   "label": "Bilet al",
+   "url": "https://www.renfe.com/es/es/inspirate/rutas/zaragoza-madrid"
+  },
+  {
+   "action_id": "zaragoza:action:delicias-gari-madrid-trene-gitmek-2",
+   "label": "Ziyaret bilgisi",
+   "url": "https://www.renfe.com/es/es/inspirate/estaciones/zaragoza-delicias"
+  }
+ ]
+}
+
+===== KART 11/14: zaragoza:bizi-zaragoza-uyelik-tarife-2026 =====
+{
+ "entry_id": "zaragoza:bizi-zaragoza-uyelik-tarife-2026",
+ "city_id": "zaragoza",
+ "slug": "bizi-zaragoza-uyelik-tarife-2026",
+ "title": "Zaragoza'da BiZi paylaşımlı bisiklete nasıl üye olunur ve 2026 tarifeleri nedir?",
+ "subtitle": "Yıllık 60 €, aylık 10 €, günlük 1 €; ilk 30 dakika yıllık ve aylıkta ücretsiz; 16 yaş altına yasak, 16-17 yaş için veli izni",
+ "summary": "BiZi'ye Bizi Zaragoza'nın resmî sitesinden çevrim içi kayıt olursun ve bir abonman seçersin. 2026 tarifesinde sabit ücret yıllık abonmanda 60 €, aylık abonmanda 10 €, günlük abonmanda 1 €'dur; tek yolculukta (billete sencillo) sabit ücret yoktur. Yıllık ve aylık abonmanda 30 dakikaya kadar yolculuk ücretsizdir. Aylık, günlük ve tek yolculuk abonmanlarında banka kartından 50 € depozito bloke edilir. Servis 16 yaş altına yasaktır; 16-17 yaşındakiler veli ya da yasal vasi izniyle üye olabilir. Elektrikli bisikletler tarifeye dahildir.",
+ "keywords": "BiZi, bizi Zaragoza, bisiklet kiralama, paylaşımlı bisiklet, bisiklet abonmanı, elektrikli bisiklet, Bizi tarifeleri",
+ "stages": "new;settled",
+ "source_ids": "zaragoza:kaynak:332;zaragoza:kaynak:333",
+ "reviewed_on": "2026-11-02",
+ "order": 1010,
+ "featured": "Evet",
+ "editorial_status": "Taslak",
+ "topic_id": "zaragoza:ulasim",
+ "steps": "Bizi Zaragoza'nın resmî sitesinden çevrim içi kayıt ol ve sana uygun abonmanı seç (yıllık, aylık, günlük ya da tek yolculuk); her kişi tek bir abonmanla ilişkilendirilir.\nAylık, günlük ya da tek yolculuk seçtiysen banka kartından 50 € depozito bloke edilir; bisikleti doğru yuvaya bıraktıktan sonra aylıkta 15 gün, günlük ve tek yolculukta 24 saat içinde otomatik iade edilir.\nBisikleti aç: bisikletteki QR kodu, Tarjeta Ciudadana, Lazo ya da Bizi kartı ya da QR altındaki kodu uygulamaya girerek.\nBisikleti kullanmadan önce fren, ışık ve vitesi kontrol et; sorun varsa 3 dakika içinde aynı istasyona geri koy, böylece 10 dakika beklemeden başka bisiklet alırsın.\nBisikleti boş bir yuvaya (kırmızı ışık yok) it, yeşil ışığı bekle ve uygulamada yolculuğun kayıtlı bittiğini kontrol et.\n16-17 yaşındaysan online kayıt yerine Bizi'nin iletişim bölümünden randevu al ve veliyle ofise git.",
+ "documents": "16-17 yaş için: gencin DNI/NIE'si, velinin ya da yasal vasinin DNI/NIE'si, gencin ve velinin göründüğü aile cüzdanı, izin formu (ofiste doldurulur), ödeme için banka kartı",
+ "timing": "Yıllık abonman 365 gün, aylık 31 gün, günlük 24 saat; abonmanlar ilk kullanımda aktive olur. Bir yolculuk en çok 2 saat; iki kullanım arası 10 dakika",
+ "cost": "Yıllık: 60 €; aylık: 10 €; günlük: 1 € (2026). Yıllık ve aylıkta 30 dakikaya kadar ücretsiz; günlükte 30 dakikaya kadar 0,50 €, tek yolculukta 1 €; 30 dakika-1 saat arası 0,50 € (tek yolculukta 1 €); 1 saatten sonra her 30 dakika 5 €",
+ "note": "Bir kişi aynı anda yalnız bir bisiklet alabilir; abonman kişiseldir ve devredilemez.",
+ "visual_json": "",
+ "_sekme": "Yanıtlar",
+ "kaynaklar": [
+  {
+   "source_id": "zaragoza:kaynak:332",
+   "url": "https://bizi.zaragoza.es/es/tarifas",
+   "publisher": "Bizi Zaragoza (Ayuntamiento de Zaragoza)",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_ulasim-yazar1/6ab2a11b76f24047973c8ed912c848ed7f3f57b2a7332c8ee9c891ca4b90411a.txt"
+  },
+  {
+   "source_id": "zaragoza:kaynak:333",
+   "url": "https://bizi.zaragoza.es/es/preguntas-frecuentes",
+   "publisher": "Bizi Zaragoza (Ayuntamiento de Zaragoza)",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_ulasim-yazar1/3742db10d27b931f45949a34e16ddeb0582928815671fc94fcc0ada05b12ecaf.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-bizi-zaragoza-uyelik-tarife-2026-1",
+   "field": "cost",
+   "claim": "BiZi 2026 tarifesi",
+   "value": "",
+   "unit": "",
+   "period": "2026",
+   "source_id": "zaragoza:kaynak:332",
+   "quote": "Tarifas de Uso 2026"
+  },
+  {
+   "claim_id": "C-bizi-zaragoza-uyelik-tarife-2026-2",
+   "field": "cost",
+   "claim": "Sabit ücret: yıllık 60 €, aylık 10 €, günlük 1 €, tek yolculukta yok",
+   "value": "60; 10; 1; 0",
+   "unit": "EUR",
+   "period": "2026",
+   "source_id": "zaragoza:kaynak:332",
+   "quote": "Cuota fija 60,00 € 10,00 € 1,00 € 0,00 €"
+  },
+  {
+   "claim_id": "C-bizi-zaragoza-uyelik-tarife-2026-3",
+   "field": "cost",
+   "claim": "30 dakikaya kadar: yıllık 0, aylık 0, günlük 0,50, tek yolculuk 1,00 €",
+   "value": "0; 0; 0,50; 1,00",
+   "unit": "EUR",
+   "period": "2026",
+   "source_id": "zaragoza:kaynak:332",
+   "quote": "Hasta 30 min 0,00 € 0,00 € 0,50 € 1,00 €"
+  },
+  {
+   "claim_id": "C-bizi-zaragoza-uyelik-tarife-2026-4",
+   "field": "cost",
+   "claim": "30 dakika-1 saat: yıllık 0,50, aylık 0,50, günlük 0,50, tek yolculuk 1,00 €",
+   "value": "0,50; 0,50; 0,50; 1,00",
+   "unit": "EUR",
+   "period": "2026",
+   "source_id": "zaragoza:kaynak:332",
+   "quote": "De 30 min a 1 hora 0,50 € 0,50 € 0,50 € 1,00 €"
+  },
+  {
+   "claim_id": "C-bizi-zaragoza-uyelik-tarife-2026-5",
+   "field": "cost",
+   "claim": "1 saatten sonra her 30 dakika 5 €",
+   "value": "5",
+   "unit": "EUR",
+   "period": "2026",
+   "source_id": "zaragoza:kaynak:332",
+   "quote": "Cada 30 min a partir de 1 hora 5,00 € 5,00 € 5,00 € 5,00 €"
+  },
+  {
+   "claim_id": "C-bizi-zaragoza-uyelik-tarife-2026-6",
+   "field": "summary",
+   "claim": "Yıllık abonmanda 30 dakikaya kadar ücretsiz",
+   "value": "30",
+   "unit": "dakika",
+   "period": "",
+   "source_id": "zaragoza:kaynak:332",
+   "quote": "Tramos de hasta 30 minutos gratis."
+  },
+  {
+   "claim_id": "C-bizi-zaragoza-uyelik-tarife-2026-7",
+   "field": "summary",
+   "claim": "Aylık abonman 31 gün",
+   "value": "31",
+   "unit": "gün",
+   "period": "",
+   "source_id": "zaragoza:kaynak:332",
+   "quote": "Disfruta de 31 días consecutivos de acceso."
+  },
+  {
+   "claim_id": "C-bizi-zaragoza-uyelik-tarife-2026-8",
+   "field": "summary",
+   "claim": "Aylıkta depozito 50 €",
+   "value": "50",
+   "unit": "EUR",
+   "period": "",
+   "source_id": "zaragoza:kaynak:332",
+   "quote": "Al adquirir el Abono Mes, se retendrá 50€ en concepto de depósito en la tarjeta bancaria."
+  },
+  {
+   "claim_id": "C-bizi-zaragoza-uyelik-tarife-2026-9",
+   "field": "steps",
+   "claim": "Aylıkta depozito 15 gün sonra otomatik iade",
+   "value": "15",
+   "unit": "gün",
+   "period": "",
+   "source_id": "zaragoza:kaynak:332",
+   "quote": "Dicha retención se devolverá de manera automática pasados 15 días"
+  },
+  {
+   "claim_id": "C-bizi-zaragoza-uyelik-tarife-2026-10",
+   "field": "steps",
+   "claim": "Günlük abonman 24 saat; depozito 50 €",
+   "value": "24",
+   "unit": "saat",
+   "period": "",
+   "source_id": "zaragoza:kaynak:332",
+   "quote": "Acceso durante 24 horas consecutivas."
+  },
+  {
+   "claim_id": "C-bizi-zaragoza-uyelik-tarife-2026-11",
+   "field": "summary",
+   "claim": "Günlük ve tek yolculukta depozito 50 € bloke edilir",
+   "value": "50",
+   "unit": "EUR",
+   "period": "",
+   "source_id": "zaragoza:kaynak:332",
+   "quote": "Al adquirir el Abono Día, se retendrá 50€ en concepto de depósito en la tarjeta bancaria."
+  },
+  {
+   "claim_id": "C-bizi-zaragoza-uyelik-tarife-2026-12",
+   "field": "steps",
+   "claim": "Günlük ve tek yolculukta depozito 24 saat sonra iade",
+   "value": "24",
+   "unit": "saat",
+   "period": "",
+   "source_id": "zaragoza:kaynak:332",
+   "quote": "Dicha retención se devolverá de manera automática pasadas 24 horas"
+  },
+  {
+   "claim_id": "C-bizi-zaragoza-uyelik-tarife-2026-13",
+   "field": "summary",
+   "claim": "Yıllık abonman 365 gün",
+   "value": "365",
+   "unit": "gün",
+   "period": "",
+   "source_id": "zaragoza:kaynak:332",
+   "quote": "Acceso ilimitado durante 365 días."
+  },
+  {
+   "claim_id": "C-bizi-zaragoza-uyelik-tarife-2026-14",
+   "field": "summary",
+   "claim": "Servis 16 yaş altına yasak",
+   "value": "16",
+   "unit": "yaş",
+   "period": "",
+   "source_id": "zaragoza:kaynak:332",
+   "quote": "Este servicio está prohibido para menores de 16 años."
+  },
+  {
+   "claim_id": "C-bizi-zaragoza-uyelik-tarife-2026-15",
+   "field": "summary",
+   "claim": "16-18 yaş veli ya da vasi imzalı izin ister",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:332",
+   "quote": "Las personas con edades comprendidas entre los 16 y los 18 años necesitarán una autorización firmada por su madre, padre o tutor legal"
+  },
+  {
+   "claim_id": "C-bizi-zaragoza-uyelik-tarife-2026-16",
+   "field": "summary",
+   "claim": "Elektrikli bisikletler tarifeye dahil",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:332",
+   "quote": "Ambas tarifas incluyen la posibilidad de usar bicicletas eléctricas."
+  },
+  {
+   "claim_id": "C-bizi-zaragoza-uyelik-tarife-2026-17",
+   "field": "summary",
+   "claim": "Kayıt resmî siteden çevrim içi yapılır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:333",
+   "quote": "Puedes registrarte en línea a través del sitio web oficial de Bizi Zaragoza"
+  },
+  {
+   "claim_id": "C-bizi-zaragoza-uyelik-tarife-2026-18",
+   "field": "steps",
+   "claim": "Her kişi tek bir abonmanla ilişkilendirilir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:333",
+   "quote": "Cada persona usuaria debe estar registrada y asociada a un único tipo de abono"
+  },
+  {
+   "claim_id": "C-bizi-zaragoza-uyelik-tarife-2026-19",
+   "field": "documents",
+   "claim": "16-17 yaş: gencin DNI/NIE'si",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:333",
+   "quote": "DNI o NIE del menor."
+  },
+  {
+   "claim_id": "C-bizi-zaragoza-uyelik-tarife-2026-20",
+   "field": "documents",
+   "claim": "16-17 yaş: aile cüzdanı",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:333",
+   "quote": "Libro de familia donde aparezca el menor y la madre/padre o tutor legal"
+  },
+  {
+   "claim_id": "C-bizi-zaragoza-uyelik-tarife-2026-21",
+   "field": "documents",
+   "claim": "16-17 yaş: ödeme için banka kartı",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:333",
+   "quote": "Una tarjeta bancaria para realizar el pago de la suscripción correspondiente."
+  },
+  {
+   "claim_id": "C-bizi-zaragoza-uyelik-tarife-2026-22",
+   "field": "steps",
+   "claim": "16-17 yaş için iletişim bölümünden randevu alınır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:333",
+   "quote": "pedir cita en nuestra zona de contacto"
+  },
+  {
+   "claim_id": "C-bizi-zaragoza-uyelik-tarife-2026-23",
+   "field": "steps",
+   "claim": "Bisiklet QR, Ciudadana/Lazo/Bizi kartı ya da kodla açılır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:333",
+   "quote": "La Tarjeta Ciudadana, Lazo o Bizi."
+  },
+  {
+   "claim_id": "C-bizi-zaragoza-uyelik-tarife-2026-24",
+   "field": "steps",
+   "claim": "Sorun varsa 3 dakika içinde aynı istasyona geri konur",
+   "value": "3",
+   "unit": "dakika",
+   "period": "",
+   "source_id": "zaragoza:kaynak:333",
+   "quote": "Si detectas algún problema, devuélvela en 3 minutos en la misma estación."
+  },
+  {
+   "claim_id": "C-bizi-zaragoza-uyelik-tarife-2026-25",
+   "field": "steps",
+   "claim": "Yuva yeşil ışık verene kadar beklenir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:333",
+   "quote": "espera la luz verde de confirmación"
+  },
+  {
+   "claim_id": "C-bizi-zaragoza-uyelik-tarife-2026-26",
+   "field": "timing",
+   "claim": "İki kullanım arası 10 dakika",
+   "value": "10",
+   "unit": "dakika",
+   "period": "",
+   "source_id": "zaragoza:kaynak:333",
+   "quote": "Deben pasar 10 minutos entre cada uso."
+  },
+  {
+   "claim_id": "C-bizi-zaragoza-uyelik-tarife-2026-27",
+   "field": "note",
+   "claim": "Aynı anda bir bisiklet",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:333",
+   "quote": "Cada persona usuaria solo puede retirar una bicicleta a la vez."
+  },
+  {
+   "claim_id": "C-bizi-zaragoza-uyelik-tarife-2026-28",
+   "field": "timing",
+   "claim": "Bir yolculuk en çok 2 saat",
+   "value": "2",
+   "unit": "saat",
+   "period": "",
+   "source_id": "zaragoza:kaynak:333",
+   "quote": "la duración máxima de cada trayecto son 2 horas"
+  },
+  {
+   "claim_id": "C-bizi-zaragoza-uyelik-tarife-2026-29",
+   "field": "note",
+   "claim": "Abonman kişisel ve devredilemez",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:333",
+   "quote": "El bono Bizi es PERSONAL e INTRANSFERIBLE."
+  },
+  {
+   "claim_id": "C-bizi-zaragoza-uyelik-tarife-2026-30",
+   "field": "summary",
+   "claim": "Aylık abonmanda da 30 dakikaya kadar ücretsiz",
+   "value": "30",
+   "unit": "dakika",
+   "period": "",
+   "source_id": "zaragoza:kaynak:332",
+   "quote": "Tramos de hasta 30 minutos sin coste."
+  }
+ ],
+ "adimlar": [],
+ "butonlar": [
+  {
+   "action_id": "zaragoza:action:bizi-zaragoza-uyelik-tarife-2026-1",
+   "label": "Kayıt ol",
+   "url": "https://bizi.zaragoza.es/es/tarifas"
+  },
+  {
+   "action_id": "zaragoza:action:bizi-zaragoza-uyelik-tarife-2026-2",
+   "label": "Bilgi al",
+   "url": "https://bizi.zaragoza.es/es/preguntas-frecuentes"
+  }
+ ]
+}
+
+===== KART 12/14: zaragoza:zbe-zaragoza-kurallari-etiket-kayit =====
+{
+ "entry_id": "zaragoza:zbe-zaragoza-kurallari-etiket-kayit",
+ "city_id": "zaragoza",
+ "slug": "zbe-zaragoza-kurallari-etiket-kayit",
+ "title": "Zaragoza'nın düşük emisyon bölgesine (ZBE) arabayla girebilir miyim ve etiketsiz aracı nasıl kaydettiririm?",
+ "subtitle": "ZBE Casco Histórico çevresinde; B, C, ECO, CERO etiketli araç serbest girer; etiketsiz araç pazartesi-cuma 8:00-20:00 arası kayıtlı izin ister",
+ "summary": "Zaragoza'nın Zona de Bajas Emisiones'i (ZBE, düşük emisyon bölgesi) Casco Histórico çevresindedir; sınırı Paseo Echegaray y Caballero, San Vicente de Paúl, Coso, Plaza de España, Conde Aranda, Mayoral, Plaza de Santo Domingo ve Ramón Celma sokağıdır. DGT çevre etiketi B, C, ECO ya da CERO olan araç bölgeye serbestçe girer, dolaşır ve park eder; kayıt gerekmez. Etiketsiz araç pazartesi-cuma 20:00-8:00 arası girebilir; gündüz için belediyenin kayıtlı izni gerekir. Kural pazartesi-cuma 8:00-20:00 arası denetlenir ve 12 Aralık 2025'ten itibaren ceza uygulanabilir.",
+ "keywords": "ZBE, Zona de Bajas Emisiones, DGT etiketi, distintivo ambiental, düşük emisyon bölgesi, Zaragoza araç kaydı, Casco Histórico",
+ "stages": "new;settled",
+ "source_ids": "zaragoza:kaynak:334;zaragoza:kaynak:335",
+ "reviewed_on": "2026-11-02",
+ "order": 1011,
+ "featured": "Hayır",
+ "editorial_status": "Taslak",
+ "topic_id": "zaragoza:ulasim",
+ "steps": "DGT çevre etiketini plakanla DGT sitesinde, miDGT uygulamasında ya da 060'ı arayarak sorgula.\nEtiketin B, C, ECO ya da CERO ise kayıt yaptırma; etiketi ön camın sağ alt köşesine yapıştır (motosiklette araçta görünür bir yere).\nEtiketin yoksa ZBE'ye pazartesi-cuma 20:00-8:00 arası ya da bisiklet ve elektrikli scooter türü araçlarla girebilirsin; gündüz girmek için muafiyet durumuna bak: bölgede garaj yerin, ticari işyerin ya da Tarjeta de Residente'in varsa, aracın yabancı plakalıysa ya da hareket kısıtlı kişi taşıyorsa kayıtlı izin alabilirsin.\nİzni belediyenin ZBE kayıt sayfasından çevrim içi al (önerilen): beyanı imzalayıp makbuzu alınca izin hemen ön onaylı olur. Kâğıtla kayıt için resmî kayıt birimlerinde beyan formunu doldur; belgeler doğrulanana kadar izin geçerli olmaz.\nYanlışlıkla girersen 15 dakika içinde çıkarsan ceza yazılmaz.",
+ "documents": "Permiso de Circulación (araç ruhsatı)\nSigorta\nMuafiyete göre: garaj ya da işyeri için tapu veya kira sözleşmesi; yabancı plakada COC (üretici emisyon belgesi) veya o ülkede verilmiş çevre etiketi belgesi; hareket kısıtlı kişi için PMR kartı; Tarjeta de Residente varsa ek belge gerekmez",
+ "timing": "Denetim pazartesi-cuma 8:00-20:00; yanlışlıkla girişte çıkış süresi 15 dakika; kayıtlı izinler yıllık yenilenir",
+ "cost": "",
+ "note": "Etiketi olduğu halde ön cama yapıştırmamak hafif ihlal sayılır ve cezalandırılabilir.",
+ "visual_json": "",
+ "_sekme": "Yanıtlar",
+ "kaynaklar": [
+  {
+   "source_id": "zaragoza:kaynak:334",
+   "url": "https://www.zaragoza.es/sede/portal/movilidad/bajas-emisiones/faq",
+   "publisher": "Ayuntamiento de Zaragoza",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_ulasim-yazar1/a6c185951fef6e8dbff35351343ae387961fd00804d0d1b118d4b8b3b4ea0ce1.txt"
+  },
+  {
+   "source_id": "zaragoza:kaynak:335",
+   "url": "https://www.zaragoza.es/sede/portal/movilidad/bajas-emisiones/mapa-fases",
+   "publisher": "Ayuntamiento de Zaragoza",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_ulasim-yazar1/89e9743b8e103a4fc3809ecb57838d9dcaf87f61804cb1dcf56b60658880be39.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-zbe-zaragoza-kurallari-etiket-kayit-1",
+   "field": "summary",
+   "claim": "ZBE sınırı",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:335",
+   "quote": "Paseo Echegaray y Caballero, San Vicente de Paúl, Coso, Plaza de España, Conde Aranda, Mayoral, Plaza de Santo Domingo y la calle Ramón Celma"
+  },
+  {
+   "claim_id": "C-zbe-zaragoza-kurallari-etiket-kayit-2",
+   "field": "summary",
+   "claim": "Çevre sınırındaki sokaklarda kayıt gerekmez; kayıt yalnız iç bölge için ve yalnız etiketsiz araçlar için",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:335",
+   "quote": "El registro únicamente es necesario para acceder al interior de dicha zona, y solo afecta a aquellos vehículos que no dispongan de distintivo ambiental de la DGT."
+  },
+  {
+   "claim_id": "C-zbe-zaragoza-kurallari-etiket-kayit-3",
+   "field": "summary",
+   "claim": "B, C, ECO ya da CERO etiketli araç serbest girer, kayıt gerekmez",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:334",
+   "quote": "tendrá libre acceso, circulación y estacionamiento en la zona de bajas emisiones de Zaragoza, sin necesidad de registrar su vehículo"
+  },
+  {
+   "claim_id": "C-zbe-zaragoza-kurallari-etiket-kayit-4",
+   "field": "summary",
+   "claim": "Etiketsiz araç pazartesi-cuma 20:00-8:00 arası girebilir",
+   "value": "20:00-8:00",
+   "unit": "saat",
+   "period": "",
+   "source_id": "zaragoza:kaynak:334",
+   "quote": "De lunes a viernes de 20:00 a 8:00 horas."
+  },
+  {
+   "claim_id": "C-zbe-zaragoza-kurallari-etiket-kayit-5",
+   "field": "summary",
+   "claim": "Denetim pazartesi-cuma 8:00-20:00, 12 Aralık'tan itibaren",
+   "value": "8:00-20:00",
+   "unit": "saat",
+   "period": "2025-12-12",
+   "source_id": "zaragoza:kaynak:334",
+   "quote": "de lunes a viernes, de 8,00 a 20,00 horas a partir del 12 de diciembre"
+  },
+  {
+   "claim_id": "C-zbe-zaragoza-kurallari-etiket-kayit-6",
+   "field": "summary",
+   "claim": "12 Aralık 2025'ten itibaren cezalar uygulanabilir",
+   "value": "",
+   "unit": "",
+   "period": "2025-12-12",
+   "source_id": "zaragoza:kaynak:334",
+   "quote": "A partir de ese momento se podrán aplicar las sanciones previstas por el incumplimiento de la norma."
+  },
+  {
+   "claim_id": "C-zbe-zaragoza-kurallari-etiket-kayit-7",
+   "field": "steps",
+   "claim": "Etiket DGT sitesinden, miDGT uygulamasından ya da 060'tan sorgulanır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:334",
+   "quote": "Desde la app miDGT"
+  },
+  {
+   "claim_id": "C-zbe-zaragoza-kurallari-etiket-kayit-8",
+   "field": "steps",
+   "claim": "Etiket 060'tan da sorgulanabilir",
+   "value": "060",
+   "unit": "telefon",
+   "period": "",
+   "source_id": "zaragoza:kaynak:334",
+   "quote": "Por teléfono, llamando al teléfono 060."
+  },
+  {
+   "claim_id": "C-zbe-zaragoza-kurallari-etiket-kayit-9",
+   "field": "steps",
+   "claim": "Etiket ön camın sağ alt köşesine yapıştırılır, motosiklette görünür yere",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:334",
+   "quote": "El distintivo debe ir adherido en el ángulo inferior derecho del parabrisas delantero"
+  },
+  {
+   "claim_id": "C-zbe-zaragoza-kurallari-etiket-kayit-10",
+   "field": "steps",
+   "claim": "Etiket ön camda yoksa hafif ihlal",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:334",
+   "quote": "No hacerlo es considerado falta leve y puede ser sancionado."
+  },
+  {
+   "claim_id": "C-zbe-zaragoza-kurallari-etiket-kayit-11",
+   "field": "steps",
+   "claim": "Muaf araçlar: PMR, garaj yeri, işyeri, Tarjeta de Residente ve yabancı plaka",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:334",
+   "quote": "Vehículo asociado a plaza de garajes dentro de la ZBE."
+  },
+  {
+   "claim_id": "C-zbe-zaragoza-kurallari-etiket-kayit-12",
+   "field": "steps",
+   "claim": "Tarjeta de Residente sahipleri de kayıt yaptırabilir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:334",
+   "quote": "Vehículo con tarjeta de residente de estacionamiento regulado dentro de la ZBE."
+  },
+  {
+   "claim_id": "C-zbe-zaragoza-kurallari-etiket-kayit-13",
+   "field": "steps",
+   "claim": "Yabancı plakalı araçlar kayıt yaptırabilir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:334",
+   "quote": "Vehículos de matrícula extranjera."
+  },
+  {
+   "claim_id": "C-zbe-zaragoza-kurallari-etiket-kayit-14",
+   "field": "steps",
+   "claim": "Çevrim içi kayıtta izin ön onaylı verilir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:334",
+   "quote": "dispondrán de autorización “pre-concedida” desde el mismo instante en que usted firme la declaración responsable"
+  },
+  {
+   "claim_id": "C-zbe-zaragoza-kurallari-etiket-kayit-15",
+   "field": "steps",
+   "claim": "Kâğıtla kayıt resmî kayıt biriminde beyan formuyla yapılır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:334",
+   "quote": "En cualquier registro oficial, rellenando los datos de la"
+  },
+  {
+   "claim_id": "C-zbe-zaragoza-kurallari-etiket-kayit-16",
+   "field": "steps",
+   "claim": "Kâğıt başvuruda belgeler doğrulanana kadar izin geçerli değil",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:334",
+   "quote": "no dispondrán de autorización en tanto en cuanto no sea verificada la documentación"
+  },
+  {
+   "claim_id": "C-zbe-zaragoza-kurallari-etiket-kayit-17",
+   "field": "steps",
+   "claim": "Yanlışlıkla girişte 15 dakika içinde çıkana ceza yok",
+   "value": "15",
+   "unit": "dakika",
+   "period": "",
+   "source_id": "zaragoza:kaynak:334",
+   "quote": "no les sancionará si salen de ésta en un plazo de 15 minutos"
+  },
+  {
+   "claim_id": "C-zbe-zaragoza-kurallari-etiket-kayit-18",
+   "field": "documents",
+   "claim": "Her araç için Permiso de Circulación",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:334",
+   "quote": "Permiso de Circulación"
+  },
+  {
+   "claim_id": "C-zbe-zaragoza-kurallari-etiket-kayit-19",
+   "field": "documents",
+   "claim": "Her araç için sigorta",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:334",
+   "quote": "Seguro"
+  },
+  {
+   "claim_id": "C-zbe-zaragoza-kurallari-etiket-kayit-20",
+   "field": "documents",
+   "claim": "Garaj ya da işyeri için tapu, kira sözleşmesi veya benzeri",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:334",
+   "quote": "Escrituras de propiedad, contrato de alquiler u otro que demuestre su vinculación a la plaza de estacionamiento."
+  },
+  {
+   "claim_id": "C-zbe-zaragoza-kurallari-etiket-kayit-21",
+   "field": "documents",
+   "claim": "Yabancı plaka için COC veya eşdeğeri",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:334",
+   "quote": "Certificado de emisiones del fabricante (COC) o equivalente."
+  },
+  {
+   "claim_id": "C-zbe-zaragoza-kurallari-etiket-kayit-22",
+   "field": "documents",
+   "claim": "Tarjeta de Residente varsa ek belge gerekmez",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:334",
+   "quote": "No necesita aportar nada, sólo registrarse"
+  },
+  {
+   "claim_id": "C-zbe-zaragoza-kurallari-etiket-kayit-23",
+   "field": "documents",
+   "claim": "PMR kartı",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:334",
+   "quote": "Tarjeta PMR"
+  },
+  {
+   "claim_id": "C-zbe-zaragoza-kurallari-etiket-kayit-24",
+   "field": "timing",
+   "claim": "Kayıtlı izinler yıllık yenilenir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:334",
+   "quote": "se expenderán autorizaciones que deberán renovarse cada año"
+  },
+  {
+   "claim_id": "C-zbe-zaragoza-kurallari-etiket-kayit-25",
+   "field": "note",
+   "claim": "Etiket ön camda olmalı",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:334",
+   "quote": "es preciso exhibir el distintivo ambiental en el parabrisas del vehículo"
+  },
+  {
+   "claim_id": "C-zbe-zaragoza-kurallari-etiket-kayit-26",
+   "field": "steps",
+   "claim": "Bisiklet ve VMP'ler etiketsiz de girebilir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:334",
+   "quote": "Si su vehículo es ciclo, bicicleta o VMP."
+  },
+  {
+   "claim_id": "C-zbe-zaragoza-kurallari-etiket-kayit-27",
+   "field": "steps",
+   "claim": "Hareket kısıtlı kişi taşıyan araç kayıt yaptırabilir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:334",
+   "quote": "Vehículo Transporta Persona con Movilidad Reducida PMR."
+  },
+  {
+   "claim_id": "C-zbe-zaragoza-kurallari-etiket-kayit-28",
+   "field": "steps",
+   "claim": "Bölgedeki ticari işyeriyle ilişkili araç kayıt yaptırabilir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:334",
+   "quote": "Vehículo asociado a local con actividad comercial dentro de la ZBE."
+  },
+  {
+   "claim_id": "C-zbe-zaragoza-kurallari-etiket-kayit-29",
+   "field": "documents",
+   "claim": "Yabancı plakada çevre etiketi veya eşdeğer belge",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:334",
+   "quote": "Distintivo ambiental o documento equivalente emitido por el país de matriculación."
+  }
+ ],
+ "adimlar": [],
+ "butonlar": [
+  {
+   "action_id": "zaragoza:action:zbe-zaragoza-kurallari-etiket-kayit-1",
+   "label": "Bilgi al",
+   "url": "https://www.zaragoza.es/sede/portal/movilidad/bajas-emisiones/"
+  },
+  {
+   "action_id": "zaragoza:action:zbe-zaragoza-kurallari-etiket-kayit-2",
+   "label": "Bilgi al",
+   "url": "https://www.zaragoza.es/sede/portal/movilidad/bajas-emisiones/faq"
+  }
+ ]
+}
+
+===== KART 13/14: zaragoza:sakin-park-karti-zaragoza-mavi-turuncu-bolge =====
+{
+ "entry_id": "zaragoza:sakin-park-karti-zaragoza-mavi-turuncu-bolge",
+ "city_id": "zaragoza",
+ "slug": "sakin-park-karti-zaragoza-mavi-turuncu-bolge",
+ "title": "Zaragoza'da mavi ve turuncu park bölgelerinde sakin park kartı nasıl alınır ve kartla park ne kadar tutar?",
+ "subtitle": "Kartla turuncu bölgede günlük 0,70 €, mavi bölgede günlük 1,30 €; nüfus kaydı bölge içinde olmalı; başvuru Z+M ofisi ya da internet",
+ "summary": "Sakin park kartı (Distintivo de Aparcamiento para Residentes) için nüfus kaydın düzenli park bölgesinin (mavi ya da turuncu zona) içindeki adreste olmalıdır. Kartla park ücreti turuncu bölgede günlük 0,70 €, haftalık 2,50 €, 20 günlük 10,00 €; mavi bölgede günlük 1,30 €'dur (haftalık seçenek yok). Başvuruyu internetten ya da Z+M'nin Julián Ribera 18'deki ofisinde yüz yüze yaparsın. Kart her yıl, ilk düzenleme tarihinden itibaren, ilkiyle aynı belgelerle yenilenir; belgeler araç sahibinin adına olmalıdır.",
+ "keywords": "sakin park kartı, tarjeta de residente, zona azul, zona naranja, ESRE, Z+M, Zaragoza park, düzenli park bölgesi",
+ "stages": "new;settled",
+ "source_ids": "zaragoza:kaynak:248",
+ "reviewed_on": "2026-11-02",
+ "order": 1012,
+ "featured": "Hayır",
+ "editorial_status": "Taslak",
+ "topic_id": "zaragoza:ulasim",
+ "steps": "Evinin girişinin mavi ya da turuncu düzenli park bölgesinin içinde olduğunu ve nüfus kaydının orada olduğunu kontrol et.\nResidentes başvuru ya da yenileme formunu doldur.\nBelgeleri araç sahibinin adına hazırla; kartın eşinin adına çıkmasını istiyorsan eşin evlilik kaydının tam suretini (mal ortaklığı rejimini gösteren) sunması gerekir.\nBaşvuruyu internetten yap ya da Z+M'nin C/ Julián Ribera 18, 50010 adresindeki ofisine git; ofis pazartesi-cuma 9:00-14:00 ve 17:00-20:00 arası açıktır (Temmuz ve Ağustos'ta 7:00-15:00).\nKartı her yıl, ilk düzenleme tarihinden itibaren, ilk başvurudaki belgelerle yenile.",
+ "documents": "Residentes başvuru/yenileme formu\nBelgeler araç sahibinin adına olmalı\nKart eşin adına çıkacaksa: mal ortaklığı rejimini gösteren evlilik kaydının tam sureti",
+ "timing": "Kart her yıl, ilk düzenleme tarihinden itibaren yenilenir",
+ "cost": "Kartla park: turuncu bölge günlük 0,70 €, haftalık 2,50 €, 20 günlük 10,00 €; mavi bölge günlük 1,30 € (haftalık yok)",
+ "note": "Z+M iletişimi: 976 530 391 ve 976 310 171, info@zmute.com.",
+ "visual_json": "",
+ "_sekme": "Yanıtlar",
+ "kaynaklar": [
+  {
+   "source_id": "zaragoza:kaynak:248",
+   "url": "https://www.zaragoza.es/sede/servicio/tramite/4004",
+   "publisher": "Ayuntamiento de Zaragoza",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_ulasim/f97f8ecebc23db64612970a140e1cdccd68cbb5c4df7ccd106059a2909c00db2.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-sakin-park-karti-zaragoza-mavi-turuncu-bolge-1",
+   "field": "summary",
+   "claim": "Başvuranın nüfus kaydı düzenli park bölgesi içinde olmalı",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:248",
+   "quote": "el solicitante de la tarjeta de residente deberá estar empadronado dentro de la zona de estacionamiento regulado"
+  },
+  {
+   "claim_id": "C-sakin-park-karti-zaragoza-mavi-turuncu-bolge-2",
+   "field": "summary",
+   "claim": "Residente sayılmak için konutun girişi düzenli bölge içinde olmalı",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:248",
+   "quote": "aquellas personas con domicilio en viviendas cuyo acceso se encuentre dentro de las zonas reguladas"
+  },
+  {
+   "claim_id": "C-sakin-park-karti-zaragoza-mavi-turuncu-bolge-3",
+   "field": "cost",
+   "claim": "Turuncu bölgede günlük 0,70 €",
+   "value": "0,70",
+   "unit": "EUR",
+   "period": "",
+   "source_id": "zaragoza:kaynak:248",
+   "quote": "Por día: 0,70 euros"
+  },
+  {
+   "claim_id": "C-sakin-park-karti-zaragoza-mavi-turuncu-bolge-4",
+   "field": "cost",
+   "claim": "Turuncu bölgede haftalık 2,50 €",
+   "value": "2,50",
+   "unit": "EUR",
+   "period": "",
+   "source_id": "zaragoza:kaynak:248",
+   "quote": "Por semana: 2,50 euros"
+  },
+  {
+   "claim_id": "C-sakin-park-karti-zaragoza-mavi-turuncu-bolge-5",
+   "field": "cost",
+   "claim": "Turuncu bölgede 20 günlük 10,00 €",
+   "value": "10,00",
+   "unit": "EUR",
+   "period": "",
+   "source_id": "zaragoza:kaynak:248",
+   "quote": "Por 20 días: 10,00 euros"
+  },
+  {
+   "claim_id": "C-sakin-park-karti-zaragoza-mavi-turuncu-bolge-6",
+   "field": "cost",
+   "claim": "Mavi bölgede günlük 1,30 €",
+   "value": "1,30",
+   "unit": "EUR",
+   "period": "",
+   "source_id": "zaragoza:kaynak:248",
+   "quote": "Por día: 1,30 euros"
+  },
+  {
+   "claim_id": "C-sakin-park-karti-zaragoza-mavi-turuncu-bolge-7",
+   "field": "cost",
+   "claim": "Mavi bölgede haftalık seçenek yok",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:248",
+   "quote": "Por semana: no existe"
+  },
+  {
+   "claim_id": "C-sakin-park-karti-zaragoza-mavi-turuncu-bolge-8",
+   "field": "timing",
+   "claim": "Yenileme her yıl, ilk düzenleme tarihinden itibaren, aynı belgelerle",
+   "value": "1",
+   "unit": "yıl",
+   "period": "",
+   "source_id": "zaragoza:kaynak:248",
+   "quote": "RENOVACIONES: Cada año, desde la fecha de emisión, requiriédose idéntica documentación que para la tramitación por primera vez."
+  },
+  {
+   "claim_id": "C-sakin-park-karti-zaragoza-mavi-turuncu-bolge-9",
+   "field": "steps",
+   "claim": "Başvuru internetten ya da yüz yüze",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:248",
+   "quote": "Formas de tramitación"
+  },
+  {
+   "claim_id": "C-sakin-park-karti-zaragoza-mavi-turuncu-bolge-10",
+   "field": "steps",
+   "claim": "Z+M adresi C/ Julián Ribera 18, 50010",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:248",
+   "quote": "Dirección: C/ Julián Ribera, 18 50010"
+  },
+  {
+   "claim_id": "C-sakin-park-karti-zaragoza-mavi-turuncu-bolge-11",
+   "field": "steps",
+   "claim": "Ofis saatleri hafta içi 9:00-14:00 ve 17:00-20:00",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:248",
+   "quote": "Horario De 09 h. a 14 h. y 17 h. a 20 h. (de lunes a viernes)"
+  },
+  {
+   "claim_id": "C-sakin-park-karti-zaragoza-mavi-turuncu-bolge-12",
+   "field": "steps",
+   "claim": "Temmuz ve Ağustos'ta ofis 7:00-15:00",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:248",
+   "quote": "Durante los meses de julio y agosto : de 7:00 a 15:00 h"
+  },
+  {
+   "claim_id": "C-sakin-park-karti-zaragoza-mavi-turuncu-bolge-13",
+   "field": "documents",
+   "claim": "Residentes başvuru ya da yenileme formu",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:248",
+   "quote": "Cumplimentar Formulario Residentes (Solicitud o Renovación)"
+  },
+  {
+   "claim_id": "C-sakin-park-karti-zaragoza-mavi-turuncu-bolge-14",
+   "field": "documents",
+   "claim": "Belgeler araç sahibi adına olmalı",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:248",
+   "quote": "Todos los documentos que se presentan deben ir a nombre del titular del vehículo."
+  },
+  {
+   "claim_id": "C-sakin-park-karti-zaragoza-mavi-turuncu-bolge-15",
+   "field": "documents",
+   "claim": "Kart eşin adına çıkacaksa mal ortaklığını gösteren evlilik kaydı",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:248",
+   "quote": "se requiere que éste presente la partida literal de matrimonio en la que figure que están en régimen de bienes gananciales"
+  },
+  {
+   "claim_id": "C-sakin-park-karti-zaragoza-mavi-turuncu-bolge-16",
+   "field": "note",
+   "claim": "Z+M telefonları 976 530 391 ve 976 310 171",
+   "value": "976 530 391; 976 310 171",
+   "unit": "telefon",
+   "period": "",
+   "source_id": "zaragoza:kaynak:248",
+   "quote": "976 530 391"
+  },
+  {
+   "claim_id": "C-sakin-park-karti-zaragoza-mavi-turuncu-bolge-17",
+   "field": "note",
+   "claim": "Z+M e-postası",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:248",
+   "quote": "info@zmute.com"
+  }
+ ],
+ "adimlar": [],
+ "butonlar": [
+  {
+   "action_id": "zaragoza:action:sakin-park-karti-zaragoza-mavi-turuncu-bolge-1",
+   "label": "Başvur",
+   "url": "https://www.zaragoza.es/sede/servicio/tramite/4004"
+  }
+ ]
+}
+
+===== KART 14/14: zaragoza:havalimani-zaragoza-otobus-taksi =====
+{
+ "entry_id": "zaragoza:havalimani-zaragoza-otobus-taksi",
+ "city_id": "zaragoza",
+ "slug": "havalimani-zaragoza-otobus-taksi",
+ "title": "Zaragoza havalimanına şehir merkezinden otobüs ya da taksiyle nasıl gidilir?",
+ "subtitle": "L505 hattı Delicias ve şehir merkezinden havalimanına gider ve Tarjeta Lazo kabul eder; araçla yaklaşık 15-20 dakika; taksi merkezle yaklaşık 25 €",
+ "summary": "Zaragoza havalimanına ulaşım otobüs, taksi ve kiralık araçla olur; belediyeye göre merkezden araçla ortalama 15-20 dakika sürer. CTAZ'ın L505 hattı şehir merkezini ve Delicias intermodal istasyonunu havalimanına bağlar, saatleri uçuşlara göre ayarlanmıştır ve Tarjeta Lazo kabul eder. Belediyenin havalimanı sayfasına göre hattın duraklarından biri Paseo María Agustín 7, diğeri Estación Intermodal'dir. Taksi durağı varış terminalinin çıkışındadır; belediye merkez-havalimanı taksisini yaklaşık 25 € olarak veriyor.",
+ "keywords": "havalimanı, aeropuerto Zaragoza, L505, CTAZ, havalimanı otobüsü, taksi, Delicias, Tarjeta Lazo",
+ "stages": "before;planning;new",
+ "source_ids": "zaragoza:kaynak:241;zaragoza:kaynak:249",
+ "reviewed_on": "2026-11-02",
+ "order": 1013,
+ "featured": "Hayır",
+ "editorial_status": "Taslak",
+ "topic_id": "zaragoza:ulasim",
+ "steps": "CTAZ'ın sitesinde Línea 505 Aeropuerto sayfasından güncel durak ve saatlere bak; saatler uçuş yoğunluğuna göre ayarlıdır.\nŞehir merkezinde Paseo María Agustín 7'den ya da Delicias'ta Estación Intermodal'den L505'e bin.\nTarjeta Lazo'nu otobüste okut; Lazo ile aktarma ve birleşik tarife uygulanır.\nTaksi için varış terminalinin çıkışındaki duraktan bin ya da 976 383 838 / 976 750 962'yi ara.\nAraçla gidiyorsan havalimanına A-2 ve N-125 üzerinden erişilir; merkezden ortalama 15-20 dakika sürer.",
+ "documents": "",
+ "timing": "Araçla merkezden yaklaşık 15-20 dakika",
+ "cost": "Taksi: merkez-havalimanı yaklaşık 25 € (belediyenin havalimanı sayfasına göre)",
+ "note": "Havalimanı adresi: Ctra. del Aeropuerto s/n, 50011 Zaragoza.",
+ "visual_json": "",
+ "_sekme": "Yanıtlar",
+ "kaynaklar": [
+  {
+   "source_id": "zaragoza:kaynak:241",
+   "url": "https://www.ctaz.es/servicios/transporte-publico-ctaz-2/",
+   "publisher": "CTAZ",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_ulasim/3da332f1ec9eed607d31dc1d84fa3b116b97f705ed11adc75652d5eb31a492c6.txt"
+  },
+  {
+   "source_id": "zaragoza:kaynak:249",
+   "url": "https://www.zaragoza.es/sede/servicio/equipamiento/8345",
+   "publisher": "Ayuntamiento de Zaragoza",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_ulasim/1135e29aed5887a8b5ab42398a06e7908ddb43e7a9e37be616b8e4185800b93b.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-havalimani-zaragoza-otobus-taksi-1",
+   "field": "summary",
+   "claim": "Havalimanı ulaşımı otobüs, taksi ve kiralık araçla",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:249",
+   "quote": "Las conexiones del Aeropuerto con la ciudad se hacen a través de autobús, taxis y coches de alquiler."
+  },
+  {
+   "claim_id": "C-havalimani-zaragoza-otobus-taksi-2",
+   "field": "summary",
+   "claim": "Merkezden araçla ortalama 15-20 dakika",
+   "value": "15-20",
+   "unit": "dakika",
+   "period": "",
+   "source_id": "zaragoza:kaynak:249",
+   "quote": "El tiempo medio de acceso desde el centro de Zaragoza se estima entre quince y veinte minutos."
+  },
+  {
+   "claim_id": "C-havalimani-zaragoza-otobus-taksi-3",
+   "field": "summary",
+   "claim": "L505 hattı şehir merkezini ve Delicias'ı havalimanına bağlar",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:241",
+   "quote": "La Línea 505 conecta Zaragoza con el Aeropuerto, facilitando el acceso a las terminales desde puntos estratégicos como el centro de la ciudad o la estación intermodal de Delicias."
+  },
+  {
+   "claim_id": "C-havalimani-zaragoza-otobus-taksi-4",
+   "field": "summary",
+   "claim": "L505 saatleri uçuş yoğunluğuna göre ayarlı",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:241",
+   "quote": "Sus horarios están coordinados con las franjas de mayor actividad aérea, tanto de salidas como de llegadas."
+  },
+  {
+   "claim_id": "C-havalimani-zaragoza-otobus-taksi-5",
+   "field": "summary",
+   "claim": "L505'te Tarjeta Lazo kullanılır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:241",
+   "quote": "permite el uso de la Tarjeta Lazo"
+  },
+  {
+   "claim_id": "C-havalimani-zaragoza-otobus-taksi-6",
+   "field": "summary",
+   "claim": "Duraklardan biri Paseo María Agustín 7",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:249",
+   "quote": "Paseo Maria Agustín, 7"
+  },
+  {
+   "claim_id": "C-havalimani-zaragoza-otobus-taksi-7",
+   "field": "summary",
+   "claim": "Duraklardan biri Estación Intermodal",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:249",
+   "quote": "Estación Intermodal"
+  },
+  {
+   "claim_id": "C-havalimani-zaragoza-otobus-taksi-8",
+   "field": "cost",
+   "claim": "Taksi merkez-havalimanı yaklaşık 25 €",
+   "value": "25",
+   "unit": "EUR",
+   "period": "",
+   "source_id": "zaragoza:kaynak:249",
+   "quote": "El precio aproximado del trayecto entre el centro de la ciudad y el aeropuerto es de 25 euros."
+  },
+  {
+   "claim_id": "C-havalimani-zaragoza-otobus-taksi-9",
+   "field": "steps",
+   "claim": "Taksi durağı varış terminalinin çıkışında",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:249",
+   "quote": "La parada de taxis está justo al salir de la terminal de llegadas."
+  },
+  {
+   "claim_id": "C-havalimani-zaragoza-otobus-taksi-10",
+   "field": "steps",
+   "claim": "Taksi telefonları 976 383 838 ve 976 750 962",
+   "value": "976 383 838; 976 750 962",
+   "unit": "telefon",
+   "period": "",
+   "source_id": "zaragoza:kaynak:249",
+   "quote": "Teléfono: 976 383 838; 976 750 962"
+  },
+  {
+   "claim_id": "C-havalimani-zaragoza-otobus-taksi-11",
+   "field": "steps",
+   "claim": "Araçla A-2 ve N-125 üzerinden erişim",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:249",
+   "quote": "Se realiza el acceso al aeropuerto mediante dos ramales que parten de la A-2 uno y de la N-125 otro"
+  },
+  {
+   "claim_id": "C-havalimani-zaragoza-otobus-taksi-12",
+   "field": "note",
+   "claim": "Havalimanı adresi",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:249",
+   "quote": "Dirección: Ctra. Del Aeropuerto, s/n - 50011"
+  },
+  {
+   "claim_id": "C-havalimani-zaragoza-otobus-taksi-13",
+   "field": "steps",
+   "claim": "Lazo ile aktarma ve birleşik tarife",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:241",
+   "quote": "facilitando transbordos y una tarifa unificada con otros medios de transporte"
+  }
+ ],
+ "adimlar": [],
+ "butonlar": [
+  {
+   "action_id": "zaragoza:action:havalimani-zaragoza-otobus-taksi-1",
+   "label": "Ulaşımı planla",
+   "url": "https://www.ctaz.es/servicios/transporte-publico-ctaz-2/"
+  },
+  {
+   "action_id": "zaragoza:action:havalimani-zaragoza-otobus-taksi-2",
+   "label": "Bilgi al",
+   "url": "https://www.zaragoza.es/sede/servicio/equipamiento/8345"
+  }
+ ]
+}
