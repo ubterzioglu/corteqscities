@@ -32,10 +32,10 @@
       "karisik": 0,
       "findings": 0,
       "labels": {
-        "records": 501,
-        "hitapsiz": 53,
+        "records": 503,
+        "hitapsiz": 54,
         "siz": 0,
-        "sen": 448,
+        "sen": 449,
         "karisik": 0
       },
       "skipped": []
@@ -158,9 +158,9 @@
       },
       "Mekânlar": {
         "records": 98,
-        "hitapsiz": 92,
+        "hitapsiz": 94,
         "siz": 0,
-        "sen": 6,
+        "sen": 4,
         "karisik": 0
       },
       "Mahalleler": {
@@ -193,9 +193,9 @@
       },
       "Sözlük": {
         "records": 59,
-        "hitapsiz": 59,
+        "hitapsiz": 57,
         "siz": 0,
-        "sen": 0,
+        "sen": 2,
         "karisik": 0
       },
       "SayfaAlanları": {
@@ -221,10 +221,10 @@
       }
     },
     "labels": {
-      "records": 501,
-      "hitapsiz": 53,
+      "records": 503,
+      "hitapsiz": 54,
       "siz": 0,
-      "sen": 448,
+      "sen": 449,
       "karisik": 0
     },
     "skipped": [],
@@ -310,15 +310,16 @@
         "id": "marbella:endulus-okul-kaydi-basvuru-donemi-ve-gec-gelen-ogrenci",
         "form": "sen",
         "fields": {
-          "steps": "sen"
+          "steps": "sen",
+          "documents": "sen"
         },
         "siz": [],
         "sen": [
-          "doldur",
-          "istediğin",
           "ver",
-          "kullan",
-          "yazabilirsin"
+          "istediğin",
+          "yaz",
+          "doldur",
+          "kullan"
         ]
       },
       {
@@ -2212,15 +2213,16 @@
         "id": "marbella:dijital-gocebe-vizesi",
         "form": "sen",
         "fields": {
-          "steps": "sen"
+          "steps": "sen",
+          "documents": "sen"
         },
         "siz": [],
         "sen": [
           "çalışıyorsan",
           "hazırla",
           "ekle",
-          "göster",
-          "sana"
+          "verirsin",
+          "göster"
         ]
       },
       {
@@ -2255,7 +2257,7 @@
           "planlıyorsan",
           "yaptıysan",
           "iznin",
-          "istiyorsan"
+          "istersen"
         ]
       },
       {
@@ -3620,11 +3622,11 @@
         },
         "siz": [],
         "sen": [
-          "başvurursun",
+          "verirsin",
+          "sana",
+          "istersen",
           "seçersin",
-          "başvurursan",
-          "bul",
-          "git"
+          "başvurursan"
         ]
       },
       {
@@ -4251,8 +4253,7 @@
         "sen": [
           "gir",
           "git",
-          "bırakıyorsun",
-          "öğren"
+          "bırakıyorsun"
         ]
       },
       {
@@ -4295,45 +4296,19 @@
         ]
       },
       {
-        "sheet": "Mekânlar",
-        "row": 73,
-        "id": "marbella:iglesia-de-san-pedro-de-alcantara",
-        "form": "sen",
-        "fields": {
-          "summary": "sen"
-        },
-        "siz": [],
-        "sen": [
-          "ara"
-        ]
-      },
-      {
-        "sheet": "Mekânlar",
-        "row": 77,
-        "id": "marbella:casa-museo-de-mijas",
-        "form": "sen",
-        "fields": {
-          "summary": "sen"
-        },
-        "siz": [],
-        "sen": [
-          "öğrenebilirsin"
-        ]
-      },
-      {
         "sheet": "Mahalleler",
         "row": 12,
         "id": "marbella:guadaiza-cuatro-vientos",
         "form": "sen",
         "fields": {
-          "summary": "sen",
-          "note": "sen"
+          "note": "sen",
+          "compare_json": "sen"
         },
         "siz": [],
         "sen": [
-          "olman",
-          "istediğin",
-          "ikametin"
+          "yaptırırsın",
+          "indirirsin",
+          "katılırsın"
         ]
       },
       {
@@ -4342,7 +4317,7 @@
         "id": "marbella:sierra-blanca",
         "form": "sen",
         "fields": {
-          "compare_json": "sen"
+          "note": "sen"
         },
         "siz": [],
         "sen": [
@@ -4362,6 +4337,7 @@
         "sen": [
           "başla",
           "et",
+          "gez",
           "bakarsın"
         ]
       },
@@ -4574,6 +4550,32 @@
         "siz": [],
         "sen": [
           "et"
+        ]
+      },
+      {
+        "sheet": "Sözlük",
+        "row": 9,
+        "id": "marbella:term:002",
+        "form": "sen",
+        "fields": {
+          "definition": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "bak"
+        ]
+      },
+      {
+        "sheet": "Sözlük",
+        "row": 31,
+        "id": "marbella:term:024",
+        "form": "sen",
+        "fields": {
+          "definition": "sen"
+        },
+        "siz": [],
+        "sen": [
+          "bak"
         ]
       },
       {

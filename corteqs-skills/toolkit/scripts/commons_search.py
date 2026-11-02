@@ -28,7 +28,7 @@ from urllib.parse import urlencode
 from common import EXIT_FINDINGS, EXIT_OK, EXIT_USAGE, emit, setup_utf8
 from photo_rules import haversine_km
 
-USER_AGENT = "CorteqsCityToolkit/0.1 (content research; https://www.mediawiki.org/wiki/API:Etiquette)"
+USER_AGENT = "CorteqsCityToolkit/0.1 (https://github.com/ubterzioglu/corteqscities; content research)"
 COMMONS_API = "https://commons.wikimedia.org/w/api.php"
 WIKIDATA_API = "https://www.wikidata.org/w/api.php"
 MAXLAG = "5"

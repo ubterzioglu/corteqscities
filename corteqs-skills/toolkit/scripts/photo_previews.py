@@ -41,7 +41,7 @@ from common import EXIT_FINDINGS, EXIT_OK, EXIT_USAGE, emit, setup_utf8, write_j
 from download_plan import STANDARD_WIDTHS
 from photo_rounds import load_candidates, read_jsonl, round_files, shown
 
-USER_AGENT = "CorteqsCityToolkit/0.1 (content research; https://www.mediawiki.org/wiki/API:Etiquette)"
+USER_AGENT = "CorteqsCityToolkit/0.1 (https://github.com/ubterzioglu/corteqscities; content research)"
 ALLOWED_PREFIXES = ("https://upload.wikimedia.org/", "https://thumb.wikimedia.org/")
 REQUEST_DELAY = 0.5
 MAX_ATTEMPTS = 3

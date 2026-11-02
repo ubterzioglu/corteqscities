@@ -1,0 +1,1341 @@
+===== KART 1/12: marbella:casco-antiguo =====
+{
+ "entry_id": "marbella:casco-antiguo",
+ "city_id": "marbella",
+ "slug": "casco-antiguo",
+ "title": "Casco Antiguo (Marbella tarihî merkezi)",
+ "subtitle": "Plaza de los Naranjos, belediye binası, kale ve surların çevresindeki tarihî merkez",
+ "summary": "Belediyenin \"Casco Histórico\" olarak tanıttığı tarihî merkez. Marbella merkezindeki Müslüman dönemi kalıntılarının en önemlisi olan kale (Alcazaba) ve surlar burada. Belediye binası Plaza de los Naranjos 1 adresinde; hafta içi 09:00-14:00 açık.",
+ "keywords": "casco antiguo, centro histórico, Plaza de los Naranjos, Marbella merkez, tarihî merkez",
+ "stages": "planning;new;settled",
+ "source_ids": "marbella:kaynak:270;marbella:kaynak:237",
+ "reviewed_on": "2026-11-02",
+ "order": 1,
+ "featured": "Evet",
+ "editorial_status": "Taslak",
+ "location": "Plaza de los Naranjos çevresindeki tarihî çekirdek; kalenin (Alcazaba) çevresini Solano, Portada, Arte, Salinas, Trinidad, Carmen, Ortiz del Molinillo ve Virgen de los Dolores sokakları çizer.",
+ "tags": "Tarihî merkez\nKale ve surlar\nBelediye binası",
+ "compare_json": "{\"Ulaşım\": \"Kalenin çevresi Solano, Portada, Arte, Salinas, Trinidad, Carmen, Ortiz del Molinillo ve Virgen de los Dolores sokaklarıyla çevrilidir. Belediyenin ulaşım ofisi (Oficina Municipal de Transporte) Avenida del Mercado s/n, Edificio Cantarrana adresindedir; hafta içi 09:00-14:00 açıktır.\", \"Yaşam ritmi\": \"Belediye binası Plaza de los Naranjos 1'de ve hafta içi 09:00-14:00 açıktır (tel. 952 761 100).\", \"Konut tipi\": \"Tarihî çekirdekte yapı mirası öne çıkar: surlar XI. ve XII. yüzyıldan kalmadır ve on (belki on bir) kuleyle çevriliydi.\", \"Yeşil alan ve sahil\": \"Belediye aynı tarihî merkez başlığı altında Paseo de la Alameda ve Jardines y Puente de la Represa'yı sayar.\"}",
+ "note": "",
+ "media_key": "",
+ "_sekme": "Mahalleler",
+ "kaynaklar": [
+  {
+   "source_id": "marbella:kaynak:270",
+   "url": "https://www.marbella.es/web/cultura/patrimonio/casco/castillo-de-marbella-alcazaba-y-muralla.html",
+   "publisher": "Ayuntamiento de Marbella",
+   "text_file": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\marbella\\_is\\snap_kesif_kesif\\5f706ef8d1ec56ade6861ba687f83e4237f2cba316aeb0bb1f11e69590d6e470.txt"
+  },
+  {
+   "source_id": "marbella:kaynak:237",
+   "url": "https://extranjeros.marbella.es/informacion/direcciones-de-interes",
+   "publisher": "Ayuntamiento de Marbella - Extranjeros Residentes",
+   "text_file": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\marbella\\_is\\snap_kesif_fatura\\8ac508f7f8bacf4a2e5adad8284d272c3613b36633d18438ba83c9431a4ec5ef.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-casco-antiguo-1",
+   "field": "summary",
+   "claim": "Kale, Müslüman döneminden kalan en önemli kalıntıdır ve Marbella merkezinde yer alır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:270",
+   "quote": "El castillo es el más importante vestigio de la civilización musulmana que se conserva en el centro Marbella"
+  },
+  {
+   "claim_id": "C-casco-antiguo-2",
+   "field": "location",
+   "claim": "Belediye kale ve surları \"Casco Histórico\" başlığı altında sunar",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:270",
+   "quote": "Alcazaba y Muralla Casco Histórico"
+  },
+  {
+   "claim_id": "C-casco-antiguo-4",
+   "field": "summary",
+   "claim": "Belediye binası Plaza de los Naranjos 1 adresinde, hafta içi 09:00-14:00",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:237",
+   "quote": "Ayuntamiento de Marbella Pl. de los Naranjos, 1, 29601 Marbella 952 761 100 De L-V de 09:00-14:00"
+  },
+  {
+   "claim_id": "C-casco-antiguo-11",
+   "field": "compare.Yeşil alan ve sahil",
+   "claim": "Tarihî merkez başlığı altında Alameda ve Represa bahçeleri",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:270",
+   "quote": "Paseo de la Alameda La Bella del Mar Jardines y Puente de la Represa"
+  },
+  {
+   "claim_id": "C-casco-antiguo-12",
+   "field": "location",
+   "claim": "Kalenin çevresini Solano, Portada, Arte, Salinas, Trinidad, Carmen, Ortiz del Molinillo ve Virgen de los Dolores sokakları çizer",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:270",
+   "quote": "Su perímetro viene definido por el trazado de las actuales calles Solano, Portada, Arte, Salinas, Trinidad, Carmen, Ortiz del Molinillo y Virgen de los Dolores."
+  },
+  {
+   "claim_id": "C-casco-antiguo-13",
+   "field": "compare.Ulaşım",
+   "claim": "Oficina Municipal de Transporte Avenida del Mercado s/n Edifi. Cantarrana adresinde, hafta içi 09:00-14:00",
+   "value": "09:00-14:00",
+   "unit": "saat",
+   "period": "",
+   "source_id": "marbella:kaynak:237",
+   "quote": "Oficina Municipal de Transporte Avenida del Mercado, s/n Edifi. Cantarrana, Marbella 952 768 716 De L-V de 09:00-14:00"
+  },
+  {
+   "claim_id": "C-casco-antiguo-14",
+   "field": "compare.Konut tipi",
+   "claim": "Surlar XI. ve XII. yüzyıldan kalmadır ve on (belki on bir) kuleyle çevriliydi",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:270",
+   "quote": "Sus murallas (de los siglos XI y XII), estuvieron jalonadas con diez torres (puede que once)"
+  }
+ ],
+ "butonlar": [
+  {
+   "action_id": "marbella:action:casco-antiguo-1",
+   "label": "Bilgi al",
+   "url": "https://www.marbella.es/web/cultura/patrimonio/casco/castillo-de-marbella-alcazaba-y-muralla.html"
+  },
+  {
+   "action_id": "marbella:action:casco-antiguo-2",
+   "label": "Bilgi al",
+   "url": "https://extranjeros.marbella.es/informacion/direcciones-de-interes"
+  }
+ ]
+}
+
+===== KART 2/12: marbella:marbella-merkez-ricardo-soriano =====
+{
+ "entry_id": "marbella:marbella-merkez-ricardo-soriano",
+ "city_id": "marbella",
+ "slug": "marbella-merkez-ricardo-soriano",
+ "title": "Marbella Centro (Avenida Ricardo Soriano çevresi)",
+ "subtitle": "Ricardo Soriano caddesindeki sağlık merkezi ve L6 otobüs hattıyla anılan merkez",
+ "summary": "Avenida Ricardo Soriano 61'de aile hekimi (Centro de salud Ricardo Soriano) var; pazartesi-perşembe 08:00-20:00, cuma 08:00-15:00 açık. Belediyenin 2022-23 sezon duyurusuna göre 6. hat (L6) Marbella Centro ile C.C. La Cañada arasında çalışıyordu.",
+ "keywords": "Marbella merkez, Ricardo Soriano, centro de salud, L6, La Cañada",
+ "stages": "planning;new;settled",
+ "source_ids": "marbella:kaynak:151;marbella:kaynak:314",
+ "reviewed_on": "2026-11-02",
+ "order": 2,
+ "featured": "Hayır",
+ "editorial_status": "Taslak",
+ "location": "Avenida Ricardo Soriano 61 (29601 Marbella); sağlık merkezinin adresi.",
+ "tags": "Şehir merkezi\nSağlık merkezi\nOtobüs hattı (2022-23)",
+ "compare_json": "{\"Ulaşım\": \"Belediyenin 2022-23 sezon duyurusuna göre 6. hat Marbella Centro ile C.C. La Cañada arasında çalışıyordu. Belediyede ikamet kaydı (padrón) olanlar (empadronado) Tarjeta Municipal de Movilidad ile ücretsiz biner (2022 duyurusu).\", \"Yaşam ritmi\": \"Centro de salud Ricardo Soriano (Av. Ricardo Soriano 61) pazartesi-perşembe 08:00-20:00, cuma 08:00-15:00 açık.\", \"Konut tipi\": \"Sağlık merkezinin adresi olan Av. Ricardo Soriano 61, 29601 posta kodlu merkez bölgesindedir.\", \"Yeşil alan ve sahil\": \"Merkez için ayrı park ya da sahil verisi yok.\"}",
+ "note": "",
+ "media_key": "",
+ "_sekme": "Mahalleler",
+ "kaynaklar": [
+  {
+   "source_id": "marbella:kaynak:151",
+   "url": "https://www.sspa.juntadeandalucia.es/servicioandaluzdesalud/el-sas/servicios-y-centros/informacion-por-centros/32839",
+   "publisher": "Servicio Andaluz de Salud",
+   "text_file": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\marbella\\_is\\snap_kesif_saglik\\cf1bdb6f702be56079b2c0e8889f5332e24f303b3cdedc0ebd50b8a0ab6c6ecd.txt"
+  },
+  {
+   "source_id": "marbella:kaynak:314",
+   "url": "https://www.marbella.es/actualidad/noticias/el-servicio-urbano-de-autobuses-readapta-sus-horarios-y-expediciones-a-la-nueva-temporada-entre-septiembre-y-junio.html",
+   "publisher": "Ayuntamiento de Marbella",
+   "text_file": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\marbella\\_is\\snap_mahalle-yazar1\\812d9bc6061501198192bf32e0ab36f9013c83be319cd0a4a5790d58b67bca89.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-marbella-merkez-ricardo-soriano-1",
+   "field": "location",
+   "claim": "Sağlık merkezi adresi Av. Ricardo Soriano 61",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:151",
+   "quote": "AV RICARDO SORIANO, 61 29601 MARBELLA"
+  },
+  {
+   "claim_id": "C-marbella-merkez-ricardo-soriano-2",
+   "field": "compare.Yaşam ritmi",
+   "claim": "Sağlık merkezi cuma günü 08:00-15:00",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:151",
+   "quote": "Viernes 08:00 - 15:00"
+  },
+  {
+   "claim_id": "C-marbella-merkez-ricardo-soriano-3",
+   "field": "compare.Yaşam ritmi",
+   "claim": "Sağlık merkezi pazartesi 08:00-20:00",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:151",
+   "quote": "Lunes 08:00 - 20:00"
+  },
+  {
+   "claim_id": "C-marbella-merkez-ricardo-soriano-5",
+   "field": "compare.Ulaşım",
+   "claim": "6. hat Marbella Centro-C.C. La Cañada",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:314",
+   "quote": "L6 (Marbella Centro-C.C. La Cañada)"
+  },
+  {
+   "claim_id": "C-marbella-merkez-ricardo-soriano-7",
+   "field": "compare.Ulaşım",
+   "claim": "Empadronado olanlara ücretsiz Tarjeta Municipal de Movilidad",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:314",
+   "quote": "Tarjeta Municipal de Movilidad, que permite el viaje gratuito a los ciudadanos empadronados"
+  },
+  {
+   "claim_id": "C-marbella-merkez-ricardo-soriano-15",
+   "field": "compare.Yaşam ritmi",
+   "claim": "Sağlık merkezi salı, çarşamba ve perşembe 08:00-20:00 açık",
+   "value": "08:00-20:00",
+   "unit": "saat",
+   "period": "",
+   "source_id": "marbella:kaynak:151",
+   "quote": "Martes 08:00 - 20:00 Miércoles 08:00 - 20:00 Jueves 08:00 - 20:00"
+  }
+ ],
+ "butonlar": [
+  {
+   "action_id": "marbella:action:marbella-merkez-ricardo-soriano-1",
+   "label": "Ziyaret bilgisi",
+   "url": "https://www.sspa.juntadeandalucia.es/servicioandaluzdesalud/el-sas/servicios-y-centros/informacion-por-centros/32839"
+  },
+  {
+   "action_id": "marbella:action:marbella-merkez-ricardo-soriano-2",
+   "label": "Ulaşımı planla",
+   "url": "https://ayuntamiento.marbella.es/gestion-municipal/delegaciones/movilidad/transportes/autobus/534-autobus-urbano.html"
+  }
+ ]
+}
+
+===== KART 3/12: marbella:nueva-andalucia =====
+{
+ "entry_id": "marbella:nueva-andalucia",
+ "city_id": "marbella",
+ "slug": "nueva-andalucia",
+ "title": "Nueva Andalucía",
+ "subtitle": "Tenencia ofisi olan semt; turistik kiralık konutun arttığı kıyı şeridinde yer alıyor",
+ "summary": "Belediyenin tenencia ofisi Av. Miguel de Cervantes 15'te (tel. 952 814 119) ve hafta içi 09:00-14:00 açık. Belediyenin sunduğu Málaga Üniversitesi araştırmasına (Şubat 2025) göre turistik kiralık konut kıyı şeridinde, özellikle Nueva Andalucía'da arttı.",
+ "keywords": "Nueva Andalucía, tenencia, turistik kiralık konut",
+ "stages": "planning;new;settled",
+ "source_ids": "marbella:kaynak:237;marbella:kaynak:224",
+ "reviewed_on": "2026-11-02",
+ "order": 3,
+ "featured": "Evet",
+ "editorial_status": "Taslak",
+ "location": "Nueva Andalucía; tenencia ofisi Av. Miguel de Cervantes 15, 29660.",
+ "tags": "Tenencia ofisi\nTuristik kiralık konut\nKıyı şeridi",
+ "compare_json": "{\"Ulaşım\": \"Tenencia ofisine Av. Miguel de Cervantes 15 (29660) adresinden gidilir; telefon 952 814 119.\", \"Yaşam ritmi\": \"Tenencia de Nueva Andalucía hafta içi 09:00-14:00 açıktır.\", \"Konut tipi\": \"Turistik kiralık konut kıyı şeridinde, özellikle Nueva Andalucía'da arttı (Málaga Üniversitesi araştırması, Şubat 2025). Aynı araştırma golf sahalarının çevresinde şale (chalet) gibi büyük konutlara talep olduğunu söylüyor; bu bulgu Marbella geneli için verilmiş.\", \"Yeşil alan ve sahil\": \"Araştırma, turistik konutun arttığı alanı kıyı şeridi (franja litoral) diye adlandırıyor ve Nueva Andalucía'yı bu şeridin içinde anıyor.\"}",
+ "note": "",
+ "media_key": "",
+ "_sekme": "Mahalleler",
+ "kaynaklar": [
+  {
+   "source_id": "marbella:kaynak:237",
+   "url": "https://extranjeros.marbella.es/informacion/direcciones-de-interes",
+   "publisher": "Ayuntamiento de Marbella - Extranjeros Residentes",
+   "text_file": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\marbella\\_is\\snap_kesif_fatura\\8ac508f7f8bacf4a2e5adad8284d272c3613b36633d18438ba83c9431a4ec5ef.txt"
+  },
+  {
+   "source_id": "marbella:kaynak:224",
+   "url": "https://www.marbella.es/actualidad/noticias/marbella-contara-con-un-registro-municipal-de-viviendas-turisticas-y-con-una-nueva-normativa-que-limitara-el-cambio-de-uso-para-esta-actividad-de-los-locales-comerciales.html",
+   "publisher": "Ayuntamiento de Marbella",
+   "text_file": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\marbella\\_is\\snap_kesif_ev\\46abe21f69f974d9e0a9fff595da11ce8115569fc4c55481b18e210bbaa73838.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-nueva-andalucia-1",
+   "field": "location",
+   "claim": "Tenencia adresi ve saati",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:237",
+   "quote": "Tenencia de Nueva Andalucía Av. Miguel de Cervantes, 15 - 29660, Marbella 952 814 119 De L-V de 09:00-14:00"
+  },
+  {
+   "claim_id": "C-nueva-andalucia-8",
+   "field": "compare.Konut tipi",
+   "claim": "Turistik konut kıyı şeridinde, özellikle Nueva Andalucía'da arttı",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:224",
+   "quote": "ha aumentado en la franja litoral, especialmente en Nueva Andalucía"
+  },
+  {
+   "claim_id": "C-nueva-andalucia-9",
+   "field": "compare.Konut tipi",
+   "claim": "Turistik kiralık konutta golf sahası çevresinde chalet gibi büyük konutlara talep",
+   "value": "",
+   "unit": "",
+   "period": "19 Şubat 2025",
+   "source_id": "marbella:kaynak:224",
+   "quote": "hay una mayor oferta en el entorno de los campos de golf, lo que indica que hay una demanda de un tipo de viviendas como chalés"
+  }
+ ],
+ "butonlar": [
+  {
+   "action_id": "marbella:action:nueva-andalucia-1",
+   "label": "Bilgi al",
+   "url": "https://extranjeros.marbella.es/informacion/direcciones-de-interes"
+  },
+  {
+   "action_id": "marbella:action:nueva-andalucia-2",
+   "label": "Bilgi al",
+   "url": "https://www.marbella.es/actualidad/noticias/marbella-contara-con-un-registro-municipal-de-viviendas-turisticas-y-con-una-nueva-normativa-que-limitara-el-cambio-de-uso-para-esta-actividad-de-los-locales-comerciales.html"
+  }
+ ]
+}
+
+===== KART 4/12: marbella:san-pedro-alcantara-merkez =====
+{
+ "entry_id": "marbella:san-pedro-alcantara-merkez",
+ "city_id": "marbella",
+ "slug": "san-pedro-alcantara-merkez",
+ "title": "San Pedro Alcántara (merkez)",
+ "subtitle": "Kendi tenencia ofisi olan kasaba; güneyinde 172 kiralık korumalı konut için ruhsat öncelikli verildi",
+ "summary": "Tenencia de Alcaldía Pl. de la Iglesia 1'de (tel. 952 809 800): hafta içi 09:00-14:00, salı ve perşembe ayrıca 16:30-19:30 açık. Belediye Junta de Gobierno'su 25 Mart 2025'te San Pedro'nun güneyindeki özel parselde 172 kiralık korumalı konut için ruhsatın öncelikli verilmesini onayladı.",
+ "keywords": "San Pedro Alcántara, tenencia, korumalı konut, kiralık",
+ "stages": "planning;new;settled",
+ "source_ids": "marbella:kaynak:237;marbella:kaynak:330",
+ "reviewed_on": "2026-11-02",
+ "order": 4,
+ "featured": "Hayır",
+ "editorial_status": "Taslak",
+ "location": "San Pedro Alcántara (29670); tenencia ofisi Pl. de la Iglesia 1.",
+ "tags": "Tenencia ofisi\nKiralık korumalı konut projesi\nSan Pedro Alcántara",
+ "compare_json": "{\"Ulaşım\": \"Tenencia ofisine Pl. de la Iglesia 1 (29670) adresinden gidilir.\", \"Yaşam ritmi\": \"Tenencia de Alcaldía Pl. de la Iglesia 1: hafta içi 09:00-14:00, salı ve perşembe ayrıca 16:30-19:30.\", \"Konut tipi\": \"Mart 2025'te belediye Junta de Gobierno'su, San Pedro'nun güneyinde özel bir parselde 172 kiralık korumalı konut için ruhsatın öncelikli verilmesini onayladı; proje iki faz hâlinde 40 ve 132 birimdir, toplam bütçe 22 milyon euro.\", \"Yeşil alan ve sahil\": \"Konutların yapılacağı parsel San Pedro'nun güneyinde, özel mülkiyettedir.\"}",
+ "note": "",
+ "media_key": "",
+ "_sekme": "Mahalleler",
+ "kaynaklar": [
+  {
+   "source_id": "marbella:kaynak:237",
+   "url": "https://extranjeros.marbella.es/informacion/direcciones-de-interes",
+   "publisher": "Ayuntamiento de Marbella - Extranjeros Residentes",
+   "text_file": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\marbella\\_is\\snap_kesif_fatura\\8ac508f7f8bacf4a2e5adad8284d272c3613b36633d18438ba83c9431a4ec5ef.txt"
+  },
+  {
+   "source_id": "marbella:kaynak:330",
+   "url": "https://www.marbella.es/actualidad/noticias/el-ayuntamiento-prioriza-la-concesion-de-una-licencia-de-obras-para-la-construccion-de-172-viviendas-de-proteccion-publica-en-regimen-de-alquiler-en-san-pedro-alcantara.html",
+   "publisher": "Ayuntamiento de Marbella",
+   "text_file": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\marbella\\_is\\snap_mahalle-yazar4\\5641ab2e21191e79b92f03403a3d0bef8e8f3782e162adb45f2128e74174d451.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-san-pedro-alcantara-merkez-1",
+   "field": "location",
+   "claim": "Tenencia adresi ve saatleri",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:237",
+   "quote": "Tenencia de Alcaldía San Pedro de Alcántara Pl. de la Iglesia, 1, 29670 San Pedro Alcántara 952 809 800 De L-V de 09:00-14:00 M-J de 16:30-19:30"
+  },
+  {
+   "claim_id": "C-san-pedro-alcantara-merkez-8",
+   "field": "compare.Konut tipi",
+   "claim": "Junta de Gobierno 172 kiralık korumalı konut için ruhsatın öncelikli verilmesini onayladı (25 Mart 2025)",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:330",
+   "quote": "ha aprobado priorizar el otorgamiento de una licencia de obras para la construcción de 172 viviendas de protección pública en régimen de alquiler"
+  },
+  {
+   "claim_id": "C-san-pedro-alcantara-merkez-9",
+   "field": "compare.Konut tipi",
+   "claim": "Konutlar San Pedro'nun güneyindeki özel parselde",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:330",
+   "quote": "parcela privada al sur de San Pedro"
+  },
+  {
+   "claim_id": "C-san-pedro-alcantara-merkez-15",
+   "field": "compare.Konut tipi",
+   "claim": "Proje iki fazlı: 40 ve 132 birim",
+   "value": "172",
+   "unit": "konut",
+   "period": "",
+   "source_id": "marbella:kaynak:330",
+   "quote": "dos fases, una de ellas de 40 unidades y otra de 132"
+  },
+  {
+   "claim_id": "C-san-pedro-alcantara-merkez-16",
+   "field": "compare.Konut tipi",
+   "claim": "Projenin toplam bütçesi 22 milyon euro (16,7 ve 5,3 milyon)",
+   "value": "22000000",
+   "unit": "EUR",
+   "period": "25 Mart 2025",
+   "source_id": "marbella:kaynak:330",
+   "quote": "una partida presupuestaria de 22 millones de euros (16,7 en el primer caso y 5,3 en el segundo)"
+  }
+ ],
+ "butonlar": [
+  {
+   "action_id": "marbella:action:san-pedro-alcantara-merkez-1",
+   "label": "Bilgi al",
+   "url": "https://extranjeros.marbella.es/informacion/direcciones-de-interes"
+  },
+  {
+   "action_id": "marbella:action:san-pedro-alcantara-merkez-2",
+   "label": "Bilgi al",
+   "url": "https://www.marbella.es/actualidad/noticias/el-ayuntamiento-prioriza-la-concesion-de-una-licencia-de-obras-para-la-construccion-de-172-viviendas-de-proteccion-publica-en-regimen-de-alquiler-en-san-pedro-alcantara.html"
+  }
+ ]
+}
+
+===== KART 5/12: marbella:guadaiza-cuatro-vientos =====
+{
+ "entry_id": "marbella:guadaiza-cuatro-vientos",
+ "city_id": "marbella",
+ "slug": "guadaiza-cuatro-vientos",
+ "title": "Guadaiza ve Cuatro Vientos (San Pedro Alcántara)",
+ "subtitle": "San Pedro Alcántara'da belediye korumalı konut projelerinin yer aldığı iki bölge",
+ "summary": "San Pedro Alcántara'daki Cuatro Vientos ve Guadaiza bölgelerinde belediye, 28 Kasım 2022 tarihli haberine göre 37 + 70 = 107 korumalı konut inşa etti (Cuatro Vientos'ta 37, Guadaiza'da 70). Korumalı konutun başvuruları belediyenin talep sicili (Registro Municipal de Demandantes) üzerinden yapılıyor.",
+ "keywords": "Guadaiza, Cuatro Vientos, San Pedro Alcántara, korumalı konut, registro de demandantes",
+ "stages": "planning;new;settled",
+ "source_ids": "marbella:kaynak:325;marbella:kaynak:216",
+ "reviewed_on": "2026-11-02",
+ "order": 5,
+ "featured": "Hayır",
+ "editorial_status": "Taslak",
+ "location": "San Pedro Alcántara'daki Guadaiza ve Cuatro Vientos bölgeleri.",
+ "tags": "Korumalı konut\nSan Pedro Alcántara\nBelediye projeleri",
+ "compare_json": "{\"Ulaşım\": \"Guadaiza ve Cuatro Vientos için ayrı bir ulaşım verisi yok.\", \"Yaşam ritmi\": \"Sicil kaydı belediyenin vatandaş hizmet bürolarında ya da elektronik büroda (Sede Electrónica) yapılır; kayıttan sonra çekilişlere (sorteo) katılırsın.\", \"Konut tipi\": \"Cuatro Vientos'ta 37, Guadaiza'da 70 korumalı konut yapıldı (toplam 107). Kasım 2022'de belediye, Guadaiza promosyonu (satılık) ile eski Escuela Oficial de Idiomas binasındaki (kiralık) konutlardan oluşan 91 korumalı konutun çekilişi için kayıt süresini açtı: 73 satılık konutun inşaatı Nueva Andalucía'da sürüyordu (temel aşaması), Huerta de los Cristales'teki 18 kiralık konut gençlere yönelikti ve aylık kira gelir türüne göre 135 ya da 190 euroydu (73 + 18 = 91).\", \"Yeşil alan ve sahil\": \"Guadaiza ve Cuatro Vientos için ayrı bir park ya da sahil verisi yok.\"}",
+ "note": "Korumalı konuta başvurmak için belediyenin talep sicilinde (registro de demandantes) kayıt yaptırırsın. Kayıt belediyenin vatandaş hizmet bürolarında (Oficinas Municipales de Atención a los Ciudadanos) ya da elektronik bürodan (Sede Electrónica) yapılır. Başvuruyla birlikte reşit olan her başvurucunun geçerli kimlik belgesinin fotokopisi verilir; duruma göre aile cüzdanı (libro de familia), boşanma ya da ayrılık kararı da eklenir. Kayıttan sonra çekilişlere katılırsın.",
+ "media_key": "",
+ "_sekme": "Mahalleler",
+ "kaynaklar": [
+  {
+   "source_id": "marbella:kaynak:325",
+   "url": "https://www.marbella.es/actualidad/noticias/el-ayuntamiento-abre-hoy-el-plazo-de-inscripcion-para-el-sorteo-de-las-91-viviendas-protegidas-de-las-promociones-de-guadaiza-y-la-antigua-escuela-oficial-de-idiomas.html",
+   "publisher": "Ayuntamiento de Marbella",
+   "text_file": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\marbella\\_is\\snap_mahalle-yazar2\\08523d6f283dc711d83e9b7f972b2f9e91c04e2a52a9eb7b0c890d328b90b3f3.txt"
+  },
+  {
+   "source_id": "marbella:kaynak:216",
+   "url": "https://vivienda.marbella.es/registro-de-demandantes/como-se-realiza-el-tramite-y-donde.html",
+   "publisher": "Ayuntamiento de Marbella - Vivienda y Suelo",
+   "text_file": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\marbella\\_is\\snap_kesif_ev\\cd8541e2d4a812803cc55c4314f785798db1c2269ba1de29387d874221fb8c80.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-guadaiza-cuatro-vientos-1",
+   "field": "summary",
+   "claim": "Cuatro Vientos'ta 37, Guadaiza'da 70 korumalı konut yapıldı, toplam 107 (28 Kasım 2022 haberi)",
+   "value": "",
+   "unit": "",
+   "period": "28 Kasım 2022",
+   "source_id": "marbella:kaynak:325",
+   "quote": "se han construido 37 en la zona de Cuatro Vientos de San Pedro Alcántara y 70 en Guadaiza, sumando un total de 107"
+  },
+  {
+   "claim_id": "C-guadaiza-cuatro-vientos-3",
+   "field": "compare.Konut tipi",
+   "claim": "Kasım 2022'de haberde Guadaiza promosyonu (satılık) ve eski Escuela Oficial de Idiomas (kiralık) olarak anılan 91 korumalı konut için çekiliş kayıt süresi açıldı",
+   "value": "",
+   "unit": "",
+   "period": "28 Kasım 2022",
+   "source_id": "marbella:kaynak:325",
+   "quote": "91 viviendas protegidas de las promociones de Guadaiza, en régimen de venta, y la antigua Escuela Oficial de Idiomas, destinada al alquiler"
+  },
+  {
+   "claim_id": "C-guadaiza-cuatro-vientos-19",
+   "field": "compare.Konut tipi",
+   "claim": "Haber, 73 satılık konutun inşaatının (temel aşaması) Nueva Andalucía'da sürdüğünü yazıyor",
+   "value": "73",
+   "unit": "konut",
+   "period": "28 Kasım 2022",
+   "source_id": "marbella:kaynak:325",
+   "quote": "en Nueva Andalucía se está acometiendo actualmente la cimentación del edificio"
+  },
+  {
+   "claim_id": "C-guadaiza-cuatro-vientos-20",
+   "field": "compare.Konut tipi",
+   "claim": "Huerta de los Cristales'te 18 kiralık konut; 73 satılık + 18 kiralık = 91 (hesap)",
+   "value": "18",
+   "unit": "konut",
+   "period": "28 Kasım 2022",
+   "source_id": "marbella:kaynak:325",
+   "quote": "ofertando 18 unidades en alquiler"
+  },
+  {
+   "claim_id": "C-guadaiza-cuatro-vientos-11",
+   "field": "note",
+   "claim": "Kayıt belediyenin vatandaş hizmet bürolarında yapılabilir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:216",
+   "quote": "Por vía presencial, en las Oficinas Municipales de Atención a los Ciudadanos y registro de entrada del Ayuntamiento"
+  },
+  {
+   "claim_id": "C-guadaiza-cuatro-vientos-12",
+   "field": "note",
+   "claim": "Kayıt elektronik büro üzerinden de yapılabilir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:216",
+   "quote": "Por vía telemática, a través de enlace disponible en este sitio web. Sede Electrónica"
+  },
+  {
+   "claim_id": "C-guadaiza-cuatro-vientos-21",
+   "field": "note",
+   "claim": "Başvuruyla birlikte reşit olan her başvurucunun geçerli kimlik belgesi fotokopisi verilir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:216",
+   "quote": "Fotocopia del documento de identidad en vigor de todos los solicitantes mayores de edad."
+  },
+  {
+   "claim_id": "C-guadaiza-cuatro-vientos-22",
+   "field": "note",
+   "claim": "Duruma göre aile cüzdanı (libro de familia) eklenir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:216",
+   "quote": "Libro de familia completo."
+  },
+  {
+   "claim_id": "C-guadaiza-cuatro-vientos-23",
+   "field": "note",
+   "claim": "Duruma göre boşanma ya da ayrılık kararı eklenir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:216",
+   "quote": "Sentencia de separación o divorcio."
+  },
+  {
+   "claim_id": "C-guadaiza-cuatro-vientos-24",
+   "field": "note",
+   "claim": "Kayıttan sonra çekilişlere (sorteo) katılım başlar",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:216",
+   "quote": "Una vez inscrito, comenzará a participar en los sorteos"
+  },
+  {
+   "claim_id": "C-guadaiza-cuatro-vientos-25",
+   "field": "summary",
+   "claim": "Başvurular Registro Público Municipal de Demandantes de Vivienda Protegida üzerinden yapılır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:325",
+   "quote": "las solicitudes se realizarán a través del Registro Público Municipal de Demandantes de Vivienda Protegida"
+  },
+  {
+   "claim_id": "C-guadaiza-cuatro-vientos-26",
+   "field": "compare.Konut tipi",
+   "claim": "Huerta de los Cristales kiralık konutların aylık kirası 135 ya da 190 euro (gelir türüne göre)",
+   "value": "135;190",
+   "unit": "EUR/ay",
+   "period": "Kasım 2022",
+   "source_id": "marbella:kaynak:325",
+   "quote": "con unos valores mensuales de 135 o 190 euros para cada tipo de renta"
+  }
+ ],
+ "butonlar": [
+  {
+   "action_id": "marbella:action:guadaiza-cuatro-vientos-1",
+   "label": "Bilgi al",
+   "url": "https://vivienda.marbella.es/registro-de-demandantes.html"
+  },
+  {
+   "action_id": "marbella:action:guadaiza-cuatro-vientos-2",
+   "label": "Bilgi al",
+   "url": "https://vivienda.marbella.es/registro-de-demandantes/como-se-realiza-el-tramite-y-donde.html"
+  }
+ ]
+}
+
+===== KART 6/12: marbella:las-chapas =====
+{
+ "entry_id": "marbella:las-chapas",
+ "city_id": "marbella",
+ "slug": "las-chapas",
+ "title": "Las Chapas",
+ "subtitle": "Kendi tenencia ofisi olan semt; Andasol gibi eski urbanizasyonlarda yıkıp yeniden yapma ruhsatının önü açıldı",
+ "summary": "Las Chapas'ın tenencia ofisi C/ Pinsapo s/n adresinde (29604), hafta içi 09:00-14:00 açık (tel. 952 768 730). Mayıs 2021'de belediye, Andasol urbanizasyonu gibi eski evlerin olduğu yerlerde yıkıp yeniden yapma ya da köklü yenileme ruhsatı başvurusunun önünü açtı; Andasol'da 94 konut var ve bazıları 50 yıldan eski.",
+ "keywords": "Las Chapas, tenencia, Andasol, eski konut",
+ "stages": "planning;new;settled",
+ "source_ids": "marbella:kaynak:237;marbella:kaynak:332",
+ "reviewed_on": "2026-11-02",
+ "order": 6,
+ "featured": "Hayır",
+ "editorial_status": "Taslak",
+ "location": "Las Chapas bölgesi; tenencia ofisi C/ Pinsapo s/n, 29604.",
+ "tags": "Belediye bölgesi\nUrbanizasyonlar\nEski konut yenileme",
+ "compare_json": "{\"Ulaşım\": \"Tenencia ofisine C/ Pinsapo s/n (29604) adresinden gidilir.\", \"Yaşam ritmi\": \"Tenencia de Las Chapas C/ Pinsapo s/n, hafta içi 09:00-14:00 (tel. 952 768 730).\", \"Konut tipi\": \"Andasol gibi urbanizasyonlar var: Andasol'da 94 konut var ve bazıları 50 yıldan eski; belediye 3 Mayıs 2021'de bu tür eski evler için yıkıp yeniden yapma ya da köklü yenileme ruhsatı başvurusunun önünü açtı.\", \"Yeşil alan ve sahil\": \"Las Chapas için ayrı park ya da sahil verisi yok.\"}",
+ "note": "",
+ "media_key": "",
+ "_sekme": "Mahalleler",
+ "kaynaklar": [
+  {
+   "source_id": "marbella:kaynak:237",
+   "url": "https://extranjeros.marbella.es/informacion/direcciones-de-interes",
+   "publisher": "Ayuntamiento de Marbella - Extranjeros Residentes",
+   "text_file": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\marbella\\_is\\snap_kesif_fatura\\8ac508f7f8bacf4a2e5adad8284d272c3613b36633d18438ba83c9431a4ec5ef.txt"
+  },
+  {
+   "source_id": "marbella:kaynak:332",
+   "url": "https://www.marbella.es/actualidad/noticias/el-ayuntamiento-da-luz-verde-a-un-acuerdo-urbanistico-que-permitira-la-remodelacion-integral-de-viviendas-antiguas-en-seis-zonas-de-la-ciudad-y-que-beneficiara-a-cerca-de-medio-millar-de-familias.html",
+   "publisher": "Ayuntamiento de Marbella",
+   "text_file": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\marbella\\_is\\snap_mahalle-yazar4\\210c4f774370014a1bb1408660ddffc61f0fc44e36fa8d9b95d57db768e8f026.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-las-chapas-1",
+   "field": "location",
+   "claim": "Tenencia adresi ve saati",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:237",
+   "quote": "Tenencia de Las Chapas C/ Pinsapo s/n, 29604, Marbella 952 768 730 De L-V de 09:00-14:00"
+  },
+  {
+   "claim_id": "C-las-chapas-7",
+   "field": "compare.Konut tipi",
+   "claim": "Andasol 94 konut, bazıları 50 yıldan eski",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:332",
+   "quote": "Andasol, una urbanización en Las Chapas, con 94 viviendas"
+  },
+  {
+   "claim_id": "C-las-chapas-8",
+   "field": "compare.Konut tipi",
+   "claim": "Evlerin 50 yıldan fazla yaşta olması",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:332",
+   "quote": "en algunos de los casos tienen más de 50 años de antigüedad"
+  },
+  {
+   "claim_id": "C-las-chapas-11",
+   "field": "compare.Konut tipi",
+   "claim": "Belediye 2021'de eski evler için yıkıp yeniden yapma ya da köklü yenileme ruhsatı başvurusunun önünü açtı",
+   "value": "",
+   "unit": "",
+   "period": "3 Mayıs 2021",
+   "source_id": "marbella:kaynak:332",
+   "quote": "posibilitará la solicitud de licencia de obras para la realización de nueva construcción o remodelaciones integrales"
+  },
+  {
+   "claim_id": "C-las-chapas-15",
+   "field": "compare.Konut tipi",
+   "claim": "Junta de Gobierno 3 Mayıs 2021 tarihli haberde onayladı",
+   "value": "2021-05-03",
+   "unit": "tarih",
+   "period": "",
+   "source_id": "marbella:kaynak:332",
+   "quote": "Lunes, 3 de Mayo de 2021"
+  }
+ ],
+ "butonlar": [
+  {
+   "action_id": "marbella:action:las-chapas-1",
+   "label": "Bilgi al",
+   "url": "https://extranjeros.marbella.es/informacion/direcciones-de-interes"
+  },
+  {
+   "action_id": "marbella:action:las-chapas-2",
+   "label": "Bilgi al",
+   "url": "https://www.marbella.es/actualidad/noticias/el-ayuntamiento-da-luz-verde-a-un-acuerdo-urbanistico-que-permitira-la-remodelacion-integral-de-viviendas-antiguas-en-seis-zonas-de-la-ciudad-y-que-beneficiara-a-cerca-de-medio-millar-de-familias.html"
+  }
+ ]
+}
+
+===== KART 7/12: marbella:elviria =====
+{
+ "entry_id": "marbella:elviria",
+ "city_id": "marbella",
+ "slug": "elviria",
+ "title": "Elviria",
+ "subtitle": "Acosol'un merkez ofisinin bulunduğu Elviria urbanizasyonu (A-7 km 190,7)",
+ "summary": "Elviria, Marbella'da bir urbanizasyon. Su şirketi Acosol'un merkez ofisi Elviria'da (A-7 km 190,7), hafta içi 09:00-14:00 hizmet verir. \"Elviria 1\" bölümünde 273 ev var ve neredeyse tamamı yapılmış; Mayıs 2021'de belediye bu bölümün de içinde olduğu altı bölgede eski evlerin yıkılıp yeniden yapılmasına izin veren imar anlaşmasını onayladı.",
+ "keywords": "Elviria, Acosol, A-7, urbanización",
+ "stages": "planning;new;settled",
+ "source_ids": "marbella:kaynak:228;marbella:kaynak:332",
+ "reviewed_on": "2026-11-02",
+ "order": 7,
+ "featured": "Hayır",
+ "editorial_status": "Taslak",
+ "location": "Elviria urbanizasyonu (29604), Ctra. N-340 / A-7 km 190,7 çevresi.",
+ "tags": "Urbanizasyon\nAcosol merkez ofisi\nA-7 kenarı",
+ "compare_json": "{\"Ulaşım\": \"Acosol'un merkez ofisi Elviria urbanizasyonunda, Autovía A-7 km 190,7'dedir (29604).\", \"Yaşam ritmi\": \"Acosol merkez ofisi hafta içi 09:00-14:00 açıktır; telefon 952 93 20 20.\", \"Konut tipi\": \"Elviria 1 bölümünde 273 ev var, neredeyse tamamı yapılmış. Belediye 3 Mayıs 2021'de Elviria 1'i de içeren altı bölgede eski evlerin yıkılıp yeniden yapılmasına izin veren imar anlaşmasını onayladı.\", \"Yeşil alan ve sahil\": \"Elviria için ayrı park ya da sahil verisi yok.\"}",
+ "note": "",
+ "media_key": "",
+ "_sekme": "Mahalleler",
+ "kaynaklar": [
+  {
+   "source_id": "marbella:kaynak:228",
+   "url": "https://www.acosol.es/contactar/nuestras-sedes/",
+   "publisher": "Acosol S.A.",
+   "text_file": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\marbella\\_is\\snap_kesif_fatura\\1dddd23a5548794586ae396dd5d5f196bb8763286d1f0997c3771ee1fec6c5cb.txt"
+  },
+  {
+   "source_id": "marbella:kaynak:332",
+   "url": "https://www.marbella.es/actualidad/noticias/el-ayuntamiento-da-luz-verde-a-un-acuerdo-urbanistico-que-permitira-la-remodelacion-integral-de-viviendas-antiguas-en-seis-zonas-de-la-ciudad-y-que-beneficiara-a-cerca-de-medio-millar-de-familias.html",
+   "publisher": "Ayuntamiento de Marbella",
+   "text_file": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\marbella\\_is\\snap_mahalle-yazar4\\210c4f774370014a1bb1408660ddffc61f0fc44e36fa8d9b95d57db768e8f026.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-elviria-1",
+   "field": "location",
+   "claim": "Acosol merkezi Urb. Elviria'da",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:228",
+   "quote": "Sede central Ctra. N. 340 P.K. 190,700. Urb Elviria. 29604 Marbella, Málaga +34 952 93 20 20 Lunes a viernes de 9:00 a 14:00"
+  },
+  {
+   "claim_id": "C-elviria-5",
+   "field": "compare.Konut tipi",
+   "claim": "Elviria 1'de 273 ev, hemen hemen hepsi yapılmış",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:332",
+   "quote": "donde hay 273 casas"
+  },
+  {
+   "claim_id": "C-elviria-9",
+   "field": "compare.Konut tipi",
+   "claim": "Junta de Gobierno 3 Mayıs 2021 tarihli haberde onayladı",
+   "value": "2021-05-03",
+   "unit": "tarih",
+   "period": "",
+   "source_id": "marbella:kaynak:332",
+   "quote": "Lunes, 3 de Mayo de 2021"
+  },
+  {
+   "claim_id": "C-elviria-10",
+   "field": "summary",
+   "claim": "Elviria 1 bölgesi, eski evlerin yıkılıp yeniden yapılmasına izin veren imar anlaşmasının altı bölgesinden biri",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:332",
+   "quote": "urbanización Andasol, zona de Elviria 1"
+  }
+ ],
+ "butonlar": [
+  {
+   "action_id": "marbella:action:elviria-1",
+   "label": "Ziyaret bilgisi",
+   "url": "https://www.acosol.es/contactar/nuestras-sedes/"
+  },
+  {
+   "action_id": "marbella:action:elviria-2",
+   "label": "Bilgi al",
+   "url": "https://www.marbella.es/actualidad/noticias/el-ayuntamiento-da-luz-verde-a-un-acuerdo-urbanistico-que-permitira-la-remodelacion-integral-de-viviendas-antiguas-en-seis-zonas-de-la-ciudad-y-que-beneficiara-a-cerca-de-medio-millar-de-familias.html"
+  }
+ ]
+}
+
+===== KART 8/12: marbella:rio-real-los-monteros =====
+{
+ "entry_id": "marbella:rio-real-los-monteros",
+ "city_id": "marbella",
+ "slug": "rio-real-los-monteros",
+ "title": "Río Real ve Los Monteros",
+ "subtitle": "Río Real'de eski evlerin yenilenmesi, Los Monteros'ta yeni birimler için ruhsat",
+ "summary": "Río Real ve Los Monteros, Marbella'daki iki urbanizasyon. Belediye 3 Mayıs 2021'de Río Real'deki 30 eski ev için yıkıp yeniden yapma ya da köklü yenileme ruhsatı başvurusunun önünü açtı; 25 Mart 2025'te Los Monteros'ta 30 yeni birimlik urbanizasyon için ruhsat onaylandı (7.425.000 euro).",
+ "keywords": "Río Real, Los Monteros, eski konut yenileme, urbanizasyon",
+ "stages": "planning;new;settled",
+ "source_ids": "marbella:kaynak:332;marbella:kaynak:330",
+ "reviewed_on": "2026-11-02",
+ "order": 8,
+ "featured": "Hayır",
+ "editorial_status": "Taslak",
+ "location": "Marbella belediyesindeki Río Real ve Los Monteros urbanizasyonları.",
+ "tags": "Eski urbanizasyon yenilemesi\nYeni konut birimleri\nLos Monteros",
+ "compare_json": "{\"Ulaşım\": \"Río Real ve Los Monteros için ayrı bir ulaşım verisi yok.\", \"Yaşam ritmi\": \"Río Real ve Los Monteros için ayrı bir günlük yaşam verisi yok.\", \"Konut tipi\": \"Río Real'de 30 eski ev var; belediye 2021'de bu evler için yıkıp yeniden yapma ya da köklü yenileme ruhsatı başvurusunun önünü açtı (Río Real, calle Finlandia, Las Palmeras, Andasol, Elviria 1 ve N-340 güneyiyle birlikte altı bölgeden biri). Los Monteros'ta 30 yeni birimlik urbanizasyon için ruhsat verildi (25 Mart 2025).\", \"Yeşil alan ve sahil\": \"Río Real ve Los Monteros için ayrı park ya da sahil verisi yok.\"}",
+ "note": "",
+ "media_key": "",
+ "_sekme": "Mahalleler",
+ "kaynaklar": [
+  {
+   "source_id": "marbella:kaynak:332",
+   "url": "https://www.marbella.es/actualidad/noticias/el-ayuntamiento-da-luz-verde-a-un-acuerdo-urbanistico-que-permitira-la-remodelacion-integral-de-viviendas-antiguas-en-seis-zonas-de-la-ciudad-y-que-beneficiara-a-cerca-de-medio-millar-de-familias.html",
+   "publisher": "Ayuntamiento de Marbella",
+   "text_file": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\marbella\\_is\\snap_mahalle-yazar4\\210c4f774370014a1bb1408660ddffc61f0fc44e36fa8d9b95d57db768e8f026.txt"
+  },
+  {
+   "source_id": "marbella:kaynak:330",
+   "url": "https://www.marbella.es/actualidad/noticias/el-ayuntamiento-prioriza-la-concesion-de-una-licencia-de-obras-para-la-construccion-de-172-viviendas-de-proteccion-publica-en-regimen-de-alquiler-en-san-pedro-alcantara.html",
+   "publisher": "Ayuntamiento de Marbella",
+   "text_file": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\marbella\\_is\\snap_mahalle-yazar4\\5641ab2e21191e79b92f03403a3d0bef8e8f3782e162adb45f2128e74174d451.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-rio-real-los-monteros-3",
+   "field": "compare.Konut tipi",
+   "claim": "Río Real'deki 30 eski ev için belediye yıkıp yeniden yapma ya da köklü yenileme ruhsatı başvurusunun önünü açtı (3 Mayıs 2021)",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:332",
+   "quote": "posibilitará la solicitud de licencia de obras para la realización de nueva construcción o remodelaciones integrales"
+  },
+  {
+   "claim_id": "C-rio-real-los-monteros-8",
+   "field": "compare.Konut tipi",
+   "claim": "Río Real'de 30 konut",
+   "value": "",
+   "unit": "",
+   "period": "3 Mayıs 2021",
+   "source_id": "marbella:kaynak:332",
+   "quote": "Río Real (en este caso, 30 viviendas)"
+  },
+  {
+   "claim_id": "C-rio-real-los-monteros-4",
+   "field": "compare.Konut tipi",
+   "claim": "Los Monteros'ta 30 yeni birim (25 Mart 2025)",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:330",
+   "quote": "la creación de 30 nuevas unidades en la zona de Los Monteros, por 7.425.000 euros"
+  },
+  {
+   "claim_id": "C-rio-real-los-monteros-10",
+   "field": "summary",
+   "claim": "Junta de Gobierno 3 Mayıs 2021 tarihli haberde onayladı",
+   "value": "2021-05-03",
+   "unit": "tarih",
+   "period": "",
+   "source_id": "marbella:kaynak:332",
+   "quote": "Lunes, 3 de Mayo de 2021"
+  },
+  {
+   "claim_id": "C-rio-real-los-monteros-11",
+   "field": "compare.Konut tipi",
+   "claim": "Río Real, eski evlerin yıkılıp yeniden yapılmasına izin veren imar anlaşmasının altı bölgesinden biri (calle Finlandia, Las Palmeras, Andasol, Elviria 1, N-340 güneyi ile birlikte)",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:332",
+   "quote": "Río Real, calle Finlandia, Las Palmeras, urbanización Andasol, zona de Elviria 1, así como en el sur de la N-340"
+  },
+  {
+   "claim_id": "C-rio-real-los-monteros-12",
+   "field": "summary",
+   "claim": "Junta de Gobierno 25 Mart 2025 tarihli haberde onayladı",
+   "value": "2025-03-25",
+   "unit": "tarih",
+   "period": "",
+   "source_id": "marbella:kaynak:330",
+   "quote": "Martes, 25 de Marzo de 2025"
+  }
+ ],
+ "butonlar": [
+  {
+   "action_id": "marbella:action:rio-real-los-monteros-1",
+   "label": "Bilgi al",
+   "url": "https://www.marbella.es/actualidad/noticias/el-ayuntamiento-da-luz-verde-a-un-acuerdo-urbanistico-que-permitira-la-remodelacion-integral-de-viviendas-antiguas-en-seis-zonas-de-la-ciudad-y-que-beneficiara-a-cerca-de-medio-millar-de-familias.html"
+  },
+  {
+   "action_id": "marbella:action:rio-real-los-monteros-2",
+   "label": "Bilgi al",
+   "url": "https://www.marbella.es/actualidad/noticias/el-ayuntamiento-prioriza-la-concesion-de-una-licencia-de-obras-para-la-construccion-de-172-viviendas-de-proteccion-publica-en-regimen-de-alquiler-en-san-pedro-alcantara.html"
+  }
+ ]
+}
+
+===== KART 9/12: marbella:sierra-blanca =====
+{
+ "entry_id": "marbella:sierra-blanca",
+ "city_id": "marbella",
+ "slug": "sierra-blanca",
+ "title": "Sierra Blanca",
+ "subtitle": "Istán, Ojén ve Marbella belediye sınırları arasındaki dağ kütlesi; yürüyüş patikaları",
+ "summary": "Sierra Blanca, Istán, Ojén ve Marbella arasındaki küçük dağ kütlesi; Marbella güneyde yer alır. Avrupa Birliği'nin Natura 2000 ağında LIC bölgesi. Belediyenin 'Senderismo' sayfası Sierra Blanca'ya ayrılmıştır; güney yüzündeki tüm patikalarda dik eğim var.",
+ "keywords": "Sierra Blanca, yürüyüş, senderismo, Natura 2000, patika",
+ "stages": "planning;new;settled",
+ "source_ids": "marbella:kaynak:279;marbella:kaynak:280",
+ "reviewed_on": "2026-11-02",
+ "order": 9,
+ "featured": "Hayır",
+ "editorial_status": "Taslak",
+ "location": "Istán (batı), Ojén (kuzey ve doğu) ve Marbella (güney) arasındaki dağ kütlesi; Marbella tarafı güney yüzdür.",
+ "tags": "Dağ ve doğa\nNatura 2000\nYürüyüş patikaları",
+ "compare_json": "{\"Ulaşım\": \"Bölgeye yürüyüşle çıkılır: belediyenin yürüyüş önerilerine göre güney yüzündeki tüm patikalarda güçlü eğim vardır.\", \"Yaşam ritmi\": \"Belediye Sierra Blanca'yı yürüyüş (senderismo) sayfasında ayrı bir başlıkla sunar; bölge Istán, Ojén ve Marbella arasındaki küçük bir dağ kütlesidir.\", \"Konut tipi\": \"Sierra Blanca bir yerleşim değil, Natura 2000 ağında LIC (Lugar de Interés Comunitario) olarak korunan dağ kütlesidir.\", \"Yeşil alan ve sahil\": \"Sierra Blanca, Costa del Sol kıyısında ilk bakışta dikkat çeken küçük bir dağ kütlesidir; Natura 2000 ağında kodu ES6170011.\"}",
+ "note": "Yürüyüşe tek başına çıkma, planını yakınlarına bildir ve telefonunu şarjlı tut; belediye bu öneriyi patikalar sayfasında veriyor.",
+ "media_key": "",
+ "_sekme": "Mahalleler",
+ "kaynaklar": [
+  {
+   "source_id": "marbella:kaynak:279",
+   "url": "https://www.marbella.es/web/medio-ambiente/area-de-medio-ambiente/senderos.html",
+   "publisher": "Ayuntamiento de Marbella",
+   "text_file": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\marbella\\_is\\snap_kesif_kesif\\7d407872e7b1a0257716c8c57e621583537a98c247de5cdd617ce8145c04ebe8.txt"
+  },
+  {
+   "source_id": "marbella:kaynak:280",
+   "url": "https://www.marbella.es/web/medio-ambiente/area-de-medio-ambiente/senderos/recomendaciones.html",
+   "publisher": "Ayuntamiento de Marbella",
+   "text_file": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\marbella\\_is\\snap_kesif_kesif\\502bd58410a2f69aa2392e296033a19dca244731ab0b974c3f6f0e54faa16497.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-sierra-blanca-1",
+   "field": "location",
+   "claim": "Dağ kütlesi Istán, Ojén ve Marbella arasında",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:279",
+   "quote": "entre los términos municipales de Istán (al oeste), Ojén (norte y este) y Marbella (al sur)"
+  },
+  {
+   "claim_id": "C-sierra-blanca-8",
+   "field": "summary",
+   "claim": "Belediyenin 'Senderismo' sayfası Sierra Blanca'ya ayrılmıştır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:279",
+   "quote": "Sierra Blanca Senderismo"
+  },
+  {
+   "claim_id": "C-sierra-blanca-9",
+   "field": "summary",
+   "claim": "Sierra Blanca küçük bir dağ kütlesidir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:279",
+   "quote": "Pequeño macizo montañoso que destaca a primera vista en la Costa del Sol"
+  },
+  {
+   "claim_id": "C-sierra-blanca-2",
+   "field": "compare.Ulaşım",
+   "claim": "Güney yüzündeki tüm patikalarda güçlü eğim",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:280",
+   "quote": "Todos los senderos de la cara sur de Sierra Blanca tienen fuertes desniveles"
+  },
+  {
+   "claim_id": "C-sierra-blanca-3",
+   "field": "compare.Yaşam ritmi",
+   "claim": "Tek başına çıkmama önerisi",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:280",
+   "quote": "Procure no salir solo y comunique sus planes a familiares y amigos"
+  },
+  {
+   "claim_id": "C-sierra-blanca-4",
+   "field": "compare.Yaşam ritmi",
+   "claim": "Telefonu şarjlı taşıma önerisi",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:280",
+   "quote": "Lleve el teléfono móvil cargado"
+  },
+  {
+   "claim_id": "C-sierra-blanca-7",
+   "field": "compare.Yeşil alan ve sahil",
+   "claim": "Natura 2000, LIC kodu ES6170011",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:279",
+   "quote": "con el código ES6170011, formando parte de la Red Natura 2000"
+  }
+ ],
+ "butonlar": [
+  {
+   "action_id": "marbella:action:sierra-blanca-1",
+   "label": "Bilgi al",
+   "url": "https://www.marbella.es/web/medio-ambiente/area-de-medio-ambiente/senderos.html"
+  },
+  {
+   "action_id": "marbella:action:sierra-blanca-2",
+   "label": "Bilgi al",
+   "url": "https://www.marbella.es/web/medio-ambiente/area-de-medio-ambiente/senderos/recomendaciones.html"
+  }
+ ]
+}
+
+===== KART 10/12: marbella:el-angel =====
+{
+ "entry_id": "marbella:el-angel",
+ "city_id": "marbella",
+ "slug": "el-angel",
+ "title": "El Ángel",
+ "subtitle": "Belediyeye ait sosyal konut kolonisinin (colonia) bulunduğu semt",
+ "summary": "El Ángel, belediyeye ait sosyal konutların (viviendas sociales) bulunduğu colonia El Ángel semti. Belediye, 26 Mayıs 2009'da bu konutların başvuru ve tahsisini yasal ölçütlere bağladı. Belediyenin 2022-23 sezon duyurusunda L5 hattı El Ángel'e uğruyor.",
+ "keywords": "El Ángel, colonia El Ángel, sosyal konut, L5",
+ "stages": "planning;new;settled",
+ "source_ids": "marbella:kaynak:335;marbella:kaynak:314",
+ "reviewed_on": "2026-11-02",
+ "order": 10,
+ "featured": "Hayır",
+ "editorial_status": "Taslak",
+ "location": "El Ángel mahallesi, Marbella.",
+ "tags": "Sosyal konut kolonisi\nŞehir otobüsü bağlantısı (2022-23)",
+ "compare_json": "{\"Ulaşım\": \"Belediyenin 2022-23 sezon duyurusuna göre L5 (El Salto-San Pedro Alcántara-El Ángel-Puerto Banús) El Ángel'e uğruyordu.\", \"Yaşam ritmi\": \"El Ángel için ayrı bir günlük yaşam verisi yok.\", \"Konut tipi\": \"Belediyeye ait sosyal konutlar (viviendas sociales) var; belediye 26 Mayıs 2009'da bu konutların başvuru ve tahsisini yasal ölçütlere bağladı: başvurular listelenir, teknik komisyon ihtiyaçlara göre puanlayarak sıraya koyar.\", \"Yeşil alan ve sahil\": \"El Ángel için ayrı park ya da sahil verisi yok.\"}",
+ "note": "",
+ "media_key": "",
+ "_sekme": "Mahalleler",
+ "kaynaklar": [
+  {
+   "source_id": "marbella:kaynak:335",
+   "url": "https://www.marbella.es/actualidad/noticias/la-junta-de-gobierno-aprueba-un-acuerdo-para-ordenar-conforme-a-la-ley-las-viviendas-sociales-de-la-colonia-el-angel.html",
+   "publisher": "Ayuntamiento de Marbella",
+   "text_file": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\marbella\\_is\\snap_mahalle-yazar5\\84f44fbf5cdb76dca3af08b152c19a14abe572610e416af488a51be14e27f47f.txt"
+  },
+  {
+   "source_id": "marbella:kaynak:314",
+   "url": "https://www.marbella.es/actualidad/noticias/el-servicio-urbano-de-autobuses-readapta-sus-horarios-y-expediciones-a-la-nueva-temporada-entre-septiembre-y-junio.html",
+   "publisher": "Ayuntamiento de Marbella",
+   "text_file": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\marbella\\_is\\snap_mahalle-yazar1\\812d9bc6061501198192bf32e0ab36f9013c83be319cd0a4a5790d58b67bca89.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-el-angel-2",
+   "field": "compare.Ulaşım",
+   "claim": "L5 El Salto-San Pedro Alcántara-El Ángel-Puerto Banús (2022-23 sezon duyurusu)",
+   "value": "",
+   "unit": "",
+   "period": "16 Eylül 2022 - 15 Haziran 2023",
+   "source_id": "marbella:kaynak:314",
+   "quote": "L5 (El Salto-San Pedro Alcántara-El Ángel-Puerto Banús)"
+  },
+  {
+   "claim_id": "C-el-angel-4",
+   "field": "compare.Konut tipi",
+   "claim": "El Ángel kolonisinde belediyeye ait sosyal konutlar (26 Mayıs 2009)",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:335",
+   "quote": "viviendas sociales de titularidad municipal de la colonia El Ángel"
+  },
+  {
+   "claim_id": "C-el-angel-8",
+   "field": "compare.Konut tipi",
+   "claim": "2009 kararına göre başvuru listesi teknik komisyonca ihtiyaca göre puanlanarak sıralanır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:335",
+   "quote": "una comisión técnica efectuará una baremación para ordenar las solicitudes en función de las necesidades de cada uno de los demandantes"
+  }
+ ],
+ "butonlar": [
+  {
+   "action_id": "marbella:action:el-angel-1",
+   "label": "Bilgi al",
+   "url": "https://www.marbella.es/actualidad/noticias/la-junta-de-gobierno-aprueba-un-acuerdo-para-ordenar-conforme-a-la-ley-las-viviendas-sociales-de-la-colonia-el-angel.html"
+  },
+  {
+   "action_id": "marbella:action:el-angel-2",
+   "label": "Ulaşımı planla",
+   "url": "https://ayuntamiento.marbella.es/gestion-municipal/delegaciones/movilidad/transportes/autobus/534-autobus-urbano.html"
+  }
+ ]
+}
+
+===== KART 11/12: marbella:puerto-banus =====
+{
+ "entry_id": "marbella:puerto-banus",
+ "city_id": "marbella",
+ "slug": "puerto-banus",
+ "title": "Puerto Banús",
+ "subtitle": "Plajı olan ve belediye otobüsünün 2022-23 sezonunda gece hattı dahil birkaç hatla bağlandığı bölge",
+ "summary": "Puerto Banús, belediyenin plaj kataloğunda yer alan bir Marbella bölgesidir. Belediyenin 2022-23 sezon duyurusunda L1, L4, L5 ve gece hattı L8 Puerto Banús'a gidiyordu.",
+ "keywords": "Puerto Banús, L1, L8, gece otobüsü, plaj",
+ "stages": "planning;new;settled",
+ "source_ids": "marbella:kaynak:314;marbella:kaynak:316",
+ "reviewed_on": "2026-11-02",
+ "order": 11,
+ "featured": "Hayır",
+ "editorial_status": "Taslak",
+ "location": "Puerto Banús (Marbella); belediye plaj kataloğunda Puerto Banús plajı olarak geçer.",
+ "tags": "Plaj\nOtobüs hatları (2022-23)\nGece hattı (2022-23)",
+ "compare_json": "{\"Ulaşım\": \"Belediyenin 2022-23 sezon duyurusunda L1 (C.C. La Cañada-Puerto Banús), L4 (Puerto Banús-San Pedro Alcántara), L5 (El Salto-San Pedro Alcántara-El Ángel-Puerto Banús) ve gece hattı L8 (C.C. La Cañada-Puerto Banús) geçiyor.\", \"Yaşam ritmi\": \"Gece hattı L8, 2022-23 sezonunda pazartesi-perşembe sabah 03:00'e kadar kalkış yapıyordu.\", \"Konut tipi\": \"Puerto Banús için ayrı bir konut verisi yok.\", \"Yeşil alan ve sahil\": \"Belediye plaj kataloğunda Puerto Banús plajı var.\"}",
+ "note": "",
+ "media_key": "",
+ "_sekme": "Mahalleler",
+ "kaynaklar": [
+  {
+   "source_id": "marbella:kaynak:314",
+   "url": "https://www.marbella.es/actualidad/noticias/el-servicio-urbano-de-autobuses-readapta-sus-horarios-y-expediciones-a-la-nueva-temporada-entre-septiembre-y-junio.html",
+   "publisher": "Ayuntamiento de Marbella",
+   "text_file": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\marbella\\_is\\snap_mahalle-yazar1\\812d9bc6061501198192bf32e0ab36f9013c83be319cd0a4a5790d58b67bca89.txt"
+  },
+  {
+   "source_id": "marbella:kaynak:316",
+   "url": "https://www.marbella.es/web/medio-ambiente/catalogo-de-playas/puerto-banus.html",
+   "publisher": "Ayuntamiento de Marbella",
+   "text_file": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\marbella\\_is\\snap_mahalle-yazar1\\5814034f5780208024bb23ca8fe58f9b8dfbd5af13a7157cbbde985a58bcbc70.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-puerto-banus-1",
+   "field": "compare.Ulaşım",
+   "claim": "L1 La Cañada-Puerto Banús (2022-23 sezon duyurusu)",
+   "value": "",
+   "unit": "",
+   "period": "16 Eylül 2022 - 15 Haziran 2023",
+   "source_id": "marbella:kaynak:314",
+   "quote": "L1 (C.C. La Cañada-Puerto Banús)"
+  },
+  {
+   "claim_id": "C-puerto-banus-2",
+   "field": "compare.Ulaşım",
+   "claim": "L8 gece hattı La Cañada-Puerto Banús (2022-23 sezon duyurusu)",
+   "value": "",
+   "unit": "",
+   "period": "16 Eylül 2022 - 15 Haziran 2023",
+   "source_id": "marbella:kaynak:314",
+   "quote": "L8 (servicio nocturno entre C.C. La Cañada-Puerto Banús)"
+  },
+  {
+   "claim_id": "C-puerto-banus-5",
+   "field": "compare.Yaşam ritmi",
+   "claim": "L8 pazartesi-perşembe son kalkış 03:00 (2022-23 sezonu)",
+   "value": "",
+   "unit": "",
+   "period": "16 Eylül 2022 - 15 Haziran 2023",
+   "source_id": "marbella:kaynak:314",
+   "quote": "de lunes a jueves la salida se mantendrá hasta las 03.00"
+  },
+  {
+   "claim_id": "C-puerto-banus-11",
+   "field": "compare.Ulaşım",
+   "claim": "L4 hattı Puerto Banús-San Pedro Alcántara (2022-23 sezon duyurusu)",
+   "value": "",
+   "unit": "",
+   "period": "16 Eylül 2022 - 15 Haziran 2023",
+   "source_id": "marbella:kaynak:314",
+   "quote": "la L4 (Puerto Banús-San Pedro Alcántara)"
+  },
+  {
+   "claim_id": "C-puerto-banus-12",
+   "field": "compare.Ulaşım",
+   "claim": "L5 hattı El Salto-San Pedro Alcántara-El Ángel-Puerto Banús (2022-23 sezon duyurusu)",
+   "value": "",
+   "unit": "",
+   "period": "16 Eylül 2022 - 15 Haziran 2023",
+   "source_id": "marbella:kaynak:314",
+   "quote": "L5 (El Salto-San Pedro Alcántara-El Ángel-Puerto Banús)"
+  },
+  {
+   "claim_id": "C-puerto-banus-7",
+   "field": "compare.Yeşil alan ve sahil",
+   "claim": "Plaj kataloğunda Puerto Banús",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:316",
+   "quote": "Puerto Banús Playas de Marbella"
+  }
+ ],
+ "butonlar": [
+  {
+   "action_id": "marbella:action:puerto-banus-1",
+   "label": "Bilgi al",
+   "url": "https://www.marbella.es/web/medio-ambiente/catalogo-de-playas/puerto-banus.html"
+  },
+  {
+   "action_id": "marbella:action:puerto-banus-2",
+   "label": "Ulaşımı planla",
+   "url": "https://ayuntamiento.marbella.es/gestion-municipal/delegaciones/movilidad/transportes/autobus/534-autobus-urbano.html"
+  }
+ ]
+}
+
+===== KART 12/12: marbella:divina-pastora =====
+{
+ "entry_id": "marbella:divina-pastora",
+ "city_id": "marbella",
+ "slug": "divina-pastora",
+ "title": "Divina Pastora",
+ "subtitle": "Yenilenen plazaları ve Centro Cívico'su olan barriada",
+ "summary": "Divina Pastora, Marbella'da \"barriada\" (mahalle) olarak anılan semt. Belediye 2017'de Divina Pastora kilisesi ve Paco Cantos plazalarının yenilenmesini toplam 1,6 milyon euroya ihale etti. Nisan 2026'da belediye, olağanüstü regularización (arraigo extraordinario) başvurusu için gereken empadronamiento (ikamet kaydı) ve vulnerabilidad (kırılganlık) raporlarının alınabileceği ofisleri güçlendirdi; Centro Cívico de Divina Pastora bu ofislerden biri (hafta içi 09:00-14:00).",
+ "keywords": "Divina Pastora, barriada, Centro Cívico, plaza Paco Cantos",
+ "stages": "planning;new;settled",
+ "source_ids": "marbella:kaynak:334;marbella:kaynak:204",
+ "reviewed_on": "2026-11-02",
+ "order": 12,
+ "featured": "Hayır",
+ "editorial_status": "Taslak",
+ "location": "Marbella'daki Divina Pastora mahallesi; Avenida Nabeul ve Los Arcos de San Enrique parkı çevresi.",
+ "tags": "Barriada\nYenilenen plazalar\nCentro Cívico\nBelediye işlemleri",
+ "compare_json": "{\"Ulaşım\": \"6 Şubat 2017 tarihli belediye haberi, plaza yenilemelerini Avenida Nabeul reformuna eklenen bir iş olarak anıyor.\", \"Yaşam ritmi\": \"Nisan 2026 belediye haberine göre Centro Cívico de Divina Pastora, olağanüstü regularización (arraigo extraordinario) için gereken empadronamiento ve vulnerabilidad raporlarının alınabileceği ofislerden biri: hafta içi 09:00-14:00. Palacio de Congresos Adolfo Suárez'de bu bilgi her zaman randevuyla (cita previa) alınıyor; saatler hafta içi 09:00-14:00 ve 17:00-19:00. Bu süreçte başvurudan önce ülkede en az beş ay kesintisiz bulunmuş olmak gerekiyor.\", \"Konut tipi\": \"2017 tarihli belediye haberi, barriada'da kanalizasyon, su şebekesi ve her türlü şebeke hattının yenilenmesine yönelik işleri duyuruyor.\", \"Yeşil alan ve sahil\": \"2017 haberine göre Divina Pastora kilisesi ve Paco Cantos plazalarının yenilenmesi ihale edildi; Los Arcos de San Enrique parkındaki müdahale yakında başlayacaktı.\"}",
+ "note": "",
+ "media_key": "",
+ "_sekme": "Mahalleler",
+ "kaynaklar": [
+  {
+   "source_id": "marbella:kaynak:334",
+   "url": "https://www.marbella.es/actualidad/noticias/el-alcalde-destaca-que-la-remodelacion-de-las-plazas-de-la-iglesia-de-divina-pastora-y-paco-cantos-revalorizara-la-barriada-tras-anos-de-abandono.html",
+   "publisher": "Ayuntamiento de Marbella",
+   "text_file": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\marbella\\_is\\snap_mahalle-yazar5\\54a38bbc793942f7c36cf15f5ded8ab6e217b0615fc175eb549b2b46f92d553f.txt"
+  },
+  {
+   "source_id": "marbella:kaynak:204",
+   "url": "https://www.marbella.es/actualidad/noticias/el-ayuntamiento-refuerza-las-oficinas-de-atencion-al-ciudadano-de-marbella-y-san-pedro-alcantara-para-facilitar-la-documentacion-a-los-extranjeros-en-espana-que-soliciten-la-regularizacion-extraordinaria.html",
+   "publisher": "Ayuntamiento de Marbella",
+   "text_file": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\marbella\\_is\\snap_kesif_oturum\\eb8d5362ed07eabe90a4ded6ecb97805ffe4027de7263accd1ef0fdd27938afd.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-divina-pastora-1",
+   "field": "compare.Ulaşım",
+   "claim": "2017 haberi plaza yenilemelerini Avenida Nabeul reformuna eklenen iş olarak anar (6 Şubat 2017)",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:334",
+   "quote": "esta obra se suma a la reforma de la avenida Nabeul"
+  },
+  {
+   "claim_id": "C-divina-pastora-2",
+   "field": "compare.Yaşam ritmi",
+   "claim": "Centro Cívico de Divina Pastora, olağanüstü regularización (arraigo extraordinario) için empadronamiento ve vulnerabilidad raporlarının alınabileceği ofislerden biri",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:204",
+   "quote": "el informe de empadronamiento como el de vulnerabilidad para la autorización de residencia en circunstancias excepcionales por razón de arraigo extraordinario"
+  },
+  {
+   "claim_id": "C-divina-pastora-8",
+   "field": "compare.Yaşam ritmi",
+   "claim": "Süreç için başvurudan önce ülkede en az beş ay kesintisiz bulunma şartı",
+   "value": "",
+   "unit": "",
+   "period": "15 Nisan 2026",
+   "source_id": "marbella:kaynak:204",
+   "quote": "una permanencia ininterrumpida en el país de al menos cinco meses anteriores a la solicitud"
+  },
+  {
+   "claim_id": "C-divina-pastora-3",
+   "field": "compare.Yaşam ritmi",
+   "claim": "Hafta içi 09:00-14:00",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:204",
+   "quote": "de 9.00 a 14.00 horas, de lunes a viernes"
+  },
+  {
+   "claim_id": "C-divina-pastora-4",
+   "field": "compare.Konut tipi",
+   "claim": "Barriada altyapısı yenilendi",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:334",
+   "quote": "acometer obras de saneamiento, de abastecimiento y todo tipo de canalizaciones para modernizar y adaptar la barriada"
+  },
+  {
+   "claim_id": "C-divina-pastora-5",
+   "field": "compare.Yeşil alan ve sahil",
+   "claim": "Los Arcos de San Enrique parkı",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:334",
+   "quote": "el parque de Los Arcos de San Enrique"
+  },
+  {
+   "claim_id": "C-divina-pastora-6",
+   "field": "summary",
+   "claim": "Belediye 2017'de Divina Pastora kilisesi ve Paco Cantos plazalarının yenilenmesini toplam 1,6 milyon euroya ihale etti",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:334",
+   "quote": "han sido adjudicadas por un total de 1,6 millones de euros"
+  },
+  {
+   "claim_id": "C-divina-pastora-9",
+   "field": "compare.Yaşam ritmi",
+   "claim": "Palacio de Congresos Adolfo Suárez'de bu bilgi her zaman randevuyla (cita previa) alınır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:204",
+   "quote": "siempre con cita previa, en el Palacio de Congresos Adolfo Suárez"
+  },
+  {
+   "claim_id": "C-divina-pastora-10",
+   "field": "compare.Yaşam ritmi",
+   "claim": "Palacio de Congresos Adolfo Suárez'de bu iş için saatler 09:00-14:00 ve 17:00-19:00, hafta içi",
+   "value": "09:00-14:00;17:00-19:00",
+   "unit": "saat",
+   "period": "",
+   "source_id": "marbella:kaynak:204",
+   "quote": "de 9.00 a 14.00 horas y de 17.00 a 19.00 horas, de lunes a viernes"
+  }
+ ],
+ "butonlar": [
+  {
+   "action_id": "marbella:action:divina-pastora-1",
+   "label": "Bilgi al",
+   "url": "https://www.marbella.es/actualidad/noticias/el-ayuntamiento-refuerza-las-oficinas-de-atencion-al-ciudadano-de-marbella-y-san-pedro-alcantara-para-facilitar-la-documentacion-a-los-extranjeros-en-espana-que-soliciten-la-regularizacion-extraordinaria.html"
+  },
+  {
+   "action_id": "marbella:action:divina-pastora-2",
+   "label": "Bilgi al",
+   "url": "https://www.marbella.es/actualidad/noticias/el-alcalde-destaca-que-la-remodelacion-de-las-plazas-de-la-iglesia-de-divina-pastora-y-paco-cantos-revalorizara-la-barriada-tras-anos-de-abandono.html"
+  }
+ ]
+}

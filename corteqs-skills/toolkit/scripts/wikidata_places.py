@@ -34,7 +34,7 @@ from typing import Any, Callable
 from common import EXIT_FINDINGS, EXIT_OK, EXIT_USAGE, emit, setup_utf8
 
 ENDPOINT = "https://query.wikidata.org/sparql"
-USER_AGENT = "CorteqsCityToolkit/0.1 (content research; https://www.mediawiki.org/wiki/API:Etiquette)"
+USER_AGENT = "CorteqsCityToolkit/0.1 (https://github.com/ubterzioglu/corteqscities; content research)"
 TIMEOUT_SECONDS = 90
 MAX_ATTEMPTS = 3
 RETRY_CAP_SECONDS = 30

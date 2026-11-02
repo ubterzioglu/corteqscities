@@ -1,5 +1,15 @@
 # Marbella (CITY-080): nerede kaldı (devir notu)
 
+## 2 Kasım 2026 akşamı, yerel Windows oturumu (en güncel)
+- **Taşıma:** `marbella-uretim` dalı `hibrit-skill`'e birleştirildi (Málaga işine dokunulmadı). Manifest ve 44 `_is` JSON/JSONL'deki 1.186 Linux yolu Windows yoluna çevrildi; 147 `snap_ulke_es` kopyası `ulke\ES\kaynaklar`'dan SHA doğrulamasıyla, 1 para kaynağı (242) yeniden indirilerek geri kondu. 429/429 kaynak metni yerinde.
+- **Kira kartları (OI-013):** Barış kararı: `ulke\ES` 6 kira kartı 6 Kasım'dan sonra (RDL 29/2026 Meclis kararı BOE'de görününce) yenilenecek; teslim bundan sonra.
+- **assemble adım 0 bitti (photos penceresi içinde yapıldı):** d5 (6 denetçi, 6 editör) → d6 (3 denetçi, 2 editör) → d7 (1 denetçi, 1 editör). Kapsam OI-009 ucuz yolu: m1–m3, mahalle, rota, sözlük + 6 değişen yanıt kartı. Ciddi 0; orta 34 → 7 → 2 → 0. Görev dosyaları `_is\denetim\D5_GOREV.md`, `D5_EDITOR_GOREV.md`, `D6_*`, `D7_GOREV.md`. Kalan kaynaksız konum ve K26 eksikleri OI-015.
+- **KUR (18:35) temiz:** merge 0, build red 0, text_quality/hitap/warning-scan 0, validate yapı 0 medya 0 (eksik yalnız foto/kapak), açık-mı 0, rota_mesafe 0. `package_sources`: 401 kaynağın 233'ünün HTML kopyası yok (OI-014; teslimden önce betikle yeni kopyaya geçilecek).
+- **Araç kutusu (kural 14 istisnası, Barış onayı):** `commons_search`, `photo_previews`, `wikidata_places` USER_AGENT'ına proje deposu adresi eklendi (Commons 429 takılmasını çözdü; testler 83/83).
+- **photos:** Commons araması bitti (110/110, 942 aday). `photo_sources` (Openverse vb.) 23.145 sn bekleme istedi, 0 ekleme; 35 kayıtta <3 aday. tur1 ön eleme: keep 606 / flag 267 / reject 69; 30 kayıtta kısa liste yok. Önizleme + pafta arka planda (`_is\foto\tur1.ps1`, log `_is\foto\tur1\tur1_log.txt`).
+- **Sıradaki:** paftaları ana döngü okur (inceleme) → seçim → indirme → kapak; kısa listesi olmayan 30 kayıt için `photo_sources` yeniden ya da yedek mekân (K22). Sonra OI-014 HTML betiği, 6 Kasım sonrası OI-013, teslim zinciri.
+- **Maliyet:** bu oturumda 24 ajan (Sonnet). Marbella toplamı ~133.
+
 Güncellendi: 2 Kasım 2026, ikinci bulut oturumu (`session_01CvxEJBe5keKSHuRVevDebw`). Bütün iş GitHub'da **`marbella-uretim`** dalında; main'e birleştirilmedi.
 
 ## Kısaca

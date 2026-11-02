@@ -1,0 +1,1161 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!-- 
+
+/**
+ * INFO ARCHIVO
+ *
+ * @author      I3NET 
+ * @author      Juan Carlos
+ * @copyright 2020
+ * @version 1.1
+ * @internal
+ * v1.0 Versión base del SIU 1.0
+ * v1.1 PHP 8 y OSM
+ */
+ -->
+<html xmlns="https://www.w3.org/1999/xhtml" lang="es">
+<head>
+
+
+
+<!-- Metas basicos
+================================================== -->
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="description" content=""/>
+	<meta name="author" content=""/>
+
+<!-- Metas especificos
+================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+
+
+<!-- Incrustados
+================================================== -->
+	<link rel="stylesheet" href="/stylesheets/base.css"/>
+	<link rel="stylesheet" href="/stylesheets/estructura.css"/>
+	<link rel="stylesheet" href="/stylesheets/rca-det_styles.css"/>
+    
+    <!--link href='/media/fonts/css?family=Signika+Negative:400,700' rel='stylesheet' type='text/css'/-->
+
+
+
+<!-- Favicons
+================================================== -->
+	<link rel="shortcut icon" href="https://siu.ctmam.ctan.es/images/favicon/favicon.ico"/>
+	<link rel="apple-touch-icon" href="https://siu.ctmam.ctan.es/images/favicon/apple-touch-icon.png"/>
+	<link rel="apple-touch-icon" href="https://siu.ctmam.ctan.es/images/favicon/apple-touch-icon-72x72.png"/>
+	<link rel="apple-touch-icon" href="https://siu.ctmam.ctan.es/images/favicon/apple-touch-icon-114x114.png"/>
+    
+
+<!-- JS
+==================================================-->
+
+<!-- Tabs-->
+
+<script type="text/javascript" src="/js/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="/js/jquery-ui-1.8.18.custom.min.js"></script>
+<script>
+function cambiaIdioma(idioma){
+	var url="gestIdiomas.php";
+	$.get(url,{ lang: idioma },function(){
+		location.reload();
+	});
+}
+
+$(function($){
+	$.datepicker.regional['es'] = {
+		closeText: 'Cerrar',
+		prevText: '&#x3c;Ant',
+		nextText: 'Sig&#x3e;',
+		currentText: 'Hoy',
+		monthNames: ['Enero','Febrero','Marzo','Abril','Mayo','Junio',
+		'Julio','Agosto','Septiembre','Octubre','Noviembre','Diciembre'],
+		monthNamesShort: ['Ene','Feb','Mar','Abr','May','Jun',
+		'Jul','Ago','Sep','Oct','Nov','Dic'],
+		dayNames: ['Domingo','Lunes','Martes','Mi&eacute;rcoles','Jueves','Viernes','S&aacute;bado'],
+		dayNamesShort: ['Dom','Lun','Mar','Mi&eacute;','Juv','Vie','S&aacute;b'],
+		dayNamesMin: ['Do','Lu','Ma','Mi','Ju','Vi','S&aacute;'],
+		weekHeader: 'Sm',
+		dateFormat: 'dd/mm/yy',
+		firstDay: 1,
+		isRTL: false,
+		minDate: 0,
+		showMonthAfterYear: false,
+		yearSuffix: ''};
+	$.datepicker.setDefaults($.datepicker.regional['es']);
+});
+</script><script type="text/javascript" src="/js/smartpaginator.js"></script>
+<script type="text/javascript" src="/js/jquery.printElement.js"></script>
+<script type="text/javascript" src="/js/jquery.tooltipster.min.js"></script>
+<script type="text/javascript" src="/js/md5.js"></script>
+<link href="/css/custom-theme/jquery-ui-1.8.18.custom.css" rel="stylesheet" type="text/css"/>
+<link href="/stylesheets/smartpaginator.css" rel="stylesheet" type="text/css"/>
+<link rel="stylesheet" type="text/css" href="/css/tooltipster.css" />
+	<link type="application/rss+xml" href="rss.php" rel="alternate"/>
+<!-- <script src="js/tabs.js"></script> -->
+
+
+
+<script type="text/javascript" >
+/* <![CDATA[ */
+	$(document).ready(function() {
+		$("#loading").hide();
+		$( "#datepicker" ).datepicker( $.datepicker.regional[ "es" ] );
+		$( "#datepicker" ).datepicker( "option", "dateFormat", "dd/mm/yy" );
+		$( "#datepicker" ).datepicker( "option", "buttonImage", "/images/index/calendario_peq.png" );
+		$( "#datepicker" ).datepicker( "option", "showOn", "both" );
+		$( "#datepicker" ).datepicker( "option", "buttonImageOnly", "true" );
+		$( ".ui-datepicker-trigger" ).css("float","left");
+	    $("input#filtroMuni").autocomplete({
+	    	source: [{label: "Todos", value: ""}, {label: "Algarrobo", value: "24"}, {label: "Alhaurín de la Torre", value: "5"}, {label: "Alhaurín el Grande", value: "6"}, {label: "Almogía", value: "9"}, {label: "Álora", value: "15"}, {label: "Antequera", value: "20"}, {label: "Ardales", value: "16"}, {label: "Benalmádena", value: "3"}, {label: "Cártama", value: "7"}, {label: "Casabermeja", value: "11"}, {label: "Coín", value: "21"}, {label: "Colmenar", value: "10"}, {label: "Fuengirola", value: "14"}, {label: "Málaga", value: "1"}, {label: "Mijas", value: "2"}, {label: "Pizarra", value: "8"}, {label: "Rincón de la Victoria", value: "4"}, {label: "Riogordo", value: "18"}, {label: "Torremolinos", value: "13"}, {label: "Totalán", value: "12"}, {label: "Valle de Abdalajís", value: "19"}, {label: "Vélez-Málaga", value: "23"}, {label: "Villanueva de la Concepción" , value: "22"}],
+			select: function( event, ui ) {
+				$( "input#filtroMuni" ).val( ui.item.label );
+				$( "#municipio-id" ).val( ui.item.value );
+				$( "#filtroNucleo" ).val("");
+				$( "#filtroNucleo-id" ).val("");
+				getNucleos();
+				cambiaLineas(ui.item.value);
+				return false;
+			},
+			minLength: 0
+		 });
+		$("input#filtroNucleo").autocomplete({
+			source: [],
+			select: function( event, ui ) {
+				$( "#filtroNucleo-id" ).val(ui.item.value);
+				$( "#filtroNucleo" ).val(ui.item.value);
+				cambiaLineas();
+				return false;
+			},
+			minLength: 0
+		 });
+        $('#smart-paginator').smartpaginator({ totalrecords: 101, recordsperpage: 20, initval:1 , next: '>', prev: '<', first: 'Primero', last: 'Último', theme: 'paginado', datacontainer: 'listalineas', dataelement: 'li', display: 'single', onchange: function(newPage) {
+   											var pag = newPage;
+											var params={action: "changePag", pag:pag};
+											var strparams=$.param(params);
+											$.ajax({	//Guardamos el componente activo
+												type: "POST",
+												url: 'lineas.php?'+strparams,
+											});
+                                        }
+         });
+		 $('#limpiar').click(function() {
+			$('#datepicker').val('');
+			cambiaLineas();
+		});
+	});
+	
+	function clickcombo(id){
+		$("#"+id).autocomplete("search", "");
+	}
+	function getNucleos(){
+	  var municipio=$("#municipio-id").val();
+	  var params = {action: "ajaxNucleo", idMunicipio: municipio};
+	  var strparams = $.param(params);
+      $('#filtroNucleo').autocomplete("option","source","lineas.php?"+strparams);
+	}
+	function cambiaLineas(){
+		var medio=$('#idmedio').val();
+		var frecuencia=$('#idfrecuencia').val();
+		var municipio=$('#municipio-id').val();
+		var nucleo=$('#filtroNucleo-id').val();
+		var fecha=$('#datepicker').val();
+		var ordenacion=$('#ord').val();			
+		var asc=$('#asc').val();
+		// if(municipio!=null){
+			// dataString+="&amp;municipio="+municipio;
+		// }
+		// if(medio!=0){
+			// dataString+="&amp;medio="+medio;
+		// }
+		// if(frecuencia!=0){
+			// dataString+="&amp;frec="+frecuencia;
+		// }
+		// if(nucleo!=null){
+			// dataString+="&amp;nucleo="+nucleo;
+		// }
+		var params={action: "changeLineas", municipio: municipio, medio: medio, frec: frecuencia, nucleo: nucleo, fecha: fecha, ordenacion: ordenacion, asc: asc};
+		var strparams=$.param(params);
+		//dataString+="&amp;ordenacion="+ordenacion+"&amp;asc="+asc;
+		$("#loading").show();
+		$.ajax({	//Guardamos el componente activo
+            type: "POST",
+            url: 'lineas.php?'+strparams,
+            success: function(data) {
+				$('#listalineas').html(data);
+				$('#smart-paginator').smartpaginator({ totalrecords: $('#numLineas').val(), recordsperpage: 20, initval:1 , next: '>', prev: '<', first: 'Primero', last: 'Último', theme: 'paginado', datacontainer: 'listalineas', dataelement: 'li', display: 'single', onchange: function(newPage) {
+   											var pag = newPage;
+											var params={action: "changePag", pag:pag};
+											var strparams=$.param(params);
+											$.ajax({	//Guardamos el componente activo
+												type: "POST",
+												url: 'lineas.php?'+strparams,
+											});
+										}
+				});
+				$("#loading").hide();
+			}
+		});
+	}
+	function ordena(campo){
+		if($("#l"+campo).attr("id")){	//ordenar abajo si no estaba marcado
+			var clase=$("#l"+campo).attr("class");
+			$("#l"+campo).removeClass(clase);
+			var atributosclase=clase.split(" ");
+			$("#l"+campo).addClass(atributosclase[0]+" abajo");
+			$("#l"+campo).attr("id", "l"+campo+"or");
+			$("#asc").val("abajo");
+		}
+		else{	
+			if($("#l"+campo+"or").attr("id")){//ordenar arriba		
+				$("#l"+campo+"or").attr("id", "l"+campo+"or2");
+				var clase=$("#l"+campo+"or2").attr("class");
+				$("#l"+campo+"or2").removeClass(clase);
+				var atributosclase=clase.split(" ");
+				clase=atributosclase[0];
+				$("#l"+campo+"or2").addClass(clase+" arriba");
+				$("#asc").val("arriba");
+			}
+			else{	//si estaba marcado hacia arriba
+				var clase=$("#l"+campo+"or2").attr("class");
+				$("#l"+campo+"or2").attr("id", "l"+campo+"or");
+				$("#l"+campo+"or").removeClass(clase);
+				var atributosclase=clase.split(" ");
+				$("#l"+campo+"or").addClass(atributosclase[0]+" abajo");
+				$("#asc").val("abajo");
+			}
+		}
+		var campo_ant=$("#ord").val();
+		if(campo_ant!=campo){
+			if($("#l"+campo_ant+"or").attr("id")){
+				$("#l"+campo_ant+"or").removeClass("abajo");
+				$("#l"+campo_ant+"or").attr("id","l"+campo_ant);
+			}
+			else{
+				if($("#l"+campo_ant+"or2").attr("id")){
+					$("#l"+campo_ant+"or2").removeClass("arriba");
+					$("#l"+campo_ant+"or2").attr("id","l"+campo_ant);
+				}
+			}
+			$("#ord").val(campo);
+		}
+		cambiaLineas();
+	}
+	/* ]]> */
+	</script>
+<title>	Consorcio de Transportes de Andalucía | Área de Málaga</title>
+</head>
+<body><div class="lineas">
+
+<div id="cabecera"><div class="container">
+	<h1><a href="http://siu.ctmam.ctan.es" title="Ir al inicio">
+		<img src="/images/consorcios/4/logo.jpg?v=1791884199" alt="Consorcio de Transportes de Andalucía"/>
+    	<span>Consorcio de Transportes de Andalucía</span> 
+	</a></h1>
+    
+	
+		
+    <div class="idioma">
+    	<ul>
+        	<li class="autobus"><a href="/es/lineas.php" title="Web en español"><span>Español</span><img src="/images/index/flag_es.png"  alt="Español"/></a></li>
+        	<li class="autobus"><a href="/en/lineas.php" title="Web in english"><span>English</span><img src="/images/index/flag_gb.png"  alt="English"/></a></li>
+        </ul>
+    </div>
+    
+		
+    <span class="telefono">
+		<a href="atencion.php" class="telefono">
+    	<strong>955 038 665</strong>
+        <em>atención al usuario</em>
+		</a>
+    </span>
+    
+    <div class="areas">
+    	<select id="consorcios" onchange="document.location=this.value;">
+    		<option>Otras áreas metropolitanas</option>
+							<option value="http://siu.ctal.es/es/index.php">Área de Almería</option>
+							<option value="http://siu.ctco.es/es/index.php">Área de Córdoba</option>
+							<option value="http://siu.ctagr.es/es/index.php">Área de Granada</option>
+							<option value="http://siu.ctja.es/es/index.php">Área de Jaén</option>
+							<option value="http://siu.ctas.ctan.es/es/index.php">Área de Sevilla</option>
+							<option value="http://siu.cmtbc.es/es/index.php">Bahía de Cádiz</option>
+							<option value="http://siu.ctmcg.es/es/index.php">Campo de Gibraltar</option>
+							<option value="http://siu.cthu.es/es/index.php">Costa de Huelva</option>
+			        </select>    </div>
+</div></div>
+<!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-HZRXW4GDM2"></script>
+        <script>
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', 'G-HZRXW4GDM2');
+        </script>
+        <div id="menu"><div class="container">
+            <ul>
+                <li class="autobus"><a href="index.php" title="Inicio" id="m_inicio" accesskey="i">Inicio</a></li>
+                <li class="autobus"><a href="ruta.php" title="Cálculo de ruta" id="m_ruta" accesskey="c">Cálculo de ruta</a></li>
+                <li class="autobus"><a href="horarios.php" title="Horarios" id="m_horarios" accesskey="h">Horarios</a></li>
+                <li class="autobus"><a href="lineas.php" title="Líneas" id="m_lineas" accesskey="l">Líneas</a></li>
+                <li class="autobus"><a href="puntos_de_venta.php" title="Puntos de venta" id="m_puntos" accesskey="p">Puntos de venta</a></li>
+                <li class="autobus"><a href="tarifas.php" title="Tarifas" id="m_tarifas" accesskey="t">Tarifas</a></li>
+                <li class="autobus"><a href="noticias.php" title="Noticias" id="m_noticias" accesskey="n">Noticias</a></li>
+                <li class="autobus"><a href="acceso.php" title="Transporte a la demanda" id="m_demanda" accesskey="d">Transporte a la demanda</a></li>
+            </ul>
+        </div></div>
+
+<div id="encabezado"><div class="container">
+<h1>Líneas</h1>
+<div class="migas">
+	<span class="home"><a href="index.php">Inicio</a></span><span>Líneas  </span>
+</div>
+</div></div><div id="contenidos">
+
+<div class="container">
+    <div class="filtro">
+		<div class="grid_8 alpha">
+			<label>Municipio</label>
+			<input class="filtro_auto" id="filtroMuni" onClick="clickcombo(this.id);"></input>
+			<input type="hidden" id="municipio-id"/>
+		</div>
+	  
+		<div class="grid_8">
+			<label>Modo de transporte</label>
+			<select id="idmedio" name="medio" onChange="cambiaLineas();">
+				<option value="0"></option>
+				<option value='1'>Autobús</option><option value='3'>Bicicleta</option><option value='4'>Metro</option><option value='2'>Tren</option>			</select>
+	    </div>
+		<div class="grid_8 alpha">
+			<label>Núcleo</label>
+			<input  class="filtro_auto"  id="filtroNucleo" onClick="clickcombo(this.id);"></input>
+			<input type="hidden" id="filtroNucleo-id"/>
+		</div>
+		<div class="grid_8">
+			<label>Horario para un día concreto</label> <input id="datepicker" type="text" class="grid_2" value="" onChange="cambiaLineas();"/>&nbsp;&nbsp;<a id="limpiar" class="button" style="margin-top:0px">Todos</a>&nbsp;&nbsp;&nbsp;<img src="/images/loading.gif" width="30" id="loading" style="float:left" alt="Descarga"/> </div>
+		<input type="hidden" id="ord" value="2"/>
+		<input type="hidden" id="asc" value="abajo"/>
+    	</div>
+  
+  <div id="listado" class="listado">
+  
+  	<div class="encabezado">
+			
+    	    <span id="l1" class="grid_2 "><a href="javascript:ordena(1)">Medio</a></span>
+						<span id="l2or" class="grid_2 abajo"><a href="javascript:ordena(2)">Línea</a></span>
+            <span id="l3" class="grid_5"><a href="javascript:ordena(3)">Recorrido</a></span>
+			<span id="l4" class="grid_4"><a href="javascript:ordena(4)">Operador</a></span>
+			<span id="l0" class="grid_1"><a href="javascript:ordena(0)">Noticias</a></span>
+			    </div>
+	
+		<ul id="listalineas">
+							<li class="cercanias"><a href="horarios_lineas_tabla.php?from=1&linea=160" class="linea">
+				<span class="grid_2">Tren</span>
+				<span class="grid_2">C-1</span>
+				<span class="grid_5 destacado">Fuengirola-Málaga Centro-Alameda</span>
+				<span class='grid_4'>Renfe Cercanías</span></a>
+				<span class="grid_1 noticias">
+									</span></li>
+							<li class="cercanias"><a href="horarios_lineas_tabla.php?from=1&linea=161" class="linea">
+				<span class="grid_2">Tren</span>
+				<span class="grid_2">C-2</span>
+				<span class="grid_5 destacado">Málaga Centro-Alameda-Álora</span>
+				<span class='grid_4'>Renfe Cercanías</span></a>
+				<span class="grid_1 noticias">
+									</span></li>
+							<li class="cercanias"><a href="horarios_lineas_tabla.php?from=1&linea=313" class="linea">
+				<span class="grid_2">Autobús</span>
+				<span class="grid_2">M-060B</span>
+				<span class="grid_5 destacado">Fuengirola-La Cala de Mijas-Marbella (Directo)</span>
+				<span class='grid_4'>Avanza Movilidad Integral, S.L.</span></a>
+				<span class="grid_1 noticias">
+									</span></li>
+							<li class="cercanias"><a href="horarios_lineas_tabla.php?from=1&linea=140" class="linea">
+				<span class="grid_2">Autobús</span>
+				<span class="grid_2">M-103</span>
+				<span class="grid_5 destacado">Urbano De Benalmádena - Línea 1 Higuerón-Torremuelle</span>
+				<span class='grid_4'>Avanza Movilidad Integral, S.L.</span></a>
+				<span class="grid_1 noticias">
+									</span></li>
+							<li class="cercanias"><a href="horarios_lineas_tabla.php?from=1&linea=291" class="linea">
+				<span class="grid_2">Autobús</span>
+				<span class="grid_2">M-104B</span>
+				<span class="grid_5 destacado">Pizarra-Zalea-Cerralba-Hospital</span>
+				<span class='grid_4'>Ayuntamiento de Pizarra</span></a>
+				<span class="grid_1 noticias">
+									</span></li>
+							<li class="cercanias"><a href="horarios_lineas_tabla.php?from=1&linea=254" class="linea">
+				<span class="grid_2">Autobús</span>
+				<span class="grid_2">M-107</span>
+				<span class="grid_5 destacado">Urbano de Benalmádena. Línea M-107 Santangelo-Miramar-Arroyo de la Miel</span>
+				<span class='grid_4'>Avanza Movilidad Integral, S.L.</span></a>
+				<span class="grid_1 noticias">
+									</span></li>
+							<li class="cercanias"><a href="horarios_lineas_tabla.php?from=1&linea=1" class="linea">
+				<span class="grid_2">Autobús</span>
+				<span class="grid_2">M-110</span>
+				<span class="grid_5 destacado">Málaga-Torremolinos-Benalmádena Costa</span>
+				<span class='grid_4'>Avanza Movilidad Integral, S.L.</span></a>
+				<span class="grid_1 noticias">
+									</span></li>
+							<li class="cercanias"><a href="horarios_lineas_tabla.php?from=1&linea=3" class="linea">
+				<span class="grid_2">Autobús</span>
+				<span class="grid_2">M-112</span>
+				<span class="grid_5 destacado">Málaga-Mijas</span>
+				<span class='grid_4'>Avanza Movilidad Integral, S.L.</span></a>
+				<span class="grid_1 noticias">
+									</span></li>
+							<li class="cercanias"><a href="horarios_lineas_tabla.php?from=1&linea=4" class="linea">
+				<span class="grid_2">Autobús</span>
+				<span class="grid_2">M-113</span>
+				<span class="grid_5 destacado">Málaga-Las Lagunas-Fuengirola (Directo)</span>
+				<span class='grid_4'>Avanza Movilidad Integral, S.L.</span></a>
+				<span class="grid_1 noticias">
+									</span></li>
+							<li class="cercanias"><a href="horarios_lineas_tabla.php?from=1&linea=5" class="linea">
+				<span class="grid_2">Autobús</span>
+				<span class="grid_2">M-114</span>
+				<span class="grid_5 destacado">Mijas-Teatinos (del 09/09/26 al 28/05/27)</span>
+				<span class='grid_4'>Avanza Movilidad Integral, S.L.</span></a>
+				<span class="grid_1 noticias">
+									</span></li>
+							<li class="cercanias"><a href="horarios_lineas_tabla.php?from=1&linea=7" class="linea">
+				<span class="grid_2">Autobús</span>
+				<span class="grid_2">M-116</span>
+				<span class="grid_5 destacado">Teatinos-Torremolinos-Benalmádena (del 09/09/26 al 28/05/27)</span>
+				<span class='grid_4'>Avanza Movilidad Integral, S.L.</span></a>
+				<span class="grid_1 noticias">
+									</span></li>
+							<li class="cercanias"><a href="horarios_lineas_tabla.php?from=1&linea=201" class="linea">
+				<span class="grid_2">Autobús</span>
+				<span class="grid_2">M-119</span>
+				<span class="grid_5 destacado">Calahonda-La Cala De Mijas-Fuengirola (Circular)</span>
+				<span class='grid_4'>Avanza Movilidad Integral, S.L.</span></a>
+				<span class="grid_1 noticias">
+									</span></li>
+							<li class="cercanias"><a href="horarios_lineas_tabla.php?from=1&linea=8" class="linea">
+				<span class="grid_2">Autobús</span>
+				<span class="grid_2">M-120</span>
+				<span class="grid_5 destacado">Torremolinos-Fuengirola</span>
+				<span class='grid_4'>Avanza Movilidad Integral, S.L.</span></a>
+				<span class="grid_1 noticias">
+									</span></li>
+							<li class="cercanias"><a href="horarios_lineas_tabla.php?from=1&linea=9" class="linea">
+				<span class="grid_2">Autobús</span>
+				<span class="grid_2">M-121</span>
+				<span class="grid_5 destacado">Mijas-Benalmádena-Torremolinos</span>
+				<span class='grid_4'>Avanza Movilidad Integral, S.L.</span></a>
+				<span class="grid_1 noticias">
+									</span></li>
+							<li class="cercanias"><a href="horarios_lineas_tabla.php?from=1&linea=10" class="linea">
+				<span class="grid_2">Autobús</span>
+				<span class="grid_2">M-122</span>
+				<span class="grid_5 destacado">Fuengirola-Mijas</span>
+				<span class='grid_4'>Avanza Movilidad Integral, S.L.</span></a>
+				<span class="grid_1 noticias">
+									</span></li>
+							<li class="cercanias"><a href="horarios_lineas_tabla.php?from=1&linea=11" class="linea">
+				<span class="grid_2">Autobús</span>
+				<span class="grid_2">M-123</span>
+				<span class="grid_5 destacado">Churriana-Torremolinos-Benalmádena Costa</span>
+				<span class='grid_4'>Avanza Movilidad Integral, S.L.</span></a>
+				<span class="grid_1 noticias">
+									</span></li>
+							<li class="cercanias"><a href="horarios_lineas_tabla.php?from=1&linea=12" class="linea">
+				<span class="grid_2">Autobús</span>
+				<span class="grid_2">M-124</span>
+				<span class="grid_5 destacado">Carola-Torremolinos</span>
+				<span class='grid_4'>Avanza Movilidad Integral, S.L.</span></a>
+				<span class="grid_1 noticias">
+									</span></li>
+							<li class="cercanias"><a href="horarios_lineas_tabla.php?from=1&linea=13" class="linea">
+				<span class="grid_2">Autobús</span>
+				<span class="grid_2">M-125</span>
+				<span class="grid_5 destacado">Torremolinos-Patronato</span>
+				<span class='grid_4'>Avanza Movilidad Integral, S.L.</span></a>
+				<span class="grid_1 noticias">
+									</span></li>
+							<li class="cercanias"><a href="horarios_lineas_tabla.php?from=1&linea=14" class="linea">
+				<span class="grid_2">Autobús</span>
+				<span class="grid_2">M-126</span>
+				<span class="grid_5 destacado">Benalmádena-Torremolinos</span>
+				<span class='grid_4'>Avanza Movilidad Integral, S.L.</span></a>
+				<span class="grid_1 noticias">
+									</span></li>
+							<li class="cercanias"><a href="horarios_lineas_tabla.php?from=1&linea=15" class="linea">
+				<span class="grid_2">Autobús</span>
+				<span class="grid_2">M-127</span>
+				<span class="grid_5 destacado">Las Lagunas-Fuengirola</span>
+				<span class='grid_4'>Avanza Movilidad Integral, S.L.</span></a>
+				<span class="grid_1 noticias">
+									</span></li>
+							<li class="cercanias"><a href="horarios_lineas_tabla.php?from=1&linea=16" class="linea">
+				<span class="grid_2">Autobús</span>
+				<span class="grid_2">M-131</span>
+				<span class="grid_5 destacado">Málaga-Cártama</span>
+				<span class='grid_4'>Avanza Movilidad Integral, S.L.</span></a>
+				<span class="grid_1 noticias">
+									</span></li>
+							<li class="cercanias"><a href="horarios_lineas_tabla.php?from=1&linea=17" class="linea">
+				<span class="grid_2">Autobús</span>
+				<span class="grid_2">M-132</span>
+				<span class="grid_5 destacado">Málaga-Alhaurín El Grande</span>
+				<span class='grid_4'>Avanza Movilidad Integral, S.L.</span></a>
+				<span class="grid_1 noticias">
+									</span></li>
+							<li class="cercanias"><a href="horarios_lineas_tabla.php?from=1&linea=18" class="linea">
+				<span class="grid_2">Autobús</span>
+				<span class="grid_2">M-133</span>
+				<span class="grid_5 destacado">Málaga-Alhaurín de la Torre-Pinos De Alhaurín</span>
+				<span class='grid_4'>Avanza Movilidad Integral, S.L.</span></a>
+				<span class="grid_1 noticias">
+									</span></li>
+							<li class="cercanias"><a href="horarios_lineas_tabla.php?from=1&linea=89" class="linea">
+				<span class="grid_2">Autobús</span>
+				<span class="grid_2">M-135</span>
+				<span class="grid_5 destacado">Málaga-Aeropuerto-Santa Amalia</span>
+				<span class='grid_4'>Autocares Vázquez Olmedo, S.L.</span></a>
+				<span class="grid_1 noticias">
+									</span></li>
+							<li class="cercanias"><a href="horarios_lineas_tabla.php?from=1&linea=90" class="linea">
+				<span class="grid_2">Autobús</span>
+				<span class="grid_2">M-136</span>
+				<span class="grid_5 destacado">Cártama-Alhaurín De La Torre-Plaza Mayor-Los Álamos</span>
+				<span class='grid_4'>Autocares Vázquez Olmedo, S.L.</span></a>
+				<span class="grid_1 noticias">
+									</span></li>
+							<li class="cercanias"><a href="horarios_lineas_tabla.php?from=1&linea=97" class="linea">
+				<span class="grid_2">Autobús</span>
+				<span class="grid_2">M-137</span>
+				<span class="grid_5 destacado">Gibralgalia-Pizarra</span>
+				<span class='grid_4'>Autocares Sierra de las Nieves, S.L.</span></a>
+				<span class="grid_1 noticias">
+									</span></li>
+							<li class="cercanias"><a href="horarios_lineas_tabla.php?from=1&linea=93" class="linea">
+				<span class="grid_2">Autobús</span>
+				<span class="grid_2">M-143</span>
+				<span class="grid_5 destacado">Alh. de La Torre-Churriana-Teatinos (del 09/09/26 al 28/05/27)</span>
+				<span class='grid_4'>Autocares Vázquez Olmedo, S.L.</span></a>
+				<span class="grid_1 noticias">
+									</span></li>
+							<li class="cercanias"><a href="horarios_lineas_tabla.php?from=1&linea=98" class="linea">
+				<span class="grid_2">Autobús</span>
+				<span class="grid_2">M-144</span>
+				<span class="grid_5 destacado">Gibralgalia-El Sexmo</span>
+				<span class='grid_4'>Autocares Sierra de las Nieves, S.L.</span></a>
+				<span class="grid_1 noticias">
+									</span></li>
+							<li class="cercanias"><a href="horarios_lineas_tabla.php?from=1&linea=96" class="linea">
+				<span class="grid_2">Autobús</span>
+				<span class="grid_2">M-151</span>
+				<span class="grid_5 destacado">Málaga-Casabermeja-VVa.Concepción</span>
+				<span class='grid_4'>Automóviles Mérida, S.L.</span></a>
+				<span class="grid_1 noticias">
+									</span></li>
+							<li class="cercanias"><a href="horarios_lineas_tabla.php?from=1&linea=308" class="linea">
+				<span class="grid_2">Autobús</span>
+				<span class="grid_2">M-152</span>
+				<span class="grid_5 destacado">Málaga-Los Gámez</span>
+				<span class='grid_4'>Automóviles Mérida, S.L.</span></a>
+				<span class="grid_1 noticias">
+									</span></li>
+							<li class="cercanias"><a href="horarios_lineas_tabla.php?from=1&linea=279" class="linea">
+				<span class="grid_2">Autobús</span>
+				<span class="grid_2">M-153</span>
+				<span class="grid_5 destacado">Hospital-Cártama-Maqueda</span>
+				<span class='grid_4'>Autocares Vázquez Olmedo, S.L.</span></a>
+				<span class="grid_1 noticias">
+									</span></li>
+							<li class="cercanias"><a href="horarios_lineas_tabla.php?from=1&linea=208" class="linea">
+				<span class="grid_2">Autobús</span>
+				<span class="grid_2">M-156</span>
+				<span class="grid_5 destacado">Las Lagunas-Centro Comercial-Cerros Del Águila</span>
+				<span class='grid_4'>Avanza Movilidad Integral, S.L.</span></a>
+				<span class="grid_1 noticias">
+									</span></li>
+							<li class="cercanias"><a href="horarios_lineas_tabla.php?from=1&linea=302" class="linea">
+				<span class="grid_2">Autobús</span>
+				<span class="grid_2">M-159B</span>
+				<span class="grid_5 destacado">Alhaurín el Grande-Villa del Guadalhorce-Hospital Guadalhorce</span>
+				<span class='grid_4'>Avanza Movilidad Integral, S.L.</span></a>
+				<span class="grid_1 noticias">
+									</span></li>
+							<li class="cercanias"><a href="horarios_lineas_tabla.php?from=1&linea=19" class="linea">
+				<span class="grid_2">Autobús</span>
+				<span class="grid_2">M-160</span>
+				<span class="grid_5 destacado">Málaga-Rincón de la Victoria-Cotomar</span>
+				<span class='grid_4'>Avanza Movilidad Integral, S.L.</span></a>
+				<span class="grid_1 noticias">
+									</span></li>
+							<li class="cercanias"><a href="horarios_lineas_tabla.php?from=1&linea=109" class="linea">
+				<span class="grid_2">Autobús</span>
+				<span class="grid_2">M-161</span>
+				<span class="grid_5 destacado">Málaga-Centro Comercial Rincón De La Victoria-Totalán</span>
+				<span class='grid_4'>Nex Continental Holdings, S.L.U.</span></a>
+				<span class="grid_1 noticias">
+									</span></li>
+							<li class="cercanias"><a href="horarios_lineas_tabla.php?from=1&linea=110" class="linea">
+				<span class="grid_2">Autobús</span>
+				<span class="grid_2">M-162</span>
+				<span class="grid_5 destacado">Málaga-Olías</span>
+				<span class='grid_4'>Nex Continental Holdings, S.L.U.</span></a>
+				<span class="grid_1 noticias">
+									</span></li>
+							<li class="cercanias"><a href="horarios_lineas_tabla.php?from=1&linea=20" class="linea">
+				<span class="grid_2">Autobús</span>
+				<span class="grid_2">M-163</span>
+				<span class="grid_5 destacado">Málaga-Rincón de la Victoria-Los Rubios</span>
+				<span class='grid_4'>Avanza Movilidad Integral, S.L.</span></a>
+				<span class="grid_1 noticias">
+									</span></li>
+							<li class="cercanias"><a href="horarios_lineas_tabla.php?from=1&linea=133" class="linea">
+				<span class="grid_2">Autobús</span>
+				<span class="grid_2">M-166</span>
+				<span class="grid_5 destacado">Universidad-Clínico-Rincón de la Victoria (del 09/09/26 al 28/05/27)</span>
+				<span class='grid_4'>Avanza Movilidad Integral, S.L.</span></a>
+				<span class="grid_1 noticias">
+									</span></li>
+							<li class="cercanias"><a href="horarios_lineas_tabla.php?from=1&linea=274" class="linea">
+				<span class="grid_2">Autobús</span>
+				<span class="grid_2">M-167</span>
+				<span class="grid_5 destacado">Coín-Alhaurín el Grande-Málaga</span>
+				<span class='grid_4'>Avanza Movilidad Integral, S.L.</span></a>
+				<span class="grid_1 noticias">
+									</span></li>
+							<li class="cercanias"><a href="horarios_lineas_tabla.php?from=1&linea=297" class="linea">
+				<span class="grid_2">Autobús</span>
+				<span class="grid_2">M-168C</span>
+				<span class="grid_5 destacado">Málaga-Rincón de la Victoria (Cotomar) (Buho)</span>
+				<span class='grid_4'>Avanza Movilidad Integral, S.L.</span></a>
+				<span class="grid_1 noticias">
+									</span></li>
+							<li class="cercanias"><a href="horarios_lineas_tabla.php?from=1&linea=276" class="linea">
+				<span class="grid_2">Autobús</span>
+				<span class="grid_2">M-170</span>
+				<span class="grid_5 destacado">Alhaurín de la Torre-Málaga</span>
+				<span class='grid_4'>Autocares Vázquez Olmedo, S.L.</span></a>
+				<span class="grid_1 noticias">
+									</span></li>
+							<li class="cercanias"><a href="horarios_lineas_tabla.php?from=1&linea=301" class="linea">
+				<span class="grid_2">Autobús</span>
+				<span class="grid_2">M-171</span>
+				<span class="grid_5 destacado">Alhaurín el Grande (Circular)</span>
+				<span class='grid_4'>Avanza Movilidad Integral, S.L.</span></a>
+				<span class="grid_1 noticias">
+									</span></li>
+							<li class="cercanias"><a href="horarios_lineas_tabla.php?from=1&linea=21" class="linea">
+				<span class="grid_2">Autobús</span>
+				<span class="grid_2">M-220</span>
+				<span class="grid_5 destacado">Las Lagunas-Fuengirola-Marbella</span>
+				<span class='grid_4'>Avanza Movilidad Integral, S.L.</span></a>
+				<span class="grid_1 noticias">
+									</span></li>
+							<li class="cercanias"><a href="horarios_lineas_tabla.php?from=1&linea=22" class="linea">
+				<span class="grid_2">Autobús</span>
+				<span class="grid_2">M-221</span>
+				<span class="grid_5 destacado">Fuengirola-Coín</span>
+				<span class='grid_4'>Avanza Movilidad Integral, S.L.</span></a>
+				<span class="grid_1 noticias">
+									</span></li>
+							<li class="cercanias"><a href="horarios_lineas_tabla.php?from=1&linea=226" class="linea">
+				<span class="grid_2">Autobús</span>
+				<span class="grid_2">M-222</span>
+				<span class="grid_5 destacado">Valtocado-El Barrio-La Alquería-Fuengirola</span>
+				<span class='grid_4'>Avanza Movilidad Integral, S.L.</span></a>
+				<span class="grid_1 noticias">
+									</span></li>
+							<li class="cercanias"><a href="horarios_lineas_tabla.php?from=1&linea=227" class="linea">
+				<span class="grid_2">Autobús</span>
+				<span class="grid_2">M-223</span>
+				<span class="grid_5 destacado">Entrerríos-Las Lagunas-Fuengirola</span>
+				<span class='grid_4'>Avanza Movilidad Integral, S.L.</span></a>
+				<span class="grid_1 noticias">
+									</span></li>
+							<li class="cercanias"><a href="horarios_lineas_tabla.php?from=1&linea=23" class="linea">
+				<span class="grid_2">Autobús</span>
+				<span class="grid_2">M-230</span>
+				<span class="grid_5 destacado">Málaga-Coín (Por los Alhaurines)</span>
+				<span class='grid_4'>Avanza Movilidad Integral, S.L.</span></a>
+				<span class="grid_1 noticias">
+									</span></li>
+							<li class="cercanias"><a href="horarios_lineas_tabla.php?from=1&linea=230" class="linea">
+				<span class="grid_2">Autobús</span>
+				<span class="grid_2">M-231</span>
+				<span class="grid_5 destacado">Málaga-Pizarra-Álora</span>
+				<span class='grid_4'>Damas S.A. e Interurbana de Autobuses S.A.</span></a>
+				<span class="grid_1 noticias">
+									</span></li>
+							<li class="cercanias"><a href="horarios_lineas_tabla.php?from=1&linea=231" class="linea">
+				<span class="grid_2">Autobús</span>
+				<span class="grid_2">M-233</span>
+				<span class="grid_5 destacado">Málaga-Cerralba-Álora (Directo)</span>
+				<span class='grid_4'>Damas S.A. e Interurbana de Autobuses S.A.</span></a>
+				<span class="grid_1 noticias">
+									</span></li>
+							<li class="cercanias"><a href="horarios_lineas_tabla.php?from=1&linea=234" class="linea">
+				<span class="grid_2">Autobús</span>
+				<span class="grid_2">M-235</span>
+				<span class="grid_5 destacado">Álora-Pizarra-Málaga Por Cerralba Y Cártama</span>
+				<span class='grid_4'>Damas S.A. e Interurbana de Autobuses S.A.</span></a>
+				<span class="grid_1 noticias">
+									</span></li>
+							<li class="cercanias"><a href="horarios_lineas_tabla.php?from=1&linea=99" class="linea">
+				<span class="grid_2">Autobús</span>
+				<span class="grid_2">M-250</span>
+				<span class="grid_5 destacado">Málaga-Almogía</span>
+				<span class='grid_4'>Autocares Sierra de las Nieves, S.L.</span></a>
+				<span class="grid_1 noticias">
+									</span></li>
+							<li class="cercanias"><a href="horarios_lineas_tabla.php?from=1&linea=176" class="linea">
+				<span class="grid_2">Autobús</span>
+				<span class="grid_2">M-251</span>
+				<span class="grid_5 destacado">Málaga-Casabermeja-Colmenar-Riogordo</span>
+				<span class='grid_4'>Nex Continental Holdings, S.L.U.</span></a>
+				<span class="grid_1 noticias">
+									</span></li>
+							<li class="cercanias"><a href="horarios_lineas_tabla.php?from=1&linea=307" class="linea">
+				<span class="grid_2">Autobús</span>
+				<span class="grid_2">M-252</span>
+				<span class="grid_5 destacado">Málaga-Casabermeja-Colmenar</span>
+				<span class='grid_4'>Nex Continental Holdings, S.L.U.</span></a>
+				<span class="grid_1 noticias">
+									</span></li>
+							<li class="cercanias"><a href="horarios_lineas_tabla.php?from=1&linea=177" class="linea">
+				<span class="grid_2">Autobús</span>
+				<span class="grid_2">M-253</span>
+				<span class="grid_5 destacado">Málaga-Antequera</span>
+				<span class='grid_4'>Nex Continental Holdings, S.L.U.</span></a>
+				<span class="grid_1 noticias">
+									</span></li>
+							<li class="cercanias"><a href="horarios_lineas_tabla.php?from=1&linea=178" class="linea">
+				<span class="grid_2">Autobús</span>
+				<span class="grid_2">M-254</span>
+				<span class="grid_5 destacado">Málaga-Rute por Antequera</span>
+				<span class='grid_4'>Nex Continental Holdings, S.L.U.</span></a>
+				<span class="grid_1 noticias">
+									</span></li>
+							<li class="cercanias"><a href="horarios_lineas_tabla.php?from=1&linea=305" class="linea">
+				<span class="grid_2">Autobús</span>
+				<span class="grid_2">M-255</span>
+				<span class="grid_5 destacado">Málaga-Antequera (Directo)</span>
+				<span class='grid_4'>Nex Continental Holdings, S.L.U.</span></a>
+				<span class="grid_1 noticias">
+									</span></li>
+							<li class="cercanias"><a href="horarios_lineas_tabla.php?from=1&linea=284" class="linea">
+				<span class="grid_2">Autobús</span>
+				<span class="grid_2">M-256</span>
+				<span class="grid_5 destacado">Málaga-Antequera-Valle de Abdalajís</span>
+				<span class='grid_4'>Nex Continental Holdings, S.L.U.</span></a>
+				<span class="grid_1 noticias">
+									</span></li>
+							<li class="cercanias"><a href="horarios_lineas_tabla.php?from=1&linea=281" class="linea">
+				<span class="grid_2">Autobús</span>
+				<span class="grid_2">M-257</span>
+				<span class="grid_5 destacado">Antequera-Málaga-Torre del Mar</span>
+				<span class='grid_4'>Nex Continental Holdings, S.L.U.</span></a>
+				<span class="grid_1 noticias">
+									</span></li>
+							<li class="cercanias"><a href="horarios_lineas_tabla.php?from=1&linea=282" class="linea">
+				<span class="grid_2">Autobús</span>
+				<span class="grid_2">M-258</span>
+				<span class="grid_5 destacado">Ubeda-Málaga por Antequera</span>
+				<span class='grid_4'>Nex Continental Holdings, S.L.U.</span></a>
+				<span class="grid_1 noticias">
+									</span></li>
+							<li class="cercanias"><a href="horarios_lineas_tabla.php?from=1&linea=283" class="linea">
+				<span class="grid_2">Autobús</span>
+				<span class="grid_2">M-259</span>
+				<span class="grid_5 destacado">Córdoba-Málaga por Antequera</span>
+				<span class='grid_4'>Nex Continental Holdings, S.L.U.</span></a>
+				<span class="grid_1 noticias">
+									</span></li>
+							<li class="cercanias"><a href="horarios_lineas_tabla.php?from=1&linea=321" class="linea">
+				<span class="grid_2">Autobús</span>
+				<span class="grid_2">M-260</span>
+				<span class="grid_5 destacado">Málaga-Torre Benagalbón-Torre del Mar-Vélez Málaga (prohibido entre Vélez y T. del Mar)</span>
+				<span class='grid_4'>Nex Continental Holdings, S.L.U.</span></a>
+				<span class="grid_1 noticias">
+									</span></li>
+							<li class="cercanias"><a href="horarios_lineas_tabla.php?from=1&linea=296" class="linea">
+				<span class="grid_2">Autobús</span>
+				<span class="grid_2">M-262</span>
+				<span class="grid_5 destacado">Rincón de la Victoria-Benagalbón-Moclinejo-El Valdés (Av)</span>
+				<span class='grid_4'>Avanza Movilidad Integral, S.L.</span></a>
+				<span class="grid_1 noticias">
+									</span></li>
+							<li class="cercanias"><a href="horarios_lineas_tabla.php?from=1&linea=285" class="linea">
+				<span class="grid_2">Autobús</span>
+				<span class="grid_2">M-265</span>
+				<span class="grid_5 destacado">Alameda-Málaga por Antequera</span>
+				<span class='grid_4'>Nex Continental Holdings, S.L.U.</span></a>
+				<span class="grid_1 noticias">
+									</span></li>
+							<li class="cercanias"><a href="horarios_lineas_tabla.php?from=1&linea=286" class="linea">
+				<span class="grid_2">Autobús</span>
+				<span class="grid_2">M-266</span>
+				<span class="grid_5 destacado">Villanueva de la Concepción-Antequera</span>
+				<span class='grid_4'>Nex Continental Holdings, S.L.U.</span></a>
+				<span class="grid_1 noticias">
+									</span></li>
+							<li class="cercanias"><a href="horarios_lineas_tabla.php?from=1&linea=315" class="linea">
+				<span class="grid_2">Autobús</span>
+				<span class="grid_2">M-270</span>
+				<span class="grid_5 destacado">Valle de Abdalajís-Estación de Álora</span>
+				<span class='grid_4'>Damas S.A. e Interurbana de Autobuses S.A.</span></a>
+				<span class="grid_1 noticias">
+									</span></li>
+							<li class="cercanias"><a href="horarios_lineas_tabla.php?from=1&linea=25" class="linea">
+				<span class="grid_2">Autobús</span>
+				<span class="grid_2">M-320</span>
+				<span class="grid_5 destacado">Málaga-Marbella</span>
+				<span class='grid_4'>Avanza Movilidad Integral, S.L.</span></a>
+				<span class="grid_1 noticias">
+									</span></li>
+							<li class="cercanias"><a href="horarios_lineas_tabla.php?from=1&linea=100" class="linea">
+				<span class="grid_2">Autobús</span>
+				<span class="grid_2">M-330</span>
+				<span class="grid_5 destacado">Málaga-Zalea-El Burgo</span>
+				<span class='grid_4'>Autocares Sierra de las Nieves, S.L.</span></a>
+				<span class="grid_1 noticias">
+									</span></li>
+							<li class="cercanias"><a href="horarios_lineas_tabla.php?from=1&linea=121" class="linea">
+				<span class="grid_2">Autobús</span>
+				<span class="grid_2">M-340</span>
+				<span class="grid_5 destacado">Álora-Bermejo-El Chorro/Caminito Del Rey</span>
+				<span class='grid_4'>Autocares Rivero, S.A.</span></a>
+				<span class="grid_1 noticias">
+									</span></li>
+							<li class="cercanias"><a href="horarios_lineas_tabla.php?from=1&linea=122" class="linea">
+				<span class="grid_2">Autobús</span>
+				<span class="grid_2">M-341</span>
+				<span class="grid_5 destacado">Álora-Venta Tendilla</span>
+				<span class='grid_4'>Autocares Rivero, S.A.</span></a>
+				<span class="grid_1 noticias">
+									</span></li>
+							<li class="cercanias"><a href="horarios_lineas_tabla.php?from=1&linea=123" class="linea">
+				<span class="grid_2">Autobús</span>
+				<span class="grid_2">M-342</span>
+				<span class="grid_5 destacado">Álora-Estación De Álora</span>
+				<span class='grid_4'>Autocares Rivero, S.A.</span></a>
+				<span class="grid_1 noticias">
+									</span></li>
+							<li class="cercanias"><a href="horarios_lineas_tabla.php?from=1&linea=130" class="linea">
+				<span class="grid_2">Autobús</span>
+				<span class="grid_2">M-343</span>
+				<span class="grid_5 destacado">Álora-Polígono Industrial</span>
+				<span class='grid_4'>Autocares Rivero, S.A.</span></a>
+				<span class="grid_1 noticias">
+									</span></li>
+							<li class="cercanias"><a href="horarios_lineas_tabla.php?from=1&linea=163" class="linea">
+				<span class="grid_2">Autobús</span>
+				<span class="grid_2">M-344</span>
+				<span class="grid_5 destacado">Málaga-Tolox</span>
+				<span class='grid_4'>Avanza Movilidad Integral, S.L.</span></a>
+				<span class="grid_1 noticias">
+									</span></li>
+							<li class="cercanias"><a href="horarios_lineas_tabla.php?from=1&linea=164" class="linea">
+				<span class="grid_2">Autobús</span>
+				<span class="grid_2">M-345</span>
+				<span class="grid_5 destacado">Málaga-Cártama-Coín</span>
+				<span class='grid_4'>Avanza Movilidad Integral, S.L.</span></a>
+				<span class="grid_1 noticias">
+									</span></li>
+							<li class="cercanias"><a href="horarios_lineas_tabla.php?from=1&linea=191" class="linea">
+				<span class="grid_2">Autobús</span>
+				<span class="grid_2">M-347</span>
+				<span class="grid_5 destacado">Caminito Del Rey/El Chorro-El Kiosco</span>
+				<span class='grid_4'>Autocares Rivero, S.A.</span></a>
+				<span class="grid_1 noticias">
+									</span></li>
+							<li class="cercanias"><a href="horarios_lineas_tabla.php?from=1&linea=248" class="linea">
+				<span class="grid_2">Autobús</span>
+				<span class="grid_2">M-348</span>
+				<span class="grid_5 destacado">Málaga-Coín</span>
+				<span class='grid_4'>Avanza Movilidad Integral, S.L.</span></a>
+				<span class="grid_1 noticias">
+									</span></li>
+							<li class="cercanias"><a href="horarios_lineas_tabla.php?from=1&linea=300" class="linea">
+				<span class="grid_2">Autobús</span>
+				<span class="grid_2">M-351</span>
+				<span class="grid_5 destacado">Málaga-Casabermeja (Directo)</span>
+				<span class='grid_4'>Automóviles Mérida, S.L.</span></a>
+				<span class="grid_1 noticias">
+									</span></li>
+							<li class="cercanias"><a href="horarios_lineas_tabla.php?from=1&linea=114" class="linea">
+				<span class="grid_2">Autobús</span>
+				<span class="grid_2">M-360</span>
+				<span class="grid_5 destacado">Málaga-Olías-Comares</span>
+				<span class='grid_4'>Nex Continental Holdings, S.L.U.</span></a>
+				<span class="grid_1 noticias">
+									</span></li>
+							<li class="cercanias"><a href="horarios_lineas_tabla.php?from=1&linea=322" class="linea">
+				<span class="grid_2">Autobús</span>
+				<span class="grid_2">M-362</span>
+				<span class="grid_5 destacado">Málaga-Nerja (No se permite el viaje entre Vélez-Málaga y Torre del Mar en ambos sentidos)</span>
+				<span class='grid_4'>Nex Continental Holdings, S.L.U.</span></a>
+				<span class="grid_1 noticias">
+									</span></li>
+							<li class="cercanias"><a href="horarios_lineas_tabla.php?from=1&linea=325" class="linea">
+				<span class="grid_2">Autobús</span>
+				<span class="grid_2">M-363</span>
+				<span class="grid_5 destacado">Málaga-Torre de Mar-Hospital Vélez-Torrox</span>
+				<span class='grid_4'>Nex Continental Holdings, S.L.U.</span></a>
+				<span class="grid_1 noticias">
+									</span></li>
+							<li class="cercanias"><a href="horarios_lineas_tabla.php?from=1&linea=328" class="linea">
+				<span class="grid_2">Autobús</span>
+				<span class="grid_2">M-364</span>
+				<span class="grid_5 destacado">Málaga-Torre del Mar-Vélez Málaga-Periana</span>
+				<span class='grid_4'>Nex Continental Holdings, S.L.U.</span></a>
+				<span class="grid_1 noticias">
+									</span></li>
+							<li class="cercanias"><a href="horarios_lineas_tabla.php?from=1&linea=329" class="linea">
+				<span class="grid_2">Autobús</span>
+				<span class="grid_2">M-365</span>
+				<span class="grid_5 destacado">Málaga-Torre del Mar-Vélez Málaga-Riogordo</span>
+				<span class='grid_4'>Nex Continental Holdings, S.L.U.</span></a>
+				<span class="grid_1 noticias">
+									</span></li>
+							<li class="cercanias"><a href="horarios_lineas_tabla.php?from=1&linea=326" class="linea">
+				<span class="grid_2">Autobús</span>
+				<span class="grid_2">M-366</span>
+				<span class="grid_5 destacado">Málaga-Torre de Mar-Cuevas de Nerja</span>
+				<span class='grid_4'>Nex Continental Holdings, S.L.U.</span></a>
+				<span class="grid_1 noticias">
+									</span></li>
+							<li class="cercanias"><a href="horarios_lineas_tabla.php?from=1&linea=327" class="linea">
+				<span class="grid_2">Autobús</span>
+				<span class="grid_2">M-367</span>
+				<span class="grid_5 destacado">Málaga-Torre del Mar-Maro</span>
+				<span class='grid_4'>Nex Continental Holdings, S.L.U.</span></a>
+				<span class="grid_1 noticias">
+									</span></li>
+							<li class="cercanias"><a href="horarios_lineas_tabla.php?from=1&linea=318" class="linea">
+				<span class="grid_2">Autobús</span>
+				<span class="grid_2">M-368</span>
+				<span class="grid_5 destacado">Málaga-Torre del Mar-Motril</span>
+				<span class='grid_4'>Nex Continental Holdings, S.L.U.</span></a>
+				<span class="grid_1 noticias">
+									</span></li>
+							<li class="cercanias"><a href="horarios_lineas_tabla.php?from=1&linea=324" class="linea">
+				<span class="grid_2">Autobús</span>
+				<span class="grid_2">M-369</span>
+				<span class="grid_5 destacado">Almería-Torre del Mar-Málaga</span>
+				<span class='grid_4'>Nex Continental Holdings, S.L.U.</span></a>
+				<span class="grid_1 noticias">
+									</span></li>
+							<li class="cercanias"><a href="horarios_lineas_tabla.php?from=1&linea=323" class="linea">
+				<span class="grid_2">Autobús</span>
+				<span class="grid_2">M-370</span>
+				<span class="grid_5 destacado">Algarrobo-Torre del Mar-Málaga</span>
+				<span class='grid_4'>Ruiz y Ávila S.L.</span></a>
+				<span class="grid_1 noticias">
+									</span></li>
+							<li class="cercanias"><a href="horarios_lineas_tabla.php?from=1&linea=331" class="linea">
+				<span class="grid_2">Autobús</span>
+				<span class="grid_2">M-371</span>
+				<span class="grid_5 destacado">Algarrobo-Torre del Mar</span>
+				<span class='grid_4'>Ruiz y Ávila S.L.</span></a>
+				<span class="grid_1 noticias">
+									</span></li>
+							<li class="cercanias"><a href="horarios_lineas_tabla.php?from=1&linea=334" class="linea">
+				<span class="grid_2">Autobús</span>
+				<span class="grid_2">M-380</span>
+				<span class="grid_5 destacado">Málaga-Torre del Mar Directo</span>
+				<span class='grid_4'>Nex Continental Holdings, S.L.U.</span></a>
+				<span class="grid_1 noticias">
+									</span></li>
+							<li class="cercanias"><a href="horarios_lineas_tabla.php?from=1&linea=339" class="linea">
+				<span class="grid_2">Autobús</span>
+				<span class="grid_2">M-381</span>
+				<span class="grid_5 destacado">Málaga-Vélez Málaga Directo</span>
+				<span class='grid_4'>Nex Continental Holdings, S.L.U.</span></a>
+				<span class="grid_1 noticias">
+									</span></li>
+							<li class="cercanias"><a href="horarios_lineas_tabla.php?from=1&linea=340" class="linea">
+				<span class="grid_2">Autobús</span>
+				<span class="grid_2">M-382</span>
+				<span class="grid_5 destacado">Salares-Vélez Málaga-Torre del Mar-Málaga</span>
+				<span class='grid_4'>Nex Continental Holdings, S.L.U.</span></a>
+				<span class="grid_1 noticias">
+									</span></li>
+							<li class="cercanias"><a href="horarios_lineas_tabla.php?from=1&linea=341" class="linea">
+				<span class="grid_2">Autobús</span>
+				<span class="grid_2">M-383</span>
+				<span class="grid_5 destacado">Alcaucín-Vélez Málaga-Torre del Mar-Málaga</span>
+				<span class='grid_4'>Nex Continental Holdings, S.L.U.</span></a>
+				<span class="grid_1 noticias">
+									</span></li>
+							<li class="cercanias"><a href="horarios_lineas_tabla.php?from=1&linea=185" class="linea">
+				<span class="grid_2">Metro</span>
+				<span class="grid_2">METRO1</span>
+				<span class="grid_5 destacado">Andalucía Tech-Atarazanas</span>
+				<span class='grid_4'>Metro Málaga</span></a>
+				<span class="grid_1 noticias">
+									</span></li>
+							<li class="cercanias"><a href="horarios_lineas_tabla.php?from=1&linea=186" class="linea">
+				<span class="grid_2">Metro</span>
+				<span class="grid_2">METRO2</span>
+				<span class="grid_5 destacado">Palacio De Los Deportes-Guadalmedina</span>
+				<span class='grid_4'>Metro Málaga</span></a>
+				<span class="grid_1 noticias">
+									</span></li>
+							<li class="cercanias"><a href="horarios_lineas_tabla.php?from=1&linea=214" class="linea">
+				<span class="grid_2">Autobús</span>
+				<span class="grid_2">R-1</span>
+				<span class="grid_5 destacado">Centro Comercial-Benagalbón</span>
+				<span class='grid_4'>Rinconbus, S.C.A.</span></a>
+				<span class="grid_1 noticias">
+									</span></li>
+							<li class="cercanias"><a href="horarios_lineas_tabla.php?from=1&linea=215" class="linea">
+				<span class="grid_2">Autobús</span>
+				<span class="grid_2">R-2</span>
+				<span class="grid_5 destacado">Los Delgado-Centro Comercial-Lo Cea-Benagalbón</span>
+				<span class='grid_4'>Rinconbus, S.C.A.</span></a>
+				<span class="grid_1 noticias">
+									</span></li>
+							<li class="cercanias"><a href="horarios_lineas_tabla.php?from=1&linea=216" class="linea">
+				<span class="grid_2">Autobús</span>
+				<span class="grid_2">R-3</span>
+				<span class="grid_5 destacado">Centro Comercial-Lomas Del Rincón-Cortijo Blanco-Parque Victoria</span>
+				<span class='grid_4'>Rinconbus, S.C.A.</span></a>
+				<span class="grid_1 noticias">
+									</span></li>
+							<li class="cercanias"><a href="horarios_lineas_tabla.php?from=1&linea=217" class="linea">
+				<span class="grid_2">Autobús</span>
+				<span class="grid_2">R-4</span>
+				<span class="grid_5 destacado">Parque Victoria-Centro Comercial-Serramar-Cantal Alto-Los Olivos-Altos De Lo Cea</span>
+				<span class='grid_4'>Rinconbus, S.C.A.</span></a>
+				<span class="grid_1 noticias">
+									</span></li>
+							<li class="cercanias"><a href="horarios_lineas_tabla.php?from=1&linea=219" class="linea">
+				<span class="grid_2">Autobús</span>
+				<span class="grid_2">R-6</span>
+				<span class="grid_5 destacado">Los Delgado-Centro Comercial-Serramar-Torre De Benagalbón-Añoreta</span>
+				<span class='grid_4'>Rinconbus, S.C.A.</span></a>
+				<span class="grid_1 noticias">
+									</span></li>
+							<li class="cercanias"><a href="horarios_lineas_tabla.php?from=1&linea=242" class="linea">
+				<span class="grid_2">Autobús</span>
+				<span class="grid_2">R-8</span>
+				<span class="grid_5 destacado">Parque Victoria-Calle Estados Unidos</span>
+				<span class='grid_4'>Rinconbus, S.C.A.</span></a>
+				<span class="grid_1 noticias">
+									</span></li>
+							<li class="cercanias"><a href="horarios_lineas_tabla.php?from=1&linea=238" class="linea">
+				<span class="grid_2">Autobús</span>
+				<span class="grid_2">T-1</span>
+				<span class="grid_5 destacado">Torremolinos-Aloha</span>
+				<span class='grid_4'>Avanza Movilidad Integral, S.L.</span></a>
+				<span class="grid_1 noticias">
+									</span></li>
+							<li class="cercanias"><a href="horarios_lineas_tabla.php?from=1&linea=239" class="linea">
+				<span class="grid_2">Autobús</span>
+				<span class="grid_2">T-2</span>
+				<span class="grid_5 destacado">Torremolinos-Playamar</span>
+				<span class='grid_4'>Avanza Movilidad Integral, S.L.</span></a>
+				<span class="grid_1 noticias">
+									</span></li>
+					</ul> 
+  </div>
+  
+  <div id="smart-paginator">
+  </div>
+  
+  
+</div></div>
+	
+<!-- 
+
+/**
+ * INFO ARCHIVO
+ *
+ * @author      I3NET 
+ * @author      Juan Carlos
+ * @copyright 2020
+ * @version 1.2
+ * @internal
+ * v1.0 Versión base del SIU 1.0
+ * v1.1 Quitamos los estandares de la w3
+ * v1.2 PHP 8 y OSM
+ */
+ -->
+<div id="pie"><div class="container">
+	
+    
+    <div class="grid_17">
+    	<h2>Horarios</h2>
+        <ul>
+        	<li><a href="horarios.php" title="Líneas">Líneas</a></li>
+			        	<li><a href="horarios.php" title="Origen y destino">Origen y destino</a></li>
+        </ul>
+    </div>
+    
+    <div class="grid_17">
+    	<h2>Líneas</h2>
+        <ul>
+        	<li><a href="lineas.php?ordenacion=1" title="Ordenadas por medio">Ordenadas por medio</a></li>
+        	<li><a href="lineas.php?ordenacion=2" title="Ordenadas por nombre">Ordenadas por nombre</a></li>
+        </ul>
+    </div>
+    
+    <div class="grid_17"> 
+    	<h2>Puntos de venta</h2>
+        <ul>
+        	<li><a href="puntos_de_venta.php?ordenacion=0" title="Ordenados por tipo">Ordenados por tipo</a></li>
+        	<li><a href="puntos_de_venta.php?ordenacion=2" title="Ordenados por núcleo">Ordenados por núcleo</a></li>
+        	<li><a href="puntos_de_venta.php?ordenacion=1" title="Ordenados por municipio">Ordenados por municipio</a></li>
+        </ul>
+    </div>
+	
+	<div class="grid_17"> 
+    	<h2>Tarifas</h2>
+        <ul>
+			        </ul>
+    </div>
+    
+    <div class="grid_17 omega">
+    	<h2>Noticias</h2>
+        <ul>
+        	<li><a href="noticias.php?ordenacion=1" title="Ordenadas por categoría">Ordenadas por categoría</a></li>
+        	<li><a href="noticias.php" title="Ordenadas por fecha">Ordenadas por fecha</a></li>
+       </ul>
+    </div>
+ 
+	  
+ 		<div class="social_region">
+    	<p><span>También puede encontrarnos en: </span></p>
+		        <p><a href="http://www.facebook.com/CTMAM" target="_blank"><img src="../images/icons/facebook.png" alt="Facebook" /><span>Facebook</span></a></p>
+		        <p><a href="https://x.com/ctmam" target="_blank"><img src="../images/icons/twitter.png" alt="Twitter" /><span>Twitter</span></a></p>
+		    </div>
+	    
+		
+	
+	<div class="datos">
+
+    	<p><strong>Área de Málaga:</strong> Alameda Principal nº11, 2ª planta, 29001 - Málaga, Málaga</p>
+		<p>Teléfonos: 902450550           </p>
+    </div>
+    
+    <div class="estandares"><div>
+    	
+    <p>
+    <a href="rss.php" onclick="this.target='_blank'">
+        <img style="border:0;"
+            src="/images/rss.png"
+            alt="RSS" />
+    </a>
+  </p>
+    </div></div>
+</div></div>
+
+
+
+
+</div></body>
+
+</html>
+
+
+
+

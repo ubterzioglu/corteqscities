@@ -1,0 +1,301 @@
+===== KART 1/4: marbella:term:024 =====
+{
+ "term_id": "marbella:term:024",
+ "city_id": "marbella",
+ "term": "Demandante de empleo",
+ "definition": "SAE'ye iş arayan olarak kayıtlı kişi (demandante de servicios de empleo). Kayıt için 16 yaşını doldurmuş olmak, Endülüs'te oturmak ve İspanyol ya da AB vatandaşı olmak gerekir; AB dışından yabancılar için kayda izin veren bir idari yetkilendirme (autorización administrativa) şarttır. Ödenekle ilişkisi için Prestación por desempleo maddesine bak.",
+ "source_ids": "marbella:kaynak:138",
+ "reviewed_on": "2026-11-02",
+ "order": 24,
+ "editorial_status": "Taslak",
+ "_sekme": "Sözlük",
+ "kaynaklar": [
+  {
+   "source_id": "marbella:kaynak:138",
+   "url": "https://ws054.juntadeandalucia.es/portalsae/quiero-trabajar/inscribirme-como-demandante-empleo",
+   "publisher": "Servicio Andaluz de Empleo (SAE) - Junta de Andalucía",
+   "text_file": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\marbella\\_is\\snap_ulke_es\\marbella_kaynak_138_es-an_kaynak_007.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-term-024-2",
+   "field": "definition",
+   "claim": "SAE kaydı için 16 yaşını doldurmuş olmak gerekir",
+   "value": "16",
+   "unit": "yaş",
+   "period": "",
+   "source_id": "marbella:kaynak:138",
+   "quote": "De edad: debes tener 16 años de edad cumplidos"
+  },
+  {
+   "claim_id": "C-term-024-3",
+   "field": "definition",
+   "claim": "Kayıt için SAE'nin Endülüs'te olması nedeniyle Endülüs'te oturmak gerekir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:138",
+   "quote": "De residencia: residir en la misma Comunidad Autónoma a la que pertenece el servicio público de empleo donde te vas a inscribir, en este caso en Andalucía"
+  },
+  {
+   "claim_id": "C-term-024-4",
+   "field": "definition",
+   "claim": "Kayıt için İspanyol ya da AB vatandaşı olmak gerekir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:138",
+   "quote": "ser español o española o nacional de algún país miembro de la Unión Europea"
+  },
+  {
+   "claim_id": "C-term-024-5",
+   "field": "definition",
+   "claim": "AB dışı yabancı için SAE kaydına izin veren idari yetkilendirme (autorización administrativa) gerekir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:138",
+   "quote": "en el caso de personas extranjeras no comunitarias, contar con una autorización administrativa que te permita la inscripción en un servicio público de empleo"
+  }
+ ]
+}
+
+===== KART 2/4: marbella:term:045 =====
+{
+ "term_id": "marbella:term:045",
+ "city_id": "marbella",
+ "term": "Libro de familia",
+ "definition": "Libro de familia: Ingreso Mínimo Vital (IMV) başvurusunda birlikte yaşama birimini (unidad de convivencia, hane) ve çocuğun soybağını (filiación) kanıtlamak için sayılan belgelerden biridir; hane için registro civil sertifikası ve padrón verileriyle birlikte sayılır.",
+ "source_ids": "marbella:kaynak:246",
+ "reviewed_on": "2026-11-02",
+ "order": 45,
+ "editorial_status": "Taslak",
+ "_sekme": "Sözlük",
+ "kaynaklar": [
+  {
+   "source_id": "marbella:kaynak:246",
+   "url": "https://www.seg-social.es/wps/portal/wss/internet/Trabajadores/PrestacionesPensionesTrabajadores/65850d68-8d06-4645-bde7-05374ee42ac7/acreditaciondelosrequisitos",
+   "publisher": "Seguridad Social",
+   "text_file": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\marbella\\_is\\snap_kesif_para\\3f2046f60d6cfa342a8ce47dd8a8174b1dcb92fd402e0ad7eb20abac2aaae3c9.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-term-045-1",
+   "field": "definition",
+   "claim": "IMV başvurusunda hane (unidad de convivencia) libro de familia, registro civil sertifikası ve padrón verileriyle kanıtlanır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:246",
+   "quote": "La existencia de la unidad de convivencia se acreditará mediante el libro de familia, certificado del registro civil, y con los datos obrantes en los Padrones municipales"
+  },
+  {
+   "claim_id": "C-term-045-2",
+   "field": "definition",
+   "claim": "IMV başvurusunda soybağı (filiación) libro de familia ya da doğum belgesiyle gösterilir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:246",
+   "quote": "Acreditación de la filiación (libro de familia o certificado de nacimiento expedido por el Registro Civil)"
+  }
+ ]
+}
+
+===== KART 3/4: marbella:term:046 =====
+{
+ "term_id": "marbella:term:046",
+ "city_id": "marbella",
+ "term": "Canje de permiso de conducir",
+ "definition": "Yabancı ehliyetin eşdeğer bir İspanyol ehliyetiyle değiştirilmesi. DGT'nin bu sayfası yalnız belirli ülkelerin (Türkiye dahil) ehliyetleri için geçerlidir. Süreç iki aşamalıdır: önce ehliyetin geçerliliği ehliyeti veren ülkeyle (Türkiye) doğrulatılır, ülke yanıt verip doğrulama onaylanınca ikinci aşamada değişim istenir. İspanya'da ikamet etmek, ehliyetin geçerli olması ve ehliyetin İspanya'da ikamet edilmeden önce alındığının belgelenmesi gerekir; ehliyet, normal ikametin başlamasından itibaren en çok altı ay geçerlidir. İşlem bitince asıl ehliyet teslim alınır, geçici ehliyet verilir; kalıcı ehliyet yaklaşık bir buçuk ayda gelir. Psikofizik yeterlilik raporu istenir. Tasa A1, A, B ve B+E sınıfları için 28,87 euro, C ve D sınıfı için 94,05 euro (iki sınav hakkı dahil). Jefatura Provincial de Tráfico'da işlem için çevrim içi ya da 060'ı arayarak randevu (cita previa) alınır. A ve B sınıfı değişimi doğrudan yapılır, C ve D sınıfı için ek sınav gerekir.",
+ "source_ids": "marbella:kaynak:208",
+ "reviewed_on": "2026-11-02",
+ "order": 46,
+ "editorial_status": "Taslak",
+ "_sekme": "Sözlük",
+ "kaynaklar": [
+  {
+   "source_id": "marbella:kaynak:208",
+   "url": "https://sede.dgt.gob.es/es/permisos-de-conducir/canjes-de-permisos/canjes-de-permisos-extranjeros/extracomunitarios/canje-paises-G4-CL-CP/",
+   "publisher": "DGT - Sede Electrónica",
+   "text_file": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\marbella\\_is\\snap_kesif_resmi\\aea9650cc5ddad1a9c343a86f3e1caaf842b187e5492be06839d9c741ed9bbff.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-term-046-1",
+   "field": "definition",
+   "claim": "Listedeki ülkelerin ehliyetleri eşdeğer bir İspanyol ehliyetiyle değiştirilebilir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:208",
+   "quote": "podrán ser canjeados por un permiso español equivalente"
+  },
+  {
+   "claim_id": "C-term-046-2",
+   "field": "definition",
+   "claim": "Canje koşulları",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:208",
+   "quote": "Ser residente en España. El permiso a canjear esté en vigor y sea válido (deberás entregar el original en la Jefatura para finalizar el trámite)"
+  },
+  {
+   "claim_id": "C-term-046-3",
+   "field": "definition",
+   "claim": "Sayfa Türkiye dahil belirli ülkelerin ehliyetleri içindir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:208",
+   "quote": "Filipinas, Georgia, Guatemala, Honduras, Macedonia, Marruecos, Moldavia, Nicaragua, Panamá, Paraguay, República Dominicana, Serbia, Túnez y Turquía"
+  },
+  {
+   "claim_id": "C-term-046-4",
+   "field": "definition",
+   "claim": "Ehliyet normal ikametten itibaren en çok altı ay geçerlidir",
+   "value": "6",
+   "unit": "ay",
+   "period": "",
+   "source_id": "marbella:kaynak:208",
+   "quote": "tu permiso es solo válido durante el plazo de seis meses, como máximo, contados desde que hayas adquirido la residencia normal en España"
+  },
+  {
+   "claim_id": "C-term-046-5",
+   "field": "definition",
+   "claim": "Psikofizik yeterlilik raporu gerekir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:208",
+   "quote": "asegúrate de haber obtenido el informe de aptitud psicofísica expedido por un Centro de Reconocimiento de Conductores"
+  },
+  {
+   "claim_id": "C-term-046-6",
+   "field": "definition",
+   "claim": "A1, A, B ve B+E sınıfı değişim tasası 28,87 euro",
+   "value": "28,87",
+   "unit": "EUR",
+   "period": "",
+   "source_id": "marbella:kaynak:208",
+   "quote": "permisos tipo A1, A, B, B + E): la tasa 2.3 de 28,87 €"
+  },
+  {
+   "claim_id": "C-term-046-7",
+   "field": "definition",
+   "claim": "A ve B sınıfı değişimi doğrudan yapılır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:208",
+   "quote": "no requiere realizar pruebas adicionales, el canje es directo"
+  },
+  {
+   "claim_id": "C-term-046-8",
+   "field": "definition",
+   "claim": "C ve D sınıfı için ek sınav gerekir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:208",
+   "quote": "El canje de permisos con autorizaciones para conducir camiones y/o autobuses (C y D) requiere la realización de pruebas adicionales"
+  },
+  {
+   "claim_id": "C-term-046-9",
+   "field": "definition",
+   "claim": "Canje iki aşamalıdır: önce ehliyetin geçerliliği veren ülkeyle doğrulatılır, doğrulama onaylanınca değişim istenir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:208",
+   "quote": "El canje de permisos provenientes de estos países deberá realizarse en dos fases: Solicitar la verificación de la validez de tu permiso con el país de expedición."
+  },
+  {
+   "claim_id": "C-term-046-10",
+   "field": "definition",
+   "claim": "Ehliyetin İspanya'da ikamet edilmeden önce alındığı belgelenmelidir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:208",
+   "quote": "Acreditación de que no se residía en España cuando se obtuvo el permiso a canjear"
+  },
+  {
+   "claim_id": "C-term-046-11",
+   "field": "definition",
+   "claim": "Asıl ehliyet geri alınır, geçici ehliyet verilir; kalıcı ehliyet yaklaşık bir buçuk ayda gelir",
+   "value": "1,5",
+   "unit": "ay",
+   "period": "",
+   "source_id": "marbella:kaynak:208",
+   "quote": "se te retirará el permiso original y se te entregará un permiso provisional. En un plazo aproximado de un mes y medio tendrás tu permiso definitivo."
+  },
+  {
+   "claim_id": "C-term-046-12",
+   "field": "definition",
+   "claim": "C ve D sınıfı değişim tasası 94,05 euro; iki sınav hakkı verir",
+   "value": "94,05",
+   "unit": "EUR",
+   "period": "",
+   "source_id": "marbella:kaynak:208",
+   "quote": "la tasa 2.1 de 94,05 €. Esta tasa te da derecho a realizar 2 convocatorias para realizar las pruebas."
+  },
+  {
+   "claim_id": "C-term-046-13",
+   "field": "definition",
+   "claim": "Jefaturalarda işlem için çevrim içi ya da 060 ile randevu alınır",
+   "value": "060",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:208",
+   "quote": "Para realizar trámites en todas las jefaturas es necesario solicitar online cita previa o llamando al 060."
+  }
+ ]
+}
+
+===== KART 4/4: marbella:term:047 =====
+{
+ "term_id": "marbella:term:047",
+ "city_id": "marbella",
+ "term": "ITV (Inspección Técnica de Vehículos)",
+ "definition": "Araç teknik muayenesi. Muayenenin sonucu araç teknik kartına (tarjeta ITV, tarjeta de inspección técnica) ya da özellikler belgesine (certificado de características) işlenir; aracın kategorisi de tarjeta ITV'nin ilgili bölümünden alınır.",
+ "source_ids": "marbella:kaynak:120",
+ "reviewed_on": "2026-11-02",
+ "order": 47,
+ "editorial_status": "Taslak",
+ "_sekme": "Sözlük",
+ "kaynaklar": [
+  {
+   "source_id": "marbella:kaynak:120",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2017-12841",
+   "publisher": "BOE",
+   "text_file": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\marbella\\_is\\snap_ulke_es\\marbella_kaynak_120_es_kaynak_133.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-term-047-1",
+   "field": "definition",
+   "claim": "Muayenenin sonucu tarjeta ITV ya da certificado de características'e işlenir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:120",
+   "quote": "El resultado de la inspección técnica se hará constar, por la entidad que la efectúe, en la tarjeta ITV o certificado de características"
+  },
+  {
+   "claim_id": "C-term-047-2",
+   "field": "definition",
+   "claim": "Aracın kategorisi tarjeta ITV'nin ilgili bölümünden alınır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:120",
+   "quote": "la categoría del vehículo se obtendrá del apartado previsto a tal efecto en su tarjeta ITV"
+  }
+ ]
+}

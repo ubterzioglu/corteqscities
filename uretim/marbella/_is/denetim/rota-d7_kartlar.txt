@@ -1,0 +1,185 @@
+===== KART 1/1: marbella:museo-ralli-marbella =====
+{
+ "route_id": "marbella:route:010",
+ "city_id": "marbella",
+ "title": "Yağmurlu gün: iki müze ve belediye spor kompleksi",
+ "tag": "Gün boyu · Yağmurlu gün",
+ "stops": "Museo Ralli Marbella\nMuseo del Grabado Español Contemporáneo\nComplejo deportivo Antonio Serrano Lima",
+ "stop_entry_ids": "marbella:museo-ralli-marbella;marbella:museo-del-grabado-espanol-contemporaneo;marbella:complejo-deportivo-antonio-serrano-lima",
+ "entry_id": "marbella:museo-ralli-marbella",
+ "note": "Perşembe günü 10.00'da Museo Ralli ile başla: salı-cuma 10.00-17.00 açık, giriş ücretsiz. Museo Ralli ile eski kent arasında araçla geçersin; ardışık duraklar arası kuş uçuşu ~5,4 / ~0,6 km. Museo del Grabado perşembe 11.00-17.00 açık, giriş 5 euro, son giriş kapanıştan 30 dakika önce. Son durak Complejo deportivo Antonio Serrano Lima: hafta içi 09.00-22.00 açık; kompleksin içinde kapalı bir belediye havuzu (su topu, yüzme ve artistik yüzme branşları) ve futbol sahaları bulunur. Müze ile kompleks arasındaki kısa yürüyüş dışarıdadır. Rota yaklaşık 6 saat sürer; iki müze çatı altındadır.",
+ "reviewed_on": "2026-11-02",
+ "source_ids": "marbella:kaynak:400;marbella:kaynak:275;marbella:kaynak:387",
+ "order": 10,
+ "editorial_status": "Taslak",
+ "_sekme": "Rotalar",
+ "kaynaklar": [
+  {
+   "source_id": "marbella:kaynak:400",
+   "url": "https://www.rallimuseums.com/es/Contacto_Marbella",
+   "publisher": "Museo Ralli",
+   "text_file": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\marbella\\_is\\snap_kesif_mekan_s3\\e5168ef3c6a241081ee383abfade3bc9ef71dd6fca25f027448577a3027d1b25.txt"
+  },
+  {
+   "source_id": "marbella:kaynak:275",
+   "url": "https://www.marbella.es/web/cultura/instalaciones-culturales/museo-del-grabado-espanol-contemporaneo.html",
+   "publisher": "Ayuntamiento de Marbella",
+   "text_file": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\marbella\\_is\\snap_kesif_kesif\\b30a955a6dcea7dddf433655096608984526456d1b4843f80b07a3ed8874b74c.txt"
+  },
+  {
+   "source_id": "marbella:kaynak:387",
+   "url": "https://www.marbella.es/web/deportes/instalaciones-deportivas/complejo-deportivo-antonio-serrano-lima.html",
+   "publisher": "Ayuntamiento de Marbella",
+   "text_file": "C:\\temp_private\\corteqs\\0000_newera\\uretim\\marbella\\_is\\snap_kesif_mekan_s1\\8ad727a758f4129ba97e0bc468e53facae5eda43d3d4b57b98c23fb21cf4f2be.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-route-010-1",
+   "field": "note",
+   "claim": "Museo Ralli salı-cuma 10:00-17:00",
+   "value": "10:00-17:00",
+   "unit": "saat",
+   "period": "",
+   "source_id": "marbella:kaynak:400",
+   "quote": "Abierto de martes a viernes de 10:00 a 17:00 h. Sábados de 10:00 a 16:00 h."
+  },
+  {
+   "claim_id": "C-route-010-2",
+   "field": "note",
+   "claim": "Museo Ralli girişi ücretsiz",
+   "value": "0",
+   "unit": "EUR",
+   "period": "",
+   "source_id": "marbella:kaynak:400",
+   "quote": "ENTRADA GRATUITA"
+  },
+  {
+   "claim_id": "C-route-010-3",
+   "field": "note",
+   "claim": "Museo del Grabado salı-cuma 11:00-17:00",
+   "value": "11:00-17:00",
+   "unit": "saat",
+   "period": "",
+   "source_id": "marbella:kaynak:275",
+   "quote": "Martes a viernes: de 11:00 a 17:00 h."
+  },
+  {
+   "claim_id": "C-route-010-4",
+   "field": "note",
+   "claim": "Giriş 5 euro",
+   "value": "5",
+   "unit": "EUR",
+   "period": "",
+   "source_id": "marbella:kaynak:275",
+   "quote": "Precio único de entrada 5€"
+  },
+  {
+   "claim_id": "C-route-010-5",
+   "field": "note",
+   "claim": "Son giriş kapanıştan 30 dakika önce",
+   "value": "30",
+   "unit": "dakika",
+   "period": "",
+   "source_id": "marbella:kaynak:275",
+   "quote": "Último pase: 30 minutos antes de cada cierre."
+  },
+  {
+   "claim_id": "C-route-010-6",
+   "field": "note",
+   "claim": "Serrano Lima kompleksi hafta içi 09.00-22.00",
+   "value": "09.00-22.00",
+   "unit": "saat",
+   "period": "",
+   "source_id": "marbella:kaynak:387",
+   "quote": "Lunes - Viernes: 9:00 - 22:00 h. / Sábados y Domingos: 09:00 - 21:00 h."
+  },
+  {
+   "claim_id": "C-route-010-7",
+   "field": "note",
+   "claim": "Kompleksteki kapalı belediye havuzunda su topu, yüzme ve artistik yüzme branşları yürütülür",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "marbella:kaynak:387",
+   "quote": "1 Piscina municipal cubierta. Modalidades: Waterpolo, natación y natación artística."
+  }
+ ],
+ "plan": [
+  {
+   "route_id": "marbella:route:010",
+   "durak": "Museo Ralli Marbella",
+   "varis_saati": "10:00",
+   "acik_mi": "Evet",
+   "dayanak": "Salı-cuma 10.00-17.00 (kayıt); perşembe 10.00 varış"
+  },
+  {
+   "route_id": "marbella:route:010",
+   "durak": "Museo del Grabado Español Contemporáneo",
+   "varis_saati": "12:30",
+   "acik_mi": "Evet",
+   "dayanak": "Salı-cuma 11.00-17.00 (kayıt); perşembe 12.30 varış"
+  },
+  {
+   "route_id": "marbella:route:010",
+   "durak": "Complejo deportivo Antonio Serrano Lima",
+   "varis_saati": "15:30",
+   "acik_mi": "Evet",
+   "dayanak": "Kompleks hafta içi 09.00-22.00 (kayıt); perşembe 15.30 varış"
+  }
+ ],
+ "bacaklar": [
+  {
+   "route_id": "marbella:route:010",
+   "bacak": 1,
+   "from": "marbella:museo-ralli-marbella",
+   "to": "marbella:museo-del-grabado-espanol-contemporaneo",
+   "from_title": "Museo Ralli Marbella",
+   "to_title": "Museo del Grabado Español Contemporáneo",
+   "kaynak": "OSRM yaya rotası, OpenStreetMap verisi (routing.openstreetmap.de, FOSSGIS)",
+   "sorgu_tarihi": "2026-11-02",
+   "kus_ucusu_m": 5371,
+   "yuruyus_m": 5814,
+   "yuruyus_dk": 78
+  },
+  {
+   "route_id": "marbella:route:010",
+   "bacak": 2,
+   "from": "marbella:museo-del-grabado-espanol-contemporaneo",
+   "to": "marbella:complejo-deportivo-antonio-serrano-lima",
+   "from_title": "Museo del Grabado Español Contemporáneo",
+   "to_title": "Complejo deportivo Antonio Serrano Lima",
+   "kaynak": "OSRM yaya rotası, OpenStreetMap verisi (routing.openstreetmap.de, FOSSGIS)",
+   "sorgu_tarihi": "2026-11-02",
+   "kus_ucusu_m": 627,
+   "yuruyus_m": 822,
+   "yuruyus_dk": 11
+  }
+ ],
+ "duraklar": [
+  {
+   "entry_id": "marbella:museo-ralli-marbella",
+   "title": "Museo Ralli Marbella",
+   "location": "Urb. Coral Beach (Puerto Banús ile Marbella arasında), Ctr. Nac. 340, km 176, Marbella",
+   "note": "22 Aralık–31 Ocak arası müze kapalı. Telefon: 952 85 79 23.",
+   "latitude": 36.498012,
+   "longitude": -4.940985
+  },
+  {
+   "entry_id": "marbella:museo-del-grabado-espanol-contemporaneo",
+   "title": "Museo del Grabado Español Contemporáneo",
+   "location": "C/ Hospital Bazán, s/n - 29601 Marbella",
+   "note": "28 Mayıs - 15 Kasım 2026 arasında \"Salvador Dalí, diez recetas de inmortalidad\" sergisi var. Müze 1 ve 6 Ocak, Kutsal Cuma, 11 Haziran, 19 Ekim, 24, 25 ve 31 Aralık günleri kapalıdır.",
+   "latitude": 36.510056,
+   "longitude": -4.882792
+  },
+  {
+   "entry_id": "marbella:complejo-deportivo-antonio-serrano-lima",
+   "title": "Complejo deportivo Antonio Serrano Lima",
+   "location": "Avda. General López Domínguez 18, 29600 Marbella",
+   "note": "Havuzun ayrı telefonu +34 952 768 778. Havuz hafta içi 09.00-22.00 açık; hafta sonu saatleri için bu numarayı ara.",
+   "latitude": 36.51203,
+   "longitude": -4.87622
+  }
+ ]
+}
