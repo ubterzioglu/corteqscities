@@ -1,0 +1,243 @@
+{
+ "meta": {
+  "tool": "city-audit L0",
+  "level": "L0",
+  "label": "yerel paket denetimi",
+  "city_id": "malaga",
+  "catalog": "CITY-075",
+  "xlsx": "CITY-075_malaga_v001.xlsx",
+  "xlsx_sha256": "cd6a6392fd97b09b197f8edc432515b536b1652d43b5533a5ab98d995212baac",
+  "checked_on": "2026-11-02",
+  "external_audit": "Malaga_Detayli_Denetim_Raporu_20261102.pdf (%70, aynı SHA)",
+  "kanit_kapsami": {
+   "alt_sinir": 91.62,
+   "onizleme_ile_azami": 96.62,
+   "eksik": [
+    "A1",
+    "A2",
+    "A3",
+    "A4",
+    "A5",
+    "B1",
+    "B5",
+    "C4"
+   ]
+  }
+ },
+ "criteria": [
+  {
+   "code": "A1",
+   "status": "not_checked",
+   "reason": "Ham 244 ≥ 240; kullanılabilirlik K18 (L) yapılmadı."
+  },
+  {
+   "code": "A2",
+   "status": "not_checked",
+   "reason": "K25/K26 (L) yapılmadı; ISS-002 bilinen eksik."
+  },
+  {
+   "code": "A3",
+   "status": "not_checked",
+   "reason": "claim_check dize eşleşmesi destek kanıtı değil (supported 1107/2559)."
+  },
+  {
+   "code": "A4",
+   "status": "partial",
+   "reason": "ISS-001 (P0, teyitli), ISS-002 (P0), ISS-003 (P1: 7 kart ülke paketi düzeltmesi yok); doğrulanan alt sınır 0.",
+   "passed": 0,
+   "required": 244
+  },
+  {
+   "code": "A5",
+   "status": "not_checked",
+   "reason": "Hitap 'sen' bulgusu 0, kopya kümesi 0; dil değeri L."
+  },
+  {
+   "code": "B1",
+   "status": "not_checked",
+   "reason": "Ham 120/120; açık-mı K39 (L) yapılmadı."
+  },
+  {
+   "code": "B2",
+   "status": "not_checked",
+   "reason": "Ham 16/16; K44 (L)."
+  },
+  {
+   "code": "B3",
+   "status": "not_checked",
+   "reason": "Ham 12/12; durak bağları resmî doğrulayıcıda geçti; K47 (L)."
+  },
+  {
+   "code": "B4",
+   "status": "not_checked",
+   "reason": "Ham 62/60; K48 (L)."
+  },
+  {
+   "code": "B5",
+   "status": "not_checked",
+   "reason": "Koordinat aralığı geçti; L/V."
+  },
+  {
+   "code": "C1",
+   "status": "not_checked",
+   "reason": "Tekil 334 ≥ 250; görsel inceleme V yapılmadı."
+  },
+  {
+   "code": "C2",
+   "status": "not_checked",
+   "reason": "K59–K62 (V)."
+  },
+  {
+   "code": "C3",
+   "status": "not_checked",
+   "reason": "Fotoğraflı yer 136/136 (üst sınır); doğru kare V."
+  },
+  {
+   "code": "C4",
+   "status": "not_checked",
+   "reason": "dHash K63_aday 0; ön eleme flag 8; K65 (V)."
+  },
+  {
+   "code": "C5",
+   "status": "partial",
+   "reason": "8 farklı kapak; hero_photo_id boş (ISS-004).",
+   "passed": 0,
+   "required": 8
+  },
+  {
+   "code": "D1",
+   "status": "not_checked",
+   "reason": "K67 script: ret 0, flag 8; K71/K72 (L)."
+  },
+  {
+   "code": "D2",
+   "status": "not_checked",
+   "reason": "Lisans/yazar alanları dolu; 48 author_url boş; kaynakla eşleşme okunmadı."
+  },
+  {
+   "code": "D3",
+   "status": "partial",
+   "reason": "Hash zinciri tutarlı (K04 0, ters eğik çizgi 0); derivation küçültmeyi adlandırmıyor (ISS-007).",
+   "passed": 0,
+   "required": 342
+  },
+  {
+   "code": "D4",
+   "status": "partial",
+   "reason": "rights_basis genel (ISS-006).",
+   "passed": 0,
+   "required": 342
+  },
+  {
+   "code": "D5",
+   "status": "not_checked",
+   "reason": "Atıf CSV/HTML var; görünür atıf önizlemede (K94 ayrı aşama)."
+  },
+  {
+   "code": "E1",
+   "status": "ok",
+   "reason": "Resmî doğrulayıcı yapı 0, medya 0, 23 sayfa alanı.",
+   "passed": 12,
+   "required": 12
+  },
+  {
+   "code": "E2",
+   "status": "ok",
+   "reason": "1812 dosya yol/hash çözülüyor; K04 fark 0; CSV'ler RFC 4180 ile sağlam (dış denetim MAL-006 okuyucu farkı).",
+   "passed": 1,
+   "required": 1
+  },
+  {
+   "code": "E3",
+   "status": "ok",
+   "reason": "23/23 zorunlu anahtar.",
+   "passed": 23,
+   "required": 23
+  },
+  {
+   "code": "E4",
+   "status": "separate_stage",
+   "reason": "Web işlevleri önizleme aşaması."
+  },
+  {
+   "code": "E5",
+   "status": "partial",
+   "reason": "Teslim özeti/sorumlu/Drive satırı tutarsız (ISS-005).",
+   "passed": 0,
+   "required": 5
+  }
+ ],
+ "findings": [
+  {
+   "id": "ISS-001",
+   "priority": "P0",
+   "criteria": [
+    "A4"
+   ]
+  },
+  {
+   "id": "ISS-002",
+   "priority": "P0",
+   "criteria": [
+    "A2",
+    "A4"
+   ]
+  },
+  {
+   "id": "ISS-003",
+   "priority": "P1",
+   "criteria": [
+    "A4"
+   ]
+  },
+  {
+   "id": "ISS-004",
+   "priority": "P1",
+   "criteria": [
+    "C5"
+   ]
+  },
+  {
+   "id": "ISS-005",
+   "priority": "P1",
+   "criteria": [
+    "E5"
+   ]
+  },
+  {
+   "id": "ISS-006",
+   "priority": "P2",
+   "criteria": [
+    "D4"
+   ]
+  },
+  {
+   "id": "ISS-007",
+   "priority": "P2",
+   "criteria": [
+    "D3"
+   ]
+  },
+  {
+   "id": "ISS-008",
+   "priority": "P2",
+   "criteria": [
+    "E2"
+   ]
+  }
+ ],
+ "coverage": {
+  "cards": [
+   0,
+   244
+  ],
+  "photos": [
+   0,
+   334
+  ],
+  "critical_claims": [
+   0,
+   2559
+  ]
+ }
+}

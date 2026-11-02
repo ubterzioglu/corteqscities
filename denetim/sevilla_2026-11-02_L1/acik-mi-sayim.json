@@ -1,0 +1,760 @@
+{
+  "tool": "acik_mi_denetim",
+  "komut": "sayim",
+  "orneklem": 62,
+  "oncelikli": 56,
+  "rastgele": 6,
+  "dogrulanan": 44,
+  "dogrulanamayan": 18,
+  "sinif": {
+    "acik_dogrulandi": 39,
+    "dogrulanamadi": 18,
+    "kapanis_iki_kaynak": 0,
+    "kapanis_teyitsiz": 0,
+    "belirt_teyitli": 5,
+    "belirt_teyitsiz": 0
+  },
+  "yeni_ajan": [],
+  "sayim_dosyasi": "C:\\temp_private\\corteqs\\0000_newera\\denetim\\sevilla_2026-11-02_L1\\acik-mi-sayim.json",
+  "siniflar": {
+    "acik_dogrulandi": [
+      "sevilla:palacio-de-las-duenas",
+      "sevilla:metropol-parasol-antiquarium",
+      "sevilla:plaza-de-espana",
+      "sevilla:plaza-de-toros-de-la-maestranza",
+      "sevilla:parque-de-maria-luisa",
+      "sevilla:jardines-de-murillo",
+      "sevilla:paseo-catalina-de-ribera",
+      "sevilla:parque-del-alamillo",
+      "sevilla:alameda-de-hercules",
+      "sevilla:jardines-del-prado-de-san-sebastian",
+      "sevilla:casa-fabiola-coleccion-bellver",
+      "sevilla:centro-ceramica-triana",
+      "sevilla:real-academia-bellas-artes-sevilla",
+      "sevilla:teatro-lope-de-vega",
+      "sevilla:isla-magica",
+      "sevilla:estadio-benito-villamarin-tur",
+      "sevilla:casa-roman-sevilla",
+      "sevilla:casa-de-la-guitarra",
+      "sevilla:convento-de-santa-paula",
+      "sevilla:parque-de-los-bermejales",
+      "sevilla:iglesia-de-santa-catalina",
+      "sevilla:hospital-de-las-cinco-llagas",
+      "sevilla:parroquia-de-san-jacinto",
+      "sevilla:bodega-dos-de-mayo",
+      "sevilla:parque-magallanes",
+      "sevilla:muelle-de-la-sal",
+      "sevilla:parroquia-de-santa-ana-triana",
+      "sevilla:parroquia-de-la-o",
+      "sevilla:monasterio-de-san-jeronimo-de-buenavista",
+      "sevilla:archivo-historico-provincial-de-sevilla",
+      "sevilla:biblioteca-infanta-elena",
+      "sevilla:hospital-de-los-venerables",
+      "sevilla:palacio-bucarelli",
+      "sevilla:casa-de-la-provincia-sevilla",
+      "sevilla:fibes-palacio-de-congresos",
+      "sevilla:espacio-santa-clara",
+      "sevilla:iglesia-de-san-esteban",
+      "sevilla:casa-de-la-memoria-al-andalus",
+      "sevilla:convento-de-santa-ines"
+    ],
+    "dogrulanamadi": [
+      "sevilla:palacio-de-la-condesa-de-lebrija",
+      "sevilla:palacio-de-san-telmo",
+      "sevilla:jardines-de-las-delicias",
+      "sevilla:plaza-del-duque",
+      "sevilla:plaza-de-dona-elvira",
+      "sevilla:plaza-de-los-refinadores",
+      "sevilla:museo-historico-militar-sevilla",
+      "sevilla:museo-maritimo-torre-del-oro",
+      "sevilla:estadio-sanchez-pizjuan-tur",
+      "sevilla:el-patio-sevillano",
+      "sevilla:mercado-de-la-calle-feria",
+      "sevilla:confiteria-la-campana",
+      "sevilla:ceramica-santa-ana",
+      "sevilla:parque-de-miraflores",
+      "sevilla:iglesia-de-san-marcos",
+      "sevilla:jardines-de-cristina",
+      "sevilla:jardin-americano",
+      "sevilla:capilla-de-los-luises"
+    ],
+    "kapanis_iki_kaynak": [],
+    "kapanis_teyitsiz": [],
+    "belirt_teyitli": [
+      "sevilla:costurero-de-la-reina",
+      "sevilla:plaza-nueva",
+      "sevilla:plaza-de-america",
+      "sevilla:museo-arqueologico-de-sevilla",
+      "sevilla:hospital-de-la-santa-caridad"
+    ],
+    "belirt_teyitsiz": []
+  },
+  "mekanlar": [
+    {
+      "entry_id": "sevilla:palacio-de-las-duenas",
+      "title": "Palacio de las Dueñas",
+      "neden": "b+c",
+      "sinif": "acik_dogrulandi",
+      "kodlar": [],
+      "teyitli": [],
+      "teyitsiz": [],
+      "yeni_ajan": false
+    },
+    {
+      "entry_id": "sevilla:palacio-de-la-condesa-de-lebrija",
+      "title": "Palacio de la Condesa de Lebrija",
+      "neden": "b+c",
+      "sinif": "dogrulanamadi",
+      "kodlar": [
+        "dogrulama_yok"
+      ],
+      "teyitli": [],
+      "teyitsiz": [],
+      "yeni_ajan": false
+    },
+    {
+      "entry_id": "sevilla:metropol-parasol-antiquarium",
+      "title": "Metropol Parasol (Setas) y Antiquarium",
+      "neden": "b",
+      "sinif": "acik_dogrulandi",
+      "kodlar": [],
+      "teyitli": [],
+      "teyitsiz": [],
+      "yeni_ajan": false
+    },
+    {
+      "entry_id": "sevilla:palacio-de-san-telmo",
+      "title": "Palacio de San Telmo",
+      "neden": "b",
+      "sinif": "dogrulanamadi",
+      "kodlar": [
+        "dogrulama_yok"
+      ],
+      "teyitli": [],
+      "teyitsiz": [],
+      "yeni_ajan": false
+    },
+    {
+      "entry_id": "sevilla:plaza-de-espana",
+      "title": "Plaza de España",
+      "neden": "b",
+      "sinif": "acik_dogrulandi",
+      "kodlar": [],
+      "teyitli": [],
+      "teyitsiz": [],
+      "yeni_ajan": false
+    },
+    {
+      "entry_id": "sevilla:plaza-de-toros-de-la-maestranza",
+      "title": "Plaza de Toros de la Real Maestranza",
+      "neden": "c",
+      "sinif": "acik_dogrulandi",
+      "kodlar": [],
+      "teyitli": [],
+      "teyitsiz": [],
+      "yeni_ajan": false
+    },
+    {
+      "entry_id": "sevilla:costurero-de-la-reina",
+      "title": "Costurero de la Reina",
+      "neden": "b",
+      "sinif": "belirt_teyitli",
+      "kodlar": [],
+      "teyitli": [
+        "https://www.andaluciainformacion.es/articulo/sevilla/costurero-reina-sera-sede-comisariado-centenario-expo-29/202604302047303252427.html"
+      ],
+      "teyitsiz": [],
+      "yeni_ajan": false
+    },
+    {
+      "entry_id": "sevilla:parque-de-maria-luisa",
+      "title": "Parque de María Luisa",
+      "neden": "b",
+      "sinif": "acik_dogrulandi",
+      "kodlar": [],
+      "teyitli": [],
+      "teyitsiz": [],
+      "yeni_ajan": false
+    },
+    {
+      "entry_id": "sevilla:jardines-de-murillo",
+      "title": "Jardines de Murillo",
+      "neden": "b",
+      "sinif": "acik_dogrulandi",
+      "kodlar": [],
+      "teyitli": [],
+      "teyitsiz": [],
+      "yeni_ajan": false
+    },
+    {
+      "entry_id": "sevilla:jardines-de-las-delicias",
+      "title": "Jardines de las Delicias",
+      "neden": "b",
+      "sinif": "dogrulanamadi",
+      "kodlar": [
+        "dogrulama_yok"
+      ],
+      "teyitli": [],
+      "teyitsiz": [],
+      "yeni_ajan": false
+    },
+    {
+      "entry_id": "sevilla:paseo-catalina-de-ribera",
+      "title": "Paseo de Catalina de Ribera",
+      "neden": "b",
+      "sinif": "acik_dogrulandi",
+      "kodlar": [],
+      "teyitli": [],
+      "teyitsiz": [],
+      "yeni_ajan": false
+    },
+    {
+      "entry_id": "sevilla:parque-del-alamillo",
+      "title": "Parque del Alamillo",
+      "neden": "b+c",
+      "sinif": "acik_dogrulandi",
+      "kodlar": [],
+      "teyitli": [],
+      "teyitsiz": [],
+      "yeni_ajan": false
+    },
+    {
+      "entry_id": "sevilla:alameda-de-hercules",
+      "title": "Alameda de Hércules",
+      "neden": "b",
+      "sinif": "acik_dogrulandi",
+      "kodlar": [],
+      "teyitli": [],
+      "teyitsiz": [],
+      "yeni_ajan": false
+    },
+    {
+      "entry_id": "sevilla:plaza-nueva",
+      "title": "Plaza Nueva",
+      "neden": "c",
+      "sinif": "belirt_teyitli",
+      "kodlar": [],
+      "teyitli": [
+        "https://www.elespanol.com/sevilla/20260916/hoteles-plaza-nueva-zonas-colocar-terrazas-todas-pergolas-deberan-iguales/1003744385463_0.amp.html"
+      ],
+      "teyitsiz": [],
+      "yeni_ajan": false
+    },
+    {
+      "entry_id": "sevilla:jardines-del-prado-de-san-sebastian",
+      "title": "Jardines del Prado de San Sebastián",
+      "neden": "b+c",
+      "sinif": "acik_dogrulandi",
+      "kodlar": [],
+      "teyitli": [],
+      "teyitsiz": [],
+      "yeni_ajan": false
+    },
+    {
+      "entry_id": "sevilla:plaza-del-duque",
+      "title": "Plaza del Duque",
+      "neden": "b",
+      "sinif": "dogrulanamadi",
+      "kodlar": [
+        "dogrulama_yok"
+      ],
+      "teyitli": [],
+      "teyitsiz": [],
+      "yeni_ajan": false
+    },
+    {
+      "entry_id": "sevilla:plaza-de-dona-elvira",
+      "title": "Plaza de Doña Elvira",
+      "neden": "b",
+      "sinif": "dogrulanamadi",
+      "kodlar": [
+        "dogrulama_yok"
+      ],
+      "teyitli": [],
+      "teyitsiz": [],
+      "yeni_ajan": false
+    },
+    {
+      "entry_id": "sevilla:plaza-de-los-refinadores",
+      "title": "Plaza de los Refinadores",
+      "neden": "b",
+      "sinif": "dogrulanamadi",
+      "kodlar": [
+        "dogrulama_yok"
+      ],
+      "teyitli": [],
+      "teyitsiz": [],
+      "yeni_ajan": false
+    },
+    {
+      "entry_id": "sevilla:plaza-de-america",
+      "title": "Plaza de América",
+      "neden": "c",
+      "sinif": "belirt_teyitli",
+      "kodlar": [],
+      "teyitli": [
+        "https://www.vivasevilla.es/articulo/sevilla/comienzan-plantar-15000-rosales-plaza-america/20260824082042011195.html"
+      ],
+      "teyitsiz": [],
+      "yeni_ajan": false
+    },
+    {
+      "entry_id": "sevilla:museo-arqueologico-de-sevilla",
+      "title": "Museo Arqueológico de Sevilla",
+      "neden": "c",
+      "sinif": "belirt_teyitli",
+      "kodlar": [],
+      "teyitli": [
+        "https://www.vivasevilla.es/articulo/sevilla/pleno-pide-gobierno-acelerar-reapertura-museo-arqueologico/20260416150757007858.html"
+      ],
+      "teyitsiz": [],
+      "yeni_ajan": false
+    },
+    {
+      "entry_id": "sevilla:casa-fabiola-coleccion-bellver",
+      "title": "Casa Fabiola - Colección Bellver",
+      "neden": "b",
+      "sinif": "acik_dogrulandi",
+      "kodlar": [],
+      "teyitli": [],
+      "teyitsiz": [],
+      "yeni_ajan": false
+    },
+    {
+      "entry_id": "sevilla:centro-ceramica-triana",
+      "title": "Centro Cerámica Triana",
+      "neden": "b",
+      "sinif": "acik_dogrulandi",
+      "kodlar": [],
+      "teyitli": [],
+      "teyitsiz": [],
+      "yeni_ajan": false
+    },
+    {
+      "entry_id": "sevilla:museo-historico-militar-sevilla",
+      "title": "Museo Histórico Militar de Sevilla",
+      "neden": "b",
+      "sinif": "dogrulanamadi",
+      "kodlar": [
+        "dogrulama_yok"
+      ],
+      "teyitli": [],
+      "teyitsiz": [],
+      "yeni_ajan": false
+    },
+    {
+      "entry_id": "sevilla:museo-maritimo-torre-del-oro",
+      "title": "Museo Marítimo Torre del Oro",
+      "neden": "b",
+      "sinif": "dogrulanamadi",
+      "kodlar": [
+        "dogrulama_yok"
+      ],
+      "teyitli": [],
+      "teyitsiz": [],
+      "yeni_ajan": false
+    },
+    {
+      "entry_id": "sevilla:real-academia-bellas-artes-sevilla",
+      "title": "Real Academia de Bellas Artes de Santa Isabel de Hungría",
+      "neden": "b",
+      "sinif": "acik_dogrulandi",
+      "kodlar": [],
+      "teyitli": [],
+      "teyitsiz": [],
+      "yeni_ajan": false
+    },
+    {
+      "entry_id": "sevilla:estadio-sanchez-pizjuan-tur",
+      "title": "Estadio Ramón Sánchez-Pizjuán (Sevilla FC turu)",
+      "neden": "b",
+      "sinif": "dogrulanamadi",
+      "kodlar": [
+        "dogrulama_yok"
+      ],
+      "teyitli": [],
+      "teyitsiz": [],
+      "yeni_ajan": false
+    },
+    {
+      "entry_id": "sevilla:teatro-lope-de-vega",
+      "title": "Teatro Lope de Vega",
+      "neden": "b",
+      "sinif": "acik_dogrulandi",
+      "kodlar": [],
+      "teyitli": [],
+      "teyitsiz": [],
+      "yeni_ajan": false
+    },
+    {
+      "entry_id": "sevilla:el-patio-sevillano",
+      "title": "El Patio Sevillano",
+      "neden": "b",
+      "sinif": "dogrulanamadi",
+      "kodlar": [
+        "dogrulama_yok"
+      ],
+      "teyitli": [],
+      "teyitsiz": [],
+      "yeni_ajan": false
+    },
+    {
+      "entry_id": "sevilla:mercado-de-la-calle-feria",
+      "title": "Mercado de la calle Feria",
+      "neden": "b+c",
+      "sinif": "dogrulanamadi",
+      "kodlar": [
+        "dogrulama_yok"
+      ],
+      "teyitli": [],
+      "teyitsiz": [],
+      "yeni_ajan": false
+    },
+    {
+      "entry_id": "sevilla:isla-magica",
+      "title": "Isla Mágica",
+      "neden": "c",
+      "sinif": "acik_dogrulandi",
+      "kodlar": [],
+      "teyitli": [],
+      "teyitsiz": [],
+      "yeni_ajan": false
+    },
+    {
+      "entry_id": "sevilla:estadio-benito-villamarin-tur",
+      "title": "Betis Tour - Estadio La Cartuja",
+      "neden": "c",
+      "sinif": "acik_dogrulandi",
+      "kodlar": [],
+      "teyitli": [],
+      "teyitsiz": [],
+      "yeni_ajan": false
+    },
+    {
+      "entry_id": "sevilla:confiteria-la-campana",
+      "title": "Confitería La Campana",
+      "neden": "b",
+      "sinif": "dogrulanamadi",
+      "kodlar": [
+        "dogrulama_yok"
+      ],
+      "teyitli": [],
+      "teyitsiz": [],
+      "yeni_ajan": false
+    },
+    {
+      "entry_id": "sevilla:casa-roman-sevilla",
+      "title": "Casa Román",
+      "neden": "b+c",
+      "sinif": "acik_dogrulandi",
+      "kodlar": [],
+      "teyitli": [],
+      "teyitsiz": [],
+      "yeni_ajan": false
+    },
+    {
+      "entry_id": "sevilla:ceramica-santa-ana",
+      "title": "Cerámica Santa Ana",
+      "neden": "b",
+      "sinif": "dogrulanamadi",
+      "kodlar": [
+        "dogrulama_yok"
+      ],
+      "teyitli": [],
+      "teyitsiz": [],
+      "yeni_ajan": false
+    },
+    {
+      "entry_id": "sevilla:casa-de-la-guitarra",
+      "title": "Casa de la Guitarra",
+      "neden": "b",
+      "sinif": "acik_dogrulandi",
+      "kodlar": [],
+      "teyitli": [],
+      "teyitsiz": [],
+      "yeni_ajan": false
+    },
+    {
+      "entry_id": "sevilla:convento-de-santa-paula",
+      "title": "Convento de Santa Paula",
+      "neden": "b",
+      "sinif": "acik_dogrulandi",
+      "kodlar": [],
+      "teyitli": [],
+      "teyitsiz": [],
+      "yeni_ajan": false
+    },
+    {
+      "entry_id": "sevilla:parque-de-los-bermejales",
+      "title": "Parque de los Bermejales",
+      "neden": "c",
+      "sinif": "acik_dogrulandi",
+      "kodlar": [],
+      "teyitli": [],
+      "teyitsiz": [],
+      "yeni_ajan": false
+    },
+    {
+      "entry_id": "sevilla:parque-de-miraflores",
+      "title": "Parque de Miraflores",
+      "neden": "b",
+      "sinif": "dogrulanamadi",
+      "kodlar": [
+        "dogrulama_yok"
+      ],
+      "teyitli": [],
+      "teyitsiz": [],
+      "yeni_ajan": false
+    },
+    {
+      "entry_id": "sevilla:iglesia-de-santa-catalina",
+      "title": "Iglesia de Santa Catalina",
+      "neden": "b",
+      "sinif": "acik_dogrulandi",
+      "kodlar": [],
+      "teyitli": [],
+      "teyitsiz": [],
+      "yeni_ajan": false
+    },
+    {
+      "entry_id": "sevilla:iglesia-de-san-marcos",
+      "title": "Iglesia de San Marcos",
+      "neden": "b",
+      "sinif": "dogrulanamadi",
+      "kodlar": [
+        "dogrulama_yok"
+      ],
+      "teyitli": [],
+      "teyitsiz": [],
+      "yeni_ajan": false
+    },
+    {
+      "entry_id": "sevilla:hospital-de-las-cinco-llagas",
+      "title": "Hospital de las Cinco Llagas (Parlamento de Andalucía)",
+      "neden": "c",
+      "sinif": "acik_dogrulandi",
+      "kodlar": [],
+      "teyitli": [],
+      "teyitsiz": [],
+      "yeni_ajan": false
+    },
+    {
+      "entry_id": "sevilla:parroquia-de-san-jacinto",
+      "title": "Parroquia de San Jacinto",
+      "neden": "c",
+      "sinif": "acik_dogrulandi",
+      "kodlar": [],
+      "teyitli": [],
+      "teyitsiz": [],
+      "yeni_ajan": false
+    },
+    {
+      "entry_id": "sevilla:bodega-dos-de-mayo",
+      "title": "Bodega Dos de Mayo",
+      "neden": "b",
+      "sinif": "acik_dogrulandi",
+      "kodlar": [],
+      "teyitli": [],
+      "teyitsiz": [],
+      "yeni_ajan": false
+    },
+    {
+      "entry_id": "sevilla:parque-magallanes",
+      "title": "Parque Magallanes",
+      "neden": "b",
+      "sinif": "acik_dogrulandi",
+      "kodlar": [],
+      "teyitli": [],
+      "teyitsiz": [],
+      "yeni_ajan": false
+    },
+    {
+      "entry_id": "sevilla:muelle-de-la-sal",
+      "title": "Muelle de la Sal",
+      "neden": "b",
+      "sinif": "acik_dogrulandi",
+      "kodlar": [],
+      "teyitli": [],
+      "teyitsiz": [],
+      "yeni_ajan": false
+    },
+    {
+      "entry_id": "sevilla:parroquia-de-santa-ana-triana",
+      "title": "Real Parroquia de la Señora Santa Ana (Triana)",
+      "neden": "c",
+      "sinif": "acik_dogrulandi",
+      "kodlar": [],
+      "teyitli": [],
+      "teyitsiz": [],
+      "yeni_ajan": false
+    },
+    {
+      "entry_id": "sevilla:parroquia-de-la-o",
+      "title": "Parroquia de Nuestra Señora de la O",
+      "neden": "c",
+      "sinif": "acik_dogrulandi",
+      "kodlar": [],
+      "teyitli": [],
+      "teyitsiz": [],
+      "yeni_ajan": false
+    },
+    {
+      "entry_id": "sevilla:monasterio-de-san-jeronimo-de-buenavista",
+      "title": "Monasterio de San Jerónimo de Buenavista",
+      "neden": "b",
+      "sinif": "acik_dogrulandi",
+      "kodlar": [],
+      "teyitli": [],
+      "teyitsiz": [],
+      "yeni_ajan": false
+    },
+    {
+      "entry_id": "sevilla:archivo-historico-provincial-de-sevilla",
+      "title": "Archivo Histórico Provincial de Sevilla",
+      "neden": "b",
+      "sinif": "acik_dogrulandi",
+      "kodlar": [],
+      "teyitli": [],
+      "teyitsiz": [],
+      "yeni_ajan": false
+    },
+    {
+      "entry_id": "sevilla:biblioteca-infanta-elena",
+      "title": "Biblioteca Pública del Estado - Biblioteca Provincial Infanta Elena",
+      "neden": "b",
+      "sinif": "acik_dogrulandi",
+      "kodlar": [],
+      "teyitli": [],
+      "teyitsiz": [],
+      "yeni_ajan": false
+    },
+    {
+      "entry_id": "sevilla:hospital-de-los-venerables",
+      "title": "Hospital de los Venerables",
+      "neden": "c",
+      "sinif": "acik_dogrulandi",
+      "kodlar": [],
+      "teyitli": [],
+      "teyitsiz": [],
+      "yeni_ajan": false
+    },
+    {
+      "entry_id": "sevilla:jardines-de-cristina",
+      "title": "Jardines de Cristina",
+      "neden": "b",
+      "sinif": "dogrulanamadi",
+      "kodlar": [
+        "dogrulama_yok"
+      ],
+      "teyitli": [],
+      "teyitsiz": [],
+      "yeni_ajan": false
+    },
+    {
+      "entry_id": "sevilla:jardin-americano",
+      "title": "Jardín Americano",
+      "neden": "b",
+      "sinif": "dogrulanamadi",
+      "kodlar": [
+        "dogrulama_yok"
+      ],
+      "teyitli": [],
+      "teyitsiz": [],
+      "yeni_ajan": false
+    },
+    {
+      "entry_id": "sevilla:capilla-de-los-luises",
+      "title": "Capilla de los Luises",
+      "neden": "b",
+      "sinif": "dogrulanamadi",
+      "kodlar": [
+        "dogrulama_yok"
+      ],
+      "teyitli": [],
+      "teyitsiz": [],
+      "yeni_ajan": false
+    },
+    {
+      "entry_id": "sevilla:hospital-de-la-santa-caridad",
+      "title": "Hospital de la Santa Caridad",
+      "neden": "c",
+      "sinif": "belirt_teyitli",
+      "kodlar": [],
+      "teyitli": [
+        "https://planomato.com/es/sevilla/p/arte-y-misericordia-santa-caridad-sevilla"
+      ],
+      "teyitsiz": [],
+      "yeni_ajan": false
+    },
+    {
+      "entry_id": "sevilla:palacio-bucarelli",
+      "title": "Palacio Bucarelli",
+      "neden": "b+c",
+      "sinif": "acik_dogrulandi",
+      "kodlar": [],
+      "teyitli": [],
+      "teyitsiz": [],
+      "yeni_ajan": false
+    },
+    {
+      "entry_id": "sevilla:casa-de-la-provincia-sevilla",
+      "title": "Casa de la Provincia",
+      "neden": "rastgele",
+      "sinif": "acik_dogrulandi",
+      "kodlar": [],
+      "teyitli": [],
+      "teyitsiz": [],
+      "yeni_ajan": false
+    },
+    {
+      "entry_id": "sevilla:fibes-palacio-de-congresos",
+      "title": "Fibes - Palacio de Congresos y Exposiciones de Sevilla",
+      "neden": "rastgele",
+      "sinif": "acik_dogrulandi",
+      "kodlar": [],
+      "teyitli": [],
+      "teyitsiz": [],
+      "yeni_ajan": false
+    },
+    {
+      "entry_id": "sevilla:espacio-santa-clara",
+      "title": "Espacio Santa Clara (Antiguo Monasterio)",
+      "neden": "rastgele",
+      "sinif": "acik_dogrulandi",
+      "kodlar": [],
+      "teyitli": [],
+      "teyitsiz": [],
+      "yeni_ajan": false
+    },
+    {
+      "entry_id": "sevilla:iglesia-de-san-esteban",
+      "title": "Iglesia de San Esteban",
+      "neden": "rastgele",
+      "sinif": "acik_dogrulandi",
+      "kodlar": [],
+      "teyitli": [],
+      "teyitsiz": [],
+      "yeni_ajan": false
+    },
+    {
+      "entry_id": "sevilla:casa-de-la-memoria-al-andalus",
+      "title": "Casa de la Memoria de Al-Andalus",
+      "neden": "rastgele",
+      "sinif": "acik_dogrulandi",
+      "kodlar": [],
+      "teyitli": [],
+      "teyitsiz": [],
+      "yeni_ajan": false
+    },
+    {
+      "entry_id": "sevilla:convento-de-santa-ines",
+      "title": "Convento de Santa Inés",
+      "neden": "rastgele",
+      "sinif": "acik_dogrulandi",
+      "kodlar": [],
+      "teyitli": [],
+      "teyitsiz": [],
+      "yeni_ajan": false
+    }
+  ]
+}

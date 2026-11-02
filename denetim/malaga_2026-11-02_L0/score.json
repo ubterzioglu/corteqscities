@@ -1,0 +1,446 @@
+{
+  "tool": "editorial_score",
+  "mode": "criteria",
+  "editorial_percent": 6,
+  "raw_total": 6,
+  "raw_total_exact": "6",
+  "max_possible": 100,
+  "labels": [
+    "doğrulanan alt sınır, kısmi denetim"
+  ],
+  "categories": [
+    {
+      "code": "A",
+      "name": "Bilgi kartları ve kaynaklar",
+      "weight": 35,
+      "score": 0,
+      "score_exact": "0"
+    },
+    {
+      "code": "B",
+      "name": "Mekân, mahalle, rota ve sözlük",
+      "weight": 20,
+      "score": 0,
+      "score_exact": "0"
+    },
+    {
+      "code": "C",
+      "name": "Fotoğraf seçimi ve sunum",
+      "weight": 20,
+      "score": 0,
+      "score_exact": "0"
+    },
+    {
+      "code": "D",
+      "name": "Lisans ve kanıtlar",
+      "weight": 15,
+      "score": 0,
+      "score_exact": "0"
+    },
+    {
+      "code": "E",
+      "name": "Teknik teslim ve işlev",
+      "weight": 10,
+      "score": 6,
+      "score_exact": "6"
+    }
+  ],
+  "criteria": [
+    {
+      "code": "A1",
+      "status": "not_checked",
+      "passed": null,
+      "required": 240,
+      "ratio": 0,
+      "reason": "Ham 244 ≥ 240; kullanılabilirlik K18 (L) yapılmadı.",
+      "note": "",
+      "category": "A",
+      "weight": 7,
+      "status_tr": "kontrol edilemedi",
+      "subscore": 0
+    },
+    {
+      "code": "A2",
+      "status": "not_checked",
+      "passed": null,
+      "required": null,
+      "ratio": 0,
+      "reason": "K25/K26 (L) yapılmadı; ISS-002 bilinen eksik.",
+      "note": "",
+      "category": "A",
+      "weight": 7,
+      "status_tr": "kontrol edilemedi",
+      "subscore": 0
+    },
+    {
+      "code": "A3",
+      "status": "not_checked",
+      "passed": null,
+      "required": null,
+      "ratio": 0,
+      "reason": "claim_check dize eşleşmesi destek kanıtı değil (supported 1107/2559).",
+      "note": "",
+      "category": "A",
+      "weight": 7,
+      "status_tr": "kontrol edilemedi",
+      "subscore": 0
+    },
+    {
+      "code": "A4",
+      "status": "partial",
+      "passed": 0,
+      "required": 244,
+      "ratio": 0,
+      "reason": "ISS-001 (P0, teyitli), ISS-002 (P0), ISS-003 (P1: 7 kart ülke paketi düzeltmesi yok); doğrulanan alt sınır 0.",
+      "note": "",
+      "category": "A",
+      "weight": 7,
+      "status_tr": "kısmi",
+      "subscore": 0
+    },
+    {
+      "code": "A5",
+      "status": "not_checked",
+      "passed": null,
+      "required": null,
+      "ratio": 0,
+      "reason": "Hitap 'sen' bulgusu 0, kopya kümesi 0; dil değeri L.",
+      "note": "",
+      "category": "A",
+      "weight": 7,
+      "status_tr": "kontrol edilemedi",
+      "subscore": 0
+    },
+    {
+      "code": "B1",
+      "status": "not_checked",
+      "passed": null,
+      "required": 120,
+      "ratio": 0,
+      "reason": "Ham 120/120; açık-mı K39 (L) yapılmadı.",
+      "note": "",
+      "category": "B",
+      "weight": 4,
+      "status_tr": "kontrol edilemedi",
+      "subscore": 0
+    },
+    {
+      "code": "B2",
+      "status": "not_checked",
+      "passed": null,
+      "required": 16,
+      "ratio": 0,
+      "reason": "Ham 16/16; K44 (L).",
+      "note": "",
+      "category": "B",
+      "weight": 4,
+      "status_tr": "kontrol edilemedi",
+      "subscore": 0
+    },
+    {
+      "code": "B3",
+      "status": "not_checked",
+      "passed": null,
+      "required": 12,
+      "ratio": 0,
+      "reason": "Ham 12/12; durak bağları resmî doğrulayıcıda geçti; K47 (L).",
+      "note": "",
+      "category": "B",
+      "weight": 4,
+      "status_tr": "kontrol edilemedi",
+      "subscore": 0
+    },
+    {
+      "code": "B4",
+      "status": "not_checked",
+      "passed": null,
+      "required": 60,
+      "ratio": 0,
+      "reason": "Ham 62/60; K48 (L).",
+      "note": "",
+      "category": "B",
+      "weight": 4,
+      "status_tr": "kontrol edilemedi",
+      "subscore": 0
+    },
+    {
+      "code": "B5",
+      "status": "not_checked",
+      "passed": null,
+      "required": null,
+      "ratio": 0,
+      "reason": "Koordinat aralığı geçti; L/V.",
+      "note": "",
+      "category": "B",
+      "weight": 4,
+      "status_tr": "kontrol edilemedi",
+      "subscore": 0
+    },
+    {
+      "code": "C1",
+      "status": "not_checked",
+      "passed": null,
+      "required": 250,
+      "ratio": 0,
+      "reason": "Tekil 334 ≥ 250; görsel inceleme V yapılmadı.",
+      "note": "",
+      "category": "C",
+      "weight": 4,
+      "status_tr": "kontrol edilemedi",
+      "subscore": 0
+    },
+    {
+      "code": "C2",
+      "status": "not_checked",
+      "passed": null,
+      "required": null,
+      "ratio": 0,
+      "reason": "K59–K62 (V).",
+      "note": "",
+      "category": "C",
+      "weight": 4,
+      "status_tr": "kontrol edilemedi",
+      "subscore": 0
+    },
+    {
+      "code": "C3",
+      "status": "not_checked",
+      "passed": null,
+      "required": null,
+      "ratio": 0,
+      "reason": "Fotoğraflı yer 136/136 (üst sınır); doğru kare V.",
+      "note": "",
+      "category": "C",
+      "weight": 4,
+      "status_tr": "kontrol edilemedi",
+      "subscore": 0
+    },
+    {
+      "code": "C4",
+      "status": "not_checked",
+      "passed": null,
+      "required": null,
+      "ratio": 0,
+      "reason": "dHash K63_aday 0; ön eleme flag 8; K65 (V).",
+      "note": "",
+      "category": "C",
+      "weight": 4,
+      "status_tr": "kontrol edilemedi",
+      "subscore": 0
+    },
+    {
+      "code": "C5",
+      "status": "partial",
+      "passed": 0,
+      "required": 8,
+      "ratio": 0,
+      "reason": "8 farklı kapak; hero_photo_id boş (ISS-004).",
+      "note": "",
+      "category": "C",
+      "weight": 4,
+      "status_tr": "kısmi",
+      "subscore": 0
+    },
+    {
+      "code": "D1",
+      "status": "not_checked",
+      "passed": null,
+      "required": null,
+      "ratio": 0,
+      "reason": "K67 script: ret 0, flag 8; K71/K72 (L).",
+      "note": "",
+      "category": "D",
+      "weight": 3,
+      "status_tr": "kontrol edilemedi",
+      "subscore": 0
+    },
+    {
+      "code": "D2",
+      "status": "not_checked",
+      "passed": null,
+      "required": null,
+      "ratio": 0,
+      "reason": "Lisans/yazar alanları dolu; 48 author_url boş; kaynakla eşleşme okunmadı.",
+      "note": "",
+      "category": "D",
+      "weight": 3,
+      "status_tr": "kontrol edilemedi",
+      "subscore": 0
+    },
+    {
+      "code": "D3",
+      "status": "partial",
+      "passed": 0,
+      "required": 342,
+      "ratio": 0,
+      "reason": "Hash zinciri tutarlı (K04 0, ters eğik çizgi 0); derivation küçültmeyi adlandırmıyor (ISS-007).",
+      "note": "",
+      "category": "D",
+      "weight": 3,
+      "status_tr": "kısmi",
+      "subscore": 0
+    },
+    {
+      "code": "D4",
+      "status": "partial",
+      "passed": 0,
+      "required": 342,
+      "ratio": 0,
+      "reason": "rights_basis genel (ISS-006).",
+      "note": "",
+      "category": "D",
+      "weight": 3,
+      "status_tr": "kısmi",
+      "subscore": 0
+    },
+    {
+      "code": "D5",
+      "status": "not_checked",
+      "passed": null,
+      "required": null,
+      "ratio": 0,
+      "reason": "Atıf CSV/HTML var; görünür atıf önizlemede (K94 ayrı aşama).",
+      "note": "",
+      "category": "D",
+      "weight": 3,
+      "status_tr": "kontrol edilemedi",
+      "subscore": 0
+    },
+    {
+      "code": "E1",
+      "status": "ok",
+      "passed": 12,
+      "required": 12,
+      "ratio": 1,
+      "reason": "Resmî doğrulayıcı yapı 0, medya 0, 23 sayfa alanı.",
+      "note": "",
+      "category": "E",
+      "weight": 2,
+      "status_tr": "kontrol edildi",
+      "subscore": 2
+    },
+    {
+      "code": "E2",
+      "status": "ok",
+      "passed": 1,
+      "required": 1,
+      "ratio": 1,
+      "reason": "1812 dosya yol/hash çözülüyor; K04 fark 0; CSV'ler RFC 4180 ile sağlam (dış denetim MAL-006 okuyucu farkı).",
+      "note": "",
+      "category": "E",
+      "weight": 2,
+      "status_tr": "kontrol edildi",
+      "subscore": 2
+    },
+    {
+      "code": "E3",
+      "status": "ok",
+      "passed": 23,
+      "required": 23,
+      "ratio": 1,
+      "reason": "23/23 zorunlu anahtar.",
+      "note": "",
+      "category": "E",
+      "weight": 2,
+      "status_tr": "kontrol edildi",
+      "subscore": 2
+    },
+    {
+      "code": "E4",
+      "status": "separate_stage",
+      "passed": null,
+      "required": null,
+      "ratio": 0,
+      "reason": "Web işlevleri önizleme aşaması.",
+      "note": "",
+      "category": "E",
+      "weight": 2,
+      "status_tr": "ayrı aşama",
+      "subscore": 0
+    },
+    {
+      "code": "E5",
+      "status": "partial",
+      "passed": 0,
+      "required": 5,
+      "ratio": 0,
+      "reason": "Teslim özeti/sorumlu/Drive satırı tutarsız (ISS-005).",
+      "note": "",
+      "category": "E",
+      "weight": 2,
+      "status_tr": "kısmi",
+      "subscore": 0
+    }
+  ],
+  "coverage": {
+    "cards": {
+      "reviewed": 0,
+      "total": 244
+    },
+    "photos": {
+      "reviewed": 0,
+      "total": 334
+    },
+    "critical_claims": {
+      "reviewed": 0,
+      "total": 2559
+    }
+  },
+  "open_findings": {
+    "P0": [
+      "ISS-001",
+      "ISS-002"
+    ],
+    "P1": [
+      "ISS-003",
+      "ISS-004",
+      "ISS-005"
+    ],
+    "P2": [
+      "ISS-006",
+      "ISS-007",
+      "ISS-008"
+    ]
+  },
+  "gates": [],
+  "missing_targets": [],
+  "evidence_gaps": [
+    "A1: kontrol edilemedi (Ham 244 ≥ 240; kullanılabilirlik K18 (L) yapılmadı.)",
+    "A2: kontrol edilemedi (K25/K26 (L) yapılmadı; ISS-002 bilinen eksik.)",
+    "A3: kontrol edilemedi (claim_check dize eşleşmesi destek kanıtı değil (supported 1107/2559).)",
+    "A4: kısmi denetim (ISS-001 (P0, teyitli), ISS-002 (P0), ISS-003 (P1: 7 kart ülke paketi düzeltmesi yok); doğrulanan alt sınır 0.)",
+    "A5: kontrol edilemedi (Hitap 'sen' bulgusu 0, kopya kümesi 0; dil değeri L.)",
+    "B1: kontrol edilemedi (Ham 120/120; açık-mı K39 (L) yapılmadı.)",
+    "B2: kontrol edilemedi (Ham 16/16; K44 (L).)",
+    "B3: kontrol edilemedi (Ham 12/12; durak bağları resmî doğrulayıcıda geçti; K47 (L).)",
+    "B4: kontrol edilemedi (Ham 62/60; K48 (L).)",
+    "B5: kontrol edilemedi (Koordinat aralığı geçti; L/V.)",
+    "C1: kontrol edilemedi (Tekil 334 ≥ 250; görsel inceleme V yapılmadı.)",
+    "C2: kontrol edilemedi (K59–K62 (V).)",
+    "C3: kontrol edilemedi (Fotoğraflı yer 136/136 (üst sınır); doğru kare V.)",
+    "C4: kontrol edilemedi (dHash K63_aday 0; ön eleme flag 8; K65 (V).)",
+    "C5: kısmi denetim (8 farklı kapak; hero_photo_id boş (ISS-004).)",
+    "D1: kontrol edilemedi (K67 script: ret 0, flag 8; K71/K72 (L).)",
+    "D2: kontrol edilemedi (Lisans/yazar alanları dolu; 48 author_url boş; kaynakla eşleşme okunmadı.)",
+    "D3: kısmi denetim (Hash zinciri tutarlı (K04 0, ters eğik çizgi 0); derivation küçültmeyi adlandırmıyor (ISS-007).)",
+    "D4: kısmi denetim (rights_basis genel (ISS-006).)",
+    "D5: kontrol edilemedi (Atıf CSV/HTML var; görünür atıf önizlemede (K94 ayrı aşama).)",
+    "E5: kısmi denetim (Teslim özeti/sorumlu/Drive satırı tutarsız (ISS-005).)",
+    "kapsam (kart): 0/244 kısmi",
+    "kapsam (fotoğraf): 0/334 kısmi",
+    "kapsam (kritik iddia): 0/2559 kısmi"
+  ],
+  "decision": "DÜZELTME GEREKLİ",
+  "decision_reason": "açık P0: ISS-001, ISS-002",
+  "decision_note": "önizleme ve Drive kontrolleri ayrı aşamada",
+  "deviations": [
+    "Sapma (bölüm 20 karar kuralı 3): E4 web işlevleri bu projede ayrı aşamadır (checks.yaml scope preview-later / drive-manual). E4 puanı 'kontrol edilemedi' gibi 0 alındı, ancak karar 'kanıt eksik'e düşürülmedi; kararın yanına ayrı aşama notu eklendi."
+  ],
+  "notes": [
+    "Yüzde, kalan kısmın kesin yanlış olduğu anlamına gelmez; inceleme kapsamı, kullanılabilir içerik ve yönetim üretim yüzdesi aynı metrik değildir.",
+    "KALDI ve KONTROL EDİLEMEDİ puan kazanmaz; ikisi durum sütununda ayrıdır.",
+    "12 konu, ücretsiz gerçek fotoğraf, uyarı bandı olmaması ve zorunlu sözleşme şartları ayrı karar kapısıdır; açık bulgu (P0/P1) olarak girilmelidir.",
+    "Yetkili insanın kabul/yayın kararı ayrı süreçtir; bu çıktı yayın onayı değildir."
+  ],
+  "cover_line": "Editoryal hazır olma: %6 (doğrulanan alt sınır, kısmi denetim) | İnceleme kapsamı: kart 0/244; fotoğraf 0/334; kritik iddia 0/2559 | Karar: DÜZELTME GEREKLİ (önizleme ve Drive kontrolleri ayrı aşamada)"
+}

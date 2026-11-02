@@ -1,0 +1,191 @@
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html>
+<head>
+    <meta http-equiv="cache-control" content="no-cache" />
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <title>Dirección General de la Policia - Oficina Virtual de Denuncias</title>
+    <link rel="stylesheet" href="css/ovd.css" type="text/css">
+    <script>
+        function volverPrincipal() {
+            document.form1.action = "Principal.dgp";
+            document.form1.submit();
+        }
+    </script>
+</head>
+<body bgcolor="#FFFFFF" style="margin-left:0px;margin-right:0px;margin-top:0px;margin-bottom:0px;vertical-align:top;">
+    	
+    <script>
+
+        function detalleOficina(indice) {
+            var datosOficinas=new Array(10);
+                        
+                                        datosOficinas[0]=new Array("ANTEQUERA-OFICINA DE  DENUNCIAS","C/ CIUDAD OAXACA","29200","952706350", "37.109539", "-4.563537");
+                                
+                                        datosOficinas[1]=new Array("ESTEPONA-OFICINA DE DENUNCIAS","C/ VALLE INCLAN, 1","29680","952798523", "36.432873", "-5.149083");
+                                
+                                        datosOficinas[2]=new Array("FUENGIROLA-OFICINA DE  DENUNCIAS","AVDA. CONDES DE SAN ISIDRO, 98","29640","952198350", "36.533253", "-4.626864");
+                                
+                                        datosOficinas[3]=new Array("MALAGA-CENTRO-OFICINA DE DENUNCIAS","C/ RAMOS MARÍN, 4","29012","952061870", "36.724718", "-4.418131");
+                                
+                                        datosOficinas[4]=new Array("MALAGA-NORTE-OFICINA DE DENUNCIAS","AVDA. DE LA PALMILLA, 20","29011","952615500", "36.739766", "-4.42594");
+                                
+                                        datosOficinas[5]=new Array("MALAGA-ESTE-OF. DENUNCIAS (EL PALO)","AVDA.SEBASTIÁN ELCANO, 144","29017","952207619", "", "");
+                                
+                                        datosOficinas[6]=new Array("MARBELLA-OFICINA DE  DENUNCIAS","AVDA. ARIAS DE VELASCO, 25","29601","952762600", "36.517095", "-4.885296");
+                                
+                                        datosOficinas[7]=new Array("RONDA-OFICINA DE DENUNCIAS","C/ Rio Tinto n.º 2","29400","952161220", "36.747079", "-5.157584");
+                                
+                                        datosOficinas[8]=new Array("TORREMOLINOS-OFICINA DE DENUNCIAS (TORREMOLINOS)","C/ SKAL, 12","29620","952378720", "36.620453", "-4.498511");
+                                
+                                        datosOficinas[9]=new Array("VELEZ MALAGA-OFICINA DE DENUNCIAS","C/ PUERTA DEL MAR, 4","29740","952046500", "36.739752", "-4.097917");
+                                
+
+                                            document.formDetalle.nombreComisaria.value=datosOficinas[indice][0];
+                                            document.formDetalle.direccion.value=datosOficinas[indice][1];
+                                            document.formDetalle.codigoPostal.value=datosOficinas[indice][2];
+                                            document.formDetalle.telefono.value=datosOficinas[indice][3];
+                                            document.formDetalle.coordenada1.value=datosOficinas[indice][4];
+                                            document.formDetalle.coordenada2.value=datosOficinas[indice][5];
+                                            document.formDetalle.submit();
+
+                                        }			    
+    </script> 
+    
+    
+    <table align="center" width="100%" border="0" cellpadding="0" cellspacing="0" style="border-collapse:collapse;">
+        <tr>
+            <td align="center" width="100%" height="110px" style="background-image:url(img/fondoCabecera.gif);background-repeat:repeat-x;background-position:top;">
+                <div style="width:1024px;  height:120px" >
+                    <img   heigth="120"  alt="Oficina Virtual de Denuncias" src="img/textoImagenes/cabecera_izqda.gif "/>
+                    <span  class="cabeceraSup"  >   Oficina Virtual De Denuncias  </span>
+                    <img  width="74px" heigth="120" alt="Oficina Virtual de Denuncias" src="img/textoImagenes/cabecera_dcha.gif"/>
+                </div> 
+            </td>
+        </tr>
+        <tr><td style="background-color:#8594AD;" height="32px"></td></tr>
+        <tr>
+            <td align="center" width="100%">
+                <table border="0" cellpadding="0" cellspacing="0" style="border-collapse:collapse;">
+                    <tr>
+                        <td class="tablaDegradadoLeft" width="20px" style="background-position:top;"></td>
+                        <td class="tablaDegradadoCenter" width="950x">
+                            <table border="0" cellpadding="0" cellspacing="0" style="border-collapse:collapse;" width="100%">
+                                <tr><td height="30px"></td></tr>
+                                <tr>
+                                <td align="center"  height="150px" valign="top" >
+                                    
+                                    <table align="center" width="90%" class="tablaOficinas" cellpadding="1px" cellspacing="0" rules="all">
+                                <tr><td class="labelAtributoCentrado" align="center">Comisaría</td><td align="center" class="labelAtributoCentrado">Dirección</td><td  align="center" class="labelAtributoCentrado"></td></tr>
+                                
+                                <tr><td class="labelAtributo"> ANTEQUERA-OFICINA DE  DENUNCIAS</td><td class="labelAtributo">C/ CIUDAD OAXACA</td>
+                                    <td class="labelAtributo">
+                                        <a style="cursor:pointer;color:#6f7982;" onclick="this.style.color='#6f7982';detalleOficina(0);" onmouseover="this.style.color='#ffa800'" onmouseout="this.style.color='#6f7982'">VER PLANO</a>
+                                </td></tr>
+                                
+                                <tr><td class="labelAtributo"> ESTEPONA-OFICINA DE DENUNCIAS</td><td class="labelAtributo">C/ VALLE INCLAN, 1</td>
+                                    <td class="labelAtributo">
+                                        <a style="cursor:pointer;color:#6f7982;" onclick="this.style.color='#6f7982';detalleOficina(1);" onmouseover="this.style.color='#ffa800'" onmouseout="this.style.color='#6f7982'">VER PLANO</a>
+                                </td></tr>
+                                
+                                <tr><td class="labelAtributo"> FUENGIROLA-OFICINA DE  DENUNCIAS</td><td class="labelAtributo">AVDA. CONDES DE SAN ISIDRO, 98</td>
+                                    <td class="labelAtributo">
+                                        <a style="cursor:pointer;color:#6f7982;" onclick="this.style.color='#6f7982';detalleOficina(2);" onmouseover="this.style.color='#ffa800'" onmouseout="this.style.color='#6f7982'">VER PLANO</a>
+                                </td></tr>
+                                
+                                <tr><td class="labelAtributo"> MALAGA-CENTRO-OFICINA DE DENUNCIAS</td><td class="labelAtributo">C/ RAMOS MARÍN, 4</td>
+                                    <td class="labelAtributo">
+                                        <a style="cursor:pointer;color:#6f7982;" onclick="this.style.color='#6f7982';detalleOficina(3);" onmouseover="this.style.color='#ffa800'" onmouseout="this.style.color='#6f7982'">VER PLANO</a>
+                                </td></tr>
+                                
+                                <tr><td class="labelAtributo"> MALAGA-NORTE-OFICINA DE DENUNCIAS</td><td class="labelAtributo">AVDA. DE LA PALMILLA, 20</td>
+                                    <td class="labelAtributo">
+                                        <a style="cursor:pointer;color:#6f7982;" onclick="this.style.color='#6f7982';detalleOficina(4);" onmouseover="this.style.color='#ffa800'" onmouseout="this.style.color='#6f7982'">VER PLANO</a>
+                                </td></tr>
+                                
+                                <tr><td class="labelAtributo"> MALAGA-ESTE-OF. DENUNCIAS (EL PALO)</td><td class="labelAtributo">AVDA.SEBASTIÁN ELCANO, 144</td>
+                                    <td class="labelAtributo">
+                                        <a style="cursor:pointer;color:#6f7982;" onclick="this.style.color='#6f7982';detalleOficina(5);" onmouseover="this.style.color='#ffa800'" onmouseout="this.style.color='#6f7982'">VER PLANO</a>
+                                </td></tr>
+                                
+                                <tr><td class="labelAtributo"> MARBELLA-OFICINA DE  DENUNCIAS</td><td class="labelAtributo">AVDA. ARIAS DE VELASCO, 25</td>
+                                    <td class="labelAtributo">
+                                        <a style="cursor:pointer;color:#6f7982;" onclick="this.style.color='#6f7982';detalleOficina(6);" onmouseover="this.style.color='#ffa800'" onmouseout="this.style.color='#6f7982'">VER PLANO</a>
+                                </td></tr>
+                                
+                                <tr><td class="labelAtributo"> RONDA-OFICINA DE DENUNCIAS</td><td class="labelAtributo">C/ Rio Tinto n.º 2</td>
+                                    <td class="labelAtributo">
+                                        <a style="cursor:pointer;color:#6f7982;" onclick="this.style.color='#6f7982';detalleOficina(7);" onmouseover="this.style.color='#ffa800'" onmouseout="this.style.color='#6f7982'">VER PLANO</a>
+                                </td></tr>
+                                
+                                <tr><td class="labelAtributo"> TORREMOLINOS-OFICINA DE DENUNCIAS (TORREMOLINOS)</td><td class="labelAtributo">C/ SKAL, 12</td>
+                                    <td class="labelAtributo">
+                                        <a style="cursor:pointer;color:#6f7982;" onclick="this.style.color='#6f7982';detalleOficina(8);" onmouseover="this.style.color='#ffa800'" onmouseout="this.style.color='#6f7982'">VER PLANO</a>
+                                </td></tr>
+                                
+                                <tr><td class="labelAtributo"> VELEZ MALAGA-OFICINA DE DENUNCIAS</td><td class="labelAtributo">C/ PUERTA DEL MAR, 4</td>
+                                    <td class="labelAtributo">
+                                        <a style="cursor:pointer;color:#6f7982;" onclick="this.style.color='#6f7982';detalleOficina(9);" onmouseover="this.style.color='#ffa800'" onmouseout="this.style.color='#6f7982'">VER PLANO</a>
+                                </td></tr>
+                                
+                            </table>
+                            
+                            
+                        </td>
+                    </tr>
+                    <tr><td height="15px"></td></tr>
+                    <tr>
+                        
+                        
+                        
+                        
+                        <td id="botonAtras" align="center" >
+                            
+                            <form name="form1" action="Principal.dgp" method="post">
+                                
+                                <div class="botonSalir" onclick="document.formDetalle.accion.value = '';document.formDetalle.submit();" style="cursor:pointer;  ">
+                                    
+                                    <label  class="boton" onmouseover="this.style.cursor='pointer'"> Atrás</label>
+                                </div>
+                            </form>
+                        </td>
+                        
+                        
+                        
+                    </tr>
+                </table>
+            </td>
+            <td class="tablaDegradadoRight" width="20px"></td>
+        </tr>
+    </table>
+    </td>
+    </tr>
+    </table>
+    <form name="formDetalle" id="formDetalle" action="Oficinas.dgp" method="post">
+        <input type="hidden" id="idProvincia" name="idProvincia" value="29"/>
+        <input type="hidden" id="accion" name="accion" value="detalle"/>
+        <input type="hidden" id="nombreComisaria" name="nombreComisaria" value=""/>
+        <input type="hidden" id="direccion" name="direccion" value=""/>
+        <input type="hidden" id="codigoPostal" name="codigoPostal" value=""/>
+        <input type="hidden" id="telefono" name="telefono" value=""/>
+        <input type="hidden" id="coordenada1" name="coordenada1"  value=""/>
+        <input type="hidden" id="coordenada2" name="coordenada2"  value=""/>
+    </form>
+</body>
+</html>

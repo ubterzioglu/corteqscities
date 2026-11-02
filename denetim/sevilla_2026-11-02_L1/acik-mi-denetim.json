@@ -1,0 +1,46 @@
+{
+  "tool": "acik_mi",
+  "acik_mi": "C:\\temp_private\\corteqs\\0000_newera\\denetim\\sevilla_2026-11-02_L1\\_acikmi",
+  "mekanlar": [
+    "C:\\temp_private\\corteqs\\0000_newera\\denetim\\sevilla_2026-11-02_L1\\acik-mi-orneklem.jsonl"
+  ],
+  "kaynaklar": [],
+  "min_year": 2025,
+  "mekan": 62,
+  "tarama": {
+    "dosya": 8,
+    "satir": 62,
+    "mekan": 62
+  },
+  "dogrulama": {
+    "dosya": 8,
+    "satir": 62
+  },
+  "durum": {
+    "belirsiz": 62
+  },
+  "eylem": {
+    "dokunma": 57,
+    "kartta belirt": 5
+  },
+  "sonuc": {
+    "ret": 44,
+    "onay": 18
+  },
+  "listede_olmayan": {
+    "tarama": 0,
+    "dogrulama": 0
+  },
+  "findings": [
+    {
+      "code": "not_yok",
+      "entry_id": "sevilla:costurero-de-la-reina",
+      "where": "parti_01_dogrulama.jsonl:7",
+      "message": "'kartta belirt' kartında 2026 ya da sonrası tarihli not yok (acik-mi-orneklem.jsonl:7): '<gün> <ay> <yıl> itibarıyla …' cümlesi bekleniyor"
+    }
+  ],
+  "by_code": {
+    "not_yok": 1
+  },
+  "out": "C:\\temp_private\\corteqs\\0000_newera\\denetim\\sevilla_2026-11-02_L1\\acik-mi-denetim.json"
+}
