@@ -1,0 +1,2813 @@
+===== KART 1/64: None =====
+{
+ "term_id": "zaragoza:term:001",
+ "city_id": "zaragoza",
+ "term": "Padrón (empadronamiento)",
+ "definition": "Belediyenin Zaragoza'da yaşayan kişileri kaydettiği dosya; kişinin nerede oturduğunu yasal olarak tanıtır. Bu kayda empadronamiento denir. Kaynağa göre İspanya'da yaşayan herkes, esas olarak oturduğu belediyenin padrón'una yazılmak zorundadır ve adres değişikliğini bildirmek gerekir.",
+ "source_ids": "zaragoza:kaynak:292;zaragoza:kaynak:020",
+ "reviewed_on": "2026-11-02",
+ "order": 1,
+ "editorial_status": "Taslak",
+ "_sekme": "Sözlük",
+ "kaynaklar": [
+  {
+   "source_id": "zaragoza:kaynak:292",
+   "url": "https://www.zaragoza.es/sede/servicio/tramite/3317",
+   "publisher": "Ayuntamiento de Zaragoza",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_planlama/cbb5b3aa29c0c003af43ff8214171cd53b0ee86cea7d46ad6d7260308875a6fa.txt"
+  },
+  {
+   "source_id": "zaragoza:kaynak:020",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392",
+   "publisher": "Agencia Estatal Boletín Oficial del Estado (BOE)",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_ulke_es/zaragoza_kaynak_020_es_kaynak_018.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-term-001-1",
+   "field": "definition",
+   "claim": "Padrón, belediyenin Zaragoza'da yaşayanları kaydettiği dosyadır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:292",
+   "quote": "El padrón es un fichero del Ayuntamiento en el que están las personas que viven en Zaragoza."
+  },
+  {
+   "claim_id": "C-term-001-2",
+   "field": "definition",
+   "claim": "Padrón kişinin nerede yaşadığını yasal olarak tanıtır; değişiklikler bildirilmelidir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:292",
+   "quote": "Sirve para que se reconozca legalmente dónde vive, por lo que es importante estar dado de alta y comunicar los cambios"
+  },
+  {
+   "claim_id": "C-term-001-3",
+   "field": "definition",
+   "claim": "İspanya'da yaşayan herkes oturduğu belediyenin padrón'una yazılmak zorundadır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:020",
+   "quote": "Toda persona que viva en España está obligada a inscribirse en el Padrón del municipio en el que resida habitualmente."
+  }
+ ]
+}
+
+===== KART 2/64: None =====
+{
+ "term_id": "zaragoza:term:002",
+ "city_id": "zaragoza",
+ "term": "Volante de empadronamiento",
+ "definition": "Padrón kaydındaki ikametgâhı bildiren belge. Çoğu işlem için geçerlidir; belediyeye göre daha hızlıdır ve bir memurun imzasını gerektirmez. Volante'nin kabul edildiği yerde certificado da kabul edilir.",
+ "source_ids": "zaragoza:kaynak:317;zaragoza:kaynak:316",
+ "reviewed_on": "2026-11-02",
+ "order": 2,
+ "editorial_status": "Taslak",
+ "_sekme": "Sözlük",
+ "kaynaklar": [
+  {
+   "source_id": "zaragoza:kaynak:317",
+   "url": "https://www.zaragoza.es/sede/servicio/tramite/23720",
+   "publisher": "Ayuntamiento de Zaragoza",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_resmi/9224a4046b65889064b1749a7260794931e2989b583519c695811bc29d36ae95.txt"
+  },
+  {
+   "source_id": "zaragoza:kaynak:316",
+   "url": "https://www.zaragoza.es/sede/servicio/tramite/19101",
+   "publisher": "Ayuntamiento de Zaragoza",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_resmi/46a9fb61b8d0a94635f1169ad5375262601cd476262dbdea4012f13e604d20fb.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-term-002-1",
+   "field": "definition",
+   "claim": "Volante, ikametgâhı bildiren ve çoğu işlemde geçerli belgedir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:317",
+   "quote": "El Volante de empadronamiento es el documento que informa del domicilio habitual y es válido para la mayoría de los trámites."
+  },
+  {
+   "claim_id": "C-term-002-2",
+   "field": "definition",
+   "claim": "Volante daha hızlıdır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:316",
+   "quote": "El volante del padrón, que es más rápido y sirve para la mayoría de los trámites."
+  },
+  {
+   "claim_id": "C-term-002-3",
+   "field": "definition",
+   "claim": "Volante için memur imzası gerekmez",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:316",
+   "quote": "por lo que no requiere la firma de ningún funcionario o autoridad municipal"
+  },
+  {
+   "claim_id": "C-term-002-4",
+   "field": "definition",
+   "claim": "Volante kabul edilen yerde certificado da kabul edilir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:317",
+   "quote": "En aquellos casos en los que es admisible un volante, también lo es un certificado."
+  }
+ ]
+}
+
+===== KART 3/64: None =====
+{
+ "term_id": "zaragoza:term:003",
+ "city_id": "zaragoza",
+ "term": "Certificado de empadronamiento",
+ "definition": "Padrón'a kayıtlı olma olgusunu kesin olarak belgeleyen belge. Belediye ikametgâhı kanıtlamak için volante ya da certificado verebilir; certificado, volante'nin kabul edildiği her yerde de geçerlidir.",
+ "source_ids": "zaragoza:kaynak:316",
+ "reviewed_on": "2026-11-02",
+ "order": 3,
+ "editorial_status": "Taslak",
+ "_sekme": "Sözlük",
+ "kaynaklar": [
+  {
+   "source_id": "zaragoza:kaynak:316",
+   "url": "https://www.zaragoza.es/sede/servicio/tramite/19101",
+   "publisher": "Ayuntamiento de Zaragoza",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_resmi/46a9fb61b8d0a94635f1169ad5375262601cd476262dbdea4012f13e604d20fb.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-term-003-1",
+   "field": "definition",
+   "claim": "Certificado empadronamiento olgusunu kesin olarak belgeler",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:316",
+   "quote": "El certificado del padrón, que acredita fehacientemente el hecho del empadronamiento."
+  },
+  {
+   "claim_id": "C-term-003-2",
+   "field": "definition",
+   "claim": "Belediye iki belge verebilir: volante ve certificado",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:316",
+   "quote": "el Ayuntamiento puede darle dos documentos:"
+  }
+ ]
+}
+
+===== KART 4/64: None =====
+{
+ "term_id": "zaragoza:term:004",
+ "city_id": "zaragoza",
+ "term": "Renovación padronal (yabancılar)",
+ "definition": "AB dışından gelip kalıcı oturum izni olmayan yabancıların padrón kaydını yenilemesi. Kayıt iki yıl geçerlidir; yenilenmezse süre dolumu nedeniyle silinir (baja por caducidad).",
+ "source_ids": "zaragoza:kaynak:312",
+ "reviewed_on": "2026-11-02",
+ "order": 4,
+ "editorial_status": "Taslak",
+ "_sekme": "Sözlük",
+ "kaynaklar": [
+  {
+   "source_id": "zaragoza:kaynak:312",
+   "url": "https://www.zaragoza.es/sede/servicio/tramite/13701",
+   "publisher": "Ayuntamiento de Zaragoza",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_oturum/055aae09b4c4098d21a56a427baccd82119221adc7e02a7dd5630eebc4de369f.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-term-004-1",
+   "field": "definition",
+   "claim": "AB dışı, kalıcı izni olmayan yabancılar padrón kaydını yenilemeli; kayıt iki yıl geçerli",
+   "value": "2",
+   "unit": "yıl",
+   "period": "",
+   "source_id": "zaragoza:kaynak:312",
+   "quote": "Los extranjeros no comunitarios sin autorización de residencia permanente deberán proceder a renovar su inscripción padronal, que tendrá una vigencia de dos años."
+  },
+  {
+   "claim_id": "C-term-004-2",
+   "field": "definition",
+   "claim": "Yenilenmezse kayıt süre dolumundan silinir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:312",
+   "quote": "La no renovación supondrá la baja por caducidad de la inscripción."
+  }
+ ]
+}
+
+===== KART 5/64: None =====
+{
+ "term_id": "zaragoza:term:005",
+ "city_id": "zaragoza",
+ "term": "Cita previa",
+ "definition": "Önceden alınan randevu. Zaragoza'daki Yabancılar Bürosu (Oficina de Extranjería) çalışma saatlerini randevuya göre veriyor; birinci basamak sağlıkta da doktor, hemşire gibi görevlilerle randevu alınıyor.",
+ "source_ids": "zaragoza:kaynak:304;zaragoza:kaynak:185",
+ "reviewed_on": "2026-11-02",
+ "order": 5,
+ "editorial_status": "Taslak",
+ "_sekme": "Sözlük",
+ "kaynaklar": [
+  {
+   "source_id": "zaragoza:kaynak:304",
+   "url": "https://www.zaragoza.es/sede/servicio/equipamiento/12574",
+   "publisher": "Ayuntamiento de Zaragoza",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_oturum/36cae0746848715b1b007a6da6a2a86c13017aae37e6a3be87d15f92cdccf2b3.txt"
+  },
+  {
+   "source_id": "zaragoza:kaynak:185",
+   "url": "https://www.aragon.es/tramitador/-/tramite/solicitud-cita-atencion-sanitaria-atencion-primaria",
+   "publisher": "Gobierno de Aragón",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_saglik/67167ca2fb7afae642157ff20f812b123db90b3f4940e3080a16ba4ba5a5efa5.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-term-005-1",
+   "field": "definition",
+   "claim": "Oficina de Extranjería saatleri cita previa ile belirtilmiş",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:304",
+   "quote": "Horario: CITA PREVIA HORARIO: Invierno (16 SEP-15 JUN)"
+  },
+  {
+   "claim_id": "C-term-005-2",
+   "field": "definition",
+   "claim": "Birinci basamakta randevu alınır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:185",
+   "quote": "podrá solicitar una cita en Atención Primaria con su médico/a de familia, pediatra, enfermero/a, trabajador/a social u odontólogo/a en centros de salud y consultorios."
+  }
+ ]
+}
+
+===== KART 6/64: None =====
+{
+ "term_id": "zaragoza:term:006",
+ "city_id": "zaragoza",
+ "term": "NIE (Número de Identidad de Extranjero)",
+ "definition": "Yabancı kimlik numarası. İspanya ile ekonomik, mesleki veya sosyal bağı olan yabancılar için Polis Genel Müdürlüğü'nden istenir.",
+ "source_ids": "zaragoza:kaynak:001",
+ "reviewed_on": "2026-11-02",
+ "order": 6,
+ "editorial_status": "Taslak",
+ "_sekme": "Sözlük",
+ "kaynaklar": [
+  {
+   "source_id": "zaragoza:kaynak:001",
+   "url": "https://sede.policia.gob.es/portalCiudadano/_es/tramites_extranjeria_tramite_asignacion_nie.php",
+   "publisher": "Dirección General de la Policía (Policía Nacional) - Sede electrónica",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_ulke_es/zaragoza_kaynak_001_es_kaynak_001.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-term-006-1",
+   "field": "definition",
+   "claim": "NIE atanması için Polis Genel Müdürlüğü'ne başvurulur",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:001",
+   "quote": "deberán interesar la asignación del Número de Identidad de Extranjero a la Dirección General de la Policía."
+  }
+ ]
+}
+
+===== KART 7/64: None =====
+{
+ "term_id": "zaragoza:term:007",
+ "city_id": "zaragoza",
+ "term": "Certificado de Registro de Ciudadano de la Unión Europea",
+ "definition": "AB veya AEA ülkesi vatandaşının, İspanya'da üç aydan uzun süre yaşayacağı durumda Merkezi Yabancılar Siciline kaydını belgeleyen belge.",
+ "source_ids": "zaragoza:kaynak:003",
+ "reviewed_on": "2026-11-02",
+ "order": 7,
+ "editorial_status": "Taslak",
+ "_sekme": "Sözlük",
+ "kaynaklar": [
+  {
+   "source_id": "zaragoza:kaynak:003",
+   "url": "https://sede.policia.gob.es/portalCiudadano/_es/tramites_extranjeria_tramite_certificadoregistro_ciudadanoue.php",
+   "publisher": "Dirección General de la Policía (Policía Nacional) - Sede electrónica",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_ulke_es/zaragoza_kaynak_003_es_kaynak_002.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-term-007-1",
+   "field": "definition",
+   "claim": "Belge, üç aydan uzun yaşayacak AB/AEA vatandaşının sicile kaydını belgeler",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:003",
+   "quote": "Es el documento que acredita la inscripción en el Registro Central de Extranjeros"
+  },
+  {
+   "claim_id": "C-term-007-2",
+   "field": "definition",
+   "claim": "Üç aydan uzun süre kalacaklar için",
+   "value": "3",
+   "unit": "ay",
+   "period": "",
+   "source_id": "zaragoza:kaynak:003",
+   "quote": "que van a residir en España por un periodo superior a tres meses"
+  }
+ ]
+}
+
+===== KART 8/64: None =====
+{
+ "term_id": "zaragoza:term:008",
+ "city_id": "zaragoza",
+ "term": "Oficina de Extranjería",
+ "definition": "Zaragoza'da Hükümet Delegasyonu'na bağlı yabancılık işleri bürosu. Adresi C/ Obispo Covarrubias, s/n, 50071; çalışma saatleri randevuya göre verilir.",
+ "source_ids": "zaragoza:kaynak:304",
+ "reviewed_on": "2026-11-02",
+ "order": 8,
+ "editorial_status": "Taslak",
+ "_sekme": "Sözlük",
+ "kaynaklar": [
+  {
+   "source_id": "zaragoza:kaynak:304",
+   "url": "https://www.zaragoza.es/sede/servicio/equipamiento/12574",
+   "publisher": "Ayuntamiento de Zaragoza",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_oturum/36cae0746848715b1b007a6da6a2a86c13017aae37e6a3be87d15f92cdccf2b3.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-term-008-1",
+   "field": "location",
+   "claim": "Zaragoza Oficina de Extranjería, Delegación del Gobierno",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:304",
+   "quote": "Oficina de Extranjería en Zaragoza (Delegación del Gobierno) Descargar: Datos Abiertos Otros Organismos Dirección: C/ Obispo Covarrubias, s/n - 50071 Teléfono"
+  },
+  {
+   "claim_id": "C-term-008-2",
+   "field": "location",
+   "claim": "Adres C/ Obispo Covarrubias, s/n - 50071",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:304",
+   "quote": "Dirección: C/ Obispo Covarrubias, s/n - 50071"
+  }
+ ]
+}
+
+===== KART 9/64: None =====
+{
+ "term_id": "zaragoza:term:009",
+ "city_id": "zaragoza",
+ "term": "Cl@ve Permanente",
+ "definition": "Devlet e-hizmetlerine sık girenler için kimlik doğrulama sistemi. Kullanıcı kodu (DNI ya da NIE) ve etkinleştirme sırasında belirlenen bir parola ile çalışır; kullanmak için önce sisteme kayıt olmak gerekir.",
+ "source_ids": "zaragoza:kaynak:025",
+ "reviewed_on": "2026-11-02",
+ "order": 9,
+ "editorial_status": "Taslak",
+ "_sekme": "Sözlük",
+ "kaynaklar": [
+  {
+   "source_id": "zaragoza:kaynak:025",
+   "url": "https://clave.gob.es/clave-permanente/que-es",
+   "publisher": "Gobierno de España - Cl@ve (clave.gob.es)",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_ulke_es/zaragoza_kaynak_025_es_kaynak_024.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-term-009-1",
+   "field": "definition",
+   "claim": "Cl@ve Permanente sık kullananlar için kimlik doğrulama sistemidir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:025",
+   "quote": "Es un sistema de autenticación diseñado para personas que necesitan acceder frecuentemente a los servicios electrónicos de la Administración."
+  },
+  {
+   "claim_id": "C-term-009-2",
+   "field": "definition",
+   "claim": "DNI/NIE ve parola ile çalışır; önce kayıt gerekir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:025",
+   "quote": "Se basa en el uso de un código de usuario, su DNI o NIE"
+  },
+  {
+   "claim_id": "C-term-009-3",
+   "field": "definition",
+   "claim": "Önce sisteme kayıt gerekir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:025",
+   "quote": "es necesario que previamente te hayas registrado en el sistema"
+  }
+ ]
+}
+
+===== KART 10/64: None =====
+{
+ "term_id": "zaragoza:term:010",
+ "city_id": "zaragoza",
+ "term": "Certificado electrónico (FNMT)",
+ "definition": "Kimlik kanıtlamalı elektronik sertifika. FNMT sayfasına göre kullanıcı sertifikası dört adımda alınır; kimliğini bir akreditasyon bürosunda kanıtladıktan yaklaşık bir saat sonra indirilir.",
+ "source_ids": "zaragoza:kaynak:027",
+ "reviewed_on": "2026-11-02",
+ "order": 10,
+ "editorial_status": "Taslak",
+ "_sekme": "Sözlük",
+ "kaynaklar": [
+  {
+   "source_id": "zaragoza:kaynak:027",
+   "url": "https://www.sede.fnmt.gob.es/certificados/persona-fisica/obtener-certificado-software",
+   "publisher": "Fábrica Nacional de Moneda y Timbre (FNMT)",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_ulke_es/zaragoza_kaynak_027_es_kaynak_025.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-term-010-1",
+   "field": "definition",
+   "claim": "Sertifika dört adımda alınır",
+   "value": "4",
+   "unit": "adım",
+   "period": "",
+   "source_id": "zaragoza:kaynak:027",
+   "quote": "El proceso de obtención del Certificado software (como archivo descargable) de usuario, se divide en cuatro pasos"
+  },
+  {
+   "claim_id": "C-term-010-2",
+   "field": "definition",
+   "claim": "Kimlik kanıtlandıktan yaklaşık 1 saat sonra indirilir",
+   "value": "1",
+   "unit": "saat",
+   "period": "",
+   "source_id": "zaragoza:kaynak:027",
+   "quote": "Aproximadamente 1 hora después de que hayas acreditado tu identidad en una Oficina de Acreditación"
+  }
+ ]
+}
+
+===== KART 11/64: None =====
+{
+ "term_id": "zaragoza:term:011",
+ "city_id": "zaragoza",
+ "term": "Tarjeta sanitaria",
+ "definition": "Aragón Sağlık Sistemi kullanıcısının sağlık hakkını belgeleyen kimlik kartı. Birinci basamakta randevu alabilmek için tarjeta sanitaria ya da eşdeğer belge gerekir.",
+ "source_ids": "zaragoza:kaynak:183;zaragoza:kaynak:185",
+ "reviewed_on": "2026-11-02",
+ "order": 11,
+ "editorial_status": "Taslak",
+ "_sekme": "Sözlük",
+ "kaynaklar": [
+  {
+   "source_id": "zaragoza:kaynak:183",
+   "url": "https://www.saludinforma.es/portalsi/servicios-prestaciones/derecho-tarjeta/tarjeta-sanitaria-en-aragon",
+   "publisher": "Salud Aragón (SaludInforma)",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_saglik/91b060d0ec12a1e557b0369b36ebc6bd9a9058fe06df236c0e2d9195cf43f066.txt"
+  },
+  {
+   "source_id": "zaragoza:kaynak:185",
+   "url": "https://www.aragon.es/tramitador/-/tramite/solicitud-cita-atencion-sanitaria-atencion-primaria",
+   "publisher": "Gobierno de Aragón",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_saglik/67167ca2fb7afae642157ff20f812b123db90b3f4940e3080a16ba4ba5a5efa5.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-term-011-1",
+   "field": "definition",
+   "claim": "Tarjeta sanitaria sağlık hakkını belgeleyen kimlik belgesidir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:183",
+   "quote": "La Tarjeta Sanitaria en Aragón constituye el documento identificativo y acreditativo del derecho de los usuarios del Sistema de Salud de Aragón a la protección de la salud"
+  },
+  {
+   "claim_id": "C-term-011-2",
+   "field": "definition",
+   "claim": "Randevu için tarjeta sanitaria veya eşdeğer belge gerekir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:185",
+   "quote": "Disponer de tarjeta sanitaria o documento acreditativo equivalente en la Comunidad Autónoma de Aragón."
+  }
+ ]
+}
+
+===== KART 12/64: None =====
+{
+ "term_id": "zaragoza:term:012",
+ "city_id": "zaragoza",
+ "term": "Centro de salud",
+ "definition": "Mahalle sağlık merkezi; birinci basamak sağlık hizmetinin verildiği yer. Aile doktoru, çocuk doktoru ve hemşire randevuları centro de salud ve consultorio'larda alınır. Merkezin olağan saatleri dışındaki acil ihtiyaçlar için ayrı kaynaklar vardır.",
+ "source_ids": "zaragoza:kaynak:185;zaragoza:kaynak:190",
+ "reviewed_on": "2026-11-02",
+ "order": 12,
+ "editorial_status": "Taslak",
+ "_sekme": "Sözlük",
+ "kaynaklar": [
+  {
+   "source_id": "zaragoza:kaynak:185",
+   "url": "https://www.aragon.es/tramitador/-/tramite/solicitud-cita-atencion-sanitaria-atencion-primaria",
+   "publisher": "Gobierno de Aragón",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_saglik/67167ca2fb7afae642157ff20f812b123db90b3f4940e3080a16ba4ba5a5efa5.txt"
+  },
+  {
+   "source_id": "zaragoza:kaynak:190",
+   "url": "https://www.saludinforma.es/portalsi/punto-de-atencion-a-la-demanda-urgente-en-atencion-primaria-duap",
+   "publisher": "Salud Aragón (SaludInforma)",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_saglik/f93f289ad23244fee2dfebb78b0a547e1327093478cdea0180a6746b17c6263f.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-term-012-1",
+   "field": "definition",
+   "claim": "Birinci basamak randevuları centro de salud ve consultorio'larda",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:185",
+   "quote": "médico/a de familia, pediatra, enfermero/a, trabajador/a social u odontólogo/a en centros de salud y consultorios."
+  },
+  {
+   "claim_id": "C-term-012-2",
+   "field": "definition",
+   "claim": "Merkezin olağan saatleri dışında acil bakım için iki kaynak var",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:190",
+   "quote": "Si necesitas asistencia sanitaria urgente fuera del horario habitual de tu centro de salud tienes dos recursos sanitarios"
+  }
+ ]
+}
+
+===== KART 13/64: None =====
+{
+ "term_id": "zaragoza:term:013",
+ "city_id": "zaragoza",
+ "term": "Médico de familia y pediatra (aile doktoru, çocuk doktoru)",
+ "definition": "Birinci basamak sağlıkta sana atanan doktorlar. Randevu bu doktorlarla alınır; kaynakta bunları değiştirmek için ayrı bir başvuru sayfası (Cambio de médico de familia o de pediatra) var.",
+ "source_ids": "zaragoza:kaynak:185;zaragoza:kaynak:184",
+ "reviewed_on": "2026-11-02",
+ "order": 13,
+ "editorial_status": "Taslak",
+ "_sekme": "Sözlük",
+ "kaynaklar": [
+  {
+   "source_id": "zaragoza:kaynak:185",
+   "url": "https://www.aragon.es/tramitador/-/tramite/solicitud-cita-atencion-sanitaria-atencion-primaria",
+   "publisher": "Gobierno de Aragón",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_saglik/67167ca2fb7afae642157ff20f812b123db90b3f4940e3080a16ba4ba5a5efa5.txt"
+  },
+  {
+   "source_id": "zaragoza:kaynak:184",
+   "url": "https://www.aragon.es/tramitador/-/tramite/solicitud-cambio-medico-familia-pediatra",
+   "publisher": "Gobierno de Aragón",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_saglik/5f0385916a6f7ee175a29e80927d9dde0bda6af2a87b49ab1f0dcfad8ea2e3fd.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-term-013-1",
+   "field": "definition",
+   "claim": "Randevu aile doktoru, çocuk doktoru ile alınır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:185",
+   "quote": "podrá solicitar una cita en Atención Primaria con su médico/a de familia, pediatra"
+  },
+  {
+   "claim_id": "C-term-013-2",
+   "field": "definition",
+   "claim": "Aile doktoru / çocuk doktoru değiştirme başvurusu var",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:184",
+   "quote": "Cambio de médico de familia o de pediatra Trámite Nº700"
+  }
+ ]
+}
+
+===== KART 14/64: None =====
+{
+ "term_id": "zaragoza:term:014",
+ "city_id": "zaragoza",
+ "term": "Libre elección de médico",
+ "definition": "Birinci basamakta (aile doktoru, çocuk doktoru) ve uzman hekimlikte doktor seçme hakkı. Hak, centro de salud üzerinden kullanılır.",
+ "source_ids": "zaragoza:kaynak:186",
+ "reviewed_on": "2026-11-02",
+ "order": 14,
+ "editorial_status": "Taslak",
+ "_sekme": "Sözlük",
+ "kaynaklar": [
+  {
+   "source_id": "zaragoza:kaynak:186",
+   "url": "https://www.saludinforma.es/portalsi/bioetica-salud/libre-eleccion-de-medico",
+   "publisher": "Salud Aragón (SaludInforma)",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_saglik/822a935362748584f1303416c8729a2aa5fff5912833649452c49316c5b311c6.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-term-014-1",
+   "field": "definition",
+   "claim": "Doktor seçme hakkı centro de salud üzerinden kullanılır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:186",
+   "quote": "La libre elección en Atención Primaria (médico de familia y pediatra) y en Atención Especializada es un derecho de los ciudadanos que puede ejercerse en los Centros de Salud."
+  }
+ ]
+}
+
+===== KART 15/64: None =====
+{
+ "term_id": "zaragoza:term:015",
+ "city_id": "zaragoza",
+ "term": "SALUD (Servicio Aragonés de Salud)",
+ "definition": "Aragón'un bölgesel sağlık kurumu. 061 Aragón acil hizmeti SALUD'a bağlıdır; birinci basamak ve hastane hizmetleri bu sistemin içindedir.",
+ "source_ids": "zaragoza:kaynak:192",
+ "reviewed_on": "2026-11-02",
+ "order": 15,
+ "editorial_status": "Taslak",
+ "_sekme": "Sözlük",
+ "kaynaklar": [
+  {
+   "source_id": "zaragoza:kaynak:192",
+   "url": "https://www.aragon.es/sanidad-profesionales/centros-sanitarios/061-aragon-urgencias-y-emergencias-anitarias",
+   "publisher": "Gobierno de Aragón",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_saglik/cec7ed16e3dbf76d20f4f5c1167e042fce9cc3c405833fab11d2a28b8a10527a.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-term-015-1",
+   "field": "definition",
+   "claim": "061 Aragón, Servicio Aragonés de Salud'un acil hizmetidir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:192",
+   "quote": "Urgencias y emergencias sanitarias del Servicio Aragonés de Salud"
+  },
+  {
+   "claim_id": "C-term-015-2",
+   "field": "definition",
+   "claim": "061 Aragón SALUD'a bağlıdır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:192",
+   "quote": "es una institución de ámbito autonómico dependiente del SALUD"
+  }
+ ]
+}
+
+===== KART 16/64: None =====
+{
+ "term_id": "zaragoza:term:016",
+ "city_id": "zaragoza",
+ "term": "061 Aragón",
+ "definition": "Aragón'un sağlık acil ve acil durum hizmeti. Gün boyu, yılın her günü yanıt vermek için kurulmuş bölgesel bir kurumdur.",
+ "source_ids": "zaragoza:kaynak:192",
+ "reviewed_on": "2026-11-02",
+ "order": 16,
+ "editorial_status": "Taslak",
+ "_sekme": "Sözlük",
+ "kaynaklar": [
+  {
+   "source_id": "zaragoza:kaynak:192",
+   "url": "https://www.aragon.es/sanidad-profesionales/centros-sanitarios/061-aragon-urgencias-y-emergencias-anitarias",
+   "publisher": "Gobierno de Aragón",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_saglik/cec7ed16e3dbf76d20f4f5c1167e042fce9cc3c405833fab11d2a28b8a10527a.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-term-016-1",
+   "field": "definition",
+   "claim": "061 Aragón 24 saat, yılın 365 günü yanıt verir",
+   "value": "24 saat / 365 gün",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:192",
+   "quote": "dar respuesta, las 24 horas del día y los 365 días del año"
+  }
+ ]
+}
+
+===== KART 17/64: None =====
+{
+ "term_id": "zaragoza:term:017",
+ "city_id": "zaragoza",
+ "term": "DUAP (Urgencias de Atención Primaria)",
+ "definition": "Sağlık merkezinin olağan saatleri dışında, hayati olmayan acil durumlar için birinci basamak acil merkezi. Hayati acillerde hastane acili tercih edilir.",
+ "source_ids": "zaragoza:kaynak:190",
+ "reviewed_on": "2026-11-02",
+ "order": 17,
+ "editorial_status": "Taslak",
+ "_sekme": "Sözlük",
+ "kaynaklar": [
+  {
+   "source_id": "zaragoza:kaynak:190",
+   "url": "https://www.saludinforma.es/portalsi/punto-de-atencion-a-la-demanda-urgente-en-atencion-primaria-duap",
+   "publisher": "Salud Aragón (SaludInforma)",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_saglik/f93f289ad23244fee2dfebb78b0a547e1327093478cdea0180a6746b17c6263f.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-term-017-1",
+   "field": "definition",
+   "claim": "Hayati olmayan acil için birinci basamak acil merkezleri; hayati acil için hastane acili",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:190",
+   "quote": "lo más adecuado es que te atiendan en los nuevos centros de Urgencias de Atención Primaria"
+  },
+  {
+   "claim_id": "C-term-017-2",
+   "field": "definition",
+   "claim": "Hayati durumlarda hastane acili",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:190",
+   "quote": "puedes acudir a las urgencias hospitalarias"
+  }
+ ]
+}
+
+===== KART 18/64: None =====
+{
+ "term_id": "zaragoza:term:018",
+ "city_id": "zaragoza",
+ "term": "Convenio especial (sağlık sözleşmesi)",
+ "definition": "Sağlık sisteminin hiçbir hak sahibi sıfatıyla kapsamadığı kişilerin, ekonomik karşılık ödeyerek sağlık hizmetine erişmesini sağlayan yöntem. Kaynakta, İspanya'da fiilen belirli bir süre kesintisiz ikamet etmiş olmak da şart olarak sayılıyor.",
+ "source_ids": "zaragoza:kaynak:194",
+ "reviewed_on": "2026-11-02",
+ "order": 18,
+ "editorial_status": "Taslak",
+ "_sekme": "Sözlük",
+ "kaynaklar": [
+  {
+   "source_id": "zaragoza:kaynak:194",
+   "url": "https://www.saludinforma.es/portalsi/servicios-prestaciones/convenio-especial-prestacion-asistencia-sanitaria",
+   "publisher": "Salud Aragón (SaludInforma)",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_saglik/9686ed9553158ce087356c13c6cb09a975928671839ed668fa95ee01082d4218.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-term-018-1",
+   "field": "definition",
+   "claim": "Convenio especial ücret karşılığı sağlık erişim yoludur",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:194",
+   "quote": "El convenio especial es una forma de acceso a las prestaciones de asistencia sanitaria mediante el pago de una contraprestación económica."
+  },
+  {
+   "claim_id": "C-term-018-2",
+   "field": "definition",
+   "claim": "Sistemde hiçbir sıfatla sigortalı/yararlanıcı olmayanlar başvurabilir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:194",
+   "quote": "No tienen la condición de aseguradas ni beneficiarias del Sistema Nacional de Salud por ningún título."
+  },
+  {
+   "claim_id": "C-term-018-3",
+   "field": "definition",
+   "claim": "Belirli süre kesintisiz fiili ikamet şartı",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:194",
+   "quote": "Acrediten la residencia efectiva en España durante un periodo continuado"
+  }
+ ]
+}
+
+===== KART 19/64: None =====
+{
+ "term_id": "zaragoza:term:019",
+ "city_id": "zaragoza",
+ "term": "Farmacia de guardia (nöbetçi eczane)",
+ "definition": "Nöbetçi eczane. Zaragoza Belediyesi sayfası günün nöbetçi eczanelerini adres, telefon, nöbet saatleri ve nöbet sırasıyla listeler.",
+ "source_ids": "zaragoza:kaynak:193",
+ "reviewed_on": "2026-11-02",
+ "order": 19,
+ "editorial_status": "Taslak",
+ "_sekme": "Sözlük",
+ "kaynaklar": [
+  {
+   "source_id": "zaragoza:kaynak:193",
+   "url": "https://www.zaragoza.es/sede/servicio/farmacia/",
+   "publisher": "Ayuntamiento de Zaragoza",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_saglik/2f5392675f35fc3a223f1c92bbdae0af3acec7d3ab89d1e59a256c9cd3e91887.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-term-019-1",
+   "field": "definition",
+   "claim": "Liste eczane adı, telefon, adres ve nöbet saatini verir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:193",
+   "quote": "De Guardia Farmacia Torres Ferrandez - Torres Ferrandez CB Teléfono: 976270929 C/ Zafiro, 1 Horario de guardia"
+  }
+ ]
+}
+
+===== KART 20/64: None =====
+{
+ "term_id": "zaragoza:term:020",
+ "city_id": "zaragoza",
+ "term": "INAEM",
+ "definition": "Aragón İstihdam Kurumu (Instituto Aragonés de Empleo). İş arayan olarak kayıt, kurumun tüm hizmetlerine erişimin ilk adımıdır.",
+ "source_ids": "zaragoza:kaynak:199;zaragoza:kaynak:200",
+ "reviewed_on": "2026-11-02",
+ "order": 20,
+ "editorial_status": "Taslak",
+ "_sekme": "Sözlük",
+ "kaynaklar": [
+  {
+   "source_id": "zaragoza:kaynak:199",
+   "url": "https://www.aragon.es/tramitador/-/tramite/demanda-de-empleo-en-el-instituto-aragones-de-empleo-inaem/inscripcion-como-demandante-de-empleo",
+   "publisher": "INAEM (Gobierno de Aragón)",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_is/3ab4d7a5c993582d45fe94e63751524c283a07c61ee3e9ac5ad9e178316997dc.txt"
+  },
+  {
+   "source_id": "zaragoza:kaynak:200",
+   "url": "https://inaem.aragon.es/en/inscripcion-de-la-demanda",
+   "publisher": "INAEM (Gobierno de Aragón)",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_is/3bc85f1f9cb329d62fd8fde5804c46b59d553ddbca911005ac271eccd9623bc7.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-term-020-1",
+   "field": "definition",
+   "claim": "INAEM = Instituto Aragonés de Empleo",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:199",
+   "quote": "Demanda de empleo en el Instituto Aragonés de Empleo (INAEM)"
+  },
+  {
+   "claim_id": "C-term-020-2",
+   "field": "definition",
+   "claim": "Kayıt INAEM hizmetlerine erişimin ön adımıdır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:200",
+   "quote": "es el paso previo para acceder a todos los servicios del INAEM"
+  }
+ ]
+}
+
+===== KART 21/64: None =====
+{
+ "term_id": "zaragoza:term:021",
+ "city_id": "zaragoza",
+ "term": "Demanda de empleo (iş arayan kaydı)",
+ "definition": "İş arayan olarak kayıt. Her zaman gönüllüdür; işsizlik ödeneği alanlar için zorunludur. Ücretsizdir.",
+ "source_ids": "zaragoza:kaynak:200",
+ "reviewed_on": "2026-11-02",
+ "order": 21,
+ "editorial_status": "Taslak",
+ "_sekme": "Sözlük",
+ "kaynaklar": [
+  {
+   "source_id": "zaragoza:kaynak:200",
+   "url": "https://inaem.aragon.es/en/inscripcion-de-la-demanda",
+   "publisher": "INAEM (Gobierno de Aragón)",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_is/3bc85f1f9cb329d62fd8fde5804c46b59d553ddbca911005ac271eccd9623bc7.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-term-021-1",
+   "field": "definition",
+   "claim": "Kayıt gönüllü; işsizlik ödeneği alanlar için zorunlu; ücretsiz",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:200",
+   "quote": "Esta inscripción que es siempre voluntaria, a excepción de las personas perceptoras de prestaciones por desempleo para quienes es un trámite obligatorio, es gratuita."
+  }
+ ]
+}
+
+===== KART 22/64: None =====
+{
+ "term_id": "zaragoza:term:022",
+ "city_id": "zaragoza",
+ "term": "DARDE",
+ "definition": "Documento Acreditativo del Alta y Renovación de la Demanda. İş arayan olarak kayıttan sonra verilen, kaydın durumunu yönetmek ve yenilemek için gereken belge.",
+ "source_ids": "zaragoza:kaynak:201",
+ "reviewed_on": "2026-11-02",
+ "order": 22,
+ "editorial_status": "Taslak",
+ "_sekme": "Sözlük",
+ "kaynaklar": [
+  {
+   "source_id": "zaragoza:kaynak:201",
+   "url": "https://www.aragon.es/momentos-vitales/buscar-o-mejorar-el-empleo/busqueda-de-empleo",
+   "publisher": "Gobierno de Aragón",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_is/1227543d26ab0d4d32a2a9d713cc6bc3405c78cc9b4950fe7ee3114b06ff99e8.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-term-022-1",
+   "field": "definition",
+   "claim": "DARDE kayıttan sonra verilir; durumu yönetmek ve yenilemek için gerekir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:201",
+   "quote": "se te entregará el DARDE (Documento Acreditativo del Alta y Renovación de la Demanda), necesario para gestionar el estatus de la demanda de empleo y para realizar la renovación"
+  }
+ ]
+}
+
+===== KART 23/64: None =====
+{
+ "term_id": "zaragoza:term:023",
+ "city_id": "zaragoza",
+ "term": "IBI (Impuesto sobre Bienes Inmuebles)",
+ "definition": "Taşınmaz mülkiyeti vergisi. Kentsel, kırsal ve özel nitelikli taşınmazlar üzerindeki bazı hakların sahipliğini vergilendirir.",
+ "source_ids": "zaragoza:kaynak:168",
+ "reviewed_on": "2026-11-02",
+ "order": 23,
+ "editorial_status": "Taslak",
+ "_sekme": "Sözlük",
+ "kaynaklar": [
+  {
+   "source_id": "zaragoza:kaynak:168",
+   "url": "https://www.zaragoza.es/sede/servicio/tramite/4027",
+   "publisher": "Ayuntamiento de Zaragoza",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_para/93ac9741f0ffdd66d8ba2150a40f17f3d7ac87e2318711bd7ce2b808a2b9f694.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-term-023-1",
+   "field": "definition",
+   "claim": "IBI taşınmazlar üzerindeki bazı hakların sahipliğini vergilendirir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:168",
+   "quote": "El Impuesto sobre Bienes Inmuebles grava la titularidad de alguno de los siguientes derechos sobre los bienes inmuebles rústicos y urbanos"
+  }
+ ]
+}
+
+===== KART 24/64: None =====
+{
+ "term_id": "zaragoza:term:024",
+ "city_id": "zaragoza",
+ "term": "IVTM (Impuesto de Vehículos de Tracción Mecánica)",
+ "definition": "Motorlu taşıt vergisi. Karayolunda dolaşmaya elverişli taşıtların sahipliğini vergilendirir; sicile kayıtlı ve kaydı silinmemiş taşıt dolaşmaya elverişli sayılır.",
+ "source_ids": "zaragoza:kaynak:169",
+ "reviewed_on": "2026-11-02",
+ "order": 24,
+ "editorial_status": "Taslak",
+ "_sekme": "Sözlük",
+ "kaynaklar": [
+  {
+   "source_id": "zaragoza:kaynak:169",
+   "url": "https://www.zaragoza.es/sede/servicio/tramite/3921",
+   "publisher": "Ayuntamiento de Zaragoza",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_para/94e617352502861347bdcad91c1a6f87935fb128cb8ddee2584b94b9e580620b.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-term-024-1",
+   "field": "definition",
+   "claim": "IVTM dolaşmaya elverişli taşıtların sahipliğini vergilendirir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:169",
+   "quote": "El Impuesto sobre Vehículos de Tracción Mecánica grava la titularidad de los vehículos de esta naturaleza, aptos para circular por las vías públicas, cualesquiera que sean su clase y categoría."
+  },
+  {
+   "claim_id": "C-term-024-2",
+   "field": "definition",
+   "claim": "Kayıtlı ve kaydı silinmemiş taşıt dolaşmaya elverişli sayılır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:169",
+   "quote": "Se considerará vehículo apto para la circulación el que hubiere sido matriculado en los registros públicos correspondientes y mientras no haya causado baja en los mismos."
+  }
+ ]
+}
+
+===== KART 25/64: None =====
+{
+ "term_id": "zaragoza:term:025",
+ "city_id": "zaragoza",
+ "term": "Tasa de Aguas, Vertidos y Basuras",
+ "definition": "Zaragoza'da su, atık su ve çöp hizmeti için ödenen belediye harcı. Büyük aileler ve altıdan fazla kişinin yaşadığı hanelerde, kurala göre bonifiye Tarife 3 (kişi başına) istenebilir.",
+ "source_ids": "zaragoza:kaynak:158",
+ "reviewed_on": "2026-11-02",
+ "order": 25,
+ "editorial_status": "Taslak",
+ "_sekme": "Sözlük",
+ "kaynaklar": [
+  {
+   "source_id": "zaragoza:kaynak:158",
+   "url": "https://www.zaragoza.es/sede/servicio/tramite/39064",
+   "publisher": "Ayuntamiento de Zaragoza",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_fatura/9a7e8e1611513f764eece8535e53e2af80041cdb425d1a4b6ca6c38c49d72e5f.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-term-025-1",
+   "field": "definition",
+   "claim": "Su, atık su ve çöp harcı için bonifiye tarife başvurusu var",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:158",
+   "quote": "Puede solicitar la aplicación de tarifas bonificadas a la Tasa de Aguas, Vertidos y Basuras en los siguientes casos"
+  },
+  {
+   "claim_id": "C-term-025-2",
+   "field": "definition",
+   "claim": "Büyük aileler Tarife 3 isteyebilir; 6'dan fazla kişi yaşayan konutlar da",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:158",
+   "quote": "Familias numerosas: Los titulares del servicio que formen parte de familias numerosas pueden solicitar la aplicación de la Tarifa 3, bonificada para usos domésticos \"per cápita\""
+  },
+  {
+   "claim_id": "C-term-025-3",
+   "field": "definition",
+   "claim": "6'dan fazla kişi yaşayan konut Tarife 3 isteyebilir",
+   "value": "6",
+   "unit": "kişi",
+   "period": "",
+   "source_id": "zaragoza:kaynak:158",
+   "quote": "En el caso de domicilios cohabitados por más de seis personas, los titulares del servicio pueden solicitar la Tarifa 3"
+  }
+ ]
+}
+
+===== KART 26/64: None =====
+{
+ "term_id": "zaragoza:term:026",
+ "city_id": "zaragoza",
+ "term": "Cambio de titular (agua)",
+ "definition": "Su aboneliğinin yeni kullanıcı adına geçirilmesi. Sayaç okuması verilirse değişiklik anında yapılır.",
+ "source_ids": "zaragoza:kaynak:154",
+ "reviewed_on": "2026-11-02",
+ "order": 26,
+ "editorial_status": "Taslak",
+ "_sekme": "Sözlük",
+ "kaynaklar": [
+  {
+   "source_id": "zaragoza:kaynak:154",
+   "url": "https://www.zaragoza.es/sede/servicio/tramite/3",
+   "publisher": "Ayuntamiento de Zaragoza",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_fatura/f26125c7344debc019efad6049a99b408b430d6954b2c4a9625cf2c1701f942e.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-term-026-1",
+   "field": "definition",
+   "claim": "Önceki kullanıcı adına olan sudan yeni kullanıcı için abonelik başvurusu",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:154",
+   "quote": "Procedimiento para solicitar el alta en los servicios de abastecimiento y saneamiento de agua potable de nuevo usuario"
+  },
+  {
+   "claim_id": "C-term-026-2",
+   "field": "definition",
+   "claim": "Sayaç okuması verilirse değişiklik anında",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:154",
+   "quote": "Si se facilita la lectura del contador, el cambio es inmediato"
+  }
+ ]
+}
+
+===== KART 27/64: None =====
+{
+ "term_id": "zaragoza:term:027",
+ "city_id": "zaragoza",
+ "term": "Bono social térmico",
+ "definition": "En savunmasız tüketicilerin ısıtma, sıcak su ve mutfak giderlerini karşılamak için ayrılan yardım programı. Kaynağa göre bono social eléctrico yararlanıcıları için tasarlanmıştır.",
+ "source_ids": "zaragoza:kaynak:164",
+ "reviewed_on": "2026-11-02",
+ "order": 27,
+ "editorial_status": "Taslak",
+ "_sekme": "Sözlük",
+ "kaynaklar": [
+  {
+   "source_id": "zaragoza:kaynak:164",
+   "url": "https://www.aragon.es/-/bono-social-termico-en-aragon",
+   "publisher": "Gobierno de Aragón",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_fatura/72c3009c9b5251c675bf3614ea99f2f2e2ac81db0b6d0572dcc70f41bc5bf829.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-term-027-1",
+   "field": "definition",
+   "claim": "Isıtma, sıcak su ve mutfak giderlerini karşılayan yardım programı",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:164",
+   "quote": "El bono social térmico es un programa de ayudas destinado a compensar los gastos de calefacción, agua caliente y cocina"
+  },
+  {
+   "claim_id": "C-term-027-2",
+   "field": "definition",
+   "claim": "Bono social eléctrico yararlanıcıları için",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:164",
+   "quote": "pensado para todos aquellos consumidores que son beneficiarios del bono social eléctrico"
+  }
+ ]
+}
+
+===== KART 28/64: None =====
+{
+ "term_id": "zaragoza:term:028",
+ "city_id": "zaragoza",
+ "term": "Ayudas de urgente necesidad",
+ "definition": "Birincil ihtiyaçlarını karşılayacak geliri olmayanlara verilen, dönemsel olmayan acil ekonomik yardım. Konut, gıda, elektrik, gaz, temel eşya gibi giderler kapsama girer.",
+ "source_ids": "zaragoza:kaynak:167",
+ "reviewed_on": "2026-11-02",
+ "order": 28,
+ "editorial_status": "Taslak",
+ "_sekme": "Sözlük",
+ "kaynaklar": [
+  {
+   "source_id": "zaragoza:kaynak:167",
+   "url": "https://www.zaragoza.es/sede/servicio/tramite/113",
+   "publisher": "Ayuntamiento de Zaragoza",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_fatura/afdafe4ace0cdbfde250438e576aff31dab50f058b6f8cade47a029a5f5beec0.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-term-028-1",
+   "field": "definition",
+   "claim": "Düzensiz ekonomik yardım; kaynakları yetersiz kişilere",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:167",
+   "quote": "Son prestaciones económicas no periódicas destinadas a aquellas personas cuyos recursos resulten insuficientes"
+  },
+  {
+   "claim_id": "C-term-028-2",
+   "field": "definition",
+   "claim": "Konut, gıda, elektrik, gaz vb. ihtiyaçlar kapsanır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:167",
+   "quote": "Entre estas necesidades se incluyen la vivienda, la alimentación, luz, gas, electrodomésticos, mobiliario básico"
+  }
+ ]
+}
+
+===== KART 29/64: None =====
+{
+ "term_id": "zaragoza:term:029",
+ "city_id": "zaragoza",
+ "term": "Prestación Aragonesa Complementaria del IMV",
+ "definition": "Aragón Hükümeti'nin, Ingreso Mínimo Vital'e ek olarak verdiği düzenli ekonomik sosyal yardım. Temel ihtiyaçlarını karşılayacak yeterli geliri olmayanlar için bir hak olarak tanımlanır.",
+ "source_ids": "zaragoza:kaynak:178",
+ "reviewed_on": "2026-11-02",
+ "order": 29,
+ "editorial_status": "Taslak",
+ "_sekme": "Sözlük",
+ "kaynaklar": [
+  {
+   "source_id": "zaragoza:kaynak:178",
+   "url": "https://www.aragon.es/-/informacion-sobre-la-prestacion-aragonesa-complementaria-al-ingreso-minimo-vital",
+   "publisher": "Gobierno de Aragón",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_para/fd065db08152becdfbbfcfb41e763000470260bbc4dc916edeb56843cadcef0b.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-term-029-1",
+   "field": "definition",
+   "claim": "Düzenli ekonomik sosyal yardım; yetersiz gelirliler için hak",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:178",
+   "quote": "La prestación aragonesa complementaria es una ayuda económica periódica de carácter social, que se configura como un derecho para las personas que carezcan de ingresos suficientes"
+  }
+ ]
+}
+
+===== KART 30/64: None =====
+{
+ "term_id": "zaragoza:term:030",
+ "city_id": "zaragoza",
+ "term": "Centro Municipal de Servicios Sociales",
+ "definition": "Belediyenin sosyal hizmet merkezleri. Sosyal hizmetlere randevuyla (cita previa) gidilir; kayıtlı kişiler Z-Social uygulamasıyla ödeneklerine bakabilir ve randevu oluşturup iptal edebilir.",
+ "source_ids": "zaragoza:kaynak:346;zaragoza:kaynak:176",
+ "reviewed_on": "2026-11-02",
+ "order": 30,
+ "editorial_status": "Taslak",
+ "_sekme": "Sözlük",
+ "kaynaklar": [
+  {
+   "source_id": "zaragoza:kaynak:346",
+   "url": "https://www.zaragoza.es/sede/servicio/equipamiento/category/105",
+   "publisher": "Ayuntamiento de Zaragoza",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_ev-editor1/3f54c5fb6bcc80e6029c9cf8bf403a04a0e5111cacb4aac20056e5ed3720c2bf.txt"
+  },
+  {
+   "source_id": "zaragoza:kaynak:176",
+   "url": "https://www.zaragoza.es/sede/portal/tramites-servicios/servicio/tramite/materia/3340",
+   "publisher": "Ayuntamiento de Zaragoza",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_para/1fadfdb52fb132fe414e75f60e82b069ce781c0db3bf3b4cbc334007d940eb95.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-term-030-1",
+   "field": "definition",
+   "claim": "Z-Social: kayıtlı kişiler ödeneklerine bakar, randevu alır/iptal eder",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:346",
+   "quote": "Z-Social. Aplicación dirigida a personas ya registradas en los servicios sociales comunitarios, permite: Consultar sus prestaciones. Crear/anular citas."
+  },
+  {
+   "claim_id": "C-term-030-2",
+   "field": "definition",
+   "claim": "Sosyal hizmetlere randevu (cita previa) ile erişilir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:176",
+   "quote": "Acceso con Cita Previa a los Servicios Sociales"
+  },
+  {
+   "claim_id": "C-term-030-3",
+   "field": "definition",
+   "claim": "Belediye sosyal hizmet merkezleri listesi",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:346",
+   "quote": "Centros Municipales de Servicios Sociales"
+  }
+ ]
+}
+
+===== KART 31/64: None =====
+{
+ "term_id": "zaragoza:term:031",
+ "city_id": "zaragoza",
+ "term": "ALZA (Alquila Zaragoza)",
+ "definition": "Zaragoza Vivienda'nın kiralık konut piyasasını canlandırmak için yürüttüğü program. Ev sahibine kira tahsilatı güvencesi, kiracıya uygun fiyat sağlamayı amaçlar.",
+ "source_ids": "zaragoza:kaynak:135",
+ "reviewed_on": "2026-11-02",
+ "order": 31,
+ "editorial_status": "Taslak",
+ "_sekme": "Sözlük",
+ "kaynaklar": [
+  {
+   "source_id": "zaragoza:kaynak:135",
+   "url": "https://www.zaragoza.es/sede/servicio/tramite/37056",
+   "publisher": "Ayuntamiento de Zaragoza",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_ev/1d0f70f3807ce380400c389cf487fd46e2889987e80ed009c89c6d37ad2c73c6.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-term-031-1",
+   "field": "definition",
+   "claim": "ALZA ev sahibine güvence, kiracıya uygun fiyat sağlar",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:135",
+   "quote": "Zaragoza Vivienda impulsa el programa Alquila Zaragoza (ALZA)"
+  },
+  {
+   "claim_id": "C-term-031-2",
+   "field": "definition",
+   "claim": "Ev sahibine kira tahsilatı ve yönetim güvencesi",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:135",
+   "quote": "ALZA garantiza a los propietarios el cobro y la gestión integral de su vivienda"
+  },
+  {
+   "claim_id": "C-term-031-3",
+   "field": "definition",
+   "claim": "Kiracılara uygun fiyat",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:135",
+   "quote": "ofrecer seguridad a los propietarios y precios asequibles a los inquilinos"
+  }
+ ]
+}
+
+===== KART 32/64: None =====
+{
+ "term_id": "zaragoza:term:032",
+ "city_id": "zaragoza",
+ "term": "Oficina Municipal de Vivienda",
+ "definition": "Zaragoza Vivienda'nın konut bürosu. Adresi San Pablo, 48 - 50003.",
+ "source_ids": "zaragoza:kaynak:138",
+ "reviewed_on": "2026-11-02",
+ "order": 32,
+ "editorial_status": "Taslak",
+ "_sekme": "Sözlük",
+ "kaynaklar": [
+  {
+   "source_id": "zaragoza:kaynak:138",
+   "url": "https://www.zaragoza.es/sede/servicio/equipamiento/20765",
+   "publisher": "Ayuntamiento de Zaragoza",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_ev/5926e8e1b6f2d76fe471bc153a3ee21dc1d54fdb17b731e3843853ee1cd9792f.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-term-032-1",
+   "field": "location",
+   "claim": "Adres: San Pablo, 48 - 50003",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:138",
+   "quote": "Oficina Municipal de Vivienda Descargar: Datos Abiertos Vivienda Dirección: San Pablo, 48 - 50003"
+  }
+ ]
+}
+
+===== KART 33/64: None =====
+{
+ "term_id": "zaragoza:term:033",
+ "city_id": "zaragoza",
+ "term": "Fianza de alquiler (kira depozitosu)",
+ "definition": "Kiracının sözleşme imzalanırken ev sahibine verdiği, sözleşme yükümlülüklerini güvenceye alan para. Kaynağa göre kentsel kira kanunu kapsamındaki bütün kiralarda zorunludur.",
+ "source_ids": "zaragoza:kaynak:142",
+ "reviewed_on": "2026-11-02",
+ "order": 33,
+ "editorial_status": "Taslak",
+ "_sekme": "Sözlük",
+ "kaynaklar": [
+  {
+   "source_id": "zaragoza:kaynak:142",
+   "url": "https://www.aragon.es/-/contrato-de-alquiler-y-fianzas",
+   "publisher": "Gobierno de Aragón",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_ev/73095394d813ba8bc45b0be9181311334ac7db17fc8cf79a14902bc1569d2c76.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-term-033-1",
+   "field": "definition",
+   "claim": "Fianza kiracının ev sahibine sözleşme sırasında verdiği paradır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:142",
+   "quote": "La fianza es una cantidad de dinero que la persona arrendataria debe entregar a la arrendadora en el momento"
+  },
+  {
+   "claim_id": "C-term-033-2",
+   "field": "definition",
+   "claim": "Sözleşme yükümlülüklerini güvenceler",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:142",
+   "quote": "para garantizar el cumplimiento de las obligaciones de dicho contrato."
+  },
+  {
+   "claim_id": "C-term-033-3",
+   "field": "definition",
+   "claim": "Fianza Ley 29/1994 kapsamındaki tüm kiralarda zorunlu",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:142",
+   "quote": "La fianza es obligatoria en todos los arrendamientos sujetos a la Ley 29/1994 de Arrendamientos Urbanos"
+  }
+ ]
+}
+
+===== KART 34/64: None =====
+{
+ "term_id": "zaragoza:term:034",
+ "city_id": "zaragoza",
+ "term": "Bono Alquiler Joven",
+ "definition": "Aragón'da kiraya destek veren genç kira bonusu. Başvuru 36 yaşından küçükler içindir.",
+ "source_ids": "zaragoza:kaynak:146",
+ "reviewed_on": "2026-11-02",
+ "order": 34,
+ "editorial_status": "Taslak",
+ "_sekme": "Sözlük",
+ "kaynaklar": [
+  {
+   "source_id": "zaragoza:kaynak:146",
+   "url": "https://www.aragon.es/tramitador/-/tramite/bono-alquiler-joven-en-la-comunidad-autonoma-de-aragon",
+   "publisher": "Gobierno de Aragón",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_ev/501722afbd5c880bb4417188099aecb28520b9953e17dd8b477a845b050af3b9.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-term-034-1",
+   "field": "definition",
+   "claim": "Aragón'da 36 yaşından küçükler için kira yardımı",
+   "value": "36",
+   "unit": "yaş",
+   "period": "",
+   "source_id": "zaragoza:kaynak:146",
+   "quote": "se puede presentar una solicitud para optar al bono de alquiler joven en la Comunidad Autónoma de Aragón para ayudas al alquiler para personas aragonesas menores de 36 años"
+  }
+ ]
+}
+
+===== KART 35/64: None =====
+{
+ "term_id": "zaragoza:term:035",
+ "city_id": "zaragoza",
+ "term": "Tarjeta Ciudadana",
+ "definition": "Zaragoza'da kayıtlı (empadronado) herkes için belediyenin şahsi ve devredilemez kartı; yalnız ad ve fotoğraf içerir. Ön ödemeli kart 1.000'den fazla noktada yüklenebilir; yükleme ya da bakiye zorunlu değildir.",
+ "source_ids": "zaragoza:kaynak:353",
+ "reviewed_on": "2026-11-02",
+ "order": 35,
+ "editorial_status": "Taslak",
+ "_sekme": "Sözlük",
+ "kaynaklar": [
+  {
+   "source_id": "zaragoza:kaynak:353",
+   "url": "https://www.zaragoza.es/sede/servicio/tramite/materia/2940/pregunta-frecuente",
+   "publisher": "Ayuntamiento de Zaragoza",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_ulasim-editor1/f220c49e21e677225fa1b1fe02c6c8b491f0fe8978d3f3bb6e07b9e7fa16f4a6.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-term-035-1",
+   "field": "definition",
+   "claim": "Empadronado herkes için, kişisel ve devredilemez kart",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:353",
+   "quote": "Para todos los ciudadanos empadronados en Zaragoza. Es una tarjeta personal e intransferible. Únicamente incluye nombre y fotografía del usuario"
+  },
+  {
+   "claim_id": "C-term-035-2",
+   "field": "definition",
+   "claim": "Ön ödemeli kart 1.000'den fazla noktada yüklenir",
+   "value": "1000",
+   "unit": "nokta",
+   "period": "",
+   "source_id": "zaragoza:kaynak:353",
+   "quote": "Tarjeta monedero que se puede recargar en más de 1.000 puntos distribuidos en redes de quioscos, tiendas de conveniencia, máquinas de recarga de bus (Avanza), paradas de tranvía y parquímetros."
+  },
+  {
+   "claim_id": "C-term-035-3",
+   "field": "definition",
+   "claim": "Yükleme veya bakiye zorunlu değil",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:353",
+   "quote": "Es la modalidad normal y no se exige ninguna recarga ni mantener ningún saldo"
+  }
+ ]
+}
+
+===== KART 36/64: None =====
+{
+ "term_id": "zaragoza:term:036",
+ "city_id": "zaragoza",
+ "term": "Tarjeta Lazo",
+ "definition": "Zaragoza ve metropol bölgesinde birçok toplu taşıma ve hareketlilik hizmetinde ortak ödeme sağlayan, yüklenebilir kart. Kentsel hatlarda, kırsal mahalle hatlarında, havalimanı hattında ve CTAZ banliyö hizmetlerinde geçerlidir.",
+ "source_ids": "zaragoza:kaynak:240",
+ "reviewed_on": "2026-11-02",
+ "order": 36,
+ "editorial_status": "Taslak",
+ "_sekme": "Sözlük",
+ "kaynaklar": [
+  {
+   "source_id": "zaragoza:kaynak:240",
+   "url": "https://www.ctaz.es/servicios/tarjeta-lazo/",
+   "publisher": "Consorcio de Transportes del Área de Zaragoza",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_ulasim/1b1c4c0284285f38a2ff73070800edb5c342ed057a6483f05bd77c18ad25d566.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-term-036-1",
+   "field": "definition",
+   "claim": "Lazo yüklenebilir, çok alanlı kart",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:240",
+   "quote": "La Tarjeta Lazo es una tarjeta recargable y multiámbito que te permite acceder y pagar de forma unificada en diversos servicios de transporte público y movilidad en Zaragoza y su área metropolitana."
+  },
+  {
+   "claim_id": "C-term-036-2",
+   "field": "definition",
+   "claim": "Kentsel, kırsal mahalle, havalimanı ve CTAZ hatlarında geçerli",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:240",
+   "quote": "Es válida en los servicios urbanos de Zaragoza, en las líneas de barrios rurales, en la línea del aeropuerto y en los servicios interurbanos gestionados por el CTAZ."
+  }
+ ]
+}
+
+===== KART 37/64: None =====
+{
+ "term_id": "zaragoza:term:037",
+ "city_id": "zaragoza",
+ "term": "CTAZ (Consorcio de Transportes del Área de Zaragoza)",
+ "definition": "Zaragoza ile çevre belediyeleri bağlayan otobüs hatlarını koordine eden ulaşım konsorsiyumu. Kırsal mahalleler, PLAZA ve havalimanı hizmetleri de bunun içindedir; Tarjeta Lazo'yu çıkaran kurumdur.",
+ "source_ids": "zaragoza:kaynak:241;zaragoza:kaynak:237",
+ "reviewed_on": "2026-11-02",
+ "order": 37,
+ "editorial_status": "Taslak",
+ "_sekme": "Sözlük",
+ "kaynaklar": [
+  {
+   "source_id": "zaragoza:kaynak:241",
+   "url": "https://www.ctaz.es/servicios/transporte-publico-ctaz-2/",
+   "publisher": "CTAZ",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_ulasim/3da332f1ec9eed607d31dc1d84fa3b116b97f705ed11adc75652d5eb31a492c6.txt"
+  },
+  {
+   "source_id": "zaragoza:kaynak:237",
+   "url": "https://zaragoza.avanzagrupo.com/puntos-de-recarga/",
+   "publisher": "Avanza Zaragoza",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_ulasim/b92d0cd608f11fa19914fadcc43263527b11c7e7ea3dbdc9b78bda27d1e95c8c.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-term-037-1",
+   "field": "definition",
+   "claim": "CTAZ çevre belediye, kırsal mahalle, PLAZA ve havalimanı hatlarını koordine eder",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:241",
+   "quote": "El CTAZ coordina las líneas de autobús que conectan Zaragoza con municipios del entorno, incluyendo servicios a barrios rurales, PLAZA y el aeropuerto."
+  },
+  {
+   "claim_id": "C-term-037-2",
+   "field": "definition",
+   "claim": "Tarjeta Lazo konsorsiyum (Consorcio) tarafından çıkarılır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:237",
+   "quote": "La Tarjeta Ciudadana y la Tarjeta Lazo no pueden recargarse en nuestra página al ser expedidas por el Ayuntamiento de Zaragoza y el Consorcio, respectivamente."
+  }
+ ]
+}
+
+===== KART 38/64: None =====
+{
+ "term_id": "zaragoza:term:038",
+ "city_id": "zaragoza",
+ "term": "BiZi Zaragoza",
+ "definition": "Zaragoza'nın kamu bisiklet sistemi. Kayıt bizi.zaragoza.es üzerinden yapılır ve iOS ile Android için uygulaması vardır.",
+ "source_ids": "zaragoza:kaynak:245",
+ "reviewed_on": "2026-11-02",
+ "order": 38,
+ "editorial_status": "Taslak",
+ "_sekme": "Sözlük",
+ "kaynaklar": [
+  {
+   "source_id": "zaragoza:kaynak:245",
+   "url": "https://www.zaragoza.es/sede/portal/movilidad/transporte/bizi",
+   "publisher": "Ayuntamiento de Zaragoza",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_ulasim/afab30f72f22e93a8d15fc527d9466c9c1c1177e3998e5eec6577b0493cb8ac5.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-term-038-1",
+   "field": "definition",
+   "claim": "Kayıt bizi.zaragoza.es ve uygulama üzerinden",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:245",
+   "quote": "La inscripción se podrá realizar a través de la web bizi.zaragoza.es. Por su parte la nueva app BiZi, disponible para iOs y Android"
+  },
+  {
+   "claim_id": "C-term-038-2",
+   "field": "definition",
+   "claim": "Bisikletler ve istasyonlar tüm ilçelere dağılmış",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:245",
+   "quote": "estarán disponibles para los usuarios 2.500 bizis y 276 estaciones, repartidas por todos los distritos urbanos de Zaragoza"
+  }
+ ]
+}
+
+===== KART 39/64: None =====
+{
+ "term_id": "zaragoza:term:039",
+ "city_id": "zaragoza",
+ "term": "ZBE (Zona de Bajas Emisiones)",
+ "definition": "Hava kalitesini iyileştirmek ve sera gazı salımını azaltmak için kurulan düşük emisyon bölgesi. Belediye yönetmeliği bölgenin sınırını, erişim, dolaşım ve park koşullarını belirler.",
+ "source_ids": "zaragoza:kaynak:247",
+ "reviewed_on": "2026-11-02",
+ "order": 39,
+ "editorial_status": "Taslak",
+ "_sekme": "Sözlük",
+ "kaynaklar": [
+  {
+   "source_id": "zaragoza:kaynak:247",
+   "url": "https://www.zaragoza.es/sede/portal/movilidad/bajas-emisiones/",
+   "publisher": "Ayuntamiento de Zaragoza",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_ulasim/88e036aa5688b8d10fdab02a16622b10292269c9498c40c391e236f62865333f.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-term-039-1",
+   "field": "definition",
+   "claim": "ZBE hava kalitesini iyileştirmek için kuruldu",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:247",
+   "quote": "Zaragoza ha aprobado la creación de una Zona de Bajas Emisiones (ZBE) que contribuya a mejorar la calidad del aire y mitigar las emisiones de gases de efecto invernadero."
+  },
+  {
+   "claim_id": "C-term-039-2",
+   "field": "definition",
+   "claim": "Yönetmelik sınırı ve erişim/dolaşım/park koşullarını belirler",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:247",
+   "quote": "delimita el perímetro de la zona establece las condiciones para el acceso, circulación y estacionamiento de vehículos"
+  }
+ ]
+}
+
+===== KART 40/64: None =====
+{
+ "term_id": "zaragoza:term:040",
+ "city_id": "zaragoza",
+ "term": "Cercanías (C-1)",
+ "definition": "Banliyö treni. Zaragoza'da Casetas ile Miraflores'i bağlayan C-1 hattı vardır; Utebo, Delicias, Goya istasyonlarında ve Portillo durağında durur.",
+ "source_ids": "zaragoza:kaynak:246",
+ "reviewed_on": "2026-11-02",
+ "order": 40,
+ "editorial_status": "Taslak",
+ "_sekme": "Sözlük",
+ "kaynaklar": [
+  {
+   "source_id": "zaragoza:kaynak:246",
+   "url": "https://www.zaragoza.es/sede/portal/movilidad/transporte/cercanias",
+   "publisher": "Ayuntamiento de Zaragoza",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_ulasim/d348950cb6645c9616ce925a0852e020b8aab14f66c4f5d00e9d35ec4a746985.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-term-040-1",
+   "field": "definition",
+   "claim": "C-1 hattı Casetas - Miraflores",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:246",
+   "quote": "Línea C-1: Casetas - Miraflores Zaragoza posee una línea de Cercanías que une Casetas con Miraflores con parandas en la Estaciones de Utebo, Delicias, Goya y el Apeadero del Portillo"
+  }
+ ]
+}
+
+===== KART 41/64: None =====
+{
+ "term_id": "zaragoza:term:041",
+ "city_id": "zaragoza",
+ "term": "Distintivo de residente (zona naranja y azul)",
+ "definition": "Düzenli park (turuncu ve mavi bölge) alanlarında yaşayanlara verilen oturan kartı. Başvuran bölge içinde empadronado olmalıdır; kart her yıl yenilenir.",
+ "source_ids": "zaragoza:kaynak:248",
+ "reviewed_on": "2026-11-02",
+ "order": 41,
+ "editorial_status": "Taslak",
+ "_sekme": "Sözlük",
+ "kaynaklar": [
+  {
+   "source_id": "zaragoza:kaynak:248",
+   "url": "https://www.zaragoza.es/sede/servicio/tramite/4004",
+   "publisher": "Ayuntamiento de Zaragoza",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_ulasim/f97f8ecebc23db64612970a140e1cdccd68cbb5c4df7ccd106059a2909c00db2.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-term-041-1",
+   "field": "definition",
+   "claim": "Düzenli park bölgesi sakini kartı (turuncu ve mavi bölge)",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:248",
+   "quote": "Solicitud de la Tarjeta de Residente en zonas de estacionamiento limitado (zonas naranja y azul"
+  },
+  {
+   "claim_id": "C-term-041-2",
+   "field": "definition",
+   "claim": "Her yıl yenilenir",
+   "value": "1",
+   "unit": "yıl",
+   "period": "",
+   "source_id": "zaragoza:kaynak:248",
+   "quote": "RENOVACIONES: Cada año, desde la fecha de emisión, requiriédose idéntica documentación que para la tramitación por primera vez."
+  },
+  {
+   "claim_id": "C-term-041-3",
+   "field": "definition",
+   "claim": "Bölge içinde empadronado olmak gerekir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:248",
+   "quote": "el solicitante de la tarjeta de residente deberá estar empadronado dentro de la zona"
+  }
+ ]
+}
+
+===== KART 42/64: None =====
+{
+ "term_id": "zaragoza:term:042",
+ "city_id": "zaragoza",
+ "term": "Fiestas del Pilar",
+ "definition": "Zaragoza'nın en büyük şenlik ve kültür etkinliği; şehrin hamisi Virgen del Pilar onuruna yapılır. 2019'da Uluslararası Turistik İlgi ilan edilmiş, 2026'da 10-18 Ekim'de düzenleniyor.",
+ "source_ids": "zaragoza:kaynak:253",
+ "reviewed_on": "2026-11-02",
+ "order": 42,
+ "editorial_status": "Taslak",
+ "_sekme": "Sözlük",
+ "kaynaklar": [
+  {
+   "source_id": "zaragoza:kaynak:253",
+   "url": "https://www.zaragoza.es/sede/portal/cultura/fiestas-pilar/",
+   "publisher": "Ayuntamiento de Zaragoza",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_gunluk/0bbded814031eee2ca3dd87edc8aca2bbd2e5cc7ae08f24662e32be258c80ee9.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-term-042-1",
+   "field": "definition",
+   "claim": "Virgen del Pilar onuruna yapılan şehrin en büyük şenliği; 2019'da Uluslararası Turistik İlgi",
+   "value": "2019",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:253",
+   "quote": "Las Fiestas del Pilar, declaradas de Interés Turístico Internacional en 2019"
+  },
+  {
+   "claim_id": "C-term-042-2",
+   "field": "definition",
+   "claim": "Şehrin hamisi Virgen del Pilar onuruna",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:253",
+   "quote": "constituyen el mayor acto festivo y cultural de la ciudad y se celebran en honor a la Virgen del Pilar, patrona de la ciudad."
+  },
+  {
+   "claim_id": "C-term-042-3",
+   "field": "definition",
+   "claim": "2026'da 10-18 Ekim",
+   "value": "10-18 Ekim 2026",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:253",
+   "quote": "En 2026, se llevarán a cabo del 10 al 18 de octubre"
+  }
+ ]
+}
+
+===== KART 43/64: None =====
+{
+ "term_id": "zaragoza:term:043",
+ "city_id": "zaragoza",
+ "term": "San Valero",
+ "definition": "Zaragoza'nın hamisi San Valero'nun günü ve çevresindeki şenlik. 2026'da 28 Ocak - 1 Şubat arasında müzik, tiyatro ve gelenekler; roscón dağıtımı geleneksel bir parçasıdır. 29 Ocak, Caesaraugusta müzelerinde ücretsiz giriş günüdür.",
+ "source_ids": "zaragoza:kaynak:255;zaragoza:kaynak:275",
+ "reviewed_on": "2026-11-02",
+ "order": 43,
+ "editorial_status": "Taslak",
+ "_sekme": "Sözlük",
+ "kaynaklar": [
+  {
+   "source_id": "zaragoza:kaynak:255",
+   "url": "https://www.zaragoza.es/sede/portal/cultura/servicio/noticia/347387",
+   "publisher": "Ayuntamiento de Zaragoza",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_gunluk/3baeb980b2c5e882491f667f01ff80feca462349840fd8dbe62e472ed7a5ae8f.txt"
+  },
+  {
+   "source_id": "zaragoza:kaynak:275",
+   "url": "https://www.zaragoza.es/sede/portal/museos/puerto/visita/entradas",
+   "publisher": "Ayuntamiento de Zaragoza",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_kesif/7100af86e120e5dd06a8cd2c1c604d19197873a4d20f153cb0b4c93e7db91c9f.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-term-043-1",
+   "field": "definition",
+   "claim": "28 Ocak - 1 Şubat'ta patron için şenlik, roscón dağıtımı",
+   "value": "28 Ocak - 1 Şubat",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:255",
+   "quote": "Del 28 de enero al 1 de febrero, la ciudad celebra a su patrón con el tradicional reparto de roscón"
+  },
+  {
+   "claim_id": "C-term-043-2",
+   "field": "definition",
+   "claim": "29 Ocak San Valero günü müzelerde serbest giriş",
+   "value": "29 Ocak",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:275",
+   "quote": "29 de Enero - Día de San Valero"
+  }
+ ]
+}
+
+===== KART 44/64: None =====
+{
+ "term_id": "zaragoza:term:044",
+ "city_id": "zaragoza",
+ "term": "Cierzo",
+ "definition": "Zaragoza'da kuvvetli esen rüzgâr. Kaynakta sis ile birlikte, Zaragoza'da yaşayanları sınayan iki doğa gücünden biri olarak geçer; şehirde seni sert iter.",
+ "source_ids": "zaragoza:kaynak:337",
+ "reviewed_on": "2026-11-02",
+ "order": 44,
+ "editorial_status": "Taslak",
+ "_sekme": "Sözlük",
+ "kaynaklar": [
+  {
+   "source_id": "zaragoza:kaynak:337",
+   "url": "https://www.zaragoza.es/sede/portal/juventud/info-joven/servicio/noticia/339357",
+   "publisher": "Ayuntamiento de Zaragoza",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_planlama-editor1/99dfa44c8f63db9dfb7733965bd316a3587c4d05f42544ad6b460c35a9a1d678.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-term-044-1",
+   "field": "definition",
+   "claim": "Cierzo ve sis Zaragoza sakinlerini sınayan iki doğa gücüdür",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:337",
+   "quote": "Vivir en Zaragoza supone enfrentarse a dos fuerzas de la naturaleza que ponen a prueba a todos sus habitantes: el cierzo y la niebla"
+  },
+  {
+   "claim_id": "C-term-044-2",
+   "field": "definition",
+   "claim": "Cierzo şehir boyunca güçlü iter",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:337",
+   "quote": "Mientras el cierzo te empuja fuertemente por toda la ciudad"
+  }
+ ]
+}
+
+===== KART 45/64: None =====
+{
+ "term_id": "zaragoza:term:045",
+ "city_id": "zaragoza",
+ "term": "Punto limpio",
+ "definition": "Evsel atıkların bazı türlerinin ücretsiz bırakıldığı yer; atıklar geri dönüşüm işleminden geçer. Yönetmelik tanımına göre belediyenin atıkları ayrı topladığı depolama tesisidir.",
+ "source_ids": "zaragoza:kaynak:258;zaragoza:kaynak:262",
+ "reviewed_on": "2026-11-02",
+ "order": 45,
+ "editorial_status": "Taslak",
+ "_sekme": "Sözlük",
+ "kaynaklar": [
+  {
+   "source_id": "zaragoza:kaynak:258",
+   "url": "https://www.zaragoza.es/sede/portal/medioambiente/residuos/recogida/",
+   "publisher": "Ayuntamiento de Zaragoza",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_gunluk/e608770fb2d3e99c775162454ed925f9ef3226c29430788d83e4b79284039a2e.txt"
+  },
+  {
+   "source_id": "zaragoza:kaynak:262",
+   "url": "https://www.zaragoza.es/sede/servicio/normativa/13139",
+   "publisher": "Ayuntamiento de Zaragoza",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_gunluk/666a9d76591b901560b5408eb2b98c009e34ae20086dd394da861682dbcade9c.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-term-045-1",
+   "field": "definition",
+   "claim": "Punto limpio evsel atıkların ücretsiz bırakıldığı yer",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:258",
+   "quote": "Un punto limpio es un lugar donde los vecinos pueden desprenderse gratuitamente de determinados tipos de residuos domésticos, para que estos puedan recibir un tratamiento de reciclado"
+  },
+  {
+   "claim_id": "C-term-045-2",
+   "field": "definition",
+   "claim": "Yönetmelik: belediyenin atıkları ayrı topladığı depolama tesisi",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:262",
+   "quote": "Punto limpio: instalación de almacenamiento en el ámbito de la recogida de una entidad local, donde se recogen de forma separada los residuos domésticos."
+  }
+ ]
+}
+
+===== KART 46/64: None =====
+{
+ "term_id": "zaragoza:term:046",
+ "city_id": "zaragoza",
+ "term": "Punto limpio móvil",
+ "definition": "Gezici atık noktası. Casetas'taki nokta Pza. Santiago Castillo, 4 adresinde, pazartesi ve perşembe sabahı ile pazar sabahı hizmet verir.",
+ "source_ids": "zaragoza:kaynak:260",
+ "reviewed_on": "2026-11-02",
+ "order": 46,
+ "editorial_status": "Taslak",
+ "_sekme": "Sözlük",
+ "kaynaklar": [
+  {
+   "source_id": "zaragoza:kaynak:260",
+   "url": "https://www.zaragoza.es/sede/servicio/equipamiento/10255",
+   "publisher": "Ayuntamiento de Zaragoza",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_gunluk/8bab80b795e16b0d7ffbc25fa0f6b75e507a3a65301b068c8bedc731ef0e5881.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-term-046-1",
+   "field": "location",
+   "claim": "Casetas gezici punto limpio adresi Pza. Santiago Castillo, 4 - 50620",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:260",
+   "quote": "Dirección: Pza. Santiago Castillo, 4 - 50620"
+  },
+  {
+   "claim_id": "C-term-046-2",
+   "field": "schedule",
+   "claim": "Pazartesi ve perşembe 8:30-10:30; pazar 8:30-10:00",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:260",
+   "quote": "Horario: Lunes y jueves de 8:30 a 10:30 h. Domingo de 8:30 a 10:00 h."
+  }
+ ]
+}
+
+===== KART 47/64: None =====
+{
+ "term_id": "zaragoza:term:047",
+ "city_id": "zaragoza",
+ "term": "Recogida de muebles y enseres",
+ "definition": "Mobilya, eşya, hacimli atık ve beyaz eşyaların belediyece ücretsiz toplanması. Çevrimiçi ya da telefonla önceden talep edilir; pazartesi-cuma, bildirimden sonraki 24 saat içinde toplanır, pazar günü hizmet yoktur.",
+ "source_ids": "zaragoza:kaynak:259",
+ "reviewed_on": "2026-11-02",
+ "order": 47,
+ "editorial_status": "Taslak",
+ "_sekme": "Sözlük",
+ "kaynaklar": [
+  {
+   "source_id": "zaragoza:kaynak:259",
+   "url": "https://www.zaragoza.es/sede/servicio/tramite/138",
+   "publisher": "Ayuntamiento de Zaragoza",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_gunluk/53051f6faa94d09ba8a7fdee8c5ba67012339178a2a4190f101d2be37f880a1d.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-term-047-1",
+   "field": "definition",
+   "claim": "Mobilya, eşya, hacimli atık ve beyaz eşya toplama hizmeti",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:259",
+   "quote": "servicio de recogida de muebles, enseres, voluminosos y electrodomésticos, así como aquellos afectados por chinches"
+  },
+  {
+   "claim_id": "C-term-047-2",
+   "field": "definition",
+   "claim": "Ücretsiz, çevrimiçi veya telefonla talep, pazartesi-cuma",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:259",
+   "quote": "Es un servicio gratuito, previa solicitud en línea o por teléfono, de lunes a viernes."
+  },
+  {
+   "claim_id": "C-term-047-3",
+   "field": "definition",
+   "claim": "Bildirimden sonra 24 saat içinde; pazar yok",
+   "value": "24",
+   "unit": "saat",
+   "period": "",
+   "source_id": "zaragoza:kaynak:259",
+   "quote": "La recogida se realizará en las 24 horas siguientes al aviso, teniendo en cuenta que los domingos no se presta este servicio."
+  }
+ ]
+}
+
+===== KART 48/64: None =====
+{
+ "term_id": "zaragoza:term:048",
+ "city_id": "zaragoza",
+ "term": "Centro cívico",
+ "definition": "Mahallelerde ve ilçelerde belediyeye ait, vatandaş katılımı, eğitim, kültür, sosyal ve vatandaş hizmetleri veren kamu mekânı. Kurs ve etkinlikler için ilgili centro cívico ile iletişime geçilir.",
+ "source_ids": "zaragoza:kaynak:264;zaragoza:kaynak:265;zaragoza:kaynak:266",
+ "reviewed_on": "2026-11-02",
+ "order": 48,
+ "editorial_status": "Taslak",
+ "_sekme": "Sözlük",
+ "kaynaklar": [
+  {
+   "source_id": "zaragoza:kaynak:264",
+   "url": "https://www.zaragoza.es/sede/portal/centroscivicos/",
+   "publisher": "Ayuntamiento de Zaragoza",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_gunluk/96df25ee16970afdee027687fe5ef50a225bb0ffef0ec3146697fa241a6832ed.txt"
+  },
+  {
+   "source_id": "zaragoza:kaynak:265",
+   "url": "https://www.zaragoza.es/sede/portal/calidad/centros-civicos",
+   "publisher": "Ayuntamiento de Zaragoza",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_gunluk/d7302f14f048f658fe99074dd17f6afb2e69d4851970cc264a1294a699f86f37.txt"
+  },
+  {
+   "source_id": "zaragoza:kaynak:266",
+   "url": "https://www.zaragoza.es/sede/servicio/cultura/evento/programa/2425",
+   "publisher": "Ayuntamiento de Zaragoza",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_gunluk/87a1b39ff6ff941530fde376eca7126a08fb5705d56ae3e52f6c5613a6947129.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-term-048-1",
+   "field": "definition",
+   "claim": "Centro cívico belediye tesisidir; katılım, eğitim, kültür, sosyal hizmet",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:264",
+   "quote": "Los Centros Cívicos son instalaciones de titularidad municipal, de ámbito territorial, que tienen la función de prestar servicios de participación ciudadana"
+  },
+  {
+   "claim_id": "C-term-048-2",
+   "field": "definition",
+   "claim": "Mahallelerde dağılmış kamusal alanlar",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:265",
+   "quote": "Los centros cívicos son espacios públicos distrubuidos en los distintos barrios y distritos de la ciudad de Zaragoza"
+  },
+  {
+   "claim_id": "C-term-048-3",
+   "field": "definition",
+   "claim": "Kurs/etkinlik için ilgili centro cívico ile iletişime geçilir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:266",
+   "quote": "contactar con el Centro Cívico en el que se desee realizar la actividad"
+  }
+ ]
+}
+
+===== KART 49/64: None =====
+{
+ "term_id": "zaragoza:term:049",
+ "city_id": "zaragoza",
+ "term": "Junta Municipal",
+ "definition": "Zaragoza'da barrio ve ilçe düzeyinde adı geçen yerel birim (Junta Municipal ya da Vecinal). Belediye kütüphane listesi bölgeleri Junta Municipal adıyla sayar. Kaynağa göre Junta Municipal ya da Vecinal, kendi bölgesinde yılda bir gün yazlık havuzlara ücretsiz girişe karar verebilir.",
+ "source_ids": "zaragoza:kaynak:270;zaragoza:kaynak:357",
+ "reviewed_on": "2026-11-02",
+ "order": 49,
+ "editorial_status": "Taslak",
+ "_sekme": "Sözlük",
+ "kaynaklar": [
+  {
+   "source_id": "zaragoza:kaynak:270",
+   "url": "https://www.zaragoza.es/sede/portal/bibliotecas-municipales/",
+   "publisher": "Ayuntamiento de Zaragoza",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_gunluk/103402cce8728609d9344969387a1668ae4e772266d3f6dbd5bc039d51a3da06.txt"
+  },
+  {
+   "source_id": "zaragoza:kaynak:357",
+   "url": "https://www.zaragoza.es/sede/servicio/normativa/3803",
+   "publisher": "Ayuntamiento de Zaragoza",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif-editor1/93ed4db9fc422a4464b38ee70706553b28b17a9638c3c111c46011223be706f5.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-term-049-1",
+   "field": "definition",
+   "claim": "Kütüphane listesi bölgeleri \"Junta Municipal ...\" diye ayırır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:270",
+   "quote": "Nombre Junta: Seleccione una junta Junta Municipal Actur-Rey Fernando Junta Municipal Casablanca Junta Municipal Casco Histórico Junta Municipal Centro"
+  },
+  {
+   "claim_id": "C-term-049-2",
+   "field": "definition",
+   "claim": "Junta Municipal veya Vecinal yılda bir gün yazlık havuz girişini ücretsiz kılabilir",
+   "value": "1",
+   "unit": "gün/yıl",
+   "period": "",
+   "source_id": "zaragoza:kaynak:357",
+   "quote": "A decisión de la Junta Municipal o Vecinal de cada barrio o Distrito, un día al año, se permitirá el acceso gratuito a las piscinas de verano"
+  }
+ ]
+}
+
+===== KART 50/64: None =====
+{
+ "term_id": "zaragoza:term:050",
+ "city_id": "zaragoza",
+ "term": "Carné de socio (kütüphane kartı)",
+ "definition": "Zaragoza Belediye Kütüphaneleri üyelik kartı. Belediye kütüphane sistemi şehirde 23 yakın kütüphane (Bibliotecas de Proximidad) ile hizmet verir.",
+ "source_ids": "zaragoza:kaynak:269",
+ "reviewed_on": "2026-11-02",
+ "order": 50,
+ "editorial_status": "Taslak",
+ "_sekme": "Sözlük",
+ "kaynaklar": [
+  {
+   "source_id": "zaragoza:kaynak:269",
+   "url": "https://www.zaragoza.es/sede/servicio/tramite/25260",
+   "publisher": "Ayuntamiento de Zaragoza",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_gunluk/c628b7e6a909f4a6054e4bedf0ada7e2e7f69aa9ffd4f1b3d99aa04e76cb877e.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-term-050-1",
+   "field": "definition",
+   "claim": "Kütüphane hizmeti 23 yakınlık kütüphanesiyle verilir",
+   "value": "23",
+   "unit": "kütüphane",
+   "period": "",
+   "source_id": "zaragoza:kaynak:269",
+   "quote": "La oferta de servicio bibliotecario se realiza en toda la ciudad a través de 23 Bibliotecas de Proximidad"
+  }
+ ]
+}
+
+===== KART 51/64: None =====
+{
+ "term_id": "zaragoza:term:051",
+ "city_id": "zaragoza",
+ "term": "Casa de las Culturas y la Solidaridad",
+ "definition": "Belediyenin bu adla bir merkezi var; adresi Calle José Palafox, 29 - 50001. Göçmen hizmetleri için e-posta adresi serviciosinmigrantes@zaragoza.es.",
+ "source_ids": "zaragoza:kaynak:289",
+ "reviewed_on": "2026-11-02",
+ "order": 51,
+ "editorial_status": "Taslak",
+ "_sekme": "Sözlük",
+ "kaynaklar": [
+  {
+   "source_id": "zaragoza:kaynak:289",
+   "url": "https://www.zaragoza.es/sede/servicio/equipamiento/2136",
+   "publisher": "Ayuntamiento de Zaragoza",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_planlama/f2bb96905f52aef4d9e9d0fa76fca83b128734d28ce0d5c7a9ffec197fcc881b.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-term-051-1",
+   "field": "location",
+   "claim": "Adres Calle José Palafox, 29 - 50001",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:289",
+   "quote": "Dirección: CALLE JOSÉ PALAFOX, 29 - 50001"
+  },
+  {
+   "claim_id": "C-term-051-2",
+   "field": "definition",
+   "claim": "Eposta serviciosinmigrantes@zaragoza.es: göçmen hizmetleri",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:289",
+   "quote": "Correo electrónico: serviciosinmigrantes@zaragoza.es"
+  }
+ ]
+}
+
+===== KART 52/64: None =====
+{
+ "term_id": "zaragoza:term:052",
+ "city_id": "zaragoza",
+ "term": "Programa de Acogida (karşılama programı)",
+ "definition": "Göç sürecinin ilk aşaması olarak karşılama: aile ve çevre yetersiz kaldığında profesyonel müdahale gerektirir. Zaragoza Belediyesi'nin bu adla bir programı vardır.",
+ "source_ids": "zaragoza:kaynak:290",
+ "reviewed_on": "2026-11-02",
+ "order": 52,
+ "editorial_status": "Taslak",
+ "_sekme": "Sözlük",
+ "kaynaklar": [
+  {
+   "source_id": "zaragoza:kaynak:290",
+   "url": "https://www.zaragoza.es/sede/servicio/tramite/25281",
+   "publisher": "Ayuntamiento de Zaragoza",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_planlama/2fb10f06ba441f99719d9a516733ba0b5acd01d2804175d8db7af215c167337e.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-term-052-1",
+   "field": "definition",
+   "claim": "Acogida entegrasyonun ilk aşamasıdır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:290",
+   "quote": "La acogida constituye la primera etapa del proceso de integración, es una fase de importancia crucial en las trayectorias y proyectos migratorios."
+  }
+ ]
+}
+
+===== KART 53/64: None =====
+{
+ "term_id": "zaragoza:term:053",
+ "city_id": "zaragoza",
+ "term": "Escuela infantil municipal",
+ "definition": "Belediyeye ait okul öncesi eğitim kurumu (kreş). Yer başvurusu ve kayıt belediye sayfalarından yapılır; süre dışı başvuru yalnız bekleme listesi olmayan, boş yerler için kabul edilir.",
+ "source_ids": "zaragoza:kaynak:222;zaragoza:kaynak:344",
+ "reviewed_on": "2026-11-02",
+ "order": 53,
+ "editorial_status": "Taslak",
+ "_sekme": "Sözlük",
+ "kaynaklar": [
+  {
+   "source_id": "zaragoza:kaynak:222",
+   "url": "https://www.zaragoza.es/sede/servicio/tramite/10901",
+   "publisher": "Ayuntamiento de Zaragoza",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_aile/5ac31652048bf78f930615ca64f7e655d40ff657064891eeb664331f5c661d8f.txt"
+  },
+  {
+   "source_id": "zaragoza:kaynak:344",
+   "url": "https://www.zaragoza.es/sede/servicio/tramite/24500",
+   "publisher": "Ayuntamiento de Zaragoza",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_aile-editor2/7c20fc7b76598b914a971553713ee4ded67d1ff7b257030c7eb18f6bab282a93.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-term-053-1",
+   "field": "definition",
+   "claim": "Süre dışı başvuru yalnız bekleme listesi olmayan boş yerlere",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:222",
+   "quote": "Solo se admiten solicitudes fuera de plazo para aquellas plazas que no tienen lista de espera y están sin cubrir"
+  },
+  {
+   "claim_id": "C-term-053-2",
+   "field": "definition",
+   "claim": "Kayıt belgeleri sayfada",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:344",
+   "quote": "Escuelas Infantiles Municipales: Matrícula"
+  }
+ ]
+}
+
+===== KART 54/64: None =====
+{
+ "term_id": "zaragoza:term:054",
+ "city_id": "zaragoza",
+ "term": "Cheque familia",
+ "definition": "Zaragoza'daki özel birinci dönem okul öncesi eğitim merkezine (eski guardería) çocuğu yazılı ailelere verilen ekonomik destek.",
+ "source_ids": "zaragoza:kaynak:225",
+ "reviewed_on": "2026-11-02",
+ "order": 54,
+ "editorial_status": "Taslak",
+ "_sekme": "Sözlük",
+ "kaynaklar": [
+  {
+   "source_id": "zaragoza:kaynak:225",
+   "url": "https://www.zaragoza.es/sede/portal/cheque-familia/",
+   "publisher": "Ayuntamiento de Zaragoza",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_aile/c76975c025c0e607bcf8a71ddd9975b9b14f199d2661c4a264ae4a6ddb16c2d5.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-term-054-1",
+   "field": "definition",
+   "claim": "Özel okul öncesi 1. dönem merkezlerindeki çocuklu ailelere sübvansiyon",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:225",
+   "quote": "Es una subvención económica para familias con menores escolarizados en un Centro Privado de Educación Infantil de 1º Ciclo (antes guarderías) de la ciudad de Zaragoza"
+  }
+ ]
+}
+
+===== KART 55/64: None =====
+{
+ "term_id": "zaragoza:term:055",
+ "city_id": "zaragoza",
+ "term": "PRES (Refuerzo Extraescolar de Español)",
+ "definition": "Hispanik olmayan öğrenciler için okul dışı İspanyolca destek programı (dil daldırma ve İspanyolca sınıfları). Aragón eğitim portalında yer alır.",
+ "source_ids": "zaragoza:kaynak:226",
+ "reviewed_on": "2026-11-02",
+ "order": 55,
+ "editorial_status": "Taslak",
+ "_sekme": "Sözlük",
+ "kaynaklar": [
+  {
+   "source_id": "zaragoza:kaynak:226",
+   "url": "https://educa.aragon.es/-/innovacion/gestion-subvenciones-europeas/pres",
+   "publisher": "Educaragón (Gobierno de Aragón)",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_aile/cba5ac76bb69debba2ace343a24a26bc8a6a7ef6c948915d1f51f5d31ca20e52.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-term-055-1",
+   "field": "definition",
+   "claim": "PRES dil daldırma ve İspanyolca sınıfı programıdır",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:226",
+   "quote": "Es un Programa de Inmersión Lingüística y de aulas de español para alumnado no hispano"
+  }
+ ]
+}
+
+===== KART 56/64: None =====
+{
+ "term_id": "zaragoza:term:056",
+ "city_id": "zaragoza",
+ "term": "Beca de comedor escolar",
+ "definition": "Okul yemeği bursu. Aragón başvurusunun 2026 dönemi 8-19 Haziran idi; başvuru formu indirilip kayıt bürosuna sunulur.",
+ "source_ids": "zaragoza:kaynak:228",
+ "reviewed_on": "2026-11-02",
+ "order": 56,
+ "editorial_status": "Taslak",
+ "_sekme": "Sözlük",
+ "kaynaklar": [
+  {
+   "source_id": "zaragoza:kaynak:228",
+   "url": "https://www.aragon.es/tramitador/-/tramite/becas-comedor-escolar-y-periodo-estival-no-lectivo",
+   "publisher": "Gobierno de Aragón",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_aile/fc5ec43e82c808bf6b16ec31e22d8831a42113db0c4643c1a21018063a998549.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-term-056-1",
+   "field": "definition",
+   "claim": "2026 başvuru dönemi 8-19 Haziran",
+   "value": "8-19 Haziran 2026",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:228",
+   "quote": "Del 08/06/2026 al 19/06/2026 El plazo de presentación terminó el 19 junio 2026"
+  },
+  {
+   "claim_id": "C-term-056-2",
+   "field": "definition",
+   "claim": "Form indirilip kayıt bürosuna sunulur",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:228",
+   "quote": "Puedes descargar el formulario en PDF, rellenarlo, firmarlo y presentarlo de forma presencial en una oficina de registro"
+  }
+ ]
+}
+
+===== KART 57/64: None =====
+{
+ "term_id": "zaragoza:term:057",
+ "city_id": "zaragoza",
+ "term": "Título de familia numerosa",
+ "definition": "Büyük aile statüsünü onaylayan resmî belge. Şartları taşıyan aileler talep eder; belge bazı avantajlara erişim sağlar. Bu statü su harcında bonifiye tarife (Tarifa 3) için de kullanılır.",
+ "source_ids": "zaragoza:kaynak:229;zaragoza:kaynak:158",
+ "reviewed_on": "2026-11-02",
+ "order": 57,
+ "editorial_status": "Taslak",
+ "_sekme": "Sözlük",
+ "kaynaklar": [
+  {
+   "source_id": "zaragoza:kaynak:229",
+   "url": "https://www.aragon.es/tramitador/-/tramite/primera-emision-titulo-familia-numerosa",
+   "publisher": "Gobierno de Aragón",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_aile/09f4443146b428ba5518ea579eb97802d7e3dfe977382cac3aa62d795103a3dd.txt"
+  },
+  {
+   "source_id": "zaragoza:kaynak:158",
+   "url": "https://www.zaragoza.es/sede/servicio/tramite/39064",
+   "publisher": "Ayuntamiento de Zaragoza",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_fatura/9a7e8e1611513f764eece8535e53e2af80041cdb425d1a4b6ca6c38c49d72e5f.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-term-057-1",
+   "field": "definition",
+   "claim": "Onay veren resmî başlık; avantajlara erişim",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:229",
+   "quote": "La Administración emitirá un título oficial que confirme su condición y que les permitirá el acceso a determinados beneficios y ventajas."
+  },
+  {
+   "claim_id": "C-term-057-2",
+   "field": "definition",
+   "claim": "Büyük aileler su harcında Tarifa 3 isteyebilir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:158",
+   "quote": "Familias numerosas: Los titulares del servicio que formen parte de familias numerosas pueden solicitar la aplicación de la Tarifa 3, bonificada para usos domésticos \"per cápita\""
+  }
+ ]
+}
+
+===== KART 58/64: None =====
+{
+ "term_id": "zaragoza:term:058",
+ "city_id": "zaragoza",
+ "term": "Apostilla de La Haya",
+ "definition": "Yabancı bir ülkede düzenlenen resmî belgeye eklenen, imzanın gerçekliğini onaylayan not. Kaynaklarda yabancı belgelerin 1961 tarihli La Haye Sözleşmesi'ne göre apostil edilmiş ya da legalize edilmiş olması istenir.",
+ "source_ids": "zaragoza:kaynak:029;zaragoza:kaynak:007",
+ "reviewed_on": "2026-11-02",
+ "order": 58,
+ "editorial_status": "Taslak",
+ "_sekme": "Sözlük",
+ "kaynaklar": [
+  {
+   "source_id": "zaragoza:kaynak:029",
+   "url": "https://www.mjusticia.gob.es/es/ciudadania/tramites/legalizacion-unica-apostilla",
+   "publisher": "Ministerio de Justicia",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_ulke_es/zaragoza_kaynak_029_es_kaynak_027.txt"
+  },
+  {
+   "source_id": "zaragoza:kaynak:007",
+   "url": "https://www.inclusion.gob.es/web/migraciones/w/renovacion-de-la-autorizacion-de-residencia-temporal-no-lucrativa",
+   "publisher": "Ministerio de Inclusión, Seguridad Social y Migraciones",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_ulke_es/zaragoza_kaynak_007_es_kaynak_142.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-term-058-1",
+   "field": "definition",
+   "claim": "Apostil resmî belgeye imzanın gerçekliğini onaylayan not ekler",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:029",
+   "quote": "El procedimiento de apostilla consiste en colocar sobre un documento público, o una prolongación de este, una Apostilla o anotación que certificará la autenticidad de la firma"
+  },
+  {
+   "claim_id": "C-term-058-2",
+   "field": "definition",
+   "claim": "Belge La Haya 1961 apostiliyle ya da legalizasyonla gelir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:007",
+   "quote": "salvo en el caso en que dicho documento haya sido apostillado por la Autoridad competente del país emisor según el Convenio de la Haya de 5 de octubre de 1961"
+  }
+ ]
+}
+
+===== KART 59/64: None =====
+{
+ "term_id": "zaragoza:term:059",
+ "city_id": "zaragoza",
+ "term": "Traductor/a jurado/a",
+ "definition": "Yeminli tercüman. Unvanını İspanya Dışişleri Bakanlığı (Ministerio de Asuntos Exteriores) verir.",
+ "source_ids": "zaragoza:kaynak:028",
+ "reviewed_on": "2026-11-02",
+ "order": 59,
+ "editorial_status": "Taslak",
+ "_sekme": "Sözlük",
+ "kaynaklar": [
+  {
+   "source_id": "zaragoza:kaynak:028",
+   "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Traductores-Interpretes-Jurados.aspx",
+   "publisher": "Ministerio de Asuntos Exteriores, Unión Europea y Cooperación",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_ulke_es/zaragoza_kaynak_028_es_kaynak_026.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-term-059-1",
+   "field": "definition",
+   "claim": "Unvanı Dışişleri Bakanlığı verir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:028",
+   "quote": "El Ministerio de Asuntos Exteriores, Unión Europea y Cooperación es competente para la concesión de los títulos de Traductor/a Jurado/a e Intérprete Jurado/a."
+  }
+ ]
+}
+
+===== KART 60/64: None =====
+{
+ "term_id": "zaragoza:term:060",
+ "city_id": "zaragoza",
+ "term": "Homologación (diploma denkliği)",
+ "definition": "Yabancı eğitim belgelerinin İspanya'da denkliğinin tanınması. Kaynağa göre incelenecek eğitimin, ait olduğu ülkenin eğitim sisteminde resmî olması gerekir.",
+ "source_ids": "zaragoza:kaynak:069",
+ "reviewed_on": "2026-11-02",
+ "order": 60,
+ "editorial_status": "Taslak",
+ "_sekme": "Sözlük",
+ "kaynaklar": [
+  {
+   "source_id": "zaragoza:kaynak:069",
+   "url": "https://www.educacionfpydeportes.gob.es/mc/convalidacion-homologacion/convalidacion-no-universitaria/homologar-convalidar.html",
+   "publisher": "Ministerio de Educación, Formación Profesional y Deportes",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_ulke_es/zaragoza_kaynak_069_es_kaynak_082.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-term-060-1",
+   "field": "definition",
+   "claim": "Homologación/convalidación için eğitim ülkesinde resmî olmalı",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:069",
+   "quote": "Deben ser oficiales en el sistema educativo del país al que correspondan."
+  }
+ ]
+}
+
+===== KART 61/64: None =====
+{
+ "term_id": "zaragoza:term:061",
+ "city_id": "zaragoza",
+ "term": "Calendario laboral (resmî tatil takvimi)",
+ "definition": "Yerel, bölgesel ve ulusal resmî tatilleri gösteren takvim. Aragón Hükümeti her yıl onaylar.",
+ "source_ids": "zaragoza:kaynak:256",
+ "reviewed_on": "2026-11-02",
+ "order": 61,
+ "editorial_status": "Taslak",
+ "_sekme": "Sözlük",
+ "kaynaklar": [
+  {
+   "source_id": "zaragoza:kaynak:256",
+   "url": "https://www.aragon.es/trabajo-y-relaciones-laborales/calendario-laboral",
+   "publisher": "Gobierno de Aragón",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_gunluk/12587b719044da32ab7a3ec7635cf3a917944b27fbb1ce532ba438088b0e1889.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-term-061-1",
+   "field": "definition",
+   "claim": "Aragón Hükümeti yıllık çalışma takvimini onaylar",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:256",
+   "quote": "El Gobierno de Aragón aprueba el calendario laboral de cada año"
+  },
+  {
+   "claim_id": "C-term-061-2",
+   "field": "definition",
+   "claim": "Yerel, bölgesel, ulusal tatiller",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:256",
+   "quote": "Fiestas laborales de ámbito local, autonómico y nacional."
+  }
+ ]
+}
+
+===== KART 62/64: None =====
+{
+ "term_id": "zaragoza:term:062",
+ "city_id": "zaragoza",
+ "term": "Albergue Municipal",
+ "definition": "Evsizler için belediye karşılama ve entegrasyon merkezi (Centro de Acogida e Inserción). Adresi C/ Alonso V, 30 - 50002; yılın her günü 24 saat açıktır.",
+ "source_ids": "zaragoza:kaynak:296",
+ "reviewed_on": "2026-11-02",
+ "order": 62,
+ "editorial_status": "Taslak",
+ "_sekme": "Sözlük",
+ "kaynaklar": [
+  {
+   "source_id": "zaragoza:kaynak:296",
+   "url": "https://www.zaragoza.es/sede/servicio/equipamiento/490",
+   "publisher": "Ayuntamiento de Zaragoza",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_planlama/78abda3750b48d7869eba83711b13055bfa90a5115c04fe583ddc05bce8a6671.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-term-062-1",
+   "field": "location",
+   "claim": "Adres C/ Alonso V, 30 - 50002",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:296",
+   "quote": "Dirección: C/ Alonso V, 30 - 50002"
+  },
+  {
+   "claim_id": "C-term-062-2",
+   "field": "schedule",
+   "claim": "Yılın her günü 24 saat açık",
+   "value": "24",
+   "unit": "saat",
+   "period": "",
+   "source_id": "zaragoza:kaynak:296",
+   "quote": "Horario: Abierto todos los días del año, las 24 horas"
+  }
+ ]
+}
+
+===== KART 63/64: None =====
+{
+ "term_id": "zaragoza:term:063",
+ "city_id": "zaragoza",
+ "term": "SAOJI (Servicio de Asistencia y Orientación Jurídica a Inmigrantes)",
+ "definition": "Göçmenlere hukuki yardım ve yönlendirme hizmeti. Aragón Hükümeti finanse eder, Aragón Baro Konseyi yönetir.",
+ "source_ids": "zaragoza:kaynak:308",
+ "reviewed_on": "2026-11-02",
+ "order": 63,
+ "editorial_status": "Taslak",
+ "_sekme": "Sözlük",
+ "kaynaklar": [
+  {
+   "source_id": "zaragoza:kaynak:308",
+   "url": "https://www.aragonhoy.es/ciudadania-y-derechos-sociales/servicio-asistencia-orientacion-juridica-inmigrantes-79402",
+   "publisher": "Gobierno de Aragón",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_kesif_oturum/cdbbb3842ccff932120ef970daa7c1fc32d44a0e828b2f66042dd2b5ddd1b11a.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-term-063-1",
+   "field": "definition",
+   "claim": "SAOJI Aragón Hükümeti finanse, Baro Konseyi yönetir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:308",
+   "quote": "El SAOJI está financiado por el Gobierno de Aragón y gestionado por el Consejo de Colegios de Abogados de Aragón, gracias a un convenio de colaboración"
+  }
+ ]
+}
+
+===== KART 64/64: None =====
+{
+ "term_id": "zaragoza:term:064",
+ "city_id": "zaragoza",
+ "term": "PVPC (Precio Voluntario para el Pequeño Consumidor)",
+ "definition": "Küçük tüketici için gönüllü elektrik fiyatı; toptan elektrik piyasasına endeksli ve saatlik değişen dinamik bir fiyattır. Yalnız referans satıcılar (comercializadoras de referencia) uygulayabilir.",
+ "source_ids": "zaragoza:kaynak:073",
+ "reviewed_on": "2026-11-02",
+ "order": 64,
+ "editorial_status": "Taslak",
+ "_sekme": "Sözlük",
+ "kaynaklar": [
+  {
+   "source_id": "zaragoza:kaynak:073",
+   "url": "https://www.miteco.gob.es/es/energia/energia-electrica/electricidad/contratacion-suministro/precio-voluntario.html",
+   "publisher": "MITECO (Ministerio para la Transición Ecológica y el Reto Demográfico)",
+   "text_file": "/home/user/corteqscities/uretim/zaragoza/_is/snap_ulke_es/zaragoza_kaynak_073_es_kaynak_043.txt"
+  }
+ ],
+ "iddialar": [
+  {
+   "claim_id": "C-term-064-1",
+   "field": "definition",
+   "claim": "PVPC yalnız referans satıcılar uygular",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:073",
+   "quote": "Sólo puede ser aplicado por las denominadas comercializadoras de referencia"
+  },
+  {
+   "claim_id": "C-term-064-2",
+   "field": "definition",
+   "claim": "Toptan elektrik piyasasına endeksli, saatlik değişir",
+   "value": "",
+   "unit": "",
+   "period": "",
+   "source_id": "zaragoza:kaynak:073",
+   "quote": "precio dinámico totalmente indexado al mercado mayorista de electricidad (varía cada hora"
+  }
+ ]
+}
