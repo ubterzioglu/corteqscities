@@ -4,7 +4,7 @@ Yazıldı: 25.10.2026 (Almanya ulusal paketi v1 kurulduğu gün). Her adım **ay
 
 ## Paket
 `ROOT\ulke\DE` v1 (25.10.2026): 113 kart, 11 konu, 2120 iddia, 193 kaynak, 13 tarihli kart. Açık konular: `ulke\DE\acik_konular.md`. Sahte şehirde `country_apply apply` (113 kart) + `merge_package` (0 bulgu, 0 alıntı kaybı) denendi.
-**Bölge (eyalet) paketi henüz yok.** Almanya federal; eyalete göre değişen bilgi (tatiller, Kirchensteuer oranı, Grunderwerbsteuer, Mietpreisbremse alanı, okul/Kita, mağaza saatleri) ulusal kartta yalnız "eyalete göre değişir" çerçevesiyle duruyor.
+**Bölge (eyalet) paketi: yalnız NRW** — `ROOT\ulke\DE\bolge\nrw` v1 (02.11.2026, 14 kart; klasör eşlemesi `ulke\DE\bolge\BOLGELER.md`, açık konular `bolge\nrw\acik_konular.md`). NRW şehrinde `pack_merge --pack ulke\DE --pack ulke\DE\bolge\nrw` kullanılır (bölge klasörünün adı `nrw`, `nordrhein-westfalen` değil). Diğer eyaletlerde paket yok: Almanya federal; eyalete göre değişen bilgi (tatiller, Kirchensteuer oranı, Grunderwerbsteuer, Mietpreisbremse alanı, okul/Kita, mağaza saatleri) ulusal kartta yalnız "eyalete göre değişir" çerçevesiyle duruyor.
 
 ## Drive kataloğundaki Almanya şehirleri (33) ve eyaletleri
 - Nordrhein-Westfalen: Aachen, Bielefeld, Bochum, Bonn, Dortmund, Duisburg, Düsseldorf, Essen, Köln

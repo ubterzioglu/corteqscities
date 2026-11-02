@@ -1,0 +1,22 @@
+# Ulusal paketteki 'eyalet' geçen kartlar (NRW kartı bunları tekrarlamaz, tamamlar)
+
+- de:resmi | turkiye-belgesi-almanyada-apostil-ve-yeminli-tercume | Türkiye'de düzenlenen belgemi Almanya'da kullanmak için apostil gerekir mi; Nüfus Kayıt Örneği ve evlenme bildirimi için yeminli tercüme gerekir mi?
+- de:resmi | onayli-kopya-beglaubigung-noter-ve-kurum-yetkisi | Belgemin onaylı kopyasını (Beglaubigung) ya da imza onayını kim yapar: noter mi, kurum mu?
+- de:resmi | arac-kaydi-i-kfz-evb-hu-ve-kfz-steuer-sepa | Aracımı Almanya'da internetten kaydettirirken (i-Kfz) hangi belgeler gerekir: eVB, HU ve Kfz-Steuer için SEPA mandası?
+- de:resmi | almanyada-evlilik-ehefahigkeitszeugnis-ve-turkiyedeki-evlilik | Almanya'da evlenmek için kendi ülkemden evlenme ehliyet belgesi (Ehefähigkeitszeugnis) gerekir mi; Türkiye'deki evliliğim Almanya'da geçerli mi?
+- de:resmi | resmi-yaziya-itiraz-widerspruch-sure-ve-sonraki-yol | Resmî bir idari işleme (Verwaltungsakt) karşı itiraz (Widerspruch) için ne kadar süre var, nasıl yapılır, sonra ne olur?
+- de:para | kilise-vergisi-kirchensteuer-cerceve | Kilise vergisi (Kirchensteuer) nedir? Kim alabilir ve neye göre hesaplanır?
+- de:is | yabanci-diploma-ve-meslek-tanima-anerkennung | Almanya'da yabancı diploma ve meslek tanıma (Anerkennung): hangi meslekte zorunlu, nasıl başvurulur, ne kadar sürer ve ne kadar tutar?
+- de:saglik | saglik-ve-bakim-sigortasi-primi-2026-oranlari | Almanya'da sağlık ve bakım sigortası primi 2026'da yüzde kaç? Genel oran, ek prim (Zusatzbeitrag) ve bakım sigortası
+- de:saglik | cocuk-asilari-kizamik-zorunlulugu-cocuk-muayeneleri | Almanya'da çocuğum için aşı: kızamık aşısı zorunlu mu? Çocuk sağlık muayeneleri (Früherkennungsuntersuchungen) kimin hakkı?
+- de:ev | kira-artisi-sinirlari-mietpreisbremse-kappungsgrenze | Yeni kira bedelinin ve kira artışının sınırı var mı: Mietpreisbremse ile Kappungsgrenze nedir?
+- de:ev | wbs-sosyal-konut-belgesi-ve-wohngeld-kira-yardimi | Sosyal konuta girmek için WBS (Wohnberechtigungsschein) gerekir mi; Wohngeld (kira yardımı) nedir, nasıl başvurulur?
+- de:ev | ev-satin-alma-noter-grundbuch-grunderwerbsteuer | Almanya'da ev satın alma sözleşmesi noterde mi yapılır; Grunderwerbsteuer oranını kim belirler?
+- de:planlama | resmi-dil-almanca-yabanci-dilde-basvuru-ve-saat-dilimi | Almanya'da resmî dil Almanca: yabancı dilde başvuru ya da belge verirsen çeviri istenir mi, hangi saat dilimi geçerli?
+- de:aile | elterngeld-sure-ve-basvuru | Elterngeld (ebeveyn parası) kaç ay alınır ve ne zaman, nereye başvurulur?
+- de:aile | kita-hakki-1-yasindan-itibaren-ucret-ve-kayit | Çocuğum için kreş (Kita) hakkım var mı? Kaç yaşından itibaren, ücret ve kayıt nasıl?
+- de:aile | okul-zorunlulugu-ve-okul-sistemi-cercevesi | Almanya'da okul zorunlu mu ve yeni gelen çocuk okula nasıl yerleştirilir? Okul sistemi eyalet yetkisinde
+- de:ulasim | tren-gecikmesi-tazminat-ve-sikayet-yolu | Tren geç kalır ya da iptal olursa ne kadar tazminat alırım ve şikâyetimi nereye yaparım?
+- de:gunluk | resmi-tatiller-3-ekim-ve-eyalet-farki | Almanya'da resmî tatiller nasıl belirleniyor: 3 Ekim her yerde tatil mi, tatil sayısı eyaletlere göre değişiyor mu?
+- de:gunluk | magaza-acilis-saatleri-pazar-kapali-federal-kural | Almanya'da mağaza kapanış saatleri (Ladenschluss) federal düzeyde mi düzenleniyor?
+- de:gunluk | idari-bilgi-hatti-115-devlet-hizmet-numarasi | Almanya'da hangi kuruma soracağımı bilmiyorum: devlet bilgi hattı 115 neye bakar, ne zaman ulaşılır?

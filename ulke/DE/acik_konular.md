@@ -1,10 +1,12 @@
-# Almanya ulusal paketi v1 — açık konular (2026-10-25)
+# Almanya ulusal paketi v2 — açık konular (2026-10-25; v2: 2026-11-02)
+
+v2 (02.11.2026): yalnız `ab-disi-paket-gumruk-ve-kdv-150-euro-muafiyeti-kalkti` yenilendi. Zoll sayfası (de:kaynak:251/252) 02.11.2026'da canlı okundu; kartın 22 alıntısının 22'si sayfada duruyor. Sayfa işlem ücretini (Abfertigungspauschale, 1 Kasım 2026) hâlâ "nach jetzigem Stand" ile yazıyor; "henüz yürürlükte değil" cümlesi karttan çıktı, valid_until 2026-10-31 → 2026-12-31. Diğer 112 kart ve kaynak kopyaları değişmedi (`built` 2026-10-25 bırakıldı: kaynak kontrol tarihi o gün).
 
 Kapsam: 113 kart, 11 konu, 2120 iddia, 193 kaynak. Süreç: keşif → add_sources → yazar → pack_check → bağımsız denetim → editör → dar denetim → kısa editör. Son dar denetimlerde ciddi bulgu 0 (grup 0: 0/2/15, grup 1: 0/6/19, grup 2: 0/7/12, grup 3: 0/5/13 ciddi/orta/küçük); kısa editör turlarından sonra kalan orta bulgular aşağıda konu başlıklarında.
 Kural: şehir yazarı bu boşlukları kendi bilgisinden doldurmaz; kaynaklı ek kart ya da bölge/şehir katmanı yazar.
 
 ## Tarihe duyarlı kartlar (valid_until)
-- 2026-10-31: ab-disi-paket-gumruk-ve-kdv-150-euro-muafiyeti-kalkti
+- 2026-12-31: ab-disi-paket-gumruk-ve-kdv-150-euro-muafiyeti-kalkti (v2'de 2026-10-31'den uzatıldı; işlem ücretinin yürürlüğü ve tutarı yıl sonunda yeniden bakılacak)
 - 2026-12-31: mavi-kart-ab-sartlari
 - 2026-12-31: gelir-vergisi-2026-grundfreibetrag-dilimler
 - 2026-12-31: maas-sosyal-sigorta-kesintileri-2026
